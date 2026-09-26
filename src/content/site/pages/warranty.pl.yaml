@@ -1,0 +1,113 @@
+meta:
+  title: 'Gwarancja produkcyjna OEM i zapewnienie jakości produktu | {SITE}'
+  description: 'Warunki gwarancji produkcyjnej OEM na nadmuchiwane deski SUP i produkty morskie wykonywane przez iSupfactory: objęte wady, okres trwania, udokumentowane zapisy partii i sposób obsługi reklamacji.'
+  keywords:
+    - 'gwarancja oem'
+    - 'gwarancja produkcyjna'
+    - 'gwarancja fabryki sup'
+    - 'zapewnienie jakości produktu'
+    - 'gwarancja na nadmuchiwane sup'
+label: 'Gwarancja OEM'
+headline: 'Gwarancja produkcyjna OEM i zapewnienie jakości produktu'
+subtitle: 'Każdą produkowaną przez nas deskę budujemy według zatwierdzonej próbki i udokumentowanych zapisów partii. Ta gwarancja określa, co gwarantujemy w produktach wytwarzanych pod Twoją marką, oraz w jaki sposób rozpatrujemy reklamacje na podstawie tych zapisów.'
+seo:
+  headline: 'Gwarancja produkcyjna OEM i zapewnienie jakości produktu | iSupfactory'
+  description: 'Gwarancja produkcyjna na nadmuchiwane deski SUP i inne produkty morskie wytwarzane przez iSupfactory: 5-letnia ochrona integralności tkaniny głównej komory, szwów i rdzenia drop-stitch, a także zaworów nadmuchiwania i akcesoriów montowanych w fabryce.'
+  datePublished: '2024-01-01'
+  dateModified: '2026-09-23'
+body: |
+  <p class="text-lg text-gray-600 dark:text-gray-400 mb-8">
+    Niniejsza Gwarancja Produkcyjna dotyczy nadmuchiwanych desek SUP, kajaków i nadmuchiwanych produktów morskich wytwarzanych przez iSupfactory — działu produkcji morskiej spółki Qingdao Vatrad Group Co., Ltd. — w ramach programów OEM, ODM i private-label. Data obowiązywania to możliwa do udokumentowania data produkcji partii lub wysyłki uzgodniona w zamówieniu. Kupujący (właściciel marki) ustala politykę gwarancyjną dla użytkownika końcowego na własnym rynku; niniejsza gwarancja jest gwarancją fabryki dotyczącą wyrobu w stanie, w jakim został wyprodukowany.
+  </p>
+
+  <div class="bg-sky-50 dark:bg-gray-900 border border-sky-200 dark:border-gray-800 rounded-xl p-6 mb-10">
+    <h2 class="text-xl font-bold mb-3">Zakres i okres gwarancji produkcyjnej</h2>
+    <div class="grid md:grid-cols-2 gap-4">
+      <div class="bg-white dark:bg-gray-950 rounded-lg p-4 border border-gray-200 dark:border-gray-800">
+        <h3 class="font-bold text-sky-700 dark:text-sky-400">5 lat</h3>
+        <p class="text-sm text-gray-600 mt-1">Integralność tkaniny głównej komory (CSM/PVC)</p>
+      </div>
+      <div class="bg-white dark:bg-gray-950 rounded-lg p-4 border border-gray-200 dark:border-gray-800">
+        <h3 class="font-bold text-sky-700 dark:text-sky-400">5 lat</h3>
+        <p class="text-sm text-gray-600 mt-1">Integralność konstrukcyjna dna z włókna szklanego (tam, gdzie ma zastosowanie)</p>
+      </div>
+      <div class="bg-white dark:bg-gray-950 rounded-lg p-4 border border-gray-200 dark:border-gray-800">
+        <h3 class="font-bold text-sky-700 dark:text-sky-400">5 lat</h3>
+        <p class="text-sm text-gray-600 mt-1">Szczelność szwów nadmuchiwanej komory</p>
+      </div>
+      <div class="bg-white dark:bg-gray-950 rounded-lg p-4 border border-gray-200 dark:border-gray-800">
+        <h3 class="font-bold text-sky-700 dark:text-sky-400">5 lat</h3>
+        <p class="text-sm text-gray-600 mt-1">Działanie zaworów nadmuchiwania</p>
+      </div>
+      <div class="bg-white dark:bg-gray-950 rounded-lg p-4 border border-gray-200 dark:border-gray-800">
+        <h3 class="font-bold text-sky-700 dark:text-sky-400">1 rok</h3>
+        <p class="text-sm text-gray-600 mt-1">Akcesoria montowane w fabryce i elementy pomocnicze</p>
+      </div>
+      <div class="bg-white dark:bg-gray-950 rounded-lg p-4 border border-gray-200 dark:border-gray-800">
+        <h3 class="font-bold text-amber-700 dark:text-amber-400">1 rok*</h3>
+        <p class="text-sm text-gray-600 mt-1">Użytkowanie komercyjne, wynajem lub flota — wszystkie komponenty</p>
+      </div>
+    </div>
+    <p class="text-xs text-gray-500 mt-4">*Użytkowanie komercyjne, rządowe, czarterowe, wynajem lub nauczanie skraca gwarancję do 1 roku. Użytkowanie wyścigowe lub w zawodach sportowych znosi gwarancję całkowicie, chyba że konfiguracja przeznaczona do wyścigów została wyraźnie objęta umową zakupową.</p>
+  </div>
+
+  <h2>Co jest objęte gwarancją</h2>
+  <h3>Tkanina głównej komory (5 lat)</h3>
+  <p>Fabryka gwarantuje integralność tkaniny głównej komory pod względem pogorszenia porowatości, które w istotny sposób pogarsza zdolność produktu do utrzymania ciśnienia roboczego. Dotyczy to tkaniny powlekanej CSM (Hypalon) oraz wszystkich pozostałych materiałów tkaniny komór stosowanych w produkcji.</p>
+
+  <h3>Integralność konstrukcyjna dna z włókna szklanego (5 lat)</h3>
+  <p>W przypadku produktów z dnem z tworzywa wzmacnianego włóknem szklanym (FRP) podstawowa konstrukcja kompozytowa objęta jest gwarancją na wady materiałowe lub wykonawcze powodujące jej zniszczenie strukturalne.</p>
+
+  <h3>Szczelność szwów nadmuchiwanej komory (5 lat)</h3>
+  <p>Szwy nadmuchiwanych komór, łączone podczas produkcji, objęte są gwarancją na wady produkcyjne skutkujące istotnym przeciekiem powietrza przez szew. Okresowa kontrola i konserwacja właściwych ciśnień nadmuchania są warunkiem objęcia gwarancją.</p>
+
+  <h3>Działanie zaworów nadmuchiwania (5 lat)</h3>
+  <p>Zawory do nadmuchywania powietrza montowane oryginalnie podczas produkcji objęte są gwarancją na wady materiałowe lub wykonawcze uniemożliwiające zachowanie szczelności zaworu zgodnie z projektem.</p>
+
+  <h3>Akcesoria montowane w fabryce (1 rok)</h3>
+  <p>Komponenty i elementy montowane w fabryce objęte są gwarancją na wady materiałowe i wykonawcze przez jeden rok. Wyłącza to elementy firm trzecich, które objęte są wyłącznie gwarancjami swoich producentów.</p>
+
+  <h2>Czego gwarancja nie obejmuje</h2>
+  <ul>
+    <li>Wad kosmetycznych, w tym przebarwień, plam, blaknięcia, kredowania lub jakichkolwiek zmian wyglądu</li>
+    <li>Przekłuć, nacięć, rozdarć, pęknięć lub innych uszkodzeń mechanicznych</li>
+    <li>Pęknięć powierzchniowych, rys, ścierania, zarysowań lub zużycia wskutek tarcia lub kontaktu</li>
+    <li>Degradacji wskutek ekspozycji na światło UV, wietrzenie lub warunki atmosferyczne</li>
+    <li>Uszkodzeń wskutek kontaktu z paliwami, rozpuszczalnikami, kwasami, zasadami lub substancjami chemicznymi</li>
+    <li>Uszkodzeń wskutek zaniedbania, nieprawidłowego użytkowania, nadużyć, wypadku lub typowego zużycia eksploatacyjnego</li>
+    <li>Problemów powłoki żelowej lub lakieru (pęcherze, pęknięcia powierzchniowe, przebarwienia, blaknięcie)</li>
+    <li>Uszkodzeń wskutek uderzeń, naprężeń, nieprawidłowego podparcia lub holowania na przyczepie</li>
+    <li>Uszkodzeń wskutek nieprawidłowego nadmuchiwania/spuszczania powietrza lub użycia niezatwierdzonych urządzeń do nadmuchywania</li>
+    <li>Urządzeń, komponentów lub systemów firm trzecich (objętych gwarancjami ich producentów)</li>
+  </ul>
+
+  <h2>Obowiązek i środek zaradczy producenta</h2>
+  <p>Jedynym i wyłącznym obowiązkiem fabryki jest naprawa lub wymiana — według jej wyboru — każdego komponentu, który uznano za wadliwy w zakresie materiałów lub wykonania i objęty niniejszą gwarancją. Naprawy lub wymiany wykonywane są przez fabrykę lub jej wyznaczony autoryzowany punkt serwisowy. Komponenty naprawione lub wymienione objęte są gwarancją wyłącznie na niewykorzystany okres pozostały z pierwotnego okresu gwarancji.</p>
+
+  <h2>Warunki gwarancji</h2>
+  <ul>
+    <li><strong>Numer partii:</strong> Reklama musi wskazywać zamówienie, numer partii lub zakres numerów seryjnych, aby fabryka mogła pobrać odpowiednie zapisy inspekcyjne.</li>
+    <li><strong>Wzorzec specyfikacji:</strong> Reklamacje ocenia się względem zatwierdzonej próbki, specyfikacji technicznej, projektu graficznego i BOM zamrożonych dla danej partii — tych samych punktów odniesienia użytych w produkcji.</li>
+    <li><strong>Konserwacja:</strong> Produkt musi być utrzymywany zgodnie z opublikowanymi wytycznymi pielęgnacji, w tym okresową kontrolą i konserwacją właściwych ciśnień nadmuchania.</li>
+    <li><strong>Współpraca:</strong> Zgłaszający musi w pełni i niezwłocznie współpracować z fabryką we wszystkich sprawach dotyczących reklamacji gwarancyjnych, w tym umożliwiając oględziny wadliwych egzemplarzy.</li>
+    <li><strong>Polityka gwarancyjna kupującego:</strong> Kupujący jako właściciel marki określa program gwarancyjny dla użytkownika końcowego na swoim rynku. Niniejsza gwarancja produkcyjna to zobowiązanie fabryki wobec wyrobu w stanie, w jakim został wyprodukowany.</li>
+  </ul>
+
+  <h2>Użytkowanie komercyjne</h2>
+  <p>Jeśli produkt jest używany w celach komercyjnych, rządowych, non-profit, czarterowych, wynajmu, nauczania lub w jakimkolwiek celu innym niż prywatne użytkowanie rekreacyjne, okres gwarancji wszystkich komponentów skraca się do jednego (1) roku od daty obowiązywania. Użytkowanie wyścigowe, w zawodach prędkościowych lub wytrzymałościowych znosi gwarancję całkowicie, chyba że konfiguracja przeznaczona do wyścigów została wyraźnie objęta umową zakupową.</p>
+
+  <h2>Jak zgłosić reklamację gwarancyjną</h2>
+  <p>Skontaktuj się z iSupfactory, podając numer zamówienia lub partii oraz szczegółowy opis problemu, w tym numery seryjne desek, jeśli są dostępne. Fabryka zweryfikuje reklamację względem zapisów partii i udzieli instrukcji dotyczących oględzin i obsługi serwisowej.</p>
+  <p>W sprawach serwisu gwarancyjnego skontaktuj się z nami przez <a href="/pl/contact" class="text-sky-600 underline">stronę kontaktową</a>, podając numer zamówienia i szczegóły produktu.</p>
+
+  <div class="bg-sky-50 dark:bg-gray-900 border border-sky-200 dark:border-gray-800 rounded-xl p-6 my-10">
+    <h2 class="text-xl font-bold mb-3">Oparty na udokumentowanym systemie jakości</h2>
+    <p class="text-sm text-gray-600 dark:text-gray-400">Każda deska jest badana przed pakowaniem — <a href="/pl/factory/quality-inspection" class="text-sky-600 underline">7-etapowe bramki inspekcyjne</a> rejestrują wyniki dla każdego numeru seryjnego, a partie zachowują 10-letni identyfikowalność w systemie ERP. Reklamacje gwarancyjne rozpatruje się na podstawie tych zapisów, a nie w oparciu o domysły. Zobacz <a href="/pl/quality" class="text-sky-600 underline">pełny system jakości</a> i pobierz aktualne <a href="https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_FQC_TEST_REPORTS.pdf" class="text-sky-600 underline">raporty z kontroli odbiorczej</a>.</p>
+  </div>
+
+  <h2>Elementy firm trzecich</h2>
+  <p>Urządzenia, komponenty lub systemy wytworzone przez firmy trzecie (nawet jeśli zamontowane przez fabrykę) są objęte wyłącznie gwarancją oferowaną przez ich właściwych producentów. Fabryka wyraźnie zrzeka się odpowiedzialności gwarancyjnej za takie elementy firm trzecich.</p>
+
+  <p class="text-sm text-gray-500 mt-8 border-t border-gray-200 dark:border-gray-800 pt-6">
+    Niniejsze oświadczenie gwarancyjne jest streszczeniem warunków gwarancji produkcyjnej fabryki dla programów OEM, ODM i private-label. Obowiązującymi warunkami gwarancji są postanowienia pełnej umowy zakupowej. Specyfikacje mogą ulec zmianie bez uprzedzenia. iSupfactory jest działem produkcyjnym spółki Qingdao Vatrad Group.
+  </p>

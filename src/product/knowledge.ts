@@ -1135,6 +1135,130 @@ export const knowledge: Localized<KnowledgeArticle[]> = {
       ],
     },
   ],
+  pl: [
+    {
+      slug: 'how-custom-sup-boards-are-developed',
+      navLabel: 'Jak powstają deski SUP na zamówienie',
+      metaTitle: 'Jak powstają deski SUP na zamówienie | iSupfactory',
+      metaDescription:
+        'Jak deska SUP na zamówienie przechodzi od pomysłu do fabryki: specyfikacja, projekt, prototyp, próbki i produkcja — krok po kroku.',
+      kicker: 'Wiedza',
+      h1: 'Jak powstają deski SUP na zamówienie',
+      intro:
+        'Zanim deska SUP na zamówienie trafi do Twoich klientów, przechodzi ustaloną ścieżkę rozwoju. Znajomość każdego etapu pomaga Ci przygotować brief dla fabryki, zaplanować realne terminy i uniknąć typowych błędów przy pierwszych zamówieniach.',
+      sections: [
+        {
+          title: 'Etap 1: Zdefiniuj potrzebę',
+          body: [
+            'Każdy projekt rozwojowy zaczyna się od scenariusza użycia: kto ma korzystać z deski, gdzie i jak często. Deska do floty wypożyczalniczej różni się od deski na premierę marki własnej lub deski szkolnej — stabilność, trwałość i cele kosztowe zmieniają się wraz z odpowiedzią.',
+            'Zapisz ilości, docelową cenę i wymagane funkcje, zanim skontaktujesz się z fabryką. Jasne wymagania przekładają się na lepszą pierwszą ofertę i mniej pracy w obie strony.',
+          ],
+        },
+        {
+          title: 'Etap 2: Zatwierdź specyfikację',
+          body: [
+            'Specyfikacja zamienia potrzebę na mierzalne wartości: długość, szerokość, grubość, objętość, materiały (gęstość drop-stitch, gramatura tkaniny), układ płetw, limit obciążenia i opakowanie.',
+            'To dokument, względem którego obie strony składają ofertę. Późniejsze zmiany idą wolniej i kosztują więcej — zamrożona specyfikacja jest najtańsza w utrzymaniu.',
+          ],
+        },
+        {
+          title: 'Etap 3: Projekt i grafika',
+          body: [
+            'Po zatwierdzeniu specyfikacji zaczyna się praca nad projektem: kształt deski, schematy kolorystyczne, rozmieszczenie logo, grafika pokładu oraz dopasowane akcesoria (smycz, wiosło, płetwa, plecak).',
+            'Producenci mogą przygotować cyfrowe makiety, dzięki czemu zatwierdzisz wygląd, zanim cokolwiek zostanie wyprodukowane — taniej i szybciej niż iterowanie na fizycznych prototypach.',
+          ],
+        },
+        {
+          title: 'Etap 4: Prototyp i próbka',
+          body: [
+            'Próbka to pierwszy fizyczny dowód. W przypadku nadmuchiwanych desek oznacza to deskę wykonaną ręcznie albo pochodzącą z produkcji pilotażowej, na której można pływać i testować ją względem specyfikacji.',
+            'Testuj próbkę tak, jak zrobiłby to Twoi klienci: stabilność, sztywność, stabilność kierunkowa, waga i to, jak grafica się sprawuje. Solidna runda prób zwykle wyłapuje większość problemów przed produkcją.',
+          ],
+        },
+        {
+          title: 'Etap 5: Produkcja i dostawa',
+          body: [
+            'Po akceptacji próbki produkcję prowadzi się partiami z punktami kontroli jakości. Inspekcja w fabryce przed wysyłką — zdjęcia, wideo lub inspekcja strony trzeciej — chroni partię, którą otrzymujesz.',
+            'Dobry harmonogram projektu liczy się wstecz od daty premiery, a nie w przód od daty zamówienia.',
+          ],
+        },
+      ],
+    },
+    {
+      slug: 'inflatable-sup-construction-explained',
+      navLabel: 'Budowa nadmuchiwanej deski SUP, wyjaśniona',
+      metaTitle: 'Budowa nadmuchiwanej deski SUP: materiały i warstwy | iSupfactory',
+      metaDescription:
+        'Z czego składa się nadmuchiwana deska SUP — warstwy PCV, tkanina drop-stitch, listwy krawędziowe i wskaźniki jakości — abyś mógł trafniej określić wymagania dla swojego projektu.',
+      kicker: 'Wiedza',
+      h1: 'Budowa nadmuchiwanej deski SUP, wyjaśniona',
+      intro:
+        'Większość dzisiejszych projektów z deskami SUP na zamówienie to deski nadmuchiwane. Są lżejsze, łatwiejsze w przechowywaniu i transporcie, a przy tym bardziej wybaczające dla początkujących. Ten przewodnik wyjaśnia budowę, abyś mógł świadomie określać wymagania jakościowe.',
+      sections: [
+        {
+          title: 'Rdzeń: tkanina drop-stitch',
+          body: [
+            'Deska nadmuchiwana jest zbudowana wokół tkaniny drop-stitch: tysiące nitek poliestrowych łączy warstwę górną i dolną z PCV. Po napompowaniu deski nity utrzymują ją na stałej grubości — to one nadają desce SUP kształt i sztywność.',
+            'Wyższa gęstość nitek (liczba szwów na cal kwadratowy) daje sztywniejszą i stabilniejszą deskę przy tym samym ciśnieniu. Deski budżetowe stosują niższą gęstość, deski premium — wyższą.',
+          ],
+        },
+        {
+          title: 'Warstwy PCV i listwy krawędziowe',
+          body: [
+            'Tkanina jest osadzona między warstwami PCV, które chronią przed ścieraniem, promieniowaniem UV i uderzeniami. Grubsze PCV (więcej mils lub milimetrów) lepiej znosi przebicia, ale waży więcej.',
+            'Listwa krawędziowa — boki deski — przejmuje większość obciążeń w codziennym użytkowaniu. Listwa z warstwy podwójnej lub potrójnej to mocny wskaźnik trwałości i przydatności do wypożyczalni.',
+          ],
+        },
+        {
+          title: 'Co daje wagę, a co wytrzymałość',
+          body: [
+            'Waga to kompromis: grubsze PCV zwiększa zarówno trwałość, jak i masę; lżejsza konstrukcja sprawdza się u osób, które dalej noszą deskę. To jeden z najwyraźniejszych przykładów dopasowania specyfikacji na zamówienie do realiów kupującego.',
+            'Wskaźniki jakości, o które warto poprosić: ciśnienie znamionowe, konstrukcja szwów, rodzaj zaworów i gęstość drop-stitch. Poważne fabryki publikują te dane.',
+          ],
+        },
+      ],
+    },
+    {
+      slug: 'how-organizations-choose-sup-equipment',
+      navLabel: 'Jak organizacje wybierają sprzęt SUP',
+      metaTitle: 'Jak ośrodki, kluby i szkoły wybierają sprzęt SUP',
+      metaDescription:
+        'Jak ośrodki, kluby i szkoły wybierają sprzęt SUP: wielkość floty, rodzaje desek, trwałość, przechowywanie i budżet programu, który ma działać długo.',
+      kicker: 'Wiedza',
+      h1: 'Jak organizacje wybierają sprzęt SUP',
+      intro:
+        'Ośrodki, kluby i szkoły kupują inaczej niż marki konsumenckie: sprzęt musi wytrzymać codzienne użytkowanie, odpowiadać mieszanym poziomom zaawansowania i mieścić się w budżecie programu. Ten schemat obejmuje decyzje, które mają realne znaczenie.',
+      sections: [
+        {
+          title: 'Dopasuj wielkość floty do sposobu użytkowania',
+          body: [
+            'Policz, ilu wioślarzy jest na wodzie jednocześnie, a nie ilu masz gości. Ośrodek, który wypożycza rotacyjnie, potrzebuje mniej desek niż szkoła prowadząca zajęcia równoległe — i więcej części zamiennych.',
+            'Dobra reguła kciuka: jedna deska na jednego wioślarza w danej chwili plus 10–15% rezerwy na konserwację i rozbudowę.',
+          ],
+        },
+        {
+          title: 'Dopasuj rodzaje desek do poziomów zaawansowania',
+          body: [
+            'Początkującym najbardziej służą szersze deski o większej objętości, które sprawiają wrażenie stabilnych; doświadczeni wioślarze preferują węższe deski pływające szybciej. Flota mieszana — głównie przyjazna początkującym, z kilkoma deskami sportowymi — pasuje do większości programów.',
+            'Deski wieluosobowe zasługują na miejsce w szkołach i programach grupowych: pozwalają instruktorom prowadzić zajęcia i mogą zastąpić kilka pojedynczych desek w rotacji klas.',
+          ],
+        },
+        {
+          title: 'Trwałość to decyzja budżetowa',
+          body: [
+            'Konstrukcja klasy wypożyczalniczej kosztuje więcej na start, ale oszczędza pieniądze w ciągu dwóch–trzech sezonów. Zapytaj o wzmocnienie krawędzi, grubość PCV i jaką gwarancję fabryka daje na zamówienia flotowe.',
+            'Zaplanuj też przechowywanie i pompowanie: sprężarki, stojaki i procedury pakowania decydują o codziennej pracy programu. Dostawcy flot włączają to w pakiet.',
+          ],
+        },
+        {
+          title: 'Zaplanuj program, a nie tylko zamówienie',
+          body: [
+            'Najlepsze zamówienia sprzętu są częścią planu programu: szkolenia instruktorów, procedury konserwacji i cykl wymiany zużytych desek. Organizacje, które planują program, odnawiają sprzęt w ustalonych terminach; pozostałe kupują awaryjne części zamienne po pełnej cenie.',
+          ],
+        },
+      ],
+    },
+  ],
 }
 
 export function getArticle(locale: Locale, slug: string): KnowledgeArticle | undefined {
@@ -1201,5 +1325,11 @@ export const knowledgeMeta: Localized<KnowledgeMeta> = {
     metaDescription:
       'Praktiske guider om skreddersydd SUP-produktutvikling, konstruksjon av oppblåsbare brett og val av SUP-utstyr for resorts, klubber og skoler.',
     h1: 'Kunnskapssenter — produktutvikling, forklart',
+  },
+  pl: {
+    metaTitle: 'Centrum wiedzy: przewodniki rozwoju produktów SUP | iSupfactory',
+    metaDescription:
+      'Praktyczne przewodniki o rozwoju produktów SUP na zamówienie, o budowie nadmuchiwanych desek oraz o wyborze sprzętu SUP dla ośrodków, klubów i szkół.',
+    h1: 'Centrum wiedzy — rozwój produktów, po polsku',
   },
 }

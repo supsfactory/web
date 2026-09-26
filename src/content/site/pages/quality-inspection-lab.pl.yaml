@@ -1,0 +1,145 @@
+meta:
+  title: 'Laboratorium Jakości i Inspekcji — badania SUP zgodne z ISO'
+  description: 'Niezależna weryfikacja jakości nadmuchiwanych desek SUP: badania rozciągania, cykle utrzymania powietrza, testy zrywania szwów i certyfikacja materiałów.'
+back_text: 'Powrót do centrum B&R'
+home_label: 'Strona główna'
+
+hero:
+  tagline: 'Laboratorium 06'
+  title: 'Laboratorium Jakości i Inspekcji'
+  subtitle: 'Niezależna weryfikacja — każde badanie zaliczone przed dostawą'
+  image: 'https://assets.isupfactory.com/images/sups/factory/isupfactory-uv-resistance-testing.webp'
+  image_alt: 'Laboratorium inspekcji jakości Vatrad — badania UV'
+
+answer:
+  label: 'Krótka odpowiedź'
+  text: 'Każda deska jest sprawdzana względem opublikowanych specyfikacji przed wysyłką: 100% próba utrzymania ciśnienia po nadmuchaniu przy 18.0 PSI przez 24 godziny (automatyczne odrzucenie przy spadku powyżej 0.50 PSI), badania rozciągania i zrywania szwów wg ISO 1421 oraz 100-punktowa lista kontrolna montażu. Laboratorium raportuje do prezesa zarządu, a nie do produkcji, i może wstrzymać każdą wysyłkę.'
+  verified: 'Wrzesień 2026'
+
+intro: 'Każda deska opuszczająca nasz warsztat ma potwierdzenie, że przeszła określony zestaw inspekcji jakości i badań materiałowych. Nasze Laboratorium Jakości i Inspekcji jest niezależną funkcją w organizacji — raportuje bezpośrednio do prezesa zarządu, a nie do produkcji — dzięki czemu żadna presja handlowa nie może osłabić bramki kontrolnej. Jeśli partia materiału lub gotowa deska nie spełnia opublikowanej specyfikacji, laboratorium ma upoważnienie do wstrzymania wysyłki, dopóki niezgodność nie zostanie wyeliminowana.'
+
+content_html: |
+  <h2>Ufaj, ale sprawdzaj</h2>
+  <p>Laboratorium działa w ramach systemu zarządzania jakością zgodnego z zasadami ISO 9001, a nasze metody badawcze opierają się na normach ISO, ASTM i EN wszędzie tam, gdzie to możliwe. Prowadzimy szczegółowe zapisy każdego wykonanego badania, tworząc pełny łańcuch identyfikowalności od przyjęcia surowca po dostarczenie gotowej deski.</p>
+
+  <h2>Sprzęt i możliwości badawcze</h2>
+  <table>
+    <thead><tr><th>Urządzenie</th><th>Wykonywane badania</th><th>Norma / metoda</th></tr></thead>
+    <tbody>
+      <tr><td>Uniwersalna maszyna wytrzymałościowa (50 kN)</td><td>Wytrzymałość na rozciąganie (tkanina), odporność na rozwarstwienie (szwy), propagacja pęknięcia</td><td>ISO 1421, ISO 4674</td></tr>
+      <tr><td>Stanowisko do prób utrzymania powietrza (programowalne)</td><td>Trwałość 1000 cykli nadmuchiwania/spuszczania, 30-minutowa próba utrzymania ciśnienia</td><td>Wewnętrzna (wg metody ISO 6185)</td></tr>
+      <tr><td>Przyrząd do zrywania szwów (napędzany, zryw 180°)</td><td>Wytrzymałość szwów spawanych i klejonych na zrywanie przy 100 mm/min</td><td>ISO 1421 / ASTM D1876</td></tr>
+      <tr><td>Tester ciśnienia hydrostatycznego</td><td>Odporność tkaniny na przenikanie wody (0–1000 mbar)</td><td>ISO 811</td></tr>
+      <tr><td>Cyfrowy grubościomierz i mikrometr</td><td>Grubość tkaniny, grubość szwu, grubość warstwy kleju</td><td>ISO 2286-3</td></tr>
+      <tr><td>Komora środowiskowa</td><td>Kondycjonowanie temperaturowe (-40 °C do +80 °C) do badań pękania na zimno i starzenia cieplnego</td><td>ISO 188, ISO 4675</td></tr>
+      <tr><td>Spektrofotometr kolorymetryczny</td><td>Pomiar różnicy koloru Delta-E po ekspozycji na UV</td><td>ISO 105-A05 / ASTM D2244</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Bramki kontrolne — od materiału po dostawę</h2>
+  <p>Każda deska podlega określonemu planowi jakości z obowiązkowymi punktami kontrolnymi. Żadna deska nie może pominąć bramki; każdą bramkę musi zatwierdzić inspektor jakości, zanim rozpocznie się kolejny etap produkcji.</p>
+
+  <div class="not-prose my-8">
+    <div class="relative">
+      <div class="absolute left-4 top-0 bottom-0 w-0.5 bg-blue-200 dark:bg-blue-800"></div>
+      <div class="space-y-6 relative">
+        <div class="flex gap-4">
+          <div class="flex-shrink-0 w-8 h-8 rounded-full bg-blue-600 text-white flex items-center justify-center text-xs font-bold z-10">Bramka 1</div>
+          <div class="flex-1 p-3 rounded-lg bg-white dark:bg-gray-950 border border-gray-200 dark:border-gray-800">
+            <p class="text-sm font-semibold">Kontrola materiału przychodzącego</p>
+            <p class="text-xs text-gray-500 mt-1">Partia tkaniny, rdzeń drop-stitch, partia kleju, osprzęt — wszystko sprawdzane względem specyfikacji wejściowej przed dopuszczeniem do produkcji.</p>
+          </div>
+        </div>
+        <div class="flex gap-4">
+          <div class="flex-shrink-0 w-8 h-8 rounded-full bg-blue-600 text-white flex items-center justify-center text-xs font-bold z-10">Bramka 2</div>
+          <div class="flex-1 p-3 rounded-lg bg-white dark:bg-gray-950 border border-gray-200 dark:border-gray-800">
+            <p class="text-sm font-semibold">Kontrola szwów w trakcie procesu</p>
+            <p class="text-xs text-gray-500 mt-1">Pierwsza próbka szwu (zrywanie + kontrola wizualna) badana na początku każdej zmiany produkcyjnej.</p>
+          </div>
+        </div>
+        <div class="flex gap-4">
+          <div class="flex-shrink-0 w-8 h-8 rounded-full bg-blue-600 text-white flex items-center justify-center text-xs font-bold z-10">Bramka 3</div>
+          <div class="flex-1 p-3 rounded-lg bg-white dark:bg-gray-950 border border-gray-200 dark:border-gray-800">
+            <p class="text-sm font-semibold">Próba powietrzna komory</p>
+            <p class="text-xs text-gray-500 mt-1">Deska napompowywana do 18.0 PSI (12–15 PSI robocze), utrzymywana 24 h. Spadek ciśnienia &gt; 0.50 PSI powoduje automatyczne odrzucenie. Dane zapisywane dla każdego numeru seryjnego.</p>
+          </div>
+        </div>
+        <div class="flex gap-4">
+          <div class="flex-shrink-0 w-8 h-8 rounded-full bg-blue-600 text-white flex items-center justify-center text-xs font-bold z-10">Bramka 4</div>
+          <div class="flex-1 p-3 rounded-lg bg-white dark:bg-gray-950 border border-gray-200 dark:border-gray-800">
+            <p class="text-sm font-semibold">Kontrola przed wysyłką</p>
+            <p class="text-xs text-gray-500 mt-1">Kontrola gotowej deski: dokręcenie wszystkich elementów, przyczepność dokładki pokładowej, ustawienie grafiki, brak wad wizualnych. Lista kontrolna 100 punktów.</p>
+          </div>
+        </div>
+        <div class="flex gap-4">
+          <div class="flex-shrink-0 w-8 h-8 rounded-full bg-blue-600 text-white flex items-center justify-center text-xs font-bold z-10">Bramka 5</div>
+          <div class="flex-1 p-3 rounded-lg bg-white dark:bg-gray-950 border border-gray-200 dark:border-gray-800">
+            <p class="text-sm font-semibold">Certyfikacja końcowa</p>
+            <p class="text-xs text-gray-500 mt-1">Zestawienie raportów z badań, przegląd zapisów inspekcyjnych, wydanie świadectwa zgodności.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <h2>Standardowe kontrole każdej partii</h2>
+  <div class="not-prose my-8 grid grid-cols-2 md:grid-cols-4 gap-4">
+    <div class="p-4 rounded-lg border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-950 text-center">
+      <span class="block text-2xl font-bold text-blue-600">18 PSI</span>
+      <span class="text-xs text-gray-500">18.0 PSI w próbie powietrznej komory, utrzymywane 24 h</span>
+    </div>
+    <div class="p-4 rounded-lg border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-950 text-center">
+      <span class="block text-2xl font-bold text-blue-600">&gt; 5 %</span>
+      <span class="text-xs text-gray-500">Spadek ciśnienia uruchamia automatyczne odrzucenie</span>
+    </div>
+    <div class="p-4 rounded-lg border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-950 text-center">
+      <span class="block text-2xl font-bold text-blue-600">100 %</span>
+      <span class="text-xs text-gray-500">Komory badane powietrzem przed montażem</span>
+    </div>
+    <div class="p-4 rounded-lg border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-950 text-center">
+      <span class="block text-2xl font-bold text-blue-600">ISO 9001</span>
+      <span class="text-xs text-gray-500">System zarządzania jakością</span>
+    </div>
+  </div>
+
+  <h2>Nasz zespół jakości</h2>
+  <p>Laboratorium obsługuje kierownik jakości (10 lat w QA dla branży morskiej, certyfikowany inżynier jakości ASQ), dwóch inspektorów jakości (każdy z certyfikatem NDT poziom 2 w zakresie badań wizualnych) oraz technika materiałowego odpowiedzialnego za wszystkie badania fizyczne. Zespół przechodzi coroczne badania kompetencji prowadzone przez niezależnego dostawcę zewnętrznego, aby zapewnić, że nasze wyniki pozostają dokładne i powtarzalne.</p>
+
+  <h2>Niezależne badania dla klientów</h2>
+  <p>Nasze Laboratorium Jakości i Inspekcji jest dostępne jako usługa niezależnych badań. Jeśli musisz zweryfikować specyfikację tkaniny, zwalidować nowy system klejenia lub uzyskać raport z badań firmy trzeciej na potrzeby kwalifikacji dostawcy, wykonamy badania wg obowiązującej normy i wystawimy certyfikowany raport.</p>
+  <p>Przykłady ostatnich badań wykonywanych na zlecenie:</p>
+  <ul>
+    <li>Porównanie wytrzymałości na zrywanie pięciu konkurencyjnych produktów z folii klejowej dla europejskiego programu zakupowego.</li>
+    <li>Przyspieszone badanie starzenia (UV + cykle termiczne) dla nowej receptury PCV z pomarańczowym pigmentem, z regularnymi pomiarami okresowymi co 500 h.</li>
+    <li>Walidacja utrzymania powietrza dla 50 prototypowych zespołów zaworowych do nowego projektu deski wysokociśnieniowej.</li>
+  </ul>
+
+  <h2>Nasze zobowiązanie wobec Ciebie</h2>
+  <p>Gdy otrzymujesz deskę {SITE.name}, otrzymujesz również jej dokumentację jakościową — zestawienie wyników badań mających zastosowanie do Twojej konkretnej deski. Certyfikat partii tkaniny, badania zrywania szwów, logi prób powietrznych komór i lista kontrolna przed wysyłką. Każda liczba jest identyfikowalna. Każdy inspektor jest zidentyfikowany. To nie jest tylko papierologia — to nasza obietnica, że to, co dostarczyliśmy, jest tym, co zadeklarowaliśmy.</p>
+  <p>Jeśli kiedykolwiek masz wątpliwości jakościowe, możesz skontaktować się z laboratorium bezpośrednio — dane kontaktowe są wydrukowane na Twoim świadectwie zgodności. Traktujemy poważnie każde zapytanie i zobowiązujemy się do formalnego dochodzenia w ciągu 48 godzin.</p>
+
+  <h2>Co się dzieje, gdy deska nie przejdzie inspekcji?</h2>
+  <p>Deska, która nie przeszła kontroli, nigdy nie znika po cichu. Laboratorium stosuje ustaloną ścieżkę postępowania z niezgodnościami, dzięki czemu problem jest ograniczany, korygowany i nie może się powtórzyć:</p>
+  <ul>
+    <li><strong>Odizolowanie</strong> — deska otrzymuje etykietę, jest wycofana z linii i wpisana do rejestru niezgodności z nazwiskiem inspektora i kryteriami, których nie spełniła.</li>
+    <li><strong>Poprawka lub złomowanie</strong> — wady nadające się do naprawy (np. zawór, szew listwy krawędziowej lub róg dokładki pokładowej) są poprawiane przez certyfikowanego operatora, a naprawiony obszar jest ponownie badany wg tej samej normy. Deski, które nie mogą spełnić specyfikacji, są złomowane, a nie obniżane.</li>
+    <li><strong>Ponowna inspekcja</strong> — każda poprawiona deska ponownie przechodzi całą dotkniętą bramkę, zanim może wrócić na linię pakowania.</li>
+    <li><strong>Dopuszczenie</strong> — tylko deski z zatwierdzonymi wszystkimi bramkami opuszczają zakład. Wskaźnik odrzuceń, przyczyna źródłowa i działanie korygujące są podsumowane w raporcie jakości partii.</li>
+  </ul>
+
+  <h2>Dokumentacja jakości, którą otrzymujesz</h2>
+  <p>Każda partia wysyłana jest z pakietem dokumentów, który Twój zespół QC może poddać audytowi: certyfikat partii (numery partii tkaniny, kleju, osprzętu), zapisy badań zrywania szwów, logi prób powietrznych komór dla każdego numeru seryjnego, podpisana 100-punktowa lista kontrolna przed wysyłką, specyfikacja ładunkowa oraz udokumentowany fotograficznie stan Twoich desek przed załadunkiem.</p>
+
+cta:
+  title: 'Poproś o przykładową listę kontrolną QC'
+  subtitle: 'Zobacz dokładne bramki inspekcyjne, metody badań i dokumenty, względem których sprawdzana byłaby Twoja partia — wyślij typ deski i ilość.'
+  actions:
+    - variant: primary
+      text: 'Poproś o listę kontrolną QC'
+      href: /pl/contact#quality-inquiry
+    - text: '7-etapowy system inspekcji'
+      href: /pl/quality
+    - text: 'Laboratorium jakości fabryki i raporty z badań'
+      href: /pl/factory/quality-lab
+    - text: 'Norma postępowania z niezgodnościami'
+      href: /pl/factory/non-conforming-control

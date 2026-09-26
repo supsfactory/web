@@ -1,0 +1,347 @@
+meta:
+  title: 'Fabryka i produkcja — nadmuchiwane SUP OEM'
+  description: 'Zwiedź fabrykę Vatrad: zakład 12,500 m² z cięciem, zgrzewaniem HF, drukiem, montażem i laboratorium jakości dla produkcji nadmuchiwanych desek SUP OEM/ODM.'
+  dateModified: '2026-08-07'
+  keywords:
+    - 'fabryka sup Chiny'
+    - 'fabryka nadmuchiwanych desek paddle'
+    - 'producent oem sup'
+    - 'produkcja nadmuchiwanych sup'
+hero:
+  tagline: Fabryka
+  title: Fabryka i produkcja
+  subtitle: Fabryka desek SUP o powierzchni 12,500 m2 w Qingdao, Chiny — produkcja nadmuchiwanych desek paddle na zamówienie od surowego PCV po gotowy produkt
+
+answer:
+  label: 'Wprost'
+  text: 'Certyfikowana fabryka nadmuchiwanych desek SUP w Qingdao w Chinach: ISO 9001, ISO 25649, BSCI, CE, REACH i RoHS. Zakład 12,500 m² w 4 wyspecjalizowanych oddziałach, ponad 350 pracowników, roczna produkcja 120,000+ desek (10,000 desek/miesiąc na 4 zautomatyzowanych liniach). Każda deska jest badana ciśnieniowo przy 18.0 PSI przez 24 godziny, przechodzi listę kontrolną montażu w 100 punktach i ma 10-letnią identyfikowalność materiałową.'
+  verified: 'Wrzesień 2026'
+
+intro:
+  - Jako dział produkcyjny **Qingdao Vatrad Group Co., Ltd.** Vatrad kontroluje każdy etap produkcji nadmuchiwanych desek SUP —od przyjazdu surowych materiałów PCV po ostatnią inspekcję gotowej deski przed wysyłką. Nasz zakład w Strefie Rozwoju Gospodarczego Qingdao zajmuje 12,500 metrów kwadratowych i mieści dedykowane oddziały cięcia PCV, laminowania rdzenia drop-stitch, druku cyfrowego desek SUP, montażu końcowego oraz badań jakości.
+  - Integrując projekt, inżynierię, prototypowanie, produkcję i badania pod jednym dachem, eliminujemy nieefektywność produkcji kontraktowej i utrzymujemy bezpośrednią kontrolę nad jakością wykonania, doborem materiałów i terminami dostaw. Każda deska SUP opuszczająca nasz oddział jest zbudowana przez naszych ludzi, na naszym sprzęcie, według naszych standardów.
+
+stats:
+  - value: 12,500 m2
+    label: Powierzchnia produkcyjna
+  - value: 350+
+    label: Wykwalifikowanych pracowników
+  - value: 120,000+
+    label: Desek SUP rocznie
+  - value: ISO 9001
+    label: Certyfikacja jakości
+
+intelligence_tagline: Wiedza o fabryce
+intelligence_title: Poznaj nasze możliwości produkcyjne
+
+intelligence_cards:
+  - title: Zdolność produkcyjna
+    icon: C
+    icon_bg: blue
+    desc: 'Zakład 12,500 m² produkujący ponad 120,000 SUP/rok na liniach desek SUP i sprzętu bezpieczeństwa. Ponad 350 pracowników, 2 zmiany.'
+    metrics:
+      - label: MOQ
+        value: 'SUP: próbka 1–2 / pilotaż 20–50 / wolumen 90–100+'
+      - label: Czas realizacji
+        value: '25–35 dni'
+    link: /pl/factory/capacity
+    link_label: Pełne dane o zdolności →
+  - title: Laboratorium jakości i badania
+    icon: Q
+    icon_bg: green
+    desc: 'Niezależne laboratorium QC z 4 etapami badań: inspekcja surowców (wytrzymałość na rozciąganie, rozdarcie, UV), utrzymanie ciśnienia 24h przy 18.0 PSI, próby odrywania szwów i weryfikacja sztywności zginanej każdej deski.'
+    metrics:
+      - label: Wyposażenie laboratorium
+        value: 'Maszyna wytrzymałościowa, komora klimatyczna, wanna do wykrywania przecieków'
+      - label: Standardy
+        value: 'QMS: ISO 9001; rynek: CE, AS 1799'
+    link: /pl/factory/quality-lab
+    link_label: 'Procedury i wyposażenie laboratorium →'
+  - title: Możliwości OEM/ODM
+    icon: O
+    icon_bg: purple
+    desc: 'Kompleksowe usługi OEM/ODM: projekt form na zamówienie, opakowanie private label, niestandardowe kolory desek, grafika pokładu (druk cyfrowy i sitograficzny) oraz opakowanie gotowe do eksportu.'
+    metrics:
+      - label: Certyfikacje
+        value: 'ISO 9001, BSCI, CE, REACH'
+      - label: Rynki eksportowe
+        value: 'ponad 50 krajów'
+    link: /pl/factory/oem-capability
+    link_label: 'Pełne usługi OEM →'
+  - title: Standardy kontroli jakości
+    icon: I
+    icon_bg: orange
+    desc: 'Kryteria kontroli jakości dopasowane do projektu w ramach IQC, IPQC, FQC i OQC: weryfikacja szczelności, kontrole wizualne i wymiarowe, potwierdzenie akcesoriów, identyfikowalność partii oraz podpisanie zgody na wysyłkę — plus kontrolowane zarządzanie niezgodnościami i poprawkami dotyczącymi szczelności.'
+    metrics:
+      - label: Zakres
+        value: 'Surowce → opakowanie końcowe'
+      - label: Pliki do pobrania
+        value: 'Protokół QC, raport PSI i dokumenty poprawek (PDF)'
+    link: /pl/factory/quality-inspection
+    link_label: 'Standardy inspekcji i pliki →'
+  - title: Standard zarządzania zmianami przy poprawkach
+    icon: C
+    icon_bg: blue
+    desc: 'Formalne zarządzanie zmianami ISO 9001 dla parametrów poprawek: ECR, klasyfikacja ryzyka, macierz zatwierdzeń międzyoddziałowych, 9-etapowa pętla zamknięta, ilościowa walidacja inżynieryjna (18.0 PSI, 24 h, ΔP ≤ 0.2 PSI) i zabezpieczenia Poka-Yoke — z dwujęzyczną SOP QMS-SOP-QC-CC-001 Rev 2.0.'
+    metrics:
+      - label: Dokument
+        value: 'QMS-SOP-QC-CC-001 Rev 2.0'
+      - label: Pliki do pobrania
+        value: 'SOP zarządzania zmianami i aneks wykonawczy (PDF)'
+    link: /pl/factory/quality-change-control
+    link_label: 'Standard zarządzania zmianami i pliki →'
+  - title: Kontrola produktów niezgodnych
+    icon: N
+    icon_bg: purple
+    desc: 'Kontrola wyrobów niezgodnych wg ISO 9001:2015 punkt 8.7: rejestracja NCR, kwarantanna i wstrzymanie, dyspozycja wg wagi (podpis linii / kierownik QC + inżynier techniczny / MRB), kontrolowane poprawki wg instrukcji SRI, niezależna inspekcja 100% i niszczenie w asyście — wideo ze złomu zabezpieczone SHA-256.'
+    metrics:
+      - label: Standard
+        value: 'ISO 9001:2015 punkt 8.7'
+      - label: Świadectwo ze złomu
+        value: 'VAT-QA-SCRAP-CERT-2026'
+    link: /pl/factory/non-conforming-control
+    link_label: 'Kontrola niezgodności i pliki →'
+  - title: 7-etapowy przepływ kontroli jakości
+    icon: Q
+    icon_bg: green
+    desc: 'Kompletny przepływ kontroli jakości projektu, bramka po bramce: Planowanie Jakości (PPM) → Inspekcja Materiałów Przychodzących → Kontrola w Toku i Pierwszy Egzemplarz → Nadmuchiwanie i Szczelność → Inspekcja Końcowa → Opakowanie i PSI → Zgoda na Wysyłkę i Identyfikowalność. Każda bramka pokazuje, co jest sprawdzane, jak oceniane i jaki dwujęzyczny raport powstaje.'
+    metrics:
+      - label: Bramki
+        value: '01 → 07'
+      - label: Pliki do pobrania
+        value: 'Pakiety raportów dla każdej bramki (PDF)'
+    link: /pl/quality
+    link_label: 'Przejrzyj przepływ 7-etapowy →'
+
+workshops_section:
+  tagline: Oddziały
+  title: Oddziały produkcyjne
+  workshops:
+    - title: Cięcie PCV i przygotowanie materiału
+      description: Automatyczne maszyny CNC do cięcia PCV, Hypalonu i tkanin drop-stitch z dokładnością poniżej milimetra. Zoptymalizowany komputerowo nestling minimalizuje odpady materiału i zapewnia zgodność każdego panelu ze specyfikacją wymiarową przed zgrzewaniem.
+      image: https://assets.isupfactory.com/images/sups/hero/production-dept.webp
+      alt: Maszyna CNC do cięcia PCV przygotowująca panele nadmuchiwanych desek SUP w fabryce w Qingdao
+    - title: Zgrzewanie rur i zamykanie termiczne
+      description: Dedykowany oddział zgrzewania z maszynami do zgrzewania termicznego i prasami dielektrycznymi RF. Zgrzewarki gorącopowietrzne łączą i topią komory rurowe z PCV, a zgrzewanie RF tworzy wytrzymałe, szczelne szwy przekraczające wymagania.
+      image: https://assets.isupfactory.com/images/sups/factory/isupfactory-production-department.webp
+      alt: Maszyna do zgrzewania RF zamykająca komory rurowe nadmuchiwanej łodzi w fabryce w Qingdao
+    - title: Laminowanie rdzenia drop-stitch
+      description: Rdzenie drop-stich desek SUP są łączone z zewnętrznymi laminatami PCV metodą laminowania cieplnego. Tysiące wewnętrznych nici poliestrowych łączy warstwę górną z dolną, tworząc sztywną konstrukcję przy 12-15 PSI. Listwy krawędziowe są łączone przez zgrzewanie fuzyjne w trzech warstwach dla wytrzymałości krawędzi.
+      image: https://assets.isupfactory.com/images/sups/factory/isupfactory-sup-manufacturing.webp
+      alt: Linia produkcji nadmuchiwanych desek SUP z wyposażeniem do laminowania rdzenia drop-stitch w fabryce w Qingdao
+    - title: Druk i dekoracja SUP
+      description: Deski SUP zdobimy za pomocą druku cyfrowego w grafice pełnokolorowej oraz sitografii dla logo i wzorów powtarzalnych. Drukarki cyfrowe dają projekty pokładu o jakości fotograficznej, a sitografia zapewnia trwałe, żywe oznaczenia marki.
+      image: https://assets.isupfactory.com/images/sups/factory/isupfactory-production-department-2.webp
+      alt: Wnętrze działu produkcji w fabryce nadmuchiwanych desek SUP w Qingdao
+    - title: Montaż końcowy i osprzęt
+      description: Linia montażowa, na której na każdą deskę SUP montowane są zawory, oczka D-ring, uchwyty, gniazda płetw i nakładki pokładowe. Każda deska przechodzi listę kontrolną montażu w 100 punktach podpisaną przez kierownika zmiany.
+      image: https://assets.isupfactory.com/images/sups/factory/isupfactory-production-department.webp
+      alt: Dział produkcji ze stanowiskami montażowymi w fabryce w Qingdao
+    - title: Badania i inspekcja jakości
+      description: Każda ukończona deska przechodzi obowiązkowe badanie retencji powietrza, weryfikację odrywania szwów i pełną kontrolę układów przed wysyłką. Nasze laboratorium jakości działa niezależnie od produkcji i raportuje bezpośrednio do zarządu.
+      image: https://assets.isupfactory.com/images/sups/factory/isupfactory-pressure-testing.webp
+      alt: Badanie ciśnieniowe nadmuchiwanej deski SUP pod kątem retencji powietrza przed wysyłką w fabryce w Qingdao
+
+equipment_section:
+  tagline: Wyposażenie
+  title: Kluczowe wyposażenie produkcyjne
+  view_full: Zobacz pełną listę wyposażenia →
+  view_full_link: /pl/factory/equipment
+  items:
+    - name: Automatyczna maszyna do cięcia PCV
+      spec: Sterowana CNC, dokładność 0.1 mm
+    - name: Maszyna do zgrzewania termicznego
+      spec: Gorącopowietrzna, 200°C–300 °C, do łączenia rur
+    - name: Prasa do zgrzewania dielektrycznego RF
+      spec: 15 kW, zgrzewanie szczelnych szwów
+    - name: Prasa do laminowania rdzenia drop-stitch
+      spec: Rdzenie SUP do 14 ft
+    - name: Drukarka cyfrowa
+      spec: Pełnokolorowa grafika pokładu SUP
+    - name: Maszyna do sitografii
+      spec: Druk wielokolorowych logotypów
+
+qc_section:
+  tagline: Kontrola jakości
+  title: Proces badań i zapewnienia jakości
+  subtitle: Każda deska przechodzi obowiązkowe badania przed wysyłką. Nasze laboratorium jakości działa niezależnie od produkcji i raportuje bezpośrednio do zarządu.
+  steps:
+    - step: '1'
+      title: Inspekcja surowców
+      desc: PCV, Hypalon i tkaniny drop-stitch przechodzą badanie wytrzymałości na rozciąganie (), propagację rozdarcia i weryfikację odporności na UV, zanim jakakolwiek partia trafi na produkcję.
+    - step: '2'
+      title: 24-godzinne badanie retencji powietrza
+      desc: Każda komora rurowa jest napompowywana do 18.0 PSI i utrzymywana przez 24 godziny. Spadek ciśnienia powyżej 0.50 PSI uruchamia automatyczne odrzucenie i ponowną inspekcję szwów.
+    - step: '3'
+      title: Badanie obciążenia i równowagi
+      desc: Gotowe deski są napompowywane do ciśnienia znamionowego i sprawdzane pod kątem symetrycznego wybrzuszenia, sztywności przy 15 PSI oraz stabilności pod obciążeniem. Każda deska przechodzi próbę wodną w naszym basie przed inspekcją końcową.
+
+oem_section:
+  tagline: Projekty OEM
+  title: 'Studia przypadków: marki i partnerstwo OEM'
+  subtitle: Od koncepcji po produkcję —jak pomagamy globalnym markom uruchamiać i skalować ich linie nadmuchiwanych desek SUP.
+  cases:
+    - challenge: Europejski detaliczny sklep outdoorowy potrzebował linii SUP private label z unikalną grafiką pokładu, ekologicznym PCV i opakowaniem gotowym do sprzedaży —wszystko w 60 dni.
+      solution: Opracowaliśmy własne pliki druku cyfrowego, pozyskaliśmy PCV zgodny z REACH i skróciliśmy etapy próbkowania z 3 do 1, umieszczając zespół projektowy w naszej fabryce w Qingdao.
+      result: 25–35 dni produkcji od podpisanego zamówienia, z pierwszą dostawą w 60-dniowym oknie. 2,400 sztuk w 4 SKU. Zamówienie powtórne złożone przed pełnym dostarczeniem pierwszej partii.
+      disclaimer: 'Zanonimizowane podsumowanie projektu — typ i zakres projektu są reprezentatywne; konkretne wyniki nie są niezależnie weryfikowalne.'
+    - challenge: Amerykański startup sportów wodnych potrzebował wydajnej deski SUP drop-stitch o własnym kształcie, opakowaniu współmarkowanym i certyfikacji BSCI, aby trafić do kanału detalicznego.
+      solution: Zaadaptowaliśmy istniejącą formę SUP ze zmodyfikowanym obrysem, opracowaliśmy projekt graficzny opakowania współmarkowanego i udostępniliśmy pełną dokumentację audytu BSCI.
+      result: 'Deski trafiły do kluczowych amerykańskich sklepów outdoorowych, generując silny momentum: ponad 5,000 sprzedanych sztuk w roku 1 i 98% rotacji.'
+      disclaimer: 'Zanonimizowane podsumowanie projektu — typ i zakres projektu są reprezentatywne; konkretne wyniki nie są niezależnie weryfikowalne.'
+    - challenge: Australijski dystrybutor wymagał linii SUP z certyfikatem CE, niestandardowymi kolorami i zgodnością z normami australijskimi.
+      solution: Wyprodukowaliśmy próbki przedprodukcyjne w 4 wariantach kolorystycznych i skoordynowaliśmy badania zgodności z podmiotem trzecim.
+      result: Linia SUP z 3 modeli wprowadzona na rynek AU/NZ. Następnie wygrana w przetargu rządowym na 12 desek patrolowych SUP.
+      disclaimer: 'Zanonimizowane podsumowanie projektu — typ i zakres projektu są reprezentatywne; konkretne wyniki nie są niezależnie weryfikowalne.'
+
+faq_section:
+  tagline: FAQ
+  title: B2B i OEM — najczęściej zadawane pytania
+  questions:
+    - q: Jaka jest minimalna ilość zamówienia (MOQ) dla nadmuchiwanych desek SUP w modelu OEM?
+      a: 'MOQ potwierdzamy wg konfiguracji projektu, a nie jako sztywna liczba — kadłub i narzędzia, kolorystyka i PCV, projekt graficzny, opakowanie i akcesoria. Standardowa produkcja seryjna to 90–100+ szt. na partię z pełnej rolki drop-stitch 150 m, współmarkowanie w małej serii zaczyna się od 5–10 szt., a każdy projekt przechodzi etapy próbki (1–2 szt.) i pilotażu (20–50 szt.). Pełną logikę obliczeń znajdziesz w naszym Przewodniku MOQ i elastycznego brandingu.'
+    - q: Czy Vatrad posiada certyfikację BSCI?
+      a: Tak. Nasza fabryka utrzymuje ważną certyfikację zgodności społecznej BSCI (raport z audytu dostępny na żądanie). Mamy również ISO 9001 dla zarządzania jakością. Certyfikacja CE dotyczy modeli przeznaczonych na rynki UE; zakres potwierdzamy dla każdego projektu. Dokumentacja zgodności REACH i RoHS dołączana jest do każdego zamówienia OEM.
+    - q: Jaki jest typowy czas realizacji zamówienia OEM?
+      a: Standardowy czas realizacji to 25–35 dni od potwierdzonego zamówienia i zaliczki dla hurtowej produkcji OEM. Opracowanie formy na zamówienie dodaje 15–20 dni na narzędzia. Dla pilnych zamówień i sezonowych szczytów dostępna jest produkcja przyspieszona. Próbki prototypowe są zwykle gotowe w 7–12 dni.
+    - q: Czy zajmujecie się dokumentacją eksportową?
+      a: Tak. Nasz zespół obsługuje dokumentację eksportową i odprawę celną we własnym zakresie, a dostarczamy do ponad 50 krajów na rynkach UE, USA, AU i Azji.
+
+b2b_moq: 'MOQ potwierdzamy wg konfiguracji projektu: próbka 1–2, pilotaż 20–50, wolumen 90–100+ (na rolkę 150 m); współmarkowanie w małej serii od 5–10 szt.'
+
+production_flow:
+  tagline: Przepływ produkcji
+  title: Od surowca do gotowej deski
+  subtitle: Każda deska przechodzi przez 6 etapów produkcji z punktami kontrolnymi QC na każdym kroku. Bez skrótów, bez pomijanych inspekcji.
+  stages:
+    - stage: '01'
+      title: Przyjęcie materiałów i QC przychodzące
+      description: 'Wszystkie materiały przychodzące są rejestrowane w naszym systemie ERP według numeru partii/lotu. Rolki tkaniny PCV, rdzenie drop-stitch, zawory, kleje i osprzęt trafiają do kwarantanny do czasu zatwierdzenia przez QC.'
+      qc_check: 'Wytrzymałość na rozciąganie (ASTM D751), odporność na rozdarcie (ISO 4674), grubościomierz, lepkość kleju, skan wizualny wad'
+      qc_threshold: '100% partii badanych. Odrzucenie przy wytrzymałości < 90% specyfikacji, rozdarciu < minimum specyfikacji lub jakiejkolwiek wadzie wizualnej'
+      responsibility: Zespół QC przychodzącego (3 inspektorzy)
+    - stage: '02'
+      title: Cięcie CNC i przygotowanie materiału
+      description: 'Zoptymalizowany komputerowo nestling układa panele na arkuszach PCV, aby zminimalizować odpady. Automatyczne maszyny CNC do cięcia utrzymują dokładność pozycjonowania 0.1 mm.'
+      qc_check: 'Kontrola wymiarowa względem plików CAD DXF, inspekcja jakości krawędzi, weryfikacja liczby paneli'
+      qc_threshold: 'Co 20 panel mierzony. Tolerancja ±0.5 mm. Odrzucenie partii przy >2% poza tolerancją'
+      responsibility: Kierownik oddziału cięcia
+    - stage: '03'
+      title: Zgrzewanie i łączenie rdzenia drop-stitch
+      description: 'Rdzenie drop-stitch są łączone z zewnętrznymi laminatami PCV metodą laminowania cieplnego. Komory rurowe są zgrzewane RF lub gorącopowietrznie. Listwy krawędziowe są łączone przez zgrzewanie fuzyjne w trzech warstwach.'
+      qc_check: 'Próba odrywania co 50 sztuk (ASTM D751), pomiar szerokości szwu, przegląd dziennika temperatur gorącopowietrznych, wizualna inspekcja szwów pod światłem przechodzącym'
+      qc_threshold: 'Minimalna wytrzymałość na odrywanie 8 N/cm. Tolerancja szerokości szwu ±1 mm. Jakikolwiek widoczny kanał = odrzucenie'
+      responsibility: QC zgrzewania (2 inspektorzy na zmianę)
+    - stage: '04'
+      title: Montaż i osprzęt
+      description: 'Deski przechodzą do montażu końcowego, gdzie łączą się wszystkie komponenty: panele pokładu i kadłuba, zawory, oczka D-ring, uchwyty, gniazda płetw i pokrowiec. Każda sztuka przechodzi listę kontrolną montażu w 100 punktach.'
+      qc_check: 'Podpis listy kontrolnej w 100 punktach dla każdej sztuki, test działania zaworu (10 cykli otwarcia/zamknięcia), weryfikacja momentu dokręcenia osprzętu, inspekcja wizualna'
+      qc_threshold: 'Zasada zero wad dla pozycji krytycznych dla bezpieczeństwa (zawory, oczka D-ring, uchwyty). Drobne wady kosmetyczne: AQL 2.5 (ISO 2859)'
+      responsibility: Kierownik zespołu montażu + QC linii
+    - stage: '05'
+      title: Badania ciśnieniowe i wstrzymanie jakościowe
+      description: 'Każda komora jest napompowywana do 18.0 PSI (dla SUP o ciśnieniu znamionowym 12–15 PSI) i utrzymywana przez 24 godziny. Czujniki ciśnienia zapisują dane w sposób ciągły. Komory ze spadkiem powyżej 0.50 PSI są odrzucane i kierowane na ponowną inspekcję szwów.'
+      qc_check: 'Dziennik utrzymania ciśnienia 24h, codzienna weryfikacja kalibracji czujników, odczyt ciśnienia skompensowany temperaturowo, ponowna próba szwu po naprawie'
+      qc_threshold: 'Maks. spadek ciśnienia 0.50 PSI w ciągu 24h przy stabilnej temperaturze. Jakakolwiek komora przekraczająca tę wartość = ponowne badanie 100% całej partii produkcyjnej'
+      responsibility: Laboratorium jakości (niezależne od produkcji, raportuje do zarządu)
+    - stage: '06'
+      title: Inspekcja końcowa i pakowanie
+      description: 'Końcowa inspekcja wizualna i czynnościowa. Wady powierzchniowe, zgodność kolorystyczna, weryfikacja etykiet/BIN, integralność opakowania i kompletność akcesoriów. Sztuki są pakowane próżniowo, wkładane do kartonów i układane na paletach pod załadunek kontenera.'
+      qc_check: 'Pełna inspekcja wizualna, lista kontrolna akcesoriów dla każdego SKU, próba upuszczenia opakowania (1 m, losowa próbka), weryfikacja skanu etykiety i kodu kreskowego'
+      qc_threshold: 'AQL 2.5 dla wad istotnych, AQL 4.0 dla drobnych. Zerowa tolerancja dla wad bezpieczeństwa. 100% sztuk sprawdzanych wizualnie'
+      responsibility: Zespół QC końcowego (4 inspektorzy) + kierownik pakowania
+
+workforce:
+  tagline: Nasi ludzie
+  title: Kadra i kompetencje
+  engineers: 25+
+  engineers_detail: 'Inżynierowie w dziale B&R, projektowaniu form, laboratorium materiałowym i inżynierii produkcyjnej. Średnio ponad 7 lat doświadczenia w produkcji nadmuchiwanej.'
+  shift_pattern: '2 zmiany dziennie (07:00–15:30, 15:30–00:00). Opcjonalna zmiana nocna dla pilnych zamówień.'
+  training: 'Miesięczne szkolenia QC, kwartalne ćwiczenia BHP, coroczna ocena umiejętności. Nowi pracownicy kończą 40-godzinne wdrożenie przed przydziałem do linii produkcyjnej.'
+  departments:
+    - name: B&R i inżynieria
+      count: 25+
+      role: Projekt produktu, inżynieria form, laboratorium materiałowe
+    - name: Cięcie i przygotowanie materiału
+      count: 15
+      role: Cięcie CNC, przygotowanie paneli, obsługa materiałowa
+    - name: Zgrzewanie i laminowanie
+      count: 40
+      role: Zgrzewanie RF, zgrzewanie gorącopowietrzne, łączenie drop-stitch
+    - name: Łączenie rdzeni SUP
+      count: 30
+      role: Laminowanie drop-stitch, zgrzewanie cieplne, fuzja listew krawędziowych
+    - name: Montaż i osprzęt
+      count: 35
+      role: Montaż końcowy, montaż osprzętu, kontrola układów
+    - name: Kontrola jakości
+      count: 12
+      role: QC przychodzące, QC w toku, inspekcja końcowa, badania laboratoryjne
+    - name: Logistyka i pakowanie
+      count: 20
+      role: Opakowanie, załadunek kontenerów, dokumentacja eksportowa
+    - name: Zarząd i administracja
+      count: 15
+      role: Sprzedaż, zakupy, HR, finanse, zgodność
+
+material_traceability:
+  tagline: Identyfikowalność
+  title: Śledzenie materiałów i kontrola partii
+  description: Każda partia surowca otrzymuje unikalny numer lotu w naszym systemie ERP. Od przyjazdu, przez produkcję, po gotowy produkt — specyfikacja materiałowa każdej deski prowadzi z powrotem do pierwotnej partii dostawcy. Daje to pełną identyfikowalność wstępną dla każdego zapytania jakościowego lub zgodności.
+  system: Własny ERP (system wewnętrzny Qingdao Vatrad Group) + fizyczne metki partii na każdym zleceniu
+  coverage: 100% materiałów produkcyjnych —PCV, Hypalon, tkanina drop-stitch, kleje, zawory, osprzęt, opakowanie
+  records_retained: 10 lat (wymóg CE 2013/53/UE)
+  suppliers:
+    - material: PCV klasy morskiej
+      source: Dostawcy chińscy i koreańscy
+      certified: ISO 9001, REACH, RoHS
+    - material: Hypalon (CSM)
+      source: Dostawca japoński
+      certified: ISO 9001, REACH
+    - material: Tkanina drop-stitch
+      source: Własne tkacze + partner zewnętrzny
+      certified: Wewnętrzne QC + ISO 9001 dostawcy
+    - material: Zawory i osprzęt
+      source: Chińscy dostawcy OEM
+      certified: ISO 9001, certyfikaty materiałowe wg partii
+
+qc_dashboard:
+  tagline: QC w liczbach
+  title: Metryki kontroli jakości
+  subtitle: Rzeczywiste dane zaliczeń i braków z naszej linii produkcyjnej. Nasze laboratorium jakości działa niezależnie od produkcji i raportuje bezpośrednio do zarządu.
+  stats:
+    - value: 100%
+      label: Sztuk poddanych próbom ciśnieniowym
+      detail: Każda deska, każda komora, każda partia
+    - value: '<5%'
+      label: Maksymalny dopuszczalny spadek ciśnienia
+      detail: W ciągu 24h przy 18.0 PSI
+    - value: AQL 2.5
+      label: Próg wad istotnych
+      detail: Zgodnie ze standardem próbkowania ISO 2859
+    - value: 24h
+      label: Czas utrzymania ciśnienia
+      detail: Każda deska, każda komora
+    - value: 18 PSI
+      label: Ciśnienie badania wobec znamionowego
+      detail: margines bezpieczeństwa każdej komory
+    - value: 0%
+      label: Tolerancja na wady bezpieczeństwa
+      detail: Zawory, oczka D-ring, szwy, wyporność
+
+process_cta:
+  title: Zobacz nasz proces produkcyjny
+  desc: Prześledź deskę SUP przez każdy etap produkcji —od surowca po deskę gotową do wody.
+  label: Zobacz proces produkcyjny →
+  link: /pl/factory/process
+
+evidence_review:
+  tagline: 'Dowody i weryfikacja'
+  title: 'Dowody z fabryki — zweryfikowane'
+  body: 'Wszystkie deklaracje produkcyjne na tej stronie są weryfikowane przez nasz zespół inżynierii produkcyjnej w fabryce w Laixi, w Qingdao. Certyfikaty, zapisy kontroli jakości, raporty z prób ciśnieniowych i wytrzymałościowych oraz rejestry identyfikowalności partii są dostępne na żądanie. Specyfikacje zweryfikowano ostatnio we wrześniu 2026.'
+
+cta:
+  title: 'Poznaj naszą fabrykę'
+  actions:
+    - text: Lista kontrolna audytu fabryki
+      href: /pl/factory-audit-checklist

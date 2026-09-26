@@ -1,0 +1,103 @@
+meta:
+  title: 'Przewodnik kupującego OEM: zakup desek SUP z Azji | iSupfactory'
+  description: 'Zakup nadmuchiwanych desek SUP z Azji: checklista audytu fabryki, protokoły QC, zgodność, negocjacje MOQ, warunki wysyłki i typowe pułapki.'
+  author: 'iSupfactory'
+  datePublished: '2026-08-04'
+  dateModified: '2026-08-07'
+back_text: 'Powrót do badań'
+
+hero:
+  tagline: 'Zakupy'
+  title: 'Przewodnik kupującego OEM — zakup nadmuchiwanych desek SUP z Azji'
+  subtitle: '12 min czytania'
+
+answer:
+  label: 'Krótka odpowiedź'
+  text: 'Minimalna ilość zamówienia jest potwierdzana przez konfigurację projektu, a nie sztywną liczbą: rozwój próbki (1–2 szt.) weryfikuje konstrukcję, zamówienia pilotażowe (20–50 szt.) testują rynek na gotowych platformach, standardowa produkcja seryjna to 90–100+ szt. w partii z pełnej rolki drop-stitch 150 m, a współmarkowanie w małej serii zaczyna się od 5–10 szt. Próbki wysyłamy w 7–12 dni; produkcja seryjna trwa 25–35 dni od potwierdzonego zamówienia i zaliczki, plus 15–20 dni, gdy potrzebne są nowe narzędzia.'
+  verified: 'Wrzesień 2026'
+
+content_html: |
+  <h2>1. Kwalifikacja wstępna: czego szukać w fabryce</h2>
+
+  <h3>Certyfikaty zgodności</h3>
+  <ul>
+    <li><strong>ISO 9001:2015</strong> – system zarządzania jakością</li>
+    <li><strong>Certyfikacja CE</strong> – zweryfikuj numer jednostki notyfikowanej</li>
+    <li><strong>BSCI / SMETA / SEDEX</strong> – audyty zgodności społecznej</li>
+    <li><strong>REACH / RoHS</strong> – deklaracje zgodności materiałowej</li>
+  </ul>
+
+  <h3>Zdolności produkcyjne</h3>
+  <ul>
+    <li>Tkanie rdzeni drop-stitch na miejscu czy zlecane na zewnątrz</li>
+    <li>Linia powlekania / laminowania PCV</li>
+    <li>Sprzęt do zgrzewania HF i zgrzewania gorącym powietrzem</li>
+    <li>Własna produkcja form (obróbka CNC)</li>
+    <li>Laboratorium badawcze (próby ciśnieniowe, starzenie UV, badanie rozciągania)</li>
+  </ul>
+
+  <h3>Weryfikacja doświadczenia</h3>
+  <ul>
+    <li>Lata w produkcji nadmuchiwanych jednostek pływających (minimum 5 lat)</li>
+    <li>Liczba inżynierów w kadrze</li>
+    <li>Obecni klienci OEM/ODM (poproś o referencje)</li>
+    <li>Kierunki eksportu — czy już wysyłają na Twój rynek docelowy?</li>
+  </ul>
+
+  <h2>2. Protokoły kontroli jakości</h2>
+  <p>QC materiałów przychodzących: wytrzymałość na rozciąganie (ASTM D751 lub ISO 1421), odporność na rozdarcie (ASTM D2261 lub ISO 4674), wytrzymałość na odrywanie, wyrywkowe badania starzenia UV.</p>
+  <p>QC w trakcie procesu: kontrola wytrzymałości szwów co 50 szt., weryfikacja momentu dokręcenia zaworów, kontrola gęstości nici drop-stitch, kontrola wymiarowa względem rysunków CAD.</p>
+  <p>Inspekcja końcowa: 100% próba utrzymania ciśnienia po nadmuchaniu (24 godziny, maks. spadek 0.50 PSI), kontrola wizualna, test działania zaworów, badania próbne losowe (AQL 2.5 lub 4.0 zgodnie z ISO 2859).</p>
+
+  <h2>3. Checklista dokumentacji zgodności</h2>
+  <ul>
+    <li>Deklaracja zgodności (DoC) wskazująca właściwą dyrektywę UE</li>
+    <li>Certyfikat CE od jednostki notyfikowanej</li>
+    <li>Raport z badań akredytowanego laboratorium</li>
+    <li>Karty charakterystyki bezpieczeństwa materiałów (MSDS)</li>
+    <li>Deklaracja zgodności z REACH</li>
+    <li>Lista materiałowa (BOM) z identyfikowalnością dostawców</li>
+    <li>Raport z inspekcji fabryki</li>
+  </ul>
+
+  <h2>4. Negocjowanie MOQ</h2>
+  <p>MOQ dla nadmuchiwanych desek SUP wynika ze ścieżki produkcji i konfiguracji projektu, a nie z zgadywanych wielkości. Wszystkie projekty OEM/ODM Vatrad przechodzą przez trzy odrębne etapy ilościowe — próbkę, pilotaż i wolumen — a pełna logika kalkulacji jest wyjaśniona w naszym <a href="/pl/oem-moq-guide">przewodniku MOQ i elastycznego brandingu</a>:</p>
+  <table class="w-full text-sm border-collapse">
+    <thead>
+      <tr class="bg-gray-100">
+        <th class="p-3 text-left font-semibold text-gray-900 border">Ścieżka produkcji</th>
+        <th class="p-3 text-left font-semibold text-gray-900 border">MOQ</th>
+        <th class="p-3 text-left font-semibold text-gray-900 border">Termin</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td class="p-3 border font-medium">Rozwój próbki (na projekt)</td><td class="p-3 border">1 – 2 szt.</td><td class="p-3 border">Próbka w 7 – 12 dni</td></tr>
+      <tr><td class="p-3 border font-medium">Zamówienie pilotażowe (gotowe platformy)</td><td class="p-3 border">20 – 50 szt.</td><td class="p-3 border">Walidacja rynku na gotowych materiałach</td></tr>
+      <tr><td class="p-3 border font-medium">Standardowa partia wolumenowa (na projekt)</td><td class="p-3 border">90 – 100+ szt.</td><td class="p-3 border">25 – 35 dni po zamówieniu i zaliczce</td></tr>
+      <tr><td class="p-3 border font-medium">Pełna niestandardowa forma / private label</td><td class="p-3 border">Potwierdzane w konfiguracji projektu</td><td class="p-3 border">Dodaje 15 – 20 dni na narzędzia</td></tr>
+    </tbody>
+  </table>
+  <p>Ilości na etapach próbki, pilotażu i wolumenu są różne: rozwój próbki (1–2 szt.) weryfikuje konstrukcję, zamówienia pilotażowe (20–50 szt.) testują rynek na gotowych platformach, a standardowa produkcja seryjna to 90–100+ szt. w partii z pełnej rolki drop-stitch 150 m — z progami cenowymi zależnymi od wielkości zamówienia. Przed zobowiązaniem się do dostawcy uzyskaj na piśmie kalkulację MOQ, czas realizacji i warunki płatności dla swojej konkretnej deski.</p>
+
+  <h2>5. Logistyka i wysyłka</h2>
+  <p>Najczęstsze warunki Incoterms: <strong>FOB</strong> (fabryka dostarcza do portu załadunkowego — najczęściej), <strong>EXW</strong> (kupujący organizuje cały transport od bramy fabryki), <strong>CIF</strong> (fabryka płaci fracht i ubezpieczenie do portu przeznaczenia).</p>
+  <p>Produkty nadmuchiwane są lekkie, ale mają dużą objętość — koszt wysyłki często zależy od wagi objętościowej (DIM). Poproś o pakowanie próżniowe, które zmniejsza objętość o 50–60%. Transport morski z Chin do UE trwa zwykle 25–35 dni, a na zachodnie wybrzeże USA 7–12 dni — dodatkowo do 25–35 dni produkcyjnego czasu realizacji.</p>
+
+  <h2>6. Typowe pułapki</h2>
+  <ul>
+    <li><strong>Brak audytu fabryki:</strong> Zawsze przeprowadź lub zleć audyt firmy trzeciej (QIMA, SGS, Bureau Veritas)</li>
+    <li><strong>Tylko ustne specyfikacje:</strong> Szczegółowy arkusz specyfikacji technicznej podpisany przez obie strony</li>
+    <li><strong>Pominięcie akceptacji próbki:</strong> Pisemne zatwierdzenie próbek przed produkcją seryjną</li>
+    <li><strong>Brak QC w trakcie produkcji:</strong> Inspekcja firmy trzeciej w trakcie produkcji (DUPRO) i przed wysyłką (PSI)</li>
+    <li><strong>Ignorowanie zgodności:</strong> Zweryfikuj oznakowanie CE (dyrektywa 2013/53/EU) i dokumentację dla konkretnego rynku przed produkcją</li>
+  </ul>
+
+  <h2>7. Dlaczego Vatrad</h2>
+  <p>Vatrad produkuje nadmuchiwane deski SUP w modelu OEM/ODM od 2012 roku. Zakład o powierzchni 12,500 m&sup2; z certyfikatem ISO 9001, ponad 25 inżynierów i certyfikacja CE dla modeli przeznaczonych na rynki UE (zakres potwierdzany dla każdego projektu) — spełniamy każde kryterium z tego przewodnika. Oferujemy próbne MOQ dla nowych partnerów oraz pełne pakiety dokumentacji zgodności.</p>
+  <p>Zobacz nasze <a href="/pl/oem-manufacturing">usługi produkcji nadmuchiwanych desek SUP OEM/ODM</a> lub zajrzyj na <a href="/pl/factory">halę fabryki o powierzchni 12,500 m&sup2;</a>, aby zobaczyć wyposażenie i procesy QC stojące za każdym z powyższych kroków.</p>
+
+cta:
+  title: 'Gotowy zacząć zakupy?'
+  subtitle: 'Skontaktuj się z naszym zespołem OEM, aby omówić wymagania swojego projektu.'
+  button_text: 'Poproś o wycenę'
+  button_link: /pl/contact

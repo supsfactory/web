@@ -1,0 +1,477 @@
+meta:
+  title: 'Standardy kontroli jakości desek SUP na zamówienie | Fabryka OEM | iSupfactory'
+  description: 'Produkcja OEM nadmuchiwanych desek SUP: kontrola materiałów, produkcji, badań, opakowań i identyfikowalności, z kontrolą naprawy szczelności powietrznej wg ISO 9001.'
+  dateModified: '2026-08-14'
+  keywords:
+    - 'producent nadmuchiwanych sup'
+    - 'fabryka oem sup'
+    - 'producent desek paddle na zamówienie'
+    - 'kontrola jakosci sup'
+    - 'proces produkcji sup'
+    - 'producent sup marki wlasnej'
+
+hero:
+  tagline: Kontrola i zapewnienie jakości
+  title: Kontrola jakości nadmuchiwanych desek SUP wykonywanych na zamówienie
+  subtitle: 'QINGDAO VATRAD GROUP.,LTD. stosuje kryteria inspekcji właściwe dla danego projektu na etapie przygotowania materiałów, budowy deski, końcowych prób pompowania, pakowania i zatwierdzenia wysyłki. Wymagania jakościowe są zarządzane dynamicznie na podstawie zatwierdzonej próbki, specyfikacji technicznej, dowodu druku projektu graficznego, specyfikacji materiałowej (BOM) i uzgodnionych standardów opakowania dla każdego zamówienia OEM/ODM.'
+  actions:
+    - text: Pobierz pakiet zapewnienia jakości
+      variant: primary
+      href: 'https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_Quality_Inspection_Standards.pdf?dl=1'
+    - text: Pobierz przykładowy pakiet jakości (PDF)
+      href: 'https://assets.isupfactory.com/site/downloads/Qingdao_Vatrad_Group_SUP_Quality_Documentation_Pack.pdf?dl=1'
+    - text: Zamów informacje o jakości OEM
+      href: /pl/contact
+
+answer:
+  label: 'Wprost'
+  text: 'QINGDAO VATRAD GROUP.,LTD. kontroluje jakość nadmuchiwanych desek SUP za pomocą 4-etapowego systemu weryfikacji: kontroli materiałów przychodzących (IQC), kontroli jakości w trakcie procesu (IPQC), badań końcowych deski i weryfikacji pompowania (FQC) oraz pakowania i zatwierdzenia przed wysyłką (OQC). Każde zamówienie jest kontrolowane względem zatwierdzonej próbki, specyfikacji technicznej, dowodu druku projektu graficznego, specyfikacji materiałowej i standardów opakowania, z weryfikacją szczelności powietrznej, kontrolami wizualnymi i wymiarowymi, potwierdzeniem akcesoriów oraz identyfikowalnością partii. Elementy niespełniające kryteriów akceptacji są objęte kontrolowanym wstrzymaniem lub izolacją, naprawiane wyłącznie według zatwierdzonych instrukcji i ponownie sprawdzane przed zatwierdzeniem.'
+  verified: 'Wrzesień 2026'
+
+intro: 'Nasz system jakości jest zbudowany pod projekty OEM/ODM: kryteria inspekcji są ustalane dla każdego zamówienia, dokumentowane i stosowane przez zespoły produkcji i jakości od materiału przychodzącego po pakowanie. Dzięki temu oczekiwania jakościowe pozostają spójne między fabryką a Twoją marką — od pierwszej próbki po pełne wysyłki kontenerowe.'
+
+scope_note:
+  tagline: Zakres
+  title: Kryteria inspekcji właściwe dla projektu
+  body: |
+    Specyfikacje jakościowe mogą się różnić w zależności od konstrukcji deski (np. jednowarstwowa/dw warstwowa, tkanina drop-stitch, listwa zgrzewana), przewidywanego zastosowania końcowego, regulacji rynku docelowego oraz parametrów zatwierdzonych przez klienta. Zatwierdzenie do wysyłki opiera się ściśle na udokumentowanych kryteriach inspekcji uzgodnionych dla danego zamówienia.
+
+stages:
+  tagline: Ramy jakościowe
+  title: Nasz 4-etapowy system weryfikacji jakości
+  subtitle: Kompletna pętla QC od przyjęcia surowego materiału po zatwierdzenie wysyłki.
+  steps:
+    - title: '1. Kontrola materiałów przychodzących (IQC)'
+      desc: 'Główne materiały i komponenty kupowane są sprawdzane względem zatwierdzonych specyfikacji i próbek referencyjnych przed wjściem na linię produkcyjną. Materiał drop-stitch i PCV podlegają weryfikacji identyfikacji materiału, partii dostawcy, masy/gęstości, grubości, zgodności koloru z zatwierdzonymi wzornikami oraz wad powierzchni. Pokłady EVA sprawdza się pod kątem wzoru, koloru, grubości, dokładności cięcia i kompatybilności z klejem. Zawory i elementy metalowe przechodzą testy działania, gwintów, integralności uszczelnienia i dopasowania. Akcesoria i opakowania (pompki, wiosła, płetwy, smycze, torby, kartony) są porównywane pod względem ilości, koloru, oznaczenia marki, poprawności kodu kreskowego i wersji projektu graficznego z zatwierdzoną specyfikacją materiałową (BOM).'
+    - title: '2. Kontrola jakości w trakcie procesu (IPQC)'
+      desc: 'Krytyczne etapy produkcyjne są kontrolowane, aby wychwycić niezgodności, zanim deski przejdą na kolejne stanowiska. Cięcie i druk weryfikuje się pod względem wymiarów paneli, rozłożenia projektu graficznego, orientacji lustrzanej i czystości krawędzi względem zatwierdzonych rysunków technicznych. Montaż deski i spajanie listew krawędziowych sprawdza się pod kątem symetrii obrysu, ciągłości zakładek szwów oraz eliminacji pustych przestrzeni i pęcherzyków powietrza w strefach największych naprężeń. Montaż zaworów i akcesoriów, grafikę i oznaczenia marki weryfikuje się pod względem położenia, orientacji, pokrycia klejem, pisowni logo i wersji projektu graficznego.'
+    - title: '3. Badania końcowe deski i weryfikacja pompowania (FQC)'
+      desc: 'Gotowe deski przechodzą obowiązkowe badania fizyczne i konstrukcyjne przed zatwierdzeniem pakowania. Deski są pompowane do ciśnienia inspekcyjnego zatwierdzonego dla projektu i utrzymywane, aby zweryfikować sztywność konstrukcji i stabilność ciśnienia. Skanowanie szczelności powietrznej obejmuje gniazdo zaworu, szwy listew krawędziowych, stożki dziobowe i ogonowe oraz połączenia narażone na naprężenia, z użyciem wzorcowanych metod wykrywania nieszczelności (monitorowanie spadku ciśnienia lub próba wodna). Kontrola wizualna i wymiarowa potwierdza wymiary, profil wypukłości i wyrównanie pokładów EVA (tolerancja ±2 mm) w oświetleniu standardowym dziennym.'
+    - title: '4. Pakowanie i zatwierdzenie przed wysyłką (OQC)'
+      desc: 'Kompleksowa kontrola przed wysyłką zapewnia zerowe rozbieżności w konfiguracji SKU i oznaczeniach wysyłkowych. Kompletność zestawu jest porównywana z zamówieniem BOM: deska, płetwa, smycz, wiosło, pompka, torba, zestaw naprawczy i instrukcja obsługi. Kontrole opakowania i kodu kreskowego potwierdzają oznaczenia kartonu, etykiety SKU, czytelność kodu kreskowego, język instrukcji i wytrzymałość konstrukcyjną kartonu. Zamówienia są zatwierdzane dopiero po podpisaniu końcowego audytu opakowania przez upoważniony personel jakości.'
+
+inspection_points:
+  tagline: Zakres kontroli
+  title: Kluczowe punkty kontrolne inspekcji
+  subtitle: Każdy punkt kontrolny realizowany jest względem udokumentowanych kryteriów akceptacji uzgodnionych dla zamówienia.
+  features:
+    - icon: A
+      icon_bg: blue
+      title: Weryfikacja szczelności powietrznej
+      desc: 'Gotowe deski są pompowane do zatwierdzonego ciśnienia inspekcyjnego i sprawdzane pod kątem utrzymania ciśnienia, stanu podstawy zaworu, szwów listew krawędziowych, obszarów dzioba i ogona oraz lokalizacji narażonych na naprężenia. Tam, gdzie wymaga tego procedura inspekcji, podejrzane obszary nieszczelności bada się zatwierdzonymi metodami wykrywania nieszczelności.'
+    - icon: B
+      icon_bg: green
+      title: Kontrola wizualna i wymiarowa
+      desc: 'Deski ogląda się w odpowiednim oświetleniu pod kątem stanu powierzchni materiału, wad druku, odchyleń kolorystycznych, wyrównania EVA, zmarszczeń, zadrapań, zanieczyszczeń i wyglądu połączeń. Kluczowe wymiary i położenia akcesoriów sprawdza się względem zatwierdzonych rysunków lub specyfikacji.'
+    - icon: C
+      icon_bg: purple
+      title: Weryfikacja akcesoriów i opakowania
+      desc: 'Przed wysyłką weryfikuje się pełną konfigurację produktu: model deski, system płetw, wiosło, pompkę, smycz, torbę nośną, zestaw naprawczy, instrukcję obsługi i akcesoria właściwe dla klienta — każdy element porównany z zatwierdzoną próbką, rysunkami i specyfikacją materiałową (BOM).'
+    - icon: D
+      icon_bg: orange
+      title: Pakowanie i zatwierdzenie wysyłki
+      desc: 'Zapakowane sztuki sprawdza się pod kątem konfiguracji SKU, kompletności akcesoriów, etykiet produktu, informacji z kodu kreskowego, wersji instrukcji obsługi, oznaczeń kartonu, ilości w opakowaniu i stanu kartonu. Zatwierdzenie wysyłki następuje dopiero po spełnieniu wszystkich wymagań inspekcji i pakowania.'
+
+traceability_intro:
+  tagline: Identyfikowalność partii
+  title: System identyfikowalności na poziomie projektu i partii
+  body: |
+    Każde zamówienie na nadmuchiwane deski SUP wykonywane na zamówienie jest prowadzone pod jednolitym kodem projektu, który wiąże specyfikacje techniczne, zatwierdzoną specyfikację materiałową (BOM), rewizje projektu graficznego, numery partii materiałowych, oznaczenia pakowania i zapisy inspekcji. Zapisy produkcji i inspekcji są prowadzone dla odpowiedniego projektu i partii produkcyjnej, a każda partia może zostać powiązana z powrotem z zatwierdzoną specyfikacją produktu, BOM, projektem graficznym i oznaczeniami pakowania.
+
+    Umożliwia to sprawny przegląd konfiguracji produktu, statusu inspekcji i zakresu skutków, jeśli pojawi się wątpliwość jakościowa —od gotowego produktu aż do zapisów źródłowych na podstawie identyfikacji deski lub kartonu.
+
+traceability_chain:
+  tagline: Łańcuch identyfikowalności
+  title: Od kodu projektu do zatwierdzenia wysyłki
+  subtitle: Jeden łańcuch kontrolowanych odwołań od potwierdzenia zamówienia do autoryzowanego wysłania.
+  steps:
+    - step: '01'
+      title: Kod projektu
+      desc: Zunifikowane odwołanie projektowe, które wiąże każdy kontrolowany dokument z zamówieniem.
+    - step: '02'
+      title: Rewizje dokumentów
+      desc: Bieżące poziomy rewizji specyfikacji, BOM, projektu graficznego i pakowania —do produkcji uprawnione są wyłącznie wersje zatwierdzone.
+    - step: '03'
+      title: Partia i materiały
+      desc: Partie materiałów i komponentów zapisywane dla partii produkcyjnej.
+    - step: '04'
+      title: Zapisy inspekcji
+      desc: Wyniki inspekcji IQC, w trakcie procesu, szczelności powietrznej, końcowej i pakowania dla każdej partii.
+    - step: '05'
+      title: Pakowanie i zatwierdzenie
+      desc: Partia pakowania, status zamknięcia NCR i podsumowanie autoryzowanego zatwierdzenia wysyłki.
+
+traceability_sample:
+  tagline: Przykład zanonimizowany
+  title: Zapis kontroli identyfikowalności (demo)
+  body: |
+    Wartości demonstracyjne pokazano wyłącznie poglądowo —nazwy klientów, numery zamówień, indywidualny projekt graficzny, dane dostawców i informacje handlowe zostały usunięte w celu ochrony poufności.
+
+    - **Producent:** QINGDAO VATRAD GROUP, LTD.
+    - **Kod projektu:** DEMO-SUP-2026-01
+    - **Odniesienie SKU:** DEMO-TR-126
+    - **Partia produkcyjna:** BATCH-AUG-01
+    - **Rewizja specyfikacji / BOM / projektu graficznego:** Rev B / Rev C / Rev B
+    - **Zapis szczelności powietrznej:** PASS —archiwizowany dla każdej partii
+    - **Status inspekcji:** PASS
+    - **Status wysyłki:** RELEASED
+
+quarantine_intro:
+  tagline: Kontrola produktów niezgodnych
+  title: Kontrola produktów niezgodnych i izolacja
+  body: |
+    Produkty lub komponenty, które nie spełniają zdefiniowanych kryteriów akceptacji, są jednoznacznie oznaczane i objęte kontrolowanym statusem wstrzymania lub izolacji. Nie mogą przejść do kolejnego etapu produkcji, pakowania ani wysyłki, dopóki nie zostanie wydana autoryzowana decyzja. Naprawę wykonuje się według zatwierdzonych instrukcji i wiąże z odpowiednim zapisem niezgodności; naprawione elementy sprawdza się ponownie względem obowiązujących wymagań projektu przed zatwierdzeniem jakościowym.
+
+quarantine_flow:
+  tagline: 7-etapowy przepływ kontroli
+  title: Co się dzieje, gdy stwierdzono niezgodność
+  subtitle: Identyfikacja, kontrola, korekta, weryfikacja —a następnie zatwierdzenie lub odrzucenie. Produkt niezgodny nigdy nie wraca do produkcji ani pakowania bez sprawdzenia.
+  steps:
+    - step: '01'
+      title: Identyfikacja
+      desc: Niezgodność jest rejestrowana dla konkretnego produktu, SKU, partii lub etapu procesu.
+    - step: '02'
+      title: Oznaczenie
+      desc: Narażone elementy są jednoznacznie identyfikowane kontrolowanymi etykietami statusu —HOLD, QUARANTINE lub REJECTED.
+    - step: '03'
+      title: Izolacja
+      desc: Elementy są odseparowywane w fizycznie kontrolowanym obszarze izolacji lub systemowo kontrolowane, aby zapobiec nieprzeznaczonemu użyciu lub wysyłce.
+    - step: '04'
+      title: Ocena zakresu
+      desc: Zakres skutków przegląda się według partii, etapu procesu, partii materiałowej i rewizji dokumentu.
+    - step: '05'
+      title: Naprawa / wymiana
+      desc: Korekta jest dopuszczalna wyłącznie na podstawie zatwierdzonej decyzji i kontrolowanej instrukcji roboczej.
+    - step: '06'
+      title: Ponowna inspekcja
+      desc: Skorygowane elementy sprawdza się ponownie względem obowiązujących kryteriów akceptacji przed zatwierdzeniem.
+    - step: '07'
+      title: Zatwierdzenie lub odrzucenie
+      desc: Tylko upoważniony produkt zgodny przechodzi do pakowania lub zatwierdzenia wysyłki.
+
+quarantine_evidence:
+  tagline: Na hali produkcyjnej
+  title: Kontrolowane badania i izolacja w praktyce
+  subtitle: Zdjęcia z naszego zakładu w Qingdao pokazują, jak na miejscu stosuje się kontrolę statusu i zapisy inspekcji.
+  features:
+    - image: https://assets.isupfactory.com/site/quality/qc-air-tightness-test-area.avif
+      alt: Napompowane nadmuchiwane deski SUP w strefie prób ciśnieniowych w fabryce, monitorowane cyfrowym manometrem
+      title: Strefa prób ciśnieniowych
+      desc: 'Napompowane deski utrzymywane w strefie badań QC przy oświetleniu przemysłowym, z cyfrowymi manometrami monitorującymi zatwierdzoną próbę utrzymania powietrza przy podstawie zaworu, szwach listew krawędziowych, dziobie i ogonie oraz lokalizacjach narażonych na naprężenia. Zapisy są prowadzone dla każdej partii i powiązane z inspekcją końcową.'
+    - image: https://assets.isupfactory.com/site/quality/qc-hold-quarantine-station.avif
+      alt: Listy kontrolne QC i etykiety statusu wstrzymania na stanowisku inspekcji w fabryce
+      title: Stanowisko wstrzymania i izolacji
+      desc: 'Stanowisko inspekcji z listami kontrolnymi QC i etykietowaniem statusu. Każdy element niespełniający kryteriów akceptacji jest oznaczany, rejestrowany i przenoszony do izolacji —nie może przejść do pakowania, dopóki nie zostanie wydana autoryzowana decyzja i przeprowadzona obowiązkowa ponowna inspekcja.'
+    - image: https://assets.isupfactory.com/site/quality/qc-air-tightness-rework.avif
+      alt: Technik QC wykonujący kontrolowaną naprawę szczelności powietrznej nadmuchiwanej deski SUP na stanowisku napraw w fabryce
+      title: Stanowisko kontrolowanej naprawy
+      desc: 'Naprawę szczelności powietrznej wykonuje się na dedykowanym stanowisku według zatwierdzonej karty metody: wada jest oznaczana, deska pozostaje w statusie HOLD, a po wymaganym czasie wiążania wraca do strefy badań na ponowną inspekcję względem pierwotnych kryteriów akceptacji.'
+    - image: https://assets.isupfactory.com/site/quality/qc-workshop-quarantine-demo.avif
+      alt: Pokaz kontrolowanej izolacji w hali produkcyjnej fabryki w Qingdao
+      title: Pokaz obszaru izolacji
+      desc: 'Zdanie demonstracyjne z hali pokazujące, jak działa kontrolowana izolacja na miejscu: odseparowane sztuki pozostają pod kontrolą statusu, dopóki nie zostanie wydana autoryzowana decyzja.'
+
+rework_intro:
+  tagline: Nadzór nad naprawą
+  title: Nadzór nad niezgodnościami szczelności powietrznej i naprawami
+  body: |
+    W QINGDAO VATRAD GROUP.,LTD. naprawę definiuje się ściśle jako przywrócenie niezgodnej sztuki do pełnej zgodności z jej pierwotną specyfikacją inżynierską —a nie jako szybką poprawkę. Każdą deskę, w której stwierdzono niezgodność szczelności powietrznej, umieszcza się w kontrolowanym wstrzymaniu i wiąże z Raportem Niezgodności (NCR) przed dalszym przetwarzaniem; źródło przecieku lokalizuje się i zapisuje zatwierdzoną metodą diagnostyczną.
+
+    Naprawa może być przeprowadzona wyłącznie wtedy, gdy wada mieści się w zatwierdzonym zakresie napraw i dostępna jest autoryzowana metoda. Instrukcja naprawy określa produkt, partię, położenie wady, zatwierdzony materiał, metodę, wymagane warunki i zakres ponownej inspekcji. Po wymaganym okresie wiązania lub stabilizacji deskę sprawdza się ponownie względem tych samych obowiązujących kryteriów akceptacji, co deska zgodna —naprawa nigdy nie obniża standardu akceptacji. Niezaliczenie ponownej inspekcji wymaga ponownej decyzji inżynierskiej i jakościowej; powtarzająca się naprawa nie jest dozwolona bez udokumentowanego zatwierdzenia.
+
+rework_decision:
+  tagline: Interaktywny przepływ
+  title: Przepływ decyzji o naprawie —kliknij dowolny węzeł
+  subtitle: Prześledź, jak obsługiwana jest niezgodność szczelności powietrznej —od wykrycia do zatwierdzenia lub utylizacji. Kliknij węzeł, aby rozwinąć wymagania kontrolne na tym etapie.
+  nodes:
+    - id: detect
+      type: start
+      label: Wykryto przeciek
+      detail: 'Niezgodność szczelności powietrznej stwierdzono podczas inspekcji —niezdolność do utrzymania ciśnienia, widoczny wyciek lub powiązana usterka układu powietrznego.'
+    - id: hold
+      type: step
+      label: Zatrzymanie linii · Etykieta HOLD · NCR
+      detail: 'Przetwarzanie zostaje zatrzymane. Zapisuje się identyfikator deski, kod produktu, partię, stanowisko, datę i inspektora; przykleja się etykietę HOLD / QUARANTINE i zakłada NCR dla obowiązującej rewizji specyfikacji.'
+    - id: locate
+      type: step
+      label: Lokalizacja źródła przecieku
+      detail: 'Deska jest pompowana do ciśnienia diagnostycznego zatwierdzonego dla projektu, a źródło przecieku lokalizuje się zatwierdzoną metodą —utrzymaniem ciśnienia, wzorcowaną próbą wodną, metodą akustyczną lub sprzętem do wykrywania nieszczelności.'
+    - id: classify
+      type: step
+      label: Klasyfikacja wady (A–G)
+      detail: 'Wadę klasyfikuje się według macierzy zatwierdzeń: A interfejs zaworu, B szew u podstawy zaworu, C mikroszczelność powierzchniowa typu nakłucie, D miejscowy szew listwy krawędziowej, E rozległa awaria listwy krawędziowej, F nawracający przeciek, G uszkodzenie konstrukcyjne.'
+    - id: authorize
+      type: decision
+      label: Czy naprawa jest zatwierdzona?
+      yes: rework
+      no: escalate
+      detail: 'QC potwierdza kategorię wady, a Inżynieria ocenia, czy deskę można przywrócić do pierwotnej specyfikacji. Autoryzacja odnotowuje kartę metody, materiały, warunki i zakres ponownej inspekcji —albo kieruje sprawę do wymiany, odrzucenia, utylizacji lub uzgodnienia z klientem.'
+    - id: rework
+      type: step
+      label: Kontrolowana naprawa
+      detail: 'Wykonana wyłącznie w zatwierdzonych granicach wady, z użyciem zatwierdzonej karty metody, partii materiału i oprzyrządowania —nigdy z modyfikacją wymiarów, konstrukcji, grafiki, akcesoriów ani wymagań pakowania.'
+    - id: cure
+      type: step
+      label: Wiązanie i stabilizacja
+      detail: 'Deska pozostaje w statusie HOLD przez okres wiązania i stabilizacji określony w zatwierdzonej instrukcji materiału i procesu, a następnie przechodzi kontrolę wizualną i wykonania.'
+    - id: reinspect
+      type: decision
+      label: Czy ponowna inspekcja zaliczona?
+      yes: release
+      no: escalate
+      detail: 'Deska jest pompowana do ciśnienia ponownej inspekcji zatwierdzonego dla projektu, a pierwotna usterka oraz wszystkie cechy potencjalnie objęte skutkami są ponownie weryfikowane —położenie przecieku, zawór, listwy krawędziowe, szwy, strefy naprężeń, akcesoria i wygląd. Naprawa nigdy nie obniża standardu akceptacji.'
+    - id: release
+      type: release
+      label: Zatwierdzenie jakości
+      detail: 'Jakość przegląda zamknięty NCR, zapis naprawy i wynik ponownej inspekcji, a następnie autoryzuje zatwierdzenie. Żadna naprawiona deska nie jest pakowana ani wysyłana bez autoryzowanego zatwierdzenia jakości.'
+    - id: escalate
+      type: escalate
+      label: Eskalacja —wymiana / utylizacja / odstępstwo
+      detail: 'Bez powtarzającej się naprawy bez udokumentowanego zatwierdzenia. Deska trafia do wymiany, odrzucenia, utylizacji lub pisemnego uzgodnienia z klientem, gdy nie da się przywrócić pierwotnej specyfikacji.'
+
+defect_matrix:
+  tagline: Klasyfikacja wad
+  title: Klasyfikacja wad szczelności powietrznej i macierz zatwierdzeń
+  subtitle: Nie każdy przeciek jest naprawiany —każdą wadę klasyfikuje się, a decyzję zatwierdza na odpowiednim szczeblu, od inspektora QC po kierownika zakładu.
+  headers:
+    category: Kategoria wady
+    area: Typowa lokalizacja
+    eligibility: Dopuszczalność naprawy
+    approval: Wymagane zatwierdzenie
+  rows:
+    - category: 'Klasa A — Interfejs zaworu'
+      area: 'Wkład zaworu, uszczelka korka, podkładka, interfejs z pompką'
+      eligibility: 'Naprawa standardowa zatwierdzona'
+      approval: 'Inspektor QC'
+    - category: 'Klasa B — Szew u podstawy zaworu'
+      area: 'Mikroszczelność wzdłuż obrzeża zaworu'
+      eligibility: 'Naprawa oceniana zgodnie z zatwierdzoną kartą metody'
+      approval: 'QC + Inżynieria'
+    - category: 'Klasa C — Nakłucie powierzchniowe'
+      area: 'Miejscowe mikronakłucie na powierzchni bez naprężeń'
+      eligibility: 'Dozwolone tylko wtedy, gdy jest zgodne ze specyfikacją klienta'
+      approval: 'QC + Inżynieria'
+    - category: 'Klasa D — Miejscowy szew listwy krawędziowej'
+      area: 'Miejscowy przeciek na zakładce listwy krawędziowej'
+      eligibility: 'Wysokie ryzyko; wymagana ścisła decyzja inżynierska'
+      approval: 'Inżynieria + Kierownik QA'
+    - category: 'Klasa E — Rozległa awaria listwy krawędziowej'
+      area: 'Ciągła awaria szwów w strefach dużych naprężeń'
+      eligibility: 'Naprawa standardowa niedozwolona —wymiana lub analiza przyczyny źródłowej'
+      approval: 'Kierownik QA + Uzgodnienie z klientem'
+    - category: 'Klasa F — Nawracający przeciek'
+      area: 'Przeciek niemożliwy do zlokalizowania lub niepowodzenie ponownego badania'
+      eligibility: 'Bez powtarzającej się naprawy; wymiana, utylizacja lub inżynierska analiza przyczyny źródłowej'
+      approval: 'Kierownik QA / Inżynieria'
+    - category: 'Klasa G — Uszkodzenie konstrukcyjne'
+      area: 'Uszkodzenie materiału, rozwarstwienie, odkształcenie deski'
+      eligibility: 'Zatwierdzenie po naprawie niedozwolone —wymiana, utylizacja lub pisemne uzgodnienie z klientem'
+      approval: 'Kierownik Jakości + Zgoda Klienta'
+
+rework_flow:
+  tagline: 7-etapowa pętla zamknięta
+  title: Kontrolowany proces naprawy —od wykrycia do zatwierdzenia lub utylizacji
+  subtitle: 'Każda naprawa szczelności powietrznej przebiega tą samą kontrolowaną pętlą: wykrycie, izolacja, diagnostyka, autoryzacja, naprawa, ponowna inspekcja, zatwierdzenie.'
+  steps:
+    - step: '01'
+      title: Wykrycie, zatrzymanie linii i izolacja
+      desc: 'Przetwarzanie narażonej deski zostaje natychmiast zatrzymane. Zapisuje się identyfikator deski, kod produktu, partię, stanowisko, datę i inspektora, przykleja etykietę HOLD / QUARANTINE i zakłada NCR dla obowiązującej rewizji specyfikacji.'
+    - step: '02'
+      title: Systematyczna diagnostyka przecieku
+      desc: 'Deska jest pompowana do ciśnienia diagnostycznego zatwierdzonego dla projektu, a źródło przecieku lokalizuje się zatwierdzoną metodą —utrzymaniem ciśnienia, wzorcowaną próbą wodną, metodą akustyczną lub sprzętem do wykrywania nieszczelności. Podejrzane miejsce oznacza się bez uszkodzenia deski.'
+    - step: '03'
+      title: Decyzja inżynierska i autoryzacja
+      desc: 'QC potwierdza kategorię wady, a Inżynieria ocenia, czy deskę można przywrócić do pierwotnej specyfikacji. Autoryzacja naprawy powołująca się na NCR odnotowuje zatwierdzoną metodę, materiały, warunki i zakres ponownej inspekcji —albo przydziela wymianę, odrzucenie, utylizację lub uzgodnienie z klientem.'
+    - step: '04'
+      title: Wykonanie kontrolowanej naprawy
+      desc: 'Naprawę wykonuje się wyłącznie w zatwierdzonych granicach wady, z użyciem zatwierdzonej karty metody, partii materiału i oprzyrządowania. Wymiary deski, konstrukcja, grafika, konfiguracja akcesoriów i wymagania pakowania nigdy nie są modyfikowane.'
+    - step: '05'
+      title: Stabilizacja po naprawie i kontrola wstępna
+      desc: 'Naprawiona deska pozostaje w statusie HOLD przez okres wiązania i stabilizacji określony w zatwierdzonej instrukcji materiału i procesu, a następnie przechodzi kontrolę wizualną i wykonania przed ponowną inspekcją.'
+    - step: '06'
+      title: Ponowna inspekcja i badanie potwierdzające
+      desc: 'Deska jest pompowana do ciśnienia ponownej inspekcji zatwierdzonego dla projektu, a pierwotna usterka oraz wszystkie cechy potencjalnie objęte skutkami są ponownie weryfikowane: położenie przecieku i otaczający obszar, zawór, listwy krawędziowe, szwy, strefy naprężeń, akcesoria i wygląd. Naprawa nigdy nie obniża standardu akceptacji.'
+    - step: '07'
+      title: Zatwierdzenie QA lub decyzja końcowa
+      desc: 'Jakość przegląda ukończony NCR, zapis naprawy i wynik ponownej inspekcji, a następnie autoryzuje zatwierdzenie —albo eskaluje sprawę do wymiany, odrzucenia, utylizacji lub uzgodnienia z klientem. Żadna naprawiona deska nie jest pakowana ani wysyłana bez autoryzowanego zatwierdzenia jakości.'
+
+quality_safeguards:
+  tagline: Zabezpieczenia jakościowe
+  title: Reguły antybłędne, które chronią Twoją markę
+  subtitle: Twarde kontrole zapobiegające niekontrolowanym pętlom napraw —jedna udokumentowana naprawa na wadę, progi alarmowe na poziomie partii, wzorcowane przyrządy i kontrolowane warunki badań.
+  features:
+    - icon: 1
+      icon_bg: blue
+      title: Jedna naprawa na wadę
+      desc: 'Pojedyncze miejsce można naprawić raz według autoryzowanej instrukcji. Jeśli ponowna inspekcja nadal zawodzi, deska jest kierowana do wymiany, odrzucenia, utylizacji lub uzgodnienia z klientem —powtarzająca się naprawa bez udokumentowanego zatwierdzenia nie jest dozwolona.'
+    - icon: 2
+      icon_bg: green
+      title: Alarm partii i zatrzymanie linii
+      desc: 'Gdy niezgodność w partii produkcyjnej przekroczy próg ustalony przez Inżynierię, linia zostaje zatrzymana, a Inżynieria bada przyczynę —partię materiału, warunki procesu i zapisy —przed wznowieniem produkcji.'
+    - icon: 3
+      icon_bg: purple
+      title: Wzorcowane przyrządy pomiarowe
+      desc: 'Manometry, cyfrowe ciśnieniomierze i stopery używane do badań szczelności powietrznej są poddawane kontroli i wzorcowaniu przez laboratoria trzeciej strony w okresie ważności, a status wzorcowania jest widoczny w strefie inspekcji.'
+    - icon: 4
+      icon_bg: orange
+      title: Kontrolowane warunki badań
+      desc: 'Obszary badań szczelności powietrznej i wiązania są utrzymywane w środowisku kontrolowanym, aby wyniki nie były zaburzane przez wahania temperatury między dniem a nocą.'
+
+rework_boundaries:
+  tagline: Zakres i granice
+  title: Czego ten system nie obejmuje
+  body: |
+    System kontroli napraw dotyczy gotowych lub powstających nadmuchiwanych desek SUP ze stwierdzonym przeciekiem powietrza, niezdolnością do utrzymania ciśnienia lub powiązanymi usterkami układu powietrznego, przed zatwierdzeniem wysyłki. Nie upoważnia do zmian zatwierdzonej konstrukcji, materiałów, grafiki, konfiguracji produktu ani wymagań klienta i nie obejmuje:
+
+    - Produktów już wysłanych lub znajdujących się w kanałach klienta.
+    - Uszkodzeń konstrukcyjnych lub odkształceń deski nieocenionych przez Inżynierię.
+    - Rozległych awarii listew krawędziowych lub szwów, uszkodzeń materiału rdzenia ani wad mogących wpływać na bezpieczeństwo.
+    - Projektów, w których naprawa jest niedozwolona: zatwierdzone przez klienta próbki, egzemplarze certyfikacyjne lub próbne.
+    - Projektów z zastrzeżonymi procesami klienta, specjalnymi materiałami lub specjalnymi wymaganiami naprawy.
+    - Nawracających przecieków, których nie można zlokalizować, lub desek ponownie niesprawdzających po naprawie.
+
+    Każde odchylenie od specyfikacji klienta wymaga udokumentowanego przeglądu inżynierskiego, a tam, gdzie to wymagane, pisemnej zgody klienta. Desek, których nie da się przywrócić do pierwotnej specyfikacji, zatwierdza się wyłącznie na podstawie wyraźnego uzgodnienia z klientem —nigdy przez samą produkcję.
+
+method_cards:
+  tagline: System kart metod
+  title: Indeks kontrolowanych kart metod naprawy
+  subtitle: 'Instrukcja ogólna kontroluje proces; karty metod kontrolują operację. Instrukcja naprawy (WI-QC-AT-001) powołuje się na karty metod MC-RW-01 do MC-RW-06 oraz MC-RW-00 dla obowiązkowej utylizacji i odrzucenia.'
+  headers:
+    code: Karta metody
+    defect: Klasa wady
+    scope: Zakres stosowania
+    controls: Kluczowe kontrole inżynierskie
+    approval: Uprawniony do podpisu
+  rows:
+    - code: MC-RW-01
+      defect: Klasa A (Interfejs zaworu)
+      scope: 'Obsługa wkładu zaworu, czyszczenie uszczelnienia i ponowny montaż'
+      controls: 'Wzorcowany klucz dynamometryczny, czyste gniazdo uszczelki, brak uszkodzeń gwintów zaworu'
+      approval: 'Inspektor QC'
+    - code: MC-RW-02
+      defect: Klasa B (Obwód zaworu)
+      scope: 'Uszczelnienie kołnierza podstawy zaworu i kontrolowane ściskanie'
+      controls: 'Kontrolowane przygotowanie powierzchni, zatwierdzony materiał łączący, okrągły przyrząd dociskowy'
+      approval: 'QC + Inżynieria'
+    - code: MC-RW-03
+      defect: Klasa C (Mikroszczelność powierzchniowa)
+      scope: 'Uszczelnienie mikronakłuć bez wpływu na konstrukcję'
+      controls: 'Zatwierdzony klej dwuskładnikowy, brak spływu na grafikę ani EVA'
+      approval: 'QC + Inżynieria'
+    - code: MC-RW-04
+      defect: Klasa D (Miejscowy szew listwy krawędziowej)
+      scope: 'Ponowne spojenie miejscowego szwu zakładki listwy krawędziowej'
+      controls: 'Aktywacja cieplna z regulacją temperatury, wałek dociskowy, przyrząd przeciw wygięciu'
+      approval: 'Inżynieria + Kierownik QA'
+    - code: MC-RW-05
+      defect: Klasa B/C (Obwód akcesoriów)
+      scope: 'Uszczelnienie łaty gniazda płetwy i podstawy montażu akcesoriów'
+      controls: 'Promotor adhezji powierzchni, profilowany blok dociskowy, ustalony czas utrzymania'
+      approval: 'QC + Inżynieria'
+    - code: MC-RW-06
+      defect: Klasa D (Szew dziobowy/ogonowy)
+      scope: 'Interwencja w szew o dużym promieniu wypukłości i naprężeniach'
+      controls: 'Zatwierdzony materiał łączący o wysokiej wytrzymałości na ścinanie, wydłużony czas wiązania przed ponownym badaniem'
+      approval: 'Dyrektor Techniczny'
+    - code: MC-RW-00
+      defect: Klasa E/F/G (Krytyczna / pęknięcie)
+      scope: 'Obowiązkowa utylizacja i fizyczne zniszczenie'
+      controls: 'Fizyczne odcięcie zapobiegające domieszaniu, zapis utylizacji, międzydziałowa analiza przyczyny źródłowej'
+      approval: 'Kierownik Zakładu'
+
+inspector_friendly:
+  tagline: Inspekcja strony trzeciej
+  title: Protokół przyjazny inspektorom
+  body: |
+    Zapewniamy dedykowany obszar inspekcji z wzorcowanymi manometrami, standaryzowanymi stołami oświetleniowymi do kontroli szwów i grafiki oraz wcześniej wypełnionymi Briefami Inspekcyjnymi, dzięki czemu agencje zewnętrzne (SGS, BV, Intertek, QIMA) mogą sprawnie przeprowadzić inspekcję przed wysyłką —co obniża Twoje koszty inspekcji.
+
+    Każdy brief streszcza obowiązujące rewizje dokumentów, odniesienie do zatwierdzonej próbki, punkty kontrolne o kluczowym znaczeniu dla jakości, uzgodniony poziom próbkowania, badania czynnościowe oraz wymagania opakowania i kodu kreskowego dla zamówienia. Określone ilości, jakość, pakowanie i podstawowe kwestie bezpieczeństwa sprawdza się względem zatwierdzonych odwołań projektu —bez szukania dokumentów na miejscu w ostatniej chwili.
+
+document_pack:
+  tagline: Pakiet dokumentacji jakościowej
+  title: Pobierz przykładowy pakiet jakości i szablony protokołów
+  subtitle: 'Standardowe kontrolowane szablony stosowane w projektach OEM/ODM — zorganizowane jako rejestr dokumentów 00–15 (indeks projektu, zatwierdzona specyfikacja, BOM, odwołania do projektu graficznego i pakowania, QIP, zapisy inspekcji, NCR, kontrola zmian, brief dla strony trzeciej, podsumowanie zatwierdzenia).'
+  features:
+    - icon: P
+      icon_bg: blue
+      title: Pakiet dokumentacji jakościowej (PDF)
+      desc: 'Pełna kontrolowana struktura dokumentów 00–15: indeks projektu, specyfikacja, BOM, odwołania do projektu graficznego i pakowania, Plan Kontroli Jakości (QIP), zapisy inspekcji, NCR, kontrola zmian, brief dla strony trzeciej i podsumowanie zatwierdzenia przed wysyłką.'
+      link: 'https://assets.isupfactory.com/site/downloads/Qingdao_Vatrad_Group_SUP_Quality_Documentation_Pack.pdf?dl=1'
+      link_label: Pobierz PDF
+    - icon: T
+      icon_bg: green
+      title: Brief dla inspekcji strony trzeciej (PDF)
+      desc: 'Jednostronicowy brief dla inspektorów SGS / BV / Intertek / QIMA: ilość zamówienia, poziom próbkowania AQL, obowiązujące rewizje oraz punkty kontrolne o kluczowym znaczeniu dla jakości, w tym weryfikacja zapisu szczelności powietrznej, próba utrzymania ciśnienia, kompletność zestawu, skan kodu kreskowego i próba upadkowa kartonu.'
+      link: 'https://assets.isupfactory.com/site/downloads/Third_Party_Inspection_Brief_Template.pdf?dl=1'
+      link_label: Pobierz PDF
+    - icon: C
+      icon_bg: purple
+      title: Protokół kontroli zmian (PDF)
+      desc: 'Rejestr kontroli zmian obejmujący projekt graficzny, zatwierdzony przez klienta BOM oraz rewizje oznaczeń kartonu —z podsumowaniem zmiany, powodem, oceną skutków, statusem zgody klienta, partią obowiązującą i wycofaniem nieaktualnych dokumentów.'
+      link: 'https://assets.isupfactory.com/site/downloads/Change_Control_Protocol_Bilingual.pdf?dl=1'
+      link_label: Pobierz PDF
+    - icon: R
+      icon_bg: orange
+      title: Podsumowanie zatwierdzenia przed wysyłką (PDF)
+      desc: 'Jednostronicowy podpis zatwierdzenia: weryfikacja bramek jakości (IQC, IPQC, szczelność powietrzna, inspekcja końcowa, pakowanie), status otwartych NCR oraz autoryzowana decyzja o zatwierdzeniu podpisana przez jakość i operacje.'
+      link: 'https://assets.isupfactory.com/site/downloads/Pre_Shipment_Release_Summary_Bilingual.pdf?dl=1'
+      link_label: Pobierz PDF
+    - icon: W
+      icon_bg: blue
+      title: Instrukcja naprawy szczelności powietrznej (PDF)
+      desc: 'Kontrolowana instrukcja robocza WI-QC-AT-001 Rev A: zakres i granice, klasyfikacja wad, NCR i autoryzacja naprawy, kontrolowane wykonanie, wiązanie, ponowna inspekcja i zatwierdzenie dla nadmuchiwanych desek SUP.'
+      link: 'https://assets.isupfactory.com/site/downloads/air-tightness-rework-instruction-wi-qc-at-001.pdf?dl=1'
+      link_label: Pobierz PDF
+    - icon: M
+      icon_bg: green
+      title: Indeks kart metod (PDF)
+      desc: 'Kontrolowany dokument SOP-QC-AT-IDX-001 Rev A: numerowany system kart metod MC-RW-01 do MC-RW-06 oraz MC-RW-00 dla utylizacji i odrzucenia, powiązany z instrukcją naprawy szczelności powietrznej.'
+      link: 'https://assets.isupfactory.com/site/downloads/method-card-index-sop-qc-at-idx-001.pdf?dl=1'
+      link_label: Pobierz PDF
+    - icon: V
+      icon_bg: orange
+      title: Standard kontroli zmian w naprawie (strona)
+      desc: 'Formalna kontrola zmian wg ISO 9001 dla parametrów naprawy: ECR, klasyfikacja ryzyka, międzydziałowa macierz zatwierdzeń, 9-etapowa pętla zamknięta, ilościowa walidacja inżynierska i zabezpieczenia Poka-Yoke — z dwujęzycznym SOP QMS-SOP-QC-CC-001 Rev 2.0.'
+      link: '/pl/factory/quality-change-control'
+      link_label: Zobacz stronę
+    - icon: N
+      icon_bg: blue
+      title: Kontrola produktów niezgodnych (strona)
+      desc: 'Kontrola produktów niezgodnych wg ISO 9001:2015 punkt 8.7: rejestracja NCR, izolacja, uprawnienia do decyzji zależne od wagi wady, kontrolowana naprawa według SRI, niezależna ponowna inspekcja i niszczenie w asyście świadków archiwizowane w formie skrótów SHA-256 — z możliwością pobrania dwujęzycznego SOP i świadectwa utylizacji.'
+      link: '/pl/factory/non-conforming-control'
+      link_label: Zobacz stronę
+
+faqs:
+  tagline: FAQ
+  title: Najczęstsze pytania o kontrolę jakości SUP
+  items:
+    - q: 'Jak QINGDAO VATRAD GROUP.,LTD. kontroluje jakość nadmuchiwanych desek SUP?'
+      a: 'Jakość jest kontrolowana poprzez inspekcję materiałów przychodzących, punkty kontrolne procesu produkcji, weryfikację produktu końcowego, inspekcję opakowania oraz identyfikowalność produkcji —każdy element realizowany względem zatwierdzonych dla projektu próbek, specyfikacji i kryteriów inspekcji.'
+    - q: 'Jakie kontrole jakości są wykonywane podczas produkcji SUP?'
+      a: 'Kontrole obejmują weryfikację materiałów, sprawdzenie cięcia i druku, inspekcję budowy deski, weryfikację montażu zaworu, inspekcję akcesoriów, badania szczelności powietrznej, kontrolę wyglądu oraz weryfikację opakowania.'
+    - q: 'Czy klienci OEM mogą żądać zapisów inspekcji SUP?'
+      a: 'Tak. Zapisy inspekcji i dokumentacja jakościowa mogą być udostępniane zgodnie z wymaganiami projektu i umową jakościową klienta, w tym przykładowe raporty z inspekcji przed wysyłką.'
+    - q: 'Jak fabryka zapewnia powtarzalność produkcji OEM?'
+      a: 'Powtarzalność produkcji jest utrzymywana dzięki zatwierdzonym próbkom, specyfikacjom technicznym, punktom kontrolnym produkcji, procedurom inspekcji oraz udokumentowanym procesom kontroli jakości powiązanym z każdym zamówieniem.'
+    - q: 'Czy mogę zorganizować inspekcję strony trzeciej przez SGS, BV, Intertek lub QIMA?'
+      a: 'Tak. Zapraszamy inspektorów zewnętrznych, zapewniając dedykowany obszar inspekcji, wzorcowane manometry, wcześniej wypełnione briefy inspekcyjne i dostępne zapisy. Prześlij swoją specyfikację, zatwierdzoną próbkę, projekt graficzny, wymagania opakowaniowe i kryteria wad —lub skorzystaj z naszego szablonu Briefu dla inspekcji strony trzeciej.'
+    - q: 'Jak obsługiwane są zmiany projektu graficznego, BOM lub opakowania w trakcie produkcji?'
+      a: 'Zmiany są rejestrowane w naszym Rejestrze kontroli zmian wraz z narażoną rewizją dokumentu, podsumowaniem zmiany, powodem, oceną skutków, statusem zgody klienta i partią obowiązującą. Nieaktualne wersje są wycofywane, aby produkcja i inspekcja zawsze korzystały z bieżących zatwierdzonych dokumentów.'
+    - q: 'Czy fabryka obsługuje zindywidualizowane projekty nadmuchiwanych desek SUP?'
+      a: 'Tak. Zindywidualizowane projekty OEM/ODM nadmuchiwanych desek SUP są realizowane na podstawie specyfikacji klienta, wymagań dotyczących projektu graficznego, konfiguracji akcesoriów i potrzeb opakowaniowych, przy czym kryteria inspekcji właściwe dla projektu są uzgadniane przed produkcją.'
+    - q: 'Czy przeciekającą deskę SUP można naprawić w fabryce?'
+      a: 'Tak —w warunkach kontrolowanych. Deska jest umieszczana w statusie HOLD i powiązana z NCR, przeciek lokalizuje się zatwierdzoną metodą diagnostyczną, a naprawa przebiega dopiero po autoryzacji QC/Inżynierii i wyłącznie w obrębie klas wad zatwierdzonych do naprawy. Następnie deska jest ponownie sprawdzana względem tych samych kryteriów akceptacji, co deska zgodna, przed zatwierdzeniem.'
+    - q: 'Ile razy fabryka może naprawić deskę?'
+      a: 'Pojedyncze miejsce można naprawić raz według autoryzowanej instrukcji. Jeśli ponowna inspekcja nadal zawodzi, deska jest kierowana do wymiany, odrzucenia, utylizacji lub uzgodnienia z klientem —powtarzająca się naprawa bez udokumentowanego zatwierdzenia nie jest dozwolona.'
+
+cta:
+  title: Potrzebujesz przykładowego pakietu jakości projektu?
+  desc: 'Zamów zanonimizowany Pakiet Wsparcia Inspekcji Strony Trzeciej i Plan Kontroli Jakości (QIP) dla swojego projektu OEM/ODM —lub pobierz przykładowe szablony, aby sprawdzić strukturę dokumentacji, jakiej możesz oczekiwać przy swoim zamówieniu.'
+  actions:
+    - text: Zamów przegląd jakości
+      variant: primary
+      href: /pl/contact
+    - text: Pobierz przykładowy pakiet jakości (PDF)
+      href: 'https://assets.isupfactory.com/site/downloads/Qingdao_Vatrad_Group_SUP_Quality_Documentation_Pack.pdf?dl=1'
+    - text: Pobierz protokół QC i listę kontrolną PSI
+      href: 'https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_Quality_Inspection_Standards.pdf?dl=1'

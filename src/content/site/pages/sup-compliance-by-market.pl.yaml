@@ -1,0 +1,100 @@
+meta:
+  title: 'Zgodność SUP na rynku — wymagania CE, REACH, RoHS, BSCI, ISO 9001 | iSupfactory'
+  description: 'Przewodnik zgodności nadmuchiwanych desek SUP w zależności od rynku: CE (UE), CPSIA (USA), AS/NZS (AU), ISO 9001, BSCI, REACH i RoHS — zakres i dokumentacja dla każdego rynku.'
+  dateModified: '2026-08-21'
+  keywords:
+    - 'zgodność sup w zależności od rynku'
+    - 'certyfikacja ce sup'
+    - 'przepisy dotyczące nadmuchiwanych sup'
+    - 'zgodność sup z reach'
+    - 'zgodność sup z rohs'
+    - 'audyt bsci fabryki sup'
+    - 'producent sup iso 9001'
+
+hero:
+  tagline: 'Przewodnik zgodności'
+  title: 'Zgodność SUP w zależności od rynku'
+  subtitle: 'Każdy docelowy rynek ma własne wymagania certyfikacyjne, etykietowe i dokumentacyjne. Ten przewodnik mapuje otoczenie regulacyjne nadmuchiwanych desek SUP na głównych rynkach — UE, Ameryka Północna, Australia i inne — abyś mógł określić właściwy zakres już na etapie wyceny, a nie po produkcji.'
+
+answer:
+  label: 'Szybka odpowiedź'
+  text: 'Dla UE: oznakowanie CE jest obowiązkowe dla desek sprzedawanych w Europejskim Obszarze Gospodarczym — certyfikujemy modele przeznaczone na rynki UE, a zakres potwierdzamy dla każdego projektu. Dla USA: obowiązują CPSIA oraz przepisy stanowe dotyczące VOC. Dla Australii: zgodność z AS/NZS 1586. Wszystkie rynki: ISO 9001 (fabryka), BSCI (audyt społeczny), REACH i RoHS (materiały) stanowią standard w naszej produkcji niezależnie od przeznaczenia. Zakres zgodności i koszty rozdzielamy pozycjami w Twojej ofercie — bez niespodzianek po produkcji.'
+  verified: 'Wrzesień 2026'
+
+market_cards:
+  tagline: 'Wymagania wg regionów'
+  title: 'Wymagania zgodności wg docelowego rynku'
+  subtitle: 'Zakres certyfikacji potwierdzamy dla każdego projektu podczas przeglądu wykonalności. Poniżej typowe wymagania dla poszczególnych rynków.'
+  grid: 'sm:grid-cols-2 lg:grid-cols-4'
+  features:
+    - icon: EU
+      icon_bg: blue
+      title: 'Unia Europejska'
+      desc: 'Oznakowanie CE obowiązkowe. REACH (bezpieczeństwo chemiczne), RoHS (substancje ograniczone), certyfikacja fabryki ISO 9001. Badania specyficzne dla produktu zgodnie z obowiązującą dyrektywą PPE lub dyrektywą dotyczącą jednostek rekreacyjnych. Etykietowanie w urzędowym języku kraju przeznaczenia. Dostępny audyt społeczny BSCI.'
+    - icon: US
+      icon_bg: green
+      title: 'Stany Zjednoczone'
+      desc: 'Zgodność z CPSIA (bezpieczeństwo produktów konsumenckich). Kalifornijska Prop 65 oraz przepisy stanowe dotyczące VOC dla emisji z PCV i klejów. Brak federalnego odpowiednika CE. Badania ASTM dostępne na żądanie. Wymagania FTC dotyczące oznaczenia kraju pochodzenia i składu materiałowego.'
+    - icon: AU
+      icon_bg: purple
+      title: 'Australia i Nowa Zelandia'
+      desc: 'AS/NZS 1586 dla nadmuchiwanych jednostek wodnych. Gwarancje australijskiego prawa konsumenckiego. Dokumentacja importowa i ocena zgodności zgodnie z wymogami Australian Border Force. Dokumentacja bezpieczeństwa chemicznego odpowiadająca REACH. Dostępny audyt społeczny BSCI.'
+    - icon: GL
+      icon_bg: orange
+      title: 'Globalny / wielorynkowy'
+      desc: 'Certyfikacja fabryki ISO 9001:2015 (audytowana corocznie). Audyt zgodności społecznej BSCI. Zgodność materiałowa REACH i RoHS w całej produkcji niezależnie od przeznaczenia. Identyfikowalność na poziomie partii i raporty z badań dostępne dla każdego rynku. Zakres certyfikacji na zamówienie potwierdzamy w każdym projekcie.'
+
+certifications_detail:
+  heading: 'Nasz zakres certyfikacji'
+  body: |
+    Poniższe certyfikaty posiadamy lub udostępniamy w ramach naszej produkcji. Zakres certyfikacji dla Twojego projektu potwierdzamy podczas przeglądu wykonalności i rozdzielamy pozycjami w Twojej ofercie.
+
+    - **ISO 9001:2015** — Fabryczny system zarządzania jakością, audytowany corocznie przez akredytowaną stronę trzecią. Obejmuje cały proces produkcji od inspekcji materiałów przychodzących po opakowanie końcowe.
+    - **Oznakowanie CE** — Stosowane do modeli przeznaczonych na rynki UE. Badania i dokumentacja zgodnie z obowiązującą dyrektywą UE. Zakres potwierdzamy w każdym projekcie — nie wszystkie modele wymagają tego samego zakresu CE.
+    - **BSCI** — Audyt inicjatywy zgodności społecznej w biznesie. Obejmuje prawa pracownicze, bezpieczeństwo w miejscu pracy, zgodność środowiskową i etykę biznesową. Dostępny dla wszystkich rynków.
+    - **REACH** — Rozporządzenie UE w sprawie bezpieczeństwa chemicznego. Wszystkie materiały PCV, kleje i powłoki są zgodne z REACH. Dokumentacja substancji i raporty z badań dostępne dla każdej partii.
+    - **RoHS** — Dyrektywa w sprawie ograniczania substancji niebezpiecznych. Wszystkie akcesoria elektroniczne (pompy z silnikiem, akcesoria LED) są zgodne z RoHS. Materiały deski są z natury zgodne.
+
+compliance_process:
+  tagline: 'Jak zgodność działa w Twoim zamówieniu'
+  title: 'Zgodność w procesie onboardingu'
+  subtitle: 'Zgodność to nie dodatek — jest wbudowana w każdą bramkę procesu onboardingu.'
+  grid: 'sm:grid-cols-2 lg:grid-cols-3'
+  features:
+    - icon: 1
+      icon_bg: blue
+      title: 'Bramka 1: potwierdzenie zakresu'
+      desc: 'Przy zapytaniu podajesz docelowe rynki. My potwierdzamy, które certyfikaty, badania i dokumenty dotyczą Twojego produktu i przeznaczenia. Zakres zgodności i powiązane koszty rozdzielamy pozycjami w ofercie.'
+    - icon: 2
+      icon_bg: green
+      title: 'Bramka 3: certyfikacja próbki'
+      desc: 'Próbki wykonujemy zgodnie z potwierdzonym zakresem zgodności. Jeśli wymagane są badania w laboratorium zewnętrznym (CE, CPSIA, AS/NZS), koordynujemy je z akredytowanymi laboratoriami. Raporty z badań przekazujemy razem z próbką.'
+    - icon: 3
+      icon_bg: purple
+      title: 'Bramka 7: pakiet dokumentów'
+      desc: 'Każde zamówienie produkcyjne wysyłamy z pakietem dokumentów zgodności: deklaracjami zgodności, raportami z badań, zapisami identyfikowalności partii, kartami charakterystyki materiałów i zgodnością etykietowania. Dokumentacja jest specyficzna dla rynku.'
+
+faqs:
+  tagline: FAQ
+  title: 'Zgodność SUP — najczęściej zadawane pytania'
+  items:
+    - q: 'Czy wszystkie deski SUP wymagają oznakowania CE?'
+      a: 'Oznakowanie CE jest wymagane wyłącznie dla desek sprzedawanych w Europejskim Obszarze Gospodarczym. Certyfikujemy modele przeznaczone na rynki UE, z zakresem potwierdzanym w każdym projekcie. Deski wysyłane na rynki spoza UE nie mają oznakowania CE, chyba że wyraźnie o to poprosisz.'
+    - q: 'Czy Twoje materiały są zgodne z REACH i RoHS?'
+      a: 'Tak. Wszystkie materiały PCV, kleje i powłoki są zgodne z REACH. Wszystkie akcesoria elektroniczne (pompy z silnikiem, akcesoria LED) są zgodne z RoHS. Materiały konstrukcyjne deski są z natury zgodne z RoHS. Dokumentacja substancji i raporty z badań udostępniamy dla każdej partii na żądanie.'
+    - q: 'Czy obsługujecie certyfikację dla rynku spoza tej listy?'
+      a: 'Tak. Wysyłamy do ponad 50 krajów i możemy skoordynować certyfikację oraz dokumentację dla większości rynków. Podaj nam kraj przeznaczenia w zapytaniu, a my potwierdzimy konkretny zakres zgodności oraz ewentualne dodatkowe badania lub dokumenty.'
+    - q: 'Jak rozliczane są koszty zgodności?'
+      a: 'Zakres zgodności i powiązane koszty (badania w laboratorium zewnętrznym, opłaty certyfikacyjne) rozdzielamy pozycjami w ofercie podczas przeglądu wykonalności. Bez dopłat za zgodność po produkcji. Certyfikaty standardowe (ISO 9001, BSCI) dotyczą poziomu fabryki i nie zwiększają kosztu sztuki.'
+
+cta:
+  title: 'Określ swoje wymagania zgodności'
+  subtitle: 'Podaj nam docelowe rynki, a my potwierdzimy zakres certyfikacji, wymagania badawcze i pakiet dokumentów — rozdzielone pozycjami w Twojej ofercie.'
+  actions:
+    - variant: primary
+      text: 'Rozpocznij brief projektu'
+      href: /pl/contact#project-brief
+    - text: 'Zweryfikuj certyfikaty i system jakości'
+      href: /pl/proof-center
+    - text: 'Proces onboardingu OEM'
+      href: /pl/oem-onboarding-guide

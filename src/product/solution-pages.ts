@@ -3390,6 +3390,377 @@ export const solutionPages: Localized<SolutionPageData[]> = {
       ctaLabel: 'Diskuter skole-SUP-programmet ditt',
     },
   ],
+  pl: [
+    {
+      slug: 'custom-sup',
+      navLabel: 'Produkcja desek SUP na zamówienie',
+      metaTitle: 'Rozwój desek SUP na zamówienie | Indywidualne rozwiązania SUP',
+      metaDescription:
+        'Rozwijaj produkty SUP na zamówienie z iSupfactory. Wspieramy wymagania produktowe, personalizację, prototypy i produkcję dla firm i organizacji.',
+      kicker: 'Producent desek SUP na zamówienie',
+      serviceType: 'Rozwój produktów SUP na zamówienie',
+      answer:
+        'Tworzymy nadmuchiwane deski SUP, deski twarde i akcesoria na zamówienie zgodnie z Twoimi wymaganiami — kształt, grafika, materiały i opakowanie — na etapie projektowania, próbek i produkcji. Projekty na zamówienie zaczynają się od 90–100+ szt. na rolkę 150 m (wolumen); próbki wysyłamy w 7–12 dni, a produkcja trwa 25–35 dni od potwierdzonego zamówienia i zaliczki.',
+      h1: 'Produkty SUP na zamówienie zbudowane wokół Twoich wymagań',
+      intro: [
+        'Potrzebujesz desek SUP zbudowanych zgodnie z Twoją specyfikacją — kształt, grafika, materiały, opakowanie — bez prowadzenia własnej fabryki. Jesteśmy partnerem produkcyjnym, który przyjmuje Twoje wymaganie i zwraca gotowy produkt.',
+        'Każdy projekt prowadzi dedykowany specjalista, który zarządza projektem, próbkami, produkcją i dostawą, dzięki czemu zawsze wiesz, na jakim etapie jest Twoje zamówienie.',
+      ],
+      scenario: {
+        title: 'Potrzebujesz desek zbudowanych według Twojej specyfikacji',
+        body: 'To wymaganie produktowe, a nie wybór z katalogu. Twoje preferencje kształtu, Twoja grafika, Twój poziom jakości, Twoje opakowanie. Projektujemy, wykonujemy próbki i produkujemy na sprawdzonych platformach, z elastycznością już od pierwszej małej serii.',
+      },
+      pairs: [
+        {
+          problem: 'Katalogi fabryk oferują tylko gotowe projekty, których nie możesz zmienić.',
+          solution: 'Produkujemy deski na zamówienie z Twoimi kształtami, grafiką i specyfikacją — od pierwszej próbki po pełne serie produkcyjne.',
+        },
+        {
+          problem: 'Duże minimalne ilości zamówienia (MOQ) wiążą Cię z zapasami, zanim zweryfikujesz rynek.',
+          solution: 'Produkcja seryjna projektów na zamówienie zaczyna się od 90–100+ szt. na projekt, a serie pilotażowe na istniejących platformach od 20–50 szt. — pierwsze partie pozostają małe, a cena jednostkowa uczciwa.',
+        },
+        {
+          problem: 'Nie masz po swojej stronie zespołu projektowego ani konstrukcyjnego.',
+          solution: 'Nasz wewnętrzny zespół projektowo-konstrukcyjny zamienia pomysł, szkic lub deskę wzorcową w rysunki gotowe do produkcji.',
+        },
+        {
+          problem: 'Nieznana jakość fabryki i powolna komunikacja.',
+          solution: 'Specjalista ds. projektu odpowiada za próbki, punkty kontroli jakości i terminy dostawy od początku do końca — jeden punkt kontaktu, jasne aktualizacje.',
+        },
+      ],
+      steps: [
+        { title: 'Prześlij swój projekt', body: 'Opowiedz o swoich wymaganiach lub udostępnij szkice i zdjęcia referencyjne.' },
+        { title: 'Projekt i próbka', body: 'Opracowujemy rysunki i wysyłamy fizyczną próbkę w 7–12 dni.' },
+        { title: 'Zatwierdź i produkuj', body: 'Po zatwierdzeniu produkcja trwa 25–35 dni z kontrolą jakości w wielu punktach.' },
+        { title: 'Dostarcz i zamów ponownie', body: 'Eksport na cały świat z profesjonalnym pakowaniem oraz wsparcie przy zamówieniach powtórnych ze stałą jakością.' },
+      ],
+      caseStudy: {
+        title: 'Rozszerzenie oferty marki outdoorowej',
+        body: 'Marka sprzętu outdoorowego weszła w sporty wodne z markową deską touringową. Opracowaliśmy deskę na podstawie szkicu, uzyskaliśmy akceptację próbki w 15 dni i wyprodukowaliśmy pierwszą serię w 25–35 dni.',
+        tags: ['Rozwój deski', 'Grafika marki', 'Pierwsza seria produkcyjna'],
+      },
+      faqs: [
+        {
+          q: 'Czy możecie opracować produkt SUP na podstawie mojego pomysłu?',
+          a: 'Tak. Pomagamy ocenić wymagania i opracować rozwiązanie gotowe do produkcji — od koncepcji i rysunków po fizyczną próbkę.',
+        },
+        {
+          q: 'Czy mogę spersonalizować grafikę i kolory SUP?',
+          a: 'Tak. Grafika, kolory i elementy identyfikacji wizualnej mogą być opracowane zgodnie z wymaganiami projektu.',
+        },
+        {
+          q: 'Jaka jest minimalna ilość zamówienia (MOQ) w produkcji desek SUP na zamówienie?',
+          a: 'Produkcja seryjna projektów na zamówienie zaczyna się od 90–100+ szt. na projekt, a serie pilotażowe na istniejących platformach od 20–50 szt. Większe wolumeny dają lepszą cenę jednostkową, a przy zamówieniach powtórnych zostają zachowane Twoje narzędzia i projekty.',
+        },
+        {
+          q: 'Co można dostosować na desce?',
+          a: 'Kształt i wymiary, konstrukcję i materiały, grafikę i logotypy, kształt dywanu EVA, akcesoria (wiosło, pompka, torba) oraz opakowanie.',
+        },
+        {
+          q: 'Czy dostarczacie próbki przed produkcją?',
+          a: 'Tak — fizyczna próbka jest wykonana i zatwierdzana przed każdą serią produkcyjną. Wykonanie próbki zajmuje zwykle 7–12 dni.',
+        },
+        {
+          q: 'Czy możecie poprowadzić projekt, mając tylko zasoby marki, bez pełnego zespołu projektowego?',
+          a: 'Tak. Nasz zespół projektowy opracowuje gotową do produkcji grafikę na podstawie Twojego logo, kolorów marki lub prostego pomysłu koncepcyjnego.',
+        },
+      ],
+      ctaLevel: 'hot',
+      ctaLabel: 'Omów swój projekt desek SUP na zamówienie',
+    },
+    {
+      slug: 'private-label-sup',
+      navLabel: 'SUP pod własną marką',
+      metaTitle: 'Produkcja SUP pod własną marką | Deski SUP na zamówienie',
+      metaDescription:
+        'iSupfactory wspiera produkcję desek SUP pod własną marką i pomaga opracować produkty SUP na zamówienie — od specyfikacji po produkcję.',
+      kicker: 'Deski SUP pod własną marką',
+      serviceType: 'Produkcja SUP pod własną marką',
+      answer:
+        'Własna marka oznacza umieszczenie Twojej nazwy na sprawdzonych, gotowych do produkcji platformach SUP bez nowych narzędzi. Wybierz model bazowy, dodaj logo, kolory, opakowanie i akcesoria, a następnie zamów od 90–100+ szt. na rolkę 150 m (wolumen). To najszybszy i najbezpieczniejszy sposób wejścia na rynek; próbki zajmują 7–12 dni, a produkcja 25–35 dni od zamówienia.',
+      h1: 'Wsparcie produkcji SUP pod własną marką',
+      intro: [
+        'Produkcja pod własną marką pozwala uruchomić linię desek SUP pod Twoją nazwą bez inwestowania w narzędzia ani fabrykę. Twoje logo, kolory i opakowanie trafiają na platformy poddane kontroli jakości, a wolumen rośnie wraz z popytem.',
+        'Bierzemy na siebie część produktową, żebyś mógł skupić się na marce: projekt, opakowanie i obsługę zamówień powtórnych bierzemy na siebie.',
+      ],
+      scenario: {
+        title: 'Masz markę — i potrzebujesz produktu pod jej szyldą',
+        body: 'Identyfikacja marki bez produktu w magazynie. Chcesz sprzedawalną linię desek SUP z własną nazwą, w wolumenie dopasowanym do etapu rozwoju — od pierwszej serii walidacyjnej po powtarzalne floty.',
+      },
+      pairs: [
+        {
+          problem: 'Marka żyje tylko na etykiecie — produkt wciąż wygląda generycznie.',
+          solution: 'Pełna integracja marki: grafika deski, logo, kształt EVA, markowane wiosła, pompki, torby i opakowanie.',
+        },
+        {
+          problem: 'Pierwsze zamówienie zmusza Cię do kupienia setek sztuk, których może nie sprzedać.',
+          solution: 'Zacznij od serii pilotażowej 20–50 sztuk na platformie standardowej, a następnie skaluj do serii standardowej od 90–100+ szt. — zwaliduj rynek przed dużymi wolumenami.',
+        },
+        {
+          problem: 'Opracowanie projektu i opakowania wydaje się nieosiągalne.',
+          solution: 'Twoje materiały marki nasz zespół projektowy zamienia w gotową do produkcji grafikę deski i opakowania.',
+        },
+        {
+          problem: 'Zamówienia powtórne tracą jakość lub dostępność.',
+          solution: 'Narzędzia i projekt pozostają Twoje, a zamówienia powtórne realizujemy na tych samych zweryfikowanych platformach ze stałą jakością.',
+        },
+      ],
+      steps: [
+        { title: 'Prześlij materiały marki', body: 'Wyślij logo, kolory i ewentualne istniejące zasoby marki.' },
+        { title: 'Opracuj grafikę', body: 'Projektujemy grafikę deski, kształt EVA i opakowanie wokół Twojej marki.' },
+        { title: 'Zatwierdź próbkę', body: 'Fizyczna próbka potwierdza kolory, wykończenie powierzchni i opakowanie.' },
+        { title: 'Produkuj i dostarczaj', body: 'Produkcja w Twoim wolumenie, z kontrolą jakości i obsługą eksportu od początku do końca.' },
+      ],
+      caseStudy: {
+        title: 'Nowa marka, pierwsze zamówienie produkcyjne',
+        body: 'Sklep sportowy uruchomił własną linię desek SUP opartą tylko na logo. Opracowaliśmy całą grafikę deski i opakowania, wyprodukowaliśmy pierwszą serię 50 sztuk do testów rynkowych, a następnie w ciągu jednego sezonu skalowaliśmy do pełnego zamówienia produkcyjnego.',
+        tags: ['Rozwój marki', 'Projekt opakowania', 'Skalowana produkcja'],
+      },
+      faqs: [
+        {
+          q: 'Czym jest produkcja SUP pod własną marką?',
+          a: 'Produkcja SUP pod własną marką umożliwia firmom sprzedaż produktów SUP pod własną nazwą, z dostosowaną specyfikacją i wsparciem produkcyjnym.',
+        },
+        {
+          q: 'Czy istniejące marki mogą opracować nowe produkty SUP?',
+          a: 'Tak. iSupfactory wspiera marki, które chcą wejść w produkty SUP — asortyment, dostosowanie specyfikacji, spersonalizowaną grafikę i produkcję.',
+        },
+        {
+          q: 'Co obejmuje program SUP pod własną marką?',
+          a: 'Twoją markę na samej desce — grafikę, logo, dywan EVA — a opcjonalnie także markowane wiosła, pompki, plecaki i opakowanie: kompletny produkt gotowy do sprzedaży pod Twoją nazwą.',
+        },
+        {
+          q: 'Czy projekt można zmieniać między zamówieniami?',
+          a: 'Tak. Gdy zasoby marki są gotowe do produkcji, zamówienia powtórne mogą w dowolnym momencie zaktualizować grafikę, kolory lub opakowanie.',
+        },
+        {
+          q: 'Mamy tylko logo. Czy mimo to pomożecie?',
+          a: 'Tak. Nasz zespół projektowy opracowuje całą grafikę deski i opakowania na podstawie Twojego logo i kolorów marki.',
+        },
+      ],
+      ctaLevel: 'warm',
+      ctaLabel: 'Omów swój projekt SUP pod własną marką',
+    },
+    {
+      slug: 'resort-sup',
+      navLabel: 'SUP dla resortów',
+      metaTitle: 'Dedykowane wyposażenie SUP dla resortów | Markowane deski',
+      metaDescription:
+        'Twórz dedykowane wyposażenie SUP dla resortów i hoteli: markowane deski, akcesoria i wsparcie produkcyjne od iSupfactory.',
+      kicker: 'SUP dla resortów',
+      serviceType: 'Wyposażenie SUP dla resortów i hoteli',
+      answer:
+        'Dostarczamy markowane nadmuchiwane deski SUP resortom i hotelom, zbudowane na codzienne użytkowanie przez gości: wysokociśnieniowa konstrukcja drop-stitch, wzmocnione szwy i stopniowe progi minimalne od 20–50 sztuk pilotażowo do 90–100+ sztuk przy wdrażaniu floty. Deska nosi Twoje logo i kolory, a my doradzamy w sprawie przechowywania, konserwacji i planów zamówień powtórnych.',
+      h1: 'Rozwiązania w zakresie dedykowanego wyposażenia SUP dla resortów i hoteli',
+      intro: [
+        'Floty SUP w resortach muszą wytrzymać codzienne użytkowanie przez gości, być łatwe do przechowywania między sezonami i nieść nazwę Twojej marki. Budujemy trwałe, przyjazne gościom deski w Twoich kolorach i układamy program floty wokół Twojej działalności.',
+        'Wolumeny zalecamy na podstawie wzorca użytkowania, a nie zgadywanka — a programy zamówień powtórnych utrzymują flotę świeżą sezon po sezonie.',
+      ],
+      scenario: {
+        title: 'Prowadzisz aktywności na wodzie dla gości',
+        body: 'Goście oczekują niezapomnianego doświadczenia na wodzie, a wyposażenie reprezentuje Twój obiekt. Potrzebujesz desek wystarczająco trwałych do codziennej wypożyczalni, łatwych w przechowywaniu i markowanych, żeby pasowały do resortu.',
+      },
+      pairs: [
+        {
+          problem: 'Floty dla gości zużywają się szybko przy codziennym wynajmie.',
+          solution: 'Konstrukcja klasy wypożyczalni ze wzmocnionymi płetwami i materiałami odpornymi na UV, zbudowana na powtarzające się wyprawy.',
+        },
+        {
+          problem: 'Poza sezonem miejsce do przechowywania jest ograniczone.',
+          solution: 'Warianty nadmuchiwane, które łatwo przechowywać i które po sezonie mieszczą się w jednej szafie.',
+        },
+        {
+          problem: 'Wyposażenie wygląda generycznie, a nie jak element Twojego obiektu.',
+          solution: 'Grafika na całej desce, logotypy i oznaczenia EVA w kolorach resortu — wraz z markowanymi akcesoriami.',
+        },
+        {
+          problem: 'Wymiana i odświeżanie floty jest nieskoordynowana.',
+          solution: 'Program zamówień powtórnych dla floty ze stałą jakością, wsparciem częściami zamiennymi i uczciwymi rekomendacjami wolumenu.',
+        },
+      ],
+      steps: [
+        { title: 'Opisz swoją działalność', body: 'Liczba gości, linia brzegowa, przechowywanie i długość sezonu.' },
+        { title: 'Otrzymaj plan floty', body: 'Zalecamy rodzaje desek i wolumeny na podstawie wzorca użytkowania.' },
+        { title: 'Zatwierdź próbkę marki', body: 'Twoje kolory i logo potwierdzone na fizycznej desce.' },
+        { title: 'Odbierz i utrzymuj', body: 'Dostawa, części zamienne i program zamówień powtórnych na kolejne sezony.' },
+      ],
+      caseStudy: {
+        title: 'Flota dla gości w nadmorskim resorcie',
+        body: 'Nadmorski resort wyposażył program plażowy w 40 markowanych nadmuchiwanych desek w kolorach obiektu, w tym markowane wiosła i pompki. Deski przechowuje się w jednej szafie poza sezonem, a po drugim sezonie flotę odświeżono powtórnym zamówieniem ze stałą jakością.',
+        tags: ['Markowana flota dla gości', 'Przechowywanie nadmuchiwane', 'Odświeżenie sezonowe'],
+      },
+      faqs: [
+        {
+          q: 'Czy resorty mogą dostosować wyposażenie SUP z własnym logo?',
+          a: 'Tak. Resorty mogą dostosować grafikę, kolory i akcesoria do wymagań projektu — oznaczenie na całej desce w kolorach obiektu.',
+        },
+        {
+          q: 'Czy dostarczacie kolejne partie desek SUP dla resortów?',
+          a: 'Tak. Rozwiązania produkcyjne można rozwijać zależnie od potrzeb floty — od pierwszej floty po sezonowe programy odświeżania.',
+        },
+        {
+          q: 'Ile desek potrzebuje resort?',
+          a: 'Większość resortów zaczyna od 20–50 desek i skaluje wraz z popytem. Wolumeny zalecamy na podstawie liczby gości i linii brzegowej, a nie zgadywanki.',
+        },
+        {
+          q: 'Czy nadmuchiwane deski nadają się do użytku w resortach?',
+          a: 'Tak. Nowoczesne nadmuchiwane deski SUP są bardzo trwałe i znacznie łatwiejsze w przechowywaniu i transporcie — to popularny wybór dla resortów z ograniczoną przestrzenią magazynową.',
+        },
+        {
+          q: 'Czy flota może nieść nasze logo i kolory?',
+          a: 'Tak — grafika na całej desce, nadruk logo, oznaczenia EVA i markowane akcesoria są częścią programu dla resortów.',
+        },
+      ],
+      ctaLevel: 'warm',
+      ctaLabel: 'Poproś o rozwiązanie SUP dla swojego resortu',
+    },
+    {
+      slug: 'club-sup',
+      navLabel: 'Dedykowane deski SUP dla drużyn',
+      metaTitle: 'Dedykowane wyposażenie SUP dla klubów i drużyn',
+      metaDescription:
+        'iSupfactory oferuje dedykowane rozwiązania w zakresie wyposażenia SUP dla klubów, drużyn i wydarzeń, w tym grafikę, specyfikacje i wsparcie produkcyjne.',
+      kicker: 'Dedykowane deski SUP dla drużyn',
+      serviceType: 'Wyposażenie SUP dla klubów i drużyn',
+      answer:
+        'Kluby i drużyny otrzymują trwałe, jednolite floty we własnych kolorach: rozmieszczenie logotypu, dostosowane długości wiosła i zestawy akcesoriów na standaryzowanej specyfikacji deski, dzięki czemu naprawy i części zamienne pozostają proste przy kolejnych zamówieniach. Minimalna ilość zamówienia (MOQ) zaczyna się od 90–100+ szt. (wolumen); serie pilotażowe od 20–50 szt. pozwalają najpierw zweryfikować specyfikację.',
+      h1: 'Dedykowane wyposażenie SUP dla klubów i drużyn',
+      intro: [
+        'Kluby pływackie potrzebują desek, które wytrzymają codzienne treningi, wyglądają jak drużyna i utrzymują stałą jakość przy zamówieniach powtórnych. Produkujemy dedykowane deski drużynowe z nazwą klubu i Twoimi kolorami, w korzystnych cenach flotowych.',
+        'Programy klubowe obejmują także praktyczną stronę: części zamienne, instrukcje napraw i wsparcie przy zamówieniach powtórnych ze stałą jakością.',
+      ],
+      scenario: {
+        title: 'Twój klub prowadzi treningi i zawody drużynowe',
+        body: 'Deska jest używana codziennie przez członków i reprezentuje klub na wydarzeniach i regatach. Chcesz trwałego wyposażenia drużynowego z oznaczeniem klubu, bez samodzielnego zarządzania relacjami z fabryką.',
+      },
+      pairs: [
+        {
+          problem: 'Deski treningowe są narażone na intensywne, powtarzalne użytkowanie.',
+          solution: 'Wzmocniona konstrukcja zbudowana do codziennego użytku profesjonalnego, wraz z instrukcjami napraw i wsparciem częściami zamiennymi.',
+        },
+        {
+          problem: 'Floty wyglądają niejednorodnie i pozbawione są oznaczeń.',
+          solution: 'Nazwa klubu, kolory i logotyp nadrukowane na każdej desce, tworzące jednolitą flotę drużynową.',
+        },
+        {
+          problem: 'Rozbudowa floty oznacza szukanie pasujących zapasów.',
+          solution: 'Zamówienia powtórne realizujemy na tych samych zweryfikowanych platformach, dzięki czemu nowe deski pasują do istniejących.',
+        },
+        {
+          problem: 'Budżety flotowe są napięte.',
+          solution: 'Ceny flotowe i dedykowany kontakt do spraw zamówień powtórnych, części oraz konserwacji.',
+        },
+      ],
+      steps: [
+        { title: 'Opisz swój klub', body: 'Liczba członków, rodzaje zajęć i istniejące wyposażenie.' },
+        { title: 'Wybierz rodzaje desek', body: 'Kształty treningowe, dla początkujących i drużynowe dopasowane do Twojego programu.' },
+        { title: 'Dodaj oznaczenia klubu', body: 'Nazwa, kolory i logotyp na deskach i akcesoriami.' },
+        { title: 'Zamów i rozrastaj się', body: 'Dostawa floty, części zamienne i równe pod względem jakości zamówienia powtórne.' },
+      ],
+      caseStudy: {
+        title: 'Odświeżona flota klubu',
+        body: 'Klub pływacki wprowadził nową linię produktową i odświeżył flotę o 25 markowanych desek treningowych wraz z częściami zamiennymi. Członkowie trenują na jednolitym sprzęcie, a klub w kolejnym sezonie powiększył flotę o identyczne zamówienie powtórne.',
+        tags: ['Oznaczenia klubu', 'Odświeżenie floty', 'Wsparcie częściami zamiennymi'],
+      },
+      faqs: [
+        {
+          q: 'Czy kluby SUP mogą dostosować deski drużynowe?',
+          a: 'Tak. Kluby mogą dostosować grafikę, kolory i konfigurację produktu — nazwa klubu, kolory i logotyp na każdej desce.',
+        },
+        {
+          q: 'Czy wspieracie produkcję SUP na potrzeby wydarzeń?',
+          a: 'Tak. Planowanie produkcji można opracować zgodnie z wymaganiami wydarzenia, w tym egzemplarzami desek i akcesoriów dla uczestników.',
+        },
+        {
+          q: 'Jakie deski są najlepsze do treningów klubowych?',
+          a: 'Stabilne, trwałe deski dopasowane do poziomu członków — szerokie kształty dla początkujących na lekcje, kształty touring do treningu dystansowego.',
+        },
+        {
+          q: 'Czy oferujecie ceny flotowe dla klubów?',
+          a: 'Tak — ceny wolumenowe obowiązują dla flot klubowych, z dedykowanym kontaktem do spraw zamówień powtórnych, części i konserwacji.',
+        },
+        {
+          q: 'Czy uszkodzone deski można naprawić lub wymienić?',
+          a: 'Dostarczamy części zamienne, instrukcje napraw i wsparcie przy zamówieniach powtórnych, aby flota pozostała jednolita.',
+        },
+      ],
+      ctaLevel: 'cold',
+      ctaLabel: 'Omów swój projekt SUP dla klubu',
+    },
+    {
+      slug: 'school-sup',
+      navLabel: 'Programy SUP dla szkół',
+      metaTitle: 'Wyposażenie SUP dla szkół | Dedykowane deski SUP do nauki',
+      metaDescription:
+        'Bezpieczne i niezawodne rozwiązania w zakresie wyposażenia SUP dla szkół, obozów i organizacji, z dedykowanym wsparciem produkcyjnym od iSupfactory.',
+      kicker: 'Programy SUP dla szkół',
+      serviceType: 'Wyposażenie SUP dla szkół i programów',
+      answer:
+        'Szkołom i programom edukacyjnym dostarczamy stabilne deski przyjazne początkującym z nadrukowaną instrukcją bezpieczeństwa, wiosłami z miękkimi uchwytami i akcesoriami ochronnymi, dopasowanymi do wielkości klasy i wybranego rozwiązania do przechowywania. Standardowa seria to 90–100+ szt. na rolkę 150 m, a serie pilotażowe od 20–50 szt.; terminy dostawy wspierają cykl zakupowy szkoły.',
+      h1: 'Bezpieczne i niezawodne rozwiązania SUP dla szkół i programów',
+      intro: [
+        'Szkoły uczą sportu wodnego inaczej: duże klasy, zróżnicowane poziomy, rygorystyczne wymagania bezpieczeństwa i budżety dydaktyczne. Nasz program dla szkół oferuje stabilne deski przyjazne początkującym, warianty zestawów dopasowane do wielkości klasy i doradztwo z perspektywy instruktora.',
+        'Dostawy hurtowe i wsparcie przy zamówieniach powtórnych utrzymują wyposażenie dostępne rok po roku dla kolejnych roczników uczniów.',
+      ],
+      scenario: {
+        title: 'Prowadzisz zajęcia ze sportu wodnego dla uczniów',
+        body: 'Klasy są duże, a poziomy się różnią. Potrzebujesz desek stabilnych i bezpiecznych dla początkujących, wolumenu dopasowanego do wielkości klasy oraz programu wyposażenia mieszczącego się w budżecie i cyklu zakupowym szkoły.',
+      },
+      pairs: [
+        {
+          problem: 'Uczniowie potrzebują maksymalnej stabilności na wodzie.',
+          solution: 'Szerokie deski dla początkujących o dużej objętości oraz deski wieloosobowe zaprojektowane tak, by wybaczały błędy początkujących.',
+        },
+        {
+          problem: 'Wielkość klas wymaga jednolitego wyposażenia w dużej skali.',
+          solution: 'Hurtowe ceny programowe dla wolumenów klasowych, z tą samą jakością na każdej desce.',
+        },
+        {
+          problem: 'Instruktorzy zajmują się bezpieczeństwem z ograniczonym wsparciem.',
+          solution: 'Deska jest dostarczana z jasną instrukcją użycia, a my doradzamy w sprawie wolumenu i ustawienia dla Twojego akwenu.',
+        },
+        {
+          problem: 'Wyposażenie musi przetrwać wiele roczników uczniów.',
+          solution: 'Wzmocniona konstrukcja plus części zamienne i wsparcie przy zamówieniach powtórnych zapewniają długą żywotność programu.',
+        },
+      ],
+      steps: [
+        { title: 'Przedstaw swój program', body: 'Wielkość klas, akwen, ustawienie instruktora i cykl budżetowy.' },
+        { title: 'Zbuduj zestaw', body: 'Rodzaje desek i wolumeny dopasowane do nauczania, a nie zgadywanki.' },
+        { title: 'Zatwierdź próbkę', body: 'Sprawdź stabilność, konstrukcję i wykończenie powierzchni na fizycznej desce.' },
+        { title: 'Dostarcz i odśwież', body: 'Dostawy hurtowe, części zamienne i zamówienia powtórne dla kolejnych roczników.' },
+      ],
+      caseStudy: {
+        title: 'Szkolny program sportów wodnych',
+        body: 'Szkoła wprowadziła nieobowiązkowe zajęcia ze sportu wodnego z flotą 15 desek dla początkujących i deskami wieloosobowymi na pierwsze lekcje. Instruktorzy odnotowali szybszy postęp na pierwszej lekcji dzięki stabilnym platformom, a program odświeżył wyposażenie odpowiadającym zamówieniem powtórnym rok później.',
+        tags: ['Flota dla początkujących', 'Uruchomienie programu', 'Zamówienia odświeżające'],
+      },
+      faqs: [
+        {
+          q: 'Jakie wyposażenie SUP sprawdza się w szkołach?',
+          a: 'Wybór wyposażenia SUP zależy od wieku użytkowników, środowiska użytkowania i wymagań programu — szerokie, stabilne deski to standardowy wybór do nauczania.',
+        },
+        {
+          q: 'Czy szkoły mogą dostosować wyposażenie SUP?',
+          a: 'Tak. Szkoły mogą dostosować grafikę, kolory i zestawy wyposażenia do swojego programu.',
+        },
+        {
+          q: 'Jakie deski są najlepsze do nauki SUP w szkole?',
+          a: 'Szerokie, stabilne deski dla początkujących oraz deski wieloosobowe są idealne — objętość sprawia, że wybaczają błędy początkujących i pozostają stabilne przy kilku wiosłujących.',
+        },
+        {
+          q: 'Czy wolumeny można dopasować do wielkości naszych klas?',
+          a: 'Tak — ceny programowe budujemy wokół wolumenów klasowych, a liczbę zalecamy na podstawie Twojego akwenu i planu rotacji.',
+        },
+        {
+          q: 'Czy współpracujecie z terminami zakupowymi szkół?',
+          a: 'Tak. Planujemy terminy próbek i produkcji wokół budżetowych i sezonowych cykli szkoły.',
+        },
+      ],
+      ctaLevel: 'cold',
+      ctaLabel: 'Omów swój program SUP dla szkoły',
+    },
+  ],
 }
 
 export function getSolutionPage(locale: Locale, slug: string): SolutionPageData | undefined {

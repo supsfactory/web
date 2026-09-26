@@ -20,6 +20,7 @@ export interface Localized<T> extends Record<string, T> {
   nl: T
   sv: T
   no: T
+  pl: T
 }
 
 export function pick<T>(d: Localized<T>, locale: Locale): T {
@@ -266,6 +267,30 @@ export const hero: Localized<HeroContent> = {
     float1: { value: '1–2 stk', label: 'Prøve og godkjenning (før volumforpliktelse)' },
     float2: { value: FACTS.leadTime, label: 'Produksjonstid (etter PO)' },
   },
+  pl: {
+    kicker: 'Producent skreddersytych desek SUP (OEM / ODM) — Qingdao, Chiny',
+    titlePre: 'Producent nadmuchiwanych desek SUP i',
+    titleAccent: 'fabryce OEM/ODM',
+    titlePost: '',
+    sub: 'Nadmuchiwane deski SUP na zamówienie — projektowane, wykonywane jako prototypy i produkowane w naszej fabryce w Qingdao, w Chinach.',
+    ctaPrimary: 'Poproś o ofertę OEM',
+    ctaSecondary: 'Opracuj swój produkt SUP',
+    ctaTertiary: 'Poznaj naszą fabrykę',
+    ctaQuartiary: '',
+    ctaMicro: 'OEM · ODM · Marka własna · Rozwój produktu · Prototypy · Produkcja seryjna',
+    stats: [
+      { value: '12 500 m²', label: 'Własna fabryka — Qingdao, Chiny' },
+      { value: '120 000+', label: 'Desek SUP produkowanych rocznie' },
+      { value: '50+', label: 'Kraje eksportowe, które obsługujemy' },
+      { value: FACTS.ndaWindow, label: 'Czas odpowiedzi na NDA' },
+    ],
+    mockupLabel: 'Platforma flagowa',
+    mockupBrand: "SUP Explorer 11'",
+    mockupHint: 'Twoja grafika · Twoje kolory · Twoje opakowanie',
+    heroNote: 'Produkcja bezpośrednio w fabryce · Prace nad prototypem · Produkcja z kontrolą jakości · Wsparcie eksportu',
+    float1: { value: '1–2 szt', label: 'Próbka i akceptacja (przed zobowiązaniem produkcyjnym)' },
+    float2: { value: FACTS.leadTime, label: 'Czas realizacji produkcji (po zamówieniu)' },
+  },
 }
 
 /* ─────────────────────────── home: manufacturer pledge ─────────────────────────── */
@@ -391,6 +416,18 @@ export const manufacturerPledge: Localized<ManufacturerPledgeContent> = {
       { title: 'Ditt merke, aldri vårt', body: 'Vi produserer utelukkende under kundenes merker og konkurrerer aldri med dem på noe marked.' },
     ],
     verifyLabel: 'Verifiser hvem vi er',
+    verifyHref: '/about/identity',
+  },
+  pl: {
+    kicker: 'Producent, nie firma handlowa',
+    title: 'To my posiadamy fabrykę stojącą za Twoim zamówieniem',
+    sub: 'Firma handlowa odsprzedaje produkcję innych fabryk. My prowadzimy zakład sami. Nie ma marży pośrednika, magazynu zewnętrznego ani żadnego pośrednika między Twoim zamówieniem a halą produkcyjną.',
+    items: [
+      { title: 'Zarejestrowana osoba prawna', body: 'Qingdao Vatrad Group Co., Ltd. jest stroną umowy przy każdym zamówieniu i w każdym dokumencie eksportowym.' },
+      { title: 'Jedna fabryka, jeden zespół', body: 'Projektowanie, kontrola jakości, planowanie produkcji i dokumentacja eksportowa są realizowane wewnętrznie w zakładzie w Laixi, Qingdao.' },
+      { title: 'Twoja marka, nigdy nasza', body: 'Produkujemy wyłącznie pod markami naszych klientów i nigdy nie konkurujemy z nimi na żadnym rynku.' },
+    ],
+    verifyLabel: 'Sprawdź, kim jesteśmy',
     verifyHref: '/about/identity',
   },
 }
@@ -576,6 +613,24 @@ export const factoryProof: Localized<FactoryProofContent> = {
     ],
     note: 'MOQ bekreftes etter gjennomgang av spesifikasjonene, fordi konstruksjon, brettstørrelse, PVC-oppbygning, grafikk, emballasje og tilbehør påvirker materialbruken.',
   },
+  pl: {
+    kicker: 'Factory Proof',
+    title: 'Prawdziwa fabryka, udokumentowana',
+    sub: 'Weryfikowalne liczby z naszego zakładu w Qingdao, w Chinach — każda liczba odsyła do strony, na której jest udokumentowana.',
+    cta: 'Zweryfikuj tę liczbę',
+    stats: [
+      { value: FACTS.warehouseM2, label: 'Własny zakład produkcyjny', href: '/factory' },
+      { value: FACTS.workers, label: 'Pracownicy fabryki, wewnętrznie', href: '/manufacturing-capabilities' },
+      { value: '120,000+', label: 'Desek SUP produkowanych rocznie', href: '/factory/capacity' },
+      { value: FACTS.exportCountries, label: 'Kraje eksportowe, które obsługujemy', href: '/proof-center' },
+    ],
+    links: [
+      { label: 'MOQ i czas realizacji', href: '/sup-oem-moq-lead-time' },
+      { label: 'Kontrola jakości', href: '/quality' },
+      { label: 'Lista kontrolna audytu fabryki', href: '/factory-audit-checklist' },
+    ],
+    note: 'MOQ jest potwierdzane po przeglądzie specyfikacji, ponieważ konstrukcja, rozmiar deski, budowa PVC, grafika, opakowanie i akcesoria wpływają na zużycie materiału.',
+  },
 }
 
 /* ─────────────────────────── home: factory evidence (verification band) ─────────────────────────── */
@@ -692,6 +747,17 @@ export const factoryEvidence: Localized<FactoryEvidenceContent> = {
       { title: 'Bevissenter', body: 'Sertifikater, tredjepartsinspeksjonsrapporter, revisjonsregistre og bevis fra leverte prosjekter på ett sted.', href: '/proof-center' },
       { title: 'Verifiser fabrikken', body: 'Sjekk våre offentlige selskapsregistre, sertifiseringer og veiledning for verifisering før du binder deg.', href: '/verify-factory' },
       { title: 'Sjekkliste for fabrikkrevision', body: 'Last ned sjekklisten kjøpere bruker ved revisjon av en fabrikk for oppblåsbare SUP-er — anlegg, utstyr og prosess.', href: '/factory-audit-checklist' },
+    ],
+  },
+  pl: {
+    kicker: 'Zweryfikuj nas przed zamówieniem',
+    title: 'Dowody z fabryki i weryfikacja',
+    sub: 'Niezależne dowody, że nasze obiekty, urządzenia, system jakości i dokumentacja eksportowa są rzeczywiste — przejrzyj i zweryfikuj przed jakimkolwiek zobowiązaniem.',
+    cta: 'Zobacz dowody',
+    items: [
+      { title: 'Centrum dowodów', body: 'Certyfikaty, raporty z inspekcji zewnętrznych, rejestry audytów i dowody ze zrealizowanych projektów w jednym miejscu.', href: '/proof-center' },
+      { title: 'Zweryfikuj fabrykę', body: 'Sprawdź nasze publiczne dokumenty firmy, certyfikaty i instrukcje weryfikacji, zanim się zobowiążesz.', href: '/verify-factory' },
+      { title: 'Lista kontrolna audytu fabryki', body: 'Pobierz listę kontrolną, której używają kupujący podczas audytu fabryki nadmuchiwanych desek SUP — obiekty, urządzenia i proces.', href: '/factory-audit-checklist' },
     ],
   },
 }
@@ -938,6 +1004,31 @@ export const why: Localized<WhyContent> = {
       },
     ],
   },
+  pl: {
+    kicker: 'Znak produkcji',
+    title: 'Napędzane przez Vatrad',
+    sub: 'iSupfactory to dział rozwoju i produkcji firmy Qingdao Vatrad Group Co., Ltd. Nasz zakład o powierzchni 12 500 m² w Laixi, w Qingdao, produkuje nadmuchiwane produkty od 2012 roku; ponad 25 inżynierów pracuje nad rozwojem produktu, projektowaniem form, laboratorium materiałowym i planowaniem produkcji, a średnio mają ponad 7 lat doświadczenia w produkcji nadmuchiwanych produktów. Codziennie pracują dwa zmiany produkcyjne.',
+    image: 'https://assets.isupfactory.com/images/sups/factory/isupfactory-production-department.webp',
+    imageCaption: 'Zakład produkcyjny Vatrad, Qingdao, Chiny',
+    bullets: [
+      {
+        title: 'Zakład 12 500 m²',
+        body: 'Od surowego PVC po gotową deskę, w całości u nas, w Laixi, Qingdao.',
+      },
+      {
+        title: 'W produkcji od 2012 roku',
+        body: 'Dwie zmiany produkcyjne dziennie na deski SUP i inne produkty nadmuchiwane.',
+      },
+      {
+        title: 'Ponad 25 inżynierów',
+        body: 'W obszarze badań i rozwoju, projektowania form, laboratorium materiałowego i planowania produkcji.',
+      },
+      {
+        title: 'Średnio ponad 7 lat',
+        body: 'Doświadczenia w produkcji nadmuchiwanych produktów w przeliczeniu na inżyniera.',
+      },
+    ],
+  },
 }
 
 /* ─────────────────────────── capability strip ─────────────────────────── */
@@ -952,6 +1043,7 @@ export const strip: Localized<string[]> = {
   nl: ['OEM & ODM', 'Private Label', 'Monsterservice', 'Design & Artwork', 'QC bij elke partij', 'Wereldwijde export'],
   sv: ['OEM & ODM', 'Privat etikett', 'Provservice', 'Design & Artwork', 'QC vid varje batch', 'Export över hela världen'],
   no: ['OEM & ODM', 'Private Label', 'Prøvetjeneste', 'Design & Artwork', 'QC ved hver batch', 'Eksport globalt'],
+  pl: ['OEM & ODM', 'Private Label', 'Usługa próbek', 'Projekt i grafika', 'QC przy każdej partii', 'Eksport na cały świat'],
 }
 
 /* ─────────────────────────── home: trust bar ─────────────────────────── */
@@ -1090,6 +1182,20 @@ export const trustBar: Localized<TrustBarContent> = {
       { value: FACTS.exportCountries, label: 'eksportmarkeder i EU, USA, Australia og Asia' },
       { value: '18 PSI / 24 t', label: '100 % inflaterings- og lekkasjetest på hvert brett før pakking' },
       { value: 'MSL Fusion', label: 'flerlagssveising med vevde drop-stitch-konstruksjoner' },
+    ],
+  },
+  pl: {
+    stats: [
+      { value: `MOQ ${MOQ_SHORT.standardRun}`, label: 'dla produkcji seryjnej; serie pilotażowe od 20–50 szt' },
+      { value: FACTS.sampleTime, label: 'próbki Twojej deski po zatwierdzeniu grafiki' },
+      { value: FACTS.leadTime, label: 'produkcja seryjna po potwierdzeniu zamówienia i zaliczki' },
+      { value: FACTS.annualCapacity, label: 'roczna wydajność zakładu w Qingdao' },
+      { value: FACTS.warehouseM2, label: 'własna fabryka, od surowego PVC po gotową deskę' },
+      { value: FACTS.workers, label: 'pracownicy fabryki i inżynierowie na miejscu' },
+      { value: 'ISO 9001 · CE · BSCI', label: 'certyfikowane; materiały zgodne z REACH/RoHS' },
+      { value: FACTS.exportCountries, label: 'rynki eksportowe w UE, USA, Australii i Azji' },
+      { value: '18 PSI / 24 godz.', label: '100 % test nadmuchiwania i szczelności każdej deski przed pakowaniem' },
+      { value: 'MSL Fusion', label: 'wielowarstwowe zgrzewanie HF z tkaninami drop-stitch' },
     ],
   },
 }
@@ -1323,6 +1429,30 @@ export const solve: Localized<SolveContent> = {
       {
         title: 'Volumleveranse — gjentakende bestillinger og flåteordrer',
         body: 'Storskalaproduksjon for distributører, utleieoperatører og resortgrupper, med bindende spesifikasjoner, batchspårbarhet og konsistent konstruksjon ved hver gjentakende bestilling.',
+      },
+    ],
+  },
+  pl: {
+    kicker: 'Produkcja OEM i ODM',
+    title: 'Dwa sposoby na zbudowanie Twojego produktu SUP',
+    sub: 'OEM, gdy masz specyfikację, ODM, gdy masz pomysł — a także marka własna i dostawy seryjne dla marek, które chcą sprawdzonej platformy.',
+    cta: 'Poproś o ofertę OEM',
+    items: [
+      {
+        title: 'OEM — produkcja według Twojej specyfikacji',
+        body: 'OEM (produkcja według specyfikacji klienta): produkujemy zgodnie z Twoją zatwierdzoną specyfikacją — Twoje rysunki, wymiary, materiały, konstrukcja i opakowanie. To Ty jesteś właścicielem projektu, form i własności intelektualnej.',
+      },
+      {
+        title: 'ODM — rozwój deski z naszym zespołem inżynierów',
+        body: 'ODM (produkcja według oryginalnego projektu): nasz zespół inżynierów opracowuje strukturę deski, konstrukcję, grafikę i opakowanie na podstawie Twojego briefu — niezależnie od tego, czy jest to koncepcja rynkowa, cel wydajnościowy, czy adaptacja sprawdzonej platformy. Fabryka proponuje projekt, kupujący zatwierdza go przed produkcją.',
+      },
+      {
+        title: 'Marka własna — Twoja marka na sprawdzonej platformie',
+        body: 'Marka własna: Twoja marka, grafika i opakowanie na istniejącej, zwalidowanej platformie — bez rozwoju formy, bez zmian konstrukcyjnych. Najszybsza droga od koncepcji do dostawy.',
+      },
+      {
+        title: 'Dostawy seryjne — powtarzalne zamówienia i floty',
+        body: 'Produkcja dużych wolumenów dla dystrybutorów, wypożyczalni i grup hotelowych, z wiążącymi specyfikacjami, identyfikowalnością partii i stałą konstrukcją przy każdym powtórnym zamówieniu.',
       },
     ],
   },
@@ -1622,6 +1752,37 @@ export const capability: Localized<CapabilityContent> = {
       },
     ],
   },
+  pl: {
+    kicker: 'Możliwości produkcyjne',
+    title: 'Sześć wewnętrznych możliwości produkcyjnych',
+    sub: 'Wszystkie poniższe procesy realizujemy wewnętrznie. Nic istotnego nie zlecamy na zewnątrz.',
+    items: [
+      {
+        name: 'Cięcie CNC',
+        body: 'Automatyczne maszyny CNC tną PVC, Hypalon i tkaniny drop-stitch z dokładnością położenia 0.1 mm oraz z nestingiem optymalizowanym komputerowo, aby zminimalizować straty materiału.',
+      },
+      {
+        name: 'Zgrzewanie dielektryczne HF',
+        body: 'Prasy zgrzewające 15 kW tworzą szczelne szwy. Listwy krawędziowe są zgrzewane z trójwarstwowego materiału dla wytrzymałości na krawędzie i uderzenia.',
+      },
+      {
+        name: ' Laminowanie rdzenia drop-stitch',
+        body: 'Tysiące wewnętrznych nici poliestrowych utrzymują laminat górny i dolny równolegle, co daje sztywną platformę przy 12–15 PSI. Rdzenie laminowane do 14 ft.',
+      },
+      {
+        name: 'Grafika pokładu',
+        body: 'Druk cyfrowy czterokolorowy i wielokolorowy sitodruk z plików Twojej marki. Nakładki EVA na pokład w Twoich kolorach, z indywidualnymi logotypami, wycięciami i teksturami.',
+      },
+      {
+        name: 'Montaż i osprzęt',
+        body: 'Każda deska przechodzi 100-punktową listę kontrolną montażu podpisaną przez kierownika zmiany — okucia, pierścienie D, zawory, punkty mocowania smyczy i montaż akcesoriów.',
+      },
+      {
+        name: 'Opakowanie eksportowe',
+        body: 'Pakowanie próżniowe, w kartony i na potrzeby eksportu, z opcjonalnymi nadrukowanymi pudełkami sklepowymi.',
+      },
+    ],
+  },
 }
 
 /* ─────────────────────────── home: quality control (How Every Board Is Verified) ─────────────────────────── */
@@ -1915,6 +2076,37 @@ export const quality: Localized<QualityContent> = {
       {
         title: 'Batchspårbarhet',
         body: 'Hver materialbatch får et unikt ERP-nummer. Produksjonslisten (BOM) for hvert brett knyttes tilbake til leverandørens batch. Registre lagres i 10 år, i henhold til CE 2013/53/EU.',
+      },
+    ],
+  },
+  pl: {
+    kicker: 'Kontrola jakości',
+    title: 'Jak weryfikowana jest każda deska',
+    sub: 'Jakość to udokumentowany proces, a nie obietnica. Oto, co dzieje się z Twoim zamówieniem, zanim wyjedzie.',
+    steps: [
+      {
+        title: 'Kontrola materiałów wejściowych',
+        body: 'Rolki PVC, rdzenie drop-stitch, zawory, kleje i elementy okuć są poddane kwarantannie do czasu zatwierdzenia przez QC. Tkaniny przechodzą badania wytrzymałości na rozciąganie, propagacji rozdarcia i odporności na UV, zanim jakakolwiek partia trafi na linię.',
+      },
+      {
+        title: 'Punkty kontrolne w trakcie produkcji',
+        body: 'Punkty kontroli QC na każdym etapie produkcji, z pobieraniem próbek spoin i badaniem wytrzymałości na odwarstwienie względem normy partii.',
+      },
+      {
+        title: 'Test utrzymania ciśnienia',
+        body: 'Każda komora jest nadmuchiwana do 18.0 PSI i utrzymywana przez 24 godziny z ciągłym zapisem danych z czujników. Każda komora, która wykaże spadek ciśnienia większy niż 0.50 PSI w ciągu 24 godzin, jest odrzucana i kierowana do ponownej inspekcji szwów.',
+      },
+      {
+        title: 'Weryfikacja konstrukcji',
+        body: 'Ugięcie pod znamionowym obciążeniem, siła wyrywania pierścieni D (≥150 kgf na pierścień D), wytrzymałość na odwarstwienie nakładki pokładowej (≥3.5 N/cm) oraz osadzenie zaworów są weryfikowane względem specyfikacji przed inspekcją końcową.',
+      },
+      {
+        title: 'Inspekcja końcowa',
+        body: '100-punktowa lista kontrolna dla każdej deski, plus kontrola wymiarów i masy względem zatwierdzonej próbki.',
+      },
+      {
+        title: 'Identyfikowalność partii',
+        body: 'Każda partia materiału otrzymuje unikatowy numer ERP. Lista materiałowa (BOM) każdej deski odsyła do partii dostawcy. Rejestry przechowujemy przez 10 lat, zgodnie z CE 2013/53/UE.',
       },
     ],
   },
@@ -2522,6 +2714,70 @@ export const commercial: Localized<CommercialContent> = {
       },
     ],
   },
+  pl: {
+    kicker: 'Warunki handlowe',
+    title: 'Warunki handlowe przedstawione wprost',
+    sub: 'Standardowe MOQ, próbki oraz warunki produkcji i dostawy znajdziesz poniżej. Projekty wymagające nowych form, specjalnych materiałów, badań zgodności lub indywidualnego opakowania wyceniamy osobno.',
+    cells: [
+      {
+        label: 'Minimalne zamówienie',
+        lines: [
+          'Co-branding: od 5–10 szt na wybranych istniejących platformach',
+          'Partia pilotażowa: 20–50 szt na istniejących platformach',
+          'Wolumen standardowy: 90–100+ szt na zatwierdzoną konfigurację, zależnie od rolki materiału i wymagań opakowania',
+        ],
+      },
+      {
+        label: 'Czas realizacji',
+        lines: [
+          '25–35 dni od potwierdzenia zamówienia i zaliczki',
+          'Rozwój własnej formy: +15–20 dni na wykonanie formy',
+          'Produkcja ekspresowa dostępna w szczytach sezonu',
+        ],
+      },
+      {
+        label: 'Próbki',
+        lines: [
+          'Próbki prototypu wysyłamy w ciągu 7–12 dni',
+          'Koszt próbki odliczamy od zamówienia seryjnego',
+        ],
+      },
+      {
+        label: 'Eksport i dokumentacja',
+        lines: [
+          'Dokumentację eksportową obsługujemy wewnętrznie',
+          'Opakowanie eksportowe w standardzie; nadrukowane pudełka sklepowe na życzenie',
+        ],
+      },
+    ],
+    certs: 'ISO 9001 system zarządzania jakością · Certyfikacja CE dla modeli przeznaczonych na rynek UE (zakres potwierdzany dla każdego projektu) · Społeczna odpowiedzialność BSCI (raport z audytu na życzenie) · Dokumentacja REACH i RoHS do każdego zamówienia.',
+    moqTiers: [
+      {
+        stage: 'Próbka i akceptacja',
+        quantity: '1–2 szt do akceptacji',
+        purpose: 'Potwierdź kształt, kolory, nadruk i opakowanie przed całą produkcją',
+        note: '7–12 dni; fizyczna deska, bez renderu',
+      },
+      {
+        stage: 'Co-branding w małej ilości',
+        quantity: 'od 5–10 szt na wybranych istniejących platformach',
+        purpose: 'Przetestuj projekt na sprawdzonej platformie z nakładką logo',
+        note: 'Najszybsza droga do walidacji nowej grafiki',
+      },
+      {
+        stage: 'Partia pilotażowa / zapas startowy',
+        quantity: '20–50 szt na istniejących platformach',
+        purpose: 'Zwaliduj rynek lub otwórz sklep z prawdziwym stanem magazynowym',
+        note: 'Najmniejszy wolumen na istniejących platformach',
+      },
+      {
+        stage: 'Standardowa produkcja seryjna',
+        quantity: '90–100+ szt na zatwierdzoną konfigurację, zależnie od rolki materiału i wymagań opakowania',
+        purpose: 'Regularna produkcja seryjna w najlepszej cenie jednostkowej',
+        note: '90–100+ szt; nowe kształty wymagają własnej formy (+15–20 dni na jej wykonanie)',
+      },
+    ],
+  },
 }
 
 /* ─────────────────────────── who we serve / customer needs ─────────────────────────── */
@@ -2894,6 +3150,45 @@ export const serve: Localized<ServeContent> = {
       },
     ],
   },
+  pl: {
+    kicker: 'Kogo obsługujemy',
+    title: 'Dla firm, które wytwarzają własne produkty SUP',
+    sub: 'Niezależnie od tego, czy wprowadzasz na rynek nową markę desek SUP, czy rozszerzasz istniejącą linię produktów outdoorowych, nasze rozwiązania produkcyjne możemy dopasować do Twojej firmy.',
+    segments: [
+      {
+        slug: 'sup-brands',
+        title: 'Marki SUP',
+        body: 'Opracuj deski SUP na zamówienie, które odpowiadają pozycjonowaniu marki, rynkowi docelowemu i Twojej strategii produktowej.',
+        points: ['Projekt na zamówienie', 'Grafika marki', 'Rozwój produktu', 'Marka własna'],
+        cta: 'Poznaj deski SUP na zamówienie',
+        href: '/product-development',
+      },
+      {
+        slug: 'outdoor-companies',
+        title: 'Firmy outdoorowe i sportów wodnych',
+        body: 'Rozszerz portfolio produktowe o deski SUP na zamówienie, zaprojektowane dla Twojego rynku.',
+        points: ['Dostosowanie produktu', 'Wiele modeli', 'Produkcja OEM'],
+        cta: 'Zobacz deski SUP na zamówienie',
+        href: '/solutions/custom-sup',
+      },
+      {
+        slug: 'distributors-retailers',
+        title: 'Dystrybutorzy i sprzedawcy detaliczni',
+        body: 'Twórz wyróżnione kolekcje desek SUP, zamiast konkurować tymi samymi produktami masowymi.',
+        points: ['Marka własna', 'Indywidualne opakowanie', 'Produkty gotowe do sprzedaży'],
+        cta: 'Dowiedz się więcej',
+        href: '/solutions/private-label-sup',
+      },
+      {
+        slug: 'resorts-clubs',
+        title: 'Ośrodki wypoczynkowe, kluby i organizacje',
+        body: 'Opracuj produkty i akcesoria SUP dopasowane do Twojego środowiska operacyjnego i użytkowników.',
+        points: ['Specyfikacje na zamówienie', 'Znakowanie', 'Produkcja seryjna'],
+        cta: 'Zobacz rozwiązania',
+        href: '/solutions/resort-sup',
+      },
+    ],
+  },
 }
 
 /* ─────────────────────────── solutions ─────────────────────────── */
@@ -3152,6 +3447,33 @@ export const solutions: Localized<SolutionsContent> = {
         title: 'Produksjonskrav',
         body: 'Tilpass hvordan prosjektet ditt produseres.',
         points: ['Mengde', 'Spesifikasjon', 'Bruksområde'],
+      },
+    ],
+  },
+  pl: {
+    kicker: 'Możliwości personalizacji',
+    title: 'Rozwiązania produktowe SUP na zamówienie dla Twojej firmy',
+    sub: 'Od programów OEM/ODM dla marek po linie marek własnych dla dystrybutorów i zespołów zakupowych — każde wymaganie staje się produktem możliwym do wyprodukowania.',
+    pillars: [
+      {
+        title: 'Projekt deski',
+        body: 'Zdefiniuj deskę zgodnie z wymaganiami Twojego produktu.',
+        points: ['Kształt', 'Wymiary', 'Grubość', 'Konstrukcja'],
+      },
+      {
+        title: 'Grafika i znakowanie',
+        body: 'Umieść swoją tożsamość na każdej desce.',
+        points: ['Logo', 'Kolory', 'Grafika', 'Druk'],
+      },
+      {
+        title: 'Akcesoria',
+        body: 'Uzupełnij produkt o pasujące elementy.',
+        points: ['Wiosło', 'Torba', 'Płetwa', 'Opakowanie'],
+      },
+      {
+        title: 'Wymagania produkcyjne',
+        body: 'Dostosuj sposób produkcji swojego projektu.',
+        points: ['Ilość', 'Specyfikacja', 'Zastosowanie'],
       },
     ],
   },
@@ -3425,6 +3747,34 @@ export const studio: Localized<StudioContent> = {
       },
     ],
   },
+  pl: {
+    kicker: 'Konfigurator',
+    title: 'Konstruktor specyfikacji',
+    sub: 'Przewiń konstrukcję — od kształtu deski po pudełko, w którym zostanie wysłana; każdą warstwę określasz sam.',
+    scrollHint: 'Przewiń, aby poznać szczegóły',
+    steps: [
+      {
+        title: 'Kształt i wymiary',
+        body: 'Wybierz sprawdzoną platformę lub zdefiniuj własny kontur — długość, szerokość, grubość, profil listwy krawędziowej i rocker.',
+      },
+      {
+        title: 'Konstrukcja',
+        body: 'Konstrukcja jednowarstwowa, dwuwarstwowa lub zgrzewana. Liczba listew i stref wzmocnień dobierana do zastosowania.',
+      },
+      {
+        title: 'Grafika pokładu',
+        body: 'Grafika na całym pokładzie w Twoich kolorach, drukowana z plików Twojej marki. Nasz zespół przygotowania do druku zamienia surowe koncepcje w dane gotowe do produkcji.',
+      },
+      {
+        title: 'Nakładka na pokład',
+        body: 'EVA w kolorach Twojej marki, z indywidualnymi logotypami, rowkami, wycięciami i teksturami.',
+      },
+      {
+        title: 'Akcesoria i opakowanie',
+        body: 'Wiosła, pompki, torby, płetwy i smycze — spersonalizowane i w zestawie. Nadrukowane pudełka i zawieszki sklepowe zgodnie z Twoją specyfikacją.',
+      },
+    ],
+  },
 }
 
 /* ─────────────────────────── products ─────────────────────────── */
@@ -3581,6 +3931,20 @@ export const productFilters: Localized<{ all: string; groups: ProductFilterGroup
       { key: 'fishing', label: 'Fiske' },
       { key: 'kids', label: 'Barn' },
       { key: 'multi', label: 'Flerpersoners' },
+    ],
+  },
+  pl: {
+    all: 'Wszystkie platformy',
+    groups: [
+      { key: 'all-around', label: 'Allround' },
+      { key: 'race', label: 'Wyścig' },
+      { key: 'surf', label: 'Surf' },
+      { key: 'touring', label: 'Touring' },
+      { key: 'yoga', label: 'Joga' },
+      { key: 'whitewater', label: 'Spływ' },
+      { key: 'fishing', label: 'Wędkarstwo' },
+      { key: 'kids', label: 'Dzieci' },
+      { key: 'multi', label: 'Wieloosobowe' },
     ],
   },
 }
@@ -5539,6 +5903,223 @@ export const products: Localized<ProductsContent> = {
       },
     ],
   },
+  pl: {
+    kicker: 'Platformy produktowe',
+    title: 'Platformy SUP dostępne do personalizacji',
+    sub: 'Każda seria to platforma produkcyjna — wybierz punkt wyjścia, a my dostosujemy kształt, grafikę i specyfikację do Twojego produktu.',
+    items: [
+      {
+        slug: 'sup-explorer-11',
+        series: 'all-around',
+        sku: 'SUP-EX11',
+        name: "SUP Explorer 11'",
+        tagline: 'Klasyczna platforma allround',
+        desc: 'Nasza najpopularniejsza deska allround — szeroki i stabilny kadłub dla początkujących, zwrotność dla osób średnio zaawansowanych i łatwy transport na każdą przygodę. Domyślny punkt wyjścia dla większości nowych marek.',
+        uses: ['Początkujący', 'Allround', 'Rodzina'],
+        for: ['Nowe marki', 'Floty wynajmu'],
+        specs: "11'0\" × 32\" × 6\" · drop-stitch PVC · 15 PSI · 19 lbs (8.6 kg)",
+        artwork: 'Rdzeń drop-stitch w klasie wojskowej · wzmocnione listwy krawędziowe · płetwy 2+1 · kompletny zestaw',
+        image: 'https://assets.isupfactory.com/site/products/2026/all-around/all-around-03.avif',
+        hue: 195,
+      },
+      {
+        slug: 'sup-ocean-pulse',
+        series: 'whitewater',
+        sku: 'SUP-OP11',
+        name: 'Ocean Pulse Series',
+        tagline: 'Edycja z topograficznymi falami',
+        desc: 'Fale oceanu zamienione w topograficzne kontury w błękicie Tiffany, z precyzyjnym tłoczeniem mechanicznym i spójnym, dopasowanym kolorystycznie zestawem akcesoriów.',
+        uses: ['Lifestyle', 'Spokojne wody', 'Design'],
+        for: ['Marki lifestyle', 'Kurorty butikowe'],
+        specs: "11'0\" × 32\" × 6\" · drop-stitch PVC · 15 PSI · 20 lbs (9.1 kg)",
+        artwork: 'Cyfrowy druk UV + mechaniczne tłoczenie termiczne · skoordynowane akcesoria',
+        image: 'https://assets.isupfactory.com/site/products/2026/whitewater/whitewater-01.avif',
+        hue: 210,
+      },
+      {
+        slug: 'sup-cheetah-surge',
+        series: 'surf',
+        sku: 'SUP-CS11',
+        name: 'Cheetah Surge Edition',
+        tagline: 'Edycja premium inspirowana dziką naturą',
+        desc: 'Surowa moc dzikiego świata spotyka artystyczną elegancję — motyw geparda w pastelowym różu, turkusie i koralu, wykonany z odpornej na blaknięcie wielokolorowej mozaiki EVA.',
+        uses: ['Lifestyle', 'Spokojne wody', 'Design'],
+        for: ['Marki lifestyle', 'Marky nastawione na social media'],
+        specs: "11'0\" × 32\" × 6\" · drop-stitch PVC · 15 PSI · 20 lbs (9.1 kg)",
+        artwork: 'Wielokolorowa mozaika EVA + druk UV · konstrukcja odporna na rozwarstwianie',
+        image: 'https://assets.isupfactory.com/site/products/2026/surf/surf-01.avif',
+        hue: 28,
+      },
+      {
+        slug: 'sup-medusa-glow',
+        series: 'yoga',
+        sku: 'SUP-MG11',
+        name: 'Medusa Glow Series',
+        tagline: 'Edycja meduza',
+        desc: 'Podwodny krajobraz marzeń — świecące meduzy, rozgwiazdy i rafy koralowe w orzeźwiającej zieleni miętowej, z grafiką EVA odporną na blaknięcie i wyjątkową stabilnością boczną do jogi.',
+        uses: ['Joga', 'Tropiki', 'Lifestyle'],
+        for: ['Studia jogi', 'Marki tropikalne'],
+        specs: "11'0\" × 32\" × 6\" · drop-stitch PVC · 15 PSI · 20 lbs (9.1 kg)",
+        artwork: 'Wielokolorowa mozaika EVA + druk UV · uchwyt zakotwiczony w kadłubie z PVC',
+        image: 'https://assets.isupfactory.com/site/products/2026/kids-teens/kids-teens-05.avif',
+        hue: 260,
+      },
+      {
+        slug: 'sup-dolphin-wave',
+        series: 'touring',
+        sku: 'SUP-DW11',
+        name: 'Dolphin Wave Series',
+        tagline: 'Edycja morska 360°',
+        desc: 'Bawiące się delfiny i warstwowe fale w głębokim błękicie morskim, z wycinanym CNC spawem EVA i sitodrukiem na listwach krawędziowych biegnącym 360° wokół pokładu.',
+        uses: ['Morskie', 'Spokojne wody', 'Design'],
+        for: ['Marki morskie', 'Ośrodki wypoczynkowe'],
+        specs: "11'0\" × 32\" × 6\" · drop-stitch PVC · 15 PSI · 20 lbs (9.1 kg)",
+        artwork: 'Spaw EVA w kolorowe bloki wycinany CNC + sitodruk na listwach krawędziowych · dopasowanie kolorów PANTONE TPG',
+        image: 'https://assets.isupfactory.com/site/products/2026/touring/touring-02.avif',
+        hue: 210,
+      },
+      {
+        slug: 'sup-flowing-lotus',
+        series: 'yoga',
+        sku: 'SUP-FL11',
+        name: 'Flowing Lotus Series',
+        tagline: 'Edycja wellness z motywem wschodnim',
+        desc: 'Tradycyjne wschodnie pociągnięcia pędzla z motywami lotosu, koi i ważki — laserowo wytłoczone w nakładce antypoślizgowej, dzięki czemu nigdy się nie zużyją ani nie wyblakną. Zaprojektowana do spokojnego wiosłowania i jogi.',
+        uses: ['Joga', 'Medytacja', 'Spokojne wody'],
+        for: ['Studia jogi', 'Marki wellness'],
+        specs: "11'0\" × 32\" × 6\" · drop-stitch PVC · 15 PSI · 20 lbs (9.1 kg)",
+        artwork: 'Podwójna warstwa EVA wytłoczona laserowo + gradientowy druk UV · dynamiczne płetwy w kolorowe bloki',
+        image: 'https://assets.isupfactory.com/site/products/2026/yoga/yoga-01.avif',
+        hue: 150,
+      },
+      {
+        slug: 'sup-jungle-mandala',
+        series: 'all-around',
+        sku: 'SUP-JM11',
+        name: 'Jungle Mandala Series',
+        tagline: 'Tropikalna święta geometria',
+        desc: 'Tropikalna witalność spotyka świętą geometrię — hibiskusy, kolibry i mandale w błękicie Tiffany i pomarańczu koralowym, skonstruowane tak, by przy pełnym nadruku pozostawały idealnie symetryczne.',
+        uses: ['Tropiki', 'Wybrzeże', 'Design'],
+        for: ['Marki tropikalne', 'Podróże'],
+        specs: "11'0\" × 32\" × 6\" · drop-stitch PVC · 15 PSI · 20 lbs (9.1 kg)",
+        artwork: 'Podwójna warstwa EVA wytłoczona laserowo + druk UV + sitodruk na listwach krawędziowych · geometria bez zniekształceń',
+        image: 'https://assets.isupfactory.com/site/products/2026/all-around/all-around-10.avif',
+        hue: 28,
+      },
+      {
+        slug: 'sup-leviathan-wake',
+        series: 'race',
+        sku: 'SUP-LW11',
+        name: 'Leviathan Wake Series',
+        tagline: 'Edycja wieloryb',
+        desc: 'Majestatyczny totem błękitnego wieloryba z geometrycznymi motywami klanowymi i minimalistycznymi czarno-białymi liniami fal — dla osób, które czują przynależność do morza.',
+        uses: ['Morze', 'Allround', 'Design'],
+        for: ['Marki morskie', 'Marki outdoor'],
+        specs: "11'0\" × 32\" × 6\" · drop-stitch PVC · 15 PSI · 20 lbs (9.1 kg)",
+        artwork: 'Cyfrowy druk UV + tłoczenie mechaniczne · rozciągliwe farby PVC w logo na spodzie',
+        image: 'https://assets.isupfactory.com/site/products/2026/race/race-01.avif',
+        hue: 195,
+      },
+      {
+        slug: 'sup-ocean-voyager',
+        series: 'all-around',
+        sku: 'SUP-OV11',
+        name: 'Ocean Voyager Series',
+        tagline: 'Edycja żółwia morskiego',
+        desc: 'Hołd dla najdalszego wędrowca oceanu — geometryczna grafika żółwia morskiego w głębokim turkusie, błękicie tureckim i pomarańczu koralowym, z w pełni skoordynowanym pakietem akcesoriów.',
+        uses: ['Touring', 'Morze', 'Allround'],
+        for: ['Marki touringowe', 'Marki outdoor'],
+        specs: "11'0\" × 32\" × 6\" · drop-stitch PVC · 15 PSI · 20 lbs (9.1 kg)",
+        artwork: 'Wielokolorowa mozaika EVA + druk UV · plecak, pompka i smycz w kolorach marki',
+        image: 'https://assets.isupfactory.com/site/products/2026/all-around/all-around-12.avif',
+        hue: 170,
+      },
+      {
+        slug: 'sup-tropical-breeze',
+        series: 'all-around',
+        sku: 'SUP-TB11',
+        name: 'Tropical Breeze Series',
+        tagline: 'Edycja wyspy',
+        desc: 'Kompletny wzór wakacyjny — słońce, palmy kokosowe i plażowe scenerie, przechodzące od mikroilustracji dziobu w abstrakcyjne mozaiki EVA przy ogonie.',
+        uses: ['Wakacje', 'Lifestyle', 'Wybrzeże'],
+        for: ['Marki podróżnicze', 'Ośrodki wypoczynkowe'],
+        specs: "11'0\" × 32\" × 6\" · drop-stitch PVC · 15 PSI · 20 lbs (9.1 kg)",
+        artwork: 'Cyfrowy druk UV + wycinane nakładki EVA · ilustrowany krajobraz na dziobie',
+        image: 'https://assets.isupfactory.com/site/products/2026/all-around/all-around-17.avif',
+        hue: 330,
+      },
+      {
+        slug: 'sup-rheo-race',
+        series: 'race',
+        sku: 'SUP-RHEO01',
+        name: 'RHEO Race Series',
+        tagline: 'Edycja wyścigowa w hybrydzie karbonowej',
+        desc: 'Nadmuchiwana deska wyścigowa klasy elitarniej z konstrukcją hybrydową z karbonu i agresywnym glide rockerem — zbudowana do rywalizacji, treningu sprintu i technicznych torów, gdzie sztywność i prędkość decydują o wyniku.',
+        uses: ['Wyścigi', 'Prędkość', 'Trening'],
+        for: ['Zespoły wyścigowe', 'Trenerzy'],
+        specs: 'Matryca hybrydowa z karbonu · glide rocker · opływowy profil wysokoobrotowy',
+        artwork: 'Nadmuchiwana konstrukcja hybrydowa z karbonu · wyścigowy glide rocker',
+        image: 'https://assets.isupfactory.com/site/products/2026/race/race-11.avif',
+        hue: 195,
+      },
+      {
+        slug: 'sup-fishing',
+        series: 'fishing',
+        sku: 'SUP-FSH01',
+        name: 'Nadmuchiwana deska SUP do wędkowania',
+        tagline: 'Edycja wędkarska ze stabilnością katamarana',
+        desc: 'Dedykowana nadmuchiwana SUP do wędkowania z dwustronną komorą powietrzną (w stylu katamarana) dla wyjątkowej stabilności wtórnej, uchwytami na wędki, linijką rybną na pokładzie i wzmocnionym kadłubem roboczym.',
+        uses: ['Wędkarstwo', 'Stabilność', 'Praca'],
+        for: ['Marki wędkarskie', 'Przewodnicy'],
+        specs: 'Dwustronna komora powietrzna · linijka rybia 10–80 cm · uchwyty na wędki',
+        artwork: 'Wzmocniony kadłub roboczy · metalowe pierścienie D w wielu punktach',
+        image: 'https://assets.isupfactory.com/site/products/2026/fishing/fishing-01.avif',
+        hue: 210,
+      },
+      {
+        slug: 'sup-mini',
+        series: 'kids',
+        sku: 'SUP-MINI01',
+        name: 'Mini SUP Series',
+        tagline: '3 w 1: dzieci / surf / bodyboard',
+        desc: 'Ultraportabilna deska hybrydowa, która zmienia się w deskę SUP dla dzieci, nadmuchiwany surfboard i bodyboard — z krótkim, szerokim i bardzo stabilnym profilem oraz pokładem odpornym na przebicia.',
+        uses: ['Dzieci', 'Surf', 'Podróże'],
+        for: ['Marki dziecięce', 'Ośrodki wypoczynkowe'],
+        specs: 'Geometria hybrydowa SUP / surf / bodyboard · krótki szeroki kadłub · pokład odporny na przebicia',
+        artwork: 'Wielofunkcyjna geometria hybrydowa · wytrzymały materiał pokładu',
+        image: 'https://assets.isupfactory.com/site/products/2026/mini/mini-01.avif',
+        hue: 28,
+      },
+      {
+        slug: 'sup-giant',
+        series: 'multi',
+        sku: 'SUP-GNT01',
+        name: 'Giant SUP — deska zespołowa dla wielu osób',
+        tagline: 'Platforma zespołowa dla 6–8 osób',
+        desc: 'Nadmuchiwana SUP dużego formatu dla 6–8 osób: kadłub 16.4–17 stóp, szerokość 59–60 cali, grubość 8 cali i nadmuchiwanie przez dwa zawory, z 8–12 uchwytami do przenoszenia i systemem płetw 4+1.',
+        uses: ['Grupa', 'Zespół', 'Wypoczynek'],
+        for: ['Ośrodki wypoczynkowe', 'Floty wynajmu'],
+        specs: "16'4\"–17'0\" × 59\"–60\" × 8\" · 1200–1400 L · 11–15 PSI · 4+1 fins",
+        artwork: 'Nadmuchiwanie przez dwa zawory · 8–12 uchwytów do przenosienia z neoprenu · system płetw 4+1',
+        image: 'https://assets.isupfactory.com/site/products/2026/giant/giant-03.avif',
+        hue: 195,
+      },
+      {
+        slug: 'sup-lure-skiff',
+        series: 'fishing',
+        sku: 'SUP-LSK01',
+        name: 'Utility SUP — Lure Skiff',
+        tagline: 'Spinning na ultraszerokiej desce 120 cm',
+        desc: 'Ultraszeroka deska do spiningu o szerokości 120 cm z centralnym schowkiem i podwodnym oknem obserwacyjnym, nośnością 400 kg i kadłubem przypominającym ponton, zapewniającą pewne zarzucanie i wędkowanie w pozycji siedzącej.',
+        uses: ['Wędkarstwo', 'Praca', 'Stabilność'],
+        for: ['Marki wędkarskie', 'Wędkarze'],
+        specs: '350 × 120 × 15 cm · ładunek 400 kg · trzy płetwy · okno obserwacyjne',
+        artwork: 'Centralny schowek · przezroczyste podwodne okno obserwacyjne · kadłub pontonowy',
+        image: 'https://assets.isupfactory.com/site/products/2026/utility-lure/utility-lure-01.avif',
+        hue: 170,
+      },
+    ],
+  },
 }
 
 /* ─────────────────────────── video showcases ─────────────────────────── */
@@ -5781,6 +6362,31 @@ export const videoShowcase: Localized<{
         { t: 'Sklisikkert dekpute' },
         { t: 'Beslag og elastiske bånd' },
         { t: 'Tømme, folde og pakke' },
+      ],
+    },
+  },
+  pl: {
+    launch: {
+      badge: 'Premiera marki',
+      title: 'Marzysz o wypuszczeniu własnej marki SUP?',
+      sub: 'Nie musisz mieć własnej fabryki, aby wypuścić markę SUP. Jesteśmy partnerem produkcyjnym stojącym za Twoją linią: specyfikacja, konstrukcja, próbki, kontrola jakości, opakowanie i produkt gotowy do eksportu — wszystko w ramach jednej umowy i jednego odpowiedzialnego zespołu.',
+      points: [
+        { t: 'Kompleksowa usługa OEM/ODM od koncepcji do produkcji', d: 'Indywidualna grafika deski, integracja logo, nakładki na pokład i dedykowane opakowanie.' },
+        { t: 'Elastyczny start przy niskim MOQ', d: 'Wsparcie małych serii, dzięki czemu możesz sprawdzić rynek bez angażowania dużego kapitału.' },
+        { t: 'Kompletne pakiety akcesoriów', d: 'Wytrzymałe wiosła, pompki, smycze i torby podróżne, gotowe do wysyłki.' },
+        { t: 'Jakość i certyfikacja na poziomie firmy', d: 'Rygorystyczne procedury QA/QC, testy nadruku i zgodność z wymaganiami eksportu na całym świecie.' },
+      ],
+    },
+    process: {
+      badge: 'W środku fabryki',
+      title: 'Jak rodzi się nadmuchiwana deska SUP',
+      sub: 'Zastanawiałeś się kiedyś, jak miękka deska staje się twarda jak kamień? Pięć etapów w naszym zakładzie.',
+      points: [
+        { t: 'Precyzyjne cięcie i druk UV' },
+        { t: 'Zgrzewanie termiczne szczelne w 100 %' },
+        { t: 'Antypoślizgowa nakładka na pokład' },
+        { t: 'Okucia i elastyczne taśmy' },
+        { t: 'Spuszczanie, składanie i pakowanie' },
       ],
     },
   },
@@ -6126,6 +6732,42 @@ export const works: Localized<WorksContent> = {
     ],
     note: 'Den godkjente prøven er kontrakten. Hvert brett i batchen måles mot den.',
   },
+  pl: {
+    kicker: 'Rozwój produktu SUP',
+    title: 'Od briefu do partii — rozwój produktu w naszym zakładzie',
+    sub: 'Od zebrania wymagań do gotowego produktu — każdy etap w naszej własnej fabryce.',
+    steps: [
+      {
+        title: 'Zbieranie wymagań',
+        body: 'Zbieramy Twoją specyfikację, rynek docelowy, wymagania zgodności i prognozę wolumenu. NDA podpisujemy przed jakąkolwiek wymianą plików.',
+      },
+      {
+        title: 'Przegląd konstrukcji',
+        body: 'Oceniamy typ deski, wymiary, budowę, materiały i okucia pod kątem możliwości produkcji. Otrzymujesz pisemny raport z wskazanymi czynnikami wpływającymi na koszt.',
+      },
+      {
+        title: 'Przygotowanie grafiki do druku',
+        body: 'Pliki Twojej marki konwertujemy do danych gotowych do druku. Kolory są dopasowywane i drukowane próbne przed właściwym drukiem.',
+      },
+      {
+        title: 'Prototyp',
+        body: 'Fizyczny prototyp potwierdza kształt, sztywność, wagę i wykończenie. Wysyłamy go w ciągu 7–12 dni.',
+      },
+      {
+        title: 'Akceptacja próbki',
+        body: 'Podpisujesz fizyczną próbkę. Nic nie trafia do produkcji, zanim próbka referencyjna (golden sample) nie zostanie zatwierdzona i zarchiwizowana jako wzorzec partii.',
+      },
+      {
+        title: 'Produkcja seryjna',
+        body: 'Produkujemy we własnej fabryce zgodnie z opisanym wyżej procesem jakości, z identyfikowalnością partii sięgającą poziomu partii materiału.',
+      },
+      {
+        title: 'Dostawa gotowa do eksportu',
+        body: 'Pakowanie próżniowe, ułożenie w kartony, dokumentacja i przekazanie produktu gotowego do eksportu.',
+      },
+    ],
+    note: 'Zatwierdzona próbka to umowa. Każda deska w partii jest do niej mierzona.',
+  },
 }
 
 /* ─────────────────────────── home: board categories ─────────────────────────── */
@@ -6298,6 +6940,23 @@ export const boardCategories: Localized<BoardCategoriesContent> = {
       { id: 'fishing', label: 'Fiske', desc: 'Stabile plattformer med stangholdere og arbeidsbøtte for fiske.', image: 'https://assets.isupfactory.com/site/products/2026/fishing/fishing-01.avif', href: '/products/sup-fishing' },
       { id: 'kids', label: 'Kids-SUP-er', desc: 'Mindre, lettere brett designet for barn.', image: 'https://assets.isupfactory.com/site/products/2026/kids-teens/kids-teens-05.avif', href: '/products/sup-mini' },
       { id: 'multi', label: 'Flerpersoners', desc: 'Storformat teambrett for 6–8 deltakere.', image: 'https://assets.isupfactory.com/site/products/2026/giant/giant-03.avif', href: '/products/sup-giant' },
+    ],
+  },
+  pl: {
+    kicker: 'Nasze deski',
+    title: 'Od koncepcji produktu do desek SUP gotowych do produkcji',
+    sub: 'Każda kategoria desek to platforma produkcyjna — wybierz punkt wyjścia, a my dostosujemy kształt, grafikę i specyfikację do Twojego produktu.',
+    viewLabel: 'Zobacz',
+    items: [
+      { id: 'all-around', label: 'Allround', desc: 'Uniwersalne deski SUP dla osób na każdym poziomie.', image: 'https://assets.isupfactory.com/site/products/2026/all-around/all-around-03.avif', href: '/products/sup-explorer-11' },
+      { id: 'touring', label: 'Touring-SUP', desc: 'Deski na długie wyprawy, odkrywanie i przygody.', image: 'https://assets.isupfactory.com/site/products/2026/touring/touring-02.avif', href: '/products/sup-dolphin-wave' },
+      { id: 'race', label: 'Wyścigi', desc: 'Deski wyczynowe do rywalizacji i sportowego wiosłowania.', image: 'https://assets.isupfactory.com/site/products/2026/race/race-01.avif', href: '/products/sup-leviathan-wake' },
+      { id: 'whitewater', label: 'Spływ', desc: 'Wytrzymałe deski do spływów i stylu życia.', image: 'https://assets.isupfactory.com/site/products/2026/whitewater/whitewater-01.avif', href: '/products/sup-ocean-pulse' },
+      { id: 'yoga', label: 'Joga', desc: 'Przestronne pokłady zaprojektowane do jogi i treningu.', image: 'https://assets.isupfactory.com/site/products/2026/yoga/yoga-01.avif', href: '/products/sup-flowing-lotus' },
+      { id: 'surf', label: 'Surf', desc: 'Zwrotne deski do łapania fal i surfowania.', image: 'https://assets.isupfactory.com/site/products/2026/surf/surf-01.avif', href: '/products/sup-cheetah-surge' },
+      { id: 'fishing', label: 'Wędkarstwo', desc: 'Stabilne platformy z uchwytami na wędki i kieszenią roboczą.', image: 'https://assets.isupfactory.com/site/products/2026/fishing/fishing-01.avif', href: '/products/sup-fishing' },
+      { id: 'kids', label: 'SUP dla dzieci', desc: 'Mniejsze, lżejsze deski zaprojektowane dla dzieci.', image: 'https://assets.isupfactory.com/site/products/2026/kids-teens/kids-teens-05.avif', href: '/products/sup-mini' },
+      { id: 'multi', label: 'Wieloosobowe', desc: 'Duże deski zespołowe dla 6–8 osób.', image: 'https://assets.isupfactory.com/site/products/2026/giant/giant-03.avif', href: '/products/sup-giant' },
     ],
   },
 }
@@ -6635,6 +7294,41 @@ export const platforms: Localized<PlatformsContent> = {
       },
     ],
   },
+  pl: {
+    kicker: 'Platformy produktowe',
+    title: 'Platformy bazowe',
+    sub: 'Platformy bazowe, nie produkty katalogowe. Każdy wymiar, każda konstrukcja i cała grafika są ustalane indywidualnie dla projektu.',
+    items: [
+      {
+        title: 'Allround',
+        body: 'Klasyczne platformy rekreacyjne dla linii detalicznych, flot wynajmu i programów outdoorowych.',
+        uses: ['Linie detaliczne', 'Floty wynajmu', 'Programy outdoorowe'],
+        cta: 'Poproś o tę platformę',
+        href: '/contact',
+      },
+      {
+        title: 'Touring',
+        body: 'Dłuższe linie wodne zbudowane na dystans, kontrolę kierunku i wyprawy.',
+        uses: ['Dystans', 'Kontrola kierunku', 'Wyprawy'],
+        cta: 'Poproś o tę platformę',
+        href: '/contact',
+      },
+      {
+        title: 'Wyścigi',
+        body: 'Wyczynowe kształty dla klubów, wydarzeń i zespołów wyścigowych.',
+        uses: ['Kluby', 'Wydarzenia', 'Zespoły wyścigowe'],
+        cta: 'Poproś o tę platformę',
+        href: '/contact',
+      },
+      {
+        title: 'Uniwersalna',
+        body: 'Wytrzymałe deski o wysokiej częstotliwości użytkowania dla szkół, wypożyczalni i nabywców instytucjonalnych.',
+        uses: ['Szkoły', 'Wypożyczalnie', 'Nabywcy instytucjonalni'],
+        cta: 'Poproś o tę platformę',
+        href: '/contact',
+      },
+    ],
+  },
 }
 
 /* ─────────────────────────── gallery ─────────────────────────── */
@@ -6907,6 +7601,34 @@ export const gallery: Localized<GalleryContent> = {
       },
     ],
   },
+  pl: {
+    kicker: 'Projekty produkcyjne',
+    title: 'Najnowsza produkcja',
+    sub: 'Projekty produkcyjne zrealizowane w naszym zakładzie — z liczbami, o które kupujący naprawdę pytają.',
+    projects: [
+      {
+        tag: 'Identyfikowalność partii',
+        title: 'Zwalnianie wysyłki i przekazanie dokumentacji identyfikowalności',
+        body: 'Każda partia wysyłana jest z pełnym przekazaniem jakości — rejestrami inspekcji, numerami seryjnymi każdej deski i podpisanym protokołem zwalniania, archiwizowanym w 10-letniej identyfikowalności ERP. Zdjęcie przedstawia rzeczywisty rejestr zwalniania i identyfikowalności w zakładzie.',
+        hue: 195,
+        image: '/出货放行与批次追溯记录交接.jpg',
+      },
+      {
+        tag: 'Klub drużynowy',
+        title: 'Deski klubu drużynowego — platforma wyścigowa',
+        body: 'Platforma wyścigowa z dostosowanymi specyfikacjami i grafiką klubu, zatwierdzona na etapie próbki; forma została wykorzystana ponownie przez dwa sezony, dzięki czemu zamówienie uzupełniające idealnie pasowało do pierwotnej floty.',
+        hue: 28,
+        image: 'https://assets.isupfactory.com/site/products/2026/surf/surf-01.avif',
+      },
+      {
+        tag: 'Rozwój linii marki',
+        title: 'Rozwój linii marki — nadmuchiwana SUP',
+        body: 'Ugruntowana marka sportów wodnych rozszerzyła linię o nadmuchiwane deski SUP: przegląd konstrukcji, indywidualny kształt, trzy rozmiary i pierwsza seria 50 sztuk z kontrolą grafiki i szczelności przed skalowaniem — projekt i forma pozostają własnością marki.',
+        hue: 210,
+        image: 'https://assets.isupfactory.com/site/products/2026/all-around/all-around-03.avif',
+      },
+    ],
+  },
 }
 
 /* ─────────────────────────── buyer's guides (home) ─────────────────────────── */
@@ -7119,6 +7841,28 @@ export const guides: Localized<GuidesContent> = {
       {
         title: 'CE-sertifisering for oppblåsbare SUP-er',
         body: 'Hva CE faktisk dekker, de fem dokumentene du bør kreve, og hvordan du sjekker at et sertifikat nevner modellen din.',
+        href: '/news/ce-certification-inflatable-sup',
+      },
+    ],
+  },
+  pl: {
+    kicker: 'Przewodnik zakupowy',
+    title: 'Przewodniki produkcyjne',
+    sub: 'Pytania, które zadaje każda marka SUP przed zamówieniem — odpowiedziane wprost, na podstawie naszych rzeczywistych warunków.',
+    guides: [
+      {
+        title: 'Marka własna: kompletny przewodnik krok po kroku',
+        body: 'Od wyboru fabryki po produkcję — cała droga w sześciu krokach dla nowych marek.',
+        href: '/news/private-label-sup-guide',
+      },
+      {
+        title: 'MOQ i wycena OEM desek SUP',
+        body: 'Poziomy MOQ od 1–2 próbek po serie 90–100+ sztuk, sześć czynników wpływających na koszt i pięć sposobów obniżenia kosztów bez kompromisów w jakości.',
+        href: '/news/sup-oem-moq-pricing',
+      },
+      {
+        title: 'Certyfikacja CE nadmuchiwanych desek SUP',
+        body: 'Co obejmuje certyfikacja CE, których pięć dokumentów warto żądać i jak sprawdzić, czy certyfikat wymienia Twój model.',
         href: '/news/ce-certification-inflatable-sup',
       },
     ],
@@ -7457,6 +8201,43 @@ export const manufacturingGuides: Localized<GuidesContent> = {
       {
         title: 'CE-sertifisering for oppblåsbare SUP-er',
         body: 'Hva CE faktisk dekker, de fem dokumentene du bør kreve, og hvordan du sjekker at et sertifikat nevner modellen din.',
+        href: '/news/ce-certification-inflatable-sup',
+      },
+    ],
+  },
+  pl: {
+    kicker: 'Przewodniki produkcyjne',
+    title: 'Od fabryki do gotowego produktu',
+    sub: 'Kompletna biblioteka zakupowa — każdy etap projektu deski SUP na zamówienie wraz z naszymi rzeczywistymi czasami realizacji, warunkami i dokumentacją.',
+    guides: [
+      {
+        title: 'Jak wybrać producenta OEM desek SUP',
+        body: 'Pytania podczas audytu, które odróżniają prawdziwą fabrykę od pośrednika: certyfikaty, kontrola jakości, próbki i struktura własności.',
+        href: '/news/how-to-choose-sup-oem-manufacturer',
+      },
+      {
+        title: 'Harmonogram rozwoju produktu SUP',
+        body: 'Próbka w 7–12 dni, produkcja w 25–35 dni, forma plus 15–20 — pełny kalendarz, etap po etapie.',
+        href: '/news/custom-sup-development-timeline',
+      },
+      {
+        title: 'Informacje do przygotowania przed zamówieniem',
+        body: 'Pięć danych, dzięki którym fabryka przygotuje trafną wycenę za pierwszym razem — i uniknie poprawek w specyfikacji.',
+        href: '/news/info-needed-before-sup-production',
+      },
+      {
+        title: 'Marka własna: kompletny przewodnik krok po kroku',
+        body: 'Od wyboru fabryki po produkcję — cała droga w sześciu krokach dla nowych marek.',
+        href: '/news/private-label-sup-guide',
+      },
+      {
+        title: 'MOQ i wycena OEM desek SUP',
+        body: 'Poziomy MOQ od 1–2 próbek po serie 90–100+ sztuk, sześć czynników wpływających na koszt i pięć sposobów obniżenia kosztów bez kompromisów w jakości.',
+        href: '/news/sup-oem-moq-pricing',
+      },
+      {
+        title: 'Certyfikacja CE nadmuchiwanych desek SUP',
+        body: 'Co obejmuje certyfikacja CE, których pięć dokumentów warto żądać i jak sprawdzić, czy certyfikat wymienia Twój model.',
         href: '/news/ce-certification-inflatable-sup',
       },
     ],
@@ -8081,6 +8862,73 @@ export const faq: Localized<FaqContent> = {
       },
     ],
   },
+  pl: {
+    kicker: 'FAQ',
+    title: 'Częste pytania o produkcji',
+    sub: 'Pytania, które kupujący zadają przed złożeniem zamówienia — odpowiedziane na podstawie naszych rzeczywistych warunków.',
+    items: [
+      {
+        q: 'Co produkuje iSupfactory?',
+        a: 'iSupfactory to profesjonalna fabryka produkcyjna specjalizująca się w nadmuchiwanych deskach SUP na zamówienie i powiązanym sprzęcie sportów wodnych dla globalnych marek i firm — projektowanych, prototypowanych i produkowanych w naszej własnej fabryce o powierzchni 12 500 m² w Qingdao, w Chinach.',
+      },
+      {
+        q: 'Czym różni się OEM od ODM?',
+        a: `OEM: produkujemy zgodnie z Twoją zatwierdzoną specyfikacją — Twoimi rysunkami, wymiarami, materiałami i opakowaniem. To Ty jesteś właścicielem projektu i własności intelektualnej. ODM: nasz zespół konstrukcyjny opracowuje deskę na podstawie Twojego briefu — niezależnie od tego, czy jest to koncepcja rynkowa, cel wydajnościowy, czy adaptacja sprawdzonej platformy — a Ty zatwierdzasz projekt przed produkcją. Marka własna oznacza Twoją markę na istniejącej, zwalidowanej platformie bez zmian konstrukcyjnych. Ścieżki OEM i ODM prowadzą przez tę samą fabrykę, ten sam system jakości i ten sam zespół eksportowy; ODM to najszybsza droga do deski z własną marką, od ${MOQ_SHORT.standardRun} przy próbkach w ${FACTS.sampleTime}.`,
+      },
+      {
+        q: 'Jakie jest minimalne zamówienie (MOQ)?',
+        a: `Co-branding w małych ilościach zaczyna się od 5–10 szt; partie pilotażowe od 20–50 szt. Standardowa produkcja seryjna zaczyna się od ${MOQ_SHORT.standardRun}. Formy wykonywane narzędziowo powstają w wolumenie produkcyjnym, zależnie od złożoności.`,
+      },
+      {
+        q: 'Ile trwa produkcja?',
+        a: '25–35 dni od potwierdzenia zamówienia i zaliczki. Forma wykonywana narzędziowo to dodatkowe 15–20 dni na jej opracowanie. Dla zamówień sezonowych o krótkim terminie dostępna jest produkcja ekspresowa.',
+      },
+      {
+        q: 'Jak szybko otrzymam próbkę?',
+        a: 'Próbki prototypu wysyłamy zwykle w ciągu 7–12 dni od zatwierdzenia grafiki i specyfikacji.',
+      },
+      {
+        q: 'Jakie certyfikaty posiadacie?',
+        a: 'ISO 9001 dla zarządzania jakością, certyfikacja CE dla modeli przeznaczonych na rynek UE (zakres potwierdzany dla każdego projektu) oraz ważny certyfikat BSCI dotyczący odpowiedzialności społecznej, z raportem z audytu na życzenie. Dokumentacja REACH i RoHS dołącza do każdego zamówienia.',
+      },
+      {
+        q: 'Czy zajmujecie się dokumentacją eksportową?',
+        a: 'Tak. Dokumentację eksportową i opakowanie pod eksport obsługujemy wewnętrznie, a dostarczamy do marek w ponad 50 krajach w UE, USA, Australii i Azji.',
+      },
+      {
+        q: 'Czy mój projekt będzie pokazywany innym klientom?',
+        a: 'Nie. Grafika, formy i pliki specyfikacji pozostają Twoją własnością. Podpisujemy NDA przed jakąkolwiek wymianą plików i nigdy nie wykorzystujemy ani nie sprzedajemy narzędzi czy projektów klienta.',
+      },
+      {
+        q: 'Czy sprzedajecie własną markę SUP?',
+        a: 'Nie. Produkujemy wyłącznie pod markami naszych klientów. Nie sprzedajemy bezpośrednio odbiorcom końcowym i nie konkurujemy z klientami na żadnym rynku.',
+      },
+      {
+        q: 'Czy możecie powielić deskę, którą już sprzedaję?',
+        a: 'Tak. Wyślij próbkę fizyczną lub pełną specyfikację, a nasz zespół konstrukcyjny odpowie raportem o możliwościach produkcji obejmującym materiał, konstrukcję, tolerancje i czynniki wpływające na koszt.',
+      },
+      {
+        q: 'Czy możecie produkować deski SUP z naszym logo?',
+        a: 'Tak. Dostosowanie marki — logotypy, kolory, grafika i nadruki powierzchniowe — jest wplatane w projekt i produkcję zgodnie z uzgodnioną specyfikacją. Wszystkie pliki marki i grafiki należą do Ciebie.',
+      },
+      {
+        q: 'Czy możecie opracować całkowicie nowy produkt SUP?',
+        a: 'Tak. Indywidualny rozwój produktu wychodzi od Twojej koncepcji, szkiców, specyfikacji lub wymagań rynkowych. Przechodzimy przez przegląd specyfikacji, projekt konstrukcji, próbki prototypu i akceptację przed produkcją seryjną.',
+      },
+      {
+        q: 'Z jakich materiałów wykonuje się nadmuchiwane deski SUP?',
+        a: 'Nadmuchiwane deski SUP powstają w konstrukcji drop-stitch z możliwością doboru warstw PVC i gęstości, aby osiągnąć cele wagowe, sztywnościowe i cenowe, z materiałami zgodnymi z REACH/RoHS oraz certyfikacją jakości (ISO 9001, CE, BSCI).',
+      },
+      {
+        q: 'Czy współpracujecie z nowymi lub startującymi markami SUP?',
+        a: `Tak. Projekty OEM/ODM rozwijamy na podstawie Twoich wymagań produktowych, rynku docelowego i wolumenu — partie pilotażowe zaczynają się od 20–50 szt, a standardowa produkcja seryjna od ${MOQ_SHORT.standardRun}.`,
+      },
+      {
+        q: 'Jakie informacje powinienem podać w zapytaniu o OEM desek SUP?',
+        a: 'Najbardziej przydatne informacje: typ produktu, rynek docelowy, wymiary lub specyfikacja deski, oczekiwana konstrukcja, wymagania dotyczące marki, planowana ilość, wymagania opakowania i planowana data premiery. Nasz zespół odpowiada oceną techniczną i ofertą w ciągu jednego dnia roboczego.',
+      },
+    ],
+  },
 }
 
 export const homeFaq: Localized<FaqContent> = {
@@ -8291,6 +9139,29 @@ export const homeFaq: Localized<FaqContent> = {
       },
     ],
   },
+  pl: {
+    kicker: faq.pl.kicker,
+    title: faq.pl.title,
+    sub: faq.pl.sub,
+    items: [
+      {
+        q: 'Kim jest iSupfactory?',
+        a: 'iSupfactory to producent OEM i ODM desek SUP z siedzibą w Qingdao, w Chinach, który oferuje rozwój produktu, prototypowanie, produkcję, kontrolę jakości i produkcję eksportową dla marek, dystrybutorów i firm outdoorowych.',
+      },
+      {
+        q: 'Czy iSupfactory jest producentem OEM?',
+        a: 'Tak. iSupfactory produkuje nadmuchiwane deski SUP zgodnie ze specyfikacjami zatwierdzonymi przez klienta, w tym wymiarami, materiałami, konstrukcją, grafiką, akcesoriami i opakowaniem. Rozwój produktu w modelu ODM jest również dostępny dla marek, które chcą opracować deskę SUP na podstawie briefu.',
+      },
+      faq.pl.items[1],
+      faq.pl.items[2],
+      faq.pl.items[3],
+      faq.pl.items[5],
+      {
+        q: 'Czy kupujący mogą przeprowadzić audyt fabryki lub skorzystać z inspekcji zewnętrznej?',
+        a: 'Tak. Zapraszamy audyty kupujących i regularnie współpracujemy z SGS, TÜV, BV oraz Intertek. Inspekcję zewnętrzną można zorganizować na każdym etapie produkcji — materiał wejściowy, produkcja w toku lub inspekcja końcowa — a raporty z inspekcji udostępniamy na życzenie.',
+      },
+    ],
+  },
 }
 
 /* ─────────────────────────── CTA band ─────────────────────────── */
@@ -8356,6 +9227,12 @@ export const cta: Localized<CtaContent> = {
     body: 'Enten du allerede har en komplett produktspesifikasjon eller fortsatt utvikler konseptet ditt, kan teamet vårt hjelpe deg med å vurdere neste trinn. Fortell oss hva du vil bygge — vi gjennomgår kravene dine og diskuterer den mest praktiske veien fra konsept til produksjon.',
     button: 'Start SUP-prosjektet ditt',
     note: 'Svar innen 1 arbeidsdag · NDA på forespørsel før filutveksling · info@isupfactory.com · +86-13305324192',
+  },
+  pl: {
+    title: 'Gotowy na rozwój swojego produktu SUP?',
+    body: 'Niezależnie od tego, czy masz już kompletną specyfikację produktu, czy wciąż rozwijasz koncepcję, nasz zespół pomoże Ci ocenić kolejny krok. Napisz, co chcesz zbudować — przeanalizujemy Twoje wymagania i omówimy najbardziej praktyczną drogę od koncepcji do produkcji.',
+    button: 'Rozpocznij swój projekt SUP',
+    note: 'Odpowiedź w 1 dzień roboczy · NDA na życzenie przed wymianą plików · info@isupfactory.com · +86-13305324192',
   },
 }
 
@@ -8653,6 +9530,37 @@ export const valueProp: Localized<ValuePropContent> = {
       },
     ],
   },
+  pl: {
+    kicker: 'Nasza rola',
+    title: 'Więcej niż fabryka desek SUP',
+    sub: 'Wielu producentów potrafi wyprodukować standardową deskę paddle. Nasza rola jest inna. iSupfactory to partner w rozwoju produktu i produkcji desek SUP na zamówienie, który pomaga firmom przejść od pierwszego pomysłu do produktu gotowego do produkcji.',
+    cards: [
+      {
+        title: 'Rozwój produktu',
+        body: 'Zamieniamy Twoją koncepcję, szkice, specyfikacje lub wymagania rynkowe w deskę SUP gotową do produkcji.',
+      },
+      {
+        title: 'Produkcja na zamówienie',
+        body: 'Dostosowujemy konstrukcję, wymiary, grafikę, kolory, akcesoria i opakowanie do Twoich wymagań.',
+      },
+      {
+        title: 'Prace nad prototypem',
+        body: 'Oceniamy produkt przed produkcją seryjną za pomocą prac na próbkach i testów.',
+      },
+      {
+        title: 'Wsparcie produkcji',
+        body: 'Po zatwierdzeniu projektu zajmujemy się przejściem od prototypu do powtarzalnej produkcji seryjnej.',
+      },
+      {
+        title: 'Zapewnienie jakości',
+        body: 'Kontrola jakości w całym procesie produkcyjnym zapewnia, że gotowe produkty spełniają uzgodnione specyfikacje.',
+      },
+      {
+        title: 'Dostawa na cały świat',
+        body: 'Wsparcie przy opakowaniu i dokumentacji eksportowej upraszcza proces zakupowy.',
+      },
+    ],
+  },
 }
 
 /* ─────────────────────────── home: role boundary (Where We Stop, You Start) ─────────────────────────── */
@@ -8820,6 +9728,22 @@ export const boundary: Localized<BoundaryContent> = {
       { ours: 'Sertifiseringsdokumentasjon og eksporttilpasset emballasje', theirs: 'Kundeforhold og ettersalg' },
     ],
     footer: 'Grafikk-, verktøy- og spesifikasjonsfilene dine forblir din eiendom og gjenbrukes, selges eller vises aldri for noen annen kunde.',
+  },
+  pl: {
+    kicker: 'Kim jesteśmy',
+    title: 'Zbudowane przez fabrykę desek SUP, a nie platformę handlową',
+    sub: 'Jesteśmy partnerem produkcyjnym, nie marketplace. Naszą rolą jest pomóc klientom zamienić pomysły, projekty i wymagania produktowe w deski SUP gotowe do produkcji. To Ty posiadasz swoją markę. To Ty kontrolujesz swój rynek. My odpowiadamy za produkcję.',
+    oursTitle: 'Bierzemy na siebie',
+    theirsTitle: 'Zostaje u Ciebie',
+    rows: [
+      { ours: 'Przegląd specyfikacji i ocena możliwości produkcyjnych', theirs: 'Nazwa marki, identyfikacja i pozycjonowanie' },
+      { ours: 'Technologia konstrukcji, dobór materiałów, opracowywanie form', theirs: 'Ceny, kanały i sprzedaż' },
+      { ours: 'Przygotowanie grafiki pokładu do druku i produkcja z plików Twojej marki', theirs: 'Własność wszystkich plików marki i grafiki' },
+      { ours: 'Prototypowanie, pobieranie próbek i dokumentowanie akceptacji próbki', theirs: 'Ostateczna akceptacja każdej próbki' },
+      { ours: 'Produkcja seryjna, kontrola jakości w trakcie produkcji i kontrola końcowa', theirs: 'Twój rynek, Twoi klienci, Twoje dane' },
+      { ours: 'Dokumentacja certyfikacyjna i opakowanie gotowe do eksportu', theirs: 'Relacje z klientami końcowymi i obsługa posprzedażowa' },
+    ],
+    footer: 'Twoje pliki grafiki, form i specyfikacji pozostają Twoją własnością i nigdy nie są wykorzystywane ponownie, odsprzedawane ani pokazywane innym klientom.',
   },
 }
 
@@ -9243,6 +10167,42 @@ export const about: Localized<AboutContent> = {
       ],
     },
   },
+  pl: {
+    kicker: 'O nas',
+    title: 'O iSupfactory',
+    sub: 'Twój partner w produkcji desek SUP na zamówienie',
+    story: [
+      'Jesteśmy fabryką OEM/ODM nadmuchiwanych desek SUP, która od lat produkuje deski dla marek, dystrybutorów i zespołów zakupowych na całym świecie. Po drodze wielokrotnie spotykaliśmy ten sam typ klienta — marki i kupujących z wyraźną koncepcją produktu, ale bez własnej fabryki, która mogłaby ją zrealizować.',
+      'Dlatego zbudowaliśmy wok nich iSupfactory. Etapowe minimalne ilości od serii co-branding 5–10 sztuk, pełne wsparcie na etapie konstrukcji i projektu oraz zespół produkcyjny, który traktuje pierwsze zamówienie równie poważnie jak setne. Wnosisz markę, my prowadzimy fabrykę.',
+    ],
+    values: [
+      { title: 'Jakość na pierwszym miejscu', body: 'Każda deska przechodzi wielostopniową kontrolę jakości — materiał, szwy, nadruk, montaż i opakowanie są sprawdzane na każdym etapie produkcji.' },
+      { title: 'Producent, nie pośrednik', body: 'Projekt, opracowywanie form, prototypowanie, produkcja i testy odbywają się pod jednym dachem — bez żadnego ogniwa handlowego między Tobą a fabryką.' },
+      { title: 'Elastyczność u źródła', body: 'Etapowe MOQ, opcje modułowe i uczciwe czasy realizacji pozwalają markom rosnąć od zamówień próbnych po serie produkcyjne.' },
+    ],
+    capabilities: ['OEM / ODM / marka własna', 'Formy na zamówienie', 'Usługa próbek', 'Projekt i grafika', 'Wielostopniowa kontrola jakości', 'Dokumentacja eksportowa'],
+    stats: [
+      { value: '90–100+ szt', label: 'Standardowa wielkość MOQ (na zatwierdzoną konfigurację)' },
+      { value: '7–12 dni', label: 'Czas realizacji próbek' },
+      { value: '25–35 dni', label: 'Czas realizacji produkcji' },
+      { value: '20–50 szt', label: 'MOQ dla zamówień pilotażowych' },
+    ],
+    strength: [
+      { title: 'Rozwój produktu', body: 'Od szkiców koncepcji po rysunki produkcyjne — nasi inżynierowi dostrajają kształt, rocker, grubość i konstrukcję drop-stitch, aby osiągnąć Twoje cele wydajnościowe i cenowe.' },
+      { title: 'Produkcja OEM', body: 'Budowa według Twojej specyfikacji: materiał, kolory, umiejscowienie logo, akcesoria i opakowanie, w wolumenie od 90–100+ szt na zatwierdzoną konfigurację.' },
+      { title: 'Rozwiązania ODM', body: 'Budowa na naszych sprawdzonych platformach — allround, touring, race, yoga i inne — z dostosowaniem marki, grafiki i akcesoriów, aby premiera była szybka i bezpieczna.' },
+      { title: 'Wsparcie konstrukcyjne', body: 'Opracowywanie form, prototypowanie i iteracje na próbkach pod jednym dachem, z próbnymi nadrukami i akceptacją grafiki na każdym kamieniu milowym przed produkcją seryjną.' },
+      { title: 'Zarządzanie jakością', body: 'Kontrola jakości w wielu punktach: materiał, szwy, nadruk, montaż i opakowanie, a dodatkowo kontrola wyrywkowa i inspekcja przed wysyłką, które możesz zlecić stronie trzeciej.' },
+      { title: 'Dostawa na cały świat', body: 'Dokumentacja eksportowa, opakowanie dostosowane do eksportu i wewnętrzne wsparcie dokumentacyjne dla marek w ponad 50 rynkach.' },
+    ],
+    partnering: {
+      title: 'Współpracujemy z firmami na całym świecie',
+      body: [
+        'iSupfactory współpracuje z markami SUP, dystrybutorami, ośrodkami wypoczynkowymi, szkołami i firmami outdoorowymi, które potrzebują sprawdzonej fabryki nadmuchiwanych desek paddle — od pierwszego zamówienia próbnego po programy w ilościach kontenerowych.',
+        'Opowiedz nam o swoim rynku i oczekiwanym poziomie cenowym, a my odpowiemy arkuszem specyfikacji, MOQ i czasami realizacji dopasowanymi do Twojego modelu biznesowego.',
+      ],
+    },
+  },
 }
 
 /* ─────────────────────────── customizer page ─────────────────────────── */
@@ -9424,6 +10384,24 @@ export const customizer: Localized<CustomizerContent> = {
     boardLabel: 'MERKET DITT',
     cta: 'Lag designet ditt',
   },
+  pl: {
+    kicker: 'Zaprojektuj swoją SUP',
+    title: 'Zobacz swoją koncepcję SUP przed produkcją',
+    sub: 'Zobacz, jak Twoja marka będzie wyglądać na prawdziwej desce — wybierz kolor, obserwuj podgląd aktualizowany na żywo, a następnie wyślij nam logo, aby przygotować pełny projekt.',
+    status: 'Interaktywny podgląd',
+    statusBody: 'Wypróbuj paletę barw, a potem wyślij nam swój pomysł — nasz zespół przygotuje bezpłatny podgląd Twojego pełnego projektu.',
+    steps: [
+      { title: 'Wybierz model deski', body: 'Od platform allround po kształty touring i yoga — każda z realistycznymi proporcjami.' },
+      { title: 'Wybierz kolory', body: 'Wybierz paletę swojej marki i zobacz natychmiastową zmianę deski.' },
+      { title: 'Wgraj logo', body: 'Umieść logo i grafikę na pokładzie — dostosuj wielkość i położenie.' },
+      { title: 'Wygeneruj podgląd', body: 'Wyeksportuj podgląd swojej indywidualnej deski SUP, aby udostępnić go zespołowi.' },
+    ],
+    mockupLabel: 'Podgląd projektu na żywo',
+    mockupBrand: "SUP Explorer 11'",
+    stepLabel: 'Krok',
+    boardLabel: 'TWOJA MARKA',
+    cta: 'Stwórz swój projekt',
+  },
 }
 
 /* ─────────────────────────── products page extras ─────────────────────────── */
@@ -9509,6 +10487,14 @@ export const productsPage: Localized<ProductsPageContent> = {
     customTitle: 'Hvert produkt kan tilpasses',
     customBody: 'Ingenting sendes ferdig fra hyllen. Hvert brett bygges for deg med valgene dine i hvert lag.',
     customPoints: ['Form og størrelse', 'Farger og grafikk på hele brettet', 'Logo- og EVA-padedesign', 'Tilbehør og emballasje'],
+  },
+  pl: {
+    kicker: 'Platformy produktowe',
+    title: 'Platformy SUP dostępne do personalizacji',
+    sub: 'Każdy model poniżej to platforma produkcyjna. Wybierz jeden jako punkt wyjścia, a my dostosujemy kształt, grafikę, kolory i specyfikację do Twojego produktu.',
+    customTitle: 'Każdy produkt można dostosować',
+    customBody: 'Nic nie schodzi z magazynu gotowe. Każda deska jest budowana dla Ciebie, zgodnie z Twoimi wyborami na każdym poziomie.',
+    customPoints: ['Kształt i wymiary', 'Kolory i grafika na całej desce', 'Projekt logo i nakładki EVA', 'Akcesoria i opakowanie'],
   },
 }
 
@@ -9626,6 +10612,17 @@ export const catalogDownload: Localized<CatalogContent> = {
     successTitle: 'Forespørsel mottatt',
     successBody: 'Salgsteamet vårt sender hele produktkatalogen og MOQ-arket til {email} innen én arbeidsdag.',
   },
+  pl: {
+    kicker: 'Katalog produktowy',
+    title: 'Otrzymaj pełny katalog i arkusz MOQ',
+    body: 'Wszystkie platformy wraz ze specyfikacjami, opcjami grafiki, poziomami MOQ, czasami próbek i opakowaniem — wysłane przez nasz zespół sprzedaży na Twój adres w ciągu jednego dnia roboczego.',
+    emailLabel: 'Służbowy e-mail',
+    emailPlaceholder: 'ty@twojafirma.pl',
+    submit: 'Poproś o katalog',
+    secure: 'Żadnego spamu. Tylko katalog i odpowiedzi dotyczące Twojego projektu.',
+    successTitle: 'Zapytanie przyjęte',
+    successBody: 'Nasz zespół sprzedaży wyśle pełny katalog produktowy i arkusz MOQ na adres {email} w ciągu jednego dnia roboczego.',
+  },
 }
 
 /* ─────────────────────────── gallery page extras ─────────────────────────── */
@@ -9692,6 +10689,12 @@ export const galleryPage: Localized<GalleryPageContent> = {
     sub: 'Et innblikk i hvordan SUP-produkter blir til — fra kundekrav til ferdige brett.',
     note: 'Vil du at prosjektet ditt skal vises her? Start en samtale, så designer vi det sammen.',
   },
+  pl: {
+    kicker: 'Projekty desek SUP na zamówienie',
+    title: 'Projekty desek SUP na zamówienie',
+    sub: 'Wgląd w to, jak powstają produkty SUP — od wymagań klienta po gotowe deski.',
+    note: 'Chcesz, aby Twój projekt znalazł się tutaj? Porozmawiajmy i zaprojektujmy go razem.',
+  },
 }
 
 /* ─────────────────────────── who-we-serve page extras ─────────────────────────── */
@@ -9747,6 +10750,11 @@ export const servePage: Localized<ServePageContent> = {
     kicker: 'Hvem vi jobber for',
     title: 'Skreddersydde SUP-løsninger for bedriften din',
     sub: 'Enten du trenger merkebrett for organisasjonen din eller skreddersydde SUP-produkter for virksomheten din, hjelper vi deg med å gjøre krav om til ferdige produkter.',
+  },
+  pl: {
+    kicker: 'Dla kogo pracujemy',
+    title: 'Rozwiązania SUP na zamówienie dla Twojej firmy',
+    sub: 'Niezależnie od tego, czy potrzebujesz desek z własną marką dla swojej organizacji, czy indywidualnych produktów SUP dla swojej firmy, pomożemy zamienić wymagania w gotowe produkty.',
   },
 }
 
@@ -9824,6 +10832,13 @@ export const worksPage: Localized<WorksPageContent> = {
     sub: 'Innsamling av krav, konstruksjonsgjennomgang, prøvetaking, produksjon og eksport — hvert trinn i vår egen fabrikk.',
     consultTitle: 'Start med en spesifikasjonsgjennomgang',
     consultBody: 'Send oss spesifikasjonen din, et referansebrett eller tegninger. Vi returnerer en produksjonsvurdering og et tilbud — helt uten forpliktelser.',
+  },
+  pl: {
+    kicker: 'Proces rozwoju produktu',
+    title: 'Od specyfikacji do gotowego produktu',
+    sub: 'Zbieranie wymagań, przegląd konstrukcji, próbki, produkcja i eksport — każdy etap odbywa się w naszej własnej fabryce.',
+    consultTitle: 'Zacznij od przeglądu specyfikacji',
+    consultBody: 'Wyślij nam specyfikację, wzorcową deskę lub rysunki techniczne. Otrzymasz ocenę możliwości produkcji oraz ofertę — bez żadnych zobowiązań.',
   },
 }
 
@@ -10030,6 +11045,27 @@ export const series: Localized<SeriesContent> = {
         title: 'Medusa Glow-serien (Manetutgaven)',
         sku: 'SUP-MG11',
         body: 'Levende maneter, sjøstjerner og korallrev med fargeklarte EVA-blokkmotiv i forfriskende mintgrønn. Allround-skrov på 11 ft for tropiske og kystnære eventyr.',
+        image: 'https://assets.isupfactory.com/site/products/2026/editions/medusa-jellyfish-edition.avif',
+        href: '/products/sup-medusa-glow',
+      },
+    ],
+  },
+  pl: {
+    kicker: 'Seria autorska',
+    title: 'Tematyczne edycje desek SUP',
+    sub: 'Morskie, tematyczne edycje gotowe do oznaczenia własną marką — gotowe wzory z cyfrowym drukiem UV i tłoczeniem mechanicznym.',
+    items: [
+      {
+        title: 'Seria Leviathan Wake (edycja Wieloryb)',
+        sku: 'SUP-LW11',
+        body: 'Majestatyczny totem błękitnego wieloryba z geometrycznymi i plemiennymi wzorami, połączony z minimalistycznymi czarno-białymi liniami fal. Wszystroundowa deska 11 ft do jezior, rzek i wód przybrzeżnych.',
+        image: 'https://assets.isupfactory.com/site/products/2026/editions/leviathan-whale-edition.avif',
+        href: '/products/sup-leviathan-wake',
+      },
+      {
+        title: 'Seria Medusa Glow (edycja Meduza)',
+        sku: 'SUP-MG11',
+        body: 'Żywe meduzy, rozgwiazdy i rafy koralowe z realistycznymi motywami blokowymi EVA w odświeżającym kolorze mięty. Wszystroundowa deska 11 ft do tropikalnych i nadmorskich przygód.',
         image: 'https://assets.isupfactory.com/site/products/2026/editions/medusa-jellyfish-edition.avif',
         href: '/products/sup-medusa-glow',
       },

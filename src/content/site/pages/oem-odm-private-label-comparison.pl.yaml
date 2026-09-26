@@ -1,0 +1,128 @@
+meta:
+  title: 'OEM a ODM a private label w produkcji SUP — przewodnik porównawczy'
+  description: 'Porównanie produkcji SUP w modelach OEM, ODM i private label: definicje, własność, progi MOQ, czasy realizacji, narzędzia, zasady IP i scenariusze dopasowania.'
+  dateModified: '2026-08-20'
+  keywords:
+    - 'oem a odm a private label'
+    - 'porównanie produkcji sup'
+    - 'produkcja desek paddle na zamówienie'
+    - 'oem sup Chiny'
+    - 'rozwój odm sup'
+    - 'private label sup'
+
+hero:
+  tagline: 'Wybierz swoją ścieżkę współpracy'
+  title: 'OEM a ODM a private label — który model pasuje do Twojego projektu?'
+  subtitle: 'Trzy sposoby współpracy z fabryką SUP, każdy z innymi kompromisami w zakresie własności, inwestycji i szybkości. Ten przewodnik wyjaśnia różnice, abyś mógł wybrać właściwą drogę przed pierwszym zapytaniem.'
+
+answer:
+  label: 'Szybkie porównanie'
+  text: 'OEM: to Ty dysponujesz projektem i specyfikacją — my produkujemy według Twoich rysunków. ODM: nasz zespół inżynierów opracowuje deskę na podstawie Twojego briefu — zatwierdzasz ją przed produkcją. Private label: Twoja marka na sprawdzonej, istniejącej platformie bez zmian konstrukcyjnych — najszybsza droga na rynek. Wszystkie trzy ścieżki przechodzą przez ten sam zakład, system QC i zespół eksportowy w Qingdao w Chinach.'
+  verified: 'Wrzesień 2026'
+
+comparison_table:
+  tagline: 'Obok siebie'
+  title: 'Porównanie OEM / ODM / Private Label'
+  subtitle: 'Kluczowe różnice w zakresie własności projektu, MOQ, narzędzi, czasu realizacji i własności intelektualnej.'
+  headers:
+    dimension: Wymiar
+    oem: Produkcja OEM
+    odm: Rozwój ODM
+    pl: Private Label
+  rows:
+    - dimension: 'Kto projektuje deskę?'
+      oem: 'Dostarczasz specyfikację, rysunki lub deskę wzorcową'
+      odm: 'Fabryczny zespół inżynierów opracowuje projekt na podstawie Twojego briefu'
+      pl: 'Istniejąca platforma fabryki — bez prac projektowych'
+    - dimension: 'Własność projektu i IP'
+      oem: 'To Ty dysponujesz wszystkimi projektami, formami i własnością intelektualną'
+      odm: 'To Ty dysponujesz zatwierdzonym projektem końcowym; fabryka zachowuje IP procesu rozwojowego'
+      pl: 'Fabryka dysponuje projektem platformy; to Ty dysponujesz marką i grafiką'
+    - dimension: 'Forma / narzędzia'
+      oem: 'Nowe kształty wymagają formy na zamówienie — opłata jednorazowa, dodatkowe 15–20 dni'
+      odm: 'W zależności od specyfikacji może wymagać formy na zamówienie — ten sam harmonogram narzędzi'
+      pl: 'Bez nowej formy — używane narzędzia istniejącej platformy'
+    - dimension: 'Minimalna ilość zamówienia (MOQ)'
+      oem: '90–100+ szt. na zatwierdzoną konfigurację'
+      odm: '90–100+ szt. na zatwierdzoną konfigurację; partie pilotażowe od 20–50 szt.'
+      pl: '5–10 szt. (współmarkowanie) lub 20–50 szt. (partia pilotażowa na istniejącej platformie)'
+    - dimension: 'Typowy czas realizacji'
+      oem: '25–35 dni + 15–20 dni na narzędzia przy nowej formie'
+      odm: '25–35 dni + czas iteracji rozwojowych (zależnie od złożoności)'
+      pl: '25–35 dni (bez opóźnienia na narzędzia)'
+    - dimension: 'Poziom personalizacji'
+      oem: 'Pełny — kształt, konstrukcja, materiały, grafika, opakowanie'
+      odm: 'Pełny — fabryka proponuje, Ty zatwierdzasz każdy element'
+      pl: 'Tylko grafika i opakowanie — bez zmian konstrukcyjnych'
+    - dimension: 'Proces próbki'
+      oem: '1–2 próbki prototypowe w 7–12 dni po zatwierdzeniu specyfikacji'
+      odm: '1–2 próbki prototypowe w 7–12 dni po zatwierdzeniu projektu'
+      pl: '1–2 próbki w 7–12 dni — platforma już zwalidowana'
+    - dimension: 'Najlepsze dla'
+      oem: 'Kupujących z gotowymi projektami, deskami wzorcowymi lub szczegółowymi specyfikacjami'
+      odm: 'Kupujących z pomysłami na produkt lub wymaganiami rynkowymi, ale bez szczegółowej specyfikacji'
+      pl: 'Kupujących, którym szybko potrzebne są deski z marką, bez rozwoju produktu'
+
+scenario_cards:
+  tagline: 'Kiedy wybrać każdą ścieżkę'
+  title: 'Scenariusze z praktyki'
+  subtitle: 'Typowe sytuacje kupujących i zalecany model współpracy.'
+  features:
+    - icon: '1'
+      icon_bg: 'blue'
+      title: 'Masz pełną specyfikację i dysponujesz projektem'
+      desc: 'Masz rysunki CAD, deskę wzorcową lub szczegółową kartę specyfikacji z wymiarami, materiałami, konstrukcją i wymaganiami opakowania. Wybierz OEM — produkujemy dokładnie według Twojej specyfikacji.'
+      link: '/pl/factory/oem-capability'
+      link_label: 'Szczegóły produkcji OEM'
+    - icon: '2'
+      icon_bg: 'green'
+      title: 'Masz koncepcję produktu, ale brak specyfikacji inżynieryjnej'
+      desc: 'Znasz rynek docelowy, przedział cenowy i wymagania wydajnościowe, ale potrzebujesz wsparcia inżynieryjnego do opracowania deski. Wybierz ODM — nasz zespół opracowuje projekt na podstawie Twojego briefu, a Ty zatwierdzasz go przed produkcją.'
+      link: '/pl/odm-manufacturing'
+      link_label: 'Szczegóły rozwoju ODM'
+    - icon: '3'
+      icon_bg: 'orange'
+      title: 'Potrzebujesz szybko desek z marką, bez rozwoju produktu'
+      desc: 'Jesteś dystrybutorem, ośrodkiem wypoczynkowym lub operatorem wynajmu i chcesz umieścić swoje logo na dobrych deskach bez inwestowania w rozwój produktu. Wybierz Private Label — najszybsza droga od koncepcji do dostawy.'
+      link: '/pl/solutions/private-label-sup'
+      link_label: 'Szczegóły Private Label'
+    - icon: '4'
+      icon_bg: 'purple'
+      title: 'Prowadzisz ośrodek, klub lub flotę wynajmową'
+      desc: 'Potrzebujesz trwałych pakietów SUP do intensywnego użytkowania, z powtarzalnością partii, częściami zamiennymi i zarządzaniem kolorystyką przy zamówieniach powtarzalnych. Wybierz nasz Program Flot Komercyjnych.'
+      link: '/pl/solutions/resort-sup'
+      link_label: 'Szczegóły floty komercyjnej'
+
+ip_rules:
+  tagline: 'Ochrona własności intelektualnej'
+  title: 'Jak chronimy Twoje projekty i markę'
+  subtitle: 'Niezależnie od modelu współpracy Twoje pliki graficzne, narzędzia i dokumenty specyfikacji pozostają Twoją własnością.'
+  body: |
+    **NDA przed wymianą plików.** Podpisujemy umowę poufności przed jakąkolwiek wymianą plików technicznych — standardowy czas reakcji to 4 godziny robocze.
+
+    **Brak ponownego wykorzystania projektów.** Twoje pliki graficzne, narzędzia i dokumenty specyfikacji nigdy nie są udostępniane innym klientom ani im sprzedawane. Formy OEM należą wyłącznie do Ciebie. Projekty ODM zatwierdzasz przed produkcją. Platformy Private Label są konstrukcjami współdzielonymi, ale Twoja grafika i identyfikacja wizualna pozostają wyłączne.
+
+    **Tylko B2B.** Produkujemy wyłącznie pod markami naszych klientów. Nie sprzedajemy do klientów indywidualnych i nie konkurujemy z naszymi klientami na żadnym rynku.
+
+    **Własność formy.** Formy na zamówienie opłacone przez kupującego należą do kupującego. Przechowujemy je i utrzymujemy, ale nie możemy używać ich dla innych klientów bez pisemnej zgody.
+
+faqs:
+  tagline: 'FAQ'
+  title: 'Częste pytania o OEM, ODM i private label'
+  items:
+    - q: 'Czy mogę później przejść z private label na OEM?'
+      a: 'Tak. Wiele firm zaczyna od private label lub partii pilotażowej, aby zweryfikować rynek, a następnie inwestuje w dedykowane narzędzia w ramach pełnego programu OEM, gdy popyt jest potwierdzony. Ten sam zakład i system QC obsługuje obie ścieżki.'
+    - q: 'Czy ODM oznacza, że fabryka jest właścicielem mojej marki?'
+      a: 'Nie. W modelu ODM to Ty dysponujesz marką, grafiką i opakowaniem. Fabryka opracowuje konstrukcję deski na podstawie Twojego briefu, a Ty zatwierdzasz projekt przed produkcją. Fabryka zachowuje IP procesu rozwojowego, ale zatwierdzona specyfikacja produktu jest Twoja.'
+    - q: 'Czy private label jest niższej jakości niż OEM?'
+      a: 'Nie. Wszystkie trzy ścieżki przechodzą przez ten sam zakład, system QC i zespół eksportowy. Deski private label powstają na sprawdzonych, zwalidowanych platformach z pełnym badaniem ciśnieniowym 18 PSI / 24h i tą samą listą kontrolną montażu w 100 punktach.'
+    - q: 'Co jeśli nie wiem, który model wybrać?'
+      a: 'Skontaktuj się z nami i opisz swoją sytuację — nasz zespół inżynierów zarekomenduje najbardziej praktyczną ścieżkę na podstawie Twoich wymagań produktowych, harmonogramu i celów wolumenowych. Przegląd specyfikacji nie wymaga żadnego zobowiązania.'
+    - q: 'Czy mogę otrzymać próbki przed zobowiązaniem się do jakiegokolwiek modelu?'
+      a: 'Tak. 1–2 próbki prototypowe wysyłamy w 7–12 dni. Koszt próbki zalicza się na poczet zamówienia hurtowego. Dzięki temu ocenisz konstrukcję i jakość przed jakimkolwiek zobowiązaniem wolumenowym.'
+
+cta:
+  title: 'Gotowy omówić swój projekt SUP?'
+  subtitle: 'Opowiedz nam o wymaganiach produktowych, rynku i celach wolumenowych — zarekomendujemy najbardziej praktyczną ścieżkę współpracy.'
+  button: 'Rozpocznij projekt SUP'
+  note: 'Odpowiedź w 1 dzień roboczy · NDA dostępne przed wymianą plików'

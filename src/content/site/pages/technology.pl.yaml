@@ -1,0 +1,46 @@
+meta:
+  title: 'Technologia — drop-stitch i morskim PCV | {SITE}'
+  description: 'Technologie Vatrad: konstrukcja drop-stitch, morski PCV, konstrukcje dwuwarstwowe i wysokie ciśnienie. Innowacje od profesjonalnego producenta nadmuchiwanych desek SUP.'
+  dateModified: '2026-08'
+  keywords:
+    - 'technologia sup'
+    - 'konstrukcja drop-stitch'
+    - 'sup wysokie ciśnienie'
+    - 'materiały nadmuchiwanych desek sup'
+
+hero:
+  tagline: 'Technologia'
+  title: 'Zbudowane pod kątem wydajności'
+  subtitle: 'Każda nadmuchiwana deska SUP Vatrad jest projektowana w konstrukcji drop-stitch z użyciem PCV klasy morskiej — precyzyjne materiały i metody produkcji sprawdzone w wymagającym środowisku morskim.'
+
+sections:
+  - title: 'Rdzeń drop-stitch'
+    description: 'Tysiące wewnętrznych poliestrowych nici łączy górną i dolną warstwę, tworząc sztywną konstrukcję przy 12-15 PSI. To ta sama technologia, którą stosuje się w profesjonalnych deskach SUP do wiosłowania i w nadmuchiwanych deskach wyścigowych.'
+    imageAlt: 'Schemat rdzenia drop-stitch'
+  - title: 'PCV klasy morskiej'
+    description: 'Wielowarstwowe laminowane tkaniny PCV przeznaczone do środowiska morskiego. Każda warstwa jest łączona przez zgrzewanie, a nie klejenie, co eliminuje ryzyko rozwarstwienia. Badane pod kątem odporności na UV, korozję w wodzie słonej i ścieranie.'
+    imageAlt: 'Warstwa PCV'
+  - title: 'PCV klasy wojskowej'
+    description: 'Premium PCV stosowane we wszystkich modelach SUP zapewnia lepszą odporność na UV i chemikalia. Zachowuje elastyczność w skrajnych temperaturach i nie ulega szybkiemu starzeniu.'
+    imageAlt: 'PCV'
+  - title: 'Podłoga Air Deck'
+    description: 'Konstrukcja drop-stitch z powietrzem pod wysokim ciśnieniem zapewnia wyjątkową sztywność przy staniu, wędkowaniu i jodze. Skraca czas przygotowania, zmniejsza wagę i objętość w bagażu.'
+    imageAlt: 'Air Deck'
+
+related:
+  title: 'Powiązane tematy'
+  links:
+    - text: 'Centrum B&R'
+      url: /pl/randdcenter
+    - text: 'Testy jakości'
+      url: /pl/quality
+    - text: 'Normy bezpieczeństwa'
+      url: /pl/quality
+    - text: 'Gwarancja'
+      url: /pl/warranty
+    - text: 'Turystyka i rekreacja'
+      url: /pl/tourism-recreation
+    - text: 'Przewodniki'
+      url: /pl/knowledge
+    - text: 'Produkty'
+      url: /pl/products

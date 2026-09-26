@@ -1,0 +1,219 @@
+meta:
+  title: 'MOQ i czas realizacji SUP na zamówienie: od 1 próbki po serie kontenerowe'
+  description: 'Stopnie MOQ i czasu realizacji dla SUP na zamówienie: próbki w 7–12 dni, zamówienia pilotażowe 20–50 desek, wolumen standardowy 90–100+ na rolkę 150 m, produkcja w 25–35 dni.'
+  dateModified: '2026-08-16'
+  keywords:
+    - 'moq sup na zamówienie'
+    - 'czas realizacji produkcji sup'
+    - 'minimalna ilość zamówienia nadmuchiwanych sup'
+    - 'zamówienie pilotażowe sup'
+    - 'czas realizacji deski paddle na wymiar'
+    - 'czas realizacji fabryki sup oem'
+    - 'zamówienie próbki sup'
+
+hero:
+  tagline: 'MOQ i czas realizacji SUP na zamówienie'
+  title: 'Od 1 próbki po serie kontenerowe — MOQ i czas realizacji wyjaśnione'
+  subtitle: 'Prosty opis stopni wielkości zamówień i czasów realizacji produkcji dla nadmuchiwanych SUP na zamówienie: co możesz zamówić na każdym etapie, ile realnie trwa każdy etap i jak próbka, seria pilotażowa i wolumen mieszczą się w jednym projekcie. Opracowane i prowadzone przez Qingdao Vatrad Group Co., Ltd.'
+  actions:
+    - variant: primary
+      text: 'Otrzymaj rozbiór MOQ i czasu realizacji projektu'
+      href: /pl/contact#moq-guide
+    - text: 'Przewodnik MOQ i elastycznego brandingu'
+      href: /pl/oem-moq-guide
+
+answer:
+  label: 'Krótka odpowiedź'
+  text: 'MOQ i czas realizacji zależą od projektu, ale ramy są stałe. Każdy projekt SUP na zamówienie przechodzi przez te same stopniowe etapy: rozwój próbki (1–2 deski, gotowe w 7–12 dni), zamówienia próbne i pilotażowe (20–50 desek) oraz standardowe serie wolumenowe (90–100+ desek na rolkę tkaniny drop-stitch 150 m). Czas realizacji produkcji to 25–35 dni od potwierdzonego zamówienia i zaliczki; jeśli Twój projekt wymaga indywidualnego kadłuba, opracowanie formy dodaje 15–20 dni przed rozpoczęciem produkcji. Typowy pierwszy projekt wygląda więc tak: próbki w około 1–2 tygodnie, deski pilotażowe w 4–6 tygodni, a pierwsza pełna seria wysyłana około 6–8 tygodni po potwierdzeniu zamówienia.'
+  verified: 'Wrzesień 2026'
+
+moq_lead_table:
+  tagline: 'Ramy'
+  title: 'Stopnie MOQ i czasu realizacji dla SUP na zamówienie'
+  subtitle: 'Każdy etap weryfikuje następny. Nigdy nie przechodzisz od rysunku wprost do kontenera — na każdym stopniu potwierdzasz kadłub, grafikę i opakowanie, zanim zamówisz więcej desek.'
+  headers:
+    stage: 'Etap zamówienia'
+    quantity: 'Typowa wielkość'
+    lead_time: 'Czas realizacji'
+    best_for: 'Najlepsze dla'
+  rows:
+    - stage: 'Rozwój próbki'
+      quantity: '1–2 deski'
+      lead_time: '7–12 dni'
+      best_for: 'Weryfikacja sztywności kadłuba, faktury podkładki EVA, dokładności grafiki i dopasowania akcesoriów. Obowiązują opłaty za próbkę, które zaliczasz na poczet zamówienia produkcyjnego po podpisaniu umowy.'
+    - stage: 'Zamówienie próbne / pilotażowe'
+      quantity: '20–50 desek'
+      lead_time: '25–35 dni'
+      best_for: 'Przedsezonowe testy komercyjne, walidacja rynku i pierwsza sprzedaż zapasów na istniejących platformach kadłuba, materiałach magazynowych i uproszczonym opakowaniu.'
+    - stage: 'Standardowa seria wolumenowa'
+      quantity: '90–100+ desek na rolkę 150 m'
+      lead_time: '25–35 dni'
+      best_for: 'Pełna wydajność produkcji na całych rolkach tkaniny 150 m — bez łączenia tkaniny, jednorodne napięcie włókien i amortyzacja przygotowania linii. Kształty na indywidualne formy realizujemy na tym stopniu.'
+    - stage: 'Duży program'
+      quantity: '300+ desek'
+      lead_time: '25–35 dni na partię, wysyłki etapowe'
+      best_for: 'Programy w skali kontenera i floty sezonowe, planowane w wielu partiach produkcyjnych, aby Twój magazyn i przepływ gotówki pozostały pod kontrolą.'
+
+moq_drivers:
+  tagline: 'Co wpływa na Twoje MOQ'
+  title: 'Sześć czynników, które decydują o minimalnej ilości'
+  subtitle: 'MOQ to nie losowa liczba wybrana przez zespół sprzedaży. Wylicza się ją z całej architektury produktu — te elementy oceniamy łącznie przed wyceną.'
+  grid: 'sm:grid-cols-2 lg:grid-cols-3'
+  features:
+    - icon: H
+      icon_bg: blue
+      title: 'Kształt kadłuba i oprzyrządowanie'
+      desc: 'Istniejące formy rocker w fabryce pozwalają realizować zamówienia pilotażowe już od 20 desek. Indywidualny kadłub wymaga własnych matryc CNC do cięcia i oprzyrządowania EVA do prasowania gorącego, a opracowanie oprzyrządowania wydłuża harmonogram o 15–20 dni.'
+    - icon: C
+      icon_bg: green
+      title: 'Warianty kolorystyczne i PCV'
+      desc: 'Standardowe kolory magazynowe realizujemy w ilościach pilotażowych, natomiast arkusze PCV barwione na zamówienie wg Pantone wymagają dedykowanych przebiegów barwienia chemicznego z własnymi minimalnymi ilościami surowca.'
+    - icon: A
+      icon_bg: purple
+      title: 'Projekt graficzny i pokrycie druku'
+      desc: 'Logo na dziobie można nadrukować sitograficznie w małych seriach, natomiast grafika na całej powierzchni lub na wielu panelach wymaga przygotowania form drukowych i prób pokrycia, co podnosi praktyczną wielkość partii.'
+    - icon: B
+      icon_bg: orange
+      title: 'Opakowanie z brandem'
+      desc: 'Niestandardowe pięciowarstwowe pudełka prezentacyjne podlegają niezależnemu minimalnemu nakładowi offsetowemu. Zamówisz mniej pudełek, a my przechowujemy nadmiar i wydajemy go w ramach Twoich zaplanowanych wysyłek.'
+    - icon: G
+      icon_bg: blue
+      title: 'Pakiety akcesoriów'
+      desc: 'Standardowe wiosła aluminiowe lub nylonowe, pompki i torby realizujemy partiami poniżej naszego progu. W pełni brandowane wiosła karbonowe i niestandardowe pompki podlegają własnym minimalnym ilościom produkcyjnym.'
+    - icon: S
+      icon_bg: green
+      title: 'Sezon i harmonogram płatności'
+      desc: 'Zamówienia złożone w oknie przedsezonowym otrzymują potwierdzone terminy produkcyjne. Etapowe harmonogramy wysyłek dla programów 300+ desek potwierdzamy na etapie umowy, a nie po produkcji.'
+
+moq_timeline:
+  tagline: 'Harmonogram od początku do końca'
+  title: 'Od briefu produktowego do wysłanych desek: dzień po dniu'
+  subtitle: 'Pełny harmonogram typowego programu SUP na zamówienie. Istniejące platformy kadłuba mieszczą się w lewej części tego harmonogramu; indywidualny kadłub dodaje etap opracowania formy.'
+  steps:
+    - step: 'Dzień 0'
+      title: 'Prześlij brief produktowy'
+      desc: 'Model deski, docelowa ilość, warianty kolorystyczne, projekt graficzny i wymagania dotyczące opakowania. Analiza inżynierska jest gotowa w ciągu jednego dnia roboczego.'
+    - step: 'Dni 1–2'
+      title: 'Analiza inżynierska i wykonalność'
+      desc: 'Nasz zespół inżynierii sprawdza geometrię kadłuba, materiały i ścieżkę zgodności oraz potwierdza, czy projekt mieści się na istniejących platformach, czy wymaga nowego oprzyrządowania.'
+    - step: 'Dni 3–7'
+      title: 'Specyfikacja i wycena pozycyjna'
+      desc: 'Otrzymujesz pełną specyfikację z obliczeniem MOQ, segmentami czasu realizacji i kosztami pozycjami — w tym opłatami za formy — przed jakimkolwiek zobowiązaniem.'
+    - step: 'Dni 7–12'
+      title: 'Rozwój próbki (1–2 deski)'
+      desc: 'Fizyczna próbka zbudowana i przebadana: sztywność kadłuba, faktura podkładki EVA, dokładność grafiki i dopasowanie akcesoriów. Opłaty za próbkę zaliczasz na poczet zamówienia produkcyjnego po podpisaniu umowy.'
+    - step: '+15–20 dni'
+      title: 'Opracowanie indywidualnej formy (tylko własne kadłuby)'
+      desc: 'Tylko dla projektów z nowym kształtem kadłuba: matryce CNC do cięcia, oprzyrządowanie EVA do prasowania gorącego i próby formy muszą być gotowe przed rozpoczęciem produkcji wolumenowej.'
+    - step: '25–35 dni'
+      title: 'Produkcja po potwierdzonym zamówieniu i zaliczce'
+      desc: 'Pełne rolki tkaniny 150 m, materiały Pantone, opakowanie z brandem i montaż w 100 punktach. Każda deska przechodzi 24-godzinne badanie ciśnieniowe i szczelności.'
+    - step: '300+ desek'
+      title: 'Etapowe planowanie wysyłek'
+      desc: 'Duże programy wysyłamy w zaplanowanych partiach, dopasowanych do sezonowej sprzedaży, pojemności magazynu i kamieni milowych płatności.'
+    - step: 'Dzień 0–90'
+      title: 'Typowy horyzont pierwszego zamówienia'
+      desc: 'Od briefu do dostarczonej pierwszej serii: około 6–8 tygodni przy istniejących platformach, 8–12 tygodni przy własnej formie. Programy wielorolkowe i kontenerowe z natury wykraczają poza ten horyzont.'
+
+expedite:
+  tagline: 'Zachowaj krótki harmonogram'
+  title: 'Co utrzymuje czas realizacji niskim'
+  subtitle: 'Trzy dźwignie pozwalają skrócić harmonogram bez zmiany podstaw fizyki rolki tkaniny.'
+  features:
+    - icon: S
+      icon_bg: blue
+      title: 'Próbki są szybkie domyślnie'
+      desc: 'Rozwój próbki zajmuje 7–12 dni w każdym projekcie. Wykorzystaj rundę próbki do zamrożenia specyfikacji, aby produkcja nigdy nie czekała na spóźnione decyzje dotyczące grafiki.'
+    - icon: P
+      icon_bg: green
+      title: 'Terminy produkcyjne są potwierdzane z góry'
+      desc: 'Zamówienia przedsezonowe blokują potwierdzone terminy produkcyjne. To, że kilku klientów rezerwuje ten sam termin, jest właśnie powodem, dla którego wcześniejsze zaliczki dają wcześniejsze linie.'
+    - icon: T
+      icon_bg: purple
+      title: 'Przejrzyste bramki etapowe'
+      desc: 'Każda bramka — zatwierdzenie próbki, zamrożenie BOM, zamrożenie grafiki, zamówienie i zaliczka — jest ustalana w umowie wraz z datą. Zawsze wiesz, od kiedy startuje zegar.'
+
+scenarios:
+  tagline: 'Trzy realistyczne punkty wejścia'
+  title: 'Która ścieżka pasuje do Twojego projektu?'
+  subtitle: 'Ta sama fabryka, trzy różne sposoby wejścia. Wybierz scenariusz najbliższy Twojej sytuacji i wykorzystaj go przy kontakcie z nami.'
+  features:
+    - icon: A
+      icon_bg: orange
+      title: 'Marka startująca: zweryfikuj przed zobowiązaniem'
+      desc: 'Najpierw zamów 1–2 próbki (7–12 dni), sprawdź jakość jazdy i zrób zdjęcia, a potem złóż zamówienie próbne 20–50 desek, aby sprawdzić rotację przed jakąkolwiek pełną serią. Łączna ekspozycja w pierwszym sezonie zostaje poniżej 50 desek.'
+    - icon: B
+      icon_bg: blue
+      title: 'Ośrodek lub operator wynajmu: pilotaż, potem skala'
+      desc: 'Zamówienie pilotażowe 20–50 desek z uproszczonym opakowaniem przeprowadzi Cię przez okres przedsezonowy. Po zebraniu danych o wykorzystaniu przechodzisz na standardowe serie 90–100+ desek z opakowaniem z brandem.'
+    - icon: C
+      icon_bg: green
+      title: 'Marka z historią: pełne programy kontenerowe na zamówienie'
+      desc: 'Istniejące marki zamawiają 90–100+ desek na rolkę 150 m z indywidualnymi kadłubami i brandem na całej powierzchni. Oprzyrządowanie indywidualnej formy dodaje 15–20 dni; programy 300+ desek wysyłamy w harmonogramach etapowych.'
+
+moq_quality:
+  tagline: 'QC i zgodność'
+  title: 'Ten sam system jakości przy każdej wielkości zamówienia'
+  subtitle: 'Próbka 1 deski i program 300+ desek przechodzą przez te same bramki jakości i tę samą dokumentację zgodności. „Niskie MOQ” nigdy nie oznacza „niskiego standardu”.'
+  grid: 'sm:grid-cols-2 lg:grid-cols-3'
+  features:
+    - icon: C
+      icon_bg: blue
+      title: 'Dokumenty zgodności w każdej skali'
+      desc: 'Dokumentację certyfikacji CE, ISO 9001, BSCI, REACH i RoHS dostarczamy z każdym zamówieniem — również z pojedynczą próbką — a numery certyfikatów podajemy na żądanie.'
+    - icon: A
+      icon_bg: green
+      title: '100-punktowa lista kontrolna montażu'
+      desc: 'Każda deska przechodzi tę samą 100-punktową listę kontrolną montażu niezależnie od wielkości partii: materiały, zgrzewanie, zawory, listwy krawędziowe, płetwy i dopasowanie akcesoriów sprawdzane punkt po punkcie.'
+    - icon: P
+      icon_bg: purple
+      title: '24-godzinne badanie ciśnieniowe i szczelności'
+      desc: 'Każda deska jest nadmuchiwana do 18.0 PSI i utrzymywana przez 24 godziny. Spadek ciśnienia powyżej 0.50 PSI skutkuje automatycznym odrzuceniem — ta sama bramka dla próbki i dla kontenera.'
+    - icon: R
+      icon_bg: orange
+      title: 'Weryfikacja zgrzewania HF i fuzji listew krawędziowych'
+      desc: 'Fuzję trójwarstwowej taśmy krawędziowej oraz szwy po zgrzewaniu HF sprawdzamy wizualnie i wymiarowo względem zatwierdzonej próbki przed rozpoczęciem jakiejkolwiek serii.'
+    - icon: B
+      icon_bg: blue
+      title: 'Identyfikowalność partii w ERP (10 lat)'
+      desc: 'Każda deska ma zapisy produkcyjne o numerze seryjnym — materiały, operatorzy, badania i wyniki inspekcji — przechowywane przez 10 lat i udostępniane do audytu.'
+    - icon: I
+      icon_bg: green
+      title: 'Gotowość do inspekcji firm trzecich'
+      desc: 'Produkcja partii jest gotowa do inspekcji firmy trzeciej na każdym etapie. Większość klientów stosuje też nasz 7-etapowy system inspekcji lub inspekcję przedwysyłkową przy programach wolumenowych.'
+
+moq_faqs:
+  tagline: FAQ
+  title: 'Najczęściej zadawane pytania o MOQ i czas realizacji'
+  items:
+    - q: 'Jaka jest minimalna ilość zamówienia (MOQ) dla SUP na zamówienie?'
+      a: 'To zależy od etapu Twojego projektu: próbki to 1–2 deski, współmarkowanie w małej serii zaczyna się od 5–10 szt., zamówienia próbne i pilotażowe to 20–50 desek, a standardowa produkcja seryjna to 90–100+ desek na rolkę tkaniny drop-stitch 150 m. Kształty na indywidualne formy realizujemy na stopniu wolumenowym. Dokładne obliczenie dla Twojej konfiguracji potwierdzamy przed wyceną.'
+    - q: 'Ile trwa wykonanie próbki nadmuchiwanej SUP?'
+      a: 'Rozwój próbki zajmuje 7–12 dni. Próba weryfikuje sztywność kadłuba, fakturę podkładki EVA, dokładność grafiki i dopasowanie akcesoriów. Obowiązują opłaty za próbkę, które zaliczasz na poczet zamówienia produkcyjnego po podpisaniu umowy.'
+    - q: 'Ile trwa produkcja po potwierdzeniu zamówienia?'
+      a: 'Czas realizacji produkcji to 25–35 dni od potwierdzonego zamówienia i zaliczki. Jeśli Twój projekt obejmuje indywidualny kadłub, opracowanie własnej formy dodaje 15–20 dni oprzyrządowania przed rozpoczęciem produkcji.'
+    - q: 'Czy MOQ liczy się na zamówienie, model czy wariant kolorystyczny?'
+      a: 'MOQ może obowiązywać na model, wariant kolorystyczny, wersję projektu graficznego, konfigurację opakowania lub całe zamówienie. Ponieważ różne grubości drop-stitch i kolory PCV pochodzą z odrębnych rolek surowca, zamówienie 50 desek rozłożonych na 5 kolorów tworzy 5 odrębnych zapotrzebowań na rolki tkaniny. Obliczenie potwierdzamy w oparciu o Twoją macierz SKU.'
+    - q: 'Czy mogę zacząć od 1–2 desek, żeby sprawdzić rynek?'
+      a: 'Tak. Zamówienie próbkowe 1–2 desek to najtańsza możliwa walidacja: sztywność kadłuba, grafika i dopasowanie akcesoriów potwierdzane są przed jakimkolwiek zobowiązaniem finansowym do serii. Dalej przechodzisz do zamówienia próbnego 20–50 desek w celu walidacji komercyjnej.'
+    - q: 'Czy program 300+ desek można wysłać w wielu partiach?'
+      a: 'Tak. Duże programy można zaplanować jako etapowe wysyłki w ramach kolejnych partii produkcyjnych, aby floty sezonowe docierały wtedy, kiedy są potrzebne, a przepływ gotówki i powierzchnia magazynowa pozostały pod kontrolą. Harmonogramy potwierdzamy na etapie umowy, a nie po produkcji.'
+
+evidence_review:
+  tagline: 'Dowody i weryfikacja'
+  title: 'ZWERYFIKOWANE SPECYFIKACJE'
+  body: 'Wszystkie deklaracje produkcyjne na tej stronie są weryfikowane przez nasz Zespół Inżynierii Produkcyjnej w zakładzie w Laixi w Qingdao. Certyfikaty, zapisy inspekcji QC, raporty z badań ciśnieniowych i konstrukcyjnych oraz zapisy identyfikowalności partii są dostępne na żądanie. Specyfikacje zweryfikowano ostatnio we wrześniu 2026.'
+
+cta:
+  title: 'Chcesz poznać MOQ i czas realizacji swojego projektu?'
+  subtitle: 'Wyślij nam model deski, docelową wielkość pierwszej serii i wymagania brandingowe. Nasz zespół inżynierii potwierdzi, czy pasuje ścieżka próbki, pilotażowa czy wolumenowa — z dokładnym obliczeniem MOQ i harmonogramem dzień po dniu. Wysłanie zapytania nie zobowiązuje Cię do zamówienia.'
+  actions:
+    - variant: primary
+      text: 'Poproś o rozbiór MOQ i czasu realizacji'
+      href: /pl/contact#moq-guide
+    - text: 'Porównaj z przewodnikiem elastycznego brandingu'
+      href: /pl/oem-moq-guide
+    - text: 'Uruchom nową markę zamówieniem pilotażowym z niskim MOQ'
+      href: /pl/new-brand-trial-order
+    - text: 'Zweryfikuj fabrykę i system jakości'
+      href: /pl/oem-trust-assurance

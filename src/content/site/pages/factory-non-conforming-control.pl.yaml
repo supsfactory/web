@@ -1,0 +1,242 @@
+meta:
+  title: 'Kontrola niezgodnych desek SUP i naprawy | Fabryka OEM | iSupfactory'
+  description: 'Kontrola produktów niezgodnych (ISO 9001:2015 punkt 8.7): izolacja NCR, kontrolowana naprawa wg SRI, niezależna ponowna inspekcja i niszczenie w asyście świadków.'
+  dateModified: '2026-08-14'
+  keywords:
+    - 'kontrola produktow niezgodnych'
+    - 'proces ponownej inspekcji po naprawie sup'
+    - 'iso 9001 produkcja niezgodna'
+    - 'kontrola ncr w produkcji'
+    - 'świadectwo utylizacji sup'
+    - 'kontrola jakosci oem nadmuchiwanych sup'
+
+hero:
+  tagline: Kontrola produktów niezgodnych
+  title: Izolacja, naprawa i ponowna inspekcja produktów niezgodnych
+  subtitle: 'W QINGDAO VATRAD GROUP.,LTD. niezgodna deska nigdy nie przechodzi dalej. Każdy produkt lub komponent, który nie spełnia zdefiniowanych kryteriów akceptacji, jest identyfikowany, rejestrowany w Raporcie Niezgodności (NCR), etykietowany i odseparowywany, oceniany pod kątem zakresu skutków i kierowany do decyzji na odpowiednim szczeblu uprawnień. Dopuszczona naprawa odbywa się według kontrolowanych instrukcji, a poprawione elementy są ponownie sprawdzane względem pierwotnych kryteriów akceptacji — z pełnym powtórzeniem badań, gdy jest to wymagane — i produkt trafia do wysyłki dopiero po zatwierdzeniu jakości. Ta strona przedstawia nasz kontrolowany standard wg ISO 9001:2015 punkt 8.7 oraz dowody identyfikowalności, które za nim stoją.'
+  actions:
+    - text: Pobierz SOP kontroli produktów niezgodnych (PDF)
+      variant: primary
+      href: 'https://assets.isupfactory.com/site/downloads/non-conforming-product-control-sop-iso-8-7.pdf?dl=1'
+    - text: Pobierz świadectwo utylizacji i zniszczenia (PDF)
+      href: 'https://assets.isupfactory.com/site/downloads/scrap-destruction-certificate-vat-qa-scrap-cert-2026.pdf?dl=1'
+    - text: Zamów przegląd jakości
+      href: /pl/contact
+
+answer:
+  label: 'Wprost'
+  text: 'Produkty niezgodne nigdy nie są ukrywane, naprawiane nieformalnie ani zatwierdzane bez weryfikacji w QINGDAO VATRAD GROUP.,LTD. Każda stwierdzona niezgodność jest rejestrowana dla konkretnego produktu, partii lub komponentu i powiązana z NCR. Element otrzymuje etykietę (HOLD / QUARANTINE / REJECTED), jest fizycznie odseparowany, a zakres skutków ocenia się według partii, partii materiału, etapu procesu i rewizji dokumentu. Decyzję podejmuje się na szczeblu uprawnień odpowiadającym wadze wady: drobne sprawy podpisuje kierownik zmiany QC, poważne wymagają decyzji kierownika QC i inżyniera technicznego wraz z kontrolowaną instrukcją naprawy i 100% niezależną ponowną inspekcją, a krytyczne — decyzji Material Review Board, czyli zespołu ds. oceny materiałowej, z pisemnym uzgodnieniem z klientem, jeśli jest wymagane — w przeciwnym razie obowiązuje niszczenie w asyście świadków. Naprawione elementy sprawdza się ponownie względem pierwotnych kryteriów akceptacji, naprawy szczelności powietrznej przechodzą całkowity nowy cykl próby ciśnieniowej, a zatwierdzenie wysyłki następuje dopiero po autoryzowanym podpisie jakości. Powtarzające się lub systemowe problemy uruchamiają działanie korygujące o przyczynie (CAPA).'
+  verified: 'Wrzesień 2026'
+
+stats:
+  tagline: W skrócie
+  title: Kontrola niezgodności w liczbach
+  stats:
+    - value: '7'
+      label: Kroków od identyfikacji do działania korygującego
+    - value: '100%'
+      label: Ponownej inspekcji każdej naprawionej deski przez niezależne QA
+    - value: '24h'
+      label: Pełnej próby ciśnieniowej dla napraw szczelności powietrznej
+    - value: '≥ 5 lat'
+      label: Przechowywania dowodów niszczenia w asyście świadków (magazyn SHA-256)
+
+nc_intro:
+  tagline: Kontrola produktów niezgodnych
+  title: Co się dzieje, gdy produkt nie spełnia kryteriów
+  body: |
+    Produkty lub komponenty, które nie spełniają zdefiniowanych kryteriów akceptacji, są identyfikowane i poddawane kontroli, aby zapobiec nieprzeznaczonemu użyciu, dalszemu przetwarzaniu lub wysyłce. Obowiązujące kryteria akceptacji opierają się na zatwierdzonej próbce, specyfikacji technicznej, projekcie graficznym, specyfikacji materiałowej, wymaganiach opakowaniowych i planie inspekcji projektu.
+
+    Niezgodne elementy ocenia się w celu ustalenia zakresu skutków i odpowiedniej decyzji. W zależności od problemu element może zostać zatrzymany, naprawiony według kontrolowanych instrukcji, wymieniony, odrzucony albo obsłużony inaczej w zatwierdzonym procesie. Elementy naprawione lub skorygowane sprawdza się ponownie przed zatwierdzeniem. Zatwierdzenie wysyłki jest możliwe dopiero po uzupełnieniu właściwej dokumentacji jakościowej i potwierdzeniu, że produkt spełnia obowiązujące kryteria akceptacji.
+
+nc_flow:
+  tagline: Standardowa 7-etapowa pętla zamknięta
+  title: Od identyfikacji do działania korygującego
+  subtitle: 'Jedna kontrolowana pętla dla każdej niezgodności: identyfikacja, izolacja, przegląd, naprawa lub wymiana, ponowna inspekcja, zatwierdzenie lub odrzucenie, poprawa.'
+  steps:
+    - step: '01'
+      title: Identyfikacja
+      desc: 'Każda stwierdzona niezgodność jest rejestrowana dla konkretnego produktu, partii lub komponentu i oceniana względem obowiązujących wymagań projektu. Wykrycie może nastąpić na etapie materiałów przychodzących, kontroli w trakcie procesu, badań końcowych, pakowania albo inspekcji klienta lub podmiotu trzeciego.'
+    - step: '02'
+      title: Izolacja
+      desc: 'Elementy są jednoznacznie oznaczone i objęte kontrolowanym statusem wstrzymania lub izolacji, aby zapobiec nieprzeznaczonemu użyciu, dalszemu przetwarzaniu lub wysyłce. Etykiety HOLD / QUARANTINE / REJECTED zawierają numer NCR, SKU, partię, ilość, opis wady i datę.'
+    - step: '03'
+      title: Przegląd
+      desc: 'Ocenia się zakres skutków i odpowiednią decyzję: pojedyncza sztuka, partia zmianowa, cała partia lub wiele partii — wraz ze wspólnymi partiami materiału, rewizjami projektu graficznego, etapami procesu i rewizjami dokumentów. Tam, gdzie jest to wymagane, stosuje się dodatkowe działania ograniczające lub zaostrza kontrolę.'
+    - step: '04'
+      title: Naprawa lub wymiana
+      desc: 'Dopuszczona naprawa odbywa się według zatwierdzonych instrukcji określających konkretny element, metodę, materiały, punkty kontrolne i wymagania ponownej inspekcji. Niedozwolone są jakiekolwiek zmiany specyfikacji produktu, projektu graficznego, konfiguracji akcesoriów lub opakowania bez zatwierdzenia. Elementy wymienione ponownie przechodzą przez właściwe bramki inspekcji.'
+    - step: '05'
+      title: Ponowna inspekcja
+      desc: 'Elementy naprawione lub skorygowane sprawdza się ponownie względem obowiązujących kryteriów akceptacji. Przed zatwierdzeniem weryfikuje się pierwotną wadliwą cechę oraz wszystkie cechy powiązane, na które naprawa mogła wpłynąć — przez niezależny QC, a dla napraw szczelności powietrznej z pełnym nowym cyklem próby ciśnieniowej 24h.'
+    - step: '06'
+      title: Zatwierdzenie lub odrzucenie
+      desc: 'Produkt jest zatwierdzany dopiero po zakończeniu wymaganej ponownej inspekcji i potwierdzeniu zgodności z obowiązującymi wymaganiami projektu przez upoważniony personel jakości. Elementy, których nie da się doprowadzić do zgodności, są odrzucane, wymieniane, zwracane albo kierowane do utylizacji w kontrolowanych procedurach — w tym do fizycznego zniszczenia w asyście świadków.'
+    - step: '07'
+      title: Działanie korygujące
+      desc: 'Powtarzające się, istotne lub systemowe niezgodności są analizowane pod kątem przyczyny źródłowej i działania korygującego (CAPA). Poprawy mogą obejmować aktualizację instrukcji roboczych, kontroli materiałów, punktów kontrolnych, szkoleń, zarządzania dostawcami lub kontroli dokumentów.'
+
+nc_pillars:
+  tagline: Filarzy zaufania kupującego
+  title: Trzy kontrole, które chronią Twoją markę
+  subtitle: 'Proces jest zaprojektowany wokół pytań, które zadają zagraniczni kupujący: czy problemy będą ukrywane, czy naprawy wymkną się spod kontroli i czy naprawione deski zostaną ponownie zweryfikowane.'
+  features:
+    - icon: 1
+      icon_bg: blue
+      title: Wyłącznie instrukcje kontrolowane
+      desc: 'Naprawę ściśle regulują zatwierdzone Standardowe Instrukcje Naprawy (SRI). Niedozwolone są jakiekolwiek zmiany na hali bez zatwierdzenia, modyfikacje specyfikacji czy ingerencja w projekt graficzny bez pisemnej autoryzacji.'
+    - icon: 2
+      icon_bg: green
+      title: Niezależna ponowna inspekcja
+      desc: 'Naprawione deski przechodzą 100% ponownej inspekcji przez inspektorów QA względem pierwotnych kryteriów akceptacji. Naprawy szczelności powietrznej wymagają całkowicie nowego, pełnego cyklu próby ciśnieniowej 24h — nigdy częściowego sprawdzenia.'
+    - icon: 3
+      icon_bg: purple
+      title: Autoryzowany podpis i identyfikowalność
+      desc: 'Zatwierdzenie wysyłki jest możliwe wyłącznie po ukończeniu dokumentacji NCR i autoryzowanym podpisie QC, przy czym status partii zmienia się z HOLD na RELEASED. Systemowe lub powtarzające się odchylenia automatycznie uruchamiają procedury CAPA o przyczynie źródłowej.'
+
+nc_photos:
+  tagline: Na hali produkcyjnej
+  title: Izolacja, naprawa i ponowna inspekcja w praktyce
+  subtitle: Zdjęcia z naszego zakładu w Qingdao pokazują, jak niezgodne deski są fizycznie odseparowywane, naprawiane według kontrolowanych instrukcji i ponownie weryfikowane przed jakąkolwiek decyzją o zatwierdzeniu.
+  features:
+    - image: https://assets.isupfactory.com/site/quality/qc-air-tightness-test-area.avif
+      alt: Napompowane nadmuchiwane deski SUP w strefie prób ciśnieniowych w fabryce, monitorowane cyfrowymi manometrami
+      title: Bramka ponownej inspekcji
+      desc: 'Po naprawie każda deska wraca do strefy badań QC na niezależną weryfikację: jest pompowana i monitorowana cyfrowymi manometrami względem kryteriów akceptacji zatwierdzonych dla projektu — nigdy tylko częściowe sprawdzenie.'
+    - image: https://assets.isupfactory.com/site/quality/qc-hold-quarantine-station.avif
+      alt: Listy kontrolne QC i etykiety statusu wstrzymania na stanowisku inspekcji w fabryce
+      title: Stanowisko wstrzymania i izolacji
+      desc: 'Stanowisko inspekcji z listami kontrolnymi QC i etykietowaniem statusu. Każdy element niespełniający kryteriów akceptacji otrzymuje oznaczenie HOLD / QUARANTINE, wpis w NCR i jest fizycznie odseparowany — nie może przejść do pakowania, dopóki nie zostanie wydana autoryzowana decyzja i przeprowadzona obowiązkowa ponowna inspekcja.'
+    - image: https://assets.isupfactory.com/site/quality/qc-air-tightness-rework.avif
+      alt: Technik QC wykonujący kontrolowaną naprawę szczelności powietrznej nadmuchiwanej deski SUP na stanowisku napraw w fabryce
+      title: Stanowisko kontrolowanej naprawy
+      desc: 'Naprawę wykonuje się na dedykowanym stanowisku według zatwierdzonej instrukcji SRI: wada jest oznaczana, deska pozostaje w statusie HOLD, a po wymaganym czasie wiążania wraca do strefy badań na ponowną inspekcję względem pierwotnych kryteriów akceptacji.'
+    - image: https://assets.isupfactory.com/site/quality/qc-workshop-inspection-demo.avif
+      alt: Pokaz kontroli jakości w hali produkcyjnej fabryki w Qingdao
+      title: Pokaz kontroli jakości w hali
+      desc: 'Zdanie z hali pokazujące stosowanie kontroli jakości w praktyce, wspierające zapisy inspekcji i kontroli statusu przywoływane w całej tej sekcji.'
+
+nc_severity:
+  tagline: Waga wady i uprawnienia
+  title: Klasyfikacja wagi wady i uprawnienia do decyzji
+  subtitle: Nie każda niezgodność jest obsługiwana na tym samym szczeblu — uprawnienia do decyzji rosną wraz z wagą wady, od podpisu na poziomie zmiany po Material Review Board i uzgodnienie z klientem.
+  headers:
+    severity: Waga wady
+    examples: Typowe przykłady
+    authority: Uprawnienia do decyzji i kontrola
+    control: Warunek zatwierdzenia
+  rows:
+    - severity: 'Drobna'
+      examples: 'Zagięty róg kartonu, niewielkie przesunięcie akcesorium niewymagającego krytyczności'
+      authority: 'Podpis na miejscu przez kierownika sekcji QC i przełożonego zmiany: wymiana lub zatwierdzenie'
+      control: 'Zapisane w NCR; brak wpływu na działanie produktu ani wymagania klienta'
+    - severity: 'Poważna'
+      examples: 'Powolne przeciekanie przez zawór, przesunięcie EVA poza tolerancję (>2 mm), brak akcesorium'
+      authority: 'Kierownik QC i inżynier techniczny wydają kontrolowaną instrukcję naprawy (SRI)'
+      control: '100% niezależne badanie pierwotnie wadliwych i naruszonych cech przed zatwierdzeniem'
+    - severity: 'Krytyczna'
+      examples: 'Uszkodzenie komory drop-stitch, pęcherz lub pęknięcie listwy krawędziowej pod wysokim ciśnieniem, błędny nadruk logo klienta lub odchylenie koloru'
+      authority: 'Decyzja Material Review Board (MRB); pisemne uzgodnienie z klientem, jeśli wymagane'
+      control: 'Bez zatwierdzenia nie ma uzgodnienia; w przeciwnym razie obowiązkowe fizyczne zniszczenie w asyście świadków'
+
+nc_matrix:
+  tagline: Macierz protokołów inżynierskich
+  title: Macierz decyzji i ponownej inspekcji dla wad desek SUP
+  subtitle: Standardowe protokoły inżynierskie stosowane do najczęstszych odchyleń produkcyjnych — te same, ilościowo ujęte parametry, które klienci mogą zweryfikować podczas audytu.
+  headers:
+    defect: Kategoria wady
+    protocol: Kontrolowany protokół decyzji
+    validation: Niezależna ponowna inspekcja i walidacja
+  rows:
+    - defect: 'Powolne przeciekanie przez zawór'
+      protocol: 'Odizoluj deskę. Zdejmij wkład zaworu skalibrowanym kluczem dynamometrycznym (25 N·m), wyczyść gwint wewnętrzny, wymień silikonową O-ring i dokręć ponownie.'
+      validation: 'Zanurz w roztworze mydlanym; napompuj ponownie do 18 PSI i wykonaj pełną próbę spadku ciśnienia 24h (ΔP ≤ 0.05 PSI).'
+    - defect: 'Pęcherze powietrzne przy szwie listwy'
+      protocol: 'ZIzoluj partię zmianową. Rozdziel strefę pęcherzy dyszą z podgrzewaniem, wyczyść powierzchnię rozpuszczalnikiem, nałóż dwuskładnikowy klej PU pod ciśnieniem 5 bar.'
+      validation: '100% inspekcja wizualna i dotykowa szwów; próba ciśnieniowa wytrzymałości strukturalnej (18.0 PSI) oraz utrzymanie szczelności powietrznej 24h.'
+    - defect: 'Przesunięcie pokładu EVA'
+      protocol: 'Odklej z podgrzewaniem narzędziem z regulacją temperatury (80°C). Ustaw precyzyjnie, używając akrylowego przyrządu pozycjonującego.'
+      validation: 'Weryfikacja tolerancji luzów (≤ ±1.5 mm), kontrola symetrii wzoru rombowego, 100% badanie przyczepności krawędzi.'
+    - defect: 'Literówka w brandingu lub logo'
+      protocol: 'Natychmiastowe zatrzymanie linii druku. Wstrzymaj wszystkie zadrukowane elementy. Zweryfikuj rewizję pliku wektorowego z klientem; żadnych zmian bez zatwierdzenia.'
+      validation: 'Kontrola koloru spektrofotometrem (ΔE ≤ 1.5); 100% wizualna kontrola wyrównania tekstu względem wzorcowego PDF podpisanego przez klienta.'
+    - defect: 'Niezgodność opakowania / brak SKU'
+      protocol: 'ZIzoluj paletę eksportową. Rozpakuj i wykonaj 100% kontrolę zawartości według BOM (pompka, płetwa, smycz, wiosło, łata naprawcza).'
+      validation: 'Kontrola walidacji dynamicznego wagi elektronicznej w linii (odchyłka ±30 g); weryfikacja optycznym czytnikiem kodów kreskowych 2D.'
+
+nc_scrap:
+  tagline: Zero przecieków na rynek
+  title: Utylizacja i niszczenie w asyście świadków — protokół antydiversji bez wad
+  body: |
+    Zagraniczni partnerzy marki potrzebują pewności, że wadliwe deski nigdy nie trafią do sprzedaży wtórnej, na rynku szarym ani do kanałów e-commerce. Deski, których nie da się doprowadzić do zgodności, są niszczone według protokołu z rejestrem i w asyście świadków:
+
+    **1. Wycinanie osprzętu i akcesoriów.** Pod nadzorem Dyrektora QA tłoczk hydrauliczny usuwa wszystkie D-ringi ze stali nierdzewnej 316, taśmy uchwytów nośnych i klamry bagażowe. Zespół zaworu i podstawa gniazda płetwy (US-Box / płetwa snap-in) są wycinane u nasady deski, co eliminuje wszystkie elementy możliwe do odzyskania.
+
+    **2. Nacinanie rdzenia drop-stitch i cięcie listew.** Wewnętrzny rdzeń drop-stitch jest przecinany w poprzek deski i pokładu głębokimi nacięciami krzyżowymi (≥ 50 cm na cięcie), a wzmocnione listwy boczne są przecinane w co najmniej 4 segmentach — trwale niszcząc szczelność i wyporność.
+
+    **3. Magazyn wideo i zdjęć.** Niszczenie jest rejestrowane jako nieprzycinane wideo 1080p z zbliżeniami na kod kreskowy z numerem seryjnym, proces wycinania, nacinanie rdzenia i końcowy zważony stos odpadów. Wideo jest hashowane (SHA-256) i archiwizowane na kontrolowanym serwerze przez ≥ 5 lat.
+
+    **4. Certyfikowane utylizowanie odpadów.** Wszystkie fragmenty PCV i drop-stitch są ważone, wpisywane do rejestru wyjściowego i transportowane wyłącznie przez kwalifikowanych partnerów recyklingujących tworzywa sztuczne — żaden odpad nie opuszcza zakładu inną drogą.
+
+    > **Gwarancja ochrony marki:** QINGDAO VATRAD GROUP CO., LTD. gwarantuje 100% zniszczenie jednostek pływających niezgodnych ze specyfikacją, których nie da się naprawić. Żadne sztuki drugiej jakości ani deski z wadą kompromitującą nigdy nie trafią do sprzedaży wtórnej, na rynek szary ani do kanałów e-commerce. Świadectwo Utylizacji i Zniszczenia (VAT-QA-SCRAP-CERT-2026) odnotowuje produkt, partię, wniosek MRB, zdjęcia z asystą świadków oraz podpisy Dyrektora QA i Kierownika Zakładu.
+
+nc_downloads:
+  tagline: Dokumenty QMS do pobrania
+  title: Kontrolowane dokumenty dwujęzyczne (PDF)
+  subtitle: Oficjalne dwujęzyczne dokumenty EN/ZH firmy QINGDAO VATRAD GROUP.,LTD. — zbudowane wg ISO 9001:2015 punkt 8.7 i gotowe do audytów klienta, technicznych whitepaperów B2B oraz kontrolowanej dystrybucji na hali.
+  features:
+    - icon: N
+      icon_bg: blue
+      title: SOP kontroli produktów niezgodnych (PDF)
+      desc: 'Dwujęzyczny SOP wg ISO 9001:2015 punkt 8.7: 8-etapowa kontrola w pętli zamkniętej, macierz decyzji dla wad desek SUP, struktura danych NCR i zobowiązanie jakościowe wobec klienta.'
+      link: 'https://assets.isupfactory.com/site/downloads/non-conforming-product-control-sop-iso-8-7.pdf?dl=1'
+      link_label: Pobierz PDF
+    - icon: S
+      icon_bg: orange
+      title: Świadectwo utylizacji i zniszczenia (PDF)
+      desc: 'VAT-QA-SCRAP-CERT-2026: identyfikowalność produktu i partii, wniosek MRB, 4-etapowy protokół fizycznego niszczenia, pola na zdjęcia z asystą świadków i blok podpisów dwuosobowych.'
+      link: 'https://assets.isupfactory.com/site/downloads/scrap-destruction-certificate-vat-qa-scrap-cert-2026.pdf?dl=1'
+      link_label: Pobierz PDF
+    - icon: R
+      icon_bg: green
+      title: Zarządzanie naprawami (strona)
+      desc: 'Strona towarzysząca zatwierdzonym kartom metod naprawy szczelności powietrznej MC-RW-01 do MC-RW-06 oraz 7-etapowemu kontrolowanemu procesowi naprawy.'
+      link: '/pl/factory/quality-inspection'
+      link_label: Zobacz stronę
+    - icon: C
+      icon_bg: purple
+      title: Standard kontroli zmian przy naprawach (strona)
+      desc: 'Formalna kontrola zmian wg ISO 9001 dla parametrów naprawy: ECR, klasyfikacja ryzyka, macierz zatwierdzeń, plan walidacji i zabezpieczenia Poka-Yoke — QMS-SOP-QC-CC-001 Rev 2.0.'
+      link: '/pl/factory/quality-change-control'
+      link_label: Zobacz stronę
+
+faqs:
+  tagline: FAQ
+  title: Pytania o jakość i kontrolę wad dla kupujących na całym świecie
+  items:
+    - q: 'Jak gwarantujecie, że naprawione deski spełniają pełne normy bezpieczeństwa?'
+      a: 'Każdą naprawioną deskę traktujemy jak nową sztukę i musi ona przejść dokładnie ten sam pełny cykl badań od zera — w przypadku napraw szczelności powietrznej całkowitą próbę ciśnieniową 24h. Walidację do zatwierdzenia wykonują niezależni inspektorzy QC, a nie operatorzy wykonujący naprawę.'
+    - q: 'Czy fabryka wyśle deski z drobnymi odchyleniami wizualnymi, nie informując nas?'
+      a: 'Nigdy. Każde odchylenie wpływające na zatwierdzone próbki wzorcowe, projekt logo, warianty kolorystyczne lub opakowanie wymaga formalnego pisemnego Porozumienia o Odstępstwie podpisanego przez klienta przed zatwierdzeniem wysyłki.'
+    - q: 'Co się stanie, jeśli naprawiona deska nie zda ponownej inspekcji?'
+      a: 'Deska nie zostaje zatwierdzona. Wraca do kolejnego przeglądu decyzji, a jeśli nie da się jej doprowadzić do zgodności, zostaje wymieniona, odrzucona albo zniszczona zgodnie z protokołem utylizacji w asyście świadków. Powtarzające się awarie tej samej klasy wad uruchamiają CAPA o przyczynie źródłowej.'
+    - q: 'Czy wadliwe deski można sprzedawać jako sztuki drugiej jakości lub innymi kanałami?'
+      a: 'Nie. Niezgodne deski, których nie da się naprawić, są fizycznie niszczone zgodnie z protokołem utylizacji w asyście świadków — osprzęt wycinany, rdzeń i listwy przecinane, wideo rejestrowane z hashem SHA-256 i archiwizowane przez co najmniej 5 lat. Świadectwo Utylizacji i Zniszczenia podpisują Dyrektor QA i Kierownik Zakładu.'
+    - q: 'Jak ocenia się zakres skutków, gdy stwierdzono wadę?'
+      a: 'Zakres przegląda się według identyfikacji produktu, partii produkcyjnej, partii materiału lub komponentu, etapu procesu i obowiązującej rewizji dokumentu. Jeśli zaangażowana jest ta sama partia materiału, rewizja projektu graficznego lub stanowisko pracy, produkty objęte skutkami są izolowane i odpowiednio sprawdzane.'
+    - q: 'Czy potrzebujecie naszej zgody przed udzieleniem odstępstwa?'
+      a: 'Tak. Każde przyjęcie na podstawie udokumentowanego odstępstwa, które wpływa na wymagania klienta — zatwierdzone próbki, specyfikację, projekt graficzny, opakowanie lub kryteria akceptacji — wymaga pisemnej zgody klienta przed zatwierdzeniem. Bez niej produkt jest naprawiany zgodnie z pierwotnym wymaganiem, wymieniany albo odrzucany.'
+    - q: 'Jaką dokumentację otrzymujemy w przypadku niezgodności?'
+      a: 'Zapis NCR obejmuje numer NCR, etap wykrycia, produkt/SKU, partię, obowiązujące rewizje dokumentów, opis wady, działania ograniczające, decyzję, odniesienie do instrukcji naprawy, wynik ponownej inspekcji oraz zatwierdzenie wypuszczenia lub zamknięcia — udostępniany zgodnie z Twoją umową jakościową projektu.'
+
+cta:
+  title: Wątpliwości jakościowe obsługujemy w kontrolowanym procesie
+  desc: 'Podczas zapytania przekaż swoje wymagania jakościowe, inspekcyjne lub dokumentacyjne dotyczące projektu — zweryfikujemy obowiązujące punkty kontrolne przed opracowaniem próbki lub planowaniem produkcji.'
+  actions:
+    - text: Omów wymagania jakościowe
+      variant: primary
+      href: /pl/contact
+    - text: Pobierz SOP kontroli produktów niezgodnych (PDF)
+      href: 'https://assets.isupfactory.com/site/downloads/non-conforming-product-control-sop-iso-8-7.pdf?dl=1'
+    - text: Pobierz świadectwo utylizacji (PDF)
+      href: 'https://assets.isupfactory.com/site/downloads/scrap-destruction-certificate-vat-qa-scrap-cert-2026.pdf?dl=1'

@@ -1,0 +1,105 @@
+meta:
+  title: 'Lista kontrolna audytu fabryki — co zweryfikować przed wyborem producenta desek SUP | iSupfactory'
+  description: 'Lista kontrolna audytu fabryki dla kupujących nadmuchiwane deski SUP: system jakości, zdolność produkcyjna, identyfikowalność materiałów, próby ciśnieniowe, zgodność społeczna i dokumentacja.'
+  dateModified: '2026-08-21'
+  keywords:
+    - 'lista kontrolna audytu fabryki sup'
+    - 'audyt producenta nadmuchiwanych desek'
+    - 'weryfikacja fabryki sup'
+    - 'inspekcja fabryki oem'
+    - 'audyt jakości sup'
+    - 'due diligence producenta sup'
+    - 'audyt produkcji nadmuchiwanych desek sup'
+
+hero:
+  tagline: 'Analiza due diligence'
+  title: 'Lista kontrolna audytu fabryki'
+  subtitle: 'Zanim zdecydujesz się na producenta desek SUP, zweryfikuj podstawy. Ta lista kontrolna obejmuje osiem obszarów, które powinien skontrolować profesjonalny kupujący — od zarządzania jakością i zdolności produkcyjnych po identyfikowalność materiałów i zgodność społeczną. Każdą pozycję z tej listy możemy wykazać dokumentami, a nie samymi deklaracjami.'
+
+answer:
+  label: 'Szybka odpowiedź'
+  text: 'Osiem obszarów audytu, które mają największe znaczenie: (1) System zarządzania jakością — certyfikacja ISO 9001 i rzeczywiste zapisy inspekcji dla każdej bramki, a nie tylko certyfikat na ścianie. (2) Zdolność produkcyjna — realne liczby produkcji, a nie moc znamionowa. (3) Identyfikowalność materiałów — inspekcja materiałów przychodzących i raporty z badań na poziomie partii. (4) Próby ciśnieniowe i wytrzymałościowe — udokumentowane protokoły prób utrzymania ciśnienia. (5) Kontrola zgrzewania i montażu — parametry zgrzewania HF i inspekcja szwów. (6) Zgodność społeczna — audyt BSCI lub równoważny. (7) Dokumentacja i identyfikowalność — zapisy partii, dzienniki inspekcji, świadectwa zgodności. (8) Obsługa po dostawie — procedura gwarancyjna, części zamienne, szybkość komunikacji.'
+  verified: 'Wrzesień 2026'
+
+audit_areas:
+  tagline: Osiem obszarów audytu
+  title: 'Co weryfikować — osiem obszarów audytu'
+  subtitle: 'Każdy obszar zawiera pytania do zadania, dokumenty do poproszenia i sygnały ostrzegawcze, na które warto uważać.'
+  grid: 'sm:grid-cols-2 lg:grid-cols-4'
+  features:
+    - icon: Q
+      icon_bg: blue
+      title: '1. System zarządzania jakością'
+      desc: 'Poproś o: certyfikat ISO 9001 (akredytowana jednostka, aktualny), harmonogram audytów wewnętrznych, rejestr CAPA (działania korygujące i zapobiegawcze), procedury bramek inspekcji. Sygnał ostrzegawczy: sam certyfikat, brak zapisów inspekcji na poziomie bramek lub brak procesu CAPA.'
+    - icon: C
+      icon_bg: green
+      title: '2. Zdolność produkcyjna'
+      desc: 'Poproś o: miesięczne liczby produkcji w podziale na typy produktów, harmonogram produkcji pokazujący bieżące wykorzystanie mocy, moce narzędziowe (liczba form, maszyn CNC, zgrzewarek HF). Sygnał ostrzegawczy: tylko moc znamionowa, brak danych o wykorzystaniu lub harmonogramu produkcji.'
+    - icon: M
+      icon_bg: purple
+      title: '3. Identyfikowalność materiałów'
+      desc: 'Poproś o: zapisy inspekcji materiałów przychodzących, świadectwa dostawców PCV i tkanin drop-stitch, identyfikowalność partii od surowca do gotowej deski, deklaracje substancji REACH/RoHS. Sygnał ostrzegawczy: brak identyfikowalności na poziomie partii, niedostępne świadectwa materiałowe.'
+    - icon: P
+      icon_bg: orange
+      title: '4. Próby ciśnieniowe i wytrzymałościowe'
+      desc: 'Poproś o: protokół próby ciśnieniowej (PSI, czas, kryteria zaliczenia), dzienniki prób z ostatnich partii produkcyjnych, zapisy prób wytrzymałościowych (upuszczanie, udar, naprężenie listew). Sygnał ostrzegawczy: „tylko oględziny wzrokowe" albo brak udokumentowanego protokołu prób z ilościowym kryterium zaliczenia.'
+    - icon: W
+      icon_bg: blue
+      title: '5. Kontrola zgrzewania i montażu'
+      desc: 'Poproś o: zapisy parametrów zgrzewania HF (temperatura, ciśnienie, czas zgrzewania), kryteria inspekcji szwów i współczynniki braków, dokumentację kolejności montażu. Sygnał ostrzegawczy: brak zapisów parametrów zgrzewania, wysoki współczynnik braków szwów bez CAPA.'
+    - icon: S
+      icon_bg: green
+      title: '6. Zgodność społeczna'
+      desc: 'Poproś o: raport z audytu BSCI lub SMETA (aktualny, pełny zakres), zapisy godzin pracy i płac, raporty z kontroli bezpieczeństwa i higieny, dokumentację zgodności środowiskowej. Sygnał ostrzegawczy: brak społecznego audytu podmiotu trzeciego albo audyt z nierozwiązanymi poważnymi niezgodnościami.'
+    - icon: D
+      icon_bg: purple
+      title: '7. Dokumentacja i identyfikowalność'
+      desc: 'Poproś o: zapisy produkcji partii, dzienniki inspekcji dla każdej bramki, świadectwa zgodności, listy pakunkowe z odniesieniami do partii, system obsługi reklamacji gwarancyjnych. Sygnał ostrzegawczy: brak dokumentacji na poziomie partii, reklamacje gwarancyjne nieśledzone i nieanalizowane.'
+    - icon: A
+      icon_bg: orange
+      title: '8. Obsługa po dostawie'
+      desc: 'Poproś o: warunki gwarancji i procedurę reklamacji, średni czas rozpatrzenia reklamacji, dostępność części zamiennych, deklarowany czas reakcji w komunikacji, przegląd po dostawie. Sygnał ostrzegawczy: brak udokumentowanej procedury gwarancyjnej, powolna lub niespójna komunikacja po dostawie.'
+
+our_position:
+  heading: 'Nasze stanowisko w każdym obszarze audytu'
+  body: |
+    Nie deklarujemy zgodności — udostępniamy dokumenty. Oto nasze stanowisko w każdym z ośmiu obszarów audytu:
+
+    - **Zarządzanie jakością**: certyfikacja ISO 9001:2015, audytowana co roku przez akredytowany podmiot trzeci. System 7 bramek inspekcji z udokumentowanymi kryteriami zaliczenia na każdej bramce. Rejestr CAPA prowadzony i przeglądany co kwartał.
+    - **Zdolność produkcyjna**: roczna zdolność 120,000+ desek, ok. 10,000 sztuk miesięcznie. Harmonogram produkcji udostępniamy do wglądu podczas wizyty w fabryce. 4 zautomatyzowane linie produkcyjne, cięcie CNC, zgrzewanie HF i laboratorium prób ciśnieniowych.
+    - **Identyfikowalność materiałów**: identyfikowalność na poziomie partii od materiału przychodzącego do gotowej deski. Świadectwa dostawców PCV i tkanin drop-stitch w aktach. Deklaracje substancji REACH i RoHS dostępne dla każdej partii.
+    - **Próby ciśnieniowe**: próba utrzymania 18.0 PSI z automatycznym odrzuceniem po spadku powyżej 0.50 PSI w ciągu 24 godzin. Dzienniki prób dostępne dla każdej partii produkcyjnej. Próby wytrzymałościowe i udarowe dla każdego typu konstrukcji.
+    - **Kontrola zgrzewania**: parametry zgrzewania HF zapisywane dla każdej serii produkcyjnej. Inspekcja szwów na bramce 3 z udokumentowanymi współczynnikami braków. CAPA uruchamiane przy współczynnikach braków powyżej progu.
+    - **Zgodność społeczna**: audyt BSCI. Zapisy godzin pracy, płac i bezpieczeństwa udostępniamy do wglądu podczas wizyty w fabryce.
+    - **Dokumentacja**: zapisy produkcji partii, dzienniki inspekcji dla każdej bramki, świadectwa zgodności i listy pakunkowe z odniesieniami do partii wysyłane z każdym zamówieniem. Prowadzimy system obsługi reklamacji gwarancyjnych.
+    - **Obsługa po dostawie**: warunki gwarancji udokumentowane w umowie. Średni czas rozpatrzenia reklamacji poniżej 14 dni roboczych. Części zamienne dostępne z magazynu. Przegląd po dostawie oferujemy przy każdym pierwszym zamówieniu.
+
+evidence_review:
+  tagline: 'Dowody i weryfikacja'
+  title: 'ZWERYFIKOWANE SPECYFIKACJE'
+  body: 'Wszystkie deklaracje produkcyjne i jakościowe na tej stronie są weryfikowane przez nasz zespół inżynierii produkcyjnej w fabryce w Laixi, w Qingdao. Certyfikaty, zapisy kontroli jakości, raporty z prób ciśnieniowych i wytrzymałościowych oraz dzienniki identyfikowalności partii są dostępne na żądanie. Specyfikacje zweryfikowano ostatnio we wrześniu 2026.'
+
+faqs:
+  tagline: FAQ
+  title: 'Audyt fabryki — najczęściej zadawane pytania'
+  items:
+    - q: 'Czy mogę odwiedzić fabrykę i przeprowadzić audyt na miejscu?'
+      a: 'Tak. Chętnie przyjmujemy wizyty w fabryce i możemy zorganizować uporządkowany audyt obejmujący wszystkie osiem obszarów. Typowa wizyta obejmuje obchód hali produkcyjnej, obserwację bramek QC, inspekcję magazynu materiałów, przegląd dokumentacji i Q&A z kierownikiem jakości. Zaplanuj cały dzień. Skontaktuj się z nami, aby ustalić termin.'
+    - q: 'Czy udostępniacie dokumentację audytową przed wizytą?'
+      a: 'Tak. Przed wizytą możemy udostępnić certyfikat ISO 9001, raport BSCI, zestawienie zdolności produkcyjnych, protokół próby ciśnieniowej i przykładowe zapisy inspekcji — żebyś mógł przygotować ukierunkowane pytania. Pełne zapisy partii udostępniamy na miejscu podczas wizyty.'
+    - q: 'Z jakimi inspekcjami zewnętrznymi współpracujecie?'
+      a: 'Współpracujemy z SGS, Intertek i TUV w zakresie inspekcji i certyfikacji zewnętrznych. Inspekcja przed wysyłką przez podmiot trzeci jest dostępna na żądanie dla każdego zamówienia. Zakres inspekcji i koszty potwierdzamy na etapie wyceny.'
+    - q: 'Skąd mam wiedzieć, że system jakości jest faktycznie egzekwowany, a nie tylko opisany?'
+      a: 'Każda deska przechodzi 7 bramek inspekcji z ilościowymi kryteriami zaliczenia — a nie listy kontrolne oparte na ocenie wzrokowej. Dane z prób ciśnieniowych, parametry zgrzewania i współczynniki braków są zapisywane dla każdej partii i udostępniane do Twojego wglądu. CAPA uruchamia się automatycznie przy wynikach poza specyfikacją. Zachęcamy do audytu procesu na żywo podczas wizyty w fabryce.'
+
+cta:
+  title: 'Zaplanuj audyt fabryki'
+  subtitle: 'Zamów dokumentację audytową albo umów wizytę na miejscu. My dostarczamy dokumenty — Ty weryfikujesz proces.'
+  actions:
+    - variant: primary
+      text: Zamów dokumentację audytową
+      href: /pl/contact#project-brief
+    - text: Zweryfikuj certyfikacje i system jakości
+      href: /pl/proof-center
+    - text: Proces onboardingu OEM
+      href: /pl/oem-onboarding-guide

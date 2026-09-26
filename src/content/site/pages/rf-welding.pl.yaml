@@ -1,0 +1,99 @@
+meta:
+  title: 'Centrum Zgrzewania HF — łączenie szwów dielektrycznych SUP | {SITE}'
+  description: 'Technologia zgrzewania wysokoczęstotliwościowego zapewniająca zgodne z wymogami, szczelne szwy desek SUP. Badania zrywania, walidacja utrzymania powietrza i niestandardowe specyfikacje szwów.'
+  dateModified: '2026-08'
+back_text: 'Powrót do centrum B&R'
+home_label: 'Strona główna'
+
+answer:
+  label: 'Krótka odpowiedź'
+  text: 'Stosujemy prasy dielektryczne HF o mocy 15 kW, które łączą szwy PCV na poziomie molekularnym (odpowiednik 200–600 °C przy zgrzewaniu gorącym powietrzem), a następnie walidujemy każdy szw: badania zrywania wg ASTM D751, próby utrzymania powietrza przy 18.0 PSI, z pełną dokumentacją i identyfikowalnością każdej sztuki.'
+  verified: 'Wrzesień 2026'
+
+hero:
+  tagline: 'Laboratorium 03'
+  title: 'Centrum Zgrzewania HF'
+  subtitle: 'Technologia łączenia dielektrycznego dla szwów, które wytrzymują pod ciśnieniem'
+  image: 'https://assets.isupfactory.com/images/sups/products/sup-series/sup-jungle-mandala-1.webp'
+  image_alt: 'Proces łączenia dielektrycznego Vatrad podczas zgrzewania HF'
+
+intro: 'Nadmuchiwana deska SUP jest tak niezawodna, jak jej szwy. Jeden słaby szw może naruszyć całą komorę — a pod stopami awaria komory to nie niedogodność, lecz zagrożenie dla bezpieczeństwa. W {SITE.name} zainwestowaliśmy w dedykowane Centrum Zgrzewania Wysokoczęstotliwościowego (HF), które łączy przemysłowe prasy do zgrzewania dielektrycznego z rygorystyczną kontrolą procesu i badaniami po zgrzewaniu. Każdy wyprodukowany przez nas szw jest udokumentowany, identyfikowalny i certyfikowany jako spełniający lub przewyższający wymagania międzynarodowej normy dla jednostek nadmuchiwanych.'
+
+content_html: |
+  <h2>Nauka stojąca za szwem</h2>
+  <p>Zgrzewanie HF wykorzystuje energię elektromagnetyczną o wysokiej częstotliwości (zazwyczaj 27.12 MHz), aby pobudzić polarne cząsteczki w powlekanej tkaninie PCV, generując ciepło dokładnie na styku materiałów. W przeciwieństwie do zgrzewania gorącym powietrzem lub gorącym klinem zgrzewanie HF tworzy prawdziwe wiązanie molekularne — dwie warstwy tkaniny łączą się w strefie szwu w jeden jednorodny materiał, dając połączenie tak wytrzymałe jak sam materiał bazowy.</p>
+
+  <h2>Sprzęt do zgrzewania i kontrola procesu</h2>
+  <p>Nasze centrum zgrzewania jest wyposażone w:</p>
+  <table>
+    <thead><tr><th>Maszyna</th><th>Moc / wydajność</th><th>Zastosowanie</th></tr></thead>
+    <tbody>
+      <tr><td>Prasa dielektryczna HF 1</td><td>15 kW, płyta 2000 × 600 mm</td><td>Główne szwy deski, połączenia listwy krawędziowej z pokładem</td></tr>
+      <tr><td>Prasa dielektryczna HF 2</td><td>10 kW, płyta 1500 × 500 mm</td><td>Zgrzewanie dziobu, wzmocnienia uchwytów, wzmocnienia zaworów</td></tr>
+      <tr><td>Zgrzewarka HF sterowana CNC</td><td>8 kW, stół XY 2500 × 1200 mm</td><td>Łukowe szwy krawędziowe, tłoczenie logo i paneli, precyzyjne prace wycinane</td></tr>
+      <tr><td>Automatyczna zgrzewarka gorącym klinem</td><td>Regulowana temperatura, maks. 1.2 m/min</td><td>Metoda rezerwowa dla specjalistycznych materiałów CSM</td></tr>
+    </tbody>
+  </table>
+  <p>Każda prasa HF jest wyposażona w zamkniętą pętlę monitorowania temperatury i ciśnienia. Parametry zgrzewania — moc, czas prasowania, czas chłodzenia, ciśnienie elektrod — są programowane dla każdego typu materiału i rejestrowane w naszym systemie Manufacturing Execution System (MES) dla pełnej identyfikowalności.</p>
+
+  <h2>Badania jakości szwów — każdy szw, każda deska</h2>
+  <p>Szczelność szwu weryfikujemy według obowiązkowego protokołu czterech badań:</p>
+  <ol>
+    <li><strong>Kontrola wizualna</strong> — 100 % szwów sprawdzamy wizualnie pod kątem przepaleń, przesunięcia, zanieczyszczeń i niepełnego połączenia. Próg odrzutu: 0.5 % metra bieżącego.</li>
+    <li><strong>Badanie zrywania</strong> — z próbki zgrzewanej w każdej partii produkcyjnej wycina się pas o szerokości 25 mm. Minimalna siła zrywania: 120 N/25 mm dla PCV 1100 dtex.</li>
+    <li><strong>Próba utrzymania powietrza</strong> — każda gotowa deska jest napompowywana do 18.0 PSI i utrzymywana przez 24 godziny. Spadek ciśnienia nie może przekroczyć 0.50 PSI.</li>
+    <li><strong>Badanie cykli termicznych</strong> — próbki poddaje się 50 cyklom od -20 °C do +60 °C, a następnie ponownie badaniu zrywania. Dopuszczalny spadek wytrzymałości: &lt; 10 %.</li>
+  </ol>
+
+  <div class="not-prose my-10 p-6 rounded-xl bg-gray-50 dark:bg-gray-900 border border-gray-200 dark:border-gray-800">
+    <p class="text-sm font-semibold text-gray-500 mb-3 uppercase tracking-wider">Porównanie wytrzymałości na zrywanie — zgrzewanie HF a zgrzewanie gorącym powietrzem (PCV 1100 dtex)</p>
+    <div class="space-y-3">
+      <div class="flex items-center gap-3">
+        <span class="w-24 text-xs font-medium">Zgrzew HF</span>
+        <div class="flex-1 h-6 bg-gray-200 dark:bg-gray-700 rounded">
+          <div class="h-full bg-blue-600 rounded" style="width:92%"></div>
+        </div>
+        <span class="text-xs font-bold w-12 text-right">184 N</span>
+      </div>
+      <div class="flex items-center gap-3">
+        <span class="w-24 text-xs font-medium">Gorące powietrze</span>
+        <div class="flex-1 h-6 bg-gray-200 dark:bg-gray-700 rounded">
+          <div class="h-full bg-gray-400 rounded" style="width:65%"></div>
+        </div>
+        <span class="text-xs font-bold w-12 text-right">130 N</span>
+      </div>
+      <div class="flex items-center gap-3">
+        <span class="w-24 text-xs font-medium">Norma minimalna</span>
+        <div class="flex-1 h-6 bg-gray-200 dark:bg-gray-700 rounded">
+          <div class="h-full bg-green-500 rounded" style="width:48%"></div>
+        </div>
+        <span class="text-xs font-bold w-12 text-right">96 N</span>
+      </div>
+    </div>
+    <p class="text-xs text-gray-400 mt-2">Zgrzewanie HF konsekwentnie osiąga 90-95 % wytrzymałości materiału bazowego, znacznie powyżej minimum.</p>
+  </div>
+
+  <h2>Kompetencje specjalistyczne</h2>
+  <p>Nasz zespół zgrzewania prowadzi starszy inżynier procesu z 11-letnim doświadczeniem w zgrzewaniu dielektrycznym tkanin powlekanych. Każdy operator przechodzi 6-miesięczne wewnętrzne programy certyfikacyjne, zanim uzyska zgodę na pracę przy szwach produkcyjnych. Recertyfikacja jest wymagana co roku, łącznie z praktycznym testem zgrzewania ocenianym względem naszego wewnętrznego standardu Grade A (wytrzymałość na zrywanie ≥ 160 N/25 mm).</p>
+
+  <h2>Niestandardowe rozwiązania zgrzewania dla nietypowych wymagań</h2>
+  <p>Zdajemy sobie sprawę, że jedna specyfikacja zgrzewania nie pasuje do każdego zastosowania. Nasze Centrum Zgrzewania HF regularnie opracowuje niestandardowe konfiguracje szwów dla klientów ze szczególnymi wymaganiami:</p>
+  <ul>
+    <li><strong>Wielowarstwowe wzmocnienia</strong> — dla stref intensywnego zużycia, takich jak listwy krawędziowe i dzioba, opracowujemy wieloprzebiegowe spawy HF, które wplatają odporną na ścieranie warstwę zewnętrzną bez ograniczania elastyczności.</li>
+    <li><strong>Szwy desek wysokociśnieniowych</strong> — dla desek o ciśnieniu znamionowym powyżej 15 PSI walidujemy geometrię szwu przy podwyższonym ciśnieniu roboczym i odnotowujemy tę granicę w raporcie z badań.</li>
+    <li><strong>Zgrzewanie paneli dwukolorowych</strong> — dwukolorowe panele tkaniny (np. pomarańczowy pokład + szara listwa) zgrzewamy z ukrytym zakładkiem, aby zachować estetykę marki bez widocznej linii łączenia.</li>
+  </ul>
+
+  <h2>Nasze zobowiązanie wobec Ciebie</h2>
+  <p>Każda dostarczana przez nas deska objęta jest gwarancją jakości szwów: jeśli którykolwiek szw ulegnie awarii w normalnej eksploatacji w okresie gwarancyjnym, naprawiamy lub wymieniamy uszkodzoną komorę bez żadnych kosztów, a ponadto przeprowadzamy analizę przyczyny, aby zapobiec powtórzeniu. To nie jest jedynie gwarancja — to zobowiązanie do ciągłego doskonalenia opartego na rzeczywistych danych z eksploatacji.</p>
+  <p>Wybierając {SITE.name}, wybierasz szwy, które są projektowane, badane i dokumentowane — a nie tylko zgrzewane. To właśnie odróżnia deskę, która pływa, od deski, która działa.</p>
+
+cta:
+  title: 'Omów swoje wymagania dotyczące zgrzewania'
+  subtitle: 'Niestandardowe specyfikacje szwów, zgodność materiałowa lub walidacja procesu.'
+  actions:
+    - variant: primary
+      text: 'Skontaktuj się z naszym zespołem zgrzewania'
+      href: /pl/contact#project-brief
+    - text: 'Powrót do centrum B&R'
+      href: /pl/randdcenter

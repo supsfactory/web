@@ -1,0 +1,85 @@
+meta:
+  title: 'Tabela rozmiarów i specyfikacji SUP — nadmuchiwane deski SUP | {SITE}'
+  description: 'Wymiary, nośność i zalecane zastosowanie każdej deski Vatrad. Znajdź odpowiedni rozmiar nadmuchiwanej deski SUP dla swoich potrzeb.'
+  dateModified: '2026-08'
+  keywords:
+    - 'tabela rozmiarów sup'
+    - 'wymiary desek sup'
+    - 'specyfikacje nadmuchiwanych desek sup'
+    - 'tabela rozmiarów sup'
+hero:
+  title: 'Tabela rozmiarów i specyfikacji'
+  subtitle: 'Wymiary, nośność i zalecane zastosowanie każdego produktu Vatrad.'
+
+categories:
+  inflatable: 'Nadmuchiwane deski SUP zaprojektowane z myślą o wygodnym transporcie bez rezygnacji z wydajności. Dopasuj rozmiar do swojej wagi i stylu wiosłowania.'
+  sup: 'Deski SUP do wiosłowania na stojąco — do touringu, jogi, fitnessu i rekreacji. Wybierz na podstawie długości i wagi użytkownika.'
+  accessory: 'Akcesoria i wyposażenie bezpieczeństwa uzupełniające Twoją deskę SUP. Uniwersalne rozmiary i wiele wariantów.'
+
+table:
+  headers:
+    product: 'Produkt'
+    length: 'Długość'
+    width: 'Szerokość'
+    weight: 'Waga'
+    max_load: 'Maks. nośność'
+    best_for: 'Najlepsze do'
+  rows:
+    - product: 'SUP Allround (Explorer 11 ft)'
+      length: '11''0" (335 cm)'
+      width: '32" (81 cm)'
+      weight: 19 lbs (8.6 kg)
+      max_load: 220 lbs (100 kg)
+      best_for: 'Początkujący, rekreacja, rodzinne wiosłowanie na jeziorach i spokojnych rzekach'
+    - product: 'SUP Allround (10''6")'
+      length: '10''6" (320 cm)'
+      width: '32" (81 cm)'
+      weight: 18 lbs (8.2 kg)
+      max_load: 200 lbs (90 kg)
+      best_for: 'Lżejsi użytkownicy, joga i ogólna rekreacja'
+    - product: 'SUP Touring (12 ft)'
+      length: '12''0" (366 cm)'
+      width: '30" (76 cm)'
+      weight: 23 lbs (10.4 kg)
+      max_load: 260 lbs (118 kg)
+      best_for: 'Wiosłowanie na dystans, szybkość i touring przybrzeżny'
+    - product: 'SUP Touring (14 ft)'
+      length: '14''0" (427 cm)'
+      width: '28" (71 cm)'
+      weight: 26 lbs (11.8 kg)
+      max_load: 275 lbs (125 kg)
+      best_for: 'Wyścigi i wyprawy na długie dystanse'
+    - product: 'SUP Surf (8–10 ft)'
+      length: '8''0"–10''0" (244–305 cm)'
+      width: '30" (76 cm)'
+      weight: 17 lbs (7.7 kg)
+      max_load: 180 lbs (82 kg)
+      best_for: 'Jazda na falach i zwrotne surfowanie'
+    - product: 'SUP Yoga / Fitness (11 ft)'
+      length: '11''0" (335 cm)'
+      width: '34" (86 cm)'
+      weight: 22 lbs (10 kg)
+      max_load: 240 lbs (109 kg)
+      best_for: 'Joga, fitness i stabilna rekreacja'
+
+how_to_choose:
+  title: 'Jak wybrać właściwy rozmiar'
+  cards:
+    - title: 'Deski SUP'
+      description: 'Długość dobierz do swojej wagi i planowanego zastosowania. Szersze deski (32"+) dają większą stabilność. Dłuższe deski (11-12 ft) lepiej się prowadzą podczas touringu. Ciężsi wioślarze potrzebują desek o większej objętości.'
+    - title: 'Deski SUP do touringu'
+      description: 'Dłuższe deski (11–12 ft) najlepiej sprawdzają się na dalszych dystansach i podczas touringu. Szersze deski (32"+) dają większą stabilność. Sprawdź nośność w odniesieniu do łącznej masy ładunku, wliczając sprzęt.'
+    - title: 'Deski SUP Allround'
+      description: 'Długość dobierz do wagi użytkownika i planowanego zastosowania. Deski allround sprawdzają się w rekreacji, fitnessie i jodze. Mniejsze deski są łatwiejsze w manewrowaniu.'
+
+cta:
+  title: 'Przejrzyj deski według rozmiaru lub porozmawiaj z inżynierem'
+  subtitle: 'Porównaj modele touringowe, allround i yoga w naszej ofercie — albo wyślij nam strukturę swojej floty, a dobierzemy właściwe rozmiary dla Twojego projektu.'
+  actions:
+    - variant: primary
+      text: 'Przejrzyj produkty SUP'
+      href: /pl/products
+    - text: 'Więcej wiedzy o wiosłowaniu'
+      href: /pl/knowledge
+    - text: 'Jak powstają deski'
+      href: /pl/factory/process

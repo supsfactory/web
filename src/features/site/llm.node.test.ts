@@ -1,7 +1,7 @@
 import { test, expect } from 'vitest'
-import { llmsFull, llmBrandIndex, llmFrenchIndex, llmsFrenchFull, llmGermanIndex, llmsGermanFull, llmItalianIndex, llmsItalianFull, llmPortugueseIndex, llmsPortugueseFull, llmDutchIndex, llmsDutchFull, llmSwedishIndex, llmsSwedishFull, llmNorwegianIndex, llmsNorwegianFull } from '@/features/site/llm'
+import { llmsFull, llmBrandIndex, llmFrenchIndex, llmsFrenchFull, llmGermanIndex, llmsGermanFull, llmItalianIndex, llmsItalianFull, llmPortugueseIndex, llmsPortugueseFull, llmDutchIndex, llmsDutchFull, llmSwedishIndex, llmsSwedishFull, llmNorwegianIndex, llmsNorwegianFull, llmPolishIndex, llmsPolishFull } from '@/features/site/llm'
 import { getContentPages } from '@/features/content/loader'
-import { GUIDES_FR, GUIDES_DE, GUIDES_IT, GUIDES_PT, GUIDES_NL, GUIDES_SV, GUIDES_NO } from '@/features/content/guide-content'
+import { GUIDES_FR, GUIDES_DE, GUIDES_IT, GUIDES_PT, GUIDES_NL, GUIDES_SV, GUIDES_NO, GUIDES_PL } from '@/features/content/guide-content'
 import { EDGE_REDIRECTS } from '@/features/seo/edge-gate'
 import { LEGACY_REDIRECTS } from '@/features/seo/legacy-redirects'
 
@@ -233,5 +233,31 @@ test('llms-full.txt Norwegian section: product/news/tech/case/guide bodies prese
   expect(no).toContain('# Guide:')
   for (const g of GUIDES_NO) {
     expect(no, `llms-full.txt Norwegian section missing guide ${g.slug}`).toContain(`# Guide: ${g.title}`)
+  }
+})
+
+test('llms.txt Polish section: /pl absolute links, Polish homepage note and guides', () => {
+  const section = llmPolishIndex('https://isupfactory.com')
+  expect(section).toContain('## Polski')
+  expect(section).toContain('— Strona główna')
+  expect(section).toContain('### Polski: Produkty')
+  expect(section).toContain('### Polski: Przewodniki')
+  expect(section).toContain('### Polski: Często zadawane pytania')
+  expect(section).toContain('https://isupfactory.com/pl/')
+  for (const g of GUIDES_PL) {
+    expect(section, `llms.txt Polish section missing guide ${g.slug}`).toContain(`https://isupfactory.com/pl/guides/${g.slug}`)
+  }
+})
+
+test('llms-full.txt Polish section: product/news/tech/case/guide bodies present', () => {
+  const pl = llmsPolishFull()
+  expect(pl).toContain('# Polski')
+  expect(pl).toContain('## Produkt:')
+  expect(pl).toContain('## Nowość:')
+  expect(pl).toContain('## Technologia:')
+  expect(pl).toContain('## Case study:')
+  expect(pl).toContain('# Guide:')
+  for (const g of GUIDES_PL) {
+    expect(pl, `llms-full.txt Polish section missing guide ${g.slug}`).toContain(`# Guide: ${g.title}`)
   }
 })

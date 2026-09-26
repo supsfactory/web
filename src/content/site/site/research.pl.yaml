@@ -1,0 +1,49 @@
+badge: Najnowsze badania
+heading: Centrum wiedzy
+description: Pogłębione badania techniczne dotyczące materiałów, konstrukcji, standardów bezpieczeństwa i produkcji desek SUP oraz nadmuchiwanych łodzi sportowych
+topics:
+  - slug: drop-stitch-technology
+    category: Technologia
+    readTime: 8 min czytania
+  - slug: pvc-vs-hypalon
+    category: Materiały
+    readTime: 10 min czytania
+  - slug: ce-certification-guide
+    category: Zgodność z przepisami
+    readTime: 7 min czytania
+  - slug: sup-thickness-guide
+    category: Konstrukcja
+    readTime: 6 min czytania
+  - slug: oem-buyer-guide
+    category: Zakupy
+    readTime: 12 min czytania
+  - slug: sup-manufacturing-process
+    category: Produkcja
+    readTime: 10 min czytania
+  - slug: eva-foam-technology
+    category: Materiały
+    readTime: 7 min czytania
+  - slug: uv-printing-vs-eva-block
+    category: Technologia
+    readTime: 6 min czytania
+  - slug: fusion-lamination-vs-glue
+    category: Produkcja
+    readTime: 8 min czytania
+  - slug: sup-valve-types
+    category: Konstrukcja
+    readTime: 6 min czytania
+  - slug: fin-systems-guide
+    category: Konstrukcja
+    readTime: 7 min czytania
+  - slug: board-hull-design
+    category: Konstrukcja
+    readTime: 9 min czytania
+  - slug: quality-testing-standards
+    category: Zgodność z przepisami
+    readTime: 8 min czytania
+  - slug: sup-paddle-technology
+    category: Wyposażenie
+    readTime: 7 min czytania
+  - slug: military-grade-pvc-specs
+    category: Materiały
+    readTime: 8 min czytania

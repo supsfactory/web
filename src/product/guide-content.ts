@@ -2420,7 +2420,274 @@ export const GUIDES_NO: Guide[] = [
   },
 ]
 
-const GUIDES_BY_LOCALE: Record<string, Guide[]> = { en: GUIDES, es: GUIDES_ES, fr: GUIDES_FR, de: GUIDES_DE, it: GUIDES_IT, pt: GUIDES_PT, nl: GUIDES_NL, sv: GUIDES_SV, no: GUIDES_NO }
+export const GUIDES_PL: Guide[] = [
+  {
+    slug: 'how-to-choose-your-sup',
+    title: 'Jak wybrać deskę SUP',
+    intro: [
+      'Wybór pierwszej nadmuchiwanej deski SUP zależy od rozmiaru deski, szerokości, konstrukcji i tego, co znajduje się w zestawie. Oto, co naprawdę ma znaczenie — po prostu.',
+    ],
+    sections: [
+      {
+        title: 'Długość i objętość',
+        body: 'Dłuższe deski (11–12 ft) przemieszczają się dalej na jedno uderzenie wiosła i lepiej utrzymują kurs — idealne do tur i wiosłowania na dalszych dystansach. Krótsze deski łatwiej skręcają. Dla większości osób najlepszym wyborem jest deska allround o długości 10\'6"–11\'0".',
+      },
+      {
+        title: 'Szerokość i stabilność',
+        body: 'Szerokość ma większy wpływ na stabilność niż cokolwiek innego. Pokład o szerokości 32 cali jest wyrozumiały dla początkujących i wystarczająco stabilny do jogi; deski 30-calowe sprawdzą się lżejszym lub bardziej doświadczonym wiosłującym, którzy cenią prędkość i zwinność.',
+      },
+      {
+        title: 'Jakość konstrukcji',
+        body: 'Szukaj rdzenia drop-stitch z PVC w klasie wojskowej o ciśnieniu roboczym co najmniej 15 PSI, laminowania PVC w dwóch warstwach oraz wzmocnionych listew krawędziowych. To one decydują o sztywności deski i o tym, jak długo wytrzyma przy codziennym użytkowaniu.',
+      },
+      {
+        title: 'Co powinno być w zestawie',
+        body: 'Kompletny zestaw oszczędza pieniądze i kłopot: deska, 3-częściowe regulowane wiosło, dwukierunkowa pompka z manometrem, spiralna smycz, płetwa lub płetwy, plecak podróżny i zestaw naprawczy.',
+      },
+    ],
+    faqs: [
+      { q: 'Jaki rozmiar deski SUP potrzebuję?', a: 'Większość początkujących wybiera deskę allround o wymiarach około 11\'0" × 32" × 6" — stabilną, wszechstronną i łatwą w transporcie. Ciężsi użytkownicy lub osoby planujące dalsze wyprawy powinny wybrać rozmiar większy.' },
+      { q: 'Czy nadmuchiwana deska SUP jest tak sztywna jak deska twarda?', a: 'Nowoczesna nadmuchiwana deska drop-stitch przy 15–20 PSI jest niemal tak sztywna jak twarda deska dla początkujących — z tą zaletą, że mieści się w plecaku.' },
+    ],
+    related: [
+      { label: 'Poznaj nasze platformy SUP', href: '/products' },
+      { label: 'Nadmuchiwana vs deska twarda', href: '/inflatable-vs-hardboard' },
+      { label: 'Produkcja OEM', href: '/oem-manufacturing' },
+    ],
+  },
+  {
+    slug: 'beginner-guide',
+    title: 'Przewodnik początkującego',
+    intro: [
+      'Wszystko, czego potrzebujesz na pierwsze wypady na wodzie: pompowanie, pierwsze wstanie na deskę, podstawowy styl wiosłowania i jak zachować bezpieczeństwo, budując pewność siebie.',
+    ],
+    sections: [
+      {
+        title: 'Pompuj do wartości zadanej, nie na wyczucie',
+        body: 'Pompuj do zadanego ciśnienia (zwykle 15 PSI), korzystając z manometru przy pompce. Deska przy 10 PSI dobrze wygląda na trawie, ale mocno się ugina na wodzie. W ciepłe dni sprawdzaj ciśnienie — słońce ogrzewa powietrze w środku i ciśnienie rośnie.',
+      },
+      {
+        title: 'Pierwsze kroki na desce',
+        body: 'Wyrusz z plaży lub płycizny: zacznij od klęku, a potem wstań, stawiając razem po jednej stopie po obu stronach osi deski. Stopy ustaw na szerokość barków, kolana trzymaj miękko i patrz na horyzont — deska podąża za Twoim wzrokiem.',
+      },
+      {
+        title: 'Podstawowy ruch wiosła',
+        body: 'Sięgnij wiosłem do przodu, całkowicie zanurz łopatkę i przeciągnij ją wzdłuż deski, jednocześnie obracając tułów. Co kilka uderzeń zmieniaj stronę, żeby płynąć prosto; kilka pociągnięć po jednej stronie pozwala skręcić.',
+      },
+      {
+        title: 'Najpierw ćwicz upadek',
+        body: 'Wpadnięcie do wody jest częścią nauki. Ćwicz wsiadanie na płytkiej wodzie: dopłyń do uchwytu w środku deski, kopnij nogami do powierzchni i jednym ruchem wciągnij się na deskę.',
+      },
+    ],
+    faqs: [
+      { q: 'Ile czasu zajmuje nauka SUP?', a: 'Większość osób wiosłuje komfortowo już podczas pierwszej godzinnej sesji. Pewność siebie w zakrętach, przy wietrze i na dalszych dystansach buduje się przez kilka wypraw.' },
+      { q: 'Czy muszę być w dobrej formie?', a: 'Nie — SUP jest bardzo dostępny. Równowagę, siłę mięśniową i wytrzymałość budujesz naturalnie podczas regularnego wiosłowania.' },
+    ],
+  },
+  {
+    slug: 'inflatable-vs-hard',
+    title: 'Nadmuchiwana vs deska twarda',
+    intro: [
+      'Te dwie rodziny konstrukcji wygrywają w różnych scenariuszach. Oto uczciwe porównanie dla osób pływających rekreacyjnie, klubów i wypożyczalni.',
+    ],
+    sections: [
+      {
+        title: 'Przenośność i przechowywanie',
+        body: 'Deski nadmuchiwane schodzą do plecaka, który zmieści się w bagażniku samochodu, kamperze lub szafie w mieszkaniu — i są domyślnym wyborem na podróże. Deski twarde wymagają bagażnika dachowego, miejsca do przechowywania i ostrożniejszego obchodzenia się.',
+      },
+      {
+        title: 'Sztywność i osiągi',
+        body: 'Deski twarde klasy premium są sztywniejsze i bardziej responsywne przy wysokich osiągach. Przy rekreacyjnych prędkościach dobrze wykonana nadmuchiwana deska drop-stitch przy 15–20 PSI daje porównywalne wyniki przy ułamku kosztów przechowywania.',
+      },
+      {
+        title: 'Trwałość',
+        body: 'Nadmuchiwane deski z PVC zniosą otarcia o pomosty i uderzenia o brzeg, które pęknęłyby twardą powłokę — to jeden z głównych powodów, dla których wypożyczalnie i resorty wybierają deski nadmuchiwane do codziennego użytku przez gości.',
+      },
+      {
+        title: 'Całkowity koszt posiadania',
+        body: 'Deski nadmuchiwane są tańsze w transporcie, przechowywaniu i serwisowaniu oraz znoszą trudniejsze warunki. Dla większości użytkowników i flot deska nadmuchiwana jest lepszym wyborem w każdym aspekcie.',
+      },
+    ],
+    faqs: [
+      { q: 'Która jest lepsza dla początkujących?', a: 'Deski nadmuchiwane — stabilne, wyrozumiałe, łatwe w przechowywaniu i wystarczająco trwałe na otarcia, które generują początkujący.' },
+      { q: 'Czy nadmuchiwana deska SUP może być tak szybka jak deska twarda?', a: 'Przy prędkościach rekreacyjnych różnica jest niewielka. Deski twarde wyraźnie przeważają tylko w wyścigach i scenariuszach maksymalnych osiągów.' },
+    ],
+  },
+  {
+    slug: 'safety-tips',
+    title: 'Bezpieczeństwo na wodzie',
+    intro: [
+      'Bezpieczny wypad to udany wypad. Te podstawowe zasady dotyczą tak samo jezior, rzek, jak i wiosłowania przybrzeżnego.',
+    ],
+    sections: [
+      {
+        title: 'Sprawdź wiatr i prognozę',
+        body: 'Wiatr od lądu to klasyczna pułapka na SUP: znosi Cię od brzegu szybciej, niż jesteś w stanie wiosłować z powrotem. Sprawdź prognozę, a w razie wątpliwości zostań na wodzie osłoniętej.',
+      },
+      {
+        title: 'Zawsze noś smycz',
+        body: 'Spiralna smycz trzyma deskę w zasięgu, gdy wpadniesz do wody — deska jest Twoim sprzętem ratunkowym. Dobierz smycz do warunków: spiralna na spokojną wodę, prosta na surfing.',
+      },
+      {
+        title: 'Kamizelka i bezpieczeństwo osobiste',
+        body: 'Noś kamizelkę ratowniczą, gdy warunki tego wymagają lub gdy nakazują to przepisy. Zabierz gwizdek, poinformuj kogoś o trasie i planowanym czasie powrotu oraz rozważ telefon w wodoodpornym etui.',
+      },
+      {
+        title: 'Znaj swoje możliwości',
+        body: 'Nabierz doświadczenia na spokojnej wodzie, zanim wyruszysz na wiatr albo prąd. Szanuj zimną wodę — szybko odbiera siły. I nigdy nie wiosłuj sam w odległych lub otwartych akwenach bez planu.',
+      },
+    ],
+    faqs: [
+      { q: 'Czy na desce SUP potrzebuję kamizelki ratowniczej?', a: 'Wymagania różnią się w zależności od kraju i akwenów wodnych. Nawet tam, gdzie jest opcjonalna, smycz wraz z kamizelką to odpowiedzialne minimum, a dzieci zawsze powinny mieć poprawnie dopasowaną kamizelkę.' },
+      { q: 'Czy wiosłowanie na SUP na jeziorze jest bezpieczne?', a: 'Tak — spokojne jeziora są idealne do nauki. Sprawdź kierunek wiatru, bądź widoczny dla łodzi i omijaj zatłoczone szlaki żeglugowe.' },
+    ],
+    related: [
+      { label: 'Wyposażenie bezpieczeństwa na naszych platformach', href: '/products' },
+      { label: 'Kontrola jakości w produkcji', href: '/quality' },
+      { label: 'Wybierz swoją pierwszą deskę', href: '/guides/how-to-choose-your-sup' },
+    ],
+  },
+  {
+    slug: 'choosing-a-sup-oem-factory',
+    title: 'Jak wybrać fabrykę OEM desek SUP na zamówienie',
+    intro: [
+      'Zakup nadmuchiwanych desek SUP pod własną marką sprowadza się do jednej decyzji: którą fabryce powierzysz pierwszą partię. Oto jak ocenić producenta desek SUP na zamówienie, zanim wyślesz zamówienie (PO).',
+    ],
+    sections: [
+      {
+        title: 'Zacznij od zamówienia próbnego, a nie od rozmów o MOQ',
+        body: 'Fabryka, która mówi tylko o wielkościach minimalnych, to znak biura handlowego, a nie zakładu. Prawdziwi producenci oferują progi minimalne — współbranding od 5–10 sztuk, serie pilotażowe od 20–50 sztuk, produkcję seryjną od 90–100+ sztuk na rolce 150 m, a projekty z w pełni własną formą realizowane są w wolumenie seryjnym. Najpierw zamów małą partię: sprawdzi komunikację, rygorystyczność specyfikacji i jakość próbek, nie stawiając na szansę całego debiutu.',
+      },
+      {
+        title: 'Sprawdź, co naprawdę dzieje się na miejscu',
+        body: 'Produkcja drop-stitch SUP ma cztery rdzenione etapy: laminowanie materiału, zgrzewanie, nadruk i montaż. Prawdziwa fabryka robi wszystko pod jednym dachem i pozwala Ci zajrzeć na halę. Jeśli handlowiec nie potrafi pokazać linii produkcyjnej, z dużym prawdopodobieństwem kupujesz przez pośrednika bez kontroli nad jakością ani terminami.',
+      },
+      {
+        title: 'Próbka musi odpowiadać produkcji seryjnej',
+        body: 'Ręcznie wykończona próbka to łatwość; powtarzalna produkcja seryjna to trudność. Zapytaj, jak fabryka kontroluje powtarzalność: zapisy partii materiałowych, parametry zgrzewania i listę kontrolną QC stosowaną przy każdej pojedynczej desce — nie tylko przy tej, którą zatwierdzasz.',
+      },
+      {
+        title: 'Poznaj koszty przed wysłaniem PO',
+        body: 'Uzyskaj pełny obraz kosztów na piśmie: cenę jednostkową zależną od ilości, koszty narzędzi lub formy, jeśli chcesz nowy kształt, przygotowanie plików graficznych i nadruku oraz opakowanie.',
+      },
+      {
+        title: 'Poproś o inspekcję zewnętrzną',
+        body: 'Porządne fabryki OEM SUP z zadowoleniem przyjmują inspekcje przedwysyłkowe — wiele marek rezerwuje niezależną inspekcję QC na każdy kontener. Potwierdź, że fabryka może zorganizować inspekcje próbek i serii produkcyjnych oraz że jednostki odrzucone (na przykład deski tracące ponad 5% ciśnienia) są wyłączane z partii.',
+      },
+      {
+        title: 'Terminy, które się dotrzymują',
+        body: 'W przypadku nadmuchiwanych desek SUP planuj próbki w 7–12 dni, a produkcję seryjną w 25–35 dni od potwierdzonego PO i zaliczki, plus czas na narzędzia przy zamawianiu nowej formy. Fabryka podająca znacznie krótsze terminy niż wszyscy inni cytuje z broszury, a nie z harmonogramu.',
+      },
+    ],
+    faqs: [
+      { q: 'Jaka jest minimalna ilość zamówienia desek SUP na zamówienie?', a: 'Progi minimalne są standardem: 1–2 szt. na próbki, 5–10 szt. przy współbrandingu, 20–50 szt. na serię pilotażową oraz 90–100+ szt. na rolce 150 m dla standardowego wolumenu; projekty z w pełni własną formą realizowane są w wolumenie seryjnym.' },
+      { q: 'Czy mogę zobaczyć próbkę przed produkcją seryjną?', a: 'Tak — próbki są gotowe w 7–12 dni. Większość fabryk zalicza koszty próbek i formy na poczet pierwszego zamówienia produkcyjnego, gdy zostanie ono potwierdzone.' },
+      { q: 'Jak zweryfikować, że fabryka SUP jest prawdziwa?', a: 'Poproś o transmisję na żywo z hali produkcyjnej, sprawdź, czy fabryka ma czynny adres w Qingdao lub innym centrum przemysłowym, i poproś o dokumentację wcześniejszych zamówień eksportowych. Zamówienie próbne jest ostatecznym dowodem.' },
+      { q: 'Co powinna zawierać wycena od fabryki SUP?', a: 'Cenę jednostkową za deskę, koszty narzędzi lub formy, przygotowanie plików graficznych, opakowanie, warunki QC i inspekcji oraz warunki płatności.' },
+    ],
+    related: [
+      { label: 'Nasza produkcja OEM / ODM', href: '/oem-manufacturing' },
+      { label: 'Proces rozwoju produktu SUP', href: '/product-development' },
+      { label: 'Możliwości fabryki i zakład', href: '/factory' },
+      { label: 'Jak kontrolujemy jakość — 7 punktów kontroli', href: '/quality' },
+      { label: 'Przewodnik po MOQ i elastycznym brandingu (PDF)', href: '/oem-moq-guide' },
+      { label: 'Zweryfikuj nas: zaufanie i gwarancje fabryki', href: '/oem-trust-assurance' },
+      { label: 'Rozpocznij projekt SUP na zamówienie', href: '/contact' },
+    ],
+  },
+  {
+    slug: 'private-label-sup-guide',
+    title: 'SUP pod własną marką: co naprawdę dostajesz od fabryki',
+    intro: [
+      'Własna marka to najszybsza droga do uruchomienia marki SUP: Twoje logo na sprawdzonej platformie, bez kosztów i ryzyka projektowania deski od zera. Oto, co naprawdę obejmuje współpraca z producentem desek SUP na zamówienie.',
+    ],
+    sections: [
+      {
+        title: 'Własna marka oznacza sprawdzone platformy',
+        body: 'Wychodzisz z platform, które fabryka już buduje i testuje — allround, touring, yoga, wyścigowe i inne. Fabryka dostosowuje branding, grafikę i wykończenie, co utrzymuje koszty niskie, a terminy krótkie. Progi minimalne są stopniowe: współbranding od 5–10 sztuk, serie pilotażowe od 20–50 sztuk oraz 90–100+ sztuk na rolce 150 m dla standardowego wolumenu pod własną marką.',
+      },
+      {
+        title: 'Branding wykracza poza logo',
+        body: 'Własna marka obejmuje nadruk Twojego logo (cyfrowy lub sitowy), dedykowane kolory, dywany EVA o wykroju z Twoim logo, branding akcesoriów (wiosło, pompka, smycz), projekt opakowań detalicznych, a nawet ekspozytory punktów sprzedaży. Prześlij pliki, a fabryka przygotuje próbę wizualną przed produkcją.',
+      },
+      {
+        title: 'Co robi fabryka za Ciebie',
+        body: 'Fabryka SUP oferująca pełny zakres obsługuje przygotowanie plików graficznych, zakup materiałów, produkcję próbek, 100-punktową listę kontrolną QC montażu, próby ciśnieniowe i dokumentację eksportową (faktura, lista pakunkowa, świadectwo pochodzenia). Ty oceniasz wzory i zatwierdzasz próbkę — resztą zajmuje się fabryka.',
+      },
+      {
+        title: 'Co jest Twoje: marka, rynek, klient',
+        body: 'W modelu pod własną marką fabryka buduje deski, a marka należy do Ciebie. Poważni producenci nie sprzedają własnych desk na Twoim rynku ani nie odsprzedają Twojego projektu innym. Poproś o wyłączność rynkową w wycenie.',
+      },
+      {
+        title: 'Koszty: próbka, forma, przygotowanie plików',
+        body: 'Licz się z trzema rodzajami opłat: opłatą za próbkę (7–12 dni), kosztem narzędzi, gdy potrzebna jest nowa forma (próg minimalny zależny od wolumenu), oraz przygotowaniem plików graficznych do druku. Większość fabryk zalicza koszty próbek i formy na poczet pierwszego zamówienia produkcyjnego.',
+      },
+      {
+        title: 'Od PO do gotowej partii',
+        body: 'Typowy przebieg produkcji pod własną marką: 30% zaliczki uruchamia produkcję, produkcja partii trwa 25–35 dni od potwierdzonego PO i zaliczki, a rozliczenie salda następuje po odbiorze zatwierdzonej partii. Zaplanuj budżet na cały przebieg już w pierwszym zamówieniu.',
+      },
+    ],
+    faqs: [
+      { q: 'Jaka jest minimalna ilość zamówienia desek SUP pod własną marką?', a: 'Współbranding zaczyna się od 5–10 sztuk, serie pilotażowe od 20–50 sztuk, a standardowy wolumen pod własną marką od 90–100+ sztuk na rolce 150 m; projekty z w pełni własną formą realizowane są w wolumenie seryjnym.' },
+      { q: 'Czy mogę przesłać własne logo i pliki graficzne?', a: 'Tak — prześlij logo i pliki; fabryka przygotuje próbę wizualną przed produkcją, abyś zatwierdził kolory, rozmieszczenie i wykończenie.' },
+      { q: 'Czy mój projekt SUP na zamówienie jest wyłączny dla mojej marki?', a: 'Tak, przy standardowych warunkach własnej marki. Poproś o klauzulę wyłączności w umowie zakupu; fabryki takie jak nasza nie odsprzedają projektu z Twoją marką.' },
+      { q: 'Ile trwa zamówienie desek SUP pod własną marką?', a: 'Próbki wysyłane są w 7–12 dni; produkcja partii trwa 25–35 dni od potwierdzonego PO i zaliczki. Zaplanuj 8–12 tygodni na pierwszy pełny przebieg.' },
+    ],
+    related: [
+      { label: 'Rozwiązania SUP pod własną marką', href: '/solutions/private-label-sup' },
+      { label: 'Poznaj sprawdzone platformy', href: '/products/all-around' },
+      { label: 'Produkcja OEM / ODM', href: '/oem-manufacturing' },
+      { label: 'Rozpocznij projekt SUP na zamówienie', href: '/contact' },
+    ],
+  },
+  {
+    slug: 'sup-fleet-guide',
+    title: 'Zakup flot desek SUP dla wypożyczalni, resortów i klubów',
+    intro: [
+      'Nabywcy flot potrzebują innych odpowiedzi niż użytkownicy końcowi: trwałości na jeden wypad, standaryzowanych części zamiennych, ilości w skali wolumenowej i dostawcy, który realizuje dostawy sezon po sezonie. Oto, co zaplanować przed zamówieniem pierwszej floty.',
+    ],
+    sections: [
+      {
+        title: 'Standaryzuj na jedną lub dwie specyfikacje',
+        body: 'Floty działają dzięki standaryzacji: jeden rozmiar deski (zwykle 10\'6"–11\'0" × 32") dla większości gości, jeden trwały pakiet wyposażenia i jeden zestaw części zamiennych. Upraszcza to naprawy, szkolenie personelu, przechowywanie i zamówienia uzupełniające. Powstrzymaj się przed kupowaniem dziesięciu różnych modeli.',
+      },
+      {
+        title: 'Deski o podwyższonym obciążeniu to inny produkt',
+        body: 'Deska do wypożyczalni pracuje przez dziesiątki wypraw w sezonie. Określ grubsze warstwy PVC, wzmocnione listwy krawędziowe i cięższe akcesoria w porównaniu z deskami detalicznymi. Zapytaj fabrykę, jak specyfikacja flotowa różni się od wersji konsumenckiej — prawdziwe zakłady mają obie.',
+      },
+      {
+        title: 'Dostosuj ilości do popytu',
+        body: 'Oblicz wielkość floty na podstawie dziennej rotacji i długości sezonu: 20–30 desek obsługuje małą wypożyczalnię, ponad 100 — zajęty resort lub klub. Poproś fabrykę o zalecenia ilościowe dopasowane do Twojego wzorca popytu.',
+      },
+      {
+        title: 'Kup części zamienne razem z flotą',
+        body: 'Zamów zawory zapasowe, zestawy naprawcze, pompki, smycze i wiosła w ramach tego samego PO — teraz kosztują niewiele za sztukę, a w trakcie sezonu trudno je zdobyć. Poproś fabrykę o zalecany udział części zamiennych (zwykle 5–10% wielkości floty przy materiałach eksploatacyjnych).',
+      },
+      {
+        title: 'Zamawiaj przed sezonem, nie w jego trakcie',
+        body: 'Produkcja trwa 25–35 dni od potwierdzonego PO i zaliczki. Aby deski znalazły się na plaży do wiosny, potwierdź zamówienia późną jesienią, tak aby produkcja zakończyła się przed sezonem.',
+      },
+      {
+        title: 'Oznacz flotę pod kątem wartości odsprzedaży',
+        body: 'Deski flotowe mogą nieść Twoje logo, system numeracji wynajmów i kodowanie kolorami ze względu na rozmiar. Sitowe nadruki logo przy seriach od 200+ sztuk są opłacalne, a oznakowana flota działa jednocześnie jako marketing na wodzie.',
+      },
+    ],
+    faqs: [
+      { q: 'Jaka jest najlepsza deska SUP do floty wypożyczalni?', a: 'Deska allround 10\'6"–11\'0" × 32" o wzmocnionej konstrukcji to branżowy standard — stabilna dla początkujących, trwała przy codziennym użytkowaniu i łatwa w serwisie.' },
+      { q: 'Ile desek potrzebuje wypożyczalnia?', a: 'Dla małej wypożyczalni planuj 20–30 desek, skalując zależnie od rotacji: ponad 100 sztuk dla zajętych resortów i klubów. Części zamienne powinny stanowić 5–10% wielkości floty.' },
+      { q: 'Czy deski flotowe mogą mieć nasze logo?', a: 'Tak — nadruki sitowe logo, numeracja wynajmów i pokłady w różnych kolorach to standardowe opcje dostosowania, szczególnie opłacalne od 200 sztuk.' },
+      { q: 'Ile trwa zamówienie floty?', a: 'Próbki w 7–12 dni, produkcja w 25–35 dni od potwierdzonego PO i zaliczki — dlatego zamówienia flotowe składaj znacznie przed rozpoczęciem sezonu.' },
+    ],
+    related: [
+      { label: 'Rozwiązania dla resortów i klubów', href: '/solutions/resort-sup' },
+      { label: 'Studium przypadku: flota wypożyczalni w wielu lokalizacjach', href: '/projects/rental-fleet-multi-site' },
+      { label: 'Platformy dla flot', href: '/products/all-around' },
+      { label: 'Porozmawiaj ze specjalistą ds. projektów', href: '/contact' },
+    ],
+  },
+]
+
+const GUIDES_BY_LOCALE: Record<string, Guide[]> = { en: GUIDES, es: GUIDES_ES, fr: GUIDES_FR, de: GUIDES_DE, it: GUIDES_IT, pt: GUIDES_PT, nl: GUIDES_NL, sv: GUIDES_SV, no: GUIDES_NO, pl: GUIDES_PL }
 
 export function localizedGuides(locale: string): Guide[] {
   return GUIDES_BY_LOCALE[locale] ?? GUIDES
@@ -2794,6 +3061,50 @@ export const GUIDE_CARDS: Record<string, GuideCard[]> = {
       title: 'Å kjøpe SUP-flåter',
       intro:
         'Flåteplanlegging for utleie, resorts og klubber: robust spesifikasjon, kvantiteter per container, reservedeler og sesongvariasjon.',
+    },
+  ],
+  pl: [
+    {
+      slug: 'how-to-choose-your-sup',
+      title: 'Jak wybrać deskę SUP',
+      intro:
+        'Wybór pierwszej nadmuchiwanej deski SUP zależy od rozmiaru deski, szerokości, konstrukcji i tego, co znajduje się w zestawie. Oto, co naprawdę ma znaczenie — po prostu.',
+    },
+    {
+      slug: 'beginner-guide',
+      title: 'Przewodnik początkującego',
+      intro:
+        'Wszystko, czego potrzebujesz na pierwsze wypady na wodzie: pompowanie, pierwsze wstanie na deskę, podstawowy styl wiosłowania i bezpieczeństwo.',
+    },
+    {
+      slug: 'inflatable-vs-hard',
+      title: 'Nadmuchiwana vs deska twarda',
+      intro:
+        'Te dwie rodziny konstrukcji wygrywają w różnych scenariuszach. Oto uczciwe porównanie dla osób pływających rekreacyjnie, klubów i wypożyczalni.',
+    },
+    {
+      slug: 'safety-tips',
+      title: 'Bezpieczeństwo na wodzie',
+      intro:
+        'Bezpieczny wypad to udany wypad. Te podstawowe zasady dotyczą tak samo jezior, rzek, jak i wiosłowania przybrzeżnego.',
+    },
+    {
+      slug: 'choosing-a-sup-oem-factory',
+      title: 'Jak wybrać fabrykę OEM desek SUP na zamówienie',
+      intro:
+        'Jak ocenić producenta desek SUP na zamówienie przed wysłaniem zamówienia: zamówienie próbne, własna produkcja, próbki, koszty i inspekcja.',
+    },
+    {
+      slug: 'private-label-sup-guide',
+      title: 'SUP pod własną marką',
+      intro:
+        'Co naprawdę obejmuje współpraca pod własną marką: sprawdzone platformy, pełny branding, koszty, wyłączność i terminy.',
+    },
+    {
+      slug: 'sup-fleet-guide',
+      title: 'Zakup flot desek SUP',
+      intro:
+        'Planowanie floty dla wypożyczalni, resortów i klubów: wytrzymała specyfikacja, ilości na kontener, części zamienne i sezonowość.',
     },
   ],
 }

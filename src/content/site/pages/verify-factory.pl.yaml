@@ -1,0 +1,81 @@
+meta:
+  title: 'Zweryfikuj naszą fabrykę SUP | Wizyta, audyt i inspekcja w Qingdao'
+  description: 'Jak zweryfikować fabrykę SUP przed podjęciem decyzji: zaplanuj wizytę w fabryce, przeprowadź audyt lub inspekcję firmy trzeciej oraz zweryfikuj zapisy QC, identyfikowalność partii i certyfikaty w Qingdao w Chinach.'
+  dateModified: '2026-09-23'
+  keywords:
+    - 'weryfikacja fabryki sup'
+    - 'wizyta w fabryce sup Qingdao'
+    - 'audyt fabryki sup'
+    - 'inspekcja sup firmy trzeciej'
+    - 'weryfikacja fabryki nadmuchiwanych desek paddle'
+
+hero:
+  tagline: 'Weryfikacja Fabryki'
+  title: 'Zweryfikuj fabrykę SUP, zanim się zobowiążesz'
+  subtitle: 'Nie powinieneś przyjmować fabryki na słowo. Zaplanuj wizytę, przeprowadź niezależny audyt lub inspekcję oraz zweryfikuj certyfikaty, zapisy QC i identyfikowalność partii przed pierwszym zamówieniem — wszystko to jest otwarte dla poważnych kupujących.'
+
+answer:
+  label: 'Krótka odpowiedź'
+  text: 'Zakład iSupfactory to obiekt o powierzchni 12,500 m² w Qingdao w prowincji Shandong w Chinach, z ponad 350 pracownikami, 4 zautomatyzowanymi liniami produkcyjnymi i 4 wyspecjalizowanymi warsztatami. Kupujący mogą zweryfikować go na cztery sposoby: odwiedzić zakład przez cały rok, współgospodarować lub zlecić audyt (BSCI, ISO 9001), przeprowadzić inspekcję firmy trzeciej (SGS, TUV, BV, Intertek; próbkowanie ISO 2859-1 poziom II) albo przejrzeć udokumentowane dowody — certyfikaty, 100-punktowe listy kontrolne montażu, raporty z 24-godzinnej próby ciśnieniowej przy 18.0 PSI oraz 10-letnią identyfikowalność partii w ERP dla każdej etykiety seryjnej.'
+  verified: 'Wrzesień 2026'
+
+features:
+  title: 'Sposoby weryfikacji fabryki'
+  subtitle: 'Cztery ścieżki weryfikacji, każda organizowana przez Twojego specjalistę od projektu — wybierz jedną lub je połącz.'
+  items:
+    - title: 'Zaplanuj wizytę w fabryce'
+      description: 'Gościmy kupujących w Qingdao przez cały rok, z odbiorem z lotniska i obchodzeniem hali produkcyjnej ułożonymi wokół Twoich terminów. NDA mile widziane w każdym momencie.'
+      icon: 'tabler:map-pin'
+    - title: 'Audyt firmy trzeciej'
+      description: 'Raporty z audytów BSCI i ISO 9001 są dostępne na żądanie, a audyty prowadzone wspólnie są mile widziane, abyś mógł przejść halę razem z audytorem.'
+      icon: 'tabler:clipboard-check'
+    - title: 'Niezależna inspekcja'
+      description: 'Inspekcja przedwysyłkowa lub w trakcie produkcji z SGS, TUV, BV lub Intertek wg próbkowania ISO 2859-1 poziom II — na Twój koszt, organizowana przez nas, raportowana bezpośrednio do Ciebie.'
+      icon: 'tabler:zoom-check'
+    - title: 'Przegląd dokumentacji'
+      description: 'Kopie certyfikatów, zapisy inspekcji przychodzącej/w trakcie procesu/końcowej, raporty z prób ciśnieniowych oraz dokumentacja identyfikowalności partii udostępniane przed podjęciem decyzji.'
+      icon: 'tabler:file-search'
+    - title: 'Wizja na żywo przez wideokonferencję'
+      description: 'Jeszcze nie możesz przyjechać? Oprowadzamy halę produkcyjną na żywo — obróbka drop-stitch, zgrzewanie, druk, montaż, badania i pakowanie — zanim złożysz zamówienie.'
+      icon: 'tabler:device-camera-phone'
+
+faq_section:
+  tagline: 'Pytania o weryfikację'
+  title: 'Weryfikacja i inspekcja fabryki — pytania i odpowiedzi'
+  questions:
+    - q: 'Gdzie znajduje się fabryka?'
+      a: 'Zakład znajduje się w Qingdao w prowincji Shandong w Chinach — obiekt o powierzchni 12,500 m² z ponad 350 pracownikami, 4 zautomatyzowanymi liniami i 4 wyspecjalizowanymi warsztatami. Adres i mapa są udostępniane zweryfikowanym kupującym przy planowaniu wizyty, a adres produkcyjny pojawia się w umowach, audycie BSCI i dokumentacji wywozowej.'
+    - q: 'Co fabryka produkuje?'
+      a: 'Nadmuchiwane deski SUP — od inżynierii dna i obróbki rdzenia drop-stitch po grafikę, montaż, badania i pakowanie eksportowe. Wszystkie kluczowe procesy SUP odbywają się pod jednym dachem.'
+    - q: 'Jakie procesy wykonywane są na miejscu?'
+      a: 'Projekt dna, inżynieria wymiarowa, obróbka rdzenia drop-stitch, zgrzewanie HF, druk grafiki, wycinanie dokładek EVA, oprzyrządowanie niestandardowych form, montaż, badania i pakowanie — wszystko realizowane we własnym zakresie. Akcesoria i część surowców pochodzą od certyfikowanych dostawców i są kompletowane u nas dla zachowania identyfikowalności.'
+    - q: 'Czy kupujący mogą odwiedzić fabrykę?'
+      a: 'Tak. Wizyty kupujących obsługujemy przez cały rok w Qingdao. Odbiór z międzynarodowego lotniska Qingdao Jiaodong i pełne obchodzenie hali produkcyjnej organizuje Twój specjalista od projektu.'
+    - q: 'Czy kupujący mogą zorganizować inspekcję firmy trzeciej?'
+      a: 'Tak. Inspekcje SGS, TUV, BV i Intertek są mile widziane przed produkcją lub w jej trakcie. Inspekcja przedwysyłkowa stosuje próbkowanie ISO 2859-1 poziom II, a raport jest wysyłany bezpośrednio do Ciebie przez jednostkę przeprowadzającą inspekcję.'
+    - q: 'Czy kupujący mogą uzyskać dokumentację QC?'
+      a: 'Tak. Kopie certyfikatów, zapisy inspekcji przychodzącej/w trakcie procesu/końcowej, raporty z 24-godzinnej próby ciśnieniowej przy 18.0 PSI oraz 100-punktowa lista kontrolna montażu są wydawane dla każdej partii na żądanie.'
+    - q: 'Jak zarządza się identyfikowalnością partii?'
+      a: 'Każda deska ma etykietę seryjną. Partie są rejestrowane w 10-letnim zapisie ERP, który powiązuje rolkę tkaniny, materiały, datę produkcji, operatorów i wyniki badań z każdym numerem seryjnym.'
+    - q: 'Jak wykorzystuje się zatwierdzoną próbkę?'
+      a: 'Zatwierdzona próbka staje się punktem odniesienia dla produkcji. Materiały, wymiary, grafika, akcesoria i wykończenie są na każdej bramce QC porównywane z tą próbką, dzięki czemu produkcja odpowiada temu, co zaakceptowałeś.'
+    - q: 'Jak kontrolowana jest jakość produkcji?'
+      a: 'System jakości w 7 etapach (Węzeł 01–07) obejmuje bramki inspekcji materiału przychodzącego, kontroli w trakcie procesu i kontroli końcowej, wraz z 24-godzinną próbą ciśnieniową przy 18.0 PSI (automatyczne odrzucenie przy spadku powyżej 0.50 PSI) i dopuszczeniem na końcu linii według próbkowania ISO 2859-1 poziom II.'
+
+cta:
+  title: 'Najpierw weryfikacja, potem zobowiązanie'
+  subtitle: 'Umów obchodzenie obiektu lub poproś o dokumenty weryfikacyjne — specjalista od projektu odpowiada w ciągu jednego dnia roboczego.'
+  actions:
+    - variant: primary
+      text: 'Umów połączenie weryfikacyjne z fabryką'
+      href: /pl/contact
+    - text: 'Centrum Dowodów — dowody z fabryki'
+      href: /pl/proof-center
+    - text: 'Lista kontrolna audytu fabryki'
+      href: /pl/factory-audit-checklist
+    - text: 'Zaufanie OEM i zapewnienie fabryki'
+      href: /pl/oem-trust-assurance
+    - text: 'Jakość i badania'
+      href: /pl/quality
+    - text: 'Fabryka i produkcja'
+      href: /pl/factory

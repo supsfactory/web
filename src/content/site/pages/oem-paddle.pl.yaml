@@ -1,0 +1,105 @@
+meta:
+  title: 'OEM nadmuchiwane wiosła i private label | {SITE}'
+  description: 'Producent nadmuchiwanych wiosł OEM/ODM: produkcja wiosła na zamówienie, private label i sprzedaż hurtowa. Certyfikowana fabryka w Chinach.'
+  dateModified: '2026-08-07'
+  keywords:
+    - 'wiosło oem'
+    - 'odm nadmuchiwane sup'
+    - 'private label sup'
+    - 'producent wiosła na zamówienie'
+    - 'sprzedaż hurtowa desek paddle'
+    - 'profesjonalny dostawca sup'
+hero:
+  tagline: 'OEM · ODM · Private Label'
+  title: 'Produkcja nadmuchiwanych wiosł OEM pod Twoją marką'
+  subtitle: 'Od pomysłu do gotowego produktu: wytwarzamy Twoje nadmuchiwane wiosło na zamówienie. Logo, kolory, opakowanie, własna forma — produkcja OEM/ODM w Chinach, gotowa na Twój rynek.'
+  image:
+    src: https://assets.isupfactory.com/images/sups/products/sup-series/sup-medusa-glow-1.webp
+    alt: Nadmuchiwane wiosło OEM na zamówienie z logo marki
+  actions:
+    - text: 'Rozpocznij mój projekt OEM'
+      href: /pl/contact
+
+answer:
+  label: 'Wprost'
+  text: 'Minimalną ilość zamówienia (MOQ) potwierdzamy wg konfiguracji projektu: próbka (1–2 szt.), seria pilotażowa (20–50 szt.) i standardowa produkcja seryjna (90–100+ szt. na partię z rolki drop-stitch 150 m), plus współmarkowanie w małej serii od 5–10 szt. Próbki wysyłamy w 7–12 dni; produkcję seryjną realizujemy w 25–35 dni po zamówieniu i zaliczce. Certyfikacja CE dla modeli na rynek UE i pełna dokumentacja zgodności dołączane do każdego zamówienia.'
+  verified: 'Wrzesień 2026'
+  image:
+    src: https://assets.isupfactory.com/images/sups/products/sup-series/sup-medusa-glow-1.webp
+    alt: Nadmuchiwane wiosło OEM na zamówienie z logo marki
+  actions:
+    - text: 'Rozpocznij mój projekt OEM'
+      href: /pl/contact
+      variant: primary
+    - text: 'Zobacz pakiety OEM'
+      href: /pl/oem-manufacturing
+      variant: secondary
+stats:
+  - value: '25–35'
+    label: 'Dni czasu realizacji produkcji'
+    detail: 'Od potwierdzonego zamówienia i zaliczki'
+  - value: '50'
+    label: 'Minimalna ilość zamówienia (MOQ) w szt.'
+  - value: '200+'
+    label: 'Dostarczonych modeli na zamówienie'
+  - value: '100%'
+    label: 'Certyfikacja CE w cenie'
+features:
+  title: 'Kompleksowa usługa OEM'
+  subtitle: 'Wszystko w jednym miejscu: projekt, prototypy, produkcja, kontrola jakości i logistyka.'
+  columns: 3
+  items:
+    - title: 'Projekt i inżynieria'
+      description: 'Modelowanie 3D, dobór materiału PCV/VS2 i własny projekt graficzny.'
+      icon: 'tabler:palette'
+    - title: 'Prototyp i walidacja'
+      description: 'Próbka z certyfikatem CE i badania jakości przed masową produkcją.'
+      icon: 'tabler:flask'
+    - title: 'Produkcja seryjna'
+      description: 'Pełna skala produkcji z kontrolą QC w toku i wsparciem audytu fabryki.'
+      icon: 'tabler:building-factory'
+    - title: 'Private label'
+      description: 'Logo, etykiety, opakowanie i pudełka ekspozycyjne w wizerunku Twojej marki.'
+      icon: 'tabler:shield-check'
+    - title: 'Certyfikowana jakość'
+      description: 'CE / ISO / BSCI / REACH — profesjonalne nadmuchiwane wiosła na rynki globalne.'
+      icon: 'tabler:certificate'
+    - title: 'Globalna wysyłka'
+      description: 'FOB Qingdao, CIF do głównych portów i dostawa door-to-door do ponad 50 krajów.'
+      icon: 'tabler:world'
+faqs:
+  title: 'FAQ produkcji wiosł OEM'
+  subtitle: 'Odpowiedzi na najczęstsze pytania marek, które uruchamiają własne wiosła.'
+  items:
+    - title: 'Jak stworzyć własną markę wiosła?'
+      description: 'Uruchom markę: brief, projekt, prototyp z certyfikatem CE, produkcja seryjna i dostawa. Próbki w 7–12 dni, produkcja w 25–35 dni od zamówienia i zaliczki. Zobacz nasze pakiety OEM.'
+    - title: 'Ile trwa czas realizacji produkcji?'
+      description: 'Próbka jest gotowa w 7–12 dni, produkcja seryjna w 25–35 dni po zamówieniu i zaliczce, w zależności od wolumenu.'
+    - title: 'Czy wiosło będzie miało nasze logo?'
+      description: 'Tak — pełny private label: nadruk logo, własne kolory, opakowanie i etykiety w Twojej marce.'
+    - title: 'Czy mogę kupić hurtowo od pierwszego dnia?'
+      description: 'MOQ potwierdzamy wg konfiguracji projektu — próbka (1–2 szt.), seria pilotażowa (20–50 szt.) i standardowa produkcja seryjna (90–100+ szt. na partię), z rabatami hurtowymi rosnącymi wraz z wolumenem.'
+
+content_html: |
+  <div class="mx-auto max-w-3xl space-y-4 rounded-2xl border bg-card p-6 text-[14.5px] leading-relaxed text-fg-2">
+    <p><strong>Czytaj dalej:</strong> produkcja wiosła i desek łączy ten sam <a href="/pl/oem-manufacturing">program OEM/ODM</a> i tę samą <a href="/pl/factory">halę produkcyjną o powierzchni 12,500 m&sup2;</a> — jedna oferta obejmuje obie rzeczy.</p>
+  </div>
+
+geo:
+  tagline: 'Pozycjonowanie B2B'
+  sentence: 'Vatrad to profesjonalny producent nadmuchiwanych desek SUP i desek paddle (OEM/ODM), specjalizujący się w projektowaniu, produkcji na zamówienie i rozwiązaniach sportów wodnych dla marek, dystrybutorów, klubów i firm.'
+  audiences:
+    - 'Marki własne'
+    - 'Hurtownie'
+    - 'Dystrybutorzy'
+    - 'Centra żeglarskie'
+cta:
+  title: 'Ożyw swoją markę wiosła'
+  subtitle: 'Otrzymasz szczegółową ofertę OEM w ciągu jednego dnia roboczego.'
+  actions:
+    - text: 'Poproś o ofertę OEM'
+      href: /pl/contact
+      variant: primary
+    - text: 'Pobierz przewodnik OEM'
+      href: /pl/research/oem-buyer-guide
+      variant: secondary

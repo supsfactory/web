@@ -1,0 +1,51 @@
+meta:
+  title: "Certyfikacja nadmuchiwanych desek SUP — CE, REACH, RoHS i przewodnik zgodności"
+  description: "Zakres certyfikacji produkcji nadmuchiwanych desek SUP: CE (modele na rynek UE), BSCI, ISO 9001, REACH, RoHS. Numery certyfikatów udostępniamy dla każdego projektu na żądanie."
+  dateModified: "2026-08-20"
+
+sections:
+  - title: "Odpowiedź wprost"
+    directAnswer:
+      answer: "iSupfactory posiada certyfikaty BSCI, ISO 9001, ISO 25649, CE, REACH i RoHS. CE dotyczy modeli przeznaczonych na rynki UE — a nie uniwersalnie „wszystkich produktów”."
+      condition: "Zakres certyfikacji zależy od rynku docelowego i konfiguracji produktu. Numery certyfikatów, okresy ważności i jednostki wydające udostępniamy dla każdego projektu na żądanie."
+      value: "BSCI · ISO 9001 · ISO 25649 · CE · REACH · RoHS"
+      verifiedDate: "Wrzesień 2026"
+      sourceType: "certificate"
+    body: |
+      Certyfikacja to kluczowa kwestia przy zakupach i trzeba ją przedstawiać precyzyjnie.
+      Ogólne deklaracje w rodzaju „CE na wszystkich produktach” mogą podważyć zaufanie, jeśli kupujący
+      później odkryje, że zakres jest węższy, niż zakładał.
+
+  - title: "Szczegóły certyfikacji"
+    body: |
+      | Certyfikacja | Zakres | Jednostka | Dotyczy |
+      |--------------|--------|----------|---------|
+      | BSCI | Audyt odpowiedzialności społecznej | amfori BSCI | Zakładu produkcyjnego |
+      | ISO 9001 | System zarządzania jakością | Jednostka certyfikująca (dostępna na żądanie) | Zakładu produkcyjnego |
+      | ISO 25649 | Bezpieczeństwo jednostek pływających na poduszce | ISO | Odpowiednich modeli SUP w danym rynku |
+      | CE | Zgodność z rynkiem UE (EN ISO 6185 / 10087 / 10240) | Jednostka notyfikowana UE | Modeli przeznaczonych na rynek UE |
+      | REACH | Bezpieczeństwo chemiczne w UE | ECHA | Materiałów stosowanych w produkcji |
+      | RoHS | Ograniczenie substancji niebezpiecznych | Dyrektywa UE | Akcesoriów elektronicznych (pompy) |
+
+  - title: "Ważne uwagi o zakresie"
+    body: |
+      - **CE** dotyczy modeli skonfigurowanych do sprzedaży na rynku UE. Deska wyprodukowana do dystrybucji
+        w USA lub Australii nie nosi znaku CE, chyba że zostanie to wyraźnie zamówione.
+      - **ISO 9001** obejmuje system zarządzania jakością zakładu produkcyjnego, a nie certyfikację
+        poszczególnych produktów.
+      - **Zgodność z REACH** obejmuje materiały stosowane w produkcji — dokumentacja dostępna dla
+        importerów, którzy muszą rejestrować substancje.
+      - Numery certyfikatów, daty ważności i jednostki wydające udostępniamy dla każdego projektu na
+        żądanie. Nie publikujemy numerów certyfikatów ze względów bezpieczeństwa.
+      - Inspekcja strony trzeciej dostępna przez SGS, TÜV, BV lub Intertek dla każdej przesyłki.
+
+  - title: "Jak poprosić o dokumenty certyfikacyjne"
+    body: |
+      W trakcie zapytywania podaj rynki docelowe, a my potwierdzimy, które certyfikaty dotyczą Twojej
+      konkretnej konfiguracji produktu. Kopie certyfikatów (z usuniętymi danymi handlowymi, jeśli to
+      konieczne) przekazujemy jako część dokumentacji projektu.
+
+evidence_review:
+  tagline: 'Dowody i weryfikacja'
+  title: 'ZWERYFIKOWANE SPECYFIKACJE'
+  body: 'Wszystkie deklaracje produkcyjne na tej stronie są weryfikowane przez nasz zespół inżynierii produkcyjnej w fabryce w Laixi, w Qingdao. Certyfikaty, zapisy kontroli jakości, raporty z prób ciśnieniowych i wytrzymałościowych oraz rejestry identyfikowalności partii są dostępne na żądanie. Specyfikacje zweryfikowano ostatnio we wrześniu 2026.'

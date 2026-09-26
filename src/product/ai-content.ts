@@ -46,6 +46,9 @@ export const LLM_SWEDISH_HOMEPAGE_DESCRIPTION =
 export const LLM_NORWEGIAN_HOMEPAGE_DESCRIPTION =
   'OEM-produsent av oppblåsbare SUP-brett og skreddersydde oppblåsbare SUP-er, med verdensomspennende eksport fra Kina'
 
+export const LLM_POLISH_HOMEPAGE_DESCRIPTION =
+  'Producent OEM nadmuchiwanych desek SUP oraz personalizowanych nadmuchiwanych desek SUP, z globalnym eksportem z Chin'
+
 export const AI_SYSTEM_ROLE =
   `You are the {SITE} product advisor, a sales engineer for a custom inflatable SUP (stand-up paddle board) OEM/ODM factory in Qingdao, China.`
 
@@ -142,6 +145,15 @@ export const CUSTOMIZATION_OPTIONS: Record<string, { title: string; body: string
     { title: 'Finnen og tilbehør', body: 'Finnekonfigurasjoner, padler, pumper, leashes og sekker tilpasset pakken din.' },
     { title: 'Emballasje og presentasjon', body: 'Butikksbokser, sjøsikker fraktemballasje og butikkdisplay under ditt merkenavn.' },
   ],
+  pl: [
+    { title: 'Rozmiar i kształt deski', body: 'Długość, szerokość, grubość i rocker dopasowane do Twojej docelowej wydajności i rynku.' },
+    { title: 'Materiały i konstrukcja', body: 'Warstwy PCV, gęstość drop-stitch, usztywnienia i wzmocnienia dopasowane do Twojego poziomu cenowego.' },
+    { title: 'Kolory i grafika', body: 'Nieograniczone kombinacje kolorów z własną grafiką lub z pomocą naszego zespołu projektowego.' },
+    { title: 'Logo i branding', body: 'Nadruk cyfrowy lub sitograficzny Twojego logo, z zatwierdzeniem wzoru przed produkcją.' },
+    { title: 'EVA i pokład', body: 'Indywidualnie wycinane podkładki antypoślizgowe, logo i kolory pokładu na każdej desce.' },
+    { title: 'Płetwy i akcesoria', body: 'Układy płetw, wiosła, pompki, smycze i torby dopasowane do Twojego zestawu.' },
+    { title: 'Opakowanie i ekspozycja', body: 'Opakowania detaliczne, opakowanie transportowe na morze i ekspozytory POS pod Twoją marką.' },
+  ],
 }
 
 export const OEM_APPLICATIONS: Record<string, { title: string; body: string }[]> = {
@@ -207,6 +219,13 @@ export const OEM_APPLICATIONS: Record<string, { title: string; body: string }[]>
     { title: 'Detaljhandel og friluftsbedrifter', body: 'Sesongbaserte påfyllingsprogrammer med stabile spesifikasjoner, batch etter batch.' },
     { title: 'Resorts og utleieoperatører', body: 'Flåter for tunge bruk med forsterkninger, reservedeler og standardisert vedlikehold.' },
     { title: 'Klubber, skoler og arrangementer', body: 'Merkede brett for programmer, konkurranser og bedriftsflåter.' },
+  ],
+  pl: [
+    { title: 'Marki SUP', body: 'Wprowadź własną linię z minimalnymi ilościami w przedziałach, już od serii co-branding 5–10 szt.' },
+    { title: 'Dystrybutorzy i odsprzedawcy', body: 'Katalogi hurtowe z opakowaniem transportowym na morze i obsługą eksportu.' },
+    { title: 'Firmy detaliczne i outdoorowe', body: 'Sezonowe programy uzupełniania zapasów ze stabilnymi specyfikacjami, partia po partii.' },
+    { title: 'Ośrodki i wypożyczalnie', body: 'Floty do intensywnej eksploatacji z wzmocnieniami, częściami zamiennymi i ustandaryzowaną konserwacją.' },
+    { title: 'Kluby, szkoły i wydarzenia', body: 'Brandowane deski dla programów, zawodów i flot firmowych.' },
   ],
 }
 
@@ -283,6 +302,14 @@ export const HUB_PAGE_ENTRIES: Record<string, { url: string; title: string; exce
     { url: '/no/knowledge', title: '', excerpt: '' },
     { url: '/no/gallery', title: 'Galleri', excerpt: 'Fabrikk- og produktgalleri fra iSupfactory: verksteder, kvalitetslaboratorier, stoffprøvinger og SUP-brett i produksjon.' },
   ],
+  pl: [
+    { url: '/pl', title: 'iSupfactory — produkcja OEM i ODM nadmuchiwanych desek SUP', excerpt: 'Fabryka OEM/ODM nadmuchiwanych desek SUP w Qingdao: rozwój produktów, produkcja na zamówienie, marka własna i kontrola jakości.' },
+    { url: '/pl/products', title: 'Produkty: nadmuchiwane deski SUP', excerpt: 'Nadmuchiwane deski SUP klasy premium: serie 11 ft, SUP do wędkowania, mini SUP, gigantyczne deski drużynowe i więcej — wykonane pod personalizację OEM/ODM.' },
+    { url: '/pl/solutions', title: 'Rozwiązania', excerpt: 'Programy produkcji OEM/ODM desek SUP: rozwój desek na zamówienie, marka własna, floty dla ośrodków i klubów, wypożyczalnie i partnerzy detaliczni.' },
+    { url: '/pl/projects', title: '', excerpt: '' },
+    { url: '/pl/knowledge', title: '', excerpt: '' },
+    { url: '/pl/gallery', title: 'Galeria', excerpt: 'Galeria fabryki i produktów iSupfactory: hale, laboratoria jakości, testy tkanin i deski SUP w produkcji.' },
+  ],
 }
 
 export const CASE_STUDY_STATS = {
@@ -300,6 +327,7 @@ export const FAQ_EXCERPTS: Record<string, string> = {
   nl: 'Veelgestelde vragen over OEM/ODM-productie van opblaasbare SUPs — materialen, certificeringen, minimum bestelhoeveelheden en groothandelslevering.',
   sv: 'Vanliga frågor om OEM/ODM-tillverkning av uppblåsbara SUPar — material, certifieringar, minsta beställningskvantitet och partihandel.',
   no: 'Ofte stilte spørsmål om OEM/ODM-produksjon av oppblåsbare SUP-brett — materialer, sertifiseringer, minste bestillingskvantum og engros.',
+  pl: 'Najczęściej zadawane pytania o produkcję OEM/ODM nadmuchiwanych desek SUP — materiały, certyfikacje, minimalne ilości zamówienia (MOQ) i sprzedaż hurtowa.',
 }
 
 export const STATIC_PAGE_CORPUS_TEXT =

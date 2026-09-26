@@ -1,0 +1,176 @@
+meta:
+  title: 'Uruchom markę SUP dzięki zamówieniu próbnemu z niskim MOQ | iSupfactory'
+  description: 'Uruchom markę nadmuchiwanych desek SUP zamówieniem próbnym z niskim MOQ: próbki w 7–12 dni, serie pilotażowe 20–50 desek, produkcja w 25–35 dni. Branding i QC po naszej stronie.'
+  dateModified: '2026-08-16'
+  keywords:
+    - 'jak zacząć markę sup'
+    - 'start marki sup'
+    - 'sup z niskim moq'
+    - 'zamówienie próbne sup'
+    - 'startowa marka sup'
+    - 'branding sup mała seria'
+    - 'nadmuchiwane sup private label'
+
+hero:
+  tagline: 'Dla nowych i rosnących marek SUP'
+  title: 'Uruchom markę SUP dzięki zamówieniu próbnemu z niskim MOQ'
+  subtitle: 'Nie potrzebujesz kontenera, żeby zacząć markę SUP. Zweryfikuj deskę, grafikę i rynek jedną próbką, a potem sprawdź sprzedaż zamówieniem próbnym 20–50 desek — zanim w ogóle zobowiążesz się do pełnych wolumenów. Branding, kontrola jakości i logistyka eksportowa są w rękach Qingdao Vatrad Group Co., Ltd.'
+  actions:
+    - variant: primary
+      text: Zacznij premierę od próbki
+      href: /pl/contact#custom-oem
+    - text: Zobacz pełny ramowy MOQ i czasów realizacji
+      href: /pl/sup-oem-moq-lead-time
+
+answer:
+  label: 'Wprost'
+  text: 'Tak — możesz uruchomić markę nadmuchiwanych desek SUP zamówieniem próbnym z niskim MOQ. Próg wejścia jest stopniowany, a nie „wszystko albo nic”: najpierw zamów 1–2 próbki (gotowe w 7–12 dni), aby zamrozić kadłub, grafikę i opakowanie; potem złóż zamówienie próbne 20–50 desek (produkcja w 25–35 dni), aby sprawdzić rzeczywistą rotację; na końcu skaluj do standardowych serii 90–100+ desek na rolkę tkaniny drop-stitch 150 m, gdy format się sprawdzi. Współmarkowanie w małej serii zaczyna się już od 5–10 szt. dla operatorów, którzy chcą desek z marką bez jakiegokolwiek etapu rozwoju. Twój pierwszy kontener pojawia się dopiero wtedy, gdy dane tego wskazują.'
+  verified: 'Wrzesień 2026'
+
+trial_included:
+  tagline: Co obejmuje zamówienie próbne
+  title: 'Wszystko, czego potrzebuje premiera, bez zbędnych kosztów'
+  subtitle: 'Zamówienie próbne to nie pomniejszona faktura — to ten sam proces fabryczny, dopasowany do marki startującej. Oto, co obejmuje każdy program próbny.'
+  grid: 'sm:grid-cols-2 lg:grid-cols-3'
+  features:
+    - icon: B
+      icon_bg: blue
+      title: 'Platforma deski i konstrukcja'
+      desc: 'Sprawdzone kadłuby turingowe i allround w konstrukcji drop-stitch, ze zgrzewaniem trójwarstwowej listwy krawędziowej i sztywnością 12–15 PSI — te same platformy, których używają nasi klienci wolumenowi, w standardowych rozmiarach od 10 ft do 11 ft 6 in.'
+    - icon: L
+      icon_bg: green
+      title: 'Twój branding, naprawdę zastosowany'
+      desc: 'Pełnopowierzchniowy druk cyfrowy lub sitograficzny, nakładka EVA z Twoim logo i branding wtórny na nosie lub krawędziach bocznych. Współmarkowanie w małej serii wykorzystuje centralne oznaczenie iSupfactory z Twoim logo na nosie lub krawędziach.'
+    - icon: P
+      icon_bg: purple
+      title: 'Opcje opakowania, które skalują się'
+      desc: 'Zacznij od neutralnych kartonów i naklejek z kodem kreskowym, a przy kolejnych seriach przejdź na pełnokolorowe 5-warstwowe pudełka detaliczne z brandingiem. Opakowanie na zamówienie ma własne minimum drukarni; nadmiarowe pudełka przechowujemy i wydajemy zgodnie z harmonogramem.'
+    - icon: Q
+      icon_bg: orange
+      title: 'Kontrola jakości na poziomie fabryki'
+      desc: 'Każda deska przechodzi tę samą listę kontrolną montażu w 100 punktach oraz 24-godzinne badanie ciśnienia i szczelności (18.0 PSI, automatyczne odrzucenie przy spadku powyżej 0.50 PSI), które obowiązują każde zamówienie, próbkę czy kontener.'
+    - icon: D
+      icon_bg: blue
+      title: 'Eksport i dokumentacja'
+      desc: 'Dokumentacja zgodności CE, ISO 9001, BSCI, REACH i RoHS, opakowanie eksportowe i koordynacja transportu morskiego do ponad 50 krajów — od próbki 1 deski po pełne programy.'
+    - icon: T
+      icon_bg: green
+      title: 'Termin, na którym możesz planować'
+      desc: 'Próbki w 7–12 dni, produkcja próbna w 25–35 dni po potwierdzeniu zamówienia i zaliczki oraz potwierdzone terminy produkcyjne dla zamówień przedsezonowych — premiera trafia w sezon, a nie po nim.'
+
+trial_steps:
+  tagline: Mapa drogowa premiery
+  title: 'Od pomysłu do pierwszej sprzedaży w sześciu bramkach'
+  subtitle: 'Typowa pierwsza premiera to 8–12 tygodni od briefu do dostarczonego zamówienia próbnego na gotowych platformach — dłużej, gdy własny kadłub wymaga opracowania formy. Każda bramka ma termin uzgodniony z góry.'
+  steps:
+    - step: 'Brama 1'
+      title: 'Brief produktowy i przegląd inżynieryjny (Dni 0–2)'
+      desc: 'Dzielisz się docelowym modelem deski, ilością zamówienia, projektem graficznym i zamiarem opakowania. Przegląd inżynieryjny kończy się w ciągu jednego dnia roboczego, a NDA jest dostępne przed udostępnieniem chronionych specyfikacji.'
+    - step: 'Brama 2'
+      title: 'Specyfikacja, MOQ i wycena (Dni 3–7)'
+      desc: 'Pozycjonowana wycena z dokładnym obliczeniem MOQ, opłatami za próbki i segmentami czasu realizacji. Opłaty za próbkę zaliczają się na Twoje zamówienie produkcyjne po podpisaniu umowy.'
+    - step: 'Brama 3'
+      title: 'Próbki w 7–12 dni'
+      desc: '1–2 fizyczne deski potwierdzają sztywność kadłuba, fakturę nakładki EVA, wierność grafiki i dopasowanie akcesoriów. Wiosłujesz na desce, zanim zobowiążesz się na cokolwiek innego.'
+    - step: 'Brama 4'
+      title: 'Zamówienie próbne 20–50 desek (25–35 dni)'
+      desc: 'Produkcja na gotowych platformach kadłubów ze standardowymi materiałami i uproszczonym opakowaniem — minimalny test komercyjny, który odzwierciedla rzeczywiste warunki magazynowe.'
+    - step: 'Brama 5'
+      title: 'Okno rotacji i informacji zwrotnej'
+      desc: 'Ważna bramka jest na Twoim rynku, nie w naszej fabryce: najemcy i klienci potwierdzają format deski, grafikę i przedział cenowy, zanim zaczniesz skalować.'
+    - step: 'Brama 6'
+      title: 'Skalowanie do serii wolumenowych (90–100+ desek)'
+      desc: 'Gdy format się sprawdzi, standardowe serie z rolki 150 m dają pełną wydajność produkcji, branding opakowań i ceny wolumenowe. Program kontenerowy jest celem, a nie warunkiem.'
+
+trial_budget:
+  tagline: Orientacyjne przedziały budżetowe
+  title: 'Ile kosztuje premiera — orientacyjne przedziały cenowe'
+  subtitle: 'Orientacyjne przedziały referencyjne, EXW Qingdao (Chiny), dla standardowego kadłuba turingowego lub allround w dostępnych rozmiarach. Ostateczna wycena zależy od kształtu kadłuba, PCV, pokrycia graficznego, opakowania, akcesoriów i ilości — potwierdzana względem Twojej konfiguracji przed jakimkolwiek zobowiązaniem.'
+  headers:
+    stage: Etap zamówienia
+    price: Cena referencyjna za deskę
+    notes: Uwagi
+  rows:
+    - stage: 'Próbki (1–2 deski)'
+      price: 'USD 250–350'
+      notes: 'Fizyczna próbka z naniesioną Twoją grafiką. Opłaty za próbkę zaliczają się na zamówienie produkcyjne po podpisaniu umowy.'
+    - stage: 'Zamówienie próbne / pilotażowe (20–50 desek)'
+      price: 'USD 180–260'
+      notes: 'Gotowe platformy kadłubów, standardowe materiały i uproszczone opakowanie. Standardowa niska ścieżka MOQ na start.'
+    - stage: 'Standardowy wolumen (90–100+ desek na rolkę 150 m)'
+      price: 'USD 150–220'
+      notes: 'Pełne rolki tkaniny 150 m, niestandardowe warianty PCV Pantone, branding opakowań i ceny wolumenowe.'
+    - stage: 'Własny kadłub i narzędzia (dodatek)'
+      price: 'Wycena indywidualna'
+      notes: 'Własny kształt kadłuba dodaje 15–20 dni opracowywania formy w harmonogramie ogólnym; narzędzia są pozycjonowane i wyceniane jednorazowo.'
+
+derisk:
+  tagline: Premiera bez ryzyka
+  title: 'Cztery sposoby, w jakie zamówienie próbne ogranicza ryzyko premiery'
+  subtitle: 'Większość nowych marek nie upada z powodu jakości produktu, lecz z powodu zapasów. Zamówienie próbne jest zaprojektowane tak, aby nieuniknialne błędy były niemożliwe.'
+  features:
+    - icon: I
+      icon_bg: blue
+      title: 'Bez dużego zamrożenia zapasów'
+      desc: 'Twoje zaangażowanie na pierwszy sezon zostaje poniżej 50 desek. Jeśli format wymaga korekty, korygujesz go przed dużym wydatkiem, a nie po nim.'
+    - icon: C
+      icon_bg: green
+      title: 'Kontrolowany przepływ gotówki'
+      desc: 'Mniejsze zamówienia oznaczają mniejsze zaliczki, płatności etapowe i brak zamrożonego kapitału w magazynie. Ceny wolumenowe czekają, aż faktycznie je wypracujesz.'
+    - icon: Q
+      icon_bg: purple
+      title: 'Jakość nigdy nie jest obniżana'
+      desc: 'Zamówienie próbne 20 desek przechodzi tę samą listę kontrolną w 100 punktach i te same próby ciśnieniowe co program kontenerowy — bez kompromisów typu „najpierw ilość, potem jakość”.'
+    - icon: G
+      icon_bg: orange
+      title: 'Gwarantowana ścieżka do skalowania'
+      desc: 'Każde zamówienie próbne ma potwierdzoną drogę do wolumenu: zachowane kredyty za próbki, zamrożony projekt graficzny i BOM oraz zarezerwowane terminy produkcyjne na Twoją kolejną serię.'
+
+scale_path:
+  tagline: Po zamówieniu próbnym
+  title: 'Co dzieje się po udanym zamówieniu próbnym'
+  subtitle: 'Zamówienie próbne jest celowo zaprojektowane jako pierwszy krok dłuższej współpracy. To ścieżka, którą uzgadniamy przed wysłaniem pierwszej deski.'
+  steps:
+    - step: 'Faza 1'
+      title: 'Zamówienie próbne dostarczone i ocenione'
+      desc: '20–50 desek trafia w sezon, a dane o rotacji wracają z Twojego kanału — wynajmu, sprzedaży detalicznej lub bezpośredniej.'
+    - step: 'Faza 2'
+      title: 'Informacja zwrotna i dopracowanie'
+      desc: 'Kolorystyka, grafika, opakowanie i zestaw akcesoriów są korygowane na podstawie rzeczywistej reakcji rynku. Projekt graficzny i BOM zostają zamrożone na kolejną serię.'
+    - step: 'Faza 3'
+      title: 'Seria wolumenowa (90–100+ desek)'
+      desc: 'Standardowe serie z rolki 150 m z pełną wydajnością produkcji, brandingiem opakowań detalicznych i cenami wolumenowymi — kredyty za próbki już rozliczone.'
+    - step: 'Faza 4'
+      title: 'Programy w skali kontenerowej'
+      desc: 'Programy 300+ desek z dostawami rozłożonymi w czasie, niestandardowymi materiałami Pantone i pełnym pipeline rozwojowym — ta sama fabryka, teraz w pełnej skali.'
+
+trial_faqs:
+  tagline: FAQ
+  title: 'Najczęstsze pytania o uruchamianie marki zamówieniem próbnym'
+  items:
+    - q: 'Czy naprawdę mogę uruchomić markę SUP bez zamówienia kontenerowego?'
+      a: 'Tak. Próg wejścia jest stopniowany: 1–2 próbki potwierdzają deskę (gotowe w 7–12 dni), zamówienie próbne 20–50 desek potwierdza rynek (produkcja w 25–35 dni), a serie wolumenowe 90–100+ desek następują dopiero wtedy, gdy rotacja potwierdzi format. Współmarkowanie w małej serii zaczyna się od 5–10 szt., gdy chcesz desek z marką bez jakiegokolwiek etapu rozwoju.'
+    - q: 'Ile trwa pełna premiera od początku do końca?'
+      a: 'Na gotowych platformach kadłubów typowa pierwsza premiera to 8–12 tygodni od briefu produktowego do dostarczonego zamówienia próbnego: próbki w 7–12 dni, produkcja próbna w 25–35 dni po potwierdzeniu zamówienia i zaliczki. Własny kadłub dodaje 15–20 dni opracowywania formy.'
+    - q: 'Co obejmuje cena — a czego nie obejmuje?'
+      a: 'Przedziały referencyjne dotyczą samych desek w cenie EXW Qingdao, w tym naniesienia brandingu i standardowego QC. Są orientacyjne: ostateczna wycena jest potwierdzana względem Twojej konfiguracji — kadłub, PCV, pokrycie graficzne, opakowanie i akcesoria — przed jakimkolwiek zobowiązaniem. Transport, cło i odprawa celna w miejscu docelowym wyceniane są osobno.'
+    - q: 'Czy muszę kupić 100 albo 500 desek, aby umieścić na nich logo?'
+      a: 'Nie. Współmarkowanie w małej serii umieszcza Twoje logo na nosie lub krawędziach bocznych już od 5–10 szt., a zamówienia próbne 20–50 desek obsługują pełne naniesienie grafiki w jakości produkcji seryjnej. Ilość zmienia cenę jednostkową, a nie dostępność.'
+    - q: 'Co jeśli chcę zmienić projekt po zamówieniu próbnym?'
+      a: 'Zmiany między serią próbną a wolumenem są normalne i mile widziane — na tym polega istota próby. Kolorystyka, grafika, opakowanie i akcesoria są wyceniane ponownie względem nowej konfiguracji, a następnie zamrażane zatwierdzeniem projektu graficznego i BOM przed serią wolumenową. Opłaty za formy sitograficzne nie są naliczane przy zamówieniach powtarzalnych o tym samym wymiarze grafiki.'
+    - q: 'Czy podpisujecie NDA, zanim udostępnię swoje projekty?'
+      a: 'Tak. Umowa poufności jest dostępna przed udostępnieniem chronionych specyfikacji technicznych lub projektu graficznego. Produkujemy wyłącznie pod markami naszych klientów i nigdy z nimi nie konkurujemy na żadnym rynku — ta sama polityka dotyczy próbki 1 deski i programu kontenerowego.'
+
+cta:
+  title: 'Gotowy uruchomić swoją markę SUP?'
+  subtitle: 'Wyślij nam docelowy model deski, ilość na pierwszy sezon i pomysły na branding. Potwierdzimy dokładną ścieżkę próbki i zamówienia próbnego wraz z pozycjonowanymi kosztami i harmonogramem dzień po dniu — bez zobowiązań, dopóki nie podpiszesz.'
+  actions:
+    - variant: primary
+      text: Zacznij swoją premierę
+      href: /pl/contact#custom-oem
+    - text: Najpierw poznaj MOQ i czas realizacji SUP na zamówienie
+      href: /pl/sup-oem-moq-lead-time'
+    - text: Przewodnik elastycznego brandingu i MOQ
+      href: /pl/oem-moq-guide'
+    - text: Zweryfikuj fabrykę i system jakości
+      href: /pl/oem-trust-assurance'

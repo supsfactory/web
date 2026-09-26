@@ -43,6 +43,7 @@ const FAQ_TITLES: Record<string, string> = {
   nl: 'Veelgestelde vragen',
   sv: 'Vanliga frågor',
   no: 'Ofte stilte sp\u00f8rm\u00e5l',
+  pl: 'Najcz\u0119\u015bciej zadawane pytania',
 }
 
 /** Slug → readable label fallback for pages without an explicit SEO title. */

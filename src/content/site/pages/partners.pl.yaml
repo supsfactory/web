@@ -1,0 +1,83 @@
+meta:
+  title: 'Partnerzy — dystrybucja i sprzedaż hurtowa | {SITE}'
+  description: 'Partnerstwa produkcyjne z iSupfactory: dystrybucja, dostawy hurtowe, programy OEM/private label oraz wsparcie techniczne dla firm zajmujących się deskami SUP na całym świecie.'
+  keywords:
+    - 'partner dystrybucyjny sup'
+    - 'sprzedaż hurtowa desek sup'
+    - 'dystrybutor nadmuchiwanych desek sup'
+    - 'partnerstwo sup'
+  dateModified: '2026-08'
+hero:
+  tagline: 'Partnerzy i dystrybucja'
+  title: 'Partnerstwa produkcyjne i dystrybucja'
+  subtitle: "Produkujemy dla dystrybutorów sprzętu morskiego, dealerów, marek detalicznych i instytucji w ponad 50 krajach. Ty określasz produkt — my go projektujemy, wykonujemy próbkę i produkujemy pod Twoją marką."
+  image:
+    src: https://assets.isupfactory.com/images/sups/team/isupfactory-meeting-overseas.webp
+    alt: 'Globalna sieć partnerów i dystrybutorów Vatrad'
+
+answer:
+  label: 'Krótka odpowiedź'
+  text: 'Warunki partnerstwa zaczynają się od próbki (1–2 szt.) i serii pilotażowej (20–50 szt., próbka w 7–12 dni), a następnie przechodzą na standardowe zamówienia OEM o wolumenie 90–100+ szt. w jednej serii z pełnej rolki drop-stitch 150 m — albo inwestujesz w niestandardowe formy na produkty private label. MOQ potwierdzamy na podstawie konfiguracji projektu. Programy dystrybucyjne obejmują ekskluzywne terytoria, hurtowe ceny bezpośrednio z fabryki oraz warunki płatności 45–60 dni, z wysyłką FOB Qingdao lub CIF.'
+  verified: 'Wrzesień 2026'
+content_programs:
+  tagline: 'Programy partnerskie'
+  title: 'Modele współpracy oparte na produkcji'
+  subtitle: 'Niezależnie od tego, czy jesteś dystrybutorem, dealerem, czy partnerem marki — program dopasowujemy do Twoich wymagań produktowych i planu produkcji.'
+  columns: 3
+  items:
+    - title: 'Program dystrybutorski'
+      description: 'Umowy dystrybucyjne z bezpośrednim dostępem do fabryki, wsparciem technicznym i powtarzalną jakością zamówień uzupełniających w całym terytorium. Minimalne zobowiązanie zależy od wielkości terytorium.'
+      icon: tabler:world
+    - title: 'Program dealerski'
+      description: 'Specyfikacje produktów, akceptacja próbki, wsparcie gwarancyjne i niezawodne zamówienia uzupełniające dla punktów stacjonarnych i sklepów internetowych.'
+      icon: tabler:building-store
+    - title: 'Partnerstwo OEM/ODM'
+      description: 'Kompleksowa produkcja OEM i ODM z własnym oznakowaniem, opakowaniem i specyfikacjami produktu. Od koncepcji po kontener.'
+      icon: tabler:certificate
+    - title: 'Partnerstwo markowe'
+      description: 'Private label i rozwój modeli dla doświadczonych marek w branży morskiej i outdoorowej.'
+      icon: tabler:stars
+    - title: 'Instytucje i sektor publiczny'
+      description: 'Programy dostawców preferencyjnych dla agencji rządowych, straży przybrzeżnej, wojska i organizacji humanitarnych. Dokumentacja gotowa do przetargu.'
+      icon: tabler:building-community
+    - title: 'Partner w turystyce i wypożyczalni'
+      description: 'Ceny flotowe, stała jakość i własne oznakowanie dla ośrodków wypoczynkowych, centrów nurkowych i wypożyczalni na całym świecie.'
+      icon: tabler:sun
+content_benefits:
+  tagline: 'Dlaczego warto z nami współpracować'
+  title: 'Dlaczego partnerzy wybierają Vatrad'
+  subtitle: 'Nasi partnerzy pracują z prawdziwym zapleczem produkcyjnym, stałą jakością i responsywnym wsparciem inżynieryjnym.'
+  list:
+    - 'Bezpośredni dostęp do fabryki: pracujesz bezpośrednio z naszym zespołem produkcyjnym — bez pośredników. Szybsze odpowiedzi, pełna widoczność produkcji i odpowiedzi inżynierskie od ludzi, którzy budują deski.'
+    - 'Gotowość do personalizacji: oznacz swoje produkty własnymi kolorami, logo, opakowaniami i specyfikacjami. MOQ potwierdzamy na podstawie konfiguracji projektu — etap próbki, pilotażu i wolumenu.'
+    - 'Gwarancja jakości: produkcja certyfikowana ISO 9001 ze zgodnością z CE, BSCI i REACH. Każdy produkt przechodzi próbę ciśnieniową przed wysyłką.'
+    - 'Globalna logistyka: wysyłka z Qingdao w Chinach w wariantach FOB, CIF i DDP. Magazyn w Montclair w Kalifornii na dystrybucję w Ameryce Północnej.'
+    - 'Dokumentacja techniczna: katalogi produktów, fotografia i dokumentacja techniczna wspierające decyzje o specyfikacji i zamówieniach uzupełniających.'
+    - 'Wsparcie techniczne i QC: próbki przed zamówieniem wolumenowym, wsparcie techniczne dla Twoich klientów i koordynacja obsługi gwarancyjnej.'
+content_process:
+  tagline: 'Jak zostać partnerem'
+  title: 'Proces partnerstwa'
+  subtitle: 'Prosty proces — od zgłoszenia do Twojej pierwszej serii produkcyjnej.'
+  items:
+    - title: 'Krok 1: Złóż wniosek'
+      description: 'Wypełnij formularz zgłoszenia partnerskiego, podając profil firmy, rynek docelowy i zainteresowanie produktami.'
+    - title: 'Krok 2: Ocena kwalifikacji'
+      description: 'Nasz zespół przegląda Twoje zgłoszenie i kontaktuje się z Tobą w ciągu 3 dni roboczych, aby omówić wymagania.'
+    - title: 'Krok 3: Umowa i konfiguracja'
+      description: 'Podpisz umowę partnerską, skonfiguruj konto i otrzymaj próbki produktów, specyfikacje oraz uzgodnione warunki.'
+    - title: 'Krok 4: Próba i produkcja'
+      description: 'Zatwierdź próbki fizyczne, potwierdź specyfikacje i MOQ — produkcja rusza pod Twoją marką.'
+cta:
+  title: 'Porozmawiaj o współpracy'
+  subtitle: 'Wyślij swoje wymagania, a nasz zespół odpowie w ciągu 3 dni roboczych.'
+  actions:
+    - variant: primary
+      text: 'Wyślij wymagania'
+      href: /pl/contact
+    - text: 'Zobacz nasze produkty'
+      href: /pl/products
+
+content_html: |
+  <div class="mx-auto max-w-3xl space-y-4 rounded-2xl border bg-card p-6 text-[14.5px] leading-relaxed text-fg-2">
+    <p><strong>Czytaj dalej:</strong> programy partnerskie korzystają z jednego <a href="/pl/oem-manufacturing">silnika produkcyjnego OEM/ODM</a> — tam określamy warunki, próbne MOQ i personalizację — a cała produkcja przechodzi przez <a href="/pl/factory">fabrykę o powierzchni 12,500 m&sup2;</a>.</p>
+  </div>

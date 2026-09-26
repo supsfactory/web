@@ -1,0 +1,100 @@
+meta:
+  title: 'O Vatrad — morski dział produkcji'
+  description: 'Vatrad to morski dział produkcji Qingdao Vatrad Group, założony w 2012 roku w Qingdao, w Chinach — fabryka stojąca za każdym niestandardowym projektem iSupfactory.'
+  dateModified: '2026-08'
+  keywords:
+    - 'Vatrad'
+    - 'fabryka sup Chiny'
+    - 'producent nadmuchiwanych desek sup'
+    - 'qingdao vatrad group'
+hero:
+  tagline: O Vatrad
+  title: 'Vatrad — morski dział produkcji stojący za {SITE}'
+  subtitle: 'Założona w 2012 roku w Qingdao, w Chinach, firma Vatrad buduje nadmuchiwane łodzie i deski SUP realizowane w niestandardowych projektach iSupfactory — zakład o powierzchni 12,500 m², ponad 350 pracowników i roczna zdolność produkcyjna ponad 120,000 sztuk.'
+  actions:
+    - text: 'Rozpocznij projekt na zamówienie'
+      href: /pl/contact
+      variant: primary
+    - text: 'Zobacz fabrykę'
+      href: /pl/factory
+      variant: secondary
+intro: |
+  <p><strong>Vatrad</strong> to morski dział produkcji w strukturze <strong>Qingdao Vatrad Group Co., Ltd.</strong>, zlokalizowany w Strefie Rozwoju Gospodarczego w Laixi, w Qingdao, w prowincji Shandong, w Chinach. Założona w 2012 roku firma zaczynała jako wyspecjalizowana stocznia związana z rzemiosłem morskim, a dziś jest certyfikowaną fabryką obsługującą klientów OEM i ODM w ponad 50 krajach.</p>
+  <p>iSupfactory to dział rozwoju produktów na zamówienie (B2B) fabryki Vatrad. Każdy projekt iSupfactory — od pierwszej próbki lub małej współmarkowanej serii po pełną linię produktową private label — powstaje w tym samym zakładzie, w tych samych zespołach i w tym samym systemie jakości, które opisano tutaj.</p>
+  <p>Fabryka zajmuje 12,500 m² i obejmuje wydzielone oddziały cięcia PVC, składania rdzenia drop-stitch, zgrzewania wysokoczęstotliwościowego, montażu desek oraz strefę badawczą do prób szczelności powietrznej, utrzymania ciśnienia i wytrzymałości szwów. Zdolność produkcyjna przekracza 120,000 nadmuchiwanych sztuk rocznie, a zakład działa w oparciu o system zarządzania jakością ISO 9001, zgodność z CE, BSCI i REACH oraz dopuszczenie USCG dla produktów eksportowanych.</p>
+  <p>Ponad 350 wykwalifikowanych pracowników i ponad 14 inżynierów R&amp;D wspierają dwa obszary pracy, które mają znaczenie dla marek SUP: inżynieria (projekt kadłuba, dobór materiałów, prototypowanie) i produkcja (nakładanie grafiki, montaż, inspekcja, pakowanie eksportowe). Dział R&amp;D z własnym laboratorium tkanin PCV i basenem próbowym opracowuje niestandardowe formy i weryfikuje konstrukcję przed rozpoczęciem produkcji seryjnej.</p>
+stats:
+  title: Vatrad w liczbach
+  stats:
+    - title: Rok założenia
+      amount: 2012
+    - title: Zakład
+      amount: '12,500 m²'
+    - title: Obsługiwane kraje
+      amount: '50+'
+    - title: Roczna zdolność
+      amount: '120,000+ szt.'
+    - title: Pracownicy
+      amount: '350+'
+    - title: Inżynierowie R&amp;D
+      amount: '14+'
+values_section:
+  title: Jak fabryka współpracuje z markami
+  subtitle: 'Trzy zasady, które kształtują każdy projekt realizowany przez fabrykę Vatrad.'
+  columns: 3
+  items:
+    - title: Inżynieria przed produkcją
+      description: 'Każdy projekt zaczyna się od wymagań, rysunków i fizycznej próbki — kształt kadłuba, klasa drop-stitch, rozmieszczenie grafiki i opakowanie są weryfikowane przed jakąkolwiek serią produkcyjną, a nie odkrywane na linii.'
+      icon: 'tabler:settings'
+    - title: Jeden zespół, jeden zakład
+      description: 'Projektowanie, cięcie, zgrzewanie, montaż i badania odbywają się w jednym zakładzie o powierzchni 12,500 m². Bez przekazywania przez pośrednika handlowego: osoby, które odpowiadają na Twoje pytania, to osoby, które budują Twoje deski.'
+      icon: 'tabler:building-factory-2'
+    - title: Małe pierwsze serie
+      description: 'Współmarkowanie w małej serii startuje od 5–10 sztuk, a standardowa produkcja seryjna to 90–100+ sztuk na partię (jedna rolka drop-stitch 150 m), więc marki weryfikują rynek przed skalowaniem — z zachowaniem narzędzi i wzorów na powtórne zamówienia.'
+      icon: 'tabler:layers-intersect'
+services_section:
+  title: Co dostarcza fabryka
+  subtitle: 'Usługi produkcyjne dostępne dla klientów iSupfactory.'
+  columns: 2
+  items:
+    - title: Rozwój desek SUP na zamówienie
+      description: 'Analiza wymagań, specyfikacja, dobór materiałów, grafika, prototypowanie, akceptacja próbki i produkcja niestandardowych produktów nadmuchiwanych desek SUP.'
+      icon: 'tabler:bulb'
+    - title: Produkcja private label
+      description: 'Twoje logo, kolory i opakowanie na sprawdzonych platformach klasy komercyjnej — deska, pokład, akcesoria i kartony są zawsze z Twoją identyfikacją, bez oznaczeń fabryki.'
+      icon: 'tabler:tag'
+    - title: Produkcja OEM / ODM
+      description: 'Pełna produkcja nadmuchiwanych desek SUP w modelu OEM i ODM na podstawie rysunków klienta lub projektów opracowanych wspólnie, w tym niestandardowe formy dla nowych kształtów desek.'
+      icon: 'tabler:package'
+    - title: Zaopatrzenie flot
+      description: 'Markowane floty desek dla ośrodków wypoczynkowych, klubów, szkół i wypożyczalni, z dopasowanymi akcesoriami i serią produkcyjną przygotowaną pod flotę.'
+      icon: 'tabler:users-group'
+certifications_section:
+  title: Certyfikacja i zgodność
+  subtitle: 'Fabryka dostarcza produkty do UE, USA i regionu Azji i Pacyfiku w ramach udokumentowanego systemu zgodności.'
+  columns: 2
+  items:
+    - title: Certyfikacja CE
+      description: 'Linie nadmuchiwanych desek SUP i łodzi są zgodne z unijnymi dyrektywami bezpieczeństwa, a dokumentacja jest dostępna dla każdego rynku.'
+      icon: 'tabler:certificate'
+    - title: System jakości ISO 9001
+      description: 'Zakład produkcyjny działa w oparciu o system zarządzania jakością ISO 9001 obejmujący kontrolę materiałów przychodzących, kontrolę w trakcie procesu i inspekcję końcową.'
+      icon: 'tabler:badge-check'
+    - title: Zgodność społeczna BSCI
+      description: 'Odpowiedzialność społeczna audytowana wg BSCI, obejmująca warunki pracy i zgodność fabryki.'
+      icon: 'tabler:shield-check'
+    - title: Zgodność materiałowa REACH
+      description: 'Materiały spełniają wymagania unijnego rozporządzenia REACH w zakresie bezpieczeństwa chemicznego.'
+      icon: 'tabler:flask'
+    - title: Dopuszczenie USCG
+      description: 'Produkcja nadmuchiwanych łodzi z dopuszczeniem US Coast Guard dla linii produktowych nadmuchiwanych jednostek wodnych.'
+      icon: 'tabler:anchor'
+    - title: Badania produktowe
+      description: 'Próby wyporności, nośności, wytrzymałości szwów, odporności na UV, odporności na ścieranie i utrzymania ciśnienia na każdej linii produkcyjnej.'
+      icon: 'tabler:test-pipe'
+cta:
+  title: 'Zbuduj swój projekt SUP razem z fabryką Vatrad'
+  subtitle: 'Wyślij wymagania — typ deski, rozmiar, ilość i grafikę — a otrzymasz szczegółową ofertę w ciągu jednego dnia roboczego.'
+  actions:
+    - text: Identyfikacja marki
+      href: /pl/about/identity

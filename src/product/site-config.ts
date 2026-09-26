@@ -221,6 +221,30 @@ export const HERO_CONTENT = {
     float1: { value: '1–2 stk', label: 'Prøve og godkjenning (før volumforpliktelse)' },
     float2: { value: FACTS.leadTime, label: 'Produksjonstid (etter PO)' },
   },
+  pl: {
+    kicker: 'Fabryka w Qingdao, Chiny · OEM / ODM / Marka własna · Od próbki do produkcji seryjnej',
+    titlePre: 'Produkcja indywidualnych produktów SUP dla',
+    titleAccent: 'marek, dystrybutorów i organizacji',
+    titlePost: '',
+    sub: 'Nadmuchiwane deski SUP w ramach OEM, ODM i pod marką własną — od przeglądu specyfikacji i opracowywania próbek po produkcję seryjną z kontrolą jakości w Qingdao, w Chinach.',
+    ctaPrimary: 'Rozpocznij swój projekt SUP',
+    ctaSecondary: 'Zobacz fabrykę, minimalną ilość zamówienia i dowody jakości',
+    ctaTertiary: '',
+    ctaQuartiary: '',
+    ctaMicro: 'Odpowiedź w 1 dzień roboczy · NDA dostępne przed wymianą plików · Minimalna ilość zamówienia potwierdzana po przeglądzie specyfikacji',
+    stats: [
+      { value: '12 500 m²', label: 'Własna fabryka — Qingdao, Chiny' },
+      { value: '120 000+', label: 'Desek wyprodukowanych rocznie' },
+      { value: '50+', label: 'Krajów eksportowych' },
+      { value: FACTS.ndaWindow, label: 'Czas odpowiedzi na NDA' },
+    ],
+    mockupLabel: 'Platforma flagowa',
+    mockupBrand: "SUP Explorer 11'",
+    mockupHint: 'Twoja grafika · Twoje kolory · Twoje opakowanie',
+    heroNote: 'Minimalna ilość zamówienia jest potwierdzana po przeglądzie specyfikacji, ponieważ konstrukcja, rozmiar deski, budowa PVC, grafika, opakowanie i akcesoria wpływają na zużycie materiału.',
+    float1: { value: '1–2 szt', label: 'Próbka i akceptacja (przed zobowiązaniem do wolumenu)' },
+    float2: { value: FACTS.leadTime, label: 'Czas realizacji produkcji (po PO)' },
+  },
 }
 
 /** 供 Seo 模块使用的简化映射（仅读，不修改 PUBLIC_PATHS/HREFLANG/OG_*） */

@@ -1,0 +1,85 @@
+meta:
+  title: 'Zdolność produkcyjna — fabryka 12,500 m² | {SITE}'
+  description: 'Zdolność produkcyjna fabryki Vatrad: zakład 12,500 m² produkujący ponad 120,000 desek SUP rocznie, z zapasem na skalowanie. Produkcja OEM/ODM nadmuchiwanych desek SUP na dużą skalę.'
+  dateModified: '2026-08-07'
+  keywords:
+    - 'zdolność produkcyjna sup'
+    - 'fabryka nadmuchiwanych desek sup'
+    - 'produkcja desek paddle'
+    - 'fabryka sup Chiny'
+hero:
+  tagline: Zdolność produkcyjna
+  title: Zdolność produkcyjna i roczna produkcja
+  subtitle: Zakład 12,500 m² produkujący ponad 120,000 desek SUP rocznie, z zapasem na skalowanie
+
+answer:
+  label: 'Wprost'
+  text: 'Zdolność fabryki: 12,500 m² w czterech wyspecjalizowanych oddziałach, ponad 120,000 desek SUP rocznie, ponad 350 pracowników na dwóch zmianach, eksport do ponad 50 krajów. MOQ potwierdzamy wg konfiguracji projektu — próbka (1–2 szt.), seria pilotażowa (20–50 szt.) i wolumen standardowy (90–100+ szt. na rolkę 150 m); pełną logikę znajdziesz w naszym Przewodniku MOQ i elastycznego brandingu. Czas realizacji 25–35 dni, próbki 7–12 dni.'
+  verified: 'Wrzesień 2026'
+
+intro: Vatrad prowadzi jeden z największych w Chinach zakładów poświęconych produkcji nadmuchiwanych desek SUP, w Qingdao. Nasza fabryka o powierzchni 12,500 m² jest podzielona na cztery wyspecjalizowane oddziały działające równolegle. Roczna zdolność produkcyjna desek SUP to 120,000+ nadmuchiwanych desek (około 10,000 miesięcznie), a ponad 50,000 kamizelek ratunkowych i ponad 5,000 akcesoriów powstaje na osobnych liniach produktowych.
+
+highlights:
+  - value: 12,500 m²
+    label: Łączna powierzchnia produkcyjna
+    detail: W 4 wyspecjalizowanych oddziałach
+  - value: 120,000+
+    label: Roczna zdolność SUP
+    detail: Nadmuchiwane deski SUP, ok. 10,000/miesiąc
+  - value: 350+
+    label: Wykwalifikowana załoga
+    detail: Ponad 25 inżynierów, 2 zmiany dziennie
+  - value: 50+
+    label: Kraje eksportowe
+    detail: UE, USA, AU, Bliski Wschód, Azja
+  - value: 25–35
+    label: Standardowy czas realizacji (dni)
+    detail: Po potwierdzeniu zamówienia i zaliczki
+  - value: 10+
+    label: Lat doświadczenia w eksporcie
+    detail: Od 2012 roku
+
+workshops:
+  - title: Produkcja desek SUP
+    description: '4 zautomatyzowane linie montażu nadmuchiwanych desek SUP o łącznym wyprowadzeniu około 10,000 desek miesięcznie. Stacje druku cyfrowego i sitograficznego działają równolegle. Roczna zdolność SUP: ponad 120,000 desek.'
+    output: 'Ponad 120,000 desek SUP/rok'
+  - title: Produkcja desek SUP — linie rozszerzenia
+    description: 'Dodatkowe zautomatyzowane linie montażu desek SUP uruchamiane wraz ze wzrostem wolumenu. Stacje laminowania rdzenia drop-stitch, druku cyfrowego i montażu działają równolegle.'
+    output: 'Część rocznej zdolności 120,000+ desek SUP'
+  - title: Akcesoria SUP i montaż mieszany
+    description: 'Wielofunkcyjne linie montażu akcesoriów SUP — wiosła, płetwy, smycze, worki i zestawy. Stanowiska zgrzewania gorącopowietrznego, prasy dielektryczne HF i stanowiska montażowe są przestawiane zależnie od struktury zamówień. Roczna zdolność akcesoriów: ponad 5,000 sztuk.'
+    output: 'Ponad 5,000 akcesoriów/rok'
+  - title: Sprzęt bezpieczeństwa
+    description: 'Odrębna hala produkcyjna o podwyższonym standardzie czystości dla kamizelek ratunkowych i sprzętu bezpieczeństwa. Dedykowane stanowiska szycia, wkładania pianki i badań. Roczna zdolność produkcji kamizelek: ponad 50,000 sztuk.'
+    output: 'Ponad 50,000 kamizelek/rok'
+
+oem_capacity:
+  moq: 'SUP: próbka 1–2 | pilotażowa 20–50 | wolumen 90–100+ (na rolkę 150 m)'
+  lead_time: 'Standardowo 25–35 dni. Próbka 7–12 dni. Możliwa ekspresowa realizacja.'
+  payment: 'T/T 30% zaliczki + 70% pozostałości. Akceptujemy L/C i Western Union.'
+
+lead_time_explainer:
+  tagline: 'Planowanie i harmonogram'
+  title: 'Jak zdolność produkcyjna przekłada się na Twoją dostawę'
+  subtitle: 'Zdolność produkcyjna to nie jedna liczba — oto jak w praktyce przydzielamy terminy realizacji.'
+  items:
+    - title: 'Zdolność zależy od Twojej specyfikacji'
+      body: 'Dostępne terminy zmieniają się wraz z typem deski, złożonością konstrukcji, opakowaniem i sezonowym popytem. Wiosenno-letnie wzmożenie produkcji oznacza, że linie pracują niemal na pełnej mocy, a miejsca na próbki znikają najszybciej.'
+    - title: 'Zaplanuj przed sezonem premiery'
+      body: 'Zablokuj potwierdzenie próbki i zamrożenie projektu graficznego wcześnie. Zamówienia powtarzalne trafiają do uzgodnionego cyklicznego terminu, gdy próbka wzorcowa jest już w archiwum.'
+    - title: 'Trzy ścieżki harmonogramu'
+      body: 'Próbki wchodzą najpierw na linię prototypową, pierwsze zamówienia zajmują najbliższe wolne okno montażowe, a zamówienia powtarzalne realizowane są w swoim cyklicznym terminie.'
+    - title: 'Wiążący termin po przeglądzie'
+      body: 'Potwierdzamy wiążący czas realizacji dopiero po przeglądzie specyfikacji, projektu graficznego, opakowania i ilości — nigdy jako stałą obietnicę z góry.'
+
+cta:
+  title: 'Sprawdź dostępność produkcji na swój termin premiery'
+  subtitle: 'Wyślij typ deski, ilość i docelową datę wysyłki — odpowiemy najbliższym wolnym terminem produkcyjnym i szacunkowym czasem realizacji.'
+  actions:
+    - variant: primary
+      text: Sprawdź dostępność
+      href: /pl/contact#production-availability
+    - text: Zobacz pełne omówienie fabryki
+      href: /pl/factory
+    - text: Jak powstają deski
+      href: /pl/factory/process

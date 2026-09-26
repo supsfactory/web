@@ -1,0 +1,123 @@
+meta:
+  title: 'Porównanie konstrukcji SUP — jedna warstwa vs dwie warstwy vs drop-stitch PCV | iSupfactory'
+  description: 'Porównanie konstrukcji nadmuchiwanych desek SUP: jednowarstwowe PCV, dwuwarstwowe PCV i rdzeń drop-stitch — sztywność, waga, trwałość, cena i najlepsze zastosowanie.'
+  dateModified: '2026-08-21'
+  keywords:
+    - 'porównanie konstrukcji sup'
+    - 'typy konstrukcji nadmuchiwanych sup'
+    - 'sup jedna warstwa vs dwie warstwy'
+    - 'konstrukcja sup drop-stitch'
+    - 'konstrukcja sup z pcv'
+    - 'sztywność deski sup'
+    - 'waga deski sup'
+
+hero:
+  tagline: 'Przewodnik konstrukcji'
+  title: 'Porównanie konstrukcji SUP'
+  subtitle: 'Trzy typy konstrukcji, jedna linia produkcyjna. Zrozum sztywność, wagę, trwałość i koszty w porównaniu jednowarstwowego PCV, dwuwarstwowego PCV oraz rdzenia drop-stitch — i wybierz wariant pasujący do Twojego użytkownika i pozycji rynkowej.'
+
+answer:
+  label: 'Szybkie porównanie'
+  text: 'Jednowarstwowe PCV jest najlżejsze i najtańsze — najlepsze dla użytkowników rekreacyjnych i rynków wrażliwych na cenę. Dwuwarstwowe PCV dodaje drugą warstwę PCV dla sztywności i trwałości przy umiarkowanej wadze — branżowy standard dla flot wynajmowych i marek średniego segmentu. Rdzeń drop-stitch z powłoką PCV daje najwyższą sztywność i tolerancję ciśnienia — preferowany w zastosowaniach sportowych, surferskich i dla cięższych użytkowników. Wszystkie trzy konstrukcje powstają na tej samej linii produkcyjnej z tymi samymi bramkami QC; różnią się materiałami i etapami laminowania.'
+  verified: 'Wrzesień 2026'
+
+comparison_table:
+  tagline: 'Obok siebie'
+  title: 'Porównanie typów konstrukcji'
+  headers:
+    - 'Cecha'
+    - 'Jednowarstwowe PCV'
+    - 'Dwuwarstwowe PCV'
+    - 'Rdzeń drop-stitch + powłoka PCV'
+  rows:
+    - - 'Sztywność (wartość PSI)'
+      - '12–15 PSI'
+      - '15–18 PSI'
+      - '18–25 PSI'
+    - - 'Waga (deska 11 ft)'
+      - '7–9 kg'
+      - '10–13 kg'
+      - '12–15 kg'
+    - - 'Trwałość'
+      - 'Dobra — użytkowanie rekreacyjne'
+      - 'Bardzo dobra — najem i zastosowania komercyjne'
+      - 'Doskonała — sport i ciężsi użytkownicy'
+    - - 'Warstwy konstrukcji'
+      - '1 warstwa PCV + rdzeń drop-stitch'
+      - '2 warstwy PCV + rdzeń drop-stitch'
+      - 'Wzmocniony drop-stitch + powłoka PCV + taśma krawędziowa'
+    - - 'Typowe zastosowanie'
+      - 'Segment podstawowy, rekreacja, rynki wrażliwe na cenę'
+      - 'Allround, najem, kluby, marki średniego segmentu'
+      - 'Touring, surf, ciężsi użytkownicy, marki premium'
+    - - 'Koszt względny'
+      - 'Najniższy'
+      - 'Średni'
+      - 'Wyższy'
+    - - 'Metoda łączenia'
+      - 'Szwy zgrzewane HF'
+      - 'Szwy zgrzewane HF + laminowanie'
+      - 'Szwy zgrzewane HF + wzmocnione krawędzie'
+    - - 'Norma badania ciśnieniowego'
+      - 'Próba podtrzymania 18.0 PSI'
+      - 'Próba podtrzymania 18.0 PSI'
+      - 'Próba podtrzymania 18.0 PSI (wyższa wartość znamionowa)'
+
+use_cases:
+  tagline: 'Która konstrukcja dla którego kupującego'
+  title: 'Dopasuj konstrukcję do swojego rynku docelowego'
+  subtitle: 'Wybór konstrukcji to nie tylko decyzja kosztowa — definiuje odczucia użytkownika, profil ryzyka gwarancyjnego i pozycjonowanie marki, które możesz utrzymać.'
+  grid: 'sm:grid-cols-3'
+  features:
+    - icon: S
+      icon_bg: blue
+      title: 'Jedna warstwa na start i wolumen'
+      desc: 'Najlżejsza deska w najniższym punkcie cenowym. Idealna dla marek celujących w pierwszych kupujących, sprzedaż w dużych sieciach i marketplace’y, gdzie ceną decyduje się o zakupie. Akceptowalna sztywność do paddleowania na spokojnej wodzie przy umiarkowanym PSI. Niższy odsetek reklamacji gwarancyjnych przy użytkowaniu w znamionowym zakresie ciśnień.'
+      link_label: 'Zobacz deski OEM z segmentu podstawowego'
+      href: /pl/oem-manufacturing
+    - icon: D
+      icon_bg: green
+      title: 'Dwie warstwy do najmu i zastosowań komercyjnych'
+      desc: 'Konstrukcja robocza dla flot wynajmowych, klubów, ośrodków i programów szkoleniowych. Dodatkowa warstwa PCV wytrzymuje uderzenia, ekspozycję UV i codzienną obsługę, które niszczą jednowarstwowe deski w zastosowaniach komercyjnych. Wyższa tolerancja ciśnienia oznacza sztywniejszy przejazd dla cięższych użytkowników. Najpopularniejszy segment konstrukcji na świecie.'
+      link_label: 'Rozwiązania dla najmu i ośrodków'
+      href: /pl/solutions/resort-sup
+    - icon: P
+      icon_bg: purple
+      title: 'Rdzeń drop-stitch dla osiągów'
+      desc: 'Maksymalna sztywność dla touring, surfu, wędkarstwa i cięższych użytkowników. Wzmocniona konstrukcja krawędzi i wyższa wartość PSI dają właściwości deski twardej w przenośnym opakowaniu. Doceniane przez marki sportowe i doświadczonych paddlerów. Wyższy koszt materiału, ale lepsze pozycjonowanie marki i niższy wskaźnik reklamacji na sztukę.'
+      link_label: 'Rozwój desek sportowych'
+      href: /pl/odm-manufacturing
+
+key_factors:
+  heading: 'Kluczowe czynniki poza typem konstrukcji'
+  body: |
+    Typ konstrukcji to tylko jedna ze zmiennych wpływających na właściwości deski. Trzy dodatkowe czynniki mają równie wielkie, a nawet większe znaczenie:
+
+    - **Gęstość drop-stitch** — Liczba nici na cal decyduje o tym, jak równomiernie deska utrzymuje kształt pod ciśnieniem. Stosujemy standardowo 96 nici na cal, a 140 nici na cal w wersjach sportowych. Wyższa gęstość = płaska deska = lepsze ślizganie.
+    - **Klasa i grubość PCV** — Nie każdy PCV jest taki sam. PCV o grubości 0,7 mm importowany z Korei ma wyższą wytrzymałość na rozciąganie i lepszą odporność na UV niż cieńsze alternatywy. Klasę materiału dobieramy dla każdego projektu.
+    - **Konstrukcja krawędzi** — Krawędzie w jednowarstwowych deskach to najczęstsze miejsce awarii w tanich modelach. Dwuwarstwowość i wzmocniona taśma krawędziowa drastycznie ograniczają ryzyko przebicia krawędzi. Wszystkie nasze deski mają wzmocnione krawędzie, niezależnie od segmentu konstrukcji.
+
+faqs:
+  tagline: FAQ
+  title: 'Konstrukcja SUP — najczęściej zadawane pytania'
+  items:
+    - q: 'Jaki typ konstrukcji powinienem wybrać dla mojej marki?'
+      a: 'To zależy od Twojego rynku docelowego i pozycjonowania cenowego. Segment podstawowy i duże sieci handlowe: jedna warstwa. Floty najmowe, kluby i marki średniego segmentu: dwie warstwy. Sport, touring i premium: rdzeń drop-stitch. Większość marek zaczyna od dwóch warstw jako najlepszego kompromisu między kosztem, trwałością a odczuciami użytkownika. Rekomendujemy wariant w oparciu o Twój konkretny rynek podczas przeglądu wykonalności.'
+    - q: 'Czy mogę oferować kilka segmentów konstrukcji pod jedną marką?'
+      a: 'Tak — wiele marek oferuje dwa lub trzy segmenty. Wszystkie trzy konstrukcje produkujemy na tej samej linii z tymi samymi bramkami QC, więc możesz mieszać typy konstrukcji w ramach jednego zamówienia. Kształt kadłuba i grafika mogą być identyczne we wszystkich segmentach; różnią się tylko konstrukcja i materiały.'
+    - q: 'Jaka jest norma badania ciśnieniowego dla wszystkich konstrukcji?'
+      a: 'Każda deska, niezależnie od typu konstrukcji, przechodzi próbę podtrzymania 18.0 PSI z automatycznym odrzuceniem przy spadku ciśnienia powyżej 0.50 PSI w ciągu 24 godzin. Deski jednowarstwowe mają znamionowe ciśnienie użytkowe 12–15 PSI, dwuwarstwowe 15–18 PSI, a z rdzeniem drop-stitch 18–25 PSI. Ciśnienie próbne przekracza ciśnienie znamionowe dla wszystkich typów.'
+    - q: 'Jak konstrukcja wpływa na reklamacje gwarancyjne?'
+      a: 'Deski jednowarstwowe mają nieco wyższy wskaźnik reklamacji gwarancyjnych w zastosowaniach komercyjnych i wynajmowych z powodu ekspozycji krawędzi i przebić. Konstrukcje dwuwarstwowe i z rdzeniem drop-stitch mają znacząco niższe wskaźniki. Dane gwarancyjne dla każdego segmentu przekazujemy z naszych zapisów produkcyjnych na etapie wyceny.'
+
+cta:
+  title: 'Potrzebujesz pomocy w wyborze konstrukcji?'
+  subtitle: 'Podaj nam swojego docelowego użytkownika, punkt cenowy i rynek — zarekomendujemy właściwy segment konstrukcji i udostępnimy deski próbkowe do oceny.'
+  actions:
+    - variant: primary
+      text: 'Rozpocznij brief projektu'
+      href: /pl/contact#project-brief
+    - text: 'Zobacz szczegóły produkcji OEM'
+      href: /pl/oem-manufacturing
+    - text: 'Porównaj OEM, ODM i private label'
+      href: /pl/oem-odm-private-label-comparison

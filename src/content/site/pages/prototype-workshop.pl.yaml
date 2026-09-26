@@ -1,0 +1,102 @@
+meta:
+  title: 'Warsztat Prototypów SUP — budowa desek próbnych'
+  description: 'Od modelu CAD do przetestowanej deski próbnej w 7–12 dni. Nasz Warsztat Prototypów buduje, testuje i waliduje niestandardowe próbki SUP. Rozpocznij swój projekt prototypu już dziś.'
+  dateModified: '2026-08'
+back_text: 'Powrót do centrum B&R'
+home_label: 'Strona główna'
+
+answer:
+  label: 'Krótka odpowiedź'
+  text: 'Zamieniamy model CAD w gotową do jazdy, przetestowaną deskę próbną w 7–12 dni: nadmuchiwany prototyp, próby na wodzie, iteracje listwy i dzioba, a następnie decyzja o uruchomieniu oprzyrządowania produkcyjnego. Pełne niestandardowe formy wymagają 15–20 dni oprzyrządowania plus standardowy czas realizacji serii 25–35 dni.'
+  verified: 'Wrzesień 2026'
+
+hero:
+  tagline: 'Laboratorium 05'
+  title: 'Warsztat Prototypów'
+  subtitle: 'Od modelu CAD do przetestowanej deski próbnej — zbudowanej, doposażonej i sprawdzonej'
+  image: 'https://assets.isupfactory.com/images/sups/products/sup-series/sup-ocean-voyager-1.webp'
+  image_alt: 'Produkcja deski SUP w warsztacie prototypów Vatrad'
+
+intro: 'Model CAD, niezależnie od tego, jak szczegółowy, nie pokaże, jak deska będzie się naprawdę zachowywać, dopóki nie zostanie nadmuchana, postawiona i wypróbowana. Dlatego nasz Warsztat Prototypów jest zaprojektowany tak, aby jak najszybciej i najdokładniej zamieniać dane inżynierskie w fizyczną deskę gotową do jazdy. Każdy nowy model {SITE.name} — i każda istotna budowa niestandardowa — przechodzi przez ten warsztat, zanim podejmiemy decyzję o uruchomieniu oprzyrządowania produkcyjnego.'
+
+content_html: |
+  <h2>Miejsce, gdzie projekt staje się rzeczywistością</h2>
+  <p>Warsztat jest wyposażony do jednoczesnej produkcji paneli, rdzeni drop-stitch i listew krawędziowych. Takie podejście oparte na pracach równoległych skraca czas powstania prototypu do 7–12 dni od daty przekazania projektu z działu inżynierii. Gdy Twoje zastosowanie wymaga rozwiązania specjalistycznego, możemy przejść od koncepcji do walidacji na wodzie w niespełna trzy tygodnie.</p>
+
+  <h2>Możliwości warsztatu</h2>
+  <table>
+    <thead><tr><th>Stanowisko</th><th>Wyposażenie</th><th>Przeznaczenie</th></tr></thead>
+    <tbody>
+      <tr><td>Cięcie paneli</td><td>Ploter CNC do tkanin, oprogramowanie do nestingu, biblioteka wzorów paneli</td><td>Precyzyjne cięcie paneli pokładu, dna i listew krawędziowych dla każdego rozmiaru deski</td></tr>
+      <tr><td>Składanie rdzenia</td><td>Stół laminowania rdzenia drop-stitch, wałki do nakładania kleju</td><td>Łączenie rdzenia drop-stitch między powłokami PCV z równomiernym pokryciem klejem</td></tr>
+      <tr><td>Zgrzewanie</td><td>Prasa do zgrzewania HF, stanowisko do wstępnego zgrzewania gorącym powietrzem, przyrząd do prób ciśnieniowych</td><td>Zgrzewanie szwów pełnowymiarowych zespołów deski z zaworami, uchwytami i gniazdami na statek</td></tr>
+      <tr><td>Wyposażanie i wykańczanie</td><td>Aplikator dokładki pokładowej, stół laminowania grafiki, stanowisko osprzętowe</td><td>Kompleksowe wyposażenie: dokładki, logotypy, uchwyt, gniazdo na linkę, gniazda na statek</td></tr>
+      <tr><td>Stanowisko pomiarowe</td><td>Manometry, rejestrator danych, przyrząd do pomiaru ugięcia</td><td>Badania próbne: cykle nadmuchiwania, ugięcie pokładu, pomiar utrzymania powietrza</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Droga prototypu — krok po kroku</h2>
+  <ol>
+    <li><strong>Przekazanie z inżynierii</strong> — pakiet projektowy (model 3D, raport FEA, lista materiałowa, plan układu paneli) jest formalnie przeglądany przez kierownika warsztatu i inżyniera projektu. Wszystkie zastrzeżenia produkcyjne są zgłaszane i rozwiązywane przed rozpoczęciem cięcia.</li>
+    <li><strong>Produkcja paneli</strong> — deska jest budowana zgodnie ze specyfikacją inżynierską. Panele są cięte CNC, rdzeń drop-stitch jest laminowany między powłokami PCV, a pokład i dno są składane z zatwierdzonym układem materiałów.</li>
+    <li><strong>Zgrzewanie</strong> — panele są spawane HF do pełnego kształtu deski. Komora jest napompowywana do ciśnienia próbnego i pozostawiona na 24 h w celu wstępnej stabilizacji.</li>
+    <li><strong>Montaż i wykończenie</strong> — montowane są dokładka pokładowa, grafika, uchwyt, gniazdo na linkę i gniazda na statek. Wszystkie elementy są instalowane i sprawdzane względem specyfikacji.</li>
+    <li><strong>Badania statyczne</strong> — zanim deska dotknie wody, przechodzi: cykle nadmuchiwania, próbę utrzymania powietrza, pomiar ugięcia pokładu przy ciśnieniu znamionowym oraz kontrole momentu dokręcenia osprzętu.</li>
+    <li><strong>Program badań na wodzie</strong> — 10 godzin testów w wodzie, szczegółowo opisanych poniżej.</li>
+    <li><strong>Przegląd prototypu</strong> — odbywa się formalne spotkanie podsumowujące z udziałem zespołów inżynierii, produkcji i jakości. Wszystkie wymagane zmiany projektowe są dokumentowane i wprowadzane do wersji produkcyjnej.</li>
+  </ol>
+
+  <div class="not-prose my-10 p-6 rounded-xl bg-gray-50 dark:bg-gray-900 border border-gray-200 dark:border-gray-800">
+    <p class="text-sm font-semibold text-gray-500 mb-3 uppercase tracking-wider">10-godzinny program badań na wodzie — harmonogram</p>
+    <div class="space-y-2 text-sm">
+      <div class="flex items-center gap-3 p-2 rounded bg-white dark:bg-gray-950">
+        <span class="w-12 text-xs font-bold text-blue-600">1 h</span>
+        <span class="flex-1">Kontrola stabilności — równowaga w pozycji stojącej, tolerancja na obciążenie boczne</span>
+      </div>
+      <div class="flex items-center gap-3 p-2 rounded bg-white dark:bg-gray-950">
+        <span class="w-12 text-xs font-bold text-blue-600">2 h</span>
+        <span class="flex-1">Próba wiosłowania — ślizg, torowanie i skręt przy 3 prędkościach; komfort pracy wiosła</span>
+      </div>
+      <div class="flex items-center gap-3 p-2 rounded bg-white dark:bg-gray-950">
+        <span class="w-12 text-xs font-bold text-blue-600">2 h</span>
+        <span class="flex-1">Badanie obciążenia wioślarza — stabilność i ugięcie przy wioślarzach o masie 60 / 80 / 100 / 120 kg</span>
+      </div>
+      <div class="flex items-center gap-3 p-2 rounded bg-white dark:bg-gray-950">
+        <span class="w-12 text-xs font-bold text-blue-600">2 h</span>
+        <span class="flex-1">Próba fal — powtarzane przejścia przez fale za łodzią; rozbryzg przy dziobie, ugięcie listwy</span>
+      </div>
+      <div class="flex items-center gap-3 p-2 rounded bg-white dark:bg-gray-950">
+        <span class="w-12 text-xs font-bold text-blue-600">2 h</span>
+        <span class="flex-1">Próba wytrzymałości — ciągłe wiosłowanie z okresowymi kontrolami ciśnienia; zapis utrzymania powietrza</span>
+      </div>
+      <div class="flex items-center gap-3 p-2 rounded bg-white dark:bg-gray-950">
+        <span class="w-12 text-xs font-bold text-blue-600">1 h</span>
+        <span class="flex-1">Kontrola końcowa — oględziny szwów, osprzętu i grafiki po próbie; udokumentowanie ustaleń</span>
+      </div>
+    </div>
+  </div>
+
+  <h2>Prototypowanie niestandardowe dla nietypowych zastosowań</h2>
+  <p>Warsztat Prototypów to miejsce, w którym rozwiązujemy problemy, których nie potrafią obsłużyć standardowe deski produkcyjne. Ostatnie przykłady obejmują:</p>
+  <ul>
+    <li>14-calową deskę touringową dla europejskiej marki wiosłującej wytrzymanie, z zagłębionym pokładem bagażowym i wzmocnionym dziobem — wykonaną, doposażoną i przetestowaną w naszym zakładzie.</li>
+    <li>Deskę jogi 10'6" z pełnoodługościowym pokładem antypoślizgowym i dodatkową grubością dla sztywności, zwalidowaną w ramach 4-tygodniowego sezonowego testu wypożyczalni.</li>
+    <li>Deskę flotową white-label z niestandardową grafiką pokładu i podwójnymi uchwytami, gdzie prototyp posłużył do walidacji koloru, rozmieszczenia logotypu i opakowania, zanim klient zobowiązał się do odbioru kontenera.</li>
+  </ul>
+
+  <h2>Nasz zespół prototypujący</h2>
+  <p>W warsztacie pracuje ośmiu wielozadaniowych techników produkcyjnych, każdy przeszkolony w co najmniej dwóch z trzech głównych dyscyplin (cięcie, zgrzewanie, wyposażanie). Kierownik zespołu to mistrz rzemiosła z 16-letnim doświadczeniem, od budów jednostkowych na zamówienie po serie produkcyjne. Każdy prototyp ma przypisanego dedykowanego inżyniera projektu, który pełni rolę jedynego punktu kontaktu dla klienta przez cały proces budowy i testów.</p>
+
+  <h2>Zaangażowanie klienta</h2>
+  <p>Aktywnie zachęcamy klientów do obecności na kluczowych etapach budowy prototypu — w szczególności na przeglądzie pierwszego montażu i podczas badania na wodzie. Twoja opinia o pracy deski na tych etapach jest bezcenna przy dopracowywaniu jej przed wejściem na produkcję. Nie budujemy w próżni — budujemy razem z Tobą.</p>
+  <p>Program badań na wodzie to jednocześnie okazja, by Twoja drużyna zapoznała się z właściwościami jezdnymi i wymaganiami konserwacyjnymi deski, co zapewni płynne przejście na produkcję po dostarczeniu desek końcowych.</p>
+
+cta:
+  title: 'Rozpocznij projekt prototypu'
+  subtitle: 'Opowiedz nam o potrzebnej Ci desce, a my zaproponujemy plan rozwoju prototypu.'
+  actions:
+    - variant: primary
+      text: 'Skontaktuj się z naszym zespołem prototypującym'
+      href: /pl/contact#project-brief
+    - text: 'Powrót do centrum B&R'
+      href: /pl/randdcenter

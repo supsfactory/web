@@ -1,0 +1,349 @@
+meta:
+  title: 'Kontrola zmian parametrów naprawy i walidacja | iSupfactory'
+  description: 'Kontrola zmian parametrów naprawy wg ISO 9001: ECR, klasyfikacja ryzyka, macierz zatwierdzeń, walidacja i ponowna inspekcja w produkcji desek SUP.'
+  dateModified: '2026-08-14'
+  keywords:
+    - 'kontrola zmian naprawy sup'
+    - 'iso 9001 kontrola zmian w produkcji'
+    - 'zarządzanie jakością oem nadmuchiwanych sup'
+    - 'ecr żądanie zmiany inżynierskiej sup'
+    - 'standard walidacji szczelności powietrznej'
+    - 'zapewnienie jakości w fabryce sup'
+
+hero:
+  tagline: Kontrola zmian parametrów naprawy
+  title: Standard kontroli zmian i walidacji parametrów procesu naprawy
+  subtitle: 'W QINGDAO VATRAD GROUP.,LTD. żaden operator, kierownik zmiany ani pojedynczy dział nie może na miejscu zmienić zatwierdzonego parametru naprawy. Każda proponowana zmiana zatwierdzonych materiałów naprawczych, warunków procesu, oprzyrządowania, metod badań, kryteriów inspekcji lub upoważnionych osób jest prowadzona przez udokumentowaną kontrolę zmian — Żądanie Zmiany Inżynierskiej (ECR), ocenę skutków i ryzyka, zatwierdzenie międzydziałowe, plan walidacji, kontrolowane wdrożenie, ponowną inspekcję i przegląd skuteczności, a następnie zamknięcie i przechowywanie zapisów. Ta strona przedstawia nasz kontrolowany standard QMS-SOP-QC-CC-001 (Rev 2.0, oparty na ISO 9001:2015) oraz dowody inżynierskie, które za nim stoją.'
+  actions:
+    - text: Pobierz SOP kontroli zmian (PDF)
+      variant: primary
+      href: 'https://assets.isupfactory.com/site/downloads/rework-change-control-sop-qms-sop-qc-cc-001.pdf?dl=1'
+    - text: Pobierz Załącznik A — realizację (PDF)
+      href: 'https://assets.isupfactory.com/site/downloads/rework-execution-annex-a-qms-sop-qc-cc-001.pdf?dl=1'
+    - text: Zamów przegląd jakości
+      href: /pl/contact
+
+answer:
+  label: 'Wprost'
+  text: 'Zmiany parametrów naprawy nigdy nie są ustalane ustnie ani wprowadzane z mocą wsteczną w QINGDAO VATRAD GROUP.,LTD. Każda proponowana zmiana zatwierdzonych materiałów naprawczych, warunków procesu, urządzeń, metod badań, kryteriów inspekcji lub upoważnionych osób musi przejść formalną kontrolę zmian przed wdrożeniem: udokumentowane Żądanie Zmiany Inżynierskiej (ECR), ocenę skutków i ryzyka, przegląd międzydziałowy przez Inżynierię, Jakość, Produkcję, Zakupy i Projekt, zatwierdzenie na szczeblu określonym przez naszą macierz uprawnień, zatwierdzony plan walidacji dla zmian wysokiego ryzyka, kontrolowane wdrożenie pilotażowe, ponowną inspekcję i przegląd skuteczności, a zamknięcie — dopiero po rewizji dokumentu i szkoleniu. Każda zmiana wpływająca na zatwierdzone przez klienta specyfikacje, próbki, specyfikacje materiałowe, projekt graficzny lub kryteria akceptacji wymaga dodatkowo pisemnej zgody klienta.'
+  verified: 'Wrzesień 2026'
+
+stats:
+  tagline: W skrócie
+  title: Kontrola zmian w liczbach
+  stats:
+    - value: '9'
+      label: Kroków w zamkniętej pętli kontroli zmian
+    - value: '6'
+      label: Kategorii zmian wymagających formalnej kontroli zmian
+    - value: '4'
+      label: Podstawowych procesów naprawy z ilościowo ustalonymi parametrami
+    - value: '≥ 5'
+      label: Desek próbnych plus 2 niezależnych kontrolerów QC przy walidacji zmian wysokiego ryzyka
+
+
+cc_intro:
+  tagline: Zakres i polityka
+  title: Podstawowe zasady nadzoru
+  body: |
+    **Dokument:** QMS-SOP-QC-CC-001 — *Standard kontroli zmian parametrów procesu naprawy* (Rev 2.0, WersjaOficjalna). **Producent:** QINGDAO VATRAD GROUP.,LTD. / 青岛万国通衢进出口有限公司. **Odwołanie do normy:** ISO 9001:2015 Systemy Zarządzania Jakością.
+
+    - **Bez zmian niekontrolowanych.** Zmiany parametrów naprawy muszą być kierowane przez formalną kontrolę zmian. Operatorzy na hali, kierownicy zmiany ani pojedynczy dział nigdy nie mogą modyfikować zatwierdzonych parametrów naprawy na podstawie ustnej umowy ani dopisku w karcie naprawy.
+    - **Pełne pokrycie elementów.** Zakres kontrolowany obejmuje szczelność powietrzną, gniazda zaworów, listwy krawędziowe, łączenie szwów, utwardzanie gorącym powietrzem i próby utrzymania ciśnienia — każdy parametr, który może wpływać na szczelność, trwałość konstrukcyjną, wygląd, akceptację klienta lub identyfikowalność.
+    - **Zgoda klienta jako granica.** Każda zmiana, która odsuwa produkt od zatwierdzonej przez klienta próbki, specyfikacji technicznej, specyfikacji materiałowej, projektu graficznego, wymagań opakowaniowych lub kryteriów akceptacji, jest wdrażana wyłącznie za pisemną zgodą klienta. Bez niej deska jest naprawiana zgodnie z pierwotnym wymaganiem, wymieniana albo odrzucana — nigdy „rozluźniana" przez samą fabrykę.
+
+cc_scope:
+  tagline: Klasyfikacja ryzyka
+  title: Zakres zmian i klasyfikacja ryzyka
+  subtitle: Każda z poniższych sytuacji uruchamia formalną kontrolę zmian — nigdy nie obsługujemy jej dopiskiem w karcie naprawy. Poziom ryzyka decyduje o tym, kto zatwierdza zmianę i ile walidacji jest wymagane.
+  headers:
+    category: Kategoria zmiany
+    examples: Typowe przykłady
+    risk: Ryzyko
+    requirements: Wymagania dotyczące kontroli i zatwierdzenia
+  rows:
+    - category: 'Materiały naprawcze'
+      examples: 'Klej, środek czyszczący, materiał łat, uszczelka zaworu, podkład lub zmiana dostawcy'
+      risk: 'Wysokie'
+      requirements: 'Przegląd międzydziałowy + walidacja kompatybilności materiału i utrzymania ciśnienia + podpis klienta tam, gdzie to wymagane'
+    - category: 'Warunki procesu'
+      examples: 'Przygotowanie powierzchni, temperatura i wilgotność utwardzania gorącym powietrzem, siła docisku ściąg, czas utrzymania'
+      risk: 'Wysokie'
+      requirements: 'Zatwierdzenie Inżynierii i Jakości wraz z walidacją okna temperaturowo-wilgotnościowego'
+    - category: 'Oprzyrządowanie i miary'
+      examples: 'Manometry, wykrywacze nieszczelności, pistolety gorącego powietrza, narzędzia do zaworów, oprogramowanie badawcze'
+      risk: 'Średnie/wysokie'
+      requirements: 'Kontrola ważności wzorcowania + ocena przydatności urządzenia'
+    - category: 'Zakres wady'
+      examples: 'Powiększenie obszaru naprawy; mikroszczelność powierzchni rozprzestrzeniająca się na strefy krytyczne listwy, szwu lub gniazda zaworu'
+      risk: 'Wysokie'
+      requirements: 'Powierzchnie nośne konstrukcyjnie: obowiązkowe zatrzymanie i ponowna ocena'
+    - category: 'Metody inspekcji'
+      examples: 'Metoda wykrywania nieszczelności, ciśnienie próbne (18.0 PSI), czas utrzymania (24h)'
+      risk: 'Wysokie'
+      requirements: 'Zatwierdzenie Jakości + potwierdzenie uzgodnienia technicznego z klientem'
+    - category: 'Dokumentacja i upoważnienia'
+      examples: 'Instrukcja naprawy, listy kontrolne inspekcji, logika decyzji w NCR, kwalifikacja operatora'
+      risk: 'Średnie'
+      requirements: 'Kontrolowana rewizja dokumentu (Rev A → Rev B) + zapisy szkoleniowe'
+
+cc_containment:
+  tagline: Reguła twardego zatrzymania
+  title: Natychmiastowe ograniczenie, gdy sytuacja się zaostrza
+  body: |
+    > "Obowiązująca metoda naprawy zostaje poddana przeglądowi i nie może być stosowana do kolejnych partii objętych skutkami, dopóki zmiana nie zostanie oceniona i zatwierdzona, chyba że Jakość i Inżynieria zatwierdziły udokumentowane odstępstwo tymczasowe."
+
+    Obowiązującą metodę naprawy należy natychmiast wstrzymać, gdy ponowna inspekcja naprawy wciąż zawodzi, gdy wada dotyczy stref nośnych konstrukcyjnie (podstawa zaworu, listwy krawędziowe, szwy, strefy ciśnieniowe dzioba i ogona), gdy materiał zastępczy nie został jeszcze zwalidowany albo gdy obecne parametry są sprzeczne ze specyfikacją zatwierdzoną przez klienta.
+
+    Odstępstwa tymczasowe nigdy nie stają się stałą praktyką: każde z nich ma określone okno ważności, zakres partii, limit ilościowy, wymagania walidacyjne i mechanizm automatycznego wygaśnięcia. Wyjątek ustny nie jest wyjątkiem — jeśli nie jest udokumentowany wraz z terminem ważności, to go nie ma.
+
+cc_flow:
+  tagline: Standardowa 9-etapowa pętla zamknięta
+  title: Od żądania zmiany do zamknięcia i przechowywania zapisów
+  subtitle: 'Jedna udokumentowana pętla dla każdej zmiany parametru: zgłoszenie, wstępna ocena, analiza skutków, zatwierdzenie, walidacja, pilotaż, weryfikacja, rewizja, zamknięcie.'
+  steps:
+    - step: '01'
+      title: Żądanie zmiany (ECR)
+      desc: 'Żądanie może zgłosić każdy dział, ale sponsoring sprawuje kierownictwo Inżynierii, Jakości lub Produkcji. ECR odpowiada na pytania, dlaczego zmiana jest proponowana, co się zmienia, co jest objęte skutkami i jak będzie weryfikowana — wraz z numerem kontroli zmian, powiązanym NCR/CAPA, parametrem obecnym i proponowanym, partiami objętymi skutkami oraz klasyfikacją tymczasową lub trwałą.'
+    - step: '02'
+      title: Wstępna weryfikacja i ograniczenie
+      desc: 'Żądanie jest w pierwszej kolejności weryfikowane pod kątem natychmiastowego ograniczenia: czy obowiązującą metodę trzeba teraz zatrzymać? Jeśli dopuszczalne jest odstępstwo tymczasowe, jest ono ograniczone oknem ważności, zakresem partii, limitem ilościowym i automatycznym wygaśnięciem.'
+    - step: '03'
+      title: Ocena skutków i ryzyka
+      desc: 'Inżynieria, Jakość, Produkcja, Zakupy/Łańcuch Dostaw i Projekt oceniają właściwości produktu, kryteria akceptacji, kompatybilność materiałów, wygląd, zdolność procesu, urządzenia i miary, kwalifikacje personelu, wymagania klienta, zgodność z przepisami oraz zakres identyfikowalności.'
+    - step: '04'
+      title: Wspólny przegląd i zatwierdzenie
+      desc: 'Zatwierdzenie następuje zgodnie ze stałą macierzą uprawnień — a nie według zasady „kto głośniej mówi". Zmiany wysokiego ryzyka wymagają zatwierdzenia międzydziałowego, a tam, gdzie to wymagane, pisemnej zgody klienta przed jakimkolwiek pilotażem.'
+    - step: '05'
+      title: Plan walidacji
+      desc: 'W przypadku zmian wysokiego ryzyka zatwierdzony plan walidacji jest wymagany przed zastosowaniem rutynowym: reprezentatywne deski próbne, porównanie metody obecnej i proponowanej, metody badań, kryteria akceptacji, etapy inspekcji, osoby odpowiedzialne i harmonogram.'
+    - step: '06'
+      title: Kontrolowany pilotaż i wdrożenie
+      desc: 'Nowe dokumenty są wydawane, a wersje nieaktualne wycofywane i oznaczane jako OBSOLETE; nowe materiały i miary są sprawdzane i wzorcowane; operatorzy są szkoleni i kwalifikowani; pierwsza partia przebiega przy zaostrzonym nadzorze z jednoznacznym oznaczeniem statusu.'
+    - step: '07'
+      title: Ponowna inspekcja i przegląd skuteczności
+      desc: 'Mierzy się i analizuje odsetek napraw zaliczonych za pierwszym razem, odsetek zaliczonych ponownej inspekcji, odsetek nawrotów i akceptowalność wyglądu, zanim zmiana zostanie uznana za skuteczną — jedna naprawiona deska nigdy nie jest traktowana jako walidacja procesu.'
+    - step: '08'
+      title: Rewizja dokumentów i szkolenie
+      desc: 'Instrukcje robocze, listy kontrolne inspekcji, opcje decyzji w NCR, karty parametrów i materiały szkoleniowe są aktualizowane do nowej rewizji, a szkolenie praktyczne i kwalifikacja operatora są odnotowywane.'
+    - step: '09'
+      title: Zamknięcie i przechowywanie zapisów
+      desc: 'Zmiana jest zamykana dopiero po przeglądzie i zatwierdzeniu dowodów walidacji, aktualizacji dokumentów, zapisów szkoleniowych i skuteczności wdrożenia. Jeśli zamierzony efekt nie zostanie osiągnięty, zmianę modyfikuje się, przedłuża, wstrzymuje lub wycofuje.'
+
+cc_approval:
+  tagline: Macierz zatwierdzeń
+  title: Międzydziałowa macierz uprawnień
+  subtitle: 'Stała tabela uprawnień zapobiega decyzjom podejmowanym ad hoc: każdy rodzaj zmiany ma określony zestaw zatwierdzających, od doprecyzowania na poziomie dokumentu po podpis klienta.'
+  headers:
+    change: Zawartość zmiany
+    engineering: Inżynieria
+    quality: Jakość
+    production: Produkcja
+    procurement: Zakupy
+    project: Projekt / Sprzedaż
+    customer: Klient
+  rows:
+    - change: 'Doprecyzowanie brzmienia dokumentu (bez wpływu na parametry)'
+      engineering: Przegląd
+      quality: 'Zatwierdzenie'
+      production: Powiadomienie
+      procurement: '—'
+      project: '—'
+      customer: '—'
+    - change: 'Zmiana kolejności operacji naprawy'
+      engineering: 'Zatwierdzenie'
+      quality: 'Zatwierdzenie'
+      production: Kontrasygnata
+      procurement: '—'
+      project: Powiadomienie
+      customer: Zależnie od potrzeb
+    - change: 'Nowa kwalifikacja operatora naprawy'
+      engineering: Przegląd
+      quality: 'Zatwierdzenie'
+      production: 'Zatwierdzenie'
+      procurement: '—'
+      project: '—'
+      customer: '—'
+    - change: 'Zmiana oprzyrządowania / urządzeń badawczych'
+      engineering: 'Zatwierdzenie'
+      quality: 'Zatwierdzenie'
+      production: Kontrasygnata
+      procurement: W razie potrzeby
+      project: '—'
+      customer: Zależnie od potrzeb
+    - change: 'Materiał naprawczy lub dostawca zastępczy'
+      engineering: 'Zatwierdzenie'
+      quality: 'Zatwierdzenie'
+      production: Kontrasygnata
+      procurement: Kontrasygnata
+      project: Powiadomienie
+      customer: Może być wymagane
+    - change: 'Zmiana parametrów ciśnienia / utrzymania / utwardzania'
+      engineering: 'Zatwierdzenie'
+      quality: 'Zatwierdzenie'
+      production: Kontrasygnata
+      procurement: '—'
+      project: Powiadomienie
+      customer: Gdy wymaga tego projekt
+    - change: 'Zmiana metody naprawy listwy krawędziowej / szwu / gniazda zaworu'
+      engineering: 'Zatwierdzenie'
+      quality: 'Zatwierdzenie'
+      production: Kontrasygnata
+      procurement: W razie potrzeby
+      project: Powiadomienie
+      customer: Zwykle zalecane
+    - change: 'Zmiana specyfikacji klienta, próbki zatwierdzającej lub kryteriów akceptacji'
+      engineering: 'Zatwierdzenie'
+      quality: 'Zatwierdzenie'
+      production: Kontrasygnata
+      procurement: '—'
+      project: Kontrasygnata
+      customer: 'Wymagane pisemne zatwierdzenie'
+
+cc_validation:
+  tagline: Walidacja inżynierska
+  title: Protokół walidacji i akceptacji — dowody zamiast deklaracji
+  body: |
+    Nieprzyjmujemy nieprecyzyjnych sformułowań akceptacyjnych, takich jak *„naprawiona deska musi być dobra"*. Kontrolowane brzmienie brzmi następująco:
+
+    > "Naprawiona próbka powinna spełniać te same obowiązujące kryteria szczelności powietrznej, jakości wykonania wizualnego, działania zaworów oraz kryteria akceptacji właściwe dla projektu, co deska zgodna, chyba że zatwierdzone przez klienta odstępstwo wprost określa kryterium alternatywne."
+
+    Dowody walidacji są ilościowe, a inżynierska linia odniesienia dla naprawy szczelności powietrznej obejmuje:
+
+    - **Usunięcie nieszczelności i utrzymanie ciśnienia.** Pierwotna nieszczelność jest usuwana bez utrzymujących się pęcherzyków w wykrywaniu wodą z mydłem; deska utrzymuje standardowe ciśnienie próbne 18.0 PSI przez 24 godziny, z netto spadkiem ciśnienia ΔP ≤ 0.2 PSI po kompensacji temperatury i wilgotności — to ostrzejsza linia odniesienia dla walidacji naprawy, odrębna od progu 0.50 PSI stosowanego przy akceptacji końcowej na linii produkcyjnej.
+    - **Działanie zaworu.** Moment dokręcenia wkładu zaworu mieści się w specyfikacji 15–20 N·m, bez mikroszczelności na uszczelce pod pompowaniem wysokim ciśnieniem i dynamicznym naciskiem.
+    - **Trwałość łączenia szwów.** Krawędzie połączenia nie wykazują odchodzenia, białych przebarwień ani rozwarstwienia; po cyklach starzenia cieplno-wilgotnościowego warstwa kleju nie wykazuje mięknięcia ani kruchych pęknięć.
+    - **Wygląd i wykonanie.** Brak śladów spływu kleju, brak uszkodzeń EVA, brak odkształceń deski oraz przesunięcia logo czy zadrapań na powierzchni druku.
+
+cc_engineering:
+  tagline: Macierz realizacji inżynierskiej
+  title: Ilościowo ustalone parametry czterech podstawowych procesów naprawy
+  subtitle: 'Każdy kontrolowany proces naprawy ma zdefiniowane parametry, metodykę i kryteria akceptacji — te same liczby, których przestrzegają nasi operatorzy i które klienci mogą zweryfikować podczas audytu.'
+  headers:
+    process: Proces naprawy
+    parameters: Kontrolowane parametry
+    methodology: Metodyka badań
+    acceptance: Kryteria akceptacji
+  rows:
+    - process: 'Naprawa nakłucia / mikroszczelności łatą'
+      parameters: 'Czyszczenie rozpuszczalnikiem i suszenie 3–5 min; aktywacja gorącym powietrzem 60°C ± 5°C; wałek dociskowy ≥ 0.4 MPa'
+      methodology: 'Pompowanie do 18 PSI; pełne zanurzenie w wodzie lub nałożenie wody mydlanej; obserwacja przez 10 minut'
+      acceptance: 'Zero pęcherzyków; odrywanie krawędzi pod kątem 180° bez odchodzenia i bez śladów spływu kleju'
+    - process: 'Ponowne spajanie listwy krawędziowej / szwu'
+      parameters: 'Ściśle kontrolowany proporcjonalny stosunek składników dwuskładnikowego kleju; otoczenie 22–28°C, ≤ 65% wilgotności względnej; ścisk w uchwytce przez ≥ 4 h'
+      methodology: 'Próba nadciśnieniowa 22 PSI przez 2 h; następnie 6 h suszenia w komorze cieplnej 50°C i 2 h odpoczynku w temperaturze pokojowej'
+      acceptance: 'Zero rozwarstwienia, zero pęknięć; netto spadek ciśnienia ΔP ≤ 0.1 PSI; warstwa kleju bez białych przebarwień i kruchości'
+    - process: 'Poluzowanie podstawy zaworu / mikroszczelność'
+      parameters: 'Moment dedykowanym kluczem 18–20 N·m; uszczelka płaska bez odkształceń; potwierdzona czystość gwintów'
+      methodology: 'Pompowanie do 15 PSI; 20 cykli pompowania / odpompowywania; obserwacja podczas zanurzenia pod wodą'
+      acceptance: 'Zero pęcherzyków przy wkładzie zaworu i na obwodzie podstawy; moment po cyklach ≥ 16 N·m'
+    - process: 'Końcowa próba utrzymania ciśnienia 24h'
+      parameters: 'Ciśnienie odniesienia 18.0 PSI; manometr cyfrowy klasy 1.0 / ±0.5%; temperatura i wilgotność otoczenia zapisane i skompensowane'
+      methodology: 'Cyfrowy rejestrator ciśnienia; ciągła krzywa ciśnienia 24 h'
+      acceptance: 'Netto spadek ciśnienia ΔP ≤ 0.20 PSI / 24 h po kompensacji; brak wydęcia lub odkształcenia deski'
+
+cc_photos:
+  tagline: Na hali produkcyjnej
+  title: Odbudowa, ponowne badanie, zatwierdzenie — udokumentowane na każdym kroku
+  subtitle: Zdjęcia z naszego zakładu w Qingdao pokazują każdy kontrolowany proces naprawy wraz z jego wzorcowanymi miarami, ustalonymi parametrami i zapisami na miejscu — to same dowody, o które inspektorzy mogą poprosić o każdej porze.
+  grid: 'sm:grid-cols-2'
+  features:
+    - image: https://assets.isupfactory.com/site/quality/cc-pinhole-repair.avif
+      alt: Technik naprawiający nakłucie z mikroszczelności na nadmuchiwanej desce SUP za pomocą pistoletu gorącego powietrza i wałka dociskowego
+      title: Naprawa nakłucia
+      desc: 'Technik obsługuje oznaczoną mikroszczelność pistoletem gorącego powietrza ustawionym na specyfikację 60°C oraz wałkiem dociskowym; woda mydlana potwierdza lokalizację przecieku, a karta ECR podpisana przez QC na ławce wskazuje bramkę kontroli zmian (Poka-Yoke nr 1).'
+    - image: https://assets.isupfactory.com/site/quality/cc-rail-seam-bonding.avif
+      alt: Technik nakładający dwuskładnikowy klej PU na szew listwy krawędziowej precyzyjnym pędzlem w kontrolowanych warunkach klimatycznych
+      title: Spajanie szwu listwy
+      desc: 'Dwuskładnikowy klej PU jest nakładany na szew listwy krawędziowej precyzyjnym pędzlem, gdy deska jest unieruchomiona w ścisku uchwytki; termohigrometr na miejscu pokazuje kontrolowane okno 24°C / 55% wilgotności względnej.'
+    - image: https://assets.isupfactory.com/site/quality/cc-valve-base-integrity.avif
+      alt: Cyfrowy klucz dynamometryczny ustawiony na 19 N·m, dokręcający wkład zaworu do materiału drop-stitch
+      title: Szczelność podstawy zaworu
+      desc: 'Cyfrowy klucz dynamometryczny ustawiony na specyfikację 19 N·m wykonuje ostateczne dokręcenie wkładu zaworu, uszczelniając podstawę względem materiału drop-stitch — na mierze widnieje zielona etykieta CALIBRATED.'
+    - image: https://assets.isupfactory.com/site/quality/cc-pressure-hold-testing.avif
+      alt: Gotowe nadmuchiwane deski SUP podłączone do cyfrowych rejestratorów ciśnienia w strefie końcowej próby utrzymania ciśnienia
+      title: Końcowe próby utrzymania ciśnienia
+      desc: 'Gotowe deski są podłączone do precyzyjnych cyfrowych rejestratorów ciśnienia; mierzony wzorcowy wskazuje ciśnienie odniesienia 18.00 PSI, a wszystkie dane badań są automatycznie przesyłane i powiązane z systemem identyfikowalności zamówienia.'
+
+cc_pokayoke:
+  tagline: Zabezpieczenia antybłędne
+  title: 'Poka-Yoke: twarde blokady powstrzymujące niekontrolowane zmiany'
+  subtitle: Standard jest egzekwowany nie tylko przez procedury, lecz także przez fizyczne i systemowe blokady, które sprawiają, że niekontrolowana zmiana nie może zostać wykonana.
+  features:
+    - icon: 1
+      icon_bg: blue
+      title: Brama ECR odblokowująca oprzyrządowanie
+      desc: 'Stanowiska naprawy odczytują kod kreskowy ECR podpisany przez QA, zanim odblokują się pneumatyczne zawory do pompowania i mieszalnice kleju. Bez zatwierdzonego zapisu kontroli zmian nie ma możliwości dostawy — podpis kłódek po fakcie („najpierw zmiana, potem podpis") jest fizycznie zablokowany.'
+    - icon: 2
+      icon_bg: green
+      title: Automatyczne wygaśnięcie odstępstwa tymczasowego
+      desc: 'Odstępstwa tymczasowe mają w systemie twardy limit (na przykład maksymalnie 50 desek albo 7 dni kalendarzowych). Osiągnięcie limitu blokuje partię i uniemożliwia wydrukowanie metki dopuszczenia wysyłki, dopóki zmiana nie zostanie formalnie oceniona.'
+    - icon: 3
+      icon_bg: purple
+      title: Minimalne dowody walidacji
+      desc: 'Zmiany wysokiego ryzyka wymagają co najmniej 5 reprezentatywnych desek próbnych obejmujących górną i dolną granicę tolerancji, w pełni sprawdzonych przez 2 niezależnych inspektorów QC, zanim można wydać raport z walidacji — jedna naprawiona deska nigdy nie jest traktowana jako walidacja procesu.'
+    - icon: 4
+      icon_bg: orange
+      title: Kontrola dokumentów typu 1-w-1-out
+      desc: 'Nieaktualne karty stanowiskowe są fizycznie zbierane i unieważniane (dziurkowane), zanim zostanie wydana nowa karta z kontrolowaną czerwoną pieczęcią — stare i nowe wersje nigdy nie współdzielą stanowiska.'
+
+cc_downloads:
+  tagline: Dokumenty QMS do pobrania
+  title: Kontrolowane dokumenty dwujęzyczne (PDF)
+  subtitle: Oficjalne dwujęzyczne dokumenty EN/ZH firmy QINGDAO VATRAD GROUP.,LTD. — gotowe do audytów klienta, technicznych whitepaperów B2B oraz kontrolowanej dystrybucji na hali.
+  features:
+    - icon: S
+      icon_bg: blue
+      title: SOP kontroli zmian w naprawie (PDF)
+      desc: 'QMS-SOP-QC-CC-001 Rev 2.0: tabela klasyfikacji zmian, międzydziałowa macierz uprawnień, parametry walidacji inżynierskiej, czerwone linie ograniczeń i bloki podpisów jakościowych.'
+      link: 'https://assets.isupfactory.com/site/downloads/rework-change-control-sop-qms-sop-qc-cc-001.pdf?dl=1'
+      link_label: Pobierz PDF
+    - icon: A
+      icon_bg: green
+      title: Załącznik A — realizacja (PDF)
+      desc: 'Schemat danych ECR, ilościowa macierz realizacji inżynierskiej dla czterech podstawowych procesów naprawy, logika blokad Poka-Yoke i blok podpisu trójstronnego przy zatwierdzaniu.'
+      link: 'https://assets.isupfactory.com/site/downloads/rework-execution-annex-a-qms-sop-qc-cc-001.pdf?dl=1'
+      link_label: Pobierz PDF
+    - icon: R
+      icon_bg: purple
+      title: Nadzór nad kontrolowaną naprawą (strona)
+      desc: 'Strona towarzysząca systemowi naprawy szczelności powietrznej: klasyfikacja wad A–G, zatwierdzone karty metod MC-RW-01 do MC-RW-06 oraz 7-etapowy kontrolowany proces naprawy.'
+      link: '/pl/factory/quality-inspection'
+      link_label: Zobacz stronę
+    - icon: N
+      icon_bg: orange
+      title: Kontrola produktów niezgodnych (strona)
+      desc: 'Kontrola produktów niezgodnych wg ISO 9001:2015 punkt 8.7: rejestracja NCR, izolacja, uprawnienia do decyzji zależne od wagi wady, kontrolowana naprawa według instrukcji SRI, niezależna ponowna inspekcja i protokół niszczenia w asyście świadków.'
+      link: '/pl/factory/non-conforming-control'
+      link_label: Zobacz stronę
+
+faqs:
+  tagline: FAQ
+  title: Najczęstsze pytania o kontrolę zmian w naprawie
+  items:
+    - q: 'Czy fabryka może zmienić parametry naprawy bez informowania nas?'
+      a: 'Nie. Każda proponowana zmiana zatwierdzonych materiałów naprawczych, warunków procesu, oprzyrządowania, metod badań, kryteriów inspekcji lub upoważnionych osób musi najpierw przejść udokumentowaną kontrolę zmian. Zmiany wpływające na zatwierdzone przez klienta specyfikacje, próbki, specyfikacje materiałowe, projekt graficzny lub kryteria akceptacji wymagają pisemnej zgody klienta.'
+    - q: 'Co liczy się jako zmiana wysokiego ryzyka?'
+      a: 'Zmiany materiałów naprawczych lub dostawców, warunków ciśnienia/utrzymania/utwardzania, metod naprawy zaworów/listew/szwów, kryteriów inspekcji lub akceptacji oraz rozszerzenia zakresu wady na strefy konstrukcyjne są klasyfikowane jako wysokie ryzyko. Wymagają one przeglądu międzydziałowego, zatwierdzonego planu walidacji i kontrolowanego wdrożenia pilotażowego przed zastosowaniem rutynowym.'
+    - q: 'Czy odstępstwo tymczasowe można stosować bezterminowo?'
+      a: 'Nie. Każde odstępstwo tymczasowe ma określone okno ważności, zakres partii, limit ilościowy i wymagania walidacyjne, a także automatyczne wygaśnięcie. Osiągnięcie limitu blokuje partię i uniemożliwia wydrukowanie metki dopuszczenia, dopóki zmiana nie zostanie formalnie oceniona.'
+    - q: 'Jak udowadnia się skuteczność zmienionej metody przed pełnym zastosowaniem?'
+      a: 'Zmiany wysokiego ryzyka wymagają planu walidacji: co najmniej 5 reprezentatywnych desek próbnych obejmujących granice tolerancji, badanych przez 2 niezależnych inspektorów QC względem ilościowo ustalonych kryteriów akceptacji (usunięcie nieszczelności, utrzymanie ciśnienia, działanie zaworu, trwałość szwów, wygląd). Zgoda na walidację nie jest zgodą na zastosowanie.'
+    - q: 'Czy musimy zatwierdzać każdą zmianę?'
+      a: 'Nie każdą, ale każda zmiana, która odsuwa produkt od zatwierdzonej przez klienta próbki, specyfikacji technicznej, specyfikacji materiałowej, projektu graficznego, opakowania lub kryteriów akceptacji, jest wdrażana wyłącznie za pisemną zgodą klienta. Bez niej deski są naprawiane zgodnie z pierwotnym wymaganiem, wymieniane albo odrzucane.'
+    - q: 'Co dzieje się ze starymi dokumentami po zatwierdzeniu zmiany?'
+      a: 'Stare instrukcje robocze, karty parametrów i listy kontrolne inspekcji są fizycznie zbierane i unieważniane (1-w-1-out), oznaczane jako OBSOLETE i zastępowane nową kontrolowaną rewizją po szkoleniu. Stare i nowe wersje nigdy nie współdzielą stanowiska.'
+    - q: 'Jak długo przechowywane są zapisy kontroli zmian?'
+      a: 'Zapisy zamknięcia — dowody walidacji, rewizje dokumentów, zapisy szkoleniowe i przeglądy skuteczności — są przechowywane zgodnie z naszą polityką przechowywania zapisów (minimum 3 lata dla zapisów zamknięcia), dzięki czemu każda zmiana pozostaje identyfikowalna dla audytów i przeglądów identyfikowalności.'
+
+cta:
+  title: Potrzebujesz dokumentów kontroli zmian do swojego audytu?
+  desc: 'Pobierz dwujęzyczny SOP kontroli zmian i Załącznik A dotyczący realizacji albo zamów zanonimizowany wzór naszego formularza ECR i planu walidacji dla swojego projektu OEM/ODM.'
+  actions:
+    - text: Zamów przegląd jakości
+      variant: primary
+      href: /pl/contact
+    - text: Pobierz SOP kontroli zmian (PDF)
+      href: 'https://assets.isupfactory.com/site/downloads/rework-change-control-sop-qms-sop-qc-cc-001.pdf?dl=1'
+    - text: Pobierz Załącznik A (PDF)
+      href: 'https://assets.isupfactory.com/site/downloads/rework-execution-annex-a-qms-sop-qc-cc-001.pdf?dl=1'

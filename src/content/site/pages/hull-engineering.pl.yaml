@@ -1,0 +1,94 @@
+meta:
+  title: 'Inżynieria kadłuba SUP — projekt desek CAD i FEA'
+  description: 'Pracownia inżynierii desek SUP: projekt desek CAD, analiza elementów skończonych (FEA) konstrukcji drop-stitch oraz własne kształty kadłubów dla projektów OEM.'
+back_text: 'Wróć do Centrum B&R'
+home_label: 'Strona główna'
+
+hero:
+  tagline: 'Laboratorium 02'
+  title: 'Pracownia inżynierii desek'
+  subtitle: 'Symulacja cyfrowa, wiedza konstrukcyjna, projekt desek na zamówienie'
+  image: 'https://assets.isupfactory.com/images/sups/factory/isupfactory-design-discussion.webp'
+  image_alt: 'Stacja robocza do projektowania desek SUP w CAD w firmie Vatrad'
+
+answer:
+  label: 'Wprost'
+  text: 'Nadmuchiwane deski SUP na zamówienie projektujemy we własnym zakładzie, wykorzystując modelowanie powierzchni 3D w SolidWorks oraz FEA i CFD w ANSYS — każdą deskę symulujemy pod kątem rozkładu naprężeń i sztywności pokładu z obowiązkowym współczynnikiem bezpieczeństwa ≥ 2.5 przed wykonaniem prototypu. Własny kształt to 7–12 dni na prototyp; pełne narzędzia formy na zamówienie dodają 15–20 dni do 25–35 dni czasu realizacji produkcji, a MOQ potwierdzamy wg konfiguracji projektu (patrz nasz przewodnik MOQ).'
+  verified: 'Wrzesień 2026'
+
+intro: 'Kształt deski SUP — jej rocker, profil krawędzi oraz objętość nosa i ogona — decyduje o tym, jak się wiosłuje, skręca i utrzymuje kierunek. W {SITE.name} nasza Pracownia inżynierii desek łączy modelowanie powierzchni CAD, analizę elementów skończonych (FEA) konstrukcji drop-stitch i doświadczenie produkcyjne, aby dostarczać deski zoptymalizowane pod zamierzone zastosowanie: stabilność allround, ślizg turingowy albo osiągi w surfingu. Każda deska na zamówienie powstaje na podstawie Twojej specyfikacji, a nie generycznego kształtu z katalogu.'
+
+content_html: |
+  <h2>Siła spotyka hydrodynamikę</h2>
+  <p>Nadmuchiwana deska SUP to konstrukcja drop-stitch: tysiące nici poliestrowych łączy górną i dolną warstwę PCV, utrzymując pokład płasko przy 12–15 PSI, a geometria krawędzi i nosa decyduje o interakcji deski z wodą. My projektujemy kształt 3D, symulujemy napompowaną konstrukcję i weryfikujemy wynik we własnym zakładzie, zanim wycina się pierwszą próbkę.</p>
+
+  <h2>Narzędzia projektowe i standardy</h2>
+  <p>Nasze cyfrowe środowisko inżynieryjne obejmuje:</p>
+  <table>
+    <thead><tr><th>Możliwość</th><th>Oprogramowanie / narzędzie</th><th>Zastosowanie</th></tr></thead>
+    <tbody>
+      <tr><td>Modelowanie parametryczne 3D</td><td>SolidWorks Professional</td><td>Powierzchnia deski, linia rockera, profil krawędzi, integracja uchwytu i płetwy</td></tr>
+      <tr><td>Analiza elementów skończonych</td><td>ANSYS Mechanical</td><td>Rozkład naprężeń w rdzeniu drop-stitch, sztywność pokładu pod obciążeniem, wzmocnienie w punktach uchwytu</td></tr>
+      <tr><td>Dynamika płynów obliczeniowa</td><td>Ansys Fluent</td><td>Prognozowanie oporu hydrodynamicznego, optymalizacja położenia hydrodynamicznego</td></tr>
+      <tr><td>Inżynieria laminacji</td><td>ESAComp</td><td>Układ warstw PCV, dobór gramatury tkaniny, szacowanie masy</td></tr>
+      <tr><td>Przegląd powierzchni formy</td><td>Moldex3D</td><td>Przegląd geometrii narzędzi zgrzewających do zgrzewania HF</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Nasz przepływ inżynieryjny</h2>
+  <p>Każdy projekt deski, czy to model standardowy, czy w pełni projekt na zamówienie, przechodzi rygorystyczny pięciostopniowy proces:</p>
+  <ol>
+    <li><strong>Koncepcja i zebranie wymagań</strong> — Ustalamy zakres masy pływaka, zamierzone zastosowanie (allround, touring, surf, joga, flota wynajmowa), długość, szerokość i grubość docelową oraz ewentualne funkcje specjalne (systemy ładunkowe, nakładki pokładowe, punkty mocowania).</li>
+    <li><strong>Modelowanie powierzchni 3D i obliczenie objętości</strong> — Formę deski modelujemy w SolidWorks i sprawdzamy pod kątem rozkładu objętości, wyporności i stabilności względem docelowej masy pływaka.</li>
+    <li><strong>Strukturalna FEA</strong> — Napompowaną deskę analizujemy pod obciążeniem statycznym (pływak w środku, 100 kg) i dynamicznym (uderzenie fali w krawędź). Przeglądamy kontury naprężeń; współczynnik bezpieczeństwa ≥ 2.5 jest obowiązkowy.</li>
+    <li><strong>Optymalizacja oporu CFD</strong> — Kadłub symulujemy w trzech warunkach obciążenia i przy pięciu prędkościach. Iteracyjnie zmniejszamy powierzchnię zwilżoną, kąt nachylenia i opór pozostały.</li>
+    <li><strong>Przegląd projektu i zatwierdzenie</strong> — Kompletny pakiet inżynieryjny (model 3D, raport FEA, raport CFD, szacunek masy, plan układu paneli) przegląda nasz starszy inżynier przed przekazaniem do pracowni prototypów.</li>
+  </ol>
+
+  <div class="not-prose my-10 p-6 rounded-xl bg-gray-50 dark:bg-gray-900 border border-gray-200 dark:border-gray-800">
+    <p class="text-sm font-semibold text-gray-500 mb-3 uppercase tracking-wider">Wyniki FEA — deska allround 11''0 (szerokość 32'', grubość 6'')</p>
+    <div class="grid grid-cols-2 gap-4 text-sm">
+      <div class="p-4 rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-950">
+        <span class="block text-2xl font-bold text-blue-600">2.8 : 1</span>
+        <span class="text-gray-500">Współczynnik bezpieczeństwa przy obciążeniu stojącego 120 kg</span>
+      </div>
+      <div class="p-4 rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-950">
+        <span class="block text-2xl font-bold text-blue-600">0 mm</span>
+        <span class="text-gray-500">Ugięcie pokładu przy 15 PSI, bez obciążenia</span>
+      </div>
+      <div class="p-4 rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-950">
+        <span class="block text-2xl font-bold text-blue-600">3.2 mm</span>
+        <span class="text-gray-500">Maksymalne ugięcie pokładu przy pływaku 120 kg</span>
+      </div>
+      <div class="p-4 rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-950">
+        <span class="block text-2xl font-bold text-blue-600">15 PSI</span>
+        <span class="text-gray-500">Ciśnienie analityczne — ciśnienie robocze platformy</span>
+      </div>
+    </div>
+  </div>
+
+  <h2>Personalizacja: Twoja deska, Twoje zasady</h2>
+  <p>Dwie marki nigdy nie mają identycznych wymagań. Flota wynajmowa potrzebuje szerokiej, stabilnej deski allround ze wzmocnionymi krawędziami; marka turystyczna potrzebuje dłuższego nosa z większą wypornością i punktami mocowania ładunku; linia nastawiona na surfing potrzebuje zwężonego ogona i profilu rockera. Nie wciszamy Twojej gamy w gotowe kształty — projektujemy w górę od Twojej specyfikacji.</p>
+  <p>Przykłady ostatnich projektów inżynieryjnych desek na zamówienie:</p>
+  <ul>
+    <li>Deska touringowa SUP 14'' dla marki wiosłowania wytrzymałościowego, z nosem zwiększającym wyporność i wpuszczanym pokładem bagażowym (+15% długości linii wodnej dla ślizgu).</li>
+    <li>Szeroka deska allround 10'6'' dla floty ośrodka wypoczynkowego, z dwuwarstwowymi krawędziami bocznymi i nośnością 220 lb.</li>
+    <li>Deska surfowa SUP 9'' ze zwężonym ogonem i progresywnym rockerem, opracowana dla dedykowanej linii szkół surfingowych.</li>
+  </ul>
+
+  <h2>Nasi inżynierzy</h2>
+  <p>Pracownią kieruje starszy inżynier produktu z 14-letnim doświadczeniem w projektowaniu produktów nadmuchiwanych, wspierany przez dwóch inżynierów mechaników specjalizujących się w FEA i CFD. Wszyscy trzej mają stopnie naukowe inżynierii z międzynarodowo uznanych uczelni, a zespół ściśle współpracuje z naszą halą produkcyjną, aby każdy projekt dało się wytworzyć w skali kontenerowej.</p>
+
+  <h2>Zostań naszym partnerem przy kolejnej desce</h2>
+  <p>Od pierwszego szkicu koncepcji po końcowy raport naprężeń nasza Pracownia inżynierii desek jest Twoim partnerem w tworzeniu deski, która nie jest tylko zbudowana — lecz zaprojektowana. Inwestujemy godziny symulacji na starcie, żeby każdy zgrzew, każda warstwa laminatu i każdy łuk krawędzi był tam z konkretnego powodu.</p>
+  <p>Niezależnie od tego, czy potrzebujesz drobnej modyfikacji istniejącego modelu, czy całkowicie nowego projektu od zera, jesteśmy gotowi omówić Twoje wymagania.</p>
+
+cta:
+  title: 'Rozpocznij konsultacje projektowe deski'
+  subtitle: 'Opowiedz nam o docelowych pływakach i zastosowaniu, a my zaproponujemy ścieżkę inżynieryjną.'
+  actions:
+    - variant: primary
+      text: Skontaktuj się z naszym zespołem inżynierów
+      href: /pl/contact#project-brief
+    - text: Wróć do Centrum B&R
+      href: /pl/randdcenter

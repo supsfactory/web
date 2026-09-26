@@ -1,0 +1,135 @@
+meta:
+  title: 'Dystrybucja hurtowa i private label dla dystrybutorów | {SITE}'
+  description: 'Programy dystrybucji hurtowej i private label bezpośrednio z fabryki dla dystrybutorów i detalistów: ekskluzywne terytoria, produkcja SUP white-label i dedykowany opieka nad kontem.'
+  dateModified: '2026-09'
+
+hero:
+  tagline: 'Dystrybutorzy i private label'
+  title: 'Programy bezpośrednio z fabryki dla dystrybutorów i marek'
+  subtitle: 'Programy hurtowe i private label z zakładu produkującego nadmuchiwane deski SUP. Kupuj po cenach fabrycznych, buduj asortyment pod własną marką i dostarczaj na ekskluzywne terytoria w ponad 50 krajach.'
+  image:
+    src: https://assets.isupfactory.com/images/sups/factory/isupfactory-factory-building.webp
+    alt: 'Produkcja i wysyłka w iSupfactory'
+
+answer:
+  label: 'Krótka odpowiedź'
+  text: 'Dystrybutorzy i marki współpracują bezpośrednio z fabryką: deski SUP white-label budowane pod Twoją marką, ceny hurtowe bezpośrednio z fabryki, ekskluzywne terytorium w ramach każdego programu, 3–8 SKU na start oraz 45–60-dniowy termin płatności (wszystko podlega umowie handlowej), z 100% kontrolą ciśnieniową magazynu przed wysyłką. Minimalne wolumeny startowe i warunki transportowe są ustalane dla każdego terytorium, z wysyłką FOB Qingdao lub CIF.'
+  verified: 'Wrzesień 2026'
+
+intro:
+  tagline: 'O programie'
+  title: 'Dystrybucja private label oparta na mocy produkcyjnej'
+  body: |
+    iSupfactory projektuje, buduje i poddaje kontroli jakości każdą nadmuchiwaną deskę SUP, kajak i akcesorium we własnym zakładzie w Laixi w Qingdao. Umowa private label z nami oznacza, że źródło zaopatrzenia jest wbudowane w Twoją markę: otrzymujesz deski wyprodukowane pod własną nazwą przez fabrykę, a nie magazynowy towar odsprzedawany przez innego dystrybutora.
+
+    Ponieważ planujemy produkcję wokół prognoz naszych klientów, możemy zaplanować duże serie na start sezonu na półkuli północnej, ustabilizować koszty transportu dzięki zamówieniom z wyprzedzeniem i zwolnić kapitał obrotowy dzięki przejrzystym warunkom hurtowym oraz ustalonym harmonogramom płatności. Inżynieria, próbki, kontrola jakości i dokumentacja wywozowa są realizowane we własnym zakresie — w łańcuchu nie ma brokera ani pośrednika handlowego.
+
+    Ten program jest jednym z dwóch sposobów współpracy z fabryką. Jeśli prowadzisz własną markę hurtową i chcesz, aby została wyprodukowana dla Ciebie, ta strona jest dla Ciebie. Ośrodki wypoczynkowe, szkoły sportów wodnych i floty wypożyczalni kupujące bezpośrednio na własny użytek powinny zamiast tego zapoznać się z programami produkcji OEM/ODM i flot.
+
+wholesale_pricing:
+  tagline: 'Dlaczego warto'
+  title: 'Co otrzymują dystrybutorzy'
+  subtitle: 'Wszystko, czego potrzebujesz, aby uruchomić markowy asortyment na swoim rynku.'
+  intro: 'Partnerzy dystrybucyjni otrzymują tę samą jakość fabryczną i głębokość inżynierską, którą dostarczamy markom OEM/ODM, zapakowaną na kanał hurtowy pod własną etykietą. Warunki programu — ekskluzywność terytorialna, startowy asortyment SKU i warunki płatności — są potwierdzane dla każdego programu w umowie handlowej.'
+  stats:
+    - value: '50+'
+      label: 'Krajów dostaw'
+    - value: '1'
+      label: 'Dedykowany opiekun konta'
+    - value: '45–60'
+      label: 'Dni terminu płatności'
+    - value: '120,000+'
+      label: 'Desek rocznej zdolności'
+    - value: '3–8'
+      label: 'SKU na start programu'
+    - value: '100%'
+      label: 'Sprawdzone w fabryce przed wysyłką'
+
+steps:
+  tagline: 'Jak to działa'
+  title: 'Droga od wniosku do pierwszego kontenera'
+  subtitle: 'Jasny, wieloetapowy proces wdrożenia, aby Twój markowy program zdążył na czas w pierwszym sezonie.'
+  steps:
+    - step: 1
+      title: 'Złóż wniosek'
+      desc: 'Prześlij wniosek dystrybutora wraz z profilem firmy, dotychczasowym obrotem hurtowym i terytorium.'
+    - step: 2
+      title: 'Mapowanie terytorium'
+      desc: 'Potwierdzamy, które kraje lub regiony obejmie Twój markowy program i czy terytorium jest ekskluzywne.'
+    - step: 3
+      title: 'Plan asortymentu i brandingu'
+      desc: 'Wybierz modele bazowe z katalogu produkcyjnego, zatwierdź specyfikacje i sfinalizuj projekt graficzny marki do produkcji.'
+    - step: 4
+      title: 'Akceptacja próbek i jakości'
+      desc: 'Zamów próbki certyfikacyjne, aby sprawdzić jakość, opakowanie i obsługę dropshippingu. Próbki są akceptowane przed rozpoczęciem produkcji seryjnej.'
+    - step: 5
+      title: 'Uzupełnianie sezonowe'
+      desc: 'Twój opiekun konta planuje produkcję i uzupełnianie zapasów wokół Twojej prognozy i kalendarza sezonów.'
+
+benefits:
+  title: 'Co otrzymują dystrybutorzy'
+  subtitle: 'Wszystko, czego potrzebujesz, aby odnieść sukces na swoim rynku.'
+  items:
+    - 'Private label pod własną marką (OEM white-label)'
+    - 'Ekskluzywne prawa terytorialne (zgodnie z umową handlową)'
+    - 'Katalog produkcyjny: SUP, akcesoria, części'
+    - 'Konkurencyjne ceny bezpośrednio z fabryki'
+    - 'Materiały marketingowe i sprzedażowe (przetłumaczone)'
+    - 'Program szkoleniowy (produkt, sprzedaż, konserwacja)'
+    - 'Wsparcie na targach branżowych'
+    - 'Program akceptacji próbek i produkcji przedseryjnej'
+    - 'Możliwość dropshippingu'
+    - 'Dedykowany opiekun konta dystrybutora'
+    - 'Termin płatności 45-60 dni (zgodnie z umową handlową)'
+
+coverage:
+  title: 'Obecna dystrybucja'
+  subtitle: 'iSupfactory wysyła obecnie bezpośrednio na te rynki.'
+  regions:
+    - name: 'Europa'
+      countries: 'Francja, Niemcy, Wielka Brytania, Hiszpania, Włochy, Holandia, Szwecja, Norwegia, Polska, Grecja'
+    - name: 'Azja'
+      countries: 'Japonia, Korea Południowa, Chiny, Tajlandia, Singapur'
+    - name: 'Bliski Wschód'
+      countries: 'ZEA, Arabia Saudyjska'
+    - name: 'Ameryki'
+      countries: 'USA, Kanada, Brazylia, Meksyk'
+    - name: 'Oceania'
+      countries: 'Australia, Nowa Zelandia'
+    - name: 'Afryka'
+      countries: 'RPA, Maroko'
+
+faqs:
+  tagline: 'FAQ dystrybutora'
+  title: 'Program dystrybucji hurtowej — najczęściej zadawane pytania'
+  items:
+    - q: 'Jaki jest minimalne zamówienie dla nowego dystrybutora?'
+      a: 'Nowi partnerzy dystrybucyjni zwykle zaczynają od zamówienia próbek i akceptacji przedprodukcji, a następnie od pierwszego kontenera zaplanowanego na ich sezon. Dokładne minima zależą od wielkości terytorium i wybranego asortymentu; Twój opiekun konta potwierdza wolumen startowy podczas planowania asortymentu i brandingu.'
+    - q: 'Czy możemy sprzedawać deski pod własną marką?'
+      a: 'Tak. Private label to tutaj standardowy model: deski są produkowane pod Twoją marką, z Twoją grafiką, opakowaniem i specyfikacjami. iSupfactory produkuje wyłącznie na rzecz swoich klientów i nie konkuruje z nimi na żadnym rynku.'
+    - q: 'Czy terytoria są ekskluzywne?'
+      a: 'Tak. Programy dystrybucyjne opierają się na ekskluzywnych terytoriach — każdy partner hurtowy obsługuje określony kraj lub region i otrzymuje cennik oraz wsparcie programu dla tego rynku, zgodnie z umową handlową.'
+    - q: 'Czy wspieracie dropshipping?'
+      a: 'Możliwość dropshippingu jest wbudowana w program. Próbki, opakowanie i obsługa są walidowane na etapie akceptacji próbek, aby zamówienia dropshippingowe przebiegały sprawnie od pierwszego dnia.'
+    - q: 'Jakie modele możemy zamawiać?'
+      a: 'Katalog produkcyjny obejmuje nadmuchiwane deski SUP o kształtach uniwersalnych, turystycznych i surfingowych, nadmuchiwane kajaki, pompki, wiosła, kamizelki ratunkowe i akcesoria do pielęgnacji, a także niestandardowe kształty opracowane z naszym zespołem inżynierskim. Większość partnerów zaczyna od 4–8 najlepiej sprzedających się SKU i rozwija asortyment w kolejnych sezonach.'
+    - q: 'Jak wysyłane są zamówienia?'
+      a: 'Zamówienia opuszczają fabrykę kursami według ustalonego harmonogramu, a zamówienia z wyprzedzeniem są dostępne w celu ustabilizowania kosztów transportu. Twój dedykowany opiekun konta planuje produkcję i wysyłkę wokół Twojej prognozy i kalendarza sezonów.'
+    - q: 'Jak się zgłosić?'
+      a: 'Użyj formularza aplikacyjnego na tej stronie lub skontaktuj się z nami bezpośrednio. Wnioski są oceniane przez zespół dystrybucji, a w ciągu kilku dni roboczych odpowiadamy z kolejnymi krokami, w tym mapowaniem terytorium i projektem umowy.'
+
+content_html: |
+  <div class="mx-auto max-w-3xl space-y-4 rounded-2xl border bg-card p-6 text-[14.5px] leading-relaxed text-fg-2">
+    <p><strong>Czytaj dalej:</strong> partnerzy dystrybucyjni sprzedają deski produkowane dla nich pod własną marką — zapoznaj się z <a href="/pl/oem-manufacturing">programem produkcji OEM/private-label</a> oraz <a href="/pl/factory">procesem jakości fabryki</a>, abyś mógł z pełną pewnością pozycjonować produkt.</p>
+  </div>
+
+cta:
+  title: 'Gotowy uruchomić markowy asortyment?'
+  subtitle: 'Złóż wniosek do programu dystrybucyjnego lub przejrzyj katalog produkcyjny.'
+  actions:
+    - text: 'Złóż wniosek do programu dystrybucyjnego'
+      href: '/pl/contact#distributor'
+      variant: 'primary'
+    - text: 'Przejrzyj katalog produkcyjny'
+      href: '/pl/products'
+      variant: 'secondary'

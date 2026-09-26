@@ -1,0 +1,111 @@
+meta:
+  title: 'Wiedza — nadmuchiwane SUP i przewodniki OEM | {SITE}'
+  description: 'Baza wiedzy Vatrad: przewodniki o nadmuchiwanych deskach SUP, materiałach desek paddle, doborze deski i wiedzy branżowej dla marek i profesjonalistów.'
+  dateModified: '2026-08'
+  keywords:
+    - 'wiedza sup'
+    - 'przewodnik nadmuchiwane sup'
+    - 'materiały desek paddle'
+    - 'wiedza o branży sup'
+hero:
+  tagline: 'Centrum wiedzy'
+  title: 'Centrum wiedzy o SUP'
+  subtitle: |
+    Uporządkowana baza wiedzy obejmująca technologię nadmuchiwanych desek SUP, 
+    bezpieczeństwo na wodzie, inżynierię desek i planowanie przygód.
+  taglineSection: 'Odkrywaj. Ucz się. Wyruszaj z pewnością siebie.'
+
+clusters:
+  tagline: 'Oś tematyczne'
+  title: 'Przeglądaj według tematu'
+  subtitle: 'Pogłębione materiały o technologii, bezpieczeństwie i umiejętnościach stojących za każdym produktem Vatrad.'
+  items:
+    - title: 'Przewodniki zakupowe SUP'
+      description: 'Od wyboru pierwszej deski po zaawansowane techniki touringowe — wszystko o paddleboardingzie na stojąco.'
+      icon: 'tabler:lifebuoy'
+      topics:
+        - 'Jak wybrać pierwszą nadmuchiwaną deskę SUP'
+        - 'Przewodnik po rozmiarach i nośności desek SUP'
+        - 'Najlepsza deska SUP dla początkujących, touringowych, do jogi i wyścigów'
+        - 'Najczęstsze błędy przy zakupie deski SUP'
+        - 'Porównanie nadmuchiwanej deski z twardą deską'
+    - title: 'Inżynieria i technologia SUP'
+      description: 'Przewodniki techniczne o nadmuchiwanych deskach SUP — materiałach, metodach budowy i procesach produkcji.'
+      icon: 'tabler:microscope'
+      topics:
+        - 'Technologia drop-stitch w szczegółach'
+        - 'Specyfikacja PCV klasy wojskowej'
+        - 'Laminacja zespolona vs klejenie'
+        - 'Technologia pianki EVA i metody zadruku'
+        - 'Rodzaje zaworów SUP i systemy płetw'
+    - title: 'Bezpieczeństwo i konserwacja SUP'
+      description: 'Niezbędna wiedza o bezpieczeństwie dla każdego pływaka — od doboru kamizelki, przez czytanie pogody, po dbałość o deskę i naprawy.'
+      icon: 'tabler:shield'
+      topics:
+        - 'Lista kontrolna bezpieczeństwa SUP i wymagań dotyczących kamizelki'
+        - 'Bezpieczeństwo wielokomorowe na odległych wodach'
+        - 'Przewodnik po ciśnieniu nadmuchania SUP (PSI)'
+        - 'Przechowywanie deski i pielęgnacja zimą'
+        - 'Techniki naprawy nadmuchiwanych desek'
+    - title: 'Umiejętności i technika SUP'
+      description: 'Techniki wiosłowania, umiejętności touringowe i trening kondycyjny na każdym poziomie.'
+      icon: 'tabler:sailboat'
+      topics:
+        - 'Techniki wiosłowania dla początkujących'
+        - 'Opanowanie tempa na poziomie średnim'
+        - 'Planowanie wypraw touringowych i ekspedycji'
+        - 'Trening kondycyjny i wyścigowy na SUP'
+        - 'Pływanie na wodach spadkowych i rzecznych'
+    - title: 'Styl życia i specjalne zastosowania SUP'
+      description: 'Specjalistyczne aktywności na SUP — joga, wędkarstwo, psy, rodzina i wskazówki podróżnicze.'
+      icon: 'tabler:heart'
+      topics:
+        - 'Joga i medytacja na SUP na wodzie'
+        - 'Wędkarstwo z nadmuchiwanej deski SUP'
+        - 'Paddleboarding z psami i dziećmi'
+        - 'Podróżowanie z deską SUP samolotem i samochodem'
+        - 'Akcesoria SUP i niezbędny sprzęt'
+    - title: 'Porównania i źródła SUP'
+      description: 'Porównania obok siebie, które pomogą Ci podjąć świadomą decyzję.'
+      icon: 'tabler:chart-bar'
+      topics:
+        - 'SUP czy kajak — co jest lepsze dla Ciebie?'
+        - 'Porównanie materiałów PCV i Hypalon'
+        - 'Jedna komora czy wiele komór — bezpieczeństwo'
+        - 'Materiały desek SUP wyjaśnione'
+        - 'Druk UV vs zadruk na bloku EVA'
+
+featured_guides:
+  tagline: 'Wybrane przewodniki'
+  title: 'Najpopularniejsze zasoby wiedzy'
+  items:
+    - title: 'Podstawy SUP'
+      href: '/pl/knowledge'
+    - title: 'Nadmuchiwana czy twarda deska'
+      href: '/pl/inflatable-vs-hardboard'
+    - title: 'Przewodnik bezpieczeństwa na wodzie'
+      href: '/pl/guides/safety-tips'
+    - title: 'Referencja materiałowa'
+      href: '/pl/knowledge'
+    - title: 'Przewodnik zakupowy SUP'
+      href: '/pl/guides/how-to-choose-your-sup'
+    - title: 'Przewodnik po rozmiarach SUP'
+      href: '/pl/size-guide'
+    - title: 'Centrum technologii SUP'
+      href: '/pl/technology'
+    - title: 'Konserwacja SUP'
+      href: '/pl/knowledge'
+    - title: 'Przewodnik touringowy'
+      href: '/pl/products/touring'
+    - title: 'Technika wiosłowania'
+      href: '/pl/knowledge'
+
+cta:
+  title: 'Zacznij odkrywać'
+  subtitle: 'Zanurz się w naszej bazie wiedzy i znajdź informacje potrzebne do kolejnej przygody na wodzie.'
+  actions:
+    - variant: primary
+      text: 'Przeglądaj wszystkie przewodniki'
+      href: '/pl/knowledge'
+    - text: 'Odkryj graf wiedzy'
+      href: '/pl/knowledge'

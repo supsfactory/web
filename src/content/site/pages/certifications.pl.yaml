@@ -1,0 +1,513 @@
+meta:
+  title: 'Kontrola jakości desek SUP na zamówienie: inspekcja w 7 etapach | iSupfactory'
+  description: 'Jak kontrolowane jest każde zamówienie na nadmuchiwane deski SUP na zamówienie: 7 bramek inspekcji od planowania przedprodukcyjnego do zatwierdzenia wysyłki, z możliwością pobrania dwujęzycznych raportów.'
+  dateModified: '2026-08-15'
+  keywords:
+    - 'kontrola jakości sup'
+    - 'inspekcja w fabryce sup'
+    - 'plan inspekcji jakościowej oem'
+    - 'inspekcja przed wysyłką sup'
+    - 'certyfikacja ce sup'
+    - 'iso 9001 sup'
+hero:
+  tagline: Kontrola jakości projektów na zamówienie
+  title: 'Kontrola jakości niestandardowych projektów nadmuchiwanych desek SUP'
+  subtitle: 'Jakość weryfikujemy względem zatwierdzonej próbki, specyfikacji technicznej, projektu graficznego, specyfikacji materiałowej (BOM) oraz wymagań dotyczących opakowania każdego projektu — a nie względem ogólnych deklaracji. Od materiałów przychodzących do zatwierdzenia wysyłki nasz proces inspekcji jest tak zbudowany, aby weryfikować zgodność produktu na zdefiniowanych etapach produkcji. Za tym wszystkim stoi QINGDAO VATRAD GROUP — fabryka nadmuchiwanych desek SUP o powierzchni 12,500 m², w której działa Vatrad.'
+stats:
+  - value: 100%
+    label: Sztuk poddanych próbom ciśnieniowym
+  - value: '7'
+    label: Kontrolowanych bramek inspekcji
+  - value: 18.0 PSI
+    label: 24-godzinne utrzymanie ciśnienia
+  - value: ISO 9001
+    label: Certyfikowana jakość
+quality_basis:
+  tagline: Podstawa jakości
+  title: 'Co decyduje o odbiorze produktu'
+  subtitle: 'Kryteria odbioru końcowego ustala się przed zwolnieniem produkcji. Te kontrolowane dokumenty projektu określają, co ma zostać wyprodukowane, jak weryfikować kluczowe szczegóły i co trzeba sprawdzić przed wysyłką — zatwierdzone wspólnie z kupującym i zamrożone w Planie Inspekcji Jakości (QIP). Każda prośba o zmianę przechodzi udokumentowaną kontrolę zmian, nigdy po cichu przez linię produkcyjną.'
+  items:
+    - title: 'Zatwierdzona próbka'
+      description: 'Fizyczna deska wzorcowa zaakceptowana przez kupującego. Każda gotowa deska jest z nią porównywana pod kątem wymiarów, profilu, sztywności i wykończenia.'
+      icon: tabler:medal
+    - title: 'Specyfikacja techniczna'
+      description: 'Materiały, konstrukcja i rysunki wymiarowe przypięte do numeru rewizji. FAI weryfikuje pierwszy egzemplarz względem dokładnie tej rewizji.'
+      icon: tabler:file-check
+    - title: 'Zatwierdzony projekt graficzny'
+      description: 'Projekt graficzny, kolory nadruku i rozmieszczenie zatwierdzone i zablokowane wersją przed cięciem, aby każda deska trafiała do klienta w wyglądzie zaakceptowanym przez markę.'
+      icon: tabler:palette
+    - title: 'BOM zatwierdzony przez klienta'
+      description: 'Specyfikacja materiałowa (BOM) — deska, wiosło, pompka, smycz, worek, instrukcja — potwierdzona przez kupującego. PSI sprawdza kompletność zestawu 100% względem tej BOM.'
+      icon: tabler:list-checks
+    - title: 'Wymagania dotyczące opakowania i etykiet'
+      description: 'Konstrukcja kartona, oznaczenia, kody kreskowe, treść etykiety i znaki wysyłkowe ustalone na piśmie. Czytelność kodów kreskowych i poprawność oznaczeń są weryfikowane w PSI.'
+      icon: tabler:package
+tests:
+  - title: Próby ciśnieniowe
+    description: Komory nadmuchiwane poddaje się ciśnieniom przekraczającym zalecane limity robocze przez dłuższy czas. Weryfikuje to szczelność oraz integralność strukturalną materiału i szwów, dzięki czemu produkt wytrzyma przewidziane użycie oraz możliwe nadmierne napompowanie bez uszkodzeń i przecieków.
+    image: https://assets.isupfactory.com/images/sups/factory/isupfactory-pressure-testing.webp
+    alt: Komora nadmuchiwanej deski SUP podczas próby ciśnieniowej weryfikującej szczelność
+  - title: Próby udarowe
+    description: Produkty poddaje się kontrolowanym uderzeniom o różnych ciężarach i kątach. Ocenia to odporność materiału na przebicie, rozdarcie i uszkodzenia w wyniku zderzeń z przeszkodami w wodzie, pokazując trwałość i żywotność.
+    image: https://assets.isupfactory.com/images/sups/factory/isupfactory-production-department.webp
+    alt: Stanowisko do prób udarowych oceniające odporność materiału nadmuchiwanej łodzi na przebicie
+  - title: Badania odporności na UV
+    description: Próbki materiału poddaje się przyspieszonemu promieniowaniu UV, aby potwierdzić, że nie żółkną, nie pękną i nie stracą wytrzymałości wraz z upływem czasu. Każda partia PCV jest sprawdzana pod kątem degradacji słonecznej przed użyciem w produkcji.
+    image: https://assets.isupfactory.com/images/sups/factory/isupfactory-uv-resistance-testing.webp
+    alt: Próbki materiału PCV pod przyspieszonym promieniowaniem UV podczas badania odporności
+  - title: Badania odporności na ścieranie
+    description: Próbki materiału ściera się o powierzchnie ścierne przez określoną liczbę cykli pod kontrolowanym naciskiem. Mierzy to zdolność materiału do wytrzymywania zużycia wynikającego z powtarzalnego użycia oraz kontaktu z piaskiem, skałami czy innymi powierzchniami, zapewniając długoterminową trwałość.
+    image: https://assets.isupfactory.com/images/sups/factory/isupfactory-pvc-material-testing.webp
+    alt: Maszyna do badań ścieralnych ścierająca próbkę tkaniny PCV w celu zmierzenia odporności na zużycie
+  - title: Badania w niskiej temperaturze
+    description: Produkty bada się w chłodnym otoczeniu, aby ocenić ich działanie i trwałość w różnych warunkach temperaturowych i zapobiec sztywnieniu lub pękaniu w zimnej wodzie. Niezbędne dla łodzi przeznaczonych na sezon zimowy lub wysokie szerokości geograficzne.
+    image: https://assets.isupfactory.com/images/sups/factory/isupfactory-factory-exterior.webp
+    alt: Produkt nadmuchiwany w komorze chłodniczej podczas badania w niskiej temperaturze
+  - title: Próby wyporności i nośności
+    description: Produkty bada się z różnymi obciążeniami, aby ustalić ich maksymalną nośność i potwierdzić, że bezpiecznie podpierają użytkownika oraz sprzęt. Udźwig każdego modelu jest weryfikowany przed zatwierdzeniem.
+    image: https://assets.isupfactory.com/images/sups/factory/isupfactory-stock-boat-inventory.webp
+    alt: Badanie wyporności i nośności z obciążeniem na nadmuchiwanej jednostce pływającej
+  - title: Badania manewrowości
+    description: Produkty bada się pod kątem reakcji na ruch wiosła lub napędu, oceniając promień zawracania i łatwość prowadzenia. Próby na wodzie potwierdzają, że rzeczywiste prowadzenie odpowiada specyfikacjom projektowym.
+    image: https://assets.isupfactory.com/images/sups/factory/isupfactory-sup-manufacturing.webp
+    alt: Badanie manewrowości nadmuchiwanych desek SUP i kadłubów łodzi na wodzie
+  - title: Badania szczelności wodnej
+    description: W pełni złożone produkty zanurzamy lub poddajemy rozpylaniu wody, aby sprawdzić ewentualne przecieki przez szwy, zawory lub materiał. Każda łódź przechodzi obowiązkową kontrolę szczelności przed wysyłką.
+    image: https://assets.isupfactory.com/images/sups/factory/isupfactory-production-department-2.webp
+    alt: Badanie szczelności przez zanurzenie sprawdzające szwy i zawory pod kątem przecieków
+qc_flow:
+  tagline: Przebieg inspekcji w 7 etapach
+  title: 'Siedem kontrolowanych bramek jakości, od początku do końca'
+  subtitle: 'Każda z poniższych bramek jest zdefiniowana w Planie Inspekcji Jakości projektu wraz z obiektem inspekcji, metodą, kryteriami akceptacji i dokumentem wynikowym. Dwujęzyczne pakiety raportów to rzeczywiste kontrolowane zapisy — otwórz dowolny, aby zobaczyć faktyczną strukturę.'
+  obj_label: Obiekt inspekcji
+  method_label: Metoda inspekcji
+  criteria_label: Kryteria akceptacji
+  record_label: Dokument wynikowy
+  stages:
+    - stage: ETAP 01
+      title: 'Planowanie jakości projektu (PPM)'
+      summary: 'Spotkanie przedprodukcyjne ustala zakres, linie odniesienia i plan inspekcji przed uruchomieniem linii.'
+      checks:
+        - 'Rejestrowane są: nazwa produktu, kod wewnętrzny, SKU klienta, numer zamówienia i definicja partii.'
+        - 'Określone są: typ deski, rdzeń drop-stitch, materiały, listwy krawędziowe, EVA, zawory i system płetw.'
+        - 'Zablokowane i zatwierdzone: nazwa pliku projektu graficznego, wersja, kolory, położenie logo i pole nadruku.'
+        - 'BOM — każda pozycja w zestawie wraz z ilością, kolorem, numerem części i regułami zamienników — zatwierdzona przez klienta.'
+        - 'Opakowanie, etykietowanie, kody kreskowe, język instrukcji i ustalenia dotyczące inspekcji podmiotu trzeciego ustalone na piśmie.'
+      object: 'Zakres projektu względem wymagań klienta — materiały, wymiary, projekt graficzny, opakowanie, rynek docelowy i obowiązujące normy.'
+      method: 'Spotkanie przedprodukcyjne z udziałem sprzedaży, inżynierii i QC; podpisanie próbki wzorcowej; wydanie Planu Inspekcji Jakości (QIP) dla zamówienia.'
+      criteria: 'Wszystkie pięć linii odniesienia zatwierdzone i zamrożone przed startem produkcji seryjnej. Nierozstrzygnięte punkty blokują zwolnienie produkcji.'
+      record: 'QIP + notatki z PPM, zapisy zatwierdzonej próbki.'
+      image: https://assets.isupfactory.com/site/quality/node01-ppm.avif
+      alt: Spotkanie przedprodukcyjne z przeglądem próbki wzorcowej i planu inspekcji jakości dla zamówienia OEM SUP
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_SUP_OEM_QIP.pdf
+      link_label: 'Pobierz QIP (PDF)'
+    - stage: ETAP 02
+      title: 'Inspekcja materiałów przychodzących (IQC)'
+      summary: 'Surowce są weryfikowane względem zatwierdzonej specyfikacji dostawcy, zanim wejdą na produkcję.'
+      checks:
+        - 'Tkanina drop-stitch, rolki PCV, materiał listew krawędziowych i pokłady EVA sprawdzane względem zatwierdzonej próbki — kolor, grubość, gramatura i wady powierzchni.'
+        - 'Zawory, gniazda płetw, D-ringi, uchwyty i osprzęt sprawdzane pod kątem typu, rozmiaru, wykończenia, rdzy i prawidłowego działania.'
+        - 'Pompki, wiosła, smycze, worki i zestawy naprawcze weryfikowane pod kątem modelu, koloru i konfiguracji projektu.'
+        - 'Świadectwa dostawców (COA), deklaracje materiałowe i dokumenty zgodności REACH/RoHS sprawdzane dla każdej partii.'
+        - 'Partie niezgodne są izolowane i zwracane, zanim jakikolwiek materiał trafi na linię.'
+      object: 'Tkanina drop-stitch, rolki PCV, zawory, płetwy, akcesoria i materiały opakowaniowe względem zatwierdzonej specyfikacji i świadectw badań dostawców.'
+      method: 'Kontrola wizualna, wymiarowa i wagowa; pobieranie próbek partii wg AQL; przegląd świadectw materiałowych; egzekwowanie listy zatwierdzonych dostawców.'
+      criteria: 'Zgodność ze zatwierdzoną specyfikacją i świadectwami. Partie niezgodne są izolowane i odrzucane przed dopuszczeniem na linię.'
+      record: 'Raporty IQC z numerami partii i decyzjami.'
+      image: https://assets.isupfactory.com/site/quality/node02-iqc.avif
+      alt: Inspekcja materiałów przychodzących — tkaniny PCV i komponentów desek SUP w fabryce
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_IQC_TEST_REPORTS.pdf
+      link_label: 'Pobierz raporty IQC (PDF)'
+    - stage: ETAP 03
+      title: 'Kontrola w trakcie procesu i pierwszy egzemplarz (IPQC / FAI)'
+      summary: 'Metody konstrukcji i punkty kontrolne dobiera się do zatwierdzonej platformy deski oraz konfiguracji projektu. Pierwszy egzemplarz sprawdza się względem zablokowanych linii odniesienia, a na każdej zmianie prowadzi się obchody kontrolne na linii.'
+      checks:
+        - 'Pierwszy egzemplarz weryfikowany względem zatwierdzonej próbki, rysunku technicznego, BOM, projektu graficznego i plików opakowania przed startem produkcji seryjnej.'
+        - 'Mierzone wymiary, obrys i symetria deski; potwierdzany kierunek nadruku i logo, położenie, kolory oraz rewizja.'
+        - 'Szwy i ciągłość listew krawędziowych sprawdzane pod kątem szczelin, delaminacji, zmarszczeń, zanieczyszczeń i przesunięć na linii.'
+        - 'Montaż zaworu, D-ringu, uchwytu i gniazda płetwy sprawdzany pod kątem położenia, ilości i dopasowania względem BOM zatwierdzonego przez klienta.'
+        - 'Zatwierdzenie FAI blokuje wersją projekt graficzny, wymiary i BOM; odchylenia trafiają do procedury decyzji o naprawie — nigdy do łatania na linii.'
+      object: 'Pierwszy egzemplarz i zespoły w trakcie procesu — szwy, listwy, gniazdo płetwy, podstawa zaworu, położenie nadruku, moment dokręcania osprzętu.'
+      method: 'Inspekcja pierwszego egzemplarza na pierwszej sztuce; obchody kontrolne na każdej zmianie; wytrzymałość spoin i geometria szwów weryfikowane przy linii.'
+      criteria: 'Zatwierdzenie FAI blokuje wersją projekt graficzny, wymiary i BOM. Odchylenia trafiają do procedury decyzji o naprawie — nigdy do łatania na linii.'
+      record: 'Zapis FAI, dzienniki obchodów zmianowych, notatki z napraw i decyzji.'
+      image: https://assets.isupfactory.com/site/quality/node03-ipqc-fai.avif
+      alt: Inspekcja w trakcie procesu i kontrola pierwszego egzemplarza podczas produkcji desek SUP
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_IPQC_TEST_REPORTS.pdf
+      link_label: 'Pobierz raporty IPQC (PDF)'
+    - stage: ETAP 04
+      title: 'Pompowanie i badanie szczelności powietrznej'
+      summary: 'Każda gotowa deska przechodzi pompowanie i weryfikację szczelności przed pakowaniem — 100% sztuk, a nie próbka.'
+      checks:
+        - 'Powierzchnia deski, listwy krawędziowe i okolica zaworu sprawdzane pod kątem dziurek, pęknięć, nieprawidłowych zafałdowań i delaminacji przed pompowaniem.'
+        - 'Komory pompowane do ciśnienia próbnego projektu skalibrowanym cyfrowym manometrem; odczyt początkowy zapisywany.'
+        - 'Wkład zaworu, podstawa zaworu i szwy listew sprawdzane na całym obwodzie — dziób, ogon i obszary krzywizny.'
+        - '24-godzinne utrzymanie ciśnienia z ciągłym rejestrowaniem; automatyczne odrzucenie po przekroczeniu dopuszczalnego spadku ciśnienia.'
+        - 'Wadliwe deski są izolowane, naprawiane zgodnie z instrukcją i w pełni badane ponownie — a nie tylko ponownie sprawdzane w punkcie naprawy.'
+      object: '100% pompowanych komór — wykrywanie przecieków na całej długości szwów, szczelność zaworów i utrzymanie ciśnienia.'
+      method: 'Wykrywanie przecieków na całym obwodzie szwów, następnie 24-godzinne utrzymanie ciśnienia przy 18.0 PSI; automatyczne odrzucenie przy spadku powyżej 0.50 PSI.'
+      criteria: 'Zero punktów przecieku i spadek ciśnienia w granicach 0.50 PSI na komorę; wadliwe sztuki są izolowane i naprawiane albo utylizowane.'
+      record: 'Raporty z badań szczelności powietrznej, jeden na komorę, powiązany z partią.'
+      image: https://assets.isupfactory.com/site/quality/node04-airtightness.avif
+      alt: Pompowanie i badanie szczelności powietrznej komory nadmuchiwanej deski SUP
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_AIRTIGHTNESS_TEST_REPORTS.pdf
+      link_label: 'Pobierz raporty ze szczelności powietrznej (PDF)'
+    - stage: ETAP 05
+      title: 'Inspekcja produktu końcowego (FQC)'
+      summary: 'Gotowe deski są mierzone i oceniane wizualnie względem zatwierdzonej próbki wzorcowej.'
+      checks:
+        - 'Wymiary krytyczne — długość, szerokość i grubość — mierzone przy ciśnieniu roboczym względem tolerancji rysunku.'
+        - 'Weryfikowany obrys, rocker deski i symetria; po napompowaniu brak nieprawidłowych odkształceń, skrętów lub wykrzywienia.'
+        - 'Ocena wizualna przy lampach dziennych D65: rysy, zabrudzenia, ślady kleju, pęcherze, zmarszczenia, odchylenie koloru.'
+        - 'Kontrola funkcjonalna: otwieranie i zamykanie zaworu oraz dopasowanie korka, montaż i blokowanie płetwy, D-ringi, uchwyty i działanie wiosła.'
+        - 'Konfiguracja zweryfikowana względem BOM i SKU zatwierdzonych przez klienta — akcesoria, etykiety, kody kreskowe i numery seryjne.'
+      object: 'Gotowa deska względem próbki wzorcowej — wymiary, rocker, profil, wygląd, dopasowanie gniazda płetwy i kompletność akcesoriów.'
+      method: 'Weryfikacja wymiarów względem tolerancji rysunku; ocena wizualna przy lampach dziennych D65; próby dopasowania gniazda płetwy i osprzętu.'
+      criteria: 'Wymiary w granicach tolerancji (np. 3508 × 814 × 150.3 mm), ocena wizualna zgodna z zatwierdzoną próbką, wszystkie akcesoria obecne.'
+      record: 'Raporty FQC z podpisem inspektora i decyzją.'
+      image: https://assets.isupfactory.com/site/quality/node05-fqc.avif
+      alt: Inspekcja produktu końcowego gotowych desek SUP przed pakowaniem
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_FQC_TEST_REPORTS.pdf
+      link_label: 'Pobierz raporty FQC (PDF)'
+    - stage: ETAP 06
+      title: 'Opakowanie i inspekcja przed wysyłką (PSI)'
+      summary: 'Zapakowany zestaw sprawdza się pod kątem kompletności, poprawności oznaczeń i gotowości do wysyłki.'
+      checks:
+        - 'Kompletność zestawu 100% względem BOM: deska, wiosło, pompka, smycz, worek, zestaw naprawczy i instrukcja — po jednym zestawie.'
+        - 'Elementy wrażliwe zabezpieczone (woreczki na pompkę i śmigło), deska złożona zgodnie ze SOP pakowania, akcesoria zgodne z modelem i kolorem.'
+        - 'Grafika kartonu, marka, ostrzeżenia i wersje językowe zweryfikowane względem zatwierdzonej rewizji projektu graficznego.'
+        - 'Typ, numer, położenie i czytelność kodu kreskowego zweryfikowane; znaki wysyłkowe, SKU, numer zamówienia, numer kartonu i ilość poprawne.'
+        - 'Rozmiar kartonu, masa brutto i netto oraz opakowanie wewnętrzne zgodne ze specyfikacją pakowania; wynik próby upuszkowej zapisywany, gdy jest wymagany.'
+      object: 'Zapakowany zestaw — deska, wiosło, pompka, smycz, worek, instrukcja — względem BOM zatwierdzonego przez klienta i specyfikacji opakowania.'
+      method: 'Kompletność zestawu 100% względem BOM; skan kodów kreskowych (Grade ≥ B); poprawność oznaczeń kartonu; próba upuszkowa ISTA-1A na zapakowanych kartonach.'
+      criteria: '100% zgodność zestawu z BOM, czytelne kody kreskowe, poprawne oznaczenia i opakowanie odporne na upuszczanie przed załadunkiem.'
+      record: 'Listy kontrolne PSI i zapisy pakowania dla każdego kartonu.'
+      image: https://assets.isupfactory.com/site/quality/node06-psi.avif
+      alt: Inspekcja przed wysyłką zgodności zapakowanego zestawu SUP z BOM
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_PSI_TEST_REPORTS.pdf
+      link_label: 'Pobierz raporty PSI (PDF)'
+    - stage: ETAP 07
+      title: 'Zatwierdzenie wysyłki i identyfikowalność'
+      summary: 'Zespół jakości podpisuje partię dopiero wtedy, gdy wszystkie sześć wcześniejszych bramek jest zamkniętych i kompletna jest dokumentacja.'
+      checks:
+        - 'Partia produkcyjna, numer zamówienia, SKU, ilość i liczba kartonów zgodne z listą pakunkową i fakturą handlową.'
+        - 'Specyfikacja, BOM, projekt graficzny i pliki opakowania są na bieżącej zatwierdzonej rewizji.'
+        - 'Zapisy IQC, FAI, z trakcie procesu, ze szczelności powietrznej, FQC i PSI są kompletne dla partii, która jest zatwierdzana.'
+        - 'Wszystkie niezgodności są rozwiązane, naprawione, ponownie sprawdzone i zamknięte — przy zatwierdzeniu nie ma żadnej otwartej pozycji.'
+        - 'Pola identyfikowalności zapisywane dla partii: kod projektu, numer zamówienia, SKU, rewizje projektu graficznego/BOM/opakowania, data produkcji, inspektor i numery dokumentów.'
+      object: 'Autoryzacja zatwierdzenia partii — wszystkie bramki zamknięte, dokumentacja kompletna, numery seryjne przypisane do partii.'
+      method: 'Przegląd wszystkich sześciu poprzednich dokumentów przez zespół jakości; zebranie pakietu identyfikowalności partii; przekazanie dokumentów razem z wysyłką.'
+      criteria: 'Wszystkie bramki zatwierdzone przez QA; zapisy partii i pakiet identyfikowalności przekazane kupującemu lub przechowywane pod NDA na żądanie.'
+      record: 'Autoryzacja zatwierdzenia wysyłki i pakiet identyfikowalności partii.'
+      image: https://assets.isupfactory.com/site/quality/node07-shipment-release.avif
+      alt: Podpisanie zatwierdzenia wysyłki i przekazanie dokumentacji identyfikowalności partii
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_SHIPMENT_RELEASE_REPORTS.pdf
+      link_label: 'Pobierz raporty z zatwierdzenia wysyłki (PDF)'
+system_map:
+  tagline: System jakości
+  title: 'Jeden system, cztery kontrolowane standardy'
+  subtitle: 'Powyższe siedem bramek działa w oparciu o cztery udokumentowane standardy, każdy opublikowany jako kontrolowana procedura, którą możesz pobrać i poddać audytowi. Razem tworzą QMS stojący za każdym zamówieniem OEM/ODM — kryteria inspekcji, kontrola zmian, niezgodności i badania laboratoryjne.'
+  items:
+    - title: 'Standardy inspekcji i zatwierdzania'
+      description: 'Plan Inspekcji Jakości (QIP) danego projektu napędza każdą bramkę: obiekt inspekcji, metodę, kryteria akceptacji i dokument wynikowy dla każdego zamówienia. Zawiera 4-etapowy model QC, łańcuch identyfikowalności, procedurę izolacji, macierz wad i rejestr dokumentacji 00–15.'
+      icon: tabler:clipboard-check
+      link: /pl/factory/quality-inspection
+      link_label: 'Standardy inspekcji i pliki QMS'
+    - title: 'Kontrola zmian przy naprawach'
+      description: 'Żadna zmiana parametru naprawy bez udokumentowanej kontroli: izolacja, klasyfikacja ryzyka, 9-etapowa pętla zmian, macierz zatwierdzeń i walidacja. Każda zmiana zatwierdzonych specyfikacji, próbek, list BOM lub kryteriów akceptacji wymaga pisemnej zgody klienta.'
+      icon: tabler:git-branch
+      link: /pl/factory/quality-change-control
+      link_label: 'Standard kontroli zmian'
+    - title: 'Kontrola produktów niezgodnych'
+      description: 'Zamknięta 7-etapowa pętla zgodnie z ISO 9001:2015 punkt 8.7: identyfikacja, izolacja, decyzja wg NCR, naprawa lub odrzucenie, ponowna inspekcja, zatwierdzenie, korekta. Zawiera uprawnienia decyzyjne według wagi, macierz decyzji dla wad desek SUP i niszczenie w asyście świadków.'
+      icon: tabler:alert-triangle
+      link: /pl/factory/non-conforming-control
+      link_label: 'Standard kontroli produktów niezgodnych'
+    - title: 'Badania laboratoryjne i sprzęt'
+      description: 'Laboratorium jakości działa niezależnie od produkcji: próby rozciągania, spadek ciśnienia, starzenie UV, odrywanie spoin, wykrywanie przecieków i komory temperaturowe — wraz z kalibracją i procedurami badań stojącymi za naszymi opublikowanymi deklaracjami.'
+      icon: tabler:flask
+      link: /pl/factory/quality-lab
+      link_label: 'Laboratorium jakości i sprzęt badawczy'
+    - title: 'Laboratorium badań materiałowych (R&D)'
+      description: 'Centrum R&D prowadzi niezależne badania materiałowe receptur PCV/Hypalon, przyspieszone starzenie i wsparcie certyfikacji, dostarczając standardy wykorzystywane w produkcji.'
+      icon: tabler:microscope
+      link: /pl/randdcenter/quality-inspection-lab
+      link_label: 'Laboratorium badań materiałowych R&D'
+intelligence_cards:
+  tagline: Dokumentacja i identyfikowalność
+  title: 'Zapisy jakości wspierające identyfikowalność projektu'
+  subtitle: 'Zapisy inspekcji prowadzimy dla każdej partii produkcyjnej i wiążemy z właściwą dokumentacją projektu — rewizją specyfikacji, rewizją projektu graficznego, BOM i wymaganiami pakowania. Aby chronić poufność klienta, próbki na tej stronie są zanonimizowane: pokazujemy wyłącznie pola strukturalne (kod projektu, produkt/SKU, partia, etap inspekcji, punkt kontrolny, kryteria akceptacji, wynik, inspektor, data i status zatwierdzenia).'
+  cards:
+    - icon: 1
+      icon_bg: blue
+      title: Zapis inspekcji materiałów przychodzących
+      desc: 'Dowodzi, że surowce, tkaniny drop-stitch, rolki PCV i komponenty zostały zweryfikowane względem zatwierdzonej specyfikacji przed zwolnieniem produkcji.'
+      metrics:
+        - { label: Etap, value: '02 · IQC' }
+        - { label: Nr partii, value: 'LOT-DEMO-DS-0814' }
+        - { label: Wynik, value: 'Zaliczono · Zatwierdzono do produkcji' }
+      link: 'https://assets.isupfactory.com/site/downloads/anonymized-quality-record-samples.pdf#page=1'
+      link_label: 'Zobacz zanonimizowaną próbkę (PDF)'
+    - icon: 2
+      icon_bg: green
+      title: Zapis inspekcji pierwszego egzemplarza (FAI)
+      desc: 'Pokazuje blokowanie wersji (projekt graficzny, wymiary, specyfikacja BOM) przed wejściem na pełną produkcję seryjną.'
+      metrics:
+        - { label: Etap, value: '03 · IPQC' }
+        - { label: Kod próbki, value: 'SN-DEMO-FAI-001' }
+        - { label: Wynik, value: 'Zaliczono · FAI zatwierdzone' }
+      link: 'https://assets.isupfactory.com/site/downloads/anonymized-quality-record-samples.pdf#page=2'
+      link_label: 'Zobacz zanonimizowaną próbkę (PDF)'
+    - icon: 3
+      icon_bg: purple
+      title: Zapis badania pompowania i szczelności powietrznej
+      desc: 'Weryfikuje wykrywanie przecieków na 100% długości szwów, szczelność zaworów i utrzymanie ciśnienia zgodnie z planem jakości projektu.'
+      metrics:
+        - { label: Etap, value: '04 · Szczelność powietrzna' }
+        - { label: Warunki badania, value: 'Wg planu projektu (18.0 PSI)' }
+        - { label: Wynik, value: 'Zaliczono · Zatwierdzono do inspekcji końcowej' }
+      link: 'https://assets.isupfactory.com/site/downloads/anonymized-quality-record-samples.pdf#page=3'
+      link_label: 'Zobacz zanonimizowaną próbkę (PDF)'
+    - icon: 4
+      icon_bg: orange
+      title: Raport z inspekcji produktu końcowego
+      desc: 'Weryfikuje gotową deskę względem zatwierdzonej próbki pod kątem wymiarów, rockera, wyglądu (oświetlenie D65) i dopasowania gniazda płetwy.'
+      metrics:
+        - { label: Etap, value: '05 · FQC' }
+        - { label: Wymiar, value: '3508 × 814 × 150.3 mm' }
+        - { label: Wynik, value: 'Zaliczono · Zatwierdzono do pakowania' }
+      link: 'https://assets.isupfactory.com/site/downloads/anonymized-quality-record-samples.pdf#page=4'
+      link_label: 'Zobacz zanonimizowaną próbkę (PDF)'
+    - icon: 5
+      icon_bg: green
+      title: Lista kontrolna pakowania i inspekcji przed wysyłką
+      desc: 'Zapewnia 100% kompletność zestawu, czytelność kodów kreskowych (Grade ≥ B), poprawność oznaczeń kartonu i bezpieczeństwo ISTA-1A przy upuszczaniu.'
+      metrics:
+        - { label: Etap, value: '06 · PSI' }
+        - { label: Zestaw, value: '100% zgodny z BOM' }
+        - { label: Wynik, value: 'Zaliczono · Zatwierdzono do wysyłki' }
+      link: 'https://assets.isupfactory.com/site/downloads/anonymized-quality-record-samples.pdf#page=5'
+      link_label: 'Zobacz zanonimizowaną próbkę (PDF)'
+doc_register:
+  tagline: Rejestr kontrolowanych dokumentów
+  title: 'Każdy dokument stojący za wysyłką — w jednym miejscu'
+  subtitle: 'Każde zamówienie generuje uporządkowany rejestr dokumentów 00–15 — indeks projektu, zatwierdzoną specyfikację, BOM, odniesienia do projektu graficznego i pakowania, QIP, zapisy inspekcji, NCR, kontrolę zmian, brief dla podmiotu trzeciego i podsumowanie zatwierdzenia. Pobierz dokumenty publiczne, aby zobaczyć dokładną strukturę i kryteria, które kontrolujemy.'
+  items:
+    - title: '00 · Plan Inspekcji Jakości projektu (QIP)'
+      description: 'Umowa jakości dla konkretnego zamówienia: bramki, zakres inspekcji, metody, kryteria akceptacji i dokumenty, które otrzymasz.'
+      icon: '00'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_SUP_OEM_QIP.pdf
+      link_label: 'Pobierz QIP (PDF)'
+    - title: '01 · Standardy inspekcji jakości'
+      description: 'Pełny standard inspekcji i zapewnienia jakości stosowany do niestandardowych zamówień na nadmuchiwane deski SUP.'
+      icon: '01'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_Quality_Inspection_Standards.pdf
+      link_label: 'Pobierz standard (PDF)'
+    - title: '02 · Pakiet dokumentacji jakości'
+      description: 'Kompletna struktura dokumentów, którą otrzymuje projekt, w jednym pakiecie przeglądowym.'
+      icon: '02'
+      link: https://assets.isupfactory.com/site/downloads/Qingdao_Vatrad_Group_SUP_Quality_Documentation_Pack.pdf
+      link_label: 'Pobierz pakiet (PDF)'
+    - title: '03 · Raporty IQC'
+      description: 'Raporty z inspekcji materiałów przychodzących — tkaniny, rolki PCV, zawory i komponenty.'
+      icon: '03'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_IQC_TEST_REPORTS.pdf
+      link_label: 'Pobierz raporty IQC (PDF)'
+    - title: '04 · Raporty IPQC'
+      description: 'Raporty z inspekcji w trakcie procesu i pierwszego egzemplarza względem zablokowanej rewizji.'
+      icon: '04'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_IPQC_TEST_REPORTS.pdf
+      link_label: 'Pobierz raporty IPQC (PDF)'
+    - title: '05 · Raporty ze szczelności powietrznej'
+      description: 'Wykrywanie przecieków na 100% długości szwów, szczelność zaworów i zapisy utrzymania ciśnienia.'
+      icon: '05'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_AIRTIGHTNESS_TEST_REPORTS.pdf
+      link_label: 'Pobierz raporty ze szczelności powietrznej (PDF)'
+    - title: '06 · Raporty FQC'
+      description: 'Inspekcja końcowej deski względem zatwierdzonej próbki — wymiary, wygląd, gniazdo płetwy.'
+      icon: '06'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_FQC_TEST_REPORTS.pdf
+      link_label: 'Pobierz raporty FQC (PDF)'
+    - title: '07 · Raporty PSI'
+      description: 'Pakowanie i inspekcja przed wysyłką — 100% kompletność zestawu, klasa kodu kreskowego, bezpieczeństwo przy upuszczaniu.'
+      icon: '07'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_PSI_TEST_REPORTS.pdf
+      link_label: 'Pobierz raporty PSI (PDF)'
+    - title: '08 · Raporty z zatwierdzenia wysyłki'
+      description: 'Autoryzacja zatwierdzenia podpisana po zamknięciu wszystkich bramek, razem z pakietem partii.'
+      icon: '08'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_SHIPMENT_RELEASE_REPORTS.pdf
+      link_label: 'Pobierz raporty z zatwierdzenia (PDF)'
+    - title: '09 · Pakiet identyfikowalności i NCR'
+      description: 'Identyfikowalność partii przypisana do specyfikacji, projektu graficznego i BOM plus zapisy kontroli niezgodności.'
+      icon: '09'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_BATCH_TRACEABILITY_AND_NCR_CONTROL_DOSSIER.pdf
+      link_label: 'Pobierz pakiet (PDF)'
+    - title: '10 · SOP kontroli NCP (ISO 8.7)'
+      description: 'Kontrolowana procedura izolacji, decyzji, naprawy i zatwierdzania produktów niezgodnych.'
+      icon: '10'
+      link: https://assets.isupfactory.com/site/downloads/non-conforming-product-control-sop-iso-8-7.pdf
+      link_label: 'Pobierz SOP (PDF)'
+    - title: '11 · SOP kontroli zmian przy naprawie + aneks'
+      description: 'Procedura kontroli zmian i jej aneks wykonawczy — izolacja, zatwierdzanie i walidacja.'
+      icon: '11'
+      link: https://assets.isupfactory.com/site/downloads/rework-change-control-sop-qms-sop-qc-cc-001.pdf
+      link_label: 'Pobierz SOP (PDF)'
+    - title: '12 · Podsumowanie zatwierdzenia przed wysyłką'
+      description: 'Dwujęzyczne podsumowanie zatwierdzenia, z którym wysyłana jest każda partia, spinające cały rejestr.'
+      icon: '12'
+      link: https://assets.isupfactory.com/site/downloads/Pre_Shipment_Release_Summary_Bilingual.pdf
+      link_label: 'Pobierz podsumowanie (PDF)'
+    - title: '13 · Szablon briefu dla inspekcji zewnętrznej'
+      description: 'Szablon briefu, którego inspektorzy używają do zapowiadania, planowania i raportowania inspekcji przed wysyłką.'
+      icon: '13'
+      link: https://assets.isupfactory.com/site/downloads/Third_Party_Inspection_Brief_Template.pdf
+      link_label: 'Pobierz szablon (PDF)'
+    - title: '14 · Lista kontrolna PSI'
+      description: 'Lista kontrolna przed wysyłką używana na hali — kompletność zestawu, klasa kodu kreskowego, oznaczenia i bezpieczeństwo przy upuszczaniu.'
+      icon: '14'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_SUP_Pre_Shipment_Inspection_Checklist.pdf
+      link_label: 'Pobierz listę kontrolną (PDF)'
+    - title: '15 · Przewodnik po wykonalności i jakości projektów OEM'
+      description: 'Jak projekt przechodzi od zapytania do zatwierdzonej próbki wzorcowej — kroki inżynierskie i jakościowe przed produkcją seryjną.'
+      icon: '15'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_OEM_PROJECT_FEASIBILITY_AND_QUALITY_GUIDE.pdf
+      link_label: 'Pobierz przewodnik (PDF)'
+traceability:
+  tagline: Identyfikowalność na poziomie partii
+  title: 'Cztery pytania, na które odpowiada każda partia'
+  subtitle: 'Zapisy jakości prowadzimy dla każdej partii produkcyjnej i wiążemy z właściwą specyfikacją produktu, projektem graficznym, BOM i wymaganiami pakowania. Umożliwia to dochodzenie i kontrolowane działania w przypadku stwierdzenia problemu jakościowego. Podczas audytu kupującego nasz zespół jakości odpowiada na hali na te cztery pytania — każda odpowiedź wskazuje na kontrolowany zapis.'
+  items:
+    - title: 'Co zostało wyprodukowane?'
+      description: 'Produkt, model, konfiguracja i rewizja są powiązane z numerem zamówienia i zatwierdzoną rewizją specyfikacji.'
+      icon: '1'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_BATCH_TRACEABILITY_AND_NCR_CONTROL_DOSSIER.pdf
+      link_label: 'Zobacz pakiet identyfikowalności (PDF)'
+    - title: 'Jakie materiały zostały użyte?'
+      description: 'Każda partia materiału trafiająca do danej partii jest zapisywana wraz z dostawcą, świadectwem i decyzją IQC.'
+      icon: '2'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_BATCH_TRACEABILITY_AND_NCR_CONTROL_DOSSIER.pdf
+      link_label: 'Zobacz pakiet identyfikowalności (PDF)'
+    - title: 'Kto przeprowadził inspekcję i kiedy?'
+      description: 'Każdy zapis zawiera rolę inspektora, datę, użyte narzędzia i wynik — bez anonimowych podpisów.'
+      icon: '3'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_BATCH_TRACEABILITY_AND_NCR_CONTROL_DOSSIER.pdf
+      link_label: 'Zobacz pakiet identyfikowalności (PDF)'
+    - title: 'Jak partia została zatwierdzona?'
+      description: 'Zatwierdzenie jest autoryzowane przez zespół jakości dopiero po zamknięciu wszystkich bramek; decyzja jest udokumentowana w zapisie.'
+      icon: '4'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_BATCH_TRACEABILITY_AND_NCR_CONTROL_DOSSIER.pdf
+      link_label: 'Zobacz pakiet identyfikowalności (PDF)'
+non_conformance:
+  tagline: Kontrola produktów niezgodnych
+  title: 'Gdy wykryto wadę: zatrzymaj, zdecyduj, udokumentuj'
+  subtitle: 'Produkty lub komponenty, które nie spełniają zdefiniowanych kryteriów akceptacji, są identyfikowane i umieszczane w kontrolowanym zatrzymaniu. Naprawa lub wymiana są dopuszczalne wyłącznie zgodnie z właściwą procedurą jakości, a następnie wymagają ponownej inspekcji przed zatwierdzeniem.'
+  items:
+    - title: 'Wykryj i odseparuj'
+      description: 'Wadliwe sztuki są oznaczane czerwonym tagiem i przenoszone do stacji izolacji — bez dalszego przetwarzania i pakowania do czasu decyzji.'
+      icon: tabler:alert-triangle
+    - title: 'Decyzja wg NCR'
+      description: 'Zespół jakości wystawia Raport Niezgodności (NCR) i kieruje sztukę do naprawy, ponownej inspekcji, odrzucenia lub utylizacji zgodnie z macierzą decyzji.'
+      icon: tabler:git-branch
+      link: /pl/factory/non-conforming-control
+      link_label: 'Standard kontroli produktów niezgodnych'
+    - title: 'Zweryfikuj i zatwierdź'
+      description: 'Naprawione sztuki są ponownie sprawdzane według tych samych kryteriów; NCR jest zamykany dopiero po pozytywnej weryfikacji.'
+      icon: tabler:shield-check
+    - title: 'Kontrola utylizacji'
+      description: 'Zutylizowany materiał jest niszczony z podpisanym świadectwem utylizacji, więc nigdy nie wraca do magazynu ani na rynek.'
+      icon: tabler:trash
+      link: https://assets.isupfactory.com/site/downloads/scrap-destruction-certificate-vat-qa-scrap-cert-2026.pdf
+      link_label: 'Świadectwo utylizacji i zniszczenia (PDF)'
+    - title: 'Sprzężenie zwrotne o przyczynach'
+      description: 'Powtarzające się wady uruchamiają działanie korygujące u odpowiedzialnego procesu lub dostawcy — zamknięte w pętli, a nie na papierze.'
+      icon: tabler:refresh
+      link: https://assets.isupfactory.com/site/downloads/rework-change-control-sop-qms-sop-qc-cc-001.pdf
+      link_label: 'SOP kontroli zmian przy naprawie (PDF)'
+third_party:
+  tagline: Wsparcie dla inspekcji kupującego i inspekcji niezależnych
+  title: 'Twój inspektor jest mile widziany na hali'
+  subtitle: 'Inspekcje powołane przez kupującego oraz niezależne inspekcje podmiotów trzecich (SGS, TÜV, Bureau Veritas, agenci celni) można uzgodnić przed zwolnieniem produkcji. Zakres inspekcji, poziom pobierania próbek, kryteria akceptacji, terminy i wymagania raportowe powinny zostać potwierdzone przed rozpoczęciem produkcji. Tam, gdzie jest to możliwe, koordynujemy dostęp do odpowiednich etapów produkcji, inspekcji końcowej i pakowania zgodnie z uzgodnionym planem inspekcji.'
+  items:
+    - title: 'Terminowanie inspekcji'
+      description: 'Inspekcje wewnętrzne lub podmiotów trzecich można umówić na którymkolwiek z siedmiu bramek, a Twoim planem inspekcji jako podstawą akceptacji.'
+      icon: tabler:calendar-clock
+      link: /pl/factory/quality-inspection
+      link_label: 'Standardy inspekcji i pliki QMS'
+    - title: 'Szablon briefu przed wysyłką'
+      description: 'Szablon briefu, którego inspektorzy używają do zapowiadania, planowania i raportowania inspekcji przed wysyłką w naszym zakładzie.'
+      icon: tabler:file-report
+      link: https://assets.isupfactory.com/site/downloads/Third_Party_Inspection_Brief_Template.pdf
+      link_label: 'Pobierz szablon briefu (PDF)'
+    - title: 'Lista kontrolna PSI'
+      description: 'Lista kontrolna przed wysyłką używana na hali — kompletność zestawu, klasa kodu kreskowego, oznaczenia i bezpieczeństwo przy upuszczaniu.'
+      icon: tabler:clipboard-check
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_SUP_Pre_Shipment_Inspection_Checklist.pdf
+      link_label: 'Pobierz listę kontrolną PSI (PDF)'
+    - title: 'Kompletny pakiet dokumentacji jakości'
+      description: 'Jeden pakiet obejmujący cały system dokumentacji — QIP, zapisy bramek, identyfikowalność i kontrolę NCR.'
+      icon: tabler:books
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_COMPLETE_SUP_QUALITY_DOSSIER.pdf
+      link_label: 'Pobierz pakiet dokumentacji (PDF)'
+    - title: 'Przewodnik po wykonalności i jakości projektów OEM'
+      description: 'Jak projekt przechodzi od zapytania do zatwierdzonej próbki wzorcowej — kroki inżynierskie i jakościowe przed produkcją seryjną.'
+      icon: tabler:route
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_OEM_PROJECT_FEASIBILITY_AND_QUALITY_GUIDE.pdf
+      link_label: 'Pobierz przewodnik projektu (PDF)'
+content_certifications:
+  tagline: Certyfikacje i normy
+  title: 'Certyfikowana jakość, uznana na świecie'
+  subtitle: 'Certyfikacja jest warta tyle, ile obejmuje. Poniżej znajdziesz zakres certyfikacji, posiadacza certyfikatu oraz sposób weryfikacji lub pozyskania dokumentów dla swojego projektu.'
+  items:
+    - title: 'Oznakowanie CE'
+      description: 'Dokumentacja zgodności CE jest dostępna dla właściwych konfiguracji na rynek UE zgodnie z Dyrektywą 2013/53/EU (rekreacyjne jednostki pływające); zakres potwierdza się dla każdego projektu. Numery certyfikatów i raporty z badań dostępne na żądanie.'
+      icon: tabler:certificate
+    - title: 'ISO 9001:2015'
+      description: 'System zarządzania jakością certyfikowany zgodnie z ISO 9001:2015, obejmujący projektowanie, produkcję i dystrybucję nadmuchiwanych jednostek pływających oraz wyposażenia morskiego. Zakres certyfikacji i raport z audytu dostępne na żądanie.'
+      icon: tabler:clipboard-check
+    - title: 'Zgodność społeczna BSCI'
+      description: 'Zauditowane wg BSCI (Business Social Compliance Initiative), obejmujące warunki pracy i zgodność fabryki. Raport z audytu dostępny na żądanie.'
+      icon: tabler:heart-handshake
+    - title: 'Zgodność materiałowa REACH'
+      description: 'Materiały spełniają unijne rozporządzenie REACH w zakresie bezpieczeństwa chemicznego. Deklaracje materiałowe dołączamy do dokumentacji produkcyjnej każdej wysyłki.'
+      icon: tabler:flask
+    - title: 'Zgodność RoHS'
+      description: 'Zgodność w zakresie substancji niebezpiecznych ograniczonych udokumentowana zgodnie z RoHS dla właściwych komponentów i materiałów.'
+      icon: tabler:flame
+    - title: 'Badania materiałowe'
+      description: 'Tkaniny bada się pod kątem wytrzymałości na rozciąganie, odporności na rozdarcie, degradacji UV i pękania na zimno. Z każdej partii produkcyjnej pobiera się próbki i weryfikuje je zgodnie z opublikowanym protokołem badań.'
+      icon: tabler:test-pipe
+faqs:
+  tagline: FAQ
+  title: Najczęściej zadawane pytania o nasz system jakości
+  items:
+    - q: 'Czy mogę pobrać rzeczywiste raporty z inspekcji?'
+      a: 'Tak. Siedem dwujęzycznych pakietów raportów na tej stronie — QIP, IQC, IPQC/FAI, szczelność powietrzna, FQC, PSI i zatwierdzenie wysyłki — to rzeczywiste kontrolowane zapisy z usuniętymi polami poufnymi. Pokazują dokładną strukturę, metody i kryteria akceptacji stosowane w każdym zamówieniu.'
+    - q: 'Jak siedem bramek przekłada się na mój projekt?'
+      a: 'Każdy projekt otrzymuje Plan Inspekcji Jakości (QIP), który określa bramki właściwe dla Twojego produktu i rynku, zakres inspekcji na każdej bramce oraz dokumenty, które otrzymasz. Pobierz próbkę QIP z tej strony, aby zobaczyć jej strukturę.'
+    - q: 'Czy te próbki zapisów inspekcyjnych są prawdziwe?'
+      a: 'Tak. Próbki odpowiadają naszej rzeczywistej strukturze kontrolowanych zapisów — nagłówek dokumentu, lista kontrolna inspekcji, kryteria akceptacji, metoda, wyniki, rola inspektora i decyzja o zatwierdzeniu. Wszystkie wartości identyfikujące są zastąpione wartościami demonstracyjnymi (kody DEMO-*), więc żadne dane klienta, projektu graficznego, zamówienia ani ceny nie są ujawniane.'
+    - q: 'Dlaczego próbki są zanonimizowane?'
+      a: 'Poufność klienta jest na pierwszym miejscu. Nazwy klientów, projekt graficzny, szczegóły zamówień, informacje o dostawcach i ceny są chronione z założenia. Anonimizacja pozwala każdemu potencjalnemu kupującemu zweryfikować naszą strukturę zapisów i identyfikowalność, nie ujawniając przy tym działalności innego klienta.'
+    - q: 'Czy możemy otrzymać pełne raporty z inspekcji naszego projektu?'
+      a: 'Tak. Dla zatwierdzonych projektów udostępniamy dokumentację jakości właściwą dla Twojego zamówienia — plan inspekcji jakości, raporty z inspekcji materiałów przychodzących, w trakcie procesu, ze szczelności powietrznej, końcowej i pakowania oraz autoryzację zatwierdzenia wysyłki — powiązane z identyfikowalnością Twojej partii. Wrażliwe dane handlowe pozostają objęte NDA zgodnie z ustaleniami.'
+    - q: 'Co zawiera zapis inspekcji na poziomie partii?'
+      a: 'Każdy zapis wiąże partię produkcyjną z właściwą rewizją specyfikacji lub rysunku, rejestruje każdy punkt kontrolny wobec jego kryteriów akceptacji wraz z metodą i użytym narzędziem, a kończy rolą inspektora, statusem wyniku i decyzją o zatwierdzeniu podpisaną przez zespół jakości.'
+evidence_review:
+  tagline: 'Dowody i weryfikacja'
+  title: 'ZWERYFIKOWANE SPECYFIKACJE'
+  body: 'Wszystkie deklaracje produkcyjne na tej stronie są weryfikowane przez nasz Zespół Inżynierii Produkcji w zakładzie w Laixi, w Qingdao. Certyfikaty, zapisy kontroli jakości, raporty z prób ciśnieniowych i wytrzymałościowych oraz zapisy identyfikowalności partii są dostępne na żądanie. Specyfikacje zweryfikowano ostatnio we wrześniu 2026.'
+
+cta:
+  title: 'Potrzebujesz wymagań jakościowych dla swojego projektu SUP?'
+  subtitle: 'Podaj kategorię produktu, rynek docelowy, szacunkową ilość oraz ewentualne wymagania dotyczące inspekcji, dokumentacji lub opakowania. Zweryfikujemy obowiązujące dane wejściowe projektu i wskażemy kolejny krok w kierunku opracowania próbki lub planowania produkcji. Przed udostępnieniem niepublicznych specyfikacji, projektu graficznego lub wymagań jakościowych możemy omówić NDA.'
+  actions:
+    - variant: primary
+      text: Zamów przegląd jakości projektu
+      href: /pl/contact#quality-inquiry
+    - text: Odwiedź nasze laboratorium kontroli jakości
+      href: /pl/randdcenter/quality-inspection-lab
+    - text: Standardy inspekcji i pliki QMS
+      href: /pl/factory/quality-inspection
+    - text: Standard kontroli produktów niezgodnych
+      href: /pl/factory/non-conforming-control

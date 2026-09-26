@@ -1,0 +1,82 @@
+meta:
+  title: 'Dostawca sprzętu do wypożyczalni SUP i rozwiązania flotowe'
+  description: 'Komercyjne deski SUP projektowane pod codzienne wypożyczanie: odporny na UV PCV, wzmocnione szwy i szybkoschnące materiały dla flot o wysokiej rotacji.'
+  dateModified: '2026-08'
+
+hero:
+  tagline: 'Operatorzy wypożyczalni'
+  title: 'Deski SUP zaprojektowane pod floty wypożyczalni'
+  subtitle: 'Zaprojektuj flotę, która wytrzyma codzienne wypożyczanie: deski o wysokiej rotacji z odpornym na UV PCV, wzmocnionymi szwami i szybkoschnącymi materiałami — stworzone na 365 dni użytkowania w roku.'
+  image:
+    src: https://assets.isupfactory.com/images/sups/use-cases/isupfactory-family-use-case.webp
+    alt: 'Deski SUP przygotowane i gotowe do codziennego wypożyczania'
+
+answer:
+  label: 'Krótka odpowiedź'
+  text: 'Deski do flot wypożyczalni powstają z odpornego na UV morskiego PCV, ze szwami 3× wytrzymalszymi niż w konstrukcji standardowej oraz z rdzeniami drop-stitch o parametrach 15 PSI — sprawdzone w ponad 500 cyklach wypożyczania. MOQ potwierdzamy na podstawie konfiguracji projektu: próbka (1–2 szt.), seria pilotażowa (20–50 szt.) i wolumen standardowy (90–100+ szt. w serii z rolki 150 m); produkcja trwa 25–35 dni od zamówienia i zaliczki, na warunkach FOB, CIF lub DDP.'
+  verified: 'Wrzesień 2026'
+
+features:
+  title: 'Zbudowane na trud wypożyczalni'
+  subtitle: 'Każda deska jest projektowana na ponad 500 cykli wypożyczania przy minimalnej obsłudze.'
+  items:
+    - title: 'Ponad 500 cykli wypożyczania'
+      description: 'Sprawdzone pod kątem codziennego użytkowania w wodzie słonej, słońcu i piasku.'
+      icon: 'tabler:shield-check'
+    - title: 'Tkanina odporna na UV'
+      description: 'Brak blaknięcia i degradacji po 1 roku przechowywania na zewnątrz.'
+      icon: 'tabler:sun'
+    - title: 'Wzmocnione szwy'
+      description: 'Wzmocniona konstrukcja szwów stworzona pod codzienną rotację w wypożyczalni i powtarzane cykle nadmuchiwania.'
+      icon: 'tabler:layers-intersect'
+    - title: 'Szybkoschnące materiały'
+      description: 'Szybkoschnące materiały sprawiają, że deska jest gotowa na kolejne wypożyczenie już po kilku godzinach.'
+      icon: 'tabler:droplet'
+    - title: 'Przechowywanie w stosie'
+      description: 'Oszczędna konstrukcja pozwalająca układać deski w stos — więcej desek w tej samej przestrzeni.'
+      icon: 'tabler:stack'
+    - title: 'Kodowanie kolorami rozmiarów'
+      description: 'Dzięki kodowaniu kolorami personel od razu sięgnie po właściwą deskę.'
+      icon: 'tabler:color-swatch'
+
+stats:
+  title: 'Wskaźniki operacyjne'
+  stats:
+    - title: 'Hala produkcyjna'
+      amount: '12,500 m²'
+    - title: 'Próba ciśnieniowa'
+      amount: '18 PSI / 24h'
+    - title: 'Lista kontrolna montażu'
+      amount: '100 punktów'
+    - title: 'Wysyłka części zamiennych'
+      amount: '48h'
+
+fleet_guide:
+  title: 'Jak dobrać wielkość floty'
+  subtitle: 'Oszacuj, ile desek potrzebuje Twoja wypożyczalnia, na podstawie codziennej rotacji.'
+  tiers:
+    - label: 'Mały punkt'
+      boards: '15-20'
+      note: 'Do 2–3 rotacji desek dziennie w szczycie sezonu'
+    - label: 'Średnia skala'
+      boards: '30-50'
+      note: 'Kilka punktów wodowania lub duży ruch w weekendy'
+    - label: 'Duża wypożyczalnia plażowa'
+      boards: '50-100'
+      note: 'Pełne floty wypożyczalni w kilku punktach plażowych'
+
+content_html: |
+  <div class="mx-auto max-w-3xl space-y-4 rounded-2xl border bg-card p-6 text-[14.5px] leading-relaxed text-fg-2">
+    <p><strong>Czytaj dalej:</strong> deski do wypożyczalni zaczynają się od Twojej specyfikacji — zobacz nasz <a href="/pl/oem-manufacturing">program OEM/ODM</a> z personalizacją, niskim próbnym MOQ i cenami flotowymi. Każda deska przechodzi przez <a href="/pl/factory">linię produkcyjną</a> o powierzchni 12,500 m&sup2; i jest w 100% badana ciśnieniowo przed wysyłką.</p>
+  </div>
+
+cta:
+  title: 'Zaprojektuj swoją flotę wypożyczalni'
+  subtitle: 'Wyślij wymagania swojej floty albo porównaj platformy desek dla Twojej wypożyczalni.'
+  actions:
+    - text: 'Wyślij wymagania floty'
+      href: '/pl/contact'
+      variant: 'primary'
+    - text: 'Porównaj platformy desek'
+      href: '/pl/inflatable-vs-hardboard'
+      variant: 'secondary'

@@ -1,0 +1,82 @@
+meta:
+  title: 'Jak wybrać grubość deski SUP — analiza inżynierska'
+  description: 'Czym różnią się nadmuchiwane deski SUP o grubości 4", 5" i 6" pod względem sztywności, wagi, stabilności i prowadzenia, wraz z zaleceniami dla każdej grubości.'
+  author: 'iSupfactory'
+  datePublished: '2026-08-04'
+  dateModified: '2026-08-07'
+back_text: 'Powrót do badań'
+
+hero:
+  tagline: 'Inżynieria'
+  title: 'Jak wybrać grubość deski SUP — analiza inżynierska'
+  subtitle: '6 min czytania'
+
+answer:
+  label: 'Krótka odpowiedź'
+  text: 'Grubość to kompromis między sztywnością a stabilnością: 4" (10 cm) jest najsztywniejsza, najlżejsza i najszybsza — najlepsza do touringu i wyścigów; 5" (12.7 cm) to wybór allround dla większości osób wiosłujących; 6" (15.2 cm) maksymalizuje stabilność podstawową, przydatną w jodze i przy cięższych użytkownikach (100+ kg). Cieńszy przekrój jest konstrukcyjnie sztywniejszy, więc deska 4" przy 15 PSI ugina się mniej niż deska 6" przy 25 PSI.'
+  verified: 'Wrzesień 2026'
+
+content_html: |
+  <h2>Trzy standardowe grubości</h2>
+
+  <h3>4" (10 cm) – Touring &amp; wydajność</h3>
+  <ul>
+    <li>Najwyższa sztywność – mniejsze ugięcie pod obciążeniem</li>
+    <li>Najmniejsza waga – mniej materiału, mniejsza objętość powietrza</li>
+    <li>Doskonałe prowadzenie – mniejsze kołysanie na boki</li>
+    <li>Najszybsza – mniejszy opór, łatwiejsze ślizganie</li>
+    <li>Najlepsza do: touringu, wyścigów, treningu na SUP, doświadczonych wioślarzy</li>
+  </ul>
+
+  <h3>5" (12.7 cm) – Allround</h3>
+  <ul>
+    <li>Dobra sztywność – zrównoważony stosunek ugięcia do sztywności</li>
+    <li>Umiarkowana waga – standardowe zużycie materiału</li>
+    <li>Dobra stabilność podstawowa i wtórna</li>
+    <li>Najlepsza do: rekreacyjnego wiosłowania, początkujących, okazjonalnego wiosłowania na jeziorach i rzekach</li>
+  </ul>
+
+  <h3>6" (15.2 cm) – Stabilność &amp; joga</h3>
+  <ul>
+    <li>Najwyższa stabilność podstawowa – ogromna wyporność</li>
+    <li>Największa waga – więcej materiału PCV, większa objętość powietrza</li>
+    <li>Wolniejsza – większy opór, trudniej utrzymać ślizganie</li>
+    <li>Najlepsza do: jogi i fitnessu, ciężkich wioślarzy (100+ kg), bardzo niespokojnych warunków</li>
+  </ul>
+
+  <h2>Analiza inżynierska</h2>
+  <p>Sztywność nadmuchiwanej deski SUP zależy od ciśnienia powietrza wewnątrz oraz momentu bezwładności przekroju deski. Przy 20 PSI deska 4" ugina się pod obciążeniem o około 30% mniej niż deska 6" o tej samej szerokości i długości. Stabilność podstawowa wynika z szerokości linii wodnej i wyporności; stabilność wtórna zależy od kształtu listwy krawędziowej i szerokości deski.</p>
+
+  <h2>Grubość a waga wioślarza</h2>
+  <table class="w-full text-sm border-collapse">
+    <thead>
+      <tr class="bg-gray-100">
+        <th class="p-3 text-left font-semibold text-gray-900 border">Waga wioślarza</th>
+        <th class="p-3 text-left font-semibold text-gray-900 border">Zalecana grubość</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td class="p-3 border">Poniżej 65 kg (143 lbs)</td><td class="p-3 border">4"</td></tr>
+      <tr><td class="p-3 border">65 – 90 kg (143 – 198 lbs)</td><td class="p-3 border">5"</td></tr>
+      <tr><td class="p-3 border">90 – 115 kg (198 – 253 lbs)</td><td class="p-3 border">5" lub 6"</td></tr>
+      <tr><td class="p-3 border">Powyżej 115 kg (253 lbs)</td><td class="p-3 border">6"</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Grubość a PSI — kompromis</h2>
+  <p>Powszechnym błędem jest przekonanie, że wyższe PSI skompensuje zbyt dużą grubość. Przy 25 PSI deska 6" ugina się bardziej niż deska 4" przy 15 PSI, ponieważ w równaniu sztywności dominuje geometryczny moment bezwładności przekroju. Dla wioślarzy stawiających na wydajność cieńsza deska przy niższym ciśnieniu sprawdza się lepiej niż grubsza przy wyższym.</p>
+
+  <h2>Oferta Vatrad</h2>
+  <ul>
+    <li><strong>Deski 4":</strong> seria Cheetah Touring – deski touringowe 12' x 30" x 4" do fitnessu i wiosłowania na dystans</li>
+    <li><strong>Deski 5":</strong> seria Cheetah All-Round – 10'6" x 32" x 5" do użytku rekreacyjnego</li>
+    <li><strong>Deski 6":</strong> seria Cheetah Ultra-Stable – 10' x 34" x 6" do jogi, większych wioślarzy i platform fotograficznych</li>
+  </ul>
+  <p>Wszystkie deski wykorzystują rdzenie drop-stitch 1,680 DTEX z ciśnieniem znamionowym 15 PSI i laminatem PCV o grubości 1.2 mm.</p>
+  <p>Grubość, PSI i specyfikację tkaniny można konfigurować dla linii na zamówienie — zobacz, jak <a href="/pl/oem-manufacturing">projektujemy deski dla marek OEM i private label</a>, i zajrzyj do <a href="/pl/factory">hali fabryki</a>, by przejść przez konstrukcję deski.</p>
+
+cta:
+  title: 'Nie wiesz, która grubość jest dla Ciebie odpowiednia?'
+  subtitle: 'Przejrzyj naszą ofertę desek SUP lub skonsultuj się z naszym zespołem ds. rozmiarów.'
+  button_text: 'Zobacz deski SUP'
+  button_link: /pl/products

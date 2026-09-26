@@ -1,0 +1,104 @@
+meta:
+  title: 'Niestandardowa produkcja SUP i private label dla detalistów | {SITE}'
+  description: 'Niestandardowa produkcja SUP i private label dla marek detalicznych: specyfikacje desek, grafika z Twoją marką, niskie próbne MOQ i kontrola jakości w fabryce — od próbki po wolumen.'
+  dateModified: '2026-08'
+
+hero:
+  tagline: 'Marki detaliczne'
+  title: 'Niestandardowa produkcja SUP dla marek detalicznych'
+  subtitle: 'Marki detaliczne uruchamiają własną linię desek SUP razem z naszą fabryką: specyfikacje desek opracowane na podstawie Twoich wymagań, Twoja marka na produkcie i produkcyjna kontrola jakości prowadzona od A do Z.'
+  image:
+    src: https://assets.isupfactory.com/images/sups/products/sup-series/sup-ocean-voyager-1.webp
+    alt: 'Deski SUP Vatrad wyprodukowane dla marki detalicznej'
+
+answer:
+  label: 'Krótka odpowiedź'
+  text: 'MOQ potwierdzamy na podstawie konfiguracji projektu: marki detaliczne zaczynają od próbki (1–2 szt.) lub serii pilotażowej (20–50 szt., próbka w 7–12 dni), przechodzą na standardowe zamówienie OEM o wolumenie 90–100+ szt. na projekt (25–35 dni od zamówienia i zaliczki) albo inwestują w niestandardową formę na całkowicie autorskie linie (narzędzia dodają 15–20 dni). Każda deska przechodzi próbę ciśnieniową przed wysyłką, na warunkach FOB, CIF lub DDP z Qingdao.'
+  verified: 'Wrzesień 2026'
+
+margin_section:
+  title: 'Etapy produkcji dla marek detalicznych'
+  subtitle: 'Zacznij od próbki, zwaliduj serią pilotażową, przejdź na standardowy wolumen lub zainwestuj w niestandardową formę — MOQ i czasy realizacji wynikają ze ścieżki produkcji, a nie ze zgadywanych wielkości.'
+  items:
+    - tier: 'Etap próbki'
+      moq: '1–2 szt.'
+      margin_note: 'Czas realizacji próbki 7–12 dni'
+      features:
+        - 'Opracowanie grafiki na podstawie Twoich materiałów marki'
+        - 'Próbka fizyczna do akceptacji'
+        - 'Kontrola jakości na platformie standardowej'
+    - tier: 'Etap pilotażowy'
+      moq: '20–50 szt.'
+      margin_note: 'Walidacja rynku na gotowych platformach'
+      features:
+        - 'Pełna grafika na całej desce, logo i rozłożenie dokładki EVA'
+        - 'Zamówienia uzupełniające na tych samych zwalidowanych platformach'
+        - 'Dokumentacja eksportowa w komplecie'
+    - tier: 'Niestandardowa forma'
+      moq: 'Potwierdzane w konfiguracji projektu'
+      margin_note: 'Narzędzia dodają 15–20 dni'
+      features:
+        - 'Nowy kształt deski i opracowanie formy'
+        - 'Pełna kontrola nad specyfikacją'
+        - 'Priorytetyczny przydział mocy produkcyjnych'
+
+product_line:
+  title: 'Kompletna linia produktowa'
+  subtitle: 'Platforma produkcyjna dla każdego segmentu Twojej oferty.'
+  items:
+    - name: 'Seria All-Round'
+      description: 'Wszechstronny kształt — najczęściej wybierana platforma startowa'
+    - name: 'Seria Touring'
+      description: 'Kadłub o dużej wyporności do wiosłowania na dystans'
+    - name: 'Seria Yoga'
+      description: 'Szeroka, stabilna platforma dla segmentu wellness'
+    - name: 'Seria Kids'
+      description: 'Krótkie i lekkie deski dla młodszych osób'
+    - name: 'Seria Racing'
+      description: 'Szybkie kadłuby dla segmentu pasjonatów'
+    - name: 'Akcesoria'
+      description: 'Wiosła, kamizelki, pompki i torby dopełniające linię'
+
+catalog:
+  title: 'Materiały dla partnerów detalicznych'
+  subtitle: 'Specyfikacje, szczegóły zamówień i dokumentacja produktowa.'
+  items:
+    - name: 'Katalog produktów 2026'
+      desc: 'Pełna oferta ze specyfikacjami i informacjami zamówieniowymi'
+      icon: 'tabler:file-text'
+      link: '/pl/products'
+    - name: 'Przewodnik partnera detalicznego'
+      desc: 'Przewodnik po specyfikacjach, procesie zamówień i standardach QC'
+      icon: 'tabler:book'
+      link: '/pl/products'
+    - name: 'Materiały produktowe i techniczne'
+      desc: 'Zdjęcia produktów w wysokiej rozdzielczości, zdjęcia lifestyle i dokumentacja techniczna'
+      icon: 'tabler:photo'
+      link: '/pl/products'
+
+support:
+  title: 'Wsparcie produkcyjne'
+  subtitle: 'Co Twojemu partnerowi produkcyjnemu uda się zapewnić wokół zamówienia.'
+  items:
+    - 'Próbka fizyczna przed produkcją seryjną'
+    - 'Tolerancje i QC: każda deska przechodzi próbę ciśnieniową przed wysyłką'
+    - 'Wsparcie w specyfikacjach — kształt, grafika, rozłożenie EVA, akcesoria'
+    - 'Czas realizacji wolumenu 25–35 dni od potwierdzonego zamówienia'
+    - 'Części zamienne i wskazówki naprawcze dla Twoich klientów'
+    - 'Eksport i dokumentacja: FOB/CIF/DDP z Qingdao'
+
+content_html: |
+  <div class="mx-auto max-w-3xl space-y-4 rounded-2xl border bg-card p-6 text-[14.5px] leading-relaxed text-fg-2">
+    <p><strong>Czytaj dalej:</strong> zobacz pełny <a href="/pl/oem-manufacturing">program produkcyjny OEM/ODM</a> — MOQ potwierdzane w projekcie na etapach próbki, pilotażu i wolumenu, oznakowanie private label i zgodność z CE — albo przeczytaj <a href="/pl/oem-moq-guide">przewodnik MOQ i elastycznego brandingu</a>, albo zajrzyj do <a href="/pl/factory">fabryki</a> i zobacz, jak wygląda kontrola jakości gotowa do sprzedaży detalicznej.</p>
+  </div>
+
+cta:
+  title: 'Porozmawiaj o swojej linii produktowej'
+  subtitle: 'Wyślij swoje wymagania — nasz zespół odpowie w ciągu 1 dnia roboczego.'
+  actions:
+    - text: 'Wyślij swoje wymagania'
+      href: '/pl/contact'
+      variant: 'primary'
+    - text: 'Zobacz platformy produktowe'
+      href: '/pl/products'
+      variant: 'secondary'

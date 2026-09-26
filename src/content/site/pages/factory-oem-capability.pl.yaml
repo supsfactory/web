@@ -1,0 +1,74 @@
+meta:
+  title: 'Produkcja OEM i private label | {SITE}'
+  description: 'Od koncepcji do produkcji: spersonalizuj każdy szczegół swojej linii nadmuchiwanych desek SUP. Pełna obsługa OEM/ODM dla marek desek paddle private label.'
+  dateModified: '2026-08'
+  keywords:
+    - 'produkcja oem sup'
+    - 'deska paddle private label'
+    - 'oem nadmuchiwane sup'
+    - 'fabryka na zamówienie sup'
+hero:
+  tagline: Produkcja OEM/ODM
+  title: Produkcja OEM i private label
+  subtitle: Od koncepcji do produkcji — spersonalizuj każdy szczegół swojej linii nadmuchiwanych desek SUP
+
+answer:
+  label: 'Wprost'
+  text: 'MOQ potwierdzamy wg konfiguracji projektu, a nie jako stałą liczbę: każdy projekt przechodzi etap próbki (1–2 szt.) i serii pilotażowej (20–50 szt.), a standardowa produkcja seryjna to 90–100+ sztuk na partię z pełnej rolki drop-stitch 150 m. Próbki gotowe są w 7–12 dni; standardowa produkcja trwa 25–35 dni po potwierdzeniu zamówienia i zaliczki.'
+  verified: 'Wrzesień 2026'
+
+intro: Vatrad oferuje kompleksowe usługi OEM i ODM dla marek, dystrybutorów i agencji rządowych na całym świecie. Dzięki ponad 10 latom doświadczenia w eksporcie i fabryce o powierzchni 12,500 m² z certyfikacją ISO 9001 oraz BSCI obsługujemy wszystko — od projektu produktu i opracowania form, przez produkcję na pełną skalę, aż po opakowanie i obsługę eksportu.
+
+highlight:
+  - value: 10+
+    label: Lat doświadczenia w OEM
+    detail: Od 2012 roku
+  - value: 50+
+    label: Kraje eksportowe
+    detail: Zasięg globalny
+  - value: 200+
+    label: Zrealizowanych projektów na zamówienie
+    detail: We wszystkich liniach produktowych
+  - value: 25–35
+    label: Standardowy czas realizacji (dni)
+    detail: Po potwierdzeniu zamówienia i zaliczki
+
+services:
+  - title: Projekt produktu i inżynieria
+    description: Nasz wewnętrzny zespół R&D pracuje z Twoją koncepcją lub specyfikacją, aby opracować rysunki CAD, modele 3D i prototypy. Oferujemy projektowanie form, optymalizację kształtu kadłuba i doradztwo w doborze materiałów.
+  - title: Spersonalizowany branding i grafika
+    description: Pełnokolorowy druk cyfrowy, sitografia, tłoczenie i etykiety. Opracowujemy indywidualną grafikę pokładu, oznaczenia na rurach i opakowanie gotowe do sprzedaży detalicznej.
+  - title: Personalizacja materiałów i specyfikacji
+    description: Wybierz spośród PCV (standardowy, ekologiczny, trudnopalny), Hypalonu/CSM, drop-stitch oraz konstrukcji hybrydowych. Własne kolory rur, grubości tkanin i warianty wzmocnień.
+  - title: Opakowanie i logistyka
+    description: Niestandardowe opakowanie detaliczne, kartony private label, pakowanie próżniowe, paletyzacja i opakowanie eksportowe przygotowy we własnym zakładzie.
+
+moq_table:
+  - product: Nadmuchiwane deski SUP
+    standard_moq: 'Próbka 1–2 | Pilotażowa 20–50'
+    custom_moq: 'Wolumen 90–100+ (na rolkę 150 m)'
+    lead_time: 25–35 dni
+
+why_us:
+  - title: Integracja pionowa
+    description: Mamy własną fabrykę, formy i łańcuch dostaw — bez pośredników i bez podwykonawców. Daje nam to kontrolę nad jakością, kosztem i terminowością dostaw.
+  - title: Podwójna certyfikacja
+    description: Zarządzanie jakością ISO 9001 i certyfikacja zgodności społecznej BSCI. Raporty z audytu fabryki dostępne na żądanie.
+  - title: Zgodność CE
+    description: Certyfikacja CE dotyczy modeli przeznaczonych na rynek UE (zakres potwierdzany dla każdego projektu). Niestandardowe modele możemy certyfikować CE w ramach naszego sprawdzonego procesu.
+  - title: MOQ dopasowany do projektu
+    description: 'MOQ potwierdzamy wg konfiguracji Twojego projektu — współmarkowanie w małej serii startuje od 5–10 sztuk, standardowa produkcja seryjna to 90–100+ sztuk na partię. Pomagamy wschodzącym markom startować bez nadmiernego zamrażania zapasów.'
+
+cta:
+  title: 'Umieść własną markę na sprawdzonej desce'
+  subtitle: 'Od przeglądu specyfikacji po załadowany kontener — wyślij brief już dziś i otrzymaj szczegółową ofertę OEM w ciągu jednego dnia roboczego. Zweryfikuj fabrykę i jej system jakości, zanim się zobowiążesz.'
+  actions:
+    - variant: primary
+      text: Zamów ofertę OEM
+      href: /pl/contact#custom-oem
+    - text: Zweryfikuj fabrykę i system jakości
+      href: /pl/oem-trust-assurance
+    - text: System inspekcji w 7 etapach
+      href: /pl/quality
+    - text: Zobacz linię produkcyjną
+      href: /pl/factory/process

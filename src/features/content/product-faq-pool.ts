@@ -6,7 +6,7 @@ export interface FaqEntry {
   a: string
 }
 
-export const PRODUCT_FAQ_POOL: Record<'en' | 'es' | 'fr' | 'de' | 'it' | 'pt' | 'nl' | 'sv' | 'no', FaqEntry[]> = {
+export const PRODUCT_FAQ_POOL: Record<'en' | 'es' | 'fr' | 'de' | 'it' | 'pt' | 'nl' | 'sv' | 'no' | 'pl', FaqEntry[]> = {
   en: [
     {
       q: 'What is the minimum order to customize this board?',
@@ -167,6 +167,24 @@ export const PRODUCT_FAQ_POOL: Record<'en' | 'es' | 'fr' | 'de' | 'it' | 'pt' | 
     {
       q: 'Hvordan kontrolleres kvaliteten f\u00f8r levering?',
       a: 'Hvert brett g\u00e5r gjennom en monteringssjekkliste p\u00e5 100 punkter og en trykkpr\u00f8ving p\u00e5 18.0 PSI i 24 timer f\u00f8r pakking; enheter med trykkfall p\u00e5 over 0,50 PSI/24 h avvises automatisk.',
+    },
+  ],
+  pl: [
+    {
+      q: 'Jaka jest minimalna ilość zamówienia, aby spersonalizować tę deskę?',
+      a: 'Minimalna ilość zamówienia (MOQ) dla produkcji seryjnej wynosi 90–100+ szt na zatwierdzoną konfigurację, zależnie od wymagań dotyczących rolki materiału i opakowania, na jednej rolce 150 m dla produkcji standardowej; serie pilotażowe zaczynają się od 20–50 szt, a dla formy na zamówienie obowiązuje 90–100+ szt.',
+    },
+    {
+      q: 'Ile trwają próbki i produkcja?',
+      a: 'Próbki są gotowe w 7–12 dni; produkcja seryjna kończy się w 25–35 dni po potwierdzeniu zamówienia i wpłacie zaliczki.',
+    },
+    {
+      q: 'Czy mogę zmienić kolory, grafikę i logo?',
+      a: 'Tak: grafika, kolory, podkładka EVA, logo, opakowanie i akcesoria są personalizowalne na każdej platformie. Prześlij logo, a przed produkcją przygotujemy wzór do zatwierdzenia.',
+    },
+    {
+      q: 'Jak kontrolowana jest jakość przed wysyłką?',
+      a: 'Każda deska przechodzi 100-punktową listę kontrolną montażu oraz test ciśnieniowy 18.0 PSI przez 24 godziny przed pakowaniem; egzemplarze ze spadkiem ciśnienia powyżej 0.50 PSI/24 h są automatycznie odrzucane.',
     },
   ],
 }

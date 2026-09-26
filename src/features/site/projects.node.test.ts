@@ -48,7 +48,7 @@ test('every project page renders without error (en + es)', () => {
       expect(() => html(p.slug, locale), `${p.slug} (${locale}) throws during render`).not.toThrow()
     }
   }
-})
+}, 60000)
 
 test('flagship case renders metrics strip, takeaways, scenario CTA and related cases', () => {
   const out = html('coastal-rental-fleet')

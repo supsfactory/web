@@ -1,0 +1,169 @@
+meta:
+  title: 'Centrum Dowodów — dowody stojące za każdym twierdzeniem produkcyjnym'
+  description: 'Folder dowodowy stojący za twierdzeniami iSupfactory: powiązania podmiotów, certyfikaty wraz z zakresem, lista maszyn, identyfikowalność partii i dokumentacja inspekcyjna.'
+  dateModified: '2026-08-16'
+  keywords:
+    - 'dowody fabryki sup'
+    - 'lista certyfikatów fabryki'
+    - 'identyfikowalność partii sup'
+    - 'weryfikacja fabryki sup'
+    - 'dowody produkcyjne Chiny'
+
+hero:
+  tagline: 'Centrum Dowodów Fabryki'
+  title: 'Centrum Dowodów — wszystko, co deklarujemy, zarchiwizowane tutaj'
+  subtitle: 'Jedna strona, która mapuje każde twierdzenie na tej witrynie na jego dowód: zarejestrowany podmiot stojący za fabryką, certyfikaty wraz z zakresem, maszyny wykonujące pracę oraz zapisy partii, które przetrwają każdy cykl produkcyjny.'
+  actions:
+    - { variant: primary, text: 'Poproś o pakiet weryfikacyjny', href: '/pl/contact#trust-verification' }
+    - { variant: ghost, text: 'Poznaj system jakości', href: '/pl/quality' }
+
+answer:
+  label: 'Krótka odpowiedź'
+  text: 'Łańcuch twierdzenie–dowód wygląda następująco: każde zdanie na tej witrynie jest poparte rejestrem, certyfikatem, maszyną, dokumentem lub zapisem badania — a każdy z tych elementów można zweryfikować. iSupfactory jest działem rozwoju i produkcji produktów SUP spółki Qingdao Vatrad Group Co., Ltd. (zarejestrowanej w Qingdao od 2012 roku). Zakład o powierzchni 12,500 m² posiada certyfikat zarządzania jakością ISO 9001:2015, zgodność z ISO 25649, dokumentację zgodności CE, społeczną zgodność BSCI (raport z audytu na żądanie) oraz dokumentację materiałową REACH/RoHS dla każdego zamówienia. Każda nadmuchiwana komora jest badana przy 18.0 PSI przez 24 godziny z automatycznym odrzuceniem przy spadku powyżej 0.50 PSI, a zapisy partii są przechowywane w ramach 10-letniej identyfikowalności w systemie ERP. Dokumentacja jest publikowana lub udostępniana na żądanie, a fabryka jest otwarta na audyty.'
+  verified: 'Wrzesień 2026'
+
+entities:
+  tagline: 'Kto stoi za fabryką'
+  title: 'Jedna operacja produkcyjna, jeden podmiot prawny'
+  subtitle: 'Strona sprzedażowa, dział produkcyjny i podmiot prawny prowadzą do jednej operacji, którą możesz zweryfikować od witryny internetowej aż po rejestr spółek.'
+  features:
+    - icon: S
+      icon_bg: blue
+      title: 'iSupfactory — publiczna witryna'
+      desc: 'Linia produktowa SUP OEM/ODM i private label wraz z jej publiczną dokumentacją: katalog, przewodnik MOQ, strony systemu jakości i studia przypadków. Nazwa, z którą negocjujesz, jest tą samą nazwą, którą możesz skontrolować.'
+      link: '/pl/about/isupfactory-entity'
+      link_label: 'Strona podmiotu na witrynie'
+    - icon: A
+      icon_bg: green
+      title: 'Vatrad — dział produkcyjny'
+      desc: 'Dział produkcji morskiej stojący za zakładem: deski SUP, łodzie nadmuchiwane i pontony RIB produkowane w tym samym obiekcie w Qingdao. Dokumentacja produktowa i jakościowa jest wystawiana pod tą nazwą.'
+      link: '/pl/factory'
+      link_label: 'Poznaj fabrykę'
+    - icon: V
+      icon_bg: orange
+      title: 'Qingdao Vatrad Group Co., Ltd. — podmiot prawny'
+      desc: 'Zarejestrowany producent (od 2012 roku) prowadzący zakład o powierzchni 12,500 m² w Strefie Rozwoju Gospodarczego Laixi w Qingdao. Dane rejestrowe, licencja handlu zagranicznego i zapisy audytowe są udostępniane po podpisaniu NDA lub podczas audytu.'
+      link: '/pl/oem-trust-assurance'
+      link_label: 'Zobacz studium przypadku weryfikacji'
+
+proof_stats:
+  - value: '12,500 m²'
+    label: 'Jedna hala produkcyjna'
+    detail: '4 wyspecjalizowane warsztaty, otwarte na audyty'
+  - value: '350+'
+    label: 'Pracowników na miejscu'
+    detail: '25+ inżynierów w dziale B&R, materiałowym i kontroli jakości'
+  - value: '120,000+'
+    label: 'Desek rocznie'
+    detail: '~10,000 desek/miesiąc na 4 zautomatyzowanych liniach'
+  - value: '50+'
+    label: 'Obsługiwanych krajów'
+    detail: 'Europa, obie Ameryki, APAC, Bliski Wschód'
+  - value: '7 etapów'
+    label: 'System bramek inspekcyjnych'
+    detail: 'Węzeł 01–07, rejestrowany dla każdego numeru seryjnego'
+  - value: '10 lat'
+    label: 'Identyfikowalność partii w ERP'
+    detail: 'Zapisy partii przechowywane i powiązane dla każdej partii'
+
+certifications:
+  tagline: 'Certyfikaty i zakres'
+  title: 'Co posiadamy, co obejmuje i jak to zweryfikować'
+  subtitle: 'Opublikowana lista — nigdy „tylko na żądanie”. Numery certyfikatów i zapisy audytowe są udostępniane na żądanie lub podczas audytu.'
+  headers:
+    certificate: 'Certyfikat / norma'
+    scope: 'Zakres'
+    verify: 'Jak zweryfikować'
+  rows:
+    - certificate: 'ISO 9001:2015'
+      scope: 'Zarządzanie jakością projektu i produkcji SUP'
+      verify: 'Numer certyfikatu i zapisy audytowe na żądanie lub podczas audytu'
+    - certificate: 'ISO 25649'
+      scope: 'Bezpieczeństwo i zgodność konstrukcyjna jednostek nadmuchiwanych (Europa)'
+      verify: 'Dokumentacja zgodności dla każdej rodziny produktów'
+    - certificate: 'CE'
+      scope: 'Zgodność z wymogami UE dla produktów SUP nadmuchiwanych'
+      verify: 'Dokumentacja CE przekazywana wraz z zamówieniami'
+    - certificate: 'BSCI'
+      scope: 'Społeczna zgodność zakładu i załogi'
+      verify: 'Raport z audytu dostępny na żądanie'
+    - certificate: 'REACH & RoHS'
+      scope: 'Substancje ograniczone i dokumentacja materiałowa'
+      verify: 'Dokumentacja materiałowa do każdego zamówienia'
+    - certificate: 'Inspekcja firmy trzeciej (opcja)'
+      scope: 'Inspekcja przedwysyłkowa SGS, TUV, BV lub Intertek'
+      verify: 'ISO 2859-1 poziom II, termin według Twojego wyboru'
+
+evidence_gates:
+  tagline: 'Gdzie znajdują się dowody'
+  title: 'Foldery dowodowe — otwierane do wglądu'
+  subtitle: 'Każdy folder to strona, którą możesz przejrzeć od razu, oraz pliki towarzyszące Twojemu zamówieniu.'
+  features:
+    - icon: E
+      icon_bg: blue
+      title: 'Lista wyposażenia i maszyn'
+      desc: 'Cięcie, zgrzewanie, laminowanie, druk i montaż oraz laboratorium QC — maszyny z nazwami, specyfikacjami i opisem tego, co każda robi. Poproś o transmisję na żywo z hali.'
+      link: '/pl/factory/equipment'
+      link_label: 'Otwórz listę wyposażenia'
+    - icon: P
+      icon_bg: green
+      title: 'Zdjęcia i raporty z bramek inspekcyjnych'
+      desc: 'Siedem bramek inspekcyjnych ze zdjęciami z hali i odnośnikami do dwujęzycznych raportów — co jest sprawdzane, jaką metodą, według jakiego kryterium i gdzie zapisywane.'
+      link: '/pl/factory/process'
+      link_label: 'Otwórz bramki inspekcyjne'
+    - icon: Q
+      icon_bg: orange
+      title: 'Laboratorium QC i procedury badawcze'
+      desc: 'Uniwersalna maszyna wytrzymałościowa (ASTM D751), tester zrywania szwów (ISO 6185), stanowiska prób utrzymania powietrza i komora starzeniowa z łukiem ksenonowym — maszyny weryfikujące tkaniny i komory.'
+      link: '/pl/factory/quality-lab'
+      link_label: 'Otwórz laboratorium'
+    - icon: T
+      icon_bg: purple
+      title: 'Próbka identyfikowalności i kwarantanna'
+      desc: 'Dosłowny łańcuch od rolki surowca do wysłanej deski, 7-etapowy przepływ kwarantanny dla materiału niezgodnego oraz macierz wad określająca dalsze postępowanie.'
+      link: '/pl/factory/quality-inspection'
+      link_label: 'Otwórz dokumentację identyfikowalności'
+
+traceability:
+  tagline: 'Partia śledzona od rolki do deski'
+  title: 'Jak identyfikowalność naprawdę wygląda'
+  body: |
+    Każda partia otrzymuje **10-letni kod partii w systemie ERP**. Łańcuch rejestrowany pod jednym numerem partii:
+
+    - **Rolka przychodząca** — certyfikat materiału, numer rolki, badana partia tkaniny (rozciąganie, rozdarcie, szew)
+    - **Cięcie** — zlecenie nestingu CNC wobec pliku projektu, odnotowany procent odpadu
+    - **Zgrzewanie i laminowanie** — linia, operator, parametry maszyny dla każdej komory
+    - **Montaż** — numer seryjny deski, typ zaworu, partia dokładki pokładowej
+    - **Badanie** — 18.0 PSI × 24 h utrzymania dla każdej komory, automatyczne odrzucenie przy spadku powyżej 0.50 PSI
+    - **Dopuszczenie** — 100-punktowa lista kontrolna dla każdej deski, podpis dyrektora QA dla każdej partii
+    - **Dalej** — Świadectwo Zgodności dołączane do przesyłki; prawo do audytu zastrzeżone w umowie
+
+    Poproś o próbkę zapisu QC przed pierwszym zamówieniem — to dokładnie ten sam format, który otrzymujesz wraz z przesyłką.
+
+faqs:
+  tagline: 'Najczęstsze pytania'
+  title: 'Pytania kupujących o dowody'
+  items:
+    - q: 'Czy ta strona służy wyłącznie do weryfikacji i nie zastępuje due diligence?'
+      a: 'Dokładnie — ta strona pokazuje, gdzie można zweryfikować każde twierdzenie: rejestrację podmiotu, certyfikaty, maszyny, zapisy oraz zakład otwarty na audyty. Twoje standardowe kroki due diligence (weryfikacja rejestracji, audyt, inspekcja firmy trzeciej) nadal obowiązują i są mile widziane.'
+    - q: 'Który podmiot powinien figurować w dokumentacji mojego zamówienia?'
+      a: 'Zamówienia składa się w spółce Qingdao Vatrad Group Co., Ltd., działającej jako Vatrad (dział produkcyjny), z iSupfactory jako linią produktową SUP. Dokumenty umowne podpisują wiceprezes sprzedaży, główny inżynier i dyrektor QA.'
+    - q: 'Czy mogę otrzymać kopie certyfikatów przed zamówieniem?'
+      a: 'Tak — numery certyfikatów i zapisy audytowe są udostępniane na żądanie lub podczas audytu. Lista jest publikowana, nigdy „tylko na żądanie”.'
+    - q: 'Jak samodzielnie zweryfikować zapisy badań partii?'
+      a: 'Każda komora jest badana przy 18.0 PSI przez 24 godziny z automatycznym odrzuceniem przy spadku powyżej 0.50 PSI; logi badań są powiązane z numerami seryjnymi i dołączane do Świadectwa Zgodności dla każdej partii. Inspekcja przedwysyłkowa SGS, TUV, BV lub Intertek wg ISO 2859-1 poziom II może zostać zaplanowana według Twojego wyboru.'
+    - q: 'Czy certyfikaty obejmują również akcesoria?'
+      a: 'Dokumentacja materiałowa REACH/RoHS dotyczy desek i akcesoriów dostarczanych w tym samym zamówieniu, a listy kontrolne QC obejmują cały zestaw — deska, wiosło, pompka, linka i torba.'
+    - q: 'Co dzieje się z dowodami po złożeniu zamówienia?'
+      a: 'Identyfikowalność partii w ERP jest przechowywana przez 10 lat. Procedury SOP systemu QMS i normy inspekcyjne pozostają do pobrania, a kupujący zastrzega sobie prawo do audytu w trakcie produkcji zgodnie z umową.'
+
+cta:
+  title: 'Najpierw weryfikacja — potem porozmawiajmy o specyfikacji'
+  subtitle: 'Poproś o pakiet rejestrowy, kopie certyfikatów lub termin audytu. Weryfikacja jest pierwsza; rozmowa o zamówieniu następuje później. Wysłanie zapytania nie zobowiązuje Cię do zamówienia.'
+  button_text: 'Poproś o pakiet weryfikacyjny'
+  button_link: '/pl/contact#trust-verification'
+  actions:
+    - text: 'Identyfikacja marki'
+      href: /pl/about/identity
+    - text: 'Lista kontrolna audytu fabryki'
+      href: /pl/factory-audit-checklist

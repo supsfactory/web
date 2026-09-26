@@ -1,0 +1,79 @@
+meta:
+  title: 'Jak działa drop stitch — sztywne rdzenie nadmuchiwanych desek SUP'
+  description: 'Jak technologia drop stitch zamienia elastyczny PCV w sztywny rdzeń SUP o wysokim ciśnieniu (15-20 PSI): konstrukcja, materiały, wskaźniki jakości i zastosowania.'
+  author: 'iSupfactory'
+  datePublished: '2026-08-04'
+  dateModified: '2026-08-07'
+back_text: 'Powrót do badań'
+
+answer:
+  label: 'Krótka odpowiedź'
+  text: 'Drop stitch to tkanina, której słupki z poliestrowej nici utrzymują górną i dolną warstwę PCV w stałej odległości, dzięki czemu ciśnienie powietrza zamienia deskę w sztywną. Rdzenie Vatrad: 1,680 DTEX, 2 nici na cal kwadratowy, zewnętrzny laminat PCV 1.2 mm, znamionowo do 15 PSI, potwierdzone 24-godzinną próbą utrzymania ciśnienia przy 18.0 PSI.'
+  verified: 'Wrzesień 2026'
+
+hero:
+  tagline: 'Technologia'
+  title: 'Jak działa drop stitch — inżynieria sztywnych rdzeni nadmuchiwanych'
+  subtitle: '8 min czytania'
+
+content_html: |
+  <h2>Czym jest drop stitch?</h2>
+  <p>Drop stitch (nazywany też „tkaniną drop-stitch” lub „rdzeniem drop-stitch”) to metoda konstrukcji, w której tysiące pojedynczych poliestrowych nici łączy górną i dolną warstwę powłoki tkaniny. Po nadmuchaniu powłoki nici te działają jak wewnętrzne elementy napinające — powstrzymują górny i dolny panel przed wypukleniem na boki i dookoła, wymuszając zachowanie płaskiego, sztywnego kształtu.</p>
+  <p>W efekcie powstaje lekka, przenośna konstrukcja wytrzymująca 15 – 20 PSI ciśnienia wewnętrznego — porównywalna pod względem sztywności z deską o twardej powłoce, ale w pełni spuszczalna do przechowywania i transportu.</p>
+
+  <h2>Jak to działa: fizyka</h2>
+  <p>W konwencjonalnej konstrukcji nadmuchiwanej (jak balon lub materac dmuchany) ciśnienie powietrza wewnątrz działa jednakowo we wszystkich kierunkach. Bez wewnętrznego ograniczenia konstrukcja przyjmuje kształt cylindryczny lub kulisty. Drop stitch rozwiązuje to, wprowadzając wzmocnienie rozciągające:</p>
+  <ul>
+    <li>Tysiące nici łączy górną i dolną warstwę tkaniny</li>
+    <li>Po nadmuchaniu ciśnienie powietrza próbuje rozsunąć górę i dół</li>
+    <li>Nici przeciwstawiają się temu rozsunięciu, przenosząc obciążenie na osi nici jako rozciąganie</li>
+    <li>W rezultacie powstaje płaski, sztywny panel oporny na zginanie</li>
+  </ul>
+
+  <h2>Proces konstrukcji</h2>
+  <ol>
+    <li><strong>Tkanie:</strong> Poliestrowe nici tkane są jednocześnie w dwie odrębne warstwy tkaniny bazowej (typowo poliester powlekany PCV o grubości 1,100 DTEX lub 1,680 DTEX). Nici są zaplecione pętlowo między warstwami pod kątem 90&deg;.</li>
+    <li><strong>Powlekanie:</strong> Tkanina bazowa jest powlekana PCV (rzadziej TPU) metodą nożową lub walcową. Uszczelnia to nici i tworzy powłokę nieprzepuszczającą powietrza.</li>
+    <li><strong>Łączenie warstw:</strong> Rdzeń drop-stitch jest łączony z zewnętrznymi warstwami laminowanymi (typowo PCV 0.9 mm lub 1.2 mm) metodą laminacji termicznej lub klejonej.</li>
+    <li><strong>Zgrzewanie:</strong> Listwy krawędziowe są zgrzewane wzdłuż krawędzi metodą zgrzewania gorącym powietrzem, zgrzewania HF lub zgrzewania wysokoczęstotliwościowego, tworząc boki deski.</li>
+    <li><strong>Montaż zaworów:</strong> Montuje się zawory Boston lub Halkey-Roberts, zwykle z mechanizmem upustu ciśnienia zapobiegającym nadmiernemu nadmuchaniu.</li>
+  </ol>
+
+  <h2>Kluczowe wskaźniki jakości</h2>
+  <table class="w-full text-sm border-collapse">
+    <thead>
+      <tr class="bg-gray-100">
+        <th class="p-3 text-left font-semibold text-gray-900 border">Parametr</th>
+        <th class="p-3 text-left font-semibold text-gray-900 border">Klasa podstawowa</th>
+        <th class="p-3 text-left font-semibold text-gray-900 border">Premium</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td class="p-3 border">Gęstość nici</td><td class="p-3 border">1 nić / sq in</td><td class="p-3 border">2 nici / sq in</td></tr>
+      <tr><td class="p-3 border">Tkanina bazowa</td><td class="p-3 border">1,100 DTEX</td><td class="p-3 border">1,680 DTEX</td></tr>
+      <tr><td class="p-3 border">Maks. ciśnienie</td><td class="p-3 border">12 – 15 PSI</td><td class="p-3 border">18 – 22 PSI</td></tr>
+      <tr><td class="p-3 border">Grubość PCV</td><td class="p-3 border">0.6 – 0.9 mm</td><td class="p-3 border">1.0 – 1.2 mm</td></tr>
+      <tr><td class="p-3 border">Konstrukcja listwy krawędziowej</td><td class="p-3 border">Zginana i klejona</td><td class="p-3 border">Zgrzewana i łączona termicznie</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Zastosowania</h2>
+  <ul>
+    <li><strong>Deski SUP:</strong> grubość 4" – 6", 15 – 20 PSI, 1 – 2 nici/sq in</li>
+    <li><strong>Kajaki:</strong> podłoga drop-stitch + nadmuchiwane komory boczne, podłoga 10 – 15 PSI</li>
+    <li><strong>Podłogi RIB:</strong> podłogi drop-stitch dla lekkich, pakowalnych pontonów RIB, 12 – 18 PSI</li>
+    <li><strong>Pasywatory łodzi:</strong> drop-stitch pod niskim ciśnieniem do pasywatorów o profilowanym kształcie i płaskich ściankach</li>
+  </ul>
+
+  <h2>Drop stitch a Air Deck (rdzeń z włókna szklanego lub drewna)</h2>
+  <p>Deski o twardej powłoce stosują rdzenie z pianki EPS wzmocnione listwą z włókna szklanego lub drewna. Są lżejsze, sztywniejsze i bardziej responsywne — ale nie można ich spuścić. Drop stitch zamienia część sztywności na pełną przenośność. Dla większości użytkowników rekreacyjnych nowoczesne deski SUP w drop-stitch przy 20 PSI są nie do odróżnienia od twardych desek klasy podstawowej pod względem sztywności.</p>
+
+  <h2>Jak Vatrad wykorzystuje drop stitch</h2>
+  <p>Vatrad stosuje rdzeń drop-stitch 1,680 DTEX w całej ofercie SUP, z 2 nićiami na cal kwadratowy i zewnętrznym laminatem PCV 1.2 mm. Deski są znamionowe do 15 PSI i przed wysyłką przechodzą 24-godzinną próbę utrzymania ciśnienia przy 18.0 PSI. Listwy krawędziowe są zgrzewane gorącym powietrzem z potrójnym łączeniem termicznym, a zawory upustowe stanowią standard we wszystkich modelach.</p>
+  <p>Drop stitch to fundament naszej produkcji SUP — zobacz <a href="/pl/technology/drop-stitch-core">stronę technologii rdzenia drop-stitch</a> i sposób łączenia rdzenia na <a href="/pl/factory">linii produkcyjnej w fabryce</a>.</p>
+
+cta:
+  title: 'Chcesz dowiedzieć się więcej o drop stitch?'
+  subtitle: 'Skontaktuj się z nami w sprawie specyfikacji technicznych i zapytań OEM.'
+  button_text: 'Skontaktuj się ze sprzedażą'
+  button_link: /pl/contact

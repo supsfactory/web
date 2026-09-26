@@ -1,0 +1,166 @@
+meta:
+  title: 'Zaufanie do OEM i weryfikacja fabryki — sprawdź naszą fabrykę przed zamówieniem'
+  description: 'Jak kupujący weryfikują iSupfactory przed zamówieniem: oficjalna rejestracja, audyty fabryki, inżynierowie objęci NDA oraz inspekcje firm trzecich (SGS/TUV/BV/Intertek).'
+  dateModified: '2026-08-14'
+  keywords:
+    - 'weryfikacja fabryki sup oem'
+    - 'weryfikacja producenta sup'
+    - 'audyt fabryki sup Chiny'
+    - 'fabryka nadmuchiwanych desek sup Qingdao'
+    - 'zaufanie do oem'
+    - 'referencje producenta sup'
+
+hero:
+  tagline: 'Produkcja, którą możesz zweryfikować'
+  title: 'Zaufanie do OEM i weryfikacja fabryki'
+  subtitle: 'Każde twierdzenie na tej stronie można zweryfikować: oficjalna rejestracja firmy, fizyczna fabryka o powierzchni 12,500 m², którą możesz odwiedzić lub poddać audytowi, prawdziwi inżynierowie objęci NDA, dokumenty QMS do pobrania oraz dane testowe zapisywane dla każdego numeru seryjnego. Zaprojektowane i prowadzone przez Qingdao Vatrad Group Co., Ltd.'
+
+answer:
+  label: 'Krótka odpowiedź'
+  text: 'Zaufanie to nie obietnica — to dokumentacja. Jesteśmy zarejestrowaną chińską spółką produkcyjną (Qingdao Vatrad Group Co., Ltd.) z fizycznym zakładem o powierzchni 12,500 m² w Qingdao, ponad 350 pracownikami i roczną zdolnością produkcyjną ponad 120,000 desek. Możesz zweryfikować rejestrację, poddać fabrykę audytowi, zapoznać się ze SOP-ami QMS, pobrać przykładowe zapisy jakościowe, zamówić inspekcję firmy trzeciej (SGS, TUV, BV lub Intertek) i podpisać NDA w ciągu 4 godzin roboczych. Każda deska przechodzi próbę ciśnieniową przy 18.0 PSI przez 24 godziny z automatycznym odrzuceniem przy spadku powyżej 0.50 PSI, a każda partia zachowuje 10-letnią identyfikowalność w systemie ERP. Jeśli twierdzenia nie da się udokumentować, go nie stawiamy.'
+  verified: 'Wrzesień 2026'
+
+trust_stats:
+  - value: '12,500 m²'
+    label: 'Powierzchnia fabryki'
+    detail: '4 wyspecjalizowane warsztaty, otwarte na audyty'
+  - value: '350+'
+    label: 'Pracowników na terenie'
+    detail: 'ponad 25 inżynierów w dziale B&R, materiałów i QC'
+  - value: '120,000+'
+    label: 'Desek rocznie'
+    detail: '10,000 desek miesięcznie na 4 zautomatyzowanych liniach'
+  - value: '4 godziny'
+    label: 'Czas podpisania NDA'
+    detail: 'Standardowe NDA podpisane w ciągu 4 godzin roboczych'
+  - value: '7 etapów'
+    label: 'System bramek jakościowych'
+    detail: 'Punkt kontrolny 01–7, zapisywany dla każdego numeru seryjnego'
+  - value: '18.0 PSI'
+    label: '100% prób ciśnieniowych'
+    detail: 'utrzymanie 24h, automatyczne odrzucenie przy spadku powyżej 0.50 PSI'
+
+role_boundary:
+  tagline: 'Kim jesteśmy — a kim nie jesteśmy'
+  title: 'Fabryka, którą możesz zweryfikować, nigdy twierdzenie, w które musisz uwierzyć'
+  subtitle: 'Różnica w zakresie weryfikowalności między fabryką a biurem handlowym jest prosta: za każdym twierdzeniem stoi dokument, człowiek albo maszyna.'
+  features:
+    - icon: A
+      icon_bg: blue
+      title: 'Kim jesteśmy — weryfikowalnym producentem'
+      desc: '· Zarejestrowany podmiot prawny: Qingdao Vatrad Group Co., Ltd. — dane rejestrowe udostępniamy po podpisaniu NDA lub podczas audytu · Fizyczna fabryka: 12,500 m² w Strefie Rozwoju Gospodarczego Laixi w Qingdao, z 4 wyspecjalizowanymi warsztatami, ponad 350 pracownikami i 4 zautomatyzowanymi liniami · Zespół produkcyjny: osoby, które odpowiadają na Twoje pytania, to osoby, które budują Twoje deski · Realne dokumenty: SOP-y QMS, normy inspekcyjne i zanonimizowane zapisy jakościowe do pobrania · Niezależna weryfikacja mile widziana: inspekcje SGS, TUV, BV lub Intertek według Twojego wyboru, zgodnie z ISO 2859-1 poziom II'
+      link: '/pl/factory'
+      link_label: 'Przejdź do strony fabryki'
+    - icon: B
+      icon_bg: green
+      title: 'Kim nie jesteśmy — profilem biura handlowego'
+      desc: '· Nie firma handlowa: nie przekazujemy Twojego zamówienia do innej fabryki i nie doliczamy marży pośrednika · Nie własna marka na Twoich deskach: to Ty posiadasz markę, rynek i klienta · Nie mgliste minima: MOQ wyliczamy z fizyki rolek surowca i potwierdzamy dla każdego projektu · Nie certyfikaty tylko na prośbę: lista jest jawna, a zapisy z audytów można sprawdzić · Nie twierdzenia tylko słowne: ciśnienie testowe, progi i identyfikowalność partii są udokumentowane dla każdego numeru seryjnego'
+      link: '/pl/oem-moq-guide'
+      link_label: 'Zobacz przejrzysty przewodnik o MOQ'
+
+trust_steps:
+  tagline: 'Prawdziwe studium przypadku'
+  title: 'Jak północnoeuropejska flota wypożyczalni zweryfikowała nas przed zamówieniem'
+  subtitle: 'Siedem etapów weryfikacji, które komerencyjny operator wypożyczalni przeszedł przed złożeniem zamówienia na flotę 90–100+ szt. — ta sama checklista jest dostępna także dla Ciebie.'
+  steps:
+    - step: '01'
+      title: 'Weryfikacja podmiotu oficjalnego'
+      desc: 'Kupujący poprosił o chińską rejestrację działalności i licencję na handel zagraniczny. Podmiotem prawnym stojącym za iSupfactory jest Qingdao Vatrad Group Co., Ltd., producent zarejestrowany w Qingdao w prowincji Shandong od 2012 roku — zweryfikowany w krajowym rejestrze pod NDA.'
+    - step: '02'
+      title: 'Fizyczna fabryka i audyt terenu'
+      desc: 'Audyt fabryki (na miejscu i w formie spaceru wideo) potwierdził zakład o powierzchni 12,500 m²: cztery wyspecjalizowane warsztaty, ponad 350 pracowników, cztery zautomatyzowane linie i miesięczna wydajność około 10,000 desek. Raport z audytu jest dołączany do dokumentacji umowy.'
+    - step: '03'
+      title: 'Ludzie: prawdziwi inżynierowie, a nie scenariusze sprzedaży'
+      desc: 'Kupujący porozmawiał bezpośrednio z zespołem inżynierskim — projektowanie kadłubów, laboratorium materiałów i QC. Specyfikację projektu oraz NDA wymieniono w ciągu 4 godzin roboczych, a przegląd techniczny otrzymano w ciągu jednego dnia roboczego.'
+    - step: '04'
+      title: 'Papiery: QMS, certyfikaty i inspekcja firmy trzeciej'
+      desc: 'Zweryfikowano dokumentację zgodności ISO 9001:2015, ISO 25649 i CE, zapisy BSCI/REACH/RoHS oraz SOP-y QMS. Kupujący zaplanował inspekcję SGS przed wysyłką zgodnie z ISO 2859-1 poziom II przy pierwszym zamówieniu wolumenowym — i otrzymał świadectwo zgodności dla każdej partii.'
+    - step: '05'
+      title: 'Dane: zapisy testowe dla każdego numeru seryjnego'
+      desc: 'Kupujący sprawdził rzeczywiste zapisy testowe: każda komora testowana przy 18.0 PSI przez 24 godziny z automatycznym odrzuceniem przy spadku ciśnienia powyżej 0.50 PSI, 100-punktowe listy kontrolne montażu oraz 10-letnia identyfikowalność partii w ERP. Przykładowe zapisy QC przekazano przed zamówieniem.'
+    - step: '06'
+      title: 'Ochrona umowna'
+      desc: 'Umowa na zamówienie obejmowała licencję marki, uzgodniony okres wyłączności terytorialnej, własność formy i warunki jej odkupu oraz określała dane i dokumenty przechodzące razem z narzędziami. Kupujący zatwierdził formę w fabryce przed produkcją.'
+    - step: '07'
+      title: 'Bieżący nadzór'
+      desc: 'Kwartalne przeglądy biznesowe z wiceprezesem ds. sprzedaży i głównym inżynierem, zastrzeżone prawo do audytu w trakcie produkcji oraz ścieżka eskalacji do dyrektora QA w sprawie każdego sporu jakościowego. Umowę podpisali wspólnie wiceprezes ds. sprzedaży, główny inżynier i dyrektor QA.'
+
+trust_faqs:
+  tagline: 'Najczęstsze pytania'
+  title: '12 obaw, które kupujący mają przed zamówieniem'
+  items:
+    - q: 'Czy iSupfactory to naprawdę fabryka, czy firma handlowa?'
+      a: 'iSupfactory to dział rozwoju produktów SUP i produkcji w strukturze Qingdao Vatrad Group Co., Ltd. Sami prowadzimy zakład o powierzchni 12,500 m² w Qingdao — projektowanie, cięcie, zgrzewanie, montaż i testy odbywają się w jednym obiekcie. Nie ma przekazywania przez pośrednika handlowego: osoby, które odpowiadają na Twoje pytania, to osoby, które budują Twoje deski.'
+    - q: 'Z kim dokładnie będę pracował w trakcie projektu?'
+      a: 'Z wyznaczonym inżynierem projektu i wyznaczonym kontaktem QC, a także z kierownikami działów, którzy podpisują Twoje dokumenty. Możesz poprosić o rozmowę bezpośrednio z głównym inżynierem, dyrektorem QA lub dyrektorem fabryki — przed zamówieniem i po nim. Między Tobą a ludźmi wykonującymi pracę nie ma warstwy opiekunów klienta.'
+    - q: 'Czy mogę odwiedzić fabrykę lub poddać ją audytowi?'
+      a: 'Tak. Zapraszamy do wizyt w fabryce w Strefie Rozwoju Gospodarczego Laixi w Qingdao i wspieramy zdalne audyty z transmisją na żywo. Audyt można zorganizować niezależnie (przez Twojego inspektora lub firmę trzecią, np. SGS, TUV, BV lub Intertek), a harmonogram audytu można wpisać do umowy.'
+    - q: 'Czy podpiszecie NDA, zanim udostępnię mój projekt?'
+      a: 'Tak. Nasze standardowe NDA podpisujemy w ciągu 4 godzin roboczych od Twojego wniosku, zanim udostępnimy jakąkolwiek chronioną specyfikację, grafikę lub plik techniczny. Dostępne są wersje dwujęzyczne (angielski/chiński), a dokument jest podpisywany przez dyrektora fabryki.'
+    - q: 'Skąd mam wiedzieć, że Twoje twierdzenia o jakości są prawdziwe?'
+      a: 'Za każdym twierdzeniem na tej stronie stoi dokument: SOP-y QMS i normy inspekcyjne można pobrać, publikujemy zanonimizowane próbki zapisów jakościowych, a dane testowe są rejestrowane dla każdego numeru seryjnego z 10-letnią identyfikowalnością partii w ERP. Możesz też zamówić inspekcję przed wysyłką przez firmę trzecią według własnego wyboru.'
+    - q: 'Co się stanie, jeśli moje deski dotrą z wadami?'
+      a: 'Każda deska jest sprawdzana przed pakowaniem, a zapisy na poziomie partii pozwalają prześledzić przyczynę na poziomie numeru seryjnego. Umowa określa obowiązki dotyczące inspekcji, wymiany i poprawek, a partię zwalnia dyrektor QA. Deski po poprawkach są badane w całości — nigdy tylko punktowo.'
+    - q: 'Czy naprawdę da się zbadać 100% desek przed wysyłką?'
+      a: 'Tak — i dokumenty to potwierdzają. Każda komora jest nadmuchiwana do 18.0 PSI i utrzymywana przez 24 godziny z ciągłym zapisem z czujników; każda komora ze spadkiem ciśnienia powyżej 0.50 PSI w ciągu 24 godzin jest automatycznie odrzucana i ponownie badana. Logi testowe są powiązane z każdym numerem seryjnym i wchodzą w skład dokumentacji partii.'
+    - q: 'Jakie certyfikaty faktycznie posiadacie?'
+      a: 'Zarządzanie jakością ISO 9001:2015, zgodność ISO 25649 i CE dla produktów w postaci nadmuchiwanych desek SUP, a także zgodność BSCI, REACH i RoHS dla zakładu i materiałów. Numery certyfikatów i zapisy z audytów udostępniamy na prośbę lub podczas audytu — lista jest jawna, a nie „dostępna wyłącznie na prośbę”.'
+    - q: 'Czy moja marka będzie bezpieczna — projekt, formy i rynek?'
+      a: 'Tak. Twoja marka, projekty i narzędzia są chronione przez NDA, warunki licencji marki oraz zapisy o własności lub odkupie form wpisane do umowy. Narzędzia przechowujemy dla marki i można je przenieść. Warunki terytorialne i wyłączności ustalamy na piśmie przed rozpoczęciem produkcji.'
+    - q: 'Jakie jest Twoje realne MOQ?'
+      a: 'MOQ zależy od projektu i jest wyjaśnione w naszym przewodniku o MOQ: próbka 1–2 szt., współmarkowanie w małej serii 5–10 szt., serie pilotażowe 20–50 szt. oraz standardowy wolumen 90–100+ szt. na rolkę 150 m (około 180–220 desek). Niestandardowe kształty w formie wytłoczonej realizujemy na poziomie wolumenowym. Kalkulację potwierdzamy przed wyceną — bez mglistych liczb typu „niskie MOQ”.'
+    - q: 'Co się stanie, jeśli produkcja się opóźni?'
+      a: 'Czas realizacji potwierdzamy po przeglądzie specyfikacji, grafiki i opakowania — nigdy nie obiecujemy go wcześniej. Umowa reguluje harmonogram, zgłaszanie opóźnień i ścieżkę rozwiązania, a kwartalny przegląd biznesowy śledzi terminowość dostaw względem uzgodnionego kalendarza.'
+    - q: 'Kto podpisuje dokumenty umowy po Waszej stronie?'
+      a: 'Zamówienia i umowy podpisują wspólnie wiceprezes ds. sprzedaży, główny inżynier i dyrektor QA — trzej ludzie odpowiedzialni odpowiednio za warunki handlowe, realizację techniczną i dopuszczenie jakościowe. Otrzymujesz podpisane dokumenty razem z dokumentacją umowy.'
+
+governance:
+  tagline: 'Struktura odpowiedzialności'
+  title: 'Wskazani sygnatariusze i prawa zastrzeżone'
+  subtitle: 'Każde zobowiązanie jest przypisane do konkretnej roli — a nie do działu sprzedaży.'
+  body: |
+    **Wspólna akceptacja.** Zamówienia, plany jakości i rozstrzygnięcia sporów podpisują trzy role: wiceprezes ds. sprzedaży (warunki handlowe), główny inżynier (realizacja techniczna) i dyrektor QA (dopuszczenie jakościowe). Dwujęzyczne SOP-y podlegają kontroli wersji i mają tę samą strukturę podpisów.
+
+    **Prawa zastrzeżone.** Kupujący zachowuje prawo do audytu produkcji, wglądu w zapisy testowe oraz do wstrzymania dopuszczenia partii do czasu zatwierdzenia inspekcji. Poprawki wykonuje się wyłącznie na podstawie zatwierdzonego rekordu zmiany, a dopuszczenie potwierdza niezależna kontrola jakości — nigdy operatorzy wykonujący poprawki.
+
+    **Przekazywane dokumenty.** Logi testowe partii, świadectwa zgodności i raporty z inspekcji są przekazywane z każdą dostawą, a identyfikowalność partii w ERP jest przechowywana przez 10 lat. Dokumentacja narzędzi i rysunki form przechodzą razem z narzędziami, jeżeli przewiduje to umowa.
+
+trust_downloads:
+  tagline: 'Dokumenty oficjalne'
+  title: 'Dokumenty weryfikacyjne — pobierz i udostępnij'
+  subtitle: 'Oficjalne dokumenty Qingdao Vatrad Group Co., Ltd., gotowe do dołączenia do Twojego pliku due diligence dostawcy.'
+  features:
+    - icon: G
+      icon_bg: blue
+      title: 'Przewodnik zaufania kupującego OEM i weryfikacji fabryki (PDF)'
+      desc: 'Oficjalny przewodnik B2B (część II, DOC-ENG-2026-EN): weryfikacja fabryki krok po kroku — rejestracja podmiotu, fizyczny audyt, prawdziwi inżynierowie, dokumentacja QMS, inspekcja firmy trzeciej, ochrona umowna i podpisy w ramach nadzoru.'
+      link: 'https://assets.isupfactory.com/site/downloads/oem-buyer-trust-and-factory-assurance-guide.pdf'
+      link_label: 'Pobierz przewodnik (PDF)'
+    - icon: P
+      icon_bg: green
+      title: 'Przewodnik elastycznego brandingu i MOQ (PDF)'
+      desc: 'Oficjalny przewodnik B2B (część I, DOC-MOQ-EXP-2026-EN): logika inżynierska stojąca za wydajnością rolek drop-stitch o długości 150 m (90–100 desek), współmarkowanie od 5–10 szt., serie pilotażowe 20–50 szt. oraz trzy etapy produkcji.'
+      link: 'https://assets.isupfactory.com/site/downloads/flexible-branding-and-moq-guide.pdf'
+      link_label: 'Pobierz przewodnik MOQ (PDF)'
+    - icon: Q
+      icon_bg: orange
+      title: 'System jakości stojący za tymi twierdzeniami'
+      desc: 'Jedna strona, która to spina: 7-etapowy system bramek inspekcyjnych, cztery obowiązujące go normy oraz rejestr dokumentów 00–15 z każdym SOP-em i raportem do pobrania — QIP, normy inspekcyjne, dossier identyfikowalności, NCP i SOP-y poprawek.'
+      link: '/pl/quality'
+      link_label: 'Poznaj system jakości'
+
+evidence_review:
+  tagline: 'Dowody i weryfikacja'
+  title: 'ZWERYFIKOWANE SPECYFIKACJE'
+  body: 'Wszystkie twierdzenia produkcyjne na tej stronie zostały zweryfikowane przez nasz zespół inżynierii produkcji w zakładzie w Laixi w Qingdao. Certyfikaty, zapisy inspekcji QC, raporty z badań ciśnieniowych i wytrzymałościowych oraz zapisy identyfikowalności partii są dostępne na prośbę. Specyfikacje zweryfikowano ostatnio we wrześniu 2026 roku.'
+
+cta:
+  title: 'Zacznij od weryfikacji — potem rozmawiamy o specyfikacji'
+  subtitle: 'Wyślij wniosek o NDA, poproś o pakiet rejestrowy lub umów termin audytu. Najpierw weryfikacja, rozmowa o zamówieniu dopiero potem. Złożenie zapytania nie zobowiązuje Cię do zamówienia.'
+  button_text: 'Poproś o pakiet weryfikacyjny'
+  button_link: '/pl/contact#trust-verification'
+  actions:
+    - text: 'Checklista audytu fabryki'
+      href: /pl/factory-audit-checklist
+    - text: 'Identyfikacja marki'
+      href: /pl/about/identity

@@ -1,0 +1,108 @@
+meta:
+  title: 'Rozwój produktu SUP — projekt na zamówienie, prototyp i produkcja'
+  description: 'Rozwój produktu SUP od koncepcji po kontener: specyfikacja, inżynieria, prototypowanie, testy, narzędzia i produkcja seryjna w wyspecjalizowanej fabryce desek SUP.'
+  dateModified: '2026-08-10'
+  keywords:
+    - 'rozwój produktu sup'
+    - 'rozwój prototypu sup'
+    - 'projekt sup na zamówienie'
+    - 'inżynieria produktu sup'
+    - 'prototypowanie nadmuchiwanych desek sup'
+
+hero:
+  tagline: 'Rozwój produktu'
+  title: 'Rozwój produktu SUP na zamówienie — od koncepcji po kontener'
+  subtitle: 'Sześć etapów zamienia Twój pomysł na produkt w deski SUP gotowe do produkcji — specyfikacja, inżynieria, prototypowanie, testy, narzędzia i produkcja seryjna, wszystko w jednej fabryce, w jednym odpowiedzialnym systemie jakości.'
+
+answer:
+  label: 'Krótka odpowiedź'
+  text: 'Rozwój produktu SUP w iSupfactory przebiega przez sześć etapów — specyfikację produktu, inżynierię konstrukcyjną, pobranie próbki prototypowej, testy i walidację, niestandardowe narzędzia oraz produkcję seryjną. Pierwsza fizyczna próbka wysyłana jest 7–12 dni po zatwierdzeniu specyfikacji; produkcja trwa 25–35 dni od potwierdzonego zamówienia i zaliczki; opracowanie nowej formy dodaje 15–20 dni.'
+  verified: 'Wrzesień 2026'
+
+stages:
+  title: 'Sześć etapów rozwoju produktu SUP'
+  subtitle: 'Każdy etap ma jasny rezultat, więc zawsze wiesz, na jakim etapie jest Twój projekt — i co dotrzy następnym razem.'
+  items:
+    - title: '1. Pomysł i specyfikacja produktu'
+      description: 'Geometria deski, zakres wagi użytkownika, objętość, cele konstrukcyjne i pakiet akcesoriów. Deska referencyjna, szkic lub specyfikacja konkurenta wystarczą na start.'
+      icon: 'tabler:bulb'
+    - title: '2. Inżynieria i projekt 3D'
+      description: 'Inżynieria konstrukcyjna, grubość drop-stitch i dobór klasy PCV, a ponadto przegląd możliwości technologicznych i wycena — zwrot w ciągu jednego dnia roboczego.'
+      icon: 'tabler:blueprint'
+    - title: '3. Pobranie prototypu'
+      description: 'Twoja pierwsza fizyczna próbka wysyłana jest w 7–12 dni, udokumentowana arkuszem akceptacji obejmującym konstrukcję, kolory nadruku i wyniki prób ciśnieniowych.'
+      icon: 'tabler:tools'
+    - title: '4. Testy i walidacja'
+      description: 'Próba utrzymania ciśnienia, wytrzymałość szwów i kontrola wymiarowa względem zatwierdzonej próbki, wraz z dokumentacją CE i REACH przygotowaną na Twoje rynki docelowe.'
+      icon: 'tabler:test-pipe'
+    - title: '5. Narzędzia i produkcja seryjna'
+      description: 'W razie potrzeby niestandardowa forma powstaje w 15–20 dni; produkcja trwa 25–35 dni z punktami kontrolnymi QC w trakcie procesu i identyfikowalnością partii.'
+      icon: 'tabler:settings'
+    - title: '6. Dostawa i skalowanie'
+      description: 'Logistyka FOB, CIF lub DDP do ponad 50 krajów — a następnie zamówienia powtarzane z Twojej sprawdzonej linii, ze stabilnymi czasami realizacji i zatwierdzoną grafiką w archiwum.'
+      icon: 'tabler:truck-delivery'
+
+why_inhouse:
+  title: 'Dlaczego rozwój wewnątrz fabryki bije projekt przez pośrednika'
+  subtitle: 'Prace rozwojowe prowadzone w obrębie zakładu produkcyjnego zmieniają to, co dostajesz na każdym etapie.'
+  items:
+    - title: 'Bez luk w przekazywaniu projektu'
+      description: 'Zespół inżynierii i rysunku pracuje na tej samej hali co linia zgrzewania — zmiana rysunku trafia na produkcję w tym samym tygodniu, a nie po handlowym obiegu w obie strony.'
+      icon: 'tabler:handshake'
+    - title: 'Próbki zgodne z produkcją'
+      description: 'Partia próbna i partia seryjna korzystają z tych samych maszyn, materiałów i stacji QC, więc zatwierdzona próbka jest dokładnie tym, co otrzymujesz w skali kontenera.'
+      icon: 'tabler:stack-2'
+    - title: 'Inżynieria, która nic nie sprzedaje'
+      description: 'Decyzje podejmujemy pod kątem docelowego kosztu, wagi i trwałości — a nie marży na upsell, bo to fabryka, a jedynym przychodem jest produkcja.'
+      icon: 'tabler:scale'
+    - title: 'Poufność jako stała umowa'
+      description: 'NDA podpisujemy przed jakąkolwiek wymianą plików, a Twoja grafika, narzędzia i pliki specyfikacji pozostają Twoją własnością — nigdy nie są wykorzystywane ponownie, odsprzedawane ani pokazywane innym klientom.'
+      icon: 'tabler:lock'
+
+buyer_guides:
+  tagline: 'Przewodniki dla kupujących'
+  title: 'Kompletna biblioteka zakupowa'
+  subtitle: 'Każdy etap projektu SUP na zamówienie, wyjaśniony przy użyciu naszych rzeczywistych czasów realizacji, warunków i dokumentacji.'
+  items:
+    - title: 'Private label: kompletny przewodnik krok po kroku'
+      body: 'Od wyboru fabryki po dostarczony kontener — pełna sześcietapowa droga nowej marki.'
+      href: '/pl/news/private-label-sup-guide'
+    - title: 'Jak wybrać producenta SUP OEM'
+      body: 'Pytania audytowe, które odróżniają prawdziwą fabrykę od pośrednika: certyfikaty, QC, próbki i prawa własności.'
+      href: '/pl/news/how-to-choose-sup-oem-manufacturer'
+    - title: 'Harmonogram rozwoju produktu SUP'
+      body: 'Próbka w 7–12 dni, produkcja w 25–35 dni, narzędzia plus 15–20 — pełny kalendarz, etap po etapie.'
+      href: '/pl/news/custom-sup-development-timeline'
+    - title: 'Jakie informacje przygotować przed zamówieniem'
+      body: 'Pięć danych, dzięki którym fabryka wyceni Trafnie za pierwszym razem — i uniknie poprawek specyfikacji.'
+      href: '/pl/news/info-needed-before-sup-production'
+    - title: 'MOQ i ceny w SUP OEM'
+      body: 'Poziomy MOQ na etapach próbki (1–2), pilotażu (20–50) i wolumenu (90–100+ na rolkę 150 m), sześć czynników kosztowych i pięć sposobów na obniżenie kosztu bez rezygnacji z jakości.'
+      href: '/pl/news/sup-oem-moq-pricing'
+    - title: 'Certyfikacja CE dla nadmuchiwanych desek SUP'
+      body: 'Co naprawdę obejmuje CE, jakie pięć dokumentów żądać i jak sprawdzić, że certyfikat wymienia Twój model.'
+      href: '/pl/news/ce-certification-inflatable-sup'
+    - title: 'Wysyłka: FOB czy CIF czy DDP'
+      body: 'Co obejmuje i ile kosztuje każdy Incoterm, harmonogram transportu morskiego 4–6 tygodni i który warunek pasuje do Twojej firmy.'
+      href: '/pl/news/private-label-sup-oem-guide'
+
+faq_section:
+  tagline: 'Najczęstsze pytania'
+  title: 'Najczęstsze pytania o rozwój SUP'
+  questions:
+    - q: 'Czy możecie rozwinąć produkt SUP na podstawie pomysłu?'
+      a: 'Tak. Wspieramy całą drogę — od specyfikacji produktu i inżynierii, przez rozwój prototypu i personalizację, po produkcję seryjną zgodną z Twoimi wymaganiami. Szkic, deska referencyjna, a nawet specyfikacja konkurenta wystarczą do rozpoczęcia przeglądu inżynierskiego.'
+    - q: 'Ile kosztuje rozwój produktu SUP?'
+      a: 'Przegląd specyfikacji i ocena inżynierska są bezpłatne, a ich wynik otrzymujesz w ciągu jednego dnia roboczego. Pobranie prototypu wyceniamy indywidualnie po ustaleniu specyfikacji; cena produkcji zależy od materiałów, wolumenu i tego, czy potrzebne są niestandardowe narzędzia.'
+    - q: 'Ile trwa rozwój produktu SUP?'
+      a: 'Pierwsza próbka wysyłana jest 7–12 dni po zatwierdzeniu specyfikacji, z 3–7 dniami na każdą rundę poprawek. Produkcja trwa 25–35 dni od zamówienia i zaliczki. Opracowanie niestandardowej formy dodaje z góry 15–20 dni, a transport morski do większości krajów docelowych dodaje 4–6 tygodni.'
+    - q: 'Co jest pierwsze — próbka czy produkcja?'
+      a: 'Zawsze próbka. Fizyczny prototyp jest wykonywany, mierzony i zatwierdzany względem specyfikacji, zanim ruszy jakakolwiek produkcja seryjna. Nie prowadzimy produkcji masowej na projektach niezatwierdzonych.'
+    - q: 'Czy podpisujecie NDA przy rozwoju produktu?'
+      a: 'Tak. NDA jest podpisywane przed jakąkolwiek wymianą plików, a Twoje projekty, grafika i narzędzia pozostają Twoją własnością przez cały okres rozwoju i produkcji.'
+    - q: 'Czy możecie chronić mój projekt SUP i moje specyfikacje?'
+      a: 'Projekty, specyfikacje i koncepcje produktowe klientów są traktowane poufnie podczas rozwoju i produkcji. Twoje pliki narzędziowe nigdy nie są wykorzystywane ponownie, odsprzedawane ani pokazywane innym klientom.'
+
+cta:
+  title: 'Rozpocznij swój projekt produktu SUP'
+  subtitle: 'Wyślij szkic, deskę referencyjną lub specyfikację — przegląd inżynierski i wycena w ciągu jednego dnia roboczego.'

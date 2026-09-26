@@ -1,0 +1,114 @@
+meta:
+  title: 'Rozpocznij swój projekt SUP — od briefu do dostarczonych desek | iSupfactory'
+  description: 'Rozpocznij swój projekt SUP na zamówienie: wyślij brief, otrzymaj ochronę NDA, próbki w 7–12 dni, zatwierdź je i przeskocz do produkcji seryjnej. Krok po kroku, z konkretnymi terminami.'
+  dateModified: '2026-08-20'
+  keywords:
+    - 'rozpocznij projekt sup'
+    - 'zamówienie sup na wymiar'
+    - 'brief projektu sup'
+    - 'projekt sup oem'
+    - 'zamówienie deski paddle na wymiar'
+    - 'projekt produkcji sup'
+    - 'projekt nadmuchiwanej deski sup'
+
+hero:
+  tagline: 'Zacznij tutaj'
+  title: 'Rozpocznij swój projekt SUP'
+  subtitle: 'Niezależnie od tego, czy uruchamiasz nową markę, rozszerzasz linię produktową, czy szukasz desek z własną marką dla swojej działalności — każdy projekt zaczyna się tak samo: briefu, NDA, próbki i jasnej ścieżki do produkcji. Oto, co dzieje się po kliknięciu „Start".'
+  actions:
+    - variant: primary
+      text: 'Rozpocznij brief projektu'
+      href: /pl/contact#project-brief
+    - text: 'Zobacz, jak przebiega proces'
+      href: /pl/how-it-works
+
+answer:
+  label: 'Co dzieje się dalej'
+  text: 'Po wysłaniu briefu projektu otrzymujesz odpowiedź w ciągu jednego dnia roboczego. NDA jest dostępne, zanim udostępnisz jakiekolwiek szczegóły zastrzeżone. Dział inżynierii analizuje Twój brief i przekazuje wycenę pozycjoną z MOQ, opłatami za próbki oraz harmonogramem bramka po bramce — zwykle 7–12 dni na próbki i 6–8 tygodni na pierwszą produkcję od potwierdzonego zamówienia. Opłaty za próbki zaliczasz na poczet zamówienia produkcyjnego. Nie zobowiązujesz się do niczego, dopóki nie podpiszesz umowy.'
+  verified: 'Wrzesień 2026'
+
+process_steps:
+  tagline: 'Proces'
+  title: 'Od briefu do dostarczonych desek — pięć kroków'
+  subtitle: 'Każdy krok ma zdefiniowany termin, udokumentowany rezultat oraz punkt decyzyji tak/nie. Przechodzisz dalej dopiero wtedy, gdy jesteś gotowy.'
+  steps:
+    - step: 'Krok 1'
+      title: 'Prześlij brief projektu'
+      desc: 'Opowiedz nam o swojej desce — docelowa specyfikacja, wolumen, wymagania zgodności i termin. Wypełnienie briefu zajmuje 5–10 minut. Jeśli nie masz pewności co do każdego szczegółu, podaj to, co wiesz, a resztę pomożemy doprecyzować. NDA jest dostępne, zanim udostępnisz projekty zastrzeżone.'
+    - step: 'Krok 2'
+      title: 'NDA i przegląd wykonalności (1–5 dni)'
+      desc: 'Podpisujemy NDA, jeśli tego wymagasz, a następnie dział inżynierii analizuje Twój brief pod kątem możliwości produkcyjnych, dostępności materiałów i zakresu zgodności. Otrzymujesz wycenę pozycjoną z obliczeniem MOQ, opłatami za próbki i harmonogramem bramka po bramce.'
+    - step: 'Krok 3'
+      title: 'Próbka i zatwierdzenie (7–21 dni)'
+      desc: 'Wykonujemy 1–2 fizyczne deski zgodnie z Twoją specyfikacją. Wjeżdżasz na nich i je oceniasz — sztywność kadłuba, dokładność grafiki, dopasowanie akcesoriów. Zmiany zapisujemy w zrewidowanej liście materiałowej (BOM). Zamrożona próbka staje się punktem odniesienia dla produkcji. Opłaty za próbki zaliczasz na poczet produkcji.'
+    - step: 'Krok 4'
+      title: 'Planowanie przedprodukcyjne (7 dni)'
+      desc: 'Zakup materiałów, przygotowanie oprzyrządowania, potwierdzenie opakowania i rezerwacja terminu produkcyjnego. Wszystkie materiały przechodzą inspekcję wejściową względem zamrożonej listy BOM. Przed rozpoczęciem produkcji wydajemy harmonogram produkcji z datami bramek QC.'
+    - step: 'Krok 5'
+      title: 'Produkcja, QC i wysyłka (4–6 tygodni)'
+      desc: 'Produkcja przebiega przez 7-etapowy system bramek inspekcyjnych z kryteriami pass/fail na każdej bramce. Pakowanie eksportowe, dokumentacja zgodności i koordynacja żeglugi morskiej do ponad 50 krajów. Przegląd po dostawie pozwala zebrać usprawnienia na kolejne zamówienie.'
+
+collaboration_types:
+  tagline: 'Wybierz swoją drogę'
+  title: 'Trzy sposoby współpracy z iSupfactory'
+  subtitle: 'Każdy projekt przechodzi przez ten sam proces — zmienia się zakres prac inżynieryjnych i miejsce, w którym leży własność intelektualna.'
+  grid: 'sm:grid-cols-2 lg:grid-cols-3'
+  features:
+    - icon: O
+      icon_bg: blue
+      title: 'Produkcja OEM'
+      desc: 'Ty dostarczasz projekt. My produkujemy zgodnie z Twoją specyfikacją. Cała własność intelektualna jest Twoja. Najlepsze dla marek ze sprawdzoną geometrią deski.'
+      link_label: 'Zobacz szczegóły OEM'
+      href: /pl/oem-manufacturing
+    - icon: D
+      icon_bg: green
+      title: 'Rozwój ODM'
+      desc: 'Ty dostarczasz brief. My opracowujemy deskę. Dostosowana platforma z Twoim brandingiem. Najlepsze dla marek wchodzących na rynek bez własnego działu projektowego.'
+      link_label: 'Zobacz szczegóły ODM'
+      href: /pl/odm-manufacturing
+    - icon: P
+      icon_bg: purple
+      title: 'Private label / współmarkowanie'
+      desc: 'Twoja marka na sprawdzonej platformie. Bez etapu inżynieryjnego. Nawet 5–10 sztuk. Najlepsze dla operatorów i dystrybutorów.'
+      link_label: 'Zobacz opcje private label'
+      href: /pl/solutions/private-label-sup
+
+what_we_need:
+  heading: 'Co przygotować przed briefem'
+  body: |
+    Kompletny brief przyspiesza proces. Oto, co najbardziej pomaga:
+
+    - **Specyfikacja deski** — docelowa długość, szerokość, grubość, waga użytkownika, zastosowanie. Przydatne są referencyjne wymiary desek lub specyfikacje modeli konkurencji.
+    - **Pliki projektowe** — grafika wektorowa (AI, SVG, PDF) na nadruki i logotypy. Jeśli nie jest jeszcze gotowa, na potrzeby wstępnej oceny wykonalności wystarczą tablice inspiracji lub obrazy referencyjne.
+    - **Wolumen i harmonogram** — docelowa ilość i terminarz sezonowy. Nawet przybliżony zakres ("20–50 desek do marca") wystarczy na start.
+    - **Wymagania zgodności** — docelowe rynki oraz ewentualne szczególne wymagania certyfikacyjne wykraczające poza CE, ISO 9001, BSCI, REACH, RoHS.
+    - **Przedział budżetowy** — orientacyjny budżet na jedną deskę lub docenowy koszt końcowy pomaga nam dobrać odpowiednią platformę.
+
+    **Nie masz jeszcze wszystkiego?** Wyślij to, co masz. Resztę pomożemy Ci doprecyzować.
+
+faqs:
+  tagline: FAQ
+  title: 'Rozpoczynanie projektu SUP — najczęściej zadawane pytania'
+  items:
+    - q: 'Jaka jest minimalna ilość zamówienia (MOQ), żeby zacząć?'
+      a: 'Próg wejścia jest stopniowany: najpierw 1–2 próbki (7–12 dni), potem zamówienie próbne 20–50 desek (25–35 dni), a następnie standardowe partie 90–100+ desek w zwalidowanej konfiguracji. Współmarkowanie private label startuje od 5–10 sztuk, bez etapu rozwojowego.'
+    - q: 'Ile trwa wykonanie próbek?'
+      a: 'Fizyczne próbki powstają w 7–12 dni od potwierdzenia specyfikacji i wpłaty zaliczki. Korzystając z istniejących platform kadłuba, pełny cykl od briefu do dostarczonego zamówienia próbnego trwa zwykle 8–12 tygodni. Indywidualny kadłub dodaje 15–20 dni na opracowanie formy.'
+    - q: 'Czy mój projekt jest chroniony?'
+      a: 'Tak. NDA jest dostępne natychmiast — zanim udostępnisz jakiekolwiek informacje zastrzeżone. Produkujemy wyłącznie pod markami naszych klientów i nigdy z nimi nie konkurujemy. Wszystkie pliki techniczne przechowujemy w systemach z kontrolą dostępu i śladami audytowymi.'
+    - q: 'Czego wymaga formularz briefu projektu?'
+      a: 'Brief prosi o typ Twojej działalności, nazwę firmy, docelową specyfikację deski, zakres ilościowy zamówienia, termin oraz ewentualne wymagania zgodności. Wypełnienie zajmuje około 5–10 minut. Możesz dołączyć pliki projektowe (PNG, JPG, SVG, PDF, AI, PSD, DWG, DXF, ZIP) do 10 MB. Jeśli nie jesteś pewien danego pola, pomiń je — odezwiemy się.'
+    - q: 'Co się stanie po wysłaniu briefu?'
+      a: 'Otrzymujesz odpowiedź w ciągu jednego dnia roboczego. Dział inżynierii analizuje Twój brief i przekazuje wycenę pozycjoną z MOQ, opłatami za próbki i harmonogramem bramka po bramce. Nie zobowiązujesz się do niczego, dopóki nie przejrzysz i nie podpiszesz umowy. Opłaty za próbki zaliczasz na poczet zamówienia produkcyjnego.'
+
+cta:
+  title: 'Gotowy, by zacząć?'
+  subtitle: 'Wyślij brief projektu — specyfikację deski, wolumen i termin — a my potwierdzimy wykonalność, wyprodukujemy próbki i przedstawimy harmonogram produkcji z udokumentowanym QC na każdym etapie.'
+  actions:
+    - variant: primary
+      text: 'Rozpocznij brief projektu'
+      href: /pl/contact#project-brief
+    - text: 'Przeczytaj pełny przewodnik onboardingu'
+      href: /pl/oem-onboarding-guide
+    - text: 'Zweryfikuj fabrykę i system jakości'
+      href: /pl/proof-center

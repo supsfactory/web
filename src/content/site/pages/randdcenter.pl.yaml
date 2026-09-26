@@ -1,0 +1,131 @@
+meta:
+  title: 'Centrum B&R — inżynieria nadmuchiwanych desek SUP | {SITE}'
+  description: 'Badania i rozwój — badania tkanin PCV, inżynieria kadłubów, zgrzewanie HF, badania hydrodynamiczne i kontrola jakości. Dostępne niestandardowe usługi B&R.'
+  dateModified: '2026-08'
+
+hero:
+  tagline: 'Centrum B&R'
+  title: 'Centrum B & R'
+  subtitle: 'Skupione na postępie'
+
+intro:
+  - 'Centrum Badań i Rozwoju (B&R) Vatrad to siła napędowa naszej misji: rewolucjonizowania sprzętu sportów wodnych. Wspieramy miłośników sportów wodnych na całym świecie, oferując bezpieczniejszy, wygodniejszy i bardziej satysfakcjonujący sprzęt dzięki nieustannym innowacjom w zakresie nadmuchiwanych desek SUP i łodzi. Nasz oddany zespół inżynierów, projektantów i zapalonych ekspertów sportów wodnych kształtuje przyszłość branży, nieustannie podnosząc poprzeczkę w zakresie jakości, wydajności i zrównoważenia.'
+  - 'Nasz zakład B&R skupia pod jednym dachem specjalistów materiałowych, projektantów jednostek pływających i inżynierów produkcji. Od receptur tkanin i symulacji kadłubów, przez rozwój procesów zgrzewania, aż po próby pełnoskalowe na morzu — każdy etap rozwoju produktu jest oparty na danych i potwierdzany badaniami.'
+
+mission:
+  tagline: 'Nasza misja'
+  title: 'Współtworzymy przyszłość sportów wodnych'
+  pillars:
+    - icon: lightning
+      title: 'Postęp technologiczny'
+      desc: 'Pionierskie prace nad nowymi materiałami, wzornictwem i technologiami produkcji, które przekładają się na lepsze osiągi i żywotność produktów.'
+    - icon: design
+      title: 'Projekt skoncentrowany na użytkowniku'
+      desc: 'Głębokie poznanie potrzeb użytkowników i przekraczanie ich oczekiwań dzięki ergonomicznemu i intuicyjnemu projektowi produktu.'
+    - icon: globe
+      title: 'Zrównoważone praktyki'
+      desc: 'Ograniczanie naszego śladu środowiskowego poprzez stosowanie materiałów i procesów przyjaznych środowisku.'
+    - icon: shield
+      title: 'Bezkompromisowe bezpieczeństwo'
+      desc: 'Zapewnienie najwyższych standardów bezpieczeństwa dzięki rygorystycznym badaniom i certyfikacji.'
+
+pillars:
+  - title: 'Postęp technologiczny'
+    desc: 'Pionierskie prace nad nowymi materiałami, wzornictwem i procesami produkcyjnymi, które przekładają się na lepsze osiągi i żywotność produktów.'
+    icon: tech
+  - title: 'Zaawansowane materiały'
+    desc: 'Badania najnowszych PCV, Hypalonu, kompozytów i zrównoważonych alternatyw w celu poprawy właściwości produktów.'
+    icon: materials
+  - title: 'Zrównoważony rozwój'
+    desc: 'Kluczowe zobowiązanie: stawiamy na troskę o środowisko poprzez zrównoważoną produkcję i materiały poddające się recyklingowi.'
+    icon: sustainability
+
+capabilities:
+  tagline: 'Możliwości'
+  title: 'Możliwości B&R'
+  subtitle: 'Cztery kluczowe dyscypliny, które dają nam pełną kontrolę nad rozwojem produktu — od badań surowców po certyfikację końcową.'
+  groups:
+    - title: 'Nauka o materiałach i technologia tkanin'
+      items:
+        - 'Analiza i optymalizacja receptur PCV i Hypalonu'
+        - 'Rozwój stabilizatorów UV, retardantów płomienia i dodatków antymikrobiowych'
+        - 'Inżynieria laminacji wielowarstwowych tkanin i adhezji'
+        - 'Przyspieszone badania starzenia (UV, termiczne, wilgotność, mgła solna)'
+    - title: 'Inżynieria kadłubów i hydrodynamika'
+      items:
+        - 'Parametryczny projekt kadłubów 3D i optymalizacja CFD'
+        - 'Analiza elementów skończonych pod kątem obciążeń strukturalnych i udarowych'
+        - 'Badania w basenie holowania na modelach w skali i walidacja osiągów'
+        - 'Niestandardowy rozwój kadłubów dla specjalnych profili misji'
+    - title: 'Technologia zgrzewania i łączenia'
+      items:
+        - 'Rozwój i optymalizacja procesu zgrzewania dielektrycznego HF'
+        - 'Metody zgrzewania gorącym powietrzem, gorącym klinem i ultradźwiękowego'
+        - 'Kwalifikacja łączenia klejem i taśmami do szwów'
+        - 'Modelowanie wytrzymałości szwów i prognozowanie trwałości'
+    - title: 'Testy, certyfikacja i zgodność'
+      items:
+        - 'Zarządzanie jakością i badania zgodności z CE'
+        - 'Niezależne badania firm trzecich i wsparcie certyfikacyjne'
+        - 'Opracowywanie niestandardowych protokołów testowych na potrzeby kwalifikacji dostawców'
+        - 'Analiza uszkodzeń w eksploatacji i dochodzenie przyczyn'
+
+rd_numbers:
+  tagline: 'Innowacje'
+  title: 'B&R w liczbach'
+  stats:
+    - value: '14'
+      label: 'inżynierów i naukowców B&R'
+    - value: '8'
+      label: 'aktywnych patentów i zgłoszeń'
+    - value: '6'
+      label: 'wyspecjalizowanych laboratoriów'
+    - value: 12 lat
+      label: 'średnie doświadczenie zespołu'
+
+rd_services:
+  tagline: 'Niestandardowy B&R'
+  title: 'Usługi B&R dla partnerów'
+  services:
+    - title: 'Niestandardowy rozwój materiałów'
+      desc: 'Opracowujemy niestandardowe receptury tkanin, układy laminatów i systemy klejone dopasowane do Twojego środowiska pracy i celów wydajnościowych.'
+    - title: 'Inżynieria produktu OEM / ODM'
+      desc: 'Opracowujemy niestandardowe receptury tkanin, układy laminatów i systemy klejone dopasowane do Twojego środowiska pracy i celów wydajnościowych.'
+    - title: 'Badania i certyfikacja przez firmy trzecie'
+      desc: 'Korzystaj z naszych zgodnych z ISO obiektów laboratoryjnych do niezależnych badań materiałowych, walidacji produktów i wsparcia certyfikacyjnego.'
+  cta: 'Omów swoje wymagania B&R →'
+  cta_link: /pl/contact
+
+vision:
+  tagline: 'Nasza wizja'
+  title: 'Ksztaltujemy przyszłość sportów wodnych'
+  body: 'Vatrad dąży do przewodzenia w branży nadmuchiwanych łodzi i desek SUP dzięki ciągłym innowacjom, niezłomnej jakości i niezachwianemu zaangażowaniu w bezpieczeństwo i zrównoważony rozwój — ostatecznie wzbogacając doświadczenia miłośników sportów wodnych na całym świecie. Centrum B&R Vatrad to miejsce, w którym pasja spotyka innowacyjność i wyznacza nowe standardy dla branży sportów wodnych.'
+
+labs_section:
+  tagline: 'Laboratoria'
+  title: 'Nasze laboratoria'
+  labs:
+    - image: https://assets.isupfactory.com/images/sups/randd/isupfactory-pvc-material-lab.webp
+      title: 'Laboratorium Tkanin PCV'
+      description: 'Ciągłe badania i testy tkanin PCV i Hypalonu na rurach pod kątem wytrzymałości na rozciąganie, odporności na UV, ścierania i elastyczności w niskiej temperaturze, aby zapewnić długoterminową niezawodność w środowisku morskim.'
+      href: /pl/randdcenter/pvc-fabric-lab
+    - image: https://assets.isupfactory.com/images/sups/factory/isupfactory-design-discussion-2.webp
+      title: 'Pracownia Inżynierii Kadłubów'
+      description: 'Projektowanie w CAD i analiza elementów skończonych kadłubów z HDPE, aluminium i włókna szklanego. Każdy kadłub jest symulowany cyfrowo pod kątem rozkładu naprężeń i odporności na udar, zanim powstanie pierwszy prototyp.'
+      href: /pl/randdcenter/hull-engineering
+    - image: https://assets.isupfactory.com/images/sups/factory/isupfactory-sup-manufacturing-3.webp
+      title: 'Centrum Zgrzewania HF'
+      description: 'Dedykowane stanowisko zgrzewania wysokoczęstotliwościowego z precyzyjną kontrolą temperatury i ciśnienia, wytwarzające wytrzymałe, szczelne szwy spełniające branżowe standardy morskie dla jednostek nadmuchiwanych.'
+      href: /pl/randdcenter/rf-welding
+    - image: https://assets.isupfactory.com/images/sups/factory/isupfactory-design-discussion-original.webp
+      title: 'Basen Hydrodynamiczny'
+      description: 'Badania modeli w skali w naszym basenie próbowym, aby optymalizować kształt kadłuba, właściwości na płynność, stabilność i zużycie paliwa w różnych obciążeniach i warunkach morskich.'
+      href: /pl/randdcenter/hydrodynamic-test-tank
+    - image: https://assets.isupfactory.com/images/sups/products/sup-series/sup-ocean-voyager-1.webp
+      title: 'Warsztat Prototypów'
+      description: 'Obiekt prototypowania w skali 1:1 i osprzętowania, w którym powstają, są wykańczane i próbowane na morzu nowe modele. Każdy prototyp przechodzi program testów na wodzie trwający co najmniej 20 godzin, zanim trafi do produkcji.'
+      href: /pl/randdcenter/prototype-workshop
+    - image: https://assets.isupfactory.com/images/sups/factory/isupfactory-uv-resistance-testing.webp
+      title: 'Laboratorium Jakości i Inspekcji'
+      description: 'Dedykowane laboratorium zapewnienia jakości: badania wytrzymałości na rozciąganie, cykle utrzymania powietrza, testy zrywania szwów i certyfikacja materiałów, aby każda łódź opuszczająca warsztat spełniała nasze opublikowane specyfikacje.'
+      href: /pl/randdcenter/quality-inspection-lab

@@ -112,7 +112,7 @@ export interface FactShorthands {
   pressureReject: string
 }
 
-export const FACTS_LOCALE: Record<'en' | 'es' | 'fr' | 'de' | 'it' | 'pt' | 'nl' | 'sv' | 'no', FactShorthands> = {
+export const FACTS_LOCALE: Record<'en' | 'es' | 'fr' | 'de' | 'it' | 'pt' | 'nl' | 'sv' | 'no' | 'pl', FactShorthands> = {
   en: {
     moq: {
       existingPlatform: FACTS.moq.existingPlatform,
@@ -238,6 +238,20 @@ export const FACTS_LOCALE: Record<'en' | 'es' | 'fr' | 'de' | 'it' | 'pt' | 'nl'
     assemblyChecklist: '100',
     pressureTest: '18.0 PSI · 24 timers trykkholder',
     pressureReject: 'trykkfall >0.50 PSI/24 t (automatisk avvisning)',
+  },
+  pl: {
+    moq: {
+      existingPlatform: '5–10 szt (tylko logo na istniejącym kształcie, ta sama rolka materiałowa)',
+      trialStandard: '20–50 szt (dedykowana grafika lub niewielka zmiana specyfikacji, ta sama rolka materiałowa)',
+      standardRun: '90–100+ szt na zatwierdzoną konfigurację, z zastrzeżeniem wymogów dotyczących rolki materiałowej i opakowania',
+      customMould: '90–100+ szt (nowy kształt wymaga własnej formy; wykonanie narzędzi dodaje 15–20 dni)',
+    },
+    leadTime: '25–35 dni',
+    leadTimeDetail: '25–35 dni od potwierdzonego zamówienia (PO) i wpłaty zaliczki; opracowanie własnej formy wymaga dodatkowo 15–20 dni na narzędzia.',
+    sampleTime: '7–12 dni',
+    assemblyChecklist: '100',
+    pressureTest: '18.0 PSI · 24 godziny utrzymania ciśnienia',
+    pressureReject: 'spadek ciśnienia >0.50 PSI/24 godz. (automatyczne odrzucenie)',
   },
 }
 

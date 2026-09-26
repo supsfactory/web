@@ -5974,6 +5974,665 @@ export const projects: Localized<ProjectData[]> = {
       tags: ['Yogakonfigurasjon', 'Fullt dekksdekke', 'Programflåte'],
     },
   ],
+  pl: [
+    {
+      slug: 'coastal-rental-fleet',
+      customerType: 'Operatorzy flot wypożyczalni',
+      region: 'Morze Śródziemne — Hiszpania, Włochy, Grecja',
+      productCategory: 'Nadmuchiwana deska SUP klasy wypożyczalniczej (10′6″ + 11′0″)',
+      projectStage: 'Ocena floty → Akceptacja próbki → Dostawa etapowa w 3 partiach',
+      manufacturingScope: 'Specyfikacja floty, wzmocniona konstrukcja, produkcja etapowa, zaopatrzenie w części zamienne',
+      keyRequirements: 'Trwałe deski wypożyczalnicze, etapowa dostawa do lokalizacji, niższy wskaźnik wcześniejszych wymian',
+      qualityFocus: 'Wzmocniona konstrukcja, szczelność, nadruki na flotę, kompletność zestawu',
+      navLabel: 'Nadmorska flota wypożyczalni',
+      metaTitle: 'Nadmorska flota wypożyczalni | 320 desek w 120 dni — iSupfactory',
+      metaDescription:
+        'Jak operator wypożyczalni na Morzu Śródziemnym zbudował nadmorską flotę 320 desek w Hiszpanii, Włochach i Grecji — trzy partie etapowe w 120 dni, ze spodziewanym spadkiem wczesnych wymian o 20–25%.',
+      kicker: 'Projekt floty wypożyczalni',
+      h1: 'Jak operator wypożyczalni na Morzu Śródziemnym zbudował nadmorską flotę 320 desek w 120 dni',
+      intro: [
+        'Operator wypożyczalni prowadzący stacje w Hiszpanii, Włochach i Grecji potrzebował trwałej floty na intensywny sezon letni — dostarczonej w trzech partiach, aby zdążyć przed otwarciem każdej stacji.',
+      ],
+      industry: 'Operatorzy flot wypożyczalni',
+      requirement: '320 desek wypożyczalniczych w dwóch rozmiarach — 10′6″ i 11′0″ — dla nadmorskich stacji w trzech krajach, dostarczonych w trzech etapowych partiach w ciągu 120 dni.',
+      challenge:
+        'Codzienna rotacja wypożyczeń szybko zużywa deski, a wskaźnik wcześniejszych wymian u operatora wynosił 20–25%. Stacje otwierały się w różnych terminach w trzech krajach, więc jedna dostawa nie wchodziła w grę — tym bardziej jednorozmiarowa flota.',
+      solution:
+        'Dwie trwałe platformy wypożyczalnicze w rozmiarach pokrywających większość klientów, wzmocniona konstrukcja na duże obciążenia rotacyjne oraz trzy partie produkcyjne zaplanowane tak, aby trafiły na otwarcie każdej stacji — wraz z pakietami części zamiennych i instrukcją napraw dla każdej lokalizacji.',
+      product: 'Nadmuchiwana deska SUP klasy wypożyczalniczej — platformy 10′6″ i 11′0″ ze wzmocnionymi płetwami i materiałami odpornymi na UV, zestawy dla każdej stacji.',
+      process: [
+        { title: 'Ocena floty', body: 'Terminy otwarcia stacji i wolumen rotacji wyznaczyły dwa rozmiary oraz podział na partie.' },
+        { title: 'Wybór desek', body: 'Platformy wypożyczalnicze 10′6″ i 11′0″ wybrane ze względu na pokrycie klientów i trwałość.' },
+        { title: 'Produkcja etapowa', body: 'Trzy partie zaplanowane pod otwarcie każdej ze stacji.' },
+        { title: 'Dostawa i wsparcie', body: 'Flota wysłana partiami, z pakietem części i instrukcją napraw dla każdej stacji.' },
+      ],
+      result:
+        'Wszystkie trzy partie dotarły w ciągu 120 dni, zgodnie z terminami otwarcia stacji. Wzmocnione platformy powinny zmniejszyć wskaźnik wcześniejszych wymian o 20–25%, a pakiety części zamiennych pokrywają naprawy na miejscu między sezonami.',
+      outcome: '320 desek · 120 dni · 3 partie · szacowane −20–25% wcześniejszych wymian.',
+      metrics: [
+        { value: '320', label: 'desek w dwóch rozmiarach' },
+        { value: '120', label: 'dni od zamówienia do ostatniej partii' },
+        { value: '3', label: 'dostawy etapowe, po jednej na otwarcie stacji' },
+        { value: '−20–25 %', label: 'szacowany wskaźnik wcześniejszych wymian' },
+      ],
+      takeaways: [
+        'Partie etapowe pozwalają, aby flota docierała dokładnie w chwili otwarcia każdej stacji — bez niewykorzystanego magazynu i bez opóźnionego startu.',
+        'Dwa rozmiary (10′6″ i 11′0″) pokryły większość klientów, nie dzieląc floty na zbyt wiele wariantów.',
+        'Na wczesne wymiany wpływa przede wszystkim wzmocniona konstrukcja, a nie tylko cena.',
+        'Pakiety części dla każdej stacji utrzymały deski w pracy przez całe sezony.',
+      ],
+      customizations: [
+        'Platformy wypożyczalnicze 10′6″ i 11′0″ dopasowane do profili klientów',
+        'Wzmocnione płetwy i materiały odporne na UV do pracy o wysokiej rotacji',
+        'Nadruki na flotę i numeracja dla każdej stacji',
+        'Plan produkcji w trzech partiach dopasowany do terminów otwarcia stacji',
+        'Pakiet części zamiennych i instrukcja napraw dla każdej stacji',
+        'Pakowanie wielopunktowe i weryfikacja dostawy dla każdej partii',
+      ],
+      inspectionFocus: [
+        'Weryfikacja wzmocnionej konstrukcji każdej deski',
+        'Napompowanie i szczelność każdej deski',
+        'Nadruki na flotę i poprawna numeracja stacji',
+        'Kompletność akcesoriów i pakiet części dla każdej stacji',
+        'Kontrola pakunków przy dostawach do wielu lokalizacji i partii',
+      ],
+      confidentiality:
+        'Zgodnie z umową nazwa operatora ani lokalizacje stacji nie są ujawniane. Projekt prezentujemy anonimowo, aby chronić poufność komercyjną.',
+      tags: ['Etapowa dostawa floty', 'Konstrukcja klasy wypożyczalniczej', 'Niższy wskaźnik wymian'],
+    },
+    {
+      slug: 'eu-distributor-private-label',
+      customerType: 'Dystrybutorzy i hurtownie',
+      region: 'Europa',
+      productCategory: 'Nadmuchiwana deska SUP pod marką własną (2 SKU)',
+      projectStage: 'Planowanie asortymentu → Akceptacja próbki → Dostawa wolumenowa w 90 dni',
+      manufacturingScope: 'Brandowanie pod marką własną, opakowania detaliczne do UE, produkcja seryjna, obsługa zamówień powtórnych',
+      keyRequirements: 'Dwa SKU sprawdzone na rynku pod marką dystrybutora, opakowania detaliczne do UE, dopasowanie do okna sezonowego',
+      qualityFocus: 'Dokładność nadruków, kody kreskowe i etykiety dla każdego rynku, kompletność zestawu, szczelność',
+      navLabel: 'Dystrybutor z marką własną',
+      metaTitle: 'Dystrybutor z UE pod marką własną | 1 200 desek w 90 dni — iSupfactory',
+      metaDescription:
+        'Jak europejski dystrybutor wprowadził linię SUP pod własną marką — 1 200 desek w 90 dni, dwa SKU, opakowania detaliczne do UE i powtórne zamówienie w Q4 na tej samej zatwierdzonej specyfikacji.',
+      kicker: 'Projekt marki własnej',
+      h1: 'Jak europejski dystrybutor wprowadził linię SUP pod własną marką — 1 200 desek w 90 dni',
+      intro: [
+        'Europejski dystrybutor chciał mieć własną linię SUP na półce sklepowej na sezon letni — dwa sprawdzone na rynku SKU, kompletne opakowania detaliczne i bez własnych relacji z fabrykami.',
+      ],
+      industry: 'Dystrybutorzy i hurtownie',
+      requirement: '1 200 brandowanych desek w dwóch SKU — 10′6″ allround i 12′6″ touring — z opakowaniami detalicznymi do UE, dostarczonych w ciągu 90 dni.',
+      challenge:
+        'Okno sklepowe w sezonie letnim jest stałe, więc wszystkie 1 200 desek wraz z opakowaniami musiały dotrzeć razem, na czas. Opakowania pod marką własną — kody kreskowe, etykiety, instrukcje — musiały spełniać wymogi detaliczne UE, a dystrybutor nie miał doświadczenia ze współpracą z fabrykami SUP.',
+      solution:
+        'Dwie sprawdzone platformy wybrane pod asortyment, kompletna grafika pod marką własną i opakowania detaliczne do UE obsłużone w jednym programie oraz plan produkcji, dzięki któremu oba SKU trafiły razem w 90-dniowym oknie — ze specyfikacją zatwierdzoną na potrzeby spójnych zamówień powtórnych.',
+      product: 'Nadmuchiwana deska SUP pod marką własną — 10′6″ allround i 12′6″ touring, z brandowanymi wiosłami, pompami, plecakami i zadrukowanymi opakowaniami detalicznymi.',
+      process: [
+        { title: 'Planowanie asortymentu', body: 'Wybrano dwa SKU — 10′6″ allround i 12′6″ touring — pod kątem pokrycia sprzedaży detalicznej.' },
+        { title: 'Akceptacja próbki', body: 'Grafika, opakowanie i wykończenie potwierdzone na fizycznych deskach.' },
+        { title: 'Produkcja w 90 dni', body: 'Wolumen zaplanowany tak, aby oba SKU trafiły razem na czas okna sezonowego.' },
+        { title: 'Zamówienie powtórne w Q4', body: 'Zamówienie powtórne na tej samej zatwierdzonej specyfikacji.' },
+      ],
+      result:
+        'Wszystkie 1 200 desek z kompletnym opakowaniem detalicznym dostarczono w 90 dni, na czas letniego okna sklepowego. Linia została wyprzedana, a dystrybutor wrócił w Q4 z zamówieniem powtórnym na tej samej zatwierdzonej specyfikacji.',
+      outcome: '1 200 desek · 90 dni · 2 SKU · powtórne zamówienie w Q4.',
+      metrics: [
+        { value: '1 200', label: 'desek w jednym uruchomieniu' },
+        { value: '90', label: 'dni do pełnej dostawy' },
+        { value: '2', label: 'SKU detaliczne, oba na czas okna' },
+        { value: 'Q4', label: 'zamówienie powtórne na tej samej specyfikacji' },
+      ],
+      takeaways: [
+        'Start od dwóch sprawdzonych SKU ogranicza ryzyko magazynowe, a jednocześnie wypełnia półkę asortymentem.',
+        'Jeden program obejmujący deski, akcesoria i opakowania usuwa typową pułapkę premiery produktu.',
+        'Stała data sezonowa steruje harmonogramem — plan produkcji musi traktować ją jako nienegotiablejną.',
+        'Zatwierdzenie specyfikacji przy starcie sprawia, że zamówienia powtórne są spójne i przewidywalne.',
+      ],
+      customizations: [
+        'Platformy 10′6″ allround i 12′6″ touring dla asortymentu',
+        'Grafika pod marką własną na pokładzie, dnie i opakowaniu',
+        'Brandowane wiosło, pompa i plecak do każdego SKU',
+        'Zadrukowane opakowania detaliczne, kody kreskowe, etykiety i instrukcja dla sprzedaży detalicznej w UE',
+        'Zatwierdzona lista elementów i specyfikacja na potrzeby spójnych zamówień powtórnych',
+        'Dostawa partiami dopasowana do okna premiery',
+      ],
+      inspectionFocus: [
+        'Dokładność nadruków względem zatwierdzonych plików marki własnej',
+        'Weryfikacja kodów kreskowych, etykiet i instrukcji dla każdego rynku',
+        'Kompletność zestawu w każdym SKU w całej serii 1 200 desek',
+        'Kontrola szczelności podczas produkcji',
+        'Weryfikacja kartonów i opakowań dla każdego SKU',
+      ],
+      confidentiality:
+        'Zgodnie z umową nazwa dystrybutora ani jego odbiorcy detaliczni nie są ujawniani. Projekt prezentujemy anonimowo, aby chronić poufność komercyjną.',
+      tags: ['Marka własna', 'Asortyment z 2 SKU', 'Dostawa w oknie sezonowym'],
+    },
+    {
+      slug: 'resort-sup-fleet',
+      customerType: 'Hotelarstwo i obiekty typu resort',
+      region: 'Europa / Ameryka Północna',
+      productCategory: 'Nadmuchiwana deska SUP allround',
+      projectStage: 'Akceptacja próbki → Produkcja seryjna → Odnowienie floty',
+      manufacturingScope: 'Grafika, akcesoria, opakowanie i produkcja floty',
+      keyRequirements: 'Trwałość do wypożyczalni, kompaktowe przechowywanie, pełne oznakowanie obiektu',
+      qualityFocus: 'Szczelność, dokładność nadruków, kompletność akcesoriów, oznaczenia na kartonach',
+      navLabel: 'Flota SUP dla resortu',
+      metaTitle: 'Flota SUP dla resortu | 100 brandowanych desek — iSupfactory',
+      metaDescription:
+        'Jak resort wyposażył program plażowy w 100 brandowanych desek SUP — dedykowana grafika, konstrukcja klasy wypożyczalniczej i sezonowe zarządzanie flotą.',
+      kicker: 'Projekt resortu',
+      h1: 'Jak resort ujednolicił brandowaną flotę 100 desek SUP',
+      intro: [
+        'Resort chciał, aby program plażowy był częścią obiektu — brandowane deski w jego palecie barw, wystarczająco trwałe do codziennego użytkowania przez gości i łatwe do przechowywania między sezonami.',
+      ],
+      industry: 'Hotelarstwo i obiekty typu resort',
+      requirement: '100 brandowanych desek SUP do wypożyczalni gościom, w palecie barw obiektu.',
+      challenge:
+        'Codzienne wypożyczenia szybko zużywają generyczne floty, a przestrzeń magazynowa poza sezonem jest ograniczona. Resort potrzebował desek, które wytrzymają intensywną eksploatację, można złożyć kompaktowo i które noszą pełne oznakowanie obiektu.',
+      solution:
+        'Konstrukcja nadmuchiwana klasy wypożyczalniczej ze wzmocnionymi płetwami i materiałami odpornymi na UV, grafika na całym pokładzie w kolorach resortu oraz brandowane wiosła i pompy jako element zestawu floty.',
+      product: 'Nadmuchiwana deska SUP na zamówienie — platforma 11′ allround, nadruk marki na pokładzie i akcesoria.',
+      process: [
+        { title: 'Konsultacja floty', body: 'Liczba gości, linia brzegowa i długość sezonu wyznaczyły wielkość floty oraz mix desek.' },
+        { title: 'Brandowana próbka', body: 'Kolory i logo zatwierdzono na fizycznej desce przed produkcją.' },
+        { title: 'Produkcja i kontrola jakości', body: 'Wyprodukowano 100 desek z kontrolą jakości w kilku punktach w całej serii.' },
+        { title: 'Dostawa i odnowienie', body: 'Dostawa sezonowa, części zamienne i program odnowienia na kolejne sezony.' },
+      ],
+      result:
+        'Flota wystartowała na czas sezonu, deski przechowuje się w jednym pomieszczeniu poza sezonem, a zainteresowanie gości brandowanym sprzętem sprawiło, że w następnym roku flotę powiększono.',
+      outcome: 'Premiera na czas, 100% brandowana flota, powiększenie w kolejnym sezonie.',
+      customizations: [
+        'Platforma, rozmiar i konstrukcja deski dobrane do codziennego wypożyczenia',
+        'Grafika na całym pokładzie w palecie barw obiektu',
+        'Umiejscowienie płetwy i logo zatwierdzone na fizycznej próbce',
+        'Brandowane wiosło, pompa i zestaw akcesoriów do każdej deski',
+        'Numeracja floty i kodowanie kolorystyczne w całej serii',
+        'Kompaktowe przechowywanie i sezonowe odnowienie floty',
+      ],
+      inspectionFocus: [
+        'Napompowanie i szczelność każdej deski',
+        'Stan zaworów i wzmocnionych płetw',
+        'Dokładność nadruków i zgodność kolorów z zatwierdzoną próbką',
+        'Kompletność akcesoriów i zestawu do każdej deski',
+        'Oznaczenia na kartonach i etykiety floty przed zatwierdzeniem dostawy',
+      ],
+      confidentiality:
+        'Zgodnie z umową nazwa resortu ani jego zasoby markowe nie są ujawniane. Projekt prezentujemy anonimowo, aby chronić poufność komercyjną.',
+      tags: ['Brandowana flota dla gości', 'Konstrukcja klasy wypożyczalniczej', 'Sezonowe odnowienie'],
+    },
+    {
+      slug: 'private-label-launch',
+      customerType: 'Marki detaliczne i outdoorowe',
+      region: 'Europa',
+      productCategory: 'Nadmuchiwana deska SUP allround (marka własna)',
+      projectStage: 'Akceptacja próbki → Seria pilotażowa → Skalowanie',
+      manufacturingScope: 'Grafika produktu i opakowań, próby, produkcja, zabezpieczenie narzędzi',
+      keyRequirements: 'Sprzedawalna linia bez własnego zespołu projektowego SUP ani własnej produkcji',
+      qualityFocus: 'Kontrola wersji nadruków, dokładność opakowań, kompletność zestawu',
+      navLabel: 'Premiera marki własnej',
+      metaTitle: 'Premiera SUP pod marką własną | Rozbudowa marki — iSupfactory',
+      metaDescription:
+        'Jak istniejąca marka outdoorowa weszła w SUP z własną linią produktów — od logo do pierwszego kontenera, ze skalowalnym MOQ.',
+      kicker: 'Projekt marki własnej',
+      h1: 'Jak marka outdoorowa wprowadziła linię SUP pod własną marką — od logo do pierwszego kontenera',
+      intro: [
+        'Sklep sportowy z ugruntowaną marką chciał wejść w sporty wodne bez budowania własnej produkcji — sprzedawalną linię SUP pod własną nazwą.',
+      ],
+      industry: 'Marki detaliczne i outdoorowe',
+      requirement: 'Linia SUP pod marką własnej — logo, kolory i opakowanie na sprawdzonych platformach, pierwsza seria 50 szt.',
+      challenge:
+        'Brak wewnętrznego zespołu projektowego SUP, brak doświadczenia produkcyjnego i pierwsze zamówienie na tyle małe, by sprawdzić rynek przed skalowaniem.',
+      solution:
+        'Kompletna grafika produktu i opakowań opracowana na bazie materiałów marki, seria pilotażowa 50 szt, a następnie skalowanie na tych samych zweryfikowanych platformach, z narzędziami pozostawionymi w gestii marki.',
+      product: 'Nadmuchiwana deska SUP pod marką własną — brandowany pokład, wiosło, pompa, plecak i zadrukowane kartony.',
+      process: [
+        { title: 'Praca nad marką', body: 'Logo, kolory i wytyczne marki przekładano na grafikę desek i opakowań.' },
+        { title: 'Akceptacja próbki', body: 'Fizyczna próbka potwierdziła wykończenie, kolory i opakowanie.' },
+        { title: 'Seria pilotażowa', body: 'Pierwsza seria 50 szt została wyprzedana przed skalowaniem.' },
+        { title: 'Skalowanie', body: 'Produkcja w zamówieniach kontenerowych ze stałą jakością; projekt pozostaje własnością marki.' },
+      ],
+      result:
+        'Linia została wyprzedana w trakcie serii pilotażowej w ciągu jednego sezonu i przeskalowana do zamówienia kontenerowego — marka zachowała prawa do całego projektu i narzędzi.',
+      outcome: 'Zweryfikowana w jednym sezonie, przeskalowana do zamówień kontenerowych.',
+      customizations: [
+        'Platformy, rozmiary i kolory desek dopasowane do linii marki',
+        'Grafika pokładu, dna i opakowań opracowana z materiałów marki',
+        'Brandowane wiosło, pompa, plecak i zestaw akcesoriów',
+        'Zadrukowane opakowania detaliczne i projekt etykiety',
+        'Wersja kodu kreskowego i instrukcji dla rynku docelowego',
+        'Narzędzia i prawa do projektu pozostawione w gestii marki',
+      ],
+      inspectionFocus: [
+        'Zgodność wersji nadruków z zatwierdzonymi plikami',
+        'Dokładność kolorów i wykończenia na fizycznej próbce',
+        'Weryfikacja opakowań, kodu kreskowego i instrukcji',
+        'Kompletność zestawów w całej serii pilotażowej',
+        'Kontrola szczelności podczas produkcji',
+      ],
+      confidentiality:
+        'Zgodnie z umową nazwa marki ani szczegóły komercyjne nie są ujawniane. Projekt prezentujemy anonimowo, aby chronić poufność komercyjną.',
+      tags: ['Rozbudowa marki', 'Projekt opakowania', 'Skalowalne MOQ'],
+    },
+    {
+      slug: 'club-team-boards',
+      customerType: 'Kluby SUP i drużyny',
+      region: 'Ameryka Północna',
+      productCategory: 'Nadmuchiwana deska SUP do treningu',
+      projectStage: 'Akceptacja próbki → Produkcja floty → Zamówienie uzupełniające',
+      manufacturingScope: 'Brandowanie klubowe, produkcja floty, wsparcie w częściach zamiennych',
+      keyRequirements: 'Jednolity profil drużyny, napięty budżet, identyczne przyszłe zamówienie uzupełniające',
+      qualityFocus: 'Dokładność nadruków, szczelność, kompletność zestawu, spójność przy zamówieniach powtórnych',
+      navLabel: 'Deski klubowej drużyny',
+      metaTitle: 'Deski SUP klubowej drużyny | Odnowienie floty marki — iSupfactory',
+      metaDescription:
+        'Jak klub sportów wodnych wprowadził nowy profil i odnowił flotę 25 brandowanych desek treningowych — grafika klubowa, wsparcie w częściach i równe jakościowo zamówienia powtórne.',
+      kicker: 'Projekt klubu',
+      h1: 'Jak klub sportów wodnych wprowadził nowy profil floty treningowej z 25 desek',
+      intro: [
+        'Klub sportów wodnych wprowadzał nowy profil i potrzebował dopasowanego sprzętu — jednolitej floty drużynowej do treningu i regat, bez zróżnicowanych zapasów.',
+      ],
+      industry: 'Kluby SUP i drużyny',
+      requirement: '25 brandowanych desek treningowych z nazwą klubu, kolorami i logo, plus części zamienne.',
+      challenge:
+        'Dotychczasowa flota była zróżnicowana i niebrandowana; budżety były napięte, a przyszłe zamówienie uzupełniające wymagało identycznie pasujących zapasów.',
+      solution:
+        'Brandowanie klubowe na każdej desce, cena flotowa dla wolumenu oraz części zamienne i instrukcja napraw, aby przedłużyć żywotność desek.',
+      product: 'Deska SUP drużyny na zamówienie — kształt treningowy z grafiką klubu, zapasowa płetwa i zestaw naprawczy.',
+      process: [
+        { title: 'Rozpoznanie klubu', body: 'Przejrzano liczebność, rodzaje zajęć i istniejący sprzęt.' },
+        { title: 'Wybór desek', body: 'Kształty treningowe i dla początkujących dopasowane do programu klubu.' },
+        { title: 'Brandowanie', body: 'Nazwa klubu, kolory i logo nadrukowane na całej flocie.' },
+        { title: 'Dostawa i rozbudowa', body: 'Flota dostarczona z częściami; identyczne zamówienie powtórne na rozbudowę.' },
+      ],
+      result:
+        'Zawodnicy trenują na dopasowanym brandowanym sprzęcie, a klub rozbudował flotę w kolejnym sezonie identycznym zamówieniem powtórnym w tej samej jakości.',
+      outcome: 'Jednolita flota, identyczne zamówienie uzupełniające.',
+      customizations: [
+        'Platformy treningowe i dla początkujących dopasowane do programu klubu',
+        'Nazwa klubu, kolory i logo nadrukowane na całej flocie',
+        'Numeracja desek i grupowanie rozmiarów według grup treningowych',
+        'Zapasowa płetwa i zestaw naprawczy jako wyposażenie floty',
+        'Zatwierdzona specyfikacja zamówienia powtórnego na przyszłą rozbudowę',
+      ],
+      inspectionFocus: [
+        'Dokładność nadruków nazwy klubu, kolorów i logo',
+        'Weryfikacja napompowania i szczelności',
+        'Kompletność akcesoriów i zestawu naprawczego',
+        'Spójność kolorów w całej serii 25 desek',
+      ],
+      confidentiality:
+        'Zgodnie z umową nazwa klubu ani jego lokalizacja nie są ujawniane. Projekt prezentujemy anonimowo, aby chronić poufność komercyjną.',
+      tags: ['Brandowanie klubowe', 'Cena flotowa', 'Wsparcie w częściach'],
+    },
+    {
+      slug: 'school-program-fleet',
+      customerType: 'Edukacja i programy dla młodzieży',
+      region: 'Europa',
+      productCategory: 'Nadmuchiwana deska SUP dla początkujących i do użytku kilkuosobowego',
+      projectStage: 'Analiza programu → Akceptacja próbki → Dostawa floty',
+      manufacturingScope: 'Projekt zestawów, produkcja, części zamienne i wsparcie przy odnowieniu',
+      keyRequirements: 'Sprzęt ukierunkowany na bezpieczeństwo, ilość dopasowana do wielkości klas, ograniczona obsługa przez personel',
+      qualityFocus: 'Stabilność, szczelność, kompletność akcesoriów, instrukcja użytkowania',
+      navLabel: 'Flota szkolna',
+      metaTitle: 'Szkolny program SUP | Flota dla początkujących — iSupfactory',
+      metaDescription:
+        'Jak szkoła wprowadziła przedmiot fakultatywny z sportów wodnych z flotą 15 desek dla początkujących i desek wieluosobowych — sprzęt ukierunkowany na bezpieczeństwo do nauczania.',
+      kicker: 'Projekt szkolny',
+      h1: 'Jak szkoła wprowadziła flotę 15 desek dla początkujących do nauczania sportów wodnych',
+      intro: [
+        'Szkoła wprowadzająca fakultatywny sport wodny potrzebowała sprzętu stabilnego i bezpiecznego dla początkujących, dopasowanego do wielkości klas i łatwego w obsłudze przy ograniczonej liczbie pracowników.',
+      ],
+      industry: 'Edukacja i programy dla młodzieży',
+      requirement: 'Flota dla początkujących na liczebność klas, w tym deski wieluosobowe na pierwsze zajęcia.',
+      challenge:
+        'Mieszane poziomy zaawansowania, rygorystyczne wymagania bezpieczeństwa, cykle zakupowe szkoły i budżet, który musiał pokryć przyszłe nabory.',
+      solution:
+        'Szerokie deski dla początkujących o dużej objętości wody oraz deski wieluosobowe, ceny programowe dopasowane do liczby klas i jednoznaczna instrukcja użytkowania dla instruktorów.',
+      product: 'Flota SUP dla początkujących — stabilne platformy o wzmocnionej konstrukcji, na długą żywotność w programie.',
+      process: [
+        { title: 'Analiza programu', body: 'Wielkość klas, akwen i obsada instruktorska wyznaczyły zestaw.' },
+        { title: 'Budowa zestawu', body: 'Rodzaje desek i ilości dopasowane do nauczania.' },
+        { title: 'Akceptacja próbki', body: 'Stabilność i konstrukcja zweryfikowane na fizycznej desce.' },
+        { title: 'Dostawa i odnowienie', body: 'Dostawa hurtowa, części zamienne i zamówienia powtórne na nowe nabory.' },
+      ],
+      result:
+        'Instruktorzy odnotowali szybsze postępy na pierwszych zajęciach na stabilnych platformach, a program odnowił sprzęt identycznym zamówieniem powtórnym w kolejnym roku.',
+      outcome: 'Szybsza krzywa uczenia, odnowiony sprzęt w kolejnym roku.',
+      customizations: [
+        'Szerokie platformy dla początkujących o dużej objętości na pierwsze zajęcia',
+        'Deski wieluosobowe do zajęć grupowych',
+        'Rozmiar desek i ilości dopasowane do wielkości klas',
+        'Jednoznaczna instrukcja użytkowania i etykiety instrukcyjne',
+        'Wzmocniona konstrukcja na długą żywotność w programie',
+        'Specyfikacja dostaw hurtowych i zamówień odnowienia',
+      ],
+      inspectionFocus: [
+        'Weryfikacja stabilności i konfiguracji pokładu',
+        'Napompowanie i szczelność każdej deski',
+        'Kompletność akcesoriów do każdej deski i zestawu klasowego',
+        'Instrukcja użytkowania i poprawne oznaczenia',
+        'Oznaczenia na kartonach i kontrola opakowań zestawów klasowych',
+      ],
+      confidentiality:
+        'Zgodnie z umową nazwa szkoły ani region nie są ujawniane. Projekt prezentujemy anonimowo, aby chronić poufność komercyjną.',
+      tags: ['Flota dla początkujących', 'Premiera programu', 'Zamówienia odnowienia'],
+    },
+    {
+      slug: 'distributor-line-expansion',
+      customerType: 'Dystrybutorzy i hurtownie',
+      region: 'Dwa regiony eksportowe',
+      productCategory: 'Nadmuchiwana deska SUP klasy średniej (6 SKU)',
+      projectStage: 'Planowanie asortymentu → Akceptacja próbki → Dostawa na wiele rynków',
+      manufacturingScope: 'Deski, akcesoria i opakowania detaliczne w jednym programie',
+      keyRequirements: 'Jedna osoba odpowiedzialna za jakość, spójne oznakowanie, mniejsze stany magazynowe na SKU',
+      qualityFocus: 'Szczelność, dokładność nadruków, dokładność kodów kreskowych i etykiet, zgodność BOM',
+      navLabel: 'Rozbudowa linii dystrybutora',
+      metaTitle: 'Rozbudowa linii SUP dystrybutora | Program 6 SKU — iSupfactory',
+      metaDescription:
+        'Jak dystrybutor sprzętu sportów wodnych dodał kompletną linię SUP klasy średniej w sześciu SKU — jedna fabryka, jeden program, eksport na wiele rynków.',
+      kicker: 'Projekt dystrybutora',
+      h1: 'Jak dystrybutor wprowadził linię SUP z 6 SKU na dwa rynki',
+      intro: [
+        'Dystrybutor sportów wodnych sprzedający kajaki i akcesoria chciał mieć własną linię nadmuchiwanych desek SUP — nie dzieląc dostaw na kilka fabryk desek, wioset i pomp.',
+      ],
+      industry: 'Dystrybutorzy i hurtownie',
+      requirement: 'Linia SUP klasy średniej w sześciu SKU (od 10′6″ do 12′6″ plus zestawy akcesoriów), z eksportem do dwóch regionów.',
+      challenge:
+        'Osobne fabryki desek, wioset i pomp oznaczały niespójne oznakowanie, trzy różne punkty dostawy i brak jednej osoby odpowiedzialnej za reklamacje gwarancyjne.',
+      solution:
+        'Jeden program obejmujący deski, akcesoria i opakowania detaliczne; wspólne zestawy akcesoriów, aby zmniejszyć stany magazynowe na SKU; oraz warianty dostawy dopasowane do specyfiki każdego rynku.',
+      product: 'Sześć brandowanych SKU detalicznych — platformy nadmuchiwanych desek SUP z pełnymi zestawami w zadrukowanych kartonach.',
+      process: [
+        { title: 'Planowanie asortymentu', body: 'Luki rynkowe i progi cenowe wyznaczyły sześć SKU i zawartość pakietów.' },
+        { title: 'Spójne oznakowanie', body: 'Jeden system projektowy na deskach, wiosłach, pompach i kartonach.' },
+        { title: 'Cena programowa', body: 'Cena wolumenowa dla całego programu, a nie dla każdego SKU.' },
+        { title: 'Dostawa na wiele rynków', body: 'Standardowe warunki eksportowe dla rynku krajowego i pełna obsługa dla drugiego rynku.' },
+      ],
+      result:
+        'Linia została wprowadzona na obu rynkach w ciągu jednego sezonu; wspólne zestawy akcesoriów zmniejszyły stan magazynowy przy odbiorze, a reklamacje gwarancyjne obsługiwał jeden kontakt w fabryce.',
+      outcome: 'Premiera na wielu rynkach w ciągu jednego sezonu, mniejszy stan magazynowy, jedno miejsce zgłaszania reklamacji.',
+      customizations: [
+        'Sześć SKU od 10′6″ do 12′6″ plus pakiety akcesoriów',
+        'Jeden system projektowy na deskach, wiosłach, pompach i kartonach',
+        'Wspólne zestawy akcesoriów, aby zmniejszyć stan magazynowy na SKU',
+        'Pełne zestawy w zadrukowanych opakowaniach detalicznych',
+        'Wersje kodów kreskowych, etykiet i instrukcji dla każdego rynku docelowego',
+        'Warunki dostawy i konfiguracja opakowań dopasowane do każdego rynku',
+      ],
+      inspectionFocus: [
+        'Zgodność BOM dla każdej konfiguracji SKU',
+        'Dokładność nadruków i oznakowania w sześciu SKU',
+        'Dokładność kodów kreskowych i etykiet dla każdego rynku',
+        'Kompletność zestawów akcesoriów i pakowanie',
+        'Weryfikacja szczelności w całej serii',
+      ],
+      confidentiality:
+        'Zgodnie z umową nazwa dystrybutora ani lista klientów nie są ujawniane. Projekt prezentujemy anonimowo, aby chronić poufność komercyjną.',
+      tags: ['Program wielu SKU', 'Kompletne zestawy detaliczne'],
+    },
+    {
+      slug: 'startup-brand-zero-to-one',
+      customerType: 'Startupy w branży SUP',
+      region: 'Ameryka Północna',
+      productCategory: 'Nadmuchiwana deska SUP allround ODM',
+      projectStage: 'Koncept → Seria próbna → Zamówienie premierowe',
+      manufacturingScope: 'Rozwój ODM, grafika, opakowania, produkcja',
+      keyRequirements: 'Pierwsza seria przy niskim MOQ, dopasowanie do daty premiery, narzędzia pozostawione w gestii marki',
+      qualityFocus: 'Szczelność, dokładność nadruków, weryfikacja opakowań',
+      navLabel: 'Premiera startupu 0→1',
+      metaTitle: 'Premiera marki SUP startupu | Od konceptu do pierwszej serii — iSupfactory',
+      metaDescription:
+        'Jak startup z branży SUP przeszedł od konceptu do wyprzedanej pierwszej serii — rozwój ODM, seria próbna 10 desek, a następnie brandowane zamówienie premierowe na 200 desek.',
+      kicker: 'Projekt startupu',
+      h1: 'Od konceptu do wyprzedanej premiery 200 desek dla marki SUP startupu',
+      intro: [
+        'Dwóch założycieli z publicznością, ale bez fabryki, chciało sprzedawać własne deski SUP — deskę ODM opracowaną według ich specyfikacji, z zamówieniem premierowym, które ich nie zrujnuje.',
+      ],
+      industry: 'Startupy w branży SUP',
+      requirement: 'Rozwój ODM przy niskim MOQ: seria próbna 10 szt do walidacji, następnie 200 szt na premierę.',
+      challenge:
+        'Brak zespołu projektowego, brak doświadczenia w imporcie i pierwsze zamówienie zbyt małe dla większości fabryk — plus data premiery związana z sezonem na północnej półkuli.',
+      solution:
+        'Rozwój ODM na sprawdzonej platformie na podstawie ich konceptu, seria próbna 10 szt obejmująca próbki i weryfikację dostawy, a następnie brandowane zamówienie premierowe na 200 szt z narzędziami pozostawionymi w gestii marki.',
+      product: 'Brandowana nadmuchiwana deska SUP ODM — indywidualny nadruk na pokładzie, opakowanie i kartony w rozmiarze gotowym dla sklepu.',
+      process: [
+        { title: 'Rozmowa o koncepcie', body: 'Docelowy użytkownik, próg cenowy i data premiery wyznaczyły platformę bazową.' },
+        { title: 'Seria próbna', body: '10 szt sprawdziło produkt i opakowanie od początku do końca.' },
+        { title: 'Zamówienie premierowe', body: 'Wyprodukowano 200 szt ze zweryfikowanymi nadrukami i specyfikacją kartonu.' },
+        { title: 'Ścieżka skalowania', body: 'Narzędzia pozostawione w gestii marki; zamówienia powtórne w lepszych cenach.' },
+      ],
+      result:
+        'Pierwsza seria została wyprzedana w ciągu kilku tygodni od startu sezonu; uwagi z serii próbnej pozwoliły poprawić opakowanie przed uruchomieniem dużego zamówienia.',
+      outcome: 'Wyprzedana seria premierowa, opakowanie poprawione przed skalowaniem, gotowa ścieżka zamówień powtórnych.',
+      customizations: [
+        'Deska ODM opracowana na sprawdzonej platformie na podstawie konceptu marki',
+        'Indywidualny nadruk na pokładzie i brandowane opakowanie',
+        'Kartony w rozmiarze gotowym dla sklepu na zamówienie premierowe',
+        'Zestawy akcesoriów i konfiguracja zestawu dopasowana do docelowego użytkownika',
+        'Narzędzia i nadruki pozostawione w gestii marki',
+        'Plan produkcji dopasowany do daty premiery',
+      ],
+      inspectionFocus: [
+        'Dokładność nadruków względem zatwierdzonych plików',
+        'Weryfikacja szczelności w serii próbnej i przy zamówieniu premierowym',
+        'Weryfikacja opakowań i kartonów — w tym poprawka z serii próbnej',
+        'Kompletność akcesoriów i zestawu',
+      ],
+      confidentiality:
+        'Zgodnie z umową nazwa marki ani szczegóły premiery nie są ujawniane. Projekt prezentujemy anonimowo, aby chronić poufność komercyjną.',
+      tags: ['Rozwój ODM', 'Seria próbna przy niskim MOQ', 'Planowanie sezonowe'],
+    },
+    {
+      slug: 'rental-fleet-multi-site',
+      customerType: 'Operatorzy flot wypożyczalni',
+      region: 'Ameryka Północna',
+      productCategory: 'Nadmuchiwana deska SUP klasy wypożyczalniczej, allround',
+      projectStage: 'Przegląd floty → Standaryzowana produkcja → Sezonowe odnowienie',
+      manufacturingScope: 'Specyfikacja floty, produkcja, pakiety części zamiennych, program odnowienia',
+      keyRequirements: 'Jedna jednolita deska we wszystkich lokalizacjach, trwałość przy eksploatacji wypożyczalniczej',
+      qualityFocus: 'Weryfikacja wzmocnionej konstrukcji, szczelność, kompletność zestawu',
+      navLabel: 'Flota wypożyczalni w wielu lokalizacjach',
+      metaTitle: 'Rozbudowa floty wypożyczalni | 200 desek, 3 lokalizacje — iSupfactory',
+      metaDescription:
+        'Jak operator wypożyczalni w wielu lokalizacjach zastąpił zróżnicowane zapasy 200 jednolitymi deskami w trzech miejscach — cena flotowa, sezonowe odnowienie i zaopatrzenie w części.',
+      kicker: 'Projekt wypożyczalni',
+      h1: 'Standaryzacja floty wypożyczalni z 200 desek w trzech lokalizacjach',
+      intro: [
+        'Operator wypożyczalni z trzema lokalizacjami nad wodą potrzebował jednolitej floty zamiast zróżnicowanych zapasów — tej samej deski we wszystkich lokalizacjach, w cenie flotowej.',
+      ],
+      industry: 'Operatorzy flot wypożyczalni',
+      requirement: '200 desek klasy wypożyczalniczej w trzech lokalizacjach, z sezonowym odnowieniem i częściami, które można naprawić w terenie.',
+      challenge:
+        'Zróżnicowane, starzejące się zapasy komplikowały naprawy i wycenę; eksploatacja wypożyczalnicza wymaga wzmocnionej konstrukcji, a przechowywanie poza sezonem jest rozproszone na trzy lokalizacje.',
+      solution:
+        'Jedna platforma wypożyczalnicza we wszystkich lokalizacjach ze wzmocnionymi płetwami i materiałami odpornymi na UV, cena flotowa dla wolumenu 200 desek i pakiet części zamiennych z instrukcją napraw dla każdej lokalizacji.',
+      product: 'Nadmuchiwana deska SUP klasy wypożyczalniczej — platforma 11′ allround o wzmocnionej konstrukcji z zestawem naprawczym.',
+      process: [
+        { title: 'Przegląd floty', body: 'Wolumen w lokalizacjach i dane o wykorzystaniu wyznaczyły podział między lokalizacje.' },
+        { title: 'Jednolita specyfikacja', body: 'Jedna deska wszędzie — prostsze naprawy, wycena i szkolenie.' },
+        { title: 'Cena flotowa', body: 'Rabat wolumenowy na łączne zamówienie 200 desek.' },
+        { title: 'Części i odnowienie', body: 'Pakiet części dla każdej lokalizacji plus ustalony cykl sezonowej wymiany.' },
+      ],
+      result:
+        'Jednolita flota ograniczyła bałagan w naprawach w każdej lokalizacji, łączne zamówienie odblokowało cenę flotową, a program 200 desek stał się standardem sezonowego odnowienia.',
+      outcome: 'Jednolita eksploatacja, niższy koszt jednostkowy, powtarzalny cykl sezonowy.',
+      customizations: [
+        'Jedna platforma wypożyczalnicza we wszystkich trzech lokalizacjach',
+        'Wzmocnione płetwy i materiały odporne na UV na eksploatację wypożyczalniczą',
+        'Podział na lokalizacje i numeracja floty dla każdego miejsca',
+        'Pakiet części zamiennych z instrukcją napraw dla każdej lokalizacji',
+        'Ustalony cykl sezonowej wymiany',
+      ],
+      inspectionFocus: [
+        'Weryfikacja wzmocnionej konstrukcji każdej deski',
+        'Napompowanie i szczelność każdej deski',
+        'Kompletność akcesoriów i zestawu naprawczego dla każdej lokalizacji',
+        'Numeracja floty i poprawne oznakowanie dla każdej lokalizacji',
+        'Kontrola pakunków przy dostawach do wielu lokalizacji',
+      ],
+      confidentiality:
+        'Zgodnie z umową nazwa operatora ani jego lokalizacje nie są ujawniane. Projekt prezentujemy anonimowo, aby chronić poufność komercyjną.',
+      tags: ['Flota w wielu lokalizacjach', 'Konstrukcja klasy wypożyczalniczej', 'Sezonowe odnowienie'],
+    },
+    {
+      slug: 'touring-sup-range',
+      customerType: 'Dystrybutorzy outdoorowi i sportów wodnych',
+      region: 'Europa',
+      productCategory: 'Nadmuchiwana deska SUP touring',
+      projectStage: 'Brief produktowy → Akceptacja próbki → Produkcja seryjna',
+      manufacturingScope: 'Przegląd platformy, grafika, konfiguracja akcesoriów, opakowania detaliczne i produkcja',
+      keyRequirements: 'Właściwości touringowe, grafika dopasowana do projektu, kompletny zestaw detaliczny',
+      qualityFocus: 'Szczelność, dokładność nadruków, kompletność akcesoriów, oznaczenia na kartonach',
+      navLabel: 'Linia SUP touring',
+      metaTitle: 'Rozwój linii SUP touring | Dystrybutor outdoorowy — iSupfactory',
+      metaDescription:
+        'Jak iSupfactory wspierał europejskiego dystrybutora outdoorowego w budowie linii SUP touring — przegląd platformy, grafika dopasowana do projektu, konfiguracja akcesoriów i opakowania detaliczne.',
+      kicker: 'Projekt touring',
+      h1: 'Rozwój linii SUP touring dla europejskiego dystrybutora outdoorowego',
+      intro: [
+        'Indywidualny projekt nadmuchiwanej deski SUP obejmujący przegląd platformy, grafikę dopasowaną do projektu, konfigurację akcesoriów, opakowania detaliczne i planowanie jakości — od akceptacji próbki po przygotowanie dostawy.',
+      ],
+      industry: 'Dystrybutorzy i hurtownie',
+      requirement: 'Linia SUP touring z grafiką dopasowaną do projektu, konfiguracją akcesoriów i opakowaniami detalicznymi, prowadzona od akceptacji próbki do dostawy.',
+      challenge:
+        'Wioślarze touringowi oczekują stabilności przy dużych prędkościach i przewidywalnego ślizgu, więc platforma, wymiary i objętość musiały zostać ocenione przed produkcją. Grafika musiała być dopasowana wokół płetw, EVA i zaworów, a każdy zestaw detaliczny musiał być kompletny w obrębie całej linii.',
+      solution:
+        'Przegląd platformy i wymiarów pod kątem właściwości touringowych, grafika dopasowana do projektu i funkcji deski, konfiguracja akcesoriów obejmująca wiosło, smycz i plecak, planowanie opakowań detalicznych oraz kontrolowana produkcja seryjna z ustalonymi punktami kontroli jakości.',
+      product: 'Linia SUP touring — platforma o wysokich właściwościach, grafika na zamówienie, kompletny zestaw akcesoriów i opakowanie gotowe do sklepu.',
+      process: [
+        { title: 'Przegląd platformy', body: 'Wymiary, objętość i profil płetwy dopasowane do docelowego użytkownika i rynku.' },
+        { title: 'Specyfikacja i grafika', body: 'Przygotowano specyfikację techniczną, dopasowanie nadruków i zatwierdzony przez klienta BOM.' },
+        { title: 'Akceptacja próbki', body: 'Konstrukcja, grafika i zestaw potwierdzone na fizycznej desce.' },
+        { title: 'Produkcja i inspekcja', body: 'Produkcja seryjna z punktami kontroli jakości, weryfikacją opakowań i zatwierdzeniem dostawy.' },
+      ],
+      result:
+        'Linia przeszła od akceptacji próbki do przygotowania dostawy przy kontrolowanej dokumentacji produktu, nadruków, BOM i opakowań — zatwierdzona próba służyła jako wzorzec dla produkcji i inspekcji końcowej.',
+      outcome: 'Kontrolowana ścieżka od próbki do produkcji; grafika i opakowanie zatwierdzone przed startem.',
+      customizations: [
+        'Platforma, wymiary i objętość w wersji touringowej',
+        'Grafika na pokładzie, dnie i płetwach dopasowana do projektu',
+        'Kształt podkładki EVA i konfiguracja kolorów',
+        'System płetw, rozmieszczenie gumek i zestaw akcesoriów',
+        'Brandowany plecak, wersja instrukcji i opakowania detaliczne',
+        'Oznaczenia na kartonach i wymagania dotyczące kodów kreskowych dla rynku docelowego',
+      ],
+      inspectionFocus: [
+        'Weryfikacja napompowania i szczelności',
+        'Inspekcja zaworów, płetw i szwów',
+        'Dokładność nadruków względem zatwierdzonych plików',
+        'Kompletność akcesoriów i zestawu',
+        'Weryfikacja opakowań detalicznych, kodu kreskowego i oznaczeń na kartonach',
+      ],
+      confidentiality:
+        'Zgodnie z umową nazwa dystrybutora ani lista klientów nie są ujawniane. Projekt prezentujemy anonimowo, aby chronić poufność komercyjną.',
+      tags: ['Linia SUP touring', 'Grafika na zamówienie', 'Opakowania detaliczne'],
+    },
+    {
+      slug: 'fishing-sup-program',
+      customerType: 'Dystrybutorzy outdoorowi',
+      region: 'Ameryka Północna',
+      productCategory: 'Nadmuchiwana deska SUP do wędkowania',
+      projectStage: 'Analiza konceptu → Akceptacja próbki → Produkcja programowa',
+      manufacturingScope: 'Konfiguracja platformy, zestaw akcesoriów, opakowanie i produkcja',
+      keyRequirements: 'Miejsce na akcesoria wędkarskie, stabilna platforma, uporządkowany zestaw',
+      qualityFocus: 'Szczelność, mocowanie akcesoriów, dokładność nadruków, kompletność zestawu',
+      navLabel: 'Program SUP do wędkowania',
+      metaTitle: 'Rozwój SUP do wędkowania | Zestaw akcesoriów i kompletów — iSupfactory',
+      metaDescription:
+        'Jak iSupfactory opracował konfigurację deski SUP do wędkowania dla dystrybutora outdoorowego — zestaw akcesoriów, uporządkowany komplet i opakowanie gotowe do sklepu w jednym kontrolowanym programie.',
+      kicker: 'Projekt wędkarski',
+      h1: 'Rozwój deski SUP do wędkowania dla dystrybutora outdoorowego — zestaw akcesoriów i kompletów',
+      intro: [
+        'Projekt deski SUP przeznaczonej do wędkowania: stabilna platforma wyposażona w strefy na akcesoria, uporządkowany zestaw i opakowanie gotowe do sklepu — od analizy konceptu do produkcji programowej.',
+      ],
+      industry: 'Marki detaliczne i outdoorowe',
+      requirement: 'Konfiguracja deski SUP do wędkowania z mocowaniem akcesoriów, uporządkowanym zestawem i opakowaniami detalicznymi, od analizy konceptu do produkcji programowej.',
+      challenge:
+        'Deski wędkarskie wymagają mocowania akcesoriów — uchwytów na wędki, D-ringów i stref bokserskich — bez kompromisów na rzecz stabilności. Zestaw musiał pozostać uporządkowany na pokładzie, a opakowanie jasno prezentować kategorię w sprzedaży detalicznej.',
+      solution:
+        'Szeroka, stabilna platforma z wyznaczonymi strefami na akcesoria, rozmieszczeniem D-ringów i gumek na sprzęt wędkarski, uporządkowany zestaw z zestawem naprawczym oraz opakowania detaliczne opracowane w jednym kontrolowanym programie.',
+      product: 'Nadmuchiwana deska SUP do wędkowania — stabilna platforma ze strefami na akcesoria wędkarskie, uporządkowany zestaw i opakowanie gotowe do sklepu.',
+      process: [
+        { title: 'Analiza konceptu', body: 'Zamierzone zastosowanie, zabierany sprzęt i sposób złożenia zestawu wyznaczyły konfigurację.' },
+        { title: 'Zestaw akcesoriów', body: 'D-rinki, gumki i strefy magazynowe rozmieszczone na pokładzie.' },
+        { title: 'Akceptacja próbki', body: 'Stabilność i mocowanie akcesoriów zweryfikowane na fizycznej desce.' },
+        { title: 'Produkcja programowa', body: 'Ustalone punkty kontroli jakości, weryfikacja zestawu i zatwierdzenie dostawy.' },
+      ],
+      result:
+        'Konfiguracja została potwierdzona na zatwierdzonej próbce — mocowanie akcesoriów, skład zestawu i opakowanie zostały dopasowane przed produkcją — a program dostarczono z zweryfikowanymi zestawami.',
+      outcome: 'Zestaw akcesoriów i komplet zatwierdzone na etapie próbki; dostarczone zweryfikowane zestawy.',
+      customizations: [
+        'Szeroka stabilna platforma ze strefami na akcesoria wędkarskie',
+        'Uchwyty na wędki, D-rinki i rozmieszczenie gumek',
+        'Układ pokładu pod pudełka i terminale',
+        'Dobór wiosła, płetwy i smyczy do wędkowania',
+        'Uporządkowany pakiet akcesoriów i zestaw naprawczy',
+        'Opakowania detaliczne dla kategorii wędkarskiej',
+        'Kod kreskowy i oznaczenia na kartonach dla rynku docelowego',
+      ],
+      inspectionFocus: [
+        'Weryfikacja mocowania akcesoriów i rozmieszczenia D-ringów',
+        'Weryfikacja napompowania i szczelności',
+        'Dokładność nadruków i poprawny układ pokładu',
+        'Kompletność zestawu i konfiguracja akcesoriów',
+        'Weryfikacja opakowań detalicznych i oznaczeń na kartonach',
+      ],
+      confidentiality:
+        'Zgodnie z umową nazwa dystrybutora ani szczegóły kanału sprzedaży nie są ujawniane. Projekt prezentujemy anonimowo, aby chronić poufność komercyjną.',
+      tags: ['Konfiguracja wędkarska', 'Zestaw akcesoriów', 'Uporządkowany zestaw'],
+    },
+    {
+      slug: 'yoga-sup-program',
+      customerType: 'Szkoły i programy sportów wodnych',
+      region: 'Europa',
+      productCategory: 'Nadmuchiwana deska SUP do jogi',
+      projectStage: 'Analiza programu → Akceptacja próbki → Dostawa floty',
+      manufacturingScope: 'Konfiguracja stabilnej platformy, pokrycie pokładu EVA, produkcja i opakowanie programu',
+      keyRequirements: 'Stabilność do ćwiczeń grupowych, pełne pokrycie pokładu EVA, jednolita flota',
+      qualityFocus: 'Pokrycie pokładu, szczelność, dokładność nadruków, kompletność zestawu',
+      navLabel: 'Program SUP do jogi',
+      metaTitle: 'Rozwój SUP do jogi | Program treningowy — iSupfactory',
+      metaDescription:
+        'Jak iSupfactory opracował stabilną konfigurację deski SUP do jogi dla programu treningowego sportów wodnych — pełne pokrycie pokładu EVA i jednolita flota programu.',
+      kicker: 'Projekt jogi',
+      h1: 'Rozwój stabilnej konfiguracji SUP do jogi dla programu treningowego sportów wodnych',
+      intro: [
+        'Konfiguracja deski SUP do jogi dla programu treningowego: szeroka platforma o dużej objętości z pełnym pokryciem EVA, produkowana jako jednolita flota do ćwiczeń grupowych.',
+      ],
+      industry: 'Edukacja i programy dla młodzieży',
+      requirement: 'Stabilna konfiguracja SUP do jogi z pełnym pokryciem pokładu do ćwiczeń grupowych, w ilościach programowych.',
+      challenge:
+        'Joga wymaga szerokiej platformy o dużej objętości, która pozostaje stabilna na wodzie. Grupy potrzebują jednolitych desek, a instruktorzy jasnych wskazówek i wygodnego przechowywania między zajęciami.',
+      solution:
+        'Szeroka platforma o dużej objętości z pełnym pokryciem EVA, jednolita konfiguracja floty w całym programie oraz wskazówki dla instruktorów i etykiety programu w komplecie.',
+      product: 'Nadmuchiwana deska SUP do jogi — stabilna platforma z pełnym pokryciem pokładu EVA i jednolita flota programu.',
+      process: [
+        { title: 'Analiza programu', body: 'Styl ćwiczeń, wielkość grup i przechowywanie wyznaczyły konfigurację.' },
+        { title: 'Konfiguracja', body: 'Platforma, pokrycie pokładu i wykończenie ustalone dla całej floty.' },
+        { title: 'Akceptacja próbki', body: 'Stabilność i pokrycie pokładu zweryfikowane na fizycznej desce.' },
+        { title: 'Dostawa floty', body: 'Produkcja w ilościach programowych z weryfikacją zestawów i opakowań.' },
+      ],
+      result:
+        'Flota została dostarczona jako jedna jednolita konfiguracja — każda deska odpowiadała zatwierdzonej próbce pod względem stabilności, pokrycia pokładu i wykończenia — wraz ze wskazówkami dla instruktorów.',
+      outcome: 'Jednolita flota zgodna z zatwierdzoną próbką; zweryfikowane opakowanie programu.',
+      customizations: [
+        'Szeroka platforma o dużej objętości zapewniająca stabilność w pozycji stojącej',
+        'Pełne pokrycie pokładu EVA w obszarze użytkowym',
+        'Układ pokładu i oznaczenia do ćwiczeń',
+        'Spójny kolor i wykończenie w całej flocie',
+        'Wskazówki dla instruktorów i etykiety programu',
+        'Konfiguracja przechowywania i opakowań programu',
+      ],
+      inspectionFocus: [
+        'Inspekcja pokrycia pokładu i mocowania EVA',
+        'Weryfikacja napompowania i szczelności',
+        'Weryfikacja stabilności na zatwierdzonej próbce',
+        'Spójność nadruków i wykończenia w całej serii',
+        'Kompletność zestawu i kontrola opakowań programu',
+      ],
+      confidentiality:
+        'Zgodnie z umową nazwa programu ani jego lokalizacja nie są ujawniane. Projekt prezentujemy anonimowo, aby chronić poufność komercyjną.',
+      tags: ['Konfiguracja jogi', 'Pełne pokrycie pokładu', 'Flota programowa'],
+    },
+  ],
 }
 
 export function getProject(locale: Locale, slug: string): ProjectData | undefined {
@@ -6040,6 +6699,12 @@ export const projectsMeta: Localized<ProjectsMeta> = {
     metaDescription:
       'Reelle SUP-produksjonsprosjekter: hvordan resorts, merker, klubber og skoler sammen med iSupfactory gjorde om produktkrav til ferdige SUP-brett.',
     h1: 'Prosjekter — slik utvikler vi SUP-produkter sammen med kundene våre',
+  },
+  pl: {
+    metaTitle: 'Projekty i studia przypadków rozwoju produktów SUP | iSupfactory',
+    metaDescription:
+      'Prawdziwe projekty produkcji SUP: jak ośrodki wypoczynkowe, marki, kluby i szkoły zamieniły wymagania produktowe w gotowe deski SUP razem z iSupfactory.',
+    h1: 'Projekty — jak wspólnie z klientami rozwijamy produkty SUP',
   },
 }
 

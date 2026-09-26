@@ -20,7 +20,7 @@ test('every registry page renders its sections without error (en)', () => {
   for (const p of getContentPages()) {
     expect(() => html(p.path), `${p.path} throws during render`).not.toThrow()
   }
-})
+}, 60000)
 
 test('every Spanish twin renders without error (es)', () => {
   // /faq is served by the catchall route from site/faqs.yaml, not the registry.

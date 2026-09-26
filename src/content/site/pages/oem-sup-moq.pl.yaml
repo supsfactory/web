@@ -1,0 +1,65 @@
+meta:
+  title: "MOQ nadmuchiwanych desek SUP — wyjaśnienie minimalnych ilości zamówienia"
+  description: "Przejrzyste progi MOQ dla produkcji nadmuchiwanych desek SUP na zamówienie: współmarkowanie 5–10 szt., seria pilotażowa 20–50 szt., wolumen 90–100+ szt. na rolkę. Drzewo decyzyjne wg poziomu personalizacji."
+  dateModified: "2026-08-20"
+
+sections:
+  - title: "Odpowiedź wprost"
+    directAnswer:
+      answer: "Serie pilotażowe na gotowej platformie zaczynają się od 20–50 szt.; standardowe MOQ produkcji seryjnej to 90–100+ szt. na rolkę drop-stitch 150 m (około 180–220 desek)."
+      condition: "Konkretne MOQ zależy od kształtu deski, rolki materiału, druku, opakowania i tego, czy potrzebna jest nowa forma."
+      value: "5–10 współmarkowanie · 20–50 pilotażowa · 90–100+ na rolkę, wolumen"
+      verifiedDate: "Wrzesień 2026"
+      sourceType: "factory-record"
+    body: |
+      MOQ w iSupfactory jest stopniowane wg poziomu personalizacji, a nie jedną sztywną liczbą.
+      Każdy próg odpowiada konkretnemu scenariuszowi produkcji:
+
+      | Scenariusz | MOQ | Jednostka | Warunek |
+      |------------|-----|----------|---------|
+      | Gotowa platforma, tylko nakładka logo | 5–10 szt. | na projekt | Ten sam kształt, ta sama rolka materiału, ta sama kolorystyka |
+      | Własna grafika / EVA / opakowanie na gotowej platformie | 20–50 szt. | partia pilotażowa | Ten sam kształt; nowa grafika wymaga wzoru próbnego |
+      | Standardowa produkcja seryjna (dowolna platforma) | 90–100+ szt. | na rolkę 150 m (około 180–220 desek) | Na rolkę materiału; wiele SKU = osobne rolki |
+      | Nowy kształt / forma na zamówienie | 90–100+ szt. | seria produkcyjna | Narzędzie formy dodaje 15–20 dni; opłata za formę jednorazowa |
+
+  - title: "Co jest „rolką materiału”?"
+    body: |
+      Rolka tkaniny drop-stitch o długości 150 metrów daje w przybliżeniu 180–220 desek, w zależności od
+      wymiarów deski (zazwyczaj 10–11 ft). Każne odrębne SKU — czyli inny rozmiar, inna kombinacja kolorów
+      lub inna specyfikacja materiałowa — wymaga własnej rolki, a więc i własnego MOQ.
+
+      Dlatego MOQ podajemy „na rolkę 150 m”, a nie „na projekt”: dwie kolorystyki tej samego kształtu deski
+      to dwie rolki, czyli dwa MOQ.
+
+  - title: "Współmarkowanie a pilotaż a wolumen"
+    body: |
+      **Współmarkowanie (5–10 szt.)**: Twoje logo na gotowej platformie, która jest już produkowana dla innej marki.
+      Żadnych zmian w grafice poza umiejscowieniem logo. Najszybsza droga do próbki z Twoją marką.
+
+      **Partia pilotażowa (20–50 szt.)**: Własna grafika, projekt nakładki EVA albo opakowanie na gotowym
+      kształcie platformy. Wymaga zatwierdzenia wzoru przed produkcją. Idealna do testowania nowego wyglądu
+      na rynku.
+
+      **Produkcja seryjna (90–100+ szt. na rolkę)**: Pełna seria produkcyjna z dowolnym zestawem personalizacji.
+      To standardowy poziom komercyjny. Jedna rolka materiału daje ok. 180–220 desek.
+
+  - title: "MOQ przy formie na zamówienie"
+    body: |
+      Gdy Twój projekt wymaga nowego kształtu deski (a nie tylko nowej grafiki na istniejącym kształcie),
+      trzeba wykonać dedykowaną formę. Obowiązuje tu próg wolumenowy (90–100+ szt.), bo inwestycję w formę
+      trzeba rozłożyć na całą serię produkcyjną. Wykonanie narzędzia dodaje 15–20 dni do standardowego
+      czasu realizacji.
+
+      Własność formy: forma jest Twoja. Przechowujemy ją w naszym zakładzie i używamy wyłącznie do Twoich
+      serii produkcyjnych.
+
+  - title: "Zamówienia próbne"
+    body: |
+      Próbki przedprodukcyjne dostępne w ilości 1–2 desek w celu potwierdzenia dopasowania i wykończenia.
+      Są wykonywane ręcznie według Twojej specyfikacji i zwykle trwają 7–12 dni. Koszt próbki zalicza się
+      na poczet pierwszego zamówienia seryjnego.
+
+evidence_review:
+  tagline: 'Dowody i weryfikacja'
+  title: 'ZWERYFIKOWANE SPECYFIKACJE'
+  body: 'Wszystkie deklaracje produkcyjne na tej stronie są weryfikowane przez nasz zespół inżynierii produkcyjnej w fabryce w Laixi, w Qingdao. Certyfikaty, zapisy kontroli jakości, raporty z prób ciśnieniowych i wytrzymałościowych oraz rejestry identyfikowalności partii są dostępne na żądanie. Specyfikacje zweryfikowano ostatnio we wrześniu 2026.'

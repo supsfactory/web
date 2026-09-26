@@ -1,0 +1,14 @@
+meta:
+  title: 'Aktualności — producent desek SUP i wiadomości morskie | {SITE}'
+  description: 'Najnowsze wiadomości z Vatrad: zmiany w fabryce, nowe modele nadmuchiwanych desek SUP, certyfikacje i komunikaty branży morskiej.'
+  keywords:
+    - 'aktualności producenta sup'
+    - 'wiadomości vatrad'
+    - 'nowości nadmuchiwane sup'
+    - 'wiadomości branży morskiej'
+hero_text:
+  tagline: ''
+  title: Aktualności
+  subtitle: Najnowsze z Vatrad — nowe produkty, informacje o firmie, przewodniki i historie z wody
+news_list:
+  limit: 100

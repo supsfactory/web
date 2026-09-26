@@ -1,0 +1,125 @@
+meta:
+  title: 'Możliwości produkcji desek SUP | Fabryka nadmuchiwanych desek paddle'
+  description: 'Możliwości produkcji desek SUP w Qingdao: własna inżynieria kadłuba (0.1 mm), obróbka drop-stitch, zgrzewanie HF, druk, formowanie, kontrola jakości w 100 punktach i 120,000+ desek rocznie.'
+  dateModified: '2026-09-23'
+  keywords:
+    - 'możliwości produkcji sup'
+    - 'możliwości fabryki nadmuchiwanych desek paddle'
+    - 'produkcja sup we własnym zakładzie'
+    - 'możliwości produkcji desek paddle'
+    - 'fabryka sup Qingdao'
+
+hero:
+  tagline: Możliwości produkcyjne
+  title: 'Możliwości produkcji desek SUP'
+  subtitle: 'Każdy proces — inżynieria kadłuba, obróbka rdzenia drop-stitch, zgrzewanie HF, druk, narzędzia form, montaż, badania i pakowanie — realizujemy we własnym zakładzie o powierzchni 12,500 m² w Qingdao, więc jeden odpowiedzialny zespół prowadzi Twój projekt od pierwszego rysunku aż po załadowany kontener.'
+
+answer:
+  label: 'Wprost'
+  text: 'Produkcja desek SUP odbywa się w całości w naszym zakładzie w Qingdao: projekt kadłuba i inżynieria wymiarowa z dokładnością CNC 0.1 mm; obróbka materiału drop-stitch i zgrzewanie HF na 4 zautomatyzowanych liniach; druk grafiki; wycinanie nakładek EVA; własne narzędzia form (+15–20 dni przy nowych kształtach); montaż według listy kontrolnej w 100 punktach; oraz próba ciśnieniowa 18.0 PSI przez 24 godziny z automatycznym odrzuceniem przy spadku powyżej 0.50 PSI. Roczna zdolność to 120,000+ desek (ok. 10,000/miesiąc) z 4 wyspecjalizowanych oddziałów i 350+ pracowników, wysyłanych do ponad 50 krajów pod Twoją marką.'
+  verified: 'Wrzesień 2026'
+
+capabilities:
+  tagline: Własne możliwości
+  title: 'Grupy możliwości, każda realizowana we własnym zakładzie'
+  subtitle: 'Wszystkie poniższe możliwości realizujemy wewnątrz fabryki, co skraca czasy realizacji, wpina kontrolę jakości w każdy etap i utrzymuje Twoją specyfikację w jednym miejscu.'
+  groups:
+    - title: Projekt i inżynieria
+      items:
+        - 'Projekt kadłuba i inżynieria wymiarowa'
+        - 'Dokładność CNC 0.1 mm'
+        - 'Projekt formy na zamówienie i narzędzi'
+        - 'Projekt opakowania i materiałów POS'
+    - title: Produkcja
+      items:
+        - 'Obróbka rdzenia drop-stitch'
+        - 'Zgrzewanie HF 15 kW (4 zautomatyzowane linie)'
+        - 'Druk grafiki i wykonanie art'
+        - 'Wycinanie nakładek EVA'
+        - 'Montaż i wykańczanie desek'
+        - 'Kompletowanie akcesoriów'
+    - title: Jakość i zgodność
+      items:
+        - 'Lista kontrolna montażu w 100 punktach'
+        - '18.0 PSI · 24-godzinne utrzymanie ciśnienia'
+        - 'Próbkowanie wg ISO 2859-1 poziom II'
+        - 'CE · ISO 9001 · BSCI · REACH · RoHS'
+        - '10-letnia identyfikowalność partii'
+    - title: Usługi i logistyka
+      items:
+        - 'Próbki prototypowe w 7–12 dni'
+        - 'Produkcja w 25–35 dni'
+        - 'Formy na zamówienie w +15–20 dni'
+        - 'FOB Qingdao · CIF · DDP do ponad 50 krajów'
+
+table:
+  headers:
+    capability: Możliwość
+    in_house: We własnym zakładzie
+    standard: Co obejmuje standard
+  rows:
+    - capability: 'Projekt kadłuba i inżynieria wymiarowa'
+      in_house: 'Tak — własny zespół inżynierów'
+      standard: 'Projekt zweryfikowany przed wykonaniem narzędzi; dokładność CNC 0.1 mm dla form i cięcia'
+    - capability: 'Obróbka materiału drop-stitch'
+      in_house: 'Tak — własna produkcja rdzenia'
+      standard: 'Zakres gęstości drop-stitch 12–15 PSI, nestling optymalizowany pod rozmiar deski'
+    - capability: 'Zgrzewanie HF i konstrukcja szwów'
+      in_house: 'Tak — we własnym zakładzie'
+      standard: 'Moc zgrzewania HF 15 kW na 4 zautomatyzowanych liniach produkcyjnych'
+    - capability: 'Druk grafiki i wykonanie art'
+      in_house: 'Tak — własny projekt i druk'
+      standard: 'Nieograniczone palety, grafika pełnoformatowa, wsparcie artu ze strony zespołu fabryki'
+    - capability: 'Wycinanie nakładek EVA antypoślizgowych'
+      in_house: 'Tak — we własnym zakładzie'
+      standard: 'Specyfikacja nakładki 45–55 Shore C, pokłady i logo wycinane na wymiar'
+    - capability: 'Forma i narzędzia na zamówienie'
+      in_house: 'Tak — własna hala form'
+      standard: 'Narzędzia pod nowy kształt dodają 15–20 dni; formy pozostają własnością fabryki, chyba że uzgodnimy inaczej'
+    - capability: 'Montaż i wykańczanie desek'
+      in_house: 'Tak — we własnym zakładzie'
+      standard: 'Lista kontrolna montażu w 100 punktach; uchwyty, oczka D-ring i akcesoria montowane wg specyfikacji'
+    - capability: 'Badania ciśnieniowe i obciążeniowe'
+      in_house: 'Tak — własne stanowisko badawcze'
+      standard: '18.0 PSI utrzymane przez 24 godziny, automatyczne odrzucenie przy spadku powyżej 0.50 PSI'
+    - capability: 'Kontrola końcowa i identyfikowalność'
+      in_house: 'Tak — własny zespół QC'
+      standard: 'Próbkowanie wg ISO 2859-1 poziom II; 10-letnia identyfikowalność partii w ERP według numeru seryjnego'
+    - capability: 'Opakowanie i eksport'
+      in_house: 'Kompletowanie we własnym zakładzie + certyfikowana logistyka'
+      standard: 'Pudełka detaliczne, opakowanie eksportowe na długą podróż morską i etykiety seryjne pod Twoją marką'
+
+faq_section:
+  tagline: FAQ
+  title: Pytania o możliwości produkcyjne desek SUP
+  questions:
+    - q: Które procesy produkcyjne realizujecie we własnym zakładzie?
+      a: 'Wszystkie procesy rdzeniowe realizujemy we własnym zakładzie: inżynieria kadłuba, obróbka rdzenia drop-stitch, zgrzewanie HF, druk, wycinanie EVA, montaż, badania i pakowanie. Akcesoria i część surowców pochodzą od certyfikowanych dostawców; kompletowanie końcowe odbywa się u nas, co zapewnia pełną identyfikowalność.'
+    - q: Jaka jest wasza zdolność produkcyjna?
+      a: '120,000+ desek rocznie (około 10,000/miesiąc) na 4 zautomatyzowanych liniach i w 4 wyspecjalizowanych oddziałach zakładu o powierzchni 12,500 m² z ponad 350 pracownikami.'
+    - q: Jakie MOQ obowiązuje przy tych możliwościach?
+      a: 'Standardowa produkcja seryjna to 90–100+ szt. na zatwierdzoną konfigurację (jedna rolka tkaniny drop-stitch 150 m); serie pilotażowe startują od 20–50 szt. na gotowych platformach; zamówienia z samym logo od 5–10 szt.'
+    - q: Jakie czasy realizacji powinniśmy zakładać?
+      a: 'Próbki prototypowe w 7–12 dni; produkcja 25–35 dni po potwierdzeniu zamówienia i zaliczce; opracowanie formy na zamówienie dodaje 15–20 dni na narzędzia.'
+    - q: Jak przekładają się możliwości na jakość?
+      a: 'Każdy proces zasila 7-etapowy system jakości: listę kontrolną montażu w 100 punktach, próbę ciśnieniową 18.0 PSI przez 24 godziny z automatycznym odrzuceniem przy spadku powyżej 0.50 PSI, próbkowanie wg ISO 2859-1 poziom II oraz 10-letnią identyfikowalność partii w ERP.'
+
+cta:
+  title: 'Zobacz, które możliwości pasują do Twojego projektu'
+  subtitle: 'Wyślij brief produktowy — przegląd inżynieryjny i wycena dopasowana do możliwości w ciągu jednego dnia roboczego.'
+  actions:
+    - variant: primary
+      text: Poproś o wycenę produkcyjną
+      href: /pl/contact#custom-oem
+    - text: Zwiedź fabrykę
+      href: /pl/factory
+    - text: Proces produkcji w fabryce
+      href: /pl/factory/process
+    - text: Zdolność produkcyjna i czasy realizacji
+      href: /pl/factory/capacity
+    - text: Jakość i badania
+      href: /pl/quality
+    - text: Proof Center — dowody z fabryki
+      href: /pl/proof-center
+    - text: Produkcja OEM i ODM
+      href: /pl/oem-manufacturing

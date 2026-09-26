@@ -1,0 +1,109 @@
+meta:
+  title: 'Proces produkcji — od surowca do deski SUP'
+  description: 'Od surowca do deski SUP gotowej na wodę: każdy etap procesu produkcyjnego Vatrad, który prowadzimy sami — od cięcia i zgrzewania po badania.'
+  dateModified: '2026-08'
+  keywords:
+    - 'proces produkcji sup'
+    - 'fabryka nadmuchiwanych desek sup'
+    - 'etapy produkcji desek paddle'
+    - 'zgrzewanie pcv sup'
+hero:
+  tagline: Proces
+  title: Proces produkcyjny
+  subtitle: Od surowca do deski SUP gotowej na wodę — każdy etap pod naszą kontrolą
+  back_label: Wróć do fabryki
+  back_link: /pl/factory
+
+answer:
+  label: 'Wprost'
+  text: 'Deski przechodzą pięć kontrolowanych etapów: inspekcja materiałowa (1–2 dni), automatyczne cięcie CNC (odpady poniżej 5%, 2–4 godziny na komplet), zgrzewanie termiczne rur ze wzmocnieniem szwów HF (1–2 dni na deskę), łączenie rdzenia drop-stitch oraz montaż końcowy z 100% badaniem retencji powietrza i nośności przed pakowaniem.'
+  verified: 'Wrzesień 2026'
+
+intro: W odróżnieniu od marek, które zlecają produkcję podmiotom trzecim, Vatrad jest właścicielem i prowadzi cały swój łańcuch wytwarzania. Ta integracja pionowa pozwala nam utrzymać ścisłą kontrolę jakości na każdym etapie, szybko reagować na wymagania niestandardowe i zachowywać powtarzalną jakość produktu partia po partii. Oto jak powstaje deska SUP w naszym zakładzie.
+
+steps:
+  - step: '01'
+    title: Odbiór i inspekcja materiałów
+    description: Każda partia przychodzącej tkaniny PCV, maty z włókna szklanego, żywicy i osprzętu jest sprawdzana względem specyfikacji. Próbki tkaniny bada się pod kątem wytrzymałości na rozciąganie, równomierności grubości i odporności na UV przed dopuszczeniem do produkcji. Materiały niezgodne są izolowane i zwracane.
+    duration: 1–2 dni
+  - step: '02'
+    title: Automatyczne cięcie PCV
+    description: <p>Zatwierdzone tkaniny układa się na automatycznej maszynie do cięcia CNC i tnie z dokładnością poniżej milimetra. Optymalizowane komputerowo nestowanie układa elementy tak, aby zminimalizować odpady — zwykle poniżej 5%. Wycięte elementy są etykietowane wg modelu deski SUP i komory, a następnie wiązane w pakiety do przekazania do oddziału zgrzewania.</p>
+    duration: 2–4 godziny na komplet desek
+  - step: '03'
+    title: Zgrzewanie termiczne rur
+    description: Elementy są zaprasowywane i łączone za pomocą maszyn do zgrzewania termicznego, ze zgrzewaniem gorącopowietrznym w kontrolowanej temperaturze 200–300 °C. Główne szwy wzmacnia się dielektrycznym zgrzewaniem HF, aby uzyskać połączenia szczelne i wytrzymałe. Gotowe komory pompuje się do 18.0 PSI w celu wstępnej kontroli szczelności przed 24-godzinną próbą utrzymania ciśnienia.
+    duration: 1–2 dni na deskę SUP
+  - step: '04'
+    title: Łączenie rdzenia drop-stitch
+    description: Rdzenie drop-stitch desek SUP łączy się z zewnętrznymi warstwami PCV za pomocą laminowania termicznego. Tysiące wewnętrznych nici poliestrowych łączy warstwę górną z dolną, tworząc sztywną konstrukcję przy 12-15 PSI. Listwy krawędziowe są łączone w trzech warstwach metodą fuzji, co zapewnia wytrzymałość krawędzi.
+    duration: 1–2 dni na deskę
+  - step: '05'
+    title: Druk i dekoracja desek SUP
+    description: Grafikę pokładu deski SUP nanosi się techniką druku cyfrowego, aby uzyskać pełnokolorowe projekty o jakości zdjęcia, oraz sitografią, aby uzyskać trwałe logo i powtarzalne wzory. Nadruki są utrwalane i zabezpieczane przed działaniem UV i ścieraniem.
+    duration: 1–2 dni
+  - step: '06'
+    title: Montaż końcowy i osprzęt
+    description: Zawory, D-ringi, uchwyty, gniazda płetw i pokłady EVA montuje się na linii montażowej. Każda deska przechodzi listę kontrolną montażu liczącą 100 punktów, z obowiązkowym podpisem na każdym etapie.
+    duration: 1–2 dni
+  - step: '07'
+    title: Badania jakościowe i inspekcja
+    description: 'Każda gotowa deska przechodzi obowiązkową bramkę jakościową: próbę retencji powietrza w komorach, kontrolę działania osprzętu, weryfikację momentu dokręcania złączy oraz inspekcję wizualną. Budowy na zamówienie i prototypy przechodzą dodatkowo próby na wodzie obejmujące stabilność i prowadzenie.'
+    duration: 1–2 dni
+  - step: '08'
+    title: Pakowanie i wysyłka
+    description: Deski są spuszczane, składane zgodnie z procedurą, pakowane do wytrzymałych worków tkaninowych lub kartonów detalicznych i przygotowywane do wysyłki. Każde opakowanie jest etykietowane modelem, numerem seryjnym i przeznaczeniem. Współpracujemy ze spedytorami w zakresie wysyłek kontenerowych FCL i LCL na całym świecie.
+    duration: 1 dzień
+
+evidence_gates:
+  tagline: Dowody z inspekcji
+  title: 'Każdy etap zostawia ślad — zdjęcia i raporty'
+  subtitle: 'Poniżej rzeczywiste zdjęcia z inspekcji i pakiety raportów z naszych siedmiu kontrolowanych bramek jakościowych. Każdy PDF to autentyczny dwujęzyczny zapis, który możesz pobrać i poddać audytowi — to same dokumenty, które stoją za każdą partią w 10-letnim archiwum identyfikowalności w systemie ERP. Pełny przebieg 7 etapów znajdziesz na /pl/quality.'
+  items:
+    - title: 'PPM — Planowanie jakości projektu'
+      description: 'Spotkanie przedprodukcyjne ustala zakres, próbkę wzorcową i Plan Inspekcji Jakości przed uruchomieniem linii. Nierozstrzygnięte punkty blokują zwolnienie produkcji.'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_SUP_OEM_QIP.pdf
+      link_label: 'Pobierz QIP (PDF)'
+      image: https://assets.isupfactory.com/site/quality/node01-ppm.avif
+      alt: Spotkanie przedprodukcyjne z przeglądem próbki wzorcowej i planu inspekcji jakości dla zamówienia OEM SUP
+    - title: 'IQC — Inspekcja materiałów przychodzących'
+      description: 'Każda partia przychodzącego PCV, tkaniny i osprzętu jest sprawdzana względem zatwierdzonej specyfikacji. Partie niezgodne są izolowane i odrzucane przed dopuszczeniem na linię.'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_IQC_TEST_REPORTS.pdf
+      link_label: 'Pobierz raporty IQC (PDF)'
+      image: https://assets.isupfactory.com/site/quality/node02-iqc.avif
+      alt: Inspekcja materiałów przychodzących — tkaniny PCV i komponentów desek SUP w fabryce
+    - title: 'IPQC / FAI — Kontrola w trakcie procesu'
+      description: 'Pierwszy egzemplarz weryfikuje się względem zablokowanych linii odniesienia, a na każdej zmianie prowadzi się obchody kontrolne na linii. Zatwierdzenie FAI blokuje wersją projekt graficzny, wymiary i BOM.'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_IPQC_TEST_REPORTS.pdf
+      link_label: 'Pobierz raporty IPQC (PDF)'
+      image: https://assets.isupfactory.com/site/quality/node03-ipqc-fai.avif
+      alt: Inspekcja w trakcie procesu i kontrola pierwszego egzemplarza podczas produkcji desek SUP
+    - title: 'Pompowanie i badanie szczelności powietrznej'
+      description: '100% gotowych desek — a nie próbka — przechodzi 24-godzinną próbę utrzymania ciśnienia przy 18.0 PSI z automatycznym odrzuceniem po spadku powyżej 0.50 PSI. Jeden zapis na komorę.'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_AIRTIGHTNESS_TEST_REPORTS.pdf
+      link_label: 'Pobierz raporty ze szczelności powietrznej (PDF)'
+      image: https://assets.isupfactory.com/site/quality/node04-airtightness.avif
+      alt: Pompowanie i badanie szczelności powietrznej komory nadmuchiwanej deski SUP
+    - title: 'FQC — Inspekcja produktu końcowego'
+      description: 'Gotowe deski mierzy się względem tolerancji rysunku, a ich wygląd ocenia przy lampach dziennych D65 względem zatwierdzonej próbki wzorcowej.'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_FQC_TEST_REPORTS.pdf
+      link_label: 'Pobierz raporty FQC (PDF)'
+      image: https://assets.isupfactory.com/site/quality/node05-fqc.avif
+      alt: Inspekcja produktu końcowego gotowych desek SUP przed pakowaniem
+    - title: 'PSI — Opakowanie i inspekcja przed wysyłką'
+      description: 'Zapakowany zestaw sprawdza się 100% względem BOM zatwierdzonego przez klienta — skan kodu kreskowego (Grade ≥ B), oznaczenia kartonu i próba upuszkowa ISTA-1A przed załadunkiem.'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_PSI_TEST_REPORTS.pdf
+      link_label: 'Pobierz raporty PSI (PDF)'
+      image: https://assets.isupfactory.com/site/quality/node06-psi.avif
+      alt: Inspekcja przed wysyłką zgodności zapakowanego zestawu SUP z BOM
+    - title: 'Zatwierdzenie wysyłki i identyfikowalność'
+      description: 'Zespół jakości podpisuje partię dopiero wtedy, gdy wszystkie sześć wcześniejszych bramek jest zamkniętych. Numery seryjne są przypisane do partii, a pakiet dokumentów przekazujemy razem z wysyłką.'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_SHIPMENT_RELEASE_REPORTS.pdf
+      link_label: 'Pobierz raporty z zatwierdzenia wysyłki (PDF)'
+      image: https://assets.isupfactory.com/site/quality/node07-shipment-release.avif
+      alt: Podpisanie zatwierdzenia wysyłki i przekazanie dokumentacji identyfikowalności partii
+cta:
+  title: Zobacz nasze wyposażenie i maszyny
+  desc: Poznaj sprzęt klasy przemysłowej, który stoi za każdą deską SUP od Vatrad.
+  label: Zobacz wyposażenie →
+  link: /pl/factory/equipment

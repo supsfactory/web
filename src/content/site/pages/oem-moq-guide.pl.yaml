@@ -1,0 +1,170 @@
+meta:
+  title: 'Przewodnik MOQ desek SUP: elastyczny branding i minimalne partie'
+  description: 'Jak liczy się MOQ nadmuchiwanych desek SUP: rolki drop-stitch 150 m dają 90–100 desek, współmarkowanie od 5–10 szt. i przejrzyste opłaty za formy sitograficzne.'
+  dateModified: '2026-08-14'
+  keywords:
+    - 'moq sup'
+    - 'minimalna ilość zamówienia nadmuchiwane sup'
+    - 'program współmarkowania sup'
+    - 'sup mała seria'
+    - 'moq desek paddle na zamówienie'
+    - 'fabryka oem sup Chiny'
+
+hero:
+  tagline: 'Przejrzyście i zależnie od projektu'
+  title: 'Przewodnik MOQ — elastyczny branding i produkcja'
+  subtitle: 'Zrozum fizykę surowca drop-stitch, która rządzi wielkością serii produkcyjnych SUP — i dowiedz się, jak działa nasz niskoprogowy program współmarkowania dla operatorów wynajmu, klubów, ośrodków i rosnących marek sportów wodnych. Opracowane i prowadzone przez Qingdao Vatrad Group Co., Ltd.'
+
+answer:
+  label: 'Wprost'
+  text: 'MOQ to nie jedna liczba, która pasuje do wszystkich. Każde MOQ potwierdzamy wg konfiguracji projektu: kształt kadłuba i narzędzia, kolorystyka i PCV, złożoność grafiki, opakowanie i zestaw akcesoriów. Produkcja seryjna na zamówienie to 90–100 szt. na partię ze standardowej rolki tkaniny drop-stitch 150 m; współmarkowanie w małej serii zaczyna się od 5–10 szt.; a każdy projekt dzielimy na trzy odrębne etapy — opracowanie próbki (1–2 szt.), zamówienie pilotażowe (20–50 szt.) i produkcja seryjna (90–100+ szt.). Dokładne obliczenie dla Twojej mieszanki SKU potwierdzamy przed wyceną — żadnych mglistych obietnic „niskiego MOQ” ani ukrytych kompromisów.'
+  verified: 'Wrzesień 2026'
+
+moq_principle:
+  tagline: Logika inżynieryjna
+  title: 'Dlaczego standardowe MOQ wolumenowe to 90–100 szt.: fizyka rolki surowca'
+  subtitle: 'Wielkości serii produkcyjnych nie są dowolnymi liczbami ustalanymi przez zespół sprzedaży — wynikają z długości rolek tkaniny drop-stitch i fizyki przezbrodzeń na linii.'
+  body: |
+    **Wzorcowa długość 150 metrów tkanicy surowej.** Tkanina drop-stitch o wysokiej wytrzymałości na rozciąganie jest produkowana i powlekana na ciągłych rolkach głównych. Standardowa długość pojedynczej rolki przemysłowej wynosi 150 metrów ciągłego materiału.
+
+    **Obliczenie wydajności (90 do 100 desek).** Ze standardowego kadłuba turingowego lub allround (10 ft 6 in do 11 ft 6 in) pełna rolka główna 150 m daje około 90 do 100 gotowych desek paddle.
+
+    **Zasada zero łączeń tkaniny.** Pełne rolki zapewniają ciągłość konstrukcji — brak poprzecznego łączenia tkaniny, które jest punktem wysokiego ryzyka, oraz jednorodne napięcie włókien na górnej i dolnej powierzchni deski.
+
+    **Kalibracja termiczna i klejowa.** Zautomatyzowane linie zgrzewania gorącopowietrznego o wysokiej częstotliwości i laminowania morskiego klejem wymagają 2 godzin nagrzewania, profilowania temperatury i kalibracji ciśnienia. Pełna partia 90–100 szt. amortyzuje te stałe koszty uruchomienia, dając najniższy możliwy koszt jednostkowy.
+
+moq_tiers:
+  tagline: Dwie drogi do Twojej marki
+  title: 'Wolumen OEM na zamówienie a współmarkowanie w małej serii'
+  subtitle: 'Jedna fabryka, dwa progi wejścia: pełna produkcja masowa na zamówienie dla ugruntowanych linii oraz niskoprogowy program współmarkowania dla klubów, ośrodków wynajmu i rosnących marek.'
+  features:
+    - icon: P
+      icon_bg: blue
+      title: 'Wolumen OEM na zamówienie — 90–100 szt. na partię'
+      desc: 'Ustalone ze względu na standardową długość rolki 150 m wysokogładzinowej tkaniny drop-stitch, aby zapewnić optymalne wykorzystanie materiału i spójność konstrukcji. · 100% pełnej personalizacji: ekskluzywny kształt kadłuba i niestandardowe kolory Pantone · Pełnopowierzchniowy druk cyfrowy lub sitograficzny · Niestandardowe opakowanie detaliczne, drukowane kartony i akcesoria z brandingiem · Maksymalna efektywność kosztowa i korzyści skali'
+      link: '/pl/contact#custom-oem'
+      link_label: 'Zapytaj o wolumen OEM'
+    - icon: B
+      icon_bg: green
+      title: 'Współmarkowanie w małej serii — poniżej 20 szt.'
+      desc: 'Niskoprogowe rozwiązanie oparte na naszych sprawdzonych w praktyce rocznych kolekcjach produktowych dla klubów, ośrodków wynajmu i ośrodków wypoczynkowych — bez dużych zapasów. · Stała powłoka i geometria: sprawdzone kształty kadłubów ze zgodnością CE / ISO 25649 · Główny identyfikator: oficjalne oznaczenie iSupfactory w części centralnej · Branding wtórny na zamówienie: Twoje logo nadrukowane na nosie lub krawędziach bocznych · 100% pełne badanie ciśnienia i szczelności w trakcie całej serii, 24 godziny'
+      link: '/pl/contact#cobranding'
+      link_label: 'Rozpocznij współmarkowanie w małej serii'
+
+moq_fees:
+  tagline: Przejrzyste opłaty za sitografię
+  title: 'Struktura opłat współmarkowania — pozycjonowana z góry'
+  subtitle: 'Jasne, pozycjonowane ceny za sitografię w małej serii. Opłaty za formy pobieramy jednorazowo przy uruchomieniu i zwalniamy przy zamówieniach powtarzalnych o tym samym wymiarze grafiki.'
+  headers:
+    fee: Pozycja opłaty
+    amount: Kwota
+    detail: Szczegóły
+  rows:
+    - fee: 'Opłata za formę sitograficzną (jednorazowa, logo do 30 cm)'
+      amount: '$10.00 USD'
+      detail: 'Pobierana jednorazowo przy uruchomieniu; zwalniana przy zamówieniach powtarzalnych o tym samym wymiarze grafiki.'
+    - fee: 'Opłata za formę sitograficzną (jednorazowa, logo do 50 cm)'
+      amount: '$15.00 USD'
+      detail: 'Pobierana jednorazowo przy uruchomieniu; zwalniana przy zamówieniach powtarzalnych o tym samym wymiarze grafiki.'
+    - fee: 'Opłata za obsługę fabryki i druk precyzyjny'
+      amount: '$1.00 USD za deskę'
+      detail: 'Obejmuje ręczne pozycjonowanie współrzędnych, obróbkę rozpuszczalnikiem, transfer farby i utwardzanie cieplne.'
+
+moq_stages:
+  tagline: Próbka · Pilotaż · Wolumen
+  title: 'Trzy odrębne etapy ilościowe'
+  subtitle: 'Ilości produkcji próbnej, pilotażowej i seryjnej są różne. Każdy projekt klasyfikujemy do trzech odrębnych progów, abyś mógł zweryfikować przed zobowiązaniem.'
+  steps:
+    - step: '01'
+      title: 'Opracowanie próbki (1–2 szt.)'
+      desc: 'Fizyczne potwierdzenie sztywności kadłuba, faktury nakładki EVA, wierności grafiki i dopasowania akcesoriów przed jakimkolwiek zobowiązaniem finansowym. Obowiązują opłaty za próbkę, które zaliczają się na Twoje zamówienie produkcyjne po podpisaniu umowy.'
+    - step: '02'
+      title: 'Zamówienie pilotażowe (20–50 szt.)'
+      desc: 'Komercyjne testy przedsezonowe i walidacja rynku regionalnego na gotowych platformach kadłubów, standardowych materiałach i uproszczonym opakowaniu, aby zminimalizować tarcia przy uruchomieniu.'
+    - step: '03'
+      title: 'Produkcja seryjna (90–100+ szt.)'
+      desc: 'Potwierdzona po zamrożeniu BOM, finalizacji projektu graficznego, niestandardowym opakowaniu i ustaleniu planu dostaw — pełne rolki tkaniny 150 m, niestandardowe tkaniny Pantone, opakowanie na zamówienie, rabaty wolumenowe i identyfikowalność całego łańcucha dla partii.'
+
+moq_factors:
+  tagline: Co wpływa na Twoje MOQ
+  title: 'Dlaczego MOQ na zamówienie zawsze zależy od projektu'
+  subtitle: 'Przy produkcji w 100% na zamówienie MOQ liczymy z całej architektury produktu — te cztery komponenty oceniamy łącznie przed wyceną.'
+  headers:
+    component: Komponent projektu
+    driver: Czynnik produkcyjny
+    impact: Wpływ na minimalną ilość
+  rows:
+    - component: 'Kształt kadłuba i narzędzia'
+      driver: 'Istniejące fabryczne formy rockera vs własne matryce tnące CAD i narzędzia do pras termicznych EVA'
+      impact: 'Istniejące platformy: zamówienia pilotażowe od 20 szt. Własne kadłuby: wymagana amortyzacja dedykowanych narzędzi.'
+    - component: 'Kolorystyka i PCV'
+      driver: 'Jednolite standardowe kolory magazynowe vs arkusze PCV barwione na zamówienie wg Pantone'
+      impact: 'Niestandardowy PCV Pantone wymaga dedykowanych przebiegów barwienia chemicznego z niezależnymi MOQ surowca.'
+    - component: 'Opakowanie z brandingiem'
+      driver: 'Neutralne kartony z naklejkami z kodem kreskowym vs pełnokolorowe 5-warstwowe pudełka detaliczne i brandowane instrukcje'
+      impact: 'Niestandardowe pudełka kolorowe podlegają niezależnemu minimum drukarni offsetowej (zwykle 500+ szt.).'
+    - component: 'Pakiety akcesoriów'
+      driver: 'Standardowe wiosła aluminiowe lub nylonowe vs dopasowane wiosła karbonowe i brandowane pompy'
+      impact: 'Akcesoria w pełni z brandingiem podlegają mniejszym partiom produkcyjnym dostawców.'
+
+moq_downloads:
+  tagline: Dokumenty oficjalne
+  title: 'Dwujęzyczne pliki polityki — pobierz i udostępnij'
+  subtitle: 'Oficjalne dokumenty Qingdao Vatrad Group Co., Ltd., gotowe do dołączenia do zapytań kupujących. Oba pliki są dwujęzyczne (angielski / chiński).'
+  features:
+    - icon: G
+      icon_bg: blue
+      title: 'Przewodnik elastycznego brandingu i MOQ (PDF)'
+      desc: 'Oficjalny przewodnik B2B (Część I, DOC-MOQ-EXP-2026-EN, wydany 14 sierpnia 2026): logika inżynieryjna wydajności rolki 150 m drop-stitch (90–100 desek), program współmarkowania od 5–10 szt., przejrzyste opłaty za sitografię i trzy etapy produkcji.'
+      link: 'https://assets.isupfactory.com/site/downloads/flexible-branding-and-moq-guide.pdf'
+      link_label: 'Pobierz przewodnik (PDF)'
+    - icon: P
+      icon_bg: green
+      title: 'Polityka elastycznego brandingu i współmarkowania (PDF)'
+      desc: 'Oficjalna dokumentacja polityki (Część 1, POL-MOQ-2026-V1): zasady współmarkowania w małej serii, ramowy MOQ zależny od projektu, cztery czynniki wpływające na minima oraz wspólne zatwierdzenie przez wiceprezesa sprzedaży, głównego inżyniera i dyrektora QA.'
+      link: 'https://assets.isupfactory.com/site/downloads/flexible-branding-and-moq-policy.pdf'
+      link_label: 'Pobierz politykę (PDF)'
+
+moq_faqs:
+  tagline: FAQ
+  title: 'Najczęściej zadawane pytania o MOQ'
+  items:
+    - q: 'Czy MOQ liczy się na zamówienie, na model czy na kolorystykę?'
+      a: 'MOQ może obowiązywać na model, kolorystykę, wersję grafiki, konfigurację opakowania lub całe zamówienie. Ponieważ różne grubości drop-stitch (12 cm a 15 cm) i kolory PCV pochodzą z odrębnych rolek surowca, zamówienie 50 desek rozłożone na 5 kolorów tworzy 5 odrębnych wymagań dotyczących rolek tkaniny. Dokładne obliczenie potwierdzamy względem Twojej macierzy SKU przed wyceną, abyś mógł jasno zaplanować mieszankę.'
+    - q: 'Czy mogę zamówić próbkę przed produkcją hurtową?'
+      a: 'Tak. Opracowanie próbki (1–2 szt.) potwierdza sztywność kadłuba, fakturę nakładki EVA, wierność grafiki i dopasowanie akcesoriów przed uruchomieniem masowej produkcji. Obowiązują opłaty za próbkę, które zaliczają się na Twoje zamówienie produkcyjne po podpisaniu umowy.'
+    - q: 'Dlaczego niestandardowe opakowanie detaliczne ma własne MOQ?'
+      a: 'Drukarki fleksograficzne i offsetowe do kartonów wymagają minimalnego nakładu uruchomieniowego 500+ szt. Oferujemy hybrydowe rozwiązanie magazynowe opakowań: wytwarzamy 500 niestandardowo drukowanych kartonów, przechowujemy nadmiar w naszym czystym magazynie i wydajemy go w ramach Twoich zaplanowanych wysyłek desek — dzięki temu mniejsze zamówienie desek nadal może trafić w pełni brandowane opakowanie detaliczne.'
+    - q: 'Dlaczego standardowe MOQ wolumenowe to 90–100 szt.?'
+      a: 'Standardowe MOQ wolumenowe wynika z surowca: rolka główna 150 m wysokogładzinowej tkaniny drop-stitch daje około 90–100 gotowych desek dla standardowego kadłuba turingowego lub allround. Praca na pełnych rolkach eliminuje łączenia tkaniny, utrzymuje jednorodne napięcie włókien i amortyzuje 2-godziną kalibrację linii zgrzewania i laminowania — dając najniższy możliwy koszt jednostkowy.'
+    - q: 'Czy większa ilość obniża koszt jednostkowy?'
+      a: 'W większości projektów tak. Wyższe ilości poprawiają wydajność materiału, rozłożą stałe koszty uruchomienia linii na więcej desek i obniżają koszt opakowania na sztukę.'
+    - q: 'Czy przy zamówieniach powtarzalnych ponownie pobierane są opłaty za formy współmarkowania?'
+      a: 'Nie. Opłaty za formy sitograficzne pobieramy jednorazowo przy uruchomieniu i zwalniamy przy zamówieniach powtarzalnych o tym samym wymiarze grafiki. Płacisz tylko $1.00 USD za deskę na obsługę fabryki i druk.'
+    - q: 'Czy prośba o doradztwo w sprawie MOQ zobowiązuje mnie do zamówienia?'
+      a: 'Nie. Prośba o doradztwo w sprawie MOQ projektu po prostu pozwala naszemu zespołowi inżynieryjnemu w Qingdao Vatrad Group Co., Ltd. przeanalizować Twój brief techniczny i wskazać najbardziej opłacalną ścieżkę produkcji. Umowa poufności (NDA) jest dostępna przed udostępnieniem chronionych specyfikacji technicznych lub projektu graficznego.'
+
+evidence_review:
+  tagline: 'Dowody i weryfikacja'
+  title: 'ZWERYFIKOWANE SPECYFIKACJE'
+  body: 'Wszystkie deklaracje produkcyjne na tej stronie są weryfikowane przez nasz zespół inżynierii produkcyjnej w fabryce w Laixi, w Qingdao. Certyfikaty, zapisy kontroli jakości, raporty z prób ciśnieniowych i wytrzymałościowych oraz rejestry identyfikowalności partii są dostępne na żądanie. Specyfikacje zweryfikowano ostatnio we wrześniu 2026.'
+
+cta:
+  title: 'Potrzebujesz doradztwa w sprawie MOQ dla swojego projektu SUP?'
+  subtitle: 'Podaj docelowy model deski, szacowany zakres pierwszego zamówienia i wymagania brandingowe. Wskażemy, czy próbka, pilotaż czy wolumen jest najodpowiedniejszym następnym krokiem. Złożenie zapytania nie zobowiązuje Cię do ostatecznej ilości zamówienia — omówienie NDA jest dostępne.'
+  actions:
+    - variant: primary
+      text: Poproś o doradztwo w sprawie MOQ projektu
+      href: /pl/contact#moq-guide
+    - text: Rozpisanie MOQ i czasu realizacji SUP na zamówienie
+      href: /pl/sup-oem-moq-lead-time
+    - text: Uruchom nową markę zamówieniem próbnym
+      href: /pl/new-brand-trial-order'
+    - text: Zweryfikuj fabrykę i system jakości
+      href: /pl/oem-trust-assurance'
+    - text: 7-etapowy system inspekcji
+      href: /pl/quality'
+    - text: Przegląd produkcji OEM i ODM
+      href: /pl/oem-manufacturing'
+    - text: Porównanie konstrukcji SUP
+      href: '/pl/sup-construction-comparison'

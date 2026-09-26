@@ -1,0 +1,93 @@
+meta:
+  title: 'Wyposażenie fabryki — cięcie, zgrzewanie i druk'
+  description: 'Sprzęt produkcyjny Vatrad klasy przemysłowej: cięcie PCV, zgrzewanie HF, druk cyfrowy, montaż i badania nadmuchiwanych desek SUP.'
+  dateModified: '2026-08'
+  keywords:
+    - 'sprzęt produkcyjny sup'
+    - 'fabryka nadmuchiwanych desek sup'
+    - 'zgrzewanie hf pcv'
+    - 'produkcja desek paddle'
+hero:
+  tagline: Wyposażenie
+  title: Wyposażenie i maszyny produkcyjne
+  subtitle: Sprzęt klasy przemysłowej do cięcia, zgrzewania, druku i montażu
+  back_label: Wróć do fabryki
+  back_link: /pl/factory
+
+answer:
+  label: 'Wprost'
+  text: 'Nasza fabryka o powierzchni 12,500 m² wykorzystuje automatyczne cięcie sterowane CNC (dokładność 0.1 mm, odpady poniżej 5%), zgrzewanie gorącopowietrzne w zakresie 200–600 °C oraz 15 kW dielektryczne zgrzewanie HF dla głównych szwów, prasy do laminowania rdzeni drop-stitch do 14 ft, a także laboratorium QC, w którym każda komora przechodzi próbę ciśnieniową, badanie rozciągania wg ASTM D751 i kontrolę odrywania szwów wg ISO 6185.'
+  verified: 'Wrzesień 2026'
+
+categories:
+  - title: Cięcie i przygotowanie materiału
+    items:
+      - name: Automatyczna maszyna do cięcia PCV
+        spec: Sterowana CNC, 6.5 m × 2.5 m, dokładność 0.1 mm
+        desc: Automatyczna maszyna do cięcia sterowana komputerowo, przeznaczona do PCV, Hypalonu i tkanin drop-stitch. Oprogramowanie do nestingu optymalizuje wykorzystanie materiału do poziomu odpadów poniżej 5%.
+      - name: Rozwijarka tkaniny
+        spec: Szerokość maks. 3 m, podawanie z kontrolą naprężenia
+        desc: Rozwijająca tkaninę w jednej lub kilku warstwach z kontrolowanym naprężeniem, aby zapobiec zniekształceniom przed cięciem.
+
+  - title: Zgrzewanie rur i łączenie
+    items:
+      - name: Maszyna do zgrzewania termicznego
+        spec: Zgrzewanie gorącopowietrzne, regulowane 200–600 °C, 0.5–5 m/min
+        desc: Maszyna do zgrzewania termicznego gorącym powietrzem, stosowana do łączenia i zgrzewania szwów rur PCV i Hypalonu. Używana do zaprasowywania, uszczelniania i łączenia komór oraz połączeń unoszenia.
+      - name: Prasa dielektryczna HF
+        spec: 15 kW, stół 2000 × 600 mm
+        desc: Prasa do zgrzewania falami wysokiej częstotliwości, stosowana do głównych szwów wzdłużnych, połączeń transomu z rurą oraz wytwarzania dużych komór.
+      - name: Zgrzewarka HF sterowana CNC
+        spec: 8 kW, stół XY 2500 × 1200 mm
+        desc: Programowalne zgrzewanie szwów zakrzywionych dla złożonych geometrii, tłoczenia logo i precyzyjnego łączenia fragmentów.
+
+  - title: Produkcja desek SUP
+    items:
+      - name: Prasa do laminowania rdzeni drop-stitch
+        spec: Prasa wielkoformatowa dla rdzeni desek o długości do 14 ft
+        desc: Precyzyjne laminowanie rdzeni drop-stitch z zewnętrznymi warstwami PCV. Każda warstwa jest łączona pod ciśnieniem dla stałej jakości i wytrzymałości.
+      - name: Router CNC (5-osiowy)
+        spec: Przestrzeń robocza 3 m × 2 m × 1 m, chłodzona wodą wrzeciono
+        desc: Obróbka gniazd płetw, wycięć na uchwyty i niestandardowych komponentów desek.
+
+  - title: Druk i dekoracja desek SUP
+    items:
+      - name: Drukarka cyfrowa
+        spec: Wysokorozdzielczy tusz strumieniowy, szerokość druku do 2 m
+        desc: Druk cyfrowy bezpośrednio na tkaninie, pozwalający uzyskać pełnokolorową grafikę na pokładzie deski SUP. Drukuje wzory indywidualne, gradienty i obrazy o jakości zdjęcia, tuszami wodnymi odpornymi na UV.
+      - name: Maszyna do sitografii
+        spec: Ręczna i półautomatyczna, rejestracja wielokolorowa
+        desc: Sitografia logo, znaków marki i powtarzalnych wzorów na deskach SUP. Zapewnia trwałe, kryjące nadruki z żywym nasyceniem barw.
+
+  - title: Montaż i osprzęt
+    items:
+      - name: Stanowisko montażu desek
+        spec: Modularne, regulowane, układ wielostanowiskowy
+        desc: Montaż gniazd płetw, uchwytów, D-ringów, zaworów i pokładów EVA na deskach SUP.
+      - name: Prasa do montażu zaworów
+        spec: Pneumatyczna, regulowany nacisk
+        desc: Precyzyjny montaż i uszczelnianie zaworów Halkey-Roberts i Leafield.
+      - name: Laminator pokładów dekoracyjnych
+        spec: 3 m × 1.5 m, kontrola temperatury
+        desc: Laminowanie termiczne pianki EVA na pokłady desek SUP ze stałą wytrzymałością połączenia.
+
+  - title: Badania i kontrola jakości
+    items:
+      - name: Uniwersalna maszyna wytrzymałościowa
+        spec: 50 kN,  / ASTM D751
+        desc: Badanie siły zrywającej, wydłużenia przy zerwaniu i propagacji pęknięcia dla partii tkanin.
+      - name: Stanowisko do badania retencji powietrza
+        spec: Programowalne, 30-minutowe utrzymanie ciśnienia
+        desc: Zautomatyzowana próba utrzymania ciśnienia dla każdej komory rury przed montażem.
+      - name: Maszyna do badania odrywania szwów
+        spec: Napędowa, odrywanie 180° przy 100 mm/min
+        desc: Badanie wytrzymałości na odrywanie szwów spawanych i klejonych wg ISO 6185.
+      - name: Komora klimatyczna z lampą łukową ksenonową
+        spec: 2000 h ekspozycji
+        desc: Badanie odporności na UV pod kątem zmiany koloru i utrzymania wytrzymałości.
+
+cta:
+  title: Zainteresował Cię spacer po fabryce?
+  desc: Chętnie przyjmujemy odwiedzających w naszym zakładzie w Qingdao. Zobacz nasze wyposażenie i procesy na własne oczy.
+  label: Umów wizytę →
+  link: /pl/contact

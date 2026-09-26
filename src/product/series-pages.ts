@@ -2268,6 +2268,255 @@ export const seriesPages: Localized<SeriesPageData[]> = {
       ],
     },
   ],
+  pl: [
+    {
+      slug: 'all-around',
+      navLabel: 'Allround',
+      metaTitle: 'Nadmuchiwane deski SUP allround na zamówienie — producent OEM | iSupfactory',
+      metaDescription:
+        'Nadmuchiwane deski SUP allround na zamówienie, produkowane pod Twoją marką — szeroka stabilność, wolumeny OEM/ODM od 90–100+ szt., próbki w 7–12 dni. Bezpośrednio z fabryki w Qingdao, Chiny.',
+      kicker: 'Seria · Allround',
+      h1: 'Nadmuchiwane deski SUP allround na zamówienie — domyślna platforma startowa dla nowych marek',
+      intro: [
+        'Deska allround to pracujący koń kategorii SUP: wystarczająco szeroka, by poczuć się stabilnie na początku, wystarczająco zwrotna, by utrzymać zainteresowanie osób z doświadczeniem, i wystarczająco lekka, by zabrać ją wszędzie. Większość nowych marek i większość flot wypożyczalni zaczyna właśnie tutaj.',
+        'Produkujemy platformy allround pod Twoją marką od 90–100+ szt. na rolkę 150 m (wolumen), a serie pilotażowe od 20–50 szt. Kształt, listwy krawędziowe, warstwowość, kolory, grafika na całej desce i opakowanie są ustalane dla każdego projektu.',
+      ],
+      faqs: [
+        {
+          q: 'Czy mogę dostosować deskę SUP allround do mojej marki?',
+          a: 'Tak. Każda platforma allround jest bazą produkcyjną — ustalasz wymiary (zazwyczaj 10′6″ do 11′6″), szerokość, grubość, warstwowość (jedna lub dwie warstwy albo fuzja), konfigurację listew krawędziowych, dywan EVA, grafikę na całej desce i opakowanie. Własne formy zaczynają się od 90–100+ szt. na kształt; produkcja seryjna od 90–100+ szt. na rolkę 150 m.',
+        },
+        {
+          q: 'Jaka jest minimalna ilość zamówienia (MOQ) dla desek SUP allround?',
+          a: 'Serie o standardowym wolumenie zaczynają się od 90–100+ szt. na rolkę 150 m; serie pilotażowe na platformach standardowych od 20–50 szt.; w pełni własne formy od 90–100+ szt. na kształt. Próbki wysyłamy w 7–12 dni, a produkcja seryjna trwa 25–35 dni od potwierdzonego zamówienia i zaliczki.',
+        },
+        {
+          q: 'Co zawiera gotowy do sprzedaży zestaw?',
+          a: 'Cały zestaw: nadmuchiwana deska z rdzeniem drop-stitch, regulowane wiosło, pompka ręczna (lub elektryczna dwustopniowa), zestaw naprawczy, plecak i zadrukowany karton. Akcesoria można wymienić lub rozbudować zależnie od Twojego rynku docelowego.',
+        },
+        {
+          q: 'Jaką twardość pokładu EVA oferujecie?',
+          a: 'Dywany antypoślizgowe na pokładzie mają twardość 45–55 Shore C — średnio miękkie, dobrze trzymające pod stopami, ale nie twardniejące na słońcu. Grubość, rowki, wycięcia i umiejscowienie logo są ustalane dla każdego projektu.',
+        },
+      ],
+    },
+    {
+      slug: 'race',
+      navLabel: 'Wyścigowe',
+      metaTitle: 'Nadmuchiwane deski SUP wyścigowe na zamówienie — platformy racingowe OEM | iSupfactory',
+      metaDescription:
+        'Nadmuchiwane deski SUP wyścigowe na zamówienie dla klubów, zawodów i marek — kadłuby drop-stitch racing, wolumeny OEM od 90–100+ szt., produkcja z certyfikatem CE. Bezpośrednio z fabryki.',
+      kicker: 'Seria · Wyścigowe',
+      h1: 'Nadmuchiwane deski SUP wyścigowe na zamówienie — kadłuby racingowe produkowane pod Twoją marką',
+      intro: [
+        'Deski wyścigowe zamieniają stabilność na prędkość: dłuższe i węższe profile o dopracowanym dziobie i niskim rockerze, zbudowane do wiosłowania na przemieszczenie. Wersje nadmuchiwane dorównują twardym deskom wyścigowym w osiągach, pozostając przenośne.',
+        'Produkujemy platformy wyścigowe dla marek, klubów i organizatorów zawodów z precyzyjnymi rdzeniami drop-stitch, warstwowością wyścigową i kształtami kadłubów stworzonymi pod prędkość — testowanymi w naszym hydrodynamicznym zbiorniku próbnym.',
+      ],
+      faqs: [
+        {
+          q: 'Jakie wymiary desek SUP wyścigowych możecie produkować?',
+          a: 'Typowe platformy wyścigowe sięgają od 12′6″ × 28″ dla klas 12′6 do 14′ × 23″–25″ dla formatów unlimited/Touring. Szerokość, rocker i profil dziobu ustalamy dla docelowej grupy zawodników i weryfikujemy na fizycznej próbce.',
+        },
+        {
+          q: 'Czy deski wyścigowe wymagają specjalnej konstrukcji?',
+          a: 'Tak — deski wyścigowe używają lżejszego, gęściej tkanego rdzenia drop-stitch z wyższym ciśnieniem (18–20 PSI) oraz sztywniejszego wzmocnienia listew krawędziowych, aby utrzymać kształt kadłuba przy dużej prędkości. Wybór warstwowości (jedna lub dwie warstwy) to kompromis między wagą a sztywnością, który ustalamy z Tobą dla każdego projektu.',
+        },
+        {
+          q: 'Czy kluby mogą zamówić deski wyścigowe dla swojej drużyny?',
+          a: 'Tak. Programy klubowe i drużynowe zamawiają od 90–100+ szt. (wolumen) z grafiką klubu i mogą łączyć platformy wyścigowe i treningowe w jednym zamówieniu. Ceny flotowe obowiązują dla wolumenów łącznych.',
+        },
+      ],
+    },
+    {
+      slug: 'surf',
+      navLabel: 'Surf',
+      metaTitle: 'Nadmuchiwane deski SUP surf na zamówienie — platformy hybrydowe OEM | iSupfactory',
+      metaDescription:
+        'Nadmuchiwane deski SUP surf na zamówienie — profile hybrydowe z zaokrąglonymi listwami krawędziowymi i podwyższonym rockerem, produkowane pod Twoją marką od 90–100+ szt. w Qingdao, Chiny.',
+      kicker: 'Seria · Surf',
+      h1: 'Nadmuchiwane deski SUP surf na zamówienie — platformy hybrydowe do jazdy na fali',
+      intro: [
+        'Deski surf SUP dają osiągi na fali w przenośnej platformie: krótsza długość, wyższy rocker, zaokrąglone listwy krawędziowe i wklęsłe dzioba, które utrzymują tor na zboczu fali. Nadmuchiwane kształty surf to najbardziej wybaczający sposób na wejście w pływanie na falach.',
+        'Produkujemy platformy surf pod Twoją marką z kształtowaniem i detalami konstrukcyjnymi dedykowanymi fali — od kompletnych zestawów typu soft-top po układy o wysokich osiągach.',
+      ],
+      faqs: [
+        {
+          q: 'Jakie rozmiary desek SUP surf są dostępne?',
+          a: 'Typowe platformy surf mają od 8′6″ do 10′6″ przy szerokości około 30″–34″. Długość, rocker i profil listew krawędziowych ustalamy na podstawie wagi zawodnika i typu fali, a następnie weryfikujemy na fizycznej próbce przed produkcją.',
+        },
+        {
+          q: 'Czy nadmuchiwane deski surf są wystarczająco trwałe do wypożyczalni?',
+          a: 'Dzięki wzmocnionym listwom krawędziowym i PVC odpornemu na UV nasze platforme surf wytrzymują eksploatację wypożyczalni i szkół nauki jazdy na desce. Floty wypożyczalni zwykle łączą kształty allround i surf — ceny flotowe obowiązują dla całego wolumenu mieszanego.',
+        },
+        {
+          q: 'Czy możecie odtworzyć naszą grafikę marki na deskach surf?',
+          a: 'Tak. Grafika pokładowa na całej desce, ilustracja spodu, dywany EVA i opakowanie są produkowane z Twoich plików lub rozwijane przez nasz zespół projektowy na podstawie materiałów marki.',
+        },
+      ],
+    },
+    {
+      slug: 'touring',
+      navLabel: 'Touring',
+      metaTitle: 'Nadmuchiwane deski SUP touring na zamówienie — platformy długodystansowe OEM | iSupfactory',
+      metaDescription:
+        'Nadmuchiwane deski SUP touring na zamówienie do wiosłowania na dalsze dystanse — kadłuby 12′6″+, zdolność do wielodniowych wypraw, wolumeny OEM od 90–100+ szt., bezpośrednio z fabryki.',
+      kicker: 'Seria · Touring',
+      h1: 'Nadmuchiwane deski SUP touring na zamówienie — zbudowane na dystans, ładunek i długie trasy',
+      intro: [
+        'Deski touring są długie i wydajne: szpiczaste dzioba dla ślizgu, umiarkowana objętość dla stabilności na otwartej wodzie i wystarczająca długość kadłuba, by przewozić sprzęt na wielodniowych wyprawach. To platforma z wyboru dla osób pływających na dystanse i wyprawy ekspedycyjne.',
+        'Produkujemy platformy touring pod Twoją marką z kształtowaniem na przemieszczenie, punktami mocowania i przestrzenią pokładową na bagaż oraz akcesoriami kompatybilnymi z karbonem (bungee, D-ringle, uchwyty).',
+      ],
+      faqs: [
+        {
+          q: 'Jakie rozmiary desek SUP touring produkujecie?',
+          a: 'Platformy touring zwykle mają od 12′6″ do 14′ przy szerokości 28″–32″. Dłuższe kadłuby 14′ priorytetują ślizg, a szersze wersje dodają stabilność ładunku. Specyfikację potwierdzamy na fizycznej próbce przed produkcją seryjną.',
+        },
+        {
+          q: 'Czy deski touring mają opcje ładunku i mocowania?',
+          a: 'Tak — siatki ładunkowe bungee, siatki D-ringi, uchwyty na wędki i systemy szyn akcesoryjnych są ustalane dla każdego projektu. Zestawy touring zwykle łączą deski z plecakami i pompkami wysokociśnieniowymi.',
+        },
+        {
+          q: 'Czy dostarczacie deski touring wypożyczalniom i organizatorom wypraw?',
+          a: 'Tak. Wypożyczalnie i organizatorzy mogą prowadzić dedykowane floty touring od 20–50 szt. (pilotażowo) z cenami flotowymi, częściami zamiennymi i określonym sezonowym cyklem odświeżenia.',
+        },
+      ],
+    },
+    {
+      slug: 'yoga',
+      navLabel: 'Yoga',
+      metaTitle: 'Nadmuchiwane deski SUP do jogi na zamówienie — szerokie stabilne platformy OEM | iSupfactory',
+      metaDescription:
+        'Nadmuchiwane deski SUP do jogi na zamówienie — wyjątkowo szerokie stabilne platformy z miękkim pokładem dla studiów, resortów i instruktorów. Wolumeny OEM od 90–100+ szt., bezpośrednio z fabryki.',
+      kicker: 'Seria · Yoga',
+      h1: 'Nadmuchiwane deski SUP do jogi na zamówienie — wyjątkowo szerokie platformy do ćwiczeń na wodzie',
+      intro: [
+        'Deski do jogi są zbudowane pod spokój: dodatkowa szerokość i objętość dla stabilnej platformy, miękkie pokłady dla dłoni i stóp oraz niskie profile, które trzymają deskę blisko wody. Służą studiom jogi, resortom i instruktorom prowadzącym programy jogi na wodzie.',
+        'Produkujemy platformy jogi pod Twoją marką z najszerszymi profilami stabilnymi, pokładami EVA klasy premium i opcjami w skali programu dla studiów i flot resortowych.',
+      ],
+      faqs: [
+        {
+          q: 'Co sprawia, że deska SUP nadaje się do jogi?',
+          a: 'Najpierw stabilność: dodatkowa szerokość (33″–36″) i objętość utrzymują deskę płaską i nieruchomą. Miękki dywan EVA chroni dłonie, kolana i stopy, a niski profil listwy krawędziowej ogranicza chwianie się przy wchodzeniu i schodzeniu.',
+        },
+        {
+          q: 'Czy resorty mogą zamawiać deski do jogi jako część floty?',
+          a: 'Tak. Resorty zwykle łączą platformy jogi z deskami allround dla gości. Łączne wolumeny flotowe kwalifikują się do cen flotowych, a grafika w kolorystyce obiektu obowiązuje dla całego zamówienia.',
+        },
+        {
+          q: 'Czy deski do jogi obejmują kompletne zestawy?',
+          a: 'Tak — nadmuchiwana deska, wiosło, pompka, plecak i zestaw naprawczy albo uproszczony zestaw do przechowywania na miejscu (deska + wiosło + pompka elektryczna), zależnie od wymagań programu.',
+        },
+      ],
+    },
+    {
+      slug: 'whitewater',
+      navLabel: 'Spływy',
+      metaTitle: 'Nadmuchiwane deski SUP do spływów na zamówienie — platformy rzeczne OEM | iSupfactory',
+      metaDescription:
+        'Nadmuchiwane deski SUP do spływów na zamówienie dla rzek i rapids — krótkie, zwrotne kadłuby ze wzmocnioną konstrukcją odporną na uderzenia. Wolumeny OEM od 90–100+ szt. w Qingdao, Chiny.',
+      kicker: 'Seria · Spływy',
+      h1: 'Nadmuchiwane deski SUP do spływów na zamówienie — kadłuby rzeczne zbudowane na uderzenia',
+      intro: [
+        'Deski do spływów są krótkie, szerokie i wytrzymałe: zwrotne kadłuby skręcające na żądanie, wysoka odporność na uderzenia o listwy krawędziowe i solidna konstrukcja na płytkie dna rzeczne oraz kamienne miejsca wkładania.',
+        'Produkujemy platformy do spływów pod Twoją marką ze wzmocnionymi szwami, listwami odpornymi na uderzenia i kształtami dedykowanymi rzece — zbudowanymi dla szkół, przewodników i wypożyczalni sprzętu rzecznego prowadzących codzienne lekcje i wyprawy.',
+      ],
+      faqs: [
+        {
+          q: 'Jakiej konstrukcji wymagają deski do spływów?',
+          a: 'Wzmocnione listwy krawędziowe i podwójne przeszycie pochłaniają uderzenia o brzeg, a gruby PVC i wielowarstwowa budowa stawiają opór przebiciom od dna rzeki. Konstrukcje dwukomorowe dają dodatkową rezerwę unoszenia na odległych rzekach.',
+        },
+        {
+          q: 'Czy zaopatrzacie wypożyczalnie sprzętu rzecznego i szkoły przewodników?',
+          a: 'Tak. Wypożyczalnie i szkoły przewodników prowadzą floty do spływów od 20–50 szt. (pilotażowo) z cenami flotowymi, wytrzymałymi zestawami naprawczymi i częściami zapasowymi do płetw oraz zaworów — typowe dla programów rzecznych o wysokim natężeniu użytkowania.',
+        },
+        {
+          q: 'Czy deski do spływów mogą mieć grafikę marki?',
+          a: 'Tak — grafika na całej desce, umiejscowienie logo i barwy zespołowe są produkowane z Twoich plików. Odporne na rozdarcia warstwy druku utrzymują oznaczenie marki nawet przy intensywnej eksploatacji.',
+        },
+      ],
+    },
+    {
+      slug: 'fishing',
+      navLabel: 'Wędkarskie',
+      metaTitle: 'Nadmuchiwane deski SUP wędkarskie na zamówienie — OEM i własna marka | iSupfactory',
+      metaDescription:
+        'Nadmuchiwane deski SUP wędkarskie na zamówienie ze stabilnością, nośnością i uchwytami na akcesoria — wolumeny OEM/własna marka od 90–100+ szt., bezpośrednio z fabryki w Qingdao, Chiny.',
+      kicker: 'Seria · Wędkarskie',
+      h1: 'Nadmuchiwane deski SUP wędkarskie na zamówienie — zbudowane z myślą o wędkarzach',
+      intro: [
+        'Deski wędkarskie to stabilne platformy do rzucania: szerokie i o dużej objętości, by unieść wędkarza wraz ze sprzętem, z systemami montażu dla uchwytów na wędki, skrzynek lodowych i przynęt oraz cichą konstrukcją ułatwiającą podejście do ryby.',
+        'Produkujemy platformy wędkarskie pod Twoją marką z funkcjami dedykowanymi wędkarzom, ustalanymi dla każdego projektu — od zestawów weekendowych po pełne konfiguracje turniejowe.',
+      ],
+      faqs: [
+        {
+          q: 'Jakie funkcje desek SUP wędkarskich można określić?',
+          a: 'Siatki montażowe do uchwytów na wędki i akcesoria, szyny na sprzęt, paski na skrzynki lodowe, punkty kotwiące oraz deski o nośności do 500 lbs na wędkarza wraz ze sprzętem. Zestawy mogą obejmować wiosła, pompki i torby z Twoją marką.',
+        },
+        {
+          q: 'Jaka jest minimalna ilość zamówienia (MOQ) dla zamówień OEM desek SUP wędkarskich?',
+          a: 'Serie o standardowym wolumenie zaczynają się od 90–100+ szt. na rolkę 150 m; serie pilotażowe od 20–50 szt. na platformach standardowych; własne narzędzia od 90–100+ szt. na kształt. Próbki wysyłamy w 7–12 dni; produkcja trwa 25–35 dni od potwierdzonego zamówienia i zaliczki.',
+        },
+        {
+          q: 'Czy produkujecie deski wędkarskie dla wypożyczalni i firm prowadzących wyprawy?',
+          a: 'Tak. Przewodnicy i wypożyczalnie prowadzą floty wędkarskie z cenami flotowymi, częściami zamiennymi i zestawami naprawczymi dobranymi do programów codziennego użytkowania.',
+        },
+      ],
+    },
+    {
+      slug: 'kids',
+      navLabel: 'Dziecięce',
+      metaTitle: 'Nadmuchiwane deski SUP dla dzieci na zamówienie — małe lekkie platformy OEM | iSupfactory',
+      metaDescription:
+        'Nadmuchiwane deski SUP dla dzieci na zamówienie — krótsze, lżejsze platformy z pokładem przyjaznym dzieciom, zaprojektowane dla bezpieczeństwa i zabawy. Wolumeny OEM od 90–100+ szt., bezpośrednio z fabryki.',
+      kicker: 'Seria · Dziecięce',
+      h1: 'Nadmuchiwane deski SUP dla dzieci na zamówienie — małe, lekkie i gotowe na pierwsze wypady',
+      intro: [
+        'Deski dla dzieci mają proporcje dostosowane do młodych osób: krótsze kadłuby, lżejsza waga, węższe szerokości dopasowane do małych ciał oraz miękkie pokłady wybaczające upadki. To punkt wejścia dla marek rodzinnych, szkół i flot wypożyczalni obsługujących dzieci.',
+        'Produkujemy platformy dla dzieci pod Twoją marką w rozmiarach standardowych i juniorskich, z przyjaznymi rodzinie wariantami zestawów.',
+      ],
+      faqs: [
+        {
+          q: 'W jakich rozmiarach dostępne są deski SUP dla dzieci?',
+          a: 'Typowe platformy dla dzieci mają od 7′ do 9′6″ przy szerokości 26″–30″ i wadze około 7–9 kg (15–20 lbs). Rozmiar dopasowujemy do wieku i wagi użytkownika, a następnie weryfikujemy na fizycznej próbce przed produkcją.',
+        },
+        {
+          q: 'Czy zaopatrzacie szkoły i programy młodzieżowe?',
+          a: 'Tak — nasze platformy dla dzieci są typowym elementem flot szkolnych i młodzieżowych, zamawianych razem z wiosłami juniorskimi i akcesoriami dla początkujących w cenach programowych.',
+        },
+        {
+          q: 'Czy deski dla dzieci mogą mieć grafikę marki i postaci?',
+          a: 'Tak. Warianty kolorystyczne całej deski, ilustracje postaci i umiejscowienie logo powstają z Twoich plików lub wytycznych marki — drukowane w tych samych odpornych na rozdarcia warstwach co deski dla dorosłych.',
+        },
+      ],
+    },
+    {
+      slug: 'multi',
+      navLabel: 'Wieloosobowe',
+      metaTitle: 'Nadmuchiwane deski SUP wieloosobowe na zamówienie — tandem i rodzina, OEM | iSupfactory',
+      metaDescription:
+        'Nadmuchiwane deski SUP wieloosobowe na zamówienie do rodzinnej rekreacji i zajęć grupowych — platformy tandem, yard i party. Wolumeny OEM od 90–100+ szt., bezpośrednio z fabryki.',
+      kicker: 'Seria · Wieloosobowe',
+      h1: 'Nadmuchiwane deski SUP wieloosobowe na zamówienie — tandemy, yardy i platformy party',
+      intro: [
+        'Deski wieloosobowe otwierają SUP na grupy: tandemy z dodatkowymi pozycjami do wiosłowania, deski yard do opalania i odpoczynku oraz platformy party mieszczące kilka osób. Stanowią podstawę przychodów z wypożyczalni w resortach, nad morzem i na jeziorach.',
+        'Produkujemy platformy wieloosobowe pod Twoją marką z profilami stabilności i objętości odpowiadającymi każdemu zastosowaniu.',
+      ],
+      faqs: [
+        {
+          q: 'Jakie rodzaje desek wieloosobowych oferujecie?',
+          a: 'Tandemy (dwie osoby, ok. 13′–14′), deski yard (krótkie, szerokie platformy do odpoczynku) oraz platformy party o dużej objętości dla 3–6 osób. Każdy rodzaj ustalamy pod kątem nośności, wagi i zamierzonego zastosowania.',
+        },
+        {
+          q: 'Czy deski wieloosobowe to dobra inwestycja dla wypożyczalni?',
+          a: 'Tak — pozwalają uzyskiwać wyższe stawki godzinowe przy niższym koszcie wyposażenia na osobę i utrzymują grupę razem, zamiast rozdzielać ją na pojedyncze deski. Wypożyczalnie zwykle łączą deski wieloosobowe z flotami allround.',
+        },
+        {
+          q: 'Jaka jest nośność platformy party?',
+          a: 'Nośność zależy od wymiarów i objętości: typowe deski yard i platformy party wytrzymują 400–700 lbs i zabierają 3–6 osób, w zależności od rozmiaru i konfiguracji. Specyfikację potwierdzamy na fizycznej próbce przed produkcją seryjną.',
+        },
+      ],
+    },
+  ],
 }
 
 export function getSeriesPage(locale: Locale, slug: string): SeriesPageData | undefined {

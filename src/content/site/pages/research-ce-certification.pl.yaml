@@ -1,0 +1,69 @@
+meta:
+  title: 'Jak działa certyfikacja CE dla nadmuchiwanych desek SUP'
+  description: 'Jak działa certyfikacja CE dla nadmuchiwanych desek SUP, łodzi i kajaków: dyrektywy (2013/53/EU RCD, PPE 2016/425), badania, jednostki notyfikowane i dokumentacja techniczna.'
+  author: 'iSupfactory'
+  datePublished: '2026-08-04'
+  dateModified: '2026-08-07'
+back_text: 'Powrót do badań'
+
+hero:
+  tagline: 'Zgodność'
+  title: 'Jak działa certyfikacja CE dla nadmuchiwanych desek SUP i kajaków'
+  subtitle: '7 min czytania'
+
+answer:
+  label: 'Krótka odpowiedź'
+  text: 'Nadmuchiwane deski SUP podlegają dyrektywie UE w sprawie jednostek rekreacyjnych 2013/53/EU, gdy długość kadłuba przekracza 2.5 m, albo dyrektywie w sprawie ogólnego bezpieczeństwa produktów, gdy jest mniejsza. Certyfikacja pierwszego produktu kosztuje około 13,000&ndash;31,000 EUR i trwa 8&ndash;14 tygodni: dokumentacja techniczna, badania typu w jednostce notyfikowanej, audyt fabryki, a następnie deklaracja zgodności.'
+  verified: 'Wrzesień 2026'
+
+content_html: |
+  <h2>Czym jest certyfikacja CE?</h2>
+  <p>Oznakowanie CE (Conformit&eacute; Europ&eacute;enne) wskazuje, że produkt spełnia unijne wymagania w zakresie zdrowia, bezpieczeństwa i środowiska. W przypadku nadmuchiwanych jednostek pływających właściwy pakiet regulacyjny zależy od kategorii produktu.</p>
+
+  <h2>Obowiązujące dyrektywy</h2>
+
+  <h3>Dyrektywa w sprawie jednostek rekreacyjnych (2013/53/EU)</h3>
+  <p>Główna dyrektywa dla większości nadmuchiwanych łodzi, desek SUP i kajaków. Odnosi się do jednostek rekreacyjnych o długości kadłuba od 2.5 m do 24 m, do jednostek częściowo ukończonych (na potrzeby dostaw OEM) oraz do skuterów wodnych.</p>
+
+  <h3>Rozporządzenie w sprawie środków ochrony indywidualnej (2016/425)</h3>
+  <p>Kamizelki ratunkowe, koła ratunkowe i wyposażenie bezpieczeństwa dostarczane z jednostkami pływającymi muszą spełniać wymagania rozporządzenia PPE, w tym badanie typu (moduł B) przeprowadzone przez jednostkę notyfikowaną oraz zapewnienie jakości produkcji (moduł D lub E).</p>
+
+  <h2>Proces certyfikacji</h2>
+  <ol>
+    <li>Klasyfikacja produktu: ustal projektową kategorię jednostki pływającej (A – D zgodnie z ISO 8666)</li>
+    <li>Obowiązujące normy: EN ISO 6185 (części 1 – 4), EN ISO 10087 (HIN), EN ISO 14945 (tabliczka producenta)</li>
+    <li>Opracowanie dokumentacji technicznej: rysunki konstrukcyjne, lista materiałowa (BOM), certyfikaty materiałowe, ocena ryzyka</li>
+    <li>Badania typu: wyporność, stabilność, ładowność, badania materiałowe, wytrzymałość szwów, szczelność</li>
+    <li>Kontrola produkcji w fabryce: audyt procesów produkcyjnych przez jednostkę notyfikowaną</li>
+    <li>Deklaracja zgodności: producent podpisuje DoC i umieszcza oznakowanie CE</li>
+  </ol>
+
+  <h2>Jednostki notyfikowane dla nadmuchiwanych jednostek pływających</h2>
+  <p>Typowe jednostki notyfikowane to Bureau Veritas (Francja), DNV GL (Niemcy), RINA (Włochy), T&Uuml;V Rheinland / T&Uuml;V S&Uuml;D (Niemcy).</p>
+
+  <h2>Terminy i koszty</h2>
+  <table class="w-full text-sm border-collapse">
+    <thead>
+      <tr class="bg-gray-100">
+        <th class="p-3 text-left font-semibold text-gray-900 border">Etap</th>
+        <th class="p-3 text-left font-semibold text-gray-900 border">Czas trwania</th>
+        <th class="p-3 text-left font-semibold text-gray-900 border">Typowy koszt (EUR)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td class="p-3 border">Opracowanie dokumentacji technicznej</td><td class="p-3 border">2 – 4 tygodnie</td><td class="p-3 border">2,000 – 5,000</td></tr>
+      <tr><td class="p-3 border">Badania typu</td><td class="p-3 border">4 – 8 tygodni</td><td class="p-3 border">8,000 – 20,000</td></tr>
+      <tr><td class="p-3 border">Audyt fabryki</td><td class="p-3 border">1 – 2 dni (na miejscu)</td><td class="p-3 border">3,000 – 6,000</td></tr>
+      <tr><td class="p-3 border">Razem (pierwszy produkt)</td><td class="p-3 border">8 – 14 tygodni</td><td class="p-3 border">13,000 – 31,000</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Co to oznacza dla kupujących</h2>
+  <p>Kupując deski z certyfikacją CE, zawsze sprawdź, czy oznakowanie CE znajduje się na tabliczce producenta, czy istnieje ważna deklaracja zgodności (DoC), czy podano numer jednostki notyfikowanej oraz czy instrukcja właściciela zawiera instrukcje bezpieczeństwa w Twoim języku. Wszystkie produkty Vatrad mają certyfikację CE z pełną identyfikowalnością do raportów z audytów jednostek notyfikowanych.</p>
+  <p>Certyfikacja jest częścią każdej serii produkcyjnej w naszym zakładzie w Qingdao — zobacz <a href="/pl/factory">przebieg kontroli jakości i testów w fabryce</a> oraz sposób, w jaki wspieramy <a href="/pl/oem-manufacturing">zgodność z CE dla partnerów OEM i private label</a>.</p>
+
+cta:
+  title: 'Potrzebujesz wsparcia w certyfikacji CE?'
+  subtitle: 'Obsługujemy certyfikację dla partnerów OEM na całym świecie.'
+  button_text: 'Rozpocznij proces certyfikacji'
+  button_link: /pl/contact

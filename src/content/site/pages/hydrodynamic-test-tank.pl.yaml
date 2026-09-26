@@ -1,0 +1,115 @@
+meta:
+  title: 'Basen hydrodynamiczny — badania osiągów desek SUP'
+  description: 'Zweryfikuj osiągi kadłuba deski SUP w naszym basenie hydrodynamicznym. Holowanie modeli w skali, analiza położenia hydrodynamicznego i pomiar oporu dla różnych kształtów desek.'
+  dateModified: '2026-08'
+back_text: 'Wróć do Centrum B&R'
+home_label: 'Strona główna'
+
+answer:
+  label: 'Wprost'
+  text: 'Testujemy kształty kadłubów SUP w skali modeli 1:3 do 1:5 — profil nosa, promień krawędzi, rocker i powierzchnię zwilżoną — mierząc opór, skuteczność ślizgu i stabilność, zanim podejmiemy decyzję o pełnoskalowym prototypie. Tydzień w basenie daje dane o osiągach, których zbieranie metodą prób i błędów w pełnej skali zajęłoby miesiące.'
+  verified: 'Wrzesień 2026'
+
+hero:
+  tagline: 'Laboratorium 04'
+  title: 'Basen hydrodynamiczny'
+  subtitle: 'Weryfikacja osiągów przed pierwszym pełnoskalowym prototypem'
+  image: 'https://assets.isupfactory.com/images/sups/factory/isupfactory-design-discussion-original.webp'
+  image_alt: 'Badanie osiągów w basenie hydrodynamicznym Vatrad'
+
+intro: 'Częstym błędem jest przekonanie, że badania hydrodynamiczne są zarezerwowane dla statków i jednostek wyścigowych. W rzeczywistości osiągi deski SUP — kadłuba glidingowego o długości od 10 do 14 stóp — zależą od kształtu pod wodą nie mniej niż jakikolwiek inna jednostka. Profil nosa, promień krawędzi, rocker i pole powierzchni zwilżonej mają dramatyczny wpływ na opór, skuteczność ślizgu i stabilność. W {SITE.name} prowadzimy dedykowany basen hydrodynamiczny, który pozwala nam mierzyć te efekty w skali modelu — zanim zainwestujemy w tkaninę i narzędzia pełnoskalowego prototypu.'
+
+content_html: |
+  <h2>Dlaczego testować deskę SUP w basenie?</h2>
+  <p>Testy w skali modelu (zwykle 1:3 do 1:5) dają nam możliwość szybkiego i opłacalnego iterowania kształtów desek. Tydzień w basenie generuje te same dane o osiągach, które w skali pełnej wymagałyby miesięcy prób i błędów — i to przy ułamku kosztów.</p>
+
+  <h2>Specyfikacja obiektu</h2>
+  <table>
+    <thead><tr><th>Parametr</th><th>Specyfikacja</th></tr></thead>
+    <tbody>
+      <tr><td>Wymiary basenu</td><td>35 m (L) × 3.5 m (W) × 1.8 m (D)</td></tr>
+      <tr><td>Wózek holowniczy</td><td>Elektryczny, serwomotory, maks. prędkość 12 m/s (23 węzłów), dokładność prędkości ± 0.5 %</td></tr>
+      <tr><td>Wzbudzacz fal</td><td>Typu klapowego, programowalne stany morza regularne i nieregularne, Hs do 0.3 m w skali modelu</td></tr>
+      <tr><td>Instrumentacja</td><td>6-komponentowy dynamometr (opór, siła boczna, moment obrotu), akcelerometry, inklinometry, sondy falowe</td></tr>
+      <tr><td>Akwizycja danych</td><td>Próbkowanie 1000 Hz na kanał, wyświetlanie w czasie rzeczywistym + pakiet do obróbki końcowej</td></tr>
+      <tr><td>Wykonanie modeli</td><td>Własne frezowanie CNC i druk 3D dla kadłubów modeli do 1.8 m długości całkowitej</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Nasz program testowy</h2>
+  <p>Standardowy program rozwoju deski w naszym basenie przebiega następująco:</p>
+  <ol>
+    <li><strong>Budowa modelu</strong> — Model w skali 1:4 frezujemy na CNC z pianki o wysokiej gęstości i laminujemy szkłem dla sztywności. Masę i środek ciężkości dopasowujemy do warunków pełnego obciążenia w skali Froude’a.</li>
+    <li><strong>Przebiegi oporowe</strong> — Model holujemy przy 6-10 prędkościach obejmujących zakres wiosłowania (2–6 węzłów w skali pełnej). Mierzymy opór całkowity i rozdzielamy go na składowe tarcia i oporu pozostałego metodą ITTC-1957.</li>
+    <li><strong>Pomiar położenia i zanurzenia</strong> — Przy każdej prędkości rejestrujemy położenie i zanurzenie. Celem jest kąt nachylenia minimalizujący powierzchnię zwilżoną przy utrzymaniu nosa poza falą czołową.</li>
+    <li><strong>Pomiar fal wody za jednostką</strong> — Poprzeczne ścizy fal mierzymy przy dwóch prędkościach, aby ocenić opór falotwórczy i wskazać interakcje kształtu nosa spowalniające deskę w wodzie.</li>
+    <li><strong>Badanie falochronności (opcjonalnie)</strong> — Przebiegi w falach regularnych od strony dziobu, aby zmierzyć opór dodatkowy i przyspieszenia pionowe na fali — dane stojące za projektem nosa desek touringowych.</li>
+    <li><strong>Analiza danych i zalecenia</strong> — Przekazujemy pełny raport z wykresami porównawczymi, krzywymi opór/prędkość i konkretnymi zaleceniami projektowymi dla deski w pełnej skali.</li>
+  </ol>
+
+  <div class="not-prose my-10 p-6 rounded-xl bg-gray-50 dark:bg-gray-900 border border-gray-200 dark:border-gray-800">
+    <p class="text-sm font-semibold text-gray-500 mb-3 uppercase tracking-wider">Typowe wyniki testów w basenie — opór a prędkość (deska allround 11''0, skala 1:4)</p>
+    <div class="space-y-2">
+      <div class="flex items-center gap-2 text-xs">
+        <span class="w-20">2 kn (1:1)</span>
+        <div class="flex-1 bg-gray-200 dark:bg-gray-700 h-5 rounded">
+          <div class="h-full bg-blue-600 rounded" style="width:18%"></div>
+        </div>
+        <span class="w-16 text-right">11 N</span>
+      </div>
+      <div class="flex items-center gap-2 text-xs">
+        <span class="w-20">3 kn (1:1)</span>
+        <div class="flex-1 bg-gray-200 dark:bg-gray-700 h-5 rounded">
+          <div class="h-full bg-blue-600 rounded" style="width:35%"></div>
+        </div>
+        <span class="w-16 text-right">21 N</span>
+      </div>
+      <div class="flex items-center gap-2 text-xs">
+        <span class="w-20">4 kn (1:1)</span>
+        <div class="flex-1 bg-gray-200 dark:bg-gray-700 h-5 rounded">
+          <div class="h-full bg-blue-600 rounded" style="width:52%"></div>
+        </div>
+        <span class="w-16 text-right">32 N</span>
+      </div>
+      <div class="flex items-center gap-2 text-xs">
+        <span class="w-20">5 kn (1:1)</span>
+        <div class="flex-1 bg-gray-200 dark:bg-gray-700 h-5 rounded">
+          <div class="h-full bg-blue-600 rounded" style="width:68%"></div>
+        </div>
+        <span class="w-16 text-right">42 N</span>
+      </div>
+      <div class="flex items-center gap-2 text-xs">
+        <span class="w-20">6 kn (1:1)</span>
+        <div class="flex-1 bg-gray-200 dark:bg-gray-700 h-5 rounded">
+          <div class="h-full bg-blue-600 rounded" style="width:85%"></div>
+        </div>
+        <span class="w-16 text-right">52 N</span>
+      </div>
+    </div>
+    <p class="text-xs text-gray-400 mt-2">Opór w skali modelu (N) przy prędkościach w skali Froude’a. Prognoza mocy w pełnej skali według metody predykcji osiągów ITTC-1978.</p>
+  </div>
+
+  <h2>Zespół ekspertów</h2>
+  <p>Naszym basenem kieruje hydrodynamik z doktoratem z architektury morskiej i 8-letnim doświadczeniem w holowaniu w dużym europejskim instytucie badań morskich. Wspiera go technik przygotowujący wszystkie modele i aparaturę. Zespół stosuje zalecane procedury ITTC (International Towing Tank Conference), aby każdy test był powtarzalny, identyfikowalny i obronny na arenie międzynarodowej.</p>
+
+  <h2>Testy w basenie przy rozwoju desek na zamówienie</h2>
+  <p>Naszego basenu używamy nie tylko do desek projektowanych własnych — regularnie prowadzimy programy testowe dla klientów, którzy chcą zweryfikować własny kształt deski lub zbadać problem z osiągami:</p>
+  <ul>
+    <li><strong>Porównanie kształtów</strong> — Dwa lub więcej kandydujących kształtów desek badanych w identycznych warunkach, co daje obiektywne porównanie opór/prędkość/stabilność ułatwiające wybór projektu.</li>
+    <li><strong>Optymalizacja krawędzi i nosa</strong> — Warianty profilu nosa i promienia krawędzi można badać w różnych konfiguracjach, aby zmierzyć ich wkład w redukcję oporu.</li>
+    <li><strong>Badanie obciążenia pływakiem</strong> — Dane oporu mapujemy w całym zakresie znamionowej masy pływaka, co pozwala Ci dobrać właściwą długość i szerokość dla docelowego pływaka.</li>
+  </ul>
+
+  <h2>Dlaczego testować u nas?</h2>
+  <p>Nie oddajemy Ci zestawu surowych liczb. Nasze raporty przekładają dane z basenu na wykonalne zalecenia inżynieryjne: „Podnieś rocker nosa o 10 mm, aby zmniejszyć opór fali czołowej przy prędkości rejsowej”, „Zaokrąglij krawędź w sekcji środkowej, aby zmniejszyć powierzchnię zwilżoną” albo „Przesuń przestrzeń do stania o 50 mm do przodu, aby poprawić położenie”. Wychodzisz z jasnym rozumieniem, co zmienić i dlaczego.</p>
+  <p>Nasz basen jest też dostępny do niezależnych testów podmiotów trzecich w modelu usługowym. Jeśli rozwijasz deskę i chcesz bezstronnej, profesjonalnie wykonanej oceny hydrodynamicznej, zapraszamy do kontaktu.</p>
+
+cta:
+  title: 'Zarezerwuj sesję testową w basenie'
+  subtitle: 'Niezależnie od tego, czy potrzebujesz pełnego programu rozwojowego, czy pojedynczego testu porównawczego, dostosujemy się do Twojego harmonogramu.'
+  actions:
+    - variant: primary
+      text: Skontaktuj się z naszym zespołem hydrodynamiki
+      href: /pl/contact#project-brief
+    - text: Wróć do Centrum B&R
+      href: /pl/randdcenter

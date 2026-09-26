@@ -146,7 +146,7 @@ test('every en content file has a .nl counterpart (except locale-agnostic site/p
   const dirs = ['pages', 'news', 'products', 'technology', 'case-use', 'site']
   for (const dir of dirs) {
     for (const name of readdirSync(resolve(contentRoot, dir))) {
-      if (name.includes('.de.') || name.includes('.es.') || name.includes('.fr.') || name.includes('.it.') || name.includes('.pt.') || name.includes('.nl.') || name.includes('.sv.') || name.includes('.no.')) continue
+      if (name.includes('.de.') || name.includes('.es.') || name.includes('.fr.') || name.includes('.it.') || name.includes('.pt.') || name.includes('.nl.') || name.includes('.sv.') || name.includes('.no.') || name.includes('.pl.')) continue
       if (dir === 'site' && name === 'pages.yaml') continue
       const nlName = name.replace(/(\.(yaml|mdx|md))$/, '.nl$1')
       if (!existsSync(resolve(contentRoot, `${dir}/${nlName}`))) {

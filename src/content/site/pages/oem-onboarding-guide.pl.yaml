@@ -1,0 +1,125 @@
+meta:
+  title: 'Przewodnik onboardingu OEM — krok po kroku od pierwszego kontaktu po produkcję | iSupfactory'
+  description: 'Przewodnik onboardingu OEM: NDA, przegląd wykonalności, produkcja próbki, zatwierdzenie, planowanie przedprodukcyjne, QC produkcji i wysyłka. Krok po kroku z harmonogramem.'
+  dateModified: '2026-08-20'
+  keywords:
+    - 'przewodnik onboardingu oem'
+    - 'proces produkcji sup'
+    - 'onboarding kupującego oem'
+    - 'proces fabryczny sup'
+    - 'etapy zamówienia sup na zamówienie'
+    - 'proces próbki oem'
+    - 'harmonogram produkcji sup'
+
+hero:
+  tagline: 'Onboarding kupującego OEM'
+  title: 'Twoje pierwsze zamówienie SUP, krok po kroku'
+  subtitle: 'Od pierwszego kontaktu po dostarczone deski onboarding OEM w iSupfactory przebiega przez siedem zdefiniowanych bramek — każda z jasnym terminem, udokumentowanym rezultatem i punktem decyzyji tak/nie. Bez niejasności, bez ukrytych kroków, bez niespodzianek po zaliczce.'
+  actions:
+    - variant: primary
+      text: Rozpocznij brief projektu
+      href: /pl/contact#project-brief
+    - text: Porównaj ścieżki OEM, ODM i private label
+      href: /pl/oem-odm-private-label-comparison
+
+answer:
+  label: 'Wprost'
+  text: 'Typowy onboarding OEM trwa 2–4 tygodnie do zatwierdzenia próbki i 6–8 tygodni do pierwszej serii produkcyjnej od potwierdzonego zamówienia. Zaczynasz od złożenia briefu projektu (specyfikacja deski, wolumen, wymagania zgodności). Odpowiadamy w ciągu jednego dnia roboczego, proponujemy NDA przed udostępnieniem szczegółów własnych i wytwarzamy 1–2 fizyczne próbki w 7–12 dni do Twojego przeglądu i zatwierdzenia. Po zamrożeniu próbki następują planowanie i produkcja z ustalonymi bramkami QC na każdym etapie. Każdy krok jest udokumentowany i identyfikowalny.'
+  verified: 'Wrzesień 2026'
+
+process_steps:
+  tagline: Siedem bramek
+  title: 'Przepływ onboardingu — siedem bramek od briefu po dostawę'
+  subtitle: 'Każda bramka ma zdefiniowane wejście, zdefiniowane wyjście i termin uzgodniony z góry. Nigdy nie przechodzisz za bramkę bez wyraźnego zatwierdzenia.'
+  steps:
+    - step: 'Brama 1'
+      title: 'Zapytanie wstępne i NDA (Dzień 0)'
+      desc: 'Złóż brief projektu przez /contact wraz z docelową specyfikacją deski, wolumenem zamówienia, wymaganiami zgodności i terminem. NDA jest dostępne natychmiast — zanim udostępnisz jakiekolwiek chronione specyfikacje techniczne lub projekt graficzny. Odpowiedź w ciągu jednego dnia roboczego.'
+    - step: 'Brama 2'
+      title: 'Przegląd wykonalności i wycena (Dni 1–5)'
+      desc: 'Inżynieria ocenia Twój brief pod kątem możliwości produkcyjnych, dostępności materiałów i zakresu zgodności. Otrzymujesz wycenę pozycjonowaną z obliczeniem MOQ, opłatami za próbki (zaliczanymi na produkcję) i segmentami czasu realizacji — nie szacunkowy zakres, lecz harmonogram bramka po bramku.'
+    - step: 'Brama 3'
+      title: 'Produkcja próbki (Dni 6–17)'
+      desc: 'Wykonujemy 1–2 fizyczne deski zgodnie z Twoją specyfikacją: sztywność kadłuba, faktura nakładki EVA, wierność grafiki, dopasowanie akcesoriów. Wiosłujesz na desce i oceniasz ją przed jakimkolwiek dalszym zobowiązaniem. Opłaty za próbkę zaliczają się na Twoje zamówienie produkcyjne po podpisaniu umowy.'
+    - step: 'Brama 4'
+      title: 'Przegląd i zatwierdzenie próbki (Dni 18–21)'
+      desc: 'Oceniasz próbkę względem swojej specyfikacji — jakość jazdy, wierność grafiki, opakowanie, akcesoria. Korekty zapisujemy w zaktualizowanym BOM i zatwierdzeniu projektu graficznego. Zamrożona specyfikacja staje się wzorcem produkcyjnym dla wszystkich kolejnych serii.'
+    - step: 'Brama 5'
+      title: 'Planowanie przedprodukcyjne (Dni 22–28)'
+      desc: 'Zakup materiałów, przygotowanie narzędzi, potwierdzenie opakowania i rezerwacja terminu produkcyjnego. Wszystkie materiały przechodzą inspekcję przychodzącą względem zamrożonego BOM. Przed rozpoczęciem produkcji wydajemy harmonogram z datami bramek QC.'
+    - step: 'Brama 6'
+      title: 'Produkcja i bramki QC (Dni 29–55)'
+      desc: 'Produkcja przechodzi przez 7-etapowy system bramek inspekcyjnych: inspekcja materiałów przychodzących, inspekcja tkaniny drop-stitch, zgrzewanie i montaż, badanie ciśnienia i szczelności (18.0 PSI, automatyczne odrzucenie przy spadku powyżej 0.50 PSI), montaż nakładek EVA i akcesoriów, kontrola grafiki i brandingu, opakowanie końcowe i dokumentacja. Każda bramka ma kryteria zaliczenia i zapisy identyfikowalności.'
+    - step: 'Brama 7'
+      title: 'Wysyłka i przegląd po dostawie (Dni 56–63)'
+      desc: 'Opakowanie eksportowe, dokumentacja zgodności (CE, ISO 9001, BSCI, REACH, RoHS) i koordynacja transportu morskiego do ponad 50 krajów. Przegląd po dostawie zbiera wnioski i usprawnienia na kolejny cykl zamówień.'
+
+collaboration_modes:
+  tagline: Wybierz swoją ścieżkę
+  title: 'Trzy modele współpracy, jeden proces onboardingu'
+  subtitle: 'Każdy nowy kupujący przechodzi ten sam siedmiobramkowy onboarding — zmienia się zakres zaangażowania inżynieryjnego oraz miejsce, w którym leży własność intelektualna.'
+  grid: 'sm:grid-cols-2 lg:grid-cols-3'
+  features:
+    - icon: O
+      icon_bg: blue
+      title: 'Produkcja OEM'
+      desc: 'Dostarczasz pełną specyfikację projektu — kształt kadłuba, konstrukcję, grafikę, akcesoria. My produkujemy wg Twojej specyfikacji. To Ty dysponujesz całą własnością intelektualną. Najlepsze dla marek z istniejącą linią produktową i sprawdzoną geometrią deski.'
+      link_label: 'Jak działa OEM'
+      href: /pl/oem-manufacturing
+    - icon: D
+      icon_bg: green
+      title: 'Rozwój ODM'
+      desc: 'Dostarczasz brief — docelową masę pływaka, zastosowanie, przedział cenowy — a nasz zespół inżynierów opracowuje deskę na podstawie Twoich wymagań. Zaadaptowana platforma z Twoim brandingiem. Najlepsze dla marek wchodzących na rynek bez własnych zdolności projektowych.'
+      link_label: 'Jak działa ODM'
+      href: /pl/odm-manufacturing
+    - icon: P
+      icon_bg: purple
+      title: 'Private label / współmarkowanie'
+      desc: 'Nałóż swoją markę na sprawdzoną w praktyce platformę — bez etapu inżynieryjnego. Twoje logo na nosie lub krawędziach bocznych już od 5–10 szt. Najlepsze dla operatorów i dystrybutorów, którzy chcą desek z marką bez cyklu rozwojowego.'
+      link_label: 'Opcje private label'
+      href: /pl/solutions/private-label-sup
+
+checklist:
+  heading: 'Co przygotować przed briefem projektu'
+  body: |
+    Im bardziej kompletny brief, tym szybsza i dokładniejsza wycena. Oto, co warto mieć gotowe:
+
+    - **Specyfikacja deski** — docelowa długość, szerokość, grubość, zakres masy pływaka i zamierzone zastosowanie (touring, allround, surf, wędkarstwo, joga itd.). Jeśli masz wymiary deski wzorcowej lub model konkurenta, dołącz je.
+    - **Pliki projektowe** — wektorowa grafika deski (AI, SVG lub PDF), logo na nakładce EVA i ewentualny branding wtórny. Jeśli projekt nie jest gotowy, moodboard lub zdjęcia referencyjne wystarczą do wstępnej oceny wykonalności.
+    - **Wolumen i termin** — docelowa ilość na pierwsze zamówienie i harmonogram sezonowy, który musisz trafić. Nawet zgrubny zakres („20–50 desek do marca”) wystarczy do potwierdzenia wykonalności i dostępności terminu.
+    - **Wymagania zgodności** — rynki docelowe (UE, Ameryka Północna, Australia itd.) oraz ewentualne specyficzne wymagania certyfikacyjne lub badawcze ponad nasz standardowy zakres (CE, ISO 9001, BSCI, REACH, RoHS).
+    - **Przedział budżetowy** — orientacyjny budżet na deskę lub docenowy koszt lądowy pomaga nam dobrać właściwą platformę i poziom konstrukcji. Dokładna cena jest potwierdzana po przeglądzie inżynieryjnym — nigdy wcześniej.
+
+    Jeśli nie masz jeszcze wszystkiego, wyślij to, co masz. Resztę pomożemy Ci uporządkować.
+
+evidence_review:
+  tagline: 'Dowody i weryfikacja'
+  title: 'ZWERYFIKOWANE SPECYFIKACJE'
+  body: 'Wszystkie deklaracje produkcyjne na tej stronie są weryfikowane przez nasz zespół inżynierii produkcyjnej w fabryce w Laixi, w Qingdao. Certyfikaty, zapisy kontroli jakości, raporty z prób ciśnieniowych i wytrzymałościowych oraz dzienniki identyfikowalności partii są dostępne na żądanie. Specyfikacje zweryfikowano ostatnio we wrześniu 2026.'
+
+faqs:
+  tagline: FAQ
+  title: 'Onboarding OEM — najczęściej zadawane pytania'
+  items:
+    - q: 'Ile trwa cały proces onboardingu?'
+      a: 'Zatwierdzenie próbki trwa zwykle 2–4 tygodnie (w tym produkcja próbki w 7–12 dni i Twój okres przeglądu). Pierwsza seria produkcyjna trwa 6–8 tygodni od potwierdzonego zamówienia i zaliczki. Własny kształt kadłuba dodaje 15–20 dni opracowywania formy. Każda bramka ma stały termin uzgodniony z góry.'
+    - q: 'Czy muszę podpisać NDA przed udostępnieniem projektu?'
+      a: 'NDA jest dostępne natychmiast na życzenie — zanim udostępnisz jakiekolwiek chronione specyfikacje techniczne lub projekt graficzny. Produkujemy wyłącznie pod markami naszych klientów i nigdy z nimi nie konkurujemy na żadnym rynku. Ta sama polityka dotyczy próbki 1 deski i programu kontenerowego.'
+    - q: 'Jaka jest minimalna ilość zamówienia (MOQ) na pierwszą serię OEM?'
+      a: 'Próg wejścia jest stopniowany: najpierw 1–2 próbki (gotowe w 7–12 dni), potem zamówienie próbne lub pilotażowe 20–50 desek (produkcja w 25–35 dni), a następnie standardowe serie 90–100+ desek na zatwierdzoną konfigurację. Współmarkowanie w małej serii startuje od 5–10 szt., gdy nie jest potrzebny etap rozwoju. Opłaty za próbkę zaliczają się na Twoje zamówienie produkcyjne.'
+    - q: 'Jak chroniona jest własność intelektualna podczas onboardingu?'
+      a: 'Twoje projekty i specyfikacje są chronione NDA podpisanym przed udostępnieniem jakichkolwiek chronionych informacji. Cała grafika, dane BOM i pliki techniczne są przechowywane w systemach z kontrolą dostępu i śladami audytu. W modelu OEM to Ty dysponujesz całą własnością intelektualną. W modelu ODM własność intelektualna zaadaptowanej platformy jest dzielona zgodnie z umową. W modelu Private Label własność intelektualna pozostaje w iSupfactory, a Ty licencjonujesz zastosowanie marki.'
+    - q: 'Jakie gwarancje jakości obowiązują pierwsze zamówienie?'
+      a: 'Każda deska — próbka, próbna seria czy wolumen — przechodzi ten sam 7-etapowy system bramek inspekcyjnych: inspekcja materiałów przychodzących, inspekcja tkaniny drop-stitch, zgrzewanie i montaż, 24-godzinne badanie ciśnienia i szczelności (18.0 PSI, automatyczne odrzucenie przy spadku powyżej 0.50 PSI), montaż nakładek EVA i akcesoriów, kontrola grafiki i brandingu oraz opakowanie końcowe i dokumentacja. Jakość nigdy nie jest obniżana dla mniejszych zamówień.'
+
+cta:
+  title: 'Gotowy rozpocząć projekt SUP?'
+  subtitle: 'Wyślij nam specyfikację deski, docelowy wolumen i termin. Potwierdzimy wykonalność, wykonamy próbki i przedstawimy harmonogram produkcji — bramka po bramce, z udokumentowanym QC na każdym kroku.'
+  actions:
+    - variant: primary
+      text: Rozpocznij brief projektu
+      href: /pl/contact#project-brief
+    - text: Porównaj OEM, ODM i private label
+      href: /pl/oem-odm-private-label-comparison
+    - text: Zweryfikuj fabrykę i system jakości
+      href: /pl/proof-center
