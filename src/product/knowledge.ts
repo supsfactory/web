@@ -1383,6 +1383,130 @@ export const knowledge: Localized<KnowledgeArticle[]> = {
       ],
     },
   ],
+  fi: [
+    {
+      slug: 'how-custom-sup-boards-are-developed',
+      navLabel: 'Näin räätälöityjä SUP-lautoja kehitetään',
+      metaTitle: 'Näin räätälöityjä SUP-lautoja kehitetään | iSupfactory',
+      metaDescription:
+        'Näin räätälöity SUP-lauta etenee ideasta tehtaalle: spesifikaatio, suunnittelu, prototyyppi, näyte ja tuotanto — vaihe vaiheelta.',
+      kicker: 'Tietämys',
+      h1: 'Näin räätälöityjä SUP-lautoja kehitetään',
+      intro:
+        'Ennen kuin räätälöity melontalauta lähtee asiakkaille, se käy läpi määritellyn kehityspolun. Jokaisen vaiheen tunteminen auttaa antamaan tehtaalle oikeat ohjeet, asettamaan realistiset aikataulut ja välttämään ensikertaisten ostajien tyypilliset virheet.',
+      sections: [
+        {
+          title: 'Vaihe 1: Määritä vaatimus',
+          body: [
+            'Jokainen kehitysprojekti alkaa käyttötarkoituksesta: kuka lautaa, missä ja kuinka usein. Vuokrauslaudan vaatimukset poikkeavat brändin lanseerauslaudan tai koululaudan vaatimuksista — vakaus, kestävyys ja hintatavoitteet muuttuvat vastauksen mukaan.',
+            'Kirjaa määrä, tavoitehinta ja välttämättömät ominaisuudet ylös ennen kuin otat yhteyttä tehtaaseen. Selkeät vaatimukset tuottavat paremman ensimmäisen tarjouksen ja vähemmän edestakaisista sähköposteja.',
+          ],
+        },
+        {
+          title: 'Vaihe 2: Lukitse spesifikaatio',
+          body: [
+            'Spesifikaatio muuntaa vaatimuksen mitattaviksi arvoiksi: pituus, leveys, paksuus, tilavuus, materiaalit (drop-stitch-tiheys, kankaan paino), eväasennus, painoraja sekä pakkaus.',
+            'Tämä on asiakirja, jonka molemmat osapuolet antavat tarjouksensa. Myöhemmät muutokset ovat hitaita ja kalliita — lukittu spesifikaatio on halvin asia, jota hallitset.',
+          ],
+        },
+        {
+          title: 'Vaihe 3: Suunnittelu ja grafiikka',
+          body: [
+            'Kun spesifikaatio on lukittu, alkaa suunnittelutyö: muodon viimeistely, värivalinnat, logon sijainti, kansityynyn grafiikka ja siihen sopivat lisävarusteet (hihna, mela, vakain, laukku).',
+            'Valmistajat voivat tehdä digitaalisia mallinnuksia, jolloin hyväksyt ilme ennen fyysistä näytettä — halvempaa ja nopeampaa kuin iteroida fyysisillä laudoilla.',
+          ],
+        },
+        {
+          title: 'Vaihe 4: Prototyyppi ja näyte',
+          body: [
+            'Näyte on ensimmäinen fyysinen todiste. Puhallettavilla laudoilla tämä tarkoittaa käsityönä valmistettua lautaa tai pilottituotannosta peräisin olevaa lautaa, jolla voit meloa ja testata sitä spesifikaatiota vasten.',
+            'Testaa näyte loppukäyttäjän tavoin: vakaus, jäykkyys, suuntavakaus, paino ja se, miten grafiikka kestää. Huolellinen näytekerta poimii yleensä suurimman osan ongelmista ennen tuotantoa.',
+          ],
+        },
+        {
+          title: 'Vaihe 5: Tuotanto ja toimitus',
+          body: [
+            'Näytteen hyväksynnän jälkeen tuotanto kulkee erinä, joissa on laadunvalvontapisteitä. Tehtaan tarkastus ennen lähetystä — kuvat, video tai kolmannen osapuolen tarkastus — varmistaa erän, jonka vastaanotat.',
+            'Hyvä projekti-aikataulu lasketaan taaksepäin lanseerauspäivästä, ei eteenpäin tilauspäivästä.',
+          ],
+        },
+      ],
+    },
+    {
+      slug: 'inflatable-sup-construction-explained',
+      navLabel: 'Puhallettava SUP selitettynä',
+      metaTitle: 'Puhallettavan SUP:n rakenne: materiaalit ja kerrokset | iSupfactory',
+      metaDescription:
+        'Mistä puhallettava SUP koostuu — PVC-kerrokset, drop-stitch-kangas, kantisapsot ja laatuindikaattorit — jotta voit määritellä laudan omalle projektillesi paremmin.',
+      kicker: 'Tietämys',
+      h1: 'Puhallettava SUP selitettynä',
+      intro:
+        'Useimmat tämän päivän räätälöityjen SUPien projektit ovat puhallettavia lautoja. Ne ovat kevyempiä, helpommin säilytettäviä ja lähetettäviä sekä anteeksiantavampia aloittelijalle. Tämä katsaus käy läpi rakenteen, jotta voit määritellä laadun varmuudella.',
+      sections: [
+        {
+          title: 'Ydin: drop-stitch-kangas',
+          body: [
+            'Puhallettava lauta rakentuu drop-stitch-kankaan ympärille: tuhansia polyesterisomuita, jotka yhdistävät ylemän ja alemman PVC-kerroksen. Kun lauta täytetään ilmaan, ompelut pitävät sen vakaalla paksuudella — juuri ne antavat iSUP-laudalle muotonsa ja jäykkyytensä.',
+            'Suurempi lankatiheys (ompeluita tuumaa kohti) antaa samalla paineella jäykemmän ja vakaamman laudan. Budjettilaudat käyttävät pienempää tiheyttä, premium-laudat suurempaa.',
+          ],
+        },
+        {
+          title: 'PVC-kerrokset ja kantisapsot',
+          body: [
+            'Kangas on PVC-kerrosten välissä, jotka suojaavat kulumiselta, UV-säteiltä ja iskuilta. Paksumpi PVC (useita millejä tai millimetrejä) kestää pistokkeita paremmin, mutta lisää painoa.',
+            'Kantisapsot — laudan reunat — kantavat suurimman kuormituksen päivittäisessä käytössä. Kaksi- tai kolmikerroksiset kantisapsot ovat vahva merkki kestävyydestä ja vuokrauskäyttöön soveltuvuudesta.',
+          ],
+        },
+        {
+          title: 'Mikä antaa painoa ja mikä lujuutta',
+          body: [
+            'Paino on tasapainottaja: paksumpi PVC antaa sekä kestävyyttä että painoa, kun ta kevyempi rakenne sopii melijoille, jotka kantavat lautaa pitkälle. Se on yksi selkeimmistä esimerkeistä siitä, miten räätälöity spesifikaatio sovitetaan ostajan todellisuuteen.',
+            'Laatuindikaattorit, jotka kannattaa pyytää: nimellinen täyttöpaine, ompelurakenne, venttiilityyppi ja drop-stitch-tiheys. Vakavat tehtaat julkaisevat nämä luvut.',
+          ],
+        },
+      ],
+    },
+    {
+      slug: 'how-organizations-choose-sup-equipment',
+      navLabel: 'Näin organisaatiot valitsevat SUP-varusteet',
+      metaTitle: 'Näin resortit, seurat ja koulut valitsevat SUP-varusteet | iSupfactory',
+      metaDescription:
+        'Näin resortit, seurat ja koulut valitsevat SUP-varusteet: laivueen koko, laudatyypit, kestävyys, säilytys ja ohjelman budjetti.',
+      kicker: 'Tietämys',
+      h1: 'Näin organisaatiot valitsevat SUP-varusteet',
+      intro:
+        'Resortit, seurat ja koulut ostavat eri tavalla kuin kuluttajabrändit: varusteiden on kestettävä päivittäistä käyttöä, selviydyttävä vaihtelevista taitotasosta ja mahtuttava ohjelman budjettiin. Tämä rakenne käsittelee niitä päätöksiä, joilla on merkitystä.',
+      sections: [
+        {
+          title: 'Mitoita laivue käytön mukaan',
+          body: [
+            'Laske, kuinka monta melijaa on vedellä samaan aikaan — älä sitä, kuinka monta vierasta sinulla on. Kiertävästi vuokraava resortti tarvitsee vähemmän lautoja kuin koulu, jossa kokoonnutaan rinnakkain — ja enemmän varaosia.',
+            'Hyvä nyrkkisääntö: yksi lauta melijaa kohden kerrallaan plus 10–15 % varakkapakettia huoltoon ja kasvuun.',
+          ],
+        },
+        {
+          title: 'Sovita laudatyypit taitotasoihin',
+          body: [
+            'Aloittelijat hyötyvät leveämmistä laudoista, joissa on suurempi tilavuus ja jotka tuntuvat vakaoilta; kokeneet melijat suosivat kapeampia lautoja, joilla melotaan nopeammin. Sekalainen laivue — enimmäkseen aloittelijaystävällisiä ja muutama suorituskykyyn taitettu lauta — sopii useimpiin ohjelmiin.',
+            'Monen hengen laudoilla on oma paikkansa kouluissa ja ryhmäopetuksessa: ne helpottavat ohjaajien opetusta ja voivat korvata useita yksilölaudoja ryhmäkierroksissa.',
+          ],
+        },
+        {
+          title: 'Kestävyys on budjettipäätös',
+          body: [
+            'Vuokrauslaatuisen rakenne maksaa enemmän etukäteen, mutta säästää rahaa kahden tai kolmen kauden aikana. Kysy vahvistetuista kantisapsoista, PVC:n paksuudesta ja siitä, minkä takuun tehtää antaa laivueille.',
+            'Suunnittele myös säilytys ja täyttö: kompressorit, telineet ja pakkauskäytännöt määrittävät, kuinka paljon päivittäistä työtä ohjelma aiheuttaa. Laivueiden toimittajat sisällyttävät tämän pakettiin.',
+          ],
+        },
+        {
+          title: 'Suunnittele ohjelma, älä vain tilausta',
+          body: [
+            'Parhaat varustetilaukset ovat osa ohjelmasuunnitelmaa: ohjaajakoulutusta, huoltorutiineja ja kuluneiden lautojen vaihtosykliä. Ohjelman suunnittelevat organisaatiot uusivat varusteet suunnitelman mukaan; muut ostavat hätäosia täydellä hinnalla.',
+          ],
+        },
+      ],
+    },
+  ],
 }
 
 export function getArticle(locale: Locale, slug: string): KnowledgeArticle | undefined {
@@ -1461,5 +1585,11 @@ export const knowledgeMeta: Localized<KnowledgeMeta> = {
     metaDescription:
       'Praktiske guider om udvikling af SUP på bestilling, konstruktion af oppustelige bræt og valg af SUP-udstyr til resorts, klubber og skoler.',
     h1: 'Videnscenter — produktudvikling, forklaret',
+  },
+  fi: {
+    metaTitle: 'Tietokeskus: SUP-tuotekehityksen oppaat | iSupfactory',
+    metaDescription:
+      'Käytännön oppaat räätälöityyn SUP-tuotekehitykseen, puhallettavien lautojen rakenteeseen sekä SUP-varusteiden valintaan resorteille, seuroille ja kouluille.',
+    h1: 'Tietokeskus — tuotekehitys selitettynä',
   },
 }

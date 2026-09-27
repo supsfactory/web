@@ -1,0 +1,67 @@
+meta:
+  title: "Puhallettavien SUP-lautojen minimitilaus (MOQ) — perusteet"
+  description: "Selkeät minimitilauskiivat (MOQ) räätälöityjen puhallettavien SUP-lautojen valmistukseen: 5–10 co-branding, 20–50 pilottisarja, 90–100+ volyymierä rullaa kohti. Päätöspuu räätälöintitason mukaan."
+  dateModified: "2026-08-20"
+
+sections:
+  - title: "Suora vastaus"
+    directAnswer:
+      answer: "Pilottisarjat olemassa olevalla alustalla alkavat 20–50 kpl:stä; sarjatuotannon vähimmäiseräkoko on 90–100+ kpl 150 m drop-stitch-rullaa kohti (~180–220 lautaa)."
+      condition: "Vähimmäiseräkoko riippuu laudan muodosta, materiaalirullasta, painatuksesta, pakkauksesta ja siitä, tarvitaanko uusi muotti."
+      value: "5–10 co-branding · 20–50 pilottisarja · 90–100+ rullaa kohti, volyymi"
+      verifiedDate: "Syyskuu 2026"
+      sourceType: "factory-record"
+    body: |
+      Vähimmäiseräkoko (MOQ) iSupfactorylla porrastetaan räätälöintitason mukaan, ei yhden
+      kiinteän luvun perusteella. Jokainen porras vastaa tiettyä tuotantotilannetta:
+
+      | Tilanne | MOQ | Yksikkö | Ehto |
+      |----------|-----|---------|------|
+      | Olemassa oleva alusta, vain logon päällystys | 5–10 kpl | suunnittelua kohti | Sama muoto, sama materiaalirulla, sama värivaihtoehto |
+      | Omat kuviot / EVA / pakkaus olemassa olevalle alustalle | 20–50 kpl | pilottisarja | Sama muoto; uusi kuvitus vaatii visuaalisen hyväksynnän |
+      | Vakiintunut sarjatuotanto (mikä alusta tahansa) | 90–100+ kpl | 150 m rullaa kohti (~180–220 lautaa) | Materiaalirullaa kohti; useat SKU:t = erilliset rullat |
+      | Uusi muoto / räätälöity muotti | 90–100+ kpl | tuotantoerä | Muottityökalut vievät 15–20 päivää; kertaluontoinen muottimaksu |
+
+  - title: "Mitä tarkoittaa 'materiaalirulla'?"
+    body: |
+      150 metrin drop-stitch-kangasrulla tuottaa noin 180–220 lautaa laudan mittojen
+      mukaan (tyypillisesti 10–11 ft). Jokainen yksittäinen SKU — eli eri koko, värivalinta
+      tai materiaalimääritys — vaatii oman rullansa ja siten oman minimieränsä.
+
+      Siksi vähimmäiseräkoko ilmoitetaan "150 m rullaa kohti" eikä "suunnittelua kohti":
+      saman laudan muodon kaksi värivaihtoehtoa ovat kaksi rullaa ja kaksi minimierää.
+
+  - title: "Co-branding, pilottisarja ja volyymituotanto"
+    body: |
+      **Co-branding (5–10 kpl)**: logosi sovellettu olemassa olevalle alustalle, joka on
+      jo tuotannossa toiselle brändille. Ei kuvitusmuutoksia logon sijoittelua lukuun ottamatta.
+      Nopein reitti brändättyyn näytteeseen.
+
+      **Pilottisarja (20–50 kpl)**: omat kuviot, EVA-muotoisen istumaton suunnittelu tai pakkaus
+      olemassa olevalle alustan muodolle. Vaatii visuaalisen hyväksynnän ennen tuotantoa.
+      Ihanteellinen uuden ilmeen markkinatestaukseen.
+
+      **Volyymituotanto (90–100+ kpl rullaa kohti)**: täysi tuotantoerä millä tahansa
+      räätälöintien yhdistelmällä. Tämä on kaupallinen vakioporras. Jokainen materiaalirulla
+      tuottaa ~180–220 lautaa.
+
+  - title: "Vähimmäiseräkoko räätälöityä muottia varten"
+    body: |
+      Kun suunnittelusi vaatii uuden laudan muodon (ei vain uutta kuvitusta olemassa olevalle
+      muodolle), on tehtävä oma muotti. Se tehdään volyymiporrasella (90–100+ kpl), koska
+      muotti-investointi on jaettava tuotantoerälle. Työkalut vievät 15–20 päivää vakiotoimitusajan
+      päälle.
+
+      Muotin omistus: muotti on sinun. Se säilytetään laitoksellamme ja sitä käytetään yksinomaan
+      tuotantoeriisi.
+
+  - title: "Näyte-erät"
+    body: |
+      Tuotantoa edeltäviä näytteitä on saatavilla 1–2 lautana istuvuuden ja viimeistelyn
+      vahvistamiseksi. Ne rakennetaan käsin määrityksesi mukaan ja vievät yleensä 7–12 päivää.
+      Näytteen hinta vähennetään ensimmäisestä volyymitilauksestasi.
+
+evidence_review:
+  tagline: 'Näyttö ja todentaminen'
+  title: 'TODENNETUT TEKNISET ARVOT'
+  body: 'Kaikki tämän sivun valmistusväitteet on todennettu valmistustekniikan tiimimme toimesta Laixin, Qingdaon laitoksella. Todistukset, laadunvalvontakirjaukset, paine- ja rakennetestiraportit sekä erien jäljitettävyyskirjaukset ovat pyydettäessä saatavilla. Tekniset arvot on viimeksi todennettu syyskuussa 2026.'

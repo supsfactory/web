@@ -1,0 +1,74 @@
+meta:
+  title: 'OEM- ja private label -valmistus | {SITE}'
+  description: 'Ideasta tuotantoon: räätälöi jokainen yksityiskohta puhallettavien SUP-lautojesi tuotelinjassa. Täydellinen OEM/ODM-palvelu private label -paddle board -brändeille.'
+  dateModified: '2026-08'
+  keywords:
+    - 'oem sup valmistus'
+    - 'private label paddle board'
+    - 'oem puhallettava sup'
+    - 'räätälöityjen sup-lautojen tehdas'
+hero:
+  tagline: OEM/ODM-valmistus
+  title: OEM- ja private label -valmistus
+  subtitle: 'Ideasta tuotantoon — räätälöi jokainen yksityiskohta puhallettavien SUP-lautojesi tuotelinjassa'
+
+answer:
+  label: 'Suora vastaus'
+  text: 'Vähimmäiseräkoko vahvistetaan projektin konfiguroinnin eikä kiinteän luvun mukaan: jokainen projekti käy läpi näytevaiheen (1–2 kpl) ja pilottisarjavaiheen (20–50 kpl), ja vakiintunut sarjatuotanto toimii 90–100+ kpl erää kohti koko 150 m drop-stitch-rullasta. Näytteet ovat valmiit 7–12 päivässä; vakiintunut tuotanto vie 25–35 päivää vahvistetun tilauksen ja käsirahajan jälkeen.'
+  verified: 'Syyskuu 2026'
+
+intro: 'Vatrad tarjoaa kattavat OEM- ja ODM-palvelut brändeille, jakelijoille ja julkisille viranomaisille ympäri maailman. Yli 10 vuoden vientikokemuksen ja 12,500 m²:n ISO 9001- sekä BSCI-sertifioidun tehtaan ansiosta hoidamme kaiken tuotesuunnittelusta ja muotin kehittelystä täysmittaiseen tuotantoon, pakkaukseen ja vientijohtoon.'
+
+highlight:
+  - value: 10+
+    label: Vuosia OEM-kokemusta
+    detail: Vuodesta 2012
+  - value: 50+
+    label: Vientimaata
+    detail: Maailmanlaajuisesti
+  - value: 200+
+    label: Toimitettua räätälöityä projektia
+    detail: Kaikissa tuotelinjoissa
+  - value: 25–35
+    label: Vakiintunut toimitusaika (päivää)
+    detail: Vahvistetun tilauksen ja käsirahajan jälkeen
+
+services:
+  - title: Tuotesuunnittelu ja tuotekehitys
+    description: 'Omat tuotekehitystiimimme työskentelee ideasi tai määrityksesi pohjalta ja kehittää CAD-piirustukset, 3D-mallit ja prototyypit. Tarjoamme muottisuunnittelua, laudan muodon optimointia ja materiaalivalinnan ohjausta.'
+  - title: Räätälöity brändäys ja kuvitus
+    description: 'Täysvärikordinen digitaalipainatus, silk screen, kohopainatus ja etikkavaihtoehdot. Kehitämme brändikohtaiset kansikuviot, putkiston brändäyksen ja myyntivalmiin pakkauksen.'
+  - title: Materiaalien ja määritysten räätälöinti
+    description: 'Valitse PVC (vakio, ympäristöystävällinen, palosuojattu), Hypalon/CSM, drop-stitch ja hybridirakenteet. Räätälöidyt putkiston värit, kankaiden painot ja vahvistusvaihtoehdot.'
+  - title: Pakkaus ja logistiikka
+    description: 'Räätälöity vähittäispakkaus, private label -laatikot, tyhjiöpakkaus, lavaus ja vientivalmiste pakkaaminen omissa tiloissamme.'
+
+moq_table:
+  - product: Puhallettavat SUP-laudat
+    standard_moq: 'Näyte 1–2 | Pilotti 20–50'
+    custom_moq: 'Volyymi 90–100+ (150 m rullaa kohti)'
+    lead_time: 25–35 päivää
+
+why_us:
+  - title: Vertikaalinen integraatio
+    description: 'Omistamme tehtaan, muotit ja toimitusketjun — ei välikettä, ei aliurakoitsijoita. Näin hallitsemme laatua, kustannuksia ja toimituksia.'
+  - title: Kaksoissertifiointi
+    description: 'ISO 9001 -laadunhallinta ja BSCI -yhteiskuntavastuu. Tehtaan auditointiraportit pyydettäessä.'
+  - title: CE-vaatimustenmukaisuus
+    description: 'CE-sertifiointi koskee EU-markkinoille tarkoitettuja malleja (laajuus vahvistetaan projekti kohtaisesti). Räätälöidut mallit voidaan CE-sertifioida vakiintuneen prosessimme kautta.'
+  - title: Projektikohtainen vähimmäiseräkoko
+    description: 'Vähimmäiseräkoko vahvistetaan projektisi konfiguroinnin mukaan — pienet co-branding-erät alkavat 5–10 kpl:stä, vakiintunut volyymituotanto 90–100+ kpl erää kohti. Autamme uusia brändejä markkinoille ilman, että sitoutuu liikaa varastoon.'
+
+cta:
+  title: 'Oma brändisi todistetulle laudalle'
+  subtitle: 'Määritysten tarkastuksesta lähetettyyn konttiin — lähetä toimeksiantoasi tänään ja saat yksityiskohtaisen OEM-tarjouksen yhden arkipäivän kuluessa. Todenna tehdas ja sen laadunhallintajärjestelmä ennen sitoutumista.'
+  actions:
+    - variant: primary
+      text: Pyydä OEM-tarjous
+      href: /fi/contact#custom-oem
+    - text: Todenna tehdas ja laadunhallintajärjestelmä
+      href: /fi/oem-trust-assurance
+    - text: Tarkastuksen 7-vaiheinen järjestelmä
+      href: /fi/quality
+    - text: Katso tuotantolinja
+      href: /fi/factory/process

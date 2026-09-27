@@ -1,0 +1,114 @@
+meta:
+  title: 'Käynnistä SUP-projektisi — briefistä toimitettuihin lautoihin | iSupfactory'
+  description: 'Käynnistä räätälöity SUP-projektisi: lähetä briefi, saat NDA-suojauksen, näytteet 7–12 päivässä, hyväksyt ja skaalaat tuotantoon. Vaihe vaiheelta aikatauluineen.'
+  dateModified: '2026-08-20'
+  keywords:
+    - 'käynnistä SUP-projekti'
+    - 'räätälöity SUP-tilaus'
+    - 'SUP-projektibriefi'
+    - 'OEM SUP-projekti'
+    - 'räätälöity melotilauksen tilaus'
+    - 'SUP-valmistusprojekti'
+    - 'puhallettava SUP-projekti'
+
+hero:
+  tagline: 'Aloita täältä'
+  title: 'Käynnistä SUP-projektisi'
+  subtitle: 'Olitpa sitten lanseeraamassa uutta brändiä, laajentamassa tuotelinjaa tai hankkimassa brändättyjä lautoja omaan toimintaasi — jokainen projekti alkaa samalla tavalla: projektibriefi, NDA, näyte ja selkeä reitti tuotantoon. Tässä kerrotaan, mitä tapahtuu, kun klikkaat "Aloita."'
+  actions:
+    - variant: primary
+      text: Aloita projektibriefisi
+      href: /fi/contact#project-brief
+    - text: Katso, miten prosessi toimii
+      href: /fi/how-it-works
+
+answer:
+  label: 'Mitä tapahtuu seuraavaksi'
+  text: 'Kun lähetät projektibriefin, saat vastauksen yhden arkipäivän kuluessa. NDA:n voi tehdä ennen kuin jaat mitään luottamuksellisia yksityiskohtia. Suunnitteluosasto käy briefisi läpi ja palauttaa erillisen tarjouksen, jossa on MOQ, näytemaksut ja portti portilta etenevä aikataulu — tyypillisesti 7–12 päivää näytteisiin ja 6–8 viikkoa ensimmäiseen tuotantoon vahvistetun tilauksen jälkeen. Näytemaksut vähennetään tuotantotilauksestasi. Ei sitoumuksia ennen allekirjoitusta.'
+  verified: 'September 2026'
+
+process_steps:
+  tagline: Prosessi
+  title: 'Briefistä toimitettuihin lautoihin — viisi vaihetta'
+  subtitle: 'Jokaisella vaiheella on määritetty aikataulu, dokumentoitu toimitettava sekä jatka/pysähdyt-tarkistuspiste. Etenet vain, kun olet valmis.'
+  steps:
+    - step: 'Vaihe 1'
+      title: 'Lähetä projektibriefisi'
+      desc: 'Kerro laudastasi — tavoitemääritykset, määrä, vaatimustenmukaisuustarpeet ja aikataulu. Briefin täyttäminen kestää 5–10 minuuttia. Jos et ole varma jokaisesta yksityiskohdasta, jaa mitä sinulla on ja me opastamme lopun. NDA:n voi tehdä ennen kuin jaat luottamukselliset suunnittelut.'
+    - step: 'Vaihe 2'
+      title: 'NDA ja toteutettavuuskatsaus (1–5 päivää)'
+      desc: 'Allekirjoitamme NDA:n pyydettäessä, ja sitten suunnitteluosasto käy briefisi läpi valmistuskapasiteetin, materiaalien saatavuuden ja vaatimustenmukaisuuden laajuuden näkökulmasta. Saat erillisen tarjouksen, jossa on MOQ-laskelma, näytemaksut ja portti portilta etenevä aikataulu.'
+    - step: 'Vaihe 3'
+      title: 'Näyte ja hyväksyntä (7–21 päivää)'
+      desc: '1–2 fyysistä lautaa valmistetaan määrityksesi mukaan. Meloi ja arvioi — runkon jäykkyys, kuvioiden tarkkuus, lisävarusteiden sopivuus. Muutokset kirjataan päivitettyyn BOM-asiakirjaan. Hyväksytty näyte toimii tuotannon vertailukohtana. Näytemaksut vähennetään tuotannosta.'
+    - step: 'Vaihe 4'
+      title: 'Esituotannon suunnittelu (7 päivää)'
+      desc: 'Materiaalien hankinta, muottien valmistelu, pakkauksen vahvistus ja tuotantopaikkojen varaus. Kaikki materiaalit tarkastetaan vastaanotossa jäätyneen BOM-asiakirjan mukaan. Ennen valmistuksen alkua annetaan tuotantoaikataulu laadunvalvonnan porttien päivämäärineen.'
+    - step: 'Vaihe 5'
+      title: 'Tuotanto, laadunvalvonta ja lähetys (4–6 viikkoa)'
+      desc: 'Valmistus kulkee 7-vaiheisen tarkastusporttijärjestelmän läpi, jossa jokaisella portilla on hyväksyty/hylätty-kriteerit. Vientiluokan pakkaus, vaatimustenmukaisuusasiakirjat ja merirahtiyhteistyö yli 50 maahan. Toimituksen jälkeinen katselu kerää parannukset seuraavaa tilausta varten.'
+
+collaboration_types:
+  tagline: Valitse reittisi
+  title: 'Kolme tapaa tehdä yhteistyötä iSupfactoryn kanssa'
+  subtitle: 'Jokainen projekti käy läpi saman prosessin — muuttuvaa on suunnittelun laajuus ja se, kenen omistuksessa immateriaalioikeudet ovat.'
+  grid: 'sm:grid-cols-2 lg:grid-cols-3'
+  features:
+    - icon: O
+      icon_bg: blue
+      title: 'OEM-valmistus'
+      desc: 'Sinä annat suunnittelun. Me valmistamme määrityksesi mukaan. Kaikki immateriaalioikeudet ovat sinun. Paras vahvoille brändeille, joilla on toistettu laudan geometria.'
+      link_label: 'Katso OEM-tiedot'
+      href: /fi/oem-manufacturing
+    - icon: D
+      icon_bg: green
+      title: 'ODM-kehittely'
+      desc: 'Sinä annat briefin. Me kehitämme laudan. Mukautettu alusta sinun brändäykselläsi. Paras brändeille, jotka astuvat markkinoille ilman omaa suunnitteluosastoa.'
+      link_label: 'Katso ODM-tiedot'
+      href: /fi/odm-manufacturing
+    - icon: P
+      icon_bg: purple
+      title: 'Private label / yhteisbrändäys'
+      desc: 'Brändisi todistetulla alustalla. Ei suunnitteluvaihetta. Jopa 5–10 kpl riittää. Paras operaattoreille ja jakelijoille.'
+      link_label: 'Katso private label -vaihtoehdot'
+      href: /fi/solutions/private-label-sup
+
+what_we_need:
+  heading: 'Mitä valmistella ennen briefiä'
+  body: |
+    Täydellinen briefi nopeuttaa prosessia. Seuraavat asiat auttavat:
+
+    - **Laudan määritykset** — Tavoitepituus, leveys, paksuus, melojan paino, käyttötarkoitus. Vertailulaudan mitat tai kilpailijamallit ovat hyödyllisiä.
+    - **Suunnittelutiedostot** — Vektoriomaakkuaineet (AI, SVG, PDF) kuvioille ja logoille. Jos ne eivät ole valmiina, moodboardit tai vertailukuvat riittävät alustavaan toteutettavuusarvioon.
+    - **Määrä ja aikataulu** — Tavoitemäärä ja kausiaikataulu. Jopa karkea väli ("20–50 lautaa maaliskuuhen mennessä") riittää aloittamiseen.
+    - **Vaatimustenmukaisuustarpeet** — Kohdemarkkinat ja mahdolliset erityiset sertifiointivaatimukset CE:n, ISO 9001:n, BSCI:n, REACHin ja RoHS:n lisäksi.
+    - **Budjettiraja** — Suuntaa-antava budjetti lautaa kohti tai tavoitearvo lopputoimituskustannuksesta auttaa suosittelemaan oikean alustan.
+
+    **Ei valmista kaikkea?** Lähetä mitä sinulla on. Me opastamme lopun.
+
+faqs:
+  tagline: UKK
+  title: 'SUP-projektin aloittaminen — usein kysytyt kysymykset'
+  items:
+    - q: 'Mikä on vähimmäistilaus aloittaakseen?'
+      a: 'Aloitusporras on porrastettu: ensin 1–2 näytettä (7–12 päivää), sitten kokeilutilaus 20–50 lautaa (25–35 päivää), ja sitten vakiomääräiset tuotantoerät 90–100+ lautaa hyväksytyn konfiguraation mukaan. Private label -yhteisbrändäys alkaa jo 5–10 kpl:sta ilman kehittelyvaihetta.'
+    - q: 'Miten kauan näytteiden saaminen kestää?'
+      a: 'Fyysiset näytteet valmistetaan 7–12 päivässä vahvistetun määrityksen ja käsirahan jälkeen. Käyttäessä olemassa olevia runkoalustoja koko sykli briefistä toimitettuun kokeilutilaukseen kestää tyypillisesti 8–12 viikkoa. Räätälöity runko lisää 15–20 päivää muotin kehittelyyn.'
+    - q: 'Onko suunnitteluni suojattu?'
+      a: 'Kyllä. NDA voidaan tehdä heti — ennen kuin jaat mitään luottamuksellista tietoa. Me valmistamme yksinomaan asiakkaidemme brändeille emmekä kilpaile heidän kanssaan. Kaikki tekniset tiedostot säilytetään kulunvalvotuissa järjestelmissä auditoinnin jäljitettävyyden kanssa.'
+    - q: 'Mitä projektibriefin lomake kysyy?'
+      a: 'Briefi kysyy liiketoimintatyyppisi, yrityksesi nimen, tavoitellut laudan määritykset, tilamäärän vaihteluvälin, aikataulun ja mahdolliset vaatimustenmukaisuusvaatimukset. Se kestää noin 5–10 minuuttia. Voit liittää suunnittelutiedostoja (PNG, JPG, SVG, PDF, AI, PSD, DWG, DXF, ZIP) enintään 10 MB. Jos jokin kenttä on epäselvä, jätä se väliin — palaamme siihen.'
+    - q: 'Mitä tapahtuu, kun lähetän briefin?'
+      a: 'Saat vastauksen yhden arkipäivän kuluessa. Suunnitteluosasto käy briefisi läpi ja palauttaa erillisen tarjouksen, jossa on MOQ, näytemaksut ja portti portilta etenevä aikataulu. Sitoumuksia ei vaadita, ennen kuin olet tutustunut sopimukseen ja allekirjoittanut sen. Näytemaksut vähennetään tuotantotilauksestasi.'
+
+cta:
+  title: 'Valmis aloittamaan?'
+  subtitle: 'Lähetä projektibriefisi — laudan määritykset, määrä ja aikataulu — ja vahvistamme toteutettavuuden, valmistamme näytteet ja toimitamme tuotantoaikataalon dokumentoidulla laadunvalvonnalla jokaisessa vaiheessa.'
+  actions:
+    - variant: primary
+      text: Aloita projektibriefisi
+      href: /fi/contact#project-brief
+    - text: Lue koko käyttöönotto-opas
+      href: /fi/oem-onboarding-guide
+    - text: Varmenna tehdas ja laatujärjestelmä
+      href: /fi/proof-center

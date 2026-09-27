@@ -1,0 +1,129 @@
+meta:
+  title: 'Laatulaboratorio — testaus ja laadunvarmistus | {SITE}'
+  description: 'Riippumaton laatulaboratorio ja ISO 9001 -prosessit Vatradissa: jokainen yksikkö testataan ennen lähetystä puhallettavien SUP-lautojen laadun varmistamiseksi.'
+  dateModified: '2026-08-07'
+  keywords:
+    - 'sup laadunvalvonta'
+    - 'paddle board -testauslaboratorio'
+    - 'iso 9001 sup tehdas'
+    - 'puhallettavien sup-lautojen laatu'
+hero:
+  tagline: Laadunvalvontalaboratorio
+  title: Testauslaboratorio ja laadunvarmistus
+  subtitle: 'Riippumaton laatulaboratorio ja ISO 9001 -prosessit — jokainen yksikkö testataan ennen lähetystä'
+
+answer:
+  label: 'Suora vastaus'
+  text: '100% yksiköistä painetestataan 18.0 PSI:n paineella 24 tunnin ajan, ja yli 0.50 PSI:n painehävikki johtaa automaattiseen hylkäyseen. Raakakangaserät varmennetaan ASTM D751:n ja ISO 4674:n mukaisesti, hitsien kuorintatestit tehdään joka 50. yksikkö ja AQL 2.5 -loppunäytte otetaan ISO 2859:n mukaisesti.'
+  verified: 'Syyskuu 2026'
+
+intro: 'Vatradilla on oma laadunvalvontalaboratorio, joka toimii tuotannosta riippumattomasti. Jokainen raaka-aine-erä ja jokainen valmis SUP-lauta käy läpi dokumentoidut tarkastusmenettelyt ennen vapauttamista. Laadunvalvontatiimimme raportoi suoraan johdolle, mikä varmistaa puolueettomat laatuvaikutukset.'
+
+highlights:
+  - value: 100%
+    label: Painetestatut yksiköt
+    detail: Jokainen putkisto, jokainen lauta
+  - value: 24 h
+    label: Ilman säilymisen testin kesto
+    detail: 18.0 PSI:n nimellispaineessa
+  - value: '&lt;5%'
+    label: Suurin sallittu painehävikki
+    detail: 24 tunnin jakson aikana
+  - value: AQL 2.5
+    label: Päävikojen kynnysarvo
+    detail: ISO 2859:n näytteistyksen mukaisesti
+
+test_procedures:
+  - title: Raaka-aineiden tarkastus
+    description: 'Jokainen saapuva PVC-, Hypalon- ja drop-stitch-kangas- sekä tarvike-erä testataan ennen hyväksymistä. Vetolujuus (ASTM D751), repäisylujuus (ISO 4674) ja UV-kestävyys varmennetaan. Vaatimustenmukaisuutta täyttämättömät materiaalit eristetään ja palautetaan.'
+    standards:
+      - ASTM D751 (vetolujuus)
+      - ISO 4674 (repäisy)
+      - ISO 4892 (UV)
+  - title: Tuotannon aikaiset laadunvalvontapisteet
+    description: 'Tuotantohenkilöstö suorittaa itse tarkastuksen jokaisessa vaiheessa. Laadunvalvonnan auditoijat tekevät satunnaisnäytteitä koko vuoron ajan. Hitsien kuorintatestit tehdään joka 50. yksikkö. Mittatarkastukset tehdään joka 20. paneelilla.'
+    standards:
+      - ASTM D751 (kuorinta)
+      - Sisäinen 100 pisteen tarkistuslista
+      - ISO 2859 -näytteistys
+  - title: 48 tunnin ilman säilymisen testi
+    description: 'Jokainen putkisto täytetään 18.0 PSI:n paineeseen ja pidetään 24 tuntia. Paineanturit kirjaavat jatkuvasti lämpötilakorjauksen kanssa. Yksikin putkisto, jossa painehävikki ylittää 0.50 PSI:n, käynnistää automaattisen erän uudelleentarkastuksen.'
+    standards:
+      - ISO 6185
+      - CE 2013/53/EU
+  - title: Kuormitus- ja tasapainotestaus
+    description: 'Valmiit laudat testataan suurimmalla nimelliskuormalla vakauden, vapaan sivun korkeuden ja käsiteltävyyden osalta. Jokainen lauda läpäisee vesitestin ennen lopputarkastuksen hyväksyntää.'
+    standards:
+      - ISO 12217
+      - CE 2013/53/EU
+
+equipment:
+  - name: Yleispainevalaisin (vetolujuus)
+    spec: 5 kN, ASTM D751 -vaatimustenmukainen
+  - name: Painehävikin mittauslaite
+    spec: Monikanavainen, 0–50 psi, datalointi
+  - name: UV-säätyskaappi
+    spec: ISO 4892, 1,000 h sykliä
+  - name: Paksuusmittari (digitaalinen)
+    spec: 0.01 mm tarkkuus
+  - name: Kuorintatestilaite (hitsit)
+    spec: Moottoroitu, 50 N kapasiteetti
+  - name: Lämpötilakaappi
+    spec: -40 °C - +100 °C
+  - name: Vuodon tunnistusallas
+    spec: 6 m × 2 m, valaistu
+
+lab_evidence:
+  tagline: Testiraporttipaketit
+  title: 'Lataa todelliset laboratorion testiraportit'
+  subtitle: 'Samat kaksikieliset ohjatut kirjaukset, jotka laadunvalvontatiimimme sulkee — rakenne, menetelmät, kriteerit ja tulokset, luottamukselliset kentät poistettuina. Jokainen paketti vastaa yhtä seitsemästä tarkastusportista.'
+  items:
+    - title: 'IQC — saapuvien materiaalien raportit'
+      description: 'Kankaan, PVC-rullan, venttiilien ja osien varmennus hyväksyttyä määritystä vasten.'
+      icon: tabler:file-certificate
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_IQC_TEST_REPORTS.pdf
+      link_label: 'Lataa IQC-raportit (PDF)'
+    - title: 'IPQC — tuotannon aikaiset ja ensikappale-raportit'
+      description: 'Ensikappaleen ja tuotannon aikaiset tarkastuskirjaukset lukitun tarkistusta vasten.'
+      icon: tabler:file-check
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_IPQC_TEST_REPORTS.pdf
+      link_label: 'Lataa IPQC-raportit (PDF)'
+    - title: 'Ilmatiiviys — paine- ja vuodoraportit'
+      description: '100% saumojen vuodontarkastus, venttiilien eheys ja 24 h paineen pito -varmennus.'
+      icon: tabler:waves
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_AIRTIGHTNESS_TEST_REPORTS.pdf
+      link_label: 'Lataa ilmatiiviysraportit (PDF)'
+    - title: 'FQC — loppulaudan testiraportit'
+      description: 'Lopputarkastus hyväksyttyä näytettä vasten — mitat, ulkonäkö ja eväkotelo.'
+      icon: tabler:shield-check
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_FQC_TEST_REPORTS.pdf
+      link_label: 'Lataa FQC-raportit (PDF)'
+    - title: 'PSI — pakkauksen ja esilähetyksen raportit'
+      description: 'Sarjan täydellisyys, viivakoodin luokka, kartonkien merkinnät ja pudotusturvallisuuden kirjaukset.'
+      icon: tabler:package
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_PSI_TEST_REPORTS.pdf
+      link_label: 'Lataa PSI-raportit (PDF)'
+    - title: 'Lähetyslupa- ja jäljitettävyyspaketti'
+      description: 'Lähetyslupa ja erien jäljitettävyys kytkeytyvät määritykseen, kuvitukseen ja tuoteluetteloon.'
+      icon: tabler:history
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_SHIPMENT_RELEASE_REPORTS.pdf
+      link_label: 'Lataa luparaportit (PDF)'
+    - title: 'Täydellinen laatupaketti'
+      description: 'Yksi paketti, joka kattaa koko dokumentaatiojärjestelmän — QIP, porttikirjaukset, jäljitettävyys ja NCR-valvonta.'
+      icon: tabler:books
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_COMPLETE_SUP_QUALITY_DOSSIER.pdf
+      link_label: 'Lataa dokumentaatiopaketti (PDF)'
+
+cta:
+  title: 'Tarkasta tilauksesi takana oleva laboratorio'
+  subtitle: 'Laboratorio toimii tuotannosta riippumattomasti ja raportoi suoraan johdolle. Tarkista testiraportit, tutustu tarkastusstandardeihin tai pyydä live-kierros laboratoriossa tuotannonsuunnittelun yhteydessä.'
+  actions:
+    - variant: primary
+      text: Pyydä projektin laaduntarkastus
+      href: /fi/contact#quality-inquiry
+    - text: Tarkastuksen 7-vaiheinen järjestelmä
+      href: /fi/quality
+    - text: Tarkastusstandardit ja laadunhallintajärjestelmän lataukset
+      href: /fi/factory/quality-inspection
+    - text: Vieraile tuotekehityskeskuksen materiaalitestauslaboratoriossa
+      href: /fi/randdcenter/quality-inspection-lab

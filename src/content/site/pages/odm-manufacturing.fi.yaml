@@ -1,0 +1,150 @@
+meta:
+  title: 'SUP ODM -valmistaja | räätälöity paddle board -suunnittelu ja kehitys'
+  description: 'SUP ODM -valmistaja Qingdaossa, Kiinassa — kehitä paddle board -tuotteesi tuotetoimeksiannosta: oma runkosuunnittelu, tuotekehitys, prototyypit 7–12 päivässä ja tuotanto 25–35 päivässä.'
+  dateModified: '2026-09-23'
+  keywords:
+    - 'sup odm valmistaja'
+    - 'odm puhallettava sup'
+    - 'räätälöity paddle board -suunnittelu'
+    - 'sup tuotekehitys'
+    - 'paddle board tuotekehitys'
+
+hero:
+  tagline: ODM-valmistus
+  title: 'SUP ODM -valmistaja — tuotesuunnittelu ja tuotekehitys'
+  subtitle: 'Sinun ei tarvitse olla valmis SUP-suunnitelma. Aloita tuotekonseptista, markkinavaatimuksesta tai suorituskykytavoitteesta — omat insinöörimme suunnittelevat rungon, rakenteen, kuvituksen ja pakkauksen toimeksiantosi ympärille, sitten prototyyppi 7–12 päivässä ja tuotanto 25–35 päivää vahvistetun tilauksen jälkeen.'
+
+answer:
+  label: 'Suora vastaus'
+  text: 'iSupfactory on SUP ODM -valmistaja Qingdaossa, Kiinassa. ODM-kehitys lähtee toimeksiannostasi, ei piirustuksistasi: runkosuunnittelu (pituus, leveys, kaarevuus, tilavuus), materiaalirakenne ja kuvitus suunnitellaan omissa tiloissamme, validoidaan prototyyppinäyttein 7–12 päivässä ja valmistetaan vakiintuneella volyymierän vähimmäismäärällä 90–100 kpl 150 m rullaerää kohti (pilotti 20–50 kpl:stä). Tuotanto vie 25–35 päivää vahvistetun tilauksen ja käsirahajan jälkeen; räätälöity muotityökalusto lisää 15–20 päivää. CE-, ISO 9001-, BSCI-, REACH- ja RoHS-asiakirjat toimitetaan jokaisen tilauksen mukana.'
+  verified: 'Syyskuu 2026'
+
+features:
+  title: ODM-ominaisuudet
+  subtitle: 'Kaikki mitä saat, kun suunnittelutyö tehdään tehtaassa eikä pöydälläsi.'
+  items:
+    - title: Runkosuunnittelu
+      description: 'Pituus, leveys, paksuus, kaarevuus ja tilavuus suunnitellaan kohdemelaajiasi, käyttötarkoituksesi ja markkinoidesi mukaan — tyhjältä sivulta tai todistetusta alustakirjastostamme.'
+      icon: 'tabler:waves'
+    - title: Rakenteellinen tuotekehitys
+      description: 'Drop-stitch-tiheys, PVC-kerrosten määrä ja laatu, jäykistimien sijainti ja reunavahvikkeiden rakenteet määritetään ja validoidaan suunnittelullesi.'
+      icon: 'tabler:building-factory'
+    - title: Kuvitus ja brändäys
+      description: 'Laudan kansikuviot, putkiston brändäys, EVA-patjat ja vähittäispakkaus kehitetään omassa suunnittelutiimissämme brändisi ympärille.'
+      icon: 'tabler:palette'
+    - title: Muotin kehittäminen
+      description: 'Uudet runkomuodot alkavat muotityökalustosta, joka suunnitellaan ja leikataan omissa tiloissamme — työkalusto lisää 15–20 päivää projektin aikatauluun.'
+      icon: 'tabler:shapes'
+    - title: Prototyypin validointi
+      description: 'Fyysinen prototyyppi rakennetaan, testataan ja lähetetään arvioitavaksesi radakkokokeineen — yleensä 7–12 päivän kuluessa.'
+      icon: 'tabler:tools'
+    - title: Testaus ja vaatimustenmukaisuus
+      description: 'Yksikkökohtainen ilman säilymisen, paineen pidon ja saumalujuuden testaus sekä kohdemarkkinalle soveltuvat ISO 9001-, BSCI-, REACH-, RoHS- ja CE-vaatimustenmukaisuusasiakirjat (laajuus vahvistetaan projekti kohtaisesti).'
+      icon: 'tabler:certificate'
+    - title: Työkaluston omistusvaihtoehdot
+      description: 'Muotin omistusta tai lunastusta koskevat ehdot kirjoitetaan sopimukseen — suunnittelusi pysyy sinulla ja työkalustoa säilytetään uusinta tilauksia varten.'
+      icon: 'tabler:lock'
+    - title: Prototyypistä konttiin
+      description: 'Validoitu ODM-suunnittelu siirtyy suoraan vakiintuneeseen volyymituotantoon: 90–100+ kpl 150 m rullaerää kohti, 25–35 päivää vahvistetun tilauksen jälkeen.'
+      icon: 'tabler:package'
+
+customization:
+  tagline: Suunnitellaan kanssasi
+  title: Mitä kehitämme toimeksiantosi ympärille
+  subtitle: 'ODM tarkoittaa, että tuote suunnitellaan sinulle alusta asti tai alustakirjastostamme käsin — nämä ovat ne säätimet, joita toimeksiantosi ohjaa:'
+  items:
+    - 'Melaajaprofiili ja markkina — aloittelija, touring, kilpailu, jooga, kalastus tai monikäyttöinen sijoitus'
+    - 'Laudan mitat — pituus, leveys, paksuus ja tilavuus sovitettuina kohdemelaajalle ja käyttötarkoitukseen'
+    - 'Rungon luonne — kaarevuus, kylkilinjan profiili, kärki ja häntämuoto viritettäinä vakauteen tai nopeuteen'
+    - 'Materiaalirakenne — drop-stitch-tiheys, PVC-kerrosten määrä ja laatu, jäykistimet ja reunavahvikkeet'
+    - 'Kuvitus ja värit — brändin värit, kansikuviot ja putkiston brändäys kehitetään omissa tiloissamme'
+    - 'EVA-istumapatja — asettelu, värit ja logon integrointi koko kannessa'
+    - 'Lisävarustesarja — melat, pumput, evät, hihnat ja laukut sovitettuina lautaan'
+    - 'Pakkaus ja vähittäisesittely — vähittäislaatikot, näyttöteasemat ja vientipakkaus brändilläsi'
+
+faq_section:
+  tagline: FAQ
+  title: ODM-kehitystä koskevat kysymykset
+  questions:
+    - q: Miten ODM eroaa OEM:stä?
+      a: 'ODM (Original Design Manufacturing) lähtee toimeksiannostasi — insinöörimme kehittävät laudan rakenteen, valmistuksen, kuvituksen ja pakkauksen, olipa lähtökohtana markkinakonsepti, suorituskykytavoite tai todistetun alustan mukautus. Hyväksyt suunnittelun ennen tuotantoa. OEM (Original Equipment Manufacturing) valmistaa hyväksymäsi määrityksen mukaisesti — piirustukset, mitat, materiaalit ja pakkauksen. Omistat suunnittelun ja immateriaalioikeudet. Molemmat kulkevat saman laitoksen, laadunvalvontajärjestelmän ja vientitiimin läpi; ODM on nopein reitti brändättyyn lautaan, kun sinulla ei ole vielä suunnitelmaa.'
+    - q: Minulla on vain alustava idea — mistä aloitamme?
+      a: 'Lähetä lyhyt toimeksianto: kohdemelaajat, käyttötarkoitukset, suuruusluokka, markkinat ja volyymit. Insinöörimme palaavat yhden arkipäivän kuluessa konseptiin, referenssilaudan suuntaan ja kehityssuunnitelmaan — salassapitosopimus allekirjoitetaan pyydettäessä ennen yksityiskohtaista tiedonvaihtoa.'
+    - q: Miten kauan uuden SUP-laudan kehittäminen kestää?
+      a: 'Prototyyppinäytteet lähetetään 7–12 päivässä. Uusi runko räätälöidyn muotityökaluston kanssa lisää 15–20 päivää tuotekehitystä ennen näytteitä. Tuotanto vie 25–35 päivää tilauksen ja käsirahajan jälkeen.'
+    - q: Mikä on ODM-laudan vähimmäiseräkoko?
+      a: 'Vakiintunut volyymituotanto on 90–100 kpl 150 m drop-stitch-rullaerää kohti; pilottierät alkavat 20–50 kpl:stä olemassa olevilla alustoilla. Pienet co-branding-erät alkavat 5–10 kpl:stä — koko laskelma on oppaassamme Minimitilaus ja joustava brändäys.'
+    - q: Kuka omistaa suunnittelun ja muotin?
+      a: 'Toimeksiantosi, suunnittelusi ja työkalustosi suojataan salassapitosopimuksella, brändilisenssisopimuksen ehdoilla sekä sopimukseen kirjatuilla muotin omistus- tai lunastusehdoilla. Työkalustoa säilytetään brändillesi ja se on siirrettävissä.'
+    - q: Voitteko kehittää tietyn muodon (touring, kalastus, kilpailu, jooga)?
+      a: 'Kyllä. Runkosuunnittelu kattaa kaikki SUP-pääkategoriat — allround, touring, kilpailu, jooga, kalastus ja useamman hengen laudat — ja suorituskykymuodoille on saatavilla hydrodynaamisen testialtaan validointi.'
+    - q: Mitkä sertifioinnit kehitetty lauta kantaa?
+      a: 'ISO 9001:2015 -laadunhallinta (koko tehdas), BSCI-yhteiskuntavastuu (amfori-laitosauditointi), EU-markkinoille soveltuvien konfiguraatioiden CE-vaatimustenmukaisuusasiakirjat (vapaa-ajan alusdirektiivi — laajuus vahvistetaan projekti kohtaisesti), REACH (materiaalit), RoHS (elektroniset lisävarusteet) sekä ISO 25649 -vaatimustenmukaisuus soveltuville puhallettaville SUP-malleille. Sertifiointiasiakirjat valmistellaan tilausta kohti vientimarkkinoillesi.'
+
+process:
+  title: ODM-prosessi — toimeksiannosta skaalautuvaan tuotantoon
+  subtitle: 'Kuusi valvottua vaihetta, joita hoitaa sama oma tiimi, joka suunnittelee, näytteistää ja skaalaa laudasi — kaikki pysyy dokumentoituina.'
+  steps:
+    - phase: '01'
+      title: Toimeksianto ja konsepti
+      period: 1 arkipäivä
+      items:
+        - 'Jaa kohdemelaajat, käyttötarkoitukset, koot, markkinat ja volyymit — tai pelkkä idea.'
+        - 'Insinöörimme palauttavat konseptisuunnan, alustavaihtoehdot ja kehityssuunnitelman.'
+    - phase: '02'
+      title: Runko- ja rakennesuunnittelu
+      period: Viikko 1–2
+      items:
+        - 'Laudan mitat, rungon luonne, drop-stitch-tiheys ja PVC-rakenne suunnitellaan omissa tiloissamme.'
+        - 'Kuvitus, EVA-kansiasettelu ja pakkauskonsepti kehitetään brändisi ympärille.'
+    - phase: '03'
+      title: Muotti ja työkalusto
+      period: +15–20 päivää (uudet muodot)
+      items:
+        - 'Räätälöity muotityökalusto suunnitellaan ja leikataan uusiin runkomuotoihin; olemassa olevat alustat ohittavat tämän vaiheen.'
+        - 'Työkaluston omistusehdot vahvistetaan sopimuksessa ennen leikkaamisen aloitusta.'
+    - phase: '04'
+      title: Prototyyppi ja näyte
+      period: 7–12 päivää
+      items:
+        - 'Fyysinen prototyyppi rakennetaan, testataan ja lähetetään arvioitavaksesi — mukaan lukien radakkokokeet.'
+        - 'Näyte (1–2 kpl) validoi muodon, rakenteen ja brändäyksen ennen volyymia.'
+    - phase: '05'
+      title: Validointi ja hyväksyntä
+      period: Rinnakkain
+      items:
+        - 'Ilman säilymisen, paineen pidon, saumalujuuden, kuormituksen ja UV-tarkastukset tuotantolinjaa kohti.'
+        - 'CE-, ISO 9001-, BSCI-, REACH- ja RoHS-asiakirjat valmistellaan vientimarkkinoillesi.'
+        - 'Hyväksyt prototyypin; tilaus ja käsiraha lukitsevat tuotantopaikan.'
+    - phase: '06'
+      title: Tuotanto ja toimitus
+      period: 25–35 päivää
+      items:
+        - 'Vakiintuneet volyymierät 90–100+ kpl 150 m rullaa kohti, pilottierät 20–50 kpl:stä.'
+        - 'Vientipakkaus, FOB/CIF/DDP-kuljetus yli 50 maahan ja uusinta-tilaustuki mukana.'
+
+geo:
+  tagline: Kenen kanssa työskentelemme
+  title: ODM-kumppanit SUP-alalla
+  sentence: 'iSupfactoryn ODM yhdistää toimeksiantosi samoihin insinööreihin, suunnittelijoihin ja tuotantotiimiin, jotka ovat lanseeranneet lautoja näille liiketoimintatyypeille — tässä keitä palvelemme.'
+  audiences:
+    - 'SUP-brändät'
+    - 'Ulkoilu- ja vesiliikuntayritykset'
+    - 'Jakelijat ja vähittäiskauppiaat'
+    - 'Lomakeskukset, seurat ja järjestöt'
+
+cta:
+  title: 'Valmiina kehittämään SUP-lautasi?'
+  subtitle: 'Lähetä toimeksiantosi — konsepti, mitat ja kohdemarkkinat riittävät aloittamiseen. Suunnittelukatsaus ja tarjous yhden arkipäivän kuluessa.'
+  actions:
+    - variant: primary
+      text: Aloita ODM-projekti
+      href: /fi/contact#custom-oem
+    - text: Katso kuusivaiheinen tuotekehitysputki
+      href: /fi/product-development
+    - text: Todenna tehdas ja laadunhallintajärjestelmä
+      href: /fi/oem-trust-assurance
+    - text: Opas vähimmäismäärään ja joustavaan brändäykseen
+      href: /fi/oem-moq-guide
+    - text: SUP-rakenteiden vertailu
+      href: /fi/sup-construction-comparison

@@ -1,0 +1,82 @@
+meta:
+  title: 'SUP-vuokrauslaitteiden toimittaja ja laivastoratkaisut'
+  description: 'Kaupallisiin vuokrauksiin suunnitellut SUP-laudat: UV-kestävä PVC, vahvistetut saumat ja nopeasti kuivuvat materiaalit suuren kiertovolyymin vuokrauslaivastoille.'
+  dateModified: '2026-08'
+
+hero:
+  tagline: Vuokrausoperaattorit
+  title: 'SUP-laudat, jotka on suunniteltu vuokrauslaivastoille'
+  subtitle: 'Määritä laivasto, joka kestää päivittäisen vuokrauskäytön: suuren kierron laudat, joissa on UV-kestävä PVC, vahvistetut saumat ja nopeasti kuivuvat materiaalit — suunniteltu 365 päivän käyttöön vuodessa.'
+  image:
+    src: https://assets.isupfactory.com/images/sups/use-cases/isupfactory-family-use-case.webp
+    alt: SUP-laudat valmiina päivittäiseen vuokrauskäyttöön
+
+answer:
+  label: 'Suora vastaus'
+  text: 'Vuokrauslaivaston laudat rakennetaan UV-kestävällä meri-PVC:llä, saumat ovat 3× vahvempia kuin tavallisessa rakenteessa ja drop-stitch-ytimet on mitoitettu 15 PSI:n paineelle — testattu 500+ vuokrauskierrokselle. MOQ vahvistetaan projektin konfiguraation perusteella: näyte (1–2 kpl), pilotti (20–50 kpl) ja vakiomäärä (90–100+ kpl per erä 150 m rullasta); tuotanto 25–35 päivää tilauksen ja käsirahan jälkeen, FOB-, CIF- tai DDP-ehdoilla.'
+  verified: 'September 2026'
+
+features:
+  title: Suunniteltu vuokrauskäytön rasitukseen
+  subtitle: 'Jokainen lauta on suunniteltu 500+ vuokrauskierrokselle minimaalisella ylläpidolla.'
+  items:
+    - title: '500+ Vuokrauskierrosta'
+      description: 'Testattu kestämään päivittäistä käyttöä merivedessä, auringossa ja hiekassa.'
+      icon: 'tabler:shield-check'
+    - title: 'UV-kestävä kangas'
+      description: 'Ei haalistumista eikä kunnon heikkenemistä 1 vuoden ulkovarastoinnin jälkeen.'
+      icon: 'tabler:sun'
+    - title: 'Vahvistetut saumat'
+      description: 'Vahvistettu saumarakenne, joka on suunniteltu päivittäiseen vuokrauskiertoon ja toistuviin täyttösykleihin.'
+      icon: 'tabler:layers-intersect'
+    - title: 'Nopeasti kuivuvat materiaalit'
+      description: 'Nopeasti kuivuvat materiaalit pitävät laudat valmiina seuraavaan vuokraukseen vuokrausten välillä.'
+      icon: 'tabler:droplet'
+    - title: 'Pinoitettava säilytys'
+      description: 'Tilansäästävä pinoitettava suunnittelu — pakkaa enemmän lautoja samaan säilytystilaan.'
+      icon: 'tabler:stack'
+    - title: 'Värikoodatut koot'
+      description: 'Henkilökunta löytää oikean laudan heti värikoodatun mitoituksen avulla.'
+      icon: 'tabler:color-swatch'
+
+stats:
+  title: Toiminnan mittarit
+  stats:
+    - title: Tehtaan pinta-ala
+      amount: '12,500 m²'
+    - title: Painekoe
+      amount: '18 PSI / 24h'
+    - title: Kokoonpanotarkistuslista
+      amount: '100 kohtaa'
+    - title: Osien lähetys
+      amount: '48h'
+
+fleet_guide:
+  title: Laivaston mitoitusopas
+  subtitle: 'Arvioi, kuinka monta lautta toimintasi tarvitsee päivittäisen vuokrauskierron perusteella.'
+  tiers:
+    - label: Pieni kioski
+      boards: '15-20'
+      note: 'Enintään 2–3 laudan kierrosta päivässä huippukaudella'
+    - label: Keskikokoinen toiminta
+      boards: '30-50'
+      note: 'Useita laukaisupisteitä tai suuri viikonloppuvilinne'
+    - label: Suuri rannavuokraamo
+      boards: '50-100'
+      note: 'Täysipalveluiset vuokrauslaivastot useilla rannatapikoilla'
+
+content_html: |
+  <div class="mx-auto max-w-3xl space-y-4 rounded-2xl border bg-card p-6 text-[14.5px] leading-relaxed text-fg-2">
+    <p><strong>Lue lisää:</strong> vuokrauslaudat lähtevät omista määrityksistäsi — tutustu <a href="/fi/oem-manufacturing">OEM/ODM-ohjelmaamme</a> räätälöinnin, matalien kokeilumulujen ja laivastohintojen osalta. Jokainen lauta kulkee 12,500 m&sup2; <a href="/fi/factory">tuotantolinjan</a> läpi ja paineistetaan ja testataan 100 % ennen lähetystä.</p>
+  </div>
+
+cta:
+  title: 'Määritä vuokrauslaivastosi'
+  subtitle: 'Lähetä laivastovaatimuksesi tai vertaile lauta-alustoja toimintasi varten.'
+  actions:
+    - text: 'Lähetä laivastovaatimukset'
+      href: '/fi/contact'
+      variant: 'primary'
+    - text: 'Vertaile lauta-alustoja'
+      href: '/fi/inflatable-vs-hardboard'
+      variant: 'secondary'

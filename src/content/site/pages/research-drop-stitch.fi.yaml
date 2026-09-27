@@ -1,0 +1,79 @@
+meta:
+  title: 'Miten drop-stitch toimii — Puhallettavien SUP-lautojen jäykät ytimet'
+  description: 'Miten drop-stitch muuttaa taipuvan PVC:n jäykäksi, korkean paineen SUP-ytimeksi (15-20 PSI): rakenne, materiaalit, laatuindikaattorit ja sovellukset.'
+  author: 'iSupfactory'
+  datePublished: '2026-08-04'
+  dateModified: '2026-08-07'
+back_text: 'Takaisin tutkimukseen'
+
+answer:
+  label: 'Suora vastaus'
+  text: 'Drop-stitch on kangas, jonka polyesterilankojen pilarit pitävät ylä- ja alimmaiset PVC-kerrokset kiinteällä etäisyydellä toisistaan, jolloin ilmanpaine tekee laudasta jäykän. Vatradin ytimet: 1,680 DTEX, 2 lankaa neliötuumessa, 1.2 mm PVC-ulko-laminointi, mitoitettu 15 PSI:iin ja validoitu 24 tunnin pitotestillä 18.0 PSI:n paineella.'
+  verified: 'September 2026'
+
+hero:
+  tagline: 'Teknologia'
+  title: 'Miten drop-stitch toimii — puhallettavien jäykkien ytimien insinööriys'
+  subtitle: '8 min lukuaika'
+
+content_html: |
+  <h2>Mitä drop-stitch on?</h2>
+  <p>Drop-stitch (kutsutaan myös "drop-stitch-kankaaksi" tai "drop-stitch-ytimeksi") on rakennusmenetelmä, jossa tuhansia yksittäisiä polyesterilankoja yhdistää kankauskuoren ylä- ja ala kerrokset. Kun kuori täytetään, nämä langat toimivat sisäisinä vetoelementteinä — ne estävät ylä- ja alapaneelia kuperistumasta pyöreäksi ja pakottavat paneelin pysymään tasaisena ja jäykänä.</p>
+  <p>Lopputulos on kevyt ja siirrettävä rakenne, joka kestää 15 – 20 PSI:n sisäistä painetta — jäykkyydeltään verrattavissa kovakuoriseen lautaan, mutta täysin tyhjennettävissä säilytystä ja kuljetusta varten.</p>
+
+  <h2>Miten se toimii: fysiikka</h2>
+  <p>Tavallisessa puhallettavassa rakenteessa (kuten ilmapallossa tai ilmapatjassa) ilman sisäpaine työntää yhtä voimakkaasti kaikkiin suuntiin. Ilman sisäistä pidäytyystä rakenne muuttuu sylinterimäiseksi tai pallomaiseksi. Drop-stitch ratkaisee tämän tuomalla rakenteeseen vetoisen vahvistuksen:</p>
+  <ul>
+    <li>Tuhansia lankoja yhdistää ylä- ja ala kangaskerrokset</li>
+    <li>Täytettäessä ilmanpaine yrittää työntää ylä- ja alaosaa erilleen</li>
+    <li>Langat vastustavat tätä erottumista ja siirtävät kuorman vetoon langan suuntaisesti</li>
+    <li>Lopputulos on tasainen, jäykkä paneeli, joka vastustaa taivumista</li>
+  </ul>
+
+  <h2>Rakentamisprosessi</h2>
+  <ol>
+    <li><strong>Kankaus:</strong> Polyesterilangat kotaan samanaikaisesti kahdeksi erilliseksi pohjakankaan kerrokseksi (tyypillisesti 1,100 DTEX tai 1,680 DTEX PVC-päällysteinen polyesteri). Langat kudotaan silmukkakudoksena kerrosten välissä 90&deg; kulmassa.</li>
+    <li><strong>Päällystys:</strong> Kudottu pohjakangas päällystetään PVC:llä (tai toisinaan TPU:lla) kaapimella- tai kalanderipäällystysmenetelmällä. Tämä sulkee langat ja muodostaa ilmatiiviin kalvon.</li>
+    <li><strong>Kerrosten liimautus:</strong> Drop-stitch-ydin liimataan ulkoisiin laminoituihin kerroksiin (tyypillisesti 0.9 mm tai 1.2 mm PVC) lämpölaminoinnilla tai liimalla.</li>
+    <li><strong>Hitsaus:</strong> Reunavahvikkeet hitsataan reuna-alueiden kautta kuumailma-, RF- tai korkeataajuushitsauksella laudan sivuseinien muodostamiseksi.</li>
+    <li><strong>Venttiilin asennus:</strong> Boston- tai Halkey-Roberts-venttiilit asennetaan, tyypillisesti paineenraojitusmekanismilla ylipaineen täyttämisen estämiseksi.</li>
+  </ol>
+
+  <h2>Keskeiset laatuindikaattorit</h2>
+  <table class="w-full text-sm border-collapse">
+    <thead>
+      <tr class="bg-gray-100">
+        <th class="p-3 text-left font-semibold text-gray-900 border">Parametri</th>
+        <th class="p-3 text-left font-semibold text-gray-900 border">Perustaso</th>
+        <th class="p-3 text-left font-semibold text-gray-900 border">Premium</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td class="p-3 border">Lankatiheys</td><td class="p-3 border">1 lanka / neliötuumessa</td><td class="p-3 border">2 lankaa / neliötuumessa</td></tr>
+      <tr><td class="p-3 border">Pohjakangas</td><td class="p-3 border">1,100 DTEX</td><td class="p-3 border">1,680 DTEX</td></tr>
+      <tr><td class="p-3 border">Suurin paine</td><td class="p-3 border">12 – 15 PSI</td><td class="p-3 border">18 – 22 PSI</td></tr>
+      <tr><td class="p-3 border">PVC:n paksuus</td><td class="p-3 border">0.6 – 0.9 mm</td><td class="p-3 border">1.0 – 1.2 mm</td></tr>
+      <tr><td class="p-3 border">Reunavahvikkeen rakenne</td><td class="p-3 border">Taitettu &amp; liimattu</td><td class="p-3 border">Hitsattu &amp; fuusioliimattu</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Sovellukset</h2>
+  <ul>
+    <li><strong>SUP-laudat:</strong> 4" – 6" paksuus, 15 – 20 PSI, 1 – 2 lankaa/neliötuumessa</li>
+    <li><strong>Kajakat:</strong> Drop-stitch- pohja + puhallettavat sivukammiot, 10 – 15 PSI pohja</li>
+    <li><strong>RIB-veneiden pohjat:</strong> Drop-stitch-pohjat kevyille, pakattaville RIB-jolleille, 12 – 18 PSI</li>
+    <li><strong>Veneiden törmäyspehmusteet:</strong> Matalapaineinen drop-stitch muotoilluihin pehmusteisiin, joissa on tasaiset pinnat</li>
+  </ul>
+
+  <h2>Drop-stitch ja ilmalevy (lasikuitu- tai puuydin)</h2>
+  <p>Kovakuoriset laudat käyttävät EPS-vaahdotytimiä lasikuitu- tai puusäleikkövahvikkeilla. Ne ovat kevyempiä, jäykempiä ja reagoivampia — mutta niitä ei voi tyhjentää. Drop-stitch vaihtaa osan jäykkyydestä täyteen siirrettävyyteen. Useimmille vapaa-ajan käyttäjille modernit 20 PSI:n drop-stitch-SUP-laudat ovat jäykkyydeltään erottamattomia perustason kovakuorisista laudoista.</p>
+
+  <h2>Miten Vatrad käyttää drop-stitchiä</h2>
+  <p>Vatrad käyttää koko SUP-valikoimassaan 1,680 DTEX drop-stitch-ydintä, jossa on 2 lankaa neliötuumessa ja 1.2 mm PVC-ulko-laminointi. Laudat on mitoitettu 15 PSI:iin ja ne läpisevät 24 tunnin painepitotestin 18.0 PSI:n paineella ennen lähetystä. Reunavahvikkeet hitsataan kuumailmalla kolmikerroksisella fuusiolla, ja paineenraojitusventtiilit ovat vakiovarusteena kaikissa malleissa.</p>
+  <p>Drop-stitch on SUP-tuotantomme selkäranka — katso <a href="/fi/technology/drop-stitch-core">drop-stitch-ydinteknologian sivu</a> ja miten ydin liimataan <a href="/fi/factory">tehtaan tuotantolinjalla</a>.</p>
+
+cta:
+  title: 'Haluatko tietää lisää drop-stitchistä?'
+  subtitle: 'Ota yhteyttä saadaksesi tekniset spesifikaatiot ja OEM-kysymykset.'
+  button_text: 'Ota yhteyttä myyntiin'
+  button_link: /fi/contact

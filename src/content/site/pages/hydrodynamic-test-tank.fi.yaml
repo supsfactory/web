@@ -1,0 +1,115 @@
+meta:
+  title: 'Hydrodynaaminen testialta — SUP-lautojen suorituskykytestaus'
+  description: 'Varmista SUP-lautojen runkosuorituskyky hydrodynaamisella testialtaallamme. Mallikohtaisten vetojen analyysi, liu’un analyysi ja vastuksen mittaus laudan muodoille.'
+  dateModified: '2026-08'
+back_text: 'Takaisin tuotekehityskeskukseen'
+home_label: 'Koti'
+
+answer:
+  label: 'Suora vastaus'
+  text: 'Testaamme SUP-lautojen runkomuotoja 1:3–1:5-mittakaavassa — kärkiprofiili, kylkilinjan säde, kaarevuus ja kastunut pinta — ja mittaamme vastuksen, liu’tehokkuuden ja vakautteen ennen kuin sitoudumme täysikokoiseen prototyyppiin. Viikko altaalla tuottaa samat suorituskykytiedot, joissa kestäisi kuukausia täysikokoisella kokeilulla ja virheiden kautta.'
+  verified: 'Syyskuu 2026'
+
+hero:
+  tagline: 'Laboratorio 04'
+  title: 'Hydrodynaaminen testialta'
+  subtitle: 'Suorituskyvyn varmistaminen ennen ensimmäistä täysikokoista prototyyppiä'
+  image: 'https://assets.isupfactory.com/images/sups/factory/isupfactory-design-discussion-original.webp'
+  image_alt: 'Vatradin hydrodynaaminen testialta ja suorituskykytestaus'
+
+intro: 'On yleinen väärinkäsitys, että hydrodynaaminen testaus on varattu laivoille ja kilpailuveneille. Todellisuudessa SUP-laudan — 10–14 jalkaa pitkän liu’un runko — suorituskyky riippuu vedenalaisesta muodostaan yhtä paljon kuin minkään muun aluksen. Kärkiprofiili, kylkilinjan säde, kaarevuus ja kastunut pinta-ala vaikuttavat voimakkaasti vastukseen, liu’tehokkuuteen ja vakautteen. {SITE.name} -n ylläpidämme omaa hydrodynaamista testialtaa, jonka avulla voimme kvantifioida nämä vaikutukset mittakaavassa — ennen kuin sitoumme kankaaseen ja työkalustoon täysikokoista prototyyppiä varten.'
+
+content_html: |
+  <h2>Miksi testata SUP-lauta altaalla?</h2>
+  <p>Testaus mittakaavassa (tyypillisesti 1:3–1:5) antaa mahdollisuuden iteroida laudan muotoja nopeasti ja kustannustehokkaasti. Viikko altaalla tuottaa samat suorituskykytiedot, joihin tarvittaisiin kuukausia täysikokoisella kokeilulla ja virheillä — ja murto-osalla kustannuksesta.</p>
+
+  <h2>Laitteiston tekniset tiedot</h2>
+  <table>
+    <thead><tr><th>Parametri</th><th>Määritys</th></tr></thead>
+    <tbody>
+      <tr><td>Alltaan mitat</td><td>35 m (P) × 3.5 m (L) × 1.8 m (S)</td></tr>
+      <tr><td>Vetovaunu</td><td>Sähköisillä servoilla, maksiminopeus 12 m/s (23 kn), nopeustarkkuus ± 0.5 %</td></tr>
+      <tr><td>Aallongeneraattori</td><td>Läppätyyppinen, ohjelmoitavat säännölliset ja epäsäännölliset meriolosuhteet, Hs jopa 0.3 m mittakaavassa</td></tr>
+      <tr><td>Instrumentointi</td><td>6-komponenttinen dynamometri (vastus, sivuvoima, laivaheijastusmomentti), kiihtyvyysanturit, kallistusanturit, aaltoanturit</td></tr>
+      <tr><td>Datan keräys</td><td>Näytteistys 1000 Hz kanavaa kohti, reaaliaikainen näyttö ja jälkikäsittelyohjelmisto</td></tr>
+      <tr><td>Mallien valmistus</td><td>Omat CNC-jyrsintä- ja 3D-tulostuslaitteet mallirunkoihin aina 1.8 m LOA asti</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Testiohjelmamme</h2>
+  <p>Vakiintunut laudan kehitysohjelma altaallamme noudattaa seuraavaa järjestystä:</p>
+  <ol>
+    <li><strong>Mallin rakentaminen</strong> — 1:4-mittakaavan malli koneistetaan CNC-koneella tiheästä vaahdosta ja laskotetaan jäykkyyden vuoksi. Paino ja painopiste säädetään vastaamaan Frouden skaalauksen mukaista täyskuormitustilannetta.</li>
+    <li><strong>Vastusmittaukset</strong> — Mallia vedetään 6–10 nopeudessa, jotka kattavat melonnan nopeusalueen (2–6 kn täysikoon). Kokonaisvastus mitataan ja jaetaan kitka- ja jäännöskomponentteihin ITTC-1957-menetelmällä.</li>
+    <li><strong>Trimin ja upotuksen mittaus</strong> — Ajotrimi ja upotus kirjataan jokaisella nopeudella. Tavoitteena on trimikulma, joka minimoi kastuneen pinnan pitäen kärjen selvästi keulavyön yläpuolella.</li>
+    <li><strong>Akselikadon kartoitus</strong> — Poikittaiset aallot mitataan kahdella nopeudella, jotta voidaan arvioida aallonmuodostusvastusta ja tunnistaa kärkimuodon vuorovaikutukset, jotka hidastavat lautaa vedessä.</li>
+    <li><strong>Merenkulkukelpoisuus (valinnainen)</strong> — Ajot myrskyisellä merellä säännöllisissä aalloissa, jotta mitataan lisävastus ja pystysuora kiihtyvyys aallokossa — nämä ovat touring-lautojen kärjen suunnittelun taustalla olevat tiedot.</li>
+    <li><strong>Datanalyysi ja suositukset</strong> — Toimitamme koko raportin vertailukaavioineen, vastus- ja nopeuskäyrineen sekä täysikokoiselle laudalle tarkoitetuilla konkreettisilla suunnittelusuosituksilla.</li>
+  </ol>
+
+  <div class="not-prose my-10 p-6 rounded-xl bg-gray-50 dark:bg-gray-900 border border-gray-200 dark:border-gray-800">
+    <p class="text-sm font-semibold text-gray-500 mb-3 uppercase tracking-wider">Tyypilliset altaan testitulokset — vastus ja nopeus (11''0 allround-lauta, 1:4-mittakaava)</p>
+    <div class="space-y-2">
+      <div class="flex items-center gap-2 text-xs">
+        <span class="w-20">2 kn (1:1)</span>
+        <div class="flex-1 bg-gray-200 dark:bg-gray-700 h-5 rounded">
+          <div class="h-full bg-blue-600 rounded" style="width:18%"></div>
+        </div>
+        <span class="w-16 text-right">11 N</span>
+      </div>
+      <div class="flex items-center gap-2 text-xs">
+        <span class="w-20">3 kn (1:1)</span>
+        <div class="flex-1 bg-gray-200 dark:bg-gray-700 h-5 rounded">
+          <div class="h-full bg-blue-600 rounded" style="width:35%"></div>
+        </div>
+        <span class="w-16 text-right">21 N</span>
+      </div>
+      <div class="flex items-center gap-2 text-xs">
+        <span class="w-20">4 kn (1:1)</span>
+        <div class="flex-1 bg-gray-200 dark:bg-gray-700 h-5 rounded">
+          <div class="h-full bg-blue-600 rounded" style="width:52%"></div>
+        </div>
+        <span class="w-16 text-right">32 N</span>
+      </div>
+      <div class="flex items-center gap-2 text-xs">
+        <span class="w-20">5 kn (1:1)</span>
+        <div class="flex-1 bg-gray-200 dark:bg-gray-700 h-5 rounded">
+          <div class="h-full bg-blue-600 rounded" style="width:68%"></div>
+        </div>
+        <span class="w-16 text-right">42 N</span>
+      </div>
+      <div class="flex items-center gap-2 text-xs">
+        <span class="w-20">6 kn (1:1)</span>
+        <div class="flex-1 bg-gray-200 dark:bg-gray-700 h-5 rounded">
+          <div class="h-full bg-blue-600 rounded" style="width:85%"></div>
+        </div>
+        <span class="w-16 text-right">52 N</span>
+      </div>
+    </div>
+    <p class="text-xs text-gray-400 mt-2">Mallimittakaavan vastus (N) Frouden skaalauksen mukaisilla nopeuksilla. Täysikokoinen tehosuunnittelun ennuste noudattaa ITTC-1978-suorituskykyennustemenetelmää.</p>
+  </div>
+
+  <h2>Asiantuntijatiimi</h2>
+  <p>Altaallamme työskentelee hydrodynaamikan asiantuntija, jolla on tohtori meritekniikasta ja 8 vuoden vetoaltaan kokemus suurelta eurooppalaiselta merenalouksen tutkimuslaitokselta. Häntä avustaa tekninen työntekijä, joka valmistelee kaikki mallit ja instrumentoinnin. Tiimi noudattaa ITTC:n (International Towing Tank Conference) suositusmenettelyjä varmistaakseen, että jokainen testi on toistettavissa, jäljitettävissä ja kansainvälisesti puolustettavissa.</p>
+
+  <h2>Altaatestit räätälöityyn laudan kehitykseen</h2>
+  <p>Altaatamme ei käytetä vain omille laudoillemme — teemme säännöllisesti testiohjelmia myös asiakkaille, jotka haluavat varmistaa räätälöidyn laudan muodon tai selvittää suorituskykyongelman:</p>
+  <ul>
+    <li><strong>Muotojen vertailu</strong> — Kaksi tai useampia ehdokasta laudan muotoja testataan identtisissä olosuhteissa, mikä antaa objektiivisen vastus-, nopeus- ja vakausvertailun suunnittelupäätöksesi tueksi.</li>
+    <li><strong>Kylkilinjan ja kärjen optimointi</strong> — Kärkiprofiilin ja kylkilinjan säteen variaatioita voidaan testata eri kokoonpanoissa niiden vastuksen pienentämiseen kohdistuvan vaikutuksen kvantifioimiseksi.</li>
+    <li><strong>Melaajakuormatutkimus</strong> — Vastustiedot kartoitetaan nimellisen melaajapainon alueella, jotta voit määrittää oikean pituuden ja leveyden kohdemelontajallesi.</li>
+  </ul>
+
+  <h2>Miksi testata meillä?</h2>
+  <p>Emme anna sinulle pelkkää raakaa lukuja. Raporttimme kääntävät altaan datan toteutettaviksi tuoteteknisiksi suosituksiksi: "Nosta kärjen kaarevuutta 10 mm vähentääksesi keulavyön vastusta kulkunopeudella", "Pyöristä kylkilinja keskiosassa pienentääksesi kastunutta pintaa" tai "Siirrä seisonta-alue 50 mm eteenpäin parantamaan trimiä". Lähdet pois selvän käsityksen kanssa siitä, mitä muutetaan ja miksi.</p>
+  <p>Altaamme on myös käytettävissä riippumattomaan kolmannen osapuolen testaukseen maksullisella palveluperiaatteella. Jos kehität lautaa ja haluat puolueettoman, ammatillisesti toteutetun hydrodynaamisen arvioinnin, otamme mielellään vastaan tiedustelusi.</p>
+
+cta:
+  title: 'Varaa allastesti'
+  subtitle: 'Tarvitsitko täyden kehitysohjelman vai yksittäisen vertailutestin, pystymme mukautumaan aikatauluusi.'
+  actions:
+    - variant: primary
+      text: Ota yhteyttä hydrodynaamiseen tiimiimme
+      href: /fi/contact#project-brief
+    - text: Takaisin tuotekehityskeskukseen
+      href: /fi/randdcenter

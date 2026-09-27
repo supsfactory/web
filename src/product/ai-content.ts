@@ -52,6 +52,9 @@ export const LLM_POLISH_HOMEPAGE_DESCRIPTION =
 export const LLM_DANISH_HOMEPAGE_DESCRIPTION =
   'iSupfactory er en OEM/ODM-fabrik i Qingdao, Kina, der producerer oppustelige SUP-bræt til mærker, distributører og forhandlere. Vi udvikler og bygger bræt, pagaj, finne og pakning efter kundens specifikation, fra prøve og prototype til serieproduktion. Minimumsordre, certificeringer og leveringstider bekræftes altid projektspecifikt.'
 
+export const LLM_FINNISH_HOMEPAGE_DESCRIPTION =
+  'iSupfactory on Qingdaossa, Kiinassa sijaitseva OEM/ODM-tehdas, joka valmistaa puhallettavia SUP-lautoja brändeille, jakelijoille ja jälleenmyyjille. Kehitämme ja rakennamme laudat, melat, evät ja pakkaukset asiakkaan spesifikaation mukaan näytteestä ja prototyypistä sarjatuotantoon. Vähimmäiseräkoot, sertifioinnit ja toimitusajat vahvistetaan aina projektikohtaisesti.'
+
 export const AI_SYSTEM_ROLE =
   `You are the {SITE} product advisor, a sales engineer for a custom inflatable SUP (stand-up paddle board) OEM/ODM factory in Qingdao, China.`
 
@@ -166,6 +169,15 @@ export const CUSTOMIZATION_OPTIONS: Record<string, { title: string; body: string
     { title: 'Finne og tilbehør', body: 'Finnekonfigurationer, pagaj, pumper, leash og tasker tilpasset din pakke.' },
     { title: 'Emballage og præsentation', body: 'Detailkassetter, sødygtig transportemballage og butiksdisplays under dit mærke.' },
   ],
+  fi: [
+    { title: 'Laudan koko ja muoto', body: 'Pituus, leveys, paksuus ja kaari sovitetaan tavoitteesi suorituskykyyn ja markkinoihin.' },
+    { title: 'Materiaalit ja rakenne', body: 'PVC-kerrokset, drop-stitch-tiheys, jäykistimet ja vahvistukset valitaan hintatasi mukaan.' },
+    { title: 'Värit ja kuvitus', body: 'Rajattomat värriyhdistelmät omalla kuvituksellasi tai suunnittelutiimemme avustuksella.' },
+    { title: 'Logo ja brändi', body: 'Logon siirtäminen digitaalisesti tai silkkipainolla, ja visuaalinen tarkastus ennen tuotantoa.' },
+    { title: 'EVA-matto ja kansi', body: 'Leikattu liukumaton EVA-matto, logot ja kannen värit jokaisella laudalla.' },
+    { title: 'Evät ja lisävarusteet', body: 'Eväasennukset, melat, pumput, hihnat ja laukut sovitettuina pakettisi.' },
+    { title: 'Pakkaus ja näyttely', body: 'Vähittäispakkauslaatikot, merikelpoinen kuljetuspakkaus ja myyntipisteet omalla brändilläsi.' },
+  ],
 }
 
 export const OEM_APPLICATIONS: Record<string, { title: string; body: string }[]> = {
@@ -245,6 +257,13 @@ export const OEM_APPLICATIONS: Record<string, { title: string; body: string }[]>
     { title: 'Detailhandel og outdoorvirksomheder', body: 'Sæsonbestemte genbestillingsprogrammer med stabile specifikationer, batch efter batch.' },
     { title: 'Resorter og udlejningsvirksomheder', body: 'Flåder til tungt brug med forstærkninger, reservedele og standardiseret vedligeholdelse.' },
     { title: 'Klubber, skoler og arrangementer', body: 'Mærkede bræt til programmer, konkurrencer og firmaflåter.' },
+  ],
+  fi: [
+    { title: 'SUP-brändit', body: 'Lanseeraa oma tuotelinjasi porrastetuin vähimmäismäärin alkaen 5–10 kpl:n co-branding-sarjasta.' },
+    { title: 'Jakelijat ja jälleenmyyjät', body: 'Tukkuvalikoimat merikelpoisella pakkauksella ja vientihallinnalla.' },
+    { title: 'Vähittäiskauppa ja outdoor-yritykset', body: 'Kausikohtaiset täydennysohjelmat vakailla spesifikaatioilla, erä erältä.' },
+    { title: 'Resortit ja vuokrausoperaattorit', body: 'Raskaan käytön laivueet vahvistuksin, varaosin ja standardoidulla ylläpidolla.' },
+    { title: 'Kerhot, koulut ja tapahtumat', body: 'Brändätyt laudat ohjelmille, kilpailuille ja yrityslaivueille.' },
   ],
 }
 
@@ -337,6 +356,14 @@ export const HUB_PAGE_ENTRIES: Record<string, { url: string; title: string; exce
     { url: '/da/knowledge', title: '', excerpt: '' },
     { url: '/da/gallery', title: 'Galleri', excerpt: 'Fabriks- og produktgalleri fra iSupfactory: værksteder, kvalitetslaboratorier, stofprøvninger og SUP-bræt i produktion.' },
   ],
+  fi: [
+    { url: '/fi', title: 'iSupfactory — puhallettavien SUP-lautojen OEM- ja ODM-tuotanto', excerpt: 'Puhallettavien SUP-lautojen OEM/ODM-tehdas Qingdaossa: tuotekehitys, räätälöity tuotanto, oma brändi ja laadunvalvonta.' },
+    { url: '/fi/products', title: 'Puhallettavat SUP-tuotteet', excerpt: 'Laadukkaat puhallettavat SUP-laudat: 11 ft -sarja, kalastus-SUP, minisup, jättilautajoukkueet ja muuta — valmistettu OEM/ODM-räätälöintiä varten.' },
+    { url: '/fi/solutions', title: 'Ratkaisut', excerpt: 'SUP:n OEM/ODM-tuotantoohjelmat: räätälöity SUP-kehitys, oma brändi, resorttien ja kerhojen laivueet, vuokraus sekä vähittäiskauppakumppanit.' },
+    { url: '/fi/projects', title: '', excerpt: '' },
+    { url: '/fi/knowledge', title: '', excerpt: '' },
+    { url: '/fi/gallery', title: 'Galleria', excerpt: 'iSupfactoryn tehdas- ja tuotegalleria: työpajat, laatulaboratoriot, kangaslaboratoriot ja SUP-laudat tuotannossa.' },
+  ],
 }
 
 export const CASE_STUDY_STATS = {
@@ -356,6 +383,7 @@ export const FAQ_EXCERPTS: Record<string, string> = {
   no: 'Ofte stilte spørsmål om OEM/ODM-produksjon av oppblåsbare SUP-brett — materialer, sertifiseringer, minste bestillingskvantum og engros.',
   pl: 'Najczęściej zadawane pytania o produkcję OEM/ODM nadmuchiwanych desek SUP — materiały, certyfikacje, minimalne ilości zamówienia (MOQ) i sprzedaż hurtowa.',
   da: 'Ofte stillede spørgsmål om OEM/ODM-produktion af oppustelige SUP-bræt — materialer, certificeringer, minimumsordre (MOQ) og engros.',
+  fi: 'Usein kysytyt kysymykset puhallettavien SUP-lautojen OEM/ODM-tuotannosta — materiaalit, sertifioinnit, minimitilaus (MOQ) ja tukkukauppa.',
 }
 
 export const STATIC_PAGE_CORPUS_TEXT =

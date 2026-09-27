@@ -1,0 +1,100 @@
+meta:
+  title: 'Tietoja Vatradista — meriteollisuuden valmistusdivisioona'
+  description: 'Vatrad on Qingdao Vatrad Groupin meriteollisuuden valmistusdivisioona, perustettu vuonna 2012 Qingdaossa Kiinassa — tehdas jokaisen iSupfactoryn räätälöidyn projektin takana.'
+  dateModified: '2026-08'
+  keywords:
+    - 'Vatrad'
+    - 'sup tehdas kiina'
+    - 'puhallettavien sup valmistaja'
+    - 'qingdao vatrad group'
+hero:
+  tagline: Tietoja Vatradista
+  title: 'Vatrad — {SITE}:n takana oleva meriteollisuuden valmistusdivisioona'
+  subtitle: 'Vuonna 2012 Qingdaossa Kiinassa perustettu Vatrad valmistaa puhallettavat vesillikkeet ja SUP-laudat iSupfactoryn räätälöityjen projektien takana — 12,500 m² tehdas, 350+ työntekijää ja 120,000+ yksikön vuotuinen kapasiteetti.'
+  actions:
+    - text: 'Aloita räätälöity projekti'
+      href: /fi/contact
+      variant: primary
+    - text: 'Tutustu tehtaaseen'
+      href: /fi/factory
+      variant: secondary
+intro: |
+  <p><strong>Vatrad</strong> toimii <strong>Qingdao Vatrad Group Co., Ltd.</strong> meriteollisuuden valmistusdivisioonana ja sijaitsee Laixin talouskehitysvyöhykkeessä, Qingdaossa, Shandongissa, Kiinassa. Yritys perustettiin vuonna 2012 erikoistuneena vesilliketehtaana, joka oli sitoutunut meriteollisuuden käsityöhön, ja on kasvanut sertifioiduksi tehdasksi, joka palvelee OEM- ja ODM-asiakkaita yli 50 maassa.</p>
+  <p>iSupfactory on Vatrad-tehtaan B2B-kehitysosasto. Jokainen iSupfactoryn projekti — aina ensimmäisestä näytteestä tai pienestä yhteisbrändätystä erästä aina täyteen private label -tuotelinjaan — valmistetaan samassa laitoksessa, samoilla tiimeillä ja saman laadunhallintajärjestelmän alaisuudessa, joka tässä kuvataan.</p>
+  <p>Tehdas kattaa 12,500 m² ja siellä on erilliset työpajat PVC-leikkausta, drop-stitch-ydinten kokoonpanoa, korkeataajuushitsausta, lautojen kokoonpanoa sekä testialue ilman säilymisen, paineen säilymisen ja sauman lujuuden tarkistuksiin. Tuotantokapasiteetti ylittää 120,000 puhallettavaa yksikköä vuodessa, ja laitos toimii ISO 9001 -laadunhallinnan alaisena, vietävissä tuotteissa CE-, BSCI- ja REACH-vaatimustenmukaisuudella sekä Yhdysvaltain rannikkoviraston (USCG) hyväksynnällä.</p>
+  <p>Yli 350 taitavaa työntekijää ja 14+ R&amp;D-insinööriä tukevat kahta SUP-brändeille tärkeää työaluetta: suunnittelua (runkomuotoilu, materiaalien valinta, prototyypit) ja tuotantoa (kuvioiden paino, kokoonpano, tarkastus, vientipakkaus). Tehtaan sisäinen tuotantokehityskeskus, jossa on PVC-kangaslaboratorio ja testiallas, käsittelee räätälöidyt muotit ja rakenteiden validoinnin ennen sarjatuotannon aloittamista.</p>
+stats:
+  title: Vatrad luvuissa
+  stats:
+    - title: Perustettu
+      amount: 2012
+    - title: Laitos
+      amount: '12,500 m²'
+    - title: Palvellut maat
+      amount: '50+'
+    - title: Vuotuinen kapasiteetti
+      amount: '120,000+ kpl'
+    - title: Työntekijät
+      amount: '350+'
+    - title: 'R&amp;D-insinöörit'
+      amount: '14+'
+values_section:
+  title: Näin tehdas toimii brändien kanssa
+  subtitle: 'Kolme periaatetta, jotka muovaavat jokaisen Vatrad-tehtaan rakentaman projektin.'
+  columns: 3
+  items:
+    - title: Suunnittelu ennen tuotantoa
+      description: 'Jokainen projekti alkaa vaatimuksilla, piirustuksilla ja fyysisellä näytteellä — runkomuoto, drop-stitch-luokka, kuvioiden sijainti ja pakkaus validoidaan ennen mitään tuotantoerää, eivät havaita linjalla.'
+      icon: 'tabler:settings'
+    - title: Yksi tiimi, yksi laitos
+      description: 'Suunnittelu, leikkaus, hitsaus, kokoonpano ja testit tapahtuvat yhdessä 12,500 m² laitoksessa. Ei kauppaa käyvän yhtiön välikkeitä: kysymyksiisi vastaavat samat henkilöt, jotka rakentavat lautoasi.'
+      icon: 'tabler:building-factory-2'
+    - title: Pienet ensierät
+      description: 'Pienimuotoinen yhteisbrändäys alkaa 5–10 kpl, ja vakiintunut sarjatuotanto ajaa 90–100+ kpl erää kohden (yksi 150 m drop-stitch-rulla), joten brändit validoivat markkinat ennen skaalausta — työkalut ja kuviot säilytetään uusintatilauksia varten.'
+      icon: 'tabler:layers-intersect'
+services_section:
+  title: Mitä tehdas toimittaa
+  subtitle: iSupfactoryn asiakkaille saatavilla olevat valmistuspalvelut.
+  columns: 2
+  items:
+    - title: Räätälöity SUP-kehitys
+      description: 'Vaatimusten arviointi, määrittely, materiaalien valinta, kuviot, prototyypit, näytteen hyväksyntä ja tuotanto räätälöityjen puhallettavien SUP-tuotteiden osalta.'
+      icon: 'tabler:bulb'
+    - title: Private label -tuotanto
+      description: 'Oma logosi, värisi ja pakkauksesi vakiintuneilla kaupallisilla tuotepohjilla — lauta, kansi, lisävarusteet ja pakkilaatikot kantavat yrityksesi identiteettiä, ilman tehtaan brändiä.'
+      icon: 'tabler:tag'
+    - title: OEM / ODM-valmistus
+      description: 'Täysi OEM- ja ODM-valmistus puhallettavista SUP-laudoista asiakkaan piirustusten tai yhteisesti kehitettyjen mallien mukaan, mukaan lukien räätälöidyt muotit uusiin lautumuotoihin.'
+      icon: 'tabler:package'
+    - title: Kalustotilausten toimitus
+      description: 'Brändätyt lauttakannukset resorteille, seuroille, kouluille ja vuokraustoimijoille, sovituslisävarustein ja lauttakannukoille soveltuvin tuotantoerillä.'
+      icon: 'tabler:users-group'
+certifications_section:
+  title: 'Sertifiointi ja vaatimustenmukaisuus'
+  subtitle: 'Tehdas vie tavaroita EU:hun, Yhdysvaltoihin ja Aasian ja Tyynenmeren alueelle dokumentoidun vaatimustenmukaisuusjärjestelmän alaisena.'
+  columns: 2
+  items:
+    - title: CE-sertifiointi
+      description: 'Puhallettavien SUP-lautojen ja vesillikkeiden tuotelinot noudattavat EU:n turvallisuusdirektiivejä, ja dokumentit toimitetaan jokaiselle markkinalle.'
+      icon: 'tabler:certificate'
+    - title: ISO 9001 -laadunjärjestelmä
+      description: 'Valmistuslaitos toimii ISO 9001 -laadunhallintajärjestelmän alaisena, joka kattaa saapuvat materiaalit, valmistuksen aikaiset tarkastukset ja lopputarkastuksen.'
+      icon: 'tabler:badge-check'
+    - title: BSCI-yhteiskunnallinen vaatimustenmukaisuus
+      description: 'Yhteiskuntavastuu auditoidaan BSCI:n mukaisesti, kattaen työolot ja tehtään vaatimustenmukaisuuden.'
+      icon: 'tabler:shield-check'
+    - title: REACH-materiaalivaatimustenmukaisuus
+      description: 'Materiaalit täyttävät EU:n REACH-asetuksen kemikaaliturvallisuutta koskevat vaatimukset.'
+      icon: 'tabler:flask'
+    - title: USCG-hyväksyntä
+      description: 'Yhdysvaltain rannikkoviraston hyväksymä tuotanto puhallettavien vesillikkeiden tuotelinjoille.'
+      icon: 'tabler:anchor'
+    - title: Tuotetestaus
+      description: 'Kantavuus, kuormituskyky, sauman lujuus, UV-kestävyys, hankauskestävyys ja paineen säilyminen testataan jokaisella tuotantolinjalla.'
+      icon: 'tabler:test-pipe'
+cta:
+  title: 'Rakenna SUP-projektisi Vatrad-tehtaalla'
+  subtitle: 'Lähetä vaatimuksesi — laudan tyyppi, koko, määrä ja kuviot — ja saat yksityiskohtaisen tarjouksen yhden työpäivän kuluessa.'
+  actions:
+    - text: Brändi-identiteetti
+      href: /fi/about/identity

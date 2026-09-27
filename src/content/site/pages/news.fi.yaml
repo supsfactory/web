@@ -1,0 +1,14 @@
+meta:
+  title: 'Uutiset — SUP-valmistaja ja merialan uutiset | {SITE}'
+  description: 'Vatradin uusimmat uutiset: tehtaan tapahtumat, uudet puhallettavat SUP-mallit, sertifioinnit ja merialan uutisoinnit.'
+  keywords:
+    - 'sup valmistaja uutiset'
+    - 'Vatrad uutiset'
+    - 'puhallettavien sup-uutisoinnit'
+    - 'merialan uutiset'
+hero_text:
+  tagline: ''
+  title: Uutiset
+  subtitle: 'Vatradin uusimmat — tuotteenlanseeraukset, yritysuutiset, oppaat ja tarinat vedeltä'
+news_list:
+  limit: 100

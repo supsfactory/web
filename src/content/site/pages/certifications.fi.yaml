@@ -1,0 +1,513 @@
+meta:
+  title: 'Räätälöityjen SUP-lautojen laadunvalvonta: 7-vaiheinen tarkastus | iSupfactory'
+  description: 'Näin jokainen räätälöity SUP-tilaus valvotaan: 7 tarkastusporttia tuotannon suunnittelusta lähetysluvan myöntämiseen, ja kaksikieliset raportit ovat ladattavissa.'
+  dateModified: '2026-08-15'
+  keywords:
+    - 'sup laadunvalvonta'
+    - 'sup tehdas tarkastus'
+    - 'oem laaduntarkastussuunnitelma'
+    - 'ennakkotarkastus sup'
+    - 'ce sertifiointi sup'
+    - 'iso 9001 sup'
+hero:
+  tagline: Räätälöityjen projektien laadunvalvonta
+  title: 'Räätälöityjen puhallettavien SUP-projektien laadunvalvonta'
+  subtitle: 'Laatu todennetaan hyväksyttyä näytettä, teknistä määrittelyä, kuvioita, materiaaliluetteloa ja kunkin projektin pakkausvaatimuksia vasten — ei yleistä väitettä vasten. Saapuvista materiaaleista lähetysluvan myöntämiseen asti tarkastusprosessimme on rakennettu tuotteen vaatimustenmukaisuuden todentamiseksi määritellyissä tuotantovaiheissa. Taustalla toimii QINGDAO VATRAD GROUP, Vatradin 12,500 m² puhallettavien SUP-lautojen tehdas.'
+stats:
+  - value: 100%
+    label: Painetestatut yksiköt
+  - value: '7'
+    label: Ohjattu tarkastusportti
+  - value: 18.0 PSI
+    label: 24 tunnin paineen säilytys
+  - value: ISO 9001
+    label: Laatusertifioitu
+quality_basis:
+  tagline: Laadun perusteet
+  title: 'Mikä määrittelee tuotteen hyväksynn'
+  subtitle: 'Lopulliset hyväksymiskriteerit vahvistetaan ennen tuotannon vapauttamista. Nämä ohjatut projektiasiakirjat määrittelevät, mitä valmistetaan, miten keskisuosit yksityiskohdat varmennetaan ja mitä on tarkastettava ennen lähetystä — ne hyväksytään ostajan kanssa ja jäädytetään laaduntarkastussuunnitelmaan (QIP). Kaikki muutospyynnöt kulkevat dokumentoidun muutoksenhallinnan kautta, eivät koskaan hiljaa linjan läpi.'
+  items:
+    - title: 'Hyväksytty näyte'
+      description: 'Ostajan hyväksymä fyysinen referenssilauta. Jokainen valmis lauta verrataan siihen mitoituksen, profiilin, jäykkyyden ja viimeistelyn osalta.'
+      icon: tabler:medal
+    - title: 'Tekninen määrittely'
+      description: 'Materiaalit, rakenne ja mittapiirustukset lukitaan tarkistusnumerolla. FAI varmistaa ensimmäisen kappaleen tätä tarkkaa tarkistusta vasten.'
+      icon: tabler:file-check
+    - title: 'Hyväksytyt kuviot'
+      description: 'Kuviot, painovärit ja sijainti hyväksytään ja lukitaan versioon ennen leikkausta, jotta jokainen kansi lähtee brändin hyväksymässä ulkoasussa.'
+      icon: tabler:palette
+    - title: 'Asiakkaan hyväksymä BOM'
+      description: 'Materiaaliluettelo — lauta, mela, pumppu, hihna, laukku, ohje — vahvistetaan ostajan toimesta. PSI tarkistaa 100 % sarjan täyden laajuuden tästä BOM:ista.'
+      icon: tabler:list-checks
+    - title: 'Pakkaus- ja merkintävaatimukset'
+      description: 'Pakkilaatikon rakenne, merkinnät, viivakoodit, etikettien sisältö ja lähetysmerkinnät vakiinnetaan kirjallisesti. Viivakoodien luettavuus ja merkintöjen tarkkuus varmennetaan PSI:ssä.'
+      icon: tabler:package
+tests:
+  - title: Painetestaus
+    description: Puhallettavat osat altistetaan suositeltuja käyttöpaineita suuremmille paineille pitkäksi ajaksi. Tämä varmistaa materiaalin ja saumojen ilmatiiviys sekä rakenteellisen eheyden ja varmistaa, että tuote kestää suunnitellun käytön ja mahdollisen ylitäyttämisen rikkimättä vuotoa.
+    image: https://assets.isupfactory.com/images/sups/factory/isupfactory-pressure-testing.webp
+    alt: Puhallettava SUP-osa painetestissä ilmatiiviyden varmistamiseksi
+  - title: Iskutestaus
+    description: Tuotteille aiheutetaan hallittuja iskuja eri painoilla ja kulmilla. Tällä arvioidaan materiaalin kyky kestää puhkaisuja, repeämiä ja törmäysvaurioita vedessä olevista esteistä, mikä osoittaa kestävyyden ja pitkäikäisyyden.
+    image: https://assets.isupfactory.com/images/sups/factory/isupfactory-production-department.webp
+    alt: Iskutestilaitteisto arvioi puhallettavan veneen materiaalin puhkaisunkestävyyttä
+  - title: UV-kestävyyden testaus
+    description: Materiaalinäytteet altistetaan kiihdytetylle UV-säteilylle, jotta varmistetaan, etteivät ne kellastu, halkeilu tai menetä lujuuttaan ajan myötä. Jokainen PVC-erä tarkistetaan auringonvalon aiheuttamaa rapautumista vastaan ennen tuotantokäyttöä.
+    image: https://assets.isupfactory.com/images/sups/factory/isupfactory-uv-resistance-testing.webp
+    alt: PVC-materiaalinäytteet kiihdytetyssä UV-säteilyssä kestävyyden testissä
+  - title: Hankauskestävyyden testaus
+    description: Materiaalinäytteitä hankataan hiovaa pintaa vasten määritellyn määrän sykleitä hallitussa paineessa. Tällä mitataan materiaalin kyky kestää kulumaa ja repeämää toistuvassa käytössä sekä hiekka- ja kivipintojen kanssa, mikä varmistaa pitkäaikaisen kestävyyden.
+    image: https://assets.isupfactory.com/images/sups/factory/isupfactory-pvc-material-testing.webp
+    alt: Hankaustestikone hankaa PVC-kangasnäytettä kulumisen kestävyyden mittaamiseksi
+  - title: Kylmän lämpötilan suorituskykytestaus
+    description: Tuotteita testataan kylmissä ympäristöissä toiminnallisuuden ja kestävyyden arvioimiseksi eri lämpötiloissa, jotta vältetään jäykkyyttä tai halkeilua kylmissä vesissä. Välttämätöntä talvi- tai korkeiden leveyspiirien käyttöön tarkoitetuille veneille.
+    image: https://assets.isupfactory.com/images/sups/factory/isupfactory-factory-exterior.webp
+    alt: Puhallettava tuote kylmähuoneessa kylmän lämpötilan suorituskykytestissä
+  - title: Kantavuus- ja kuormituskykytestaus
+    description: Tuotteita testataan eri painoilla niiden suurimman kantavuuden määrittämiseksi ja sen varmistamiseksi, että ne tukevat käyttäjiä ja varusteita turvallisesti. Jokaisen mallin ilmoitettu kantavuus varmennetaan ennen luovutusta.
+    image: https://assets.isupfactory.com/images/sups/factory/isupfactory-stock-boat-inventory.webp
+    alt: Kantavuus- ja kuormituskykytesti painoilla puhallettavalla vesillikkeellä
+  - title: Ohjattavuustestaus
+    description: Tuotteita testataan niiden reagointiin melonnalle tai moottorille, arvioiden kääntösädettä ja käsiteltävyyttä. Vesikokeet varmistavat, että todellinen käsiteltävyys vastaa suunnittelumäärityksiä.
+    image: https://assets.isupfactory.com/images/sups/factory/isupfactory-sup-manufacturing.webp
+    alt: Puhallettavien SUP-lautojen ja veneiden runkojen ohjattavuustestaus vedellä
+  - title: Vesitiiviystestaus
+    description: Täysin koostaidut tuotteet upotetaan tai altistetaan vesisuihkulle, jotta saumojen, venttiilien tai materiaalien vuodot voidaan todetaa. Jokainen vene läpäisee pakkoa edeltävän pakollisen vesitiiviystestin.
+    image: https://assets.isupfactory.com/images/sups/factory/isupfactory-production-department-2.webp
+    alt: Upotustesti, jossa tarkistetaan saumojen ja venttiilien vuodot
+qc_flow:
+  tagline: 7-vaiheinen tarkastusvuoto
+  title: 'Seitsemän ohjattua laadunporttia alusta loppuun'
+  subtitle: 'Jokainen alla oleva portti on määritelty projektin laaduntarkastussuunnitelmassa tarkastuskohteen, menetelmän, hyväksymiskriteerien ja kirjauksen osalta. Kaksikieliset raporttipaketit ovat todellisia ohjattuja kirjauksia — avaa mikä tahansa niistä ja näet todellisen rakenteen.'
+  obj_label: Tarkastuskohde
+  method_label: Tarkastusmenetelmä
+  criteria_label: Hyväksymiskriteerit
+  record_label: Kirjauksen tulos
+  stages:
+    - stage: STAGE 01
+      title: 'Projektin laadunsuunnittelu (PPM)'
+      summary: 'Es-tuotantokokous lukitsee laajuuden, peruslinjat ja tarkastussuunnitelman ennen linjan käynnistymistä.'
+      checks:
+        - 'Tuotteen nimi, sisäinen koodi, asiakkaan SKU, tilausnumero ja erän määrittely kirjataan.'
+        - 'Lautatyyppi, drop-stitch-ydin, materiaalit, reunavahvikkeet, EVA, venttiilit ja eväjärjestelmä määritellään.'
+        - 'Kuviotiedoston nimi, versio, värit, logon sijainti ja painoalue lukitaan ja hyväksytään.'
+        - 'BOM — jokainen tuote setti kohti määrineen, väreineen, osanumeroineen ja korvaussääntöineen — hyväksytään asiakkaalta.'
+        - 'Pakkaus, merkintä, viivakoodit, ohjekirjojen kieli ja kolmannen osapuolen tarkastusjärjestelyt vakiinnetaan kirjallisesti.'
+      object: 'Projektin laajuus verrattuna asiakkaan vaatimuksiin — materiaalit, mitat, kuviot, pakkaus, kohdemarkkina ja sovellettavat standardit.'
+      method: 'Es-tuotantokokous myynnin, suunnittelun ja laadun kanssa; kultaisen näytteen hyväksyntä; laaduntarkastussuunnitelma (QIP) luodaan tilaukselle.'
+      criteria: 'Kaikki viisi peruslinjaa hyväksytään ja jäädytetään ennen sarjatuotannon aloittamista. Ratkaisemattomat kohdat estävät tuotannon vapauttamisen.'
+      record: 'QIP + PPM pöytäkirjat, hyväksytyn näytteen kirjaukset.'
+      image: https://assets.isupfactory.com/site/quality/node01-ppm.avif
+      alt: Es-tuotantokokous, jossa tarkastellaan kultaista näytettä ja laaduntarkastussuunnitelmaa OEM-SUP-tilaukselle
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_SUP_OEM_QIP.pdf
+      link_label: 'Lataa QIP (PDF)'
+    - stage: STAGE 02
+      title: 'Saapuvien materiaalien tarkastus (IQC)'
+      summary: 'Raaka-aineet varmennetaan hyväksyttyä toimittajamäärittelyä vasten ennen tuotantoon tuloa.'
+      checks:
+        - 'Drop-stitch-kangas, PVC-rullat, reunavahvikemateriaali ja EVA-kan pehmusteet tarkistetaan hyväksyttyä näytettä vasten — väri, paksuus, paino ja pinnan viat.'
+        - 'Venttiilit, eväkotelot, D-renkaat, kahvat ja kiinnikkeet tarkistetaan tyypin, koon, viimeistelyn, ruosteen ja toimivuuden osalta.'
+        - 'Pumput, melat, hihnat, laukut ja korjaussarjat varmennetaan mallin, värin ja projektikonfiguraation osalta.'
+        - 'Toimittajan todistukset (COA), materiaalideklaratiot ja REACH/RoHS-vaatimustenmukaisuusasiakirjat tarkastetaan eräkohtaisesti.'
+        - 'Epävaatimustenmukaiset erät eristetään ja palautetaan ennen kuin materiaali päätyy linjalle.'
+      object: 'Drop-stitch-kangas, PVC-rullat, venttiilit, evät, lisävarusteet ja pakkausmateriaalit hyväksyttyä määrittelyä ja toimittajan testitodistuksia vasten.'
+      method: 'Visuaaliset, mitta- ja painotarkistukset; eränäytteistys AQL:n mukaan; materiaalitodistukset tarkastetaan; hyväksytyn toimittajaluettelo noudatetaan.'
+      criteria: 'Täyttää hyväksytyn määrittelyn ja todistukset. Epävaatimustenmukaiset erät eristetään ja hylätään ennen linjalle päästämistä.'
+      record: 'IQC-testiraportit, joissa on eräviitteet ja päätökset.'
+      image: https://assets.isupfactory.com/site/quality/node02-iqc.avif
+      alt: PVC-kankaan ja SUP-komponenttien saapuvien materiaalien tarkastus tehtaalla
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_IQC_TEST_REPORTS.pdf
+      link_label: 'Lataa IQC-raportit (PDF)'
+    - stage: STAGE 03
+      title: 'Valmistuksen aikainen valvonta ja ensimmäinen kappale (IPQC / FAI)'
+      summary: 'Rakentamismenetelmät ja tarkastuspisteet valitaan hyväksytyn lauttapohjan ja projektikonfiguraation mukaan. Ensimmäinen kappale tarkistetaan lukittuja peruslinjoja vasten; jokainen vuoro pitää linjalla kiertotarkastukset yllä.'
+      checks:
+        - 'Ensimmäinen kappale varmennetaan hyväksyttyä näytettä, teknistä piirustusta, BOM:ia, kuvioita ja pakkausasiakirjoja vasten ennen sarjatuotannon aloittamista.'
+        - 'Lautojen mitat, ääriviiva ja symmetria mitataan; musteen ja logon suunta, sijainti, värit ja tarkistus vahvistetaan.'
+        - 'Saumat ja reunavahvikkeiden jatkuvuus tarkistetaan linjalla aukoista, delaminaatiosta, rypistymistä, epäpuhtauksista tai kohdevirheistä.'
+        - 'Venttiilin, D-renkaan, kahvan ja eväkotelon asennus tarkistetaan sijainnin, määrän ja istuvuuden osalta asiakkaan hyväksymään BOM:iin.'
+        - 'FAI-hyväksyntä lukitsee kuviot, mitat ja BOM:in versioon; poikkeamat ohjataan korjauspäätöksvuotoon — ei koskaan paikallisia paikkauksia linjalla.'
+      object: 'Ensimmäinen kappale ja valmistuksen aikaiset kokoonpanot — saumat, reunavahvikkeet, eväkotelo, venttiilin istukka, kuvioiden sijainti, kiinnikkeiden kiristysmomentti.'
+      method: 'Ensimmäisen kappaleen tarkastus ensimmäiseen yksikköön; kiertotarkastukset vuoroittain; hitsin lujuus ja sauman kohdistus varmennetaan linjalla.'
+      criteria: 'FAI-hyväksyntä lukitsee kuviot, mitat ja BOM:in versioon. Poikkeamat ohjataan korjauspäätöksvuotoon — ei koskaan paikallisia paikkauksia linjalla.'
+      record: 'FAI-kirjaus, vuorojen kiertotarkastuspäiväkirjat, korjaus- ja päätöskirjaukset.'
+      image: https://assets.isupfactory.com/site/quality/node03-ipqc-fai.avif
+      alt: Valmistuksen aikainen tarkastus ja ensimmäisen kappaleen tarkistus SUP-tuotannon aikana
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_IPQC_TEST_REPORTS.pdf
+      link_label: 'Lataa IPQC-raportit (PDF)'
+    - stage: STAGE 04
+      title: 'Täyttö- ja ilmatiiviystestaus'
+      summary: 'Jokainen valmis lauta käy läpi täyttämisen ja ilmatiiviyden varmennuksen ennen pakkausta — 100 % yksiköistä, ei otoksesta.'
+      checks:
+        - 'Laudan pinta, reunavahvikkeet ja venttiilialue tarkistetaan neuloista, halkeista, epänormaaleista taitoksista tai delaminaatiosta ennen täyttämistä.'
+        - 'Osat täytetään kalibroidulla digitaalimittarilla projektin testipaineeseen ja alkulukema lukitaan.'
+        - 'Venttiilin runko, venttiilin istukka ja reunavahvikkeiden saumat tarkistetaan koko kehän matalta — keula, häntä ja kaarevat kohdat.'
+        - '24 tunnin paineen säilytys jatkuvalla kirjauksella; automaattinen hylkäminen sallitun paineen aleneman ylittäessä rajan.'
+        - 'Epäonnistuneet laudat eristetään, korjataan ohjeen mukaan ja testataan uudelleen täysin — ei vain tarkisteta korjauspisteessä uudelleen.'
+      object: '100 % täytetyistä osista — koko sauman vuototarkastus, venttiilin eheys ja painenaleneman säilyminen.'
+      method: 'Koko sauman vuototarkastus, jonka jälkeen 24 tunnin paineen säilytys 18.0 PSI:ssä; automaattinen hylkäminen yli 0.50 PSI:n aleneman kohdalla.'
+      criteria: 'Nolla vuotokohtaa ja paineen alenema alle 0.50 PSI osaa kohden; epäonnistuneet yksiköt eristetään ja korjataan tai hylätään.'
+      record: 'Ilmatiiviystestiraportit, yksi per osa, linkitettynä erään.'
+      image: https://assets.isupfactory.com/site/quality/node04-airtightness.avif
+      alt: Puhallettavan SUP-osan täyttö- ja ilmatiiviystestaus
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_AIRTIGHTNESS_TEST_REPORTS.pdf
+      link_label: 'Lataa ilmatiiviysraportit (PDF)'
+    - stage: STAGE 05
+      title: 'Lopputuotteen tarkastus (FQC)'
+      summary: 'Valmiit laudat mitataan ja luokitellaan kosmeettisesti hyväksyttyä kultaista näytettä vasten.'
+      checks:
+        - 'Keskeiset mitat — pituus, leveys ja paksuus — mitataan käyttöpaineessa piirustuksen toleranssien mukaan.'
+        - 'Laudan ääriviiva, rocker ja symmetria varmennetaan; täyttämisen jälkeen ei poikkeavaa vääntymistä, kiertymistä tai kupertumista.'
+        - 'Kosmetiikka luokitellaan D65-päivänvalolamppujen alla: naarmut, tahrat, liimajäljet, kuplat, rypistymät, värivaihtelu.'
+        - 'Toiminnalliset tarkistukset: venttiilin avaus/sulku ja korkin istuvuus, evän paikalleen pano ja lukitus, D-renkaat, kahvat ja melan toiminta.'
+        - 'Konfiguraatio varmennetaan asiakkaan hyväksymää BOM:ia ja SKU:ta vasten — lisävarusteet, etiketit, viivakoodit ja sarjanumerot.'
+      object: 'Valmis lauta verrattuna kultaiseen näytteeseen — mitat, rocker, profiili, kosmetiikka, eväkotelon istuvuus ja lisävarusteiden täydellisyys.'
+      method: 'Mittaus piirustuksen toleransseja vasten; kosmetiikka luokitellaan D65-päivänvalolamppujen alla; eväkotelon ja kiinnikkeiden istuvuustestit.'
+      criteria: 'Mitat toleranssien puitteissa (esim. 3508 × 814 × 150.3 mm), kosmeettinen luokka hyväksytyn näytteen mukaan, kaikki lisävarusteet paikallaan.'
+      record: 'FQC-raportit tarkastajan allekirjoituksineen ja päätöksineen.'
+      image: https://assets.isupfactory.com/site/quality/node05-fqc.avif
+      alt: Valmiiden SUP-lautojen lopputuotteen tarkastus ennen pakkausta
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_FQC_TEST_REPORTS.pdf
+      link_label: 'Lataa FQC-raportit (PDF)'
+    - stage: STAGE 06
+      title: 'Pakkaus- ja ennakkolähetystarkastus (PSI)'
+      summary: 'Pakattu sarja tarkistetaan täydellisyyden, merkintöjen tarkkuuden ja lähetysvalmiuden osalta.'
+      checks:
+        - '100 % sarjan täydellisyys BOM:ia vasten: lauta, mela, pumppu, hihna, laukku, korjaussarja ja ohje — yksi sarja kerrallaan.'
+        - 'Herkät osat suojataan (pumpun ja siiven laukut), lauta taitetaan pakkausohjeen (SOP) mukaisesti, lisävarusteet vastaavat mallia ja väriä.'
+        - 'Pakkilaatikoston kuviot, brändi, varoitukset ja kieliversiot varmennetaan hyväksyttyä kuviotarkistusta vasten.'
+        - 'Viivakoodin tyyppi, numero, sijainti ja skannattavuus varmennetaan; lähetysmerkinnät, SKU, PO, laatikkonumero ja määrä oikein.'
+        - 'Laatikon koko, brutto- ja nettopaino sekä sisäpakkaus vastaavat pakkausmäärittelyä; pudotustestin tulos kirjataan tarvittaessa.'
+      object: 'Pakattu sarja — lauta, mela, pumppu, hihna, laukku, ohje — asiakkaan hyväksymää BOM:ia ja pakkausmäärittelyä vasten.'
+      method: '100 % sarjan täydellisyys BOM:ia vasten; viivakoodin skannaus (luokka ≥ B); pakkilaatikkojen merkintöjen tarkkuus; ISTA-1A pudotustesti pakatuilla laatikoilla.'
+      criteria: '100 % sarja täsmää BOM:iin, luettavat viivakoodit, oikeat merkinnät ja pudotuksen kestävä pakkaus ennen kuormausta.'
+      record: 'PSI-tarkistuslistat ja pakkauskirjaukset laatikkoa kohden.'
+      image: https://assets.isupfactory.com/site/quality/node06-psi.avif
+      alt: Ennakkolähetystarkastus, jossa pakattu SUP-sarja tarkistetaan BOM:ia vasten
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_PSI_TEST_REPORTS.pdf
+      link_label: 'Lataa PSI-raportit (PDF)'
+    - stage: STAGE 07
+      title: 'Lähetyslupa ja jäljitettävyys'
+      summary: 'Laatu hyväksyy erän vasta, kun kaikki kuusi edellistä porttia on suljettu ja jokainen kirjaus on valmis.'
+      checks:
+        - 'Tuotantoerä, tilausnumero, SKU, määrä ja laatikkomäärä täsmäävät pakkausluetteloon ja kaupalliseen laskuhun.'
+        - 'Määrittely, BOM, kuviot ja pakkausasiakirjat ovat kaikki uusimmassa hyväksytyssä tarkistuksessa.'
+        - 'IQC-, FAI-, valmistuksen aikaisen, ilmatiiviyden, FQC- ja PSI-kirjaukset ovat valmiit luovutettavalle erälle.'
+        - 'Kaikki vaatimustenmukaisuuspoikkeamat on ratkaistu, korjattu, tarkastettu uudelleen ja suljettu — ei avoimia kohtia luvassa.'
+        - 'Jäljitettävyyskentät kirjataan erää kohden: projektikoodi, PO, SKU, kuvio/BOM/pakkauksen tarkistukset, tuotantopäivä, tarkastaja ja kirjausnumerot.'
+      object: 'Erän luovutuslupa — kaikki portit suljettu, kirjaukset valmiit, sarjanumerot kartoitettu erään.'
+      method: 'Laadun tekemä porttien katselmus kaikista kuudesta edellisestä kirjauksesta; erän jäljitettävyyspaketti kootaan; kirjaukset luovutetaan lähetyksen mukana.'
+      criteria: 'Kaikki portit QA:n hyväksymiä; erän kirjaukset ja jäljitettävyyspaketti toimitetaan ostajalle tai säilytetään NDA:n puitteissa pyydettäessä.'
+      record: 'Lähetysluvan vahvistus ja erän jäljitettävyyspaketti.'
+      image: https://assets.isupfactory.com/site/quality/node07-shipment-release.avif
+      alt: Lähetysluvan allekirjoitus ja erän jäljitettävyyskirjauksen luovutus
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_SHIPMENT_RELEASE_REPORTS.pdf
+      link_label: 'Lataa lupiteraportit (PDF)'
+system_map:
+  tagline: Laadunhallintajärjestelmä
+  title: 'Yksi järjestelmä, neljä ohjattua standardia'
+  subtitle: 'Edellä mainitut seitsemän porttia toimivat neljän dokumentoidun standardin mukaan, jotka kukin on julkaistu ohjattuna menettelynä, jonka voit ladata ja auditoida. Yhdessä ne muodostavat QMS-järjestelmän jokaisen OEM/ODM-tilauksen taakse — tarkastuskriteerit, muutoksenhallinta, vaatimustenmukaisuus ja laboratoriotestaus.'
+  items:
+    - title: 'Tarkastus- ja luovutusstandardit'
+      description: 'Projektin QIP ohjaa jokaista porttia: tarkastuskohde, menetelmä, hyväksymiskriteerit ja kirjauksen tulos tilauksesta toiseen. Sisältää 4-vaiheisen laadunvalvontakehikon, jäljitettävyysketjun, eristysvuodon, vikamatriisin ja 00–15-asiakirjarekisterin.'
+      icon: tabler:clipboard-check
+      link: /fi/factory/quality-inspection
+      link_label: 'Tarkastusstandardit ja QMS-lataukset'
+    - title: 'Korjauksen muutoksenhallinta'
+      description: 'Ei korjausparametrien muutoksia ilman dokumentoitua ohjausta: rajaus, riskiluokitus, 9-vaiheinen muutosprosessi, hyväksymismatriisi ja validointi. Jokainen muutos hyväksyttyihin määrittelyihin, näytteisiin, BOM:eihin tai hyväksymiskriteereihin vaatii ostajan kirjallisen hyväksynnän.'
+      icon: tabler:git-branch
+      link: /fi/factory/quality-change-control
+      link_label: 'Muutoksenhallinnan standardi'
+    - title: 'Vaatimustenmukaisuuspoikkeavien tuotteiden ohjaus'
+      description: 'Suljettu 7-vaiheinen silmukka ISO 9001:2015 -standardin kohdan 8.7 mukaisesti: tunnista, eristä, päätä NCR:n mukaisesti, korjaa tai hylkää, tarkasta uudelleen, luovuta, korjaa. Sisältää vakavuusvaltuudet, SUP-vikojen päätösmatriisin ja valvotun hävittämisen.'
+      icon: tabler:alert-triangle
+      link: /fi/factory/non-conforming-control
+      link_label: 'Vaatimustenmukaisuuspoikkeavien tuotteiden ohjauksen standardi'
+    - title: 'Laboratoriotestaus ja välineet'
+      description: 'Laadulaboratorio toimii tuotannosta riippumatta: veto- ja painenalenematestit, UV-altistus, hitsin kuoriminen, vuototarkastus ja lämpötilakammiot — kalibroinnin ja testimenetelmät julkaistujen väitteidemme takana.'
+      icon: tabler:flask
+      link: /fi/factory/quality-lab
+      link_label: 'Laadulaboratorio ja testivälineet'
+    - title: 'Materiaaliteistelaboratorio (T&K)'
+      description: 'Tuotantokehityskeskus suorittaa riippumattomia materiaalitestejä PVC-/Hypalon-sekoituksille, kiihdytetylle vanhenemiselle ja sertifiointituelle, ja syöttää standardeja joita tuotanto käyttää.'
+      icon: tabler:microscope
+      link: /fi/randdcenter/quality-inspection-lab
+      link_label: 'T&K:n materiaaliteistelaboratorio'
+intelligence_cards:
+  tagline: Dokumentaatio ja jäljitettävyys
+  title: 'Laatukirjaukset, jotka tukevat projektien jäljitettävyyttä'
+  subtitle: 'Tarkastuskirjaukset pidetään tuotantoerittäin ja linkitetään sovellettavaan projektidokumentaatioon — määrittelyn tarkistukseen, kuviotarkistukseen, BOM:iin ja pakkausvaatimuksiin. Asiakkaan luottamuksemme suojelemiseksi tämän sivun näytteet on anonymisoitu: vain rakenteelliset kentät näytetään (projektikoodi, tuote/SKU, erä, tarkastusvaihe, tarkastuskohde, hyväksymiskriteerit, tulos, tarkastaja, päivämäärä ja luovutusstatus).'
+  cards:
+    - icon: 1
+      icon_bg: blue
+      title: Saapuvien materiaalien tarkastuskirjaus
+      desc: 'Todistaa, että raaka-aineet, drop-stitch-kankaat, PVC-rullat ja komponentit on varmennettu hyväksyttyä määrittelyä vasten ennen tuotannon vapauttamista.'
+      metrics:
+        - { label: Vaihe, value: '02 · IQC' }
+        - { label: Eräviite, value: 'LOT-DEMO-DS-0814' }
+        - { label: Tulos, value: 'Hyväksytty · Hyväksytty tuotantoon' }
+      link: 'https://assets.isupfactory.com/site/downloads/anonymized-quality-record-samples.pdf#page=1'
+      link_label: 'Näytä anonymisoitu näyte (PDF)'
+    - icon: 2
+      icon_bg: green
+      title: Ensimmäisen kappaleen tarkastus (FAI) -kirjaus
+      desc: 'Todistaa versiolukituksen (kuviot, mitat, BOM-määrittelyt) ennen täyteen sarjatuotantoon siirtymistä.'
+      metrics:
+        - { label: Vaihe, value: '03 · IPQC' }
+        - { label: Näytekoodi, value: 'SN-DEMO-FAI-001' }
+        - { label: Tulos, value: 'Hyväksytty · FAI hyväksytty' }
+      link: 'https://assets.isupfactory.com/site/downloads/anonymized-quality-record-samples.pdf#page=2'
+      link_label: 'Näytä anonymisoitu näyte (PDF)'
+    - icon: 3
+      icon_bg: purple
+      title: Täyttö- ja ilmatiiviystestin kirjaus
+      desc: 'Varmentaa 100 % koko sauman vuototarkastuksen, venttiilin eheyden ja painenaleneman säilymisen projektin laatusuunnitelman mukaan.'
+      metrics:
+        - { label: Vaihe, value: '04 · Ilmatiiviys' }
+        - { label: Testiehto, value: 'Projektisuunnitelman mukaan (18.0 PSI)' }
+        - { label: Tulos, value: 'Hyväksytty · Hyväksytty lopputarkastukseen' }
+      link: 'https://assets.isupfactory.com/site/downloads/anonymized-quality-record-samples.pdf#page=3'
+      link_label: 'Näytä anonymisoitu näyte (PDF)'
+    - icon: 4
+      icon_bg: orange
+      title: Lopputuotteen tarkastusraportti
+      desc: 'Validoi valmiin laudan hyväksyttyä näytettä vasten mitat, rocker, kosmetiikka (D65-valo) ja eväkotelon istuvuus.'
+      metrics:
+        - { label: Vaihe, value: '05 · FQC' }
+        - { label: Mitat, value: '3508 × 814 × 150.3 mm' }
+        - { label: Tulos, value: 'Hyväksytty · Hyväksytty pakkaukseen' }
+      link: 'https://assets.isupfactory.com/site/downloads/anonymized-quality-record-samples.pdf#page=4'
+      link_label: 'Näytä anonymisoitu näyte (PDF)'
+    - icon: 5
+      icon_bg: green
+      title: Pakkaus- ja ennakkolähetystarkistuslista
+      desc: 'Varmistaa 100 % sarjan täydellisyyden, viivakoodien luettavuuden (luokka ≥ B), pakkilaatikkojen merkintöjen tarkkuuden ja ISTA-1A-pudotusturvallisuuden.'
+      metrics:
+        - { label: Vaihe, value: '06 · PSI' }
+        - { label: Sarja, value: '100 % täsmää BOM:iin' }
+        - { label: Tulos, value: 'Hyväksytty · Hyväksytty lähetystä varten' }
+      link: 'https://assets.isupfactory.com/site/downloads/anonymized-quality-record-samples.pdf#page=5'
+      link_label: 'Näytä anonymisoitu näyte (PDF)'
+doc_register:
+  tagline: Ohjattu asiakirjarekisteri
+  title: 'Kaikki lähetystä koskevat asiakirjat listattuna'
+  subtitle: 'Jokainen tilaus tuottaa rakenteisen 00–15-asiakirjarekisterin — projektihakemiston, hyväksytyn määrittelyn, BOM:in, kuvio- ja pakkausviitteet, QIP:n, tarkastuskirjaukset, NCR:n, muutoksenhallinnan, kolmannen osapuolen briefin ja luvun yhteenvedon. Lataa julkiset asiakirjat nähdäksesi tarkat rakenteet ja kriteerit, joita valvomme.'
+  items:
+    - title: '00 · Projektin laaduntarkastussuunnitelma (QIP)'
+      description: 'Tilauksen laadullinen sopimus: portit, tarkastuksen laajuus, menetelmät, hyväksymiskriteerit ja kirjaukset, jotka saat.'
+      icon: '00'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_SUP_OEM_QIP.pdf
+      link_label: 'Lataa QIP (PDF)'
+    - title: '01 · Laaduntarkastusstandardit'
+      description: 'Täydellinen tarkastus- ja varmuusstandardi, jota sovelletaan räätälöityjen puhallettavien SUP-tilausten osalta.'
+      icon: '01'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_Quality_Inspection_Standards.pdf
+      link_label: 'Lataa standardit (PDF)'
+    - title: '02 · Laadundokumentaatiopaketti'
+      description: 'Projektin saama täydellinen asiakirjarakenne yhdessä katsauspaketissa.'
+      icon: '02'
+      link: https://assets.isupfactory.com/site/downloads/Qingdao_Vatrad_Group_SUP_Quality_Documentation_Pack.pdf
+      link_label: 'Lataa paketti (PDF)'
+    - title: '03 · IQC-testiraportit'
+      description: 'Saapuvien materiaalien tarkastusraportit — kankaat, PVC-rullat, venttiilit ja komponentit.'
+      icon: '03'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_IQC_TEST_REPORTS.pdf
+      link_label: 'Lataa IQC-raportit (PDF)'
+    - title: '04 · IPQC-testiraportit'
+      description: 'Valmistuksen aikaisen tarkastuksen ja ensimmäisen kappaleen raportit lukittua tarkistusta vasten.'
+      icon: '04'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_IPQC_TEST_REPORTS.pdf
+      link_label: 'Lataa IPQC-raportit (PDF)'
+    - title: '05 · Ilmatiiviystestiraportit'
+      description: '100 % saumavuototarkastus, venttiilin eheys ja paineen säilytyksen kirjaukset.'
+      icon: '05'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_AIRTIGHTNESS_TEST_REPORTS.pdf
+      link_label: 'Lataa ilmatiiviysraportit (PDF)'
+    - title: '06 · FQC-testiraportit'
+      description: 'Lopullinen lautan tarkastus hyväksyttyä näytettä vasten — mitat, kosmetiikka, eväkotelo.'
+      icon: '06'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_FQC_TEST_REPORTS.pdf
+      link_label: 'Lataa FQC-raportit (PDF)'
+    - title: '07 · PSI-testiraportit'
+      description: 'Pakkaus- ja ennakkolähetystarkastus — 100 % sarjan täydellisyys, viivakoodin luokka, pudotusturvallisuus.'
+      icon: '07'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_PSI_TEST_REPORTS.pdf
+      link_label: 'Lataa PSI-raportit (PDF)'
+    - title: '08 · Lähetysluparaportit'
+      description: 'Luovutuslupa, joka allekirjoitetaan kaikkien porttien ollessa suljettu, erän paketin kera.'
+      icon: '08'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_SHIPMENT_RELEASE_REPORTS.pdf
+      link_label: 'Lataa lupiteraportit (PDF)'
+    - title: '09 · Jäljitettävyys- ja NCR-paketti'
+      description: 'Erän jäljitettävyys kartoitettuna määrittelyyn, kuvioihin ja BOM:iin sekä vaatimustenmukaisuuspoikkeamien ohjauskirjaukset.'
+      icon: '09'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_BATCH_TRACEABILITY_AND_NCR_CONTROL_DOSSIER.pdf
+      link_label: 'Lataa paketti (PDF)'
+    - title: '10 · NCP-ohjausmenettely (SOP, ISO 8.7)'
+      description: 'Ohjattu menettely vaatimustenmukaisuuspoikkeavien tuotteiden eristämiseen, päätöksentekoon, korjaukseen ja luovutukseen.'
+      icon: '10'
+      link: https://assets.isupfactory.com/site/downloads/non-conforming-product-control-sop-iso-8-7.pdf
+      link_label: 'Lataa SOP (PDF)'
+    - title: '11 · Korjauksen muutoksenhallintamenettely (SOP) ja liite'
+      description: 'Muutoksenhallintamenettely ja sen toteutusliite — rajaus, hyväksyntä ja validointi.'
+      icon: '11'
+      link: https://assets.isupfactory.com/site/downloads/rework-change-control-sop-qms-sop-qc-cc-001.pdf
+      link_label: 'Lataa SOP (PDF)'
+    - title: '12 · Ennakkolähetysluvan yhteenveto'
+      description: 'Kaksikielinen luvun yhteenveto, joka toimitetaan jokaisen erän mukana ja kokoaa rekisterin yhteen.'
+      icon: '12'
+      link: https://assets.isupfactory.com/site/downloads/Pre_Shipment_Release_Summary_Bilingual.pdf
+      link_label: 'Lataa yhteenveto (PDF)'
+    - title: '13 · Kolmannen osapuolen tarkastusbriefin malli'
+      description: 'Brief-malli, jota tarkastajat käyttävät ennakkolähetystarkastuksen ilmoittamiseen, suunnitteluun ja raportoimiseen.'
+      icon: '13'
+      link: https://assets.isupfactory.com/site/downloads/Third_Party_Inspection_Brief_Template.pdf
+      link_label: 'Lataa malli (PDF)'
+    - title: '14 · PSI-tarkistuslista'
+      description: 'Tehdaslattian ennakkolähetystarkistuslista — sarjan täydellisyys, viivakoodin luokka, merkinnät ja pudotusturvallisuus.'
+      icon: '14'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_SUP_Pre_Shipment_Inspection_Checklist.pdf
+      link_label: 'Lataa tarkistuslista (PDF)'
+    - title: '15 · OEM-projektin toteutettavuus- ja laatuopas'
+      description: 'Miten projekti etenee tiedustelusta hyväksyttyyn kultaiseen näytteeseen — suunnittelu- ja laatuvaiheet ennen sarjatuotantoa.'
+      icon: '15'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_OEM_PROJECT_FEASIBILITY_AND_QUALITY_GUIDE.pdf
+      link_label: 'Lataa opas (PDF)'
+traceability:
+  tagline: Erätason jäljitettävyys
+  title: 'Neljä kysymystä, joihin jokainen erä vastaa'
+  subtitle: 'Laatukirjaukset pidetään tuotantoerittäin ja linkitetään sovellettavaan tuotemäärittelyyn, kuvioihin, BOM:iin ja pakkausvaatimuksiin. Tämä tukee tutkimusta ja ohjattua toimenpidettä, jos laatuongelma havaitaan. Ostajan auditoinnin aikana laadun tiimimme vastaa lattialla näihin neljään kysymykseen — jokainen vastaus viittaa ohjattuun kirjaukseen.'
+  items:
+    - title: 'Mitä valmistettiin?'
+      description: 'Tuote, malli, konfiguraatio ja tarkistus on sidottu tilausnumeroon ja hyväksytyn määrittelyn tarkistukseen.'
+      icon: '1'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_BATCH_TRACEABILITY_AND_NCR_CONTROL_DOSSIER.pdf
+      link_label: 'Näytä jäljitettävyyspaketti (PDF)'
+    - title: 'Mitä materiaaleja käytettiin?'
+      description: 'Jokainen erään menevä materiaalierä kirjataan toimittajineen, todistuksineen ja IQC-päätöksineen.'
+      icon: '2'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_BATCH_TRACEABILITY_AND_NCR_CONTROL_DOSSIER.pdf
+      link_label: 'Näytä jäljitettävyyspaketti (PDF)'
+    - title: 'Kuka tarkasti ja milloin?'
+      description: 'Jokaisessa kirjauksessa on tarkastajan rooli, päivämäärä, käytetyt välineet ja tulos — eikä nimettömiä allekirjoituksia.'
+      icon: '3'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_BATCH_TRACEABILITY_AND_NCR_CONTROL_DOSSIER.pdf
+      link_label: 'Näytä jäljitettävyyspaketti (PDF)'
+    - title: 'Miten erä luovutettiin?'
+      description: 'Laatu myöntää luvan vasta, kun kaikki portit on suljettu; päätös dokumentoidaan kirjaukseen.'
+      icon: '4'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_BATCH_TRACEABILITY_AND_NCR_CONTROL_DOSSIER.pdf
+      link_label: 'Näytä jäljitettävyyspaketti (PDF)'
+non_conformance:
+  tagline: Vaatimustenmukaisuuspoikkeavien tuotteiden ohjaus
+  title: 'Vian löytyessä: rajaus, päätös, dokumentointi'
+  subtitle: 'Tuotteet tai komponentit, jotka eivät täytä määriteltyjä hyväksymiskriteerejä, tunnistetaan ja siirretään ohjattuun säilytykseen. Korjaus tai vaihto on sallittu vain sovellettavan laatumenettelyn kautta, minkä jälkeen suoritetaan uusintatarkastus ennen luvan myöntämistä.'
+  items:
+    - title: 'Tunnistus ja eristäminen'
+      description: 'Epäonnistuneet yksiköt merkitään punaisella siirretään eristysasemalle — ei jatkokäsittelyä eikä pakkausta ennen päätöstä.'
+      icon: tabler:alert-triangle
+    - title: 'Päätös NCR:n mukaisesti'
+      description: 'Laatu laatii vaatimustenmukaisuusraportin ja ohjaa yksikön korjaukseen, uusintatarkastukseen, hylkäämiseen tai romuttamiseen päätösmatriisin mukaan.'
+      icon: tabler:git-branch
+      link: /fi/factory/non-conforming-control
+      link_label: 'Vaatimustenmukaisuuspoikkeavien tuotteiden ohjauksen standardi'
+    - title: 'Varmistus ja luovutus'
+      description: 'Korjatut yksiköt tarkastetaan uudelleen samoja kriteereitä vasten; NCR suljetaan vasta uudelleenvarmennuksen menestyessä.'
+      icon: tabler:shield-check
+    - title: 'Romun ohjaus'
+      description: 'Romutettu materiaali tuhotaan allekirjoitetulla romu-todistuksella, jotta se ei koskaan pääse takaisin varastoon tai markkinoille.'
+      icon: tabler:trash
+      link: https://assets.isupfactory.com/site/downloads/scrap-destruction-certificate-vat-qa-scrap-cert-2026.pdf
+      link_label: 'Roma- ja tuhoamistodistus (PDF)'
+    - title: 'Perussyyn palautus'
+      description: 'Toistuvat viat käynnistävät korjaavan toimenpiteen vastaavan prosessin tai toimittajan kanssa — suljettu silmukka, ei paperityötä.'
+      icon: tabler:refresh
+      link: https://assets.isupfactory.com/site/downloads/rework-change-control-sop-qms-sop-qc-cc-001.pdf
+      link_label: 'Korjauksen muutoksenhallinnan SOP (PDF)'
+third_party:
+  tagline: Ostajan nimeämien ja riippumattomien tarkastusten tuki
+  title: 'Tarkastajasi on tervetullut tehtaalle'
+  subtitle: 'Ostajan nimeämät ja riippumattomat kolmannen osapuolen tarkastukset (SGS, TUV, Bureau Veritas, tulli-edustajat) voidaan sopia ennen tuotannon vapauttamista. Tarkastuksen laajuus, näytteistystaso, hyväksymiskriteerit, ajoitus ja raportointivaatimukset on vahvistettava ennen tuotannon aloittamista. Soveltuvin osin koordinoimme pääsyn tuotanto-, lopputarkastus- ja pakkausvaiheisiin sovitun tarkastussuunnitelman mukaisesti.'
+  items:
+    - title: 'Tarkastusten aikataulutus'
+      description: 'Sisäiset tai kolmannen osapuolen tarkastukset voidaan järjestää millä tahansa seitsemästä portista, ja tarkastussuunnitelmasi toimii hyväksymisperustana.'
+      icon: tabler:calendar-clock
+      link: /fi/factory/quality-inspection
+      link_label: 'Tarkastusstandardit ja QMS-lataukset'
+    - title: 'Ennakkolähetysbriefin malli'
+      description: 'Brief-malli, jota tarkastajat käyttävät ennakkolähetystarkastuksen ilmoittamiseen, suunnitteluun ja raportoimiseen laitoksessamme.'
+      icon: tabler:file-report
+      link: https://assets.isupfactory.com/site/downloads/Third_Party_Inspection_Brief_Template.pdf
+      link_label: 'Lataa brief-malli (PDF)'
+    - title: 'PSI-tarkistuslista'
+      description: 'Lattialla käytettävä ennakkolähetystarkistuslista — sarjan täydellisyys, viivakoodin luokka, merkinnät ja pudotusturvallisuus.'
+      icon: tabler:clipboard-check
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_SUP_Pre_Shipment_Inspection_Checklist.pdf
+      link_label: 'Lataa PSI-tarkistuslista (PDF)'
+    - title: 'Täydellinen laadundokumentaatiopaketti'
+      description: 'Yksi paketti, joka kattaa koko dokumentaatiojärjestelmän — QIP, porttikirjaukset, jäljitettävyyden ja NCR-ohjauksen.'
+      icon: tabler:books
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_COMPLETE_SUP_QUALITY_DOSSIER.pdf
+      link_label: 'Lataa dokumentaatiopaketti (PDF)'
+    - title: 'OEM-projektin toteutettavuus- ja laatuopas'
+      description: 'Miten projekti etenee tiedustelusta hyväksyttyyn kultaiseen näytteeseen — suunnittelu- ja laatuvaiheet ennen sarjatuotantoa.'
+      icon: tabler:route
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_OEM_PROJECT_FEASIBILITY_AND_QUALITY_GUIDE.pdf
+      link_label: 'Lataa projektiopas (PDF)'
+content_certifications:
+  tagline: Sertifioinnit ja standardit
+  title: 'Sertifioitu laatu, globaalisti tunnustettu'
+  subtitle: 'Sertifioinnit ovat yhtä arvokkaita kuin niiden kattama sisältö. Alla on sertifioinnin laajuus, todistuksen haltija sekä ohje dokumenttien varmistamiseen tai pyytämiseen projektillesi.'
+  items:
+    - title: 'CE-merkintä'
+      description: 'CE-vaatimustenmukaisuusasiakirjat ovat saatavilla soveltuviin EU-markkina-konfiguraatioihin direktiivin 2013/53/EU (vapaa-ajan vesillikkeet) mukaan; laajuus vahvistetaan projekti kohtaisesti. Todistusnumerot ja testiraportit pyydettäessä.'
+      icon: tabler:certificate
+    - title: 'ISO 9001:2015'
+      description: 'Laadunhallintajärjestelmä on sertifioitu ISO 9001:2015 -standardin mukaan kattaen puhallettavien vesillikkeiden ja merivarusteiden suunnittelun, valmistuksen ja jakelun. Sertifioinnin laajuus ja auditointiraportti pyydettäessä.'
+      icon: tabler:clipboard-check
+    - title: 'BSCI-yhteiskunnallinen vaatimustenmukaisuus'
+      description: 'BSCI (Business Social Compliance Initiative) auditoidaan kattaen työolot ja tehtään vaatimustenmukaisuuden. Auditointiraportti pyydettäessä.'
+      icon: tabler:heart-handshake
+    - title: 'REACH-materiaalivaatimustenmukaisuus'
+      description: 'Materiaalit täyttävät EU:n REACH-asetuksen kemikaaliturvallisuutta koskevat vaatimukset. Materiaalideklaratiot toimitetaan tuotantoasiakirjojen mukana jokaisen lähetyksen osalta.'
+      icon: tabler:flask
+    - title: 'RoHS-vaatimustenmukaisuus'
+      description: 'Rajoitettujen vaarallisten aineiden vaatimustenmukaisuus on dokumentoitu RoHS:n mukaan sovellettavissa oleville komponenteille ja materiaaleille.'
+      icon: tabler:flame
+    - title: 'Materiaalitestaus'
+      description: 'Kankaille testataan vetolujuus, repäisylujuus, UV-rapautuminen ja kylmäkarkaus. Jokaisesta tuotantoerästä otetaan näyte ja se varmennetaan julkaistun testimenetelmän mukaan.'
+      icon: tabler:test-pipe
+faqs:
+  tagline: FAQ
+  title: Usein kysytyt kysymykset laadunhallintajärjestelmästämme
+  items:
+    - q: 'Voinko ladata todelliset tarkastusraportit?'
+      a: 'Kyllä. Tämän sivun seitsemä kaksikielistä raporttipaketit — QIP, IQC, IPQC/FAI, ilmatiiviys, FQC, PSI ja lähetyslupa — ovat todellisia ohjattuja kirjauksia, joista luottamukselliset kentät on poistettu. Ne näyttävät tarkat rakenteet, menetelmät ja hyväksymiskriteerit, joita jokaisella tilauksella käytetään.'
+    - q: 'Miten seitsemän porttia kohdistuvat projektiini?'
+      a: 'Jokainen projekti saa laaduntarkastussuunnitelman (QIP), joka määrittelee tuotteeseen ja markkinaasi soveltuvat portit, kunkin portin tarkastuksen laajuuden ja kirjaukset, jotka saat. Lataa tämän sivun QIP-näyte nähdäksesi rakenteen.'
+    - q: 'Ovatko nämä tarkastuskirjausnäytteet todellisia?'
+      a: 'Kyllä. Näytteet noudattelevat todellista ohjattua kirjausrakennettamme — asiakirjan otsikko, tarkastuslista, hyväksymiskriteerit, menetelmä, tulokset, tarkastajan rooli ja luvun päätös. Kaikki tunnistetiedot on korvattu esittelyarvoilla (DEMO-*-koodit), joten mitään asiakas-, kuvio-, tilaus- tai hintatietoa ei paljastu.'
+    - q: 'Miksi näytteet on anonymisoitu?'
+      a: 'Ostajan luottamuksellisuus on etusijalla. Asiakkaiden nimet, kuviot, tilaustiedot, toimittajatiedot ja hinnat on suojattu suunnittelulla. Anonymisointi mahdollistaa, että kuka tahansa potentiaalinen ostaja voi todentaa kirjausrakenteemme ja jäljitettävyytemme paljastamatta toisen asiakkaan liiketoimintaa.'
+    - q: 'Saammeko täydet tarkastusraportit omalle projektillemme?'
+      a: 'Kyllä. Hyväksytyille projekteille toimitamme tilaukseesi soveltuvat laatuasiakirjat — laaduntarkastussuunnitelma, saapuvien materiaalien, valmistuksen aikaisen, ilmatiiviyden, loppu- ja pakkaustarkastuksen raportit sekä lähetyslupa — linkitettynä erän jäljitettävyyteen. Herkät kaupalliset tiedot pysyvät sopimuksen mukaisesti NDA:n puitteissa.'
+    - q: 'Mitä erätason tarkastuskirjaus sisältää?'
+      a: 'Jokainen kirjaus linkittää tuotantoerän sovellettavaan määrittely- tai piirustustarkistukseen, kirjaa jokaisen tarkastuskohteen hyväksymiskriteereitä vasten käytetyllä menetelmällä ja välineellä ja päättyy tarkastajan rooliin, tulostilaan sekä laadun allekirjoittamaan luvun päätökseen.'
+evidence_review:
+  tagline: 'Näyttö ja todentaminen'
+  title: 'TEKNISET ARVOT TODENNETTU'
+  body: 'Kaikki tämän sivun valmistusväitteet on varmennettu valmistustekniikan tiimimme toimesta Laixin, Qingdaon laitoksella. Todistukset, laaduntarkastuskirjaukset, paine- ja rakennetestiraportit sekä erien jäljitettävyyskirjaukset ovat pyydettäessä saatavilla. Tekniset arvot on viimeksi todennettu syyskuussa 2026.'
+
+cta:
+  title: 'Tarvitsetko laatuvaatimuksia SUP-projektillesi?'
+  subtitle: 'Kerro tuoteluokkasi, kohdemarkkinasi, arvioitu määrä sekä mahdolliset tarkastus-, dokumentaatio- tai pakkausvaatimukset. Käymme läpi soveltuvat projektisyötteet ja neuvomme seuraavan vaiheen näytekehitystä tai tuotannon suunnittelua varten. NDA:stä voidaan keskustella ennen kuin jaat ei-julkisia määrittelyjä, kuvioita tai laatuvaatimuksia.'
+  actions:
+    - variant: primary
+      text: Pyydä projektin laadukatsaus
+      href: /fi/contact#quality-inquiry
+    - text: 'Vieraile laaduntarkastuslaboratoriossamme'
+      href: /fi/randdcenter/quality-inspection-lab
+    - text: 'Tarkastusstandardit ja QMS-lataukset'
+      href: /fi/factory/quality-inspection
+    - text: 'Vaatimustenmukaisuuspoikkeavien tuotteiden ohjauksen standardi'
+      href: /fi/factory/non-conforming-control

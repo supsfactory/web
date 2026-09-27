@@ -1,0 +1,49 @@
+badge: Tuorein tutkimus
+heading: Tietokeskus
+description: Syvällistä teknistä tutkimusta SUP-lautojen ja puhallettavien vesikulkuneuvojen materiaaleista, rakenteista, turvallisuus normeista ja valmistuksesta
+topics:
+  - slug: drop-stitch-technology
+    category: Tekniikka
+    readTime: 8 min lukuaika
+  - slug: pvc-vs-hypalon
+    category: Materiaalit
+    readTime: 10 min lukuaika
+  - slug: ce-certification-guide
+    category: Vaatimustenmukaisuus
+    readTime: 7 min lukuaika
+  - slug: sup-thickness-guide
+    category: Suunnittelu
+    readTime: 6 min lukuaika
+  - slug: oem-buyer-guide
+    category: Hankinta
+    readTime: 12 min lukuaika
+  - slug: sup-manufacturing-process
+    category: Valmistus
+    readTime: 10 min lukuaika
+  - slug: eva-foam-technology
+    category: Materiaalit
+    readTime: 7 min lukuaika
+  - slug: uv-printing-vs-eva-block
+    category: Tekniikka
+    readTime: 6 min lukuaika
+  - slug: fusion-lamination-vs-glue
+    category: Valmistus
+    readTime: 8 min lukuaika
+  - slug: sup-valve-types
+    category: Suunnittelu
+    readTime: 6 min lukuaika
+  - slug: fin-systems-guide
+    category: Suunnittelu
+    readTime: 7 min lukuaika
+  - slug: board-hull-design
+    category: Suunnittelu
+    readTime: 9 min lukuaika
+  - slug: quality-testing-standards
+    category: Vaatimustenmukaisuus
+    readTime: 8 min lukuaika
+  - slug: sup-paddle-technology
+    category: Varusteet
+    readTime: 7 min lukuaika
+  - slug: military-grade-pvc-specs
+    category: Materiaalit
+    readTime: 8 min lukuaika

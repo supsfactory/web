@@ -1,0 +1,170 @@
+meta:
+  title: 'SUP-opas: MOQ eli vähimmäiseräkoko, joustava brändäys ja vähimmäismäärät'
+  description: 'Miten puhallettavien SUPien MOQ lasketaan: 150 m:n drop-stitch-kankaarullasta syntyy 90–100 lautaa, co-branding alkaen 5–10 kpl:stä ja läpinäkyvät muottimaksut.'
+  dateModified: '2026-08-14'
+  keywords:
+    - 'sup moq'
+    - 'puhallettavien supien vähimmäistilausmäärä'
+    - 'sup co-branding -ohjelma'
+    - 'pien-erä sup'
+    - 'räätälöityjen paddle boardien moq'
+    - 'oem sup tehdas kiina'
+
+hero:
+  tagline: 'Läpinäkyvä ja projektikohtainen'
+  title: 'Joustavan brändäyksen ja valmistuksen MOQ-opas'
+  subtitle: 'Ymmärrä se drop-stitch-raaka-aineen fysiikka, joka määrää SUP-tuotannon eräkoot — ja miten matalan kynnyksen co-branding-ohjelmamme toimii vuokrausoperaattoreille, seuroille, lomakeskuksille ja kasvaville vesiliikuntabrändeille. Suunnittelee ja toteuttaa Qingdao Vatrad Group Co., Ltd.'
+
+answer:
+  label: 'Suora vastaus'
+  text: 'MOQ ei ole kaikille sama luku. Jokainen MOQ vahvistetaan projektin konfiguraation mukaan: rungon muoto ja työkalusto, väriversiot ja PVC, artworkin monimutkaisuus, pakkaus ja lisävarustevalikoima. Täysin räätälöity volyymituotanto toimii 90–100 kpl eräkokoina vakiintuneelta 150 m:n drop-stitch-kankaarullalta; pien-erän co-branding alkaa 5–10 kpl:stä; ja jokainen projekti jaetaan kolmeen erilliseen vaiheeseen — näytteen kehittely (1–2 kpl), pilottitilaus (20–50 kpl) ja volyymituotanto (90–100+ kpl). Vahvistamme tarkan laskelman SKU-sekoituksellesi ennen tarjousta — ei epämääräisiä "matalan MOQ:n" lupauksia, ei piilotettuja kompromisseja.'
+  verified: 'Syyskuu 2026'
+
+moq_principle:
+  tagline: Tuotetekninen logiikka
+  title: 'Miksi vakiintunut volyymi-MOQ on 90–100 kpl: raaka-aineen rullafysiikka'
+  subtitle: 'Tuotantoerien koko ei ole myyntitiimin keksimä luku — ne määräytyvät drop-stitch-kankaan rullapituuksista ja linjan vaihtojen fysiikasta.'
+  body: |
+    **150 metrin raakakankaan perustaso.** Suuren vetolujuuden kudottu drop-stitch-kangas valmistetaan ja päällystetään jatkuville päälaskeille. Vakiintunut yhden erän teollisuusrullan pituus on 150 metriä jatkuvaa materiaalia.
+
+    **Saantolaskelma (90–100 lautaa).** Vakiintuneen retkeily- tai all-around-SUP-rungon (10 ft 6 in–11 ft 6 in) tapauksessa yksi täydellinen 150 m:n päälaskerulla tuottaa noin 90–100 valmista paddle boardia.
+
+    **Nolla kangasliitospolitiikka.** Täydet kangasrullat varmistavat rakenteellisen jatkuvuuden — ei poikittaisia korkean riskin kangasliitoksia eikä epätasaista kuitujännitettä laudan ylä- ja alapinnoilla.
+
+    **Lämpö- ja liimakalibrointi.** Automatisoitu korkeataajuuksinen kuumailmahitsaus- ja meriliimalaminointilinja vaatii 2 tuntia esilämmitystä, lämpötilaprofiilia ja painekalibrointia. Täysi 90–100 kpl:n erä jakaa nämä kiinteät asennuskustannukset ja tuottaa matalimman mahdollisen yksikkökustannuksen.
+
+moq_tiers:
+  tagline: Kaksi reittiä brändillesi
+  title: 'Täysin räätälöity volyumi-OEM vai pien-erän Co-Branding'
+  subtitle: 'Yksi tehdas, kaksi lähtöpäätä: täysin räätälöity massatuotanto vakiintuneille tuotelinjoille ja matalan kynnyksen co-branding-ohjelma seuroille, vuokrauskeskuksille ja kasvaville brändeille.'
+  features:
+    - icon: P
+      icon_bg: blue
+      title: 'Täysin räätälöity volyumi-OEM — 90–100 kpl erää kohti'
+      desc: 'Määräytyy korkealaatuisen raaka-drop-stitch-kankaan vakiintuneesta 150 m:n rullapituudesta, jotta materiaalin hyötykaste ja rakenteellinen yhdenmukaisuus saavutetaan. · 100 %:n täysi räätälöinti: eksklusiivinen rungon muoto ja omat Pantone-väriversiot · Koko pinnan digitaalinen tai silk screen -artwork · Räätälöity brändätty vähittäiskauppapakkaus, painetut laatikot ja brändätyt lisävarusteet · Maksimaalinen kustannustehokkuus ja mittakaavaedut'
+      link: '/fi/contact#custom-oem'
+      link_label: 'Pyydä tarjous volyumi-OEM:lle'
+    - icon: B
+      icon_bg: green
+      title: 'Pien-erän Co-Branding — alle 20 kpl'
+      desc: 'Matalan kynnyksen ratkaisu, joka rakentuu kentältä testatuille vuosituotekokoelmillemme seuroille, vuokrauskeskuksille ja lomakeskuksille — nolla raskasta varastoa. · Kiinteä runko ja geometria: kentältä testatut rungon muodot CE / ISO 25649 -vaatimustenmukaisuudella · Ensisijainen tunniste: iSupfactoryn virallinen brändäys keskiosassa · Toissijainen oma brändäys: logosi painettuna keulaan tai sivukiskoille · 100 %:n täysi erän 24 tunnin paine- ja ilmatiiviystestaus'
+      link: '/fi/contact#cobranding'
+      link_label: 'Aloita pien-erän co-branding'
+
+moq_fees:
+  tagline: Läpinäkyvät silk screen -maksut
+  title: 'Co-Branding-maksurakenne — eritelty alusta asti'
+  subtitle: 'Selkeä, eritelty hinnoittelu pien-erän silk screen -painatukseen. Muottimaksu laskutetaan kerran perustamisvaiheessa ja poistetaan uusintatilauksista, joissa käytetään samaa artwork-mittaa.'
+  headers:
+    fee: Maksuerä
+    amount: Summa
+    detail: Tarkemmat tiedot
+  rows:
+    - fee: 'Silk screen -painatuksen muottimaksu (kerran, logo enintään 30 cm)'
+      amount: '$10.00 USD'
+      detail: 'Laskutetaan kerran perustamisvaiheessa; poistetaan uusintatilauksista, joissa käytetään samaa artwork-mittaa.'
+    - fee: 'Silk screen -painatuksen muottimaksu (kerran, logo enintään 50 cm)'
+      amount: '$15.00 USD'
+      detail: 'Laskutetaan kerran perustamisvaiheessa; poistetaan uusintatilauksista, joissa käytetään samaa artwork-mittaa.'
+    - fee: 'Tehtaan käsittely- ja tarkkailupainatuksen maksu'
+      amount: '$1.00 USD lautaa kohti'
+      detail: 'Sisältää käsin tehtävän koordinaatiopaikkauksen, liuottiesikäsittelyn, musteen siirtymän ja kuumakovetuksen.'
+
+moq_stages:
+  tagline: Näyte · Pilotti · Volyymi
+  title: 'Kolme erillistä määrävaihetta'
+  subtitle: 'Näyte-, pilotti- ja volyymituotannon määrät eroavat toisistaan. Jokainen projekti luokitellaan kolmeen erilliseen tasoon, jotta varmennat ennen kuin sitoudut.'
+  steps:
+    - step: '01'
+      title: 'Näytteen kehittely (1–2 kpl)'
+      desc: 'Fyysinen vahvistus rungon jäykkyydestä, EVA-koostumatyynyn pinnasta, kuvituksen tarkkuudesta ja lisävarusteiden istuvuudesta ennen mitään taloudellista sitoumusta. Näytemaksut koskevat ja vähennetään tuotantotilauksestasi sopimuksen allekirjoituksen yhteydessä.'
+    - step: '02'
+      title: 'Pilottitilaus (20–50 kpl)'
+      desc: 'Esikauden kaupallinen testaus ja alueellinen markkinavarmennus olemassa olevilla runkoalustoilla, varastomateriaaleilla ja yksinkertaisella pakkauksella, jotta asennuskitka pysyy minimaalisena.'
+    - step: '03'
+      title: 'Volyymituotanto (90–100+ kpl)'
+      desc: 'Vahvistetaan jäädytetyn materiaaliluettelon, lopullisen artworkin, räätälöidyn pakkauksen ja aikataulutetun toimitussuunnitelman jälkeen — täydet 150 m:n kangasrullat, omat Pantone-kankaat, räätälöity pakkaus, volyymialennukset ja koko ketjun eräjäljitettävyys.'
+
+moq_factors:
+  tagline: Mikä määrää MOQ:n
+  title: 'Miksi täysin räätälöity MOQ on aina projektikohtainen'
+  subtitle: '100 %:n räätälöidyssä valmistuksessa MOQ lasketaan koko tuotearkkitehtuurista — nämä neljä osaa arvioidaan yhdessä ennen tarjousta.'
+  headers:
+    component: Projektin osa
+    driver: Valmistuksen ajuri
+    impact: Vaikutus vähimmäismäärään
+  rows:
+    - component: 'Rungon muoto ja työkalusto'
+      driver: 'Tehtaan olemassa olevat keikkomuotit vai räätälöidyt CAD-leikkausmuotit ja EVA-kuumapuristustyökalut'
+      impact: 'Olemassa olevat alustat: pilottitilaukset 20 kpl:stä. Räätälöidyt rungot: vaatii oman työkaluston poistamisen.'
+    - component: 'Väriversiot ja PVC'
+      driver: 'Yksittäiset vakiintuneet varasovärit vai omat Pantone-väreillä värjätyt PVC-levyt'
+      impact: 'Oma Pantone-PVC vaatii omat värjäysajot ja riippumattomat raaka-aineiden MOQ:t.'
+    - component: 'Brändätty pakkaus'
+      driver: 'Yleiset laatikot ja viivakooditarrat vai täysväriset 5-kerroksiset vähittäiskauppalahjat laatikot ja brändätyt käyttöohjeet'
+      impact: 'Omat värilaatikot kantavat oman offset-painolaitteen vähimmäismäärän (tyypillisesti 500+ laatikkoa).'
+    - component: 'Lisävarustepaketit'
+      driver: 'Vakiintuneet alumiini- tai nailonmelat vai räätälöidut hiilimelat ja brändätyt pumput'
+      impact: 'Täysin brändätyt lisävarusteet noudattavat toimittajien alaerien tuotantoeräkokoja.'
+
+moq_downloads:
+  tagline: Viralliset asiakirjat
+  title: 'Kaksikieliset käytännön asiakirjat — lataa ja jaa'
+  subtitle: 'Qingdao Vatrad Group Co., Ltd.:n viralliset asiakirjat, valmiit liitettäväksi ostotiedusteluihin. Molemmat tiedostot ovat kaksikielisiä (englanti / kiina).'
+  features:
+    - icon: G
+      icon_bg: blue
+      title: 'Joustavan brändäyksen ja MOQ:n opas (PDF)'
+      desc: 'Virallinen B2B-opas (Osa I, DOC-MOQ-EXP-2026-EN, julkaistu 14. elokuuta 2026): tuotetekninen logiikka 150 m:n drop-stitch-rullien saannon takana (90–100 lautaa), co-branding-ohjelma alkaen 5–10 kpl:stä, läpinäkyvät silk screen -maksut ja kolme tuotantovaihetta.'
+      link: 'https://assets.isupfactory.com/site/downloads/flexible-branding-and-moq-guide.pdf'
+      link_label: 'Lataa opas (PDF)'
+    - icon: P
+      icon_bg: green
+      title: 'Joustavan brändäyksen ja co-brandingin käytännöt (PDF)'
+      desc: 'Virallinen käytännöstöasiakirja (Osa 1, POL-MOQ-2026-V1): pien-erän co-brandingin säännöt, projektikohtainen MOQ-kehys, vähimmäismäärää ajavat neljä tekijää sekä myyntijohtajan, päällikköinsinöörin ja laadunvarmistuksen johtajan yhteisallekirjoitus.'
+      link: 'https://assets.isupfactory.com/site/downloads/flexible-branding-and-moq-policy.pdf'
+      link_label: 'Lataa käytännöt (PDF)'
+
+moq_faqs:
+  tagline: FAQ
+  title: Usein kysytyt kysymykset MOQ:sta
+  items:
+    - q: 'Lasketaanko MOQ tilauksen, mallin vai väriversion mukaan?'
+      a: 'MOQ voi koskea mallia, väriversiota, artwork-versiota, pakkauskokoonpanoa tai kokonaismäärää. Koska eri drop-stitch-paksuudet (12 cm ja 15 cm) ja PVC-värit tulevat eri raaka-aineeräistä, 50 laudan tilaaminen 5 värillä jakautuu 5 erilliseksi kangasrullatarpeeksi. Vahvistamme tarkan laskelman SKU-matriisiasi mukaan ennen tarjousta, jotta voit suunnitella sekoituksesi selvästi.'
+    - q: 'Voinko tilata näytteen ennen massatuotantoa?'
+      a: 'Kyllä. Näytteen kehittely (1–2 kpl) varmennaa rungon jäykkyyden, EVA-koostumatyynyn pinnan, kuvituksen tarkkuuden ja lisävarusteiden istuvuuden ennen massatuotannon vapauttamista. Näytemaksut koskevat ja vähennetään tuotantotilauksestasi sopimuksen allekirjoituksen yhteydessä.'
+    - q: 'Miksillä räätälöidyllä vähittäiskauppapakkauksella on oma MOQ?'
+      a: 'Räätälöidut fleksopaino- ja offset-laatikkopainolaitteet vaativat vähimmäistuotannon 500+ kpl. Tarjoamme Hybrid Packaging Storage Solution -ratkaisun: valmistamme 500 räätälöityä painettua laatikkoa, säilytämme ylijäämän puhtaassa varastossamme ja luovutamme ne lautaerien aikataulussa — pienempi lautaerä voidaan siis lähettää täysin brändätyissä vähittäiskauppapakkauksissa.'
+    - q: 'Miksi vakiintunut volyymi-MOQ on 90–100 kpl?'
+      a: 'Vakiintunut volyymi-MOQ seuraa raaka-ainetta: korkealaatuisen drop-stitch-kankaan 150 m:n päälask roll tuottaa noin 90–100 valmista lautaa vakiintuneelle retkeily- tai all-around-rungolle. Täysien rullien ajo eliminoi kangasliitokset, pitää kuitujännitteen tasaisena ja poistaa 2 tunnin hitsaus- ja laminointilinjan kalibroinnin kustannukset erän yli — ja tuottaa matalimman mahdollisen yksikkökustannuksen.'
+    - q: 'Pienentääkö suurempi määrä yksikkökustannusta?'
+      a: 'Useimmissa projekteissa kyllä. Suuremmat määrät parantavat materiaalisaantoa, jakavat tuotantolinjan kiinteät asennuskulut useammalle laudalle ja pienentävät yksikkökohtaista pakkauskustannusta.'
+    - q: 'Soveltuuko co-brandingin muottimaksu uudelleen uusintatilauksissa?'
+      a: 'Ei. Silk screen -painatuksen muottimaksut laskutetaan kerran perustamisvaiheessa ja poistetaan uusintatilauksista, joissa käytetään samaa artwork-mittaa. Maksat vain tehtaan käsittely- ja painatusmaksun, joka on $1.00 USD lautaa kohti.'
+    - q: 'Sitouduinko tilaukseen pyytämällä MOQ-opastusta?'
+      a: 'Ei. Projektin MOQ-opastuksen pyytäminen antaa Qingdao Vatrad Group Co., Ltd.:n tuotetekniikan tiimille mahdollisuuden käydä tekninen briefisi läpi ja neuvoa kustannustehokkaimman tuotantoradan. Salassapitosopimus (NDA) on saatavilla ennen kuin jaat luottamukselliset tekniset määritykset tai artworkin.'
+
+evidence_review:
+  tagline: 'Näyttö ja todentaminen'
+  title: 'TODENNETUT MÄÄRITYKSET'
+  body: 'Kaikki tämän sivun valmistusväitteet on todentanut valmistustekniikan tiimimme Laixin tuotantolaitoksella Qingdaossa. Sertifikaatit, laadunvalvontatarkastusten kirjaukset, paine- ja rakennetestien raportit sekä eräjäljitettävyyskirjaukset ovat pyydettäessä saatavilla. Määritykset viimeksi todennettu syyskuussa 2026.'
+
+cta:
+  title: Tarvitsetko MOQ-opastusta SUP-projektiisi?
+  subtitle: 'Kerro tavoitellun laudamallisi, arvioidun ensimmäisen tilauksen määrän ja brändäysvaatimuksesi. Neuvomme, onko näyte-, pilotti- vai volyumireitti sopivin seuraava askel. Tiedustelun jättäminen ei sido sinua lopulliseen tilausmäärään — NDA-keskustelu on saatavilla.'
+  actions:
+    - variant: primary
+      text: Pyydä projektin MOQ-opastusta
+      href: /fi/contact#moq-guide
+    - text: Räätälöityjen SUPien MOQ ja toimitusaika eriteltynä
+      href: /fi/sup-oem-moq-lead-time
+    - text: Aloita uusi brändi koepilottitilauksella
+      href: /fi/new-brand-trial-order
+    - text: Todenna tehdas ja laatujärjestelmä
+      href: /fi/oem-trust-assurance
+    - text: 7-vaiheinen tarkastusjärjestelmä
+      href: /fi/quality
+    - text: OEM- ja ODM-valmistuksen yleiskatsaus
+      href: /fi/oem-manufacturing
+    - text: SUP-rakenteiden vertailu
+      href: /fi/sup-construction-comparison

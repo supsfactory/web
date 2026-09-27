@@ -1,0 +1,348 @@
+meta:
+  title: 'Korjausparametrien muutosvalvonta ja validointi | iSupfactory'
+  description: 'Korjausparametrien muutosvalvonta ISO 9001:n mukaisesti: ECR, riskiluokitus, hyväksymismatriisi, validointi ja uudelleentarkastus SUP-tuotannossa.'
+  dateModified: '2026-08-14'
+  keywords:
+    - 'sup korjauksen muutosvalvonta'
+    - 'iso 9001 muutosvalvonta valmistuksessa'
+    - 'puhallettavien supien oem laadunhallinta'
+    - 'ecr suunnittelumuutospyyntö sup'
+    - 'ilmatiiviysvalidoinnin standardi'
+    - 'sup tehtaan laadunvarmistus'
+
+hero:
+  tagline: Korjausparametrien muutosvalvonta
+  title: Korjausprosessin parametrien muutosvalvonta- ja validointistandardi
+  subtitle: 'QINGDAO VATRAD GROUP.,LTD.:ssä kukaan operoija, vuoroesimies tai yksikään osasto ei voi muuttaa hyväksyttyä korjausparametria paikan päällä. Kaikki ehdotetut muutokset hyväksytyissä korjausmateriaaleissa, prosessin oloissa, työkalustossa, testimenetelmissä, tarkastuskriteereissä tai valtuutetussa henkilöstössä hoidetaan dokumentoidun muutosvalvonnan kautta — suunnittelumuutospyyntö, vaikutus- ja riskiarvio, poikkifunktionaalinen hyväksyntä, validointisuunnitelma, ohjattu toteutus, uudelleentarkastus ja vaikuttavuuskatselus, sitten sulkeminen ja kirjojen säilytys. Tällä sivulla esitellään ohjattu standardimme QMS-SOP-QC-CC-001 (Rev 2.0, pohjautuu ISO 9001:2015) ja sen takana oleva tuotetekninen näyttö.'
+  actions:
+    - text: Lataa muutosvalvonta-SOP (PDF)
+      variant: primary
+      href: 'https://assets.isupfactory.com/site/downloads/rework-change-control-sop-qms-sop-qc-cc-001.pdf?dl=1'
+    - text: Lataa toteutusliite A (PDF)
+      href: 'https://assets.isupfactory.com/site/downloads/rework-execution-annex-a-qms-sop-qc-cc-001.pdf?dl=1'
+    - text: Pyydä laaduntarkastelua
+      href: /fi/contact
+
+answer:
+  label: 'Suora vastaus'
+  text: 'Korjausparametrien muutoksista ei päätetä QINGDAO VATRAD GROUP.,LTD.:ssä koskaan suullisesti tai jälkikäteen. Jokainen ehdotettu muutos hyväksytyissä korjausmateriaaleissa, prosessin oloissa, laitteissa, testimenetelmissä, tarkastuskriteereissä tai valtuutetussa henkilöstössä on läpikäytävä formaali muutosvalvonta ennen toteutusta: dokumentoitu suunnittelumuutospyyntö (ECR), vaikutus- ja riskiarvio, Tuotetekniikan, Laadun, Tuotannon, Hankinnan ja Projektin poikkifunktionaalinen katselus, hyväksyntä valtuutusmatriisimme määräämällä tasolla, korkean riskin muutoksille hyväksytty validointisuunnitelma, ohjattu pilottitoteutus, uudelleentarkastus ja vaikuttavuuskatselus sekä sulkeminen vasta asiakirjarevisiion ja koulutuksen jälkeen. Mikään muutos, joka vaikuttaa asiakkaan hyväksymiin määrityksiin, näytteisiin, materiaaliluetteloihin, artworkiin tai hyväksymiskriteereihin, vaatii lisäksi asiakkaan kirjallisen hyväksynnän.'
+  verified: 'Syyskuu 2026'
+
+stats:
+  tagline: Yhdellä silmäyksellä
+  title: Muutosvalvonta luvuissa
+  stats:
+    - value: '9'
+      label: Vaihetta muutosvalvonnan suljetussa silmukassa
+    - value: '6'
+      label: Muutosluokkaa, jotka vaativat formaalin muutosvalvonnan
+    - value: '4'
+      label: Ydinkorjausprosessia, joissa on kvantifioituja parametreja
+    - value: '≥ 5'
+      label: Näytelautaa + 2 riippumatonta laadunvalvontaa korkean riskin validointiin
+
+cc_intro:
+  tagline: Laajuus ja periaatteet
+  title: Ydinhallinnan periaatteet
+  body: |
+    **Asiakirja:** QMS-SOP-QC-CC-001 — *Korjausprosessin parametrien muutosvalvontastandardi* (Rev 2.0, virallinen julkaisu). **Valmistaja:** QINGDAO VATRAD GROUP.,LTD. / 青岛万国通衢进出口有限公司. **Standardiviittaus:** ISO 9001:2015 Laadunhallintajärjestelmät.
+
+    - **Ei valvomattomia muutoksia.** Korjausparametrien muutokset on ohjattava formaalin muutosvalvonnan läpi. Paikan päällä toimivat operoijat, vuoroesimiehet tai yksikään osasto eivät saa muokata hyväksyttyjä korjausparametreja suullisella sopimuksella tai käsinkirjoittamalla korjauskirjaan.
+    - **Kaikkien osien kattavuus.** Valvottu laajuus kattaa ilmatiiviyden, venttiilipinnat, kiskonauhat, sauman liimauksen, kuumailmajännityksen ja painepidon testauksen — jokaisen parametrin, joka voi vaikuttaa tiivistyteen, rakenteelliseen kestävyyteen, ulkonäköön, asiakkaan hyväksyntään tai jäljitettävyyteen.
+    - **Asiakkaan hyväksyntä on ehdoton raja.** Mikään muutos, joka vie tuotteen pois asiakkaan hyväksymästä näytteestä, teknisestä määrityksestä, materiaaliluettelosta, artworkista, pakkausvaatimuksesta tai hyväksymiskriteereistä, toteutetaan vain asiakkaan kirjallisella hyväksynnällä. Ilman sitä lauta korjataan alkuperäisen vaatimuksen mukaisesti, korvataan tai hylätään — tehtaas ei koskaan yksinään "höllennä" vaatimuksia.
+
+cc_scope:
+  tagline: Riskiluokitus
+  title: Muutoksen laajuus ja riskiluokitus
+  subtitle: Mikä tahansa seuraavista käynnistää formaalin muutosvalvonnan — asiaa ei koskaan hoideta kirjoittamalla merkintä korjauskirjaan. Riskitaso määrää hyväksyjan ja vaadittavan validoinnin määrän.
+  headers:
+    category: Muutosluokka
+    examples: Tyypillisiä esimerkkejä
+    risk: Riski
+    requirements: Valvonta- ja hyväksymisvaatimukset
+  rows:
+    - category: 'Korjausmateriaalit'
+      examples: 'Liima, puhdistusaine, paikkausmateriaali, venttiilitiiviste, pohjuste tai toimittajan vaihtuminen'
+      risk: 'Korkea'
+      requirements: 'Osastojen välinen katselus + materiaalien sopivuus- ja painepidontvalidointi + asiakkaan hyväksyntä sovelluksen mukaan'
+    - category: 'Prosessin olosuhteet'
+      examples: 'Pinnan esikäsittely, kuumailmajännityksen lämpötila/kosteus, puristuspaine, pitoaika'
+      risk: 'Korkea'
+      requirements: 'Tuotetekniikan ja Laadun hyväksyntä sekä lämpötila- ja kosteusikkunan validointi'
+    - category: 'Työkalusto ja mittarit'
+      examples: 'Painemittarit, vuotodetektorit, kuumailmapistoolit, venttiilityökalut, testausohjelmistot'
+      risk: 'Keskitaso/korkea'
+      requirements: 'Kalibroinnin voimassaolon tarkistus + laitteiden soveltuvuusarvio'
+    - category: 'Virheen laajuus'
+      examples: 'Korjausalueen laajentuminen; pinnan vuodon leviäminen kiskon, sauman tai venttiilipinnan kriittiseen vyöhykkeeseen'
+      risk: 'Korkea'
+      requirements: 'Rakenteelliset kantavat pinnat: pakollinen pysäytys ja uudelleenarviointi'
+    - category: 'Tarkastusmenetelmät'
+      examples: 'Vuodon tunnistusmenetelmä, testipaine (18.0 PSI), pitoaika (24h)'
+      risk: 'Korkea'
+      requirements: 'Laadun hyväksyntä + asiakkaan teknisen sopimuksen vahvistus'
+    - category: 'Dokumentaatio ja valtuutus'
+      examples: 'Korjausohje, tarkastuslehdet, NCR-päätöslogiikka, operoijoiden pätevyys'
+      risk: 'Keskitaso'
+      requirements: 'Ohjattu asiakirjarevisio (Rev A → Rev B) + koulutuskirjaukset'
+
+cc_containment:
+  tagline: Pakotisen pysäytys
+  title: Välitön eristys, kun olosuhteet vakautuvat
+  body: |
+    > "Käytössä oleva korjausmenetelmä on asetettava katselmuksen alle eikä sitä saa soveltaa uuteen vaikutusalaan kuuluvaan tuotteeseen, ennen kuin muutos on arvioitu ja valtuutettu, ellei Laatu ja Tuotetekniikka ole hyväksynyt dokumentoitua väliaikaista poikkeamaa."
+
+    Nykyinen korjausmenetelmä on keskeytettävä välittömästi, kun korjauksen uudelleentarkastus epäonnistuu toistuvasti, kun virhe koskee rakenteellisia kantavia vyöhykkeitä (venttiilin pohja, kiskot, saumat, keula-/häntäpainealueet), kun korvaavaa materiaalia ei ole vielä validoitu tai kun nykyiset parametrit ovat ristiriidassa asiakkaan hyväksytyn määrityksen kanssa.
+
+    Väliaikaiset poikkeamat eivät koskaan muutu pysyväksi käytännöksi: jokaisella on määritelty voimassaoloikkuna, sovellettava erälaajuus, määräraja, validointivaatimukset ja automaattinen vanhenemismekanismi. Suullinen poikkeama ei ole poikkeama — jos sitä ei ole dokumentoitu vanhenemispäivineen, sitä ei ole olemassa.
+
+cc_flow:
+  tagline: Vakiintunyt 9-vaiheinen suljettu silmukka
+  title: Muutospyynnöstä sulkemiseen ja säilytykseen
+  subtitle: 'Yksi dokumentoitu silmukka jokaiselle parametermuutokselle: ehdota, seulon, arvioi, hyväksy, validoi, pilotti, varmenna, revisioi, sulje.'
+  steps:
+    - step: '01'
+      title: Muutospyyntö (ECR)
+      desc: 'Mikä tahansa osasto voi nostaa pyynnön, mutta sitä sponsoroi Tuotetekniikan, Laadun tai Tuotannon johto. ECR vastaa, miksi muutosta ehdotetaan, mitä muutetaan, mihin se vaikuttaa ja miten se varmennetaan — sisältäen muutosvalvontanumeron, siihen liittyvän NCR:n/CAPA:n, nykyisen ja ehdotetun parametrin, vaikutusalaan kuuluvat erät sekä väliaikaisuus- ja pysyvyysluokituksen.'
+    - step: '02'
+      title: Alustava seulonta ja eristys
+      desc: 'Pyyntö seulotaan ensin väliaikaisen eristyksen varalta: onko nykyinen menetelmä keskeytettävä heti? Jos väliaikainen poikkeama sallitaan, se rajataan voimassaoloikkunalla, erälaajuudella, määrärajalla ja automaattisella vanhenemisella.'
+    - step: '03'
+      title: Vaikutus- ja riskiarvio
+      desc: 'Tuotetekniikka, Laatu, Tuotanto, Hankinta/Toimitusketju ja Projekti arvioivat tuotteen suorituskyvyn, hyväksymiskriteerit, materiaalien sopivuuden, ulkonäön, prosessikyvykkyyden, laitteet ja mittarit, henkilöstön pätevyyden, asiakkaan vaatimukset sekä vaatimustenmukaisuuden ja jäljitettävyyden laajuuden.'
+    - step: '04'
+      title: Yhteiskatselus ja hyväksyntä
+      desc: 'Hyväksyntä noudattaa kiinteää valtuutusmatriisia — ei "kenen ääni on kovin". Korkean riskin muutokset vaativat osastojen välisen hyväksynnän ja tarvittaessa asiakkaan kirjallisen hyväksynnän ennen mitään koetta.'
+    - step: '05'
+      title: Validointisuunnitelma
+      desc: 'Korkean riskin muutoksille vaaditaan hyväksytty validointisuunnitelma ennen vakiintunutta soveltamista: edustavat näytelaudat, nykyinen ja ehdotettu menetelmä, testimenetelmät, hyväksymiskriteerit, tarkastusvaiheet, vastuuhenkilöt ja aikataulu.'
+    - step: '06'
+      title: Ohjattu pilotti ja toteutus
+      desc: 'Uudet asiakirjat julkaistaan ja vanhentuneet versiot vedetään pois ja merkitään OBSOLETE; uudet materiaalit ja mittarit varmennetaan ja kalibroidaan; operoijat koulutetaan ja todetaan päteviksi; ensimmäinen erä ajetaan tiivistetyn tarkastuksen läpi selkeän tilamerkinnän kanssa.'
+    - step: '07'
+      title: Uudelleentarkastus ja vaikuttavuuskatselus
+      desc: 'Ensimmäisen kierroksen korjausaste, uudelleentarkastuksen läpäisyaste, uusintumisaste ja ulkonäön hyväksyntä mitataan ja katselmoiin ennen kuin muutosta voidaan pitää vaikuttavana — yhtä korjattua lautaa ei koskaan pidetä prosessin validointina.'
+    - step: '08'
+      title: Asiakirjarevisio ja koulutus
+      desc: 'Työohjeet, tarkastuslehdet, NCR-päätösvaihtoehdot, parametrikortit ja koulutusmateriaalit päivitetään uuteen revisioon, ja käytännön koulutus sekä operoijien pätevyys kirjataan.'
+    - step: '09'
+      title: Sulkeminen ja kirjojen säilytys
+      desc: 'Muutos suljetaan vasta, kun validointinäyttö, asiakirjapäivitykset, koulutuskirjaukset ja toteutuksen vaikuttavuus on katselmoitu ja hyväksytty. Jos tavoiteltua tulosta ei saavuteta, muutos revisioidaan, jatketaan, keskeytetään tai peruutetaan.'
+
+cc_approval:
+  tagline: Hyväksymismatriisi
+  title: Osastojen välinen valtuutusmatriisi
+  subtitle: 'Kiinteä valtuutustaulukko estää tilapäiset päätökset: jokaisella muutostyypillä on omat vaaditut hyväksyjät aina asiakirjatason tarkennuksesta asiakkaan allekirjoitukseen.'
+  headers:
+    change: Muutoksen sisältö
+    engineering: Tuotetekniikka
+    quality: Laatu
+    production: Tuotanto
+    procurement: Hankinta
+    project: Projekti / Myynti
+    customer: Asiakas
+  rows:
+    - change: 'Asiakirjan sanaston tarkennus (ei vaikutusta parametreihin)'
+      engineering: Katselus
+      quality: 'Hyväksyy'
+      production: Ilmoitus
+      procurement: '—'
+      project: '—'
+      customer: '—'
+    - change: 'Korjausoperaatioiden järjestyksen muutos'
+      engineering: 'Hyväksyy'
+      quality: 'Hyväksyy'
+      production: Vastauskirjaus
+      procurement: '—'
+      project: Ilmoitus
+      customer: Tarpeen mukaan
+    - change: 'Uuden korjausoperoijan pätevöinti'
+      engineering: Katselus
+      quality: 'Hyväksyy'
+      production: 'Hyväksyy'
+      procurement: '—'
+      project: '—'
+      customer: '—'
+    - change: 'Työkaluston / testauslaitteiden vaihto'
+      engineering: 'Hyväksyy'
+      quality: 'Hyväksyy'
+      production: Vastauskirjaus
+      procurement: Tarpeen mukaan
+      project: '—'
+      customer: Tarpeen mukaan
+    - change: 'Korjausmateriaalin / toimittajan vaihto'
+      engineering: 'Hyväksyy'
+      quality: 'Hyväksyy'
+      production: Vastauskirjaus
+      procurement: Vastauskirjaus
+      project: Ilmoitus
+      customer: Voi olla tarpeen
+    - change: 'Paineen / pidon / jännityksen parametrin muutos'
+      engineering: 'Hyväksyy'
+      quality: 'Hyväksyy'
+      production: Vastauskirjaus
+      procurement: '—'
+      project: Ilmoitus
+      customer: Kun projekti sitoo
+    - change: 'Kiskon / sauman / venttiilipinnan korjausmenetelmän muutos'
+      engineering: 'Hyväksyy'
+      quality: 'Hyväksyy'
+      production: Vastauskirjaus
+      procurement: Tarpeen mukaan
+      project: Ilmoitus
+      customer: Yleensä suositeltava
+    - change: 'Asiakkaan määrityksen, hyväksymisnäytteen tai hyväksymiskriteerien muutos'
+      engineering: 'Hyväksyy'
+      quality: 'Hyväksyy'
+      production: Vastauskirjaus
+      procurement: '—'
+      project: Vastauskirjaus
+      customer: 'Kirjallinen hyväksyntä pakollinen'
+
+cc_validation:
+  tagline: Tuotetekninen validointi
+  title: Validointi- ja hyväksymisprotokolla — näyttö ennen väitteitä
+  body: |
+    Epämääräistä hyväksymiskieltä kuten *"korjatun laudan on oltava hyvä"* ei hyväksytä. Ohjattu sanasto on seuraava:
+
+    > "Korjatun näytteen on täytettävä samat sovellettavat ilmatiiviyden, silmämääräisen työn laadun, venttiilin toiminnan ja projektikohtaiset hyväksymiskriteerit kuin vaatimustenmukainen lauta, ellei asiakkaan hyväksymä poikkeama määrittele nimenomaisesti vaihtoehtoista kriteeriä."
+
+    Validointinäyttö on kvantitatiivista, ja ilmatiiviyskorjauksen tuotetekninen perusarvo sisältää seuraavat:
+
+    - **Vuodon poistaminen ja painepito.** Alkuperäinen vuoto poistetaan ilman jatkuvia kuplia saippuavesivuodon tunnistuksessa; lauta säilyttää vakiintuneen testipaineen 18.0 PSI 24 tuntia, ja lämpötila-/kosteuskompensoinnin jälkeen netto paineen lasku on ΔP ≤ 0.2 PSI — tämä on korjausvalidoinnin tiukempi perusarvo, erillinen tuotantolinjan lopputarkastuksessa käytettävästä 0.50 PSI automaattisesta hylkäysrajasta.
+    - **Venttiilin toiminta.** Venttiilin rungon momentti täyttää 15–20 N·m:määrityksen, eikä tiivisteessä ole mikrokuplivuotoa korkean paineen täytöllä ja dynaamisella painamisella.
+    - **Sauman liimaus ja kestävyys.** Liiman reunoissa ei ole nostoa, valkoistumista tai delaminoitumista; lämpö-kosteusvanhenemissyklisten jälkeen liimakerros ei pehmene eikä halkeilu ole hauraan luonteinen.
+    - **Ulkonäkö ja työn laatu.** Ei liiman valumisjälkiä, ei EVA-vahinkoja, ei laudan vääntymistä eikä logon siirtymää tai painopinnan naarmuja.
+
+cc_engineering:
+  tagline: Tuotetekninen toteutusmatriisi
+  title: Neljän ydinkorjausprosessin kvantifioidut parametrit
+  subtitle: 'Jokaisessa ohjatussa korjausprosessissa on määritetyt parametrit, menetelmä ja hyväksymiskriteerit — samat luvut, joita operoijamme noudattavat ja asiakkaamme voivat auditoinneissa tarkastaa.'
+  headers:
+    process: Korjausprosessi
+    parameters: Ohjatut parametrit
+    methodology: Testimenetelmä
+    acceptance: Hyväksymiskriteerit
+  rows:
+    - process: 'Neulansuojan / mikrokuopan paikkauskorjaus'
+      parameters: 'Puhdistus liuotteella ja kuivatus 3–5 min; kuumailma-aktivointi 60°C ± 5°C; puristustela ≥ 0.4 MPa'
+      methodology: 'Täyttö 18 PSI:hin; täysi upotus veteen tai saippuaveden levitys; tarkkailu 10 minuutin ajan'
+      acceptance: 'Ei lainkaan kuplien muodostumista; 180° reunojen nosto ilman nousua ja ilman liiman valumisjälkiä'
+    - process: 'Kiskonauhan / sauman uudelleenliimaus'
+      parameters: 'Kaksikomponenttisen liiman suhde tiukasti valvottu; ympäristö 22–28°C, ≤ 65% RH; kiinnikepaine ≥ 4 h'
+      methodology: '22 PSI:n ylipainetesti 2 h; sitten 50°C:n lämpökaapissa 6 h ja 2 h huoneenlämpöinen tauko'
+      acceptance: 'Ei erottumista, ei halkeilua; netto paineen lasku ΔP ≤ 0.1 PSI; liimakerros ilman valkoistumista tai haurastumista'
+    - process: 'Venttiilin pohjan löysentyminen / mikrokuoppa'
+      parameters: 'Omalla avaimella momentti 18–20 N·m; tiivistetiiviste litteäksi ilman vääntymistä; kierteiden puhtaus vahvistettu'
+      methodology: 'Täyttö 15 PSI:hin; 20 täyttö/tyhjennyssykliä; tarkkailu veteen upotettuna'
+      acceptance: 'Ei kuplia venttiilin rungossa eikä sen ympärillä; momentti syklin jälkeen ≥ 16 N·m'
+    - process: 'Lopullinen 24h painepidon testi'
+      parameters: 'Viitteellinen täyttöpaine 18.0 PSI; digitaalimittari Class 1.0 / ±0.5%; ympäristön lämpötila ja kosteus kirjataan ja kompensoidaan'
+      methodology: 'Digitaalinen painetallennin; jatkuva 24 h painekäyrä'
+      acceptance: 'Netto paineen lasku kompensoinnin jälkeen ΔP ≤ 0.20 PSI / 24 h; ei laudan pullistumista tai vääntymistä'
+
+cc_photos:
+  tagline: Tehdashallissa
+  title: Rakenna, testaa uudelleen, luovuta — dokumentoitu joka vaiheessa
+  subtitle: Kuvat tehtaan työpajasta Qingdaosta esittävät jokaisen ohjatun korjausprosessin kalibroituine mittareineen, määritettyine parametreineen ja paikallisine kirjauksineen — sama näyttö, jonka tarkastajat voivat milloin tahansa pyytää.
+  grid: 'sm:grid-cols-2'
+  features:
+    - image: https://assets.isupfactory.com/site/quality/cc-pinhole-repair.avif
+      alt: Teknikko korjaa puhallettavan SUP:n neulansuojaa kuumailmapistoolilla ja puristustelalla
+      title: Neulansuojan korjaus
+      desc: 'Teknikko käsittelee merkittyä mikrokuoppaa 60°C-määritykseen asetetulla kuumailmapistoolilla ja puristustelalla; saippuavesi vahvistaa vuodon sijainnin, ja penkillä oleva laadunvalvonnan allekirjoittama ECR-lippu näyttää muutosvalvontaportin (Poka-Yoke #1).'
+    - image: https://assets.isupfactory.com/site/quality/cc-rail-seam-bonding.avif
+      alt: Teknikko levittää kaksikomponenttista PU-liimaa kiskon saumaan tarkalla sivellillä ohjatuissa oloissa
+      title: Kiskon sauman liimaus
+      desc: 'Kaksikomponenttista PU-liimaa levitetään kiskon saumaan tarkalla sivellillä, kun lauta on pidetty kiinnikkeessä; paikallinen lämpötila-/kosteusmittari näyttää ohjatun 24°C / 55% RH -ikkunan.'
+    - image: https://assets.isupfactory.com/site/quality/cc-valve-base-integrity.avif
+      alt: Digitaalinen momenttiavain asetettuna 19 N·m kiristää venttiilin runkoa vasten drop-stitch-materiaalia
+      title: Venttiilin pohjan eheys
+      desc: '19 N·m-määritykseen asetettu digitaalinen momenttiavain tekee venttiilin rungon viimeisen kiristyksen ja tiivistää pohjan vasten drop-stitch-materiaalia — mittarissa on vihreä CALIBRATED-merkki.'
+    - image: https://assets.isupfactory.com/site/quality/cc-pressure-hold-testing.avif
+      alt: Valmiit puhallettavat SUP-laudat kytkettyinä digitaalisiin painetallentimiin lopullisen painepidon testialueella
+      title: Lopullinen painepidon testaus
+      desc: 'Valmiit laudat kytketään suuren tarkkuuden digitaalisiin painetallentimiin; vertailumittari lukee 18.00 PSI:n viitearvon, ja kaikki mittausdata siirretään automaattisesti ja linkitetään sopimuksen jäljitettävyysjärjestelmään.'
+
+cc_pokayoke:
+  tagline: Virheiden torjuntaturvat
+  title: 'Poka-Yoke: kovat esteet, jotka pysäyttävät valvomattomat muutokset'
+  subtitle: Standardia ei valvota vain menettelyillä, vaan fyysisillä ja järjestelmätason esteillä, jotka tekevät valvomattomien muutosten toteuttamisesta mahdotonta.
+  features:
+    - icon: 1
+      icon_bg: blue
+      title: ECR-portti työkaluston avaamiseen
+      desc: 'Korjausasemat lukevat laadunvalvonnan allekirjoittaman ECR-viivakoodin ennen kuin paineilmaventtiilit ja liimansekoittimet avautuvat. Ei hyväksyttyä muutosvalvontakirjausta, ei toimitusta — takautuva hyväksyntä ("muuta ensin, allekirjoita myöhemmin") on fyysisesti estetty.'
+    - icon: 2
+      icon_bg: green
+      title: Väliaikaisen poikkeaman automaattinen vanheneminen
+      desc: 'Väliaikaiset poikkeamat rajataan järjestelmässä kovasti (esimerkiksi enintään 50 lautaa tai 7 kalenteripäivää). Raja saavuttaessa erä lukitaan ja lähetyksen läpäpäisevä tunniste estetään tulostamasta, kunnes muutos on formaalisti arvioitu.'
+    - icon: 3
+      icon_bg: purple
+      title: Vähimmäisvalidointinäyttö
+      desc: 'Korkean riskin muutokset vaativat vähintään 5 edustavaa näytelautaa, jotka kattavat ylä- ja al Toleranssirajat ja jotka 2 riippumatonta laadunvalvonnan tarkastajaa tarkastavat kokonaan, ennen kuin validointiraportti voidaan antaa — yhtä korjattua lautaa ei koskaan pidetä prosessin validointina.'
+    - icon: 4
+      icon_bg: orange
+      title: 1-in-1-out-asiakirjavalvonta
+      desc: 'Vanhentuneet työpajan kortit kerätään fyysisesti pois ja mitätöidään (reikäkoneistetaan) ennen kuin uusi, ohjatulla punaisella sinetillä leimattu kortti annetaan — vanha ja uusi versio eivät koskaan jaa työpajaa.'
+
+cc_downloads:
+  tagline: Ladattavat QMS-asiakirjat
+  title: Ohjatut kaksikieliset asiakirjat (PDF)
+  subtitle: QINGDAO VATRAD GROUP.,LTD.:n viralliset EN/ZH-kaksikieliset asiakirjat — valmiina asiakasauditointeihin, B2B-teknisiin valkoisiin kirjoituksiin ja työpajan ohjattuun jakeluun.
+  features:
+    - icon: S
+      icon_bg: blue
+      title: Korjauksen muutosvalvonta-SOP (PDF)
+      desc: 'QMS-SOP-QC-CC-001 Rev 2.0: muutosten luokitustaulukko, osastojen välinen valtuutusmatriisi, tuotetekniset validointiparametrit, eristyksen punaiset rajat ja laadun allekirjoituslohkot.'
+      link: 'https://assets.isupfactory.com/site/downloads/rework-change-control-sop-qms-sop-qc-cc-001.pdf?dl=1'
+      link_label: Lataa PDF
+    - icon: A
+      icon_bg: green
+      title: Toteutusliite A (PDF)
+      desc: 'ECR-tietomalli, neljän ydinkorjausprosessin kvantifioitu tuotetekninen toteutusmatriisi, Poka-Yoke-estologiikka ja kolmen osapuolen luovutus allekirjoituslohko.'
+      link: 'https://assets.isupfactory.com/site/downloads/rework-execution-annex-a-qms-sop-qc-cc-001.pdf?dl=1'
+      link_label: Lataa PDF
+    - icon: R
+      icon_bg: purple
+      title: Ohjattu korjauksen hallinta (sivu)
+      desc: 'Vastaparoni ilmatiiviyskorjauksen järjestelmälle: virheluokitus A–G, hyväksytyt menetelmäkortit MC-RW-01–MC-RW-06 ja 7-vaiheinen ohjattu korjausprosessi.'
+      link: '/fi/factory/quality-inspection'
+      link_label: Katso sivu
+    - icon: N
+      icon_bg: orange
+      title: Vaatimustenvastaisten tuotteiden hallinta (sivu)
+      desc: 'ISO 9001:2015 kohdan 8.7 mukainen vaatimustenvastaisten tuotosten valvonta: NCR-rekisteröinti, eristys, vaikeuteen perustuva päätösvalta, ohjattu korjaus SRI-ohjeiden mukaisesti, riippumaton uudelleentarkastus ja todistetun tuhinnan protokolla.'
+      link: '/fi/factory/non-conforming-control'
+      link_label: Katso sivu
+
+faqs:
+  tagline: FAQ
+  title: Usein kysytyt kysymykset korjauksen muutosvalvonnasta
+  items:
+    - q: 'Voiko tehdas muuttaa korjausparametreja kertomatta siitä?'
+      a: 'Ei. Jokainen ehdotettu muutos hyväksytyissä korjausmateriaaleissa, prosessin oloissa, työkalustossa, testimenetelmissä, tarkastuskriteereissä tai valtuutetussa henkilöstössä on läpikäytävä ensin dokumentoitu muutosvalvonta. Muutokset, jotka vaikuttavat asiakkaan hyväksymiin määrityksiin, näytteisiin, materiaaluluetteloihin, artworkiin tai hyväksymiskriteereihin, vaativat asiakkaan kirjallisen hyväksynnän.'
+    - q: 'Mikä luetaan korkean riskin muutokseksi?'
+      a: 'Muutokset korjausmateriaaleissa tai toimittajissa, paine- ja pito- tai jännitysolosuhteissa, venttiilin, kiskon ja sauman korjausmenetelmissä, tarkastus- tai hyväksymiskriteereissä sekä virheen laajuuden laajentuminen rakenteellisiin vyöhykkeisiin luokitellaan korkean riskin muutoksiksi. Ne vaativat osastojen välisen katselun, hyväksytyn validointisuunnitelman ja ohjatun pilottitoteutuksen ennen vakiintunutta käyttöä.'
+    - q: 'Voiko väliaikaista poikkeamaa käyttää loputtomiin?'
+      a: 'Ei. Jokaisella väliaikaisella poikkeamalla on määritelty voimassaoloikkuna, erälaajuus, määräraja ja validointivaatimukset sekä automaattinen vanheneminen. Raja saavuttaessa erä lukitaan ja läpäpäisevän tunniste tulostus estetään, kunnes muutos on formaalisti arvioitu.'
+    - q: 'Miten muutettu menetelmä todistetaan toimivaksi ennen laajaa käyttöä?'
+      a: 'Korkean riskin muutokset vaativat validointisuunnitelman: vähintään 5 edustavaa näytelautaa, jotka kattavat toleranssirajat ja joita 2 riippumatonta laadunvalvonnan tarkastajaa testaavat kvantifioituja hyväksymiskriteerejä vasten (vuodon poistaminen, painepito, venttiilin toiminta, sauman kestävyys, ulkonäkö). Hyväksyntä validointiin ei ole hyväksyntä soveltamiseen.'
+    - q: 'Tarvitsemmeko meidän hyväksyä jokainen muutos?'
+      a: 'Ei jokaista muutosta, mutta mikään muutos, joka vie tuotteen pois asiakkaan hyväksymästä näytteestä, teknisestä määrityksestä, materiaaliluettelosta, artworkista, pakkauksesta tai hyväksymiskriteereistä, toteutetaan vain asiakkaan kirjallisella hyväksynnällä. Ilman sitä laudat korjataan alkuperäisen vaatimuksen mukaisesti, korvataan tai hylätään.'
+    - q: 'Mitä vanhoille asiakirjoille tapahtuu, kun muutos hyväksytään?'
+      a: 'Vanha työohjeet, parametrikortit ja tarkastuslehdet kerätään fyysisesti pois ja mitätöidään (1-in-1-out), merkitään OBSOLETE ja korvataan uudella ohjatulla revisiiolla koulutuksen jälkeen. Vanha ja uusi versio eivät koskaan jaa työpajaa.'
+    - q: 'Miten kauan muutosvalvontakirjauksia säilytetään?'
+      a: 'Sulkemiskirjaukset — validointinäyttö, asiakirjarevisiot, koulutuskirjaukset ja vaikuttavuuskatselmukset — säilytetään kirjojen säilytyskäytöntömme mukaisesti (vähintään 3 vuotta sulkemiskirjauksille), jotta jokainen muutos pysyy jäljitettävissä auditointeja ja jäljitettävyyskatselmuksia varten.'
+
+cta:
+  title: Tarvitsetko muutosvalvonta-asiakirjoja auditointiin?
+  desc: 'Lataa kaksikielinen muutosvalvonta-SOP ja toteutusliite, tai pyydä anonymisoitu näyte ECR-pohjastamme ja validointisuunnitelmastamme OEM/ODM-projektiasi varten.'
+  actions:
+    - text: Pyydä laaduntarkastelua
+      variant: primary
+      href: /fi/contact
+    - text: Lataa muutosvalvonta-SOP (PDF)
+      href: 'https://assets.isupfactory.com/site/downloads/rework-change-control-sop-qms-sop-qc-cc-001.pdf?dl=1'
+    - text: Lataa toteutusliite A (PDF)
+      href: 'https://assets.isupfactory.com/site/downloads/rework-execution-annex-a-qms-sop-qc-cc-001.pdf?dl=1'

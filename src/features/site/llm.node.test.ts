@@ -1,7 +1,7 @@
 import { test, expect } from 'vitest'
-import { llmsFull, llmBrandIndex, llmFrenchIndex, llmsFrenchFull, llmGermanIndex, llmsGermanFull, llmItalianIndex, llmsItalianFull, llmPortugueseIndex, llmsPortugueseFull, llmDutchIndex, llmsDutchFull, llmSwedishIndex, llmsSwedishFull, llmNorwegianIndex, llmsNorwegianFull, llmPolishIndex, llmsPolishFull, llmDanishIndex, llmsDanishFull } from '@/features/site/llm'
+import { llmsFull, llmBrandIndex, llmFrenchIndex, llmsFrenchFull, llmGermanIndex, llmsGermanFull, llmItalianIndex, llmsItalianFull, llmPortugueseIndex, llmsPortugueseFull, llmDutchIndex, llmsDutchFull, llmSwedishIndex, llmsSwedishFull, llmNorwegianIndex, llmsNorwegianFull, llmPolishIndex, llmsPolishFull, llmDanishIndex, llmsDanishFull, llmFinnishIndex, llmsFinnishFull } from '@/features/site/llm'
 import { getContentPages } from '@/features/content/loader'
-import { GUIDES_FR, GUIDES_DE, GUIDES_IT, GUIDES_PT, GUIDES_NL, GUIDES_SV, GUIDES_NO, GUIDES_PL, GUIDES_DA } from '@/features/content/guide-content'
+import { GUIDES_FR, GUIDES_DE, GUIDES_IT, GUIDES_PT, GUIDES_NL, GUIDES_SV, GUIDES_NO, GUIDES_PL, GUIDES_DA, GUIDES_FI } from '@/features/content/guide-content'
 import { EDGE_REDIRECTS } from '@/features/seo/edge-gate'
 import { LEGACY_REDIRECTS } from '@/features/seo/legacy-redirects'
 
@@ -285,5 +285,31 @@ test('llms-full.txt Danish section: product/news/tech/case/guide bodies present'
   expect(da).toContain('# Guide:')
   for (const g of GUIDES_DA) {
     expect(da, `llms-full.txt Danish section missing guide ${g.slug}`).toContain(`# Guide: ${g.title}`)
+  }
+})
+
+test('llms.txt Finnish section: /fi absolute links, Finnish homepage note and guides', () => {
+  const section = llmFinnishIndex('https://isupfactory.com')
+  expect(section).toContain('## Suomeksi')
+  expect(section).toContain('— Etusivu')
+  expect(section).toContain('### Suomeksi: Tuotteet')
+  expect(section).toContain('### Suomeksi: Oppaat')
+  expect(section).toContain('### Suomeksi: Usein kysytyt kysymykset')
+  expect(section).toContain('https://isupfactory.com/fi/')
+  for (const g of GUIDES_FI) {
+    expect(section, `llms.txt Finnish section missing guide ${g.slug}`).toContain(`https://isupfactory.com/fi/guides/${g.slug}`)
+  }
+})
+
+test('llms-full.txt Finnish section: product/news/tech/case/guide bodies present', () => {
+  const fi = llmsFinnishFull()
+  expect(fi).toContain('# Suomeksi')
+  expect(fi).toContain('## Tuote:')
+  expect(fi).toContain('## Uutinen:')
+  expect(fi).toContain('## Teknologia:')
+  expect(fi).toContain('## Case study:')
+  expect(fi).toContain('# Opas:')
+  for (const g of GUIDES_FI) {
+    expect(fi, `llms-full.txt Finnish section missing guide ${g.slug}`).toContain(`# Opas: ${g.title}`)
   }
 })

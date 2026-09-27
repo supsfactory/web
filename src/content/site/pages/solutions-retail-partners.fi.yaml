@@ -1,0 +1,104 @@
+meta:
+  title: 'Räätälöity ja private label -SUP-tuotanto vähittäiskaupoille | {SITE}'
+  description: 'Räätälöity ja private label -SUP-tuotanto vähittäiskaupabrändeille: laudan määritykset, brändätyt kuviot, matala kokeilun MOQ ja tehtaan laadunvalvonta — näytteestä erätuotantoon.'
+  dateModified: '2026-08'
+
+hero:
+  tagline: Vähittäiskaupabrändit
+  title: 'Räätälöity SUP-tuotanto vähittäiskaupabrändeille'
+  subtitle: 'Vähittäiskaupabrändit lanseeraavat oman SUP-tuotelinjansa meidän tehtaallamme: laudan määritykset kehitetään vaatimuksistasi, brändisi näkyy tuotteessa ja tuotannon laadunvalvonta hoidetaan alusta loppuun.'
+  image:
+    src: https://assets.isupfactory.com/images/sups/products/sup-series/sup-ocean-voyager-1.webp
+    alt: Vatradin valmistamat SUP-laudat vähittäiskaupabrändille
+
+answer:
+  label: 'Suora vastaus'
+  text: 'MOQ vahvistetaan projektin konfiguraation perusteella: vähittäiskaupabrändit aloittavat näytteellä (1–2 kpl) tai pilottierällä (20–50 kpl, näytteet 7–12 päivää), skaalaavat vakiomäärän OEM-tuotantoon 90–100+ kpl per malli (25–35 päivää tilauksen ja käsirahan jälkeen) tai investoivat omaan muottiin täysin räätälöityä tuotelinjaa varten (muottityö lisää 15–20 päivää). Jokainen lauta paineistetaan ja testataan ennen lähetystä, FOB-, CIF- tai DDP-ehdoilla Qingdaosta.'
+  verified: 'September 2026'
+
+margin_section:
+  title: 'Tuotantovaiheet vähittäiskaupabrändeille'
+  subtitle: 'Aloita näytteellä, validoi pilotilla, skaalaa vakiomäärään tai investoi omaan muottiin — MOQ ja toimitusaika määräytyvät tuotantotien mukaan, eivät arvailulla.'
+  items:
+    - tier: 'Näytevaihe'
+      moq: '1–2 kpl'
+      margin_note: 'Näytteen toimitusaika 7–12 päivää'
+      features:
+        - 'Kuvioiden kehittely brändisi aineistoista'
+        - 'Fyysinen näyte hyväksyttäväksi'
+        - 'Vakioalustan laadunvalvonta'
+    - tier: 'Pilottivaihe'
+      moq: '20–50 kpl'
+      margin_note: 'Markkinavalidointi valmiilla alustoilla'
+      features:
+        - 'Koko laudan kuviot, logo ja EVA-asetelma'
+        - 'Uudelleen tilaukset samoilla varmennetuilla alustoilla'
+        - 'Vientidokumentaatio mukaan lukien'
+    - tier: 'Oma muotti'
+      moq: 'Vahvistetaan projektin konfiguraatiolla'
+      margin_note: 'Muottityö lisää 15–20 päivää'
+      features:
+        - 'Uusi laudan muoto ja muotin kehittely'
+        - 'Täysi määritysvalvonta'
+        - 'Etusijalla olev tuotantokiintiö'
+
+product_line:
+  title: Täydellinen tuotelinja
+  subtitle: 'Tuotantoalusta jokaiseen liiketoimintasi osa-alueeseen.'
+  items:
+    - name: Allround-sarja
+      description: 'Monikäyttöinen muoto — yleisin aloitusalusta'
+    - name: Touring-sarja
+      description: 'Keuloalus matkamelontaan'
+    - name: Jooga-sarja
+      description: 'Leveä ja vakaa alusta hyvinvointiliiketoimintaan'
+    - name: Lasten sarja
+      description: 'Lyhyet ja kevyet laudat nuoremmille melojille'
+    - name: Kilpailusarja
+      description: 'Nopeat runkot harrastajasegmentille'
+    - name: Lisävarusteet
+      description: 'Melat, liivit, pumput ja laukut valikoiman täydentämiseksi'
+
+catalog:
+  title: Vähittäiskaupakumppanin resurssit
+  subtitle: 'Määritykset, tilaustiedot ja tuotedokumentaatio.'
+  items:
+    - name: '2026 tuoteluettelo'
+      desc: 'Täydellinen valikoima määrityksineen ja tilausohjeineen'
+      icon: 'tabler:file-text'
+      link: '/fi/products'
+    - name: 'Vähittäiskaupakumppanin opas'
+      desc: 'Määritysopas, tilausprosessi ja laadunvalvonnan standardit'
+      icon: 'tabler:book'
+      link: '/fi/products'
+    - name: 'Tuote- ja tekninen aineisto'
+      desc: 'Teräväpiirtoiset tuotekuvat, tunnelmakuvat ja tekninen dokumentaatio'
+      icon: 'tabler:photo'
+      link: '/fi/products'
+
+support:
+  title: Valmistustuki
+  subtitle: 'Mitä valmistuskumppanisi tarjoaa tilauksen ympärille.'
+  items:
+    - 'Fyysinen näyte ennen erätuotantoa'
+    - 'Toleranssit ja laadunvalvonta: jokainen lauta paineistetaan ja testataan ennen lähetystä'
+    - 'Määritystuki — muodot, kuviot, EVA-asetelma, lisävarusteet'
+    - 'Erätuotannon toimitusaika 25–35 päivää vahvistetun tilauksen jälkeen'
+    - 'Varaosat ja korjausohjeet asiakkaillesi'
+    - 'Vienti ja dokumentaatio: FOB/CIF/DDP Qingdaosta'
+
+content_html: |
+  <div class="mx-auto max-w-3xl space-y-4 rounded-2xl border bg-card p-6 text-[14.5px] leading-relaxed text-fg-2">
+    <p><strong>Lue lisää:</strong> tutustu koko <a href="/fi/oem-manufacturing">OEM/ODM-valmistusohjelmaan</a> — projektikohtaisesti vahvistetut MOQ:t näyte-, pilotti- ja volyymivaiheissa, private label -brändäys ja CE-vaatimustenmukaisuus — tai lue <a href="/fi/oem-moq-guide">MOQ ja joustava brändäys -opas</a>, tai kierrä <a href="/fi/factory">tehtaan</a> ja katso, miten vähittäiskaupavalmis laadunvalvonta hoidetaan.</p>
+  </div>
+
+cta:
+  title: 'Keskustele vähittäiskaupan tuotelinjastasi'
+  subtitle: 'Lähetä vaatimuksesi — tiimimme vastaa 1 arkipäivän kuluessa.'
+  actions:
+    - text: 'Lähetä vaatimukset'
+      href: '/fi/contact'
+      variant: 'primary'
+    - text: 'Tutustu tuotealustoihin'
+      href: '/fi/products'
+      variant: 'secondary'

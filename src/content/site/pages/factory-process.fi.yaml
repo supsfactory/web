@@ -1,0 +1,109 @@
+meta:
+  title: 'Valmistusprosessi — raaka-aineesta SUP-laudaksi'
+  description: 'Raaka-aineesta merikuntoiseksi SUP-laudaksi: jokainen Vatradin valmistusprosessin vaihe omassa valvonnassamme, leikkauksesta ja hitsauksesta testaukseen.'
+  dateModified: '2026-08'
+  keywords:
+    - 'sup valmistusprosessi'
+    - 'puhallettavien sup-lautojen tehdas'
+    - 'paddle board tuotannon vaiheet'
+    - 'pvc hitsaus sup'
+hero:
+  tagline: Prosessi
+  title: Valmistusprosessi
+  subtitle: 'Raaka-aineesta merikuntoiseksi SUP-laudaksi — jokainen vaihe omassa valvonnassamme'
+  back_label: Takaisin tehtaaseen
+  back_link: /fi/factory
+
+answer:
+  label: 'Suora vastaus'
+  text: 'Laudat käyvät läpi viisi valvottua vaihetta: materiaalien tarkastus (1–2 päivää), CNC-automaattileikkaus (<5% hukka, 2–4 tuntia settiä kohti), putkiston kuumahitsaus RF-vahvistetuilla saumoilla (1–2 päivää lautaa kohti), drop-stitch-ytimen liimaus sekä lopullinen kokoonpano ja 100% ilman säilymisen ja kuormitustestaus ennen pakkausta.'
+  verified: 'Syyskuu 2026'
+
+intro: 'Toisin kuin brändit, jotka ulkoistavat tuotannon kolmansien osapuolten tehtaille, Vatrad omistaa ja käyttää koko valmistusketjuaan. Tämä vertikaalinen integraatio mahdollistaa tiukan laadunvalvonnan jokaisessa vaiheessa, nopean reagoinnin räätälöityihin vaatimuksiin sekä tasaisen tuotelaadun erä erältä. Näin SUP-lauta rakennetaan laitoksessamme.'
+
+steps:
+  - step: '01'
+    title: Raaka-aineen vastaanotto ja tarkastus
+    description: 'Jokainen saapuva PVC-kangas-, lasikuitumatissa-, hartsi- ja tarvike-erä tarkastetaan määritystä vasten. Kangasnäytteet testataan vetolujuuden, paksuuden tasaisuuden ja UV-kestävyyden osalta ennen tuotantoon vapauttamista. Vaatimustenmukaisuutta täyttämättömät materiaalit eristetään ja palautetaan.'
+    duration: 1–2 päivää
+  - step: '02'
+    title: Automaattinen PVC-leikkaus
+    description: '<p>Hyväksytyt kankaat levitetään automaattiselle CNC-leikkauskoneelle ja leikataan millimetrin tarkkuudella. Tietokoneella optimoidut leikkaukset asettelevat paneelit hukkaa minimoiden — tyypillisesti alle 5%. Leikatut paneelit merkitään SUP-mallin ja putkiston mukaan ja niputetaan siirrettäväksi hitsausverstaalle.</p>'
+    duration: 2–4 tuntia lautasettiä kohti
+  - step: '03'
+    title: Putkiston kuumahitsaus ja hitsaus
+    description: 'Paneelit esiliimataan ja liimataan kuumahitsauskoneilla, joissa käytetään kuumailmahitsausta 200–300 °C:n valvotuissa lämpötiloissa. Päähitsäät vahvistetaan RF-dielektrisellä hitsauksella tiiviiden ja luotettavien liitosten aikaansaamiseksi. Valmiit putkistot täytetään 18.0 PSI:n paineeseen alustavaa ilmatiiviys-tarkastusta varten ennen 24 tunnin säilymistestiä.'
+    duration: 1–2 päivää SUP-lautaa kohti
+  - step: '04'
+    title: Drop-stitch-ytimen liimaus
+    description: 'SUP-lautojen drop-stitch-ytimet liimataan ulkoisiin PVC-kalvoihin kuumaliimauksella. Tuhannet sisäiset polyesterilangat yhdistävät ylä- ja ala kerroksen muodostaen jäykän rakenteen 12–15 PSI:n paineessa. Reunavahvikkeet liimataan fuusioliimauksella kolmikerroksisiksi reunojen lujuutta varten.'
+    duration: 1–2 päivää lautaa kohti
+  - step: '05'
+    title: SUP-lautojen painatus ja koristelu
+    description: 'SUP-lautojen kansikuviot toteutetaan digitaalipainatuksella täysvärisille valokuvatason suunnitelmille ja silk screen -painatuksella kestäville logoille ja toistuville kuvioille. Painatukset kovetaan ja suojataan UV- ja hankauskestävyyden varmistamiseksi.'
+    duration: 1–2 päivää
+  - step: '06'
+    title: Lopullinen kokoonpano ja asennus
+    description: 'Venttiilit, D-renkaat, kahvat, eväkotelot ja kansipatjat asennetaan kokoonpanolinjalla. Jokainen lauta käy läpi 100 pisteen kokoonpanotarkistuslistan, jossa jokaisessa vaiheessa on pakollinen hyväksyntä.'
+    duration: 1–2 päivää
+  - step: '07'
+    title: Laatutestaus ja tarkastus
+    description: 'Jokainen valmis lauta käy läpi pakollisen laatuportin: putkiston ilman säilymisen testi, tarvikkeiden toiminnan tarkistus, kiinnikkeiden momentin varmennus ja ulkonäköinen tarkastus. Räätälöidut ja prototyyppirakenteet saavat lisäksi vesikokeet, joissa arvioidaan vakaus ja käsiteltävyys.'
+    duration: 1–2 päivää
+  - step: '08'
+    title: Pakkaus ja lähetys
+    description: 'Laudat tyhjennetään, taitetaan ohjeen mukaisesti, pakataan raskastekoisiin kankaspusseihin tai vähittäislaatikkoihin ja lastataan lähetystä varten. Jokainen paketti merkitään mallin, sarjanumeron ja määränpään mukaan. Koordinoimme huolitsijoiden kanssa FCL- ja LCL-konttikuljetuksia ympäri maailmaa.'
+    duration: 1 päivä
+
+evidence_gates:
+  tagline: Tarkastusnäyttö
+  title: 'Jokainen vaihe jättää jälkeen — valokuvat ja raportit'
+  subtitle: 'Alla ovat varsinaiset tarkastusvalokuvat ja testiraporttipaketit seitsemästä valvotusta laatuportistamme. Jokainen PDF on todellinen kaksikielinen kirjaus, jonka voit ladata ja todentaa — samat kirjaukset, jotka tukevat jokaista erää 10 vuoden ERP-jäljitettävyysarkistossa. Katso koko 7-vaiheinen kulku sivulta /fi/quality.'
+  items:
+    - title: 'PPM — projektin laadunsuunnittelu'
+      description: 'Tuotantoa edeltävä kokous lukitsee laajuuden, referenssinäytteen ja laaduntarkastussuunnitelman ennen linjan käynnistystä. Avoimet kohdat estävät tuotannon vapauttamisen.'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_SUP_OEM_QIP.pdf
+      link_label: 'Lataa QIP (PDF)'
+      image: https://assets.isupfactory.com/site/quality/node01-ppm.avif
+      alt: Tuotantoa edeltävä kokous, jossa käydään läpi referenssinäyte ja OEM SUP -tilauksen laaduntarkastussuunnitelma
+    - title: 'IQC — saapuvien materiaalien tarkastus'
+      description: 'Jokainen saapuva PVC-, kangas- ja tarvike-erä tarkistetaan hyväksyttyä määritystä vasten. Vaatimustenmukaisuutta täyttämättömät erät eristetään ja hylätään ennen linjalle vapauttamista.'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_IQC_TEST_REPORTS.pdf
+      link_label: 'Lataa IQC-raportit (PDF)'
+      image: https://assets.isupfactory.com/site/quality/node02-iqc.avif
+      alt: PVC-kankaan ja SUP-osien saapuvien materiaalien tarkastus tehtaalla
+    - title: 'IPQC / FAI — tuotannon aikainen valvonta'
+      description: 'Ensikappale varmennetaan lukittuja peruslinjoja vasten ja jokaisessa vuorossa tehdään linjalla kiertotarkastuksia. FAI-hyväksyntä lukitsee version kuvituksesta, mitoista ja tuoteluettelosta.'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_IPQC_TEST_REPORTS.pdf
+      link_label: 'Lataa IPQC-raportit (PDF)'
+      image: https://assets.isupfactory.com/site/quality/node03-ipqc-fai.avif
+      alt: SUP-tuotannon tuotannon aikainen tarkastus ja ensikappaleen tarkistus
+    - title: 'Täyttö ja ilmatiiviystestaus'
+      description: '100% valmiista laudoista — ei otos — saa 24 tunnin paineen pidon 18.0 PSI:n paineessa ja automaattisen hylkäyksen yli 0.50 PSI:n painehävikin kohdalla. Yksi kirjaus per putkisto.'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_AIRTIGHTNESS_TEST_REPORTS.pdf
+      link_label: 'Lataa ilmatiiviysraportit (PDF)'
+      image: https://assets.isupfactory.com/site/quality/node04-airtightness.avif
+      alt: Puhallettavan SUP-putkiston täyttö ja ilmatiiviystestaus
+    - title: 'FQC — lopputuotteen tarkastus'
+      description: 'Valmiit laudat mitataan piirustusten toleransseja vasten ja luokitellaan ulkonäön osalta D65-päivänvalolamppujen alla hyväksyttyyn referenssinäytteeseen verraten.'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_FQC_TEST_REPORTS.pdf
+      link_label: 'Lataa FQC-raportit (PDF)'
+      image: https://assets.isupfactory.com/site/quality/node05-fqc.avif
+      alt: Valmiiden SUP-lautojen lopputarkastus ennen pakkausta
+    - title: 'PSI — pakkauksen ja esilähetyksen tarkastus'
+      description: 'Pakattu sarja tarkastetaan 100% asiakkaan hyväksymää tuoteluetteloa vasten — viivakoodiskannaus (luokka ≥ B), kartonkien merkinnät ja ISTA-1A-pudotustesti ennen lastausta.'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_PSI_TEST_REPORTS.pdf
+      link_label: 'Lataa PSI-raportit (PDF)'
+      image: https://assets.isupfactory.com/site/quality/node06-psi.avif
+      alt: Esilähetyksen tarkastus, jossa pakattu SUP-sarja tarkistetaan tuoteluetteloa vasten
+    - title: 'Lähetyslupa ja jäljitettävyys'
+      description: 'Laatu hyväksyy erän vasta, kun kaikki kuusi edellistä porttia on suljettu. Sarjanumerot kytkeytyvät erään ja paketti luovutetaan lähetyksen mukana.'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_SHIPMENT_RELEASE_REPORTS.pdf
+      link_label: 'Lataa luparaportit (PDF)'
+      image: https://assets.isupfactory.com/site/quality/node07-shipment-release.avif
+      alt: Lähetyslupan allekirjoitus ja erien jäljitettävyyskirjauksen luovutus
+cta:
+  title: Katso laitteemme ja koneemme
+  desc: Tutustu teollisuusluokan laitteisiin jokaisen Vatradin SUP-laudan takana.
+  label: Katso laitteet →
+  link: /fi/factory/equipment

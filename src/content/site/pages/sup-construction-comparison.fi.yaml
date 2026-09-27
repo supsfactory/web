@@ -1,0 +1,123 @@
+meta:
+  title: 'SUP-rakenteiden vertailu — yksikerroksinen ja kaksikerroksinen PVC sekä drop-stitch | iSupfactory'
+  description: 'Puhallettavien SUP-lautojen rakenteiden vertailu: yksikerroksinen PVC, kaksikerroksinen PVC ja drop-stitch-ydin — jäykkyys, paino, kestävyys, hinta ja paras käyttötarkoitus.'
+  dateModified: '2026-08-21'
+  keywords:
+    - 'SUP-rakenteiden vertailu'
+    - 'puhallettavien SUP-rakenteet'
+    - 'yksikerroksinen ja kaksikerroksinen SUP'
+    - 'drop-stitch SUP-rakenne'
+    - 'PVC SUP-rakenne'
+    - 'SUP-laudan jäykkyys'
+    - 'SUP-laudan paino'
+
+hero:
+  tagline: 'Rakenneopas'
+  title: 'SUP-rakenteiden vertailu'
+  subtitle: 'Kolme rakennetyyppiä, yksi tuotantolinja. Ymmärrät jäykkyyden, painon, kestävyyden ja kustannusten kompromissit yksikerroksisen PVC:n, kaksikerroksisen PVC:n ja drop-stitch-ytimen välillä — ja mikä niistä sopii kohdemelojallesi ja markkina-asemaasi.'
+
+answer:
+  label: 'Nopea vertailu'
+  text: 'Yksikerroksinen PVC on kevyin ja edullisin — paras valinta satunnaisille melojille ja hintaherkille markkinoille. Kaksikerroksinen PVC lisää jäykkyyttä ja kestävyyttä kohtuullisella painolla — alan vakiovalinta vuokrauslaivastoille ja keskihintaluokkien brändeille. Drop-stitch-ydin PVC-kuorella tuottaa suurimman jäykkyyden ja paineensiedon — suosittu suorituskyky-, surf- ja raskasmelajakäyttöön. Kaikki kolme rakennetta valmistetaan samalla tuotantolinjalla samoilla laadunvalvontaportilla; ero on materiaaleissa ja laminoinnin vaiheissa.'
+  verified: 'September 2026'
+
+comparison_table:
+  tagline: Rinnakkain
+  title: 'Rakennetyypit vertailussa'
+  headers:
+    - 'Ominaisuus'
+    - 'Yksikerroksinen PVC'
+    - 'Kaksikerroksinen PVC'
+    - 'Drop-stitch-ydin + PVC-kuori'
+  rows:
+    - - 'Jäykkyys (PSI-luokitus)'
+      - '12–15 PSI'
+      - '15–18 PSI'
+      - '18–25 PSI'
+    - - 'Paino (11 ft lauta)'
+      - '7–9 kg'
+      - '10–13 kg'
+      - '12–15 kg'
+    - - 'Kestävyys'
+      - 'Hyvä — vapaa-ajan käyttö'
+      - 'Erittäin hyvä — vuokraus ja kaupallinen käyttö'
+      - 'Erinomainen — suorituskyky ja raskas meloja'
+    - - 'Rakenteen kerrokset'
+      - '1 PVC-kerros + drop-stitch-ydin'
+      - '2 PVC-kerrosta + drop-stitch-ydin'
+      - 'Vahvistettu drop-stitch + PVC-kuori + reunanauha'
+    - - 'Tyypillinen käyttötarkoitus'
+      - 'Aloittelijat, vapaa-aika, hintaherkät markkinat'
+      - 'Allround, vuokraus, seurat, keskihintaluokat'
+      - 'Touring, surf, raskaat melojat, premium-brändit'
+    - - 'Suhteellinen kustannus'
+      - 'Matalin'
+      - 'Keskitaso'
+      - 'Korkeampi'
+    - - 'Hitsausmenetelmä'
+      - 'RF-kuumasaumat'
+      - 'RF-kuumasaumat + laminointi'
+      - 'RF-kuumasaumat + vahvistetut reunat'
+    - - 'Painetestin standardi'
+      - '18.0 PSI -pitävämaksutesti'
+      - '18.0 PSI -pitävämaksutesti'
+      - '18.0 PSI -pitävämaksutesti (korkeampi luokitus)'
+
+use_cases:
+  tagline: Mikä rakenne mille ostajalle
+  title: 'Sovita rakenne kohdemarkkinaasi'
+  subtitle: 'Rakenteen valinta ei ole vain kustannuskysymys — se määrittää melojan kokemuksen, takuuriskin profiilin ja sen brändiposition, jota voit ylläpitää.'
+  grid: 'sm:grid-cols-3'
+  features:
+    - icon: S
+      icon_bg: blue
+      title: 'Yksikerroksinen aloitus- ja volyymimalliin'
+      desc: 'Kevyin lauta matalimpaan hintaluokkaan. Ihanteellinen brändeille, jotka kohdistavat ensi kertaa ostavia, isoihin vähittäiskauppoihin ja verkkokauppapaikkoihin, joissa hinta on ensisijainen ostopääsyy. Riittävä jäykkyys tasaiseen melontaan kohtuullisella PSI:llä. Matalampi takuuvaikutuslukumäärä, kun käytetään mitoitetun painealueen sisällä.'
+      link_label: 'Katso OEM-aloituslaudat'
+      href: /fi/oem-manufacturing
+    - icon: D
+      icon_bg: green
+      title: 'Kaksikerroksinen vuokraus- ja kaupalliseen käyttöön'
+      desc: 'Työhevysrakenteinen ratkaisu vuokrauslaivastoille, seuroille, lomakeskuksille ja kouluohjelmille. Lisäkerroksinen PVC kestää iskuja, UV-altistumista ja päivittäistä käsittelyä, jotka tuhoavat yksikerroksisia lautoja kaupallisessa ympäristössä. Suurempi paineensiedonkanto tarkoittaa jäykempää ajoa raskaille melojille. Maailmanlaajuisesti suosituin rakennetaso.'
+      link_label: 'Vuokraus- ja lomakeskusratkaisut'
+      href: /fi/solutions/resort-sup
+    - icon: P
+      icon_bg: purple
+      title: 'Drop-stitch-ydin suorituskykyyn'
+      desc: 'Suurin jäykkyys touring-käyttöön, surffailuun, kalastukseen ja raskaille melojille. Vahvistettu reunarakenne ja korkeampi PSI-luokitus tuottavat kovalaudalta vaaditun suorituskyyn kannettavassa pakkauksessa. Suosittu suorituskykybrändien ja kokeneiden melojien keskuudessa. Korkeampi materiaalikustannus, mutta vahvempi brändiposition ja alaisempi takuuluku yksikköä kohti.'
+      link_label: 'Suorituskykylautojen kehittely'
+      href: /fi/odm-manufacturing
+
+key_factors:
+  heading: 'Avaintekijät rakennetyypin lisäksi'
+  body: |
+    Rakennetyyppi on yksi muuttuja laudan suorituskyvyssä. Kolme muuta tekijää ovat yhtä tärkeitä tai tärkeämpiä:
+
+    - **Drop-stitch-tiheys** — Kierteet tuumaa kohti määrää, miten tasaisesti lauta säilyttää muotonsa paineen alla. Käytämme 96 kierrettä/tuumaa vakiossa ja 140 kierrettä/tuumaa suorituskykyversioissa. Suurempi tiheys = tasaisempi lauta = parempi liuku.
+    - **PVC-laatu ja paksuus** — Kaikki PVC ei ole samanarvoista. Etelä-Koreasta tuotu 0.7 mm:n PVC suuremman repimislujuuden ja UV-kestävyyden vuoksi. Määritämme materiaaliluokan projektikohtaisesti.
+    - **Reunarakenne** — Yksikerroksiset reunat ovat halpojen lautojen yleisin vikaantumiskohta. Kaksikerroksinen rakenne ja vahvistettu reunanauha pienentävät reunan puhkaisuriskiä dramaattisesti. Kaikki laudat käyttävät vahvistettuja reunoja rakennetasosta riippumatta.
+
+faqs:
+  tagline: UKK
+  title: 'SUP-rakenne — usein kysytyt kysymykset'
+  items:
+    - q: 'Minkä rakennetyypin brändilleni valitsisin?'
+      a: 'Se riippuu kohdemarkkinastasi ja hintapositiosta. Aloittelijat ja iso vähittäiskauppa: yksikerroksinen. Vuokrauslaivastot, seurat ja keskihintaluokat: kaksikerroksinen. Suorituskyky, touring ja premium: drop-stitch-ydin. Useimmat brändit aloittavat kaksikerroksisesta, koska se on paras tasapaino kustannusten, kestävyyden ja melojan kokemuksen välillä. Suosittelemme toteutettavuuskatsauksessa markkinaasi perusteella.'
+    - q: 'Voinko tarjota useita rakennetasoja yhden brändin alla?'
+      a: 'Kyllä — monet brändit tarjoavat kaksi tai kolme tasoa. Valmistamme kaikki kolme rakennetta samalla linjalla samoilla laadunvalvontaportilla, joten voit yhdistää rakennetyyppejä yhden tilauksen sisällä. Rungon muoto ja kuviot voivat olla identtiset kaikissa tasoissa; vain rakenne ja materiaalit muuttuvat.'
+    - q: 'Mikä on kaikkien rakenteiden painetestin standardi?'
+      a: 'Jokainen lauta rakenteesta riippumatta läpäisee 18.0 PSI:n pitävämaksutestin, jossa automaattinen hylkäys yli 0.50 PSI:n paineen laskun yli 24 tunnin aikana. Yksikerroksiset laudat on mitoitettu 12–15 PSI:n melontapaineelle, kaksikerroksiset 15–18 PSI:lle ja drop-stitch-ytimet 18–25 PSI:lle. Testipaine ylittää mitoitetun paineen kaikissa rakenteissa.'
+    - q: 'Miten rakenne vaikuttaa takuuvaikutuksiin?'
+      a: 'Yksikerroksisilla laudoilla on kaupallisessa ja vuokrauskäytössä hieman korkeampi takuuvaikutuslukumäärä reunojen ja puhkaisujen alttevuuden vuoksi. Kaksikerroksinen ja drop-stitch-rakenne tuovat selvästi alemmat vaikutuslukumäärät. Toimitamme tarjousvaiheessa tuotantotietoistamme johdetut tasokohtaiset takuutiedot.'
+
+cta:
+  title: 'Tarvitsetko apua oikean rakenteen valinnassa?'
+  subtitle: 'Kerro kohdemelojasi, hintaluokkasi ja markkinasi — suosittelemme rakennetason ja toimitamme näytelaudat arviointiasi varten.'
+  actions:
+    - variant: primary
+      text: Aloita projektibriefisi
+      href: /fi/contact#project-brief
+    - text: Katso OEM-valmistuksen tiedot
+      href: /fi/oem-manufacturing
+    - text: Vertaa OEM, ODM ja private label -vaihtoehtoja
+      href: /fi/oem-odm-private-label-comparison

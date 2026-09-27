@@ -1,0 +1,105 @@
+meta:
+  title: 'Tehdasauditointitarkistuslista — mitä todentaa ennen SUP-valmistajan valintaa | iSupfactory'
+  description: 'Tehdasauditointitarkistuslista puhallettavien SUP-lautojen ostajille: laadunhallintajärjestelmä, kapasiteetti, materiaalijäljitettävyys, painetestaus, yhteiskunnallinen vaatimustenmukaisuus ja dokumentaatio.'
+  dateModified: '2026-08-21'
+  keywords:
+    - 'sup tehdas auditointitarkistuslista'
+    - 'puhallettavien lautojen valmistajan auditointi'
+    - 'sup tehtaan todentaminen'
+    - 'oem tehdas tarkastus'
+    - 'sup laatuauditointi'
+    - 'sup valmistaja due diligence'
+    - 'puhallettavien sup tuotannon auditointi'
+
+hero:
+  tagline: 'Due Diligence'
+  title: 'Tehdasauditointitarkistuslista'
+  subtitle: 'Ennen kuin sitoudut SUP-valmistajaan, todenna perusteet. Tämä tarkistuslista kattaa kahdeksan aluetta, jotta ammattimaisen ostajan kannattaa auditoida — laadunhallinnasta ja tuotantokapasiteetista materiaalijäljitettävyyteen ja yhteiskunnalliseen vaatimustenmukaisuuteen. Jokainen tämän listan kohta on jotain, minkä voimme todentaa kirjauksin, emme pelkillä väitteillä.'
+
+answer:
+  label: 'Nopea vastaus'
+  text: 'Kahdeksan tärkeintä auditointialuetta: (1) Laadunhallintajärjestelmä — ISO 9001 -sertifiointi ja aidot porttikohtaiset tarkastuskirjaukset, ei vain todistus seinällä. (2) Tuotantokapasiteetti — todelliset tuotantoluvut, eivät nimilevyn arvoja. (3) Materiaalijäljitettävyys — erätason saapuvien materiaalien tarkastus ja testiraportit. (4) Paine- ja rakennetestit — dokumentoidut säilytystestimenetelmät. (5) Hitsauksen ja kokoonpanon valvonta — RF-hitsauksen parametrit ja saumojen tarkastus. (6) Yhteiskunnallinen vaatimustenmukaisuus — BSCI- tai vastaava auditointi. (7) Dokumentaatio ja jäljitettävyys — eräkirjaukset, tarkastuspäiväkirjat, vaatimustenmukaisuustodistukset. (8) Toimituksen jälkeinen tuki — takuuprosessi, varaosat, viestinnän vastauskyky.'
+  verified: 'Syyskuu 2026'
+
+audit_areas:
+  tagline: Kahdeksan auditointialuetta
+  title: 'Mitä todennetaan — kahdeksan auditointialuetta'
+  subtitle: 'Jokainen alue sisältää kysymykset, jotka kannattaa kysyä, pyydettävät kirjaukset ja varoitusmerkit, joihin kannattaa kiinnittää huomiota.'
+  grid: 'sm:grid-cols-2 lg:grid-cols-4'
+  features:
+    - icon: Q
+      icon_bg: blue
+      title: '1. Laadunhallintajärjestelmä'
+      desc: 'Pyydä: ISO 9001 -sertifikaatti (akkreditoitu elim, voimassa), sisäisten auditointien aikataulu, CAPA-kirja (korrektiiviset ja ennaltaehkäisevät toimenpiteet), tarkastusporttien menettelyt. Varoitusmerkki: vain sertifikaatti, ei porttitason tarkastuskirjauksia eikä CAPA-prosessia.'
+    - icon: C
+      icon_bg: green
+      title: '2. Tuotantokapasiteetti'
+      desc: 'Pyydä: kuukausittaiset tuotantomäärät tuotetyypeittäin, tuotantoaikataulu, joka näyttää nykyisen käyttöasteen, työkalukapasiteetti (muottien määrä, CNC-koneet, RF-hitsauskoneet). Varoitusmerkki: vain nimilevyn kapasiteetti, ei käyttöastetietoja eikä tuotantoaikataulua.'
+    - icon: M
+      icon_bg: purple
+      title: '3. Materiaalijäljitettävyys'
+      desc: 'Pyydä: saapuvien materiaalien tarkastuskirjaukset, PVC- ja drop-stitch-toimittajien todistukset, eräkohtainen jäljitettävyys raaka-aineesta valmiiseen lautaan, REACH/RoHS-ainedeklaratiot. Varoitusmerkki: ei erätason jäljitettävyyttä, materiaalitodistukset eivät saatavilla.'
+    - icon: P
+      icon_bg: orange
+      title: '4. Paine- ja rakennetestit'
+      desc: 'Pyydä: painetestimenetelmä (PSI, kesto, hyväksy/hylkää-kriteerit), viimeaikaisten tuotantoerien testimäärät, rakennetestien kirjaukset (pudotus, isku, reunavahvikkeen rasitus). Varoitusmerkki: "Vain silmämääräinen tarkastus" tai ei dokumentoitua testimenetelmää, jossa on määrälliset hyväksy/hylkää-kriteerit.'
+    - icon: W
+      icon_bg: blue
+      title: '5. Hitsauksen ja kokoonpanon valvonta'
+      desc: 'Pyydä: RF-hitsauksen parametrikirjaukset (lämpötila, paine, seisotusaika), saumojen tarkastuskriteerit ja hylkäysprosentit, kokoonpanon vaiheistuksen dokumentaatio. Varoitusmerkki: ei hitsauksen parametrikirjauksia, korkea saumojen hylkäysprosentti ilman CAPA:ta.'
+    - icon: S
+      icon_bg: green
+      title: '6. Yhteiskunnallinen vaatimustenmukaisuus'
+      desc: 'Pyydä: BSCI- tai SMETA-auditointiraportti (voimassa, koko laajuus), työaika- ja palkkakirjaukset, terveys- ja turvallisuustarkastusraportit, ympäristövaatimustenmukaisuusasiakirjat. Varoitusmerkki: ei kolmannen osapuolen yhteiskuntaauditointia tai auditointi, jossa isoja vaatimustenmukaisuuspoikkeamia on jätetty ratkaisematta.'
+    - icon: D
+      icon_bg: purple
+      title: '7. Dokumentaatio ja jäljitettävyys'
+      desc: 'Pyydä: eräkohtaiset tuotantokirjaukset, tarkastuspäiväkirjat porttia kohden, vaatimustenmukaisuustodistukset, pakkausluettelot eräviitteineen, takuuvaatimusten seurantajärjestelmä. Varoitusmerkki: ei erätason dokumentaatiota, takuuvaatimuksia ei seurata eikä analysoida.'
+    - icon: A
+      icon_bg: orange
+      title: '8. Toimituksen jälkeinen tuki'
+      desc: 'Pyydä: takuuehdot ja vaatimusprosessi, vaatimusten keskimääräinen käsittelyaika, varaosien saatavuus, sitoumus viestinnän vastausajasta, toimituksen jälkeisen katselmoinnin prosessi. Varoitusmerkki: ei dokumentoitua takuuprosessia, hidas tai epäjohdonmukainen viestintä toimituksen jälkeen.'
+
+our_position:
+  heading: 'Asenteemme kuhunkin auditointialueeseen'
+  body: |
+    Emme ainoastaan väitä vaatimustenmukaisuutta — annamme kirjaukset. Tässä asenteemme kuhunkin kahdeksaan auditointialueeseen:
+
+    - **Laadunhallinta**: ISO 9001:2015 -sertifioitu, auditoidaan vuosittain akkreditoidun kolmannen osapuolen toimesta. 7-vaiheinen tarkastusporttijärjestelmä, jossa jokaisella portilla on dokumentoidut hyväksy/hylkää-kriteerit. CAPA-kirjaa ylläpidetään ja katsotaan neljännesvuosittain.
+    - **Tuotantokapasiteetti**: 120,000+ laudan vuosikapasiteetti, noin 10,000 kuukausittainen tuotanto. Tuotantoaikataulu on tarkastettavissa tehtaan vierailulla. 4 automaattista tuotantolinjaa, CNC-leikkaus, RF-hitsaus ja painetestilaboratorio.
+    - **Materiaalijäljitettävyys**: Erätason jäljitettävyys saapuvasta materiaalista valmiiseen lautaan. PVC- ja drop-stitch-toimittajien todistukset arkistossa. REACH- ja RoHS-ainedeklaratiot saatavilla erää kohden.
+    - **Painetestaus**: 18.0 PSI säilytystesti, jossa automaattinen hylkäys yli 0.50 PSI aleneman 24 tunnin aikana. Testimäärät saatavilla jokaisesta tuotantoerästä. Rakenteiden ja iskujen testaus rakennetyypin mukaan.
+    - **Hitsauksen valvonta**: RF-hitsauksen parametrit kirjataan jokaisesta tuotantoerästä. Saumojen tarkastus portissa 3 dokumentoiduin hylkäysprosentein. CAPA käynnistetään, kun hylkäysprosentti ylittää rajan.
+    - **Yhteiskunnallinen vaatimustenmukaisuus**: BSCI-auditoidtu. Työaika-, palkka- ja turvallisuuskirjaukset tarkastettavissa tehtaan vierailulla.
+    - **Dokumentaatio**: Eräkohtaiset tuotantokirjaukset, tarkastuspäiväkirjat porttia kohden, vaatimustenmukaisuustodistukset ja eräviitteiset pakkausluettelot toimitetaan jokaisen tilauksen mukana. Takuuvaatimusten seurantajärjestelmää ylläpidetään.
+    - **Toimituksen jälkeinen tuki**: Takuuehdot dokumentoitava sopimuksessa. Vaatimusten keskimääräinen käsittely alle 14 arkipäivää. Varaosia saatavilla varastosta. Toimituksen jälkeinen katselmointi tarjotaan jokaiselle ensimmäiselle tilaukselle.
+
+evidence_review:
+  tagline: 'Näyttö ja todentaminen'
+  title: 'TEKNISET ARVOT TODENNETTU'
+  body: 'Kaikki tämän sivun valmistus- ja laatuväitteet on varmennettu valmistustekniikan tiimimme toimesta Laixin, Qingdaon tehtaalla. Todistukset, laaduntarkastuskirjaukset, paine- ja rakennetestiraportit sekä erien jäljitettävyyspäiväkirjat ovat pyydettäessä saatavilla. Tekniset arvot on viimeksi todennettu syyskuussa 2026.'
+
+faqs:
+  tagline: FAQ
+  title: 'Tehdasauditointi — usein kysytyt kysymykset'
+  items:
+    - q: 'Voinko vierailla tehtaalla paikallisella auditoinnilla?'
+      a: 'Kyllä. Toivotamme tehtaan vierailut tervetulleiksi ja voimme järjestää jäsennetyn auditoinnin, joka kattaa kaikki kahdeksan aluetta. Tyypillinen vierailu sisältää kierroksen tuotantolattialla, laadunvalvontaporttien seuraamisen, materiaalivaraston tarkastuksen, asiakirjojen tarkastuksen ja kyselykierroksen laadupäällikön kanssa. Varata koko päivä. Ota yhteyttä, niin sovimme ajankohdan.'
+    - q: 'Toimitatteko auditointiin liittyvät asiakirjat ennen vierailua?'
+      a: 'Kyllä. Voimme jakaa ISO 9001 -sertifikaatin, BSCI-raportin, tuotantokapasiteetin yhteenvedon, painetestimenetelmän ja esimerkkiä tarkastuskirjauksista ennen vierailuasi — jotta voit valmistella kohdennettuja kysymyksiä. Täydet eräkirjaukset ovat saatavilla paikalla vierailun aikana.'
+    - q: 'Mitä kolmannen osapuolen tarkastuksia käytätte?'
+      a: 'Teemme yhteistyötä SGS:n, Intertekin ja TUV:n kanssa kolmannen osapuolen tarkastuksissa ja sertifioinneissa. Kolmannen osapuolen ennakkolähetystarkastus on pyydettäessä saatavilla mille tahansa tilaukselle. Tarkastuksen laajuus ja kustannukset vahvistetaan tarjousvaiheessa.'
+    - q: 'Mistä tiedän, että laadunhallintajärjestelmääsi todella sovelletaan eikä vain dokumentoida?'
+      a: 'Jokainen lauta läpäisee 7 tarkastusporttia määrällisin hyväksy/hylkää-kriteerein — ei silmämääräisin tarkistuslistoin. Painetestien tiedot, hitsauksen parametrit ja hylkäysprosentit kirjataan erää kohden ja ovat tarkastettavissasi. CAPA käynnistetään automaattisesti määrittelyn vastaisista tuloksista. Kannustamme auditointiin paikallisen tuotantoprosessin aikana tehtaan vierailulla.'
+
+cta:
+  title: 'Sovella tehdasauditointi'
+  subtitle: 'Pyydä auditointiin liittyvät asiakirjat tai sovella paikallinen vierailu. Annamme kirjaukset — sinä todennat prosessin.'
+  actions:
+    - variant: primary
+      text: Pyydä auditointiin liittyvät asiakirjat
+      href: /fi/contact#project-brief
+    - text: 'Todenna sertifioinnit ja laadunhallintajärjestelmä'
+      href: /fi/proof-center
+    - text: 'OEM-käyttöönottoprosessi'
+      href: /fi/oem-onboarding-guide

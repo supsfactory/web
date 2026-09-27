@@ -1,0 +1,69 @@
+meta:
+  title: 'Miten CE-sertifiointi toimii puhallettavissa SUP-lautoissa'
+  description: 'Miten CE-sertifiointi toimii puhallettavissa SUP-laudoissa, veneissä ja kajakoissa: direktiivit (2013/53/EU RCD, PPE 2016/425), testaus, ilmoitetut laitokset ja tekniset tiedostot.'
+  author: 'iSupfactory'
+  datePublished: '2026-08-04'
+  dateModified: '2026-08-07'
+back_text: 'Takaisin tutkimukseen'
+
+hero:
+  tagline: 'Vaatimustenmukaisuus'
+  title: 'Miten CE-sertifiointi toimii puhallettavissa SUP-laudoissa ja kajakoissa'
+  subtitle: '7 min lukuaika'
+
+answer:
+  label: 'Suora vastaus'
+  text: 'Puhallettavat SUP-laudat kuuluvat EU:n vapaa-ajan veneitä koskevan direktiivin 2013/53/EU soveltamisalaan, kun rungon pituus on yli 2.5 m, ja yleisen tuoteturvallisuusdirektiivin soveltamisalaan, kun ne ovat pienemmät. Sertifiointi maksaa ensimmäisen tuotteen osalta noin 13,000&ndash;31,000 EUR ja 8&ndash;14 viikkoa: tekninen tiedosto, ilmoitetun laitoksen suorittamat tyyppitestit, tehasauditointi ja sitten vaatimustenmukaisuusvakuutus.'
+  verified: 'September 2026'
+
+content_html: |
+  <h2>Mitä CE-sertifiointi on?</h2>
+  <p>CE-merkintä osoittaa, että tuote täyttää EU:n terveys-, turvallisuus- ja ympäristövaatimukset. Puhallettavien vesialusten kohdalla sovellettava sääntelykehys riippuu tuoteluokasta.</p>
+
+  <h2>Sovellettavat direktiivit</h2>
+
+  <h3>Vapaa-ajan veneitä koskeva direktiivi (2013/53/EU)</h3>
+  <p>Päädirektiivi useimmille puhallettaville veneille, SUP-laudoille ja kajakoille. Sitä sovelletaan vapaa-ajan veneisiin, joiden rungon pituus on 2.5–24 m, osittain valmiisiin veneisiin (OEM-toimitukseen) ja henkilökohtaisiin moottoriveneisiin.</p>
+
+  <h3>Henkilönsuojainasetus (2016/425)</h3>
+  <p>Vesialusten mukana toimitettavien pelastusliivien, kelluntavälineiden ja turvallisuusvarusteiden on täytettävä PPE-asetuksen vaatimukset, mukaan lukien ilmoitetun laitoksen suorittama tyyppitarkastus (moduuli B) sekä tuotannon laadunvarmistus (moduuli D tai E).</p>
+
+  <h2>Sertifiointiprosessi</h2>
+  <ol>
+    <li>Tuoteluokitus: määritä veneen suunnitteluluokka (A – D ISO 8666 mukaisesti)</li>
+    <li>Sovellettavat standardit: EN ISO 6185 (osat 1 – 4), EN ISO 10087 (HIN), EN ISO 14945 (valmistajan kilpi)</li>
+    <li>Teknisen tiedoston laatiminen: suunnittelupiirustukset, materiaaliluettelo, materiaalitodistukset, riskinarviointi</li>
+    <li>Tyyppitestit: kelluvuus, vakaus, kantavuus, materiaalitestit, sauman lujuus, ilman säilyminen</li>
+    <li>Tuotannon laadunvalvonta: ilmoitetun laitoksen auditointi valmistusprosesseista</li>
+    <li>Vaatimustenmukaisuusvakuutus: valmistaja allekirjoittaa DoC:n ja kiinnittää CE-merkinnän</li>
+  </ol>
+
+  <h2>Ilmoitetut laitokset puhallettaville vesialuksille</h2>
+  <p>Yleisiä ilmoitettuja laitoksia ovat Bureau Veritas (Ranska), DNV GL (Saksa), RINA (Italia), T&Uuml;V Rheinland / T&Uuml;V S&Uuml;D (Saksa).</p>
+
+  <h2>Aikataulu ja kustannukset</h2>
+  <table class="w-full text-sm border-collapse">
+    <thead>
+      <tr class="bg-gray-100">
+        <th class="p-3 text-left font-semibold text-gray-900 border">Vaihe</th>
+        <th class="p-3 text-left font-semibold text-gray-900 border">Kesto</th>
+        <th class="p-3 text-left font-semibold text-gray-900 border">Tyypillinen kustannus (EUR)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td class="p-3 border">Tekninen tiedosto</td><td class="p-3 border">2 – 4 viikkoa</td><td class="p-3 border">2,000 – 5,000</td></tr>
+      <tr><td class="p-3 border">Tyyppitestit</td><td class="p-3 border">4 – 8 viikkoa</td><td class="p-3 border">8,000 – 20,000</td></tr>
+      <tr><td class="p-3 border">Tehtasauditointi</td><td class="p-3 border">1 – 2 päivää (paikan päällä)</td><td class="p-3 border">3,000 – 6,000</td></tr>
+      <tr><td class="p-3 border">Yhteensä (ensimmäinen tuote)</td><td class="p-3 border">8 – 14 viikkoa</td><td class="p-3 border">13,000 – 31,000</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Mitä tämä tarkoittaa ostajille</h2>
+  <p>Kun ostat CE-sertifioituja puhallettavia lautoja, varmista aina, että CE-merkintä on valmistajan kilvellä, voimassa oleva DoC on olemassa, ilmoitetun laitoksen numero on lueteltu ja käyttöohjeessa on turvaohjeet paikallisella kielelläsi. Kaikki Vatradin tuotteet kantavat CE-sertifiointia täydellä jäljitettävyydellä ilmoitettujen laitosten auditointiraportteihin.</p>
+  <p>Sertifiointi kuuluu jokaiseen tuotantoerään Qingdaon laitoksellamme — katso <a href="/fi/factory">tehtaan laatu- ja testimenettely</a> sekä miten tukemme <a href="/fi/oem-manufacturing">OEM- ja private label -kumppanien CE-vaatimustenmukaisuutta</a>.</p>
+
+cta:
+  title: 'Tarvitsetko CE-sertifioinnin tukea?'
+  subtitle: 'Hoidamme sertifioinnin OEM-kumppaneille ympäri maailmaa.'
+  button_text: 'Aloita sertifiointiprosessi'
+  button_link: /fi/contact

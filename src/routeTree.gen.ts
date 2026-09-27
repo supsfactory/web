@@ -30,6 +30,7 @@ import { Route as SitemapNlDotxmlRouteImport } from './routes/sitemap-nl[.]xml'
 import { Route as SitemapNewsDotxmlRouteImport } from './routes/sitemap-news[.]xml'
 import { Route as SitemapItDotxmlRouteImport } from './routes/sitemap-it[.]xml'
 import { Route as SitemapFrDotxmlRouteImport } from './routes/sitemap-fr[.]xml'
+import { Route as SitemapFiDotxmlRouteImport } from './routes/sitemap-fi[.]xml'
 import { Route as SitemapEsDotxmlRouteImport } from './routes/sitemap-es[.]xml'
 import { Route as SitemapDeDotxmlRouteImport } from './routes/sitemap-de[.]xml'
 import { Route as SitemapDaDotxmlRouteImport } from './routes/sitemap-da[.]xml'
@@ -240,6 +241,11 @@ const SitemapItDotxmlRoute = SitemapItDotxmlRouteImport.update({
 const SitemapFrDotxmlRoute = SitemapFrDotxmlRouteImport.update({
   id: '/sitemap-fr.xml',
   path: '/sitemap-fr.xml',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const SitemapFiDotxmlRoute = SitemapFiDotxmlRouteImport.update({
+  id: '/sitemap-fi.xml',
+  path: '/sitemap-fi.xml',
   getParentRoute: () => rootRouteImport,
 } as any)
 const SitemapEsDotxmlRoute = SitemapEsDotxmlRouteImport.update({
@@ -827,6 +833,7 @@ export interface FileRoutesByFullPath {
   '/sitemap-da.xml': typeof SitemapDaDotxmlRoute
   '/sitemap-de.xml': typeof SitemapDeDotxmlRoute
   '/sitemap-es.xml': typeof SitemapEsDotxmlRoute
+  '/sitemap-fi.xml': typeof SitemapFiDotxmlRoute
   '/sitemap-fr.xml': typeof SitemapFrDotxmlRoute
   '/sitemap-it.xml': typeof SitemapItDotxmlRoute
   '/sitemap-news.xml': typeof SitemapNewsDotxmlRoute
@@ -942,6 +949,7 @@ export interface FileRoutesByTo {
   '/sitemap-da.xml': typeof SitemapDaDotxmlRoute
   '/sitemap-de.xml': typeof SitemapDeDotxmlRoute
   '/sitemap-es.xml': typeof SitemapEsDotxmlRoute
+  '/sitemap-fi.xml': typeof SitemapFiDotxmlRoute
   '/sitemap-fr.xml': typeof SitemapFrDotxmlRoute
   '/sitemap-it.xml': typeof SitemapItDotxmlRoute
   '/sitemap-news.xml': typeof SitemapNewsDotxmlRoute
@@ -1057,6 +1065,7 @@ export interface FileRoutesById {
   '/sitemap-da.xml': typeof SitemapDaDotxmlRoute
   '/sitemap-de.xml': typeof SitemapDeDotxmlRoute
   '/sitemap-es.xml': typeof SitemapEsDotxmlRoute
+  '/sitemap-fi.xml': typeof SitemapFiDotxmlRoute
   '/sitemap-fr.xml': typeof SitemapFrDotxmlRoute
   '/sitemap-it.xml': typeof SitemapItDotxmlRoute
   '/sitemap-news.xml': typeof SitemapNewsDotxmlRoute
@@ -1175,6 +1184,7 @@ export interface FileRouteTypes {
     | '/sitemap-da.xml'
     | '/sitemap-de.xml'
     | '/sitemap-es.xml'
+    | '/sitemap-fi.xml'
     | '/sitemap-fr.xml'
     | '/sitemap-it.xml'
     | '/sitemap-news.xml'
@@ -1290,6 +1300,7 @@ export interface FileRouteTypes {
     | '/sitemap-da.xml'
     | '/sitemap-de.xml'
     | '/sitemap-es.xml'
+    | '/sitemap-fi.xml'
     | '/sitemap-fr.xml'
     | '/sitemap-it.xml'
     | '/sitemap-news.xml'
@@ -1404,6 +1415,7 @@ export interface FileRouteTypes {
     | '/sitemap-da.xml'
     | '/sitemap-de.xml'
     | '/sitemap-es.xml'
+    | '/sitemap-fi.xml'
     | '/sitemap-fr.xml'
     | '/sitemap-it.xml'
     | '/sitemap-news.xml'
@@ -1521,6 +1533,7 @@ export interface RootRouteChildren {
   SitemapDaDotxmlRoute: typeof SitemapDaDotxmlRoute
   SitemapDeDotxmlRoute: typeof SitemapDeDotxmlRoute
   SitemapEsDotxmlRoute: typeof SitemapEsDotxmlRoute
+  SitemapFiDotxmlRoute: typeof SitemapFiDotxmlRoute
   SitemapFrDotxmlRoute: typeof SitemapFrDotxmlRoute
   SitemapItDotxmlRoute: typeof SitemapItDotxmlRoute
   SitemapNewsDotxmlRoute: typeof SitemapNewsDotxmlRoute
@@ -1702,6 +1715,13 @@ declare module '@tanstack/react-router' {
       path: '/sitemap-fr.xml'
       fullPath: '/sitemap-fr.xml'
       preLoaderRoute: typeof SitemapFrDotxmlRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/sitemap-fi.xml': {
+      id: '/sitemap-fi.xml'
+      path: '/sitemap-fi.xml'
+      fullPath: '/sitemap-fi.xml'
+      preLoaderRoute: typeof SitemapFiDotxmlRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/sitemap-es.xml': {
@@ -2550,6 +2570,7 @@ const rootRouteChildren: RootRouteChildren = {
   SitemapDaDotxmlRoute: SitemapDaDotxmlRoute,
   SitemapDeDotxmlRoute: SitemapDeDotxmlRoute,
   SitemapEsDotxmlRoute: SitemapEsDotxmlRoute,
+  SitemapFiDotxmlRoute: SitemapFiDotxmlRoute,
   SitemapFrDotxmlRoute: SitemapFrDotxmlRoute,
   SitemapItDotxmlRoute: SitemapItDotxmlRoute,
   SitemapNewsDotxmlRoute: SitemapNewsDotxmlRoute,

@@ -1,0 +1,135 @@
+meta:
+  title: 'Private label -tukkujakelu jakelijoille | {SITE}'
+  description: 'Tehtaan suorista private label - ja tukkujakeluohjelmista jakelijoille ja vähittäiskaupoille: yksinoikeusalueet, white label -SUP-valmistus sekä omistettu tilinhoitajapalvelu.'
+  dateModified: '2026-09'
+
+hero:
+  tagline: Jakelijat & Private label
+  title: 'Tehtaan suorat ohjelmat jakelijoille ja brändeille'
+  subtitle: 'Tukku- ja private label -ohjelmat puhallettavien SUP-laudojen valmistuslaitteelta. Osta tehtaan suorilla hinnoilla, rakenna valikoima omalla brändilläsi ja lähetä yksinoikeusalueille yli 50 maassa.'
+  image:
+    src: https://assets.isupfactory.com/images/sups/factory/isupfactory-factory-building.webp
+    alt: iSupfactoryn valmistus- ja lähetystoiminta
+
+answer:
+  label: 'Suora vastaus'
+  text: 'Jakelijat ja brändit toimivat suoraan tehtaan kanssa: white label -SUP-laudat rakennetaan brändisi alla, hinnat ovat tehtaan suoria tukkuhintoja, jokaisessa ohjelmassa on yksinoikeusalue, aloitukseen 3–8 SKU:ta ja 45–60 päivän maksuehdot (kaikki kaupallisen sopimuksen alaisuudessa), ja 100 % varasto testataan paineella ennen lähetystä. Vähimmäisaloitusmäärät ja rahtiehdot sovitaan aluekohtaisesti, toimitus FOB Qingdao tai CIF.'
+  verified: 'September 2026'
+
+intro:
+  tagline: Tietoa ohjelmasta
+  title: 'Private label -jakelu, rakennettu valmistuskapasiteetin päälle'
+  body: |
+    iSupfactory suunnittelee, valmistaa ja laaduntestaa jokaisen puhallettavan SUP-laudan, kajakin ja lisävarusteen omassa laitoksessaan Qingdaon Laixissa. Meidän kanssa solmittu private label -sopimus tarkoittaa, että toimituksen lähde rakentuu osaksi brändiäsi: saat laudat, jotka tehtaan valmistuksessa on tehty omalla nimelläsi, et toisen jakelijan varastotavaraa.
+
+    Koska suunnittelemme tuotannon asiakkaidemme ennusteiden ympäri, voimme ajoittaa suuret erät pohjoisen pallonpuoliskon kauden alkuun, vakauttaa rahtikustannuksia ennakkotilauksilla ja vapauttaa käyttöpääomaa läpinäkyvillä tukkuehdoilla sekä sovitulla maksuaikataululla. Suunnittelu, näytteenotto, laadunvalvonta ja vientidokumentaatio hoidetaan kaikki omassa talossa — ketjussa ei ole välittäjää eikä kauppavälittäjää.
+
+    Tämä ohjelma on kaksi tapaa tehdä yhteistyötä tehtaan kanssa. Jos kannatat omaa tukkubrändiäsi ja haluat sen valmistavan sinulle, tämä sivu on sinulle. Lomakeskukset, koulutuskeskukset ja vuokrauslaivastot, jotka ostavat suoraan omaan käyttöönsä, kannattaa ohjata OEM/ODM-valmistuksen ja laivasto-ohjelmien pariin.
+
+wholesale_pricing:
+  tagline: Miksi liittyä
+  title: 'Mitä jakelijat saavat'
+  subtitle: 'Kaikki mitä tarvitset brändätyn valikoiman lanseeraamiseen omalla markkina-alueellasi.'
+  intro: 'Jakelukumppanit saavat saman tehtaan laadun ja suunnittelun syvyyden, jotka toimitamme OEM/ODM-brändeille, pakatattuna tukkukanavalle heidän oman etikettinsä alla. Ohjelmaehdot — alueen yksinoikeus, aloittavan SKU-valikoiman laajuus ja maksuehdot — vahvistetaan ohjelma kohtaisesti kaupallisessa sopimuksessa.'
+  stats:
+    - value: '50+'
+      label: 'Lähetettyä maata'
+    - value: '1'
+      label: 'Omistettu tilinhoitaja'
+    - value: '45–60'
+      label: 'Päivän maksuehto'
+    - value: '120,000+'
+      label: 'Laudan vuotuinen kapasiteetti'
+    - value: '3–8'
+      label: 'SKU:ta ohjelman aloittamiseen'
+    - value: '100%'
+      label: 'Tehtaassa testattu ennen lähetystä'
+
+steps:
+  tagline: Näin se toimii
+  title: 'Polku hakemuksesta ensimmäiseen konttiin'
+  subtitle: 'Selkeä monivaiheinen käyttöönottoprosessi, jotta brändätyksesi ohjelma lähtee liikkeelle ajallaan ensimmäisen kauden aikana.'
+  steps:
+    - step: 1
+      title: Hae
+      desc: 'Lähetä jakelijahakemus yritysprofiilisi, nykyisen tukkuliikevaihtosi ja alueesi kanssa.'
+    - step: 2
+      title: Alueen kartoitus
+      desc: 'Vahvistamme, mitkä maat tai alueet brändiohjelmasi kattaa ja onko alue yksinoikeutettu.'
+    - step: 3
+      title: Valikoima- ja brändisuunnitelma
+      desc: 'Valitse perusmallisi valmistusluettelosta, lukitse määritykset ja viimeistele brändisi tuotantoasiakkuaineet.'
+    - step: 4
+      title: Näyte- ja laaduhyväksyntä
+      desc: 'Tilaa sertifiointinäytteet testataksesi laatua, pakkausta ja suoratoimituskäsittelyä. Näytteet hyväksytään ennen massatuotannon alkua.'
+    - step: 5
+      title: Kausitäydennys
+      desc: 'Tilinhoitajasi ajoittaa tuotannon ja täydennyksen ennusteesi ja kausikalenterin mukaan.'
+
+benefits:
+  title: Mitä jakelijat saavat
+  subtitle: 'Kaikki mitä tarvitset menestyäkseen markkina-alueellasi.'
+  items:
+    - 'Private label omalla brändilläsi (OEM white label)'
+    - 'Yksinoikeusalueet (kaupallisen sopimuksen mukaan)'
+    - 'Valmistusluettelo: SUP-laudat, lisävarusteet, osat'
+    - 'Kilpailukykyiset tehtaan suorat hinnat'
+    - 'Markkinointi- ja myyntimateriaalit (käännetty)'
+    - 'Koulutusohjelma (tuote, myynti, huolto)'
+    - 'Messutuki'
+    - 'Näyte- ja esituotantohyväksyntäohjelma'
+    - 'Suoratoimitusmahdollisuus'
+    - 'Omistettu jakelijoiden tilinhoitaja'
+    - '45-60 päivän maksuehdot (kaupallisen sopimuksen alaisuudessa)'
+
+coverage:
+  title: Nykyinen jakelu
+  subtitle: 'iSupfactory lähettää tällä hetkellä suoraan näille markkinoille.'
+  regions:
+    - name: Eurooppa
+      countries: 'Ranska, Saksa, Yhdistynyt kuningaskunta, Espanja, Italia, Alankomaat, Ruotsi, Norja, Puola, Kreikka'
+    - name: Aasia
+      countries: 'Japani, Etelä-Korea, Kiina, Thaimaa, Singapore'
+    - name: Lähi-Itä
+      countries: 'Yhdistyneet arabiemiirikunnat, Saudi-Arabia'
+    - name: Amerikka
+      countries: 'Yhdysvallat, Kanada, Brasilia, Meksiko'
+    - name: Oseania
+      countries: 'Australia, Uusi-Seelanti'
+    - name: Afrikka
+      countries: 'Etelä-Afrikka, Marokko'
+
+faqs:
+  tagline: Jakelijoiden UKK
+  title: 'Tukkujakeluohjelma — usein kysytyt kysymykset'
+  items:
+    - q: 'Mikä on uuden jakelijan vähimmäistilaus?'
+      a: 'Uudet jakelukumppanit aloittavat yleensä näyte- ja esituotantohyväksyntätilauksella, minkä jälkeen ensimmäinen kontti ajoitetaan heidän kaudelleen. Tarkat vähimmäismäärät riippuvat alueen koosta ja valitusta valikoimasta; tilinhoitajasi vahvistaa aloitusmäärän valikoima- ja brändisuunnittelun yhteydessä.'
+    - q: 'Voimmeko myydä laudat omalla brändillämme?'
+      a: 'Kyllä. Private label on tässä vakiomalli: laudat valmistetaan brändisi alla omilla asiakkuaineillasi, pakkauksillasi ja määrityksilläsi. iSupfactory valmistaa yksinomaan asiakkailleen eikä kilpaile heidän kanssaan millään markkina-alueella.'
+    - q: 'Ovatko alueet yksinoikeutettuja?'
+      a: 'Kyllä. Jakeluohjelmat rakentuvat yksinoikeusalueille — jokainen tukkukumppani vastaa määritetystä maasta tai alueesta ja saa kyseiselle markkinalle hinnoittelun ja ohjelmatuen kaupallisen sopimuksen mukaisesti.'
+    - q: 'Tuketteko suoratoimitusta?'
+      a: 'Suoratoimitusmahdollisuus kuuluu ohjelmaan. Näytteet, pakkaus ja käsittely validoidaan näytehyväksymisvaiheessa, jotta suoratoimitustilaukset toimivat suoraan alusta asti.'
+    - q: 'Mitä malleja voimme tilata?'
+      a: 'Valmistusluettelo kattaa puhallettavat SUP-laudat allround-, touring- ja surf-muodoissa, puhallettavat kajakit, pumput, melanat, pelastusliivit ja hoitoon liittyvät lisävarusteet sekä insinööritiimimme kanssa kehitetyt muodot. Useimmat kumppanit aloittavat 4–8 myydyimmästä SKU:sta ja laajentavat valikoimaa myöhemmin kausina.'
+    - q: 'Miten tilaukset lähetetään?'
+      a: 'Tilaukset lähtevät tehtaalta ajastetuin laivavuoroin, ja ennakkotilaus on mahdollista rahtikustannusten vakauttamiseksi. Omistettu tilinhoitajasi suunnittelee tuotannon ja lähetyksen ennusteesi ja kausikalenterin mukaan.'
+    - q: 'Miten haen?'
+      a: 'Käytä tämän sivun hakemuslomaketta tai ota yhteyttä suoraan. Jakelutiimi käsittelee hakemukset, ja vastaamme seuraavilla toimilla, mukaan lukien alueen kartoituksen ja sopimusluonnoksen, muutaman työpäivän kuluessa.'
+
+content_html: |
+  <div class="mx-auto max-w-3xl space-y-4 rounded-2xl border bg-card p-6 text-[14.5px] leading-relaxed text-fg-2">
+    <p><strong>Lue lisää:</strong> jakelukumppanit kantavat lautoja, jotka on valmistettu heille omalla brändillään — tutustu <a href="/fi/oem-manufacturing">OEM/private label -valmistusohjelmaan</a> ja <a href="/fi/factory">tehtaan laadunvarmistusprosessiin</a>, jotta voit määrittää tuotteen luotettavasti.</p>
+  </div>
+
+cta:
+  title: 'Valmis lanseeraamaan brändätyn valikoimasi?'
+  subtitle: 'Hae jakeluohjelmaan tai selaa valmistusluetteloa.'
+  actions:
+    - text: 'Hake jakeluohjelmaan'
+      href: '/fi/contact#distributor'
+      variant: 'primary'
+    - text: 'Selaa valmistusluetteloa'
+      href: '/fi/products'
+      variant: 'secondary'

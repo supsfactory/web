@@ -1,0 +1,166 @@
+meta:
+  title: 'OEM-luottamus ja tehtaan varmennus — varmenna tehtaamme ennen tilausta'
+  description: 'Näin ostajat varmennavat iSupfactoryn ennen tilausta: virallinen rekisteröinti, tehtaasaudit, insinöörit NDA:n alla sekä kolmansien osapuolten tarkastukset (SGS/TUV/BV/Intertek).'
+  dateModified: '2026-08-14'
+  keywords:
+    - 'SUP OEM -tehtaan varmennus'
+    - 'varmenna SUP-valmistaja'
+    - 'SUP-tehtaan audit Kiinassa'
+    - 'puhallettava SUP -tehdas Qingdaossa'
+    - 'OEM-luottamuksen varmennus'
+    - 'SUP-valmistajan pätevyys'
+
+hero:
+  tagline: 'Valmistus, jonka voit varmentaa'
+  title: 'OEM-luottamus ja tehtaan varmennus'
+  subtitle: 'Jokainen väite tällä sivustolla voidaan varmentaa: virallinen yritysrekisteröinti, fyysinen 12,500 m² tehdas, jonka voit vierailla tai auditoida, aidot insinöörit NDA:n alla, ladattavat QMS-asiakirjat sekä sarjanumeroon kirjattavat mittaustulokset. Suunniteltu ja ylläpidetty: Qingdao Vatrad Group Co., Ltd.'
+
+answer:
+  label: 'Suora vastaus'
+  text: 'Luottamus ei ole lupaus — se on asiakirja. Olemme rekisteröity kiinalainen valmistusyritys (Qingdao Vatrad Group Co., Ltd.), jolla on Qingdaossa fyysinen 12,500 m² tehdas, 350+ työntekijää ja 120,000+ laudan vuotuinen kapasiteetti. Voit varmentaa rekisteröinnin, auditoida tehtaan, käydä läpi QMS-sopimukset, ladata näytteitä laadunmittauspöytäkirjoista, tilata kolmansien osapuolten tarkastuksia (SGS, TUV, BV tai Intertek) ja saada NDA:n allekirjoitettuna 4 tunnin kuluessa. Jokainen lauta paineistetaan 18.0 PSI:n paineella 24 tunniksi ja hylätään automaattisesti, jos paine laskee yli 0.50 PSI, ja jokainen erä säilytetään 10 vuoden ERP-jäljitettävyyden alla. Jos väitettä ei voi dokumentoida, emme esitä sitä.'
+  verified: 'September 2026'
+
+trust_stats:
+  - value: '12,500 m²'
+    label: Tehtaan pinta-ala
+    detail: 4 erikoistettua työpajaa, avoinna auditeille
+  - value: '350+'
+    label: Työntekijöitä laitoksella
+    detail: 25+ insinööriä T&k:ssa, materiaaleissa ja laadunvarmistuksessa
+  - value: '120,000+'
+    label: Vuodessa valmistettua lautaa
+    detail: 10,000 lautaa/kk 4 automaattisella linjalla
+  - value: '4 tuntia'
+    label: NDA:n kiertoaika
+    detail: Vakiintunut NDA allekirjoitetaan 4 työajan tunnin kuluessa
+  - value: '7-vaiheinen'
+    label: Laadunporttijärjestelmä
+    detail: Solmu 01—7, kirjataan sarjanumeron mukaan
+  - value: '18.0 PSI'
+    label: 100 % painekoetus
+    detail: 24 h paine, automaattinen hylkäys yli 0.50 PSI:n laskun yli
+
+role_boundary:
+  tagline: 'Mitä olemme — ja mitä emme ole'
+  title: 'Tehdas, jonka voit varmentaa, koskaan väite, johon sinun on uskottava'
+  subtitle: 'Ero tehtaan ja kauppapöydän välillä on yksinkertainen: jokaisen väitteen takana on asiakirja, henkilö tai kone.'
+  features:
+    - icon: A
+      icon_bg: blue
+      title: 'Mitä olemme — varmennettava valmistaja'
+      desc: '· Rekisteröity juridinen yksikkö: Qingdao Vatrad Group Co., Ltd. — rekisteröintitiedot jaetaan NDA:n alla tai auditin yhteydessä · Fyysinen tehdas: 12,500 m² Qingdaon Laixin talousalueella, 4 erikoistettua työpajaa, 350+ työntekijää ja 4 automaattista linjaa · Valmistustiimi: henkilöt, jotka vastaavat kysymyksiisi, ovat niitä, jotka rakentavat lautasi · Todelliset asiakirjat: QMS-sopimukset, tarkastusstandardit ja anonymisoidut laadunmittauspöytäkirjat ladattavissa · Riippumaton varmennus tervetullut: SGS-, TUV-, BV- tai Intertek-tarkastukset haluamallasi tavalla, ISO 2859-1 Level II mukaisesti'
+      link: '/fi/factory'
+      link_label: 'Katso tehtaansivu'
+    - icon: B
+      icon_bg: green
+      title: 'Mitä emme ole — kauppapöydän profiili'
+      desc: '· Ei kauppayritystä: emme välitä tilaustasi kolmannelle tehtaalle emmekä lisää välittäjän marginaalia · Ei omaa brändiä laudoissasi: sinulle kuuluu brändi, markkina ja asiakas · Ei epämääräisiä minimimääriä: MOQ lasketaan raaka-ainerullan fysiikasta ja vahvistetaan projektikohtaisesti · Ei "vain pyydettäessä" todistuksia: luettelo on julkinen ja auditointikirjat voidaan tarkastella · Ei suullisia väitteitä: koepaine, raja-arvot ja erien jäljitettävyys dokumentoidaan sarjanumeron mukaan'
+      link: '/fi/oem-moq-guide'
+      link_label: 'Katso avoin MOQ-opas'
+
+trust_steps:
+  tagline: 'Todellinen tapaustutkimus'
+  title: 'Näin Pohjois-Euroopan vuokrauslaite tarkisti meidät ennen tilausta'
+  subtitle: 'Seitsemän varmennusvaihetta, jotka kaupallinen vuokrausoperaattori suoritti ennen 90–100+ kappaleen laite-erän tilausta — sama tarkistuslista on avoinna sinulle.'
+  steps:
+    - step: '01'
+      title: 'Virallisen yksikön varmennus'
+      desc: 'Ostaja pyysi kiinalaisen yritysrekisteröinnin ja vientilupa-asetuksen. iSupfactoryn takana oleva juridinen yksikkö on Qingdao Vatrad Group Co., Ltd., Qingdaossa Shandongissa vuodesta 2012 lähtien rekisteröity valmistaja — varmennettiin kansallisesta rekisteristä NDA:n alla.'
+    - step: '02'
+      title: 'Fyysinen tehdas ja auditointi paikan päällä'
+      desc: 'Tehtasauditointi (paikan päällä ja videokierroksen kautta) vahvisti 12,500 m² laitoksen: neljä erikoistettua työpajaa, 350+ työntekijää, neljä automaattista linjaa ja noin 10,000 laudan kuukausitulokset. Auditointiraportti arkistoidaan sopimusasiakirjojen mukaan.'
+    - step: '03'
+      title: 'Ihmiset: aitoja insinöörejä, ei myyntitekstejä'
+      desc: 'Ostaja keskusteli suoraan insinööritiimin kanssa — rungonsuunnittelu, materiaalilaboratorio ja laadunvarmistus. Projektiselvitys ja NDA vaihdettiin 4 työajan tunnin kuluessa, ja insinöörikatsaus palautui yhden työpäivän kuluessa.'
+    - step: '04'
+      title: 'Paperit: QMS, todistukset ja kolmansen osapuolen tarkastus'
+      desc: 'ISO 9001:2015, ISO 25649 ja CE -vaatimustenmukaisuusasiakirjat, BSCI/REACH/RoHS-kirjat sekä QMS-sopimukset käytiin läpi. Ostaja ajoitti SGS:n esilähetystarkastuksen ISO 2859-1 Level II mukaisesti ensimmäiselle volyymitilaukselle — ja sai vaatimustenmukaisuustodistuksen jokaiselle erälle.'
+    - step: '05'
+      title: 'Data: mittauskirjat sarjanumeron mukaan'
+      desc: 'Ostaja auditoi todelliset mittauskirjat: jokainen kammio testattiin 18.0 PSI:n paineella 24 tuntia ja hylättiin automaattisesti yli 0.50 PSI:n paineen laskun yli, kokoonpanolle 100 kohdan tarkistuslistat sekä 10 vuoden ERP-erien jäljitettävyys. Näytteet laadunvarmistuskirjoista toimitettiin ennen tilausta.'
+    - step: '06'
+      title: 'Sopimuksen suoja'
+      desc: 'Tilaussopimus käsitti brändilisenssin, sovittujen alueiden yksinoikeusjakson, muovien omistajuuden ja lunastusehdot sekä määritteli työkaluston mukana siirtyvät tiedot ja kirjat. Ostaja hyväksyi muovan tehtaalla ennen tuotantoa.'
+    - step: '07'
+      title: 'Jatkuva ohjaus'
+      desc: 'Kvartaalittaiset liiketoimintakatsaukset myyntijohtajan ja pääinsinöörin kanssa, varattu oikeus auditoida tuotannon aikana sekä eskalointipolku laadunvarmistusjohtajalle kaikissa laatuvaikutimuksissa. Sopimuksen allekirjoittivat yhteisesti myyntijohtaja, pääinsinööri ja laadunvarmistusjohtaja.'
+
+trust_faqs:
+  tagline: 'UKK'
+  title: 'Ne 12 huolenaihetta, joita ostajat esittävät ennen tilausta'
+  items:
+    - q: 'Onko iSupfactory oikeasti tehdas vai kauppayritys?'
+      a: 'iSupfactory on Qingdao Vatrad Group Co., Ltd:n SUP-tuotekehitys- ja valmistusosasto. Käytämme itse Qingdaon 12,500 m² laitosta — suunnittelu, leikkaus, hitsaus, kokoonpano ja testaus tapahtuvat yhdessä toimipisteessä. Kauppayrityksen kautta ei siirretä mitään: henkilöt, jotka vastaavat kysymyksiisi, ovat niitä, jotka rakentavat lautasi.'
+    - q: 'Kenen kanssa tarkalleen olen tekemisissä projektini aikana?'
+      a: 'Nimetty projekti-insinööri ja nimetetty laadunvarmistusyhteyshenkilö sekä ne osastonjohtajat, jotka allekirjoittavat asiakirjasi. Voit pyytää puhumaan suoraan pääinsinöörin, laadunvarmistusjohtajan tai tehtaanjohtajan kanssa — sekä ennen tilausta että sen jälkeen. Työntekijöiden ja sinun välissä ei ole asiakaspalvelukerrosta.'
+    - q: 'Voinko vierailla tehtaalla tai auditoida sen?'
+      a: 'Kyllä. Järjestämme tehtasvierailuja Qingdaon Laixin talousalueella ja tuemme etäauditointeja suoralla videokierroksella. Auditointi voidaan järjestää riippumattomasti (oma tarkastajasi tai kolmas osapuoli, kuten SGS, TUV, BV tai Intertek), ja auditointiaikataulu voidaan kirjata sopimukseen.'
+    - q: 'Allekirjoitatteko NDA:n ennen kuin jaan suunnitteluni?'
+      a: 'Kyllä. Vakiintunut NDA allekirjoitetaan 4 työajan tunnin kuluessa pyynnöstäsi ja ennen kuin mitään luottamuksellista erittelyä, kuvitusta tai teknistä tiedostoa jaetaan. Kaksikieliset (englanti/kiina) versiot ovat saatavilla, ja tehtaanjohtaja vahvistaa allekirjoituksellaan asiakirjan.'
+    - q: 'Mistä tiedän, että laatuväitteenne ovat tosia?'
+      a: 'Jokaisen väitteen takana tällä sivustolla on asiakirja: QMS-sopimukset ja tarkastusstandardit ovat ladattavissa, anonymisoituja laadunmittauspöytäkirjojen näytteitä on julkaistu, ja mittausdata kirjataan sarjanumeron mukaan 10 vuoden ERP-erien jäljitettävyyden kautta. Voit myös tilata haluamasi kolmansen osapuolen esilähetystarkastuksen.'
+    - q: 'Mitä tapahtuu, jos laudat saapuvat vikoina?'
+      a: 'Jokainen lauta testataan ennen pakkausta, ja erätason kirjat mahdollistavat juurisyyn jäljittämisen sarjanumeron mukaan. Sopimus määrittelee tarkastus-, vaihto- ja korjausvelvoitteet, ja laadunvarmistusjohtaja allekirjoittaa erän vapautuksen. Korjatut laudat testataan uudelleen kokonaisuudessaan — ei koskaan vain osittain.'
+    - q: 'Voitteko oikeasti testata 100 % laudoista ennen lähetystä?'
+      a: 'Kyllä — ja kirjat todistavat sen. Jokainen kammio täytetään 18.0 PSI:n paineeseen ja pidetään 24 tuntia jatkuvalla anturiloggauksella; kaikki kammiot, joissa 24 tunnin paineen lasku ylittää 0.50 PSI, hylätään automaattisesti ja tarkastetaan uudelleen. Mittauskirjat on linkitetty jokaiseen sarjanumeroon ja ne ovat osa erän asiakirjoja.'
+    - q: 'Mitä sertifikaatteja teillä oikeesti on?'
+      a: 'ISO 9001:2015 -laadunjohto, ISO 25649 ja CE -vaatimustenmukaisuus puhallettaville SUP-tuotteille sekä BSCI-, REACH- ja RoHS-vaatimustenmukaisuus laitokselle ja materiaaleille. Todistusnumerot ja auditointikirjat toimitetaan pyydettäessä tai auditin yhteydessä — luettelo on julkinen, ei "vain pyydettäessä saatavilla".'
+    - q: 'Onko brändini turvassa — suunnittelu, muovat ja markkina?'
+      a: 'Kyllä. Brändisi, suunnittelusi ja työkalustosi on suojattu NDA:lla, brändilisenssiehdoilla sekä sopimukseen kirjatuilla muovien omistajuus- ja lunastusehdoilla. Työkalusto säilytetään brändin käyttöön ja se on siirrettävissä. Alue- ja yksinoikeusehdot sovitaan kirjallisesti ennen tuotannon alkaa.'
+    - q: 'Mikä on oikea minimitilauksenne?'
+      a: 'MOQ on projektikohtainen ja käsitelty MOQ-oppaassamme: näytteet 1–2 kpl, pieni co-branding-erä 5–10 kpl, pilottierät 20–50 kpl ja vakiomäärä 90–100+ kpl 150 m rullaa kohti (noin 180–220 lautaa). Erikoismuotoiset mallit valmistetaan volyymitasolla. Laskelma vahvistetaan ennen tarjousta — ei epämääräisiä "matalan MOQ":n lukuja.'
+    - q: 'Mitä tapahtuu, jos tuotanto viivästyy?'
+      a: 'Toimitusaika vahvistetaan erittelyn, kuvituksen ja pakkauksen tarkastuksen jälkeen — ei koskaan lupausta etukäteen. Sopimus kattaa aikataulun, viivästysilmoituksen ja ratkaisupolut, ja kvartaalittainen liiketoimintakatsaus seuraa toimitustuloksia sovittuun aikatauluun nähden.'
+    - q: 'Kuka allekirjoittaa sopimusasiakirjat puoleltanne?'
+      a: 'Tilaukset ja sopimukset allekirjoittavat yhteisesti myyntijohtaja, pääinsinööri ja laadunvarmistusjohtaja — kolme henkilöä, jotka ovat vastuussa kaupallisista ehdoista, insinööritoteutuksesta ja laadunvapautuksesta. Saat allekirjoitetut asiakirjat sopimusasiakirjojen mukana.'
+
+governance:
+  tagline: 'Vastuuosuus'
+  title: 'Nimetyn allekirjoittajat ja varatut oikeudet'
+  subtitle: 'Jokainen sitoumus on sidottu nimettyyn rooliin — ei myyntiosastoon.'
+  body: |
+    **Yhteis Allekirjoitus.** Tilaukset, laatu-suunnitelmat ja riitat ratkaistaan allekirjoittavat kolme roolia: myyntijohtaja (kaupalliset ehdot), pääinsinööri (insinööritoteutus) ja laadunvarmistusjohtaja (laadunvapautus). Kaksikieliset SOP-aineisto on versiohallittu ja siinä on sama allekirjoitusrakenne.
+
+    **Varatut oikeudet.** Ostajalla säilyy oikeus auditoida tuotantoa, tarkastella mittauskirjoja ja pidätellä erän vapautusta, kunnes tarkastus on hyväksytty. Korjaus tapahtuu vain hyväksytyn muutoskirjan alla, ja vapautuksen validoi riippumaton laadunvarmistus — ei koskaan korjausta tekevät työntekijät.
+
+    **Siirtyvät kirjat.** Erän mittauslokit, vaatimustenmukaisuustodistukset ja tarkastusraportit toimitetaan jokaisen lähetyksen mukana, ja ERP-erien jäljitettävyys säilytetään 10 vuotta. Työkalustokirjat ja muovapiirrokset siirtyvät työkaluston mukana, kun sopimus näin määrää.
+
+trust_downloads:
+  tagline: 'Viralliset asiakirjat'
+  title: 'Varmennusasiakirjat — lataa ja jaa'
+  subtitle: 'Qingdao Vatrad Group Co., Ltd:n viralliset asiakirjat, valmiina liitettäväksi toimittajan due diligence -mappiisi.'
+  features:
+    - icon: G
+      icon_bg: blue
+      title: 'OEM-ostajan opas: luottamus ja tehtaan varmennus (PDF)'
+      desc: 'Virallinen B2B-opas (Osa II, DOC-ENG-2026-EN): tehtaan varmennus vaihe vaiheelta — yksikön rekisteröinti, fyysinen auditointi, aito insinöörit, QMS-asiakirjat, kolmansen osapuolen tarkastus, sopimuksen suoja ja ohjauksen allekirjoitukset.'
+      link: 'https://assets.isupfactory.com/site/downloads/oem-buyer-trust-and-factory-assurance-guide.pdf'
+      link_label: 'Lataa opas (PDF)'
+    - icon: P
+      icon_bg: green
+      title: 'Joustavan brändäyksen ja MOQ:n opas (PDF)'
+      desc: 'Virallinen B2B-opas (Osa I, DOC-MOQ-EXP-2026-EN): 150 m drop-stitch-rullien tuotokseen liittyvä insinöörilogiikka (90–100 lautaa), co-branding 5–10 kpl:stä, pilottierät 20–50 kpl ja kolme tuotantovaihetta.'
+      link: 'https://assets.isupfactory.com/site/downloads/flexible-branding-and-moq-guide.pdf'
+      link_label: 'Lataa MOQ-opas (PDF)'
+    - icon: Q
+      icon_bg: orange
+      title: 'Näiden väitteiden takana oleva laatujärjestelmä'
+      desc: 'Yksi sivu, joka kokoaa kaiken: 7-vaiheinen tarkastusporttijärjestelmä, sitä ohjaavat neljä standardia sekä 00–15-asiakirjarekisteri kaikkine ladattavine SOP- ja raportteineen — QIP, tarkastusstandardit, jäljitettävyysdossier, NCP ja korjaus-SOP:t.'
+      link: '/fi/quality'
+      link_label: 'Tutustu laatujärjestelmään'
+
+evidence_review:
+  tagline: 'Näyttö ja varmennus'
+  title: 'VARMENNETUT SPECIFIKAATIOT'
+  body: 'Kaikki tämän sivun valmistusväitteet on varmennettu valmistustekniikkatiimimme toimesta Qingdaon Laixin laitoksella. Todistukset, laadunvarmistuksen tarkastuskirjat, paine- ja rakennetestausraportit sekä erien jäljitettävyyskirjat ovat saatavilla pyydettäessä. Tekniset tiedot varmennettiin viimeksi syyskuussa 2026.'
+
+cta:
+  title: 'Aloita varmennuksesta — sitten puhumme speksistä'
+  subtitle: 'Lähetä NDA-pyyntösi, pyydä rekisteröintipaketti tai varaa auditointiaika. Varmennus tulee ensin; tilauskeskustelu seuraa perään. Kysely ei sitoa sinua tilaukseen.'
+  button_text: 'Pyydä varmennuspaketti'
+  button_link: '/fi/contact#trust-verification'
+  actions:
+    - text: Tehtasauditin tarkistuslista
+      href: /fi/factory-audit-checklist
+    - text: Brändi-identiteetti
+      href: /fi/about/identity

@@ -6,7 +6,7 @@ export interface FaqEntry {
   a: string
 }
 
-export const PRODUCT_FAQ_POOL: Record<'en' | 'es' | 'fr' | 'de' | 'it' | 'pt' | 'nl' | 'sv' | 'no' | 'pl' | 'da', FaqEntry[]> = {
+export const PRODUCT_FAQ_POOL: Record<'en' | 'es' | 'fr' | 'de' | 'it' | 'pt' | 'nl' | 'sv' | 'no' | 'pl' | 'da' | 'fi', FaqEntry[]> = {
   en: [
     {
       q: 'What is the minimum order to customize this board?',
@@ -203,6 +203,24 @@ export const PRODUCT_FAQ_POOL: Record<'en' | 'es' | 'fr' | 'de' | 'it' | 'pt' | 
     {
       q: 'Hvordan kontrolleres kvaliteten før levering?',
       a: 'Hvert bræt gennemgår en montagekontrolliste med 100 punkter og en trykprøvning på 18.0 PSI i 24 timer før pakning; enheder med et trykfald på over 0,50 PSI/24 h kasseres automatisk.',
+    },
+  ],
+  fi: [
+    {
+      q: 'Mikä on minimitilaus (MOQ), jos haluan räätälöidä tämän laudan?',
+      a: 'Sarjatuotannon minimitilaus (MOQ) on 90–100+ kpl hyväksyttyä kokoonpanoa kohti, riippuen materiaalirullan ja pakkauksen vaatimuksista, yhdeltä 150 m rullalta vakiomäärätuotannossa. Pilottierät alkavat 20–50 kpl:stä ja oma muoto vaatii 90–100+ kpl.',
+    },
+    {
+      q: 'Kuinka kauan näytteiden ja tuotannon valmistuminen kestää?',
+      a: 'Näytteet ovat valmiit 7–12 päivässä; sarjatuotanto valmistuu 25–35 päivässä vahvistetun tilauksen ja käsirahan jälkeen.',
+    },
+    {
+      q: 'Voinko muuttaa värejä, kuvitusta ja logoa?',
+      a: 'Kyllä: kuvitus, värit, EVA-matto, logo, pakkaus ja lisävarusteet ovat räätälöitavissa jokaisella alustalla. Lähetä logosi, niin teemme visuaalisen tarkastuksen ennen tuotantoa.',
+    },
+    {
+      q: 'Miten laatu varmennetaan ennen lähetystä?',
+      a: 'Jokainen lauta käy läpi 100 pisteen asennuslistan ja 18.0 PSI:n 24 tunnin painepitoisuustestin ennen pakkaamista; yksiköt, joissa paine laskee yli 0,50 PSI/24 h, hylätään automaattisesti.',
     },
   ],
 }

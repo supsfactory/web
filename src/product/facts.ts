@@ -112,7 +112,7 @@ export interface FactShorthands {
   pressureReject: string
 }
 
-export const FACTS_LOCALE: Record<'en' | 'es' | 'fr' | 'de' | 'it' | 'pt' | 'nl' | 'sv' | 'no' | 'pl' | 'da', FactShorthands> = {
+export const FACTS_LOCALE: Record<'en' | 'es' | 'fr' | 'de' | 'it' | 'pt' | 'nl' | 'sv' | 'no' | 'pl' | 'da' | 'fi', FactShorthands> = {
   en: {
     moq: {
       existingPlatform: FACTS.moq.existingPlatform,
@@ -266,6 +266,20 @@ export const FACTS_LOCALE: Record<'en' | 'es' | 'fr' | 'de' | 'it' | 'pt' | 'nl'
     assemblyChecklist: '100',
     pressureTest: '18.0 PSI · 24 timers trykholdning',
     pressureReject: 'trykfald >0.50 PSI/24 t (automatisk kassering)',
+  },
+  fi: {
+    moq: {
+      existingPlatform: '5–10 kpl (vain logo olemassa olevaan muotoon, sama materiaalirulla)',
+      trialStandard: '20–50 kpl (räätälöity grafiikka tai pieni spesifikaatiomuutos, sama materiaalirulla)',
+      standardRun: '90–100+ kpl hyväksytyn konfiguraation mukaan, materiaalirullaa ja pakkausvaatimuksia koskevin ehdoin',
+      customMould: '90–100+ kpl (uusi muoto vaatii oman muotin; muotin valmistus lisää 15–20 päivää)',
+    },
+    leadTime: '25–35 päivää',
+    leadTimeDetail: '25–35 päivää vahvistetusta tilauksesta (PO) ja käsirahas; oman muotin kehittäminen lisää 15–20 päivää muotin valmistukseen.',
+    sampleTime: '7–12 päivää',
+    assemblyChecklist: '100',
+    pressureTest: '18.0 PSI · 24 tunnin paineenpito',
+    pressureReject: 'paineen alenema >0.50 PSI/24 t (automaattinen hylkäys)',
   },
 }
 

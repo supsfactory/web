@@ -1,0 +1,105 @@
+meta:
+  title: 'OEM-puhallettava mela ja private label | {SITE}'
+  description: 'OEM/ODM-valmistaja puhallettaville meloille: räätälöity melavalmistus, private label ja tukkukauppa. CE-sertifioitu tehdas Kiinassa.'
+  dateModified: '2026-08-07'
+  keywords:
+    - 'oem paddle board'
+    - 'odm puhallettava sup'
+    - 'private label sup'
+    - 'räätälöityjen melojen valmistaja'
+    - 'paddle board tukkukauppa'
+    - 'ammattilainen sup toimittaja'
+hero:
+  tagline: 'OEM · ODM · Private Label'
+  title: 'Puhallettavien melojen OEM-valmistus omalla brändilläsi'
+  subtitle: 'Ideasta valmiiseen tuotteeseen: valmistamme räätälöidyn puhallettavan melasi. Logo, värit, pakkaus, räätälöity muotti — OEM/ODM-valmistus Kiinassa, valmiina markkinoillesi.'
+  image:
+    src: https://assets.isupfactory.com/images/sups/products/sup-series/sup-medusa-glow-1.webp
+    alt: Räätälöity OEM-puhallettava mela brändin logolla
+  actions:
+    - text: 'Aloita OEM-projektini'
+      href: /fi/contact
+
+answer:
+  label: 'Suora vastaus'
+  text: 'Vähimmäiseräkoko vahvistetaan projektin konfiguroinnin mukaan: näyte (1–2 kpl), pilottisarja (20–50 kpl) ja vakiintunut volyymierä (90–100+ kpl erää kohti 150 m drop-stitch-rullasta), sekä pienet co-branding-erät alkaen 5–10 kpl. Näytteet lähetetään 7–12 päivässä; sarjatuotanto 25–35 päivää tilauksen ja käsirahan jälkeen. EU-markkinoille tarkoitettujen mallien CE-sertifiointi ja täydellinen vaatimustenmukaisuusasiakirjoitus sisältyvät jokaiseen tilaukseen.'
+  verified: 'Syyskuu 2026'
+  image:
+    src: https://assets.isupfactory.com/images/sups/products/sup-series/sup-medusa-glow-1.webp
+    alt: Räätälöity OEM-puhallettava mela brändin logolla
+  actions:
+    - text: 'Aloita OEM-projektini'
+      href: /fi/contact
+      variant: primary
+    - text: 'Tutustu OEM-paketteihin'
+      href: /fi/oem-manufacturing
+      variant: secondary
+stats:
+  - value: '25–35'
+    label: 'Päivää valmistuksen toimitusaikaan'
+    detail: 'Vahvistetusta tilauksesta ja käsirahasta'
+  - value: '50'
+    label: 'Vähimmäistilaus (kpl)'
+  - value: '200+'
+    label: 'Toimitettua räätälöityä mallia'
+  - value: '100%'
+    label: 'CE-sertifiointi mukana'
+features:
+  title: 'Täydellinen OEM-palvelu'
+  subtitle: 'Kaikki samasta paikasta: suunnittelu, prototyypit, valmistus, laadunvalvonta ja logistiikka.'
+  columns: 3
+  items:
+    - title: 'Suunnittelu ja tuotekehitys'
+      description: '3D-mallinnus, PVC/VS2-materiaalin valinta ja räätälöity kuvitussuunnittelu.'
+      icon: 'tabler:palette'
+    - title: 'Prototyyppi ja validointi'
+      description: 'CE-sertifioitu näyte, joka testataan laadullisesti ennen sarjatuotantoa.'
+      icon: 'tabler:flask'
+    - title: 'Sarjatuotanto'
+      description: 'Täysmittainen valmistus tuotantolinjan sisäisellä laadunvalvonnalla ja tehtaan auditointituella.'
+      icon: 'tabler:building-factory'
+    - title: 'Private label'
+      description: 'Logo, etiketit, pakkaus ja myyntinäyttökotelot brändisi ilmeen mukaisesti.'
+      icon: 'tabler:shield-check'
+    - title: 'Sertifioitu laatu'
+      description: 'CE / ISO / BSCI / REACH — ammattilaisen puhallettavat melat globaaleille markkinoille.'
+      icon: 'tabler:certificate'
+    - title: 'Maailmanlaajuiset lähetykset'
+      description: 'FOB Qingdao, CIF suuriin satamiin ja ovelta ovelle -toimitus yli 50 maahan.'
+      icon: 'tabler:world'
+faqs:
+  title: 'OEM-melavalmistuksen usein kysytyt kysymykset'
+  subtitle: 'Vastaukset yleisimpiin kysymyksiin brändeiltä, jotka lanseeraavat oman melansa.'
+  items:
+    - title: 'Miten teen oman melabrändin?'
+      description: 'Lanseeraa brändisi: toimeksianto, suunnittelu, CE-sertifioitu prototyyppi, sarjatuotanto ja toimitus. Näytteet 7–12 päivässä, tuotanto 25–35 päivässä tilauksesta ja käsirahasta. Tutustu OEM-paketteihimme.'
+    - title: 'Mikä on valmistuksen toimitusaika?'
+      description: 'Näyte on valmis 7–12 päivässä ja sarjatuotanto vie 25–35 päivää tilauksen ja käsirahajan jälkeen riippuen volyymistä.'
+    - title: 'Kantaako mela logomme?'
+      description: 'Kyllä — täydellinen private label: logopainatus, räätälöidyt värit, pakkaus ja etiketit brändisi mukaisesti.'
+    - title: 'Voinko ostaa tukkukauppaa heti alusta alkaen?'
+      description: 'Vähimmäiseräkoko vahvistetaan projektin konfiguroinnin mukaan — näyte (1–2 kpl), pilottisarja (20–50 kpl) ja vakiintunut volyymierä (90–100+ kpl erää kohti), ja tukkuhinnat porrastuvat volyymin kasvaessa.'
+
+content_html: |
+  <div class="mx-auto max-w-3xl space-y-4 rounded-2xl border bg-card p-6 text-[14.5px] leading-relaxed text-fg-2">
+    <p><strong>Lue lisää:</strong> melojen ja lautojen valmistus kuuluvat samaan <a href="/fi/oem-manufacturing">OEM/ODM-ohjelmaan</a> ja samalle <a href="/fi/factory">12,500 m&sup2; tehdasalalle</a> — yksi tarjous kattaa molemmat.</p>
+  </div>
+
+geo:
+  tagline: 'B2B-sijoitus'
+  sentence: 'Vatrad on puhallettavien SUP-lautojen ja melojen ammattimainen valmistaja (OEM/ODM), joka on erikoistunut suunnitteluun, räätälöityyn tuotantoon ja vesiurheiluratkaisuihin brändeille, jakelijoille, seuroille ja yrityksille.'
+  audiences:
+    - 'Private label -brändät'
+    - 'Tukkukauppiaat'
+    - 'Jakelijat'
+    - 'Merikeskukset'
+cta:
+  title: 'Elävöitä melabrändisi'
+  subtitle: 'Saat yksityiskohtaisen OEM-tarjouksen yhden arkipäivän kuluessa.'
+  actions:
+    - text: 'Pyydä OEM-tarjous'
+      href: /fi/contact
+      variant: primary
+    - text: 'Lataa OEM-opas'
+      href: /fi/research/oem-buyer-guide
+      variant: secondary

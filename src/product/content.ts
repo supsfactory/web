@@ -22,6 +22,7 @@ export interface Localized<T> extends Record<string, T> {
   no: T
   pl: T
   da: T
+  fi: T
 }
 
 export function pick<T>(d: Localized<T>, locale: Locale): T {
@@ -316,6 +317,30 @@ export const hero: Localized<HeroContent> = {
     float1: { value: '1–2 stk', label: 'Prøve og godkendelse (før volumenforpligtelse)' },
     float2: { value: FACTS.leadTime, label: 'Produktionstid (efter PO)' },
   },
+  fi: {
+    kicker: 'Räätälöityjen SUP-lautojen valmistaja (OEM / ODM) — Qingdao, Kiina',
+    titlePre: 'Puhallettavien SUP-lautojen valmistaja ja',
+    titleAccent: 'OEM/ODM-tehdas',
+    titlePost: '',
+    sub: 'Räätälöidyt puhallettavat SUP-laudat, jotka on suunniteltu, prototyyppien valmistettu ja valmistettu tehtaallamme Qingdaossa, Kiinassa.',
+    ctaPrimary: 'Pyydä OEM-tarjous',
+    ctaSecondary: 'Kehitä SUP-tuotteesi',
+    ctaTertiary: 'Tutustu tehtaaseen',
+    ctaQuartiary: '',
+    ctaMicro: 'OEM · ODM · Oma merkki · Tuotekehitys · Prototyypit · Sarjatuotanto',
+    stats: [
+      { value: '12 500 m²', label: 'Oma tehdas — Qingdao, Kiina' },
+      { value: '120 000+', label: 'Vuodessa valmistettuja lautoja' },
+      { value: '50+', label: 'Palvellut vientimaita' },
+      { value: FACTS.ndaWindow, label: 'NDA-vastausaika' },
+    ],
+    mockupLabel: 'Lippulautamalli',
+    mockupBrand: "SUP Explorer 11'",
+    mockupHint: 'Sinun grafiikkasi · sinun värisi · sinun pakkauksesi',
+    heroNote: 'Tuotanto suoraan tehtaassa · Prototyyppien kehittäminen · Laadunvalvottu tuotanto · Vientituki',
+    float1: { value: '1–2 kpl', label: 'Näyte ja hyväksyntä (ennen määräaikaisuutta)' },
+    float2: { value: FACTS.leadTime, label: 'Toimitusaika (tilauksen jälkeen)' },
+  },
 }
 
 /* ─────────────────────────── home: manufacturer pledge ─────────────────────────── */
@@ -465,6 +490,18 @@ export const manufacturerPledge: Localized<ManufacturerPledgeContent> = {
       { title: 'Dit mærke, aldrig vores', body: 'Vi producerer udelukkende under kundernes mærker og konkurrerer aldrig med dem på noget marked.' },
     ],
     verifyLabel: 'Verificer, hvem vi er',
+    verifyHref: '/about/identity',
+  },
+  fi: {
+    kicker: 'Valmistaja, ei kauppias',
+    title: 'Omistamme tilaustasi takana olevan tehtaan',
+    sub: 'Kauppias myy muiden tehtaiden tuotantoa edelleen. Me käytämme omaa laitostamme. Välillä ei ole välityskatkua, kolmannen osapuolen varastoa eikä välikettä tilauksesi ja tuotantolattian välillä.',
+    items: [
+      { title: 'Rekisteröity juridinen yksikkö', body: 'Qingdao Vatrad Group Co., Ltd. on sopimusosapuoli jokaisessa tilauksessa ja kaikissa vientiasiakirjoissa.' },
+      { title: 'Yksi tehdas, yksi tiimi', body: 'Suunnittelu, laadunvalvonta, tuotannon ajoitus ja vientiasiakirjat hoidetaan omassa talossa Laixin tehtaallamme Qingdaossa.' },
+      { title: 'Sinun merkkisi, ei koskaan meidän', body: 'Valmistamme yksinomaan asiakkaidemme merkeissä emmekä koskaan kilpaile heidän kanssaan millään markkinoilla.' },
+    ],
+    verifyLabel: 'Varmista, keitä olemme',
     verifyHref: '/about/identity',
   },
 }
@@ -686,6 +723,24 @@ export const factoryProof: Localized<FactoryProofContent> = {
     ],
     note: 'MOQ bekræftes efter gennemgang af specifikationerne, fordi konstruktion, brætstørrelse, PVC-opbygning, grafik, emballage og tilbehør påvirker materialeforbruget.',
   },
+  fi: {
+    kicker: 'Tehdastodisteet',
+    title: 'Todellinen tehdas, dokumentoituna',
+    sub: 'Tarkistettavat luvut tehtaaltamme Qingdaossa Kiinassa — jokainen luku linkittää sivulle, jolla se on dokumentoitu.',
+    cta: 'Tarkista tämä luku',
+    stats: [
+      { value: FACTS.warehouseM2, label: 'Oma tuotantolaitos', href: '/factory' },
+      { value: FACTS.workers, label: 'Tehtaan oma henkilöstö', href: '/manufacturing-capabilities' },
+      { value: '120 000+', label: 'Vuodessa valmistettuja lautoja', href: '/factory/capacity' },
+      { value: FACTS.exportCountries, label: 'Palvellut vientimaita', href: '/proof-center' },
+    ],
+    links: [
+      { label: 'MOQ ja toimitusaika', href: '/sup-oem-moq-lead-time' },
+      { label: 'Laadunvalvonta', href: '/quality' },
+      { label: 'Tehtaauditointilista', href: '/factory-audit-checklist' },
+    ],
+    note: 'MOQ vahvistetaan spesifikaatioiden tarkastuksen jälkeen, koska rakenne, laudan koko, PVC-rakenne, grafiikka, pakkaus ja lisävarusteet vaikuttavat materiaalin kulutukseen.',
+  },
 }
 
 /* ─────────────────────────── home: factory evidence (verification band) ─────────────────────────── */
@@ -824,6 +879,17 @@ export const factoryEvidence: Localized<FactoryEvidenceContent> = {
       { title: 'Beviscenter', body: 'Certifikater, tredjepartsinspektionsrapporter, revisionsprotokoller og bevis fra leverede projekter samlet et sted.', href: '/proof-center' },
       { title: 'Verificer fabrikken', body: 'Kontroller vores offentlige virksomhedsregistre, certificeringer og verificeringsvejledning, før du binder dig.', href: '/verify-factory' },
       { title: 'Tjekliste for fabriksrevision', body: 'Hent den tjekliste, som købere bruger ved revision af en fabrik for oppustelige SUP-bræt — anlæg, udstyr og proces.', href: '/factory-audit-checklist' },
+    ],
+  },
+  fi: {
+    kicker: 'Varmista ennen kuin tilaat',
+    title: 'Tehdastodisteet ja todentaminen',
+    sub: 'Riippumattomia näyttöjä siitä, että laitoksemme, laitteemme, laadunhallintajärjestelmämme ja vientirekisterimme ovat todellisia — käy läpi ja tarkista ennen sopimusten tekoa.',
+    cta: 'Katso todisteet',
+    items: [
+      { title: 'Todistuskeskus', body: 'Sertifikaatit, kolmannen osapuolen tarkastusraportit, auditointipöytäkirjat ja toimitettujen projektien näyttö koossa yhdessä paikassa.', href: '/proof-center' },
+      { title: 'Tarkista tehdas', body: 'Tarkista julkiset yritysrekisterimme, sertifioinnit ja todentamisohjeet ennen sitoutumista.', href: '/verify-factory' },
+      { title: 'Tehtaauditointilista', body: 'Hae tarkistuslista, jota ostajat käyttävät puhallettavien SUP-lautojen tehtaan auditointiin — laitokset, laitteet ja prosessit.', href: '/factory-audit-checklist' },
     ],
   },
 }
@@ -1120,6 +1186,31 @@ export const why: Localized<WhyContent> = {
       },
     ],
   },
+  fi: {
+    kicker: 'Tuotantomerkki',
+    title: 'Vatradin voimalla',
+    sub: 'iSupfactory on Qingdao Vatrad Group Co., Ltd:n tuotekehitys- ja tuotantoyksikkö. Laixin 12 500 m²:n laitoksessamme Qingdaossa on valmistettu puhallettavia tuotteita vuodesta 2012; yli 25 insinööriä työskentelee tuotekehityksen, muotoilun, materiaalilaboratorion ja tuotannon suunnittelun parissa ja heillä on keskimäärin yli 7 vuoden kokemus puhallettavien tuotteiden valmistuksesta. Kaksi tuotantovuoroa käy päivittäin.',
+    image: 'https://assets.isupfactory.com/images/sups/factory/isupfactory-production-department.webp',
+    imageCaption: 'Vatradin tuotantolaitos, Qingdao, Kiina',
+    bullets: [
+      {
+        title: '12 500 m² laitos',
+        body: 'Raakamuovista valmiiseen lautaan, kokonaan omassa talossa, Laixissa Qingdaossa.',
+      },
+      {
+        title: 'Tuotannossa vuodesta 2012',
+        body: 'Kaksi tuotantovuoroa päivittäin SUP-laudoille ja puhallettaville tuotteille.',
+      },
+      {
+        title: 'Yli 25 insinööriä',
+        body: 'Tuotekehityksessä, muotoilussa, materiaalilaboratoriossa ja tuotannon suunnittelussa.',
+      },
+      {
+        title: 'Keskimäärin yli 7 vuotta',
+        body: 'Kokemus puhallettavien tuotteiden valmistuksesta insinööriä kohden.',
+      },
+    ],
+  },
 }
 
 /* ─────────────────────────── capability strip ─────────────────────────── */
@@ -1136,6 +1227,7 @@ export const strip: Localized<string[]> = {
   no: ['OEM & ODM', 'Private Label', 'Prøvetjeneste', 'Design & Artwork', 'QC ved hver batch', 'Eksport globalt'],
   pl: ['OEM & ODM', 'Private Label', 'Usługa próbek', 'Projekt i grafika', 'QC przy każdej partii', 'Eksport na cały świat'],
   da: ['OEM & ODM', 'Eget mærke', 'Prøvetjeneste', 'Design & grafik', 'QC ved hvert parti', 'Eksport globalt'],
+  fi: ['OEM & ODM', 'Oma merkki', 'Näytepalu', 'Design & grafiikka', 'Laadunvalvonta jokaisessa erässä', 'Maailmanlaajuiset vienti'],
 }
 
 /* ─────────────────────────── home: trust bar ─────────────────────────── */
@@ -1302,6 +1394,20 @@ export const trustBar: Localized<TrustBarContent> = {
       { value: FACTS.exportCountries, label: 'eksportmarkeder i EU, USA, Australien og Asien' },
       { value: '18 PSI / 24 t', label: '100 % oppblæsnings- og lækagetest på hvert bræt før pakning' },
       { value: 'MSL Fusion', label: 'flerlagssvejsning med vævede drop-stitch-konstruktioner' },
+    ],
+  },
+  fi: {
+    stats: [
+      { value: `MOQ ${MOQ_SHORT.standardRun}`, label: 'sarjatuotantoon; pilottierät alkaen 20–50 kpl' },
+      { value: FACTS.sampleTime, label: 'näytteet laudallesi hyväksytyn grafiikan jälkeen' },
+      { value: FACTS.leadTime, label: 'sarjatuotanto vahvistetun tilauksen ja käsirahan jälkeen' },
+      { value: FACTS.annualCapacity, label: 'vuotuinen oma kapasiteetti Qingdaon tehtaalla' },
+      { value: FACTS.warehouseM2, label: 'oma tehdas, raakamuovista valmiiseen lautaan' },
+      { value: FACTS.workers, label: 'tehtaan työntekijät ja insinöörit paikallaan' },
+      { value: 'ISO 9001 · CE · BSCI', label: 'sertifioitu; REACH/RoHS-yhteensopivat materiaalit' },
+      { value: FACTS.exportCountries, label: 'vientimarkkinat EU:ssa, Yhdysvalloissa, Australiassa ja Aasiassa' },
+      { value: '18 PSI / 24 t', label: '100 % täyttö- ja vuototesti jokaiselle laudalle ennen pakkausta' },
+      { value: 'MSL Fusion', label: 'kerroksittainen hitsaus kudotuilla drop-stitch-rakenteilla' },
     ],
   },
 }
@@ -1583,6 +1689,30 @@ export const solve: Localized<SolveContent> = {
       {
         title: 'Volumenleverance — gentagne ordrer og flådeordrer',
         body: 'Storskalaproduktion for distributører, udlejningsoperatører og resortgrupper, med bindende specifikationer, batchsporbarhed og ensartet konstruktion ved hver gentagen ordre.',
+      },
+    ],
+  },
+  fi: {
+    kicker: 'OEM- ja ODM-tuotanto',
+    title: 'Kaksi tapaa rakentaa SUP-tuotteesi',
+    sub: 'OEM, kun sinulla on spesifikaatio, ODM, kun sinulla on konsepti — sekä omamerkki ja volyymitoimitukset brändeille, jotka haluavat testatun alustan.',
+    cta: 'Pyydä OEM-tarjous',
+    items: [
+      {
+        title: 'OEM — valmistetaan spesifikaatiosi mukaan',
+        body: 'OEM (valmistus asiakkaan spesifikaation mukaan): valmistamme hyväksymäsi spesifikaation mukaan — piirroksesi, mitat, materiaalit, rakenne ja pakkaus. Sinulle kuuluu suunnittelu, muotit ja immateriaalioikeudet.',
+      },
+      {
+        title: 'ODM — kehitämme laudan insinööritiimimme kanssa',
+        body: 'ODM (valmistus alkuperäisen suunnittelun mukaan): insinööritiimimme kehittää laudan rakenteen, rakennetyypin, grafiikan ja pakkauksen briefisi mukaan — olipa kyseessä markkinakonsepti, suorituskohde tai testatun alustan mukautus. Tehdas ehdottaa suunnittelun; ostaja hyväksyy sen ennen tuotantoa.',
+      },
+      {
+        title: 'Oma merkki — sinun merkkisi testatulla alustalla',
+        body: 'Oma merkki: sinun merkkisi, grafiikkasi ja pakkauksesi olemassa olevalla validoidulla alustalla — ilman muotin kehittämistä ja ilman rakenteellisia muutoksia. Nopein reitti konseptista toimitukseen.',
+      },
+      {
+        title: 'Volyymitoimitukset — uusintatilaukset ja laivastotilaukset',
+        body: 'Massatuotanto jakelijoille, vuokrausyrityksille ja resorttiryhmille, sitovilla spesifikaatioilla, eräjäljitettävyydellä ja yhtenäisellä rakenteella jokaisessa uusintatilauksessa.',
       },
     ],
   },
@@ -1944,6 +2074,37 @@ export const capability: Localized<CapabilityContent> = {
       },
     ],
   },
+  fi: {
+    kicker: 'Tuotantokyky',
+    title: 'Kuusi omaa tuotantotapaa',
+    sub: 'Kaikki alla olevat prosessit tapahtuvat omassa talossa. Mitään tärkeää ei ulkoisteta.',
+    items: [
+      {
+        name: 'CNC-leikkaus',
+        body: 'Automaattiset CNC-koneet leikkaavat PVC:tä, Hypalonia ja drop-stitch-kangasta 0.1 mm:n paikkatarkkuudella ja tietokoneella optimoidulla sisäkköinnillä materiaalihävikin minimoimiseksi.',
+      },
+      {
+        name: 'RF-dielektrinen hitsaus',
+        body: '15 kW:n hitsauspuristimet tuottavat tiiviit saumat. Reunat ovat kolmikerroksisia hitsattuja liitoksia, jotka antavat reunalujuuden ja iskunkestävyyden.',
+      },
+      {
+        name: 'Drop-stitch-ytimen pinnoitus',
+        body: 'Tuhannet omat polyesterisäikeet pitävät ylä- ja alapinnan rinnakkain, mikä antaa jäykän alustan 12–15 PSI:n paineella. Ytimet pinnotetaan 14 jalkaan asti.',
+      },
+      {
+        name: 'Kansigrafiikka',
+        body: 'Täysväri digitaalipaino ja moniväri silkepaino omista bränditiedostoistasi. EVA-kansityynyt omissa värissäsi räätälöityine logoineen, leikkauksineen ja kuvioineen.',
+      },
+      {
+        name: 'Kokoonpano ja varustelu',
+        body: 'Jokainen lauta käy läpi 100 osan kokoonpanotarkistuksen, jonka linjan esimies allekirjoittaa — kiinnikkeet, D-renkaat, venttiilit, hihna-ankkurit ja lisävarusteiden asennus.',
+      },
+      {
+        name: 'Vientipakkaus',
+        body: 'Vakuumpakattu, kartonkeihin pakatty ja vientivalmiiksi pakattu, painetuilla myymälälaatikoilla lisävarastena.',
+      },
+    ],
+  },
 }
 
 /* ─────────────────────────── home: quality control (How Every Board Is Verified) ─────────────────────────── */
@@ -2299,6 +2460,37 @@ export const quality: Localized<QualityContent> = {
       {
         title: 'Batchsporbarhed',
         body: 'Hver materialebatch får et unikt ERP-nummer. Produktionslisten (BOM) for hvert bræt kobles tilbage til leverandørens batch. Registre opbevares i 10 år i henhold til CE 2013/53/EU.',
+      },
+    ],
+  },
+  fi: {
+    kicker: 'Laadunvalvonta',
+    title: 'Näin jokainen lauta todennetaan',
+    sub: 'Laatu on dokumentoitu prosessi, ei lupaus. Näin tilauksesi käsitellään ennen lähetystä.',
+    steps: [
+      {
+        title: 'Saapuvan materiaalin laadunvalvonta',
+        body: 'PVC-rullat, drop-stitch-ytimet, venttiilit, liimat ja kiinnikkeet pidetään karanteenissa, kunnes laadunvalvonta on hyväksynyt ne. Materiaaleille tehdään veto-, repimis- ja UV-kestävyystestit ennen kuin yksikään erä menee tuotantoon.',
+      },
+      {
+        title: 'Tarkistuspisteet tuotannon aikana',
+        body: 'Laadunvalvonnan tarkistuspisteet jokaisessa tuotantovaiheessa, jossa hitsausnäytteet otetaan ja niitä testataan kuorimisella erästandardia vasten.',
+      },
+      {
+        title: 'Paineenpitotesti',
+        body: 'Jokainen ilmatila täytetään 18.0 PSI:n paineeseen ja pidetään 24 tuntia jatkuvalla anturiloggauksella. Yksikään ilmatila, jossa paine laskee yli 0.50 PSI:tä 24 tunnin aikana, hylätään ja palautetaan sauman uudelleentarkastukseen.',
+      },
+      {
+        title: 'Rakenteellinen todennus',
+        body: 'Taipuma nimellisellä kuormalla, D-renkaiden vetolujuus (≥150 kgf / D-rengas), kansityynyn kiinnityksen kuoriminen (≥3.5 N/cm) ja venttiilin istuvuus varmistetaan spesifikaatiota vasten ennen lopullista tarkastusta.',
+      },
+      {
+        title: 'Lopullinen tarkastus',
+        body: '100 kohdan tarkistuslista jokaiselle laudalle sekä mittojen ja painon tarkistus hyväksyttyä näytettä vasten.',
+      },
+      {
+        title: 'Eräjäljitettävyys',
+        body: 'Jokainen materiaalierä saa yksilöllisen ERP-numeron. Jokaisen laudan tuoteluettelo (BOM) linkittyy alkuperäiseen toimittajaerään. Tietoja säilytetään 10 vuotta CE 2013/53/EU:n mukaisesti.',
       },
     ],
   },
@@ -3034,6 +3226,70 @@ export const commercial: Localized<CommercialContent> = {
       },
     ],
   },
+  fi: {
+    kicker: 'Kaupalliset ehdot',
+    title: 'Kaupalliset ehdot kerrotaan etukäteen',
+    sub: 'Vakiominitilaus, näytteet sekä tuotanto- ja toimitusehdot on lueteltu alla. Projektit, jotka vaativat uusia muotteja, erikoismateriaaleja, vaatimustenmukaistuustestausta tai räätälöityä pakkausta, tarjoamme erikseen.',
+    cells: [
+      {
+        label: 'Vähimmäistilausmäärä',
+        lines: [
+          'Yhteisbrändiys: alkaen 5–10 kpl valituilla olemassa olevilla alustoilla',
+          'Pilottierä: 20–50 kpl olemassa olevilla alustoilla',
+          'Vakiomäärä: 90–100+ kpl hyväksytyn konfiguraation mukaan, materiaalirullaa ja pakkausvaatimuksista riippuen',
+        ],
+      },
+      {
+        label: 'Toimitusaika',
+        lines: [
+          '25–35 päivää vahvistetusta tilauksesta (PO) ja käsirahasta',
+          'Oman muotin kehittäminen: +15–20 päivää muotin valmistukseen',
+          'Kiireistä tuotantoa saatavilla huippukausina',
+        ],
+      },
+      {
+        label: 'Näytteet',
+        lines: [
+          'Prototypynäytteet lähetetään 7–12 päivän kuluessa',
+          'Näytekustannus hyvitetään sarjatilauksen laskusta',
+        ],
+      },
+      {
+        label: 'Vienti ja dokumentaatio',
+        lines: [
+          'Vientiasiakirjat hoidetaan omassa talossa',
+          'Vientipakkaus vakiona; painetut myymälälaatikot saatavilla',
+        ],
+      },
+    ],
+    certs: 'ISO 9001 laadunhallinta · CE-sertifiointi EU-markkinoille tarkoitetuille malleille (laajuus vahvistetaan projektikohtaisesti) · BSCI sosiaalinen vaatimustenmukaisuus (auditointiraportti pyydettäessä) · REACH- ja RoHS-dokumentaatio jokaisen tilauksen mukana.',
+    moqTiers: [
+      {
+        stage: 'Näyte ja hyväksyntä',
+        quantity: '1–2 kpl hyväksyttäväksi',
+        purpose: 'Vahvista muoto, värit, painatus ja pakkaus ennen kaikkea tuotantoa',
+        note: '7–12 päivää; fyysinen lauta, ei renderöintiä',
+      },
+      {
+        stage: 'Yhteisbrändiys pienillä määrillä',
+        quantity: 'alkaen 5–10 kpl valituilla olemassa olevilla alustoilla',
+        purpose: 'Testaa suunnittelua testatulla alustalla logolla päällystettynä',
+        note: 'Nopein tapa validoida uusi grafiikka',
+      },
+      {
+        stage: 'Pilottierä / aloitusvarasto',
+        quantity: '20–50 kpl olemassa olevilla alustoilla',
+        purpose: 'Validoida markkinat tai avata kauppa oikeilla tuotteilla',
+        note: 'Pienin määrä olemassa olevilla alustoilla',
+      },
+      {
+        stage: 'Vakiosarjatuotanto',
+        quantity: '90–100+ kpl hyväksytyn konfiguraation mukaan, materiaalirullaa ja pakkausvaatimuksista riippuen',
+        purpose: 'Säännöllinen sarjatuotanto parhaalla yksikköhinnalla',
+        note: '90–100+ kpl; uudet muodot vaativat oman muotin (+15–20 päivää muotin valmistukseen)',
+      },
+    ],
+  },
 }
 
 /* ─────────────────────────── who we serve / customer needs ─────────────────────────── */
@@ -3484,6 +3740,45 @@ export const serve: Localized<ServeContent> = {
       },
     ],
   },
+  fi: {
+    kicker: 'Kenelle palvelemme',
+    title: 'Rakennettu yrityksille, jotka valmistavat omia SUP-tuotteita',
+    sub: 'Olipa kyseessä uuden SUP-brändin lanseeraus tai olemassa olevan ulkoilutuotelinjan laajentaminen, tuotantoratkaisumme voidaan mukauttaa yritykseesi.',
+    segments: [
+      {
+        slug: 'sup-brands',
+        title: 'SUP-brändät',
+        body: 'Kehitä brändisi asemaa, kohdemarkkinoita ja tuotestrategiaa vastaavia räätälöityjä SUP-lautoja.',
+        points: ['Mukautettu suunnittelu', 'Brändigrafiikka', 'Tuotekehitys', 'Oma merkki'],
+        cta: 'Tutustu räätälöityihin SUP-lautoihin',
+        href: '/product-development',
+      },
+      {
+        slug: 'outdoor-companies',
+        title: 'Ulkoilu- ja vesilautailuyritykset',
+        body: 'Laajenna tuotevalikoimaasi räätälöityillä SUP-tuotteilla, jotka on suunniteltu markkinoillesi.',
+        points: ['Tuotteen mukautus', 'Useita malleja', 'OEM-tuotanto'],
+        cta: 'Katso räätälöityjä SUP-lautoja',
+        href: '/solutions/custom-sup',
+      },
+      {
+        slug: 'distributors-retailers',
+        title: 'Jakelijat ja jälleenmyyjät',
+        body: 'Luo erilaisia SUP-kokoelmia sen sijaan, että kilpailisit samoilla standardituotteilla.',
+        points: ['Oma merkki', 'Mukautettu pakkaus', 'Kauppaan valmiit tuotteet'],
+        cta: 'Lue lisää',
+        href: '/solutions/private-label-sup',
+      },
+      {
+        slug: 'resorts-clubs',
+        title: 'Resortit, seurat ja järjestöt',
+        body: 'Kehitä SUP-tuotteita ja välineitä, jotka on mukautettu toimintaympäristöön ja käyttäjiisi.',
+        points: ['Mukautetut spesifikaatiot', 'Brändäys', 'Sarjatuotanto'],
+        cta: 'Katso ratkaisut',
+        href: '/solutions/resort-sup',
+      },
+    ],
+  },
 }
 
 /* ─────────────────────────── solutions ─────────────────────────── */
@@ -3796,6 +4091,33 @@ export const solutions: Localized<SolutionsContent> = {
         title: 'Produktionskrav',
         body: 'Tilpas, hvordan dit projekt produceres.',
         points: ['Mængde', 'Specifikation', 'Anvendelsesområde'],
+      },
+    ],
+  },
+  fi: {
+    kicker: 'Mukautettavuus',
+    title: 'Räätälöityjä SUP-tuoteratkaisuja yrityksellesi',
+    sub: 'OEM/ODM-ohjelmista brändeille omamerkkisarjoihin jakelijoille ja hankintatiimeille — jokaisesta vaatimuksesta tulee tuotantovalmis tuote.',
+    pillars: [
+      {
+        title: 'Lautasuunnittelu',
+        body: 'Muotoile lauta tuotteesi tarpeiden mukaan.',
+        points: ['Muoto', 'Mitat', 'Paksuus', 'Rakenne'],
+      },
+      {
+        title: 'Grafiikka ja brändäys',
+        body: 'Laita identiteettisi jokaiselle laudalle.',
+        points: ['Logotyppi', 'Värit', 'Grafiikka', 'Painatus'],
+      },
+      {
+        title: 'Lisävarusteet',
+        body: 'Täydennä tuotetta sovittavilla osilla.',
+        points: ['Mela', 'Laukku', 'Vaka', 'Pakkaus'],
+      },
+      {
+        title: 'Tuotantovaatimukset',
+        body: 'Mukauta, miten projektisi valmistetaan.',
+        points: ['Määrä', 'Spesifikaatio', 'Käyttötarkoitus'],
       },
     ],
   },
@@ -4125,6 +4447,34 @@ export const studio: Localized<StudioContent> = {
       },
     ],
   },
+  fi: {
+    kicker: 'Konfiguraattori',
+    title: 'Spesifikaation rakentaja',
+    sub: 'Vieritä rakenteen läpi — laudan muodosta pakkaukseen, jossa se lähetetään; jokainen kerros on määritetty sinun toiveittesi mukaan.',
+    scrollHint: 'Vieritä ja tutustu',
+    steps: [
+      {
+        title: 'Muoto ja koko',
+        body: 'Valitse testattu alusta tai määritä oma muotosi — pituus, leveys, paksuus, reunaprofiili ja rocker.',
+      },
+      {
+        title: 'Rakenne',
+        body: 'Yhden kerroksen, kahden kerroksen tai hitsattu rakenne. Kerrosten määrä ja vahvistusalueet määritetään käyttötarkoituksen mukaan.',
+      },
+      {
+        title: 'Kansigrafiikka',
+        body: 'Täysi kansigrafiikka omissa värissäsi, painettuna bränditiedostoistasi. Esipainatustiimimme muuttaa raakaluonnokset tuotantovalmiiksi tiedoiksi.',
+      },
+      {
+        title: 'Kansityynyt',
+        body: 'EVA omissa brändinväreissäsi, räätälöityine logotyppeineen, pitävyyskuvioineen, leikkauksineen ja kuvioineen.',
+      },
+      {
+        title: 'Lisävarusteet ja pakkaus',
+        body: 'Melat, pumput, laukut, vakat ja hihnat — mukautettuina ja pakattuina. Painetut laatikot ja myymäläasettelut spesifikaatiosi mukaan.',
+      },
+    ],
+  },
 }
 
 /* ─────────────────────────── products ─────────────────────────── */
@@ -4309,6 +4659,20 @@ export const productFilters: Localized<{ all: string; groups: ProductFilterGroup
       { key: 'fishing', label: 'Fiskeni' },
       { key: 'kids', label: 'Børn' },
       { key: 'multi', label: 'Flerpersoners' },
+    ],
+  },
+  fi: {
+    all: 'Kaikki alustat',
+    groups: [
+      { key: 'all-around', label: 'Allround' },
+      { key: 'race', label: 'Kilpailu' },
+      { key: 'surf', label: 'Surf' },
+      { key: 'touring', label: 'Touring' },
+      { key: 'yoga', label: 'Yoga' },
+      { key: 'whitewater', label: 'Valkovesi' },
+      { key: 'fishing', label: 'Kalastus' },
+      { key: 'kids', label: 'Lapset' },
+      { key: 'multi', label: 'Monihenkilö' },
     ],
   },
 }
@@ -6701,6 +7065,223 @@ export const products: Localized<ProductsContent> = {
       },
     ],
   },
+  fi: {
+    kicker: 'Tuotantoplatformit',
+    title: 'Mukautettavat SUP-alustat',
+    sub: 'Jokainen sarja on tuotantoplatformi — valitse lähtökohta, niin mukautamme muodon, grafiikan ja spesifikaatiot tuotteeseesi.',
+    items: [
+      {
+        slug: 'sup-explorer-11',
+        series: 'all-around',
+        sku: 'SUP-EX11',
+        name: "SUP Explorer 11'",
+        tagline: 'Luokan klassisin allround-alusta',
+        desc: 'Suosituin allround-lautamme — leveä ja vaka runko aloittelijoille, ketteryyttä kokeneille melojille ja helppo kuljetettavuus kaikkiin seikkailuihin. Useimpien uusien brändien oletuslähtökohta.',
+        uses: ['Aloittelijat', 'Allround', 'Perhe'],
+        for: ['Uudet brändät', 'Vuokrauslaivastot'],
+        specs: "11'0\" × 32\" × 6\" · drop-stitch PVC · 15 PSI · 19 lbs (8.6 kg)",
+        artwork: 'Sotilasluokan drop-stitch-ydin · vahvistetut reunavahvikkeet · 2+1 vakat · täysi varustus',
+        image: 'https://assets.isupfactory.com/site/products/2026/all-around/all-around-03.avif',
+        hue: 195,
+      },
+      {
+        slug: 'sup-ocean-pulse',
+        series: 'whitewater',
+        sku: 'SUP-OP11',
+        name: 'Ocean Pulse Series',
+        tagline: 'Topografinen aaltodesign-versio',
+        desc: 'Merisaallot muunnettuina topografisiksi käyräviivoiksi Tiffany-sinisenä, tarkalla mekaanisella kohokuvioinnilla ja yhtenäisellä, väreihin sovitellulla lisävarustevalikoimalla.',
+        uses: ['Elämäntapa', 'Tyyni vesi', 'Design'],
+        for: ['Elämäntapabrändät', 'Boutique-resortit'],
+        specs: "11'0\" × 32\" × 6\" · drop-stitch PVC · 15 PSI · 20 lbs (9.1 kg)",
+        artwork: 'UV-digitaalipaino + mekaaninen kuumaleimaus · mukautetut lisävarusteet',
+        image: 'https://assets.isupfactory.com/site/products/2026/whitewater/whitewater-01.avif',
+        hue: 210,
+      },
+      {
+        slug: 'sup-cheetah-surge',
+        series: 'surf',
+        sku: 'SUP-CS11',
+        name: 'Cheetah Surge Edition',
+        tagline: 'Villistä luonnosta inspiroitu premium-versio',
+        desc: 'Raaka voima kohtaa taiteellisen eleganssin — gepardimotiivi pastellisen vaaleanpunaisessa, turkoosissa ja korallissa, rakennettu väritetyllä monivärisellä EVA-levypäällysteellä.',
+        uses: ['Elämäntapa', 'Tyyni vesi', 'Design'],
+        for: ['Elämäntapabrändät', 'Some-first-brändät'],
+        specs: "11'0\" × 32\" × 6\" · drop-stitch PVC · 15 PSI · 20 lbs (9.1 kg)",
+        artwork: 'Monivärinen EVA-levypäällyste + UV-painatus · delaminoitumisen kestävä rakenne',
+        image: 'https://assets.isupfactory.com/site/products/2026/surf/surf-01.avif',
+        hue: 28,
+      },
+      {
+        slug: 'sup-medusa-glow',
+        series: 'yoga',
+        sku: 'SUP-MG11',
+        name: 'Medusa Glow Series',
+        tagline: 'Meduusaversio',
+        desc: 'Undenwatermaailma — hehkuvat meduusat, meritähti ja koralliriutat virkistävän mintinvihreänä, väritetyllä EVA-grafiikalla ja poikkeuksellisella sivuttaisvakaudella joogaan.',
+        uses: ['Jooga', 'Trooppinen', 'Elämäntapa'],
+        for: ['Joogastudiot', 'Trooppiset brändät'],
+        specs: "11'0\" × 32\" × 6\" · drop-stitch PVC · 15 PSI · 20 lbs (9.1 kg)",
+        artwork: 'Monivärinen EVA-levypäällyste + UV-painatus · PVC-kuoreen ankkuroitu kahva',
+        image: 'https://assets.isupfactory.com/site/products/2026/kids-teens/kids-teens-05.avif',
+        hue: 260,
+      },
+      {
+        slug: 'sup-dolphin-wave',
+        series: 'touring',
+        sku: 'SUP-DW11',
+        name: 'Dolphin Wave Series',
+        tagline: 'Maritiimi 360° -versio',
+        desc: 'Legendaariset delfiinit ja kerroksittaiset merensiniset aallot CNC-työstetyllä EVA-hitsauksella ja silkepainetulla jatkuvalla reunataideteemalla, joka kiertää 360° kannen ympäri.',
+        uses: ['Meriteema', 'Tyyni vesi', 'Design'],
+        for: ['Meribrändät', 'Resortit'],
+        specs: "11'0\" × 32\" × 6\" · drop-stitch PVC · 15 PSI · 20 lbs (9.1 kg)",
+        artwork: 'CNC-työstetty EVA-värilevyhitsaus + silkepainetut reunavahvikkeet · PANTONE TPG -väri vastaavuus',
+        image: 'https://assets.isupfactory.com/site/products/2026/touring/touring-02.avif',
+        hue: 210,
+      },
+      {
+        slug: 'sup-flowing-lotus',
+        series: 'yoga',
+        sku: 'SUP-FL11',
+        name: 'Flowing Lotus Series',
+        tagline: 'Itämaisella taidella tehty hyvinvointiversio',
+        desc: 'Perinteiset itämaiset sivellinsiveltä — lootus-, koi- ja lohikonsomotiivit — laserleikattu suoraan pitävyystyynyn, joten ne eivät koskaan kulu tai haastu. Suunniteltu rauhalliseen melontaan ja joogaan.',
+        uses: ['Jooga', 'Meditaatio', 'Tyyni vesi'],
+        for: ['Joogastudiot', 'Hyvinvointibrändät'],
+        specs: "11'0\" × 32\" × 6\" · drop-stitch PVC · 15 PSI · 20 lbs (9.1 kg)",
+        artwork: 'Kaksoiskerroksinen laserleikattu EVA + gradientti-UV-painatus · dynaamiset värilevyvakat',
+        image: 'https://assets.isupfactory.com/site/products/2026/yoga/yoga-01.avif',
+        hue: 150,
+      },
+      {
+        slug: 'sup-jungle-mandala',
+        series: 'all-around',
+        sku: 'SUP-JM11',
+        name: 'Jungle Mandala Series',
+        tagline: 'Trooppinen pyhä geometria',
+        desc: 'Trooppinen elinvoima kohtaa pyhän geometrian — hibiskukset, kolibrit ja mandala-totemit Tiffany-sinisessä ja korridororanssissa, suunniteltu täydellisen symmetrisiksi koko pinnan painatuksessa.',
+        uses: ['Trooppinen', 'Rannikko', 'Design'],
+        for: ['Trooppiset brändät', 'Matkailukäyttö'],
+        specs: "11'0\" × 32\" × 6\" · drop-stitch PVC · 15 PSI · 20 lbs (9.1 kg)",
+        artwork: 'Kaksoiskerroksinen laserleikattu EVA + UV-painatus + silkepainetut reunavahvikkeet · vääristymätön geometria',
+        image: 'https://assets.isupfactory.com/site/products/2026/all-around/all-around-10.avif',
+        hue: 28,
+      },
+      {
+        slug: 'sup-leviathan-wake',
+        series: 'race',
+        sku: 'SUP-LW11',
+        name: 'Leviathan Wake Series',
+        tagline: 'Valasversio',
+        desc: 'Majesteettinen sinivalas-totem geometrisilla runkomotivoilla ja minimalistisillä mustanvalkoisilla aaltoviivoilla — melijoille, jotka kokevat yhteyden mereen.',
+        uses: ['Meri', 'Allround', 'Design'],
+        for: ['Meribrändät', 'Ulkoilubrändät'],
+        specs: "11'0\" × 32\" × 6\" · drop-stitch PVC · 15 PSI · 20 lbs (9.1 kg)",
+        artwork: 'UV-digitaalipaino + mekaaninen kohokuviointi · venyvä PVC-jäljennös alapuolen logotypissa',
+        image: 'https://assets.isupfactory.com/site/products/2026/race/race-01.avif',
+        hue: 195,
+      },
+      {
+        slug: 'sup-ocean-voyager',
+        series: 'all-around',
+        sku: 'SUP-OV11',
+        name: 'Ocean Voyager Series',
+        tagline: 'Merikilpikonnan versio',
+        desc: 'Kunnianosoitus meren pitkälle matkaajalle — geometrisesti leikattu kilpikonngrafiikka syvissä tealissa, turkoosissa ja korridororanssissa, täysin mukautetun lisävarustepaketin kanssa.',
+        uses: ['Touring', 'Meri', 'Allround'],
+        for: ['Touring-brändät', 'Ulkoilubrändät'],
+        specs: "11'0\" × 32\" × 6\" · drop-stitch PVC · 15 PSI · 20 lbs (9.1 kg)",
+        artwork: 'Monivärinen EVA-levypäällyste + UV-painatus · väreihin sovitettu repu, pumppu ja hihna',
+        image: 'https://assets.isupfactory.com/site/products/2026/all-around/all-around-12.avif',
+        hue: 170,
+      },
+      {
+        slug: 'sup-tropical-breeze',
+        series: 'all-around',
+        sku: 'SUP-TB11',
+        name: 'Tropical Breeze Series',
+        tagline: 'Saariversio',
+        desc: 'Täydellinen loma-asu — aurinko, kookospalmut ja rantamaisemat, jotka etenevät mikroillustroidusta nokasta abstraktiin EVA-värilevykuvioon suuntaan.',
+        uses: ['Loma', 'Elämäntapa', 'Rannikko'],
+        for: ['Matkailubrändät', 'Resortit'],
+        specs: "11'0\" × 32\" × 6\" · drop-stitch PVC · 15 PSI · 20 lbs (9.1 kg)",
+        artwork: 'UV-digitaalipaino + muotoillut EVA-palat · kuvitettu nokkamaasto',
+        image: 'https://assets.isupfactory.com/site/products/2026/all-around/all-around-17.avif',
+        hue: 330,
+      },
+      {
+        slug: 'sup-rheo-race',
+        series: 'race',
+        sku: 'SUP-RHEO01',
+        name: 'RHEO Race Series',
+        tagline: 'Kilpailuversio hiilisyvhybridillä',
+        desc: 'Elitekilpailulauta puhallettavassa hiilisyvhybridirakenteella ja aggressiivisella gliderockerilla — rakennettu kilpailuun, sprinttivalmennukseen ja teknisiin radoille, joissa jäykkyys ja nopeus ratkaisevat tuloksen.',
+        uses: ['Kilpailu', 'Nopeus', 'Valmennus'],
+        for: ['Kilpailujoukkueet', 'Valmentajat'],
+        specs: 'Hiilisyvhybridimatriisi · gliderocker · virtaviivainen nopeusprofiili',
+        artwork: 'Puhallettava hiilisyvhybridirakenne · suorituskykyinen gliderocker',
+        image: 'https://assets.isupfactory.com/site/products/2026/race/race-11.avif',
+        hue: 195,
+      },
+      {
+        slug: 'sup-fishing',
+        series: 'fishing',
+        sku: 'SUP-FSH01',
+        name: 'Puhallettava kalastus-SUP',
+        tagline: 'Kalastusversio katamaraanvakaudella',
+        desc: 'Kalastukseen suunniteltu puhallettava SUP, jossa on kaksipuoliset ilmatilat (katamaraatyyli) poikkeuksellista toissijaisvakautta varten, kiinnikkeet vapatelineen, siima-ura kannessa ja vahvistettu työkori.',
+        uses: ['Kalastus', 'Vakaus', 'Työ'],
+        for: ['Kalastusbrändät', 'Oppaat'],
+        specs: 'Kaksipuoliset ilmatilat · siima-ura 10–80 cm · kiinnikkeet vapatelineen',
+        artwork: 'Vahvistettu työkori · metalliset D-renkaat useissa pisteissä',
+        image: 'https://assets.isupfactory.com/site/products/2026/fishing/fishing-01.avif',
+        hue: 210,
+      },
+      {
+        slug: 'sup-mini',
+        series: 'kids',
+        sku: 'SUP-MINI01',
+        name: 'Mini SUP Series',
+        tagline: '3-in-1: lapset / surf / bodyboard',
+        desc: 'Erittäin kannettava hybridilauta, joka vaihtuu lapsen SUP-laudaksi, puhallettavaksi surffilaudaksi tai bodyboardiksi — lyhyt, leveä ja erittäin vaka profiili sekä puhkaisematon kansi.',
+        uses: ['Lapset', 'Surf', 'Matkailu'],
+        for: ['Lapsibrändät', 'Resortit'],
+        specs: 'Hybridgeometria SUP / surf / bodyboard · lyhyt leveä runko · puhkaisematon kansi',
+        artwork: 'Monikäyttöinen hybridgeometria · kulutusta kestävä kansimateriaali',
+        image: 'https://assets.isupfactory.com/site/products/2026/mini/mini-01.avif',
+        hue: 28,
+      },
+      {
+        slug: 'sup-giant',
+        series: 'multi',
+        sku: 'SUP-GNT01',
+        name: 'Giant SUP — monihenkilöinen tiimilauta',
+        tagline: 'Tiimialusta 6–8 osallistujalle',
+        desc: 'Monihenkilöinen SUP suuressa koossa 6–8 osallistujalle: runko 16,4–17 jalkaa, 59–60 tuumaa leveä ja 8 tuumaa paksu, täyttö kaksoisventtiileillä, 8–12 kantokahvaa ja 4+1-vakajärjestelmä.',
+        uses: ['Ryhmä', 'Tiimi', 'Vapaa-aika'],
+        for: ['Resortit', 'Vuokrauslaivastot'],
+        specs: "16'4\"–17'0\" × 59\"–60\" × 8\" · 1200–1400 L · 11–15 PSI · 4+1 vakat",
+        artwork: 'Täyttö kaksoisventtiileillä · 8–12 neopreenistä kantokahvaa · 4+1-vakajärjestelmä',
+        image: 'https://assets.isupfactory.com/site/products/2026/giant/giant-03.avif',
+        hue: 195,
+      },
+      {
+        slug: 'sup-lure-skiff',
+        series: 'fishing',
+        sku: 'SUP-LSK01',
+        name: 'Utility SUP — Lure Skiff',
+        tagline: 'Perhovinta erittäin leveällä 120 cm:llä',
+        desc: 'Erittäin leveä perhovintalauta 120 cm, jossa on keskellä säilytystila ja alla oleva ikkuna, 400 kg kantokyky ja ponttonin kaltainen runko varmoja heittoja ja istuvalle kalastukselle.',
+        uses: ['Kalastus', 'Työ', 'Vakaus'],
+        for: ['Kalastusbrändät', 'Urheilukalastajat'],
+        specs: '350 × 120 × 15 cm · 400 kg kuorma · kolmivaka · alla oleva ikkuna',
+        artwork: 'Keskellä säilytystila · läpinäkyvä alla oleva ikkuna · ponttonirunko',
+        image: 'https://assets.isupfactory.com/site/products/2026/utility-lure/utility-lure-01.avif',
+        hue: 170,
+      },
+    ],
+  },
 }
 
 /* ─────────────────────────── video showcases ─────────────────────────── */
@@ -6993,6 +7574,31 @@ export const videoShowcase: Localized<{
         { t: 'Skridsikkert dækspude' },
         { t: 'Beslag og elastiske snore' },
         { t: 'Tøm, fold og pak' },
+      ],
+    },
+  },
+  fi: {
+    launch: {
+      badge: 'Brändin lanseeraus',
+      title: 'Haaveiletko oman SUP-brändin lanseeraamista?',
+      sub: 'Et tarvitse omaa tehdasta lanseerataksesi SUP-brändin. Olemme tuotantokumppanisi linjan takana: spesifikaatio, rakenne, näytteet, laadunvarmistus, pakkaus ja vientivalmis tuotanto — kaikki yhden vastuullisen tiimin tekemän sopimuksen alla.',
+      points: [
+        { t: 'Kattava OEM/ODM konseptista tuotantoon', d: 'Räätälöity lautagrafiikka, logon integrointi, kansityynyt ja mukautettu pakkaus.' },
+        { t: 'Joustava lanseeraus pienellä MOQ:lla', d: 'Tuki pienille tuotantoerille, jotta voit testata markkinoita sidomatta suurta pääomaa.' },
+        { t: 'Täydelliset lisävarustepaketit', d: 'Suorituskykyiset melat, pumput, hihnat ja matkalaukut, valmiina lähetettäväksi.' },
+        { t: 'Yritystason laatu ja sertifiointi', d: 'Tiukat QA/QC-käytännöt, painotestit ja maailmanlaajuiset vientivaatimukset.' },
+      ],
+    },
+    process: {
+      badge: 'Tehtaan sisällä',
+      title: 'Näin puhallettava SUP syntyy',
+      sub: 'Oletko koskaan miettinyt, miten pehmeästä laudasta tulee kovakallioinen? Viisi vaihetta laitoksessamme.',
+      points: [
+        { t: 'Tarkka leikkaus ja UV-painatus' },
+        { t: '100 % tiivis kuumahitsaus' },
+        { t: 'Liukumaton kansityyny' },
+        { t: 'Kiinnikkeet ja joustavat nauhat' },
+        { t: 'Tyhjennys, taitto ja pakkaus' },
       ],
     },
   },
@@ -7410,6 +8016,42 @@ export const works: Localized<WorksContent> = {
     ],
     note: 'Den godkendte prøve er kontrakten. Hvert bræt i batchen måles mod den.',
   },
+  fi: {
+    kicker: 'SUP-tuotekehitys',
+    title: 'Briefistä erään — tuotekehitys omassa laitoksessamme',
+    sub: 'Vaatimusten keräämisestä valmiisiin tuotteisiin — jokainen vaihe omassa tehtaassamme.',
+    steps: [
+      {
+        title: 'Vaatimusten kerääminen',
+        body: 'Keräämme spesifikaatiosi, kohdemarkkinasi, vaatimustenmukaisuusvaatimuksesi ja volyymiennusteesi. NDA allekirjoitetaan ennen tiedostojen vaihtoa.',
+      },
+      {
+        title: 'Rakennesarvio',
+        body: 'Lautatyyppi, mitat, rakenne, materiaalit ja kiinnikkeet arvioidaan tuotettavuuden näkökulmasta. Saat kirjallisen raportin, jossa on tunnistetut kustannustekijät.',
+      },
+      {
+        title: 'Grafiikan esipainatus',
+        body: 'Bränditiedostosi muunnetaan tuotantovalmiiksi painotiedostoiksi. Värit sovitetaan ja kokeilupainetaan ennen painatusta.',
+      },
+      {
+        title: 'Prototyyppi',
+        body: 'Fyysinen prototyyppi vahvistaa muodon, jäykkyyden, painon ja viimeistelyn. Lähetetään 7–12 päivän kuluessa.',
+      },
+      {
+        title: 'Näytteen hyväksyntä',
+        body: 'Allekirjoitat fyysisen näytteen. Mitään ei menne tuotantoon ennen kuin referenssinäyte (golden sample) on hyväksytty ja arkistoitu eräviitteenä.',
+      },
+      {
+        title: 'Sarjatuotanto',
+        body: 'Valmistetaan omassa tehtaassamme yllä kuvatun laadunprosessin mukaisesti, eräjäljitettävyyden ulottuessa materiaalierätasoon.',
+      },
+      {
+        title: 'Vientivalmis toimitus',
+        body: 'Vakuumpakattu, kartonkeihin pakatty, dokumentoitu ja toimitettu, valmis vientiin.',
+      },
+    ],
+    note: 'Hyväksytty näyte on sopimus. Jokainen erän lauta mitataan sitä vasten.',
+  },
 }
 
 /* ─────────────────────────── home: board categories ─────────────────────────── */
@@ -7616,6 +8258,23 @@ export const boardCategories: Localized<BoardCategoriesContent> = {
       { id: 'fishing', label: 'Fiskeri', desc: 'Stabile platforme med stangholdere og arbejdskurv til fiskeri.', image: 'https://assets.isupfactory.com/site/products/2026/fishing/fishing-01.avif', href: '/products/sup-fishing' },
       { id: 'kids', label: 'Kids-SUP-bræt', desc: 'Mindre, lettere bræt, der er designet til børn.', image: 'https://assets.isupfactory.com/site/products/2026/kids-teens/kids-teens-05.avif', href: '/products/sup-mini' },
       { id: 'multi', label: 'Flerspersons', desc: 'Storformat teambræt til 6–8 deltagere.', image: 'https://assets.isupfactory.com/site/products/2026/giant/giant-03.avif', href: '/products/sup-giant' },
+    ],
+  },
+  fi: {
+    kicker: 'Lautamme',
+    title: 'Tuotekonseptista tuotantovalmiisiin SUP-lautoihin',
+    sub: 'Jokainen lautaluokka on tuotantoplatformi — valitse lähtökohta, niin mukautamme muodon, grafiikan ja spesifikaatiot tuotteeseesi.',
+    viewLabel: 'Katso',
+    items: [
+      { id: 'all-around', label: 'Allround', desc: 'Monipuoliset SUP-laudat melijoille ja melojille kaikilla tasoilla.', image: 'https://assets.isupfactory.com/site/products/2026/all-around/all-around-03.avif', href: '/products/sup-explorer-11' },
+      { id: 'touring', label: 'Touring-SUP', desc: 'Pitkän matkan laudat tutkimukseen ja seikkailuun.', image: 'https://assets.isupfactory.com/site/products/2026/touring/touring-02.avif', href: '/products/sup-dolphin-wave' },
+      { id: 'race', label: 'Kilpailu', desc: 'Suorituslaudat kilpailuun ja urheilumelontaan.', image: 'https://assets.isupfactory.com/site/products/2026/race/race-01.avif', href: '/products/sup-leviathan-wake' },
+      { id: 'whitewater', label: 'Valkovesi', desc: 'Kulutusta kestävät laudat kajakkailuun ja elämäntapakäyttöön.', image: 'https://assets.isupfactory.com/site/products/2026/whitewater/whitewater-01.avif', href: '/products/sup-ocean-pulse' },
+      { id: 'yoga', label: 'Yoga', desc: 'Tilavat kannet, jotka on suunniteltu joogaan ja harjoitteluun.', image: 'https://assets.isupfactory.com/site/products/2026/yoga/yoga-01.avif', href: '/products/sup-flowing-lotus' },
+      { id: 'surf', label: 'Surf', desc: 'Käännöslaudat aaltojen pyytymiseen ja surffaamiseen.', image: 'https://assets.isupfactory.com/site/products/2026/surf/surf-01.avif', href: '/products/sup-cheetah-surge' },
+      { id: 'fishing', label: 'Kalastus', desc: 'Vakaat alustat vapatelineineen ja kalastuskoreineen.', image: 'https://assets.isupfactory.com/site/products/2026/fishing/fishing-01.avif', href: '/products/sup-fishing' },
+      { id: 'kids', label: 'Lasten SUP-lauta', desc: 'Pienemmät ja kevyemmät laudat, jotka on suunniteltu lapsille.', image: 'https://assets.isupfactory.com/site/products/2026/kids-teens/kids-teens-05.avif', href: '/products/sup-mini' },
+      { id: 'multi', label: 'Monihenkilö', desc: 'Isokokoisten tiimalauta 6–8 osallistujalle.', image: 'https://assets.isupfactory.com/site/products/2026/giant/giant-03.avif', href: '/products/sup-giant' },
     ],
   },
 }
@@ -8023,6 +8682,41 @@ export const platforms: Localized<PlatformsContent> = {
       },
     ],
   },
+  fi: {
+    kicker: 'Tuotantoplatformit',
+    title: 'Perusalustat',
+    sub: 'Perusalustat, ei luettelonuoteet. Jokainen mitta, rakenne ja koko grafiikka määritetään projektikohtaisesti.',
+    items: [
+      {
+        title: 'Allround',
+        body: 'Klassikot vapaa-ajan alustat vähittäiskauppasarjoihin, vuokrauslaivastoihin ja ulkoiluohjelmiin.',
+        uses: ['Vähittäiskaupassarjat', 'Vuokrauslaivastot', 'Ulkoiluohjelmat'],
+        cta: 'Pyydä tämä alusta',
+        href: '/contact',
+      },
+      {
+        title: 'Touring',
+        body: 'Pidemmät vesisarjat, jotka on suunniteltu matkaan, suuntaviivoitukseen ja ekspeditioihin.',
+        uses: ['Matka', 'Suuntaviivat', 'Ekspeditiot'],
+        cta: 'Pyydä tämä alusta',
+        href: '/contact',
+      },
+      {
+        title: 'Kilpailu',
+        body: 'Suoritusmuodot seuroille, tapahtumiin ja kilpailujoukkueille.',
+        uses: ['Seurat', 'Tapahtumat', 'Kilpailujoukkueet'],
+        cta: 'Pyydä tämä alusta',
+        href: '/contact',
+      },
+      {
+        title: 'Monitoiminen',
+        body: 'Kulutusta kestävät laudat suureen käyttöasteeseen kouluille, vuokrausyrityksille ja institutionaalisille ostajille.',
+        uses: ['Koulut', 'Vuokrausyritykset', 'Institutionaaliset ostajat'],
+        cta: 'Pyydä tämä alusta',
+        href: '/contact',
+      },
+    ],
+  },
 }
 
 /* ─────────────────────────── gallery ─────────────────────────── */
@@ -8351,6 +9045,34 @@ export const gallery: Localized<GalleryContent> = {
       },
     ],
   },
+  fi: {
+    kicker: 'Tuotantoprojektit',
+    title: 'Viimeisimmät tuotannot',
+    sub: 'Laitoksestamme toimitetut tuotantoprojektit — niin lukemin kuin ostajat oikeasti kysyvät.',
+    projects: [
+      {
+        tag: 'Eräjäljitettävyys',
+        title: 'Lupaus- ja jäljitettävyysrekisterin luovutus',
+        body: 'Jokainen erä toimitetaan laadunluovutusasiakirjoineen — tarkastusrekisterit, laudan sarjanumero ja allekirjoitettu luovutuspöytäkirja, arkistoituna 10 vuoden ERP-jäljitettävyydellä. Kuvassa näkyy laitoksen varsinainen luovutus- ja jäljitettävyysrekisteri.',
+        hue: 195,
+        image: '/出货放行与批次追溯记录交接.jpg',
+      },
+      {
+        tag: 'Seurajoukkueet',
+        title: 'Seurajoukkueen lauta — kilpailualusta',
+        body: 'Kilpailualusta, jonka spesifikaatiomuutokset ja seuragrafiikka lukittiin näytevaiheessa; muotti uudelleenkäytettiin kahden kauden ajan, joten laajennustilaus sopi täsmälleen alkuperäiseen laivastoon.',
+        hue: 28,
+        image: 'https://assets.isupfactory.com/site/products/2026/surf/surf-01.avif',
+      },
+      {
+        tag: 'Brändisarjan kehittäminen',
+        title: 'Brändisarjan kehittäminen — puhallettava SUP',
+        body: 'Vakiintunut vesilautailubrändi lisäsi sarjan puhallettavia SUP-lautoja: rakennesarvio, mukautettu muoto, kolme kokoa ja ensimmäinen 50 kpl:n tuotantoerä, jossa grafiikka ja tiiveys tarkistettiin ennen skaalausta — suunnittelu ja muotti kuuluvat brändille.',
+        hue: 210,
+        image: 'https://assets.isupfactory.com/site/products/2026/all-around/all-around-03.avif',
+      },
+    ],
+  },
 }
 
 /* ─────────────────────────── buyer's guides (home) ─────────────────────────── */
@@ -8607,6 +9329,28 @@ export const guides: Localized<GuidesContent> = {
       {
         title: 'CE-certificering for oppustelige SUP-bræt',
         body: 'Hvad CE faktisk dækker, de fem dokumenter, du bør kræve, og hvordan du kontrollerer, at et certifikat nævner din model.',
+        href: '/news/ce-certification-inflatable-sup',
+      },
+    ],
+  },
+  fi: {
+    kicker: 'Osto-oppaat',
+    title: 'Tuotanto-oppaat',
+    sub: 'Kysymykset, joita jokainen SUP-brändi esittää ennen tilausta — vastattuina suoraan, todellisilla ehdoillamme.',
+    guides: [
+      {
+        title: 'Oma merkki: koko vaihe vaiheelta -opas',
+        body: 'Tehtaan valinnasta tuotantoon — koko matka kuudessa vaiheessa uusille brändeille.',
+        href: '/news/private-label-sup-guide',
+      },
+      {
+        title: 'SUP OEM -MOQ ja hinnoittelu',
+        body: 'MOQ-tasot 1–2 näytteestä 90–100+ kpl:n sarjoihin, kuusi kustannustekijää ja viisi tapaa laskea kustannuksia laadusta tinkimättä.',
+        href: '/news/sup-oem-moq-pricing',
+      },
+      {
+        title: 'CE-sertifiointi puhallettaville SUP-laudoille',
+        body: 'Mitä CE oikeasti kattaa, mitkä viisi asiakirjaa sinun kannattaa vaatia ja miten tarkistat, että sertifikaatti mainitsee mallisi.',
         href: '/news/ce-certification-inflatable-sup',
       },
     ],
@@ -9019,6 +9763,43 @@ export const manufacturingGuides: Localized<GuidesContent> = {
       {
         title: 'CE-certificering for oppustelige SUP-bræt',
         body: 'Hvad CE faktisk dækker, de fem dokumenter, du bør kræve, og hvordan du kontrollerer, at et certifikat nævner din model.',
+        href: '/news/ce-certification-inflatable-sup',
+      },
+    ],
+  },
+  fi: {
+    kicker: 'Tuotanto-oppaat',
+    title: 'Tehtaasta valmiiseen tuotteeseen',
+    sub: 'Koko hankinta-aineisto — jokainen vaihe räätälöidyssä SUP-projektissa, todellisilla toimitusajoillamme, ehdoillamme ja dokumentaatiollamme.',
+    guides: [
+      {
+        title: 'SUP OEM -valmistajan valinta',
+        body: 'Auditointikysymykset, jotka erottavat oikean tehtasian välikkeestä: sertifioinnit, laadunvarmistus, näytteet ja omistajuus.',
+        href: '/news/how-to-choose-sup-oem-manufacturer',
+      },
+      {
+        title: 'SUP-tuotekehityksen aikataulu',
+        body: 'Näytteet 7–12 päivässä, tuotanto 25–35 päivässä, muotti 15–20 päivää lisää — koko kalenteri vaihe vaiheelta.',
+        href: '/news/custom-sup-development-timeline',
+      },
+      {
+        title: 'Tiedot, jotka sinun kannattaa valmistella ennen tilausta',
+        body: 'Viisi tietoa, joiden avulla tehdas pystyy antamaan oikean tarjouksen ensimmäisellä yrityksellä — ja välttää spesifikaation uudelleentyötön.',
+        href: '/news/info-needed-before-sup-production',
+      },
+      {
+        title: 'Oma merkki: koko vaihe vaiheelta -opas',
+        body: 'Tehtaan valinnasta tuotantoon — koko matka kuudessa vaiheessa uusille brändeille.',
+        href: '/news/private-label-sup-guide',
+      },
+      {
+        title: 'SUP OEM -MOQ ja hinnoittelu',
+        body: 'MOQ-tasot 1–2 näytteestä 90–100+ kpl:n sarjoihin, kuusi kustannustekijää ja viisi tapaa laskea kustannuksia laadusta tinkimättä.',
+        href: '/news/sup-oem-moq-pricing',
+      },
+      {
+        title: 'CE-sertifiointi puhallettaville SUP-laudoille',
+        body: 'Mitä CE oikeasti kattaa, mitkä viisi asiakirjaa sinun kannattaa vaatia ja miten tarkistat, että sertifikaatti mainitsee mallisi.',
         href: '/news/ce-certification-inflatable-sup',
       },
     ],
@@ -9777,6 +10558,73 @@ export const faq: Localized<FaqContent> = {
       },
     ],
   },
+  fi: {
+    kicker: 'FAQ',
+    title: 'Usein kysytyt kysymykset tuotannosta',
+    sub: 'Kysymykset, joita ostajat esittävät ennen tilausta — vastattuina todellisilla ehdoillamme.',
+    items: [
+      {
+        q: 'Mitä iSupfactory valmistaa?',
+        a: 'iSupfactory on puhallettavien SUP-lautojen ja niihin liittyvien vesilautailutuotteiden ammattimainen valmistustehdas globaaleille brändeille ja yrityksille — suunniteltu, koeproduktioitu ja valmistettu omassa 12 500 m²:n tehtaassamme Qingdaossa, Kiinassa.',
+      },
+      {
+        q: 'Mitä eroa on OEM:llä ja ODM:llä?',
+        a: `OEM: valmistamme hyväksymäsi spesifikaation mukaan — piirroksesi, mitat, materiaalit ja pakkaus. Sinulle kuuluu suunnittelu ja immateriaalioikeudet. ODM: suunnittelutiimimme kehittää laudan briefisi mukaan — olipa kyseessä markkinakonsepti, suorituskohde tai testatun alustan mukautus — ja hyväksytt sen ennen tuotantoa. Oma merkki sijoittaa sinun merkkisi olemassa olevalle, validoidulle alustalle ilman rakenteellisia muutoksia. Sekä OEM- että ODM-tie kulkevat saman tehtaan, saman laatujärjestelmän ja saman vientitiimin läpi; ODM on nopein reitti brändilaudalle alkaen ${MOQ_SHORT.standardRun}, ja näytteet valmistuvat ${FACTS.sampleTime} kuluessa.`,
+      },
+      {
+        q: 'Mikä on vähimmäistilausmääränne?',
+        a: `Yhteisbrändiys pienillä määrillä alkaa 5–10 kpl:stä; pilottierät 20–50 kpl:stä. Vakiosarjatuotanto alkaa ${MOQ_SHORT.standardRun}. Omilla muoteilla tuotetaan volyymista riippuen monimutkaisuudesta.`,
+      },
+      {
+        q: 'Miten kauan tuotanto kestää?',
+        a: '25–35 päivää vahvistetusta tilauksesta (PO) ja käsirahasta. Oma muotti lisää 15–20 päivää muotin kehittelyyn. Kiireistä tuotantoa on saatavilla lyhyellä toimitusajalla tilattaviin kausitilauksiin.',
+      },
+      {
+        q: 'Miten nopeasti saan näytteen?',
+        a: 'Prototypynäytteet lähetetään yleensä 7–12 päivän kuluessa grafiikan ja spesifikaation hyväksynnän jälkeen.',
+      },
+      {
+        q: 'Mitä sertifiointeja teillä on?',
+        a: 'ISO 9001 laadunhallintaa varten, CE-sertifiointi EU-markkinoille tarkoitetuille malleille (laajuus vahvistetaan projektikohtaisesti) ja voimassa oleva BSCI-sertifiointi sosiaaliselle vaatimustenmukaisuudelle, auditointiraportti pyydettäessä. REACH- ja RoHS-dokumentaatio toimitetaan jokaisen tilauksen mukana.',
+      },
+      {
+        q: 'Hoidatteko vientiasiakirjat?',
+        a: 'Kyllä. Vientiasiakirjat ja vientiin sovitettu pakkaus hoidetaan omassa talossa, ja toimitamme yli 50 maan brändeille EU:ssa, Yhdysvalloissa, Australiassa ja Aasiassa.',
+      },
+      {
+        q: 'Näytetäänkö suunnitteluani muille asiakkaille?',
+        a: 'Ei. Grafiikka-, muotti- ja spesifikaatiotiedostot pysyvät sinun omaisuutenasi. Allekirjoitamme NDA:n ennen tiedostojen vaihtoa emmekä koskaan käytä tai myy asiakkaiden muotteja tai suunnitteluja uudelleen.',
+      },
+      {
+        q: 'Myyttekö omaa SUP-brändiänne?',
+        a: 'Emme. Valmistamme yksinomaan asiakkaidemme merkeissä. Emme myy loppukäyttäjille emmekä koskaan kilpaile asiakkaidemme kanssa millään markkinoilla.',
+      },
+      {
+        q: 'Voitteko valmistaa laudan, jota jo myyn?',
+        a: 'Kyllä. Lähetä fyysinen näyte tai täydellinen spesifikaatio, niin suunnittelutiimimme vastaa raportilla tuotantomahdollisuuksista, joka kattaa materiaalin, rakenteen, toleranssit ja kustannustekijät.',
+      },
+      {
+        q: 'Voitteko valmistaa SUP-lautoja logomme kanssa?',
+        a: 'Kyllä. Brändäys — logot, värit, grafiikka ja pinnan kuvitus — integroidaan suunnitteluun ja tuotantoon sovittujen spesifikaatioiden mukaisesti. Kaikki brändi- ja grafiikkatiedostot kuuluvat sinulle.',
+      },
+      {
+        q: 'Voitteko kehittää täysin uuden SUP-tuotteen?',
+        a: 'Kyllä. Räätälöity tuotekehitys alkaa konseptistasi, piirroksistasi, spesifikaatioistasi tai markkinavaatimuksistasi. Työskentelemme spesifikaatiokatsauksen, rakennesuunnittelun, prototyyppinäytteiden ja hyväksynnän kautta ennen sarjatuotantoa.',
+      },
+      {
+        q: 'Mitä materiaaleja käytätte puhallettavissa SUP-laudoissa?',
+        a: 'Puhallettavat SUP-laudat rakennetaan drop-stitch-rakenteella, jossa PVC-kerrokset ja tiivisteet valitaan painon, jäykkyyden ja hinnan tavoitteiden saavuttamiseksi, käyttäen REACH/RoHS-yhteensopivia materiaaleja ja laatusertifiointeja (ISO 9001, CE, BSCI).',
+      },
+      {
+        q: 'Tehkette yhteistyötä uusien tai alkuvaiheessa olevien SUP-brändien kanssa?',
+        a: `Kyllä. OEM/ODM-hankkeet kehitetään tuotevaatimustasi, kohdemarkkinoidesi ja volyymiesi mukaan — pilottierät alkaen 20–50 kpl:stä ja vakiosarjatuotanto alkaen ${MOQ_SHORT.standardRun}.`,
+      },
+      {
+        q: 'Mitä tietoja minun tulee antaa, kun pyydän SUP OEM -tarjouksen?',
+        a: 'Hyödyllisin tiedot: tuotetyyppi, kohdemarkkina, laudan mitat tai spesifikaatiot, haluttu rakenne, brändivaatimukset, odotettu määrä, pakkausvaatimukset ja suunniteltu lanseerausajankohta. Tiimimme vastaa teknisellä arvioinnilla ja tarjouksella yhden työpäivän kuluessa.',
+      },
+    ],
+  },
 }
 
 export const homeFaq: Localized<FaqContent> = {
@@ -10033,6 +10881,29 @@ export const homeFaq: Localized<FaqContent> = {
       },
     ],
   },
+  fi: {
+    kicker: faq.fi.kicker,
+    title: faq.fi.title,
+    sub: faq.fi.sub,
+    items: [
+      {
+        q: 'Keitä iSupfactory on?',
+        a: 'iSupfactory on Qingdaossa Kiinassa toimiva SUP OEM- ja ODM-valmistaja, joka tarjoaa tuotekehitystä, prototyyppien valmistusta, tuotantoa, laadunvarmistusta ja vientituotantoa brändeille, jakelijoille ja ulkoiluyrityksille.',
+      },
+      {
+        q: 'Onko iSupfactory OEM-valmistaja?',
+        a: 'Kyllä. iSupfactory valmistaa puhallettavia SUP-lautoja asiakkaan hyväksymien spesifikaatioiden mukaan, mukaan lukien mitat, materiaalit, rakenne, grafiikka, lisävarusteet ja pakkaus. Myös ODM-tuotekehitys on saatavilla brändeille, jotka haluavat kehittää SUP-laudan briefin perusteella.',
+      },
+      faq.fi.items[1],
+      faq.fi.items[2],
+      faq.fi.items[3],
+      faq.fi.items[5],
+      {
+        q: 'Voivatko ostajat tehdä tehtaan auditoinnin tai käyttää kolmannen osapuolen tarkastusta?',
+        a: 'Kyllä. Toivotamme ostaja-auditointit tervetulleiksi ja teemme säännöllisesti yhteistyötä SGS:n, TÜV:n, BV:n ja Intertekin kanssa. Kolmannen osapuolen tarkastuksen voi järjestää missä tahansa tuotantovaiheessa — saapuvat materiaalit, tuotannon aikana tai lopputarkastus — ja tarkastusraportit toimitetaan pyydettäessä.',
+      },
+    ],
+  },
 }
 
 /* ─────────────────────────── CTA band ─────────────────────────── */
@@ -10110,6 +10981,12 @@ export const cta: Localized<CtaContent> = {
     body: 'Uanset om du allerede har en komplet produktspecifikation eller stadig udvikler dit koncept, kan vores team hjælpe dig med at vurdere næste trin. Fortæl os, hvad du vil bygge — vi gennemgår dine krav og drøfter den mest praktiske vej fra koncept til produktion.',
     button: 'Start dit SUP-projekt',
     note: 'Svar inden for 1 arbejdsdag · NDA på forespørsel før filudveksling · info@isupfactory.com · +86-13305324192',
+  },
+  fi: {
+    title: 'Valmiina kehittämään SUP-tuotettasi?',
+    body: 'Olipa sinulla jo täydellinen tuotespesifikaatio tai olet vielä kehittämässä konseptiasi, tiimimme voi auttaa sinua arvioimaan seuraavaa askelta. Kerro mitä haluat rakentaa — käymme vaatimuksesi läpi ja keskustelemme käytännöllisimmästä reitistä konseptista tuotantoon.',
+    button: 'Aloita SUP-projektisi',
+    note: 'Vastaus 1 työpäivän kuluessa · NDA pyydettäessä ennen tiedostojen vaihtoa · info@isupfactory.com · +86-13305324192',
   },
 }
 
@@ -10469,6 +11346,37 @@ export const valueProp: Localized<ValuePropContent> = {
       },
     ],
   },
+  fi: {
+    kicker: 'Meidän roolimme',
+    title: 'Enemmän kuin SUP-tehdas',
+    sub: 'Moni valmistaja pystyy valmistamaan vakiomallisen SUP-laudan. Meidän roolimme on toinen. iSupfactory on tuotekehitys- ja räätälöityjen SUP-tuotteiden valmistuksen kumppani, joka auttaa yrityksiä siirtymään ensimmäisestä ajatuksesta tuotantovalmiiseen tuotteeseen.',
+    cards: [
+      {
+        title: 'Tuotekehitys',
+        body: 'Muuta konseptisi, piirroksesi, spesifikaatiosi tai markkinavaatimuksesi tuotantovalmiiksi SUP-tuotteeksi.',
+      },
+      {
+        title: 'Räätälöity tuotanto',
+        body: 'Mukauta rakenne, mitat, grafiikka, värit, lisävarusteet ja pakkaus vaatimuksiisi.',
+      },
+      {
+        title: 'Prototyyppien kehittäminen',
+        body: 'Arvioi tuote ennen sarjatuotantoa näytekehittelyn ja testien avulla.',
+      },
+      {
+        title: 'Tuotantotuki',
+        body: 'Hyväksytyn suunnittelun jälkeen hoidamme siirtymän prototyypistä toistettavaan sarjatuotantoon.',
+      },
+      {
+        title: 'Laadunvarmistus',
+        body: 'Koko tuotannon laatuvalvonta varmistaa, että valmiit tuotteet täyttävät sovitut spesifikaatiot.',
+      },
+      {
+        title: 'Maailmanlaajuiset toimitukset',
+        body: 'Tuki pakkauksen ja vientiasiakirjojen kanssa helpottaa hankintaprosessia.',
+      },
+    ],
+  },
 }
 
 /* ─────────────────────────── home: role boundary (Where We Stop, You Start) ─────────────────────────── */
@@ -10668,6 +11576,22 @@ export const boundary: Localized<BoundaryContent> = {
       { ours: 'Certificeringsdokumentation og eksporttilpasset emballage', theirs: 'Kundeforhold og eftersalg' },
     ],
     footer: 'Dine grafik-, værktøjs- og specifikationsfiler forbliver din ejendom og genbruges, sælges eller vises aldrig for nogen anden kunde.',
+  },
+  fi: {
+    kicker: 'Keitä olemme',
+    title: 'SUP-tehtaan rakentama, ei kauppapaikan',
+    sub: 'Olemme tuotantokumppani emmekä markkinapaikka. Tehtävämme on auttaa asiakkaita muuntaan visiot, suunnittelut ja tuotevaatimukset tuotantovalmiiksi SUP-tuotteiksi. Sinulla on omat merkkisi. Sinä hallitset markkinoita. Vastaamme tuotannosta.',
+    oursTitle: 'Vastaamme',
+    theirsTitle: 'Sinä säilytät',
+    rows: [
+      { ours: 'Spesifikaatiokatsaus ja tuotantomahdollisuuksien arviointi', theirs: 'Brändin nimi, identiteetti ja asemointi' },
+      { ours: 'Rakennetekniikka, materiaalivalinnat, muotin kehittäminen', theirs: 'Hinnat, kanavat ja myynti' },
+      { ours: 'Kansigrafiikan esipainatus ja tuotanto bränditiedostoistasi', theirs: 'Kaikkien brändi- ja grafiikkatiedostojen omistajuus' },
+      { ours: 'Prototyypointi, näytteet ja näytteen hyväksynnän dokumentaatio', theirs: 'Jokaisen näytteen lopullinen hyväksyntä' },
+      { ours: 'Sarjatuotanto, laadunvalvonta tuotannon aikana ja lopputarkastus', theirs: 'Markkinasi, asiakkaasi, datasi' },
+      { ours: 'Sertifiointidokumentaatio ja vientiin sovitettu pakkaus', theirs: 'Asiakassuhteet ja jälkimyynti' },
+    ],
+    footer: 'Grafiikka-, muotti- ja spesifikaatiotiedostosi pysyvät sinun omaisuutenasi, eikä niitä koskaan käytetä uudelleen, myydä tai näytetä muille asiakkaille.',
   },
 }
 
@@ -11163,6 +12087,42 @@ export const about: Localized<AboutContent> = {
       ],
     },
   },
+  fi: {
+    kicker: 'Tietoja meistä',
+    title: 'Tietoja iSupfactorysta',
+    sub: 'Kumppanisi räätälöityyn SUP-tuotantoon',
+    story: [
+      'Olemme puhallettavien SUP-lautojen OEM/ODM-tehdas, joka on vuosien saatossa valmistanut lautoja brändeille, jakelijoille ja hankintatiimeille ympäri maailmaa. Matkan varrella kohtasimme toistuvasti samanlaisen asiakkaan — brändit ja ostajat, joilla on selvä tuotekonsepti mutta ei omaa tehdasta sen toteuttamiseen.',
+      'Siksi rakensimme iSupfactoryn heidän ympärilleen. Porrastetut vähimmäistilausmäärät yhteisbrändiys-sarjoista 5–10 kpl, täysi tuki rakenteen ja suunnittelun parissa sekä tuotantotiimi, joka suhtautuu ensimmäiseen tilaukseen yhtä vakavasti kuin sadannen. Sinä tuotat merkin; me pyöritämme tehdasta.',
+    ],
+    values: [
+      { title: 'Laatu ensin', body: 'Jokainen lauta käy läpi monivaiheisen laadunvalvonnan — materiaali, saumat, painatus, kokoonpano ja pakkaus tarkistetaan jokaisessa tuotantovaiheessa.' },
+      { title: 'Valmistaja, ei välikäs', body: 'Suunnittelu, muotin kehittäminen, prototyyppien valmistus, tuotanto ja testit tapahtuvat saman katon alla — sinun ja tehtaan välissä ei ole kaupankäyntivälittäjää.' },
+      { title: 'Joustava pohjalla', body: 'Porrastetut vähimmäistilausmäärät, modulaariset valinnat ja rehelliset toimitusajat auttavat brändejä kasvamaan näytekokoelmista sarjamääriksi.' },
+    ],
+    capabilities: ['OEM / ODM / oma merkki', 'Räätälöidyt muotit', 'Näytepalu', 'Suunnittelu ja grafiikka', 'Monivaiheinen laadunvalvonta', 'Vientiasiakirjat'],
+    stats: [
+      { value: '90–100+ kpl', label: 'Vakiovähimmäistilausmäärä (hyväksytyn konfiguraation mukaan)' },
+      { value: '7–12 päivää', label: 'Näytteiden toimitusaika' },
+      { value: '25–35 päivää', label: 'Tuotantoaika' },
+      { value: '20–50 kpl', label: 'Pilottitilausten vähimmäismäärä' },
+    ],
+    strength: [
+      { title: 'Tuotekehitys', body: 'Konseptipiirroksista tuotantopiirroksiin — insinöörimme hienosäätävät muotoa, rockeria, paksuutta ja drop-stitch-rakennetta päästäkseen tavoitteisiisi suorituksessa ja hinnassa.' },
+      { title: 'OEM-tuotanto', body: 'Valmistetaan spesifikaatiosi mukaan: materiaali, värit, logon sijainti, lisävarusteet ja pakkaus, sarjamäärissä 90–100+ kpl hyväksytyn konfiguraation mukaan.' },
+      { title: 'ODM-ratkaisut', body: 'Rakenna testattujen alustojemme päälle — allround, touring, race, yoga ja muut — ja mukauta brändi, grafiikka ja välineet nopeaksi ja riskittömäksi lanseeraukseksi.' },
+      { title: 'Suunnittelutuki', body: 'Muotin kehittäminen, prototyypit ja näyteiterointi saman katon alla, painokokeilla ja grafiikan hyväksynnällä jokaisessa vaiheessa ennen sarjatuotantoa.' },
+      { title: 'Laadunhallinta', body: 'Monipisteinen laadunvalvonta materiaalille, saumoille, painatukselle, kokoonpanolle ja pakkaukselle sekä otanta- ja lähetystarkastus, jonka voit tilata kolmannelta osapuolelta.' },
+      { title: 'Maailmanlaajuiset toimitukset', body: 'Vientiasiakirjat, vientiin sovitettu pakkaus ja oma asiakirjatuki brändeille yli 50 markkinoilla.' },
+    ],
+    partnering: {
+      title: 'Yhteistyö yritysten kanssa ympäri maailmaa',
+      body: [
+        'iSupfactory tekee yhteistyötä SUP-brändien, jakelijoiden, resorttien, koulujen ja ulkoiluyritysten kanssa, jotka tarvitsevat luotettavan tehtaan puhallettaville SUP-laudoille — ensimmäisestä näytetilauksesta konttimääriin ulottuviin ohjelmiin.',
+        'Kerro markkinoistasi ja halutusta hintatasosta, niin vastaamme spesifikaatiolomakkeella, vähimmäistilausmäärällä ja toimitusajoilla, jotka sopivat liiketoimintamalliisi.',
+      ],
+    },
+  },
 }
 
 /* ─────────────────────────── customizer page ─────────────────────────── */
@@ -11380,6 +12340,24 @@ export const customizer: Localized<CustomizerContent> = {
     boardLabel: 'DIT MÆRKE',
     cta: 'Lav dit design',
   },
+  fi: {
+    kicker: 'Suunnittele SUP-lautasi',
+    title: 'Näe SUP-konseptisi ennen tuotantoa',
+    sub: 'Esikatsele, miltä brändisi näyttää oikealla laudalla — valitse väri, katso mallinnuksen päivittyvän reaaliajassa ja lähetä sitten logosi täydellistä suunnittelua varten.',
+    status: 'Interaktiivinen esikatselu',
+    statusBody: 'Kokeile palettia nyt ja lähetä sitten visiosi — tiimimme tekee ilmaisen mallinnuksen täydestä suunnittelustasi.',
+    steps: [
+      { title: 'Valitse lautamalli', body: 'Allround-alustoista touring- ja joogamuotoihin — jokainen realistisine mittoineen.' },
+      { title: 'Valitse värit', body: 'Valitse brändipalettisi ja katso laudan muuttuvan heti.' },
+      { title: 'Lataa logosi', body: 'Sijoita logosi ja grafiikkasi kannelle — säädä koko ja sijainti.' },
+      { title: 'Luo mallinnus', body: 'Jaa mukautetun SUP-lautasi esikatselu tiimillesi.' },
+    ],
+    mockupLabel: 'Mallinnuksen live-esikatselu',
+    mockupBrand: "SUP Explorer 11'",
+    stepLabel: 'Vaihe',
+    boardLabel: 'SINUN MERKKISI',
+    cta: 'Luo suunnittelusi',
+  },
 }
 
 /* ─────────────────────────── products page extras ─────────────────────────── */
@@ -11481,6 +12459,14 @@ export const productsPage: Localized<ProductsPageContent> = {
     customTitle: 'Hvert produkt kan tilpasses',
     customBody: 'Intet sendes færdigt fra hylden. Hvert bræt bygges til dig med dine valg i hvert lag.',
     customPoints: ['Form og størrelse', 'Farver og grafik på hele brættet', 'Logo- og EVA-pudedesign', 'Tilbehør og emballage'],
+  },
+  fi: {
+    kicker: 'Tuotantoplatformit',
+    title: 'Räätälöitävissä olevat SUP-alustat',
+    sub: 'Jokainen alla oleva malli on tuotantoplatformi. Valitse yksi lähtökohta, niin mukautamme muodon, grafiikan, värit ja spesifikaatiot tuotteeseesi.',
+    customTitle: 'Jokainen tuote on mukautettavissa',
+    customBody: 'Mitään ei lähetetty valmiina hyllystä. Jokainen lauta rakennetaan sinulle omilla valinnoillasi jokaisessa kerroksessa.',
+    customPoints: ['Muoto ja koko', 'Värit ja grafiikka koko laudalla', 'Logon ja EVA-kannen suunnittelu', 'Lisävarusteet ja pakkaus'],
   },
 }
 
@@ -11620,6 +12606,17 @@ export const catalogDownload: Localized<CatalogContent> = {
     successTitle: 'Forespørgsel modtaget',
     successBody: 'Vores salgsteam sender hele produktkataloget og MOQ-arket til {email} inden for en arbejdsdag.',
   },
+  fi: {
+    kicker: 'Tuotekatalogi',
+    title: 'Saat koko tuotekatalogin ja MOQ-arkin',
+    body: 'Kaikki alustat spesifikaatioineen, grafiikavaihtoehtoineen, MOQ-tasoineen, näyteaikoineen ja pakkauksineen — myyntimme lähettää ne sähköpostiisi yhden työpäivän kuluessa.',
+    emailLabel: 'Työosoite',
+    emailPlaceholder: 'sinu@yritys.fi',
+    submit: 'Pyydä katalogi',
+    secure: 'Ei roskapostia. Vain katalogi ja vastaukset projekteistasi.',
+    successTitle: 'Pyyntö vastaanotettu',
+    successBody: 'Myyntimme lähettää koko tuotekatalogin ja MOQ-arkin osoitteeseen {email} yhden työpäivän kuluessa.',
+  },
 }
 
 /* ─────────────────────────── gallery page extras ─────────────────────────── */
@@ -11698,6 +12695,12 @@ export const galleryPage: Localized<GalleryPageContent> = {
     sub: 'Et indblik i, hvordan SUP-produkter bliver til — fra kundekrav til færdige bræt.',
     note: 'Vil du have dit projekt vist her? Start en samtale, så designer vi det sammen.',
   },
+  fi: {
+    kicker: 'Räätälöidyt SUP-projektit',
+    title: 'Räätälöidyt SUP-projektit',
+    sub: 'Katsaus siihen, miten SUP-tuotteet syntyvät — asiakkaan vaatimuksista valmiisiin lautoihin.',
+    note: 'Haluatko projektisi näkyvän täällä? Aloita keskustelu ja suunnitellaan se yhdessä.',
+  },
 }
 
 /* ─────────────────────────── who-we-serve page extras ─────────────────────────── */
@@ -11763,6 +12766,11 @@ export const servePage: Localized<ServePageContent> = {
     kicker: 'Hvem vi arbejder for',
     title: 'Skræddersyede SUP-løsninger til din virksomhed',
     sub: 'Uanset om du har brug for mærkebræt til din organisation eller skræddersyede SUP-produkter til din virksomhed, hjælper vi dig med at omsætte krav til færdige produkter.',
+  },
+  fi: {
+    kicker: 'Kenelle työskentelemme',
+    title: 'Räätälöidyt SUP-ratkaisut yrityksellesi',
+    sub: 'Tarvitsetpa organisaatiollesi brändättyjä lautoja tai yrityksellesi räätälöityjä SUP-tuotteita, autamme muuntamaan vaatimukset valmiiksi tuotteiksi.',
   },
 }
 
@@ -11854,6 +12862,13 @@ export const worksPage: Localized<WorksPageContent> = {
     sub: 'Indsamling af krav, konstruktionsgennemgang, prøvning, produktion og eksport — hvert trin i vores egen fabrik.',
     consultTitle: 'Start med en specifikationsgennemgang',
     consultBody: 'Send os din specifikation, et referencebræt eller tegninger. Vi returnerer en produktionsvurdering og et tilbud — helt uden forpligtelser.',
+  },
+  fi: {
+    kicker: 'Tuotekehityksen vaiheet',
+    title: 'Spesifikaatiosta valmiiseen tuotteeseen',
+    sub: 'Vaatimusten kerääminen, tekninen arviointi, näytteet, tuotanto ja vienti — jokainen vaihe omassa tehtaassamme.',
+    consultTitle: 'Aloita spesifikaatiokatsauksesta',
+    consultBody: 'Lähetä meille spesifikaatiosi, vertailulauta tai piirrokset. Palautamme tuotantomahdollisuusarvion ja tarjouksen — täysin sitomatta.',
   },
 }
 
@@ -12099,9 +13114,30 @@ export const series: Localized<SeriesContent> = {
         href: '/products/sup-leviathan-wake',
       },
       {
-        title: 'Medusa Glow-serien (Gødeludgaven)',
+        title: 'Medusa Glow-serien (Gødlestuedgaven)',
         sku: 'SUP-MG11',
-        body: 'Levende gødler, søstjerner og korallrev med farvetrykkede EVA-blokmotiver i forfriskende mintgrøn. Allround-skrog på 11 ft til tropiske og kystnære eventyr.',
+        body: 'Levende meduser, søstjerner og koraller med farveekte EVA-blokmotiv i forfriskende mintgrøn. Allround-skrog på 11 ft til tropiske og kystnære eventyr.',
+        image: 'https://assets.isupfactory.com/site/products/2026/editions/medusa-jellyfish-edition.avif',
+        href: '/products/sup-medusa-glow',
+      },
+    ],
+  },
+  fi: {
+    kicker: 'Signature-sarja',
+    title: 'Teemoja sisältävät SUP-versiot',
+    sub: 'Meriin inspiroidut teemaversiot, jotka ovat valmiit omaan brändiisi — valmiit suunnittelut UV-digitaalipainolla ja mekaanisella kohokuvioinnilla.',
+    items: [
+      {
+        title: 'Leviathan Wake -sarja (valasversio)',
+        sku: 'SUP-LW11',
+        body: 'Majesteettinen sinivalastotem geometrisin ja heimokulttuurisin kuvioin, yhdistettynä minimalistisiin mustavalkoisiin aaltoviivoihin. Allround-runko 11 ft järville, joille ja rannikkovesille.',
+        image: 'https://assets.isupfactory.com/site/products/2026/editions/leviathan-whale-edition.avif',
+        href: '/products/sup-leviathan-wake',
+      },
+      {
+        title: 'Medusa Glow -sarja (meduusaversio)',
+        sku: 'SUP-MG11',
+        body: 'Elävät meduusat, meritähdet ja korallit todenmukaisilla EVA-värilevymotiveilla virkistävän mintinvihreässä. Allround-runko 11 ft trooppisiin ja rannikkoseikkailuihin.',
         image: 'https://assets.isupfactory.com/site/products/2026/editions/medusa-jellyfish-edition.avif',
         href: '/products/sup-medusa-glow',
       },

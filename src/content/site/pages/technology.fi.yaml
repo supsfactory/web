@@ -1,0 +1,45 @@
+meta:
+  title: 'Teknologia — drop stitch ja meri-PVC | {SITE}'
+  description: 'Vatradin teknologiat: drop stitch -rakenne, meri-PVC, kaksikerroksiset rakenteet ja korkea paine. Innovaatiota ammattilaiselta puhallettavien SUP-lautojen valmistajalta.'
+  dateModified: '2026-08'
+  keywords:
+    - 'sup-teknologia'
+    - 'drop stitch -rakenne'
+    - 'korkean paineen sup'
+    - 'puhallettavien sup-materiaalit'
+hero:
+  tagline: Teknologia
+  title: Suunniteltu suorituskykyä varten
+  subtitle: Jokainen Vatradin puhallettava SUP on suunniteltu drop stitch -rakenteella ja meriluokan PVC:llä — tarkat materiaalit ja valmistusmenetelmät, jotka on testattu vaativissa meriympäristöissä.
+
+sections:
+  - title: Drop-stitch-ydin
+    description: Tuhansia sisäisiä polyesterisäikeitä yhdistää ylä- ja ala kerroksen muodostaen jäyän rakenteen 12-15 PSI:n paineella. Tämä on sama tekniikka, jota käytetään ammattilaisen meloissa ja puhallettavissa kilpailu-SUP-laudoissa.
+    imageAlt: DS-ydinkaavio
+  - title: Meriluokan PVC
+    description: Monikerroksinen laminoitu PVC-kangas, joka on mitoitettu meriympäristöihin. Jokainen kerros sulahitsataan liimauksen sijaan, mikä poistaa delaminaation riskin. Testattu UV-kestävyyteen, suolavesikorroosioon ja hankautumiseen.
+    imageAlt: PVC-kerros
+  - title: Sotilasluokan PVC
+    description: 'Käytetään kaikissa SUP-malleissa: premium-PVC tarjoaa ylivertaisen UV- ja kemiallisen kestävyyden. Säilyttää joustavuuden äärimmäisissä lämpötiloissa ja kestää kunnon heikkenemistä.'
+    imageAlt: PVC
+  - title: Ilmakansi
+    description: Korkean paineen puhallettava drop-stitch-rakenne, joka tarjoaa poikkeuksellisen jäykkyyden seisomiseen, kalastukseen ja joogaan. Lyhentää pystytysaikaa ja vähentää kokonaispainoa ja säilytystilavuutta.
+    imageAlt: Ilmakansi
+
+related:
+  title: Aiheeseen liittyvät
+  links:
+    - text: Tutkimus- ja kehityskeskus
+      url: /fi/randdcenter
+    - text: Laaduntestaus
+      url: /fi/quality
+    - text: Turvallisuusstandardit
+      url: /fi/quality
+    - text: Takuu
+      url: /fi/warranty
+    - text: Matkailu ja vapaa-aika
+      url: /fi/tourism-recreation
+    - text: Oppaat
+      url: /fi/knowledge
+    - text: Tuotteet
+      url: /fi/products

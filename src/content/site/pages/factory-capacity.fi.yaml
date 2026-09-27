@@ -1,0 +1,85 @@
+meta:
+  title: 'Tuotantokapasiteetti — 12,500 m² tehdas | {SITE}'
+  description: 'Vatradin tehtaan kapasiteetti: 12,500 m² laitos, joka valmistaa yli 120,000 SUP-lautaa vuodessa ja mahdollistaa skaalauksen. Suurmittaisen OEM/ODM-valmistus puhallettaville SUP-lautoille.'
+  dateModified: '2026-08-07'
+  keywords:
+    - 'sup tuotantokapasiteetti'
+    - 'puhallettavien sup-lautojen tehdas'
+    - 'paddle board tuotanto'
+    - 'sup tehdas kiina'
+hero:
+  tagline: Tuotantokapasiteetti
+  title: Valmistuskapasiteetti ja vuosituotanto
+  subtitle: 12,500 m² laitos, joka valmistaa yli 120,000 SUP-lautaa vuodessa ja mahdollistaa skaalauksen
+
+answer:
+  label: 'Suora vastaus'
+  text: 'Tehtaan kapasiteetti: 12,500 m² neljällä erikoistuneella osastolla, yli 120,000 SUP-lautaa vuodessa, 350+ työntekijää kahdessa vuorossa ja vienti yli 50 maahan. Vähimmäiseräkoko vahvistetaan projektin konfiguroinnin mukaan — näyte (1–2 kpl), pilottisarja (20–50 kpl) ja vakiintunut volyymierä (90–100+ kpl 150 m rullaa kohti); koko logiikka on oppaassamme Minimitilaus ja joustava brändäys. Toimitusaika 25–35 päivää, näytteet 7–12 päivää.'
+  verified: 'Syyskuu 2026'
+
+intro: 'Vatrad toimii yhdellä Kiinan Qingdaon suurimmista omistetuista puhallettavien SUP-lautojen valmistuslaitoksista. 12,500 m²:n tehtaamme on jaettu neljään rinnakkain toimivaan erikoistuneeseen osastoon. Vuosikapasiteetti on yli 120,000 puhallettavaa SUP-lautaa (noin 10,000 kuukaudessa), ja erillisillä tuotelinjoilla valmistetaan yli 50,000 pelastusliivua ja yli 5,000 lisävarustetta.'
+
+highlights:
+  - value: 12,500 m²
+    label: Kokonaisvalmistusala
+    detail: 4 erikoistuneella osastolla
+  - value: 120,000+
+    label: Vuosikapasiteetti SUP-lautoihin
+    detail: Puhallettavat SUP-laudat, ~10,000/kk
+  - value: 350+
+    label: Ammattitaitoista henkilöstöä
+    detail: 25+ insinööriä, 2 vuoroa/vrk
+  - value: 50+
+    label: Vientimaata
+    detail: EU, Yhdysvallat, AU, Lähi-Itä, Aasia
+  - value: 25–35
+    label: Vakiintunut toimitusaika (päivää)
+    detail: Vahvistetun tilauksen ja käsirahajan jälkeen
+  - value: 10+
+    label: Vuosia vientikokemusta
+    detail: Vuodesta 2012
+
+workshops:
+  - title: SUP-lautojen tuotanto
+    description: '4 automaattista kokoonpanolinjaa puhallettaville SUP-lautoille, joiden yhteenlaskettu tuotanto on noin 10,000 lautaa kuukaudessa. Digitaalipainatus- ja silk screen -asemat toimivat samanaikaisesti. Vuosikapasiteetti: yli 120,000 SUP-lautaa.'
+    output: '120,000+ SUP/vuosi'
+  - title: SUP-lautojen tuotanto — laajennuslinjat
+    description: 'Lisä automaattisia kokoonpanolinjoja SUP-lautoille, otetaan käyttöön volyymien kasvaessa. Drop-stitch-ytimien liimaus, digitaalipainatus ja kokoonpanoasemat toimivat samanaikaisesti.'
+    output: 'Osa yli 120,000 SUP-laudan vuosikapasiteettia'
+  - title: SUP-lisävarusteet ja sekakokoonpano
+    description: 'Monikäyttöiset kokoonpanolinjat SUP-lisävarusteille — melat, evät, hihnat, laukut ja sarjat. Kuumailmahitsausasemat, RF-dielektriset puristimet ja kokoonpanotyöpöydät sopeutetaan tilausten rakenteen mukaan. Vuotuinen lisävarustekapasiteetti: yli 5,000 kpl.'
+    output: '5,000+ lisävarustetta/vuosi'
+  - title: Turvavarusteet
+    description: 'Erillinen puhdas tilat pelastusliivujen ja turvavarusteiden valmistukseen. Omat ompeluosastot, vahtikoneistus- ja testausasemat. Vuosikapasiteetti: yli 50,000 pelastusliivua.'
+    output: '50,000+ pelastusliivua/vuosi'
+
+oem_capacity:
+  moq: 'SUP: näyte 1–2 | pilotti 20–50 | volyymi 90–100+ (150 m rullaa kohti)'
+  lead_time: 'Vakiintunut 25–35 päivää. Näyte 7–12 päivää. Kiiretoimitukset mahdollisia.'
+  payment: 'T/T 30% käsiraha + 70% loppusumma. L/C, Western Union hyväksytään.'
+
+lead_time_explainer:
+  tagline: 'Suunnittelu ja aikataulutus'
+  title: 'Näin kapasiteetti muuntuu toimitukseksesi'
+  subtitle: 'Kapasiteetti ei ole yksittäinen luku — näin toimitusajat jaotellaan käytännössä.'
+  items:
+    - title: 'Kapasiteetti vaihtelee määrityksesi mukaan'
+      body: 'Vapaat paikat siirtyvät laudan tyypin, rakenteen monimutkaisuuden, pakkauksen ja kysynnän kausivaihtelun mukaan. Kevät- ja kesäkysynnän kasvaessa linjat käyvät lähes täynnä ja näytepaikat varataan ensin.'
+    - title: 'Suunnittele ennen lanseerauskautta'
+      body: 'Lukitse näytteen vahvistus ja kuvituksen jäädyttäminen hyvissä ajoin. Uusinta tilaukset ajoitetaan sovittuusi toistuvaksi paikaksi, kun referenssinäyte on arkistoitu.'
+    - title: 'Kolme aikataulutusjälkeä'
+      body: 'Näytteet menevät ensin prototyyppilinjalle, ensitilaukset sijoittuvat lähimpään vapaaseen kokoonpanoikkunaan ja uusinta tilaukset kulkevat omassa toistuvassaan paikassaan.'
+    - title: 'Varmistettu toimitusaika tarkastuksen jälkeen'
+      body: 'Vahvistamme varman toimitusajan vasta määrityksen, kuvituksen, pakkauksen ja määrän tarkastuksen jälkeen — emme koskaan kiinteänä lupauksena etukäteen.'
+
+cta:
+  title: 'Tarkista tuotantovapaus lanseerauspäivälle'
+  subtitle: 'Lähetä laudan tyyppi, määrä ja tavoitettu lähetyspäivä — vastaamme seuraavalla avoimella tuotantoikkunalla ja varmalla toimitusaika-arviolla.'
+  actions:
+    - variant: primary
+      text: Tarkista vapaus
+      href: /fi/contact#production-availability
+    - text: Katso koko tehtaan yleiskatsaus
+      href: /fi/factory
+    - text: Näin laudat rakennetaan
+      href: /fi/factory/process

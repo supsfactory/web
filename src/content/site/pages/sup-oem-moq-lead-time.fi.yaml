@@ -1,0 +1,219 @@
+meta:
+  title: 'Räätälöityjen SUP-lautojen MOQ ja toimitusaika: 1 näytteestä konttimittakaavaan'
+  description: 'Räätälöityjen SUP-lautojen MOQ- ja toimitusaikatasot: näytteet 7–12 päivässä, kokeilutilaukset 20–50 lautaa, vakiomäärä 90–100+ per 150 m rulla, tuotanto 25–35 päivässä.'
+  dateModified: '2026-08-16'
+  keywords:
+    - 'räätälöity SUP MOQ'
+    - 'SUP-tuotannon toimitusaika'
+    - 'puhallettavan SUP vähimmäistilausmäärä'
+    - 'SUP-kokeilutilaus'
+    - 'räätälöity melon toimitusaika'
+    - 'OEM SUP -tehtaan toimitusaika'
+    - 'SUP-näytetilaus'
+
+hero:
+  tagline: 'Räätälöity SUP MOQ ja toimitusaika'
+  title: '1 näytteestä konttimittakaavaan — MOQ ja toimitusaika selitettynä'
+  subtitle: 'Selkokielinen katsaus räätälöityjen puhallettavien SUP-lautojen tilausmäärätasoihin ja tuotannon toimitusaikoihin: mitä voit tilata kullakin vaiheella, kuinka kauan kukin vaihe oikeasti kestää, ja miten näyte-, pilotti- ja volyymitilaus mahtuvat yhteen projektiin. Suunniteltu ja ylläpidetty: Qingdao Vatrad Group Co., Ltd.'
+  actions:
+    - variant: primary
+      text: Hae projektikohtainen MOQ- ja toimitusaikaselvitys
+      href: /fi/contact#moq-guide
+    - text: MOQ ja joustava brändäys -opas
+      href: /fi/oem-moq-guide
+
+answer:
+  label: 'Suora vastaus'
+  text: 'MOQ ja toimitusaika ovat projektikohtaisia, mutta viitekehys on kiinteä. Jokainen räätälöity SUP-projekti käy läpi samat porrastetut vaiheet: näytekehitys (1–2 lautaa, valmiina 7–12 päivässä), kokeilu- ja pilottitilaukset (20–50 lautaa) sekä vakiomääräiset erät (90–100+ lautaa per 150 m drop-stitch-kangasrulla). Tuotannon toimitusaika on 25–35 päivää vahvistetun tilauksen ja käsirahan jälkeen; jos projektisi vaatii räätälöidyn rungon, muotin kehittely lisää 15–20 päivää ennen tuotannon alkua. Tyypillinen ensimmäinen projekti näyttää siis tältä: näytteet noin 1–2 viikossa, pilottilaudat 4–6 viikossa ja ensimmäinen täysi erä noin 6–8 viikkoa tilauksen vahvistuksen jälkeen.'
+  verified: 'September 2026'
+
+moq_lead_table:
+  tagline: Viitekehys
+  title: 'Räätälöityjen SUP-lautojen MOQ- ja toimitusaikatasot katsauksessa'
+  subtitle: 'Jokainen vaihe validoi seuraavan. Et hyppää suoraan piirroksesta konttiin — vahvistat rungon, kuviot ja pakkauksen kullakin tasolla ennen kuin sitoudut enempään lautoihin.'
+  headers:
+    stage: Tilausvaihe
+    quantity: Tyypillinen määrä
+    lead_time: Toimitusaika
+    best_for: Paras käyttöön
+  rows:
+    - stage: 'Näytekehitys'
+      quantity: '1–2 lautaa'
+      lead_time: '7–12 päivää'
+      best_for: 'Rungon jäykkyyden, EVA-astinlevyn pinnan, kuvioiden tarkkuuden ja lisävarusteiden sopivuuden varmistamiseen. Näytemaksut koskevat ja ne vähennetään tuotantotilauksestasi sopimuksen allekirjoituksen yhteydessä.'
+    - stage: 'Kokeilu- / pilottitilaus'
+      quantity: '20–50 lautaa'
+      lead_time: '25–35 päivää'
+      best_for: 'Kauden edeltävään kaupalliseen testaukseen, markkinavalidointiin ja ensimmäiseen myyntiin olemassa olevilla runkoalustoilla, varastomateriaaleilla ja yksinkertaistetulla pakkauksella.'
+    - stage: 'Vakiomääräinen tuotantoerä'
+      quantity: '90–100+ lautaa per 150 m rulla'
+      lead_time: '25–35 päivää'
+      best_for: 'Täyteen tuotantotehokkuuteen täysillä 150 m kangasrullilla — nolla kangasliitosta, tasainen kuitujännite ja kustannusten jaksotus linjan käyttöönotolle. Omat muotomallit tuotetaan tällä tasolla.'
+    - stage: 'Suurimuotoinen ohjelma'
+      quantity: '300+ lautaa'
+      lead_time: '25–35 päivää per erä, porrastetut lähetykset'
+      best_for: 'Konttimittakaavan ohjelmille ja kausilaivastoille, jotka ajoitetaan useisiin tuotantoeriin, jotta varastosi ja kassavirta pysyvät hallinnassa.'
+
+moq_drivers:
+  tagline: 'Mikä määrää MOQ:si'
+  title: 'Kuusi tekijää, jotka määräävät vähimmäismääräsi'
+  subtitle: 'MOQ ei ole myyntitiimin keksimä satunnainen luku. Se lasketaan koko tuotearkkitehtuurista — nämä osat arvioidaan yhdessä ennen tarjousta.'
+  grid: 'sm:grid-cols-2 lg:grid-cols-3'
+  features:
+    - icon: H
+      icon_bg: blue
+      title: 'Rungon muoto ja muottityö'
+      desc: 'Tehtaan olemassa olevat kaarevamuotit mahdollistavat pilottitilaukset jo 20 laudasta. Räätälöity runko vaatii omat CAD-leikkausmuottinsa ja EVA-kuumapuristin muottinsa, ja muotin kehittely lisää 15–20 päivää aikatauluun.'
+    - icon: C
+      icon_bg: green
+      title: 'Väriyhdistelmät ja PVC'
+      desc: 'Vakiovarastovärit toimivat pilottimäärissä, kun ta omalle Pantone-värille värätyt PVC-arkit vaativat omat kemiallisen värjän ajot ja omat raaka-aineen vähimmäismääränsä.'
+    - icon: A
+      icon_bg: purple
+      title: 'Kuviot ja painopinta-ala'
+      desc: 'Nokkologo voidaan silkopainaa pienissä erissä, kun ta koko pinnan tai usean paneelin kattavat kuviot vaativat digitaalipainon levyvalmistelun ja peittävyystestauksen, mikä nostaa käytännössä eräkokoa.'
+    - icon: B
+      icon_bg: orange
+      title: 'Brändätty pakkaus'
+      desc: 'Omat 5-kerroksiset vähittäispakkolaatikot ovat oma painolaitteen vähimmäismääränsä. Jos tilaat vähemmän laatikoita, säilytämme ylijäämän ja luovutamme sen ajastettujen lähetystesi mukana.'
+    - icon: G
+      icon_bg: blue
+      title: 'Lisävarustepaketit'
+      desc: 'Vakioalumiiniset tai -nyloniset melat, pumput ja laukut noudattavat toimittajan omia alemman tason eräkokoja. Täysin brändätyt hiilimelat ja omat pumput noudattavat omia tuotannon vähimmäismääriään.'
+    - icon: S
+      icon_bg: green
+      title: 'Kausi ja maksujärjestely'
+      desc: 'Esikautikaudella tehdyt tilaukset saavat vahvistetut tuotantopaikat. 300+ laudan ohjelmien porrastetut lähetysaikataulut vahvistetaan sopimuksessa, ei tuotannon jälkeen.'
+
+moq_timeline:
+  tagline: 'Aikataulu alusta loppuun'
+  title: 'Tuotebriefistä toimitettuihin lautoihin: päivä päivältä'
+  subtitle: 'Tyypillisen räätälöidyn SUP-ohjelman täysi aikataulu. Olemassa olevat runkoalustat tiivistyvät tämän aikataulun vasempaan reunaan; räätälöity runko lisää muotin kehittelyvaiheen.'
+  steps:
+    - step: 'Päivä 0'
+      title: 'Lähetä tuotebriefisi'
+      desc: 'Laudamalli, tavoitemäärä, väriyhdistelmät, kuviot ja pakkausvaatimukset. Suunnittelukatsaus valmistuu yhden arkipäivän kuluessa.'
+    - step: 'Päivät 1–2'
+      title: 'Suunnittelukatsaus ja toteutettavuus'
+      desc: 'Suunnittelutiimimme tarkastaa rungon geometrian, materiaalit ja vaatimustenmukaisuuspolun, ja vahvistaa sopiiko projekti olemassa oleviin alustoihin vai vaatiiko se uutta muottityötä.'
+    - step: 'Päivät 3–7'
+      title: 'Määritykset ja eritelty tarjous'
+      desc: 'Saat täydet määritykset, joissa on MOQ-laskelma, toimitusaikajaksot ja eritellyt kustannukset — mukaan lukien mahdolliset muottimaksut — ennen mitään sitoumusta.'
+    - step: 'Päivät 7–12'
+      title: 'Näytekehitys (1–2 lautaa)'
+      desc: 'Fyysinen näyte rakennetaan ja testataan: rungon jäykkyys, EVA-astinlevyn pinta, kuvioiden tarkkuus ja lisävarusteiden sopivuus. Näytemaksut vähennetään tuotantotilauksesta hyväksynnän yhteydessä.'
+    - step: '+15–20 päivää'
+      title: 'Oman muotin kehittely (vain räätälöidyt rungot)'
+      desc: 'Vain projekteille, joissa on uusi rungon muoto: CNC-leikkausmuottit, EVA-kuumapuristin muotit ja muottikokeet valmistuvat ennen kuin volyymituotanto voi alkaa.'
+    - step: '25–35 päivää'
+      title: 'Tuotanto vahvistetun tilauksen ja käsirahan jälkeen'
+      desc: 'Täydet 150 m kangasrullat, Pantone-materiaalit, brändätty pakkaus ja 100 kohdan kokoonpano. Jokainen lauta läpäisee 24 tunnin paine- ja ilmatiiviystestin.'
+    - step: '300+ lautaa'
+      title: 'Porrastettu lähetusaikataulu'
+      desc: 'Suuret ohjelmat lähetetään ajastettuina erinä, jotka vastaavat kausittaista myyntiä, varastokapasiteettia ja maksumilestoneja.'
+    - step: 'Päivä 0–90'
+      title: 'Tyypillinen ensimmäisen tilauksen horisontti'
+      desc: 'Briefistä toimitettuun ensimmäiseen erään: noin 6–8 viikkoa olemassa olevilla alustoilla, 8–12 viikkoa sisältäen oman muotin. Monirulla- ja konttiohjelmat jatkuvat luonnostaan pidemmälle.'
+
+expedite:
+  tagline: 'Pidä aikataulu tiukkana'
+  title: 'Mikä pitää toimitusajan lyhyenä'
+  subtitle: 'Kolme vipua, joilla voit tiivistää aikataulua muuttamatta rullafysiikan perusteita.'
+  features:
+    - icon: S
+      icon_bg: blue
+      title: 'Näytteet ovat oletuksella nopeita'
+      desc: 'Näytekehitys kestää 7–12 päivää jokaisessa projektissa. Käytä näytekierros määrittääksesi määrityksesi lopullisesti, jotta tuotanto ei koskaan odota myöhäisiä kuviopäätöksiä.'
+    - icon: P
+      icon_bg: green
+      title: 'Tuotantopaikat vahvistetaan etukäteen'
+      desc: 'Esikautikauden tilaukset lukitsevat vahvistetut tuotantopaikat. Useiden asiakkaiden varastaessa saman paikan juuri siksi aikaisemmat käsirahat saavat aikaisemmat linjat.'
+    - icon: T
+      icon_bg: purple
+      title: 'Läpinäkyvät vaiheportit'
+      desc: 'Jokainen portti — näytteen hyväksyntä, BOM:n lukitus, kuvioiden lukitus, tilaus ja käsiraha — sovitaan sopimuksessa päivämäärineen. Tiedät aina, minä päivänä kello käynnistyy uudelleen.'
+
+scenarios:
+  tagline: 'Kolme realistista aloituskohtaa'
+  title: 'Mikä reitti sopii projektillesi?'
+  subtitle: 'Sama tehdas, kolme eri tapaa päästä sisään. Valitse tilanteesi lähinnä oleva skenaario ja käytä sitä ottaessasi yhteyttä.'
+  features:
+    - icon: A
+      icon_bg: orange
+      title: 'Uusi brändi: validoi ennen kuin sitoudut'
+      desc: 'Tilaa ensin 1–2 näytettä (7–12 päivää), testaa ajo laatua ja valokuvausta, sitten tee 20–50 laudan kokeilutilaus myynnin testaamiseksi ennen mitään täyttä erää. Ensimmäisen kauden kokonaisaltistus jää alle 50 laudan.'
+    - icon: B
+      icon_bg: blue
+      title: 'Lomakeskus- tai vuokrausoperaattori: pilotti, sitten skaalaus'
+      desc: '20–50 laudan pilottitilaus yksinkertaistetulla pakkauksella riittää esikauden yli. Kun käyttöaste tiedot ovat tulleet, skaalaa vakiomääräisiin 90–100+ laudan eriin brändätyllä pakkauksella.'
+    - icon: C
+      icon_bg: green
+      title: 'Vakiintunut brändi: täysin räätälöidyt konttiohjelmat'
+      desc: 'Vakiintuneet brändit tilaavat 90–100+ lautaa per 150 m rulla räätälöidyillä rungoilla ja koko pinnan brändäyksellä. Oman muotin työstö lisää 15–20 päivää; 300+ laudan ohjelmat lähetetään porrastetuin aikatauluin.'
+
+moq_quality:
+  tagline: 'Laadunvalvonta ja vaatimustenmukaisuus'
+  title: 'Sama laatujärjestelmä jokaisessa tilauskokossa'
+  subtitle: '1 laudan näyte ja 300+ laudan ohjelma käyvät läpi samat laatuportit ja saman vaatimustenmukaisuusasiakirjat. "Matala MOQ" ei koskaan tarkoita "matalaa standardia".'
+  grid: 'sm:grid-cols-2 lg:grid-cols-3'
+  features:
+    - icon: C
+      icon_bg: blue
+      title: 'Vaatimustenmukaisuusasiakirjat kaikissa mitoissa'
+      desc: 'CE-, ISO 9001-, BSCI-, REACH- ja RoHS-sertifiointiasiakirjat toimitetaan jokaisen tilauksen mukana — myös yksittäisten näytteiden — ja sertifikaattinumerot toimitetaan pyynnöstä.'
+    - icon: A
+      icon_bg: green
+      title: '100 kohdan kokoonpanotarkistuslista'
+      desc: 'Jokainen lauta läpäisee saman 100 kohdan kokoonpanotarkistuslistan eräkokoesta riippumatta: materiaalit, hitsaus, venttiilit, reunat, evät ja lisävarusteiden sopivuus tarkistetaan rivi riviltä.'
+    - icon: P
+      icon_bg: purple
+      title: '24 tunnin paine- ja ilmatiiviystesti'
+      desc: 'Jokainen lauta täytetään 18.0 PSI:n paineeseen ja pidetään siinä 24 tuntia. Yli 0.50 PSI:n paineen lasku johtaa automaattiseen hylkäykseen — sama portti näytteelle ja kontille.'
+    - icon: R
+      icon_bg: orange
+      title: 'RF-hitsauksen ja reunan sulautumisen varmennus'
+      desc: 'Kolmikerroksisen reunanauhan sulautuminen ja RF-hitsaus saumat tarkistetaan silmämäärisesti ja mitoitukseltaan hyväksyttyyn näytteeseen nähden ennen kuin yksikään tuotantoerä alkaa.'
+    - icon: B
+      icon_bg: blue
+      title: 'ERP-erien jäljitettävyys (10 vuotta)'
+      desc: 'Jokaisella laudalla on sarjanumerokohtaiset tuotantotiedot — materiaalit, operaattorit, testit ja tarkastustulokset — joita säilytetään 10 vuotta ja jotka ovat saatavilla auditointiin.'
+    - icon: I
+      icon_bg: green
+      title: 'Valmis kolmannen osapuolen tarkastukseen'
+      desc: 'Erätuotanto on valmis kolmannen osapuolen tarkastukseen missä tahansa vaiheessa. Useimmat asiakkaat ajavat myös 7-vaiheisen tarkastusjärjestelmämme tai ennen lähetystä tehtävän tarkastuksen volyymiohjelmissa.'
+
+moq_faqs:
+  tagline: UKK
+  title: 'Usein kysytyt kysymykset MOQ:sta ja toimitusajasta'
+  items:
+    - q: 'Mikä on räätälöidyn SUP-laudan vähimmäistilausmäärä?'
+      a: 'Se riippuu projektisi vaiheesta: näytteet ovat 1–2 lautaa, yhteisbrändäyksen pieni erä alkaa 5–10 kpl:stä, kokeilu- ja pilottitilaukset 20–50 lautaa, ja vakiomääräinen tuotanto 90–100+ lautaa per 150 m drop-stitch-kangasrulla. Oman muodon mallit tuotetaan volyymitasolla. Vahvistamme tarkan laskelman konfiguraatiollesi ennen tarjousta.'
+    - q: 'Miten kauan puhallettavan SUP-näytteen valmistus kestää?'
+      a: 'Näytekehitys kestää 7–12 päivää. Näyte varmistaa rungon jäykkyyden, EVA-astinlevyn pinnan, kuvioiden tarkkuuden ja lisävarusteiden sopivuuden. Näytemaksut koskevat ja ne vähennetään tuotantotilauksestasi sopimuksen allekirjoituksen yhteydessä.'
+    - q: 'Miten kauan tuotanto kestää tilauksen vahvistamisen jälkeen?'
+      a: 'Tuotannon toimitusaika on 25–35 päivää vahvistetun tilauksen ja käsirahan jälkeen. Jos projektiisi sisältää räätälöidyn rungon, oman muotin kehittely lisää 15–20 päivää muottityötä ennen tuotannon alkua.'
+    - q: 'Lasketaanko MOQ tilauksen, mallin vai väriyhdistelmän mukaan?'
+      a: 'MOQ voi koskea mallia, väriyhdistelmää, kuvioversiota, pakkauskonfiguraatiota tai koko tilausta. Koska eri drop-stitch-paksuudet ja PVC-värit tulevat eri raaka-ainerulloista, 50 laudan tilaaminen 5 värin kesken muodostaa 5 erillistä kangasrullatarvetta. Vahvistamme laskelman SKU-matriisiasi mukaan.'
+    - q: 'Voinko aloittaa vain 1–2 laudalla markkinatestiä varten?'
+      a: 'Kyllä. 1–2 laudan näytetilaus on edullisin mahdollinen validointi: rungon jäykkyys, kuviot ja lisävarusteiden sopivuus vahvistetaan ennen mitään taloudellista sitoumusta. Siitä siirryt 20–50 laudan kokeilutilaukseen kaupallista validointia varten.'
+    - q: 'Voiko 300+ laudan ohjelman lähettää useassa erässä?'
+      a: 'Kyllä. Suurimuotoiset ohjelmat voidaan ajoittaa porrastetuiksi lähetyksiksi tuotantoerien yli, joten kausilaivastot saapuvat tarvittaessa ja kassavirta sekä varastotila pysyvät hallinnassa. Aikataulut vahvistetaan sopimuksessa, ei tuotannon jälkeen.'
+
+evidence_review:
+  tagline: 'Näyttö ja varmennus'
+  title: 'VARMENTETUT MÄÄRITYKSET'
+  body: 'Kaikki tämän sivun valmistusväitteet on varmennettu valmistustekniikan tiimimme toimesta Qingdaon Laixin laitoksella. Sertifikaatit, laaduntarkastuskirjat, paine- ja rakennetestien raportit sekä erien jäljitettävyystiedot ovat pyynnöstä saatavilla. Määritykset viimeksi varmennettu September 2026.'
+
+cta:
+  title: 'Haluatko projektikohtaisen MOQ- ja toimitusaikatiedon?'
+  subtitle: 'Lähetä meille laudamallisi, ensikauden tavoitemääräsi ja brändäysvaatimuksesi. Suunnittelutiimimme vahvistaa, sopiiko näyte-, kokeilu- vai volyymireitti — tarkan MOQ-laskelman ja päivä päivältä -aikataaluineen. Tiedustelun lähettäminen ei sido sinua tilaukseen.'
+  actions:
+    - variant: primary
+      text: Pyydä MOQ- ja toimitusaikaselvitys
+      href: /fi/contact#moq-guide
+    - text: Vertaa joukavan brändäyksen oppaaseen
+      href: /fi/oem-moq-guide
+    - text: Lanseeraa uusi brändi matalalla MOQ:lla
+      href: /fi/new-brand-trial-order
+    - text: Varmenna tehdas ja laatujärjestelmä
+      href: /fi/oem-trust-assurance

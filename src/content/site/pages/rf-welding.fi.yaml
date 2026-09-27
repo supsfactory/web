@@ -1,0 +1,99 @@
+meta:
+  title: 'RF-hitsauskeskus — SUP-laudojen dielektrinen saumahitsaus | {SITE}'
+  description: 'Radiotaajuushitsaustekniikka, joka tuottaa vaatimustenmukaiset ja ilmatiiviit SUP-laudojen saumat. Kuorimistestit, ilman säilymisen validointi ja räätälöidyt saumamääritelmät.'
+  dateModified: '2026-08'
+back_text: 'Takaisin tutkimus- ja kehityskeskukseen'
+home_label: 'Koti'
+
+answer:
+  label: 'Suora vastaus'
+  text: 'Käytämme 15 kW:n dielektrisiä RF-puristimia, jotka sitovat PVC-saumat molekulaarisesti 200–600 °C:n kuumailmaekvivalentissa, ja validoimme sitten jokaisen hitsin: kuorimistestit ASTM D751:n mukaisesti, ilman säilymisen testit 18.0 PSI:n paineella, ja saumat dokumentoidaan sekä jäljitetään lauta kohti.'
+  verified: 'September 2026'
+
+hero:
+  tagline: 'Laboratorio 03'
+  title: 'RF-hitsauskeskus'
+  subtitle: 'Dielektrinen sitoutumistekniikka hitsauksiin, jotka kestävät painetta'
+  image: 'https://assets.isupfactory.com/images/sups/products/sup-series/sup-jungle-mandala-1.webp'
+  image_alt: 'Vatradin RF-hitsauksen dielektrinen sitoutumisprosessi'
+
+intro: 'Puhallettava SUP-lauta on yhtä luotettava kuin sen saumat. Yksikin heikko hitsi voi heikentää koko osastoa — ja jalkojen alla osaston rikkoutuminen ei ole hankaluus vaan turvallisuusriski. {SITE.name}:ssa olemme investoineet omana Radio Frequency (RF) Hitsauskeskukseen, joka yhdistää teollisuusluokan dielektriset hitsauspuristimet tiukkaan prosessinvalvontaan ja hitsauksen jälkiseen testaukseen. Jokainen valmistamamme sauma dokumentoidaan, jäljitetään ja sertifioidaan täyttämään tai ylittämään puhallettavien alusten kansainvälisen standardin vaatimukset.'
+
+content_html: |
+  <h2>Sauman takana oleva tiede</h2>
+  <p>RF-hitsaus käyttää suurtaajuista sähkömagneettista energiaa (tyypillisesti 27.12 MHz) herättääkseen PVC-pinnoitetun kankaan polaariset molekylit, mikä synnyttää lämpöä täsmälleen materiaalirajapinnassa. Toisin kuin kuumailma- tai kuumakiiluhitsauksessa, RF-hitsaus muodostaa todellisen molekylisidoksen — kaksi kangaskerrosta sulautuu hitsausalueella yhdeksi homogeeniseksi materiaaliksi, jolloin sauma on yhtä luja kuin perusmateriaali itse.</p>
+
+  <h2>Hitsauslaitteet ja prosessinvalvonta</h2>
+  <p>Hitsauskeskuksemme on varustettu seuraavasti:</p>
+  <table>
+    <thead><tr><th>Kone</th><th>Teho / Kapasiteetti</th><th>Sovellus</th></tr></thead>
+    <tbody>
+      <tr><td>Dielektrinen RF-puristin 1</td><td>15 kW, puristinlevy 2000 × 600 mm</td><td>Laudan päärunsasaumat, reunanauhan ja kannan liitokset</td></tr>
+      <tr><td>Dielektrinen RF-puristin 2</td><td>10 kW, puristinlevy 1500 × 500 mm</td><td>Nokkapuristin hitsit, kahvapaikkojen hitsit, venttiilipaikat</td></tr>
+      <tr><td>CNC-ohjattu RF-hitsaaja</td><td>8 kW, XY-pöytä 2500 × 1200 mm</td><td>Kaarevat reunasaumat, logojen ja paneelien kohokuviointi, tarkat tilkkeehitsit</td></tr>
+      <tr><td>Automaattinen kuumakiiluhitsaaja</td><td>Muutettava lämpötila, enintään 1.2 m/min</td><td>Vara-asema erikois-CSM-materiaaleille</td></tr>
+    </tbody>
+  </table>
+  <p>Jokainen RF-puristin on varustettu suljetun piirin lämpötila- ja painevalvonnalla. Hitsausparametrit — teho, puristusaika, jäähdytysaika, elektrodi paine — ohjelmoidaan materiaalityypin mukaan ja kirjataan valmistuksen ohjausjärjestelmäämme (MES) täyttä jäljitettävyyttä varten.</p>
+
+  <h2>Hitsien laaduntestit — jokainen sauma, jokainen lauta</h2>
+  <p>Hitsien eheys varmistetaan pakollisella nelivaiheisella testiprotokollalla:</p>
+  <ol>
+    <li><strong>Silmämäärinen tarkastus</strong> — 100 % saumoista tarkastetaan silmämäärisesti puhkuminen, kohdepoikkeama, likaisuus tai epätäydellinen sulautuminen. Hylkäysrajan kynnys: 0.5 % metrimäärästä.</li>
+    <li><strong>Kuorimistesti</strong> — 25 mm levyinen nauha leikataan jokaisen tuotantoerän mukana hitsatusta testikappaleesta. Pienin kuorimisvoima: 120 N/25 mm PVC 1100 dtexille.</li>
+    <li><strong>Ilman säilymisen testi</strong> — Jokainen valmis lauta paineistetaan 18.0 PSI:n paineeseen ja pidetään siinä 24 tuntia. Paineen lasku ei saa ylittää 0.50 PSI:aa.</li>
+    <li><strong>Lämpötilavaihtelutesti</strong> — Testikappaleet vaihdetaan -20 °C:n ja +60 °C:n välillä 50 kierrosta, minkä jälkeen ne testataan uudelleen kuorimisella. Hyväksyttävä lujuuden menetys: &lt; 10 %.</li>
+  </ol>
+
+  <div class="not-prose my-10 p-6 rounded-xl bg-gray-50 dark:bg-gray-900 border border-gray-200 dark:border-gray-800">
+    <p class="text-sm font-semibold text-gray-500 mb-3 uppercase tracking-wider">Kuorimislujuuden vertailu — RF ja kuumailmahitsaus (PVC 1100 dtex)</p>
+    <div class="space-y-3">
+      <div class="flex items-center gap-3">
+        <span class="w-24 text-xs font-medium">RF-hitsi</span>
+        <div class="flex-1 h-6 bg-gray-200 dark:bg-gray-700 rounded">
+          <div class="h-full bg-blue-600 rounded" style="width:92%"></div>
+        </div>
+        <span class="text-xs font-bold w-12 text-right">184 N</span>
+      </div>
+      <div class="flex items-center gap-3">
+        <span class="w-24 text-xs font-medium">Kuumailma</span>
+        <div class="flex-1 h-6 bg-gray-200 dark:bg-gray-700 rounded">
+          <div class="h-full bg-gray-400 rounded" style="width:65%"></div>
+        </div>
+        <span class="text-xs font-bold w-12 text-right">130 N</span>
+      </div>
+      <div class="flex items-center gap-3">
+        <span class="w-24 text-xs font-medium">Vakiominimi</span>
+        <div class="flex-1 h-6 bg-gray-200 dark:bg-gray-700 rounded">
+          <div class="h-full bg-green-500 rounded" style="width:48%"></div>
+        </div>
+        <span class="text-xs font-bold w-12 text-right">96 N</span>
+      </div>
+    </div>
+    <p class="text-xs text-gray-400 mt-2">RF-hitsaus saavuttaa jatkuvasti 90-95 % perusmateriaalin lujuudesta, mikä on selvästi vakiominimin yläpuolella.</p>
+  </div>
+
+  <h2>Ammattitaito</h2>
+  <p>Hitsaustiimiämme johtaa vanhempi prosessinsinööri, jolla on 11 vuoden kokemus päällystettyjen tekstiilien dielektrisestä hitsauksesta. Jokainen operaattori suorittaa 6 kuukauden sisäisen sertifiointiohjelman ennen kuin hänet päästään työskentelemään tuotantosaumoihin. Uusintatodistus vaaditaan vuosittain ja siihen kuuluu käytännön hitsaustesti, joka arvioidaan sisäistä A-luokan standardiamme vasten (kuorimislujuus ≥ 160 N/25 mm).</p>
+
+  <h2>Räätälöidyt hitsausratkaisut erityisvaatimuksiin</h2>
+  <p>Ymmärrämme, ettei yksi hitsausmääritelmä sovi kaikkiin sovelluksiin. RF-hitsauskeskuksemme kehittää säännöllisesti räätälöityjä saumakonfiguraatioita asiakkaille, joilla on erityisvaatimuksia:</p>
+  <ul>
+    <li><strong>Monikerroksiset vahvistepaikat</strong> — kovakulutuksellisilla alueilla, kuten reunanauhoissa ja nokkakapeissa, kehitämme moniaaltoisia RF-hitsejä, jotka integroivat hankautumista kestävän ulkokerroksen taivuttavuutta heikentämättä.</li>
+    <li><strong>Suurpaineisten lautojen saumat</strong> — yli 15 PSI:n luokitelluilla laudoilla validoimme sauman geometrian korkealla käyttöpaineella ja dokumentoimme rajan testiraportissa.</li>
+    <li><strong>Väri vaihtuvien paneelien hitsaus</strong> — kaksiväriset kangaspaneelit (esim. oranssi kansi + harmaa reuna) hitsataan piilotun limityksellä, jolloin brändin ilme säilyy ilman näkyvää saumalinjaa.</li>
+  </ul>
+
+  <h2>Sitoumuksemme teille</h2>
+  <p>Jokainen toimittamamme lauta sisältää hitsien laaduttakauksemme: jos jokin sauma pettää normaalissa käytössä takuuehtojen puitteissa, korjaamme tai vaihtamme kyseisen osaston maksutta, ja suoritamme juurisyyanalyysin uusiutumisen estämiseksi. Tämä ei ole pelkkää takuuta — se on sitoumus jatkuvaan parantamiseen, jota ohjaavat todellisen toiminnan data.</p>
+  <p>Kun valitsette {SITE.name}:n, valitsette saumat, jotka on suunniteltu, testattu ja dokumentoitu — ei vain hitsattu. Tämä on ero laudan, joka kelluu, ja laudan, joka suorittaa tehtävänsä, välillä.</p>
+
+cta:
+  title: 'Keskustele hitsaustarpeistasi'
+  subtitle: 'Räätälöidyt saumamääritelmät, materiaaliyhteensopivuus tai prosessin validointi.'
+  actions:
+    - variant: primary
+      text: Ota yhteyttä hitsaustiimiimme
+      href: /fi/contact#project-brief
+    - text: Takaisin tutkimus- ja kehityskeskukseen
+      href: /fi/randdcenter

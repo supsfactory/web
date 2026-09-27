@@ -1,0 +1,125 @@
+meta:
+  title: 'SUP-valmistusominaisuudet | puhallettavien paddle boardien tehdas'
+  description: 'SUP-valmistusominaisuudet Qingdaossa: oma runkosuunnittelu (0.1 mm), drop-stitch-käsittely, RF-hitsaus, painatus, muotointi, 100 pisteen laadunvalvonta ja yli 120,000 lautaa vuodessa.'
+  dateModified: '2026-09-23'
+  keywords:
+    - 'sup valmistusominaisuudet'
+    - 'puhallettavien paddle boardien tehtaan ominaisuudet'
+    - 'oma sup-valmistus'
+    - 'paddle board tuotantoominaisuudet'
+    - 'sup tehdas qingdao'
+
+hero:
+  tagline: Valmistusominaisuudet
+  title: 'SUP-valmistusominaisuudet'
+  subtitle: 'Jokainen prosessi — runkosuunnittelu, drop-stitch-ytimen käsittely, RF-hitsaus, painatus, muotityökalut, kokoonpano, testaus ja pakkaus — tehdään omissa tiloissamme 12,500 m²:n Qingdaon laitoksessamme, joten yksi vastuullinen tiimi vie projektisi ensimmäisestä piirustuksesta lähetettyyn konttiin.'
+
+answer:
+  label: 'Suora vastaus'
+  text: 'SUP-valmistus on täysin omissa käsissämme Qingdaon laitoksessamme: runkosuunnittelu ja mittatekniikka 0.1 mm:n CNC-tarkkuudella; drop-stitch-materiaalin käsittely ja RF-hitsaus 4 automaattisella linjalla; kuvituspainatus; EVA-patjan stanssaus; räätälöity muotityökalusto (+15–20 päivää uusille muodoille); kokoonpano 100 pisteen tarkistuslistan mukaisesti; sekä 18.0 PSI:n 24 tunnin paineen pito -testaus ja automaattinen hylkäys yli 0.50 PSI:n painehävikin kohdalla. Vuosikapasiteetti on yli 120,000 lautaa (~10,000/kk) 4 erikoistuneesta osastosta ja 350+ työntekijän voimin, toimitettuna yli 50 maahan sinun brändilläsi.'
+  verified: 'Syyskuu 2026'
+
+capabilities:
+  tagline: Omat valmistusominaisuudet
+  title: 'Ominaisuusryhmät, jotka kaikki tehdään omissa tiloissamme'
+  subtitle: 'Jokainen alla oleva ominaisuus toteutetaan tehtaan sisällä, mikä lyhentää toimitusaikoja, lukitsee laadunvalvonnan jokaiseen vaiheeseen ja pitää määrityksesi yhdessä paikassa.'
+  groups:
+    - title: Suunnittelu ja tuotekehitys
+      items:
+        - 'Runkosuunnittelu ja mittatekniikka'
+        - '0.1 mm:n CNC-tarkkuus'
+        - 'Räätälöity muotti- ja työkalusuunnittelu'
+        - 'Pakkaus ja vähittäiskuvitus'
+    - title: Tuotanto
+      items:
+        - 'Drop-stitch-ytimen käsittely'
+        - '15 kW:n RF-hitsaus (4 automaattista linjaa)'
+        - 'Kuvituspainatus ja artwork'
+        - 'EVA-patjan stanssaus'
+        - 'Laudan kokoonpano ja viimeistely'
+        - 'Lisävarusteiden pakkaaminen sarjoiksi'
+    - title: Laatu ja vaatimustenmukaisuus
+      items:
+        - '100 pisteen kokoonpanotarkistuslista'
+        - '18.0 PSI · 24 tunnin paineen pito'
+        - 'ISO 2859-1:n tason II näytteistys'
+        - 'CE · ISO 9001 · BSCI · REACH · RoHS'
+        - '10 vuoden erien jäljitettävyys'
+    - title: Palvelu ja logistiikka
+      items:
+        - 'Prototyyppinäytteet 7–12 päivässä'
+        - 'Tuotanto 25–35 päivässä'
+        - 'Räätälöidyt muotit +15–20 päivässä'
+        - 'FOB Qingdao · CIF · DDP yli 50 maahan'
+
+table:
+  headers:
+    capability: Ominaisuus
+    in_house: Omissa tiloissa
+    standard: Mitä vakiokäytäntö sisältää
+  rows:
+    - capability: 'Runkosuunnittelu ja mittatekniikka'
+      in_house: 'Kyllä — oma suunnittelutiimi'
+      standard: 'Suunnitellaan ja validoidaan ennen työkalustusta; 0.1 mm:n CNC-tarkkuus muotteihin ja leikkaamiseen'
+    - capability: 'Drop-stitch-materiaalin käsittely'
+      in_house: 'Kyllä — oma ydintuotanto'
+      standard: '12–15 PSI:n drop-stitch-tiheysalue, leikkausoptimointi laudan koon mukaan'
+    - capability: 'RF-hitsaus ja saumarakenteet'
+      in_house: 'Kyllä — omissa tiloissa'
+      standard: '15 kW:n RF-hitsauskapasiteetti 4 automaattisella tuotantolinjalla'
+    - capability: 'Kuvituspainatus ja artwork'
+      in_house: 'Kyllä — oma suunnittelu ja painatus'
+      standard: 'Rajoittamattomat väripaletit, täysverhoilu ja tehtaan tiimin artwork-tuki'
+    - capability: 'EVA-istumapatjan stanssaus'
+      in_house: 'Kyllä — omissa tiloissa'
+      standard: '45–55 Shore C -patjamääritys, räätälöidyt kannet ja logot'
+    - capability: 'Räätälöity muotti ja työkalusto'
+      in_house: 'Kyllä — oma muottipaja'
+      standard: 'Uuden muodon työkalusto lisää 15–20 päivää; muotit pysyvät tehtaan omistuksessa, ellei toisin sovita'
+    - capability: 'Laudan kokoonpano ja viimeistely'
+      in_house: 'Kyllä — omissa tiloissa'
+      standard: '100 pisteen kokoonpanotarkistuslista; kahvat, D-renkaat ja lisävarusteet asennettuna määrityksen mukaan'
+    - capability: 'Paine- ja kuormitustestaus'
+      in_house: 'Kyllä — oma testipenkki'
+      standard: '18.0 PSI:n 24 tunnin paineen pito, automaattinen hylkäys yli 0.50 PSI:n painehävikin'
+    - capability: 'Lopputarkastus ja jäljitettävyys'
+      in_house: 'Kyllä — oma laadunvalvontatiimi'
+      standard: 'ISO 2859-1:n tason II näytteistys; 10 vuoden erien jäljitettävyys ERP:ssä sarjanumeron mukaan'
+    - capability: 'Pakkaus ja vienti'
+      in_house: 'Oma pakkaus + sertifioitu logistiikka'
+      standard: 'Vähittäislaatikot, merenkuljetuksen kestävä vientipakkaus ja sarjanumerotarrat sinun brändilläsi'
+
+faq_section:
+  tagline: FAQ
+  title: SUP-valmistusominaisuuksia koskevat kysymykset
+  questions:
+    - q: Mitkä valmistusprosessit tehdään omissa tiloissa?
+      a: 'Kaikki ydinprosessit tehdään omissa tiloissamme: runkosuunnittelu, drop-stitch-ytimen käsittely, RF-hitsaus, painatus, EVA-stanssaus, kokoonpano, testaus ja pakkaus. Lisävarusteet ja osa raaka-aineista tulevat sertifioiduilta toimittajilta; lopullinen pakkaaminen tehdään omissa tiloissamme täyden jäljitettävyyden varmistamiseksi.'
+    - q: Mikä on tuotantokapasiteettinne?
+      a: 'Yli 120,000 lautaa vuodessa (noin 10,000 kuukaudessa) 4 automaattisella linjalla ja 4 erikoistuneella osastolla 12,500 m²:n laitoksessa, jossa työskentelee 350+ henkilöä.'
+    - q: Mikä vähimmäiseräkoko koskee näitä ominaisuuksia?
+      a: 'Vakiintunut volyymierä on 90–100+ kpl hyväksytyn konfiguroation mukaan (yksi 150 m drop-stitch-kangasrulla); pilottierät alkavat 20–50 kpl:stä olemassa olevilla alustoilla; pelkkää logoa sisältävät tilaukset 5–10 kpl:stä.'
+    - q: Millaisiin toimitusaikoihin kannattaa varautua?
+      a: 'Prototyyppinäytteet 7–12 päivässä; tuotanto 25–35 päivää vahvistetun tilauksen ja käsirahajan jälkeen; räätälöity muotin kehittely lisää 15–20 päivää työkalustukseen.'
+    - q: Miten ominaisuudet näkyvät laadussa?
+      a: 'Jokainen prosessi syöttää 7-vaiheista laatujärjestelmää: 100 pisteen kokoonpanotarkistuslista, 18.0 PSI:n 24 tunnin paineen pito ja automaattinen hylkäys yli 0.50 PSI:n painehävikin kohdalla, ISO 2859-1:n tason II näytteistys sekä 10 vuoden erien jäljitettävyys ERP:ssä.'
+
+cta:
+  title: 'Katso, mitkä ominaisuudet sopivat projektiisi'
+  subtitle: 'Lähetä tuotetoimeksiantoasi — suunnittelukatsaus ja ominaisuuksiin sovitettu tarjous yhden arkipäivän kuluessa.'
+  actions:
+    - variant: primary
+      text: Pyydä valmistustarjous
+      href: /fi/contact#custom-oem
+    - text: Kierrä tehdasta
+      href: /fi/factory
+    - text: Tehtaan tuotantoprosessi
+      href: /fi/factory/process
+    - text: Tehtaan kapasiteetti ja toimitusajat
+      href: /fi/factory/capacity
+    - text: Laatu ja testaus
+      href: /fi/quality
+    - text: Näyttökeskus — tehtaan näyttö
+      href: /fi/proof-center
+    - text: OEM- ja ODM-valmistus
+      href: /fi/oem-manufacturing

@@ -1,0 +1,125 @@
+meta:
+  title: 'OEM-käynnistysopas — vaihe vaiheelta ensimmäisestä yhteydenotosta tuotantoon | iSupfactory'
+  description: 'OEM-käynnistysopas: NDA, toteutettavuusarvio, näytetuotanto, hyväksyntä, tuotannon esivalmistelu, tuotantolaadunvalvonta ja lähetys. Vaihe vaiheelta aikatauluineen.'
+  dateModified: '2026-08-20'
+  keywords:
+    - 'oem käynnistysopas'
+    - 'sup valmistusprosessi'
+    - 'oem ostajan käynnistys'
+    - 'sup tehdasprosessi'
+    - 'räätälöidyn sup-tilauksen vaiheet'
+    - 'oem näyteprosessi'
+    - 'sup tuotantoaikataulu'
+
+hero:
+  tagline: 'OEM-ostajan käynnistys'
+  title: 'Ensimmäinen SUP-tilauksesi, vaihe vaiheelta'
+  subtitle: 'Ensimmäisestä yhteydenotosta toimitettuihin lautoihin iSupfactoryn OEM-käynnistysprosessi kulkee seitsemän määritellyn portin läpi — jokaisella on selvä aikataulu, dokumentoitu toimitettava ja jatkaa/tuumaa-piste. Ei epäselvyyksiä, piilotettuja vaiheita eikä yllätyksiä talletuksen jälkeen.'
+  actions:
+    - variant: primary
+      text: Lähetä projektibriefisi
+      href: /fi/contact#project-brief
+    - text: Vertaa OEM-, ODM- ja Private Label -reittejä
+      href: /fi/oem-odm-private-label-comparison
+
+answer:
+  label: 'Suora vastaus'
+  text: 'Tyypillinen OEM-käynnistys kestää 2–4 viikkoa näytteen hyväksyntään ja 6–8 viikkoa ensimmäiseen tuotantosarjaan vahvistetun tilauksen jälkeen. Aloitat jättämällä projektibriefin (laudan määritykset, volyymi, vaatimustenmukaisuus). Vastaamme yhden arkipäivän kuluessa, tarjoamme NDA:n ennen kuin jaat luottamukselliset tiedot, ja valmistamme 1–2 fyysistä näytettä 7–12 päivässä tarkastelusi ja hyväksyntääsi varten. Kun näyte on jäädytetty, tuotannon suunnittelu ja valmistus jatkuvat kiinteillä laadunvalvontaporteilla jokaisessa vaiheessa. Jokainen vaihe on dokumentoitu ja jäljitettävä.'
+  verified: 'Syyskuu 2026'
+
+process_steps:
+  tagline: Seitsemän porttia
+  title: 'Käynnistyksen kulku — seitsemän porttia briefistä toimitukseen'
+  subtitle: 'Jokaisella portilla on määritelty syöte, määritelty tuotos ja etukäteen sovittu aikataulu. Et etene portista eteenpäin ilman nimenomaista hyväksyntää.'
+  steps:
+    - step: 'Portti 1'
+      title: 'Aloitusyhteydenotto ja NDA (päivä 0)'
+      desc: 'Lähetä projektibriefi sivun /fi/contact kautta mukanasi tavoiteltavat laudan määritykset, tilauksen volyymi, vaatimustenmukaisuusvaatimukset ja aikataulu. NDA on saatavilla heti — ennen kuin jaat mitään luottamuksellista teknistä määritystä tai artworkia. Vastaus yhden arkipäivän kuluessa.'
+    - step: 'Portti 2'
+      title: 'Toteutettavuusarvio ja tarjous (päivät 1–5)'
+      desc: 'Tuotetekniikka käy briefisi läpi suhteessa valmistuskapasiteettiin, materiaalien saatavuuteen ja vaatimustenmukaisuuden laajuuteen. Saat kohdekohtaisen tarjouksen, jossa on vähimmäiserälaskelma, näytemaksut (vähennetään tuotannosta) ja toimitusajan vaiheet — ei arvattua aluetta, vaan portti portilta etenevä aikataulu.'
+    - step: 'Portti 3'
+      title: 'Näytetuotanto (päivät 6–17)'
+      desc: '1–2 fyysistä lautaa valmistetaan määrityksesi mukaisesti: runkojen jäykkyys, EVA-koostumatyynyn pinta, kuvituksen tarkkuus, lisävarusteiden istuvuus. Koet laudalla ja arvioit sen ennen kuin sitoudut mihinkään muuhun. Näytemaksut vähennetään tuotantotilauksestasi sopimuksen allekirjoituksen yhteydessä.'
+    - step: 'Portti 4'
+      title: 'Näytteen tarkastus ja hyväksyntä (päivät 18–21)'
+      desc: 'Arvioit näytettä määrityksiäsi vasten — ajoitus, kuvituksen vastaavuus, pakkaus, lisävarusteet. Muutokset kirjataan päivitettyyn BOM-asiakirjaan ja artworkin hyväksyntään. Jäädytetty määritys muuttuu tuotannon viiteasiakirjaksi kaikkiin myöhempiin sarjoihin.'
+    - step: 'Portti 5'
+      title: 'Tuotannon esivalmistelu (päivät 22–28)'
+      desc: 'Materiaalien hankinta, työkaluston valmistelu, pakkauksen vahvistus ja tuotantopaikkojen varaus. Kaikki materiaalit tarkastetaan vastaanotossa jäädytetyn BOM-asiakirjan mukaisesti. Ennen valmistuksen alkua annetaan tuotantoaikataulu laadunvalvonnan porttien päivämäärineen.'
+    - step: 'Portti 6'
+      title: 'Tuotanto ja laadunvalvontaportit (päivät 29–55)'
+      desc: 'Valmistus kulkee 7-vaiheisen tarkastusporttijärjestelmän läpi: saapuvien materiaalien tarkastus, drop-stitch-kankaan tarkastus, hitsaus ja kokoonpano, paine- ja ilmatiiviystestaus (18.0 PSI pysäytys, automaattinen hylkäys yli 0.50 PSI:n laskun yli), EVA-alustan ja lisävarusteiden asennus, kuvituksen ja brändäyksen laadunvalvonta sekä lopullinen pakkaus ja dokumentaatio. Jokaisella portilla on hyväksy/hylkää-kriteerit ja jäljitettävyyskirjaukset.'
+    - step: 'Portti 7'
+      title: 'Lähetys ja toimituksen jälkeinen katselu (päivät 56–63)'
+      desc: 'Vientiluokan pakkaus, vaatimustenmukaisuusdokumentaatio (CE, ISO 9001, BSCI, REACH, RoHS) ja merirahtiyhteistyö yli 50 maahan. Toimituksen jälkeinen katselu kirjaa opitut asiat ja parannukset seuraavaa tilaussykliä varten.'
+
+collaboration_modes:
+  tagline: Valitse reuttasi
+  title: 'Kolme yhteistyömallia, yksi käynnistysprosessi'
+  subtitle: 'Jokainen uusi ostaja käy läpi saman seitsemän portin käynnistyksen — se muuttuu, kuinka suuri tuotetekninen osallistuminen on ja missä immateriaalioikeuksien omistajuus sijaitsee.'
+  grid: 'sm:grid-cols-2 lg:grid-cols-3'
+  features:
+    - icon: O
+      icon_bg: blue
+      title: 'OEM-valmistus'
+      desc: 'Sinä annat täydellisen suunnittelumäärityksen — rungon muoto, rakenne, kuvitus, lisävarusteet. Valmistamme määrityksesi mukaisesti. Omistat kaikki immateriaalioikeudet. Sopii parhaiten brändeille, joilla on olemassa oleva tuotevalikoima ja todennettu laudan geometria.'
+      link_label: 'Näin OEM toimii'
+      href: /fi/oem-manufacturing
+    - icon: D
+      icon_bg: green
+      title: 'ODM-kehitys'
+      desc: 'Sinä annat briefin — kohderatsastajan paino, käyttötarkoitus, hintataso — ja tuotetekniikan tiimimme kehittää laudan vaatimuksistasi. Mukautettu alustan ja brändäyksesi kanssa. Sopii parhaiten brändeille, jotka astuvat markkinoille ilman omaa suunnitteluosaamista.'
+      link_label: 'Näin ODM toimii'
+      href: /fi/odm-manufacturing
+    - icon: P
+      icon_bg: purple
+      title: 'Private Label / Co-Branding'
+      desc: 'Tuo brändisi todennetulle alustalle — tuotetekniikan vaihetta ei tarvita. Logosi nokkaan tai sivukiskoihin alkaen 5–10 kpl:stä. Sopii parhaiten operaattoreille ja jakelijoille, jotka haluavat brändättyjä lautoja ilman kehityssykliä.'
+      link_label: 'Private Label -vaihtoehdot'
+      href: /fi/solutions/private-label-sup
+
+checklist:
+  heading: 'Mitä valmistella ennen projektibriefiä'
+  body: |
+    Mitä täydellisempi briefisi on, sitä nopeammin ja tarkemmin tarjouksen saat. Tässä on, mitä kannattaa valmistella:
+
+    - **Laudan määritykset** — Tavoiteltu pituus, leveys, paksuus, ratsastajan painoalue ja suunniteltu käyttö (retkeily, all-around, surffaus, kalastus, jooga jne.). Jos sinulla on referenssilaudan mittoja tai kilpailijan malli, sisällytä ne.
+    - **Suunnittelutiedostot** — Vektoriartwork (AI, SVG tai PDF) laudan kuvitukseen, EVA-alustan logoon ja mihin tahansa toissijaiseen brändäykseen. Jos artwork ei ole valmis, mielikuvapaneeli tai referenssikuvat riittävät alustavaan toteutettavuusarvioon.
+    - **Tilauksen volyymi ja aikataulu** — Tavoitemäärä ensimmäiselle tilaukselle ja kausiaikataulu, johon sinun on päästävä. Jopa karkea alue ("20–50 lautaa maaliskuuhun mennessä") riittää vahvistamaan toteutettavuuden ja tuotantopaikan saatavuuden.
+    - **Vaatimustenmukaisuusvaatimukset** — Kohdemarkkinat (EU, Pohjois-Amerikka, Australia jne.) ja mahdolliset erityiset sertifiointi- tai testivaatimukset vakiintuneen laajuutemme ulkopuolella (CE, ISO 9001, BSCI, REACH, RoHS).
+    - **Budjetin suuruusluokka** — Suuntaa-antava lautakohtainen budjetti tai tavoiteltu loppukustannus auttaa meitä suosittelemaan oikeaa alustaa ja rakennetasoa. Tarkka hinnoittelu vahvistetaan tuotetekniikan arvion jälkeen — ei koskaan aiemmin.
+
+    Jos sinulla ei ole vielä kaikkea tätä, lähetä mitä sinulla on. Ohjaamme loput.
+
+evidence_review:
+  tagline: 'Näyttö ja todentaminen'
+  title: 'MÄÄRITYKSET TODENNETTU'
+  body: 'Kaikki tämän sivun valmistusväitteet on todentanut tuotantotekniikkatiimamme Laixin tehtaalla Qingdaossa. Sertifikaatit, laadunvalvontatarkastusten kirjaukset, paine- ja rakennetestien raportit sekä eräjäljitettävyyslokit ovat pyydettäessä saatavilla. Määritykset viimeksi todennettu syyskuussa 2026.'
+
+faqs:
+  tagline: FAQ
+  title: 'OEM-käynnistys — usein kysytyt kysymykset'
+  items:
+    - q: 'Kuinka kauan koko käynnistysprosessi kestää?'
+      a: 'Näytteen hyväksyntä kestää tyypillisesti 2–4 viikkoa (mukaan lukien näytetuotanto 7–12 päivässä ja tarkastelujakso). Ensimmäinen tuotantosarja kestää 6–8 viikkoa vahvistetun tilauksen ja talletuksen jälkeen. Räätälöity rungon muoto lisää 15–20 päivää muotin kehittämiseen. Jokaisella portilla on kiinteä aikataulu, josta sovitaan etukäteen.'
+    - q: 'Tarvitseeko allekirjoittaa NDA:n ennen suunnitteluni jakamista?'
+      a: 'NDA on saatavilla heti pyynnöstä — ennen kuin jaat mitään luottamuksellista teknistä määritystä tai artworkia. Valmistamme yksinomaan asiakkaidemme brändeillä emmekäkä koskaan kilpaile niiden kanssa millään markkinoilla. Sama käytäntö koskee 1 laudan näytettä ja kontillisen suuruista ohjelmaa.'
+    - q: 'Mikä on ensimmäisen OEM-sarjan vähimmäiseräkoko?'
+      a: 'Lähtöpiste on porrastettu: ensin 1–2 näytettä (valmiina 7–12 päivässä), sitten koepuu tai pilottierä 20–50 lautaa (tuotanto 25–35 päivässä), ja lopuksi vakiintuneet sarjat 90–100+ lautaa hyväksytyn konfigurointia kohti. Pien-erä co-branding alkaa 5–10 kpl:stä, kun kehitysvaihetta ei tarvita. Näytemaksut vähennetään tuotantotilauksestasi.'
+    - q: 'Miten immateriaalioikeudet hoidetaan käynnistyksen aikana?'
+      a: 'Suunnittelusi ja määrityksesi on suojattu allekirjoitetulla NDA:lla, joka tehdään ennen minkään luottamuksellisen tiedon jakamista. Kaikki artwork, BOM-tiedot ja tekniset tiedostot säilytetään pääsynvalvotuissa järjestelmissä audit-jäljen kanssa. OEM-tilassa omistat kaikki immateriaalioikeudet. ODM-tilassa mukautetun alustan immateriaalioikeudet jaetaan sopimuksen mukaan. Private Label -tilassa immateriaalioikeudet jäävät iSupfactorylle ja lisensoit brändin soveltamisen.'
+    - q: 'Mitä laututakuita ensimmäiseen tilaukseen sovelluu?'
+      a: 'Jokainen lauta — olipa se näyte, koepuu tai sarjatilaus — käy saman 7-vaiheisen tarkastusporttijärjestelmän läpi: saapuvien materiaalien tarkastus, drop-stitch-kankaan tarkastus, hitsaus ja kokoonpano, 24 tunnin paine- ja ilmatiiviystestaus (18.0 PSI pysäytys, automaattinen hylkäys yli 0.50 PSI:n laskun yli), EVA-alustan ja lisävarusteiden asennus, kuvituksen ja brändäyksen laadunvalvonta sekä lopullinen pakkaus ja dokumentaatio. Laatua ei lasketa koskaan pienemmäksi pienempien tilausten vuoksi.'
+
+cta:
+  title: 'Valmiina aloittamaan SUP-projektisi?'
+  subtitle: 'Lähetä laudan määritykset, volyymitavoitteesi ja aikataalusi. Vahvistamme toteutettavuuden, valmistamme näytteet ja toimitamme tuotantoaikataulun — portti portilta, dokumentoidulla laadunvalvonnalla jokaisessa vaiheessa.'
+  actions:
+    - variant: primary
+      text: Lähetä projektibriefisi
+      href: /fi/contact#project-brief
+    - text: Vertaa OEM-, ODM- ja Private Label -reittejä
+      href: /fi/oem-odm-private-label-comparison
+    - text: Todenna tehdas ja laatujärjestelmä
+      href: /fi/proof-center

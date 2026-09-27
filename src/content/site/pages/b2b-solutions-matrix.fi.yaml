@@ -1,0 +1,134 @@
+meta:
+  title: 'B2B-asiakasratkaisujen matriisi | {SITE}'
+  description: 'Vatradin kattava B2B-asiakasratkaisujen matriisi, joka kattaa 24 asiakastyyppiä — ulkoiluyritysten perustajista merensuojelujärjestöihin.'
+  dateModified: '2026-08'
+
+hero:
+  tagline: B2B-asiakasratkaisut
+  title: '24 B2B-ratkaisua juuri sinulle'
+  subtitle: 'Perustajista globaaleihin jakelijoihin — löydä juuri se Vatradin ratkaisu, joka on suunniteltu liiketoimintasi mallia, toimialaa ja tavoitteita varten.'
+  image:
+    src: https://assets.isupfactory.com/images/sups/factory/isupfactory-factory-building.webp
+    alt: Vatradin tehdas ja valmistuslaitos
+
+answer:
+  label: 'Suora vastaus'
+  text: 'Yksi tehdas palvelee jokaista B2B-reittiä: OEM/ODM-valmistus projektikohtaisesti sovitulla minimitilauksella (MOQ) (näyte 1–2 kpl, pilottierä 20–50, vakiintunut sarjatuotanto 90–100+ kpl 150 m rullaa kohti; yhteisbrändäys 5–10 kpl alkaen), private label vakiintuneille tuotteille, tukkujakelu sekä lauttakannukkeiden ohjelmat resorteille, seuroille ja kouluille. Jokainen asiakastyyppi linkittyy tiettyyn ratkaisukokonaisuuteen — näytteet 7–12 päivässä, tuotanto 25–35 päivää tilauksen (PO) ja käsirahan jälkeen.'
+  verified: 'Syyskuu 2026'
+
+solutions:
+  title: Asiakasratkaisujen matriisi
+  subtitle: 'Jokainen asiakastyyppi, sen keskitarve ja heille suunniteltu Vatradin ratkaisusivu.'
+  items:
+    - clientType: Ulkoiluyrityksen perustaja
+      need: Brändin luominen
+      solutionPage: Rakenna SUP-brändisi
+      link: /fi/solutions/private-label-sup
+    - clientType: Ulkoilubrändin tuotepäällikkö
+      need: Ulkoilubrändin laajentuminen vesilajeihin
+      solutionPage: Laajenna ulkoilubrändisi vesilajeihin
+      link: /fi/solutions/private-label-sup
+    - clientType: Surffikaupan omistaja
+      need: Surffiliiketoiminnan uudistus
+      solutionPage: Tuo puhallettava teknologia surffiliiketoimintaan
+      link: /fi/products/surf
+    - clientType: Amazon-myyjä
+      need: Verkkokaupan kasvu
+      solutionPage: Tuotteiden erottautuminen ja nopea toimitus
+      link: /fi/solutions/private-label-sup
+    - clientType: Kalastusvälinebrändi
+      need: Kalastus-SUP
+      solutionPage: Luo kalastus-SUP-brändisi
+      link: /fi/products/fishing
+    - clientType: Yoga- ja hyvinvointibrändi
+      need: Hyvinvointituotteet vedellä
+      solutionPage: SUP-joogulaiteratkaisut
+      link: /fi/products/yoga
+    - clientType: Sisällöntuottajien brändi
+      need: Vaikuttajabrändi
+      solutionPage: Sisällöntuottajille suunnattu SUP-aloitus
+      link: /fi/solutions/private-label-sup
+    - clientType: Melaseuran perustaja
+      need: Seuran lauttakannukkeet
+      solutionPage: Kaupallinen SUP-lautakannuke
+      link: /fi/solutions/club-sup
+    - clientType: Vuokrausliikkeen omistaja
+      need: Vuokraustoiminta
+      solutionPage: Kestävä vuokrauskannukkaratkaisu
+      link: /fi/solutions/rental-operators
+    - clientType: Resorthotellin aktiviteettipäällikkö
+      need: Hotellielämys
+      solutionPage: Resortin vesitoimintapaketti
+      link: /fi/solutions/resort-sup
+    - clientType: Vesilajiakatemia
+      need: Koulutus ja opetus
+      solutionPage: SUP-akatemian laiteohjelma
+      link: /fi/solutions/school-sup
+    - clientType: Risteily- ja purjeveneyhtiö
+      need: Purjevenielämys
+      solutionPage: Luksuspaketti kannettavilla SUP-laudoilla
+      link: /fi/product-development
+    - clientType: Ulkoilukaupan ostaja
+      need: Vähittäiskauppakanava
+      solutionPage: Vähittäiskaupan private label -ohjelma
+      link: /fi/solutions/retail-partners
+    - clientType: Jakelija ja tuontija
+      need: Alueellinen jakelu
+      solutionPage: Alueellinen OEM- ja toimitusketjukumppani
+      link: /fi/solutions/distributors
+    - clientType: Yritysprojektien ostaja
+      need: Yritystapahtumat
+      solutionPage: SUP-paketti yritystapahtumiin
+      link: /fi/contact
+    - clientType: Vesilajibrändin tuotepäällikkö
+      need: Vesilajibrändin laajentaminen
+      solutionPage: Laajenna vesilajibrändisi valikoimaa
+      link: /fi/solutions/private-label-sup
+    - clientType: Lemmikki- ja seikkailubrändin omistaja
+      need: Ulkoilu lemmikkien kanssa
+      solutionPage: Lemmikkiystävällinen melalautaohjelma
+      link: /fi/product-development
+    - clientType: Rantatoimintojen operaattori
+      need: Rantaviihde
+      solutionPage: Kaikenkattavat rantatoimintojen laiteratkaisut
+      link: /fi/solutions/rental-operators
+    - clientType: Vesipuiston rakentaja
+      need: Teemapikaviihde
+      solutionPage: Kaupallinen SUP-lautakannuke vesipuistoille
+      link: /fi/solutions/resort-sup
+    - clientType: Yksityissaaren ja luksusseuran omistaja
+      need: Premium-elämäntapa
+      solutionPage: Premium-räätälöity SUP-kokoelma
+      link: /fi/product-development
+    - clientType: Matkailutoimisto ja yleisen puiston operaattori
+      need: Julkiset matkailuhankkeet
+      solutionPage: Vesilajipaketti matkailukohteisiin
+      link: /fi/solutions/rental-operators
+    - clientType: Lasten seikkailu- ja kesäleirioperaattori
+      need: Nuorten kasvatus
+      solutionPage: SUP-ohjelma lasten tutkimusmatkoille
+      link: /fi/solutions/school-sup
+    - clientType: Vesi- ja turvallisuusjärjestö
+      need: Ammattilaispelastus
+      solutionPage: Ammattilaisen SUP-pelastusjärjestelmä
+      link: /fi/product-development
+    - clientType: Merensuojelu- ja tutkimuslaitos
+      need: Ympäristötutkimus
+      solutionPage: Ympäristötutkimuksen ja -seurannan SUP-alusta
+      link: /fi/product-development
+
+cta:
+  title: 'Epäiletkö, mikä ratkaisu sopii liiketoimintaasi?'
+  subtitle: 'Kerro projektistasi B2B-tiimillemme, niin suosittelemme oikean kokoonpanon ja hinnan.'
+  actions:
+    - variant: primary
+      text: 'Puhu B2B-tiimillemme'
+      href: /fi/contact?subject=b2b-solutions
+    - variant: secondary
+      text: 'Lataa luettelo'
+      href: /fi/products
+
+content_html: |
+  <div class="mx-auto max-w-3xl space-y-4 rounded-2xl border bg-card p-6 text-[14.5px] leading-relaxed text-fg-2">
+    <p>Jokainen tämän matriisin reitti alkaa samoista kahdesta asiasta: <a href="/fi/oem-manufacturing">OEM/ODM-valmistusohjelmastamme</a> ja sen <a href="/fi/factory">takana olevasta tehtaasta</a> — yksi 12,500 m&sup2; laitos, yksi laadustandardikokonaisuus ja kaikki kanavat palvellaan.</p>
+  </div>

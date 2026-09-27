@@ -4132,6 +4132,377 @@ export const solutionPages: Localized<SolutionPageData[]> = {
       ctaLabel: 'Drøft dit SUP-program for skolen',
     },
   ],
+  fi: [
+    {
+      slug: 'custom-sup',
+      navLabel: 'Räätälöidyt SUP-laudat',
+      metaTitle: 'Räätälöityjen SUP-lautojen kehittely | Mukautetut melontalaudat',
+      metaDescription:
+        'Kehitä räätälöityjä SUP-tuotteita iSupfactoryn kanssa. Tuemme tuotevaatimuksia, räätälöintiä, prototyyppejä ja tuotantoa yrityksille ja järjestöille.',
+      kicker: 'Räätälöityjen SUP-lautojen valmistaja',
+      serviceType: 'Räätälöityjen SUP-tuotteiden kehittely',
+      answer:
+        'Kehitämme räätälöityjä puhallettavia SUP-lautoja, kovalautoja ja lisävarusteita vaatimustesi mukaan — muoto, grafiikka, materiaalit ja pakkaus — suunnittelun, näytteen ja tuotannon kautta. Räätälöidut projektit alkavat 90–100+ kpl:stä 150 m rullaa kohti (vakiomäärä); näytteet lähetetään 7–12 päivässä ja tuotanto kestää 25–35 päivää vahvistetusta tilauksesta ja käsirahasta.',
+      h1: 'Räätälöidyt SUP-tuotteet rakennettu vaatimustesi ympärille',
+      intro: [
+        'Tarvitset melontalaudoja, jotka on rakennettu spesifikaatiosi mukaan — muoto, grafiikka, materiaalit, pakkaus — ilman että ylläpidät omaa tehdasta. Olemme tuotantokumppani, joka ottaa vaatimuksesi vastaan ja palauttaa valmiin tuotteen.',
+        'Jokaisesta projektista vastaa oma asiantuntija, joka johtaa suunnittelua, näytteitä, tuotantoa ja toimitusta, joten tiedät aina tilauksesi tilan.',
+      ],
+      scenario: {
+        title: 'Tarvitset vaatimustesi mukaan rakennettuja lautoja',
+        body: 'Tuotevaatimus — ei luettelon tuote. Sinun muotosi, sinun grafiikkasi, sinun laatutasoni, sinun pakkauksesi. Suunnittelemme, valmistamme näytteen ja tuotemme vakiintuneilla alustoilla joustavasti jo ensimmäisestä pienestä erästä alkaen.',
+      },
+      pairs: [
+        {
+          problem: 'Tehtaiden luettelot tarjoavat vain varastosuunnitelmia, joita ei voi muuttaa.',
+          solution: 'Valmistamme lautoja sinun muodoillasi, grafiikkasi ja spesifikaatioillasi — ensimmäisestä näytteestä täysiin tuotantoeriin.',
+        },
+        {
+          problem: 'Suuret vähimmäistilausmäärät sitovat varastoon ennen kuin markkina on validoitu.',
+          solution: 'Räätälöity tuotanto alkaa 90–100+ kpl:stä mallia kohti, kun taas pilottierät olemassa olevilla alustoilla alkavat 20–50 kpl:stä — ensimmäiset erät pysyvät pieninä ja yksikköhinta reiluna.',
+        },
+        {
+          problem: 'Sinulla ei ole omaa suunnittelu- tai tuotekehitystiimiä.',
+          solution: 'Sisäinen suunnittelu- ja tuotekehitystiimimme muuntaa idean, piirroksen tai referenssilaudan tuotantovalmiiksi piirustuksiksi.',
+        },
+        {
+          problem: 'Tuntematon tehtaan laatu ja hidas viestintä.',
+          solution: 'Projektiasiantuntija omistaa näytteet, laadunvalvontavaiheet ja toimitusaikataulut alusta loppuun — yksi yhteyspiste, selkeät päivitykset.',
+        },
+      ],
+      steps: [
+        { title: 'Lähetä projektisi', body: 'Kerro vaatimuksistasi tai jaa piirroksia ja referenssikuvia.' },
+        { title: 'Suunnittelu ja näyte', body: 'Kehitämme piirustukset ja lähetämme fyysisen näytteen 7–12 päivässä.' },
+        { title: 'Hyväksy ja tuota', body: 'Hyväksynnän jälkeen tuotanto kestää 25–35 päivää ja laadunvalvonta tehdään useissa vaiheissa.' },
+        { title: 'Toimita ja uuda tilaukset', body: 'Vienti kaikkialle maailmalle ammatillisin pakkauksin sekä uudelleentilaustuki yhtenäisellä laadulla.' },
+      ],
+      caseStudy: {
+        title: 'Ulkoilubrändin valikoiman laajentaminen',
+        body: 'Ulkoilubrändi astui melontailumaailmaan brändätyllä touring-laudalla. Kehitimme laudan alustavasta piirroksesta, saimme näytteen hyväksynnän 15 päivässä ja valmistimme ensimmäisen tuotantoerän 25–35 päivässä.',
+        tags: ['Laudan kehittely', 'Brändätty grafiikka', 'Ensimmäinen tuotantoerä'],
+      },
+      faqs: [
+        {
+          q: 'Voitteko kehittää SUP-tuotteen minun ideastani?',
+          a: 'Kyllä. Autamme arvioimaan vaatimuksiasi ja kehittämään tuotantovalmiin ratkaisun — konseptista ja piirustuksista fyysiseen näytteeseen.',
+        },
+        {
+          q: 'Voinko räätälöidä SUP-grafiikkaa ja värejä?',
+          a: 'Kyllä. Räätälöityä grafiikkaa, värejä ja brändielementtejä voidaan kehittää projektin vaatimusten mukaan.',
+        },
+        {
+          q: 'Mikä on räätälöityjen SUP-lautojen vähimmäistilaus (MOQ)?',
+          a: 'Räätälöity tuotanto alkaa 90–100+ kpl:stä mallia kohti, ja pilottierät olemassa olevilla alustoilla 20–50 kpl:stä. Suuremmat määrät antavat paremman yksikköhinnan, ja uusissa tilauksissa työkalusi ja mallisi säilyvät.',
+        },
+        {
+          q: 'Mitä laudassa voidaan räätälöidä?',
+          a: 'Muoto ja mitat, rakenne ja materiaalit, grafiikka ja logo, EVA-maton leikkaus, lisävarusteet (mela, pumppu, laukku) ja pakkaus.',
+        },
+        {
+          q: 'Toimitatteko näytteitä ennen tuotantoa?',
+          a: 'Kyllä — fyysinen näyte valmistetaan ja hyväksytään ennen mitään tuotantoerää. Näyteaika on normaalisti 7–12 päivää.',
+        },
+        {
+          q: 'Voitteko tehdä sen pelkillä brändimateriaaleillani ilman omaa suunnittelutiimiä?',
+          a: 'Kyllä. Suunnittelutiimimme kehittää tuotantovalmiin grafiikan logostasi, brändiväreistäsi tai alustavasta ideasta.',
+        },
+      ],
+      ctaLevel: 'hot',
+      ctaLabel: 'Keskustele räätälöityjen SUP-lautojen projektistasi',
+    },
+    {
+      slug: 'private-label-sup',
+      navLabel: 'SUP omalla brändillä',
+      metaTitle: 'SUP-tuotanto omalla brändillä | Räätälöity SUP-valmistus',
+      metaDescription:
+        'iSupfactory tukee SUP-tuotantoa omalla brändillä nykyisille brändeille ja auttaa kehittämään räätälöidyt SUP-tuotteet spesifikaatiosta tuotantoon.',
+      kicker: 'SUP omalla brändillä',
+      serviceType: 'SUP-tuotanto omalla brändillä',
+      answer:
+        'Tuotanto omalla brändillä siirtää brändisi vakiintuneille, tuotantovalmiille SUP-alustoille ilman uusia työkaluja. Valitse perusmalli, sovella logosi, värisi, pakkaussi ja lisävarusteesi ja tilaa 90–100+ kpl:stä 150 m rullaa kohti (vakiomäärä). Nopein ja vähäriskisin tapa julkaista; näytteet 7–12 päivää ja tuotanto 25–35 päivää tilauksesta.',
+      h1: 'Tuotantotuki SUP:lle omalla brändillä',
+      intro: [
+        'Tuotanto omalla brändillä antaa sinulle julkaista melontalaudasarjan omalla brändilläsi ilman investointia työkaluihin tai tehtaaseen. Logosi, värisi ja pakkauksesi sijoitetaan laadulla todennettuille alustoille, ja määrät kasvavat kysynnän mukaan.',
+        'Hoidamme tuotepuolen, jotta voit keskittyä brändipuolelle: suunnittelun, pakkauksen ja uudelleentilausten hallinnan hoidamme me.',
+      ],
+      scenario: {
+        title: 'Sinulla on brändi — ja tarvitset tuotteen sen alle',
+        body: 'Brändi-identiteetti ilman valmista tuotevalikoimaa. Haluat myydä oman nimesi alla olevia melontalautoja määrässä, joka sopii vaiheeseesi — ensimmäisestä validointierästä toistuviin laivastoihin.',
+      },
+      pairs: [
+        {
+          problem: 'Brändäys on vain tarra — tuote näyttää yhä geneeriseltä.',
+          solution: 'Täysi brändintegrointi: laudan grafiikka, logo, EVA-maton leikkaus, brändätty mela, pumppu, laukku ja pakkaus.',
+        },
+        {
+          problem: 'Ensimmäiset tilaukset pakottavat ostamaan satoja yksiköitä, joita et välttämättä myy.',
+          solution: 'Aloita 20–50 kpl:n pilottierällä vakiomallilla ja skaalaa sitten 90–100+ kpl:n tuotantoerään — validoi markkina ennen suuria eriä.',
+        },
+        {
+          problem: 'Suunnittelun ja pakkauksen kehittäminen tuntuu saavuttamattomalta.',
+          solution: 'Suunnittelutiimimme muuntaa brändimateriaalisi tuotantovalmiiksi lauta- ja pakkaustiedostoiksi.',
+        },
+        {
+          problem: 'Uudelleentilaukset ajautuvat laadun tai saatavuuden suhteen.',
+          solution: 'Työkalut ja mallit pysyvät sinulla, ja uudelleentilaukset ajetaan samoilla todennetuilla alustoilla yhtenäisellä laadulla.',
+        },
+      ],
+      steps: [
+        { title: 'Jaa brändisi', body: 'Lähetä logosi, värisi ja mahdolliset olemassa olevat brändimateriaalit.' },
+        { title: 'Kehitä grafiikka', body: 'Suunnittelemme laudan grafiikan, EVA-leikkauksen ja pakkauksen brändisi ympärille.' },
+        { title: 'Hyväksy näyte', body: 'Fyysinen näyte vahvistaa värit, viimeistelyn ja pakkauksen.' },
+        { title: 'Tuota ja toimita', body: 'Tuotanto ajetaan määrääsi, ja laadunvalvonta sekä vienti hoidetaan alusta loppuun.' },
+      ],
+      caseStudy: {
+        title: 'Uusi brändi, ensimmäinen tuotantotilaus',
+        body: 'Urheilukauppa julkaisi oman melontalaudasarjansa ainoastaan logosta. Kehitimme koko laudan ja pakkausmateriaalin, valmistimme markkinatestiä varten 50 kpl:n ensimmäisen erän ja skaalasimme sitten täyteen tuotantotilaukseen yhden kauden aikana.',
+        tags: ['Brändin kehittäminen', 'Pakkauksen suunnittelu', 'Skaalautunut tuotanto'],
+      },
+      faqs: [
+        {
+          q: 'Mitä on SUP-tuotanto omalla brändillä?',
+          a: 'SUP-tuotanto omalla brändillä antaa yrityksille mahdollisuuden myydä SUP-tuotteita omalla brändillään räätälöityjin spesifikaatioin ja tuotantotukineen.',
+        },
+        {
+          q: 'Voivat nykyiset brändit kehittää uusia SUP-tuotteita?',
+          a: 'Kyllä. iSupfactory tukee brändejä, jotka haluavat laajentaa valikoimaansa SUP-tuotteilla — tuotevalikoima, spesifikaatioiden hienosäätö, räätälöity grafiikka ja tuotanto.',
+        },
+        {
+          q: 'Mitä ohjelma omalla brändillä sisältää?',
+          a: 'Brändisi itse laudassa — grafiikka, logo, EVA-matto — sekä valinnaisesti brändätty mela, pumppu, reppute ja pakkaus: valmis myytävä tuote nimelläsi.',
+        },
+        {
+          q: 'Voiko suunnittelua muuttaa tilausten välillä?',
+          a: 'Kyllä. Kun brändimateriaali on tuotantovalmis, uudelleentilauksissa voi päivittää grafiikkaa, värejä tai pakkausta milloin tahansa.',
+        },
+        {
+          q: 'Meillä on vain logo. Voitteko silti auttaa?',
+          a: 'Kyllä. Suunnittelutiimimme kehittää koko lauta- ja pakkausmateriaalin logostasi ja brändiväreistäsi.',
+        },
+      ],
+      ctaLevel: 'warm',
+      ctaLabel: 'Keskustele omalla brändillä tehtävästä SUP-projektistasi',
+    },
+    {
+      slug: 'resort-sup',
+      navLabel: 'SUP-resorteille',
+      metaTitle: 'Räätälöity SUP-varusteet resorteille | Brändätyt laudat',
+      metaDescription:
+        'Luo räätälöityjä SUP-varusteita resorteille ja hotelleille iSupfactoryn brändätyillä laudoilla, lisävarusteilla ja tuotantotuella.',
+      kicker: 'SUP-resorteille',
+      serviceType: 'SUP-varusteet resorteille ja hotelleille',
+      answer:
+        'Toimitamme brändättyjä puhallettavia SUP-lautoja resorteille ja hotelleille päivittäiseen asiakaskäyttöön rakennettuina: korkean paineen drop-stitch-rakenne, vahvistetut saumat ja porrastetut vähimmäistilausmäärät 20–50 pilottikpl:stä 90–100+ kpl:een laivastorullaa kohti. Lautoissa on logosi ja värisi, ja neuvomme säilytyksestä, kunnossapidosta ja uudelleentilausohjelmista.',
+      h1: 'Räätälöityjen SUP-varusteiden ratkaisut resorteille ja hotelleille',
+      intro: [
+        'Resorttien melontalaivastojen on kestettävä päivittäistä asiakaskäyttöä, oltava helppoja säilyttää kausien välillä ja kantaa brändisi. Rakennamme kestäviä, asiakaskuntaan sopivia lautoja väreissäsi ja järjestämme laivasto-ohjelman toimintasi ympärille.',
+        'Määrät suositellaan käyttömallien perusteella, ei arvattelemalla — ja uudelleentilausohjelmat pitävät laivaston tuoreena kausi toisensa jälkeen.',
+      ],
+      scenario: {
+        title: 'Tarjoat asiakkaille vesiliikuntaa',
+        body: 'Asiakkaat odottavat muistettavaa kokemusta vedellä, ja varusteet edustavat kiinteistöäsi. Tarvitset lautoja, jotka kestävät päivittäistä vuokrausta, ovat helposti säilytettävissä ja brändättyjä, jotta ne sopivat resorttiin.',
+      },
+      pairs: [
+        {
+          problem: 'Asiakaslaivastot kuluvat nopeasti päivittäisessä vuokrauksessa.',
+          solution: 'Vuokrauslaatuinen rakenne vahvistetuilla reunalistoilla ja UV-kestävillä materiaaleilla, jotka on suunniteltu toistuviin käyttökerroksiin.',
+        },
+        {
+          problem: 'Säilytystila on rajallinen kausien ulkopuolella.',
+          solution: 'Säilytysystävälliset puhallettavat ratkaisut, jotka pakataan kausikauteen loputtua yhteen kaappiin.',
+        },
+        {
+          problem: 'Varusteet näyttävät geneerisiltä eivätkä edusta kiinteistöäsi.',
+          solution: 'Grafiikka koko laudan pinnassa, logot ja EVA-brändäys resortin väreissä — brändätyt lisävarusteet mukaan lukien.',
+        },
+        {
+          problem: 'Laivaston vaihto ja uudistus ovat koordinoimattomia.',
+          solution: 'Laivaston uudelleentilausohjelma yhtenäisellä laadulla, varaosatuki ja rehellinen määräsuositus.',
+        },
+      ],
+      steps: [
+        { title: 'Kuvaile toimintasi', body: 'Asiakasmäärät, ranta, säilytys ja kauden pituus.' },
+        { title: 'Hanki laivastosuunnitelma', body: 'Suosittelemme laudatyyppejä ja määriä käyttömallien perusteella.' },
+        { title: 'Hyväksy brändätty näyte', body: 'Värit ja logosi vahvistettuna fyysisellä laudalla.' },
+        { title: 'Vastaanota ja ylläpidä', body: 'Toimitus, varaosat ja uudelleentilausohjelma tulevia kausia varten.' },
+      ],
+      caseStudy: {
+        title: 'Brändätty asiakaslaivasto rannikkoresortissa',
+        body: 'Rannikkoresortti varusti rantaohjelmansa 40 brändätyllä puhallettavalla laudalla resortin väreissä, mukaan lukien brändätyt melat ja pumput. Laudat säilytetään kaapissa kausien ulkopuolella, ja laivasto uudistettiin toisen kauden jälkeen yhtenäisellä laadulla.',
+        tags: ['Brändätty asiakaslaivasto', 'Puhallettavien säilytys', 'Kausiuudistus'],
+      },
+      faqs: [
+        {
+          q: 'Voivat resortit räätälöidä SUP-varusteita omalla logollaan?',
+          a: 'Kyllä. Resortit voivat räätälöidä grafiikkaa, värejä ja lisävarusteita projektin vaatimusten mukaan — täysi brändäys kiinteistön värivalikoimassa.',
+        },
+        {
+          q: 'Voitteko toimittaa useita SUP-yksiköitä resortin toimintaan?',
+          a: 'Kyllä. Tuotantoratkaisut voidaan kehittää laivaston vaatimusten mukaan aina alkulaivastosta kausipohjaisiin uudistusohjelmiin.',
+        },
+        {
+          q: 'Kuinka monta lautaa resortti tarvitsee?',
+          a: 'Useimmat resortit aloittavat 20–50 laudalla ja skaalaavat kysynnän mukaan. Suosittelemme määriä asiakasmäärän ja rantan pituuden perusteella, emme arvattelemalla.',
+        },
+        {
+          q: 'Sopivatko puhallettavat laudat resorttikäyttöön?',
+          a: 'Kyllä. Modernit puhallettavat SUP-laudat ovat äärimmäisen kestäviä ja huomattavasti helpommin säilytettävissä ja kuljettavissa — suosittu valinta resorteille, joilla on rajallinen säilytystila.',
+        },
+        {
+          q: 'Voiko laivasto kantaa logomme ja värimme?',
+          a: 'Kyllä — koko laudan grafiikka, logopainatus, EVA-brändäys ja brändätyt lisävarusteet kuuluvat kaikki resorttiohjelmaan.',
+        },
+      ],
+      ctaLevel: 'warm',
+      ctaLabel: 'Pyydä resortillesi SUP-ratkaisu',
+    },
+    {
+      slug: 'club-sup',
+      navLabel: 'Räätälöidyt joukkuelaudat',
+      metaTitle: 'Räätälöidyt SUP-varusteet seuroille ja joukkueille',
+      metaDescription:
+        'iSupfactory toimittaa räätälöityjä SUP-varusteratkaisuja seuroille, joukkueille ja tapahtumille, mukaan lukien grafiikka, spesifikaatiot ja tuotantotuen.',
+      kicker: 'Räätälöidyt joukkuelaudat',
+      serviceType: 'SUP-varusteet seuroille ja joukkueille',
+      answer:
+        'Seurat ja joukkueet saavat kestävät, yhtenäiset laivastot omissa väreissään: logon sijainti, räätälöidut melojen pituudet ja lisävarustepaketit vakiintuneella lautaspesifikaatiolla, joten korjaukset ja varaosat pysyvät yksinkertaisina myös uudelleentilauksissa. Vähimmäistilaus alkaa 90–100+ kpl:stä (vakiomäärä); erittelyä varten on saatavilla 20–50 kpl:n pilottierät.',
+      h1: 'Räätälöidyt SUP-varusteet seuroille ja joukkueille',
+      intro: [
+        'Melontaseuroilla on laudat, jotka kestävät päivittäistä harjoittelua, näyttävät joukkueelta ja ovat yhtenäisiä uudelleentilausten yli. Valmistamme räätälöityjä joukkuelaudoja seurasi nimellä ja väreilläsi laivastoystävällisin hinnoin.',
+        'Seuraohjelmat sisältävät myös käytännön puolen: varaosat, korjausohjeet ja uudelleentilaustuki yhtenäisellä laadulla.',
+      ],
+      scenario: {
+        title: 'Seura järjestää harjoituksia ja joukkueita',
+        body: 'Laudat ovat jäsenten päivittäisessä käytössä ja edustavat seuraa tapahtumissa ja regatassa. Haluat kestävää ja seurabrändättyä varustetta ilman että hoidat itse tehtassuhteita.',
+      },
+      pairs: [
+        {
+          problem: 'Harjoituslaudat kuluvat nopeasti toistuvassa käytössä.',
+          solution: 'Vahvistettu rakenne päivittäiseen ammattikäyttöön sekä korjausohjeet ja varaosatuki.',
+        },
+        {
+          problem: 'Laivastot näyttävät epäyhtenäisiltä ja vailla brändäystä.',
+          solution: 'Seuran nimi, värit ja logo painetaan jokaiselle laudalle, jotta joukkueen laivasto näyttää yhtenäiseltä.',
+        },
+        {
+          problem: 'Laivaston kasvu tarkoittaa sopivan varaston metsästystä.',
+          solution: 'Uudelleentilaukset ajetaan samoilla todennetuilla alustoilla, joten uudet laudat vastaavat vanhoja.',
+        },
+        {
+          problem: 'Laivaston budjetti on tiukka.',
+          solution: 'Laivastohinnat sekä oma yhteyspiste uudelleentilauksia, osia ja ylläpitoa varten.',
+        },
+      ],
+      steps: [
+        { title: 'Kerro seurasta', body: 'Jäsenmäärä, harjoitustyypit ja nykyiset varusteet.' },
+        { title: 'Valitse laudatyypit', body: 'Harjoitus-, aloittelijan ja joukkuelaudat ohjelmaasi mukaan.' },
+        { title: 'Lisää seurabrändäys', body: 'Nimesi, värit ja logosi laudalla ja lisävarusteissa.' },
+        { title: 'Tilaa ja kasva', body: 'Laivastotoimitus, varaosat ja yhtenäiset uudelleentilaukset.' },
+      ],
+      caseStudy: {
+        title: 'Seuralaivaston uudistus',
+        body: 'Melontaseura uudisti brändinsä ja vaihtoi laivastonsa 25 brändättyyn harjoituslautaan sekä varaosiin. Jäsenet harjoittelevat yhtenäisellä varusteella, ja seura laajensi laivastoaan seuraavana kautena identtisellä uudelleentilauksella.',
+        tags: ['Seurabrändäys', 'Laivaston uudistus', 'Osatuki'],
+      },
+      faqs: [
+        {
+          q: 'Voivat SUP-seurat räätälöidä joukkuelaudoja?',
+          a: 'Kyllä. Seurat voivat räätälöidä grafiikkaa, värejä ja tuotekokoonpanoja — seuran nimi, värit ja logo jokaiselle laudalle.',
+        },
+        {
+          q: 'Voitteko tukea tapahtumakohtaista SUP-tuotantoa?',
+          a: 'Kyllä. Tuotannon suunnittelua voidaan kehittää tapahtuman vaatimusten mukaan, mukaan lukien erilliset lauta- ja lisävarusteversiot.',
+        },
+        {
+          q: 'Mitkä laudat sopivat parhaiten seuraharjoitteluun?',
+          a: 'Vakaat, kestävät laudat jäsenten tason mukaan — leveät aloittelijamallit opetukseen ja touring-mallit matkatreeniin.',
+        },
+        {
+          q: 'Tarjoatteko seuroille laivastohintoja?',
+          a: 'Kyllä — volyymihinnat koskevat seuralaivastoja, ja tarjoamme oman yhteyspisteen uudelleentilauksia, osia ja ylläpitoa varten.',
+        },
+        {
+          q: 'Voiko vahingoittuneita lautoja korjata tai vaihtaa?',
+          a: 'Toimitamme varaosia, korjausohjeita ja uudelleentilaustukea, jotta laivasto pysyy yhtenäisenä.',
+        },
+      ],
+      ctaLevel: 'cold',
+      ctaLabel: 'Keskustele seuran SUP-projektistasi',
+    },
+    {
+      slug: 'school-sup',
+      navLabel: 'SUP-ohjelma kouluille',
+      metaTitle: 'SUP-varusteet kouluille | Räätälöidyt opetusmelontalaudat',
+      metaDescription:
+        'Hanki turvallisia ja luotettavia SUP-varusteratkaisuja kouluille, leireille ja järjestöille iSupfactoryn räätälöidyllä tuotantotuella.',
+      kicker: 'SUP-ohjelma kouluille',
+      serviceType: 'SUP-varusteet kouluille ja ohjelmille',
+      answer:
+        'Kouluille ja opetusohjelmille toimitamme vakaat, aloittelijaystävälliset laudat painetulla turvaoppaalla, pehmustetuilla meloilla ja suojaavilla lisävarusteilla, mitoitettuina luokkakoon ja säilytyksesi mukaan. Vakiomääräerä on 90–100+ kpl 150 m rullaa kohti ja pilottierät 20–50 kpl:stä; toimitusajat tukevat koulun hankintasykliä.',
+      h1: 'Turvalliset ja luotettavat SUP-ratkaisut kouluille ja ohjelmille',
+      intro: [
+        'Koulut harjoittelevat melontaa eri tavalla: suuret ryhmät, vaihtelevat tasot, tiukat turvallisuusvaatimukset ja opetusbudjetit. Kouluohjelmamme tarjoaa vakaat, aloittelijaystävälliset laudat, ryhmäkokoihin sopivat paketit ja neuvottelu ohjaajan näkökulmasta.',
+        'Erätilaus ja uudelleentilaustuki pitävät varusteet käytettävissä vuosi toisensa jälkeen uusille oppilasryhmille.',
+      ],
+      scenario: {
+        title: 'Opetat oppilaita melonnassa',
+        body: 'Ryhmät ovat suuria ja tasot vaihtelevat. Tarvitset vakaita ja turvallisia lautoja ensimmäistä kertaa meloaville, määriä, jotka vastaavat ryhmien kokoa, ja varusteohjelman, joka mahtuu koulun budjettiin ja hankintasykliin.',
+      },
+      pairs: [
+        {
+          problem: 'Oppilaat tarvitsevat vedellä maksimaalista vakautta.',
+          solution: 'Leveät, suuren tilavuuden aloittelijalaudat ja monihenkilölaudat, jotka ovat anteeksiantavia aloittelijalle.',
+        },
+        {
+          problem: 'Ryhmäkoot vaativat yhtenäistä varustetta samassa mittakaavassa.',
+          solution: 'Ohjelmahinnat ryhmien määrän mukaan, ja laatu sama jokaisella laudalla.',
+        },
+        {
+          problem: 'Ohjaajat huolehtivat turvallisuudesta vähäisin keinoin.',
+          solution: 'Lautoihin toimitetaan selkeä käyttöopas, ja neuvomme määristä ja järjestelyistä alueellesi.',
+        },
+        {
+          problem: 'Varusteiden on kestettävä useiden oppilasryhmien läpi.',
+          solution: 'Vahvistettu rakenne sekä varaosat ja uudelleentilaustuki pitkälle ohjelman eliniälle.',
+        },
+      ],
+      steps: [
+        { title: 'Kerro ohjelmastasi', body: 'Ryhmäkoot, vesialue, ohjaajien määrä ja budjettisykli.' },
+        { title: 'Kokoa paketti', body: 'Laudatyypit ja määrät valitaan opetukseen, ei arvattelemalla.' },
+        { title: 'Hyväksy näyte', body: 'Tarkista vakaus, rakenne ja viimeistely fyysisellä laudalla.' },
+        { title: 'Toimita ja uuda', body: 'Erätilaus, varaosat ja uudelleentilaukset uusille oppilasryhmille.' },
+      ],
+      caseStudy: {
+        title: 'Koulun vesiliikuntaohjelma',
+        body: 'Koulu lanseerasi melontailun valinnaisena aineena 15 aloittelijalaudan ja ensimmäisiin oppitunteihin monihenkilölaudan avulla. Ohjaajat raportoivat nopeamman edistymisen ensimmäisellä oppitunnilla vakaiden alustojen ansiosta, ja ohjelma uudisti varusteensa sopivalla uudelleentilauksella seuraavana vuonna.',
+        tags: ['Aloittelijalaivasto', 'Ohjelman lanseeraus', 'Uudelleentilaukset'],
+      },
+      faqs: [
+        {
+          q: 'Millainen SUP-varuste sopii kouluille?',
+          a: 'SUP-varusteen valinta riippuu käyttäjien iästä, käyttöympäristöstä ja ohjelman vaatimuksista — leveät, vakaat laudat ovat opetukseen vakiintunut valinta.',
+        },
+        {
+          q: 'Voivatko koulut räätälöidä SUP-varusteita?',
+          a: 'Kyllä. Koulut voivat räätälöidä grafiikkaa, värejä ja varustepaketteja ohjelmansa mukaan.',
+        },
+        {
+          q: 'Mitkä laudat sopivat parhaiten SUP-opetukseen kouluissa?',
+          a: 'Leveät, vakaat aloittelijalaudat ja monihenkilölaudat ovat ihanteellisia — niiden tilavuus tekee niistä anteeksiantavia aloittelijalle ja vakaita useille melojille.',
+        },
+        {
+          q: 'Voivatko määrät vastata ryhmiemme kokoa?',
+          a: 'Kyllä — ohjelmahinnat rakentuvat ryhmien määrän ympärille, ja suosittelemme määrää alueesi ja vaihtosi mukaan.',
+        },
+        {
+          q: 'Työskentelettekö koulujen hankintasuunnitelmien kanssa?',
+          a: 'Kyllä. Suunnittelemme näyte- ja tuotantotoimituksen ajankohdat koulun budjetti- ja kausisykleihin.',
+        },
+      ],
+      ctaLevel: 'cold',
+      ctaLabel: 'Keskustele koulun SUP-ohjelmastasi',
+    },
+  ],
 }
 
 export function getSolutionPage(locale: Locale, slug: string): SolutionPageData | undefined {

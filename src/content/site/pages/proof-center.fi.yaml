@@ -1,0 +1,169 @@
+meta:
+  title: 'Näyttökeskus — näyttö jokaisen valmistusväitteen takana'
+  description: 'Näyttöaineisto iSupfactoryn väitteiden takana: yksikkösuhteet, todistukset ja niiden laajuus, koneluettelo, erien jäljitettävyys ja tarkastusasiakirjat.'
+  dateModified: '2026-08-16'
+  keywords:
+    - 'SUP-tehtaan näyttöaineisto'
+    - 'luettelo tehtaan sertifikaateista'
+    - 'SUP-erien jäljitettävyys'
+    - 'SUP-tehtaan varmennus'
+    - 'valmistuksen todisteet Kiinassa'
+
+hero:
+  tagline: 'Tehtaan näyttökeskus'
+  title: 'Näyttökeskus — kaikki mitä väitämme, löytyy täältä'
+  subtitle: 'Yksi sivu, joka linkittää jokaisen tämän sivuston väitteen sen näyttöön: tehtaan takana oleva rekisteröity yksikkö, todistukset ja niiden laajuus, työtä tekevät koneet sekä eräkirjat, jotka säilyvät jokaisen tuotantoerän yli.'
+  actions:
+    - { variant: primary, text: 'Pyydä varmennuspaketti', href: '/fi/contact#trust-verification' }
+    - { variant: ghost, text: 'Tutustu laatujärjestelmään', href: '/fi/quality' }
+
+answer:
+  label: 'Suora vastaus'
+  text: 'Ketju väitteestä näyttöön on seuraava: jokainen väite tällä sivustolla nojaa rekisteröintiin, todistukseen, koneeseen, asiakirjaan tai mittauskirjaan — ja jokaisen niistä voi käydä läpi. iSupfactory on Qingdao Vatrad Group Co., Ltd:n SUP-tuotekehitys- ja valmistusosasto (rekisteröity Qingdaossa vuodesta 2012). 12,500 m² laitoksella on ISO 9001:2015 -laadunjohto, ISO 25649 -vaatimustenmukaisuus, CE-vaatimustenmukaisuusasiakirjat, BSCI-sosiaalinen vastuu (auditointiraportti pyydettäessä) sekä REACH/RoHS-materiaaliasiakirjat tilauksen mukaan. Jokainen puhallettava kammio testataan 18.0 PSI:n paineella 24 tuntia ja hylätään automaattisesti yli 0.50 PSI:n laskun yli, ja eräkirjoja säilytetään 10 vuoden ERP-jäljitettävyyden alla. Asiakirjajälki on julkinen tai jaettavissa, ja tehdas itse on auditointien kohde.'
+  verified: 'September 2026'
+
+entities:
+  tagline: 'Kuka on tehtaan takana'
+  title: 'Yksi valmistustoiminto, yksi juridinen yksikkö'
+  subtitle: 'Myyntipuoli, valmistusosasto ja juridinen yksikkö johtavat kaikki samaan toimintoon, jonka voit varmenta verkkosivulta yritysrekisteriin.'
+  features:
+    - icon: S
+      icon_bg: blue
+      title: 'iSupfactory — verkkosivusto'
+      desc: 'SUP OEM/ODM- ja private label -tuotelinja julkisine asiakirjoineen: tuoteluettelo, MOQ-opas, laatujärjestelmän sivut ja tapaustutkimukset. Nimi, jonka kanssa neuvottelet, on nimi, jonka tarkastat.'
+      link: '/fi/about/isupfactory-entity'
+      link_label: 'Sivuston yksikköön liittyvä sivu'
+    - icon: A
+      icon_bg: green
+      title: 'Vatrad — valmistusosasto'
+      desc: 'Laitoksen takana oleva merivalmistusosasto: SUP-laudat, puhallettavat veneet ja RIBit valmistetaan samassa Qingdaon toimipisteessä. Tuote- ja laatuasiakirjat myydään tällä nimellä.'
+      link: '/fi/factory'
+      link_label: 'Tutustu tehtaaseen'
+    - icon: V
+      icon_bg: orange
+      title: 'Qingdao Vatrad Group Co., Ltd. — juridinen yksikkö'
+      desc: 'Rekisteröity valmistaja (vuodesta 2012), joka ylläpitää 12,500 m² laitosta Qingdaon Laixin talousalueella. Rekisteröintitiedot, vientilupa ja auditointikirjat jaetaan NDA:n alla tai auditin yhteydessä.'
+      link: '/fi/oem-trust-assurance'
+      link_label: 'Katso varmennuksen tapaustutkimus'
+
+proof_stats:
+  - value: '12,500 m²'
+    label: 'Yksi tehtaan lattia'
+    detail: '4 erikoistettua työpajaa, avoinna auditeille'
+  - value: '350+'
+    label: 'Työntekijöitä laitoksella'
+    detail: '25+ insinööriä T&k:ssa, materiaaleissa ja laadunvarmistuksessa'
+  - value: '120,000+'
+    label: 'Lautaa vuodessa'
+    detail: '~10,000 lautaa/kk 4 automaattisella linjalla'
+  - value: '50+'
+    label: 'Palveltuja maita'
+    detail: 'Eurooppa, Amerikka, Aasia-Tyynivaltameri, Lähi-Itä'
+  - value: '7-vaiheinen'
+    label: 'Tarkastusporttijärjestelmä'
+    detail: 'Solmu 01–07, kirjataan sarjanumeron mukaan'
+  - value: '10 vuotta'
+    label: 'ERP-erien jäljitettävyys'
+    detail: 'Eräkirjat säilytetään ja linkitetään eräkohtaisesti'
+
+certifications:
+  tagline: 'Todistukset ja laajuus'
+  title: 'Mitä meillä on, mitä se kattaa ja miten se varmennetaan'
+  subtitle: 'Julkaistu luettelo — ei koskaan "vain pyydettäessä saatavilla". Todistusnumerot ja auditointikirjat toimitetaan pyydettäessä tai auditin yhteydessä.'
+  headers:
+    certificate: 'Todistus / standardi'
+    scope: 'Kattavuus'
+    verify: 'Näin varmennetaan'
+  rows:
+    - certificate: 'ISO 9001:2015'
+      scope: 'SUP-suunnittelun ja -valmistuksen laadunjohto'
+      verify: 'Todistusnumero ja auditointikirjat pyydettäessä tai auditin yhteydessä'
+    - certificate: 'ISO 25649'
+      scope: 'Puhallettavien alusten turvallisuus ja rakenteen vaatimustenmukaisuus (Eurooppa)'
+      verify: 'Vaatimustenmukaisuusasiakirjat tuoteperhekohtaisesti'
+    - certificate: 'CE'
+      scope: 'EU-vaatimustenmukaisuus puhallettaville SUP-tuotteille'
+      verify: 'CE-asiakirjat toimitetaan tilausten mukana'
+    - certificate: 'BSCI'
+      scope: 'Sosiaalinen vastuu laitokselle ja henkilöstölle'
+      verify: 'Auditointiraportti saatavilla pyydettäessä'
+    - certificate: 'REACH & RoHS'
+      scope: 'Rajoitettujen aineiden ja materiaalien asiakirjat'
+      verify: 'Materiaaliasiakirjat jokaisen tilauksen mukana'
+    - certificate: 'Kolmansen osapuolen tarkastus (valinnainen)'
+      scope: 'SGS-, TUV-, BV- tai Intertek-esilähetystarkastus'
+      verify: 'ISO 2859-1 Level II, ajoitetaan haluamallasi tavalla'
+
+evidence_gates:
+  tagline: 'Missä näyttö sijaitsee'
+  title: 'Näyttökansiot — avoinna tarkastettavaksi'
+  subtitle: 'Jokainen kansio on ajan tasalla oleva sivu, jonka voit käydä läpi nyt, sekä tiedostoja, jotka kulkevat tilauksesi mukana.'
+  features:
+    - icon: E
+      icon_bg: blue
+      title: 'Kone- ja laitelistaluettelo'
+      desc: 'Leikkaus, hitsaus, laminointi, painatus ja kokoonpano sekä laadunvarmistuslaboratorio — koneet nimillä, spesifikaatioilla ja tehtävillään. Pyydä live-kierros.'
+      link: '/fi/factory/equipment'
+      link_label: 'Avaa laitelistaluettelo'
+    - icon: P
+      icon_bg: green
+      title: 'Tarkastusporttien kuvat ja raportit'
+      desc: 'Seitsemän tarkastusporttia tehtaan lattiavalokuvineen ja kaksikielisten raporttilinkkeineen — mitä tarkistetaan, millä menetelmällä, millaista kriteeriä vasten ja mihin kirjataan.'
+      link: '/fi/factory/process'
+      link_label: 'Avaa tarkastusportit'
+    - icon: Q
+      icon_bg: orange
+      title: 'Laadunvarmistuslaboratorio ja testimenetelmät'
+      desc: 'Yleinen vetokoe (ASTM D751), sauman kuorimisen testilaite (ISO 6185), ilman säilymisen testitelineet ja ksenoonivalokaappi — koneet, jotka varmentavat kankaat ja kammiot.'
+      link: '/fi/factory/quality-lab'
+      link_label: 'Avaa laboratorio'
+    - icon: T
+      icon_bg: purple
+      title: 'Jäljitettävyysnäyte ja karanteeni'
+      desc: 'Sama ketju raakarullasta toimitettuun lautaan, 7-vaiheinen karanteeniprosessi vaatimattomille tuotteille sekä vikamatriisi, joka ohjaa toimenpiteitä.'
+      link: '/fi/factory/quality-inspection'
+      link_label: 'Avaa jäljitettävyysaineisto'
+
+traceability:
+  tagline: 'Erä rullasta lautaan'
+  title: 'Miltä jäljitettävyys oikeasti näyttää'
+  body: |
+    Jokaiselle erälle annetaan **10 vuoden ERP-erätunnus**. Yhden erän alle kirjattu ketju:
+
+    - **Saapuva rulla** — materiaalitodistus, rullanumero, kankaan erä testattu (veto, repäisy, sauma)
+    - **Leikkaus** — CNC-legeistys työ piirustustiedostoon, hukkaprosentti kirjattu
+    - **Hitsaus ja laminointi** — linja, operaattori, koneen parametrit kammiota kohti
+    - **Kokoonpano** — laudan sarjanumero, venttiilin tyyppi, kansityynyn erä
+    - **Testi** — 18.0 PSI × 24 h pito kammiota kohti, automaattinen hylkäys yli 0.50 PSI:n laskun yli
+    - **Vapautus** — 100 kohdan tarkistuslista lautaa kohti, laadunvarmistusjohtajan hyväksyntä erää kohti
+    - **Jatkoon** — vaatimustenmukaisuustodistus lähetyksen mukana; auditointioikeus varattu sopimukseen
+
+    Pyydä näyte laadunvarmistuskirjasta ennen ensimmäistä tilaustasi — se on sama muoto, jonka saat lähetyksesi mukana.
+
+faqs:
+  tagline: 'UKK'
+  title: 'Ostajien esittämät näyttöä koskevat kysymykset'
+  items:
+    - q: 'Onko tämä sivu vain varmentamista varten eikä korvaa due diligencea?'
+      a: 'Oikein — tämä sivu näyttää, missä jokainen väite voidaan varmentaa: yksikön rekisteröinti, todistukset, koneet, kirjat ja auditointiin avoin laitos. Tavanomaiset due diligence -vaiheet (rekisteröintitarkistus, auditointi, kolmansen osapuolen tarkastus) koskevat edelleen ja ovat tervetulleita.'
+    - q: 'Minkä yksikön pitäisi olla tilausasiakirjoissani?'
+      a: 'Tilaukset tehdään Qingdao Vatrad Group Co., Ltd:lle, joka toimii nimellä Vatrad (valmistusosasto), ja iSupfactory on SUP-tuotelinja. Sopimusasiakirjat allekirjoittavat myyntijohtaja, pääinsinööri ja laadunvarmistusjohtaja.'
+    - q: 'Saanko todistusten kopiot ennen tilausta?'
+      a: 'Kyllä — todistusnumerot ja auditointikirjat toimitetaan pyydettäessä tai auditin yhteydessä. Luettelo on julkinen, ei koskaan "vain pyydettäessä saatavilla".'
+    - q: 'Miten varmennan erien mittauskirjat itse?'
+      a: 'Jokainen kammio testataan 18.0 PSI:n paineella 24 tuntia ja hylätään automaattisesti yli 0.50 PSI:n laskun yli; mittauslokit linkitetään sarjanumeroihin ja kulkevat vaatimustenmukaisuustodistuksen mukana erittäin. SGS-, TUV-, BV- tai Intertek-esilähetystarkastuksen ISO 2859-1 Level II mukaisesti voidaan ajoittaa haluamallasi tavalla.'
+    - q: 'Kattovatko todistukset myös lisävarusteet?'
+      a: 'REACH/RoHS-materiaaliasiakirjat koskevat lautoja ja lisävarusteita, jotka toimitetaan samassa tilauksessa, ja laadunvarmistuksen tarkistuslistat kattavat koko sarjan — laudan, melan, pumpun, hihan ja kassin.'
+    - q: 'Mitä näytölle käy tilauksen jälkeen?'
+      a: 'ERP-erien jäljitettävyys säilytetään 10 vuotta. QMS-sopimukset ja tarkastusstandardit säilyvät ladattavissa, ja ostajalla on sopimuksen mukainen auditointioikeus tuotannon aikana.'
+
+cta:
+  title: 'Varmenna ensin — sitten puhumme speksistä'
+  subtitle: 'Pyydä rekisteröintipaketti, todistusten kopiot tai auditointiaika. Varmennus tulee ensin; tilauskeskustelu seuraa perään. Kysely ei sitoa sinua tilaukseen.'
+  button_text: 'Pyydä varmennuspaketti'
+  button_link: '/fi/contact#trust-verification'
+  actions:
+    - text: Brändi-identiteetti
+      href: /fi/about/identity
+    - text: Tehtasauditin tarkistuslista
+      href: /fi/factory-audit-checklist

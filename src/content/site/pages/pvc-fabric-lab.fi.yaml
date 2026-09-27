@@ -1,0 +1,111 @@
+meta:
+  title: 'PVC-kangaslaboratorio — Materiaalitestaus SUP-lautoille'
+  description: 'Materiaalitestaus kuidusta valmiiseen lautaan: vetolujuus, UV-altistuminen, matalan lämpötilan taivutus ja hankauskestävyys SUP:n PVC-kankaille.'
+back_text: 'Takaisin tutkimus- ja kehityskeskukseen'
+home_label: 'Koti'
+
+hero:
+  tagline: 'Laboratorio 01'
+  title: 'PVC-kangaslaboratorio'
+  subtitle: 'Tieteellinen materiaalitestaus — kuidusta valmiiseen lautaan'
+  image: 'https://assets.isupfactory.com/images/sups/randd/isupfactory-pvc-material-lab.webp'
+  image_alt: 'Vatradin PVC-kankaan materiaalitestauslaboratorio'
+
+answer:
+  label: 'Suora vastaus'
+  text: 'Laudat rakennetaan 1,680 DTEX meri-PVC:stä, jossa on kolmikerroksinen pinnoite ja 12–15 PSI:n drop-stitch-ydin. Jokainen saapuva kangaserä testataan omissa tiloissamme riippumattomasti vetolujuuden (ISO 1421), UV-keston 2,000 tunnin ksenoonivaloaltistumisen jälkeen (ISO 4892), hankauskestävyyden ja matalan lämpötilan taivutuksen osalta — mikään erä ei pääse tuotantoon pelkkien toimittajan datalehtiöiden perusteella.'
+  verified: 'September 2026'
+
+intro: 'Lautakangas on puhallettavan SUP:n yksin tärkein materiaali. Sen on kestettävä jatkuvaa UV-altistumista, toistuvia täyttösyklejä, hankautumista telakkaita ja hiekkarantautumia vastaan sekä äärimmäisiä lämpötilan vaihteluita — samalla kun sen rakenteellinen eheys säilyy vuosien ajan. {SITE.name}:n PVC-kangaslaboratorio on omistettu yksin niiden kankaiden luonnehdinnalle, validoinnille ja jatkuvalle parantamiselle, joita käytämme jokaisessa rakentamassamme laudassa.'
+
+content_html: |
+  <h2>Puhallettavan SUP:n perusta</h2>
+  <p>Emme nojaa yksin toimittajien datalehtiöihin. Jokainen PVC-erä ja drop-stitch-ydinkangas, joka tulee verstaaseemme, testataan riippumattomasti omissa tiloissamme. Tämä takaa, että julkaisemamme materiaalispesifikaatio on se materiaalin suorituskyky, jonka saat — erä toisensa jälkeen, vuosi toisensa jälkeen.</p>
+
+  <h2>Standardoidut testilaitteet</h2>
+  <p>Kangaslaboratoriomme on varustettu teollisuusluokan instrumenteilla, jotka noudattavat ISO-, ASTM- ja EN-testimenetelmiä:</p>
+  <table>
+    <thead><tr><th>Laite</th><th>Mitattavat suureet</th><th>Standardi</th></tr></thead>
+    <tbody>
+      <tr><td>Yleinen vetokoe (50 kN)</td><td>Murtovoima, venymä murtumisessa, repeämän eteneminen</td><td>ISO 1421 / ASTM D751</td></tr>
+      <tr><td>Ksenoonivaloaltistuskaappi</td><td>UV-kestävyys (värimuutos, lujuuden säilyminen 2000 h jälkeen)</td><td>ISO 4892 / ASTM G155</td></tr>
+      <tr><td>Matalan lämpötilan taivutustesteri</td><td>Halkeilukohta -30 °C - -50 °C</td><td>ISO 4675 / ASTM D2136</td></tr>
+      <tr><td>Taber-hankauslaite</td><td>Massan menetys 1000 syklin jälkeen (CS-10-pyörä)</td><td>ASTM D3389 / ISO 5470-1</td></tr>
+      <tr><td>Paksuusmittari (digitaalinen, 0.001 mm tarkkuus)</td><td>Tasaisuus rullan leveydessä</td><td>ISO 2286-3</td></tr>
+      <tr><td>Hydrostaattisen paineen testilaite</td><td>Veden tunkeutumisen kestävyys</td><td>ISO 811</td></tr>
+    </tbody>
+  </table>
+  <p class="text-sm text-gray-500">* Kaikki laitteet kalibroidaan vuosittain akkreditoitujen kolmansien osapuolten laboratorioissa.</p>
+
+  <h2>Datasta päätökseen: tyypillinen testimenetelmä</h2>
+  <p>Kun uusi kangasehdos saapuu, se läpi standardoidun seitsemän vaiheen kelpuutusmenettelyn:</p>
+  <ol>
+    <li><strong>Vastaanottotarkastus</strong> — pintavirheiden, neulareikien ja mittojen vaatimustenmukaisuuden silmämääräinen tarkistus.</li>
+    <li><strong>Paksuuskartoitus</strong> — 20 pisteen mittaus rullan poikki; hyväksyntä edellyttää, että CV &lt; 3 %.</li>
+    <li><strong>Vetotesti</strong> — 5 näytettä lovi- ja kutesuunnassa. Vähintään 3500 N/50 mm 1100 dtexin PVC:lle.</li>
+    <li><strong>UV-etsintä</strong> — 1000 h altistus ksenoonikaapissa; vähintään 80 % lujuuden säilyminen vaaditaan.</li>
+    <li><strong>Kylmä halkeilu</strong> — 4 h -35 °C:ssa, sitten 180° taivutus 25 mm tapin ympäri. Ei näkyvää halkeilua.</li>
+    <li><strong>Hankauskestävyys</strong> — 1000 sykliä, massan menetys ≤ 0.05 g.</li>
+    <li><strong>Hyväksynnän allekirjoitus</strong> — kangas vapautetaan tuotantoon vasta kun kaikki seitsemän porttia on läpäisty.</li>
+  </ol>
+
+  <div class="not-prose my-10 p-6 rounded-xl bg-gray-50 dark:bg-gray-900 border border-gray-200 dark:border-gray-800">
+    <p class="text-sm font-semibold text-gray-500 mb-3 uppercase tracking-wider">Tyypillinen PVC 1100 dtex — vetolujuuden säilyminen UV-altistumisen jälkeen</p>
+    <div class="flex items-end gap-3 h-40">
+      <div class="flex-1 flex flex-col items-center">
+        <div class="w-full bg-blue-600 rounded-t" style="height:100%"></div>
+        <span class="text-xs mt-1">0 h 100%</span>
+      </div>
+      <div class="flex-1 flex flex-col items-center">
+        <div class="w-full bg-blue-500 rounded-t" style="height:95%"></div>
+        <span class="text-xs mt-1">500 h 95%</span>
+      </div>
+      <div class="flex-1 flex flex-col items-center">
+        <div class="w-full bg-blue-400 rounded-t" style="height:88%"></div>
+        <span class="text-xs mt-1">1000 h 88%</span>
+      </div>
+      <div class="flex-1 flex flex-col items-center">
+        <div class="w-full bg-blue-300 rounded-t" style="height:82%"></div>
+        <span class="text-xs mt-1">2000 h 82%</span>
+      </div>
+      <div class="flex-1 flex flex-col items-center">
+        <div class="w-full bg-gray-300 rounded-t" style="height:65%"></div>
+        <span class="text-xs mt-1">Kilpailijat ~65%</span>
+      </div>
+    </div>
+    <p class="text-xs text-gray-400 mt-2">PVC 1100 dtex -kankaamme säilyttää &gt; 80 % vetolujuudesta 2000 h ksenoonivaloaltistumisen jälkeen, kun tyypilliset alan laatuvalmiit tuotteet laskevat alle 70 %:n.</p>
+  </div>
+
+  <h2>Ammattitiimimme</h2>
+  <p>Laboratorion henkilöstönä on kaksi täysaikaisista materiaali-insinööriä, joilla kummallakin on polymeritiede- tai tekstiiliinsinöörin tutkinto ja vähintään kuuden vuoden kokemus alalta. Heitä tukee kolme teknistä, jotka hoitavat päivittäisiä testejä ja datan kirjaamista. Tiimi osallistuu säännöllisesti Kansainvälisen standardointijärjestön (ISO) järjestämiin laboratoriokierroskokeisiin testimenetelmiemme tarkkuuden validoimiseksi.</p>
+
+  <h2>Haastavimpien materiaalihaasteiden ratkaiseminen</h2>
+  <p>Jokainen melontaympäristö on erilainen. Trooppisessa ympäristössä toimiva lauta kohtaa täysin erilaiset UV- ja lämpötilaolosuhteet kuin pohjoismaisella järvellä tai kuivassossa tekoaltaassa. Kangaslaboratoriomme auttaa sinua valitsemaan — tai kehittämään — käyttöprofiiliisi optimoidun kangasspesifikaation.</p>
+  <p>Viimeaikaisia räätälöityjä ratkaisuja ovat:</p>
+  <ul>
+    <li>Suuren hankauskestävyyden PVC-seos vuokrauslaivastolle, jonka laudat koskettavat säännöllisesti hiekkarantoja ja betonitor ramppeja (+40 % hankausikä).</li>
+    <li>Matalan lämpötilan muotoilu kanadalaiselle talvisäilytysohjelmalle, testattu -50 °C:een ilman haurastumista.</li>
+    <li>Värinvakautettu oranssi kansi pelastus- ja pelastuskoulutuslaivastolle, joka säilyttää näkyvyyden 3 vuoden trooppisen auringonvalon jälkeen.</li>
+  </ul>
+  <p>Emme myy "hyllystä otettuja" kankaita ja toivoa, että ne toimivat. Testaamme, validoimme ja suosittelemme — tai kehitämme — ratkaisun, joka on räätälöity juuri sinun käyttöprofiilillesi. Siinä on {SITE.name}:n ero.</p>
+
+  <h2>Näin palvelemme sinua</h2>
+  <p>Kun tuot materiaalihaasteen mille, tässä on mitä voit odottaa:</p>
+  <ol>
+    <li><strong>Konsultaatio</strong> — keskustelemme käyttöympäristöstäsi, suorituskykytavoitteistasi ja budjetistasi.</li>
+    <li><strong>Ehdotus</strong> — laaditaan testimuunnitelma, jossa on selvät hyväksytyin/hylätyin kriteerit ja aikataulu.</li>
+    <li><strong>Toteutus</strong> — laboratorionme suorittaa testit ja tuottaa yksityiskohtaisen raportin raakadatalla ja vertailuanalyysilla.</li>
+    <li><strong>Suositus</strong> — esitämme kangasspesifikaation sekä vaihtoehtoiset valinnat, jos useampi materiaali täyttää vaatimuksesi.</li>
+    <li><strong>Jälkihoito</strong> — toimituksen jälkeen jäämme käyttöön kaikissa käytön aikaisissa materiaalikysymyksissä.</li>
+  </ol>
+  <p>Tavoitteemme ei ole vain myydä sinulle lauta. Tavoitteemme on varmistaa, että vastaanottamasi lauta toimii luotettavasti olosuhteissasi — ja se alkaa kankaasta.</p>
+
+cta:
+  title: 'Tarvitsetko räätälöityä kangasspesifikaatiota?'
+  subtitle: 'Ota yhteyttä materiaali-insinööritiimiimme keskustellaksesi vaatimuksistasi.'
+  actions:
+    - variant: primary
+      text: Ota yhteyttä laboratoriotiimiimme
+      href: /fi/contact#project-brief
+    - text: Takaisin tutkimus- ja kehityskeskukseen
+      href: /fi/randdcenter

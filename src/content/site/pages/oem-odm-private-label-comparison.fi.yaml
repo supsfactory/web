@@ -1,0 +1,128 @@
+meta:
+  title: 'OEM vs ODM vs Private Label -SUP-valmistus — vertailuopas'
+  description: 'OEM vs ODM vs private label -SUP-valmistuksen vertailu: määritelmät, omistajuus, vähimmäiserän lähtöpisteet, toimitusajat, työkalusto, immateriaalioikeussäännöt ja sopivimmat tilanteet.'
+  dateModified: '2026-08-20'
+  keywords:
+    - 'oem vs odm vs private label'
+    - 'sup valmistuksen vertailu'
+    - 'räätälöity paddle board -valmistus'
+    - 'oem sup kiina'
+    - 'odm sup kehitys'
+    - 'private label sup'
+
+hero:
+  tagline: 'Valitse yhteistyömallisi'
+  title: 'OEM vs ODM vs Private Label — mikä malli sopii projektiisi?'
+  subtitle: 'Kolme tapaa tehdä yhteistyötä SUP-tehtaan kanssa, joilla kullakin on erilaiset omistajuus-, investointi- ja nopeuskompromissit. Tämä opas selittää erot, jotta voit valita oikean reullan jo ennen ensimmäistä tiedustelua.'
+
+answer:
+  label: 'Nopea vertailu'
+  text: 'OEM: omistat suunnittelun ja määrityksen — valmistamme piirustustesi mukaisesti. ODM: tuotetekniikan tiimimme kehittää laudan toimeksiannostasi — hyväksyt ennen tuotantoa. Private Label: brändisi todistetulla olemassa olevalla alustalla ilman rakenteellisia muutoksia — nopein reitti markkinoille. Kaikki kolme reittiä kulkevat saman laitoksen, laadunvalvontajärjestelmän ja vientitiimin läpi Qingdaossa, Kiinassa.'
+  verified: 'Syyskuu 2026'
+
+comparison_table:
+  tagline: 'Rinnakkain'
+  title: 'OEM / ODM / Private Label -vertailu'
+  subtitle: 'Keskeiset erot suunnittelun omistajuudessa, vähimmäiserässä, työkalustossa, toimitusajassa ja immateriaalioikeuksissa.'
+  headers:
+    dimension: Ulottuvuus
+    oem: OEM-valmistus
+    odm: ODM-kehitys
+    pl: Private Label
+  rows:
+    - dimension: 'Kuka suunnittelee laudan?'
+      oem: 'Sinä annat määrityksen, piirustukset tai referenssilaudan'
+      odm: 'Tehtaan tuotetekniikan tiimi kehittää toimeksiannosta'
+      pl: 'Tehtaan olemassa oleva alusta — ei suunnittelutyötä'
+    - dimension: 'Suunnittelun omistajuus ja immateriaalioikeudet'
+      oem: 'Omistat kaikki suunnittelut, muotit ja immateriaalioikeudet'
+      odm: 'Omistat lopullisen hyväksytyn suunnittelun; tehtaalla on kehitysprosessin immateriaalioikeudet'
+      pl: 'Tehtaan omistuksessa oleva alustasuunnittelu; sinulla brändisi ja kuvituksesi'
+    - dimension: 'Muotti / työkalusto'
+      oem: 'Uusi muoto vaatii räätälöidyn muotin — kertaluontoinen työkalustomaksu, 15–20 päivää lisää'
+      odm: 'Määrityksestä riippuen voi vaatia räätälöidyn muotin — sama työkaluston aikataulu'
+      pl: 'Ei uutta muottia — käytetään olemassa olevan alustan työkalustoa'
+    - dimension: 'Vähimmäiseräkoko'
+      oem: '90–100+ kpl hyväksytyn konfigurointia kohti'
+      odm: '90–100+ kpl hyväksytyn konfigurointia kohti; pilottierät 20–50 kpl:stä'
+      pl: '5–10 kpl (co-branding) tai 20–50 kpl (pilottisarja olemassa olevalla alustalla)'
+    - dimension: 'Tyypillinen toimitusaika'
+      oem: '25–35 päivää + 15–20 päivää työkalustoon, jos uusi muotti'
+      odm: '25–35 päivää + kehittämisen iterointiaika (riippuu monimutkaisuudesta)'
+      pl: '25–35 päivää (ei työkaluston viivästystä)'
+    - dimension: 'Räätälöintitaso'
+      oem: 'Täysi — muoto, rakenne, materiaalit, kuvitus, pakkaus'
+      odm: 'Täysi — tehdas ehdottaa, hyväksyt jokaisen osan'
+      pl: 'Vain kuvitus ja pakkaus — ei rakenteellisia muutoksia'
+    - dimension: 'Näyteprosessi'
+      oem: '1–2 prototyyppinäytettä 7–12 päivässä määrityksen hyväksynnän jälkeen'
+      odm: '1–2 prototyyppinäytettä 7–12 päivässä suunnittelun hyväksynnän jälkeen'
+      pl: '1–2 näytettä 7–12 päivässä — alusta on jo validoitu'
+    - dimension: 'Sopii parhaiten'
+      oem: 'Ostajille, joilla on olemassa olevia suunnitelmia, referenssilaudoja tai yksityiskohtaisia määrityksiä'
+      odm: 'Ostajille, joilla on tuoteideoita tai markkinavaatimuksia mutta ei yksityiskohtaista määritystä'
+      pl: 'Ostajille, jotka tarvitsevat brändättyjä lautoja nopeasti ilman tuotekehitystä'
+
+scenario_cards:
+  tagline: 'Milloin kukin reitti kannattaa valita'
+  title: 'Käytännön tilanteet'
+  subtitle: 'Ostajien tyypilliset tilanteet ja suositeltu yhteistyömalli.'
+  features:
+    - icon: '1'
+      icon_bg: 'blue'
+      title: 'Sinulla on täydelliset määritykset ja omistat suunnittelun'
+      desc: 'Sinulla on CAD-piirustukset, referenssilauta tai yksityiskohtainen määritysdokumentti, jossa on mitat, materiaalit, rakenne ja pakkausvaatimukset. Valitse OEM — valmistamme täsmälleen määrityksesi mukaisesti.'
+      link: '/fi/factory/oem-capability'
+      link_label: 'OEM-valmistuksen tiedot'
+    - icon: '2'
+      icon_bg: 'green'
+      title: 'Sinulla on tuotekonsepti mutta ei tuotekehityksen määritystä'
+      desc: 'Tiedät kohdemarkkinat, hintatason ja suorituskykyvaatimukset, mutta tarvitset tuoteteknistä tukea laudan kehittämiseksi. Valitse ODM — tiimimme kehittää toimeksiannostasi, hyväksyt ennen tuotantoa.'
+      link: '/fi/odm-manufacturing'
+      link_label: 'ODM-kehityksen tiedot'
+    - icon: '3'
+      icon_bg: 'orange'
+      title: 'Tarvitset brändättyjä lautoja nopeasti ilman tuotekehitystä'
+      desc: 'Olet jakelija, lomakeskus tai vuokrausoperaattori, joka haluaa logonsa laadukkaisiin lautoihin sijoittamatta tuotekehitykseen. Valitse Private Label — nopein reitti konseptista toimitukseen.'
+      link: '/fi/solutions/private-label-sup'
+      link_label: 'Private Labelin tiedot'
+    - icon: '4'
+      icon_bg: 'purple'
+      title: 'Operoit lomakeskusta, seuraa tai vuokrauskalustoa'
+      desc: 'Tarvitset kestäviä, suurta kulutusta kestäviä SUP-paketteja, joiden tuotantoerät ovat yhtenäisiä, sekä varaosia ja värienhallintaa uusinta tilauksia varten. Valitse kaupallisen kaluston ohjelmamme.'
+      link: '/fi/solutions/resort-sup'
+      link_label: 'Kaupallisen kaluston tiedot'
+
+ip_rules:
+  tagline: Imateriaalioikeuksien suoja
+  title: 'Näin suojaamme suunnittelusi ja brändisi'
+  subtitle: 'Riippumatta yhteistyömallista, artworkisi, työkalustosi ja määritystiedostosi pysyvät omaisuuttanasi.'
+  body: |
+    **NDA ennen tiedostojen vaihtoa.** Allekirjoitamme salassapitosopimuksen ennen mitään teknistä tiedostovaihtoa — vakiintunut vastausaika on 4 työtuntia.
+
+    **Suunnittelujen uudelleenkäyttö ei ole sallittua.** Artworkiasi, työkalustosi ja määritystiedostojasi ei koskaan jaeta eikä myydä muille asiakkaille. OEM-muotit kuuluvat yksinomaan sinulle. ODM-suunnittelut hyväksyt ennen tuotantoa. Private Label -alustat ovat yhteisiä rakenteita, mutta kuvituksesi ja brändäyksesi ovat eksklusiivisia.
+
+    **Vain B2B.** Valmistamme yksinomaan asiakkaidemme brändeillä. Emme myy loppukuluttajille emmekäkä kilpaile asiakkaidemme kanssa millään markkinoilla.
+
+    **Muotin omistajuus.** Ostajan maksamat räätälöidyt muotit kuuluvat ostajalle. Säilytämme ja huollamme niitä, mutta emme voi käyttää niitä muille asiakkaille ilman kirjallista valtuutusta.
+
+faqs:
+  tagline: 'FAQ'
+  title: 'Usein kysytyt kysymykset OEM:stä, ODM:stä ja Private Labelista'
+  items:
+    - q: 'Voinko myöhemmin siirtyä private labelista OEM:ään?'
+      a: 'Kyllä. Monet asiakkaat aloittavat private labelilla tai pilottierällä markkinoiden varmistamiseksi ja investoivat sitten räätälöityyn työkalustoon täyden OEM-ohjelman kautta, kun kysyntä on todennettu. Sama laitoksen ja laadunvalvontajärjestelmän tukee molempia reittejä.'
+    - q: 'Tarkoittaako ODM, että tehdas omistaa brändini?'
+      a: 'Ei. ODM:n yhteydessä omistat brändisi, kuvituksesi ja pakkauksesi. Tehdas kehittää laudan rakenteen toimeksiannostasi ja hyväksyt suunnittelun ennen tuotantoa. Tehtaalla säilyy kehitysprosessin immateriaalioikeudet, mutta hyväksytty tuotemääritys on sinun.'
+    - q: 'Onko private label alempi laatu kuin OEM?'
+      a: 'Ei. Kaikki kolme reittiä kulkevat saman laitoksen, saman laadunvalvontajärjestelmän ja saman vientitiimin läpi. Private label -laudat rakennetaan todistetuilla, validoiduilla alustoilla täydellä 18 PSI / 24h painetestauksella ja samalla 100 pisteen kokoonpanotarkistuslistalla.'
+    - q: 'Entä jos en ole varma, mitä mallia valita?'
+      a: 'Ota yhteyttä tilanteeseesi — tuotetekniikan tiimimme suosittelee käytännöllisimmän reullan tuotevaatimustesi, aikataatusi ja volyymitavoitteesi perusteella. Sitoumuksia ei vaadita ennen määrityksen tarkastusta.'
+    - q: 'Voinko saada näytteitä ennen minkään mallin vakiintumista?'
+      a: 'Kyllä. 1–2 prototyyppinäytettä lähetetään 7–12 päivässä. Näytemaksu vähennetään volyymitilauksestasi. Näin voit arvioida rakenteen ja laadun ennen mitään volyymisitoumusta.'
+
+cta:
+  title: 'Valmiina keskustelemaan SUP-projektistasi?'
+  subtitle: 'Kerro tuotevaatimuksistasi, markkinoistasi ja volyymitavoitteistasi — suosittelemme käytännöllisimmän yhteistyöreitin.'
+  button: 'Aloita SUP-projektisi'
+  note: 'Vastaamme 1 arkipäivän kuluessa · NDA saatavilla ennen tiedostojen vaihtoa'

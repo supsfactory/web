@@ -1,0 +1,100 @@
+meta:
+  title: 'SUP-vaatimustenmukaisuus markkinoittain — CE, REACH, RoHS, BSCI, ISO 9001 | iSupfactory'
+  description: 'Puhallettavien SUP-lautojen vaatimustenmukaisuusopas markkinoittain: CE (EU), CPSIA (USA), AS/NZS (AU), ISO 9001, BSCI, REACH ja RoHS — laajuus ja asiakirjat markkinoittain.'
+  dateModified: '2026-08-21'
+  keywords:
+    - 'SUP-vaatimustenmukaisuus markkinoittain'
+    - 'SUP-sertifiointi CE'
+    - 'puhallettavien SUP-säädökset'
+    - 'SUP-REACH-vaatimustenmukaisuus'
+    - 'SUP-RoHS-vaatimustenmukaisuus'
+    - 'BSCI-auditointi SUP-tehdas'
+    - 'ISO 9001 SUP-valmistaja'
+
+hero:
+  tagline: 'Vaatimustenmukaisuusopas'
+  title: 'SUP-vaatimustenmukaisuus markkinoittain'
+  subtitle: 'Jokaisella kohdemarkkinalla on omat sertifiointi-, merkintä- ja dokumentaatiovaatimukset. Tämä opas kartoittaa puhallettavien SUP-lautojen vaatimustenmukaisuuden keskeisillä markkinoilla — EU, Pohjois-Amerikka, Australia ja muualla — jotta voit määrittää oikean laajuuden jo tarjousvaiheessa, ei vasta tuotannon jälkeen.'
+
+answer:
+  label: 'Nopea vastaus'
+  text: 'EU:ssa: CE-merkintä on pakollinen Euroopan talousalueella myytäville laudoille — me sertifioimme EU-markkinoille tarkoitetut mallit, laajuus vahvistetaan projektikohtaisesti. Yhdysvalloissa: CPSIA ja osavaltiokohtaiset VOC-säädökset koskevat. Australiassa: AS/NZS 1586 -vaatimustenmukaisuus. Kaikilla markkinoilla: ISO 9001 (tehdas), BSCI (sosiaaliauditointi), REACH ja RoHS (materiaalit) ovat tuotannossamme vakiota kohdemarkkinasta riippumatta. Vaatimustenmukaisuuden laajuus ja kustannukset eritellään tarjouksessasi — ei jälkikustannuksia tuotannon jälkeen.'
+  verified: 'September 2026'
+
+market_cards:
+  tagline: Vaatimukset alueittain
+  title: 'Vaatimustenmukaisuusvaatimukset kohdemarkkinoittain'
+  subtitle: 'Sertifioinnin laajuus vahvistetaan projektikohtaisesti toteutettavuuskatsauksen aikana. Seuraavassa on tyypilliset vaatimukset markkinoittain.'
+  grid: 'sm:grid-cols-2 lg:grid-cols-4'
+  features:
+    - icon: EU
+      icon_bg: blue
+      title: 'Euroopan unioni'
+      desc: 'CE-merkintä pakollinen. REACH (kemiallinen turvallisuus), RoHS (rajoitetut aineet), ISO 9001 -tehdas-sertifiointi. Tuotekohtainen testaus soveltuvan PPE- tai vapaa-ajan veneitä koskevan direktiivin mukaan. Merkintä kohdemaan virallisella kielellä. BSCI-sosiaaliauditointi saatavilla.'
+    - icon: US
+      icon_bg: green
+      title: 'Yhdysvallat'
+      desc: 'CPSIA-vaatimustenmukaisuus (kuluttajatuoteturvallisuus). Kalifornian Prop 65 ja osavaltiokohtaiset VOC-säädökset PVC:n ja liimojen päästöille. Ei liittovaltion CE-vastaavaa. ASTM-testaus pyynnöstä. FTC:n merkintävaatimukset alkuperämaalle ja materiaalien sisällölle.'
+    - icon: AU
+      icon_bg: purple
+      title: 'Australia ja Uusi-Seelanti'
+      desc: 'AS/NZS 1586 puhallettaville vesikulkuneuvoille. Australian Consumer Law -takaukset. Vienti- ja vaatimustenmukaisuusasiakirjat Australian Border Forcen vaatimusten mukaan. REACH-vastaava kemiallisen turvallisuuden dokumentaatio. BSCI-sosiaaliauditointi saatavilla.'
+    - icon: GL
+      icon_bg: orange
+      title: 'Maailmanlaajuinen / usean markkinalan'
+      desc: 'ISO 9001:2015 -tehdas-sertifiointi (auditoidaan vuosittain). BSCI-sosiaalivaatimustenmukaisuusauditointi. REACH- ja RoHS-materiaalivaatimustenmukaisuus koko tuotannossa kohdemarkkinasta riippumatta. Erätason jäljitettävyys ja testiraportit saatavilla mille tahansa markkinalle. Räätälöity sertifioinnin laajuus vahvistetaan projektikohtaisesti.'
+
+certifications_detail:
+  heading: 'Sertifiointimme laajuus'
+  body: |
+    Seuraavat sertifioinnit ovat voimassa tai saatavilla tuotannossamme. Projektisi tarkka sertifioinnin laajuus vahvistetaan toteutettavuuskatsauksen aikana ja eritellään tarjouksessasi.
+
+    - **ISO 9001:2015** — Tehtaan laadunjohtojärjestelmä, auditoidaan vuosittain akkreditoidun kolmannen osapuolen toimesta. Kattaa koko valmistusprosessin raaka-aineen vastaanotosta lopulliseen pakkaukseen.
+    - **CE-merkintä** — Kytketään EU-markkinoille tarkoitettuihin malleihin. Testaus ja dokumentaatio soveltuvan EU-direktiivin mukaan. Laajuus vahvistetaan projektikohtaisesti — kaikki mallit eivät vaadi samaa CE-laajuutta.
+    - **BSCI** — Business Social Compliance Initiative -auditointi. Kattaa työelämäoikeudet, työpaikkaturvallisuuden, ympäristövaatimustenmukaisuuden ja liiketoimint etiikan. Saatavilla kaikille markkinoille.
+    - **REACH** — EU:n kemiallisen turvallisuuden asetus. Kaikki PVC-, liima- ja pinnoitemateriaalit ovat REACH-vaatimustenmukaisia. Aineiden dokumentaatio ja testiraportit saatavilla erää kohti.
+    - **RoHS** — Vaarallisten aineiden rajoittamista koskeva direktiivi. Kaikki sähköiset lisävarusteet (moottoripumput, LED-lisävarusteet) ovat RoHS-vaatimustenmukaisia. Laudan materiaalit ovat luonnostaan vaatimustenmukaisia.
+
+compliance_process:
+  tagline: Miten vaatimustenmukaisuus toimii tilauksessasi
+  title: 'Vaatimustenmukaisuus käyttöönoton kulussa'
+  subtitle: 'Vaatimustenmukaisuus ei ole lisäys — se on integroitu käyttöönoton jokaiseen vaiheeseen.'
+  grid: 'sm:grid-cols-2 lg:grid-cols-3'
+  features:
+    - icon: 1
+      icon_bg: blue
+      title: 'Portti 1: Laajuuden vahvistus'
+      desc: 'Tiedustelussa määrität kohdemarkkinat. Vahvistamme, mitkä sertifioinnit, testit ja asiakirjat koskevat juuri sinun tuotettasi ja kohdettasi. Vaatimustenmukaisuuden laajuus ja siihen liittyvät kustannukset eritellään tarjouksessa.'
+    - icon: 2
+      icon_bg: green
+      title: 'Portti 3: Näytesertifiointi'
+      desc: 'Näytteet valmistetaan vahvistettua vaatimustenmukaisuuden laajuutta noudattaen. Jos vaaditaan kolmannen osapuolen laboratoriotestausta (CE, CPSIA, AS/NZS), koordinoimme testauksen akkreditoitujen laboratorioiden kautta. Testiraportit toimitetaan näytteen mukana.'
+    - icon: 3
+      icon_bg: purple
+      title: 'Portti 7: Asiakirjapaketti'
+      desc: 'Jokaisen tuotantotilauksen mukana toimitetaan vaatimustenmukaisuusasiakirjapaketti: vaatimustenmukaisuusvakuutukset, testiraportit, erien jäljitettävyystiedot, materiaalin turvallisuustiedot ja merkinnän vaatimustenmukaisuus. Asiakirjat ovat markkinakohtaisia.'
+
+faqs:
+  tagline: UKK
+  title: 'SUP-vaatimustenmukaisuus — usein kysytyt kysymykset'
+  items:
+    - q: 'Tarvitsevatko kaikki SUP-laudat CE-merkinnän?'
+      a: 'CE-merkintä vaaditaan vain laudoille, joita myydään Euroopan talousalueella. Me sertifioimme EU-markkinoille tarkoitetut mallit, ja laajuus vahvistetaan projektikohtaisesti. Ei-EU-markkinoille lähetettäviin lautoihin ei tule CE-merkintää, ellei sitä erikseen pyydetä.'
+    - q: 'Ovatko materiaalianne REACH- ja RoHS-vaatimustenmukaisia?'
+      a: 'Kyllä. Kaikki PVC-, liima- ja pinnoitemateriaalit ovat REACH-vaatimustenmukaisia. Kaikki sähköiset lisävarusteet (moottoripumput, LED-lisävarusteet) ovat RoHS-vaatimustenmukaisia. Laudan rakennemateriaalit ovat luonnostaan RoHS-vaatimustenmukaisia. Aineiden dokumentaatio ja testiraportit ovat pyynnöstä saatavilla erää kohti.'
+    - q: 'Voitteko hoitaa sertifioinnin markkinalle, jota tässä ei ole lueteltu?'
+      a: 'Kyllä. Olemme lähettäneet yli 50 maahan ja voimme koordinoida sertifioinnin ja asiakirjat useimmille markkinoille. Kerro kohdemaa tiedustelussa, niin vahvistamme tarkat vaatimustenmukaisuuden laajuuden sekä mahdolliset lisätestit tai -asiakirjat.'
+    - q: 'Miten vaatimustenmukaisuuden kustannukset käsitellään?'
+      a: 'Vaatimustenmukaisuuden laajuus ja siihen liittyvät kustannukset (kolmannen osapuolen laboratoriotestaus, sertifiointimaksut) eritellään tarjouksessasi toteutettavuuskatsauksen aikana. Ei vaatimustenmukaisuuslisäkustannuksia tuotannon jälkeen. Vakiosertifioinnit (ISO 9001, BSCI) ovat tehdas tasolla eivätkä lisää yksikkökohtaista kustannusta.'
+
+cta:
+  title: 'Määritä vaatimustenmukaisuusvaatimuksesi'
+  subtitle: 'Kerro kohdemarkkinat, niin vahvistamme sertifioinnin laajuuden, testausvaatimukset ja asiakirjapaketin — eriteltynä tarjouksessasi.'
+  actions:
+    - variant: primary
+      text: Aloita projektibriefisi
+      href: /fi/contact#project-brief
+    - text: Varmenna sertifioinnit ja laatujärjestelmä
+      href: /fi/proof-center
+    - text: OEM-käyttöönottoprosessi
+      href: /fi/oem-onboarding-guide

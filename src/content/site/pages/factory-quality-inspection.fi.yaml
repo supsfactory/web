@@ -1,0 +1,477 @@
+meta:
+  title: 'Räätälöityjen SUP-laatujen tarkastusstandardit | OEM-tehdas | iSupfactory'
+  description: 'Puhallettavien SUPien OEM-valmistus: materiaalien, tuotannon, testauksen, pakkauksen ja jäljitettävyyden tarkastus sekä ilmatiiviyskorjauksen valvonta ISO 9001:n mukaisesti.'
+  dateModified: '2026-08-14'
+  keywords:
+    - 'puhallettavien supien valmistaja'
+    - 'sup oem tehdas'
+    - 'räätälöityjen paddle boardien valmistaja'
+    - 'sup laaduntarkastus'
+    - 'sup valmistusprosessi'
+    - 'private label sup valmistaja'
+
+hero:
+  tagline: Laaduntarkastus ja laadunvarmistus
+  title: Räätälöityjen puhallettavien SUP-lautojen laadunvalvonta
+  subtitle: 'QINGDAO VATRAD GROUP.,LTD. soveltaa projektikohtaisia tarkastuskriteerejä koko ketjussa aina materiaalien valmistelusta laudan rakentamiseen, lopulliseen täyttötestaukseen, pakkaukseen ja lähetysluovutukseen. Laatuvaatimuksia hoidetaan dynaamisesti hyväksytyn näytteen, teknisen määrityksen, artwork-vedoksen, materiaaliluettelon (BOM) ja kunkin OEM/ODM-tilauksen sovitun pakkausstandardin perusteella.'
+  actions:
+    - text: Lataa laadunvarmistuspaketti
+      variant: primary
+      href: 'https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_Quality_Inspection_Standards.pdf?dl=1'
+    - text: Lataa näytteen laatupaketti (PDF)
+      href: 'https://assets.isupfactory.com/site/downloads/Qingdao_Vatrad_Group_SUP_Quality_Documentation_Pack.pdf?dl=1'
+    - text: Pyydä OEM-laatu tiedot
+      href: /fi/contact
+
+answer:
+  label: 'Suora vastaus'
+  text: 'QINGDAO VATRAD GROUP.,LTD. valvoo puhallettavien SUP-laatujen laatua 4-vaiheisella todennusjärjestelmällä: saapuvan materiaalin valvonta (IQC), prosessin aikainen laadunvalvonta (IPQC), lopputarkastus ja täyttövarmennus (FQC) sekä pakkaus ja lähetystä edeltävä luovutus (OQC). Jokainen tilaus tarkastetaan hyväksytyn näytteen, teknisen määrityksen, artwork-vedoksen, materiaaliluettelon ja pakkausstandardien mukaan, mukaan lukien ilmatiiviyden varmennus, silmämääräiset ja mittatarkastukset, lisävarusteiden vahvistus ja erän jäljitettävyys. Hyväksymiskriteerit täyttämättömät kohteet siirretään ohjattuun pidätykseen tai eristykseen, korjataan vain hyväksytyn ohjeen mukaisesti ja tarkastetaan uudelleen ennen valtuutettua luovutusta.'
+  verified: 'Syyskuu 2026'
+
+intro: 'Laadunjärjestelmämme on rakennettu OEM/ODM-hankkeita varten: tarkastuskriteerit määritellään tilauksen mukaan, dokumentoidaan ja niitä noudattavat tuotanto- ja laatatiimit saapuvasta materiaalista pakkaukseen. Näin laatuodotukset pysyvät tehtaan ja brändisi välillä yhtenäisinä aina ensimmäisestä näytteestä täysiin kontillislähetyksiin.'
+
+scope_note:
+  tagline: Laajuus
+  title: Projektikohtaiset tarkastuskriteerit
+  body: |
+    Laatumääritykset voivat vaihdella laudan rakenteen (esimerkiksi yksi-/kaksikerros, kudottu drop-stitch, fuusioitu kisko), suunnitellun loppukäytön, kohdemarkkinoiden sääntelyn ja asiakkaan hyväksymien parametrien mukaan. Lopullinen luovutusvaltuutus perustuu ehdottomasti tilauksen osalta sovittuihin dokumentoituihin tarkastuskriteereihin.
+
+stages:
+  tagline: Laatukehys
+  title: 4-vaiheinen laaduntodennusjärjestelmämme
+  subtitle: Täydellinen laadunvalvontasilmukka raaka-aineen saapumisesta lähetysluovutukseen.
+  steps:
+    - title: '1. Saapuvan materiaalin valvonta (IQC)'
+      desc: 'Päämateriaalit ja hankitut osat tarkastetaan hyväksyttyjä määrityksiä ja referenssinäytteitä vasten ennen tuotantolinjalle tuloa. Drop-stitch ja PVC varmennetaan materiaalin tunnistuksen, toimittajaerän, painon/tiheyden, paksuuden, värin osalta hyväksyttyjä näyttöihin sekä pintavirheiden osalta. EVA-koostumatyynyt tarkastetaan kuvion, värin, paksuuden, leikkaustarkkuuden ja liiman sopivuuden osalta. Venttiilit ja osat käyvät läpi toimivuus-, kierre-, tiivistys- ja istuvuustestit. Lisävarusteet ja pakkaukset (pumput, melat, evät, ranneremmet, laukut, laatikot) täsmäytetään määrän, värin, brändäyksen, viivakoodin tarkkuuden ja artwork-version osalta hyväksyttyyn materiaaliluetteloon.'
+    - title: '2. Prosessin aikainen laadunvalvonta (IPQC)'
+      desc: 'Kriittiset valmistusvaiheet tarkastetaan, jotta vaatimustenvastaisuudet löytyvät ennen kuin laudat siirtyvät seuraaviin työpisteisiin. Leikkaus ja tulostus varmennetaan paneelin mittojen, artworkin asettelun, peilikuvion suunnan ja reunojen siisteyden osalta hyväksyttyjä teknisiä piirustuksia vasten. Laudan kokoonpano ja kiskojen liimaus tarkastetaan muodon symmetrian, sauman päällekkäisyyden jatkuvuuden ja tyhjien tai ilmataskujen poistamisen osalta korkean rasituksen alueilta. Venttiilin ja lisävarusteiden asennus, kuvitus ja brändäys varmennetaan sijainnin, suunnan, liiman peittävyyden, logon kirjoituksen ja artwork-version osalta.'
+    - title: '3. Laudan lopputestaus ja täyttövarmennus (FQC)'
+      desc: 'Valmiit laudat läpikäyvät pakollisen fyysisen ja rakenteellisen testauksen ennen pakkaushyväksyntää. Laudat täytetään projektissa hyväksyttyyn tarkastuspaineeseen ja pidetään täytössä rakenteellisen jäykkyyden ja painevakauden varmistamiseksi. Ilmatiiviysskannaus kattaa venttiilin kotelon, kiskon saumat, keula- ja häntäkartion sekä jännityskohdat kalibroituin vuodon tunnistusmenetelmin (paineenlaskun seuranta tai kuplatesti). Ulkonäkö- ja mittatarkastus varmentaa mitat, keikkoprofiilin ja EVA-alustan kohdistuksen (toleranssi ±2 mm) päivänvalon vaatimukset täyttävässä valaistuksessa.'
+    - title: '4. Pakkaus ja lähetystä edeltävä luovutus (OQC)'
+      desc: 'Kattava lähetystä edeltävä varmennus varmistaa, ettei SKU-kokoonpanossa eikä lähetysmerkinnöissä ole lainkaan poikkeamia. Sarjan täydellisyys tarkistetaan ristiin tilauksen materiaaliluetteloa vasten: lauta, evä, ranneremmi, mela, pumppu, laukku, korjaussarja ja käyttöohje. Pakkaus- ja viivakooditarkistukset varmennukset tarkastavat laatikkomerkinnät, SKU-etykkeet, viivakoodin luettavuuden, ohjeen kielen ja laatikoiden rakenteellisen eheyden. Tilaukset luovutetaan vasta, kun valtuutettu laatuhenkilö on allekirjoittanut lopullisen pakkausauditoinnin.'
+
+inspection_points:
+  tagline: Tarkastuksen kattavuus
+  title: Tarkastuksen keskeiset valvontapisteet
+  subtitle: Jokainen tarkastuspiste toteutetaan tilauksen osalta sovitun dokumentoidun hyväksymiskriteeristön mukaan.
+  features:
+    - icon: A
+      icon_bg: blue
+      title: Ilmatiiviysvarmennus
+      desc: 'Valmiit laudat täytetään hyväksyttyyn tarkastuspaineeseen ja tarkastetaan paineen säilymisen, venttiilin pohjan kunnon, kiskon saumojen, keulan ja hännän sekä korkean rasituksen kohtien osalta. Tarkastusmenetelmän edellyttäessä epäillyt vuotoalueet tutkitaan hyväksytyin vuodon tunnistusmenetelmin.'
+    - icon: B
+      icon_bg: green
+      title: Silmämääräinen ja mittatarkastus
+      desc: 'Laudat tarkastetaan sopivassa valaistuksessa materiaalin pinnan kunnon, tulostusvirheiden, värivaihtelun, EVA-alustan kohdistuksen, ryppyjen, naarmujen, likaisuuden ja liimauksen ulkonäön osalta. Keskeiset mitat ja lisävarusteiden sijainnit varmennetaan hyväksyttyjä piirustuksia tai määrityksiä vasten.'
+    - icon: C
+      icon_bg: purple
+      title: Lisävarusteiden ja pakkauksen varmennus
+      desc: 'Täydellinen tuotekokoonpano varmennetaan ennen lähetystä: laudan malli, eväjärjestelmä, mela, pumppu, ranneremmi, kantolaukku, korjaussarja, käyttöohje ja asiakakohtaiset lisävarusteet — jokainen täsmäytetään hyväksyttyyn näytteeseen, piirustuksiin ja materiaaliluetteloon.'
+    - icon: D
+      icon_bg: orange
+      title: Pakkaus ja lähetysluovutus
+      desc: 'Pakatut yksiköt tarkastetaan SKU-kokoonpanon, lisävarusteiden täydellisyyden, tuotetietojen, viivakooditietojen, ohjeen version, laatikkomerkinnän, pakkausmäärän ja laatikoiden kunnon osalta. Lähetysluovutus valtuutetaan vasta, kun kaikki tarkastus- ja pakkausvaatimukset on täydennetty.'
+
+traceability_intro:
+  tagline: Erän jäljitettävyys
+  title: Projekti- ja erätason jäljitettävyysjärjestelmä
+  body: |
+    Jokainen räätälöity SUP-tilaus hoidetaan yhtenäisen projektikoodin alla, joka yhdistää tekniset määritykset, hyväksytyn materiaaliluettelon, artwork-revisiot, materiaalierien numerot, pakkausviittaukset ja tarkastuskirjaukset. Tuotanto- ja tarkastuskirjauksia säilytetään kyseisen projektin ja tuotantoerän mukaan, ja jokainen erä voidaan jäljittää takaisin hyväksyttyyn tuotemääritykseen, materiaaliluetteloon, artworkiin ja pakkausviittauksiin.
+
+    Tämä tukee tuotekokoonpanon, tarkastustilan ja vaikutusalueen tehokasta läpikäyntiä, jos laatuongelma havaitaan — laudan tai laatikon tunnuksella valmiista tuotteesta takaisin lähdekirjauksiin.
+
+traceability_chain:
+  tagline: Jäljitettävyysketju
+  title: Projektikoodista lähetysluovutukseen
+  subtitle: Yksi ohjattujen viittausten ketju tilauksen vahvistuksesta valtuutettuun lähetykseen.
+  steps:
+    - step: '01'
+      title: Projektikoodi
+      desc: Yhtenäinen projektiviittaus, joka yhdistää jokaisen ohjatun asiakirjan tilaukseen.
+    - step: '02'
+      title: Asiakirjarevisiot
+      desc: Nykyisen määrityksen, materiaaliluettelon, artworkin ja pakkauksen revisiotasot — vain hyväksytyt versiot ovat tuotannossa kelvollisia.
+    - step: '03'
+      title: Erä ja materiaalit
+      desc: Materiaali- ja osaerät, jotka on kirjattu tuotantoerää vasten.
+    - step: '04'
+      title: Tarkastuskirjaukset
+      desc: IQC:n, prosessin aikaisen, ilmatiiviyden, lopputarkastuksen ja pakkauksen tarkastustulokset erää kohti.
+    - step: '05'
+      title: Pakkaus ja luovutus
+      desc: Pakkauserä, NCR:n sulkutila ja valtuutetun lähetysluovutuksen yhteenveto.
+
+traceability_sample:
+  tagline: Anonymisoitu näyte
+  title: Jäljitettävyysvalvontakirjaus (esimerkki)
+  body: |
+    Esimerkinarvot on esitetty vain havainnollistamista varten — asiakkaiden nimet, tilausnumerot, räätälöity artwork, toimittajatiedot ja kaupallinen tieto on poistettu luottamuksellisuuden suojaamiseksi.
+
+    - **Valmistaja:** QINGDAO VATRAD GROUP, LTD.
+    - **Projektikoodi:** DEMO-SUP-2026-01
+    - **SKU-viittaus:** DEMO-TR-126
+    - **Tuotantoerä:** BATCH-AUG-01
+    - **Määritys / materiaaliluettelo / artwork-revisio:** Rev B / Rev C / Rev B
+    - **Ilmatiiviyskirjaus:** HYVÄKSYTTY — säilytetään erää kohti
+    - **Tarkastustila:** HYVÄKSYTTY
+    - **Lähetystila:** LUOVUTETTU
+
+quarantine_intro:
+  tagline: Vaatimustenvastaisuuden valvonta
+  title: Vaatimustenvastaisten tuotteiden hallinta ja eristys
+  body: |
+    Tuotteet tai osat, jotka eivät täytä määriteltyjä hyväksymiskriteerejä, tunnistetaan selvästi ja siirretään ohjattuun pidätys- tai eristystilaan. Ne eivät voi edetä seuraavaan tuotantovaiheeseen, pakkaukseen tai lähetettäväksi, ennen kuin valtuutettu päätös on tehty. Korjaus tehdään hyväksytyn ohjeen mukaisesti ja se liitetään asiaan liittyvään vaatimustenvastaisuuskirjaukseen; korjatut kohteet tarkastetaan uudelleen sovellettavia projektivaatimuksia vasten ennen laadullista luovutusta.
+
+quarantine_flow:
+  tagline: 7-vaiheinen valvontavirta
+  title: Mitä tapahtuu, kun vaatimustenvastaisuus löytyy
+  subtitle: Tunnista, valvo, korjaa, varmenna — sitten luovuta tai hylkää. Vaatimustenvastaista tuotetta ei koskaan päästetä takaisin tuotantoon tai pakkaukseen tarkastamatta.
+  steps:
+    - step: '01'
+      title: Tunnistaminen
+      desc: Vaatimustenvastaisuus kirjataan kyseisen tuotteen, SKU:n, erän tai prosessivaiheen kohdalle.
+    - step: '02'
+      title: Merkitseminen
+      desc: Vaikutusalaan kuuluvat kohteet merkitään selvästi ohjatulla tilamerkillä — HOLD, QUARANTINE tai REJECTED.
+    - step: '03'
+      title: Eristäminen
+      desc: Kohteet eristetään fyysisesti valvottuun eristysalueeseen tai järjestelmäohjattuun tilaan, jotta ne eivät pääse vahingossa käyttöön tai lähetettäväksi.
+    - step: '04'
+      title: Vaikutusalueen arviointi
+      desc: Vaikutusalue käydään läpi erän, prosessivaiheen, materiaalierän ja asiakirjarevision mukaan.
+    - step: '05'
+      title: Korjaus / vaihto
+      desc: Korjaus sallitaan vain hyväksytyn päätöksen ja ohjatun työohjeen kautta.
+    - step: '06'
+      title: Uudelleentarkastus
+      desc: Korjatut kohteet tarkastetaan uudelleen sovellettavia hyväksymiskriteerejä vasten ennen luovutusta.
+    - step: '07'
+      title: Luovutus tai hylkäys
+      desc: Vain valtuutettu vaatimustenmukainen tuote etenee pakkaukseen tai lähetysluovutukseen.
+
+quarantine_evidence:
+  tagline: Tehdashallissa
+  title: Ohjattu testaus ja eristys käytännössä
+  subtitle: Kuvat tehtaan työpajasta Qingdaosta näyttävät, miten tilavalvonta ja tarkastuskirjaukset toteutetaan paikan päällä.
+  features:
+    - image: https://assets.isupfactory.com/site/quality/qc-air-tightness-test-area.avif
+      alt: Tehtaan ilmatiiviystestausalueella täyttöön asetetut puhallettavat SUP-laudat, joita seurataan digitaalisella painemittarilla
+      title: Ilmatiiviystestausalue
+      desc: 'Täyttöön asetetut laudat pidetään teollisuusvalaistuksessa laadunvalvonnan testialueella, ja digitaaliset painemittarit seuraavat hyväksyttyä ilmanpidätystestiä venttiilin pohjassa, kiskon saumoissa, keulassa ja hännässä sekä korkean rasituksen kohdissa. Kirjaukset säilytetään erää kohti ja linkitetään lopputarkastukseen.'
+    - image: https://assets.isupfactory.com/site/quality/qc-hold-quarantine-station.avif
+      alt: Laadunvalvonnan tarkistuslehdet ja ohjatun pidätyksen tilamerkinnät tehtaan tarkastuspisteessä
+      title: Pidätys- ja eristysasema
+      desc: 'Tarkastuspiste, jossa on laadunvalvonnan tarkistuslehdet ja tilamerkinnät. Mikään hyväksymiskriteerit täyttämätön kohde ei pääse pakkaukseen: se merkitään, kirjataan ja siirretään eristykseen — se ei voi edetä pakkaukseen ennen kuin valtuutettu päätös ja pakollinen uudelleentarkastus on tehty.'
+    - image: https://assets.isupfactory.com/site/quality/qc-air-tightness-rework.avif
+      alt: Laadunvalvonnan tekniikko tekee ohjattua ilmatiiviyskorjausta puhallettavaan SUP-lautaan tehtaan korjausasemalla
+      title: Ohjattu korjausasema
+      desc: 'Ilmatiiviyskorjaus tehdään omalla asemallaan hyväksytyn menetelmäkortin mukaisesti: virhe merkitään, lauta pysyy HOLD-tilassa, ja vaaditun kovettumisajan jälkeen se palaa testialueelle uudelleentarkastukseen alkuperäisiä hyväksymiskriteerejä vasten.'
+    - image: https://assets.isupfactory.com/site/quality/qc-workshop-quarantine-demo.avif
+      alt: Ohjatun eristyksen esittely työpajassa Qingdaon tehtaassa
+      title: Eristysalueen esittely
+      desc: 'Esittelykuva työpajasta, joka näyttää, miten ohjattu eristys toimii paikan päällä: eristetyt yksiköt pidetään tilavalvonnassa, kunnes valtuutettu päätös on tehty.'
+
+rework_intro:
+  tagline: Korjauksen hallinta
+  title: Ohjattu ilmatiiviyysvaatimustenvastaisuuksien ja korjauksen hallinta
+  body: |
+    QINGDAO VATRAD GROUP.,LTD.:ssä korjaus määritellään tiukasti vaatimustenvastaavan yksikön palauttamiseksi täyteen vaatimustenmukaisuuteen alkuperäisen tuoteteknisen määrityksensä mukaisesti — ei nopeaksi paikaksi. Jokainen lauta, jossa on havaittu ilmatiiviyysvaatimustenvastaisuus, siirretään ohjattuun pidätykseen ja linkitetään vaatimustenvastausraporttiin (NCR) ennen jatkokäsittelyä; vuodon lähde paikannetaan ja kirjataan hyväksytyllä diagnostiikkamenetelmällä.
+
+    Korjaus voidaan tehdä vain, kun virhe kuuluu hyväksytyn korjauksen laajuuteen ja valtuutettu menetelmä on käytettävissä. Korjausohje määrittää tuotteen, erän, virheen sijainnin, hyväksytyn materiaalin, menetelmän, vaaditut olosuhteet ja uudelleentarkastuksen laajuuden. Vaaditun kovettumis- tai stabilointijakson jälkeen lauta tarkastetaan uudelleen samoja sovellettavia hyväksymiskriteerejä vasten kuin vaatimustenmukainen lauta — korjaus ei koskaan laske hyväksymisstandardia. Uudelleentarkastuksen epäonnistuminen vaatii uuden tuotetekn ja laadun päätöksen; toistuva korjaus ei ole sallittu ilman dokumentoitua hyväksyntää.
+
+rework_decision:
+  tagline: Vuorovaikutteinen virta
+  title: Korjauspäätöksen virta — klikkaa solmua
+  subtitle: Seuraa, miten ilmatiiviyysvaatimustenvastaisuus käsitellään havaitsemisesta luovutukseen tai romutukseen. Klikkaa solmua laajentaaksesi kyseisen vaiheen valvontavaatimukset.
+  nodes:
+    - id: detect
+      type: start
+      label: Vuoto havaittu
+      detail: 'Ilmatiiviyysvaatimustenvastaisuus havaitaan tarkastuksessa — paineen säilymisen epäonnistuminen, näkyvä vuoto tai siihen liittyvä ilmajärjestelmän virhe.'
+    - id: hold
+      type: step
+      label: Pysäytä linja · HOLD-merkki · NCR
+      detail: 'Käsittely pysäytetään. Laudan tunnus, tuotekoodi, erä, työpiste, päivämäärä ja tarkastaja kirjataan; HOLD / QUARANTINE -merkki kiinnitetään ja NCR avataan sovellettavaa määritysrevisiota vasten.'
+    - id: locate
+      type: step
+      label: Paikanna vuodon lähde
+      detail: 'Lauda täytetään projektissa hyväksyttyyn diagnostiikkapaineeseen ja lähde paikannetaan hyväksytyllä menetelmällä — paineen säilyminen, kalibroitu kuplatesti, akustinen tai vuodon tunnistuslaite.'
+    - id: classify
+      type: step
+      label: Luokittele virhe (A–G)
+      detail: 'Virhe luokitellaan hyväksymismatriisin mukaan: A venttiiliraja, B venttiilin pohjan sauma, C pinnan neulansuoja, D paikallinen kiskon sauma, E laaja kiskon vika, F toistuva vuoto, G rakenteellinen vaurio.'
+    - id: authorize
+      type: decision
+      label: Korjaus valtuutettu?
+      yes: rework
+      no: escalate
+      detail: 'Laadunvalvonta vahvistaa virheluokan ja Tuotetekniikka arvioi, voidaanko lauta palauttaa alkuperäiseen määritykseensä. Valtuutus kirjaa menetelmäkortin, materiaalit, olosuhteet ja uudelleentarkastuksen laajuuden — tai ohjaa sen vaihtoon, hylkäyseen, romutukseen tai asiakkaan suostumukseen.'
+    - id: rework
+      type: step
+      label: Ohjattu korjaus
+      detail: 'Toteutetaan vain hyväksytyn virherajan sisällä käyttäen hyväksyttyä menetelmäkorttia, materiaalierää ja työkalustoa — mitään mittoja, rakennetta, kuvitusta, lisävarusteita tai pakkausvaatimuksia muuttamatta.'
+    - id: cure
+      type: step
+      label: Kovettuminen ja stabilointi
+      detail: 'Lauda pysyy HOLD-tilassa hyväksytyn materiaalin ja prosessiohjeen määrittellyn kovettumis- ja stabilointijakson läpi, minkä jälkeen se saa silmämääräisen ja työn laadun esitarkastuksen.'
+    - id: reinspect
+      type: decision
+      label: Uudelleentarkastus läpi?
+      yes: release
+      no: escalate
+      detail: 'Lauda täytetään projektissa hyväksyttyyn uudelleentarkastuspaineeseen ja alkuperäinen vika sekä kaikki mahdollisesti vaikuttuneet ominaisuudet varmennetaan uudelleen — vuodon sijainti, venttiili, kiskot, saumat, korkean rasituksen alueet, lisävarusteet ja ulkonäkö. Korjaus ei koskaan laske hyväksymisstandardia.'
+    - id: release
+      type: release
+      label: Laadullinen luovutus
+      detail: 'Laatu käy läpi suljetun NCR:n, korjauskirjauksen ja uudelleentarkastustuloksen ja valtuuttaa luovutuksen. Yhtään korjattua lautaa ei pakata eikä lähetetä ilman valtuutettua laadullista luovutusta.'
+    - id: escalate
+      type: escalate
+      label: Eskaloi — vaihto / romutus / suostumus
+      detail: 'Ei toistuvaa korjausta ilman dokumentoitua hyväksyntää. Lauda ohjataan vaihtoon, hylkäyseen, romutukseen tai kirjalliseen asiakkaan suostumukseen, jos alkuperäistä määritystä ei voida palauttaa.'
+
+defect_matrix:
+  tagline: Virheluokitus
+  title: Ilmatiiviyysvirheiden luokitus- ja hyväksymismatriisi
+  subtitle: Kaikkia vuotoja ei korjata — jokainen virhe luokitellaan ja sen päätös hyväksytään oikealla tasolla aina laadunvalvonnan tarkastajasta tehtaanjohtajaan.
+  headers:
+    category: Virheluokka
+    area: Tyypillinen alue
+    eligibility: Korjauskelpoisuus
+    approval: Vaadittu hyväksyntä
+  rows:
+    - category: 'Luokka A — Venttiiliraja'
+      area: 'Venttiilin runko, kansi, tiiviste, pumpun liitäntä'
+      eligibility: 'Vakiokorjaus valtuutettu'
+      approval: 'Laadunvalvonnan tarkastaja'
+    - category: 'Luokka B — Venttiilin pohjan sauma'
+      area: 'Mikrokuoppa venttiilin reunan kohdalla'
+      eligibility: 'Korjaus arvioidaan hyväksytyn menetelmäkortin mukaan'
+      approval: 'Laadunvalvonta + Tuotetekniikka'
+    - category: 'Luokka C — Pinnan neulansuoja'
+      area: 'Paikallinen mikroneulansuoja jännittämättömällä pinnalla'
+      eligibility: 'Valtuutettu vain, kun se vastaa asiakkaan määrityksiä'
+      approval: 'Laadunvalvonta + Tuotetekniikka'
+    - category: 'Luokka D — Paikallinen kiskon sauma'
+      area: 'Paikallinen vuoto kiskonauhan päällekkäisyydessä'
+      eligibility: 'Korkea riski; vaatii tiukkaa tuoteteknistä päätöstä'
+      approval: 'Tuotetekniikka + Laadunvarmistuksen päällikkö'
+    - category: 'Luokka E — Laaja kiskon vika'
+      area: 'Jatkuva saumavika korkean rasituksen vyöhykkeillä'
+      eligibility: 'Vakiokorjausta ei valtuuteta — vaihto tai juurisyntianalyysi'
+      approval: 'Laadunvarmistuksen päällikkö + asiakkaan suostumus'
+    - category: 'Luokka F — Toistuva vuoto'
+      area: 'Paikantamaton vuoto tai uudelleentestin epäonnistuminen'
+      eligibility: 'Ei toistuvaa korjausta; vaihto, romutus tai tuotetekninen juurisyntianalyysi'
+      approval: 'Laadunvarmistuksen esimies / Tuotetekniikka'
+    - category: 'Luokka G — Rakenteellinen vaurio'
+      area: 'Materiaalivahinko, delaminointi, laudan vääntyminen'
+      eligibility: 'Korjausluovutusta ei valtuuteta — vaihto, romutus tai kirjallinen asiakkaan suostumus'
+      approval: 'Laadunvarmistuspäällikkö + asiakkaan hyväksyntä'
+
+rework_flow:
+  tagline: 7-vaiheinen suljettu silmukka
+  title: Ohjattu korjausprosessi — havaitsemisesta luovutukseen tai romutukseen
+  subtitle: 'Jokainen ilmatiiviyskorjaus noudattaa samaa ohjattua silmukkaa: havaitse, eristä, diagnosoi, valtuuta, korjaa, tarkasta uudelleen, luovuta.'
+  steps:
+    - step: '01'
+      title: Havaiteminen, linjapysäytys ja eristys
+      desc: 'Käsittely pysäytetään välittömästi kyseisen laudan kohdalla. Laudan tunnus, tuotekoodi, erä, työpiste, päivämäärä ja tarkastaja kirjataan, HOLD / QUARANTINE -merkki kiinnitetään ja NCR avataan sovellettavaa määritysrevisiota vasten.'
+    - step: '02'
+      title: Järjestelmällinen vuodon diagnostiikka
+      desc: 'Lauda täytetään projektissa hyväksyttyyn diagnostiikkapaineeseen ja vuodon lähde paikannetaan hyväksytyllä menetelmällä — paineen säilyminen, kalibroitu kuplatesti, akustinen tai vuodon tunnistuslaite. Epäilty sijainti merkitään vahingoittamatta lautaa.'
+    - step: '03'
+      title: Tuotetekninen päätös ja valtuutus
+      desc: 'Laadunvalvonta vahvistaa virheluokan ja Tuotetekniikka arvioi, voidaanko lauda palauttaa alkuperäiseen määritykseensä. NCR:ään viittaava korjausvaltuutus kirjaa hyväksytyn menetelmän, materiaalit, olosuhteet ja uudelleentarkastuksen laajuuden — tai määrää vaihdon, hylkäyksen, romutuksen tai asiakkaan suostumuksen.'
+    - step: '04'
+      title: Ohjatun korjauksen toteutus
+      desc: 'Korjaus toteutetaan vain hyväksytyn virherajan sisällä käyttäen hyväksyttyä menetelmäkorttia, materiaalierää ja työkalustoa. Laudan mittoja, rakennetta, kuvitusta, lisävarustekokoonpanoa tai pakkausvaatimuksia ei koskaan muuteta.'
+    - step: '05'
+      title: Kovettuminen, stabilointi ja esitarkastus
+      desc: 'Korjattu lauta pysyy HOLD-tilassa hyväksytyn materiaalin ja prosessiohjeen määrittellyn kovettumis- ja stabilointijakson läpi, minkä jälkeen se saa silmämääräisen ja työn laadun esitarkastuksen ennen uudelleentarkastusta.'
+    - step: '06'
+      title: Uudelleentarkastus ja varmennustestaus
+      desc: 'Lauda täytetään projektissa hyväksyttyyn uudelleentarkastuspaineeseen ja alkuperäinen vika sekä kaikki mahdollisesti vaikuttuneet ominaisuudet varmennetaan uudelleen: vuodon sijainti ja ympäröivä alue, venttiili, kiskot, saumat, korkean rasituksen alueet, lisävarusteet ja ulkonäkö. Korjaus ei koskaan laske hyväksymisstandardia.'
+    - step: '07'
+      title: Laadunvarmistuksen luovutus tai lopullinen päätös
+      desc: 'Laatu käy läpi valmiin NCR:n, korjauskirjauksen ja uudelleentarkastustuloksen ja valtuuttaa sitten luovutuksen — tai eskaloi vaihtoon, hylkäyseen, romutukseen tai asiakkaan suostumukseen. Yhtään korjattua lautaa ei pakata eikä lähetetä ilman valtuutettua laadullista luovutusta.'
+
+quality_safeguards:
+  tagline: Laadunsuojakeinot
+  title: Virheiden torjuntasäännöt, jotka suojaavat brändiäsi
+  subtitle: Kovat valvonnat, jotka estävät valvomattomat korjaussilmukat — yksi dokumentoitu korjaus virhettä kohti, erätason hälytysrajat, kalibroitu instrumentaatio ja ohjatut testiolosuhteet.
+  features:
+    - icon: 1
+      icon_bg: blue
+      title: Yksi korjaus virhettä kohti
+      desc: 'Yhtä kohtaa saa korjata kerran valtuutetun ohjeen mukaisesti. Jos uudelleentarkastus yhä epäonnistuu, lauta eskaloidaan vaihtoon, hylkäyseen, romutukseen tai asiakkaan suostumukseen — toistuva korjaus ilman dokumentoitua hyväksyntää ei ole sallittu.'
+    - icon: 2
+      icon_bg: green
+      title: Eräkohtainen hälytys ja linjapysäytys
+      desc: 'Kun tuotantoerän vaatimustenvastaisuus ylittää tuotetekniikan asettaman rajan, linja pysäytetään ja Tuotetekniikka tutkii syyn — materiaalierän, prosessin olosuhteet ja kirjaukset — ennen tuotannon jatkamista.'
+    - icon: 3
+      icon_bg: purple
+      title: Kalibroitu instrumentaatio
+      desc: 'Ilmatiiviystestauksessa käytettävät painemittarit, digitaaliset manometrit ja ajastimet ovat valvottuja ja kolmansien osapuolten laboratorioiden kalibroimia voimassaoloaikansa kuluessa, ja kalibrointitila on näkyvissä tarkastusalueella.'
+    - icon: 4
+      icon_bg: orange
+      title: Ohjatut testiolosuhteet
+      desc: 'Ilmatiiviystestaus- ja kovettumisalueet pidetään ohjatussa ympäristössä, jotta tuloksiin ei vaikuta vuorokauden lämpötilan vaihtelu.'
+
+rework_boundaries:
+  tagline: Laajuus ja rajat
+  title: Mitä tämä järjestelmä ei koske
+  body: |
+    Korjauksen valvontajärjestelmä koskee valmiita tai prosessissa olevia puhallettavia SUP-laudoja, joissa on havaittu ilmanvuoto, paineen säilymisen epäonnistuminen tai siihen liittyvä ilmajärjestelmän virhe ennen lähetysluovutusta. Se ei valtuuta muutoksia hyväksyttyyn rakenteeseen, materiaaleihin, kuvitukseen, tuotekokoonpanoon tai asiakkaan vaatimuksiin, eikä se kata seuraavia:
+
+    - Tuotteita, jotka on jo lähetetty tai jotka ovat asiakkaan kanavissa.
+    - Rakenteellisia vahinkoja tai laudan vääntymistä, joita Tuotetekniikka ei ole arvioinut.
+    - Laajaa kiskon tai sauman vikaa, ydinkuitumateriaalin vahinkoa tai virheitä, jotka voivat vaikuttaa turvallisuuteen.
+    - Projekteja, joissa korjaus ei ole sallittu: asiakkaan hyväksymät näytteet, sertifiointi- tai testiyksiköt.
+    - Projekteja, joissa on asiakkaan omia prosesseja, erikoismateriaaleja tai erityisiä korjausvaatimuksia.
+    - Toistuvan vuodon, jota ei voida paikantaa, tai lautoja, jotka epäonnistuvat uudelleen korjauksen jälkeen.
+
+    Mikään poikkeama asiakkaan määrityksistä vaatii dokumentoidun tuoteteknisen katselmuksen ja sovelluksen mukaisesti asiakkaan kirjallisen hyväksynnän. Laudat, joita ei voida palauttaa alkuperäiseen määritykseensä, luovutetaan vain asiakkaan nimenomaisella suostumuksella — eikä koskaan tuotannon päätöksellä.
+
+method_cards:
+  tagline: Menetelmäkorttijärjestelmä
+  title: Ohjattujen korjausmenetelmäkorttien hakemisto
+  subtitle: 'Yleinen ohje valvoo prosessia; menetelmäkortit valvovat toimenpidettä. Korjausohje (WI-QC-AT-001) viittaa menetelmäkortteihin MC-RW-01–MC-RW-06 sekä MC-RW-00:aan, joka koskee pakollista romutusta ja hylkäämistä.'
+  headers:
+    code: Menetelmäkortti
+    defect: Virheluokka
+    scope: Sovellusalue
+    controls: Keskeiset tuotetekniset valvonnat
+    approval: Allekirjoitusvaltuutus
+  rows:
+    - code: MC-RW-01
+      defect: Luokka A (venttiiliraja)
+      scope: 'Venttiilin rungon huolto, tiivisteen puhdistus ja uudelleenkokoonpano'
+      controls: 'Kalibroitu momenttiavain, puhdas tiivisteen pinta, ei vahinkoa venttiilin kierteisiin'
+      approval: 'Laadunvalvonnan tarkastaja'
+    - code: MC-RW-02
+      defect: Luokka B (venttiilin reuna)
+      scope: 'Venttiilin pohjan laippatiivisteen tiivistys ja ohjattu puristus'
+      controls: 'Ohjattu pinnan esikäsittely, hyväksytty liimamateriaali, pyöreä painofixture'
+      approval: 'Laadunvalvonta + Tuotetekniikka'
+    - code: MC-RW-03
+      defect: Luokka C (pinnan mikrovuoto)
+      scope: 'Ei-rakenteellisten neulansuojojen tiivistys'
+      controls: 'Hyväksytty kaksikomponenttinen liima, ei valumista kuvitukseen tai EVAan'
+      approval: 'Laadunvalvonta + Tuotetekniikka'
+    - code: MC-RW-04
+      defect: Luokka D (paikallinen kiskon sauma)
+      scope: 'Paikallisen kiskon päällekkäissauman uudelleenliimaus'
+      controls: 'Lämpötilasäädelty lämpöaktivointi, puristustela, kihdistymisenesto-fixture'
+      approval: 'Tuotetekniikka + Laadunvarmistuksen päällikkö'
+    - code: MC-RW-05
+      defect: Luokka B/C (lisävarusteen reuna)
+      scope: 'Evälaatikon paikkauksen ja lisävarusteiden asennuspohjan tiivistys'
+      controls: 'Pinnan tarttumisen edistäjä, profiloitu puristuslohko, määritelty pitoaika'
+      approval: 'Laadunvalvonta + Tuotetekniikka'
+    - code: MC-RW-06
+      defect: Luokka D (keula-/häntäsauma)
+      scope: 'Korkean rasituksen kaarevien saumojen käsittely'
+      controls: 'Hyväksytty suuren leikkauskuorman liimamateriaali, pidennetty kovettumisaika ennen uudelleentestausta'
+      approval: 'Päällikköinsinööri'
+    - code: MC-RW-00
+      defect: Luokka E/F/G (kriittinen / halkeilu)
+      scope: 'Pakollinen romutus ja fyysinen tuhointi'
+      controls: 'Fyysinen katkaisu sekaantumisen estämiseksi, romutuskirjaus, osastojen välinen juurisyntianalyysi'
+      approval: 'Tehtaanjohtaja'
+
+inspector_friendly:
+  tagline: Kolmannen osapuolen tarkastus
+  title: Tarkastajaystävällinen protokolla
+  body: |
+    Tarjoamme oman tarkastusalueen, jossa on kalibroidut painemittarit, standardoidut valopöydät sauma- ja kuvitustarkistuksiin sekä valmiiksi täytetyt tarkastuskohdet, jotta kolmannen osapuolen toimistot (SGS, BV, Intertek, QIMA) voivat suorittaa esilähetystarkastuksen tehokkaasti — säästäen tarkastuskustannuksiasi.
+
+    Jokainen kohde kokoaa yhteen sovellettavat asiakirjarevisiot, hyväksytyn näytteen viitteen, laadulle kriittiset tarkistukset, sovitun otostason, toiminnalliset testit sekä PO:n pakkaus- ja viivakoodivaatimukset. Määritetyt määrät, laatu, pakkaus ja perusturvallisuuskohteet varmennetaan hyväksyttyjä projektiviittauksia vasten — eikä paikan päällä tarvitse viime hetkellä etsiä asiakirjoja.
+
+document_pack:
+  tagline: Laatuasiakirjapaketti
+  title: Lataa näytteen laatupaketti ja protokollapohjat
+  subtitle: 'OEM/ODM-hankkeissa käytetyt vakiintuneet ohjatut pohjat — jäsennettynä 00–15-asiakirjarekisteriksi (projekti-indeksi, hyväksytty määritys, materiaaliluettelo, artwork- ja pakkausviittaukset, QIP, tarkastuskirjaukset, NCR, muutosvalvonta, kolmannen osapuolen kohde, luovutusyhteenveto).'
+  features:
+    - icon: P
+      icon_bg: blue
+      title: Laatuasiakirjapaketti (PDF)
+      desc: 'Täydellinen 00–15-ohjattu asiakirjarakenne: projektindeksi, määritys, materiaaluluettelo, artwork- ja pakkausviittaukset, laaduntarkastussuunnitelma (QIP), tarkastuskirjaukset, NCR, muutosvalvonta, kolmannen osapuolen katselmus ja lähetystä edeltävä luovutusyhteenveto.'
+      link: 'https://assets.isupfactory.com/site/downloads/Qingdao_Vatrad_Group_SUP_Quality_Documentation_Pack.pdf?dl=1'
+      link_label: Lataa PDF
+    - icon: T
+      icon_bg: green
+      title: Kolmannen osapuolen tarkastuskohde (PDF)
+      desc: 'Yhden sivun kohde SGS / BV / Intertek / QIMA -tarkastajille: tilauksen määrä, AQL-otostaso, sovellettavat revisiot ja laadulle kriittiset tarkistukset mukaan lukien ilmatiiviyyskirjauksen varmennus, painepidon testaus, sarjan täydellisyys, viivakoodiskannaus ja laatikon pudotustesti.'
+      link: 'https://assets.isupfactory.com/site/downloads/Third_Party_Inspection_Brief_Template.pdf?dl=1'
+      link_label: Lataa PDF
+    - icon: C
+      icon_bg: purple
+      title: Muutosvalvontaprotokolla (PDF)
+      desc: 'Muutosvalvontakirja, joka kattaa artwork-, asiakkaan hyväksymän materiaaliluettelo- ja laatikkomerkintämuutokset — sisältäen muutoksen yhteenvedon, syyn, vaikutusarvion, asiakkaan hyväksynnän tilan, voimaan tulevan erän ja vanhentuneen asiakirjan poisvetoisen.'
+      link: 'https://assets.isupfactory.com/site/downloads/Change_Control_Protocol_Bilingual.pdf?dl=1'
+      link_label: Lataa PDF
+    - icon: R
+      icon_bg: orange
+      title: Lähetystä edeltävä luovutusyhteenveto (PDF)
+      desc: 'Yhden sivun luovutusallekirjoitus: laatuporttien varmennus (IQC, IPQC, ilmatiiviys, lopputarkastus, pakkaus), avoimien NCR:ien tila ja laadun sekä operatiivisen johdon allekirjoittama valtuutettu luovutuspäätös.'
+      link: 'https://assets.isupfactory.com/site/downloads/Pre_Shipment_Release_Summary_Bilingual.pdf?dl=1'
+      link_label: Lataa PDF
+    - icon: W
+      icon_bg: blue
+      title: Ilmatiiviyskorjauksen työohje (PDF)
+      desc: 'Ohjattu työohje WI-QC-AT-001 Rev A: laajuus ja rajat, virheluokitus, NCR ja korjausvaltuutus, ohjattu toteutus, kovettuminen, uudelleentarkastus ja luovutus puhallettaville SUP-laudoille.'
+      link: 'https://assets.isupfactory.com/site/downloads/air-tightness-rework-instruction-wi-qc-at-001.pdf?dl=1'
+      link_label: Lataa PDF
+    - icon: M
+      icon_bg: green
+      title: Menetelmäkorttihakemisto (PDF)
+      desc: 'Ohjattu asiakirja SOP-QC-AT-IDX-001 Rev A: numeroidut menetelmäkortit MC-RW-01–MC-RW-06 sekä MC-RW-00 romutukselle ja hylkäykselle, linkitettynä ilmatiiviyskorjauksen työohjeeseen.'
+      link: 'https://assets.isupfactory.com/site/downloads/method-card-index-sop-qc-at-idx-001.pdf?dl=1'
+      link_label: Lataa PDF
+    - icon: V
+      icon_bg: orange
+      title: Korjauksen muutosvalvontastandardi (sivu)
+      desc: 'Korjausparametrien formaali ISO 9001 -muutosvalvonta: ECR, riskiluokitus, osastojen välinen hyväksymismatriisi, 9-vaiheinen suljettu silmukka, kvantifioitu tuotetekninen validointi ja Poka-Yoke-turvat — kaksikielisellä SOP:lla QMS-SOP-QC-CC-001 Rev 2.0.'
+      link: '/fi/factory/quality-change-control'
+      link_label: Katso sivu
+    - icon: N
+      icon_bg: blue
+      title: Vaatimustenvastaisten tuotteiden hallinta (sivu)
+      desc: 'ISO 9001:2015 kohdan 8.7 mukainen vaatimustenvastaisten tuotosten valvonta: NCR-rekisteröinti, eristys, vaikeuteen perustuva päätösvalta, ohjattu korjaus SRI:n mukaisesti, riippumaton uudelleentarkastus ja SHA-256-suojattu todistettu tuhointi — kaksikielisine SOP- ja romutustodistuslatauksineen.'
+      link: '/fi/factory/non-conforming-control'
+      link_label: Katso sivu
+
+faqs:
+  tagline: FAQ
+  title: Usein kysytyt kysymykset SUP-laadunvalvonnasta
+  items:
+    - q: 'Miten QINGDAO VATRAD GROUP.,LTD. valvoo puhallettavien SUP-laatujen laatua?'
+      a: 'Laatua valvotaan saapuvan materiaalin tarkastuksella, tuotantoprosessin tarkastuspisteillä, lopputuotteen varmennuksella, pakkauksen tarkastuksella ja tuotannon jäljitettävyydellä — kukin toteutettuna projektissa hyväksyttyjä näytteitä, määrityksiä ja tarkastuskriteerejä vasten.'
+    - q: 'Mitä laatutarkastuksia SUP-tuotannossa tehdään?'
+      a: 'Tarkastuksiin kuuluvat materiaalien varmennus, leikkauksen ja tulostuksen tarkistukset, laudan rakentamisen tarkastus, venttiilin asennuksen varmennus, lisävarusteiden tarkastus, ilmatiiviystestaus, ulkonäön tarkastus ja pakkauksen varmennus.'
+    - q: 'Voivatko OEM-asiakkaat pyytää SUP-tarkastuskirjaukset?'
+      a: 'Kyllä. Tarkastuskirjaukset ja laatuasiakirjat voidaan toimittaa projektivaatimusten ja asiakkaan laatua koskevien sopimusten mukaisesti, mukaan lukien näytteen esilähetystarkastusraportit.'
+    - q: 'Miten tehdas varmistaa OEM-tuotannon yhdenmukaisuuden?'
+      a: 'Tuotannon yhdenmukaisuus ylläpidetään hyväksytyillä näytteillä, teknisillä määrityksillä, valmistuksen tarkastuspisteillä, tarkastusmenettelyillä ja kuhunkin tilaukseen linkitetyillä dokumentoiduilla laadunvalvontaprosesseilla.'
+    - q: 'Voinko järjestää kolmannen osapuolen tarkastuksen SGS:n, BV:n, Intertekin tai QIMA:n toimesta?'
+      a: 'Kyllä. Otamme kolmannen osapuolen tarkastajat vastaan omalla tarkastusalueellamme, kalibroituine painemittareineen, valmiiksi täytettyine tarkastuskohteineen ja saatavilla olevine kirjauksineen. Jaa määrityksesi, hyväksytyt näytteesi, artworkisi, pakkausvaatimuksesi ja virhekriteerisi — tai käytä kolmannen osapuolen tarkastuskohteen pohjaamme.'
+    - q: 'Miten artwork-, materiaaliluettelo- tai pakkausmuutokset käsitellään tuotannon aikana?'
+      a: 'Muutokset kirjataan muutosvalvontakirjaan, jossa on vaikuttavan asiakirjarevision, muutoksen yhteenveto, syy, vaikutusarvio, asiakkaan hyväksynnän tila ja voimaan tuleva erä. Vanhentuneet versiot vedetään pois, jotta tuotanto ja tarkastus käyttävät aina nykyisiä hyväksyttyjä asiakirjoja.'
+    - q: 'Tukeeko tehdas räätälöityjä puhallettavien SUPien projekteja?'
+      a: 'Kyllä. Räätälöityjä puhallettavien SUPien OEM/ODM-hankkeita tuetaan asiakkaan määritysten, artwork-vaatimusten, lisävarustekokoonpanojen ja pakkaustarpeiden mukaisesti, ja projektikohtaiset tarkastuskriteerit sovitaan ennen tuotantoa.'
+    - q: 'Voiko vuotavan SUP-laudan korjata tehtaalla?'
+      a: 'Kyllä — ohjatuissa oloissa. Lauda siirretään HOLD-tilaan ja linkitetään NCR:ään, vuoto paikannetaan hyväksytyllä diagnostiikkamenetelmällä, ja korjaus etenee vasta laadunvalvonnan/Tuotetekniikan valtuutuksen jälkeen ja vain niiden virheluokkien puitteissa, jotka on hyväksytty korjattavaksi. Lauda tarkastetaan sitten uudelleen samoja hyväksymiskriteerejä vasten kuin vaatimustenmukainen lauta ennen luovutusta.'
+    - q: 'Kuinka monta kertaa tehdas voi korjata laudan?'
+      a: 'Yhtä kohtaa saa korjata kerran valtuutetun ohjeen mukaisesti. Jos uudelleentarkastus yhä epäonnistuu, lauta eskaloidaan vaihtoon, hylkäyseen, romutukseen tai asiakkaan suostumukseen — toistuva korjaus ilman dokumentoitua hyväksyntää ei ole sallittu.'
+
+cta:
+  title: Tarvitsetko esimerkin täydellisestä projektin laatupaketista?
+  desc: 'Pyydä anonymisoitu kolmannen osapuomen tarkastustukipaketti ja laaduntarkastussuunnitelma (QIP) OEM/ODM-projektiisi — tai lataa esimerkkipohjat ja tarkastele asiakirjarakennetta, jota voit odottaa tilauksellesi.'
+  actions:
+    - text: Pyydä laaduntarkastelua
+      variant: primary
+      href: /fi/contact
+    - text: Lataa näytteen laatupaketti (PDF)
+      href: 'https://assets.isupfactory.com/site/downloads/Qingdao_Vatrad_Group_SUP_Quality_Documentation_Pack.pdf?dl=1'
+    - text: Lataa QC-protokolla ja PSI-tarkistuslista
+      href: 'https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_Quality_Inspection_Standards.pdf?dl=1'

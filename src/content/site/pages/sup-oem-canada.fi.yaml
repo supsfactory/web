@@ -1,0 +1,90 @@
+meta:
+  title: 'Puhallettavien SUP-lautojen OEM Kanadaan — iSupfactoryn Qingdaon tehdas'
+  description: 'Puhallettavien SUP-lautojen OEM kanadalaisille brändeille ja vähittäiskaupoille: näyte 7–12 päivässä, tuotanto 25–35 päivässä ja merirahti 4–6 viikkoa Vancouveriin, Torontoon tai Montrealin.'
+  dateModified: '2026-08-11'
+  keywords:
+    - 'SUP-valmistaja Kanada'
+    - 'puhallettavien SUP OEM Kanada'
+    - 'räätälöity SUP-tehdas kanadalaisille brändeille'
+    - 'private label SUP -lähetys Kanadaan'
+    - 'iSUP-toimittaja Vancouver Toronto Montreal'
+
+hero:
+  tagline: 'Kanada'
+  title: 'Puhallettavien SUP-lautojen OEM Kanadaan — Qingdaosta sinun varastoosi'
+  subtitle: 'Näyte 7–12 päivässä, tuotanto 25–35 päivässä, merirahti 4–6 viikkoa Vancouverin, Toronton tai Montrealin satamiin. FOB Qingdao, CIF tai DDP — sama tehdas, sama laadunvalvonta, sama kuusivaiheinen kehittelyprosessi kuin jokaiselle iSupfactoryn asiakkaalle.'
+
+answer:
+  label: 'Suora vastaus'
+  text: 'Kanadalaiset brändit tilaavat puhallettavia SUP-laudoja iSupfactorylta vakiosehdoilla: MOQ vahvistetaan projektin konfiguraation perusteella: 1–2 kpl:n näyte-erät varmistavat rakenteen, 20–50 kpl:n pilottierät testaavat markkinaa olemassa olevilla alustoilla, ja vakiomääräinen tuotanto 90–100+ kpl per malli täydestä 150 m drop-stitch-rullasta. Ensimmäinen näyte lähetetään 7–12 päivää määritysten hyväksynnän jälkeen, tuotanto 25–35 päivää vahvistetun tilauksen ja käsirahan jälkeen, ja merirahti lisää 4–6 viikkoa Kanadan satamiin — Vancouver länsirannikolla, Toronto ja Montreal idässä. DDP kattaa tulliselvityksen ja toimituksen varastoosi.'
+  verified: 'September 2026'
+
+stats:
+  tagline: 'Yhdellä silmäyksellä'
+  title: 'Kanadan tuonnin perusteet'
+  items:
+    - value: '7–12 päivää'
+      label: 'Ensimmäinen näyte määritysten hyväksynnän jälkeen'
+    - value: '25–35 päivää'
+      label: 'Tuotanto tilauksen ja käsirahan jälkeen'
+    - value: '4–6 viikkoa'
+      label: 'Merirahti Kanadan satamiin'
+    - value: '50+'
+      label: 'Laitteelta lähetettyä maata'
+
+why_canada:
+  tagline: 'Miksi kanadalaiset ostajat'
+  title: 'Rakennettu Kanadan tuonnille'
+  subtitle: 'Tehtaan vastaukset niihin kysymyksiin, joita kanadalaiset brändit ja vähittäiskaupat kysyvät ennen ensimmäistä konttiaan.'
+  items:
+    - title: 'DDP ennustettavaa lopputoimituskustannusta varten'
+      description: 'DDP sisältää tulliselvityksen ja toimituksen varastoosi — tullit, verot ja rahti yhdessä kokonaissummassa CAD:lla tai USD:llä. Suosituin valinta ensimmäistä kertaa tuoville maahantuojille.'
+    - title: 'Länsi- ja itärannikon reitit'
+      description: 'Annamme tarjouksen merirahtiin Vancouveriin tai Torontoon ja Montrealiin Suezin reitin kautta — kumpi tahansa tasapainottaa paremmin kuljetusajan ja lopputoimituskustannuksen.'
+    - title: 'Kaksikielisyyteen valmistellut tuotetiedostot'
+      description: 'CE-, REACH- ja tulliasiakirjat laaditaan kohdemarkkinoillesi, joten tuotetiedostosi toimii sekä englanti- että ranskankielisille pakkausvaatimuksille.'
+    - title: 'Yksi tehdas, yksi laatujärjestelmä'
+      description: 'Kehittely, näytteenotto, tuotanto ja laadunvalvonta tapahtuvat kaikki 12,500 m² laitoksessa — ei välittäjän edesttakaisin kulkua eikä näytteitä, joita tuotanto ei pysty vastaamaan.'
+
+process_notes:
+  tagline: 'Näin se toimii'
+  title: 'Määrityksestä konttiin'
+  subtitle: 'Samat kuusi vaihetta riippumatta siitä, ostatko kaksi konttia vuodessa vai kaksikymmentä: määritykset, suunnittelu, näytteenotto, testaus, muottityö, tuotanto — sitten FOB-, CIF- tai DDP-toimitus.'
+  items:
+    - title: '1. Lähetä määrityksesi'
+      description: 'Riittää vertailulauta, piirros tai kilpailijan määritys. Suunnittelukatsaus ja tarjous palautetaan yhden arkipäivän kuluessa.'
+    - title: '2. Hyväksy näyte'
+      description: 'Ensimmäinen fyysinen näyte lähetetään 7–12 päivässä mukana hyväksymislomake, joka kattaa rakenteen, painovärit ja painetestitulokset.'
+    - title: '3. Tuotanto ja vienti'
+      description: 'Erat valmistuvat 25–35 päivässä prosessin sisäisillä laadunvalvontatarkistuspisteillä. Pakkausluettelo, lasku ja konossaintti lähtevät ennen alusta.'
+    - title: '4. Toimitus varastoosi'
+      description: '4–6 viikkoa merirahtia Vancouveriin, Torontoon tai Montrealin — DDP-ehdoilla hoidamme selvityksen ja toimituksen ovelle asti.'
+
+faq_section:
+  tagline: UKK
+  title: 'Kanadan tuonnin kysymykset'
+  questions:
+    - q: Kuinka kauan merirahti Kanadaan kestää?
+      a: 'Varauta 4–6 viikkoa Qingdaon satamasta Kanadan satamiin — Vancouver länsirannikolla, Toronto ja Montreal idässä — kohdetta ja laivavuoroaikataulua riippuen. DDP-projekteissa mukana on koko ovelta ovelle -aikataulu.'
+    - q: Lähetättekö DDP:ta Kanadaan?
+      a: 'Kyllä. DDP sisältää merirahdin, tulliselvityksen, tullit ja verot sekä toimituksen varastoosi — yksi ennustettava kokonaishinta. FOB Qingdao ja CIF ovat myös saatavilla.'
+    - q: Mikä on private label -SUP-tuonnin MOQ?
+      a: 'MOQ vahvistetaan projektin konfiguraation perusteella: näytekehitys kattaa 1–2 kpl, pilottierät 20–50 kpl olemassa olevilla alustoilla, ja vakiomääräinen tuotanto 90–100+ kpl per malli täydestä 150 m drop-stitch-rullasta.'
+    - q: Tuketteko englanti- ja ranskankielistä pakkausta?
+      a: 'Kyllä. Esipainatuksemme tiimi valmistelee painoaineistot kohdemarkkinoiden kielille ja säännöille — mukaan lukien Kanadan markkinalle tarkoitetun kaksikielisen EN/FR-pakkauksen.'
+    - q: Voinko vierailla tehtaalla ennen tilaamista?
+      a: 'Kyllä. Qingdaon 12,500 m² laitos on avoinna asiakkaille — virtuaalinen tehtaskierros voidaan järjestää verkossa, ja paikan päällä käynnit voidaan toteuttaa tuotantolinjoja ja laadunvalvontapisteitä ohjaten.'
+    - q: Miten aloitan projektin Kanadasta?
+      a: 'Lähetä vertailulauta, piirros tai määritys. Suunnittelukatsaus ja tarjous palautetaan yhden arkipäivän kuluessa, ja NDA allekirjoitetaan ennen tiedostojen vaihtoa.'
+
+cta:
+  title: 'Käynnistä projektisi Kanadassa'
+  subtitle: 'Lähetä piirros, vertailulauta tai määritys — suunnittelukatsaus ja tarjous yhden arkipäivän kuluessa.'
+  actions:
+    - variant: primary
+      text: Pyydä OEM-tarjous
+      href: /fi/contact#custom-oem
+    - text: Varmenna tehdas ja laatujärjestelmä
+      href: /fi/oem-trust-assurance
+    - text: 7-vaiheinen tarkastusjärjestelmä
+      href: /fi/quality

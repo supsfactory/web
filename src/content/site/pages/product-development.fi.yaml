@@ -1,0 +1,108 @@
+meta:
+  title: 'SUP-tuotekehitys — Räätälöity suunnittelu, prototyyppi ja tuotanto'
+  description: 'SUP-tuotekehitys ideasta konttiin asti: spesifikaatio, insinööriys, prototypointi, testaus, työkalut ja massatuotanto omassa SUP-tehtaassa.'
+  dateModified: '2026-08-10'
+  keywords:
+    - 'SUP-tuotekehitys'
+    - 'SUP-prototyypin kehitys'
+    - 'räätälöity SUP-suunnittelu'
+    - 'SUP-tuotteen insinööriys'
+    - 'puhallettavan SUP:n prototypointi'
+
+hero:
+  tagline: Tuotekehitys
+  title: 'Räätälöity SUP-tuotekehitys ideasta konttiin asti'
+  subtitle: 'Kuusi vaihetta muuttavat tuoteideasi tuotantovalmiiksi SUP-lautoiksi — spesifikaatio, insinööriys, prototypointi, testaus, työkalut ja massatuotanto, kaikki yhdessä tehtaassa ja yhden vastuullisen laatujärjestelmän alla.'
+
+answer:
+  label: 'Suora vastaus'
+  text: 'SUP-tuotekehitys iSupfactorylla kulkee kuuden vaiheen läpi — tuotespesifikaatio, rakennesuunnittelu, prototyyppinäytteet, testaus ja validointi, räätälöidyt työkalut sekä massatuotanto. Ensimmäinen fyysinen näyte lähetetään 7–12 päivää spesifikaation hyväksynnän jälkeen; tuotanto kestää 25–35 päivää vahvistetun tilauksen ja käsirahan jälkeen; uusien muottien kehittely lisää 15–20 päivää.'
+  verified: 'September 2026'
+
+stages:
+  title: 'SUP-tuotekehityksen kuusi vaihetta'
+  subtitle: 'Jokaisella vaiheella on selkeä toimitettava kohde, joten tiedät aina missä projektisi on — ja mitä seuraavaksi tulee.'
+  items:
+    - title: '1. Idea ja tuotespesifikaatio'
+      description: 'Laudan geometria, melojan painoalue, tilavuus, rakennetavoitteet ja lisävarustapaketti. Vertailulauta, piirustus tai kilpailijan spesifikaatio riittää alkuun.'
+      icon: 'tabler:bulb'
+    - title: '2. Insinööriys ja 3D-suunnittelu'
+      description: 'Rakennesuunnittelu, drop-stitch-paksuus ja PVC-luokan valinta sekä valmistettavuusarviointi ja tarjous — palautetaan yhden arkipäivän kuluessa.'
+      icon: 'tabler:blueprint'
+    - title: '3. Prototyypinäytteet'
+      description: 'Ensimmäinen fyysinen näyte lähetetään 7–12 päivässä, dokumentoituna hyväksymisasiakirjalla, joka kattaa rakenteen, painovärit ja painekoepaketulokset.'
+      icon: 'tabler:tools'
+    - title: '4. Testaus ja validointi'
+      description: 'Paineen pito, sauman lujuus ja mitoitustarkistukset verrattuna hyväksyttyyn näytteeseen, sekä CE- ja REACH-asiakirjat kohdemarkkinoillesi.'
+      icon: 'tabler:test-pipe'
+    - title: '5. Työkalut ja massatuotanto'
+      description: 'Räätälöityjen muottien kehittely 15–20 päivässä tarvittaessa; tuotanto kestää 25–35 päivää prosessin sisäisillä laadunvarmistuspisteillä ja erien jäljitettävyydellä.'
+      icon: 'tabler:settings'
+    - title: '6. Toimitus ja skaalaus'
+      description: 'FOB-, CIF- tai DDP-logistiikka yli 50 maahan — sitten toistuvat tilaukset vakiintuneelta linjaltasi vakailla toimitusajoilla ja arkistoiduilla hyväksytyillä kuvituksilla.'
+      icon: 'tabler:truck-delivery'
+
+why_inhouse:
+  title: 'Miksi tehtaassa tehty kehitys voittaa välitysprojektin'
+  subtitle: 'Tuotantolaitoksessa tehtävä kehitystyö muuttaa sen, mitä saat jokaisessa vaiheessa.'
+  items:
+    - title: Ei suunnittelun luovutuskatkoksia
+      description: 'Insinööri- ja piirustustiimi työskentelee samalla lattiatasolla hitsauslinjan kanssa — piirustusmuutos etenee tuotantoon samana viikkona, ei kaupallisen edestakaisen matkan jälkeen.'
+      icon: 'tabler:handshake'
+    - title: Näytteet vastaavat tuotantoa
+      description: 'Näyteajo ja tuotantoajo käyttävät samoja koneita, materiaaleja ja laadunvarmistuspisteitä, joten hyväksymäsi näyte on se, mitä oikeasti saat konttikokoisessa tuotannossa.'
+      icon: 'tabler:stack-2'
+    - title: Insinööriys, joka ei myy mitään
+      description: 'Päätökset tehdään kohdekustannuksen, painon ja kestävyyteen perusteella — ei lisämyyntimarginaalin perusteella, koska tämä on tehdas ja tuotanto on ainoa tulonlähde.'
+      icon: 'tabler:scale'
+    - title: Luottamuksellisuus jatkuvana sopimuksena
+      description: 'NDA allekirjoitetaan ennen tiedostojen vaihtoa, ja kuvituksesi, työkalustosi sekä spesifikaatiotiedostosi säilyvät omaisuuttasi — niitä ei koskaan käytetä uudelleen, myydä uudelleen tai näytetä toiselle asiakkaalle.'
+      icon: 'tabler:lock'
+
+buyer_guides:
+  tagline: "Ostajan oppaat"
+  title: 'Koko hankintakirjasto'
+  subtitle: 'Räätälöidyn SUP-projektin jokainen vaihe selitettynä oikeilla toimitusajoillamme, ehdoillamme ja dokumentaatiollamme.'
+  items:
+    - title: 'Private Label: koko vaihe vaiheelta -opas'
+      body: 'Tehtaan valinnasta toimitettuun konttiin asti — uusille brändeille tarkoitetun kuusivaiheisen matkan kokonaisuudessaan.'
+      href: '/fi/news/private-label-sup-guide'
+    - title: 'Näin valitset SUP-valmistajan OEM-toimittajaksi'
+      body: 'Auditointikysymykset, jotka erottavat oikean tehtaan välittäjästä: sertifikaatit, laadunvarmistus, näytteet ja omistajuus.'
+      href: '/fi/news/how-to-choose-sup-oem-manufacturer'
+    - title: 'SUP-tuotekehityksen aikataulu'
+      body: 'Näyte 7–12 päivässä, tuotanto 25–35 päivässä, työkalut 15–20 päivää lisää — koko kalenteri vaihe vaiheelta.'
+      href: '/fi/news/custom-sup-development-timeline'
+    - title: 'Tilausta valmistelevat tiedot'
+      body: 'Viisi tietoa, joiden avulla tehdas antaa tarkan tarjouksen ensimmäisellä kierroksella — ja välttää spesifikaatiotyön uudelleenkirjoituksen.'
+      href: '/fi/news/info-needed-before-sup-production'
+    - title: 'SUP OEM -MOQ ja hinnat'
+      body: 'MOQ-tasot näyte- (1–2), pilotti- (20–50) ja volyymivaiheessa (90–100+ kpl 150 m rullaa kohti), kuusi kustannustekijää ja viisi tapaa leikata kustannuksia laadusta tinkimättä.'
+      href: '/fi/news/sup-oem-moq-pricing'
+    - title: 'CE-sertifiointi puhallettaville SUP-lautoille'
+      body: 'Mitä CE oikeasti kattaa, mitkä viisi asiakirja vaadita ja miten varmistat, että todistuksessa mainitaan mallisi.'
+      href: '/fi/news/ce-certification-inflatable-sup'
+    - title: 'Toimitus: FOB vai CIF vai DDP'
+      body: 'Mitä kukin Incoterm kattaa ja maksaa, 4–6 viikon merikuljetuksen aikataulu ja mikä ehto sopii liiketoiminnallesi.'
+      href: '/fi/news/private-label-sup-oem-guide'
+
+faq_section:
+  tagline: UKK
+  title: 'SUP-kehityksen usein kysytyt kysymykset'
+  questions:
+    - q: Voitteko kehittää SUP-tuotteen ideasta?
+      a: 'Kyllä. Tukemme koko matkan tuotespesifikaatiosta ja insinööriydestä prototyypin kehittelyyn, räätälöintiin ja vaatimuksiasi vastaavaan massatuotantoon. Piirustus, vertailulauta tai jopa kilpailijan spesifikaatio riittää insinöörikatsauksen aloittamiseksi.'
+    - q: Mitä SUP-tuotekehitys maksaa?
+      a: 'Spesifikaation tarkastus ja insinööriysarvio ovat maksuttomia, ja ne palautetaan yhden arkipäivän kuluessa. Prototyypinäytteet hinnoitellaan projektikohtaisesti spesifikaation vakiinnuttamisen jälkeen; tuotantohinta riippuu materiaaleista, määrästä ja siitä, tarvitaanko räätälöityjä työkaluja.'
+    - q: Kuinka kauan SUP-tuotekehitys kestää?
+      a: 'Ensimmäinen näyte lähetetään 7–12 päivää spesifikaation hyväksynnän jälkeen, ja jokainen muutoskierros kestää 3–7 päivää. Tuotanto kestää 25–35 päivää tilauksen ja käsirahan jälkeen. Räätälöityjen muottien kehittely lisää alkuun 15–20 päivää, ja merikuljetus lisää useimmissa kohteissa 4–6 viikkoa.'
+    - q: Kumpi tulee ensin — näyte vai tuotanto?
+      a: 'Aina näyte. Fyysinen prototyyppi valmistetaan, mitataan ja hyväksytään spesifikaation mukaan ennen minkään tuotantoerän alkaa. Emme aja sarjatuotantoa hyväksymättömillä suunnitteluilla.'
+    - q: Allekirjoitatteko NDA:n tuotekehitykseen?
+      a: 'Kyllä. NDA allekirjoitetaan ennen tiedostojen vaihtoa, ja suunnittelusi, kuvituksesi sekä työkalustosi säilyvät omaisuuttasi koko kehityksen ja valmistuksen ajan.'
+    - q: Voitteko suojata SUP-suunnitteluni ja spesifikaationi?
+      a: 'Asiakkaiden suunnittelua, spesifikaatioita ja tuotekonsepteja käsitellään luottamuksellisesti kehityksen ja valmistuksen aikana. Työkalustotiedostojasi ei koskaan käytetä uudelleen, myydä uudelleen tai näytetä toiselle asiakkaalle.'
+
+cta:
+  title: 'Aloita SUP-tuoteprojektisi'
+  subtitle: 'Lähetä piirustus, vertailulauta tai spesifikaatio — insinöörikatsaus ja tarjous yhden arkipäivän kuluessa.'

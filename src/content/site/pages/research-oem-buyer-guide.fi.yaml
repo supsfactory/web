@@ -1,0 +1,103 @@
+meta:
+  title: 'OEM-ostajan opas: SUP-lautojen hankinta Aasiasta | iSupfactory'
+  description: 'Puhallettavien SUP-lautojen hankinta Aasiasta: tehtaasauditin tarkistuslista, laadunvarmistusmenettelyt, vaatimustenmukaisuus, MOQ-neuvottelut, toimitusehdot ja sudenkuopat.'
+  author: 'iSupfactory'
+  datePublished: '2026-08-04'
+  dateModified: '2026-08-07'
+back_text: 'Takaisin tutkimukseen'
+
+hero:
+  tagline: 'Hankinta'
+  title: 'OEM-ostajan opas — puhallettavien SUP-lautojen hankinta Aasiasta'
+  subtitle: '12 min lukuaika'
+
+answer:
+  label: 'Suora vastaus'
+  text: 'Vähimmäistilaus vahvistetaan projektin konfiguraation eikä kiinteän luvun perusteella: näytteenkehitys (1–2 kpl) varmistaa rakenteen, pilottitilaukset (20–50 kpl) testaavat markkinaa olemassa olevilla alustoilla, vakiomäärän tuotanto tuottaa 90–100+ kpl erää kohti täydestä 150 m drop-stitch-rullasta, ja pieni co-branding-erä alkaa 5–10 kpl:stä. Näytteet lähetetään 7–12 päivässä; sarjatuotanto kestää 25–35 päivää vahvistetun tilauksen ja käsirahan jälkeen, sekä 15–20 päivää lisää, kun tarvitaan uusia työkaluja.'
+  verified: 'September 2026'
+
+content_html: |
+  <h2>1. Esikarsinta: mitä tehtaassa pitää katsoa</h2>
+
+  <h3>Vaatimustenmukaisuustodistukset</h3>
+  <ul>
+    <li><strong>ISO 9001:2015</strong> — Laadunjohtojärjestelmä</li>
+    <li><strong>CE-sertifiointi</strong> — Varmenna ilmoitetun laitoksen numero</li>
+    <li><strong>BSCI / SMETA / SEDEX</strong> — Sosiaalisen vastuun auditoinnit</li>
+    <li><strong>REACH / RoHS</strong> — Materiaalien vaatimustenmukaisuusvakuutukset</li>
+  </ul>
+
+  <h3>Valmistuskapasiteetti</h3>
+  <ul>
+    <li>Drop-stitch-ytimen kudonta omissa tiloissa vai ulkoistettuna</li>
+    <li>PVC-päällyste- ja laminointilinja</li>
+    <li>RF-hitsaus- ja kuumailmahitsauslaitteisto</li>
+    <li>Oma muovinvalmistus (CNC-koneistus)</li>
+    <li>Testilaboratorio (painetestit, UV-vanheneminen, vetotestit)</li>
+  </ul>
+
+  <h3>Kokemuksen varmennus</h3>
+  <ul>
+    <li>Vuosia puhallettavien vesialusten valmistuksessa (vähintään 5 vuotta)</li>
+    <li>Insinöörien määrä henkilöstössä</li>
+    <li>Nykyiset OEM/ODM-asiakkaat (pyydä referenssejä)</li>
+    <li>Vientikohderet – toimitatteko jo kohdemarkkinalle?</li>
+  </ul>
+
+  <h2>2. Laadunvalvonnan menettelyt</h2>
+  <p>Saapuvan materiaalin laadunvarmistus: vetolujuus (ASTM D751 tai ISO 1421), repäisnkestävyys (ASTM D2261 tai ISO 4674), tarttumislujuus, UV-vanhenemisen pistekokeet.</p>
+  <p>Prosessin sisäinen laadunvarmistus: sauman lujuuden seuranta 50 kappaleen välein, venttiilin vääntövoiman varmennus, drop-stitch-lankatiheyden tarkistukset, mitoitustarkistukset CAD-piirustuksia vasten.</p>
+  <p>Lopputarkastus: 100 % täyttöpitotesti (24 tuntia, enintään 0.50 PSI:n lasku), silmämääräinen tarkastus, venttiilin toimintatesti, satunnaisnäytteiden testit (AQL 2.5 tai 4.0 ISO 2859 mukaisesti).</p>
+
+  <h2>3. Vaatimustenmukaisuusasiakirjojen tarkistuslista</h2>
+  <ul>
+    <li>Vaatimustenmukaisuusvakuutus (DoC), joka viittaa oikeaan EU-direktiiviin</li>
+    <li>Ilmoitetun laitoksen CE-todistus</li>
+    <li>Akkreditoidun laboratorion testiraportti</li>
+    <li>Materiaalin turvallisuustiedotteet (MSDS)</li>
+    <li>REACH-vaatimustenmukaisuusvakuutus</li>
+    <li>Materiaaliluettelo toimittajan jäljitettävyydellä</li>
+    <li>Tehtaan tarkastusraportti</li>
+  </ul>
+
+  <h2>4. MOQ-neuvottelut</h2>
+  <p>Puhallettavien SUP-lautojen MOQ:t määrä tuotantoreitti ja projektin konfiguraatio, eivät arvailu. Kaikki Vatradin OEM/ODM-projektit käyvät läpi kolme erillistä määrävaihetta — näyte, pilotti ja volyymi — ja koko laskentalogiikka on selitetty <a href="/fi/oem-moq-guide">MOQ- ja joustavan brändäyksen oppaassamme</a>:</p>
+  <table class="w-full text-sm border-collapse">
+    <thead>
+      <tr class="bg-gray-100">
+        <th class="p-3 text-left font-semibold text-gray-900 border">Tuotantoreitti</th>
+        <th class="p-3 text-left font-semibold text-gray-900 border">MOQ</th>
+        <th class="p-3 text-left font-semibold text-gray-900 border">Aikataulu</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td class="p-3 border font-medium">Näytteenkehitys (suunnittelukohtainen)</td><td class="p-3 border">1 – 2 kpl</td><td class="p-3 border">Näytteet 7 – 12 päivässä</td></tr>
+      <tr><td class="p-3 border font-medium">Pilottitilaus (olemassa olevat alustat)</td><td class="p-3 border">20 – 50 kpl</td><td class="p-3 border">Markkinavarmennus varastomateriaaleilla</td></tr>
+      <tr><td class="p-3 border font-medium">Vakiomääräerä (suunnittelukohtainen)</td><td class="p-3 border">90 – 100+ kpl</td><td class="p-3 border">25 – 35 päivää tilauksen ja käsirahan jälkeen</td></tr>
+      <tr><td class="p-3 border font-medium">Täysin räätälöity muovi / private label</td><td class="p-3 border">Vahvistetaan projektikonfiguraatiosta</td><td class="p-3 border">Lisää 15 – 20 päivää työkaluille</td></tr>
+    </tbody>
+  </table>
+  <p>Näyte-, pilotti- ja volyymituotannon määrät ovat erilaiset: näytteenkehitys (1–2 kpl) varmistaa rakenteen, pilottitilaukset (20–50 kpl) testaavat markkinaa olemassa olevilla alustoilla, ja vakiomäärän tuotanto tuottaa 90–100+ kpl erää kohti täydestä 150 m drop-stitch-rullasta — ja volyymihintatierot kasvavat tilauksen koon mukaan. Pyydä MOQ-laskelma, toimitusaika ja maksuehdot juuri sinun laudoillesi kirjallisesti ennen kuin sitoudut toimittajaasi.</p>
+
+  <h2>5. Logistiikka ja toimitus</h2>
+  <p>Yleiset Incotermit: <strong>FOB</strong> (tehdas toimittaa lähtösatamaan – yleisin), <strong>EXW</strong> (ostaja järjestää kaiken kuljetuksen tehtaan ovelta), <strong>CIF</strong> (tehdas maksaa rahti- ja vakuutuskulut määräasatamaan).</p>
+  <p>Puhallettavat tuotteet ovat kevyitä ja suuritilavuuksisia – kulutuskustauksen määrää usein tilavuuspaino (DIM). Pyydä tyhjiöpakattu pakkaus, joka pienentää tilavuutta 50–60 %. Merikuljetus Kiinasta EU:hin kestää tyypillisesti 25–35 päivää ja 7–12 päivää Yhdysvaltain länsirannikolle — 25–35 päivän tuotantoajan päälle.</p>
+
+  <h2>6. Yleiset sudenkuopat</h2>
+  <ul>
+    <li><strong>Ei tehtasauditointia:</strong> Tee tai teetätä aina kolmannen osapuolen auditointi (QIMA, SGS, Bureau Veritas)</li>
+    <li><strong>Vain suulliset spesifikaatiot:</strong> Yksityiskohtainen tekninen spesifikaatio-arkki, jonka molemmat osapuolet allekirjoittavat</li>
+    <li><strong>Näytteen hyväksynnän ohittaminen:</strong> Kirjallinen hyväksyntä näytteille ennen sarjatuotantoa</li>
+    <li><strong>Ei laadunvarmistusta tuotannon aikana:</strong> Kolmannen osapuolen tarkastus tuotannon aikana (DUPRO) ja ennen lähetystä (PSI)</li>
+    <li><strong>Vaatimustenmukaisuuden sivuuttaminen:</strong> Varmenna CE-merkintä (direktiivi 2013/53/EU) ja markkinalaiset asiakirjat ennen tuotantoa</li>
+  </ul>
+
+  <h2>7. Miksi Vatrad</h2>
+  <p>Vatrad on valmistanut OEM/ODM-puhallettavia SUP-laudoja vuodesta 2012. 12,500 m&sup2; ISO 9001 -sertifioidulla laitoksella, 25+ insinöörillä ja EU-markkinoille tarkoitetun CE-sertifioinnin kanssa (laajuus vahvistetaan projektikohtaisesti) täytämme kaikki tämän oppaan kriteerit. Tarjoamme uusille kumppaneille kokeilutilauksen MOQ:t ja täydet vaatimustenmukaisuusasiakirjapaketit.</p>
+  <p>Tutustu <a href="/fi/oem-manufacturing">puhallettavien SUP-lautojen OEM/ODM-valmistuspalveluihimme</a> tai kierrä <a href="/fi/factory">12,500 m&sup2; tehtaan lattia</a> nähdäksesi koneet ja laadunvalvontaprosessit edellä kuvattujen vaiheiden takana.</p>
+
+cta:
+  title: 'Valmis aloittamaan hankinta?'
+  subtitle: 'Ota yhteyttä OEM-tiimiimme keskustellaksesi projektisi vaatimuksista.'
+  button_text: 'Pyydä tarjous'
+  button_link: /fi/contact

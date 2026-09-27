@@ -1,0 +1,81 @@
+meta:
+  title: 'PVC ja Hypalon — puhallettavien SUP-lautojen materiaaliopas | {SITE}'
+  description: 'PVC ja Hypalon puhallettavien SUP-lautojen rakenteessa: UV-kestävyys, kestävyys, korjattavuus, paino, hinta ja se materiaali, jota SUP-laudat oikeasti käyttävät.'
+  author: 'iSupfactory'
+  datePublished: '2026-08-04'
+  dateModified: '2026-08-07'
+back_text: 'Takaisin tutkimukseen'
+
+hero:
+  tagline: 'Materiaalit'
+  title: 'PVC ja Hypalon — puhallettavien SUP-lautojen materiaaliopas'
+  subtitle: '10 min lukuaika'
+
+answer:
+  label: 'Suora vastaus'
+  text: 'SUP-lautojen kohdalla PVC voittaa hinnassa, painossa, painettavuudessa ja RF-hitsattavassa automatisoinnissa — 1,680 DTEX:n kolmikerroksinen päällystetty meri-PVC UV-stabilisoijilla on alan standardi. Hypalon/CSM kestää aurinkoa ja kemiallisia aineita pidempään, mutta maksaa noin 3&ndash;5&times; enemmän, painaa enemmän ja liimataan käsin, mikä tekee siitä nykyään harvinaisen SUP-lautoissa.'
+  verified: 'September 2026'
+
+content_html: |
+  <h2>Materiaalien yleiskatsaus</h2>
+
+  <h3>PVC (polyvinyylikloridi)</h3>
+  <p>PVC on puhallettavien SUP-lautojen standardimateriaali. Lautarakenteessa se vahvistetaan yleensä polyesteriverkolla (1,100 – 1,680 DTEX) ja päällystetään molemmilta puolilta, minkä jälkeen se sulahitsataan drop-stitch-ytimen ympäri. Nykyaikaiset meri-PVC-seokset sisältävät UV-stabilisoijia ja pehmittäjiä, jotka parantavat joustavuutta ja säävastetta, ja näin rakennetut laudat kestävät 12 – 15 PSI:n käyttöpaineen.</p>
+
+  <h3>Hypalon (CSM – kloorisulfonoitu polyeteeni)</h3>
+  <p>Hypalon on synteettisen kumin seos (sitä valmistetaan nykyään yleisnimellä CSM sen jälkeen, kun DuPont lopetti Hypalon-tavaramerkin). Se on tunnettu poikkeuksellisesta UV- ja otsonikestävyydestään, mikä tekee siitä ammattilaisten ja kaupallisten puhallettavien veneputkien suosikk materiaalin, kun ne ovat pitkään suorassa auringonvalossa. SUP-lautoissa Hypalonia käytetään harvoin — laudat vaativat suurpaineisen ja mitoiltaan vakaan kannen, jonka PVC- ja drop-stitch-rakenne antaa murto-osassa painosta.</p>
+
+  <h2>Vertailutaulukko</h2>
+  <table class="w-full text-sm border-collapse">
+    <thead>
+      <tr class="bg-gray-100">
+        <th class="p-3 text-left font-semibold text-gray-900 border">Ominaisuus</th>
+        <th class="p-3 text-left font-semibold text-gray-900 border">PVC</th>
+        <th class="p-3 text-left font-semibold text-gray-900 border">Hypalon (CSM)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td class="p-3 border font-medium">UV-kestävyys</td><td class="p-3 border">Hyvä (stabilisoijilla)</td><td class="p-3 border">Erinomainen (luontainen)</td></tr>
+      <tr><td class="p-3 border font-medium">Hankautumiskestävyys</td><td class="p-3 border">Hyvä</td><td class="p-3 border">Erittäin hyvä</td></tr>
+      <tr><td class="p-3 border font-medium">Vetolujuus</td><td class="p-3 border">3,000 – 5,000 N/5cm</td><td class="p-3 border">2,500 – 4,000 N/5cm</td></tr>
+      <tr><td class="p-3 border font-medium">Paino (per m&sup2;)</td><td class="p-3 border">850 – 1,200 g</td><td class="p-3 border">1,100 – 1,500 g</td></tr>
+      <tr><td class="p-3 border font-medium">Kylmätaivutus (matala lämpötila)</td><td class="p-3 border">-30&deg;C</td><td class="p-3 border">-20&deg;C</td></tr>
+      <tr><td class="p-3 border font-medium">Korjattavuus</td><td class="p-3 border">Helppoa (kuumahitsaus tai liima)</td><td class="p-3 border">Vaatii erityisen CSM-liiman</td></tr>
+      <tr><td class="p-3 border font-medium">Yhdistämismenetelmä</td><td class="p-3 border">RF-hitsaus, kuumailmahitsaus</td><td class="p-3 border">Käsinliimaus (kontaktiliima)</td></tr>
+      <tr><td class="p-3 border font-medium">Hinta (materiaali)</td><td class="p-3 border">$8 – $15 / m&sup2;</td><td class="p-3 border">$20 – $40 / m&sup2;</td></tr>
+      <tr><td class="p-3 border font-medium">Käyttöikä (troopinen aurinko)</td><td class="p-3 border">5 – 8 vuotta</td><td class="p-3 border">10 – 15 vuotta</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Kumpi kannattaa valita?</h2>
+
+  <h3>Valitse PVC, kun:</h3>
+  <ul>
+    <li>Valmistat puhallettavia SUP-laudoja (PVC + drop-stitch on alan standardi)</li>
+    <li>Laudan paino ratkaisee — PVC on 15 – 25% kevyempi</li>
+    <li>Tarvitset joustavuutta kylmässä alle -20&deg;C</li>
+    <li>Haluat laajemman valikoiman värejä ja pintakäsittelyjä</li>
+    <li>Tarvitset suuren käyttöpaineen (12 – 15 PSI) jäykän ja vakaan kannen vuoksi</li>
+  </ul>
+
+  <h3>Valitse Hypalon, kun:</h3>
+  <ul>
+    <li>Tuote on vuosikausia kiinnitettynä tai säilytetään suorassa auringonvalossa</li>
+    <li>Toimit troopisessa tai erittäin UV-_altteessa ympäristössä, jossa säilytystilaa ei ole</li>
+    <li>Suurin kestävyys ja käyttöikä ovat tärkeämpiä kuin paino ja hinta</li>
+    <li>Valmistat ammattilais- tai kaupallisia aluksia, kuten veneputkia</li>
+    <li>Hankautuminen hiekasta, betonista tai laitureista on keskeinen huolenaihe</li>
+  </ul>
+
+  <h2>Erot valmistuksessa</h2>
+  <p>PVC-laudat valmistetaan RF- (radiotaajuus) hitsauksella tai kuumailmahitsauksella, joka muodostaa päällystettyjen kangaskerrosten välille molekyylisidoksen. Tämä mahdollistaa automatisoidun ja tasaisen tuotannon suurella tuotantokapasiteetilla sekä tarkat saumalujuudet suurpaineisissa laudoissa. Hypalon kootaan käsinliimauksella kontaktiliimalla; jokainen sauma rullataan ja puristetaan käsin, mikä tekee Hypalon-tuotannosta työläisemmän ja sopii paremmin matalapaineisten putkien rakenteisiin.</p>
+
+  <h2>Vatradin suositus</h2>
+  <p>Puhallettavien SUP-lautojen kohdalla moderni laadukas UV-stabilisoijilla varustettu PVC tarjoaa parhaan tasapainon hinnan, painon, suorituskyvyn ja kestävyyden välillä. Vatrad rakentaa jokaisen SUP-laudan 1,680 DTEX:n meri-PVC:stä, kolmikerroksisella pinnoitteella ja drop-stitch-ytimellä, joka on mitoitettu 15 PSI:n paineelle — ja jokainen kangaserä testataan erikseen PVC-kangaslaboratoriossamme ennen tuotantoa. Hypalon on pyynnöstä saatavana kaupallisiin aluksiin ja erikoiskäyttöön, ja se valmistetaan erikseen kaupallisen merituotantolinjamme kautta.</p>
+  <p>Materiaalivalinta muokkaa tuotelinjasi kustannuksia, painoa ja kestävyyttä - kerro meille kohdemarkkinastasi, niin <a href="/fi/oem-manufacturing">määritämme OEM-projektillesi oikean materiaalin</a>, joka testataan <a href="/fi/randdcenter/quality-inspection-lab">materiaalitestauslaboratoriossamme</a>.</p>
+
+cta:
+  title: 'Tarvitsetko apua materiaalien valinnassa?'
+  subtitle: 'Tiimimme neuvoo PVC:n ja Hypalonin valinnasta juuri sinun käyttökohteeseesi.'
+  button_text: 'Kysy asiantuntijoiltamme'
+  button_link: /fi/contact

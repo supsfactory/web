@@ -1,0 +1,94 @@
+meta:
+  title: 'SUP-runkosuunnittelu — CAD- ja FEA-suunnittelu'
+  description: 'SUP-lautojen suunnittelustudio: CAD-suunnittelu, drop-stitch-rakenteiden elementaaranalyysi (FEA) sekä räätälöidyt laudan muodot OEM-projekteihin.'
+back_text: 'Takaisin tuotekehityskeskukseen'
+home_label: 'Koti'
+
+hero:
+  tagline: 'Laboratorio 02'
+  title: 'Laudansuunnittelustudio'
+  subtitle: 'Digitaalinen simulointi, rakenteellinen osaaminen, räätälöity laudan suunnittelu'
+  image: 'https://assets.isupfactory.com/images/sups/factory/isupfactory-design-discussion.webp'
+  image_alt: 'Vatradin SUP-lautojen suunnittelun CAD-työasema'
+
+answer:
+  label: 'Suora vastaus'
+  text: 'Räätälöidyt SUP-laudat suunnitellaan omissa tiloissamme SolidWorks 3D-pintojen, ANSYS FEA:n ja CFD:n avulla — jokainen lauta simuloidaan jännitysjakauman ja kansijäykkyyden osalta pakollisella varmuuskertoimella ≥ 2.5 ennen prototyyppivaihetta. Räätälöidyn muodon prototyyppi vie 7–12 päivää; täysi räätälöity muotityökalusto lisää 15–20 päivää 25–35 päivän tuotantoon, ja vähimmäiseräkoko vahvistetaan projektin konfiguroinnin mukaan (katso vähimmäiseräkoko-oppaamme).'
+  verified: 'Syyskuu 2026'
+
+intro: 'SUP-laudan muoto — sen kaarevuus, kylkilinjan profiili, kärki ja häntätilavuus — määrää, miten lauta meloo, kääntyy ja kulkee suoraan. {SITE.name} -n Laudansuunnittelustudiossa yhdistämme CAD-pinnat, drop-stitch-rakenteiden elementaaranalyysin (FEA) ja tuotantokokemuksen, jotta laudat voidaan optimoida aiottua käyttöä varten: allround-vakauteen, touringin liu’taan tai surfausominaisuuksiin. Jokainen räätälöity lauta lähtee määrityksestäsi, ei valikoiman geneerisestä muodosta.'
+
+content_html: |
+  <h2>Missä lujuus kohtaa hydrodynamiikan</h2>
+  <p>Puhallettava SUP-lauta on drop-stitch-rakenne: tuhannet polyesterilangat yhdistävät ylä- ja ala-PVC-kalvot pitäen kannen tasaisena 12–15 PSI:n paineessa, kun ta kylkilinjan ja kärjen geometria säätelee laudan vuorovaikutusta veden kanssa. Suunnittelemme 3D-muodon, simuloidaan täytetyn rakenteen ja validoimme tuloksen omissa tiloissamme ennen kuin yhtään näytettä leikataan.</p>
+
+  <h2>Suunnittelutyökalut ja standardit</h2>
+  <p>Digitaalinen suunnitteluympäristömme sisältää:</p>
+  <table>
+    <thead><tr><th>Ominaisuus</th><th>Ohjelmisto / työkalu</th><th>Käyttötarkoitus</th></tr></thead>
+    <tbody>
+      <tr><td>3D-parametrinen mallinnus</td><td>SolidWorks Professional</td><td>Laudan pinta, kaarevuusviiva, kylkilinjan profiili, kahvan ja evän integrointi</td></tr>
+      <tr><td>Elementaaranalyysi</td><td>ANSYS Mechanical</td><td>Drop-stitch-ytimen jännityskartta, kannen jäykkyys kuormituksessa, kahvakohtien vahvistus</td></tr>
+      <tr><td>Laskennallinen virtausdynamiikka</td><td>Ansys Fluent</td><td>Hydrodynaamisen vastuksen ennustus, liu’un trimin optimointi</td></tr>
+      <tr><td>Laminointitekniikka</td><td>ESAComp</td><td>PVC-kerrosten pinoaminen, kankaan painon valinta, painon arviointi</td></tr>
+      <tr><td>Muotin pinnan arviointi</td><td>Moldex3D</td><td>RF-hitsaustyökalujen geometrian arviointi</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Suunnittelutyömme</h2>
+  <p>Jokainen laudan suunnittelu, olipa kyseessä vakiomalli tai täysin räätälöity projekti, käy läpi tiukan viisivaiheisen prosessin:</p>
+  <ol>
+    <li><strong>Konsepti ja vaatimusten kerääminen</strong> — Määritämme melaajan painoalueen, aiotun käytön (allround, touring, surf, jooga, vuokrauksen kalusto), pituus-, leveys- ja paksuustavoitteet sekä mahdolliset erikoisominaisuudet (kuormajärjestelmät, kansipatjat, kiinnityspisteet).</li>
+    <li><strong>3D-pinnat ja tilavuuslaskenta</strong> — Laudan muoto mallinnetaan SolidWorksissa ja tarkistetaan tilavuusjakauma, vedenpoisto ja vakaus kohdemelaajan painoa vasten.</li>
+    <li><strong>Rakenteellinen FEA</strong> — Täytetty lauta analysoidaan seisomakuormituksessa, staattisesti (melaaja keskellä, 100 kg) ja dynaamisesti (aaltoisku kylkilinjalla). Jännityskäyrät arvioidaan; varmuuskerroin ≥ 2.5 on pakollinen.</li>
+    <li><strong>CDF-vastuksen optimointi</strong> — Runko simuloidaan kolmessa kuormitustilanteessa ja viidellä nopeudella. Kastunut pinta, trimikulma ja jäännösvastus pienennetään iteratiivisesti.</li>
+    <li><strong>Suunnitteluarviointi ja vapautus</strong> — Koko suunnittelupaketti (3D-malli, FEA-raportti, CFD-raportti, painoarvio, paneelien leikkaussuunnitelma) arvioidaan vanhemman insinöörimme toimesta ennen vapauttamista prototyyppiverstaalle.</li>
+  </ol>
+
+  <div class="not-prose my-10 p-6 rounded-xl bg-gray-50 dark:bg-gray-900 border border-gray-200 dark:border-gray-800">
+    <p class="text-sm font-semibold text-gray-500 mb-3 uppercase tracking-wider">FEA-tulokset — 11''0 allround-lauta (32'' leveä, 6'' paksu)</p>
+    <div class="grid grid-cols-2 gap-4 text-sm">
+      <div class="p-4 rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-950">
+        <span class="block text-2xl font-bold text-blue-600">2.8 : 1</span>
+        <span class="text-gray-500">Varmuuskerroin 120 kg:n seisomakuormituksessa</span>
+      </div>
+      <div class="p-4 rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-950">
+        <span class="block text-2xl font-bold text-blue-600">0 mm</span>
+        <span class="text-gray-500">Kannen taipuma 15 PSI:n paineessa, kuormittamatta</span>
+      </div>
+      <div class="p-4 rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-950">
+        <span class="block text-2xl font-bold text-blue-600">3.2 mm</span>
+        <span class="text-gray-500">Kannen suurin taipuma 120 kg:n melaajalla</span>
+      </div>
+      <div class="p-4 rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-950">
+        <span class="block text-2xl font-bold text-blue-600">15 PSI</span>
+        <span class="text-gray-500">Analyysipaine — alustan työpaine</span>
+      </div>
+    </div>
+  </div>
+
+  <h2>Räätälöinti: sinun laudasi, sinun sääntösi</h2>
+  <p>Yhdelläkään brändillä ei ole identtisiä vaatimuksia. Vuokrauskalusto tarvitsee leveän ja vakkaan allround-laudan vahvistetuilla kylkilinjoilla; touring-brändi tarvitsee pidemän, suuren vedenpoiston omaavan kärjen ja kuormien kiinnityspisteet; surffaukseen painottuva sarja tarvitsee kapeaksi vedetyn häntä ja kaarevuusprofiilin. Emme pakota tuotevalikoimaasi valmiisiin muotoihin — suunnittelemme lähtien määrityksestäsi ylöspäin.</p>
+  <p>Esimerkkejä viimeaikaisista räätälöidystä laudan suunnitteluprojekteista:</p>
+  <ul>
+    <li>14′ touring-SUP kestävyysmelontabrändille, jossa on suuren vedenpoiston kärki ja upotettu kuormakansi (+15% vedenrajapituutta liu'taa varten).</li>
+    <li>10′6″ leveä allround-lauta lomakeskuksen kalustolle, jossa on kaksikerroksiset kylkilinjat ja 220 lb nimelliskantavuus.</li>
+    <li>9'' surf-SUP, jossa on kapeaksi vedetty häntä ja progressiivinen kaarevuus, kehitetty erilliselle surffakoulun tuotesarjalle.</li>
+  </ul>
+
+  <h2>Insinöörimme</h2>
+  <p>Studion johtaa vanhempi tuotetekniikan insinööri, jolla on 14 vuoden kokemus puhallettavien tuotteiden suunnittelusta, ja häntä tukevat kaksi mekaanikkoinsinööriä, jotka ovat erikoistuneet FEA:an ja CFD:hen. Kaikilla kolmilla on kansainvälisesti tunnustettujen yliopistojen insinööritutkinnot, ja tiimi työskentelee suoraan tuotantolattiamme kanssa varmistaakseen, että jokainen suunnitelma on valmistettavissa konttikoonteossa.</p>
+
+  <h2>Tee seuraavasta laudastasi kanssa yhteistyötä</h2>
+  <p>Ensimmäisestä konseptipiirroksesta lopulliseen jännitysraporttiin Laudansuunnittelustudiomme on kumppanisi luodessa laudan, joka ei vain ole valmistettu — vaan suunniteltu. Sijoitamme simulointitunnit etukäteen, jotta jokainen hitsi, jokainen laminaattikerros ja jokainen kylkilinjan kaari on olemassa syitä varten.</p>
+  <p>Olipa kyseessä pieni muutos olemassa olevaan malliin tai täysin puhtaan suunnittelun aloitus, olemme valmiit keskustelemaan vaatimuksistasi.</p>
+
+cta:
+  title: 'Aloita laudan suunnittelukeskustelu'
+  subtitle: 'Kerro kohdemelaajistasi ja käyttötapauksestasi, niin ehdotamme suunnittelupolun.'
+  actions:
+    - variant: primary
+      text: Ota yhteyttä insinööritiimiimme
+      href: /fi/contact#project-brief
+    - text: Takaisin tuotekehityskeskukseen
+      href: /fi/randdcenter

@@ -1,0 +1,85 @@
+meta:
+  title: 'SUP-kokojen ja teknisten tietojen opas — puhallettavat SUP-laudat | {SITE}'
+  description: 'Mitat, kantavuudet ja suositellut käyttötarkoitukset jokaiselle Vatrad-laudalle. Löydä tarpeisiisi sopiva puhallettavan SUP-laudan koko.'
+  dateModified: '2026-08'
+  keywords:
+    - 'sup-kokooopas'
+    - 'SUP-laudan mitat'
+    - 'puhallettavan SUP-määritykset'
+    - 'SUP-kokotaulukko'
+hero:
+  title: Kokojen ja teknisten tietojen opas
+  subtitle: Mitat, kantavuudet ja suositellut käyttötarkoitukset jokaiselle Vatrad-tuotteelle.
+
+categories:
+  inflatable: Puhallettavat SUP-laudat, jotka on suunniteltu siirrettäviksi suorituskyvystä tinkimättä. Sovita oikea koko painoasi ja melontatyyliisi.
+  sup: Stand-up paddleboardit touring-käyttöön, joogaan, kuntoon ja vapaa-ajan melontaan. Valitse pituuden ja melojan painon mukaan.
+  accessory: SUP-lautaa täydentävät lisävarusteet ja turvallisuusvälineet. Yleismitoitus useilla vaihtoehdoilla.
+
+table:
+  headers:
+    product: Tuote
+    length: Pituus
+    width: Leveys
+    weight: Paino
+    max_load: Suurin kuorma
+    best_for: Paras käyttöön
+  rows:
+    - product: 'Allround-SUP (Explorer 11 ft)'
+      length: '11''0" (335 cm)'
+      width: '32" (81 cm)'
+      weight: 19 lbs (8.6 kg)
+      max_load: 220 lbs (100 kg)
+      best_for: Aloittelijat, vapaa-aika, perheiden melonta järvillä ja tyynillä joilla
+    - product: 'Allround-SUP (10''6")'
+      length: '10''6" (320 cm)'
+      width: '32" (81 cm)'
+      weight: 18 lbs (8.2 kg)
+      max_load: 200 lbs (90 kg)
+      best_for: Kevyemmät melojat, jooga ja yleinen vapaa-aikakäyttö
+    - product: 'Touring-SUP (12 ft)'
+      length: '12''0" (366 cm)'
+      width: '30" (76 cm)'
+      weight: 23 lbs (10.4 kg)
+      max_load: 260 lbs (118 kg)
+      best_for: Matkamelonta, nopeus ja rannikkotouring
+    - product: 'Touring-SUP (14 ft)'
+      length: '14''0" (427 cm)'
+      width: '28" (71 cm)'
+      weight: 26 lbs (11.8 kg)
+      max_load: 275 lbs (125 kg)
+      best_for: Kilpailu ja pitkän matkan ekspeditiomelonta
+    - product: 'Surf-SUP (8–10 ft)'
+      length: '8''0"–10''0" (244–305 cm)'
+      width: '30" (76 cm)'
+      weight: 17 lbs (7.7 kg)
+      max_load: 180 lbs (82 kg)
+      best_for: Aallonajo ja ketterä surffaus
+    - product: 'Jooga- / kunto-SUP (11 ft)'
+      length: '11''0" (335 cm)'
+      width: '34" (86 cm)'
+      weight: 22 lbs (10 kg)
+      max_load: 240 lbs (109 kg)
+      best_for: Jooga, kuntoilu ja vakaa vapaa-ajan melonta
+
+how_to_choose:
+  title: Oikean koon valinta
+  cards:
+    - title: SUP-laudat
+      description: Valitse pituus painosi ja aiotun käytön mukaan. Leveämmät laudat (32"+) tarjoavat enemmän vakautta. Pidemmät laudat (11-12 ft) kulkevat touring-käytössä paremmin. Raskaat melojat tarvitsevat suuremman tilavuuden laudat.
+    - title: Touring-SUP-laudat
+      description: Pidemmät laudat (11–12 ft) sopivat parhaiten matkojen kulkemiseen ja touring-käyttöön. Leveämmät laudat (32"+) tarjoavat enemmän vakautta. Tarkista painoraja koko kuorman osalta varusteet mukaan lukien.
+    - title: Allround-SUP-laudat
+      description: Valitse pituus melojan painon ja aiotun käytön mukaan. Allround-laudat sopivat vapaa-aikaan, kuntoon ja joogaan. Pienemmät laudat ovat ketterämpiä.
+
+cta:
+  title: 'Selaa lautoja koon mukaan tai puhu insinöörin kanssa'
+  subtitle: 'Vertaa touring-, allround- ja joogamalleja tuotevalikoimassamme — tai lähetä melojiesi painojakauma, niin suosittelemme projektillesi oikeat koot.'
+  actions:
+    - variant: primary
+      text: Selaa SUP-tuotteita
+      href: /fi/products
+    - text: Lisää melonnan tietoa
+      href: /fi/knowledge
+    - text: Näin lautoja rakennetaan
+      href: /fi/factory/process

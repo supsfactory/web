@@ -1,0 +1,81 @@
+meta:
+  title: 'Varmenna SUP-tehtaamme | Vieraile, auditointi ja tarkasta Qingdaossa'
+  description: 'Näin varmennat SUP-tehtaan ennen sitoutumista: ajoita tehtavierailu, tee riippumaton auditointi tai tarkastus ja tarkista laadunvalvontakirjat, erien jäljitettävyys ja sertifioinnit Qingdaossa Kiinassa.'
+  dateModified: '2026-09-23'
+  keywords:
+    - 'varmenna SUP-tehdas'
+    - 'SUP-tehtaan vierailu Qingdaossa'
+    - 'SUP-tehtaan auditointi'
+    - 'kolmannen osapuolen SUP-tarkastus'
+    - 'puhallettavien melojen tehtaan varmennus'
+
+hero:
+  tagline: Tehtaan varmennus
+  title: 'Varmenna SUP-tehdas ennen kuin sitoudut'
+  subtitle: 'Tehtaaseen ei pidä luottaa suoraan. Ajoita vierailu, tee riippumaton auditointi tai tarkastus ja tarkista sertifikaatit, laadunvalvontakirjat ja erien jäljitettävyys ennen ensimmäistä tilaustasi — kaikki tämä on vakio-ostajien käytettävissä.'
+
+answer:
+  label: 'Suora vastaus'
+  text: 'iSupfactoryn laitos on 12,500 m²:n laitos Qingdaossa, Shandongissa, Kiinassa, jossa työskentelee 350+ työntekijää, 4 automaattista tuotantolinjaa ja 4 erikoistettua työpajaa. Ostajat voivat varmentaa sen neljällä tavalla: vierailla laitoksessa ympäri vuoden, järjestää yhteisauditointi tai pyytää auditoinnin (BSCI, ISO 9001), teettää kolmannen osapuolen tarkastuksen (SGS, TÜV, BV, Intertek; ISO 2859-1 Level II -näytteistys) tai tarkistaa dokumentoidut todisteet — sertifikaatit, 100 kohdan kokoonpanotarkistuslistat, 18.0 PSI:n 24 tunnin paineapitotestin raportit ja 10 vuoden ERP-erien jäljitettävyys sarjanumerokohtaisesti.'
+  verified: 'September 2026'
+
+features:
+  title: Tapoja varmentaa tehdas
+  subtitle: 'Neljä varmennusreittiä, jotka projektisi asiantuntija järjestää — valitse yksi tai yhdistä useita.'
+  items:
+    - title: 'Ajoita tehtavierailu'
+      description: 'Isännöimme ostovierailuita Qingdaossa ympäri vuoden, ja lentokentältä nouto sekä kierto tehtaan lattialla järjestetään aikataalusi mukaan. NDA on tervetullut milloin tahansa.'
+      icon: 'tabler:map-pin'
+    - title: 'Kolmannen osapuolen auditointi'
+      description: 'BSCI- ja ISO 9001 -auditointiraportit ovat pyynnöstä saatavilla, ja yhteisauditoinnit ovat tervetulleita, jolloin voit kiertää lattiaa auditointijan kanssa.'
+      icon: 'tabler:clipboard-check'
+    - title: 'Riippumaton tarkastus'
+      description: 'Ennen lähetystä tai tuotannon keskellä tehtävä tarkastus SGS:n, TÜV:n, BV:n tai Intertekin toimesta ISO 2859-1 Level II -näytteistyksellä — kustannuksellasi, me järjestämme, raportti toimitetaan suoraan sinulle.'
+      icon: 'tabler:zoom-check'
+    - title: 'Asiakirjojen tarkastus'
+      description: 'Sertifikaattikopiot, vastaanotto-, prosessi- ja lopputarkastuskirjat, paineapitotestin raportit sekä erien jäljitettävyystiedot jaetaan ennen kuin sitoudut.'
+      icon: 'tabler:file-search'
+    - title: 'Live-videokierto'
+      description: 'Etkö voi vielä matkustaa? Kävelemme tuotantolattialla live-puhelussa — drop-stitch-käsittely, hitsaus, painatus, kokoonpano, testaus ja pakkaus — ennen kuin teet tilauksen.'
+      icon: 'tabler:device-camera-phone'
+
+faq_section:
+  tagline: Varmennuskysymykset
+  title: Tehtaan varmennus ja tarkastus kysymyksiin
+  questions:
+    - q: Missä tehdas sijaitsee?
+      a: 'Laitos sijaitsee Qingdaossa, Shandongissa, Kiinassa — 12,500 m²:n laitos, jossa on 350+ työntekijää, 4 automaattista linjaa ja 4 erikoistettua työpajaa. Osoite ja kartta jaetaan varmennetuille ostajille, kun ajoitamme vierailun, ja toimitusosoite näkyy sopimuksissa, BSCI-auditoinnissa ja vienti-asiakirjoissa.'
+    - q: Mitä tehdas valmistaa?
+      a: 'Puhallettavia SUP-laudoja — rungon suunnittelusta ja drop-stitch-ytimen käsittelystä kuvioihin, kokoonpanoon, testaukseen ja vientipakkauson. Kaikki SUP-laudojen ydintoiminnot tapahtuvat saman katon alla.'
+    - q: Mitä prosesseja tehdään omassa talossa?
+      a: 'Rungon suunnittelu, mitoitustekniikka, drop-stitch-ytimen käsittely, RF-hitsaus, kuvioiden painatus, EVA-astinlevyn leikkaus, oma muottityö, kokoonpano, testaus ja pakkaus tehdään kaikki omassa talossa. Lisävarusteet ja osa raaka-aineista tulevat sertifioiduilta toimittajilta ja kootaan omassa talossamme jäljitettävyyden vuoksi.'
+    - q: Voivatko ostajat vierailla tehtaalla?
+      a: 'Kyllä. Ostovierailuja isännöidään ympäri vuoden Qingdaossa. Nouto Qingdaon Jiaodongin kansainväliseltä lentokentältä ja koko tehtaanlattikierros järjestetään projektisi asiantunnan toimesta.'
+    - q: Voivatko ostajat järjestää kolmannen osapuolen tarkastuksen?
+      a: 'Kyllä. SGS:n, TÜV:n, BV:n ja Intertekin tarkastukset ovat tervetulleita ennen tuotantoa tai sen aikana. Ennen lähetystä tehtävässä tarkastuksessa käytetään ISO 2859-1 Level II -näytteistystä, ja raportti lähetetään sinulle suoraan tarkastuslaitokselta.'
+    - q: Voivatko ostajat pyytää laadunvalvonta-asiakirjoja?
+      a: 'Kyllä. Sertifikaattikopiot, vastaanotto-, prosessi- ja lopputarkastuskirjat, 18.0 PSI:n 24 tunnin paineapitotestin raportit sekä 100 kohdan kokoonpanotarkistuslista toimitetaan erää kohti pyynnöstä.'
+    - q: Miten erien jäljitettävyys hoidetaan?
+      a: 'Jokaisessa laudassa on sarjanumerotunnus. Eromat kirjataan 10 vuoden ERP-rekisteriin, joka yhdistää kangasrullan, materiaalit, tuotantopäivämäärän, operaattorit ja testitulokset kunkin sarjanumeron osalta.'
+    - q: Miten hyväksyttyä näytettä käytetään?
+      a: 'Hyväksytty näyte toimii tuotannon vertailukohtana. Materiaalit, mitat, kuviot, lisävarusteet ja viimeistely sovitetaan siihen jokaisella laatuportilla, jotta tuotanto vastaa hyväksymääsi.'
+    - q: Miten tuotannon laatua valvotaan?'
+      a: '7-vaiheinen laatujärjestelmä (Solmu 01–07) sisältää raaka-aineen vastaanoton, prosessi- ja lopputarkastusportit, joissa on 18.0 PSI:n 24 tunnin paineapitotesti (automaattinen hylkäys yli 0.50 PSI:n laskun yli) ja tuotantolinjan päätöspaikka ISO 2859-1 Level II -näytteistyksen mukaan.'
+
+cta:
+  title: 'Varmenna ensin, sitten sitoudu'
+  subtitle: 'Varaa laitoksen kierto tai pyydä varmennusasiakirjat — projektisi asiantuntija vastaa yhden arkipäivän kuluessa.'
+  actions:
+    - variant: primary
+      text: Ajoita tehtaan varmennuspuhelu
+      href: /fi/contact
+    - text: Todistekeskus — tehtaan näyttö
+      href: /fi/proof-center
+    - text: Tehtaan auditointitarkistuslista
+      href: /fi/factory-audit-checklist
+    - text: OEM-luottamus ja tehtaan varmennus
+      href: /fi/oem-trust-assurance
+    - text: Laatu ja testaus
+      href: /fi/quality
+    - text: Tehdas ja tuotanto
+      href: /fi/factory

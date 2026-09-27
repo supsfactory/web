@@ -1,0 +1,113 @@
+meta:
+  title: 'OEM-valmistuksen takuu ja tuotelaadun varmennus | {SITE}'
+  description: 'iSupfactoryn valmistamien puhallettavien SUP-lautojen ja merituotteiden OEM-valmistustaku: katetut viat, kesto, dokumentoidut erätiedot ja vaatimusten käsittely.'
+  keywords:
+    - 'OEM-takuu'
+    - 'valmistustakuu'
+    - 'SUP-tehtaan takuu'
+    - 'tuotelaadun varmennus'
+    - 'puhallettavan SUP-takuu'
+label: 'OEM-takuu'
+headline: 'OEM-valmistuksen takuu ja tuotelaadun varmennus'
+subtitle: 'Jokainen valmistamamme lauta rakennetaan hyväksytyn näytteen ja dokumentoidun erätietojen mukaan. Tämä takuu määrittelee, mitä takaamme brändisi alla valmistamissamme tuotteissa ja miten vaatimuksia käsitellään näiden tietojen perusteella.'
+seo:
+  headline: 'OEM-valmistuksen takuu ja tuotelaadun varmennus | iSupfactory'
+  description: 'Valmistustakuu iSupfactoryn valmistamille puhallettaville SUP-laudoille ja muille merituotteille: 5 vuoden kattavuus pääputken materiaalille, saumoille ja drop-stitch-ytimen rakenteelliselle eheydelle sekä täyttöventtiileille ja tehtaassa asennetuille lisävarusteille.'
+  datePublished: '2024-01-01'
+  dateModified: '2026-09-23'
+body: |
+  <p class="text-lg text-gray-600 dark:text-gray-400 mb-8">
+    Tämä valmistustakuu koskee iSupfactoryn valmistamia puhallettavia SUP-laudoja, kajakkeja ja merialan puhallettavia tuotteita — Qingdao Vatrad Group Co., Ltd.:n merivalmistusdivisioonan — OEM-, ODM- ja private label -ohjelmien puitteissa. Voimassaoloajankohta on tilauskirjassa sovittu varmennettava erän tuotanto- tai lähetyspäivä. Ostaja (brändin omistaja) määrittää oman markkinansa loppukäyttäjätakuupolitiikan; tämä takuu on tehtaan takaus valmistetulle tuotteelle.
+  </p>
+
+  <div class="bg-sky-50 dark:bg-gray-900 border border-sky-200 dark:border-gray-800 rounded-xl p-6 mb-10">
+    <h2 class="text-xl font-bold mb-3">Valmistustakuun kattavuus ja kesto</h2>
+    <div class="grid md:grid-cols-2 gap-4">
+      <div class="bg-white dark:bg-gray-950 rounded-lg p-4 border border-gray-200 dark:border-gray-800">
+        <h3 class="font-bold text-sky-700 dark:text-sky-400">5 vuotta</h3>
+        <p class="text-sm text-gray-600 mt-1">Pääputken materiaalin eheys (CSM/PVC)</p>
+      </div>
+      <div class="bg-white dark:bg-gray-950 rounded-lg p-4 border border-gray-200 dark:border-gray-800">
+        <h3 class="font-bold text-sky-700 dark:text-sky-400">5 vuotta</h3>
+        <p class="text-sm text-gray-600 mt-1">Lasikuiturungon rakenteellinen eheys (soveltuvin osin)</p>
+      </div>
+      <div class="bg-white dark:bg-gray-950 rounded-lg p-4 border border-gray-200 dark:border-gray-800">
+        <h3 class="font-bold text-sky-700 dark:text-sky-400">5 vuotta</h3>
+        <p class="text-sm text-gray-600 mt-1">Puhallettavan putken saumojen ilmanpitävyys</p>
+      </div>
+      <div class="bg-white dark:bg-gray-950 rounded-lg p-4 border border-gray-200 dark:border-gray-800">
+        <h3 class="font-bold text-sky-700 dark:text-sky-400">5 vuotta</h3>
+        <p class="text-sm text-gray-600 mt-1">Täyttöventtiilin toimivuus</p>
+      </div>
+      <div class="bg-white dark:bg-gray-950 rounded-lg p-4 border border-gray-200 dark:border-gray-800">
+        <h3 class="font-bold text-sky-700 dark:text-sky-400">1 vuosi</h3>
+        <p class="text-sm text-gray-600 mt-1">Tehtaassa asennetut lisävarusteet ja apuosat</p>
+      </div>
+      <div class="bg-white dark:bg-gray-950 rounded-lg p-4 border border-gray-200 dark:border-gray-800">
+        <h3 class="font-bold text-amber-700 dark:text-amber-400">1 vuosi*</h3>
+        <p class="text-sm text-gray-600 mt-1">Kaupallinen käyttö, vuokraus tai laivasto — kaikki osat</p>
+      </div>
+    </div>
+    <p class="text-xs text-gray-500 mt-4">*Kaupallinen, viranomais-, charter-, vuokraus- tai opetuskäyttö lyhentää takauksen 1 vuoteen. Kilpailu- tai kisailukäyttö mitätöi takauksen kokonaan, ellei hankintasopimuksessa ole nimenomaisesti katettu kilpailukäyttöön soveltuvaa konfiguraatiota.</p>
+  </div>
+
+  <h2>Mitä takuu kattaa</h2>
+  <h3>Pääputken materiaali (5 vuotta)</h3>
+  <p>Tehtaan takuu kattaa pääputken materiaalin poroisuuden heikkenemisen siltä osin kuin se olennaisesti heikentää tuotteen kykyä säilyttää toimintakäytössä tarvittava täyttöpaineen. Tämä koskee CSM- (Hypalon-) päällystettyä kangasta ja kaikkia valmistuksessa käytettäviä muita putkimateriaaleja.</p>
+
+  <h3>Lasikuiturungon rakenteellinen eheys (5 vuotta)</h3>
+  <p>Tuotteissa, joissa on lasikuituvahvistettu muovinen (FRP) runko, perusrakenteelle taataan suoja rakenteellisilta vaurioilta, jotka johtuvat materiaalien tai työnteon vioista.</p>
+
+  <h3>Puhallettavan putken saumojen ilmanpitävyys (5 vuotta)</h3>
+  <p>Valmistuksessa liitetyille puhallettavien putkien saumoille taataan suoja valmistusvioista, jotka johtavat olennaiseen ilmanvuotoon sauman läpi. Asianmukaisten täyttöpaineiden säännöllinen tarkastus ja ylläpito ovat kattavuuden ehtoja.</p>
+
+  <h3>Täyttöventtiilin toimivuus (5 vuotta)</h3>
+  <p>Tuotantovaiheessa asennetuille täyttöventtiileille taataan suoja materiaalien tai työnteon valmistusvioista, jotka estävät venttiilin pitämästä ilmaa suunnitellusti.</p>
+
+  <h3>Tehtaassa asennetut lisävarusteet (1 vuosi)</h3>
+  <p>Tehtaassa asennetuille komponenteille ja osille taataan suoja materiaalin ja työnteon vioista yhden vuoden ajan. Tämä ei koske kolmannen osapuolen tuotteita, joita koskee vain niiden valmistajan oma taku.</p>
+
+  <h2>Mitä takuu ei kata</h2>
+  <ul>
+    <li>Kosmeettiset virheet, mukaan lukien värin muuttuminen, tahrat, haaleneminen, kalkkimahtojen muodostuminen tai muu ulkoasun muutos</li>
+    <li>Reiät, viilot, repeämät, halkeilut tai muu fyysinen vahinko</li>
+    <li>Halkeilut, halkeamat, hankautuminen, naarmut tai kitkan tai kosketuksen aiheuttama kunnon heikkeneminen</li>
+    <li>UV-säteilyn, säätyksen tai ilmaston aiheuttama kunnon heikkeneminen</li>
+    <li>Vahingot polttoaineiden, liuottimien, happojen, emästen tai kemiallisten aineiden kanssa tapahtuvasta kosketuksesta</li>
+    <li>Vahingot huolimattomuudesta, virheellisestä käytöstä, väärinkäytöstä, onnettomuudesta tai normaalista kulumisesta</li>
+    <li>Geelikoidin tai maalipinnan ongelmat (kupliminen, halkeilu, värin muuttuminen, haaleneminen)</li>
+    <li>Iskust, rasitusten, virheellisen tuennan tai jälkikuljetuksen aiheuttamat vahingot</li>
+    <li>Vahingot, jotka johtuvat virheellisestä täytöstä tai tyhjennyksestä tai hyväksymättömien täyttölaitteiden käytöstä</li>
+    <li>Kolmannen osapuolen laitteet, komponentit tai järjestelmät (kattaa niiden valmistajat)</li>
+  </ul>
+
+  <h2>Valmistajan velvoite ja korjaustoimi</h2>
+  <p>Tehtaan ainoa velvoite on valintansa mukaan korjata tai vaihtaa mikä tahansa komponentti, joka on todettu materiaalista tai työnteosta johtuvasti vialliseksi ja tämän takuun piirissä. Korjaukset ja vaihdot suorittaa tehdas tai sen nimeämä valtuutettu huoltolaitos. Korjatuille tai vaihdetuille komponenteille taataan takuu vain alkuperäisen takuuajan jäljelle jääneeltä osalta.</p>
+
+  <h2>Takuuehdot</h2>
+  <ul>
+    <li><strong>Eräviittaus:</strong> Vaatimuksissa on viitattava tilauskirjaan, eränumeroon tai sarjanumeroväliin, jotta tehdas voi hakea vastaavat tarkastuskirjat.</li>
+    <li><strong>Määritysperusta:</strong> Vaatimuksia arvioidaan erän osalta lukitun hyväksytyn näytteen, teknisten määritysten, kuvioiden ja BOM-asiakirjan perusteella — samat perustat, joita tuotannossa käytettiin.</li>
+    <li><strong>Ylläpito:</strong> Tuotetta on ylläpidettävä julkaistujen hoito-ohjeiden mukaisesti, mukaan lukien täyttöpaineiden säännöllinen tarkastus ja ylläpito.</li>
+    <li><strong>Yhteistyö:</strong> Vaativan on toimittava täysin ja viiveettä tehtaan kanssa yhteistyössä kaikissa takuuvaatimuksiin liittyvissä asioissa, mukaan lukien vaikutuksestaan kärsivien yksiköiden tarkastus.</li>
+    <li><strong>Ostajan takuupolitikka:</strong> Ostaja brändin omistajana määrittää markkinansa loppukäyttäjätakuuohjelman. Tämä valmistustakuu on se, mitä tehdas velvoituksensa mukaan tuotteelleen.</li>
+  </ul>
+
+  <h2>Kaupallinen käyttö</h2>
+  <p>Jos tuotetta käytetään kaupalliseen, viranomais-, voittoa tavoittelemattomaan, charter-, vuokraus- tai opetuskäyttöön tai mihinkään muuhun kuin yksityiseen vapaa-ajan käyttöön, kaikkien komponenttien takuuaika lyhenee yhteen (1) vuoteen voimassaoloajankohdasta alkaen. Käyttö kilpailu-, nopeus- tai kestävyyskilpailuissa mitätöi takauksen kokonaan, ellei hankintasopimuksessa ole nimenomaisesti katettu kilpailukäyttöön soveltuvaa konfiguraatiota.</p>
+
+  <h2>Takuuvaatimuksen tekeminen</h2>
+  <p>Ota yhteyttä iSupfactoryyn tilauskirjan tai eräviitauksen kanssa ja anna yksityiskohtainen kuvaus ongelmasta sekä lautojen sarjanumerot, jos ne ovat saatavilla. Tehdas käy vaatimuksen läpi erätietojen perusteella ja antaa ohjeet tarkastusta ja huoltoa varten.</p>
+  <p>Takuuhuoltoa koskevissa tiedusteluissa ota yhteyttä <a href="/fi/contact" class="text-sky-600 underline">yhteydenottosivumme</a> ja anna tilauksesi numero sekä tuotteen tiedot.</p>
+
+  <div class="bg-sky-50 dark:bg-gray-900 border border-sky-200 dark:border-gray-800 rounded-xl p-6 my-10">
+    <h2 class="text-xl font-bold mb-3">Taattu dokumentoidulla laatujärjestelmällä</h2>
+    <p class="text-sm text-gray-600 dark:text-gray-400">Jokainen lauta testataan ennen pakkausta — <a href="/fi/factory/quality-inspection" class="text-sky-600 underline">7-vaiheiset tarkastusportit</a> kirjaavat tulokset sarjanumerokohtaisesti, ja erät säilyttävät 10 vuoden ERP-jäljitettävyyden. Takuuvaatimuksia käsitellään näiden erätietojen perusteella, ei arvailulla. Katso <a href="/fi/quality" class="text-sky-600 underline">koko laatujärjestelmä</a> ja lataa varsinaiset <a href="https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_FQC_TEST_REPORTS.pdf" class="text-sky-600 underline">lopputarkastusraportit</a>.</p>
+  </div>
+
+  <h2>Kolmannen osapuolen tuotteet</h2>
+  <p>Kolmannen osapuolen valmistamat laitteet, komponentit tai järjestelmät (vaikka tehtaan asentamat) kattaa ainoastaan niiden valmistajan tarjoama taku. Tehdas kieltää eivät ota vastuuta tällaisten kolmannen osapuolen tuotteiden takuista.</p>
+
+  <p class="text-sm text-gray-500 mt-8 border-t border-gray-200 dark:border-gray-800 pt-6">
+    Tämä takuusehto on tiivistelmä tehtaan valmistustakuun ehdoista OEM-, ODM- ja private label -ohjelmille. Kaikki takuuehdot ja -edellytykset määräävät koko hankintasopimus. Määritykset voivat muuttua ilman ennakkoilmoitusta. iSupfactory on Qingdao Vatrad Groupin valmistusdivisioona.
+  </p>

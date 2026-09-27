@@ -2954,7 +2954,274 @@ export const GUIDES_DA: Guide[] = [
   },
 ]
 
-const GUIDES_BY_LOCALE: Record<string, Guide[]> = { en: GUIDES, es: GUIDES_ES, fr: GUIDES_FR, de: GUIDES_DE, it: GUIDES_IT, pt: GUIDES_PT, nl: GUIDES_NL, sv: GUIDES_SV, no: GUIDES_NO, pl: GUIDES_PL, da: GUIDES_DA }
+export const GUIDES_FI: Guide[] = [
+  {
+    slug: 'how-to-choose-your-sup',
+    title: 'Näin valitset SUP-lautasi',
+    intro: [
+      'Ensimmäisen puhallettavan SUP-lautasi valinta ratkeaa laudan koon, leveyden, rakenteen ja pakkaussisällön kautta. Tässä on, millä on oikeasti merkitystä — selkein sanoin.',
+    ],
+    sections: [
+      {
+        title: 'Pituus ja tilavuus',
+        body: 'Pidemmät laudat (11–12 jalkaa) liukuvat kauemmas yhdellä veto-iskulla ja kulkevat suoremmin — ihanteellisia touring-melontaan ja pitkille matkoille. Lyhyemmät laudat kääntyvät helpommin. Useimmille melojille paras valinta on allround-lauta noin 10′6″–11′0″.',
+      },
+      {
+        title: 'Leveys ja vakaus',
+        body: 'Leveys vaikuttaa vakauteen enemmän kuin mikään muu tekijä. 32 tuuman kansi on anteeksiantava aloittelijalle ja tarpeeksi vakaa joogaan; 30 tuuman laudat sopivat kevyemmille tai kokeneemmille melojille, jotka arvostavat nopeutta ja ketteryyttä.',
+      },
+      {
+        title: 'Rakenteen laatu',
+        body: 'Etsi sotilaskäyttöön tarkoitettua drop-stitch-PVC-ydintä, jonka työpaine on vähintään 15 PSI, kaksoislaminoitua PVC:tä ja vahvistettuja kantisapsoja. Nämä määrittävät laudan jäykkyyden tunteen ja sen, kuinka kauan se kestää päivittäisessä käytössä.',
+      },
+      {
+        title: 'Mitä laatikossa pitää olla',
+        body: 'Täydellinen paketti säästää sekä rahaa että vaivaa: lauta, 3-osainen säädettävä mela, kaksitoiminen painemittarilla varustettu pumppu, kela-hihna, evä tai evät, reppute ja korjaussarja.',
+      },
+    ],
+    faqs: [
+      { q: 'Minkä kokoinen SUP-lauta minä tarvitsen?', a: 'Useimmat aloittelijat valitsevat allround-laudan, joka on noin 11′0″ × 32″ × 6″ — vakaa, monikäyttöinen ja helppo kuljettaa. Raskaammat melojat tai pidemmän matkan tavoittelijat kannattaa valita isompi koko.' },
+      { q: 'Onko puhallettava SUP-lauta yhtä jäykkä kuin kovalauta?', a: 'Moderni drop-stitch-lauta 15–20 PSI:n paineella on lähes yhtä jäykkä kuin aloittelutason kovalauta — ja se mahtuu repputeun.' },
+    ],
+    related: [
+      { label: 'Selaa SUP-alustojamme', href: '/fi/products' },
+      { label: 'Puhallettava vai kovalauta', href: '/fi/inflatable-vs-hardboard' },
+      { label: 'OEM-tuotanto', href: '/fi/oem-manufacturing' },
+    ],
+  },
+  {
+    slug: 'beginner-guide',
+    title: 'Aloittelijan opas melontaan',
+    intro: [
+      'Kaikki, mitä tarvitset ensimmäisiin vetoihisi vedellä: täyttäminen, ensimmäinen koho kantaan, perusmelontateko ja se, miten pidät huolta turvallisuudesta rohentuessasi.',
+    ],
+    sections: [
+      {
+        title: 'Täytä ilma paineeseen, ei tunteeseen',
+        body: 'Täytä lauta ilmoitettuun paineeseen (normaalisti 15 PSI) pumpun painemittarilla. 10 PSI:n paineessa lauta tuntuu hyvältä nurmikolla, mutta taipuu voimakkaasti vedellä. Tarkista paine lämpiminä päivinä — aurinko lämmittää sisällä olevaa ilmaa ja paine nousee.',
+      },
+      {
+        title: 'Ensimmäiset askeleet laudalla',
+        body: 'Lähde liikkeelle rannalta tai matalasta lähtöpaikasta: aloita polvistuen ja nouse jalat toinen kerrallaan laudan keskilinjan yli. Pidä jalat hartian levyisinä, polvet rentoina ja katso horisonttiin — lauta seuraa katsetasi.',
+      },
+      {
+        title: 'Perusmelontateko',
+        body: 'Ojenna mela eteenpäin, upota kärki kokonaan veteen ja vedä se laudan reunaa pitkin samalla kun käännät vartaloasi. Vaihda puolta muutaman vedon välein, jotta kulkusuunta säilyy; muutama veto yhdellä puolella kääntää suuntaa.',
+      },
+      {
+        title: 'Harjoittele putoamista ensin',
+        body: 'Veteen kaatuminen kuuluu oppimiseen. Harjoittele uudelleen nousua matalassa vedessä: uinu keskikkahvaan, potkaise jalkasi pinnalle ja vedä itsesi laudalle yhdellä liikkeellä.',
+      },
+    ],
+    faqs: [
+      { q: 'Minkä kauan SUP-melonnan opiskelu kestää?', a: 'Useimmat voivat meloa miellyttävästi tasaisella vedellä jo ensimmäisen tunnin aikana. Varmuus käänteissä, tuulessa ja pitemmillä matkoilla syntyy muutaman harjoittelukerran myötä.' },
+      { q: 'Täytyykö minun olla hyväkuntoinen?', a: 'Ei — SUP on erittäin helposti lähestettävä laji. Tasapaino, keskivartalon voima ja kestävyys kehittyvät luonnostaan säännöllisen melonnan myötä.' },
+    ],
+  },
+  {
+    slug: 'inflatable-vs-hard',
+    title: 'Puhallettava vai kovalauta',
+    intro: [
+      'Nämä kaksi rakennetyyppää voittavat kummallakin omassa tilanteessaan. Tässä on rehellinen vertailu virkistymelajille, seuroille ja vuokrausyrityksille.',
+    ],
+    sections: [
+      {
+        title: 'Kuljetettavuus ja säilytys',
+        body: 'Puhallettavat laudat tyhjennetään ilmasta ja pakataan repputeun, joka sopii auton tavaratilaan, matkailuautoon tai kotikaappiin — ja ne ovat oletusvalinta matkailuun. Kovalaudat vaativat kattotelineen, säilytystilaa ja huolellisempaa käsittelyä.',
+      },
+      {
+        title: 'Jäykkyys ja suorituskyky',
+        body: 'Premium-kovalaudat ovat jäykempiä ja reagoivampia korkealla suorituskykytasolla. Virkistysnopeuksilla hyvin valmistettu drop-stitch-lauta 15–20 PSI:n paineella antaa vastaavan tuloksen murto-osalla säilytyskustannuksista.',
+      },
+      {
+        title: 'Kestävyys',
+        body: 'Puhallettavat PVC-laudat sietävät laiturin aiheuttamia naarmuja ja rantaan iskeytymiä, jotka halkaisisivat kovan kuoren — tärkeä syy sille, että vuokrauslaivat ja resortit valitsevat puhallettavat laudat päivittäiseen asiakaskäyttöön.',
+      },
+      {
+        title: 'Omistamisen kokonaiskustannus',
+        body: 'Puhallettavien lautojen lähetys, säilytys ja ylläpito maksavat vähemmän, ja ne kestävät kovempaa käsittelyä. Useimmille käyttäjille ja laivoille puhallettava lauta on parempi allround-valinta.',
+      },
+    ],
+    faqs: [
+      { q: 'Mikä on parempi aloittelijalle?', a: 'Puhallettavat laudat — vakaita, anteeksiantavia, helposti säilytettäviä ja tarpeeksi kestäviä aloittelijoiden aiheuttamiin naarmuihin.' },
+      { q: 'Ollako puhallettava SUP yhtä nopea kuin kovalauta?', a: 'Virkistysnopeuksilla ero on pieni. Kovalaudat voittavat selvästi vain kilpailu- ja suorituskykytilanteissa.' },
+    ],
+  },
+  {
+    slug: 'safety-tips',
+    title: 'Turvallisuus vedellä',
+    intro: [
+      'Turvallinen veto on hauska veto. Nämä perusjutut koskevat yhtä hyvin järviä, jokia kuin rannikkovesiäkin.',
+    ],
+    sections: [
+      {
+        title: 'Tarkista tuuli ja sääennuste',
+        body: 'Tuuli mereltä on klassinen SUP-ansa: se vie sinut kauemmas rannasta kuin pystyt meloen päälle takaisin. Tarkista sääennuste, ja kun olet epävarma, jää suojattuihin vesiin.',
+      },
+      {
+        title: 'Käytä aina hihnaa',
+        body: 'Kela-hihna pitää laudan ulottuvilla, jos putoat veteen — lauta on kelluvuusvälineesi. Valitse olosuhteisiin sopiva hihna: kela tyynelle vedelle, suora hihna aalloille.',
+      },
+      {
+        title: 'Pelastusliive ja henkilökohtainen turvallisuus',
+        body: 'Käytä kelluntavälinettä, kun olosuhteet tai sääntö sitä vaativat. Ota mukaan puhallin, kerro jollekin reittisi ja suunnittelemaasi paluuaika sekä harkitse puhelinta vedenpitävässä pussissa.',
+      },
+      {
+        title: 'Tunne rajoitteesi',
+        body: 'Kerää kokemusta tasaisella vedellä ennen tuulta tai virtaa. Kunnioita kylmää vettä — se syö voimat nopeasti. Älä koskaan melo yksin syrjäisillä tai avoimilla vesialueilla ilman suunnitelmaa.',
+      },
+    ],
+    faqs: [
+      { q: 'Tarvitseeko SUP-laudalle pelastusliivin?', a: 'Vaatimukset vaihtelevat maan ja vesialueen mukaan. Vaikka liivi olisi vapaaehtoinen, hihna liivin kanssa on vastuullinen vähimmäisvarustus, ja lasten on aina käytettävä oikean kokoinen liivi.' },
+      { q: 'Onko järvellä turvallista meloa SUP:lla?', a: 'On — tyynet järvet ovat ihanteellisia oppimiseen. Tarkista tuulen suunta, pysy näkyvissä veneliikenteelle ja vältä vilkkaita laivaväyliä.' },
+    ],
+    related: [
+      { label: 'Turvallisuusvälineet alustoillamme', href: '/fi/products' },
+      { label: 'Laadunvalvonta tehtaalla', href: '/fi/quality' },
+      { label: 'Valitse ensimmäinen lauttasi', href: '/fi/guides/how-to-choose-your-sup' },
+    ],
+  },
+  {
+    slug: 'choosing-a-sup-oem-factory',
+    title: 'Näin valitset räätälöityjen SUP-lautojen OEM-tehtaan',
+    intro: [
+      'Puhallettavien SUP-lautojen ostaminen omalla merkilläsi on yksi päätös: mille tehtaalle luotat ensimmäisen eräsi. Tässä on, miten arvioit räätälöityjen SUP-lautojen valmistajan ennen kuin lähetät tilauksen.',
+    ],
+    sections: [
+      {
+        title: 'Aloita koetilauksella, älä MOQ-keskustelulla',
+        body: 'Tehdas, joka puhuu vain minimitilauksista, on merkki kauppapisteestä, ei tehtaasta. Todelliset valmistajat tarjoavat porrastetut minimimäärät — yhteisbrändiys 5–10 kpl:stä, pilottierät 20–50 kpl:stä, vakiomäärät 90–100+ kpl 150 m rullaa kohti, ja täysin oman muodon projektit vakiomäärissä. Tilaa ensin pieni erä: se testaa viestinnän, spesifikaation noudattamisen ja näytteen laadun ilman että panostat koko lanseeraukseesi.',
+      },
+      {
+        title: 'Katso, mitä oikeasti tehdään omassa talossa',
+        body: 'Drop-stitch-SUP-tuotannossa on neljä ydintä vaihetta: materiaalin laminointi, hitsaus, painatus ja kokoonpano. Aito tehdas tekee kaiken saman katon alla ja antaa sinun tarkastaa tuotantohallin. Jos myyjä ei voi näyttää tuotantolinjaa, ostat todennäköisesti välittäjän kautta ilman laatua tai toimitusaikaa koskevaa kontrollia.',
+      },
+      {
+        title: 'Näytteen on vastattava massatuotantoa',
+        body: 'Käsin viimeistelty näyte on helppo; yhdenmukainen massatuotanto on vaikeaa. Kysy, miten tehdas varmistaa toistettavuuden: materiaalierien kirjaukset, hitsausparametrit ja QC-tarkistuslista, joka ajetaan jokaiselle yksittäiselle laudalle — ei vain hyväksymillesi näytteelle.',
+      },
+      {
+        title: 'Tiedä kustannukset ennen tilausta',
+        body: 'Pyydä koko kustannuskuva kirjallisesti: yksikköhinta määrän mukaan, työkalukustannukset tai muotin kustannukset, jos haluat uuden muodon, grafiikan valmistelu ja painatus sekä pakkaus.',
+      },
+      {
+        title: 'Pyydä kolmannen osapuolen tarkastus',
+        body: 'Hyvämaineiset OEM-SUP-tehtaat suostuvat ennen lähetystä tehtäviin tarkastuksiin — monet merkit varaavat riippumattoman QC-käynnin per kontti. Varmista, että tehdas voi järjestää tarkastukset näyte- ja tuotantoerille ja että hylätyt yksiköt (esimerkiksi laudat, jotka menettävät yli 5 % paineesta) poistetaan erästä.',
+      },
+      {
+        title: 'Toimitusajat, jotka pitävät',
+        body: 'Puhallettavissa SUP-lautoissa odota näytteet 7–12 päivään ja erätuotanto 25–35 päivää vahvistetun tilauksen ja käsirahan jälkeen, plus työkaluaika, kun tilaat uuden muodon. Tehdas, joka lupaa selvästi lyhyemmät ajat kuin kaikki muut, lukee arvot esitteestä eikä aikataulusta.',
+      },
+    ],
+    faqs: [
+      { q: 'Mikä on räätälöityjen SUP-lautojen minimitilaus (MOQ)?', a: 'Porrastetut minimimäärät ovat standardi: 1–2 kpl näytteisiin, 5–10 kpl yhteisbrändiykseen, 20–50 kpl pilottierään ja 90–100+ kpl 150 m rullaa kohti vakiomääriä; täysin oman muodon projektit ajetaan vakiomäärissä.' },
+      { q: 'Voinko nähdä näytteen ennen massatuotantoa?', a: 'Kyllä — näytteet ovat valmiit 7–12 päivässä. Useimmat tehtaat hyvittävät näyte- ja muottikustannukset ensimmäisestä tuotantotilauksestasi, kun se on vahvistettu.' },
+      { q: 'Miten varmistan, että SUP-tehdas on aito?', a: 'Pyydä reaaliaikainen videokatsaus tuotantohallista, tarkista että tehtaalla on toimiva osoite Qingdaossa tai muussa teollisuuskeskuksessa, ja pyydä dokumentteja aiemmista vientitilauksista. Koetilaus on lopullinen todiste.' },
+      { q: 'Mitä SUP-tehtaan tarjouksen pitää sisältää?', a: 'Yksikköhinta laudalta, työkalukustannukset tai muottikustannukset, grafiikan valmistelu, pakkaus, QC- ja tarkastusehdot sekä maksuehdot.' },
+    ],
+    related: [
+      { label: 'OEM-/ODM-tuotantomme', href: '/fi/oem-manufacturing' },
+      { label: 'SUP-tuotteen kehitysprosessi', href: '/fi/product-development' },
+      { label: 'Tehtaan kapasiteetti ja laitos', href: '/fi/factory' },
+      { label: 'Näin valvomme laatua — 7 tarkastusporttia', href: '/fi/quality' },
+      { label: 'Minimitilaus (MOQ) ja joustava brändäys -opas (PDF)', href: '/fi/oem-moq-guide' },
+      { label: 'Varmista meidät: luottamus ja tehtaan takeet', href: '/fi/oem-trust-assurance' },
+      { label: 'Käynnistä räätälöity SUP-projekti', href: '/fi/contact' },
+    ],
+  },
+  {
+    slug: 'private-label-sup-guide',
+    title: 'Oma brändi SUP: mitä tehtaalta oikeasti saat',
+    intro: [
+      'Oma brändi on nopein tie SUP-merkin lanseeraukseen: logosi todennetulla alustalla, ilman laudan suunnittelusta aiheutuvia kustannuksia ja riskejä. Tässä on, mitä yhteistyö räätälöityjen SUP-lautojen valmistajan kanssa oikeasti sisältää.',
+    ],
+    sections: [
+      {
+        title: 'Oma brändi tarkoittaa todennettuja alustoja',
+        body: 'Aloitat alustoista, joita tehdas jo valmistaa ja testaa — allround, touring, yoga, race ja niin edelleen. Tehdas räätälöi brändäyksen, grafiikat ja viimeistelyn, mikä pitää kustannukset alhaisina ja toimitusajat lyhyinä. Minimimäärät ovat porrastettuja: yhteisbrändiys 5–10 kpl:stä, pilottierät 20–50 kpl:stä ja 90–100+ kpl 150 m rullaa kohti oman brändin vakiomääriä.',
+      },
+      {
+        title: 'Brändäys ulottuu logon ulkopuolelle',
+        body: 'Oma brändi kattaa logosi painatuksen (digitaalisesti tai silkkipainona), omat väriryhmät, muotoon leikatut EVA-liukumatot logollasi, lisävarusteiden brändäyksen (mela, pumppu, hihna), vähittäispakkauksen suunnittelun ja jopa myyntipisteiden näyttelypisteet. Lähetä aineistosi, niin tehdas tekee visuaalisen vedoksen ennen tuotantoa.',
+      },
+      {
+        title: 'Mitä tehdas hoitaa puolestasi',
+        body: 'Täyden palvelun SUP-tehdas hoitaa grafiikan valmistelun, materiaalien hankinnan, näytetuotannon, 100 pisteen kokoonpanon QC-tarkistuslistan, painetestin ja vienti-asiakirjat (lasku, pakkausluettelo, alkuperätodistus). Sinä tarkastat vedokset ja hyväksyt näytteen — tehdas hoitaa kaiken muun.',
+      },
+      {
+        title: 'Mitä sinulle kuuluu: brändi, markkina, asiakas',
+        body: 'Oman brändin mallissa tehdas valmistaa laudat ja brändi on sinun. Vakavaraiset valmistajat eivät myy omia lautojaan markkinoillesi eivätkä myy räätälöityä suunnittelua muille. Pyydä tarjoukseen markkinaeksklusiivisuus.',
+      },
+      {
+        title: 'Kustannukset: näyte, muotti, grafiikan valmistelu',
+        body: 'Odota kolmenlaisia maksuja: näytemaksu (7–12 päivää tuotantoon), työkalukustannukset, kun tarvitaan uusi muotti (vakiomäärän minimitilaus), sekä painatuksen grafiikan valmistelu. Useimmat tehtaat hyvittävät näyte- ja muottikustannukset ensimmäisestä tuotantotilauksestasi.',
+      },
+      {
+        title: 'Tilauksesta valmiiseen erään',
+        body: 'Tyypillinen oman brändin tuotanto: 30 % käsiraha käynnistää tuotannon, erätuotanto valmistuu 25–35 päivää vahvistetun tilauksen ja käsirahan jälkeen, ja loppusumma selvitetaan hyväksytyn erän vastaanottamista vastaan. Budettoi koko prosessi jo ensimmäiseen tilaukseesi.',
+      },
+    ],
+    faqs: [
+      { q: 'Mikä on oman brändin SUP-lautojen minimitilaus (MOQ)?', a: 'Yhteisbrändiys alkaa 5–10 kpl:stä, pilottierät 20–50 kpl:stä ja oman brändin vakiomäärät 90–100+ kpl 150 m rullaa kohti; täysin oman muodon projektit ajetaan vakiomäärissä.' },
+      { q: 'Voinko lähettää oman logoni ja omat grafiikkani?', a: 'Kyllä — lähetä logo ja aineistot; tehdas tekee visuaalisen vedoksen ennen tuotantoa, joten voit hyväksyä värit, sijainnin ja viimeistelyn.' },
+      { q: 'Onko räätälöity SUP-suunnitelmani yksinomainen brändilleni?', a: 'Kyllä, oman brändin vakioehtojen mukaisesti. Pyydä ostosopimukseen eksklusiivisuuslause; meidän kaltaisemme tehtaat eivät myy brändattua suunnittelua eteenpäin.' },
+      { q: 'Minkä kauan oman brändin SUP-tilaus kestää?', a: 'Näytteet lähetetään 7–12 päivässä; erätuotanto valmistuu 25–35 päivää vahvistetun tilauksen ja käsirahan jälkeen. Budettoi ensimmäiseen täyteen tuotantoon 8–12 viikkoa.' },
+    ],
+    related: [
+      { label: 'Oman brändin SUP-ratkaisut', href: '/fi/solutions/private-label-sup' },
+      { label: 'Selaa todennettuja alustoja', href: '/fi/products/all-around' },
+      { label: 'OEM-/ODM-tuotanto', href: '/fi/oem-manufacturing' },
+      { label: 'Käynnistä räätälöity SUP-projekti', href: '/fi/contact' },
+    ],
+  },
+  {
+    slug: 'sup-fleet-guide',
+    title: 'SUP-laivojen hankinta vuokraukseen, resorteille ja seuroille',
+    intro: [
+      'Laivaston ostajat tarvitsevat erilaiset vastaukset kuin loppukäyttäjät: kestävyys vetoa kohden, standardoidut varaosat, volyymimäärät ja toimittaja, joka toimittaa kausi kauden jälkeen. Tässä on, mitä suunnitella ennen ensimmäisen laivaston tilaamista.',
+    ],
+    sections: [
+      {
+        title: 'Standardoi yhteen tai kahteen spesifikaatioon',
+        body: 'Laivastotoiminta perustuu standardointiin: yksi lauta koko (yleensä 10′6″–11′0″ × 32″) useimmille asiakkaille, yksi kulutuskestävä paketti ja yksi varaosasetti. Se yksinkertaistaa korjaukset, henkilökunnan koulutuksen, säilytyksen ja uudelleentilaukset. Vältä kymmenen eri mallin ostamista.',
+      },
+      {
+        title: 'Raskaan käytön laudat ovat eri tuote',
+        body: 'Vuokrauslaudan kestää kymmeniä vetoja kaudessa. Määrittele paksummat PVC-kerrokset, vahvistetut kantisapsot ja raskaammat lisävarusteet verrattuna vähittäislautaan. Kysy tehtaalta, miten laivastospesifikaatio eroaa kuluttajaversiosta — aidolla tehtaalla on molemmat.',
+      },
+      {
+        title: 'Sovelluta määrät kysyntään',
+        body: 'Laske laivaston koko päivittäisen vaihtuvuuden ja kauden pituuden perusteella: 20–30 lautaa riittää pieneen pisteeseen, yli 100 vilkkaaseen resortiin tai seuraan. Pyydä tehtaalta määräsuositus, joka vastaa kysymänttäsi.',
+      },
+      {
+        title: 'Osta varaosat laivaston mukana',
+        body: 'Tilaa varaventtiilit, korjaussarjat, pumput, hihnat ja melat samassa tilauksessa — ne maksavat nyt vähän per kpl, mutta niiden hankinta kauden aikana on hankalaa. Pyydä tehtaalta suositeltu varaosasuhde (kulutustavaroissa yleensä 5–10 % laivaston koosta).',
+      },
+      {
+        title: 'Tilaa ennen kautta, ei sen aikana',
+        body: 'Tuotanto kestää 25–35 päivää vahvistetun tilauksen ja käsirahan jälkeen. Jotta laudat olisivat rannalla keväällä, vahvista tilaukset myöhään syksyllä, niin tuotanto valmistuu ennen kautta.',
+      },
+      {
+        title: 'Brändää laivasto jälleenmyynnin arvoa varten',
+        body: 'Laivastolaudat voivat kantaa logosi, vuokrausnumeroinnin ja värikoodauksen koon mukaan. Silkkipainetut logot 200+ kpl:n erissä ovat kustannustehokkaita, ja brändätty laivasto toimii samalla markkinointina vedellä.',
+      },
+    ],
+    faqs: [
+      { q: 'Mikä on paras SUP vuokrauslaivastoon?', a: 'Vahvistetun rakenteen allround-lauta 10′6″–11′0″ × 32″ on alan standardi — vakaa aloittelijalle, kestävä päivittäiseen käyttöön ja helppo huollettavaksi.' },
+      { q: 'Kuinka monta lautaa vuokrausyritys tarvitsee?', a: 'Suunnittele pieneen vuokrauspisteeseen 20–30 lautaa ja skaalaa vaihtuvuuden mukaan: yli 100 kpl vilkkaisiin resorteihin ja seuroihin. Varaosien osuuden tulisi olla 5–10 % laivaston koosta.' },
+      { q: 'Voiko laivastolaudoissa olla logomme?', a: 'Kyllä — silkkipainetut logot, vuokrausnumerointi ja värikoodatut kannet ovat tavallisia räätälöintejä ja erityisen kustannustehokkaita 200 kpl:stä alkaen.' },
+      { q: 'Minkä kauan laivastotilaus kestää?', a: 'Näytteet 7–12 päivässä, tuotanto 25–35 päivää vahvistetun tilauksen ja käsirahan jälkeen — joten tee laivastotilaukset hyvissä ajoin ennen kauden alkua.' },
+    ],
+    related: [
+      { label: 'Ratkaisut resorteille ja seuroille', href: '/fi/solutions/resort-sup' },
+      { label: 'Tapaus: vuokrauslaivasto useilla paikoilla', href: '/fi/projects/rental-fleet-multi-site' },
+      { label: 'Laivastoluokan alustat', href: '/fi/products/all-around' },
+      { label: 'Puhu projektispecialistille', href: '/fi/contact' },
+    ],
+  },
+]
+
+const GUIDES_BY_LOCALE: Record<string, Guide[]> = { en: GUIDES, es: GUIDES_ES, fr: GUIDES_FR, de: GUIDES_DE, it: GUIDES_IT, pt: GUIDES_PT, nl: GUIDES_NL, sv: GUIDES_SV, no: GUIDES_NO, pl: GUIDES_PL, da: GUIDES_DA, fi: GUIDES_FI }
 
 export function localizedGuides(locale: string): Guide[] {
   return GUIDES_BY_LOCALE[locale] ?? GUIDES
@@ -3416,6 +3683,50 @@ export const GUIDE_CARDS: Record<string, GuideCard[]> = {
       title: 'Køb af SUP-flåder',
       intro:
         'Flådeplanlægning til udlejning, resorter og klubber: holdbar specifikation, mængder pr. container, reservedele og sæsonudsving.',
+    },
+  ],
+  fi: [
+    {
+      slug: 'how-to-choose-your-sup',
+      title: 'Näin valitset SUP-lautasi',
+      intro:
+        'Ensimmäisen puhallettavan SUP-lautasi valinta ratkeaa laudan koon, leveyden, rakenteen ja pakkaussisällön kautta. Tässä on, millä on oikeasti merkitystä — selkein sanoin.',
+    },
+    {
+      slug: 'beginner-guide',
+      title: 'Aloittelijan opas melontaan',
+      intro:
+        'Kaikki, mitä tarvitset ensimmäisiin vetoihisi vedellä: täyttäminen, ensimmäinen koho kantaan, perusmelontateko ja se, miten pysyt turvassa.',
+    },
+    {
+      slug: 'inflatable-vs-hard',
+      title: 'Puhallettava vai kovalauta',
+      intro:
+        'Nämä kaksi rakennetyyppää voittavat kummallakin omassa tilanteessaan. Tässä on rehellinen vertailu virkistymelajille, seuroille ja vuokrausyrityksille.',
+    },
+    {
+      slug: 'safety-tips',
+      title: 'Turvallisuus vedellä',
+      intro:
+        'Turvallinen veto on hauska veto. Nämä perusjutut koskevat yhtä hyvin järviä, jokia kuin rannikkovesiäkin.',
+    },
+    {
+      slug: 'choosing-a-sup-oem-factory',
+      title: 'Näin valitset räätälöityjen SUP-lautojen OEM-tehtaan',
+      intro:
+        'Näin arvioit räätälöityjen SUP-lautojen valmistajan ennen tilauksen lähettämistä: koetilaus, oma tuotanto, näytteet, kustannukset ja tarkastus.',
+    },
+    {
+      slug: 'private-label-sup-guide',
+      title: 'SUP omalla brändillä',
+      intro:
+        'Mitä oman brändin yhteistyö oikeasti sisältää: todennetut alustat, täydellinen brändäys, kustannukset, eksklusiivisuus ja toimitusajat.',
+    },
+    {
+      slug: 'sup-fleet-guide',
+      title: 'SUP-laivojen hankinta',
+      intro:
+        'Laivaston suunnittelu vuokraukseen, resorteille ja seuroille: kestävä spesifikaatio, määrät konttia kohti, varaosat ja kausivaihtelut.',
     },
   ],
 }

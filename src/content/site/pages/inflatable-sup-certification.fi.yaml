@@ -1,0 +1,51 @@
+meta:
+  title: "Puhallettavien SUP-lautojen sertifiointi — CE, REACH, RoHS ja vaatimustenmukaisuus"
+  description: "Puhallettavien SUP-lautojen valmistuksen sertifiointilaajuus: CE (EU-mallit), BSCI, ISO 9001, REACH, RoHS. Todistusten numerot pyydettäessä projekti kohtaisesti."
+  dateModified: "2026-08-20"
+
+sections:
+  - title: "Suora vastaus"
+    directAnswer:
+      answer: "iSupfactorylla on BSCI-, ISO 9001-, ISO 25649-, CE-, REACH- ja RoHS-sertifioinnit. CE koskee EU-markkinoille tarkoitettuja malleja — ei yleisesti 'kaikkia tuotteita'."
+      condition: "Sertifiointilaajuus vaihtelee kohdemarkkinoiden ja tuotteen konfiguroinnin mukaan. Todistusten numerot, voimassaolon ja myöntäjätahot toimitetaan pyydettäessä projekti kohtaisesti."
+      value: "BSCI · ISO 9001 · ISO 25649 · CE · REACH · RoHS"
+      verifiedDate: "Syyskuu 2026"
+      sourceType: "certificate"
+    body: |
+      Sertifiointi on keskeinen hankintaa koskeva kysymys ja se on ilmaistava täsmällisesti.
+      Siten laajat väitteet kuten "CE kaikissa tuotteissa" voivat aiheuttaa luottamusongelmia,
+      jos ostaja havaitsee myöhemmin, että laajuus on odotettua kapeampi.
+
+  - title: "Sertifiointien tiedot"
+    body: |
+      | Sertifiointi | Laajuus | Viranomainen | Koskee |
+      |---------------|---------|--------------|--------|
+      | BSCI | Yhteiskuntavastuuauditointi | amfori BSCI | Valmistuslaitosta |
+      | ISO 9001 | Laadunhallintajärjestelmä | Sertiointielin (pyydettäessä) | Valmistuslaitosta |
+      | ISO 25649 | Puhallettavien vesialusten turvallisuus | ISO | Markkinoita vastaavat SUP-mallit |
+      | CE | EU-markkinoiden vaatimustenmukaisuus (EN ISO 6185 / 10087 / 10240) | EU:n ilmoittama laitos | EU-markkinoille tarkoitetut mallit |
+      | REACH | EU:n kemikaaliturvallisuus | ECHA | Tuotannossa käytettävät materiaalit |
+      | RoHS | Vaarallisten aineiden rajoittaminen | EU-direktiivi | Elektroniset lisävarusteet (pumput) |
+
+  - title: "Tärkeitä laajuutta koskevia huomioita"
+    body: |
+      - **CE** koskee malleja, jotka on konfiguroitu EU-markkinoille myyntiin. Yhdysvaltain tai
+        Australian jakeluun valmistettu lauta ei kanna CE-merkkiä, ellei sitä erikseen tilata.
+      - **ISO 9001** kattaa valmistuslaitoksen laadunhallintajärjestelmän, ei yksittäisten
+        tuotteiden sertifiointia.
+      - **REACH-vaatimustenmukaisuus** kattaa tuotannossa käytettävät materiaalit — asiakirjat
+        ovat tuojien saatavilla, joiden on rekisteröitävä aineita.
+      - Todistusten numerot, voimassaolopäivät ja myöntäjätahot toimitetaan pyydettäessä
+        projekti kohtaisesti. Emme julkaise todistusten numeroita julkisesti turvallisuussyistä.
+      - Kolmannen osapuolen tarkastus on järjestettävissä SGS:n, TUV:n, BV:n tai Intertekin kautta mihin tahansa lähetykseen.
+
+  - title: "Sertifiointiasiakirjojen pyytäminen"
+    body: |
+      Pyyntövaiheessa ilmoita kohdemarkkinasi, jolloin vahvistamme, mitkä sertifioinnit koskevat
+      juuri sinun tuotteesi konfigurointia. Todistusten kopiot (kaupalliset tiedot tarvittaessa
+      peitettyinä) toimitetaan osana projektin dokumentaatiopakettia.
+
+evidence_review:
+  tagline: 'Näyttö ja todentaminen'
+  title: 'TODENNETUT TEKNISET ARVOT'
+  body: 'Kaikki tämän sivun valmistusväitteet on todennettu valmistustekniikan tiimimme toimesta Laixin, Qingdaon laitoksella. Todistukset, laadunvalvontakirjaukset, paine- ja rakennetestiraportit sekä erien jäljitettävyyskirjaukset ovat pyydettäessä saatavilla. Tekniset arvot on viimeksi todennettu syyskuussa 2026.'

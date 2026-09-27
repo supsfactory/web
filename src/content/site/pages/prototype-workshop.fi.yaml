@@ -1,0 +1,102 @@
+meta:
+  title: 'SUP-prototyyppiverstas — Näytelautojen rakentaminen'
+  description: 'CAD-mallista testattuun näytelautaan 7–12 päivässä. Prototyyppiverstaamme rakentaa, testaa ja validoi räätälöityjä SUP-näytteitä. Aloita prototyyppiprojektisi tänään.'
+  dateModified: '2026-08'
+back_text: 'Takaisin tutkimus- ja kehityskeskukseen'
+home_label: 'Koti'
+
+answer:
+  label: 'Suora vastaus'
+  text: 'Muutamme CAD-mallin ajettavaksi, testatuksi näytelautaksi 7–12 päivässä: puhallettavien prototyyppien valmistus, koepajosot vesillä, reunavahvikkeiden ja kärjen iterointi ja sitten tuotantotyökalujen sitominen. Täysin räätälöidyt muotit vievät 15–20 päivää työkalutusta vakiintuneen 25–35 päivän sarjatuotantoajan päälle.'
+  verified: 'September 2026'
+
+hero:
+  tagline: 'Laboratorio 05'
+  title: 'Prototyyppiverstas'
+  subtitle: 'CAD-mallista testattuun näytelautaan — rakennettu, sovitettu ja todistettu'
+  image: 'https://assets.isupfactory.com/images/sups/products/sup-series/sup-ocean-voyager-1.webp'
+  image_alt: 'Vatradin prototyyppiverstaan SUP-lautojen valmistus'
+
+intro: 'CAD-malli ei kerro kuinka paljon lauta oikeasti tuntuu, ennen kuin se on täytetty, astuttu päälle ja melottu. Siksi prototyyppiverstaamme on suunniteltu kääntämään insinööridata fyysiseksi, ajettavaksi lautaksi mahdollisimman nopeasti ja tarkasti. Jokainen uusi {SITE.name}-malli — ja jokainen merkittävä räätälöity rakennus — käy tässä verstaassa ennen kuin tuotantotyökalut sidotaan.'
+
+content_html: |
+  <h2>Missä suunnitelmasta tulee todellisuutta</h2>
+  <p>Verstas on varustettu paneelien, drop-stitch-ydinten ja reunavahvikkeiden rinnakkaiseen valmistukseen. Tämä rinnakkaisen työn tapa lyhentää prototyypin toimitusajan 7–12 päivään insinöörikatsauksesta. Kun sovelluksesi vaatii erikoistutun ratkaisun, voimme siirtyä ideasta vesikokeisiin alle kolmessa viikossa.</p>
+
+  <h2>Verstaan osaaminen</h2>
+  <table>
+    <thead><tr><th>Työpiste</th><th>Laitteisto</th><th>Tarkoitus</th></tr></thead>
+    <tbody>
+      <tr><td>Paneelien leikkaus</td><td>CNC-kankaanleikkaaja, legeistysohjelma, paneelikaavaston kirjasto</td><td>Kansien, runkojen ja reunavahvikepaneelien tarkka leikkaus mihin tahansa laudan kokoon</td></tr>
+      <tr><td>Ytimen kokoonpano</td><td>Drop-stitch-ytimen laminointipöytä, liimanlevitystelat</td><td>Drop-stitch-ytimen liimautus PVC-pinnojen väliin tasaisella liimapeitrolla</td></tr>
+      <tr><td>Hitsaus</td><td>RF-hitsauspuristin, kuumailmatakatisto, täyttötestikehikko</td><td>Täysikokoisten lauta-asennusten saumahitsaus venttiileineen, kahvoineen ja eväkoteloineen</td></tr>
+      <tr><td>Sovitus ja viimeistely</td><td>Kansityynylaitteisto, kuviotaulun laminointi, tarvikelaitteisto</td><td>Täydellinen varustelu: kansityynyt, logot, kahvakiinnike, hihnatulppa, eväkotelot</td></tr>
+      <tr><td>Mittausasema</td><td>Painemittarit, dataloggeri, taivutusmittauslaite</td><td>Näytteen testaus: täyttösykli, taipuminen, ilman säilymisen mittaus</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Prototyypin matka vaihe vaiheelta</h2>
+  <ol>
+    <li><strong>Insinööriluovutus</strong> — Verstaapäällikkö ja projekti-insinööri käyvät suunnittelupaketin (3D-malli, FEA-raportti, materiaaliluettelo, paneelien asennussuunnitelma) virallisesti läpi. Kaikki valmistukselliset huomautukset merkitään ja ratkaistaan ennen leikkaamisen aloittamista.</li>
+    <li><strong>Paneelien valmistus</strong> — Laudat rakennetaan insinöörispesifikaation mukaan. Paneelit leikataan CNC-koneella, drop-stitch-ydin laminoidaan PVC-pinnojen väliin, ja kansi ja runko kootaan hyväksytyllä materiaalistackilla.</li>
+    <li><strong>Hitsaus</strong> — Paneelit hitsataan RF-menetelmällä koko laudan muotoon. Kammio täytetään koepaineeseen ja jätetään 24 h alustavaa vakautumista varten.</li>
+    <li><strong>Kokoonpano ja viimeistely</strong> — Kansityyny, kuviot, kahva, hihnatulppa ja eväkotelot asennetaan. Kaikki asennukset tarkistetaan spesifikaatiota vasten.</li>
+    <li><strong>Staattiset testit</strong> — Ennen kuin lauta koskettaa vettä, sille tehdään: täyttösykli, ilman säilymisen pitoesiinty, kanteen taipuminen nimellispaineessa ja tarvikkeiden vääntövoimatarkistukset.</li>
+    <li><strong>Vesikoeohjelma</strong> — 10 tuntia vesillä tapahtuvia testejä, kuvattuna alempana.</li>
+    <li><strong>Prototyypin katsaus</strong> — Pidetään virallinen hyväksymiskokous insinööri-, tuotanto- ja laatatiimien kanssa. Vaaditut suunnittelumuutokset dokumentoidaan ja sisällytetään tuotantovastuuseen.</li>
+  </ol>
+
+  <div class="not-prose my-10 p-6 rounded-xl bg-gray-50 dark:bg-gray-900 border border-gray-200 dark:border-gray-800">
+    <p class="text-sm font-semibold text-gray-500 mb-3 uppercase tracking-wider">10 tunnin vesikoeohjelma — testaussuunnitelma</p>
+    <div class="space-y-2 text-sm">
+      <div class="flex items-center gap-3 p-2 rounded bg-white dark:bg-gray-950">
+        <span class="w-12 text-xs font-bold text-blue-600">1 h</span>
+        <span class="flex-1">Vakauden tarkistus — tasapaino seisonnassa, sivuttaiskuormien sietäminen</span>
+      </div>
+      <div class="flex items-center gap-3 p-2 rounded bg-white dark:bg-gray-950">
+        <span class="w-12 text-xs font-bold text-blue-600">2 h</span>
+        <span class="flex-1">Melontakoe — liuku, suuntavakaus ja käännös 3 nopeudella; melonnan ergonomia</span>
+      </div>
+      <div class="flex items-center gap-3 p-2 rounded bg-white dark:bg-gray-950">
+        <span class="w-12 text-xs font-bold text-blue-600">2 h</span>
+        <span class="flex-1">Melojan kuormitustesti — vakaus ja taipuminen 60 / 80 / 100 / 120 kg melojilla</span>
+      </div>
+      <div class="flex items-center gap-3 p-2 rounded bg-white dark:bg-gray-950">
+        <span class="w-12 text-xs font-bold text-blue-600">2 h</span>
+        <span class="flex-1">Aaltoajotesti — toistuvat ajot veneen aiheuttamassa aallokossa; kärjen roiskuminen, reunavahvikkeen taipuminen</span>
+      </div>
+      <div class="flex items-center gap-3 p-2 rounded bg-white dark:bg-gray-950">
+        <span class="w-12 text-xs font-bold text-blue-600">2 h</span>
+        <span class="flex-1">Kestävyysajo — jatkuva melonta säännöllisin painetarkistuksin; ilman säilymisen kirjaus</span>
+      </div>
+      <div class="flex items-center gap-3 p-2 rounded bg-white dark:bg-gray-950">
+        <span class="w-12 text-xs font-bold text-blue-600">1 h</span>
+        <span class="flex-1">Lopputarkastus — saumojen, asennusten ja kuvioiden tarkastus kokeen jälkeen; havaintojen dokumentointi</span>
+      </div>
+    </div>
+  </div>
+
+  <h2>Räätälöity prototypointi ainutlaatuisiin sovelluksiin</h2>
+  <p>Prototyyppiverstas on paikka, jossa ratkaisemme ongelmat, joihin vakiomalliset tuotantolautat eivät vastaa. Viimeaikaisia esimerkkejä:</p>
+  <ul>
+    <li>14'' matkailuretkiin tarkoitettu touring-lauta eurooppalaiselle kestävyysmelontibrändille, upotetulla tavarakannella ja vahvistetulla kärjellä — prototyyppi tehtiin, sovittiin ja testattiin laitoksellamme.</li>
+    <li>10'6'' joogalauta täyspitkällä pitävyysmatolla ja lisäpaksuudella jäykkyyden lisäämiseksi, validoitiin 4 viikon vuokrauskauden kokeessa.</li>
+    <li>White label -laivaston lauta omilla kansikuvioilla ja kahdalla kahvalla, jossa prototyyppiä käytettiin värin, logon sijainnin ja pakkauksen varmistamiseen ennen kuin asiakas sitoutui konttiin.</li>
+  </ul>
+
+  <h2>Prototypointitiimimme</h2>
+  <p>Verstaassa työskentelee kahdeksan monitaitoista tuotantoteknikkoa, jotka on koulutettu vähintään kahdelle kolmesta ydinosa-alueesta (leikkaus, hitsaus, sovitus). Tiiminvetäjä on mestari, jolla on 16 vuoden kokemus aina yksilövalmistuksesta tuotantosarjoihin. Jokaiselle prototyypille nimataan oma projekti-insinööri, joka toimii asiakkaan aikaisena yhteyshenkilönä koko rakennus- ja testausvaiheen ajan.</p>
+
+  <h2>Asiakkaan osallistuminen</h2>
+  <p>Kannustamme asiakkaitamme osallistumaan prototyypin rakentamisen keskeisiin vaiheisiin — erityisesti ensimmäiseen sovituskatsaukseen ja vesikokeeseen. Operaattoreilta näissä vaiheissa saatu palautte on korvaamatonta, kun lautaa hienosäädetään ennen tuotantoa. Emme rakenna tyhjyyteen; rakennamme kanssasi.</p>
+  <p>Vesikoeohjelma on samalla tilaisuus tiimillesi oppia laudan käsittelyn ja kunnossapidon vaatimukset, mikä varmistaa sujuvan siirtymän tuotantoon, kun lopulliset laudat toimitetaan.</p>
+
+cta:
+  title: 'Aloita prototyyppiprojektisi'
+  subtitle: 'Kerro tarvitsemastasi laudasta, niin ehdotamme prototyypin kehittämissuunnitelman.'
+  actions:
+    - variant: primary
+      text: Ota yhteyttä prototypointitiimiimme
+      href: /fi/contact#project-brief
+    - text: Takaisin tutkimus- ja kehityskeskukseen
+      href: /fi/randdcenter

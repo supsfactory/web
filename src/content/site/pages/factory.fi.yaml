@@ -1,0 +1,347 @@
+meta:
+  title: 'Tehdas ja valmistus — puhallettavien SUP-lautojen OEM'
+  description: 'Tutustu Vatradin tehtaaseen: 12,500 m² laitos, jossa on leikkaus, RF-hitsaus, painatus, kokoonpano ja laadulaboratorio puhallettavien SUP-lautojen OEM/ODM-valmistukseen.'
+  dateModified: '2026-08-07'
+  keywords:
+    - 'sup tehdas kiina'
+    - 'puhallettavien melalautojen tehdas'
+    - 'oem sup valmistaja'
+    - 'puhallettavien sup valmistus'
+hero:
+  tagline: Tehdas
+  title: Tehdas ja valmistus
+  subtitle: 12,500 m2 SUP-tehdas Qingdaossa, Kiinassa — räätälöity SUP-valmistus raakaisesta PVC-materiaalista valmiiseen puhallettavaan melalautaan
+
+answer:
+  label: 'Suora vastaus'
+  text: 'Sertifioitu puhallettavien SUP-lautojen tehdas Qingdaossa, Kiinassa: ISO 9001, ISO 25649, BSCI, CE, REACH ja RoHS. 12,500 m² laitos 4 erikoistuneella työpajalla, 350+ työntekijää, 120,000+ lautaa vuodessa (10,000 lautaa/kk 4 automaattilinjan avulla). Jokainen lauta painetestataan 18.0 PSI paineella 24 tunnin ajan, läpäisee 100 kohdan kokoonpanotarkistuslistan ja sisältää 10 vuoden materiaalijäljitettävyyden.'
+  verified: 'Syyskuu 2026'
+
+intro:
+  - Qingdao Vatrad Group Co., Ltd:n valmistusdivisioonana Vatrad hallitsee puhallettavien SUP-lautojen valmistuksen jokaista vaihetta — raaka-PVC-materiaalien saapumisesta valmiin melalaudan lopulliseen tarkastukseen ennen toimitusta. Valmistuslaitoksemme Qingdaon talouskehitysvyöhykkeessä ulottuu 12,500 neliömetriin ja sisältää omat työpajat PVC-leikkaukseen, drop-stitch-ydinten liimaukseen, SUP-digipainatukseen, lopulliseen kokoonpanoon ja laadutestaukseen.
+  - Kun suunnittelu, tuotekehittely, prototyypit, valmistus ja testaus toimivat saman katon alla, poistamme sopimusvalmistuksen tehottomuudet ja säilytämme suoran hallinnan rakenteiden laadulle, materiaalien valinnalle ja toimitusaikatauluille. Jokainen tehtaastamme lähtevä SUP-lauda on rakennettu omilla ihmisillämme, omilla laitteillamme ja omilla standardeillamme.
+
+stats:
+  - value: 12,500 m2
+    label: Valmistuspinta-ala
+  - value: 350+
+    label: Taitavat työntekijät
+  - value: 120,000+
+    label: Vuodessa valmistettuja SUP-laudoja
+  - value: ISO 9001
+    label: Laatusertifioitu
+
+intelligence_tagline: Tehtaan älykäs toiminta
+intelligence_title: Tutustu valmistusvalmiuksiimme
+
+intelligence_cards:
+  - title: Tuotantokapasiteetti
+    icon: C
+    icon_bg: blue
+    desc: '12,500 m² laitos, joka tuottaa 120,000+ SUP-lautaa vuodessa SUP-lauta- ja turvallisuusvarustelinjoilla. 350+ työntekijää, 2 vuoroa.'
+    metrics:
+      - label: MOQ
+        value: 'SUP: näyte 1–2 / pilotti 20–50 / sarja 90–100+'
+      - label: Toimitusaika
+        value: '25–35 päivää'
+    link: /fi/factory/capacity
+    link_label: Täydet kapasiteettitiedot →
+  - title: Laadulaboratorio ja testaus
+    icon: Q
+    icon_bg: green
+    desc: 'Riippumaton laadulaboratorio 4 testausvaiheella: raaka-aineen tarkastus (veto, repeämä, UV), 24 h paineen säilytys 18.0 PSI paineella, sauman kuorimisen testaus ja taivutusjäykkyyden varmennus jokaisella laudalla.'
+    metrics:
+      - label: Laboratoriovälineet
+        value: 'Vetotesteri, lämpötilakammio, vuototankki'
+      - label: Standardit
+        value: 'QMS: ISO 9001; markkina: CE, AS 1799'
+    link: /fi/factory/quality-lab
+    link_label: 'Laboratoriomenettelyt ja välineet →'
+  - title: OEM/ODM-kyvykkyys
+    icon: O
+    icon_bg: purple
+    desc: 'Läpi suunnittelun ulottuvat OEM/ODM-palvelut: räätälöity muotosuunnittelu, private label -pakkaus, räätälöidyt lautavärit, kansikuviot (digipainatus ja silkopainatus) sekä vientivalmiin pakkaaminen.'
+    metrics:
+      - label: Sertifioinnit
+        value: 'ISO 9001, BSCI, CE, REACH'
+      - label: Vientimarkkinat
+        value: '50+ maata'
+    link: /fi/factory/oem-capability
+    link_label: 'Kaikki OEM-palvelut →'
+  - title: Laaduntarkastusstandardit
+    icon: I
+    icon_bg: orange
+    desc: 'Projektikohtaiset laaduntarkastuskriteerit IQC-, IPQC-, FQC- ja OQC-vaiheissa: ilmatiiviyden varmennus, visuaaliset ja mittatarkistukset, lisävarusteiden vahvistus, erien jäljitettävyys ja ennakkolähetysluvan allekirjoitus — sekä ohjattu ilmatiiviyspoikkeamien ja korjausten hallinta.'
+    metrics:
+      - label: Kattavuus
+        value: 'Materiaalit → lopullinen pakkaus'
+      - label: Lataukset
+        value: 'Laadunvalvontamenettely, PSI-raportti ja korjausasiakirjat (PDF)'
+    link: /fi/factory/quality-inspection
+    link_label: 'Tarkastusstandardit ja lataukset →'
+  - title: Korjauksen muutoksenhallinnan standardi
+    icon: C
+    icon_bg: blue
+    desc: 'Virallinen ISO 9001 -muutoksenhallinta korjausparametreille: ECR, riskiluokitus, osastojen välinen hyväksymismatriisi, 9-vaiheinen suljettu silmukka, kvantitatiivinen tekninen validointi (18.0 PSI, 24 h säilytys, ΔP ≤ 0.2 PSI) ja Poka-Yoke-turvamekanismit — kaksikielisellä menettelyllä QMS-SOP-QC-CC-001 Rev 2.0.'
+    metrics:
+      - label: Asiakirja
+        value: 'QMS-SOP-QC-CC-001 Rev 2.0'
+      - label: Lataukset
+        value: 'Muutoksenhallinnan SOP ja toteutusliite (PDF)'
+    link: /fi/factory/quality-change-control
+    link_label: 'Muutoksenhallinnan standardi ja lataukset →'
+  - title: Vaatimustenmukaisuuspoikkeavien tuotteiden ohjaus
+    icon: N
+    icon_bg: purple
+    desc: 'ISO 9001:2015 -standardin kohdan 8.7 mukainen vaatimustenmukaisuuspoikkeavien tuotosten ohjaus: NCR-rekisteröinti, eristys ja säilytys, päätös vakavuuden mukaan (linjan allekirjoitus / laadupäällikkö + tekninen insinööri / MRB), ohjattu korjaus SRI-ohjeiden mukaisesti, riippumaton 100 % uusintatarkastus ja valvottu tuhoaminen — romuvideo tallennetaan SHA-256-suojausella.'
+    metrics:
+      - label: Standardi
+        value: 'ISO 9001:2015 Clause 8.7'
+      - label: Romutodistus
+        value: 'VAT-QA-SCRAP-CERT-2026'
+    link: /fi/factory/non-conforming-control
+    link_label: 'Poikkeavien tuotteiden ohjaus ja lataukset →'
+  - title: 7-vaiheinen laadunvalvontavuoto
+    icon: Q
+    icon_bg: green
+    desc: 'Projektin koko laadunvalvontavuoto portti portilta: laadunsuunnittelu (PPM) → saapuvien materiaalien tarkastus → valmistuksen aikainen valvonta ja ensimmäinen kappale → täyttö ja ilmatiiviys → lopputarkastus → pakkaus ja PSI → lähetyslupa ja jäljitettävyys. Jokaisella portilla näytetään mitä tarkistetaan, miten se arvioidaan ja mikä kaksikielinen raportti tuotetaan.'
+    metrics:
+      - label: Portit
+        value: '01 → 07'
+      - label: Lataukset
+        value: 'Raporttipaketit porttia kohden (PDF)'
+    link: /fi/quality
+    link_label: 'Tutustu 7-vaiheiseen vuotoon →'
+
+workshops_section:
+  tagline: Työpajat
+  title: Valmistuksen työpajat
+  workshops:
+    - title: PVC-leikkaus ja materiaalin valmistelu
+      description: Automaattiset CNC-leikkauskoneet käsittelevät PVC-, Hypalon- ja drop-stitch-kankaita alle millimetrin tarkkuudella. Tietokoneella optimoitu sisäkkäisyys minimoi materiaalihävikin ja varmistaa, että jokainen paneeli täyttää mittamäärittelynsä ennen hitsausta.
+      image: https://assets.isupfactory.com/images/sups/hero/production-dept.webp
+      alt: CNC-PVC-leikkauskone valmistelee puhallettavien SUP-lautojen kangaspaneeleja Qingdaon tehtaalla
+    - title: Putkien hitsaus ja lämpösaumaus
+      description: Erillinen hitsaustyöpaja, jossa on kuumailmahitsauskoneet ja RF-dielektriset puristimet. Kuumailmahitsaimet liittävät ja sulattavat PVC-putkiosat, kun ta RF-hitsaus tuottaa erittäin lujat tiiviit saumat, jotka ylittävät vaatimukset.
+      image: https://assets.isupfactory.com/images/sups/factory/isupfactory-production-department.webp
+      alt: RF-hitsauskone saumaa puhallettavan veneen putkiosia Qingdaon tehtaalla
+    - title: Drop-stitch-ydinten liimaus
+      description: SUP-lautojen drop-stitch-ydin liimataan ulkoisiin PVC-laminaatteihin lämpölaminoinnilla. Tuhannet sisäiset polyesterisäikeet yhdistävät ylä- ja alapinnan muodostaen jäykän rakenteen 12-15 PSI paineelle. Reunavahvikkeet liimataan fuusioliimalla kolmikerroksisesti reunan lujuutta varten.
+      image: https://assets.isupfactory.com/images/sups/factory/isupfactory-sup-manufacturing.webp
+      alt: Puhallettavien SUP-lautojen tuotantolinja drop-stitch-ydinten liimauslaitteistolla Qingdaon tehtaalla
+    - title: SUP-lautojen painatus ja koristelu
+      description: SUP-laudat koristellaan digipainatuksella täysvärisille kuvioille ja silkopainatuksella logoille ja toistuville kuvioille. Digipainokoneet tuottavat valokuvatason laisia kansikuvioita, kun ta silkopainatus antaa kestävät ja elävät bränditunnukset.
+      image: https://assets.isupfactory.com/images/sups/factory/isupfactory-production-department-2.webp
+      alt: Tuotantonosaston sisätilat Qingdaon puhallettavien SUP-lautojen tehtaalla
+    - title: Lopullinen kokoonpano ja asennus
+      description: Kokoonpanolinja, jossa jokaiselle SUP-laudalle asennetaan venttiilit, D-renkaat, kahvat, eväkotelot ja kansipehmusteet. Jokainen lauta käy läpi 100 kohdan kokoonpanotarkistuslistan, jonka tiimiesimies allekirjoittaa.
+      image: https://assets.isupfactory.com/images/sups/factory/isupfactory-production-department.webp
+      alt: Tuotantonosasto kokoonpanopöytien kanssa Qingdaon tehtaalla
+    - title: Laadutestaus ja tarkastus
+      description: Jokainen valmis lauta läpäisee pakollisen ilman säilymisen testin, sauman kuorimisen varmennuksen ja täyden järjestelmätarkistuksen ennen lähetystä. Laadulaboratoriamme toimii tuotannosta riippumatta ja raportoi suoraan johdolle.
+      image: https://assets.isupfactory.com/images/sups/factory/isupfactory-pressure-testing.webp
+      alt: Puhallettavien SUP-lautojen painetestaus ilman säilymisen varmistamiseksi ennen lähetystä Qingdaon tehtaalla
+
+equipment_section:
+  tagline: Välineet
+  title: Keskeiset valmistusvälineet
+  view_full: Näytä koko välineluettelo →
+  view_full_link: /fi/factory/equipment
+  items:
+    - name: Automaattinen PVC-leikkauskone
+      spec: CNC-ohjattu, 0.1 mm tarkkuus
+    - name: Lämpösaumakone
+      spec: Kuumailma, 200°C–300 °C, putkien liimaukseen
+    - name: RF-dielektrinen hitsauspuristin
+      spec: 15 kW, tiiviiden saumojen hitsaukseen
+    - name: Drop-stitch-laminointipuristin
+      spec: SUP-ytimet jopa 14 ft
+    - name: Digipainokone
+      spec: Täysväriset SUP-kansikuviot
+    - name: Silkopainokone
+      spec: Monivärilinen logopainatus
+
+qc_section:
+  tagline: Laadunvalvonta
+  title: Testaus- ja laadunvarmistusprosessi
+  subtitle: Jokainen lauda läpäisee pakollisen testauksen ennen lähetystä. Laadulaboratoriamme toimii tuotannosta riippumatta ja raportoi suoraan johdolle.
+  steps:
+    - step: '1'
+      title: Raaka-aineen tarkastus
+      desc: PVC-, Hypalon- ja drop-stitch-kankaille tehdään vetotestit (), repeämän eteneminen ja UV-kestävyyden varmennus ennen kuin yksikään erä siirtyy tuotantoon.
+    - step: '2'
+      title: 24 tunnin ilman säilymisen testi
+      desc: Jokainen putkiosa täytetään 18.0 PSI paineeseen ja pidetään 24 tuntia. Yli 0.50 PSI paineen alenema käynnistää automaattisen hylkäyksen ja sauman uudelleentarkastuksen.
+    - step: '3'
+      title: Kuormitus- ja tasapainotestaus
+      desc: Valmiit laudat täytetään nimellispaineeseen ja tarkistetaan symmetrisen turvotuksen, jäykkyyden 15 PSI paineessa ja vakauden kuormituksen alaisena. Jokainen lauta testataan märissä omassa testialtaassamme ennen lopputarkastusta.
+
+oem_section:
+  tagline: OEM-projektit
+  title: Brändi- ja OEM-yhteistyön tapaustut
+  subtitle: Konseptista tuotantoon — autamme maailmanlaajuisia brändejä lanseeraamaan ja skaalaamaan puhallettavia SUP-tuotelinjojaan.
+  cases:
+    - challenge: Eurooppalainen ulkoilukauppias tarvitsi private label -SUP-tuotelinjan, jossa on omat kansikuviot, ympäristöystävällinen PVC ja vähittäiskauppaan valmis pakkaus — kaikki 60 päivässä.
+      solution: Kehitimme omat digipainotiedostot, hankimme REACH-vaatimustenmukaisen PVC:n ja tiivistimme näytteistyksen 3 kierroksesta 1:een sijoittamalla suunnittelutiimimme Qingdaon tehtaallemme.
+      result: Tuotanto 25–35 päivää allekirjoitetusta tilauksesta, ensimmäinen toimitus 60 päivän laskutusikkunan kuluessa. 2,400 yksikköä 4 SKU:ta. Uusintatilaus tehtiin ennen ensimmäisen erän toimituksen valmistumista.
+      disclaimer: 'Anonymisoitu projektin yhteenveto — projektin tyyppi ja laajuus ovat edustavia; tiettyjä tuloksia ei voi riippumattomasti todentaa.'
+    - challenge: Yhdysvaltain vesilaju startup tarvitsi suorituskykyisen drop-stitch-SUP-laudan, jossa on oma muoto, yhteisbrändätty pakkaus ja BSCI-sertifiointi vähittäiskauppaan sijoittamista varten.
+      solution: Muokkasimme olemassa olevaa SUP-muotosta muutetulla ääriviivalla, kehitimme yhteisbrändätyn pakkauksen kuvituksen ja toimitimme täydet BSCI-auditointiin liittyvät asiakirjat.
+      result: Tuote sijoitettiin onnistuneesti keskeisiin yhdysvaltalaisiin ulkoilukauppiaisiin, mikä loi vahvan liikkeen yli 5,000 yksikön myynnillä 1. vuonna ja 98 % myyntiasteella.
+      disclaimer: 'Anonymisoitu projektin yhteenveto — projektin tyyppi ja laajuus ovat edustavia; tiettyjä tuloksia ei voi riippumattomasti todentaa.'
+    - challenge: Australialainen jakelija tarvitsi CE-sertifioidun SUP-valikoiman, jossa on omat värit ja australialaisstandardien vaatimustenmukaisuus.
+      solution: Valmistimme esituotantonäytteet 4 värivaihtoehtoa ja koordinoimme kolmannen osapuolen vaatimustenmukaisuustestauksen.
+      result: 3-mallinen SUP-valikoima lanseerattiin AU/NZ-markkinoille. Sen jälkeen voitimme valtion tarjouskilpailun 12 valvontaveneen SUP-lautoihin.
+      disclaimer: 'Anonymisoitu projektin yhteenveto — projektin tyyppi ja laajuus ovat edustavia; tiettyjä tuloksia ei voi riippumattomasti todentaa.'
+
+faq_section:
+  tagline: FAQ
+  title: B2B- ja OEM-kysymyksiä
+  questions:
+    - q: Mikä on OEM-puhallettavien SUP-lautojen minimitilaus (MOQ)?
+      a: 'MOQ vahvistetaan projektikonfiguraation mukaan eikä kiinteänä lukuna — runko ja työkalut, väripaletit ja PVC, kuviot, pakkaus ja lisävarusteet. Vakiintunut sarjatuotanto ajaa 90–100+ yksikköä erää kohden täydestä 150 m drop-stitch-rullasta, pienimuotoinen yhteisbrändäys alkaa 5–10 yksiköstä, ja jokainen projekti käy läpi näytevaiheen (1–2 yksikköä) ja pilottivaiheen (20–50 yksikköä). Katso koko laskentalogiikka oppaastamme MOQ & joustava brändäys.'
+    - q: Onko Vatradilla BSCI-sertifiointi?
+      a: Kyllä. Tehtaamme ylläpitää voimassa olevaa BSCI-yhteiskunnallista vaatimustenmukaisuussertifiointia (auditointiraportti pyydettäessä). Meillä on myös ISO 9001 laadunhallinta. CE-sertifiointi koskee EU-markkinoille tarkoitettuja malleja; laajuus vahvistetaan projekti kohtaisesti. REACH- ja RoHS-vaatimustenmukaisuusasiakirjat toimitetaan jokaisen OEM-tilauksen mukana.
+    - q: Mikä on OEM-tilauksen tyypillinen toimitusaika?
+      a: Vakiintunut toimitusaika on 25–35 päivää vahvistetusta tilauksesta ja käsirahasta sarja-OEM-tuotannossa. Räätälöity muotokehitys lisää työkalulle 15–20 päivää. Kiireellisiin tilauksiin ja sesongikysyntään on saatavilla kiireellinen tuotanto. Prototyyppinäytteet ovat yleensä valmiit 7–12 päivässä.
+    - q: Hoidatteko vientiasiakirjat?
+      a: Kyllä. Tiimimme hoitaa vientiasiakirjat ja tulliselvityksen omissa käsissä, ja toimitamme 50+ maahan EU:n, Yhdysvaltain, Australian ja Aasian markkinoille.
+
+b2b_moq: 'MOQ vahvistetaan projektikonfiguraation mukaan: näyte 1–2, pilotti 20–50, sarja 90–100+ (150 m rullaa kohti); pienimuotoinen yhteisbrändäys 5–10 yksiköstä alkaen.'
+
+production_flow:
+  tagline: Tuotantovuoto
+  title: Materiaalista valmiiseen lautaan
+  subtitle: Jokainen lauta käy läpi 6 tuotantovaihetta, joissa jokaisessa vaiheessa on laadunvalvontapiste. Ei pikakujia, ei ohitettuja tarkastuksia.
+  stages:
+    - stage: '01'
+      title: Materiaalin vastaanotto ja saapuvien materiaalien laadunvalvonta
+      description: 'Kaikki saapuvat materiaalit kirjataan erä-/lottonumerolla ERP-järjestelmäämme. PVC-kangasrullat, drop-stitch-ytimet, venttiilit, liimat ja kiinnikkeet eristetään, kunnes laadunvalvonta on allekirjoittanut hyväksynnän.'
+      qc_check: 'Vetolujuus (ASTM D751), repeämänkestävyys (ISO 4674), paksuusmittari, liiman viskositeetti, silmämääräinen vikojen skannaus'
+      qc_threshold: '100 % eristä testataan. Hylätään, jos veto < 90 % määrittelystä, repeämä < määrittelyn vähimmäisarvo tai löytyy silmämääräinen vika'
+      responsibility: Saapuvien materiaalien laadunvalvontatiimi (3 tarkastajaa)
+    - stage: '02'
+      title: CNC-leikkaus ja materiaalin valmistelu
+      description: 'Tietokoneella optimoitu sisäkkäisyys asettaa paneelit PVC-ainemateriaalille jätteön vähentämiseksi. Automaattiset CNC-leikkauskoneet säilyttävät 0.1 mm paikkatarkkuuden.'
+      qc_check: 'Mittatarkistus CAD-DXF-tiedostoja vasten, reunojen laadun tarkastus, paneelimäärän varmennus'
+      qc_threshold: 'Joka 20. paneeli mitataan. Toleranssi ±0.5 mm. Erä hylätään, jos yli 2 % on toleranssin ulkopuolella'
+      responsibility: Leikkaustyöpajan esimies
+    - stage: '03'
+      title: Hitsaus ja drop-stitch-liimaus
+      description: 'Drop-stitch-ydinliimataan ulkoisiin PVC-laminaatteihin lämpölaminoinnilla. Putkiosat hitsataan RF-menetelmällä tai kuumailmalla. Reunavahvikkeet liimataan fuusioliimalla kolmikerroksisesti.'
+      qc_check: 'Kuorimistesti joka 50 yksikkö (ASTM D751), hitsin leveyden mittaus, kuumailman lämpötilakirjojen tarkistus, saumojen silmämääräinen tarkastus takavaloa vasten'
+      qc_threshold: 'Kuorimislujuus vähintään 8 N/cm. Hitsin leveyden toleranssi ±1 mm. Mikä tahansa näkyvä kanavoituminen = hylkäys'
+      responsibility: Hitsauksen laadunvalvonta (2 tarkastajaa vuoroa kohden)
+    - stage: '04'
+      title: Kokoonpano ja varustelu
+      description: 'Laudat siirtyvät lopulliseen kokoonpanoon, jossa kaikki komponentit kootaan yhteen: kansi- ja runkopaneelit sulatetaan, venttiilit asennetaan sekä D-renkaat, kahvat, eväkotelot ja kantolaukkukokoonpano tehdään. Jokainen yksikkö käy läpi 100 kohdan kokoonpanotarkistuslistan.'
+      qc_check: '100 kohdan tarkistuslistan allekirjoitus yksikköä kohti, venttiilin toimintatesti (10 avaus/sulkukierrosta), kiinnikkeiden kiristysmomentin varmennus, silmämääräinen tarkastus'
+      qc_threshold: 'Turvallisuuskriittisissä kohteissa (venttiilit, D-renkaat, kahvat) nollavika-periaate. Pienet kosmeettiset viat: AQL 2.5 (ISO 2859)'
+      responsibility: Kokoonpanotiimin esimies + linjan laadunvalvonta
+    - stage: '05'
+      title: Painetestaus ja laadunpidätys
+      description: 'Jokainen osa täytetään 18.0 PSI paineeseen (12–15 PSI nimellispaineiselle SUP-laudalle) ja pidetään 24 tuntia. Paineanturit kirjaavat jatkuvasti. Osat, joiden paine laskee yli 0.50 PSI, hylätään ja lähetetään sauman uudelleentarkastukseen.'
+      qc_check: '24 h paineen säilytyksen kirjaus, antureiden kalibroinnin varmennus päivittäin, lämpötilakorjattu paineen lukema, sauman uudelleentesti korjauksen jälkeen'
+      qc_threshold: 'Enintään 0.50 PSI paineen alenema 24 h aikana vakaassa lämpötilassa. Yksikin osa, joka ylittää tämän = 100 % koko tuotantoerän uudelleentesti'
+      responsibility: Laadulaboratorio (tuotannosta riippumaton, raportoi johdolle)
+    - stage: '06'
+      title: Lopputarkastus ja pakkaus
+      description: 'Lopullinen visuaalinen ja toiminnallinen tarkastus. Pinnan viat, värin yhtenäisyys, etiketin/BIN-tunnistus, pakkauksen eheys ja lisävarusteiden täydellisyys. Yksiköt pakataan tyhjöpakkaamiseen, laatikoidaan ja lavastetaan konttilaitaukseen.'
+      qc_check: 'Täysi silmämääräinen tarkastus, lisävarustelista SKU:ta kohden, pakkauksen pudotustesti (1 m, satunnaisnäyte), etiketin/viivakoodin skannauksen varmennus'
+      qc_threshold: 'AQL 2.5 isoleille vikoille, AQL 4.0 pienille vikoille. Nolla toleranssi turvallisuusvikoille. 100 % yksiköistä tarkastetaan silmämääräisesti'
+      responsibility: Lopputarkastustiimi (4 tarkastajaa) + pakkaustiimin esimies
+
+workforce:
+  tagline: Ihmistemme
+  title: Henkilöstö ja osaaminen
+  engineers: 25+
+  engineers_detail: 'Tuotantokehittäjät tuotantokehityksessä, muotosuunnittelussa, materiaalilaboratoriossa ja tuotantotekniikassa. Keskimäärin 7+ vuotta kokemusta puhallettavien tuotteiden valmistuksesta.'
+  shift_pattern: '2 vuoroa/vrk (07:00–15:30, 15:30–00:00). Valinnainen yövuoro kiireellisiä tilauksia varten.'
+  training: 'Kuukausittainen laadunvalvontakoulutus, neljännesvuosittaiset turvallisuusharjoitukset, vuosittainen osaamisen arviointi. Uudet työntekijät suorittavat 40 tunnin perehdytyksen ennen tuotantolinjalle siirtymistä.'
+  departments:
+    - name: Tuotantokehitys ja suunnittelu
+      count: 25+
+      role: Tuotesuunnittelu, muototekniikka, materiaalilaboratorio
+    - name: Leikkaus ja materiaalin valmistelu
+      count: 15
+      role: CNC-leikkaus, paneelien valmistelu, materiaalien käsittely
+    - name: Hitsaus ja laminointi
+      count: 40
+      role: RF-hitsaus, kuumailmahitsaus, drop-stitch-liimaus
+    - name: SUP-ydinten liimaus
+      count: 30
+      role: Drop-stitch-laminointi, lämpöliimaus, reunavahvikkeiden fuusioliimaus
+    - name: Kokoonpano ja varustelu
+      count: 35
+      role: Lopullinen kokoonpano, kiinnikkeiden asennus, järjestelmätarkistus
+    - name: Laadunvalvonta
+      count: 12
+      role: Saapuvien materiaalien laadunvalvonta, valmistuksen aikainen laadunvalvonta, lopputarkastus, laboratoriotestaus
+    - name: Logistiikka ja pakkaus
+      count: 20
+      role: Pakkaus, konttilaitaus, vientiasiakirjat
+    - name: Johto ja hallinto
+      count: 15
+      role: Myynti, hankinta, henkilöstö, talous, vaatimustenmukaisuus
+
+material_traceability:
+  tagline: Jäljitettävyys
+  title: Materiaalien seuranta ja eräohjaus
+  description: Jokaiselle raaka-aine-erälle annetaan ERP-järjestelmässämme yksilöinen eränumero. Saapumisesta tuotannon kautta lopputuotteeseen jokaisen laudan materiaaliluettelo linkittyy alkuperäiseen toimittajaerään. Tämä mahdollistaa täyden jäljitettävyyden ylöspäin mihin tahansa laatu- tai vaatimustenmukaisuuskysymykseen.
+  system: Oma ERP (Qingdao Vatrad Groupin sisäinen järjestelmä) + fyysiset erätunnisteet jokaisessa työtilauksessa
+  coverage: 100 % tuotantomateriaaleista —PVC, Hypalon, drop-stitch-kangas, liimat, venttiilit, kiinnikkeet, pakkaus
+  records_retained: 10 vuotta (CE 2013/53/EU -vaatimuksen mukaan)
+  suppliers:
+    - material: Meriluokan PVC
+      source: Kiinalaiset ja korealaiset toimittajat
+      certified: ISO 9001, REACH, RoHS
+    - material: Hypalon (CSM)
+      source: Japanilainen toimittaja
+      certified: ISO 9001, REACH
+    - material: Drop-stitch-kangas
+      source: Oma kutomo + ulkoinen kumppani
+      certified: Sisäinen laadunvalvonta + toimittajan ISO 9001
+    - material: Venttiilit ja kiinnikkeet
+      source: Kiinalaiset OEM-toimittajat
+      certified: ISO 9001, materiaalitodistukset erää kohden
+
+qc_dashboard:
+  tagline: Laadunvalvonta luvuissa
+  title: Laadunvalvonnan mittarit
+  subtitle: Todellista hyväksytyt/hylätyt -dataa tuotantolinjaltaamme. Laadulaboratoriamme toimii tuotannosta riippumatta ja raportoi suoraan johdolle.
+  stats:
+    - value: 100%
+      label: Painetestatut yksiköt
+      detail: Jokainen lauta, jokainen osa, jokainen erä
+    - value: '<5%'
+      label: Suurin sallittu paineen alenema
+      detail: 24 h aikana 18.0 PSI paineessa
+    - value: AQL 2.5
+      label: Isollisten vikojen kynnysarvo
+      detail: ISO 2859 -näytteistysstandardin mukaan
+    - value: 24h
+      label: Paineen säilytyksen kesto
+      detail: Jokainen lauta, jokainen osa
+    - value: 18 PSI
+      label: Testipaine nimellispaineeseen verrattuna
+      detail: Turvamarginaali jokaisessa osassa
+    - value: 0%
+      label: Toleranssi turvallisuusvikoihin
+      detail: Venttiilit, D-renkaat, saumat, kantavuus
+
+process_cta:
+  title: Tutustu valmistusprosessiimme
+  desc: Seuraa SUP-lautaa jokaisen tuotantovaiheen läpi — raaka-aineesta merikelpoiseksi laudaksi.
+  label: Näytä tuotantoprosessi →
+  link: /fi/factory/process
+
+evidence_review:
+  tagline: 'Näyttö ja todentaminen'
+  title: 'Tehdasanalyysi — todennettu'
+  body: 'Kaikki tämän sivun valmistusväitteet on varmennettu valmistustekniikan tiimimme toimesta Laixin, Qingdaon laitoksella. Todistukset, laaduntarkastuskirjaukset, paine- ja rakennetestiraportit sekä erien jäljitettävyyskirjaukset ovat pyydettäessä saatavilla. Tekniset arvot on viimeksi todennettu syyskuussa 2026.'
+
+cta:
+  title: 'Tutustu tehtaaseemme'
+  actions:
+    - text: Tehdasauditointitarkistuslista
+      href: /fi/factory-audit-checklist

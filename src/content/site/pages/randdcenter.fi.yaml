@@ -1,0 +1,131 @@
+meta:
+  title: 'Tutkimus- ja kehityskeskus — Puhallettavien SUP-lautojen insinööriys | {SITE}'
+  description: 'Tutkimus ja kehitys — PVC-kankaan testaus, rungon suunnittelu, RF-hitsaus, hydrodynaamiset testit ja laadunvalvonta. Räätälöityjä T&k-palveluita tarjolla.'
+  dateModified: '2026-08'
+
+hero:
+  tagline: Tutkimus- ja kehityskeskus
+  title: T&K-keskus
+  subtitle: Keskittyy edistykseen
+
+intro:
+  - Vatradin tutkimus- ja kehityskeskus (T&K) on moottori missionamme mullistaa vesiurheiluvälineet. Annamme vesiurheilun harrastajille ympäri maailmaa turvallisempia, mukavampia ja nautinnollisempia tuotteita jatkuvalla innovoinnilla puhallettavissa seisulaut SUP-laudoissa ja veneissä. Omistautunut insinööri-, suunnittelija- ja intohimoisten vesiurheilun asiantuntijatiimimme muokkaa alan tulevaisuutta ja nostaa jatkuvasti laatua, suorituskykyä ja kestävyyttä.
+  - T&k-tilamme kokoaa samat katokseen materiaalitieteilijät, laivanrakentajat ja tuotantoinsinöörit. Kankaan muotoilusta ja rungon simuloinnista hitsausprosessien kehittelyyn ja täysmittakaavaiseen merikokeeseen — jokainen tuotekehityksen vaihe nojaa dataan ja varmennetaan testeillä.
+
+mission:
+  tagline: Tehtävämme
+  title: Uusien vesiurheilujen innovointi
+  pillars:
+    - icon: lightning
+      title: Teknologinen edistyminen
+      desc: Uusien materiaalien, suunnittelujen ja valmistusmenetelmien edelläkävöinti paremman tuotesuorituskyvyn ja kestävyyden saavuttamiseksi.
+    - icon: design
+      title: Käyttäjäkeskeinen suunnittelu
+      desc: Käyttäjien tarpeiden syvä ymmärtäminen ja ylittäminen ergonomisen ja intuitiivisen tuotesuunnittelun avulla.
+    - icon: globe
+      title: Kestävät käytännöt
+      desc: Ympäristövaikutuksemme pienentäminen ympäristöystävällisiä materiaaleja ja prosesseja hyödyntämällä.
+    - icon: shield
+      title: Kompromissiton turvallisuus
+      desc: Korkeimpien turvallisuusstandardien varmistaminen tiukkojen testien ja sertifioinnin kautta.
+
+pillars:
+  - title: Teknologinen edistyminen
+    desc: Uusien materiaalien, suunnittelujen ja tuotantoprosessien edelläkävöinti erinomaisen tuotesuorituskyvyn ja kestävyyden saavuttamiseksi.
+    icon: tech
+  - title: Edistyneet materiaalit
+    desc: Huippuluokan PVC:n, Hypalonin, komposiittien ja kestävien vaihtoehtojen tutkiminen tuotteen ominaisuuksien parantamiseksi.
+    icon: materials
+  - title: Kestävyys
+    desc: 'Ydinsitoumus: olemme omistautuneet ympäristövastuulle kestävän valmistuksen ja kierrätettävien materiaalien kautta.'
+    icon: sustainability
+
+capabilities:
+  tagline: Osaaminen
+  title: T&k-osaaminen
+  subtitle: Neljä ydinosa-aluetta, jotka antavat meille päästä päähän tuotekehityksessä — raaka-ainetutkimuksesta loppusertifiointiin.
+  groups:
+    - title: Materiaalitiede ja kangastekniikka
+      items:
+        - PVC:n ja Hypalonin muotoilun analyysi ja optimointi
+        - UV-stabilointi, palonestoaineet ja antimikrobisten lisäaineiden kehittäminen
+        - monikerroksisen kankaan laminointi ja tarttumisen insinööriys
+        - Kiihdytetyt vanhenemistestit (UV, lämpö, kosteus, suolasumu)
+    - title: Rungon suunnittelu ja hydrodynamiikka
+      items:
+        - Parametristen 3D-runkojen suunnittelu ja CFD-optimointi
+        - Elementtimenetelmäanalyysi rakenteellisille ja iskuille kohdistuville kuormille
+        - Pienmallin vetoallastestit ja suorituskyvyn validointi
+        - Runkojen kehittely erikois käyttötarkoituksiin
+    - title: Hitsaus- ja liitäntätekniikka
+      items:
+        - RF-dielektrisen hitsausprosessin kehittäminen ja optimointi
+        - Kuumailma-, kuumakiilä- ja ultraäänihitsausmenetelmät
+        - Liimautus ja saumanauhan kelpuutus
+        - Hitsin lujuuden mallintaminen ja eliniän ennustaminen
+    - title: Testaus, sertifiointi ja vaatimustenmukaisuus
+      items:
+        - Laadunjohto ja CE-vaatimustenmukaisuustestit
+        - Riippumattomat kolmansen osapuolen testit ja sertifiointituki
+        - Hankintakelpoisuutta varten kehitettävät räätälöidyt testimenetelmät
+        - Käytönaikainen vika-analyysi ja juurisyyn selvitys
+
+rd_numbers:
+  tagline: Innovointi
+  title: T&k luvuilla
+  stats:
+    - value: '14'
+      label: T&k-insinööriä ja -tutkijaa
+    - value: '8'
+      label: Aktiivisia patentteja ja hakemuksia
+    - value: '6'
+      label: Erikoislaboratorioita
+    - value: 12 vu
+      label: Tiimin keskimääräinen kokemus
+
+rd_services:
+  tagline: Räätälöity T&k
+  title: T&k-palvelut kumppaneille
+  services:
+    - title: Räätälöity materiaalikehitys
+      desc: Kehitämme räätälöityjä kangasmuotoiluja, laminaattirakenteita ja liimausjärjestelmiä, jotka on sovitettu käyttöympäristöösi ja suorituskykytavoitteisiisi.
+    - title: OEM / ODM -tuotesuunnittelu
+      desc: Kehitämme räätälöityjä kangasmuotoiluja, laminaattirakenteita ja liimausjärjestelmiä, jotka on sovitettu käyttöympäristöösi ja suorituskykytavoitteisiisi.
+    - title: Kolmansen osapuolen testaus ja sertifiointi
+      desc: Käytä ISO-vaatimustenmukaisia testitilojamme riippumattomaan materiaalitestaukseen, tuotteen validointiin ja sertifioinnin tukeen.
+  cta: Keskustele T&k-tarpeistasi →
+  cta_link: /fi/contact
+
+vision:
+  tagline: Näkymämme
+  title: Muokkaamme vesiurheilun tulevaisuutta
+  body: Vatrad pyrkii johtamaan puhallettavien veneiden ja SUP-laautojen alaa jatkuvalla innovoinnilla, horjumattomalla laadulla sekä vakaalla sitoumuksella turvallisuuteen ja kestävyyteen — mikä rikastuu lopulta vesiurheilun harrastajien kokemuksia ympäri maailmaa. Vatradin T&K-keskus on paikka, jossa intohimo kohtaa innovaation ja alalle asetetaan uudet standardit.
+
+labs_section:
+  tagline: Laboratoriot
+  title: Laboratoriotemme
+  labs:
+    - image: https://assets.isupfactory.com/images/sups/randd/isupfactory-pvc-material-lab.webp
+      title: PVC-kangaslaboratorio
+      description: Jatkuva PVC- ja Hypalon-putkikankaiden tutkimus ja testaus vetolujuuden, UV-kestävyyden, hankauksen ja matalan lämpötilan taivutuksen osalta pitkäikäisyyden varmistamiseksi meriympäristöissä.
+      href: /fi/randdcenter/pvc-fabric-lab
+    - image: https://assets.isupfactory.com/images/sups/factory/isupfactory-design-discussion-2.webp
+      title: Rungon suunnittelustudio
+      description: CAD-ohjattu suunnittelu ja HDPE-, alumiini- ja lasikuiturunkojen elementtimenetelmäanalyysi. Jokainen runko simuloidaan digitaalisesti jännityksen jakauman ja iskunkestävyyden osalta ennen ensimmäisen prototyypin rakentamista.
+      href: /fi/randdcenter/hull-engineering
+    - image: https://assets.isupfactory.com/images/sups/factory/isupfactory-sup-manufacturing-3.webp
+      title: RF-hitsauskeskus
+      description: Omistettu radiotaajuushitsauslaitos, jossa on tarkka lämpötila- ja paineohjaus ja joka tuottaa suuren lujuuden omaavia, ilmatiiviitä saumoja, jotka täyttävät puhallettavien alusten teollisuusstandardit.
+      href: /fi/randdcenter/rf-welding
+    - image: https://assets.isupfactory.com/images/sups/factory/isupfactory-design-discussion-original.webp
+      title: Hydrodynaaminen testialta
+      description: Pienmallitestit omassa testialtaassamme rungon muodon, liikkeelle lähtö- ja vakausominaisuuksien sekä polttoaineen kulutuksen optimointiin eri kuormitus- ja meriolosuhteissa.
+      href: /fi/randdcenter/hydrodynamic-test-tank
+    - image: https://assets.isupfactory.com/images/sups/products/sup-series/sup-ocean-voyager-1.webp
+      title: Prototyyppiverstas
+      description: Täysmittakaavainen prototypointi- ja varustelutila, jossa uudet mallit rakennetaan, sovitetaan ja testataan merellä. Jokainen prototyyppi käy läpi vähintään 20 tunnin vesitestin ennen tuotantohyväksyntää.
+      href: /fi/randdcenter/prototype-workshop
+    - image: https://assets.isupfactory.com/images/sups/factory/isupfactory-uv-resistance-testing.webp
+      title: Laatu- ja tarkastuslaboratorio
+      description: Omistettu laadunvarmistuslaboratorio, joka suorittaa vetotestejä, ilman säilymisen syklejä, saumojen kuorimisen testejä ja materiaalisertifiointia varmistaakseen, että jokainen verstasta lähtevä vene vastaa julkaistuja spesifikaatioitamme.
+      href: /fi/randdcenter/quality-inspection-lab

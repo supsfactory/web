@@ -1,0 +1,242 @@
+meta:
+  title: 'Vaatimustenvastaisen SUP:n hallinta ja korjaus | OEM-tehdas | iSupfactory'
+  description: 'Vaatimustenvastaisten tuotteiden hallinta (ISO 9001:2015 kohdan 8.7 mukaisesti): NCR-eristys, ohjattu korjaus SRI:n mukaisesti, riippumaton uudelleentarkastus ja todistettu tuhointi.'
+  dateModified: '2026-08-14'
+  keywords:
+    - 'vaatimustenvastaisen tuotteen hallinta'
+    - 'sup korjauksen uudelleentarkastusprosessi'
+    - 'iso 9001 vaatimustenvastaiset tuotokset'
+    - 'ncr hallinta valmistuksessa'
+    - 'romutustodistus sup'
+    - 'puhallettavien supien oem laadunvalvonta'
+
+hero:
+  tagline: Vaatimustenvastaisten tuotteiden hallinta
+  title: Erottelu-, korjaus- ja uudelleentarkastusprosessi vaatimustenvastaisille tuotteille
+  subtitle: 'QINGDAO VATRAD GROUP.,LTD.:ssä vaatimustenvastaista lauttaa ei pääse eteenpäin. Tuote tai osa, joka ei täytä määriteltyjä hyväksymiskriteerejä, tunnistetaan, kirjataan vaatimustenvastausraporttiin (NCR), merkitään ja erotetaan, vaikutusalue arvioidaan sekä päätös tehdään oikealla päätösvallan tasolla. Sallittu korjaus tehdään ohjattujen ohjeiden mukaisesti, korjatut tuotteet tarkastetaan uudelleen alkuperäisiä hyväksymiskriteerejä vasten — myös täydellinen uudelleentestaus tarvittaessa — ja tuote lähtee vasta valtuutetun laadullisen hyväksynnän jälkeen. Tällä sivulla esitellään ISO 9001:2015 kohdan 8.7 mukainen ohjattu standardimme ja sen jäljitettävyysnäyttö.'
+  actions:
+    - text: Lataa NCP-valvonta-SOP (PDF)
+      variant: primary
+      href: 'https://assets.isupfactory.com/site/downloads/non-conforming-product-control-sop-iso-8-7.pdf?dl=1'
+    - text: Lataa romutus- ja tuhointitodistus (PDF)
+      href: 'https://assets.isupfactory.com/site/downloads/scrap-destruction-certificate-vat-qa-scrap-cert-2026.pdf?dl=1'
+    - text: Pyydä laaduntarkastelua
+      href: /fi/contact
+
+answer:
+  label: 'Suora vastaus'
+  text: 'QINGDAO VATRAD GROUP.,LTD.:ssä vaatimustenvastaisia tuotteita ei koskaan piiloteta, korjata epävirallisesti eikä luovuteta ilman todennusta. Jokainen tunnistettu vaatimustenvastaisuus kirjataan kyseisen tuotteen, erän tai osan kohdalle ja liitetään NCR-tunnukseen. Kohde merkitään (HOLD / QUARANTINE / REJECTED), erotetaan fyysisesti, ja vaikutusalue arvioidaan erän, materiaalierän, prosessivaiheen ja asiakirjaversioiden mukaan. Päätös tehdään virhevaikeutta vastaavalla päätösvallan tasolla: vähäiset ongelmat hyväksytään linjatason käsittelynä, vakavat ongelmat vaativat laadunvalvontapäällikön ja tuoteteknikon päätöksen sekä ohjatun korjausohjeen ja 100 %:n riippumattoman uudelleentarkastuksen, ja kriittiset ongelmat vaativat materiaaliarviointikomitean päätöksen sekä kirjallisen asiakkaan suostumuksen tarvittaessa — muuten pakollinen todistettu tuhointi. Korjatut tuotteet tarkastetaan uudelleen alkuperäisiä hyväksymiskriteerejä vasten, ilmatiiviyskorjauksille tehdään täysi uusi painetestisykli, ja lähetysluovutus tapahtuu vasta valtuutetun laadullisen hyväksynnän jälkeen. Toistuvat tai järjestelmälliset ongelmat käynnistävät juurisyntyisen korjaavan toimenpiteen (CAPA).'
+  verified: 'Syyskuu 2026'
+
+stats:
+  tagline: Yhdellä silmäyksellä
+  title: Vaatimustenvastaisuuden hallinta luvuissa
+  stats:
+    - value: '7'
+      label: Vaihetta tunnistamisesta korjaavaan toimenpiteeseen
+    - value: '100%'
+      label: Jokaisen korjatun laudan uudelleentarkastus riippumattomalla laadunvarmistuksella
+    - value: '24h'
+      label: Täysi paine-uudelleentestaus ilmatiiviyskorjauksille
+    - value: '≥ 5 vuotta'
+      label: Todistetun tuhinnan näyttöiden säilytys (SHA-256-varasto)
+
+nc_intro:
+  tagline: Vaatimustenvastaisten tuotteiden hallinta
+  title: Mitä tapahtuu, kun tuote ei täytä kriteerejä
+  body: |
+    Tuotteet tai osat, jotka eivät täytä määriteltyjä hyväksymiskriteerejä, tunnistetaan ja valvotaan, jotta ne eivät pääse vahingossa käyttöön, jatkokäsittelyyn tai lähetettäväksi. Sovellettavat hyväksymiskriteerit perustuvat hyväksytynäytteeseen, tekniseen määritykseen, artworkiin, materiaaliluetteloon, pakkausvaatimuksiin ja projektin tarkastussuunnitelmaan.
+
+    Vaatimustenvastaiset kohdet arvioidaan vaikutusalueen ja asianmukaisen päätöksen määrittämiseksi. Ongelmasta riippuen kohde voidaan pitää tehtaan pidätyksessä, korjata ohjattujen ohjeiden mukaisesti, vaihtaa uuteen, hylätä tai käsitellä muuten hyväksytyn prosessin kautta. Korjatut tai korjautetut kohteet tarkastetaan uudelleen ennen luovutusta. Lähetysluovutus sallitaan vasta, kun asianomaiset laatukirjaukset on täydennetty ja tuote täyttää sovellettavat hyväksymiskriteerit.
+
+nc_flow:
+  tagline: Vakiintunut 7-vaiheinen suljettu silmukka
+  title: Tunnistamisesta korjaavaan toimenpiteeseen
+  subtitle: 'Yksi ohjattu silmukka jokaiselle vaatimustenvastaisuudelle: tunnista, erota, arvioi, korjaa tai vaihda, tarkasta uudelleen, luovuta tai hylkää, paranna.'
+  steps:
+    - step: '01'
+      title: Tunnistaminen
+      desc: 'Jokainen tunnistettu vaatimustenvastaisuus kirjataan kyseisen tuotteen, erän tai osan kohdalle ja arvioidaan suhteessa sovellettaviin projektivaatimuksiin. Tunnistus voi tapahtua saapuvassa tarkastuksessa, prosessin aikaisessa valvonnassa, lopputestauksessa, pakkauksessa tai asiakkaan/kolmannen osapuolen tarkastuksessa.'
+    - step: '02'
+      title: Erottelu
+      desc: 'Kohdet identifioidaan selvästi ja siirretään ohjattuun pidätys- tai eristystilaan, jotta ne eivät pääse vahingossa käyttöön, jatkokäsittelyyn tai lähetettäväksi. HOLD / QUARANTINE / REJECTED -merkinnässä ovat NCR-numero, SKU, erä, määrä, virheen kuvaus ja päivämäärä.'
+    - step: '03'
+      title: Arviointi
+      desc: 'Vaikutusalue ja asianmukainen päätös arvioidaan: yksikkö, vaihtoerä, koko erä tai useita eriä — yhteisten materiaalierien, artwork-versioiden, prosessivaiheiden ja asiakirjaversioiden kautta. Tarvittaessa kohdetaan eristetään lisäksi ja tarkastusta tiivistetään.'
+    - step: '04'
+      title: Korjaus tai vaihto
+      desc: 'Sallittu korjaus tehdään hyväksytyn ohjeen mukaisesti, jossa määritetään kohteen, menetelmä, materiaalit, tarkastuspisteet ja uudelleentarkastusvaatimukset. Tuotemääritykseen, artworkiin, lisävarustekokoonpanoon tai pakkaukseen ei koskaan sallita hyväksymättömiä muutoksia. Korvaavat tuotteet palaavat sovellettavien tarkastusporttien läpi.'
+    - step: '05'
+      title: Uudelleentarkastus
+      desc: 'Korjatut tai korjautetut kohteet tarkastetaan uudelleen sovellettavia hyväksymiskriteerejä vasten. Alkuperäisesti epäonnistunut ominaisuus ja kaikki korjauksen mahdollisesti vaikuttamat ominaisuudet varmennetaan ennen luovutusta — riippumattomalla laadunvalvonnalla, ja ilmatiiviyskorjauksille täydellä uudella 24h painetestisyklillä.'
+    - step: '06'
+      title: Luovutus tai hylkäys
+      desc: 'Tuote luovutetaan vasta, kun vaadittu uudelleentarkastus on valmis ja valtuutettu laatuhenkilö vahvistaa vaatimustenmukaisuuden sovellettavia projektivaatimuksia vasten. Kohteet, joita ei saada vaatimustenmukaisiksi, hylätään, korvataan, palautetaan tai käsitellään ohjattujen menettelyjen mukaisesti — mukaan lukien todistettu fyysinen tuhointi.'
+    - step: '07'
+      title: Korjaava toimenpide
+      desc: 'Toistuville, vakaville tai järjestelmällisille vaatimustenvastaisuuksille tehdään juurisyntianalyysi ja korjaava toimenpide (CAPA). Parannuksina voidaan tulla työohjeiden päivitykset, materiaalien valvonta, tarkastuspisteet, koulutus, toimittajien hallinta tai asiakirjojen valvonta.'
+
+nc_pillars:
+  tagline: Ostajan luottamuksen pilarit
+  title: Kolme valvontaa, jotka suojaavat brändiäsi
+  subtitle: 'Prosessi on suunniteltu vastaamaan niihin kysymyksiin, joita ulkomaankauppiajat oikeasti kysyvät: piilotetaanko ongelmat, pidättykö korjaus hallinnasta ja varmennetaanko korjatut laudat uudelleen.'
+  features:
+    - icon: 1
+      icon_bg: blue
+      title: Vain ohjatut ohjeet
+      desc: 'Korjausta sääntelee tiukasti valtuutettu vakiokorjausohje (SRI). Hyväksymättömät kenttämuutokset, määritysten muuttaminen tai artworkin muokkaaminen ilman kirjallista valtuutusta on ehdottomasti kielletty.'
+    - icon: 2
+      icon_bg: green
+      title: Riippumaton uudelleentarkastus
+      desc: 'Korjatut laudat tarkastetaan 100 %:sti laadunvarmistuksen tarkastajien toimesta alkuperäisiä hyväksymiskriteerejä vasten. Ilmatiiviyskorjaukset vaativat aivan uuden, täyden 24h painetestisyklin — ei koskaan osittaista uudelleentarkistusta.'
+    - icon: 3
+      icon_bg: purple
+      title: Valtuutettu hyväksyntä ja jäljitettävyys
+      desc: 'Lähetysluovutus sallitaan vasta, kun NCR-dokumentaatio on täydellinen ja valtuutettu laadunvalvontahenkilö on hyväksynyt sen, ja erän tila siirtyy HOLD-tilasta RELEASED-tilaan. Järjestelmälliset tai toistuvat poikkeamat käynnistävät automaattisesti juurisyntyiset CAPA-käytännöt.'
+
+nc_photos:
+  tagline: Tehdashallissa
+  title: Erottelu, korjaus ja uudelleentarkastus käytännössä
+  subtitle: Kuvat tehtaan työpajasta Qingdaosta näyttävät, miten vaatimustenvastaiset laudat erotetaan fyysisesti, korjataan ohjattujen ohjeiden mukaisesti ja varmennetaan uudelleen ennen mitään luovituspäätöstä.
+  features:
+    - image: https://assets.isupfactory.com/site/quality/qc-air-tightness-test-area.avif
+      alt: Tehtaan ilmatiiviystestausalueella täyttettyinä olevat puhallettavat SUP-laudat, joita seurataan digitaalisilla painemittareilla
+      title: Uudelleentarkastusportti
+      desc: 'Korjauksen jälkeen jokainen lauta palaa laadunvalvonnan testialueelle riippumattomaan uudelleenvarmennukseen: täyttöön ja seurantaan digitaalisilla painemittareilla projektissa hyväksytyjä hyväksymiskriteerejä vasten — ei koskaan osittaista tarkistusta.'
+    - image: https://assets.isupfactory.com/site/quality/qc-hold-quarantine-station.avif
+      alt: Laadunvalvonnan tarkistuslehdet ja ohjatun pidätyksen tilamerkinnät tehtaan tarkastuspisteessä
+      title: Pidätys- ja eristysasema
+      desc: 'Tarkastuspiste, jossa on laadunvalvonnan tarkistuslehdet ja tilamerkinnät. Mikään hyväksymiskriteerit täyttämätön kohde ei pääse jatkoon: se merkitään HOLD / QUARANTINE -tilaan, kirjataan NCR:ään ja erotetaan fyysisesti — se ei voi edetä pakkaukseen ennen kuin valtuutettu päätös ja pakollinen uudelleentarkastus on tehty.'
+    - image: https://assets.isupfactory.com/site/quality/qc-air-tightness-rework.avif
+      alt: Laadunvalvonnan tekniikko tekee ohjattua ilmatiiviyskorjausta puhallettavaan SUP-lautaan tehtaan korjausasemalla
+      title: Ohjattu korjausasema
+      desc: 'Korjaus tehdään omalla asemallaan hyväksytyn SRI-ohjeen mukaisesti: virhe merkitään, lauta pysyy HOLD-tilassa, ja vaaditun kovettumisajan jälkeen se palaa testialueelle uudelleentarkastukseen alkuperäisiä hyväksymiskriteerejä vasten.'
+    - image: https://assets.isupfactory.com/site/quality/qc-workshop-inspection-demo.avif
+      alt: Laadunvalvontatarkistusten esittely työpajassa Qingdaon tehtaassa
+      title: Laadunvalvonnan esittely työpajassa
+      desc: 'Esittelykuva työpajasta, joka näyttää käytännössä sovelletut laadunvalvontatarkistukset ja tukee tällä sivulla viitattuja tarkastus- ja tilavalvontakirjauksia.'
+
+nc_severity:
+  tagline: Virhevaikeus ja päätösvalta
+  title: Vaikeusluokitus ja päätösvalta
+  subtitle: Kaikkia vaatimustenvastaisuuksia ei käsitellä samalla tasolla — päätösvalta skaalautuu virhevaikeuden mukaan linjatason hyväksynnistä materiaaliarviointikomiteaan ja asiakkaan suostumukseen.
+  headers:
+    severity: Vaikeus
+    examples: Tyypillisiä esimerkkejä
+    authority: Päätösvalta ja valvonta
+    control: Luovutusehto
+  rows:
+    - severity: 'Vähäinen'
+      examples: 'Pakkauksen kulman taittuma, pieni ei-kriittinen lisävarusteen epätarkkuus'
+      authority: 'Osaston laadunvalvontapäällikkö + linjan esimies hyväksevät paikan päältä: vaihto tai luovutus'
+      control: 'Kirjataan NCR:ään; ei vaikutusta tuotteen toimivuuteen tai asiakkaan vaatimuksiin'
+    - severity: 'Vakava'
+      examples: 'Hidas venttiilin vuoto, EVA-alustan epätarkkuus sallitun yli (>2 mm), puuttuva lisävaruste'
+      authority: 'Laadunvalvontapäällikkö ja tuoteteknikko antavat ohjatun korjausohjeen (SRI)'
+      control: 'Alkuperäisesti epäonnistuneen ja siihen liittyvien ominaisuuksien 100 %:n riippumaton uudelleentestaus ennen luovutusta'
+    - severity: 'Kriittinen'
+      examples: 'Drop-stitch-kammion vaurio, kiskon kuplat tai halkeilu korkeassa paineessa, asiakkaan logon painovirhe tai väripoikkeama'
+      authority: 'Materiaaliarviointikomitean (MRB) päätös; kirjallinen asiakkaan suostumus tarvittaessa'
+      control: 'Ei luovutusta ilman valtuutettua suostumusta; muuten pakollinen todistettu fyysinen tuhointi'
+
+nc_matrix:
+  tagline: Tuotetekniikan protokollamatriisi
+  title: SUP-virheiden päätös- ja uudelleentarkastusmatriisi
+  subtitle: Vakiintuneet tuotetekniset protokollat yleisimmille valmistuspoikkeamille — samat kvantifioidut parametrit, jotka asiakkaat voivat tarkastaa auditoinneissa.
+  headers:
+    defect: Virheluokka
+    protocol: Ohjattu päätösprotokolla
+    validation: Riippumaton uudelleentarkastus ja validointi
+  rows:
+    - defect: 'Hidas venttiilivuoto'
+      protocol: 'Erota lauta. Pura venttiilin runko kalibroidulla momenttityökalulla (25 N·m), puhdista sisäkierteet, vaihda silikoninen O-rengas ja kiristä momentti uudelleen.'
+      validation: 'Upota kuplaliuokseen; täyttää uudelleen 18 PSI:hin ja tee täysi 24h paineenlaskutesti (ΔP ≤ 0.05 PSI).'
+    - defect: 'Kiskon sauman ilmat'
+      protocol: 'Erota vaihdon erä. Aukaise kohdan delaminointi lämpöä tukevalla suuttimella, puhdista pinta liuotteella ja levitä kaksikomponenttista PU-liimaa 5 baarin paineessa.'
+      validation: '100 %:n sauman visuaalinen ja kosketusinspektio; rakenteellinen paine-koepuristus (18.0 PSI) sekä 24h ilmatiiviyspito.'
+    - defect: 'EVA-alustan epätarkkuus'
+      protocol: 'Irrota lämpöä tukevalla lämpötilasäädellyllä työkalulla (80°C). Kohdista uudelleen tarkan akryylisen asemointikiinnikkeen avulla.'
+      validation: 'Välityksen toleranssivarmennus (≤ ±1.5 mm), timanttipainon symmetrian tarkistus, 100 %:n reunaliimauksen tartuntatesti.'
+    - defect: 'Brändäys / logon kirjoitusvirhe'
+      protocol: 'Pysäytä tulostuslinja välittömästi. Pidä kaikki tulostetut paneelit. Tarkista vektoriversio asiakkaan kanssa; nolla hyväksymätöntä muutosta.'
+      validation: 'Spektrofotometrinen väritarkistus (ΔE ≤ 1.5); 100 %:n tekstin kohdistuksen silmämääräinen varmennus asiakkaan allekirjoittamaan vektoriversion master-PDF:ään verrattuna.'
+    - defect: 'Pakkauksen epäselvyys / puuttuva SKU'
+      protocol: 'Erota vientilava. Avaa laatikot ja tee 100 %:n kohtainen BOM-tarkistus (pumppu, evä, ranneremmi, mela, korjausputki).'
+      validation: 'Suoralla toiminnalla olevan sähköisen punnitusvaakan validointi (±30 g poikkeama); optinen 2D-viivakoodiskannerin varmennus.'
+
+nc_scrap:
+  tagline: Nolla markkinavuotoa
+  title: Todistettu romutus ja tuhointi — nollavirheväiteiden ohjauspohjainen torjuntaprotokolla
+  body: |
+    Ulkomaisten brändikumppanimme tarvitsevat varmuuden siitä, ettei hyväksymättömiä lautoja koskaan pääse sekundääriseen vähittäiskauppaan, harmaan markkinoille tai verkkokauppakanaviin. Laudat, joita ei saada vaatimustenmukaisiksi, tuhotaan todistetun ja kirjatun protokollan mukaisesti:
+
+    **1. Osien ja lisävarusteiden leikkaaminen.** Laadunvarmistuksen johtajan valvonnassa hydraulisella leikkurilla poistetaan kaikki 316-teräksiset D-renkaat, kantokahvan nauhat ja matkalukkojen soljet. Täyttöventtiilin kokoonpano ja evälaatikon pohja (US-Box / napsautuskiinnityksinen evä) irrotetaan laudan juuresta, jolloin mitään pelastuskelpoista osaa ei jää jäljelle.
+
+    **2. Drop-stitch-rakenteen leikkaaminen ja kiskojen katkaiseminen.** Sisäinen drop-stitch-ydin leikataan laudan ja kannen läpi poikittain syvillä ristikkoviiltoilla (≥ 50 cm per leikkaus), ja vahvistetut sivukiskot katkaistaan vähintään 4 osaan — tiivistyskyky ja kelluvuus tuhoutuvat pysyvästi.
+
+    **3. Video- ja kuvavarasto.** Tuhointi tallennetaan leikkaamattomana 1080p-videona, jossa on lähikuvat sarjanumeroviivakoodista, leikkausprosessista, ytimen leikkaamisesta ja lopullisesta punnitusta romupinosta. Video lasennetaan (SHA-256) ja arkistoidaan ohjatulle palvelimelle ≥ 5 vuodeksi.
+
+    **4. Todistettu jätehuolto.** Kaikki PVC- ja drop-stitch-kappaleet punnitaan, kirjataan lähtevään kirjaan ja kuljetetaan vain pätevien muovinkierrättäjäkumppanien toimesta — mitään jäämiä ei poistu laitokselta muuta reittiä.
+
+    > **Brändin suojelutakuu:** QINGDAO VATRAD GROUP CO., LTD. takaa 100 %:n tuhonnin kaikille korjauskelvottomille, määrityksen ulkopuolelle jääville vesillikkeille. Mitään tehtaan toisiarjaa tai vaarantunutta lauttaa ei koskaan pääse sekundääriseen vähittäiskauppaan, harmaan markkinoille tai verkkokauppakanaviin. Romutus- ja tuhointitodistus (VAT-QA-SCRAP-CERT-2026) kirjaa tuotteen, erän, MRB:n päätöksen, todistusvalokuvat sekä laadunvarmistuksen johtajan ja tehtaanjohtajan kaksoishyväksynnän.
+
+nc_downloads:
+  tagline: Ladattavat QMS-asiakirjat
+  title: Ohjatut kaksikieliset asiakirjat (PDF)
+  subtitle: QINGDAO VATRAD GROUP.,LTD.:n viralliset EN/ZH-kaksikieliset asiakirjat — jäsennetty ISO 9001:2015 kohdan 8.7 mukaisesti ja valmiina asiakasauditointeihin, B2B-teknisiin valkoisiin kirjoituksiin ja työpajan ohjattuun jakeluun.
+  features:
+    - icon: N
+      icon_bg: blue
+      title: Vaatimustenvastaisten tuotteiden valvonta-SOP (PDF)
+      desc: 'ISO 9001:2015 kohdan 8.7 mukainen kaksikielinen SOP: 8-vaiheinen suljettu valvontasilmukka, SUP-virheiden päätösmatriisi, NCR-rakenne ja asiakkaan laatu sitoutuu.'
+      link: 'https://assets.isupfactory.com/site/downloads/non-conforming-product-control-sop-iso-8-7.pdf?dl=1'
+      link_label: Lataa PDF
+    - icon: S
+      icon_bg: orange
+      title: Romutus- ja tuhointitodistus (PDF)
+      desc: 'VAT-QA-SCRAP-CERT-2026: tuotteen ja erän jäljitettävyys, MRB:n päätös, 4-vaiheinen fyysinen tuhointiprotokolla, todistusvalokuva-kentät ja kaksoishyväksyntälohko.'
+      link: 'https://assets.isupfactory.com/site/downloads/scrap-destruction-certificate-vat-qa-scrap-cert-2026.pdf?dl=1'
+      link_label: Lataa PDF
+    - icon: R
+      icon_bg: green
+      title: Ohjattu korjauksen hallinta (sivu)
+      desc: 'Vastaparoni hyväksytyille ilmatiiviyskorjauksen menetelmäkorteille MC-RW-01–MC-RW-06 ja 7-vaiheiselle ohjatulle korjausprosessille.'
+      link: '/fi/factory/quality-inspection'
+      link_label: Katso sivu
+    - icon: C
+      icon_bg: purple
+      title: Korjauksen muutosvalvonnan standardi (sivu)
+      desc: 'Korjausparametrien formaali ISO 9001 -muutosvalvonta: ECR, riskiluokitus, hyväksymismatriisi, validointisuunnitelma ja Poka-Yoke-turva — QMS-SOP-QC-CC-001 Rev 2.0.'
+      link: '/fi/factory/quality-change-control'
+      link_label: Katso sivu
+
+faqs:
+  tagline: FAQ
+  title: Laadun ja virheiden hallinnan FAQ maailmanlaajuisille ostajille
+  items:
+    - q: 'Miten takaatte, että korjatut laudat täyttävät kaikki turvallisuusvaatimukset?'
+      a: 'Jokainen korjattu lauta käsitellään uutena yksilönä, ja sen on läpittävä täsmälleen sama täydellinen testisykli alusta asti — ilmatiiviyskorjauksille täysi 24h painetesti. Luovutusvalidoinnin suorittavat riippumattomat laadunvalvonnan tarkastajat, eivät korjausta tekevät henkilöt.'
+    - q: 'Lähettääkö tehdas lautoja pienillä kosmeettisilla poikkeamilla kertomatta siitä?'
+      a: 'Ei koskaan. Mikään poikkeama, joka vaikuttaa asiakkaan hyväksymiin referenssilautoihin, logon artworkiin, väriversioihin tai pakkaukseen, vaatii asiakkaan allekirjoittaman formaalin kirjallisen suostumussopimuksen ennen lähetysluovutusta.'
+    - q: 'Mitä tapahtuu, jos korjattu lauta ei läpäise uudelleentarkastusta?'
+      a: 'Lautaa ei luovuteta. Se palaa uuteen päätöskäsittelyyn, ja jos sitä ei saada vaatimustenmukaiseksi, se korvataan, hylätään tai tuhotaan todistetun romutusprotokollan mukaisesti. Saman virheluokan toistuva epäonnistuminen käynnistää juurisyntyisen CAPA:n.'
+    - q: 'Voiiko hyväksymättömiä lautoja myydä tehtaan toisiarjana tai muiden kanavien kautta?'
+      a: 'Ei. Korjauskelvottomat, määrityksen ulkopuolelle jäävät laudat tuhotaan fyysisesti todistetun romutusprotokollan mukaisesti — osat leikataan, ydin ja kiskot katkaistaan, video tallennetaan SHA-256-hajutusarvolla ja arkistoidaan vähintään 5 vuodeksi. Romutus- ja tuhointitodistuksen allekirjoittavat laadunvarmistuksen johtaja ja tehtaanjohtaja.'
+    - q: 'Miten vaikutusalue arvioidaan, kun virhe löytyy?'
+      a: 'Laajuus käydään läpi tuotteen tunnistetun, valmistuserän, materiaali- tai osaerän, prosessivaiheen ja sovellettavan asiakirjaversion mukaan. Jos kyseessä on sama materiaalierä, artwork-versio tai työasema, vaikutusalaan kuuluvat tuotteet eristetään ja tarkistetaan vastaavasti.'
+    - q: 'Tarvitsetteko meidän hyväksymme ennen suostumuksen myöntämistä?'
+      a: 'Kyllä. Mikään kirjalliseen suostumukseen perustuva hyväksyntä, joka vaikuttaa asiakkaan vaatimuksiin — hyväksyttyihin näytteisiin, määritykseen, artworkiin, pakkaukseen tai hyväksymiskriteereihin — vaatii asiakkaan kirjallisen hyväksynnän ennen luovutusta. Ilman sitä tuote korjataan alkuperäisen vaatimuksen mukaisesti, korvataan tai hylätään.'
+    - q: 'Mitä dokumentaatiota saamme vaatimustenvastaisuudesta?'
+      a: 'NCR-kirjaus sisältää NCR-numeron, tunnistusvaiheen, tuotteen/SKU:n, erän, sovellettavat asiakirjaversiot, virheen kuvauksen, eristyksen, päätöksen, korjausohjeen viitteen, uudelleentarkastustuloksen sekä luovutus- tai sulkuhyväksynnän — saatavilla projektin laatua koskevan sopimuksesi mukaisesti.'
+
+cta:
+  title: Laatuongelmat hoidetaan ohjatun prosessin kautta
+  desc: 'Jaa projektikohtaiset laatu-, tarkastus- tai dokumentaatiovaatimuksesi tiedustelun yhteydessä — voimme käydä läpi sovellettavat valvontapisteet ennen näytteen kehittämistä tai tuotannon suunnittelua.'
+  actions:
+    - text: Keskustele laatuvaatimuksista
+      variant: primary
+      href: /fi/contact
+    - text: Lataa NCP-valvonta-SOP (PDF)
+      href: 'https://assets.isupfactory.com/site/downloads/non-conforming-product-control-sop-iso-8-7.pdf?dl=1'
+    - text: Lataa romutustodistus (PDF)
+      href: 'https://assets.isupfactory.com/site/downloads/scrap-destruction-certificate-vat-qa-scrap-cert-2026.pdf?dl=1'

@@ -1,0 +1,82 @@
+meta:
+  title: 'SUP-paksuuden valinta — tekninen analyysi'
+  description: 'Miten 4", 5" ja 6" puhallettavat SUP-laudat eroavat jäykkyydessä, painossa, vakaudessa ja kulkukyvyssä, sekä paksuusohjeita.'
+  author: 'iSupfactory'
+  datePublished: '2026-08-04'
+  dateModified: '2026-08-07'
+back_text: 'Takaisin tutkimukseen'
+
+hero:
+  tagline: 'Tekniikka'
+  title: 'SUP-paksuuden valinta — tekninen analyysi'
+  subtitle: '6 min lukuaika'
+
+answer:
+  label: 'Suora vastaus'
+  text: 'Paksuus on kilpailu jäykkyyden ja vakauden välillä: 4" (10 cm) on jäykin, kevyin ja nopein — paras valinta touring-käyttöön ja kilpailuihin; 5" (12.7 cm) on allround-valinta useimmille melojille; 6" (15.2 cm) maksimoi ensisijaisen vakauden joogaan ja raskaille melojille (100+ kg). Ohuem poikkileikkaus on rakenteellisesti jäykkämpi, joten 4" lauta 15 PSI:n paineella taipuu vähemmän kuin 6" lauta 25 PSI:n paineella.'
+  verified: 'September 2026'
+
+content_html: |
+  <h2>Kolme vakiopaksuutta</h2>
+
+  <h3>4" (10 cm) – Touring &amp; suorituskyky</h3>
+  <ul>
+    <li>Suurin jäykkyys – vähemmän taipumaa kuormituksessa</li>
+    <li>Kevyin – vähemmän materiaalia, vähemmän ilmatilavuutta</li>
+    <li>Erinomainen kulkukyky – vähentää sivuttaiskeikkumista</li>
+    <li>Nopein – vähentää vastusta, liukuu helpommin</li>
+    <li>Paras käyttöön: touring, kilpailu, kuntomelonta, kokeneet melojat</li>
+  </ul>
+
+  <h3>5" (12.7 cm) – Allround</h3>
+  <ul>
+    <li>Hyvä jäykkyys – tasapainoinen taipuman ja jäykkyyden suhde</li>
+    <li>Kohtalainen paino – tavallinen materiaalinkulutus</li>
+    <li>Hyvä ensisijainen ja toissijainen vakaus</li>
+    <li>Paras käyttöön: vapaa-ajan melonta, aloittelijat, järvi- ja jokikäyttö</li>
+  </ul>
+
+  <h3>6" (15.2 cm) – Vakaus &amp; jooga</h3>
+  <ul>
+    <li>Suurin ensisijainen vakaus – valtava kelluvuus</li>
+    <li>Raskain – enemmän PVC-materiaalia, suurempi ilmatilavuus</li>
+    <li>Hitaasin – enemmän vastusta, vaikeampi säilyttää liuku</li>
+    <li>Paras käyttöön: jooga/kuntoilu, raskaat melojat (100+ kg), erittäin karkeat olosuhteet</li>
+  </ul>
+
+  <h2>Tekninen analyysi</h2>
+  <p>Puhallettavan SUP-laudan jäykkyyteen vaikuttavat sisäinen ilmanpaine ja laudan poikkileikkauksen hitausmomentti. 20 PSI:n paineella 4" laudan taipuma kuormituksessa on noin 30 % pienempi kuin sam levyisellä ja pituisella 6" laudalla. Ensisijainen vakaus tulee vesilinjan leveydestä ja kelluvuudesta; toissijaiseen vakauteen vaikuttavat reunan muoto ja laudan leveys.</p>
+
+  <h2>Paksuus melojan painon mukaan</h2>
+  <table class="w-full text-sm border-collapse">
+    <thead>
+      <tr class="bg-gray-100">
+        <th class="p-3 text-left font-semibold text-gray-900 border">Melajan paino</th>
+        <th class="p-3 text-left font-semibold text-gray-900 border">Suositeltu paksuus</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td class="p-3 border">Alle 65 kg (143 lbs)</td><td class="p-3 border">4"</td></tr>
+      <tr><td class="p-3 border">65 – 90 kg (143 – 198 lbs)</td><td class="p-3 border">5"</td></tr>
+      <tr><td class="p-3 border">90 – 115 kg (198 – 253 lbs)</td><td class="p-3 border">5" tai 6"</td></tr>
+      <tr><td class="p-3 border">Yli 115 kg (253 lbs)</td><td class="p-3 border">6"</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Paksuuden ja PSI:n välinen kompromissi</h2>
+  <p>Yleinen väärinkäsitys on, että korkeampi PSI voisi korvata liian suuren paksuuden. 25 PSI:n paineella 6" lauta taipuu enemmän kuin 4" lauta 15 PSI:n paineella, koska geometrinen hitausmomentti hallitsee jäykkyyden yhtälöä. Suorituskykyyn tähtääville melojille ohuem lauta matalammalla paineella päihittää paksumman laudan korkeammalla paineella.</p>
+
+  <h2>Vatradin valikoima</h2>
+  <ul>
+    <li><strong>4" laudat:</strong> Cheetah Touring -sarja – 12' x 30" x 4" touring-SUP-laudat kuntoon ja matkamelontaan</li>
+    <li><strong>5" laudat:</strong> Cheetah All-Round -sarja – 10'6" x 32" x 5" vapaa-ajan käyttöön</li>
+    <li><strong>6" laudat:</strong> Cheetah Ultra-Stable -sarja – 10' x 34" x 6" joogaan, raskaille melojille ja kuvausalustoiksi</li>
+  </ul>
+  <p>Kaikissa laudoissa käytetään 1,680 DTEX:n drop-stitch-ytimiä, joiden paineluokitus on 15 PSI, sekä 1.2 mm:n PVC-laminaatteja.</p>
+  <p>Paksuus, PSI ja kangasmääritelmä ovat kaikki muokattavissa omiin tuotelinjoihin — katso, miten <a href="/fi/oem-manufacturing">suunnittelemme lautoja OEM- ja private label -brändeille</a>, ja kävele läpi lautojen rakenteen <a href="/fi/factory">tehtaan lattialla</a>.</p>
+
+cta:
+  title: 'Epäiletkö, mikä paksuus sopii sinulle?'
+  subtitle: 'Selaa SUP-valikoimaamme tai kysy mitoitustiimiltämme.'
+  button_text: 'Tutustu SUP-laudoihin'
+  button_link: /fi/products

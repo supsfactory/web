@@ -269,6 +269,30 @@ export const HERO_CONTENT = {
     float1: { value: '1–2 stk', label: 'Prøve og godkendelse (før volumenforpligtelse)' },
     float2: { value: FACTS.leadTime, label: 'Produktionstid (efter PO)' },
   },
+  fi: {
+    kicker: 'Tehdas Qingdaossa, Kiinassa · OEM / ODM / Oma merkki · Näytteestä sarjatuotantoon',
+    titlePre: 'Räätälöityjen SUP-tuotteiden valmistus',
+    titleAccent: 'merkeille, jakelijoille ja organisaatioille',
+    titlePost: '',
+    sub: 'Puhallettavat SUP-laudat OEM-, ODM- ja omamerkkituotteiksi — spesifikaatiokatsauksesta ja näytteen kehittämisestä laadunvalvottuun sarjatuotantoon Qingdaossa, Kiinassa.',
+    ctaPrimary: 'Aloita SUP-projektisi',
+    ctaSecondary: 'Tutustu tehtaaseen, vähimmäistilausmääriin ja laatuosiin',
+    ctaTertiary: '',
+    ctaQuartiary: '',
+    ctaMicro: 'Vastaus 1 työpäivän kuluessa · NDA saatavilla ennen tiedostojen vaihtoa · MOQ vahvistetaan spesifikaatiokatsauksen jälkeen',
+    stats: [
+      { value: '12 500 m²', label: 'Oma tehdas — Qingdao, Kiina' },
+      { value: '120 000+', label: 'Vuodessa valmistettuja lautoja' },
+      { value: '50+', label: 'Palvellut vientimaita' },
+      { value: FACTS.ndaWindow, label: 'NDA-vastausaika' },
+    ],
+    mockupLabel: 'Lippulautamalli',
+    mockupBrand: "SUP Explorer 11'",
+    mockupHint: 'Sinun grafiikkasi · sinun värisi · sinun pakkauksesi',
+    heroNote: 'MOQ vahvistetaan spesifikaatiokatsauksen jälkeen, koska rakenne, laudan koko, PVC-rakenne, grafiikka, pakkaus ja lisävarusteet vaikuttavat materiaalin kulutukseen.',
+    float1: { value: '1–2 kpl', label: 'Näyte ja hyväksyntä (ennen määräaikaisuutta)' },
+    float2: { value: FACTS.leadTime, label: 'Toimitusaika (tilauksen jälkeen)' },
+  },
 }
 
 /** 供 Seo 模块使用的简化映射（仅读，不修改 PUBLIC_PATHS/HREFLANG/OG_*） */

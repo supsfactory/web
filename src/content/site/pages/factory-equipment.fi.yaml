@@ -1,0 +1,93 @@
+meta:
+  title: 'Tehtaan laitteet — leikkaus, hitsaus ja painatus'
+  description: 'Teollisuusluokan Vatradin valmistuslaitteet: PVC-leikkaus, RF-hitsaus, digitaalipainatus, kokoonpano ja testaus puhallettaville SUP-lautoille.'
+  dateModified: '2026-08'
+  keywords:
+    - 'sup valmistuslaitteet'
+    - 'puhallettavien sup-lautojen tehdas'
+    - 'rf hitsaus pvc'
+    - 'paddle board tuotanto'
+hero:
+  tagline: Laitteet
+  title: Valmistuslaitteet ja -koneet
+  subtitle: Teollisuusluokan laitteet leikkauksessa, hitsauksessa, painatuksessa ja kokoonpanossa
+  back_label: Takaisin tehtaaseen
+  back_link: /fi/factory
+
+answer:
+  label: 'Suora vastaus'
+  text: '12,500 m²:n tehtaamme käyttää CNC-ohjattua automaattista leikkausta (0.1 mm tarkkuus, alle 5% hukka), kuumailmahitsausta 200–600 °C sekä 15 kW:n RF-dielektristä hitsausta päähitsäille, drop-stitch-ytimen laminointipuristimia jopa 14 ft:iin ja laadunvalvontalaboratorion, joka paineistaa jokaisen putkiston, tekee ASTM D751 -vetolujuustarkastukset ja varmistaa ISO 6185 -saumojen kuorimisen.'
+  verified: 'Syyskuu 2026'
+
+categories:
+  - title: Leikkaus ja materiaalin esikäsittely
+    items:
+      - name: Automaattinen PVC-leikkaukseen
+        spec: CNC-ohjattu, 6.5 m × 2.5 m, 0.1 mm tarkkuus
+        desc: Tietokoneohjattu automaattinen leikkauskone PVC-, Hypalon- ja drop-stitch-kankaille. Pesun optimointiohjelmisto pitää materiaalihävikin alle 5%:ssa.
+      - name: Kankaanlevittäjä
+        spec: 3 m maksimileveys, jännityksen säätö syöttöön
+        desc: Levittää kankaan yhden tai useamman kerroksen jännitetyssä syötössä, mikä estää vääntymisen ennen leikkausta.
+
+  - title: Putkiston hitsaus ja liimautus
+    items:
+      - name: Kuumahitsauskone
+        spec: Kuumailmahitsaus, säädettävä 200–600 °C, 0.5–5 m/min
+        desc: Kuumailma-kuumahitsauskone PVC- ja Hypalon-putkiston saumojen liimaamiseen ja hitsaukseen. Käytetään esiliimaukseen, tiivistykseen ja putkistojen ja kelluvien liitosten yhdistämiseen.
+      - name: Dielektrinen RF-puristin
+        spec: 15 kW, levy 2000 × 600 mm
+        desc: Radiotaajuushitsauspuristin pituussuuntaisiin päähitsäihin, perälaudan ja putkiston liitoksiin sekä suurten putkistojen valmistukseen.
+      - name: CNC-ohjattu RF-hitsaaja
+        spec: 8 kW, XY-pöytä 2500 × 1200 mm
+        desc: Ohjelmoitava kaarevien saumojen hitsaus monimutkaisille geometrioille, logojen kohopainatukseen ja tarkkaan palmosarjamonttiin.
+
+  - title: SUP-lautojen valmistus
+    items:
+      - name: Drop-stitch-ytimen laminointipuristin
+        spec: Suurikokoinen puristin lauta-ytimille aina 14 ft LOA asti
+        desc: Drop-stitch-ytimien ja ulkoisten PVC-kalvojen tarkka laminointi. Jokainen kerros liimataan paineella yhdenmukaisen laadun ja lujuuden varmistamiseksi.
+      - name: CNC-jyrsinkone (5-akselinen)
+        spec: 3 m × 2 m × 1 m työtila, vesijäähdytetty kara
+        desc: Eväkoteloiden, kahvatappien ja laudan räätälöityjen osien koneistus.
+
+  - title: SUP-lautojen painatus ja koristelu
+    items:
+      - name: Digitaalipainokone
+        spec: Suuren resoluution mustesuihku, enintään 2 m painoleveys
+        desc: Suoraan kankaalle painaminen täysväriselle SUP-kansikuviolle. Tulostaa räätälöityjä kuvioita, liukuja ja valokuvatason kuvia UV-kestävällä vesipohjaisella musteella.
+      - name: Silk screen -painokone
+        spec: Manuaalinen ja puoliautomaattinen, monivärirekisteröinti
+        desc: Silk screen -painatus SUP-lautojen logoille, brändimerkeille ja toistuville kuvioille. Antaa kestävän, peittävän lopputuloksen kirkkaine väreineen.
+
+  - title: Kokoonpano ja varusteet
+    items:
+      - name: Laudan kokoonpanotaso
+        spec: Modulaarinen säädettävä, monitasoinen asettelu
+        desc: Eväkoteloiden, kahvojen, D-renkaiden, venttiilien ja kansipatjojen asennus SUP-lautoihin.
+      - name: Venttiiliasennuspuristin
+        spec: Pneumaattinen, säädettävä paine
+        desc: Halkey-Roberts- ja Leafield-venttiilien tarkka asennus ja tiivistys.
+      - name: Kansipatjan laminaattori
+        spec: 3 m × 1.5 m, lämpötilasäädetty
+        desc: EVA-vaahtisten kansipatjojen lämpöliimaus laudan päälle yhtenäisellä liimalujuudella.
+
+  - title: Testaus ja laadunvalvonta
+    items:
+      - name: Yleispainevalaisin
+        spec: 50 kN,  / ASTM D751
+        desc: Murtolujuuden, murtumisen venymän ja repeämän etenemisen testaus eri kangaserille.
+      - name: Ilman säilymisen testiteline
+        spec: Ohjelmoitava, 30 min paineen pito
+        desc: Automatisoitu paineen pitotesti jokaiselle putkistolle ennen kokoonpanoa.
+      - name: Sauman kuorimisen testilaite
+        spec: Moottoroitu 180° kuorinta 100 mm/min
+        desc: Hitsaus- ja liimattujen saumojen kuorintalujuuden testaus ISO 6185:n mukaan.
+      - name: Xenon-valoarkkiykammio
+        spec: 2000 h altistus
+        desc: UV-kestävyyden testaus värimuutokselle ja lujuuden säilymiselle.
+
+cta:
+  title: 'Kiinnostuitko tehdaskierrosta?'
+  desc: Toivotamme vierailijat tervetulleiksi Qingdaon laitokseemme. Näet laitteemme ja prosessimme paikan päältä.
+  label: 'Varaa vierailu →'
+  link: /fi/contact

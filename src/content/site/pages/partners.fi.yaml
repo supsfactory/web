@@ -1,0 +1,83 @@
+meta:
+  title: 'Kumppanit — jakelu ja tukkumyynti | {SITE}'
+  description: 'Valmistuskumppanuudet iSupfactoryn kanssa: jakelu, tukkutoimitukset, OEM- ja private label -ohjelmat sekä spesifikaatiotuki SUP-laiteyrityksille kaikkialla maailmassa.'
+  keywords:
+    - 'SUP-jakelukumppani'
+    - 'SUP-lautojen tukkumyynti'
+    - 'puhallettavien SUP-lautojen jakelija'
+    - 'SUP-kumppanuus'
+  dateModified: '2026-08'
+hero:
+  tagline: Kumppanit ja jakelu
+  title: 'Valmistuskumppanuudet ja jakelu'
+  subtitle: "Valmistamme meri- ja venekauhoille, jälleenmyyjille, vähittäiskauppabrändeille ja järjestöille yli 50 maassa. Sinä määrität tuotteen — me suunnittelemme, otamme näytteet ja valmistamme sen sinun brändisi alla."
+  image:
+    src: https://assets.isupfactory.com/images/sups/team/isupfactory-meeting-overseas.webp
+    alt: Vatradin maailmanlaajuisen kumppani- ja jakeliverkosto
+
+answer:
+  label: 'Suora vastaus'
+  text: 'Kumppanuusehtojen lähtökohta on näyte (1–2 kpl) ja pilottierät (20–50 kpl, näytteet 7–12 päivää), jonka jälkeen skaalaudutaan vakiomäärän OEM-tuotantoihin 90–100+ kpl erää kohti täydestä 150 m drop-stitch-rullasta, tai sijoitetaan omiin muotteihin private label -tuotteita varten. MOQ vahvistetaan projektin konfiguraation perusteella. Jakeluohjelmat sisältävät yksinoikeusalueet, tehtasdirect -tukkuhinnat ja 45–60 päivän maksuehdot, toimituksella FOB Qingdao tai CIF.'
+  verified: 'September 2026'
+content_programs:
+  tagline: Kumppaniohjelmat
+  title: 'Kumppanuusmallit rakennettu valmistuksen päälle'
+  subtitle: 'Olitpa sitten jakelija, jälleenmyyjä tai brändikumppani, ohjelma rakentuu tuotevaatimustesi ja tuotantosuunnitelmasi ympärille.'
+  columns: 3
+  items:
+    - title: 'Jakeluohjelma'
+      description: 'Jakelusopimukset, joissa on suora pääsy tehtaalle, spesifikaatiotuki ja yhtenäinen uudelleentilauslaatu alueiden yli. Vähimmäsitoumus perustuu alueen kokoon.'
+      icon: tabler:world
+    - title: 'Jälleenmyyntiohjelma'
+      description: 'Tuotespesifikaatiot, näytteen hyväksyntä, takuutuki ja luotettavat uudelleentilaukset vähittäiskaupalle ja verkkokaupoille.'
+      icon: tabler:building-store
+    - title: 'OEM/ODM-kumppanuus'
+      description: 'Täyspalvelu-OEM- ja ODM-valmistus omalla brändäyksellä, pakkauksella ja tuotespesifikaatioilla. Ideasta konttiin asti.'
+      icon: tabler:certificate
+    - title: 'Brändikumppanuus'
+      description: 'Private label -tuotteet ja mallien kehittely vakiintuneille meri- ja ulkoilubrändeille.'
+      icon: tabler:stars
+    - title: 'Julkinen ja institutionaalinen'
+      description: 'Preferred supplier -ohjelmat viranomaisille, rannikkovartijoille, sotaväelle ja humanitaarisille järjestöille. Kilpailukypsät asiakirjat.'
+      icon: tabler:building-community
+    - title: 'Lomakeskus- ja vuokrauksikumppani'
+      description: 'Laivastohinnat, yhtenäinen laatu ja oma brändäys lomakeskuksille, sukelluskeskuksille ja vuokrausliikkeille kaikkialla maailmassa.'
+      icon: tabler:sun
+content_benefits:
+  tagline: Miksi tehdä yhteistyötä kanssamme
+  title: 'Miksi kumppanit valitsevat Vatradin'
+  subtitle: 'Kumppanimme työskentelevät todellisen valmistuskapasiteetin, yhtenäisen laadun ja reagoivan insinöörituen kanssa.'
+  list:
+    - 'Suora pääsy tehtaalle: Työskentelet suoraan valmistustiimimme kanssa — ei välikäsiä. Nopeammat vastaukset, täysi näkyvyys tuotantoon ja insinöörivastaukset niiltä, jotka rakentavat lautoja.'
+    - 'Valmis räätälöintiin: Brändää tuotteesi omilla väreillä, logollasi, pakkauksella ja spesifikaatioilla. MOQ vahvistetaan projektin konfiguraatiosta — näyte-, pilotti- ja volyymivaiheet.'
+    - 'Laatu taattu: ISO 9001 -sertifioitu tuotanto CE-, BSCI- ja REACH-vaatimustenmukaisuudella. Jokainen tuote painekoetaistaan ennen lähetystä.'
+    - 'Maailmanlaajuiset logistiikkapalvelut: Lähetys Qingdaosta Kiinasta FOB-, CIF- ja DDP-vaihtoehdoilla. Varasto Montclairissa, Kaliforniassa Pohjois-Amerikan jakelua varten.'
+    - 'Tekninen dokumentaatio: Tuoteluetteloita, valokuvia ja teknistä dokumentaatiota tukemaan spesifikaatio- ja uudelleentilauspäätöksiä.'
+    - 'Spesifikaatio- ja laadunvarmistustuki: Näytteenotto ennen sarjatuotantoa, tekninen tuki asiakkaillemme ja takuupalvelujen koordinointi.'
+content_process:
+  tagline: Näin kummpaniksi
+  title: 'Kumppanuusprosessi'
+  subtitle: 'Suora prosessi — hakemuksesta ensimmäiseen tuotantoerään.'
+  items:
+    - title: 'Vaihe 1: Lähetä hakemus'
+      description: 'Täytä kumppanihakemuksemme yritysprofiililla, kohdemarkkinalla ja tuotekiinnostuksella.'
+    - title: 'Vaihe 2: Karsintakäynti'
+      description: 'Tiimimme käy hakemuksesi läpi ja ottaa yhteyttä 3 arkipäivän kuluessa vaatimusten keskustelua varten.'
+    - title: 'Vaihe 3: Sopimus ja käyttöönotto'
+      description: 'Allekirjoita kumppanuussopimus, perusta tilisi ja vastaanota tuotenäytteet, spesifikaatiot ja sovitut ehdot.'
+    - title: 'Vaihe 4: Näytteenotto ja tuotanto'
+      description: 'Hyväksy fyysiset näytteet, vahvista spesifikaatiot ja MOQ, ja tuota tuotteet sinun brändisi alla.'
+cta:
+  title: 'Keskustele kumppanuudesta'
+  subtitle: 'Lähetä vaatimuksesi, niin tiimimme vastaa 3 arkipäivän kuluessa.'
+  actions:
+    - variant: primary
+      text: Lähetä vaatimukset
+      href: /fi/contact
+    - text: Tutustu tuotteisiimme
+      href: /fi/products
+
+content_html: |
+  <div class="mx-auto max-w-3xl space-y-4 rounded-2xl border bg-card p-6 text-[14.5px] leading-relaxed text-fg-2">
+    <p><strong>Lue lisää:</strong> kumppaniohjelmat käyttävät samaa <a href="/fi/oem-manufacturing">OEM/ODM-valmistusmoottoria</a> — ehdot, kokeilun MOQ:t ja räätälöinti määritellään siellä — ja kaikki tuotanto kulkee <a href="/fi/factory">12,500 m&sup2; tehtaan</a> kautta.</p>
+  </div>

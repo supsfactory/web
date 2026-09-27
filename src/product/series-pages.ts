@@ -2760,8 +2760,257 @@ export const seriesPages: Localized<SeriesPageData[]> = {
           a: 'Ja — de giver højere timepriser med lavere udstyrskostnad pr. rytter og holder grupper sammen frem for at splitte dem på enkeltbræt. Udlejningsvirksomheder kombinerer typisk flerspersonsbræt med allround-flåder.',
         },
         {
-          q: 'Hvad er kapaciteten af en partyplatform?',
-          a: 'Kapaciteten afhænger af mål og volumen: typiske yard- og partyplatforme bærer 400–700 lbs og tager 3–6 ryttere afhængigt af størrelse og konfiguration. Specifikationerne bekræftes på en fysisk prøve før volumenproduktion.',
+          q: 'Mikä on party-laudan kantokyky?',
+          a: 'Kantokyky riippuu mitoista ja tilavuudesta: tyypilliset piha- ja partylaudat kantavat 400–700 lb ja 3–6 melojaaa koosta ja kokoonpanosta riippuen. Spesifikaatiot vahvistetaan fyysisellä näytteellä ennen volyymituotantoa.',
+        },
+      ],
+    },
+  ],
+  fi: [
+    {
+      slug: 'all-around',
+      navLabel: 'Allround',
+      metaTitle: 'Räätälöidyt allround-SUP-laudat — puhallettavien lautojen OEM-valmistaja | iSupfactory',
+      metaDescription:
+        'Räätälöidyt puhallettavat allround-SUP-laudat valmistetaan omalla merkilläsi — leveä, vakaa kansi, OEM/ODM-volyymit 90–100+ kpl:stä, näytteet 7–12 päivässä. Suoraan tehtaalta Qingdaosta, Kiinasta.',
+      kicker: 'Sarja · Allround',
+      h1: 'Räätälöidyt allround-SUP-laudat — uusille brändeille oletusalusta',
+      intro: [
+        'Allround-lauta on SUP-kategorian työhevonen: tarpeeksi leveä tuntuakseen vakaalta aloittelijalle, tarpeeksi ketterä pitääkseen kokeneet melojat kiinnostuneina ja tarpeeksi kevyt kannettavaksi minne vain. Useimmat uudet brändit ja useimmat vuokrauslaivat aloittavat tästä.',
+        'Valmistamme allround-alustoja omalla merkilläsi 90–100+ kpl:stä 150 m rullaa kohti (vakiomäärä), ja pilottierissä 20–50 kpl:stä. Muoto, kantisapsot, kerrosrakenne, värit, koko laudan grafiikka ja pakkaus määritetään projektikohtaisesti.',
+      ],
+      faqs: [
+        {
+          q: 'Voinko räätälöidä allround-SUP-laudan brändilleni?',
+          a: 'Kyllä. Jokainen allround-alusta on tuotantoperusta — määrität mitat (tyypillisesti 10′6″–11′6″), leveyden, paksuuden, kerrosrakenteen (yksi tai kaksi kerrosta tai fuusio), kantisapsojen kokoonpanon, EVA-matot, koko laudan grafiikan ja pakkauksen. Räätälöidyt muodot alkavat 90–100+ kpl:stä muotoa kohti; vakiomäärätuotanto 90–100+ kpl:stä 150 m rullaa kohti.',
+        },
+        {
+          q: 'Mikä on allround-SUP-lautojen minimitilaus (MOQ)?',
+          a: 'Vakiomääräerät alkavat 90–100+ kpl:stä 150 m rullaa kohti; pilottierät vakiomuodoilla alkavat 20–50 kpl:stä; täysin räätälöidyt muotot ajetaan 90–100+ kpl:stä muotoa kohti. Näytteet lähetetään 7–12 päivässä, ja volyymituotanto kestää 25–35 päivää vahvistetun tilauksen ja käsirahan jälkeen.',
+        },
+        {
+          q: 'Mitä myyntivalmis paketti sisältää?',
+          a: 'Täydellinen paketti: puhallettava lauta drop-stitch-ytimellä, säädettävä mela, käsipumppu (tai sähköinen kertainen pumppu), korjaussarja, kannettava reppute ja painettu kartonki. Lisävarusteet voi vaihtaa tai päivittää kohdemarkkinasi mukaan.',
+        },
+        {
+          q: 'Millaisen EVA-kannen kovuuden valmistatte?',
+          a: 'Kannen liukumatot ovat 45–55 Shore C — keskikohdan pehmeitä, jotka tuntuvat hyvältä jalkojen alla kovettumatta auringossa. Paksuus, urat, aukot ja logon sijainti määritetään projektikohtaisesti.',
+        },
+      ],
+    },
+    {
+      slug: 'race',
+      navLabel: 'Race',
+      metaTitle: 'Räätälöidyt race-SUP-laudat — puhallettavat race-alustat, OEM | iSupfactory',
+      metaDescription:
+        'Räätälöidyt puhallettavat race-SUP-laudat seuroille, kilpailuille ja brändeille — drop-stitch-race-kulkuneet, OEM-volyymit 90–100+ kpl:stä, CE-sertifioitu tuotanto. Suoraan tehtaalta.',
+      kicker: 'Sarja · Race',
+      h1: 'Räätälöidyt race-SUP-laudat — race-kulkuneet valmistettuna brändillesi',
+      intro: [
+        'Race-laudat vaihtavat vakauden nopeuteen: pidemmät ja kapeammat profiilit hienostetuilla kärkä muodoilla ja matalalla keulakulmalla, rakennettu siirtymämeloontaa varten. Puhallettavat versiot vastaavat kovien racelautojen suorituskykyä siirrettävällä alustalla.',
+        'Valmistamme race-alustoja brändeille, seuroille ja kilpailujärjestäjille tarkoilla drop-stitch-ytimillä, race-specifisellä kerrosrakenteella ja nopeuteen tähtäävillä kulkuneen muodoilla — testattuina hydrodynamisessamme testitankissa.',
+      ],
+      faqs: [
+        {
+          q: 'Millaisia race-SUP-mittejä valmistatte?',
+          a: 'Tyypilliset race-alustat ulottuvat 12′6″ × 28″:stä 12′6-race-luokkiin aina 14′ × 23″–25″:n unlimited-/touring-race-muotoihin. Leveys, keulakulma ja kärkiprofiilit määritetään kohderyhmälle ja vahvistetaan fyysisellä näytteellä.',
+        },
+        {
+          q: 'Vaativatko racelaudat erityisen rakenteen?',
+          a: 'Kyllä — racelaudat käyttävät kevyempää, tiheästi kudottua drop-stitch-ydintä korkeammalla paineella (18–20 PSI) ja jäykempiä kantisapsojen vahvistuksia kulkuneen muodon säilyttämiseksi nopeudessa. Kerrosrakenteen valinta (yksi vai kaksi kerrosta) on painon ja jäykkyyden välinen kauppa, jonka määritämme yhdessä projektikohtaisesti.',
+        },
+        {
+          q: 'Voivat seurat tilata racelautoja joukkueelleen?',
+          a: 'Kyllä. Seura- ja joukkueohjelmat tilaavat 90–100+ kpl:stä (vakiomäärä) seuran grafiikalla ja voivat yhdistää race- ja harjoitusalustoja samaan tilaukseen. Laivastohinnat koskevat yhdistettyjä määriä.',
+        },
+      ],
+    },
+    {
+      slug: 'surf',
+      navLabel: 'Surf',
+      metaTitle: 'Räätälöidyt surf-SUP-laudat — puhallettavat hybridisurf-alustat, OEM | iSupfactory',
+      metaDescription:
+        'Räätälöidyt puhallettavat surf-SUP-laudat — hybridisurffiprofiilit pyöristetyin kantisapsoin ja korkeammalla keulakulmalla, valmistettuna omalla merkilläsi 90–100+ kpl:stä Qingdaossa, Kiinassa.',
+      kicker: 'Sarja · Surf',
+      h1: 'Räätälöidyt surf-SUP-laudat — hybridisurfalustat aallossa melontaan',
+      intro: [
+        'Surf-SUP-lauta tuo aaltosuorituskyvyn siirrettävälle alustalle: lyhyemmät pituudet, korkeampi keulakulma, pyöristetyt kantisapsot ja koverat kärjet, jotka pitävät linjan aallon pinnalla. Puhallettavat surf-muodot ovat anteeksiantavin tapa aloittaa surfmelonta.',
+        'Valmistamme surf-alustoja omalla merkilläsi aaltokohtaisilla muodoilla ja rakenteen yksityiskohdilla — soft-top-tyylisistä täydellisistä seteistä suorituskykypainotteisiin kerrosrakenteisiin.',
+      ],
+      faqs: [
+        {
+          q: 'Millaisia kokoja surf-SUP-lautoja on saatavilla?',
+          a: 'Yleiset surf-alustat ovat 8′6″–10′6″ ja leveydet noin 30″–34″. Pituus, keulakulma ja kantisapsoprofiili määritetään melojan painon ja aaltotyypin mukaan ja vahvistetaan fyysisellä näytteellä ennen tuotantoa.',
+        },
+        {
+          q: 'Ovatko puhallettavat surf-laudat riittävän kestäviä vuokraukseen?',
+          a: 'Vahvistettujen kantisapsojen ja UV-kestävän PVC:n ansiosta surf-alustomme kestävät vuokraus- ja opetuskäyttöä surffikouluissa. Vuokrauslaivat yhdistävät tyypillisesti allround- ja surf-muotoja — laivastohinnat koskevat koko yhdistettyä määrää.',
+        },
+        {
+          q: 'Voitteko toistaa brändimme grafiikat surf-lautoihin?',
+          a: 'Kyllä. Koko kannen grafiikka, pohjakuviot, EVA-liukumatot ja pakkaus valmistetaan aineistoistasi tai suunnittelutiimimme kehittää ne brändimateriaaleistasi.',
+        },
+      ],
+    },
+    {
+      slug: 'touring',
+      navLabel: 'Touring',
+      metaTitle: 'Räätälöidyt touring-SUP-laudat — pitkän matokanavat, OEM | iSupfactory',
+      metaDescription:
+        'Räätälöidyt puhallettavat touring-SUP-laudat pitkille melontamatkoille — siirtymäkulkuneet 12′6″+:sta alkaen, monipäiväiset matkat, OEM-volyymit 90–100+ kpl:stä, suoraan tehtaalta.',
+      kicker: 'Sarja · Touring',
+      h1: 'Räätälöidyt touring-SUP-laudat — rakennettu matkaa varten, kantamittarilla ja suuria alueita kiertäen',
+      intro: [
+        'Touring-laudat ovat pitkiä ja tehokkaita: terävät kärjet sujuvaa etenemistä varten, kohtuainen tilavuus vakauteen avoimella vedellä ja riittävä runko pituutta kantaa varusteita monipäiväisillä matkoilla. Ne ovat ensisijainen valinta pitkän matkan melojille ja seikkailuretkeilijöille.',
+        'Valmistamme touring-alustoja omalla merkilläsi siirtymämuodolla, kiinnityspisteillä ja kansi- ja kuormatilalla varustettuna sekä hiilita-soveltuvilla lisävarustejärjestelmillä (bungee, D-renkaat, kiinnikkeet).',
+      ],
+      faqs: [
+        {
+          q: 'Millaisia touring-SUP-kokoja valmistatte?',
+          a: 'Touring-alustat ovat tyypillisesti 12′6″–14′, leveydet 28″–32″. Pidemmät 14′:n rungot painottavat sujuvaa etenemistä, leveämmät versiot lisäävät kuorman vakautta. Spesifikaatiot vahvistetaan fyysisellä näytteellä ennen erätuotantoa.',
+        },
+        {
+          q: 'Tulevat touring-laudat kuormitus- ja kiinnitysominaisuuksilla?',
+          a: 'Kyllä — bungee-kuormanetit, D-rengasritäät, viekkien kiinnikkeet ja lisävarasteiden kiskojärjestelmät määritetään projektikohtaisesti. Touring-seteissä yhdistetään usein repputeillä varustetut laudat ja korkean paineen pumput.',
+        },
+        {
+          q: 'Toimitatteko touring-lautoja varustelijoille ja vuokrausyrityksille?',
+          a: 'Kyllä. Varustelijat ja operaattorit voivat ajaa omat touring-laivastonsa 20–50 kpl:stä (pilotti) laivastohinnoilla, varaosilla ja määritellyllä kausittaisella uudistussyklillä.',
+        },
+      ],
+    },
+    {
+      slug: 'yoga',
+      navLabel: 'Yoga',
+      metaTitle: 'Räätälöidyt yoga-SUP-laudat — leveät vakaat alustat, OEM | iSupfactory',
+      metaDescription:
+        'Räätälöidyt puhallettavat yoga-SUP-laudat — erityisen leveät vakaat alustat pehmeällä kannella studjoille, resorteille ja ohjaajille. OEM-volyymit 90–100+ kpl:stä, suoraan tehtaalta.',
+      kicker: 'Sarja · Yoga',
+      h1: 'Räätälöidyt yoga-SUP-laudat — erityisen leveät alustat vedellä tapahtuvaan harjoitteluun',
+      intro: [
+        'Yogalaudat on rakennettu rauhaan: lisäleveys ja -tilavuus takaavat vankan alustan, pehmeät pinnat käsille ja jaloille sekä matalat profiilit, jotka pitävät laudan lähellä vettä. Ne palvelevat studioita, resorteja ja ohjaajia, jotka järjestävät vesijoogaa.',
+        'Valmistamme yoga-alustoja omalla merkilläsi vakaimilla leveillä profiileilla, premium-EVA-kannella ja ohjelmasuhteisiin sopivilla vaihtoehdoilla studioille ja resortilaivoille.',
+      ],
+      faqs: [
+        {
+          q: 'Mikä tekee SUP-laudasta hyvän joogaan?',
+          a: 'Ensin vakaus: lisäleveys (33″–36″) ja tilavuus pitävät laudan tasaisena ja vakaana. Pehmeä EVA-kansi suojaa käsitä, polvia ja jalkoja, ja matala kantisapso vähentää heikkoutta astuessa laudan päälle ja pois.',
+        },
+        {
+          q: 'Voivat resortit tilata yogalautoja osaksi laivastoa?',
+          a: 'Kyllä. Resortit yhdistävät usein yoga-alustoja allround-laudoihin asiakkaille. Yhdistetyt laivastomäärät oikeuttavat laivastohinnat, ja brändätyt grafiikat kohteen värivalikoimassa koskevat koko tilausta.',
+        },
+        {
+          q: 'Sisältävätkö yogalaudat täydellisiä setejä?',
+          a: 'Kyllä — puhallettava lauta, mela, pumppu, reppute ja korjaussarja tai karsittu sarja paikallista säilytystä varten (lauta + mela + sähköpumppu), ohjelman vaatimusten mukaan.',
+        },
+      ],
+    },
+    {
+      slug: 'whitewater',
+      navLabel: 'Vetevoima',
+      metaTitle: 'Räätälöidyt whitewater-SUP-laudat — joki- ja koskialustat, OEM | iSupfactory',
+      metaDescription:
+        'Räätälöidyt puhallettavat whitewater-SUP-laudat jokiin ja koskiin — lyhyet, ohjattavat rungot ismurtuvalla rakenteella. OEM-volyymit 90–100+ kpl:stä Qingdaossa, Kiinassa.',
+      kicker: 'Sarja · Vetevoima',
+      h1: 'Räätälöidyt whitewater-SUP-laudat — jokirungot iskujen kestämiseksi',
+      intro: [
+        'Whitewater-laudat ovat lyhyitä, leveitä ja sitkeitä: ohjattavat rungot kääntyvät tarvittaessa, suuri isonkestävyys kantisapsoja iskeymissä ja raskas rakenne matalille jokipohjille ja kivisille laskupaikoille.',
+        'Valmistamme whitewater-alustoja omalla merkilläsi vahvistetuilla saumoilla, ismurtuvilla kantisapsoilla ja jokikohtaisilla muodoilla — rakennettuina kouluille, oppaille ja jokivarustelijoille, jotka järjestävät päivittäin opetuksia ja retkiä.',
+      ],
+      faqs: [
+        {
+          q: 'Millaista rakennetta whitewater-laudat tarvitsevat?',
+          a: 'Vahvistetut kantisapsot ja kaksinkertaisesti ommellut rakenteet imevät kantisapsojen iskut, kun ta paksu PVC ja monikerroksinen rakenne kestävät jokipohjien puhkaisut. Kaksoiskammiorakenteet antavat lisäkelluvuusvaraa syrjäisillä joilla.',
+        },
+        {
+          q: 'Toimitatteko jokivarustelijoille ja opaskouluille?',
+          a: 'Kyllä. Varustelijat ja opaskoulut ajavat whitewater-laivastoja 20–50 kpl:stä (pilotti) laivastohinnoilla, raskasilla korjaussarjoilla sekä varaevä- ja venttiiliosilla — tyypillistä korkean käyttöasteen jokiohjelmille.',
+        },
+        {
+          q: 'Voivatko whitewater-laudat kantaa brändigrafiikkaa?',
+          a: 'Kyllä — koko laudan grafiikka, logon sijainti ja joukkueen värit valmistetaan aineistoistasi. Repeämäsuojatut painokerrokset pitävät brändäyksen ehjänä raskaassa käytössä.',
+        },
+      ],
+    },
+    {
+      slug: 'fishing',
+      navLabel: 'Kalastus',
+      metaTitle: 'Räätälöidyt kalastus-SUP-laudat — OEM ja oma brändi | iSupfactory',
+      metaDescription:
+        'Räätälöidyt puhallettavat kalastus-SUP-laudat vakaudella, kantokyvyllä ja lisävarustekiinnikkeillä — OEM/oma brändi -volyymit 90–100+ kpl:stä, suoraan tehtaalta Qingdaossa, Kiinassa.',
+      kicker: 'Sarja · Kalastus',
+      h1: 'Räätälöidyt kalastus-SUP-laudat — rakennettu kaloajajien mielessä',
+      intro: [
+        'Kalastuslaudat ovat vakaita nippulautoja: leveitä ja suuren tilavuuden omaavia, jotta ne kantavat kalastajan sekä varusteet, varustetelineillä viekkeille, kylmälaatikolle ja kalastustarvikkeille sekä hiljaisella rakenteella, joka helpottaa varomaista lähestymistä.',
+        'Valmistamme kalastusalustoja omalla merkilläsi kalastajakohtaisilla ominaisuuksilla projektikohtaisesti — viikonloppupaketeista aina täyhiin kilpailujen kokoonpanoihin.',
+      ],
+      faqs: [
+        {
+          q: 'Millaisia ominaisuuksia kalastus-SUP-lautoihin voi määrittää?',
+          a: 'Asennusritäät viekkeen pidikkeille ja lisävarusteille, varustesuuntakiskot, kylmälaatikon hihnat, ankkurointipisteet sekä jopa 500 lb:n kantokykyiset laudat kalastajalle ja varusteille. Paketteihin voi kuulua omalla merkillä varustettuja meloja, pumppuja ja laukkuja.',
+        },
+        {
+          q: 'Mikä on kalastus-SUP-lautojen OEM-tilausten minimitilaus (MOQ)?',
+          a: 'Vakiomääräerät alkavat 90–100+ kpl:stä 150 m rullaa kohti; pilottierät 20–50 kpl:stä vakiomuodoilla; räätälöidyt työkalut ajetaan 90–100+ kpl:stä muotoa kohti. Näytteet lähetetään 7–12 päivässä; tuotanto kestää 25–35 päivää vahvistetun tilauksen ja käsirahan jälkeen.',
+        },
+        {
+          q: 'Valmistatteko kalastuslautoja vuokraus- ja opaskäyttöön?',
+          a: 'Kyllä. Opas- ja vuokrausyritykset ajavat kalastuslaivastoja laivastohinnoilla, varaosilla ja korjaussarjoilla, jotka on mitoitettu päivittäisen käytön ohjelmille.',
+        },
+      ],
+    },
+    {
+      slug: 'kids',
+      navLabel: 'Lapset',
+      metaTitle: 'Räätälöidyt lasten SUP-laudat — pienet kevyet alustat, OEM | iSupfactory',
+      metaDescription:
+        'Räätälöidyt puhallettavat lasten SUP-laudat — lyhyemmät, kevyemmät alustat lastaystävällisellä kannella, suunniteltu turvallisuuteen ja hauskaan. OEM-volyymit 90–100+ kpl:stä, suoraan tehtaalta.',
+      kicker: 'Sarja · Lapset',
+      h1: 'Räätälöidyt lasten SUP-laudat — pienet, kevyet ja rakennettu ensimmäisiin vetoihin',
+      intro: [
+        'Lasten laudat on mitoitettu nuorille melojille: lyhyemmät rungot, kevyempi paino, kapeammat leveydet pieniin kehopitkoon sopiviksi ja pehmeät kannet, jotka antavat anteeksi kaatumiset. Ne ovat perhebrändien, koulujen ja lastia palvelevien vuokrauslaivojen pääsääntulo.',
+        'Valmistamme lastenalustoja omalla merkilläsi vakio- ja juniorikokoissa sekä perheystävällisillä pakkausvaihtoehdoilla.',
+      ],
+      faqs: [
+        {
+          q: 'Millaisia kokoja lasten SUP-lautoja on?',
+          a: 'Tyypilliset lastenalustat ovat 7′–9′6″, leveydet 26″–30″ ja painot noin 7–9 kg (15–20 lb). Koko sovitetaan melojan ikään ja painoon ja vahvistetaan fyysisellä näytteellä ennen tuotantoa.',
+        },
+        {
+          q: 'Toimitatteko kouluille ja nuorisohjelmille?',
+          a: 'Kyllä — lastenalustamme ovat yleinen osa koulu- ja nuorisohjelmien laivastoja, ja ne tilataan yhdessä juniorimelojen ja aloittelijavarusteiden kanssa ohjelmahinnoilla.',
+        },
+        {
+          q: 'Voivatko lastenlaudat kantaa brändi- ja hahmo-grafiikkaa?',
+          a: 'Kyllä. Koko laudan väriryhmät, hahmojen kuviot ja logon sijainti kehitetään aineistoistasi tai brändisuunnittelustasi — painettuina samoilla repeämäsuojatuilla kerroksilla kuin aikuisten laudat.',
+        },
+      ],
+    },
+    {
+      slug: 'multi',
+      navLabel: 'Monihenkilö',
+      metaTitle: 'Räätälöidyt monihenkilö-SUP-laudat — tandem ja perhe, OEM | iSupfactory',
+      metaDescription:
+        'Räätälöidyt monihenkilöiset puhallettavat SUP-laudat perheenjuhlille ja ryhmäopetukseen — tandem-, piha- ja partyalustat. OEM-volyymit 90–100+ kpl:stä, suoraan tehtaalta.',
+      kicker: 'Sarja · Monihenkilö',
+      h1: 'Räätälöidyt monihenkilö-SUP-laudat — tandemit, pihalaudat ja partyalustat',
+      intro: [
+        'Monihenkilölaudat avaavat SUP:n ryhmille: tandemit joissa on ylimääräiset melontapaikat, pihalaudat rentoutumiseen ja partyalustat, jotka kantavat useita melojaita. Ne ovat vuokraustulojen selkäranka resorteissa, rannoilla ja järvillä.',
+        'Valmistamme monihenkilöalustoja omalla merkilläsi kunkin käyttötarkoituksen vaatimilla vakaus- ja tilavuusprofiileilla.',
+      ],
+      faqs: [
+        {
+          q: 'Millaisia monihenkilölautoja valmistatte?',
+          a: 'Tandemit (kaksi melojaa, noin 13′–14′), pihalaudat (lyhyet, leveät rentoutumisalustat) ja suuren tilavuuden partylaudat 3–6 melojalle. Jokainen tyyppi määritetään kantokyvyn, painon ja aiotun käytön mukaan.',
+        },
+        {
+          q: 'Ovatko monihenkilölaudat hyvä sijoitus vuokraukseen?',
+          a: 'Kyllä — ne tuottavat korkeampia tuntihintoja pienemmällä varustuskustannuksella melijaa kohden ja pitävät ryhmät yhdessä sen sijaan, että ne jaettaisiin yksilölaudoille. Vuokrausyritykset yhdistävät tyypillisesti monihenkilölaudat allround-laivastoihin.',
+        },
+        {
+          q: 'Mikä on party-laudan kantokyky?',
+          a: 'Kantokyky riippuu mitoista ja tilavuudesta: tyypilliset piha- ja partylaudat kantavat 400–700 lb ja 3–6 melojaa koosta ja kokoonpanosta riippuen. Spesifikaatiot vahvistetaan fyysisellä näytteellä ennen volyymituotantoa.',
         },
       ],
     },

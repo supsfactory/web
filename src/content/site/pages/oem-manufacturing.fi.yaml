@@ -1,0 +1,164 @@
+meta:
+  title: 'Puhallettavien SUP-lautojen OEM-valmistaja | räätälöity paddle board -tuotanto'
+  description: 'Puhallettavien SUP-lautojen OEM-tehdas: valmistamme olemassa olevan suunnittelusi — suunnittelukatsaus, näytteet 7–12 päivässä, tuotanto 25–35 päivässä, CE/ISO/BSCI-vaatimustenmukaisuus.'
+  dateModified: '2026-08-16'
+  keywords:
+    - 'sup oem valmistaja'
+    - 'oem puhallettava sup'
+    - 'räätälöity sup-tuotanto'
+    - 'sup tehdas kiinassa'
+    - 'räätälöityjen paddle boardien tehdas'
+
+hero:
+  tagline: OEM-valmistus
+  title: 'Räätälöity SUP OEM -valmistus — sinun määrityksesi, meidän tehtaamme'
+  subtitle: 'Sinä tuot suunnittelun, piirustuksen tai hyvin testatun alustan — me valmistamme sen konttikoonteossa. Suunnittelukatsaus yhden arkipäivän kuluessa, näytteet 7–12 päivässä, tuotanto 25–35 päivää vahvistetun tilauksen ja käsirahajan jälkeen, toimitettuna brändilläsi.'
+
+answer:
+  label: 'Suora vastaus'
+  text: 'OEM-tuotanto lähtee määrityksestäsi. Vähimmäiseräkoko vahvistetaan projektin konfiguroinnin eikä kiinteän luvun mukaan: vakiintunut sarjatuotanto on 90–100 kpl erää kohti 150 m drop-stitch-kangasrullasta, pilottierät alkavat 20–50 kpl:stä olemassa olevilla alustoilla, ja jokainen projekti käy läpi näytevaiheen (1–2 kpl) ennen volyymia. Näytteet lähetetään 7–12 päivässä; tuotanto vie 25–35 päivää vahvistetun tilauksen ja käsirahajan jälkeen, sekä 15–20 päivää kun tarvitaan uutta työkalustoa.'
+  verified: 'Syyskuu 2026'
+
+features:
+  title: OEM-ominaisuudet
+  subtitle: 'Kaikki mitä tarvitaan muuttamaan olemassa oleva määrityksesi, piirustuksesi tai alustasi lähetetyksi kontiksi.'
+  items:
+    - title: Valmistus määrityksesi mukaan
+      description: 'Piirustuksiasi, mitat, materiaaliluokat ja kuvitus toteutetaan sellaisenaan — insinöörimme tarkastavat määrityksen valmistettavuuden ennen tarjouslaskentaa.'
+      icon: 'tabler:file-check'
+    - title: Alustan mukautus
+      description: 'Todistetut tuotantolustat voidaan mukauttaa muutoksin muotoilussa, kylkilinjan määritykseen, venttiiliasetukseen ja lisävarusteisiin — ilman täyttä muotin kehittämistä.'
+      icon: 'tabler:arrows-diff'
+    - title: Räätälöidyt muotit
+      description: 'Uudet laudan muodot piirustuksistasi tai CAD-mallista — oma muottisuunnittelu ja tuotekehitys. Työkalusto lisää 15–20 päivää projektisi toimitusaikaan.'
+      icon: 'tabler:shapes'
+    - title: Prototyyppi ja näyte
+      description: 'Fyysinen näyte valmistetaan ja hyväksytään ennen mitään volyymierää, yleensä 7–12 päivän kuluessa, uusilla muodoilla radakkokokeineen.'
+      icon: 'tabler:tools'
+    - title: Konttikokoinen tuotanto
+      description: 'Vakiintuneet volyymierät 90–100 kpl suunnittelua kohti (yksi täysi 150 m kangasrulla), pilottierät 20–50 kpl:stä, toimitusaika 25–35 päivää vahvistetun tilauksen jälkeen.'
+      icon: 'tabler:package'
+    - title: CE- ja markkinavaatimustenmukaisuus
+      description: 'EU-markkinoille soveltuvien konfiguraatioiden CE-vaatimustenmukaisuusasiakirjat saatavilla — laajuus vahvistetaan projekti kohtaisesti. ISO 9001-, BSCI-, REACH- ja RoHS-asiakirjat valmistellaan jokaiselle markkinalle, jonne toimitat.'
+      icon: 'tabler:certificate'
+    - title: Tarkastus ja jäljitettävyys
+      description: '18.0 PSI:n 24 tunnin paineen pito -testaus ja automaattinen hylkäys yli 0.50 PSI:n painehävikin, 100 pisteen kokoonpanotarkistuslista sekä 10 vuoden erien jäljitettävyys ERP:ssä.'
+      icon: 'tabler:shield-check'
+    - title: Maailmanlaajuiset kuljetukset
+      description: 'FOB Qingdao, CIF ja DDP yli 50 maahan, vientipakkaus ja tulliselvitys hoidetaan logistiikkatiimimme toimesta.'
+      icon: 'tabler:world'
+
+customization:
+  tagline: Rakennettu määrityksesi mukaan
+  title: OEM-määrityksen kohdat
+  subtitle: 'Nämä ovat määrityskohdat, joita ohjaat OEM-projektissa — määritysdokumenttisi on tuotantosopimus:'
+  items:
+    - 'Laudan mitat — pituus, leveys, paksuus, kaarevuus ja tilavuus piirustustesi tai kohdemelaajiesi mukaan'
+    - 'Materiaalirakenne — PVC-kerrosten määrä ja laatu, drop-stitch-tiheys, jäykistimet ja reunavahvikkeet'
+    - 'Kuvitus ja värit — artworkisi toteutetaan rajoittamattomilla väreillä tai omalta suunnittelutiimiltamme tuotettuna'
+    - 'EVA-istumapatja — räätälöidysti leikatut kansipatjat, logot ja kansien värit jokaisella laudalla'
+    - 'Kahvat ja D-renkaat — sijainti, määrä ja tarvikemääritys käyttötapauksesi mukaan'
+    - 'Eväjärjestelmät — yksi-, kaksi- tai kolmieväkokoonpanot ja eväkotelot määrityksesi mukaan'
+    - 'Melat, pumput, hihnat ja lisävarusteet — sinun paketisi, sinun brändäyksesi'
+    - 'Pakkaus ja vähittäisesittely — vähittäislaatikot, merenkuljetuksen kestävä pakkaus ja myyntipisteiden näyttöteasemat brändilläsi'
+    - 'Etiketit ja vaatimustenmukaisuusmerkinnät — sarjanumerotarrat, logot ja markkukohtaiset asiakirjat vientialueellesi'
+
+faq_section:
+  tagline: FAQ
+  title: OEM-valmistusta koskevat kysymykset
+  questions:
+    - q: Miten aloitan OEM-projektin omalla suunnittelullani?
+      a: 'Lähetä piirustukset, referenssilauta tai kirjallinen määritys. Suunnittelukatsausmme vahvistaa valmistettavuuden ja palauttaa tarjouksen yhden arkipäivän kuluessa — se on vakiositoumuksemme, ja salassapitosopimus allekirjoitetaan ennen tiedostojen vaihtoa tarvittaessa.'
+    - q: Mikä on OEM-puhallettavien SUP-lautojen vähimmäiseräkoko?
+      a: 'Vähimmäiseräkoko vahvistetaan projektin konfiguroinnin mukaan — runko ja työkalusto, värivaihtoehdot ja PVC, artwork, pakkaus ja lisävarusteet. Vakiintunut sarjatuotanto on 90–100 kpl erää kohti (yksi 150 m drop-stitch-rulla), kun taas pilottierät alkavat 20–50 kpl:stä olemassa olevilla alustoilla. Lue koko laskentalogi oppaastamme Minimitilaus ja joustava brändäys.'
+    - q: Mikä on OEM-tilauksen tyypillinen toimitusaika?
+      a: 'Tuotanto vie 25–35 päivää vahvistetusta tilauksesta ja käsirahasta. Räätälöity muotin kehittäminen lisää 15–20 päivää työkalustukseen. Prototyyppinäytteet lähetetään yleensä 7–12 päivän kuluessa.'
+    - q: Voitteko valmistaa pelkän nykyisen piirustukseni perusteella?
+      a: 'Kyllä. OEM rakentaa määrityksesi sellaisenaan — omistat suunnittelun. Insinöörimme tarkastavat piirustukset tuotannon toteutettavuuden kannalta ja ilmoittavat mahdollisista määritysristiriidoista ennen työkaluston tai leikkauksen aloitusta, ja hyväksytty näyte toimii tuotannon referenssinä.'
+    - q: Toimitatteko näytteitä ennen tuotantoa?
+      a: 'Kyllä. Fyysinen näyte valmistetaan ja hyväksytään ennen mitään tuotantoerää, yleensä 7–12 päivän kuluessa, ja se toimii referenssinä kaikille myöhemmille laadunvalvontatarkastuksille.'
+    - q: Mitä sertifiointeja tehtaalla on?
+      a: 'ISO 9001:2015 -laadunhallinta (koko tehdas), BSCI-yhteiskuntavastuu (amfori-laitosauditointi), EU-markkinoille soveltuvien konfiguraatioiden CE-vaatimustenmukaisuusasiakirjat (laajuus vahvistetaan projekti kohtaisesti), REACH (materiaalit) ja RoHS (elektroniset lisävarusteet). Täydellinen vaatimustenmukaisuusasiakirjoitus toimitetaan jokaisen OEM-lähetyksen mukana kohdemarkkinoillesi valmistettuna.'
+    - q: Miten laatua valvotaan OEM-tuotannossa?
+      a: 'Tuotanto kulkee monipisteisen laadunvalvonnan läpi — saapuvat materiaalit, tuotannon aikaiset tarkastukset ja lopputarkastus — mukaan lukien 18.0 PSI:n 24 tunnin paineen pito -testaus (automaattinen hylkäys yli 0.50 PSI:n painehävikin), 100 pisteen kokoonpanotarkistuslista ja 10 vuoden erien jäljitettävyys ERP:ssä sarjanumeron mukaan.'
+    - q: Mitkä ovat toimitusehtonne?
+      a: 'FOB Qingdao, CIF suuriin maailmanlaajuisiin satamiin tai DDP hyväksytyille kumppaneille. Toimitamme yli 50 maahan EU-, Yhdysvaltain-, Australian ja Aasian markkinoille.'
+
+process:
+  title: OEM-prosessi — määrityksestä lähetettyyn konttiin
+  subtitle: 'Seitsemän valvottua vaihetta, joita hoitaa yksi tehdastiimi, joten jokainen vaihe ensimmäisestä määrityksestäsi pakattuun konttiin asti pysyy dokumentoituina ja aikataulussa.'
+  steps:
+    - phase: '01'
+      title: Määrityksen tarkastus ja tarjous
+      period: 1 arkipäivä
+      items:
+        - 'Jaa piirustukset, määritys tai referenssilaudat — insinöörimme tarkastavat valmistettavuuden.'
+        - 'Saat yksityiskohtaisen tarjouksen ja projektisuunnitelman yhden arkipäivän kuluessa.'
+    - phase: '02'
+      title: Tuotekehityksen vahvistus
+      period: Viikko 1
+      items:
+        - 'Rungon mitat, drop-stitch-laatu, PVC-määritykset ja reunavahvikkeiden rakenne vahvistetaan dokumenttiasi vasten.'
+        - 'Muotti- tai alustapäätökset lukitaan — räätälöity muotityökalusto alkaa tästä tarvittaessa.'
+    - phase: '03'
+      title: Prototyyppi ja näyte
+      period: 7–12 päivää
+      items:
+        - 'Fyysinen näyte valmistetaan ja lähetetään arvioitavaksesi — uusilla muodoilla mukaan radakkokokeet.'
+        - 'Näyte (1–2 kpl) validoi määrityksesi ennen mitään volyymisitoumusta.'
+    - phase: '04'
+      title: Testaus ja validointi
+      period: Rinnakkain
+      items:
+        - 'Ilman säilymisen, paineen pidon, saumalujuuden, kuormituksen ja UV-tarkastukset tuotantolinjaa kohti.'
+        - 'CE-, ISO 9001-, BSCI-, REACH- ja RoHS-asiakirjat valmistellaan vientimarkkinoillesi.'
+    - phase: '05'
+      title: Hyväksyntä ja vahvistus
+      period: Näytteen allekirjoituksen jälkeen
+      items:
+        - 'Hyväksyt näytteen ja kuvituksen; tilaus ja käsiraha lukitsevat tuotantopaikan.'
+        - 'Tuotantoa edeltävä suunnitelma vahvistaa päivämäärät, määrät, pakkauksen ja lastaus-sataman.'
+    - phase: '06'
+      title: Tuotanto
+      period: 25–35 päivää
+      items:
+        - 'Tuotanto kulkee monipisteisen laadunvalvonnan läpi — saapuvat materiaalit, tuotannon aikaiset tarkastukset ja lopputarkastus.'
+        - 'Pilottitilauksista (20–50 kpl) olemassa olevilla alustoilla aina täyteen 150 m rullaerään (90–100+ kpl) vakiintuneessa volyymituotannossa.'
+    - phase: '07'
+      title: Pakkaus ja lähetys
+      period: 1 päivä + kuljetus
+      items:
+        - 'Vientipakkaus ja sarjanumerotarrat, sitten FOB Qingdao, CIF tai DDP yli 50 maahan.'
+        - 'Tulliasiakirjat, seuranta ja uusinta-tilaustuki mukana jokaisessa vaiheessa.'
+
+geo:
+  tagline: Kenen kanssa työskentelemme
+  title: OEM-kumppanit SUP-alalla
+  sentence: 'Jokaiseen iSupfactoryn OEM-projektiin liitetään tiimi, joka on valmistanut lautoja samalle liiketoimintatyypille aiemmin — tässä keitä palvelemme.'
+  audiences:
+    - 'SUP-brändät'
+    - 'Ulkoilu- ja vesiliikuntayritykset'
+    - 'Jakelijat ja vähittäiskauppiaat'
+    - 'Lomakeskukset, seurat ja järjestöt'
+
+cta:
+  title: 'Valmiina viemään SUP-tuotelinjasi eteenpäin?'
+  subtitle: 'Saat yksityiskohtaisen OEM-tarjouksen yhden arkipäivän kuluessa — lähetä määrityksesi tai piirustukset.'
+  actions:
+    - variant: primary
+      text: Pyydä OEM-tarjous
+      href: /fi/contact#custom-oem
+    - text: Todenna tehdas ja laadunhallintajärjestelmä
+      href: /fi/oem-trust-assurance
+    - text: Tarkastuksen 7-vaiheinen järjestelmä
+      href: /fi/quality
+    - text: Opas vähimmäismäärään ja joustavaan brändäykseen
+      href: /fi/oem-moq-guide
+    - text: Räätälöityjen SUP-lautojen vähimmäismäärän ja toimitusajan erittely
+      href: /fi/sup-oem-moq-lead-time
+    - text: Lanseeraa uusi brändi koepilottitilauksella
+      href: /fi/new-brand-trial-order
+    - text: SUP-rakenteiden vertailu
+      href: /fi/sup-construction-comparison
+    - text: SUP-vaatimustenmukaisuus markkinoittain
+      href: /fi/sup-compliance-by-market

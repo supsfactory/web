@@ -1,0 +1,176 @@
+meta:
+  title: 'Lauta-aloita SUP-brändisi matalan MOQ:n koepilottitilauksella | iSupfactory'
+  description: 'Lauta-aloita puhallettavien SUPien brändi matalan MOQ:n koepilottitilauksella: näytteet 7–12 päivässä, pilottierät 20–50 lautaa, tuotanto 25–35 päivässä. Brändäys ja laadunvalvonta hoidettu.'
+  dateModified: '2026-08-16'
+  keywords:
+    - 'sup brändin aloittaminen'
+    - 'sup brändin lansseeraus'
+    - 'matala moq sup'
+    - 'sup koepilottitilaus'
+    - 'aloitteleva sup brändi'
+    - 'pien-erän sup brändäys'
+    - 'puhallettava sup private label'
+
+hero:
+  tagline: 'Uusille ja kasvaville SUP-brändeille'
+  title: 'Lauta-aloita SUP-brändisi matalan MOQ:n koepilottitilauksella'
+  subtitle: 'Et tarvitse kontillista SUP-brändin aloittamiseksi. Varmennuta lauta, kuvituksesi ja markkinasi yhdellä näytteellä, testaa sitten myyntiä 20–50 laudan koepilottitilauksella — ennen kuin sitoudut koskaan täysiin tuotantovolyymeihin. Brändäyksen, laadunvalvonnan ja vientilogistiikan hoitaa Qingdao Vatrad Group Co., Ltd.'
+  actions:
+    - variant: primary
+      text: Aloita lanseeraus näytteellä
+      href: /fi/contact#custom-oem
+    - text: Katso koko MOQ- ja toimitusaikakehys
+      href: /fi/sup-oem-moq-lead-time
+
+answer:
+  label: 'Suora vastaus'
+  text: 'Kyllä — voit aloittaa puhallettavien SUPien brändin matalan MOQ:n koepilottitilauksella. Lähtöpiste on porrastettu, ei kaikki-tai-ei-lainkään: tilaa ensin 1–2 näytettä (valmiina 7–12 päivässä) jäättääksesi rungon, kuvituksen ja pakkauksen jäädytetyiksi; tee sitten 20–50 laudan koepilottitilaus (tuotanto 25–35 päivässä) testataksesi todellista myyntiä; ja skaalaa lopulta vakiintuneisiin 90–100+ laudan sarjoihin 150 m:n drop-stitch-kankaarulla, kun formaatti on todennettu. Pien-erän co-branding alkaa jo 5–10 kpl:stä operaattoreille, jotka haluavat brändättyjä lautoja ilman mitään kehitysvaihetta. Ensimmäinen kontillisi tulee vasta, kun data sen kertoo.'
+  verified: 'Syyskuu 2026'
+
+trial_included:
+  tagline: Mitä koepilottitilaus kattaa
+  title: 'Kaikki, mitä lanseeraus tarvitsee, ilman ylimääräistä kustannuksia'
+  subtitle: 'Koepilottitilaus ei ole pienennetty lasku — se on sama tehdasprosessi mitoitettuna lanseeraavalle brändille. Tässä on, mitä jokainen koepilottiohjelma sisältää.'
+  grid: 'sm:grid-cols-2 lg:grid-cols-3'
+  features:
+    - icon: B
+      icon_bg: blue
+      title: 'Laudaplatforma ja rakenne'
+      desc: 'Kentältestatut retkeily- ja all-around-rungot drop-stitch-rakenteella, kolmikerroksisella kiskonauhan fuusiolla ja 12–15 PSI:n jäykkyydellä — samat alustat, joita volyymiasiakkaamme käyttävät, varastokokoina 10 ft–11 ft 6 in.'
+    - icon: L
+      icon_bg: green
+      title: 'Oma brändäys aidosti käyttöön'
+      desc: 'Koko pinnan digitaalinen tai silk screen -artwork, EVA-koostumatyyny logollasi sekä toissijainen brändäys keulassa tai sivukiskoilla. Pien-erän co-brandingissa käytetään iSupfactoryn keskistä brändäystä ja logosi keulassa tai kiskoilla.'
+    - icon: P
+      icon_bg: purple
+      title: 'Pakkausvaihtoehdot, jotka skaaloituvat'
+      desc: 'Aloita yleisillä laatikolla ja viivakooditarroilla ja siirry myöhemmissä erissä täysvärisiin 5-kerroksisiin brändättyihin vähittäiskauppapakkauksiin. Mukautettu pakkaus kantaa oman painolaitteensa vähimmäismäärän; ylimääräiset laatikot varastoidaan ja luovutetaan aikataulussa.'
+    - icon: Q
+      icon_bg: orange
+      title: 'Tehdastason laadunvalvonta'
+      desc: 'Jokainen lauta läpäisee saman 100 pisteen kokoonpanotarkistuslistan ja 24 tunnin paine- ja ilmatiiviystestauksen (18.0 PSI:n pito, automaattinen hylkäys yli 0.50 PSI:n laskun yli), joka koskee kaikkia tilauksia, näytteitä ja kontillisia lähetyksiä.'
+    - icon: D
+      icon_bg: blue
+      title: 'Vienti ja dokumentaatio'
+      desc: 'CE-, ISO 9001-, BSCI-, REACH- ja RoHS-vaatimustenmukaisuusdokumentaatio, vientiluokan pakkaus ja merirahtiyhteistyö yli 50 maahan — aina 1 laudan näytteestä täysiin ohjelmiin.'
+    - icon: T
+      icon_bg: green
+      title: 'Aikataulu, jolle voi suunnitella'
+      desc: 'Näytteet 7–12 päivässä, koepilottituotanto 25–35 päivässä vahvistetun tilauksen ja talletuksen jälkeen sekä vahvistetut tuotantopaikat ennen kauden alkua — jotta lanseeraus osuu kausiin eikä sen jälkeen.'
+
+trial_steps:
+  tagline: Lanseeraus roadmap
+  title: 'Ideasta ensimmäiseen myyntiin kuudessa portissa'
+  subtitle: 'Tyypillinen ensimmäinen lanseeraus kestää 8–12 viikkoa briefistä toimitettuun koepilottitilaukseen käyttäen olemassa olevia alustoja — pidempään, kun räätälöity runko tuo mukanaan muotin kehittämisen. Jokaisella portilla on etukäteen sovittu päivämäärä.'
+  steps:
+    - step: 'Portti 1'
+      title: 'Tuotebrief ja tuotetekninen katselus (päivät 0–2)'
+      desc: 'Kerrot tavoitellun laudamallin, tilausmäärän, artworkin ja pakkauksen suunnan. Tuotetekninen katselus valmistuu yhden arkipäivän kuluessa, ja NDA on saatavilla ennen kuin jaat luottamukselliset määritykset.'
+    - step: 'Portti 2'
+      title: 'Määritys, MOQ ja tarjous (päivät 3–7)'
+      desc: 'Kohdekohtainen tarjous täsmällisellä MOQ-laskelmalla, näytemaksuilla ja toimitusajan vaiheilla. Näytemaksut vähennetään tuotantotilauksestasi sopimuksen allekirjoituksen yhteydessä.'
+    - step: 'Portti 3'
+      title: 'Näytteet 7–12 päivässä'
+      desc: '1–2 fyysistä lautaa varmennavat rungon jäykkyyden, EVA-koostumatyynyn pinnan, kuvituksen tarkkuuden ja lisävarusteiden istuvuuden. Koet lauta ennen kuin sitoudut mihinkään muuhun.'
+    - step: 'Portti 4'
+      title: '20–50 laudan koepilottitilaus (25–35 päivää)'
+      desc: 'Tuotanto olemassa olevilla runkoalustoilla, varastomateriaaleilla ja yksinkertaisella pakkauksella — pienin kaupallinen testi, joka vastaa todellisia varastotilanteita.'
+    - step: 'Portti 5'
+      title: 'Myynti ja palautteen ikkuna'
+      desc: 'Tärkein portti on sinun markkinoillasi, ei meidän tehtaallamme: vuokraajat ja asiakkaat vahvistavat laudan formaatin, kuvituksen ja hintatason ennen kuin skaalaat.'
+    - step: 'Portti 6'
+      title: 'Skaalaus volyymisarjoihin (90–100+ lautaa)'
+      desc: 'Kun formaatti on todennettu, vakiintuneet 150 m:n kankarullan sarjat tuovat täyden tuotantotehokkuuden, brändätyn pakkauksen ja volyymihinnat. Kontillinen ohjelma on tavoite, ei vaatimus.'
+
+trial_budget:
+  tagline: Suuntaa-antavat hintarajat
+  title: 'Mitä lanseeraus maksaa — viitteelliset hintarajat'
+  subtitle: 'Suuntaa-antavat viitteelliset hintarajat, EXW Qingdao (Kiina), vakiintuneelle retkeily- tai all-around-rungolle varastokokoissa. Lopullinen tarjous riippuu rungon muodosta, PVC:stä, artworkin peittävyydestä, pakkauksesta, lisävarusteista ja määrästä — vahvistetaan konfigaatiosi mukaan ennen mitään sitoumusta.'
+  headers:
+    stage: Tilausvaihe
+    price: Viitteellinen hinta lautaa kohti
+    notes: Huomioita
+  rows:
+    - stage: 'Näytteet (1–2 lautaa)'
+      price: 'USD 250–350'
+      notes: 'Fyysinen näyte, jossa kuvituksesi on käytössä. Näytemaksut vähennetään tuotantotilauksesta sopimuksen allekirjoituksen yhteydessä.'
+    - stage: 'Koepilotti / pilottierä (20–50 lautaa)'
+      price: 'USD 180–260'
+      notes: 'Olemassa olevat runkoalustat, varastomateriaalit ja yksinkertainen pakkaus. Vakiintunut matalan MOQ:n lanseerausreitti.'
+    - stage: 'Vakiintunut volyymi (90–100+ lautaa 150 m:n kankarullaa kohti)'
+      price: 'USD 150–220'
+      notes: 'Täydet 150 m:n kangasrullat, omat Pantone-PVC-vaihtoehdot, brändätty pakkaus ja volyymihinta.'
+    - stage: 'Räätälöity runko ja työkalusto (lisä)'
+      price: 'Tarjotaan projektikohtaisesti'
+      notes: 'Räätälöity rungon muoto lisää 15–20 päivää muotin kehittämiseen kokonaisaikataulussa; työkalusto eritellään ja tarjotaan kerran.'
+
+derisk:
+  tagline: Lansaeraa ilman riskiä
+  title: 'Neljä tapaa, joilla koepilottitilaus pienentää lanseerausriskiäsi'
+  subtitle: 'Useimmat uusien brändien lanseeraukset kaatuvat varastoon, eivät tuotteen laatuun. Koepilottitilaus on suunniteltu tekemään vältettävissä olevista virheistä mahdottomia.'
+  features:
+    - icon: I
+      icon_bg: blue
+      title: 'Ei raskaan varaston sitoumusta'
+      desc: 'Ensimmäisen kauden altistumisesi pysyy alle 50 laudan. Jos formaattia on muutettava, muutat sen ennen suurta kulutusta, ei sen jälkeen.'
+    - icon: C
+      icon_bg: green
+      title: 'Kassavirta pysyy hallinnassa'
+      desc: 'Pienemmät tilaukset tarkoittavat pienempiä talletuksia, vaiheistettuja maksuja eikä joutilasta pääomaa varastossa. Volyymihinta odottaa, kunnes se on oikeasti ansaittu.'
+    - icon: Q
+      icon_bg: purple
+      title: 'Laatua ei koskaan lasketa'
+      desc: '20 laudan koepilottitilaus käy saman 100 pisteen tarkistuslistan ja painetestauksen läpi kuin kontillinen ohjelma — ei "kokeilla ennen laatua" -kompromisseja.'
+    - icon: G
+      icon_bg: orange
+      title: 'Taattu reitti skaalaamiseen'
+      desc: 'Jokainen koepilottitilaus sisältää vahvistetun reutin kohti volyymia: säilytetyt näytekreditiit, jäädytetty artwork ja materiaaliluettelo sekä varatut tuotantopaikat seuraavaa erääsi varten.'
+
+scale_path:
+  tagline: Koepiloinnin jälkeen
+  title: 'Mitä tulee onnistuneen koepilottitilauksen jälkeen'
+  subtitle: 'Koepilottitilaus on tarkoituksella suunniteltu pidemman suhteen ensimmäiseksi askeleeksi. Tämä on reitti, jonka sovimme ennen ensimmäisen laudan lähetystä.'
+  steps:
+    - step: 'Vaihe 1'
+      title: 'Koepilotti toimitettu ja arvioitu'
+      desc: '20–50 lautaa saapuu kaudelle, ja myyntidata palaa kanavaltasi — vuokrauksesta, vähittäiskaupasta tai suoramyynnistä.'
+    - step: 'Vaihe 2'
+      title: 'Palaute ja hienosäätö'
+      desc: 'Väriversioita, kuvitusta, pakkausta ja lisävarustevalikoimaa säädetään todellisen markkinavasteen mukaan. Artwork ja materiaaliluettelo jäädytetään seuraavaa erää varten.'
+    - step: 'Vaihe 3'
+      title: 'Volyymierä (90–100+ lautaa)'
+      desc: 'Vakiintuneet 150 m:n kankarullan sarjat täydellä tuotantotehokkuudella, brändätyllä vähittäiskauppapakkauksella ja volyymihinnalla — näytekreditiit on jo vähennetty.'
+    - step: 'Vaihe 4'
+      title: 'Kontillisen mittakaavan ohjelmat'
+      desc: '300+ laudan ohjelmat porrastettuina lähetyksinä, omilla Pantone-materiaaleilla ja koko kehityspuolella — sama tehdas, nyt täydessä mittakaavassa.'
+
+trial_faqs:
+  tagline: FAQ
+  title: 'Usein kysytyt kysymykset lanseerauksesta koepilottitilauksella'
+  items:
+    - q: 'Voinko todella aloittaa SUP-brändin ilman kontillitilausta?'
+      a: 'Kyllä. Lähtöpiste on porrastettu: 1–2 näytettä varmennavat laudan (valmiina 7–12 päivässä), 20–50 laudan koepilottitilaus varmennattaa markkinat (tuotanto 25–35 päivässä), ja 90–100+ laudan volyymierät seuraavat vasta, kun myynti todentaa formaatin. Pien-erän co-branding alkaa jo 5–10 kpl:stä, kun haluat brändättyjä lautoja ilman mitään kehitysvaihetta.'
+    - q: 'Miten kauan koko lanseeraus kestää alusta loppuun?'
+      a: 'Olemassa olevia runkoalustoja käyttäen tyypillinen ensimmäinen lanseeraus kestää 8–12 viikkoa tuotebriefistä toimitettuun koepilottitilaukseen: näytteet 7–12 päivässä, koepilottituotanto 25–35 päivässä vahvistetun tilauksen ja talletuksen jälkeen. Räätälöity runko lisää 15–20 päivää muotin kehittämiseen.'
+    - q: 'Mitä hinta sisältää — ja mitä se ei sisällä?'
+      a: 'Viitteelliset hintarajat ovat EXW Qingdao itse lautoihin, mukaan lukien brändäyksen levitys ja vakiintunut laadunvalvonta. Ne ovat suuntaa-antavia: lopullinen tarjous vahvistetaan konfigaatiosi mukaan — runko, PVC, artworkin peittävyys, pakkaus ja lisävarusteet — ennen mitään sitoumusta. Rahti, tullit ja tulliselvitys määräpaikassa tarjotaan erikseen.'
+    - q: 'Onko minun ostettava 100 tai 500 lautaa saadakseni logoni lautoihin?'
+      a: 'Ei. Pien-erän co-branding asettaa logosi keulaan tai sivukiskoille jo 5–10 kpl:stä, ja 20–50 laudan koepilottitilaukset mahdollistavat koko artworkin levityksen samalla laadulla kuin volyymituotanto. Määrä muuttaa yksikköhintaa, ei saatavuutta.'
+    - q: 'Mitä tapahtuu, jos haluan muuttaa suunnittelua koepiloinnin jälkeen?'
+      a: 'Koepilotin ja volyymierän väliset muutokset ovat normaaleja ja tervetulleita — siinä on koepilotin tarkoitus. Väriversiot, artwork, pakkaus ja lisävarusteet hinnoitellaan uudelleen uutta kokoonpanoa vasten, minkä jälkeen ne jäädytetään artwork- ja materiaaliluetteloallekirjoituksella ennen volyymierää. Silk screen -painatuksen muottimaksut poistetaan uusintatilauksissa, joissa käytetään samaa artwork-mittaa.'
+    - q: 'Allekirjoitatteko NDA:n ennen kuin jaan suunnitteluni?'
+      a: 'Kyllä. Salassapitosopimus on saatavilla ennen kuin jaat luottamukselliset tekniset määritykset tai artworkin. Valmistamme yksinomaan asiakkaidemme brändeillä emmekäkä koskaan kilpaile niiden kanssa millään markkinoilla — sama käytäntö koskee 1 laudan näytettä ja kontillisen suuruista ohjelmaa.'
+
+cta:
+  title: 'Valmiina aloittamaan SUP-brändisi?'
+  subtitle: 'Kerro tavoitellun laudamallisi, ensimmäisen kauden määräsi ja brändäysideasi. Vahvistamme tarkan näyte- ja koepilottireitin kohdekohtaisilla kustannuksilla ja päiväkohtaisella aikataululla — ei sitoumusta ennen allekirjoitustasi.'
+  actions:
+    - variant: primary
+      text: Aloita lanseeraus
+      href: /fi/contact#custom-oem
+    - text: Ymmärrä ensin räätälöityjen SUPien MOQ ja toimitusaika
+      href: /fi/sup-oem-moq-lead-time
+    - text: Joustavan brändäyksen ja MOQ:n opas
+      href: /fi/oem-moq-guide
+    - text: Todenna tehdas ja laatujärjestelmä
+      href: /fi/oem-trust-assurance

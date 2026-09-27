@@ -1,0 +1,91 @@
+meta:
+  title: 'Tietoja iSupfactory — brändi-identiteetti, Qingdao Vatrad Groupin valmistusdivisioona | iSupfactory'
+  description: 'iSupfactoryn brändi-identiteetti: puhallettavien SUP-lautojen ja puhallettavien merituotteiden valmistusdivisioona. Tehtaan sijainti, oikeushenkilö, sertifioinnit ja brändin asemo.'
+  dateModified: '2026-08-21'
+  keywords:
+    - 'iSupfactory identiteetti'
+    - 'Qingdao Vatrad Group'
+    - 'Vatrad SUP valmistaja'
+    - 'SUP tehdas Laixi Qingdao'
+    - 'puhallettavien SUP valmistaja Kiina'
+    - 'OEM SUP tehdas identiteetti'
+
+hero:
+  tagline: 'Brändi-identiteetti'
+  title: 'Kuka on iSupfactory?'
+  subtitle: 'iSupfactory on Vatradin ostajapuolelle suunnattu valmistusbrändi, Qingdao Vatrad Group Co., Ltd:n meriteollisuuden valmistusdivisioona — puhallettavien SUP-lautojen ja puhallettavien merituotteiden valmistaja Laixissa, Qingdaossa, Kiinassa. Valmistamme yksinomaan asiakkaidemme brändeillä emmekä koskaan kilpaile heidän kanssaan millään markkinoilla.'
+
+answer:
+  label: 'Lyhyesti'
+  text: 'Oikeushenkilö: Qingdao Vatrad Group Co., Ltd. Valmistusdivisioona: Vatrad (iSupfactory-brändi). Tehdas: Laixi, Qingdao, Shandong, Kiina. Toimiala: puhallettavien SUP-lautojen, melojen ja puhallettavien merituotteiden OEM-, ODM- ja private label -valmistus. Sertifioinnit: ISO 9001:2015, CE (EU-markkinoille tarkoitetut mallit), BSCI, REACH, RoHS. Emme myy omalla brändillämme — jokainen valmistamamme lauta kantaa ostajan brändin.'
+  verified: 'Syyskuu 2026'
+
+identity_detail:
+  tagline: Oikeudellinen ja organisaation rakenne
+  title: 'Oikeushenkilö ja rakenne'
+  subtitle: 'Täysi avoimuus yritysrakenteesta, valmistusalan laajuudesta ja sertifioinneista.'
+  grid: 'sm:grid-cols-2 lg:grid-cols-3'
+  features:
+    - icon: L
+      icon_bg: blue
+      title: 'Oikeushenkilö'
+      desc: 'Qingdao Vatrad Group Co., Ltd. — sopimusosapuoli kaikissa valmistussopimuksissa, ostotilauksissa ja vientiasiakirjoissa. Rekisteröity Qingdaossa, Shandongissa, Kiinassa.'
+    - icon: M
+      icon_bg: green
+      title: 'Valmistusdivisioona'
+      desc: 'Vatrad toimii meriteollisuuden valmistusdivisioonana Qingdao Vatrad Groupin alla. iSupfactory on ostajapuolelle suunnattu brändi, jota käytetään kansainvaluisiin OEM-, ODM- ja private label -palveluihin.'
+    - icon: F
+      icon_bg: purple
+      title: 'Tehtaan sijainti'
+      desc: 'Laixi, Qingdao, Shandong, Kiina. 12,500 m² kokonaisvalmistusala, josta 10,000+ m² tuotantotilaa, 4 tuotantolinjaa, CNC-leikkaus, RF-hitsaus, paineistuslaboratorio ja materiaalivarasto. 120 km Qingdaon satamasta.'
+
+manufacturing_scope:
+  heading: 'Valmistuksen laajuus'
+  body: |
+    Valmistuksemme kattaa koko puhallettavien SUP- ja merituotteiden tuotantoketjun raaka-aineiden saapumistarkastuksesta lopulliseen pakkaukseen ja vientiasiakirjoihin.
+
+    - **Tuoteluokat**: puhallettavat SUP-laudat (allround, touring, surf, fishing, yoga, racing), puhallettavat kajakit, puhallettavat veneet, melat, pumput ja lisävarusteet.
+    - **Rakennetyypit**: yksikerroksinen PVC, kaksikerroksinen PVC, drop-stitch-ydin ja PVC-päällyste. Mukautetut rakennemääritykset projekti kohtaisesti.
+    - **Yhteistyömallit**: OEM (ostajan suunnittelema muotoilu), ODM (tehtaassa kehitetty ostajan toimeksiannon mukaan), private label/co-branding (brändi vakiintuneille tuotteille).
+    - **Sertifioinnit**: ISO 9001:2015 (tehtaan laadunhallinta), CE (EU-markkinoille tarkoitetut mallit, laajuus projekti kohtaisesti), BSCI (yhteiskunnallinen vaatimustenmukaisuus), REACH (kemikaaliturvallisuus), RoHS (rajoitetut aineet).
+    - **Tuotantokapasiteetti**: 120,000+ lautaa vuodessa, noin 10,000 kpl kuukausittain 4 automaattilinjan avulla. Kapasiteetin kasvattaminen onnistuu etukäteen sovittuin aikatauluin.
+
+brand_positioning:
+  heading: 'Brändin asemo'
+  body: |
+    iSupfactorylla on markkinoilla tietty asema — emme ole brändi vaan valmistaja. Tämä ero muokkaa kaikkia tapaamme toimia:
+
+    - **Emme koskaan myy omalla brändillämme.** Jokainen valmistamamme lauta kantaa ostajan brändin. Emme kilpaile asiakkaidemme kanssa millään markkinoilla eikä missään kanavassa. Tätä periaatetta ei neuvotella.
+    - **Emme ole kauppaa käyvä yhtiö.** Operoimme itse tehdasta. Laadunvalvonta, suunnittelu, tuotannon ajoitus ja vientiasiakirjat hoidetaan omissa käsissä. Tilauksesi ja tuotantolattian välissä ei ole välikettä.
+    - **Olemme erikoistuneet puhallettaviin tuotteisiin.** Tämä ei ole sivutulo tai yksi tuoteluokka monien joukossa. Puhallettavat SUP- ja merituotteet ovat ydinosaamme. Jokainen kone, jokainen prosessi ja jokainen laadunvalvontapiste on optimoitu tälle tuoteluokalle.
+    - **Palvelemme ammattimaisia ostajia.** Asiakkaamme ovat brändejä, jakelijoita, resorttien operaattoreita, seuroja ja kouluja — eivät yksityiskuluttajia. Hintamme, minimitilauksemme (MOQ), dokumentaatiomme ja viestintämme on suunniteltu B2B-suhteisiin.
+
+evidence_review:
+  tagline: 'Näyttö ja todentaminen'
+  title: 'TEKNISET ARVOT TODENNETTU'
+  body: 'Kaikki tämän sivun organisaatio- ja valmistusväitteet ovat todennettavissa. ISO 9001 -sertifikaatti, BSCI-raportti, kaupparekisteriote ja tehtaan rekisteröintiasiakirjat toimitetaan pyydettäessä. Tehtaan vierailut ovat tervetulleita. Tekniset arvot on viimeksi todennettu syyskuussa 2026.'
+
+faqs:
+  tagline: FAQ
+  title: 'Brändi-identiteetti — usein kysytyt kysymykset'
+  items:
+    - q: 'Onko iSupfactory erillinen yritys Qingdao Vatrad Groupista?'
+      a: 'Ei. iSupfactory on Vatradin ostajapuolelle suunnattu brändi, ja Vatrad on Qingdao Vatrad Group Co., Ltd:n meriteollisuuden valmistusdivisioona. Kaikkien tilausten oikeudellinen sopimusosapuoli on Qingdao Vatrad Group Co., Ltd. Tehdas, tiimi ja laadunhallintajärjestelmä muodostavat yhden toiminnon.'
+    - q: 'Myyttekö lautoja omalla brändillänne?'
+      a: 'Ei. Valmistamme yksinomaan asiakkaidemme brändeillä emmekä koskaan kilpaile heidän kanssaan millään markkinoilla. Tämä on periaate — ei väliaikainen kanta. Jos markkinoilta löytyy iSupfactory-brändinen lauta, se ei ole meidän tehtaastamme.'
+    - q: 'Voinko vierailla tehtaalla?'
+      a: 'Kyllä. Toivotamme tehtaan vierailut tervetulleiksi ja voimme järjestää jäsennetyn auditoinnin, joka kattaa koko tuotantoprosessin, laadunvalvontapisteet, materiaalivaraston ja asiakirjojen tarkastuksen. Ota yhteyttä, niin sovimme vierailusta.'
+    - q: 'Mikä on Vatradin ja iSupfactoryn suhde?'
+      a: 'Vatrad on valmistusdivisioonan nimi Qingdao Vatrad Groupin sisällä. iSupfactory on kansainvälinen ostajapuolelle suunnattu brändi, jota käytetään OEM-, ODM- ja private label -palveluihin. Molemmat nimet viittaavat samaan toimintoon — meriteollisuuden valmistusdivisioonaan Laixissa, Qingdaossa.'
+
+cta:
+  title: 'Valmiina todentamaan tehtaamme?'
+  subtitle: 'Pyydä asiakirjoja, sovii tehtaan vierailu tai aloita projektitoimeksianto. Täysi avoimuus, ei poikkeuksia.'
+  actions:
+    - variant: primary
+      text: Pyydä asiakirjat
+      href: /fi/contact#project-brief
+    - text: 'Todenna sertifioinnit ja laadunhallintajärjestelmä'
+      href: /fi/proof-center
+    - text: 'OEM-käyttöönottoprosessi'
+      href: /fi/oem-onboarding-guide

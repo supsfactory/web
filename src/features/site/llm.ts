@@ -13,13 +13,13 @@ import {
   getSiteFaqs,
   brandify,
 } from '@/features/content/loader'
-import { GUIDES_ES, GUIDES_FR, GUIDES_DE, GUIDES_IT, GUIDES_PT, GUIDES_NL, GUIDES_SV, GUIDES_NO, GUIDES_PL, GUIDES_DA } from '@/features/content/guide-content'
+import { GUIDES_ES, GUIDES_FR, GUIDES_DE, GUIDES_IT, GUIDES_PT, GUIDES_NL, GUIDES_SV, GUIDES_NO, GUIDES_PL, GUIDES_DA, GUIDES_FI } from '@/features/content/guide-content'
 import { FACTS, COLLABORATION_MODES } from '@/product/facts'
 import { EDGE_REDIRECTS } from '@/features/seo/edge-gate'
 import { LEGACY_REDIRECTS } from '@/features/seo/legacy-redirects'
 import { SITE_NAME } from '@/config/site'
 import { PAGE_TITLES } from '@/product/entity-data'
-import { LLM_SITE_DESCRIPTION, LLM_FAQ_DESCRIPTION, LLM_SPANISH_HOMEPAGE_DESCRIPTION, LLM_FRENCH_HOMEPAGE_DESCRIPTION, LLM_GERMAN_HOMEPAGE_DESCRIPTION, LLM_ITALIAN_HOMEPAGE_DESCRIPTION, LLM_PORTUGUESE_HOMEPAGE_DESCRIPTION, LLM_DUTCH_HOMEPAGE_DESCRIPTION, LLM_SWEDISH_HOMEPAGE_DESCRIPTION, LLM_NORWEGIAN_HOMEPAGE_DESCRIPTION, LLM_POLISH_HOMEPAGE_DESCRIPTION, LLM_DANISH_HOMEPAGE_DESCRIPTION, LLM_FACT_BLOCK } from '@/product/ai-content'
+import { LLM_SITE_DESCRIPTION, LLM_FAQ_DESCRIPTION, LLM_SPANISH_HOMEPAGE_DESCRIPTION, LLM_FRENCH_HOMEPAGE_DESCRIPTION, LLM_GERMAN_HOMEPAGE_DESCRIPTION, LLM_ITALIAN_HOMEPAGE_DESCRIPTION, LLM_PORTUGUESE_HOMEPAGE_DESCRIPTION, LLM_DUTCH_HOMEPAGE_DESCRIPTION, LLM_SWEDISH_HOMEPAGE_DESCRIPTION, LLM_NORWEGIAN_HOMEPAGE_DESCRIPTION, LLM_POLISH_HOMEPAGE_DESCRIPTION, LLM_DANISH_HOMEPAGE_DESCRIPTION, LLM_FINNISH_HOMEPAGE_DESCRIPTION, LLM_FACT_BLOCK } from '@/product/ai-content'
 import { GLOSSARY } from '@/product/glossary'
 
 const flat = (text: string) => text.replace(/\s+/g, ' ').trim()
@@ -1239,6 +1239,96 @@ export function llmsDanishFull(): string {
     ...caseBlocks,
     '',
     '# Dansk: Guider',
+    ...guideBlocks,
+    '',
+  ].join('\n\n')
+}
+
+/** `/llms.txt` Finnish section — absolute /fi URLs so LLMs can ingest the mirror directly. */
+export function llmFinnishIndex(origin: string): string {
+  const fi = (path: string) => abs(origin, `/fi${path}`)
+  const productLines = getContentProducts('fi').map((p) => `- [${p.title}](${fi(`/products/${p.slug}`)}): ${flat(p.summary ?? '')}`)
+  const techLines = getTechArticles('fi').map((a) => `- [${a.title}](${fi(`/technology/${a.slug}`)}): ${flat(a.summary ?? '')}`)
+  const caseLines = getCaseUses('fi').map((c) => `- [${c.title}](${fi(`/evidence/case-studies/${c.slug}`)}): ${flat(c.summary ?? '')}`)
+  const guideLines = GUIDES_FI.map((g) => `- [${g.title}](${fi(`/guides/${g.slug}`)}): ${flat(g.intro[0] ?? '')}`)
+  const newsLines = getNewsPosts('fi')
+    .slice(0, 10)
+    .map((p) => `- [${p.title}](${fi(`/news/${p.slug}`)}): ${flat(p.excerpt ?? '')}`)
+  const faqLines = getSiteFaqs('fi')
+    .slice(0, 6)
+    .map((f) => `- ${f.q}`)
+  return [
+    '',
+    '## Suomeksi',
+    '',
+    `- [${SITE_NAME} — Etusivu](${fi('/')}): ${LLM_FINNISH_HOMEPAGE_DESCRIPTION}`,
+    '',
+    '### Suomeksi: Tuotteet',
+    ...productLines,
+    '',
+    '### Suomeksi: Teknologia',
+    ...techLines,
+    '',
+    '### Suomeksi: Case study',
+    ...caseLines,
+    '',
+    '### Suomeksi: Oppaat',
+    ...guideLines,
+    '',
+    '### Suomeksi: Uutiset',
+    ...newsLines,
+    '',
+    '### Suomeksi: Usein kysytyt kysymykset',
+    ...faqLines,
+    '',
+  ].join('\n')
+}
+
+/** Full Finnish text for products, news, tech, cases and guides (in /llms-full.txt). */
+export function llmsFinnishFull(): string {
+  const productBlocks = getContentProducts('fi').map((p) =>
+    [
+      `## Tuote: ${p.title}${p.sku ? ` (${p.sku})` : ''}`,
+      '',
+      flat(p.summary ?? ''),
+      ...(p.specs ?? []).map((s) => `- ${s.label}: ${s.value}`),
+      '',
+      ...mdBody(p.body),
+    ].join('\n'),
+  )
+  const newsBlocks = getNewsPosts('fi').map((p) =>
+    [`## Uutinen: ${p.title}`, '', p.date.slice(0, 10), flat(p.excerpt ?? ''), '', ...mdBody(p.body)].join('\n'),
+  )
+  const techBlocks = getTechArticles('fi').map((a) =>
+    [`## Teknologia: ${a.title}`, '', flat(a.summary ?? ''), '', ...mdBody(a.body)].join('\n'),
+  )
+  const caseBlocks = getCaseUses('fi').map((c) => [`## Case study: ${c.title}`, '', flat(c.summary ?? ''), ...mdBody(c.body)].join('\n'))
+  const guideBlocks = GUIDES_FI.map((g) =>
+    [
+      `# Opas: ${g.title}`,
+      '',
+      flat(g.intro.join(' ')),
+      ...g.sections.flatMap((s) => ['', `## ${s.title}`, '', s.body]),
+      '',
+      '## FAQ',
+      ...g.faqs.flatMap((f) => [`### Q: ${f.q}`, '', f.a, '']),
+    ].join('\n'),
+  )
+  return [
+    '',
+    '# Suomeksi',
+    ...productBlocks,
+    '',
+    '# Suomeksi: Uutiset',
+    ...newsBlocks,
+    '',
+    '# Suomeksi: Teknologia',
+    ...techBlocks,
+    '',
+    '# Suomeksi: Case study',
+    ...caseBlocks,
+    '',
+    '# Suomeksi: Oppaat',
     ...guideBlocks,
     '',
   ].join('\n\n')

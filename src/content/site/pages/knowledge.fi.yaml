@@ -1,0 +1,111 @@
+meta:
+  title: 'Tietopankki — puhallettavat SUP-laudat ja OEM-oppaat | {SITE}'
+  description: 'Vatradin tietopankki: oppaat puhallettavista SUP-lautoista, paddle board -materiaaleista, laudan valinnasta ja alan näkemyksistä brändeille ja ammattilaisille.'
+  dateModified: '2026-08'
+  keywords:
+    - 'sup tietämys'
+    - 'puhallettavien sup-lautojen opas'
+    - 'paddle board -materiaalit'
+    - 'sup-alan näkemykset'
+hero:
+  tagline: 'Tietokeskus'
+  title: 'SUP-tietokeskus'
+  subtitle: |
+    Jäsennetty tietopankki, joka kattaa puhallettavan SUP-tekniikan,
+    vesiturvallisuuden, laudan suunnittelun ja seikkailun suunnittelun.
+  taglineSection: 'Tutustu. Opi. Lähde luotettavasti.'
+
+clusters:
+  tagline: 'Tietoalueet'
+  title: 'Tutustu aihealueittain'
+  subtitle: 'Syvälliset katsaukset tekniikkaan, turvallisuuteen ja taitoihin jokaisen Vatrad-tuotteen taustalla.'
+  items:
+    - title: 'SUP-ostopas'
+      description: 'Ensimmäisen laudan valinnasta touring- tekniikoita asti — kaikkea SUP-melonnasta.'
+      icon: 'tabler:lifebuoy'
+      topics:
+        - 'Näin valitset ensimmäisen puhallettavan SUP-lautasi'
+        - 'SUP-lautojen koko- ja kantokuvoitusopas'
+        - 'Paras SUP aloittelijalle, touringille, joogalle ja kilpailuun'
+        - 'Yleiset SUP-ostovirheet, joita kannattaa välttää'
+        - 'Puhallettavan ja kovalaudan vertailu'
+    - title: 'SUP-suunnittelu ja -tekniikka'
+      description: 'Tekniset oppaat puhallettavista SUP-lautoista — materiaalit, valmistusmenetelmät ja tuotantoprosessit.'
+      icon: 'tabler:microscope'
+      topics:
+        - 'Drop-stitch-tekniikka perusteellisesti'
+        - 'Sotilasluokan PVC-määritykset'
+        - 'Fuusiolaminointi vai liimautus'
+        - 'EVA-vaahtotekniikka ja kuvitusmenetelmät'
+        - 'SUP-venttiilityypit ja eväjärjestelmät'
+    - title: 'SUP-turvallisuus ja kunnossapito'
+      description: 'Olennaiset turvatiedot jokaiselle melojalle — hengitysliukkuen valinnasta säästietojen lukemiseen laudan hoitoon ja korjaukseen.'
+      icon: 'tabler:shield'
+      topics:
+        - 'SUP-turvatarkistus ja hengitysliukkuen vaatimukset'
+        - 'Moniputkistoturvallisuus syrjäisillä vesillä'
+        - 'SUP:n täyttöpaine (PSI) -opas'
+        - 'Laudan säilytys ja talvihoito'
+        - 'Puhallettavien lautojen korjaustekniikat'
+    - title: 'SUP-taidot ja tekniikat'
+      description: 'Melontatekniikat, touring-taidot ja kuntoharjoittelu kaikille tasotasoille.'
+      icon: 'tabler:sailboat'
+      topics:
+        - 'Aloittelijan melontatekniikat'
+        - 'Keskitason airon hallinta'
+        - 'Touringin ja ekspedition suunnittelu'
+        - 'SUP-kuntoilu ja kilpailuvalmennus'
+        - 'Kosken ja jokiveneen taidot'
+    - title: 'SUP-elämäntapa ja erityiskäyttö'
+      description: 'Erikoistuneet SUP-aktiviteetit — jooga, kalastus, koirat, perheet ja matkailuvinkit.'
+      icon: 'tabler:heart'
+      topics:
+        - 'SUP-jooga ja meditaatio vedellä'
+        - 'Kalastus puhallettavalta SUP-laudalta'
+        - 'SUP-melonta koirien ja lasten kanssa'
+        - 'SUP-laudan matkustaminen lentokoneella ja autolla'
+        - 'SUP-lisävarusteet ja varusteet'
+    - title: 'SUP-vertailut ja viitteet'
+      description: 'Rinnakkaisvertailut, jotka auttavat tekemään tietoon perustuvia päätöksiä.'
+      icon: 'tabler:chart-bar'
+      topics:
+        - 'SUP vai kajakki — kumpi on oikea sinulle?'
+        - 'PVC:n ja Hypalonin materiaalivertailu'
+        - 'Yksiputkistoinen vai moniputkistoinen turvallisuus'
+        - 'SUP-lautojen materiaalit selitettynä'
+        - 'UV-painatus vai EVA-lohkokuvitus'
+
+featured_guides:
+  tagline: 'Nostetut oppaat'
+  title: 'Suosituimmat tietoresurssit'
+  items:
+    - title: 'SUP-perusteet'
+      href: '/fi/knowledge'
+    - title: 'Puhallettava vai kovalauta'
+      href: '/fi/inflatable-vs-hardboard'
+    - title: 'Vesiturvallisuusopas'
+      href: '/fi/guides/safety-tips'
+    - title: 'Materiaaliviitteet'
+      href: '/fi/knowledge'
+    - title: 'SUP-ostopas'
+      href: '/fi/guides/how-to-choose-your-sup'
+    - title: 'SUP-koko-opas'
+      href: '/fi/size-guide'
+    - title: 'SUP-tekniikkakeskus'
+      href: '/fi/technology'
+    - title: 'SUP-kunnossapito'
+      href: '/fi/knowledge'
+    - title: 'Touring-opas'
+      href: '/fi/products/touring'
+    - title: 'Melontatekniikat'
+      href: '/fi/knowledge'
+
+cta:
+  title: 'Aloita tutustuminen'
+  subtitle: 'Syvy sukella tietopankkiimme ja saat tiedot, joita tarvitset seuraavaan vesiseikkailuusi.'
+  actions:
+    - variant: primary
+      text: 'Selaa kaikkia oppaita'
+      href: '/fi/knowledge'
+    - text: 'Tutustu tietokaavioon'
+      href: '/fi/knowledge'
