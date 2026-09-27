@@ -1,0 +1,129 @@
+meta:
+  title: 'Kvalitetslaboratorium — test & kvalitetssikring | {SITE}'
+  description: 'Uafhængigt kvalitetslaboratorium med ISO 9001-processer hos Vatrad: hver enhed testes før afsendelse for at garantere kvaliteten på oppustelige SUP-brætter.'
+  dateModified: '2026-08-07'
+  keywords:
+    - 'sup kvalitetskontrol'
+    - 'testlaboratorium for paddleboards'
+    - 'iso 9001 sup fabrik'
+    - 'kvalitet oppustelige sup'
+hero:
+  tagline: Kvalitetskontrollaboratorium
+  title: Testlaboratorium & kvalitetssikring
+  subtitle: 'Uafhængigt kvalitetslaboratorium med ISO 9001-processer — hver enhed testes før afsendelse'
+
+answer:
+  label: 'Det korte svar'
+  text: '100 % af enhederne trykprøves ved 18.0 PSI i 24 timer, med automatisk kassering ved et trykfald på over 0.50 PSI. Rå dugpartier verificeres efter ASTM D751 og ISO 4674, og svejsteprøvninger kører hver 50. stk. med AQL 2.5 i slutstikkprøvning iht. ISO 2859.'
+  verified: 'September 2026'
+
+intro: 'Vatrad driver et dedikeret kvalitetskontrollaboratorium, der arbejder uafhængigt af produktionen. Hver batch af råmateriale og hvert færdigt SUP-bræt gennemgår dokumenterede inspektionsprotokoller, før det frigives. Vores QC-team rapporterer direkte til ledelsen, hvilket sikrer upartiske kvalitetsbeslutninger.'
+
+highlights:
+  - value: 100%
+    label: Trykprøvede enheder
+    detail: Hvert kammer, hvert bræt
+  - value: 24 h
+    label: Varighed af luftfastholdningstest
+    detail: Ved 18.0 PSI nominelt tryk
+  - value: '&lt;5%'
+    label: Maks. tilladt trykfald
+    detail: Over 24 timers holdning
+  - value: AQL 2.5
+    label: Tærskel for alvorlige fejl
+    detail: Stikkprøvning iht. ISO 2859
+
+test_procedures:
+  - title: 'Kontrol af råmateriale'
+    description: 'Hver indgående batch af PVC, Hypalon, drop-stitch-dug og beslag testes før modtagelsen. Trækstyrke (ASTM D751), rivnemodstand (ISO 4674) og UV-modstand verificeres. Materialer, der ikke overholder krav, sættes i karantæne og sendes tilbage.'
+    standards:
+      - ASTM D751 (træk)
+      - ISO 4674 (rivning)
+      - ISO 4892 (UV)
+  - title: Kvalitetskontrol under processen
+    description: 'Produktionsmedarbejdere foretager egenkontrol i hvert trin. QC-auditors gennemfører stikkprøver løbende gennem skiftet. Svejsteprøvninger udføres hver 50. stk. Målekontrol foretages for hvert 20. panel.'
+    standards:
+      - ASTM D751 (skrælning)
+      - Intern tjekliste med 100 punkter
+      - Stikkprøvning iht. ISO 2859
+  - title: 48 timers luftfastholdningstest
+    description: 'Hvert rørkammer pustes op til 18.0 PSI og holdes i 24 timer. Tryksensorer logger kontinuerligt med temperaturkompensation. Ethvert kammer, der overskrider et trykfald på 0.50 PSI, udløser automatisk geninspektion af batchen.'
+    standards:
+      - ISO 6185
+      - CE 2013/53/EU
+  - title: Belastnings- og balancetest
+    description: 'Færdige brætter testes ved maksimal nominel kapacitet for stabilitet, frihøjde og håndtering. Hvert bræt gennemgår vandtest, før slutinspektionen godkendes.'
+    standards:
+      - ISO 12217
+      - CE 2013/53/EU
+
+equipment:
+  - name: Universel prøvemaskine (træk)
+    spec: 5 kN, ASTM D751-kompatibel
+  - name: Trykfaldmåler
+    spec: Multikanal, 0–50 psi, datalogning
+  - name: UV-aldringskammer
+    spec: ISO 4892, 1,000 h cyklusser
+  - name: Tykkelsemåler (digital)
+    spec: 0.01 mm opløsning
+  - name: Skrælprøver (svejse)
+    spec: Motoriseret, 50 N kapacitet
+  - name: Temperaturkammer
+    spec: -40 °C til +100 °C
+  - name: Lækagedetekteringsbassin
+    spec: 6 m × 2 m, oplyst
+
+lab_evidence:
+  tagline: Testrapportdossierer
+  title: 'Download de faktiske laboratorietest rapporter'
+  subtitle: 'De samme to-sprogede kontrollerede registre, som vores kvalitetsteam afslutter op imod — struktur, metoder, kriterier og resultater, med fortrolige felter fjernet. Hvert dossier svarer til et af de syv inspektionstjek.'
+  items:
+    - title: 'IQC — rapporter over indgående materiale'
+      description: 'Verifikation af dug, PVC-rulle, ventiler og komponenter mod den godkendte specifikation.'
+      icon: tabler:file-certificate
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_IQC_TEST_REPORTS.pdf
+      link_label: 'Download IQC-rapporter (PDF)'
+    - title: 'IPQC — rapporter over processen & første vare'
+      description: 'Rapporter over første vare og procesinspektion mod den låste revision.'
+      icon: tabler:file-check
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_IPQC_TEST_REPORTS.pdf
+      link_label: 'Download IPQC-rapporter (PDF)'
+    - title: 'Lufttæthed — tryk- og lækageposter'
+      description: '100 % lækkontrol af sømme, ventilintegritet og 24 timers trykholdning.'
+      icon: tabler:waves
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_AIRTIGHTNESS_TEST_REPORTS.pdf
+      link_label: 'Download lufttæthedsrapporter (PDF)'
+    - title: 'FQC — testrapporter for det færdige bræt'
+      description: 'Slutinspektion mod det godkendte prøveeksemplar — mål, udseende og finnekasse.'
+      icon: tabler:shield-check
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_FQC_TEST_REPORTS.pdf
+      link_label: 'Download FQC-rapporter (PDF)'
+    - title: 'PSI — paknings- og præforsendelsesrapporter'
+      description: 'Sætets fuldstændighed, stregkodekvalitet, kartonsignering og registrering af transportsikkerhed.'
+      icon: tabler:package
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_PSI_TEST_REPORTS.pdf
+      link_label: 'Download PSI-rapporter (PDF)'
+    - title: 'Frigivelse af forsendelse & sporbarhedsdossier'
+      description: 'Frigivelsesgodkendelse og batchsporbarhed knyttet til specifikation, artwork og stykliste.'
+      icon: tabler:history
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_SHIPMENT_RELEASE_REPORTS.pdf
+      link_label: 'Download frigivelsesrapporter (PDF)'
+    - title: 'Komplet kvalitetsdossier'
+      description: 'Én pakke, der dækker hele dokumentationssystemet — QIP, tjekposter, sporbarhed og NCR-kontrol.'
+      icon: tabler:books
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_COMPLETE_SUP_QUALITY_DOSSIER.pdf
+      link_label: 'Download dokumentationspakke (PDF)'
+
+cta:
+  title: 'Gennemgå laboratoriet bag din ordre'
+  subtitle: 'Laboratoriet arbejder uafhængigt af produktionen og rapporterer direkte til ledelsen. Gennemse testrapporterne, se inspektionsstandarderne, eller anmod om en live-visning af laboratoriet under produktionsplanlægningen.'
+  actions:
+    - variant: primary
+      text: 'Bed om en kvalitetsgennemgang af projektet'
+      href: /da/contact#quality-inquiry
+    - text: 'Inspektionssystemets 7 trin'
+      href: /da/quality
+    - text: 'Inspektionsstandarder & download af QMS'
+      href: /da/factory/quality-inspection
+    - text: 'Besøg R&D-materialetestlaboratoriet'
+      href: /da/randdcenter/quality-inspection-lab

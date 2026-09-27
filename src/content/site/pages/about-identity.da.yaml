@@ -1,0 +1,91 @@
+meta:
+  title: 'Om iSupfactory — mærkeidentitet, produktionsdivision i Qingdao Vatrad Group | iSupfactory'
+  description: 'Mærkeidentiteten for iSupfactory: produktion af oppustelige SUP-brætter og oppustelige marine produkter. Fabrikens beliggenhed, juridiske enhed, certificeringer og mærkepositionering.'
+  dateModified: '2026-08-21'
+  keywords:
+    - 'mærkeidentitet isupfactory'
+    - 'Qingdao Vatrad Group'
+    - 'sup producent Vatrad'
+    - 'sup fabrik Laixi Qingdao'
+    - 'producent oppustelige sup kina'
+    - 'identitet oem sup fabrik'
+
+hero:
+  tagline: 'Mærkeidentitet'
+  title: 'Hvem er iSupfactory?'
+  subtitle: 'iSupfactory er Vatrads kundeorienterede produktionsmærke, den marine produktionsdivision i Qingdao Vatrad Group Co., Ltd. — en producent af oppustelige SUP-brætter og oppustelige marine produkter i Laixi, Qingdao, Kina. Vi fremstiller udelukkende under vores kunders mærker og konkurrerer aldrig med dem på noget marked.'
+
+answer:
+  label: 'Kort fortalt'
+  text: 'Juridisk enhed: Qingdao Vatrad Group Co., Ltd. Produktionsdivision: Vatrad (mærket iSupfactory). Fabrik: Laixi, Qingdao, Shandong, Kina. Virksomhedsområde: OEM-, ODM- og private label-fremstilling af oppustelige SUP-brætter, pagajer og oppustelige marine produkter. Certificeringer: ISO 9001:2015, CE (modeller til EU-markedet), BSCI, REACH, RoHS. Vi sælger ikke under eget mærke — hvert bræt, vi fremstiller, bærer køberens mærke.'
+  verified: 'September 2026'
+
+identity_detail:
+  tagline: Juridisk & organisatorisk
+  title: 'Juridisk enhed & struktur'
+  subtitle: 'Fuld transparens om virksomhedsstruktur, produktionsområde og certificeringer.'
+  grid: 'sm:grid-cols-2 lg:grid-cols-3'
+  features:
+    - icon: L
+      icon_bg: blue
+      title: 'Juridisk enhed'
+      desc: 'Qingdao Vatrad Group Co., Ltd. — den kontraktindgående enhed i alle produktionsaftaler, indkøbsordrer og eksporthandelsdokumenter. Registreret i Qingdao, Shandong, Kina.'
+    - icon: M
+      icon_bg: green
+      title: 'Produktionsdivision'
+      desc: 'Vatrad driver den marine produktionsdivision i Qingdao Vatrad Group. iSupfactory er det kundeorienterede mærke, der bruges til internationale OEM-, ODM- og private label-tjenester.'
+    - icon: F
+      icon_bg: purple
+      title: 'Fabrikens beliggenhed'
+      desc: 'Laixi, Qingdao, Shandong, Kina. 12,500 m² samlet produktionsareal, heraf over 10,000 m² produktionsområde, med 4 produktionslinjer, CNC-skæring, højfrekvenssvejsning, tryklaboratorium og materiallager. 120 km fra Qingdao havn.'
+
+manufacturing_scope:
+  heading: 'Produktionsområde'
+  body: |
+    Vores produktionsområde dækker hele produktionskæden for oppustelige SUP- og marine produkter — fra indgående råmaterialekontrol til endelig pakning og eksporthandelsdokumentation.
+
+    - **Produktkategorier**: oppustelige SUP-brætter (allround, touring, surf, fishing, yoga, racing), oppustelige kajaker, oppustelige både, pagajer, pumper og tilbehør.
+    - **Konstruktionstyper**: enkeltlags PVC, dobbeltlags PVC, drop-stitch-kerne med PVC-overtræk. Tilpassede konstruktionsspecifikationer pr. projekt.
+    - **Samarbejdsformer**: OEM (kundens eget design), ODM (udviklet i fabrikken ud fra kundens brief), private label/co-branding (mærke på dokumenterede platforme).
+    - **Certificeringer**: ISO 9001:2015 (kvalitetsledelse i fabrikken), CE (modeller til EU-markedet, omfang pr. projekt), BSCI (social overensstemmelse), REACH (kemiisk sikkerhed), RoHS (begrænsede stoffer).
+    - **Produktionskapacitet**: 120,000+ brætter om året, ca. 10,000 stk. pr. måned på 4 automatiserede linjer. Opskalering mulig med forudgående planlægning.
+
+brand_positioning:
+  heading: 'Mærkepositionering'
+  body: |
+    iSupfactory indtager en bestemt position på markedet — vi er ikke et mærke, vi er en producent. Den forskel præger alle aspekter af den måde, vi arbejder på:
+
+    - **Vi sælger aldrig under eget mærke.** Hvert bræt, vi fremstiller, bærer køberens mærke. Vi konkurrerer aldrig med vores kunder på nogetmarked eller i nogen kanal. Denne politik er ikke til forhandling.
+    - **Vi er ikke et handelsselskab.** Vi driver fabrikken. Kvalitetskontrol, konstruktion, produktionsplanlægning og eksporthandelsdokumentation styres internt. Der er ingen mellemled mellem din ordre og produktionsgulvet.
+    - **Vi er specialister i oppustelige produkter.** Det er ikke en sidegeskæft eller en produktkategori blandt mange. Oppustelige SUP- og marine produkter er vores kernekompetence. Hver maskine, hver proces og hvert kvalitetskontrolpunkt er optimeret til denne produktkategori.
+    - **Vi betjener professionelle købere.** Vores kunder er mærker, distributører, resortdrivere, klubber og skoler — ikke private forbrugere. Vores priser, minimumsordrestruktur, dokumentation og kommunikation er udviklet til B2B-forhold.
+
+evidence_review:
+  tagline: 'Bevis & verifikation'
+  title: 'VERIFICEREDE SPECIFIKATIONER'
+  body: 'Alle organisations- og produktionspåstande på denne side kan verificeres. ISO 9001-certifikatet, BSCI-rapporten, handelsbeviset og fabrikens registreringsdokumenter udleveres på forespørgsel. Fabriksbesøg er velkomne. Specifikationerne blev senest verificeret i september 2026.'
+
+faqs:
+  tagline: FAQ
+  title: 'Mærkeidentitet — ofte stillede spørgsmål'
+  items:
+    - q: 'Er iSupfactory en separat virksomhed fra Qingdao Vatrad Group?'
+      a: 'Nej. iSupfactory er Vatrads kundeorienterede mærke, den marine produktionsdivision i Qingdao Vatrad Group Co., Ltd. Den juridiske enhed, der indgår alle ordrer, er Qingdao Vatrad Group Co., Ltd. Fabrikken, teamet og kvalitetssystemet er en og samme drift, samlet på et anlæg.'
+    - q: 'Sælger I brætter under eget mærke?'
+      a: 'Nej. Vi fremstiller udelukkende under vores kunders mærker og konkurrerer aldrig med dem på noget marked. Det er en grundlæggende politik — ikke en midlertidig holdning. Hvis du finder et bræt med mærket iSupfactory ude på markedet, kommer det ikke fra vores fabrik.'
+    - q: 'Kan jeg besøge fabrikken?'
+      a: 'Ja. Vi byder gerne fabriksbesøg velkommen og kan arrangere en struktureret audit, der dækker hele produktionsprocessen, kvalitetskontrolpunkterne, materiallageret og dokumentgennemgangen. Kontakt os for at aftale et besøg.'
+    - q: 'Hvad er forholdet mellem Vatrad og iSupfactory?'
+      a: 'Vatrad er navnet på produktionsdivisionen i Qingdao Vatrad Group. iSupfactory er det internationale kundeorienterede mærke, der bruges til OEM-, ODM- og private label-tjenester. Begge navne peger på den samme drift — den marine produktionsdivision i Laixi, Qingdao.'
+
+cta:
+  title: 'Klar til at verificere vores fabrik?'
+  subtitle: 'Bed om dokumentationen, aftal et fabriksbesøg eller start din projektbrief. Fuld transparens, ingen undtagelser.'
+  actions:
+    - variant: primary
+      text: 'Bed om dokumentation'
+      href: /da/contact#project-brief
+    - text: 'Verificer certificeringer og kvalitetssystem'
+      href: /da/proof-center
+    - text: 'OEM-onboardingproces'
+      href: /da/oem-onboarding-guide

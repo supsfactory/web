@@ -1,0 +1,102 @@
+meta:
+  title: 'SUP-prototypeværksted — bygning af prøvebrætter'
+  description: 'Fra CAD til testet prøvebræt på 7–12 dage. Vores prototypeværksted bygger, tester og validerer special-SUP-prøver. Sæt dit prototypeprojekt i gang i dag.'
+  dateModified: '2026-08'
+back_text: 'Tilbage til R&D-center'
+home_label: 'Hjem'
+
+answer:
+  label: 'Det korte svar'
+  text: 'Vi omdanner en CAD-model til et prøvebræt, der kan sejles og er testet, på 7–12 dage: prototyping i oppustet tilstand, sejlture i krap, iterationer på kant og nose, og derefter frigjøring af produktionsværktøjet. Helt specialforme tager yderligere 15–20 dages værktøjstid oven i den normale leveringstid på 25–35 dage for større partier.'
+  verified: 'September 2026'
+
+hero:
+  tagline: 'Laboratorium 05'
+  title: 'Prototypeværksted'
+  subtitle: 'Fra CAD-model til testet prøvebræt — bygget, monteret og dokumenteret'
+  image: 'https://assets.isupfactory.com/images/sups/products/sup-series/sup-ocean-voyager-1.webp'
+  image_alt: 'Fremstilling af SUP-brætter i Vatrad prototypeværksted'
+
+intro: 'En CAD-model kan uanset hvor detaljeret den er, ikke vise, hvordan et bræt faktisk føles, før det er pustet op, man kan stå på det, og det kan padles. Derfor er vores prototypeværksted bygget til at omsætte konstruktionsdata til et fysisk, sejlbart bræt så hurtigt og præcist som muligt. Hver ny {SITE.name}-model — og enhver væsentlig specialbygning — går gennem dette værksted, før produktionsværktøjet frigøres.'
+
+content_html: |
+  <h2>Hvor design bliver virkelighed</h2>
+  <p>Værkstedet er udstyret til samtidig fremstilling af paneler, drop-stitch-kerner og kanter. Denne parallelarbejdsmæssige tilgang reducerer prototypeens leveringstid til 7–12 dage fra konstruktionsfrigivelse. Når din anvendelse kræver en specialiseret løsning, kan vi gå fra ide til validering på vandet på under tre uger.</p>
+
+  <h2>Værkstedets kapaciteter</h2>
+  <table>
+    <thead><tr><th>Arbejdsstation</th><th>Udstyr</th><th>Formål</th></tr></thead>
+    <tbody>
+      <tr><td>Panelskæring</td><td>CNC-stofskærer, nestingsoftware, bibliotek med panelmønstre</td><td>Præcisionsskæring af dæks-, skrog- og kantpaneler i alle brætstørrelser</td></tr>
+      <tr><td>Kernemontering</td><td>Lamineringsbord til drop-stitch-kerne, pålægningsruller til lim</td><td>Limning af drop-stitch-kernen mellem PVC-skind med jævn limdækning</td></tr>
+      <tr><td>Svejse</td><td>Højfrekvenssvejsepresse, station til luftsvejsning, oppustningsjig</td><td>Sømsvejse af bræt-enheder i fuld størrelse med ventiler, håndtag og finnerammer</td></tr>
+      <tr><td>Montering og finish</td><td>Pålægningsmaskine til dækpude, lamineringsbord til tryk, montageværksted</td><td>Komplet udstyr: dækpuder, logoer, håndtag, leash-øs og finnerammer</td></tr>
+      <tr><td>Instrumenteringsplads</td><td>Trykmålere, datalogger, målerig til bøjning</td><td>Test af prøver: oppustningscyklusser, bøjning af dæk, måling af lufttab</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Prototypens rejse — trin for trin</h2>
+  <ol>
+    <li><strong>Konstruktionsoverdragelse</strong> — Designpakken (3D-model, FEA-rapport, stykliste, panelplan) gennemgås formelt af værkstedets leder og projektingeniøren. Alle produktionsmæssige forbehold markeres og løses, før skæringen begynder.</li>
+    <li><strong>Panelproduktion</strong> — Brættet bygges efter konstruktionsspecifikationen. Panelerne skæres på CNC, drop-stitch-kernen lamineres mellem PVC-skind, og dæk og skrog samles med det godkendte materialelag.</li>
+    <li><strong>Svejse</strong> — Panelerne højfrekvenssvejses til brættets fulde form. Kammeret pustes op til testtryk og står til afspænding i 24 timer.</li>
+    <li><strong>Montering og finish</strong> — Dækpude, tryk, håndtag, leash-øs og finnerammer monteres. Alle dele monteres og kontrolleres mod specifikationen.</li>
+    <li><strong>Statiske tests</strong> — Før brættet kommer i vandet gennemgår det: oppustningscyklusser, lufttabsprøvning, måling af dækets bøjning ved nominelt tryk samt momentkontrol af beslag.</li>
+    <li><strong>Testprogram på vandet</strong> — 10 timers test i vandet, detaljeret nedenfor.</li>
+    <li><strong>Prototypegennemgang</strong> — Et formelt godkendelsesmøde afholdes med konstruktions-, produktions- og kvalitetsteams. Eventuelle nødvendige designændringer dokumenteres og indarbejdes i produktionsfrigivelsen.</li>
+  </ol>
+
+  <div class="not-prose my-10 p-6 rounded-xl bg-gray-50 dark:bg-gray-900 border border-gray-200 dark:border-gray-800">
+    <p class="text-sm font-semibold text-gray-500 mb-3 uppercase tracking-wider">10-timers testprogram på vandet — testplan</p>
+    <div class="space-y-2 text-sm">
+      <div class="flex items-center gap-3 p-2 rounded bg-white dark:bg-gray-950">
+        <span class="w-12 text-xs font-bold text-blue-600">1 t</span>
+        <span class="flex-1">Stabilitetskontrol — stående balance i ro, tolerance over for sidebelastning</span>
+      </div>
+      <div class="flex items-center gap-3 p-2 rounded bg-white dark:bg-gray-950">
+        <span class="w-12 text-xs font-bold text-blue-600">2 t</span>
+        <span class="flex-1">Padletur — glidning, sporing og vending ved 3 hastigheder; komfort i pagajtag</span>
+      </div>
+      <div class="flex items-center gap-3 p-2 rounded bg-white dark:bg-gray-950">
+        <span class="w-12 text-xs font-bold text-blue-600">2 t</span>
+        <span class="flex-1">Rytterbelastningstest — stabilitet og bøjning ved ryttere på 60 / 80 / 100 / 120 kg</span>
+      </div>
+      <div class="flex items-center gap-3 p-2 rounded bg-white dark:bg-gray-950">
+        <span class="w-12 text-xs font-bold text-blue-600">2 t</span>
+        <span class="flex-1">Krapprøve — gentagne turer gennem bådspor; vandsprøjt ved nose, bøjning i kant</span>
+      </div>
+      <div class="flex items-center gap-3 p-2 rounded bg-white dark:bg-gray-950">
+        <span class="w-12 text-xs font-bold text-blue-600">2 t</span>
+        <span class="flex-1">Udholdningsprøve — sammenhængende padling med periodiske trykontroller; registrering af lufttab</span>
+      </div>
+      <div class="flex items-center gap-3 p-2 rounded bg-white dark:bg-gray-950">
+        <span class="w-12 text-xs font-bold text-blue-600">1 t</span>
+        <span class="flex-1">Slutinspektion — eftersyn af sømme, beslag og tryk efter turen; fund dokumenteres</span>
+      </div>
+    </div>
+  </div>
+
+  <h2>Specialprototyping til unikke anvendelser</h2>
+  <p>Prototypeværkstedet er, hvor vi løser de problemer, som standardbrætter i produktion ikke kan klare. Nylige eksempler omfatter:</p>
+  <ul>
+    <li>Et 14''-touringbræt til et europæisk mærke for udholdenhedspadling, med forsænket bagage-dæk og forstærket nose — prototyperet, monteret og testet i vores facilitet.</li>
+    <li>Et 10'6'' yogabræt med fuld længde-gribbedæk og ekstra tykkelse for stivhed, valideret gennem en 4-ugers udlejningssæson.</li>
+    <li>Et white label-flådebræt med eget dæktryk og to håndtag, hvor prototypen blev brugt til at validere farve, logoplacering og emballage, før kunden bestilte en container.</li>
+  </ul>
+
+  <h2>Vores prototypingteam</h2>
+  <p>Værkstedet bemandes af otte produktionsteknikere med flere fagkvalifikationer, hvor hver er uddannet i mindst to af de tre kernefag (skæring, svejse, montering). Værkstedets leder er en mester med 16 års erfaring, der spænder fra helt specialbyggeri til serier. Hver prototype tildeles en fast projektingeniør, som er kundens ene kontaktpunkt gennem hele bygge- og testprocessen.</p>
+
+  <h2>Kundens inddragelse</h2>
+  <p>Vi opfordrer aktivt vores kunder til at være til stede ved de vigtigste milepæle under prototypebyggeriet — især den første gennemgang af montagen og testen på vandet. Din praktiske feedback i disse faser er uvurderlig, når brættet skal finjusteres, før det går i produktion. Vi bygger ikke i et vakuum; vi bygger i partnerskab med dig.</p>
+  <p>Testprogrammet på vandet er samtidig en mulighed for, at dit team kan sætte sig bekvemt ved brættets håndtering og vedligeholdelseskrav, så overgangen til produktion bliver problemfri, når de endelige brætter leveres.</p>
+
+cta:
+  title: 'Sæt dit prototypeprojekt i gang'
+  subtitle: 'Fortæl os, hvilket bræt du har brug for, så foreslår vi en plan for prototypeudvikling.'
+  actions:
+    - variant: primary
+      text: Kontakt vores prototypingteam
+      href: /da/contact#project-brief
+    - text: Tilbage til R&D-centeret
+      href: /da/randdcenter

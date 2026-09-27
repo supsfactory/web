@@ -112,7 +112,7 @@ export interface FactShorthands {
   pressureReject: string
 }
 
-export const FACTS_LOCALE: Record<'en' | 'es' | 'fr' | 'de' | 'it' | 'pt' | 'nl' | 'sv' | 'no' | 'pl', FactShorthands> = {
+export const FACTS_LOCALE: Record<'en' | 'es' | 'fr' | 'de' | 'it' | 'pt' | 'nl' | 'sv' | 'no' | 'pl' | 'da', FactShorthands> = {
   en: {
     moq: {
       existingPlatform: FACTS.moq.existingPlatform,
@@ -252,6 +252,20 @@ export const FACTS_LOCALE: Record<'en' | 'es' | 'fr' | 'de' | 'it' | 'pt' | 'nl'
     assemblyChecklist: '100',
     pressureTest: '18.0 PSI · 24 godziny utrzymania ciśnienia',
     pressureReject: 'spadek ciśnienia >0.50 PSI/24 godz. (automatyczne odrzucenie)',
+  },
+  da: {
+    moq: {
+      existingPlatform: '5–10 stk (kun logo på eksisterende form, samme materialerulle)',
+      trialStandard: '20–50 stk (tilpasset grafik eller mindre ændring af specifikation, samme materialerulle)',
+      standardRun: '90–100+ stk pr. godkendt konfiguration, med forbehold for krav til materialerulle og emballage',
+      customMould: '90–100+ stk (ny form kræver egen form; værktøjsfremstilling tager yderligere 15–20 dage)',
+    },
+    leadTime: '25–35 dage',
+    leadTimeDetail: '25–35 dage fra bekræftet PO og depositum; udvikling af egen form kræver yderligere 15–20 dage til værktøjsfremstilling.',
+    sampleTime: '7–12 dage',
+    assemblyChecklist: '100',
+    pressureTest: '18.0 PSI · 24 timers trykholdning',
+    pressureReject: 'trykfald >0.50 PSI/24 t (automatisk kassering)',
   },
 }
 

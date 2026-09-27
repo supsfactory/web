@@ -1,0 +1,170 @@
+meta:
+  title: 'Guide til MOQ for SUP: fleksibelt branding og minimumsordrestørrelser'
+  description: 'Sådan beregnes minimumsordrestørrelsen for oppustelige SUP: 150 m ruller drop-stitch-dug giver 90–100 brætter, co-branding fra 5–10 stk. og transparente formgebyrer.'
+  dateModified: '2026-08-14'
+  keywords:
+    - 'moq for sup'
+    - 'minimumsordrestørrelse for oppustelige sup'
+    - 'co-branding program for sup'
+    - 'små serier af sup'
+    - 'moq for specialfremstillede paddleboard'
+    - 'oem sup fabrik kina'
+
+hero:
+  tagline: 'Transparent og projektspecifik'
+  title: 'Guide til fleksibelt branding og minimumsordrestørrelser'
+  subtitle: 'Forstå den fysiske logik bag råmaterialet i drop-stitch, der styrer produktionsserier af SUP — og hvordan vores lavt barrier-program for co-branding fungerer for udlejningsvirksomheder, klubber, resorter og voksende vandsportsbrands. Udviklet og drevet af Qingdao Vatrad Group Co., Ltd.'
+
+answer:
+  label: 'Det korte svar'
+  text: 'MOQ er ikke et tal, der passer til alle. Hver minimumsordrestørrelse bekræftes ud fra projektets konfiguration: skrogform og værktøj, farvevarianter og PVC, artworkets kompleksitet, emballage og sammensætningen af tilbehør. Specialfremstillet volumenproduktion kører 90–100 stk. pr. batch fra en standard 150 m rulle drop-stitch-dug; co-branding i små serier starter ved 5–10 stk.; og ethvert projekt opdeles i tre tydelige trin — udvikling af prøvebrætter (1–2 stk.), prøveordre (20–50 stk.) og volumenproduktion (90–100+ stk.). Vi bekræfter den præcise beregning for din kombination af varer, før der gives tilbud — ingen vage løfter om "lav MOQ" og ingen skjulte kompromiser.'
+  verified: 'September 2026'
+
+moq_principle:
+  tagline: 'Den ingeniørmæssige logik'
+  title: 'Hvorfor standard-MOQ for volumen er 90–100 stk.: fysikken i rådulles ruller'
+  subtitle: 'Størrelsen på produktionsserier er ikke vilkårlige tal fastsat af en salgsafdeling — de bestemmes af længden på ruller drop-stitch-dug og af fysikken i omstillingen af linjen.'
+  body: |
+    **Udgangspunktet på 150 meter rådug.** Drop-stitch-dug i højspændingsvævet kvalitet produceres og belægges på kontinuerlige masterruller. Den industrielle standardrullelængde for et enkelt batch er 150 meter sammenhængende materiale.
+
+    **Udbytteberegningen (90 til 100 brætter).** For et standard touring- eller allround-SUP-skrog (10 ft 6 in til 11 ft 6 in) giver en fuld 150 m masterrulle cirka 90 til 100 færdige paddleboards.
+
+    **Politik om ingen splejsninger i duget.** Fulde dugruller sikrer sammenhængende struktur — ingen tværgående splejsninger i højrisikoområder og ensartet fiberspænding på brættets over- og underside.
+
+    **Termisk og klæbemæssig kalibrering.** Automatiserede højfrekvente varmluftsvejsningslinjer og lamineringslinjer med marine lim kræver 2 timers forvarmning, temperaturprofilering og trykkalibrering. Et fuldt batch på 90–100 stk. fordeler disse faste omstillingsomkostninger og giver den lavest mulige enhedskost.
+
+moq_tiers:
+  tagline: To veje til dit mærke
+  title: 'Specialfremstillet volumen-OEM mod co-branding i små serier'
+  subtitle: 'En fabrik, to indgangspunkter: specialfremstillet masseproduktion til etablerede sortimenter og et lavt barrier-program for co-branding til klubber, udlejningssteder og voksende brands.'
+  features:
+    - icon: P
+      icon_bg: blue
+      title: 'Specialfremstillet volumen-OEM — 90–100 stk. pr. batch'
+      desc: 'Fastlagt af den standardiserede rullelængde på 150 m for rå drop-stitch-dug i høj kvalitet, så materialeforbruget og den strukturelle ensartethed optimeres. · 100 % specialfremstilling: eksklusiv skrogform og egne Pantone-farvevarianter · Dækning af hele overfladen med digital tryk eller silketryk · Specialfremstillet salgsemballage, trykte kartoner og mærkede tilbehør · Maksimal omkostningseffektivitet og stordragsfordele'
+      link: '/da/contact#custom-oem'
+      link_label: 'Forespørgsel om volumen-OEM'
+    - icon: B
+      icon_bg: green
+      title: 'Co-branding i små serier — under 20 stk.'
+      desc: 'En løsning med lav barriere bygget på vores gennemprøvede årlige produktkollektioner til klubber, udlejningssteder og resorter — uden tung lagerbeholdning. · Fast skal og geometri: gennemprøvede skrogformer med overholdelse af CE / ISO 25649 · Primær identifikation: det officielle iSupfactory-branding i midtsektionen · Sekundært custom branding: dit logo trykt på nese eller sidekanter · 100 % tryk- og lufttæthedstest i 24 timer på hele serien'
+      link: '/da/contact#cobranding'
+      link_label: 'Start co-branding i små serier'
+
+moq_fees:
+  tagline: 'Transparente trykgebyrer'
+  title: 'Gebyrstruktur for co-branding — specificeret på forhånd'
+  subtitle: 'Klar, specificeret prissætning for silketryk i små serier. Formgebyrer opkræves en gang ved den første opsætning og frafales ved gentbestillinger med samme artworkmål.'
+  headers:
+    fee: Gebyrpost
+    amount: Beløb
+    detail: Detaljer
+  rows:
+    - fee: 'Formgebyr for silketryk (engangs, logo op til 30 cm)'
+      amount: '$10.00 USD'
+      detail: 'Opkræves en gang ved den første opsætning; frafales ved gentbestillinger med samme artworkmål.'
+    - fee: 'Formgebyr for silketryk (engangs, logo op til 50 cm)'
+      amount: '$15.00 USD'
+      detail: 'Opkræves en gang ved den første opsætning; frafales ved gentbestillinger med samme artworkmål.'
+    - fee: 'Håndteringsgebyr og gebyr for præcisionstryk i fabrikken'
+      amount: '$1.00 USD pr. bræt'
+      detail: 'Dækker manuel koordinatpositionering, forbehandling med opløsningsmiddel, overførsel af trykfarve og hærdning under varme.'
+
+moq_stages:
+  tagline: 'Prøvebræt · pilot · volumen'
+  title: 'Tre tydelige mængdetrin'
+  subtitle: 'Mængderne til prøvebrætter, pilot og volumenproduktion er forskellige. Ethvert projekt inddeles i tre tydelige niveauer, så du validerer, før du binder dig.'
+  steps:
+    - step: '01'
+      title: 'Udvikling af prøvebræt (1–2 stk.)'
+      desc: 'Fysisk bekræftelse af skrogstivhed, tekstur på EVA-gripflade, grafisk nøjagtighed og tilbehørspasform, før nogen økonomisk forpligtelse. Prøvegebyrer opkræves og modregnes din produktionsordre ved underskrift af kontrakten.'
+    - step: '02'
+      title: 'Pilotordre (20–50 stk.)'
+      desc: 'Kommerciel test før sæsonen og validering på regionale markeder med eksisterende skrogplatforme, lagerførte materialer og forenklet emballage for at minimere omstillingsbesvær.'
+    - step: '03'
+      title: 'Volumenproduktion (90–100+ stk.)'
+      desc: 'Bekræftet efter fastlåst BOM, færdiggjort artwork, specialfremstillet emballage og planlagte leveringsbetingelser — fulde 150 m dugruller, specialfarvet Pantone-dug, skræddersygt emballage, mængderabat og spørgsmål gennem hele forsyningskæden.'
+
+moq_factors:
+  tagline: 'Hvad der driver din minimumsordre'
+  title: 'Hvorfor minimumsordren ved specialfremstilling altid er projektspecifik'
+  subtitle: 'Ved 100 % specialfremstilling beregnes minimumsordrestørrelsen ud fra produktets samlede arkitektur — disse fire komponenter vurderes samlet, før der Gives tilbud.'
+  headers:
+    component: Projektkomponent
+    driver: 'Fremstillingsforudsætning'
+    impact: 'Påvirkning af minimumsmængden'
+  rows:
+    - component: 'Skrogform & værktøj'
+      driver: 'Eksisterende rockerforme i fabrikken vs. skræddersyede CAD-skæresidser og værktøj til varmpresse på EVA'
+      impact: 'Eksisterende platforme: pilotordrer fra 20 stk. Skræddersyede skrog: kræver afskrivning på dedikeret værktøj.'
+    - component: 'Farvevarianter & PVC'
+      driver: 'Enkeltstående standardfarver på lager vs. proprietære, Pantone-farvede PVC-plader'
+      impact: 'Pantone-PVC i specialfarve kræver dedikerede kemiske farvningskørsler med selvstændige minimumsmængder på råmaterialet.'
+    - component: 'Mærket emballage'
+      driver: 'Generiske kartoner med barcodeetiketter vs. salgsgavekasser i fuldfarve i 5 lag og mærkede manualer'
+      impact: 'Specialfargede kasser har en selvstændig minimumsproduktion på offsetpressen (typisk 500+ kasser).'
+    - component: 'Tilbehørspakker'
+      driver: 'Standardpagajer i aluminium eller nylon vs. specialtilpassede carbonpagajer og mærkede pumper'
+      impact: 'Fuldt mærkede tilbehør følger underleverantørernes produktionsbatches på lavere niveau.'
+
+moq_downloads:
+  tagline: 'Officielle dokumenter'
+  title: 'To-sprogede policyfiler — download og del'
+  subtitle: 'Officielle dokumenter fra Qingdao Vatrad Group Co., Ltd., klar til at vedlægge kunders forespørgsler. Begge filer er tosprogede (engelsk / kinesisk).'
+  features:
+    - icon: G
+      icon_bg: blue
+      title: 'Guide til fleksibelt branding og MOQ (PDF)'
+      desc: 'Officiel B2B-guide (Del I, DOC-MOQ-EXP-2026-EN, udgivet 14. aug 2026): den ingeniørmæssige logik bag udbyttet af 150 m drop-stitch-ruller (90–100 brætter), co-branding-programmet fra 5–10 stk., transparente trykgebyrer og de tre produktionstrin.'
+      link: 'https://assets.isupfactory.com/site/downloads/flexible-branding-and-moq-guide.pdf'
+      link_label: 'Download guide (PDF)'
+    - icon: P
+      icon_bg: green
+      title: 'Policy for fleksibelt branding og co-branding (PDF)'
+      desc: 'Officiel policydossier (Del 1, POL-MOQ-2026-V1): regler for co-branding i små serier, den projektspecifikke MOQ-ramme, de fire faktorer der driver minimumsordrer samt fælles underskrift af salgschef, overingeniør og QA-chef.'
+      link: 'https://assets.isupfactory.com/site/downloads/flexible-branding-and-moq-policy.pdf'
+      link_label: 'Download policy (PDF)'
+
+moq_faqs:
+  tagline: FAQ
+  title: 'Ofte stillede spørgsmål om minimumsordrestørrelse'
+  items:
+    - q: 'Beregnes minimumsordrestørrelsen pr. ordre, pr. model eller pr. farvevariant?'
+      a: 'Minimumsordrestørrelsen kan gælde pr. model, farvevariant, artworkversion, emballagekonfiguration eller samlet ordre. Fordi forskellige drop-stitch-tykkelser (12 cm mod 15 cm) og PVC-farver kommer fra forskellige rådulruller, medfører 50 brætter fordelt på 5 farver 5 separate krav om dugruller. Vi bekræfter den præcise beregning mod din varematrix, før der gives tilbud, så du kan planlægge din kombination tydeligt.'
+    - q: 'Kan jeg bestille et prøvebræt før masseproduktion?'
+      a: 'Ja. Udvikling af prøvebrætter (1–2 stk.) verificerer skrogstivhed, tekstur på EVA-gripflade, grafisk nøjagtighed og tilbehørspasform, før masseproduktionen frigives. Prøvegebyrer opkræves og modregnes din produktionsordre ved underskrift af kontrakten.'
+    - q: 'Hvorfor har specialfremstillet salgsemballage sin egen minimumsordre?'
+      a: 'Flexografiske og offsetpresser til kartoner kræver en minimumsopsætning på 500+ stk. Vi tilbyder en hybrid løsning for emballage på lager: vi producerer de 500 specialtrykkede kartoner, opbevarer overskuddet i vores rene lager og frigiver det i takt med dine planlagte brætleverancer — så en mindre brætordre stadig kan afsendes i fuldt mærket salgsemballage.'
+    - q: 'Hvorfor er standard-MOQ for volumen 90–100 stk.?'
+      a: 'Standard-MOQ for volumen følger råmaterialet: en 150 m masterrulle med drop-stitch-dug i høj kvalitet giver cirka 90–100 færdige brætter til et standard touring- eller allround-skrog. Kørsel på fulde ruller eliminerer splejsninger i duget, holder fiberspændingen ensartet og fordeler de 2 timers kalibrering af svejse- og lamineringslinjen — hvilket giver den lavest mulige enhedskost.'
+    - q: 'Reducerer en større mængde enhedskosten?'
+      a: 'I de fleste projekter, ja. Større mængder forbedrer materialets udbytte, fordeler faste omstillingsomkostninger for produktionslinjen over flere brætter og reducerer emballageomkostningen pr. enhed.'
+    - q: 'Opkræves formgebyrer for co-branding igen ved gentbestillinger?'
+      a: 'Nej. Formgebyrer for silketryk opkræves en gang ved den første opsætning og frafales ved gentbestillinger, der bruger samme artworkmål. Du betaler kun håndterings- og trykgebyret på $1.00 USD pr. bræt.'
+    - q: 'Forpligter en anmodning om vejledning til minimumsordre mig til en ordre?'
+      a: 'Nej. En anmodning om projektspecifik vejledning til minimumsordrer giver ganske vist vores konstruktionsteam hos Qingdao Vatrad Group Co., Ltd. mulighed for at gennemgå dit tekniske brief og rådgive om den mest omkostningseffektive produktionsvej. En fortrolighedsaftale (NDA) er tilgængelig, før du deler fortrolige tekniske specifikationer eller artwork.'
+
+evidence_review:
+  tagline: 'Dokumentation & verifikation'
+  title: 'VERIFICEREDE SPECIFIKATIONER'
+  body: 'Alle produktionspåstande på denne side er verificeret af vores produktionsingeniørteam på anlægget i Laixi, Qingdao. Certifikater, QC-inspektionsrekorder, tryk- og strukturtestrapporter samt rekorder for batchspørgsmål er tilgængelige på forespørgsel. Specifikationerne blev senest verificeret i september 2026.'
+
+cta:
+  title: 'Har du brug for vejledning til minimumsordre for dit SUP-projekt?'
+  subtitle: 'Del din ønskede brætmodel, din forventede førsteordres størrelse og dine brandingkrav. Vi rådger om, hvorvidt en prøve-, pilot- eller volumenvej er det mest hensigtsmæssige næste skridt. En forespørgsel forpligter dig ikke til en endelig ordremængde — drøftelse af NDA er mulig.'
+  actions:
+    - variant: primary
+      text: 'Anmod om vejledning til minimumsordre'
+      href: /da/contact#moq-guide
+    - text: 'Oversigt over minimumsordre og leveringstid for special-SUP'
+      href: /da/sup-oem-moq-lead-time
+    - text: 'Start et nyt mærke med en prøveordre'
+      href: /da/new-brand-trial-order
+    - text: 'Verificer fabrikken og kvalitetssystemet'
+      href: /da/oem-trust-assurance
+    - text: 'Inspektionssystemet i 7 trin'
+      href: /da/quality
+    - text: 'Overblik over OEM- og ODM-produktion'
+      href: /da/oem-manufacturing
+    - text: 'Sammenligning af SUP-konstruktioner'
+      href: /da/sup-construction-comparison

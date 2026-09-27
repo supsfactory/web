@@ -1,0 +1,169 @@
+meta:
+  title: 'Dokumentationscenter — grundlaget bag hver produktionspåstand'
+  description: 'Dokumentationspakken bag iSupfactorys påstande: enhedsrelationer, certifikater med dækningsomfang, maskinliste, sporing af partier og inspektionsdokumentation.'
+  dateModified: '2026-08-16'
+  keywords:
+    - 'SUP fabriksdokumentation'
+    - 'liste over fabrikscertificeringer'
+    - 'SUP sporing af partier'
+    - 'verificering af SUP-fabrik'
+    - 'produktionsdokumentation Kina'
+
+hero:
+  tagline: 'Dokumentationscenter for fabrikken'
+  title: 'Dokumentationscenter — al vi påstår, ligger her'
+  subtitle: 'En side, der kortlægger hver påstand på denne side til sin dokumentation: den registrerede enhed bag fabrikken, certifikater med dækningsomfang, maskinerne, der udfører arbejdet, og partiregisteringerne, der overlever hver produktionskørsel.'
+  actions:
+    - { variant: primary, text: 'Anmod om verifikationspakke', href: '/da/contact#trust-verification' }
+    - { variant: ghost, text: 'Udforsk kvalitetssystemet', href: '/da/quality' }
+
+answer:
+  label: 'Det korte svar'
+  text: 'Kæden fra påstand til dokumentation er: ethvert udsagn på denne site er underbygget af en registrering, et certifikat, en maskine, et dokument eller en testregistrering — og hver af dem kan gennemgås. iSupfactory er SUP-produktudviklings- og produktionsafdelingen i Qingdao Vatrad Group Co., Ltd. (registreret i Qingdao siden 2012). Anlægget på 12,500 m² har ISO 9001:2015 kvalitetsstyring, ISO 25649-overensstemmelse, CE-overensstemmelsesdokumentation, BSCI social ansvarlighed (auditrapport på forespørgsel) samt REACH/RoHS-materialedokumentation pr. ordre. Ethvert oppusteligt kammer testes ved 18.0 PSI i 24 timer med automatisk kassering ved et fald på over 0.50 PSI, og partiregisteringer opbevares med 10 års ERP-sporing. Dokumentationen er offentliggjort eller kan deles, og selve fabrikken er åben for audits.'
+  verified: 'September 2026'
+
+entities:
+  tagline: 'Hvem står bag fabrikken'
+  title: 'En produktionsdrift, en juridisk enhed'
+  subtitle: 'Salgssiden, produktionsafdelingen og den juridiske enhed fører alle tilbage til en drift, du kan verificere fra hjemmesiden til virksomhedsregisteret.'
+  features:
+    - icon: S
+      icon_bg: blue
+      title: 'iSupfactory — den offentlige hjemmeside'
+      desc: 'SUP OEM/ODM- og private label-produktlinjen med sin offentlige dokumentation: katalog, MOQ-guide, kvalitetssidesider og casestudier. Navnet, du forhandler med, er navnet, du besigtiger.'
+      link: '/da/about/isupfactory-entity'
+      link_label: 'Side om enheden'
+    - icon: A
+      icon_bg: green
+      title: 'Vatrad — produktionsafdelingen'
+      desc: 'Den marine produktionsafdeling bag anlægget: SUP-brætter, oppustelige både og RIB’er produceret i samme Qingdao-facilitet. Produkt- og kvalitetsdokumentation udstedes under dette navn.'
+      link: '/da/factory'
+      link_label: 'Udforsk fabrikken'
+    - icon: V
+      icon_bg: orange
+      title: 'Qingdao Vatrad Group Co., Ltd. — den juridiske enhed'
+      desc: 'Den registrerede producent (siden 2012), der driver anlægget på 12,500 m² i Laixi Economic Development Zone, Qingdao. Registreringsoplysninger, eksporthandelslicens og auditregistreringer udleveres under NDA eller ved en audit.'
+      link: '/da/oem-trust-assurance'
+      link_label: 'Se casestudiet om verificering'
+
+proof_stats:
+  - value: '12,500 m²'
+    label: 'Et fabriksgulv'
+    detail: '4 specialiserede værksteder, åbne for audits'
+  - value: '350+'
+    label: 'Ansatte på stedet'
+    detail: '25+ ingeniører inden for R&D, materialer og QC'
+  - value: '120,000+'
+    label: 'Brætter om året'
+    detail: '~10,000 brætter/måned på 4 automatiserede linjer'
+  - value: '50+'
+    label: 'Betjente lande'
+    detail: 'Europa, Amerika, APAC, Mellemøsten'
+  - value: '7-trins'
+    label: 'Inspektionsportssystem'
+    detail: 'Trin 01–07, registreret pr. serienummer'
+  - value: '10 år'
+    label: 'ERP-sporing af partier'
+    detail: 'Partiregisteringer opbevares og kobles pr. lot'
+
+certifications:
+  tagline: 'Certifikater og dækningsomfang'
+  title: 'Hvad vi har, hvad det dækker, og hvordan det verificeres'
+  subtitle: 'Den offentliggjorte liste — aldrig "kun tilgængelig på forespørgsel". Certifikatnumre og auditregistreringer leveres på forespørgsel eller ved en audit.'
+  headers:
+    certificate: 'Certifikat / standard'
+    scope: 'Dækning'
+    verify: 'Sådan verificeres'
+  rows:
+    - certificate: 'ISO 9001:2015'
+      scope: 'Kvalitetsstyring for design og produktion af SUP'
+      verify: 'Certifikatnummer og auditregistringer på forespørgsel eller ved audit'
+    - certificate: 'ISO 25649'
+      scope: 'Sikkerhed og konstruktionsoverensstemmelse for oppustelige fartøjer (Europa)'
+      verify: 'Overensstemmelsesdokumentation pr. produktfamilie'
+    - certificate: 'CE'
+      scope: 'EU-overensstemmelse for oppustelige SUP-produkter'
+      verify: 'CE-dokumentation følger med ordrerne'
+    - certificate: 'BSCI'
+      scope: 'Social ansvarlighed for faciliteten og arbejdsstyrken'
+      verify: 'Auditrapport tilgængelig på forespørgsel'
+    - certificate: 'REACH & RoHS'
+      scope: 'Begrænsede stoffer og materialedokumentation'
+      verify: 'Materialedokumentation med hver ordre'
+    - certificate: 'Tredjepartsinspektion (valgfri)'
+      scope: 'Forhåndsinspektion før afsendelse fra SGS, TÜV, BV eller Intertek'
+      verify: 'ISO 2859-1 Level II, planlagt efter dit ønske'
+
+evidence_gates:
+  tagline: 'Hvor dokumentationen ligger'
+  title: 'Dokumentationsmapper — åbne for besigtigelse'
+  subtitle: 'Hver mappe er en aktuel side, du kan gennemgå nu, plus filer der følger med din ordre.'
+  features:
+    - icon: E
+      icon_bg: blue
+      title: 'Udstyrs- og maskinliste'
+      desc: 'Skæring, svejse, laminering, trykning og montering samt QC-laboratoriet — maskiner med navne, specifikationer og funktion. Bed om en live-visning.'
+      link: '/da/factory/equipment'
+      link_label: 'Åbn udstyrslisten'
+    - icon: P
+      icon_bg: green
+      title: 'Fotos og rapporter fra inspektionsportene'
+      desc: 'Syv inspektionsporte med fotos fra fabriksgulvet og links til tosproget rapporter — hvad der kontrolleres, med hvilken metode, efter hvilket kriterium, og hvor det registreres.'
+      link: '/da/factory/process'
+      link_label: 'Åbn inspektionsportene'
+    - icon: Q
+      icon_bg: orange
+      title: 'QC-laboratorium og testprocedurer'
+      desc: 'Universel trækprøvemaskine (ASTM D751), sømpeelprøvemaskine (ISO 6185), lufttabsrig og xenonbue-vejrprøvekammer — maskinerne, der verificerer stof og kamre.'
+      link: '/da/factory/quality-lab'
+      link_label: 'Åbn laboratoriet'
+    - icon: T
+      icon_bg: purple
+      title: 'Eksempel på sporing og karantæne'
+      desc: 'Den fulde kæde fra rå rulle til afsendt bræt, karantænestrømmen i 7 trin for vare, der ikke er i overensstemmelse, og defektmatrixen, der styrer håndteringen.'
+      link: '/da/factory/quality-inspection'
+      link_label: 'Åbn sporingsfilen'
+
+traceability:
+  tagline: 'Et parti, fulgt fra rulle til bræt'
+  title: 'Sådan ser sporing i praksis ud'
+  body: |
+    Ethvert parti tildeles en **10-årig ERP-lotkode**. Kæden, der registreres under et lot:
+
+    - **Indgående rulle** — materialecertifikat, rullenummer, stofbatch testet (træk, revne, søm)
+    - **Skæring** — CNC-nesting-job mod designfil, spildprocent registreret
+    - **Svejse og laminering** — linje, operatør, maskinparametre pr. kammer
+    - **Montering** — brættets serienummer, ventiltype, dækpudebatch
+    - **Test** — 18.0 PSI × 24 timers hold pr. kammer, automatisk kassering ved fald på over 0.50 PSI
+    - **Godkendelse** — tjekliste med 100 punkter pr. bræt, godkendelse fra QA-chefen pr. parti
+    - **Videre** — overensstemmelsescertifikat med forsendelsen; auditret reserveret i kontrakten
+
+    Bed om et eksempel på en QC-registrering, inden din første ordre — det er samme format, du modtager med din forsendelse.
+
+faqs:
+  tagline: 'FAQ'
+  title: 'Dokumentationsspørgsmål, købere stiller'
+  items:
+    - q: 'Er denne side kun til verificering og erstatter den ikke due diligence?'
+      a: 'Korrekt — denne side viser, hvor enhver påstand kan verificeres: enhedsregistrering, certifikater, maskiner, registreringer og et anlæg, der er åbent for audits. Dine sædvanlige due diligence-trin (registreringstjek, audit, tredjepartsinspektion) gælder stadig og er velkomne.'
+    - q: 'Hvilken enhed skal stå på min ordredokumentation?'
+      a: 'Ordrer afgives til Qingdao Vatrad Group Co., Ltd., der opererer som Vatrad (produktionsafdelingen), med iSupfactory som SUP-produktlinje. Kontraktdokumenter underskrives af salgsdirektøren, chief ingeniøren og QA-chefen.'
+    - q: 'Kan jeg få kopier af certifikaterne inden bestilling?'
+      a: 'Ja — certifikatnumre og auditregistreringer leveres på forespørgsel eller ved en audit. Listen er offentliggjort, aldrig "kun tilgængelig på forespørgsel".'
+    - q: 'Hvordan verificerer jeg selv testregistreringer for partier?'
+      a: 'Ethvert kammer testes ved 18.0 PSI i 24 timer med automatisk kassering ved et fald på over 0.50 PSI; testlogge kobles til serienumre og følger med overensstemmelsescertifikatet pr. parti. Forhåndsinspektion før afsendelse fra SGS, TÜV, BV eller Intertek i henhold til ISO 2859-1 Level II kan planlægges efter dit ønske.'
+    - q: 'Dækker certifikaterne også tilbehør?'
+      a: 'REACH/RoHS-materialedokumentationen gælder brætter og tilbehør, der leveres i samme ordre, og QC-tjeklisterne dækker det komplette sæt — bræt, pagaj, pumpe, leash og taske.'
+    - q: 'Hvad sker der med dokumentationen efter ordren?'
+      a: 'ERP-sporing af partier opbevares i 10 år. QMS-SOP’er og inspektionsstandarder forbliver tilgængelige at hente ned, og køberen reserverer auditret under produktionen i henhold til kontrakten.'
+
+cta:
+  title: 'Verificer først — så taler vi om specifikationer'
+  subtitle: 'Bed om registreringspakken, certifikatkopi eller en auditslottid. Verificeringen kommer først; ordren følger bagefter. En forespørgsel binder dig ikke til en ordre.'
+  button_text: 'Anmod om verifikationspakke'
+  button_link: '/da/contact#trust-verification'
+  actions:
+    - text: Brandidentitet
+      href: /da/about/identity
+    - text: Tjekliste for fabriksaudit
+      href: /da/factory-audit-checklist

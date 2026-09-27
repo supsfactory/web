@@ -1,0 +1,105 @@
+meta:
+  title: 'Tjekliste for fabriksaudit — hvad du skal kontrollere, før du vælger en SUP-producent | iSupfactory'
+  description: 'Tjekliste for fabriksaudit af oppustelige SUP-købere: kvalitetssystem, kapacitet, materialespørgsmål, tryktest, social ansvarlighed og dokumentation.'
+  dateModified: '2026-08-21'
+  keywords:
+    - 'tjekliste for sup fabriksaudit'
+    - 'audit af producent af oppustelige brætter'
+    - 'verifikation af sup fabrik'
+    - 'inspektion af oem fabrik'
+    - 'kvalitetsaudit sup'
+    - 'due diligence for sup producent'
+    - 'audit af produktion af oppustelige sup'
+
+hero:
+  tagline: 'Due diligence'
+  title: 'Tjekliste for fabriksaudit'
+  subtitle: 'Før du binder dig til en SUP-producent, skal du kontrollere det grundlæggende. Denne tjekliste dækker de otte områder, en professionel køber bør auditere — fra kvalitetsstyring og produktionskapacitet til materialespørgsmål og social ansvarlighed. Hvert punkt på listen kan vi dokumentere, ikke blot påstå.'
+
+answer:
+  label: 'Hurtigt svar'
+  text: 'De otte auditområder, der betyder mest: (1) Kvalitetsstyringssystem — ISO 9001-certificering og faktiske inspektionsrekorder for hvert trin, ikke blot et certifikat på væggen. (2) Produktionskapacitet — rigtige outputtal, ikke navnepladens oplysninger. (3) Materialespørgsmål — modtagelseskontrol og testrapporter pr. batch. (4) Tryk- og strukturtest — dokumenterede protokoller for holdeprøvninger. (5) Svejse- og samlekontrol — parametre for RF-svejsning og inspektion af sømme. (6) Social ansvarlighed — BSCI eller tilsvarende audit. (7) Dokumentation og spørgsmål — batchrekorder, inspektionslogfiler, overensstemmelsesattester. (8) Support efter levering — garantiproces, reservedele og reaktionstid på kommunikation.'
+  verified: 'September 2026'
+
+audit_areas:
+  tagline: Otte auditområder
+  title: 'Hvad du skal kontrollere — de otte auditområder'
+  subtitle: 'Hvert område indeholder spørgsmålene du skal stille, de dokumenter du skal bede om, og de advarselssignaler du skal være opmærksom på.'
+  grid: 'sm:grid-cols-2 lg:grid-cols-4'
+  features:
+    - icon: Q
+      icon_bg: blue
+      title: '1. Kvalitetsstyringssystem'
+      desc: 'Bed om: ISO 9001-certifikat (akkrediteret organ, gyldigt), intern auditsplan, CAPA-log (korrigerende og forebyggende foranstaltninger), procedurer for inspektionstrin. Advarselssignal: Kun et certifikat, ingen inspektionsrekorder pr. trin eller CAPA-proces.'
+    - icon: C
+      icon_bg: green
+      title: '2. Produktionskapacitet'
+      desc: 'Bed om: Månedlige outputtal pr. produkttype, produktionsplan med belægning, værktøjskapacitet (antal forme, CNC-maskiner, RF-svejseapparater). Advarselssignal: Kun navnepladens kapacitet, ingen belægningsdata eller produktionsplan.'
+    - icon: M
+      icon_bg: purple
+      title: '3. Materialespørgsmål'
+      desc: 'Bed om: Inspektionsrekorder for modtagne materialer, leverandørattester for PVC og drop-stitch, batchspørgsmål fra råmateriale til færdigt bræt, REACH/RoHS-erklæringer om stoffer. Advarselssignal: Ingen spørgsmål pr. batch, materialecertifikater ikke tilgængelige.'
+    - icon: P
+      icon_bg: orange
+      title: '4. Tryk- og strukturtest'
+      desc: 'Bed om: Protokol for tryktest (PSI, varighed, kriterier for bestået/faldet), testlogfiler for seneste produktionsbatches, strukturelle testrekorder (fald, slag, belastning af kant). Advarselssignal: "Kun visuel inspektion" eller ingen dokumenteret testprotokol med kvantitative kriterier for bestået/faldet.'
+    - icon: W
+      icon_bg: blue
+      title: '5. Svejse- og samlekontrol'
+      desc: 'Bed om: Registreringer af parametre for RF-svejsning (temperatur, tryk, holdetid), kriterier for søminspektion og kassationsrate, dokumentation af samlesekvens. Advarselssignal: Ingen logfiler for svejseparametre, høj kassationsrate på sømme uden CAPA.'
+    - icon: S
+      icon_bg: green
+      title: '6. Social ansvarlighed'
+      desc: 'Bed om: BSCI- eller SMETA-auditreport (aktuel, fuld omfang), registreringer af arbejdstider og løn, rapporter fra arbejdsmiljøinspektion, dokumentation for miljøoverholdelse. Advarselssignal: Ingen social audit fra tredjepart, eller audit med uløste store afvigelser.'
+    - icon: D
+      icon_bg: purple
+      title: '7. Dokumentation & spørgsmål'
+      desc: 'Bed om: Batchproduktionsrekorder, inspektionslogfiler pr. trin, overensstemmelsesattester, paklister med batchhenvisninger, system til sporing af garantikrav. Advarselssignal: Ingen dokumentation pr. batch, garantikrav spores eller analyseres ikke.'
+    - icon: A
+      icon_bg: orange
+      title: '8. Support efter levering'
+      desc: 'Bed om: Garantibetingelser og proces for krav, gennemsnitlig behandlingstid, tilgængelighed af reservedele, forpligtelse til svartid, proces for opfølgning efter levering. Advarselssignal: Ingen dokumenteret garantiproces, langsom eller inkonsistent kommunikation efter leveringen.'
+
+our_position:
+  heading: 'Vores holdning til hvert auditområde'
+  body: |
+    Vi påstår ikke blot overholdelse — vi fremskaffer dokumenterne. Her er vores holdning til hvert af de otte auditområder:
+
+    - **Kvalitetsstyring**: ISO 9001:2015-certificeret, auditert årligt af akkrediteret tredjepart. System med 7 inspektionstrin og dokumenterede kriterier for bestået/faldet ved hvert trin. CAPA-log føres og gennemgås kvartalsvis.
+    - **Produktionskapacitet**: Årlig kapacitet på 120,000+ brætter, ~10,000 pr. måned. Produktionsplan kan gennemgås under et fabriksbesøg. 4 automatiserede produktionslinjer, CNC-skæring, RF-svejsning og et trykstestlaboratorium.
+    - **Materialespørgsmål**: Batchspørgsmål fra modtagne materialer til færdigt bræt. Leverandørattester for PVC og drop-stitch ligger i arkivet. REACH- og RoHS-erklæringer er tilgængelige pr. batch.
+    - **Tryktest**: Holdeprøvning ved 18.0 PSI med automatisk kassation ved fald på over 0.50 PSI over 24 timer. Testlogfiler er tilgængelige for hver produktionsbatch. Strukturel og slagtest pr. konstruktionstype.
+    - **Svejsekontrol**: RF-svejseparametre registreres for hver produktionskørsel. Søminspektion ved trin 3 med dokumenterede kassationsrater. CAPA iværksættes ved kassationsrater over tærsklen.
+    - **Social ansvarlighed**: BSCI-auditeret. Registreringer af arbejdstider, løn og sikkerhed kan gennemgås under et fabriksbesøg.
+    - **Dokumentation**: Batchproduktionsrekorder, inspektionslogfiler pr. trin, overensstemmelsesattester og paklister med batchhenvisninger sendes med hver ordre. System til sporing af garantikrav vedligeholdes.
+    - **Support efter levering**: Garantibetingelser dokumenteres pr. kontrakt. Gennemsnitlig behandlingstid under 14 arbejdsdage. Reservedele leveres fra lager. Opfølgning efter levering tilbydes på hver første ordre.
+
+evidence_review:
+  tagline: 'Dokumentation & verifikation'
+  title: 'SPECIFIKATIONER VERIFICERET'
+  body: 'Alle produktions- og kvalitetspåstande på denne side er verificeret af vores produktionsingeniørteam på fabrikken i Laixi, Qingdao. Certifikater, QC-inspektionsrekorder, tryk- og strukturtestrapporter samt logfiler for batchspørgsmål er tilgængelige på forespørgsel. Specifikationerne blev senest verificeret i september 2026.'
+
+faqs:
+  tagline: FAQ
+  title: 'Fabriksaudit — ofte stillede spørgsmål'
+  items:
+    - q: 'Kan jeg besøge fabrikken for en audit på stedet?'
+      a: 'Ja. Vi byder gerne fabriksbesøg velkommen og kan arrangere en struktureret audit, der dækker alle otte områder. Et typisk besøg omfatter en rundtur på produktionsgulvet, observation af QC-trin, besigtigelse af materialelageret, dokumentgennemgang og spørgsmål til kvalitetschefen. Afsæt en hel dag. Kontakt os for at aftale tid.'
+    - q: 'Udleverer I auditdokumentation inden besøget?'
+      a: 'Ja. Vi kan dele ISO 9001-certifikat, BSCI-rapport, oversigt over produktionskapacitet, protokol for tryktest og eksempler på inspektionsrekorder inden dit besøg — så du kan forberede målrettede spørgsmål. Fuld batchdokumentation er tilgængelig på stedet under besøget.'
+    - q: 'Hvilke tredjepartsinspektioner anvender I?'
+      a: 'Vi arbejder med SGS, Intertek og TUV til tredjepartsinspektioner og certificeringer. Tredjepartsinspektion før afsendelse er tilgængelig på forespørgsel for enhver ordre. Inspektionsomfang og omkostninger fastlægges under tilbudsfasen.'
+    - q: 'Hvordan ved I, at jeres kvalitetssystem faktisk håndhæves, og ikke bare er dokumenteret?'
+      a: 'Ethvert bræt passerer 7 inspektionstrin med kvantitative kriterier for bestået/faldet — ikke visuelle tjeklister. Tryktestdata, svejseparametre og kassationsrater registreres pr. batch og er tilgængelige til gennemgang. CAPA udløses automatisk ved resultater uden for specifikationen. Vi opfordrer dig til at auditere den igangværende proces under et fabriksbesøg.'
+
+cta:
+  title: 'Planlæg en fabriksaudit'
+  subtitle: 'Anmod om auditdokumentation eller aftal et besøg på stedet. Vi fremskaffer dokumenterne — du kontrollerer processen.'
+  actions:
+    - variant: primary
+      text: 'Anmod om auditdokumentation'
+      href: /da/contact#project-brief
+    - text: 'Verificer certificeringer og kvalitetssystem'
+      href: /da/proof-center
+    - text: 'OEM-onboardingproces'
+      href: /da/oem-onboarding-guide

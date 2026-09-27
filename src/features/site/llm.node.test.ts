@@ -1,7 +1,7 @@
 import { test, expect } from 'vitest'
-import { llmsFull, llmBrandIndex, llmFrenchIndex, llmsFrenchFull, llmGermanIndex, llmsGermanFull, llmItalianIndex, llmsItalianFull, llmPortugueseIndex, llmsPortugueseFull, llmDutchIndex, llmsDutchFull, llmSwedishIndex, llmsSwedishFull, llmNorwegianIndex, llmsNorwegianFull, llmPolishIndex, llmsPolishFull } from '@/features/site/llm'
+import { llmsFull, llmBrandIndex, llmFrenchIndex, llmsFrenchFull, llmGermanIndex, llmsGermanFull, llmItalianIndex, llmsItalianFull, llmPortugueseIndex, llmsPortugueseFull, llmDutchIndex, llmsDutchFull, llmSwedishIndex, llmsSwedishFull, llmNorwegianIndex, llmsNorwegianFull, llmPolishIndex, llmsPolishFull, llmDanishIndex, llmsDanishFull } from '@/features/site/llm'
 import { getContentPages } from '@/features/content/loader'
-import { GUIDES_FR, GUIDES_DE, GUIDES_IT, GUIDES_PT, GUIDES_NL, GUIDES_SV, GUIDES_NO, GUIDES_PL } from '@/features/content/guide-content'
+import { GUIDES_FR, GUIDES_DE, GUIDES_IT, GUIDES_PT, GUIDES_NL, GUIDES_SV, GUIDES_NO, GUIDES_PL, GUIDES_DA } from '@/features/content/guide-content'
 import { EDGE_REDIRECTS } from '@/features/seo/edge-gate'
 import { LEGACY_REDIRECTS } from '@/features/seo/legacy-redirects'
 
@@ -259,5 +259,31 @@ test('llms-full.txt Polish section: product/news/tech/case/guide bodies present'
   expect(pl).toContain('# Guide:')
   for (const g of GUIDES_PL) {
     expect(pl, `llms-full.txt Polish section missing guide ${g.slug}`).toContain(`# Guide: ${g.title}`)
+  }
+})
+
+test('llms.txt Danish section: /da absolute links, Danish homepage note and guides', () => {
+  const section = llmDanishIndex('https://isupfactory.com')
+  expect(section).toContain('## Dansk')
+  expect(section).toContain('— Forside')
+  expect(section).toContain('### Dansk: Produkter')
+  expect(section).toContain('### Dansk: Guider')
+  expect(section).toContain('### Dansk: Ofte stillede spørgsmål')
+  expect(section).toContain('https://isupfactory.com/da/')
+  for (const g of GUIDES_DA) {
+    expect(section, `llms.txt Danish section missing guide ${g.slug}`).toContain(`https://isupfactory.com/da/guides/${g.slug}`)
+  }
+})
+
+test('llms-full.txt Danish section: product/news/tech/case/guide bodies present', () => {
+  const da = llmsDanishFull()
+  expect(da).toContain('# Dansk')
+  expect(da).toContain('## Produkt:')
+  expect(da).toContain('## Nyhed:')
+  expect(da).toContain('## Teknologi:')
+  expect(da).toContain('## Case study:')
+  expect(da).toContain('# Guide:')
+  for (const g of GUIDES_DA) {
+    expect(da, `llms-full.txt Danish section missing guide ${g.slug}`).toContain(`# Guide: ${g.title}`)
   }
 })

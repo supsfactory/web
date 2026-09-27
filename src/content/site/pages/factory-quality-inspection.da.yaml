@@ -1,0 +1,477 @@
+meta:
+  title: 'Kvalitetsstandarder for specialfremstillede SUP-brætter | OEM-fabrik | iSupfactory'
+  description: 'Oppustelige SUP-OEM-produktion: inspektion af materialer, produktion, test, emballage og spørgsmål, med kontrolleret genbearbejdning af lufttæthed under ISO 9001.'
+  dateModified: '2026-08-14'
+  keywords:
+    - 'producent af oppustelige sup'
+    - 'oem sup fabrik'
+    - 'specialfremstillet paddleboard producent'
+    - 'sup kvalitetsinspektion'
+    - 'sup produktionsproces'
+    - 'private label sup producent'
+
+hero:
+  tagline: Kvalitetsinspektion og sikring
+  title: Kvalitetskontrol af specialfremstillede oppustelige SUP-brætter
+  subtitle: 'QINGDAO VATRAD GROUP.,LTD. anvender projektspecifikke inspektionskriterier gennem hele processen: materialeberedning, brætkonstruktion, afsluttende tryktest, emballage og frigivelse før afsendelse. Kvalitetskrav styres dynamisk ud fra det godkendte prøveeksemplar, den tekniske specifikation, artwork-proof, styklisten (BOM) og de aftalte emballageskrav for hver OEM/ODM-ordre.'
+  actions:
+    - text: 'Download kvalitetssikringspakken'
+      variant: primary
+      href: 'https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_Quality_Inspection_Standards.pdf?dl=1'
+    - text: 'Download kvalitetsdokumentationspakke (PDF)'
+      href: 'https://assets.isupfactory.com/site/downloads/Qingdao_Vatrad_Group_SUP_Quality_Documentation_Pack.pdf?dl=1'
+    - text: 'Anmod om OEM-kvalitetsoplysninger'
+      href: /da/contact
+
+answer:
+  label: 'Det korte svar'
+  text: 'QINGDAO VATRAD GROUP.,LTD. sikrer kvaliteten på oppustelige SUP gennem et 4-trins verifikationssystem: kontrol af modtagne materialer (IQC), kvalitetskontrol under processen (IPQC), endelig brættest og trykverificering (FQC) samt emballage og frigivelse før afsendelse (OQC). Hver ordre inspiceres mod det godkendte prøveeksemplar, den tekniske specifikation, artwork-proof, BOM og emballageskrav, med lufttæthedskontrol, visuelle og måltekniske kontroller, bekræftelse af tilbehør og batchspørgsmål. Varer, der ikke opfylder acceptkriterierne, placeres under kontrolleret hold eller i karantæne, genbearbejdes kun efter godkendte instruktioner og geninspekteres, før de frigives.'
+  verified: 'September 2026'
+
+intro: 'Vores kvalitetssystem er bygget til OEM/ODM-projekter: inspektionskriterierne defineres pr. ordre, dokumenteres og følges af produktions- og kvalitetsholdene fra modtagne materialer til emballage. Dermed holdes kvalitetsforventningerne mellem fabrikken og dit mærke i overensstemmelse fra det første prøveeksemplar til fulde containerforsendelser.'
+
+scope_note:
+  tagline: Omfang
+  title: Projektspecifikke inspektionskriterier
+  body: |
+    Kvalitetsspecifikationerne kan variere afhængigt af brætets konstruktion (f.eks. enkelt-/dobbeltlag, woven drop-stitch, fusioneret kant), den tilsigtede slutbrug, regler på målmarkedet og kundegodkendte parametre. Endelig frigivelse sker udelukkende på grundlag af de dokumenterede inspektionskriterier, der er aftalt for ordren.
+
+stages:
+  tagline: Kvalitetsramme
+  title: Vores 4-trins system til kvalitetsverificering
+  subtitle: En komplet QC-løkke fra ankomst af råmateriale til frigivelse før afsendelse.
+  steps:
+    - title: '1. Kontrol af modtagne materialer (IQC)'
+      desc: 'Hovedmaterialer og indkøbte komponenter kontrolleres mod godkendte specifikationer og referenceprøver, før de går på produktionslinjen. Drop-stitch og PVC verificeres for materialeidentifikation, leverandørbatch, vægt/densitet, tykkelse, farvematch mod godkendte farveprøver og overfladedefekter. EVA-gripflader kontrolleres for mønster, farve, tykkelse, snitpræcision og limens egnethed. Ventiler og beslag gennemgår funktions-, gevind-, tætnings- og pasformstest. Tilbehør og emballage (pumper, pagajer, finner, sikkerhedsliner, tasker, kartoner) afstemmes på antal, farve, branding, barcodepræcision og artworkversion mod den godkendte BOM.'
+    - title: '2. Kvalitetskontrol under processen (IPQC)'
+      desc: 'Kritiske fremstillings trin inspiceres for at opdage afvigelser, før brætterne flyttes til næste arbejdsplads. Skæring og tryk verificeres for panelmål, artworkplacering, spejlvendret orientering og rene kanter mod godkendte tekniske tegninger. Montering af bræt og binding af kant kontrolleres for symmetri i konturen, kontinuitet i sømoverlæg og at hulrum eller luftlommer langs belastede områder er elimineret. Montering af ventiler og tilbehør samt grafik og branding verificeres for placering, orientering, limdækning, korrekt stavemåde i logo og artworkversion.'
+    - title: '3. Endelig brættest og trykverificering (FQC)'
+      desc: 'Færdige bræt gennemgår obligatorisk fysisk og strukturel test, før emballage godkendes. Brætterne pumpes op til det projektgodkendte inspektionstryk og holdes for at verificere strukturel stivhed og trykstabilitet. Scans for lufttæthed dækker ventilhus, kantsømme, nese-/halekoner og belastede samlinger ved hjælp af kalibrerede lækagemetoder (overvågning af trykfald eller bobletest). Visuel og målteknisk inspektion verificerer mål, rockerprofil og placering af EVA-flader (tolerance ±2 mm) under standard dagslys.'
+    - title: '4. Emballage og frigivelse før afsendelse (OQC)'
+      desc: 'Omfattende kontrol før afsendelse sikrer nul afvigelse i SKU-konfiguration og afsendelsesmærkning. Kontrollen af sætets fuldstændighed afklarer bræt, finne, sikkerhedsline, pagaj, pumpe, taske, reparationssæt og brugervejledning mod ordrens BOM. Emballage- og barcodekontroller verificerer kartonnummer, SKU-etiketter, barcode-læsbarhed, sprog i vejledningen og kartonnernes strukturelle holdbarhed. Ordren frigives først, når den endelige emballageaudit er godkendt af autoriseret kvalitetspersonale.'
+
+inspection_points:
+  tagline: Inspektionsdækning
+  title: Vigtigste kontrolpunkter
+  subtitle: 'Hvert kontrolpunkt udføres mod dokumenterede acceptkriterier, der er aftalt pr. ordre.'
+  features:
+    - icon: A
+      icon_bg: blue
+      title: Verificering af lufttæthed
+      desc: 'Færdige bræt pumpes op til det godkendte inspektionstryk og kontrolleres for trykfastholdelse, ventilbasis tilstand, kantsømme, nese- og haleområder samt belastede steder. Hvor inspektionsproceduren kræver det, undersøges mistænkte lækageområder med godkendte lækagemetoder.'
+    - icon: B
+      icon_bg: green
+      title: Visuel og målteknisk inspektion
+      desc: 'Brætter inspiceres under egnede lysforhold for materialets overfladetilstand, trykdefekter, farvevariation, EVA-placering, folder, ridser, forurening og limens udseende. Vigtige mål og placeringer af tilbehør verificeres mod godkendte tegninger eller specifikationer.'
+    - icon: C
+      icon_bg: purple
+      title: Verificering af tilbehør og emballage
+      desc: 'Hele produktkonfigurationen verificeres før afsendelse: brætmodel, finnesystem, pagaj, pumpe, sikkerhedsline, transporttaske, reparationssæt, brugervejledning og kundespecifikt tilbehør — hvert element afstemt mod det godkendte prøveeksemplar, tegningerne og BOM.'
+    - icon: D
+      icon_bg: orange
+      title: Emballage og frigivelse til afsendelse
+      desc: 'Pakkede enheder kontrolleres for SKU-konfiguration, tilbehørskomplethed, produktetiketter, barcodeoplysninger, version af instruktionsvejledning, kartonnummer, pakkemængde og kartonens tilstand. Frigivelse til afsendelse autoriseres først, når alle inspektions- og emballagekrav er opfyldt.'
+
+traceability_intro:
+  tagline: Batchspørgsmål
+  title: System til sporing på projektniveau og batchniveau
+  body: |
+    Hver specialfremstillet SUP-ordre styres under en samlet projektkode, der forbinder tekniske specifikationer, den godkendte BOM, artworkrevisioner, materialenumre, pakningshenvisninger og inspektionsrekorder. Produktions- og inspektionsrekorder føres for det relevante projekt og den relevante produktionsbatch, og hver batch kan spores tilbage til den godkendte produktspecifikation, BOM, artwork og pakningshenvisninger.
+
+    Det understøtter effektiv gennemgang af produktkonfiguration, inspektionsstatus og berørt omfang, hvis et kvalitetsspørgsmål opstår — fra færdigt produkt tilbage til kildematerialet ved hjælp af brættets eller kartons identifikation.
+
+traceability_chain:
+  tagline: Sporingskæde
+  title: Fra projektkode til frigivelse før afsendelse
+  subtitle: En kæde af kontrollerede henvisninger fra ordrebekræftelse til autoriseret afsendelse.
+  steps:
+    - step: '01'
+      title: Projektkode
+      desc: Samlet projekthenvisning, der forbinder hvert kontrolleret dokument med ordren.
+    - step: '02'
+      title: Dokumentrevisioner
+      desc: 'Aktuelle revisionsniveauer for specifikation, BOM, artwork og pakning — kun godkendte versioner er gyldige til produktion.'
+    - step: '03'
+      title: Batch og materialer
+      desc: 'Materiale- og komponentpartier registreres mod produktionsbatchen.'
+    - step: '04'
+      title: Inspektionsrekorder
+      desc: 'Resultater af IQC, proceskontrol, lufttæthed, endelig inspektion og emballage pr. batch.'
+    - step: '05'
+      title: Emballage og frigivelse
+      desc: 'Emballagebatch, status for lukning af afvigelsesrapporter og samlet oversigt over autoriseret frigivelse.'
+
+traceability_sample:
+  tagline: Anonymiseret eksempel
+  title: Sporingsdokument (demo)
+  body: |
+    Demonstrationsværdier vises kun til illustrationsformål — kundenavne, PO-numre, specialartwork, leverandørdata og kommercielle oplysninger er fjernet for at beskytte fortroligheden.
+
+    - **Producent:** QINGDAO VATRAD GROUP, LTD.
+    - **Projektkode:** DEMO-SUP-2026-01
+    - **SKU-referencer:** DEMO-TR-126
+    - **Produktionsbatch:** BATCH-AUG-01
+    - **Revision af specifikation / BOM / artwork:** Rev B / Rev C / Rev B
+    - **Registrering af lufttæthed:** BESTÅET — opbevares pr. batch
+    - **Inspektionsstatus:** BESTÅET
+    - **Afsendelsesstatus:** FRIGIVET
+
+quarantine_intro:
+  tagline: Kontrol af afvigelser
+  title: Kontrol af afvigende produkter og karantæne
+  body: |
+    Produkter eller komponenter, der ikke opfylder fastsatte acceptkriterier, identificeres tydeligt og placeres under kontrolleret hold eller karantænestatus. De kan ikke gå videre til næste produktionstrin, emballage eller afsendelse, før en autoriseret disposition er gennemført. Genbearbejdning udføres efter godkendte instruktioner og knyttes til den relevante afvigelsesrapport; genbearbejdede varer geninspekteres mod de gældende projektkrav, før kvalitetsfrigivelse.
+
+quarantine_flow:
+  tagline: Kontrolforløb i 7 trin
+  title: Hvad der sker, når en afvigelse opdages
+  subtitle: 'Identificer, kontrol, korrektion, verifikation — frigiv eller kasser. Afvigende produkt vender aldrig ukontrolleret tilbage til produktion eller emballage.'
+  steps:
+    - step: '01'
+      title: Identificer
+      desc: Afvigelsen registreres mod det berørte produkt, SKU, batch eller procestrin.
+    - step: '02'
+      title: Mærk
+      desc: 'Berørte varer mærkes tydeligt med kontrollerede statusetiketter — HOLD, KARANTÆNE eller KASSERET.'
+    - step: '03'
+      title: Karantæne
+      desc: 'Varer adskilles i et fysisk kontrolleret karantæneområde eller i et systemstyret område for at hindre uvedkommende anvendelse eller afsendelse.'
+    - step: '04'
+      title: Vurder omfang
+      desc: 'Det berørte omfang gennemgås pr. batch, procestrin, materialeparti og dokumentrevision.'
+    - step: '05'
+      title: Genbearbejd / udskift
+      desc: 'Korrektion er kun tilladt via en godkendt disposition og en kontrolleret arbejdsinstruktion.'
+    - step: '06'
+      title: Geninspekter
+      desc: 'Korrigerede varer geninspekteres mod de gældende acceptkriterier, før de frigives.'
+    - step: '07'
+      title: Frigiv eller kasser
+      desc: 'Kun autoriseret, overensstemmende produkt går videre til emballage eller frigivelse før afsendelse.'
+
+quarantine_evidence:
+  tagline: 'På fabriksgulvet'
+  title: 'Kontrolleret test og karantæne i praksis'
+  subtitle: 'Billeder fra vores værksted i Qingdao viser, hvordan statuskontrol og inspektionsrekorter anvendes på stedet.'
+  features:
+    - image: https://assets.isupfactory.com/site/quality/qc-air-tightness-test-area.avif
+      alt: Oppustelige SUP-brætter i fabrikkens område til lufttæthedstest, overvåget af et digitalt manometer
+      title: Område til lufttæthedstest
+      desc: 'Oppustede brætter holdes i QC-testområdet under industrielt lys, mens digitale manometre overvåger den godkendte holdeprøvning ved ventilbasis, kantsømme, nese og hale samt belastede områder. Rekorderne føres pr. batch og kobles til den endelige inspektion.'
+    - image: https://assets.isupfactory.com/site/quality/qc-hold-quarantine-station.avif
+      alt: Kvalitetskontrollens tjeklister og kontrollerede statusetiketter på fabrikkens inspektionsstation
+      title: Station til hold og karantæne
+      desc: 'Inspektionsstation med QC-tjeklister og statusmærkning. Alle varer, der ikke opfylder acceptkriterierne, mærkes, registreres og flyttes til karantæne — de kan ikke gå videre til emballage, før en autoriseret disposition og obligatorisk geninspektion er gennemført.'
+    - image: https://assets.isupfactory.com/site/quality/qc-air-tightness-rework.avif
+      alt: QC-tekniker, der udfører kontrolleret genbearbejdning af lufttæthed på et oppusteligt SUP-bræt ved fabrikkens genbearbejdningsstation
+      title: Kontrolleret genbearbejdningsstation
+      desc: 'Genbearbejdning af lufttæthed udføres på en dedikeret station under et godkendt metodekort: fejlen markeres, brættet forbliver på HOLD, og efter den krævede hærdetid vender det tilbage til testområdet for geninspektion mod de oprindelige acceptkriterier.'
+    - image: https://assets.isupfactory.com/site/quality/qc-workshop-quarantine-demo.avif
+      alt: Demonstrationsfoto af kontrolleret karantæneadskillelse i fabrikken i Qingdao
+      title: Demonstrationsfelt for karantæne
+      desc: 'Demonstrationsfoto fra værkstedet, der viser, hvordan kontrolleret karantæneadskillelse fungerer på stedet: adskilte enheder holdes under statuskontrol, indtil en autoriseret disposition er gennemført.'
+
+rework_intro:
+  tagline: 'Styring af genbearbejdning'
+  title: 'Kontrolleret håndtering af afvigelser i lufttæthed og genbearbejdning'
+  body: |
+    Hos QINGDAO VATRAD GROUP.,LTD. defineres genbearbejdning strengt som at bringe en afvigende enhed tilbage til fuld overensstemmelse med dens oprindelige ingeniørmæssige specifikation — ikke som en hurtig løsning. Ethvert bræt, der identificeres med en afvigelse i lufttæthed, placeres under kontrolleret hold og knyttes til en afvigelsesrapport (NCR), før der behandles videre; lækagens kilde findes og registreres ved hjælp af den godkendte diagnostikmetode.
+
+    Genbearbejdning må kun ske, når fejlen ligger inden for det godkendte genbearbejdningsomfang, og en autoriseret metode er tilgængelig. Genbearbejdningsinstruktionen identificerer produkt, batch, fejlplacering, godkendt materiale, metode, påkrævede forhold og omfang af geninspektion. Efter den krævede hærde- eller stabiliseringsperiode geninspekteres brættet mod de samme gældende acceptkriterier som for et overensstemmende bræt — genbearbejdning sænker aldrig acceptstandarden. Hvis geninspektionen mislykkes, kræves ny ingeniørmæssig og kvalitetsmæssig disposition; gentagen genbearbejdning er ikke tilladt uden dokumenteret godkendelse.
+
+rework_decision:
+  tagline: Interaktivt flow
+  title: Beslutningsflow for genbearbejdning — klik på et punkt
+  subtitle: 'Følg, hvordan en afvigelse i lufttæthed håndteres fra opdagelse til frigivelse eller skroting. Klik på et punkt for at udvide kontrolkravene i det trin.'
+  nodes:
+    - id: detect
+      type: start
+      label: Lækage opdaget
+      detail: 'En afvigelse i lufttæthed identificeres under inspektion — tab af trykfastholdelse, synlig lækage eller en relateret fejl i luftsystemet.'
+    - id: hold
+      type: step
+      label: Stop på linjen · HOLD-etiket · NCR
+      detail: 'Behandlingen stoppes. Bræt-ID, produktkode, batch, arbejdsplads, dato og inspektør registreres; der påsættes en HOLD / KARANTÆNE-etiket, og der åbnes en NCR mod den gældende specifikationsrevision.'
+    - id: locate
+      type: step
+      label: Find lækagens kilde
+      detail: 'Brættet pumpes op til det projektgodkendte diagnosticeringstryk, og kilden findes med en godkendt metode — trykfastholdelse, kalibreret bobletest, akustisk eller lækagedetekteringsudstyr.'
+    - id: classify
+      type: step
+      label: Klassificering af fejlen (A–G)
+      detail: 'Fejlen klassificeres mod godkendelsesmatricen: A ventilgrænseflade, B søm ved ventilbasis, C overfladehul i punktform, D lokal kantsøm, E omfattende kantfejl, F gentagne lækager, G strukturskade.'
+    - id: authorize
+      type: decision
+      label: Genbearbejdning godkendt?
+      yes: rework
+      no: escalate
+      detail: 'QC bekræfter fejlkategorien, og Konstruktion vurderer, om brættet kan føres tilbage til sin oprindelige specifikation. Godkendelsen registrerer metodekort, materialer, forhold og omfang af geninspektion — eller sender sagen til udskiftning, kassation, skroting eller kundens dispensation.'
+    - id: rework
+      type: step
+      label: Kontrolleret genbearbejdning
+      detail: 'Udføres kun inden for den godkendte fejlgrænse med det godkendte metodekort, materialebatch og værktøj — aldrig ændring af mål, konstruktion, grafik, tilbehør eller emballagekrav.'
+    - id: cure
+      type: step
+      label: Hærdning og stabilisering
+      detail: 'Brættet forbliver på HOLD gennem den hærde- og stabiliseringsperiode, der er fastsat i det godkendte materiale- og procesinstrument, og får derefter en visuel forkontrol af arbejdsudførelse.'
+    - id: reinspect
+      type: decision
+      label: Geninspektion bestået?
+      yes: release
+      no: escalate
+      detail: 'Brættet pumpes op til det projektgodkendte geninsktionstryk, og den oprindelige fejl samt alle potentielt berørte egenskaber verificeres igen — lækageplacering, ventil, kanter, sømme, belastede områder, tilbehør og udseende. Genbearbejdning sænker aldrig acceptstandarden.'
+    - id: release
+      type: release
+      label: Kvalitetsfrigivelse
+      detail: 'Kvalitet gennemgår den lukkede NCR, genbearbejdningsregistreringen og resultatet af geninspektionen og autoriserer frigivelse. Intet genbearbejdet bræt pakkes eller afsendes uden autoriseret kvalitetsfrigivelse.'
+    - id: escalate
+      type: escalate
+      label: Eskalering — udskift / skrot / dispensation
+      detail: 'Ingen gentagen genbearbejdning uden dokumenteret godkendelse. Brættet sendes til udskiftning, kassation, skroting eller en skriftlig dispensation fra kunden, hvor den oprindelige specifikation ikke kan genetableres.'
+
+defect_matrix:
+  tagline: Fejlklassificering
+  title: Klassificering af lufttæthedsfejl og godkendelsesmatrix
+  subtitle: 'Ikke enhver lækage genbearbejdes — hver fejl klassificeres, og dispositionen godkendes på det rette niveau, fra QC-inspektør til fabrikschef.'
+  headers:
+    category: Fejlkategori
+    area: Typisk område
+    eligibility: Berettigelse til genbearbejdning
+    approval: Påkrævet godkendelse
+  rows:
+    - category: 'Klasse A — Ventilgrænseflade'
+      area: 'Ventilkerne, hættepakning, pakning, pumpegrænseflade'
+      eligibility: 'Standard genbearbejdning godkendt'
+      approval: 'QC-inspektør'
+    - category: 'Klasse B — Søm ved ventilbasis'
+      area: 'Mikrolækage langs ventilens kant'
+      eligibility: 'Genbearbejdning vurderes efter det godkendte metodekort'
+      approval: 'QC + Konstruktion'
+    - category: 'Klasse C — Overfladehul i punktform'
+      area: 'Lokalt mikroshul på en ikke-belastet overflade'
+      eligibility: 'Kun godkendt, når det er i overensstemmelse med kundens specifikationer'
+      approval: 'QC + Konstruktion'
+    - category: 'Klasse D — Lokal kantsøm'
+      area: 'Lokal lækage i overlap på kantbåndet'
+      eligibility: 'Høj risiko; kræver stram ingeniørmæssig disposition'
+      approval: 'Konstruktion + QA-chef'
+    - category: 'Klasse E — Omfattende kantfejl'
+      area: 'Sammenhængende sømfejl i belastede områder'
+      eligibility: 'Standard genbearbejdning er ikke godkendt — udskiftning eller årsagsanalyse'
+      approval: 'QA-chef + Dispensation fra kunden'
+    - category: 'Klasse F — Gentagen lækage'
+      area: 'Lækage, der ikke kan lokaliseres, eller fejl ved gentest'
+      eligibility: 'Ingen gentagen genbearbejdning; udskiftning, skroting eller ingeniørmæssig årsagsanalyse'
+      approval: 'QA-leder / Konstruktion'
+    - category: 'Klasse G — Strukturskade'
+      area: 'Materialeskade, delaminering, deformering af brættet'
+      eligibility: 'Genbearbejdningsfrigivelse er ikke godkendt — udskiftning, skroting eller skriftlig dispensation fra kunden'
+      approval: 'Kvalitetschef + Kundens godkendelse'
+
+rework_flow:
+  tagline: 'Lukket løkke i 7 trin'
+  title: 'Kontrolleret genbearbejdningsarbejdsgang — fra opdagelse til frigivelse eller skroting'
+  subtitle: 'Enhver genbearbejdning af lufttæthed følger den samme kontrollerede løkke: opdag, karantæne, diagnosticer, godkend, genbearbejd, geninspekter, frigiv.'
+  steps:
+    - step: '01'
+      title: 'Opdagelse, stop på linjen og karantæne'
+      desc: 'Behandlingen stoppes straks på det berørte bræt. Bræt-ID, produktkode, batch, arbejdsplads, dato og inspektør registreres, der påsættes en HOLD / KARANTÆNE-etiket, og der åbnes en NCR mod den gældende specifikationsrevision.'
+    - step: '02'
+      title: 'Systematisk diagnosticering af lækage'
+      desc: 'Brættet pumpes op til det projektgodkendte diagnosticeringstryk, og lækagens kilde findes med en godkendt metode — trykfastholdelse, kalibreret bobletest, akustisk eller lækagedetekteringsudstyr. Den mistænkte placering markeres uden at beskadige brættet.'
+    - step: '03'
+      title: 'Ingeniørmæssig disposition og godkendelse'
+      desc: 'QC bekræfter fejlkategorien, og Konstruktion vurderer, om brættet kan føres tilbage til sin oprindelige specifikation. En genbearbejdningsgodkendelse med henvisning til NCR-registeret registrerer den godkendte metode, materialerne, forholdene og omfanget af geninspektionen — eller tildeler udskiftning, kassation, skroting eller dispensation fra kunden.'
+    - step: '04'
+      title: 'Kontrolleret udførelse af genbearbejdning'
+      desc: 'Genbearbejdning udføres kun inden for den godkendte fejlgrænse med det godkendte metodekort, materialebatch og værktøj. Brættets mål, konstruktion, grafik, tilbehørskonfiguration og emballagekrav ændres aldrig.'
+    - step: '05'
+      title: 'Hærdning, stabilisering og forkontrol'
+      desc: 'Det genbearbejdede bræt forbliver i HOLD-status gennem den hærde- og stabiliseringsperiode, der er fastsat i det godkendte materiale- og procesinstrument, og får derefter en visuel forkontrol af arbejdsudførelse, før det geninspekteres.'
+    - step: '06'
+      title: 'Geninspektion og prøvning'
+      desc: 'Brættet pumpes op til det projektgodkendte geninsktionstryk, og den oprindelige fejl samt alle potentielt berørte egenskaber verificeres igen: lækageplacering og området omkring, ventil, kanter, sømme, belastede områder, tilbehør og udseende. Genbearbejdning sænker aldrig acceptstandarden.'
+    - step: '07'
+      title: 'QA-frigivelse eller endelig disposition'
+      desc: 'Kvalitet gennemgår den færdige NCR, genbearbejdningsregistreringen og resultatet af geninspektionen og autoriserer derefter frigivelse — eller eskalerer til udskiftning, kassation, skroting eller dispensation fra kunden. Intet genbearbejdet bræt pakkes eller afsendes uden autoriseret kvalitetsfrigivelse.'
+
+quality_safeguards:
+  tagline: Kvalitetssikringer
+  title: Anti-fejlregler, der beskytter dit mærke
+  subtitle: 'Hårde kontroller, der forhindrer ukontrollerede reparationsløkker — en dokumenteret genbearbejdning pr. fejl, alarmtærskler pr. batch, kalibreret instrumentering og kontrollerede testforhold.'
+  features:
+    - icon: 1
+      icon_bg: blue
+      title: En genbearbejdning pr. fejl
+      desc: 'Et enkelt sted må genbearbejdes en gang efter en autoriseret instruktion. Hvis geninspektionen stadig mislykkes, eskaleres brættet til udskiftning, kassation, skroting eller dispensation fra kunden — gentagen genbearbejdning uden dokumenteret godkendelse er ikke tilladt.'
+    - icon: 2
+      icon_bg: green
+      title: 'Batchalarm og stop af linjen'
+      desc: 'Når afvigelser i en produktionsbatch overstiger den konstruktionsmæssigt fastsatte tærskel, stoppes linjen, og Konstruktion undersøger årsagen — materialepartier, procesforhold og rekorder — før produktionen genoptages.'
+    - icon: 3
+      icon_bg: purple
+      title: Kalibreret instrumentering
+      desc: 'Manometre, digitale manometre og timere, der bruges til lufttæthedstest, er under kontrol og kalibreret af tredjepartslaboratorier inden for gyldighedsperioden, og kalibreringsstatus er synlig i inspektionsområdet.'
+    - icon: 4
+      icon_bg: orange
+      title: Kontrollerede testforhold
+      desc: 'Områder til lufttæthedstest og hærdning holdes i et kontrolleret miljø, så resultaterne ikke påvirkes af temperaturudsving mellem dag og nat.'
+
+rework_boundaries:
+  tagline: Omfang og grænser
+  title: Hvad dette system ikke dækker
+  body: |
+    Genbearbejdningskontrolsystemet gælder færdige eller igangværende oppustelige SUP-bræt, der er identificeret med lækage, tab af trykfastholdelse eller relaterede fejl i luftsystemet, før frigivelse før afsendelse. Det giver ikke tilladelse til ændringer af godkendt konstruktion, materialer, grafik, produktkonfiguration eller kundekrav, og det dækker ikke:
+
+    - Produkter, der allerede er afsendt eller er i kundens salgskanaler.
+    - Strukturskade eller deformering af brættet, som ikke er vurderet af Konstruktion.
+    - Omfattende kant- eller sømfejl, skade på kernemateriale eller fejl, der kan påvirke sikkerheden.
+    - Projekter, hvor genbearbejdning ikke er tilladt: kundens godkendte prøveeksemplarer, certificerings- eller testenheder.
+    - Projekter med kundens proprietære processer, specialmaterialer eller særlige reparationskrav.
+    - Gentagne lækager, der ikke kan lokaliseres, eller bræt, der fejler igen efter genbearbejdning.
+
+    Ethvert afvigelse fra kundens specifikationer kræver dokumenteret ingeniørmæssig gennemgang og, hvor det er relevant, skriftlig godkendelse fra kunden. Bræt, der ikke kan føres tilbage til den oprindelige specifikation, frigives kun efter en udtrykkelig dispensation fra kunden — aldrig alene af produktionen.
+
+method_cards:
+  tagline: System med metodekort
+  title: Indeks over kontrollerede genbearbejdningsmetodekort
+  subtitle: 'Den overordnede instruktion styrer processen; metodekortene styrer arbejdets udførelse. Genbearbejdningsinstruktionen (WI-QC-AT-001) henviser til metodekortene MC-RW-01 til MC-RW-06 samt MC-RW-00 til obligatorisk skroting og kassation.'
+  headers:
+    code: Metodekort
+    defect: Fejlklasse
+    scope: Anvendelsesområde
+    controls: Vigtigste ingeniørmæssige kontroller
+    approval: Godkendelsesbemyndigelse
+  rows:
+    - code: MC-RW-01
+      defect: Klasse A (ventilgrænseflade)
+      scope: 'Service af ventilkerne, rengøring af pakning og samling igen'
+      controls: 'Kalibreret momentnøgle, ren pakningsflade, ingen skade på ventilens gevind'
+      approval: 'QC-inspektør'
+    - code: MC-RW-02
+      defect: Klasse B (ventilperiferi)
+      scope: 'Tætning af ventilens bundflange og kontrolleret fastspænding'
+      controls: 'Kontrolleret overfladeforberedelse, godkendt limmateriale, cirkulært trykaggregat'
+      approval: 'QC + Konstruktion'
+    - code: MC-RW-03
+      defect: Klasse C (overflademikrolækage)
+      scope: 'Forsegling af ikke-strukturelle huller i punktform'
+      controls: 'Godkendt tokomponentlim uden løb ind i grafik eller EVA'
+      approval: 'QC + Konstruktion'
+    - code: MC-RW-04
+      defect: Klasse D (lokal kantsøm)
+      scope: 'Genbinding af lokal kantsøm i overlap'
+      controls: 'Temperaturstyret varmeaktivering, trykrulle, fixtur mod krølning'
+      approval: 'Konstruktion + QA-chef'
+    - code: MC-RW-05
+      defect: Klasse B/C (tilbehørskant)
+      scope: 'Tætning af finnekasse-lap og monteringsbase for tilbehør'
+      controls: 'Overfladefremmer, profileret fastspændingsblok, fastsat holdetid'
+      approval: 'QC + Konstruktion'
+    - code: MC-RW-06
+      defect: Klasse D (nese-/halesøm)
+      scope: 'Indsats i søm med høj krumning og høj belastning'
+      controls: 'Godkendt limmateriale med høj forskydningsstyrke, forlænget hærdetid før gentest'
+      approval: 'Overingeniør'
+    - code: MC-RW-00
+      defect: Klasse E/F/G (kritisk / brud)
+      scope: 'Obligatorisk skroting og fysisk ødelæggelse'
+      controls: 'Fysisk gennemskæring for at forhindre fejlsamling, skrotningsregistrering, tværfaglig årsagsanalyse'
+      approval: 'Fabrikschef'
+
+inspector_friendly:
+  tagline: Tredjepartsinspektion
+  title: Inspektørvenlig protokol
+  body: |
+    Vi stiller et dedikeret inspektionsområde med kalibrerede manometre, standardiserede lysborde til søm- og grafikkontrol og forudfyldte inspektionsbriefs, så tredjepartsbureauer (SGS, BV, Intertek, QIMA) kan gennemføre forhåndsinspektion effektivt — og spare dine inspektionsomkostninger.
+
+    Hver brief opsummerer de gældende dokumentrevisioner, referencen til det godkendte prøveeksemplar, kontroller af kvalitetskritiske egenskaber, aftalet udtagningsniveau, funktionstest samt krav til emballage og barcode for den pågældende PO. Angivne mængder, kvalitet, pakning og grundlæggende sikkerhedsforhold verificeres mod de godkendte projektreferencer — ingen jagt i dokumenterne i sidste øjeblik.
+
+document_pack:
+  tagline: Kvalitetsdokumentationspakke
+  title: 'Download eksempel på kvalitetspakke og protokolskabeloner'
+  subtitle: 'Standardiserede kontrollerede skabeloner til OEM/ODM-projekter — struktureret som dokumentregisteret 00–15 (projektindeks, godkendt specifikation, BOM, artwork- og pakningshenvisninger, QIP, inspektionsrekorder, NCR, ændringsstyring, tredjepartsbrief, frigivelsesresume).'
+  features:
+    - icon: P
+      icon_bg: blue
+      title: 'Kvalitetsdokumentationspakke (PDF)'
+      desc: 'Fuld kontrolleret dokumentstruktur 00–15: projektindeks, specifikation, BOM, artwork- og pakningshenvisninger, Quality Inspection Plan (QIP), inspektionsrekorder, NCR, ændringsstyring, tredjepartsbriefing og resume af frigivelse før afsendelse.'
+      link: 'https://assets.isupfactory.com/site/downloads/Qingdao_Vatrad_Group_SUP_Quality_Documentation_Pack.pdf?dl=1'
+      link_label: 'Download PDF'
+    - icon: T
+      icon_bg: green
+      title: 'Brief for tredjepartsinspektion (PDF)'
+      desc: 'Ensidebrief til inspektører fra SGS / BV / Intertek / QIMA: ordremængde, AQL-udtagningsniveau, gældende revisioner og kontroller af kvalitetskritiske egenskaber, herunder verifikation af lufttæthedskegning, trykholdeprøvning, sætets fuldstændighed, barcode-scanning og kassondrop-test.'
+      link: 'https://assets.isupfactory.com/site/downloads/Third_Party_Inspection_Brief_Template.pdf?dl=1'
+      link_label: 'Download PDF'
+    - icon: C
+      icon_bg: purple
+      title: 'Protokol for ændringsstyring (PDF)'
+      desc: 'Ændringslog for artwork, kundegodkendt BOM og revisioner af kartonnummer — med ændringsresume, begrundelse, konsekvensvurdering, kundens godkendelsesstatus, ikrafttrædelsesbatch og tilbagekaldelse af forældede dokumenter.'
+      link: 'https://assets.isupfactory.com/site/downloads/Change_Control_Protocol_Bilingual.pdf?dl=1'
+      link_label: 'Download PDF'
+    - icon: R
+      icon_bg: orange
+      title: 'Resume af frigivelse før afsendelse (PDF)'
+      desc: 'Ensidesgodsning for frigivelse: verifikation af kvalitetstrin (IQC, IPQC, lufttæthed, endelig inspektion, emballage), status for åbne NCR-rapporter og den autoriserede frigivelsesbeslutning underskrevet af kvalitet og drift.'
+      link: 'https://assets.isupfactory.com/site/downloads/Pre_Shipment_Release_Summary_Bilingual.pdf?dl=1'
+      link_label: 'Download PDF'
+    - icon: W
+      icon_bg: blue
+      title: 'Genbearbejdningsinstruktion for lufttæthed (PDF)'
+      desc: 'Kontrolleret arbejdsinstruktion WI-QC-AT-001 Rev A: omfang og grænser, fejlklassificering, NCR og godkendelse af genbearbejdning, kontrolleret udførelse, hærdning, geninspektion og frigivelse for oppustelige SUP-brætter.'
+      link: 'https://assets.isupfactory.com/site/downloads/air-tightness-rework-instruction-wi-qc-at-001.pdf?dl=1'
+      link_label: 'Download PDF'
+    - icon: M
+      icon_bg: green
+      title: 'Indeks over metodekort (PDF)'
+      desc: 'Kontrolleret dokument SOP-QC-AT-IDX-001 Rev A: det nummererede metodekortsystem MC-RW-01 til MC-RW-06 samt MC-RW-00 til skroting og kassation, knyttet til genbearbejdningsinstruktionen for lufttæthed.'
+      link: 'https://assets.isupfactory.com/site/downloads/method-card-index-sop-qc-at-idx-001.pdf?dl=1'
+      link_label: 'Download PDF'
+    - icon: V
+      icon_bg: orange
+      title: 'Standard for ændringsstyring af genbearbejdning (side)'
+      desc: 'Formel ændringsstyring i henhold til ISO 9001 for genbearbejdningsparametre: ECR, risikoklassificering, godkendelsesmatrix på tværs af afdelinger, lukket løkke i 9 trin, kvantificeret ingeniørmæssig validering og Poka-Yoke-sikkerhedsforanstaltninger — med to-sproget SOP QMS-SOP-QC-CC-001 Rev 2.0.'
+      link: '/da/factory/quality-change-control'
+      link_label: 'Se side'
+    - icon: N
+      icon_bg: blue
+      title: 'Kontrol af afvigende produkter (side)'
+      desc: 'ISO 9001:2015 punkt 8.7 om kontrol af afvigende output: registrering af NCR, karantæne, dispositionsbemyndigelse efter alvorsgrad, kontrolleret genbearbejdning i henhold til SRI, uafhængig geninspektion og overværet ødelæggelse arkiveret med SHA-256 — med to-sproget SOP og download af skrotningsbevis.'
+      link: '/da/factory/non-conforming-control'
+      link_label: 'Se side'
+
+faqs:
+  tagline: FAQ
+  title: Ofte stillede spørgsmål om kvalitetskontrol af SUP
+  items:
+    - q: 'Hvordan sikrer QINGDAO VATRAD GROUP.,LTD. kvaliteten på oppustelige SUP-brætter?'
+      a: 'Kvaliteten sikres gennem inspektion af modtagne materialer, kontrolpunkter i produktionsprocessen, verifikation af færdigt produkt, emballageinspektion og produktionssporbarhed — hvor hvert element udføres mod projektegodkendte prøveeksemplarer, specifikationer og inspektionskriterier.'
+    - q: 'Hvilke kvalitetsinspektioner udføres under produktionen af SUP?'
+      a: 'Inspektionerne omfatter materialeverificering, kontrol af skæring og tryk, inspektion af brætets konstruktion, verifikation af ventilmontering, inspektion af tilbehør, lufttæthedstest, udseendeinspektion og verifikation af emballage.'
+    - q: 'Kan OEM-kunder anmode om SUP-inspektionsrekorder?'
+      a: 'Ja. Inspektionsrekorder og kvalitetsdokumentation kan stilles til rådighed i henhold til projektkrav og kundens kvalitetsaftaler, herunder eksempler på inspektionsrapporter før afsendelse.'
+    - q: 'Hvordan sikrer fabrikken ensartethed i OEM-produktionen?'
+      a: 'Ensartethed sikres gennem godkendte prøveeksemplarer, tekniske specifikationer, kontrolpunkter i fremstillingen, inspektionsprocedurer og dokumenterede kvalitetsprocesser, der er knyttet til hver ordre.'
+    - q: 'Kan jeg aftale tredjepartsinspektion fra SGS, BV, Intertek eller QIMA?'
+      a: 'Ja. Vi modtager tredjepartsinspektører med et dedikeret inspektionsområde, kalibrerede manometre, forudfyldte inspektionsbriefs og tilgængelige rekorder. Del din specifikation, det godkendte prøveeksemplar, artwork, emballagekrav og fejlkriterier — eller brug vores skabelon til brief for tredjepartsinspektion.'
+    - q: 'Hvordan håndteres ændringer i artwork, BOM eller emballage under produktionen?'
+      a: 'Ændringer registreres i vores ændringslog med den berørte dokumentrevision, ændringsresume, begrundelse, konsekvensvurdering, kundens godkendelsesstatus og ikrafttrædelsesbatch. Forældede versioner trækkes tilbage, så produktion og inspektion altid bruger de aktuelle godkendte dokumenter.'
+    - q: 'Understøtter fabrikken specialprojekter med oppustelige SUP-brætter?'
+      a: 'Ja. Specialfremstillede OPPUSTELIGE SUP-OEM/ODM-projekter understøttes ud fra kundens specifikationer, artworkkrav, tilbehørskonfigurationer og emballagebehov, med projektspecifikke inspektionskriterier aftalt før produktionen.'
+    - q: 'Kan et lækkende SUP-bræt genbearbejdes på fabrikken?'
+      a: 'Ja — under kontrollerede forhold. Brættet placeres på HOLD og knyttes til en NCR, lækagen findes med en godkendt diagnostikmetode, og genbearbejdning sker først efter QC/Konstruktions-godkendelse og kun inden for de fejlklasser, der er godkendt til genbearbejdning. Brættet geninspekteres derefter mod de samme acceptkriterier som et overensstemmende bræt, før det frigives.'
+    - q: 'Hvor mange gange må fabrikken genbearbejde et bræt?'
+      a: 'Et enkelt sted må genbearbejdes en gang efter en autoriseret instruktion. Hvis geninspektionen stadig mislykkes, eskaleres brættet til udskiftning, kassation, skroting eller dispensation fra kunden — gentagen genbearbejdning uden dokumenteret godkendelse er ikke tilladt.'
+
+cta:
+  title: Har du brug for et komplet eksempel på kvalitetspakke til et projekt?
+  desc: 'Anmod om en anonymiseret Support Pack for tredjepartsinspektion og en Quality Inspection Plan (QIP) til dit OEM/ODM-projekt — eller download eksempelskabeloner for at se den dokumentstruktur, du kan forvente til din ordre.'
+  actions:
+    - text: 'Anmod om kvalitetsgennemgang'
+      variant: primary
+      href: /da/contact
+    - text: 'Download kvalitetsdokumentationspakke (PDF)'
+      href: 'https://assets.isupfactory.com/site/downloads/Qingdao_Vatrad_Group_SUP_Quality_Documentation_Pack.pdf?dl=1'
+    - text: 'Download QC-protokol og PSI-tjekliste'
+      href: 'https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_Quality_Inspection_Standards.pdf?dl=1'

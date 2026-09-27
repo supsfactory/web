@@ -1,0 +1,329 @@
+meta:
+  title: 'Fabrik & produktion — oppustelige SUP-OEM'
+  description: 'Besøg Vatrad-fabriken: 12,500 m² anlæg med skæring, RF-svejsning, trykning, samling og kvalitetslaboratorium til produktion af oppustelige SUP-brætter i OEM/ODM.'
+  dateModified: '2026-08-07'
+  keywords:
+    - 'sup fabrik kina'
+    - 'fabrik for oppustelige paddleboards'
+    - 'oem sup producent'
+    - 'produktion af oppustelige sup'
+hero:
+  tagline: Fabrik
+  title: Fabrik & produktion
+  subtitle: 12,500 m2 SUP-fabrik i Qingdao, Kina — specialproduktion af oppustelige SUP fra rå PVC-materiale til færdigt paddleboard
+answer:
+  label: 'Det korte svar'
+  text: 'Certificeret fabrik for oppustelige SUP i Qingdao, Kina: ISO 9001, ISO 25649, BSCI, CE, REACH og RoHS. 12,500 m² anlæg fordelt på 4 specialiserede værksteder, 350+ ansatte, 120,000+ brætter produceret om året (10,000 brætter pr. måned på 4 automatiserede linjer). Alle brætter trykprøves ved 18.0 PSI i 24 timer, består en montagecheckliste med 100 punkter og har 10 års materialesporbarhed.'
+  verified: 'September 2026'
+intro:
+  - 'Som produktionsafdeling i **Qingdao Vatrad Group Co., Ltd.** kontrollerer Vatrad hvert eneste trin i produktionen af oppustelige SUP — fra ankomsten af rå PVC-materialer til den sidste inspektion af det færdige paddleboard før levering. Vores produktionsanlæg i Qingdao Economic Development Zone dækker 12,500 kvadratmeter og huser dedikerede værksteder til PVC-skæring, binding af drop-stitch-kerner, digital trykning af SUP, endelig samling og kvalitetstest.'
+  - 'Når design, konstruktion, prototyping, produktion og test er samlet under samme tag, fjerner vi ineffektiviteten i kontraktfremstilling og bevarer direkte kontrol over byggekvalitet, materialevalg og leveringsplaner. Hvert SUP, der forlader vores værksted, er bygget af vores egne folk, på vores eget udstyr og efter vores egne standarder.'
+stats:
+  - value: 12,500 m2
+    label: Produktionsareal
+  - value: 350+
+    label: Kvalificerede ansatte
+  - value: 120,000+
+    label: SUP produceret om året
+  - value: ISO 9001
+    label: Kvalitetscertificeret
+intelligence_tagline: Fabriksintelligens
+intelligence_title: Udforsk vores produktionsmuligheder
+intelligence_cards:
+  - title: Produktionskapacitet
+    icon: C
+    icon_bg: blue
+    desc: '12,500 m² anlæg, der producerer 120,000+ SUP/år på linjer for SUP-brætter og sikkerhedsudstyr. 350+ ansatte, 2 skift.'
+    metrics:
+      - label: MOQ
+        value: 'SUP: prøve 1–2 / pilot 20–50 / volumen 90–100+'
+      - label: Leveringstid
+        value: '25–35 dage'
+    link: /da/factory/capacity
+    link_label: Fulde kapacitetsdetaljer →
+  - title: Kvalitetslaboratorium & test
+    icon: Q
+    icon_bg: green
+    desc: 'Uafhængigt QC-laboratorium med 4 testtrin: kontrol af råmateriale (trækstyrke, revne, UV), 24 timers trykholdning ved 18.0 PSI, skråningsprøvning af sømme samt verifikation af bøjningsstivhed på hvert bræt.'
+    metrics:
+      - label: Laboratorieudstyr
+        value: 'Trækprøvemaskine, temperaturkammer, lækagetank'
+      - label: Standarder
+        value: 'QMS: ISO 9001; Marked: CE, AS 1799'
+    link: /da/factory/quality-lab
+    link_label: 'Laboratorieprocedurer & udstyr →'
+  - title: OEM/ODM-muligheder
+    icon: O
+    icon_bg: purple
+    desc: 'End-to-end OEM/ODM-tjenester: specialformdesign, private-label-emballage, specialfarver på brætter, dækgrafik (digital tryk og silketryk) og eksportklar pakning.'
+    metrics:
+      - label: Certificeringer
+        value: 'ISO 9001, BSCI, CE, REACH'
+      - label: Eksportmarkeder
+        value: '50+ lande'
+    link: /da/factory/oem-capability
+    link_label: 'Alle OEM-tjenester →'
+  - title: Kvalitetsinspektionsstandarder
+    icon: I
+    icon_bg: orange
+    desc: 'Projektspecifikke kvalitetsinspektionskriterier på tværs af IQC, IPQC, FQC og OQC: lufttæthedskontrol, visuelle og måltekniske kontroller, bekræftelse af tilbehør, batchsporbarhed samt sign-off for frigivelse før afsendelse — suppleret af kontrolleret håndtering af lufttæthedsafvigelser og genbearbejdning.'
+    metrics:
+      - label: Dækning
+        value: 'Materialer → endelig pakning'
+      - label: Downloads
+        value: 'QC-protokol, PSI-rapport & genbearbejdningsdokumenter (PDF)'
+    link: /da/factory/quality-inspection
+    link_label: 'Inspektionsstandarder & downloads →'
+  - title: Standard for ændringsstyring af genbearbejdning
+    icon: C
+    icon_bg: blue
+    desc: 'Formel ISO 9001-ændringsstyring af genbearbejdningsparametre: ECR, risikoklassificering, godkendelsesmatrix på tværs af afdelinger, lukket løkke i 9 trin, kvantificeret ingeniørvalidering (18.0 PSI, 24 timers holdning, ΔP ≤ 0.2 PSI) og Poka-Yoke-foranstaltninger — med den to-sprogede SOP QMS-SOP-QC-CC-001 Rev 2.0.'
+    metrics:
+      - label: Dokument
+        value: 'QMS-SOP-QC-CC-001 Rev 2.0'
+      - label: Downloads
+        value: 'Ændringsstyrings-SOP & bilag (PDF)'
+    link: /da/factory/quality-change-control
+    link_label: 'Standard for ændringsstyring & downloads →'
+  - title: Kontrol af afvigende produkter
+    icon: N
+    icon_bg: purple
+    desc: 'Kontrol af afvigende output i henhold til ISO 9001:2015 punkt 8.7: registrering af NCR, karantæne og hold, disposition efter alvorgrad (linjesign-off / QC Manager + Technical Engineer / MRB), kontrolleret genbearbejdning efter SRI-instruktioner, uafhængig 100 % geninspektion og overværet ødelæggelse — skrotvideo arkiveret med SHA-256.'
+    metrics:
+      - label: Standard
+        value: 'ISO 9001:2015 punkt 8.7'
+      - label: Skrotbevis
+        value: 'VAT-QA-SCRAP-CERT-2026'
+    link: /da/factory/non-conforming-control
+    link_label: 'Kontrol af afvigende produkter & downloads →'
+  - title: Kvalitetskontrol i 7 trin
+    icon: Q
+    icon_bg: green
+    desc: 'Det komplette kvalitetskontrolforløb for et projekt, trin for trin: kvalitetsplanlægning (PPM) → kontrol af modtagne materialer → proceskontrol & første eksemplar → oppumpning & lufttæthed → slutinspektion → emballage & PSI → frigivelse & sporing. Hvert trin viser, hvad der kontrolleres, hvordan det bedømmes, og hvilken to-sproget rapport der udarbejdes.'
+    metrics:
+      - label: Trin
+        value: '01 → 07'
+      - label: Downloads
+        value: 'Rapportdossierer pr. trin (PDF)'
+    link: /da/quality
+    link_label: 'Se kvalitetskontrolforløbet i 7 trin →'
+workshops_section:
+  tagline: Værksteder
+  title: Produktionsværksteder
+  workshops:
+    - title: 'PVC-skæring & materialeforberedelse'
+      description: 'Automatiske CNC-skæremaskiner bearbejder PVC, Hypalon og drop-stitch-dug med millimeternøjagtighed. Computeroptimeret nesting minimerer materialespild og sikrer, at hvert panel overholder sin målespecifikation, før det svejses.'
+      image: https://assets.isupfactory.com/images/sups/hero/production-dept.webp
+      alt: CNC-PVC-skæremaskine, der klargør paneler i oppusteligt SUP-dug på fabrikken i Qingdao
+    - title: 'Svejsning af kamre & varmeforsegling'
+      description: 'Dedikeret svejsehal med varmluftsforseglingsmaskiner og RF-dielektriske presser. Varmluftsforsegler binder og smelter PVC-kammer, mens RF-svejsninger producerer stærke, lufttætte sømme, der overgår kravene.'
+      image: https://assets.isupfactory.com/images/sups/factory/isupfactory-production-department.webp
+      alt: RF-svejsemaskine, der forsegler kamre i oppustelige både på fabrikken i Qingdao
+    - title: 'Binding af drop-stitch-kerner'
+      description: 'Drop-stitch-kerner til SUP-brætter bindes til de ydre PVC-laminater ved varmelamination. Tusindvis af indvendige polyestertråde forbinder over- og underlaget og skaber en stiv konstruktion ved 12-15 PSI. Kantbånd er trelags-fusionsbundne for at give styrke i kanten.'
+      image: https://assets.isupfactory.com/images/sups/factory/isupfactory-sup-manufacturing.webp
+      alt: Produktionslinje for oppustelige SUP med udstyr til binding af drop-stitch-kerner på fabrikken i Qingdao
+    - title: 'Trykning & dekoration af SUP'
+      description: 'SUP-brætter dekoreres med digital trykning til fuldfarvegrafik og silketrykning til logoer og gentagne mønstre. Digitale printere giver dækdesign i fotokvalitet, mens silketrykning leverer holdbare, farverige brandmærker.'
+      image: https://assets.isupfactory.com/images/sups/factory/isupfactory-production-department-2.webp
+      alt: Interiør fra produktionsafdelingen i fabrikken for oppustelige SUP i Qingdao
+    - title: 'Endelig samling & montering'
+      description: 'Samlebane, hvor ventiler, D-ringe, håndtag, finnekasser og dækpuder monteres på hvert SUP-bræt. Hvert bræt følger en montagecheckliste med 100 punkter, der signeres af holdlederen.'
+      image: https://assets.isupfactory.com/images/sups/factory/isupfactory-production-department.webp
+      alt: Produktionsafdeling med montagearbejdspladser på fabrikken i Qingdao
+    - title: 'Kvalitetstest & inspektion'
+      description: 'Hvert færdigt bræt gennemgår obligatorisk luftholdningsprøvning, verifikation af sømmenes skråningsstyrke og en fuld systemkontrol før afsendelse. Vores kvalitetslaboratorium drives uafhængigt af produktionen og rapporterer direkte til ledelsen.'
+      image: https://assets.isupfactory.com/images/sups/factory/isupfactory-pressure-testing.webp
+      alt: Trykprøvning af oppusteligt SUP for luftholdning før afsendelse på fabrikken i Qingdao
+equipment_section:
+  tagline: Udstyr
+  title: Vigtigste produktionsudstyr
+  view_full: Se hele udstyrslisten →
+  view_full_link: /da/factory/equipment
+  items:
+    - name: Automatisk PVC-skæremaskine
+      spec: CNC-styret, 0.1 mm nøjagtighed
+    - name: Varmluftsforseglingsmaskine
+      spec: 'Varmluft, 200°C–300 °C, til svejning af kamre'
+    - name: RF-dielektrisk svejsepresse
+      spec: '15 kW, lufttæt svejning af sømme'
+    - name: Laminationspresse til drop-stitch-kerner
+      spec: 'SUP-kerner op til 14 ft'
+    - name: Digital printer
+      spec: Fuldfarve dækgrafik på SUP
+    - name: Silketrykningsmaskine
+      spec: Flerefarvet logotrykning
+qc_section:
+  tagline: Kvalitetskontrol
+  title: Test- og kvalitetssikringsproces
+  subtitle: Hvert bræt gennemgår obligatorisk test før afsendelse. Vores kvalitetslaboratorium drives uafhængigt af produktionen og rapporterer direkte til ledelsen.
+  steps:
+    - step: '1'
+      title: Kontrol af råmateriale
+      desc: 'PVC, Hypalon og drop-stitch-dug gennemgår trækprøvning (), rivetekst og UV-modstandskontrol, før noget parti går i produktion.'
+    - step: '2'
+      title: 24 timers luftholdningsprøvning
+      desc: 'Hvert kammer pumpes op til 18.0 PSI og holdes i 24 timer. Et trykfald på over 0.50 PSI udløser automatisk kassering og ny inspektion af sømmene.'
+    - step: '3'
+      title: Belastnings- og balancetest
+      desc: 'Færdige brætter pumpes op til nominelt tryk og kontrolleres for symmetrisk hævelse, stivhed ved 15 PSI og stabilitet under belastning. Hvert bræt vådtestes i vores testbassin før slutinspektionen.'
+oem_section:
+  tagline: OEM-projekter
+  title: Cases for brand- og OEM-samarbejder
+  subtitle: Fra ide til produktion — sådan hjælper vi globale brands med at lancere og skalere deres oppustelige SUP-linjer.
+  cases:
+    - challenge: Europæisk outdoor-forretning havde brug for en private-label SUP-linje med unik dækgrafik, miljøvenligt PVC og detailklar emballage — alt leveret på 60 dage.
+      solution: Udviklede egne digitale trykfiler, sourcede REACH-overholdende PVC og pressede prøvetræk fra 3 runder ned til 1 ved at placere designteamet på vores fabrik i Qingdao.
+      result: 25–35 dages produktion fra underskrevet PO, med første levering inden for detailhandlerens 60-dages tidsfrist. 2,400 enheder på tværs af 4 SKU’er. Gentbestilling blev afgivet, før den første batch var fuldt leveret.
+      disclaimer: 'Anonymiseret projektresume — projekttype og omfang er repræsentative; konkrete resultater kan ikke verificeres uafhængigt.'
+    - challenge: Amerikansk vandsportsstartup havde brug for et højtydende drop-stitch-SUP med specialform, fælles branding på emballage og BSCI-certificering til salg i detailhandlen.
+      solution: Tilpassede en eksisterende SUP-form med ændret kontur, udviklede artwork til fælles branding og leverede fuld BSCI-auditdokumentation.
+      result: Blev succesfuldt placeret i ledende amerikanske outdoor-forretninger og skabte stærkt momentum med over 5,000 solgte enheder i år 1 og en udsolgningsrate på 98%.
+      disclaimer: 'Anonymiseret projektresume — projekttype og omfang er repræsentative; konkrete resultater kan ikke verificeres uafhængigt.'
+    - challenge: Australsk distributør krævede et CE-certificeret SUP-sortiment med specialfarver og overholdelse af australske standarder.
+      solution: Fremstillede prøveproduktion i 4 farvevarianter og koordinerede tredjeparts-overholdelsestest.
+      result: 'SUP-sortiment på 3 modeller lanceret på AU/NZ-markedet. Efterfulgt af en vinder af offentligt udbud på 12 patrulje-SUP.'
+      disclaimer: 'Anonymiseret projektresume — projekttype og omfang er repræsentative; konkrete resultater kan ikke verificeres uafhængigt.'
+faq_section:
+  tagline: FAQ
+  title: Ofte stillede spørgsmål om B2B og OEM
+  questions:
+    - q: Hvad er minimumsordremængden (MOQ) for OEM-oppustelige SUP-brætter?
+      a: 'MOQ bestemmes ud fra projektkonfigurationen frem for et fast tal — skrog og værktøj, farvevarianter og PVC, artwork, emballage og tilbehør. Standard serieproduktion kører 90–100+ enheder pr. batch ud fra en fuld 150 m drop-stitch-rulle, småserier med fælles branding starter ved 5–10 enheder, og ethvert projekt gennemgår prøvefasen (1–2 enheder) og pilotfasen (20–50 enheder). Se vores guide om MOQ og fleksibel branding for hele beregningslogikken.'
+    - q: Har Vatrad BSCI-certificering?
+      a: 'Ja. Vores fabrik har en gyldig BSCI-certificering for social ansvarlighed (auditrapport på forespørgsel). Vi har også ISO 9001 for kvalitetsstyring. CE-certificering gælder modeller til EU-markeder; omfanget bekræftes pr. projekt. Dokumentation for REACH- og RoHS-overholdelse leveres med hver OEM-ordre.'
+    - q: Hvad er den typiske leveringstid for en OEM-ordre?
+      a: 'Standardleveringstiden er 25–35 dage fra bekræftet PO og depositum til serie-OEM-produktion. Udvikling af specialform tilføjer 15–20 dage til værktøjet. Ekspederet produktion er mulig ved hastesager og sæsonpres. Prototypesprøver er typisk klar inden for 7–12 dage.'
+    - q: Tager I jer af eksportdokumentationen?
+      a: 'Ja. Vores team håndterer eksportdokumentation og toldbehandling in-house, og vi leverer til 50+ lande på tværs af EU, USA, AU og Asien.'
+b2b_moq: 'MOQ bestemmes ud fra projektkonfigurationen: prøve 1–2, pilot 20–50, volumen 90–100+ (pr. 150 m rulle); småserier med fælles branding fra 5–10 enheder.'
+production_flow:
+  tagline: Produktionsforløb
+  title: Fra materiale til færdigt bræt
+  subtitle: Hvert bræt gennemgår 6 produktionstrin med QC-kontrolpunkter i hvert step. Ingen genveje, ingen overskippede inspektioner.
+  stages:
+    - stage: '01'
+      title: 'Modtagelse af materialer & indgående QC'
+      description: 'Alle indgående materialer registreres med batch-/lotnummer i vores ERP-system. PVC-dugsruller, drop-stitch-kerner, ventiler, lim og beslag karantænes, indtil QC har godkendt dem.'
+      qc_check: 'Trækstyrke (ASTM D751), rivemodstand (ISO 4674), tykkelsesmåling, limviskositet, visuel fejlscanning'
+      qc_threshold: '100 % af partierne testes. Kasser hvis trækstyrke < 90 % af spec, revne < min. spec, eller ved enhver visuel fejl'
+      responsibility: Indgående QC-team (3 inspektører)
+    - stage: '02'
+      title: 'CNC-skæring & materialeforberedelse'
+      description: 'Computeroptimeret nesting placerer paneler på PVC-ravet for at minimere spild. Automatiske CNC-skæremaskiner holder en positionsnøjagtighed på 0.1 mm.'
+      qc_check: 'Målekontrol mod CAD-DXF-filer, kantkvalitetsinspektion, optælling af paneler'
+      qc_threshold: 'Hver 20. måles. Tolerance ±0.5 mm. Kasser batchen, hvis >2 % er uden for tolerancen'
+      responsibility: Leder af skæreværkstedet
+    - stage: '03'
+      title: 'Svejsning & binding af drop-stitch-kerner'
+      description: 'Drop-stitch-kerner bindes til de ydre PVC-laminater ved varmelamination. Kammer RF-svejses eller varmluftssvejses. Kantbånd er trelags-fusionsbundne.'
+      qc_check: 'Skråningsprøvning hver 50. enhed (ASTM D751), måling af søjlebredde, gennemgang af varmluftstemperaturlog, visuel søminspektion i gennemlysning'
+      qc_threshold: 'Min. skråningsstyrke 8 N/cm. Tolerance for søjlebredde ±1 mm. Enhver synlig kanalisering = kasser'
+      responsibility: 'Svejse-QC (2 inspektører pr. skift)'
+    - stage: '04'
+      title: 'Samling & rigging'
+      description: 'Brætterne går videre til endelig samling, hvor alle komponenter mødes: dæk- og skrogpaneler fusioneres, ventiler monteres, og D-ringe, håndtag, finnekasser og bæretaske tilpasses. Hver enhed følger en montagecheckliste med 100 punkter.'
+      qc_check: 'Sign-off på tjekliste med 100 punkter pr. enhed, ventilfunktionstest (10 åbne/lukke-cyklusser), momentkontrol af beslag, visuel inspektion'
+      qc_threshold: 'Nuldefektpolitik på sikkerhedskritiske dele (ventiler, D-ringe, håndtag). Mindre kosmetiske fejl: AQL 2.5 (ISO 2859)'
+      responsibility: Leder af samlingsteam + linje-QC
+    - stage: '05'
+      title: 'Trykprøvning & kvalitetshold'
+      description: 'Hvert kammer pumpes op til 18.0 PSI (til et 12–15 PSI-rangeret SUP) og holdes i 24 timer. Tryksensorer logger kontinuerligt. Kamre, der overskrider et trykfald på 0.50 PSI, kasseres og sendes til ny inspektion af sømmene.'
+      qc_check: 'Log for 24 timers trykholdning, sensorkalibrering kontrolleret dagligt, temperaturkompenseret trykaflæsning, ny sømtest efter reparation'
+      qc_threshold: 'Maks. 0.50 PSI trykfald over 24 timer ved stabil temperatur. Ethvert kammer, der overskrider dette = 100 % gentest af hele produktionsbatchen'
+      responsibility: 'Kvalitetslaboratorium (uafhængigt af produktionen, rapporterer til ledelsen)'
+    - stage: '06'
+      title: 'Slutinspektion & pakning'
+      description: 'Slutvisuel og funktionel inspektion. Overfladefejl, farvekonsistens, kontrol af etiket/BIN, emballageintegritet og tilbehørskomplethed. Enhederne vakuumpakkes, sættes i kasser og paletteres til containerindlæsning.'
+      qc_check: 'Fuld visuel inspektion, tilbehørstjekliste pr. SKU, drop-test af emballage (1 m, tilfældigt udvalg), kontrolscanning af etiket/stregkode'
+      qc_threshold: 'AQL 2.5 for større fejl, AQL 4.0 for mindre. Nultolerance for sikkerhedsfejl. 100 % af enhederne inspiceres visuelt'
+      responsibility: 'Slut-QC-team (4 inspektører) + leder af pakketeam'
+workforce:
+  tagline: Vores medarbejdere
+  title: Arbejdsstyrke & ekspertise
+  engineers: 25+
+  engineers_detail: 'Ingeniører inden for R&D, formdesign, materialelaboratorium og produktionsingeniørarbejde. I gennemsnit 7+ års erfaring med oppustelig produktion.'
+  shift_pattern: '2 skift/dag (07:00–15:30, 15:30–00:00). Valgfrit natskift til hastesager.'
+  training: 'Månedlig QC-undervisning, kvartalsvise sikkerhedsøvelser, årlig færdighedsvurdering. Nye medarbejdere gennemfører 40 timers oplæring, før de arbejder på produktionslinjen.'
+  departments:
+    - name: R&D & konstruktion
+      count: 25+
+      role: 'Produktdesign, formkonstruktion, materialelaboratorium'
+    - name: 'Skæring & materialeforberedelse'
+      count: 15
+      role: 'CNC-skæring, klargøring af paneler, materialehåndtering'
+    - name: 'Svejsning & laminering'
+      count: 40
+      role: 'RF-svejsning, varmluftssvejsning, binding af drop-stitch-kerner'
+    - name: 'Binding af SUP-kerner'
+      count: 30
+      role: 'Drop-stitch-lamination, varmebinding, fusion af kantbånd'
+    - name: 'Samling & rigging'
+      count: 35
+      role: 'Endelig samling, montering af beslag, systemkontrol'
+    - name: Kvalitetskontrol
+      count: 12
+      role: 'Indgående QC, proces-QC, slutinspektion, laboratorietest'
+    - name: 'Logistik & pakning'
+      count: 20
+      role: 'Emballage, containerindlæsning, eksportdokumentation'
+    - name: Ledelse & administration
+      count: 15
+      role: 'Salg, indkøb, HR, økonomi, compliance'
+material_traceability:
+  tagline: Sporbarhed
+  title: 'Materialesporing & batchkontrol'
+  description: 'Hvert parti råmateriale tildeles et unikt lotnummer i vores ERP-system. Fra ankomst gennem produktion til det færdige produkt knytter hvert bræts stykliste tilbage til det oprindelige leverandørparti. Det giver fuld sporingstransparens ved enhver kvalitets- eller overholdelsesspørgsmål.'
+  system: 'Custom ERP (Qingdao Vatrad Groups interne system) + fysiske batchmærkater på hver arbejdsordre'
+  coverage: 100 % af produktionsmaterialerne — PVC, Hypalon, drop-stitch-dug, lim, ventiler, beslag, emballage
+  records_retained: 10 år (i henhold til CE 2013/53/EU-kravet)
+  suppliers:
+    - material: PVC af marinekvalitet
+      source: Kinesiske og koreanske leverandører
+      certified: 'ISO 9001, REACH, RoHS'
+    - material: 'Hypalon (CSM)'
+      source: Japansk leverandør
+      certified: 'ISO 9001, REACH'
+    - material: Drop-stitch-dug
+      source: 'Vævning i eget hus + ekstern partner'
+      certified: 'Intern QC + leverandørens ISO 9001'
+    - material: 'Ventiler & beslag'
+      source: Kinesiske OEM-leverandører
+      certified: 'ISO 9001, materialecertifikater pr. batch'
+qc_dashboard:
+  tagline: QC i tal
+  title: Kvalitetskontrolmetrikker
+  subtitle: Reelle bestå/ikke-bestå-data fra vores produktionslinje. Vores kvalitetslaboratorium drives uafhængigt af produktionen og rapporterer direkte til ledelsen.
+  stats:
+    - value: 100%
+      label: Enheder, der trykprøves
+      detail: Hvert bræt, hvert kammer, hvert batch
+    - value: '<5%'
+      label: Maks. tilladt trykfald
+      detail: Over 24 timer ved 18.0 PSI
+    - value: AQL 2.5
+      label: Tærskel for større fejl
+      detail: Per ISO 2859-stikprøvestandard
+    - value: 24h
+      label: Varighed af trykholdning
+      detail: Hvert bræt, hvert kammer
+    - value: 18 PSI
+      label: Testtryk i forhold til nominelt tryk
+      detail: Sikkerhedsmargin på hvert kammer
+    - value: 0%
+      label: Tolerance på sikkerhedsfejl
+      detail: Ventiler, D-ringe, sømme, opdrift
+process_cta:
+  title: Se vores produktionsproces
+  desc: 'Følg et SUP gennem alle produktionens trin — fra råmateriale til søklart bræt.'
+  label: Se produktionsprocessen →
+  link: /da/factory/process
+evidence_review:
+  tagline: 'Bevis & verificering'
+  title: 'Fabriksbevis — verificeret'
+  body: 'Alle produktionspåstande på denne side er verificeret af vores produktionsingeniørteam på anlægget i Laixi, Qingdao. Certifikater, QC-inspektionsrekorder, rapporter over tryk- og strukturprøvninger samt batchsporingsrekorder er tilgængelige på forespørgsel. Specifikationerne blev senest verificeret i september 2026.'
+cta:
+  title: 'Udforsk vores fabrik'
+  actions:
+    - text: 'Checkliste for fabriksaudit'
+      href: /da/factory-audit-checklist

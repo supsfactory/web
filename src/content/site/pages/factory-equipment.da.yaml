@@ -1,0 +1,93 @@
+meta:
+  title: 'Fabriksudstyr — skæring, svejsning & tryk'
+  description: 'Industrimæssigt Vatrad-produktionsudstyr: PVC-skæring, højfrekvenssvejsning, digitaltryk, samling og test af oppustelige SUP-brætter.'
+  dateModified: '2026-08'
+  keywords:
+    - 'sup produktionsudstyr'
+    - 'fabrik for oppustelige sup'
+    - 'højfrekvenssvejsning pvc'
+    - 'produktion af paddleboards'
+hero:
+  tagline: Udstyr
+  title: Produktionsudstyr & maskiner
+  subtitle: Industrimæssigt udstyr til skæring, svejsning, tryk og samling
+  back_label: Tilbage til fabrikken
+  back_link: /da/factory
+
+answer:
+  label: 'Det korte svar'
+  text: 'Vores fabrik på 12,500 m² kører CNC-styret automatisk skæring (0.1 mm præcision, under 5 % spild), varmluftssvejsning ved 200–600 °C samt 15 kW højfrekvenssvejsning til de vigtigste sømme, drop-stitch-lamineringspresser op til 14 ft og et kvalitetslaboratorium, der trykprøver hvert enkelt kammer, kontrollerer trækstyrke iht. ASTM D751 og verificerer sømme iht. ISO 6185.'
+  verified: 'September 2026'
+
+categories:
+  - title: Skæring & materialeforberedelse
+    items:
+      - name: Automatisk PVC-skæremaskine
+        spec: 'CNC-styret, 6.5 m × 2.5 m, 0.1 mm præcision'
+        desc: 'Computerstyret automatisk skæremaskine til PVC, Hypalon og drop-stitch-dug. Nesting-software optimerer materialeforbruget til under 5 % spild.'
+      - name: Dugspreder
+        spec: 'Maks. 3 m bredde, spændingskontrolleret tilførsel'
+        desc: 'Lægger dug i enkeltlag eller flere lag med kontrolleret spænding for at forhindre forvrængning før skæring.'
+
+  - title: Rørsvejsning & limning
+    items:
+      - name: Varmluftssvejser
+        spec: 'Varmluftssvejsning, variabel 200–600 °C, 0.5–5 m/min'
+        desc: 'Varmluftssvejser til limning og svejsning af sømme i PVC- og Hypalonrør. Bruges til hejtesvejsning, forsegling og sammensmeltning af rørkamre og flydesamlinger.'
+      - name: Dielektrisk højfrekvenspresse
+        spec: '15 kW, plade 2000 × 600 mm'
+        desc: 'Højfrekvenssvejsepresse til de vigtigste langsgående sømme, forbindelser mellem bagbord og rør samt fremstilling af store kamre.'
+      - name: CNC-styret højfrekvenssvejser
+        spec: '8 kW, XY-bord 2500 × 1200 mm'
+        desc: 'Programmerbar svejsning af kurvede sømme til komplekse geometrier, logoprægning og præcisionslappeteknik.'
+
+  - title: Fremstilling af SUP-brætter
+    items:
+      - name: Drop-stitch-lamineringspresse
+        spec: 'Storformatpresse til brætker op til 14 ft LOA'
+        desc: 'Præcis laminering af drop-stitch-kerner til de ydre PVC-laminer. Hvert lag trykkes sammen for ensartet kvalitet og styrke.'
+      - name: CNC-fræser (5-akslet)
+        spec: 'Arbejdsområde 3 m × 2 m × 1 m, vandkølet spindel'
+        desc: 'Fremstilling af finnekasser, håndtagsåbninger og specialdele til brætter.'
+
+  - title: Tryk & dekoration
+    items:
+      - name: Digitalprinter
+        spec: 'Højopløst blækjet, op til 2 m trykbredde'
+        desc: 'Digitaltryk direkte på dug til dækgrafik i fuld farve på SUP-brætter. Trykker specialmønstre, gradienter og billeder i fotokvalitet med UV-bestandige vandbaserede blækker.'
+      - name: Silketryksmaskine
+        spec: 'Manuel og halvautomatisk, flerfarvet registrering'
+        desc: 'Silketryk til logoer, mærketegn og gentagne mønstre på SUP-brætter. Giver holdbare, uigennemsigtige tryk med stærke farver.'
+
+  - title: Samling & beslag
+    items:
+      - name: Samleplads til brætter
+        spec: 'Modulær, justerbar, flerstationslayout'
+        desc: 'Samling af finnekasser, håndtag, D-ringe, ventiler og dækpuder på SUP-brætter.'
+      - name: Ventilpresse
+        spec: 'Pneumatisk, justerbart tryk'
+        desc: 'Præcis montering og forsegling af Halkey-Roberts- og Leafield-ventiler.'
+      - name: Dækpudelaminator
+        spec: '3 m × 1.5 m, temperaturstyret'
+        desc: 'Varmelaminering af EVA-skum på oversiden af SUP-brætter med ensartet vedhæftningsstyrke.'
+
+  - title: Test & kvalitetskontrol
+    items:
+      - name: Universel trækprøvemaskine
+        spec: '50 kN,  / ASTM D751'
+        desc: 'Test af brudstyrke, brudforlængelse og rivneudbredelse på dugpartier.'
+      - name: Luftfastholdningsprøvestand
+        spec: 'Programmerbar, 30 min trykholdning'
+        desc: 'Automatisk trykholdningsprøve af hvert rørkammer før samling.'
+      - name: Sømmeprøver
+        spec: 'Motoriseret 180° skrælning ved 100 mm/min'
+        desc: 'Test af svejste- og limsømmes skrælningsstyrke iht. ISO 6185.'
+      - name: Xenonbue-klimakammer
+        spec: '2000 h eksponering'
+        desc: 'UV-modstandsprøvning af farveændring og styrketilbageholdelse.'
+
+cta:
+  title: Interesseret i en fabrikstur?
+  desc: 'Vi byder gerne besøgende velkommen på vores anlæg i Qingdao. Se vores udstyr og processer i virkeligheden.'
+  label: 'Arranger et besøg →'
+  link: /da/contact

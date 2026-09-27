@@ -1,0 +1,242 @@
+meta:
+  title: 'Kontrol og genbearbejdning af afvigende SUP | OEM-fabrik | iSupfactory'
+  description: 'Kontrol af afvigende produkter (ISO 9001:2015 punkt 8.7): karantæne med NCR, kontrolleret genbearbejdning efter SRI, uafhængig geninspektion og overværet ødelæggelse.'
+  dateModified: '2026-08-14'
+  keywords:
+    - 'kontrol af afvigende produkter'
+    - 'geninspektionsproces for genbearbejdning af sup'
+    - 'iso 9001 afvigende output'
+    - 'ncr kontrol produktion'
+    - 'skrotningsbevis sup'
+    - 'oem kvalitetskontrol oppustelige sup'
+
+hero:
+  tagline: 'Kontrol af afvigende produkter'
+  title: 'Proces for adskillelse, genbearbejdning og geninspektion af afvigende produkter'
+  subtitle: 'Hos QINGDAO VATRAD GROUP.,LTD. får et afvigende bræt aldrig videre i processen. Ethvert produkt eller enhed, der ikke opfylder de fastsatte acceptkriterier, identificeres, registreres i en afvigelsesrapport (NCR), mærkes og adskilles, vurderes for berørt omfang og disponeres på det rette niveau af bemyndigelse. Tilladt genbearbejdning følger kontrollerede instruktioner, korrigerede varer geninspekteres mod de oprindelige acceptkriterier — herunder fuld gentest, hvor det kræves — og produktet afsendes først efter autoriseret kvalitetssignatur. Denne side præsenterer vores kontrollerede standard i henhold til ISO 9001:2015 punkt 8.7 og spørgsmålsdokumentationen bag den.'
+  actions:
+    - text: 'Download SOP for kontrol af afvigende produkter (PDF)'
+      variant: primary
+      href: 'https://assets.isupfactory.com/site/downloads/non-conforming-product-control-sop-iso-8-7.pdf?dl=1'
+    - text: 'Download skrotnings- og ødelæggelsesbevis (PDF)'
+      href: 'https://assets.isupfactory.com/site/downloads/scrap-destruction-certificate-vat-qa-scrap-cert-2026.pdf?dl=1'
+    - text: 'Anmod om kvalitetsgennemgang'
+      href: /da/contact
+
+answer:
+  label: 'Det korte svar'
+  text: 'Afvigende produkter skjules aldrig, genbearbejdes uformelt eller frigives uden verifikation hos QINGDAO VATRAD GROUP.,LTD. Hver identificeret afvigelse registreres mod det berørte produkt, batch eller den berørte enhed og knyttes til en NCR. Varen mærkes (HOLD / KARANTÆNE / KASSERET), adskilles fysisk, og det berørte omfang vurderes pr. batch, materialeparti, procestrin og dokumentrevision. Dispositionen besluttes på det niveau af bemyndigelse, der svarer til fejlens alvor: Mindre problemer signeres på linjeniveau, større problemer kræver disposition fra QC-chef + teknisk ingeniør med en kontrolleret genbearbejdningsinstruktion og 100 % uafhængig geninspektion, og kritiske problemer kræver en beslutning i Material Review Board med skriftlig dispensation fra kunden, hvor det kræves — ellers obligatorisk overværet ødelæggelse. Genbearbejdede varer geninspekteres mod de oprindelige acceptkriterier, reparationer af lufttæthed gennemgår en helt ny trykprøvningscyklus, og frigivelse til afsendelse sker først efter autoriseret kvalitetssignatur. Gentagne eller systematiske problemer udløser korrigerende årsagsanalyse (CAPA).'
+  verified: 'September 2026'
+
+stats:
+  tagline: 'Overblik'
+  title: 'Kontrol af afvigelser i tal'
+  stats:
+    - value: '7'
+      label: 'Trin fra identifikation til korrigerende foranstaltning'
+    - value: '100%'
+      label: 'Geninspektion af hvert genbearbejdet bræt af uafhængig QA'
+    - value: '24h'
+      label: 'Fuld gentest af tryk ved reparationer af lufttæthed'
+    - value: '≥ 5 år'
+      label: 'Opbevaring af dokumentation for overværet ødelæggelse (SHA-256-arkiv)'
+
+nc_intro:
+  tagline: 'Kontrol af afvigende produkter'
+  title: 'Hvad der sker, når et produkt ikke opfylder kriterierne'
+  body: |
+    Produkter eller enheder, der ikke opfylder de fastsatte acceptkriterier, identificeres og kontrolleres for at hindre utilsigtet anvendelse, videre bearbejdning eller afsendelse. De gældende acceptkriterier bygger på det godkendte prøveeksemplar, den tekniske specifikation, artwork, styklisten, emballagekrav og projektets inspektionsplan.
+
+    Afvigende varer evalueres for at fastslå det berørte omfang og den passende disposition. Afhængigt af problemet kan varen blive holdt, genbearbejdet efter kontrollerede instruktioner, erstattet, kasseret eller håndteret på anden vis via en godkendt proces. Genbearbejdede eller korrigerede varer geninspekteres, før de frigives. Frigivelse til afsendelse er kun tilladt, når de relevante kvalitetsrekorder er udfyldt, og produktet opfylder de gældende acceptkriterier.
+
+nc_flow:
+  tagline: 'Standardiseret lukket løkke i 7 trin'
+  title: 'Fra identifikation til korrigerende foranstaltning'
+  subtitle: 'En kontrolleret løkke for hver afvigelse: identificer, karantæne, gennemgå, genbearbejd eller erstat, geninspekter, frigiv eller kasser, forbedr.'
+  steps:
+    - step: '01'
+      title: Identificer
+      desc: 'Enhver identificeret afvigelse registreres mod det berørte produkt, batch eller den berørte enhed og vurderes mod de gældende projektkrav. Opdagelsen kan ske ved modtagne materialer, under proceskontrol, ved endelig test, ved emballage eller ved kundens/tredjepartsinspektion.'
+    - step: '02'
+      title: 'Karantæne'
+      desc: 'Varer identificeres tydeligt og placeres under kontrolleret hold eller karantænestatus for at hindre utilsigtet anvendelse, videre bearbejdning eller afsendelse. Etiketterne HOLD / KARANTÆNE / KASSERET indeholder NCR-nummer, SKU, batch, antal, fejlbeskrivelse og dato.'
+    - step: '03'
+      title: Gennemgå
+      desc: 'Det berørte omfang og den passende disposition evalueres: enkeltstk. hold, skifteparti, helt batch eller flere batcher — på tværs af fælles materialepartier, artworkrevisioner, procestrin og dokumentrevisioner. Yderligere inddæmming eller skærpet inspektion anvendes, hvor det kræves.'
+    - step: '04'
+      title: 'Genbearbejd eller erstat'
+      desc: 'Tilladt genbearbejdning følger godkendte instruktioner, der identificerer den berørte vare, metoden, materialerne, kontrolpunkterne og kravene til geninspektion. Ugodkendte ændringer af produktspecifikation, artwork, tilbehørskonfiguration eller emballage er aldrig tilladt. Erstatningsvarer gennemgår de gældende inspektionstrin igen.'
+    - step: '05'
+      title: Geninspektion
+      desc: 'Genbearbejdede eller korrigerede varer geninspekteres mod de gældende acceptkriterier. Den oprindeligt fejlede egenskab og alle relaterede egenskaber, der berøres af genbearbejdningen, verificeres før frigivelse — af uafhængig QC og med en helt ny trykprøvningscyklus på 24 t ved reparationer af lufttæthed.'
+    - step: '06'
+      title: 'Frigiv eller kasser'
+      desc: 'Produktet frigives først, når den krævede geninspektion er gennemført, og autoriseret kvalitetspersonale bekræfter overensstemmelse med de gældende projektkrav. Varer, der ikke kan bringes i overensstemmelse, kasseres, erstattes, returneres eller disponeres efter kontrollerede procedurer — herunder overværet fysisk ødelæggelse.'
+    - step: '07'
+      title: 'Korrigerende foranstaltning'
+      desc: 'Gentagne, betydelige eller systematiske afvigelser gennemgås for årsag og korrigerende foranstaltning (CAPA). Forbedringer kan omfatte opdatering af arbejdsinstruktioner, materialekontrol, kontrolpunkter, oplæring, leverandørstyring eller dokumentkontrol.'
+
+nc_pillars:
+  tagline: 'Søjlepiller for køernes tillid'
+  title: 'Tre kontroller, der beskytter dit mærke'
+  subtitle: 'Processen er udviklet omkring de spørgsmål, udenlandske købere faktisk stiller: bliver problemer skjult, løber genbearbejdningen uden kontrol, og bliver reparerede brætter efterprøvet.'
+  features:
+    - icon: 1
+      icon_bg: blue
+      title: 'Kun kontrollerede instruktioner'
+      desc: 'Genbearbejdning styres strengt af autoriserede Standard Rework Instructions (SRI). Ugodkendte ændringer på stedet, ændring af specifikationer eller ændring af artwork uden skriftlig bemyndigelse er strengt forbudt.'
+    - icon: 2
+      icon_bg: green
+      title: 'Uafhængig geninspektion'
+      desc: 'Genbearbejdede brætter gennemgår 100 % geninspektion af QA-inspektører mod de oprindelige acceptkriterier. Reparationer af lufttæthed kræver en helt ny, komplet trykprøvningscyklus på 24 t — aldrig en delvis efterkontrol.'
+    - icon: 3
+      icon_bg: purple
+      title: 'Autoriseret signatur og spørgsmål'
+      desc: 'Frigivelse til afsendelse tillades kun efter færdig NCR-dokumentation og autoriseret QC-signatur, hvor batchens status skifter fra HOLD til FRIGIVET. Systematiske eller gentagne afvigelser udløser automatisk CAPA-forløb med årsagsanalyse.'
+
+nc_photos:
+  tagline: 'På fabriksgulvet'
+  title: 'Karantæne, genbearbejdning og geninspektion i praksis'
+  subtitle: 'Billeder fra vores værksted i Qingdao viser, hvordan afvigende brætter adskilles fysisk, genbearbejdes efter kontrollerede instruktioner og efterprøves, før der træffes nogen frigivelsesbeslutning.'
+  features:
+    - image: https://assets.isupfactory.com/site/quality/qc-air-tightness-test-area.avif
+      alt: Oppustelige SUP-brætter i fabrikkens område til lufttæthedstest, overvåget af digitale manometre
+      title: 'Geninspektionsspærring'
+      desc: 'Efter genbearbejdningen vender hvert bræt tilbage til QC-testområdet for uafhængig efterprøvning: pumpet op og overvåget med digitale manometre mod de projektegodkendte acceptkriterier — aldrig en delvis kontrol.'
+    - image: https://assets.isupfactory.com/site/quality/qc-hold-quarantine-station.avif
+      alt: Kvalitetskontrollens tjeklister og kontrollerede statusetiketter på fabrikkens inspektionsstation
+      title: 'Station til hold og karantæne'
+      desc: 'Inspektionsstation med QC-tjeklister og statusmærkning. Alle varer, der ikke opfylder acceptkriterierne, mærkes HOLD / KARANTÆNE, registreres i en NCR og adskilles fysisk — de kan ikke gå videre til emballage, før en autoriseret disposition og obligatorisk geninspektion er gennemført.'
+    - image: https://assets.isupfactory.com/site/quality/qc-air-tightness-rework.avif
+      alt: QC-tekniker, der udfører kontrolleret genbearbejdning af lufttæthed på et oppusteligt SUP-bræt ved fabrikkens genbearbejdningsstation
+      title: 'Kontrolleret genbearbejdningsstation'
+      desc: 'Genbearbejdning udføres på en dedikeret station efter en godkendt SRI-instruktion: fejlen markeres, brættet forbliver på HOLD, og efter den krævede hærdetid vender det tilbage til testområdet for geninspektion mod de oprindelige acceptkriterier.'
+    - image: https://assets.isupfactory.com/site/quality/qc-workshop-inspection-demo.avif
+      alt: Demonstrationsfoto af kvalitetskontrol i værkstedet i Qingdao-fabrikken
+      title: 'Demonstration af QC i værkstedet'
+      desc: 'Demonstrationsfoto fra værkstedet, der viser kvalitetskontroller anvendt i praksis, og som understøtter de inspektions- og statusrekorder, der henvises til på denne side.'
+
+nc_severity:
+  tagline: 'Fejlens alvorgrad og bemyndigelse'
+  title: 'Klassificering efter alvorgrad og dispositionsbemyndigelse'
+  subtitle: 'Ikke alle afvigelser håndteres på samme niveau — dispositionsbemyndigelsen skalerer med fejlens alvor, fra signatur på linjeniveau til Material Review Board og kundens dispensation.'
+  headers:
+    severity: Alvorgrad
+    examples: 'Typiske eksempler'
+    authority: 'Dispositionsbemyndigelse & kontrol'
+    control: 'Frigivelsesbetingelse'
+  rows:
+    - severity: 'Mindre'
+      examples: 'Krakeleret kartonhjørne, lettere forkert placering af ikke-kritisk tilbehør'
+      authority: 'QA-ansvarlig for sektion + linjeleder signerer på stedet, erstatter eller frigiver'
+      control: 'Registreres i NCR’en; ingen påvirkning af produktets funktion eller kundens krav'
+    - severity: 'Større'
+      examples: 'Langsom lækage fra ventil, EVA-forkert placering ud over tolerancen (>2 mm), manglende tilbehør'
+      authority: 'QC-chef + teknisk ingeniør udsteder en kontrolleret genbearbejdningsinstruktion (SRI)'
+      control: '100 % uafhængig gentest af den oprindeligt fejlede og de berørte egenskaber før frigivelse'
+    - severity: 'Kritisk'
+      examples: 'Skade på drop-stitch-kammer, boble eller revne i kant under højt tryk, forkert tryk eller farveafvigelse i kundens logo'
+      authority: 'Beslutning i Material Review Board (MRB); skriftlig dispensation fra kunden, hvor det kræves'
+      control: 'Ingen frigivelse uden autoriseret dispensation; ellers obligatorisk overværet fysisk ødelæggelse'
+
+nc_matrix:
+  tagline: 'Ingeniørmæssig protokolmatrix'
+  title: 'Matrix for disposition og geninspektion af SUP-fejl'
+  subtitle: 'Standardiserede ingeniørmæssige protokoller til de mest almindelige afvigelser i produktionen — de samme kvantificerede parametre, kunder kan efterprøve ved audits.'
+  headers:
+    defect: 'Fejlkategori'
+    protocol: 'Kontrolleret dispositionsprotokol'
+    validation: 'Uafhængig geninspektion og validering'
+  rows:
+    - defect: 'Langsom lækage fra ventil'
+      protocol: 'Adskil brættet. Afmonter ventilkernen med kalibreret momentværktøj (25 N·m), rengør de indvendige gevind, udskift silikon-O-ringen og tilspænd igen med korrekt moment.'
+      validation: 'Dyp i bobleopløsning; pump op til 18 PSI igen for en fuld trykfaldstest på 24 t (ΔP ≤ 0.05 PSI).'
+    - defect: 'Luftbobler i kantsøm'
+      protocol: 'Sæt skiftepartiet i karantæne. Delaminer boblezonen med en varmluftdyse, rens overflaten med opløsningsmiddel og påfør tokomponent PU-lim under 5 bar tryk.'
+      validation: '100 % visuel og haptisk inspektion af sømmene; strukturel prøvningstest (18.0 PSI) plus 24 t lufttæthedsprøvning.'
+    - defect: 'Forkert placering af EVA-flade'
+      protocol: 'Skræl med varmluftassistance med et temperaturreguleret værktøj (80°C). Juster med en præcisionsanordning i akryl til positionering.'
+      validation: 'Kontrol af spillerummets tolerancer (≤ ±1.5 mm), kontrol af diametermønsters symmetri, 100 % limprøvning af kanterne.'
+    - defect: 'Fejl i branding / logo'
+      protocol: 'Stop tryklinjen med det samme. Hold alle trykte paneler. Gennemgå vektorrevisionen med kunden; nul ugodkendte ændringer.'
+      validation: 'Farvekontrol med spektrofotometer (ΔE ≤ 1.5); 100 % visuel kontrol af tekstens placering mod den kundesignerede vektor-PDF.'
+    - defect: 'Forkert emballage / manglende SKU'
+      protocol: 'Sæt eksportpallen i karantæne. Pak ud og foretag en 100 % varespecifik BOM-kontrol (pumpe, finne, sikkerhedsline, pagaj, reparationsslange).'
+      validation: 'Validering af inline dynamisk elektronisk kontrolvægt (±30 g afvigelse); optisk verifikation med 2D-barcode-scanner.'
+
+nc_scrap:
+  tagline: 'Ingen lækage til markedet'
+  title: 'Overværet skroting og ødelæggelse — protokol mod varedivertering med nul fejl'
+  body: |
+    Vores brandpartnere i udlandet har brug for sikkerhed for, at fejlede brætter aldrig når sekundær detailhandel, grå markeder eller e-handelskanaler. Brætter, der ikke kan bringes i overensstemmelse, ødelægges efter en overvåret og registreret protokol:
+
+    **1. Afskæring af beslag og tilbehør.** Under opsyn af QA-chefen fjerner en hydraulisk saks alle D-ringe i 316-rustfrit stål, bærestropper og spænder. Ventilenheden og finnekassens base (US-Box / snap-in finne) skæres ud ved brættets rod, så ingen dele kan genbruges.
+
+    **2. Opskæring af drop-stitch og deling af kant.** Den indvendige drop-stitchkerne skæres på kryds gennem bund og dæk med dybe krydssnit (≥ 50 cm pr. snit), og de forstærkede sidekanter deles i mindst 4 dele — hvilket permanent ødelægger tætningsevnen og opdriftskraften.
+
+    **3. Video- og fotoregistrering.** Ødelæggelsen registreres som en ubeskåret 1080p-video med nærbilleder af serienummerbarcoden, afskæringen, opskæringen af kernen og den endelige, vejede skrothob. Videoen hashes (SHA-256) og arkiveres på en kontrolleret server i ≥ 5 år.
+
+    **4. Certificeret affaldsbortskaffelse.** Alle PVC- og drop-stitch-fragmenter vejes, registreres i udgående bogholderi og transporteres udelukkende af kvalificerede genbrugspartnere for polymerer — intet restmateriale forlader anlægget gennem nogen anden kanal.
+
+    > **Garantier for beskyttelse af brandet:** QINGDAO VATRAD GROUP CO., LTD. garanterer 100 % ødelæggelse af vandfartøjer uden for specifikationen, der ikke kan genbearbejdes. Fabrikens egne brætter eller kompromitterede brætter vil aldrig nogen gang komme ud i sekundær detailhandel, grå markeder eller e-handelskanaler. Skrotnings- og ødelæggelsesbeviset (VAT-QA-SCRAP-CERT-2026) registrerer produktet, batchen, MRBs konklusion, billeder fra overværelsen og dobbelt signatur fra QA-chefen og fabrikschefen.
+
+nc_downloads:
+  tagline: 'Hentbare QMS-dokumenter'
+  title: 'Kontrollerede to-sprogede dokumenter (PDF)'
+  subtitle: 'Officielle to-sprogede dokumenter på EN/ZH fra QINGDAO VATRAD GROUP.,LTD. — struktureret efter ISO 9001:2015 punkt 8.7 og klar til kund audits, B2B tekniske hvidpapirer og kontrolleret uddeling på fabriksgulvet.'
+  features:
+    - icon: N
+      icon_bg: blue
+      title: 'SOP for kontrol af afvigende produkter (PDF)'
+      desc: 'Tosproget SOP baseret på ISO 9001:2015 punkt 8.7: kontrol i lukket løkke i 8 trin, matrix for disposition af SUP-fejl, NCR-datastruktur og kundens kvalitetsforpligtelse.'
+      link: 'https://assets.isupfactory.com/site/downloads/non-conforming-product-control-sop-iso-8-7.pdf?dl=1'
+      link_label: 'Download PDF'
+    - icon: S
+      icon_bg: orange
+      title: 'Skrotnings- og ødelæggelsesbevis (PDF)'
+      desc: 'VAT-QA-SCRAP-CERT-2026: spørgsmål på produkt og batch, MRBs konklusion, den fysiske ødelæggelsesprotokol i 4 trin, felter til billeder fra overværelsen og dobbelt signaturfelt.'
+      link: 'https://assets.isupfactory.com/site/downloads/scrap-destruction-certificate-vat-qa-scrap-cert-2026.pdf?dl=1'
+      link_label: 'Download PDF'
+    - icon: R
+      icon_bg: green
+      title: 'Styring af genbearbejdning (side)'
+      desc: 'Tilknyttet side til de godkendte metodekort MC-RW-01 til MC-RW-06 for genbearbejdning af lufttæthed og den kontrollerede genbearbejdningsarbejdsgang i 7 trin.'
+      link: '/da/factory/quality-inspection'
+      link_label: 'Se side'
+    - icon: C
+      icon_bg: purple
+      title: 'Standard for ændringsstyring af genbearbejdning (side)'
+      desc: 'Formel ændringsstyring i henhold til ISO 9001 for genbearbejdningsparametre: ECR, risikoklassificering, godkendelsesmatrix, valideringsplan og Poka-Yoke-foranstaltninger — QMS-SOP-QC-CC-001 Rev 2.0.'
+      link: '/da/factory/quality-change-control'
+      link_label: 'Se side'
+
+faqs:
+  tagline: FAQ
+  title: 'Kvalitets- og fejlkontrol for globale købere'
+  items:
+    - q: 'Hvordan garanterer I, at genbearbejdede brætter opfylder alle sikkerhedskrav?'
+      a: 'Ethvert genbearbejdet bræt behandles som en ny enhed og skal gennemføre præcis den samme fulde testcyklus fra nul — for reparationer af lufttæthed en komplet trykprøvning på 24 t. Uafhængige QC-inspektører, ikke genbearbejdningsoperatørerne, foretager frigivelsesvalideringen.'
+    - q: 'Vil fabrikken afsende brætter med mindre kosmetiske afvigelser uden at fortælle os det?'
+      a: 'Aldrig. Enhver afvigelse, der påvirker kundens godkendte referenceeksemplarer, logoartwork, farvevarianter eller emballage, kræver en formel, skriftlig dispensationsoverenskomst, som kunden underskriver, før frigivelse til afsendelse.'
+    - q: 'Hvad sker der, hvis et genbearbejdet bræt fejler i geninspektionen?'
+      a: 'Brættet frigives ikke. Det gennemgår en ny dispositionsgennemgang, og hvis det ikke kan bringes i overensstemmelse, erstattes det, kasseres eller ødelægges efter den overværede skrotningsprotokol. Gentagen fejl i samme fejlklasse udløser CAPA med årsagsanalyse.'
+    - q: 'Kan fejlede brætter sælges som fabrikens egne eller gennem andre kanaler?'
+      a: 'Nej. Afvigende brætter, der ikke kan genbearbejdes, ødelægges fysisk efter den overværede skrotningsprotokol — beslag afskåret, kerne og kanter gennemskåret, video registreret med SHA-256-hash og arkiveret i mindst 5 år. Skrotnings- og ødelæggelsesbeviset underskrives af QA-chefen og fabrikschefen.'
+    - q: 'Hvordan vurderes det berørte omfang, når en fejl opdages?'
+      a: 'Omfanget gennemgås pr. produktidentifikation, produktionsbatch, materiale- eller enhedsparti, procestrin og gældende dokumentrevision. Hvis det samme materialeparti, artworkrevision eller den samme arbejdsplads er involveret, inddæmmes og kontrolleres de berørte produkter tilsvarende.'
+    - q: 'Kræver I vores godkendelse, før I giver en dispensation?'
+      a: 'Ja. Enhver accept under en dokumenteret dispensation, der påvirker kundens krav — godkendte prøveeksemplarer, specifikation, artwork, emballage eller acceptkriterier — kræver skriftlig godkendelse fra kunden, før der frigives. Uden denne genbearbejdes produktet efter det oprindelige krav, erstattes eller kasseres.'
+    - q: 'Hvilken dokumentation modtager vi ved en afvigelse?'
+      a: 'NCR-registreringen omfatter NCR-nummer, opdagelsestrin, produkt/SKU, batch, gældende dokumentrevisioner, fejlbeskrivelse, inddæmming, disposition, reference til genbearbejdningsinstruktion, resultat af geninspektion samt godkendelse af frigivelse eller lukning — tilgængelig i henhold til jeres kvalitetsaftale for projektet.'
+
+cta:
+  title: 'Kvalitetsmæssige bekymringer håndteres gennem en kontrolleret proces'
+  desc: 'Del jeres projektspecifikke krav til kvalitet, inspektion eller dokumentation under forespørgslen — vi kan gennemgå de gældende kontrolpunkter, før prøveudvikling eller produktionsplanlægning begynder.'
+  actions:
+    - text: 'Drøft kvalitetskrav'
+      variant: primary
+      href: /da/contact
+    - text: 'Download SOP for kontrol af afvigende produkter (PDF)'
+      href: 'https://assets.isupfactory.com/site/downloads/non-conforming-product-control-sop-iso-8-7.pdf?dl=1'
+    - text: 'Download skrotningsbevis (PDF)'
+      href: 'https://assets.isupfactory.com/site/downloads/scrap-destruction-certificate-vat-qa-scrap-cert-2026.pdf?dl=1'

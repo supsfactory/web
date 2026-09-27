@@ -1,0 +1,513 @@
+meta:
+  title: 'Kvalitetskontrol af specialfremstillede SUP: inspektion i 7 trin | iSupfactory'
+  description: 'Sådan kontrolleres hver specialfremstillet SUP-ordre: 7 inspektionstrin fra planlægning før produktion til frigivelse før afsendelse, med to-sprogede rapporter til download.'
+  dateModified: '2026-08-15'
+  keywords:
+    - 'kvalitetskontrol af sup'
+    - 'inspektion af sup fabrik'
+    - 'oem plan for kvalitetsinspektion'
+    - 'inspektion af sup før afsendelse'
+    - 'ce certificering sup'
+    - 'iso 9001 sup'
+hero:
+  tagline: Kvalitetskontrol for specialprojekter
+  title: 'Kvalitetskontrol af specialfremstillede oppustelige SUP-projekter'
+  subtitle: 'Kvaliteten verificeres mod det godkendte prøveeksemplar, den tekniske specifikation, artwork, styklisten og emballagekravene for hvert projekt — ikke mod en generel påstand. Fra modtagne materialer til frigivelse før afsendelse er vores inspektionsproces struktureret til at verificere produktoverensstemmelse på definerede produktionstrin. Drevet af QINGDAO VATRAD GROUP, den 12,500 m² store fabrik for oppustelige SUP-brætter bag Vatrad.'
+stats:
+  - value: 100%
+    label: 'Enheder, der trykprøves'
+  - value: '7'
+    label: 'Kontrollerede inspektionstrin'
+  - value: 18.0 PSI
+    label: '24 timers trykholdeprøvning'
+  - value: ISO 9001
+    label: 'Kvalitetscertificeret'
+quality_basis:
+  tagline: Kvalitetsgrundlag
+  title: 'Hvad der definerer accept af produktet'
+  subtitle: 'De endelige acceptkriterier fastlægges, før produktionen frigives. Disse kontrollerede projektdokumenter definerer, hvad der skal fremstilles, hvordan nøgledetaljer verificeres, og hvad der skal kontrolleres før afsendelse — godkendt med køberen og fastlåst i Quality Inspection Plan (QIP). Alle ændringsanmodninger går gennem dokumenteret ændringsstyring, aldrig stilt og roligt gennem produktionen.'
+  items:
+    - title: 'Godkendt prøveeksemplar'
+      description: 'Det fysiske referencebræt, som køberen har godkendt. Hvert færdigt bræt sammenlignes hermed for mål, profil, stivhed og finish.'
+      icon: tabler:medal
+    - title: 'Teknisk specifikation'
+      description: 'Materialer, konstruktion og måltegninger låst til et revisionsnummer. FAI verificerer det første eksemplar mod netop denne revision.'
+      icon: tabler:file-check
+    - title: 'Godkendt artwork'
+      description: 'Artwork, trykfarver og placering godkendt og versionslåst, før skæringen begynder, så hvert dæk afsendes i det udtryk, brandet godkendte.'
+      icon: tabler:palette
+    - title: 'Kundens godkendte BOM'
+      description: 'Stykliste — bræt, pagaj, pumpe, sikkerhedsline, taske, manual — bekræftet af køberen. PSI kontrollerer 100 % sætets fuldstændighed mod denne BOM.'
+      icon: tabler:list-checks
+    - title: 'Emballage- og mærkningskrav'
+      description: 'Kartonopbygning, mærkning, barcodes, etiketindhold og afsendelsesmærkninger fastlagt skriftligt. Barcodelæsbarhed og mærkningsnøjagtighed verificeres ved PSI.'
+      icon: tabler:package
+tests:
+  - title: Tryktest
+    description: Oppustelige kamre udsættes for tryk, der overstiger deres anbefalede driftsgrænser, i længere tid. Dette verificerer lufttæthed og strukturel integritet i materialer og sømme og sikrer, at produktet kan klare den tilsigtede anvendelse og mulig overpumpning uden fejl eller lækager.
+    image: https://assets.isupfactory.com/images/sups/factory/isupfactory-pressure-testing.webp
+    alt: 'Oppusteligt SUP-kammer under tryktest, hvor lufttæthed verificeres'
+  - title: Slagprøvning
+    description: 'Produkter udsættes for kontrollerede slag fra forskellige vægter og vinkler. Dette vurderer materialets modstand mod punkteringer, revner og skader fra kollision med genstande i vandet og dokumenterer holdbarhed og levetid.'
+    image: https://assets.isupfactory.com/images/sups/factory/isupfactory-production-department.webp
+    alt: 'Slagprøvningsanordning, der vurderer materialets punkteringsmodstand i en oppustelig båd'
+  - title: UV-modstandstest
+    description: 'Materialeprøver udsættes for accelereret UV-stråling for at verificere, at de ikke bliver gule, revner eller mister styrke over tid. Hvert PVC-batch kontrolleres mod solnedbrydning, før det bruges i produktionen.'
+    image: https://assets.isupfactory.com/images/sups/factory/isupfactory-uv-resistance-testing.webp
+    alt: 'PVC-materialeprøver under accelereret UV-stråling i modstandstest'
+  - title: Slidprøvning
+    description: 'Materialeprøver gnides mod slibende overflader i et bestemt antal cyklusser under kontrolleret tryk. Dette måler materialets evne til at modstå slid fra gentagen brug, kontakt med sand, sten eller andre overflader og sikrer langtidsholdbarhed.'
+    image: https://assets.isupfactory.com/images/sups/factory/isupfactory-pvc-material-testing.webp
+    alt: 'Slidprøvemaskine, der gnider en prøve af PVC-dug for at måle slidmodstanden'
+  - title: 'Test ved lave temperaturer'
+    description: 'Produkter testes i kolde miljøer for at vurdere funktionalitet og holdbarhed ved forskellige temperaturforhold og forhindre stivhed eller revnedannelse i koldt vand. Vigtigt for både, der er beregnet til vinterbrug eller høje breddegrader.'
+    image: https://assets.isupfactory.com/images/sups/factory/isupfactory-factory-exterior.webp
+    alt: 'Oppusteligt produkt i en koldkammer under test ved lave temperaturer'
+  - title: 'Test af opdrift & lasteevne'
+    description: 'Produkter testes med forskellige vægte for at fastslå deres maksimale bæreevne og sikre, at de sikkert bærer brugere og udstyr. Hver models nominelle kapacitet verificeres, før den frigives.'
+    image: https://assets.isupfactory.com/images/sups/factory/isupfactory-stock-boat-inventory.webp
+    alt: 'Test af opdrift og lasteevne med vægte på et oppusteligt fartøj'
+  - title: Manøvredygtighedstest
+    description: 'Produkter testes for deres reaktion på pagaj- eller motorinput, hvor svingradius og håndteringsvenlighed vurderes. Prøvesejlads på vandet bekræfter, at den faktiske håndtering svarer til designspecifikationerne.'
+    image: https://assets.isupfactory.com/images/sups/factory/isupfactory-sup-manufacturing.webp
+    alt: 'Test af manøvredygtighed for oppustelig SUP og bådskrog på vandet'
+  - title: Vandtæthedstest
+    description: 'Fuldt samlede produkter nedsænkes eller udsættes for vandspray for at kontrollere for lækager gennem sømme, ventiler eller materialer. Alle både gennemgår en obligatorisk vandtæthedskontrol, før de afsendes.'
+    image: https://assets.isupfactory.com/images/sups/factory/isupfactory-production-department-2.webp
+    alt: 'Vandtæthedstest ved nedsænkning, der kontrollerer sømme og ventiler for lækager'
+qc_flow:
+  tagline: Inspektionsforløbet i 7 trin
+  title: 'Syv kontrollerede kvalitetsspor fra start til slut'
+  subtitle: 'Hvert spor nedenfor er defineret i projektets Quality Inspection Plan med sit inspektionsobjekt, sin metode, sine acceptkriterier og sin rekordudgang. De to-sprogede rapportdossierser er ægte kontrollerede rekorder — åbn et vilkårligt af dem for at se den faktiske struktur.'
+  obj_label: Inspektionsobjekt
+  method_label: Inspektionsmetode
+  criteria_label: 'Acceptkriterier'
+  record_label: 'Rekordudgang'
+  stages:
+    - stage: STAGE 01
+      title: 'Projektkvalitetsplanlægning (PPM)'
+      summary: 'Mødet før produktionen låser omfang, grundlinjer og inspektionsplan, før linjen sættes i gang.'
+      checks:
+        - 'Produktnavn, intern kode, kundens SKU, ordrenummer og batchdefinition registreres.'
+        - 'Brættype, drop-stitch-kerne, materialer, kantbånd, EVA, ventiler og finnesystem specificeres.'
+        - 'Artworkets filnavn, version, farver, logoplacering og trykområde låses og godkendes.'
+        - 'BOM — alle dele pr. sæt med antal, farve, delnummer og regler for erstatning — godkendes af kunden.'
+        - 'Emballage, mærkning, barcodes, sprog i manualerne og aftaler om tredjepartsinspektion fastlægges skriftligt.'
+      object: 'Projektomfang mod kundens krav — materialer, mål, artwork, emballage, målmarked og gældende standarder.'
+      method: 'Møde før produktion med salg, konstruktion og QC; godkendelse af Golden Sample; Quality Inspection Plan (QIP) udstedes for ordren.'
+      criteria: 'Alle fem grundlinjer godkendes og låses, før masseproduktionen starter. Uløste punkter blokerer produktionsfrigivelse.'
+      record: 'QIP + PPM-referat, rekorder for godkendte prøveeksemplarer.'
+      image: https://assets.isupfactory.com/site/quality/node01-ppm.avif
+      alt: 'Møde før produktion, der gennemgår golden sample og kvalitetsinspektionsplan for en OEM-SUP-ordre'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_SUP_OEM_QIP.pdf
+      link_label: 'Download QIP (PDF)'
+    - stage: STAGE 02
+      title: 'Kontrol af modtagne materialer (IQC)'
+      summary: 'Råmaterialer verificeres mod den godkendte leverandørspecifikation, før de går ind i produktionen.'
+      checks:
+        - 'Drop-stitch-dug, PVC-ruller, kantmateriale og EVA-dækflader kontrolleres mod det godkendte prøveeksemplar — farve, tykkelse, vægt og overfladedefekter.'
+        - 'Ventiler, finnekasser, D-ringe, håndtag og beslag kontrolleres for type, størrelse, finish, rust og korrekt funktion.'
+        - 'Pumper, pagajer, sikkerhedsliner, tasker og reparationssæt verificeres for model, farve og projektkonfiguration.'
+        - 'Leverandørattester (COA), materialeerklæringer og REACH/RoHS-overholdelsesdokumenter gennemgås pr. batch.'
+        - 'Afvigende partier sættes i karantæne og returneres, før noget materiale når linjen.'
+      object: 'Drop-stitch-dug, PVC-ruller, ventiler, finner, tilbehør og emballagematerialer mod den godkendte specifikation og leverandørens testattester.'
+      method: 'Visuelle, måltekniske og vægtkontrol; udtagning pr. batch efter AQL; gennemgang af materialecertifikater; håndhævelse af listen over godkendte leverandører.'
+      criteria: 'Opfylder godkendt specifikation og attester. Afvigende partier sættes i karantæne og afvises, før de frigives til linjen.'
+      record: 'IQC-testrapporter med henvisning til partier og dispositioner.'
+      image: https://assets.isupfactory.com/site/quality/node02-iqc.avif
+      alt: 'Kontrol af modtagne materialer med PVC-dug og SUP-komponenter på fabrikken'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_IQC_TEST_REPORTS.pdf
+      link_label: 'Download IQC-rapporter (PDF)'
+    - stage: STAGE 03
+      title: 'Proceskontrol & første eksemplar (IPQC / FAI)'
+      summary: 'Fremstillingsmetoder og kontrolpunkter vælges efter den godkendte brætplatform og projektkonfigurationen. Det første eksemplar kontrolleres mod de låste grundlinjer; hvert skift foretager patrolkontrol på linjen.'
+      checks:
+        - 'Det første eksemplar verificeres mod godkendt prøveeksemplar, teknisk tegning, BOM, artwork og emballagefiler, før masseproduktionen starter.'
+        - 'Brættets mål, kontur og symmetri måles; trykfarve og logoretsning, placering, farver og revision bekræftes.'
+        - 'Sømme og kantens kontinuitet kontrolleres for mellemrum, delaminering, folder, forurening eller fejljustering på linjen.'
+        - 'Montering af ventil, D-ring, håndtag og finnekasse kontrolleres for placering, antal og pasform mod kundens godkendte BOM.'
+        - 'Godkendelse af FAI versionslåser artwork, mål og BOM; afvigelser sendes til genbearbejdningsbeslutningsflowet — aldrig lappes i farten på linjen.'
+      object: 'Første eksemplar og dele under fremstillingen — sømme, kanter, finnekasse, ventilbasis, placering af artwork og moment på beslag.'
+      method: 'Førsteartikelinspektion på den første enhed; patrolkontrol pr. skift; svejstyrke og sømflugt verificeres løbende på linjen.'
+      criteria: 'Godkendelse af FAI versionslåser artwork, mål og BOM. Afvigelser sendes til genbearbejdningsbeslutningsflowet — aldrig lappes i farten på linjen.'
+      record: 'FAI-registrering, patrollogfiler pr. skift, noter om genbearbejdning og disposition.'
+      image: https://assets.isupfactory.com/site/quality/node03-ipqc-fai.avif
+      alt: 'Inspektion under processen og kontrol af første eksemplar under produktionen af SUP'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_IPQC_TEST_REPORTS.pdf
+      link_label: 'Download IPQC-rapporter (PDF)'
+    - stage: STAGE 04
+      title: 'Oppumpning & lufttæthedstest'
+      summary: 'Hvert færdigt bræt gennemgår oppumpning og lufttæhedsverificering, før pakningen — 100 % af enhederne, ikke et udvalg.'
+      checks:
+        - 'Brættets overflade, kanter og ventilområde kontrolleres for punkthuller, revner, unormale folder eller delaminering, før oppumpningen.'
+        - 'Kamrene pumpes op med kaliberet digitalt manometer til projektets testtryk, og startaflæsningen låses.'
+        - 'Ventilkerne, ventilbasis og kantsømme kontrolleres hele vejen rundt — nese, hale og krumme områder.'
+        - '24 timers trykholdeprøvning med kontinuerlig registrering; automatisk kassation ved for stort tilladt trykfald.'
+        - 'Fejlede brætter sættes i karantæne, genbearbejdes efter instruktion og testes fuldt ud igen — ikke blot efterkontrolleret ved reparationsstedet.'
+      object: '100 % af de oppustede kamre — lækagedetektering i alle sømme, ventilens integritet og fastholdelse af trykfald.'
+      method: 'Lækagedetektering i alle sømme efterfulgt af 24 timers trykholdeprøvning ved 18.0 PSI; automatisk kassation ved fald på over 0.50 PSI.'
+      criteria: 'Ingen lækkepunkter og trykfald inden for 0.50 PSI pr. kammer; fejlede enheder sættes i karantæne og genbearbejdes eller skrotes.'
+      record: 'Rapporter for lufttæthedstest, en pr. kammer, knyttet til batchen.'
+      image: https://assets.isupfactory.com/site/quality/node04-airtightness.avif
+      alt: 'Oppumpning og lufttæthedstest af et oppusteligt SUP-kammer'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_AIRTIGHTNESS_TEST_REPORTS.pdf
+      link_label: 'Download rapporter for lufttæthed (PDF)'
+    - stage: STAGE 05
+      title: 'Endelig produktinspektion (FQC)'
+      summary: 'Færdige brætter måles og vurderes kosmetisk mod det godkendte golden sample.'
+      checks:
+        - 'Nøgledimensioner — længde, bredde og tykkelse — måles ved arbejdstryk mod tegningernes tolerancer.'
+        - 'Brættets kontur, rocker og symmetri verificeres; ingen unormal deformering, vridning eller krumning efter oppumpning.'
+        - 'Kosmetik vurderes under D65-dagslyslamper: ridser, pletter, limspor, bobler, folder, farveafvigelse.'
+        - 'Funktionskontrol: ventilens åbning/lukning og hættens pasform, isætning og låsning af finner, D-ringe, håndtag og pagajfunktion.'
+        - 'Konfigurationen verificeres mod kundens godkendte BOM og SKU — tilbehør, etiketter, barcodes og serienumre.'
+      object: 'Færdigt bræt mod golden sample — mål, rocker, profil, kosmetik, pasform i finnekasse og tilbehørens fuldstændighed.'
+      method: 'Målteknisk verifikation mod tegningernes tolerancer; kosmetik vurderet under D65-dagslyslamper; pasformstest af finnekasse og beslag.'
+      criteria: 'Mål inden for tolerancen (f.eks. 3508 × 814 × 150.3 mm), kosmetisk vurdering efter det godkendte prøveeksemplar, alle tilbehør til stede.'
+      record: 'FQC-rapporter med inspektørsignatur og disposition.'
+      image: https://assets.isupfactory.com/site/quality/node05-fqc.avif
+      alt: 'Endelig produktinspektion af færdige SUP-brætter før pakning'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_FQC_TEST_REPORTS.pdf
+      link_label: 'Download FQC-rapporter (PDF)'
+    - stage: STAGE 06
+      title: 'Emballage- og forhåndsinspektion (PSI)'
+      summary: 'Det pakkede sæt kontrolleres for fuldstændighed, mærkningsnøjagtighed og afsendelsesparathed.'
+      checks:
+        - '100 % fuldstændighed i sættet mod BOM: bræt, pagaj, pumpe, sikkerhedsline, taske, reparationssæt og manual — et sæt ad gangen.'
+        - 'Sårbare dele er beskyttet (tasker til pumpe og blade), brættet er foldet efter emballegens SOP, og tilbehøret passer til model og farve.'
+        - 'Kartongrafik, brand, advarsler og sprogudgaver verificeres mod den godkendte artworkrevision.'
+        - 'Barcodetype, nummer, placering og læsbarhed verificeres; afsendelsesmærkninger, SKU, PO, kartonnummer og antal er korrekte.'
+        - 'Kartonmål, brutto/nettovagt og indpakning matcher emballespecifikationen; resultatet af drop-test registreres, når det kræves.'
+      object: 'Pakket sæt — bræt, pagaj, pumpe, sikkerhedsline, taske, manual — mod kundens godkendte BOM og emballespecifikation.'
+      method: '100 % fuldstændighed i sættet mod BOM; barcode-scanning (klasse ≥ B); nøjagtighed i kartonnummerering; ISTA-1A drop-test på pakkede kartoner.'
+      criteria: '100 % af sættet matcher BOM, læsbare barcodes, korrekte mærkninger og drop-sikker pakning, før lastningen.'
+      record: 'PSI-tjeklister og pakningsrekorder pr. karton.'
+      image: https://assets.isupfactory.com/site/quality/node06-psi.avif
+      alt: 'Inspektion før afsendelse, hvor det pakkede SUP-sæt kontrolleres mod BOM'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_PSI_TEST_REPORTS.pdf
+      link_label: 'Download PSI-rapporter (PDF)'
+    - stage: STAGE 07
+      title: 'Frigivelse & sporing'
+      summary: 'Kvaliteten signerer først batchen, når alle seks foregående spor er lukket, og hver rekord er komplet.'
+      checks:
+        - 'Produktionsbatch, ordrenummer, SKU, antal og kartonantal matcher pakningslisten og den kommercielle faktura.'
+        - 'Specifikation, BOM, artwork- og emballagefiler ligger alle på den aktuelle godkendte revision.'
+        - 'IQC-, FAI-, proces-, lufttæheds-, FQC- og PSI-rekorder er komplette for den batch, der frigives.'
+        - 'Alle afvigelser er løst, genbearbejdet, geninspekteret og lukket — ingen åbne punkter ved frigivelsen.'
+        - 'Sporingsfelter registreres pr. batch: projektkode, PO, SKU, revisioner af artwork/BOM/emballage, produktionsdato, inspektør og rekoldnumre.'
+      object: 'Frigivelsesbemyndigelse for batchen — alle spor lukket, rekorder komplette, serienumre kortlagt til batchen.'
+      method: 'Sporgennemgang af alle seks foregående rekorder foretaget af kvaliteten; batchsporingsdossier samlet; rekorder overleveres med forsendelsen.'
+      criteria: 'Alle spor godkendt af QA; batchrekorder og batchsporingsdossier leveres til køberen eller opbevares under NDA på forespørgsel.'
+      record: 'Autorisation af frigivelse før afsendelse og batchsporingsdossier.'
+      image: https://assets.isupfactory.com/site/quality/node07-shipment-release.avif
+      alt: 'Signatur for frigivelse før afsendelse og overdragelse af batchsporingsdossier'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_SHIPMENT_RELEASE_REPORTS.pdf
+      link_label: 'Download frigivelsesrapporter (PDF)'
+system_map:
+  tagline: Kvalitetssystemet
+  title: 'Et system, fire kontrollerede standarder'
+  subtitle: 'De syv spor ovenfor kører på fire dokumenterede standarder, som hver især udgives som en kontrolleret procedure, du kan downloade og auditere. Tilsammen udgør de QMS bag enhver OEM/ODM-ordre — inspektionskriterier, ændringsstyring, afvigelseskontrol og laboratorietest.'
+  items:
+    - title: 'Inspektions- og frigivelsesstandarder'
+      description: 'Projektets QIP driver hvert spor: inspektionsobjekt, metode, acceptkriterier og rekordudgang pr. ordre. Omfatter QC-rammen i 4 trin, sporingskæden, karantæneflowet, fejlmatrixen og dokumentregisteret 00–15.'
+      icon: tabler:clipboard-check
+      link: /da/factory/quality-inspection
+      link_label: 'Inspektionsstandarder & QMS-downloads'
+    - title: 'Ændringsstyring af genbearbejdning'
+      description: 'Ingen ændringer i genbearbejdningsparametre uden dokumenteret kontrol: inddæmming, risikoklassificering, ændringsløkke i 9 trin, godkendelsesmatrix og validering. Enhver ændring i godkendte specifikationer, prøveeksemplarer, BOM’er eller acceptkriterier kræver skriftlig godkendelse fra kunden.'
+      icon: tabler:git-branch
+      link: /da/factory/quality-change-control
+      link_label: 'Standard for ændringsstyring'
+    - title: 'Kontrol af afvigende produkter'
+      description: 'En lukket løkke i 7 trin under ISO 9001:2015 punkt 8.7: identificere, karantænesætte, disposition pr. NCR, genbearbejde eller kassere, geninspektere, frigive og korrigere. Omfatter bemyndigelse efter alvorgrad, dispositionsmatrix for SUP-fejl og overværet ødelæggelse.'
+      icon: tabler:alert-triangle
+      link: /da/factory/non-conforming-control
+      link_label: 'Standard for kontrol af afvigende produkter'
+    - title: 'Laboratorietest & udstyr'
+      description: 'Kvalitetslaboratoriet drives uafhængigt af produktionen: trækprøvning, trykfald, UV-aldring, skrælning af svejser, lækagedetektering og temperaturkamre — med kalibreringen og testprocedurerne bag vores offentliggjorte påstande.'
+      icon: tabler:flask
+      link: /da/factory/quality-lab
+      link_label: 'Kvalitetslaboratorium & testudstyr'
+    - title: 'Materialetestlaboratorium (R&D)'
+      description: 'R&D-centret drives uafhængig materialetestning af PVC/Hypalon-formuleringer, accelereret aldring og støtte til certificering, som leverer standarderne til produktionen.'
+      icon: tabler:microscope
+      link: /da/randdcenter/quality-inspection-lab
+      link_label: 'Materialetestlaboratorium i R&D'
+intelligence_cards:
+  tagline: 'Dokumentation & sporbarhed'
+  title: 'Kvalitetsrekorder, der understøtter sporing på projektniveau'
+  subtitle: 'Inspektionsrekorder føres pr. produktionsbatch og kobles til den gældende projektdokumentation — specifikationsrevision, artworkrevision, BOM og pakkekrav. For at beskytte kundernes fortrolighed er eksemplerne på denne side anonymiserede: kun strukturelle felter vises (projektkode, produkt/SKU, batch, inspektionstrin, inspektionspunkt, acceptkriterier, resultat, inspektør, dato og frigivelsesstatus).'
+  cards:
+    - icon: 1
+      icon_bg: blue
+      title: 'Registrering af kontrol af modtagne materialer'
+      desc: 'Beviser, at råmaterialer, drop-stitch-dug, PVC-ruller og komponenter er verificeret mod den godkendte specifikation, før produktionen frigives.'
+      metrics:
+        - { label: Trin, value: '02 · IQC' }
+        - { label: 'Batchrefer', value: 'LOT-DEMO-DS-0814' }
+        - { label: Resultat, value: 'Bestået · Godkendt til produktion' }
+      link: 'https://assets.isupfactory.com/site/downloads/anonymized-quality-record-samples.pdf#page=1'
+      link_label: 'Se anonymiseret eksempel (PDF)'
+    - icon: 2
+      icon_bg: green
+      title: 'Registrering af førsteartikelinspektion (FAI)'
+      desc: 'Demonstrerer versionslåsning (artwork, mål, BOM-specifikationer), før man går ind i fuld masseproduktion.'
+      metrics:
+        - { label: Trin, value: '03 · IPQC' }
+        - { label: Prøvekode, value: 'SN-DEMO-FAI-001' }
+        - { label: Resultat, value: 'Bestået · FAI godkendt' }
+      link: 'https://assets.isupfactory.com/site/downloads/anonymized-quality-record-samples.pdf#page=2'
+      link_label: 'Se anonymiseret eksempel (PDF)'
+    - icon: 3
+      icon_bg: purple
+      title: 'Registrering af oppumpnings- og lufttæthedstest'
+      desc: 'Verificerer 100 % lækagedetektering i alle sømme, ventilens integritet og fastholdelse af trykfald i henhold til projektets kvalitetsplan.'
+      metrics:
+        - { label: Trin, value: '04 · Lufttæthed' }
+        - { label: Testforhold, value: 'Efter projektplan (18.0 PSI)' }
+        - { label: Resultat, value: 'Bestået · Godkendt til endelig inspektion' }
+      link: 'https://assets.isupfactory.com/site/downloads/anonymized-quality-record-samples.pdf#page=3'
+      link_label: 'Se anonymiseret eksempel (PDF)'
+    - icon: 4
+      icon_bg: orange
+      title: 'Rapport over endelig produktinspektion'
+      desc: 'Validerer det færdige bræt mod det godkendte prøveeksemplar for mål, rocker, kosmetik (D65-lys) og pasform i finnekassen.'
+      metrics:
+        - { label: Trin, value: '05 · FQC' }
+        - { label: Mål, value: '3508 × 814 × 150.3 mm' }
+        - { label: Resultat, value: 'Bestået · Godkendt til pakning' }
+      link: 'https://assets.isupfactory.com/site/downloads/anonymized-quality-record-samples.pdf#page=4'
+      link_label: 'Se anonymiseret eksempel (PDF)'
+    - icon: 5
+      icon_bg: green
+      title: 'Tjekliste for pakning og forhåndsinspektion'
+      desc: 'Sikrer 100 % fuldstændighed i sættet, barcode-læsbarhed (klasse ≥ B), nøjagtig kartonnummerering og drop-sikkerhed iht. ISTA-1A.'
+      metrics:
+        - { label: Trin, value: '06 · PSI' }
+        - { label: Sæt, value: '100 % matcher BOM' }
+        - { label: Resultat, value: 'Bestået · Godkendt til afsendelse' }
+      link: 'https://assets.isupfactory.com/site/downloads/anonymized-quality-record-samples.pdf#page=5'
+      link_label: 'Se anonymiseret eksempel (PDF)'
+doc_register:
+  tagline: Kontrolleret dokumentregister
+  title: 'Alle dokumenter bag en forsendelse, oplistet'
+  subtitle: 'Hver ordre genererer et struktureret dokumentregister 00–15 — projektindeks, godkendt specifikation, BOM, artwork- og pakningshenvisninger, QIP, inspektionsrekorder, NCR, ændringsstyring, tredjepartsbrief og frigivelsesresume. Download de offentlige dokumenter for at se den præcise struktur og de kriterier, vi kontrollerer imod.'
+  items:
+    - title: '00 · Quality Inspection Plan for projektet (QIP)'
+      description: 'Kvalitetskontrakten pr. ordre: spor, inspektionsomfang, metoder, acceptkriterier og de rekorder, du modtager.'
+      icon: '00'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_SUP_OEM_QIP.pdf
+      link_label: 'Download QIP (PDF)'
+    - title: '01 · Standarder for kvalitetsinspektion'
+      description: 'Den fulde inspektions- og sikringsstandard, der anvendes på specialfremstillede ordrer af oppustelige SUP.'
+      icon: '01'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_Quality_Inspection_Standards.pdf
+      link_label: 'Download standarder (PDF)'
+    - title: '02 · Kvalitetsdokumentationspakke'
+      description: 'Den komplette dokumentstruktur, et projekt modtager, samlet i en oversigtspakke.'
+      icon: '02'
+      link: https://assets.isupfactory.com/site/downloads/Qingdao_Vatrad_Group_SUP_Quality_Documentation_Pack.pdf
+      link_label: 'Download pakke (PDF)'
+    - title: '03 · IQC-testrapporter'
+      description: 'Rapporter for kontrol af modtagne materialer — dug, PVC-ruller, ventiler og komponenter.'
+      icon: '03'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_IQC_TEST_REPORTS.pdf
+      link_label: 'Download IQC-rapporter (PDF)'
+    - title: '04 · IPQC-testrapporter'
+      description: 'Rapporter fra inspektion under processen og af første eksemplar mod den låste revision.'
+      icon: '04'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_IPQC_TEST_REPORTS.pdf
+      link_label: 'Download IPQC-rapporter (PDF)'
+    - title: '05 · Rapporter for lufttæthedstest'
+      description: '100 % lækagedetektering i alle sømme, ventilens integritet og registreringer af trykholdeprøvning.'
+      icon: '05'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_AIRTIGHTNESS_TEST_REPORTS.pdf
+      link_label: 'Download rapporter for lufttæthed (PDF)'
+    - title: '06 · FQC-testrapporter'
+      description: 'Endelig inspektion af brætter mod det godkendte prøveeksemplar — mål, kosmetik, finnekasse.'
+      icon: '06'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_FQC_TEST_REPORTS.pdf
+      link_label: 'Download FQC-rapporter (PDF)'
+    - title: '07 · PSI-testrapporter'
+      description: 'Pakning og inspektion før afsendelse — 100 % fuldstændighed i sættet, barcodeklasse, drop-sikkerhed.'
+      icon: '07'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_PSI_TEST_REPORTS.pdf
+      link_label: 'Download PSI-rapporter (PDF)'
+    - title: '08 · Rapporter for frigivelse før afsendelse'
+      description: 'Autorisation af frigivelse, underskrevet når alle spor er lukket, sammen med batchdossieret.'
+      icon: '08'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_SHIPMENT_RELEASE_REPORTS.pdf
+      link_label: 'Download frigivelsesrapporter (PDF)'
+    - title: '09 · Sporingsdossier & NCR'
+      description: 'Batchsporing kortlagt mod specifikation, artwork og BOM, samt rekorder for kontrol af afvigelser.'
+      icon: '09'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_BATCH_TRACEABILITY_AND_NCR_CONTROL_DOSSIER.pdf
+      link_label: 'Download dossier (PDF)'
+    - title: '10 · SOP for kontrol af afvigende produkter (ISO 8.7)'
+      description: 'Den kontrollerede procedure for karantæne, disposition, genbearbejdning og frigivelse af afvigende produkter.'
+      icon: '10'
+      link: https://assets.isupfactory.com/site/downloads/non-conforming-product-control-sop-iso-8-7.pdf
+      link_label: 'Download SOP (PDF)'
+    - title: '11 · SOP for ændringsstyring af genbearbejdning + bilag'
+      description: 'Proceduren for ændringsstyring og dens bilag om udførelse — inddæmming, godkendelse og validering.'
+      icon: '11'
+      link: https://assets.isupfactory.com/site/downloads/rework-change-control-sop-qms-sop-qc-cc-001.pdf
+      link_label: 'Download SOP (PDF)'
+    - title: '12 · Resume af frigivelse før afsendelse'
+      description: 'Det to-sprogede frigivelsesresume, som hver batch afsendes med, der binder registeret sammen.'
+      icon: '12'
+      link: https://assets.isupfactory.com/site/downloads/Pre_Shipment_Release_Summary_Bilingual.pdf
+      link_label: 'Download resume (PDF)'
+    - title: '13 · Skabelon til brief for tredjepartsinspektion'
+      description: 'Den briefskabelon, inspektører bruger til at melde, planlægge og rapportere en inspektion før afsendelse.'
+      icon: '13'
+      link: https://assets.isupfactory.com/site/downloads/Third_Party_Inspection_Brief_Template.pdf
+      link_label: 'Download skabelon (PDF)'
+    - title: '14 · PSI-tjekliste'
+      description: 'Tjeklisten på fabriksgulvet før afsendelse — fuldstændighed i sættet, barcodeklasse, mærkninger og drop-sikkerhed.'
+      icon: '14'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_SUP_Pre_Shipment_Inspection_Checklist.pdf
+      link_label: 'Download tjekliste (PDF)'
+    - title: '15 · Guide til OEM-projekters muligheder og kvalitet'
+      description: 'Sådan bevæger et projekt sig fra forespørgsel til godkendt golden sample — konstruktions- og kvalitetstrin før masseproduktionen.'
+      icon: '15'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_OEM_PROJECT_FEASIBILITY_AND_QUALITY_GUIDE.pdf
+      link_label: 'Download guide (PDF)'
+traceability:
+  tagline: 'Spørgsmål på batchniveau'
+  title: 'Fire spørgsmål, som enhver batch besvarer'
+  subtitle: 'Kvalitetsrekorder føres pr. produktionsbatch og kobles til den gældende produktspecifikation, artwork, BOM og pakkekrav. Det understøtter undersøgelse og kontrolleret handling, hvis et kvalitetsproblem opstår. Ved en kundeaudit besvarer vores kvaliteteam disse fire spørgsmål på gulvet — hvert svar peger på en kontrolleret rekord.'
+  items:
+    - title: 'Hvad blev produceret?'
+      description: 'Produkt, model, konfiguration og revision er knyttet til ordrenummeret og den godkendte specifikationsrevision.'
+      icon: '1'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_BATCH_TRACEABILITY_AND_NCR_CONTROL_DOSSIER.pdf
+      link_label: 'Se sporingsdossier (PDF)'
+    - title: 'Hvilke materialer gik ind?'
+      description: 'Hvert materialeparti, der leverer til batchen, registreres med leverandør, attest og IQC-disposition.'
+      icon: '2'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_BATCH_TRACEABILITY_AND_NCR_CONTROL_DOSSIER.pdf
+      link_label: 'Se sporingsdossier (PDF)'
+    - title: 'Hvem inspicerede, og hvornår?'
+      description: 'Hver rekord indeholder inspektørens rolle, dato, anvendte værktøjer og resultat — ingen anonyme signaturer.'
+      icon: '3'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_BATCH_TRACEABILITY_AND_NCR_CONTROL_DOSSIER.pdf
+      link_label: 'Se sporingsdossier (PDF)'
+    - title: 'Hvordan blev batchen frigivet?'
+      description: 'Frigivelse autoriseres kun af kvaliteten, når alle spor er lukket; dispositionen dokumenteres på rekorden.'
+      icon: '4'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_BATCH_TRACEABILITY_AND_NCR_CONTROL_DOSSIER.pdf
+      link_label: 'Se sporingsdossier (PDF)'
+non_conformance:
+  tagline: 'Kontrol af afvigende produkter'
+  title: 'Når en fejl opdages: inddæmm, beslut, dokumenter'
+  subtitle: 'Produkter eller enheder, der ikke opfylder de fastsatte acceptkriterier, identificeres og placeres under kontrolleret hold. Genbearbejdning eller udskiftning er kun tilladt gennem den gældende kvalitetsprocedure og efterfølges af geninspektion, før der frigives.'
+  items:
+    - title: 'Opdag & adskil'
+      description: 'Fejlede enheder mærkes med rødt og flyttes til karantænestationen — ingen videre bearbejdning eller pakning, før dispositionen foreligger.'
+      icon: tabler:alert-triangle
+    - title: 'Disposition pr. NCR'
+      description: 'Kvaliteten udsteder en afvigelsesrapport og sender enheden til genbearbejdning, geninspektion, kassation eller skroting i henhold til dispositionsmatrixen.'
+      icon: tabler:git-branch
+      link: /da/factory/non-conforming-control
+      link_label: 'Standard for kontrol af afvigende produkter'
+    - title: 'Verificer & frigiv'
+      description: 'Genbearbejdede enheder geninspekteres mod de samme kriterier; NCR’en lukkes først, når efterprøvningen består.'
+      icon: tabler:shield-check
+    - title: 'Skrotkontrol'
+      description: 'Skrotmateriale ødelægges med et underskrevet skrotningsbevis, så det aldrig kan komme tilbage i lager eller på markedet.'
+      icon: tabler:trash
+      link: https://assets.isupfactory.com/site/downloads/scrap-destruction-certificate-vat-qa-scrap-cert-2026.pdf
+      link_label: 'Skrotnings- og ødelæggelsesbevis (PDF)'
+    - title: 'Feedback med årsagsanalyse'
+      description: 'Gentagne fejl udløser korrigerende foranstaltninger rettet mod den ansvarlige proces eller leverandør — lukket løkke, ikke papirarbejde.'
+      icon: tabler:refresh
+      link: https://assets.isupfactory.com/site/downloads/rework-change-control-sop-qms-sop-qc-cc-001.pdf
+      link_label: 'SOP for ændringsstyring af genbearbejdning (PDF)'
+third_party:
+  tagline: 'Support til kundevalgte og uafhængige inspektioner'
+  title: 'Din inspektør er velkommen på gulvet'
+  subtitle: 'Kundevalgte og uafhængige tredjepartsinspektioner (SGS, TÜV, Bureau Veritas, toldagenter) kan aftales, før produktionen frigives. Inspektionsomfang, udtagningsniveau, acceptkriterier, tidspunkt og rapporteringskrav bør bekræftes, før produktionen begynder. Hvor det er relevant, koordinerer vi adgang til de pågældende produktions-, slutinspektions- og pakningstrin i overensstemmelse med den aftalte inspektionsplan.'
+  items:
+    - title: 'Planlægning af inspektion'
+      description: 'Inspektioner i eget hus eller hos tredjepart kan arrangeres i et af de syv spor, med din inspektionsplan som acceptgrundlag.'
+      icon: tabler:calendar-clock
+      link: /da/factory/quality-inspection
+      link_label: 'Inspektionsstandarder & QMS-downloads'
+    - title: Skabelon til brief før afsendelse
+      description: 'Den briefskabelon, inspektører bruger til at melde, planlægge og rapportere en inspektion før afsendelse på vores anlæg.'
+      icon: tabler:file-report
+      link: https://assets.isupfactory.com/site/downloads/Third_Party_Inspection_Brief_Template.pdf
+      link_label: 'Download briefskabelon (PDF)'
+    - title: 'PSI-tjekliste'
+      description: 'Tjeklisten før afsendelse, der bruges på gulvet — fuldstændighed i sættet, barcodeklasse, mærkninger og drop-sikkerhed.'
+      icon: tabler:clipboard-check
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_SUP_Pre_Shipment_Inspection_Checklist.pdf
+      link_label: 'Download PSI-tjekliste (PDF)'
+    - title: 'Fuld kvalitetsdokumentationspakke'
+      description: 'Et dossier, der dækker det komplette dokumentationssystem — QIP, sporrekorder, sporing og NCR-kontrol.'
+      icon: tabler:books
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_COMPLETE_SUP_QUALITY_DOSSIER.pdf
+      link_label: 'Download dokumentationspakke (PDF)'
+    - title: 'Guide til OEM-projekters muligheder og kvalitet'
+      description: 'Sådan bevæger et projekt sig fra forespørgsel til godkendt golden sample — konstruktions- og kvalitetstrin før masseproduktionen.'
+      icon: tabler:route
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_OEM_PROJECT_FEASIBILITY_AND_QUALITY_GUIDE.pdf
+      link_label: 'Download projektguide (PDF)'
+content_certifications:
+  tagline: 'Certificeringer & standarder'
+  title: 'Certificeret kvalitet, globalt anerkendt'
+  subtitle: 'Certificeringer er kun så værdifulde som det, de dækker. Nedenfor finder du certificeringernes omfang, certifikatindehaveren og hvordan du verificerer eller anmoder om dokumenterne til dit projekt.'
+  items:
+    - title: 'CE-mærkning'
+      description: 'CE-overensstemmelsesdokumentation er tilgængelig for gældende konfigurationer til EU-markedet i henhold til direktiv 2013/53/EU (recreational craft); omfanget bekræftes pr. projekt. Certifikatnumre og testrapporter er tilgængelige på forespørgsel.'
+      icon: tabler:certificate
+    - title: 'ISO 9001:2015'
+      description: 'Kvalitetsstyringssystem certificeret i henhold til ISO 9001:2015, der dækker design, fremstilling og distribution af oppustelige fartøjer og maritimt udstyr. Certificeringsomfang og auditrapport er tilgængelig på forespørgsel.'
+      icon: tabler:clipboard-check
+    - title: 'BSCI social ansvarlighed'
+      description: 'BSCI (Business Social Compliance Initiative) auditert, og dækker arbejdsforhold og overholdelse i fabrikken. Auditrapport er tilgængelig på forespørgsel.'
+      icon: tabler:heart-handshake
+    - title: 'REACH-materialoverholdelse'
+      description: 'Materialerne overholder EU’s REACH-forordning om kemisk sikkerhed. Materialeerklæringer leveres sammen med produktionsdokumentationen for hver forsendelse.'
+      icon: tabler:flask
+    - title: 'RoHS-overholdelse'
+      description: 'Overholdelse af forbudte farlige stoffer dokumenteret i henhold til RoHS for gældende komponenter og materialer.'
+      icon: tabler:flame
+    - title: Materialetest
+      description: 'Dug testes for trækstyrke, rivefasthed, UV-nedbrydning og kuldehærdning. Hvert produktionsbatch udtages og verificeres mod den offentliggjorte testprotokol.'
+      icon: tabler:test-pipe
+faqs:
+  tagline: FAQ
+  title: 'Ofte stillede spørgsmål om vores kvalitetssystem'
+  items:
+    - q: 'Kan jeg downloade de faktiske inspektionsrapporter?'
+      a: 'Ja. De syv to-sprogede rapportdossierser på denne side — QIP, IQC, IPQC/FAI, lufttæthed, FQC, PSI og frigivelse før afsendelse — er ægte kontrollerede rekorder med fortrolige felter fjernet. De viser den præcise struktur, metoder og acceptkriterier, der bruges på hver ordre.'
+    - q: 'Hvordan afstemmes de syv spor med mit projekt?'
+      a: 'Hvert projekt får en Quality Inspection Plan (QIP), der definerer hvilke spor der gælder for dit produkt og marked, inspektionsomfanget i hvert spor og de rekorder, du modtager. Download QIP-eksemplet på denne side for at se strukturen.'
+    - q: 'Er disse eksempler på inspektionsrekorder ægte?'
+      a: 'Ja. Eksemplerne følger vores faktiske kontrollerede rekordstruktur — dokumenthoved, inspektionstjekliste, acceptkriterier, metode, resultater, inspektørens rolle og frigivelsesdisposition. Alle identificerende værdier er erstattet af demonstrationsværdier (DEMO-* koder), så ingen kunde-, artwork-, ordre- eller prisdata bliver blotlagt.'
+    - q: 'Hvorfor er eksemplerne anonymiserede?'
+      a: 'Kundernes fortrolighed kommer først. Kundenavne, artwork, ordredetaljer, leverandøroplysninger og priser er beskyttet som udgangspunkt. Anonymiseringen gør, at alle potentielle købere kan verificere vores rekordstruktur og sporing uden at blotte en anden kundes forretning.'
+    - q: 'Kan vi modtage fulde inspektionsrapporter til vores projekt?'
+      a: 'Ja. For godkendte projekter deler vi den kvalitetsdokumentation, der gælder for din ordre — plan for kvalitetsinspektion, rapporter for modtagne materialer, proces, lufttæthed, endelig inspektion og pakning samt autorisation af frigivelse før afsendelse — knyttet til din batchsporing. Fortrolige kommercielle data forbliver under NDA som aftalt.'
+    - q: 'Hvad indeholder en inspektionsrektering på batchniveau?'
+      a: 'Hver rekord knytter produktionsbatchen til den gældende specifikations- eller tegningsrevision, registrerer hvert inspektionspunkt mod sine acceptkriterier med den anvendte metode og det anvendte værktøj og afsluttes med inspektørens rolle, resultatstatus og den frigivelsesdisposition, som kvaliteten har signeret.'
+evidence_review:
+  tagline: 'Dokumentation & verifikation'
+  title: 'VERIFICEREDE SPECIFIKATIONER'
+  body: 'Alle produktionspåstande på denne side er verificeret af vores produktionsingeniørteam på anlægget i Laixi, Qingdao. Certifikater, QC-inspektionsrekorder, tryk- og strukturtestrapporter samt batchsporingsrekorder er tilgængelige på forespørgsel. Specifikationerne blev senest verificeret i september 2026.'
+
+cta:
+  title: 'Har du brug for kvalitetskrav til dit SUP-projekt?'
+  subtitle: 'Del din produktkategori, dit målmarked, din estimerede mængde og eventuelle krav til inspektion, dokumentation eller pakning. Vi gennemgår de gældende projektinput og rådger om næste skridt for prøveudvikling eller produktionsplanlægning. Drøftelse af NDA er mulig, før du deler ikke-offentlige specifikationer, artwork eller kvalitetskrav.'
+  actions:
+    - variant: primary
+      text: 'Anmod om en projektrelateret kvalitetsgennemgang'
+      href: /da/contact#quality-inquiry
+    - text: 'Besøg vores kvalitetsinspektionslaboratorium'
+      href: /da/randdcenter/quality-inspection-lab
+    - text: 'Inspektionsstandarder & QMS-downloads'
+      href: /da/factory/quality-inspection
+    - text: 'Standard for kontrol af afvigende produkter'
+      href: /da/factory/non-conforming-control

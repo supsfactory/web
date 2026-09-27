@@ -1,0 +1,69 @@
+meta:
+  title: 'Sådan fungerer CE-certificering af oppustelige SUP-brætter'
+  description: 'Sådan fungerer CE-certificering af oppustelige SUP, både og kajakker: direktiver (2013/53/EU RCD, PPE 2016/425), test, bemyndigede organer og tekniske dossierer.'
+  author: 'iSupfactory'
+  datePublished: '2026-08-04'
+  dateModified: '2026-08-07'
+back_text: 'Tilbage til forskning'
+
+hero:
+  tagline: 'Overensstemmelse'
+  title: 'Sådan fungerer CE-certificering af oppustelige SUP og kajakker'
+  subtitle: '7 min læsning'
+
+answer:
+  label: 'Det korte svar'
+  text: 'Oppustelige SUP er omfattet af EU-direktivet om fritidsfartøjer 2013/53/EU, når skroglængden er over 2.5 m, eller af direktivet om produktsikkerhed i almindelighed, når de er mindre. Certificering koster cirka 13,000&ndash;31,000 EUR og 8&ndash;14 uger for et første produkt: teknisk dossier, typetest hos et bemyndiget organ, fabriksaudit og derefter en overensstemmelseserklæring.'
+  verified: 'September 2026'
+
+content_html: |
+  <h2>Hvad er CE-certificering?</h2>
+  <p>CE-mærkning angiver, at et produkt opfylder EU’s krav til sundhed, sikkerhed og miljø. For oppustelige fartøjer afhænger det relevante regelgrundlag af produktkategorien.</p>
+
+  <h2>Relevante direktiver</h2>
+
+  <h3>Direktiv om fritidsfartøjer (2013/53/EU)</h3>
+  <p>Det primære direktiv for de fleste oppustelige både, SUP og kajakker. Det gælder fritidsfartøjer fra 2.5 m til 24 m skroglængde, delvis færdige både (til OEM-leverance) og vandsportsjåler.</p>
+
+  <h3>Forordning om personligt beskyttelsesudstyr (2016/425)</h3>
+  <p>Vestej, redningsflåder og sikkerhedsudstyr, der leveres sammen med fartøjer, skal opfylde kravene i PPE-forordningen, herunder typeundersøgelse (Modul B) hos et bemyndiget organ og produktionskvalitetssikring (Modul D eller E).</p>
+
+  <h2>Certificeringsprocessen</h2>
+  <ol>
+    <li>Produktklassificering: Fastlæg fartøjets designkategori (A – D i henhold til ISO 8666)</li>
+    <li>Relevante standarder: EN ISO 6185 (del 1 – 4), EN ISO 10087 (HIN), EN ISO 14945 (fabrikantplade)</li>
+    <li>Klargøring af teknisk dossier: Designtegninger, stykliste, materialecertifikater, risikovurdering</li>
+    <li>Typetest: Opdriftskraft, stabilitet, lastkapacitet, materialetest, sømstyrke, lufttab</li>
+    <li>Fabrikkens produktionskontrol: Audit af produktionsprocesserne hos et bemyndiget organ</li>
+    <li>Overensstemmelseserklæring: Producenten underskriver DoC og påfører CE-mærkning</li>
+  </ol>
+
+  <h2>Bemyndigede organer for oppustelige fartøjer</h2>
+  <p>Almindelige bemyndigede organer er blandt andre Bureau Veritas (Frankrig), DNV GL (Tyskland), RINA (Italien), T&Uuml;V Rheinland / T&Uuml;V S&Uuml;D (Tyskland).</p>
+
+  <h2>Tidsplan og omkostninger</h2>
+  <table class="w-full text-sm border-collapse">
+    <thead>
+      <tr class="bg-gray-100">
+        <th class="p-3 text-left font-semibold text-gray-900 border">Fase</th>
+        <th class="p-3 text-left font-semibold text-gray-900 border">Varighed</th>
+        <th class="p-3 text-left font-semibold text-gray-900 border">Typisk pris (EUR)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td class="p-3 border">Klargøring af teknisk dossier</td><td class="p-3 border">2 – 4 uger</td><td class="p-3 border">2,000 – 5,000</td></tr>
+      <tr><td class="p-3 border">Typetest</td><td class="p-3 border">4 – 8 uger</td><td class="p-3 border">8,000 – 20,000</td></tr>
+      <tr><td class="p-3 border">Fabriksaudit</td><td class="p-3 border">1 – 2 dage (på stedet)</td><td class="p-3 border">3,000 – 6,000</td></tr>
+      <tr><td class="p-3 border">I alt (første produkt)</td><td class="p-3 border">8 – 14 uger</td><td class="p-3 border">13,000 – 31,000</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Hvad det betyder for købere</h2>
+  <p>Når du køber CE-certificerede oppustelige brætter, skal du altid kontrollere, at CE-mærkningen sidder på fabrikantpladen, at der foreligger en gyldig DoC, at nummeret på det bemyndigede organ er anført, og at brugervejledningen indeholder sikkerhedsinstruktioner på dit lokale sprog. Alle Vatrad-produkter bærer CE-certificering med fuld sporing til auditrapporter fra bemyndigede organer.</p>
+  <p>Certificering er en del af hver produktionskørsel i vores anlæg i Qingdao — se <a href="/da/factory">fabrikens kvalitets- og testworkflow</a> og hvordan vi støtter <a href="/da/oem-manufacturing">CE-overensstemmelse for OEM- og private label-partnere</a>.</p>
+
+cta:
+  title: 'Brug for hjælp til CE-certificering?'
+  subtitle: 'Vi håndterer certificering for OEM-partnere verden over.'
+  button_text: 'Sæt certificeringsprocessen i gang'
+  button_link: /da/contact

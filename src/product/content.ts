@@ -21,6 +21,7 @@ export interface Localized<T> extends Record<string, T> {
   sv: T
   no: T
   pl: T
+  da: T
 }
 
 export function pick<T>(d: Localized<T>, locale: Locale): T {
@@ -291,6 +292,30 @@ export const hero: Localized<HeroContent> = {
     float1: { value: '1–2 szt', label: 'Próbka i akceptacja (przed zobowiązaniem produkcyjnym)' },
     float2: { value: FACTS.leadTime, label: 'Czas realizacji produkcji (po zamówieniu)' },
   },
+  da: {
+    kicker: 'Producent af skræddersyede SUP-bræt (OEM / ODM) — Qingdao, Kina',
+    titlePre: 'Producent af oppustelige SUP-bræt og',
+    titleAccent: 'OEM/ODM-fabrik',
+    titlePost: '',
+    sub: 'Skræddersyede oppustelige SUP-bræt, der er designet, prototyperet og produceret på vores fabrik i Qingdao, Kina.',
+    ctaPrimary: 'Anmod om et OEM-tilbud',
+    ctaSecondary: 'Udvikl dit SUP-produkt',
+    ctaTertiary: 'Udforsk vores fabrik',
+    ctaQuartiary: '',
+    ctaMicro: 'OEM · ODM · Eget mærke · Produktudvikling · Prototyper · Serieproduktion',
+    stats: [
+      { value: '12 500 m²', label: 'Egen fabrik — Qingdao, Kina' },
+      { value: '120 000+', label: 'Bræt produceret årligt' },
+      { value: '50+', label: 'Eksportlande vi betjener' },
+      { value: FACTS.ndaWindow, label: 'NDA-svartid' },
+    ],
+    mockupLabel: 'Signaturplatform',
+    mockupBrand: "SUP Explorer 11'",
+    mockupHint: 'Din grafik · dine farver · din emballage',
+    heroNote: 'Direkte produktion i fabrikken · Prototypeudvikling · Kvalitetskontrolleret produktion · Eksportstøtte',
+    float1: { value: '1–2 stk', label: 'Prøve og godkendelse (før volumenforpligtelse)' },
+    float2: { value: FACTS.leadTime, label: 'Produktionstid (efter PO)' },
+  },
 }
 
 /* ─────────────────────────── home: manufacturer pledge ─────────────────────────── */
@@ -428,6 +453,18 @@ export const manufacturerPledge: Localized<ManufacturerPledgeContent> = {
       { title: 'Twoja marka, nigdy nasza', body: 'Produkujemy wyłącznie pod markami naszych klientów i nigdy nie konkurujemy z nimi na żadnym rynku.' },
     ],
     verifyLabel: 'Sprawdź, kim jesteśmy',
+    verifyHref: '/about/identity',
+  },
+  da: {
+    kicker: 'Producent, ikke handelsselskab',
+    title: 'Vi ejer fabrikken bag din ordre',
+    sub: 'Et handelsselskab videresalg andres produktion. Vi driver anlægget selv. Der er ingen mellemhandelsmargin, ingen tredjepartslager og ingen mellemled mellem din ordre og produktionsgulvet.',
+    items: [
+      { title: 'Registreret juridisk enhed', body: 'Qingdao Vatrad Group Co., Ltd. er den kontraktindgående enhed på hver ordre og i alle eksportdokumenter.' },
+      { title: 'En fabrik, et team', body: 'Konstruktion, kvalitetskontrol, produktionsplanlægning og eksportdokumentation håndteres fuldt ud internt på anlægget i Laixi, Qingdao.' },
+      { title: 'Dit mærke, aldrig vores', body: 'Vi producerer udelukkende under kundernes mærker og konkurrerer aldrig med dem på noget marked.' },
+    ],
+    verifyLabel: 'Verificer, hvem vi er',
     verifyHref: '/about/identity',
   },
 }
@@ -631,6 +668,24 @@ export const factoryProof: Localized<FactoryProofContent> = {
     ],
     note: 'MOQ jest potwierdzane po przeglądzie specyfikacji, ponieważ konstrukcja, rozmiar deski, budowa PVC, grafika, opakowanie i akcesoria wpływają na zużycie materiału.',
   },
+  da: {
+    kicker: 'Factory Proof',
+    title: 'En ægte fabrik, dokumenteret',
+    sub: 'Verificerbare tal fra vores anlæg i Qingdao, Kina — hvert tal linker til den side, hvor det er dokumenteret.',
+    cta: 'Verificer dette tal',
+    stats: [
+      { value: FACTS.warehouseM2, label: 'Eget produktionsanlæg', href: '/factory' },
+      { value: FACTS.workers, label: 'Fabrikens personale, internt', href: '/manufacturing-capabilities' },
+      { value: '120,000+', label: 'Bræt produceret årligt', href: '/factory/capacity' },
+      { value: FACTS.exportCountries, label: 'Eksportlande vi betjener', href: '/proof-center' },
+    ],
+    links: [
+      { label: 'MOQ og leveringstid', href: '/sup-oem-moq-lead-time' },
+      { label: 'Kvalitetskontrol', href: '/quality' },
+      { label: 'Tjekliste for fabriksrevision', href: '/factory-audit-checklist' },
+    ],
+    note: 'MOQ bekræftes efter gennemgang af specifikationerne, fordi konstruktion, brætstørrelse, PVC-opbygning, grafik, emballage og tilbehør påvirker materialeforbruget.',
+  },
 }
 
 /* ─────────────────────────── home: factory evidence (verification band) ─────────────────────────── */
@@ -758,6 +813,17 @@ export const factoryEvidence: Localized<FactoryEvidenceContent> = {
       { title: 'Centrum dowodów', body: 'Certyfikaty, raporty z inspekcji zewnętrznych, rejestry audytów i dowody ze zrealizowanych projektów w jednym miejscu.', href: '/proof-center' },
       { title: 'Zweryfikuj fabrykę', body: 'Sprawdź nasze publiczne dokumenty firmy, certyfikaty i instrukcje weryfikacji, zanim się zobowiążesz.', href: '/verify-factory' },
       { title: 'Lista kontrolna audytu fabryki', body: 'Pobierz listę kontrolną, której używają kupujący podczas audytu fabryki nadmuchiwanych desek SUP — obiekty, urządzenia i proces.', href: '/factory-audit-checklist' },
+    ],
+  },
+  da: {
+    kicker: 'Verificer os, før du bestiller',
+    title: 'Fabriksbevis og verificering',
+    sub: 'Uafhængige bevis på, at vores anlæg, udstyr, kvalitetssystem og eksportregistre er reelle — gennemgå og verificer, før du indgår aftaler.',
+    cta: 'Se beviserne',
+    items: [
+      { title: 'Beviscenter', body: 'Certifikater, tredjepartsinspektionsrapporter, revisionsprotokoller og bevis fra leverede projekter samlet et sted.', href: '/proof-center' },
+      { title: 'Verificer fabrikken', body: 'Kontroller vores offentlige virksomhedsregistre, certificeringer og verificeringsvejledning, før du binder dig.', href: '/verify-factory' },
+      { title: 'Tjekliste for fabriksrevision', body: 'Hent den tjekliste, som købere bruger ved revision af en fabrik for oppustelige SUP-bræt — anlæg, udstyr og proces.', href: '/factory-audit-checklist' },
     ],
   },
 }
@@ -1029,6 +1095,31 @@ export const why: Localized<WhyContent> = {
       },
     ],
   },
+  da: {
+    kicker: 'Produktionsmærket',
+    title: 'Drevet af Vatrad',
+    sub: 'iSupfactory er produktudviklings- og produktionsafdelingen i Qingdao Vatrad Group Co., Ltd. Vores anlæg på 12 500 m² i Laixi, Qingdao, har produceret oppustelige produkter siden 2012; over 25 ingeniører arbejder med F&U, formdesign, materialelaboratorium og produktionsplanlægning og har i gennemsnit mere end 7 års erfaring med produktion af oppustelige produkter. To produktionsskift kører dagligt.',
+    image: 'https://assets.isupfactory.com/images/sups/factory/isupfactory-production-department.webp',
+    imageCaption: 'Vatrads produktionsanlæg, Qingdao, Kina',
+    bullets: [
+      {
+        title: '12 500 m² anlæg',
+        body: 'Fra rå PVC til færdigt bræt, helt internt, i Laixi, Qingdao.',
+      },
+      {
+        title: 'I produktion siden 2012',
+        body: 'To produktionsskift dagligt for SUP-bræt og oppustelige produkter.',
+      },
+      {
+        title: 'Over 25 ingeniører',
+        body: 'Inden for F&U, formdesign, materialelaboratorium og produktionsplanlægning.',
+      },
+      {
+        title: 'I gennemsnit over 7 år',
+        body: 'Erfaring med produktion af oppustelige produkter pr. ingeniør.',
+      },
+    ],
+  },
 }
 
 /* ─────────────────────────── capability strip ─────────────────────────── */
@@ -1044,6 +1135,7 @@ export const strip: Localized<string[]> = {
   sv: ['OEM & ODM', 'Privat etikett', 'Provservice', 'Design & Artwork', 'QC vid varje batch', 'Export över hela världen'],
   no: ['OEM & ODM', 'Private Label', 'Prøvetjeneste', 'Design & Artwork', 'QC ved hver batch', 'Eksport globalt'],
   pl: ['OEM & ODM', 'Private Label', 'Usługa próbek', 'Projekt i grafika', 'QC przy każdej partii', 'Eksport na cały świat'],
+  da: ['OEM & ODM', 'Eget mærke', 'Prøvetjeneste', 'Design & grafik', 'QC ved hvert parti', 'Eksport globalt'],
 }
 
 /* ─────────────────────────── home: trust bar ─────────────────────────── */
@@ -1196,6 +1288,20 @@ export const trustBar: Localized<TrustBarContent> = {
       { value: FACTS.exportCountries, label: 'rynki eksportowe w UE, USA, Australii i Azji' },
       { value: '18 PSI / 24 godz.', label: '100 % test nadmuchiwania i szczelności każdej deski przed pakowaniem' },
       { value: 'MSL Fusion', label: 'wielowarstwowe zgrzewanie HF z tkaninami drop-stitch' },
+    ],
+  },
+  da: {
+    stats: [
+      { value: `MOQ ${MOQ_SHORT.standardRun}`, label: 'til serieproduktion; pilotserier fra 20–50 stk' },
+      { value: FACTS.sampleTime, label: 'prøver på dit bræt efter godkendt grafik' },
+      { value: FACTS.leadTime, label: 'serieproduktion efter bekræftet PO og depositum' },
+      { value: FACTS.annualCapacity, label: 'årlig intern kapacitet på anlægget i Qingdao' },
+      { value: FACTS.warehouseM2, label: 'egen fabrik, fra rå PVC til færdigt bræt' },
+      { value: FACTS.workers, label: 'fabriksansatte og ingeniører på stedet' },
+      { value: 'ISO 9001 · CE · BSCI', label: 'certificeret; REACH/RoHS-kompatible materialer' },
+      { value: FACTS.exportCountries, label: 'eksportmarkeder i EU, USA, Australien og Asien' },
+      { value: '18 PSI / 24 t', label: '100 % oppblæsnings- og lækagetest på hvert bræt før pakning' },
+      { value: 'MSL Fusion', label: 'flerlagssvejsning med vævede drop-stitch-konstruktioner' },
     ],
   },
 }
@@ -1453,6 +1559,30 @@ export const solve: Localized<SolveContent> = {
       {
         title: 'Dostawy seryjne — powtarzalne zamówienia i floty',
         body: 'Produkcja dużych wolumenów dla dystrybutorów, wypożyczalni i grup hotelowych, z wiążącymi specyfikacjami, identyfikowalnością partii i stałą konstrukcją przy każdym powtórnym zamówieniu.',
+      },
+    ],
+  },
+  da: {
+    kicker: 'OEM- og ODM-produktion',
+    title: 'To måder at bygge dit SUP-produkt på',
+    sub: 'OEM, når du har specifikationen, ODM, når du har et koncept — samt eget mærke og volumenleverancer til mærker, der vil have en testet platform.',
+    cta: 'Anmod om et OEM-tilbud',
+    items: [
+      {
+        title: 'OEM — byg efter din specifikation',
+        body: 'OEM (produktion efter kundenspecifikation): vi producerer efter din godkendte specifikation — dine tegninger, mål, materialer, konstruktion og emballage. Du ejer designet, formene og den immaterielle ejendom.',
+      },
+      {
+        title: 'ODM — udvikl brættet med vores ingeniørteam',
+        body: 'ODM (produktion efter originaldesign): vores ingeniørteam udvikler brættets struktur, konstruktion, grafik og emballage ud fra dit brief — hvad enten det er et markedskoncept, et ydeevnemål eller en tilpasning af en testet platform. Fabriken foreslår designet; køberen godkender det før produktionen.',
+      },
+      {
+        title: 'Eget mærke — dit mærke på en testet platform',
+        body: 'Eget mærke: dit mærke, din grafik og din emballage på en eksisterende, valideret platform — uden formudvikling, uden strukturelle ændringer. Den hurtigste vej fra koncept til levering.',
+      },
+      {
+        title: 'Volumenleverance — gentagne ordrer og flådeordrer',
+        body: 'Storskalaproduktion for distributører, udlejningsoperatører og resortgrupper, med bindende specifikationer, batchsporbarhed og ensartet konstruktion ved hver gentagen ordre.',
       },
     ],
   },
@@ -1783,6 +1913,37 @@ export const capability: Localized<CapabilityContent> = {
       },
     ],
   },
+  da: {
+    kicker: 'Produktionskapacitet',
+    title: 'Seks interne produktionsmuligheder',
+    sub: 'Alle processerne nedenfor kører internt. Intet vigtigt sættes ud til tredjepart.',
+    items: [
+      {
+        name: 'CNC-skæring',
+        body: 'Automatiske CNC-maskiner skærer PVC, Hypalon og drop-stitch-stof med 0,1 mm placeringsnøjagtighed og computeroptimeret nesting for at minimere materialetab.',
+      },
+      {
+        name: 'RF-dielektrisk svejsning',
+        body: '15 kW svejsepresser producerer lufttætte sømme. Kanterne er trelags svejste forbindelser, der giver kantstyrke og stødstyrke.',
+      },
+      {
+        name: 'Drop-stitch-kernebelægning',
+        body: 'Tusindvis af interne polyestertråde holder over- og underbelægningen parallel, hvilket giver en stiv platform ved 12–15 PSI. Kerner belagt op til 14 ft.',
+      },
+      {
+        name: 'Dæksgrafik',
+        body: 'Fuldfarves digitaltryk og flerfarvet silketryk ud fra dine mærkefiler. EVA-dækslute i dine farver med tilpassede logoer, udskæringer og strukturer.',
+      },
+      {
+        name: 'Montering og rigging',
+        body: 'Hvert bræt følger en tjekliste med 100 monteringspunkter, underskrevet af linjelederen — beslag, D-ringe, ventiler, leashpunkter og montering af tilbehør.',
+      },
+      {
+        name: 'Eksportemballage',
+        body: 'Vakuumpakket, lagt i kartoner og eksportpakket, med trykte butikskasser som tilvalg.',
+      },
+    ],
+  },
 }
 
 /* ─────────────────────────── home: quality control (How Every Board Is Verified) ─────────────────────────── */
@@ -2107,6 +2268,37 @@ export const quality: Localized<QualityContent> = {
       {
         title: 'Identyfikowalność partii',
         body: 'Każda partia materiału otrzymuje unikatowy numer ERP. Lista materiałowa (BOM) każdej deski odsyła do partii dostawcy. Rejestry przechowujemy przez 10 lat, zgodnie z CE 2013/53/UE.',
+      },
+    ],
+  },
+  da: {
+    kicker: 'Kvalitetskontrol',
+    title: 'Sådan verificeres hvert bræt',
+    sub: 'Kvalitet er en dokumenteret proces, ikke et løfte. Sådan forløber din ordre, før den sendes.',
+    steps: [
+      {
+        title: 'Indgående materialekontrol',
+        body: 'PVC-ruller, drop-stitch-kerner, ventiler, lim og beslag holdes i karantæne indtil QC-godkendelse. Materialerne testes for brudstyrke, rifftest og UV-bestandighed, før nogen batch går i produktion.',
+      },
+      {
+        title: 'Kontrolpunkter under produktionen',
+        body: 'QC-kontrolpunkter ved hvert produktionstrin, hvor svejseprøver trækkes og peel-testes mod batchstandarden.',
+      },
+      {
+        title: 'Tryktæthedstest',
+        body: 'Hvert kammer pumpes op til 18,0 PSI og holdes i 24 timer med kontinuerlig sensorlogning. Ethvert kammer, der overskrider et trykfald på 0,50 PSI over 24 timer, kasseres og returneres til rengøring af sømmen.',
+      },
+      {
+        title: 'Strukturverificering',
+        body: 'Bøjning ved nominel last, udrivningskraft for D-ringen (≥150 kgf pr. D-ring), peel for fastgørelse af dæksluten (≥3,5 N/cm) og ventiltæthed verificeres mod specifikationen før den endelige inspektion.',
+      },
+      {
+        title: 'Endelig inspektion',
+        body: 'Tjekliste med 100 punkter pr. bræt samt mål- og vægtkontrol mod den godkendte prøve.',
+      },
+      {
+        title: 'Batchsporbarhed',
+        body: 'Hver materialebatch får et unikt ERP-nummer. Produktionslisten (BOM) for hvert bræt kobles tilbage til leverandørens batch. Registre opbevares i 10 år i henhold til CE 2013/53/EU.',
       },
     ],
   },
@@ -2778,6 +2970,70 @@ export const commercial: Localized<CommercialContent> = {
       },
     ],
   },
+  da: {
+    kicker: 'Kommercielle vilkår',
+    title: 'Kommercielle vilkår, oplyst på forhånd',
+    sub: 'Standard-MOQ, prøvning, produktions- og leveringsvilkår står anført nedenfor. Projekter, der kræver nye forme, specialmaterialer, overensstemmelsesprøvning eller tilpasset emballage, tilbyder vi særskilt.',
+    cells: [
+      {
+        label: 'Minimumsordre',
+        lines: [
+          'Co-branding: fra 5–10 stk på udvalgte eksisterende platforme',
+          'Pilotbatch: 20–50 stk på eksisterende platforme',
+          'Standardvolumen: 90–100+ stk pr. godkendt konfiguration, afhængigt af materialerulle og emballagekrav',
+        ],
+      },
+      {
+        label: 'Leveringstid',
+        lines: [
+          '25–35 dage fra bekræftet PO og depositum',
+          'Egen formudvikling: +15–20 dage til formfremstilling',
+          'Ekspresproduktion tilgængelig i højsæsoner',
+        ],
+      },
+      {
+        label: 'Prøvning',
+        lines: [
+          'Prototypeprøver sendes inden for 7–12 dage',
+          'Prøveomkostningen krediteres seriebordren',
+        ],
+      },
+      {
+        label: 'Eksport og dokumentation',
+        lines: [
+          'Eksportdokumentation håndteres internt',
+          'Eksportemballage som standard; trykte butikskasser tilgængelige',
+        ],
+      },
+    ],
+    certs: 'ISO 9001 kvalitetsstyring · CE-certificering for modeller til EU-markedet (omfang bekræftes pr. projekt) · BSCI social overensstemmelse (revisionsrapport på forespørsel) · REACH- og RoHS-dokumentation ved hver ordre.',
+    moqTiers: [
+      {
+        stage: 'Prøve og godkendelse',
+        quantity: '1–2 stk til godkendelse',
+        purpose: 'Bekræft form, farver, tryk og emballage før al produktion',
+        note: '7–12 dage; fysisk bræt, ingen rendering',
+      },
+      {
+        stage: 'Co-branding i lille kvantiteter',
+        quantity: 'fra 5–10 stk på udvalgte eksisterende platforme',
+        purpose: 'Test et design på en testet platform med logo-overlæg',
+        note: 'Den hurtigste vej til at validere ny grafik',
+      },
+      {
+        stage: 'Pilotbatch / startlager',
+        quantity: '20–50 stk på eksisterende platforme',
+        purpose: 'Validere markedet eller åbne butikken med rigtige varer',
+        note: 'Laveste volumen på eksisterende platforme',
+      },
+      {
+        stage: 'Standardserieproduktion',
+        quantity: '90–100+ stk pr. godkendt konfiguration, afhængigt af materialerulle og emballagekrav',
+        purpose: 'Regelmæssig serieproduktion til bedste enhedspris',
+        note: '90–100+ stk; nye forme kræver en egen form (+15–20 dages formfremstilling)',
+      },
+    ],
+  },
 }
 
 /* ─────────────────────────── who we serve / customer needs ─────────────────────────── */
@@ -3189,6 +3445,45 @@ export const serve: Localized<ServeContent> = {
       },
     ],
   },
+  da: {
+    kicker: 'Hvem vi betjener',
+    title: 'Bygget til virksomheder, der fremstiller egne SUP-produkter',
+    sub: 'Uanset om du lancerer et nyt paddleboard-mærke eller udvider en eksisterende friluftsproduktlinje, kan vores produktionsløsninger tilpasses din virksomhed.',
+    segments: [
+      {
+        slug: 'sup-brands',
+        title: 'SUP-mærker',
+        body: 'Udvikl skræddersyede paddleboards, der passer til din mærkepositionering, dit målmarked og din produktstrategi.',
+        points: ['Tilpasset design', 'Mærkegrafik', 'Produktudvikling', 'Eget mærke'],
+        cta: 'Udforsk skræddersyede SUP-bræt',
+        href: '/product-development',
+      },
+      {
+        slug: 'outdoor-companies',
+        title: 'Outdoor- og vandsportsvirksomheder',
+        body: 'Udvid produktporteføljen med skræddersyede SUP-produkter, der er designet til dit marked.',
+        points: ['Produkttilpasning', 'Flere modeller', 'OEM-produktion'],
+        cta: 'Se skræddersyede SUP-bræt',
+        href: '/solutions/custom-sup',
+      },
+      {
+        slug: 'distributors-retailers',
+        title: 'Distributører og forhandlere',
+        body: 'Skab differentierede paddleboard-kollektioner i stedet for at konkurrere med de samme standardprodukter.',
+        points: ['Eget mærke', 'Tilpasset emballage', 'Butiksklare produkter'],
+        cta: 'Læs mere',
+        href: '/solutions/private-label-sup',
+      },
+      {
+        slug: 'resorts-clubs',
+        title: 'Resorter, klubber og organisationer',
+        body: 'Udvikl SUP-produkter og udstyr, der er tilpasset driftsmiljøet og dine brugere.',
+        points: ['Tilpassede specifikationer', 'Mærkning', 'Serieproduktion'],
+        cta: 'Se løsningerne',
+        href: '/solutions/resort-sup',
+      },
+    ],
+  },
 }
 
 /* ─────────────────────────── solutions ─────────────────────────── */
@@ -3474,6 +3769,33 @@ export const solutions: Localized<SolutionsContent> = {
         title: 'Wymagania produkcyjne',
         body: 'Dostosuj sposób produkcji swojego projektu.',
         points: ['Ilość', 'Specyfikacja', 'Zastosowanie'],
+      },
+    ],
+  },
+  da: {
+    kicker: 'Tilpasningsevne',
+    title: 'Skræddersyede SUP-produktløsninger til din virksomhed',
+    sub: 'Fra OEM/ODM-programmer for mærker til eget-mærke-linjer for distributører og indkøbsafdelinger — ethvert krav bliver et produktionsklart produkt.',
+    pillars: [
+      {
+        title: 'Brætdesign',
+        body: 'Fastlæg brættet efter behovene i dit produkt.',
+        points: ['Form', 'Mål', 'Tykkelse', 'Konstruktion'],
+      },
+      {
+        title: 'Grafik og mærkning',
+        body: 'Sæt din identitet på hvert bræt.',
+        points: ['Logotype', 'Farver', 'Grafik', 'Tryk'],
+      },
+      {
+        title: 'Tilbehør',
+        body: 'Kompletter produktet med matchende dele.',
+        points: ['Pagaj', 'Taske', 'Finne', 'Emballage'],
+      },
+      {
+        title: 'Produktionskrav',
+        body: 'Tilpas, hvordan dit projekt produceres.',
+        points: ['Mængde', 'Specifikation', 'Anvendelsesområde'],
       },
     ],
   },
@@ -3775,6 +4097,34 @@ export const studio: Localized<StudioContent> = {
       },
     ],
   },
+  da: {
+    kicker: 'Konfigurator',
+    title: 'Specifikationsbygger',
+    sub: 'Rul gennem opbygningen — fra brættets form til den kasse, det sendes i, hvor hvert lag er specificeret af dig.',
+    scrollHint: 'Rul for at udforske',
+    steps: [
+      {
+        title: 'Form og størrelse',
+        body: 'Vælg en testet platform, eller angiv en egen kontur — længde, bredde, tykkelse, railsprofil og rocker.',
+      },
+      {
+        title: 'Konstruktion',
+        body: 'Etlags-, tolags- eller svejset opbygning. Antal skinner og forstærkningszoner specificeres pr. anvendelsesområde.',
+      },
+      {
+        title: 'Dæksgrafik',
+        body: 'Fuld dæksgrafik i dine farver, trykt ud fra dine mærkefiler. Vores prepress-team gør grove koncepter til produktionsklare data.',
+      },
+      {
+        title: 'Dækspute',
+        body: 'EVA i dine mærkesfarver med tilpassede logotyper, sporemønstre, udskæringer og strukturer.',
+      },
+      {
+        title: 'Tilbehør og emballage',
+        body: 'Pagajer, pumper, tasker, finner og leashes — tilpasset og pakket. Trykte kasser og butiksdiske i henhold til din specifikation.',
+      },
+    ],
+  },
 }
 
 /* ─────────────────────────── products ─────────────────────────── */
@@ -3947,6 +4297,20 @@ export const productFilters: Localized<{ all: string; groups: ProductFilterGroup
       { key: 'multi', label: 'Wieloosobowe' },
     ],
   },
+  da: {
+    all: 'Alle platforme',
+    groups: [
+      { key: 'all-around', label: 'Allround' },
+      { key: 'race', label: 'Race' },
+      { key: 'surf', label: 'Surf' },
+      { key: 'touring', label: 'Touring' },
+      { key: 'yoga', label: 'Yoga' },
+      { key: 'whitewater', label: 'Whitewater' },
+      { key: 'fishing', label: 'Fiskeni' },
+      { key: 'kids', label: 'Børn' },
+      { key: 'multi', label: 'Flerpersoners' },
+    ],
+  },
 }
 
 export const products: Localized<ProductsContent> = {
@@ -4113,7 +4477,7 @@ export const products: Localized<ProductsContent> = {
         slug: 'sup-fishing',
         series: 'fishing',
         sku: 'SUP-FSH01',
-        name: 'Inflatable Fishing SUP',
+        name: 'Oppustelig fiskes-SUP',
         tagline: 'Catamaran-stability fishing edition',
         desc: 'Fishing-dedicated inflatable SUP with a double-sided air chamber (catamaran style) for exceptional secondary stability, rod holder mounts, an on-deck fish ruler and a reinforced utility hull.',
         uses: ['Fishing', 'Stability', 'Utility'],
@@ -4141,7 +4505,7 @@ export const products: Localized<ProductsContent> = {
         slug: 'sup-giant',
         series: 'multi',
         sku: 'SUP-GNT01',
-        name: 'Giant SUP — Multi-Person Team Board',
+        name: 'Giant SUP — flerspersons teambræt',
         tagline: '6–8 rider team platform',
         desc: 'Large-format multi-person SUP for 6–8 riders: 16.4–17 ft hull, 59–60 inch width, 8-inch thickness and dual-valve inflation, with 8–12 grab handles and a 4+1 fin system.',
         uses: ['Group', 'Team', 'Leisure'],
@@ -6120,6 +6484,223 @@ export const products: Localized<ProductsContent> = {
       },
     ],
   },
+  da: {
+    kicker: 'Produktplatforme',
+    title: 'SUP-platforme, der kan tilpasses',
+    sub: 'Hver serie er en produktionsplatform — vælg et udgangspunkt, så tilpasser vi form, grafik og specifikationer til dit produkt.',
+    items: [
+      {
+        slug: 'sup-explorer-11',
+        series: 'all-around',
+        sku: 'SUP-EX11',
+        name: "SUP Explorer 11'",
+        tagline: 'Den klassiske allround-platform',
+        desc: 'Vores mest populære allround-bræt — bredt og stabilt skrog for begyndere, smidighed for øvede paddlere og bærbarhed til alle eventyr. Standardudgangspunkt for de fleste nye mærker.',
+        uses: ['Begyndere', 'Allround', 'Familie'],
+        for: ['Nye mærker', 'Udlejningsflåder'],
+        specs: "11'0\" × 32\" × 6\" · drop-stitch PVC · 15 PSI · 19 lbs (8.6 kg)",
+        artwork: 'Drop-stitch-kerne i militærklasse · forstærkede rails · 2+1 finner · komplet pakke',
+        image: 'https://assets.isupfactory.com/site/products/2026/all-around/all-around-03.avif',
+        hue: 195,
+      },
+      {
+        slug: 'sup-ocean-pulse',
+        series: 'whitewater',
+        sku: 'SUP-OP11',
+        name: 'Ocean Pulse Series',
+        tagline: 'Topografisk bølgedesignudgave',
+        desc: 'Havbølger omformet til topografiske konturer i Tiffanyblå, med højpræcisions mekanisk prægning og et ensartet, farvetilpasset tilbehørssortiment.',
+        uses: ['Lifestyle', 'Fladt vand', 'Design'],
+        for: ['Lifestyle-mærker', 'Boutique-resorter'],
+        specs: "11'0\" × 32\" × 6\" · drop-stitch PVC · 15 PSI · 20 lbs (9.1 kg)",
+        artwork: 'UV-digitaltryk + mekanisk varmebrænding · tilpasset tilbehør',
+        image: 'https://assets.isupfactory.com/site/products/2026/whitewater/whitewater-01.avif',
+        hue: 210,
+      },
+      {
+        slug: 'sup-cheetah-surge',
+        series: 'surf',
+        sku: 'SUP-CS11',
+        name: 'Cheetah Surge Edition',
+        tagline: 'Premiumudgave inspireret af vild natur',
+        desc: 'Rå kraft møder kunstnerisk elegance — et gepardmotiv i pastelrosa, teal og koral, bygget med farvetrykket flerfarvet EVA-blokbelægning.',
+        uses: ['Lifestyle', 'Fladt vand', 'Design'],
+        for: ['Lifestyle-mærker', 'Social-first-mærker'],
+        specs: "11'0\" × 32\" × 6\" · drop-stitch PVC · 15 PSI · 20 lbs (9.1 kg)",
+        artwork: 'Flerfarvet EVA-blokbelægning + UV-tryk · delamineringsbestandig opbygning',
+        image: 'https://assets.isupfactory.com/site/products/2026/surf/surf-01.avif',
+        hue: 28,
+      },
+      {
+        slug: 'sup-medusa-glow',
+        series: 'yoga',
+        sku: 'SUP-MG11',
+        name: 'Medusa Glow Series',
+        tagline: 'Gødeludgaven',
+        desc: 'En undervandsdrømverden — lysende gødler, søstjerner og korallrev i forfriskende mintgrøn, med farvetrykket EVA-grafik og enestående sidestabilitet til yoga.',
+        uses: ['Yoga', 'Tropisk', 'Lifestyle'],
+        for: ['Yogastudioer', 'Tropiske mærker'],
+        specs: "11'0\" × 32\" × 6\" · drop-stitch PVC · 15 PSI · 20 lbs (9.1 kg)",
+        artwork: 'Flerfarvet EVA-blokbelægning + UV-tryk · håndtag forankret i PVC-skallen',
+        image: 'https://assets.isupfactory.com/site/products/2026/kids-teens/kids-teens-05.avif',
+        hue: 260,
+      },
+      {
+        slug: 'sup-dolphin-wave',
+        series: 'touring',
+        sku: 'SUP-DW11',
+        name: 'Dolphin Wave Series',
+        tagline: 'Marin 360°-udgave',
+        desc: 'Legende delfiner og lagdelte marineblå bølger med CNC-fræset EVA-svejse og silketrykket kontinuerlig railkunst, der strækker sig 360° rundt om dækket.',
+        uses: ['Marint', 'Fladt vand', 'Design'],
+        for: ['Marinemærker', 'Resorter'],
+        specs: "11'0\" × 32\" × 6\" · drop-stitch PVC · 15 PSI · 20 lbs (9.1 kg)",
+        artwork: 'CNC-fræset EVA-farvebloksvejse + silketrykkede rails · PANTONE TPG-farvematching',
+        image: 'https://assets.isupfactory.com/site/products/2026/touring/touring-02.avif',
+        hue: 210,
+      },
+      {
+        slug: 'sup-flowing-lotus',
+        series: 'yoga',
+        sku: 'SUP-FL11',
+        name: 'Flowing Lotus Series',
+        tagline: 'Wellnessudgave med østlig kunst',
+        desc: 'Traditionelle østlige penselstrøg med lotus-, koï- og dragevingemotiver — laserætset ind i traction-puten, så de aldrig slides op eller falmer. Bygget til rolig paddling og yoga.',
+        uses: ['Yoga', 'Meditation', 'Fladt vand'],
+        for: ['Yogastudioer', 'Wellness-mærker'],
+        specs: "11'0\" × 32\" × 6\" · drop-stitch PVC · 15 PSI · 20 lbs (9.1 kg)",
+        artwork: 'Dobbeltlaget laserætset EVA + gradient-UV-tryk · dynamiske farveblokfinner',
+        image: 'https://assets.isupfactory.com/site/products/2026/yoga/yoga-01.avif',
+        hue: 150,
+      },
+      {
+        slug: 'sup-jungle-mandala',
+        series: 'all-around',
+        sku: 'SUP-JM11',
+        name: 'Jungle Mandala Series',
+        tagline: 'Tropisk hellig geometri',
+        desc: 'Tropisk vitalitet møder hellig geometri — hibiskus, kolibrier og mandala-totemer i Tiffanyblå og korridorange, konstrueret til at være perfekt symmetriske ved fuld trykning.',
+        uses: ['Tropisk', 'Kyst', 'Design'],
+        for: ['Tropiske mærker', 'Rejseformål'],
+        specs: "11'0\" × 32\" × 6\" · drop-stitch PVC · 15 PSI · 20 lbs (9.1 kg)",
+        artwork: 'Dobbeltlaget laserætset EVA + UV-tryk + silketrykkede rails · forvrængningsfri geometri',
+        image: 'https://assets.isupfactory.com/site/products/2026/all-around/all-around-10.avif',
+        hue: 28,
+      },
+      {
+        slug: 'sup-leviathan-wake',
+        series: 'race',
+        sku: 'SUP-LW11',
+        name: 'Leviathan Wake Series',
+        tagline: 'Hvaludgaven',
+        desc: 'Et majestætisk blåhval-totem med geometriske stammenmotiver og minimalistiske sort-hvide bølgelinjer — til paddlere, der føler tilknytning til havet.',
+        uses: ['Hav', 'Allround', 'Design'],
+        for: ['Havemærker', 'Outdoor-mærker'],
+        specs: "11'0\" × 32\" × 6\" · drop-stitch PVC · 15 PSI · 20 lbs (9.1 kg)",
+        artwork: 'UV-digitaltryk + mekanisk prægning · strækbare PVC-farver på logotypet på undersiden',
+        image: 'https://assets.isupfactory.com/site/products/2026/race/race-01.avif',
+        hue: 195,
+      },
+      {
+        slug: 'sup-ocean-voyager',
+        series: 'all-around',
+        sku: 'SUP-OV11',
+        name: 'Ocean Voyager Series',
+        tagline: 'Havskildpaddens udgave',
+        desc: 'En hyldest til havets yderste vandrere — geometrisk skøddet skildpaddegrafik i dybt teal, turkis og korridorange, med et fuldt tilpasset tilbehørspakke.',
+        uses: ['Touring', 'Hav', 'Allround'],
+        for: ['Touring-mærker', 'Outdoor-mærker'],
+        specs: "11'0\" × 32\" × 6\" · drop-stitch PVC · 15 PSI · 20 lbs (9.1 kg)",
+        artwork: 'Flerfarvet EVA-blokbelægning + UV-tryk · farvetilpasset rygsæk, pumpe og leash',
+        image: 'https://assets.isupfactory.com/site/products/2026/all-around/all-around-12.avif',
+        hue: 170,
+      },
+      {
+        slug: 'sup-tropical-breeze',
+        series: 'all-around',
+        sku: 'SUP-TB11',
+        name: 'Tropical Breeze Series',
+        tagline: 'Ø-udgaven',
+        desc: 'En komplet ferieduk — solskin, kokospalmer og strandscener, der flyder fra en mikroillustreret næse til abstrakt EVA-farveblokering mod halen.',
+        uses: ['Ferie', 'Lifestyle', 'Kyst'],
+        for: ['Rejsemærker', 'Resorter'],
+        specs: "11'0\" × 32\" × 6\" · drop-stitch PVC · 15 PSI · 20 lbs (9.1 kg)",
+        artwork: 'UV-digitaltryk + die-cut EVA-lapper · illustreret næselandskab',
+        image: 'https://assets.isupfactory.com/site/products/2026/all-around/all-around-17.avif',
+        hue: 330,
+      },
+      {
+        slug: 'sup-rheo-race',
+        series: 'race',
+        sku: 'SUP-RHEO01',
+        name: 'RHEO Race Series',
+        tagline: 'Raceudgave i kulfiberhybrid',
+        desc: 'Oppusteligt raceboard i eliteklasse med kulfiberhybridkonstruktion og en aggressiv gliderocker — bygget til konkurrence, sprinttræning og tekniske baner, hvor stivhed og hastighed afgør resultatet.',
+        uses: ['Racing', 'Fart', 'Træning'],
+        for: ['Racemandskaber', 'Coaching'],
+        specs: 'Kulfiberhybridmatrice · gliderocker · strømlinjeformet højhastighedsprofil',
+        artwork: 'Oppustelig kulfiberhybridkonstruktion · præstationsgliderocker',
+        image: 'https://assets.isupfactory.com/site/products/2026/race/race-11.avif',
+        hue: 195,
+      },
+      {
+        slug: 'sup-fishing',
+        series: 'fishing',
+        sku: 'SUP-FSH01',
+        name: 'Oppustelig fiskes-SUP',
+        tagline: 'Fiskeriudgave med katamaranstabilitet',
+        desc: 'Fisketilpasset oppustelig SUP med tosidede luftkamre (katamaranstil) for enestående sekundær stabilitet, fastgørelser til stangholder, en lineal til fiskeline på dækket og en forstærket arbejdskurv.',
+        uses: ['Fiskeri', 'Stabilitet', 'Arbejde'],
+        for: ['Fiskemærker', 'Guider'],
+        specs: 'Tosidede luftkamre · lineal til fiskeline 10–80 cm · fastgørelser til stangholder',
+        artwork: 'Forstærket arbejdskurv · metal-D-ringe på flere punkter',
+        image: 'https://assets.isupfactory.com/site/products/2026/fishing/fishing-01.avif',
+        hue: 210,
+      },
+      {
+        slug: 'sup-mini',
+        series: 'kids',
+        sku: 'SUP-MINI01',
+        name: 'Mini SUP Series',
+        tagline: '3-i-1: børn / surf / bodyboard',
+        desc: 'Ultraportabelt hybridbræt, der veksler mellem en børne-SUP, et oppusteligt surfbræt og et bodyboard — med en kort, bred og meget stabil profil og et punkteringsbestandigt dæk.',
+        uses: ['Børn', 'Surf', 'Rejser'],
+        for: ['Børnemærker', 'Resorter'],
+        specs: 'Hybridgeometri SUP / surf / bodyboard · kort bredt skrog · punkteringsbestandigt dæk',
+        artwork: 'Flerfunktions-hybridgeometri · slidstærkt dæksmateriale',
+        image: 'https://assets.isupfactory.com/site/products/2026/mini/mini-01.avif',
+        hue: 28,
+      },
+      {
+        slug: 'sup-giant',
+        series: 'multi',
+        sku: 'SUP-GNT01',
+        name: 'Giant SUP — flerspersons teambræt',
+        tagline: 'Teamplatform til 6–8 deltagere',
+        desc: 'Flerspersons-SUP i stort format til 6–8 deltagere: skrog på 16,4–17 fod, 59–60 tommer bredt og 8 tommer tykt, med oppblæsning via dobbelte ventiler, 8–12 bærehåndtag og et 4+1-finnersystem.',
+        uses: ['Gruppe', 'Team', 'Fritid'],
+        for: ['Resorter', 'Udlejningsflåder'],
+        specs: "16'4\"–17'0\" × 59\"–60\" × 8\" · 1200–1400 L · 11–15 PSI · 4+1 finner",
+        artwork: 'Oppblæsning via dobbelte ventiler · 8–12 bærehåndtag i neopren · 4+1-finnersystem',
+        image: 'https://assets.isupfactory.com/site/products/2026/giant/giant-03.avif',
+        hue: 195,
+      },
+      {
+        slug: 'sup-lure-skiff',
+        series: 'fishing',
+        sku: 'SUP-LSK01',
+        name: 'Utility SUP — Lure Skiff',
+        tagline: 'Spinfiskeri på ultrabredt 120 cm',
+        desc: 'Ultrabredt spinfiskebræt på 120 cm med centralt opbevaringsrum og undervandsvindue, 400 kg bæreevne og et pontonlignende skrog for kastsikker kast og siddende fiskeri.',
+        uses: ['Fiskeri', 'Arbejde', 'Stabilitet'],
+        for: ['Fiskemærker', 'Sportfiskere'],
+        specs: '350 × 120 × 15 cm · 400 kg last · tri-finner · undervandsvindue',
+        artwork: 'Centralt opbevaringsrum · transparentt undervandsvindue · pontonskrog',
+        image: 'https://assets.isupfactory.com/site/products/2026/utility-lure/utility-lure-01.avif',
+        hue: 170,
+      },
+    ],
+  },
 }
 
 /* ─────────────────────────── video showcases ─────────────────────────── */
@@ -6387,6 +6968,31 @@ export const videoShowcase: Localized<{
         { t: 'Antypoślizgowa nakładka na pokład' },
         { t: 'Okucia i elastyczne taśmy' },
         { t: 'Spuszczanie, składanie i pakowanie' },
+      ],
+    },
+  },
+  da: {
+    launch: {
+      badge: 'Mærkelancering',
+      title: 'Drømmer du om at lancere dit eget SUP-mærke?',
+      sub: 'Du skal ikke have din egen fabrik for at lancere et SUP-mærke. Vi er produktionspartneren bag din linje: specifikation, konstruktion, prøvning, kvalitetssikring, emballage og eksportklar produktion — alt under en kontrakt med et ansvarligt team.',
+      points: [
+        { t: 'Komplet OEM/ODM fra koncept til produktion', d: 'Skræddersyet brætgrafik, logointegration, dækspuder og tilpasset emballage.' },
+        { t: 'Fleksibel lancering med lav MOQ', d: 'Support til små serier, så du kan teste markedet uden at binde stor kapital.' },
+        { t: 'Komplette tilbehørspakker', d: 'Ydelsesstærke pagayer, pumper, leashes og rejsetasker, klar til afsendelse.' },
+        { t: 'Kvalitet og certificering på virksomhedsniveau', d: 'Strenge QA/QC-protokoller, trykprøvning og global eksportcompliance.' },
+      ],
+    },
+    process: {
+      badge: 'Inde i fabrikken',
+      title: 'Sådan bliver et oppusteligt SUP født',
+      sub: 'Har du nogensinde undret dig over, hvordan et blødt bræt bliver stenhårdt? Fem trin i vores plant.',
+      points: [
+        { t: 'Præcis tilskæring og UV-tryk' },
+        { t: '100 % lufttæt varmesvejsning' },
+        { t: 'Skridsikkert dækspude' },
+        { t: 'Beslag og elastiske snore' },
+        { t: 'Tøm, fold og pak' },
       ],
     },
   },
@@ -6768,6 +7374,42 @@ export const works: Localized<WorksContent> = {
     ],
     note: 'Zatwierdzona próbka to umowa. Każda deska w partii jest do niej mierzona.',
   },
+  da: {
+    kicker: 'SUP-produktudvikling',
+    title: 'Fra brief til batch — produktudvikling i vores eget anlæg',
+    sub: 'Fra indsamling af krav til færdige produkter — hvert trin i vores egen fabrik.',
+    steps: [
+      {
+        title: 'Indsamling af krav',
+        body: 'Vi indsamler din specifikation, dit målmarked, dine overensstemmelseskrav og din volumenprognose. NDA underskrives før al filudveksling.',
+      },
+      {
+        title: 'Konstruktionsgennemgang',
+        body: 'Brættype, mål, opbygning, materialer og beslag vurderes med hensyn til produktionsevne. Du får en skriftlig rapport med identificerede omkostningsdrivere.',
+      },
+      {
+        title: 'Prepress af grafik',
+        body: 'Dine mærkefiler konverteres til produktionsklare trykkdata. Farver matches og prøvetrykkes før trykningen.',
+      },
+      {
+        title: 'Prototype',
+        body: 'En fysisk prototype bekræfter form, stivhed, vægt og finish. Sendes inden for 7–12 dage.',
+      },
+      {
+        title: 'Prøvegodkendelse',
+        body: 'Du underskriver den fysiske prøve. Intet går i produktion, før referenceprøven (golden sample) er godkendt og arkiveret som batchreference.',
+      },
+      {
+        title: 'Serieproduktion',
+        body: 'Produceres i vores egen fabrik efter kvalitetsprocessen ovenfor, med batchsporbarhed ned til materialpartiniveau.',
+      },
+      {
+        title: 'Eksportklar leverance',
+        body: 'Vakuumpakket, lagt i kartoner, dokumenteret og leveret, klar til eksport.',
+      },
+    ],
+    note: 'Den godkendte prøve er kontrakten. Hvert bræt i batchen måles mod den.',
+  },
 }
 
 /* ─────────────────────────── home: board categories ─────────────────────────── */
@@ -6957,6 +7599,23 @@ export const boardCategories: Localized<BoardCategoriesContent> = {
       { id: 'fishing', label: 'Wędkarstwo', desc: 'Stabilne platformy z uchwytami na wędki i kieszenią roboczą.', image: 'https://assets.isupfactory.com/site/products/2026/fishing/fishing-01.avif', href: '/products/sup-fishing' },
       { id: 'kids', label: 'SUP dla dzieci', desc: 'Mniejsze, lżejsze deski zaprojektowane dla dzieci.', image: 'https://assets.isupfactory.com/site/products/2026/kids-teens/kids-teens-05.avif', href: '/products/sup-mini' },
       { id: 'multi', label: 'Wieloosobowe', desc: 'Duże deski zespołowe dla 6–8 osób.', image: 'https://assets.isupfactory.com/site/products/2026/giant/giant-03.avif', href: '/products/sup-giant' },
+    ],
+  },
+  da: {
+    kicker: 'Vores bræt',
+    title: 'Fra produktkoncept til produktionsklare SUP-bræt',
+    sub: 'Hver brætkategori er en produktionsplatform — vælg dit udgangspunkt, så tilpasser vi form, grafik og specifikationer til dit produkt.',
+    viewLabel: 'Se',
+    items: [
+      { id: 'all-around', label: 'Allround', desc: 'Alsidige SUP-bræt for paddlere på alle niveauer.', image: 'https://assets.isupfactory.com/site/products/2026/all-around/all-around-03.avif', href: '/products/sup-explorer-11' },
+      { id: 'touring', label: 'Touring-SUP', desc: 'Langdistancebræt til udforskning og eventyr.', image: 'https://assets.isupfactory.com/site/products/2026/touring/touring-02.avif', href: '/products/sup-dolphin-wave' },
+      { id: 'race', label: 'Racing', desc: 'Ydeevnebræt til konkurrence og atletisk paddling.', image: 'https://assets.isupfactory.com/site/products/2026/race/race-01.avif', href: '/products/sup-leviathan-wake' },
+      { id: 'whitewater', label: 'Hvidvand', desc: 'Slidstærke bræt bygget til kajaksejlads og livsstil.', image: 'https://assets.isupfactory.com/site/products/2026/whitewater/whitewater-01.avif', href: '/products/sup-ocean-pulse' },
+      { id: 'yoga', label: 'Yoga', desc: 'Rummelige dæk, der er designet til yoga og træning.', image: 'https://assets.isupfactory.com/site/products/2026/yoga/yoga-01.avif', href: '/products/sup-flowing-lotus' },
+      { id: 'surf', label: 'Surf', desc: 'Wende bræt til at tage bølger og surfe.', image: 'https://assets.isupfactory.com/site/products/2026/surf/surf-01.avif', href: '/products/sup-cheetah-surge' },
+      { id: 'fishing', label: 'Fiskeri', desc: 'Stabile platforme med stangholdere og arbejdskurv til fiskeri.', image: 'https://assets.isupfactory.com/site/products/2026/fishing/fishing-01.avif', href: '/products/sup-fishing' },
+      { id: 'kids', label: 'Kids-SUP-bræt', desc: 'Mindre, lettere bræt, der er designet til børn.', image: 'https://assets.isupfactory.com/site/products/2026/kids-teens/kids-teens-05.avif', href: '/products/sup-mini' },
+      { id: 'multi', label: 'Flerspersons', desc: 'Storformat teambræt til 6–8 deltagere.', image: 'https://assets.isupfactory.com/site/products/2026/giant/giant-03.avif', href: '/products/sup-giant' },
     ],
   },
 }
@@ -7329,6 +7988,41 @@ export const platforms: Localized<PlatformsContent> = {
       },
     ],
   },
+  da: {
+    kicker: 'Produktplatforme',
+    title: 'Basisplatforme',
+    sub: 'Basisplatforme, ikke katalogprodukter. Hvert mål, hver konstruktion og al grafik specificeres pr. projekt.',
+    items: [
+      {
+        title: 'Allround',
+        body: 'Klassiske fritidsplatforme til detalhandelsserier, udlejningsflåder og friluftsprogrammer.',
+        uses: ['Detalhandelsserier', 'Udlejningsflåder', 'Friluftsprogrammer'],
+        cta: 'Anmod om denne platform',
+        href: '/contact',
+      },
+      {
+        title: 'Touring',
+        body: 'Længere vandserier bygget til distance, linjeføring og ekspeditioner.',
+        uses: ['Distance', 'Linjeføring', 'Ekspeditioner'],
+        cta: 'Anmod om denne platform',
+        href: '/contact',
+      },
+      {
+        title: 'Racing',
+        body: 'Ydeevneformer til klubber, arrangementer og konkurrencehold.',
+        uses: ['Klubber', 'Arrangementer', 'Konkurrencehold'],
+        cta: 'Anmod om denne platform',
+        href: '/contact',
+      },
+      {
+        title: 'Multifunktionel',
+        body: 'Slidstærke bræt med høj anvendelsesfrekvens til skoler, udlejningsvirksomheder og institutionelle indkøbere.',
+        uses: ['Skoler', 'Udlejningsvirksomheder', 'Institutionelle indkøbere'],
+        cta: 'Anmod om denne platform',
+        href: '/contact',
+      },
+    ],
+  },
 }
 
 /* ─────────────────────────── gallery ─────────────────────────── */
@@ -7629,6 +8323,34 @@ export const gallery: Localized<GalleryContent> = {
       },
     ],
   },
+  da: {
+    kicker: 'Produktionsprojekter',
+    title: 'Seneste produktion',
+    sub: 'Produktionsprojekter leveret fra vores anlæg — med de tal, købere faktisk spørger til.',
+    projects: [
+      {
+        tag: 'Batchsporbarhed',
+        title: 'Frigørelse og overdragelse af sporbarhed',
+        body: 'Hver batch sendes med sin kvalitetsoverdragelse — inspektionsregistre, serienummer pr. bræt og den underskrevede frigørelsesprotokol, arkiveret med 10 års ERP-sporbarhed. Fotografiet viser det faktiske frigørelses- og sporbarhedsregister i anlægget.',
+        hue: 195,
+        image: '/出货放行与批次追溯记录交接.jpg',
+      },
+      {
+        tag: 'Klubmandskaber',
+        title: 'Klubmandskabsbræt — racing-platform',
+        body: 'Racing-platform med specifikationstilpasninger og klubgrafik låst på prøvestadiet; værktøjet blev genbrugt gennem to sæsoner, så udvidelsesordren passede nøjagtig til den oprindelige flåde.',
+        hue: 28,
+        image: 'https://assets.isupfactory.com/site/products/2026/surf/surf-01.avif',
+      },
+      {
+        tag: 'Udvikling af mærkelinje',
+        title: 'Mærkelinjeudvikling — oppustelig SUP',
+        body: 'Et etableret vandsportsmærke tilføjede en serie af oppustelige SUP-bræt: konstruktionsgennemgang, tilpasset form, tre størrelser og en første produktionsserie på 50 stk. med grafik- og lufttæthedskontrol før opskalering — design og værktøj ejes af mærket.',
+        hue: 210,
+        image: 'https://assets.isupfactory.com/site/products/2026/all-around/all-around-03.avif',
+      },
+    ],
+  },
 }
 
 /* ─────────────────────────── buyer's guides (home) ─────────────────────────── */
@@ -7863,6 +8585,28 @@ export const guides: Localized<GuidesContent> = {
       {
         title: 'Certyfikacja CE nadmuchiwanych desek SUP',
         body: 'Co obejmuje certyfikacja CE, których pięć dokumentów warto żądać i jak sprawdzić, czy certyfikat wymienia Twój model.',
+        href: '/news/ce-certification-inflatable-sup',
+      },
+    ],
+  },
+  da: {
+    kicker: 'Indkøbsguider',
+    title: 'Produktionsguider',
+    sub: 'De spørgsmål, ethvert SUP-mærke stiller før en bestilling — besvaret enkelt, med vores reelle vilkår.',
+    guides: [
+      {
+        title: 'Eget mærke: den komplette trin-for-trin-guide',
+        body: 'Fra valg af fabrik til produktion — hele vejen i seks trin for nye mærker.',
+        href: '/news/private-label-sup-guide',
+      },
+      {
+        title: 'SUP OEM-MOQ og prissætning',
+        body: 'MOQ-niveauer fra 1–2 prøver til serier på 90–100+ enheder, de seks omkostningsdrivere og fem måder at sænke omkostningerne uden at gå på kompromis med kvaliteten.',
+        href: '/news/sup-oem-moq-pricing',
+      },
+      {
+        title: 'CE-certificering for oppustelige SUP-bræt',
+        body: 'Hvad CE faktisk dækker, de fem dokumenter, du bør kræve, og hvordan du kontrollerer, at et certifikat nævner din model.',
         href: '/news/ce-certification-inflatable-sup',
       },
     ],
@@ -8238,6 +8982,43 @@ export const manufacturingGuides: Localized<GuidesContent> = {
       {
         title: 'Certyfikacja CE nadmuchiwanych desek SUP',
         body: 'Co obejmuje certyfikacja CE, których pięć dokumentów warto żądać i jak sprawdzić, czy certyfikat wymienia Twój model.',
+        href: '/news/ce-certification-inflatable-sup',
+      },
+    ],
+  },
+  da: {
+    kicker: 'Produktionsguider',
+    title: 'Fra fabrik til færdigt produkt',
+    sub: 'Det komplette indkøbsbibliotek — hver fase i et skræddersyet SUP-projekt med vores reelle leveringstider, vilkår og dokumentation.',
+    guides: [
+      {
+        title: 'Sådan vælger du en SUP-OEM-producent',
+        body: 'Revisionsspørgsmålene, der adskiller en ægte fabrik fra et mellemled: certificeringer, kvalitetssikring, prøver og ejerskab.',
+        href: '/news/how-to-choose-sup-oem-manufacturer',
+      },
+      {
+        title: 'Tidsplan for SUP-produktudvikling',
+        body: 'Prøver inden for 7–12 dage, produktion inden for 25–35 dage, værktøj plus 15–20 — hele kalenderen, trin for trin.',
+        href: '/news/custom-sup-development-timeline',
+      },
+      {
+        title: 'Oplysninger, du bør forberede før bestillingen',
+        body: 'De fem oplysninger, der gør, at en fabrik kan give et korrekt tilbud på første forsøg — og undgår omarbejde af specifikationen.',
+        href: '/news/info-needed-before-sup-production',
+      },
+      {
+        title: 'Eget mærke: den komplette trin-for-trin-guide',
+        body: 'Fra valg af fabrik til produktion — hele vejen i seks trin for nye mærker.',
+        href: '/news/private-label-sup-guide',
+      },
+      {
+        title: 'SUP OEM-MOQ og prissætning',
+        body: 'MOQ-niveauer fra 1–2 prøver til serier på 90–100+ enheder, de seks omkostningsdrivere og fem måder at sænke omkostningerne uden at gå på kompromis med kvaliteten.',
+        href: '/news/sup-oem-moq-pricing',
+      },
+      {
+        title: 'CE-certificering for oppustelige SUP-bræt',
+        body: 'Hvad CE faktisk dækker, de fem dokumenter, du bør kræve, og hvordan du kontrollerer, at et certifikat nævner din model.',
         href: '/news/ce-certification-inflatable-sup',
       },
     ],
@@ -8929,6 +9710,73 @@ export const faq: Localized<FaqContent> = {
       },
     ],
   },
+  da: {
+    kicker: 'FAQ',
+    title: 'Ofte stillede spørgsmål om produktion',
+    sub: 'Spørgsmål, købere stiller, før de afgiver en bestilling — besvaret med vores reelle vilkår.',
+    items: [
+      {
+        q: 'Hvad producerer iSupfactory?',
+        a: 'iSupfactory er en professionel produktionsfabrik med speciale i skræddersyede oppustelige SUP-bræt og tilhørende vandsportsprodukter for globale mærker og virksomheder — konstrueret, prøvet og produceret i vores egen fabrik på 12 500 m² i Qingdao, Kina.',
+      },
+      {
+        q: 'Hvad er forskellen på OEM og ODM?',
+        a: `OEM: vi producerer efter din godkendte specifikation — dine tegninger, mål, materialer og emballage. Du ejer designet og den immaterielle ejendom. ODM: vores konstruktionsteam udvikler brættet ud fra dit brief — hvad enten det er et markedskoncept, et ydeevnemål eller en tilpasning af en testet platform — og du godkender det før produktionen. Eget mærke placerer dit mærke på en eksisterende, valideret platform uden strukturelle ændringer. Både OEM- og ODM-vejen går gennem samme fabrik, samme kvalitetssystem og samme eksportteam; ODM er den hurtigste vej til et mærkebræt, fra ${MOQ_SHORT.standardRun} med prøver inden for ${FACTS.sampleTime}.`,
+      },
+      {
+        q: 'Hvad er jeres minimumsordre?',
+        a: `Co-branding i små kvantiteter starter fra 5–10 stk; pilotpartier fra 20–50 stk. Standardproduktion i volumen starter fra ${MOQ_SHORT.standardRun}. Forme med eget værktøj produceres i volumen, afhængigt af kompleksitet.`,
+      },
+      {
+        q: 'Hvor lang tid tager produktionen?',
+        a: '25–35 dage fra bekræftet bestilling og depositum. Eget værktøj kommer yderligere til med 15–20 dage til formudvikling. Ekspresproduktion findes til sæsonbestillinger med korte frister.',
+      },
+      {
+        q: 'Hvor hurtigt får jeg en prøve?',
+        a: 'Prototypeprøver sendes normalt inden for 7–12 dage efter godkendelse af grafik og specifikation.',
+      },
+      {
+        q: 'Hvilke certificeringer har I?',
+        a: 'ISO 9001 for kvalitetsstyring, CE-certificering for modeller til EU-markedet (omfang bekræftet pr. projekt) og en gyldig BSCI-certificering for social overensstemmelse, med revisionsrapport på forespørsel. REACH- og RoHS-dokumentation følger med hver bestilling.',
+      },
+      {
+        q: 'Håndterer I eksportdokumentationen?',
+        a: 'Ja. Eksportdokumentation og eksporttilpasset emballage håndteres internt, og vi leverer til mærker i over 50 lande i EU, USA, Australien og Asien.',
+      },
+      {
+        q: 'Vil mit design blive vist for andre kunder?',
+        a: 'Nej. Grafik, værktøj og specifikationsfiler forbliver din ejendom. Vi underskriver en NDA før al filudveksling og genbruger eller sælger aldrig kunders værktøj eller design.',
+      },
+      {
+        q: 'Sælger I et eget SUP-mærke?',
+        a: 'Nej. Vi producerer udelukkende under vores kunders mærker. Vi sælger ikke til slutkunder og konkurrerer ikke med vores kunder på noget marked.',
+      },
+      {
+        q: 'Kan I replicere et bræt, jeg allerede sælger?',
+        a: 'Ja. Send en fysisk prøve eller en komplet specifikation, så svarer vores konstruktionsteam med en rapport om produktionsmuligheder, der dækker materiale, konstruktion, tolerancer og omkostningsdrivere.',
+      },
+      {
+        q: 'Kan I producere SUP-bræt med vores logo?',
+        a: 'Ja. Mærketilpasning — logoer, farver, grafik og overfladegrafik — integreres i design og produktion iht. de aftalte specifikationer. Alle mærke- og grafikfiler tilhører dig.',
+      },
+      {
+        q: 'Kan I udvikle et helt nyt SUP-produkt?',
+        a: 'Ja. Den skræddersyede produktudvikling tager udgangspunkt i dit koncept, dine skitser, specifikationer eller markedskrav. Vi arbejder gennem specifikationsgennemgang, strukturel konstruktion, prototypeprøver og godkendelse før serieproduktionen.',
+      },
+      {
+        q: 'Hvilke materialer bruger I i oppustelige SUP-bræt?',
+        a: 'Oppustelige SUP-bræt bygges i drop-stitch-konstruktion med valgfrie PVC-lag og tætheder for at nå mål for vægt, stivhed og pris, med REACH/RoHS-kompatible materialer og kvalitetscertificering (ISO 9001, CE, BSCI).',
+      },
+      {
+        q: 'Samarbejder I med nye eller nystartede SUP-mærker?',
+        a: `Ja. OEM/ODM-projekter udvikles ud fra dine produktkrav, målmarked og volumen — pilotpartier starter fra 20–50 stk, og standardproduktion i volumen fra ${MOQ_SHORT.standardRun}.`,
+      },
+      {
+        q: 'Hvilke oplysninger skal jeg give ved en OEM-forespørgsel om SUP?',
+        a: 'De mest nyttige oplysninger: produkttype, målmarked, brættets mål eller specifikationer, ønsket konstruktion, mærnekrav, forventet antal, emballagekrav og planlagt lanceringsdato. Vores team svarer med en teknisk vurdering og et tilbud inden for en arbejdsdag.',
+      },
+    ],
+  },
 }
 
 export const homeFaq: Localized<FaqContent> = {
@@ -9162,6 +10010,29 @@ export const homeFaq: Localized<FaqContent> = {
       },
     ],
   },
+  da: {
+    kicker: faq.da.kicker,
+    title: faq.da.title,
+    sub: faq.da.sub,
+    items: [
+      {
+        q: 'Hvem er iSupfactory?',
+        a: 'iSupfactory er en SUP-OEM- og ODM-producent i Qingdao, Kina, som tilbyder produktudvikling, prototyping, produktion, kvalitetssikring og eksportproduktion for mærker, distributører og friluftsvirksomheder.',
+      },
+      {
+        q: 'Er iSupfactory en OEM-producent?',
+        a: 'Ja. iSupfactory producerer oppustelige SUP-bræt iht. kundegodkendte specifikationer, herunder mål, materialer, konstruktion, grafik, tilbehør og emballage. ODM-produktudvikling er også tilgængelig for mærker, der ønsker at udvikle en SUP ud fra et brief.',
+      },
+      faq.da.items[1],
+      faq.da.items[2],
+      faq.da.items[3],
+      faq.da.items[5],
+      {
+        q: 'Kan købere gennemføre fabriksrevision eller bruge tredjepartsinspektion?',
+        a: 'Ja. Vi byder gerne køberrevisioner velkommen og samarbejder regelmæssigt med SGS, TÜV, BV og Intertek. Tredjepartsinspektion kan arrangeres i ethvert produktionstrin — indgående materiale, under produktionen eller slutinspektion — og inspektionsrapporter stilles til disposition på forespørsel.',
+      },
+    ],
+  },
 }
 
 /* ─────────────────────────── CTA band ─────────────────────────── */
@@ -9233,6 +10104,12 @@ export const cta: Localized<CtaContent> = {
     body: 'Niezależnie od tego, czy masz już kompletną specyfikację produktu, czy wciąż rozwijasz koncepcję, nasz zespół pomoże Ci ocenić kolejny krok. Napisz, co chcesz zbudować — przeanalizujemy Twoje wymagania i omówimy najbardziej praktyczną drogę od koncepcji do produkcji.',
     button: 'Rozpocznij swój projekt SUP',
     note: 'Odpowiedź w 1 dzień roboczy · NDA na życzenie przed wymianą plików · info@isupfactory.com · +86-13305324192',
+  },
+  da: {
+    title: 'Klar til at udvikle dit SUP-produkt?',
+    body: 'Uanset om du allerede har en komplet produktspecifikation eller stadig udvikler dit koncept, kan vores team hjælpe dig med at vurdere næste trin. Fortæl os, hvad du vil bygge — vi gennemgår dine krav og drøfter den mest praktiske vej fra koncept til produktion.',
+    button: 'Start dit SUP-projekt',
+    note: 'Svar inden for 1 arbejdsdag · NDA på forespørsel før filudveksling · info@isupfactory.com · +86-13305324192',
   },
 }
 
@@ -9561,6 +10438,37 @@ export const valueProp: Localized<ValuePropContent> = {
       },
     ],
   },
+  da: {
+    kicker: 'Vores rolle',
+    title: 'Mere end en SUP-fabrik',
+    sub: 'Mange producenter kan fremstille et standard paddleboard. Vores rolle er en anden. iSupfactory er en partner for produktudvikling og skræddersyet SUP-produktion, der hjælper virksomheder med at gå fra en første tanke til et produktionsklart produkt.',
+    cards: [
+      {
+        title: 'Produktudvikling',
+        body: 'Gør dit koncept, dine skitser, specifikationer eller markedskrav til et produktionsklart SUP-produkt.',
+      },
+      {
+        title: 'Skræddersyet produktion',
+        body: 'Tilpas konstruktion, mål, grafik, farver, tilbehør og emballage efter dine krav.',
+      },
+      {
+        title: 'Prototypeudvikling',
+        body: 'Vurder produktet før serieproduktionen via prøveudvikling og test.',
+      },
+      {
+        title: 'Produktionsstøtte',
+        body: 'Efter godkendt design håndterer vi overgangen fra prototype til gentagelig serieproduktion.',
+      },
+      {
+        title: 'Kvalitetssikring',
+        body: 'Kvalitetskontrol gennem hele produktionen sikrer, at de færdige produkter opfylder de aftalte specifikationer.',
+      },
+      {
+        title: 'Global levering',
+        body: 'Support med emballage og eksportdokumentation forenkler indkøbsprocessen.',
+      },
+    ],
+  },
 }
 
 /* ─────────────────────────── home: role boundary (Where We Stop, You Start) ─────────────────────────── */
@@ -9744,6 +10652,22 @@ export const boundary: Localized<BoundaryContent> = {
       { ours: 'Dokumentacja certyfikacyjna i opakowanie gotowe do eksportu', theirs: 'Relacje z klientami końcowymi i obsługa posprzedażowa' },
     ],
     footer: 'Twoje pliki grafiki, form i specyfikacji pozostają Twoją własnością i nigdy nie są wykorzystywane ponownie, odsprzedawane ani pokazywane innym klientom.',
+  },
+  da: {
+    kicker: 'Hvem vi er',
+    title: 'Bygget af en SUP-fabrik, ikke en handelsplatform',
+    sub: 'Vi er en produktionspartner, ikke en markedsplads. Vores rolle er at hjælpe kunder med at omsætte visioner, designs og produktkrav til produktionsklare SUP-produkter. Du ejer dit mærke. Du styrer dit marked. Vi står for produktionen.',
+    oursTitle: 'Vi står ansvarlige for',
+    theirsTitle: 'Du beholder',
+    rows: [
+      { ours: 'Specifikationsgennemgang og vurdering af produktionsmuligheder', theirs: 'Mærkenavn, identitet og positionering' },
+      { ours: 'Konstruktionsteknologi, materialevalg, formudvikling', theirs: 'Priser, kanaler og salg' },
+      { ours: 'Trykforberedelse af dæksgrafik og produktion fra dine mærkefiler', theirs: 'Ejerskab til alle mærke- og grafikfiler' },
+      { ours: 'Prototyping, prøvning og dokumentation af prøvegodkendelse', theirs: 'Endelig godkendelse af hver prøve' },
+      { ours: 'Serieproduktion, kvalitetskontrol under produktionen og slutkontrol', theirs: 'Dit marked, dine kunder, dine data' },
+      { ours: 'Certificeringsdokumentation og eksporttilpasset emballage', theirs: 'Kundeforhold og eftersalg' },
+    ],
+    footer: 'Dine grafik-, værktøjs- og specifikationsfiler forbliver din ejendom og genbruges, sælges eller vises aldrig for nogen anden kunde.',
   },
 }
 
@@ -10203,6 +11127,42 @@ export const about: Localized<AboutContent> = {
       ],
     },
   },
+  da: {
+    kicker: 'Om os',
+    title: 'Om iSupfactory',
+    sub: 'Din partner for skræddersyet SUP-produktion',
+    story: [
+      'Vi er en OEM/ODM-fabrik for oppustelige SUP-bræt, som i årevis har produceret bræt for mærker, distributører og indkøbsafdelinger over hele verden. Undervejs mødte vi gang efter gang den samme type kunde — mærker og indkøbere med et tydeligt produktkoncept, men uden egen fabrik til at realisere det i.',
+      'Derfor byggede vi iSupfactory omkring dem. Trinvis minimumsordrer fra co-branding-serier på 5–10 enheder, fuld support inden for konstruktion og design og et produktionsteam, der tager den første ordre lige så alvorligt som den hundrede. Du bringer mærket; vi driver fabrikken.',
+    ],
+    values: [
+      { title: 'Kvalitet først', body: 'Hvert bræt går gennem en flertrins kvalitetskontrol — materiale, sømme, tryk, montering og emballage kontrolleres i hvert produktionstrin.' },
+      { title: 'Producent, ikke mellemled', body: 'Design, formudvikling, prototyping, produktion og test sker under samme tag — intet handelsled mellem dig og fabrikken.' },
+      { title: 'Fleksibelt i bunden', body: 'Trinvis minimumsordrer, modulære valgmuligheder og ærlige leveringstider gør, at mærker kan vokse fra prøveordrer til seriemængder.' },
+    ],
+    capabilities: ['OEM / ODM / eget mærke', 'Skræddersyede forme', 'Prøvetjeneste', 'Design og grafik', 'Kvalitetskontrol i flere trin', 'Eksportdokumentation'],
+    stats: [
+      { value: '90–100+ stk', label: 'Standard-MOQ-mængde (pr. godkendt konfiguration)' },
+      { value: '7–12 dager', label: 'Leveringstid for prøver' },
+      { value: '25–35 dager', label: 'Produktionstid' },
+      { value: '20–50 stk', label: 'MOQ for pilotbestillinger' },
+    ],
+    strength: [
+      { title: 'Produktudvikling', body: 'Fra konceptskitser til produktionstegninger — vores ingeniører finjusterer form, rocker, tykkelse og drop-stitch-konstruktion for at nå dine mål for ydeevne og pris.' },
+      { title: 'OEM-produktion', body: 'Byg efter din specifikation: materiale, farver, logoplacering, tilbehør og emballage, i seriemængder fra 90–100+ stk pr. godkendt konfiguration.' },
+      { title: 'ODM-løsninger', body: 'Byg på vores testede platforme — allround, touring, race, yoga med mere — og tilpas mærke, grafik og udstyr for en hurtig og risikofri lancering.' },
+      { title: 'Konstruktionsstøtte', body: 'Formudvikling, prototyping og prøveiteration under samme tag, med trykprøver og grafikgodkendelse ved hvert milepæl før serieproduktionen.' },
+      { title: 'Kvalitetsstyring', body: 'Flerspunkts-QC på materiale, sømme, tryk, montering og emballage, plus stikprøve- og inspektion før afsendelse, som du kan bestille som tredjepart.' },
+      { title: 'Global levering', body: 'Eksportdokumentation, eksporttilpasset emballage og intern dokumentstøtte for mærker i over 50 markeder.' },
+    ],
+    partnering: {
+      title: 'Samarbejde med virksomheder over hele verden',
+      body: [
+        'iSupfactory samarbejder med SUP-mærker, distributører, resorts, skoler og friluftsvirksomheder, der har brug for en pålidelig fabrik til oppustelige paddleboards — fra den første prøveordre til programmer i containermængder.',
+        'Fortæl os om dit marked og det ønskede prisniveau, så svarer vi med et specifikationsark, minimumsordre og leveringstider, der passer til din forretningsmodel.',
+      ],
+    },
+  },
 }
 
 /* ─────────────────────────── customizer page ─────────────────────────── */
@@ -10402,6 +11362,24 @@ export const customizer: Localized<CustomizerContent> = {
     boardLabel: 'TWOJA MARKA',
     cta: 'Stwórz swój projekt',
   },
+  da: {
+    kicker: 'Design din SUP',
+    title: 'Se dit SUP-koncept før produktionen',
+    sub: 'Forhåndsvis, hvordan dit mærke vil se ud på et rigtigt bræt — vælg en farve, se mockupet opdatere live, og send os derefter dit logo for et komplet design.',
+    status: 'Interaktiv forhåndsvisning',
+    statusBody: 'Prøv paletten nu, og send os derefter din vision — vores team laver et gratis mockup af dit komplette design.',
+    steps: [
+      { title: 'Vælg brætmodel', body: 'Fra allround-platforme til touring- og yogaformer — hver med realistiske proportioner.' },
+      { title: 'Vælg farver', body: 'Vælg din mærkepalette, og se brættet ændre sig med det samme.' },
+      { title: 'Upload dit logo', body: 'Anbring dit logo og din grafik på dækket — juster størrelse og placering.' },
+      { title: 'Lav mockup', body: 'Del en forhåndsvisning af din tilpassede SUP med dit team.' },
+    ],
+    mockupLabel: 'Live-forhåndsvisning af mockup',
+    mockupBrand: "SUP Explorer 11'",
+    stepLabel: 'Trin',
+    boardLabel: 'DIT MÆRKE',
+    cta: 'Lav dit design',
+  },
 }
 
 /* ─────────────────────────── products page extras ─────────────────────────── */
@@ -10495,6 +11473,14 @@ export const productsPage: Localized<ProductsPageContent> = {
     customTitle: 'Każdy produkt można dostosować',
     customBody: 'Nic nie schodzi z magazynu gotowe. Każda deska jest budowana dla Ciebie, zgodnie z Twoimi wyborami na każdym poziomie.',
     customPoints: ['Kształt i wymiary', 'Kolory i grafika na całej desce', 'Projekt logo i nakładki EVA', 'Akcesoria i opakowanie'],
+  },
+  da: {
+    kicker: 'Produktplatforme',
+    title: 'SUP-platforme, der kan tilpasses',
+    sub: 'Hver model nedenfor er en produktionsplatform. Vælg en som udgangspunkt, så tilpasser vi form, grafik, farver og specifikationer til dit produkt.',
+    customTitle: 'Hvert produkt kan tilpasses',
+    customBody: 'Intet sendes færdigt fra hylden. Hvert bræt bygges til dig med dine valg i hvert lag.',
+    customPoints: ['Form og størrelse', 'Farver og grafik på hele brættet', 'Logo- og EVA-pudedesign', 'Tilbehør og emballage'],
   },
 }
 
@@ -10623,6 +11609,17 @@ export const catalogDownload: Localized<CatalogContent> = {
     successTitle: 'Zapytanie przyjęte',
     successBody: 'Nasz zespół sprzedaży wyśle pełny katalog produktowy i arkusz MOQ na adres {email} w ciągu jednego dnia roboczego.',
   },
+  da: {
+    kicker: 'Produktkatalog',
+    title: 'Få hele katalogen og MOQ-arket',
+    body: 'Alle platforme med specifikationer, grafikalternativer, MOQ-niveauer, prøvetider og emballage — sendt til din indbakke af vores salgsteam inden for en arbejdsdag.',
+    emailLabel: 'Arbejdse-mail',
+    emailPlaceholder: 'dig@dinvirksomhed.dk',
+    submit: 'Anmod om kataloget',
+    secure: 'Ingen spam. Kun kataloget og svar om dit projekt.',
+    successTitle: 'Forespørgsel modtaget',
+    successBody: 'Vores salgsteam sender hele produktkataloget og MOQ-arket til {email} inden for en arbejdsdag.',
+  },
 }
 
 /* ─────────────────────────── gallery page extras ─────────────────────────── */
@@ -10695,6 +11692,12 @@ export const galleryPage: Localized<GalleryPageContent> = {
     sub: 'Wgląd w to, jak powstają produkty SUP — od wymagań klienta po gotowe deski.',
     note: 'Chcesz, aby Twój projekt znalazł się tutaj? Porozmawiajmy i zaprojektujmy go razem.',
   },
+  da: {
+    kicker: 'Skræddersyede SUP-projekter',
+    title: 'Skræddersyede SUP-projekter',
+    sub: 'Et indblik i, hvordan SUP-produkter bliver til — fra kundekrav til færdige bræt.',
+    note: 'Vil du have dit projekt vist her? Start en samtale, så designer vi det sammen.',
+  },
 }
 
 /* ─────────────────────────── who-we-serve page extras ─────────────────────────── */
@@ -10755,6 +11758,11 @@ export const servePage: Localized<ServePageContent> = {
     kicker: 'Dla kogo pracujemy',
     title: 'Rozwiązania SUP na zamówienie dla Twojej firmy',
     sub: 'Niezależnie od tego, czy potrzebujesz desek z własną marką dla swojej organizacji, czy indywidualnych produktów SUP dla swojej firmy, pomożemy zamienić wymagania w gotowe produkty.',
+  },
+  da: {
+    kicker: 'Hvem vi arbejder for',
+    title: 'Skræddersyede SUP-løsninger til din virksomhed',
+    sub: 'Uanset om du har brug for mærkebræt til din organisation eller skræddersyede SUP-produkter til din virksomhed, hjælper vi dig med at omsætte krav til færdige produkter.',
   },
 }
 
@@ -10839,6 +11847,13 @@ export const worksPage: Localized<WorksPageContent> = {
     sub: 'Zbieranie wymagań, przegląd konstrukcji, próbki, produkcja i eksport — każdy etap odbywa się w naszej własnej fabryce.',
     consultTitle: 'Zacznij od przeglądu specyfikacji',
     consultBody: 'Wyślij nam specyfikację, wzorcową deskę lub rysunki techniczne. Otrzymasz ocenę możliwości produkcji oraz ofertę — bez żadnych zobowiązań.',
+  },
+  da: {
+    kicker: 'Udviklingsproces',
+    title: 'Fra specifikation til færdigt produkt',
+    sub: 'Indsamling af krav, konstruktionsgennemgang, prøvning, produktion og eksport — hvert trin i vores egen fabrik.',
+    consultTitle: 'Start med en specifikationsgennemgang',
+    consultBody: 'Send os din specifikation, et referencebræt eller tegninger. Vi returnerer en produktionsvurdering og et tilbud — helt uden forpligtelser.',
   },
 }
 
@@ -11066,6 +12081,27 @@ export const series: Localized<SeriesContent> = {
         title: 'Seria Medusa Glow (edycja Meduza)',
         sku: 'SUP-MG11',
         body: 'Żywe meduzy, rozgwiazdy i rafy koralowe z realistycznymi motywami blokowymi EVA w odświeżającym kolorze mięty. Wszystroundowa deska 11 ft do tropikalnych i nadmorskich przygód.',
+        image: 'https://assets.isupfactory.com/site/products/2026/editions/medusa-jellyfish-edition.avif',
+        href: '/products/sup-medusa-glow',
+      },
+    ],
+  },
+  da: {
+    kicker: 'Signaturserien',
+    title: 'Tematiske SUP-udgaver',
+    sub: 'Havinspirerede tematiske udgaver, der er klar til dit eget mærke — færdigdesignede løsninger med UV-digitaltryk og mekanisk prægning.',
+    items: [
+      {
+        title: 'Leviathan Wake-serien (Hvaludgaven)',
+        sku: 'SUP-LW11',
+        body: 'Et majestætisk blåhval-totem med geometriske og tribale mønstre, kombineret med minimalistiske sort-hvide bølgelinjer. Allround-skrog på 11 ft til søer, floder og kystfarvande.',
+        image: 'https://assets.isupfactory.com/site/products/2026/editions/leviathan-whale-edition.avif',
+        href: '/products/sup-leviathan-wake',
+      },
+      {
+        title: 'Medusa Glow-serien (Gødeludgaven)',
+        sku: 'SUP-MG11',
+        body: 'Levende gødler, søstjerner og korallrev med farvetrykkede EVA-blokmotiver i forfriskende mintgrøn. Allround-skrog på 11 ft til tropiske og kystnære eventyr.',
         image: 'https://assets.isupfactory.com/site/products/2026/editions/medusa-jellyfish-edition.avif',
         href: '/products/sup-medusa-glow',
       },

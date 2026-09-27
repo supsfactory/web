@@ -1,0 +1,82 @@
+meta:
+  title: 'Sådan vælger du SUP-tykkelse — konstruktionsanalyse'
+  description: 'Hvordan oppustelige SUP-brætter på 4", 5" og 6" adskiller sig i stivhed, vægt, stabilitet og sporing, med råd om tykkelse.'
+  author: 'iSupfactory'
+  datePublished: '2026-08-04'
+  dateModified: '2026-08-07'
+back_text: 'Tilbage til forskning'
+
+hero:
+  tagline: 'Konstruktion'
+  title: 'Sådan vælger du SUP-tykkelse — konstruktionsanalyse'
+  subtitle: '6 min læsning'
+
+answer:
+  label: 'Det korte svar'
+  text: 'Tykkelsen afvejer stivhed mod stabilitet: 4\" (10 cm) er stivest, lettest og hurtigst — bedst til touring og kap; 5\" (12.7 cm) er allroundvalget for de fleste padlere; 6\" (15.2 cm) maksimerer den primære stabilitet til yoga og tungere padlere (100+ kg). Et tyndere tværsnit er strukturelt stivere, så et 4\"-bræt ved 15 PSI bøjer mindre end et 6\"-bræt ved 25 PSI.'
+  verified: 'September 2026'
+
+content_html: |
+  <h2>De tre standardtykkelser</h2>
+
+  <h3>4" (10 cm) – Touring og ydelse</h3>
+  <ul>
+    <li>Højest stivhed – mindre bøjning under last</li>
+    <li>Lettest – mindre materiale, mindre luftvolumen</li>
+    <li>Fremragende sporing – reducerede side-til-side-svingninger</li>
+    <li>Hurtigst – lavere modstand, lettere glidning</li>
+    <li>Bedst til: touring, kap, fitnes, erfarne padlere</li>
+  </ul>
+
+  <h3>5" (12.7 cm) – Allround</h3>
+  <ul>
+    <li>God stivhed – balanceret forhold mellem bøjning og stivhed</li>
+    <li>Mellem vægt – standard materialeforbrug</li>
+    <li>God primær og sekundær stabilitet</li>
+    <li>Bedst til: fritidspadling, begyndere, søer og åer i hverdagsbrug</li>
+  </ul>
+
+  <h3>6" (15.2 cm) – Stabilitet og yoga</h3>
+  <ul>
+    <li>Højest primær stabilitet – massiv opdriftskraft</li>
+    <li>Tungest – mere PVC-materiale, større luftvolumen</li>
+    <li>Langsomst – større modstand, sværere at holde glidning</li>
+    <li>Bedst til: yoga/fitnes, tunge padlere (100+ kg), meget krappe forhold</li>
+  </ul>
+
+  <h2>Konstruktionsanalyse</h2>
+  <p>Et oppusteligt SUP-bræts stivhed bestemmes af det indvendige lufttryk og brættets tværsnits massemoment. Ved 20 PSI viser et 4"-bræt cirka 30 % mindre bøjning under last end et 6"-bræt med samme bredde og længde. Den primære stabilitet kommer fra vandoverfladsbredden og opdriftskraften; den sekundære stabilitet påvirkes af kantformen og brættets bredde.</p>
+
+  <h2>Tykkelse efter rytterens vægt</h2>
+  <table class="w-full text-sm border-collapse">
+    <thead>
+      <tr class="bg-gray-100">
+        <th class="p-3 text-left font-semibold text-gray-900 border">Rytterens vægt</th>
+        <th class="p-3 text-left font-semibold text-gray-900 border">Anbefalet tykkelse</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td class="p-3 border">Under 65 kg (143 lbs)</td><td class="p-3 border">4"</td></tr>
+      <tr><td class="p-3 border">65 – 90 kg (143 – 198 lbs)</td><td class="p-3 border">5"</td></tr>
+      <tr><td class="p-3 border">90 – 115 kg (198 – 253 lbs)</td><td class="p-3 border">5" eller 6"</td></tr>
+      <tr><td class="p-3 border">Over 115 kg (253 lbs)</td><td class="p-3 border">6"</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Afvejningen mellem tykkelse og PSI</h2>
+  <p>En udbredt misforståelse er, at højere PSI kan kompensere for overdreven tykkelse. Ved 25 PSI viser et 6"-bræt større bøjning end et 4"-bræt ved 15 PSI, fordi det geometriske massemoment dominerer stivhedsudtrykket. For ydelsesorienterede padlere overgår et tyndere bræt ved lavere tryk et tykkere bræt ved højere tryk.</p>
+
+  <h2>Vatrads program</h2>
+  <ul>
+    <li><strong>4"-brætter:</strong> Cheetah Touring-serien – 12' x 30" x 4" touring-SUP til fitnes og distancepadling</li>
+    <li><strong>5"-brætter:</strong> Cheetah All-Round-serien – 10'6" x 32" x 5" til fritidsbrug</li>
+    <li><strong>6"-brætter:</strong> Cheetah Ultra-Stable-serien – 10' x 34" x 6" til yoga, store ryttere og fotopladforme</li>
+  </ul>
+  <p>Alle brætter anvender drop-stitch-kerner i 1,680 DTEX med 15 PSI dimensioneret tryk og 1.2 mm PVC-laminater.</p>
+  <p>Tykkelse, PSI og stofspecifikation kan alle konfigureres til specialserier — se hvordan vi <a href="/da/oem-manufacturing">udvikler brætter til OEM- og private label-mærker</a>, og gå gennem vores brætkonstruktion på <a href="/da/factory">fabriksgulvet</a>.</p>
+
+cta:
+  title: 'Er du i tvivl om, hvilken tykkelse der passer til dig?'
+  subtitle: 'Gennemse vores SUP-program, eller spørg vores sizingteam.'
+  button_text: 'Se SUP-brætterne'
+  button_link: /da/products

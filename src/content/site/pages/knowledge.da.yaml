@@ -1,0 +1,111 @@
+meta:
+  title: 'Viden — oppustelige SUP & OEM-guider | {SITE}'
+  description: 'Vatrads vidensbase: guider om oppustelige SUP-brætter, paddleboard-materialer, valg af bræt og brancheindsigt for mærker og fagfolk.'
+  dateModified: '2026-08'
+  keywords:
+    - 'sup viden'
+    - 'guide til oppustelige sup'
+    - 'paddleboard materialer'
+    - 'indsigt i sup-branchen'
+hero:
+  tagline: 'Videnscenter'
+  title: 'SUP-videnscenter'
+  subtitle: |
+    En struktureret vidensbase, der dækker oppustelig SUP-teknologi,
+    vandsikkerhed, brætkonstruktion og planlægning af eventyr.
+  taglineSection: 'Udforsk. Lær. Tag ud med selvtillid.'
+
+clusters:
+  tagline: 'Vidensklynger'
+  title: 'Udforsk efter emne'
+  subtitle: 'Dybdegående om den teknologi, sikkerhed og de færdigheder, der ligger bag hvert Vatrad-produkt.'
+  items:
+    - title: 'SUP-købsguider'
+      description: 'Fra valget af dit første bræt til avancerede touringteknikker — alt om paddleboarding.'
+      icon: 'tabler:lifebuoy'
+      topics:
+        - 'Sådan vælger du dit første oppustelige SUP-bræt'
+        - 'Vejledning i SUP-størrelse og vægtgrænse'
+        - 'Bedste SUP til begyndere, touring, yoga og racing'
+        - 'Almindelige fejl ved køb af SUP, du bør undgå'
+        - 'Oppusteligt kontra hårdt bræt'
+    - title: 'SUP-konstruktion & teknologi'
+      description: 'Tekniske guider om oppustelige SUP-brætter — materialer, konstruktionsmetoder og produktionsprocesser.'
+      icon: 'tabler:microscope'
+      topics:
+        - 'Drop-stitch-teknologi i dybet'
+        - 'PVC-specifikationer i militærkvalitet'
+        - 'Fusionslaminering kontra limbinding'
+        - 'EVA-skumteknologi og metoder til artwork'
+        - 'Typer af SUP-ventiler og finnesystemer'
+    - title: 'SUP-sikkerhed & vedligeholdelse'
+      description: 'Grundlæggende sikkerhedsviden til enhver pagajroder — fra valg af redningsvest til læsning af vejret og pleje og reparation af brættet.'
+      icon: 'tabler:shield'
+      topics:
+        - 'Tjekliste for SUP-sikkerhed og krav til redningsvest'
+        - 'Sikkerhed med flere kamre på fjernt vande'
+        - 'Vejledning i PSI ved oppustning af SUP'
+        - 'Opbevaring af bræt og vinterpleje'
+        - 'Teknikker til reparation af oppustelige brætter'
+    - title: 'SUP-færdigheder & teknik'
+      description: 'Pagajteknikker, touringfærdigheder og fysisk træning for alle niveauer.'
+      icon: 'tabler:sailboat'
+      topics:
+        - 'Pagajteknik for begyndere'
+        - 'Beherskelse af åretag for øvede'
+        - 'Planlægning af touring og ekspeditioner'
+        - 'SUP-træning og racetræning'
+        - 'Færdigheder i whitewater og på floder'
+    - title: 'SUP-livsstil & specialbrug'
+      description: 'Specialiserede SUP-aktiviteter — yoga, fiskeri, hunde, familie og rejsetips.'
+      icon: 'tabler:heart'
+      topics:
+        - 'SUP-yoga og meditation på vandet'
+        - 'Fiskeri fra et oppusteligt SUP-bræt'
+        - 'Paddleboarding med hunde og børn'
+        - 'Rejse med dit SUP-bræt i fly og bil'
+        - 'SUP-tilbehør og vigtigste udstyr'
+    - title: 'SUP-sammenligninger & referencer'
+      description: 'Side-by-side-sammenligninger, der hjælper dig med at træffe velinformerede valg.'
+      icon: 'tabler:chart-bar'
+      topics:
+        - 'SUP kontra kajak — hvad passer til dig?'
+        - 'Sammenligning af materialerne PVC og Hypalon'
+        - 'Sikkerhed med et kammer kontra flere kamre'
+        - 'Materialerne i SUP-brætter forklaret'
+        - 'UV-tryk kontra artwork i EVA-skum'
+
+featured_guides:
+  tagline: 'Fremhævede guider'
+  title: 'Mest populære vidensressourcer'
+  items:
+    - title: 'SUP-grundlæggende'
+      href: '/da/knowledge'
+    - title: 'Oppusteligt kontra hårdt bræt'
+      href: '/da/inflatable-vs-hardboard'
+    - title: 'Guide til vandsikkerhed'
+      href: '/da/guides/safety-tips'
+    - title: 'Materialereference'
+      href: '/da/knowledge'
+    - title: 'Købsguide til SUP'
+      href: '/da/guides/how-to-choose-your-sup'
+    - title: 'Størrelsesguide til SUP'
+      href: '/da/size-guide'
+    - title: 'SUP-teknologicenter'
+      href: '/da/technology'
+    - title: 'Vedligeholdelse af SUP'
+      href: '/da/knowledge'
+    - title: 'Touringguide'
+      href: '/da/products/touring'
+    - title: 'Pagajteknikker'
+      href: '/da/knowledge'
+
+cta:
+  title: 'Begynd at udforske'
+  subtitle: 'Dyk ned i vores vidensbase, og find de oplysninger, du skal bruge til dit næste eventyr på vandet.'
+  actions:
+    - variant: primary
+      text: 'Gennemse alle guider'
+      href: '/da/knowledge'
+    - text: 'Udforsk vidensgrafen'
+      href: '/da/knowledge'

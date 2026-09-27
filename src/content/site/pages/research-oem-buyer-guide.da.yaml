@@ -1,0 +1,103 @@
+meta:
+  title: 'OEM-køberguide: sourcing af SUP-brætter i Asien | iSupfactory'
+  description: 'Sourcing af oppustelige SUP-brætter i Asien: tjekliste for fabriksaudit, QC-protokoller, overensstemmelse, MOQ-forhandling, leveringsbetingelser og faldgruber.'
+  author: 'iSupfactory'
+  datePublished: '2026-08-04'
+  dateModified: '2026-08-07'
+back_text: 'Tilbage til forskning'
+
+hero:
+  tagline: 'Sourcing'
+  title: 'OEM-køberguide — sourcing af oppustelige SUP-brætter i Asien'
+  subtitle: '12 min læsning'
+
+answer:
+  label: 'Det korte svar'
+  text: 'Minimumsordren (MOQ) bekræftes ud fra projektets konfiguration frem for et fast tal: prøveudvikling (1–2 stk.) validerer byggningen, pilotordrer (20–50 stk.) tester markedet på eksisterende platforme, standardvolumen producerer 90–100+ stk. pr. parti ud fra en fuld drop-stitch-rulle på 150 m, og co-branding i små partier starter ved 5–10 stk. Prøver sendes af sted på 7–12 dage; større partier produceres på 25–35 dage efter bekræftet ordre og depositum, plus 15–20 dage når nyt værktøj er påkrævet.'
+  verified: 'September 2026'
+
+content_html: |
+  <h2>1. Forhåndskvalificering: Hvad du skal se efter i en fabrik</h2>
+
+  <h3>Overensstemmelsescertifikater</h3>
+  <ul>
+    <li><strong>ISO 9001:2015</strong> – Kvalitetsstyringssystem</li>
+    <li><strong>CE-certificering</strong> – Verificer nummeret på det bemyndigede organ</li>
+    <li><strong>BSCI / SMETA / SEDEX</strong> – Audits for social ansvarlighed</li>
+    <li><strong>REACH / RoHS</strong> – Erklæringer om materialeoverensstemmelse</li>
+  </ul>
+
+  <h3>Produktionskapaciteter</h3>
+  <ul>
+    <li>Vævning af drop-stitch-kerne i eget hus eller outsourcet</li>
+    <li>PVC-belægnings-/lamineringslinje</li>
+    <li>Udstyr til højfrekvenssvejsning og luftsvejsning</li>
+    <li>Formfremstilling i eget hus (CNC-bearbejdning)</li>
+    <li>Testlaboratorium (trykprøvning, UV-aldring, trækprøvning)</li>
+  </ul>
+
+  <h3>Verifikation af erfaring</h3>
+  <ul>
+    <li>Års erfaring i produktion af oppustelige fartøjer (mindst 5 år)</li>
+    <li>Antal af ingeniører i sjakket</li>
+    <li>Eksisterende OEM/ODM-kunder (bed om referencer)</li>
+    <li>Eksportmarkeder – sender de allerede til dit målmarked?</li>
+  </ul>
+
+  <h2>2. Kvalitetskontrolprotokoller</h2>
+  <p>QC på indgående materialer: trækstyrke (ASTM D751 eller ISO 1421), revnemodstand (ASTM D2261 eller ISO 4674), vedhæftningsstyrke, stikprøvevis UV-aldring.</p>
+  <p>QC undervejs: overvågning af sømstyrke hver 50. stk., kontrol af ventilmoment, kontrol af drop-stitch-trådtæthed og målekontrol mod CAD-tegninger.</p>
+  <p>Slutinspektion: 100 % oppustningsholdprøvning (24 timer, maks. 0.50 PSI fald), visuel inspektion, ventilfunktionsprøvning og stikprøvetest (AQL 2.5 eller 4.0 i henhold til ISO 2859).</p>
+
+  <h2>3. Tjekliste over overensstemmelsesdokumenter</h2>
+  <ul>
+    <li>Overensstemmelseserklæring (DoC), der henviser til det korrekte EU-direktiv</li>
+    <li>CE-certifikat fra et bemyndiget organ</li>
+    <li>Testrapport fra et akkrediteret laboratorium</li>
+    <li>Sikkerhedsdatablader for materialer (MSDS)</li>
+    <li>REACH-overensstemmelseserklæring</li>
+    <li>Stykliste med leverandørsporbarhed</li>
+    <li>Fabriksinspektionsrapport</li>
+  </ul>
+
+  <h2>4. Forhandling af MOQ</h2>
+  <p>MOQ for oppustelige SUP-brætter fastsættes af produktionsvejen og projektkonfigurationen, ikke af gætteri. Alle Vatrad OEM/ODM-projekter følger tre forskellige antalsstadier — prøve, pilot og volumen — og hele beregningslogikken forklares i vores <a href="/da/oem-moq-guide">MOQ- og fleksibel branding-guide</a>:</p>
+  <table class="w-full text-sm border-collapse">
+    <thead>
+      <tr class="bg-gray-100">
+        <th class="p-3 text-left font-semibold text-gray-900 border">Produktionsvej</th>
+        <th class="p-3 text-left font-semibold text-gray-900 border">MOQ</th>
+        <th class="p-3 text-left font-semibold text-gray-900 border">Tidsplan</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td class="p-3 border font-medium">Prøveudvikling (pr. design)</td><td class="p-3 border">1 – 2 stk.</td><td class="p-3 border">Prøver på 7 – 12 dage</td></tr>
+      <tr><td class="p-3 border font-medium">Pilotordre (eksisterende platforme)</td><td class="p-3 border">20 – 50 stk.</td><td class="p-3 border">Markedsvalidering med lagerførte materialer</td></tr>
+      <tr><td class="p-3 border font-medium">Standardvolumenparti (pr. design)</td><td class="p-3 border">90 – 100+ stk.</td><td class="p-3 border">25 – 35 dage efter ordre og depositum</td></tr>
+      <tr><td class="p-3 border font-medium">Helt specialform / private label</td><td class="p-3 border">Bekræftes ud fra projektkonfigurationen</td><td class="p-3 border">Tilsætter 15 – 20 dage til værktøjet</td></tr>
+    </tbody>
+  </table>
+  <p>Antallet i prøve-, pilot- og volumenproduktion er forskelligt: prøveudvikling (1–2 stk.) validerer byggningen, pilotordrer (20–50 stk.) tester markedet på eksisterende platforme, og standardvolumen producerer 90–100+ stk. pr. parti ud fra en fuld drop-stitch-rulle på 150 m — med volumenprisniveauer, efterhånden som ordrestørrelsen vokser. Få beregningen af MOQ, leveringstid og betalingsbetingelser for netop dit bræt skriftligt, før du binder dig til en leverandør.</p>
+
+  <h2>5. Logistik og fragt</h2>
+  <p>Almindelige Incoterms: <strong>FOB</strong> (Fabrikken leverer til afgangsporten – mest almindeligt), <strong>EXW</strong> (Køberen arrangerer al fragt fra fabrikkens dør), <strong>CIF</strong> (Fabrikken betaler fragt og forsikring til destinationshavnen).</p>
+  <p>Oppustelige produkter er lette og fylder meget – fragtomkostningen bestemmes ofte af den volumetriske vægt (DIM). Bed om vakuumemballage, der reducerer volumen med 50–60 %. Søfragt fra Kina til EU tager typisk 25–35 dage og 7–12 dage til Amerikas vestkyst – oven i leveringstiden på 25–35 dage for produktionen.</p>
+
+  <h2>6. Almindelige faldgruber</h2>
+  <ul>
+    <li><strong>Ingen fabriksaudit:</strong> Gennemfør eller bestil altid en tredjepartsaudit (QIMA, SGS, Bureau Veritas)</li>
+    <li><strong>Kun mundtlige specifikationer:</strong> Detaljeret teknisk specifikationsark undertegnet af begge parter</li>
+    <li><strong>Prøvegodkendelse springes over:</strong> Skriftlig godkendelse af prøver før større produktion</li>
+    <li><strong>Ingen QC under produktionen:</strong> Tredjepartsinspektion under produktionen (DUPRO) og før afsendelse (PSI)</li>
+    <li><strong>Overensstemmelse ignoreres:</strong> Verificer CE-mærkning (direktiv 2013/53/EU) og markedsspecifik dokumentation før produktionen</li>
+  </ul>
+
+  <h2>7. Hvorfor Vatrad</h2>
+  <p>Vatrad har produceret OEM/ODM oppustelige SUP-brætter siden 2012. Med et ISO 9001-certificeret anlæg på 12,500 m&sup2;, 25+ ingeniører og CE-certificering af modeller til EU-markeder (dækningsomfang bekræftet pr. projekt) opfylder vi ethvert kriterium i denne guide. Vi tilbyder prøve-MOQ’er til nye partnere og komplette pakker med overensstemmelsesdokumenter.</p>
+  <p>Se vores <a href="/da/oem-manufacturing">OEM/ODM-produktionsydelser for oppustelige SUP</a> eller gå en tur på <a href="/da/factory">fabriksgulvet på 12,500 m&sup2;</a> for at se udstyret og QC-processerne bag hvert trin ovenfor.</p>
+
+cta:
+  title: 'Klar til at begynde sourcing?'
+  subtitle: 'Kontakt vores OEM-team for at drøfte dine projektkrav.'
+  button_text: 'Anmod om et tilbud'
+  button_link: /da/contact

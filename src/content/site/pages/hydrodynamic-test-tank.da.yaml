@@ -1,0 +1,115 @@
+meta:
+  title: 'Hydrodynamisk testbassin — ydeevnetest af SUP-brætter'
+  description: 'Valider ydeevnen for SUP-bråts skrog med vores hydrodynamiske testbassin. Slæbning af skala-modeller, analyse af planing og måling af modstand for brætformer.'
+  dateModified: '2026-08'
+back_text: 'Tilbage til R&D-centeret'
+home_label: 'Hjem'
+
+answer:
+  label: 'Det korte svar'
+  text: 'Vi bassintester SUP-skrogets former i modelskala 1:3 til 1:5 — noseprofil, kantradius, rocker og våd overflade — og måler modstand, glidningseffektivitet og stabilitet, før vi binder os til en prototype i fuld størrelse. En uge i bassinet giver de ydeevnedata, der ellers ville tage måneder af prøvninger i fuld skala.'
+  verified: 'September 2026'
+
+hero:
+  tagline: 'Lab 04'
+  title: 'Hydrodynamisk testbassin'
+  subtitle: 'Validering af ydeevne før den første prototype i fuld skala'
+  image: 'https://assets.isupfactory.com/images/sups/factory/isupfactory-design-discussion-original.webp'
+  image_alt: 'Ydeevnetest i Vatrads hydrodynamiske testbassin'
+
+intro: 'Det er en udbredt misforståelse, at hydrodynamisk test er forbeholdt skibe og racerbåde. I virkeligheden afhænger et SUP-bræts ydeevne — et planingsskrog på 10 til 14 fod — lige så meget af sin undervandsform som ethvert andet fartøj. Noseprofil, kantradius, rocker og våd overflade har alle stor indflydelse på modstand, glidningseffektivitet og stabilitet. På {SITE.name} driver vi et dedikeret hydrodynamisk testbassin, der gør det muligt at kvantificere disse effekter i modelskala — før vi binder dug og værktøj til en prototype i fuld skala.'
+
+content_html: |
+  <h2>Hvorfor bassinteste et SUP-bræt?</h2>
+  <p>Test i modelskala (typisk 1:3 til 1:5) giver os mulighed for hurtigt og omkostningseffektivt at iterere over brætformer. En uge i bassinet kan generere de samme ydeevnedata, der ellers ville kræve måneder af prøvning i fuld skala — og til en brøkdel af prisen.</p>
+
+  <h2>Specifikationer for anlægget</h2>
+  <table>
+    <thead><tr><th>Parameter</th><th>Specifikation</th></tr></thead>
+    <tbody>
+      <tr><td>Mål for bassin</td><td>35 m (L) × 3.5 m (B) × 1.8 m (D)</td></tr>
+      <tr><td>Slæbevogn</td><td>Elektrisk servodrevet, maks. hastighed 12 m/s (23 kn), hastighedsnøjagtighed ± 0.5 %</td></tr>
+      <tr><td>Bølgegenerator</td><td>Klaptype, programmerbare regelmæssige &amp; uregelmæssige søtilstande, Hs op til 0.3 m i modelskala</td></tr>
+      <tr><td>Instrumentering</td><td>6-komponentsdynamometer (modstand, sidekraft, g Momentsmoment), akselerometre, hældningsmålere, bølgesonder</td></tr>
+      <tr><td>Dataindsamling</td><td>Afprøvning ved 1000 Hz pr. kanal, visning i realtid + efterbehandlingspakke</td></tr>
+      <tr><td>Modelfremstilling</td><td>Egen CNC-fræsning og 3D-print til modelskrog op til 1.8 m LOA</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Vores testprogram</h2>
+  <p>Et standardprogram for brætudvikling i vores bassin følger denne rækkefølge:</p>
+  <ol>
+    <li><strong>Bygning af model</strong> — En model i skala 1:4 fræses i CNC af skum med høj densitet og glaslakkes for stivhed. Vægt og tyngdepunkt justeres, så de matcher den fuldt lastede tilstand efter Froudes skalering.</li>
+    <li><strong>Modstandskørsel</strong> — Modellen slæbes ved 6-10 hastigheder, der dækker pagajeområdet (2–6 kn i fuld skala). Den samlede modstand måles og opdeles i friktions- og restkomponenter efter ITTC-1957-metoden.</li>
+    <li><strong>Måling af trim &amp; sænkning</strong> — Trim og sænkning registreres ved hver hastighed. Målet er den trimvinkel, der minimerer den våde overflade, samtidig med at nosen holdes fri for bølgebryderen.</li>
+    <li><strong>Kortlægning af kølvand</strong> — Tvergående bølgesnit måles ved to hastigheder for at vurdere bølgedannende modstand og identificere samspil med neseformen, der gør et bræt langsommere gennem vandet.</li>
+    <li><strong>Sejladssegenskaber (valgfrit)</strong> — Kørsel i modsø mod regelmæssige bølger måler den tillægte modstand og den vertikale acceleration i kyst — dataene bag designet af touringbrætters nese.</li>
+    <li><strong>Dataanalyse &amp; anbefalinger</strong> — Der leveres en fuld rapport med sammenligningsdiagrammer, modstand/hastighedskurver og konkrete designanbefalinger til brættet i fuld skala.</li>
+  </ol>
+
+  <div class="not-prose my-10 p-6 rounded-xl bg-gray-50 dark:bg-gray-900 border border-gray-200 dark:border-gray-800">
+    <p class="text-sm font-semibold text-gray-500 mb-3 uppercase tracking-wider">Typiske resultater fra bassintest — modstand mod hastighed (11''0 allround-bræt, skala 1:4)</p>
+    <div class="space-y-2">
+      <div class="flex items-center gap-2 text-xs">
+        <span class="w-20">2 kn (1:1)</span>
+        <div class="flex-1 bg-gray-200 dark:bg-gray-700 h-5 rounded">
+          <div class="h-full bg-blue-600 rounded" style="width:18%"></div>
+        </div>
+        <span class="w-16 text-right">11 N</span>
+      </div>
+      <div class="flex items-center gap-2 text-xs">
+        <span class="w-20">3 kn (1:1)</span>
+        <div class="flex-1 bg-gray-200 dark:bg-gray-700 h-5 rounded">
+          <div class="h-full bg-blue-600 rounded" style="width:35%"></div>
+        </div>
+        <span class="w-16 text-right">21 N</span>
+      </div>
+      <div class="flex items-center gap-2 text-xs">
+        <span class="w-20">4 kn (1:1)</span>
+        <div class="flex-1 bg-gray-200 dark:bg-gray-700 h-5 rounded">
+          <div class="h-full bg-blue-600 rounded" style="width:52%"></div>
+        </div>
+        <span class="w-16 text-right">32 N</span>
+      </div>
+      <div class="flex items-center gap-2 text-xs">
+        <span class="w-20">5 kn (1:1)</span>
+        <div class="flex-1 bg-gray-200 dark:bg-gray-700 h-5 rounded">
+          <div class="h-full bg-blue-600 rounded" style="width:68%"></div>
+        </div>
+        <span class="w-16 text-right">42 N</span>
+      </div>
+      <div class="flex items-center gap-2 text-xs">
+        <span class="w-20">6 kn (1:1)</span>
+        <div class="flex-1 bg-gray-200 dark:bg-gray-700 h-5 rounded">
+          <div class="h-full bg-blue-600 rounded" style="width:85%"></div>
+        </div>
+        <span class="w-16 text-right">52 N</span>
+      </div>
+    </div>
+    <p class="text-xs text-gray-400 mt-2">Modstand i modelskala (N) ved hastigheder efter Froudes skalering. Forudsigelse i fuld skala følger ITTC-1978-metoden til ydeevneforudsigelse.</p>
+  </div>
+
+  <h2>Eksperttema</h2>
+  <p>Vores bassin drives af en hydrodynamiker med ph.d. i skibsbygning og 8 års erfaring med slæbebassiner fra et stort europæisk maritimt forskningsinstitut. Han bistås af en tekniker, der fremstiller alle modeller og instrumenter. Teamet følger ITTC's (International Towing Tank Conference) anbefalede procedurer for at sikre, at hver test kan gentages, spores og forsvares internationalt.</p>
+
+  <h2>Bassintest til specialudvikling af brætter</h2>
+  <p>Vores bassin bruges ikke kun til brætter, vi selv har designet — vi kører regelmæssigt testprogrammer for kunder, der vil validere en special brætform eller undersøge et ydeevneproblem:</p>
+  <ul>
+    <li><strong>Formsammenligning</strong> — To eller flere kandidatbrætformer testes under identiske forhold, hvilket giver en objektiv sammenligning af modstand, hastighed og stabilitet til grund for dit designvalg.</li>
+    <li><strong>Optimering af kant og nese</strong> — Variationer i noseprofil og kantradius kan testes i forskellige konfigurationer for at kvantificere deres bidrag til reduceret modstand.</li>
+    <li><strong>Undersøgelse af rytterlast</strong> — Modstandsdata kortlægges over hele det nominelle ryttervægtsinterval, så du kan specificere den rette længde og bredde til din målrytter.</li>
+  </ul>
+
+  <h2>Hvorfor teste hos os?</h2>
+  <p>Vi giver dig ikke bare et sæt rå tal. Vores rapporter oversætter bassindata til handlingsanvendelige konstruktionsanbefalinger: "Hæv nosens rocker med 10 mm for at mindske bølgebroens modstand ved cruisefart", "Rund kanten ved midtst af længden for at mindske den våde overflade" eller "Flyt det stående område 50 mm fremad for bedre trim". Du går derfra med en klar forståelse af, hvad der skal ændres, og hvorfor.</p>
+  <p>Vores bassin er også tilgængeligt for uafhængig tredjepartstest på abonnementsbasis. Hvis du udvikler et bræt og vil have en upartisk hydrodynamisk vurdering, der er udført professionelt, modtager vi gerne din forespørgsel.</p>
+
+cta:
+  title: 'Book en session i bassinet'
+  subtitle: 'Uanset om du har brug for et fuldt udviklingsprogram eller en enkelt sammenlignende test, kan vi indpasse det i din tidsplan.'
+  actions:
+    - variant: primary
+      text: 'Kontakt vores hydrodynamikteam'
+      href: /da/contact#project-brief
+    - text: 'Tilbage til R&D-centeret'
+      href: /da/randdcenter

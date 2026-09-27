@@ -8,13 +8,14 @@ import { nl } from './dictionaries/nl'
 import { sv } from './dictionaries/sv'
 import { no } from './dictionaries/no'
 import { pl } from './dictionaries/pl'
+import { da } from './dictionaries/da'
 import { ACTIVE_LOCALES, DEFAULT_LOCALE as CONFIG_DEFAULT_LOCALE, isLocale as configIsLocale, localizePath as configLocalizePath, stripDefaultLocalePrefix as configStripDefaultLocalePrefix, negotiateLocale as configNegotiateLocale, type Locale as ConfigLocale } from '@/config/locales'
 
 export const locales = ACTIVE_LOCALES
 export type Locale = ConfigLocale
 export const defaultLocale: Locale = CONFIG_DEFAULT_LOCALE
 
-const allDictionaries: Record<string, Dict> = { en, es, fr, de, it, pt, nl, sv, no, pl }
+const allDictionaries: Record<string, Dict> = { en, es, fr, de, it, pt, nl, sv, no, pl, da }
 
 export function getDictionary(locale: Locale): Dict {
   return allDictionaries[locale] ?? allDictionaries[defaultLocale] ?? en

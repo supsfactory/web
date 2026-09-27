@@ -6,7 +6,7 @@ export interface FaqEntry {
   a: string
 }
 
-export const PRODUCT_FAQ_POOL: Record<'en' | 'es' | 'fr' | 'de' | 'it' | 'pt' | 'nl' | 'sv' | 'no' | 'pl', FaqEntry[]> = {
+export const PRODUCT_FAQ_POOL: Record<'en' | 'es' | 'fr' | 'de' | 'it' | 'pt' | 'nl' | 'sv' | 'no' | 'pl' | 'da', FaqEntry[]> = {
   en: [
     {
       q: 'What is the minimum order to customize this board?',
@@ -185,6 +185,24 @@ export const PRODUCT_FAQ_POOL: Record<'en' | 'es' | 'fr' | 'de' | 'it' | 'pt' | 
     {
       q: 'Jak kontrolowana jest jakość przed wysyłką?',
       a: 'Każda deska przechodzi 100-punktową listę kontrolną montażu oraz test ciśnieniowy 18.0 PSI przez 24 godziny przed pakowaniem; egzemplarze ze spadkiem ciśnienia powyżej 0.50 PSI/24 h są automatycznie odrzucane.',
+    },
+  ],
+  da: [
+    {
+      q: 'Hvad er minimumsordren for at tilpasse dette bræt?',
+      a: 'Minimumsordren (MOQ) for serieproduktion er 90–100+ stk pr. godkendt konfiguration, afhængigt af krav til materialerulle og emballage, på en rulle på 150 m til standardproduktion, med pilotpartier fra 20–50 stk og 90–100+ stk til en specialform.',
+    },
+    {
+      q: 'Hvor lang tid tager prøver og produktion?',
+      a: 'Prøver er klar på 7–12 dage; serieproduktionen er færdig på 25–35 dage efter bekræftet købsordre og depositum.',
+    },
+    {
+      q: 'Kan jeg ændre farver, grafik og logo?',
+      a: 'Ja: grafik, farver, EVA, logo, emballage og tilbehør kan tilpasses på alle platforme. Del dit logo, så udarbejder vi en visuel korrektur før produktionen.',
+    },
+    {
+      q: 'Hvordan kontrolleres kvaliteten før levering?',
+      a: 'Hvert bræt gennemgår en montagekontrolliste med 100 punkter og en trykprøvning på 18.0 PSI i 24 timer før pakning; enheder med et trykfald på over 0,50 PSI/24 h kasseres automatisk.',
     },
   ],
 }

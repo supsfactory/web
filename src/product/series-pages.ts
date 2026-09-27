@@ -2517,6 +2517,255 @@ export const seriesPages: Localized<SeriesPageData[]> = {
       ],
     },
   ],
+  da: [
+    {
+      slug: 'all-around',
+      navLabel: 'Allround',
+      metaTitle: 'Specialfremstillede allround SUP-bræt — producent af oppustelige OEM-bræt | iSupfactory',
+      metaDescription:
+        'Specialfremstillede oppustelige allround SUP-bræt produceret under dit mærke — stabilt bredt dæk, OEM/ODM-volumen fra 90–100+ stk, prøver på 7–12 dage. Direkte fra fabrikken i Qingdao, Kina.',
+      kicker: 'Serie · Allround',
+      h1: 'Specialfremstillede allround SUP-bræt — standardplatformen for nye mærker',
+      intro: [
+        'Allround-brættet er arbejdshesten i SUP-kategorien: bredt nok til, at begyndere føler sig stabile, smidigt nok til at holde erfarne ryttere engagerede og let nok til at bære overalt. De fleste nye mærker og de fleste udlejningsflåder starter her.',
+        'Vi producerer allround-platforme under dit mærke fra 90–100+ stk pr. 150 m rulle (volumen), med pilotpartier fra 20–50 stk. Form, kantlister, lagopbygning, farver, grafik på hele brættet og emballage fastlægges pr. projekt.',
+      ],
+      faqs: [
+        {
+          q: 'Kan jeg tilpasse et allround SUP-bræt til mit mærke?',
+          a: 'Ja. Hver allround-platform er en produktionsbase — du fastlægger mål (typisk 10′6″ til 11′6″), bredde, tykkelse, lagopbygning (en eller to lag eller fusion), kantlistekonfiguration, EVA-måtte, grafik på hele brættet og emballage. Specialformer starter ved 90–100+ stk pr. form; standardvolumen fra 90–100+ stk pr. 150 m rulle.',
+        },
+        {
+          q: 'Hvad er minimumsordren (MOQ) for allround SUP-bræt?',
+          a: 'Standardbatche starter ved 90–100+ stk pr. 150 m rulle; pilotpartier på standardplatforme starter ved 20–50 stk; fuldt specialfremstillede forme kører fra 90–100+ stk pr. form. Prøver sendes på 7–12 dage, og serieproduktionen kører 25–35 dage fra bekræftet ordre og depositum.',
+        },
+        {
+          q: 'Hvad indeholder en salgsklar pakke?',
+          a: 'Det komplette sæt: oppusteligt bræt med drop-stitch-kerne, justerbart pagaj, håndpumpe (eller elektrisk totrins), reparationssæt, bærerygsæk og trykt karton. Tilbehør kan udskiftes eller opgraderes efter dit målmarked.',
+        },
+        {
+          q: 'Hvilken hårdhed producerer I på EVA-dækket?',
+          a: 'Grebemåtter på dækket ligger på 45–55 Shore C — mellembløde, grebsvenlige under fødderne uden at blive hårde i solen. Tykkelse, riller, udskæringer og logoplacering fastlægges pr. projekt.',
+        },
+      ],
+    },
+    {
+      slug: 'race',
+      navLabel: 'Race',
+      metaTitle: 'Specialfremstillede race SUP-bræt — oppustelige raceplatforme, OEM | iSupfactory',
+      metaDescription:
+        'Specialfremstillede oppustelige race SUP-bræt til klubber, stævner og mærker — drop-stitch-race-skrog, OEM-volumen fra 90–100+ stk, CE-certificeret produktion. Direkte fra fabrikken.',
+      kicker: 'Serie · Race',
+      h1: 'Specialfremstillede race SUP-bræt — race-skrog produceret til dit mærke',
+      intro: [
+        'Racebræt bytter stabilitet for fart: længere og smallere profiler med finere næseformer og lav rocker, bygget til forskydningspadling. De oppustelige versioner matcher hårde racebræts ydeevne i en transportabel platform.',
+        'Vi producerer raceplatforme til mærker, klubber og stævnearrangører med præcise drop-stitch-kerner, race-specifik lagopbygning og fartssigtede skrogformer — testet i vores hydrodynamiske testtank.',
+      ],
+      faqs: [
+        {
+          q: 'Hvilke race SUP-mål kan I producere?',
+          a: 'Typiske raceplatforme går fra 12′6″ × 28″ i 12′6-raceklasserne til 14′ × 23″–25″ i unlimited-/touring-raceformater. Bredde, rocker og næseprofiler fastlægges til målgruppen af ryttere og verificeres på en fysisk prøve.',
+        },
+        {
+          q: 'Kræver racebræt en særlig konstruktion?',
+          a: 'Ja — racebræt bruger en lettere, tættere vævet drop-stitch-kerne med højere tryk (18–20 PSI) og stivere kantlisteforstærkning for at holde skrogformen ved fart. Valget af lagopbygning (et lag mod to lag) er en afvejning mellem vægt og stivhed, som vi fastlægger sammen med dig pr. projekt.',
+        },
+        {
+          q: 'Kan klubber bestille racebræt til deres hold?',
+          a: 'Ja. Klub- og holdprogrammer bestiller fra 90–100+ stk. (volumen) med klubgrafik og kan kombinere race- og træningsplatforme i en ordre. Flådepriser gælder for samlede volumener.',
+        },
+      ],
+    },
+    {
+      slug: 'surf',
+      navLabel: 'Surf',
+      metaTitle: 'Specialfremstillede surf SUP-bræt — oppustelige hybrid-surfplatforme, OEM | iSupfactory',
+      metaDescription:
+        'Specialfremstillede oppustelige surf SUP-bræt — hybride surfprofiler med afrundede kantlister og højere rocker, produceret under dit mærke fra 90–100+ stk i Qingdao, Kina.',
+      kicker: 'Serie · Surf',
+      h1: 'Specialfremstillede surf SUP-bræt — hybride surfplatforme til bølgeridning',
+      intro: [
+        'Surf-SUP-bræt bringer bølgepræstation over i en transportabel platform: kortere længder, højere rocker, afrundede kantlister og konkave næser, der holder linjen på bølgens flade. Oppustelige surfformer er den mest tilgivende måde at komme i gang med surfpadling på.',
+        'Vi producerer surfplatforme under dit mærke med bølgespecifik formgivning og konstruktionsdetaljer — fra komplette soft-top-sæt til ydeevneorienterede lagopbygninger.',
+      ],
+      faqs: [
+        {
+          q: 'Hvilke størrelser findes der på surf SUP-bræt?',
+          a: 'Almindelige surfplatforme går fra 8′6″ til 10′6″ med bredder omkring 30″–34″. Længde, rocker og kantlisteprofil fastlægges efter rytterens vægt og bølgetype og verificeres på en fysisk prøve før produktion.',
+        },
+        {
+          q: 'Er oppustelige surfbræt holdbare nok til udlejning?',
+          a: 'Med forstærkede kantlister og UV-resistent PVC holder vores surfplatforme til udlejning og undervisning på surfskoler. Udlejningsflåder kombinerer typisk allround- og surfformer — flådepriser gælder på tværs af det blandede volumen.',
+        },
+        {
+          q: 'Kan I matche vores brandgrafik på surfbræt?',
+          a: 'Ja. Grafik på hele dækket, bundillustration, EVA-grebemåtter og emballage produceres ud fra dine filer eller udvikles af vores designteam på baggrund af dit brandmateriale.',
+        },
+      ],
+    },
+    {
+      slug: 'touring',
+      navLabel: 'Touring',
+      metaTitle: 'Specialfremstillede touring SUP-bræt — langdistanceplatforme, OEM | iSupfactory',
+      metaDescription:
+        'Specialfremstillede oppustelige touring SUP-bræt til langdistancepadling — forskydningsskrog fra 12′6″+, flerdagsture, OEM-volumen fra 90–100+ stk, direkte fra fabrikken.',
+      kicker: 'Serie · Touring',
+      h1: 'Specialfremstillede touring SUP-bræt — bygget til distance, last og lange ruter',
+      intro: [
+        'Touringbræt er lange og effektive: spidse næser til glat fremdrift, moderat volumen til stabilitet på åbent vand og tilstrækkelig skroglængde til at bære udstyr på flerdagsture. De er platformen for langdistancepagajere og ekspeditionsudbydere.',
+        'Vi producerer touringplatforme under dit mærke med forskydningsform, fastgørelsespunkter og dækplads til last samt tilbehør, der er kompatibelt med karbon (bungee, D-ringe, beslag).',
+      ],
+      faqs: [
+        {
+          q: 'Hvilke touring SUP-størrelser producerer I?',
+          a: 'Touringplatforme går typisk fra 12′6″ til 14′ med bredder på 28″–32″. Længere 14′-skrog prioriterer glat fremdrift, mens bredere versioner tilføjer laststabilitet. Specifikationerne bekræftes med en fysisk prøve før serieproduktion.',
+        },
+        {
+          q: 'Kommer touringbræt med last- og fastgørelsesmuligheder?',
+          a: 'Ja — bungee-lastnet, D-ringe-gitre, holderør til stænger og skinnesystemer til tilbehør fastlægges pr. projekt. Touringsæt kombineres ofte med bræd i rygsækstil og højtrykspumper.',
+        },
+        {
+          q: 'Leverer I touringbræt til udbydere og udlejningsvirksomheder?',
+          a: 'Ja. Udbydere og operatører kan køre dedikerede touringflåder fra 20–50 stk. (pilot) med flådepriser, reservedele og en fastlagt sæsonmæssig udskiftningscyklus.',
+        },
+      ],
+    },
+    {
+      slug: 'yoga',
+      navLabel: 'Yoga',
+      metaTitle: 'Specialfremstillede yoga SUP-bræt — brede stabile platforme, OEM | iSupfactory',
+      metaDescription:
+        'Specialfremstillede oppustelige yoga SUP-bræt — ekstra brede stabile platforme med bløde dæk til studios, resorter og instruktører. OEM-volumen fra 90–100+ stk, direkte fra fabrikken.',
+      kicker: 'Serie · Yoga',
+      h1: 'Specialfremstillede yoga SUP-bræt — ekstra brede platforme til træning på vandet',
+      intro: [
+        'Yogabræt er bygget til ro: ekstra bredde og volumen til en stabil platform, bløde overflader til hænder og fødder og lave profiler, der holder brættet tæt på vandet. De bruges af studios, resorter og instruktører, der driver yoga på vandet.',
+        'Vi producerer yogaplatforme under dit mærke med de bredeste stabile profiler, premium-EVA-dæk og programskaleringsmuligheder til studios og resortflåder.',
+      ],
+      faqs: [
+        {
+          q: 'Hvad gør et SUP-bræt godt til yoga?',
+          a: 'Stabilitet først: ekstra bredde (33″–36″) og volumen holder brættet fladt og roligt. Et blødt EVA-dæk beskytter hænder, knæ og fødder, og en lav kantliste reducerer vaklen, når du stiger på og af.',
+        },
+        {
+          q: 'Kan resorter bestille yogabræt som en del af en flåde?',
+          a: 'Ja. Resorter kombinerer ofte yogaplatforme med allround-bræt til gæster. Samlede flådevolumener kvalificerer til flådepriser, og brandgrafik i ejendommens farvepalette gælder for hele ordren.',
+        },
+        {
+          q: 'Indeholder yogabræt komplette sæt?',
+          a: 'Ja — oppusteligt bræt, pagaj, pumpe, rygsæk og reparationssæt eller en forenklet pakke til opbevaring på stedet (bræt + pagaj + elektrisk pumpe), alt efter programmets krav.',
+        },
+      ],
+    },
+    {
+      slug: 'whitewater',
+      navLabel: 'Hvidvand',
+      metaTitle: 'Specialfremstillede whitewater SUP-bræt — å- og rapidsplatforme, OEM | iSupfactory',
+      metaDescription:
+        'Specialfremstillede oppustelige whitewater SUP-bræt til åer og rapids — korte, manøvredygtige skrog med forstærket slagbestandig konstruktion. OEM-volumen fra 90–100+ stk i Qingdao, Kina.',
+      kicker: 'Serie · Hvidvand',
+      h1: 'Specialfremstillede whitewater SUP-bræt — åskrog bygget til at tage stød',
+      intro: [
+        'Whitewater-bræt er korte, brede og robuste: manøvredygtige skrog, der drejer efter behov, høj slagbestandighed over for kantlistestød og solid konstruktion til lavvandede åbunde og stenede startsteder.',
+        'Vi producerer whitewaterplatforme under dit mærke med forstærkede sømme, slagbestandige kantlister og åspecifikke former — bygget til skoler, guider og åudbydere, der kører daglige lektioner og ture.',
+      ],
+      faqs: [
+        {
+          q: 'Hvilken konstruktion kræver whitewater-bræt?',
+          a: 'Forstærkede kantlister og dobbeltsvejsede konstruktioner absorberer kantlistestød, mens tykt PVC og flerlagsopbygning modstår perforeringer fra åbunden. Dobbeltkammerdesigns giver ekstra flydereserve på afsides beliggende åer.',
+        },
+        {
+          q: 'Forsyner I åudbydere og guideskoler?',
+          a: 'Ja. Udbydere og guideskoler kører whitewaterflåder fra 20–50 stk. (pilot) med flådepriser, robuste reparationssæt og reservedele til finner og ventiler — typisk for åprogrammer med høj udnyttelse.',
+        },
+        {
+          q: 'Kan whitewater-bræt bære brandgrafik?',
+          a: 'Ja — grafik på hele brættet, logoplacering og holdfarver produceres ud fra dine filer. Slidstærke tryklag holder branding intakt under hård brug.',
+        },
+      ],
+    },
+    {
+      slug: 'fishing',
+      navLabel: 'Fiske',
+      metaTitle: 'Specialfremstillede fiske SUP-bræt — OEM og eget mærke | iSupfactory',
+      metaDescription:
+        'Specialfremstillede oppustelige fiske SUP-bræt med stabilitet, bæreevne og beslag til tilbehør — OEM/eget-mærke-volumen fra 90–100+ stk, direkte fra fabrikken i Qingdao, Kina.',
+      kicker: 'Serie · Fiske',
+      h1: 'Specialfremstillede fiske SUP-bræt — bygget med fiskere i tankerne',
+      intro: [
+        'Fiskebræt er stabile kasteplatforme: brede og med høj volumen til at bære fiskeren plus udstyr, med monteringssystemer til stangholdere, kølebokse og tackle samt en lydløs konstruktion, der letter diskret tilnærmelse.',
+        'Vi producerer fiskeplatforme under dit mærke med fiskerspecifikke funktioner fastlagt pr. projekt — fra weekendpakker til komplette turneringsopstillinger.',
+      ],
+      faqs: [
+        {
+          q: 'Hvilke funktioner kan der specificeres på fiske SUP-bræt?',
+          a: 'Monteringsgitre til stangholdere og tilbehør, udstyrsskinner, remme til kølebokse, forankringspunkter og bræt med bæreevne på op til 500 lbs for fisker plus udstyr. Pakker kan omfatte pagaj, pumper og tasker med dit mærke.',
+        },
+        {
+          q: 'Hvad er minimumsordren (MOQ) for OEM-ordrer på fiske SUP-bræt?',
+          a: 'Standardbatche starter ved 90–100+ stk pr. 150 m rulle; pilotpartier fra 20–50 stk på standardplatforme; specialværktøj kører fra 90–100+ stk pr. form. Prøver sendes på 7–12 dage; produktionen kører 25–35 dage fra bekræftet ordre og depositum.',
+        },
+        {
+          q: 'Producerer I fiskebræt til udlejning og guidedrift?',
+          a: 'Ja. Guide- og udlejningsvirksomheder driver fiske flåder med flådepriser, reservedele og reparationssæt, der er dimensioneret til programmer med daglig brug.',
+        },
+      ],
+    },
+    {
+      slug: 'kids',
+      navLabel: 'Børn',
+      metaTitle: 'Specialfremstillede børne-SUP-bræt — små lette platforme, OEM | iSupfactory',
+      metaDescription:
+        'Specialfremstillede oppustelige børne-SUP-bræt — kortere, lettere platforme med børnevenligt dæk, designet til sikkerhed og leg. OEM-volumen fra 90–100+ stk, direkte fra fabrikken.',
+      kicker: 'Serie · Børn',
+      h1: 'Specialfremstillede børne-SUP-bræt — små, lette og bygget til de første ture',
+      intro: [
+        'Børnebræt er proportioneret til unge ryttere: kortere skrog, lavere vægt, smallere bredder til små kroppe og bløde dæk, der tilgiver fald. De er indgangen for familiemærker, skoler og udlejningsflåder, der betjener børn.',
+        'Vi producerer børneplatforme under dit mærke i standard- og juniorstørrelser med familievenlige pakkemuligheder.',
+      ],
+      faqs: [
+        {
+          q: 'Hvilke størrelser findes børne-SUP-bræt i?',
+          a: 'Typiske børneplatforme går fra 7′ til 9′6″ med bredder fra 26″ til 30″ og vægter omkring 7–9 kg (15–20 lbs). Størrelsen tilpasses rytterens alder og vægt og verificeres på en fysisk prøve før produktion.',
+        },
+        {
+          q: 'Forsyner I skoler og ungdomsprogrammer?',
+          a: 'Ja — vores børneplatforme er en almindelig del af skole- og ungdomsflåder, bestilt sammen med juniorpagaj og begyndertilbehør til programpriser.',
+        },
+        {
+          q: 'Kan børnebræt bære brand- og tegningsgrafik?',
+          a: 'Ja. Farvevarianter for hele brættet, tegning og logoplacering udvikles ud fra dine filer eller din brandretning — trykt med de samme slidstærke lag som voksenbræt.',
+        },
+      ],
+    },
+    {
+      slug: 'multi',
+      navLabel: 'Flerspersons',
+      metaTitle: 'Specialfremstillede flerspersons SUP-bræt — tandem og familie, OEM | iSupfactory',
+      metaDescription:
+        'Specialfremstillede flerspersons oppustelige SUP-bræt til familierekreation og holdundervisning — tandem-, yard- og partyplatforme. OEM-volumen fra 90–100+ stk, direkte fra fabrikken.',
+      kicker: 'Serie · Flerspersons',
+      h1: 'Specialfremstillede flerspersons SUP-bræt — tandem, yards og partyplatforme',
+      intro: [
+        'Flerspersonsbræt åbner SUP for grupper: tandem med ekstra pagajpladser, yardbræt til afslapning og partyplatforme, der bærer flere ryttere. De er ryggen i udlejningsindtægter i resorter, ved strande og på søer.',
+        'Vi producerer flerspersonsplatforme under dit mærke med de stabilitets- og volumenprofiler, som hvert anvendelsesformål kræver.',
+      ],
+      faqs: [
+        {
+          q: 'Hvilke typer flerspersonsbræt producerer I?',
+          a: 'Tandem (to pagajere, ca. 13′–14′), yardbræt (korte, brede afslapningsplatforme) og partyplatforme med høj volumen til 3–6 ryttere. Hver type fastlægges efter bæreevne, vægt og tilsigtet brug.',
+        },
+        {
+          q: 'Er flerspersonsbræt en god investering for udlejning?',
+          a: 'Ja — de giver højere timepriser med lavere udstyrskostnad pr. rytter og holder grupper sammen frem for at splitte dem på enkeltbræt. Udlejningsvirksomheder kombinerer typisk flerspersonsbræt med allround-flåder.',
+        },
+        {
+          q: 'Hvad er kapaciteten af en partyplatform?',
+          a: 'Kapaciteten afhænger af mål og volumen: typiske yard- og partyplatforme bærer 400–700 lbs og tager 3–6 ryttere afhængigt af størrelse og konfiguration. Specifikationerne bekræftes på en fysisk prøve før volumenproduktion.',
+        },
+      ],
+    },
+  ],
 }
 
 export function getSeriesPage(locale: Locale, slug: string): SeriesPageData | undefined {

@@ -13,13 +13,13 @@ import {
   getSiteFaqs,
   brandify,
 } from '@/features/content/loader'
-import { GUIDES_ES, GUIDES_FR, GUIDES_DE, GUIDES_IT, GUIDES_PT, GUIDES_NL, GUIDES_SV, GUIDES_NO, GUIDES_PL } from '@/features/content/guide-content'
+import { GUIDES_ES, GUIDES_FR, GUIDES_DE, GUIDES_IT, GUIDES_PT, GUIDES_NL, GUIDES_SV, GUIDES_NO, GUIDES_PL, GUIDES_DA } from '@/features/content/guide-content'
 import { FACTS, COLLABORATION_MODES } from '@/product/facts'
 import { EDGE_REDIRECTS } from '@/features/seo/edge-gate'
 import { LEGACY_REDIRECTS } from '@/features/seo/legacy-redirects'
 import { SITE_NAME } from '@/config/site'
 import { PAGE_TITLES } from '@/product/entity-data'
-import { LLM_SITE_DESCRIPTION, LLM_FAQ_DESCRIPTION, LLM_SPANISH_HOMEPAGE_DESCRIPTION, LLM_FRENCH_HOMEPAGE_DESCRIPTION, LLM_GERMAN_HOMEPAGE_DESCRIPTION, LLM_ITALIAN_HOMEPAGE_DESCRIPTION, LLM_PORTUGUESE_HOMEPAGE_DESCRIPTION, LLM_DUTCH_HOMEPAGE_DESCRIPTION, LLM_SWEDISH_HOMEPAGE_DESCRIPTION, LLM_NORWEGIAN_HOMEPAGE_DESCRIPTION, LLM_POLISH_HOMEPAGE_DESCRIPTION, LLM_FACT_BLOCK } from '@/product/ai-content'
+import { LLM_SITE_DESCRIPTION, LLM_FAQ_DESCRIPTION, LLM_SPANISH_HOMEPAGE_DESCRIPTION, LLM_FRENCH_HOMEPAGE_DESCRIPTION, LLM_GERMAN_HOMEPAGE_DESCRIPTION, LLM_ITALIAN_HOMEPAGE_DESCRIPTION, LLM_PORTUGUESE_HOMEPAGE_DESCRIPTION, LLM_DUTCH_HOMEPAGE_DESCRIPTION, LLM_SWEDISH_HOMEPAGE_DESCRIPTION, LLM_NORWEGIAN_HOMEPAGE_DESCRIPTION, LLM_POLISH_HOMEPAGE_DESCRIPTION, LLM_DANISH_HOMEPAGE_DESCRIPTION, LLM_FACT_BLOCK } from '@/product/ai-content'
 import { GLOSSARY } from '@/product/glossary'
 
 const flat = (text: string) => text.replace(/\s+/g, ' ').trim()
@@ -1149,6 +1149,96 @@ export function llmsPolishFull(): string {
     ...caseBlocks,
     '',
     '# Polski: Przewodniki',
+    ...guideBlocks,
+    '',
+  ].join('\n\n')
+}
+
+/** `/llms.txt` Danish section — absolute /da URLs so LLMs can ingest the mirror directly. */
+export function llmDanishIndex(origin: string): string {
+  const da = (path: string) => abs(origin, `/da${path}`)
+  const productLines = getContentProducts('da').map((p) => `- [${p.title}](${da(`/products/${p.slug}`)}): ${flat(p.summary ?? '')}`)
+  const techLines = getTechArticles('da').map((a) => `- [${a.title}](${da(`/technology/${a.slug}`)}): ${flat(a.summary ?? '')}`)
+  const caseLines = getCaseUses('da').map((c) => `- [${c.title}](${da(`/evidence/case-studies/${c.slug}`)}): ${flat(c.summary ?? '')}`)
+  const guideLines = GUIDES_DA.map((g) => `- [${g.title}](${da(`/guides/${g.slug}`)}): ${flat(g.intro[0] ?? '')}`)
+  const newsLines = getNewsPosts('da')
+    .slice(0, 10)
+    .map((p) => `- [${p.title}](${da(`/news/${p.slug}`)}): ${flat(p.excerpt ?? '')}`)
+  const faqLines = getSiteFaqs('da')
+    .slice(0, 6)
+    .map((f) => `- ${f.q}`)
+  return [
+    '',
+    '## Dansk',
+    '',
+    `- [${SITE_NAME} — Forside](${da('/')}): ${LLM_DANISH_HOMEPAGE_DESCRIPTION}`,
+    '',
+    '### Dansk: Produkter',
+    ...productLines,
+    '',
+    '### Dansk: Teknologi',
+    ...techLines,
+    '',
+    '### Dansk: Case study',
+    ...caseLines,
+    '',
+    '### Dansk: Guider',
+    ...guideLines,
+    '',
+    '### Dansk: Nyheder',
+    ...newsLines,
+    '',
+    '### Dansk: Ofte stillede spørgsmål',
+    ...faqLines,
+    '',
+  ].join('\n')
+}
+
+/** Full Danish text for products, news, tech, cases and guides (in /llms-full.txt). */
+export function llmsDanishFull(): string {
+  const productBlocks = getContentProducts('da').map((p) =>
+    [
+      `## Produkt: ${p.title}${p.sku ? ` (${p.sku})` : ''}`,
+      '',
+      flat(p.summary ?? ''),
+      ...(p.specs ?? []).map((s) => `- ${s.label}: ${s.value}`),
+      '',
+      ...mdBody(p.body),
+    ].join('\n'),
+  )
+  const newsBlocks = getNewsPosts('da').map((p) =>
+    [`## Nyhed: ${p.title}`, '', p.date.slice(0, 10), flat(p.excerpt ?? ''), '', ...mdBody(p.body)].join('\n'),
+  )
+  const techBlocks = getTechArticles('da').map((a) =>
+    [`## Teknologi: ${a.title}`, '', flat(a.summary ?? ''), '', ...mdBody(a.body)].join('\n'),
+  )
+  const caseBlocks = getCaseUses('da').map((c) => [`## Case study: ${c.title}`, '', flat(c.summary ?? ''), ...mdBody(c.body)].join('\n'))
+  const guideBlocks = GUIDES_DA.map((g) =>
+    [
+      `# Guide: ${g.title}`,
+      '',
+      flat(g.intro.join(' ')),
+      ...g.sections.flatMap((s) => ['', `## ${s.title}`, '', s.body]),
+      '',
+      '## FAQ',
+      ...g.faqs.flatMap((f) => [`### Q: ${f.q}`, '', f.a, '']),
+    ].join('\n'),
+  )
+  return [
+    '',
+    '# Dansk',
+    ...productBlocks,
+    '',
+    '# Dansk: Nyheder',
+    ...newsBlocks,
+    '',
+    '# Dansk: Teknologi',
+    ...techBlocks,
+    '',
+    '# Dansk: Case study',
+    ...caseBlocks,
+    '',
+    '# Dansk: Guider',
     ...guideBlocks,
     '',
   ].join('\n\n')

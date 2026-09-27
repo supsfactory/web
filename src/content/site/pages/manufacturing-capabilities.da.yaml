@@ -1,0 +1,125 @@
+meta:
+  title: 'SUP-produktionskapaciteter | Fabrik for oppustelige paddleboards'
+  description: 'SUP-produktionskapaciteter i Qingdao: egen skrogkonstruktion (0.1 mm), drop-stitch-behandling, højfrekvenssvejsning, tryk, formstøbning, QC med 100 punkter og 120,000+ brætter om året.'
+  dateModified: '2026-09-23'
+  keywords:
+    - 'SUP produktionskapaciteter'
+    - 'fabrikskapaciteter for oppustelige paddleboards'
+    - 'egen SUP-produktion'
+    - 'produktionskapaciteter for paddleboards'
+    - 'SUP fabrik Qingdao'
+
+hero:
+  tagline: Produktionskapaciteter
+  title: 'SUP-produktionskapaciteter'
+  subtitle: 'Hver proces — skrogkonstruktion, drop-stitch-kernbehandling, højfrekvenssvejsning, tryk, formværktøj, samling, test og pakning — foregår i eget hus på vores anlæg i Qingdao på 12,500 m², så et ansvarligt team fører dit projekt fra første tegning til afsendt container.'
+
+answer:
+  label: 'Det korte svar'
+  text: 'SUP-produktionen er fuldt ud i eget hus på vores anlæg i Qingdao: skrogdesign og måleteknik med 0.1 mm CNC-præcision; drop-stitch-materialebehandling og højfrekvenssvejsning på 4 automatiserede linjer; grafiktryk; stansning af EVA-puder; specialformværktøj (+15–20 dage til nye former); samling efter en tjekliste med 100 punkter; samt 18.0 PSI trykholdning i 24 timer med automatisk kassering ved et trykfald på over 0.50 PSI. Den årlige kapacitet er 120,000+ brætter (~10,000/måned) fra 4 specialiserede værksteder med 350+ medarbejdere, der sender til 50+ lande under dit mærke.'
+  verified: 'September 2026'
+
+capabilities:
+  tagline: Kapaciteter i eget hus
+  title: 'Kapacitetsgrupper, alle udført i eget hus'
+  subtitle: 'Hver kapacitet nedenfor udføres inde i fabrikken, hvilket forkorter leveringstiderne, låser kvalitetskontrollen fast i hvert trin og holder din specifikation samlet et sted.'
+  groups:
+    - title: Design & konstruktion
+      items:
+        - 'Skrogdesign & måleteknik'
+        - '0.1 mm CNC-præcision'
+        - 'Design af specialforme & værktøj'
+        - 'Emballage & retailgrafik'
+    - title: Produktion
+      items:
+        - 'Behandling af drop-stitch-kerner'
+        - '15 kW højfrekvenssvejsning (4 automatiserede linjer)'
+        - 'Grafiktryk & artwork'
+        - 'Stansning af EVA-puder'
+        - 'Samling & finish af brætter'
+        - 'Sammensætning af tilbehørssæt'
+    - title: Kvalitet & overensstemmelse
+      items:
+        - 'Tjekliste for samling med 100 punkter'
+        - '18.0 PSI · 24 timers trykholdning'
+        - 'Stikkprøvning efter ISO 2859-1 niveau II'
+        - 'CE · ISO 9001 · BSCI · REACH · RoHS'
+        - 'Sporbarhed på batche i 10 år'
+    - title: Service & logistik
+      items:
+        - 'Prototypeprøver på 7–12 dage'
+        - 'Produktion på 25–35 dage'
+        - 'Specialforme på +15–20 dage'
+        - 'FOB Qingdao · CIF · DDP til 50+ lande'
+
+table:
+  headers:
+    capability: Kapacitet
+    in_house: I eget hus
+    standard: Hvad standarden omfatter
+  rows:
+    - capability: 'Skrogdesign & måleteknik'
+      in_house: 'Ja — eget konstruktionsteam i huset'
+      standard: 'Konstrueret og valideret før værktøj; 0.1 mm CNC-præcision til forme og skæring'
+    - capability: 'Behandling af drop-stitch-materiale'
+      in_house: 'Ja — egen kernproduktion i huset'
+      standard: '12–15 PSI drop-stitch-densitetsområde, nesting optimeret pr. brætstørrelse'
+    - capability: 'Højfrekvenssvejsning & sømkonstruktion'
+      in_house: 'Ja — i eget hus'
+      standard: 'Kapacitet til 15 kW højfrekvenssvejsning på 4 automatiserede produktionslinjer'
+    - capability: 'Grafiktryk & artwork'
+      in_house: 'Ja — eget design & tryk i huset'
+      standard: 'Ubegrænsede paletter, full-bleed-grafik og artwork-støtte fra fabrikkens team'
+    - capability: 'Stansning af EVA-grippude'
+      in_house: 'Ja — i eget hus'
+      standard: 'Pudespecifikation 45–55 Shore C, specialstansede dæk og logoer'
+    - capability: 'Specialform & værktøj'
+      in_house: 'Ja — eget formværksted i huset'
+      standard: 'Nyt værktøj til ny form medfører 15–20 dage; forme forbliver i fabrikkens ejerskab, medmindre andet er aftalt'
+    - capability: 'Samling & finish af brætter'
+      in_house: 'Ja — i eget hus'
+      standard: 'Tjekliste for samling med 100 punkter; håndtag, D-ringe og tilbehør monteret iht. specifikation'
+    - capability: 'Tryk- og belastningstest'
+      in_house: 'Ja — egen prøvebane i huset'
+      standard: '18.0 PSI trykholdning i 24 timer, automatisk kassering ved trykfald på over 0.50 PSI'
+    - capability: 'Slutinspektion & sporbarhed'
+      in_house: 'Ja — eget QC-team i huset'
+      standard: 'Stikkprøvning efter ISO 2859-1 niveau II; 10 års ERP-batchsporbarhed pr. serienummer'
+    - capability: 'Emballage & eksport'
+      in_house: 'Sammensætning i eget hus + certificeret logistik'
+      standard: 'Retailkartoner, søfartsegnet eksportpakning og serienummeretiketter under dit mærke'
+
+faq_section:
+  tagline: FAQ
+  title: Spørgsmål om SUP-produktionskapaciteter
+  questions:
+    - q: 'Hvilke produktionsprocesser foregår i eget hus?'
+      a: 'Alle kerneprocesser foregår i eget hus: skrogkonstruktion, behandling af drop-stitch-kerner, højfrekvenssvejsning, tryk, EVA-stansning, samling, test og pakning. Tilbehør og dele råmaterialer kommer fra certificerede leverandører; den endelige sammensætning sker i eget hus for fuld sporbarhed.'
+    - q: 'Hvad er jeres produktionskapacitet?'
+      a: '120,000+ brætter om året (cirka 10,000/måned) på 4 automatiserede linjer og 4 specialiserede værksteder i et anlæg på 12,500 m² med 350+ medarbejdere.'
+    - q: 'Hvilket minimumsordre gælder på tværs af disse kapaciteter?'
+      a: 'Standardvolumen kører 90–100+ stk. pr. godkendt konfiguration (en 150 m drop-stitch-dugrulle); pilotserier starter ved 20–50 stk. på eksisterende platforme; ordrer med kun logo fra 5–10 stk.'
+    - q: 'Hvilke leveringstider skal vi planlægge efter?'
+      a: 'Prototypeprøver på 7–12 dage; produktion 25–35 dage efter bekræftet PO og depositum; udvikling af specialform medfører 15–20 dage til værktøjet.'
+    - q: 'Hvordan omsættes kapaciteterne til kvalitet?'
+      a: 'Hver proces føder ind i kvalitetssystemets 7 trin: en tjekliste for samling med 100 punkter, 18.0 PSI trykholdning i 24 timer med automatisk kassering ved trykfald på over 0.50 PSI, stikkprøvning efter ISO 2859-1 niveau II og 10 års ERP-batchsporbarhed.'
+
+cta:
+  title: 'Se hvilke kapaciteter der passer til dit projekt'
+  subtitle: 'Send dit produktbrief — du får en konstruktionsgennemgang og et tilbud tilpasset kapaciteterne inden for en arbejdsdag.'
+  actions:
+    - variant: primary
+      text: 'Bed om et produktionstilbud'
+      href: /da/contact#custom-oem
+    - text: 'Gå en tur i fabrikken'
+      href: /da/factory
+    - text: 'Fabrikens produktionsproces'
+      href: /da/factory/process
+    - text: 'Fabrikens kapacitet & leveringstider'
+      href: /da/factory/capacity
+    - text: 'Kvalitet & test'
+      href: /da/quality
+    - text: 'Proof Center — dokumentation for fabrikken'
+      href: /da/proof-center
+    - text: 'OEM- & ODM-produktion'
+      href: /da/oem-manufacturing

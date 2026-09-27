@@ -1,0 +1,134 @@
+meta:
+  title: 'B2B-løsningsmatrix for kunder | {SITE}'
+  description: 'Vatrads komplette B2B-løsningsmatrix for kunder med 24 kundetyper — fra nye friluftsmærker til institutioner for marin bevaring.'
+  dateModified: '2026-08'
+
+hero:
+  tagline: B2B-løsninger for kunder
+  title: '24 B2B-løsninger tilpasset din virksomhed'
+  subtitle: 'Fra startup-stiftere til globale distributører — find den præcise Vatrad-løsning, der er udviklet til din forretningsmodel, din branche og dine mål.'
+  image:
+    src: https://assets.isupfactory.com/images/sups/factory/isupfactory-factory-building.webp
+    alt: Vatrad-fabrikken og produktionsanlægget
+
+answer:
+  label: 'Det korte svar'
+  text: 'Én fabrik betjener alle B2B-veje: OEM/ODM-produktion med projektbekræftet minimumsordre (prøve 1–2 stk., pilot 20–50, standardvolumen 90–100+ pr. 150 m rulle; co-branding fra 5–10 stk.), private label på gennemprøvede platforme, engrosdistribution og flådeprogrammer for resorts, klubber og skoler. Alle kundetyper kortlægges til en bestemt løsningspakke — prøver på 7–12 dage, produktion 25–35 dage efter PO og depositum.'
+  verified: 'September 2026'
+
+solutions:
+  title: Løsningsmatrix for kunder
+  subtitle: 'Alle kundetyper, deres kernebehov og den Vatrad-løsningsside, der er designet til dem.'
+  items:
+    - clientType: Stifter af friluftsmærke
+      need: Oprettelse af mærke
+      solutionPage: Byg dit SUP-mærke
+      link: /da/solutions/private-label-sup
+    - clientType: Brandmanager i friluftsbranchen
+      need: Friluftsmærke udvider sig til vandsport
+      solutionPage: Udvid dit friluftsmærke ind i vandsporten
+      link: /da/solutions/private-label-sup
+    - clientType: Ejer af surfbutik
+      need: Opgradering af surfforretningen
+      solutionPage: Før oppustelig teknologi ind i surfbranchen
+      link: /da/products/surf
+    - clientType: Amazon-sælger
+      need: Vækst i e-handel
+      solutionPage: Produktdifferentiering & hurtig levering
+      link: /da/solutions/private-label-sup
+    - clientType: Mærke for fiskeriudstyr
+      need: SUP til fiskeri
+      solutionPage: Skab dit eget SUP-mærke til fiskeri
+      link: /da/products/fishing
+    - clientType: Yoga- og wellnessmærke
+      need: Wellnessprodukter til vandet
+      solutionPage: Løsninger til SUP-yogaudstyr
+      link: /da/products/yoga
+    - clientType: Skabermærke
+      need: Influencermærke
+      solutionPage: SUP-startup i creator-udgave
+      link: /da/solutions/private-label-sup
+    - clientType: Stifter af paddleklub
+      need: Klubflåde
+      solutionPage: Kommerciel SUP-flåde
+      link: /da/solutions/club-sup
+    - clientType: Ejer af udlejningsvirksomhed
+      need: Drift af udlejning
+      solutionPage: Holdbar løsning til udlejningsflåder
+      link: /da/solutions/rental-operators
+    - clientType: Aktivitetsansvarlig på resort
+      need: Hoteloplevelse
+      solutionPage: Vandaktivitetspakke til resorts
+      link: /da/solutions/resort-sup
+    - clientType: Vandsportsakademi
+      need: Træning & undervisning
+      solutionPage: Udstyrsprogram til SUP-akademier
+      link: /da/solutions/school-sup
+    - clientType: Cruise- og yachtselskab
+      need: Yachtoplevelse
+      solutionPage: Luksuspakke med bærbare SUP
+      link: /da/product-development
+    - clientType: Indkøber i friluftsdetailhandel
+      need: Detailkanal
+      solutionPage: Retail-program for private label
+      link: /da/solutions/retail-partners
+    - clientType: Distributør & importør
+      need: Regional distribution
+      solutionPage: Regional OEM- og forsyningskædepartner
+      link: /da/solutions/distributors
+    - clientType: Indkøber til virksomhedsprojekter
+      need: Virksomhedsarrangementer
+      solutionPage: SUP-pakke til virksomhedsarrangementer
+      link: /da/contact
+    - clientType: Brandmanager i vandsport
+      need: Vandsportsmærke udvider sig
+      solutionPage: Udvid din vandsportsportefølje
+      link: /da/solutions/private-label-sup
+    - clientType: Ejer af mærke for dyreeventyr
+      need: Friluftsliv med kæledyr
+      solutionPage: Program med hundevenlige paddleboards
+      link: /da/product-development
+    - clientType: Strandaktivitetsudbyder
+      need: Underholdning på stranden
+      solutionPage: Komplette løsninger til strandaktivitetsudstyr
+      link: /da/solutions/rental-operators
+    - clientType: Udvikler af vandparker
+      need: Temaparkunderholdning
+      solutionPage: Kommerciel SUP-flåde til vandparker
+      link: /da/solutions/resort-sup
+    - clientType: Ejer af privat ø og luksusklub
+      need: Livsstil i topsegmentet
+      solutionPage: Premium-kollektion af specialfremstillede SUP
+      link: /da/product-development
+    - clientType: Turistbureau & driftsansvarlig for offentlig park
+      need: Offentlige turistprojekter
+      solutionPage: Vandsportspakke til destinationer
+      link: /da/solutions/rental-operators
+    - clientType: Børneeventyr- og sommerlejrsudbyder
+      need: Ungdomsundervisning
+      solutionPage: SUP-program til børns udforskning
+      link: /da/solutions/school-sup
+    - clientType: Organisation for vandredning & sikkerhed
+      need: Professionel redning
+      solutionPage: Professionelt SUP-system til vandredning
+      link: /da/product-development
+    - clientType: Institution for marine bevaring & forskning
+      need: Miljøforskning
+      solutionPage: SUP-platform til økologisk forskning & overvågning
+      link: /da/product-development
+
+cta:
+  title: 'Ved du ikke, hvilken løsning der passer til din virksomhed?'
+  subtitle: 'Beskriv dit projekt til vores B2B-team, så anbefaler vi den rette konfiguration og pris.'
+  actions:
+    - variant: primary
+      text: 'Tal med vores B2B-team'
+      href: /da/contact?subject=b2b-solutions
+    - variant: secondary
+      text: 'Download katalog'
+      href: /da/products
+
+content_html: |
+  <div class="mx-auto max-w-3xl space-y-4 rounded-2xl border bg-card p-6 text-[14.5px] leading-relaxed text-fg-2">
+    <p>Hver vej i denne matrix starter med de samme to ting: vores <a href="/da/oem-manufacturing">OEM/ODM-produktionsprogram</a> og <a href="/da/factory">fabrikken bag det</a> — samme anlæg på 12,500 m&sup2;, samme kvalitetsstandarder og alle kanaler betjent.</p>
+  </div>

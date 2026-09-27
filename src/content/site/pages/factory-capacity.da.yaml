@@ -1,0 +1,85 @@
+meta:
+  title: 'Produktionskapacitet — fabrik på 12,500 m² | {SITE}'
+  description: 'Vatrads produktionskapacitet: anlæg på 12,500 m², der producerer 120,000+ SUP-brætter om året med plads til at skalere. Storskalaproduktion af oppustelige SUP-brætter i OEM/ODM.'
+  dateModified: '2026-08-07'
+  keywords:
+    - 'sup produktionskapacitet'
+    - 'fabrik for oppustelige sup'
+    - 'produktion af paddleboards'
+    - 'sup fabrik kina'
+hero:
+  tagline: Produktionskapacitet
+  title: Produktionskapacitet & årligt output
+  subtitle: Anlæg på 12,500 m², der producerer 120,000+ SUP-brætter om året med plads til at skalere
+
+answer:
+  label: 'Det korte svar'
+  text: 'Fabrikens kapacitet: 12,500 m² fordelt på fire specialiserede værksteder, 120,000+ SUP-brætter om året, 350+ medarbejdere i to skift, eksport til 50+ lande. Minimumsordren (MOQ) fastlægges ud fra projektkonfigurationen — prøve (1–2 stk.), pilot (20–50 stk.) og standardvolumen (90–100+ stk. pr. 150 m rulle); se vores guide til minimumsordrer og fleksibel branding for hele logikken. Leveringstid 25–35 dage, prøver 7–12 dage.'
+  verified: 'September 2026'
+
+intro: 'Vatrad driver en af de største dedikerede produktionsfaciliteter for oppustelige SUP-brætter i Qingdao, Kina. Vores fabrik på 12,500 m² er organiseret i fire specialiserede værksteder, der kører parallelt. Den årlige SUP-kapacitet er 120,000+ oppustelige SUP-brætter (cirka 10,000 pr. måned), og der produceres desuden 50,000+ redningsveste og 5,000+ tilbehørsdele på separate produktionslinjer.'
+
+highlights:
+  - value: 12,500 m²
+    label: Samlet produktionsgulv
+    detail: Fordelt på 4 specialiserede værksteder
+  - value: 120,000+
+    label: Årlig SUP-kapacitet
+    detail: Oppustelige SUP-brætter, ~10,000/måned
+  - value: 350+
+    label: Kvalificeret arbejdskraft
+    detail: 25+ ingeniører, 2 skift/dag
+  - value: 50+
+    label: Eksportlande
+    detail: EU, USA, AU, Mellemøsten, Asien
+  - value: 25–35
+    label: Normal leveringstid (dage)
+    detail: Efter bekræftet PO og depositum
+  - value: 10+
+    label: Års eksporterfaring
+    detail: Siden 2012
+
+workshops:
+  - title: Produktion af SUP-brætter
+    description: '4 automatiserede samlebaner til oppustelige SUP-brætter med et samlet output på cirka 10,000 brætter pr. måned. Stationer til digitaltryk og silketryk kører samtidigt. Årlig SUP-kapacitet: 120,000+ brætter.'
+    output: '120,000+ SUP/år'
+  - title: Produktion af SUP-brætter — udvidelseslinjer
+    description: 'Yderligere automatiserede samlebaner til SUP-brætter, der sættes i drift efterhånden som volumen vokser. Liming af drop-stitch-kerner, digitaltryk og samlebaner kører samtidigt.'
+    output: 'En del af den årlige SUP-kapacitet på 120,000+'
+  - title: SUP-tilbehør & blandet samling
+    description: 'Flerformåls-samlebaner til SUP-tilbehør — pagajer, finner, leashes, tasker og sæt. Varmluftssvejse stationer, dielektriske højfrekvenspresser og samlearbejdspladser omstilles efter ordremixet. Årlig tilbehørskapacitet: 5,000+ stk.'
+    output: '5,000+ tilbehørsdele/år'
+  - title: Sikkerhedsudstyr
+    description: 'Separat renrumsproduktion til redningsveste og sikkerhedsudstyr. Dedicerede søm-, skumindsætnings- og teststationer. Årlig kapacitet for redningsveste: 50,000+ stk.'
+    output: '50,000+ redningsveste/år'
+
+oem_capacity:
+  moq: 'SUP: prøve 1–2 | pilot 20–50 | volumen 90–100+ (pr. 150 m rulle)'
+  lead_time: 'Standard 25–35 dage. Prøve 7–12 dage. Hastermuligheder findes.'
+  payment: 'T/T 30% depositum + 70% restbeløb. L/C, Western Union accepteres.'
+
+lead_time_explainer:
+  tagline: 'Planlægning & styring'
+  title: 'Sådan bliver kapaciteten til din levering'
+  subtitle: 'Kapacitet er ikke et enkelt tal — sådan fordeles leveringstiderne i praksis.'
+  items:
+    - title: 'Kapaciteten varierer med din specifikation'
+      body: 'Ledige pladser flytter sig med brættype, konstruktionskompleksitet, emballage og sæsonmæssig efterspørgsel. Opbygningen forår/sommer kører linjerne næsten fuldt ud, og prøvepladserne bliver booket først.'
+    - title: 'Planlæg før din lanceringssæson'
+      body: 'Fastlæg bekræftelse af prøve og frysning af artwork tidligt. Gentagne ordrer planlægges ind i den aftalte tilbagevendende plads, når golden sample er arkiveret.'
+    - title: 'Tre planlægningsspor'
+      body: 'Prøver går først ind på prototypelinjen, oprindelige ordrer placeres i det nærmeste ledige samlevindue, og gentagne ordrer kører i deres tilbagevendende plads.'
+    - title: 'Faste leveringstider efter gennemgang'
+      body: 'Vi bekræfter først en fast leveringstid, når specifikation, artwork, emballage og antal er gennemgået — aldrig som et løfte på forhånd.'
+
+cta:
+  title: 'Tjek produktionsmuligheder for din lanceringsdato'
+  subtitle: 'Send din brættype, dit antal og din ønskede afsendelsesdato — vi svarer med det næste ledige produktionsvindue og et fast estimat for leveringstiden.'
+  actions:
+    - variant: primary
+      text: 'Tjek muligheder'
+      href: /da/contact#production-availability
+    - text: 'Se det fulde fabriksoverblik'
+      href: /da/factory
+    - text: 'Sådan bygges brætterne'
+      href: /da/factory/process

@@ -1,0 +1,14 @@
+meta:
+  title: 'Nyheder — SUP-producent & nautiske opdateringer | {SITE}'
+  description: 'Seneste nyheder fra Vatrad: fabriksopdateringer, nye oppustelige SUP-modeller, certificeringer og nyheder fra den nautiske branche.'
+  keywords:
+    - 'sup producent nyheder'
+    - 'Vatrad opdateringer'
+    - 'lanceringer oppustelige sup'
+    - 'nyheder nautisk branche'
+hero_text:
+  tagline: ''
+  title: Nyheder
+  subtitle: 'Seneste nyt fra Vatrad — produktlanceringer, virksomhedsopdateringer, guider og historier fra vandet'
+news_list:
+  limit: 100

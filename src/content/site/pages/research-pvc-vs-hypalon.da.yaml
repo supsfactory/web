@@ -1,0 +1,81 @@
+meta:
+  title: 'PVC kontra Hypalon — stoffer til oppustelige SUP-brætter | {SITE}'
+  description: 'PVC kontra Hypalon i konstruktionen af oppustelige SUP-brætter: UV-bestandighed, holdbarhed, reparationsmuligheder, vægt, pris, og hvilket stof SUP-brætter faktisk bruger.'
+  author: 'iSupfactory'
+  datePublished: '2026-08-04'
+  dateModified: '2026-08-07'
+back_text: 'Tilbage til forskning'
+
+hero:
+  tagline: 'Materialer'
+  title: 'PVC kontra Hypalon — materialeguide til oppustelige SUP-brætter'
+  subtitle: '10 min læsning'
+
+answer:
+  label: 'Det korte svar'
+  text: 'Til SUP-brætter vinder PVC på pris, vægt, trykbarhed og RF-svejsebare automatisering — maritim PVC i 1,680 DTEX med tre-lags belægning og UV-stabilisatorer er branchestandarden. Hypalon/CSM modstår sollys og kemikalier længere, men koster cirka 3&ndash;5&times; mere, vejer tungere og limes i hånden, hvilket gør det sjældent på SUP i dag.'
+  verified: 'September 2026'
+
+content_html: |
+  <h2>Overblik over materialerne</h2>
+
+  <h3>PVC (polyvinylklorid)</h3>
+  <p>PVC er standardstoffet til oppustelige SUP-brætter. Til brætkonstruktion forstærkes det typisk med et polyestertrådnet (1,100 – 1,680 DTEX) og belægges på begge sider og smeltes derefter sammen omkring en drop-stitch-kerne. Moderne maritime PVC-formuleringer indeholder UV-stabilisatorer og blødgørere for at forbedre fleksibilitet og vejrbestandighed, og brætter bygget på denne måde holder et driftstryk på 12 – 15 PSI.</p>
+
+  <h3>Hypalon (CSM – klorsulfereret polyethylen)</h3>
+  <p>Hypalon er en syntetisk gummiblanding (produceres i dag generisk som CSM, efter at DuPont har opgivet varemærket Hypalon). Det er berømt for enestående UV- og ozonbestandighed, hvilket gør det til det foretrukne stof til professionelle og kommercielle oppustelige båderør, der står i direkte sollys i længere tid. På SUP-brætter bruges Hypalon sjældent — brætter kræver højtryksdæk, der er målstabile, og det leverer PVC- og drop-stitch-konstruktion ved en brøkdel af vægten.</p>
+
+  <h2>Side om side sammenligning</h2>
+  <table class="w-full text-sm border-collapse">
+    <thead>
+      <tr class="bg-gray-100">
+        <th class="p-3 text-left font-semibold text-gray-900 border">Egenskab</th>
+        <th class="p-3 text-left font-semibold text-gray-900 border">PVC</th>
+        <th class="p-3 text-left font-semibold text-gray-900 border">Hypalon (CSM)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td class="p-3 border font-medium">UV-bestandighed</td><td class="p-3 border">God (med stabilisatorer)</td><td class="p-3 border">Fremragende (indbygget)</td></tr>
+      <tr><td class="p-3 border font-medium">Slidstyrke</td><td class="p-3 border">God</td><td class="p-3 border">Meget god</td></tr>
+      <tr><td class="p-3 border font-medium">Trækstyrke</td><td class="p-3 border">3,000 – 5,000 N/5cm</td><td class="p-3 border">2,500 – 4,000 N/5cm</td></tr>
+      <tr><td class="p-3 border font-medium">Vægt (pr. m&sup2;)</td><td class="p-3 border">850 – 1,200 g</td><td class="p-3 border">1,100 – 1,500 g</td></tr>
+      <tr><td class="p-3 border font-medium">Koldbøjning (lav temperatur)</td><td class="p-3 border">-30&deg;C</td><td class="p-3 border">-20&deg;C</td></tr>
+      <tr><td class="p-3 border font-medium">Reparationsmuligheder</td><td class="p-3 border">Nem (varmesvejsning eller lim)</td><td class="p-3 border">Kræver særligt CSM-lim</td></tr>
+      <tr><td class="p-3 border font-medium">Samlingemetode</td><td class="p-3 border">Højfrekvenssvejsning, luftsvejsning</td><td class="p-3 border">Håndlimning (kontaktlim)</td></tr>
+      <tr><td class="p-3 border font-medium">Pris (materiale)</td><td class="p-3 border">$8 – $15 / m&sup2;</td><td class="p-3 border">$20 – $40 / m&sup2;</td></tr>
+      <tr><td class="p-3 border font-medium">Levetid (tropisk sol)</td><td class="p-3 border">5 – 8 år</td><td class="p-3 border">10 – 15 år</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Hvad bør du vælge?</h2>
+
+  <h3>Vælg PVC når:</h3>
+  <ul>
+    <li>Du bygger oppustelige SUP-brætter (PVC + drop-stitch er branchestandarden)</li>
+    <li>Brættets vægt betyder noget — PVC er 15 – 25 % lettere</li>
+    <li>Du har brug for fleksibilitet i kulde under -20&deg;C</li>
+    <li>Du vil have et bredere udvalg af farver og overflader</li>
+    <li>Du har brug for højt driftstryk (12 – 15 PSI) til et stift og stabilt dæk</li>
+  </ul>
+
+  <h3>Vælg Hypalon når:</h3>
+  <ul>
+    <li>Produktet ligger fortøjet eller opbevares i direkte sollys i årevis</li>
+    <li>Du er i et tropisk eller UV-tungt miljø uden opbevaringsmulighed</li>
+    <li>Maksimal holdbarhed og levetid vejer tungere end vægt og pris</li>
+    <li>Du bygger professionelle eller kommercielle fartøjer, såsom båderør</li>
+    <li>Slid fra sand, beton eller broer er en central bekymring</li>
+  </ul>
+
+  <h2>Forskelle i produktionen</h2>
+  <p>PVC-brætter produceres ved hjælp af højfrekvenssvejsning eller luftsvejsning, som skaber en molekylær binding mellem de belagte stoflag. Det muliggør automatiseret og ensartet produktion med høj kapacitet samt præcis sømstyrke på højtryksbrætter. Hypalon samles ved håndlimning med kontaktlim; hver søm rulles og presses manuelt, hvilket gør Hypalon-produktion mere arbejdskrævende og bedst egnet til konstruktion af lavtryksrør.</p>
+
+  <h2>Vatrads anbefaling</h2>
+  <p>Til oppustelige SUP-brætter giver moderne PVC af høj kvalitet med UV-stabilisatorer den bedste balance mellem pris, vægt, ydelse og holdbarhed. Vatrad bygger alle SUP med maritim PVC i 1,680 DTEX, trelagsbelægning og en drop-stitch-kerne dimensioneret til 15 PSI — og hver stofbatch testes uafhængigt i vores PVC-stoflaboratorium før produktionen. Hypalon er fortsat tilgængeligt på forespørgsel til kommercielle fartøjer og særlige anvendelser og produceres separat gennem vores kommercielle marinlinje.</p>
+  <p>Materialevalget former pris, vægt og holdbarhed i din produktlinje - fortæl os om dit målmarked, så <a href="/da/oem-manufacturing">specificerer vi det rette stof til dit OEM-projekt</a>, testet i vores <a href="/da/randdcenter/quality-inspection-lab">materialetestlaboratorium</a>.</p>
+
+cta:
+  title: 'Brug for hjælp til at vælge materialer?'
+  subtitle: 'Vores team kan rådgive om PVC kontra Hypalon til din konkrete anvendelse.'
+  button_text: 'Spørg vores eksperter'
+  button_link: /da/contact

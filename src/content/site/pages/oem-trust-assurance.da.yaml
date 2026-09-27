@@ -1,0 +1,166 @@
+meta:
+  title: 'OEM-tillid og fabriksverifikation — verificer vores fabrik, før du bestiller'
+  description: 'Sådan verificerer købere iSupfactory, før de bestiller: officiel registrering, fabriksaudits, ingeniører under NDA og tredjepartsinspektioner (SGS/TÜV/BV/Intertek).'
+  dateModified: '2026-08-14'
+  keywords:
+    - 'SUP OEM fabriksverifikation'
+    - 'verificer SUP producent'
+    - 'SUP fabriksaudit Kina'
+    - 'oppustelig SUP fabrik Qingdao'
+    - 'OEM tillidssikring'
+    - 'SUP producentkvalifikationer'
+
+hero:
+  tagline: 'Fremstilling, du kan verificere'
+  title: 'OEM-tillid og fabriksverifikation'
+  subtitle: 'Enhver påstand på denne side kan verificeres: officiel virksomhedsregistrering, et fysisk anlæg på 12,500 m², du kan besøge eller auditere, rigtige ingeniører under NDA, QMS-dokumenter, du kan hente ned, og testdata registreret pr. serienummer. Udviklet og drevet af Qingdao Vatrad Group Co., Ltd.'
+
+answer:
+  label: 'Det korte svar'
+  text: 'Tillid er ikke et løfte — det er dokumentation. Vi er en registreret kinesisk produktionsenhed (Qingdao Vatrad Group Co., Ltd.) med et fysisk anlæg på 12,500 m² i Qingdao, 350+ ansatte og en årlig kapacitet på 120,000+ brætter. Du kan verificere registreringen, auditere fabrikken, gennemgå QMS-SOP’er, hente eksempler på kvalitetsdokumentation, bestille tredjepartsinspektioner (SGS, TÜV, BV eller Intertek) og få underskrevet en NDA inden for 4 arbejdstimer. Ethvert bræt trykprøves ved 18.0 PSI i 24 timer med automatisk kassering ved et fald på over 0.50 PSI, og hvert parti har 10 års ERP-sporbarhed. Hvis en påstand ikke kan dokumenteres, fremsætter vi den ikke.'
+  verified: 'September 2026'
+
+trust_stats:
+  - value: '12,500 m²'
+    label: Fabriksareal
+    detail: 4 specialiserede værksteder, åbne for audits
+  - value: '350+'
+    label: Ansatte på stedet
+    detail: 25+ ingeniører inden for R&D, materialer og QC
+  - value: '120,000+'
+    label: Brætter produceret årligt
+    detail: 10,000 brætter/måned på 4 automatiserede linjer
+  - value: '4 timer'
+    label: NDA-underskrift
+    detail: Standard-NDA underskrevet inden for 4 arbejdstimer
+  - value: '7-trins'
+    label: Kvalitetsportssystem
+    detail: Trin 01—7, registreret pr. serienummer
+  - value: '18.0 PSI'
+    label: 100 % trykprøvning
+    detail: 24 timers hold, automatisk kassering ved fald på over 0.50 PSI
+
+role_boundary:
+  tagline: 'Hvad vi er — og hvad vi ikke er'
+  title: 'En fabrik, du kan verificere, aldrig en påstand, du må tro på'
+  subtitle: 'Forskellen mellem en fabrik og et handelskontor er enkel: bag hver påstand ligger et dokument, en person eller en maskine.'
+  features:
+    - icon: A
+      icon_bg: blue
+      title: 'Hvad vi er — en verificerbar producent'
+      desc: '· Et registreret juridisk selskab: Qingdao Vatrad Group Co., Ltd. — registreringsoplysninger udleveres under NDA eller ved audit · En fysisk fabrik: 12,500 m² i Laixi Economic Development Zone, Qingdao, med 4 specialiserede værksteder, 350+ ansatte og 4 automatiserede linjer · Et produktionsteam: de mennesker, der besvarer dine spørgsmål, er dem, der bygger dine brætter · Rigtige dokumenter: QMS-SOP’er, inspektionsstandarder og anonymiserede kvalitetsregistreringer til download · Uafhængig verificering er velkommen: SGS-, TÜV-, BV- eller Intertek-inspektioner efter dit ønske, i henhold til ISO 2859-1 Level II'
+      link: '/da/factory'
+      link_label: 'Se siden om fabrikken'
+    - icon: B
+      icon_bg: green
+      title: 'Hvad vi ikke er — handelskontorprofilen'
+      desc: '· Intet handelsselskab: vi videresender ikke din ordre til en tredjefabrik og lægger ingen mæglermargen på · Intet eget mærke på dine brætter: du ejer mærket, markedet og kunden · Ingen uklare minimums: MOQ beregnes ud fra råmaterialets ruller og fysiske egenskaber og bekræftes pr. projekt · Ingen certifikater "kun på forespørgsel": listen er offentliggjort, og auditregistreringer kan gennemgås · Ingen mundtlige påstande: prøvetryk, tærskler og sporing af partier dokumenteres pr. serienummer'
+      link: '/da/oem-moq-guide'
+      link_label: 'Se den transparente MOQ-guide'
+
+trust_steps:
+  tagline: 'Et rigtigt casestudie'
+  title: 'Sådan verificerede en nordisk udlejningsflåde os, før den bestilte'
+  subtitle: 'Syv verificeringstrin, som en kommerciel udlejningsaktør gennemførte, før den afgav en ordre på 90–100+ enheder — samme tjekliste står åben for dig.'
+  steps:
+    - step: '01'
+      title: 'Verifikation af den officielle enhed'
+      desc: 'Køberen bad om den kinesiske virksomhedsregistrering og eksporthandelslicensen. Den juridiske enhed bag iSupfactory er Qingdao Vatrad Group Co., Ltd., en producent registreret siden 2012 i Qingdao, Shandong — verificeret i det nationale register under NDA.'
+    - step: '02'
+      title: 'Fysisk fabrik og audit af arealet'
+      desc: 'En fabriksaudit (fysisk fremmøde og via videovandring) bekræftede anlægget på 12,500 m²: fire specialiserede værksteder, 350+ ansatte, fire automatiserede linjer og en månedsproduktion på ca. 10,000 brætter. Auditrapporten arkiveres sammen med kontraktpapirerne.'
+    - step: '03'
+      title: 'Mennesker: rigtige ingeniører, ikke salgstekster'
+      desc: 'Køberen talte direkte med ingeniørteamet — skrogdesign, materialelaboratorium og QC. Projektspecifikation og NDA blev udvekslet inden for 4 arbejdstimer, og en ingeniørgennemgang kom retur inden for en arbejdsdag.'
+    - step: '04'
+      title: 'Papirer: QMS, certifikater og tredjepartsinspektion'
+      desc: 'ISO 9001:2015, ISO 25649 og CE-dokumentation for overensstemmelse samt BSCI/REACH/RoHS-registreringer og QMS-SOP’er blev gennemgået. Køberen bestilte en SGS-forhåndsinspektion i henhold til ISO 2859-1 Level II på den første volumenordre — og modtog et overensstemmelsescertifikat for hvert parti.'
+    - step: '05'
+      title: 'Data: testregistreringer pr. serienummer'
+      desc: 'Køberen auditerede faktiske testregistreringer: hvert kammer testet ved 18.0 PSI i 24 timer med automatisk kassering ved et trykfald på over 0.50 PSI, tjeklister med 100 punkter for montagen og 10 års ERP-sporing af partier. Eksempler på QC-registreringer blev leveret inden ordren.'
+    - step: '06'
+      title: 'Beskyttelse i kontrakten'
+      desc: 'Ordrekontrakten dækkede licensering af mærket, en aftalt periode med eksklusivitet på et område, ejerskab af og købsret til formene samt hvilke data og registreringer der følger med værktøjet. Køberen godkendte formen på fabrikken inden produktionen.'
+    - step: '07'
+      title: 'Løbende styring'
+      desc: 'Kvartalsvise forretningsgennemgange med salgsdirektøren og chief ingeniøren, en reserveret ret til at auditere under produktionen og en eskaleringsvej til QA-chefen ved kvalitetsstridigheder. Aftalen blev underskrevet i fællesskab af salgsdirektøren, chief ingeniøren og QA-chefen.'
+
+trust_faqs:
+  tagline: 'FAQ'
+  title: 'De 12 bekymringer, købere har, før de bestiller'
+  items:
+    - q: 'Er iSupfactory virkelig en fabrik eller et handelsselskab?'
+      a: 'iSupfactory er SUP-produktudviklings- og produktionsafdelingen i Qingdao Vatrad Group Co., Ltd. Vi driver selv anlægget på 12,500 m² i Qingdao — design, skæring, svejsning, montering og test sker i en facilitet. Der er ingen overdragelse via handelsselskab: de mennesker, der besvarer dine spørgsmål, er dem, der bygger dine brætter.'
+    - q: 'Hvem præcist kommer jeg i kontakt med under mit projekt?'
+      a: 'En navngiven projektingeniør og en navngiven QC-kontakt samt de afdelingsledere, der underskriver dine dokumenter. Du kan bede om at tale direkte med chief ingeniøren, QA-chefen eller fabrikdirektøren — både før og efter ordren. Der ligger intet kontolag mellem dig og dem, der udfører arbejdet.'
+    - q: 'Kan jeg besøge eller auditere fabrikken?'
+      a: 'Ja. Vi tager imod fabriksbesøg i Laixi Economic Development Zone, Qingdao, og støtter fjernaudits med direkte videovandringer. Audits kan arrangeres uafhængigt (din inspektør eller en tredjepart som SGS, TÜV, BV eller Intertek), og auditplanen kan skrives ind i kontrakten.'
+    - q: 'Underskriver I en NDA, før jeg deler mit design?'
+      a: 'Ja. Vores standard-NDA underskrives inden for 4 arbejdstimer efter din anmodning og før nogen proprietær specifikation, artwork eller teknisk fil deles. To-sprogete versioner (engelsk/kinesisk) er tilgængelige, og dokumentet modunderskrives af fabrikdirektøren.'
+    - q: 'Hvordan ved jeg, at jeres kvalitetspåstande er reelle?'
+      a: 'Enhver påstand på denne side har et dokument bag sig: QMS-SOP’er og inspektionsstandarder kan downloades, anonymiserede eksempler på kvalitetsregistreringer er offentliggjort, og testdata logges pr. serienummer med 10 års ERP-sporing af partier. Du kan også bestille en tredjepartsinspektion før afsendelse efter dit ønske.'
+    - q: 'Hvad sker der, hvis mine brætter ankommer med fejl?'
+      a: 'Ethvert bræt testes før pakning, og registreringer på partiniveau gør det muligt at spore årsagen pr. serienummer. Kontrakten fastlægger forpligtelser vedrørende inspektion, udskiftning og oparbejdning, og QA-chefen underskriver partigodkendelsen. Oparbejdede brætter testes på nytt i fuld udstrækning — aldrig kun delvist kontrolleret.'
+    - q: 'Kan I virkelig teste 100 % af brætterne før afsendelse?'
+      a: 'Ja — og registreringerne dokumenterer det. Ethvert kammer pustes op til 18.0 PSI og holdes i 24 timer med kontinuerlig sensorlogning; ethvert kammer, der overstiger et trykfald på 0.50 PSI over 24 timer, kasseres automatisk og inspiceres igen. Testloggene er koblet til hvert serienummer og er en del af partedokumentationen.'
+    - q: 'Hvilke certificeringer har I faktisk?'
+      a: 'ISO 9001:2015 kvalitetsstyring, ISO 25649 og CE-overensstemmelse for oppustelige SUP-produkter samt BSCI-, REACH- og RoHS-overensstemmelse for faciliteten og materialerne. Certifikatnumre og auditregistreringer leveres på forespørgsel eller ved en audit — listen er offentliggjort, ikke "kun tilgængelig på forespørgsel".'
+    - q: 'Er mit mærke i sikkerhed — design, forme og marked?'
+      a: 'Ja. Dit mærke, dine designs og dit værktøj beskyttes af NDA, licensbetingelser for mærket samt klausuler om ejerskab af eller købsret til formene, som indgår i kontrakten. Værktøjet opbevares til mærkets gavn og kan overdrages. Område- og eksklusivitetsbetingelser aftales skriftligt, før produktionen starter.'
+    - q: 'Hvad er jeres reelle minimumsordre (MOQ)?'
+      a: 'MOQ er projektspecifik og forklaret i vores MOQ-guide: prøver 1–2 stk., co-branding i små partier 5–10 stk., pilotserier 20–50 stk. og standardvolumen 90–100+ stk. pr. 150 m rulle (cirka 180–220 brætter). Specialformer produceres på det relevante volumeniveau. Beregningen bekræftes, før der gives tilbud — ingen vage "lav MOQ"-tal.'
+    - q: 'Hvad sker der, hvis produktionen er forsinket?'
+      a: 'Leveringstiden bekræftes, efter at specifikation, artwork og emballage er gennemgået — aldrig lovet på forhånd. Kontrakten dækker tidsplan, varsel om forsinkelse og løsningsveje, og den kvartalsvise forretningsgennemgang følger leveringsperformance mod den aftalte kalender.'
+    - q: 'Hvem underskriver kontraktpapirerne på jeres side?'
+      a: 'Ordrer og aftaler underskrives i fællesskab af salgsdirektøren, chief ingeniøren og QA-chefen — de tre personer, der hver især er ansvarlige for kommercielle vilkår, teknisk udførelse og kvalitetsgodkendelse. Du modtager de underskrevne dokumenter sammen med kontraktpapirerne.'
+
+governance:
+  tagline: 'Ansvarsstruktur'
+  title: 'Navngivne underskrivere og reserverede rettigheder'
+  subtitle: 'Hver forpligtelse er knyttet til en navngiven rolle — ikke til en salgsafdeling.'
+  body: |
+    **Fælles godkendelse.** Ordrer, kvalitetsplaner og tvistløsninger underskrives af tre roller: salgsdirektøren (kommercielle vilkår), chief ingeniøren (teknisk udførelse) og QA-chefen (kvalitetsgodkendelse). Tosprogete SOP’er er versionsstyrede og har den samme underskriftsstruktur.
+
+    **Reserverede rettigheder.** Køberen bevarer retten til at auditere produktionen, gennemgå testregistreringer og tilbageholde partigodkendelsen, indtil inspektionen er godkendt. Oparbejdning sker kun efter en godkendt ændringsregistrering, og godkendelsen valideres af uafhængig QC — aldrig af dem, der laver oparbejdningen.
+
+    **Registreringer der følger med.** Batchtestlogge, overensstemmelsescertifikater og inspektionsrapporter leveres med hver forsendelse, og ERP-sporing af partier opbevares i 10 år. Værktøjsregistreringer og formtegninger følger med værktøjet, når kontrakten siger det.
+
+trust_downloads:
+  tagline: 'Offentlige dokumenter'
+  title: 'Verifikationsdokumenter — hent ned og del'
+  subtitle: 'Offentlige dokumenter fra Qingdao Vatrad Group Co., Ltd., klar til at vedlægge din leverandørdue diligence-mappe.'
+  features:
+    - icon: G
+      icon_bg: blue
+      title: 'Guide til OEM-købere om tillid og fabriksverifikation (PDF)'
+      desc: 'Offentlig B2B-guide (Del II, DOC-ENG-2026-EN): fabriksverifikation trin for trin — registrering af enheden, fysisk audit, rigtige ingeniører, QMS-papirer, tredjepartsinspektion, kontraktbeskyttelse og godkendelser i styringsstrukturen.'
+      link: 'https://assets.isupfactory.com/site/downloads/oem-buyer-trust-and-factory-assurance-guide.pdf'
+      link_label: 'Hent guiden (PDF)'
+    - icon: P
+      icon_bg: green
+      title: 'Guide til fleksibel branding og MOQ (PDF)'
+      desc: 'Offentlig B2B-guide (Del I, DOC-MOQ-EXP-2026-EN): den ingeniørmæssige logik bag udbyttet på 150 m drop-stitch-ruller (90–100 brætter), co-branding fra 5–10 stk., pilotserier på 20–50 stk. og de tre produktionstrin.'
+      link: 'https://assets.isupfactory.com/site/downloads/flexible-branding-and-moq-guide.pdf'
+      link_label: 'Hent MOQ-guiden (PDF)'
+    - icon: Q
+      icon_bg: orange
+      title: 'Kvalitetssystemet bag disse påstande'
+      desc: 'En side, der samler det hele: det 7-trins inspektionsportssystem, de fire standarder, der styrer det, og dokumentregistret 00–15 med alle SOP’er og rapporter, du kan hente ned — QIP, inspektionsstandarder, sporsbarhedsdossier, NCP og SOP’er for oparbejdning.'
+      link: '/da/quality'
+      link_label: 'Udforsk kvalitetssystemet'
+
+evidence_review:
+  tagline: 'Dokumentation og verificering'
+  title: 'VERIFICEREDE SPECIFIKATIONER'
+  body: 'Alle produktionspåstande på denne side er verificeret af vores produktionstekniske team på anlægget i Laixi, Qingdao. Certifikater, QC-inspektionsregistreringer, tryk- og strukturtestsrapporter samt registreringer for sporing af partier er tilgængelige på forespørgsel. Specifikationerne blev senest verificeret i september 2026.'
+
+cta:
+  title: 'Start med verificering — så taler vi om specifikationer'
+  subtitle: 'Send din anmodning om NDA, bed om registreringspakken, eller book en auditslottid. Verificeringen kommer først; ordren følger bagefter. En forespørgsl binder dig ikke til en ordre.'
+  button_text: 'Anmod om verifikationspakke'
+  button_link: '/da/contact#trust-verification'
+  actions:
+    - text: Tjekliste for fabriksaudit
+      href: /da/factory-audit-checklist
+    - text: Brandidentitet
+      href: /da/about/identity

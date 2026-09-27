@@ -245,6 +245,30 @@ export const HERO_CONTENT = {
     float1: { value: '1–2 szt', label: 'Próbka i akceptacja (przed zobowiązaniem do wolumenu)' },
     float2: { value: FACTS.leadTime, label: 'Czas realizacji produkcji (po PO)' },
   },
+  da: {
+    kicker: 'Fabrik i Qingdao, Kina · OEM / ODM / Eget mærke · Fra prøve til serieproduktion',
+    titlePre: 'Produktion af skræddersyede SUP-produkter til',
+    titleAccent: 'mærker, distributører og organisationer',
+    titlePost: '',
+    sub: 'Oppustelige SUP-bræt til OEM, ODM og eget mærke — fra specifikationsgennemgang og prøveudvikling til serieproduktion med kvalitetskontrol i Qingdao, Kina.',
+    ctaPrimary: 'Start dit SUP-projekt',
+    ctaSecondary: 'Se fabrikken, minimumsordre og kvalitetsbevis',
+    ctaTertiary: '',
+    ctaQuartiary: '',
+    ctaMicro: 'Svar inden for 1 arbejdsdag · NDA tilgængelig før filudveksling · Minimumsordre bekræftes efter specifikationsgennemgang',
+    stats: [
+      { value: '12.500 m²', label: 'Egen fabrik — Qingdao, Kina' },
+      { value: '120.000+', label: 'Bræt produceret årligt' },
+      { value: '50+', label: 'Eksportlande' },
+      { value: FACTS.ndaWindow, label: 'NDA-svartid' },
+    ],
+    mockupLabel: 'Flagskibsplatform',
+    mockupBrand: "SUP Explorer 11'",
+    mockupHint: 'Din grafik · dine farver · din emballage',
+    heroNote: 'Minimumsordren bekræftes efter specifikationsgennemgang, fordi konstruktion, brætstørrelse, PVC-struktur, grafik, emballage og tilbehør påvirker materialeforbruget.',
+    float1: { value: '1–2 stk', label: 'Prøve og godkendelse (før volumenforpligtelse)' },
+    float2: { value: FACTS.leadTime, label: 'Produktionstid (efter PO)' },
+  },
 }
 
 /** 供 Seo 模块使用的简化映射（仅读，不修改 PUBLIC_PATHS/HREFLANG/OG_*） */

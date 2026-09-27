@@ -1,0 +1,79 @@
+meta:
+  title: 'Sådan fungerer drop-stitch — stive kerner i oppustelige SUP'
+  description: 'Sådan gør drop-stitch blødt PVC til en stiv, højtryks-SUP-kerne (15-20 PSI): konstruktion, materialer, kvalitetsindikatorer og anvendelser.'
+  author: 'iSupfactory'
+  datePublished: '2026-08-04'
+  dateModified: '2026-08-07'
+back_text: 'Tilbage til forskning'
+
+answer:
+  label: 'Det korte svar'
+  text: 'Drop-stitch er et stof, hvor søjler af polyestertråd holder de øverste og nederste PVC-lag en fast afstand fra hinanden, så lufttrykket gør brættet stift. Vatrad-kerner: 1,680 DTEX, 2 tråde pr. kvadrattomme, 1.2 mm PVC-ydre laminat, dimensioneret til 15 PSI og valideret med en 24-timers holdprøvning ved 18.0 PSI.'
+  verified: 'September 2026'
+
+hero:
+  tagline: 'Teknologi'
+  title: 'Sådan fungerer drop-stitch — konstruktionen bag stive kerner i oppustelige SUP'
+  subtitle: '8 min læsning'
+
+content_html: |
+  <h2>Hvad er drop-stitch?</h2>
+  <p>Drop-stitch (også kaldet "drop-stitch-stof" eller "drop-stitch-kerne") er en konstruktionsmetode, hvor tusindvis af enkelte polyestertråde forbinder de øverste og nederste lag i en stofskal. Når skallen pustes op, fungerer trådene som indvendige spændingselementer — de forhindrer, at over- og underside buer ud til en rund form, og tvinger panelet til at forblive fladt og stift.</p>
+  <p>Resultatet er en let og transportabel konstruktion, der kan modstå 15 – 20 PSI internt tryk — sammenligneligt med et hardboard-bræts stivhed, men fuldt oppusteligt til opbevaring og transport.</p>
+
+  <h2>Sådan fungerer det: fysikken</h2>
+  <p>I en konventionel oppustelig konstruktion (som en ballon eller en luftmadras) skubber det indvendige lufttryk lige kraftigt i alle retninger. Uden indvendig fastholdelse bliver konstruktionen cilindrisk eller sfærisk. Drop-stitch løser dette ved at indføre trækforstærkning:</p>
+  <ul>
+    <li>Tusindvis af tråde forbinder de øverste og nederste stoflag</li>
+    <li>Når konstruktionen pustes op, forsøger lufttrykket at skubbe over- og underside fra hinanden</li>
+    <li>Trådene modstår denne adskillelse og overfører lasten som træk langs trådens akse</li>
+    <li>Resultatet er et fladt, stift panel, der modstår bøjning</li>
+  </ul>
+
+  <h2>Konstruktionsprocessen</h2>
+  <ol>
+    <li><strong>Vævning:</strong> Polyestertråde væves samtidig ind i to separate lag basistof (typisk 1,100 DTEX eller 1,680 DTEX PVC-belagt polyester). Trådene loopvæves mellem lagene i en vinkel på 90&deg;.</li>
+    <li><strong>Belægning:</strong> Det vævede basistof belægges med PVC (eller lejlighedsvis TPU) ved knivbelægning eller kalanderbelægning. Det forsegler trådene og skaber den lufttætte membran.</li>
+    <li><strong>Sammenlagning:</strong> Drop-stitch-kernen limes sammen med de ydre laminerede lag (typisk 0.9 mm eller 1.2 mm PVC) via varmelaminering eller lim.</li>
+    <li><strong>Svejse:</strong> Kantlister svejses langs kanterne med luftsvejsning eller højfrekvenssvejsning for at skabe brættets sidevægge.</li>
+    <li><strong>Ventilmontering:</strong> Boston-ventiler eller Halkey-Roberts-ventiler monteres, typisk med en trykaflastningsmekanisme, der forhindrer overoppustning.</li>
+  </ol>
+
+  <h2>Vigtige kvalitetsindikatorer</h2>
+  <table class="w-full text-sm border-collapse">
+    <thead>
+      <tr class="bg-gray-100">
+        <th class="p-3 text-left font-semibold text-gray-900 border">Parameter</th>
+        <th class="p-3 text-left font-semibold text-gray-900 border">Basisniveau</th>
+        <th class="p-3 text-left font-semibold text-gray-900 border">Premium</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td class="p-3 border">Trådtæthed</td><td class="p-3 border">1 tråd / kv. tomme</td><td class="p-3 border">2 tråde / kv. tomme</td></tr>
+      <tr><td class="p-3 border">Basistof</td><td class="p-3 border">1,100 DTEX</td><td class="p-3 border">1,680 DTEX</td></tr>
+      <tr><td class="p-3 border">Maks. tryk</td><td class="p-3 border">12 – 15 PSI</td><td class="p-3 border">18 – 22 PSI</td></tr>
+      <tr><td class="p-3 border">PVC-tykkelse</td><td class="p-3 border">0.6 – 0.9 mm</td><td class="p-3 border">1.0 – 1.2 mm</td></tr>
+      <tr><td class="p-3 border">Kantkonstruktion</td><td class="p-3 border">Foldet og limet</td><td class="p-3 border">Svejset og smeltesammen</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Anvendelser</h2>
+  <ul>
+    <li><strong>SUP-brætter:</strong> 4" – 6" tykkelse, 15 – 20 PSI, 1 – 2 tråde/kv. tomme</li>
+    <li><strong>Kajakker:</strong> Drop-stitch-gulv + oppustelige sidekamre, 10 – 15 PSI i gulvet</li>
+    <li><strong>RIB-gulve:</strong> Drop-stitch-gulve til lette, sammenpakkelige RIB-både, 12 – 18 PSI</li>
+    <li><strong>Bådfender:</strong> Lavtryks-drop-stitch til formede fendere med flade sider</li>
+  </ul>
+
+  <h2>Drop-stitch kontra Air Deck (glasfiber- eller trækerne)</h2>
+  <p>Hardboards bruger EPS-skumkerner forstærket med glasfiber eller træstrimler. De er lettere, stivere og mere responsive — men kan ikke tømmes for luft. Drop-stitch giver lidt stivhed tilbage for fuld transportabilitet. For de fleste fritidsbrugere er moderne drop-stitch-SUP ved 20 PSI ikke til at skelne fra hardboards på basisniveau, hvad angår stivhed.</p>
+
+  <h2>Sådan bruger Vatrad drop-stitch</h2>
+  <p>Vatrad bruger en drop-stitch-kerne i 1,680 DTEX gennem hele SUP-programmet, med 2 tråde pr. kvadrattomme og 1.2 mm PVC-ydre laminat. Brætterne er dimensioneret til 15 PSI og gennemgår en 24-timers trykholdprøvning ved 18.0 PSI før afsendelse. Kantlister luftsvejses med trelagssmeltning, og trykaflastningsventiler er standard på alle modeller.</p>
+  <p>Drop-stitch er rygraden i vores SUP-produktion — se siden om <a href="/da/technology/drop-stitch-core">drop-stitch-kerneteknologi</a> og hvordan kernen limes fast på <a href="/da/factory">fabrikens produktionslinje</a>.</p>
+
+cta:
+  title: 'Vil du lære mere om drop-stitch?'
+  subtitle: 'Kontakt os for tekniske specifikationer og OEM-forespørgsler.'
+  button_text: 'Kontakt salg'
+  button_link: /da/contact

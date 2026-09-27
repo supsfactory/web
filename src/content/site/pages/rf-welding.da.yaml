@@ -1,0 +1,99 @@
+meta:
+  title: 'Højfrekvenssvejsecenter — dielektrisk sømmebinding af SUP | {SITE}'
+  description: 'Højfrekvenssvejseteknologi, der leverer overensstemmende, lufttætte sømme på SUP-brætter. Peelprøvning, validering af lufttab og skræddersyede sømmespecifikationer.'
+  dateModified: '2026-08'
+back_text: 'Tilbage til R&D-center'
+home_label: 'Hjem'
+
+answer:
+  label: 'Det korte svar'
+  text: 'Vi kører dielektriske højfrekvenspresser på 15 kW, der binder PVC-sømme molekylært ved luftsvejsningsekvivalenter på 200–600 °C, og validerer derefter hver svejse: peelprøvninger efter ASTM D751, lufttabsholdning ved 18.0 PSI og dokumenterede, sporbare sømme pr. enhed.'
+  verified: 'September 2026'
+
+hero:
+  tagline: 'Laboratorium 03'
+  title: 'Højfrekvenssvejsecenter'
+  subtitle: 'Dielektrisk bindingsteknologi til sømme, der holder under tryk'
+  image: 'https://assets.isupfactory.com/images/sups/products/sup-series/sup-jungle-mandala-1.webp'
+  image_alt: 'Vatrads dielektriske bindingsproces for højfrekvenssvejsning'
+
+intro: 'Et oppusteligt SUP-bræt er kun så pålideligt som sine sømme. En enkelt svag svejse kan kompromittere et helt kammer — og under foden er et kammertab ikke en gene; det er en sikkerhedsfare. På {SITE.name} har vi investeret i et dedikeret højfrekvenssvejsecenter (RF), der kombinerer dielektriske svejsepresser i industriel kvalitet med streng processtyring og test efter svejse. Alle sømme, vi producerer, er dokumenterede, sporbare og certificeret til at opfylde eller overgå kravene i den internationale standard for oppustelige fartøjer.'
+
+content_html: |
+  <h2>Videnskaben bag sømmen</h2>
+  <p>Højfrekvenssvejsning bruger højfrekvente elektromagnetisk energi (typisk 27.12 MHz) til at sætte de polære molekyler i PVC-belagt stof i svingning, så der dannes varme præcist ved materialegrænsen. I modsætning til luftsvejsning eller varmkilesvejsning skaber højfrekvenssvejsning en ægte molekylær binding — de to stoflag smelter sammen til et homogent materiale i svejsezonen, hvilket giver en forbindelse, der er lige så stærk som selve grundmaterialet.</p>
+
+  <h2>Svejseudstyr og processtyring</h2>
+  <p>Vores svejsecenter er udstyret med:</p>
+  <table>
+    <thead><tr><th>Maskine</th><th>Effekt / kapacitet</th><th>Anvendelse</th></tr></thead>
+    <tbody>
+      <tr><td>Dielektrisk højfrekvenspresse 1</td><td>15 kW, plade 2000 × 600 mm</td><td>Brættets hovedsømme, forbindelse mellem kantliste og dæk</td></tr>
+      <tr><td>Dielektrisk højfrekvenspresse 2</td><td>10 kW, plade 1500 × 500 mm</td><td>Sømme i nose, forstærkningsstykker til håndtag og ventiler</td></tr>
+      <tr><td>CNC-styret højfrekvenssvejser</td><td>8 kW, XY-bord 2500 × 1200 mm</td><td>Krumme kantsømme, prægning af logo/paneler, præcisionslappetasker</td></tr>
+      <tr><td>Automatisk varmkilesvejser</td><td>Variabel temperatur, maks. 1.2 m/min</td><td>Reservemetode til særlige CSM-materialer</td></tr>
+    </tbody>
+  </table>
+  <p>Alle højfrekvenspresser er udstyret med lukket sløjfe-overvågning af temperatur og tryk. Svejseparametre — effekt, pressetid, afkølingstid, elektrodetryk — programmeres pr. materialetype og registreres i vores Manufacturing Execution System (MES) for fuld sporbarhed.</p>
+
+  <h2>Svejsekvalitetstest — hver sømme, hvert bræt</h2>
+  <p>Svejseintegriteten verificeres gennem en obligatorisk testprotokol med fire dele:</p>
+  <ol>
+    <li><strong>Visuel inspektion</strong> — 100 % af sømmene inspiceres visuelt for gennembrænding, fejljustering, forurening eller ufuldstændig smeltning. Tærskel for kassationsrate: 0.5 % af løbende meter.</li>
+    <li><strong>Peelprøvning</strong> — En 25 mm bred strimmel skæres ud af en prøve, der er svejset sammen med hvert produktionsparti. Mindste peelkraft: 120 N/25 mm for PVC 1100 dtex.</li>
+    <li><strong>Lufttabsprøvning</strong> — Ethvert færdigt bræt trykkes til 18.0 PSI og holdes i 24 timer. Trykfaldet må ikke overstige 0.50 PSI.</li>
+    <li><strong>Temperaturcyklusprøvning</strong> — Prøveemnercykles fra -20 °C til +60 °C i 50 cyklusser og peelprøves derefter igen. Acceptabel styrketab: &lt; 10 %.</li>
+  </ol>
+
+  <div class="not-prose my-10 p-6 rounded-xl bg-gray-50 dark:bg-gray-900 border border-gray-200 dark:border-gray-800">
+    <p class="text-sm font-semibold text-gray-500 mb-3 uppercase tracking-wider">Sammenligning af peelstyrke — højfrekvenssvejsning kontra luftsvejsning (PVC 1100 dtex)</p>
+    <div class="space-y-3">
+      <div class="flex items-center gap-3">
+        <span class="w-24 text-xs font-medium">RF-svejse</span>
+        <div class="flex-1 h-6 bg-gray-200 dark:bg-gray-700 rounded">
+          <div class="h-full bg-blue-600 rounded" style="width:92%"></div>
+        </div>
+        <span class="text-xs font-bold w-12 text-right">184 N</span>
+      </div>
+      <div class="flex items-center gap-3">
+        <span class="w-24 text-xs font-medium">Luftsvejsning</span>
+        <div class="flex-1 h-6 bg-gray-200 dark:bg-gray-700 rounded">
+          <div class="h-full bg-gray-400 rounded" style="width:65%"></div>
+        </div>
+        <span class="text-xs font-bold w-12 text-right">130 N</span>
+      </div>
+      <div class="flex items-center gap-3">
+        <span class="w-24 text-xs font-medium">Standardmin.</span>
+        <div class="flex-1 h-6 bg-gray-200 dark:bg-gray-700 rounded">
+          <div class="h-full bg-green-500 rounded" style="width:48%"></div>
+        </div>
+        <span class="text-xs font-bold w-12 text-right">96 N</span>
+      </div>
+    </div>
+    <p class="text-xs text-gray-400 mt-2">Højfrekvenssvejsning opnår konsekvent 90-95 % af grundmaterialets styrke, langt over minimumskravet.</p>
+  </div>
+
+  <h2>Professionel ekspertise</h2>
+  <p>Vores svejseteam ledes af en seniorprocesingeniør med 11 års erfaring i dielektrisk svejsning af belagte tekstiler. Hver operatør gennemfører et 6-måneders internt certificeringsprogram, før de må arbejde med sømme i produktionen. Recertificering er påkrævet årligt og omfatter en praktisk svejseprøve, der evalueres mod vores interne Grade A-standard (peelstyrke ≥ 160 N/25 mm).</p>
+
+  <h2>Skræddersyede svejseløsninger til særlige krav</h2>
+  <p>Vi ved, at en svejsespecifikation ikke passer til enhver anvendelse. Vores højfrekvenssvejsecenter udvikler løbende skræddersyede sømmekonfigurationer til kunder med særlige krav:</p>
+  <ul>
+    <li><strong>Flerlagsforstærkningsstykker</strong> — til slidbelastede områder som kantlister og nasekapsler udvikler vi flergangssvejsninger i højfrekvens, der integrerer et slidstærkt ydre lag uden at gå på kompromis med fleksibiliteten.</li>
+    <li><strong>Sømme til højtryksbrætter</strong> — til brætter dimensioneret over 15 PSI validerer vi sømmegeometrien ved forhøjet driftstryk og dokumenterer grænsen i testrapporten.</li>
+    <li><strong>Svejse af paneler med farveskift</strong> — tofarvede stofpaneler (f.eks. orange dæk + grå kant) svejses med skjult overlap, så brandets udtryk bevares uden synlig samling.</li>
+  </ul>
+
+  <h2>Vores engagement over for dig</h2>
+  <p>Ethvert bræt, vi leverer, kommer med vores svejsekvalitetsgaranti: hvis en sømme svigter i normal drift inden for garantiperioden, reparerer eller udskifter vi det berørte kammer uden omkostning og foretager en årsagsundersøgelse for at forebygge gentagelse. Det er ikke blot en garanti — det er et engagement om løbende forbedring baseret på virkelige driftsdata.</p>
+  <p>Når du vælger {SITE.name}, vælger du sømme, der er konstrueret, testet og dokumenterede — ikke blot svejset. Det er forskellen på et bræt, der flyder, og et bræt, der yder.</p>
+
+cta:
+  title: 'Drøft dine svejsekrav'
+  subtitle: 'Skræddersyede sømmespecifikationer, materialekompatibilitet eller procesvalidering.'
+  actions:
+    - variant: primary
+      text: Kontakt vores svejseteam
+      href: /da/contact#project-brief
+    - text: Tilbage til R&D-centeret
+      href: /da/randdcenter

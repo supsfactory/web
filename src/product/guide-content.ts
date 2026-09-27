@@ -2687,7 +2687,274 @@ export const GUIDES_PL: Guide[] = [
   },
 ]
 
-const GUIDES_BY_LOCALE: Record<string, Guide[]> = { en: GUIDES, es: GUIDES_ES, fr: GUIDES_FR, de: GUIDES_DE, it: GUIDES_IT, pt: GUIDES_PT, nl: GUIDES_NL, sv: GUIDES_SV, no: GUIDES_NO, pl: GUIDES_PL }
+export const GUIDES_DA: Guide[] = [
+  {
+    slug: 'how-to-choose-your-sup',
+    title: 'Sådan vælger du dit SUP-bræt',
+    intro: [
+      'Valget af dit første oppustelige SUP-bræt handler om størrelse, bredde, konstruktion og hvad der er i kassen. Her er det, der betyder noget, i klare ord.',
+    ],
+    sections: [
+      {
+        title: 'Længde og volumen',
+        body: 'Længere bræt (11–12 ft) glider længere pr. tag og holder kursen bedre — ideelle til touring og padling over længere distancer. Kortere bræt er nemmere at dreje. For de fleste ryttere er et allround-bræt på 10\'6"–11\'0" det bedste valg.',
+      },
+      {
+        title: 'Bredde og stabilitet',
+        body: 'Bredden påvirker stabiliteten mere end alt andet. Et dæk på 32 tommer er tilgivende for begyndere og stabilt nok til yoga; 30-tommers bræt passer til lettere eller mere erfarne pagajere, der værdsætter fart og smidighed.',
+      },
+      {
+        title: 'Konstruktionskvalitet',
+        body: 'Se efter en drop-stitch-kerne i PVC i militærkvalitet med et arbejdstryk på mindst 15 PSI, dobbeltlamineret PVC og forstærkede kantlister. Det er dem, der afgør brættets stivhed, og hvor længe det holder ved daglig brug.',
+      },
+      {
+        title: 'Hvad der skal være med i kassen',
+        body: 'Et komplet sæt sparer både penge og besvær: bræt, 3-delt justerbart pagaj, tovejs pumpe med manometer, spiral-leash, finne eller finner, rygsæk og reparationssæt.',
+      },
+    ],
+    faqs: [
+      { q: 'Hvilken størrelse SUP-bræt har jeg brug for?', a: 'De fleste begyndere vælger et allround-bræt på cirka 11\'0" × 32" × 6" — stabilt, alsidigt og nemt at transportere. Tungere brugere eller planer om længere ture bør vælge en større størrelse.' },
+      { q: 'Er et oppusteligt SUP-bræt lige så stift som et hårdt bræt?', a: 'Et moderne drop-stitch-bræt ved 15–20 PSI er næsten lige så stift som et hårdt bræt på begynderniveau — med den fordel, at det passer i en rygsæk.' },
+    ],
+    related: [
+      { label: 'Se vores SUP-platforme', href: '/products' },
+      { label: 'Oppusteligt vs. hårdt bræt', href: '/inflatable-vs-hardboard' },
+      { label: 'OEM-produktion', href: '/oem-manufacturing' },
+    ],
+  },
+  {
+    slug: 'beginner-guide',
+    title: 'Begynderguide i padling',
+    intro: [
+      'Alt du skal bruge til dine første ture på vandet: oppustning, den første gang du står op, det grundlæggende pagajtag, og hvordan du holder dig sikker, mens du bliver tryg.',
+    ],
+    sections: [
+      {
+        title: 'Pump til den angivne værdi, ikke til følelsen',
+        body: 'Pump til det angivne tryk (normalt 15 PSI) med manometeret på pumpen. Et bræt på 10 PSI føles fint på græsset, men bøjer kraftigt på vandet. Tjek trykket på varme dage — solen opvarmer luften indeni, og trykket stiger.',
+      },
+      {
+        title: 'De første skridt på brættet',
+        body: 'Start fra stranden eller et lavt indgangspunkt: begiv med at knæle og rejst dig så med en fod ad gangen over brættets midtlinje. Sæt fødderne i skulderbredde, hold knæene bløde, og se mod horisonten — brættet følger dit blik.',
+      },
+      {
+        title: 'Det grundlæggende pagajtag',
+        body: 'Ræk pagajet frem, sænk bladet helt under og træk det langs brættets kant, mens du roterer overkroppen. Skift side efter nogle få tag for at holde kursen; nogle få tag på en side får dig til at dreje.',
+      },
+      {
+        title: 'Træn på at falde først',
+        body: 'At lande i vandet er en del af indlæringen. Øv dig i at komme op på brættet i lavt vand: svøm til håndtaget midt på brættet, spark med fødderne til overfladen, og træk dig op med et greb.',
+      },
+    ],
+    faqs: [
+      { q: 'Hvor lang tid tager det at lære SUP?', a: 'De fleste kan pagaje komfortabelt på fladt vand inden for den første time. Tryghed i sving, vind og på længere distancer bygger du op gennem flere ture.' },
+      { q: 'Skal jeg være i god form?', a: 'Nej — SUP er meget tilgængeligt. Balance, kernekræfter og udholdenhed bygger du naturligt gennem regelmæssig padling.' },
+    ],
+  },
+  {
+    slug: 'inflatable-vs-hard',
+    title: 'Oppusteligt vs. hårdt bræt',
+    intro: [
+      'De to konstruktionsfamilier vinder i hver deres situation. Her er den ærlige sammenligning til rekreative pagajere, klubber og udlejningsvirksomheder.',
+    ],
+    sections: [
+      {
+        title: 'Portabilitet og opbevaring',
+        body: 'Oppustelige bræt tømmes for luft og pakkes i en rygsæk, der passer i bilens bagagekurv, en campingvogn eller et skab derhjemme — og er standardvalget på rejser. Hårde bræt kræver tagboks, opbevaringsplads og forsigtigere håndtering.',
+      },
+      {
+        title: 'Stivhed og ydeevne',
+        body: 'Premium-hårde bræt er stivere og mere responsive på højt ydeevneniveau. Ved rekreative hastigheder giver et velbygget drop-stitch-bræt ved 15–20 PSI sammenlignelige resultater til en brøkdel af opbevaringsomkostningerne.',
+      },
+      {
+        title: 'Holdbarhed',
+        body: 'Oppustelige PVC-bræt tåler skrab mod broer og stød mod kanten, der ville sprænge en hård overflade — en vigtig grund til, at udlejningsflåder og resorter vælger oppustelige bræt til dagligt gæstebrug.',
+      },
+      {
+        title: 'Samlet ejeromkostning',
+        body: 'Oppustelige bræt er billigere at sende, opbevare og vedligeholde, og de tåler hårdere håndtering. For de fleste brugere og flåder er et oppusteligt bræt det bedre allround-valg.',
+      },
+    ],
+    faqs: [
+      { q: 'Hvad er bedst til begyndere?', a: 'Oppustelige bræt — stabile, tilgivende, nemme at opbevare og holdbare nok til de skrab, begyndere får.' },
+      { q: 'Kan et oppusteligt SUP være lige så hurtigt som et hårdt bræt?', a: 'Ved rekreative hastigheder er forskellen lille. Hårde bræt vinder tydeligt kun i kap og krævende ydeevnescenarier.' },
+    ],
+  },
+  {
+    slug: 'safety-tips',
+    title: 'Sikkerhed på vandet',
+    intro: [
+      'En sikker tur er en god tur. Denne grundviden gælder lige så vel søer, åer som kystpadling.',
+    ],
+    sections: [
+      {
+        title: 'Tjek vind og vejrudsigt',
+        body: 'Vind fra land er den klassiske SUP-fælde: den fører dig hurtigere væk fra kysten, end du kan ro tilbage. Tjek vejrudsigten, og bliv på vandet i læ, når du er i tvivl.',
+      },
+      {
+        title: 'Bær altid leash',
+        body: 'En spiral-leash holder brættet inden for rækkevidde, hvis du falder i vandet — brættet er din redningsflåde. Vælg leash efter forholdene: spiral på stille vand, lige leash til surfing.',
+      },
+      {
+        title: 'Redningsvest og personlig sikkerhed',
+        body: 'Bær redningsvest, når forholdene kræver det, eller når reglerne påbyder det. Tag en fløjte med, fortæl nogen din rute og planlagte hjemkomsttid, og overvej en telefon i en vandtæt holder.',
+      },
+      {
+        title: 'Kend dine evner',
+        body: 'Få erfaring på fladt vand, inden du sejler ud i vind eller strøm. Respekter koldt vand — det tager hurtigt kræfter. Og pagaj aldrig alene i afsides eller åbent vand uden en plan.',
+      },
+    ],
+    faqs: [
+      { q: 'Skal jeg have redningsvest på et SUP-bræt?', a: 'Kravene varierer fra land til land og fra vandområde til vandområde. Selv hvor vesten er valgfri, er leash plus vest det ansvarlige minimum, og børn bør altid have en korrekt tilpasset vest.' },
+      { q: 'Er det sikkert at pagaje på en sø?', a: 'Ja — stille søer er ideelle til at lære. Tjek vindretningen, vær synlig for bådtrafik, og undgå trafikerede sejlruter.' },
+    ],
+    related: [
+      { label: 'Sikkerhedsudstyr på vores platforme', href: '/products' },
+      { label: 'Kvalitetskontrol i fabrikken', href: '/quality' },
+      { label: 'Vælg dit første bræt', href: '/guides/how-to-choose-your-sup' },
+    ],
+  },
+  {
+    slug: 'choosing-a-sup-oem-factory',
+    title: 'Sådan vælger du en OEM-fabrik til specialfremstillede SUP-bræt',
+    intro: [
+      'At købe oppustelige SUP-bræt under dit eget mærke handler om en beslutning: hvilken fabrik betror du din første batch til. Her er vurderingen af en leverandør af specialfremstillede SUP-bræt, før du sender din ordre.',
+    ],
+    sections: [
+      {
+        title: 'Start med en prøveordre, ikke med en diskussion om minimumsordre',
+        body: 'En fabrik, der kun taler om minimumsordrer, er et tegn på et salgskontor, ikke en fabrik. Reelle producenter arbejder med trinstyrede minimumsordrer — co-branding fra 5–10 stk, pilotpartier fra 20–50 stk, standardvolumen fra 90–100+ stk pr. 150 m rulle, og projekter med en helt egen form kører i serieproduktion. Bestil en lille batch først: den afprøver kommunikation, specifikationstolerancer og prøvekvalitet, uden at du satser hele din lancering.',
+      },
+      {
+        title: 'Se, hvad der faktisk sker på stedet',
+        body: 'Drop-stitch-produktion af SUP har fire kernetrin: laminering af materialet, højfrekvenssvejsning, tryk og montering. En rigtig fabrik laverer det hele under et tag og giver dig adgang til hallen. Hvis sælgeren ikke kan vise produktionslinjen, køber du med stor sandsynlighed gennem en mellemand uden kontrol over kvalitet eller leveringstid.',
+      },
+      {
+        title: 'Prøven skal svare til serieproduktionen',
+        body: 'En håndlavet prøve er let; ensartet serieproduktion er svært. Spørg, hvordan fabrikken sikrer repeterbarhed: registrering af materialebatcher, svejseparametre og den QC-kontrolliste, der kører på hvert enkelt bræt — ikke kun på det, du godkender.',
+      },
+      {
+        title: 'Kend omkostningerne, før du sender ordren',
+        body: 'Få det fulde omkostningsbillede skriftligt: enhedspris afhængigt af antal, værktøjs- eller formomkostninger, hvis du vil have en ny form, klargøring af grafiske filer og tryk samt emballage.',
+      },
+      {
+        title: 'Bed om en tredjepartsinspektion',
+        body: 'Seriøse OEM-fabrikker for SUP modtager gerne inspektion før afsendelse — mange mærker reserverer en uafhængig QC-inspektion pr. container. Bekræft, at fabrikken kan arrangere inspektion af prøver og serier, og at kasserede enheder (for eksempel bræt, der mister over 5 % af trykket) sorteres fra partiet.',
+      },
+      {
+        title: 'Leveringstider, der holder',
+        body: 'Planlæg prøver på 7–12 dage og serieproduktion på 25–35 dage fra bekræftet ordre og depositum, plus værktøjstid ved bestilling af en ny form. En fabrik, der oplyser markant kortere leveringstider end alle andre, citerer en brochure og ikke en tidsplan.',
+      },
+    ],
+    faqs: [
+      { q: 'Hvad er minimumsordren for specialfremstillede SUP-bræt?', a: 'Trinstyrede minimumsordrer er standarden: 1–2 stk til prøver, 5–10 stk ved co-branding, 20–50 stk til et pilotparti og 90–100+ stk pr. 150 m rulle til standardvolumen; projekter med en helt egen form kører i serieproduktion.' },
+      { q: 'Kan jeg se en prøve før serieproduktionen?', a: 'Ja — prøver er klar på 7–12 dage. De fleste fabrikker trækker prøve- og formomkostningerne fra din første produktionsordre, når den bekræftes.' },
+      { q: 'Hvordan verificerer jeg, at en SUP-fabrik er reel?', a: 'Bed om en live-visning af produktionshallen, kontroller, at fabrikken har en aktiv adresse i Qingdao eller et andet industrielt centrum, og bed om dokumentation fra tidligere eksportordrer. En prøveordre er det endelige bevis.' },
+      { q: 'Hvad skal et tilbud fra en SUP-fabrik indeholde?', a: 'Enhedspris pr. bræt, værktøjs- eller formomkostninger, klargøring af grafiske filer, emballage, vilkår for QC og inspektion samt betalingsbetingelser.' },
+    ],
+    related: [
+      { label: 'Vores OEM-/ODM-produktion', href: '/oem-manufacturing' },
+      { label: 'Processen for udvikling af SUP-produkter', href: '/product-development' },
+      { label: 'Fabrikkens kapacitet og faciliteter', href: '/factory' },
+      { label: 'Sådan kontrollerer vi kvaliteten — 7 kontrolpunkter', href: '/quality' },
+      { label: 'Guide til minimumsordre og fleksibelt branding (PDF)', href: '/oem-moq-guide' },
+      { label: 'Verificer os: tillid og fabrikgarantier', href: '/oem-trust-assurance' },
+      { label: 'Start et specialfremstillet SUP-projekt', href: '/contact' },
+    ],
+  },
+  {
+    slug: 'private-label-sup-guide',
+    title: 'SUP under eget mærke: hvad du reelt får hos fabrikken',
+    intro: [
+      'Eget mærke er den hurtigste vej til at lancere et SUP-mærke: dit logo på en afprøvet platform, uden omkostningerne og risikoen ved at designe et bræt fra bunden. Her er, hvad et samarbejde med en leverandør af specialfremstillede SUP-bræt reelt indebærer.',
+    ],
+    sections: [
+      {
+        title: 'Eget mærke betyder afprøvede platforme',
+        body: 'Du bygger videre på platforme, som fabrikken allerede bygger og tester — allround, touring, yoga, racing med mere. Fabrikken tilpasser branding, grafik og finish, hvilket holder omkostningerne lave og leveringstiderne korte. Minimumsordrerne er trinstyrede: co-branding fra 5–10 stk, pilotpartier fra 20–50 stk og 90–100+ stk pr. 150 m rulle til standardvolumen under eget mærke.',
+      },
+      {
+        title: 'Branding går længere end logoet',
+        body: 'Eget mærke omfatter tryk af dit logo (digitalt eller silketryk), egne farver, EVA-måtter i dit logo, branding af tilbehør (pagaj, pumpe, leash), design af detailemballage og endda salgsstånd. Send filerne, så udarbejder fabrikken en visuel korrektur før produktionen.',
+      },
+      {
+        title: 'Hvad fabrikken håndterer for dig',
+        body: 'En fuldservice-SUP-fabrik står for klargøring af grafiske filer, materialindkøb, prøveproduktion, en QC-kontrolliste på 100 punkter for montagen, trykprøvninger og eksportdokumentation (faktura, pakliste, oprindelsesbevis). Du vurderer korrekturerne og godkender prøven — resten kører fabrikken.',
+      },
+      {
+        title: 'Hvad der er dit: mærke, marked, kunde',
+        body: 'I modellen med eget mærke bygger fabrikken brættet, men mærket er dit. Seriøse producenter sælger ikke deres egne bræt på dit marked eller videresælger dit design til andre. Bed om markeds eksklusivitet i tilbuddet.',
+      },
+      {
+        title: 'Omkostninger: prøve, form, klargøring af filer',
+        body: 'Regn med tre typer gebyrer: prøvegebyret (7–12 dage), værktøjsomkostningen, når der skal bruges en ny form (minimumsordren afhænger af volumen), samt klargøring af grafiske filer til tryk. De fleste fabrikker trækker prøve- og formomkostningerne fra den første produktionsordre.',
+      },
+      {
+        title: 'Fra ordre til færdig batch',
+        body: 'Det typiske forløb under eget mærke: 30 % depositum sætter produktionen i gang, batchproduktionen afsluttes på 25–35 dage fra bekræftet ordre og depositum, og restbeløbet afregnes, når den godkendte batch er modtaget. Budgetter hele forløbet allerede ved din første ordre.',
+      },
+    ],
+    faqs: [
+      { q: 'Hvad er minimumsordren for SUP-bræt under eget mærke?', a: 'Co-branding kører fra 5–10 stk, pilotpartier fra 20–50 stk og standardvolumen under eget mærke fra 90–100+ stk pr. 150 m rulle; projekter med en helt egen form kører i serieproduktion.' },
+      { q: 'Kan jeg sende mit eget logo og mine egne grafiske filer?', a: 'Ja — send logo og filer; fabrikken udarbejder en visuel korrektur før produktionen, så du kan godkende farver, placering og finish.' },
+      { q: 'Er mit specialfremstillede SUP-design eksklusivt for mit mærke?', a: 'Ja, under standardbetingelser for eget mærke. Bed om en eksklusivitetsklausul i din købsaftale; fabrikker som vores videresælger ikke et design med dit mærke.' },
+      { q: 'Hvor lang tid tager en ordre af SUP-bræt under eget mærke?', a: 'Prøver sendes på 7–12 dage; batchproduktionen afsluttes på 25–35 dage fra bekræftet ordre og depositum. Budgetter 8–12 uger til det første fulde forløb.' },
+    ],
+    related: [
+      { label: 'Løsninger for SUP under eget mærke', href: '/solutions/private-label-sup' },
+      { label: 'Se de afprøvede platforme', href: '/products/all-around' },
+      { label: 'OEM-/ODM-produktion', href: '/oem-manufacturing' },
+      { label: 'Start et specialfremstillet SUP-projekt', href: '/contact' },
+    ],
+  },
+  {
+    slug: 'sup-fleet-guide',
+    title: 'Køb af SUP-flåder til udlejning, resorter og klubber',
+    intro: [
+      'Flådekøbere har brug for andre svar end slutbrugere: holdbarhed pr. tur, standardiserede reservedele, mængder i størrelsesordenen og en leverandør, der leverer sæson efter sæson. Her er, hvad du skal planlægge, før du bestiller din første flåde.',
+    ],
+    sections: [
+      {
+        title: 'Standardiser på en eller to specifikationer',
+        body: 'Flådedrift bygger på standardisering: en brætstørrelse (normalt 10\'6"–11\'0" × 32") til de fleste gæster, en holdbar udstyrspakke og et sæt reservedele. Det gør reparationer, oplæring af personale, opbevaring og genbestilling enklere. Hold dig fra at købe ti forskellige modeller.',
+      },
+      {
+        title: 'Bræt til tungt brug er et andet produkt',
+        body: 'Et udlejringsbræt arbejder gennem snesevis af ture pr. sæson. Angiv tykkere PVC-lag, forstærkede kantlister og tungere tilbehør sammenlignet med detailbræt. Spørg fabrikken, hvordan flådespecifikationen adskiller sig fra forbrugerudgaven — en reel fabrik har begge dele.',
+      },
+      {
+        title: 'Tilpas antallet til efterspørgslen',
+        body: 'Beregn flådens størrelse ud fra den daglige omsætning og sæsonens længde: 20–30 bræt dækker en mindre udlejning, over 100 et travlt resort eller en klub. Bed fabrikken om anbefalinger tilpasset dit efterspørgselsmønster.',
+      },
+      {
+        title: 'Køb reservedele sammen med flåden',
+        body: 'Bestil reserveventiler, reparationssæt, pumper, leash og pagaj inden for samme ordre — nu koster de næsten intet pr. stk, og i løbet af sæsonen er de svære at få fat i. Bed fabrikken om en anbefalet andel reservedele (normalt 5–10 % af flådens størrelse til forbrugsvarer).',
+      },
+      {
+        title: 'Bestil mod sæsonen, ikke under den',
+        body: 'Produktionen kører 25–35 dage fra bekræftet ordre og depositum. For at brættene skal ligge på stranden til foråret, bekræfter du ordrerne i det sene efterår, så produktionen lander før sæsonen.',
+      },
+      {
+        title: 'Mærk flåden for værdi ved videresalg',
+        body: 'Flådebræt kan bære dit logo, et nummereringssystem til udlejning og farvekode efter størrelse. Silketryk af logo på serier fra 200+ stk er omkostningseffektivt, og en mærket flåde er samtidig markedsføring på vandet.',
+      },
+    ],
+    faqs: [
+      { q: 'Hvad er det bedste SUP til en udlejningsflåde?', a: 'Et forstærket allround-bræt på 10\'6"–11\'0" × 32" er branchestandarden — stabilt for begyndere, holdbart ved daglig brug og let at servicere.' },
+      { q: 'Hvor mange bræt har en udlejningsvirksomhed brug for?', a: 'Planlæg 20–30 bræt til en mindre udlejning, og skaler efter omsætningen: over 100 stk til travle resorter og klubber. Reservedele bør udgøre 5–10 % af flådens størrelse.' },
+      { q: 'Kan flådebræt have vores logo?', a: 'Ja — silketryk af logo, udlejningsnumre og farvekodede dæk er almindelige tilpasninger, især omkostningseffektive fra 200 stk.' },
+      { q: 'Hvor lang tid tager en flådeordre?', a: 'Prøver på 7–12 dage, produktion på 25–35 dage fra bekræftet ordre og depositum — derfor skal flådeordrer afgives lang tid før sæsonen starter.' },
+    ],
+    related: [
+      { label: 'Løsninger til resorter og klubber', href: '/solutions/resort-sup' },
+      { label: 'Case study: udlejningsflåde på flere lokationer', href: '/projects/rental-fleet-multi-site' },
+      { label: 'Platforme til flåder', href: '/products/all-around' },
+      { label: 'Tal med en projektspecialist', href: '/contact' },
+    ],
+  },
+]
+
+const GUIDES_BY_LOCALE: Record<string, Guide[]> = { en: GUIDES, es: GUIDES_ES, fr: GUIDES_FR, de: GUIDES_DE, it: GUIDES_IT, pt: GUIDES_PT, nl: GUIDES_NL, sv: GUIDES_SV, no: GUIDES_NO, pl: GUIDES_PL, da: GUIDES_DA }
 
 export function localizedGuides(locale: string): Guide[] {
   return GUIDES_BY_LOCALE[locale] ?? GUIDES
@@ -3105,6 +3372,50 @@ export const GUIDE_CARDS: Record<string, GuideCard[]> = {
       title: 'Zakup flot desek SUP',
       intro:
         'Planowanie floty dla wypożyczalni, resortów i klubów: wytrzymała specyfikacja, ilości na kontener, części zamienne i sezonowość.',
+    },
+  ],
+  da: [
+    {
+      slug: 'how-to-choose-your-sup',
+      title: 'Sådan vælger du dit SUP-bræt',
+      intro:
+        'Valget af dit første oppustelige SUP-bræt handler om størrelse, bredde, konstruktion og hvad der er i kassen. Her er det, der betyder noget, i klare ord.',
+    },
+    {
+      slug: 'beginner-guide',
+      title: 'Begynderguide i padling',
+      intro:
+        'Alt du skal bruge til dine første ture på vandet: oppustning, den første gang du står op, det grundlæggende pagajtag, og hvordan du holder dig sikker.',
+    },
+    {
+      slug: 'inflatable-vs-hard',
+      title: 'Oppusteligt vs. hårdt bræt',
+      intro:
+        'De to konstruktionsfamilier vinder i hver deres situation. Her er den ærlige sammenligning til rekreative pagajere, klubber og udlejningsvirksomheder.',
+    },
+    {
+      slug: 'safety-tips',
+      title: 'Sikkerhed på vandet',
+      intro:
+        'En sikker tur er en god tur. Denne grundviden gælder lige så vel søer, åer som kystpadling.',
+    },
+    {
+      slug: 'choosing-a-sup-oem-factory',
+      title: 'Sådan vælger du en OEM-fabrik til specialfremstillede SUP-bræt',
+      intro:
+        'Sådan vurderer du en leverandør af specialfremstillede SUP-bræt, før du sender ordren: prøveordre, egen produktion, prøver, omkostninger og inspektion.',
+    },
+    {
+      slug: 'private-label-sup-guide',
+      title: 'SUP under eget mærke',
+      intro:
+        'Hvad et samarbejde om eget mærke reelt indebærer: afprøvede platforme, komplet branding, omkostninger, eksklusivitet og leveringstider.',
+    },
+    {
+      slug: 'sup-fleet-guide',
+      title: 'Køb af SUP-flåder',
+      intro:
+        'Flådeplanlægning til udlejning, resorter og klubber: holdbar specifikation, mængder pr. container, reservedele og sæsonudsving.',
     },
   ],
 }

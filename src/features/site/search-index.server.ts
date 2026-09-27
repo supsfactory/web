@@ -44,6 +44,7 @@ const FAQ_TITLES: Record<string, string> = {
   sv: 'Vanliga frågor',
   no: 'Ofte stilte sp\u00f8rm\u00e5l',
   pl: 'Najcz\u0119\u015bciej zadawane pytania',
+  da: 'Ofte stillede sp\u00f8rgsm\u00e5l',
 }
 
 /** Slug → readable label fallback for pages without an explicit SEO title. */

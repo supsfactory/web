@@ -1,0 +1,94 @@
+meta:
+  title: 'SUP-skrogkonstruktion — brætdesign med CAD & FEA'
+  description: 'Konstruktionsstudio for SUP-brætter: CAD-bråtdesign, endelig elementanalyse (FEA) af drop-stitch-konstruktioner og specialformer på skrog til OEM-projekter.'
+back_text: 'Tilbage til R&D-centeret'
+home_label: 'Hjem'
+
+hero:
+  tagline: 'Lab 02'
+  title: 'Brætkonstruktionsstudio'
+  subtitle: 'Digital simulering, strukturel intelligens, specialfremstillet brætdesign'
+  image: 'https://assets.isupfactory.com/images/sups/factory/isupfactory-design-discussion.webp'
+  image_alt: 'Vatrad-arbejdsstation til CAD-design af SUP-brætter'
+
+answer:
+  label: 'Det korte svar'
+  text: 'Specialfremstillede SUP-brætter designes i eget hus med 3D-overflader i SolidWorks, ANSYS FEA og CFD — hvert bræt simuleres for spændingsfordeling og dækstivhed med et obligatorisk sikkerhedstal ≥ 2.5, før der laves prototype. En specialform tager 7–12 dage at prototypere; fuld værktøjsudvikling til specialform medfører 15–20 dage oveni produktionens leveringstid på 25–35 dage, og minimumsordret (MOQ) fastlægges ud fra projektkonfigurationen (se vores MOQ-guide).'
+  verified: 'September 2026'
+
+intro: 'Formen på et SUP-bræt — dets rocker, kantprofil, nose- og tailvolumen — afgør, hvordan det pagajer, vender og holder sporet. På {SITE.name} kombinerer vores Brætkonstruktionsstudio CAD-overflader, endelig elementanalyse (FEA) af drop-stitch-konstruktioner og produktionserfaring for at levere brætter optimeret til deres tilsigtede brug: allround-stabilitet, touringglidning eller surfydeevne. Hvert specialbræt bygges ud fra din specifikation, ikke ud fra en generisk form i et katalog.'
+
+content_html: |
+  <h2>Der styrke møder hydrodynamik</h2>
+  <p>Et oppusteligt SUP-bræt er en drop-stitch-konstruktion: tusindvis af polyestergarn forbinder de øvre og nedre PVC-huder og holder dækket fladt ved 12–15 PSI, mens kantens og nosens geometri styrer, hvordan brættet interagerer med vandet. Vi designer 3D-formen, simulerer den oppustede konstruktion og validerer resultatet i eget hus, før et eneste prøveeksemplar skæres ud.</p>
+
+  <h2>Designværktøj og standarder</h2>
+  <p>Vores digitale konstruktionsmiljø omfatter:</p>
+  <table>
+    <thead><tr><th>Kapacitet</th><th>Software / værktøj</th><th>Anvendelse</th></tr></thead>
+    <tbody>
+      <tr><td>3D-parametrisk modellering</td><td>SolidWorks Professional</td><td>Brætoverflade, rockerlinje, kantprofil, integration af håndtag og finner</td></tr>
+      <tr><td>Endelig elementanalyse</td><td>ANSYS Mechanical</td><td>Kortlægning af spændinger i drop-stitch-kernen, dækstivhed under belastning, forstærkning ved håndtagspunkter</td></tr>
+      <tr><td>Væskedynamisk beregning</td><td>Ansys Fluent</td><td>Forudsigelse af hydrodynamisk modstand, optimering af trim ved planing</td></tr>
+      <tr><td>Lamineringskonstruktion</td><td>ESAComp</td><td>Stabling af PVC-lag, valg af dugvægt, vægtestimering</td></tr>
+      <tr><td>Gennemgang af formoverflader</td><td>Moldex3D</td><td>Gennemgang af svejseværktøjsgeometri til højfrekvenssvejsning</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Vores konstruktionsarbejdsgang</h2>
+  <p>Ethvert brætdesign, hvad enten det er en standardmodel eller et fuldt specialprojekt, følger en stringent proces i fem faser:</p>
+  <ol>
+    <li><strong>Koncept &amp; kravindsamling</strong> — Vi fastlægger rytterens vægtinterval, tilsigtet brug (allround, touring, surf, yoga, udlejningsflåde), længde, bredde og tykkelsesmål samt eventuelle særlige funktioner (lastsystemer, dækpuder, fastgørelsespunkter).</li>
+    <li><strong>3D-overflader &amp; volumenberegning</strong> — Brætformen modelleres i SolidWorks og kontrolleres for volumfordeling, fortrængning og stabilitet i forhold til målens ryttervægt.</li>
+    <li><strong>Strukturel FEA</strong> — Det oppustede bræt analyseres under belastning fra en stående rytter, statisk (rytter i centrum, 100 kg) og dynamisk (bølgepåvirkning mod kanten). Spændingskonturer gennemgås; et sikkerhedstal ≥ 2.5 er obligatorisk.</li>
+    <li><strong>CFD-optimering af modstand</strong> — Skroget simuleres ved tre belastningstilstande og fem hastigheder. Våd overflade, trimvinkel og restmodstand reduceres iterativt.</li>
+    <li><strong>Designgennemgang &amp; frigivelse</strong> — Det komplette konstruktionspakke (3D-model, FEA-rapport, CFD-rapport, vægtestimering, panelplan) gennemgås af vores senioringeniør, før det frigives til prototypeværkstedet.</li>
+  </ol>
+
+  <div class="not-prose my-10 p-6 rounded-xl bg-gray-50 dark:bg-gray-900 border border-gray-200 dark:border-gray-800">
+    <p class="text-sm font-semibold text-gray-500 mb-3 uppercase tracking-wider">FEA-resultater — 11''0 allround-bræt (32'' bredt, 6'' tykt)</p>
+    <div class="grid grid-cols-2 gap-4 text-sm">
+      <div class="p-4 rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-950">
+        <span class="block text-2xl font-bold text-blue-600">2.8 : 1</span>
+        <span class="text-gray-500">Sikkerhedstal ved stående belastning på 120 kg</span>
+      </div>
+      <div class="p-4 rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-950">
+        <span class="block text-2xl font-bold text-blue-600">0 mm</span>
+        <span class="text-gray-500">Dækudbøjning ved 15 PSI, uden belastning</span>
+      </div>
+      <div class="p-4 rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-950">
+        <span class="block text-2xl font-bold text-blue-600">3.2 mm</span>
+        <span class="text-gray-500">Største dækflex ved rytter på 120 kg</span>
+      </div>
+      <div class="p-4 rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-950">
+        <span class="block text-2xl font-bold text-blue-600">15 PSI</span>
+        <span class="text-gray-500">Analysetryk — platformens nominelle arbejdstryk</span>
+      </div>
+    </div>
+  </div>
+
+  <h2>Specialtilpasning: dit bræt, dine regler</h2>
+  <p>Ingen to mærker har identiske krav. En udlejningsflåde skal bruge et bredt, stabilt allround-bræt med forstærkede kanter; et touringmærke skal bruge en længere fortrængningsnæse med lastsurringsøjer; en surforienteret serie skal bruge en indtrukken tail og rockerprofil. Vi tvinger ikke dit sortiment ned i eksisterende former — vi designer ud fra din specifikation og opefter.</p>
+  <p>Eksempler på nylige projekter med specialfremstillet brætkonstruktion:</p>
+  <ul>
+    <li>Et 14'' touring-SUP til et mærke for distansepagaj, med fortrængningsnæse og forsænket lastdæk (+15% vandlinjelængde for glidning).</li>
+    <li>Et 10'6'' bredt allround-bræt til en resortflåde, med dobbeltlagige sidekanter og en nominel kapacitet på 220 lb.</li>
+    <li>Et 9'' surf-SUP med indtrukken tail og progressiv rocker, udviklet til en dedikeret surfskolelinje.</li>
+  </ul>
+
+  <h2>Vores ingeniører</h2>
+  <p>Studioet ledes af en senior produktingeniør med 14 års erfaring i design af oppustelige produkter, understøttet af to maskiningeniører specialiseret i FEA og CFD. Alle tre har advancede ingeniøruddannelser fra internationalt anerkendte universiteter, og teamet arbejder direkte sammen med vores produktionsgulv for at sikre, at ethvert design kan fremstilles i containerstørrelse.</p>
+
+  <h2>Samarbejd med os om dit næste bræt</h2>
+  <p>Fra den første konceptskitse til den endelige spændningsrapport er vores Brætkonstruktionsstudio din partner i at skabe et bræt, der ikke blot er bygget — men konstrueret. Vi investerer i simuleringstimerne fra starten, så hver søm, hvert laminationslag og hver kurve på kanten er der af en grund.</p>
+  <p>Uanset om du har brug for en mindre ændring af en eksisterende model eller et helt nyt design fra bunden, er vi klar til at drøfte dine krav.</p>
+
+cta:
+  title: 'Start din brætdesignkonsultation'
+  subtitle: 'Fortæl os om dine målryttere og anvendelsestilfælde, så foreslår vi en konstruktionsvej.'
+  actions:
+    - variant: primary
+      text: 'Kontakt vores konstruktionsteam'
+      href: /da/contact#project-brief
+    - text: 'Tilbage til R&D-centeret'
+      href: /da/randdcenter

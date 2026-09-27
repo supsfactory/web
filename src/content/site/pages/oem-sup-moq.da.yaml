@@ -1,0 +1,68 @@
+meta:
+  title: "Minimumsordre (MOQ) for oppustelige SUP-brætter — forklaret"
+  description: "Klar minimumsordrer (MOQ) for specialfremstilling af oppustelige SUP-brætter: 5–10 co-branding, 20–50 pilotserie, 90–100+ volumen pr. rulle. Beslutningstræ efter tilpasningsniveau."
+  dateModified: "2026-08-20"
+
+sections:
+  - title: "Det korte svar"
+    directAnswer:
+      answer: "Pilotserier på eksisterende platforme starter ved 20–50 stk.; standard minimumsordre (MOQ) for serieproduktion er 90–100+ stk. pr. 150 m drop-stitch-rulle (~180–220 brætter)."
+      condition: "Minimumsordren afhænger konkret af brættets form, materialerullen, tryk, emballage og om der skal fremstilles en ny form."
+      value: "5–10 co-branding · 20–50 pilotserie · 90–100+ pr. rulle, volumen"
+      verifiedDate: "September 2026"
+      sourceType: "factory-record"
+    body: |
+      Minimumsordren (MOQ) hos iSupfactory er inddelt i niveauer efter tilpasningsgraden, ikke i et enkelt fast tal.
+      Hvert niveau svarer til en bestemt produktionssituation:
+
+      | Situation | MOQ | Enhed | Betingelse |
+      |-----------|-----|-------|------------|
+      | Eksisterende platform, kun logo-overlæg | 5–10 stk. | pr. design | Samme form, samme materialerulle, samme farvevariant |
+      | Eget grafikdesign / EVA / emballage på eksisterende platform | 20–50 stk. | pilotserie | Samme form; nyt artwork kræver visuel godkendelse |
+      | Standard serieproduktion (alle platforme) | 90–100+ stk. | pr. 150 m rulle (~180–220 brætter) | Pr. materialerulle; flere SKU = separate ruller |
+      | Ny form / specialfremstillet form | 90–100+ stk. | produktionsserie | Formværktøj medfører 15–20 dage; engangsgebyr for formen |
+
+  - title: "Hvad tæller som en 'materialerulle'?"
+    body: |
+      En drop-stitch-dug-rulle på 150 meter giver cirka 180–220 brætter, afhængigt af
+      brættets dimensioner (typisk 10–11 ft). Hvert enkelt SKU — altså en anden størrelse,
+      farvekombination eller materialspecifikation — kræver sin egen rulle og dermed sit
+      eget minimumsordresniveau.
+
+      Derfor oplyser vi minimumsordren "pr. 150 m rulle" frem for "pr. design": to
+      farvevarianter af den samme brætform er to ruller, altså to minimumsordrer.
+
+  - title: "Co-branding kontra pilotserie kontra volumen"
+    body: |
+      **Co-branding (5–10 stk.)**: Dit logo påført en eksisterende platform, som allerede er i
+      produktion for et andet mærke. Ingen ændringer i artwork ud over logoplaceringen.
+      Hurtigste vej til en prøve med dit mærke.
+
+      **Pilotserie (20–50 stk.)**: Eget grafikdesign, design af EVA-grippad eller emballage på
+      en eksisterende platformform. Kræver visuel godkendelse før produktion. Ideal til
+      markedstest af et nyt udtryk.
+
+      **Serieproduktion (90–100+ stk. pr. rulle)**: Fuld produktionsserie med enhver kombination
+      af tilpasning. Det er det kommercielle standardniveau. Hver materialerulle giver
+      ca. 180–220 brætter.
+
+  - title: "Minimumsordre ved specialfremstillet form"
+    body: |
+      Når dit design kræver en ny brætform (ikke blot nyt artwork på en eksisterende form),
+      skal der fremstilles en dedikeret form. Det foregår på volumeniveauet (90–100+ stk.),
+      fordi forminvesteringen skal fordeles over en produktionsserie. Værktøjet medfører
+      15–20 dage oveni den normale leveringstid.
+
+      Ejerskab af formen: formen er din. Den opbevares på vores anlæg og bruges udelukkende
+      til dine produktionsserier.
+
+  - title: "Prøveordrer"
+    body: |
+      Prøver før produktion fås i 1–2 brætter til bekræftelse af pasform og finish.
+      De bygges i hånden efter din specifikation og tager typisk 7–12 dage. Prøveprisen
+      modregnes din første serieordre.
+
+evidence_review:
+  tagline: 'Bevis & verifikation'
+  title: 'VERIFICEREDE SPECIFIKATIONER'
+  body: 'Alle produktionspåstande på denne side er verificeret af vores produktionstekniske team på anlægget i Laixi, Qingdao. Certifikater, kvalitetskontrolregistre, rapporter over tryk- og strukturprøvninger samt sporbarhedsregistre for partier stilles til rådighed på forespørgsel. Specifikationerne blev senest verificeret i september 2026.'

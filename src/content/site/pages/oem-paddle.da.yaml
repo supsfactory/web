@@ -1,0 +1,105 @@
+meta:
+  title: 'OEM-oppustelig pagaj & Private Label | {SITE}'
+  description: 'OEM/ODM-producent af oppustelige pagajer: specialfremstillet pagajproduktion, private label og engros. CE-certificeret fabrik i Kina.'
+  dateModified: '2026-08-07'
+  keywords:
+    - 'oem paddleboard'
+    - 'odm oppustelige sup'
+    - 'private label sup'
+    - 'specialfremstillet pagajproducent'
+    - 'engros paddleboard'
+    - 'professionel sup leverandør'
+hero:
+  tagline: 'OEM · ODM · Private Label'
+  title: 'Produktion af oppustelige pagajer under dit mærke'
+  subtitle: 'Fra koncept til færdigt produkt: vi fremstiller din specialfremstillede oppustelige pagaj. Logo, farver, emballage, specialform — OEM/ODM-produktion i Kina, klar til dit marked.'
+  image:
+    src: https://assets.isupfactory.com/images/sups/products/sup-series/sup-medusa-glow-1.webp
+    alt: Specialfremstillet OEM-pagaj med brandets logo
+  actions:
+    - text: 'Start mit OEM-projekt'
+      href: /da/contact
+
+answer:
+  label: 'Det korte svar'
+  text: 'Minimumsordren (MOQ) fastlægges ud fra projektkonfigurationen: prøve (1–2 stk.), pilot (20–50 stk.) og standardvolumen (90–100+ stk. pr. batch fra en 150 m drop-stitch-rulle), med co-branding i minimale partier fra 5–10 stk. Prøver afsendes på 7–12 dage; serieproduktion kører 25–35 dage efter PO og depositum. CE-certificering for modeller til EU-markedet og fuld overensstemmelsesdokumentation følger med enhver ordre.'
+  verified: 'September 2026'
+  image:
+    src: https://assets.isupfactory.com/images/sups/products/sup-series/sup-medusa-glow-1.webp
+    alt: Specialfremstillet OEM-pagaj med brandets logo
+  actions:
+    - text: 'Start mit OEM-projekt'
+      href: /da/contact
+      variant: primary
+    - text: 'Se OEM-pakkerne'
+      href: /da/oem-manufacturing
+      variant: secondary
+stats:
+  - value: '25–35'
+    label: 'Dage i produktionens leveringstid'
+    detail: 'Fra bekræftet PO og depositum'
+  - value: '50'
+    label: 'Minimumsordre (stk.)'
+  - value: '200+'
+    label: 'Leverede specialmodeller'
+  - value: '100%'
+    label: 'CE-certificering inkluderet'
+features:
+  title: 'Komplet OEM-service'
+  subtitle: 'Alt under samme tag: design, prototyper, produktion, kvalitetskontrol og logistik.'
+  columns: 3
+  items:
+    - title: 'Design & konstruktion'
+      description: '3D-modellering, valg af PVC/VS2-materiale og specialfremstillet grafisk design.'
+      icon: 'tabler:palette'
+    - title: 'Prototype & validering'
+      description: 'CE-certificeret prøve med kvalitetstest før serieproduktionen.'
+      icon: 'tabler:flask'
+    - title: 'Serieproduktion'
+      description: 'Produktion i fuld skala med inline-QC og støtte til fabrikaudit.'
+      icon: 'tabler:building-factory'
+    - title: 'Private label'
+      description: 'Logo, etiketter, emballage og displayskille i dit brandudtryk.'
+      icon: 'tabler:shield-check'
+    - title: 'Certificeret kvalitet'
+      description: 'CE / ISO / BSCI / REACH — professionelle oppustelige pagajer til globale markeder.'
+      icon: 'tabler:certificate'
+    - title: 'Global forsendelse'
+      description: 'FOB Qingdao, CIF til større havne og levering dør-til-dør til 50+ lande.'
+      icon: 'tabler:world'
+faqs:
+  title: 'Ofte stillede spørgsmål om OEM-pagajproduktion'
+  subtitle: 'Svar på de mest almindelige spørgsmål fra mærker, der lancerer deres egen pagaj.'
+  items:
+    - title: 'Hvordan skaber jeg mit eget pagajmærke?'
+      description: 'Sæt dit mærke i markedet: brief, design, CE-certificeret prototype, serieproduktion og levering. Prøver på 7–12 dage, produktion på 25–35 dage fra PO og depositum. Se vores OEM-pakker.'
+    - title: 'Hvad er produktionens leveringstid?'
+      description: 'Prøven er klar på 7–12 dage, og serieproduktionen tager 25–35 dage efter PO og depositum afhængigt af volumen.'
+    - title: 'Bærer pagajen vores logo?'
+      description: 'Ja — komplet private label: logotryk, specialfarver, emballage og etiketter i dit mærke.'
+    - title: 'Kan jeg købe i stort fra dag 1?'
+      description: 'Minimumsordren (MOQ) fastlægges ud fra projektkonfigurationen — prøve (1–2 stk.), pilot (20–50 stk.) og standardvolumen (90–100+ stk. pr. batch), med engrospristrin, der falder med stigende volumen.'
+
+content_html: |
+  <div class="mx-auto max-w-3xl space-y-4 rounded-2xl border bg-card p-6 text-[14.5px] leading-relaxed text-fg-2">
+    <p><strong>Læs videre:</strong> pagaj- og brætproduktion deler samme <a href="/da/oem-manufacturing">OEM/ODM-program</a> og samme <a href="/da/factory">fabrikgulv på 12,500 m&sup2;</a> — et tilbud dækker begge dele.</p>
+  </div>
+
+geo:
+  tagline: 'B2B-positionering'
+  sentence: 'Vatrad er en professionel producent af oppustelige SUP-brætter og pagajer (OEM/ODM), specialiseret i design, specialproduktion og vandsportsløsninger for mærker, distributører, klubber og virksomheder.'
+  audiences:
+    - 'Private label-mærker'
+    - 'Engroshandlere'
+    - 'Distributører'
+    - 'Nautiske centre'
+cta:
+  title: 'Sæt liv i dit pagajmærke'
+  subtitle: 'Modtag et detaljeret OEM-tilbud inden for en arbejdsdag.'
+  actions:
+    - text: 'Bed om et OEM-tilbud'
+      href: /da/contact
+      variant: primary
+    - text: 'Download OEM-guiden'
+      href: /da/research/oem-buyer-guide
+      variant: secondary

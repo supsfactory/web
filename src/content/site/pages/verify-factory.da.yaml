@@ -1,0 +1,81 @@
+meta:
+  title: 'Verificer vores SUP-fabrik | Besøg, audit og inspektion i Qingdao'
+  description: 'Sådan verificerer du SUP-fabrikken, før du binder dig: planlæg et fabriksbesøg, kør en uafhængig audit eller inspektion, og gennemgå QC-optegnelser, batchsporbarhed og certificeringer i Qingdao, Kina.'
+  dateModified: '2026-09-23'
+  keywords:
+    - 'verificer SUP-fabrik'
+    - 'fabriksbesøg i Qingdao'
+    - 'audit af SUP-fabrik'
+    - 'tredjepartsinspektion af SUP'
+    - 'verificering af fabrik for oppustelige paddleboards'
+
+hero:
+  tagline: Fabriksverificering
+  title: 'Verificer SUP-fabrikken, før du binder dig'
+  subtitle: 'Du bør ikke tage en fabrik på ord. Planlæg et besøg, kør en uafhængig audit eller inspektion, og gennemgå certificater, QC-optegnelser og batchsporbarhed, før din første ordre — alt står åbent for seriøse købere.'
+
+answer:
+  label: 'Kort svar'
+  text: 'Anlægget i iSupfactory er en fabrik på 12,500 m² i Qingdao, Shandong, Kina, med 350+ ansatte, 4 automatiserede produktionslinjer og 4 specialiserede værksteder. Købere kan verificere den på fire måder: besøge anlægget året rundt, være med til eller anmode audits (BSCI, ISO 9001), få foretaget en tredjepartsinspektion (SGS, TÜV, BV, Intertek; ISO 2859-1 Level II-stikprøveudtagning) eller gennemgå dokumenterede bevislæg — certificater, monteringschecklister med 100 punkter, rapporter over 18.0 PSI trykfastholdelse i 24 timer og 10 års ERP-batchsporbarhed pr. serienummeretiket.'
+  verified: 'September 2026'
+
+features:
+  title: 'Måder at verificere fabrikken på'
+  subtitle: 'Fire verificeringsveje, som din projektspecialist arrangerer — vælg en, eller kombiner flere.'
+  items:
+    - title: 'Planlæg et fabriksbesøg'
+      description: 'Vi tager imod køberbesøg i Qingdao året rundt, med lufthavnsafhentning og rundtur i produktionen lagt ind omkring dine datoer. NDA kan altid underskrives.'
+      icon: 'tabler:map-pin'
+    - title: 'Tredjepartsaudit'
+      description: 'BSCI- og ISO 9001-auditrapporter kan fremskaffes på forespørgsel, og audits i fællesskab er velkomne, så du kan gå med auditoren gennem produktionen.'
+      icon: 'tabler:clipboard-check'
+    - title: 'Uafhængig inspektion'
+      description: 'Inspektion før afsendelse eller under produktion med SGS, TÜV, BV eller Intertek under ISO 2859-1 Level II-stikprøveudtagning — på dine omkostninger, arrangeret af os og rapporteret direkte til dig.'
+      icon: 'tabler:zoom-check'
+    - title: 'Gennemgang af dokumentation'
+      description: 'Kopier af certificater, optegnelser fra indgående-, igangværende- og slutinspektion, rapporter over trykfastholdelse samt filer med batchsporbarhed stilles til rådighed, før du binder dig.'
+      icon: 'tabler:file-search'
+    - title: 'Live-videovisning'
+      description: 'Kan du ikke rejse endnu? Vi går en tur på produktionsgulvet på et liveopkald — drop-stitch-behandling, svejsning, trykning, montering, test og pakning — før du afgiver ordren.'
+      icon: 'tabler:device-camera-phone'
+
+faq_section:
+  tagline: 'Spørgsmål om verificering'
+  title: 'Fabriksverificering og inspektion — spørgsmål og svar'
+  questions:
+    - q: 'Hvor ligger fabrikken?'
+      a: 'Anlægget ligger i Qingdao, Shandong, Kina — et anlæg på 12,500 m² med 350+ ansatte, 4 automatiserede linjer og 4 specialiserede værksteder. Adressen og kortet deles med verificerede købere, når vi planlægger et besøg, og afsendelsesadressen fremgår af kontrakter, BSCI-auditen og eksportdokumentationen.'
+    - q: 'Hvad producerer fabrikken?'
+      a: 'Oppustelige SUP-brætter — fra skrogkonstruktion og drop-stitch-kernelbehandling til grafik, montering, test og eksportemballage. Alle centrale SUP-processer foregår under et tag.'
+    - q: 'Hvilke processer udføres i huset?'
+      a: 'Skrogdesign, dimensionsteknik, drop-stitch-kernelbehandling, RF-svejsning, grafiktryk, stansning af EVA-puder, specialværktøj til forme, montering, test og pakning foregår alle i huset. Tilbehør og dele af råmaterialer kommer fra certificerede leverandører og samles her, så sporingen er sikret.'
+    - q: 'Kan købere besøge fabrikken?'
+      a: 'Ja. Køberbesøg arrangeres i Qingdao året rundt. Afhentning i Qingdao Jiaodong International Airport og en fuld rundtur i produktionen arrangeres af din projektspecialist.'
+    - q: 'Kan købere arrangere en tredjepartsinspektion?'
+      a: 'Ja. Inspektioner fra SGS, TÜV, BV og Intertek er velkomne før eller under produktionen. Inspektion før afsendelse bruger ISO 2859-1 Level II-stikprøveudtagning, og rapporten sendes direkte til dig fra inspektionsorganet.'
+    - q: 'Kan købere anmode om QC-dokumentation?'
+      a: 'Ja. Kopier af certificater, optegnelser fra indgående-, igangværende- og slutinspektion, rapporter over 18.0 PSI trykfastholdelse i 24 timer samt monteringschecklisten med 100 punkter udstedes pr. batch på forespørgsel.'
+    - q: 'Hvordan administreres batchsporbarhed?'
+      a: 'Ethvert bræt bærer et serienummeretiket. Batcher registreres i en 10-årig ERP-optegnelse, der knytter dugrulle, materialer, produktionsdato, operatører og testresultater til hvert serienummer.'
+    - q: 'Hvordan bruges den godkendte prøve?'
+      a: 'Den godkendte prøve bliver produktionsreferencen. Materialer, mål, grafik, tilbehør og finish matches mod den i hver QC-port, så produktionen matcher det, du har godkendt.'
+    - q: 'Hvordan kvalitetssikres produktionen?'
+      a: 'Et 7-trins kvalitetssystem (Node 01–07) kører porte for inspektion af indgående materialer, igangværende proces og slutinspektion, med 18.0 PSI trykfastholdelse i 24 timer (automatisk kassering ved fald på over 0.50 PSI) og frigivelse ved linjeslut efter ISO 2859-1 Level II-stikprøveudtagning.'
+
+cta:
+  title: 'Verificer først, og bind dig bagefter'
+  subtitle: 'Book en rundtur i anlægget, eller anmod om verificeringsdokumenter — en projektspecialist svarer inden for en arbejdsdag.'
+  actions:
+    - variant: primary
+      text: 'Book et opkald om fabriksverificering'
+      href: /da/contact
+    - text: 'Proof Center — dokumentation fra fabrikken'
+      href: /da/proof-center
+    - text: 'Checkliste for fabriksaudit'
+      href: /da/factory-audit-checklist
+    - text: 'OEM-tillid og fabrikssikring'
+      href: /da/oem-trust-assurance
+    - text: 'Kvalitet og test'
+      href: /da/quality
+    - text: 'Fabrik og produktion'
+      href: /da/factory

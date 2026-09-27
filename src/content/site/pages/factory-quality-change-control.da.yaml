@@ -1,0 +1,349 @@
+meta:
+  title: 'Ændringsstyring og validering af genbearbejdningsparametre | iSupfactory'
+  description: 'Ændringsstyring af genbearbejdningsparametre under ISO 9001: ECR, risikoklassificering, godkendelsesmatrix, validering og geninspektion i SUP-produktion.'
+  dateModified: '2026-08-14'
+  keywords:
+    - 'ændringsstyring af genbearbejdning sup'
+    - 'iso 9001 ændringsstyring produktion'
+    - 'oem kvalitetsstyring oppustelige sup'
+    - 'ecr engineering change request sup'
+    - 'valideringsstandard for lufttæthed'
+    - 'kvalitetssikring i sup fabrik'
+
+hero:
+  tagline: Ændringsstyring af genbearbejdningsparametre
+  title: Standard for ændringsstyring og validering af parametre i genbearbejdningsprocessen
+  subtitle: 'Hos QINGDAO VATRAD GROUP.,LTD. må hverken operatør, holdleder eller enkeltafdeling ændre et godkendt genbearbejdningsparameter på stedet. Ethvert foreslået skift i godkendte genbearbejdningsmaterialer, procesforhold, værktøj, testmetoder, inspektionskriterier eller bemyndigede personer styres gennem dokumenteret ændringsstyring — Engineering Change Request, konsekvens- og risikovurdering, tværfaglig godkendelse, valideringsplan, kontrolleret implementering, geninspektion og effektivitetsgennemgang, derefter lukning og opbevaring af rekorder. Denne side præsenterer vores kontrollerede standard QMS-SOP-QC-CC-001 (Rev 2.0, baseret på ISO 9001:2015) og det ingeniørmæssige grundlag bag den.'
+  actions:
+    - text: 'Download SOP for ændringsstyring (PDF)'
+      variant: primary
+      href: 'https://assets.isupfactory.com/site/downloads/rework-change-control-sop-qms-sop-qc-cc-001.pdf?dl=1'
+    - text: 'Download bilag A om udførelse (PDF)'
+      href: 'https://assets.isupfactory.com/site/downloads/rework-execution-annex-a-qms-sop-qc-cc-001.pdf?dl=1'
+    - text: 'Anmod om kvalitetsgennemgang'
+      href: /da/contact
+
+answer:
+  label: 'Det korte svar'
+  text: 'Ændringer af genbearbejdningsparametre besluttes aldrig mundtligt eller bagvendt hos QINGDAO VATRAD GROUP.,LTD. Ethvert foreslået skift i godkendte genbearbejdningsmaterialer, procesforhold, udstyr, testmetoder, inspektionskriterier eller bemyndigede personer skal gennemgå formel ændringsstyring før implementering: et dokumenteret Engineering Change Request (ECR), konsekvens- og risikovurdering, tværfaglig gennemgang af Konstruktion, Kvalitet, Produktion, Indkøb og Projekt, godkendelse på det niveau, vores bemyndigelsesmatrix fastlægger, en godkendt valideringsplan for ændringer med høj risiko, kontrolleret pilotimplementering, geninspektion og effektivitetsgennemgang samt lukning først efter dokumentrevision og oplæring. Enhver ændring, der påvirker kundens godkendte specifikationer, prøveeksemplarer, BOM’er, artwork eller acceptkriterier, kræver desuden skriftlig godkendelse fra kunden.'
+  verified: 'September 2026'
+
+stats:
+  tagline: 'Overblik'
+  title: 'Ændringsstyring i tal'
+  stats:
+    - value: '9'
+      label: 'Trin i den lukkede løkke for ændringsstyring'
+    - value: '6'
+      label: 'Ændringskategorier, der kræver formel ændringsstyring'
+    - value: '4'
+      label: 'Kjernegenbearbejdningsprocesser med kvantificerede parametre'
+    - value: '≥ 5'
+      label: 'Prøvebrætter + 2 uafhængige QC ved validering med høj risiko'
+
+
+cc_intro:
+  tagline: 'Omfang & politik'
+  title: Grundlæggende styringsprincipper
+  body: |
+    **Dokument:** QMS-SOP-QC-CC-001 — *Standard for ændringsstyring af parametre i genbearbejdningsprocessen* (Rev 2.0, Officiel udgivelse). **Producent:** QINGDAO VATRAD GROUP.,LTD. / 青岛万国通衢进出口有限公司. **Standardhenvisning:** ISO 9001:2015 Quality Management Systems.
+
+    - **Ingen ukontrollerede ændringer.** Ændringer i genbearbejdningsparametre skal gennemgå formel ændringsstyring. Operatører på stedet, holdledere eller en enkeltafdeling må aldrig ændre godkendte genbearbejdningsparametre ved mundtlig aftale eller ved at skrive i en genbearbejdningsregistrering.
+    - **Dækning af alle elementer.** Det kontrollerede omfang dækker lufttæthed, ventilpladser, kantbånd, sømbinding, varmlufthærdning og trykholdeprøvning — hver parameter, der kan påvirke tætning, strukturel holdbarhed, udseende, kundens accept eller spørgsmål.
+    - **Kundens godkendelse er sidste instans.** Enhver ændring, der flytter et produkt væk fra kundens godkendte prøveeksemplar, tekniske specifikation, BOM, artwork, emballagekrav eller acceptkriterier, implementeres kun med skriftlig godkendelse fra kunden. Uden denne genbearbejdes brættet efter det oprindelige krav, erstattes eller kasseres — aldrig "lempet" af fabrikken alene.
+
+cc_scope:
+  tagline: Risikoklassificering
+  title: 'Ændringsomfang og risikoklassificering'
+  subtitle: 'Ethvert af følgende udløser formel ændringsstyring — det håndteres aldrig ved at skrive en note i genbearbejdningsregistreringen. Risikoniveauet afgør, hvem der godkender, og hvor meget validering der kræves.'
+  headers:
+    category: Ændringskategori
+    examples: 'Typiske eksempler'
+    risk: Risiko
+    requirements: Krav om kontrol og godkendelse
+  rows:
+    - category: 'Genbearbejdningsmaterialer'
+      examples: 'Lim, rensemiddel, lapemateriale, ventilpakning, primer eller leverandørskift'
+      risk: 'Høj'
+      requirements: 'Tværfaglig gennemgang + materialekompatibilitet og validering af trykholdeevne + kundens signatur, hvor det er relevant'
+    - category: 'Procesforhold'
+      examples: 'Overfladeforberedelse, temperatur/luftfugtighed ved varmlufthærdning, klemtryk, holdetid'
+      risk: 'Høj'
+      requirements: 'Godkendelse fra Konstruktion + Kvalitet med validering af defineret temperatur- og luftfugtighedsvindue'
+    - category: 'Værktøj & måleinstrumenter'
+      examples: 'Manometre, lækagedetektorer, varmluftpistoler, ventilværktøj, testsoftware'
+      risk: 'Mellem/høj'
+      requirements: 'Kontrol af kalibreringens gyldighed + vurdering af udstyrets egnethed'
+    - category: 'Fejlsomfang'
+      examples: 'Udvidelse af genbearbejdningsområdet; overfladisk mikrolækage der vokser ind i kant, søm eller ventilplads, som er kritiske områder'
+      risk: 'Høj'
+      requirements: 'Strukturelt bærende overflader: obligatorisk stop og ny vurdering'
+    - category: 'Inspektionsmetoder'
+      examples: 'Lækagemetode, testtryk (18.0 PSI), holdetid (24h)'
+      risk: 'Høj'
+      requirements: 'Godkendelse fra Kvalitet + bekræftelse af teknisk aftale med kunden'
+    - category: 'Dokumentation & bemyndigelse'
+      examples: 'Genbearbejdningsinstruktion, inspektionsark, dispositionslogik for afvigelser, operatørkvalifikation'
+      risk: 'Mellem'
+      requirements: 'Kontrolleret dokumentrevision (Rev A → Rev B) + oplæringsrekorder'
+
+cc_containment:
+  tagline: 'Forbud mod fortsættelse'
+  title: 'Øjeblikkelig inddæmming, når forholdene bliver alvorlige'
+  body: |
+    > "Den eksisterende genbearbejdningsmetode skal underkastes en gennemgang og må ikke anvendes på yderligere berørt produkt, før ændringen er vurderet og godkendt, medmindre en dokumenteret midlertidig afvigelse er godkendt af Kvalitet og Konstruktion."
+
+    Den nuværende genbearbejdningsmetode skal straks sættes i bero, når geninspektionen af genbearbejdningen fortsat mislykkes, når fejlen vedrører strukturelt bærende områder (ventilbasis, kanter, sømme, trykområder i nese og hale), når et erstatningsmateriale endnu ikke er valideret, eller når de nuværende parametre er i konflikt med kundens godkendte specifikation.
+
+    Midlertidige afvigelser bliver aldrig fast praksis: hver afvigelse har et defineret gyldighedsvindue, et anvendeligt batchomfang, en mængdegrænse, valideringskrav og en automatisk udløbsmekanisme. En mundtlig undtagelse er ikke en undtagelse — hvis den ikke er dokumenteret med sin udløbsdato, findes den ikke.
+
+cc_flow:
+  tagline: 'Standardiseret lukket løkke i 9 trin'
+  title: 'Fra ændringsanmodning til lukning og opbevaring'
+  subtitle: 'En dokumenteret løkke for hver parameterændring: foreslå, screene, vurdere, godkende, validere, pilotere, verificere, revidere, lukke.'
+  steps:
+    - step: '01'
+      title: 'Ændringsanmodning (ECR)'
+      desc: 'Enhver afdeling kan rejse en anmodning, men den skal sponsorers af ledelsen i Konstruktion, Kvalitet eller Produktion. ECR-registeret besvarer, hvorfor ændringen foreslås, hvad der ændres, hvad der berøres, og hvordan det skal verificeres — med nummer på ændringsstyringen, tilknyttet NCR/CAPA, nuværende mod foreslået parameter, berørte batcher og klassificering som midlertidig eller permanent.'
+    - step: '02'
+      title: 'Indledende screening og inddæmming'
+      desc: 'Anmodningen screenes først med henblik på øjeblikkelig inddæmming: skal den nuværende metode stoppes nu? Hvis en midlertidig afvigelse tillades, afgrænses den af gyldighedsvindue, batchomfang, mængdegrænse og automatisk udløb.'
+    - step: '03'
+      title: 'Konsekvens- og risikovurdering'
+      desc: 'Konstruktion, Kvalitet, Produktion, Indkøb/Supply Chain og Projekt vurderer produktets ydeevne, acceptkriterier, materialekompatibilitet, udseende, procesevne, udstyr og måleinstrumenter, personalets kvalifikation, kundens krav, overholdelse og spørgsmålsomfang.'
+    - step: '04'
+      title: 'Fælles gennemgang og godkendelse'
+      desc: 'Godkendelse følger den fastsatte bemyndigelsesmatrix — ikke "hvem der taler højest". Ændringer med høj risiko kræver tværfaglig godkendelse og, hvor det kræves, skriftlig godkendelse fra kunden, før der foretages forsøg.'
+    - step: '05'
+      title: Valideringsplan
+      desc: 'For ændringer med høj risiko kræves en godkendt valideringsplan, før metoden anvendes i almindelig drift: repræsentative prøvebrætter, nuværende mod foreslået metode, testmetoder, acceptkriterier, inspektionstrin, ansvarlige og tidsplan.'
+    - step: '06'
+      title: 'Kontrolleret pilot og implementering'
+      desc: 'Nye dokumenter udgives, og forældede versioner trækkes tilbage og mærkes OBSOLETE; nye materialer og måleinstrumenter verificeres og kalibreres; operatører oplæres og kvalificeres; det første batch kører under skærpet inspektion med tydelig statusmærkning.'
+    - step: '07'
+      title: 'Geninspektion og effektivitetsgennemgang'
+      desc: 'Førstegangsbeståelsesprocenten for genbearbejdning, beståelsesprocenten ved geninspektion, tilbagefaldshyppigheden og accepten af udseendet måles og gennemgås, før ændringen kan anses for effektiv — et repareret bræt anses aldrig som procesvalidering.'
+    - step: '08'
+      title: 'Dokumentrevision og oplæring'
+      desc: 'Arbejdsinstruktioner, inspektionsark, dispositionsmuligheder for afvigelser, parameterkort og oplæringsmaterialer opdateres til den nye revision, og praktisk oplæring samt operatørkvalifikation registreres.'
+    - step: '09'
+      title: 'Lukning og opbevaring af rekorder'
+      desc: 'Ændringen lukkes først, når valideringsdokumentation, dokumentopdateringer, oplæringsrekorder og implementeringens effekt er gennemgået og godkendt. Hvis det tilsigtede resultat ikke opnås, revideres, forlænges, sættes i bero eller trækkes ændringen tilbage.'
+
+cc_approval:
+  tagline: 'Godkendelsesmatrix'
+  title: 'Tværfaglig bemyndigelsesmatrix'
+  subtitle: 'En fast bemyndelsestabel forhindrer ad hoc-beslutninger: hver ændringstype har sine påkrævede godkendere, fra præcisering på dokumentniveau til kundens signatur.'
+  headers:
+    change: 'Ændringens indhold'
+    engineering: Konstruktion
+    quality: Kvalitet
+    production: Produktion
+    procurement: Indkøb
+    project: 'Projekt / Salg'
+    customer: Kunde
+  rows:
+    - change: 'Præcisering af dokumentformulering (ingen påvirkning af parametre)'
+      engineering: Gennemgang
+      quality: 'Godkend'
+      production: Underret
+      procurement: '—'
+      project: '—'
+      customer: '—'
+    - change: 'Justering af rækkefølgen i genbearbejdningshandlinger'
+      engineering: 'Godkend'
+      quality: 'Godkend'
+      production: Medunderskrift
+      procurement: '—'
+      project: Underret
+      customer: Efter behov
+    - change: 'Ny kvalifikation af genbearbejdningsoperatør'
+      engineering: Gennemgang
+      quality: 'Godkend'
+      production: 'Godkend'
+      procurement: '—'
+      project: '—'
+      customer: '—'
+    - change: 'Skift af værktøj / testudstyr'
+      engineering: 'Godkend'
+      quality: 'Godkend'
+      production: Medunderskrift
+      procurement: Efter behov
+      project: '—'
+      customer: Efter behov
+    - change: 'Erstatningsmateriale / erstatningsleverandør til genbearbejdning'
+      engineering: 'Godkend'
+      quality: 'Godkend'
+      production: Medunderskrift
+      procurement: Medunderskrift
+      project: Underret
+      customer: Kan være påkrævet
+    - change: 'Ændring af tryk / holdetid / hærdningsparameter'
+      engineering: 'Godkend'
+      quality: 'Godkend'
+      production: Medunderskrift
+      procurement: '—'
+      project: Underret
+      customer: Når projektet kræver det
+    - change: 'Skift af genbearbejdningsmetode for kant / søm / ventilplads'
+      engineering: 'Godkend'
+      quality: 'Godkend'
+      production: Medunderskrift
+      procurement: Efter behov
+      project: Underret
+      customer: Anbefales som regel
+    - change: 'Ændring af kundens specifikation, godkendte prøveeksemplar eller acceptkriterier'
+      engineering: 'Godkend'
+      quality: 'Godkend'
+      production: Medunderskrift
+      procurement: '—'
+      project: Medunderskrift
+      customer: 'Skriftlig godkendelse er obligatorisk'
+
+cc_validation:
+  tagline: 'Ingeniørmæssig validering'
+  title: 'Validerings- og acceptprotokol — dokumentation frem for udsagn'
+  body: |
+    Uklare acceptformuleringer som *"det reparerede bræt skal være godt"* accepteres ikke. Den kontrollerede formulering er:
+
+    > "Det genbearbejdede prøveeksemplar skal opfylde de samme gældende kriterier for lufttæthed, visuelt arbejde, ventilfunktion og projektspecifik accept som et overensstemmende bræt, medmindre et kundegodkendt afvigelse specifikt definerer et alternativt kriterium."
+
+    Valideringsdokumentationen er kvantitativ, og det ingeniørmæssige grundlag for genbearbejdning af lufttæthed omfatter:
+
+    - **Fjernelse af lækage & trykfastholdelse.** Den oprindelige lækage fjernes uden vedvarende bobler ved lækagemedtagelse i sæbevand; brættet holder ved standardtesttrykket på 18.0 PSI i 24 timer, med et netto trykfald ΔP ≤ 0.2 PSI efter kompensering for temperatur og luftfugtighed — det strammere grundlag for validering af genbearbejdning, som er forskelligt fra tærsklen på 0.50 PSI for automatisk kassation ved endelig accept på produktionslinjen.
+    - **Ventilfunktion.** Moment på ventilkernen overholder specifikationen på 15–20 N·m, uden mikrolækage ved pakningen under højtrykspumpning og dynamisk pres.
+    - **Sømbinding & holdbarhed.** Limkanterne viser ingen løftning, hvidning eller delaminering; efter aldringscykler i varme og fugt viser limlaget ingen blødgøring eller sprød revnedannelse.
+    - **Udseende & arbejdsudførelse.** Ingen løbspor fra lim, ingen skade på EVA, ingen deformering af brættet og intet skift i logo eller ridser på trykoverfladen.
+
+cc_engineering:
+  tagline: 'Ingeniørmæssig udførelsesmatrix'
+  title: 'Kvantificerede parametre for de fire kerneprocesser for genbearbejdning'
+  subtitle: 'Hver kontrolleret genbearbejdningsproces har definerede parametre, metode og acceptkriterier — de samme tal, vores operatører følger, og vores kunder kan efterprøve ved audits.'
+  headers:
+    process: Genbearbejdningsproces
+    parameters: 'Kontrollerede parametre'
+    methodology: Testmetode
+    acceptance: 'Acceptkriterier'
+  rows:
+    - process: 'Lappe reparation af punktformede huller / mikrolækage'
+      parameters: 'Rensning med opløsningsmiddel og tørring 3–5 min; varmluftaktivering 60°C ± 5°C; trykrulle ≥ 0.4 MPa'
+      methodology: 'Pump op til 18 PSI; fuld neddybning i vand eller påføring af sæbevand; observe i 10 minutter'
+      acceptance: 'Ingen bobledannelse; 180° skrabning på kanten uden løftning og uden løbspor fra lim'
+    - process: 'Genbinding af kantbånd / søm'
+      parameters: 'Miksforhold for tokomponentlim strengt kontrolleret; miljø 22–28°C, ≤ 65% RH; fastspænding i fixtur ≥ 4 t'
+      methodology: 'Overtrykstest ved 22 PSI i 2 t; derefter 6 t i varmeboks ved 50°C og 2 t i stuetemperatur'
+      acceptance: 'Ingen adskillelse, ingen revnedannelse; netto trykfald ΔP ≤ 0.1 PSI; limlag uden hvidning eller hårdhed'
+    - process: 'Løsning af ventilbasis / mikrolækage'
+      parameters: 'Dedikeret nøgle med moment 18–20 N·m; pakningsflade flad uden deformering; renlighed i gevind bekræftet'
+      methodology: 'Pump op til 15 PSI; 20 cyklusser med pumpning og udluftning; observation under neddybning i vand'
+      acceptance: 'Ingen bobler ved ventilkerne og rundt om basen; moment efter cyklusser ≥ 16 N·m'
+    - process: 'Endelig trykholdeprøvning i 24 t'
+      parameters: 'Referencetryk 18.0 PSI; digitalt manometer klasse 1.0 / ±0.5%; omgivelsestemperatur og luftfugtighed registreres og kompenseres'
+      methodology: 'Digital trykregistrering; kontinuerlig trykkurve over 24 t'
+      acceptance: 'Netto trykfald ΔP ≤ 0.20 PSI / 24 t efter kompensering; ingen udvanding eller deformering af brættet'
+
+cc_photos:
+  tagline: 'På fabriksgulvet'
+  title: 'Rebyg, gentest, frigiv — dokumenteret i hvert trin'
+  subtitle: 'Billeder fra vores værksted i Qingdao viser hver kontrolleret genbearbejdningsproces med kalibrerede måleinstrumenter, definerede parametre og rekorder på stedet — det samme dokumentationsgrundlag, inspektører altid kan bede om.'
+  grid: 'sm:grid-cols-2'
+  features:
+    - image: https://assets.isupfactory.com/site/quality/cc-pinhole-repair.avif
+      alt: Tekniker, der reparerer et punktformet hul med mikrolækage på et oppusteligt SUP-bræt med en varmluftpistol og en trykrulle
+      title: Reparation af punktformede huller
+      desc: 'En tekniker behandler en markeret mikrolækage med en varmluftpistol sat til specifikationen på 60°C og en trykrulle; sæbevand bekræfter lækagens placering, og den QC-signeret ECR-seddel på bænken viser ændringsstyrets spærring (Poka-Yoke #1).'
+    - image: https://assets.isupfactory.com/site/quality/cc-rail-seam-bonding.avif
+      alt: Tekniker, der påfører tokomponent PU-lim på en kantsøm med en præcisionsbørste under kontrollerede klimaforhold
+      title: Binding af kantsøm
+      desc: 'Tokomponent PU-lim påføres kantsømmen med en præcisionsbørste, mens brættet holdes fastspændt i en fixtur; termometeret og fugtighedsmåleren på stedet viser det kontrollerede vindue på 24°C / 55% RH.'
+    - image: https://assets.isupfactory.com/site/quality/cc-valve-base-integrity.avif
+      alt: Digital momentnøgle sat til 19 N·m, der fastgør ventilkernen mod drop-stitch-materialet
+      title: 'Ventilbasens integritet'
+      desc: 'En digital momentnøgle sat til specifikationen på 19 N·m foretager den endelige tilspænding af ventilkernen og tætner basen mod drop-stitch-materialet — måleinstrumentet bærer den grønne etiket CALIBRATED.'
+    - image: https://assets.isupfactory.com/site/quality/cc-pressure-hold-testing.avif
+      alt: Færdige oppustelige SUP-brætter, der er tilsluttet digitale trykregistreringer i det endelige område for trykholdeprøvning
+      title: 'Endelig trykholdeprøvning'
+      desc: 'Færdige bræt er tilsluttet højpræcise digitale trykregistreringer; hovedmåleren aflæser referencen på 18.00 PSI, og alle testdata uploades automatisk og kobles til systemet for kontraktlig spørgsmål.'
+
+cc_pokayoke:
+  tagline: 'Sikkerhedsforanstaltninger mod fejl'
+  title: 'Poka-Yoke: Hårde spærringer, der stopper ukontrollerede ændringer'
+  subtitle: 'Standarden håndhæves ikke kun gennem procedurer, men gennem fysiske og systembaserede spærringer, der gør det umuligt at gennemføre ukontrollerede ændringer.'
+  features:
+    - icon: 1
+      icon_bg: blue
+      title: 'ECR-spærring for frigivelse af værktøj'
+      desc: 'Genbearbejdningsstationer aflæser en QA-signeret ECR-stregkode, før pneumatiske pumpventiler og blandemaskiner frigives. Ingen godkendt ændringsstyringsrekord, ingen forsyning — bagvendt signering ("ændr først, underskriv siden") er fysisk spærret.'
+    - icon: 2
+      icon_bg: green
+      title: 'Automatisk udløb af midlertidige afvigelser'
+      desc: 'Midlertidige afvigelser er hårdt begrænset i systemet (for eksempel højst 50 brætter eller 7 kalenderdage). Når grænsen nås, låses batchen, og udskrivning af afsendelsespasset blokeres, indtil ændringen er formelt vurderet.'
+    - icon: 3
+      icon_bg: purple
+      title: 'Minimal valideringsdokumentation'
+      desc: 'Ændringer med høj risiko kræver mindst 5 repræsentative prøvebrætter, der dækker de øvre og nedre tolerancer, fuldt inspiceret af 2 uafhængige QC-inspektører, før en valideringsrapport kan udstedes — et repareret bræt anses aldrig som procesvalidering.'
+    - icon: 4
+      icon_bg: orange
+      title: '1-ud-1-ind dokumentkontrol'
+      desc: 'Forældede kort til arbejdspladser indsamles fysisk og annulleres (hulstempling), før det nye kort med det kontrollerede røde segl udstedes — gamle og nye versioner deler aldrig en arbejdsplads.'
+
+cc_downloads:
+  tagline: 'Hentbare QMS-dokumenter'
+  title: 'Kontrollerede to-sprogede dokumenter (PDF)'
+  subtitle: 'Officielle to-sprogede dokumenter på EN/ZH fra QINGDAO VATRAD GROUP.,LTD. — klar til kund audits, B2B tekniske hvidpapirer og kontrolleret uddeling på fabriksgulvet.'
+  features:
+    - icon: S
+      icon_bg: blue
+      title: 'SOP for ændringsstyring (PDF)'
+      desc: 'QMS-SOP-QC-CC-001 Rev 2.0: klassifikationstabel for ændringer, tværfaglig bemyndigelsesmatrix, ingeniørmæssige valideringsparametre, inddæmmelsens røde linjer og signaturfelter fra kvaliteten.'
+      link: 'https://assets.isupfactory.com/site/downloads/rework-change-control-sop-qms-sop-qc-cc-001.pdf?dl=1'
+      link_label: 'Download PDF'
+    - icon: A
+      icon_bg: green
+      title: 'Bilag A om udførelse (PDF)'
+      desc: 'ECR-dataskema, den kvantificerede ingeniørmæssige udførelsesmatrix for de fire kerneprocesser for genbearbejdning, Poka-Yoke-spæringslogik og signaturfelt for frigivelse i treparts samarbejde.'
+      link: 'https://assets.isupfactory.com/site/downloads/rework-execution-annex-a-qms-sop-qc-cc-001.pdf?dl=1'
+      link_label: 'Download PDF'
+    - icon: R
+      icon_bg: purple
+      title: 'Styring af genbearbejdning (side)'
+      desc: 'Tilknyttet side til systemet for genbearbejdning af lufttæthed: fejlklassificering A–G, godkendte metodekort MC-RW-01 til MC-RW-06 og den kontrollerede genbearbejdningsarbejdsgang i 7 trin.'
+      link: '/da/factory/quality-inspection'
+      link_label: 'Se side'
+    - icon: N
+      icon_bg: orange
+      title: 'Kontrol af afvigende produkter (side)'
+      desc: 'ISO 9001:2015 punkt 8.7 om kontrol af afvigende output: registrering af NCR, karantæne, dispositionsbemyndigelse efter alvorsgrad, kontrolleret genbearbejdning efter SRI-instruktioner, uafhængig geninspektion og protokollen for overværet ødelæggelse.'
+      link: '/da/factory/non-conforming-control'
+      link_label: 'Se side'
+
+faqs:
+  tagline: FAQ
+  title: Ofte stillede spørgsmål om ændringsstyring af genbearbejdning
+  items:
+    - q: 'Kan fabrikken ændre genbearbejdningsparametre uden at fortælle os det?'
+      a: 'Nej. Ethvert foreslået skift i godkendte genbearbejdningsmaterialer, procesforhold, værktøj, testmetoder, inspektionskriterier eller bemyndigede personer skal først gennemgå dokumenteret ændringsstyring. Ændringer, der påvirker kundens godkendte specifikationer, prøveeksemplarer, BOM’er, artwork eller acceptkriterier, kræver skriftlig godkendelse fra kunden.'
+    - q: 'Hvad regnes som en ændring med høj risiko?'
+      a: 'Ændringer af genbearbejdningsmaterialer eller leverandører, tryk/holdetid eller hærdningsforhold, genbearbejdningsmetoder for ventil/kant/søm, inspektions- eller acceptkriterier samt udvidelse af fejlsomfang ind i strukturelle områder klassificeres som ændringer med høj risiko. De kræver tværfaglig gennemgang, en godkendt valideringsplan og kontrolleret pilotimplementering, før de tages i almindelig brug.'
+    - q: 'Kan en midlertidig afvigelse bruges uden tidsbegrænsning?'
+      a: 'Nej. Enhver midlertidig afvigelse har et defineret gyldighedsvindue, batchomfang, en mængdegrænse og valideringskrav med automatisk udløb. Når grænsen nås, låses batchen, og udskrivning af afsendelsespasset blokeres, indtil ændringen er formelt vurderet.'
+    - q: 'Hvordan dokumenteres det, at en ændret metode virker, før den tages i fuld brug?'
+      a: 'Ændringer med høj risiko kræver en valideringsplan: mindst 5 repræsentative prøvebrætter, der dækker tolerancerne, testet af 2 uafhængige QC-inspektører mod kvantificerede acceptkriterier (fjernelse af lækage, trykfastholdelse, ventilfunktion, sømholdbarhed, udseende). Godkendelse til at validere er ikke godkendelse til at anvende.'
+    - q: 'Skal vi godkende alle ændringer?'
+      a: 'Ikke alle ændringer, men enhver ændring, der flytter produktet væk fra kundens godkendte prøveeksemplar, tekniske specifikation, BOM, artwork, emballage eller acceptkriterier, implementeres kun med skriftlig godkendelse fra kunden. Uden denne genbearbejdes bræt efter det oprindelige krav, erstattes eller kasseres.'
+    - q: 'Hvad sker der med gamle dokumenter, når en ændring er godkendt?'
+      a: 'Gamle arbejdsinstruktioner, parameterkort og inspektionsark indsamles fysisk og annulleres (1-ud-1-ind), mærkes OBSOLETE og erstattes af den nye kontrollerede revision efter oplæring. Gamle og nye versioner deler aldrig en arbejdsplads.'
+    - q: 'Hvor længe opbevares rekorder for ændringsstyring?'
+      a: 'Lukningsrekorder — valideringsdokumentation, dokumentrevisioner, oplæringsrekorder og effektivitetsgennemgange — opbevares i henhold til vores politik for opbevaring af rekorder (mindst 3 år for lukningsrekorder), så hver ændring forbliver spørgsmålbar ved audits og gennemgange af spørgsmål.'
+
+cta:
+  title: Har du brug for dokumenter for ændringsstyring til din audit?
+  desc: 'Download den to-sprogede SOP for ændringsstyring og bilaget om udførelse, eller anmod om et anonymiseret eksempel på vores ECR-skabelon og valideringsplan til dit OEM/ODM-projekt.'
+  actions:
+    - text: 'Anmod om kvalitetsgennemgang'
+      variant: primary
+      href: /da/contact
+    - text: 'Download SOP for ændringsstyring (PDF)'
+      href: 'https://assets.isupfactory.com/site/downloads/rework-change-control-sop-qms-sop-qc-cc-001.pdf?dl=1'
+    - text: 'Download bilag A om udførelse (PDF)'
+      href: 'https://assets.isupfactory.com/site/downloads/rework-execution-annex-a-qms-sop-qc-cc-001.pdf?dl=1'

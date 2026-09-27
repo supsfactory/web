@@ -1,0 +1,49 @@
+badge: Seneste forskning
+heading: Videnscenter
+description: Dybtgående teknisk forskning om materialer, konstruktion, sikkerhedsstandarder og fremstilling af SUP og oppustelige fartøjer
+topics:
+  - slug: drop-stitch-technology
+    category: Teknologi
+    readTime: 8 min læsning
+  - slug: pvc-vs-hypalon
+    category: Materialer
+    readTime: 10 min læsning
+  - slug: ce-certification-guide
+    category: Overensstemmelse
+    readTime: 7 min læsning
+  - slug: sup-thickness-guide
+    category: Konstruktion
+    readTime: 6 min læsning
+  - slug: oem-buyer-guide
+    category: Indkøb
+    readTime: 12 min læsning
+  - slug: sup-manufacturing-process
+    category: Fremstilling
+    readTime: 10 min læsning
+  - slug: eva-foam-technology
+    category: Materialer
+    readTime: 7 min læsning
+  - slug: uv-printing-vs-eva-block
+    category: Teknologi
+    readTime: 6 min læsning
+  - slug: fusion-lamination-vs-glue
+    category: Fremstilling
+    readTime: 8 min læsning
+  - slug: sup-valve-types
+    category: Konstruktion
+    readTime: 6 min læsning
+  - slug: fin-systems-guide
+    category: Konstruktion
+    readTime: 7 min læsning
+  - slug: board-hull-design
+    category: Konstruktion
+    readTime: 9 min læsning
+  - slug: quality-testing-standards
+    category: Overensstemmelse
+    readTime: 8 min læsning
+  - slug: sup-paddle-technology
+    category: Udstyr
+    readTime: 7 min læsning
+  - slug: military-grade-pvc-specs
+    category: Materialer
+    readTime: 8 min læsning

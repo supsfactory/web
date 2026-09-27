@@ -1,0 +1,53 @@
+meta:
+  title: "Certificering af oppustelige SUP-brætter — CE, REACH, RoHS og overensstemmelse"
+  description: "Certificeringsomfang for produktion af oppustelige SUP-brætter: CE (EU-modeller), BSCI, ISO 9001, REACH, RoHS. Certifikatnumre oplyses pr. projekt på forespørgsel."
+  dateModified: "2026-08-20"
+
+sections:
+  - title: "Det korte svar"
+    directAnswer:
+      answer: "iSupfactory har certificeringerne BSCI, ISO 9001, ISO 25649, CE, REACH og RoHS. CE gælder modeller til EU-markeder — ikke generelt 'alle produkter'."
+      condition: "Certificeringernes omfang varierer efter målmarked og produktkonfiguration. Certifikatnumre, gyldighed og udstedende myndigheder oplyses pr. projekt på forespørgsel."
+      value: "BSCI · ISO 9001 · ISO 25649 · CE · REACH · RoHS"
+      verifiedDate: "September 2026"
+      sourceType: "certificate"
+    body: |
+      Certificering er en central indkøbsmæssig problemstilling og skal formuleres præcist.
+      Overordnede påstande som "CE på alle produkter" kan skabe tillidsproblemer, hvis en køber
+      senere opdager, at omfanget er smallere end forventet.
+
+  - title: "Detaljer om certificeringerne"
+    body: |
+      | Certificering | Omfang | Myndighed | Gælder for |
+      |---------------|--------|------------|------------|
+      | BSCI | Audit af social ansvarlighed | amfori BSCI | Produktionsanlægget |
+      | ISO 9001 | Kvalitetsledelsessystem | Certificeringsorgan (oplyses på forespørgsel) | Produktionsanlægget |
+      | ISO 25649 | Sikkerhed for oppustelige fartøjer | ISO | De relevante SUP-modeller pr. marked |
+      | CE | Overensstemmelse med EU-markedet (EN ISO 6185 / 10087 / 10240) | EU-notificeret organ | Modeller til EU-markedet |
+      | REACH | Kemiisk sikkerhed i EU | ECHA | Materialer anvendt i produktionen |
+      | RoHS | Begrænsning af farlige stoffer | EU-direktiv | Elektronisk tilbehør (pumper) |
+
+  - title: "Vigtige bemærkninger om omfanget"
+    body: |
+      - **CE** gælder modeller, der er konfigureret til salg på EU-markedet. Et bræt bygget til
+        distribution i USA eller Australien bærer ikke CE-mærket, medmindre det specifikt
+        bestilles.
+      - **ISO 9001** dækker produktionsanlæggets kvalitetsledelsessystem, ikke certificering af
+        enkelte produkter.
+      - **Overensstemmelse med REACH** dækker de materialer, der anvendes i produktionen —
+        dokumentation stilles til rådighed for importører, som skal registrere stoffer.
+      - Certifikatnumre, gyldighedsdatoer og udstedende myndigheder oplyses pr. projekt på
+        forespørgsel. Vi offentliggør ikke certifikatnumre af sikkerhedsmæssige årsager.
+      - Tredjepartsinspektion kan bestilles via SGS, TÜV, BV eller Intertek for enhver forsendelse.
+
+  - title: "Sådan beder du om certificeringsdokumenter"
+    body: |
+      Angiv dine målmarkeder under forespørgselsprocessen, så bekræfter vi, hvilke
+      certificeringer der gælder for din konkrete produktkonfiguration. Kopier af
+      certifikater (med slettede kommercielle oplysninger, hvor det er nødvendigt) indgår i
+      projektets dokumentationspakke.
+
+evidence_review:
+  tagline: 'Bevis & verifikation'
+  title: 'VERIFICEREDE SPECIFIKATIONER'
+  body: 'Alle produktionspåstande på denne side er verificeret af vores produktionstekniske team på anlægget i Laixi, Qingdao. Certifikater, kvalitetskontrolregistre, rapporter over tryk- og strukturprøvninger samt sporbarhedsregistre for partier stilles til rådighed på forespørgsel. Specifikationerne blev senest verificeret i september 2026.'

@@ -1,0 +1,100 @@
+meta:
+  title: 'Om Vatrad — den marine produktionsdivision'
+  description: 'Vatrad er den marine produktionsdivision i Qingdao Vatrad Group, grundlagt i 2012 i Qingdao, Kina — fabrikken bag ethvert specialprojekt fra iSupfactory.'
+  dateModified: '2026-08'
+  keywords:
+    - 'Vatrad'
+    - 'sup fabrik kina'
+    - 'producent oppustelige sup'
+    - 'qingdao vatrad group'
+hero:
+  tagline: Om Vatrad
+  title: 'Vatrad — den marine produktionsdivision bag {SITE}'
+  subtitle: 'Grundlagt i 2012 i Qingdao, Kina, bygger Vatrad de oppustelige fartøjer og SUP-brætter, der ligger bag iSupfactory-projekter — et anlæg på 12,500 m², 350+ medarbejdere og en årlig kapacitet på 120,000+ stk.'
+  actions:
+    - text: 'Start et specialprojekt'
+      href: /da/contact
+      variant: primary
+    - text: 'Se fabrikken'
+      href: /da/factory
+      variant: secondary
+intro: |
+  <p><strong>Vatrad</strong> er den marine produktionsdivision i <strong>Qingdao Vatrad Group Co., Ltd.</strong>, beliggende i den økonomiske udviklingszone i Laixi, Qingdao, Shandong, Kina. Virksomheden blev grundlagt i 2012 og startede som et specialiseret fartøjsværksted med et engagement i maritimt håndværk, og er i dag vokset til en certificeret fabrik, der betjener OEM- og ODM-kunder i over 50 lande.</p>
+  <p>iSupfactory er Vatrad-fabrikkenes B2B-afdeling for specialudvikling. Hvert iSupfactory-projekt — fra en første prøve eller en lille co-branded serie til en fuld private label-produktlinje — fremstilles i samme anlæg, af de samme teams og under det samme kvalitetssystem, som er beskrevet her.</p>
+  <p>Fabrikken dækker 12,500 m² med dedikerede værksteder til PVC-skæring, samling af drop-stitch-kerner, højfrekvenssvejsning, brætmontering samt et testområde til luftfastholdning, trykholdning og sømstyrketest. Produktionskapaciteten overstiger 120,000 oppustelige enheder om året, og anlægget drives under ISO 9001-kvalitetsledelse med CE-, BSCI- og REACH-overensstemmelse samt USCG-godkendelse for eksporterede produkter.</p>
+  <p>Mere end 350 kvalificerede arbejdere og 14+ R&amp;D-ingeniører understøtter de to arbejdsområder, der betyder noget for SUP-mærker: konstruktion (skrogdesign, materialevalg, prototyper) og produktion (påførsel af grafik, samling, inspektion, eksportpakning). Et eget R&amp;D-center med PVC-duglaboratorium og testbassin håndterer specialforme og validering af konstruktioner, før serieproduktionen sætter gang.</p>
+stats:
+  title: Vatrad i tal
+  stats:
+    - title: Grundlagt
+      amount: 2012
+    - title: Anlæg
+      amount: '12,500 m²'
+    - title: Betjente lande
+      amount: '50+'
+    - title: Årlig kapacitet
+      amount: '120,000+ stk.'
+    - title: Medarbejdere
+      amount: '350+'
+    - title: R&amp;D-ingeniører
+      amount: '14+'
+values_section:
+  title: Sådan arbejder fabrikken med mærker
+  subtitle: 'Tre principper, der præger ethvert projekt, der bygges af Vatrad-fabrikken.'
+  columns: 3
+  items:
+    - title: Konstruktion før produktion
+      description: 'Hvert projekt starter med krav, tegninger og en fysisk prøve — skrogform, drop-stitch-klasse, placering af grafik og emballage valideres, før nogen produktion sættes i gang, ikke når det opdages på linjen.'
+      icon: 'tabler:settings'
+    - title: Samlet team, samlet anlæg
+      description: 'Design, skæring, svejsning, samling og test sker i samme anlæg på 12,500 m². Ingen overdragelser via handelsselskaber: de, der svarer på dine spørgsmål, er dem, der bygger dine brætter.'
+      icon: 'tabler:building-factory-2'
+    - title: Små første serier
+      description: 'Co-branding i minimale partier starter ved 5–10 stk., og standardserieproduktion kører 90–100+ stk. pr. batch (en drop-stitch-rulle på 150 m), så mærker validerer markedet, før de skalerer — med værktøj og artwork bevaret til genbestillinger.'
+      icon: 'tabler:layers-intersect'
+services_section:
+  title: Hvad fabrikken leverer
+  subtitle: 'De produktionsydelser, iSupfactory-kunder har adgang til.'
+  columns: 2
+  items:
+    - title: Specialudvikling af SUP
+      description: 'Kravanalyse, specifikation, materialevalg, grafik, prototyper, prøvegodkendelse og produktion af specialfremstillede oppustelige SUP-produkter.'
+      icon: 'tabler:bulb'
+    - title: Private label-produktion
+      description: 'Dit logo, dine farver og din emballage på gennemprøvede platforme i kommerciel kvalitet — bræt, dækpude, tilbehør og kartoner bærer alle din identitet, uden fabrikkens branding.'
+      icon: 'tabler:tag'
+    - title: OEM / ODM-produktion
+      description: 'Fuld OEM- og ODM-produktion af oppustelige SUP-brætter ud fra kundens tegninger eller fællesudviklede designs, inklusive specialforme til nye brætformer.'
+      icon: 'tabler:package'
+    - title: Flådeleverance
+      description: 'Mærkede brætflåder til resorts, klubber, skoler og udlejningsvirksomheder, med matchende tilbehør og produktionsserier tilpasset flåder.'
+      icon: 'tabler:users-group'
+certifications_section:
+  title: Certificering & overensstemmelse
+  subtitle: 'Fabrikken sender til EU, USA og Asien-Stillehavs-området under et dokumenteret overensstemmelsessystem.'
+  columns: 2
+  items:
+    - title: CE-certificering
+      description: 'Produktlinjerne af oppustelige SUP-brætter og fartøjer overholder EU’s sikkerhedsdirektiver, med dokumentation til hvert marked.'
+      icon: 'tabler:certificate'
+    - title: ISO 9001-kvalitetssystem
+      description: 'Produktionsanlægget drives under et ISO 9001-kvalitetsledelsessystem, der dækker indgående materialer, processen og slutinspektion.'
+      icon: 'tabler:badge-check'
+    - title: BSCI social overensstemmelse
+      description: 'Social ansvarlighed auditeret efter BSCI, med dækning af arbejdsforhold og fabrikoverholdelse.'
+      icon: 'tabler:shield-check'
+    - title: REACH-materialeoverensstemmelse
+      description: 'Materialerne overholder EU’s REACH-forordning om kemisk sikkerhed.'
+      icon: 'tabler:flask'
+    - title: USCG-godkendelse
+      description: 'Produktion godkendt af US Coast Guard til produktlinjer af oppustelige fartøjer.'
+      icon: 'tabler:anchor'
+    - title: Produkttest
+      description: 'Prøvning af flydeevne, bæreevne, sømstyrke, UV-modstand, slidstyrke og trykholdning på hver produktionslinje.'
+      icon: 'tabler:test-pipe'
+cta:
+  title: 'Byg dit SUP-projekt med Vatrad-fabrikken'
+  subtitle: 'Send dine krav — brættype, størrelse, antal og grafik — og modtag et detaljeret tilbud inden for en arbejdsdag.'
+  actions:
+    - text: Mærkeidentitet
+      href: /da/about/identity

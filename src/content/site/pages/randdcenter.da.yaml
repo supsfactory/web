@@ -1,0 +1,131 @@
+meta:
+  title: 'R&D-center — konstruktion af oppustelige SUP | {SITE}'
+  description: 'Forskning og udvikling — PVC-stoftest, skrogkonstruktion, højfrekvenssvejsning, hydrodynamisk test og kvalitetskontrol. Specialiserede R&D-services fås.'
+  dateModified: '2026-08'
+
+hero:
+  tagline: R&D-center
+  title: R & D-center
+  subtitle: Fokuseret på fremskridt
+
+intro:
+  - VatRads forsknings- og udviklingscenter (R&D) er drivkraften bag vores mission om at revolutionere udstyr til vandsport. Vi giver vandsportister over hele verdenen sikrere, mere komfortable og mere fornøjende produkter gennem ihærdig innovation i oppustelige stand-up paddleboards (SUP) og både. Vores dedikerede team af ingeniører, designere og passionerede vandsportseksperter former branchens fremtid og løfter konstant barren for kvalitet, ydelse og bæredygtighed.
+  - Vores R&D-facilitet samler materialeforskere, skibsingeniører og produktionsingeniører under et tag. Fra stofformulering og skrogsimulering til udvikling af svejseprocesser og fuldstørige søforsøg drives hvert stadium af produktudvikling af data og valideres ved test.
+
+mission:
+  tagline: Vores mission
+  title: Vi innoverer vandsportens fremtid
+  pillars:
+    - icon: lightning
+      title: Teknologisk fremskridt
+      desc: Vi baner vejen for nye materialer, designs og produktionsmetoder, der giver bedre produktydelse og længere levetid.
+    - icon: design
+      title: Brugerorienteret design
+      desc: Vi forstår brugerbehov dybt og overgår dem gennem ergonomisk og intuitivt produktdesign.
+    - icon: globe
+      title: Bæredygtige arbejdsgange
+      desc: Vi minimerer vores miljøaftryk ved at bruge miljøvenlige materialer og processer.
+    - icon: shield
+      title: Kompromisløs sikkerhed
+      desc: Vi sikrer de højeste sikkerhedsstandarder gennem stringent test og certificering.
+
+pillars:
+  - title: Teknologisk fremskridt
+    desc: Vi baner vejen for nye materialer, designs og produktionsprocesser, der giver bedre produktydelse og længere levetid.
+    icon: tech
+  - title: Avancerede materialer
+    desc: Vi undersøger banebrydende PVC, Hypalon, kompositter og bæredygtige alternativer for bedre produktegenskaber.
+    icon: materials
+  - title: Bæredygtighed
+    desc: 'Et kerneengagement: Vi varetager miljøet gennem bæredygtig produktion og genanvendelige materialer.'
+    icon: sustainability
+
+capabilities:
+  tagline: Kapaciteter
+  title: R&D-kapaciteter
+  subtitle: Fire kernefag, der giver os fuldt herover fra råmaterialeforskning til endelig certificering.
+  groups:
+    - title: Materialekemi og stofteknologi
+      items:
+        - Analyse og optimering af PVC- og Hypalonformuleringer
+        - Udvikling af UV-stabilisering, brandhæmmende og antimikrobielle additiver
+        - Laminering af flerlagede stoffer og limteknologi
+        - Accelereret aldringstest (UV, varme, fugt, salt spray)
+    - title: Skrogkonstruktion og hydrodynamik
+      items:
+        - Parametrisk 3D-skrogdesign og CFD-optimering
+        - Elementanalyset for struktur- og stødlast
+        - Slæbetest i model skala og validering af ydelse
+        - Specialudvikling af skrog til særlige missionsprofiler
+    - title: Svejse- og samlingsteknologi
+      items:
+        - Udvikling og optimering af højfrekvenssvejsning
+        - Luft-, varmkile- og ultralydssvejsemetoder
+        - Kvalificering af limbinding og sømtape
+        - Modellering af svejstyrke og levetidsprognoser
+    - title: Test, certificering og overensstemmelse
+      items:
+        - Kvalitetsstyring og CE-overensstemmelsestest
+        - Uafhængig tredjepartstest og støtte til certificering
+        - Udvikling af skræddersyede testprotokoller til kvalifikationskrav
+        - Fejlanalyse i drift og undersøgelse af årsagssammenhænge
+
+rd_numbers:
+  tagline: Innovation
+  title: R&D i tal
+  stats:
+    - value: '14'
+      label: R&D-ingeniører og forskere
+    - value: '8'
+      label: Aktive patenter og patentansøgninger
+    - value: '6'
+      label: Specialiserede laboratorier
+    - value: 12 år
+      label: Gennemsnitlig erfaring i teamet
+
+rd_services:
+  tagline: Specialiseret R&D
+  title: R&D-services til partnere
+  services:
+    - title: Specialudvikling af materialer
+      desc: Vi udvikler skræddersyede stofformuleringer, laminatopbygninger og limesystemer tilpasset dit driftsmiljø og dine ydelsesmål.
+    - title: OEM / ODM produktudvikling
+      desc: Vi udvikler skræddersyede stofformuleringer, laminatopbygninger og limesystemer tilpasset dit driftsmiljø og dine ydelsesmål.
+    - title: Tredjepartstest og certificering
+      desc: Brug vores ISO-kompatible testfaciliteter til uafhængig materialetest, produktvalidering og støtte til certificering.
+  cta: Drøft dine R&D-behov →
+  cta_link: /da/contact
+
+vision:
+  tagline: Vores vision
+  title: Vi former vandsportens fremtid
+  body: Vatrad stræber efter at lede branchen for oppustelige både og SUP gennem kontinuerlig innovation, kompromisløs kvalitet og en urokkelig engagement i sikkerhed og bæredygtighed — og dermed beriger oplevelserne for vandsportister verden over. Vatrad R&D-centeret er, hvor passion møder innovation, og hvor nye standarder sættes for vandsportsbranchen.
+
+labs_section:
+  tagline: Laboratorier
+  title: Vores laboratorier
+  labs:
+    - image: https://assets.isupfactory.com/images/sups/randd/isupfactory-pvc-material-lab.webp
+      title: PVC-stoflaboratorium
+      description: Kontinuerlig forskning i og test af PVC- og Hypalonrørstoffer for trækstyrke, UV-bestandighed, slid og fleksibilitet ved lave temperaturer, så vi kan sikre langsigtet holdbarhed i maritime miljøer.
+      href: /da/randdcenter/pvc-fabric-lab
+    - image: https://assets.isupfactory.com/images/sups/factory/isupfactory-design-discussion-2.webp
+      title: Skrogkonstruktionsstudio
+      description: CAD-baseret design og elementanalyse af skrog i HDPE, aluminium og glasfiber. Ethvert skrog simuleres digitalt for spændingsfordeling og slagstyrke, før den første prototype bygges.
+      href: /da/randdcenter/hull-engineering
+    - image: https://assets.isupfactory.com/images/sups/factory/isupfactory-sup-manufacturing-3.webp
+      title: Højfrekvenssvejsecenter
+      description: Dedikeret facilitet til højfrekvenssvejsning med præcis temperatur- og trykstyring, som producerer stærke og lufttætte sømme, der opfylder maritim branches standarder for oppustelige fartøjer.
+      href: /da/randdcenter/rf-welding
+    - image: https://assets.isupfactory.com/images/sups/factory/isupfactory-design-discussion-original.webp
+      title: Hydrodynamisk test bassin
+      description: Test i modelskala i vores eget testbassin for at optimere skrogform, glitsegenskaber, stabilitet og brændstofeffektivitet på tværs af last- og havforhold.
+      href: /da/randdcenter/hydrodynamic-test-tank
+    - image: https://assets.isupfactory.com/images/sups/products/sup-series/sup-ocean-voyager-1.webp
+      title: Prototypeværksted
+      description: Facilitet til prototyping og riggning i fuld størrelse, hvor nye modeller bygges, monteres og prøvesejles. Hver prototype gennemgår et testprogram på mindst 20 timer i vandet, før produktionen godkendes.
+      href: /da/randdcenter/prototype-workshop
+    - image: https://assets.isupfactory.com/images/sups/factory/isupfactory-uv-resistance-testing.webp
+      title: Kvalitets- og inspektionslaboratorium
+      description: Dedikeret kvalitetssikringslaboratorium, der udfører trækprøvning, cyklusser for lufttab, sømpeelprøvninger og materialecertificering, så enhver båd, der forlader værkstedet, lever op til vores offentliggjorte specifikationer.
+      href: /da/randdcenter/quality-inspection-lab

@@ -1,0 +1,45 @@
+meta:
+  title: 'Teknologi — Drop Stitch & marine PVC | {SITE}'
+  description: 'Vatrad-teknologier: drop-stitch-konstruktion, marint PVC, tolagsopbyg og højt tryk. Innovation fra en professionel producent af oppustelige SUP.'
+  dateModified: '2026-08'
+  keywords:
+    - 'sup teknologi'
+    - 'drop-stitch konstruktion'
+    - 'højtryks sup'
+    - 'materialer til oppustelig sup'
+hero:
+  tagline: Teknologi
+  title: Bygget til ydelse
+  subtitle: 'Hver oppustelig SUP fra Vatrad er konstrueret med drop-stitch-opbyg og PVC i marinekvalitet — materialer og fremstillingsmetoder med høj præcision, testet i krævende marine miljøer.'
+
+sections:
+  - title: Drop-stitch-kerne
+    description: 'Tusinder af interne polyestersyntråde forbinder top- og bundlaget og skaber en stiv struktur ved 12-15 PSI. Det er den samme teknologi, der bruges i professionelle paddleboards og oppustelige racing-SUP.'
+    imageAlt: Drop-stitch-kerne diagram
+  - title: PVC i marinekvalitet
+    description: 'Flerlagslamineret PVC-dug klassificeret til marine miljøer. Hvert lag er fusionssvejset frem for limet, hvilket udelukker risiko for delaminering. Testet for UV-bestandighed, saltvandskorrosion og slibning.'
+    imageAlt: PVC-lag
+  - title: PVC i militærkvalitet
+    description: 'Bruges på alle SUP-modeller: PVC i premiumkvalitet giver overlegen UV- og kemikaliebestandighed. Bevarer fleksibiliteten ved ekstreme temperaturer og modstår nedbrydning.'
+    imageAlt: PVC
+  - title: Air Deck-gulv
+    description: 'Oppustelig drop-stitch-konstruktion med højt tryk, der giver enestående stivhed til stående padling, fiskeri og yoga. Reducerer klargøringstid, samlet vægt og opbevaringsvolumen.'
+    imageAlt: Air Deck
+
+related:
+  title: Relateret
+  links:
+    - text: F&U-center
+      url: /da/randdcenter
+    - text: Kvalitetstest
+      url: /da/quality
+    - text: Sikkerhedsstandarder
+      url: /da/quality
+    - text: Garanti
+      url: /da/warranty
+    - text: Turisme og fritid
+      url: /da/tourism-recreation
+    - text: Guides
+      url: /da/knowledge
+    - text: Produkter
+      url: /da/products

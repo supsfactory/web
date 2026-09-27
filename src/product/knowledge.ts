@@ -1259,6 +1259,130 @@ export const knowledge: Localized<KnowledgeArticle[]> = {
       ],
     },
   ],
+  da: [
+    {
+      slug: 'how-custom-sup-boards-are-developed',
+      navLabel: 'Sådan udvikles SUP-bræt på bestilling',
+      metaTitle: 'Sådan udvikles SUP-bræt på bestilling | iSupfactory',
+      metaDescription:
+        'Sådan et SUP-bræt på bestilling rejser fra ide til fabrik: specifikation, design, prototype, prøvebræt og produktion — trin for trin.',
+      kicker: 'Viden',
+      h1: 'Sådan udvikles SUP-bræt på bestilling',
+      intro:
+        'Før et paddleboard på bestilling sendes ud til dine kunder, gennemgår det en fastlagt udviklingsvej. At kende hvert trin hjælper dig med at briefe fabrikken korrekt, sætte realistiske tidsplaner og undgå de klassiske fejl, førstegangsindkøbere laver.',
+      sections: [
+        {
+          title: 'Trin 1: Fastlæg behovet',
+          body: [
+            'Ethvert udviklingsprojekt starter med anvendelsen: hvem skal bruge brættet, hvor og hvor ofte. Et bræt til en udlejningsflåde er ikke det samme som et bræt til en brandlancering eller et skolebræt — stabilitet, holdbarhed og pris mål ændrer sig med svaret.',
+            'Skriv antal, målpris og must-have-funktioner ned, før du kontakter en fabrik. Klare krav giver et bedre første tilbud og færre mails frem og tilbage.',
+          ],
+        },
+        {
+          title: 'Trin 2: Lås specifikationen',
+          body: [
+            'Specifikationen gør behovet til målbare værdier: længde, bredde, tykkelse, volumen, materialer (drop-stitch-tæthed, stofvægt), finoplæg, vægtgrænse og emballage.',
+            'Det er dokumentet, begge parter giver tilbud ud fra. Ændringer senere i processen går langsommere og koster mere — en låst specifikation er det billigste, du kan styre.',
+          ],
+        },
+        {
+          title: 'Trin 3: Design og grafik',
+          body: [
+            'Når specifikationen er låst, begynder designarbejdet: justering af formen, farvevalg, placering af logo, grafik på dækpad og matchende tilbehør (leash, pagaj, finne, taske).',
+            'Producenter kan lave digitale mockups, så du godkender udtrykket, før der laves en fysisk prøve — billigere og hurtigere end at iterere på fysiske bræt.',
+          ],
+        },
+        {
+          title: 'Trin 4: Prototype og prøvebræt',
+          body: [
+            'Prøvebrættet er det første fysiske bevis. For oppustelige bræt betyder det et håndbygget bræt eller et bræt fra en pilotproduktion, som du kan padle på og teste mod specifikationen.',
+            'Test prøven som din slutbruger vil: stabilitet, stivhed, retningsstabilitet, vægt, og hvordan grafiken holder. En grundig prøverunde fanger som regel de fleste problemer før produktionen.',
+          ],
+        },
+        {
+          title: 'Trin 5: Produktion og levering',
+          body: [
+            'Efter godkendelse af prøven kører produktionen i batche med kvalitetskontrolpunkter. Fabrikinspektion før afsendelse — fotos, video eller tredjepartsinspektion — sikrer den batch, du modtager.',
+            'En god projekttidsplan regnes baglæns fra lanceringsdatoen, ikke fremad fra ordredatoen.',
+          ],
+        },
+      ],
+    },
+    {
+      slug: 'inflatable-sup-construction-explained',
+      navLabel: 'Oppusteligt SUP forklaret',
+      metaTitle: 'Konstruktion af oppusteligt SUP: materialer og lag | iSupfactory',
+      metaDescription:
+        'Hvad et oppusteligt SUP er bygget af — PVC-lag, drop-stitch-stof, kantlister og kvalitetsindikatorer — så du kan specificere bedre bræt til dit projekt.',
+      kicker: 'Viden',
+      h1: 'Oppusteligt SUP forklaret',
+      intro:
+        'De fleste projekter med SUP på bestilling i dag er oppustelige bræt. De er lettere, nemmere at opbevare og sende og mere tilgivende for begyndere. Denne guide gennemgår konstruktionen, så du kan specificere kvalitet med sikkerhed.',
+      sections: [
+        {
+          title: 'Kernen: drop-stitch-stof',
+          body: [
+            'Et oppusteligt bræt er bygget op omkring drop-stitch-stof: tusindvis af polyestersømme, der forbinder det øverste og nederste PVC-lag. Når brættet pumpes op, holder sømmene det på en fast tykkelse — det er det, der giver en iSUP sin form og stivhed.',
+            'Højere trådtæthed (sømme pr. tomme i) giver et fastere og mere stabilt bræt ved samme tryk. Budgetbræt bruger lavere tæthed, premiumbræt bruger højere.',
+          ],
+        },
+        {
+          title: 'PVC-lag og kantlister',
+          body: [
+            'Stoffet er sandwichet mellem PVC-lag, der beskytter mod slitage, UV og stød. Tykkere PVC (flere mils eller millimeter) modstår punkteringer bedre, men øger vægten.',
+            'Kantlisterne — brættets kanter — tager størst belastning i daglig brug. Dobbelt- eller trelags kantlister er et stærkt tegn på holdbarhed og egnethed til udlejning.',
+          ],
+        },
+        {
+          title: 'Hvad der giver vægt, og hvad der giver styrke',
+          body: [
+            'Vægt er en afvejning: tykkere PVC giver både holdbarhed og vægt, mens lettere opbygning passer til ryttere, der bærer brættet langt. Det er et af de klareste eksempler på, hvordan en specifikation på bestilling tilpasses køberens virkelighed.',
+            'Kvalitetsindikatorer, du bør bede om: nominelt oppumpningstryk, sømmekonstruktion, ventiltype og drop-stitch-tæthed. Seriøse fabrikker offentliggør disse tal.',
+          ],
+        },
+      ],
+    },
+    {
+      slug: 'how-organizations-choose-sup-equipment',
+      navLabel: 'Sådan vælger organisationer SUP-udstyr',
+      metaTitle: 'Sådan vælger resorts, klubber og skoler SUP-udstyr | iSupfactory',
+      metaDescription:
+        'Sådan vælger resorts, klubber og skoler SUP-udstyr: flådens størrelse, brætstyper, holdbarhed, opbevaring og budget til et program, der holder.',
+      kicker: 'Viden',
+      h1: 'Sådan vælger organisationer SUP-udstyr',
+      intro:
+        'Resorts, klubber og skoler køber anderledes end forbrugermærker: udstyret skal klare daglig brug, håndtere blandede niveauer og passe i et programbudget. Denne struktur dækker de beslutninger, der betyder noget.',
+      sections: [
+        {
+          title: 'Dimensioner flåden efter brugen',
+          body: [
+            'Tæl, hvor mange ryttere der er på vandet samtidig — ikke hvor mange gæster du har. Et resort, der udlejer i rotation, skal bruge færre bræt end en skole med samtidige hold — og flere reservedele.',
+            'En god tommelfingerregel: et bræt pr. rytter ad gangen plus 10–15 % reserver til vedligeholdelse og vækst.',
+          ],
+        },
+        {
+          title: 'Match brætstyper med niveauer',
+          body: [
+            'Begyndere har glæde af bredere bræt med større volumen, der føles stabile; erfarne ryttere foretrækker smallere bræt, der padler hurtigere. En blandet flåde — mest begyndervenlige med få ydelsesbræt — passer til de fleste programmer.',
+            'Flerspersonsbræt har deres plads i skoler og gruppeoplevelser: De gør det muligt for instruktører at undervise og kan erstatte flere enkeltbræt i holdrotationer.',
+          ],
+        },
+        {
+          title: 'Holdbarhed er en budgetbeslutning',
+          body: [
+            'Konstruktion i udlejningskvalitet koster mere upfront, men sparer penge over to til tre sæsoner. Spørg om forstærkede kantlister, PVC-tykkelse, og hvilken garanti fabrikken giver på flådeordrer.',
+            'Planlæg også opbevaring og oppumpning: kompressorer, stativer og pakkerutiner afgør, hvor meget dagligt arbejde programmet indebærer. Flådeleverandører indbygger dette i pakken.',
+          ],
+        },
+        {
+          title: 'Planlæg programmet, ikke kun ordren',
+          body: [
+            'De bedste udstyrsordrer er en del af en programplan: instruktørtræning, vedligeholdelsesrutiner og en udskiftningscyklus for slidte bræt. Organisationer, der planlægger programmet, fornyer udstyret efter plan; de øvrige køber nødindkøb til fuld pris.',
+          ],
+        },
+      ],
+    },
+  ],
 }
 
 export function getArticle(locale: Locale, slug: string): KnowledgeArticle | undefined {
@@ -1331,5 +1455,11 @@ export const knowledgeMeta: Localized<KnowledgeMeta> = {
     metaDescription:
       'Praktyczne przewodniki o rozwoju produktów SUP na zamówienie, o budowie nadmuchiwanych desek oraz o wyborze sprzętu SUP dla ośrodków, klubów i szkół.',
     h1: 'Centrum wiedzy — rozwój produktów, po polsku',
+  },
+  da: {
+    metaTitle: 'Videnscenter: guider til SUP-produktudvikling | iSupfactory',
+    metaDescription:
+      'Praktiske guider om udvikling af SUP på bestilling, konstruktion af oppustelige bræt og valg af SUP-udstyr til resorts, klubber og skoler.',
+    h1: 'Videnscenter — produktudvikling, forklaret',
   },
 }

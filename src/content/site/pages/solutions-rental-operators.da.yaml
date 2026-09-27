@@ -1,0 +1,82 @@
+meta:
+  title: 'Leverandør af udlejningsudstyr til SUP og flådeløsninger'
+  description: 'Kommercielle SUP-brætter konstrueret til daglig udlejningsbrug: UV-bestandig PVC, forstærkede sømme og hurtigtørrende materialer til udlejningsflåder med høj omsætning.'
+  dateModified: '2026-08'
+
+hero:
+  tagline: Udlejningsaktører
+  title: 'SUP-brætter konstrueret til udlejningsflåder'
+  subtitle: 'Specificer en flåde, der holder til daglig udlejningsbrug: brætter med høj omsætning, UV-bestandig PVC, forstærkede sømme og hurtigtørrende materialer — konstrueret til 365 dages brug om året.'
+  image:
+    src: https://assets.isupfactory.com/images/sups/use-cases/isupfactory-family-use-case.webp
+    alt: SUP-brætter klargjort til daglig udlejningsbrug
+
+answer:
+  label: 'Det korte svar'
+  text: 'Brætter til udlejningsflåder bygges i UV-bestandig maritim PVC med sømme, der er 3× stærkere end standardkonstruktion, og drop-stitch-kerner dimensioneret til 15 PSI — testet til 500+ udlejningscyklusser. MOQ bekræftes ud fra projektkonfigurationen: prøve (1–2 stk.), pilot (20–50 stk.) og standardvolumen (90–100+ stk. pr. parti fra en 150 m rulle); produktionen løber 25–35 dage efter ordre og depositum, med FOB-, CIF- eller DDP-betingelser.'
+  verified: 'September 2026'
+
+features:
+  title: Bygget til udlejningens hverdag
+  subtitle: 'Ethvert bræt er konstrueret til 500+ udlejningscyklusser med minimal vedligeholdelse.'
+  items:
+    - title: '500+ udlejningscyklusser'
+      description: 'Testet til at klare daglig brug i saltvand, sol og sand.'
+      icon: 'tabler:shield-check'
+    - title: 'UV-bestandigt stof'
+      description: 'Ingen falmen eller nedbrydning efter 1 års udendørs opbevaring.'
+      icon: 'tabler:sun'
+    - title: 'Forstærkede sømme'
+      description: 'Forstærket sømmekonstruktion bygget til daglig udlejningsdrift og gentagne oppustningscyklusser.'
+      icon: 'tabler:layers-intersect'
+    - title: 'Hurtigtørrende materialer'
+      description: 'Hurtigtørrende materialer holder brætterne klar til den næste udlejning mellem sessionerne.'
+      icon: 'tabler:droplet'
+    - title: 'Stabelbar opbevaring'
+      description: 'Pladsbesparende, stabelbart design — få flere brætter ind på samme opbevaringsareal.'
+      icon: 'tabler:stack'
+    - title: 'Farvekodede størrelser'
+      description: 'Personalet finder det rette bræt med det samme takket de farvekodede størrelser.'
+      icon: 'tabler:color-swatch'
+
+stats:
+  title: Driftsmåltal
+  stats:
+    - title: Fabriksgulv
+      amount: '12,500 m²'
+    - title: Trykprøvning
+      amount: '18 PSI / 24h'
+    - title: Montagetjekliste
+      amount: '100 punkter'
+    - title: Afsendelse af dele
+      amount: '48h'
+
+fleet_guide:
+  title: Guide til flådestørrelse
+  subtitle: 'Estimer, hvor mange brætter din drift har brug for ud fra den daglige udlejningsrotation.'
+  tiers:
+    - label: Lille kiosk
+      boards: '15-20'
+      note: 'Op til 2–3 brætrotationer pr. dag i højsæsonen'
+    - label: Drift i mellemstørrelse
+      boards: '30-50'
+      note: 'Flere afsætningssteder eller høj trafik i weekenden'
+    - label: Stor strandudlejning
+      boards: '50-100'
+      note: 'Flåder med fuld service fordelt på flere strandstationer'
+
+content_html: |
+  <div class="mx-auto max-w-3xl space-y-4 rounded-2xl border bg-card p-6 text-[14.5px] leading-relaxed text-fg-2">
+    <p><strong>Læs videre:</strong> udlejningsbrætter bygger på din specifikation — se vores <a href="/da/oem-manufacturing">OEM/ODM-program</a> med tilpasning, lave prøve-MOQ’er og flådepriser. Ethvert bræt kører på <a href="/da/factory">produktionslinjen på 12,500 m&sup2;</a> og er 100 % trykprøvet, før det sendes af sted.</p>
+  </div>
+
+cta:
+  title: 'Specificer din udlejningsflåde'
+  subtitle: 'Send dine flådekrav, eller sammenlign brætplatforme til din drift.'
+  actions:
+    - text: 'Send flådekrav'
+      href: '/da/contact'
+      variant: 'primary'
+    - text: 'Sammenlign brætplatforme'
+      href: '/da/inflatable-vs-hardboard'
+      variant: 'secondary'

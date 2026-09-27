@@ -3761,6 +3761,377 @@ export const solutionPages: Localized<SolutionPageData[]> = {
       ctaLabel: 'Omów swój program SUP dla szkoły',
     },
   ],
+  da: [
+    {
+      slug: 'custom-sup',
+      navLabel: 'Specialfremstilling af SUP-bræt',
+      metaTitle: 'Udvikling af specialfremstillede SUP-bræt | Tilpassede paddleboard-løsninger',
+      metaDescription:
+        'Udvikl specialfremstillede SUP-produkter med iSupfactory. Vi understøtter produktkrav, tilpasning, prototyper og produktion for virksomheder og organisationer.',
+      kicker: 'Producent af specialfremstillede SUP-bræt',
+      serviceType: 'Udvikling af specialfremstillede SUP-produkter',
+      answer:
+        'Vi udvikler specialfremstillede oppustelige SUP-bræt, hårde bræt og tilbehør ud fra dit krav — form, grafik, materialer og emballage — gennem konstruktion, prøve og produktion. Specialprojekter starter ved 90–100+ stk pr. 150 m rulle (volumen); prøver sendes på 7–12 dage, og produktionen kører 25–35 dage fra bekræftet ordre og depositum.',
+      h1: 'Specialfremstillede SUP-produkter bygget omkring dine krav',
+      intro: [
+        'Du har brug for paddleboards bygget efter din specifikation — form, grafik, materialer, emballage — uden selv at drive en fabrik. Vi er den produktionspartner, der tager dit krav og leverer et færdigt produkt.',
+        'Hvert projekt varetages af en dedikeret specialist, der styrer design, prøver, produktion og levering, så du altid ved, hvor din ordre står.',
+      ],
+      scenario: {
+        title: 'Du har brug for bræt bygget efter din specifikation',
+        body: 'Et produktkrav — ikke et katalogvalg. Dine formpræferencer, din grafik, dit kvalitetsniveau, din emballage. Vi konstruerer, fremstiller prøve og producerer på afprøvede platforme med fleksibilitet allerede fra den første lille batch.',
+      },
+      pairs: [
+        {
+          problem: 'Fabrikkernes kataloger tilbyder kun lagerdesign, du ikke kan ændre.',
+          solution: 'Vi producerer bræt med dine forme, din grafik og dine specifikationer — fra den første prøve til fulde produktionsserier.',
+        },
+        {
+          problem: 'Store minimumsordrer låser dig til lager, før markedet er valideret.',
+          solution: 'Specialproduktion i volumen starter fra 90–100+ stk pr. design, mens pilotpartier på eksisterende platforme starter fra 20–50 stk — så de første runder forbliver små, mens enhedsprisen forbliver fair.',
+        },
+        {
+          problem: 'Du har intet design- eller konstruktionsteam på din side.',
+          solution: 'Vores interne design- og konstruktionsteam gør en ide, skitse eller referencebræt om til produktionsklare tegninger.',
+        },
+        {
+          problem: 'Ukendt fabrikkvalitet og langsom kommunikation.',
+          solution: 'En projektspecialist ejer prøver, QC-milestæpene og leveringstidslinjerne fra start til slut — et kontaktpunkt, klare opdateringer.',
+        },
+      ],
+      steps: [
+        { title: 'Indsend dit projekt', body: 'Fortæl os om dine krav, eller del skitser og referencebilleder.' },
+        { title: 'Design og prøve', body: 'Vi udvikler tegninger og sender en fysisk prøve inden for 7–12 dage.' },
+        { title: 'Godkend og producer', body: 'Efter din godkendelse kører produktionen i 25–35 dage med QC i flere punkter.' },
+        { title: 'Lever og genbestil', body: 'Eksport til hele verden med professionel pakning samt genbestillingssupport i ensartet kvalitet.' },
+      ],
+      caseStudy: {
+        title: 'Udvidelse af et outdoormærkes sortiment',
+        body: 'Et outdoormærke gik ind i padlesport med et brandet touring-bræt. Vi udviklede brættet ud fra en grov skitse, opnåede prøvegodkendelse på 15 dage og producerede den første serie på 25–35 dage.',
+        tags: ['Udvikling af bræt', 'Brandet grafik', 'Første produktionsserie'],
+      },
+      faqs: [
+        {
+          q: 'Kan I udvikle et SUP-produkt ud fra min ide?',
+          a: 'Ja. Vi hjælper med at vurdere dine krav og udvikle en produktionsklar løsning — fra koncept og tegninger til en fysisk prøve.',
+        },
+        {
+          q: 'Kan jeg tilpasse SUP-grafik og farver?',
+          a: 'Ja. Specialgrafik, farver og brandelementer kan udvikles efter projektets krav.',
+        },
+        {
+          q: 'Hvad er minimumsordren for specialfremstilling af SUP-bræt?',
+          a: 'Specialproduktion i volumen starter fra 90–100+ stk pr. design, med pilotpartier fra 20–50 stk på eksisterende platforme. Større mængder giver bedre enhedspris, og ved genbestillinger bevares dit værktøj og dine designs.',
+        },
+        {
+          q: 'Hvad kan tilpasses på et bræt?',
+          a: 'Form og mål, konstruktion og materialer, grafik og logo, EVA-måttens udskæring, tilbehør (pagaj, pumpe, taske) og emballage.',
+        },
+        {
+          q: 'Leverer I prøver før produktionen?',
+          a: 'Ja — en fysisk prøve fremstilles og godkendes før enhver produktionsserie. Prøvetiden er normalt 7–12 dage.',
+        },
+        {
+          q: 'Kan I klare det med kun mine brandmaterialer, uden et fuldt designteam?',
+          a: 'Ja. Vores designteam udvikler produktionsklar grafik ud fra dit logo, dine brandfarver eller en grov ide.',
+        },
+      ],
+      ctaLevel: 'hot',
+      ctaLabel: 'Drøft dit projekt for specialfremstillede SUP-bræt',
+    },
+    {
+      slug: 'private-label-sup',
+      navLabel: 'SUP under eget mærke',
+      metaTitle: 'Produktion af SUP under eget mærke | Specialfremstillet SUP-produktion',
+      metaDescription:
+        'iSupfactory understøtter produktion af SUP under eget mærke for eksisterende mærker og hjælper med at udvikle tilpassede SUP-produkter fra specifikation til produktion.',
+      kicker: 'SUP under eget mærke',
+      serviceType: 'Produktion af SUP under eget mærke',
+      answer:
+        'Eget mærke sætter dit brand på afprøvede, produktionsklare SUP-platforme uden nyt værktøj. Vælg en basemodel, anvend dit logo, dine farver, din emballage og dit tilbehør, og bestil fra 90–100+ stk pr. 150 m rulle (volumen). Det er den hurtigste og mindst risikofyldte vej at lancere; prøver tager 7–12 dage og produktion 25–35 dage efter ordren.',
+      h1: 'Produktionsstøtte til SUP under eget mærke',
+      intro: [
+        'Produktion under eget mærke lader dig lancere en paddleboard-linje under dit eget brand uden at investere i værktøj eller en fabrik. Dit logo, dine farver og din emballage placeres på kvalitetsverificerede platforme, med mængder der vokser med efterspørgslen.',
+        'Vi varetager produktsiden, så du kan fokusere på brandsiden: design, emballage og genbestillingsstyring håndteres af os.',
+      ],
+      scenario: {
+        title: 'Du har et brand — og skal bruge et produkt under det',
+        body: 'En brandidentitet uden lager. Du vil have en salgbar paddleboard-linje med dit navn, i en mængde der passer til dit stadie — fra en første valideringsbatch til gentagne flåder.',
+      },
+      pairs: [
+        {
+          problem: 'Branding kun på en klister — produktet ligner stadig generisk.',
+          solution: 'Fuld brandintegration: brætgrafik, logo, EVA-måttens udskæring, brandet pagaj, pumpe, taske og emballage.',
+        },
+        {
+          problem: 'De første ordrer tvinger dig til at købe hundredvis af enheder, du måske ikke sælger.',
+          solution: 'Start med et pilotparti på 20–50 stk på en standardplatform, og skaler derefter til et serieparti fra 90–100+ stk — valider markedet, før du bestiller store batche.',
+        },
+        {
+          problem: 'Udvikling af design og emballage føles uopnåelig.',
+          solution: 'Vores designteam gør dine brandmaterialer om til produktionsklare bræt- og emballagefiler.',
+        },
+        {
+          problem: 'Genbestillinger driver i kvalitet eller tilgængelighed.',
+          solution: 'Værktøj og designs forbliver dine, og genbestillinger kører på de samme verificerede platforme i ensartet kvalitet.',
+        },
+      ],
+      steps: [
+        { title: 'Del dit brand', body: 'Send dit logo, dine farver og eventuelt eksisterende brandmateriale.' },
+        { title: 'Udvikl grafik', body: 'Vi designer brætgrafik, EVA-udskæring og emballage omkring dit brand.' },
+        { title: 'Godkend prøve', body: 'En fysisk prøve bekræfter farver, finish og emballage.' },
+        { title: 'Producer og lever', body: 'Produktionen kører i din mængde, med QC og eksport håndteret ende til ende.' },
+      ],
+      caseStudy: {
+        title: 'Nyt mærke, første produktionsordre',
+        body: 'En sportsforhandler lancerede sin egen paddleboard-linje ud fra blot et logo. Vi udviklede det komplette bræt og emballagemateriale, producerede et første parti på 50 stk til markedstest og skalerede derefter til en fuld produktionsordre inden for en sæson.',
+        tags: ['Brandudvikling', 'Emballagedesign', 'Skaleret produktion'],
+      },
+      faqs: [
+        {
+          q: 'Hvad er produktion af SUP under eget mærke?',
+          a: 'Produktion af SUP under eget mærke giver virksomheder mulighed for at sælge SUP-produkter under eget brand med tilpassede specifikationer og produktionsstøtte.',
+        },
+        {
+          q: 'Kan eksisterende mærker udvikle nye SUP-produkter?',
+          a: 'Ja. iSupfactory understøtter mærker, der vil udvide sortimentet med SUP-produkter — produktselection, justering af specifikationer, specialgrafik og produktion.',
+        },
+        {
+          q: 'Hvad er indeholdt i et program for SUP under eget mærke?',
+          a: 'Dit brand på selve brættet — grafik, logo, EVA-måtte — samt valgfrit brandet pagaj, pumpe, rygsæk og emballage: et komplet salgbart produkt under dit navn.',
+        },
+        {
+          q: 'Kan designet ændres mellem ordrer?',
+          a: 'Ja. Når brandmaterialet er produktionsklart, kan genbestillinger opdatere grafik, farver eller emballage når som helst.',
+        },
+        {
+          q: 'Vi har kun et logo. Kan I stadig hjælpe?',
+          a: 'Ja. Vores designteam udvikler det komplette bræt- og emballagemateriale ud fra dit logo og dine brandfarver.',
+        },
+      ],
+      ctaLevel: 'warm',
+      ctaLabel: 'Drøft dit projekt for SUP under eget mærke',
+    },
+    {
+      slug: 'resort-sup',
+      navLabel: 'SUP til resorter',
+      metaTitle: 'Specialfremstillet SUP-udstyr til resorter | Brandede bræt',
+      metaDescription:
+        'Skab specialfremstillet SUP-udstyr til resorter og hoteller med brandede bræt, tilbehør og produktionsstøtte fra iSupfactory.',
+      kicker: 'SUP til resorter',
+      serviceType: 'SUP-udstyr til resorter og hoteller',
+      answer:
+        'Vi leverer brandede oppustelige SUP-bræt til resorter og hoteller, bygget til dagligt gæstebrug: drop-stitch-konstruktion i højt tryk, forstærkede sømme og trinstyrede minimumsordrer fra 20–50 pilotstk op til 90–100+ til flåderullet. Brættene bærer dit logo og dine farver, og vi rådgiver om opbevaring, vedligeholdelse og genbestillingsplaner.',
+      h1: 'Løsninger med specialfremstillet SUP-udstyr til resorter og hoteller',
+      intro: [
+        'Resortflåder af paddleboards skal klare dagligt gæstebrug, være nemme at opbevare mellem sæsoner og bære dit brand. Vi bygger holdbare, gæstvenlige bræt i dine farver og strukturerer flådeprogrammet omkring din drift.',
+        'Mængder anbefales ud fra brugsmønstre, ikke gæt — og genbestillingsprogrammer holder flåden frisk sæson efter sæson.',
+      ],
+      scenario: {
+        title: 'Du driver vandaktiviteter for gæster',
+        body: 'Gæster forventer en mindeværdig oplevelse på vandet, og udstyret repræsenterer din ejendom. Du har brug for bræt, der er holdbare nok til daglig udlejning, nemme at opbevare og brandede, så de passer til resortet.',
+      },
+      pairs: [
+        {
+          problem: 'Gæsteflåder slides hurtigt ved daglig udlejning.',
+          solution: 'Udlejningskvalitet med forstærkede kantlister og UV-resistente materialer bygget til gentagne sessioner.',
+        },
+        {
+          problem: 'Opbevaringspladsen er begrænset uden for sæsonen.',
+          solution: 'Opbevaringsvenlige oppustelige løsninger, der pakkes sammen i et skab, når sæsonen er slut.',
+        },
+        {
+          problem: 'Udstyret ser generisk ud og ikke som din ejendom.',
+          solution: 'Grafik på hele brættet, logoer og EVA-branding i resortets farver — inklusive brandet tilbehør.',
+        },
+        {
+          problem: 'Udskiftning og fornyelse af flåden er ukoordineret.',
+          solution: 'Et flåde-genbestillingsprogram med ensartet kvalitet, reservedelssupport og ærlig mængderådgivning.',
+        },
+      ],
+      steps: [
+        { title: 'Beskriv din drift', body: 'Gæstevolumen, strandlinje, opbevaring og sæsonens længde.' },
+        { title: 'Få en flådeplan', body: 'Vi anbefaler brætstyper og mængder ud fra brugsmønstre.' },
+        { title: 'Godkend brandet prøve', body: 'Dine farver og dit logo bekræftet på et fysisk bræt.' },
+        { title: 'Modtag og vedligehold', body: 'Levering, reservedele og et genbestillingsprogram til fremtidige sæsoner.' },
+      ],
+      caseStudy: {
+        title: 'Brandet gæsteflåde i kystresort',
+        body: 'Et kystresort udstyrede sit strandprogram med 40 brandede oppustelige bræt i resortets farver, inklusive brandede pagaj og pumper. Brættene opbevares i et skab uden for sæsonen, og flåden blev fornyet efter den anden sæson i ensartet kvalitet.',
+        tags: ['Brandet gæsteflåde', 'Opbevaring af oppustelige', 'Sæsonfornyelse'],
+      },
+      faqs: [
+        {
+          q: 'Kan resorter tilpasse SUP-udstyr med eget logo?',
+          a: 'Ja. Resorter kan tilpasse grafik, farver og tilbehør efter projektets krav — fuld branding i ejendommens farvepalette.',
+        },
+        {
+          q: 'Kan I levere flere SUP-enheder til resortdrift?',
+          a: 'Ja. Produktionsløsninger kan udvikles ud fra flådens krav, fra en startflåde til sæsonbaserede fornyelsesprogrammer.',
+        },
+        {
+          q: 'Hvor mange bræt har et resort brug for?',
+          a: 'De fleste resorter starter med 20–50 bræt og skalerer med efterspørgslen. Vi anbefaler mængder ud fra dit gæstevolumen og din strandlinje, ikke gæt.',
+        },
+        {
+          q: 'Er oppustelige bræt egnede til resortbrug?',
+          a: 'Ja. Moderne oppustelige SUP-bræt er utroligt holdbare og meget nemmere at opbevare og transportere — det populære valg for resorter med begrænset opbevaringsplads.',
+        },
+        {
+          q: 'Kan flåden bære vores logo og farver?',
+          a: 'Ja — grafik på hele brættet, logotryk, EVA-branding og brandet tilbehør er alle en del af resortprogrammet.',
+        },
+      ],
+      ctaLevel: 'warm',
+      ctaLabel: 'Anmod om en SUP-løsning til dit resort',
+    },
+    {
+      slug: 'club-sup',
+      navLabel: 'Specialfremstillede holdbræt',
+      metaTitle: 'Specialfremstillet SUP-udstyr til klubber og hold',
+      metaDescription:
+        'iSupfactory leverer løsninger til specialfremstillet SUP-udstyr for klubber, hold og arrangementer, inklusive grafik, specifikationer og produktionsstøtte.',
+      kicker: 'Specialfremstillede holdbræt',
+      serviceType: 'SUP-udstyr til klubber og hold',
+      answer:
+        'Klubber og hold får holdbare, ensartede flåder i deres farver: logoplacering, specialpagajlængder og tilbehørspakker på en standardiseret brætspecifikation, så reparationer og reservedele forbliver enkle på tværs af genbestillinger. Minimumsordren starter ved 90–100+ stk (volumen); pilotpartier fra 20–50 stk er tilgængelige for først at validere specifikationen.',
+      h1: 'Specialfremstillet SUP-udstyr til klubber og hold',
+      intro: [
+        'Padleklubber har brug for bræt, der overlever daglig træning, ligner holdet og er ensartede på tværs af genbestillinger. Vi producerer specialfremstillede holdbræt med din klubnavn og dine farver, til flådevenlige priser.',
+        'Klubprogrammer omfatter også den praktiske side: reservedele, reparationsvejledning og genbestillingssupport i samme kvalitet.',
+      ],
+      scenario: {
+        title: 'Din klub driver træning og holdsessioner',
+        body: 'Brættene bruges dagligt af medlemmer og repræsenterer klubben ved arrangementer og regattaer. Du vil have holdbart udstyr med klubbranding uden selv at håndtere fabriksrelationer.',
+      },
+      pairs: [
+        {
+          problem: 'Træningsbræt slides hurtigt ved gentagen brug.',
+          solution: 'Forstærket konstruktion bygget til daglig professionel brug, med reparationsvejledning og reservedelssupport.',
+        },
+        {
+          problem: 'Flåder ser uensartede ud og mangler branding.',
+          solution: 'Klubnavn, farver og logo trykt på hvert bræt for en samlet holdflåde.',
+        },
+        {
+          problem: 'Vækst i flåden betyder jagt på matchende lager.',
+          solution: 'Genbestillinger kører på de samme verificerede platforme, så nye bræt matcher de eksisterende.',
+        },
+        {
+          problem: 'Flådens budget er stramt.',
+          solution: 'Flådepriser og et dedikeret kontaktpunkt til genbestillinger, dele og vedligeholdelsesspørgsmål.',
+        },
+      ],
+      steps: [
+        { title: 'Fortæl os om klubben', body: 'Antal medlemmer, sessionstyper og nuværende udstyr.' },
+        { title: 'Vælg brætstyper', body: 'Trænings-, begynder- og holdformer tilpasset dit program.' },
+        { title: 'Tilføj klubbranding', body: 'Dit navn, dine farver og dit logo på bræt og tilbehør.' },
+        { title: 'Bestil og voks', body: 'Flådeleverance, reservedele og ensartede genbestillinger.' },
+      ],
+      caseStudy: {
+        title: 'Fornyelse af klubflåde',
+        body: 'En padleklub genpositionerede sit brand og fornyede sin flåde med 25 brandede træningsbræt og reservedele. Medlemmerne træner på ensartet udstyr, og klubben udvidede flåden den følgende sæson med en identisk genbestilling.',
+        tags: ['Klubbranding', 'Flådefornyelse', 'Delesupport'],
+      },
+      faqs: [
+        {
+          q: 'Kan SUP-klubber tilpasse holdbræt?',
+          a: 'Ja. Klubber kan tilpasse grafik, farver og produktkonfigurationer — klubnavn, farver og logo på hvert bræt.',
+        },
+        {
+          q: 'Kan I understøtte arrangementbaseret SUP-produktion?',
+          a: 'Ja. Produktionsplanlægning kan udvikles efter arrangementets krav, herunder særskilte udgaver af bræt og tilbehør.',
+        },
+        {
+          q: 'Hvilke bræt er bedst til klubtræning?',
+          a: 'Stabile, holdbare bræt tilpasset medlemmernes niveau — brede begynderformer til undervisning, touringformer til distancetræning.',
+        },
+        {
+          q: 'Tilbyder I flådepriser til klubber?',
+          a: 'Ja — volumenpriser gælder for klubflåder, med et dedikeret kontaktpunkt til genbestillinger, dele og vedligeholdelsesspørgsmål.',
+        },
+        {
+          q: 'Kan beskadigede bræt repareres eller udskiftes?',
+          a: 'Vi leverer reservedele, reparationsvejledning og genbestillingssupport, så flåden forbliver ensartet.',
+        },
+      ],
+      ctaLevel: 'cold',
+      ctaLabel: 'Drøft dit klubprojekt for SUP',
+    },
+    {
+      slug: 'school-sup',
+      navLabel: 'SUP-program for skoler',
+      metaTitle: 'SUP-udstyr til skoler | Specialfremstillede paddleboards til undervisning',
+      metaDescription:
+        'Sikr dig sikre og pålidelige løsninger til SUP-udstyr for skoler, lejre og organisationer med specialfremstillet produktionsstøtte fra iSupfactory.',
+      kicker: 'SUP-program for skoler',
+      serviceType: 'SUP-udstyr til skoler og programmer',
+      answer:
+        'Til skoler og undervisningsprogrammer leverer vi stabile, begyndervenlige bræt med trykt sikkerhedsvejledning, polstrede pagaj og beskyttende tilbehør, dimensioneret efter dit klassetal og din opbevaring. Standardbatchen er 90–100+ stk pr. 150 m rulle med pilotpartier fra 20–50 stk; leveringstiderne understøtter skolens indkøbscyklus.',
+      h1: 'Sikre og pålidelige SUP-løsninger til skoler og programmer',
+      intro: [
+        'Skoler driver padlesport på en anden måde: store hold, blandede niveauer, strenge sikkerhedskrav og undervisningsbudgetter. Vores skoleprogram tilbyder stabile, begyndervenlige bræt, pakker der passer til holdstørrelserne og rådgivning set fra instruktørens synsvinkel.',
+        'Bulkleverance og genbestillingssupport holder udstyret til rådighed år efter år for nye elevhold.',
+      ],
+      scenario: {
+        title: 'Du underviser elever i padlesport',
+        body: 'Holdene er store, og niveauerne varierer. Du har brug for bræt, der er stabile og sikre for førstgangsgængere, mængder der matcher holdstørrelserne, og et udstyrsprogram, der passer ind i et skolebudget og en indkøbscyklus.',
+      },
+      pairs: [
+        {
+          problem: 'Eleverne har brug for maksimal stabilitet på vandet.',
+          solution: 'Brede begynderbræt med høj volumen og flerspersonsbræt, der er tilgivende for førstgangsgængere.',
+        },
+        {
+          problem: 'Holdstørrelserne kræver ensartet udstyr i skala.',
+          solution: 'Programpriser til holdenes antal, med samme kvalitet på hvert eneste bræt.',
+        },
+        {
+          problem: 'Instruktører varetager sikkerheden med begrænset hjælp.',
+          solution: 'Brættene kommer med tydelig brugervejledning, og vi rådgiver om mængder og opstilling til dit vandområde.',
+        },
+        {
+          problem: 'Udstyret skal holde gennem flere elevhold.',
+          solution: 'Forstærket konstruktion samt reservedele og genbestillingssupport for et langt programliv.',
+        },
+      ],
+      steps: [
+        { title: 'Del dit program', body: 'Holdstørrelser, vandområde, instruktøropstilling og budgetcyklus.' },
+        { title: 'Sammensæt pakken', body: 'Brætstyper og mængder matcher undervisningen, ikke gæt.' },
+        { title: 'Godkend prøve', body: 'Kontroller stabilitet, konstruktion og finish på et fysisk bræt.' },
+        { title: 'Lever og fornyt', body: 'Bulkleverance, reservedele og genbestillinger til nye elevhold.' },
+      ],
+      caseStudy: {
+        title: 'Skolens vandsportsprogram',
+        body: 'En skole lancerede et valgfag i padlesport med en begynderflåde på 15 bræt og flerspersonsbræt til de første lektioner. Instruktørerne rapporterede hurtigere fremgang i den første session på de stabile platforme, og programmet fornyede udstyret med en matchende genbestilling året efter.',
+        tags: ['Begynderflåde', 'Programlancering', 'Fornyelsesordrer'],
+      },
+      faqs: [
+        {
+          q: 'Hvilket SUP-udstyr er egnet til skoler?',
+          a: 'Valget af SUP-udstyr afhænger af brugernes alder, anvendelsesmiljø og programmets krav — brede, stabile bræt er standardvalget til undervisning.',
+        },
+        {
+          q: 'Kan skoler tilpasse SUP-udstyr?',
+          a: 'Ja. Skoler kan tilpasse grafik, farver og udstyrspakker efter deres program.',
+        },
+        {
+          q: 'Hvilke bræt er bedst til SUP-undervisning i skoler?',
+          a: 'Brede, stabile begynderbræt og flerspersonsbræt er ideelle — deres volumen gør dem tilgivende for førstgangsgængere og stabile med flere ryttere.',
+        },
+        {
+          q: 'Kan mængderne matche vores holdstørrelser?',
+          a: 'Ja — programpriser er bygget op omkring holdenes antal, og vi anbefaler antal ud fra dit vandområde og din rotation.',
+        },
+        {
+          q: 'Arbejder I med skolernes indkøbsplaner?',
+          a: 'Ja. Vi planlægger prøve- og produktionsleveringstider omkring skolens budget- og sæsoncyklusser.',
+        },
+      ],
+      ctaLevel: 'cold',
+      ctaLabel: 'Drøft dit SUP-program for skolen',
+    },
+  ],
 }
 
 export function getSolutionPage(locale: Locale, slug: string): SolutionPageData | undefined {

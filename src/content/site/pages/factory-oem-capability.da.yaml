@@ -1,0 +1,74 @@
+meta:
+  title: 'OEM & Private Label-produktion | {SITE}'
+  description: 'Fra koncept til produktion: tilpas hver eneste detalje i din serie af oppustelige SUP-brætter. Komplet OEM/ODM-service til private label-mærker af paddleboards.'
+  dateModified: '2026-08'
+  keywords:
+    - 'oem sup produktion'
+    - 'private label paddleboard'
+    - 'oem oppustelige sup'
+    - 'fabrik til specialfremstilling af sup'
+hero:
+  tagline: OEM/ODM-produktion
+  title: 'OEM & Private Label-produktion'
+  subtitle: 'Fra koncept til produktion — tilpas hver eneste detalje i din serie af oppustelige SUP-brætter'
+
+answer:
+  label: 'Det korte svar'
+  text: 'Minimumsordren (MOQ) fastlægges ud fra projektets konfiguration frem for et fast tal: alle projekter gennemgår prøvefasen (1–2 stk.) og pilotfasen (20–50 stk.), mens standardserieproduktion kører 90–100+ stk. pr. batch ud fra en fuld drop-stitch-rulle på 150 m. Prøver er klar på 7–12 dage; standardproduktion kører 25–35 dage efter bekræftet PO og depositum.'
+  verified: 'September 2026'
+
+intro: 'Vatrad tilbyder omfattende OEM- og ODM-tjenester til mærker, distributører og offentlige myndigheder verden over. Med over 10 års eksporterfaring og en 12,500 m² ISO 9001- og BSCI-certificeret fabrik håndterer vi alt fra produktdesign og formudvikling til fuld produktion, emballage og eksportstyring.'
+
+highlight:
+  - value: 10+
+    label: Års OEM-erfaring
+    detail: Siden 2012
+  - value: 50+
+    label: Eksportlande
+    detail: Global dækning
+  - value: 200+
+    label: Leverede specialprojekter
+    detail: På tværs af alle produktserier
+  - value: 25–35
+    label: Normal leveringstid (dage)
+    detail: Efter bekræftet PO og depositum
+
+services:
+  - title: 'Produktdesign & konstruktion'
+    description: 'Vores eget R&D-team arbejder ud fra dit koncept eller din specifikation for at udvikle CAD-tegninger, 3D-modeller og prototyper. Vi tilbyder formdesign, optimering af brætform og rådgivning om materialevalg.'
+  - title: 'Specialbranding & grafik'
+    description: 'Digitaltryk i fuld farve, silketryk, prægning og etiketter. Vi udvikler brandspecifik dækgrafik, rørbranding og salgsklar emballage.'
+  - title: 'Tilpasning af materialer & specifikationer'
+    description: 'Vælg mellem PVC (standard, miljøvenlig, brandhæmmende), Hypalon/CSM, drop-stitch og hybridkonstruktioner. Tilpassede rørfarver, dugvægte og forstærkningsmuligheder.'
+  - title: 'Emballage & logistik'
+    description: 'Specialemballage til detailleddet, private label-kasser, vakuumpakning, palletisering og eksportklar pakning udført i eget hus.'
+
+moq_table:
+  - product: Oppustelige SUP-brætter
+    standard_moq: 'Prøve 1–2 | Pilot 20–50'
+    custom_moq: 'Volumen 90–100+ (pr. 150 m rulle)'
+    lead_time: 25–35 dage
+
+why_us:
+  - title: Vertikal integration
+    description: 'Vi ejer vores fabrik, forme og forsyningskæde — ingen mellemhandel, ingen underleverandører. Det giver os kontrol over kvalitet, omkostninger og levering.'
+  - title: Dobbelt certificering
+    description: 'ISO 9001 for kvalitetsledelse og BSCI for social overensstemmelse. Fabrikauditrapporter stilles til rådighed på forespørgsel.'
+  - title: CE-overensstemmelse
+    description: 'CE-certificering gælder modeller til EU-markeder (omfang bekræftet pr. projekt). Specialmodeller kan CE-certificeres gennem vores etablerede proces.'
+  - title: 'Projektspecifikt minimumsordre'
+    description: 'Minimumsordren (MOQ) fastlægges ud fra din projektkonfiguration — minimale partier med co-branding starter ved 5–10 stk., standardserier kører 90–100+ stk. pr. batch. Vi hjælper nye mærker med at lancere uden at binde for meget lager.'
+
+cta:
+  title: 'Sæt dit eget mærke på et gennemprøvet bræt'
+  subtitle: 'Fra specifikationsgennemgang til afsendt container — send dit brief i dag, og modtag et detaljeret OEM-tilbud inden for en arbejdsdag. Verificer fabrikken og kvalitetssystemet, før du binder dig.'
+  actions:
+    - variant: primary
+      text: 'Bed om et OEM-tilbud'
+      href: /da/contact#custom-oem
+    - text: 'Verificer fabrikken & kvalitetssystemet'
+      href: /da/oem-trust-assurance
+    - text: 'Inspektionssystemets 7 trin'
+      href: /da/quality
+    - text: 'Se produktionslinjen'
+      href: /da/factory/process

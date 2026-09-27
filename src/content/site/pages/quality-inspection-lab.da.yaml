@@ -1,0 +1,146 @@
+meta:
+  title: 'Kvalitets- og inspektionslaboratorium — ISO-kompatibel test af SUP'
+  description: 'Uafhængig kvalitetsverifikation af oppustelige SUP-brætter: trækprøvning, cyklusser for lufttab, sømpeelprøvninger og materialecertificering.'
+back_text: 'Tilbage til R&D-center'
+home_label: 'Hjem'
+
+
+hero:
+  tagline: 'Laboratorium 06'
+  title: 'Kvalitets- og inspektionslaboratorium'
+  subtitle: 'Uafhængig verificering — alle test bestået før levering'
+  image: 'https://assets.isupfactory.com/images/sups/factory/isupfactory-uv-resistance-testing.webp'
+  image_alt: 'Vatrad kvalitetsinspektionslaboratorium med UV-test'
+
+answer:
+  label: 'Det korte svar'
+  text: 'Ethvert bræt inspiceres mod de offentliggjorte specifikationer før afsendelse: 100 % oppustningsholdprøvning ved 18.0 PSI i 24 timer (automatisk kassering ved et trykfald på over 0.50 PSI), træk- og sømpeelprøvning i henhold til ISO 1421 samt en tjekliste med 100 punkter for montagen. Laboratoriet rapporterer til direktøren, ikke til produktionen, og kan stoppe enhver forsendelse.'
+  verified: 'September 2026'
+
+intro: 'Ethvert bræt, der forlader vores værksted, kommer med den attest, at det har bestået et defineret sæt kvalitetsinspektioner og materialetests. Vores kvalitets- og inspektionslaboratorium er en uafhængig funktion i organisationen — det rapporterer direkte til direktøren, ikke til produktionen — så ingen kommercielt pres kan svække inspektionsporten. Hvis en materialebatch eller et færdigt bræt ikke lever op til den offentliggjorte specifikation, har laboratoriet beføjelse til at stoppe forsendelsen, indtil afvigelsen er løst.'
+
+content_html: |
+  <h2>Stol, men verificer</h2>
+  <p>Laboratoriet drives efter et kvalitetsstyringssystem, der er tilpasset ISO 9001-principperne, og vores testmetoder bygger på ISO-, ASTM- og EN-standarder, hvor det er relevant. Vi fører detaljerede registreringer over hver udført test og skaber dermed en komplet sporingskæde fra modtagelse af råmateriale til levering af det færdige bræt.</p>
+
+  <h2>Testudstyr og kapaciteter</h2>
+  <table>
+    <thead><tr><th>Udstyr</th><th>Udførte tests</th><th>Standard / metode</th></tr></thead>
+    <tbody>
+      <tr><td>Universel prøvemaskine (50 kN)</td><td>Trækstyrke (stof), peelmodstand (sømme), revneudbredelse</td><td>ISO 1421, ISO 4674</td></tr>
+      <tr><td>Lufttabsrig (programmerbar)</td><td>Holdbarhed over 1000 cyklusser med oppustning/afblæsning, 30 min trykholdprøvning</td><td>Intern (i henhold til ISO 6185-metoden)</td></tr>
+      <tr><td>Sømpeelrig (motoriseret 180° peel)</td><td>Peelstyrke for svejste og limede sømme ved 100 mm/min</td><td>ISO 1421 / ASTM D1876</td></tr>
+      <tr><td>Hydrostatisk hovedmåler</td><td>Modstand mod vandgennemtrængning i stof (0–1000 mbar)</td><td>ISO 811</td></tr>
+      <tr><td>Digital tykkelsesmåler og mikrometer</td><td>Stoftykkelse, svejsetykkelse, tykkelse på limfilm</td><td>ISO 2286-3</td></tr>
+      <tr><td>Klimakammer</td><td>Temperaturkonditionering (-40 °C til +80 °C) til koldrevne- og varmealderingstests</td><td>ISO 188, ISO 4675</td></tr>
+      <tr><td>Spektrofotometer til farvemåling</td><td>Delta-E farvemåling efter UV-eksponering</td><td>ISO 105-A05 / ASTM D2244</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Inspektionsportene — fra materiale til levering</h2>
+  <p>Ethvert bræt følger en defineret kvalitetsplan med obligatoriske inspektionspunkter. Intet bræt kan springe en port over; hver port skal godkendes af en kvalitetsinspektør, før den næste produktionsetape begynder.</p>
+
+  <div class="not-prose my-8">
+    <div class="relative">
+      <div class="absolute left-4 top-0 bottom-0 w-0.5 bg-blue-200 dark:bg-blue-800"></div>
+      <div class="space-y-6 relative">
+        <div class="flex gap-4">
+          <div class="flex-shrink-0 w-8 h-8 rounded-full bg-blue-600 text-white flex items-center justify-center text-xs font-bold z-10">Port 1</div>
+          <div class="flex-1 p-3 rounded-lg bg-white dark:bg-gray-950 border border-gray-200 dark:border-gray-800">
+            <p class="text-sm font-semibold">Inspektion af indgående materiale</p>
+            <p class="text-xs text-gray-500 mt-1">Stofbatch, drop-stitch-kerne, limbatch og beslag — alle kontrolleret mod indgående specifikation, før de frigives til produktionen.</p>
+          </div>
+        </div>
+        <div class="flex gap-4">
+          <div class="flex-shrink-0 w-8 h-8 rounded-full bg-blue-600 text-white flex items-center justify-center text-xs font-bold z-10">Port 2</div>
+          <div class="flex-1 p-3 rounded-lg bg-white dark:bg-gray-950 border border-gray-200 dark:border-gray-800">
+            <p class="text-sm font-semibold">Svejseinspektion undervejs</p>
+            <p class="text-xs text-gray-500 mt-1">Førstesvejsningsprøve testet (peel + visuelt) ved starten af hvert produktionsskift.</p>
+          </div>
+        </div>
+        <div class="flex gap-4">
+          <div class="flex-shrink-0 w-8 h-8 rounded-full bg-blue-600 text-white flex items-center justify-center text-xs font-bold z-10">Port 3</div>
+          <div class="flex-1 p-3 rounded-lg bg-white dark:bg-gray-950 border border-gray-200 dark:border-gray-800">
+            <p class="text-sm font-semibold">Luftprøvning af kammer</p>
+            <p class="text-xs text-gray-500 mt-1">Brættet trykkes til 18.0 PSI (12–15 PSI i drift), holdes i 24 timer. Trykfald &gt; 0.50 PSI kasseres automatisk. Data logges pr. serienummer.</p>
+          </div>
+        </div>
+        <div class="flex gap-4">
+          <div class="flex-shrink-0 w-8 h-8 rounded-full bg-blue-600 text-white flex items-center justify-center text-xs font-bold z-10">Port 4</div>
+          <div class="flex-1 p-3 rounded-lg bg-white dark:bg-gray-950 border border-gray-200 dark:border-gray-800">
+            <p class="text-sm font-semibold">Inspektion før levering</p>
+            <p class="text-xs text-gray-500 mt-1">Det komplette bræt inspiceres: alle beslag momenteret, dækpudens vedhæftning, trykets flugt, ingen kosmetiske defekter. Tjekliste med 100 punkter.</p>
+          </div>
+        </div>
+        <div class="flex gap-4">
+          <div class="flex-shrink-0 w-8 h-8 rounded-full bg-blue-600 text-white flex items-center justify-center text-xs font-bold z-10">Port 5</div>
+          <div class="flex-1 p-3 rounded-lg bg-white dark:bg-gray-950 border border-gray-200 dark:border-gray-800">
+            <p class="text-sm font-semibold">Endelig certificering</p>
+            <p class="text-xs text-gray-500 mt-1">Testrapporter samles, inspektionsregistreringer gennemgås, og overensstemmelsescertifikat udstedes.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <h2>Standardkontroller på hvert parti</h2>
+  <div class="not-prose my-8 grid grid-cols-2 md:grid-cols-4 gap-4">
+    <div class="p-4 rounded-lg border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-950 text-center">
+      <span class="block text-2xl font-bold text-blue-600">18 PSI</span>
+      <span class="text-xs text-gray-500">18.0 PSI i luftprøvningen af kammeret, holdes i 24 timer</span>
+    </div>
+    <div class="p-4 rounded-lg border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-950 text-center">
+      <span class="block text-2xl font-bold text-blue-600">&gt; 5 %</span>
+      <span class="text-xs text-gray-500">Trykfald udløser automatisk kassering</span>
+    </div>
+    <div class="p-4 rounded-lg border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-950 text-center">
+      <span class="block text-2xl font-bold text-blue-600">100 %</span>
+      <span class="text-xs text-gray-500">Kammer luftprøvet før montering</span>
+    </div>
+    <div class="p-4 rounded-lg border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-950 text-center">
+      <span class="block text-2xl font-bold text-blue-600">ISO 9001</span>
+      <span class="text-xs text-gray-500">Kvalitetsstyringssystem</span>
+    </div>
+  </div>
+
+  <h2>Vores kvalitetsteam</h2>
+  <p>Laboratoriet bemandes af en kvalitetschef (10 års erfaring med maritim QA, ASQ-certificeret kvalitetsingeniør), to kvalitetsinspektører (hver med Level 2 NDT-certificering i visuel prøvning) og en materialetekniker, der er ansvarlig for al fysisk test. Teamet gennemgår årligt præstationsprøvning hos en uafhængig tredjepartsleverandør for at sikre, at vores testresultater forbliver præcise og reproducerbare.</p>
+
+  <h2>Uafhængig test for kunder</h2>
+  <p>Vores kvalitets- og inspektionslaboratorium står til rådighed for uafhængige testydelser. Hvis du skal verificere en stofspecifikation, validere et nyt limsystem eller hente en tredjepartsrapport som kvalifikationsgrundlag, kan vi gennemføre testene efter den gældende standard og udstede et certificeret testrapportdokument.</p>
+  <p>Eksempler på nyere tredjepartsarbejde:</p>
+  <ul>
+    <li>Sammenligning af peelstyrke for fem konkurrerende limfilm til et europæisk indkøbsprogram.</li>
+    <li>Accelereret aldring (UV + temperaturcyklusser) for en ny orangefarvet PVC-formulering med regelmæssige foreløbige målinger i 500 timers intervaller.</li>
+    <li>Validering af lufttab på 50 prototype-ventilenheder til et nyt højtryksdesign af bræt.</li>
+  </ul>
+
+  <h2>Vores engagement over for dig</h2>
+  <p>Når du modtager et {SITE.name}-bræt, modtager du også dets kvalitetsdossier — en samlet registrering over de testresultater, der gælder for netop dit bræt. Materialecertifikat for stoffet, sømpeelprøvninger, lufttestlogge for kamrene og tjeklisten før levering. Ethvert tal kan spores. Enhver inspektør er identificeret. Det er ikke blot papirarbejde — det er vores løfte om, at det, vi leverede, er det, vi specificerede.</p>
+  <p>Hvis du nogensinde har en kvalitetsbetingelse, kan du kontakte laboratoriet direkte — kontaktoplysningerne står trykt på dit overensstemmelsescertifikat. Vi tager enhver henvendelse alvorligt og forpligter os til en formel undersøgelse inden for 48 timer.</p>
+
+  <h2>Hvad sker der, hvis et bræt ikke består inspektionen?</h2>
+  <p>Et bræt, der ikke består, forsvinder aldrig stille. Laboratoriet følger en fast afvigelsesprocedure, så problemet inddæmmes, rettes og forhindres i at optræde igen:</p>
+  <ul>
+    <li><strong>Isolering</strong> — brættet mærkes, tages ud af linjen og registreres i afvigelsesregistret med inspektørens navn og de kriterier, der ikke blev opfyldt.</li>
+    <li><strong>Oparbejdning eller skrot</strong> — reparerbare defekter (f.eks. en ventil, en kantsvejse eller et hjørne på dækpuden) oparbejdes af en certificeret operatør, og det reparerede område testes igen efter samme standard. Brætter, der ikke kan opfylde specifikationen, skrottes — de nedgraderes ikke.</li>
+    <li><strong>Geninspektion</strong> — ethvert oparbejdet bræt skal bestå den berørte port igen i sin fulde længde, før det kan genindgå i pakkelinjen.</li>
+    <li><strong>Godkendelse</strong> — kun brætter, hvor alle porte er godkendt, forlader anlægget. Kassationsprocent, årsag og korrigerende foranstaltning opsummeres i dit kvalitetsrapport for partiet.</li>
+  </ul>
+
+  <h2>Kvalitetsdokumentation, du modtager</h2>
+  <p>Ethvert parti leveres med en dokumentpakke, dit QC-team kan auditere imod: partiets certifikat (stof-, lim- og beslaglotnumre), registreringer af sømpeelprøvninger, lufttestlogge pr. serienummer, den underskrevne tjekliste med 100 punkter før levering, pakliste og fotograferet registrering af dine brætter inden indlæsningen.</p>
+
+cta:
+  title: 'Anmod om et eksempel på en QC-tjekliste'
+  subtitle: 'Se de præcise inspektionsporte, testmetoder og dokumenter, dit parti kontrolleres imod — send din brættype og antal.'
+  actions:
+    - variant: primary
+      text: Anmod om QC-tjeklisten
+      href: /da/contact#quality-inquiry
+    - text: Det 7-trins inspektionssystem
+      href: /da/quality
+    - text: Downloads af fabrikslaboratorium og testrapporter
+      href: /da/factory/quality-lab
+    - text: Standard for afvigelseskontrol
+      href: /da/factory/non-conforming-control

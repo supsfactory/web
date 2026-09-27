@@ -1,0 +1,125 @@
+meta:
+  title: 'OEM-onboardingguide — trin for trin fra første kontakt til produktion | iSupfactory'
+  description: 'OEM-onboardingguide: NDA, gennemgang af muligheder, produktion af prøvebrætter, godkendelse, planlægning før produktion, produktions-QC og afsendelse. Trin for trin med tidsplaner.'
+  dateModified: '2026-08-20'
+  keywords:
+    - 'oem onboarding guide'
+    - 'sup produktionsproces'
+    - 'onboarding af oem købere'
+    - 'sup fabrikproces'
+    - 'trin i specialordre for sup'
+    - 'oem prøveproces'
+    - 'tidsplan for sup produktion'
+
+hero:
+  tagline: 'Onboarding af OEM-købere'
+  title: 'Din første SUP-ordre, trin for trin'
+  subtitle: 'Fra første kontakt til leverede brætter løber OEM-onboardingprocessen hos iSupfactory gennem syv definerede spærringer — hver med en klar tidsplan, et dokumenteret leverancegrundlag og et go/no-go-punktum. Ingen uklarheder, ingen skjulte trin, ingen overraskelser efter depositumet.'
+  actions:
+    - variant: primary
+      text: 'Start dit projekbrief'
+      href: /da/contact#project-brief
+    - text: 'Sammenlign OEM, ODM og Private Label'
+      href: /da/oem-odm-private-label-comparison
+
+answer:
+  label: 'Det korte svar'
+  text: 'Et typisk OEM-onboarding tager 2–4 uger til godkendelse af prøvebrætter og 6–8 uger til den første produktionsserie fra bekræftet PO. Du begynder ved at indsende et projekbrief (brætspecifikationer, volumen, overholdelseskrav). Vi svarer inden for en arbejdsdag, tilbyder en NDA, før du deler fortrolige detaljer, og producerer 1–2 fysiske prøvebrætter på 7–12 dage til din gennemgang og godkendelse. Når prøvebrættet er fastlåst, følger produktionsplanlægning og fremstilling med faste QC-spor i hvert trin. Alle trin er dokumenterede og spørgsmålbare.'
+  verified: 'September 2026'
+
+process_steps:
+  tagline: De syv spærringer
+  title: 'Onboardingflow — syv spærringer fra brief til levering'
+  subtitle: 'Hver spærring har et defineret input, et defineret output og en tidsplan, du aftaler på forhånd. Du går aldrig videre uden et udtrykkeligt OK.'
+  steps:
+    - step: 'Spærring 1'
+      title: 'Første forespørgsel og NDA (dag 0)'
+      desc: 'Indsend et projekbrief via /da/contact med dine ønskede brætspecifikationer, ordrevægt, overholdelseskrav og tidsplan. En NDA er tilgængelig med det samme — inden du deler fortrolige tekniske specifikationer eller artwork. Svar inden for en arbejdsdag.'
+    - step: 'Spærring 2'
+      title: 'Gennemgang af muligheder og tilbud (dag 1–5)'
+      desc: 'Konstruktion gennemgår dit brief i forhold til produktionskapacitet, materialetilgængelighed og overholdelsesomfang. Du modtager et specificeret tilbud med beregning af minimumsordrestørrelse, prøvegebyrer (som modregnes produktionen) og led i leveringstiden — ikke et område, men en tidsplan for hvert spærring.'
+    - step: 'Spærring 3'
+      title: 'Produktion af prøvebrætter (dag 6–17)'
+      desc: '1–2 fysiske brætter produceres efter din specifikation: skrogstivhed, tekstur på EVA-gripflade, grafisk nøjagtighed, tilbehørspasform. Du pagajer og vurderer brættet, før du binder dig til noget andet. Prøvegebyrerne modregnes din produktionsordre ved underskrift af kontrakten.'
+    - step: 'Spærring 4'
+      title: 'Gennemgang og godkendelse af prøvebræt (dag 18–21)'
+      desc: 'Du vurderer prøvebrættet mod dine specifikationer — køreegenskaber, grafisk troværdighed, emballage, tilbehør. Justeringer registreres i en revideret BOM og en godkendt artworkversion. Den fastlåste specifikation bliver produktionsreferencen for alle efterfølgende serier.'
+    - step: 'Spærring 5'
+      title: 'Planlægning før produktion (dag 22–28)'
+      desc: 'Indkøb af materialer, opsætning af værktøj, bekræftelse af emballage og reservation af produktionsplads. Alle materialer modtages og inspiceres mod den fastlåste BOM. En produktionsplan med datoer for QC-spor udstedes, før fremstillingen begynder.'
+    - step: 'Spærring 6'
+      title: 'Produktion og QC-spor (dag 29–55)'
+      desc: 'Fremstillingen gennemløber systemet med 7 inspektionstrin: inspektion af modtagne materialer, inspektion af drop-stitch-dug, svejsning og samling, tryk- og lufttæthedstest (holdeprøvning ved 18.0 PSI, automatisk kassation ved fald på over 0.50 PSI), montage af EVA-flader og tilbehør, QC af grafik og branding samt endelig emballage og dokumentation. Hvert spor har kriterier for bestået/faldet og spørgsmålsrekorder.'
+    - step: 'Spærring 7'
+      title: 'Afsendelse og opfølgning efter levering (dag 56–63)'
+      desc: 'Eksportkvalitetsemballage, overholdelsesdokumentation (CE, ISO 9001, BSCI, REACH, RoHS) samt koordinering af søfragt til 50+ lande. En opfølgning efter levering registrerer læringer og forbedringer til den næste ordrerydde.'
+
+collaboration_modes:
+  tagline: 'Vælg din vej'
+  title: 'Tre samarbejdsmodeller, en onboardingproces'
+  subtitle: 'Alle nye købere gennemgår det samme onboarding i syv spærringer — det, der ændrer sig, er omfanget af konstruktionsinddragelse og hvor ejerskabet af intellektuelle rettigheder ligger.'
+  grid: 'sm:grid-cols-2 lg:grid-cols-3'
+  features:
+    - icon: O
+      icon_bg: blue
+      title: 'OEM-produktion'
+      desc: 'Du leverer den komplette designspecifikation — skrogform, konstruktion, grafik, tilbehør. Vi fremstiller efter din specifikation. Du ejer alle intellektuelle rettigheder. Passer til brands med en eksisterende produktlinje og dokumenteret brætgeometri.'
+      link_label: 'Sådan fungerer OEM'
+      href: /da/oem-manufacturing
+    - icon: D
+      icon_bg: green
+      title: 'ODM-udvikling'
+      desc: 'Du leverer briefet — målrytters vægt, anvendelse, prisniveau — og vores konstruktionsteam udvikler brættet ud fra dine krav. Tilpasset platform med dit branding. Passer til brands, der går ind på markedet uden egen designkapacitet.'
+      link_label: 'Sådan fungerer ODM'
+      href: /da/odm-manufacturing
+    - icon: P
+      icon_bg: purple
+      title: 'Private Label / Co-Branding'
+      desc: 'Sæt dit mærke på en feltprøvet platform — uden et ingeniørtrins. Dit logo på nese eller sidekanter fra så få som 5–10 stk. Passer til udlejningsvirksomheder og distributører, der vil have mærkede brætter uden en udviklingscyklus.'
+      link_label: 'Muligheder for Private Label'
+      href: /da/solutions/private-label-sup
+
+checklist:
+  heading: 'Hvad du skal forberede, før du sender dit projekbrief'
+  body: |
+    Jo mere færdigt dit brief er, desto hurtigere og mere præcist bliver tilbuddet. Her er, hvad du bør have klar:
+
+    - **Brætspecifikationer** — Ønsket længde, bredde, tykkelse, ryttervægtsinterval og tilsigtet brug (touring, allround, surf, fiskeri, yoga osv.). Har du dimensioner på et referencebræt eller en konkurrentmodel, så tag dem med.
+    - **Designfiler** — Vektorartwork (AI, SVG eller PDF) til brættets grafik, logo på EVA-flader og eventuel sekundær branding. Er artworket ikke klar, er en moodboard eller referencebilleder nok til den første gennemgang af mulighederne.
+    - **Ordrevægt og tidsplan** — Din ønskede mængde til den første ordre og det sæson, du skal ramme. Selv et groft interval ("20–50 brætter inden marts") er nok til at bekræfte mulighederne og ledighed i kalenderen.
+    - **Overholdelseskrav** — Målmarkeder (EU, Nordamerika, Australien osv.) og eventuelle særlige certificerings- eller testkrav ud over vores standardomfang (CE, ISO 9001, BSCI, REACH, RoHS).
+    - **Budgetinterval** — Et vejledende budget pr. bræt eller en målpris landet hjælper os med at anbefale den rette platform og konstruktionsniveau. Eksakte priser bekræftes først efter gennemgang i konstruktionen — aldrig før.
+
+    Hvis du ikke har alt dette endnu, så send, hvad du har. Vi guider resten.
+
+evidence_review:
+  tagline: 'Dokumentation & verifikation'
+  title: 'SPECIFIKATIONER VERIFICERET'
+  body: 'Alle produktionspåstande på denne side er verificeret af vores produktionsingeniørteam på fabrikken i Laixi, Qingdao. Certifikater, QC-inspektionsrekorder, tryk- og strukturtestrapporter samt logfiler for batchspørgsmål er tilgængelige på forespørgsel. Specifikationerne blev senest verificeret i september 2026.'
+
+faqs:
+  tagline: FAQ
+  title: 'OEM-onboarding — ofte stillede spørgsmål'
+  items:
+    - q: 'Hvor lang tid tager hele onboardingprocessen?'
+      a: 'Godkendelse af prøvebrætter tager typisk 2–4 uger (inklusive produktion af prøvebrætter på 7–12 dage og din gennemgangstid). Den første produktionsserie tager 6–8 uger fra bekræftet PO og depositum. En specialform tilføjer 15–20 dage til udvikling af formen. Alle spærringer har en fast tidsplan, du aftaler på forhånd.'
+    - q: 'Skal jeg underskrive en NDA, før jeg deler mit design?'
+      a: 'En NDA er tilgængelig med det samme på forespørgsel — inden du deler fortrolige tekniske specifikationer eller artwork. Vi fremstiller udelukkende under vores kunders mærker og konkurrerer aldrig med dem på noget marked. Samme politik gælder for et prøvebræt på 1 stk. som for et containerprogram.'
+    - q: 'Hvad er minimumsordren for den første OEM-serie?'
+      a: 'Indgangspunktet er trinvis: først 1–2 prøvebrætter (klar på 7–12 dage), derefter en prøve- eller pilotordre på 20–50 brætter (produktion på 25–35 dage) og til sidst standardvolumenserier på 90–100+ brætter pr. godkendt konfiguration. Co-branding i små serier starter fra 5–10 stk., når et udviklingstrin ikke er nødvendigt. Prøvegebyrerne modregnes din produktionsordre.'
+    - q: 'Hvordan håndteres beskyttelse af intellektuelle rettigheder under onboarding?'
+      a: 'Dine designs og specifikationer er beskyttet af den NDA, der er underskrevet, før nogen fortrolige oplysninger deles. Al artwork, BOM-data og tekniske filer opbevares i adgangskontrollerede systemer med revisionsspor. I OEM-modellen ejer du alle intellektuelle rettigheder. I ODM-modellen deles IP på den tilpassede platform efter aftale. I Private Label-modellen forbliver IP hos iSupfactory, og du licenserer brandanvendelsen.'
+    - q: 'Hvilke kvalitetsgarantier gælder for den første ordre?'
+      a: 'Ethvert bræt — prøvebræt, prøveordre eller volumen — gennemgår det samme system med 7 inspektionstrin: inspektion af modtagne materialer, inspektion af drop-stitch-dug, svejsning og samling, 24 timers tryk- og lufttæthedstest (holdeprøvning ved 18.0 PSI, automatisk kassation ved fald på over 0.50 PSI), montage af EVA-flader og tilbehør, QC af grafik og branding samt endelig emballage og dokumentation. Kvaliteten nedprioriteres aldrig på grund af ordrestørrelsen.'
+
+cta:
+  title: 'Klar til at starte dit SUP-projekt?'
+  subtitle: 'Send os dine brætspecifikationer, dine volumenmål og din tidsplan. Vi bekræfter mulighederne, producerer prøvebrætter og leverer en produktionsplan — spærring for spærring, med dokumenteret QC i hvert trin.'
+  actions:
+    - variant: primary
+      text: 'Start dit projekbrief'
+      href: /da/contact#project-brief
+    - text: 'Sammenlign OEM, ODM og Private Label'
+      href: /da/oem-odm-private-label-comparison
+    - text: 'Verificer fabrikken og kvalitetssystemet'
+      href: /da/proof-center

@@ -1,0 +1,104 @@
+meta:
+  title: 'Special- og private label-SUP-produktion for forhandlere | {SITE}'
+  description: 'Special- og private label-SUP-produktion for retailmærker: brætspecifikationer, brandet tryk, lave prøve-MOQ’er og fabriksQC — fra prøve til større partier.'
+  dateModified: '2026-08'
+
+hero:
+  tagline: Retailmærker
+  title: 'Specialproduktion af SUP til retailmærker'
+  subtitle: 'Retailmærker lancerer deres egen paddleboard-serie med vores fabrik: brætspecifikationer udviklet ud fra dine krav, dit mærke på produktet og produktions-QC håndteret fra start til slut.'
+  image:
+    src: https://assets.isupfactory.com/images/sups/products/sup-series/sup-ocean-voyager-1.webp
+    alt: Vatrad SUP-brætter produceret til et retailmærke
+
+answer:
+  label: 'Det korte svar'
+  text: 'MOQ bekræftes ud fra projektkonfigurationen: retailmærker starter med en prøve (1–2 stk.) eller et pilotparti (20–50 stk., prøver på 7–12 dage), skalerer til en OEM-serie i standardvolumen på 90–100+ stk. pr. design (25–35 dage efter ordre og depositum), eller investerer i en specialform til fuldt skræddersyede serier (værktøjet koster 15–20 dage ekstra). Ethvert bræt trykprøves før afsendelse, med FOB-, CIF- eller DDP-betingelser fra Qingdao.'
+  verified: 'September 2026'
+
+margin_section:
+  title: 'Produktionsstadier for retailmærker'
+  subtitle: 'Start med en prøve, kør en pilot for at validere, skaler til en serie i standardvolumen, eller invester i en specialform — MOQ og leveringstider fastsættes af produktionsvejen, ikke af gætteri.'
+  items:
+    - tier: 'Prøvestadium'
+      moq: '1–2 stk.'
+      margin_note: 'Leveringstid for prøve 7–12 dage'
+      features:
+        - 'Udvikling af artwork ud fra dine brandmaterialer'
+        - 'Fysisk prøve til godkendelse'
+        - 'QC på standardplatform'
+    - tier: 'Pilotstadium'
+      moq: '20–50 stk.'
+      margin_note: 'Markedsvalidering på lagerførte platforme'
+      features:
+        - 'Tryk på hele brættet, logo og EVA-layout'
+        - 'Genbestillinger på de samme verificerede platforme'
+        - 'Eksportdokumentation inkluderet'
+    - tier: 'Specialform'
+      moq: 'Bekræftes ud fra projektkonfigurationen'
+      margin_note: 'Værktøjet koster 15–20 dage ekstra'
+      features:
+        - 'Ny brætform og udvikling af form'
+        - 'Fuld kontrol over specifikationerne'
+        - 'Prioriteret allokering i produktionen'
+
+product_line:
+  title: Komplet produktlinje
+  subtitle: 'En produktionsplatform til hvert segment i din butik.'
+  items:
+    - name: Allround-serien
+      description: 'Fleksibel form — den mest almindelige startplatform'
+    - name: Touring-serien
+      description: 'Forskydningsskrog til distancepadling'
+    - name: Yoga-serien
+      description: 'Bred, stabil platform til wellnessegmentet'
+    - name: Børneserien
+      description: 'Korte, lette brætter til yngre padlere'
+    - name: Raceri-serien
+      description: 'Hurtige skrog til enthusiastsegmentet'
+    - name: Tilbehør
+      description: 'Pagaj, redningsveste, pumper og tasker, der kompletterer serien'
+
+catalog:
+  title: Ressourcer til retailpartnere
+  subtitle: 'Specifikationer, bestillingsdetaljer og produktdokumentation.'
+  items:
+    - name: 'Produktkatalog 2026'
+      desc: 'Hele sortimentet med specifikationer og bestillingsinformation'
+      icon: 'tabler:file-text'
+      link: '/da/products'
+    - name: 'Guide til retailpartnere'
+      desc: 'Specifikationsguide, bestillingsproces og QC-standarder'
+      icon: 'tabler:book'
+      link: '/da/products'
+    - name: 'Produkt- og tekniske materialer'
+      desc: 'Produktfotos i høj opløsning, livsstilsbilleder og teknisk dokumentation'
+      icon: 'tabler:photo'
+      link: '/da/products'
+
+support:
+  title: Produktionsstøtte
+  subtitle: 'Det, din produktionspartner bidrager med omkring ordren.'
+  items:
+    - 'Fysisk prøve før større produktion'
+    - 'Tolerance og QC: ethvert bræt trykprøves før afsendelse'
+    - 'Specifikationsstøtte — former, tryk, EVA-layout, tilbehør'
+    - 'Leveringstid for større partier på 25–35 dage efter bekræftet ordre'
+    - 'Reservedele og reparationsvejledning til dine kunder'
+    - 'Eksport og dokumentation: FOB/CIF/DDP fra Qingdao'
+
+content_html: |
+  <div class="mx-auto max-w-3xl space-y-4 rounded-2xl border bg-card p-6 text-[14.5px] leading-relaxed text-fg-2">
+    <p><strong>Læs videre:</strong> se hele <a href="/da/oem-manufacturing">OEM/ODM-produktionsprogrammet</a> — projektbekræftede MOQ’er i prøve-, pilot- og volumenstadiet, private label-branding og CE-overensstemmelse — eller læs <a href="/da/oem-moq-guide">guiden til MOQ og fleksibel branding</a>, eller gå en tur på <a href="/da/factory">fabrikken</a> for at se, hvordan retailklar QC drives.</p>
+  </div>
+
+cta:
+  title: 'Drøft din retailproduktlinje'
+  subtitle: 'Send dine krav — vores team svarer inden for 1 arbejdsdag.'
+  actions:
+    - text: 'Send dine krav'
+      href: '/da/contact'
+      variant: 'primary'
+    - text: 'Se produktplatforme'
+      href: '/da/products'
+      variant: 'secondary'

@@ -1,0 +1,109 @@
+meta:
+  title: 'Produktionsproces — fra råmateriale til SUP'
+  description: 'Fra råmateriale til SUP klar til havet: hvert trin i Vatrads produktionsproces under vores kontrol, fra skæring og svejsning til test.'
+  dateModified: '2026-08'
+  keywords:
+    - 'sup produktionsproces'
+    - 'fabrik for oppustelige sup'
+    - 'trin i produktion af paddleboard'
+    - 'pvc svejsning sup'
+hero:
+  tagline: Proces
+  title: Produktionsproces
+  subtitle: 'Fra råmateriale til SUP klar til havet — hvert trin under vores kontrol'
+  back_label: Tilbage til fabrikken
+  back_link: /da/factory
+
+answer:
+  label: 'Det korte svar'
+  text: 'Brætterne gennemgår fem kontrollerede faser: materialekontrol (1–2 dage), CNC-automatisk skæring (<5% spild, 2–4 timer pr. sæt), varmluftssvejsning af rør med forstærkede sømme i højfrekvens (1–2 dage pr. bræt), limning af drop-stitch-kerner samt endelig samling med 100 % luftfastholdnings- og belastningstest før pakning.'
+  verified: 'September 2026'
+
+intro: 'I modsætning til mærker, der outsourcer produktionen til tredjepartsfabrikker, ejer og driver Vatrad hele sin produktionskæde. Denne vertikale integration gør det muligt for os at opretholde stram kvalitetskontrol i hvert trin, reagere hurtigt på særlige krav og levere ensartet produktkvalitet batch efter batch. Sådan bygges et SUP-bræt på vores anlæg.'
+
+steps:
+  - step: '01'
+    title: Modtagelse & kontrol af materialer
+    description: 'Hver indgående batch af PVC-dug, glasfiberdug, harpiks og beslag kontrolleres iht. specifikationen. Dugprøver testes for trækstyrke, tykkelses ensartethed og UV-modstand, før de frigives til produktionen. Materialer, der ikke overholder krav, sættes i karantæne og sendes tilbage.'
+    duration: 1–2 dage
+  - step: '02'
+    title: Automatisk PVC-skæring
+    description: '<p>Godkendt dug lægges på den automatiske CNC-skæremaskine og skæres med millimeternøjagtighed. Computeroptimeret nesting arrangerer paneler, så spildet minimeres — typisk under 5%. De skjærede paneler mærkes efter SUP-model og kammer og samles i bundter til svejseværkstedet.</p>'
+    duration: 2–4 timer pr. brætsæt
+  - step: '03'
+    title: Varmluftssvejsning & svejsning af rør
+    description: 'Paneler forheftes og limes sammen med varmluftssvemaskiner og varmluftssvejsning ved kontrollerede temperaturer på 200–300 °C. De vigtigste sømme forstærkes med dielektrisk højfrekvenssvejsning for lufttætte forbindelser med høj styrke. Fuldførte kamre pustes op til 18.0 PSI til en første lufttæthedskontrol forud for 24 timers trykholdning.'
+    duration: 1–2 dage pr. SUP-bræt
+  - step: '04'
+    title: Limning af drop-stitch-kerne
+    description: 'Drop-stitch-kerner i SUP-brætter limes på de ydre PVC-laminer ved varmelaminering. Tusindvis af indvendige polyestergarn forbinder over- og underlag og skaber en stiv konstruktion ved 12-15 PSI. Kantlister er trelags-fusionslimede for at give kanterne styrke.'
+    duration: 1–2 dage pr. bræt
+  - step: '05'
+    title: Tryk & dekoration af SUP
+    description: 'Dækgrafikken på SUP-brætter påføres med digitaltryk til fuld-farve designs i fotokvalitet og med silketryk til holdbare logoer og gentagne mønstre. Tryk hærdes og forsegles for UV- og slidstyrke.'
+    duration: 1–2 dage
+  - step: '06'
+    title: Endelig samling & montering
+    description: 'Ventiler, D-ringe, håndtag, finnekasser og dækpuder monteres på samlebanen. Hvert bræt følger en tjekliste for samling med 100 punkter med obligatorisk godkendelse i hvert trin.'
+    duration: 1–2 dage
+  - step: '07'
+    title: Kvalitetstest & inspektion
+    description: 'Hvert færdigt bræt gennemgår et obligatorisk kvalitetsport: luftfastholdningstest af kamre, funktionskontrol af beslag, kontrol af tilspændingsmoment og kosmetisk inspektion. Special- og prototypebyggeri får desuden prøvet i vand, der dækker stabilitet og håndtering.'
+    duration: 1–2 dage
+  - step: '08'
+    title: Pakning & forsendelse
+    description: 'Brætter tømmes for luft, foldes efter procedure, pakkes i solide vævede tasker eller retailkartoner og lastes til afsendelse. Hver pakke mærkes med model, serienummer og destination. Vi koordinerer med speditører om FCL- og LCL-containerforsendelser verden over.'
+    duration: 1 dag
+
+evidence_gates:
+  tagline: Inspektionsbevis
+  title: 'Hvert trin efterlader et spor — fotos & rapporter'
+  subtitle: 'Nedenfor finder du de faktiske inspektionsfotos og testrapportdossierer fra vores syv kontrollerede kvalitetsporte. Hver PDF er en ægte to-sproget registrering, du kan downloade og revidere — de samme registreringer, der ligger bag hver batch i det 10-årige ERP-sporbarhedsarkiv. Se det fulde 7-trinsforløb på /da/quality.'
+  items:
+    - title: 'PPM — kvalitetsplanlægning af projektet'
+      description: 'Mødet før produktionen låser omfanget, golden sample og kvalitetsinspektionsplanen, før linjen sættes i gang. Uafklarede punkter blokerer produktionsfrigivelsen.'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_SUP_OEM_QIP.pdf
+      link_label: 'Download QIP (PDF)'
+      image: https://assets.isupfactory.com/site/quality/node01-ppm.avif
+      alt: Møde før produktionen, hvor golden sample og kvalitetsinspektionsplan for en OEM-SUP-ordre gennemgås
+    - title: 'IQC — kontrol af indgående materialer'
+      description: 'Hver indgående batch af PVC, dug og beslag kontrolleres mod den godkendte specifikation. Partier, der ikke overholder krav, sættes i karantæne og afvises, før de frigives til linjen.'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_IQC_TEST_REPORTS.pdf
+      link_label: 'Download IQC-rapporter (PDF)'
+      image: https://assets.isupfactory.com/site/quality/node02-iqc.avif
+      alt: Kontrol af indgående materialer i PVC-dug og SUP-komponenter på fabrikken
+    - title: 'IPQC / FAI — kontrol under processen'
+      description: 'Første vare verificeres mod de låste baseliner, og hvert skift holder patruljekontroller på linjen. FAI-godkendelsen versionslåser artwork, mål og stykliste.'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_IPQC_TEST_REPORTS.pdf
+      link_label: 'Download IPQC-rapporter (PDF)'
+      image: https://assets.isupfactory.com/site/quality/node03-ipqc-fai.avif
+      alt: Inspektion under processen og kontrol af første vare under SUP-produktion
+    - title: 'Oppustning & lufttæthedstest'
+      description: '100 % af de færdige brætter — ikke et udvalg — får 24 timers trykholdning ved 18.0 PSI med automatisk kassering ved trykfald på over 0.50 PSI. Én registrering pr. kammer.'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_AIRTIGHTNESS_TEST_REPORTS.pdf
+      link_label: 'Download lufttæthedsrapporter (PDF)'
+      image: https://assets.isupfactory.com/site/quality/node04-airtightness.avif
+      alt: Oppustning og lufttæthedstest af et oppusteligt SUP-kammer
+    - title: 'FQC — slutinspektion af produktet'
+      description: 'Færdige brætter måles iht. tegningstolerance og sorteres kosmetisk under D65-dagslyslamper mod det godkendte golden sample.'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_FQC_TEST_REPORTS.pdf
+      link_label: 'Download FQC-rapporter (PDF)'
+      image: https://assets.isupfactory.com/site/quality/node05-fqc.avif
+      alt: Slutinspektion af færdige SUP-brætter før pakning
+    - title: 'PSI — paknings- og præforsendelseskontrol'
+      description: 'Det pakkede sæt kontrolleres 100 % mod den kundegodkendte stykliste — stregkodescanning (klasse ≥ B), kartonsignering og ISTA-1A-faldprøvning før lastning.'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_PSI_TEST_REPORTS.pdf
+      link_label: 'Download PSI-rapporter (PDF)'
+      image: https://assets.isupfactory.com/site/quality/node06-psi.avif
+      alt: Præforsendelseskontrol, hvor det pakkede SUP-sæt kontrolleres mod styklisten
+    - title: Frigivelse af forsendelse & sporbarhed
+      description: 'Kvaliteten godkender først batchen, når alle seks forudgående porte er lukket. Serienumre knyttes til batchen, og dossieret afleveres sammen med forsendelsen.'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_SHIPMENT_RELEASE_REPORTS.pdf
+      link_label: 'Download frigivelsesrapporter (PDF)'
+      image: https://assets.isupfactory.com/site/quality/node07-shipment-release.avif
+      alt: Godkendelse af forsendelsesfrigivelse og overdragelse af registrering af batchsporbarhed
+cta:
+  title: 'Se vores udstyr og maskiner'
+  desc: 'Udforsk det industririmæssige udstyr, der ligger bag hvert Vatrad-SUP-bræt.'
+  label: 'Se udstyret →'
+  link: /da/factory/equipment

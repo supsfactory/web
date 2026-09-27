@@ -1,0 +1,128 @@
+meta:
+  title: 'OEM kontra ODM kontra private label — sammenligningsguide for SUP-produktion'
+  description: 'OEM kontra ODM kontra private label-produktion af SUP sammenlignet: definitioner, ejerskab, indgangsminimum for ordrer, leveringstider, værktøj, IP-regler og bedste anvendelsesscenarier.'
+  dateModified: '2026-08-20'
+  keywords:
+    - 'oem kontra odm kontra private label'
+    - 'sammenligning af sup produktion'
+    - 'specialfremstillet paddleboard produktion'
+    - 'oem sup kina'
+    - 'odm sup udvikling'
+    - 'private label sup'
+
+hero:
+  tagline: 'Vælg din samarbejdsvej'
+  title: 'OEM kontra ODM kontra Private Label — hvilken model passer til dit projekt?'
+  subtitle: 'Tre måder at arbejde sammen med en SUP-fabrik på, hver med forskellige afvejninger mellem ejerskab, investering og hastighed. Denne guide forklarer forskellene, så du kan vælge den rette vej, før du sender din første forespørgsel.'
+
+answer:
+  label: 'Hurtig sammenligning'
+  text: 'OEM: du ejer designet og specifikationen — vi fremstiller efter dine tegninger. ODM: vores konstruktionsteam udvikler brættet ud fra dit brief — du godkender, før der produceres. Private Label: dit mærke på en gennemprøvet eksisterende platform uden strukturelle ændringer — hurtigste vej til markedet. Alle tre veje løber gennem samme anlæg, samme QC-system og eksportteam i Qingdao, Kina.'
+  verified: 'September 2026'
+
+comparison_table:
+  tagline: 'Side om side'
+  title: 'Sammenligning af OEM / ODM / Private Label'
+  subtitle: 'De vigtigste forskelle for designejerskab, minimumsordre, værktøj, leveringstid og intellektuelle rettigheder.'
+  headers:
+    dimension: Dimension
+    oem: OEM-produktion
+    odm: ODM-udvikling
+    pl: Private Label
+  rows:
+    - dimension: 'Hvem designer brættet?'
+      oem: 'Du leverer specifikationen, tegninger eller et referencebræt'
+      odm: 'Fabrikkens konstruktionsteam udvikler ud fra dit brief'
+      pl: 'Eksisterende platform i fabrikken — intet designarbejde nødvendigt'
+    - dimension: 'Ejerskab af design & IP'
+      oem: 'Du ejer alle designs, forme og intellektuelle rettigheder'
+      odm: 'Du ejer det endeligt godkendte design; fabrikken ejer IP på udviklingsprocessen'
+      pl: 'Fabrikken ejer platformsdesignet; du ejer dit mærke og din grafik'
+    - dimension: 'Form / værktøj'
+      oem: 'Specialform påkrævet ved nye former — engangsgebyr for værktøj, 15–20 ekstra dage'
+      odm: 'Kan kræve specialform afhængigt af specifikationen — samme værktøjstidsplan'
+      pl: 'Ingen ny form — der bruges eksisterende platformværktøj'
+    - dimension: Minimumsordre
+      oem: '90–100+ stk. pr. godkendt konfiguration'
+      odm: '90–100+ stk. pr. godkendt konfiguration; pilotserier fra 20–50 stk.'
+      pl: '5–10 stk. (co-branding) eller 20–50 stk. (pilotserie på eksisterende platform)'
+    - dimension: 'Typisk leveringstid'
+      oem: '25–35 dage + 15–20 dage for værktøj ved ny form'
+      odm: '25–35 dage + udviklingstid (varierer efter kompleksitet)'
+      pl: '25–35 dage (ingen forsinkelse fra værktøj)'
+    - dimension: Tilpasningsniveau
+      oem: 'Fuldt — form, konstruktion, materialer, grafik, emballage'
+      odm: 'Fuldt — fabrikken foreslår, du godkender hvert element'
+      pl: 'Kun grafik og emballage — ingen strukturelle ændringer'
+    - dimension: Prøveproces
+      oem: '1–2 prototypeprøver på 7–12 dage efter godkendelse af specifikation'
+      odm: '1–2 prototypeprøver på 7–12 dage efter designgodkendelse'
+      pl: '1–2 prøver på 7–12 dage — platformen er allerede valideret'
+    - dimension: 'Bedst til'
+      oem: 'Købere med eksisterende designs, referencebrætter eller detaljerede specifikationer'
+      odm: 'Købere med produktideer eller markedskrav, men uden detaljeret specifikation'
+      pl: 'Købere, der hurtigt har brug for mærkede brætter uden produktudvikling'
+
+scenario_cards:
+  tagline: 'Hvornår du skal vælge hver vej'
+  title: 'Situationer fra virkeligheden'
+  subtitle: 'Almindelige købersituationer og den anbefalede samarbejdsmodel.'
+  features:
+    - icon: '1'
+      icon_bg: 'blue'
+      title: 'Du har komplette specifikationer og ejer designet'
+      desc: 'Du har CAD-tegninger, et referencebræt eller et detaljeret specificationsark med krav til mål, materialer, konstruktion og emballage. Vælg OEM — vi fremstiller præcist efter din specifikation.'
+      link: '/da/factory/oem-capability'
+      link_label: 'Detaljer om OEM-produktion'
+    - icon: '2'
+      icon_bg: 'green'
+      title: 'Du har en produktide, men ingen ingeniørmæssig specifikation'
+      desc: 'Du kender målmarkedet, prisniveauet og ydeevnekravene, men har brug for ingeniørmæssig støtte til at udvikle brættet. Vælg ODM — vores team udvikler ud fra dit brief, og du godkender, før der produceres.'
+      link: '/da/odm-manufacturing'
+      link_label: 'Detaljer om ODM-udvikling'
+    - icon: '3'
+      icon_bg: 'orange'
+      title: 'Du skal hurtigt have mærkede brætter uden produktudvikling'
+      desc: 'Du er distributør, resort eller udlejningsvirksomhed, der vil have sit logo på kvalitetsbrætter uden at investere i produktudvikling. Vælg Private Label — hurtigste vej fra koncept til levering.'
+      link: '/da/solutions/private-label-sup'
+      link_label: 'Detaljer om Private Label'
+    - icon: '4'
+      icon_bg: 'purple'
+      title: 'Du driver et resort, en klub eller en udlejningsflåde'
+      desc: 'Du har brug for holdbare SUP-pakker til intensiv brug med ensartethed i batchene, reservedele og farvestyring på tværs af genbestillinger. Vælg vores kommercielle flådeprogram.'
+      link: '/da/solutions/resort-sup'
+      link_label: 'Detaljer om kommercielle flåder'
+
+ip_rules:
+  tagline: Beskyttelse af intellektuelle rettigheder
+  title: 'Sådan beskytter vi dit design og dit mærke'
+  subtitle: 'Uanset samarbejdsmodel forbliver dit artwork, dit værktøj og dine specifikationsfiler dine ejendom.'
+  body: |
+    **NDA før filudveksling.** Vi underskriver en fortrolighedsaftale, før nogen tekniske filer udveksles — standard svartid er inden for 4 arbejdstimer.
+
+    **Ingen genbrug af design.** Dit artwork, dit værktøj og dine specifikationsfiler deles aldrig med eller sælges til andre kunder. OEM-forme tilhører udelukkende dig. ODM-designs godkendes af dig, før der produceres. Private Label-platforme er delte strukturer, men din grafik og dit branding er eksklusivt.
+
+    **Kun B2B.** Vi fremstiller udelukkende under vores kunders mærker. Vi sælger ikke til private forbrugere og konkurrerer ikke med vores kunder på noget marked.
+
+    **Ejerskab af forme.** Specialforme, som køberen betaler for, tilhører køberen. Vi opbevarer og vedligeholder dem, men kan ikke bruge dem til andre kunder uden skriftlig tilladelse.
+
+faqs:
+  tagline: 'FAQ'
+  title: 'Ofte stillede spørgsmål om OEM, ODM og Private Label'
+  items:
+    - q: 'Kan jeg senere skifte fra private label til OEM?'
+      a: 'Ja. Mange kunder starter med en private label eller en pilotserie for at validere markedet og investerer derefter i specialværktøj til et fuldt OEM-program, når efterspørgslen er dokumenteret. Samme anlæg og samme QC-system understøtter begge veje.'
+    - q: 'Betyder ODM, at fabrikken ejer mit mærke?'
+      a: 'Nej. Under ODM ejer du dit mærke, din grafik og din emballage. Fabrikken udvikler brættets konstruktion ud fra dit brief, og du godkender designet, før der produceres. Fabrikken bevarer IP på udviklingsprocessen, men den godkendte produktspecifikation er din.'
+    - q: 'Er private label af lavere kvalitet end OEM?'
+      a: 'Nej. Alle tre veje løber gennem samme anlæg, samme QC-system og samme eksportteam. Private label-brætter bygges på gennemprøvede, validerede platforme med fuld 18 PSI / 24h tryktest og den samme tjekliste for samling med 100 punkter.'
+    - q: 'Hvad hvis jeg ikke er sikker på, hvilken model jeg skal vælge?'
+      a: 'Kontakt os med din situation — vores konstruktionsteam anbefaler den mest praktiske vej ud fra dine produktkrav, din tidsplan og dine volumenmål. Der er ingen forpligtelse, før specifikationen er gennemgået.'
+    - q: 'Kan jeg få prøver, før jeg binder mig til nogen model?'
+      a: 'Ja. 1–2 prototypeprøver afsendes på 7–12 dage. Prøveprisen modregnes din større ordre. Dermed kan du vurdere konstruktion og kvalitet, før du påtager dig nogen volumenforpligtelse.'
+
+cta:
+  title: 'Klar til at drøfte dit SUP-projekt?'
+  subtitle: 'Fortæl os om dine produktkrav, dit marked og dine volumenmål — vi anbefaler den mest praktiske samarbejdsvej.'
+  button: 'Start dit SUP-projekt'
+  note: 'Svar inden for 1 arbejdsdag · NDA tilgængelig før filudveksling'
