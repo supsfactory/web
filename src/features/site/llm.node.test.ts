@@ -1,7 +1,7 @@
 import { test, expect } from 'vitest'
-import { llmsFull, llmBrandIndex, llmFrenchIndex, llmsFrenchFull, llmGermanIndex, llmsGermanFull, llmItalianIndex, llmsItalianFull, llmPortugueseIndex, llmsPortugueseFull, llmDutchIndex, llmsDutchFull, llmSwedishIndex, llmsSwedishFull, llmNorwegianIndex, llmsNorwegianFull, llmPolishIndex, llmsPolishFull, llmDanishIndex, llmsDanishFull, llmFinnishIndex, llmsFinnishFull } from '@/features/site/llm'
+import { llmsFull, llmBrandIndex, llmFrenchIndex, llmsFrenchFull, llmGermanIndex, llmsGermanFull, llmItalianIndex, llmsItalianFull, llmPortugueseIndex, llmsPortugueseFull, llmDutchIndex, llmsDutchFull, llmSwedishIndex, llmsSwedishFull, llmNorwegianIndex, llmsNorwegianFull, llmPolishIndex, llmsPolishFull, llmDanishIndex, llmsDanishFull, llmFinnishIndex, llmsFinnishFull, llmRussianIndex, llmsRussianFull } from '@/features/site/llm'
 import { getContentPages } from '@/features/content/loader'
-import { GUIDES_FR, GUIDES_DE, GUIDES_IT, GUIDES_PT, GUIDES_NL, GUIDES_SV, GUIDES_NO, GUIDES_PL, GUIDES_DA, GUIDES_FI } from '@/features/content/guide-content'
+import { GUIDES_FR, GUIDES_DE, GUIDES_IT, GUIDES_PT, GUIDES_NL, GUIDES_SV, GUIDES_NO, GUIDES_PL, GUIDES_DA, GUIDES_FI, GUIDES_RU } from '@/features/content/guide-content'
 import { EDGE_REDIRECTS } from '@/features/seo/edge-gate'
 import { LEGACY_REDIRECTS } from '@/features/seo/legacy-redirects'
 
@@ -311,5 +311,31 @@ test('llms-full.txt Finnish section: product/news/tech/case/guide bodies present
   expect(fi).toContain('# Opas:')
   for (const g of GUIDES_FI) {
     expect(fi, `llms-full.txt Finnish section missing guide ${g.slug}`).toContain(`# Opas: ${g.title}`)
+  }
+})
+
+test('llms.txt Russian section: /ru absolute links, Russian homepage note and guides', () => {
+  const section = llmRussianIndex('https://isupfactory.com')
+  expect(section).toContain('## По-русски')
+  expect(section).toContain('— Главная')
+  expect(section).toContain('### По-русски: Товары')
+  expect(section).toContain('### По-русски: Гайды')
+  expect(section).toContain('### По-русски: Часто задаваемые вопросы')
+  expect(section).toContain('https://isupfactory.com/ru/')
+  for (const g of GUIDES_RU) {
+    expect(section, `llms.txt Russian section missing guide ${g.slug}`).toContain(`https://isupfactory.com/ru/guides/${g.slug}`)
+  }
+})
+
+test('llms-full.txt Russian section: product/news/tech/case/guide bodies present', () => {
+  const ru = llmsRussianFull()
+  expect(ru).toContain('# По-русски')
+  expect(ru).toContain('## Товар:')
+  expect(ru).toContain('## Новость:')
+  expect(ru).toContain('## Технологии:')
+  expect(ru).toContain('## Кейс:')
+  expect(ru).toContain('# Гайд:')
+  for (const g of GUIDES_RU) {
+    expect(ru, `llms-full.txt Russian section missing guide ${g.slug}`).toContain(`# Гайд: ${g.title}`)
   }
 })

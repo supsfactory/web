@@ -1,0 +1,134 @@
+meta:
+  title: 'Матрица B2B-решений для клиентов | {SITE}'
+  description: 'Полная матрица B2B-решений Vatrad, охватывающая 24 типа клиентов: от стартапов в сфере активного отдыха до учреждений в области охраны морской среды.'
+  dateModified: '2026-08'
+
+hero:
+  tagline: B2B-решения для клиентов
+  title: '24 B2B-решения под ваш бизнес'
+  subtitle: 'От основателей стартапов до глобальных дистрибьюторов: найдите точное решение Vatrad, разработанное под вашу бизнес-модель, отрасль и цели.'
+  image:
+    src: https://assets.isupfactory.com/images/sups/factory/isupfactory-factory-building.webp
+    alt: Завод и производственная площадка Vatrad
+
+answer:
+  label: 'Прямой ответ'
+  text: 'Один завод обслуживает все направления B2B: производство OEM/ODM с подтверждённым по проекту минимальным заказом (образец 1–2 единицы, пилотная партия 20–50, серийный объём 90–100+ на рулон 150 m; ко-брендинг от 5–10 единиц), private label на проверенных платформах, оптовое распределение и флотовые программы для курортов, клубов и школ. Каждый тип клиента соотнесён с конкретным набором решений: образцы за 7–12 дней, производство через 25–35 дней после заказа и предоплаты.'
+  verified: 'Сентябрь 2026'
+
+solutions:
+  title: Матрица клиентских решений
+  subtitle: 'Каждый тип клиента, его основная потребность и страница решения Vatrad, разработанная для него.'
+  items:
+    - clientType: Основатель стартапа в сфере активного отдыха
+      need: Создание бренда
+      solutionPage: Постройте свой SUP-бренд
+      link: /ru/solutions/private-label-sup
+    - clientType: Менеджер бренда активного отдыха
+      need: Выход бренда активного отдыха в водный спорт
+      solutionPage: Выведите бренд активного отдыха в водный спорт
+      link: /ru/solutions/private-label-sup
+    - clientType: Владелец сёрф-магазина
+      need: Модернизация сёрф-бизнеса
+      solutionPage: Внедрите надувные технологии в сёрф-бизнес
+      link: /ru/products/surf
+    - clientType: Продавец на Amazon
+      need: Рост в электронной коммерции
+      solutionPage: Дифференциация продукта и быстрые поставки
+      link: /ru/solutions/private-label-sup
+    - clientType: Бренд рыболовного снаряжения
+      need: Рыболовные SUP
+      solutionPage: Создайте свой бренд рыболовных SUP
+      link: /ru/products/fishing
+    - clientType: Бренд в сфере йоги и велнесса
+      need: Товары для активного отдыха на воде
+      solutionPage: Решения по оборудованию для SUP-йоги
+      link: /ru/products/yoga
+    - clientType: Бренд блогера
+      need: Бренд инфлюенсера
+      solutionPage: Стартап SUP в специальной версии для блогера
+      link: /ru/solutions/private-label-sup
+    - clientType: Основатель парусного клуба
+      need: Флот клуба
+      solutionPage: Коммерческий флот SUP
+      link: /ru/solutions/club-sup
+    - clientType: Владелец прокатного бизнеса
+      need: Эксплуатация проката
+      solutionPage: Решение для износостойкого прокатного флота
+      link: /ru/solutions/rental-operators
+    - clientType: Менеджер по активным программам в отеле
+      need: Впечатления гостей отеля
+      solutionPage: Пакет водных развлечений для курорта
+      link: /ru/solutions/resort-sup
+    - clientType: Академия водного спорта
+      need: Обучение и образование
+      solutionPage: Программа оснащения SUP-академии
+      link: /ru/solutions/school-sup
+    - clientType: Круизная и яхтенная компания
+      need: Впечатления на яхте
+      solutionPage: Люксовый портативный пакет SUP
+      link: /ru/product-development
+    - clientType: Закупщик розничной сети активного отдыха
+      need: Розничный канал
+      solutionPage: Программа private label для розницы
+      link: /ru/solutions/retail-partners
+    - clientType: Дистрибьютор и импортёр
+      need: Региональное распределение
+      solutionPage: Региональный OEM-партнёр и партнёр по цепочке поставок
+      link: /ru/solutions/distributors
+    - clientType: Корпоративный закупщик проектов
+      need: Корпоративные мероприятия
+      solutionPage: Корпоративный пакет для мероприятий на SUP
+      link: /ru/contact
+    - clientType: Менеджер водноспортивного бренда
+      need: Расширение водноспортивного бренда
+      solutionPage: Расширьте свой портфель водного спорта
+      link: /ru/solutions/private-label-sup
+    - clientType: Владелец бренда активного отдыха с питомцами
+      need: Отдых с питомцами на природе
+      solutionPage: Программа досок, подходящих для питомцев
+      link: /ru/product-development
+    - clientType: Оператор пляжного отдыха
+      need: Пляжные развлечения
+      solutionPage: Комплексные решения по оснащению для пляжных активностей
+      link: /ru/solutions/rental-operators
+    - clientType: Девелопер аквапарка
+      need: Тематические развлечения
+      solutionPage: Коммерческий флот SUP для аквапарка
+      link: /ru/solutions/resort-sup
+    - clientType: Владелец частного острова или люксового клуба
+      need: Образ жизни высокого класса
+      solutionPage: Премиальная коллекция индивидуальных досок SUP
+      link: /ru/product-development
+    - clientType: Туристический орган или оператор городского парка
+      need: Проекты в сфере публичного туризма
+      solutionPage: Пакет водного спорта для направления
+      link: /ru/solutions/rental-operators
+    - clientType: Оператор детских приключений и летних лагерей
+      need: Детское образование
+      solutionPage: Программа досок SUP для детских исследований
+      link: /ru/solutions/school-sup
+    - clientType: Организация водного спасения и безопасности
+      need: Профессиональное спасение
+      solutionPage: Профессиональная система SUP для спасения на воде
+      link: /ru/product-development
+    - clientType: Учреждение в области охраны морской среды и исследований
+      need: Экологические исследования
+      solutionPage: Экологическая платформа SUP для исследований и мониторинга
+      link: /ru/product-development
+
+cta:
+  title: 'Не уверены, какое решение подойдёт вашему бизнесу?'
+  subtitle: 'Опишите свой проект нашей B2B-команде, и мы порекомендуем оптимальную конфигурацию и цены.'
+  actions:
+    - variant: primary
+      text: Связаться с нашей B2B-командой
+      href: /ru/contact?subject=b2b-solutions
+    - variant: secondary
+      text: Скачать каталог
+      href: /ru/products
+
+content_html: |
+  <div class="mx-auto max-w-3xl space-y-4 rounded-2xl border bg-card p-6 text-[14.5px] leading-relaxed text-fg-2">
+    <p>Каждое направление в этой матрице начинается с одних и тех же двух составляющих: нашей <a href="/ru/oem-manufacturing">программы производства OEM/ODM</a> и <a href="/ru/factory">завода, который за ней стоит</a>: одна площадка 12,500 m&sup2;, один набор стандартов качества, обслуживание всех каналов.</p>
+  </div>

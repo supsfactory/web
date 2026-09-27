@@ -46,6 +46,7 @@ const FAQ_TITLES: Record<string, string> = {
   pl: 'Najcz\u0119\u015bciej zadawane pytania',
   da: 'Ofte stillede sp\u00f8rgsm\u00e5l',
   fi: 'Usein kysytyt kysymykset',
+  ru: 'Часто задаваемые вопросы',
 }
 
 /** Slug → readable label fallback for pages without an explicit SEO title. */

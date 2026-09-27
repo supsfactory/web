@@ -1,0 +1,49 @@
+badge: Последние исследования
+heading: База знаний
+description: Углублённые технические исследования SUP и надувных плавательных средств — материалы, конструкция, стандарты безопасности и производство
+topics:
+  - slug: drop-stitch-technology
+    category: Технология
+    readTime: 8 мин чтения
+  - slug: pvc-vs-hypalon
+    category: Материалы
+    readTime: 10 мин чтения
+  - slug: ce-certification-guide
+    category: Соответствие
+    readTime: 7 мин чтения
+  - slug: sup-thickness-guide
+    category: Проектирование
+    readTime: 6 мин чтения
+  - slug: oem-buyer-guide
+    category: Закупки
+    readTime: 12 мин чтения
+  - slug: sup-manufacturing-process
+    category: Производство
+    readTime: 10 мин чтения
+  - slug: eva-foam-technology
+    category: Материалы
+    readTime: 7 мин чтения
+  - slug: uv-printing-vs-eva-block
+    category: Технология
+    readTime: 6 мин чтения
+  - slug: fusion-lamination-vs-glue
+    category: Производство
+    readTime: 8 мин чтения
+  - slug: sup-valve-types
+    category: Проектирование
+    readTime: 6 мин чтения
+  - slug: fin-systems-guide
+    category: Проектирование
+    readTime: 7 мин чтения
+  - slug: board-hull-design
+    category: Проектирование
+    readTime: 9 мин чтения
+  - slug: quality-testing-standards
+    category: Соответствие
+    readTime: 8 мин чтения
+  - slug: sup-paddle-technology
+    category: Снаряжение
+    readTime: 7 мин чтения
+  - slug: military-grade-pvc-specs
+    category: Материалы
+    readTime: 8 мин чтения

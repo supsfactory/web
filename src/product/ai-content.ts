@@ -55,6 +55,9 @@ export const LLM_DANISH_HOMEPAGE_DESCRIPTION =
 export const LLM_FINNISH_HOMEPAGE_DESCRIPTION =
   'iSupfactory on Qingdaossa, Kiinassa sijaitseva OEM/ODM-tehdas, joka valmistaa puhallettavia SUP-lautoja brändeille, jakelijoille ja jälleenmyyjille. Kehitämme ja rakennamme laudat, melat, evät ja pakkaukset asiakkaan spesifikaation mukaan näytteestä ja prototyypistä sarjatuotantoon. Vähimmäiseräkoot, sertifioinnit ja toimitusajat vahvistetaan aina projektikohtaisesti.'
 
+export const LLM_RUSSIAN_HOMEPAGE_DESCRIPTION =
+  'iSupfactory — OEM/ODM-фабрика в Циндао, Китай, которая производит надувные SUP-доски для брендов, дистрибьюторов и реселлеров. Мы разрабатываем и производим доски, весла, плавники и упаковку по спецификации заказчика — от образца и прототипа до серийного производства. Минимальный заказ (MOQ), сертификация и сроки поставки всегда подтверждаются по конкретному проекту.'
+
 export const AI_SYSTEM_ROLE =
   `You are the {SITE} product advisor, a sales engineer for a custom inflatable SUP (stand-up paddle board) OEM/ODM factory in Qingdao, China.`
 
@@ -178,6 +181,15 @@ export const CUSTOMIZATION_OPTIONS: Record<string, { title: string; body: string
     { title: 'Evät ja lisävarusteet', body: 'Eväasennukset, melat, pumput, hihnat ja laukut sovitettuina pakettisi.' },
     { title: 'Pakkaus ja näyttely', body: 'Vähittäispakkauslaatikot, merikelpoinen kuljetuspakkaus ja myyntipisteet omalla brändilläsi.' },
   ],
+  ru: [
+    { title: 'Размер и форма доски', body: 'Длина, ширина, толщина и rocker, настроенные под ваши целевые характеристики и рынок.' },
+    { title: 'Материалы и конструкция', body: 'Слои ПВХ, плотность drop-stitch, жёсткие элементы и усиления под ваш ценовой уровень.' },
+    { title: 'Цвета и графика', body: 'Неограниченные сочетания цветов с вашей собственной графикой или с помощью нашей команды дизайна.' },
+    { title: 'Логотип и брендинг', body: 'Нанесение логотипа цифровым способом или шелкографией, с визуальным подтверждением до начала производства.' },
+    { title: 'EVA и палуба', body: 'Вырезанные по размеру противоскользящие коврики, логотипы и цвета палубы на каждой доске.' },
+    { title: 'Плавники и аксессуары', body: 'Конфигурации плавников, весла, насосы, поводки и сумки, подобранные под ваш комплект.' },
+    { title: 'Упаковка и презентация', body: 'Розничные коробки, морская транспортная упаковка и POS-стенды под вашим брендом.' },
+  ],
 }
 
 export const OEM_APPLICATIONS: Record<string, { title: string; body: string }[]> = {
@@ -264,6 +276,13 @@ export const OEM_APPLICATIONS: Record<string, { title: string; body: string }[]>
     { title: 'Vähittäiskauppa ja outdoor-yritykset', body: 'Kausikohtaiset täydennysohjelmat vakailla spesifikaatioilla, erä erältä.' },
     { title: 'Resortit ja vuokrausoperaattorit', body: 'Raskaan käytön laivueet vahvistuksin, varaosin ja standardoidulla ylläpidolla.' },
     { title: 'Kerhot, koulut ja tapahtumat', body: 'Brändätyt laudat ohjelmille, kilpailuille ja yrityslaivueille.' },
+  ],
+  ru: [
+    { title: 'SUP-бренды', body: 'Запустите собственную линейку с минимальными заказами от 5–10 штук для co-branding.' },
+    { title: 'Дистрибьюторы и реселлеры', body: 'Оптовые каталоги с морской упаковкой и управлением экспортом.' },
+    { title: 'Розничные компании и outdoor-бренды', body: 'Сезонные программы пополнения запасов со стабильной спецификацией от партии к партии.' },
+    { title: 'Курорты и прокатные операторы', body: 'Парки для интенсивной эксплуатации с усилениями, запасными частями и стандартизированным обслуживанием.' },
+    { title: 'Клубы, школы и мероприятия', body: 'Брендированные доски для программ, соревнований и корпоративных парков.' },
   ],
 }
 
@@ -364,6 +383,14 @@ export const HUB_PAGE_ENTRIES: Record<string, { url: string; title: string; exce
     { url: '/fi/knowledge', title: '', excerpt: '' },
     { url: '/fi/gallery', title: 'Galleria', excerpt: 'iSupfactoryn tehdas- ja tuotegalleria: työpajat, laatulaboratoriot, kangaslaboratoriot ja SUP-laudat tuotannossa.' },
   ],
+  ru: [
+    { url: '/ru', title: 'iSupfactory — OEM- и ODM-производство надувных SUP-досок', excerpt: 'OEM/ODM-фабрика надувных SUP-досок в Циндао: разработка продукта, индивидуальное производство, собственная марка и контроль качества.' },
+    { url: '/ru/products', title: 'Продукция: надувные SUP-доски', excerpt: 'Премиальные надувные SUP-доски: серии 11 ft, рыболовная SUP, mini SUP, гигантские командные доски и другое — изготовление по индивидуальному заказу OEM/ODM.' },
+    { url: '/ru/solutions', title: 'Решения', excerpt: 'Программы OEM/ODM-производства SUP: индивидуальная разработка SUP, собственная марка, парки для курортов и клубов, прокат и розничные партнёры.' },
+    { url: '/ru/projects', title: '', excerpt: '' },
+    { url: '/ru/knowledge', title: '', excerpt: '' },
+    { url: '/ru/gallery', title: 'Галерея', excerpt: 'Галерея фабрики и продукции iSupfactory: цеха, лаборатории качества, испытания тканей и SUP-доски в производстве.' },
+  ],
 }
 
 export const CASE_STUDY_STATS = {
@@ -384,6 +411,7 @@ export const FAQ_EXCERPTS: Record<string, string> = {
   pl: 'Najczęściej zadawane pytania o produkcję OEM/ODM nadmuchiwanych desek SUP — materiały, certyfikacje, minimalne ilości zamówienia (MOQ) i sprzedaż hurtowa.',
   da: 'Ofte stillede spørgsmål om OEM/ODM-produktion af oppustelige SUP-bræt — materialer, certificeringer, minimumsordre (MOQ) og engros.',
   fi: 'Usein kysytyt kysymykset puhallettavien SUP-lautojen OEM/ODM-tuotannosta — materiaalit, sertifioinnit, minimitilaus (MOQ) ja tukkukauppa.',
+  ru: 'Часто задаваемые вопросы о OEM/ODM-производстве надувных SUP-досок — материалы, сертификация, минимальный заказ (MOQ) и оптовая поставка.',
 }
 
 export const STATIC_PAGE_CORPUS_TEXT =

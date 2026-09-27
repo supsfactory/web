@@ -112,7 +112,7 @@ export interface FactShorthands {
   pressureReject: string
 }
 
-export const FACTS_LOCALE: Record<'en' | 'es' | 'fr' | 'de' | 'it' | 'pt' | 'nl' | 'sv' | 'no' | 'pl' | 'da' | 'fi', FactShorthands> = {
+export const FACTS_LOCALE: Record<'en' | 'es' | 'fr' | 'de' | 'it' | 'pt' | 'nl' | 'sv' | 'no' | 'pl' | 'da' | 'fi' | 'ru', FactShorthands> = {
   en: {
     moq: {
       existingPlatform: FACTS.moq.existingPlatform,
@@ -280,6 +280,20 @@ export const FACTS_LOCALE: Record<'en' | 'es' | 'fr' | 'de' | 'it' | 'pt' | 'nl'
     assemblyChecklist: '100',
     pressureTest: '18.0 PSI · 24 tunnin paineenpito',
     pressureReject: 'paineen alenema >0.50 PSI/24 t (automaattinen hylkäys)',
+  },
+  ru: {
+    moq: {
+      existingPlatform: '5–10 шт (только логотип на существующей форме, тот же рулон материала)',
+      trialStandard: '20–50 шт (индивидуальная графика или небольшое изменение спецификации, тот же рулон материала)',
+      standardRun: '90–100+ шт на каждую согласованную конфигурацию, с учётом требований к рулону материала и упаковке',
+      customMould: '90–100+ шт (новая форма требует отдельной пресс-формы; изготовление оснастки добавляет 15–20 дн)',
+    },
+    leadTime: '25–35 дн',
+    leadTimeDetail: '25–35 дн с момента подтверждения заказа (PO) и предоплаты; разработка собственной пресс-формы добавляет 15–20 дн на изготовление оснастки.',
+    sampleTime: '7–12 дн',
+    assemblyChecklist: '100',
+    pressureTest: '18.0 PSI · 24 ч выдержки давления',
+    pressureReject: 'падение давления >0.50 PSI/24 ч (автоматический брак)',
   },
 }
 

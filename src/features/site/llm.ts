@@ -13,13 +13,13 @@ import {
   getSiteFaqs,
   brandify,
 } from '@/features/content/loader'
-import { GUIDES_ES, GUIDES_FR, GUIDES_DE, GUIDES_IT, GUIDES_PT, GUIDES_NL, GUIDES_SV, GUIDES_NO, GUIDES_PL, GUIDES_DA, GUIDES_FI } from '@/features/content/guide-content'
+import { GUIDES_ES, GUIDES_FR, GUIDES_DE, GUIDES_IT, GUIDES_PT, GUIDES_NL, GUIDES_SV, GUIDES_NO, GUIDES_PL, GUIDES_DA, GUIDES_FI, GUIDES_RU } from '@/features/content/guide-content'
 import { FACTS, COLLABORATION_MODES } from '@/product/facts'
 import { EDGE_REDIRECTS } from '@/features/seo/edge-gate'
 import { LEGACY_REDIRECTS } from '@/features/seo/legacy-redirects'
 import { SITE_NAME } from '@/config/site'
 import { PAGE_TITLES } from '@/product/entity-data'
-import { LLM_SITE_DESCRIPTION, LLM_FAQ_DESCRIPTION, LLM_SPANISH_HOMEPAGE_DESCRIPTION, LLM_FRENCH_HOMEPAGE_DESCRIPTION, LLM_GERMAN_HOMEPAGE_DESCRIPTION, LLM_ITALIAN_HOMEPAGE_DESCRIPTION, LLM_PORTUGUESE_HOMEPAGE_DESCRIPTION, LLM_DUTCH_HOMEPAGE_DESCRIPTION, LLM_SWEDISH_HOMEPAGE_DESCRIPTION, LLM_NORWEGIAN_HOMEPAGE_DESCRIPTION, LLM_POLISH_HOMEPAGE_DESCRIPTION, LLM_DANISH_HOMEPAGE_DESCRIPTION, LLM_FINNISH_HOMEPAGE_DESCRIPTION, LLM_FACT_BLOCK } from '@/product/ai-content'
+import { LLM_SITE_DESCRIPTION, LLM_FAQ_DESCRIPTION, LLM_SPANISH_HOMEPAGE_DESCRIPTION, LLM_FRENCH_HOMEPAGE_DESCRIPTION, LLM_GERMAN_HOMEPAGE_DESCRIPTION, LLM_ITALIAN_HOMEPAGE_DESCRIPTION, LLM_PORTUGUESE_HOMEPAGE_DESCRIPTION, LLM_DUTCH_HOMEPAGE_DESCRIPTION, LLM_SWEDISH_HOMEPAGE_DESCRIPTION, LLM_NORWEGIAN_HOMEPAGE_DESCRIPTION, LLM_POLISH_HOMEPAGE_DESCRIPTION, LLM_DANISH_HOMEPAGE_DESCRIPTION, LLM_FINNISH_HOMEPAGE_DESCRIPTION, LLM_RUSSIAN_HOMEPAGE_DESCRIPTION, LLM_FACT_BLOCK } from '@/product/ai-content'
 import { GLOSSARY } from '@/product/glossary'
 
 const flat = (text: string) => text.replace(/\s+/g, ' ').trim()
@@ -1329,6 +1329,96 @@ export function llmsFinnishFull(): string {
     ...caseBlocks,
     '',
     '# Suomeksi: Oppaat',
+    ...guideBlocks,
+    '',
+  ].join('\n\n')
+}
+
+/** `/llms.txt` Russian section — absolute /ru URLs so LLMs can ingest the mirror directly. */
+export function llmRussianIndex(origin: string): string {
+  const ru = (path: string) => abs(origin, `/ru${path}`)
+  const productLines = getContentProducts('ru').map((p) => `- [${p.title}](${ru(`/products/${p.slug}`)}): ${flat(p.summary ?? '')}`)
+  const techLines = getTechArticles('ru').map((a) => `- [${a.title}](${ru(`/technology/${a.slug}`)}): ${flat(a.summary ?? '')}`)
+  const caseLines = getCaseUses('ru').map((c) => `- [${c.title}](${ru(`/evidence/case-studies/${c.slug}`)}): ${flat(c.summary ?? '')}`)
+  const guideLines = GUIDES_RU.map((g) => `- [${g.title}](${ru(`/guides/${g.slug}`)}): ${flat(g.intro[0] ?? '')}`)
+  const newsLines = getNewsPosts('ru')
+    .slice(0, 10)
+    .map((p) => `- [${p.title}](${ru(`/news/${p.slug}`)}): ${flat(p.excerpt ?? '')}`)
+  const faqLines = getSiteFaqs('ru')
+    .slice(0, 6)
+    .map((f) => `- ${f.q}`)
+  return [
+    '',
+    '## По-русски',
+    '',
+    `- [${SITE_NAME} — Главная](${ru('/')}): ${LLM_RUSSIAN_HOMEPAGE_DESCRIPTION}`,
+    '',
+    '### По-русски: Товары',
+    ...productLines,
+    '',
+    '### По-русски: Технологии',
+    ...techLines,
+    '',
+    '### По-русски: Кейсы',
+    ...caseLines,
+    '',
+    '### По-русски: Гайды',
+    ...guideLines,
+    '',
+    '### По-русски: Новости',
+    ...newsLines,
+    '',
+    '### По-русски: Часто задаваемые вопросы',
+    ...faqLines,
+    '',
+  ].join('\n')
+}
+
+/** Full Russian text for products, news, tech, cases and guides (in /llms-full.txt). */
+export function llmsRussianFull(): string {
+  const productBlocks = getContentProducts('ru').map((p) =>
+    [
+      `## Товар: ${p.title}${p.sku ? ` (${p.sku})` : ''}`,
+      '',
+      flat(p.summary ?? ''),
+      ...(p.specs ?? []).map((s) => `- ${s.label}: ${s.value}`),
+      '',
+      ...mdBody(p.body),
+    ].join('\n'),
+  )
+  const newsBlocks = getNewsPosts('ru').map((p) =>
+    [`## Новость: ${p.title}`, '', p.date.slice(0, 10), flat(p.excerpt ?? ''), '', ...mdBody(p.body)].join('\n'),
+  )
+  const techBlocks = getTechArticles('ru').map((a) =>
+    [`## Технологии: ${a.title}`, '', flat(a.summary ?? ''), '', ...mdBody(a.body)].join('\n'),
+  )
+  const caseBlocks = getCaseUses('ru').map((c) => [`## Кейс: ${c.title}`, '', flat(c.summary ?? ''), ...mdBody(c.body)].join('\n'))
+  const guideBlocks = GUIDES_RU.map((g) =>
+    [
+      `# Гайд: ${g.title}`,
+      '',
+      flat(g.intro.join(' ')),
+      ...g.sections.flatMap((s) => ['', `## ${s.title}`, '', s.body]),
+      '',
+      '## FAQ',
+      ...g.faqs.flatMap((f) => [`### Q: ${f.q}`, '', f.a, '']),
+    ].join('\n'),
+  )
+  return [
+    '',
+    '# По-русски',
+    ...productBlocks,
+    '',
+    '# По-русски: Новости',
+    ...newsBlocks,
+    '',
+    '# По-русски: Технологии',
+    ...techBlocks,
+    '',
+    '# По-русски: Кейсы',
+    ...caseBlocks,
+    '',
+    '# По-русски: Гайды',
     ...guideBlocks,
     '',
   ].join('\n\n')
