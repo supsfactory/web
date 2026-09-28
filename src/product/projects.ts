@@ -9165,7 +9165,7 @@ export const projects: Localized<ProjectData[]> = {
       kicker: 'Projekt startupu',
       h1: 'Od konceptu k vyprodanému uvedení 200 desek pro startup značky SUP',
       intro: [
-        'Dva zakladatelé s vlastním publikem, ale bez továrny chtěli prodávat vlastní SUP — ODM desku vyvinutou podle jejich specifikace a objednávku objemu na uvedení na trh, která je nespálí.',
+        'Dva zakladatelé s vlastním publikem, ale bez továrny chtěli prodávat vlastní SUP — ODM desku vyvinutou podle jejich specifikace a objednávku na uvedení na trh, která je finančně nepoloží.',
       ],
       industry: 'Startupy v oblasti SUP',
       requirement: 'ODM vývoj s nízkým minimálním množstvím: pilotní dávka 10 ks pro ověření a následně 200 ks na uvedení na trh.',
