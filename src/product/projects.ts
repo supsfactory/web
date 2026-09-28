@@ -8747,6 +8747,679 @@ export const projects: Localized<ProjectData[]> = {
       tags: ['Конфигурация для йоги', 'Полное покрытие палубы', 'Парк программы'],
     },
   ],
+  cs: [
+    {
+      slug: 'coastal-rental-fleet',
+      customerType: 'Provozovatelé pronájemných flot',
+      region: 'Středomoří — Španělsko, Itálie, Řecko',
+      productCategory: 'Pronájemná nafukovací SUP (10′6″ + 11′0″)',
+      projectStage: 'Vyhodnocení floty → Schválení vzorku → Dodání ve třech dávkách',
+      manufacturingScope: 'Specifikace floty, zesílená konstrukce, postupná výroba, dodání náhradních dílů',
+      keyRequirements: 'Odolné pronájemní desky, postupné dodání po stanicích, menší podíl předčasné výměny',
+      qualityFocus: 'Zesílená konstrukce, těsnost, flotová grafika, úplnost sady',
+      navLabel: 'Flota u moře',
+      metaTitle: 'Flota u moře | 320 desek za 120 dní — iSupfactory',
+      metaDescription:
+        'Jak provozovatel pronájmu ve Středomoří složil pobřežní flotu ze 320 desek ve Španělsku, Itálii a Řecku — tři dávky za 120 dní s vypočteným snížením předčasné výměny o 20–25 %.',
+      kicker: 'Projekt pronájemné floty',
+      h1: 'Jak provozovatel pronájmu ve Středomoří složil pobřežní flotu ze 320 desek za 120 dní',
+      intro: [
+        'Provozovatel pronájmu se stanicemi ve Španělsku, Itálii a Řecku potřeboval odolnou flotu pro letní sezónu s vysokou obrátkou — s dodáním ve třech dávkách, aby každá stanice otevřela včas.',
+      ],
+      industry: 'Provozovatelé pronájemných flot',
+      requirement:
+        '320 pronájemních desek ve dvou velikostech — 10′6″ a 11′0″ — pro pobřežní stanice ve třech zemích, dodaných ve třech dávkách během 120 dní.',
+      challenge:
+        'Každodenní pronájemní rotace rychle opotřebovává desky a podíl předčasné výměny u provozovatele činil 20–25 %. Stanice se otevíraly v různých termínech ve třech zemích, takže jednotná dodávka nebyla možná — a ani jednorozměrová flota.',
+      solution:
+        'Dvě odolné pronájemní platformy ve velikostech, které pokrývají většinu zákazníků, zesílená konstrukce na vysokou rotaci a tři výrobní dávky navázané na otevření každé stanice — plus náhradní díly a návody k opravám pro každou stanici.',
+      product:
+        'Pronájemná nafukovací SUP — platformy 10′6″ a 11′0″ se zesílenou hranou a UV odolnými materiály, sady pro každou stanici.',
+      process: [
+        { title: 'Vyhodnocení floty', body: 'Termíny otevření stanic a objemy rotace určily dvě velikosti a rozdělení na dávky.' },
+        { title: 'Výběr desek', body: 'Pronájemní platformy 10′6″ a 11′0″ byly vybrány podle pokrytí zákazníků a životnosti.' },
+        { title: 'Postupná výroba', body: 'Tři dávky jsou navázány na termín otevření každé stanice.' },
+        { title: 'Dodání a podpora', body: 'Flota byla odeslána po dávkách se sadami náhradních dílů a návody k opravám pro každou stanici.' },
+      ],
+      result:
+        'Všechny tři dávky dorazily během 120 dní včas k otevření každé stanice. Zesílené platformy podle očekávání sníží podíl předčasné výměny o 20–25 % a sady náhradních dílů pokryjí opravy v terénu mezi sezónami.',
+      outcome: '320 desek · 120 dní · 3 dávky · vypočtené snížení předčasné výměny o 20–25 %.',
+      metrics: [
+        { value: '320', label: 'desek ve dvou velikostech' },
+        { value: '120', label: 'dní od objednávky po poslední dávku' },
+        { value: '3', label: 'postupná dodání, jedno k otevření každé stanice' },
+        { value: '−20–25 %', label: 'vypočtený podíl předčasné výměny' },
+      ],
+      takeaways: [
+        'Postupné dávky umožňují dorazit přesně k otevření každé stanice — bez skladování v klidu a pozdního startu.',
+        'Dvě velikosti (10′6″ a 11′0″) pokryly většinu zákazníků, aniž by flotu rozdělily.',
+        'Ukazatel předčasné výměny mění především zesílená konstrukce, ne jen cena.',
+        'Sady náhradních dílů pro každou stanici udržely desky v provozu mezi celými sezónami.',
+      ],
+      customizations: [
+        'Pronájemní platformy 10′6″ a 11′0″ podle profilů zákazníků',
+        'Zesílená hrana a UV odolné materiály pro vysokou rotaci',
+        'Flotová grafika a číslování po stanicích',
+        'Výrobní plán ve třech dávkách podle otevření stanic',
+        'Sady náhradních dílů a návody k opravám pro každou stanici',
+        'Samostatné balení podle lokalit a kontrola dodávky po dávkách',
+      ],
+      inspectionFocus: [
+        'Kontrola zesílené konstrukce každé desky',
+        'Nahustění a těsnost každé desky',
+        'Přesnost flotové grafiky a číslování stanic',
+        'Úplnost příslušenství a náhradních dílů pro každou stanici',
+        'Kontroly balení pro oddělené dodání více dávkami',
+      ],
+      confidentiality:
+        'Podle podmínek dohody se název provozovatele a umístění stanic nezveřejňují. Projekt je prezentován anonymně kvůli ochraně obchodní důvěrnosti.',
+      tags: ['Postupné dodání floty', 'Pronajímací konstrukce', 'Menší podíl výměny'],
+    },
+    {
+      slug: 'eu-distributor-private-label',
+      customerType: 'Distributoři a velkoobchodní společnosti',
+      region: 'Evropa',
+      productCategory: 'Nafukovací SUP pod vlastní značkou (2 SKU)',
+      projectStage: 'Plánování sortimentu → Schválení vzorku → Dodání objemu za 90 dní',
+      manufacturingScope: 'Značkování vlastní značkou, maloobchodní balení, sériová výroba, podpora opakovaných objednávek',
+      keyRequirements: 'Dva trhy ověřené SKU pod značkou distributora, balení pro maloobchod EU, vazba na sezónní termíny',
+      qualityFocus: 'Přesnost grafiky, čárových kódů a etiket podle trhů, úplnost sady, těsnost',
+      navLabel: 'Vlastní značka distributora',
+      metaTitle: 'Vlastní značka distributora EU | 1 200 desek za 90 dní — iSupfactory',
+      metaDescription:
+        'Jak evropský distributor uvedl vlastní řadu SUP ze 1 200 desek za 90 dní — dva SKU, maloobchodní balení pro EU a opakovaná objednávka ve čtvrtém čtvrtletí podle téže fixované specifikace.',
+      kicker: 'Projekt pod vlastní značkou',
+      h1: 'Jak evropský distributor uvedl řadu SUP pod vlastní značkou ze 1 200 desek za 90 dní',
+      intro: [
+        'Evropský distributor chtěl dostat na regál vlastní značkovou řadu SUP před letní sezónou — dva trhy ověřené SKU, plné maloobchodní balení a bez vlastních vztahů s továrnami.',
+      ],
+      industry: 'Distributoři a velkoobchodní společnosti',
+      requirement:
+        '1 200 značkových desek ve dvou SKU — univerzální 10′6″ a touringová 12′6″ — s maloobchodním balením pro EU a dodáním za 90 dní.',
+      challenge:
+        'Letní regálové okno je pevné, takže všech 1 200 desek a jejich obaly musely dorazit současně a včas. Značkové balení — čárové kódy, etikety, návody — muselo splňovat požadavky maloobchodu EU a distributor neměl zkušenosti s výrobou SUP.',
+      solution:
+        'Dvě trhy ověřené platformy pro maloobchodný sortiment, plná grafika pod vlastní značkou a maloobchodní balení pro EU v jednom programu a výroba naplánovaná tak, aby obě SKU odešly společně v 90denním okně — s fixovanou specifikací pro čistou opakovanou objednávku.',
+      product:
+        'Nafukovací SUP pod vlastní značkou — univerzální 10′6″ a touringová 12′6″ se značkovým veslem, pumpičkou, batohem a potištěnými maloobchodními krabicemi.',
+      process: [
+        { title: 'Plánování sortimentu', body: 'Byly vybrány dvě SKU — univerzální 10′6″ a touringová 12′6″ — pro pokrytí maloobchodu.' },
+        { title: 'Schválení vzorku', body: 'Grafika, balení a povrch byly potvrzeny na fyzických deskách.' },
+        { title: 'Výroba za 90 dní', body: 'Objem byl naplánován tak, aby obě SKU odešly společně k sezónnímu oknu.' },
+        { title: 'Opakovaná objednávka ve čtvrtém čtvrtletí', body: 'Opakovaná objednávka byla zadána podle téže fixované specifikace.' },
+      ],
+      result:
+        'Všech 1 200 desek s plným maloobchodním balením bylo odesláno za 90 dní — včas k letnímu regálovému oknu. Řada byla vyprodána a distributor se ve čtvrtém čtvrtletí vrátil s opakovanou objednávkou podle téže fixované specifikace.',
+      outcome: '1 200 desek · 90 dní · 2 SKU · opakovaná objednávka ve čtvrtém čtvrtletí.',
+      metrics: [
+        { value: '1 200', label: 'desek při jednom uvedení na trh' },
+        { value: '90', label: 'dní do úplného dodání' },
+        { value: '2', label: 'maloobchodní SKU, obě včas k oknu' },
+        { value: 'čtvrté čtvrtletí', label: 'opakovaná objednávka dle téže specifikace' },
+      ],
+      takeaways: [
+        'Start se dvěma ověřenými SKU snižuje riziko u skladu a přitom zcela naplní maloobchodný sortiment.',
+        'Jeden program pokrývající desky, příslušenství a balení odstraňuje typické místo selhání při uvedení na trh.',
+        'Fixovaný sezónní termín určuje plán — plánování výroby jej musí považovat za neměnný.',
+        'Fixace specifikace na startu dělá opakované objednávky čistými a stabilními.',
+      ],
+      customizations: [
+        'Univerzální 10′6″ a touringová 12′6″ pro maloobchodný sortiment',
+        'Grafika paluby, dna a balení pod vlastní značkou',
+        'Značkové veslo, pumpička a batoh pro každé SKU',
+        'Potištěné maloobchodní krabice, čárové kódy, etikety a návod pro maloobchod EU',
+        'Specifikace a seznam komponent fixovány pro stabilitu opakovaných objednávek',
+        'Dodání po dávkách navázané na maloobchodní okno uvedení na trh',
+      ],
+      inspectionFocus: [
+        'Přesnost grafiky podle schválených souborů vlastní značky',
+        'Kontrola čárových kódů, etiket a návodů podle trhů',
+        'Úplnost sad pro každé SKU v dávce 1 200 desek',
+        'Výběrová kontrola těsnosti během výroby',
+        'Kontrola krabic a balení pro každé SKU',
+      ],
+      confidentiality:
+        'Podle podmínek dohody se název distributora a jeho maloobchodní zákazníci nezveřejňují. Projekt je prezentován anonymně kvůli ochraně obchodní důvěrnosti.',
+      tags: ['Pod vlastní značkou', 'Maloobchodní sortiment ze 2 SKU', 'Dodání k sezónnímu oknu'],
+    },
+    {
+      slug: 'resort-sup-fleet',
+      customerType: 'Resorty a hotelový sektor',
+      region: 'Evropa / Severní Amerika',
+      productCategory: 'Univerzální nafukovací SUP',
+      projectStage: 'Schválení vzorku → Sériová výroba → Obnova floty',
+      manufacturingScope: 'Grafika, příslušenství, balení a výroba floty',
+      keyRequirements: 'Životnost pro pronájem, kompaktní skladování, kompletní značkové provedení objektu',
+      qualityFocus: 'Těsnost, přesnost grafiky, úplnost příslušenství, značení krabic',
+      navLabel: 'Flota SUP pro luxusní resort',
+      metaTitle: 'Flota SUP pro luxusní resort | 100 značkových desek — iSupfactory',
+      metaDescription:
+        'Jak luxusní resort vybavil plážový program 100 značkovými SUP deskami — individuální grafika, pronajímací konstrukce a sezónní správa floty.',
+      kicker: 'Projekt resortu',
+      h1: 'Jak luxusní resort standardizoval značkovou flotu ze 100 SUP desek',
+      intro: [
+        'Luxusní resort chtěl, aby plážový program působil jako součást objektu — značkové desky v barevné paletě resortu, dostatečně odolné pro každodenní použití hosty a pohodlné pro skladování mezi sezónami.',
+      ],
+      industry: 'Resorty a hotelový sektor',
+      requirement: '100 značkových SUP desek pro pronájem hostům v barevné paletě objektu.',
+      challenge:
+        'Každodenní pronajímací provoz rychle opotřebovává generické floty a místo pro skladování mimo sezónu je omezené. Resort potřeboval desky, které vydrží intenzivní použití, kompaktně se skladují a nesou kompletní značkové provedení objektu.',
+      solution:
+        'Pronajímací nafukovací konstrukce se zesílenou hranou a UV odolnými materiály, grafika po celé desce v barvách resortu a značkové veslo a pumpičky v rámci flotového balíčku.',
+      product:
+        'Individuální nafukovací SUP — univerzální platforma 11′, značková grafika paluby a příslušenství.',
+      process: [
+        { title: 'Konzultace k floře', body: 'Počet hostí, pobřežní linie a délka sezóny určily velikost floty a složení desek.' },
+        { title: 'Značkový vzorek', body: 'Barvy a logo byly schváleny na fyzické desce před výrobou.' },
+        { title: 'Výroba a kontrola kvality', body: 'Bylo vyrobeno 100 desek s vícebodovou kontrolou kvality v celé dávce.' },
+        { title: 'Dodání a obnova', body: 'Sezónní dodání, náhradní díly a program obnovy pro budoucí sezóny.' },
+      ],
+      result:
+        'Flota byla spuštěna včas na začátku sezóny, desky se mezi sezónami skladují v jedné místnosti a zpětná vazba hostí na značkové vybavení vedla k rozšíření floty v následujícím roce.',
+      outcome: 'Spuštění sezóny včas, flota 100 % značková, rozšíření v další sezóně.',
+      customizations: [
+        'Platforma, velikost a konstrukce desky pro každodenní pronajímací provoz',
+        'Grafika po celé palubě v barevné paletě objektu',
+        'Značkování hrany a umístění loga schválené na fyzickém vzorku',
+        'Značkové veslo, pumpička a sada příslušenství pro každou desku',
+        'Číslování a barevné značení floty v celé dávce',
+        'Kompaktní konfigurace skladování a objem sezónní obnovy',
+      ],
+      inspectionFocus: [
+        'Nahustění a těsnost každé desky',
+        'Stav ventilů a zesílené hrany',
+        'Přesnost grafiky a shoda barvy se schváleným vzorkem',
+        'Úplnost příslušenství a sady pro každou desku',
+        'Značení krabic a flotové etikety před odesláním',
+      ],
+      confidentiality:
+        'Podle podmínek dohody se název resortu a značkové materiály nezveřejňují. Projekt je prezentován anonymně kvůli ochraně obchodní důvěrnosti.',
+      tags: ['Značková flota pro hosty', 'Pronajímací konstrukce', 'Sezónní obnova'],
+    },
+    {
+      slug: 'private-label-launch',
+      customerType: 'Maloobchodní značky outdoorových aktivit',
+      region: 'Evropa',
+      productCategory: 'Univerzální nafukovací SUP (pod vlastní značkou)',
+      projectStage: 'Schválení vzorku → Validační dávka → Škálování',
+      manufacturingScope: 'Grafika produktu a balení, vzorky, výroba, úschova nástrojů',
+      keyRequirements: 'Prodejná řada bez vlastního vývoje a výroby SUP',
+      qualityFocus: 'Kontrola verzí grafiky, přesnost balení, úplnost sady',
+      navLabel: 'Uvedení pod vlastní značkou',
+      metaTitle: 'Uvedení SUP pod vlastní značkou | Rozšíření značky — iSupfactory',
+      metaDescription:
+        'Jak zavedená značka outdoorových aktivit vstoupila do SUP s řadou pod vlastní značkou — od loga po první kontejner, se škálovatelným minimálním množstvím.',
+      kicker: 'Projekt pod vlastní značkou',
+      h1: 'Jak značka outdoorových aktivit uvedla řadu SUP pod vlastní značkou — od loga po první kontejner',
+      intro: [
+        'Maloobchodní prodejce sportovního vybavení se zavedenou značkou chtěl vstoupit do paddle sportu bez budování vztahů s továrnami — prodejnou řadu SUP pod vlastním jménem.',
+      ],
+      industry: 'Maloobchodní značky outdoorových aktivit',
+      requirement: 'Řada SUP pod vlastní značkou — logo, barvy a balení na ověřených platformách, první dávka 50 ks.',
+      challenge:
+        'Žádný vlastní vývojový tým SUP, žádné zkušenosti s výrobou a první objednávka je dostatečně malá, aby před škálováním ověřila trh.',
+      solution:
+        'Plná grafika produktu a balení vyvinutá podle značkových materiálů, validační dávka 50 ks a následné škálování na stejných potvrzených platformách s nástroji, které zůstávají u značky.',
+      product:
+        'Nafukovací SUP pod vlastní značkou — značková paluba, veslo, pumpička, batoh a potištěné krabice.',
+      process: [
+        { title: 'Převzetí značkových materiálů', body: 'Logo, barvy a značková příručka byly převedeny na grafiku desky a balení.' },
+        { title: 'Schválení vzorku', body: 'Fyzický vzorek potvrdil povrch, barvy a balení.' },
+        { title: 'Validační dávka', body: 'První dávka 50 ks byla vyprodána před škálováním.' },
+        { title: 'Škálování', body: 'Výroba v kontejnerových objednávkách při stabilní kvalitě; návrhy patří značce.' },
+      ],
+      result:
+        'Řada byla vyprodána v objemu validační dávky za jednu sezónu a rozšířena na kontejnerovou objednávku, přičemž všechny návrhy a nástroje zůstaly u značky.',
+      outcome: 'Validace za jednu sezónu, škálování na kontejnerové objednávky.',
+      customizations: [
+        'Platformy, velikosti a barvy desek vybrané pro řadu značky',
+        'Grafika paluby, dna a balení na základě značkových materiálů',
+        'Značkové veslo, pumpička, batoh a sada příslušenství',
+        'Potištěné maloobchodní krabice a návrh etikety',
+        'Verze čárového kódu a návodu pro cílový trh',
+        'Nástroje a grafika zůstávají u značky',
+      ],
+      inspectionFocus: [
+        'Shoda verze grafiky se schválenými soubory',
+        'Přesnost barvy a povrchu na fyzickém vzorku',
+        'Kontrola balení, čárového kódu a návodu',
+        'Úplnost sad v rámci validační dávky',
+        'Výběrová kontrola těsnosti během výroby',
+      ],
+      confidentiality:
+        'Podle podmínek dohody se název značky a obchodní podrobnosti nezveřejňují. Projekt je prezentován anonymně kvůli ochraně obchodní důvěrnosti.',
+      tags: ['Rozšíření značky', 'Design balení', 'Škálovatelné minimální množství'],
+    },
+    {
+      slug: 'club-team-boards',
+      customerType: 'Paddle kluby a týmy',
+      region: 'Severní Amerika',
+      productCategory: 'Tréninková nafukovací SUP',
+      projectStage: 'Schválení vzorku → Výroba floty → Opakovaná objednávka na rozšíření',
+      manufacturingScope: 'Značkování klubu, výroba floty, podpora náhradními díly',
+      keyRequirements: 'Jednotný vzhled týmu, omezený rozpočet, identické budoucí rozšíření',
+      qualityFocus: 'Přesnost grafiky, těsnost, úplnost sady, stabilita opakovaných objednávek',
+      navLabel: 'Desky klubu',
+      metaTitle: 'Týmové SUP desky klubu | Obnova značkové floty — iSupfactory',
+      metaDescription:
+        'Jak paddle klub obnovil značku a vybavení flotou z 25 značkových tréninkových desek — týmová grafika, podpora náhradními díly a stabilní opakované objednávky.',
+      kicker: 'Projekt klubu',
+      h1: 'Jak paddle klub obnovil značku a nahradil flotu 25 tréninkovými deskami',
+      intro: [
+        'Paddle klub obnovil značku a potřeboval odpovídající vybavení — jednotnou týmovou flotu pro tréninky a závody bez různorodého skladiště.',
+      ],
+      industry: 'Paddle kluby a týmy',
+      requirement: '25 značkových tréninkových desek s názvem klubu, barvami a logem a také náhradními díly.',
+      challenge:
+        'Předchozí flota byla různorodá a neznačková; rozpočty byly omezené a budoucí rozšíření vyžadovalo identickou vhodnou zásobu.',
+      solution:
+        'Značkování klubu na každé desce, flotové ceny za objem a náhradní díly s návody k opravám pro prodloužení životnosti desek.',
+      product: 'Individuální týmové SUP — tréninkový tvar s grafikou klubu, plus náhradní žebra a opravné sady.',
+      process: [
+        { title: 'Převzetí údajů klubu', body: 'Byly analyzovány členství, typy lekcí a současné vybavení.' },
+        { title: 'Výběr desek', body: 'Tréninkové a začátečnické tvary byly přizpůsobeny programu klubu.' },
+        { title: 'Značkování', body: 'Název klubu, barvy a logo byly naneseny na celou flotu.' },
+        { title: 'Dodání a růst', body: 'Flota byla dodána s náhradními díly; identická opakovaná objednávka pro rozšíření.' },
+      ],
+      result:
+        'Účastníci trénují na jednotném značkovém vybavení a v další sezóně klub rozšířil flotu identickou opakovanou objednávkou při stejné kvalitě.',
+      outcome: 'Jednotná flota, identická opakovaná objednávka na rozšíření.',
+      customizations: [
+        'Tréninkové a začátečnické platformy podle programu klubu',
+        'Název klubu, barvy a logo na celé floře',
+        'Číslování desek a seskupení podle velikostí pro každou tréninkovou skupinu',
+        'Náhradní žebra a opravné sady jako příslušenství floty',
+        'Fixovaná specifikace opakované objednávky pro identické rozšíření',
+      ],
+      inspectionFocus: [
+        'Přesnost grafiky názvu klubu, barev a loga',
+        'Kontrola nahustění a těsnosti',
+        'Úplnost příslušenství a opravných sad',
+        'Jednotnost barev v celé dávce 25 desek',
+      ],
+      confidentiality:
+        'Podle podmínek dohody se název a sídlo klubu nezveřejňují. Projekt je prezentován anonymně kvůli ochraně obchodní důvěrnosti.',
+      tags: ['Značkování klubu', 'Flotové ceny', 'Podpora náhradními díly'],
+    },
+    {
+      slug: 'school-program-fleet',
+      customerType: 'Vzdělávání a mládežnické programy',
+      region: 'Evropa',
+      productCategory: 'Začátečnické a víceosobové nafukovací SUP',
+      projectStage: 'Analýza programu → Schválení vzorku → Dodání floty',
+      manufacturingScope: 'Návrh sady, výroba, náhradní díly a podpora obnovy',
+      keyRequirements: 'Vybavení s prioritou bezpečnosti, objemy podle velikosti tříd, omezený personál',
+      qualityFocus: 'Stabilita, těsnost, úplnost příslušenství, návody pro uživatele',
+      navLabel: 'Flota školního programu',
+      metaTitle: 'Školní program SUP | Začátečnická flota — iSupfactory',
+      metaDescription:
+        'Jak škola spustila volitelný předmět paddle sportu s flotou 15 začátečnických a víceosobových desek — vybavení s prioritou bezpečnosti pro výcvik.',
+      kicker: 'Projekt školy',
+      h1: 'Jak škola spustila začátečnickou flotu 15 desek pro výuku paddle sportu',
+      intro: [
+        'Škola, která zaváděla volitelný předmět paddle sportu, potřebovala stabilní a bezpečné vybavení pro začátečníky, dimenzované na velikost tříd a snadno ovladatelné omezeným personálem.',
+      ],
+      industry: 'Vzdělávání a mládežnické programy',
+      requirement: 'Začátečnická flota podle velikosti tříd včetně víceosobových desek pro první lekce.',
+      challenge:
+        'Různá úroveň přípravy, přísné bezpečnostní požadavky, cykly školních nákupů a rozpočet, který musí pokrýt i budoucí třídy žáků.',
+      solution:
+        'Široké začátečnické desky s velkým objemem a víceosobové desky, programové ceny odpovídající počtu tříd a srozumitelné návody pro uživatele a instruktory.',
+      product: 'Začátečnická flota SUP — stabilní platformy se zesílenou konstrukcí pro dlouhou životnost programu.',
+      process: [
+        { title: 'Analýza programu', body: 'Velikost tříd, vodní plocha a způsob práce instruktorů určily sadu.' },
+        { title: 'Sestavení sady', body: 'Typy desek a objemy byly vybrány podle výcvikových úkolů.' },
+        { title: 'Schválení vzorku', body: 'Stabilita a konstrukce byly ověřeny na fyzické desce.' },
+        { title: 'Dodání a obnova', body: 'Velkoobchodní dodání, náhradní díly a opakované objednávky pro nové třídy.' },
+      ],
+      result:
+        'Instruktoři zaznamenali rychlejší posun už na první lekci díky stabilním platformám a program následující rok obnovil vybavení vhodnou opakovanou objednávkou.',
+      outcome: 'Rychlejší osvojení, obnova vybavení v dalším roce.',
+      customizations: [
+        'Široké začátečnické platformy s velkým objemem pro první lekce',
+        'Víceosobové desky pro skupinové lekce',
+        'Velikost a počet desek podle velikosti tříd',
+        'Srozumitelné návody a školní značení',
+        'Zesílená konstrukce pro dlouhou životnost programu',
+        'Velkoobchodní dodání a specifikace objednávky na obnovu',
+      ],
+      inspectionFocus: [
+        'Kontrola stability a konfigurace paluby',
+        'Nahustění a těsnost každé desky',
+        'Úplnost příslušenství pro každou desku a sadu třídy',
+        'Přesnost návodů a značení',
+        'Značení krabic a kontrola balení sad třídy',
+      ],
+      confidentiality:
+        'Podle podmínek dohody se název školy a region nezveřejňují. Projekt je prezentován anonymně kvůli ochraně obchodní důvěrnosti.',
+      tags: ['Začátečnická flota', 'Spuštění programu', 'Objednávky na obnovu'],
+    },
+    {
+      slug: 'distributor-line-expansion',
+      customerType: 'Distributoři a velkoobchodní společnosti',
+      region: 'Dva exportní regiony',
+      productCategory: 'Nafukovací SUP střední třídy (6 SKU)',
+      projectStage: 'Plánování sortimentu → Schválení vzorku → Dodání na více trhů',
+      manufacturingScope: 'Desky, příslušenství a maloobchodní balení v jednom programu',
+      keyRequirements: 'Jediné kvalitní centrum, jednotné značkové provedení, snížení zásob u každého SKU',
+      qualityFocus: 'Těsnost, přesnost grafiky, přesnost čárových kódů a etiket, soulad se seznamem komponent',
+      navLabel: 'Rozšíření řady distributora',
+      metaTitle: 'Rozšíření řady SUP distributora | Program se 6 SKU — iSupfactory',
+      metaDescription:
+        'Jak distributor vodních sportů doplnil plnou řadu SUP střední třídy ze šesti SKU — jedna továrna, jeden program, export na více trhů.',
+      kicker: 'Projekt distributora',
+      h1: 'Jak distributor uvedl řadu SUP ze 6 SKU na dva trhy',
+      intro: [
+        'Distributor vodních sportů prodávající kajaky a příslušenství chtěl získat vlastní řadu nafukovacích SUP, aniž by rozdělil dodávky mezi několik továren na desky, vesla a pumpičky.',
+      ],
+      industry: 'Distributoři a velkoobchodní společnosti',
+      requirement:
+        'Řada SUP střední třídy ze šesti SKU (od 10′6″ do 12′6″ plus sady příslušenství) s exportem do dvou regionů.',
+      challenge:
+        'Samostatné továrny na desky, vesla a pumpičky znamenaly nekonzistentní značkové provedení, tři samostatná dodací místa a žádnou jednotnou odpovědnost za kvalitu u záručních případů.',
+      solution:
+        'Jeden program pokrývající desky, příslušenství a maloobchodní balení; společné sady příslušenství pro snížení zásob u každého SKU; a dodací podmínky přizpůsobené modelu každého trhu.',
+      product:
+        'Šest maloobchodních SKU pod značkou — platformy nafukovacích SUP s úplnými sadami v potištěných krabicích a odděleným balením.',
+      process: [
+        { title: 'Plánování sortimentu', body: 'Mezery na trhu a cenové úrovně určily šest SKU a složení sad.' },
+        { title: 'Jednotné značkové provedení', body: 'Jeden designový systém byl použit na desky, vesla, pumpičky a krabice.' },
+        { title: 'Programové ceny', body: 'Objemové ceny pro celý program, ne pro každé SKU zvlášť.' },
+        { title: 'Oddělené dodání podle trhů', body: 'Standardní exportní podmínky pro domácí region a plný servis pro druhý trh.' },
+      ],
+      result:
+        'Řada byla uvedena na obou trzích za jednu sezónu; společné sady příslušenství snížily skladové zásoby a záruční dotazy se řešily přes jednotné kontaktní místo továrny.',
+      outcome: 'Uvedení na více trzích za jednu sezónu, méně skladových zásob, jedno místo pro záruku.',
+      customizations: [
+        'Šest SKU od 10′6″ do 12′6″ plus sady příslušenství',
+        'Jeden designový systém pro desky, vesla, pumpičky a krabice',
+        'Společné sady příslušenství pro snížení zásob u každého SKU',
+        'Úplné sady s odděleným balením v potištěných maloobchodních krabicích',
+        'Verze čárových kódů, etiket a návodů pro každý cílový trh',
+        'Dodací podmínky a model balení pro každý trh',
+      ],
+      inspectionFocus: [
+        'Soulad se seznamem komponent pro každou konfiguraci SKU',
+        'Přesnost grafiky a značkového provedení u všech šesti SKU',
+        'Přesnost čárových kódů a etiket podle trhů',
+        'Úplnost sad příslušenství a oddělené balení',
+        'Kontrola těsnosti v celé dávce',
+      ],
+      confidentiality:
+        'Podle podmínek dohody se název distributora a seznam zákazníků nezveřejňují. Projekt je prezentován anonymně kvůli ochraně obchodní důvěrnosti.',
+      tags: ['Program z více SKU', 'Úplné maloobchodní sady'],
+    },
+    {
+      slug: 'startup-brand-zero-to-one',
+      customerType: 'Startupy v oblasti SUP',
+      region: 'Severní Amerika',
+      productCategory: 'ODM univerzální nafukovací SUP',
+      projectStage: 'Koncept → Pilotní dávka → Objednávka na uvedení na trh',
+      manufacturingScope: 'ODM vývoj, grafika, balení, výroba',
+      keyRequirements: 'První dávka s nízkým minimálním množstvím, vazba na termín uvedení na trh, nástroje zůstávají u značky',
+      qualityFocus: 'Těsnost, přesnost grafiky, kontrola balení',
+      navLabel: 'Uvedení startup značky 0→1',
+      metaTitle: 'Uvedení startup značky SUP | Od konceptu k první dávce — iSupfactory',
+      metaDescription:
+        'Jak startup SUP prošel cestou od konceptu k vyprodané první dávce — ODM vývoj, pilotní dávka 10 ks a navazující značková objednávka 200 ks na uvedení na trh.',
+      kicker: 'Projekt startupu',
+      h1: 'Od konceptu k vyprodanému uvedení 200 desek pro startup značky SUP',
+      intro: [
+        'Dva zakladatelé s vlastním publikem, ale bez továrny chtěli prodávat vlastní SUP — ODM desku vyvinutou podle jejich specifikace a objednávku objemu na uvedení na trh, která je nespálí.',
+      ],
+      industry: 'Startupy v oblasti SUP',
+      requirement: 'ODM vývoj s nízkým minimálním množstvím: pilotní dávka 10 ks pro ověření a následně 200 ks na uvedení na trh.',
+      challenge:
+        'Žádný designový tým, žádné zkušenosti s importem a první objednávka je pro většinu továren příliš malá — plus termín uvedení na trh je vázán na sezónu severní polokoule.',
+      solution:
+        'ODM vývoj podle jejich konceptu na ověřené platformě, pilotní dávka 10 ks pokrývající vzorky a kontrolu dodání a následně značková objednávka 200 ks na uvedení na trh s nástroji, které zůstávají u značky.',
+      product:
+        'Nafukovací SUP na ODM pod značkou — individuální grafika paluby, balení a rozměry krabic připravených pro maloobchod.',
+      process: [
+        { title: 'Schůzka ke konceptu', body: 'Cílový paddleář, cenová úroveň a termín uvedení na trh určily základní platformu.' },
+        { title: 'Pilotní dávka', body: '10 ks potvrdilo produkt a balení od začátku do konce.' },
+        { title: 'Objednávka na uvedení na trh', body: 'Bylo vyrobeno 200 ks s potvrzenou grafikou a specifikací krabic.' },
+        { title: 'Cesta ke škálování', body: 'Nástroje zůstávají u značky; opakované objednávky za lepších cen.' },
+      ],
+      result:
+        'První dávka byla vyprodána během několika týdnů po startu sezóny; zpětná vazba z pilotní dávky umožnila odstranit problém s balením před uvedením velké objednávky do výroby.',
+      outcome: 'Vyprodaná dávka na uvedení na trh, balení opravené před škálováním, zajištěná opakovaná objednávka.',
+      customizations: [
+        'ODM deska vyvinutá podle konceptu značky na ověřené platformě',
+        'Individuální grafika paluby a značkové balení',
+        'Rozměry krabic připravených pro maloobchod pro objednávku na uvedení na trh',
+        'Sada příslušenství a konfigurace sady podle cílového paddleáře',
+        'Nástroje a grafika zůstávají u značky',
+        'Výrobní plán navázaný na termín uvedení na trh',
+      ],
+      inspectionFocus: [
+        'Přesnost grafiky podle schválených souborů',
+        'Kontrola těsnosti na pilotní dávce a objednávce na uvedení na trh',
+        'Kontrola balení a krabic včetně opravy podle pilotní dávky',
+        'Úplnost příslušenství a sady',
+      ],
+      confidentiality:
+        'Podle podmínek dohody se název značky a podrobnosti uvedení na trh nezveřejňují. Projekt je prezentován anonymně kvůli ochraně obchodní důvěrnosti.',
+      tags: ['ODM vývoj', 'Pilotní dávka s nízkým MOQ', 'Plánování podle sezónního termínu'],
+    },
+    {
+      slug: 'rental-fleet-multi-site',
+      customerType: 'Provozovatelé pronájemných flot',
+      region: 'Severní Amerika',
+      productCategory: 'Pronájemná univerzální nafukovací SUP',
+      projectStage: 'Audit floty → Jednotná výroba → Sezónní obnova',
+      manufacturingScope: 'Specifikace floty, výroba, sady náhradních dílů, program obnovy',
+      keyRequirements: 'Jedna jednotná deska na všechna místa, životnost při pronajímacím provozu',
+      qualityFocus: 'Kontrola zesílené konstrukce, těsnost, úplnost sady',
+      navLabel: 'Flota na více místech',
+      metaTitle: 'Rozšíření pronájemné floty | 200 desek, 3 místa — iSupfactory',
+      metaDescription:
+        'Jak provozovatel pronájmu na více místech nahradil různorodé skladiště 200 jednotnými deskami na třech lokalitách — flotové ceny, sezónní obnova a dodání náhradních dílů.',
+      kicker: 'Projekt pronájmu',
+      h1: 'Jak provozovatel pronájmu standardizoval flotu 200 desek na třech místech',
+      intro: [
+        'Provozovatel pronájmu působící na třech pobřežních lokalitách potřeboval jednotnou flotu místo různorodého skladiště — stejnou desku na každém místě za flotovou cenu.',
+      ],
+      industry: 'Provozovatelé pronájemných flot',
+      requirement: '200 pronájemních desek na třech místech se sezónní obnovou a opravitelnými díly.',
+      challenge:
+        'Různorodá flota různého stáří komplikovala opravy a cenotvorbu; pronajímací provoz vyžadoval zesílenou konstrukci a skladování mimo sezónu bylo rozdělené mezi tři místa.',
+      solution:
+        'Jedna pronajímací platforma na všech místech se zesílenou hranou a UV odolnými materiály, flotové ceny za objem 200 desek a sada náhradních dílů s návody k opravám pro každé místo.',
+      product: 'Pronájemná nafukovací SUP — univerzální platforma 11′ se zesílenou konstrukcí a opravnými sadami.',
+      process: [
+        { title: 'Audit floty', body: 'Objemy a vytížení míst určily rozdělení mezi lokality.' },
+        { title: 'Jednotná specifikace', body: 'Jedna deska všude — jednodušší opravy, ceny a školení.' },
+        { title: 'Flotové ceny', body: 'Objemová sleva na společnou objednávku 200 desek.' },
+        { title: 'Náhradní díly a obnova', body: 'Sady náhradních dílů pro každé místo plus stanovený sezónní cyklus výměny.' },
+      ],
+      result:
+        'Jednotná flota odstranila zmatek v opravách mezi místy, společná objednávka otevřela flotové ceny a program 200 desek se stal základem sezónní obnovy.',
+      outcome: 'Jednotné provozní postupy, nižší cena kusu, opakovatelný sezónní cyklus.',
+      customizations: [
+        'Jedna pronajímací platforma na všech třech místech',
+        'Zesílená hrana a UV odolné materiály pro pronajímací provoz',
+        'Rozdělení po místech a flotové číslování podle lokalit',
+        'Sady náhradních dílů s návody k opravám pro každé místo',
+        'Stanovený sezónní cyklus výměny',
+      ],
+      inspectionFocus: [
+        'Kontrola zesílené konstrukce každé desky',
+        'Nahustění a těsnost každé desky',
+        'Úplnost příslušenství a opravných sad pro každé místo',
+        'Přesnost flotového číslování a značení míst',
+        'Kontroly balení pro oddělené dodání podle míst',
+      ],
+      confidentiality:
+        'Podle podmínek dohody se název provozovatele a umístění míst nezveřejňují. Projekt je prezentován anonymně kvůli ochraně obchodní důvěrnosti.',
+      tags: ['Flota na více místech', 'Pronajímací konstrukce', 'Sezónní obnova'],
+    },
+    {
+      slug: 'touring-sup-range',
+      customerType: 'Distributoři outdoorových a vodních sportů',
+      region: 'Evropa',
+      productCategory: 'Touringová nafukovací SUP',
+      projectStage: 'Brief k produktu → Schválení vzorku → Sériová výroba',
+      manufacturingScope: 'Analýza platformy, grafika, konfigurace příslušenství, maloobchodní balení a výroba',
+      keyRequirements: 'Touringové vlastnosti, individuální grafika projektu, úplná maloobchodní sada',
+      qualityFocus: 'Těsnost, přesnost grafiky, úplnost příslušenství, značení krabic',
+      navLabel: 'Řada touringových SUP',
+      metaTitle: 'Vývoj řady touringových SUP | Distributor outdoorových aktivit — iSupfactory',
+      metaDescription:
+        'Jak iSupfactory podpořil řadu touringových SUP pro evropského distributora outdoorových aktivit — analýza platformy, individuální grafika, konfigurace příslušenství a maloobchodní balení.',
+      kicker: 'Projekt touring',
+      h1: 'Vývoj řady touringových SUP pro evropského distributora outdoorových aktivit',
+      intro: [
+        'Individuální projekt nafukovacích SUP zahrnující analýzu platformy, individuální grafiku, konfiguraci příslušenství, maloobchodní balení a plánování kvality — od schválení vzorku po přípravu k odeslání.',
+      ],
+      industry: 'Distributoři a velkoobchodní společnosti',
+      requirement:
+        'Řada touringových SUP s individuální grafikou, konfigurací příslušenství a maloobchodním balením pod kontrolou od schválení vzorku po odeslání.',
+      challenge:
+        'Touringoví paddleáři očekávají stabilitu ve vysoké rychlosti a předvídatelné klouzání, takže platformu, rozměry a objem bylo nutné analyzovat před výrobou. Grafika musela zohlednit hranu, podložku EVA a umístění ventilů a každá maloobchodní sada musela dorazit kompletní v celé řadě.',
+      solution:
+        'Analýza platformy a rozměrů podle touringových vlastností, individuální grafika sladěná s konstrukčními prvky desky, konfigurace příslušenství včetně vesla, linky a tašky, plánování maloobchodního balení a řízená sériová výroba s určenými kontrolními body kvality.',
+      product:
+        'Řada touringových nafukovacích SUP — výkonná platforma s individuální grafikou, úplnou sadou příslušenství a maloobchodním balením.',
+      process: [
+        { title: 'Analýza platformy', body: 'Touringové rozměry, objem a profil hrany byly vybrány podle cílového paddleáře a trhu.' },
+        { title: 'Specifikace a grafika', body: 'Byla připravena technická specifikace, zarovnání grafiky a seznam komponent schválený zákazníkem.' },
+        { title: 'Schválení vzorku', body: 'Konstrukce, grafika a sada byly potvrzeny na fyzické desce.' },
+        { title: 'Výroba a inspekce', body: 'Sériová výroba s kontrolními body kvality, kontrolou balení a povolením k odeslání.' },
+      ],
+      result:
+        'Řada prošla cestou od schválení vzorku po přípravu k odeslání pod řízenou dokumentací k produktu, grafice, seznamu komponent a balení — schválený vzorek sloužil jako etalon pro výrobu a závěrečnou inspekci.',
+      outcome: 'Řízená cesta od vzorku k výrobě; grafika a balení fixovány před výrobou.',
+      customizations: [
+        'Touringová platforma, rozměry a konfigurace objemu',
+        'Individuální grafika horní plochy, dna a hrany',
+        'Rozvržení podložky EVA a barevná konfigurace',
+        'Systém žer, umístění gumen a sada příslušenství',
+        'Značková taška, verze návodu a maloobchodní balení',
+        'Značení krabic a požadavky na čárové kódy pro cílový trh',
+      ],
+      inspectionFocus: [
+        'Kontrola nahustění a těsnosti',
+        'Prohlídka ventilů, hrany a švů',
+        'Přesnost grafiky podle schválených souborů',
+        'Úplnost příslušenství a sady',
+        'Kontrola maloobchodního balení, čárových kódů a značení krabic',
+      ],
+      confidentiality:
+        'Podle podmínek dohody se název distributora a seznam zákazníků nezveřejňují. Projekt je prezentován anonymně kvůli ochraně obchodní důvěrnosti.',
+      tags: ['Řada touringových SUP', 'Individuální grafika', 'Maloobchodní balení'],
+    },
+    {
+      slug: 'fishing-sup-program',
+      customerType: 'Maloobchodní prodejci outdoorových aktivit',
+      region: 'Severní Amerika',
+      productCategory: 'Rybářská nafukovací SUP',
+      projectStage: 'Analýza konceptu → Schválení vzorku → Výroba programu',
+      manufacturingScope: 'Konfigurace platformy, umístění příslušenství, balení a výroba',
+      keyRequirements: 'Integrace rybářského příslušenství, stabilní platforma, organizovaná sada',
+      qualityFocus: 'Těsnost, upevnění příslušenství, přesnost grafiky, úplnost sady',
+      navLabel: 'Rybářský program SUP',
+      metaTitle: 'Vývoj rybářské SUP | Umístění příslušenství a sada — iSupfactory',
+      metaDescription:
+        'Jak iSupfactory vyvinul konfiguraci rybářské SUP pro maloobchodního prodejce outdoorových aktivit — umístění příslušenství, organizovaná sada a maloobchodní balení v jednom řízeném programu.',
+      kicker: 'Projekt rybářské řady',
+      h1: 'Vývoj rybářské SUP pro maloobchodního prodejce outdoorových aktivit — umístění příslušenství a konfigurace sady',
+      intro: [
+        'Rybářský projekt SUP: stabilní platforma s rybářskými zónami pro příslušenství, organizovaná sada a maloobchodní balení — od analýzy konceptu po výrobu programu.',
+      ],
+      industry: 'Maloobchodní značky outdoorových aktivit',
+      requirement:
+        'Konfigurace rybářské SUP s upevněním příslušenství, organizovanou sadou a maloobchodním balením — od analýzy konceptu po výrobu programu.',
+      challenge:
+        'Rybářské desky potřebují upevnění příslušenství — držáky na pruty, D-kroužky a zóny pro box — bez újmy na stabilitě. Sada musí zůstat organizovaná na palubě a balení musí kategorii v maloobchodu jasně prezentovat.',
+      solution:
+        'Široká stabilní platforma s určenými zónami pro příslušenství, umístění D-kroužků a gumen pro rybářské vybavení, organizovaná sada s opravnou sadou a maloobchodní balení vyvinuté v rámci jednoho řízeného programu.',
+      product:
+        'Rybářská nafukovací SUP — stabilní platforma s rybářskými zónami pro příslušenství, organizovaná sada a maloobchodní balení.',
+      process: [
+        { title: 'Analýza konceptu', body: 'Cílové použití, přepravované vybavení a struktura sady určily konfiguraci.' },
+        { title: 'Umístění příslušenství', body: 'D-kroužky, gumy a úložné zóny byly rozmístěny na palubě.' },
+        { title: 'Schválení vzorku', body: 'Stabilita a upevnění příslušenství byly ověřeny na fyzické desce.' },
+        { title: 'Výroba programu', body: 'Určené kontrolní body kvality, kontrola sady a povolení k odeslání.' },
+      ],
+      result:
+        'Konfigurace byla potvrzena na schváleném vzorku: upevnění příslušenství, struktura sady a balení byly odsouhlaseny před výrobou — program byl odeslán s ověřenými sadami.',
+      outcome: 'Umístění příslušenství a sada fixovány ve fázi vzorku; odeslány ověřené sady.',
+      customizations: [
+        'Široká stabilní platforma s rybářskými zónami pro příslušenství',
+        'Umístění držáků na pruty, D-kroužků a gumen',
+        'Rozvržení paluby pro box a vybavení',
+        'Výběr vesla, žebra a linky pro rybářské použití',
+        'Organizovaná sada příslušenství a opravná sada',
+        'Maloobchodní balení pro kategorii rybářských SUP',
+        'Čárový kód a značení krabic pro cílový trh',
+      ],
+      inspectionFocus: [
+        'Kontrola upevnění příslušenství a umístění D-kroužků',
+        'Kontrola nahustění a těsnosti',
+        'Přesnost grafiky a rozvržení paluby',
+        'Úplnost sady a konfigurace příslušenství',
+        'Kontrola maloobchodního balení a značení krabic',
+      ],
+      confidentiality:
+        'Podle podmínek dohody se název prodejce a podrobnosti kanálu nezveřejňují. Projekt je prezentován anonymně kvůli ochraně obchodní důvěrnosti.',
+      tags: ['Rybářská konfigurace', 'Umístění příslušenství', 'Organizace sady'],
+    },
+    {
+      slug: 'yoga-sup-program',
+      customerType: 'Školy a programy vodních sportů',
+      region: 'Evropa',
+      productCategory: 'Nafukovací SUP pro jógu',
+      projectStage: 'Analýza programu → Schválení vzorku → Dodání floty',
+      manufacturingScope: 'Konfigurace stabilní platformy, povrch paluby, výroba a balení programu',
+      keyRequirements: 'Stabilita pro skupinové lekce, úplné pokrytí paluby EVA, jednotná flota',
+      qualityFocus: 'Pokrytí paluby, těsnost, přesnost grafiky, úplnost sady',
+      navLabel: 'Program joga-SUP',
+      metaTitle: 'Vývoj joga-SUP | Výcvikový program — iSupfactory',
+      metaDescription:
+        'Jak iSupfactory vyvinul stabilní konfiguraci joga-SUP pro výcvikový program vodních sportů — úplné pokrytí paluby a jednotná flota programu.',
+      kicker: 'Projekt jógy',
+      h1: 'Vývoj stabilní konfigurace joga-SUP pro výcvikový program vodních sportů',
+      intro: [
+        'Konfigurace joga-SUP pro výcvikový program: široká platforma s velkým objemem a úplným pokrytím paluby EVA, vyrobená jako jednotná flota pro skupinové lekce.',
+      ],
+      industry: 'Vzdělávání a mládežnické programy',
+      requirement: 'Stabilní konfigurace joga-SUP s úplným pokrytím paluby pro skupinové lekce v objemech programu.',
+      challenge:
+        'Lekce jógy vyžadují širokou platformu s velkým objemem, která zůstává na vodě absolutně stabilní. Skupiny potřebují jednotné desky a instruktoři srozumitelné návody a pohodlné skladování mezi lekcemi.',
+      solution:
+        'Široká platforma s velkým objemem a úplným pokrytím paluby EVA, jednotná konfigurace floty v celém programu a zahrnuté návody pro instruktory a značení programu.',
+      product:
+        'Nafukovací joga-SUP — stabilní platforma s úplným pokrytím podložkou a jednotná flota programu.',
+      process: [
+        { title: 'Analýza programu', body: 'Styl lekcí, velikost skupin a skladování určily konfiguraci.' },
+        { title: 'Konfigurace', body: 'Platforma, pokrytí paluby a povrch byly zadány pro celou flotu.' },
+        { title: 'Schválení vzorku', body: 'Stabilita a pokrytí paluby byly ověřeny na fyzické desce.' },
+        { title: 'Dodání floty', body: 'Byly vyrobeny objemy programu s kontrolou sad a balení.' },
+      ],
+      result:
+        'Flota byla odeslána jako jednotná konfigurace: každá deska odpovídá schválenému vzorku z hlediska stability, pokrytí paluby a povrchu a instruktorům byly předány doporučení.',
+      outcome: 'Jednotná flota odpovídá schválenému vzorku; balení programu bylo zkontrolováno.',
+      customizations: [
+        'Široká platforma s velkým objemem pro stabilitu ve stoji',
+        'Úplné pokrytí paluby EVA v celé pracovní zóně',
+        'Rozvržení paluby a umístění popruhů pro lekce',
+        'Jednotná barva a povrch v celé floře',
+        'Návody pro instruktory a značení programu',
+        'Konfigurace skladování a balení programu',
+      ],
+      inspectionFocus: [
+        'Prohlídka pokrytí paluby a přilnavosti EVA',
+        'Kontrola nahustění a těsnosti',
+        'Kontrola stability na schváleném vzorku',
+        'Jednotnost grafiky a povrchu v celé dávce',
+        'Kontroly úplnosti a balení programu',
+      ],
+      confidentiality:
+        'Podle podmínek dohody se název programu a sídlo nezveřejňují. Projekt je prezentován anonymně kvůli ochraně obchodní důvěrnosti.',
+      tags: ['Konfigurace pro jógu', 'Úplné pokrytí paluby', 'Flota programu'],
+    },
+  ],
 }
 
 export function getProject(locale: Locale, slug: string): ProjectData | undefined {
@@ -8837,6 +9510,12 @@ export const projectsMeta: Localized<ProjectsMeta> = {
     metaDescription:
       'Реальные проекты по производству SUP: как курорты, бренды, клубы и школы превращали требования к продукту в готовые гребные доски вместе с iSupfactory.',
     h1: 'Проекты — как мы разрабатываем SUP-продукты вместе с клиентами',
+  },
+  cs: {
+    metaTitle: 'Projekty vývoje produktů SUP a případové studie | iSupfactory',
+    metaDescription:
+      'Skutečné projekty výroby SUP: jak resorty, značky, kluby a školy přeměnily požadavky na produkt v hotové paddle desky společně s iSupfactory.',
+    h1: 'Projekty — jak vyvíjíme produkty SUP se svými klienty',
   },
 }
 

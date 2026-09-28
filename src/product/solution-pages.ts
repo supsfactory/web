@@ -4874,7 +4874,377 @@ export const solutionPages: Localized<SolutionPageData[]> = {
       ctaLabel: 'Обсудите SUP-программу вашей школы',
     },
   ],
-
+  cs: [
+    {
+      slug: 'custom-sup',
+      navLabel: 'Individuální SUP desky',
+      metaTitle: 'Vývoj individuálních SUP desek | Výroba desek na zakázku',
+      metaDescription:
+        'Vyvinuite individuální SUP produkty s iSupfactory. Podporujeme požadavky na produkt, úpravy, prototypy a výrobu pro firmy i organizace.',
+      kicker: 'Výrobce individuálních SUP desek',
+      serviceType: 'Vývoj individuálních SUP produktů',
+      answer:
+        'Vyrábíme individuální nafukovací SUP desky, pevné desky i příslušenství podle vašich požadavků — tvaru, grafiky, materiálů a balení — od návrhu přes vzorek až po sériovou výrobu. Individuální projekty začínají na 90–100+ ks na 150 m roli (standardní objem); vzorky odesíláme za 7–12 dní a výroba trvá 25–35 dní po potvrzení objednávky a zálohy.',
+      h1: 'Individuální SUP produkty postavené kolem vašich požadavků',
+      intro: [
+        'Potřebujete paddle desky postavené podle vaší specifikace — tvar, grafika, materiály, balení — bez toho, abyste museli udržovat vlastní továrnu. Jsme výrobním partnerem, který přijme vaše požadavky a vrátí hotový produkt.',
+        'Každý projekt vede vlastní specialista, který vede návrh, vzorky, výrobu a expedici, takže vždy víte, v jakém stavu je vaše objednávka.',
+      ],
+      scenario: {
+        title: 'Potřebujete desky postavené podle svých požadavků',
+        body: 'Požadavek na produkt, ne položka z katalogu. Váš tvar, vaše grafika, vaše úroveň kvality, vaše balení. Navrhujeme, vyrobíme vzorek a vyrobíme produkt na osvědčených platformách flexibilně, a to už od první malé dávky.',
+      },
+      pairs: [
+        {
+          problem: 'Tovární katalogy nabízejí jen skladové konstrukce, které nelze změnit.',
+          solution: 'Vyrábíme desky podle vašeho tvaru, grafiky a specifikace — od prvního vzorku až po celou sérii.',
+        },
+        {
+          problem: 'Velké minimální objednávky svazují oběžný kapitál dřív, než se potvrdí trh.',
+          solution: 'Individuální výroba začíná na 90–100+ ks na jednu formu, zatímco pilotní dávky na stávajících platformách na 20–50 ks — první dávky tedy zůstávají malé a cena za kus rozumná.',
+        },
+        {
+          problem: 'Nemáte vlastní projektový ani produktový tým.',
+          solution: 'Náš interní projektový a vývojový tým přemění nápad, náčrt nebo referenční desku na výkresy připravené k výrobě.',
+        },
+        {
+          problem: 'Neznámá kvalita továrny a pomalá komunikace.',
+          solution: 'Specialista na projekt zodpovídá za vzorky, etapy kontroly kvality a dodací lhůty od začátku do konce — jedno kontaktní místo a přehledné aktualizace.',
+        },
+      ],
+      steps: [
+        { title: 'Pošlete nám svůj projekt', body: 'Popište požadavky nebo sdílejte výkresy a referenční obrázky.' },
+        { title: 'Návrh a vzorek', body: 'Vypracujeme výkresy a odešleme fyzický vzorek za 7–12 dní.' },
+        { title: 'Schválení a výroba', body: 'Po schválení trvá výroba 25–35 dní a kontrola kvality probíhá v několika etapách.' },
+        { title: 'Dodání a opakované objednávky', body: 'Export do jakékoli země s profesionálním balením a podpora opakovaných objednávek při neměnné kvalitě.' },
+      ],
+      caseStudy: {
+        title: 'Rozšíření sortimentu značky outdoorových aktivit',
+        body: 'Značka outdoorových aktivit vstoupila na trh paddle sportu touringovou deskou pod vlastní značkou. Vyvinuli jsme desku podle původního náčrtu, schválení vzorku trvalo 15 dní a první sérii jsme vyrobili za 25–35 dní.',
+        tags: ['Vývoj desky', 'Značková grafika', 'První série'],
+      },
+      faqs: [
+        {
+          q: 'Můžete vyvinout SUP produkt podle mého nápadu?',
+          a: 'Ano. Pomůžeme vám posoudit požadavky a vyvinout řešení připravené k výrobě — od konceptu a výkresů až po fyzický vzorek.',
+        },
+        {
+          q: 'Mohu si přizpůsobit grafiku a barvy SUP?',
+          a: 'Ano. Individuální grafiku, barvy a prvky značky lze navrhnout podle požadavků vašeho projektu.',
+        },
+        {
+          q: 'Jaké je minimální množství objednávky (MOQ) individuálních SUP desek?',
+          a: 'Individuální výroba začíná na 90–100+ ks na jednu formu a pilotní dávky na stávajících platformách na 20–50 ks. Větší objemy dávají lepší cenu za kus a při opakovaných objednávkách se vaše nástroje a formy zachovávají.',
+        },
+        {
+          q: 'Co lze na desce přizpůsobit?',
+          a: 'Tvar a rozměry, konstrukci a materiály, grafiku a logo, rozřez podložky EVA, příslušenství (veslo, pumpička, taška) a balení.',
+        },
+        {
+          q: 'Dodáváte vzorky před sériovou výrobou?',
+          a: 'Ano — fyzický vzorek se vyrobí a schválí před jakoukoli sérií. Doba výroby vzorku bývá 7–12 dní.',
+        },
+        {
+          q: 'Můžete to udělat jen z mých značkových materiálů, bez vlastního týmu designérů?',
+          a: 'Ano. Náš designérský tým vypracuje grafiku připravenou k výrobě na základě vašeho loga, firemních barev nebo předběžného nápadu.',
+        },
+      ],
+      ctaLevel: 'hot',
+      ctaLabel: 'Proberte projekt individuálních SUP desek',
+    },
+    {
+      slug: 'private-label-sup',
+      navLabel: 'SUP pod vlastní značkou',
+      metaTitle: 'Výroba SUP pod vlastní značkou | Individuální výroba SUP',
+      metaDescription:
+        'iSupfactory podporuje výrobu SUP pod vlastní značkou pro zavedené značky a pomáhá vyvinout individuální SUP produkty — od specifikace po výrobu.',
+      kicker: 'SUP pod vlastní značkou',
+      serviceType: 'Výroba SUP pod vlastní značkou',
+      answer:
+        'Výroba pod vlastní značkou přenese vaši značku na osvědčené SUP platformy připravené k výrobě bez nových nástrojů. Vyberte základní model, upravte logo, barvy, balení a příslušenství a objednejte 90–100+ ks na 150 m roli (standardní objem). Je to nejrychlejší a nejnáročnější způsob, jak vstoupit na trh; vzorky 7–12 dní, výroba 25–35 dní od objednávky.',
+      h1: 'Výrobní podpora pro SUP pod vlastní značkou',
+      intro: [
+        'Výroba pod vlastní značkou vám umožní prodávat sérii paddle desek pod vlastním jménem, aniž byste investovali do nástrojů a výroby. Vaše logo, barvy a balení se nanesou na platformy s potvrzenou kvalitou a objemy rostou spolu s poptávkou.',
+        'Produktovou část přebíráme my, abyste se mohli soustředit na značku: návrh, balení a řízení opakovaných objednávek vedeme my.',
+      ],
+      scenario: {
+        title: 'Máte značku — a potřebujete pod ní produkt',
+        body: 'Identita značky bez hotového produktového sortimentu. Chcete prodávat paddle desky pod vlastním jménem v objemu odpovídajícím vaší fázi — od první ověřovací dávky po opakované dodávky.',
+      },
+      pairs: [
+        {
+          problem: 'Branding je jen nálepka: produkt stále vypadá jako generický.',
+          solution: 'Úplná integrace značky: grafika na desce, logo, rozřez podložky EVA, značkové veslo, pumpička, taška a balení.',
+        },
+        {
+          problem: 'První objednávky vás nutí nakoupit stovky kusů, které nemusíte prodat.',
+          solution: 'Začněte pilotní dávkou 20–50 ks na standardním modelu a poté se rozšiřujte na sérii 90–100+ ks — trh potvrďte před velkými dávkami.',
+        },
+        {
+          problem: 'Vývoj designu a balení se jeví jako nedosažitelný úkol.',
+          solution: 'Náš designérský tým přemění značkové materiály na soubory desky a balení připravené k výrobě.',
+        },
+        {
+          problem: 'Opakované objednávky se liší kvalitou nebo dostupností.',
+          solution: 'Nástroje a formy zůstávají u vás a opakované objednávky jdou na stejných potvrzených platformách s neměnnou kvalitou.',
+        },
+      ],
+      steps: [
+        { title: 'Předejte svou značku', body: 'Pošlete nám logo, barvy a existující značkové materiály.' },
+        { title: 'Vyvineme grafiku', body: 'Navrhneme grafiku desky, rozřez EVA a balení kolem vaší značky.' },
+        { title: 'Schválte vzorek', body: 'Fyzický vzorek potvrdí barvy, povrch a balení.' },
+        { title: 'Vyrobte a odešlete', body: 'Výroba běží ve vašem objemu a kontrola kvality i export probíhají od začátku do konce.' },
+      ],
+      caseStudy: {
+        title: 'Nová značka, první výrobní objednávka',
+        body: 'Obchod se sportovním zbožím vydal vlastní sérii paddle desek na základě samotného loga. Vyvinuli jsme celou desku i balení, vyrobili první dávku 50 ks k testu trhu a během jedné sezóny jsme se rozšířili na plnou výrobní objednávku.',
+        tags: ['Vývoj značky', 'Design balení', 'Škálování výroby'],
+      },
+      faqs: [
+        {
+          q: 'Co je výroba SUP pod vlastní značkou?',
+          a: 'Výroba SUP pod vlastní značkou umožňuje firmám prodávat SUP produkty pod svou značkou s individuálními specifikacemi a výrobní podporou.',
+        },
+        {
+          q: 'Můžou zavedené značky uvádět nové SUP produkty?',
+          a: 'Ano. iSupfactory podporuje značky, které chtějí rozšířit sortiment o SUP produkty: produktovou řadu, přesné přizpůsobení specifikací, individuální grafiku a výrobu.',
+        },
+        {
+          q: 'Co zahrnuje program pod vlastní značkou?',
+          a: 'Vaši značku přímo na desce — grafika, logo, podložka EVA — a volitelně značkové veslo, pumpička, taška a balení: produkt připravený k prodeji pod vaším jménem.',
+        },
+        {
+          q: 'Lze design měnit mezi objednávkami?',
+          a: 'Ano. Jakmile jsou značkové materiály připravené k výrobě, lze při opakovaných objednávkách grafiku, barvy nebo balení kdykoli aktualizovat.',
+        },
+        {
+          q: 'Máme jen logo. Stejně pomůžete?',
+          a: 'Ano. Náš designérský tým vypracuje kompletní sadu materiálů desky a balení na základě vašeho loga a firemních barev.',
+        },
+      ],
+      ctaLevel: 'warm',
+      ctaLabel: 'Proberte projekt SUP pod vlastní značkou',
+    },
+    {
+      slug: 'resort-sup',
+      navLabel: 'SUP pro resorty',
+      metaTitle: 'Individuální SUP vybavení pro resorty | Značkové desky',
+      metaDescription:
+        'Vytvořte individuální SUP vybavení pro resorty a hotely se značkovými deskami, příslušenstvím a výrobní podporou iSupfactory.',
+      kicker: 'SUP pro resorty',
+      serviceType: 'SUP vybavení pro resorty a hotely',
+      answer:
+        'Dodáváme značkové nafukovací SUP desky resortům a hotelům pro každodenní provoz hosty: vysokotlakové drop-stitch konstrukce, zesílené švy a postupné minimální objednávky od 20–50 pilotních kusů po 90–100+ ks na dávku pro flotu. Na deskách bude vaše logo a vaše barvy a poradíme vám s uskladněním, údržbou a programy opakovaných objednávek.',
+      h1: 'Řešení individuálního SUP vybavení pro resorty a hotely',
+      intro: [
+        'Paddle floty resortů musí zvládnout každodenní provoz hosty, snadno se skladují mezi sezónami a nesou vaši značku. Vyrábíme odolné desky vhodné pro hosty v vašich barvách a dodávací program floty přizpůsobíme vašemu provozu.',
+        'Objemy doporučujeme na základě modelu použití, ne od boku — a programy opakovaných objednávek udržují flotu čerstvou sezónu za sezónou.',
+      ],
+      scenario: {
+        title: 'Nabízíte hostům outdoorové aktivity na vodě',
+        body: 'Hosté čekají nezapomenutelný zážitek na vodě a vybavení reprezentuje váš objekt. Potřebujete desky, které vydrží každodenní pronájem, snadno se skladují a jsou značkové, aby ladily se stylem resortu.',
+      },
+      pairs: [
+        {
+          problem: 'Floty pro hosty se rychle opotřebovávají při každodenním pronájmu.',
+          solution: 'Pronajímací konstrukce se zesílenou hranou a UV odolnými materiály, dimenzovaná na opakované cykly provozu.',
+        },
+        {
+          problem: 'Místo pro uskladnění mezi sezónami je omezené.',
+          solution: 'Nafukovací řešení snadno skladovatelná: po skončení sezóny se celá flota složí do jedné skříňě.',
+        },
+        {
+          problem: 'Vybavení vypadá genericky a nereprezentuje váš objekt.',
+          solution: 'Grafika po celé desce, loga a značkové EVA podložky v barvách resortu včetně značkového příslušenství.',
+        },
+        {
+          problem: 'Výměna a obnova floty se nijak nesoznačují.',
+          solution: 'Program opakovaných objednávek floty s neměnnou kvalitou, podpora náhradních dílů a upřímné doporučení ohledně objemů.',
+        },
+      ],
+      steps: [
+        { title: 'Popište svůj provoz', body: 'Počet hostů, pláž, skladování a délka sezóny.' },
+        { title: 'Získejte plán floty', body: 'Doporučíme typy desek a objemy na základě modelu použití.' },
+        { title: 'Schválte značkový vzorek', body: 'Barvy a logo se potvrzují na fyzické desce.' },
+        { title: 'Přijměte a podporujte', body: 'Dodání, náhradní díly a program opakovaných objednávek pro budoucí sezóny.' },
+      ],
+      caseStudy: {
+        title: 'Značková flota pro hosty v přímořském resortu',
+        body: 'Přímořský resort vybavil plážový program 40 značkovými nafukovacími deskami v barvách resortu včetně značkových vesel a pumpiček. Desky se mezi sezónami skladují v jedné skříňce a flota byla po druhé sezóně obnovena s neměnnou kvalitou.',
+        tags: ['Značková flota pro hosty', 'Uskladnění nafukovacích desek', 'Sezónní obnova'],
+      },
+      faqs: [
+        {
+          q: 'Mohou resorty přizpůsobit SUP vybavení svým logem?',
+          a: 'Ano. Resorty mohou přizpůsobit grafiku, barvy a příslušenství podle požadavků projektu — až po úplné značkové provedení v barevné paletě objektu.',
+        },
+        {
+          q: 'Dodáte několik kusů pro provoz resortu?',
+          a: 'Ano. Výrobní řešení lze vyvinout podle potřeb floty — od úvodní dávky po sezónní programy obnovy.',
+        },
+        {
+          q: 'Kolik desek resort potřebuje?',
+          a: 'Většina resortů začíná s 20–50 deskami a podle poptávky se rozšiřuje. Objem doporučujeme na základě počtu hostů a délky pláže, ne od boku.',
+        },
+        {
+          q: 'Jsou nafukovací desky pro provoz v resortu vhodné?',
+          a: 'Ano. Současné nafukovací SUP desky jsou mimořádně trvanlivé a výrazně pohodlnější pro skladování a převoz — populární volba pro resorty s omezeným místem.',
+        },
+        {
+          q: 'Může flota nést naše logo a naše barvy?',
+          a: 'Ano — grafika po celé desce, tisk loga, značkové EVA a značkové příslušenství jsou plně součástí programu pro resort.',
+        },
+      ],
+      ctaLevel: 'warm',
+      ctaLabel: 'Vyžádejte si SUP řešení pro váš resort',
+    },
+    {
+      slug: 'club-sup',
+      navLabel: 'Individuální týmové desky',
+      metaTitle: 'Individuální SUP vybavení pro kluby a týmy',
+      metaDescription:
+        'iSupfactory dodává individuální SUP řešení pro kluby, týmy a akce včetně grafiky, specifikací a výrobní podpory.',
+      kicker: 'Individuální týmové desky',
+      serviceType: 'SUP vybavení pro kluby a týmy',
+      answer:
+        'Kluby a týmy dostávají odolné jednotné floty ve svých barvách: umístění loga, individuální délky vesel a sady příslušenství na osvědčené specifikaci desky, takže opravy a náhradní díly zůstávají jednoduché i při opakovaných objednávkách. Minimální objednávka začíná na 90–100+ ks (standardní objem); pro testovací spuštění jsou dostupné pilotní dávky 20–50 ks.',
+      h1: 'Individuální SUP vybavení pro kluby a týmy',
+      intro: [
+        'Paddle kluby potřebují desky, které vydrží každodenní trénink, vypadají jako tým a zůstávají jednotné od objednávky k objednávce. Vyrábíme individuální týmové desky s názvem vašeho klubu a vašimi barvami za flotové ceny.',
+        'Klubové programy zahrnují i praktickou část: náhradní díly, návody k opravám a podporu opakovaných objednávek s neměnnou kvalitou.',
+      ],
+      scenario: {
+        title: 'Klub trénuje a skládá týmy',
+        body: 'Desky jsou v každodenním používání členů klubu a reprezentují klub na akcích a závodech. Potřebujete odolné značkové vybavení, aniž byste se dostali do vlastních vztahů s továrnami.',
+      },
+      pairs: [
+        {
+          problem: 'Tréninkové desky se rychle opotřebovávají při intenzivním používání.',
+          solution: 'Zesílená konstrukce pro každodenní profesionální použití plus návody k opravám a podpora náhradních dílů.',
+        },
+        {
+          problem: 'Floty působí nejednotně a bez značkového provedení.',
+          solution: 'Název klubu, barvy a logo se tisknou na každou desku, takže týmová flota vypadá jednotně.',
+        },
+        {
+          problem: 'Růst floty znamená hledat vhodné skladiště.',
+          solution: 'Opakované objednávky jdou na stejných potvrzených platformách, takže nové desky odpovídají starým.',
+        },
+        {
+          problem: 'Rozpočet floty je omezený.',
+          solution: 'Flotové ceny a jediné kontaktní místo pro opakované objednávky, náhradní díly a údržbu.',
+        },
+      ],
+      steps: [
+        { title: 'Představte klub', body: 'Počet členů, typy tréninku a současné vybavení.' },
+        { title: 'Vyberte typy desek', body: 'Tréninkové, začátečnické a týmové desky podle vašeho programu.' },
+        { title: 'Přidejte značku klubu', body: 'Název, barvy a logo na desce a příslušenství.' },
+        { title: 'Objednejte a flotu rozšiřujte', body: 'Dodání floty, náhradní díly a jednotné opakované objednávky.' },
+      ],
+      caseStudy: {
+        title: 'Obnova klubové floty',
+        body: 'Paddle klub obnovil značku a nahradil flotu 25 značkovými tréninkovými deskami včetně náhradních dílů. Členové trénují na jednotném vybavení a v další sezóně klub flotu rozšířil identickou opakovanou objednávkou.',
+        tags: ['Značkování klubu', 'Obnova floty', 'Podpora náhradními díly'],
+      },
+      faqs: [
+        {
+          q: 'Mohou paddle kluby přizpůsobit týmové desky?',
+          a: 'Ano. Kluby mohou přizpůsobit grafiku, barvy a výbavu: název klubu, barvy a logo na každé desce.',
+        },
+        {
+          q: 'Můžete podpořit výrobu pro konkrétní akci?',
+          a: 'Ano. Výrobní plán lze přizpůsobit požadavkům akce včetně samostatných verzí desek a příslušenství.',
+        },
+        {
+          q: 'Jaké desky se nejlépe hodí pro klubový trénink?',
+          a: 'Stabilní a odolné desky odpovídající úrovni členů: široké začátečnické modely pro výuku a touringové modely pro přípravu na výlety.',
+        },
+        {
+          q: 'Poskytujete klubům flotové ceny?',
+          a: 'Ano — objemové ceny platí pro klubové floty a zároveň poskytujeme jedno kontaktní místo pro opakované objednávky, náhradní díly a údržbu.',
+        },
+        {
+          q: 'Dají se poškozené desky opravit nebo vyměnit?',
+          a: 'Dodáváme náhradní díly, návody k opravám a podporu opakovaných objednávek, aby flota zůstala jednotná.',
+        },
+      ],
+      ctaLevel: 'cold',
+      ctaLabel: 'Proberte SUP projekt vašeho klubu',
+    },
+    {
+      slug: 'school-sup',
+      navLabel: 'SUP program pro školy',
+      metaTitle: 'SUP vybavení pro školy | Individuální výcvikové paddle desky',
+      metaDescription:
+        'Získejte bezpečná a spolehlivá SUP řešení pro školy, tábory a organizace s individuální výrobní podporou iSupfactory.',
+      kicker: 'SUP program pro školy',
+      serviceType: 'SUP vybavení pro školy a programy',
+      answer:
+        'Školám a výcvikovým programům dodáváme stabilní, začátečníkům přátelské desky s vytištěným bezpečnostním návodem, měkkými vesly a ochranným příslušenstvím, dimenzované na velikost třídy a vaše podmínky skladování. Standardní dávka je 90–100+ ks na 150 m roli, pilotní dávky od 20–50 ks; dodací lhůty zohledňují nákupní cyklus školy.',
+      h1: 'Bezpečná a spolehlivá SUP řešení pro školy a programy',
+      intro: [
+        'Školy se paddle sportu věnují různě: velké skupiny, různá úroveň, přísné bezpečnostní požadavky a omezené vzdělávací rozpočty. Náš školní program nabízí stabilní desky vhodné pro začátečníky, sady pro velikost skupiny a konzultace z pohledu instruktora.',
+        'Dávkové objednávky a podpora opakovaných objednávek udržují vybavení použitelné rok za rokem pro nové žákovské skupiny.',
+      ],
+      scenario: {
+        title: 'Učíte žáky paddle sportu',
+        body: 'Skupiny jsou velké a úroveň je různá. Potřebujete stabilní a bezpečné desky pro první výjezd na vodu, objemy odpovídající velikosti skupin a vybavení, které se vejde do rozpočtu a nákupního cyklu školy.',
+      },
+      pairs: [
+        {
+          problem: 'Žáci potřebují maximální stabilitu na vodě.',
+          solution: 'Široké začátečnické desky s velkým objemem a víceosobové desky, které začátečníkovi odpouštějí chyby.',
+        },
+        {
+          problem: 'Velikost skupin vyžaduje jednotné vybavení v jednom měřítku.',
+          solution: 'Programové ceny podle počtu skupin při stejné kvalitě každé desky.',
+        },
+        {
+          problem: 'Instruktoři odpovídají za bezpečnost s minimálními prostředky.',
+          solution: 'Desky dodáváme s přehledným návodem k použití a poradíme vám s objemy a organizací výcviku ve vašem regionu.',
+        },
+        {
+          problem: 'Vybavení musí vydržet několik žákovských skupin.',
+          solution: 'Zesílená konstrukce plus náhradní díly a podpora opakovaných objednávek po celou dobu programu.',
+        },
+      ],
+      steps: [
+        { title: 'Představte program', body: 'Velikost skupin, vodní plocha, počet instruktorů a rozpočtový cyklus.' },
+        { title: 'Sestavte sadu', body: 'Typy desek a objemy se volí podle výcvikových úkolů, ne od boku.' },
+        { title: 'Schválte vzorek', body: 'Na fyzické desce ověřte stabilitu, konstrukci a povrch.' },
+        { title: 'Dodávejte a obnovujte', body: 'Dávkové objednávky, náhradní díly a opakované objednávky pro nové žákovské skupiny.' },
+      ],
+      caseStudy: {
+        title: 'Školní program outdoorových aktivit na vodě',
+        body: 'Škola zavedla paddle sport jako volitelný předmět s 15 začátečnickými deskami a víceosobovými deskami pro první hodiny. Instruktoři si všimli rychlejšího posunu už na první lekci díky stabilním platformám a následující rok program vybavení obnovil vhodnou opakovanou objednávkou.',
+        tags: ['Začátečnická flota', 'Spuštění programu', 'Opakované objednávky'],
+      },
+      faqs: [
+        {
+          q: 'Jaké SUP vybavení je vhodné pro školy?',
+          a: 'Volba SUP vybavení závisí na věku uživatelů, podmínkách použití a požadavcích programu: široké stabilní desky jsou osvědčenou volbou pro výuku.',
+        },
+        {
+          q: 'Mohou školy přizpůsobit SUP vybavení?',
+          a: 'Ano. Školy mohou přizpůsobit grafiku, barvy a sady vybavení podle svého programu.',
+        },
+        {
+          q: 'Jaké desky se nejlépe hodí pro výuku paddle sportu ve škole?',
+          a: 'Široké stabilní začátečnické desky a víceosobové desky: jejich objem je odpouští začátečníkovi chyby a stabilní pro více paddleářů.',
+        },
+        {
+          q: 'Mohou objemy odpovídat velikosti našich skupin?',
+          a: 'Ano — programové ceny se stanoví podle počtu skupin a objem doporučujeme s ohledem na váš region a sezónu.',
+        },
+        {
+          q: 'Pracujete s nákupními plány škol?',
+          a: 'Ano. Termíny dodání vzorků i série plánujeme podle rozpočtového a sezónního cyklu školy.',
+        },
+      ],
+      ctaLevel: 'cold',
+      ctaLabel: 'Proberte SUP program vaší školy',
+    },
+  ],
 }
 
 export function getSolutionPage(locale: Locale, slug: string): SolutionPageData | undefined {

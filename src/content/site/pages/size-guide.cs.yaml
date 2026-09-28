@@ -1,0 +1,85 @@
+meta:
+  title: 'Průvodce rozměry a parametry SUP — nafukovací paddle boardy | {SITE}'
+  description: 'Rozměry, nosnost a doporučené použití každé desky Vatrad. Vyberte si správnou velikost nafukovacího SUP pro své úkoly.'
+  dateModified: '2026-08'
+  keywords:
+    - 'průvodce rozměry sup'
+    - 'rozměry paddle boardů'
+    - 'parametry nafukovacích sup'
+    - 'tabulka rozměrů sup'
+hero:
+  title: Průvodce rozměry a parametry
+  subtitle: Rozměry, nosnost a doporučené použití každého produktu Vatrad.
+
+categories:
+  inflatable: Nafukovací SUP navržené s důrazem na přenosnost bez újmy na výkonu. Zvolte správnou velikost podle své hmotnosti a stylu pádlování.
+  sup: Stojácí paddle boardy pro turistiku, jógu, fitness a rekreační pádlování. Vybírejte podle délky a hmotnosti jezdce.
+  accessory: Příslušenství a bezpečnostní vybavení, které doplní Vaši desku SUP. Univerzální rozměry s více variantami.
+
+table:
+  headers:
+    product: Produkt
+    length: Délka
+    width: Šířka
+    weight: Hmotnost
+    max_load: Max. nosnost
+    best_for: Nejlepší pro
+  rows:
+    - product: 'Univerzální SUP (Explorer 11 ft)'
+      length: '11''0" (335 cm)'
+      width: '32" (81 cm)'
+      weight: 19 lbs (8,6 kg)
+      max_load: 220 lbs (100 kg)
+      best_for: Začínající, odpočinek, rodinné výlety na jezerech a klidných řekách
+    - product: 'Univerzální SUP (10''6")'
+      length: '10''6" (320 cm)'
+      width: '32" (81 cm)'
+      weight: 18 lbs (8,2 kg)
+      max_load: 200 lbs (90 kg)
+      best_for: Lehčí jezdci, joga a běžný odpočinek
+    - product: 'Turistická SUP (12 ft)'
+      length: '12''0" (366 cm)'
+      width: '30" (76 cm)'
+      weight: 23 lbs (10,4 kg)
+      max_load: 260 lbs (118 kg)
+      best_for: Dlouhé převleky, rychlost a pobřežní turistika
+    - product: 'Turistická SUP (14 ft)'
+      length: '14''0" (427 cm)'
+      width: '28" (71 cm)'
+      weight: 26 lbs (11,8 kg)
+      max_load: 275 lbs (125 kg)
+      best_for: Závody a dlouhé expediční převleky
+    - product: 'Surf SUP (8–10 ft)'
+      length: '8''0"–10''0" (244–305 cm)'
+      width: '30" (76 cm)'
+      weight: 17 lbs (7,7 kg)
+      max_load: 180 lbs (82 kg)
+      best_for: Jízda na vlnách a manévrový surfing
+    - product: 'Jóga / fitness SUP (11 ft)'
+      length: '11''0" (335 cm)'
+      width: '34" (86 cm)'
+      weight: 22 lbs (10 kg)
+      max_load: 240 lbs (109 kg)
+      best_for: Jóga, fitness a stabilní odpočinek
+
+how_to_choose:
+  title: Jak vybrat správnou velikost
+  cards:
+    - title: Desky SUP
+      description: Délku vybírejte podle hmotnosti a zamýšleného použití. Širší desky (32"+) poskytují větší stabilitu. Delší desky (11-12 ft) lépe drží směr při turistice. Těžším paddleařům jsou potřeba desky s větším objemem.
+    - title: Turistické SUP
+      description: Delší desky (11–12 ft) se nejlépe hodí na překonávání vzdáleností a turistiku. Širší desky (32"+) poskytují větší stabilitu. Zkontrolujte nosnost včetně vybavení.
+    - title: Univerzální SUP
+      description: Délku vybírejte podle hmotnosti jezdce a zamýšleného použití. Univerzální desky se hodí pro odpočinek, fitness a jógu. Menší desky jsou lépe ovladatelné.
+
+cta:
+  title: 'Prohlédněte desky podle rozměrů, nebo se poraďte s inženýrem'
+  subtitle: 'Porovnejte turistické, univerzální a jógové modely v našem sortimentu — nebo nám pošlete složení svých paddleařů a my doporučíme vhodné rozměry pro Váš projekt.'
+  actions:
+    - variant: primary
+      text: Prohlédnout produkty SUP
+      href: /cs/products
+    - text: Více znalostí o pádlování
+      href: /cs/knowledge
+    - text: Jak se desky staví
+      href: /cs/factory/process

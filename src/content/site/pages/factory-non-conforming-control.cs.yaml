@@ -1,0 +1,242 @@
+meta:
+  title: 'Řízení nevyhovujících SUP a oprav | Továrna OEM | iSupfactory'
+  description: 'Řízení nevyhovujících výrobků (ISO 9001:2015, část 8.7): karanténa NCR, řízená oprava podle SRI, nezávislá opětovná kontrola a zničení za dohledu.'
+  dateModified: '2026-08-14'
+  keywords:
+    - 'řízení nevyhovujících výrobků'
+    - 'oprava a opětovná kontrola sup'
+    - 'iso 9001 nevyhovující výstupy'
+    - 'řízení ncr ve výrobě'
+    - 'protokol o zničení zmetu sup'
+    - 'kontrola kvality oem nafukovacích sup'
+
+hero:
+  tagline: Řízení nevyhovujících výrobků
+  title: 'Proces izolace, opravy a opětovné kontroly nevyhovujících výrobků'
+  subtitle: 'V QINGDAO VATRAD GROUP.,LTD. nevyhovující deska nikdy nepokračuje ve výrobě. Jakýkoli výrobek nebo součástka, která nesplní stanovená kritéria přijetí, se zjistí, zapíše do Protokolu o nesouladu (NCR), označí a oddělí, vyhodnotí se zasažený rozsah a rozhodnutí se přijme na příslušné úrovni pravomoci. Povolená oprava probíhá podle řízených pokynů, opravené položky se opětovně kontrolují proti původním kritériím přijetí — včetně úplného přezkoušení tam, kde je to nutné — a výrobek se odesílá až po podpisu kvality. Tato stránka představuje náš řízený standard podle ISO 9001:2015, části 8.7, a důkazy vysledovatelnosti, které za ním stojí.'
+  actions:
+    - text: Stáhnout SOP řízení NČV (PDF)
+      variant: primary
+      href: 'https://assets.isupfactory.com/site/downloads/non-conforming-product-control-sop-iso-8-7.pdf?dl=1'
+    - text: Stáhnout Protokol o likvidaci a zničení (PDF)
+      href: 'https://assets.isupfactory.com/site/downloads/scrap-destruction-certificate-vat-qa-scrap-cert-2026.pdf?dl=1'
+    - text: Vyžádat posouzení kvality
+      href: /cs/contact
+
+answer:
+  label: 'Přímá odpověď'
+  text: 'Nevyhovující výrobky se v QINGDAO VATRAD GROUP.,LTD. nikdy netají, neopravují neformálně ani neuvolňují bez ověření. Každý zjištěný nesoulad se zaznamená vůči dotčenému výrobku, šarži či součástce a propojí s NCR. Položka se označí (HOLD / QUARANTINE / REJECTED), fyzicky oddělí a zasažený rozsah se posoudí podle šarže, šarže materiálu, fáze procesu a revize dokumentu. O rozhodnutí se rozhodne na úrovni pravomoci odpovídající závažnosti vady: drobné problémy se podepisují na úrovni linky, závažné vyžadují rozhodnutí vedoucího QC a technického inženýra s řízeným pokynem k opravě a 100% nezávislou opětovnou kontrolou a kritické vyžadují rozhodnutí rady pro hodnocení materiálu a písemný souhlas zákazníka tam, kde je nutný — jinak povinné zničení za dohledu. Opravené položky se opětovně kontrolují proti původním kritériím přijetí, opravám nepropustnosti se přidělí zcela nový cyklus tlakové zkoušky a uvolnění zásilky nastane až po podpisu oprávněné osoby odpovědné za kvalitu. Opakované či systémové problémy spouštějí nápravnou akci o kořeni problému (CAPA).'
+  verified: 'září 2026'
+
+stats:
+  tagline: Na první pohled
+  title: Řízení nesouladů v číslech
+  stats:
+    - value: '7'
+      label: Kroku od zjištění po nápravnou akci
+    - value: '100%'
+      label: Opětovná kontrola každé opravené desky nezávislým QA
+    - value: '24h'
+      label: Úplné opětovné tlakové zkoušení u oprav nepropustnosti
+    - value: '≥ 5 let'
+      label: Uchovávání důkazů o zničení za dohledu (trezor SHA-256)
+
+nc_intro:
+  tagline: Řízení nevyhovujících výrobků
+  title: Co se stane, když výrobek nesplňuje kritéria
+  body: |
+    Výrobky nebo součástky, které nesplňují stanovená kritéria přijetí, se zjistí a začnou řídit, aby se zabránilo neúměrnému použití, dalšímu zpracování nebo odeslání. Použitelná kritéria přijetí vycházejí ze schváleného vzorku, technické specifikace, grafiky, kusovníku, požadavků na obaly a plánu kontroly projektu.
+
+    Nevyhovující položky se posuzují za účelem určení zasaženého rozsahu a vhodného opatření. Podle konkrétního problému může být položka zadržena, opravena podle řízených pokynů, vyměněna, odmítnuta nebo jinak vyřízena schváleným postupem. Opravené či opravené položky se před uvolněním znovu zkontrolují. Uvolnění zásilky je povoleno až po dokončení příslušných záznamů o kvalitě a potvrzení, že výrobek splňuje použitelná kritéria přijetí.
+
+nc_flow:
+  tagline: Standardní uzavřený cyklus o 7 krocích
+  title: Od zjištění po nápravnou akci
+  subtitle: 'Jeden řízený cyklus pro každý nesoulad: zjištění, karanténa, posouzení, oprava nebo výměna, opětovná kontrola, uvolnění nebo odmítnutí, zlepšení.'
+  steps:
+    - step: '01'
+      title: Zjištění
+      desc: 'Každý zjištěný nesoulad se zaznamená vůči dotčenému výrobku, šarži či součástce a posoudí se proti použitelným požadavkům projektu. Zjištění může nastat při vstupní kontrole materiálu, při kontrole během výroby, při konečném zkoušení, při balení nebo při kontrole zákazníkem či třetí stranou.'
+    - step: '02'
+      title: Karanténa
+      desc: 'Položky se jasně označí a převedou do stavu řízené blokace nebo karantény, aby se zabránilo neúměrnému použití, dalšímu zpracování nebo odeslání. Štítky HOLD / QUARANTINE / REJECTED uvádějí číslo NCR, SKU, šarži, množství, popis vady a datum.'
+    - step: '03'
+      title: Posouzení
+      desc: 'Posoudí se zasažený rozsah a vhodné opatření: jednotlivý kus, směnová šarže, celá šarže nebo více šarží — napříč společnými šaržemi materiálu, revizemi grafiky, fázemi procesu a revizemi dokumentů. Podle potřeby se zavádí další izolace nebo přísnější kontrola.'
+    - step: '04'
+      title: Oprava nebo výměna
+      desc: 'Povolená oprava probíhá podle schválených pokynů, které určují dotčenou položku, metodu, materiály, kontrolní body a požadavky na opětovnou kontrolu. Neschválené změny výrobní specifikace, grafiky, konfigurace doplňků či obalů nikdy nejsou přípustné. Náhradní položky znovu vstupují do příslušných kontrolních vrat.'
+    - step: '05'
+      title: Opětovná kontrola
+      desc: 'Opravené či opravené položky se znovu zkontrolují proti použitelným kritériím přijetí. Původní nevyhovující vlastnost a všechny související vlastnosti potenciálně dotčené opravou se ověří před uvolněním — nezávislým QC a u oprav nepropustnosti se zcela novým 24hodinovým cyklem tlakové zkoušky.'
+    - step: '06'
+      title: Uvolnění nebo odmítnutí
+      desc: 'Výrobek se uvolní až po dokončení požadované opětovné kontroly a potvrzení souladu s použitelnými požadavky projektu oprávněnými pracovníky kvality. Položky, které nelze uvést do souladu, se odmítnou, vymění, vrátí nebo vyřídí podle řízených postupů — včetně fyzického zničení za dohledu.'
+    - step: '07'
+      title: Nápravná akce
+      desc: 'Opakované, významné nebo systémové nesoulady se posuzují z hlediska kořene problému a nápravné akce (CAPA). Zlepšení mohou zahrnovat aktualizaci pracovních pokynů, kontrolu materiálu, kontrolní body, školení, řízení dodavatelů nebo řízení dokumentů.'
+
+nc_pillars:
+  tagline: Základy důvěry kupujícího
+  title: Tři kontroly, které chrání Vaši značku
+  subtitle: 'Proces je navržen kolem otázek, které si zahraniční kupující skutečně kladou: budou se problémy skrývat, dostane se oprava z pod kontroly a budou opravené desky znovu ověřeny.'
+  features:
+    - icon: 1
+      icon_bg: blue
+      title: Pouze řízené pokyny
+      desc: 'Opravu přísně řídí schválené standardní pokyny k opravě (SRI). Neschválené úpravy na místě, změny specifikací nebo úpravy grafiky bez písemného povolení jsou přísně zakázány.'
+    - icon: 2
+      icon_bg: green
+      title: Nezávislá opětovná kontrola
+      desc: 'Opravené desky podléhají 100% opětovné kontrole kontrolory QA proti původním kritériím přijetí. Opravy nepropustnosti vyžadují zcela nový, úplný 24hodinový cyklus tlakové zkoušky — nikdy jen částečnou překontrolu.'
+    - icon: 3
+      icon_bg: purple
+      title: Oprávněný podpis a vysledovatelnost
+      desc: "Uvolnění zásilky je povoleno výhradně po úplném vyplnění dokumentace NCR a podpisu oprávněného QC, přičemž stav šarže se přesune z HOLD na RELEASED. Systémové nebo opakované odchylky automaticky spouštějí postupy CAPA směřující ke kořeni problému."
+
+nc_photos:
+  tagline: Na výrobní ploše
+  title: Karanténa, oprava a opětovná kontrola v praxi
+  subtitle: 'Fotografie z naší dílny v Qingdao ukazují, jak se nevyhovující desky fyzicky oddělují, opravují podle řízených pokynů a znovu ověřují před jakýmkoli rozhodnutím o uvolnění.'
+  features:
+    - image: https://assets.isupfactory.com/site/quality/qc-air-tightness-test-area.avif
+      alt: Nafouknuté nafukovací desky SUP v oblasti tlakových zkoušek v továrně sledované digitálními tlakoměry
+      title: Vrata opětovné kontroly
+      desc: 'Po opravě se každá deska vrací do zkušební oblasti QC k nezávislému přezkoušení: dofukuje se a sleduje digitálními tlakoměry proti kritériím přijetí schváleným projektem — nikdy jen částečně.'
+    - image: https://assets.isupfactory.com/site/quality/qc-hold-quarantine-station.avif
+      alt: Kontrolní listy kvality a štítky stavu řízené blokace na kontrolní stanici v továrně
+      title: Stanice blokace a karantény
+      desc: 'Kontrolní stanice s kontrolními listy QC a označením stavu. Každá položka, která nesplní kritéria přijetí, dostane štítek HOLD / QUARANTINE, zapíše se do NCR a fyzicky se oddělí — do balení nemůže postoupit, dokud není dokončeno oprávněné rozhodnutí a povinná opětovná kontrola.'
+    - image: https://assets.isupfactory.com/site/quality/qc-air-tightness-rework.avif
+      alt: Technik QC provádí řízenou opravu nepropustnosti nafukovací desky SUP na stanici pro opravy v továrně
+      title: Stanice řízené opravy
+      desc: 'Oprava se provádí na vyhrazené stanici podle schváleného pokynu SRI: vada se označí, deska zůstává ve stavu HOLD a po požadované době vytvrdnutí se vrací do zkušební oblasti k opětovné kontrole proti původním kritériím přijetí.'
+    - image: https://assets.isupfactory.com/site/quality/qc-workshop-inspection-demo.avif
+      alt: Ukázka kontrol kvality v dílně továrny v Qingdao
+      title: Ukázka QC v dílně
+      desc: "Ukázková fotografie z dílny, která dokládá praktické uplatnění kontrol kvality a podporuje záznamy o kontrole a řízení stavu uvedené na této stránce."
+
+nc_severity:
+  tagline: Závažnost vady a pravomoc
+  title: Klasifikace závažnosti a pravomoc k rozhodování
+  subtitle: Ne každý nesoulad se řeší na stejné úrovni — pravomoc k rozhodování roste se závažností vady, od podpisu na úrovni linky až po radu pro hodnocení materiálu a souhlas zákazníka.
+  headers:
+    severity: Závažnost
+    examples: Typické příklady
+    authority: Pravomoc k rozhodnutí a kontrola
+    control: Podmínka uvolnění
+  rows:
+    - severity: 'Drobná'
+      examples: 'Skládaný roh krabice, drobné nekritické posunutí doplňku'
+      authority: 'Podpis na místě vedoucím QC dané dílny a mistrem linky, výměna nebo uvolnění'
+      control: 'Zaznamenáno v NCR; bez vlivu na funkci výrobku nebo požadavky zákazníka'
+    - severity: 'Závažná'
+      examples: 'Pomalý únik přes ventil, posunutí EVA mimo toleranci (>2 mm), chybějící doplněk'
+      authority: 'Vedoucí QC a technický inženýr vydají řízený pokyn k opravě (SRI)'
+      control: '100% nezávislé přezkoušení původní nevyhovující a dotčených vlastností před uvolněním'
+    - severity: 'Kritická'
+      examples: 'Poškození komory drop-stitch, bubline nebo prasklina na výztuze okraje pod vysokým tlakem, chybný tisk loga zákazníka nebo odchylka barvy'
+      authority: 'Rozhodnutí rady pro hodnocení materiálu (MRB); písemný souhlas zákazníka tam, kde je nutný'
+      control: "Bez oprávněného souhlasu není uvolnění možné; jinak povinné fyzické zničení za dohledu"
+
+nc_matrix:
+  tagline: Matice konstrukčních protokolů
+  title: Matice opatření a opětovné kontroly vad SUP
+  subtitle: 'Standardní konstrukční protokoly používané u nejčastějších výrobních odchylek — stejné kvantifikované parametry, které mohou zákazníci ověřit při auditech.'
+  headers:
+    defect: Kategorie vady
+    protocol: Řízený protokol opatření
+    validation: Nezávislá opětovná kontrola a validace
+  rows:
+    - defect: 'Pomalý únik přes ventil'
+      protocol: 'Desku izolovat. Rozebrat jádro ventilu kalibrovaným momentovým nástrojem (25 N·m), vyčistit vnitřní závit, vyměnit silikonový O-kroužek a znovu utáhnout momentem.'
+      validation: 'Ponorná zkouška v bublinkové kapalině; dofukování na 18 PSI a úplné 24hodinové přezkoušení poklesu tlaku (ΔP ≤ 0,05 PSI).'
+    - defect: 'Bubliny ve švu okrajové výztuhy'
+      protocol: 'Směnovou šarži dát do karantény. Delaminovat z bublinového místa tryskou s ohřevem, povrch vyčistit rozpouštědlem, nanést dvousložkové lepidlo PU pod tlakem 5 bar.'
+      validation: '100% vizuální a hmatová kontrola švu; konstrukční zkouška zkušebním tlakem (18,0 PSI) plus 24hodinové udržení nepropustnosti.'
+    - defect: 'Posunutí podložky EVA'
+      protocol: 'Sundat nástrojem s regulovanou teplotou s podporou tepla (80°C). Znovu zarovnat pomocí přesného akrylátového polohovacího rámečku.'
+      validation: 'Ověření vůle (≤ ±1,5 mm), kontrola souměrnosti kosočtverečného vzoru, 100% zkouška přilnavosti okraje.'
+    - defect: 'Překlep v brandingu / logu'
+      protocol: 'Okamžitě zastavit tiskovou linku. Zadržet všechny vytištěné díly. Prověřit vektorovou revizi se zákazníkem; žádné neschválené změny.'
+      validation: 'Kontrola barvy spektrofotometrem (ΔE ≤ 1,5); 100% vizuální kontrola souososti textu proti reviznímu vektorovému masteru PDF podepsanému zákazníkem.'
+    - defect: 'Neshoda obalu / chybějící SKU'
+      protocol: 'Exportovou paletu dát do karantény. Vybalit a provést 100% položkovou kontrolu kusovníku (pumpička, žebro, leash, pádlo, opravná hadička).'
+      validation: 'Inline dynamická elektronická validace kontrolní váhy (±30 g odchylka); ověření optickým 2D skenerem čárových kódů.'
+
+nc_scrap:
+  tagline: Nulový únik na trh
+  title: Likvidace a zničení za dohledu — protokol proti odchýlení zmetu
+  body: |
+    Zahraniční značky potřebují jistotu, že vadné desky nikdy nedosáhnou sekundárního retailu, šedých trhů ani kanálů elektronického obchodování. Desky, které nelze uvést do souladu, se zničí podle protokolu za dohledu a s dokumentací:
+
+    **1. Ustřižení kovových částí a doplňků.** Pod dohledem ředitele QA hydraulickými nůžkami odstraní všechny D-kroužky z nerezové oceli 316, popruhy nosného madla a přezky batohů. Sestava nafukovacího ventilu a základna držáku žebra (US-Box / žebro na zacvaknutí) se vyříznou u kořene desky, čímž se odstraní všechny použitelné součástky.
+
+    **2. Rozříznutí drop-stitch a přeříznutí okrajů.** Vnitřní jádro drop-stitch se prořezne napříč deskou a palubou hlubokými křížovými zářezy (≥ 50 cm na řez) a zesílené boční výztuhy se přeřeznou nejméně na 4 úseky — tím se trvale zničí těsnost a vztlak.
+
+    **3. Video a fotografický trezor.** Zničení se zaznamená jako nestřižené video 1080p se záběry na sériový čárový kód, proces ustřižení, rozříznutí jádra a konečnou zváženou hromadu zmetu. Video se hashuje (SHA-256) a archivuje na řízeném serveru po dobu ≥ 5 let.
+
+    **4. Certifikovaná likvidace odpadu.** Všechny úlomky PVC a drop-stitch se zváží, zapíší do evidence odchozího odpadu a odvezeny výhradně kvalifikovanými partnery v oblasti recyklace polymerů — žádné zbytky neopouštějí závod jiným kanálem.
+
+    > **Záruka ochrany značky:** QINGDAO VATRAD GROUP CO., LTD. garantuje 100% zničení neopravitelných plavidel mimo specifikaci. Žádné zmetové ani poškozené desky z továrny se nikdy nedostanou do sekundárního retailu, na šedé trhy ani do kanálů elektronického obchodování. Protokol o likvidaci a zničení (VAT-QA-SCRAP-CERT-2026) zaznamenává výrobek, šarži, závěr MRB, fotografie z dohledu a dvojitý podpis ředitele QA a ředitele závodu.
+
+nc_downloads:
+  tagline: Stahovatelné dokumenty QMS
+  title: Řízené dvojjazyčné dokumenty (PDF)
+  subtitle: 'Úřední dvojjazyčné dokumenty EN/ZH společnosti QINGDAO VATRAD GROUP.,LTD. — strukturované podle ISO 9001:2015, části 8.7 a připravené pro audity zákazníků, technické B2B dokumenty a řízenou distribuci na díle.'
+  features:
+    - icon: N
+      icon_bg: blue
+      title: SOP řízení nevyhovujících výrobků (PDF)
+      desc: 'Dvojjazyčná SOP založená na ISO 9001:2015, části 8.7: uzavřené řízení o 8 fázích, matice opatření pro vady SUP, datová struktura NCR a závazek ke kvalitě pro zákazníka.'
+      link: 'https://assets.isupfactory.com/site/downloads/non-conforming-product-control-sop-iso-8-7.pdf?dl=1'
+      link_label: Stáhnout PDF
+    - icon: S
+      icon_bg: orange
+      title: Protokol o likvidaci a zničení (PDF)
+      desc: 'VAT-QA-SCRAP-CERT-2026: vysledovatelnost výrobku a šarže, závěr MRB, čtyřkrokový protokol fyzického zničení, pole pro fotografie z dohledu a blok dvojitého podpisu.'
+      link: 'https://assets.isupfactory.com/site/downloads/scrap-destruction-certificate-vat-qa-scrap-cert-2026.pdf?dl=1'
+      link_label: Stáhnout PDF
+    - icon: R
+      icon_bg: green
+      title: Řízené řízení oprav (stránka)
+      desc: 'Doplňková stránka ke schváleným kartám metod opravy nepropustnosti MC-RW-01 až MC-RW-06 a k 7krokovému řízenému pracovnímu postupu oprav.'
+      link: '/cs/factory/quality-inspection'
+      link_label: Zobrazit stránku
+    - icon: C
+      icon_bg: purple
+      title: Norma řízení změn při opravách (stránka)
+      desc: 'Formální řízení změn parametrů oprav podle ISO 9001: ECR, klasifikace rizik, schvalovací matice, plán validace a opatření Poka-Yoke — QMS-SOP-QC-CC-001 Rev 2.0.'
+      link: '/cs/factory/quality-change-control'
+      link_label: Zobrazit stránku
+
+faqs:
+  tagline: FAQ
+  title: Často kladené otázky o kvalitě a řízení vad pro kupující z celého světa
+  items:
+    - q: 'Jak zaručujete, že opravené desky splňují úplné bezpečnostní normy?'
+      a: 'Každá opravená deska se považuje za novou jednotku a musí od nuly absolvovat přesně stejný úplný zkušební cyklus — u oprav nepropustnosti úplnou 24hodinovou tlakovou zkoušku. Uvolňující validaci provádějí nezávislí kontroloři QC, nikoli operátoři oprav.'
+    - q: 'Bude továrna odesílat desky s drobnými kosmetickými odchylkami bez upozornění?'
+      a: 'Nikdy. Jakákoli odchylka dotýkající se zákazníkem schválených referenčních vzorků, grafiky loga, barevných variant nebo obalů vyžaduje formální písemnou dohodu o výjimce podepsanou zákazníkem před uvolněním zásilky.'
+    - q: 'Co se stane, když opravená deska neprojde opětovnou kontrolou?'
+      a: 'Deska se neuvolní. Vrátí se k novému posouzení a pokud ji nelze uvést do souladu, je vyměněna, odmítnuta nebo zničena podle protokolu likvidace za dohledu. Opakované selhání téže třídy vady spouští CAPA směřující ke kořeni problému.'
+    - q: 'Mohou vadné desky být prodávány jako tovární zmet nebo přes jiné kanály?'
+      a: 'Ne. Neopravitelné výrobky mimo specifikaci se fyzicky zničí podle protokolu likvidace za dohledu — kovové části se ustřihnou, jádro a okraje přeříznou, video se zaznamená s hashem SHA-256 a archivuje se nejméně 5 let. Protokol o likvidaci a zničení podepisují ředitel QA a ředitel závodu.'
+    - q: 'Jak se při zjištění vady posuzuje zasažený rozsah?'
+      a: 'Rozsah se přezkoumává podle identifikace výrobku, výrobní šarže, šarže materiálu nebo součástky, fáze procesu a použitelné revize dokumentu. Pokud je zapojena stejná šarže materiálu, revize grafiky či pracoviště, dotčené výrobky se izolují a příslušně zkontrolují.'
+    - q: 'Potřebujeme Vaše schválení, než udělíte výjimku?'
+      a: 'Ano. Jakékoli přijetí v rámci zdokumentované výjimky, která se dotýká požadavků zákazníka — schválených vzorků, specifikace, grafiky, obalů nebo kritérií přijetí — vyžaduje písemný souhlas zákazníka před uvolněním. Bez něj je výrobek opraven podle původní požadavky, vyměněn nebo odmítnut.'
+    - q: 'Jakou dokumentaci při nesouladu dostaneme?'
+      a: 'Záznam NCR zahrnuje číslo NCR, fázi zjištění, výrobek či SKU, šarži, použitelné revize dokumentů, popis vady, izolaci, přijaté opatření, odkaz na pokyn k opravě, výsledek opětovné kontroly a schválení uvolnění či uzavření — k dispozici dle dohody o kvalitě Vašeho projektu.'
+
+cta:
+  title: 'Kvalitativní pochybnosti se řeší řízeným procesem'
+  desc: 'Sdělte nám požadavky na kvalitu, kontrolu či dokumentaci konkrétního projektu již při dotazu — můžeme přezkoumat použitelné kontrolní body ještě před vývojem vzorku nebo plánováním výroby.'
+  actions:
+    - text: Probrat požadavky na kvalitu
+      variant: primary
+      href: /cs/contact
+    - text: Stáhnout SOP řízení NČV (PDF)
+      href: 'https://assets.isupfactory.com/site/downloads/non-conforming-product-control-sop-iso-8-7.pdf?dl=1'
+    - text: Stáhnout Protokol o likvidaci (PDF)
+      href: 'https://assets.isupfactory.com/site/downloads/scrap-destruction-certificate-vat-qa-scrap-cert-2026.pdf?dl=1'

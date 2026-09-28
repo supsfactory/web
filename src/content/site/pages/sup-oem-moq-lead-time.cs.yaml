@@ -1,0 +1,219 @@
+meta:
+  title: 'MOQ a výrobní lhůty vlastních SUP — od 1 vzorku po kontejnerové dávky'
+  description: 'Úrovně MOQ a výrobních lhůt pro vlastní SUP: vzorky za 7–12 dnů, pilotní objednávky 20–50 desek, standardní objem 90–100+ z 150metrové role a výroba za 25–35 dnů.'
+  dateModified: '2026-08-16'
+  keywords:
+    - 'moq pro vlastní sup'
+    - 'výrobní lhůta sup'
+    - 'minimální objem objednávky nafukovacích sup'
+    - 'pilotní objednávka sup'
+    - 'výrobní lhůta vlastního paddle boardu'
+    - 'výrobní lhůta na továrně oem sup'
+    - 'objednávka vzorku sup'
+
+hero:
+  tagline: 'MOQ a lhůty pro vlastní SUP'
+  title: 'Od 1 vzorku po kontejnerové dávky — MOQ a lhůty jednoduše'
+  subtitle: 'Srozumitelné vysvětlení úrovní objednávkového množství a výrobních lhůt pro vlastní nafukovací SUP: co lze objednat v každé fázi, jak dlouho jednotlivé fáze reálně trvají a jak se vzorek, pilotní dávka a sériová objednávka skládají do jednoho projektu. Vyvinuto a provozováno společností Qingdao Vatrad Group Co., Ltd.'
+  actions:
+    - variant: primary
+      text: Získat kalkulaci MOQ a lhůt pro projekt
+      href: /cs/contact#moq-guide
+    - text: Průvodce MOQ a flexibilním brandingem
+      href: /cs/oem-moq-guide
+
+answer:
+  label: 'Přímá odpověď'
+  text: 'MOQ a lhůty závisejí na projektu, ale samotné schéma je pevné. Každý projekt vlastních SUP prochází stejnými postupnými úrovněmi: vývoj vzorku (1–2 desky, připravené za 7–12 dnů), zkušební a pilotní objednávky (20–50 desek) a standardní sériové dávky (90–100+ desek z 150metrové role látky drop stitch). Výrobní lhůta činí 25–35 dnů od potvrzeného PO a zálohy; pokud projekt potřebuje vlastní trup, vývoj formy přidává 15–20 dnů před zahájením výroby. Typický první projekt vypadá takto: vzorky přibližně za 1–2 týdny, pilotní desky za 4–6 týdnů a první plná dávka s odesláním asi 6–8 týdnů po odsouhlasení objednávky.'
+  verified: 'září 2026'
+
+moq_lead_table:
+  tagline: 'Schéma'
+  title: 'Úrovně MOQ a lhůt pro vlastní SUP — stručně'
+  subtitle: 'Každá fáze potvrzuje tu další. Nikdy nepřecházíte rovnou z výkresu ke kontejneru — v každé úrovni odsouhlasíte tvar trupu, grafiku a obaly, než přijmete závazek k větší dávce.'
+  headers:
+    stage: 'Fáze objednávky'
+    quantity: 'Obvyklé množství'
+    lead_time: 'Lhůta'
+    best_for: 'Nejvhodnější pro'
+  rows:
+    - stage: 'Vývoj vzorku'
+      quantity: '1–2 desky'
+      lead_time: '7–12 dnů'
+      best_for: 'Ověření tuhosti trupu, struktury podložky EVA, přesnosti grafiky a kompatibility příslušenství. Cena vzorků se účtuje a po podpisu smlouvy se odečítá od výrobní objednávky.'
+    - stage: 'Zkušební / pilotní objednávka'
+      quantity: '20–50 desek'
+      lead_time: '25–35 dnů'
+      best_for: 'Předsezónní komerční testy, validaci trhu a první prodeje na stávajících platformách trupu, skladových materiálech a zjednodušených obalech.'
+    - stage: 'Standardní sériová dávka'
+      quantity: '90–100+ desek z 150metrové role'
+      lead_time: '25–35 dnů'
+      best_for: 'Plné výrobní efektivity na celých 150metrových rolích látky — bez přepláťovaných spojů, s rovnoměrným napnutím vláken a tlumeným seřízením linky. Vlastní formy se vyrábějí právě na této úrovni.'
+    - stage: 'Velkoobjemový program'
+      quantity: '300+ desek'
+      lead_time: '25–35 dnů na dávku, dělené odeslání'
+      best_for: 'Kontejnerových programů a sezónních objemů rozdělených na několik výrobních dávek, aby zůstala říditelná zásoba i cash flow.'
+
+moq_drivers:
+  tagline: 'Co určuje Vaše MOQ'
+  title: 'Šest faktorů, které určují minimální objem'
+  subtitle: 'MOQ není náhodné číslo zvolené obchodním oddělením. Počítá se z celé architektury produktu — tyto položky se posuzují společně ještě před vytvořením nabídky.'
+  grid: 'sm:grid-cols-2 lg:grid-cols-3'
+  features:
+    - icon: H
+      icon_bg: blue
+      title: 'Tvar trupu a nástroje'
+      desc: 'Stávající tovární formy trupu umožňují pilotní objednávky od 20 desek. Vlastní trup vyžaduje vlastní řezné nástroje CAD a termopresové nástroje EVA a jejich vývoj přidává 15–20 dnů do harmonogramu.'
+    - icon: C
+      icon_bg: green
+      title: 'Barevné kombinace a PVC'
+      desc: 'Standardní skladové barvy vyrábíme již v pilotních dávkách, zatímco vlastní PVC desky barvené podle Pantone vyžadují samostatné chemické dávky barvení s vlastními minimálními objemy materiálu.'
+    - icon: A
+      icon_bg: purple
+      title: 'Grafika a rozsah tisku'
+      desc: 'Logo na přídi lze vytisknout sítotiskem i v malém nákladu, zatímco celoplošná barevná grafika, nebo vícepanelová kompozice vyžaduje přípravu tiskových forem pro digitální tisk a zkoušky nátěru, což zvyšuje praktickou velikost dávky.'
+    - icon: B
+      icon_bg: orange
+      title: 'Značkové obaly'
+      desc: 'Vlastní 5vrstvé dárkové krabice pro maloobchod mají vlastní minimum ofsetového tisku. Pokud objednáte méně krabic, přebytečné uskladníme a odešleme spolu s Vašími plánovanými zásilkami.'
+    - icon: G
+      icon_bg: blue
+      title: 'Sestavy příslušenství'
+      desc: 'Standardní hliníková, nebo nylonová vesla, pumpy a tašky vyrábíme v dávkách dodavatele příslušné podúrovně. Plně značkové karbonové veslo a vlastní pumpy mají vlastní výrobní minimá.'
+    - icon: S
+      icon_bg: green
+      title: 'Sezóna a platební plán'
+      desc: 'Objednávky zadané v předsezónním okně získávají potvrzené výrobní termíny. Plány děleného odeslání pro programy 300+ desek se dohadují ve fázi smlouvy, nikoli až po výrobě.'
+
+moq_timeline:
+  tagline: 'Úplný harmonogram'
+  title: 'Od produktového briefu po odeslané desky: po dnech'
+  subtitle: 'Úplný harmonogram typického programu vlastních SUP. Stávající platformy trupu se v levé části tohoto harmonogramu zkrátí; vlastní trup přidává fázi vývoje formy.'
+  steps:
+    - step: 'Den 0'
+      title: 'Odešlete produktový brief'
+      desc: 'Model desky, cílové množství, barevné kombinace, grafika a požadavky na obaly. Konstrukční prověření dokončíme do jednoho pracovního dne.'
+    - step: 'Dny 1–2'
+      title: 'Konstrukční prověření a proveditelnost'
+      desc: 'Náš konstrukční tým prověří geometrii trupu, materiály a cestu k požadované shodě a potvrdí, zda projekt vyhovuje stávajícím platformám, nebo vyžaduje nové nástroje.'
+    - step: 'Dny 3–7'
+      title: 'Specifikace a obchodní nabídka po položkách'
+      desc: 'Dostanete úplnou specifikaci s kalkulací MOQ, fázemi lhůt a náklady po položkách — včetně případných poplatků za formu — ještě před přijetím jakýchkoli závazků.'
+    - step: 'Dny 7–12'
+      title: 'Vývoj vzorku (1–2 desky)'
+      desc: 'Fyzický vzorek vyrobíme a otestujeme: tuhost trupu, struktura podložky EVA, přesnost grafiky a kompatibilita příslušenství. Cena vzorků se po podpisu odečítá od výrobní objednávky.'
+    - step: '+15–20 dnů'
+      title: 'Vývoj vlastní formy (pouze pro vlastní trupy)'
+      desc: 'Pouze pro projekty s novým tvarem trupu: frézované řezné nástroje CNC, termopresové nástroje EVA a zkoušky formy dokončíme před zahájením sériové výroby.'
+    - step: '25–35 dnů'
+      title: 'Výroba po potvrzeném PO a záloze'
+      desc: 'Celé 150metrové role látky, materiály podle Pantone, značkové obaly a montáž podle 100 bodů. Každá deska projde 24hodinovou zkouškou tlaku a těsnosti.'
+    - step: '300+ desek'
+      title: 'Plánování děleného odeslání'
+      desc: 'Velké programy odesíláme po dávkách podle harmonogramu zohledňujícího sezónní prodeje, skladové kapacity a platební fáze.'
+    - step: 'Dny 0–90'
+      title: 'Obvyklý horizont první objednávky'
+      desc: 'Od briefu po dodanou první dávku: přibližně 6–8 týdnů při použití stávajících platforem, 8–12 týdnů zahrnujících vlastní formu. Programy o více rolích a kontejnerové programy tento rámec ze své podstaty překračují.'
+
+expedite:
+  tagline: 'Zrychlete harmonogram'
+  title: 'Co pomáhá držet termíny'
+  subtitle: 'Tři páky umožňují zkrátit harmonogram, aniž byste měnili fyziku role.'
+  features:
+    - icon: S
+      icon_bg: blue
+      title: 'Vzorky se standardně vyrábí rychle'
+      desc: 'Vývoj vzorku trvá v každém projektu 7–12 dnů. Využijte cyklus vzorku k uzavření specifikace, aby výroba nikdy nečekala na pozdní rozhodnutí o grafice.'
+    - icon: P
+      icon_bg: green
+      title: 'Výrobní termíny se potvrzují předem'
+      desc: 'Předsezónní objednávky zajišťují potvrzené výrobní termíny. Když si více klientů rezervuje stejný termín, právě proto dávají dřívější zálohy dřívější místa ve frontě.'
+    - icon: T
+      icon_bg: purple
+      title: 'Průhledné kontrolní body'
+      desc: 'Každý bod — odsouhlasení vzorku, zmrazení BOM, zmrazení grafiky, PO a záloha — se dohaduje ve fázi smlouvy s uvedeným datem. Vždy víte, kdy se odpočet začíná znovu.'
+
+scenarios:
+  tagline: 'Tři realistické varianty startu'
+  title: 'Která cesta odpovídá Vašemu projektu?'
+  subtitle: 'Stejná továrna, tři různé způsoby, jak začít. Vyberte scénář nejbližší Vaší situaci a použijte jej, když se nám ozvete.'
+  features:
+    - icon: A
+      icon_bg: orange
+      title: 'Zakládaná značka — nejdřív ověřit, pak přebírat závazky'
+      desc: 'Nejprve objednejte 1–2 vzorky (7–12 dnů), posuďte kvalitu pádlování a fotografie a poté zadejte zkušební objednávku 20–50 desek, abyste ověřili prodeje před plnou dávkou. Celkový objem první sezóny zůstane pod 50 deskami.'
+    - icon: B
+      icon_bg: blue
+      title: 'Letovisko, nebo půjčovna — pilotní dávka, pak škálování'
+      desc: 'Pilotní objednávka 20–50 desek se zjednodušenými obaly pokryje Vaši předsezónu. Po získání dat o intenzitě používání přejděte na standardní dávky 90–100+ desek se značkovými obaly.'
+    - icon: C
+      icon_bg: green
+      title: 'Zralá značka — zcela vlastní kontejnerové programy'
+      desc: 'Existující značky objednávají 90–100+ desek z 150metrové role s vlastními trupy a celoplošným brandingem. Vývoj vlastních nástrojů přidává 15–20 dnů; programy 300+ desek se odesílají děleně podle harmonogramu.'
+
+moq_quality:
+  tagline: 'QC a shoda s požadavky'
+  title: 'Stejný systém kvality při jakémkoli objemu'
+  subtitle: 'Vzorek jedné desky i program 300+ desek procházejí stejnými kontrolními branami kvality a stejnou dokumentací ke shodě. „Nízké MOQ“ nikdy neznamená „nízkou úroveň“.'
+  grid: 'sm:grid-cols-2 lg:grid-cols-3'
+  features:
+    - icon: C
+      icon_bg: blue
+      title: 'Dokumenty ke shodě v každém rozsahu'
+      desc: 'Dokumentaci pro certifikaci CE, ISO 9001, BSCI, REACH a RoHS dodáme s každou objednávkou — včetně jednotlivých vzorků; čísla certifikátů poskytneme na vyžádání.'
+    - icon: A
+      icon_bg: green
+      title: 'Montážní kontrolní seznam 100 bodů'
+      desc: 'Každá deska prochází stejným montážním kontrolním seznamem o 100 bodech bez ohledu na velikost dávky: materiály, svařování, ventily, boky, žebra a kompatibilita příslušenství se kontrolují kus po kuse.'
+    - icon: P
+      icon_bg: purple
+      title: '24hodinová zkouška tlaku a těsnosti'
+      desc: 'Každá deska se natlakuje na 18,0 PSI a udrží 24 hodin. Pokles tlaku více než o 0,50 PSI znamená automatické vyřazení — stejná brána pro vzorek i kontejner.'
+    - icon: R
+      icon_bg: orange
+      title: 'Kontrola vysokofrekvenčního svařování a svarů boků'
+      desc: 'Svar třívrstvého bočního pásu a vysokofrekvenční švy se vizuálně a rozměrově kontrolují proti odsouhlasenému vzorku před jakoukoli sériovou dávkou.'
+    - icon: B
+      icon_bg: blue
+      title: 'Sledovatelnost šarží v ERP po dobu 10 let'
+      desc: 'Každá deska má výrobní záznamy se sériovým číslem — materiály, operátoři, zkoušky a výsledky kontrol, které uchováváme 10 let a jsou k dispozici k auditu.'
+    - icon: I
+      icon_bg: green
+      title: 'Připraveno na kontrolu třetí strany'
+      desc: 'Dávka je připravena na kontrolu třetí strany v jakékoli fázi. Většina klientů navíc používá náš 7fázový systém kontrol, nebo přednáškovou kontrolu u sériových programů.'
+
+moq_faqs:
+  tagline: FAQ
+  title: 'Časté dotazy k MOQ a lhůtám'
+  items:
+    - q: 'Jaké je minimální objednávkové množství pro vlastní SUP?'
+      a: 'Záleží na fázi Vašeho projektu: vzorky 1–2 desky, společný branding malým nákladem začíná na 5–10 kusech, zkušební a pilotní objednávky běží v objemu 20–50 desek a standardní sériová výroba 90–100+ desek z 150metrové role látky drop stitch. Vlastní formy vyrábíme na sériové úrovni. Přesnou kalkulaci pro Vaši konfiguraci potvrdíme před vytvořením nabídky.'
+    - q: 'Jak dlouho trvá výroba vzorku nafukovacího SUP?'
+      a: 'Vývoj vzorku trvá 7–12 dnů. Vzorek potvrzuje tuhost trupu, strukturu podložky EVA, přesnost grafiky a kompatibilitu příslušenství. Cena vzorků se účtuje a po podpisu smlouvy odečítá od výrobní objednávky.'
+    - q: 'Jak dlouho trvá výroba po odsouhlasení objednávky?'
+      a: 'Výrobní lhůta činí 25–35 dnů od potvrzeného PO a zálohy. Pokud projekt zahrnuje vlastní trup, vývoj formy přidává 15–20 dnů na nástroje před zahájením výroby.'
+    - q: 'Počítá se MOQ na objednávku, model, nebo barevnou kombinaci?'
+      a: 'MOQ se může vztahovat na model, barevnou kombinaci, verzi grafiky, konfiguraci obalů, nebo na celou objednávku. Protože různá tloušťka drop stitch a různé barvy PVC pocházejí z oddělených rolí materiálu, objednávka 50 desek rozdělená na 5 barev vytvoří 5 samostatných požadavků na role látky. Kalkulaci potvrdíme podle Vaší matice SKU.'
+    - q: 'Mohu začít s 1–2 deskami a prověřit trh?'
+      a: 'Ano. Objednávka vzorku 1–2 desky je nejlevnější možnou prověrkou: tuhost trupu, grafika a kompatibilita příslušenství se potvrdí dříve, než přijmete jakékoli finanční závazky k dávce. Následně přejdete na zkušební objednávku 20–50 desek pro komerční validaci.'
+    - q: 'Lze program 300+ desek odesílat po více dávkách?'
+      a: 'Ano. Velkoobjemové programy plánujeme jako dělené odeslání po výrobních dávkách, aby se sezónní zásoby dodávaly včas a cash flow i skladové plochy zůstaly říditelné. Harmonogramy se dohadují ve fázi smlouvy, nikoli až po výrobě.'
+
+evidence_review:
+  tagline: 'Potvrzení a kontrola'
+  title: 'POTVRZENÉ PARAMETRY'
+  body: 'Všechna tvrzení o výrobě na této stránce potvrdilo naše konstrukčně-výrobní tým v areálu v Laixi v Qingdao. Certifikáty, záznamy kontrol QC, protokoly zkoušek tlaku a konstrukce i záznamy sledovatelnosti šarží jsou k dispozici na vyžádání. Parametry byly naposledy ověřeny v září 2026.'
+
+cta:
+  title: 'Potřebujete kalkulaci MOQ a lhůt pro Váš projekt?'
+  subtitle: 'Zašlete nám model desky, cílové množství pro první sezónu a požadavky na branding. Náš konstrukční tým potvrdí, zda projekt vede cesta přes vzorek, zkušební objednávku, nebo sérii — s přesnou kalkulací MOQ a harmonogramem po dnech. Odeslání žádosti Vás nezavazuje k objednávce.'
+  actions:
+    - variant: primary
+      text: Vyžádat kalkulaci MOQ a lhůt
+      href: /cs/contact#moq-guide
+    - text: Porovnat s průvodcem flexibilním brandingem
+      href: /cs/oem-moq-guide
+    - text: Rozjet novou značku zkušební objednávkou s nízkým MOQ
+      href: /cs/new-brand-trial-order
+    - text: Prověřit továrnu a systém kvality
+      href: /cs/oem-trust-assurance

@@ -1,0 +1,513 @@
+meta:
+  title: 'Kontrola kvality individuálních SUP: kontrola v 7 fázích | iSupfactory'
+  description: 'Jak se kontroluje každá individuální objednávka SUP: 7 kontrolních fází od plánování před výrobou po uvolnění zásilky, ke stažení jsou dvojjazyčné zprávy.'
+  dateModified: '2026-08-15'
+  keywords:
+    - 'kontrola kvality sup'
+    - 'kontrola v továrně sup'
+    - 'plán kontroly kvality oem'
+    - 'předexppediční inspekce sup'
+    - 'certifikace ce sup'
+    - 'iso 9001 sup'
+hero:
+  tagline: Kontrola kvality pro individuální projekty
+  title: 'Kontrola kvality individuálních nafukovacích projektů SUP'
+  subtitle: 'Kvalita se ověřuje podle schváleného vzorku, technické specifikace, grafiky, kusovníku a požadavků na obaly u každého projektu — nikoli podle obecného tvrzení. Od vstupních materiálů po uvolnění zásilky je náš proces kontroly strukturovaný tak, aby na definovaných fázích výroby potvrzoval shodu výrobku s požadavky. V provozu QINGDAO VATRAD GROUP — továrny nafukovacích desek SUP o ploše 12 500 m², která stojí za Vatrad.'
+stats:
+  - value: 100%
+    label: Kusů otestováno tlakem
+  - value: '7'
+    label: Kontrolních fází s pevným režimem
+  - value: '18,0 PSI'
+    label: 24hodinové udržení tlaku
+  - value: ISO 9001
+    label: Potvrzeno certifikátem kvality
+quality_basis:
+  tagline: Základ kvality
+  title: 'Co určuje přijetí výrobku'
+  subtitle: 'Kritéria konečného přijetí se stanovují před uvolněním výroby. Tyto řízené projektové dokumenty určují, co se vyrábí, jak se ověřují klíčové detaily a co musí být zkontrolováno před odesláním — schválí se s kupujícím a zmrazí v Plánu kontroly kvality (QIP). Jakákoli žádost o změnu prochází zdokumentovanou kontrolou změn, nikdy potichu na lince.'
+  items:
+    - title: 'Schválený vzorek'
+      description: 'Fyzická referenční deska podepsaná kupujícím. Každá hotová deska se s ní porovnává z hlediska rozměrů, profilu, tuhosti a povrchové úpravy.'
+      icon: tabler:medal
+    - title: 'Technická specifikace'
+      description: 'Materiály, konstrukce a rozměrové výkresy jsou ukotveny číslem revize. FAI ověřuje první kus proti přesně této revizi.'
+      icon: tabler:file-check
+    - title: 'Schválená grafika'
+      description: 'Grafika, barvy tisku a umístění jsou schváleny a verzně ukotveny před řezáním, takže každá paluba odchází v podobě, kterou značka schválila.'
+      icon: tabler:palette
+    - title: 'Kupujícím schválený kusovník'
+      description: 'Kusovník — deska, pádlo, pumpička, leash, taška, návod — potvrzený kupujícím. PSI podle něj kontroluje 100% kompletnost soupravy.'
+      icon: tabler:list-checks
+    - title: 'Požadavky na obaly a označení'
+      description: 'Konstrukce krabice, značky, čárové kódy, obsah etikety a přepravní značky jsou písemně stanoveny. Čitelnost čárových kódů a přesnost označení se ověřují ve fázi PSI.'
+      icon: tabler:package
+tests:
+  - title: Tlaková zkouška
+    description: Nafukovací komory jsou po delší dobu vystavovány tlakům překračujícím doporučené provozní meze. Tím se ověřuje nepropustnost a konstrukční integrita materiálu a švů, takže výrobek odolá zamýšlenému použití i případnému nadměrnému dofukování bez poruchy a netěsnosti.
+    image: https://assets.isupfactory.com/images/sups/factory/isupfactory-pressure-testing.webp
+    alt: Nafukovací komora SUP při tlakové zkoušce ověřující nepropustnost
+  - title: Zkouška odolnosti proti nárazu
+    description: Výrobky jsou vystavovány řízeným nárazům různými závažími z různých úhlů. Tím se posuzuje odolnost materiálu vůči propíchnutí, trhlinám a poškození při nárazu do překážek ve vodě, což prokazuje trvanlivost a životnost.
+    image: https://assets.isupfactory.com/images/sups/factory/isupfactory-production-department.webp
+    alt: Zkušební zařízení pro nárazy posuzující odolnost materiálu nafukovacího člunu vůči propíchnutí
+  - title: Zkouška odolnosti proti UV záření
+    description: Vzorky materiálu se vystavují urychlenému UV záření, aby se ověřilo, že v čase nežloutnou, nepraskají a neztrácejí pevnost. Každá šarže PVC se před použitím ve výrobě prověří na stárnutí slunečním zářením.
+    image: https://assets.isupfactory.com/images/sups/factory/isupfactory-uv-resistance-testing.webp
+    alt: Vzorky materiálu PVC v urychleném UV záření při zkoušce odolnosti
+  - title: Zkouška odolnosti proti oděru
+    description: Vzorky materiálu se třou o drsné povrchy po určitý počet cyklů za řízeného tlaku. Tím se měří schopnost materiálu odolávat opotřebení a opotřebení z opakovaného používání, kontaktu s pískem, kameny či jinými povrchy, což zajišťuje dlouhodobou trvanlivost.
+    image: https://assets.isupfactory.com/images/sups/factory/isupfactory-pvc-material-testing.webp
+    alt: Stroj na zkoušku odolnosti proti oděru, který tře vzorek tkaniny PVC a měří odolnost proti opotřebení
+  - title: Zkouška při nízkých teplotách
+    description: Výrobky se zkoušejí v chladném prostředí, aby se posoudila jejich funkčnost a trvanlivost v různých teplotních podmínkách a zabránilo se tužení či praskání ve studené vodě. Zásadní pro čluny určené k zimnímu nebo vysokosouřadnicovému použití.
+    image: https://assets.isupfactory.com/images/sups/factory/isupfactory-factory-exterior.webp
+    alt: Nafukovací výrobek v chladicí komoře při zkoušce vlastností za nízkých teplot
+  - title: Zkouška vztlaku a nosnosti
+    description: Výrobky se zkoušejí s různými závažími, aby se určila jejich maximální nosnost a aby bylo prokázáno, že bezpečně nesou uživatele i vybavení. Jmenovitá nosnost každého modelu se ověřuje před uvolněním.
+    image: https://assets.isupfactory.com/images/sups/factory/isupfactory-stock-boat-inventory.webp
+    alt: Zkouška vztlaku a nosnosti nafukovacího plavidla se závažími
+  - title: Zkouška ovladatelnosti
+    description: Výrobky se zkoušejí na odezvu na pádlování nebo pohon motorem, přičemž se hodnotí poloměr zatáčení a snadnost ovládání. Zkoušky na vodě potvrzují, že skutečné chování odpovídá projektovým specifikacím.
+    image: https://assets.isupfactory.com/images/sups/factory/isupfactory-sup-manufacturing.webp
+    alt: Zkouška ovladatelnosti na vodě nafukovací desky SUP a trupu člunu
+  - title: Zkouška nepropustnosti
+    description: Zcela smontované výrobky se ponoří do vody nebo se vystaví vodní sprše, aby se odhalily netěsnosti švů, ventilů či materiálu. Každý člun před odesláním projde povinnou kontrolou nepropustnosti.
+    image: https://assets.isupfactory.com/images/sups/factory/isupfactory-production-department-2.webp
+    alt: Zkouška nepropustnosti ponořením, která kontroluje švy a ventily na netěsnosti
+qc_flow:
+  tagline: Schéma kontroly v 7 fázích
+  title: 'Sedm kontrolních vrat kvality od začátku do konce'
+  subtitle: 'Každá z těchto vrat je definována v Plánu kontroly kvality projektu včetně předmětu kontroly, metody, kritérií přijetí a vznikajícího záznamu. Dvojjazyčné sady zpráv jsou skutečné řízené záznamy — otevřete kteroukoli a uvidíte skutečnou strukturu.'
+  obj_label: Předmět kontroly
+  method_label: Metoda kontroly
+  criteria_label: Kritéria přijetí
+  record_label: Vznikající záznam
+  stages:
+    - stage: STAGE 01
+      title: 'Plánování kvality projektu (PPM)'
+      summary: 'Schůzka před výrobem před startem linky ukotví rozsah, výchozí hodnoty a plán kontroly.'
+      checks:
+        - 'Zaznamená se název výrobku, interní kód, SKU zákazníka, číslo objednávky a definice šarže.'
+        - 'Specifikován je typ desky, jádro drop-stitch, materiály, výztuhy okrajů, EVA, ventily a systém žebra.'
+        - 'Název souboru grafiky, verze, barvy, umístění loga a tisková plocha se ukotví a schválí.'
+        - 'Kusovník — každá položka sady s množstvím, barvou, číslem dílu a pravidly náhrady — je schválen zákazníkem.'
+        - 'Obaly, označení, čárové kódy, jazyk návodů a ujednání o třetí straně se písemně stanoví.'
+      object: 'Rozsah projektu oproti požadavkům zákazníka — materiály, rozměry, grafika, obaly, cílový trh a použitelné normy.'
+      method: 'Schůzka před výrobem s účastí obchodu, konstrukce a kontroly kvality; podpis referenčního vzorku; vydání Plánu kontroly kvality (QIP) pro objednávku.'
+      criteria: 'Všech pět výchozích hodnot je schváleno a zmrazeno před začátkem sériové výroby. Nevyřešené body blokují uvolnění výroby.'
+      record: 'QIP + zápisy z PPM, záznamy o schválení vzorku.'
+      image: https://assets.isupfactory.com/site/quality/node01-ppm.avif
+      alt: 'Schůzka před výrobem: posouzení referenčního vzorku a plánu kontroly kvality pro objednávku OEM SUP'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_SUP_OEM_QIP.pdf
+      link_label: 'Stáhnout QIP (PDF)'
+    - stage: STAGE 02
+      title: 'Vstupní kontrola materiálů (IQC)'
+      summary: 'Suroviny se ověřují proti schválené specifikaci dodavatele ještě před vstupem do výroby.'
+      checks:
+        - 'Tkanina drop-stitch, role PVC, materiál okrajů a palubní podložky EVA se porovnávají se schváleným vzorkem — barva, tloušťka, hmotnost a povrchové vady.'
+        - 'Ventily, držáky žebra, D-kroužky, madla a kovové části se kontrolují z hlediska typu, rozměru, povrchové úpravy, koroze a správné funkce.'
+        - 'Pumpičky, pádla, leash, tašky a opravné sady se ověřují podle modelu, barvy a konfigurace projektu.'
+        - 'Certifikáty dodavatele (COA), prohlášení k materiálům a dokumenty o souladu s REACH/RoHS se posuzují u každé šarže.'
+        - 'Nevyhovující šarže se dají do karantény a vrátí dřív, než se materiál dostane na linku.'
+      object: 'Tkanina drop-stitch, role PVC, ventily, žebra, příslušenství a obalové materiály proti schválené specifikaci a zkušebním certifikátům dodavatele.'
+      method: 'Vizuální, rozměrová a váhová kontrola; výběrové zkoušení šarží dle AQL; posouzení certifikátů materiálu; dodržování schváleného seznamu dodavatelů.'
+      criteria: 'Splňuje schválenou specifikaci a certifikáty. Nevyhovující šarže se dají do karantény a před uvolněním na linku se odmítnou.'
+      record: 'Zprávy o zkouškách IQC s uvedením šarží a přijatého opatření.'
+      image: https://assets.isupfactory.com/site/quality/node02-iqc.avif
+      alt: Vstupní kontrola tkaniny PVC a součástek SUP v továrně
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_IQC_TEST_REPORTS.pdf
+      link_label: 'Stáhnout zprávy IQC (PDF)'
+    - stage: STAGE 03
+      title: 'Kontrola během výroby a kontrola prvního kusu (IPQC / FAI)'
+      summary: 'Metody sestavování a kontrolní body se volí podle schválené platformy desky a konfigurace projektu. První kus se kontroluje proti ukotveným výchozím hodnotám; každá směna dělá na lince pochůzkové kontroly.'
+      checks:
+        - 'První kus se ověří proti schválenému vzorku, technickému výkresu, kusovníku, grafice a souborům obalů ještě před začátkem sériové výroby.'
+        - 'Změří se rozměry desky, obrys a souměrnost; potvrdí se směr, poloha a barvy tisku a loga i příslušná revize.'
+        - 'Švy a plynulost výztuh okraje se na lince kontrolují z hlediska mezer, delaminace, zvrásnění, znečištění a posunutí.'
+        - 'Montáž ventilu, D-kroužku, madla a držáku žebra se kontroluje z hlediska polohy, počtu a osazení vůči zákazníkem schválenému kusovníku.'
+        - 'Schválení FAI verzně ukotví grafiku, rozměry a kusovník; odchylky se směřují do rozhodovacího procesu oprav — nikdy se neřeší přilepením na lince.'
+      object: 'První kus a mezikroty během výroby — švy, okrajové výztuhy, držák žebra, základ ventilu, poloha grafiky, moment utažení spojovacího materiálu.'
+      method: 'Kontrola prvního kusu na prvním vyrobeném kusu; pochůzkové kontroly každou směnu; pevnost svarů a souosost švů se ověřují přímo při výrobě.'
+      criteria: 'Schválení FAI verzně ukotví grafiku, rozměry a kusovník. Odchylky se směřují do rozhodovacího procesu oprav — nikdy se neřeší přilepením na lince.'
+      record: 'Protokol FAI, směnové pochůzkové záznamy, poznámky k opravám a přijatým opatřením.'
+      image: https://assets.isupfactory.com/site/quality/node03-ipqc-fai.avif
+      alt: Kontrola během výroby a kontrola prvního kusu při výrobě SUP
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_IPQC_TEST_REPORTS.pdf
+      link_label: 'Stáhnout zprávy IPQC (PDF)'
+    - stage: STAGE 04
+      title: 'Dofukování a zkouška nepropustnosti'
+      summary: 'Každá hotová deska před zabalením projde dofukováním a ověřením nepropustnosti — 100% kusů, ne výběrový vzorek.'
+      checks:
+        - 'Povrch desky, okrajové výztuhy a okolí ventilu se před dofukováním kontrolují z hlediska drobných děr, trhlin, neobvyklých záhybů nebo delaminace.'
+        - 'Komory se kalibrovaným digitálním tlakoměrem dofukují na zkušební tlak projektu a počáteční údaj se zaznamená.'
+        - 'Jádro ventilu, základ ventilu a švy okraje se kontrolují po celém obvodu — příď, zádě i zakřivené úseky.'
+        - '24hodinové udržení tlaku s průběžným záznamem; automatické odmítnutí při překročení povoleného poklesu tlaku.'
+        - 'Neúspěšné desky se dají do karantény, opraví podle pokynu a plně přezkouší — nikoli jen znovu zkontrolují v místě opravy.'
+      object: '100% nafouknutých komor — detekce netěsností po celém švu, integrita ventilu a udržení poklesu tlaku.'
+      method: 'Detekce netěsností po celém švu a následné 24hodinové udržení tlaku při 18,0 PSI; automatické odmítnutí při poklesu nad 0,50 PSI.'
+      criteria: 'Nulový počet míst netěsnosti a pokles tlaku do 0,50 PSI na komoru; nevyhovující kusy se dají do karantény a opraví nebo vyřadí.'
+      record: 'Zprávy o zkoušce nepropustnosti, jedna na komoru, spojené se šarží.'
+      image: https://assets.isupfactory.com/site/quality/node04-airtightness.avif
+      alt: Dofukování a zkouška nepropustnosti nafukovací komory SUP
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_AIRTIGHTNESS_TEST_REPORTS.pdf
+      link_label: 'Stáhnout zprávy o nepropustnosti (PDF)'
+    - stage: STAGE 05
+      title: 'Konečná kontrola výrobku (FQC)'
+      summary: 'Hotové desky se měří a vizuálně hodnotí proti schválenému referenčnímu vzorku.'
+      checks:
+        - 'Klíčové rozměry — délka, šířka a tloušťka — se měří při pracovním tlaku s ohledem na tolerance výkresu.'
+        - 'Ověří se obrys desky, rocker a souměrnost; po dofukování nesmí být přítomna neobvyklá deformace, zkroucení či vybočení.'
+        - 'Vzhled se hodnotí pod denním světlem D65: škrábance, skvrny, stopy lepidla, bubliny, zvrásnění, odchylka barvy.'
+        - 'Funkční kontroly: otevírání a zavírání ventilu a dosednutí víčka, nasazení a upevnění žebra, D-kroužky, madla a funkčnost pádla.'
+        - 'Konfigurace se ověří proti zákazníkem schválenému kusovníku a SKU — příslušenství, etikety, čárové kódy a sériová čísla.'
+      object: 'Hotová deska proti referenčnímu vzorku — rozměry, rocker, profil, vzhled, osazení držáku žebra a kompletnost příslušenství.'
+      method: 'Rozměrové ověření s ohledem na tolerance výkresu; hodnocení vzhledu pod denním světlem D65; zkoušky osazení držáku žebra a spojovacího materiálu.'
+      criteria: 'Rozměry v toleranci (například 3508 × 814 × 150,3 mm), stupeň vzhledu podle schváleného vzorku, kompletní příslušenství.'
+      record: 'Zprávy FQC s podpisem kontrolora a přijatým opatřením.'
+      image: https://assets.isupfactory.com/site/quality/node05-fqc.avif
+      alt: Konečná kontrola hotových desek SUP před zabalením
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_FQC_TEST_REPORTS.pdf
+      link_label: 'Stáhnout zprávy FQC (PDF)'
+    - stage: STAGE 06
+      title: 'Balení a předexppediční kontrola (PSI)'
+      summary: 'Zabalená souprava se kontroluje z hlediska kompletnosti, přesnosti označení a připravenosti k odeslání.'
+      checks:
+        - 'Kompletnost soupravy 100 % podle kusovníku: deska, pádlo, pumpička, leash, taška, opravná sada a návod — sada po sadě.'
+        - 'Křehké části jsou chráněny (obaly pumpičky a listu), deska se skládá podle obalové SOP, příslušenství odpovídá modelu a barvě.'
+        - 'Grafika krabice, značka, výstrahy a jazykové verze se ověřují proti schválené revizi grafiky.'
+        - 'Ověří se typ, číslo, poloha a čitelnost čárových kódů; přepravní značky, SKU, objednávka, číslo krabice i množství musí být správné.'
+        - 'Rozměr krabice, hmotnost brutto a netto i vnitřní obal odpovídají obalové specifikaci; v případě potřeby se zapíše výsledek zkoušky pádem.'
+      object: 'Zabalená souprava — deska, pádlo, pumpička, leash, taška, návod — proti zákazníkem schválenému kusovníku a obalové specifikaci.'
+      method: 'Kompletnost soupravy 100 % podle kusovníku; skenování čárového kódu (třída ≥ B); přesnost označení krabice; pádová zkouška ISTA-1A na zabalených krabicích.'
+      criteria: 'Souprava 100 % shodná s kusovníkem, čitelné čárové kódy, správné označení a odolné balení proti pádu před naložením.'
+      record: 'Kontrolní listy PSI a záznamy o balení pro každou krabici.'
+      image: https://assets.isupfactory.com/site/quality/node06-psi.avif
+      alt: Předexppediční kontrola zabalené soupravy SUP podle kusovníku
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_PSI_TEST_REPORTS.pdf
+      link_label: 'Stáhnout zprávy PSI (PDF)'
+    - stage: STAGE 07
+      title: 'Uvolnění zásilky a vysledovatelnost'
+      summary: 'Kvalita podpíše šarži teprve tehdy, když je uzavřeno všech šest předchozích fází a každý záznam je úplný.'
+      checks:
+        - 'Výrobní šarže, číslo objednávky, SKU, množství a počet krabic odpovídají balicímu listu a obchodní faktuře.'
+        - 'Specifikace, kusovník, grafika i soubory obalů jsou všechny v platné schválené revizi.'
+        - 'Záznamy IQC, FAI, kontroly během výroby, nepropustnosti, FQC a PSI jsou úplné pro uvolňovanou šarži.'
+        - 'Všechny nesoulady jsou odstraněny, opraveny, znovu zkontrolovány a uzavřeny — při uvolnění nejsou otevřené žádné body.'
+        - 'Údaje o vysledovatelnosti se zaznamenávají pro každou šarži: kód projektu, objednávka, SKU, revize grafiky, kusovníku a obalů, datum výroby, kontrolor a čísla záznamů.'
+      object: 'Autorizace uvolnění šarže — všechny fáze uzavřeny, záznamy úplné, sériová čísla přiřazena k šarži.'
+      method: 'Kontrolní posouzení všech šesti předchozích záznamů oddělením kvality; sestavení vysledovatelnostního spisu šarže; předání záznamů se zásilkou.'
+      criteria: 'Všechny fáze schváleny oddělením QA; záznamy šarže a vysledovatelnostní spis předány kupujícímu nebo na vyžádání uchovány pod NDA.'
+      record: 'Autorizace uvolnění zásilky a vysledovatelnostní spis šarže.'
+      image: https://assets.isupfactory.com/site/quality/node07-shipment-release.avif
+      alt: Podpis uvolnění zásilky a předání záznamu o vysledovatelnosti šarže
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_SHIPMENT_RELEASE_REPORTS.pdf
+      link_label: 'Stáhnout zprávy o uvolnění (PDF)'
+system_map:
+  tagline: Systém kvality
+  title: 'Jeden systém, čtyři řízené normy'
+  subtitle: 'Sedm fází uvedených výše běží podle čtyř zdokumentovaných norem, z nichž každá je zveřejněna jako řízený postup, který si můžete stáhnout a prověřit. Dohromady tvoří QMS, která stojí za každou objednávkou OEM/ODM — kritéria kontroly, řízení změn, nesoulady a laboratorní zkoušky.'
+  items:
+    - title: 'Normy pro kontrolu a uvolnění'
+      description: 'Projektový QIP řídí každou fázi: předmět kontroly, metodu, kritéria přijetí a vznikající záznam pro každou objednávku. Zahrnuje čtyřfázový rámec kontroly kvality, řetěz vysledovatelnosti, postup karantény, matici vad a registr dokumentace 00–15.'
+      icon: tabler:clipboard-check
+      link: /cs/factory/quality-inspection
+      link_label: 'Normy pro kontrolu a stažení dokumentace QMS'
+    - title: 'Řízení změn při opravách'
+      description: 'Žádná změna parametrů opravy bez zdokumentovaného řízení: izolace, klasifikace rizik, 9krokový cyklus změny, schvalovací matice a validace. Jakákoli změna schválených specifikací, vzorků, kusovníků či kritérií přijetí vyžaduje písemný souhlas zákazníka.'
+      icon: tabler:git-branch
+      link: /cs/factory/quality-change-control
+      link_label: 'Norma řízení změn'
+    - title: 'Řízení nevyhovujících výrobků'
+      description: 'Uzavřený 7krokový cyklus podle ISO 9001:2015, část 8.7: identifikace, karanténa, rozhodnutí podle NCR, oprava nebo odmítnutí, opětovná kontrola, uvolnění, náprava. Zahrnuje pravomoci podle závažnosti, matici opatření pro vady SUP a zničení za dohledu.'
+      icon: tabler:alert-triangle
+      link: /cs/factory/non-conforming-control
+      link_label: 'Norma řízení nevyhovujících výrobků'
+    - title: 'Laboratorní zkoušky a vybavení'
+      description: 'Laboratoř kvality pracuje nezávisle na výrobě: tahové zkoušky, pokles tlaku, stárnutí působením UV, odolnost svarů, detekce netěsností a teplotní komory — spolu s postupy kalibrace a zkoušek, na kterých stojí naše zveřejněná tvrzení.'
+      icon: tabler:flask
+      link: /cs/factory/quality-lab
+      link_label: 'Laboratoř kvality a zkušební vybavení'
+    - title: 'Laboratoř zkoušek materiálů (Vývoj)'
+      description: 'Vývojové centrum vede nezávislé zkoušky materiálů: receptury PVC/Hypalon, urychlené stárnutí a podporu certifikace, a tím zásobí normy používané ve výrobě.'
+      icon: tabler:microscope
+      link: /cs/randdcenter/quality-inspection-lab
+      link_label: 'Laboratoř zkoušek materiálů vývoje'
+intelligence_cards:
+  tagline: Dokumentace a vysledovatelnost
+  title: 'Záznamy o kvalitě, které zajišťují vysledovatelnost projektu'
+  subtitle: 'Záznamy o kontrole se vedou podle výrobních šarží a jsou propojeny s příslušnou projektovou dokumentací — revizí specifikace, revizí grafiky, kusovníkem a požadavky na obaly. Pro ochranu důvěrnosti zákazníků jsou vzorky na této stránce anonymizované: zobrazena jsou pouze strukturální pole (kód projektu, výrobek/SKU, šarže, fáze kontroly, předmět kontroly, kritéria přijetí, výsledek, kontrolor, datum a stav uvolnění).'
+  cards:
+    - icon: 1
+      icon_bg: blue
+      title: Záznam vstupní kontroly materiálu
+      desc: "Dokazuje, že suroviny, tkaniny drop-stitch, role PVC a součástky byly ověřeny proti schválené specifikaci ještě před uvolněním výroby."
+      metrics:
+        - { label: Fáze, value: '02 · IQC' }
+        - { label: Číslo šarže, value: 'LOT-DEMO-DS-0814' }
+        - { label: Výsledek, value: 'Vyhovuje · Schváleno pro výrobu' }
+      link: 'https://assets.isupfactory.com/site/downloads/anonymized-quality-record-samples.pdf#page=1'
+      link_label: 'Zobrazit anonymizovaný vzorek (PDF)'
+    - icon: 2
+      icon_bg: green
+      title: Záznam kontroly prvního kusu (FAI)
+      desc: "Ukazuje verzní ukotvení (grafika, rozměry, specifikace kusovníku) před vstupem do plné sériové výroby."
+      metrics:
+        - { label: Fáze, value: '03 · IPQC' }
+        - { label: Kód vzorku, value: 'SN-DEMO-FAI-001' }
+        - { label: Výsledek, value: 'Vyhovuje · FAI schváleno' }
+      link: 'https://assets.isupfactory.com/site/downloads/anonymized-quality-record-samples.pdf#page=2'
+      link_label: 'Zobrazit anonymizovaný vzorek (PDF)'
+    - icon: 3
+      icon_bg: purple
+      title: Záznam dofukování a zkoušky nepropustnosti
+      desc: "Potvrzuje detekci netěsností po celém švu u 100 % výrobků, integritu ventilu a udržení poklesu tlaku podle plánu kvality projektu."
+      metrics:
+        - { label: Fáze, value: '04 · Nepropustnost' }
+        - { label: Podmínky zkoušky, value: 'Podle plánu projektu (18,0 PSI)' }
+        - { label: Výsledek, value: 'Vyhovuje · Schváleno ke konečné kontrole' }
+      link: 'https://assets.isupfactory.com/site/downloads/anonymized-quality-record-samples.pdf#page=3'
+      link_label: 'Zobrazit anonymizovaný vzorek (PDF)'
+    - icon: 4
+      icon_bg: orange
+      title: Zpráva o konečné kontrole výrobku
+      desc: "Potvrzuje shodu hotové desky se schváleným vzorkem z hlediska rozměrů, rockeru, vzhledu (světlo D65) a osazení držáku žebra."
+      metrics:
+        - { label: Fáze, value: '05 · FQC' }
+        - { label: Rozměr, value: '3508 × 814 × 150,3 mm' }
+        - { label: Výsledek, value: 'Vyhovuje · Schváleno k balení' }
+      link: 'https://assets.isupfactory.com/site/downloads/anonymized-quality-record-samples.pdf#page=4'
+      link_label: 'Zobrazit anonymizovaný vzorek (PDF)'
+    - icon: 5
+      icon_bg: green
+      title: Kontrolní list balení a předexppediční kontroly
+      desc: "Zajišťuje 100% kompletnost soupravy, čitelnost čárových kódů (třída ≥ B), přesnost označení krabic a odolnost proti pádu podle ISTA-1A."
+      metrics:
+        - { label: Fáze, value: '06 · PSI' }
+        - { label: Souprava, value: '100 % podle kusovníku' }
+        - { label: Výsledek, value: 'Vyhovuje · Schváleno k odeslání' }
+      link: 'https://assets.isupfactory.com/site/downloads/anonymized-quality-record-samples.pdf#page=5'
+      link_label: 'Zobrazit anonymizovaný vzorek (PDF)'
+doc_register:
+  tagline: Registr řízených dokumentů
+  title: 'Každý dokument za zásilkou, na jednom místě'
+  subtitle: 'Každá objednávka vytváří strukturovaný registr dokumentace 00–15 — ukazatel projektu, schválenou specifikaci, kusovník, odkazy na grafiku a obaly, QIP, záznamy o kontrole, NCR, řízení změn, brief pro třetí stranu a souhrn uvolnění. Stáhněte si veřejné dokumenty a podívejte se na přesnou strukturu a kritéria, podle kterých kontrolujeme.'
+  items:
+    - title: '00 · Plán kontroly kvality projektu (QIP)'
+      description: 'Smluvní dokument o kvalitě pro každou objednávku: fáze, rozsah kontroly, metody, kritéria přijetí a záznamy, které obdržíte.'
+      icon: '00'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_SUP_OEM_QIP.pdf
+      link_label: 'Stáhnout QIP (PDF)'
+    - title: '01 · Normy kontroly kvality'
+      description: 'Úplná norma kontroly a zabezpečení kvality používaná pro individuální objednávky nafukovacích desek SUP.'
+      icon: '01'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_Quality_Inspection_Standards.pdf
+      link_label: 'Stáhnout normy (PDF)'
+    - title: '02 · Balíček dokumentace kvality'
+      description: 'Úplná struktura dokumentů, které projekt obdrží, v jednom přehledovém balíčku.'
+      icon: '02'
+      link: https://assets.isupfactory.com/site/downloads/Qingdao_Vatrad_Group_SUP_Quality_Documentation_Pack.pdf
+      link_label: 'Stáhnout balíček (PDF)'
+    - title: '03 · Zprávy o zkouškách IQC'
+      description: 'Zprávy o vstupní kontrole materiálu — tkaniny, role PVC, ventily a součástky.'
+      icon: '03'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_IQC_TEST_REPORTS.pdf
+      link_label: 'Stáhnout zprávy IQC (PDF)'
+    - title: '04 · Zprávy o zkouškách IPQC'
+      description: 'Zprávy o kontrole během výroby a kontrole prvního kusu proti ukotvené revizi.'
+      icon: '04'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_IPQC_TEST_REPORTS.pdf
+      link_label: 'Stáhnout zprávy IPQC (PDF)'
+    - title: '05 · Zprávy o zkouškách nepropustnosti'
+      description: 'Detekce netěsností po švech u 100 % kusů, integrita ventilu a záznamy o udržení tlaku.'
+      icon: '05'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_AIRTIGHTNESS_TEST_REPORTS.pdf
+      link_label: 'Stáhnout zprávy o nepropustnosti (PDF)'
+    - title: '06 · Zprávy o zkouškách FQC'
+      description: 'Konečná kontrola desky proti schválenému vzorku — rozměry, vzhled, držák žebra.'
+      icon: '06'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_FQC_TEST_REPORTS.pdf
+      link_label: 'Stáhnout zprávy FQC (PDF)'
+    - title: '07 · Zprávy o zkouškách PSI'
+      description: 'Balení a předexppediční kontrola — 100% kompletnost soupravy, třída čárových kódů, odolnost proti pádu.'
+      icon: '07'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_PSI_TEST_REPORTS.pdf
+      link_label: 'Stáhnout zprávy PSI (PDF)'
+    - title: '08 · Zprávy o uvolnění zásilky'
+      description: 'Autorizace uvolnění podepsaná po uzavření všech fází, včetně spisu šarže.'
+      icon: '08'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_SHIPMENT_RELEASE_REPORTS.pdf
+      link_label: 'Stáhnout zprávy o uvolnění (PDF)'
+    - title: '09 · Spis vysledovatelnosti a NCR'
+      description: 'Vysledovatelnost šarže propojená se specifikací, grafikou a kusovníkem plus záznamy o řízení nesouladů.'
+      icon: '09'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_BATCH_TRACEABILITY_AND_NCR_CONTROL_DOSSIER.pdf
+      link_label: 'Stáhnout spis (PDF)'
+    - title: '10 · SOP řízení NČV (ISO 8.7)'
+      description: 'Řízený postup pro karanténu, rozhodnutí, opravu a uvolnění nevyhovujících výrobků.'
+      icon: '10'
+      link: https://assets.isupfactory.com/site/downloads/non-conforming-product-control-sop-iso-8-7.pdf
+      link_label: 'Stáhnout SOP (PDF)'
+    - title: '11 · SOP řízení změn při opravách a příloha'
+      description: 'Postup řízení změn a jeho prováděcí příloha — izolace, schvalování a validace.'
+      icon: '11'
+      link: https://assets.isupfactory.com/site/downloads/rework-change-control-sop-qms-sop-qc-cc-001.pdf
+      link_label: 'Stáhnout SOP (PDF)'
+    - title: '12 · Souhrn uvolnění před odesláním'
+      description: 'Dvojjazyčný souhrn uvolnění, který putuje s každou šarží a spojuje celý registr dohromady.'
+      icon: '12'
+      link: https://assets.isupfactory.com/site/downloads/Pre_Shipment_Release_Summary_Bilingual.pdf
+      link_label: 'Stáhnout souhrn (PDF)'
+    - title: '13 · Šablona briefu pro třetí stranu'
+      description: 'Šablona briefu, kterou inspektoři používají k oznámení, plánování a vyhodnocení předexppediční kontroly.'
+      icon: '13'
+      link: https://assets.isupfactory.com/site/downloads/Third_Party_Inspection_Brief_Template.pdf
+      link_label: 'Stáhnout šablonu (PDF)'
+    - title: '14 · Kontrolní list PSI'
+      description: 'Kontrolní list předexppediční kontroly na díle — kompletnost soupravy, třída čárových kódů, označení a odolnost proti pádu.'
+      icon: '14'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_SUP_Pre_Shipment_Inspection_Checklist.pdf
+      link_label: 'Stáhnout kontrolní list (PDF)'
+    - title: '15 · Průvodce posouzením proveditelnosti a kvalitou projektů OEM'
+      description: 'Jak projekt postupuje od dotazu po schválený referenční vzorek — konstrukční a kvalitativní kroky před sériovou výrobou.'
+      icon: '15'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_OEM_PROJECT_FEASIBILITY_AND_QUALITY_GUIDE.pdf
+      link_label: 'Stáhnout průvodce (PDF)'
+traceability:
+  tagline: Vysledovatelnost na úrovni šarže
+  title: 'Čtyři otázky, na které každá šarže odpoví'
+  subtitle: 'Záznamy o kvalitě se vedou podle výrobních šarží a jsou propojeny s příslušnou výrobní specifikací, grafikou, kusovníkem a požadavky na obaly. To umožňuje šetření a řízené opatření, pokud se objeví problém s kvalitou. Při auditu kupujícího naše oddělení kvality odpovídá na tyto čtyři otázky přímo na díle — každá odpověď odkazuje na řízený záznam.'
+  items:
+    - title: 'Co bylo vyrobeno?'
+      description: 'Výrobek, model, konfigurace a revize jsou svázány s číslem objednávky a revizí schválené specifikace.'
+      icon: '1'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_BATCH_TRACEABILITY_AND_NCR_CONTROL_DOSSIER.pdf
+      link_label: 'Zobrazit spis vysledovatelnosti (PDF)'
+    - title: 'Jaké materiály byly použity?'
+      description: 'Každá šarže materiálu vstupující do výroby je zaznamenána s dodavatelem, certifikátem a rozhodnutím IQC.'
+      icon: '2'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_BATCH_TRACEABILITY_AND_NCR_CONTROL_DOSSIER.pdf
+      link_label: 'Zobrazit spis vysledovatelnosti (PDF)'
+    - title: 'Kdo kontroloval a kdy?'
+      description: 'Každý záznam obsahuje roli kontrolora, datum, použité nástroje a výsledek — žádné anonymní podpisy.'
+      icon: '3'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_BATCH_TRACEABILITY_AND_NCR_CONTROL_DOSSIER.pdf
+      link_label: 'Zobrazit spis vysledovatelnosti (PDF)'
+    - title: 'Jak byla šarže uvolněna?'
+      description: 'Uvolnění autorizuje oddělení kvality až po uzavření všech fází; přijaté opatření je zaznamenáno v dokladu.'
+      icon: '4'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_BATCH_TRACEABILITY_AND_NCR_CONTROL_DOSSIER.pdf
+      link_label: 'Zobrazit spis vysledovatelnosti (PDF)'
+non_conformance:
+  tagline: Řízení nevyhovujících výrobků
+  title: 'Při zjištění vady: izolovat, rozhodnout, zdokumentovat'
+  subtitle: 'Výrobky nebo součástky, které nesplňují stanovená kritéria přijetí, se zjistí a zařadí pod řízenou blokaci. Oprava nebo výměna je povolena pouze podle příslušného postupu kvality a následuje opětovná kontrola před autorizovaným uvolněním.'
+  items:
+    - title: 'Zjištění a oddělení'
+      description: 'Neúspěšné kusy se označí červeně a přesunou na karanténní stanici — žádné další zpracování ani balení do rozhodnutí.'
+      icon: tabler:alert-triangle
+    - title: 'Rozhodnutí podle NCR'
+      description: 'Oddělení kvality vydá hlášení o nesouladu (NCR) a podle rozhodovací matice kus nasměruje na opravu, opětovnou kontrolu, odmítnutí nebo vyřazení.'
+      icon: tabler:git-branch
+      link: /cs/factory/non-conforming-control
+      link_label: 'Norma řízení nevyhovujících výrobků'
+    - title: 'Ověření a uvolnění'
+      description: 'Opravené kusy se znovu kontrolují podle stejných kritérií; NCR se uzavře až po úspěšném opětovném ověření.'
+      icon: tabler:shield-check
+    - title: 'Kontrola likvidace'
+      description: 'Vyřazený materiál se zlikviduje s podepsaným protokolem o zničení, takže se nikdy nemůže vrátit do skladu ani na trh.'
+      icon: tabler:trash
+      link: https://assets.isupfactory.com/site/downloads/scrap-destruction-certificate-vat-qa-scrap-cert-2026.pdf
+      link_label: 'Protokol o likvidaci a zničení (PDF)'
+    - title: 'Zpětná vazba o kořeni vady'
+      description: 'Opakované vady spouštějí nápravnou akci u odpovědného procesu nebo dodavatele — uzavřený cyklus, ne jen papírování.'
+      icon: tabler:refresh
+      link: https://assets.isupfactory.com/site/downloads/rework-change-control-sop-qms-sop-qc-cc-001.pdf
+      link_label: 'SOP řízení změn při opravách (PDF)'
+third_party:
+  tagline: Podpora kontrol jmenovaných odběratelem a nezávislých inspektorů
+  title: 'Vašeho inspektora na díle rádi uvítáme'
+  subtitle: 'Kontroly jmenované odběratelem i nezávislé kontroly třetí strany (SGS, TÜV, Bureau Veritas, celní zprostředkovatelé) lze dohodnout před uvolněním výroby. Rozsah kontroly, úroveň vzorkování, kritéria přijetí, termíny a požadavky na reporting je třeba potvrdit před začátkem výroby. V příslušných případech zajišťujeme přístup k relevantním fázím výroby, konečné kontroly a balení v souladu s dohodnutým plánem kontroly.'
+  items:
+    - title: 'Plánování kontrol'
+      description: 'Interní i externí kontroly lze sjednat v jakékoli ze sedmi fází, přičemž jako základ přijetí se použije Váš plán kontroly.'
+      icon: tabler:calendar-clock
+      link: /cs/factory/quality-inspection
+      link_label: 'Normy pro kontrolu a stažení dokumentace QMS'
+    - title: 'Šablona briefu před odesláním'
+      description: 'Šablona briefu, kterou inspektoři používají k oznámení, plánování a vyhodnocení předexppediční kontroly v našem závodě.'
+      icon: tabler:file-report
+      link: https://assets.isupfactory.com/site/downloads/Third_Party_Inspection_Brief_Template.pdf
+      link_label: 'Stáhnout šablonu briefu (PDF)'
+    - title: 'Kontrolní list PSI'
+      description: 'Kontrolní list předexppediční kontroly používaný na díle — kompletnost soupravy, třída čárových kódů, označení a odolnost proti pádu.'
+      icon: tabler:clipboard-check
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_SUP_Pre_Shipment_Inspection_Checklist.pdf
+      link_label: 'Stáhnout kontrolní list PSI (PDF)'
+    - title: 'Úplný balíček dokumentace kvality'
+      description: 'Jeden spis zahrnující celý systém dokumentace — QIP, záznamy jednotlivých fází, vysledovatelnost a řízení NCR.'
+      icon: tabler:books
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_COMPLETE_SUP_QUALITY_DOSSIER.pdf
+      link_label: 'Stáhnout balíček dokumentace (PDF)'
+    - title: 'Průvodce posouzením proveditelnosti a kvalitou projektů OEM'
+      description: 'Jak projekt postupuje od dotazu po schválený referenční vzorek — konstrukční a kvalitativní kroky před sériovou výrobou.'
+      icon: tabler:route
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_OEM_PROJECT_FEASIBILITY_AND_QUALITY_GUIDE.pdf
+      link_label: 'Stáhnout průvodce projektem (PDF)'
+content_certifications:
+  tagline: Certifikace a normy
+  title: 'Certifikovaná kvalita uznávaná po celém světě'
+  subtitle: 'Certifikace má hodnotu právě v rozsahu, který pokrývá. Níže je uveden rozsah certifikace, držitel certifikátu a postup, jak certifikaci ověřit nebo si dokumenty pro svůj projekt vyžádat.'
+  items:
+    - title: 'Označení CE'
+      description: 'Dokumentace o shodě CE je k dispozici pro použitelné konfigurace pro evropský trh podle směrnice 2013/53/EU (rekreační plavidla); rozsah se potvrzuje u každého projektu. Čísla certifikátů a zprávy o zkouškách jsou k dispozici na vyžádání.'
+      icon: tabler:certificate
+    - title: 'ISO 9001:2015'
+      description: 'Systém řízení kvality je certifikován podle ISO 9001:2015 a zahrnuje návrh, výrobu a distribuci nafukovacích plavidel a námořního vybavení. Rozsah certifikace a zpráva z auditu jsou k dispozici na vyžádání.'
+      icon: tabler:clipboard-check
+    - title: 'Společenská odpovědnost BSCI'
+      description: 'Audit BSCI (Business Social Compliance Initiative) zahrnující pracovní podmínky a soulad továrny s požadavky. Zpráva z auditu je k dispozici na vyžádání.'
+      icon: tabler:heart-handshake
+    - title: 'Soulad materiálů s REACH'
+      description: 'Materiály splňují nařízení EU REACH v oblasti chemické bezpečnosti. Prohlášení k materiálům se předkládá s výrobní dokumentací každé zásilky.'
+      icon: tabler:flask
+    - title: 'Soulad s RoHS'
+      description: 'Soulad s omezením nebezpečných látek je doložen podle RoHS pro použitelné součástky a materiály.'
+      icon: tabler:flame
+    - title: 'Zkoušky materiálu'
+      description: 'Tkaniny se zkoušejí na pevnost v tahu, odolnost proti trhání, stárnutí působením UV a odolnost proti chladovým trhlinám. Z každé výrobní šarže se odebírá vzorek a ten se ověřuje podle zveřejněného zkušebního protokolu.'
+      icon: tabler:test-pipe
+faqs:
+  tagline: FAQ
+  title: Často kladené otázky o našem systému kvality
+  items:
+    - q: 'Mohu si stáhnout skutečné zprávy o kontrole?'
+      a: 'Ano. Sedm dvojjazyčných sad zpráv na této stránce — QIP, IQC, IPQC/FAI, nepropustnost, FQC, PSI a uvolnění zásilky — jsou skutečné řízené záznamy s odstraněnými důvěrnými poli. Ukazují přesnou strukturu, metody a kritéria přijetí používané u každé objednávky.'
+    - q: 'Jak se sedm fází promítá do mého projektu?'
+      a: 'Každý projekt dostane Plán kontroly kvality (QIP), který určuje fáze použitelné pro Váš výrobek a trh, rozsah kontroly v každé fázi a záznamy, které obdržíte. Stáhněte si ukázku QIP na této stránce a podívejte se na strukturu.'
+    - q: 'Jsou tyto vzorky záznamů o kontrole skutečné?'
+      a: 'Ano. Vzorky sledují naši skutečnou strukturu řízeného záznamu — hlavička dokumentu, kontrolní list, kritéria přijetí, metoda, výsledky, role kontrolora a rozhodnutí o uvolnění. Všechny identifikační hodnoty jsou nahrazeny ukázkovými (kódy DEMO-*), takže se neprozrazují žádná data zákazníků, grafiky, objednávek ani cen.'
+    - q: 'Proč jsou vzorky anonymizované?'
+      a: 'Na prvním místě je důvěrnost zákazníků. Názvy zákazníků, grafika, údaje objednávek, informace o dodavatelích a ceny jsou chráněny záměrně. Anonymizace umožňuje kterémukoli potenciálnímu kupujícímu ověřit strukturu našich záznamů a vysledovatelnost, aniž by odhalil podnikání jiného klienta.'
+    - q: 'Můžeme pro náš projekt obdržet úplné zprávy o kontrole?'
+      a: 'Ano. U schválených projektů poskytneme dokumentaci kvality použitelnou pro Vaši objednávku — plán kontroly kvality, zprávy o vstupní kontrole, kontrole během výroby, nepropustnosti, konečné kontrole a balení a autorizaci uvolnění zásilky — propojené s vysledovatelností Vaší šarže. Citlivé obchodní údaje zůstávají pod NDA dle dohody.'
+    - q: 'Co obsahuje záznam o kontrole na úrovni šarže?'
+      a: 'Každý záznam propojuje výrobní šarži s příslušnou revizí specifikace nebo výkresu, zaznamenává každý předmět kontroly vůči kritériím přijetí včetně použité metody a nástroje a končí rolí kontrolora, stavem výsledku a rozhodnutím o uvolnění podepsaným oddělením kvality.'
+evidence_review:
+  tagline: 'Důkazy a ověření'
+  title: 'OVĚŘENÉ SPECIFIKACE'
+  body: 'Všechna výrobní tvrzení na této stránce ověřuje náš konstrukčně-výrobní tým v závodě v Laixi, Qingdao. Certifikáty, záznamy o kontrole kvality, zprávy o tlakových a konstrukčních zkouškách a záznamy o vysledovatelnosti šarží jsou k dispozici na vyžádání. Specifikace naposledy ověřeny v září 2026.'
+
+cta:
+  title: 'Potřebujete kvalitativní požadavky pro svůj projekt SUP?'
+  subtitle: 'Sdělte nám kategorii výrobku, cílový trh, odhadované množství a případné požadavky na kontrolu, dokumentaci nebo obaly. Prozkoumáme použitelné vstupy projektu a poradíme další krok pro vývoj vzorku nebo plánování výroby. Uzavření NDA je možné ještě před předáním neveřejných specifikací, grafiky či kvalitativních požadavků.'
+  actions:
+    - variant: primary
+      text: Vyžádat posouzení kvality projektu
+      href: /cs/contact#quality-inquiry
+    - text: Navštívit naši laboratoř kontroly kvality
+      href: /cs/randdcenter/quality-inspection-lab
+    - text: Normy pro kontrolu a stažení dokumentace QMS
+      href: /cs/factory/quality-inspection
+    - text: Norma řízení nevyhovujících výrobků
+      href: /cs/factory/non-conforming-control

@@ -3488,8 +3488,275 @@ export const GUIDES_RU: Guide[] = [
   },
 ]
 
+export const GUIDES_CS: Guide[] = [
+  {
+    slug: 'how-to-choose-your-sup',
+    title: 'Jak vybrat správnou SUP desku',
+    intro: [
+      'Výběr první nafukovací SUP desky se odvíjí od velikosti desky, šířky, konstrukce a vybavení v balíku. Zde je jednoduchým jazykem to, na čem opravdu záleží.',
+    ],
+    sections: [
+      {
+        title: 'Délka a objem',
+        body: 'Delší desky (11–12 ft) ujedou na jeden záběr pádla dále a lépe drží směr — jsou ideální pro turistické plavby a dlouhé přeplutí. Kratší desky se snáze otočí. Pro většinu pádlářů je optimální univerzální deska přibližně 10′6″–11′0″.',
+      },
+      {
+        title: 'Šířka a stabilita',
+        body: 'Šířka ovlivňuje stabilitu víc než cokoliv jiného. Paluba o šířce 32 palců odpouští začátečníkovi chyby a je dostatečně stabilní i pro jógu; desky o šířce 30 palců vyhovují lehčím nebo zkušenějším pádlářům, kteří chtějí rychlost a hbitost.',
+      },
+      {
+        title: 'Kvalita konstrukce',
+        body: 'Hledejte jádro z PVC tkaniny typu drop-stitch vojenské třídy s pracovním tlakem nejméně 15 PSI, dvojité laminování PVC a zpevněný okraj. Právě tyto parametry určují tuhost desky a její životnost při každodenním používání.',
+      },
+      {
+        title: 'Co má být v balíku',
+        body: 'Kompletní sestava šetří peníze i nervy: deska, rozložitelné pádlo s nastavením délky, oboustranná pumpa s manometrem, vinuté vodítko, ploutev (ploutve), cestovní batoh a opravná sada.',
+      },
+    ],
+    faqs: [
+      { q: 'Jakou velikost SUP desky potřebuji?', a: 'Většina začátečníků volí univerzální desku přibližně 11′0″ × 32″ × 6″ — stabilní, univerzální a snadno přenosnou. Těžším pádlářům nebo těm, kdo plánují dlouhé přeplutí, doporučujeme o kus větší.' },
+      { q: 'Je nafukovací SUP deska stejně tuhá jako pevná deska?', a: 'Současná nafukovací deska drop-stitch při 15–20 PSI je tuhostí blízká začáteční pevné desce — a přitom se složí do batohu.' },
+    ],
+    related: [
+      { label: 'Naše SUP platformy', href: '/cs/products' },
+      { label: 'Nafukovací nebo pevná deska', href: '/cs/inflatable-vs-hardboard' },
+      { label: 'OEM výroba', href: '/cs/oem-manufacturing' },
+    ],
+  },
+  {
+    slug: 'beginner-guide',
+    title: 'Průvodce pádlováním pro začátečníky',
+    intro: [
+      'Vše, co potřebujete pro první výjezdy na vodu: nafouknutí, první nasednutí na desku, základní záběr pádla a pravidla bezpečnosti, dokud si budujete jistotu.',
+    ],
+    sections: [
+      {
+        title: 'Dofukujte podle specifikace, ne „na oko“',
+        body: 'Nafoďte desku na předepsaný pracovní tlak (obvykle 15 PSI) podle manometru pumpy. Při 10 PSI se deska na trávníku jeví dobrá, ale na vodě se výrazně prohýbá. V teplých dnech tlak kontrolujte: slunce zahřívá vzduch uvnitř a tlak roste.',
+      },
+      {
+        title: 'První kroky na desce',
+        body: 'Na vodu vstupujte z břehu nebo z mělké vody: nejprve klekněte na jedno koleno, potom vstávejte nohu po noze podél středové osy desky. Chodidla na šířku ramen, kolena mírně pokrčená, pohled na obzoru — deska sleduje Vaše oči.',
+      },
+      {
+        title: 'Základní záběr pádla',
+        body: 'Pádlo vysuňte dopředu, list celý ponořte do vody a přetáhněte ho podél boku desky, přitom otáčejte trupem. Každých pár záběrů přehodte stranu, abyste pluli rovně; několik záběrů pouze na jedné straně vás otočí.',
+      },
+      {
+        title: 'Nejdřív nacvičte pád do vody',
+        body: 'Pád do vody je součástí učení. Na mělké vodě nacvičte opětovné nasednutí: doplavte k centrálnímu madlu, odrazte se nohama od hladiny a jedním pohybem se vytáhněte na desku.',
+      },
+    ],
+    faqs: [
+      { q: 'Jak dlouho trvá naučit se pádlovat na SUP?', a: 'Většina lidí pádluje na klidné vodě sebevědomě už při první hodinové lekci. Sebevědomí v zatáčení, proti větru a na dlouhých vzdálenostech se získává během několika lekcí.' },
+      { q: 'Musím být v dobré kondici?', a: 'Ne — SUP je dostupný pro každého. Při pravidelném pádlování přirozeně rozvíjíte rovnováhu, sílu trupu a vytrvalost.' },
+    ],
+  },
+  {
+    slug: 'inflatable-vs-hard',
+    title: 'Nafukovací nebo pevná deska',
+    intro: [
+      'Každý z obou typů konstrukce má své výhody — zde je čestné porovnání pro rekreační pádláře, kluby a půjčovny.',
+    ],
+    sections: [
+      {
+        title: 'Přenosnost a skladování',
+        body: 'Nafukovací desky se vyfukují a složí do batohu, který se vejde do zavazadlového prostoru auta, do obytného vozu nebo do skříně v bytě, a pro cestování jsou proto volbou předem. Pevné desky potřebují střešní nosič, místo pro skladování a šetrnější zacházení.',
+      },
+      {
+        title: 'Tuhost a vlastnosti',
+        body: 'Prémiové pevné desky jsou tuhší a citlivější ve vysokých rychlostech. Při rekreačních rychlostech dává dobře sestavená nafukovací deska drop-stitch při 15–20 PSI srovnatelný výsledek při nesrovnatelně nižších nákladech na skladování.',
+      },
+      {
+        title: 'Životnost',
+        body: 'Nafukovací desky z PVC vydrží nárazy o přístaviště a břeh, které by pevný korpus praskl — právě proto půjčovny a letoviska volí nafukovací desky pro každodenní používání hosty.',
+      },
+      {
+        title: 'Celkové náklady na vlastnictví',
+        body: 'Nafukovací desky jsou levnější z hlediska dopravy, skladování i údržby a snese hrubší zacházení. Pro většinu uživatelů i flot je nafukovací deska výhodnější univerzální volbou.',
+      },
+    ],
+    faqs: [
+      { q: 'Co je lepší pro začátečníky?', a: 'Nafukovací desky jsou stabilní, odpouštějí chyby, snadno se skladují a jsou dostatečně odolné proti poškozením, ke kterým dochází u začátečníků.' },
+      { q: 'Může být nafukovací SUP stejně rychlá jako pevná deska?', a: 'Při rekreačních rychlostech je rozdíl malý. Pevné desky výrazně vyhrávají pouze v závodních a výkonnostních scénářích.' },
+    ],
+  },
+  {
+    slug: 'safety-tips',
+    title: 'Bezpečnost na vodě',
+    intro: [
+      'Bezpečný výjezd je dobrý výjezd — tato základní pravidla platí stejně pro jezera, řeky i pobřežní trasy.',
+    ],
+    sections: [
+      {
+        title: 'Kontrolujte vítr a předpověď',
+        body: 'Protivítr je klasická past na SUP: odnáší Vás od břehu rychleji, než stíháte pádlovat zpět. Předpověď si ověřte a pokud si nejste jisti, zůstaňte na chráněné vodě.',
+      },
+      {
+        title: 'Vždy používejte vodítko',
+        body: 'Vinuté vodítko vás po pádu drží na délku natažené ruky — deska se stane vaším plovoucím prostředkem. Vodítko vybírejte podle podmínek: vinuté pro klidnou vodu, přímé pro surfování.',
+      },
+      {
+        title: 'Zachraňovací vesta a osobní bezpečnost',
+        body: 'Používejte plovoucí záchrannou vestu, když to vyžadují podmínky nebo pravidla. Vezměte si píšťalku, sdělte někomu svou trasu a čas návratu a uvažujte telefon ve vodotěsném obalu.',
+      },
+      {
+        title: 'Znáte své meze',
+        body: 'Získávejte zkušenosti na klidné vodě, teprve potom vyrazte do větru nebo do proudu. Respektujte studenou vodu — rychle Vám odebírá síly. A nikdy nepadlujte sami na odlehlých nebo otevřených vodách bez plánu.',
+      },
+    ],
+    faqs: [
+      { q: 'Je na SUP povinná záchranná vesta?', a: 'Požadavky se liší podle zemí a vodních ploch. I tam, kde vesta není povinná, je vodítko společně s plovoucí vestou zodpovědným minimem, a děti by vždy měly být v řádně padnoucí záchranné vestě.' },
+      { q: 'Je bezpečné pádlovat na SUP na jezeře?', a: 'Ano — klidná jezera jsou ideální pro výcvik. Zkontrolujte směr větru, zůstaňte viditelní pro plavební provoz a vyhýbejte se frekventovaným lodním trasám.' },
+    ],
+    related: [
+      { label: 'Bezpečnostní vybavení na našich platformách', href: '/cs/products' },
+      { label: 'Kontrola kvality v továrně', href: '/cs/quality' },
+      { label: 'Vyberte si svou první desku', href: '/cs/guides/how-to-choose-your-sup' },
+    ],
+  },
+  {
+    slug: 'choosing-a-sup-oem-factory',
+    title: 'Jak vybrat OEM továrnu pro SUP desky na míru',
+    intro: [
+      'Nákup nafukovacích SUP desek pod vlastní značkou se scvrká na jedno rozhodnutí: které továrně svěříte první dávku. Zde je postup, jak posoudit výrobce SUP desek na míru před odesláním objednávky.',
+    ],
+    sections: [
+      {
+        title: 'Začněte zkušební objednávkou, ne hovorem o MOQ',
+        body: 'Továrna, která mluví pouze o minimálních dávkách, je znamení obchodní kanceláře, ne výroby. Skuteční výrobci nabízejí stupňovité minimální objemy: společné značení od 5–10 ks, pilotní dávky od 20–50 ks, standardní objemy od 90–100+ ks na 150 m role a projekty se zcela vlastní lisovací formou až na objemovém stupni. Nejprve objednejte malou dávku: tím ověříte komunikaci, disciplínu dodržování specifikace a kvalitu vzorku, aniž byste vsadili celý start.',
+      },
+      {
+        title: 'Podívejte se, co se opravdu dělá uvnitř',
+        body: 'Výroba SUP desek drop-stitch zahrnuje čtyři zásadní kroky: laminování materiálu, svařování, potisk a montáž. Skutečná továrna zvládne všechny pod jednou střechou a nechá vás si výrobní linku projít. Pokud prodejce neukáže výrobní linku, nejspíš nakupujete přes zprostředkovatele bez kontroly nad kvalitou a dodacími lhůtami.',
+      },
+      {
+        title: 'Vzorek musí odpovídat sériové výrobě',
+        body: 'Ručně doladěný vzorek vyrobíte snadno, stabilní sériovou výrobu už obtížně. Zeptejte se, jak továrna zajišťuje opakovatelnost: záznamy o šaržích materiálu, parametry svařování a kontrolní list kontroly kvality, který projde každou jednotlivou deskou, ne jen Vaším schváleným vzorkem.',
+      },
+      {
+        title: 'Zjistěte náklady před odesláním objednávky',
+        body: 'Získejte úplný přehled nákladů písemně: cena za kus podle množství, cena nástrojů či lisovací formy, pokud je potřeba nová forma, příprava grafiky a potisk a také balení.',
+      },
+      {
+        title: 'Vyžadujte inspekci třetí strany',
+        body: 'Spolehlivé OEM továrny na SUP inspekce před odesláním přivítají — řada značek objednává nezávislou kontrolu kvality pro každý kontejner. Ujistěte se, že továrna dokáže zorganizovat inspekci vzorků i sériových dávek a že vyřazené výrobky (například desky, které ztrácejí více než 5 % tlaku) se do dávky nedostanou.',
+      },
+      {
+        title: 'Dodací lhůty, které se drží',
+        body: 'U nafukovacích SUP jsou vzorky hotové za 7–12 dní a sériová výroba trvá 25–35 dní po potvrzení objednávky a záloze, plus čas na nástroje, pokud objednáváte novou lisovací formu. Továrna, která uvádí výrazně kratší lhůty než všichni ostatní, bere čísla z brožury, ne z výrobního plánu.',
+      },
+    ],
+    faqs: [
+      { q: 'Jaké je minimální objednací množství (MOQ) SUP desek na míru?', a: 'Stupňovité minimální objemy jsou standardem: 1–2 ks na vzorky, 5–10 ks na společné značení, 20–50 ks na pilotní dávku a 90–100+ ks na 150 m role pro standardní objemy; projekty se zcela vlastní lisovací formou se realizují na objemovém stupni.' },
+      { q: 'Lze vidět vzorek před sériovou výrobou?', a: 'Ano — vzorky jsou hotové za 7–12 dní. Většina továren započítává cenu vzorku a lisovací formy do první výrobní objednávky po jejím potvrzení.' },
+      { q: 'Jak ověřit, že je SUP továrna skutečná?', a: 'Vyžádejte si živý video přenos z výrobního areálu, ověřte existující výrobní adresu v Čching-tseu nebo v jiném průmyslovém centru a vyžádejte si dokumentaci k předchozím exportním objednávkám. Zkušební objednávka je konečným důkazem.' },
+      { q: 'Co musí obsahovat cenová nabídka SUP továrny?', a: 'Cena za desku, náklady na nástroje nebo lisovací formu, příprava grafiky, balení, podmínky kontroly kvality a inspekce a také platební podmínky.' },
+    ],
+    related: [
+      { label: 'Naše výroba OEM / ODM', href: '/cs/oem-manufacturing' },
+      { label: 'Proces vývoje produktu SUP', href: '/cs/product-development' },
+      { label: 'Kapacity a výrobní areál továrny', href: '/cs/factory' },
+      { label: 'Jak kontrolujeme kvalitu — 7 kontrolních bodů', href: '/cs/quality' },
+      { label: 'Průvodce MOQ a flexibilním značením (PDF)', href: '/cs/oem-moq-guide' },
+      { label: 'Ověřte nás: důvěra a záruky továrny', href: '/cs/oem-trust-assurance' },
+      { label: 'Spusťte vlastní projekt SUP', href: '/cs/contact' },
+    ],
+  },
+  {
+    slug: 'private-label-sup-guide',
+    title: 'SUP pod vlastní značkou: co vám továrna opravdu poskytne',
+    intro: [
+      'Private label je nejrychlejší cesta k uvedení značky SUP na trh: Vaše logo na ověřené platformě, bez nákladů a rizik vývoje desky od nuly. Zde je to, co skutečně zahrnuje spolupráce s výrobcem SUP desek na míru.',
+    ],
+    sections: [
+      {
+        title: 'Private label znamená ověřené platformy',
+        body: 'Začínáte na platformách, které továrna už vyrábí a testuje: univerzální, turistické, pro jógu, závodní a další. Továrna upraví značení, grafiku a povrchové zpracování, což drží náklady nízko a zkracuje lhůty. Minimální objemy jsou stupňovité: společné značení od 5–10 ks, pilotní dávky od 20–50 ks a 90–100+ ks na 150 m role pro standardní objem pod vlastní značkou.',
+      },
+      {
+        title: 'Značení se neomezuje na logo',
+        body: 'Private label zahrnuje aplikaci Vašeho loga (digitální tisk nebo sítotisk), vlastní barevné kombinace, EVA podložky vystřižené podle tvaru desky a s Vašim logem, značení příslušenství (pádlo, pumpa, vodítko), design prodejní krabice a dokonce stojany pro prodejní místa. Pošlete podklady a továrna vyrobí vizuální vzorek před zahájením výroby.',
+      },
+      {
+        title: 'Co přebírá továrna',
+        body: 'Továrna s kompletním cyklem přebírá přípravu grafiky, nákup materiálu, výrobu vzorků, 100bodový kontrolní list kontroly montáže, tlakovou zkoušku a vývozní dokumentaci (fakturu, balicí list a certifikát původu). Vy schvalujete podklady a vzorek — vše ostatní dělá továrna.',
+      },
+      {
+        title: 'Co patří Vám: značka, trh, zákazník',
+        body: 'U modelu private label továrna vyrábí desky, ale značka patří Vám. Spolehliví výrobci neprodávají vlastní desky na Vašem trhu ani nepředávají Vaše individuální řešení dalším. Vyžádejte si v cenové nabídce výslovnou exkluzivitu pro daný trh.',
+      },
+      {
+        title: 'Náklady: vzorek, lisovací forma, příprava grafiky',
+        body: 'Počítejte se třemi položkami: cenou vzorku (výroba 7–12 dní), cenou nástrojů, pokud je potřeba nová lisovací forma (minimální objednací množství na objemovém stupni), a přípravou grafiky pro tisk. Většina továren započítává cenu vzorku a lisovací formy do první výrobní objednávky.',
+      },
+      {
+        title: 'Od objednávky po hotovou dávku',
+        body: 'Typický start pod vlastní značkou: záloha 30 % spustí výrobu, sériová dávka je hotová za 25–35 dní po potvrzení objednávky a záloze a zbytek se platí po převzetí schválené dávky. Rozpočet na celý cyklus zahrňte už do první objednávky.',
+      },
+    ],
+    faqs: [
+      { q: 'Jaké je minimální objednací množství (MOQ) SUP desek pod vlastní značkou?', a: 'Společné značení začíná na 5–10 ks, pilotní dávky na 20–50 ks a standardní objem pod vlastní značkou představuje 90–100+ ks na 150 m role; projekty se zcela vlastní lisovací formou se realizují na objemovém stupni.' },
+      { q: 'Mohu poslat vlastní logo a grafiku?', a: 'Ano — pošlete logo a podklady; továrna před výrobou připraví vizuální vzorek, abyste schválili barvy, umístění a povrchové zpracování.' },
+      { q: 'Je můj individuální design SUP exkluzivní pro moji značku?', a: 'Ano, v rámci standardních podmínek private label. Požádejte o zahrnutí bodu o exkluzivitě do kupní smlouvy; továrny jako naše nepřeprodávají značené řešení jiným.' },
+      { q: 'Jak dlouho trvá objednávka SUP pod vlastní značkou?', a: 'Vzorky se zhotoví za 7–12 dní; sériová výroba dokončí za 25–35 dní po potvrzení objednávky a záloze. Na první kompletní cyklus počítejte 8–12 týdnů.' },
+    ],
+    related: [
+      { label: 'Řešení pro SUP pod vlastní značkou', href: '/cs/solutions/private-label-sup' },
+      { label: 'Prohlédněte si ověřené platformy', href: '/cs/products/all-around' },
+      { label: 'Výroba OEM / ODM', href: '/cs/oem-manufacturing' },
+      { label: 'Spusťte vlastní projekt SUP', href: '/cs/contact' },
+    ],
+  },
+  {
+    slug: 'sup-fleet-guide',
+    title: 'Nákup SUP floty pro půjčovny, letoviska a kluby',
+    intro: [
+      'Nákupčím flot jsou potřeba jiné odpovědi než koncovým uživatelům: jak dlouho deska vydrží jednu sezi, standardizované náhradní díly, velkoobjemová množství a dodavatel, který pracuje sezónu po sezóně. Zde je to, co je nutné naplánovat před objednáním první floty.',
+    ],
+    sections: [
+      {
+        title: 'Standardizujte na jednu až dvě specifikace',
+        body: 'Provoz floty stojí na standardizaci: jedna velikost desky (obvykle 10′6″–11′0″ × 32″) pro většinu hostů, jedna odolná sestava a jedna sada náhradních dílů. To zjednodušuje opravy, školení personálu, skladování a opakované objednávky. Nechte se přesvědčit a koupit deset různých modelů.',
+      },
+      {
+        title: 'Desky pro intenzivní provoz jsou jiný produkt',
+        body: 'Deska do půjčovny vydrží desítky sezení za sezónu. Nastavte silnější vrstvy PVC, zpevněný okraj a spolehlivější příslušenství oproti maloobchodním deskám. Zeptejte se továrny, čím se flotová specifikace liší od spotřebitelské verze: skutečná výroba má obě.',
+      },
+      {
+        title: 'Počítejte množství podle poptávky',
+        body: 'Velikost floty určete podle denní rotace a délky sezóny: 20–30 desek stačí malému půjčovacímu místu, více než 100 obslouží vytížené letovisko nebo klub. Vyžádejte si od továrny doporučení na množství odpovídající Vašemu profilu poptávky.',
+      },
+      {
+        title: 'Náhradní díly kupujte spolu s flotou',
+        body: 'Náhradní ventily, opravné sady, pumpy, vodítka a paddle objednejte v téže objednávce — teď vás stojí pár korun za kus, uprostřed sezóny je objednat obtížné. Vyžádejte si od továrny doporučený podíl náhradních dílů (u spotřebního materiálu obvykle 5–10 % velikosti floty).',
+      },
+      {
+        title: 'Objednávejte před sezónou, ne během ní',
+        body: 'Výroba trvá 25–35 dní po potvrzení objednávky a záloze. Aby byly desky na pláži na jaře, potvrzujte objednávky na konci podzimu, aby výroba skončila před startem sezóny.',
+      },
+      {
+        title: 'Označte flotu pro výtěžek z dalšího prodeje',
+        body: 'Na deskách floty může být Vaše logo, průběžné číslování výpůjček a barevné kódování podle velikostí. Loga tištěná sítotiskem jsou od sérií 200+ ks ekonomicky výhodná a označená flota je zároveň reklamou na vodě.',
+      },
+    ],
+    faqs: [
+      { q: 'Jaká SUP deska nejlépe vyhovuje pro půjčovací flotu?', a: 'Univerzální deska se zesílenou konstrukcí 10′6″–11′0″ × 32″ je oborovým standardem: stabilní pro začátečníky, odolná pro každodenní provoz a snadno se udržuje.' },
+      { q: 'Kolik desek potřebuje půjčovací společnost?', a: 'Pro malé půjčovací místo naplánujte 20–30 desek a roste podle rotace: více než 100 ks pro vytížená letoviska a kluby. Podíl náhradních dílů má činit 5–10 % velikosti floty.' },
+      { q: 'Mohou být na deskách floty naše loga?', a: 'Ano — loga tištěná sítotiskem, číslování výpůjček a barevné kódy na palubě jsou standardní možnosti přizpůsobení, zvlášť hospodárné od 200 ks.' },
+      { q: 'Jak dlouho trvá objednávka floty desek?', a: 'Vzorky 7–12 dní, výroba 25–35 dní po potvrzení objednávky a záloze, proto flotu objednávejte dlouho před startem sezóny.' },
+    ],
+    related: [
+      { label: 'Řešení pro letoviska a kluby', href: '/cs/solutions/resort-sup' },
+      { label: 'Příklad: půjčovací flota na více místech', href: '/cs/projects/rental-fleet-multi-site' },
+      { label: 'Platformy pro provozní floty', href: '/cs/products/all-around' },
+      { label: 'Promluvte si s projektovým specialistou', href: '/cs/contact' },
+    ],
+  },
+]
 
-const GUIDES_BY_LOCALE: Record<string, Guide[]> = { en: GUIDES, es: GUIDES_ES, fr: GUIDES_FR, de: GUIDES_DE, it: GUIDES_IT, pt: GUIDES_PT, nl: GUIDES_NL, sv: GUIDES_SV, no: GUIDES_NO, pl: GUIDES_PL, da: GUIDES_DA, fi: GUIDES_FI, ru: GUIDES_RU }
+
+const GUIDES_BY_LOCALE: Record<string, Guide[]> = { en: GUIDES, es: GUIDES_ES, fr: GUIDES_FR, de: GUIDES_DE, it: GUIDES_IT, pt: GUIDES_PT, nl: GUIDES_NL, sv: GUIDES_SV, no: GUIDES_NO, pl: GUIDES_PL, da: GUIDES_DA, fi: GUIDES_FI, ru: GUIDES_RU, cs: GUIDES_CS }
 
 export function localizedGuides(locale: string): Guide[] {
   return GUIDES_BY_LOCALE[locale] ?? GUIDES
@@ -4039,6 +4306,50 @@ export const GUIDE_CARDS: Record<string, GuideCard[]> = {
       title: 'Закупка парка SUP-досок',
       intro:
         'Планирование парка для проката, курортов и клубов: износостойкая спецификация, объёмы на контейнер, запчасти и сезонные колебания.',
+    },
+  ],
+  cs: [
+    {
+      slug: 'how-to-choose-your-sup',
+      title: 'Jak vybrat správnou SUP desku',
+      intro:
+        'Výběr první nafukovací SUP desky se odvíjí od velikosti desky, šířky, konstrukce a vybavení v balíku.',
+    },
+    {
+      slug: 'beginner-guide',
+      title: 'Průvodce pádlováním pro začátečníky',
+      intro:
+        'Vše, co potřebujete pro první výjezdy na vodu: nafouknutí, první nasednutí na desku, základní záběr pádla a pravidla bezpečnosti, dokud si budujete jistotu.',
+    },
+    {
+      slug: 'inflatable-vs-hard',
+      title: 'Nafukovací nebo pevná deska',
+      intro:
+        'Každý z obou typů konstrukce má své výhody — zde je čestné porovnání pro rekreační pádláře, kluby a půjčovny.',
+    },
+    {
+      slug: 'safety-tips',
+      title: 'Bezpečnost na vodě',
+      intro:
+        'Bezpečný výjezd je dobrý výjezd — tato základní pravidla platí stejně pro jezera, řeky i pobřežní trasy.',
+    },
+    {
+      slug: 'choosing-a-sup-oem-factory',
+      title: 'Jak vybrat OEM továrnu pro SUP desky na míru',
+      intro:
+        'Nákup nafukovacích SUP desek pod vlastní značkou se scvrká na jedno rozhodnutí: které továrně svěříte první dávku.',
+    },
+    {
+      slug: 'private-label-sup-guide',
+      title: 'SUP pod vlastní značkou: co vám továrna opravdu poskytne',
+      intro:
+        'Private label je nejrychlejší cesta k uvedení značky SUP na trh: Vaše logo na ověřené platformě, bez nákladů a rizik vývoje desky od nuly.',
+    },
+    {
+      slug: 'sup-fleet-guide',
+      title: 'Nákup SUP floty pro půjčovny, letoviska a kluby',
+      intro:
+        'Nákupčím flot jsou potřeba jiné odpovědi než koncovým uživatelům: jak dlouho deska vydrží jednu sezi, standardizované náhradní díly, velkoobjemová množství a dodavatel, který pracuje sezónu po sezóně.',
     },
   ],
 }

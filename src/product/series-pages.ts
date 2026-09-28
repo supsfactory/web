@@ -3264,7 +3264,255 @@ export const seriesPages: Localized<SeriesPageData[]> = {
       ],
     },
   ],
-
+  cs: [
+    {
+      slug: 'all-around',
+      navLabel: 'Univerzálky',
+      metaTitle: 'Univerzální SUP desky na míru — OEM výrobce nafukovacích desek | iSupfactory',
+      metaDescription:
+        'Nafukovací univerzální SUP desky na míru pod vaší značkou — široká stabilní paluba, objemy OEM/ODM od 90–100+ ks, vzorky za 7–12 dní. Přímo z továrny v Čching-tunu, Čína.',
+      kicker: 'Série · Univerzálky',
+      h1: 'Univerzální SUP desky na míru — výchozí platforma pro nové značky',
+      intro: [
+        'Univerzální deska je pracovním koněm kategorie SUP: dostatečně široká, aby se začátečník cítil stabilně, dostatečně manévrovatelná, aby udržela zájem zkušených paddleářů, a dostatečně lehká, aby se dala nosit kamkoli. Většina nových značek i většina pronájemných flot začíná právě jí.',
+        'Vyrábíme univerzální platformy pod vaší značkou v objemech od 90–100+ ks na 150 m roli (standardní objem) a pilotní dávky od 20–50 ks. Tvar, hrana, struktura vrstev, barvy, grafika po celé délce desky a obal se určují pro každý projekt zvlášť.',
+      ],
+      faqs: [
+        {
+          q: 'Lze vyrobit univerzální SUP desku pod moju značku?',
+          a: 'Ano. Každá univerzální platforma je výrobní základ: určujete rozměry (obvykle 10′6″–11′6″), šířku, tloušťku, strukturu vrstev (jedna nebo dvě vrstvy či fusion), konfiguraci hrany, EVA podložku, grafiku po celé desce a obal. Individuální tvary začínají na 90–100+ ks na jednu formu; standardní sériová výroba je 90–100+ ks na 150 m roli.',
+        },
+        {
+          q: 'Jaké je minimální množství objednávky (MOQ) pro univerzální SUP desky?',
+          a: 'Standardní série začínají na 90–100+ ks na 150 m roli; pilotní dávky na standardních platformách od 20–50 ks; zcela individuální formy 90–100+ ks na jednu formu. Vzorky odesíláme za 7–12 dní, sériová výroba trvá 25–35 dní po potvrzení objednávky a zálohy.',
+        },
+        {
+          q: 'Co je součástí balení připraveného k prodeji?',
+          a: 'Kompletní sada: nafukovací deska s drop-stitch jádrem, nastavitelné veslo, ruční pumpička (nebo elektrická dvoustupňová), opravná sada, cestovní batoh a potištěná krabice. Příslušenství lze podle vašeho cílového trhu vyměnit nebo vylepšit.',
+        },
+        {
+          q: 'Jakou tvrdost EVA podložek vyrábíme?',
+          a: 'Protiskluzové podložky mají tvrdost 45–55 Shore C — středně měkké, příjemné pod chodidly a netvrdnoucí na slunci. Tloušťka, žebrování, výřezy a umístění loga se určují pro každý projekt zvlášť.',
+        },
+      ],
+    },
+    {
+      slug: 'race',
+      navLabel: 'Závody',
+      metaTitle: 'Závodní SUP desky na míru — OEM platformy pro závody na nafukovacích deskách | iSupfactory',
+      metaDescription:
+        'Nafukovací závodní SUP desky na míru pro kluby, závody a značky — závodní drop-stitch trupy, objemy OEM od 90–100+ ks, výroba s certifikací CE. Přímo z továrny.',
+      kicker: 'Série · Závody',
+      h1: 'Závodní SUP desky na míru — závodní trupy vyrobené pod vaší značkou',
+      intro: [
+        'Závodní desky vyměňují stabilitu za rychlost: delší a užší profily s propracovaným tvarem přídě a nízkým rockerem, navržené pro paddleování s posunem. Nafukovací verze dosahují závodních parametrů pevných desek v přenosném provedení.',
+        'Vyrábíme závodní platformy pro značky, kluby a organizátory závodů s přesnými drop-stitch jádry, závodní strukturou vrstev a trupy orientovanými na rychlost — ověřenými v našem hydrodynamickém zkušebním bazénu.',
+      ],
+      faqs: [
+        {
+          q: 'Jaké rozměry závodních SUP vyrábíte?',
+          a: 'Typické závodní platformy sahají od 12′6″ × 28″ pro třídu 12′6 po 14′ × 23″–25″ pro formáty unlimited/touring. Šířka, rocker a profil přídě se určují podle cílové skupiny paddleářů a potvrzují se na fyzickém vzorku.',
+        },
+        {
+          q: 'Vyžadují závodní desky zvláštní konstrukci?',
+          a: 'Ano — závodní desky používají lehčí, hustě tkané drop-stitch jádro s vyšším tlakem (18–20 PSI) a tužším zesílením hrany, aby si trup udržel tvar při rychlosti. Volba struktury vrstev (jedna nebo dvě vrstvy) je kompromis mezi hmotností a tuhostí, který s vámi pro každý projekt určíme.',
+        },
+        {
+          q: 'Mohou si kluby objednat závodní desky pro svůj tým?',
+          a: 'Ano. Klubové a týmové programy objednávají od 90–100+ ks (standardní objem) s klubovou grafikou a mohou v jedné objednávce spojit závodní a tréninkové platformy. Na sloučené objemy se vztahují flotové ceny.',
+        },
+      ],
+    },
+    {
+      slug: 'surf',
+      navLabel: 'Surf',
+      metaTitle: 'Surf SUP desky na míru — OEM platformy pro nafukovací surfování | iSupfactory',
+      metaDescription:
+        'Nafukovací surf SUP desky na míru — hybridní surf profily se zaoblenou hranou a vysokým rockerem, vyrobené pod vaší značkou od 90–100+ ks v Čching-tunu, Čína.',
+      kicker: 'Série · Surf',
+      h1: 'Surf SUP desky na míru — hybridní platformy pro jízdu na vlně',
+      intro: [
+        'Surf SUP deska nabízí parametry vlnové jízdy v přenosném provedení: kratší délka, vysoký rocker, zaoblená hrana a konkávní přídě, který drží směr na svahu vlny. Nafukovací surf tvary jsou nejodpuštěčnějším způsobem, jak začít surfovat.',
+        'Vyrábíme surf platformy pod vaší značkou s profilací pro konkrétní vlnu a konstrukčními detaily — od kompletních sad v soft-top stylu až po výkonné struktury vrstev.',
+      ],
+      faqs: [
+        {
+          q: 'Jaké rozměry jsou u surf SUP desek dostupné?',
+          a: 'Běžné surf platformy mají délku 8′6″–10′6″ a šířku přibližně 30″–34″. Délka, rocker a profil hrany se určují podle hmotnosti paddleáře a typu vlny a potvrzují se na fyzickém vzorku před výrobou.',
+        },
+        {
+          q: 'Jsou nafukovací surf desky dostatečně odolné pro pronájem?',
+          a: 'Díky zesílené hraně a UV odolnému PVC naše surf platformy zvládnou pronájemný a výcvikový provoz v surf školách. Pronájemní floty obvykle kombinují univerzální a surf tvary — flotové ceny platí pro celý smíšený objem.',
+        },
+        {
+          q: 'Dokážete na surf deskách zopakovat naši značkovou grafiku?',
+          a: 'Ano. Grafika po celé palubě, motiv dna, EVA podložky a obal se vyrábějí podle vašich makět nebo je vypracuje náš designérský tým z vašich značkových podkladů.',
+        },
+      ],
+    },
+    {
+      slug: 'touring',
+      navLabel: 'Touring',
+      metaTitle: 'Touring SUP desky na míru — OEM platformy pro dlouhé přeplutby | iSupfactory',
+      metaDescription:
+        'Nafukovací touring SUP desky na míru pro dlouhé přeplutby — trupy s posunem od 12′6″, možnost vícedenních výletů, objemy OEM od 90–100+ ks, přímo z továrny.',
+      kicker: 'Série · Touring',
+      h1: 'Touring SUP desky na míru — určené na dálku, přenášení nákladu a velké vzdálenosti',
+      intro: [
+        'Touring desky jsou dlouhé a účinné: špičatý přídě pro klouzání, přiměřený objem pro stabilitu na otevřené vodě a dostatečná délka trupu, aby vedly výstroj na vícedenní výletech. Je to platforma volby pro paddleáře na dlouhé vzdálenosti a pro expediční dodavatele.',
+        'Vyrábíme touring platformy pod vaší značkou s profilem pro paddleování s posunem, kotevními body a plochou paluby pro náklad a dále s uhlíkově kompatibilními systémy příslušenství (guma, D-kroužky, úchyty).',
+      ],
+      faqs: [
+        {
+          q: 'Jaké rozměry touring SUP vyrábíte?',
+          a: 'Touring platformy mají obvykle délku 12′6″–14′ a šířku 28″–32″. Delší trupy 14′ sází na klouzání, širší verze přidávají stabilitu nákladu. Specifikace se potvrzují na fyzickém vzorku před sériovou výrobou.',
+        },
+        {
+          q: 'Dodávají se touring desky s nákladovými a upevňovacími doplňky?',
+          a: 'Ano — nákladové sítě na gumě, sítě s D-kroužky, držáky na pruty a vodicí systémy pro příslušenství se určují pro každý projekt. Touring sady často doplňujeme batohy a vysokotlakými pumpičkami.',
+        },
+        {
+          q: 'Dodáváte touring desky pronájemním operátorům a dodavatelům?',
+          a: 'Ano. Dodavatelé a operátoři si mohou sestavit vlastní touring floty od 20–50 ks (pilotní dávka) s flotovými cenami, náhradními díly a stanoveným cyklem sezónní obnovy.',
+        },
+      ],
+    },
+    {
+      slug: 'yoga',
+      navLabel: 'Jóga',
+      metaTitle: 'Jógové SUP desky na míru — OEM platformy širokého a stabilního tvaru | iSupfactory',
+      metaDescription:
+        'Nafukovací jógové SUP desky na míru — mimořádně široké stabilní platformy s měkkou palubou pro centra, resorty a instruktory. Objem OEM od 90–100+ ks, přímo z továrny.',
+      kicker: 'Série · Jóga',
+      h1: 'Jógové SUP desky na míru — mimořádně široké platformy pro cvičení na vodě',
+      intro: [
+        'Jógové desky jsou stvořené pro nehybnost: větší šířka a objem dávají stabilní plošinu, měkké podložky vyhovují dlaním a chodidlům a nízký profil drží desku blízko vody. Jsou určené pro centra, resorty a instruktory, kteří vedou jógové programy na vodě.',
+        'Vyrábíme jógové platformy pod vaší značkou s nejširšími a nejstabilnějšími profily, prémiovou EVA podložkou a variantami škálování programu pro centra a resortní floty.',
+      ],
+      faqs: [
+        {
+          q: 'Co dělá SUP desku vhodnou pro jógu?',
+          a: 'Především stabilita: větší šířka (33″–36″) a objem udržují desku vodorovnou a stabilní. Měkká EVA podložka chrání ruce, kolena a chodidla a nízký profil hrany zmenšuje kolébání při nasedání a sesedání.',
+        },
+        {
+          q: 'Mohou resorty objednat jógové desky jako součást floty?',
+          a: 'Ano. Resorty obvykle doplňují jógové platformy univerzálními deskami pro hosty. Souhrnné objemy floty opravňují k flotovým cenám a značková grafika v barevné paletě kompletu se využije v celé objednávce.',
+        },
+        {
+          q: 'Součástí jógových desek jsou kompletní sady?',
+          a: 'Ano — nafukovací deska, veslo, pumpička, batoh a opravná sada, případně zkrácená sada pro skladování na místě (deska + veslo + elektrická pumpička) — podle požadavků vašeho programu.',
+        },
+      ],
+    },
+    {
+      slug: 'whitewater',
+      navLabel: 'Divoká voda',
+      metaTitle: 'SUP desky na divokou vodu na míru — OEM platformy pro řeky a prahy | iSupfactory',
+      metaDescription:
+        'Nafukovací SUP desky na divokou vodu na míru — krátké ovladatelné trupy se zesílenou nárazuvzdornou konstrukcí. Objem OEM od 90–100+ ks v Čching-tunu, Čína.',
+      kicker: 'Série · Divoká voda',
+      h1: 'SUP desky na divokou vodu na míru — říční trupy, které vydrží nárazy',
+      intro: [
+        'Desky na divokou vodu jsou krátké, široké a odolné: ovladatelné trupy, které se otáčejí na požádání, vysoká odolnost proti nárazům hranou a zesílená konstrukce pro mělká říční koryta a kamenité sjezdy.',
+        'Vyrábíme platformy pro divokou vodu pod vaší značkou se zesílenými švy, nárazuvzdornou hranou a tvary přizpůsobenými řece — pro školy, instruktory a říční dodavatele, kteří vedou každodenní výcvik a výlety.',
+      ],
+      faqs: [
+        {
+          q: 'Jakou konstrukci potřebují desky na divokou vodu?',
+          a: 'Zesílená hrana a konstrukce se zesíleným švem pohlcují nárazy hranou a silné PVC s vícevrstvou konstrukcí chrání před propíchnutím na říčním dně. Dvoukomorové konstrukce dávají rezervu vztlaku na odlehlých řekách.',
+        },
+        {
+          q: 'Dodáváte říčním dodavatelům a školám instruktorů?',
+          a: 'Ano. Dodavatelé a instruktorské školy sestavují floty pro divokou vodu od 20–50 ks (pilotní dávka) s flotovými cenami, zesílenými opravnými sadami a náhradními žebry a ventily — typické řešení pro říční programy s vysokou zátěží.',
+        },
+        {
+          q: 'Mohou desky na divokou vodu nést značkovou grafiku?',
+          a: 'Ano — grafika po celé desce, umístění loga a týmové barvy se vyrábějí podle vašich makět. Odolné tiskové vrstvy uchovají branding i při intenzivním provozu.',
+        },
+      ],
+    },
+    {
+      slug: 'fishing',
+      navLabel: 'Rybolov',
+      metaTitle: 'Rybářské SUP desky na míru — OEM a vlastní značka | iSupfactory',
+      metaDescription:
+        'Nafukovací rybářské SUP desky na míru se stabilitou, nosností a úchyty pro příslušenství — objemy OEM/vlastní značka od 90–100+ ks, přímo z továrny v Čching-tunu, Čína.',
+      kicker: 'Série · Rybolov',
+      h1: 'Rybářské SUP desky na míru — stvořené se zřetelem na rybáře',
+      intro: [
+        'Rybářské desky jsou stabilní plošiny pro házení: široké a s velkým objemem, aby unesly rybáře i s výbavou, s úchyty na pruty, termosky a vybavení a s tichou konstrukcí pro nenápadný přiblížení.',
+        'Vyrábíme rybářské platformy pod vaší značkou s volbami přizpůsobenými konkrétnímu projektu — od kompaktních výletních sad až po plné vybavení pro turnaje.',
+      ],
+      faqs: [
+        {
+          q: 'Jaké volby lze určit pro rybářské SUP desky?',
+          a: 'Sítě pro upevnění prutů a příslušenství, vodicí lišty pro výbavu, popruhy na termosky, kotevní body a také desky se zvýšenou nosností až 500 lbs na rybáře a výbavu. Sady mohou zahrnovat vesla, pumpičky a tašky s vaší značkou.',
+        },
+        {
+          q: 'Jaké je minimální množství objednávky (MOQ) pro OEM objednávky rybářských SUP?',
+          a: 'Standardní série začínají na 90–100+ ks na 150 m roli; pilotní dávky od 20–50 ks na standardních platformách; individuální vybavení 90–100+ ks na jednu formu. Vzorky odesíláme za 7–12 dní; výroba trvá 25–35 dní po potvrzení objednávky a zálohy.',
+        },
+        {
+          q: 'Vyrábíte rybářské desky pro pronájem a instruktorské služby?',
+          a: 'Ano. Instruktorské a pronájemní služby sestavují rybářské floty s flotovými cenami, náhradními díly a opravnými sadami dimenzovanými na každodenní provoz.',
+        },
+      ],
+    },
+    {
+      slug: 'kids',
+      navLabel: 'Děti',
+      metaTitle: 'Dětské SUP desky na míru — OEM platformy malých rozměrů | iSupfactory',
+      metaDescription:
+        'Nafukovací dětské SUP desky na míru — kratší a lehčí platformy s dětsky přátelskou palubou, navržené pro bezpečnost a zábavu. Objem OEM od 90–100+ ks, přímo z továrny.',
+      kicker: 'Série · Děti',
+      h1: 'Dětské SUP desky na míru — malé, lehké a stvořené pro první výjezdy na vodu',
+      intro: [
+        'Dětské desky jsou dimenzované na mladé paddleáře: kratší trupy, menší hmotnost, užší šířka pro menší tělesné rozměry a měkké podložky, které odpouštějí pády. Jsou vstupní bodou pro rodinné značky, školy a pronájemní floty obsluhující děti.',
+        'Vyrábíme dětské platformy pod vaší značkou ve standardních a juniorských rozměrech, s rodinně přátelskými variantami sestavení.',
+      ],
+      faqs: [
+        {
+          q: 'Jaké rozměry mají dětské SUP desky?',
+          a: 'Typické dětské platformy sahají od 7′ do 9′6″, šířka od 26″ do 30″ a hmotnost je přibližně 7–9 kg (15–20 lbs). Rozměr se volí podle věku a hmotnosti paddleáře a potvrzuje se na fyzickém vzorku před výrobou.',
+        },
+        {
+          q: 'Dodáváte školám a mládežnickým programům?',
+          a: 'Ano — naše dětské platformy jsou běžnou součástí flot školních a mládežnických programů; objednávají se spolu s juniorskými vesly a startovním příslušenstvím za programové ceny.',
+        },
+        {
+          q: 'Mohou dětské desky nést značkovou grafiku a postavy?',
+          a: 'Ano. Barevná schémata celé desky, vyobrazení postav a umístění loga se vypracovávají podle vašich makět či směru značky — tiskem stejnými odolnými vrstvami jako u dospělých desek.',
+        },
+      ],
+    },
+    {
+      slug: 'multi',
+      navLabel: 'Více osob',
+      metaTitle: 'Víceosobové SUP desky na míru — OEM pro páry a rodiny | iSupfactory',
+      metaDescription:
+        'Nafukovací víceosobové SUP desky na míru pro rodinnou rekreaci a skupinové aktivity — páry, plážové a večerní platformy. Objem OEM od 90–100+ ks, přímo z továrny.',
+      kicker: 'Série · Více osob',
+      h1: 'Víceosobové SUP desky na míru — páry, plážové a večerní platformy',
+      intro: [
+        'Víceosobové desky otevírají SUP skupinám: páry s místem navíc pro veslo, plážové desky pro odpočinek a večerní platformy pro několik paddleářů. Přinášejí příjmy z pronájmu na resortech, plážích a jezerech.',
+        'Vyrábíme víceosobové platformy pod vaší značkou s profily stability a objemu, které vyžaduje každý scénář použití.',
+      ],
+      faqs: [
+        {
+          q: 'Jaké typy víceosobových desek vyrábíte?',
+          a: 'Páry (dva paddleáři, přibližně 13′–14′), plážové desky (krátké, široké plošiny pro odpočinek) a večerní platformy s velkým objemem pro 3–6 paddleářů. Každý typ se určuje podle nosnosti, hmotnosti a předpokládaného použití.',
+        },
+        {
+          q: 'Jsou víceosobové desky dobrou investicí do pronájmu?',
+          a: 'Ano — nabízejí vyšší hodinovou sazbu při nižších nákladech na vybavení na jednoho paddleáře a drží skupinu pohromadě místo toho, aby se rozdělila na jednotlivé desky. Pronájemní operátoři je obvykle doplňují k flotám univerzálních desek.',
+        },
+        {
+          q: 'Jaká je nosnost večerní platformy?',
+          a: 'Nosnost závisí na rozměrech a objemu: typické plážové a večerní platformy unesou 400–700 lbs a 3–6 paddleářů podle velikosti a sestavení. Specifikace se potvrzují na fyzickém vzorku před sériovou výrobou.',
+        },
+      ],
+    },
+  ],
 }
 
 export function getSeriesPage(locale: Locale, slug: string): SeriesPageData | undefined {

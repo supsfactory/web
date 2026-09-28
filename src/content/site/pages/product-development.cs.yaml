@@ -1,0 +1,108 @@
+meta:
+  title: 'Vývoj produktů SUP — vlastní design, prototypy a sériová výroba'
+  description: 'Vývoj produktů SUP od konceptu po kontejner: specifikace, konstrukční řešení, prototypování, zkoušky, nástroje a hromadná výroba uvnitř specializované továrny na SUP.'
+  dateModified: '2026-08-10'
+  keywords:
+    - 'vývoj produktů sup'
+    - 'vývoj prototypů sup'
+    - 'vlastní návrh sup'
+    - 'konstrukce produktů sup'
+    - 'prototypování nafukovacích sup'
+
+hero:
+  tagline: Vývoj produktů
+  title: 'Vlastní vývoj produktů SUP — od konceptu po kontejner'
+  subtitle: 'Šest fází promění Váš produktový nápad na desky SUP připravené k sériové výrobě — specifikace, konstrukční řešení, prototypování, zkoušky, nástroje a hromadná výroba, vše v jedné továrně s jedním systémem kvality, za který neseme odpovědnost.'
+
+answer:
+  label: 'Přímá odpověď'
+  text: 'Vývoj produktů SUP ve společnosti iSupfactory probíhá v šesti fázích — specifikace produktu, konstrukční inženýrství, výroba prototypu, zkoušky a validace, vlastní nástroje a hromadná výroba. První fyzický vzorek odesíláme do 7–12 dnů od schválení specifikace; sériová výroba trvá 25–35 dnů od potvrzené objednávky a zálohy; vývoj nové formy přidává 15–20 dnů.'
+  verified: 'září 2026'
+
+stages:
+  title: 'Šest fází vývoje produktů SUP'
+  subtitle: 'Každá fáze má jasný výstup, takže vždy víte, kde Váš projekt stojí — a co přijde jako další.'
+  items:
+    - title: '1. Nápad a specifikace produktu'
+      description: 'Geometrie desky, hmotnostní rozsah jezdce, objem, konstrukční cíle a příslušenství. Pro začátek stačí referenční deska, skica, nebo specifikace konkurence.'
+      icon: 'tabler:bulb'
+    - title: '2. Konstrukční řešení a 3D návrh'
+      description: 'Konstrukční inženýrství, volba tloušťky drop stitch a druhu PVC, posouzení vyrobitelnosti a cenová kalkulace — do jednoho pracovního dne.'
+      icon: 'tabler:blueprint'
+    - title: '3. Výroba prototypu'
+      description: 'Váš první fyzický vzorek odesíláme do 7–12 dnů s protokolem o schválení, který zahrnuje konstrukci, barvy potisku a výsledky tlakových zkoušek.'
+      icon: 'tabler:tools'
+    - title: '4. Zkoušky a validace'
+      description: 'Zkouška udržení tlaku, pevnost švů a kontrola rozměrů vůči schválenému vzorku, včetně připravené dokumentace CE a REACH pro Vaše cílové trhy.'
+      icon: 'tabler:test-pipe'
+    - title: '5. Nástroje a hromadná výroba'
+      description: 'Vývoj vlastní formy trvá 15–20 dnů, pokud je potřeba; sériové dávky zabírají 25–35 dnů s kontrolními body jakosti a sledovatelností šarží.'
+      icon: 'tabler:settings'
+    - title: '6. Dodání a škálování'
+      description: 'Logistika FOB, CIF nebo DDP do více než 50 zemí — a pak opakované objednávky z Vaší zaběhnuté řady se stabilními dodacími lhůtami a schválenou grafikou v archivu.'
+      icon: 'tabler:truck-delivery'
+
+why_inhouse:
+  title: 'Proč vývoj uvnitř továrny převýší zprostředkovaný projekt'
+  subtitle: 'Vývojová práce, která sídlí uvnitř výrobního závodu, mění to, co získáte, v každé fázi.'
+  items:
+    - title: Žádné mezery při předání návrhu
+      description: 'Konstrukční a kreslířský tým pracuje v téže hale jako svařovací linka — změna výkresu se dostane do výroby ještě týžden, ne až po obchodním kole.'
+      icon: 'tabler:handshake'
+    - title: Vzorky odpovídající výrobě
+      description: 'Vzorková dávka a sériová dávka používají stejné stroje, materiály i kontrolní stanice, takže schválený vzorek je přesně to, co dostanete v kontejnerovém objemu.'
+      icon: 'tabler:stack-2'
+    - title: Inženýrství, které nic neprodává
+      description: 'Rozhodnutí se přijímají podle cílové ceny, hmotnosti a životnosti, nikoli podle marže na doplňkovém prodeji — protože jde o továrnu a výroba je jediný příjem.'
+      icon: 'tabler:scale'
+    - title: Důvěrnost jako trvalá smlouva
+      description: 'NDA se podepisuje před výměnou souborů a Vaše grafika, nástroje i specifikační podklady zůstávají Vaším vlastnictvím — nikdy se znovu nepoužijí, neprodají ani se neukážou jinému klientovi.'
+      icon: 'tabler:lock'
+
+buyer_guides:
+  tagline: 'Průvodci pro nakupující'
+  title: 'Kompletní knihovna pro nákup'
+  subtitle: 'Každá fáze projektu vlastní desky SUP, vysvětlená našimi skutečnými lhůtami, podmínkami a dokumentací.'
+  items:
+    - title: 'Private label: kompletní průvodce krok za krokem'
+      body: 'Od výběru továrny po dodaný kontejner — celá cesta v šesti krocích pro nové značky.'
+      href: '/cs/news/private-label-sup-guide'
+    - title: 'Jak vybrat výrobce SUP OEM'
+      body: 'Auditní otázky, které odliší skutečnou továrnu od obchodníka: certifikace, kontrola jakosti, vzorky a vlastnictví.'
+      href: '/cs/news/how-to-choose-sup-oem-manufacturer'
+    - title: 'Harmonogram vývoje produktů SUP'
+      body: 'Vzorek za 7–12 dnů, výroba za 25–35 dnů, nástroje navíc 15–20 — celý kalendář po jednotlivých fázích.'
+      href: '/cs/news/custom-sup-development-timeline'
+    - title: 'Co připravit před objednávkou'
+      body: 'Pět údajů, díky nimž továrna napoprvé spočítá cenu přesně a vyhnete se přepracování specifikace.'
+      href: '/cs/news/info-needed-before-sup-production'
+    - title: 'MOQ a ceny SUP OEM'
+      body: 'Úrovně MOQ ve fázích vzorku (1–2), pilota (20–50) a série (90–100+ na 150m rolích), šest cenových faktorů a pět způsobů, jak snížit cenu bez ztráty kvality.'
+      href: '/cs/news/sup-oem-moq-pricing'
+    - title: 'Certifikace CE pro nafukovací SUP'
+      body: 'Co CE skutečně pokrývá, pět dokumentů, které si máte vyžádat, a jak ověřit, že se v certifikátu uvádí Váš model.'
+      href: '/cs/news/ce-certification-inflatable-sup'
+    - title: 'Doprava: FOB proti CIF a DDP'
+      body: 'Co každý incoterm zahrnuje a kolik stojí, 4–6týdenní námořní dodací lhůta a který termín sedí Vašemu podnikání.'
+      href: '/cs/news/private-label-sup-oem-guide'
+
+faq_section:
+  tagline: FAQ
+  title: 'Časté dotazy k vývoji SUP'
+  questions:
+    - q: Můžete vyvinout produkt SUP z nápadu?
+      a: 'Ano. Vedeme Vás celou cestou od specifikace produktu a konstrukčního řešení přes vývoj prototypu, úpravy až po hromadnou výrobu podle Vašich požadavků. Pro zahájení konstrukčního posouzení stačí skica, referenční deska, nebo dokonce specifikace konkurence.'
+    - q: Kolik stojí vývoj produktů SUP?
+      a: 'Posouzení specifikace a konstrukční ohodnocení jsou bezplatné a dodáme je do jednoho pracovního dne. Cenu prototypu počítáme pro každý projekt po upevnění specifikace; cena sériové výroby závisí na materiálech, objemu a případné potřebě vlastních nástrojů.'
+    - q: Jak dlouho vývoj produktů SUP trvá?
+      a: 'První vzorek odesíláme do 7–12 dnů od schválení specifikace, na každou revizi počítejte 3–7 dnů. Sériová výroba trvá 25–35 dnů po objednávce a záloze. Vývoj vlastní formy přidává na začátku 15–20 dnů a námořní doprava 4–6 týdnů do většiny cílových míst.'
+    - q: Co je první — vzorek, nebo výroba?
+      a: 'Vždy vzorek. Fyzický prototyp se vyrobí, změří a schválí podle specifikace dříve, než se rozjede jakákoli sériová výroba. Hromadnou výrobu nespouštíme na neschválených návrzích.'
+    - q: Podepisujete NDA při vývoji produktu?
+      a: 'Ano. NDA se podepisuje před výměnou souborů a Vaše návrhy, grafika i nástroje zůstávají Vaším vlastnictvím po celou dobu vývoje a výroby.'
+    - q: Ochráníte můj návrh a specifikace SUP?
+      a: 'Návrhy, specifikace a produktové koncepty zákazníků zpracováváme důvěrně ve fázi vývoje i výroby. Vaše nástrojové podklady se nikdy znovu nepoužijí, neprodají ani se neukážou jinému klientovi.'
+
+cta:
+  title: 'Zahajte projekt produktu SUP'
+  subtitle: 'Zašlete skicu, referenční desku nebo specifikaci — konstrukční posouzení a cenovou kalkulaci dodáme do jednoho pracovního dne.'

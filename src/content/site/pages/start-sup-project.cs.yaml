@@ -1,0 +1,114 @@
+meta:
+  title: 'Začněte projekt výroby SUP — od briefu po dodání desek | iSupfactory'
+  description: 'Začněte vlastní projekt výroby SUP: odešlete brief, získejte ochranu NDA, vzorky za 7–12 dnů, odsouhlasení a přechod na výrobu. Krok za krokem, s termíny.'
+  dateModified: '2026-08-20'
+  keywords:
+    - 'začít projekt výroby sup'
+    - 'vlastní výroba sup na objednávku'
+    - 'brief projektu sup'
+    - 'oem projekt sup'
+    - 'vlastní výroba paddle boardu'
+    - 'projekt výroby sup'
+    - 'projekt výroby nafukovacího sup'
+
+hero:
+  tagline: 'Začněte zde'
+  title: 'Začněte svůj projekt výroby SUP'
+  subtitle: 'Ať už uvádíte novou značku, rozšiřujete produktovou řadu, nebo nakupujete značkové desky pro vlastní podnikání — každý projekt začíná stejně: project briefem, NDA, vzorkem a jasnou cestou k výrobě. Zde je to, co se stane poté, co kliknete na „Začít“.'
+  actions:
+    - variant: primary
+      text: Začít s briefem projektu
+      href: /cs/contact#project-brief
+    - text: Podívejte se, jak proces funguje
+      href: /cs/how-it-works
+
+answer:
+  label: 'Co bude dál'
+  text: 'Po odeslání briefu projektu dostanete odpověď do jednoho pracovního dne. NDA je k dispozici dříve, než sdělíte jakékoli důvěrné podrobnosti. Konstrukční tým brief prostuduje a vrátí podrobnou nabídku s kalkulací MOQ, cenou vzorků a harmonogramem po fázích — zpravidla 7–12 dnů na vzorky a 6–8 týdnů na první výrobu od potvrzeného PO. Cena vzorků se odečítá od výrobní objednávky. Bez závazků až do podpisu.'
+  verified: 'září 2026'
+
+process_steps:
+  tagline: 'Proces'
+  title: 'Od briefu po dodání desek — pět kroků'
+  subtitle: 'Každý krok má stanovený termín, zdokumentovaný výstup a kontrolní bod „ano/ne“. Pokračujete až tehdy, když budete připraveni.'
+  steps:
+    - step: 'Krok 1'
+      title: 'Odešlete brief projektu'
+      desc: 'Povězte nám o své desce — cílové parametry, objem, požadavky na shodu a termíny. Vyplnění briefu zabere 5–10 minut. Pokud si nejste jisti v některých detailech, pošlete to, co už máte, a zbytek doplníme s Vámi. NDA je k dispozici dříve, než sdělíte důvěrné návrhy.'
+    - step: 'Krok 2'
+      title: 'NDA a prověření proveditelnosti (1–5 dnů)'
+      desc: 'V případě potřeby podepíšeme NDA, potom konstrukční tým posoudí Váš brief z hlediska výrobních možností, dostupnosti materiálů a rozsahu požadavků na shodu. Dostanete podrobnou nabídku s kalkulací MOQ, cenou vzorků a harmonogramem po fázích.'
+    - step: 'Krok 3'
+      title: 'Vzorek a odsouhlasení (7–21 den)'
+      desc: 'Vyrobí se 1–2 fyzické desky podle Vaší specifikace. Vyzkoušíte a posoudíte — tuhost trupu, přesnost grafiky, kompatibilitu příslušenství. Úpravy se zapíší do revidované specifikace (BOM). Odsouhlasený vzorek se stane výrobní etalonem. Cena vzorků se odečítá od výrobní objednávky.'
+    - step: 'Krok 4'
+      title: 'Plánování před výrobou (7 dnů)'
+      desc: 'Nákup materiálů, příprava nástrojů, potvrzení obalů a rezervace výrobního termínu. Všechny materiály procházejí vstupní kontrolou proti zmrazenému BOM. Výrobní harmonogram s daty kontrolních bodů QC je vydán před zahájením výroby.'
+    - step: 'Krok 5'
+      title: 'Výroba, QC a odeslání (4–6 týdnů)'
+      desc: 'Výroba prochází 7fázovým systémem kontrolních bran s kritérii „prošlo/neprošlo“ v každé fázi. Exportní obaly, dokumentace ke shodě a koordinace námořní dopravy do více než 50 zemí. Poprodační analýza zachycuje zlepšení pro další objednávku.'
+
+collaboration_types:
+  tagline: 'Vyberte si cestu'
+  title: 'Tři způsoby spolupráce s iSupfactory'
+  subtitle: 'Každý projekt prochází stejným procesem — mění se pouze rozsah konstrukční práce a to, komu patří duševní vlastnictví.'
+  grid: 'sm:grid-cols-2 lg:grid-cols-3'
+  features:
+    - icon: O
+      icon_bg: blue
+      title: 'Výroba OEM'
+      desc: 'Vy dodáte návrh. Vyrobíme podle Vaší specifikace. Všechna práva k duševnímu vlastnictví patří Vám. Nejlepší volba pro značky s ověřenou geometrií desky.'
+      link_label: 'Více o OEM'
+      href: /cs/oem-manufacturing
+    - icon: D
+      icon_bg: green
+      title: 'Vývoj ODM'
+      desc: 'Vy dodáte brief. Vy navrhneme desku. Přizpůsobená platforma s Vaším brandingem. Nejlepší volba pro značky, které vstupují na trh bez vlastního konstrukčního týmu.'
+      link_label: 'Více o ODM'
+      href: /cs/odm-manufacturing
+    - icon: P
+      icon_bg: purple
+      title: 'Private Label / společný branding'
+      desc: 'Vaše značka na ověřené platformě. Bez fáze vývoje. Pouze od 5–10 kusů. Nejlepší volba pro provozovatele a distributory.'
+      link_label: 'Možnosti private label'
+      href: /cs/solutions/private-label-sup
+
+what_we_need:
+  heading: 'Co připravit před odesláním briefu'
+  body: |
+    Úplný brief proces urychluje. Zde je, co pomůže:
+
+    - **Parametry desky** — Cílová délka, šířka, tloušťka, hmotnost jezdce, scénář použití. Užitečné jsou referenční rozměry desek, nebo modely konkurence.
+    - **Návrhové soubory** — Vektorová grafika (AI, SVG, PDF) pro ilustrace a loga. Pokud je nemáte hotové, pro úvodní posouzení proveditelnosti postačí moodboardy, nebo referenční snímky.
+    - **Objem a termíny** — Cílové množství a sezónní harmonogram. Stačí i přibližný rozsah („20–50 desek do března“), abychom mohli začít.
+    - **Požadavky na shodu** — Cílové trhy a případné konkrétní certifikační požadavky nad rámec CE, ISO 9001, BSCI, REACH, RoHS.
+    - **Rozsah rozpočtu** — Orientační rozpočet na jednu desku, nebo cílová vlastní návratnost včetně dopravy nám pomáhá navrhnout vhodnou platformu.
+
+    **Nemáte připravené všechno hned?** Pošlete to, co máte. Zbytek doplníme s Vámi.
+
+faqs:
+  tagline: FAQ
+  title: 'Začátek projektu výroby SUP — časté dotazy'
+  items:
+    - q: 'Jaké je minimální množství pro start?'
+      a: 'Start je rozdělen na fáze: nejprve 1–2 vzorky (7–12 dnů), poté zkušební objednávka 20–50 desek (25–35 dnů), po ní standardní sériové dávky 90–100+ desek na každou odsouhlasenou konfiguraci. Private label se společným brandingem začíná od 5–10 kusů bez fáze vývoje.'
+    - q: 'Jak dlouho trvá získat vzorky?'
+      a: 'Fyzické vzorky se vyrábějí za 7–12 dnů od potvrzení specifikace a přijetí zálohy. Při použití stávajících plášťových platforem trvá celý cyklus od briefu po dodání zkušební objednávky obvykle 8–12 týdnů. Vlastní trup přidává 15–20 dnů na vývoj formy.'
+    - q: 'Je můj návrh chráněný?'
+      a: 'Ano. NDA je k dispozici ihned — dříve, než sdělíte jakékoli důvěrné informace. Vyrábíme výhradně pod značkami našich klientů a nikdy s nimi nesoutěžíme. Všechny technické soubory jsou uloženy v systémech s řízeným přístupem a auditním záznamem.'
+    - q: 'Co vyžaduje formulář briefu projektu?'
+      a: 'Brief vyžaduje typ Vašeho podnikání, název společnosti, cílové parametry desky, rozsah množství, termíny a případné požadavky na shodu. Vyplnění trvá přibližně 5–10 minut. Můžete přiložit návrhové soubory (PNG, JPG, SVG, PDF, AI, PSD, DWG, DXF, ZIP) do velikosti 10 MB. Pokud si nejste jisti v některém poli, přeskočte jej — vrátíme se k němu později.'
+    - q: 'Co se stane poté, co odešlu brief?'
+      a: 'Dostanete odpověď do jednoho pracovního dne. Konstrukční tým brief prostuduje a vrátí podrobnou nabídku s MOQ, cenou vzorků a harmonogramem po fázích. Dokud si smlouvu neprostudujete a nepodepíšete, nevzniká žádný závazek. Cena vzorků se odečítá od výrobní objednávky.'
+
+cta:
+  title: 'Připraveni začít?'
+  subtitle: 'Odešlete brief projektu — parametry desky, objem a termíny — a my potvrdíme proveditelnost, vyrobíme vzorky a předložíme výrobní harmonogram se zdokumentovanou QC v každém kroku.'
+  actions:
+    - variant: primary
+      text: Začít s briefem projektu
+      href: /cs/contact#project-brief
+    - text: Přečíst úplného průvodce zapojením
+      href: /cs/oem-onboarding-guide
+    - text: Prověřit továrnu a systém kvality
+      href: /cs/proof-center

@@ -30,18 +30,19 @@ const handler = async () => {
   const daPaths = new Set(loader.getLocalePaths('da'))
   const fiPaths = new Set(loader.getLocalePaths('fi'))
   const ruPaths = new Set(loader.getLocalePaths('ru'))
+  const csPaths = new Set(loader.getLocalePaths('cs'))
   const livePages = loader
     .getContentPages()
     .filter((p: { path: string }) => !(p.path in EDGE_REDIRECTS))
     .map((p: { path: string; content: { seo?: { dateModified?: string } }; meta?: { dateModified?: string } }) => {
       const seo = p.content.seo as { dateModified?: string } | undefined
-      return { loc: p.path, lastmod: p.meta?.dateModified ?? seo?.dateModified ?? '2026-06-01', es: esPaths.has(p.path), fr: frPaths.has(p.path), it: itPaths.has(p.path), pt: ptPaths.has(p.path), nl: nlPaths.has(p.path), sv: svPaths.has(p.path), no: noPaths.has(p.path), pl: plPaths.has(p.path), da: daPaths.has(p.path), fi: fiPaths.has(p.path), ru: ruPaths.has(p.path) }
+      return { loc: p.path, lastmod: p.meta?.dateModified ?? seo?.dateModified ?? '2026-06-01', es: esPaths.has(p.path), fr: frPaths.has(p.path), it: itPaths.has(p.path), pt: ptPaths.has(p.path), nl: nlPaths.has(p.path), sv: svPaths.has(p.path), no: noPaths.has(p.path), pl: plPaths.has(p.path), da: daPaths.has(p.path), fi: fiPaths.has(p.path), ru: ruPaths.has(p.path), cs: csPaths.has(p.path) }
     })
   const staticPages = [
-    ...GUIDES.map((g: { slug: string }) => ({ loc: `/guides/${g.slug}`, lastmod: '2026-06-01', es: true, fr: true, it: true, pt: true, nl: true, sv: true, no: true, pl: true, da: true, fi: true, ru: true })),
+    ...GUIDES.map((g: { slug: string }) => ({ loc: `/guides/${g.slug}`, lastmod: '2026-06-01', es: true, fr: true, it: true, pt: true, nl: true, sv: true, no: true, pl: true, da: true, fi: true, ru: true, cs: true })),
     ...projects.en.map((p: { slug: string }) => ({ loc: `/projects/${p.slug}`, lastmod: '2026-08-15' })),
     ...knowledge.en.map((a: { slug: string }) => ({ loc: `/knowledge/${a.slug}`, lastmod: '2026-08-07' })),
-    ...seriesPages.en.map((s: { slug: string }) => ({ loc: `/products/${s.slug}`, lastmod: '2026-08-15', es: true, fr: true, it: true, pt: true, nl: true, sv: true, no: true, pl: true, da: true, fi: true, ru: true })),
+    ...seriesPages.en.map((s: { slug: string }) => ({ loc: `/products/${s.slug}`, lastmod: '2026-08-15', es: true, fr: true, it: true, pt: true, nl: true, sv: true, no: true, pl: true, da: true, fi: true, ru: true, cs: true })),
     { loc: '/evidence/case-studies', lastmod: '2026-06-01', es: true, fr: true, it: true, pt: true, nl: true, sv: true, no: true },
     { loc: '/faq', lastmod: '2026-06-01', es: true, fr: true, it: true, pt: true, nl: true, sv: true, no: true },
     { loc: '/terms', lastmod: '2026-08-15', es: true, fr: true, it: true, pt: true, nl: true, sv: true, no: true },

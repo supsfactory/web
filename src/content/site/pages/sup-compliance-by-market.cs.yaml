@@ -1,0 +1,100 @@
+meta:
+  title: 'Shoda s požadavky SUP podle trhu — CE, REACH, RoHS, BSCI, ISO 9001 | iSupfactory'
+  description: 'Průvodce shodou nafukovacích desek SUP s požadavky jednotlivých trhů: CE (EU), CPSIA (USA), AS/NZS (Austrálie), ISO 9001, BSCI, REACH a RoHS — rozsah a dokumentace pro každý trh.'
+  dateModified: '2026-08-21'
+  keywords:
+    - 'shoda sup podle trhu'
+    - 'certifikace ce sup'
+    - 'normy pro nafukovací sup'
+    - 'shoda sup s požadavky REACH'
+    - 'shoda sup s požadavky RoHS'
+    - 'audit bsci na továrně sup'
+    - 'výrobce sup s ISO 9001'
+
+hero:
+  tagline: 'Průvodce shodou'
+  title: 'Shoda s požadavky SUP podle trhu'
+  subtitle: 'Každý cílový trh má vlastní požadavky na certifikaci, označování a dokumentaci. Tento průvodce ukazuje požadavky na shodu pro nafukovací desky SUP na hlavních trzích — EU, Severní Amerika, Austrálie a dalších — abyste mohli stanovit správný rozsah požadavků už při žádosti o nabídku, a ne až po výrobě.'
+
+answer:
+  label: 'Stručná odpověď'
+  text: 'Pro EU: označení CE je povinné pro desky prodávané na území Evropského hospodářského prostoru — certifikujeme modely určené pro trhy EU, rozsah se potvrzuje podle každého projektu. Pro USA: platí CPSIA a regionální normy pro VOC. Pro Austrálii: shoda s AS/NZS 1586. Pro všechny trhy: ISO 9001 (továrna), BSCI (sociální audit), REACH a RoHS (materiály) — standardně pro naši výrobu bez ohledu na určení. Rozsah požadavků a náklady na shodu jsou rozepsány po položkách ve Vaší obchodní nabídce — žádná překvapení po výrobě.'
+  verified: 'září 2026'
+
+market_cards:
+  tagline: 'Požadavky podle regionu'
+  title: 'Požadavky na shodu podle cílového trhu'
+  subtitle: 'Rozsah certifikace se potvrzuje podle každého projektu při prověření proveditelnosti. Níže jsou typické požadavky pro jednotlivé trhy.'
+  grid: 'sm:grid-cols-2 lg:grid-cols-4'
+  features:
+    - icon: EU
+      icon_bg: blue
+      title: 'Evropská unie'
+      desc: 'Označení CE je povinné. REACH (chemická bezpečnost), RoHS (omezené látky), certifikace továrny ISO 9001. Zkoušky specifické pro produkt podle příslušné směrnice pro OOP, nebo rekreační plovoucí prostředky. Označení v úředním jazyce cílové země. Dostupný sociální audit BSCI.'
+    - icon: US
+      icon_bg: green
+      title: 'USA'
+      desc: 'Shoda s CPSIA (bezpečnost spotřebních výrobků). California Proposition 65 a regionální normy pro VOC u výparů z PVC a lepidel. Federální ekvivalent CE neexistuje. Zkoušky ASTM dostupné na vyžádání. Požadavky FTC k označení země původu a složení materiálu.'
+    - icon: AU
+      icon_bg: purple
+      title: 'Austrálie a Nový Zéland'
+      desc: 'AS/NZS 1586 pro nafukovací plovoucí prostředky. Záruky podle australského zákona na ochranu spotřebitele. Importní dokumentace a posouzení shody podle požadavků australské pohraniční služby. Dokumentace k chemické bezpečnosti odpovídající REACH. Dostupný sociální audit BSCI.'
+    - icon: GL
+      icon_bg: orange
+      title: 'Globálně / více trhů'
+      desc: 'Certifikace továrny ISO 9001:2015 (každoroční audit). Audit sociální shody BSCI. Shoda materiálů s REACH a RoHS pro celou výrobu bez ohledu na určení. Sledovatelnost na úrovni šarže a zkušební protokoly dostupné pro jakýkoli trh. Individuální rozsah certifikace se potvrzuje podle každého projektu.'
+
+certifications_detail:
+  heading: 'Náš rozsah certifikace'
+  body: |
+    Následující certifikáty máme, nebo jsou pro naši výrobu dostupné. Konkrétní rozsah certifikace pro Váš projekt se potvrzuje při prověření proveditelnosti a rozepíše po položkách ve Vaší obchodní nabídce.
+
+    - **ISO 9001:2015** — Systém řízení kvality na továrně, každoročně ověřovaný akreditovanou třetí stranou. Pokrývá celý výrobní proces od vstupní kontroly materiálů až po konečné balení.
+    - **Označení CE** — Používá se pro modely určené pro trhy EU. Zkoušky a dokumentace podle příslušné směrnice EU. Rozsah se potvrzuje podle každého projektu — ne všechny modely vyžadují stejný rozsah CE.
+    - **BSCI** — Audit iniciativy sociální odpovědnosti podnikání. Pokrývá pracovní práva, bezpečnost na pracovišti, ekologickou shodu a podnikatelskou etiku. Dostupný pro všechny trhy.
+    - **REACH** — Nařízení EU o chemické bezpečnosti. Všechny materiály z PVC, lepidla a ochranné povrchy vyhovují REACH. Dokumentace k látkám a zkušební protokoly jsou dostupné podle šarží.
+    - **RoHS** — Směrnice o omezení nebezpečných látek. Všechny elektronické příslušenství (pumpy s motorem, LED příslušenství) vyhovují RoHS. Materiály desky ze své podstaty požadavkům vyhovují.
+
+compliance_process:
+  tagline: 'Jak je shoda zapracována do Vaší objednávky'
+  title: 'Shoda v průběhu zapojení'
+  subtitle: 'Shoda není doplňkem, ale neodmyslitelnou součástí každé fáze procesu zapojení.'
+  grid: 'sm:grid-cols-2 lg:grid-cols-3'
+  features:
+    - icon: 1
+      icon_bg: blue
+      title: 'Fáze 1: Potvrzení rozsahu'
+      desc: 'Při žádosti uvedete cílové trhy. My potvrdíme, které certifikáty, zkoušky a dokumenty se vztahují k Vašemu konkrétnímu produktu a cílové zemi. Rozsah požadavků a související náklady rozepíšeme po položkách v obchodní nabídce.'
+    - icon: 3
+      icon_bg: green
+      title: 'Fáze 3: Certifikace vzorku'
+      desc: 'Vzorky se vyrábějí podle potvrzeného rozsahu požadavků. Pokud jsou nutné zkoušky v externí laboratoři (CE, CPSIA, AS/NZS), koordinujeme je přes akreditované laboratoře. Zkušební protokoly předáme spolu se vzorkem.'
+    - icon: 7
+      icon_bg: purple
+      title: 'Fáze 7: Balík dokumentace'
+      desc: 'Každá výrobní objednávka se odesílá s balíkem dokumentů ke shodě: certifikáty shody, zkušební protokoly, záznamy sledovatelnosti šarží, bezpečnostní listy materiálů a potvrzení označení. Dokumentace je specifická pro každý trh.'
+
+faqs:
+  tagline: FAQ
+  title: 'Shoda SUP — časté dotazy'
+  items:
+    - q: 'Je označení CE povinné pro všechny desky SUP?'
+      a: 'Označení CE je nutné pouze pro desky prodávané na území Evropského hospodářského prostoru. Certifikujeme modely určené pro trhy EU s rozsahem potvrzeným podle každého projektu. Desky odesílané na trhy mimo EU nejsou označeny CE, pokud o to výslovně nepožádáte.'
+    - q: 'Vyhovují Vaše materiály požadavkům REACH a RoHS?'
+      a: 'Ano. Všechny materiály z PVC, lepidla a ochranné povrchy vyhovují REACH. Všechny elektronické příslušenství (pumpy s motorem, LED příslušenství) vyhovují RoHS. Materiály konstrukce desky ze své podstaty vyhovují RoHS. Dokumentace k látkám a zkušební protokoly jsou na vyžádání dostupné podle šarží.'
+    - q: 'Zajistíte certifikaci i pro trh, který zde není uveden?'
+      a: 'Ano. Odesílali jsme do více než 50 zemí a dokážeme koordinovat certifikaci i dokumentaci pro většinu trhů. Uveďte cílovou zemi při žádosti a potvrdíme konkrétní rozsah požadavků a případné další zkoušky, nebo dokumenty.'
+    - q: 'Jak se účtují náklady na shodu s požadavky?'
+      a: 'Rozsah požadavků a související náklady (zkušebny třetích stran, poplatky za certifikaci) rozepíšeme po položkách ve Vaší obchodní nabídce při prověření proveditelnosti. Po výrobě žádné platby za shodu. Standardní certifikáty (ISO 9001, BSCI) se týkají úrovně továrny a nezvyšují jednotkové náklady.'
+
+cta:
+  title: 'Uveďte své požadavky na shodu'
+  subtitle: 'Sdělte nám své cílové trhy a potvrdíme rozsah certifikace, požadavky na zkoušky a balík dokumentace — rozepsané po položkách ve Vaší obchodní nabídce.'
+  actions:
+    - variant: primary
+      text: Začít s briefem projektu
+      href: /cs/contact#project-brief
+    - text: Prověřit certifikáty a systém kvality
+      href: /cs/proof-center
+    - text: Proces zapojení OEM
+      href: /cs/oem-onboarding-guide

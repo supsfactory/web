@@ -1,0 +1,115 @@
+meta:
+  title: 'Hydrodynamická zkušební nádrž — testování výkonu desek SUP'
+  description: 'Ověřte výkon trupu desky SUP v naší hydrodynamické zkušební nádrži. Výkony v měřítku, analýza klouzání na hladině a měření odporu pro tvary desek.'
+  dateModified: '2026-08'
+back_text: 'Zpět do R&D Center'
+home_label: 'Domů'
+
+answer:
+  label: 'Přímá odpověď'
+  text: 'Tvary trupu SUP testujeme v nádrži v měřítku 1:3 až 1:5 — profil přídě, poloměr výztuhy, pružinování a smáčený povrch — a měříme odpor, účinnost klouzání a stabilitu ještě před závazkem k prototypu v plné velikosti. Týden v nádrži vám vrátí výkonnostní data, která by si vyžádala měsíce zkoušek v plné velikosti.'
+  verified: 'září 2026'
+
+hero:
+  tagline: 'Laboratoř 04'
+  title: 'Hydrodynamická zkušební nádrž'
+  subtitle: 'Ověření výkonu před prvním prototypem v plné velikosti'
+  image: 'https://assets.isupfactory.com/images/sups/factory/isupfactory-design-discussion-original.webp'
+  image_alt: 'Hydrodynamická zkušební nádrž Vatrad, výkonnostní testování'
+
+intro: 'Je běžnou myšlenkou, že hydrodynamické testování je vyhrazeno lodím a závodním člunům. Ve skutečnosti je výkon desky SUP — klouzajícího trupu o délce 10 až 14 stop — stejně jako u každého jiného plavidla závislý na jeho tvaru pod hladinou. Profil přídě, poloměr výztuhy, pružinování a plocha smáčeného povrchu mají dramatický vliv na odpor, účinnost klouzání a stabilitu. V {SITE.name} provozujeme dedikovanou hydrodynamickou zkušební nádrž, která nám umožňuje tyto vlivy kvantifikovat v měřítku modelu — ještě před tím, než na plný prototypu utratíme tkaninu a nástroj.'
+
+content_html: |
+  <h2>Proč testovat desku SUP v nádrži?</h2>
+  <p>Testování v měřítku modelu (typicky 1:3 až 1:5) nám umožňuje rychle a nákladově efektivně iterovat tvary desek. Týden v nádrži může vyprodukovat stejná výkonnostní data, která by si vyžádala měsíce zkoušek a omylů v plné velikosti — a to za zlomek nákladů.</p>
+
+  <h2>Specifikace zařízení</h2>
+  <table>
+    <thead><tr><th>Parametr</th><th>Specifikace</th></tr></thead>
+    <tbody>
+      <tr><td>Rozměry nádrže</td><td>35 m (D) × 3,5 m (Š) × 1,8 m (H)</td></tr>
+      <tr><td>Vlečný vůz</td><td>Elektrický se servopohonem, maximální rychlost 12 m/s (23 uzlů), přesnost rychlosti ± 0,5 %</td></tr>
+      <tr><td>Generátor vln</td><td>Klápacího typu, programovatelné pravidelné a nepravidelné mořské stavy, Hs až 0,3 m v měřítku modelu</td></tr>
+      <tr><td>Měřicí technika</td><td>Šestisložkový dynamometr (odpor, boční síla, moment kolem svislé osy), akcelerometry, inklinometry, sondy pro měření vln</td></tr>
+      <tr><td>Záznam dat</td><td>Vzorkování 1000 Hz na kanál, zobrazení v reálném čase a sada nástrojů pro následné zpracování</td></tr>
+      <tr><td>Výroba modelů</td><td>Vlastní CNC frézování a 3D tisk pro modely trupů do 1,8 m celkové délky</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Náš zkušební program</h2>
+  <p>Standardní program vývoje desky v naší nádrži probíhá v tomto pořadí:</p>
+  <ol>
+    <li><strong>Výroba modelu</strong> — Model v měřítku 1:4 se vyfrézuje z pěny vysoké hustoty na CNC a vylakuje se pro tuhost. Hmotnost a těžiště se nastaví tak, aby odpovídaly stavu plného zatížení v přepočtu podle Froudeova zákona.</li>
+    <li><strong>Měření odporu</strong> — Model se vleče rychlostmi 6–10 pokrývajícími rozsah pádlování (v plné velikosti 2–6 uzlů). Celkový odpor se změří a metodou ITTC-1957 rozloží na třecí a zbylou složku.</li>
+    <li><strong>Měření podélného sklonu a ponoru</strong> — Podélný sklon a ponor se zaznamenávají při každé rychlosti. Cílem je úhel sklonu, který minimalizuje smáčený povrch, zatímco přídě zůstává nad čelnou vlnou.</li>
+    <li><strong>Průzkum kývavého vlnění</strong> — Příčné vlnové řezy se měří při dvou rychlostech, aby se posoudil vlnový odpor a identifikovaly interakce tvaru přídě, které desku zpomalují.</li>
+    <li><strong>Chování na vlnách (volitelné)</strong> — Jízdy proti čelním vlnám v pravidelném vlnění měří přidaný odpor a svislé zrychlení v rozvlněné vodě — data, na kterých stojí návrh přídě touringových desek.</li>
+    <li><strong>Analýza dat a doporučení</strong> — Předáme úplnou zprávu se srovnávacími grafy, křivkami odporu a rychlosti a konkrétními návrhovými doporučeními pro desku v plné velikosti.</li>
+  </ol>
+
+  <div class="not-prose my-10 p-6 rounded-xl bg-gray-50 dark:bg-gray-900 border border-gray-200 dark:border-gray-800">
+    <p class="text-sm font-semibold text-gray-500 mb-3 uppercase tracking-wider">Typické výsledky zkoušek v nádrži — odpor v závislosti na rychlosti (all-around deska 11''0, měřítko 1:4)</p>
+    <div class="space-y-2">
+      <div class="flex items-center gap-2 text-xs">
+        <span class="w-20">2 kn (1:1)</span>
+        <div class="flex-1 bg-gray-200 dark:bg-gray-700 h-5 rounded">
+          <div class="h-full bg-blue-600 rounded" style="width:18%"></div>
+        </div>
+        <span class="w-16 text-right">11 N</span>
+      </div>
+      <div class="flex items-center gap-2 text-xs">
+        <span class="w-20">3 kn (1:1)</span>
+        <div class="flex-1 bg-gray-200 dark:bg-gray-700 h-5 rounded">
+          <div class="h-full bg-blue-600 rounded" style="width:35%"></div>
+        </div>
+        <span class="w-16 text-right">21 N</span>
+      </div>
+      <div class="flex items-center gap-2 text-xs">
+        <span class="w-20">4 kn (1:1)</span>
+        <div class="flex-1 bg-gray-200 dark:bg-gray-700 h-5 rounded">
+          <div class="h-full bg-blue-600 rounded" style="width:52%"></div>
+        </div>
+        <span class="w-16 text-right">32 N</span>
+      </div>
+      <div class="flex items-center gap-2 text-xs">
+        <span class="w-20">5 kn (1:1)</span>
+        <div class="flex-1 bg-gray-200 dark:bg-gray-700 h-5 rounded">
+          <div class="h-full bg-blue-600 rounded" style="width:68%"></div>
+        </div>
+        <span class="w-16 text-right">42 N</span>
+      </div>
+      <div class="flex items-center gap-2 text-xs">
+        <span class="w-20">6 kn (1:1)</span>
+        <div class="flex-1 bg-gray-200 dark:bg-gray-700 h-5 rounded">
+          <div class="h-full bg-blue-600 rounded" style="width:85%"></div>
+        </div>
+        <span class="w-16 text-right">52 N</span>
+      </div>
+    </div>
+    <p class="text-xs text-gray-400 mt-2">Odpor v měřítku modelu (N) při rychlostech přepočtených podle Froudeova zákona. Predikce výkonu v plné velikosti vychází z metody predikce výkonu ITTC-1978.</p>
+  </div>
+
+  <h2>Expertní tým</h2>
+  <p>Naší nádrží řídí hydrodynamik s doktorem z loďǎřství a s 8 lety zkušeností s vlečnými nádržemi v předním evropském námořním výzkumném ústavu. Podporuje jej technik, který připravuje všechny modely a měřicí techniku. Tým se řídí doporučenými postupy ITTC (International Towing Tank Conference), aby byl každý zkouška opakovatelná, stopovatelná a mezinárodně obhajitelná.</p>
+
+  <h2>Testování v nádrži pro vývoj zákazkových desek</h2>
+  <p>Naši nádrž nevyužíváme pouze pro vlastní návrhy — běžně vedeme zkušební programy i pro klienty, kteří chtějí ověřit zákazkový tvar desky nebo prozkoumat výkonnostní problém:</p>
+  <ul>
+    <li><strong>Porovnání tvarů</strong> — Dva nebo více kandidátních tvarů desky se testují za identických podmínek, což poskytne objektivní porovnání odporu, rychlosti a stability pro podpořu vašeho návrhového rozhodnutí.</li>
+    <li><strong>Optimalizace výztuhy a přídě</strong> — Varianty profilu přídě a poloměru výztuhy lze testovat v různých konfiguracích a kvantifikovat jejich příspěvek ke snížení odporu.</li>
+    <li><strong>Studium zatížení jezdcem</strong> — Data odporu se mapují v celém jmenovitém rozsahu hmotnosti jezdce, což vám umožní předepsat správnou délku a šířku pro cílového jezdce.</li>
+  </ul>
+
+  <h2>Proč testovat u nás?</h2>
+  <p>Nezměníme vám jen sadu surových čísel. Naše zprávy převádějí data z nádrže na praktické inženýrské doporučení: „Zvyšte pružinování přídě o 10 mm, abyste snížili odpor čelní vlny při cestovní rychlosti“, „Zaoblete výztuhu v midship stanici, abyste zmenšili smáčený povrch“ nebo „Přesuňte stojnou zónu o 50 mm dopředu pro lepší podélný sklon“. Odejdete s jasným pochopením, co změnit a proč.</p>
+  <p>Naši nádrž je k dispozici také pro nezávislé testy třetích stran na smluvním základě. Pokud vyvíjíte desku a chcete nezávislé, profesionálně provedené hydrodynamické posouzení, rádi vaši poptávku přijmeme.
+
+cta:
+  title: 'Objednejte si zkoušku v nádrži'
+  subtitle: 'Ať už potřebujete celý vývojový program, nebo jedinou srovnávací zkoušku, přizpůsobíme se vašemu termínu.'
+  actions:
+    - variant: primary
+      text: Kontaktovat náš hydrodynamický tým
+      href: /cs/contact#project-brief
+    - text: Zpět do R&D Center
+      href: /cs/randdcenter

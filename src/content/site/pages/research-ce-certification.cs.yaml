@@ -1,0 +1,69 @@
+meta:
+  title: 'Jak funguje certifikace CE nafukovacích desek SUP'
+  description: 'Jak funguje certifikace CE nafukovacích SUP, člunů a kajaků: směrnice (2013/53/EU RCD, OOP 2016/425), zkoušky, notifikované orgány a technická dokumentace.'
+  author: 'iSupfactory'
+  datePublished: '2026-08-04'
+  dateModified: '2026-08-07'
+back_text: 'Zpět do výzkumu'
+
+hero:
+  tagline: 'Soulad s požadavky'
+  title: 'Jak funguje certifikace CE nafukovacích SUP a kajaků'
+  subtitle: '7 min čtení'
+
+answer:
+  label: 'Přímá odpověď'
+  text: 'Nafukovací SUP spadají pod směrnici EU o rekreačních plavidlech 2013/53/EU, pokud je délka trupu větší než 2,5 m, jinak pod směrnici o obecné bezpečnosti výrobků. Certifikace stojí zhruba 13 000&ndash;31 000 EUR a 8&ndash;14 týdnů pro první výrobek: technická dokumentace, zkoušky typu v notifikovaném orgánu, audit továrny a poté Prohlášení o shodě.'
+  verified: 'září 2026'
+
+content_html: |
+  <h2>Co je certifikace CE?</h2>
+  <p>Označení CE (Conformit&eacute; Europ&eacute;enne) znamená, že výrobek splňuje požadavky EU v oblasti zdraví, bezpečnosti a ochrany životního prostředí. U nafukovacích vodních dopravních prostředků závisí použitelný normativní rámec na kategorii výrobku.</p>
+
+  <h2> Použitelné směrnice</h2>
+
+  <h3>Směrnice o rekreačních plavidlech (2013/53/EU)</h3>
+  <p>Hlavní směrnice pro většinu nafukovacích člunů, SUP a kajaků. Platí pro rekreační plavidla s délkou trupu od 2,5 m do 24 m, pro částečně dokončená plavidla (pro dodávky OEM) a pro osobní vodní dopravní prostředky.</p>
+
+  <h3>Nařízení o osobních ochranných prostředcích (2016/425)</h3>
+  <p>Záchranné vesty, plovoucí pomůcky a bezpečnostní vybavení dodávané spolu s vodním dopravním prostředkem musí splňovat požadavky nařízení o OOP, včetně zkoušky typu (modul B) v notifikovaném orgánu a zabezpečování kvality výroby (modul D, nebo E).</p>
+
+  <h2>Proces certifikace</h2>
+  <ol>
+    <li>Klasifikace výrobku: určení kategorie návrhu plavidla (A – D podle ISO 8666)</li>
+    <li>Použitelné normy: EN ISO 6185 (části 1 – 4), EN ISO 10087 (HIN), EN ISO 14945 (strojní štítek výrobce)</li>
+    <li>Příprava technické dokumentace: výkresy konstrukce, kusovník, certifikáty materiálů, posouzení rizik</li>
+    <li>Zkoušky typu: vztlak, stabilita, nosnost, zkoušky materiálů, pevnost švů, udržení vzduchu</li>
+    <li>Výrobní kontrola v továrně: audit výrobních procesů notifikovaným orgánem</li>
+    <li>Prohlášení o shodě: výrobce podepíše DoC a umístí označení CE</li>
+  </ol>
+
+  <h2>Notifikované orgány pro nafukovací vodní dopravní prostředky</h2>
+  <p>Běžné notifikované orgány: Bureau Veritas (Francie), DNV GL (Německo), RINA (Itálie), T&Uuml;V Rheinland / T&Uuml;V S&Uuml;D (Německo).</p>
+
+  <h2>Termíny a náklady</h2>
+  <table class="w-full text-sm border-collapse">
+    <thead>
+      <tr class="bg-gray-100">
+        <th class="p-3 text-left font-semibold text-gray-900 border">Fáze</th>
+        <th class="p-3 text-left font-semibold text-gray-900 border">Doba trvání</th>
+        <th class="p-3 text-left font-semibold text-gray-900 border">Běžné náklady (EUR)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td class="p-3 border">Příprava technické dokumentace</td><td class="p-3 border">2 – 4 týdny</td><td class="p-3 border">2 000 – 5 000</td></tr>
+      <tr><td class="p-3 border">Zkoušky typu</td><td class="p-3 border">4 – 8 týdnů</td><td class="p-3 border">8 000 – 20 000</td></tr>
+      <tr><td class="p-3 border">Audit továrny</td><td class="p-3 border">1 – 2 dny (na místě)</td><td class="p-3 border">3 000 – 6 000</td></tr>
+      <tr><td class="p-3 border">Celkem (první výrobek)</td><td class="p-3 border">8 – 14 týdnů</td><td class="p-3 border">13 000 – 31 000</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Co to znamená pro kupující</h2>
+  <p>Při nákupu certifikovaných nafukovacích desek vždy ověřte, že je označení CE uvedeno na strojní štítku výrobce, existuje platné DoC, je uvedeno číslo notifikovaného orgánu a návod k obsluze obsahuje bezpečnostní pokyny ve Vašem jazyce. Všechny produkty Vatrad se dodávají s certifikací CE a úplnou sledovatelností až ke zprávám z auditu notifikovaného orgánu.</p>
+  <p>Certifikace je součástí každé výrobní dávky v našem závodě v Qingdao — podívejte se na <a href="/cs/factory">pracovní postup kontroly kvality a zkoušek v továrně</a> a na to, jak podporujeme <a href="/cs/oem-manufacturing">shodu s CE pro partnery OEM a private label</a>.</p>
+
+cta:
+  title: 'Potřebujete podporu s certifikací CE?'
+  subtitle: 'Zajišťujeme certifikaci pro OEM partnery po celém světě.'
+  button_text: 'Zahájit proces certifikace'
+  button_link: /cs/contact

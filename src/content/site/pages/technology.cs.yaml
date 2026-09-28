@@ -1,0 +1,45 @@
+meta:
+  title: 'Technologie — Drop Stitch a námořní PVC | {SITE}'
+  description: 'Technologie Vatrad: konstrukce drop stitch, námořní PVC, dvojvrstvé sestavy a vysoký tlak. Inovace od profesionálního výrobce nafukovacích SUP desek.'
+  dateModified: '2026-08'
+  keywords:
+    - 'technologie sup'
+    - 'konstrukce drop stitch'
+    - 'sup s vysokým tlakem'
+    - 'materiály nafukovacích sup'
+hero:
+  tagline: Technologie
+  title: Stvořeno pro vysoké parametry
+  subtitle: Každý nafukovací SUP Vatrad je navržen s technologií drop stitch z námořního PVC — přesné materiály a výrobní postupy ověřené v náročných podmínkách na moři.
+
+sections:
+  - title: Jádro Drop-Stitch
+    description: 'Tisíce vnitřních polyesterových vláken spojuje horní a spodní vrstvu a vytváří tuhou konstrukci při 12–15 PSI. Jde o stejnou technologii, která se používá u profesionálních pádlovacích SUP desek a nafukovacích závodních SUP.'
+    imageAlt: Schéma jádra DS
+  - title: Námořní PVC
+    description: 'Vícevrstvý laminovaný PVC materiál určený pro mořské prostředí. Každá vrstva se spojují termosvařováním, nikoli lepidlem, což vylučuje riziko delaminace. Ověřeno na odolnost vůči UV záření, korozi v solné vodě a oděru.'
+    imageAlt: Vrstva PVC
+  - title: PVC vojenské kvality
+    description: 'Používá se ve všech modelech SUP: prémiové PVC zajišťuje zvýšenou odolnost vůči UV záření a chemickým vlivům. Zachovává pružnost i při extrémních teplotách a nerozkládá se.'
+    imageAlt: PVC
+  - title: Nafukovací paluba
+    description: 'Nafukovací vysokotlaková konstrukce drop stitch, která zajišťuje výjimečnou tuhost pro stání, rybaření a jógu. Zkracuje dobu přípravy, celkovou hmotnost a objem skladování.'
+    imageAlt: Nafukovací paluba
+
+related:
+  title: 'Související materiály'
+  links:
+    - text: 'Centrum výzkumu a vývoje'
+      url: /cs/randdcenter
+    - text: 'Kvalitní zkoušky'
+      url: /cs/quality
+    - text: 'Bezpečnostní normy'
+      url: /cs/quality
+    - text: 'Záruka'
+      url: /cs/warranty
+    - text: 'Turismus a rekreace'
+      url: /cs/tourism-recreation
+    - text: 'Průvodci'
+      url: /cs/knowledge
+    - text: 'Produkty'
+      url: /cs/products

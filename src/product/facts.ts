@@ -112,7 +112,7 @@ export interface FactShorthands {
   pressureReject: string
 }
 
-export const FACTS_LOCALE: Record<'en' | 'es' | 'fr' | 'de' | 'it' | 'pt' | 'nl' | 'sv' | 'no' | 'pl' | 'da' | 'fi' | 'ru', FactShorthands> = {
+export const FACTS_LOCALE: Record<'en' | 'es' | 'fr' | 'de' | 'it' | 'pt' | 'nl' | 'sv' | 'no' | 'pl' | 'da' | 'fi' | 'ru' | 'cs', FactShorthands> = {
   en: {
     moq: {
       existingPlatform: FACTS.moq.existingPlatform,
@@ -294,6 +294,20 @@ export const FACTS_LOCALE: Record<'en' | 'es' | 'fr' | 'de' | 'it' | 'pt' | 'nl'
     assemblyChecklist: '100',
     pressureTest: '18.0 PSI · 24 ч выдержки давления',
     pressureReject: 'падение давления >0.50 PSI/24 ч (автоматический брак)',
+  },
+  cs: {
+    moq: {
+      existingPlatform: '5–10 ks (pouze logo na existujícím tvaru, stejná role materiálu)',
+      trialStandard: '20–50 ks (vlastní grafika nebo drobná změna specifikace, stejná role materiálu)',
+      standardRun: '90–100+ ks na každou schválenou konfiguraci, s ohledem na požadavky na roli materiálu a obal',
+      customMould: '90–100+ ks (nový tvar vyžaduje vlastní formu; výroba nástrojů přidává 15–20 dní)',
+    },
+    leadTime: '25–35 dní',
+    leadTimeDetail: '25–35 dní od potvrzení objednávky (PO) a zálohy; vývoj vlastní formy přidává 15–20 dní na výrobu nástrojů.',
+    sampleTime: '7–12 dní',
+    assemblyChecklist: '100',
+    pressureTest: '18.0 PSI · 24 h udržení tlaku',
+    pressureReject: 'pokles tlaku >0,50 PSI/24 h (automatická reklamace)',
   },
 }
 

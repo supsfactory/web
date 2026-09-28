@@ -1,0 +1,79 @@
+meta:
+  title: 'Jak funguje drop stitch — tuhá jádra nafukovacích SUP'
+  description: 'Jak drop stitch mění ohebné PVC v tuhé vysokotlaké jádro SUP (15–20 PSI): konstrukce, materiály, ukazatele kvality a použití.'
+  author: 'iSupfactory'
+  datePublished: '2026-08-04'
+  dateModified: '2026-08-07'
+back_text: 'Zpět do výzkumu'
+
+answer:
+  label: 'Přímá odpověď'
+  text: 'Drop stitch je tkanina, v níž sloupce z polyesterových nití drží horní a dolní vrstvu PVC ve stálé vzdálenosti, takže tlak vzduchu udělá desku tuhou. Jádra Vatrad: 1 680 DTEX, 2 nitě na čtvereční palec, vnější laminát PVC 1,2 mm, dimenzováno na 15 PSI, potvrzeno 24hodinovou zkouškou udržení tlaku při 18,0 PSI.'
+  verified: 'září 2026'
+
+hero:
+  tagline: 'Technologie'
+  title: 'Jak funguje drop stitch — konstrukce tuhých jader nafukovacích desek'
+  subtitle: '8 min čtení'
+
+content_html: |
+  <h2>Co je drop stitch?</h2>
+  <p>Drop stitch (také nazývaná „tkanina drop stitch“ nebo „jádro drop stitch“) je konstrukční metoda, při které tisíce jednotlivých polyesterových nití spojuje horní a dolní vrstvu tkaninového obalu. Při nafouknutí obalu působí tyto nitě jako vnitřní tahové prvky — brání horní a dolní panelu, aby se vyklepaly do válcového tvaru, a tím udržují panel plochý a tuhý.</p>
+  <p>Výsledkem je lehká přenosná konstrukce, která snese 15 – 20 PSI vnitřního tlaku — s tuhostí srovnatelnou s deskou s tvrdým trupem, ale úplně vyfukovací pro skladování a přepravu.</p>
+
+  <h2>Jak to funguje: fyzika</h2>
+  <p>U běžné nafukovací konstrukce (například míče, nebo nafukovací matrace) působí vnitřní tlak vzduchu rovnoměrně všemi směry. Bez vnitřních spojů se konstrukce zbaruje do válce, nebo koule. Drop stitch řeší tento problém zavedením výztužné tahové vrstvy:</p>
+  <ul>
+    <li>Tisíce nití spojuje horní a dolní vrstvu tkaniny</li>
+    <li>Při nafukování tlak vzduchu se snaží horní a dolní část roztáhnout od sebe</li>
+    <li>Nitě této separaci brání a přenášejí zatížení jako tah podél osy nitě</li>
+    <li>Výsledkem je plochý tuhý panel, který odolává ohybu</li>
+  </ul>
+
+  <h2>Výrobní proces</h2>
+  <ol>
+    <li><strong>Tkaní:</strong> Polyesterové nitě se zároveň protkávají do dvou samostatných vrstev základní tkaniny (zpravidla polyester potažený PVC 1 100 DTEX, nebo 1 680 DTEX). Nitě se spojují smyčkovým propletením mezi vrstvami pod úhlem 90&deg;.</li>
+    <li><strong>Potažení:</strong> Upletená základna se potahuje PVC (méně často TPU) metodou nátěru nožem, nebo kalandračního nanášení. Tím se nitě utěsní a vznikne nepropustná membrána.</li>
+    <li><strong>Spojení vrstev:</strong> Jádro drop stitch se termolaminací, nebo lepidlem spojí s vnějšími laminovanými vrstvami (zpravidla PVC 0,9 mm, nebo 1,2 mm).</li>
+    <li><strong>Svařování:</strong> Boční pásy se po okraji svaří horkým vzduchem, metodou HF svařování, nebo vysokofrekvenčním svařováním, čímž vzniknou boční stěny desky.</li>
+    <li><strong>Osazení ventilku:</strong> Instalují se ventily Boston, nebo Halkey-Roberts, zpravidla s pojistným mechanismem, který brání nadměrnému nafouknutí.</li>
+  </ol>
+
+  <h2>Klíčové ukazatele kvality</h2>
+  <table class="w-full text-sm border-collapse">
+    <thead>
+      <tr class="bg-gray-100">
+        <th class="p-3 text-left font-semibold text-gray-900 border">Parametr</th>
+        <th class="p-3 text-left font-semibold text-gray-900 border">Základní úroveň</th>
+        <th class="p-3 text-left font-semibold text-gray-900 border">Prémiová</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td class="p-3 border">Hustota nití</td><td class="p-3 border">1 nitě / čtvereční palec</td><td class="p-3 border">2 nitě / čtvereční palec</td></tr>
+      <tr><td class="p-3 border">Základní tkanina</td><td class="p-3 border">1 100 DTEX</td><td class="p-3 border">1 680 DTEX</td></tr>
+      <tr><td class="p-3 border">Maximální tlak</td><td class="p-3 border">12 – 15 PSI</td><td class="p-3 border">18 – 22 PSI</td></tr>
+      <tr><td class="p-3 border">Tloušťka PVC</td><td class="p-3 border">0,6 – 0,9 mm</td><td class="p-3 border">1,0 – 1,2 mm</td></tr>
+      <tr><td class="p-3 border">Konstrukce boku</td><td class="p-3 border">Skládaný a&amp; lepený</td><td class="p-3 border">Svařený a&amp; tepelně spojený</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Použití</h2>
+  <ul>
+    <li><strong>Desky SUP:</strong> tloušťka 4" – 6", 15 – 20 PSI, 1 – 2 nitě/čtvereční palec</li>
+    <li><strong>Kajaky:</strong> koberec drop stitch + nafukovací boční komory, 10 – 15 PSI</li>
+    <li><strong>Koberce RIB:</strong> koberce drop stitch pro lehké skládací čluny RIB, 12 – 18 PSI</li>
+    <li><strong>Boční plovoucí prvky:</strong> nízkotlaký drop stitch pro tvarované boční prvky s rovnými stěnami</li>
+  </ul>
+
+  <h2>Drop stitch proti nafukovacímu koberci (skelného laminátu, nebo dřevěné jádro)</h2>
+  <p>Desky s tvrdým trupem používají jádra z polystyrenu vyztužená skelným laminátem, nebo dřevěnou žebrovou konstrukcí. Jsou lehčí, tužší a citlivější — ale nelze je vyfouknout. Drop stitch jde o kompromis mezi tuhostí a úplnou přenosností. Pro většinu příznivců outdoorových aktivit jsou moderní SUP na drop stitch při 20 PSI z hlediska tuhosti k nerozlišení od tvrdých desek vstupní úrovně.</p>
+
+  <h2>Jak Vatrad používá drop stitch</h2>
+  <p>Vatrad používá jádro drop stitch 1 680 DTEX v celé řadě SUP, se 2 nitěmi na čtvereční palec a vnějším laminátem PVC 1,2 mm. Desky jsou dimenzované na 15 PSI a před odesláním absolvují 24hodinovou zkoušku udržení tlaku při 18,0 PSI. Boční pásy se svařují horkým vzduchem se třívrstvým tepelným spojením a pojistné ventily se montují na všechny modely.</p>
+  <p>Drop stitch je základem naší výroby SUP — podívejte se na <a href="/cs/technology/drop-stitch-core">stránku o technologii jádra drop stitch</a> a na to, jak se jádro spojuje na <a href="/cs/factory">výrobní lince továrny</a>.</p>
+
+cta:
+  title: 'Chcete se dozvědět víc o drop stitch?'
+  subtitle: 'Spojte se s námi ohledně technických specifikací a požadavků na OEM výrobu.'
+  button_text: 'Kontaktovat obchodní oddělení'
+  button_link: /cs/contact

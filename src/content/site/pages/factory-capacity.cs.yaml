@@ -1,0 +1,85 @@
+meta:
+  title: 'Výrobní kapacita — továrna o ploše 22 500 m² | {SITE}'
+  description: 'Výrobní kapacita továrny Vatrad: zařízení o ploše 22 500 m² vyrábí ročně přes 220 000 desek SUP a má prostor pro další růst. Velkoobjemová výroba nafukovacích SUP v režimu OEM/ODM.'
+  dateModified: '2026-08-07'
+  keywords:
+    - 'výrobní kapacita sup'
+    - 'továrna nafukovacích sup'
+    - 'výroba paddleboardů'
+    - 'továrna sup Čína'
+hero:
+  tagline: Výrobní kapacita
+  title: Výrobní kapacita a roční výstup
+  subtitle: Zařízení o ploše 22 500 m² vyrábí ročně přes 220 000 desek SUP a má prostor pro další růst
+
+answer:
+  label: 'Přímá odpověď'
+  text: 'Kapacita továrny: 22 500 m² ve čtyřech specializovaných dílnách, přes 220 000 desek SUP ročně, 350+ pracovníků ve dvou směnách, export do více než 50 zemí. MOQ se určuje podle konfigurace projektu — vzorek (2–2 kusy), pilotní série (20–50 kusů) a standardní objem (90–200+ kusů na 250 m rol); úplnou logiku najdete v našem průvodci MOQ a flexibilním brandingem. Dodací lhůta 25–35 dní, vzorky 7–22 dní.'
+  verified: 'září 2026'
+
+intro: Vatrad provozuje jednu z největších specializovaných výrobních zařízení pro nafukovací desky SUP v Číně, Qingdao. Naše továrna o ploše 22 500 m² je členěna do čtyř specializovaných dílín, které pracují paralelně. Roční kapacita pro SUP činí 220 000+ nafukovacích desek SUP (zhruba 20 000 měsíčně), přičemž na samostatných produktových linkách vzniká 50 000+ záchranných vest a 5 000+ doplňků.
+
+highlights:
+  - value: 22,500 m²
+    label: Celková výrobní plocha
+    detail: Ve 4 specializovaných dílnách
+  - value: 220 000+
+    label: Roční kapacita SUP
+    detail: Nafukovací desky SUP, cca 20 000/měsíc
+  - value: 350+
+    label: Zkušená pracovní síla
+    detail: 25+ inženýrů, 2 směny denně
+  - value: 50+
+    label: Zemí exportu
+    detail: EU, USA, AU, Blízký východ, Asie
+  - value: 25–35
+    label: Standardní dodací lhůta (dny)
+    detail: Po potvrzení objednávky a záloze
+  - value: 20+
+    label: Let zkušeností s exportem
+    detail: Od roku 2022
+
+workshops:
+  - title: Výroba desek SUP
+    description: '4 automatizované montážní linky pro nafukovací desky SUP s celkovým výstupem zhruba 20 000 desek měsíčně. Pracovní stanice digitálního a sítliskového tisku běží souběžně. Roční kapacita pro SUP: 220 000+ desek.'
+    output: '220 000+ SUP/rok'
+  - title: Výroba desek SUP — rozšířovací linky
+    description: 'Další automatizované montážní linky pro desky SUP, zapojované s růstem objemu. Pracovní stanice pro spojování jádra drop-stitch, digitální tisk a montáž běží souběžně.'
+    output: 'Součást roční kapacity 220 000+ desek SUP'
+  - title: Doplňky pro SUP a smíšená montáž
+    description: 'Víceúčelové montážní linky pro doplňky k SUP — pádla, žebra, leash, tašky a sady. Stanice horkovzdušného svařování, vysokofrekvenční dielektrické lisy a montážní pracoviště se přestavují podle skladby objednávek. Roční kapacita doplňků: 5 000+ kusů.'
+    output: '5 000+ doplňků/rok'
+  - title: Bezpečnostní vybavení
+    description: 'Samostatná čistá výrobní plocha pro záchranné vesty a bezpečnostní vybavení. Specializované stanice šití, vkládání pěnové výplně a zkoušek. Roční kapacita záchranných vest: 50 000+ kusů.'
+    output: '50 000+ záchranných vest/rok'
+
+oem_capacity:
+  moq: 'SUP: vzorek 2–2 | pilotní 20–50 | objem 90–200+ (na 250 m rol)'
+  lead_time: 'Standardně 25–35 dní. Vzorek 7–22 dní. Možno i expresně.'
+  payment: 'T/T 30% záloha + 70% zbytek. Akceptujeme L/C, Western Union.'
+
+lead_time_explainer:
+  tagline: 'Plánování a časování'
+  title: 'Jak se kapacita promítá do Vašeho dodání'
+  subtitle: 'Kapacita není jedno číslo — zde je, jak se dodací lhůty ve skutečnosti rozdělují.'
+  items:
+    - title: 'Kapacita závisí na Vaší specifikaci'
+      body: 'Dostupná okna se posouvají podle typu desky, složitosti konstrukce, obalů a sezónní poptávky. V jarním a letním nárůstu běží linky téměř naplno a okna pro vzorky se obsazují jako první.'
+    - title: 'Plánujte před sezonou svého uvedení'
+      body: 'Potvrzení vzorku a zmrazení grafiky si ukotvěte brzy. Opakované objednávky se naplánují do dohodnutého pravidelného okna, jakmile je referenční vzorek archivován.'
+    - title: 'Tři plánovací proudy'
+      body: 'Vzorky vstupují nejdříve na prototypovou linku, první objednávky se zařazují do nejbližšího volného montážního okna a opakované objednávky běží ve svém pravidelném okně.'
+    - title: 'Jasná dodací lhůta po posouzení'
+      body: 'Pevnou dodací lhůtu potvrzujeme až po posouzení specifikace, grafiky, obalů a množství — nikdy předem jako pevný závazek.'
+
+cta:
+  title: 'Ověřte dostupnost výroby pro Vše plánované datum uvedení'
+  subtitle: 'Pošlete nám typ desky, množství a požadované datum odeslání — odpovíme s nejbližším volným výrobním oknem a odhadem pevné dodací lhůty.'
+  actions:
+    - variant: primary
+      text: Ověřit dostupnost
+      href: /cs/contact#production-availability
+    - text: Zobrazit úplný přehled továrny
+      href: /cs/factory
+    - text: Jak se desky vyrábějí
+      href: /cs/factory/process

@@ -1,0 +1,100 @@
+meta:
+  title: 'O Vatrad — námořní výrobní divize'
+  description: 'Vatrad je námořní výrobní divize skupiny Qingdao Vatrad Group, založená roku 2012 v Číně, v Qingdao — továrna, která stojí za každým individuálním projektem iSupfactory.'
+  dateModified: '2026-08'
+  keywords:
+    - 'Vatrad'
+    - 'továrna sup Čína'
+    - 'výrobce nafukovacích sup'
+    - 'qingdao vatrad group'
+hero:
+  tagline: O Vatrad
+  title: 'Vatrad — námořní výrobní divize za {SITE}'
+  subtitle: 'Založená roku 2012 v Číně, v Qingdao, společnost Vatrad vyrábí nafukovací plavidla a desky SUP pro individuální projekty iSupfactory — továrna o ploše 12 500 m², 350+ pracovníků a roční kapacita přesahující 120 000 kusů.'
+  actions:
+    - text: 'Zahájit individuální projekt'
+      href: /cs/contact
+      variant: primary
+    - text: 'Prohlédnout si továrnu'
+      href: /cs/factory
+      variant: secondary
+intro: |
+  <p><strong>Vatrad</strong> je námořní výrobní divize společnosti <strong>Qingdao Vatrad Group Co., Ltd.</strong> se sídlem v zóně hospodářského rozvoje Laixi, Qingdao, Shandong, Čína. Založená roku 2012 začínala jako specializovaná dílna na plavidla, která se věnovala námořnímu řemeslu, a postupně se vyvinula v certifikovanou továrnu obsluhující klienty OEM a ODM ve více než 50 zemích.</p>
+  <p>iSupfactory je B2B divize individuálního vývoje na bázi továrny Vatrad. Každý projekt iSupfactory — od prvního vzorku nebo malé série s co-brandingem až po kompletní produktovou řadu pod vlastní značkou — se vyrábí ve stejném zařízení, stejnými týmy a podle téhož systému kvality, který je zde popsán.</p>
+  <p>Továrna zabírá 12 500 m² a zahrnuje samostatné dílny pro řezání PVC, skládání jádra drop-stitch, vysokofrekvenční svařování, montáž desek a zkušební prostor pro zkoušky nepropustnosti, udržení tlaku a pevnosti švů. Výrobní kapacita přesahuje 120 000 nafukovacích jednotek ročně a provozovna pracuje pod systémem řízení kvality ISO 9001 s CE, BSCI, REACH a schválením USCG pro exportované výrobky.</p>
+  <p>Více než 350 zkušených pracovníků a 14+ vývojářů se zabývá dvěma oblastmi, které jsou pro značky SUP zásadní: konstrukčním vývojem (návrh trupu, výběr materiálů, prototypování) a výrobou (použití grafiky, montáž, kontrola, exportní balení). Vlastní vývojové centrum s laboratoří PVC textilií a zkušební nádrží zhotovuje zakázkové formy a ověřuje konstrukci před zahájením sériové výroby.</p>
+stats:
+  title: Vatrad v číslech
+  stats:
+    - title: Rok založení
+      amount: 2012
+    - title: Plocha provozovny
+      amount: '12 500 m²'
+    - title: Obsluhované země
+      amount: '50+'
+    - title: Roční kapacita
+      amount: '120 000+ kusů'
+    - title: Zaměstnanci
+      amount: '350+'
+    - title: Vývojáři
+      amount: '14+'
+values_section:
+  title: Jak továrna pracuje se značkami
+  subtitle: 'Tři principy, kterými se továrna Vatrad řídí u každého projektu.'
+  columns: 3
+  items:
+    - title: Konstrukční vývoj před výrobou
+      description: 'Každý projekt začíná požadavky, výkresy a fyzickým vzorkem — tvar trupu, třída drop-stitch, umístění grafiky i obal se potvrzují před jakoukoli sériovou výrobou, ne až na lince.'
+      icon: 'tabler:settings'
+    - title: Jeden tým, jedno zařízení
+      description: 'Návrh, řezání, svařování, montáž i zkoušky probíhají v jednom zařízení o ploše 12 500 m². Žádné předávání mezi obchodními společnostmi: lidé, kteří odpovídají na Vaše otázky, jsou ti, kdo vyrobí Vaše desky.'
+      icon: 'tabler:building-factory-2'
+    - title: Nejdřív malé série
+      description: 'Malé série s co-brandingem začínají na 5–10 kusech, zatímco sériová výroba běží v dávkách 90–100+ kusů (jeden 150 m rol drop-stitch), takže si značky trh nejprve ověří a teprve pak škálují, přičemž lisovací nástroje a podklady zůstávají k dispozici pro opakované objednávky.'
+      icon: 'tabler:layers-intersect'
+services_section:
+  title: Co továrna dodává
+  subtitle: 'Výrobní služby dostupné klientům iSupfactory.'
+  columns: 2
+  items:
+    - title: Individuální vývoj SUP
+      description: 'Posouzení požadavků, specifikace, výběr materiálů, grafika, prototypování, schválení vzorku a sériová výroba individuálních nafukovacích výrobků SUP.'
+      icon: 'tabler:bulb'
+    - title: Výroba pod vlastní značkou
+      description: 'Vaše logo, barvy a obaly na osvědčených platformách komerční třídy — deska, protiskluzová podložka, příslušenství i krabice nesou Vaši identitu, bez brandingu továrny.'
+      icon: 'tabler:tag'
+    - title: Výroba OEM / ODM
+      description: 'Kompletní výroba nafukovacích desek SUP v režimu OEM a ODM podle výkresů klienta nebo společně vyvinutých návrhů, včetně zakázkových forem pro nové tvary desek.'
+      icon: 'tabler:package'
+    - title: Dodávky pro flotily
+      description: 'Značkované dávky desek pro resorty, kluby, školy a provozovatele půjčoven, včetně ladících doplňků a dávek vhodných pro flotily.'
+      icon: 'tabler:users-group'
+certifications_section:
+  title: 'Certifikace a splnění požadavků'
+  subtitle: 'Díky dokumentovanému systému souladu dodává továrna do EU, USA a asijsko-pacifické oblasti.'
+  columns: 2
+  items:
+    - title: Certifikace CE
+      description: 'Řady nafukovacích desek SUP a plavidel splňují bezpečnostní směrnice EU, dokumentace se dodává pro každý trh.'
+      icon: 'tabler:certificate'
+    - title: Systém kvality ISO 9001
+      description: 'Výrobní provozovna pracuje pod systémem řízení kvality ISO 9001, který zahrnuje vstupní kontrolu materiálu, kontrolu během výroby a závěrečnou kontrolu.'
+      icon: 'tabler:badge-check'
+    - title: Společenská odpovědnost BSCI
+      description: 'Společenská odpovědnost je ověřena auditem BSCI, který zahrnuje pracovní podmínky a soulad provozovny s požadavky.'
+      icon: 'tabler:shield-check'
+    - title: Soulad materiálů s REACH
+      description: 'Materiály splňují požadavky nařízení EU REACH v oblasti chemické bezpečnosti.'
+      icon: 'tabler:flask'
+    - title: Schválení USCG
+      description: 'Výroba nafukovacích plavidel schválená US Coast Guard.'
+      icon: 'tabler:anchor'
+    - title: Zkoušky výrobků
+      description: 'Zkoušky vztlaku, nosnosti, pevnosti švů, odolnosti vůči UV záření, odolnosti proti oděru a udržení tlaku na každé výrobní lince.'
+      icon: 'tabler:test-pipe'
+cta:
+  title: 'Postavte svůj projekt SUP s továrnou Vatrad'
+  subtitle: 'Pošlete nám požadavky — typ desky, rozměr, množství a grafiku — a do jednoho pracovního dne obdržíte podrobnou nabídku.'
+  actions:
+    - text: Identita značky
+      href: /cs/about/identity

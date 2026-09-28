@@ -1,0 +1,109 @@
+meta:
+  title: 'Výrobní proces — od suroviny po SUP'
+  description: 'Od suroviny po SUP připravenou k vyplutí: každý krok výrobního procesu Vatrad pod naší kontrolou, od řezání a svařování po testování.'
+  dateModified: '2026-08'
+  keywords:
+    - 'výrobní proces sup'
+    - 'továrna nafukovacích sup'
+    - 'kroky výroby paddle boardů'
+    - 'svařování pvc sup'
+hero:
+  tagline: Proces
+  title: Výrobní proces
+  subtitle: Od suroviny po SUP připravenou k vyplutí — každý krok pod naší kontrolou
+  back_label: Zpět na továrnu
+  back_link: /cs/factory
+
+answer:
+  label: 'Přímá odpověď'
+  text: 'Desky procházejí pěti řízenými fázemi: kontrolou materiálu (1–2 dny), automatickým CNC řezáním (odpad pod 5 %, 2–4 hodiny na sadu), tepelným spojováním bočnic se švy zesílenými vysokofrekvenčním svařováním (1–2 dny na desku), spojením jádra drop-stitch a závěrečnou montáží s 100% zkouškou nepropustnosti a zatížení před zabalením.'
+  verified: 'září 2026'
+
+intro: Na rozdíl od značek, které výrobu outsourcují do závodů třetích stran, Vatrad vlastní a provozuje celý výrobní řetězec. Tato vertikální integrace nám dovoluje udržet přísnou kontrolu kvality v každé fázi, rychle reagovat na individuální požadavky a opakovaně dodávat stejnou kvalitu výrobku. Takto se v našem závodě staví deska SUP.
+
+steps:
+  - step: '01'
+    title: Příjem a kontrola materiálu
+    description: Každá přijímaná dávka tkaniny PVC, skelného plátna, pryskyřice a hardwaru se zkontroluje proti specifikaci. Vzorky tkaniny se před uvolněním do výroby podrobí zkoušce pevnosti v tahu, rovnoměrnosti tloušťky a odolnosti vůči UV záření. Nevyhovující materiál se izoluje a vrací.
+    duration: 1–2 dny
+  - step: '02'
+    title: Automatické řezání PVC
+    description: <p>Schválené tkaniny se ukládají na automatický CNC řezací stroj a řežou s přesností na setiny milimetru. Počítačově optimalizované rozvržení rozmísťuje dílce tak, aby minimalizovalo odpad — typicky pod 5 %. Vystřižené díly se označí podle modelu SUP a komory a poté se svážou do balíků pro předání do svařovací dílny.</p>
+    duration: 2–4 hodiny na sadu desky
+  - step: '03'
+    title: Tepelné spojování a svařování bočnic
+    description: Dílce se přichytávají a spojují na strojích pro tepelné svařování, a to horkovzdušným svařováním při řízených teplotách 200–300 °C. Hlavní švy se zesilují vysokofrekvenčním dielektrickým svařováním, aby vznikly nepropustné a mimořádně pevné spoje. Hotové komory se dofukují na 18,0 PSI pro úvodní kontrolu nepropustnosti před 24hodinovým udržením tlaku.
+    duration: 1–2 dny na desku SUP
+  - step: '04'
+    title: Spojení jádra drop-stitch
+    description: Jádra drop-stitch desek SUP se k vnějším vrstvám PVC připojují tepelnou laminací. Horní a spodní vrstvu spojuje několik tisíc vnitřních polyesterových nití, které vytvářejí tuhou konstrukci při 12–15 PSI. Boční výztuhy se spojují ve třech vrstvách, což zajišťuje pevnost okraje.
+    duration: 1–2 dny na desku
+  - step: '05'
+    title: Potisk a dekorace SUP
+    description: Grafika na palubě desky SUP se nanáší digitálním tiskem pro plnobarevné návrhy v kvalitě fotografie a sítotiskem pro odolná loga a opakující se vzory. Potisk se vytvrzuje a přelakuje, aby odolával UV záření a opotřebení.
+    duration: 1–2 dny
+  - step: '06'
+    title: Konečná montáž a osazení
+    description: Ventily, D-kroužky, madla, držáky žebra a palubní podložky se montují na montážní lince. Každá deska prochází kontrolním listem montáže o 100 bodech s povinným podpisem v každé fázi.
+    duration: 1–2 dny
+  - step: '07'
+    title: Zkoušení a kontrola kvality
+    description: 'Každá hotová deska podléhá povinné kontrolní fázi: zkoušce nepropustnosti komory, kontrole funkce hardwaru, ověření utahovacího momentu spojů a vizuální kontrole. Individuální a prototypové výrobky navíc absolvují zkoušky na vodě zahrnující stabilitu a ovladatelnost.'
+    duration: 1–2 dny
+  - step: '08'
+    title: Balení a expedice
+    description: Desky se vypustí, složí podle postupu, zabalí do odolných tkaných pytlů nebo maloobchodních krabic a připraví k odeslání. Každý balík je označen modelem, sériovým číslem a cílem. Spolupracujeme s dopravci na celokonténerových (FCL) i sdružených (LCL) zásilkách po celém světě.
+    duration: 1 den
+
+evidence_gates:
+  tagline: Důkazy z kontrol
+  title: 'Každá fáze zanechává záznam — fotografie a protokoly'
+  subtitle: 'Níže jsou skutečné kontrolní fotografie a sady zkušebních protokolů z našich sedmi řízených fází kontroly kvality. Každý PDF je skutečný dvojjazyčný dokument, který si můžete stáhnout a prověřit — stejné záznamy, na které se opírá každá dávka v 10letém archivu vysledovatelnosti ERP. Úplné schéma 7 fází najdete na stránce /cs/quality.'
+  items:
+    - title: 'PPM — plánování kvality projektu'
+      description: 'Schůzka před spuštěním výroby uzavře rozsah, zlatý vzorek a Plán kontroly kvality ještě před startem linky. Nevyřešené body blokují uvolnění do výroby.'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_SUP_OEM_QIP.pdf
+      link_label: 'Stáhnout QIP (PDF)'
+      image: https://assets.isupfactory.com/site/quality/node01-ppm.avif
+      alt: Schůzka před výrobou, na níž se posuzuje zlatý vzorek a plán kontroly kvality pro objednávku OEM SUP
+    - title: 'IQC — vstupní kontrola materiálu'
+      description: 'Každá přijímaná dávka PVC, tkaniny a hardwaru se prověří proti schválené specifikaci. Nevyhovující dávky se izolují a odmítnou ještě před uvolněním na linku.'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_IQC_TEST_REPORTS.pdf
+      link_label: 'Stáhnout protokoly IQC (PDF)'
+      image: https://assets.isupfactory.com/site/quality/node02-iqc.avif
+      alt: Vstupní kontrola tkaniny PVC a součástek SUP v závodě
+    - title: 'IPQC / FAI — kontrola během výroby'
+      description: 'První kus se ověří proti uzavřeným výchozím hodnotám a každá směna vede obchůzkové kontroly na lince. Schválení FAI verzně uzavírá grafiku, rozměry a kusovník.'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_IPQC_TEST_REPORTS.pdf
+      link_label: 'Stáhnout protokoly IPQC (PDF)'
+      image: https://assets.isupfactory.com/site/quality/node03-ipqc-fai.avif
+      alt: Kontrola během výroby a kontrola prvního kusu při výrobě SUP
+    - title: 'Dofukování a zkouška nepropustnosti'
+      description: '100 % hotových desek — nikoli vzorek — absolvuje 24hodinové udržení tlaku při 18,0 PSI s automatickým odmítnutím při poklesu nad 0,50 PSI. Jeden záznam na komoru.'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_AIRTIGHTNESS_TEST_REPORTS.pdf
+      link_label: 'Stáhnout protokoly nepropustnosti (PDF)'
+      image: https://assets.isupfactory.com/site/quality/node04-airtightness.avif
+      alt: Dofukování a zkouška nepropustnosti nafukovací komory SUP
+    - title: 'FQC — závěrečná kontrola výrobku'
+      description: 'Hotové desky se měří proti tolerancím z výkresu a vizuálně se třídí pod denním světlem D65 proti schválenému zlatému vzorku.'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_FQC_TEST_REPORTS.pdf
+      link_label: 'Stáhnout protokoly FQC (PDF)'
+      image: https://assets.isupfactory.com/site/quality/node05-fqc.avif
+      alt: Závěrečná kontrola hotových desek SUP před zabalením
+    - title: 'PSI — balení a kontrola před odesláním'
+      description: 'Zabalená sada se prověří 100% proti zákazníkem schválenému kusovníku — sken čárového kódu (třída ≥ B), značení krabic a zkouška pádem ISTA-1A před naložením.'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_PSI_TEST_REPORTS.pdf
+      link_label: 'Stáhnout protokoly PSI (PDF)'
+      image: https://assets.isupfactory.com/site/quality/node06-psi.avif
+      alt: Kontrola před odesláním, při níž se zabalená sada SUP porovnává s kusovníkem
+    - title: 'Uvolnění zásilky a vysledovatelnost'
+      description: 'Kvalita podepíše dávku teprve tehdy, když jsou uzavřeny všechny šest předchozích fází. Sériová čísla se přiřadí k dávce a dokumentace se předá spolu se zásilkou.'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_SHIPMENT_RELEASE_REPORTS.pdf
+      link_label: 'Stáhnout protokoly uvolnění (PDF)'
+      image: https://assets.isupfactory.com/site/quality/node07-shipment-release.avif
+      alt: Podpis uvolnění zásilky a předání záznamu vysledovatelnosti dávky
+cta:
+  title: Prohlédněte naše stroje a zařízení
+  desc: Seznamte se s průmyslovým vybavením, které stojí za každou deskou SUP od Vatrad.
+  label: Zobrazit vybavení →
+  link: /cs/factory/equipment

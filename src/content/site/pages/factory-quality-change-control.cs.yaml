@@ -1,0 +1,349 @@
+meta:
+  title: 'Řízení změn parametrů oprav a jejich validace | iSupfactory'
+  description: 'Řízení změn parametrů oprav podle ISO 9001: ECR, klasifikace rizik, schvalovací matice, validace a opětovná kontrola při výrobě SUP.'
+  dateModified: '2026-08-14'
+  keywords:
+    - 'řízení změn při opravách sup'
+    - 'řízení změn ve výrobě podle iso 9001'
+    - 'řízení kvality oem nafukovacích sup'
+    - 'ecr engineering change request sup'
+    - 'norma pro validaci nepropustnosti'
+    - 'zabezpečení kvality továrny sup'
+
+hero:
+  tagline: Řízení změn parametrů oprav
+  title: Standard řízení změn procesních parametrů oprav a jejich validace
+  subtitle: 'V QINGDAO VATRAD GROUP.,LTD. nesmí žádný operátor, vedoucí směny ani jediné oddělení změnit schválený parametr opravy přímo na místě. Jakákoli navržená změna schválených opravných materiálů, procesních podmínek, nástrojů, zkušebních metod, kontrolních kritérií nebo oprávněných osob se řídí dokumentovaným řízením změn — žádostí o technickou změnu (ECR), posouzením dopadů a rizik, schválením napříč odděleními, plánem validace, řízenou implementací, opětovnou kontrolou a přezkoumáním účinnosti, následně uzavřením a archivací záznamů. Tato stránka představuje náš řízený standard QMS-SOP-QC-CC-001 (Rev 2.0, založený na ISO 9001:2015) a inženýrské podklady, které za ním stojí.'
+  actions:
+    - text: Stáhnout SOP řízení změn (PDF)
+      variant: primary
+      href: 'https://assets.isupfactory.com/site/downloads/rework-change-control-sop-qms-sop-qc-cc-001.pdf?dl=1'
+    - text: Stáhnout prováděcí přílohu A (PDF)
+      href: 'https://assets.isupfactory.com/site/downloads/rework-execution-annex-a-qms-sop-qc-cc-001.pdf?dl=1'
+    - text: Vyžádat posouzení kvality
+      href: /cs/contact
+
+answer:
+  label: 'Přímá odpověď'
+  text: 'Změny parametrů oprav se v QINGDAO VATRAD GROUP.,LTD. nikdy nerozhodují ústně ani zpětně. Každá navržená změna schválených opravných materiálů, procesních podmínek, vybavení, zkušebních metod, kontrolních kritérií nebo oprávněných osob musí před implementací projít formálním řízením změn: zdokumentovanou žádostí o technickou změnu (ECR), posouzením dopadů a rizik, společným posouzením oddělení Techniky, Kvality, Výroby, Nákupu a Projektu, schválením na úrovni stanovené naší schvalovací maticí, schváleným plánem validace pro změny s vysokým rizikem, řízenou pilotní implementací, opětovnou kontrolou a přezkoumáním účinnosti a uzavřením až po revizi dokumentace a školení. Jakákoli změna dotýkající se zákazníkem schválených specifikací, vzorků, kusovníků, grafiky nebo kritérií přijetí navíc vyžaduje písemný souhlas zákazníka.'
+  verified: 'září 2026'
+
+stats:
+  tagline: Na první pohled
+  title: Řízení změn v číslech
+  stats:
+    - value: '9'
+      label: Kroků uzavřeného cyklu řízení změn
+    - value: '6'
+      label: Kategorií změn vyžadujících formální řízení změn
+    - value: '4'
+      label: Základních opravných procesů s kvantifikovanými parametry
+    - value: '≥ 5'
+      label: Vzorkových desek + 2 nezávislí kontroloři QC u validace s vysokým rizikem
+
+
+cc_intro:
+  tagline: Rozsah a pravidla
+  title: Základní zásady řízení
+  body: |
+    **Dokument:** QMS-SOP-QC-CC-001 — *Standard řízení změn procesních parametrů oprav* (Rev 2.0, oficiální vydání). **Výrobce:** QINGDAO VATRAD GROUP.,LTD. **Normová reference:** systémy řízení kvality ISO 9001:2015.
+
+    - **Žádné neřízené změny.** Změny parametrů oprav musí projít formálním řízením změn. Operátoři na místě, vedoucí směny ani jediné oddělení nikdy nesmějí schválené parametry oprav měnit ústní dohodou nebo zápisem do opravnoho záznamu z volné ruky.
+    - **Pokrytí všech prvků.** Řízený rozsah zahrnuje nepropustnost, usazení ventilu, boční výztuhy, spojování švů, vytvrzování horkovzduchem a zkoušení udržením tlaku — každý parametr, který může ovlivnit těsnost, strukturální životnost, vzhled, přijetí zákazníkem nebo vysledovatelnost.
+    - **Zásada souhlasu zákazníka.** Jakákoli změna, která produkt odchýlí od zákazníkem schváleného vzorku, technické specifikace, kusovníku, grafiky, požadavku na obaly nebo kritéria přijetí, se implementuje pouze s písemným souhlasem zákazníka. Bez něj se deska opraví podle původního požadavku, nahradí nebo odmítne — nikdy se tolerance nezmírní jen z vůle závodu.
+
+cc_scope:
+  tagline: Klasifikace rizik
+  title: Rozsah změn a klasifikace rizik
+  subtitle: Kterákoli z následujících skutečností spouští formální řízení změn — nikdy se to neřeší poznámkou v opravném záznamu. Úroveň rizika určuje, kdo změnu schvaluje a jak rozsáhlá validace je nutná.
+  headers:
+    category: Kategorie změny
+    examples: Typické příklady
+    risk: Riziko
+    requirements: Požadavky na kontrolu a schválení
+  rows:
+    - category: 'Opravné materiály'
+      examples: 'Lepidlo, čisticí prostředek, materiál záplaty, těsnění ventilu, základní nátěr nebo změna dodavatele'
+      risk: 'Vysoké'
+      requirements: 'Posouzení napříč odděleními + validace kompatibility materiálu a udržení tlaku + souhlas zákazníka, kde je použitelný'
+    - category: 'Procesní podmínky'
+      examples: 'Příprava povrchu, teplota/vlhkost při vytvrzování horkovzduchem, přítlak svěráků, doba držení'
+      risk: 'Vysoké'
+      requirements: 'Schválení Techniky a Kvality s validací definovaného okna teploty a vlhkosti'
+    - category: 'Nástroje a měřidla'
+      examples: 'Manometry, detektory netěsnosti, horkovzdušné pistole, nástroje na ventily, zkušební software'
+      risk: 'Střední až vysoké'
+      requirements: 'Kontrola platnosti kalibrace + posouzení vhodnosti vybavení'
+    - category: 'Rozsah vady'
+      examples: 'Rozšíření plochy opravy; mikroskopická netěsnost povrchu přecházející do kritické zóny výztuhy, švu nebo usazení ventilu'
+      risk: 'Vysoké'
+      requirements: 'Nosné konstrukční plochy: povinné zastavení a nové posouzení'
+    - category: 'Kontrolní metody'
+      examples: 'Metoda detekce netěsnosti, zkušební tlak (18,0 PSI), doba udržení (24 h)'
+      risk: 'Vysoké'
+      requirements: 'Schválení Kvality + potvrzení technické dohody se zákazníkem'
+    - category: 'Dokumentace a oprávnění'
+      examples: 'Opravný pokyn, kontrolní listy, logika rozhodování NCR, kvalifikace operátora'
+      risk: 'Střední'
+      requirements: 'Řízená revize dokumentu (Rev A → Rev B) + záznamy o školení'
+
+cc_containment:
+  tagline: Pravidlo tvrdého zastavení
+  title: Okamžité zadržení, když se podmínky zhorší
+  body: |
+    > "Dosud používaná metoda opravy se musí dát do přezkumu a nesmí se používat na další dotčené výrobky, dokud změna neposoudí a neautorizuje — výjimkou je zdokumentované dočasné odchylky schválené Kvalitou a Technikou."
+
+    Současnou metodu opravy je nutné okamžitě pozastavit, když opětovná kontrola oprav opakovaně nevyhovuje, když vada zasahuje do konstrukčně nosných zón (patice ventilu, výztuhy, švy, oblast tlaku na nose a patě), když náhradní materiál ještě není validovaný nebo když současné parametry odporují zákazníkem schválené specifikaci.
+
+    Dočasné odchylky se nikdy nestávají trvalou praxí: každá z nich má definované období platnosti, rozsah použitelných dávek, strop množství, validační požadavky a automatické ukončení platnosti. Ústná výjimka není výjimka — pokud není zdokumentovaná s vlastním termínem platnosti, neexistuje.
+
+cc_flow:
+  tagline: Standardní uzavřený cyklus o 9 krocích
+  title: Od žádosti o změnu po uzavření a archivaci
+  subtitle: 'Jeden zdokumentovaný cyklus pro každou změnu parametru: návrh, třízení, posouzení, schválení, validace, pilot, ověření, revize, uzavření.'
+  steps:
+    - step: '01'
+      title: Žádost o změnu (ECR)
+      desc: 'Žádost může podat kterékoli oddělení, ale vlastníkem je vedení Techniky, Kvality nebo Výroby. ECR odpovídá na otázky, proč se změna navrhuje, co se mění, čeho se dotkne a jak bude ověřena — včetně čísla řízení změn, souvisejícího NCR/CAPA, současného a navrženého parametru, dotčených dávek a klasifikace dočasné/trvalé.'
+    - step: '02'
+      title: Úvodní posouzení a zadržení
+      desc: 'Žádost se nejprve posoudí z hlediska okamžitého zadržení: musí se současná metoda zastavit ihned? Pokud je dočasná odchylka povolena, je ohraničena obdobím platnosti, rozsahem dávek, stropem množství a automatickým ukončením platnosti.'
+    - step: '03'
+      title: Posouzení dopadů a rizik
+      desc: 'Technika, Kvalita, Výroba, Nákup/Řetěz dodávek a Projekt posuzují výkonnost výrobku, kritéria přijetí, kompatibilitu materiálu, vzhled, schopnost procesu, vybavení a měřidla, kvalifikaci personálu, požadavky zákazníka, soulad s předpisy a rozsah vysledovatelnosti.'
+    - step: '04'
+      title: Společné posouzení a schválení
+      desc: 'Schválení se řídí pevně stanovenou schvalovací maticí — nikoli pravidlem „kdo nejvíc mluví“. Změny s vysokým rizikem vyžadují schválení napříč odděleními a tam, kde je to nutné, i písemný souhlas zákazníka ještě před jakýmkoli pokusem.'
+    - step: '05'
+      title: Plán validace
+      desc: 'U změn s vysokým rizikem je nutné mít schválený plán validace ještě před běžným použitím: reprezentativní vzorkové desky, srovnání současné a navržené metody, zkušební metody, kritéria přijetí, kontrolní fáze, odpovědné osoby a termín.'
+    - step: '06'
+      title: Řízený pilot a implementace
+      desc: 'Nové dokumenty se vydávají a staré verze se stahují a označují jako ZRUŠENO; nové materiály a měřidla se ověřují a kalibrují; operátoři jsou proškoleni a kvalifikováni; první dávka běží pod přísnější kontrolou s jasným označením stavu.'
+    - step: '07'
+      title: Opětovná kontrola a přezkoumání účinnosti
+      desc: 'Než lze změnu považovat za účinnou, změří se a posoudí podíl oprav přijatých na první pokus, podíl úspěšných opětovných kontrol, míru opakování a přijatelnost vzhledu — jedna opravená deska se nikdy nepovažuje za validaci procesu.'
+    - step: '08'
+      title: Revize dokumentů a školení
+      desc: 'Pracovní pokyny, kontrolní listy, varianty rozhodování u NCR, karty parametrů a školící materiály se aktualizují na novou revizi se zdokumentovaným praktickým školením a kvalifikací operátora.'
+    - step: '09'
+      title: Uzavření a archivace záznamů
+      desc: 'Změna se uzavře až poté, co se posoudí a schválí validační podklady, aktualizace dokumentace, záznamy o školení a účinnost implementace. Pokud zamýšleného výsledku není dosaženo, změna se reviduje, prodlužuje, pozastavuje nebo stahuje.'
+
+cc_approval:
+  tagline: Schvalovací matice
+  title: Schvalovací matice napříč odděleními
+  subtitle: 'Pevná schvalovací tabulka brání rozhodování podle momentálního cítu: každý typ změny má předepsané schvalující osoby, od upřesnění formulace v dokumentu až po souhlas zákazníka.'
+  headers:
+    change: Obsah změny
+    engineering: Technika
+    quality: Kvalita
+    production: Výroba
+    procurement: Nákup
+    project: Projekt / Obchod
+    customer: Zákazník
+  rows:
+    - change: 'Upřesnění formulace dokumentu (bez dopadu na parametry)'
+      engineering: Posouzení
+      quality: 'Schválí'
+      production: Oznámit
+      procurement: '—'
+      project: '—'
+      customer: '—'
+    - change: 'Úprava pořadí operací při opravě'
+      engineering: 'Schválí'
+      quality: 'Schválí'
+      production: Paralelní podpis
+      procurement: '—'
+      project: Oznámit
+      customer: Podle potřeby
+    - change: 'Nová kvalifikace operátora oprav'
+      engineering: Posouzení
+      quality: 'Schválí'
+      production: 'Schválí'
+      procurement: '—'
+      project: '—'
+      customer: '—'
+    - change: 'Změna nástrojů / zkušebního vybavení'
+      engineering: 'Schválí'
+      quality: 'Schválí'
+      production: Paralelní podpis
+      procurement: Podle potřeby
+      project: '—'
+      customer: Podle potřeby
+    - change: 'Náhradní opravný materiál / dodavatel'
+      engineering: 'Schválí'
+      quality: 'Schválí'
+      production: Paralelní podpis
+      procurement: Paralelní podpis
+      project: Oznámit
+      customer: Může být nutný
+    - change: 'Změna parametru tlaku / držení / vytvrzování'
+      engineering: 'Schválí'
+      quality: 'Schválí'
+      production: Paralelní podpis
+      procurement: '—'
+      project: Oznámit
+      customer: Pokud to projekt vyžaduje
+    - change: 'Změna metody opravy výztuhy / švu / usazení ventilu'
+      engineering: 'Schválí'
+      quality: 'Schválí'
+      production: Paralelní podpis
+      procurement: Podle potřeby
+      project: Oznámit
+      customer: Obvykle doporučeno
+    - change: 'Změna specifikace zákazníka, schváleného vzorku nebo kritéria přijetí'
+      engineering: 'Schválí'
+      quality: 'Schválí'
+      production: Paralelní podpis
+      procurement: '—'
+      project: Paralelní podpis
+      customer: 'Písemný souhlas povinný'
+
+cc_validation:
+  tagline: Inženýrská validace
+  title: Protokol validace a přijetí — podklady místo tvrzení
+  body: |
+    Nejednoznačné formulace přijetí typu *"opravená deska musí být v pořádku"* nepřijímáme. Řízená formulace zní:
+
+    > "Opravený vzorek musí splňovat stejná použitelná kritéria nepropustnosti, vizuální zpracování, funkčnosti ventilu a projektová kritéria přijetí jako vyhovující deska, pokud zákazníkem schválená odchylka výslovně neurčuje alternativní kritérium."
+
+    Validační podklady jsou kvantitativní a inženýrská výchozí hodnota pro opravy nepropustnosti zahrnuje:
+
+    - **Odstranění netěsnosti a udržení tlaku.** Původní netěsnost se odstraní bez trvalého bublání při detekci v mýdlové vodě; deska udrží standardní zkušební tlak 18,0 PSI po dobu 24 hodin, přičemž čistý pokles tlaku ΔP ≤ 0,2 PSI po teplotní a vlhkostní kompenzaci — jde o tužší výchozí hodnotu pro validaci oprav, odlišnou od prahu automatického odmítnutí 0,50 PSI uplatňovaného při závěrečném přijetí na výrobní lince.
+    - **Funkčnost ventilu.** Utahovací moment jádra ventilu odpovídá specifikaci 15–20 N·m, bez mikroskopické netěsnosti na těsnění při dofukování vysokým tlakem a dynamickém stlačování.
+    - **Spojování švů a životnost.** Na okrajích spoje se neobjeví nadzvednutí, bělení ani delaminace; po cyklech stárnutí v teple a vlhku nevykazuje lepidlová vrstva změkčení ani křehké praskání.
+    - **Vzhled a zpracování.** Bez steků lepidla, bez poškození EVA, bez zkroucení desky a bez posunu loga či škrábanců na potištěném povrchu.
+
+cc_engineering:
+  tagline: Matice inženýrského provádění
+  title: Kvantifikované parametry čtyř základních opravných procesů
+  subtitle: 'Každý řízený opravný proces má definované parametry, metodiku a kritéria přijetí — stejné hodnoty, kterými se řídí naši operátoři a které si mohou zákazníci při auditech ověřit.'
+  headers:
+    process: Opravný proces
+    parameters: Řízené parametry
+    methodology: Zkušební metodika
+    acceptance: Kritéria přijetí
+  rows:
+    - process: 'Oprava bodového otvoru / mikroskopické netěsnosti'
+      parameters: 'Očištění rozpouštědlem a sušení 3–5 min; aktivace horkým vzduchem 60 °C ± 5 °C; přítlak válce ≥ 0,4 MPa'
+      methodology: 'Dofukování na 18 PSI; úplné ponoření do vody nebo potření mýdlovou vodou; pozorování po dobu 10 minut'
+      acceptance: 'Nulový vývoj bublinek; odtrh okraje o 180° bez nadzvednutí a bez steků lepidla'
+    - process: 'Opětovné spojení boční výztuhy / švu'
+      parameters: 'Přísně kontrolovaný poměr dvousložkového lepidla; prostředí 22–28 °C, relativní vlhkost ≤ 65 %; svěrák po dobu ≥ 4 h'
+      methodology: 'Zkouška přetlakem 22 PSI po dobu 2 h; následně 6 h v sušárně při 50 °C a 2 h odpočinku při pokojové teplotě'
+      acceptance: 'Žádné oddělení ani praskliny; čistý pokles tlaku ΔP ≤ 0,1 PSI; lepidlová vrstva bez bělení a křehnutí'
+    - process: 'Uvolněná patice ventilu / mikroskopická netěsnost'
+      parameters: 'Moment specializovaného klíče 18–20 N·m; těsnicí podložka v ploše bez deformace; potvrzena čistota závitů'
+      methodology: 'Dofukování na 15 PSI; 20 cyklů dofukování a vypouštění; pozorování při ponoření pod vodu'
+      acceptance: 'Nulové bublinky u jádra ventilu a na obvodu patice; moment po cyklech ≥ 16 N·m'
+    - process: 'Závěrečná 24hodinová zkouška udržení tlaku'
+      parameters: 'Referenční dofukování 18,0 PSI; digitální tlakoměr třídy 1,0 / ±0,5 %; okolní teplota a vlhkost se zaznamenávají a kompenzují'
+      methodology: 'Digitální záznamník tlaku; průběžná 24hodinová křivka tlaku'
+      acceptance: 'Čistý pokles tlaku ΔP ≤ 0,20 PSI / 24 h po kompenzaci; žádné vyboulení ani deformace desky'
+
+cc_photos:
+  tagline: Na výrobní ploše
+  title: Opravit, přezkoušet, uvolnit — zdokumentováno v každém kroku
+  subtitle: Fotografie z naší dílny v Qingdao ukazují každý řízený opravný proces s kalibrovanými měřidly, definovanými parametry a záznamy na místě — stejné podklady, které si inspektor může kdykoli vyžádat.
+  grid: 'sm:grid-cols-2'
+  features:
+    - image: https://assets.isupfactory.com/site/quality/cc-pinhole-repair.avif
+      alt: Technik opravuje bodový otvor na nafukovací desce SUP horkovzdušnou pistolí a tlakovým válcem
+      title: Oprava bodového otvoru
+      desc: 'Technik ošetří označenou mikroskopickou netěsnost horkovzdušnou pistolí nastavenou na specifikaci 60 °C a tlakovým válcem; mýdlová voda potvrdí místo netěsnosti a na pracovním stole je vidět ECR lístek podepsaný QC, který dokládá bránu řízení změn (Poka-Yoke č. 1).'
+    - image: https://assets.isupfactory.com/site/quality/cc-rail-seam-bonding.avif
+      alt: Technik nanáší dvousložkové PU lepidlo na šev boční výztuhy precizním štětcem v řízeném klimatu
+      title: Spojování švu boční výztuhy
+      desc: 'Dvousložkové PU lepidlo se nanáší na šev boční výztuhy precizním štětcem, zatímco deska je upevněna ve svěráku; na místě je teploměr a vlhkoměr ukazující řízené okno 24 °C / 55 % RH.'
+    - image: https://assets.isupfactory.com/site/quality/cc-valve-base-integrity.avif
+      alt: Digitální momentový klíč nastavený na 19 N·m při utahování jádra ventilu proti materiálu drop-stitch
+      title: Integrita patice ventilu
+      desc: 'Digitální momentový klíč nastavený na specifikaci 19 N·m provádí konečné utažení jádra ventilu a utěsní patici proti materiálu drop-stitch — na měřidle je zelený štítek KALIBROVÁNO.'
+    - image: https://assets.isupfactory.com/site/quality/cc-pressure-hold-testing.avif
+      alt: Hotové nafukovací desky SUP připojené k digitálním záznamníkům tlaku v závěrečné zkušební oblasti
+      title: Závěrečné zkoušení udržením tlaku
+      desc: 'Hotové desky se připojí k přesným digitálním záznamníkům tlaku; hlavní tlakoměr ukazuje referenční 18,00 PSI a všechna zkušební data se automaticky nahrávají a propojují se smluvním systémem vysledovatelnosti.'
+
+cc_pokayoke:
+  tagline: Ochrana proti chybám
+  title: 'Poka-Yoke: tvrdé blokace, které zastaví neřízenou změnu'
+  subtitle: Standard se vynucuje nejen postupy, ale i fyzickými a systémovými blokacemi, které neřízenou změnu jednoduše znemožní provést.
+  features:
+    - icon: 1
+      icon_bg: blue
+      title: ECR brána pro odblokování nástrojů
+      desc: 'Opravná pracoviště načtou čárový kód ECR podepsaný QA, než se odblokují pneumatické dofukovací ventily a míchačky lepidla. Bez schváleného záznamu řízení změn není možné zásobování — zpětný podpis („nejprve změna, pak podpis“) je fyzicky blokován.'
+    - icon: 2
+      icon_bg: green
+      title: Automatické ukončení dočasné odchylky
+      desc: 'Dočasné odchylky mají v systému stanovený tvrdý strop (například nejvýše 50 desek nebo 7 kalendářních dnů). Po dosažení stropu se dávka zamkne a tisk průchodného štítku zásilky se zablokuje, dokud změna nebude formálně posouzena.'
+    - icon: 3
+      icon_bg: purple
+      title: Minimální validační podklady
+      desc: 'Změny s vysokým rizikem vyžadují alespoň 5 reprezentativních vzorkových desek pokrývajících horní a dolní mez tolerance, plně zkontrolovaných 2 nezávislými kontrolory QC, než lze vydat validační zprávu — jedna opravená deska se nikdy nepovažuje za validaci procesu.'
+    - icon: 4
+      icon_bg: orange
+      title: Řízení dokumentů 1-In-1-Out
+      desc: 'Zastaralé karty pracovišť se fyzicky vyberou a zruší (děrovaním), teprve poté se vydá nová karta s razítkem řízené červené pečetě — stará a nová verze nikdy nesdílejí jedno pracoviště.'
+
+cc_downloads:
+  tagline: Ke stažení dokumentace QMS
+  title: Řízené dvojjazyčné dokumenty (PDF)
+  subtitle: Úřední dvojjazyčné dokumenty EN/ZH společnosti QINGDAO VATRAD GROUP.,LTD. — připravené pro audity zákazníků, technické B2B dokumenty a řízenou distribuci na díle.
+  features:
+    - icon: S
+      icon_bg: blue
+      title: SOP řízení změn při opravách (PDF)
+      desc: 'QMS-SOP-QC-CC-001 Rev 2.0: tabulka klasifikace změn, schvalovací matice napříč odděleními, inženýrské validační parametry, červené hranice zadržení a bloky podpisů kvality.'
+      link: 'https://assets.isupfactory.com/site/downloads/rework-change-control-sop-qms-sop-qc-cc-001.pdf?dl=1'
+      link_label: Stáhnout PDF
+    - icon: A
+      icon_bg: green
+      title: Prováděcí příloha A (PDF)
+      desc: 'Datové schéma ECR, kvantifikovaná inženýrská matice provádění pro čtyři základní opravné procesy, logika blokací Poka-Yoke a blok podpisů při uvolnění třemi stranami.'
+      link: 'https://assets.isupfactory.com/site/downloads/rework-execution-annex-a-qms-sop-qc-cc-001.pdf?dl=1'
+      link_label: Stáhnout PDF
+    - icon: R
+      icon_bg: purple
+      title: Řízené řízení oprav (stránka)
+      desc: 'Doplňková stránka k systému oprav nepropustnosti: klasifikace vad A–G, schválené karty metod MC-RW-01 až MC-RW-06 a 7krokový řízený pracovní postup oprav.'
+      link: '/cs/factory/quality-inspection'
+      link_label: Zobrazit stránku
+    - icon: N
+      icon_bg: orange
+      title: Řízení nevyhovujících výrobků (stránka)
+      desc: 'Řízení nevyhovujících výstupů podle části 8.7 normy ISO 9001:2015: evidence NCR, karanténa, pravomoc k rozhodnutí podle závažnosti, řízená oprava podle pokynů SRI, nezávislá opětovná kontrola a protokol zničení za dohledu.'
+      link: '/cs/factory/non-conforming-control'
+      link_label: Zobrazit stránku
+
+faqs:
+  tagline: FAQ
+  title: Často kladené otázky o řízení změn při opravách
+  items:
+    - q: 'Může závod změnit parametry oprav, aniž by nás informoval?'
+      a: 'Ne. Jakákoli navržená změna schválených opravných materiálů, procesních podmínek, nástrojů, zkušebních metod, kontrolních kritérií nebo oprávněných osob musí nejprve projít zdokumentovaným řízením změn. Změny dotýkající se zákazníkem schválených specifikací, vzorků, kusovníků, grafiky nebo kritérií přijetí vyžadují písemný souhlas zákazníka.'
+    - q: 'Co se považuje za změnu s vysokým rizikem?'
+      a: 'Za změnu s vysokým rizikem se považují změny opravných materiálů nebo dodavatelů, podmínek tlaku, držení a vytvrzování, metod opravy ventilu, výztuhy či švu, kontrolních nebo přijímacích kritérií a rozšíření rozsahu vady do konstrukčních zón. Vyžadují posouzení napříč odděleními, schválený plán validace a řízenou pilotní implementaci před běžným použitím.'
+    - q: 'Lze dočasnou odchylku používat neomezeně?'
+      a: 'Ne. Každá dočasná odchylka má definované období platnosti, rozsah dávek, strop množství a validační požadavky, včetně automatického ukončení platnosti. Po dosažení stropu se dávka zamkne a tisk průchodného štítku se zablokuje, dokud změna nebude formálně posouzena.'
+    - q: 'Jak se prokáže, že nová metoda funguje, ještě před plným použitím?'
+      a: 'Změny s vysokým rizikem vyžadují plán validace: alespoň 5 reprezentativních vzorkových desek pokrývajících meze tolerance, otestovaných 2 nezávislými kontrolory QC proti kvantifikovaným kritériím přijetí (odstranění netěsnosti, udržení tlaku, funkčnost ventilu, životnost švu, vzhled). Schválení k validaci není schválením k použití.'
+    - q: 'Musíme schvalovat každou změnu?'
+      a: 'Ne každou, ale jakákoli změna, která produkt odchýlí od zákazníkem schváleného vzorku, technické specifikace, kusovníku, grafiky, obalů nebo kritérií přijetí, se implementuje pouze s písemným souhlasem zákazníka. Bez něj se desky opraví podle původního požadavku, nahradí nebo odmítnou.'
+    - q: 'Co se stane se starými dokumenty po schválení změny?'
+      a: 'Staré pracovní pokyny, karty parametrů a kontrolní listy se fyzicky vyberou a zruší (1-In-1-Out), označí jako ZRUŠENO a po školení nahradí novou řízenou revizí. Stará a nová verze nikdy nesdílejí jedno pracoviště.'
+    - q: 'Jak dlouho se uchovávají záznamy řízení změn?'
+      a: 'Záznamy o uzavření — validační podklady, revize dokumentů, záznamy o školení a přezkoumání účinnosti — se uchovávají podle naší politiky archivace záznamů (minimálně 3 roky pro záznamy o uzavření), tak aby každá změna zůstala vysledovatelná pro audity a přezkoumání vysledovatelnosti.'
+
+cta:
+  title: Potřebujete dokumenty řízení změn pro svůj audit?
+  desc: 'Stáhněte si dvojjazyčnou SOP řízení změn a prováděcí přílohu A, nebo si pro svůj projekt OEM/ODM vyžádejte anonymizovanou ukázku naší šablony ECR a plánu validace.'
+  actions:
+    - text: Vyžádat posouzení kvality
+      variant: primary
+      href: /cs/contact
+    - text: Stáhnout SOP řízení změn (PDF)
+      href: 'https://assets.isupfactory.com/site/downloads/rework-change-control-sop-qms-sop-qc-cc-001.pdf?dl=1'
+    - text: Stáhnout prováděcí přílohu A (PDF)
+      href: 'https://assets.isupfactory.com/site/downloads/rework-execution-annex-a-qms-sop-qc-cc-001.pdf?dl=1'

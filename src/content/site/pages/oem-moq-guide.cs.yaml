@@ -1,0 +1,170 @@
+meta:
+  title: 'Průvodce MOQ pro SUP: flexibilní branding a minimální objednávkové množství'
+  description: 'Jak se počítá MOQ nafukovacích SUP: 150m role drop-stitch vydá 90–100 desek, spolupráce na značce od 5–10 kusů a transparentní poplatky za formy.'
+  dateModified: '2026-08-14'
+  keywords:
+    - 'MOQ SUP'
+    - 'minimální objednávkové množství nafukovací SUP'
+    - 'program SUP spolupráce na značce'
+    - 'malá dávka SUP'
+    - 'MOQ paddle boardu na míru'
+    - 'továrna OEM SUP Čína'
+
+hero:
+  tagline: 'Transparentně a podle projektu'
+  title: 'Průvodce flexibilním brandingem a MOQ při výrobě'
+  subtitle: 'Pochopte fyziku surového drop-stitch materiálu, která určuje sériové výrobní dávky SUP — a jak náš nízkoprahový program spolupráce na značce funguje pro provozovatele půjčoven, kluby, resorty a rostoucí značky vodních sportů. Vyvinuto a provozováno Qingdao Vatrad Group Co., Ltd.'
+
+answer:
+  label: 'Přímá odpověď'
+  text: 'MOQ není jedno číslo platné pro všechny případy. Každé MOQ se potvrzuje podle konfigurace projektu: tvaru trupu a nástroje, barevných kombinací a PVC, náročnosti grafiky, obalů a skladu příslušenství. Plně na míru šitá sériová výroba běží po 90–100 kusech na dávku ze standardní 150m role drop-stitch tkaniny; malá dávka ve spolupráci na značce začíná na 5–10 kusech; a každý projekt se člení do tří samostatných fází — vývoj vzorku (1–2 kusy), pilotní objednávka (20–50 kusů) a sériová výroba (90–100+ kusů). Přesný výpočet pro vaši kombinaci SKU potvrdíme před nabídkou — žádné vágní sliby „nízkého MOQ“ a žádné skryté kompromisy.'
+  verified: 'září 2026'
+
+moq_principle:
+  tagline: Inženýrská logika
+  title: 'Proč je standardní sériové MOQ 90–100 kusů: fyzika role suroviny'
+  subtitle: 'Velikosti výrobních dávek nejsou libovolná čísla stanovená obchodním oddělením — určují je délky rolí surové drop-stitch tkaniny a fyzika přestavěk na lince.'
+  body: |
+    **Výchozí surovina — 150 metrů tkaniny.** Drop-stitch tkanina s vysokou pevností osnovy se vyrábí a potahuje na nepřetržitých hlavních rolích. Standardní délka průmyslové role pro jednu dávku je 150 metrů nepřetržitého materiálu.
+
+    **Výpočet výtěžnosti (90 až 100 desek).** U standardního touringového nebo all-around trupu SUP (10 ft 6 in až 11 ft 6 in) dává plná hlavní role o délce 150 m přibližně 90 až 100 hotových paddle boardů.
+
+    **Politika bez spojů tkaniny.** Plné role tkaniny zajišťují úplnou strukturální kontinuitu — žádné příčné spojování tkaniny s vysokým rizikem a rovnoměrné napnutí vláken na horní i spodní ploše desky.
+
+    **Tepelná a adhezní kalibrace.** Automatizované vysokofrekvenční svařování horkým vzduchem a laminovací linky s mořským lepidlem vyžadují 2 hodiny předehřevu, teplotní profilování a kalibraci tlaku. Plná dávka 90–100 kusů tyto pevné náklady na nastavení rozloží a dosáhne tak nejnižší možné jednotkové ceny.
+
+moq_tiers:
+  tagline: Dvě cesty k vaší značce
+  title: 'Plně na míru objemová OEM vs malá dávka ve spolupráci na značce'
+  subtitle: 'Jeden závod, dva vstupní body: plně na míru hromadná výroba pro etablované řady a nízkoprahový program spolupráce na značce pro kluby, půjčovny a rostoucí značky.'
+  features:
+    - icon: P
+      icon_bg: blue
+      title: 'Plně na míru objemová OEM — 90–100 kusů na dávku'
+      desc: 'Určeno standardní délkou 150m role vysoce kvalitní surové drop-stitch tkaniny, která zajišťuje optimální využití materiálu a strukturální konzistenci. · 100% přizpůsobení: exkluzivní tvar trupu a vlastní barevné kombinace podle Pantone · Celoplošné pokrytí grafikou digitálním tiskem nebo sítotiskem · Vlastní maloobchodní obaly, potištěné krabice a značkové příslušenství · Maximální efektivita nákladů a úspory z rozsahu výroby'
+      link: '/cs/contact#custom-oem'
+      link_label: 'Zeptat se na objemovou OEM'
+    - icon: B
+      icon_bg: green
+      title: 'Malá dávka ve spolupráci na značce — pod 20 kusů'
+      desc: 'Nízkoprahové řešení postavené na našich osvědčených ročních produktových kolekcích pro kluby, půjčovny a resorty — žádná těžká zásoba. · Pevný plášť a geometrie: osvědčené tvary trupu se souladem CE / ISO 25649 · Primární identifikace: oficiální branding iSupfactory ve střední části · Sekundární vlastní branding: vaše logo na přídi nebo bočních výztuhách · 100% test celé dávky — 24hodinová zkouška tlaku a nepropustnosti'
+      link: '/cs/contact#cobranding'
+      link_label: 'Začít s malou dávkou ve spolupráci na značce'
+
+moq_fees:
+  tagline: Transparentní poplatky za sítotisk
+  title: 'Struktura poplatků za spolupráci na značce — položkově předem'
+  subtitle: 'Jasné, položkové zúčtování drobného sítotisku. Poplatky za formy se účtují jednou při prvním nastavení a u opakovaných objednávek se stejným rozměrem grafiky se neúčtují.'
+  headers:
+    fee: Položka poplatku
+    amount: Částka
+    detail: Podrobnosti
+  rows:
+    - fee: 'Poplatek za formu sítotisku (jednorázově, logo do 30 cm)'
+      amount: '$10.00 USD'
+      detail: 'Účtováno jednou při prvním nastavení; u opakovaných objednávek se stejným rozměrem grafiky se neúčtuje.'
+    - fee: 'Poplatek za formu sítotisku (jednorázově, logo do 50 cm)'
+      amount: '$15.00 USD'
+      detail: 'Účtováno jednou při prvním nastavení; u opakovaných objednávek se stejným rozměrem grafiky se neúčtuje.'
+    - fee: 'Poplatek závodu za manipulaci a přesný tisk'
+      amount: '$1.00 USD za desku'
+      detail: 'Zahrnuje ruční polohování podle souřadnic, předmytí rozpouštědlem, přenos barvy a vytvrzení zahřátím.'
+
+moq_stages:
+  tagline: Vzorek · Pilot · Objem
+  title: 'Tři samostatné objemové fáze'
+  subtitle: 'Objemy vzorků, pilotní a sériové výroby se liší. Každý projekt je zařazen do jedné ze tří samostatných úrovní, abyste nejprve ověřili a teprve poté se zavázali.'
+  steps:
+    - step: '01'
+      title: 'Vývoj vzorku (1–2 kusy)'
+      desc: 'Fyzické potvrzení tuhosti trupu, textury protiskluzové podložky EVA, přesnosti grafiky a fitu příslušenství před jakýmkoli finančním závazkem. Poplatek za vzorek se účtuje a po podpisu smlouvy se odečítá z výrobní objednávky.'
+    - step: '02'
+      title: 'Pilotní objednávka (20–50 kusů)'
+      desc: 'Předsezonní komerční testování a validace regionálního trhu s využitím existujících platforem trupu, skladových materiálů a zjednodušených obalů, aby se minimalizovala zátěž nastavení.'
+    - step: '03'
+      title: 'Sériová výroba (90–100+ kusů)'
+      desc: 'Potvrzena po uzavření kusovníku BOM, finalizaci grafiky, vlastních obalech a naplánovaných dodávkách — plné 150m role tkaniny, vlastní tkaniny dle Pantone, zákazkové obaly, množstevní slevy a stopovatelnost celého řetězce dávky.'
+
+moq_factors:
+  tagline: Co určuje vaše MOQ
+  title: 'Proč je plně na míru MOQ vždy podle projektu'
+  subtitle: 'U 100% zákazkové výroby se MOQ počítá z kompletní produktové architektury — před nabídkou se společně posoudí tyto čtyři složky.'
+  headers:
+    component: Složka projektu
+    driver: Výrobní faktor
+    impact: Vliv na minimální množství
+  rows:
+    - component: 'Tvar trupu a nástroj'
+      driver: 'Existující formy rocker v závodě oproti zákazkovým CAD řezným nástrojům a nástrojům pro lisování EVA'
+      impact: 'Existující platformy: pilotní objednávky od 20 kusů. Zákazkové trupy: nutná amortizace dedikovaného nástroje.'
+    - component: 'Barevné kombinace a PVC'
+      driver: 'Jedna standardní skladová barva oproti proprietárním deskám z PVC barveným na Pantone'
+      impact: 'Vlastní PVC v barvě Pantone vyžaduje samostatné chemické barvicí dávky s nezávislým MOQ suroviny.'
+    - component: 'Značkové obaly'
+      driver: 'Obecné krabice s barcode nálepkami oproti plnobarevným 5vrstvým maloobchodním dárkovým krabicím a značkovým manuálům'
+      impact: 'Vlastní barevné krabice mají nezávislé minimum offsetového tisku (typicky 500+ krabic).'
+    - component: 'Balíčky příslušenství'
+      driver: 'Standardní hliníková nebo nylonová pádla oproti karbonovým pádlům na míru a značkovým pumpičkám'
+      impact: 'Zcela značkové příslušenství se řídí dávkami subdodavatele v nižší úrovni.'
+
+moq_downloads:
+  tagline: Oficiální dokumenty
+  title: 'Dvojjazyčné dokumenty politiky — stažení a sdílení'
+  subtitle: 'Oficiální dokumenty od Qingdao Vatrad Group Co., Ltd., připravené k přiložení k poptávkám. Oba soubory jsou dvojjazyčné (angličtina / čínština).'
+  features:
+    - icon: G
+      icon_bg: blue
+      title: 'Průvodce flexibilním brandingem a MOQ (PDF)'
+      desc: 'Oficiální B2B průvodce (část I, DOC-MOQ-EXP-2026-EN, vydáno 14. srpna 2026): inženýrská logika výtěžnosti 150m role drop-stitch (90–100 desek), program spolupráce na značce od 5–10 kusů, transparentní poplatky za sítotisk a tři výrobní fáze.'
+      link: 'https://assets.isupfactory.com/site/downloads/flexible-branding-and-moq-guide.pdf'
+      link_label: 'Stáhnout průvodce (PDF)'
+    - icon: P
+      icon_bg: green
+      title: 'Politika flexibilního brandingu a spolupráce na značce (PDF)'
+      desc: 'Oficiální dokumentace politiky (část 1, POL-MOQ-2026-V1): pravidla malých dávek ve spolupráci na značce, rámec MOQ podle projektu, čtyři faktory určující minimální množství a společné podepsání zástupci VP Sales, hlavního inženýra a ředitele QA.'
+      link: 'https://assets.isupfactory.com/site/downloads/flexible-branding-and-moq-policy.pdf'
+      link_label: 'Stáhnout politiku (PDF)'
+
+moq_faqs:
+  tagline: FAQ
+  title: 'Často kladené otázky o MOQ'
+  items:
+    - q: 'Počítá se MOQ na objednávku, na model, nebo na barevnou kombinaci?'
+      a: 'MOQ se může vztahovat na model, barevnou kombinaci, verzi grafiky, konfiguraci obalů nebo celkovou objednávku. Protože různé tloušťky drop-stitch (12 cm oproti 15 cm) a barvy PVC pocházejí z různých rolí suroviny, objednávka 50 desek rozložených na 5 barev znamená 5 samostatných požadavků na role tkaniny. Přesný výpočet oproti vaší matici SKU potvrdíme před nabídkou, abyste mohli kombinaci plánovat přehledně.'
+    - q: 'Mohu si objednat vzorek před sériovou výrobou?'
+      a: 'Ano. Vývoj vzorku (1–2 kusy) ověří tuhost trupu, texturu protiskluzové podložky EVA, přesnost grafiky a fit příslušenství před uvolněním sériové výroby. Poplatek za vzorek se účtuje a po podpisu smlouvy se odečítá z výrobní objednávky.'
+    - q: 'Proč má vlastní maloobchodní balení nezávislé MOQ?'
+      a: 'Flexografické a offsetové tiskárny na krabice vyžadují minimální produkční dávku 500+ kusů. Nabízíme řešení Hybridní balení se skladováním: vyrobíme těch 500 vlastních potištěných krabic, přebytek uskladníme v našem čistém skladu a vydáváme je postupně s vašemi plánovanými dodávkami desek — takže i menší objednávka desek může vyrazit v plném značkovém maloobchodním balení.'
+    - q: 'Proč je standardní sériové MOQ 90–100 kusů?'
+      a: 'Standardní sériové MOQ vychází ze suroviny: hlavní role 150 m vysoce kvalitní drop-stitch tkaniny dává přibližně 90–100 hotových desek pro standardní touringový nebo all-around trup. Výroba z plných rolí odstraňuje spojování tkaniny, udržuje rovnoměrné napnutí vláken a rozloží 2hodinovou kalibraci svařovací a laminovací linky — a dosáhne tak nejnižší možné jednotkové ceny.'
+    - q: 'Sníží vyšší množství jednotkovou cenu?'
+      a: 'U většiny projektů ano. Vyšší množství zlepšuje výtěžnost materiálu, rozkládá pevné náklady na nastavení výrobní linky na více desek a snižuje jednotkové náklady na obaly.'
+    - q: 'Účtují se poplatky za formy ve spolupráci na značce znovu při opakovaných objednávkách?'
+      a: 'Ne. Poplatky za formu sítotisku se účtují jednou při prvním nastavení a u opakovaných objednávek se stejným rozměrem grafiky se neúčtují. Platíte pouze poplatek závodu za manipulaci a tisk ve výši $1.00 USD za desku.'
+    - q: 'Zavazuje mě požadavek o poradenství k MOQ k objednávce?'
+      a: 'Ne. Požadavek o poradenství k MOQ vašeho projektu pouze umožní našemu inženýrskému týmu v Qingdao Vatrad Group Co., Ltd. posoudit vaše technické zadání a doporučit nákladově nejefektivnější cestu výroby. Dojednání o mlčenlivosti (NDA) je k dispozici před sdílením proprietárních technických specifikací nebo grafiky.'
+
+evidence_review:
+  tagline: 'Důkazy a verifikace'
+  title: 'OVĚŘENÉ SPECIFIKACE'
+  body: 'Všechna tvrzení o výrobě na této stránce ověřil náš tým výrobního inženýrství v závodě Laixi u Qingdao. Certifikáty, záznamy kontrol kvality, zprávy o tlakových a konstrukčních zkouškách a záznamy o stopovatelnosti dávek jsou k dispozici na vyžádání. Specifikace naposledy ověřeny v září 2026.'
+
+cta:
+  title: 'Potřebujete poradenství k MOQ pro váš projekt SUP?'
+  subtitle: 'Sdělte nám cílový model desky, odhadovaný rozsah první objednávky a požadavky na branding. Poradíme, zda je nejvhodnějším dalším krokem cesta přes vzorek, pilotní dávku, nebo sériovou výrobu. Odesláním poptávky se nezavazujete ke konečnému objednávkovému množství — jednání o NDA je k dispozici.'
+  actions:
+    - variant: primary
+      text: Vyžádat poradenství k MOQ projektu
+      href: /cs/contact#moq-guide
+    - text: Rozpad MOQ a dodací lhůty pro SUP na míru
+      href: /cs/sup-oem-moq-lead-time
+    - text: Rozjet novou značku zkušební objednávkou
+      href: /cs/new-brand-trial-order
+    - text: Ověřit závod a systém kvality
+      href: /cs/oem-trust-assurance
+    - text: Sedmifázový systém kontrol
+      href: /cs/quality
+    - text: Přehled výroby OEM a ODM
+      href: /cs/oem-manufacturing
+    - text: Porovnání konstrukcí SUP
+      href: /cs/sup-construction-comparison

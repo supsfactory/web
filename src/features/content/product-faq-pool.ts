@@ -6,7 +6,7 @@ export interface FaqEntry {
   a: string
 }
 
-export const PRODUCT_FAQ_POOL: Record<'en' | 'es' | 'fr' | 'de' | 'it' | 'pt' | 'nl' | 'sv' | 'no' | 'pl' | 'da' | 'fi' | 'ru', FaqEntry[]> = {
+export const PRODUCT_FAQ_POOL: Record<'en' | 'es' | 'fr' | 'de' | 'it' | 'pt' | 'nl' | 'sv' | 'no' | 'pl' | 'da' | 'fi' | 'ru' | 'cs', FaqEntry[]> = {
   en: [
     {
       q: 'What is the minimum order to customize this board?',
@@ -239,6 +239,24 @@ export const PRODUCT_FAQ_POOL: Record<'en' | 'es' | 'fr' | 'de' | 'it' | 'pt' | 
     {
       q: 'Как контролируется качество перед отгрузкой?',
       a: 'Каждая доска проходит 100-пунктовый чек-лист сборки и испытание давлением 18.0 PSI в течение 24 ч перед упаковкой; изделия с падением давления более 0,50 PSI/24 ч отбраковываются автоматически.',
+    },
+  ],
+  cs: [
+    {
+      q: 'Jaké je minimální množství objednávky pro úpravu této desky?',
+      a: 'Minimální množství objednávky (MOQ) pro sériovou výrobu činí 90–100+ ks na jednu schválenou konfiguraci, s ohledem na požadavky na roli materiálu a obal, z jedné role o délce 150 m pro standardní výrobu; pilotní dávky začínají na 20–50 ks a vlastní forma vyžaduje 90–100+ ks.',
+    },
+    {
+      q: 'Jak dlouho trvá výroba vzorků a sériová výroba?',
+      a: 'Vzorky jsou připraveny za 7–12 dní; sériová výroba je dokončena za 25–35 dní po potvrzení objednávky (PO) a úhradě zálohy.',
+    },
+    {
+      q: 'Mohu změnit barvy, grafiku a logo?',
+      a: 'Ano: grafika, barvy, protiskluzová podložka EVA, logo, obal a příslušenství lze přizpůsobit na jakékoli platformě. Pošlete nám logo a ještě před výrobou připravíme vizuální náhled.',
+    },
+    {
+      q: 'Jak se kontroluje kvalita před odesláním?',
+      a: 'Každá deska projde 100bodem kontrolním seznamem montáže a zkouškou tlakem 18.0 PSI po dobu 24 h před zabalením; výrobky s poklesem tlaku více než 0,50 PSI/24 h jsou automaticky vyřazeny.',
     },
   ],
 }

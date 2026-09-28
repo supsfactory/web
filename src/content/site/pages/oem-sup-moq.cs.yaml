@@ -1,0 +1,66 @@
+meta:
+  title: "MOQ nafukovacích SUP — vysvětlení minimálního objednávkového množství"
+  description: "Přehled úrovní MOQ pro výrobu nafukovacích SUP na míru: 5–10 kusů ve spolupráci na značce, 20–50 kusů pilotně, 90–100+ kusů na roli. Rozhodovací strom podle úrovně přizpůsobení."
+  dateModified: "2026-08-20"
+
+sections:
+  - title: "Přímá odpověď"
+    directAnswer:
+      answer: "Pilotní dávky na existující platformě začínají na 20–50 kusech; standardní sériové MOQ je 90–100+ kusů na 150m roli drop-stitch (~180–220 desek)."
+      condition: "Konkrétní MOQ závisí na tvaru desky, roli materiálu, tisku, obalech a na tom, zda je potřeba nová forma."
+      value: "5–10 spolupráce na značce · 20–50 pilotně · 90–100+ na roli při sérii"
+      verifiedDate: "září 2026"
+      sourceType: "factory-record"
+    body: |
+      MOQ v iSupfactory je členěno podle úrovně přizpůsobení, nikoli jako jediná plošná hodnota.
+      Každá úroveň odpovídá konkrétnímu výrobnímu scénáři:
+
+      | Scénář | MOQ | Jednotka | Podmínka |
+      |----------|-----|------|-----------|
+      | Existující platforma, pouze překrytí logem | 5–10 ks | na návrh | Stejný tvar, stejná role materiálu, stejná barevná kombinace |
+      | Vlastní grafika / EVA / obaly na existující platformě | 20–50 ks | pilotní dávka | Stejný tvar; nová grafika vyžaduje vizuální náhled |
+      | Standardní sériová výroba (libovolná platforma) | 90–100+ ks | na 150m roli (~180–220 desek) | Na roli materiálu; více SKU = samostatné role |
+      | Nový tvar / zákazková forma | 90–100+ ks | výrobní dávka | Nástroj formy přidává 15–20 dní; jednorázový poplatek za formu |
+
+  - title: "Co se počítá jako „role materiálu“?"
+    body: |
+      150metrová role tkaniny drop-stitch vyprodukuje přibližně 180–220 desek podle
+      rozměrů desky (typicky 10–11 ft). Každé jedinečné SKU — tedy jiná velikost, kombinace
+      barev nebo materiálová specifikace — vyžaduje vlastní roli, a tedy i vlastní MOQ.
+
+      Proto se MOQ uvádí „na 150m roli“ a nikoli „na návrh“: dvě barevné kombinace
+      stejného tvaru desky jsou dvě role a dvě MOQ.
+
+  - title: "Spolupráce na značce vs pilot vs objem"
+    body: |
+      **Spolupráce na značce (5–10 ks)**: Vaše logo na existující platformě, která se již vyrábí
+      pro jinou značku. Žádné změny grafiky nad umístěním loga. Nejrychlejší cesta
+      ke značkovému vzorku.
+
+      **Pilotní dávka (20–50 ks)**: Vlastní grafika, návrh protiskluzové podložky EVA nebo obaly na
+      existujícím tvaru platformy. Vyžaduje schválení vizuálního náhledu před výrobou. Ideální
+      pro testování nového vzhledu na trhu.
+
+      **Sériová výroba (90–100+ ks na roli)**: Úplná výrobní dávka s jakoukoli kombinací
+      přizpůsobení. Toto je standardní komerční úroveň. Každá role materiálu dává ~180–220 desek.
+
+  - title: "MOQ pro zákazkovou formu"
+    body: |
+      Když váš návrh vyžaduje nový tvar desky (nikoli jen novou grafiku na existujícím
+      tvaru), musí vzniknout dedikovaná forma. Ta běží na objemové úrovni (90–100+ ks), protože
+      investice do formy vyžaduje výrobní dávku k amortizaci. Nástroj přidává 15–20 dní ke
+      standardní dodací lhůtě.
+
+      Vlastnictví formy: forma patří vám. Je uložena v našem závodě a používá se výhradně pro
+      vaše výrobní dávky.
+
+  - title: "Vzorkové objednávky"
+    body: |
+      Vzorky před sériovou výrobou jsou k dispozici v množství 1–2 kusů pro potvrzení fitu a povrchové
+      úrovně. Vyrobí se ručně podle vaší specifikace a obvykle trvají 7–12 dní. Náklad vzorku se
+      odečítá od vaší první objednávky v objemu.
+
+evidence_review:
+  tagline: 'Důkazy a verifikace'
+  title: 'OVĚŘENÉ SPECIFIKACE'
+  body: 'Všechna tvrzení o výrobě na této stránce ověřil náš tým výrobního inženýrství v závodě Laixi u Qingdao. Certifikáty, záznamy kontrol kvality, zprávy o tlakových a konstrukčních zkouškách a záznamy o stopovatelnosti dávek jsou k dispozici na vyžádání. Specifikace naposledy ověřeny v září 2026.'

@@ -1,0 +1,105 @@
+meta:
+  title: 'OEM nafukovací pádla a private label | {SITE}'
+  description: 'Výrobce nafukovacích pádel OEM/ODM: výroba pádel na míru, private label a velkoobchod. Certifikovaný závod s CE v Číně.'
+  dateModified: '2026-08-07'
+  keywords:
+    - 'oem paddle board'
+    - 'odm nafukovací sup'
+    - 'private label sup'
+    - 'výrobce pádel na míru'
+    - 'velkoobchod paddle boardů'
+    - 'profesionální dodavatel sup'
+hero:
+  tagline: 'OEM · ODM · Private Label'
+  title: 'Výroba nafukovacích pádel OEM pod Vaší značkou'
+  subtitle: 'Od nápadu po hotový výrobek: vyrobíme vaše nafukovací pádlo na míru. Logo, barvy, obaly, zákazková forma — výroba OEM/ODM v Číně, připravená pro váš trh.'
+  image:
+    src: https://assets.isupfactory.com/images/sups/products/sup-series/sup-medusa-glow-1.webp
+    alt: Nafukovací pádlo OEM na míru s logem značky
+  actions:
+    - text: 'Začít svůj projekt OEM'
+      href: /cs/contact
+
+answer:
+  label: 'Přímá odpověď'
+  text: 'Minimální objednávkové množství se potvrzuje podle konfigurace projektu: vzorek (1–2 kusy), pilotní dávka (20–50 kusů) a standardní sériová dávka (90–100+ kusů na dávku z 150m role drop-stitch), přičemž malá dávka ve spolupráci na značce začíná na 5–10 kusech. Vzorky odeíláme za 7–12 dní; sériová výroba běží 25–35 dní po objednávce a záloze. Certifikace CE pro modely na trh EU a úplná dokumentace o souladu jsou součástí každé objednávky.'
+  verified: 'září 2026'
+  image:
+    src: https://assets.isupfactory.com/images/sups/products/sup-series/sup-medusa-glow-1.webp
+    alt: Nafukovací pádlo OEM na míru s logem značky
+  actions:
+    - text: 'Začít svůj projekt OEM'
+      href: /cs/contact
+      variant: primary
+    - text: 'Prohlédnout balíčky OEM'
+      href: /cs/oem-manufacturing
+      variant: secondary
+stats:
+  - value: '25–35'
+    label: 'Dní dodací lhůta výroby'
+    detail: 'Od potvrzené objednávky a zálohy'
+  - value: '50'
+    label: 'Minimální MOQ (kusů)'
+  - value: '200+'
+    label: 'Dodaných modelů na míru'
+  - value: '100%'
+    label: 'Certifikace CE v ceně'
+features:
+  title: 'Kompletní služba OEM'
+  subtitle: 'Vše pod jednou střechou: design, prototyp, výroba, kontrola kvality a logistika.'
+  columns: 3
+  items:
+    - title: 'Design a inženýring'
+      description: '3D modelování, výběr materiálu PVC/VS2 a návrh grafiky na míru.'
+      icon: 'tabler:palette'
+    - title: 'Prototyp a validace'
+      description: 'Certifikovaný vzorek s CE a zkouškami kvality před sériovou výrobou.'
+      icon: 'tabler:flask'
+    - title: 'Sériová výroba'
+      description: 'Velkorozměrová výroba s kontrolou v průběhu a podporou při auditu závodu.'
+      icon: 'tabler:building-factory'
+    - title: 'Private Label'
+      description: 'Logo, etikety, obaly a prodejní krabice v image vaší značky.'
+      icon: 'tabler:shield-check'
+    - title: 'Certifikovaná kvalita'
+      description: 'CE / ISO / BSCI / REACH — profesionální nafukovací pádla pro globální trhy.'
+      icon: 'tabler:certificate'
+    - title: 'Globální doprava'
+      description: 'FOB Qingdao, CIF do hlavních přístavů a doručení na dveře do 50+ zemí.'
+      icon: 'tabler:world'
+faqs:
+  title: 'FAQ k výrobě pádel OEM'
+  subtitle: 'Odpovědi na nejčastější otázky značek, které si zakládají vlastní pádla.'
+  items:
+    - title: 'Jak si založit vlastní značku pádel?'
+      description: 'Uveďte svou značku: zadání, design, certifikovaný prototyp s CE, sériová výroba a dodání. Vzorky za 7–12 dní, výroba 25–35 dní od objednávky a zálohy. Prohlédněte naše balíčky OEM.'
+    - title: 'Jaká je dodací lhůta výroby?'
+      description: 'Vzorek je připraven za 7–12 dní, sériová výroba běží 25–35 dní po objednávce a záloze podle objemu.'
+    - title: 'Unese pádlo naše logo?'
+      description: 'Ano — kompletní private label: tisk loga, vlastní barvy, obaly a etikety v image vaší značky.'
+    - title: 'Mohu nakupovat ve velkém už od prvního dne?'
+      description: 'MOQ se potvrzuje podle konfigurace projektu — vzorek (1–2 kusy), pilotní dávka (20–50 kusů) a standardní sériová dávka (90–100+ kusů na dávku), s cenovými úrovněmi velkoobchodu rostoucími s objemem.'
+
+content_html: |
+  <div class="mx-auto max-w-3xl space-y-4 rounded-2xl border bg-card p-6 text-[14.5px] leading-relaxed text-fg-2">
+    <p><strong>Pokračujte ve čtení:</strong> výroba pádel a desek sdílí stejný <a href="/cs/oem-manufacturing">program OEM/ODM</a> i stejnou <a href="/cs/factory">výrobní plochu 12 500 m&sup2;</a> — jedna nabídka pokrývá obojí.</p>
+  </div>
+
+geo:
+  tagline: 'Umístění B2B'
+  sentence: 'Vatrad je profesionální výrobce nafukovacích SUP a paddle boardů (OEM/ODM) specializující se na design, výrobu na míru a řešení pro vodní sporty pro značky, distributory, kluby a firmy.'
+  audiences:
+    - 'Private label'
+    - 'Velkoobchodníci'
+    - 'Distributeři'
+    - 'Námořní centra'
+cta:
+  title: 'Oživte svou značku pádel'
+  subtitle: 'Obdržíte podrobnou nabídku OEM do jednoho pracovního dne.'
+  actions:
+    - text: 'Vyžádat nabídku OEM'
+      href: /cs/contact
+      variant: primary
+    - text: 'Stáhnout průvodce OEM'
+      href: /cs/research/oem-buyer-guide
+      variant: secondary

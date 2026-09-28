@@ -1631,6 +1631,130 @@ export const knowledge: Localized<KnowledgeArticle[]> = {
       ],
     },
   ],
+  cs: [
+    {
+      slug: 'how-custom-sup-boards-are-developed',
+      navLabel: 'Jak se vyvíjejí SUP desky na míru',
+      metaTitle: 'Jak se vyvíjejí SUP desky na míru | iSupfactory',
+      metaDescription:
+        'Jak SUP deska na míru postupuje od nápadu k továrně: specifikace, design, prototyp, vzorek a výroba — krok za krokem.',
+      kicker: 'Znalosti',
+      h1: 'Jak se vyvíjejí SUP desky na míru',
+      intro:
+        'Než se SUP deska na míru dostane k vašim zákazníkům, projde definovanou cestou vývoje. Znalost každé fáze vám pomůže správně zadat zadání továrně, stanovit realistické termíny a vyhnout se typickým chybám, které dělají noví nakupující.',
+      sections: [
+        {
+          title: 'Krok 1: Definujte požadavek',
+          body: [
+            'Každý vývojový projekt začíná scénářem použití: kdo na desce jede, kde a jak často. Deska pro pronájemní flotu se liší od desky pro uvedení značky na trh nebo školní desky — stabilita, životnost a cenové cíle se podle odpovědi posouvají.',
+            'Zapište si množství, cílovou cenu a nezbytné funkce dříve, než se obrátíte na továrnu. Jasné požadavky přinášejí přesnější první nabídku a zkracují jednání.',
+          ],
+        },
+        {
+          title: 'Krok 2: Zapište specifikaci',
+          body: [
+            'Specifikace převádí požadavek na měřitelné hodnoty: délka, šířka, tloušťka, objem, materiály (hustota drop-stitch, gramáž tkaniny), konfigurace žebra, maximální zatížení a obal.',
+            'Právě podle tohoto dokumentu obě strany počítají cenu. Změny v pozdějších fázích probíhají pomaleji a stojí více — zafixovaná specifikace je nejlevnější položkou, kterou můžete řídit.',
+          ],
+        },
+        {
+          title: 'Krok 3: Design a grafika',
+          body: [
+            'Po zafixování specifikace začíná design: úprava tvaru, barevná schémata, umístění loga, grafika podložky na palubě a výběr příslušenství (kotevní řemínek, veslo, žebro, taška).',
+            'Výrobci mohou připravit digitální makety, abyste schválili vzhled před zhotovením fyzického vzorku — je to levnější a rychlejší než iterace nad hotovými výrobky.',
+          ],
+        },
+        {
+          title: 'Krok 4: Prototyp a vzorek',
+          body: [
+            'Vzorek je prvním fyzickým potvrzením. U nafukovacích desek jde o ručně složenou desku nebo výrobek z pilotní dávky, na kterém můžete jezdit a ověřit shodu se specifikací.',
+            'Vzorek testujte stejně jako koncový uživatel: stabilita, tuhost, držení směru, hmotnost a to, jak se drží grafika. Jedno důkladné zkouškové kolo obvykle odhalí většinu problémů před sériovou výrobou.',
+          ],
+        },
+        {
+          title: 'Krok 5: Výroba a dodávka',
+          body: [
+            'Po schválení vzorku probíhá výroba po dávkách s kontrolními body kvality. Inspekce továrny před odesláním — fotografie, video nebo inspekce třetí strany — chrání šarži, kterou obdržíte.',
+            'Dobře sestavený plán projektu se počítá od plánovaného data uvedení na trh, nikoli od data objednávky.',
+          ],
+        },
+      ],
+    },
+    {
+      slug: 'inflatable-sup-construction-explained',
+      navLabel: 'Konstrukce nafukovací SUP desky',
+      metaTitle: 'Konstrukce nafukovací SUP desky: materiály a vrstvy | iSupfactory',
+      metaDescription:
+        'Z čeho se skládá nafukovací SUP deska — vrstvy PVC, tkanina drop-stitch, hrany a ukazatele kvality, — abyste přesněji určili specifikaci desek pro svůj projekt.',
+      kicker: 'Znalosti',
+      h1: 'Konstrukce nafukovací SUP desky',
+      intro:
+        'Většina dnešních projektů SUP desek na míru jsou nafukovací desky. Jsou lehčí, snáze se skladují a převážejí a jsou odpouštějící vůči začátečníkům. Tato příručka vysvětluje konstrukci, abyste mohli s jistotou určit požadavky na kvalitu.',
+      sections: [
+        {
+          title: 'Základ: tkanina drop-stitch',
+          body: [
+            'Nafukovací deska je postavena kolem tkaniny drop-stitch: tisíce polyesterových nití spojuje horní a spodní vrstvu PVC. Při nafouknutí tyto nitě drží předepsanou tloušťku — právě ony dávají iSUP tvar a tuhost.',
+            'Vyšší hustota nití (stehů na čtvereční palec) dává při stejném tlaku tužší a stabilnější desku. Cenově dostupné desky používají nižší hustotu, prémiové vyšší.',
+          ],
+        },
+        {
+          title: 'Vrstvy PVC a hrany',
+          body: [
+            'Tkanina je vsazena mezi vrstvy PVC, které ji chrání před oděrem, UV zářením a nárazy. Silnější PVC (více milů či milimetrů) lépe odolává propíchnutí, ale přidává na hmotnosti.',
+            'Hrany — okraje desky — při každodenním používání přebírají většinu zatížení. Dvoj- a trojvrstvé provedení hrany je spolehlivým ukazatelem životnosti a vhodnosti pro pronájem.',
+          ],
+        },
+        {
+          title: 'Co přidává hmotnost a co pevnost',
+          body: [
+            'Hmotnost je kompromis: silnější PVC přidává na životnosti i na váze, zatímco lehčí konstrukce vyhovuje paddleářům, kteří desku daleko nesou. Je to jeden z nejnázornějších příkladů toho, jak se specifikace na míru přizpůsobuje skutečnosti nakupujícího.',
+            'Ukazatele kvality, které stojí za to vyžádat si: jmenovitý tlak dofukování, provedení švů, typ ventilku a hustota drop-stitch. Solidní továrny tyto hodnoty zveřejňují.',
+          ],
+        },
+      ],
+    },
+    {
+      slug: 'how-organizations-choose-sup-equipment',
+      navLabel: 'Jak organizace vybírají SUP vybavení',
+      metaTitle: 'Jak resorty, kluby a školy vybírají SUP vybavení | iSupfactory',
+      metaDescription:
+        'Jak resorty, kluby a školy vybírají SUP vybavení: velikost floty, typy desek, životnost, skladování a rozpočet programu.',
+      kicker: 'Znalosti',
+      h1: 'Jak organizace vybírají SUP vybavení',
+      intro:
+        'Resorty, kluby a školy nakupují jinak než spotřebitelské značky: vybavení musí odolávat každodennímu provozu, vyhovovat paddleářům různé úrovně a vejít se do rozpočtu programu. Tento přehled zachycuje rozhodnutí, na kterých záleží.',
+      sections: [
+        {
+          title: 'Velikost floty přizpůsobte provozu',
+          body: [
+            'Počítejte, kolik paddleářů bude současně na vodě, ne kolik máte hostů. Resort, který půjčuje postupně, potřebuje menší flotu než škola s paralelními hodinami — a větší počet náhradních desek.',
+            'Dobré pravidlo: jedna deska na každého současně paddleujícího plus 10–15% rezervy na údržbu a růst.',
+          ],
+        },
+        {
+          title: 'Typy desek přizpůsobte úrovni',
+          body: [
+            'Začátečníkům vyhovují širší desky s větším objemem, které působí stabilně; zkušení paddleáři dávají přednost užším deskám, na kterých se pádluje rychleji. Smíšená flota — převážně začátečníky přátelské desky a několik výkonných — vyhovuje většině programů.',
+            'Víceosobové desky jsou ve školách a skupinových lekcích nenahraditelné: umožňují instruktorovi vést výuku a při střídání skupin mohou nahradit několik jednotlivých desek.',
+          ],
+        },
+        {
+          title: 'Životnost je rozpočtové rozhodnutí',
+          body: [
+            'Konstrukce v pronájemní třídě stojí na začátku více, ale za dvě až tři sezony se vrátí. Zeptejte se na zesílení hran, tloušťku PVC a na to, jakou záruku továrna poskytuje u flotových objednávek.',
+            'Plánujte také skladování a dofukování: kompresory, stojany a postup balení určují, kolik denní práce program vytváří. Dodavatelé orientovaní na floty to zahrnují do balíčku.',
+          ],
+        },
+        {
+          title: 'Plánujte program, ne jen objednávku',
+          body: [
+            'Nejlepší objednávky vybavení jsou součástí plánu programu: školení instruktorů, pravidla údržby a cyklus výměny opotřebovaných desek. Organizace, které program plánují, obnovují vybavení podle harmonogramu; ostatní nakupují havarijní náhrady za plnou cenu.',
+          ],
+        },
+      ],
+    },
+  ],
 }
 
 export function getArticle(locale: Locale, slug: string): KnowledgeArticle | undefined {
@@ -1721,5 +1845,11 @@ export const knowledgeMeta: Localized<KnowledgeMeta> = {
     metaDescription:
       'Практические руководства по разработке индивидуальных продуктов SUP, конструкции надувных досок и выбору оснащения SUP для курортов, клубов и школ.',
     h1: 'База знаний — разработка продуктов',
+  },
+  cs: {
+    metaTitle: 'Centrum znalostí: příručky vývoje produktů SUP | iSupfactory',
+    metaDescription:
+      'Praktické příručky k vývoji SUP produktů na míru, ke konstrukci nafukovacích desek a k výběru SUP vybavení pro resorty, kluby a školy.',
+    h1: 'Centrum znalostí — vývoj produktů',
   },
 }

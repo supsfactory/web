@@ -13,13 +13,13 @@ import {
   getSiteFaqs,
   brandify,
 } from '@/features/content/loader'
-import { GUIDES_ES, GUIDES_FR, GUIDES_DE, GUIDES_IT, GUIDES_PT, GUIDES_NL, GUIDES_SV, GUIDES_NO, GUIDES_PL, GUIDES_DA, GUIDES_FI, GUIDES_RU } from '@/features/content/guide-content'
+import { GUIDES_ES, GUIDES_FR, GUIDES_DE, GUIDES_IT, GUIDES_PT, GUIDES_NL, GUIDES_SV, GUIDES_NO, GUIDES_PL, GUIDES_DA, GUIDES_FI, GUIDES_RU, GUIDES_CS } from '@/features/content/guide-content'
 import { FACTS, COLLABORATION_MODES } from '@/product/facts'
 import { EDGE_REDIRECTS } from '@/features/seo/edge-gate'
 import { LEGACY_REDIRECTS } from '@/features/seo/legacy-redirects'
 import { SITE_NAME } from '@/config/site'
 import { PAGE_TITLES } from '@/product/entity-data'
-import { LLM_SITE_DESCRIPTION, LLM_FAQ_DESCRIPTION, LLM_SPANISH_HOMEPAGE_DESCRIPTION, LLM_FRENCH_HOMEPAGE_DESCRIPTION, LLM_GERMAN_HOMEPAGE_DESCRIPTION, LLM_ITALIAN_HOMEPAGE_DESCRIPTION, LLM_PORTUGUESE_HOMEPAGE_DESCRIPTION, LLM_DUTCH_HOMEPAGE_DESCRIPTION, LLM_SWEDISH_HOMEPAGE_DESCRIPTION, LLM_NORWEGIAN_HOMEPAGE_DESCRIPTION, LLM_POLISH_HOMEPAGE_DESCRIPTION, LLM_DANISH_HOMEPAGE_DESCRIPTION, LLM_FINNISH_HOMEPAGE_DESCRIPTION, LLM_RUSSIAN_HOMEPAGE_DESCRIPTION, LLM_FACT_BLOCK } from '@/product/ai-content'
+import { LLM_SITE_DESCRIPTION, LLM_FAQ_DESCRIPTION, LLM_SPANISH_HOMEPAGE_DESCRIPTION, LLM_FRENCH_HOMEPAGE_DESCRIPTION, LLM_GERMAN_HOMEPAGE_DESCRIPTION, LLM_ITALIAN_HOMEPAGE_DESCRIPTION, LLM_PORTUGUESE_HOMEPAGE_DESCRIPTION, LLM_DUTCH_HOMEPAGE_DESCRIPTION, LLM_SWEDISH_HOMEPAGE_DESCRIPTION, LLM_NORWEGIAN_HOMEPAGE_DESCRIPTION, LLM_POLISH_HOMEPAGE_DESCRIPTION, LLM_DANISH_HOMEPAGE_DESCRIPTION, LLM_FINNISH_HOMEPAGE_DESCRIPTION, LLM_RUSSIAN_HOMEPAGE_DESCRIPTION, LLM_CZECH_HOMEPAGE_DESCRIPTION, LLM_FACT_BLOCK } from '@/product/ai-content'
 import { GLOSSARY } from '@/product/glossary'
 
 const flat = (text: string) => text.replace(/\s+/g, ' ').trim()
@@ -1419,6 +1419,96 @@ export function llmsRussianFull(): string {
     ...caseBlocks,
     '',
     '# По-русски: Гайды',
+    ...guideBlocks,
+    '',
+  ].join('\n\n')
+}
+
+/** `/llms.txt` Czech section — absolute /cs URLs so LLMs can ingest the mirror directly. */
+export function llmCzechIndex(origin: string): string {
+  const cs = (path: string) => abs(origin, `/cs${path}`)
+  const productLines = getContentProducts('cs').map((p) => `- [${p.title}](${cs(`/products/${p.slug}`)}): ${flat(p.summary ?? '')}`)
+  const techLines = getTechArticles('cs').map((a) => `- [${a.title}](${cs(`/technology/${a.slug}`)}): ${flat(a.summary ?? '')}`)
+  const caseLines = getCaseUses('cs').map((c) => `- [${c.title}](${cs(`/evidence/case-studies/${c.slug}`)}): ${flat(c.summary ?? '')}`)
+  const guideLines = GUIDES_CS.map((g) => `- [${g.title}](${cs(`/guides/${g.slug}`)}): ${flat(g.intro[0] ?? '')}`)
+  const newsLines = getNewsPosts('cs')
+    .slice(0, 10)
+    .map((p) => `- [${p.title}](${cs(`/news/${p.slug}`)}): ${flat(p.excerpt ?? '')}`)
+  const faqLines = getSiteFaqs('cs')
+    .slice(0, 6)
+    .map((f) => `- ${f.q}`)
+  return [
+    '',
+    '## Česky',
+    '',
+    `- [${SITE_NAME} — Hlavní stránka](${cs('/')}): ${LLM_CZECH_HOMEPAGE_DESCRIPTION}`,
+    '',
+    '### Česky: Produkty',
+    ...productLines,
+    '',
+    '### Česky: Technologie',
+    ...techLines,
+    '',
+    '### Česky: Případové studie',
+    ...caseLines,
+    '',
+    '### Česky: Průvodci',
+    ...guideLines,
+    '',
+    '### Česky: Novinky',
+    ...newsLines,
+    '',
+    '### Česky: Často kladené dotazy',
+    ...faqLines,
+    '',
+  ].join('\n')
+}
+
+/** Full Czech text for products, news, tech, cases and guides (in /llms-full.txt). */
+export function llmsCzechFull(): string {
+  const productBlocks = getContentProducts('cs').map((p) =>
+    [
+      `## Produkt: ${p.title}${p.sku ? ` (${p.sku})` : ''}`,
+      '',
+      flat(p.summary ?? ''),
+      ...(p.specs ?? []).map((s) => `- ${s.label}: ${s.value}`),
+      '',
+      ...mdBody(p.body),
+    ].join('\n'),
+  )
+  const newsBlocks = getNewsPosts('cs').map((p) =>
+    [`## Novinka: ${p.title}`, '', p.date.slice(0, 10), flat(p.excerpt ?? ''), '', ...mdBody(p.body)].join('\n'),
+  )
+  const techBlocks = getTechArticles('cs').map((a) =>
+    [`## Technologie: ${a.title}`, '', flat(a.summary ?? ''), '', ...mdBody(a.body)].join('\n'),
+  )
+  const caseBlocks = getCaseUses('cs').map((c) => [`## Případová studie: ${c.title}`, '', flat(c.summary ?? ''), ...mdBody(c.body)].join('\n'))
+  const guideBlocks = GUIDES_CS.map((g) =>
+    [
+      `# Průvodce: ${g.title}`,
+      '',
+      flat(g.intro.join(' ')),
+      ...g.sections.flatMap((s) => ['', `## ${s.title}`, '', s.body]),
+      '',
+      '## FAQ',
+      ...g.faqs.flatMap((f) => [`### Q: ${f.q}`, '', f.a, '']),
+    ].join('\n'),
+  )
+  return [
+    '',
+    '# Česky',
+    ...productBlocks,
+    '',
+    '# Česky: Novinky',
+    ...newsBlocks,
+    '',
+    '# Česky: Technologie',
+    ...techBlocks,
+    '',
+    '# Česky: Případové studie',
+    ...caseBlocks,
+    '',
+    '# Česky: Průvodci',
     ...guideBlocks,
     '',
   ].join('\n\n')

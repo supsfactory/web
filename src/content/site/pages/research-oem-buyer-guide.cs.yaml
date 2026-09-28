@@ -1,0 +1,103 @@
+meta:
+  title: 'Průvodce pro OEM kupující: nákup desek SUP z Asie | iSupfactory'
+  description: 'Nákup nafukovacích desek SUP z Asie: kontrolní seznam auditu továrny, protokoly kontroly kvality, shoda s požadavky, jednání o MOQ, dodací podmínky a typické chyby.'
+  author: 'iSupfactory'
+  datePublished: '2026-08-04'
+  dateModified: '2026-08-07'
+back_text: 'Zpět do výzkumu'
+
+hero:
+  tagline: 'Nákup'
+  title: 'Průvodce pro OEM kupující — nákup nafukovacích desek SUP z Asie'
+  subtitle: '12 min čtení'
+
+answer:
+  label: 'Přímá odpověď'
+  text: 'Minimální objem objednávky se určuje podle konfigurace projektu, nikoli podle pevného čísla: vývoj vzorku (1–2 kusy) potvrzuje konstrukci, pilotní objednávky (20–50 kusů) testují trh na stávajících platformách, standardní sériová výroba běží dávkami po 90–100+ kusů z celého 150m role drop stitch a drobná series se společným brandem začíná na 5–10 kusech. Vzorky odesíláme za 7–12 dnů; sériová výroba trvá 25–35 dnů po potvrzené objednávce a záloze, navíc 15–20 dnů, pokud je potřeba nová forma.'
+  verified: 'září 2026'
+
+content_html: |
+  <h2>1. Předběžné posouzení: čemu se v továrně věnovat</h2>
+
+  <h3>Certifikáty shody</h3>
+  <ul>
+    <li><strong>ISO 9001:2015</strong> – systém řízení kvality</li>
+    <li><strong>Certifikace CE</strong> – ověřte číslo notifikovaného orgánu</li>
+    <li><strong>BSCI / SMETA / SEDEX</strong> – audity sociální odpovědnosti</li>
+    <li><strong>REACH / RoHS</strong> – prohlášení o shodě materiálů</li>
+  </ul>
+
+  <h3>Výrobní schopnosti</h3>
+  <ul>
+    <li>Vlastní tkaní jader drop stitch, nebo zajištění u subdodavatele</li>
+    <li>Linka pro nanášení PVC povlaku / laminování</li>
+    <li>Vybavení pro HF svařování a svařování horkým vzduchem</li>
+    <li>Vlastní výroba forem (CNC obrábění)</li>
+    <li>Zkušební laboratoř (tlaková zkouška, stárnutí UV, zkouška tahem)</li>
+  </ul>
+
+  <h3>Ověření zkušeností</h3>
+  <ul>
+    <li>Počet let ve výrobě nafukovacích vodných dopravních prostředků (minimálně 5 let)</li>
+    <li>Počet inženýrů v stálém zaměstnání</li>
+    <li>Stávající zákazníci OEM/ODM (vyžádejte si reference)</li>
+    <li>Exportní destinace — dodávají již na Váš cílový trh?</li>
+  </ul>
+
+  <h2>2. Protokoly kontroly kvality</h2>
+  <p>Vstupní kontrola materiálů: pevnost v tahu (ASTM D751, nebo ISO 1421), odolnost proti roztržení (ASTM D2261, nebo ISO 4674), pevnost adheze, namátkové kontroly stárnutí UV.</p>
+  <p>Kontrola během výroby: kontrola pevnosti švů každých 50 kusů, kontrola utahovacího momentu ventilků, kontrola hustoty nití drop stitch, kontrola rozměrů vůči CAD výkresům.</p>
+  <p>Závěrečná inspekce: 100% zkouška udržení tlaku (24 hodin, maximální pokles 0,50 PSI), vizuální kontrola, funkční kontrola ventilků, zkouška namátkového výběru (AQL 2,5, nebo 4,0 podle ISO 2859).</p>
+
+  <h2>3. Kontrolní seznam dokumentace ke shodě</h2>
+  <ul>
+    <li>Prohlášení o shodě (DoC) s odkazem na správnou směrnici EU</li>
+    <li>Certifikát CE od notifikovaného orgánu</li>
+    <li>Protokol o zkouškách od akreditované laboratoře</li>
+    <li>Bezpečnostní listy materiálů (MSDS)</li>
+    <li>Prohlášení o shodě s REACH</li>
+    <li>Specifikace materiálů se sledovatelností dodavatelů</li>
+    <li>Zpráva z inspekce továrny</li>
+  </ul>
+
+  <h2>4. Jednání o MOQ</h2>
+  <p>MOQ na nafukovací desky SUP se určuje podle výrobní trasy a konfigurace projektu, nikoli podle odhadů. Všechny projekty OEM/ODM ve Vatrad procházejí třemi různými objemovými fázemi — vzorek, pilot a série — a celou logiku výpočtu vysvětlujeme v našem <a href="/cs/oem-moq-guide">průvodci MOQ a flexibilním brandingem</a>:</p>
+  <table class="w-full text-sm border-collapse">
+    <thead>
+      <tr class="bg-gray-100">
+        <th class="p-3 text-left font-semibold text-gray-900 border">Výrobní trasa</th>
+        <th class="p-3 text-left font-semibold text-gray-900 border">MOQ</th>
+        <th class="p-3 text-left font-semibold text-gray-900 border">Termíny</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td class="p-3 border font-medium">Vývoj vzorku (na každý návrh)</td><td class="p-3 border">1 – 2 kusy</td><td class="p-3 border">Vzorky za 7 – 12 dnů</td></tr>
+      <tr><td class="p-3 border font-medium">Pilotní objednávka (stávající platformy)</td><td class="p-3 border">20 – 50 kusů</td><td class="p-3 border">Validace trhu na skladových materiálech</td></tr>
+      <tr><td class="p-3 border font-medium">Standardní sériová dávka (na každý návrh)</td><td class="p-3 border">90 – 100+ kusů</td><td class="p-3 border">25 – 35 dnů po PO a záloze</td></tr>
+      <tr><td class="p-3 border font-medium">Zcela vlastní forma / private label</td><td class="p-3 border">Potvrzuje se podle konfigurace projektu</td><td class="p-3 border">Přidává 15 – 20 dnů na nástroje</td></tr>
+    </tbody>
+  </table>
+  <p>Objemy ve fázích vzorku, pilota a série se liší: vývoj vzorku (1–2 kusy) potvrzuje konstrukci, pilotní objednávky (20–50 kusů) testují trh na stávajících platformách a standardní sériová výroba běží dávkami po 90–100+ kusů z celého 150m role drop stitch — cenové úrovně rostou s velikostí objednávky. Než se rozhodnete pro dodavatele, získejte si kalkulaci MOQ, termín a platební podmínky pro Vaši konkrétní desku v písemné podobě.</p>
+
+  <h2>5. Logistika a doprava</h2>
+  <p>Běžné incoterms: <strong>FOB</strong> (továrna dodává do výchozího přístavu — nejběžnější), <strong>EXW</strong> (kupující zajišťuje veškerou dopravu od bran továrny), <strong>CIF</strong> (továrna hradí náklad a pojištění do cílového přístavu).</p>
+  <p>Nafukovací výrobky mají malou hmotnost, ale velký objem — náklady na dopravu často určuje objemová hmotnost (DIM). Vyžádejte si vakuové balení, které zmenší objem o 50–60 %. Námořní doprava z Číny do EU obvykle trvá 25–35 dnů, na západní pobřeží USA 7–12 dnů — a to navíc k výrobnímu termínu 25–35 dnů.</p>
+
+  <h2>6. Typické chyby</h2>
+  <ul>
+    <li><strong>Chybějící audit továrny:</strong> Audit si vždy proveďte sami, nebo jej nechte provést třetí straně (QIMA, SGS, Bureau Veritas)</li>
+    <li><strong>Jen ústní specifikace:</strong> Podrobný technický list specifikace podepsaný oběma stranami</li>
+    <li><strong>Přeskočení schválení vzorku:</strong> Písemné podepsání vzorků před spuštěním hromadné výroby</li>
+    <li><strong>Chybějící kontrola kvality ve výrobě:</strong> Nezávislá inspekce během výroby (DUPRO) a před odesláním (PSI)</li>
+    <li><strong>Ignorování požadavků na shodu:</strong> Ověřte označení CE (směrnice 2013/53/EU) a dokumentaci pro konkrétní trh ještě před začátkem výroby</li>
+  </ul>
+
+  <h2>7. Proč Vatrad</h2>
+  <p>Vatrad vyrábí OEM/ODM nafukovací desky SUP od roku 2012. Provozovnou o ploše 12 500 m&sup2;, certifikací ISO 9001, 25+ inženýry a certifikací CE pro modely dodávané na trhy EU (rozsah platnosti se potvrzuje u každého projektu) splňujeme každé kritérium z tohoto průvodce. Novým partnerům nabízíme zkušební MOQ a kompletní balíky dokumentace ke shodě.</p>
+  <p>Prohlédněte naše <a href="/cs/oem-manufacturing">služby OEM/ODM výroby nafukovacích SUP</a>, nebo navštivte <a href="/cs/factory">výrobní provozovnu o ploše 12 500 m&sup2;</a> a uvidíte vybavení a procesy kontroly kvality, na kterých stojí každý výše uvedený krok.</p>
+
+cta:
+  title: 'Připraveni začít nakupovat?'
+  subtitle: 'Spojte se s naším OEM týmem a proberte požadavky svého projektu.'
+  button_text: 'Vyžádat cenovou nabídku'
+  button_link: /cs/contact

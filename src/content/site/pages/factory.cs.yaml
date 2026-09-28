@@ -1,0 +1,347 @@
+meta:
+  title: 'Továrna a výroba — OEM nafukovacích SUP'
+  description: 'Prohlídka továrny Vatrad: závod o ploše 12 500 m² s řezáním, vysokofrekvenčním svařováním, tiskem, montáží a laboratoří kvality pro výrobu nafukovacích SUP v režimu OEM/ODM.'
+  dateModified: '2026-08-07'
+  keywords:
+    - 'továrna sup Čína'
+    - 'továrna nafukovacích paddleboardů'
+    - 'výrobce oem sup'
+    - 'výroba nafukovacích sup'
+hero:
+  tagline: Továrna
+  title: Továrna a výroba
+  subtitle: Továrna SUP o ploše 12 500 m² v Číně, Qingdao — individuální výroba SUP od surovinového PVC až po hotovou nafukovací desku
+
+answer:
+  label: 'Přímá odpověď'
+  text: 'Certifikovaná továrna nafukovacích desek SUP v Číně, Qingdao: ISO 9001, ISO 25649, BSCI, CE, REACH a RoHS. Závod o ploše 12 500 m² se 4 specializovanými dílnami, 350+ pracovníků, ročně vyrobí 120 000+ desek (10 000 desek měsíčně na 4 automatizovaných linkách). Každá deska projde 24hodinovou tlakovou zkouškou při 18,0 PSI, kontrolní list sestavení o 100 bodech a má 10letou vysledovatelnost materiálu.'
+  verified: 'září 2026'
+
+intro:
+  - Jako výrobní divize **Qingdao Vatrad Group Co., Ltd.** hlídá Vatrad každý stupeň výroby nafukovacích SUP — od příchodu surovinového PVC až po finální kontrolu hotové desky před dodáním. Náš výrobní závod v hospodářské rozvojové zóně Qingdao zabírá 12 500 čtverečních metrů a zahrnuje samostatné dílny pro řezání PVC, spojování jádra drop-stitch, digitální tisk SUP, závěrečnou montáž a zkoušky kvality.
+  - Spojením návrhu, konstrukce, prototypování, výroby a zkoušek pod jednou střechou odstraňujeme neefektivitu smluvní výroby a udržujeme přímou kontrolu nad kvalitou provedení, výběrem materiálu a dodacími lhůtami. Každá deska SUP, která opouští naši dílnu, je vyrobena našimi lidmi, na našem zařízení a podle našich standardů.
+
+stats:
+  - value: 12 500 m²
+    label: Výrobní plocha
+  - value: 350+
+    label: Zkušených pracovníků
+  - value: 120 000+
+    label: SUP vyrobeno ročně
+  - value: ISO 9001
+    label: Potvrzeno certifikátem kvality
+
+intelligence_tagline: Poznatky o továrně
+intelligence_title: Prozkoumejte naše výrobní možnosti
+
+intelligence_cards:
+  - title: Výrobní kapacita
+    icon: C
+    icon_bg: blue
+    desc: 'Zařízení o ploše 12 500 m² vyrábí 120 000+ SUP ročně na linkách desek SUP a bezpečnostního vybavení. 350+ pracovníků, 2 směny.'
+    metrics:
+      - label: MOQ
+        value: 'SUP: vzorek 1–2 / pilotní 20–50 / objem 90–100+'
+      - label: Dodací lhůta
+        value: '25–35 dní'
+    link: /cs/factory/capacity
+    link_label: Úplné údaje o kapacitě →
+  - title: Laboratoř kvality a zkoušky
+    icon: Q
+    icon_bg: green
+    desc: 'Nezávislá laboratoř kontroly kvality se 4 fázemi zkoušek: vstupní kontrola materiálu (tah, trh, UV), 24hodinové udržení tlaku při 18,0 PSI, zkouška odolnosti švu v odtrhu a ověření ohybové tuhosti každé desky.'
+    metrics:
+      - label: Vybavení laboratoře
+        value: 'Tahový zkušební přístroj, teplotní komora, nádrž na netěsnosti'
+      - label: Normy
+        value: 'QMS: ISO 9001; trh: CE, AS 1799'
+    link: /cs/factory/quality-lab
+    link_label: 'Postupy laboratoře a vybavení →'
+  - title: Schopnosti OEM/ODM
+    icon: O
+    icon_bg: purple
+    desc: 'Kompletní služby OEM/ODM: návrh zakázkových forem, obaly pod vlastní značkou, individuální barvy desek, grafika na palubě (digitální a sítlisk) a obaly připravené k exportu.'
+    metrics:
+      - label: Certifikace
+        value: 'ISO 9001, BSCI, CE, REACH'
+      - label: Exportní trhy
+        value: '50+ zemí'
+    link: /cs/factory/oem-capability
+    link_label: 'Kompletní služby OEM →'
+  - title: Normy kontroly kvality
+    icon: I
+    icon_bg: orange
+    desc: 'Projektová kritéria kontroly kvality ve fázích IQC, IPQC, FQC a OQC: ověření nepropustnosti, vizuální a rozměrová kontrola, potvrzení příslušenství, vysledovatelnost šarží a podpis uvolnění před odesláním — plus řízené řízení nesouladů a oprav u nepropustnosti.'
+    metrics:
+      - label: Pokrytí
+        value: 'Materiály → konečné balení'
+      - label: Ke stažení
+        value: 'Protokol QC, zpráva PSI a dokumentace k opravám (PDF)'
+    link: /cs/factory/quality-inspection
+    link_label: 'Normy pro kontrolu a ke stažení →'
+  - title: Norma řízení změn při opravách
+    icon: C
+    icon_bg: blue
+    desc: 'Formální řízení změn parametrů oprav podle ISO 9001: ECR, klasifikace rizik, schvalovací matice napříč odděleními, 9krokový uzavřený cyklus, kvantitativní konstrukční validace (18,0 PSI, 24h udržení, ΔP ≤ 0,2 PSI) a opatření Poka-Yoke — s dvojjazyčnou SOP QMS-SOP-QC-CC-001 Rev 2.0.'
+    metrics:
+      - label: Dokument
+        value: 'QMS-SOP-QC-CC-001 Rev 2.0'
+      - label: Ke stažení
+        value: 'SOP řízení změn a prováděcí příloha (PDF)'
+    link: /cs/factory/quality-change-control
+    link_label: 'Norma řízení změn a ke stažení →'
+  - title: Řízení nevyhovujících výrobků
+    icon: N
+    icon_bg: purple
+    desc: 'Řízení nevyhovujících výstupů podle části 8.7 normy ISO 9001:2015: zápis NCR, karanténa a blokace, rozhodnutí podle závažnosti (podpis dílny / vedoucí QC + technický inženýr / MRB), řízená oprava podle pokynů SRI, nezávislá 100% opětovná kontrola a zničení za dohledu — videa o vyřazení jsou uložena v trezoru s kontrolními součty SHA-256.'
+    metrics:
+      - label: Norma
+        value: 'ISO 9001:2015, část 8.7'
+      - label: Protokol o vyřazení
+        value: 'VAT-QA-SCRAP-CERT-2026'
+    link: /cs/factory/non-conforming-control
+    link_label: 'Řízení nesouladů a ke stažení →'
+  - title: Kontrola kvality v 7 fázích
+    icon: Q
+    icon_bg: green
+    desc: 'Úplný průběh kontroly kvality projektu, vrata po vratech: plánování kvality (PPM) → vstupní kontrola materiálu → kontrola během výroby a první kus → dofukování a nepropustnost → konečná kontrola → balení a PSI → uvolnění zásilky a vysledovatelnost. U každých vrat je uvedeno, co se kontroluje, jak se hodnotí a jaký dvojjazyčný report vzniká.'
+    metrics:
+      - label: Vrata
+        value: '01 → 07'
+      - label: Ke stažení
+        value: 'Sady zpráv pro jednotlivá vrata (PDF)'
+    link: /cs/quality
+    link_label: 'Prozkoumat 7fázový průběh →'
+
+workshops_section:
+  tagline: Dílny
+  title: Výrobní dílny
+  workshops:
+    - title: Řezání PVC a příprava materiálu
+      description: 'Automatické CNC řezací stroje zpracovávají tkaniny PVC, Hypalon a drop-stitch s přesností na setiny milimetru. Počítačově optimalizované rozvržení minimalizuje odpad materiálu a zajišťuje, že každý díl splňuje svou rozměrovou specifikaci ještě před svařováním.'
+      image: https://assets.isupfactory.com/images/sups/hero/production-dept.webp
+      alt: CNC stroj na řezání PVC připravuje díly tkaniny nafukovací desky SUP v továrně v Qingdao
+    - title: Svařování trubek a tepelné tavení
+      description: 'Specializovaná svařovací dílna s teplotními svařovacími stroji a vysokofrekvenčními dielektrickými lisy. Horkovzdušné svařovačky spojují a taví trubkové komory z PVC, zatímco vysokofrekvenční svařování vytváří vysoce pevné nepropustné švy, které překračují požadavky.'
+      image: https://assets.isupfactory.com/images/sups/factory/isupfactory-production-department.webp
+      alt: Stroj na vysokofrekvenční svařování těsní trubkové komory nafukovacího člunu v továrně v Qingdao
+    - title: Spojování jádra drop-stitch
+      description: 'Jádra drop-stitch desek SUP se lepí k vnějším vrstvám PVC pomocí tepelné laminace. Tisíce vnitřních polyesterových vláken spojuje horní a dolní vrstvu a vytváří tuhou konstrukci při 12-15 PSI. Výztuhy okrajů jsou spojeny fúzí ve třech vrstvách pro pevnost hrany.'
+      image: https://assets.isupfactory.com/images/sups/factory/isupfactory-sup-manufacturing.webp
+      alt: Výrobní linka nafukovacích SUP s technikou pro spojování jádra drop-stitch v továrně v Qingdao
+    - title: Tisk a dekorování SUP
+      description: 'Desky SUP se dekorují digitálním tiskem pro barevnou grafiku a sítliskem pro loga a opakující se vzory. Digitální tiskárny zajišťují návrh palub v kvalitě fotografie, zatímco sítlisk dodává trvalé a výrazné značkové prvky.'
+      image: https://assets.isupfactory.com/images/sups/factory/isupfactory-production-department-2.webp
+      alt: Interiér výrobní dílny v továrně nafukovacích SUP v Qingdao
+    - title: Závěrečná montáž a osazení
+      description: 'Montážní linka, kde se na každou desku SUP montují ventily, D-kroužky, madla, držáky žebra a palubní podložky. Každá deska projde kontrolním listem sestavení o 100 bodech, který podepíše vedoucí týmu.'
+      image: https://assets.isupfactory.com/images/sups/factory/isupfactory-production-department.webp
+      alt: Výrobní dílna s montážními pracovišti v továrně v Qingdao
+    - title: Zkoušky a kontrola kvality
+      description: 'Každá hotová deska před odesláním projde povinnou zkouškou nepropustnosti, kontrolou odolnosti švu v odtrhu a úplnou kontrolou systémů. Naše laboratoř kvality pracuje nezávisle na výrobě a hlásí se přímo vedení.'
+      image: https://assets.isupfactory.com/images/sups/factory/isupfactory-pressure-testing.webp
+      alt: Tlakové zkoušení nepropustnosti nafukovací desky SUP před odesláním v továrně v Qingdao
+
+equipment_section:
+  tagline: Vybavení
+  title: Klíčové výrobní zařízení
+  view_full: Zobrazit úplný seznam vybavení →
+  view_full_link: /cs/factory/equipment
+  items:
+    - name: Automatický stroj na řezání PVC
+      spec: Řízení CNC, přesnost 0,1 mm
+    - name: Teplotní svařovací stroj
+      spec: Horkovzdušný, 200°C–300 °C, pro spojování trubek
+    - name: Vysokofrekvenční dielektrický svařovací lis
+      spec: 15 kW, svařování nepropustného švu
+    - name: Lis na laminaci jádra drop-stitch
+      spec: Jádra SUP až do 14 ft
+    - name: Digitální tiskárna
+      spec: Barevná grafika na palubě SUP
+    - name: Stroj na sítlisk
+      spec: Vícebarevný tisk log
+
+qc_section:
+  tagline: Kontrola kvality
+  title: Proces zkoušek a zabezpečování kvality
+  subtitle: Každá deska před odesláním projde povinnými zkouškami. Naše laboratoř kvality pracuje nezávisle na výrobě a hlásí se přímo vedení.
+  steps:
+    - step: '1'
+      title: Kontrola surovin
+      desc: Tkaniny PVC, Hypalon a drop-stitch podléhají tahové zkoušce, zkoušce šíření trhliny a ověření odolnosti proti UV záření dřív, než se do výroby dostane jakákoli šarže.
+    - step: '2'
+      title: 24hodinová zkouška nepropustnosti
+      desc: Každá trubková komora se dofukuje na 18,0 PSI a udržuje 24 hodin. Pokles tlaku nad 0,50 PSI vede k automatickému odmítnutí a opětovnému přezkoušení švů.
+    - step: '3'
+      title: Zkoušky zatížení a stability
+      desc: Hotové desky se dofukují na jmenovitý tlak a kontrolují na souměrné nabobtnání, tuhost při 15 PSI a stabilitu pod zatížením. Každá deska se před konečnou kontrolou otestuje v naší zkušební nádrži.
+
+oem_section:
+  tagline: Projekty OEM
+  title: Případové studie spolupráce se značkami a OEM
+  subtitle: Od konceptu po výrobu — tak pomáháme globálním značkám uvést své řady nafukovacích SUP na trh a rozšířit je.
+  cases:
+    - challenge: Evropský outdoorový retailer potřeboval řadu SUP pod vlastní značkou s jedinečnou grafikou na palubě, ekologickým PVC a obaly připravenými pro retail — vše dodáno za 60 dní.
+      solution: Vyvinuli jsme vlastní soubory pro digitální tisk, zajistili PVC splňující REACH a zkrátili počet vzorkovacích kol z 3 na 1 tím, že jsme tým designu umístili přímo do naší továrny v Qingdao.
+      result: 25–35 dní výroby od podepsané objednávky, s prvním dodáním v 60denném okně. 2 400 kusů ve 4 SKU. Objednávka na další dávku byla zadána dřív, než byla první dávka zcela dodána.
+      disclaimer: 'Anonymizované shrnutí projektu — typ a rozsah projektu jsou reprezentativní; konkrétní výsledky nelze nezávisle ověřit.'
+    - challenge: Americký startup ve vodních sportech potřeboval výkonnou desku SUP drop-stitch s vlastním tvarem, obaly s co-brandingem a certifikací BSCI pro umístění v retailu.
+      solution: Upravili jsme existující formu SUP se změněným obrysem, vyvinuli obalovou grafiku s co-brandingem a poskytli úplnou dokumentaci auditu BSCI.
+      result: 'Úspěšné umístění u klíčových amerických outdoorových prodejců, které přineslo silný náskup: v prvním roce se prodalo přes 5 000 kusů při 98% míře prodeje skladových zásob.'
+      disclaimer: 'Anonymizované shrnutí projektu — typ a rozsah projektu jsou reprezentativní; konkrétní výsledky nelze nezávisle ověřit.'
+    - challenge: Australský distributor potřeboval řadu SUP s certifikací CE, vlastními barvami a souladem s australskými normami.
+      solution: Vyrobili jsme předsériové vzorky ve 4 barevných variantách a zkoordinovali zkoušky souladu s třetí stranou.
+      result: Řada SUP se 3 modely byla uvedena na trh AU/NZ. Následně jsme zvítězili ve vládní tendru na 12 hlídkových SUP.
+      disclaimer: 'Anonymizované shrnutí projektu — typ a rozsah projektu jsou reprezentativní; konkrétní výsledky nelze nezávisle ověřit.'
+
+faq_section:
+  tagline: FAQ
+  title: Často kladené otázky k B2B a OEM
+  questions:
+    - q: Jaké je minimální objednávkové množství (MOQ) pro OEM nafukovací desky SUP?
+      a: 'MOQ se určuje podle konfigurace projektu, nikoli podle pevného čísla — podle trupu a nástrojů, barevných variant a PVC, grafiky, obalů a příslušenství. Sériová výroba běží v dávkách 90–100+ kusů z plné 150 m role drop-stitch, malé série s co-brandingem začínají na 5–10 kusech a každý projekt projde fází vzorku (1–2 kusy) a pilotní série (20–50 kusů). Úplnou výpočtovou logiku najdete v našem průvodci MOQ a flexibilního brandingu.'
+    - q: Má Vatrad certifikaci BSCI?
+      a: Ano. Naše továrna má platnou certifikaci společenské odpovědnosti BSCI (zpráva z auditu je k dispozici na vyžádání). Dále máme ISO 9001 pro řízení kvality. Certifikace CE se vztahuje na modely určené pro evropské trhy; rozsah se potvrzuje u každého projektu. Dokumentaci o souladu s REACH a RoHS předkládáme s každou objednávkou OEM.
+    - q: Jaká je obvyklá dodací lhůta pro objednávku OEM?
+      a: Standardní dodací lhůta je 25–35 dní od potvrzené objednávky a zálohy pro sériovou výrobu OEM. Vývoj zakázkové formy přidává 15–20 dní na nástroje. Pro urgentní objednávky a sezónní nápor je k dispozici urychlená výroba. Prototypové vzorky bývají hotové do 7–12 dní.
+    - q: Zajišťujete vývozní dokumentaci?
+      a: Ano. Náš tým zajišťuje vývozní dokumentaci a celní odbavení vlastními silami a dodáváme do více než 50 zemí v Evropě, USA, Austrálii a Asii.
+
+b2b_moq: 'MOQ podle konfigurace projektu: vzorek 1–2, pilotní 20–50, objem 90–100+ (na 150 m rol); malé série s co-brandingem od 5–10 kusů.'
+
+production_flow:
+  tagline: Výrobní průběh
+  title: Od materiálu po hotovou desku
+  subtitle: Každá deska projde 6 výrobních fázemi s kontrolními body na každém kroku. Žádné zkratky, žádné přeskočené kontroly.
+  stages:
+    - stage: '01'
+      title: Příjem materiálu a vstupní kontrola
+      description: 'Všechny vstupní materiály se zaznamenávají podle čísla šarže v našem ERP systému. Role tkaniny PVC, jádra drop-stitch, ventily, lepidla a kovové části jsou v karanténě, dokud je neodsouhlasí kontrola kvality.'
+      qc_check: 'Pevnost v tahu (ASTM D751), odolnost proti trhání (ISO 4674), měření tloušťky, viskozita lepidla, vizuální prohlídka vad'
+      qc_threshold: 'Zkoušeno 100 % šarží. Odmítnutí při pevnosti v tahu < 90 % specifikace, trhání < minimální specifikace nebo při jakékoli vizuální vadě'
+      responsibility: Tým vstupní kontroly kvality (3 kontroloři)
+    - stage: '02'
+      title: CNC řezání a příprava materiálu
+      description: 'Počítačově optimalizované rozvržení rozmísťuje díly na plochu PVC tak, aby se odpad zminimalizoval. Automatické CNC řezací stroje udržují polohovou přesnost 0,1 mm.'
+      qc_check: 'Rozměrová kontrola podle souborů CAD DXF, kontrola kvality hrany, ověření počtu dílů'
+      qc_threshold: 'Měří se každý 20. díl. Tolerance ±0,5 mm. Šarže se odmítne, pokud je mimo toleranci více než 2 %'
+      responsibility: Vedoucí řezné dílny
+    - stage: '03'
+      title: Svařování a spojování jádra drop-stitch
+      description: 'Jádra drop-stitch se lepí k vnějším vrstvám PVC pomocí tepelné laminace. Trubkové komory se svařují vysokofrekvenčně nebo horkovzdušně. Výztuhy okrajů se spojují fúzí ve třech vrstvách.'
+      qc_check: 'Zkouška odtrhu každých 50 kusů (ASTM D751), měření šířky svaru, kontrola záznamu teplot horkovzdušného svařování, vizuální prohlídka švů s prosvětlením'
+      qc_threshold: 'Minimální pevnost v odtrhu 8 N/cm. Tolerance šířky svaru ±1 mm. Jakékoli viditelné kanálkování = odmítnutí'
+      responsibility: Kontrola kvality svařování (2 kontroloři na směnu)
+    - stage: '04'
+      title: Montáž a osazení
+      description: 'Desky postupují na závěrečnou montáž, kde se spojuje všechno: palubní a trupové díly se taví k sobě, montují se ventily, D-kroužky, madla, držáky žebra a nosná taška. Každý kus projde kontrolním listem sestavení o 100 bodech.'
+      qc_check: 'Podpis kontrolního listu o 100 bodech pro každý kus, funkční zkouška ventilu (10 cyklů otevření a zavření), kontrola momentu utažení kovových částí, vizuální kontrola'
+      qc_threshold: 'Politika nuly vad u položek kritických pro bezpečnost (ventily, D-kroužky, madla). Drobné kosmetické vady: AQL 2,5 (ISO 2859)'
+      responsibility: Vedoucí montážního týmu + kontrola kvality linky
+    - stage: '05'
+      title: Tlaková zkouška a kvalitní pozdržení
+      description: 'Každá komora se dofukuje na 18,0 PSI (pro SUP s jmenovitými 12–15 PSI) a udržuje 24 hodin. Tlakové snímače zapisují průběžně. Komory s poklesem tlaku nad 0,50 PSI se odmítnou a odešlou na opětovnou kontrolu švů.'
+      qc_check: 'Záznam 24hodinového udržení tlaku, denní ověření kalibrace snímačů, tlak odečítaný s teplotní kompenzací, opětovná zkouška švů po opravě'
+      qc_threshold: 'Maximální pokles tlaku 0,50 PSI za 24 h při stabilní teplotě. Překročení u kteréhokoli komory = 100% opětovná zkouška celé výrobní šarže'
+      responsibility: Laboratoř kvality (nezávisle na výrobě, hlásí se vedení)
+    - stage: '06'
+      title: Konečná kontrola a balení
+      description: 'Konečná vizuální a funkční kontrola. Vady povrchu, jednotnost barvy, ověření etikety a BINu, neporušenost obalů a kompletnost příslušenství. Kusy se vakuově zabalí, uloží do krabic a naloží na palety pro nakládku do kontejneru.'
+      qc_check: 'Úplná vizuální kontrola, kontrolní list příslušenství pro každé SKU, pádová zkouška obalu (1 m, náhodný výběr), ověření čitelnosti etiket a čárových kódů'
+      qc_threshold: 'AQL 2,5 pro závažné vady, AQL 4,0 pro drobné. Nulová tolerance u bezpečnostních vad. Vizuálně se zkontroluje 100 % kusů'
+      responsibility: Tým konečné kontroly kvality (4 kontroloři) + vedoucí balení
+
+workforce:
+  tagline: Naši lidé
+  title: Personál a odbornost
+  engineers: 25+
+  engineers_detail: 'Inženýři v oddělení vývoje, konstrukce forem, materiálové laboratoři a výrobního inženýrství. V průměru 7+ let zkušeností s výrobou nafukovacích výrobků.'
+  shift_pattern: '2 směny denně (07:00–15:30, 15:30–00:00). Pro urgentní objednávky možná noční směna.'
+  training: 'Měsíční školení kontroly kvality, čtvrtletní bezpečnostní cvičení, roční hodnocení dovedností. Nováčci absolvují 40hodinové zaškolení, než nastoupí na výrobní linku.'
+  departments:
+    - name: Vývoj a konstrukce
+      count: 25+
+      role: Návrh produktu, konstrukce forem, materiálová laboratoř
+    - name: Řezání a příprava materiálu
+      count: 15
+      role: CNC řezání, příprava dílů, manipulace s materiálem
+    - name: Svařování a laminace
+      count: 40
+      role: Vysokofrekvenční svařování, horkovzdušné svařování, spojování jádra drop-stitch
+    - name: Spojování jader SUP
+      count: 30
+      role: Laminace drop-stitch, tepelné lepení, fúze výztuh okrajů
+    - name: Montáž a osazení
+      count: 35
+      role: Závěrečná montáž, montáž kovových částí, kontrola systémů
+    - name: Kontrola kvality
+      count: 12
+      role: Vstupní kontrola, kontrola během výroby, konečná kontrola, laboratorní zkoušky
+    - name: Logistika a balení
+      count: 20
+      role: Obaly, nakládka kontejnerů, vývozní dokumentace
+    - name: Vedení a administrativa
+      count: 15
+      role: Prodej, nákup, personalistika, finance, compliance
+
+material_traceability:
+  tagline: Vysledovatelnost
+  title: Sledování materiálu a řízení šarží
+  description: Každé šarži surovin se v našem ERP systému přiřadí jedinečné číslo šarže. Od příchodu přes výrobu až po hotový výrobek vede kusovník každé desky zpět k původní šarži dodavatele. Tím je zajištěna úplná vysledovatelnost protiupstreamově pro jakoukoli dotaz týkající se kvality nebo compliance.
+  system: Vlastní ERP (vnitřní systém Qingdao Vatrad Group) + fyzické štítky šarží na každém výrobním příkazu
+  coverage: 100 % výrobních materiálů — PVC, Hypalon, tkanina drop-stitch, lepidla, ventily, kovové části, obaly
+  records_retained: 10 let (podle požadavku CE 2013/53/EU)
+  suppliers:
+    - material: PVC marine třídy
+      source: Dodavatelé z Číny a Koreje
+      certified: ISO 9001, REACH, RoHS
+    - material: Hypalon (CSM)
+      source: Dodavatel z Japonska
+      certified: ISO 9001, REACH
+    - material: Tkanina drop-stitch
+      source: Vlastní tkaní + externí partner
+      certified: Vnitřní kontrola kvality + ISO 9001 dodavatele
+    - material: Ventily a kovové části
+      source: Čínští dodavatelé OEM
+      certified: ISO 9001, materiálové certifikáty pro každou šarži
+
+qc_dashboard:
+  tagline: Kontrola kvality v číslech
+  title: Metriky kontroly kvality
+  subtitle: Skutečná data o vyhovujících a nevyhovujících kusech z naší výrobní linky. Naše laboratoř kvality pracuje nezávisle na výrobě a hlásí se přímo vedení.
+  stats:
+    - value: 100%
+      label: Kusů otestováno tlakem
+      detail: Každá deska, každá komora, každá šarže
+    - value: '<5%'
+      label: Maximálně přípustný pokles tlaku
+      detail: Za 24 h při 18,0 PSI
+    - value: AQL 2,5
+      label: Hranice závažných vad
+      detail: Podle normy výběrového kontrolování ISO 2859
+    - value: 24h
+      label: Doba udržení tlaku
+      detail: Každá deska, každá komora
+    - value: 18 PSI
+      label: Zkušební tlak vůči jmenovitému
+      detail: Bezpečnostní rezerva každé komory
+    - value: 0%
+      label: Tolerance u bezpečnostních vad
+      detail: Ventily, D-kroužky, švy, vztlak
+
+process_cta:
+  title: Prohlédněte si náš výrobní proces
+  desc: Sledujte desku SUP každou fází výroby — od suroviny po desku připravenou na moře.
+  label: Zobrazit výrobní proces →
+  link: /cs/factory/process
+
+evidence_review:
+  tagline: 'Důkazy a ověření'
+  title: 'Důkazy o továrně — ověřeny'
+  body: 'Všechna výrobní tvrzení na této stránce ověřuje náš konstrukčně-výrobní tým v závodě v Laixi, Qingdao. Certifikáty, záznamy o kontrole kvality, zprávy o tlakových a konstrukčních zkouškách a záznamy o vysledovatelnosti šarží jsou k dispozici na vyžádání. Specifikace naposledy ověřeny v září 2026.'
+
+cta:
+  title: 'Prozkoumejte naši továrnu'
+  actions:
+    - text: Kontrolní list auditu továrny
+      href: /cs/factory-audit-checklist

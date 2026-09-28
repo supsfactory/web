@@ -1,0 +1,125 @@
+meta:
+  title: 'Průvodce onboardingu OEM — krok za krokem od prvního kontaktu po výrobu | iSupfactory'
+  description: 'Průvodce onboardingem OEM: NDA, posouzení feasibility, výroba vzorků, schválení, plánování před výrobou, kontrola kvality a expedice. Krok za krokem s termíny.'
+  dateModified: '2026-08-20'
+  keywords:
+    - 'průvodce onboardingem oem'
+    - 'proces výroby sup'
+    - 'onboarding nakupujícího oem'
+    - 'proces závodu sup'
+    - 'kroky objednávky sup na míru'
+    - 'proces vzorku oem'
+    - 'časový rámec výroby sup'
+
+hero:
+  tagline: 'Onboarding nakupujícího OEM'
+  title: 'Vaše první objednávka SUP, krok za krokem'
+  subtitle: 'Od prvního kontaktu po dodané desky vede proces onboardingu OEM v iSupfactory sedmi definovanými branami — každá s jasným termínem, zdokumentovaným výstupem a kontrolním bodem pro pokračování či stop. Žádná nejednoznačnost, žádné skryté kroky, žádná překvapení po záloze.'
+  actions:
+    - variant: primary
+      text: Začít zadáním projektu
+      href: /cs/contact#project-brief
+    - text: Porovnat cesty OEM, ODM a Private Label
+      href: /cs/oem-odm-private-label-comparison
+
+answer:
+  label: 'Přímá odpověď'
+  text: 'Typický onboarding OEM trvá 2–4 týdny do schválení vzorku a 6–8 týdnů do první výrobní dávky od potvrzené objednávky. Začínáte odevzdáním zadání projektu (specifikace desky, objem, požadavky na soulad). Odpovídáme do jednoho pracovního dne, před sdílením proprietárních detailů nabízíme NDA a vyrobíme 1–2 fyzické vzorky za 7–12 dní k vašemu posouzení a schválení. Jakmile je vzorek uzavřen, následuje plánování výroby a vlastní výroba s pevnými kontrolními branami v každé fázi. Každý krok je zdokumentovaný a stopovatelný.'
+  verified: 'září 2026'
+
+process_steps:
+  tagline: Sedm bran
+  title: 'Průběh onboardingu — sedm bran od zadání po dodání'
+  subtitle: 'Každá brana má definovaný vstup, definovaný výstup a termín, který si předem dohodnete. Nikdy nepřejdete za bránu bez výslovného podpisu.'
+  steps:
+    - step: 'Brana 1'
+      title: 'Úvodní poptávka a NDA (den 0)'
+      desc: 'Odešlete zadání projektu přes /contact s cílovými specifikacemi desky, objemem objednávky, požadavky na soulad a termínem. NDA je k dispozici ihned — ještě před sdílením jakýchkoli proprietárních technických specifikací nebo grafiky. Odpověď do jednoho pracovního dne.'
+    - step: 'Brana 2'
+      title: 'Posouzení feasibility a nabídka (dny 1–5)'
+      desc: 'Inženýring posoudí vaše zadání z hlediska výrobních schopností, dostupnosti materiálů a rozsahu souladu. Obdržíte položkovou nabídku s výpočtem MOQ, poplatky za vzorek (odečítanými z výroby) a jednotlivými úseky dodací lhůty — ne hrubý odhad, ale harmonogram po branách.'
+    - step: 'Brana 3'
+      title: 'Výroba vzorku (dny 6–17)'
+      desc: 'Podle vaší specifikace se vyrobí 1–2 fyzické desky: tuhost trupu, textura protiskluzové podložky EVA, přesnost grafiky, fit příslušenství. Desku si před jakýmkoli dalším závazkem vyzkoušíte a posoudíte. Poplatky za vzorek se po podpisu smlouvy odečítají z výrobní objednávky.'
+    - step: 'Brana 4'
+      title: 'Posouzení a schválení vzorku (dny 18–21)'
+      desc: 'Vzorek posoudíte oproti své specifikaci — jízdní kvalita, věrnost grafiky, obaly, příslušenství. Úpravy se zachytí v revidovaném kusovníku BOM a v podpisu grafiky. Uzavřená specifikace se stává výrobní referencí pro všechny další dávky.'
+    - step: 'Brana 5'
+      title: 'Plánování před výrobou (dny 22–28)'
+      desc: 'Nákup materiálů, nastavení nástroje, potvrzení obalů a rezervace výrobního slotu. Všechny materiály se zkontrolují na vstupu oproti uzavřenému kusovníku BOM. Před zahájením výroby se vydá plán výroby s termíny kontrolních bran.'
+    - step: 'Brana 6'
+      title: 'Výroba a kontrolní brany (dny 29–55)'
+      desc: 'Výroba prochází sedmistupňovým systémem kontrolních bran: kontrola vstupního materiálu, kontrola tkaniny drop-stitch, svařování a montáž, zkoušení tlaku a nepropustnosti (udržení 18,0 PSI, automatické odmítnutí při poklesu nad 0,50 PSI), instalace podložky EVA a příslušenství, kontrola grafiky a brandingu, závěrečné balení a dokumentace. Každá brana má kritéria úspěchu/neúspěchu a záznamy o stopovatelnosti.'
+    - step: 'Brana 7'
+      title: 'Expedice a hodnocení po dodání (dny 56–63)'
+      desc: 'Vývozní balení, dokumentace o souladu (CE, ISO 9001, BSCI, REACH, RoHS) a koordinace námořní dopravy do 50+ zemí. Hodnocení po dodání zachycuje získané zkušenosti a vylepšení pro další objednávkový cyklus.'
+
+collaboration_modes:
+  tagline: Vyberte si cestu
+  title: 'Tři modely spolupráce, jeden proces onboardingu'
+  subtitle: 'Každý nový kupující prochází stejným onboardingem o sedmi branách — mění se pouze rozsah zapojení inženýringu a umístění vlastnictví IP.'
+  grid: 'sm:grid-cols-2 lg:grid-cols-3'
+  features:
+    - icon: O
+      icon_bg: blue
+      title: 'Výroba OEM'
+      desc: 'Dodáte kompletní návrhovou specifikaci — tvar trupu, konstrukci, grafiku, příslušenství. Vyrábíme podle vaší specifikace. Vlastníte všechna IP. Vhodné pro značky s existující produktovou řadou a ověřenou geometrií desky.'
+      link_label: 'Jak funguje OEM'
+      href: /cs/oem-manufacturing
+    - icon: D
+      icon_bg: green
+      title: 'Vývoj ODM'
+      desc: 'Dodáte zadání — cílovou hmotnost jezdce, způsob použití, cenovou hladinu — a náš inženýrský tým vyvine desku podle vašich požadavků. Přizpůsobená platforma s vaším brandingem. Vhodné pro značky vstupující na trh bez interních návrhových schopností.'
+      link_label: 'Jak funguje ODM'
+      href: /cs/odm-manufacturing
+    - icon: P
+      icon_bg: purple
+      title: 'Private Label / spolupráce na značce'
+      desc: 'Naneste svou značku na osvědčenou platformu — bez nutnosti inženýrské fáze. Vaše logo na přídi nebo bočních výztuhách již od 5–10 kusů. Vhodné pro provozovatele a distributory, kteří chtějí značkové desky bez vývojového cyklu.'
+      link_label: 'Varianty Private Label'
+      href: /cs/solutions/private-label-sup
+
+checklist:
+  heading: 'Co si připravit před zadáním projektu'
+  body: |
+    Čím úplnější bude vaše zadání, tím rychlejší a přesnější bude nabídka. Mít připraveno byste měli toto:
+
+    - **Specifikace desky** — cílová délka, šířka, tloušťka, hmotnostní rozsah jezdce a zamýšlené použití (touring, all-around, surf, rybolov, yoga atd.). Pokud máte rozměry referenční desky nebo konkurenci, zahrňte je.
+    - **Návrhové soubory** — vektorová grafika (AI, SVG nebo PDF) pro grafiku desky, logo na podložce EVA a případný sekundární branding. Pokud grafika ještě není hotová, pro úvodní posouzení feasibility stačí moodboard nebo referenční obrázky.
+    - **Objem objednávky a termín** — cílové množství pro první objednávku a sezónní termín, kterého potřebujeme dosáhnout. I hrubý odhad („20–50 desek do března“) stačí k potvrzení feasibility a dostupnosti slotu.
+    - **Požadavky na soulad** — cílové trhy (EU, Severní Amerika, Austrálie atd.) a případné specifické požadavky na certifikaci nebo zkoušení nad rámec našeho standardního rozsahu (CE, ISO 9001, BSCI, REACH, RoHS).
+    - **Rozpočtové rozmezí** — orientační rozpočet na kus nebo cílová cena na doručení nám pomůže doporučit správnou platformu a úroveň konstrukce. Přesná cena se potvrzuje až po posouzení inženýringem — nikdy dříve.
+
+    Pokud některou část ještě nemáte, pošlete to, co máte. Zbytek vás navedeme.
+
+evidence_review:
+  tagline: 'Důkazy a verifikace'
+  title: 'SPECIFIKACE OVĚŘENY'
+  body: 'Všechna tvrzení o výrobě na této stránce ověřil náš tým výrobního inženýrství v závodě Laixi u Qingdao. Certifikáty, záznamy kontrol kvality, zprávy o tlakových a konstrukčních zkouškách a logy o stopovatelnosti dávek jsou k dispozici na vyžádání. Specifikace naposledy ověřeny v září 2026.'
+
+faqs:
+  tagline: FAQ
+  title: 'Onboarding OEM — často kladené otázky'
+  items:
+    - q: 'Jak dlouho trvá celý proces onboardingu?'
+      a: 'Schválení vzorku obvykle trvá 2–4 týdny (včetně výroby vzorku za 7–12 dní a vašeho posouzení). První výrobní dávka trvá 6–8 týdnů od potvrzené objednávky a zálohy. Zákazkový tvar trupu přidává 15–20 dní vývoje formy. Každá brana má pevný termín, který si předem dohodnete.'
+    - q: 'Musím podepsat NDA, než sdělím svůj návrh?'
+      a: 'NDA je k dispozici ihned na vyžádání — ještě před sdílením jakýchkoli proprietárních technických specifikací nebo grafiky. Vyrábíme výhradně pod značkami našich klientů a na žádném trhu s nimi nesoutěžíme. Stejná zásada platí pro vzorek jedné desky i pro program celého kontejneru.'
+    - q: 'Jaké je minimální množství pro první objednávku OEM?'
+      a: 'Vstup je členěn po úrovních: nejprve 1–2 vzorky (připravené za 7–12 dní), potom zkušební nebo pilotní objednávka 20–50 desek (výroba 25–35 dní) a nakonec standardní sériové dávky 90–100+ desek na schválenou konfiguraci. Malá dávka ve spolupráci na značce začíná na 5–10 kusech, pokud není potřeba vývojová fáze. Poplatky za vzorek se odečítají z výrobní objednávky.'
+    - q: 'Jak je během onboardingu řešena ochrana IP?'
+      a: 'Vaše návrhy a specifikace jsou chráněny NDA podepsaným před sdílením jakékoli proprietární informace. Veškerá grafika, data kusovníku BOM a technické soubory jsou uloženy v systémech s řízeným přístupem a auditními stopami. V režimu OEM vlastníte všechna IP. V režimu ODM se IP přizpůsobené platformy sdílí podle dohody. V režimu Private Label zůstává IP u iSupfactory a vy si licenciujete použití značky.'
+    - q: 'Jaké záruky kvality platí pro první objednávku?'
+      a: 'Každá deska — vzorek, zkušební dávka i série — prochází stejným sedmistupňovým systémem kontrolních bran: kontrola vstupního materiálu, kontrola tkaniny drop-stitch, svařování a montáž, 24hodinové zkoušení tlaku a nepropustnosti (udržení 18,0 PSI, automatické odmítnutí při poklesu nad 0,50 PSI), instalace podložky EVA a příslušenství, kontrola grafiky a brandingu a závěrečné balení s dokumentací. Kvalita se nikdy nesnižuje u menších objednávek.'
+
+cta:
+  title: 'Připraveni začít svůj projekt SUP?'
+  subtitle: 'Pošlete nám specifikace desky, cílový objem a termín. Potvrdíme feasibility, vyrobíme vzorky a předáme plán výroby — krok za krokem, se zdokumentovanou kontrolou kvality v každé fázi.'
+  actions:
+    - variant: primary
+      text: Začít zadáním projektu
+      href: /cs/contact#project-brief
+    - text: Porovnat OEM, ODM a Private Label
+      href: /cs/oem-odm-private-label-comparison
+    - text: Ověřit závod a systém kvality
+      href: /cs/proof-center

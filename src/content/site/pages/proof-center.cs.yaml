@@ -1,0 +1,169 @@
+meta:
+  title: 'Centrum důkazů — důkazy ke každému výrobnímu tvrzení'
+  description: 'Důkazní složka za tvrzeními iSupfactory: vazba na právnickou osobu, certifikace s rozsahem platnosti, seznam strojů, sledovatelnost šarží a inspekční dokumentace.'
+  dateModified: '2026-08-16'
+  keywords:
+    - 'důkazy továrny sup'
+    - 'seznam certifikátů továrny'
+    - 'sledovatelnost šarží sup'
+    - 'ověření továrny sup'
+    - 'výrobní důkazy čína'
+
+hero:
+  tagline: 'Centrum důkazů k továrně'
+  title: 'Centrum důkazů — všechna naše tvrzení shromážděna zde'
+  subtitle: 'Jedna stránka, která přiřazuje každé tvrzení na tomto webu jeho důkaz: registrovanou právnickou osobu stojící za továrnou, certifikace s rozsahem platnosti, stroje, které práci vykonávají, a šaržové záznamy, které se po každé výrobní dávce uchovávají.'
+  actions:
+    - { variant: primary, text: 'Vyžádat balíček dokumentů k ověření', href: '/cs/contact#trust-verification' }
+    - { variant: ghost, text: 'Prozkoumat systém kvality', href: '/cs/quality' }
+
+answer:
+  label: 'Přímá odpověď'
+  text: 'Řetězec „tvrzení — důkaz“ vypadá takto: každé tvrzení na tomto webu je podloženo registrací, certifikátem, strojem, dokumentem, nebo protokolem o zkoušce — a každý z nich lze ověřit. iSupfactory je divize pro vývoj a výrobu produktů SUP společnosti Qingdao Vatrad Group Co., Ltd. (registrována v Qingdao od roku 2012). Provozovna o ploše 12 500 m² pracuje podle ISO 9001:2015, splňuje ISO 25649, má dokumentaci o shodě CE, sociální odpovědnosti BSCI (zpráva z auditu na vyžádání) a dokumentaci k materiálům REACH/RoHS pro každou objednávku. Každá nafukovací komora se zkouší při 18,0 PSI po dobu 24 hodin s automatickým vyřazením při poklesu větším než 0,50 PSI a šaržové záznamy se uchovávají v rámci 10leté sledovatelnosti v ERP. Dokumentace je zveřejněná, nebo se poskytne na vyžádání, a továrna je otevřená pro audity.'
+  verified: 'září 2026'
+
+entities:
+  tagline: 'Kdo stojí za továrnou'
+  title: 'Jeden výrobní podnik, jedna právnická osoba'
+  subtitle: 'Obchodní úsek, výrobní divize i právnická osoba vycházejí z jednoho podniku, který lze ověřit — od webu až po obchodní rejstřík.'
+  features:
+    - icon: S
+      icon_bg: blue
+      title: 'iSupfactory — veřejný web'
+      desc: 'Řada produktů SUP OEM/ODM a private label s veřejnou dokumentací: katalog, průvodce MOQ, stránky systému kvality a případové studie. Název, se kterým jednáte, je stejný, který auditujete.'
+      link: '/cs/about/isupfactory-entity'
+      link_label: 'Stránka právnické osoby na webu'
+    - icon: A
+      icon_bg: green
+      title: 'Vatrad — výrobní divize'
+      desc: 'Námořní výrobní divize stojící za provozovnou: desky SUP, nafukovací čluny a RIB vyráběné ve stejné provozovně v Qingdao. Produkty a dokumentace kvality vydávané pod tímto názvem.'
+      link: '/cs/factory'
+      link_label: 'Více o továrně'
+    - icon: V
+      icon_bg: orange
+      title: 'Qingdao Vatrad Group Co., Ltd. — právnická osoba'
+      desc: 'Registrovaný výrobce (od roku 2012), který provozuje provozovnu o ploše 12 500 m² v zóně ekonomického rozvoje Laixi v Qingdao. Registrační údaje, vývozní licence a auditní záznamy poskytneme po podpisu NDA, nebo během auditu.'
+      link: '/cs/oem-trust-assurance'
+      link_label: 'Zobrazit případ ověření'
+
+proof_stats:
+  - value: '12 500 m²'
+    label: 'Jedna výrobní provozovna'
+    detail: '4 specializované dílny otevřené pro audity'
+  - value: '350+'
+    label: 'Pracovníků v provozovně'
+    detail: '25+ inženýrů v oblasti výzkumu a vývoje, materiálů a kontroly jakosti'
+  - value: '120 000+'
+    label: 'Desek ročně'
+    detail: '~10 000 desek měsíčně na 4 automatizovaných linkách'
+  - value: '50+'
+    label: 'Obsluhovaných zemí'
+    detail: 'Evropa, Amerika, Asie a Tichomoří, Blízký východ'
+  - value: '7 fází'
+    label: 'Systém kontrolních vrat'
+    detail: 'Uzly 01–07, zaznamenávané podle sériového čísla'
+  - value: '10 let'
+    label: 'Sledovatelnost šarží v ERP'
+    detail: 'Šaržové záznamy se uchovávají a vážou na dávky'
+
+certifications:
+  tagline: 'Certifikace a rozsah platnosti'
+  title: 'Co máme, čeho to platí a jak se to ověřuje'
+  subtitle: 'Zveřejněný seznam — nikdy „jen na vyžádání“. Čísla certifikátů a auditní záznamy poskytneme na vyžádání, nebo během auditu.'
+  headers:
+    certificate: 'Certifikát / standard'
+    scope: 'Rozsah'
+    verify: 'Jak ověřit'
+  rows:
+    - certificate: 'ISO 9001:2015'
+      scope: 'Řízení kvality při návrhu a výrobě SUP'
+      verify: 'Číslo certifikátu a auditní záznamy na vyžádání, nebo během auditu'
+    - certificate: 'ISO 25649'
+      scope: 'Bezpečnost a konstrukční shoda nafukovacích plovidel (Evropa)'
+      verify: 'Dokumentace o shodě pro každou řadu výrobků'
+    - certificate: 'CE'
+      scope: 'Shoda s EU pro produkty — nafukovací SUP'
+      verify: 'Dokumentace CE se dodává s objednávkami'
+    - certificate: 'BSCI'
+      scope: 'Sociální odpovědnost pro provozovnu a personál'
+      verify: 'Zpráva z auditu je k dispozici na vyžádání'
+    - certificate: 'REACH & RoHS'
+      scope: 'Omezené látky a dokumentace k materiálům'
+      verify: 'Dokumentace k materiálům ke každé objednávce'
+    - certificate: 'Nezávislá inspekce (volitelné)'
+      scope: 'Přednákladní inspekce SGS, TÜV, BV, nebo Intertek'
+      verify: 'ISO 2859-1 úroveň II, podle Vašeho výběru'
+
+evidence_gates:
+  tagline: 'Kde jsou důkazy uloženy'
+  title: 'Důkazní složky — otevřené k prohlédnutí'
+  subtitle: 'Každá složka je živá stránka, kterou si můžete prohlédnout právě teď, plus soubory, které předáváme s Vaší objednávkou.'
+  features:
+    - icon: E
+      icon_bg: blue
+      title: 'Seznam strojů a vybavení'
+      desc: 'Krájení, svařování, laminování, tisk a montáž, stejně jako laboratoř kontroly kvality — stroje s názvy, parametry a účelem každého z nich. Vyžádejte si online prohlídku.'
+      link: '/cs/factory/equipment'
+      link_label: 'Otevřít seznam strojů'
+    - icon: P
+      icon_bg: green
+      title: 'Fotografie a zprávy z kontrolních vrat'
+      desc: 'Sedm kontrolních vrat s fotografiemi dílny a odkazy na dvojjazyčné zprávy — co se kontroluje, jakou metodou, podle jakého kritéria a kde se to zaznamenává.'
+      link: '/cs/factory/process'
+      link_label: 'Otevřít kontrolní vrata'
+    - icon: Q
+      icon_bg: orange
+      title: 'Laboratoř kontroly kvality a zkušební postupy'
+      desc: 'Univerzální trhací stroj (ASTM D751), zkušební stroj pevnosti švů ve smyku (ISO 6185), stojany na zkoušky těsnosti a xenonová komora pro stárnutí — stroje, které ověřují tkaniny a komory.'
+      link: '/cs/factory/quality-lab'
+      link_label: 'Otevřít laboratoř'
+    - icon: T
+      icon_bg: purple
+      title: 'Příklad sledovatelnosti a karantény'
+      desc: 'Doslovný řetězec od role suroviny po odeslanou desku, 7krokový proces karantény pro nevyhovující výrobky a matice vad určující rozhodnutí.'
+      link: '/cs/factory/quality-inspection'
+      link_label: 'Otevřít spis sledovatelnosti'
+
+traceability:
+  tagline: 'Šarže — od role po desku'
+  title: 'Jak sledovatelnost vypadá v praxi'
+  body: |
+    Každé šarži se přiděluje **kód dávky s 10letou sledovatelností v ERP**. Řetězec zaznamenávaný pod jednou dávkou:
+
+    - **Přijatá role** — certifikát materiálu, číslo role, šarže tkaniny se zkouškami (trhání, roztržení, šev)
+    - **Krájení** — zadání pro CNC krájení podle návrhového souboru, zaznamenané procento odpadu
+    - **Svařování a laminování** — linka, operátor, parametry stroje pro každou komoru
+    - **Montáž** — sériové číslo desky, typ ventilku, šarže povrchu
+    - **Zkouška** — udržení 18,0 PSI po 24 h pro každou komoru, automatické vyřazení při poklesu větším než 0,50 PSI
+    - **Výdej** — kontrolní seznam se 100 body pro každou desku, podpis ředitele pro jakost u každé šarže
+    - **Dále** — Certifikát shody spolu s dodávkou; právo na audit je sjednáno ve smlouvě
+
+    Vyžádejte si vzorek záznamu kontroly kvality ještě před první objednávkou — je to stejný formát, který dostanete s dodávkou.
+
+faqs:
+  tagline: 'FAQ'
+  title: 'Dotazy nakupujících k důkazům'
+  items:
+    - q: 'Je tato stránka určena jen k ověření a nenahrazuje due diligence?'
+      a: 'Správně — tato stránka ukazuje, kde lze ověřit každé tvrzení: registraci právnické osoby, certifikáty, stroje, záznamy a továrnu otevřenou k auditu. Vaše běžné kroky due diligence (ověření registrace, audit, nezávislá inspekce) zůstávají platné a jsou vítány.'
+    - q: 'Jaká právnická osoba má být uvedena v mé objednávkové dokumentaci?'
+      a: 'Objednávky jsou vystavovány na Qingdao Vatrad Group Co., Ltd., která působí jako Vatrad (výrobní divize), přičemž iSupfactory je řadou produktů SUP. Smluvní dokumenty podepisují viceprezident prodeje, hlavní inženýr a ředitel pro jakost.'
+    - q: 'Mohu získat kopie certifikátů ještě před objednávkou?'
+      a: 'Ano — čísla certifikátů a auditní záznamy poskytneme na vyžádání, nebo během auditu. Seznam je zveřejněný, nikoli „dostupný jen na vyžádání".'
+    - q: 'Jak si mohu sám ověřit šaržové protokoly o zkouškách?'
+      a: 'Každá komora se zkouší při 18,0 PSI po dobu 24 hodin s automatickým vyřazením při poklesu větším než 0,50 PSI; záznamy o zkouškách jsou svázány se sériovými čísly a zasílány spolu s Certifikátem shody každé šarže. Přednákladní inspekce SGS, TÜV, BV, nebo Intertek podle ISO 2859-1 úrovně II může být naplánována podle Vašeho výběru.'
+    - q: 'Vztahují se certifikace i na příslušenství?'
+      a: 'Dokumentace k materiálům REACH/RoHS se vztahuje na desky i na příslušenství dodané v téže objednávce a kontrolní seznamy kvality zahrnují celou soupravu — desku, veslo, pumpu, lanko a tašku.'
+    - q: 'Co se s důkazy stane po objednávce?'
+      a: 'Sledovatelnost šarží v ERP se uchovává 10 let. SOP systému kvality a inspekční normy zůstávají ke stažení a odběrateli zůstává právo na audit během výroby podle smlouvy.'
+
+cta:
+  title: 'Nejdřív ověření — pak specifikace'
+  subtitle: 'Vyžádejte si balíček registračních dokladů, kopie certifikátů, nebo termín auditu. Nejdřív ověření; jednání o objednávce následuje. Odeslání žádosti Vás k ničemu nezavazuje.'
+  button_text: 'Vyžádat balíček pro ověření'
+  button_link: '/cs/contact#trust-verification'
+  actions:
+    - text: Značková identita
+      href: /cs/about/identity
+    - text: Kontrolní seznam auditu továrny
+      href: /cs/factory-audit-checklist

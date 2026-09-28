@@ -1,0 +1,105 @@
+meta:
+  title: 'Kontrolní list auditu továrny — co ověřit před výběrem výrobce SUP | iSupfactory'
+  description: 'Kontrolní list auditu továrny pro kupující nafukovací SUP: systém kvality, kapacita, vysledovatelnost materiálu, tlakové zkoušky, společenská odpovědnost a dokumentace.'
+  dateModified: '2026-08-21'
+  keywords:
+    - 'kontrolní list auditu továrny sup'
+    - 'audit výrobce nafukovacích desek'
+    - 'ověření továrny sup'
+    - 'inspekce továrny oem'
+    - 'audit kvality sup'
+    - 'due diligence výrobce sup'
+    - 'audit výroby nafukovacích sup'
+
+hero:
+  tagline: 'Prověření před investicí'
+  title: 'Kontrolní list auditu továrny'
+  subtitle: 'Než se rozhodnete pro výrobce SUP, ověřte základy. Tento kontrolní list pokrývá osm oblastí, které by měl profesionální kupující prověřit — od řízení kvality a výrobní kapacity po vysledovatelnost materiálu a společenskou odpovědnost. Každou položku tohoto seznamu umíme doložit záznamy, nejen tvrzeními.'
+
+answer:
+  label: 'Stručná odpověď'
+  text: 'Osm oblastí auditu, na kterých záleží nejvíce: (1) Systém řízení kvality — certifikace ISO 9001 a skutečné záznamy o kontrole po jednotlivých vratech, ne jen certifikát na zdi. (2) Výrobní kapacita — skutečná čísla výstupu, ne jmenovitá kapacita. (3) Vysledovatelnost materiálu — vstupní kontrola a zprávy o zkouškách na úrovni šarží. (4) Tlakové a konstrukční zkoušky — zdokumentované protokoly udržení tlaku. (5) Řízení svařování a montáže — parametry vysokofrekvenčního svařování a kontrola švů. (6) Společenská odpovědnost — audit BSCI nebo obdobný. (7) Dokumentace a vysledovatelnost — záznamy šarží, kontrolní deníky, certifikáty shody. (8) Podpora po dodání — proces záruky, náhradní díly, ochota komunikace.'
+  verified: 'září 2026'
+
+audit_areas:
+  tagline: Osm oblastí auditu
+  title: 'Co ověřit — osm oblastí auditu'
+  subtitle: 'Každá oblast zahrnuje otázky, které je třeba položit, záznamy, které je třeba vyžádat, a varovné signály, na které je třeba dávat pozor.'
+  grid: 'sm:grid-cols-2 lg:grid-cols-4'
+  features:
+    - icon: Q
+      icon_bg: blue
+      title: '1. Systém řízení kvality'
+      desc: 'Vyžádejte si: certifikát ISO 9001 (akreditovaný orgán, platný), plán interních auditů, registr CAPA (korektivních a preventivních opatření), postupy jednotlivých kontrolních vrat. Varovný signál: pouze certifikát, bez záznamů o kontrole po vratech a bez procesu CAPA.'
+    - icon: C
+      icon_bg: green
+      title: '2. Výrobní kapacita'
+      desc: 'Vyžádejte si: měsíční výstup podle typů výrobků, výrobní plán s aktuálním využitím, kapacitu nástrojů (počet forem, CNC strojů, vysokofrekvenčních svařovaček). Varovný signál: pouze jmenovitá kapacita, bez údajů o využití a bez výrobního plánu.'
+    - icon: M
+      icon_bg: purple
+      title: '3. Vysledovatelnost materiálu'
+      desc: 'Vyžádejte si: záznamy vstupní kontroly materiálu, certifikáty dodavatelů PVC a drop-stitch, vysledovatelnost šarže od suroviny po hotovou desku, prohlášení o látkách REACH/RoHS. Varovný signál: chybí vysledovatelnost na úrovni šarží, certifikáty materiálů nejsou k dispozici.'
+    - icon: P
+      icon_bg: orange
+      title: '4. Tlakové a konstrukční zkoušky'
+      desc: 'Vyžádejte si: protokol tlakové zkoušky (PSI, doba, kritéria vyhovění), záznamy zkoušek nedávných výrobních šarží, záznamy konstrukčních zkoušek (pád, náraz, namáhání okrajů). Varovný signál: „pouze vizuální kontrola" nebo chybějící zdokumentovaný protokol s kvantitativními kritérii vyhovění.'
+    - icon: W
+      icon_bg: blue
+      title: '5. Řízení svařování a montáže'
+      desc: 'Vyžádejte si: záznamy parametrů vysokofrekvenčního svařování (teplota, tlak, doba výdrže), kritéria kontroly švů a míru zmetů, dokumentaci k pořadí montáže. Varovný signál: chybějí záznamy parametrů svařování, vysoká míra zmetů švů bez CAPA.'
+    - icon: S
+      icon_bg: green
+      title: '6. Společenská odpovědnost'
+      desc: 'Vyžádejte si: zprávu z auditu BSCI nebo SMETA (platná, v plném rozsahu), záznamy o pracovní době a mzdách, zprávy z kontrol bezpečnosti práce, dokumentaci o ekologické compliance. Varovný signál: chybí audit od třetí strany, nebo audit s nevyřešenými závažnými nesoulady.'
+    - icon: D
+      icon_bg: purple
+      title: '7. Dokumentace a vysledovatelnost'
+      desc: 'Vyžádejte si: výrobní záznamy po šaržích, kontrolní deníky pro jednotlivá vrata, certifikáty shody, balicí listy s odkazy na šarže, systém sledování reklamací ze záruky. Varovný signál: chybí dokumentace na úrovni šarží, reklamace nejsou sledovány ani vyhodnocovány.'
+    - icon: A
+      icon_bg: orange
+      title: '8. Podpora po dodání'
+      desc: 'Vyžádejte si: záruční podmínky a proces reklamací, průměrnou dobu vyřízení reklamace, dostupnost náhradních dílů, závaznou dobu odezvy v komunikaci, proces hodnocení po dodání. Varovný signál: chybí zdokumentovaný proces záruky, pomalá nebo nekonzistentní komunikace po dodání.'
+
+our_position:
+  heading: 'Naše stanovisko k jednotlivým oblastem auditu'
+  body: |
+    Nejenže tvrdíme, že jsme v souladu — předkládáme záznamy. Tady je naše stanovisko k jednotlivým z osmi oblastí auditu:
+
+    - **Řízení kvality**: certifikováno podle ISO 9001:2015, každoročně auditováno akreditovanou třetí stranou. Sedmifázový systém kontrolních vrat se zdokumentovanými kritérii vyhovění na každých vratech. Registr CAPA je veden a čtvrtletně revidován.
+    - **Výrobní kapacita**: roční kapacita 120 000+ desek, měsíční výstup zhruba 10 000 kusů. Výrobní plán je k nahlédnutí při návštěvě továrny. 4 automatizované výrobní linky, CNC řezání, vysokofrekvenční svařování a laboratoř tlakových zkoušek.
+    - **Vysledovatelnost materiálu**: vysledovatelnost na úrovni šarží od vstupního materiálu po hotovou desku. Certifikáty dodavatelů PVC a drop-stich máme v archivu. Prohlášení o látkách REACH a RoHS jsou k dispozici pro každou šarži.
+    - **Tlakové zkoušky**: udržení při 18,0 PSI s automatickým odmítnutím při poklesu nad 0,50 PSI za 24 hodin. Záznamy zkoušek jsou k dispozici pro každou výrobní šarži. Konstrukční a nárazové zkoušky podle typu konstrukce.
+    - **Řízení svařování**: parametry vysokofrekvenčního svařování se zaznamenávají pro každou výrobní dávku. Kontrola švů na 3. vratech se zdokumentovanou mírou zmetů. CAPA se spouští při míře zmetů nad limitem.
+    - **Společenská odpovědnost**: audit BSCI absolvován. Záznamy o pracovní době, mzdách a bezpečnosti jsou k dispozici k nahlédnutí při návštěvě továrny.
+    - **Dokumentace**: výrobní záznamy po šaržích, kontrolní deníky pro jednotlivá vrata, certifikáty shody a balicí listy s odkazy na šarže putují s každou objednávkou. Systém sledování reklamací ze záruky je veden.
+    - **Podpora po dodání**: záruční podmínky jsou zakotoveny ve smlouvě. Průměrná doba vyřízení reklamace je kratší než 14 pracovních dnů. Náhradní díly jsou k dispozici ze skladu. Hodnocení po dodání nabízíme k první objednávce.
+
+evidence_review:
+  tagline: 'Důkazy a ověření'
+  title: 'SPECIFIKACE OVĚŘENY'
+  body: 'Všechna výrobní a kvalitativní tvrzení na této stránce ověřuje náš konstrukčně-výrobní tým v továrně v Laixi, Qingdao. Certifikáty, záznamy o kontrole kvality, zprávy o tlakových a konstrukčních zkouškách a deníky vysledovatelnosti šarží jsou k dispozici na vyžádání. Specifikace naposledy ověřeny v září 2026.'
+
+faqs:
+  tagline: FAQ
+  title: 'Audit továrny — často kladené otázky'
+  items:
+    - q: 'Mohu navštívit továrnu za účelem auditu na místě?'
+      a: 'Ano. Návštěvy továrny vítáme a můžeme zorganizovat strukturovaný audit pokrývající všech osm oblastí. Běžná návštěva zahrnuje prohlídku výrobní plochy, pozorování kontrolních vrat, kontrolu skladu materiálů, kontrolu dokumentů a dotazy vedoucímu kvality. Počítejte s celým pracovním dnem. Ozvěte se nám pro domluvení termínu.'
+    - q: 'Poskytujete auditní dokumentaci před návštěvou?'
+      a: 'Ano. Před Vaší návštěvou můžeme sdílet certifikát ISO 9001, zprávu BSCI, souhrn výrobní kapacity, protokol tlakové zkoušky a ukázkové záznamy o kontrole — abyste si mohli připravit cílené otázky. Úplné záznamy šarží jsou k dispozici na místě během návštěvy.'
+    - q: 'Jaké kontroly třetích stran využíváte?'
+      a: 'Spolupracujeme se SGS, Intertek a TÜV na kontrolách a certifikacích třetími stranami. Předexppediční kontrola třetí stranou je na vyžádání k dispozici pro jakoukoli objednávku. Rozsah kontroly a náklady se potvrzují ve fázi nabídky.'
+    - q: 'Jak poznám, že Váš systém kvality je skutečně uplatňován, a nejen zdokumentován?'
+      a: 'Každá deska projde 7 kontrolními vraty s kvantitativními kritérii vyhovění — nejde o vizuální kontrolní listy. Data tlakových zkoušek, parametry svařování a míry zmetů se zaznamenávají pro každou šarži a jsou k dispozici k Vašemu posouzení. CAPA se automaticky spouští při výsledcích mimo specifikaci. Audit živého procesu během návštěvy továrny u nás rádi uvítáme.'
+
+cta:
+  title: 'Naplánujte audit továrny'
+  subtitle: 'Vyžádejte si auditní dokumentaci nebo naplánujte návštěvu na místě. My předkládáme záznamy — Vy ověřujete proces.'
+  actions:
+    - variant: primary
+      text: Vyžádat auditní dokumentaci
+      href: /cs/contact#project-brief
+    - text: Ověřit certifikace a systém kvality
+      href: /cs/proof-center
+    - text: Proces onboardingu OEM
+      href: /cs/oem-onboarding-guide

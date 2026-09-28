@@ -1,0 +1,94 @@
+meta:
+  title: 'Inženýring trupu SUP — návrh desek v CAD a FEA'
+  description: 'Ateliér návrhu desek SUP: návrh v CAD, konečně-prvková analýza (FEA) konstrukcí drop-stitch a zákazkových tvarů trupu pro projekty OEM.'
+back_text: 'Zpět do R&D Center'
+home_label: 'Domů'
+
+hero:
+  tagline: 'Laboratoř 02'
+  title: 'Ateliér návrhu desek'
+  subtitle: 'Digitální simulace, konstrukční znalosti, návrh desek na míru'
+  image: 'https://assets.isupfactory.com/images/sups/factory/isupfactory-design-discussion.webp'
+  image_alt: 'Pracovní stanice CAD pro návrh desek SUP Vatrad'
+
+answer:
+  label: 'Přímá odpověď'
+  text: 'Zákazkové desky SUP navrhujeme vlastními silami s 3D modelováním povrchů v SolidWorks, FEA a CFD v ANSYS — každá deska je simulována z hlediska rozložení napětí a tuhosti paluby s povinným součinitelem bezpečnosti ≥ 2,5 ještě před prototypem. Zákazkový tvar vyžaduje 7–12 dní na prototyp; plně zákazkový nástroj formy přidává 15–20 dní k dodací lhůtě výroby 25–35 dní, přičemž MOQ se potvrzuje podle konfigurace projektu (viz náš průvodce MOQ).'
+  verified: 'září 2026'
+
+intro: 'Tvar desky SUP — její pružinování, profil výztuhy, objem přídě a zádě — určuje, jak se pádluje, zatáčí a drží směr. V {SITE.name} náš Ateliér návrhu desek spojuje 3D modelování povrchů v CAD, konečně-prvkovou analýzu (FEA) konstrukcí drop-stitch a zkušenosti z výroby, aby dodal desky optimalizované pro zamýšlené použití: all-around stabilitu, touringové klouzání nebo výkon v surfu. Každá zákazková deska vychází z vaší specifikace, nikoli z obecného tvaru z katalogu.'
+
+content_html: |
+  <h2>Kde se pevnost setkává s hydrodynamikou</h2>
+  <p>Nafukovací deska SUP je konstrukce drop-stitch: tisíce polyesterových nití spojuje horní a spodní plášť z PVC a udržuje palubu rovnou při 12–15 PSI, zatímco geometrie výztuhy a přídě řídí interakci desky s vodou. Navrhujeme 3D tvar, simulujeme nafouknutou konstrukci a výsledek před vyříznutím jediného vzorku validujeme vlastními silami.</p>
+
+  <h2>Nástroje a normy</h2>
+  <p>Naše digitální inženýrské prostředí zahrnuje:</p>
+  <table>
+    <thead><tr><th>Schopnost</th><th>Software / nástroj</th><th>Použití</th></tr></thead>
+    <tbody>
+      <tr><td>3D parametrické modelování</td><td>SolidWorks Professional</td><td>Povrch desky, linie pružinování, profil výztuhy, integrace držáku a žebra</td></tr>
+      <tr><td>Konečně-prvková analýza</td><td>ANSYS Mechanical</td><td>Mapa napětí v jádru drop-stitch, tuhost paluby pod zatížením, zpevnění v místě držáku</td></tr>
+      <tr><td>Výpočtová hydrodynamika</td><td>Ansys Fluent</td><td>Předpověď hydrodynamického odporu, optimalizace klouzání na hladině</td></tr>
+      <tr><td>Laminátory</td><td>ESAComp</td><td>Skládání vrstev PVC, volba plošné hmotnosti tkaniny, odhad hmotnosti</td></tr>
+      <tr><td>Posouzení povrchu formy</td><td>Moldex3D</td><td>Posouzení geometrie nástrojů pro svařování vysokofrekvencí</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Náš inženýrský postup</h2>
+  <p>Každý návrh desky, ať už standardní model, nebo plně zákazkový projekt, prochází přísnou pěti-etapovou procedurou:</p>
+  <ol>
+    <li><strong>Koncept a sběr požadavků</strong> — Stanovíme hmotnostní rozsah jezdce, zamýšlené použití (all-around, touring, surf, yoga, půjčovaná flotila), cílové délky, šířky a tloušťky a případné zvláštní prvky (nákladní systémy, palubní podložky, upevňovací body).</li>
+    <li><strong>3D modelování povrchu a výpočet objemu</strong> — Tvar desky se modeluje v SolidWorks a kontroluje se z hlediska rozložení objemu, vztlaku a stability vůči cílové hmotnosti jezdce.</li>
+    <li><strong>Konstrukční FEA</strong> — Nafouknutá deska se analyzuje při stálém zatížení (jezdec uprostřed, 100 kg) i dynamickém zatížení (náraz vlny na výztuhu). Kontury napětí se posuzují; součinitel bezpečnosti ≥ 2,5 je povinný.</li>
+    <li><strong>Optimalizace odporu pomocí CFD</strong> — Trup se simuluje při třech zatěžovacích stavech a pěti rychlostech. Smáčený povrch, úhel podélného sklonu a zbylý odpor se iterativně snižují.</li>
+    <li><strong>Posouzení návrhu a uvolnění</strong> — Kompletní inženýrský balíček (3D model, zpráva FEA, zpráva CFD, odhad hmotnosti, plán rozložení panelů) posoudí náš vedoucí inženýr před uvolněním do prototypové dílny.</li>
+  </ol>
+
+  <div class="not-prose my-10 p-6 rounded-xl bg-gray-50 dark:bg-gray-900 border border-gray-200 dark:border-gray-800">
+    <p class="text-sm font-semibold text-gray-500 mb-3 uppercase tracking-wider">Výsledky FEA — all-around deska 11''0 (32'' široká, 6'' tlustá)</p>
+    <div class="grid grid-cols-2 gap-4 text-sm">
+      <div class="p-4 rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-950">
+        <span class="block text-2xl font-bold text-blue-600">2,8 : 1</span>
+        <span class="text-gray-500">Součinitel bezpečnosti při stálém zatížení 120 kg</span>
+      </div>
+      <div class="p-4 rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-950">
+        <span class="block text-2xl font-bold text-blue-600">0 mm</span>
+        <span class="text-gray-500">Průhyb paluby při 15 PSI bez zatížení</span>
+      </div>
+      <div class="p-4 rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-950">
+        <span class="block text-2xl font-bold text-blue-600">3,2 mm</span>
+        <span class="text-gray-500">Maximální průhyb paluby při jezdci o hmotnosti 120 kg</span>
+      </div>
+      <div class="p-4 rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-950">
+        <span class="block text-2xl font-bold text-blue-600">15 PSI</span>
+        <span class="text-gray-500">Analytický tlak — pracovní třída platformy</span>
+      </div>
+    </div>
+  </div>
+
+  <h2>Přizpůsobení: vaše deska, vaše pravidla</h2>
+  <p>Žádné dvě značky nemají totožné požadavky. Půjčovaná flotila potřebuje širokou stabilní all-around desku se zpevněnými výztuhami; touringová značka delší vytlačnou příď s upevňovacími body pro náklad; řada zaměřená na surf zúženou zádě a profil pružinování. Vaši řadu netlačíme do předexistujících tvarů — navrhujeme vzhůru k vaší specifikaci.</p>
+  <p>Příklady nedávných zákazkových projektů návrhu desek:</p>
+  <ul>
+    <li>Touringové SUP 14'' pro značku vytrvalostního pádlování, s vytlačnou přídí a zapuštěnou nákladní palubou (+15% délky vodorysky pro klouzání).</li>
+    <li>Široká all-around deska 10'6'' pro flotilu resortu, s dvojivstvými bočními výztuhami a jmenovitou nosností 220 lb.</li>'
+    <li>Surfová SUP 9'' se zúženou zádí a progresivním pružinováním, vyvinutá pro řadu surfschool.</li>
+  </ul>
+
+  <h2>Naši inženýři</h2>
+  <p>Ateliér vede vedoucí produktový inženýr s 14letými zkušenostmi v návrhu nafukovacích produktů, podporovaný dvěma mechanickými inženýry specializovanými na FEA a CFD. Všichni tři mají pokročilé technické vzdělání z mezinárodně uznávaných univerzit a tým pracuje přímo s naším výrobním plánem, aby každý návrh byl vyrobitelný v měřítku kontejneru.</p>
+
+  <h2>Staňte se partnerem pro vaši další desku</h2>
+  <p>Od prvního skutečného konceptu až po konečnou zprávu o napětí je náš Ateliér návrhu desek vaším partnerem při tvorbě desky, která není jen vyrobená — ale je inženýrsky navržená. Investujeme hodiny do simulací předem, aby každý svar, každá vrstva laminátu a každá křivka výztuhy tam byla ze správného důvodu.</p>
+  <p>Ať už potřebujete drobnou úpravu existujícího modelu, nebo zcela čistý návrh od nuly, jsme připraveni probrat vaše požadavky.
+
+cta:
+  title: 'Zahájení konzultace k návrhu desky'
+  subtitle: 'Napište nám o svých cílových jezdci a způsobu použití a my navrhneme inženýrskou cestu.'
+  actions:
+    - variant: primary
+      text: Kontaktovat náš inženýrský tým
+      href: /cs/contact#project-brief
+    - text: Zpět do R&D Center
+      href: /cs/randdcenter

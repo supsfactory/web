@@ -1,0 +1,125 @@
+meta:
+  title: 'Výrobní schopnosti SUP | závod nafukovacích paddle boardů'
+  description: 'Výrobní schopnosti SUP v Qingdao: interní inženýring trupu (0,1 mm), zpracování drop-stitch, svařování vysokofrekvencí, tisk, výroba forem, stobodová QC a 120 000+ desek ročně.'
+  dateModified: '2026-09-23'
+  keywords:
+    - 'výrobní schopnosti sup'
+    - 'schopnosti závodu nafukovacích paddle boardů'
+    - 'interní výroba sup'
+    - 'výrobní schopnosti paddle boardů'
+    - 'závod sup v qingdao'
+
+hero:
+  tagline: Výrobní schopnosti
+  title: 'Výrobní schopnosti SUP'
+  subtitle: 'Každý proces — inženýring trupu, zpracování jádra drop-stitch, svařování vysokofrekvencí, tisk, výroba nástrojů formy, montáž, zkoušení a balení — probíhá vlastními silami v našem závodě o ploše 12 500 m² v Qingdao, takže jeden zodpovědný tým vede váš projekt od prvního výkresu po odeslaný kontejner.'
+
+answer:
+  label: 'Přímá odpověď'
+  text: 'Výroba SUP je u nás v závodě v Qingdao zcela interní: návrh trupu a rozměrový inženýring s přesností CNC 0,1 mm; zpracování materiálu drop-stitch a svařování vysokofrekvencí na 4 automatizovaných linkách; tisk grafiky; výřez podložek EVA; zákazkové nástroje formy (+15–20 dní u nových tvarů); montáž podle kontrolního seznamu o 100 bodech; a 24hodinové zkoušení udržením tlaku 18,0 PSI s automatickým odmítnutím při poklesu nad 0,50 PSI. Roční kapacita činí 120 000+ desek (přibližně 10 000/měsíc) ze 4 specializovaných dílíň s 350+ pracovníky, dodávaných do 50+ zemí pod Vaší značkou.'
+  verified: 'září 2026'
+
+capabilities:
+  tagline: Schopnosti vlastními silami
+  title: 'Skupiny schopností, každá realizovaná u nás'
+  subtitle: 'Každá níže uvedená schopnost se realizuje uvnitř závodu, což zkracuje dodací lhůty, zavádí kontrolu kvality do každého kroku a drží vaši specifikaci na jednom místě.'
+  groups:
+    - title: Návrh a inženýring
+      items:
+        - 'Návrh trupu a rozměrový inženýring'
+        - 'Přesnost CNC 0,1 mm'
+        - 'Návrh zákazkových forem a nástrojů'
+        - 'Obaly a maloobchodní grafika'
+    - title: Výroba
+      items:
+        - 'Zpracování jádra drop-stitch'
+        - 'Svařování vysokofrekvencí 15 kW (4 automatizované linky)'
+        - 'Tisk grafiky a výzdoba'
+        - 'Výřez podložek EVA'
+        - 'Montáž a dokončení desek'
+        - 'Kompletace příslušenství'
+    - title: Kvalita a soulad
+      items:
+        - 'Kontrolní seznam montáže o 100 bodech'
+        - 'Udržení 18,0 PSI po 24 hodin'
+        - 'Výběrové konání ISO 2859-1 Level II'
+        - 'CE · ISO 9001 · BSCI · REACH · RoHS'
+        - '10letá stopovatelnost dávek'
+    - title: Servis a logistika
+      items:
+        - 'Prototypové vzorky za 7–12 dní'
+        - 'Výroba za 25–35 dní'
+        - 'Zákazkové formy v +15–20 dní'
+        - 'FOB Qingdao · CIF · DDP do 50+ zemí'
+
+table:
+  headers:
+    capability: Schopnost
+    in_house: Vlastními silami
+    standard: Co standard zahrnuje
+  rows:
+    - capability: 'Návrh trupu a rozměrový inženýring'
+      in_house: 'Ano — interní inženýrský tým'
+      standard: 'Navrženo a validováno před nástrojem; přesnost CNC 0,1 mm pro formy a řezání'
+    - capability: 'Zpracování materiálu drop-stitch'
+      in_house: 'Ano — interní výroba jádra'
+      standard: 'Rozsah hustoty drop-stitch 12–15 PSI, vnoření optimalizované podle velikosti desky'
+    - capability: 'Svařování vysokofrekvencí a konstrukce švů'
+      in_house: 'Ano — vlastními silami'
+      standard: 'Výkon svařování vysokofrekvencí 15 kW na 4 automatizovaných výrobních linkách'
+    - capability: 'Tisk grafiky a výzdoba'
+      in_house: 'Ano — interní design a tisk'
+      standard: 'Neomezené barevné palety, grafika na okraj, podpora s grafikou od týmu závodu'
+    - capability: 'Výřez protiskluzové podložky EVA'
+      in_house: 'Ano — vlastními silami'
+      standard: 'Specifikace podložky 45–55 Shore C, paluby a loga řezané na míru'
+    - capability: 'Zákazková forma a nástroj'
+      in_house: 'Ano — interní dílna forem'
+      standard: 'Nástroj pro nový tvar přidává 15–20 dní; formy zůstávají vlastnictvím závodu, pokud není dohodnuto jinak'
+    - capability: 'Montáž a dokončení desek'
+      in_house: 'Ano — vlastními silami'
+      standard: 'Kontrolní seznam montáže o 100 bodech; držáky, D-kroužky a příslušenství osazeny podle specifikace'
+    - capability: 'Zkoušení tlaku a zatížení'
+      in_house: 'Ano — interní zkušební stůl'
+      standard: '24hodinové udržení 18,0 PSI, automatické odmítnutí při poklesu nad 0,50 PSI'
+    - capability: 'Závěrečná kontrola a stopovatelnost'
+      in_house: 'Ano — interní tým QC'
+      standard: 'Výběrové konání ISO 2859-1 Level II; 10letá stopovatelnost dávek v ERP podle sériového čísla'
+    - capability: 'Balení a export'
+      in_house: 'Kompletace vlastními silami a certifikovaná logistika'
+      standard: 'Maloobchodní krabice, námořně odolné vývozní balení a sériové etikety pod Vaší značkou'
+
+faq_section:
+  tagline: FAQ
+  title: Otázky o výrobních schopnostech SUP
+  questions:
+    - q: Které výrobní procesy probíhají vlastními silami?
+      a: 'Všechny klíčové procesy probíhají vlastními silami: inženýring trupu, zpracování jádra drop-stitch, svařování vysokofrekvencí, tisk, výřez EVA, montáž, zkoušení a balení. Příslušenství a část surovin pocházejí od certifikovaných dodavatelů; konečná kompletace probíhá u nás, aby byla zajištěna plná stopovatelnost.'
+    - q: Jaká je vaše výrobní kapacita?
+      a: '120 000+ desek ročně (zhruba 10 000/měsíc) na 4 automatizovaných linkách a ve 4 specializovaných dílnách závodu o ploše 12 500 m² s 350+ pracovníky.'
+    - q: Jaké MOQ se vztahuje na tyto schopnosti?
+      a: 'Standardní sériové dávky běží po 90–100+ kusech na schválenou konfiguraci (jedna 150m role tkaniny drop-stitch); pilotní dávky začínají na 20–50 kusech na existujících platformách; objednávky pouze s logem od 5–10 kusů.'
+    - q: Jaké dodací lhůty bychom měli plánovat?
+      a: 'Prototypové vzorky za 7–12 dní; výroba 25–35 dní po potvrzené objednávce a záloze; vývoj zákazkové formy přidává 15–20 dní na nástroj.'
+    - q: Jak se schopnosti přetvářejí v kvalitu?
+      a: 'Každý proces živí sedmistupňový systém kvality: kontrolní seznam montáže o 100 bodech, 24hodinové udržení 18,0 PSI s automatickým odmítnutím při poklesu nad 0,50 PSI, výběrové konání ISO 2859-1 Level II a 10letá stopovatelnost dávek v ERP.'
+
+cta:
+  title: 'Zjistěte, které schopnosti sedí vášemu projektu'
+  subtitle: 'Pošlete své zadání produktu — posouzení inženýringem a nabídka přizpůsobená schopnostem závodu do jednoho pracovního dne.'
+  actions:
+    - variant: primary
+      text: Vyžádat výrobní nabídku
+      href: /cs/contact#custom-oem
+    - text: Prohlédnout závod
+      href: /cs/factory
+    - text: Výrobní proces závodu
+      href: /cs/factory/process
+    - text: Kapacita závodu a dodací lhůty
+      href: /cs/factory/capacity
+    - text: Kvalita a zkoušení
+      href: /cs/quality
+    - text: Proof Center — důkazy ze závodu
+      href: /cs/proof-center
+    - text: Výroba OEM a ODM
+      href: /cs/oem-manufacturing

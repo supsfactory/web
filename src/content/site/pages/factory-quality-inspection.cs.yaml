@@ -1,0 +1,477 @@
+meta:
+  title: 'Standardy kontroly kvality individuálních SUP | továrna OEM | iSupfactory'
+  description: 'Výroba nafukovacích SUP na míru OEM: kontrola materiálu, výroby, zkoušení, balení a vysledovatelnosti, s řízením oprav nepropustnosti podle ISO 9001.'
+  dateModified: '2026-08-14'
+  keywords:
+    - 'výrobce nafukovacích sup'
+    - 'továrna oem sup'
+    - 'výrobce paddle boardů na míru'
+    - 'kontrola kvality sup'
+    - 'výrobní proces sup'
+    - 'výrobce sup pod vlastní značkou'
+
+hero:
+  tagline: Kontrola a zabezpečení kvality
+  title: Kontrola kvality individuálních nafukovacích desek SUP
+  subtitle: 'QINGDAO VATRAD GROUP.,LTD. uplatňuje projektová kontrolní kritéria v celém průběhu: při přípravě materiálu, stavbě desky, závěrečném dofukování a zkoušení nepropustnosti, balení a uvolnění zásilky. Požadavky na kvalitu se spravují dynamicky podle schváleného vzorku, technické specifikace, důkazu grafiky, kusovníku (BOM) a dohodnutých obalových standardů pro každou objednávku OEM/ODM.'
+  actions:
+    - text: Stáhnout balíček pro zabezpečení kvality
+      variant: primary
+      href: 'https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_Quality_Inspection_Standards.pdf?dl=1'
+    - text: Stáhnout ukázkový balíček kvality (PDF)
+      href: 'https://assets.isupfactory.com/site/downloads/Qingdao_Vatrad_Group_SUP_Quality_Documentation_Pack.pdf?dl=1'
+    - text: Vyžádat informace o kvalitě OEM
+      href: /cs/contact
+
+answer:
+  label: 'Přímá odpověď'
+  text: 'QINGDAO VATRAD GROUP.,LTD. řídí kvalitu nafukovacích SUP čtyřfázovým systémem ověřování: vstupní kontrola materiálu (IQC), kontrola kvality během výroby (IPQC), závěrečné zkoušení desky a ověření dofukováním (FQC) a balení s uvolněním před odesláním (OQC). Každá objednávka se kontroluje proti schválenému vzorku, technické specifikaci, důkazu grafiky, kusovníku a obalovým standardům, včetně ověření nepropustnosti, vizuální a rozměrové kontroly, potvrzení příslušenství a vysledovatelnosti dávek. Položky, které nesplní kritéria přijetí, se umístí pod řízenou blokaci nebo do karantény, opraví se pouze podle schválených pokynů a před oprávněným uvolněním se znovu zkontrolují.'
+  verified: 'září 2026'
+
+intro: 'Náš systém kvality je postaven na projekty OEM/ODM: kontrolní kritéria se stanovují pro každou objednávku, dokumentují a dodržují týmy výroby i kvality od vstupního materiálu až po balení. Tím zůstávají očekávání na kvalitu mezi závodem a Vaší značkou sladěná od prvního vzorku až po celokonténerové zásilky.'
+
+scope_note:
+  tagline: Rozsah
+  title: Projektová kontrolní kritéria
+  body: |
+    Požadavky na kvalitu se mohou lišit podle konstrukce desky (např. jednovrstvá/dvouvrstvá, tkaný drop-stitch, spojená výztuha), zamýšleného použití, předpisů cílového trhu a zákazníkem schválených parametrů. Závěrečné oprávnění k uvolnění se řídí výhradně zdokumentovanými kontrolními kritérii dohodnutými pro danou objednávku.
+
+stages:
+  tagline: Rámec kvality
+  title: Náš 4fázový systém ověřování kvality
+  subtitle: Kompletní cyklus kontroly kvality od příchodu suroviny po uvolnění zásilky.
+  steps:
+    - title: '1. Vstupní kontrola materiálu (IQC)'
+      desc: 'Hlavní materiály a nakupované součástky se kontrolují proti schváleným specifikacím a referenčním vzorkům ještě před vstupem na výrobní linku. U drop-stitch a PVC se ověřuje identifikace materiálu, dodavatelská dávka, gramáž/hustota, tloušťka, shoda barvy se schválenými vzorky a povrchové vady. Protiskluzové podložky EVA se kontrolují z hlediska vzoru, barvy, tloušťky, přesnosti řezu a kompatibility lepidla. Ventily a hardware podléhají zkouškám funkčnosti, závitu, těsnosti a zabudování. Příslušenství a obaly (pumpičky, pádla, žebra, leash, tašky, krabice) se porovnávají podle množství, barvy, brandingu, správnosti čárových kódů a verze grafiky proti schválenému kusovníku.'
+    - title: '2. Kontrola kvality během výroby (IPQC)'
+      desc: 'Kritické výrobní kroky se kontrolují, aby se nesoulady zachytily dřív, než desky přejdou na další pracoviště. Řezání a potisk se ověřují podle rozměrů dílců, rozvržení grafiky, zrcadlové orientace a čistoty okrajů proti schváleným technickým výkresům. Montáž desky a spojování výztuhy se kontrolují z hlediska souměrnosti obrysu, souvislosti překryvu švů a vyloučení prázdných míst či vzduchových bublin v oblasti s vysokým namáháním. Upevnění ventilu a příslušenství, grafika a branding se ověřují z hlediska polohy, orientace, pokrytí lepidlem, správnosti pravopisu loga a verze grafiky.'
+    - title: '3. Závěrečné zkoušení desky a ověření dofukováním (FQC)'
+      desc: 'Hotové desky podléhají před schválením balení povinným fyzickým a konstrukčním zkoušením. Desky se dofukují na projektem schválený kontrolní tlak a drží se pod tlakem, čímž se ověří tuhost konstrukce a stabilita tlaku. Skenování nepropustnosti zahrnuje pouzdro ventilu, švy výztuhy, přední a zadní kužel a namáhané spoje, a to kalibrovanými metodami detekce netěsnosti (sledování poklesu tlaku nebo bublinková zkouška). Vizuální a rozměrová kontrola ověřuje rozměry, profil pružinování a zarovnání podložek EVA (tolerance ±2 mm) za denního standardního osvětlení.'
+    - title: '4. Balení a uvolnění před odesláním (OQC)'
+      desc: 'Komplexní ověření před odesláním zajišťuje nulový nesoulad v konfiguraci SKU a v přepravních značkách. Kontrola kompletnosti sady porovnává desku, žebro, leash, pádlo, pumpičku, tašku, opravnou sadu a uživatelskou příručku proti kusovníku objednávky. Kontrola obalů a čárových kódů ověřuje značení krabic, štítky SKU, čitelnost čárových kódů, jazyk příručky a konstrukční pevnost krabice. Objednávka se uvolní až poté, co závěrečný audit obalů podepíší oprávnění pracovníci kvality.'
+
+inspection_points:
+  tagline: Pokrytí kontrolou
+  title: Klíčové kontrolní body
+  subtitle: Každý kontrolní bod se provádí proti zdokumentovaným kritériím přijetí dohodnutým pro danou objednávku.
+  features:
+    - icon: A
+      icon_bg: blue
+      title: Ověření nepropustnosti
+      desc: 'Hotové desky se dofukují na schválený kontrolní tlak a kontroluje se udržení tlaku, stav patice ventilu, švy výztuhy, přední a zadní oblast i místa s vysokým namáháním. Pokud to kontrolní postup vyžaduje, podezřelé oblasti netěsnosti se prozkoumají schválenými metodami detekce.'
+    - icon: B
+      icon_bg: green
+      title: Vizuální a rozměrová kontrola
+      desc: 'Desky se kontrolují za vhodného osvětlení z hlediska stavu povrchu materiálu, vad potisku, barevné variability, zarovnání EVA, zvrásnění, škrábanců, znečištění a vzhledu spojů. Klíčové rozměry a polohy příslušenství se ověřují proti schváleným výkresům nebo specifikacím.'
+    - icon: C
+      icon_bg: purple
+      title: Ověření příslušenství a obalů
+      desc: 'Před odesláním se ověřuje kompletní konfigurace výrobku: model desky, systém žebra, pádlo, pumpička, leash, přepravní taška, opravná sada, uživatelská příručka a příslušenství specifická pro zákazníka — každý prvek se porovnává se schváleným vzorkem, výkresy a kusovníkem.'
+    - icon: D
+      icon_bg: orange
+      title: Balení a uvolnění zásilky
+      desc: 'Zabalené jednotky se kontrolují z hlediska konfigurace SKU, kompletnosti příslušenství, produktových štítků, údajů čárového kódu, verze návodu, značení krabice, množství v balení a stavu krabice. Uvolnění zásilky se autorizuje až po dokončení všech kontrolních a obalových požadavků.'
+
+traceability_intro:
+  tagline: Vysledovatelnost dávek
+  title: Systém vysledovatelnosti na úrovni projektu a dávky
+  body: |
+    Každá objednávka individuálních SUP se vede pod jednotným kódem projektu, který propojuje technické specifikace, schválený kusovník, revize grafiky, čísla šarží materiálu, odkazy na obaly a kontrolní záznamy. Výrobní a kontrolní záznamy se vedou podle příslušného projektu a výrobní dávky a každou dávku lze zpětně propojit se schválenou produktovou specifikací, kusovníkem, grafikou a obaly.
+
+    Tím podporujeme rychlou kontrolu konfigurace výrobku, stavu kontrol a zasaženého rozsahu, pokud se objeví kvalitativní pochybnost — od hotového výrobku zpět k výchozím záznamům pomocí identifikace desky nebo krabice.
+
+traceability_chain:
+  tagline: Řetězec vysledovatelnosti
+  title: Od kódu projektu po uvolnění zásilky
+  subtitle: Jeden řetězec řízených odkazů od potvrzení objednávky po oprávněnou expedici.
+  steps:
+    - step: '01'
+      title: Kód projektu
+      desc: Jednotný projektový odkaz, který propojuje každý řízený dokument s objednávkou.
+    - step: '02'
+      title: Revize dokumentů
+      desc: Aktuální úrovně revizí specifikace, kusovníku, grafiky a obalů — pro výrobu jsou platné pouze schválené verze.
+    - step: '03'
+      title: Dávka a materiály
+      desc: Šarže materiálu a součástek zaznamenané k výrobní dávce.
+    - step: '04'
+      title: Kontrolní záznamy
+      desc: Výsledky kontrol IQC, během výroby, nepropustnosti, závěrečné a obalové pro každou dávku.
+    - step: '05'
+      title: Balení a uvolnění
+      desc: Dávka balení, stav uzavření NCR a souhrn oprávněného uvolnění zásilky.
+
+traceability_sample:
+  tagline: Anonymizovaná ukázka
+  title: Kontrolní záznam vysledovatelnosti (demo)
+  body: |
+    Ukázkové hodnoty jsou uvedeny pouze pro ilustraci — názvy zákazníků, čísla objednávek, vlastní grafika, údaje dodavatelů a obchodní informace jsou odstraněny kvůli zachování důvěrnosti.
+
+    - **Výrobce:** QINGDAO VATRAD GROUP, LTD.
+    - **Kód projektu:** DEMO-SUP-2026-01
+    - **Reference SKU:** DEMO-TR-126
+    - **Výrobní dávka:** BATCH-AUG-01
+    - **Revize specifikace / kusovníku / grafiky:** Rev B / Rev C / Rev B
+    - **Záznam nepropustnosti:** VYHOVUJE — uchováváno po dobu dávky
+    - **Stav kontroly:** VYHOVUJE
+    - **Stav zásilky:** UVOLNĚNO
+
+quarantine_intro:
+  tagline: Řízení nevyhovujících produktů
+  title: Řízení nevyhovujících výrobků a karanténa
+  body: |
+    Výrobky nebo součástky, které nesplňují stanovená kritéria přijetí, se jasně označí a umístí do stavu řízené blokace nebo karantény. Nesmějí postoupit do další výrobní fáze, k balení ani k odeslání, dokud není dokončeno oprávněné rozhodnutí. Oprava se provádí podle schválených pokynů a propojuje se s příslušným záznamem o nesouladu; opravené položky se před uvolněním kvalitou znovu zkontrolují proti příslušným projektovým požadavkům.
+
+quarantine_flow:
+  tagline: Řízený cyklus o 7 krocích
+  title: Co se stane, když se najde nesoulad
+  subtitle: Zjištění, zadržení, náprava, ověření — a poté uvolnění nebo odmítnutí. Nevyhovující výrobek se nikdy nevrátí bez kontroly do výroby ani na balení.
+  steps:
+    - step: '01'
+      title: Zjištění
+      desc: Nesoulad se zaznamená vůči dotčenému výrobku, SKU, dávce nebo fázi procesu.
+    - step: '02'
+      title: Označení
+      desc: Dotčené položky se jasně označí štítky řízeného stavu — BLOKACE, KARANTÉNA nebo ODMÍTNUTO.
+    - step: '03'
+      title: Karanténa
+      desc: Položky se fyzicky oddělí v kontrolované karanténní zóně nebo systémově zablokují, aby se zabránilo nežádoucímu použití či odeslání.
+    - step: '04'
+      title: Posouzení rozsahu
+      desc: Zasažený rozsah se přezkoumá podle dávky, fáze procesu, šarže materiálu a revize dokumentu.
+    - step: '05'
+      title: Oprava / výměna
+      desc: Náprava je povolena pouze prostřednictvím schváleného rozhodnutí a řízeného pracovního pokynu.
+    - step: '06'
+      title: Opětovná kontrola
+      desc: Opravené položky se před uvolněním znovu zkontrolují proti příslušným kritériím přijetí.
+    - step: '07'
+      title: Uvolnění nebo odmítnutí
+      desc: Pouze oprávněný vyhovující výrobek postupuje k balení nebo k uvolnění zásilky.
+
+quarantine_evidence:
+  tagline: Na výrobní ploše
+  title: Řízené zkoušení a karanténa v praxi
+  subtitle: Fotografie z naší dílny v Qingdao ukazují, jak se řízení stavu a kontrolní záznamy uplatňují přímo na místě.
+  features:
+    - image: https://assets.isupfactory.com/site/quality/qc-air-tightness-test-area.avif
+      alt: Nafouknuté nafukovací desky SUP v oblasti zkoušek nepropustnosti v závodě, sledované digitálním tlakoměrem
+      title: Oblast zkoušek nepropustnosti
+      desc: 'Nafouknuté desky drží v oblasti zkoušek QC v průmyslovém osvětlení, přičemž digitální tlakové měřidla sledují schválenou zkoušku udržení tlaku u patice ventilu, švů výztuhy, přední a zadní části a míst s vysokým namáháním. Záznamy se vedou po dávkách a propojují se závěrečnou kontrolou.'
+    - image: https://assets.isupfactory.com/site/quality/qc-hold-quarantine-station.avif
+      alt: Kontrolní listy kvality a štítky řízené blokace na kontrolní stanici v závodě
+      title: Stanice blokace a karantény
+      desc: 'Kontrolní stanice s kontrolními listy QC a označením stavu. Každá položka, která nesplní kritéria přijetí, je označena, zaznamenána a přesunuta do karantény — na balení nesmí postoupit, dokud není dokončeno oprávněné rozhodnutí a povinná opětovná kontrola.'
+    - image: https://assets.isupfactory.com/site/quality/qc-air-tightness-rework.avif
+      alt: Technik QC provádí řízenou opravu nepropustnosti na nafukovací desce SUP na opravárenské stanici v závodě
+      title: Stanice řízené opravy
+      desc: 'Oprava nepropustnosti se provádí na vyhrazené stanici podle schválené karty metody: vada se označí, deska zůstává ve stavu BLOKACE a po požadované době vytvrdnutí se vrací do zkušební oblasti k opětovnému posouzení proti původním kritériím přijetí.'
+    - image: https://assets.isupfactory.com/site/quality/qc-workshop-quarantine-demo.avif
+      alt: Ukázka řízeného oddělení v karanténě v dílně závodu v Qingdao
+      title: Ukázka karantény v dílně
+      desc: 'Ukázková fotografie z dílny, která dokládá, jak řízené oddělení v karanténě funguje na místě: oddělené jednotky zůstávají pod řízením stavu, dokud není dokončeno oprávněné rozhodnutí.'
+
+rework_intro:
+  tagline: Řízení oprav
+  title: Řízení nevyhovujících výrobků a oprav z hlediska nepropustnosti
+  body: |
+    V QINGDAO VATRAD GROUP.,LTD. je oprava přísně definována jako uvedení nevyhovující jednotky do plného souladu s původní inženýrskou specifikací — nikoli jako rychlá oprava. Jakákoli deska označená nesouladem v nepropustnosti se umístí pod řízenou blokaci a propojí s Protokolem o nesouladu (NCR) před dalším zpracováním; zdroj netěsnosti se vyhledá a zaznamená schválenou diagnostickou metodou.
+
+    Oprava může pokračovat pouze tehdy, když vada spadá do schváleného rozsahu oprav a je k dispozici oprávněná metoda. Opravný pokyn určuje výrobek, dávku, místo vady, schválený materiál, metodu, požadované podmínky a rozsah opětovné kontroly. Po požadované době vytvrdnutí nebo stabilizace se deska znovu zkontroluje proti stejným použitelným kritériím přijetí jako vyhovující deska — oprava nikdy nesnižuje přijímací normu. Neúspěšná opětovná kontrola vyžaduje nové rozhodnutí techniky a kvality; opakovaná oprava není povolena bez zdokumentovaného schválení.
+
+rework_decision:
+  tagline: Interaktivní schéma
+  title: Rozhodovací schéma opravy — klikněte na libovolný uzel
+  subtitle: Sledujte, jak se nakládá s nesouladem v nepropustnosti od zjištění po uvolnění nebo zmet. Kliknutím na uzel rozbalíte kontrolní požadavky daného kroku.
+  nodes:
+    - id: detect
+      type: start
+      label: Zjištěna netěsnost
+      detail: 'Při kontrole je zjištěn nesoulad v nepropustnosti — selhání udržení tlaku, viditelný únik nebo související vada systému vzduchu.'
+    - id: hold
+      type: step
+      label: Zastavit linku · štítek BLOKACE · NCR
+      detail: 'Zpracování se zastaví. Zaznamená se ID desky, kód výrobku, dávka, pracoviště, datum a kontrolor; přiloží se štítek BLOKACE / KARANTÉNA a založí se NCR proti příslušné revizi specifikace.'
+    - id: locate
+      type: step
+      label: Určit zdroj netěsnosti
+      detail: 'Deska se dofukuje na projektem schválený diagnostický tlak a zdroj se určí schválenou metodou — sledováním udržení tlaku, kalibrovanou bublinkovou zkouškou, akusticky nebo detektorem netěsnosti.'
+    - id: classify
+      type: step
+      label: Klasifikovat vadu (A–G)
+      detail: 'Vada se zařadí podle schvalovací matice: A rozhraní ventilu, B šev patice ventilu, C bodový otvor povrchu, D místní šev výztuhy, E rozsáhlé selhání výztuhy, F opakovaná netěsnost, G strukturální poškození.'
+    - id: authorize
+      type: decision
+      label: Je oprava oprávněná?
+      yes: rework
+      no: escalate
+      detail: 'QC potvrzuje kategorii vady a Technika posuzuje, zda lze desku uvést do souladu s původní specifikací. Oprávnění zaznamenává kartu metody, materiály, podmínky a rozsah opětovné kontroly — nebo směřuje věc k výměně, odmítnutí, zmetu či úlevě schválené zákazníkem.'
+    - id: rework
+      type: step
+      label: Řízená oprava
+      detail: 'Provádí se výhradně v mezích schválené hranice vady, se schválenou kartou metody, dávkou materiálu a nástroji — nikdy se nemění rozměry, konstrukce, grafika, příslušenství ani obalové požadavky.'
+    - id: cure
+      type: step
+      label: Vytvrzení a stabilizace
+      detail: 'Deska zůstává ve stavu BLOKACE po celou dobu vytvrzování a stabilizace stanovenou schváleným materiálem a procesním pokynem a poté absolvuje vizuální kontrolu zpracování.'
+    - id: reinspect
+      type: decision
+      label: Opětovná kontrola vyhověla?
+      yes: release
+      no: escalate
+      detail: 'Deska se dofukuje na projektem schválený tlak pro opětovnou kontrolu a znovu se ověří původní selhání i všechny potenciálně dotčené vlastnosti — místo netěsnosti, ventil, výztuhy, švy, namáhané oblasti, příslušenství a vzhled. Oprava nikdy nesnižuje přijímací normu.'
+    - id: release
+      type: release
+      label: Uvolnění kvalitou
+      detail: 'Kvalita posoudí uzavřené NCR, opravný záznam a výsledek opětovné kontroly a autorizuje uvolnění. Žádná opravená deska se nezabalí ani neodešle bez oprávněného uvolnění kvalitou.'
+    - id: escalate
+      type: escalate
+      label: Eskalovat — výměna / zmet / úleva
+      detail: 'Bez zdokumentovaného schválení se neopakuje oprava. Deska směřuje k výměně, odmítnutí, zmetu nebo písemné úlevě schválené zákazníkem, pokud původní specifikaci nelze obnovit.'
+
+defect_matrix:
+  tagline: Klasifikace vad
+  title: Klasifikace vad nepropustnosti a schvalovací matice
+  subtitle: Ne každá netěsnost se opravuje — každá vada se klasifikuje a její vyřízzení se schvaluje na správné úrovni, od kontrolora QC až po ředitele závodu.
+  headers:
+    category: Kategorie vady
+    area: Typická oblast
+    eligibility: Možnost opravy
+    approval: Požadované schválení
+  rows:
+    - category: 'Třída A — rozhraní ventilu'
+      area: 'Jádro ventilu, těsnění víčka, podložka, rozhraní pumpičky'
+      eligibility: 'Standardní oprava je oprávněná'
+      approval: 'Kontrolor QC'
+    - category: 'Třída B — šev patice ventilu'
+      area: 'Mikroskopická netěsnost podél obvodu ventilu'
+      eligibility: 'Posuzovaná oprava podle schválené karty metody'
+      approval: 'QC + Technika'
+    - category: 'Třída C — bodový otvor povrchu'
+      area: 'Místní mikroskopický otvor na nezatíženém povrchu'
+      eligibility: 'Oprávněná pouze při souladu se specifikací zákazníka'
+      approval: 'QC + Technika'
+    - category: 'Třída D — místní šev výztuhy'
+      area: 'Místní netěsnost v překryvu na boční výztuze'
+      eligibility: 'Vysoké riziko; nutné přísné rozhodnutí techniky'
+      approval: 'Technika + vedoucí QA'
+    - category: 'Třída E — rozsáhlé selhání výztuhy'
+      area: 'Přetržité selhání švu v zónách s vysokým namáháním'
+      eligibility: 'Standardní oprava není oprávněná — výměna nebo analýza kořene problému'
+      approval: 'Vedoucí QA + úleva zákazníka'
+    - category: 'Třída F — opakovaná netěsnost'
+      area: 'Neurčitelná netěsnost nebo selhání při opakované zkoušce'
+      eligibility: 'Žádná opakovaná oprava; výměna, zmet nebo inženýrská analýza kořene problému'
+      approval: 'Vedoucí QA / Technika'
+    - category: 'Třída G — strukturální poškození'
+      area: 'Poškození materiálu, delaminace, zkroucení desky'
+      eligibility: 'Uvolnění po opravě není oprávněné — výměna, zmet nebo písemná úleva zákazníka'
+      approval: 'Ředitel kvality + schválení zákazníka'
+
+rework_flow:
+  tagline: Uzavřený cyklus o 7 krocích
+  title: Řízený pracovní postup oprav — od zjištění po uvolnění nebo zmet
+  subtitle: 'Každá oprava nepropustnosti sleduje stejný řízený cyklus: zjištění, karanténa, diagnóza, oprávnění, oprava, opětovná kontrola, uvolnění.'
+  steps:
+    - step: '01'
+      title: Zjištění, zastavení linky a karanténa
+      desc: 'Zpracování dotčené desky se okamžitě zastaví. Zaznamená se ID desky, kód výrobku, dávka, pracoviště, datum a kontrolor, přiloží se štítek BLOKACE / KARANTÉNA a založí se NCR proti příslušné revizi specifikace.'
+    - step: '02'
+      title: Systematická diagnóza netěsnosti
+      desc: 'Deska se dofukuje na projektem schválený diagnostický tlak a zdroj netěsnosti se určí schválenou metodou — sledováním udržení tlaku, kalibrovanou bublinkovou zkouškou, akusticky nebo detektorem netěsnosti. Předpokládané místo se označí bez poškození desky.'
+    - step: '03'
+      title: Rozhodnutí techniky a oprávnění
+      desc: 'QC potvrzuje kategorii vady a Technika posuzuje, zda lze desku uvést do souladu s původní specifikací. Oprávnění opravy odkazující na NCR zaznamenává schválenou metodu, materiály, podmínky a rozsah opětovné kontroly — nebo přidělí výměnu, odmítnutí, zmet či úlevu zákazníka.'
+    - step: '04'
+      title: Řízené provedení opravy
+      desc: 'Oprava se provádí výhradně v mezích schválené hranice vady, se schválenou kartou metody, dávkou materiálu a nástroji. Rozměry desky, konstrukce, grafika, konfigurace příslušenství ani obalové požadavky se nikdy nemění.'
+    - step: '05'
+      title: Vytvrzení, stabilizace a předběžná kontrola
+      desc: 'Opravená deska zůstává ve stavu BLOKACE po celou dobu vytvrzování a stabilizace stanovenou schváleným materiálem a procesním pokynem a poté absolvuje vizuální kontrolu zpracování před opětovnou kontrolou.'
+    - step: '06'
+      title: Opětovná kontrola a důkazní zkoušení
+      desc: 'Deska se dofukuje na projektem schválený tlak pro opětovnou kontrolu a znovu se ověří původní selhání i všechny potenciálně dotčené vlastnosti: místo netěsnosti a jeho okolí, ventil, výztuhy, švy, namáhané oblasti, příslušenství a vzhled. Oprava nikdy nesnižuje přijímací normu.'
+    - step: '07'
+      title: Uvolnění QA nebo konečné rozhodnutí
+      desc: 'Kvalita posoudí dokončené NCR, opravný záznam a výsledek opětovné kontroly a poté autorizuje uvolnění — nebo věc eskaluje k výměně, odmítnutí, zmetu či úlevě zákazníka. Žádná opravená deska se nezabalí ani neodešle bez oprávněného uvolnění kvalitou.'
+
+quality_safeguards:
+  tagline: Ochranné prvky kvality
+  title: Pravidla proti chybám, která chrání Vaši značku
+  subtitle: Tvrdé kontroly, které brání nekontrolovaným smyčkám oprav — jedna zdokumentovaná oprava na vadu, prahové hodnoty na úrovni dávky, kalibrované měřidla a řízené zkušební podmínky.
+  features:
+    - icon: 1
+      icon_bg: blue
+      title: Jedna oprava na jednu vadu
+      desc: 'Jedno místo lze oprravit pouze jednou podle oprávněného pokynu. Pokud opětovná kontrola stále nevyhovuje, deska se eskaluje k výměně, odmítnutí, zmetu nebo úlevě zákazníka — opakovaná oprava bez zdokumentovaného schválení není povolena.'
+    - icon: 2
+      icon_bg: green
+      title: Poplach na úrovni dávky a zastavení linky
+      desc: 'Když nesoulad v výrobní dávce překročí technicky stanovenou hranici, linka se zastaví a Technika vyšetří příčinu — šarži materiálu, procesní podmínky a záznamy — než se výroba obnoví.'
+    - icon: 3
+      icon_bg: purple
+      title: Kalibrovaná měřidla
+      desc: 'Tlakoměry, digitální manometry a časovače používané při zkoušení nepropustnosti jsou řízené a kalibrované třetími laboratořemi v rámci platnosti kalibrace, přičemž stav kalibrace je v kontrolní zóně viditelný.'
+    - icon: 4
+      icon_bg: orange
+      title: Řízené zkušební podmínky
+      desc: 'Zóny pro zkoušení nepropustnosti a vytvrzování se udržují v řízeném prostředí, aby výsledky neovlivňovaly teplotní výkyvy mezi dnem a nocí.'
+
+rework_boundaries:
+  tagline: Rozsah a hranice
+  title: Co tento systém nezahrnuje
+  body: |
+    Systém řízení oprav platí pro hotové nebo rozpracované nafukovací desky SUP se zjištěným únikem vzduchu, selháním udržení tlaku nebo souvisejícími vadami systému vzduchu před uvolněním zásilky. Nepovoluje změny schválené konstrukce, materiálu, grafiky, konfigurace výrobku nebo požadavků zákazníka a nezahrnuje:
+
+    - Výrobky, které již byly odeslány nebo jsou v kanálech zákazníka.
+    - Strukturální poškození nebo zkroucení desky, které neposoudila Technika.
+    - Rozsáhlé selhání výztuhy či švu, poškození jádrového materiálu nebo vady, které mohou ovlivnit bezpečnost.
+    - Projekty, v nichž není oprava povolena: zákazníkem schválené vzorky, certifikační nebo zkušební kusy.
+    - Projekty s proprietárními zákaznickými procesy, speciálními materiály nebo zvláštními požadavky na opravu.
+    - Opakovanou netěsnost, kterou nelze lokalizovat, nebo desky, které po opravě znovu selhaly.
+
+    Jakákoli odchylka od specifikací zákazníka vyžaduje zdokumentované posouzení techniky a tam, kde je to použitelné, písemný souhlas zákazníka. Desky, které nelze uvést do souladu s původní specifikací, se uvolní výhradně na základě výslovné úlevy zákazníka — nikdy jen z vůle výroby.
+
+method_cards:
+  tagline: Systém karet metod
+  title: Index řízených karet metod opravy
+  subtitle: 'Obecný pokyn řídí proces; karty metody řídí operaci. Opravný pokyn (WI-QC-AT-001) odkazuje na karty metody MC-RW-01 až MC-RW-06, navíc na MC-RW-00 pro povinný zmet a odmítnutí.'
+  headers:
+    code: Karta metody
+    defect: Třída vady
+    scope: Rozsah použití
+    controls: Klíčové inženýrské kontroly
+    approval: Pravomoc k podpisu
+  rows:
+    - code: MC-RW-01
+      defect: Třída A (rozhraní ventilu)
+      scope: 'Servis jádra ventilu, čištění těsnění a opětovná montáž'
+      controls: 'Kalibrovaný momentový klíč, čisté sedlo těsnění, žádné poškození závitů ventilu'
+      approval: 'Kontrolor QC'
+    - code: MC-RW-02
+      defect: Třída B (obvod ventilu)
+      scope: 'Těsnění pírkové příruby ventilu a řízené upnutí'
+      controls: 'Řízená příprava povrchu, schválené lepidlo, kruhové přítlačné přípravky'
+      approval: 'QC + Technika'
+    - code: MC-RW-03
+      defect: Třída C (mikroskopická netěsnost povrchu)
+      scope: 'Těsnění bodového otvoru bez konstrukčního zatížení'
+      controls: 'Schválené dvousložkové lepidlo, žádný přítok do grafiky ani EVA'
+      approval: 'QC + Technika'
+    - code: MC-RW-04
+      defect: Třída D (místní šev výztuhy)
+      scope: 'Opětovné spojení místního překryvu švu výztuhy'
+      controls: 'Tepelná aktivace s řízenou teplotou, přítlačný válec, přípravek proti zvlnění'
+      approval: 'Technika + vedoucí QA'
+    - code: MC-RW-05
+      defect: Třída B/C (obvod příslušenství)
+      scope: 'Těsnění záplaty držáku žebra a základny upevnění příslušenství'
+      controls: 'Promoční prostředek pro přilnavost povrchu, profilovaný přítlačný blok, definovaná doba držení'
+      approval: 'QC + Technika'
+    - code: MC-RW-06
+      defect: Třída D (šev přední/zadní části)
+      scope: 'Zásah do švu vysokého zakřivení s vysokým namáháním'
+      controls: 'Schválené lepidlo odolné vůči vysokému smyku, prodloužená doba vytvrzování před opětovnou zkouškou'
+      approval: 'Hlavní inženýr'
+    - code: MC-RW-00
+      defect: Třída E/F/G (kritická / trhlinová)
+      scope: 'Povinný zmet a fyzické zničení'
+      controls: 'Fyzické odstřižení bránící smíchání, záznam zmetu, přezkum kořene problému napříč odděleními'
+      approval: 'Ředitel závodu'
+
+inspector_friendly:
+  tagline: Kontrola třetí stranou
+  title: Protokol přátelský k inspektorům
+  body: |
+    Zajišťujeme vyhrazenou kontrolní zónu s kalibrovanými tlakovými měřidly, normalizovanými světelnými stoly pro kontrolu švů a grafiky a předem vyplněnými kontrolními briefy, aby třetí strany (SGS, BV, Intertek, QIMA) mohly účinně provést kontrolu před odesláním — ušetříte tak náklady na kontrolu.
+
+    Každý brief shrnuje použitelné revize dokumentů, odkaz na schválený vzorek, kontroly kritické pro kvalitu, dohodnutou úroveň vzorkování, funkční zkoušky a požadavky na obaly a čárové kódy pro danou objednávku. Určená množství, kvalita, balení a základní bezpečnostní položky se ověřují proti schváleným projektovým odkazům — na místě nebudete hledat dokumenty na poslední chvíli.
+
+document_pack:
+  tagline: Balíček dokumentace kvality
+  title: Stáhněte si ukázkový balíček kvality a šablony protokolů
+  subtitle: 'Standardní řízené šablony používané v projektech OEM/ODM — strukturované jako dokumentový registrář 00–15 (projektový index, schválená specifikace, kusovník, odkazy na grafiku a obaly, QIP, kontrolní záznamy, NCR, řízení změn, brief pro třetí stranu, souhrn uvolnění).'
+  features:
+    - icon: P
+      icon_bg: blue
+      title: Balíček dokumentace kvality (PDF)
+      desc: 'Úplná řízená struktura dokumentů 00–15: projektový index, specifikace, kusovník, odkazy na grafiku a obaly, Plán kontroly kvality (QIP), kontrolní záznamy, NCR, řízení změn, brief pro třetí stranu a souhrn uvolnění před odesláním.'
+      link: 'https://assets.isupfactory.com/site/downloads/Qingdao_Vatrad_Group_SUP_Quality_Documentation_Pack.pdf?dl=1'
+      link_label: Stáhnout PDF
+    - icon: T
+      icon_bg: green
+      title: Brief pro kontrolu třetí stranou (PDF)
+      desc: 'Stránkový brief pro inspektory SGS / BV / Intertek / QIMA: množství objednávky, úroveň vzorkování AQL, použitelné revize a kontroly kritické pro kvalitu včetně ověření záznamu nepropustnosti, zkoušky udržení tlaku, kompletnosti sady, skenu čárových kódů a zkoušky pádu krabice.'
+      link: 'https://assets.isupfactory.com/site/downloads/Third_Party_Inspection_Brief_Template.pdf?dl=1'
+      link_label: Stáhnout PDF
+    - icon: C
+      icon_bg: purple
+      title: Protokol řízení změn (PDF)
+      desc: 'Protokol řízení změn zahrnující revize grafiky, zákazníkem schváleného kusovníku a značení krabic — se souhrnem změny, důvodem, posouzením dopadů, stavem souhlasu zákazníka, účinnou dávkou a stažením zastaralého dokumentu.'
+      link: 'https://assets.isupfactory.com/site/downloads/Change_Control_Protocol_Bilingual.pdf?dl=1'
+      link_label: Stáhnout PDF
+    - icon: R
+      icon_bg: orange
+      title: Souhrn uvolnění před odesláním (PDF)
+      desc: 'Stránkový podpis uvolnění: ověření kontrolních fází (IQC, IPQC, nepropustnost, závěrečná kontrola, balení), stav otevřených NCR a oprávněné rozhodnutí o uvolnění podepsané kvalitou a provozem.'
+      link: 'https://assets.isupfactory.com/site/downloads/Pre_Shipment_Release_Summary_Bilingual.pdf?dl=1'
+      link_label: Stáhnout PDF
+    - icon: W
+      icon_bg: blue
+      title: Opravný pokyn pro nepropustnost (PDF)
+      desc: 'Řízený pracovní pokyn WI-QC-AT-001 Rev A: rozsah a hranice, klasifikace vad, oprávnění NCR a opravy, řízené provedení, vytvrzování, opětovná kontrola a uvolnění pro nafukovací desky SUP.'
+      link: 'https://assets.isupfactory.com/site/downloads/air-tightness-rework-instruction-wi-qc-at-001.pdf?dl=1'
+      link_label: Stáhnout PDF
+    - icon: M
+      icon_bg: green
+      title: Index karet metod (PDF)
+      desc: 'Řízený dokument SOP-QC-AT-IDX-001 Rev A: číslovaný systém karet metody MC-RW-01 až MC-RW-06, navíc MC-RW-00 pro zmet a odmítnutí, propojený s opravným pokynem pro nepropustnost.'
+      link: 'https://assets.isupfactory.com/site/downloads/method-card-index-sop-qc-at-idx-001.pdf?dl=1'
+      link_label: Stáhnout PDF
+    - icon: V
+      icon_bg: orange
+      title: Standard řízení změn při opravách (stránka)
+      desc: 'Formální řízení změn parametrů oprav podle ISO 9001: ECR, klasifikace rizik, schvalovací matice napříč odděleními, uzavřený cyklus o 9 krocích, kvantifikovaná inženýrská validace a ochranné prvky Poka-Yoke — s dvojjazyčnou SOP QMS-SOP-QC-CC-001 Rev 2.0.'
+      link: '/cs/factory/quality-change-control'
+      link_label: Zobrazit stránku
+    - icon: N
+      icon_bg: blue
+      title: Řízení nevyhovujících výrobků (stránka)
+      desc: 'Řízení nevyhovujících výstupů podle části 8.7 normy ISO 9001:2015: evidence NCR, karanténa, pravomoc k rozhodnutí podle závažnosti, řízená oprava podle SRI, nezávislá opětovná kontrola a zničení za dohledu s hashem SHA-256 — včetně ke stažení dvojjazyčné SOP a certifikátu zmetu.'
+      link: '/cs/factory/non-conforming-control'
+      link_label: Zobrazit stránku
+
+faqs:
+  tagline: FAQ
+  title: Často kladené otázky o kontrole kvality SUP
+  items:
+    - q: 'Jak QINGDAO VATRAD GROUP.,LTD. řídí kvalitu nafukovacích desek SUP?'
+      a: 'Kvalita se řídí vstupní kontrolou materiálu, kontrolními body ve výrobním procesu, závěrečným ověřením výrobku, kontrolou balení a vysledovatelností výroby — každý krok se provádí proti projektem schváleným vzorkům, specifikacím a kontrolním kritériím.'
+    - q: 'Jaké kontroly kvality se provádějí během výroby SUP?'
+      a: 'Kontroly zahrnují ověření materiálu, kontrolu řezání a potisku, kontrolu konstrukce desky, ověření montáže ventilu, kontrolu příslušenství, zkoušení nepropustnosti, vizuální kontrolu a ověření balení.'
+    - q: 'Mohou zákazníci OEM vyžádat kontrolní záznamy výroby SUP?'
+      a: 'Ano. Kontrolní záznamy a dokumentace kvality lze dodat podle projektových požadavků a dohody o kvalitě, a to včetně ukázkových protokolů kontroly před odesláním.'
+    - q: 'Jak závod zajišťuje stálost kvality výroby OEM?'
+      a: 'Stálost kvality se udržuje prostřednictvím schválených vzorků, technických specifikací, kontrolních bodů výroby, kontrolních postupů a zdokumentovaných procesů kvality propojených s každou objednávkou.'
+    - q: 'Mohu sjednat kontrolu třetí stranou SGS, BV, Intertek nebo QIMA?'
+      a: 'Ano. Inspektory třetích stran přijímáme s vyhrazenou kontrolní zónou, kalibrovanými tlakovými měřidly, předem vyplněnými kontrolními briefy a dostupnými záznamy. Pošlete nám svou specifikaci, schválený vzorek, grafiku, požadavky na obaly a kritéria vad — nebo použijte naši šablonu Briefu pro kontrolu třetí stranou.'
+    - q: 'Jak se během výroby řeší změny grafiky, kusovníku nebo obalů?'
+      a: 'Změny se zaznamenávají v našem Protokolu řízení změn s uvedenou dotčenou revizí dokumentu, souhrnem změny, důvodem, posouzením dopadů, stavem souhlasu zákazníka a účinnou dávkou. Zastaralé verze se stahují, takže výroba i kontrola vždy používají aktuální schválené dokumenty.'
+    - q: 'Podporuje závod individuální projekty nafukovacích SUP?'
+      a: 'Ano. Individuální projekty OEM/ODM nafukovacích SUP podporujeme na základě specifikací zákazníka, požadavků na grafiku, konfigurace příslušenství a potřeb obalů, přičemž projektová kontrolní kritéria se dohodnou ještě před výrobou.'
+    - q: 'Lze v závodě opravit protékající desku SUP?'
+      a: 'Ano — za řízených podmínek. Deska se umístí do stavu BLOKACE a propojí s NCR, netěsnost se vyhledá schválenou diagnostickou metodou a oprava pokračuje až po oprávnění QC/Techniky a pouze v rámci tříd vad schválených k opravě. Deska se poté znovu zkontroluje proti stejným kritériím přijetí jako vyhovující deska a teprve poté se uvolní.'
+    - q: 'Kolikrát může závod desku opravit?'
+      a: 'Jedno místo lze opravit jednou podle oprávněného pokynu. Pokud opětovná kontrola stále nevyhovuje, deska se eskaluje k výměně, odmítnutí, zmetu nebo úlevě zákazníka — opakovaná oprava bez zdokumentovaného schválení není povolena.'
+
+cta:
+  title: Potřebujete ukázkový kompletní balíček kvality projektu?
+  desc: 'Pro svůj projekt OEM/ODM si vyžádejte anonymizovaný balíček podpory kontroly třetí stranou a Plán kontroly kvality (QIP) — nebo si stáhněte ukázkové šablony a seznáte se se strukturou dokumentace, kterou pro svou objednávku můžete očekávat.'
+  actions:
+    - text: Vyžádat posouzení kvality
+      variant: primary
+      href: /cs/contact
+    - text: Stáhnout ukázkový balíček kvality (PDF)
+      href: 'https://assets.isupfactory.com/site/downloads/Qingdao_Vatrad_Group_SUP_Quality_Documentation_Pack.pdf?dl=1'
+    - text: Stáhnout kontrolní protokol a kontrolní list PSI
+      href: 'https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_Quality_Inspection_Standards.pdf?dl=1'

@@ -1,0 +1,111 @@
+meta:
+  title: 'Laboratoř tkanin PVC — zkoušení materiálů pro desky SUP'
+  description: 'Zkoušení materiálů od vlákna po hotovou desku: pevnost v tahu, stárnutí UV, mrazuvzdornost a odolnost proti oděru tkanin PVC pro SUP.'
+back_text: 'Zpět do centra výzkumu a vývoje'
+home_label: 'Domů'
+
+hero:
+  tagline: 'Laboratoř 01'
+  title: 'Laboratoř tkanin PVC'
+  subtitle: 'Vědecké zkoušení materiálů — od vlákna po hotovou desku'
+  image: 'https://assets.isupfactory.com/images/sups/randd/isupfactory-pvc-material-lab.webp'
+  image_alt: 'Laboratoř pro zkoušení tkanin PVC společnosti Vatrad'
+
+answer:
+  label: 'Přímá odpověď'
+  text: 'Desky se vyrábějí z námořního PVC 1 680 DTEX s trojvrstvým povlakem a jádrem drop stitch dimenzovaným na 12–15 PSI. Každá přijatá šarže tkaniny se na naší provozovně zkouší samostatně: pevnost v tahu (ISO 1421), zachování vlastností po 2 000 hodinách v xenonové komoře (ISO 4892), odolnost proti oděru a mrazuvzdornost — žádná šarže se nedostane do výroby pouze na základě specifikací dodavatele.'
+  verified: 'září 2026'
+
+intro: 'Tkanina desky je nejkritičtějším materiálem nafukovacího SUP. Musí odolávat trvalému působení UV záření, opakovaným cyklům nafukování, oděru o lávky a písečná pobřeží i prudkým teplotním výkyvům — a přesto si musí roky udržet strukturální integritu. V {SITE.name} je naše Laboratoř tkanin PVC věnována výhradně charakterizaci, validaci a neustálému zlepšování tkanin, které používáme na každé vyrobené desce.'
+
+content_html: |
+  <h2>Základ každého nafukovacího SUP</h2>
+  <p>Nezakládáme pouze na specifikace dodavatele. Každá šarže tkaniny PVC a tkaniny jádra drop stitch, která do naší dílny přijde, se samostatně zkouší v našem vlastním závodě. Tím zajišťujeme, že jimi publikovaná materiálová specifikace jsou skutečné vlastnosti materiálu, které dostanete — šarži za šarží, rok za rokem.</p>
+
+  <h2>Standardizované zkušební vybavení</h2>
+  <p>Naše tkáninová laboratoř je vybavena přístroji průmyslové třídy odpovídajícími zkušebním metodám ISO, ASTM a EN:</p>
+  <table>
+    <thead><tr><th>Zařízení</th><th>Měřené parametry</th><th>Norma</th></tr></thead>
+    <tbody>
+      <tr><td>Univerzální trhací stroj (50 kN)</td><td>Tažná síla při přetržení, poměrné prodloužení při přetržení, šíření trhliny</td><td>ISO 1421 / ASTM D751</td></tr>
+      <tr><td>Xenonová komora pro stárnutí</td><td>Odolnost vůči UV záření (změna barvy, zachování pevnosti po 2 000 h)</td><td>ISO 4892 / ASTM G155</td></tr>
+      <tr><td>Zkušební stroj ohybu za nízkých teplot</td><td>Teplota vzniku prasklin od -30 °C do -50 °C</td><td>ISO 4675 / ASTM D2136</td></tr>
+      <tr><td>Taberův zkušební stroj odolnosti proti oděru</td><td>Úbytek hmotnosti po 1 000 cyklech (disk CS-10)</td><td>ASTM D3389 / ISO 5470-1</td></tr>
+      <tr><td>Mikrometr (digitální, rozlišení 0,001 mm)</td><td>Rovnoměrnost po šířce role</td><td>ISO 2286-3</td></tr>
+      <tr><td>Zkušební přístroj pro hydrostatický tlak</td><td>Odolnost proti pronikání vody</td><td>ISO 811</td></tr>
+    </tbody>
+  </table>
+  <p class="text-sm text-gray-500">* Veškeré vybavení se každoročně kalibruje v externích akreditovaných laboratořích.</p>
+
+  <h2>Od dat k rozhodnutí: typický pracovní postup zkoušek</h2>
+  <p>Když se objeví nový kandidát tkaniny, projde standardizovaným kvalifikačním procesem o sedmi krocích:</p>
+  <ol>
+    <li><strong>Vstupní kontrola</strong> — vizuální prohlídka povrchových vad, průchozích pórů a rozměrové shody.</li>
+    <li><strong>Mapování tloušťky</strong> — měření na 20 místech přes šířku role; pro přijetí je nutná hodnota CV &lt; 3 %.</li>
+    <li><strong>Zkouška tahem</strong> — 5 vzorků ve směru osnovy a útku. Minimálně 3 500 N/50 mm pro PVC 1 100 dtex.</li>
+    <li><strong>Klimatizace UV</strong> — 1 000 hodin expozice v xenonové komoře; vyžaduje se zachování nejméně 80 % pevnosti.</li>
+    <li><strong>Chladné praskání</strong> — 4 hodiny při -35 °C, poté ohyb o 180° na trubici o průměru 25 mm. Bez viditelných prasklin.</li>
+    <li><strong>Odolnost proti oděru</strong> — 1 000 cyklů, úbytek hmotnosti ≤ 0,05 g.</li>
+    <li><strong>Schválení</strong> — tkanina se smí dostat do výroby až po průchodu všemi sedmi vraty.</li>
+  </ol>
+
+  <div class="not-prose my-10 p-6 rounded-xl bg-gray-50 dark:bg-gray-900 border border-gray-200 dark:border-gray-800">
+    <p class="text-sm font-semibold text-gray-500 mb-3 uppercase tracking-wider">Typické PVC 1100 dtex — zachování pevnosti v tahu po expozici UV</p>
+    <div class="flex items-end gap-3 h-40">
+      <div class="flex-1 flex flex-col items-center">
+        <div class="w-full bg-blue-600 rounded-t" style="height:100%"></div>
+        <span class="text-xs mt-1">0 h 100 %</span>
+      </div>
+      <div class="flex-1 flex flex-col items-center">
+        <div class="w-full bg-blue-500 rounded-t" style="height:95%"></div>
+        <span class="text-xs mt-1">500 h 95 %</span>
+      </div>
+      <div class="flex-1 flex flex-col items-center">
+        <div class="w-full bg-blue-400 rounded-t" style="height:88%"></div>
+        <span class="text-xs mt-1">1 000 h 88 %</span>
+      </div>
+      <div class="flex-1 flex flex-col items-center">
+        <div class="w-full bg-blue-300 rounded-t" style="height:82%"></div>
+        <span class="text-xs mt-1">2 000 h 82 %</span>
+      </div>
+      <div class="flex-1 flex flex-col items-center">
+        <div class="w-full bg-gray-300 rounded-t" style="height:65%"></div>
+        <span class="text-xs mt-1">Konkurence ~65 %</span>
+      </div>
+    </div>
+    <p class="text-xs text-gray-400 mt-2">Naše tkanina PVC 1100 dtex si po 2 000 hodinách expozice v xenonové komoře zachová &gt; 80 % pevnosti v tahu oproti běžným značkám v oboru, které ztrácejí více než 30 %.</p>
+  </div>
+
+  <h2>Naš odborný tým</h2>
+  <p>V laboratoři pracují dva kmenoví inženýři materiálů, každý s vysokoškolským vzděláním v oboru věd o polymerech, nebo textilního inženýrství a s praxí v oboru nejméně šest let. Podporují je tři technici, kteří provádějí běžné zkoušky a zaznamenávají data. Tým se pravidelně účastní mezilaboratorních zkoušek pořádaných Mezinárodní organizací pro normalizaci (ISO), aby potvrdil přesnost našich zkušebních metod.</p>
+
+  <h2>Řešení Vašich nejsložitějších materiálových úkolů</h2>
+  <p>Každé vodní prostředí je jiné. Deska pracující v tropech se potýká s naprosto jinými podmínkami UV záření a teploty než deska na severním jezeře, nebo v pouštní vodní nádrži. Naše Tkáninová laboratoř Vám pomůže vybrat — nebo vyvinout — specifikaci tkaniny optimalizovanou pro Váš provozní profil.</p>
+  <p>Mezi nedávnými vlastními řešeními:</p>
+  <ul>
+    <li>Směs PVC se zvýšenou odolností proti oděru pro půjčovní floty, jejichž desky se pravidelně dotýkají písečných pláží a betonových skluzavek (+40 % životnosti vůči oděru).</li>
+    <li>Nízkoteplotní receptura pro kanadský prodejní program zimního skladování, otestovaná až do -50 °C bez křehnutí.</li>
+    <li>Barevně stabilizovaný oranžový koberec pro výcvikovou flotu záchranářů, který si zachovává viditelnost i po 3 letech v tropickém slunci.</li>
+  </ul>
+  <p>Neprodáváme hotové tkaniny a nespoléháme na to, že se budou hodit. Zkoušíme, validujeme a doporučujeme — nebo vytváříme — řešení přizpůsobené Vašemu provoznímu profilu. V tom je rozdíl {SITE.name}.</p>
+
+  <h2>Jak s Vámi spolupracujeme</h2>
+  <p>Když se na nás obrátíte s materiálovým úkolem, můžete očekávat následující:</p>
+  <ol>
+    <li><strong>Konzultace</strong> — prodiskutujeme Vaše provozní prostředí, cílové parametry a rozpočet.</li>
+    <li><strong>Návrh</strong> — sestavíme plán zkoušek s jasnými akceptačními kritérii a termíny.</li>
+    <li><strong>Provedení</strong> — naše laboratoř provede zkoušky a vydá podrobnou zprávu s naměřenými údaji a srovnáním.</li>
+    <li><strong>Doporučení</strong> — navrhneme specifikaci tkaniny včetně alternativ, pokud Vašim požadavkům vyhovuje více materiálů.</li>
+    <li><strong>Doprovod</strong> — po dodání zůstáváme v kontaktu a podporíme jakékoli dotazy k materiálům v provozu.</li>
+  </ol>
+  <p>Naším cílem není pouze prodat Vám desku. Chceme zaručit, že deska, kterou dostanete, spolehlivě funguje v podmínkách, ve kterých ji používáte — a to začíná tkaninou.</p>
+
+cta:
+  title: 'Potřebujete vlastní specifikaci tkaniny?'
+  subtitle: 'Spojte se s naším týmem materiálového inženýrství a proberte své požadavky.'
+  actions:
+    - variant: primary
+      text: 'Spojit se s naší laboratoří'
+      href: /cs/contact#project-brief
+    - text: Zpět do centra výzkumu a vývoje
+      href: /cs/randdcenter

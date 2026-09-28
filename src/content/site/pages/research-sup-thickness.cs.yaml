@@ -1,0 +1,82 @@
+meta:
+  title: 'Jak vybrat tloušťku SUP — konstrukční analýza'
+  description: 'Čím se liší nafukovací desky SUP o tloušťce 4", 5" a 6" z hlediska tuhosti, hmotnosti, stability a směrové stability, včetně doporučení pro tloušťku.'
+  author: 'iSupfactory'
+  datePublished: '2026-08-04'
+  dateModified: '2026-08-07'
+back_text: 'Zpět do výzkumu'
+
+hero:
+  tagline: 'Konstrukce'
+  title: 'Jak vybrat tloušťku SUP — konstrukční analýza'
+  subtitle: '6 min čtení'
+
+answer:
+  label: 'Přímá odpověď'
+  text: 'Tloušťka je kompromis mezi tuhostí a stabilitou: 4" (10 cm) je nejtužší, nejlehčí a nejrychlejší — nejlepší volba pro turistické pádlování a závody; 5" (12,7 cm) je univerzální volba pro většinu paddleařů; 6" (15,2 cm) maximalizuje primární stabilitu pro jógu a těžší paddleaře (100+ kg). Tenčí průřez je konstrukčně tužší, takže deska 4" při 15 PSI se prohýbá méně než deska 6" při 25 PSI.'
+  verified: 'září 2026'
+
+content_html: |
+  <h2>Tři standardní tloušťky</h2>
+
+  <h3>4" (10 cm) – turistika a&amp; výkonnost</h3>
+  <ul>
+    <li>Maximální tuhost – menší průhyb pod zatížením</li>
+    <li>Minimální hmotnost – méně materiálu, menší objem vzduchu</li>
+    <li>Výborná směrová stabilita – menší boční kolébání</li>
+    <li>Nejvyšší rychlost – menší odpor, snazší klouzání</li>
+    <li>Nejlepší volba pro: turistiku, závody, fitness pádlování, zkušené paddleaře</li>
+  </ul>
+
+  <h3>5" (12,7 cm) – univerzální</h3>
+  <ul>
+    <li>Dobrá tuhost – vyvážený poměr průhybu a tuhosti</li>
+    <li>Střední hmotnost – běžná spotřeba materiálu</li>
+    <li>Dobrá primární i sekundární stabilita</li>
+    <li>Nejlepší volba pro: odpočinek, začínající paddleaře, klidná jezera a řeky</li>
+  </ul>
+
+  <h3>6" (15,2 cm) – stabilita a&amp; joga</h3>
+  <ul>
+    <li>Maximální primární stabilita – obrovský vztlak</li>
+    <li>Největší hmotnost – více materiálu PVC, větší objem vzduchu</li>
+    <li>Nejnižší rychlost – větší odpor, obtížnější udržet klouzání</li>
+    <li>Nejlepší volba pro: jógu / fitness, těžké paddleaře (100+ kg), velmi neklidnou vodu</li>
+  </ul>
+
+  <h2>Konstrukční analýza</h2>
+  <p>Tuhost nafukovacího SUP určuje vnitřní tlak vzduchu a moment setrvačnosti příčného řezu desky. Při 20 PSI se deska 4" prohýbá přibližně o 30 % méně než deska 6" stejné šířky a délky. Primární stabilita se určuje šířkou po vodorysku a vztlakem; sekundární stabilita závisí na tvaru boků a šířce desky.</p>
+
+  <h2>Tloušťka podle hmotnosti paddleaře</h2>
+  <table class="w-full text-sm border-collapse">
+    <thead>
+      <tr class="bg-gray-100">
+        <th class="p-3 text-left font-semibold text-gray-900 border">Hmotnost paddleaře</th>
+        <th class="p-3 text-left font-semibold text-gray-900 border">Doporučená tloušťka</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td class="p-3 border">Méně než 65 kg (143 lbs)</td><td class="p-3 border">4"</td></tr>
+      <tr><td class="p-3 border">65 – 90 kg (143 – 198 lbs)</td><td class="p-3 border">5"</td></tr>
+      <tr><td class="p-3 border">90 – 115 kg (198 – 253 lbs)</td><td class="p-3 border">5", nebo 6"</td></tr>
+      <tr><td class="p-3 border">Více než 115 kg (253 lbs)</td><td class="p-3 border">6"</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Kompromis mezi tloušťkou a PSI</h2>
+  <p>Častou chybou je myslet si, že vyšší tlak vyrovná nadbytečnou tloušťku. Při 25 PSI se deska 6" prohýbá více než deska 4" při 15 PSI, protože v rovnici tuhosti dominuje geometrický moment setrvačnosti. Pro paddleaře zaměřené na výkonnost je tenčí deska při nižším tlaku lepší než tlustší deska při vyšším tlaku.</p>
+
+  <h2>Řada Vatrad</h2>
+  <ul>
+    <li><strong>Desky 4":</strong> řada Cheetah Touring – turistické SUP 12' x 30" x 4" pro fitness a pádlování na dlouhé vzdálenosti</li>
+    <li><strong>Desky 5":</strong> řada Cheetah All-Round – 10'6" x 32" x 5" pro odpočinek</li>
+    <li><strong>Desky 6":</strong> řada Cheetah Ultra-Stable – 10' x 34" x 6" pro jógu, větší paddleaře a fotografické plošiny</li>
+  </ul>
+  <p>Všechny desky používají jádra drop stitch 1 680 DTEX se jmenovitým tlakem 15 PSI a lamináty z PVC o tloušťce 1,2 mm.</p>
+  <p>Tloušťku, PSI a specifikaci tkaniny přizpůsobujeme vlastním řadám — podívejte se, jak <a href="/cs/oem-manufacturing">navrhujeme desky pro značky OEM a private label</a>, a projděte si konstrukci desky v <a href="/cs/factory">výrobní provozovně továrny</a>.</p>
+
+cta:
+  title: 'Nejste si jisti, která tloušťka Vám vyhovuje?'
+  subtitle: 'Prozkoumejte naši řadu SUP, nebo se poraďte s naším týmem při volbě rozměru.'
+  button_text: 'Prohlédnout desky SUP'
+  button_link: /cs/products

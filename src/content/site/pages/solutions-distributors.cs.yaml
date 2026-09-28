@@ -1,0 +1,135 @@
+meta:
+  title: 'Velkoobchodní distribuce a private label pro distributory | {SITE}'
+  description: 'Programy private label a velkoobchodní distribuce přímo z továrny pro distributory a maloobchodníky: exkluzivní teritoria, výroba white-label desek SUP a osobní podpora klientů.'
+  dateModified: '2026-09'
+
+hero:
+  tagline: Distributoři a private label
+  title: 'Programy přímo z továrny pro distributory a značky'
+  subtitle: 'Velkoobchodní a private-label programy z výrobní provozovny nafukovacích SUP. Nakupujte za tovární ceny, budujte sortiment pod vlastní značkou a dodávejte na exkluzivní teritoria ve více než 50 zemích.'
+  image:
+    src: https://assets.isupfactory.com/images/sups/factory/isupfactory-factory-building.webp
+    alt: Výrobní a logistické provozovny iSupfactory
+
+answer:
+  label: 'Přímá odpověď'
+  text: 'Distributoři a značky jednají přímo s továrnou: desky SUP white-label pod Vaší značkou, velkoobchodní ceny přímo z továrny, exkluzivní teritorium v rámci každého programu, 3–8 SKU na start a platební lhůtu 45–60 dnů (všechny podmínky dle obchodní dohody), přičemž 100% skladového zboží projde tlakovou zkouškou před odesláním. Minimální startovní objemy a podmínky nákladu se dohodnou pro každé teritorium, dodání FOB Qingdao, nebo CIF.'
+  verified: 'září 2026'
+
+intro:
+  tagline: 'O programu'
+  title: 'Distribuce private label založená na výrobních kapacitách'
+  body: |
+    iSupfactory navrhuje, vyrábí a kontroluje kvalitu každého nafukovacího SUP, kajaku a doplňku ve vlastní provozovně v Laixi v Qingdao. Dohoda o private label s námi znamená, že zdroj dodávek je zabudován do Vaší značky: dostáváte desky vyrobené továrnou pod Vaším jménem, a nikoli přeprodávaný zásobník jiného distributora.
+
+    Protože plánujeme výrobu podle předpovědí klientů, dokážeme navázat velké dávky na začátek sezóny na severní polokouli, zafixovat náklady na dopravu díky předobjednávkám a uvolnit pracovní kapitál díky transparentním velkoobchodním podmínkám a dohodnutému platebnímu kalendáři. Konstrukční řešení, vzorkování, kontrola kvality a vývozní dokumentaci zajišťujeme vlastními silami — v řetězci není žádný zprostředkovatel ani obchodník.
+
+    Tento program je jedním ze dvou způsobů, jak s továrnou pracovat. Pokud rozvíjíte vlastní velkoobchodní značku a chcete, aby ji vyrobili pro Vás, je tato stránka určena právě Vám. Resorty, školy a půjčovny, které nakupují přímo pro vlastní potřebu, by si místo toho měly prostudovat výrobu OEM/ODM a flotové programy.
+
+wholesale_pricing:
+  tagline: Proč se připojit
+  title: 'Co získají distributoři'
+  subtitle: 'Vše potřebné k uvedení značkové řady na Vašem trhu.'
+  intro: 'Partneři v distribuci dostávají stejnou kvalitu továrny a stejnou hloubku konstrukční odbornosti, kterou poskytujeme značkám OEM/ODM, pouze zabalenou pro velkoobchodní kanál pod jejich vlastní etiketou. Podmínky programu — exkluzivita teritoria, startovní sortiment SKU a platební podmínky — se potvrzují pro každý program v obchodní dohodě.'
+  stats:
+    - value: '50+'
+      label: 'Zemí dodávek'
+    - value: '1'
+      label: 'Vyčleněný manažer pro klienta'
+    - value: '45–60'
+      label: 'Dnů platební lhůty'
+    - value: '120 000+'
+      label: 'Desek roční kapacity'
+    - value: '3–8'
+      label: 'SKU na start programu'
+    - value: '100%'
+      label: 'Ověřeno továrnou před odesláním'
+
+steps:
+  tagline: Jak to funguje
+  title: 'Cesta od žádosti po první kontejner'
+  subtitle: 'Přehledný vícefázový proces zapojení, aby Vaše značkový program vyšel v termínu už v první sezóně.'
+  steps:
+    - step: 1
+      title: Odeslání žádosti
+      desc: 'Zašlete distributorskou žádost s profilem společnosti, současným velkoobchodním obratem a teritoriem.'
+    - step: 2
+      title: Určení teritoria
+      desc: 'Potvrdíme, které země, nebo regiony pokrývá Váš značkový program a zda je teritorium exkluzivní.'
+    - step: 3
+      title: Plán sortimentu a brandingu
+      desc: 'Vyberte základní modely z výrobního katalogu, zafixujte specifikace a připravte finální grafiku značky k výrobě.'
+    - step: 4
+      title: Vzorky a potvrzení kvality
+      desc: 'Objednejte certifikační vzorky pro ověření kvality, obalu a fungování přímé dodávky. Vzorky se schvalují před začátkem hromadné výroby.'
+    - step: 5
+      title: Sezónní doplnění
+      desc: 'Váš manažer naplánuje výrobu a doplnění zásob podle Vaší předpovědi a sezónního kalendáře.'
+
+benefits:
+  title: Co získají distributoři
+  subtitle: 'Vše potřebné pro úspěch na Vašem trhu.'
+  items:
+    - 'Private label pod Vaší vlastní značkou (OEM white-label)'
+    - 'Exkluzivní práva k teritoriu (dle obchodní dohody)'
+    - 'Výrobní katalog: SUP, příslušenství, komponenty'
+    - 'Konkurenční ceny přímo z továrny'
+    - 'Marketingové a obchodní materiály (s překladem)'
+    - 'Školicí program (produkt, prodej, servis)'
+    - 'Podpora na veletrzích'
+    - 'Program schvalování vzorků a předprodukce'
+    - 'Možnost přímého dodání objednávky koncovému zákazníkovi'
+    - 'Vyčleněný manažer pro práci s distributory'
+    - 'Platební lhůta 45-60 dnů (dle obchodní dohody)'
+
+coverage:
+  title: 'Aktuální distribuce'
+  subtitle: 'iSupfactory v současnosti dodává přímo na následující trhy.'
+  regions:
+    - name: Evropa
+      countries: 'Francie, Německo, Spojené království, Španělsko, Itálie, Nizozemsko, Švédsko, Norsko, Polsko, Řecko'
+    - name: Asie
+      countries: 'Japonsko, Jižní Korea, Čína, Thajsko, Singapur'
+    - name: Blízký východ
+      countries: 'Spojené arabské emiráty, Saúdská Arábie'
+    - name: Amerika
+      countries: 'USA, Kanada, Brazílie, Mexiko'
+    - name: Oceánie
+      countries: 'Austrálie, Nový Zéland'
+    - name: Afrika
+      countries: 'Jihoafrická republika, Maroko'
+
+faqs:
+  tagline: FAQ distributora
+  title: 'Velkoobchodní distribuční program — časté dotazy'
+  items:
+    - q: 'Jaké je minimální množství objednávky pro nového distributora?'
+      a: 'Noví partneři v distribuci obvykle začínají objednávkou vzorků a předprodukčním odsouhlasením, po němž následuje první kontejner navázaný na jejich sezónu. Přesné minimy závisí na velikosti teritoria a zvoleném sortimentu; Váš manažer potvrdí startovní objem při plánování sortimentu a brandingu.'
+    - q: 'Můžeme prodávat desky pod vlastní značkou?'
+      a: 'Ano. Private label je zde standardní model: desky se vyrábějí pod Vaší značkou s Vaší grafikou, obalem a parametry. iSupfactory vyrábí výhradně pro své klienty a s nimi na žádném trhu nesoutěží.'
+    - q: 'Jsou teritoria exkluzivní?'
+      a: 'Ano. Distribuční programy stojí na exkluzivních teritoriích — každý velkoobchodní partner pokrývá určitou zemi, nebo region a získává ceny a podporu programu pro daný trh, jak je uvedeno v obchodní dohodě.'
+    - q: 'Podporujete přímou dodávku?'
+      a: 'Možnost přímé dodávky je součástí programu. Vzorky, obal a zpracování objednávek se validují ve fázi schvalování vzorků, takže objednávky s přímou dodávkou běží bez problémů od prvního dne.'
+    - q: 'Jaké modely můžeme objednat?'
+      a: 'Výrobní katalog zahrnuje nafukovací desky SUP všech tvarů — univerzální, turistické a surfovací modely, nafukovací kajaky, pumpy, vesla, záchranné vesty a příslušenství pro údržbu, stejně jako vlastní formy vyvinuté spolu s naším konstrukčním týmem. Většina partnerů začíná s 4–8 nejprodávanějšími SKU a sortiment v následujících sezónách rozšiřuje.'
+    - q: 'Jak se objednávky odesílají?'
+      a: 'Objednávky opouštějí továrnu podle plánu plaveb, přičemž je k dispozici předobjednávka pro zafixování nákladu na dopravu. Váš vyčleněný manažer naplánuje výrobu a odeslání podle Vaší předpovědi a sezónního kalendáře.'
+    - q: 'Jak podat žádost?'
+      a: 'Použijte žádostní formulář na této stránce, nebo se na nás obraťte přímo. Žádosti posuzuje distribuční tým a do několika pracovních dnů vám odpovíme s dalšími kroky, včetně určení teritoria a návrhu dohody.'
+
+content_html: |
+  <div class="mx-auto max-w-3xl space-y-4 rounded-2xl border bg-card p-6 text-[14.5px] leading-relaxed text-fg-2">
+    <p><strong>Čtěte dále:</strong> partneři v distribuci prodávají desky vyrobené pro ně pod jejich vlastní značkou — prohlédněte si <a href="/cs/oem-manufacturing">program výroby OEM a private label</a> a <a href="/cs/factory">proces kontroly kvality v továrně</a>, abyste mohli produkt sebevědomě prezentovat.</p>
+  </div>
+
+cta:
+  title: 'Připraveni uvést vlastní značkovou řadu na trh?'
+  subtitle: 'Podajte žádost o distribuční program, nebo prozkoumejte výrobní katalog.'
+  actions:
+    - text: 'Podat žádost o distribuční program'
+      href: '/cs/contact#distributor'
+      variant: 'primary'
+    - text: 'Prohlédnout výrobní katalog'
+      href: '/cs/products'
+      variant: 'secondary'

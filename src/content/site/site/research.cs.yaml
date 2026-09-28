@@ -1,0 +1,49 @@
+badge: Nejnovější výzkumy
+heading: Centrum znalostí
+description: Hloubkový technický výzkum materiálů, konstrukce, bezpečnostních norem a výroby SUP desek a nafukovacích plavidel
+topics:
+  - slug: drop-stitch-technology
+    category: Technologie
+    readTime: 8 min čtení
+  - slug: pvc-vs-hypalon
+    category: Materiály
+    readTime: 10 min čtení
+  - slug: ce-certification-guide
+    category: Shoda s předpisy
+    readTime: 7 min čtení
+  - slug: sup-thickness-guide
+    category: Konstrukce
+    readTime: 6 min čtení
+  - slug: oem-buyer-guide
+    category: Nákupy
+    readTime: 12 min čtení
+  - slug: sup-manufacturing-process
+    category: Výroba
+    readTime: 10 min čtení
+  - slug: eva-foam-technology
+    category: Materiály
+    readTime: 7 min čtení
+  - slug: uv-printing-vs-eva-block
+    category: Technologie
+    readTime: 6 min čtení
+  - slug: fusion-lamination-vs-glue
+    category: Výroba
+    readTime: 8 min čtení
+  - slug: sup-valve-types
+    category: Konstrukce
+    readTime: 6 min čtení
+  - slug: fin-systems-guide
+    category: Konstrukce
+    readTime: 7 min čtení
+  - slug: board-hull-design
+    category: Konstrukce
+    readTime: 9 min čtení
+  - slug: quality-testing-standards
+    category: Shoda s předpisy
+    readTime: 8 min čtení
+  - slug: sup-paddle-technology
+    category: Vybavení
+    readTime: 7 min čtení
+  - slug: military-grade-pvc-specs
+    category: Materiály
+    readTime: 8 min čtení

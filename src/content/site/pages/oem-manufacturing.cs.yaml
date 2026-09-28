@@ -1,0 +1,164 @@
+meta:
+  title: 'Výrobce nafukovacích SUP OEM | výroba paddle boardů na míru'
+  description: 'Továrna OEM pro nafukovací SUP: vyrobíme Vaši existující návrh — technické posouzení, vzorky za 7–12 dní, výroba za 25–35 dní, soulad s CE/ISO/BSCI.'
+  dateModified: '2026-08-16'
+  keywords:
+    - 'výrobce sup oem'
+    - 'oem nafukovací sup'
+    - 'výroba sup na míru'
+    - 'továrna na sup v Číně'
+    - 'továrna na paddle boardy na míru'
+
+hero:
+  tagline: Výroba OEM
+  title: 'Výroba SUP na míru OEM — Vaše specifikace, náš závod'
+  subtitle: 'Vy přinášíte návrh, výkres nebo ověřenou platformu — my vyrábíme v měřítku celého kontejneru. Technické posouzení do jednoho pracovního dne, vzorky za 7–12 dní, výroba běží 25–35 dní po potvrzení objednávky a zálohy, odesíláme pod Vaší značkou.'
+
+answer:
+  label: 'Přímá odpověď'
+  text: 'Výroba OEM vychází z Vaší specifikace. MOQ se určuje podle konfigurace projektu, nikoli podle pevného čísla: standardní sériová výroba běží po 90–100 kusech v dávce z 150m role tkaniny drop-stitch, pilotní dávky začínají na 20–50 kusech na existujících platformách a každý projekt prochází vzorkem (1–2 kusy) před sériovou výrobou. Vzorky odeíláme za 7–12 dní; výroba trvá 25–35 dní po potvrzení objednávky a zálohy, navíc 15–20 dní při nutnosti nového nástroje.'
+  verified: 'září 2026'
+
+features:
+  title: Schopnosti OEM
+  subtitle: 'Vše potřebné k proměně Vaší specifikace, výkresu či platformy v naložený kontejner.'
+  items:
+    - title: Výroba podle Vaší specifikace
+      description: 'Vaše výkresy, rozměry, třídy materiálu a grafika se zhotoví tak, jak jsou dodány — naši inženýři před nabídkou posoudí výrobnost specifikace.'
+      icon: 'tabler:file-check'
+    - title: Adaptace platformy
+      description: 'Ověřené výrobní platformy lze přizpůsobit vašim změnám tvaru, specifikaci výztuhy, rozmístění ventilů a příslušenství — bez úplného vývoje forem.'
+      icon: 'tabler:arrows-diff'
+    - title: Individuální formy
+      description: 'Nové tvary desek podle vašich výkresů nebo CAD — návrh forem a inženýring vlastními silami. Nástroj prodlužuje dodací lhůtu projektu o 15–20 dní.'
+      icon: 'tabler:shapes'
+    - title: Prototyp a vzorek
+      description: 'Fyzický vzorek se vyrobí a schválí před jakoukoli sériovou dávkou, zpravidla za 7–12 dní, u nových tvarů včetně zkoušek na dráze.'
+      icon: 'tabler:tools'
+    - title: Výroba v měřítku kontejneru
+      description: 'Standardní sériové dávky 90–100 kusů na návrh (jedna plná 150m role tkaniny), pilotní dávky od 20–50 kusů, dodací lhůta 25–35 dní po potvrzení objednávky.'
+      icon: 'tabler:package'
+    - title: Soulad s CE a tržními požadavky
+      description: 'Dokumentaci o shodě CE připravíme pro konfigurace použitelné na trhy EU — rozsah se potvrzuje podle projektu. Dokumentace ISO 9001, BSCI, REACH a RoHS se připravuje pro každý trh, na který dodáváte.'
+      icon: 'tabler:certificate'
+    - title: Kontrola a vysledovatelnost
+      description: '24hodinové zkoušení udržením tlaku při 18,0 PSI s automatickým odmítnutím při poklesu nad 0,50 PSI, kontrolní list montáže o 100 bodech a 10letá vysledovatelnost dávek v ERP podle sériového čísla.'
+      icon: 'tabler:shield-check'
+    - title: Globální logistika
+      description: 'FOB Qingdao, CIF a DDP do více než 50 zemí, včetně vývozního balení a vymlouvání na celnici, které zajišťuje náš logistický tým.'
+      icon: 'tabler:world'
+
+customization:
+  tagline: Postaveno podle Vaší specifikace
+  title: Body specifikace pro OEM
+  subtitle: 'Toto jsou body specifikace, které na projektu OEM ovládáte — váš specifikační dokument je smlouvou o výrobě:'
+  items:
+    - 'Rozměry desky — délka, šířka, tloušťka, pružinování a objem podle vašich výkresů nebo cílových jezdců'
+    - 'Materiálová struktura — počet vrstev a druh PVC, hustota drop-stitch, výztuhy a zesílení bočních výztuh'
+    - 'Grafika a barvy — vaše grafika s neomezeným počtem barevných kombinací nebo podpora našeho interního designérského týmu'
+    - 'Protiskluzová podložka EVA — podložky na palubě na míru, loga a barvy paluby na každé desce'
+    - 'Madla a D-kroužky — umístění, počet a specifikace hardwaru podle vašeho použití'
+    - 'Systémy žebra — jedno, dvojité nebo trojité uspořádání a držáky žebra podle vaší specifikace'
+    - 'Pádla, pumpičky, leash a příslušenství — vaše balení, váš branding'
+    - 'Balení a maloobchodní prezentace — maloobchodní krabice, námořně odolné vývozní balení a stojany pod Vaší značkou'
+    - 'Štítky a značky souladu — sériové štítky, loga a dokumentace pro jednotlivé trhy připravená pro váš vývozní region'
+
+faq_section:
+  tagline: FAQ
+  title: Otázky o výrobě OEM
+  questions:
+    - q: Jak začnu projekt OEM s vlastním návrhem?
+      a: 'Pošlete své výkresy, referenční desku nebo písemnou specifikaci. Naše technické posouzení potvrdí výrobnost a do jednoho pracovního dne vrátí nabídku — je to naše standardní závazek a v případě potřeby podepíšeme NDA ještě před výměnou jakýchkoli souborů.'
+    - q: Jaké je MOQ pro OEM nafukovací SUP?
+      a: 'MOQ se potvrzuje podle konfigurace projektu — trupu a nástroje, barevných kombinací a PVC, grafiky, obalů a příslušenství. Standardní sériová výroba běží po 90–100 kusech v dávce (jedna 150m role drop-stitch), zatímco pilotní dávky začínají na 20–50 kusech na existujících platformách. Úplnou logiku výpočtu najdete v našem průvodci MOQ a flexibilního brandingu.'
+    - q: Jaká je obvyklá dodací lhůta objednávky OEM?
+      a: 'Výroba trvá 25–35 dní od potvrzení objednávky a zálohy. Vývoj individuálních forem přidává 15–20 dní na nástroj. Prototypové vzorky obvykle odeíláme do 7–12 dní.'
+    - q: Umíte vyrábět pouze z mých existujících výkresů?
+      a: 'Ano. OEM vyrábíme přímo podle vaší specifikace — design vlastníte. Naši inženýři posoudí výkresy z hlediska výrobní proveditelnosti, upozorní na případné rozpory ve specifikaci ještě před spuštěním výroby nástroje či řezání a schválený vzorek se stane výrobní referencí.'
+    - q: Poskytujete vzorky před výrobou?
+      a: 'Ano. Fyzický vzorek se vyrobí a schválí před jakoukoli sériovou dávkou, zpravidla za 7–12 dní, a je referencí pro všechny následující kontroly kvality.'
+    - q: Jaké certifikace závod má?
+      a: 'Řízení kvality ISO 9001:2015 (v rámci celého závodu), sociální odpovědnost BSCI (audit provozovny amfori), dokumentace o shodě CE pro použitelné konfigurace na trhy EU (rozsah se potvrzuje podle projektu), REACH (materiály) a RoHS (elektronické příslušenství). Úplná dokumentace souladu je dodávána s každou zásilkou OEM, připravená pro vaše cílové trhy.'
+    - q: Jak je na sériové výrobě OEM řízena kvalita?
+      a: 'Výroba běží pod vícebodovou kontrolou kvality — vstupní materiál, kontrola během výroby a závěrečná kontrola — s 24hodinovým zkoušením udržením tlaku při 18,0 PSI (automatické odmítnutí při poklesu nad 0,50 PSI), kontrolním listem montáže o 100 bodech a 10letou vysledovatelností dávek v ERP podle sériového čísla.'
+    - q: Jaké jsou vaše dodací podmínky?
+      a: 'FOB Qingdao, CIF do hlavních světových přístavů nebo DDP pro kvalifikované partnery. Dodáváme do více než 50 zemí na trhy EU, USA, AU a Asie.'
+
+process:
+  title: Proces OEM — od specifikace po naložený kontejner
+  subtitle: 'Sedm řízených fází zajišťovaných jedním týmem závodu, takže každý krok od vaší první specifikace po nabalený kontejner zůstává zdokumentovaný a v termínu.'
+  steps:
+    - phase: '01'
+      title: Posouzení specifikace a nabídka
+      period: 1 pracovní den
+      items:
+        - 'Pošlete své výkresy, specifikaci nebo referenční desky — naši inženýři ověří výrobnost.'
+        - 'Do jednoho pracovního dne obdržíte podrobnou nabídku a projektový plán.'
+    - phase: '02'
+      title: Technické potvrzení
+      period: 1. týden
+      items:
+        - 'Rozměry trupu, druh drop-stitch, specifikace PVC a konstrukce výztuhy se potvrdí proti vašemu dokumentu.'
+        - 'Rozhodnutí o formě či platformě se uzamkne — zde začíná potřebný vývoj nástroje na míru.'
+    - phase: '03'
+      title: Prototyp a vzorek
+      period: 7–12 dní
+      items:
+        - 'Vyrobí se fyzický vzorek a odešle k vašemu posouzení — u nových tvarů včetně zkoušek na dráze.'
+        - 'Vzorek (1–2 kusy) potvrdí vaši specifikaci před jakýmkoli závazkem objemu.'
+    - phase: '04'
+      title: Zkoušení a validace
+      period: Souběžně
+      items:
+        - 'Kontroly nepropustnosti, udržení tlaku, pevnosti švů, zatížení a UV podle výrobní linky.'
+        - 'Dokumentace CE, ISO 9001, BSCI, REACH a RoHS se připraví pro vaše vývozní trhy.'
+    - phase: '05'
+      title: Schválení a potvrzení
+      period: Po podpisu vzorku
+      items:
+        - 'Schválíte vzorek a grafiku; objednávka a záloha uzamknou výrobní slot.'
+        - 'Plán před výrobou potvrdí termíny, množství, balení a nakládací přístav.'
+    - phase: '06'
+      title: Výroba
+      period: 25–35 dní
+      items:
+        - 'Výroba běží pod vícebodovou kontrolou kvality — vstupní materiál, kontrola během výroby a závěrečná kontrola.'
+        - 'Od pilotních objednávek (20–50 kusů) na existujících platformách až po celé dávky z 150m role (90–100+ kusů) pro standardní sériovou výrobu.'
+    - phase: '07'
+      title: Balení a expedice
+      period: 1 den + doprava
+      items:
+        - 'Vývozní balení se sériovými štítky modelu, následuje FOB Qingdao, CIF nebo DDP do 50+ zemí.'
+        - 'Celní dokumentace, sledování a podpora při objednávkách dalších dávek jsou součástí každé fáze.'
+
+geo:
+  tagline: S kým spolupracujeme
+  title: OEM partneři v celém průmyslu SUP
+  sentence: 'Každý projekt OEM v iSupfactory je přiřazen týmu, který už pro tentýž typ podnikání stavěl desky — zde jsou naši zákazníci.'
+  audiences:
+    - 'Značky SUP'
+    - 'Společnosti outdoorových a vodních sportů'
+    - 'Distributeři a maloobchodníci'
+    - 'Resorty, kluby a organizace'
+
+cta:
+  title: 'Připraveni spustit vlastní řadu SUP?'
+  subtitle: 'Obdržíte podrobnou nabídku pro výrobu OEM do jednoho pracovního dne — pošlete svou specifikaci nebo výkresy.'
+  actions:
+    - variant: primary
+      text: Vyžádat nabídku pro výrobu OEM
+      href: /cs/contact#custom-oem
+    - text: Ověřit závod a systém kvality
+      href: /cs/oem-trust-assurance
+    - text: Kontrolní systém v 7 fázích
+      href: /cs/quality
+    - text: Průvodce MOQ a flexibilního brandingu
+      href: /cs/oem-moq-guide
+    - text: Rozpad MOQ a dodací lhůty pro SUP na míru
+      href: /cs/sup-oem-moq-lead-time
+    - text: Spustit novou značku zkušební objednávkou
+      href: /cs/new-brand-trial-order
+    - text: Porovnání konstrukcí SUP
+      href: /cs/sup-construction-comparison
+    - text: Soulad SUP s požadavky jednotlivých trhů
+      href: /cs/sup-compliance-by-market

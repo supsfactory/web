@@ -317,6 +317,30 @@ export const HERO_CONTENT = {
     float1: { value: '1–2 шт', label: 'Образец и согласование (до обязательств по объёму)' },
     float2: { value: FACTS.leadTime, label: 'Срок производства (после PO)' },
   },
+  cs: {
+    kicker: 'Továrna v Čching-tun, Čína · OEM / ODM / vlastní značka · Od vzorku po sériovou výrobu',
+    titlePre: 'Výroba SUP produktů na míru pro',
+    titleAccent: 'značky, distributory a organizace',
+    titlePost: '',
+    sub: 'Nafukovací SUP desky v režimech OEM, ODM a pod vlastní značkou — od posouzení specifikace a vývoje vzorku až po sériovou výrobu s kontrolou kvality v Čching-tun, Čína.',
+    ctaPrimary: 'Začněte svůj SUP projekt',
+    ctaSecondary: 'Prohlédněte si továrnu, MOQ a důkazy kvality',
+    ctaTertiary: '',
+    ctaQuartiary: '',
+    ctaMicro: 'Odpověď do 1 pracovního dne · NDA k dispozici před výměnou souborů · MOQ potvrzeno po posouzení specifikace',
+    stats: [
+      { value: '12 500 m²', label: 'Vlastní továrna — Čching-tun, Čína' },
+      { value: '120 000+', label: 'Desek vyrobíme ročně' },
+      { value: '50+', label: 'Zemí exportu' },
+      { value: FACTS.ndaWindow, label: 'Lhůta odpovědi k NDA' },
+    ],
+    mockupLabel: 'Firemní plošina',
+    mockupBrand: "SUP Explorer 11'",
+    mockupHint: 'Vaše grafika · vaše barvy · váš obal',
+    heroNote: 'MOQ je potvrzeno po posouzení specifikace, protože konstrukce, velikost desky, struktura PVC, grafika, obal a příslušenství ovlivňují spotřebu materiálu.',
+    float1: { value: '1–2 ks', label: 'Vzorek a schválení (před závazkem na objem)' },
+    float2: { value: FACTS.leadTime, label: 'Výrobní doba (po PO)' },
+  },
 }
 
 /** 供 Seo 模块使用的简化映射（仅读，不修改 PUBLIC_PATHS/HREFLANG/OG_*） */

@@ -1,7 +1,7 @@
 import { test, expect } from 'vitest'
-import { llmsFull, llmBrandIndex, llmFrenchIndex, llmsFrenchFull, llmGermanIndex, llmsGermanFull, llmItalianIndex, llmsItalianFull, llmPortugueseIndex, llmsPortugueseFull, llmDutchIndex, llmsDutchFull, llmSwedishIndex, llmsSwedishFull, llmNorwegianIndex, llmsNorwegianFull, llmPolishIndex, llmsPolishFull, llmDanishIndex, llmsDanishFull, llmFinnishIndex, llmsFinnishFull, llmRussianIndex, llmsRussianFull } from '@/features/site/llm'
+import { llmsFull, llmBrandIndex, llmFrenchIndex, llmsFrenchFull, llmGermanIndex, llmsGermanFull, llmItalianIndex, llmsItalianFull, llmPortugueseIndex, llmsPortugueseFull, llmDutchIndex, llmsDutchFull, llmSwedishIndex, llmsSwedishFull, llmNorwegianIndex, llmsNorwegianFull, llmPolishIndex, llmsPolishFull, llmDanishIndex, llmsDanishFull, llmFinnishIndex, llmsFinnishFull, llmRussianIndex, llmsRussianFull, llmCzechIndex, llmsCzechFull } from '@/features/site/llm'
 import { getContentPages } from '@/features/content/loader'
-import { GUIDES_FR, GUIDES_DE, GUIDES_IT, GUIDES_PT, GUIDES_NL, GUIDES_SV, GUIDES_NO, GUIDES_PL, GUIDES_DA, GUIDES_FI, GUIDES_RU } from '@/features/content/guide-content'
+import { GUIDES_FR, GUIDES_DE, GUIDES_IT, GUIDES_PT, GUIDES_NL, GUIDES_SV, GUIDES_NO, GUIDES_PL, GUIDES_DA, GUIDES_FI, GUIDES_RU, GUIDES_CS } from '@/features/content/guide-content'
 import { EDGE_REDIRECTS } from '@/features/seo/edge-gate'
 import { LEGACY_REDIRECTS } from '@/features/seo/legacy-redirects'
 
@@ -337,5 +337,34 @@ test('llms-full.txt Russian section: product/news/tech/case/guide bodies present
   expect(ru).toContain('# Гайд:')
   for (const g of GUIDES_RU) {
     expect(ru, `llms-full.txt Russian section missing guide ${g.slug}`).toContain(`# Гайд: ${g.title}`)
+  }
+})
+
+test('llms.txt Czech section: /cs absolute links, Czech homepage note and guides', () => {
+  const section = llmCzechIndex('https://isupfactory.com')
+  expect(section).toContain('## Česky')
+  expect(section).toContain('— Hlavní stránka')
+  expect(section).toContain('### Česky: Produkty')
+  expect(section).toContain('### Česky: Technologie')
+  expect(section).toContain('### Česky: Případové studie')
+  expect(section).toContain('### Česky: Průvodci')
+  expect(section).toContain('### Česky: Novinky')
+  expect(section).toContain('### Česky: Často kladené dotazy')
+  expect(section).toContain('https://isupfactory.com/cs/')
+  for (const g of GUIDES_CS) {
+    expect(section, `llms.txt Czech section missing guide ${g.slug}`).toContain(`https://isupfactory.com/cs/guides/${g.slug}`)
+  }
+})
+
+test('llms-full.txt Czech section: product/news/tech/case/guide bodies present', () => {
+  const cs = llmsCzechFull()
+  expect(cs).toContain('# Česky')
+  expect(cs).toContain('## Produkt:')
+  expect(cs).toContain('## Novinka:')
+  expect(cs).toContain('## Technologie:')
+  expect(cs).toContain('## Případová studie:')
+  expect(cs).toContain('# Průvodce:')
+  for (const g of GUIDES_CS) {
+    expect(cs, `llms-full.txt Czech section missing guide ${g.slug}`).toContain(`# Průvodce: ${g.title}`)
   }
 })

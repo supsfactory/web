@@ -1,0 +1,99 @@
+meta:
+  title: 'Centrum HF svařování — spojování švů SUP dielektrickým svařováním | {SITE}'
+  description: 'Technologie vysokofrekvenčního svařování, která zajišťuje vzduchotěsné švy desek SUP splňující požadavky. Zkoušky odtrhu, validace těsnosti a vlastní specifikace švů.'
+  dateModified: '2026-08'
+back_text: 'Zpět do centra výzkumu a vývoje'
+home_label: 'Domů'
+
+answer:
+  label: 'Přímá odpověď'
+  text: 'Pracujeme na dielektrických HF lisech s výkonem 15 kW, které molekulárně spojují švy z PVC při ekvivalentu horkého vzduchu 200–600 °C, a následně validujeme každý svar: zkoušky odtrhu podle ASTM D751, udržení vzduchu při 18,0 PSI, se zdokumentováním a sledovatelností švů pro každý výrobek.'
+  verified: 'září 2026'
+
+hero:
+  tagline: 'Laboratoř 03'
+  title: 'Centrum HF svařování'
+  subtitle: 'Technologie dielektrického spojování pro švy, které snášejí tlak'
+  image: 'https://assets.isupfactory.com/images/sups/products/sup-series/sup-jungle-mandala-1.webp'
+  image_alt: 'Proces dielektrického spojování metodou HF svařování společnosti Vatrad'
+
+intro: 'Nafukovací deska SUP je stejně spolehlivá jako její švy. Jeden slabý svar může zpochybnit celou komoru — a selhání komory pod nohama není nepříjemnost, ale bezpečnostní riziko. V {SITE.name} jsme investovali do specializovaného Centra vysokofrekvenčního (HF) svařování, které spojuje průmyslové lisy na dielektrické svařování s přísnou kontrolou procesů a zkouškami po svaření. Každý námi vyrobený svar je zdokumentován, sledovatelný a certifikovaný na shodu, nebo překročení požadavků mezinárodní normy pro nafukovací plavidla.'
+
+content_html: |
+  <h2>Věda za švem</h2>
+  <p>HF svařování využívá vysokofrekvenční elektromagnetickou energii (zpravidla 27,12 MHz) k rozkmitání polárních molekul v tkanině potažené PVC, čímž se teplo uvolňuje přesně na rozhraní materiálů. Na rozdíl od svařování horkým vzduchem, nebo horkým klínem vytváří HF svařování skutečnou molekulární vazbu — dvě vrstvy tkaniny v místě svaru splynou v jeden homogenní materiál a spoj má pevnost srovnatelnou s původním materiálem.</p>
+
+  <h2>Svařovací vybavení a kontrola procesu</h2>
+  <p>Naše svařovací centrum je vybaveno:</p>
+  <table>
+    <thead><tr><th>Stroj</th><th>Výkon / kapacita</th><th>Použití</th></tr></thead>
+    <tbody>
+      <tr><td>Dielektrický HF lis 1</td><td>15 kW, deska 2000 × 600 mm</td><td>Hlavní švy desky, spojení bočních pásů s palubou</td></tr>
+      <tr><td>Dielektrický HF lis 2</td><td>10 kW, deska 1500 × 500 mm</td><td>Svařování příďového kužele, podložek pod úchyt, podložek pod ventily</td></tr>
+      <tr><td>HF svařovací přístroj s CNC řízením</td><td>8 kW, stůl XY 2500 × 1200 mm</td><td>Svařování zakřivených bočních švů, lisování log, panelů, přesné páskové sestavy</td></tr>
+      <tr><td>Automatický přístroj na svařování horkým klínem</td><td>Přeladitelná teplota, maximum 1,2 m/min</td><td>Záložná metoda pro speciální materiály CSM</td></tr>
+    </tbody>
+  </table>
+  <p>Každý HF lis je vybaven uzavřenou smyčkou kontroly teploty a tlaku. Svařovací parametry — výkon, dobu lisování, dobu chlazení, tlak elektrod — se nastavují podle typu materiálu a zaznamenávají do našeho výrobního systému (MES) pro úplnou sledovatelnost.</p>
+
+  <h2>Zkoušky kvality svarů — každý šev, každá deska</h2>
+  <p>Integrita svarů se potvrzuje povinným protokolem čtyř zkoušek:</p>
+  <ol>
+    <li><strong>Vizuální kontrola</strong> — 100 % švů se vizuálně kontroluje na propálení, posunutí, znečištění, nebo neúplné spojení. Práh zmetkovitosti: 0,5 % běžných metrů.</li>
+    <li><strong>Zkouška odtrhu</strong> — ze zkušebního sweepu, který se svaří s každou výrobní dávkou, se vystřihne pás šířky 25 mm. Minimální síla odtrhu: 120 N/25 mm pro PVC 1100 dtex.</li>
+    <li><strong>Zkouška těsnosti</strong> — každá hotová deska se natlakuje na 18,0 PSI a zůstává 24 hodin. Pokles tlaku nesmí překročit 0,50 PSI.</li>
+    <li><strong>Zkouška termocyklem</strong> — zkušební sweepy absolvují 50 cyklů od -20 °C do +60 °C, poté se znovu zkoušejí na odtrh. Přípustný pokles pevnosti: &lt; 10 %.</li>
+  </ol>
+
+  <div class="not-prose my-10 p-6 rounded-xl bg-gray-50 dark:bg-gray-900 border border-gray-200 dark:border-gray-800">
+    <p class="text-sm font-semibold text-gray-500 mb-3 uppercase tracking-wider">Porovnání pevnosti odtrhu — HF svařování proti horkému vzduchu (PVC 1100 dtex)</p>
+    <div class="space-y-3">
+      <div class="flex items-center gap-3">
+        <span class="w-24 text-xs font-medium">HF šev</span>
+        <div class="flex-1 h-6 bg-gray-200 dark:bg-gray-700 rounded">
+          <div class="h-full bg-blue-600 rounded" style="width:92%"></div>
+        </div>
+        <span class="text-xs font-bold w-12 text-right">184 N</span>
+      </div>
+      <div class="flex items-center gap-3">
+        <span class="w-24 text-xs font-medium">Horký vzduch</span>
+        <div class="flex-1 h-6 bg-gray-200 dark:bg-gray-700 rounded">
+          <div class="h-full bg-blue-400 rounded" style="width:65%"></div>
+        </div>
+        <span class="text-xs font-bold w-12 text-right">130 N</span>
+      </div>
+      <div class="flex items-center gap-3">
+        <span class="w-24 text-xs font-medium">Standardní minimum</span>
+        <div class="flex-1 h-6 bg-gray-200 dark:bg-gray-700 rounded">
+          <div class="h-full bg-green-500 rounded" style="width:48%"></div>
+        </div>
+        <span class="text-xs font-bold w-12 text-right">96 N</span>
+      </div>
+    </div>
+    <p class="text-xs text-gray-400 mt-2">HF svařování stabilně dosahuje 90–95 % pevnosti původního materiálu, což je výrazně více než požadované minimum.</p>
+  </div>
+
+  <h2>Odborné zkušenosti</h2>
+  <p>Naším svařovacím týmem vede vedoucí procesní inženýr s 11letou zkušeností v dielektrickém svařování potažených textilních materiálů. Každý operátor absolvuje 6měsíční interní certifikační program, než mu je povoleno pracovat s výrobními švy. Každoroční recertifikace je povinná a zahrnuje praktickou svařovací zkoušku hodnocenou podle našeho interního standardu třídy A (pevnost odtrhu ≥ 160 N/25 mm).</p>
+
+  <h2>Vlastní svařovací řešení pro mimořádné požadavky</h2>
+  <p>Uvědomujeme si, že jedna svařovací specifikace nevyhovuje každé aplikaci. Naše Centrum HF svařování pravidelně vyvíjí vlastní konfigurace švů pro zákazníky se speciálními požadavky:</p>
+  <ul>
+    <li><strong>Vícevrstvé výztužné podložky</strong> — pro zóny s vysokým oděrem, jako jsou boční pásy a příďové zátky, vyvíjíme víceprůchodové HF švy, které spojují zesílenou odolnou vnější vrstvu bez újmy na ohebnosti.</li>
+    <li><strong>Švy vysokotlakých desek</strong> — u desek se jmenovitým tlakem nad 15 PSI validujeme geometrii švu při zvýšeném provozním tlaku a mezní hodnotu zapíšeme do zkušebního protokolu.</li>
+    <li><strong>Svařování panelů se změnou barvy</strong> — dvoubarevné tkaninové panely (například oranžová paluba + šedý bok) se svařují se skrytým přesahem, takže estetika značky zůstává zachována bez viditelné spáry.</li>
+  </ul>
+
+  <h2>Náš závazek vůči Vám</h2>
+  <p>Každá deska, kterou dodáme, je doplněna zárukou kvality svarů: pokud se během běžného provozu v záruční době jakýkoli šev porouchá, bezplatně opravíme, nebo vyměníme dotčenou komoru a provedeme šetření hlavní příčiny, aby se to neopakovalo. Nejde jen o záruku — jde o závazek neustále se zlepšovat na základě skutečných provozních dat.</p>
+  <p>Když volíte {SITE.name}, volíte švy, které jsou navrženy, otestovány a zdokumentovány, ne jen svařeny. V tom je rozdíl mezi deskou, která pouze plave, a deskou, která pracuje.</p>
+
+cta:
+  title: 'Proberte své požadavky na svařování'
+  subtitle: 'Vlastní specifikace švů, kompatibilita materiálů, nebo validace procesů.'
+  actions:
+    - variant: primary
+      text: 'Spojit se s naším svařovacím týmem'
+      href: /cs/contact#project-brief
+    - text: Zpět do centra výzkumu a vývoje
+      href: /cs/randdcenter

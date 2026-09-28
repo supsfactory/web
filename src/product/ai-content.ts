@@ -58,6 +58,9 @@ export const LLM_FINNISH_HOMEPAGE_DESCRIPTION =
 export const LLM_RUSSIAN_HOMEPAGE_DESCRIPTION =
   'iSupfactory — OEM/ODM-фабрика в Циндао, Китай, которая производит надувные SUP-доски для брендов, дистрибьюторов и реселлеров. Мы разрабатываем и производим доски, весла, плавники и упаковку по спецификации заказчика — от образца и прототипа до серийного производства. Минимальный заказ (MOQ), сертификация и сроки поставки всегда подтверждаются по конкретному проекту.'
 
+export const LLM_CZECH_HOMEPAGE_DESCRIPTION =
+  'iSupfactory je továrna OEM/ODM v Čching-tunu v Číně, která vyrábí nafukovací SUP desky pro značky, distributory a prodejce. Vyvíjíme a vyrábíme desky, vesla, žebra a obaly podle specifikace zákazníka — od vzorku a prototypu až po sériovou výrobu. Minimální objednávka (MOQ), certifikace a dodací lhůty se vždy potvrzují podle konkrétního projektu.'
+
 export const AI_SYSTEM_ROLE =
   `You are the {SITE} product advisor, a sales engineer for a custom inflatable SUP (stand-up paddle board) OEM/ODM factory in Qingdao, China.`
 
@@ -190,6 +193,15 @@ export const CUSTOMIZATION_OPTIONS: Record<string, { title: string; body: string
     { title: 'Плавники и аксессуары', body: 'Конфигурации плавников, весла, насосы, поводки и сумки, подобранные под ваш комплект.' },
     { title: 'Упаковка и презентация', body: 'Розничные коробки, морская транспортная упаковка и POS-стенды под вашим брендом.' },
   ],
+  cs: [
+    { title: 'Velikost a tvar desky', body: 'Délka, šířka, tloušťka a rocker přizpůsobené vašim cílovým výkonům a trhu.' },
+    { title: 'Materiály a konstrukce', body: 'Vrstvy PVC, hustota drop-stitch, výztuhy a zesílení podle vaší cenové úrovně.' },
+    { title: 'Barvy a grafika', body: 'Neomezené kombinace barev s vlastní grafikou nebo s pomocí našeho designérského týmu.' },
+    { title: 'Logo a značení', body: 'Digitální nebo sítotiskové zhotovení loga, s vizuálním potvrzením před výrobou.' },
+    { title: 'EVA a paluba', body: 'Na míru řezané protiskluzové podložky, loga a barvy paluby na každé desce.' },
+    { title: 'Žebra a příslušenství', body: 'Konfigurace žebra, vesla, pumpičky, kotevní řemínky a tašky přizpůsobené vašemu balíčku.' },
+    { title: 'Obal a prezentace', body: 'Retailové krabice, námořní přepravní obaly a POS stojany pod vaší značkou.' },
+  ],
 }
 
 export const OEM_APPLICATIONS: Record<string, { title: string; body: string }[]> = {
@@ -283,6 +295,13 @@ export const OEM_APPLICATIONS: Record<string, { title: string; body: string }[]>
     { title: 'Розничные компании и outdoor-бренды', body: 'Сезонные программы пополнения запасов со стабильной спецификацией от партии к партии.' },
     { title: 'Курорты и прокатные операторы', body: 'Парки для интенсивной эксплуатации с усилениями, запасными частями и стандартизированным обслуживанием.' },
     { title: 'Клубы, школы и мероприятия', body: 'Брендированные доски для программ, соревнований и корпоративных парков.' },
+  ],
+  cs: [
+    { title: 'Značky SUP', body: 'Spusťte vlastní řadu s odstupňovanými minimálními množstvími od sérií co-branding 5–10 ks.' },
+    { title: 'Distributoři a prodejci', body: 'Velkoobchodní katalogy s námořním obalem a správou exportu.' },
+    { title: 'Maloobchod a outdoorové firmy', body: 'Sezónní programy doplňování zásob se stabilními specifikacemi, dávku za dávkou.' },
+    { title: 'Resorty a pronajímatelé', body: 'Floty pro intenzivní používání se zesíleními, náhradními díly a standardizovanou údržbou.' },
+    { title: 'Kluby, školy a akce', body: 'Značkové desky pro programy, závody a firemní floty.' },
   ],
 }
 
@@ -391,6 +410,14 @@ export const HUB_PAGE_ENTRIES: Record<string, { url: string; title: string; exce
     { url: '/ru/knowledge', title: '', excerpt: '' },
     { url: '/ru/gallery', title: 'Галерея', excerpt: 'Галерея фабрики и продукции iSupfactory: цеха, лаборатории качества, испытания тканей и SUP-доски в производстве.' },
   ],
+  cs: [
+    { url: '/cs', title: 'iSupfactory — OEM a ODM výroba nafukovacích SUP desek', excerpt: 'Továrna OEM/ODM nafukovacích SUP desek v Čching-tunu: vývoj produktu, výroba na míru, vlastní značka a kontrola kvality.' },
+    { url: '/cs/products', title: 'Produkty: nafukovací SUP desky', excerpt: 'Prémiové nafukovací SUP desky: série 11 ft, rybářská SUP, mini SUP, obří týmové desky a další — výroba na míru v režimu OEM/ODM.' },
+    { url: '/cs/solutions', title: 'Řešení', excerpt: 'Programy OEM/ODM výroby SUP: vývoj SUP na míru, vlastní značka, floty pro resorty a kluby, pronájem a maloobchodní partneři.' },
+    { url: '/cs/projects', title: '', excerpt: '' },
+    { url: '/cs/knowledge', title: '', excerpt: '' },
+    { url: '/cs/gallery', title: 'Galerie', excerpt: 'Galerie továrny a produktů iSupfactory: dílny, laboratoře kvality, zkoušky tkanin a SUP desky ve výrobě.' },
+  ],
 }
 
 export const CASE_STUDY_STATS = {
@@ -412,6 +439,7 @@ export const FAQ_EXCERPTS: Record<string, string> = {
   da: 'Ofte stillede spørgsmål om OEM/ODM-produktion af oppustelige SUP-bræt — materialer, certificeringer, minimumsordre (MOQ) og engros.',
   fi: 'Usein kysytyt kysymykset puhallettavien SUP-lautojen OEM/ODM-tuotannosta — materiaalit, sertifioinnit, minimitilaus (MOQ) ja tukkukauppa.',
   ru: 'Часто задаваемые вопросы о OEM/ODM-производстве надувных SUP-досок — материалы, сертификация, минимальный заказ (MOQ) и оптовая поставка.',
+  cs: 'Často kladené dotazy o OEM/ODM výrobě nafukovacích SUP desek — materiály, certifikace, minimální objednávka (MOQ) a velkoobchodní dodávky.',
 }
 
 export const STATIC_PAGE_CORPUS_TEXT =

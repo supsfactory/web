@@ -1,0 +1,81 @@
+meta:
+  title: 'Prověření továrny pro výrobu SUP | Návštěva, audit a inspekce v Qingdao'
+  description: 'Jak před rozhodnutím prověřit továrnu pro výrobu SUP: naplánovat návštěvu, provést nezávislý audit, nebo inspekci a prostudovat záznamy QC, sledovatelnost šarží a certifikáty v Qingdao v Číně.'
+  dateModified: '2026-09-23'
+  keywords:
+    - 'prověření továrny sup'
+    - 'návštěva továrny sup v Qingdao'
+    - 'audit továrny sup'
+    - 'nezávislá inspekce sup'
+    - 'prověření továrny nafukovacích paddle boardů'
+
+hero:
+  tagline: 'Prověření továrny'
+  title: 'Prověřte továrnu pro výrobu SUP ještě před rozhodnutím'
+  subtitle: 'Továrně se nemá věřit prostě na slovo. Naplánujte návštěvu, proveďte nezávislý audit, nebo inspekci a prostudujte certifikáty, záznamy QC a sledovatelnost šarží ještě před první objednávkou — vše je otevřené pro vážné kupující.'
+
+answer:
+  label: 'Přímá odpověď'
+  text: 'Areál iSupfactory je výrobní závod o ploše 12 500 m² v Qingdao v provincii Shandong v Číně, s 350+ zaměstnanci, 4 automatizovanými výrobními linkami a 4 specializovanými dílny. Kupující ho mohou prověřit čtyřmi způsoby: navštívit areál kdykoli během roku, provést vlastní, nebo společný audit (BSCI, ISO 9001), objednat nezávislou inspekci (SGS, TÜV, BV, Intertek; vzorkování úrovně II podle ISO 2859-1), nebo prostudovat zdokumentované potvrzení — certifikáty, montážní kontrolní seznamy o 100 bodech, protokoly 24hodinové zkoušky udržením tlaku 18,0 PSI a 10letou sledovatelnost šarží v ERP podle každého sériového štítku.'
+  verified: 'září 2026'
+
+features:
+  title: 'Způsoby prověření továrny'
+  subtitle: 'Čtyři varianty prověření, které pro Vás zorganizuje projektový specialista — zvolte jednu, nebo je kombinujte.'
+  items:
+    - title: 'Naplánovat návštěvu továrny'
+      description: 'Přijímáme návštěvy kupujících v Qingdao po celý rok a zajišťujeme uvítání na letišti i prohlídku výrobních ploch v termínech, které Vám vyhovují. NDA je k dispozici kdykoli.'
+      icon: 'tabler:map-pin'
+    - title: 'Nezávislý audit'
+      description: 'Auditní zprávy BSCI a ISO 9001 jsou k dispozici na vyžádání a společné audity vítány, abyste mohli projít dílny spolu s auditorem.'
+      icon: 'tabler:clipboard-check'
+    - title: 'Nezávislá inspekce'
+      description: 'Přednášková, nebo inspekce během výroby od SGS, TÜV, BV, nebo Intertek podle vzorkování úrovně II ISO 2859-1 — na Vaše náklady, s naším zajištěním, zpráva jde přímo Vám.'
+      icon: 'tabler:zoom-check'
+    - title: 'Prověření dokumentace'
+      description: 'Kopie certifikátů, záznamy vstupní, mezioperační a závěrečné kontroly, protokoly zkoušek udržením tlaku a soubory sledovatelnosti šarží dodáme ještě před rozhodnutím.'
+      icon: 'tabler:file-search'
+    - title: 'Video prohlídka v reálném čase'
+      description: 'Nemůžete přijet? Ukážeme vám výrobní dílny v reálném čase — zpracování drop stitch, svařování, tisk, montáž, zkoušky a balení — ještě před zadáním objednávky.'
+      icon: 'tabler:device-camera-phone'
+
+faq_section:
+  tagline: 'Otázky k prověření'
+  title: 'Prověření a inspekce továrny — otázky a odpovědi'
+  questions:
+    - q: 'Kde se továrna nachází?'
+      a: 'Areál se nachází v Qingdao v provincii Shandong v Číně — výrobní závod o ploše 12 500 m² s 350+ zaměstnanci, 4 automatizovanými linkami a 4 specializovanými dílny. Adresu a mapu poskytujeme ověřeným kupujícím při plánování návštěvy a adresa výrobního areálu je uvedena ve smlouvách, auditu BSCI a vývozní dokumentaci.'
+    - q: 'Co továrna vyrábí?'
+      a: 'Nafukovací SUP desky — od návrhu trupu a zpracování jádra drop stitch po grafiku, montáž, zkoušky a vývozní balení. Všechny klíčové procesy pro SUP probíhají pod jednou střechou.'
+    - q: 'Které procesy zajišťujeme vlastními silami?'
+      a: 'Návrh trupu, rozměrové inženýrství, zpracování jádra drop stitch, vysokofrekvenční svařování, tisk grafiky, řezání podložek EVA, výroba vlastní formy, montáž, zkoušky a balení zajišťujeme vlastními silami. Příslušenství a část materiálu pocházejí od certifikovaných dodavatelů a na areálu se kompletují pro zachování sledovatelnosti.'
+    - q: 'Mohou kupující továrnu navštívit?'
+      a: 'Ano. Návštěvy kupujících přijímáme v Qingdao po celý rok. Uvítání na letišti Qingdao Jiaodong a úplnou prohlídku výrobních dílen zorganizuje Váš projektový specialista.'
+    - q: 'Mohou kupující zorganizovat nezávislou inspekci?'
+      a: 'Ano. Inspekce SGS, TÜV, BV a Intertek jsou vítány před výrobou i během ní. Přednášková inspekce se provádí podle vzorkování úrovně II ISO 2859-1 a zpráva jde přímo Vám od inspekční organizace.'
+    - q: 'Mohou kupující vyžádat dokumentaci QC?'
+      a: 'Ano. Kopie certifikátů, záznamy vstupní, mezioperační a závěrečné kontroly, protokoly 24hodinové zkoušky udržením tlaku 18,0 PSI a montážní kontrolní seznam o 100 bodech předáme ke každé šarži na vyžádání.'
+    - q: 'Jak se vede sledovatelnost šarží?'
+      a: 'Každá deska má sériový štítek. Šarže se zapisují do 10letého registru ERP, který k jednotlivým sériovým číslům přiřazuje roli látky, materiály, datum výroby, obsluhu a výsledky zkoušek.'
+    - q: 'Jak se využívá odsouhlasený vzorek?'
+      a: 'Odsouhlasený vzorek se stává etalonem výroby. Materiály, rozměry, grafika, příslušenství a povrchová úprava se na každých kontrolních branách QC porovnávají s ním, takže výroba odpovídá tomu, co jste odsouhlasili.'
+    - q: 'Jak se kontroluje kvalita výroby?'
+      a: '7fázový systém kvality (Node 01–07) zahrnuje vstupní kontrolu materiálů, mezioperační kontrolu a závěrečnou inspekci, včetně 24hodinové zkoušky udržením tlaku 18,0 PSI (automatické vyřazení při poklesu více než 0,50 PSI) a uvolnění na koncové lince podle vzorkování úrovně II ISO 2859-1.'
+
+cta:
+  title: 'Nejprve prověřte, teprve potom rozhodněte'
+  subtitle: 'Naplánujte prohlídku areálu, nebo si vyžádejte podklady pro prověření — projektový specialista odpoví do jednoho pracovního dne.'
+  actions:
+    - variant: primary
+      text: 'Sjednat hovor pro prověření továrny'
+      href: /cs/contact
+    - text: 'Centrum důkazů — potvrzení o továrně'
+      href: /cs/proof-center
+    - text: 'Kontrolní seznam auditu továrny'
+      href: /cs/factory-audit-checklist
+    - text: 'Důvěra OEM a záruky továrny'
+      href: /cs/oem-trust-assurance
+    - text: 'Kvalita a zkoušky'
+      href: /cs/quality
+    - text: 'Továrna a výroba'
+      href: /cs/factory

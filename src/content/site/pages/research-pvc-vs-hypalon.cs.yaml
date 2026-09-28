@@ -1,0 +1,81 @@
+meta:
+  title: 'PVC proti Hypalonu — tkaniny nafukovacích desek SUP | {SITE}'
+  description: 'PVC proti Hypalonu pro konstrukci nafukovacích desek SUP: odolnost vůči UV, životnost, opravitelnost, hmotnost, cena a to, jakou tkaninu desky SUP skutečně používají.'
+  author: 'iSupfactory'
+  datePublished: '2026-08-04'
+  dateModified: '2026-08-07'
+back_text: 'Zpět do výzkumu'
+
+hero:
+  tagline: 'Materiály'
+  title: 'PVC proti Hypalonu — průvodce materiály nafukovacích desek SUP'
+  subtitle: '10 min čtení'
+
+answer:
+  label: 'Přímá odpověď'
+  text: 'U desek SUP PVC vyhovuje cenou, hmotností, tisknutelností a možností automatizace HF svařování — námořní PVC 1 680 DTEX s trojvrstvým povlakem a UV stabilizátory je oborovým standardem. Hypalon/CSM odolává slunci a chemikáliím déle, ale stojí přibližně 3&ndash;5&times; více, je těžší a lepí se ručně, což jej na moderních SUP činí vzácným.'
+  verified: 'září 2026'
+
+content_html: |
+  <h2>Přehled materiálů</h2>
+
+  <h3>PVC (polyvinylchlorid)</h3>
+  <p>PVC je standardní tkaninou pro nafukovací desky SUP. Pro konstrukci desky se obvykle zpevňuje polyesterovou osnovou (1 100 – 1 680 DTEX) a potahuje se z obou stran, následně se tepelně spojuje kolem jádra drop stitch. Moderní receptury námořního PVC obsahují UV stabilizátory a změkčovadla pro lepší ohebnost a odolnost vůči povětrnostním vlivům a desky vyrobené tímto způsobem drží provozní tlak 12 – 15 PSI.</p>
+
+  <h3>Hypalon (CSM – chlorsulfonovaný polyethylen)</h3>
+  <p>Hypalon je syntetická gumovitá směs (po ukončení výroby obchodní značky Hypalon firmou DuPont se vyrábí pod společným označením CSM). Je známý mimořádnou odolností vůči UV záření a ozonu, což z něj dělá preferovanou tkaninu pro profesionální a komerční nafukovací čluny a boční prvky, které dlouho stojí na přímém slunci. Na deskách SUP se Hypalon používá zřídka — desky vyžadují vysokotlaké a rozměrově stálé paluby, které poskytuje PVC a konstrukce drop stitch při podstatně nižší hmotnosti.</p>
+
+  <h2>Porovnání vedle sebe</h2>
+  <table class="w-full text-sm border-collapse">
+    <thead>
+      <tr class="bg-gray-100">
+        <th class="p-3 text-left font-semibold text-gray-900 border">Vlastnost</th>
+        <th class="p-3 text-left font-semibold text-gray-900 border">PVC</th>
+        <th class="p-3 text-left font-semibold text-gray-900 border">Hypalon (CSM)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td class="p-3 border font-medium">Odolnost vůči UV záření</td><td class="p-3 border">Dobrá (se stabilizátory)</td><td class="p-3 border">Výborná (vlastní materiálu)</td></tr>
+      <tr><td class="p-3 border font-medium">Odolnost proti oděru</td><td class="p-3 border">Dobrá</td><td class="p-3 border">Velmi dobrá</td></tr>
+      <tr><td class="p-3 border font-medium">Pevnost v tahu</td><td class="p-3 border">3 000 – 5 000 N/5cm</td><td class="p-3 border">2 500 – 4 000 N/5cm</td></tr>
+      <tr><td class="p-3 border font-medium">Hmotnost (na m&sup2;)</td><td class="p-3 border">850 – 1 200 g</td><td class="p-3 border">1 100 – 1 500 g</td></tr>
+      <tr><td class="p-3 border font-medium">Mrazuvzdornost (nízké teploty)</td><td class="p-3 border">-30&deg;C</td><td class="p-3 border">-20&deg;C</td></tr>
+      <tr><td class="p-3 border font-medium">Opravitelnost</td><td class="p-3 border">Snadná (tepelné svařování, nebo lepení)</td><td class="p-3 border">Je potřeba speciální lepidlo na CSM</td></tr>
+      <tr><td class="p-3 border font-medium">Metoda spojování</td><td class="p-3 border">HF svařování, svařování horkým vzduchem</td><td class="p-3 border">Ruční lepení (kontaktní lepidlo)</td></tr>
+      <tr><td class="p-3 border font-medium">Cena (materiál)</td><td class="p-3 border">$8 – $15 / m&sup2;</td><td class="p-3 border">$20 – $40 / m&sup2;</td></tr>
+      <tr><td class="p-3 border font-medium">Životnost (tropické slunce)</td><td class="p-3 border">5 – 8 let</td><td class="p-3 border">10 – 15 let</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Co volit?</h2>
+
+  <h3>Volte PVC, když:</h3>
+  <ul>
+    <li>Vyrábíte nafukovací desky SUP (PVC + drop stitch — oborový standard)</li>
+    <li>Je důležitá hmotnost desky — PVC je o 15 – 25 % lehčí</li>
+    <li>Potřebujete ohebnost při teplotách pod -20&deg;C</li>
+    <li>Potřebujete širší výběr barev a variant povrchové úpravy</li>
+    <li>Potřebujete vysoký provozní tlak (12 – 15 PSI) pro tuhou a stabilní palubu</li>
+  </ul>
+
+  <h3>Volte Hypalon, když:</h3>
+  <ul>
+    <li>Výrobek bude celé roky stát u mola, nebo být skladován na přímém slunci</li>
+    <li>Pracujete v tropech, nebo v prostředí s vysokým UV zářením bez možnosti skladování v interiéru</li>
+    <li>Maximální životnost je důležitější než hmotnost a cena</li>
+    <li>Vyrábíte profesionální, nebo komerční plavidla, například boční prvky člunů</li>
+    <li>Oděr pískem, betonem, nebo lávkami je hlavním rizikovým faktorem</li>
+  </ul>
+
+  <h2>Rozdíly ve výrobě</h2>
+  <p>Desky z PVC se vyrábějí metodou HF (vysokofrekvenčního) svařování, nebo svařování horkým vzduchem, při němž mezi vrstvami potažené tkaniny vzniká molekulární vazba. To umožňuje automatizaci výroby s vysokou výkonností a stabilním provozem a zároveň zajišťuje přesnou pevnost švů na vysokotlakých deskách. Hypalon se sestavuje ručním lepením kontaktním lepidlem; každý šev se ručně zavalí a přitlačí, takže výroba Hypalonu je pracnější a hodí se pro nízkotlaké trubkové konstrukce.</p>
+
+  <h2>Doporučení Vatrad</h2>
+  <p>U nafukovacích desek SUP zajišťuje moderní kvalitní PVC s UV stabilizátory optimální rovnováhu ceny, hmotnosti, vlastností a životnosti. Vatrad vyrábí každé SUP z námořního PVC 1 680 DTEX s trojvrstvým povlakem a jádrem drop stitch dimenzovaným na 15 PSI — přitom každá šarže tkaniny se před začátkem výroby samostatně zkouší v naší Laboratoři tkanin PVC. Hypalon zůstává na vyžádání dostupný pro komerční plavidla a speciální aplikace; vyrábí se odděleně v naší komerční námořní řadě.</p>
+  <p>Volba materiálu určuje cenu, hmotnost a životnost Vaší řady — sdělte nám svůj cílový trh a my <a href="/cs/oem-manufacturing">vybereme správnou tkaninu pro Váš projekt OEM</a>, otestovanou v naší <a href="/cs/randdcenter/quality-inspection-lab">laboratoři zkoušení materiálů</a>.</p>
+
+cta:
+  title: 'Potřebujete poradit s volbou materiálu?'
+  subtitle: 'Náš tým Vám může poradit s volbou mezi PVC a Hypalonem pro Vaši konkrétní aplikaci.'
+  button_text: 'Zeptat se našich expertů'
+  button_link: /cs/contact

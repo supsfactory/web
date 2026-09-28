@@ -1,0 +1,113 @@
+meta:
+  title: 'Záruka na OEM výrobu a zabezpečení kvality produktů | {SITE}'
+  description: 'Záruční podmínky na OEM výrobu nafukovacích SUP a námořních produktů iSupfactory: kryté vady, doba platnosti, zdokumentované šaržové záznamy a způsob vyřizování reklamací.'
+  keywords:
+    - 'oem záruka'
+    - 'záruka na výrobu'
+    - 'záruka továrny sup'
+    - 'zabezpečení kvality produktů'
+    - 'záruka na nafukovací sup'
+label: 'Záruka na OEM'
+headline: 'Záruka na OEM výrobu a zabezpečení kvality produktů'
+subtitle: 'Každá vyrobená deska se vyrábí podle odsouhlaseného vzorku a zdokumentovaných šaržových záznamů. Tato záruka určuje, co garantujeme u produktů vyráběných pod Vaší značkou a jak se reklamace vyřizují na základě těchto záznamů.'
+seo:
+  headline: 'Záruka na OEM výrobu a zabezpečení kvality produktů | iSupfactory'
+  description: 'Záruka na výrobu nafukovacích SUP desek a dalších námořních produktů iSupfactory: 5leté krytí neporušenosti hlavní trubkové látky, švů a konstrukční pevnosti jádra drop stitch, jakož i nafukovacích ventilků a montovaných továrnou příslušenství.'
+  datePublished: '2024-01-01'
+  dateModified: '2026-09-23'
+body: |
+  <p class="text-lg text-gray-600 dark:text-gray-400 mb-8">
+    Tato výrobní záruka se vztahuje na nafukovací SUP desky, kajaky a námořní nafukovací produkty vyráběné společností iSupfactory — výrobním odštěpným závodem Qingdao Vatrad Group Co., Ltd. — v programech OEM, ODM a Private Label. Rozhodným datem je ověřitelný datum výroby šarže, nebo odeslání dohodnuté v objednávce. Kupující (vlastník značky) si na svém trhu stanovuje vlastní záruční politiku pro koncové uživatele; tato záruka je závazkem továrny vůči zboží ve vyrobeném stavu.
+  </p>
+
+  <div class="bg-sky-50 dark:bg-gray-900 border border-sky-200 dark:border-gray-800 rounded-xl p-6 mb-10">
+    <h2 class="text-xl font-bold mb-3">Krytí výrobní zárukou a doba platnosti</h2>
+    <div class="grid md:grid-cols-2 gap-4">
+      <div class="bg-white dark:bg-gray-950 rounded-lg p-4 border border-gray-200 dark:border-gray-800">
+        <h3 class="font-bold text-sky-700 dark:text-sky-400">5 let</h3>
+        <p class="text-sm text-gray-600 mt-1">Neporušenost hlavní trubkové látky (CSM/PVC)</p>
+      </div>
+      <div class="bg-white dark:bg-gray-950 rounded-lg p-4 border border-gray-200 dark:border-gray-800">
+        <h3 class="font-bold text-sky-700 dark:text-sky-400">5 let</h3>
+        <p class="text-sm text-gray-600 mt-1">Konstrukční neporušenost trupu ze sklazvlákniny (kde je použito)</p>
+      </div>
+      <div class="bg-white dark:bg-gray-950 rounded-lg p-4 border border-gray-200 dark:border-gray-800">
+        <h3 class="font-bold text-sky-700 dark:text-sky-400">5 let</h3>
+        <p class="text-sm text-gray-600 mt-1">Těsnost švů nafukovacích trubek</p>
+      </div>
+      <div class="bg-white dark:bg-gray-950 rounded-lg p-4 border border-gray-200 dark:border-gray-800">
+        <h3 class="font-bold text-sky-700 dark:text-sky-400">5 let</h3>
+        <p class="text-sm text-gray-600 mt-1">Funkčnost nafukovacích ventilků</p>
+      </div>
+      <div class="bg-white dark:bg-gray-950 rounded-lg p-4 border border-gray-200 dark:border-gray-800">
+        <h3 class="font-bold text-sky-700 dark:text-sky-400">1 rok</h3>
+        <p class="text-sm text-gray-600 mt-1">Příslušenství a pomocné položky montované továrnou</p>
+      </div>
+      <div class="bg-white dark:bg-gray-950 rounded-lg p-4 border border-gray-200 dark:border-gray-800">
+        <h3 class="font-bold text-amber-700 dark:text-amber-400">1 rok*</h3>
+        <p class="text-sm text-gray-600 mt-1">Komerční, půjčovní, nebo provozní použití — všechny komponenty</p>
+      </div>
+    </div>
+    <p class="text-xs text-gray-500 mt-4">*Komerční, státní, charterové, půjčovní, nebo výukové použití zkracuje záruku na 1 rok. Závodní, nebo soutěžní použití zbavuje záruky úplně, pokud není závodní konfigurace výslovně dohodnuta v objednávce.</p>
+  </div>
+
+  <h2>Co je kryto</h2>
+  <h3>Hlavní trubková látka (5 let)</h3>
+  <p>Továrna garantuje hlavní trubkovou látku proti pórovitosti, která by podstatně zhoršovala schopnost výrobku udržet pracovní tlak. Kryje se látka s povlakem CSM (Hypalon) i všechny další materiály trubkové látky používané ve výrobě.</p>
+
+  <h3>Konstrukční neporušenost trupu ze sklazvlákniny (5 let)</h3>
+  <p>U výrobků se trupem ze sklazvlákniny (FRP) je základní kompozitní konstrukce garantována proti zničení následkem vad materiálu, nebo výroby.</p>
+
+  <h3>Těsnost švů nafukovacích trubek (5 let)</h3>
+  <p>Švy nafukovacích trubek vytvořené během výroby jsou garantovány proti výrobním vadám, které vedou k podstatnému úniku vzduchu přes šev. Podmínkou krytí je pravidelná kontrola a řádné udržování pracovního tlaku.</p>
+
+  <h3>Funkčnost nafukovacích ventilků (5 let)</h3>
+  <p>Továrnou montované nafukovací ventilky jsou garantovány proti výrobním vadám materiálu, nebo výroby, které brání udržet vzduch ve ventilku v souladu s konstrukcí.</p>
+
+  <h3>Továrnou montované příslušenství (1 rok)</h3>
+  <p>Komponenty a položky montované v továrně jsou garantovány proti vadám materiálu a výroby po dobu jednoho roku. Toto se nevztahuje na položky třetích stran, na které se vztahují pouze záruky jejich výrobců.</p>
+
+  <h2>Co není kryto</h2>
+  <ul>
+    <li>Kosmetické vady včetně změny barvy, skvrn, blednutí, zmatování, nebo jakýchkoli změn vzhledu</li>
+    <li>Propíchnutí, řezné rány, trhliny, nebo jiné fyzické poškození</li>
+    <li>Prasknutí, popraskání povrchu, abrazivní opotřebení, oděr, nebo zničení třením a kontaktem</li>
+    <li>Degradace působením ultrafialového záření, atmosférických jevů a klimatických podmínek</li>
+    <li>Poškození při kontaktu s palivem, rozpouštědly, kyselinami, zásadami, nebo chemickými látkami</li>
+    <li>Poškození v důsledku nedbalosti, nesprávného použití, porušení provozních pravidel, nehody, nebo běžného opotřebení</li>
+    <li>Problémy s povrchem gelcoatu, nebo laku (bublání, praskání, změna barvy, blednutí)</li>
+    <li>Poškození nárazem, zatížením, nesprávným podepřením, nebo tažením na přívěsu</li>
+    <li>Poškození nesprávným natlakováním, nebo vypouštěním vzduchu a použitím neschválených nafukovacích zařízení</li>
+    <li>Zařízení, komponenty, nebo systémy třetích stran (kryté zárukami jejich výrobců)</li>
+  </ul>
+
+  <h2>Závazky výrobce a způsob nápravy</h2>
+  <p>Jediným a výlučným závazkem továrny je oprava nebo výměna podle její volby jakékoli komponenty, která je uznána za vadnou z hlediska materiálu, nebo kvality výroby a na kterou se vztahuje tato záruka. Opravu nebo výměnu provádí továrna, nebo její autorizované servisní oddělení. Na opravené, nebo vyměněné komponenty se vztahuje záruka pouze do zbývající doby původní záruční lhůty.</p>
+
+  <h2>Podmínky záruky</h2>
+  <ul>
+    <li><strong>Odkaz na šarži:</strong> V reklamaci je nutné uvést objednávku, číslo šarže, nebo rozsah sériových čísel, aby továrna mohla vyhledat příslušné kontrolní záznamy.</li>
+    <li><strong>Výchozí specifikace:</strong> Reklamace se posuzují podle odsouhlaseného vzorku, technické specifikace, výkresu a BOM zafixovaných pro danou šarži — podle stejných výchozích hodnot, které se používaly při výrobě.</li>
+    <li><strong>Údržba:</strong> Výrobek musí být používán v souladu se zveřejněnými doporučeními pro údržbu, včetně pravidelné kontroly a řádného udržování pracovního tlaku.</li>
+    <li><strong>Spolupráce:</strong> Žadatel musí s továrnou plně a operativně spolupracovat ve všech záležitostech týkajících se záručních reklamací, včetně prohlídky dotčených výrobků.</li>
+    <li><strong>Záruční politika kupujícího:</strong> Kupující jako vlastník značky určuje záruční program pro koncové uživatele na svém trhu. Tato výrobní záruka je závazkem továrny vůči zboží ve vyrobeném stavu.</li>
+  </ul>
+
+  <h2>Komerční použití</h2>
+  <p>Pokud se výrobek používá ke komerčním, státnímu, nekomerčnímu, charterovému, půjčovnímu, výukovému účelu, nebo k jakémukoli jinému účelu než soukromé rekreační použití, zkracuje se doba záruky na všechny komponenty na jeden (1) rok od rozhodného data. Použití při závodách, rychlostních, nebo vytrvalostních soutěžích zbavuje záruky úplně, pokud není závodní konfigurace výslovně dohodnuta v objednávce.</p>
+
+  <h2>Jak podat záruční reklamaci</h2>
+  <p>Kontaktujte iSupfactory a uveďte objednávku, nebo odkaz na šarži a podrobný popis problému včetně sériových čísel desek, pokud jsou k dispozici. Továrna reklamaci posoudí na základě šaržových záznamů a předá Vám pokyny k prohlídce a údržbě.</p>
+  <p>Ohledně záručního servisu se na nás obraťte prostřednictvím <a href="/cs/contact" class="text-sky-600 underline">stránky kontaktů</a> a uveďte číslo objednávky a údaje výrobku.</p>
+
+  <div class="bg-sky-50 dark:bg-gray-900 border border-sky-200 dark:border-gray-800 rounded-xl p-6 my-10">
+    <h2 class="text-xl font-bold mb-3">Podloženo zdokumentovaným systémem kvality</h2>
+    <p class="text-sm text-gray-600 dark:text-gray-400">Každá deska projde zkouškami před zabalením — <a href="/cs/factory/quality-inspection" class="text-sky-600 underline">7fázové kontrolní brány kontroly</a> zaznamenávají výsledky podle každého sériového čísla a šarže si v ERP uchovávají 10letou sledovatelnost. Záruční reklamace se posuzují na základě těchto šaržových záznamů, nikoli odhadů. Seznamte se s <a href="/cs/quality" class="text-sky-600 underline">kompletním systémem kvality</a> a stáhněte si skutečné <a href="https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_FQC_TEST_REPORTS.pdf" class="text-sky-600 underline">protokoly závěrečné kontroly</a>.</p>
+  </div>
+
+  <h2>Položky třetích stran</h2>
+  <p>Zařízení, komponenty, nebo systémy vyrobené třetími výrobci (i když je montovala továrna) podléhají výhradně záruce příslušných výrobců. Továrna se výslovně zprošťuje odpovědnosti za záruční závazky k takovým položkám třetích stran.</p>
+
+  <p class="text-sm text-gray-500 mt-8 border-t border-gray-200 dark:border-gray-800 pt-6">
+    Toto znění záruky je stručným přehledem podmínek výrobní záruky továrny pro programy OEM, ODM a Private Label. Všechny záruční podmínky a ustanovení se řídí úplnou objednávkou. Parametry se mohou měnit bez upozornění. iSupfactory je výrobní odštěpný závod Qingdao Vatrad Group.
+  </p>

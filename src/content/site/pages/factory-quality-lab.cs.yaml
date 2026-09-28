@@ -1,0 +1,129 @@
+meta:
+  title: 'Laboratoř kvality — zkoušení a zabezpečení kvality | {SITE}'
+  description: 'Nezávislá laboratoř kvality Vatrad s procesy podle ISO 9001: každý kus je před odesláním otestován, což zaručuje kvalitu nafukovacích desek SUP.'
+  dateModified: '2026-08-07'
+  keywords:
+    - 'kontrola kvality sup'
+    - 'laboratoř zkoušení paddle boardů'
+    - 'továrna sup iso 9001'
+    - 'kvalita nafukovacích sup'
+hero:
+  tagline: Laboratoř kontroly kvality
+  title: Zkušební laboratoř a zabezpečení kvality
+  subtitle: Nezávislá laboratoř kvality s procesy podle ISO 9001 — každý kus je otestován před odesláním
+
+answer:
+  label: 'Přímá odpověď'
+  text: '100 % kusů je zkoušeno tlakem 18,0 PSI po dobu 24 hodin, s automatickým odmítnutím při poklesu tlaku nad 0,50 PSI. Dávky surové tkaniny se ověřují podle ASTM D751 a ISO 4674, zkoušky odtrhu svarů se provádějí každých 50 kusů a závěrečné vzorkování probíhá podle AQL 2,5 v souladu s ISO 2859.'
+  verified: 'září 2026'
+
+intro: Vatrad provozuje vlastní laboratoř kontroly kvality, která funguje nezávisle na výrobě. Každá dávka surového materiálu i každá hotová deska SUP projde zdokumentovanými kontrolními postupy, než dojde k uvolnění. Náš tým kvality reportuje přímo vedení, takže rozhodnutí o kvalitě zůstávají nestranná.
+
+highlights:
+  - value: 100%
+    label: Kusů otestováno tlakem
+    detail: Každá komora, každá deska
+  - value: 24 h
+    label: Doba zkoušky nepropustnosti
+    detail: Při jmenovitém tlaku 18,0 PSI
+  - value: '&lt;5%'
+    label: Maximální povolený pokles tlaku
+    detail: Za 24hodinové udržení
+  - value: AQL 2,5
+    label: Hranice závažných vad
+    detail: Podle vzorkování ISO 2859
+
+test_procedures:
+  - title: Kontrola surového materiálu
+    description: Každá přijímaná dávka PVC, Hypalonu, tkaniny drop-stitch a hardwaru se před převzetím otestuje. Ověřuje se pevnost v tahu (ASTM D751), odolnost proti trhání (ISO 4674) a odolnost vůči UV záření. Nevyhovující materiál se izoluje a vrací.
+    standards:
+      - ASTM D751 (tah)
+      - ISO 4674 (trhání)
+      - ISO 4892 (UV)
+  - title: Kontrolní body během výroby
+    description: Operátoři výroby provádějí vlastní kontrolu v každé fázi. Kontroloři QC odebírají v průběhu směny náhodná vzorky. Zkoušky odtrhu svarů se provádějí každých 50 kusů. Rozměrová kontrola probíhá na každé 20. dílu.
+    standards:
+      - ASTM D751 (odtrh)
+      - Vnitřní kontrolní list o 100 bodech
+      - ISO 2859 (vzorkování)
+  - title: 48hodinová zkouška nepropustnosti
+    description: Každá trubková komora se dofukuje na 18,0 PSI a udržuje 24 hodin. Tlakové snímače průběžně zaznamenávají údaje s teplotní kompenzací. Překročí-li některá komora pokles tlaku o 0,50 PSI, automaticky se spustí opětovná kontrola celé dávky.
+    standards:
+      - ISO 6185
+      - CE 2013/53/EU
+  - title: Zkoušení zatížení a stability
+    description: Hotové desky se zkoušejí při maximální jmenovité nosnosti z hlediska stability, volného výšku nad hladinou a ovladatelnosti. Každá deska absolvuje zkoušku na vodě před schválením závěrečné kontroly.
+    standards:
+      - ISO 12217
+      - CE 2013/53/EU
+
+equipment:
+  - name: Univerzální zkušební přístroj (tah)
+    spec: 5 kN, vyhovuje ASTM D751
+  - name: Přístroj pro měření poklesu tlaku
+    spec: Vícekanálový, 0–50 psi, se záznamem dat
+  - name: Zvětršovací komora s UV zářením
+    spec: ISO 4892, 1 000 h cyklů
+  - name: Tloušťkoměr (digitální)
+    spec: Rozlišení 0,01 mm
+  - name: Odtrhová zkušebna svarů
+    spec: Motorová, nosnost 50 N
+  - name: Teplotní komora
+    spec: Od -40 °C do +100 °C
+  - name: Vana pro detekci netěsnosti
+    spec: 6 m × 2 m, osvětlená
+
+lab_evidence:
+  tagline: Sady zkušebních protokolů
+  title: 'Stáhněte skutečné protokoly laboratorních zkoušek'
+  subtitle: 'Tytéž dvojjazyčné řízené dokumenty, proti kterým náš tým kvality uzavírá jednotlivé kroky — struktura, metody, kritéria a výsledky s odstraněnými důvěrnými údaji. Každá sada odpovídá jedné ze sedmi kontrolních fází.'
+  items:
+    - title: 'IQC — protokoly vstupní kontroly materiálu'
+      description: 'Ověření tkaniny, rolí PVC, ventilů a součástek proti schválené specifikaci.'
+      icon: tabler:file-certificate
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_IQC_TEST_REPORTS.pdf
+      link_label: 'Stáhnout protokoly IQC (PDF)'
+    - title: 'IPQC — protokoly kontroly během výroby a prvního kusu'
+      description: 'Záznamy kontroly prvního kusu a kontroly během výroby proti uzavřené revizi.'
+      icon: tabler:file-check
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_IPQC_TEST_REPORTS.pdf
+      link_label: 'Stáhnout protokoly IPQC (PDF)'
+    - title: 'Nepropustnost — záznamy tlaku a netěsnosti'
+      description: 'Detekce netěsností ve 100 % švů, těsnost ventilů a potvrzení 24hodinového udržení tlaku.'
+      icon: tabler:waves
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_AIRTIGHTNESS_TEST_REPORTS.pdf
+      link_label: 'Stáhnout protokoly nepropustnosti (PDF)'
+    - title: 'FQC — protokoly zkoušek hotové desky'
+      description: 'Závěrečná kontrola proti schválenému vzorku — rozměry, vzhled a držák žebra.'
+      icon: tabler:shield-check
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_FQC_TEST_REPORTS.pdf
+      link_label: 'Stáhnout protokoly FQC (PDF)'
+    - title: 'PSI — protokoly balení a kontroly před odesláním'
+      description: 'Kompletnost sady, třída čárových kódů, značení krabic a záznamy odolnosti proti pádu.'
+      icon: tabler:package
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_PSI_TEST_REPORTS.pdf
+      link_label: 'Stáhnout protokoly PSI (PDF)'
+    - title: 'Dossier uvolnění a vysledovatelnosti'
+      description: 'Oprávnění k uvolnění a vysledovatelnost dávky propojená se specifikací, grafikou a kusovníkem.'
+      icon: tabler:history
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_SHIPMENT_RELEASE_REPORTS.pdf
+      link_label: 'Stáhnout protokoly uvolnění (PDF)'
+    - title: 'Kompletní quality dossier'
+      description: 'Jeden balík pokrývající celý systém dokumentace — QIP, záznamy jednotlivých fází, vysledovatelnost a kontrolu NCR.'
+      icon: tabler:books
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_COMPLETE_SUP_QUALITY_DOSSIER.pdf
+      link_label: 'Stáhnout balíček dokumentace (PDF)'
+
+cta:
+  title: 'Prověřte laboratoř, která stojí za Vaší objednávkou'
+  subtitle: 'Laboratoř pracuje nezávisle na výrobě a reportuje přímo vedení. Prostudujte zkušební protokoly, seznamte se s kontrolními standardy nebo si vyžádejte živou prohlídku laboratoře během plánování výroby.'
+  actions:
+    - variant: primary
+      text: Vyžádat posouzení kvality projektu
+      href: /cs/contact#quality-inquiry
+    - text: Kontrolní systém v 7 fázích
+      href: /cs/quality
+    - text: Kontrolní standardy a ke stažení dokumentace QMS
+      href: /cs/factory/quality-inspection
+    - text: Navštívit laboratoř pro zkoušení materiálů výzkumu a vývoje
+      href: /cs/randdcenter/quality-inspection-lab

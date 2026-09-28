@@ -1,0 +1,104 @@
+meta:
+  title: 'Vlastní výroba SUP a private label pro maloobchodníky | {SITE}'
+  description: 'Vlastní výroba SUP a private label pro maloobchodní značky: specifikace desek, značková grafika, nízké zkušební MOQ a tovární kontrola kvality — od vzorku po sérii.'
+  dateModified: '2026-08'
+
+hero:
+  tagline: Maloobchodní značky
+  title: 'Vlastní výroba SUP pro maloobchodní značky'
+  subtitle: 'Maloobchodní značky uvádějí vlastní řadu paddle boardů spolu s naší továrnou: specifikace desek vyvinuté podle Vašich požadavků, Vaše značka na výrobku a výrobní kontrola kvality od začátku až do konce.'
+  image:
+    src: https://assets.isupfactory.com/images/sups/products/sup-series/sup-ocean-voyager-1.webp
+    alt: Desky SUP vyrobené firmou Vatrad pro maloobchodní značku
+
+answer:
+  label: 'Přímá odpověď'
+  text: 'MOQ se potvrzuje podle konfigurace projektu: maloobchodní značky začínají vzorkem (1–2 kusy), nebo pilotní dávkou (20–50 kusů, vzorky za 7–12 dnů), pokračují standardní sériovou OEM dávkou 90–100+ kusů na každý návrh (25–35 dnů po PO a záloze), nebo investují do vlastní formy pro zcela bespoke řady (nástroje přidávají 15–20 dnů). Každá deska projde tlakovou zkouškou před odesláním, s podmínkami FOB, CIF, nebo DDP z Qingdao.'
+  verified: 'září 2026'
+
+margin_section:
+  title: 'Výrobní fáze pro maloobchodní značky'
+  subtitle: 'Začněte vzorkem, proveďte pilotáž pro validaci, přejděte na standardní sériovou dávku, nebo investujte do vlastní formy — MOQ a termíny určuje výrobní trasa, nikoli odhady.'
+  items:
+    - tier: 'Fáze vzorku'
+      moq: '1–2 ks'
+      margin_note: 'Výroba vzorku trvá 7–12 dnů'
+      features:
+        - 'Vývoj grafiky podle materiálů Vaší značky'
+        - 'Fyzický vzorek k odsouhlasení'
+        - 'Kontrola kvality na standardní platformě'
+    - tier: 'Pilotní fáze'
+      moq: '20–50 ks'
+      margin_note: 'Validace trhu na skladových platformách'
+      features:
+        - 'Grafika na celou desku, logo a rozložení EVA'
+        - 'Opakované objednávky na stejných ověřených platformách'
+        - 'Vývozní dokumentace v ceně'
+    - tier: 'Vlastní forma'
+      moq: 'Potvrzuje se podle konfigurace projektu'
+      margin_note: 'Nástroje přidávají 15–20 dnů'
+      features:
+        - 'Nový tvar desky a vývoj formy'
+        - 'Úplná kontrola specifikací'
+        - 'Prioritní rozdělení výrobních kapacit'
+
+product_line:
+  title: 'Kompletní produktová řada'
+  subtitle: 'Výrobní platforma pro každý segment Vašeho obchodu.'
+  items:
+    - name: Řada All-Round
+      description: 'Univerzální tvar — nejrozšířenější startovní platforma'
+    - name: Řada Touring
+      description: 'Posouvný trup pro pádlování na dlouhé vzdálenosti'
+    - name: Řada Yoga
+      description: 'Široká, stabilní platforma pro segment wellness'
+    - name: Řada Kids
+      description: 'Krátké, lehké desky pro mladé paddleaře'
+    - name: Řada Racing
+      description: 'Rychlé trupy pro segment nadšenců'
+    - name: Příslušenství
+      description: 'Vesla, vesty, pumpy a tašky pro doplnění řady'
+
+catalog:
+  title: 'Zdroje pro maloobchodní partnery'
+  subtitle: 'Specifikace, podrobnosti objednávky a produktová dokumentace.'
+  items:
+    - name: 'Produktový katalog 2026'
+      desc: 'Kompletní řada se specifikacemi a informacemi pro objednávku'
+      icon: 'tabler:file-text'
+      link: '/cs/products'
+    - name: 'Průvodce pro maloobchodní partnery'
+      desc: 'Průvodce specifikacemi, procesem objednávky a standardy kontroly kvality'
+      icon: 'tabler:book'
+      link: '/cs/products'
+    - name: 'Produktové a technické materiály'
+      desc: 'Vysoce kvalitní fotografie produktů, lifestyleové snímky a technická dokumentace'
+      icon: 'tabler:photo'
+      link: '/cs/products'
+
+support:
+  title: Výrobní podpora
+  subtitle: 'Co Váš výrobní partner zajistí kromě samotné objednávky.'
+  items:
+    - 'Fyzický vzorek před sériovou výrobou'
+    - 'Tolerance a kontrola kvality: každá deska projde tlakovou zkouškou před odesláním'
+    - 'Podpora ohledně specifikací — tvar, grafika, rozložení EVA, příslušenství'
+    - 'Sériový termín 25–35 dnů po potvrzeném PO'
+    - 'Náhradní díly a doporučení pro opravy pro Vaše zákazníky'
+    - 'Vývoz a dokumentace: FOB/CIF/DDP z Qingdao'
+
+content_html: |
+  <div class="mx-auto max-w-3xl space-y-4 rounded-2xl border bg-card p-6 text-[14.5px] leading-relaxed text-fg-2">
+    <p><strong>Čtěte dále:</strong> podívejte se na kompletní <a href="/cs/oem-manufacturing">program výroby OEM/ODM</a> — MOQ potvrzované podle projektu ve fázích vzorku, pilota a série, private-label branding a shodu s CE — nebo si přečtěte <a href="/cs/oem-moq-guide">průvodce MOQ a flexibilním brandingem</a>, případně navštivte <a href="/cs/factory">továrnu</a> a uvidíte, jak je organizována kontrola kvality připravená pro maloobchod.</p>
+  </div>
+
+cta:
+  title: 'Proberte svou maloobchodní produktovou řadu'
+  subtitle: 'Zašlete své požadavky — náš tým odpoví do 1 pracovního dne.'
+  actions:
+    - text: 'Odeslat své požadavky'
+      href: '/cs/contact'
+      variant: 'primary'
+    - text: 'Prohlédnout produktové platformy'
+      href: '/cs/products'
+      variant: 'secondary'

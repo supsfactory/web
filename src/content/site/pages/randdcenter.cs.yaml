@@ -1,0 +1,131 @@
+meta:
+  title: 'Centrum výzkumu a vývoje — konstrukce nafukovacích SUP | {SITE}'
+  description: 'Výzkum a vývoj — zkoušení tkanin PVC, návrh trupů, HF svařování, hydrodynamické zkoušky a kontrola kvality. Vlastní služby výzkumu a vývoje.'
+  dateModified: '2026-08'
+
+hero:
+  tagline: Centrum výzkumu a vývoje
+  title: Centrum výzkumu a vývoje
+  subtitle: Zaměřeno na pokrok
+
+intro:
+  - Výzkumné a vývojové centrum (R&D) společnosti Vatrad je hnací silou naší mise revolučně měnit vybavení pro vodní sporty. Po celém světě dáváme milovníkům vodních sportů bezpečnější, pohodlnější a příjemnější produkty díky vytrvalým inovacím v nafukovacích stojících paddle boardech (SUP) a člunech. Náš oddaný tým inženýrů, designérů a nadšenců vodních sportů utváří budoucnost odvětví a stále posouvá laťku kvality, výkonu a udržitelnosti.
+  - Naše výzkumné a vývojové pracoviště shrnuje pod jednu střechu specialisty na materiály, námořní architekty a výrobní inženýry. Od formulace tkanin a simulace trupu přes vývoj svařovacích procesů až po plné námořní zkoušky — každá fáze vývoje produktu je poháněna daty a potvrzována zkouškami.
+
+mission:
+  tagline: Naše mise
+  title: Inovace pro budoucnost vodních sportů
+  pillars:
+    - icon: lightning
+      title: Technologický posun
+      desc: Průkopnictví v nových materiálech, konstrukcích a výrobních postupech pro vynikající výkon a životnost produktů.
+    - icon: design
+      title: Design orientovaný na uživatele
+      desc: Hluboké porozumění potřebám uživatelů a jejich překonávání díky ergonomickému a intuitivnímu designu produktů.
+    - icon: globe
+      title: Udržitelné postupy
+      desc: Minimalizace naší ekologické stopy prostřednictvím ekologických materiálů a postupů.
+    - icon: shield
+      title: Bezpečnost bez kompromisů
+      desc: Zajištění nejvyšších bezpečnostních standardů prostřednictvím důkladného zkoušení a certifikace.
+
+pillars:
+  - title: Technologický posun
+    desc: Průkopnictví v nových materiálech, konstrukcích a výrobních postupech, které zajistí vynikající výkon a životnost produktů.
+    icon: tech
+  - title: Pokročilé materiály
+    desc: Výzkum špičkových PVC, Hypalonu, kompozitů a udržitelných alternativ pro lepší vlastnosti produktů.
+    icon: materials
+  - title: Udržitelnost
+    desc: 'Zásadní závazek: věnujeme se odpovědnému zacházení se životním prostředím prostřednictvím udržitelné výroby a recyklovatelných materiálů.'
+    icon: sustainability
+
+capabilities:
+  tagline: Schopnosti
+  title: Výzkumné a vývojové schopnosti
+  subtitle: Čtyři hlavní obory, které nám dávají kompletní kontrolu nad vývojem produktu — od výzkumu suroviny po konečnou certifikaci.
+  groups:
+    - title: Vědy o materiálech a textilní technologie
+      items:
+        - Analýza a optimalizace formulací PVC a Hypalonu
+        - Vývoj UV stabilizátorů, zpomalovačů hoření a antimikrobiálních přísad
+        - Inženýrství vícevrstvého laminování a adheze tkanin
+        - Zkoušky urychleného stárnutí (UV, teplota, vlhkost, slaná mlha)
+    - title: Návrh trupů a hydrodynamika
+      items:
+        - Parametrický 3D návrh trupu a optimalizace CFD
+        - Metoda konečných prvků pro konstrukční a rázová zatížení
+        - Zkoušky tažených modelů a validace výkonových parametrů
+        - Vývoj vlastních trupů pro speciální misní profily
+    - title: Svařovací a spojovací technologie
+      items:
+        - Vývoj a optimalizace procesu dielektrického HF svařování
+        - Metody svařování horkým vzduchem, horkým klínem a ultrazvukem
+        - Kvalifikace lepených spojů a pásky pro švy
+        - Modelování pevnosti svarů a předpověď životnosti
+    - title: Zkoušení, certifikace a shoda
+      items:
+        - Zkoušení systému řízení kvality a shoda s CE
+        - Nezávislé zkoušky třetí strany a podpora certifikace
+        - Vývoj vlastních zkušebních protokolů pro kvalifikaci nákupů
+        - Analýza provozních poruch a šetření hlavních příčin
+
+rd_numbers:
+  tagline: Inovace
+  title: Výzkum a vývoj v číslech
+  stats:
+    - value: '14'
+      label: Inženýrů a vědci ve výzkumu a vývoji
+    - value: '8'
+      label: Aktivních patentů a přihlášek
+    - value: '6'
+      label: Specializovaných laboratoří
+    - value: 12 let
+      label: Průměrná zkušenost týmu
+
+rd_services:
+  tagline: Vlastní výzkum a vývoj
+  title: Služby výzkumu a vývoje pro partnery
+  services:
+    - title: Vlastní vývoj materiálů
+      desc: Vyvíjíme vlastní formulace tkanin, laminované vrstvy a lepicí systémy přizpůsobené Vašemu provoznímu prostředí a výkonovým cílům.
+    - title: Konstrukce produktů OEM / ODM
+      desc: Vyvíjíme vlastní formulace tkanin, laminované vrstvy a lepicí systémy přizpůsobené Vašemu provoznímu prostředí a výkonovým cílům.
+    - title: Zkoušení a certifikace třetí strany
+      desc: Využijte naše zkušební kapacity splňující ISO pro nezávislé zkoušení materiálů, validaci produktů a podporu certifikace.
+  cta: Proberte své požadavky na výzkum a vývoj →
+  cta_link: /cs/contact
+
+vision:
+  tagline: Naše vize
+  title: Utváříme budoucnost vodních sportů
+  body: Vatrad usiluje o vedoucí postavení v oboru nafukovacích člunů a SUP díky průběžným inovacím, nezměnné kvalitě a pevné oddanosti bezpečnosti a udržitelnosti — a tím obohacuje zážitky milovníků vodních sportů po celém světě. Výzkumné a vývojové centrum Vatrad je místem, kde se potká vášeň s inovací a kde se nastavují nové standardy pro obor vodních sportů.
+
+labs_section:
+  tagline: Laboratoře
+  title: Naše laboratoře
+  labs:
+    - image: https://assets.isupfactory.com/images/sups/randd/isupfactory-pvc-material-lab.webp
+      title: Laboratoř tkanin PVC
+      description: Průběžný výzkum a zkoušení trubkových tkanin z PVC a Hypalonu z hlediska pevnosti v tahu, odolnosti vůči UV, oděru a mrazuvzdornosti, aby byla zajištěna dlouhodobá spolehlivost v námořním prostředí.
+      href: /cs/randdcenter/pvc-fabric-lab
+    - image: https://assets.isupfactory.com/images/sups/factory/isupfactory-design-discussion-2.webp
+      title: Ateliér návrhu trupů
+      description: Návrh založený na CAD a metoda konečných prvků pro trupy z HDPE, hliníku a skelného laminátu. Každý trup se digitálně simuluje z hlediska rozložení napětí a odolnosti proti nárazům, než se postaví první prototyp.
+      href: /cs/randdcenter/hull-engineering
+    - image: https://assets.isupfactory.com/images/sups/factory/isupfactory-sup-manufacturing-3.webp
+      title: Centrum HF svařování
+      description: Specializované pracoviště pro vysokofrekvenční svařování s přesnou kontrolou teploty a tlaku, které vyrábí pevné a vzduchotěsné švy splňující oborové normy pro nafukovací plavidla.
+      href: /cs/randdcenter/rf-welding
+    - image: https://assets.isupfactory.com/images/sups/factory/isupfactory-design-discussion-original.webp
+      title: Hydrodynamická zkušební nádrž
+      description: Zkoušky zmenšených modelů v naší vlastní zkušební nádrži za účelem optimalizace tvaru trupu, rychlosti na skluzu, stability a spotřeby paliva při různých zatíženích a mořských podmínkách.
+      href: /cs/randdcenter/hydrodynamic-test-tank
+    - image: https://assets.isupfactory.com/images/sups/products/sup-series/sup-ocean-voyager-1.webp
+      title: Prototypová dílna
+      description: Pracoviště pro prototypování a vybavení v plné velikosti, kde se nové modely vyrábějí, vyladí a zkoušejí na moři. Každý prototyp před schválením výroby absolvuje nejméně 20hodinový program zkoušek ve vodě.
+      href: /cs/randdcenter/prototype-workshop
+    - image: https://assets.isupfactory.com/images/sups/factory/isupfactory-uv-resistance-testing.webp
+      title: Laboratoř kvality a inspekce
+      description: Specializovaná laboratoř zabezpečení kvality, která provádí zkoušky tahem, cyklické zkoušky těsnosti, zkoušky odolnosti švů a certifikaci materiálů, aby každý člun opouštějící dílnu odpovídal našim publikovaným specifikacím.
+      href: /cs/randdcenter/quality-inspection-lab

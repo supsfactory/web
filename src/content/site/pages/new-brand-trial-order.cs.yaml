@@ -1,0 +1,176 @@
+meta:
+  title: 'Rozjeďte svou značku SUP zkušební objednávkou s nízkým MOQ | iSupfactory'
+  description: 'Rozjeďte značku nafukovacích SUP zkušební objednávkou s nízkým MOQ: vzorky za 7–12 dní, pilotní dávky 20–50 desek, výroba za 25–35 dní. Branding a QC v naší režii.'
+  dateModified: '2026-08-16'
+  keywords:
+    - 'založit značku sup'
+    - 'uvedení značky sup na trh'
+    - 'sup s nízkým moq'
+    - 'zkušební objednávka sup'
+    - 'startupová značka sup'
+    - 'branding sup v malé dávce'
+    - 'private label nafukovací sup'
+
+hero:
+  tagline: 'Pro nové a rostoucí značky SUP'
+  title: 'Rozjeďte svou značku SUP zkušební objednávkou s nízkým MOQ'
+  subtitle: 'K uvedení značky SUP nepotřebujete kontejner. Ověřte svou desku, svou grafiku a svůj trh jedním vzorkem a poté otestujte prodejnost zkušební objednávkou 20–50 desek — ještě před jakýmkoli závazkem k plným sériovým objemům. Branding, kontrolu kvality a exportní logistiku zajišťuje Qingdao Vatrad Group Co., Ltd.'
+  actions:
+    - variant: primary
+      text: Začít uvedení na trh vzorkem
+      href: /cs/contact#custom-oem
+    - text: Prohlédnout celý rámec MOQ a dodací lhůty
+      href: /cs/sup-oem-moq-lead-time
+
+answer:
+  label: 'Přímá odpověď'
+  text: 'Ano — značku nafukovacích SUP můžete rozjet zkušební objednávkou s nízkým MOQ. Vstup je členěn po úrovních, nikoli vše nebo nic: nejprve objednejte 1–2 vzorky (připravené za 7–12 dní), abyste uzavřeli trup, grafiku a obaly; potom zadejte zkušební objednávku 20–50 desek (výroba 25–35 dní) pro otestování skutečné prodejnosti; nakonec přejděte na standardní sériové dávky 90–100+ desek na 150m roli tkaniny drop-stitch, jakmile se formát potvrdí. Malá dávka ve spolupráci na značce začíná už na 5–10 kusech pro provozovatele, kteří chtějí značkové desky bez jakékoli vývojové fáze. Váš první kontejner přijde teprve tehdy, až to ukážou data.'
+  verified: 'září 2026'
+
+trial_included:
+  tagline: Co zkušební objednávka zahrnuje
+  title: 'Vše, co potřebuje uvedení na trh, bez zbytečné režie'
+  subtitle: 'Zkušební objednávka není zmenšená faktura — je to stejný závodní proces, přizpůsobený rozjíždějící se značce. Zde je vše, co každý zkušební program zahrnuje.'
+  grid: 'sm:grid-cols-2 lg:grid-cols-3'
+  features:
+    - icon: B
+      icon_bg: blue
+      title: 'Platforma a konstrukce desky'
+      desc: 'Osvědčené touringové a all-around trupy s konstrukcí drop-stitch, třívrstvým spojením bočního pásu a tuhostí 12–15 PSI — stejné platformy, jaké používají naši klienti v objemu, ve skladových rozměrech od 10 ft do 11 ft 6 in.'
+    - icon: L
+      icon_bg: green
+      title: 'Váš branding, opravdu aplikovaný'
+      desc: 'Celoplošná grafika digitálním tiskem nebo sítotiskem, protiskluzová podložka EVA s vaším logem a sekundární branding na přídi nebo bočních výztuhách. Malá dávka ve spolupráci na značce používá centrální branding iSupfactory s vaším logem na přídi nebo výztuhách.'
+    - icon: P
+      icon_bg: purple
+      title: 'Varianty obalů, které rostou s objemem'
+      desc: 'Začněte obecnými krabicemi s barcode nálepkami a později přejděte na plnobarevné 5vrstvé značkové maloobchodní krabice. Vlastní obaly mají nezávislé minimum tiskárny; přebytečné krabice skladujeme a vydáváme podle harmonogramu.'
+    - icon: Q
+      icon_bg: orange
+      title: 'Kontrola kvality na úrovni závodu'
+      desc: 'Každá deska prochází stejným kontrolním listem montáže o 100 bodech a 24hodinovým zkoušením tlaku a nepropustnosti (udržení 18,0 PSI, automatické odmítnutí při poklesu nad 0,50 PSI), který platí pro jakoukoli objednávku, vzorek nebo kontejner.'
+    - icon: D
+      icon_bg: blue
+      title: 'Export a dokumentace'
+      desc: 'Dokumentace o souladu CE, ISO 9001, BSCI, REACH a RoHS, vývozní balení a koordinace námořní dopravy do 50+ zemí — od vzorku jedné desky až po plné programy.'
+    - icon: T
+      icon_bg: green
+      title: 'Termín, kolem kterého se dá naplánovat'
+      desc: 'Vzorky za 7–12 dní, zkušební výroba 25–35 dní po potvrzené objednávce a záloze a potvrzené výrobní sloty pro předsezonní objednávky — aby uvedení na trh dorazilo do sezóny, ne až po ní.'
+
+trial_steps:
+  tagline: Plán uvedení na trh
+  title: 'Od nápadu k první prodejnosti přes šest bran'
+  subtitle: 'Běžné první uvedení na trh trvá s využitím existujících platforem 8–12 týdnů od zadání po dodanou zkušební objednávku — déle, pokud zákazkový trup přidá vývoj formy. Každá brana má termín, který si předem dohodnete.'
+  steps:
+    - step: 'Brana 1'
+      title: 'Zadání produktu a posouzení inženýringem (dny 0–2)'
+      desc: 'Sdělíte cílový model desky, množství objednávky, grafiku a záměr ohledně obalů. Posouzení inženýringem dokončíme do jednoho pracovního dne, s NDA k dispozici ještě před sdílením proprietárních specifikací.'
+    - step: 'Brana 2'
+      title: 'Specifikace, MOQ a nabídka (dny 3–7)'
+      desc: 'Položková nabídka s přesným výpočtem MOQ, poplatky za vzorek a úseky dodací lhůty. Poplatky za vzorek se po podpisu smlouvy odečítají z výrobní objednávky.'
+    - step: 'Brana 3'
+      title: 'Vzorky za 7–12 dní'
+      desc: '1–2 fyzické desky ověří tuhost trupu, texturu protiskluzové podložky EVA, přesnost grafiky a fit příslušenství. Desku si vyzkoušíte ještě před jakýmkoli dalším závazkem.'
+    - step: 'Brana 4'
+      title: 'Zkušební objednávka 20–50 desek (25–35 dní)'
+      desc: 'Výroba na existujících platformách trupu se skladovými materiály a zjednodušenými obaly — nejmenší komerční test, který odráží skutečné podmínky skladu.'
+    - step: 'Brana 5'
+      title: 'Okno prodejnosti a zpětné vazby'
+      desc: 'Důležitá brana je u vás na trhu, ne v našem závodě: půjčovatelé a zákazníci potvrdí formát desky, grafiku a cenovou hladinu dříve, než začnete škálovat.'
+    - step: 'Brana 6'
+      title: 'Přechod na sériové dávky (90–100+ desek)'
+      desc: 'Jakmile je formát potvrzen, standardní dávky ze 150m role dosáhnou plné výrobní efektivity, značkových obalů a objemových cen. Program kontejneru je cílem, nikoli podmínkou.'
+
+trial_budget:
+  tagline: Orientační rozpočtové rozmezí
+  title: 'Kolik stojí uvedení na trh — referenční cenová rozmezí'
+  subtitle: 'Orientační referenční rozmezí EXW Qingdao (Čína) pro standardní touringový nebo all-around trup ve skladových rozměrech. Konečná nabídka závisí na tvaru trupu, PVC, rozsahu grafiky, obalech, příslušenství a množství — potvrzené podle vaší konfigurace před jakýmkoli závazkem.'
+  headers:
+    stage: Fáze objednávky
+    price: Referenční cena za desku
+    notes: Poznámky
+  rows:
+    - stage: 'Vzorky (1–2 desky)'
+      price: 'USD 250–350'
+      notes: 'Fyzický vzorek s aplikovanou grafikou. Poplatky za vzorek se po podpisu smlouvy odečítají z výrobní objednávky.'
+    - stage: 'Zkušební / pilotní objednávka (20–50 desek)'
+      price: 'USD 180–260'
+      notes: 'Existující platformy trupu, skladové materiály a zjednodušené obaly. Standardní cesta uvedení na trh s nízkým MOQ.'
+    - stage: 'Standardní sériová dávka (90–100+ desek na 150m roli)'
+      price: 'USD 150–220'
+      notes: 'Plné 150m role tkaniny, vlastní varianta PVC v barvě Pantone, značkové obaly a objemové ceny.'
+    - stage: 'Zákazkový trup a nástroj (doplňková položka)'
+      price: 'Cena dle projektu'
+      notes: 'Zákazkový tvar trupu přidává v celkovém harmonogramu 15–20 dní vývoje formy; nástroj je položkově rozčíslen a naceněn jednou.'
+
+derisk:
+  tagline: Rozjeďte se bez rizika
+  title: 'Čtyři způsoby, jak zkušební objednávka sníží riziko vašeho startu'
+  subtitle: 'Většina nových značek selhává na zásobách, ne na kvalitě produktu. Zkušební objednávka je navržena tak, aby se vyhnutelným chybám stal nedosažitelné.'
+  features:
+    - icon: I
+      icon_bg: blue
+      title: 'Žádné závazky v těžké zásobě'
+      desc: 'Vaše vystavení v první sezóně zůstává pod 50 deskami. Pokud formát potřebuje úpravu, upravíte ji před velkými výdaji, ne po nich.'
+    - icon: C
+      icon_bg: green
+      title: 'Peněžní tok zůstává zvládnutelný'
+      desc: 'Menší objednávky znamenají menší zálohy, etapové platby a žádný nečinný kapitál ve skladě. Objemová cena počká, dokud si ji skutečně zasloužíte.'
+    - icon: Q
+      icon_bg: purple
+      title: 'Kvalita se nikdy nesnižuje'
+      desc: 'Zkušební objednávka 20 desek prochází stejným kontrolním listem o 100 bodech a tlakovým zkoušením jako program kontejneru — žádné kompromisy „napřed zkuste, kvalita pak“.'
+    - icon: G
+      icon_bg: orange
+      title: 'Zaručená cesta k objemu'
+      desc: 'Každá zkušební objednávka nese potvrzenou cestu k objemu: zachované kredity za vzorek, uzavřená grafika a kusovník BOM a rezervované výrobní sloty pro vaši navazující dávku.'
+
+scale_path:
+  tagline: Po zkušební objednávce
+  title: 'Co následuje po úspěšné zkušební objednávce'
+  subtitle: 'Zkušební objednávka je záměrně navržena jako první krok delšího vztahu. Tuto cestu dohodneme ještě před odesláním první desky.'
+  steps:
+    - step: 'Fáze 1'
+      title: 'Zkušební dávka dodána a vyhodnocena'
+      desc: '20–50 desek dorazí do sezóny a z vašeho kanálu se vrátí data o prodejnosti — půjčovny, maloobchod nebo přímý prodej.'
+    - step: 'Fáze 2'
+      title: 'Zpětná vazba a doladění'
+      desc: 'Barevné kombinace, grafika, obaly a sklad příslušenství se upraví podle skutečné odezvy trhu. Grafika a kusovník BOM se uzavřou pro navazující objednávku.'
+    - step: 'Fáze 3'
+      title: 'Sériová dávka (90–100+ desek)'
+      desc: 'Standardní dávky ze 150m role s plnou výrobní efektivitou, značkovým maloobchodním balením a objemovými cenami — kredity za vzorek už odečtené.'
+    - step: 'Fáze 4'
+      title: 'Programy v měřítku kontejneru'
+      desc: 'Programy 300+ desek s členěnou dopravou, vlastními materiály v barvě Pantone a celou vývojovou pipeline — stejný závod, nyní v plném měřítku.'
+
+trial_faqs:
+  tagline: FAQ
+  title: 'Často kladené otázky o uvedení na trh se zkušební objednávkou'
+  items:
+    - q: 'Opravdu mohu rozjet značku SUP bez objednávky kontejneru?'
+      a: 'Ano. Vstup je členěn po úrovních: 1–2 vzorky ověří desku (připravené za 7–12 dní), zkušební objednávka 20–50 desek ověří trh (výroba 25–35 dní) a sériové dávky 90–100+ desek následují teprve tehdy, když prodejnost potvrdí formát. Malá dávka ve spolupráci na značce začíná už na 5–10 kusech, pokud chcete značkové desky bez jakékoli vývojové fáze.'
+    - q: 'Jak dlouho trvá celé uvedení na trh od začátku do konce?'
+      a: 'S využitím existujících platforem trupu běžné první uvedení na trh trvá 8–12 týdnů od zadání produktu po dodanou zkušební objednávku: vzorky za 7–12 dní, zkušební výroba 25–35 dní po potvrzené objednávce a záloze. Zákazkový trup přidává 15–20 dní vývoje formy.'
+    - q: 'Co cena zahrnuje — a co ne?'
+      a: 'Referenční rozmezí jsou EXW Qingdao za samotné desky včetně aplikace brandingu a standardní QC. Jsou orientační: konečná nabídka se potvrzuje podle vaší konfigurace — trup, PVC, rozsah grafiky, obaly a příslušenství — ještě před jakýmkoli závazkem. Náklad na dopravu, clo a vymlouvání na místě určení se uvádí zvlášť.'
+    - q: 'Musím koupit 100 nebo 500 desek, aby na nich bylo moje logo?'
+      a: 'Ne. Malá dávka ve spolupráci na značce umístí vaše logo na příď nebo boční výztuhy už od 5–10 kusů a zkušební objednávky 20–50 desek podporují plnou aplikaci grafiky ve stejné kvalitě jako sériová výroba. S množstvem se mění jednotková cena, ne dostupnost.'
+    - q: 'Co když chci po zkušební objednávce změnit návrh?'
+      a: 'Změny mezi zkušební a sériovou dávkou jsou běžné a vítané — přesně o to zkušební objednávka jde. Barevné kombinace, grafika, obaly a příslušenství se přecení podle nové konfigurace a poté se uzavřou podpisem grafiky a kusovníku BOM před sériovou dávkou. Poplatky za formu sítotisku se u opakovaných objednávek se stejným rozměrem grafiky neúčtují.'
+    - q: 'Podepíšete NDA, než sdělím své návrhy?'
+      a: 'Ano. Dohoda o mlčenlivosti je k dispozici ještě před sdílením proprietárních technických specifikací nebo grafiky. Vyrábíme výhradně pod značkami našich klientů a na žádném trhu s nimi nesoutěžíme — stejná zásada platí pro vzorek jedné desky i pro program kontejneru.'
+
+cta:
+  title: 'Připraveni rozjet svou značku SUP?'
+  subtitle: 'Pošlete nám cílový model desky, množství pro první sezónu a nápady na branding. Potvrdíme přesnou cestu vzorku a zkušební dávky s položkovými náklady a denním harmonogramem — žádný závazek, dokud nepodpíšete.'
+  actions:
+    - variant: primary
+      text: Začít uvedení na trh
+      href: /cs/contact#custom-oem
+    - text: Nejprve pochopit MOQ a dodací lhůtu pro SUP na míru
+      href: /cs/sup-oem-moq-lead-time
+    - text: Průvodce flexibilním brandingem a MOQ
+      href: /cs/oem-moq-guide
+    - text: Ověřit závod a systém kvality
+      href: /cs/oem-trust-assurance

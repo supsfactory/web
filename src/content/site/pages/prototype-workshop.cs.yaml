@@ -1,0 +1,102 @@
+meta:
+  title: 'Prototypová dílna SUP — výroba vzorků desek'
+  description: 'Od CADu po otestovaný vzorek desky za 7–12 dnů. Naše Prototypová dílna vyrobuje, vyladí a validuje vlastní vzorky SUP. Spusťte prototypový projekt ještě dnes.'
+  dateModified: '2026-08'
+back_text: 'Zpět do centra výzkumu a vývoje'
+home_label: 'Domů'
+
+answer:
+  label: 'Přímá odpověď'
+  text: 'Převedeme model z CADu na otestovanou vzorovou desku připravenou k jízdě za 7–12 dnů: nafukování prototypu, vodní zkoušky v mírné vlně, iterace na boku a přídi a následné spuštění do výrobních nástrojů. Zcela vlastní formy vyžadují navíc 15–20 dnů na nástroje nad standardní sériovou výrobu, která trvá 25–35 dnů.'
+  verified: 'září 2026'
+
+hero:
+  tagline: 'Laboratoř 05'
+  title: 'Prototypová dílna'
+  subtitle: 'Od modelu v CADu po otestovaný vzorek desky — vyrobeno, vyladěno a potvrzeno'
+  image: 'https://assets.isupfactory.com/images/sups/products/sup-series/sup-ocean-voyager-1.webp'
+  image_alt: 'Výroba desek SUP v prototypové dílně Vatrad'
+
+intro: 'Model v CADu, jakkoli podrobný, neukáže, jak se bude deska ve skutečnosti cítit, dokud ji nenafouknete, nestoupnete na ni a nevyjedete. Naše Prototypová dílna je proto navržena tak, aby převáděla konstrukční údaje na fyzickou desku připravenou k jízdě co nejrychleji a nejpřesněji. Každý nový model {SITE.name} — a každá významná zakázková úprava — prochází touto dílnou, než se spustí výrobní nástroje.'
+
+content_html: |
+  <h2>Kde se návrh stává skutečností</h2>
+  <p>Dílna je vybavena pro současnou výrobu panelů, jader drop stitch a boků. Takovýto paralelní pracovní postup zkracuje dobu výroby prototypu na 7–12 dnů od předání z konstrukce. Když Vaše aplikace vyžaduje specializované řešení, jsme schopni projít cestu od konceptu k potvrzení na vodě za méně než tři týdny.</p>
+
+  <h2>Vybavení dílny</h2>
+  <table>
+    <thead><tr><th>Pracoviště</th><th>Zařízení</th><th>Účel</th></tr></thead>
+    <tbody>
+      <tr><td>Krájení panelů</td><td>Stroj na CNC krájení tkaniny, software pro rozvržení, knihovna šablon panelů</td><td>Přesné krájení panelů paluby, trupu a boků pro libovolnou délku desky</td></tr>
+      <tr><td>Sestavení jádra</td><td>Laminovací stůl pro jádra drop stitch, válečky pro nanášení lepidla</td><td>Lepení jádra drop stitch mezi obaloviny z PVC s rovnoměrným nanesením lepidla</td></tr>
+      <tr><td>Svařování</td><td>HF svařovací lis, stanice s horkým vzduchem pro přichycení, nafukovací testovací přípravky</td><td>Svařování švů sestav v plné velikosti s ventily, úchyty a boxy na žebra</td></tr>
+      <tr><td>Doplnění a&amp; povrchová úprava</td><td>Nanášení koberce, stůl pro laminování grafiky, montážní stůl pro kovové části</td><td>Kompletní vybavení: koberec, loga, upevnění úchytu, lanko, boxy na žebra</td></tr>
+      <tr><td>Blok měření</td><td>Tloměry, zapisovač dat, přípravky pro měření průhybu</td><td>Zkoušení vzorků: cykly nafukování, průhyb paluby, měření těsnosti</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Cesta prototypu — krok za krokem</h2>
+  <ol>
+    <li><strong>Předání z konstrukce</strong> — Konstrukční balíček (3D model, zpráva FEA, specifikace materiálů, plán rozvržení panelů) formálně posoudí vedoucí dílny a projektový inženýr. Všechny výrobní připomínky se zapíší a odstraní ještě před začátkem krájení.</li>
+    <li><strong>Výroba panelů</strong> — Deska se vyrábí podle konstrukční specifikace. Panely se krájejí na CNC, jádro drop stitch se laminuje mezi obaloviny z PVC a paluba s trupem se sestavuje se schválenou sadou materiálů.</li>
+    <li><strong>Svařování</strong> — Panely se HF svařováním spojí do tvaru hotové desky. Komora se natlakuje na zkušební tlak a zůstává 24 h pro počáteční ustálení.</li>
+    <li><strong>Montáž a&amp; povrchová úprava</strong> — Nasadí se koberec, grafika, úchyt, lanko a boxy na žebra. Všechny hardwarové prvky se namontují a zkontrolují podle specifikace.</li>
+    <li><strong>Statické zkoušky</strong> — Než deska vyjde na vodu, projde: cykly nafukování, zkoušku udržení vzduchu, měření průhybu paluby při jmenovitém tlaku a kontrolu utahovacích momentů kovových částí.</li>
+    <li><strong>Program vodních zkoušek</strong> — 10 hodin zkoušek ve vodě, podrobně popsáno níže.</li>
+    <li><strong>Předání prototypu</strong> — Proběhne formální schvalovací porada za účasti konstrukce, výroby a úseku kvality. Všechny nutné změny konstrukce se zdokumentují a zahrnou do výrobního uvolnění.</li>
+  </ol>
+
+  <div class="not-prose my-10 p-6 rounded-xl bg-gray-50 dark:bg-gray-900 border border-gray-200 dark:border-gray-800">
+    <p class="text-sm font-semibold text-gray-500 mb-3 uppercase tracking-wider">10hodinový program vodních zkoušek — rozvrh zkoušek</p>
+    <div class="space-y-2 text-sm">
+      <div class="flex items-center gap-3 p-2 rounded bg-white dark:bg-gray-950">
+        <span class="w-12 text-xs font-bold text-blue-600">1 h</span>
+        <span class="flex-1">Kontrola stability — rovnováha ve stoji, odolnost proti bočnímu zatížení</span>
+      </div>
+      <div class="flex items-center gap-3 p-2 rounded bg-white dark:bg-gray-950">
+        <span class="w-12 text-xs font-bold text-blue-600">2 h</span>
+        <span class="flex-1">Zkušební plavba — klouzání, směrová stabilita a zatáčení ve 3 rychlostech; pohodlí při pádlování</span>
+      </div>
+      <div class="flex items-center gap-3 p-2 rounded bg-white dark:bg-gray-950">
+        <span class="w-12 text-xs font-bold text-blue-600">2 h</span>
+        <span class="flex-1">Zkouška zatížením jezdcem — stabilita a průhyb při hmotnosti jezdce 60 / 80 / 100 / 120 kg</span>
+      </div>
+      <div class="flex items-center gap-3 p-2 rounded bg-white dark:bg-gray-950">
+        <span class="w-12 text-xs font-bold text-blue-600">2 h</span>
+        <span class="flex-1">Zkouška ve vlnách — opakované průjezdy hlubokou vlnou; stříkání z přídě, průhyb boků</span>
+      </div>
+      <div class="flex items-center gap-3 p-2 rounded bg-white dark:bg-gray-950">
+        <span class="w-12 text-xs font-bold text-blue-600">2 h</span>
+        <span class="flex-1">Zkouška výdržnosti — souvislé pádlování s průběžnou kontrolou tlaku; zaznamenání těsnosti</span>
+      </div>
+      <div class="flex items-center gap-3 p-2 rounded bg-white dark:bg-gray-950">
+        <span class="w-12 text-xs font-bold text-blue-600">1 h</span>
+        <span class="flex-1">Závěrečná prohlídka — kontrola švů, kovových částí a grafiky po zkouškách; zdokumentování výsledků</span>
+      </div>
+    </div>
+  </div>
+
+  <h2>Vlastní prototypování pro mimořádné aplikace</h2>
+  <p>Prototypová dílna je místem, kde řešíme úlohy, se kterými si standardní sériové desky neporadí. Nedávné příklady:</p>
+  <ul>
+    <li>Turistická deska 14'' pro evropskou značku dlouhých převleků se zapuštěným nákladovým kobercem a zesílenou příď — vyrobena, vyladěna a otestována v naší provozovně.</li>
+    <li>Jóga deska 10'6'' s kobercem po celé délce a přidanou tloušťkou pro tuhost, potvrzená během 4týdenní zkušební plavební sezóny.</li>
+    <li>Flotová deska pod vlastní značkou s individuální grafikou na palubě a dvěma úchyty, kde prototyp sloužil k potvrzení barvy, rozmístění loga a obalu, než zákazník přijal rozhodnutí o objednávce kontejneru.</li>
+  </ul>
+
+  <h2>Naš prototypovací tým</h2>
+  <p>Na dílně pracuje osm allround výrobních techniků, z nichž každý je zkříženě školen nejméně na dvou ze tří hlavních oborů (krájení, svařování, doplnění). Vedoucím týmu je mistr s 16letou zkušeností, která zahrnuje jak vlastní jednotlivé zakázky, tak sériové dávky. Za každým prototypem stojí určený projektový inženýr, který je jediným kontaktním místem pro klienta po celou dobu výroby a zkoušek.</p>
+
+  <h2>Účast klienta</h2>
+  <p>Klienty vyzýváme, aby byli přítomni v klíčových fázích výroby prototypu — zejména při prvním předání a při vodních zkouškách. Vaše provozní zpětná vazba v těchto fázích je neocenitelná pro doladění desky před spuštěním výroby. Nestavíme ve vzduchoprázdu; stavíme společně s Vámi.</p>
+  <p>Program vodních zkoušek je zároveň příležitostí, aby se Váš tým seznámil se zvláštnostmi řízení desky a s požadavky na její údržbu, takže přechod do výroby proběhne hladce při dodání finálních desek.</p>
+
+cta:
+  title: 'Spusťte prototypový projekt'
+  subtitle: 'Řekněte nám, jakou desku potřebujete, a navrhneme Vám plán vývoje prototypu.'
+  actions:
+    - variant: primary
+      text: 'Spojit se s našim prototypovacím týmem'
+      href: /cs/contact#project-brief
+    - text: Zpět do centra výzkumu a vývoje
+      href: /cs/randdcenter

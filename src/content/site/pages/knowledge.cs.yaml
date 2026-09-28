@@ -1,0 +1,111 @@
+meta:
+  title: 'Znalosti — příručky k nafukovacím SUP a OEM | {SITE}'
+  description: 'Znalostní báze Vatrad: příručky k nafukovacím SUP, materiálům paddle boardů, výběru desky a pohledům do odvětví pro značky a profesionály.'
+  dateModified: '2026-08'
+  keywords:
+    - 'znalosti o sup'
+    - 'průvodce nafukovacími sup'
+    - 'materiály paddle boardů'
+    - 'pohledy do odvětví sup'
+hero:
+  tagline: 'Centrum znalostí'
+  title: 'Centrum znalostí SUP'
+  subtitle: |
+    Strukturovaná znalostní báze pokrývající technologii nafukovacích SUP,
+    bezpečnost na vodě, návrh desek a plánování dobrodruhů.
+  taglineSection: 'Prozkoumejte. Naučte se. Vydejte se s jistotou.'
+
+clusters:
+  tagline: 'Tematické okruhy'
+  title: 'Prozkoumejte podle tématu'
+  subtitle: 'Podrobné pohledy na technologii, bezpečnost a dovednosti, které stojí za každým produktem Vatrad.'
+  items:
+    - title: 'Nákupní příručky k SUP'
+      description: 'Od výběru první desky po pokročilé techniky touringu — vše o stojícím pádlování na paddle boardu.'
+      icon: 'tabler:lifebuoy'
+      topics:
+        - 'Jak vybrat svou první nafukovací SUP'
+        - 'Průvodce velikostmi SUP a nosností'
+        - 'Nejlepší SUP pro začínající, touring, yogu a závody'
+        - 'Časté chyby při nákupu SUP, kterým se vyhnout'
+        - 'Srovnání nafukovací a pevné desky'
+    - title: 'Inženýring a technologie SUP'
+      description: 'Technické příručky k nafukovacím deskám SUP — materiály, konstrukční metody a výrobní procesy.'
+      icon: 'tabler:microscope'
+      topics:
+        - 'Hloubkový ponor do technologie drop-stitch'
+        - 'Specifikace PVC vojenské třídy'
+        - 'Fóliová laminace proti lepenému spojování'
+        - 'Technologie pěny EVA a metody potisku grafiky'
+        - 'Typy ventilů a systémy žebra u SUP'
+    - title: 'Bezpečnost a údržba SUP'
+      description: 'Zásadní bezpečnostní znalosti pro každého pádla — od výběru PFD přes čtení počasí po péči o desku a opravy.'
+      icon: 'tabler:shield'
+      topics:
+        - 'Kontrolní seznam bezpečnosti SUP a požadavky na PFD'
+        - 'Vícekomorová bezpečnost pro odlehlé vody'
+        - 'Průvodce tlakem PSI při huštění SUP'
+        - 'Skladování desky a zimní péče'
+        - 'Techniky opravy nafukovacích desek'
+    - title: 'Dovednosti a techniky SUP'
+      description: 'Techniky pádlování, dovednosti pro touring a fyzický trénink pro všechny úrovně.'
+      icon: 'tabler:sailboat'
+      topics:
+        - 'Techniky pádlování pro začínajícího'
+        - 'Ovládnutí záběru pro pokročilé'
+        - 'Plánování touringu a expedicí'
+        - 'Fyzická příprava a závodní trénink na SUP'
+        - 'Dovednosti pro divokou vodu a říční pádlování'
+    - title: 'Životní styl a speciální využití SUP'
+      description: 'Specializované aktivity na SUP — yoga, rybolov, psi, rodiny a tipy na cestování.'
+      icon: 'tabler:heart'
+      topics:
+        - 'Yoga a meditace na nafukovací SUP'
+        - 'Rybolov z nafukovacího SUP'
+        - 'Pádlování se psy a s dětmi'
+        - 'Cestování se svým SUP letadlem a autem'
+        - 'Příslušenství SUP a základní výbava'
+    - title: 'Srovnání a referenční příručky SUP'
+      description: 'Srovnání vedle sebe, které vám pomůže činit informovaná rozhodnutí.'
+      icon: 'tabler:chart-bar'
+      topics:
+        - 'SUP vs kajak — co je správné pro vás?'
+        - 'Srovnání materiálů PVC a Hypalon'
+        - 'Bezpečnost jedné komory vs více komor'
+        - 'Vysvětlení materiálů desek SUP'
+        - 'UV tisk vs grafika z bloků EVA'
+
+featured_guides:
+  tagline: 'Vybrané příručky'
+  title: 'Nejoblíbenější zdroje znalostí'
+  items:
+    - title: 'Základy SUP'
+      href: '/cs/knowledge'
+    - title: 'Nafukovací vs pevná deska'
+      href: '/cs/inflatable-vs-hardboard'
+    - title: 'Průvodce bezpečností na vodě'
+      href: '/cs/guides/safety-tips'
+    - title: 'Referenční příručka materiálů'
+      href: '/cs/knowledge'
+    - title: 'Nákupní průvodce SUP'
+      href: '/cs/guides/how-to-choose-your-sup'
+    - title: 'Průvodce velikostmi SUP'
+      href: '/cs/size-guide'
+    - title: 'Technologické centrum SUP'
+      href: '/cs/technology'
+    - title: 'Údržba SUP'
+      href: '/cs/knowledge'
+    - title: 'Průvodce touringem'
+      href: '/cs/products/touring'
+    - title: 'Techniky pádlování'
+      href: '/cs/knowledge'
+
+cta:
+  title: 'Začněte prozkoumat'
+  subtitle: 'Ponořte se do naší znalostní báze a získejte informace, které potřebujete pro své další dobrodružství na vodě.'
+  actions:
+    - variant: primary
+      text: 'Prohlédnout všechny příručky'
+      href: '/cs/knowledge'
+    - text: 'Prozkoumat graf znalostí'
+      href: '/cs/knowledge'

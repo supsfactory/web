@@ -1,0 +1,128 @@
+meta:
+  title: 'OEM vs ODM vs private label při výrobě SUP — srovnávací průvodce'
+  description: 'OEM vs ODM vs private label při výrobě SUP: definice, vlastnictví, vstupní body MOQ, dodací lhůty, nástroje, pravidla IP a nejvhodnější scénáře.'
+  dateModified: '2026-08-20'
+  keywords:
+    - 'OEM vs ODM vs private label'
+    - 'srovnání výroby SUP'
+    - 'výroba paddle boardů na míru'
+    - 'OEM SUP Čína'
+    - 'vývoj ODM SUP'
+    - 'private label SUP'
+
+hero:
+  tagline: 'Vyberte si cestu spolupráce'
+  title: 'OEM vs ODM vs Private Label — který model sedí vášemu projektu?'
+  subtitle: 'Tři způsoby spolupráce se závodem SUP, každý s jinými kompromisy vlastnictví, investic a rychlosti. Tento průvodce vysvětluje rozdíly, abyste si vybrali správnou cestu už před první poptávkou.'
+
+answer:
+  label: 'Rychlé srovnání'
+  text: 'OEM: vlastníte návrh a specifikaci — vyrábíme podle vašich výkresů. ODM: náš inženýrský tým vyvine desku z vašeho zadání — schválíte ji před výrobou. Private Label: vaše značka na ověřené existující platformě bez strukturálních změn — nejrychlejší cesta na trh. Všechny tři cesty procházejí stejným závodem, systémem kontroly kvality a exportním týmem v Qingdao v Číně.'
+  verified: 'září 2026'
+
+comparison_table:
+  tagline: 'Vedle sebe'
+  title: 'Srovnání OEM / ODM / Private Label'
+  subtitle: 'Klíčové rozdíly vlastnictví návrhu, MOQ, nástroje, dodací lhůty a duševního vlastnictví.'
+  headers:
+    dimension: Rozměr
+    oem: Výroba OEM
+    odm: Vývoj ODM
+    pl: Private Label
+  rows:
+    - dimension: 'Kdo navrhuje desku?'
+      oem: 'Dodáte specifikaci, výkresy nebo referenční desku'
+      odm: 'Inženýrský tým závodu vyvine návrh z vašeho zadání'
+      pl: 'Existující platforma závodu — bez práce na návrhu'
+    - dimension: 'Vlastnictví návrhu a IP'
+      oem: 'Vlastníte všechny návrhy, formy i duševní vlastnictví'
+      odm: 'Vlastníte konečný schválený návrh; závod si ponechává IP vývojového procesu'
+      pl: 'Platformní návrh vlastní závod; značku a grafiku vlastníte vy'
+    - dimension: 'Forma / nástroj'
+      oem: 'Nové tvary vyžadují zákazkovou formu — jednorázový poplatek za nástroj, o 15–20 dní navíc'
+      odm: 'Podle specifikace může zákazková forma být potřebná — stejný časový rámec nástroje'
+      pl: 'Žádná nová forma — používá se nástroj existující platformy'
+    - dimension: 'Minimální objednávkové množství'
+      oem: '90–100+ kusů na schválenou konfiguraci'
+      odm: '90–100+ kusů na schválenou konfiguraci; pilotní dávky od 20–50 kusů'
+      pl: '5–10 kusů (spolupráce na značce) nebo 20–50 kusů (pilotní dávka na existující platformě)'
+    - dimension: 'Obvyklá dodací lhůta'
+      oem: '25–35 dní + 15–20 dní na nástroj, pokud je forma nová'
+      odm: '25–35 dní + čas iterací vývoje (podle složitosti)'
+      pl: '25–35 dní (bez prodloužení kvůli nástroji)'
+    - dimension: 'Úroveň přizpůsobení'
+      oem: 'Úplná — tvar, konstrukce, materiály, grafika, obaly'
+      odm: 'Úplná — závod navrhuje, vy schvalujete každý prvek'
+      pl: 'Pouze grafika a obaly — bez strukturálních změn'
+    - dimension: 'Proces vzorků'
+      oem: '1–2 vzorky prototypu za 7–12 dní po schválení specifikace'
+      odm: '1–2 vzorky prototypu za 7–12 dní po schválení návrhu'
+      pl: '1–2 vzorky za 7–12 dní — platforma je již ověřená'
+    - dimension: 'Vhodné pro'
+      oem: 'Nakupující s hotovými návrhy, referenčními deskami nebo podrobnými specifikacemi'
+      odm: 'Nakupující s produktovými nápady nebo požadavky trhu, ale bez podrobné specifikace'
+      pl: 'Nakupující, kteří potřebují rychle značkové desky bez vývoje produktu'
+
+scenario_cards:
+  tagline: 'Kdy zvolit kterou cestu'
+  title: 'Scénáře z praxe'
+  subtitle: 'Běžné situace nakupujících a doporučený model spolupráce.'
+  features:
+    - icon: '1'
+      icon_bg: 'blue'
+      title: 'Máte kompletní specifikaci a vlastníte návrh'
+      desc: 'Máte výkresy CAD, referenční desku nebo podrobný specifikační list s rozměry, materiály, konstrukcí a požadavky na obaly. Zvolte OEM — vyrábíme přesně podle vaší specifikace.'
+      link: '/cs/factory/oem-capability'
+      link_label: 'Podrobnosti o výrobě OEM'
+    - icon: '2'
+      icon_bg: 'green'
+      title: 'Máte produktový koncept, ale žádnou inženýrskou specifikaci'
+      desc: 'Znáte cílový trh, cenovou hladinu a výkonové požadavky, ale potřebujete inženýrskou podporu při vývoji desky. Zvolte ODM — náš tým vyvine návrh z vašeho zadání, vy schválíte před výrobou.'
+      link: '/cs/odm-manufacturing'
+      link_label: 'Podrobnosti o vývoji ODM'
+    - icon: '3'
+      icon_bg: 'orange'
+      title: 'Potřebujete rychle značkové desky, bez vývoje produktu'
+      desc: 'Jste distributor, resort nebo provozovatel půjčovny a chcete své logo na kvalitních deskách, aniž byste investovali do vývoje produktu. Zvolte Private Label — nejrychlejší cesta od konceptu k dodání.'
+      link: '/cs/solutions/private-label-sup'
+      link_label: 'Podrobnosti o Private Label'
+    - icon: '4'
+      icon_bg: 'purple'
+      title: 'Provozujete resort, klub nebo půjčovanou flotilu'
+      desc: 'Potřebujete odolné balíčky SUP pro intenzivní použití s dávkovou konzistencí, náhradními díly a správou barev u opakovaných objednávek. Zvolte náš program komerční flotily.'
+      link: '/cs/solutions/resort-sup'
+      link_label: 'Podrobnosti o komerční flotile'
+
+ip_rules:
+  tagline: 'Ochrana duševního vlastnictví'
+  title: 'Jak chráníme vaše návrhy a značku'
+  subtitle: 'Nezávisle na modelu spolupráce zůstává vaše grafika, nástroje a specifikační soubory vaším majetkem.'
+  body: |
+    **NDA před výměnou souborů.** Dojednáváme dohodu o mlčenlivosti před jakoukoli výměnou technických souborů — standardní reakční doba je do 4 pracovních hodin.
+
+    **Žádné opětovné použití návrhu.** Vaše grafika, nástroje a specifikační soubory nikdy nesdílíme s jinými klienty ani jim neprodáváme. Formy OEM výhradně patří vám. Návrhy ODM schvalujete před výrobou. Platformy Private Label jsou sdílené konstrukce, ale vaše grafika a branding jsou exkluzivní.
+
+    **Pouze B2B.** Vyrábíme výhradně pod značkami našich klientů. Neprodáváme koncovým zákazníkům a na žádném trhu se se svými klienty nesoutěžíme.
+
+    **Vlastnictví forem.** Zákazkové formy financované kupujícím patří kupujícímu. Skladujeme je a udržujeme, ale bez písemného souhlasu je nemůžeme použít pro jiné klienty.
+
+faqs:
+  tagline: 'FAQ'
+  title: 'Časté otázky o OEM, ODM a Private Label'
+  items:
+    - q: 'Mohu později přejít z private label na OEM?'
+      a: 'Ano. Mnoho klientů začíná private label nebo pilotní dávkou, aby ověřilo trh, a poté po potvrzení poptávky investuje do zákazkového nástroje pro plný program OEM. Obě cesty podporuje stejný závod a systém kontroly kvality.'
+    - q: 'Znamená ODM, že závod vlastní mou značku?'
+      a: 'Ne. V modelu ODM vlastníte svou značku, grafiku a obaly. Závod vyvine strukturu desky z vašeho zadání a vy schválíte návrh před výrobou. Závodu zůstává IP vývojového procesu, ale schválená produktová specifikace patří vám.'
+    - q: 'Je private label horší kvalitou než OEM?'
+      a: 'Ne. Všechny tři cesty procházejí stejným závodem, stejným systémem kontroly kvality a stejným exportním týmem. Desky private label se staví na ověřených, validovaných platformách s plnou 24hodinovou zkouškou při tlaku 18 PSI a se stejným kontrolním listem montáže o 100 bodech.'
+    - q: 'Co když nejsem jistý, který model zvolit?'
+      a: 'Kontaktujte nás se svou situací — náš inženýrský tým doporučí nejpraktičtější cestu podle vašich produktových požadavků, časového rámce a cílových objemů. Před posouzením specifikace není žádný závazek nutný.'
+    - q: 'Mohu získat vzorky dříve, než se zavážu k jakémukoli modelu?'
+      a: 'Ano. 1–2 vzorky prototypu odeíláme za 7–12 dní. Náklad vzorku se odečítá z vaší objednávky. Díky tomu posoudíte konstrukci a kvalitu před jakýmkoli objemovým závazkem.'
+
+cta:
+  title: 'Připraveni probrat svůj projekt SUP?'
+  subtitle: 'Napište nám o svých produktových požadavcích, trhu a cílových objemech — doporučíme nejpraktičtější cestu spolupráce.'
+  button: 'Začít svůj projekt SUP'
+  note: 'Odpověď do 1 pracovního dne · NDA k dispozici před výměnou souborů'

@@ -1,0 +1,14 @@
+meta:
+  title: 'Zprávy — výrobce SUP a námořní novinky | {SITE}'
+  description: 'Nejnovější zprávy od Vatrad: aktuality závodu, nové modely nafukovacích SUP, certifikace a oznámení z námořního průmyslu.'
+  keywords:
+    - 'zprávy výrobce sup'
+    - 'aktuality vatrad'
+    - 'oznámení nafukovací sup'
+    - 'novinky námořního průmyslu'
+hero_text:
+  tagline: ''
+  title: Zprávy
+  subtitle: Nejnovější z Vatrad — uvedení produktů, aktuality společnosti, příručky a příběhy z vody
+news_list:
+  limit: 100

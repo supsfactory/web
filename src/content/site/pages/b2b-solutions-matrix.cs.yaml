@@ -1,0 +1,134 @@
+meta:
+  title: 'Matice B2B řešení pro klienty | {SITE}'
+  description: 'Kompletní matice B2B řešení Vatrad pokrývající 24 typů zákazníků — od startupů v outdooru až po instituce zabývající se ochranou mořské fauny.'
+  dateModified: '2026-08'
+
+hero:
+  tagline: B2B řešení pro klienty
+  title: '24 B2B řešení pro Vaše podnikání'
+  subtitle: 'Od zakladatelů startupů až po globální distributory — najděte přesně to řešení Vatrad, které je navrženo pro Váš obchodní model, obor a cíle.'
+  image:
+    src: https://assets.isupfactory.com/images/sups/factory/isupfactory-factory-building.webp
+    alt: Továrna a výrobní provozovna Vatrad
+
+answer:
+  label: 'Přímá odpověď'
+  text: 'Jedna továrna obsluhuje všechny B2B cesty: výrobu OEM/ODM s MOQ potvrzeným podle projektu (vzorek 1–2 kusy, pilotní série 20–50, sériový objem 90–100+ na 150 m rol; co-branding od 5–10 kusů), private label na ověřených platformách, velkoobchodní distribuci a flotové programy pro resorty, kluby a školy. Každému typu zákazníka odpovídá konkrétní sada řešení — vzorky za 7–12 dní, výroba 25–35 dní po objednávce a záloze.'
+  verified: 'září 2026'
+
+solutions:
+  title: Matice klientských řešení
+  subtitle: 'Každý typ zákazníka, jeho hlavní potřeba a stránka řešení Vatrad, která je pro něj navržena.'
+  items:
+    - clientType: Zakladatel outdoorového startupu
+      need: Tvorba značky
+      solutionPage: Postavte si svou značku SUP
+      link: /cs/solutions/private-label-sup
+    - clientType: Brand manager outdoorové značky
+      need: Rozšíření outdoorové značky do vodních sportů
+      solutionPage: Rozšířte outdoorovou značku do vodních sportů
+      link: /cs/solutions/private-label-sup
+    - clientType: Majitel surfshopu
+      need: Modernizace surfového byznysu
+      solutionPage: Přeneste nafukovací technologii do surfového byznysu
+      link: /cs/products/surf
+    - clientType: Prodejce na Amazonu
+      need: Růst v elektronickém obchodování
+      solutionPage: Diferenciace produktu a rychlé dodávky
+      link: /cs/solutions/private-label-sup
+    - clientType: Značka rybářského vybavení
+      need: SUP pro rybolov
+      solutionPage: Vytvořte svou značku SUP pro rybolov
+      link: /cs/products/fishing
+    - clientType: Značka jógy a wellnesu
+      need: Výrobky pro aktivitu u vody
+      solutionPage: Řešení vybavení pro SUP jógu
+      link: /cs/products/yoga
+    - clientType: Značka tvůrce obsahu
+      need: Influencerová značka
+      solutionPage: Startup SUP v edici pro tvůrce
+      link: /cs/solutions/private-label-sup
+    - clientType: Zakladatel paddleboardového klubu
+      need: Klubová flotila
+      solutionPage: Komerční flotila SUP
+      link: /cs/solutions/club-sup
+    - clientType: Majitel půjčovacího byznysu
+      need: Provoz půjčovny
+      solutionPage: Řešení pro odolnou půjčovací flotilu
+      link: /cs/solutions/rental-operators
+    - clientType: Vedoucí aktivit v hotelu
+      need: Zážitek hosta
+      solutionPage: Balíček vodných aktivit pro resort
+      link: /cs/solutions/resort-sup
+    - clientType: Akademie vodních sportů
+      need: Výcvik a vzdělávání
+      solutionPage: Program vybavení pro SUP akademii
+      link: /cs/solutions/school-sup
+    - clientType: Cruisová a jachtařská společnost
+      need: Zážitek na jachtě
+      solutionPage: Luxusní přenosný balíček SUP
+      link: /cs/product-development
+    - clientType: Nákupčí outdoorové retailové sítě
+      need: Retailový kanál
+      solutionPage: Program private label pro retail
+      link: /cs/solutions/retail-partners
+    - clientType: Distributor a dovozce
+      need: Regionální distribuce
+      solutionPage: Regionální partner OEM a dodavatelského řetězce
+      link: /cs/solutions/distributors
+    - clientType: Firemní nákupčí projektů
+      need: Firemní akce
+      solutionPage: Firemní balíček SUP pro akce
+      link: /cs/contact
+    - clientType: Brand manager značky vodních sportů
+      need: Rozšíření značky vodních sportů
+      solutionPage: Rozšířte své portfolio vodních sportů
+      link: /cs/solutions/private-label-sup
+    - clientType: Majitel značky dobrodružství s mazlíčky
+      need: Outdoor s domácím mazlíčkem
+      solutionPage: Program paddleboardů vhodných pro mazlíčky
+      link: /cs/product-development
+    - clientType: Provozovatel plážové zábavy
+      need: Plážová zábava
+      solutionPage: Kompletní vybavení pro plážové aktivity
+      link: /cs/solutions/rental-operators
+    - clientType: Developer aquaparku
+      need: Tematická zábava
+      solutionPage: Komerční flotila SUP pro aquapark
+      link: /cs/solutions/resort-sup
+    - clientType: Majitel soukromého ostrova nebo luxusního klubu
+      need: Vysoký životní styl
+      solutionPage: Prémiová kolekce SUP na míru
+      link: /cs/product-development
+    - clientType: Turistická organizace nebo provozovatel městského parku
+      need: Projekty veřejného cestovního ruchu
+      solutionPage: Balíček vodních sportů pro destinaci
+      link: /cs/solutions/rental-operators
+    - clientType: Provozovatel dětských dobrodruhů a letních táborů
+      need: Vzdělávání mládeže
+      solutionPage: Program SUP pro dětské objevování
+      link: /cs/solutions/school-sup
+    - clientType: Organizace vodní záchranné služby a bezpečnosti
+      need: Profesionální záchrana
+      solutionPage: Profesionální systém SUP pro záchranu na vodě
+      link: /cs/product-development
+    - clientType: Instituce v oblasti ochrany moře a výzkumu
+      need: Environmentální výzkum
+      solutionPage: Ekologická platforma SUP pro výzkum a monitoring
+      link: /cs/product-development
+
+cta:
+  title: 'Nejste si jisti, které řešení se Vašemu byznysu hodí?'
+  subtitle: 'Napište našemu B2B týmu o Vašem projektu a my doporučíme správnou konfiguraci i cenu.'
+  actions:
+    - variant: primary
+      text: Promluvit s naším B2B týmem
+      href: /cs/contact?subject=b2b-solutions
+    - variant: secondary
+      text: Stáhnout katalog
+      href: /cs/products
+
+content_html: |
+  <div class="mx-auto max-w-3xl space-y-4 rounded-2xl border bg-card p-6 text-[14.5px] leading-relaxed text-fg-2">
+    <p>Každá cesta v této matici začíná těmito dvěma věcmi: naším <a href="/cs/oem-manufacturing">programem výroby OEM/ODM</a> a <a href="/cs/factory">továrnou, která za ním stojí</a> — jeden areál o ploše 12 500 m&sup2;, jedna sada standardů kvality, obsluha všech kanálů.</p>
+  </div>

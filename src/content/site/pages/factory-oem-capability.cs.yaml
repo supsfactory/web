@@ -1,0 +1,74 @@
+meta:
+  title: 'Výroba OEM a pod vlastní značkou | {SITE}'
+  description: 'Od konceptu po sériovou výrobu: upravte každý detail své řady nafukovacích SUP. Kompletní služby OEM/ODM pro značky paddle boardů pod vlastní značkou.'
+  dateModified: '2026-08'
+  keywords:
+    - 'výroba oem sup'
+    - 'paddle board pod vlastní značkou'
+    - 'oem nafukovací sup'
+    - 'továrna na individuální sup'
+hero:
+  tagline: Výroba OEM/ODM
+  title: Výroba OEM a pod vlastní značkou
+  subtitle: Od konceptu po sériovou výrobu — upravte každý detail své řady nafukovacích SUP
+
+answer:
+  label: 'Přímá odpověď'
+  text: 'MOQ se určuje podle konfigurace projektu, nikoli podle pevného čísla: každý projekt prochází fází vzorku (1–2 kusy) a pilotní dávky (20–50 kusů), zatímco standardní sériová výroba běží v dávkách 90–100+ kusů z plného 150m role drop-stitch. Vzorky jsou připraveny za 7–12 dní; standardní výroba trvá 25–35 dní po potvrzení objednávky a zálohy.'
+  verified: 'září 2026'
+
+intro: Vatrad nabízí komplexní služby OEM a ODM značkám, distributorům a státním organizacím po celém světě. S více než 10 lety zkušeností s exportem a s certifikovaným závodem o ploše 12 500 m² s certifikacemi ISO 9001 a BSCI přebíráme vše od návrhu výrobku a vývoje forem až po sériovou výrobu, balení a řízení exportu.
+
+highlight:
+  - value: 10+
+    label: Let zkušeností s OEM
+    detail: Od roku 2012
+  - value: 50+
+    label: Zemí exportu
+    detail: Globální dosah
+  - value: 200+
+    label: Dodaných individuálních projektů
+    detail: Ve všech produktových řadách
+  - value: 25–35
+    label: Standardní dodací lhůta (dny)
+    detail: Po potvrzení objednávky a zálohy
+
+services:
+  - title: Návrh výrobku a inženýring
+    description: Náš interní vývojový tým pracuje s vaším konceptem nebo specifikací a vytváří výkresy CAD, 3D modely a prototypy. Nabízíme návrh forem, optimalizaci tvaru trupu a poradenství při výběru materiálu.
+  - title: Individualizovaný branding a grafika
+    description: Plnobarevný digitální tisk, sítotisk, reliéfní značení a varianty etiket. Vyvíjíme grafiku na palubě, branding na bočnicích a obaly připravené pro maloobchod.
+  - title: Individualizace materiálu a specifikace
+    description: Vybírejte z PVC (standardní, ekologické, zpomalovač hoření), Hypalon/CSM, drop-stitch a hybridních konstrukcí. Individuální barvy bočnic, gramáže tkanin a varianty zesílení.
+  - title: Balení a logistika
+    description: Individuální maloobchodní obaly, krabice pod vlastní značkou, vakuové balení, paletování a balení na úrovni pro export — vše připravujeme vlastními silami.
+
+moq_table:
+  - product: Nafukovací desky SUP
+    standard_moq: 'Vzorek 1–2 | Pilot 20–50'
+    custom_moq: 'Objem 90–100+ (z 150m role)'
+    lead_time: 25–35 dní
+
+why_us:
+  - title: Vertikální integrace
+    description: 'Vlastníme svůj závod, formy i dodavatelský řetězec — žádní prostředníci ani subdodavatelé. To nám dává kontrolu nad kvalitou, náklady i dodávkou.'
+  - title: Dvojitá certifikace
+    description: Řízení kvality podle ISO 9001 a certifikace sociální odpovědnosti BSCI. Zprávy z auditu závodu předkládáme na vyžádání.
+  - title: Soulad s CE
+    description: Certifikace CE se vztahuje na modely určené pro trhy EU (rozsah se potvrzuje u každého projektu). Individuální modely lze přes náš osvědčený postup rovněž certifikovat podle CE.
+  - title: MOQ podle konkrétního projektu
+    description: 'MOQ se potvrzuje podle konfigurace vašeho projektu — malé dávky spolupráce na značce začínají na 5–10 kusech, standardní objem běží po 90–100+ kusech v dávce. Pomáháme začínajícím značkám vstoupit na trh bez nadměrných zásob.'
+
+cta:
+  title: 'Dejte svou značku na ověřenou desku'
+  subtitle: 'Od posouzení specifikace po naložený kontejner — pošlete nám dnes zadání a do jednoho pracovního dne obdržíte podrobnou nabídku pro výrobu OEM. Než se zavážete, ověřte si závod a jeho systém kvality.'
+  actions:
+    - variant: primary
+      text: Vyžádat nabídku pro výrobu OEM
+      href: /cs/contact#custom-oem
+    - text: Ověřit závod a systém kvality
+      href: /cs/oem-trust-assurance
+    - text: Kontrolní systém v 7 fázích
+      href: /cs/quality
+    - text: Prohlédnout výrobní linku
+      href: /cs/factory/process

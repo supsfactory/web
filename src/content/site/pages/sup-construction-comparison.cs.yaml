@@ -1,0 +1,123 @@
+meta:
+  title: 'Porovnání konstrukcí SUP — jednovrstvé, dvojvrstvé a drop-stitch PVC | iSupfactory'
+  description: 'Porovnání konstrukcí nafukovacích desek SUP: jednovrstvé PVC, dvojvrstvé PVC a jádro drop stitch — tuhost, hmotnost, životnost, cena a nejlepší scénář použití.'
+  dateModified: '2026-08-21'
+  keywords:
+    - 'porovnání konstrukcí sup'
+    - 'typy konstrukcí nafukovacího sup'
+    - 'jednovrstvé a dvojvrstvé sup'
+    - 'konstrukce sup drop stitch'
+    - 'konstrukce sup z PVC'
+    - 'tuhost desky sup'
+    - 'hmotnost desky sup'
+
+hero:
+  tagline: 'Průvodce konstrukcí'
+  title: 'Porovnání konstrukcí SUP'
+  subtitle: 'Tři typy konstrukce, jedna výrobní linka. Pochopte kompromisy mezi tuhostí, hmotností, životností a cenou u jednovrstvého PVC, dvojvrstvého PVC a desek s jádrem drop stitch — a zjistěte, která konstrukce odpovídá Vašemu cílovému jezdci a pozicionování na trhu.'
+
+answer:
+  label: 'Stručné porovnání'
+  text: 'Jednovrstvé PVC je nejlehčí a nejdostupnější: ideální pro méně časté jezdce a trhy citlivé na cenu. Dvojvrstvé PVC přidává druhou vrstvu PVC pro tuhost a životnost při mírné hmotnosti — oborový standard pro půjčovny a značky střední třídy. Jádro drop stitch v obalu z PVC poskytuje maximální tuhost a odolnost vůči tlaku — přednostně pro vysoké parametry, surfing a těžší jezdce. Všechny tři konstrukce vyrábíme na jedné lince se stejnými kontrolními branami QC; rozdíl je v materiálech a fázích laminace.'
+  verified: 'září 2026'
+
+comparison_table:
+  tagline: 'Vedle sebe'
+  title: 'Porovnání typů konstrukce'
+  headers:
+    - 'Parametr'
+    - 'Jednovrstvé PVC'
+    - 'Dvojvrstvé PVC'
+    - 'Jádro drop stitch + obal z PVC'
+  rows:
+    - - 'Tuhost (PSI)'
+      - '12–15 PSI'
+      - '15–18 PSI'
+      - '18–25 PSI'
+    - - 'Hmotnost (deska 11 ft)'
+      - '7–9 kg'
+      - '10–13 kg'
+      - '12–15 kg'
+    - - 'Životnost'
+      - 'Dobrá — pro rekreaci'
+      - 'Velmi dobrá — půjčování a komerční použití'
+      - 'Výborná — vysoké parametry a těžší jezdci'
+    - - 'Vrstvy konstrukce'
+      - '1 vrstva PVC + jádro drop stitch'
+      - '2 vrstvy PVC + jádro drop stitch'
+      - 'Zesílené jádro drop stitch + obal z PVC + boční pás'
+    - - 'Typický scénář'
+      - 'Začáteční úroveň, méně časté použití, trhy citlivé na cenu'
+      - 'Univerzální, půjčování, kluby, značky střední třídy'
+      - 'Pádlování na dlouhé vzdálenosti, surfing, těžší jezdci, prémiové značky'
+    - - 'Relativní cena'
+      - 'Nejnižší'
+      - 'Střední'
+      - 'Vyšší'
+    - - 'Způsob svařování'
+      - 'Termosvařované VF švy'
+      - 'Termosvařované VF švy + laminace'
+      - 'Termosvařované VF švy + zesílené boky'
+    - - 'Standard tlakové zkoušky'
+      - 'zkouška udržením tlaku 18,0 PSI'
+      - 'zkouška udržením tlaku 18,0 PSI'
+      - 'zkouška udržením tlaku 18,0 PSI (vyšší tuhost)'
+
+use_cases:
+  tagline: 'Která konstrukce pro kterého zákazníka'
+  title: 'Přiřaďte konstrukci ke svému cílovému trhu'
+  subtitle: 'Volba konstrukce není jen rozhodnutí o ceně: určuje zážitek jezdce, profil reklamací a pozicionování značky, které jste schopni udržet.'
+  grid: 'sm:grid-cols-3'
+  features:
+    - icon: S
+      icon_bg: blue
+      title: 'Jednovrstvé pro začáteční úroveň a objem'
+      desc: 'Nejlehčí deska za nejnižší cenu. Ideální pro značky zaměřené na začínající zákazníky, velké maloobchodní řetězce a online tržiště, kde je cena hlavním faktorem nákupu. Přijatelná tuhost pro pádlování na klidné vodě při mírném PSI. Nižší podíl reklamací při použití v rámci jmenovitého rozsahu tlaku.'
+      link_label: 'Začáteční OEM desky'
+      href: /cs/oem-manufacturing
+    - icon: D
+      icon_bg: green
+      title: 'Dvojvrstvé pro půjčování a komerční použití'
+      desc: 'Pracovní kůň pro půjčovny, kluby, letoviska a školní programy. Další vrstva PVC chrání před nárazy, UV zářením a každodenním zacházením, které v komerčních podmínkách ničí jednovrstvé desky. Vyšší odolnost vůči tlaku zajišťuje tužší jízdu pro těžší jezdce. Nejpopulárnější konstrukční segment na světě.'
+      link_label: 'Řešení pro půjčovny a letoviska'
+      href: /cs/solutions/resort-sup
+    - icon: P
+      icon_bg: purple
+      title: 'Jádro drop stitch pro vysoké parametry'
+      desc: 'Maximální tuhost pro pádlování na dlouhé vzdálenosti, surfing, rybaření a těžší jezdce. Zesílená konstrukce boků a vyšší hodnota PSI zajišťují parametry tuhé desky v přenosném provedení. Přednostně pro výkonné značky a zkušené pádlaře. Vyšší cena materiálu, ale silnější pozicionování značky a nižší podíl reklamací na kus.'
+      link_label: 'Vývoj výkonných desek'
+      href: /cs/odm-manufacturing
+
+key_factors:
+  heading: 'Klíčové faktory vedle typu konstrukce'
+  body: |
+    Typ konstrukce je pouze jednou z proměnných parametrů desky. Další tři faktory mají stejnou nebo větší váhu:
+
+    - **Hustota drop stitch** — Počet vláken na palec určuje, jak rovnoměrně deska drží tvar pod tlakem. Používáme standard 96 vláken na palec a 140 vláken na palec pro výkonné sestavy. Vyšší hustota = rovnější deska = lepší klouzání.
+    - **Druh a tloušťka PVC** — Ne každé PVC je stejné. Do Koreje importované PVC o tloušťce 0,7 mm má vyšší pevnost v tahu a odolnost vůči UV záření než tenčí alternativy. Druh materiálu stanovujeme pro každý projekt.
+    - **Konstrukce boků** — Jednovrstvé boky jsou nejčastějším místem poruchy u levných desek. Dvojvrstvé boky a zesílený boční pás výrazně snižují riziko propíchnutí boku. Všechny naše desky používají zesílené boky bez ohledu na konstrukční segment.
+
+faqs:
+  tagline: FAQ
+  title: 'Konstrukce SUP — časté dotazy'
+  items:
+    - q: 'Jaký typ konstrukce zvolit pro moji značku?'
+      a: 'Záleží na Vašem cílovém trhu a cenovém pozicionování. Začáteční úroveň a velký maloobchod: jednovrstvé. Půjčovny, kluby a značky střední třídy: dvojvrstvé. Vysoké parametry, pádlování na dlouhé vzdálenosti a prémiová třída: jádro drop stitch. Většina značek začíná dvojvrstvou konstrukcí jako nejlepším kompromisem mezi cenou, životností a zážitkem z pádlování. Variantu doporučíme podle Vašeho konkrétního trhu při prověření proveditelnosti.'
+    - q: 'Mohu nabízet několik konstrukčních segmentů pod jednou značkou?'
+      a: 'Ano — mnoho značek nabízí dva, nebo tři segmenty. Všechny tři konstrukce vyrábíme na jedné lince se stejnými kontrolními branami QC, takže v rámci jedné objednávky můžete kombinovat typy konstrukce. Tvar trupu a grafika mohou být ve všech segmentech stejné; liší se pouze konstrukce a materiály.'
+    - q: 'Jaký je standard tlakové zkoušky pro všechny konstrukce?'
+      a: 'Každá deska bez ohledu na typ konstrukce projde zkouškou udržením tlaku 18,0 PSI s automatickým vyřazením při poklesu tlaku více než o 0,50 PSI za 24 hodin. Jednovrstvé desky jsou dimenzované na pádlovací tlak 12–15 PSI, dvojvrstvé na 15–18 PSI a desky s jádrem drop stitch na 18–25 PSI. Zkušební tlak převyšuje jmenovitý tlak u všech typů.'
+    - q: 'Jak konstrukce ovlivňuje reklamace?'
+      a: 'Jednovrstvé desky mají při komerčním použití a v půjčovnách o něco vyšší podíl reklamací kvůli namáhání boků a riziku propíchnutí. Dvojvrstvé konstrukce a konstrukce s jádrem drop stitch mají výrazně nižší podíl reklamací. Údaje o záruce v členění podle segmentů poskytujeme z naší výrobní evidence při žádosti o nabídku.'
+
+cta:
+  title: 'Potřebujete pomoci s výběrem konstrukce?'
+  subtitle: 'Povězte nám o cílovém jezdci, cenovém segmentu a trhu — doporučíme konstrukční segment a dodáme vzorky k Vašemu posouzení.'
+  actions:
+    - variant: primary
+      text: Začít s briefem projektu
+      href: /cs/contact#project-brief
+    - text: Více o výrobě OEM
+      href: /cs/oem-manufacturing
+    - text: Porovnat OEM, ODM a private label
+      href: /cs/oem-odm-private-label-comparison

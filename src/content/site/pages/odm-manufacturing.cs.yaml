@@ -1,0 +1,150 @@
+meta:
+  title: 'Výrobce SUP ODM | návrh a vývoj paddle boardů na míru'
+  description: 'Výrobce SUP ODM v Qingdao v Číně — vyvineme paddle board z produktového zadání: návrh trupu vlastními silami, inženýring, prototypy za 7–12 dní a výroba za 25–35 dní.'
+  dateModified: '2026-09-23'
+  keywords:
+    - 'výrobce sup odm'
+    - 'odm nafukovací sup'
+    - 'návrh paddle boardu na míru'
+    - 'vývoj produktu sup'
+    - 'produktový vývoj paddle boardů'
+
+hero:
+  tagline: Výroba ODM
+  title: 'Výrobce SUP ODM — návrh a vývoj produktu'
+  subtitle: 'Nemusíte mít hotový návrh SUP. Začněte produktovým konceptem, požadavkem trhu nebo výkonovým cílem — naši interní inženýři navrhnou trup, konstrukci, grafiku a obaly podle vašeho zadání, prototyp vyrobíme za 7–12 dní a produkci běží 25–35 dní po potvrzení objednávky.'
+
+answer:
+  label: 'Přímá odpověď'
+  text: 'iSupfactory je výrobce SUP ODM v Qingdao v Číně. Vývoj ODM vychází z vašeho zadání, nikoli z vašich výkresů: návrh trupu (délka, šířka, pružinování, objem), materiálová struktura a grafika se vyvíjejí vlastními silami, validují se vzorkovými prototypy za 7–12 dní a vyrábějí se ve standardním sériovém objemu MOQ 90–100 kusů na dávku z 150m role (pilotně od 20–50 kusů). Výroba trvá 25–35 dní po potvrzení objednávky a zálohy; vývoj nástroje na míru přidává 15–20 dní. Dokumentace CE, ISO 9001, BSCI, REACH a RoHS je součástí každé objednávky.'
+  verified: 'září 2026'
+
+features:
+  title: Schopnosti ODM
+  subtitle: 'Vše, co získáte, když návrh vzniká v závodě, nikoli u Vašeho stolu.'
+  items:
+    - title: Návrh trupu
+      description: 'Délka, šířka, tloušťka, pružinování a objem se navrhují pro vaše cílové jezdce, způsoby použití a trhy — od prázdného listu nebo z naší knihovny ověřených platforem.'
+      icon: 'tabler:waves'
+    - title: Konstrukční inženýring
+      description: 'Hustota drop-stitch, počet vrstev a druh PVC, umístění výztuh a konstrukce bočních výztuh se specifikují a validují pro váš návrh.'
+      icon: 'tabler:building-factory'
+    - title: Grafika a branding
+      description: 'Grafika na palubě, branding na bočnicích, podložky EVA a maloobchodní obaly vyvíjí náš interní designérský tým podle vaší značky.'
+      icon: 'tabler:palette'
+    - title: Vývoj forem
+      description: 'Nové tvary trupu začínají jako nástroj navržený a vyříznutý vlastními silami — nástroj prodlužuje časový rámec projektu o 15–20 dní.'
+      icon: 'tabler:shapes'
+    - title: Validace prototypu
+      description: 'Fyzický prototyp se vyrobí, otestuje a odešle k vašemu posouzení včetně zkoušek na dráze — obvykle do 7–12 dnů.'
+      icon: 'tabler:tools'
+    - title: Zkoušení a soulad
+      description: 'Zkoušení nepropustnosti, udržení tlaku a pevnosti švů u každého kusu, spolu s dokumentací ISO 9001, BSCI, REACH, RoHS a CE použitelnou pro cílový trh (rozsah se potvrzuje podle projektu).'
+      icon: 'tabler:certificate'
+    - title: Varianty vlastnictví nástroje
+      description: 'Vlastnictví forem nebo ujednání o výkupu se zapíší do smlouvy — váš návrh zůstává vaším a nástroj se uchovává pro opakované objednávky.'
+      icon: 'tabler:lock'
+    - title: Od prototypu ke kontejneru
+      description: 'Validovaný návrh ODM přechází přímo do standardní sériové výroby: 90–100+ kusů na dávku z 150m role, 25–35 dní po potvrzení objednávky.'
+      icon: 'tabler:package'
+
+customization:
+  tagline: Navrženo s Vámi
+  title: Co vyvíjíme podle vašeho zadání
+  subtitle: 'ODM znamená, že je produkt navržen pro vás od nuly nebo z naší knihovny platforem — těmito pákami vaše zadání manipuluje:'
+  items:
+    - 'Profil jezdce a trh — začátečník, touring, závodní, yoga, rybolov nebo univerzální pozicionování'
+    - 'Rozměry desky — délka, šířka, tloušťka a objem přizpůsobené cílovému jezdci a způsobu použití'
+    - 'Charakter trupu — pružinování, profil výztuhy, tvar přídě a zádě doladěný na stabilitu nebo rychlost'
+    - 'Materiálová struktura — hustota drop-stitch, počet vrstev a druh PVC, výztuhy a zesílení bočních výztuh'
+    - 'Grafika a barvy — barvy značky, výzdoba paluby a branding bočnic vyvinuté vlastními silami'
+    - 'Protiskluzová podložka EVA — rozvržení, barvy a zapracení loga po celé palubě'
+    - 'Balíček příslušenství — pádla, pumpičky, žebra, leash a tašky přizpůsobené desce'
+    - 'Balení a maloobchodní prezentace — maloobchodní krabice, stojany a vývozní balení pod Vaší značkou'
+
+faq_section:
+  tagline: FAQ
+  title: Otázky o vývoji ODM
+  questions:
+    - q: Čím se ODM liší od OEM?
+      a: 'ODM (Original Design Manufacturing) vychází z vašeho zadání — naši inženýři vyvinou strukturu desky, konstrukci, grafiku a obaly, ať už jde o tržní koncept, výkonový cíl nebo úpravu ověřené platformy. Návrh schválíte před výrobou. OEM (Original Equipment Manufacturing) vyrábí podle vaší schválené specifikace — vašich výkresů, rozměrů, materiálů a obalů. Design i IP vlastníte vy. Obě varianty procházejí stejným závodem, systémem kontroly kvality a exportním týmem; ODM je nejrychlejší cesta k značkové desce, když ještě nemáte návrh.'
+    - q: Mám jen hrubou představu — kde začneme?
+      a: 'Pošlete stručné zadání: cílové jezdce, způsoby použití, orientační rozměry, trhy a objemy. Naši inženýři se do jednoho pracovního dne vrátí s konceptem, směrem pro referenční desku a vývojovým plánem — na vyžádání podepíšeme NDA ještě před podrobnou výměnou.'
+    - q: Jak dlouho trvá vývoj nové desky SUP?
+      a: 'Vzorky prototypu odeíláme za 7–12 dní. Nový trup s nástrojem na míru přidává před vzorky 15–20 dní inženýringu. Výroba běží 25–35 dní po objednávce a záloze.'
+    - q: Jaké je MOQ pro desku ODM?
+      a: 'Standardní sériová výroba běží po 90–100 kusů na dávku z 150m role drop-stitch; pilotní dávky začínají na 20–50 kusech na existujících platformách. Malé dávky spolupráce na značce začínají na 5–10 kusech — úplný výpočet najdete v našem průvodci MOQ a flexibilního brandingu.'
+    - q: Kdo vlastní návrh a formu?
+      a: 'Vaše zadání, návrh a nástroj jsou chráněny NDA, podmínkami licencování značky a ujednáním o vlastnictví nebo výkupu forem zapsanými do smlouvy. Nástroj se uchovává pro vaši značku a je převoditelný.'
+    - q: Umíte vyvinout konkrétní tvar (touring, fishing, závodní, yoga)?
+      a: 'Ano. Inženýring trupu pokrývá všechny hlavní kategorie SUP — all-around, touring, závodní, yoga, rybolov a víceosobní desky — a pro výkonové tvary je k dispozici validace v hydrodynamické zkušební nádrži.'
+    - q: Které certifikace vyvinutá deska ponese?
+      a: 'Řízení kvality ISO 9001:2015 (v rámci celého závodu), sociální odpovědnost BSCI (audit provozovny amfori), dokumentace o shodě CE pro použitelné konfigurace na trhy EU (směrnice o rekreačních plavidlech — rozsah se potvrzuje podle projektu), REACH (materiály), RoHS (elektronické příslušenství) a soulad s ISO 25649 pro použitelné modely nafukovacích SUP. Certifikační dokumenty se připravují pro každou objednávku podle vašich vývozních trhů.'
+
+process:
+  title: Proces ODM — od zadání po sériovou výrobu
+  subtitle: 'Šest řízených fází zajišťuje stejný interní tým, který váš návrh navrhuje, prototypuje a škáluje — vše zůstává zdokumentované.'
+  steps:
+    - phase: '01'
+      title: Zadání a koncept
+      period: 1 pracovní den
+      items:
+        - 'Sdělte cílové jezdce, způsoby použití, rozměry, trhy a objemy — nebo třeba jen nápad.'
+        - 'Naši inženýři vrátí směr konceptu, varianty platforem a vývojový plán.'
+    - phase: '02'
+      title: Návrh trupu a konstrukce
+      period: 1.–2. týden
+      items:
+        - 'Rozměry desky, charakter trupu, hustota drop-stitch a struktura PVC se navrhují vlastními silami.'
+        - 'Grafika, rozvržení palubní podložky EVA a koncept obalů se vyvíjejí podle vaší značky.'
+    - phase: '03'
+      title: Formy a nástroj
+      period: +15–20 dní (nové tvary)
+      items:
+        - 'Nástroj na míru se navrhne a vyřízne pro nové tvary trupu; existující platformy tuto fázi přeskočí.'
+        - 'Podmínky vlastnictví nástroje se stanoví ve smlouvě ještě před řezáním.'
+    - phase: '04'
+      title: Prototyp a vzorek
+      period: 7–12 dní
+      items:
+        - 'Fyzický prototyp se vyrobí, otestuje a odešle k vašemu posouzení — včetně zkoušek na dráze.'
+        - 'Vzorek (1–2 kusy) potvrdí tvar, konstrukci a branding před sériovou výrobou.'
+    - phase: '05'
+      title: Validace a schválení
+      period: Souběžně
+      items:
+        - 'Kontroly nepropustnosti, udržení tlaku, pevnosti švů, zatížení a UV podle výrobní linky.'
+        - 'Dokumentace CE, ISO 9001, BSCI, REACH a RoHS se připraví pro vaše vývozní trhy.'
+        - 'Schválíte prototyp; objednávka a záloha uzamknou výrobní slot.'
+    - phase: '06'
+      title: Výroba a dodání
+      period: 25–35 dní
+      items:
+        - 'Standardní sériové dávky běží po 90–100+ kusech na 150m roli, pilotní dávky od 20–50 kusů.'
+        - 'Vývozní balení, doprava FOB/CIF/DDP do 50+ zemí a podpora při objednávkách dalších dávek v ceně.'
+
+geo:
+  tagline: S kým spolupracujeme
+  title: ODM partneři v celém průmyslu SUP
+  sentence: 'ODM v iSupfactory propojuje vaše zadání se stejnými inženýry, designéry a výrobním týmem, kteří uvedli na trh desky pro tyto typy podnikání — zde jsou naši zákazníci.'
+  audiences:
+    - 'Značky SUP'
+    - 'Společnosti outdoorových a vodních sportů'
+    - 'Distributeři a maloobchodníci'
+    - 'Resorty, kluby a organizace'
+
+cta:
+  title: 'Připraveni vyvinout svou desku SUP?'
+  subtitle: 'Pošlete své zadání — koncept, rozměry a cílové trhy stačí pro začátek. Technické posouzení a nabídka do jednoho pracovního dne.'
+  actions:
+    - variant: primary
+      text: Zahájit projekt ODM
+      href: /cs/contact#custom-oem
+    - text: Prohlédnout šestifázový proces vývoje produktu
+      href: /cs/product-development
+    - text: Ověřit závod a systém kvality
+      href: /cs/oem-trust-assurance
+    - text: Průvodce MOQ a flexibilního brandingu
+      href: /cs/oem-moq-guide
+    - text: Porovnání konstrukcí SUP
+      href: /cs/sup-construction-comparison

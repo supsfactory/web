@@ -1,0 +1,145 @@
+meta:
+  title: 'Laboratoř kvality a inspekce — zkoušení SUP podle ISO'
+  description: 'Nezávislá kontrola kvality nafukovacích desek SUP: zkouška tahem, cyklické zkoušky těsnosti, zkouška odolnosti švů a certifikace materiálů.'
+back_text: 'Zpět do centra výzkumu a vývoje'
+home_label: 'Domů'
+
+hero:
+  tagline: 'Laboratoř 06'
+  title: 'Laboratoř kvality a inspekce'
+  subtitle: 'Nezávislá kontrola — každá zkouška proběhne před odesláním'
+  image: 'https://assets.isupfactory.com/images/sups/factory/isupfactory-uv-resistance-testing.webp'
+  image_alt: 'Laboratoř kontroly kvality Vatrad, zkouška odolnosti vůči UV'
+
+answer:
+  label: 'Přímá odpověď'
+  text: 'Každá deska se před odesláním ověří, zda splňuje publikované specifikace: 100% zkouška udržení tlaku při 18,0 PSI po dobu 24 hodin (automatické vyřazení při poklesu tlaku větším než 0,50 PSI), zkoušky tahu a odolnosti švů podle ISO 1421 a kontrolní seznam montáže se 100 body. Laboratoř se zodpovídá generálnímu řediteli, nikoli výrobě, a může zastavit jakoukoli zásilku.'
+  verified: 'září 2026'
+
+intro: 'Každá deska, která opouští naši dílnu, nese potvrzení, že prošla stanovenou sadou kontrol kvality a zkoušek materiálů. Naše Laboratoř kvality a inspekce je nezávislé oddělení v rámci organizace — zodpovídá se přímo generálnímu řediteli, nikoli výrobě — což vylučuje vliv obchodního tlaku na kontrolní vrata. Pokud šarže materiálu nebo hotová deska neodpovídá publikované specifikaci, má laboratoř právo zastavit zásilku, dokud neshoda není odstraněna.'
+
+content_html: |
+  <h2>Důvěřujte, ale ověřujte</h2>
+  <p>Laboratoř pracuje podle systému řízení kvality, který je v souladu se zásadami ISO 9001, a naše zkušební postupy vycházejí z norem ISO, ASTM a EN všude tam, kde to lze použít. Vedeme podrobné záznamy každého provedeného zkoušky a tím vytváříme úplný řetězec sledovatelnosti od přijetí suroviny po dodání hotové desky.</p>
+
+  <h2>Zkušební vybavení a možnosti</h2>
+  <table>
+    <thead><tr><th>Zařízení</th><th>Prováděné zkoušky</th><th>Norma / metoda</th></tr></thead>
+    <tbody>
+      <tr><td>Univerzální zkušební stroj (50 kN)</td><td>Pevnost v tahu (tkanina), odolnost proti odtržení (švy), šíření trhliny</td><td>ISO 1421, ISO 4674</td></tr>
+      <tr><td>Stroj na zkoušky těsnosti (programovatelný)</td><td>Životnost na 1 000 cyklů nafukování/vyfukování, 30minutová zkouška udržení tlaku</td><td>Vnitřní (podle metody ISO 6185)</td></tr>
+      <tr><td>Přípravek pro odtržení švu (motorový odtrh 180°)</td><td>Odolnost proti odtržení svařovaných a lepených švů při 100 mm/min</td><td>ISO 1421 / ASTM D1876</td></tr>
+      <tr><td>Zkušební přístroj pro hydrostatický tlak</td><td>Odolnost tkaniny proti pronikání vody (0–1 000 mbar)</td><td>ISO 811</td></tr>
+      <tr><td>Digitální mikrometr a&amp; posuvné měřítko</td><td>Tloušťka tkaniny, tloušťka svařovaného švu, tloušťka lepidlové vrstvy</td><td>ISO 2286-3</td></tr>
+      <tr><td>Klimatická komora</td><td>Teplotní klimatizace (od -40 °C do +80 °C) pro zkoušky chladného praskání a tepelného stárnutí</td><td>ISO 188, ISO 4675</td></tr>
+      <tr><td>Spektrofotometr pro měření barvy</td><td>Měření barvy Delta-E po expozici UV</td><td>ISO 105-A05 / ASTM D2244</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Kontrolní vrata — od materiálu po dodání</h2>
+  <p>Každá deska sleduje schválený plán kvality s povinnými kontrolními body. Žádná deska nemůže vrata přeskočit; každý článek musí podepsat inspektor kvality dříve, než začne další výrobní fáze.</p>
+
+  <div class="not-prose my-8">
+    <div class="relative">
+      <div class="absolute left-4 top-0 bottom-0 w-0.5 bg-blue-200 dark:bg-blue-800"></div>
+      <div class="space-y-6 relative">
+        <div class="flex gap-4">
+          <div class="flex-shrink-0 w-8 h-8 rounded-full bg-blue-600 text-white flex items-center justify-center text-xs font-bold z-10">Vrata 1</div>
+          <div class="flex-1 p-3 rounded-lg bg-white dark:bg-gray-950 border border-gray-200 dark:border-gray-800">
+            <p class="text-sm font-semibold">Vstupní kontrola materiálu</p>
+            <p class="text-xs text-gray-500 mt-1">Šarže tkaniny, jádro drop stitch, šarže lepidla, kovové části — vše se kontroluje na shodu se vstupní specifikací před uvolněním do výroby.</p>
+          </div>
+        </div>
+        <div class="flex gap-4">
+          <div class="flex-shrink-0 w-8 h-8 rounded-full bg-blue-600 text-white flex items-center justify-center text-xs font-bold z-10">Vrata 2</div>
+          <div class="flex-1 p-3 rounded-lg bg-white dark:bg-gray-950 border border-gray-200 dark:border-gray-800">
+            <p class="text-sm font-semibold">Kontrola svařování během výroby</p>
+            <p class="text-xs text-gray-500 mt-1">První svařený vzorekový sweep se na začátku každé výrobní směny zkouší (odtrh + vizuální kontrola).</p>
+          </div>
+        </div>
+        <div class="flex gap-4">
+          <div class="flex-shrink-0 w-8 h-8 rounded-full bg-blue-600 text-white flex items-center justify-center text-xs font-bold z-10">Vrata 3</div>
+          <div class="flex-1 p-3 rounded-lg bg-white dark:bg-gray-950 border border-gray-200 dark:border-gray-800">
+            <p class="text-sm font-semibold">Zkouška komory vzduchem</p>
+            <p class="text-xs text-gray-500 mt-1">Deska se natlakuje na 18,0 PSI (provozních 12–15 PSI) a zůstává 24 h. Pokles tlaku &gt; 0,50 PSI znamená automatické vyřazení. Data se zaznamenávají podle sériového čísla.</p>
+          </div>
+        </div>
+        <div class="flex gap-4">
+          <div class="flex-shrink-0 w-8 h-8 rounded-full bg-blue-600 text-white flex items-center justify-center text-xs font-bold z-10">Vrata 4</div>
+          <div class="flex-1 p-3 rounded-lg bg-white dark:bg-gray-950 border border-gray-200 dark:border-gray-800">
+            <p class="text-sm font-semibold">Inspekce před dodáním</p>
+            <p class="text-xs text-gray-500 mt-1">Úplná inspekce desky: všechny utahovací momenty, přilnavost koberce, souoslost grafiky, nepřítomnost kosmetických vad. Kontrolní seznam se 100 body.</p>
+          </div>
+        </div>
+        <div class="flex gap-4">
+          <div class="flex-shrink-0 w-8 h-8 rounded-full bg-blue-600 text-white flex items-center justify-center text-xs font-bold z-10">Vrata 5</div>
+          <div class="flex-1 p-3 rounded-lg bg-white dark:bg-gray-950 border border-gray-200 dark:border-gray-800">
+            <p class="text-sm font-semibold">Závěrečná certifikace</p>
+            <p class="text-xs text-gray-500 mt-1">Protokoly o zkouškách jsou sloučeny, inspekční záznamy zkontrolovány a vydán Certifikát shody.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <h2>Standardní kontroly každé šarže</h2>
+  <div class="not-prose my-8 grid grid-cols-2 md:grid-cols-4 gap-4">
+    <div class="p-4 rounded-lg border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-950 text-center">
+      <span class="block text-2xl font-bold text-blue-600">18 PSI</span>
+      <span class="text-xs text-gray-500">18,0 PSI při zkoušce komory vzduchem, výdrž 24 h</span>
+    </div>
+    <div class="p-4 rounded-lg border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-950 text-center">
+      <span class="block text-2xl font-bold text-blue-600">&gt; 5 %</span>
+      <span class="text-xs text-gray-500">Pokles tlaku spouští automatické vyřazení</span>
+    </div>
+    <div class="p-4 rounded-lg border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-950 text-center">
+      <span class="block text-2xl font-bold text-blue-600">100 %</span>
+      <span class="text-xs text-gray-500">Komory se zkouší vzduchem před montáží</span>
+    </div>
+    <div class="p-4 rounded-lg border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-950 text-center">
+      <span class="block text-2xl font-bold text-blue-600">ISO 9001</span>
+      <span class="text-xs text-gray-500">Systém řízení kvality</span>
+    </div>
+  </div>
+
+  <h2>Naš kvalitářský tým</h2>
+  <p>V laboratoři pracuje manažer kvality (10 let v námořním zabezpečení kvality, certifikovaný inženýr kvality ASQ), dva inspektoři kvality (oba s certifikací NDT úrovně 2 pro vizuální metody) a materiálový technik zodpovědný za všechny fyzické zkoušky. Tým každoročně absolvuje kvalifikační zkoušky u nezávislého externího poskytovatele, aby výsledky našich zkoušek zůstávaly přesné a reprodukovatelné.</p>
+
+  <h2>Nezávislé zkoušky pro zákazníky</h2>
+  <p>Naše Laboratoř kvality a&amp; inspekce poskytuje také služby nezávislého zkoušení. Pokud potřebujete ověřit specifikaci tkaniny, validovat nový lepicí systém, nebo získat externí protokol o zkoušce pro kvalifikaci dodávky, můžeme provést zkoušky podle příslušné normy a vydat ověřený protokol.</p>
+  <p>Příklady nedávných externích zkoušek:</p>
+  <ul>
+    <li>Porovnání odolnosti proti odtržení pěti konkurentských produktů ve formě lepidlové vrstvy pro evropský nákupní program.</li>
+    <li>Studium urychleného stárnutí (UV + teplotní cyklování) pro novou oranžovou pigmentovanou recepturu PVC s pravidelnými mezikrokovými měřeními po 500 hodinách.</li>
+    <li>Validace těsnosti 50 prototypových ventilkových sestav pro nový návrh desky s vysokým tlakem.</li>
+  </ul>
+
+  <h2>Náš závazek vůči Vám</h2>
+  <p>Když obdržíte desku {SITE.name}, získáváte také její kvalitní spis — sloučený dokument s výsledky zkoušek, které se vztahují k Vaší konkrétní desce. Certifikát šarže tkaniny, zkoušky odolnosti švů, záznamy o zkouškách komor vzduchem a kontrolní seznam přednákladní inspekce. Každé číslo lze dohledat. Každý inspektor je jmenovitě uveden. Toto není jen papírová práce — je to náš slib, že dodané odpovídá deklarovanému.</p>
+  <p>Pokud Vám někdy vznikne otázka na kvalitu, můžete se obrátit přímo na laboratoř — kontaktní údaje jsou vytištěny na Vašem Certifikátu shody. Každou stížnost bereme vážně a zavazujeme se provést oficiální vyšetření do 48 hodin.</p>
+
+  <h2>Co se stane, když deska neprojde inspekcí?</h2>
+  <p>Zamítnutá deska nikdy tiše nezmizí. Laboratoř se řídí pevným postupem pro nakládání s nevyhovujícími výrobky, aby se problém lokalizoval, odstranil a neopakoval:</p>
+  <ul>
+    <li><strong>Izolace</strong> — deska se označí, vyřadí z linky a zapíše do registru neshod se jménem inspektora a nesplněnými kritérii.</li>
+    <li><strong>Přepracování, nebo vyřazení</strong> — opravitelné vady (například ventil, svar boku, nebo roh koberce) přepracuje certifikovaný operátor a opravená část se znovu zkouší podle stejné normy. Desky, které neodpovídají specifikaci, se vyřazují, nikoli degradovou do nižší třídy.</li>
+    <li><strong>Opakovaná inspekce</strong> — každá přepracovaná deska znovu projde všemi dotčenými vraty, než se vrátí na linku balení.</li>
+    <li><strong>Výdej</strong> — továrnu opouštějí pouze desky se všemi podepsanými vraty. Míra zmetkovitosti, hlavní příčina a nápravné opatření se zahrnují do Vaší zprávy o kvalitě šarže.</li>
+  </ul>
+
+  <h2>Dokumentace kvality, kterou dostanete</h2>
+  <p>Každá šarže se odesílá s balíkem dokumentů, podle kterého může Vaše oddělení kontroly jakosti provést audit: certifikátem šarže (čísla šarží tkaniny, lepidla a kovových částí), záznamy o zkouškách odolnosti švů, záznamy o zkouškách komor vzduchem podle jednotlivých sériových čísel, podepsaným kontrolním seznamem přednákladní kontroly se 100 body, obalovým listem a fotoreportem z Vašich desek před naložením.</p>
+
+cta:
+  title: 'Vyžádejte si vzorek kontrolního seznamu kvality'
+  subtitle: 'Podívejte se, podle jakých kontrolních vrat, zkušebních metod a dokumentů by se kontrolovala Vaše šarže — uveďte typ a množství desek.'
+  actions:
+    - variant: primary
+      text: 'Vyžádat kontrolní seznam kvality'
+      href: /cs/contact#quality-inquiry
+    - text: 7fázový systém inspekce
+      href: /cs/quality
+    - text: 'Laboratoř kvality továrny a nahrávání zpráv o zkouškách'
+      href: /cs/factory/quality-lab
+    - text: Norma pro nakládání s nevyhovujícími výrobky
+      href: /cs/factory/non-conforming-control

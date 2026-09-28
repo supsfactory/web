@@ -1,0 +1,93 @@
+meta:
+  title: 'Vybavení továrny — řezání, svařování a tisk'
+  description: 'Výrobní vybavení Vatrad průmyslové třídy: řezání PVC, vysokofrekvenční svařování, digitální tisk, montáž a zkoušky pro nafukovací desky SUP.'
+  dateModified: '2026-08'
+  keywords:
+    - 'výrobní vybavení sup'
+    - 'továrna nafukovacích sup'
+    - 'vysokofrekvenční svařování pvc'
+    - 'výroba paddleboardů'
+hero:
+  tagline: Vybavení
+  title: Výrobní vybavení a stroje
+  subtitle: Vybavení průmyslové třídy pro řezání, svařování, tisk a montáž
+  back_label: Zpět na továrnu
+  back_link: /cs/factory
+
+answer:
+  label: 'Přímá odpověď'
+  text: 'Naše továrna o ploše 12 500 m² používá automatické řezání s CNC řízením (přesnost 0,1 mm, odpad pod 5 %), teplotní svařování horkovzdušné při 200–600 °C plus vysokofrekvenční dielektrické svařování 15 kW pro hlavní švy, lisy na laminaci jádra drop-stitch až do 14 ft a laboratoř kontroly kvality, která každou komoru otestuje tlakem, provádí tahové zkoušky podle ASTM D751 a ověřuje odolnost švů v odtrhu podle ISO 6185.'
+  verified: 'září 2026'
+
+categories:
+  - title: Řezání a příprava materiálu
+    items:
+      - name: Automatický stroj na řezání PVC
+        spec: Řízení CNC, 6,5 m × 2,5 m, přesnost 0,1 mm
+        desc: Počítačově řízený automatický řezací stroj pro tkaniny PVC, Hypalon a drop-stitch. Software pro optimalizaci rozvržení snižuje spotřebu materiálu na méně než 5 % odpadu.
+      - name: Rozkladač tkaniny
+        spec: Maximální šířka 3 m, podávání s řízením tahu
+        desc: Rozkládá tkaninu do jedné či více vrstev s řízeným tahem, aby se před řezáním zabránilo zkreslení.
+
+  - title: Svařování trubek a spojování
+    items:
+      - name: Teplotní svařovací stroj
+        spec: Horkovzdušné svařování, plynulé 200–600 °C, 0,5–5 m/min
+        desc: Horkovzdušný svařovací stroj pro spojování a svařování švů trubek z PVC a Hypalonu. Používá se pro přichytávání, utěsnění a fúzi trubkových komor a spojů plovoucích částí.
+      - name: Dielektrický vysokofrekvenční lis
+        spec: 15 kW, deska 2000 × 600 mm
+        desc: Vysokofrekvenční svařovací lis pro hlavní podélné švy, spoje přepážky s trubkou a výrobu velkých komor.
+      - name: Vysokofrekvenční svařovačka s CNC řízením
+        spec: 8 kW, stůl XY 2500 × 1200 mm
+        desc: Programovatelné svařování zakřivených švů pro složité geometrie, reliéfní značení logem a přesné patchworkové spojování.
+
+  - title: Výroba desek SUP
+    items:
+      - name: Lis na laminaci jádra drop-stitch
+        spec: Velkoformátový lis pro jádra desek až do 14 ft LOA
+        desc: Přesná laminace jader drop-stitch na vnější vrstvy z PVC. Každá vrstva se spojí pod tlakem pro stálou kvalitu a pevnost.
+      - name: CNC frézovací router (5 os)
+        spec: Pracovní prostor 3 m × 2 m × 1 m, vodně chlazené vřeteno
+        desc: Obrábění držáků žebra, otvorů pro madla a zakázkových součástí desek.
+
+  - title: Tisk a dekorování SUP
+    items:
+      - name: Digitální tiskárna
+        spec: Vysoké rozlišení, inkoust, tisková šířka až 2 m
+        desc: Přímý digitální tisk na tkaninu pro barevnou grafiku na palubě SUP. Tiskne zakázkové vzory, gradienty a obrazy v kvalitě fotografie inkousty na vodní bázi odolnými proti UV záření.
+      - name: Stroj na sítlisk
+        spec: Ruční a poloautomatický, vícebarevný souběh barev
+        desc: Sítlisk pro loga, značkové prvky a opakující se vzory na deskách SUP. Zajišťuje trvalé neprůhledné potisky s výraznou sytostí barev.
+
+  - title: Montáž a osazení
+    items:
+      - name: Montážní stanice desek
+        spec: Modulární nastavitelná, vícestaniční uspořádání
+        desc: Montáž držáků žebra, madel, D-kroužků, ventilů a palubních podložek na desky SUP.
+      - name: Lis pro montáž ventilů
+        spec: Pneumatický, nastavitelný tlak
+        desc: Přesná montáž a utěsnění ventilů Halkey-Roberts a Leafield.
+      - name: Laminátor palubních podložek
+        spec: 3 m × 1,5 m, s řízením teploty
+        desc: Tepelná laminace pěnových palubních podložek EVA na horní plochu desek SUP se stálou pevností spoje.
+
+  - title: Zkoušky a kontrola kvality
+    items:
+      - name: Univerzální tahový zkušební přístroj
+        spec: 50 kN,  / ASTM D751
+        desc: Zkoušky pevnosti v tahu, prodloužení při přetržení a šíření trhliny pro šarže tkanin.
+      - name: Stanice pro zkoušku nepropustnosti
+        spec: Programovatelná, 30minutové udržení tlaku
+        desc: Automatická zkouška udržení tlaku pro každou trubkovou komoru před montáží.
+      - name: Zkušební přístroj pro odtrh švu
+        spec: Motorizovaný odtrh 180° při 100 mm/min
+        desc: Zkoušení pevnosti svarových a lepených švů v odtrhu podle ISO 6185.
+      - name: Xenonová zkušební komora pro stárnutí
+        spec: Expozice 2000 h
+        desc: Zkouška odolnosti proti UV záření z hlediska změny barvy a udržení pevnosti.
+
+cta:
+  title: Zajímá Vás exkurze po továrně?
+  desc: Návštěvníky našeho zařízení v Qingdao rádi uvítáme. Prohlédněte si naše vybavení a procesy na vlastní oči.
+  label: Naplánovat návštěvu →
+  link: /cs/contact

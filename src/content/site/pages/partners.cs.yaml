@@ -1,0 +1,83 @@
+meta:
+  title: 'Partneři — distribuce a velkoobchod | {SITE}'
+  description: 'Výrobní partnerství se společností iSupfactory: distribuce, velkoobchodní dodávky, programy OEM a private label včetně technické podpory pro firmy s paddle boardy po celém světě.'
+  keywords:
+    - 'distribuční partner sup'
+    - 'velkoobchod paddle boardů'
+    - 'distributor nafukovacích sup'
+    - 'partnerství sup'
+  dateModified: '2026-08'
+hero:
+  tagline: Partneři a distribuce
+  title: 'Výrobní partnerství a distribuce'
+  subtitle: 'Vyrábíme pro námořní distributory, prodejce, maloobchodní značky a organizace ve více než 50 zemích. Vy určujete parametry produktu — my ho navrhujeme, vyrobíme vzorky a vyrobíme pod Vaší značkou.'
+  image:
+    src: https://assets.isupfactory.com/images/sups/team/isupfactory-meeting-overseas.webp
+    alt: Globální síť partnerů a distributorů Vatrad
+
+answer:
+  label: 'Přímá odpověď'
+  text: 'Podmínky partnerství začínají vzorkem (1–2 kusy) a pilotními dávkami (20–50 kusů, vzorky do 7–12 dnů) a pokračují standardními OEM dávkami po 90–100+ kusů z celého 150m role drop stitch, nebo investicí do vlastních forem pro produkty private label. MOQ se potvrzuje podle konfigurace projektu. Distribuční programy zahrnují exkluzivní území, velkoobchodní ceny přímo z továrny a platební lhůtu 45–60 dnů, dodávané FOB Qingdao nebo CIF.'
+  verified: 'září 2026'
+content_programs:
+  tagline: Partnerské programy
+  title: 'Modely partnerství postavené na výrobě'
+  subtitle: 'Ať jste distributorem, prodejcem, nebo značkovým partnerem, program se řídí Vašimi produktovými požadavky a výrobním plánem.'
+  columns: 3
+  items:
+    - title: 'Distribuční program'
+      description: 'Distribuční smlouvy s přímým přístupem do továrny, technickou podporou a stálou kvalitou opakovaných objednávek v daném teritoriu. Minimální závazek se odvíjí od velikosti teritoria.'
+      icon: tabler:world
+    - title: 'Prodejní program'
+      description: 'Specifikace produktu, schvalování vzorků, záruční podpora a spolehlivé opakované objednávky pro maloobchodní prodejny a internetové obchody.'
+      icon: tabler:building-store
+    - title: 'Partnerství OEM/ODM'
+      description: 'Komplexní výroba OEM a ODM s vlastním brandingu, obalem a specifikacemi produktu. Od konceptu až po kontejner.'
+      icon: tabler:certificate
+    - title: 'Značkové partnerství'
+      description: 'Private label a vývoj modelů pro zavedené značky v oblasti mořských sportů a pobytu v přírodě.'
+      icon: tabler:stars
+    - title: 'Vládní a institucionální'
+      description: 'Programy pro preferované dodavatele vládních úřadů, pobřežních služeb, armády a humanitárních organizací. Dokumentace připravená pro veřejné zakázky.'
+      icon: tabler:building-community
+    - title: 'Resorty a půjčovny'
+      description: 'Ceny pro floty, stálá kvalita a vlastní branding pro resorty, potápěčská centra a půjčovací provozovny po celém světě.'
+      icon: tabler:sun
+content_benefits:
+  tagline: Proč s námi spolupracovat
+  title: 'Proč si partneři vybírají Vatrad'
+  subtitle: 'Naši partneři pracují se skutečnou výrobní kapacitou, stálou kvalitou a ochotnou technickou podporou.'
+  list:
+    - 'Přímý přístup do továrny: Pracujete přímo s naším výrobním týmem — bez prostředníků. Rychlejší odpovědi, plná transparentnost výroby a technické odpovědi od lidí, kteří ty desky staví.'
+    - 'Připravenost na úpravy: Opatřte produkty vlastními barvami, logy, obalem a parametry. MOQ se potvrzuje podle konfigurace projektu — vzorek, pilotní dávka a sériová výroba.'
+    - 'Zaručená kvalita: Výroba certifikovaná podle ISO 9001 s shodou CE, BSCI a REACH. Každý výrobek se před odesláním otestuje tlakem.'
+    - 'Globální logistika: Zasílání z Qingdao v Číně s možnostmi FOB, CIF a DDP. Sklad v Montclairu v Kalifornii pro distribuci v Severní Americe.'
+    - 'Technická dokumentace: Produktové katalogy, fotografie a technická dokumentace pro podporu rozhodování o specifikacích a opakovaných objednávkách.'
+    - 'Podpora specifikací a kontroly jakosti: Vzorkování před sériovou výrobou, technická podpora pro Vaše zákazníky a koordinace záručního servisu.'
+content_process:
+  tagline: Jak se stát partnerem
+  title: 'Proces partnerství'
+  subtitle: 'Přehledný proces — od žádosti po Vaši první sériovou dávku.'
+  items:
+    - title: 'Krok 1: Odešlete žádost'
+      description: 'Vyplňte náš partnerský formulář a uveďte profil společnosti, cílový trh a produkty, které Vás zajímají.'
+    - title: 'Krok 2: Posouzení žádosti'
+      description: 'Náš tým Vaši žádost posoudí a do 3 pracovních dnů se Vám ozve, aby projednal požadavky.'
+    - title: 'Krok 3: Smlouva a nastavení'
+      description: 'Podepište partnerskou smlouvu, založte si účet a získejte vzorky produktu, specifikace a dohodnuté podmínky.'
+    - title: 'Krok 4: Vzorky a výroba'
+      description: 'Schvalte fyzické vzorky, potvrďte specifikace a MOQ a spusťte výrobu pod Vaší značkou.'
+cta:
+  title: 'Projednejte partnerství'
+  subtitle: 'Zašlete své požadavky a náš tým odpoví do 3 pracovních dnů.'
+  actions:
+    - variant: primary
+      text: Odeslat požadavky
+      href: /cs/contact
+    - text: Prohlédnout naše produkty
+      href: /cs/products
+
+content_html: |
+  <div class="mx-auto max-w-3xl space-y-4 rounded-2xl border bg-card p-6 text-[14.5px] leading-relaxed text-fg-2">
+    <p><strong>Čtěte dále:</strong> partnerské programy sdílejí jediný <a href="/cs/oem-manufacturing">výrobní mechanismus OEM/ODM</a> — podmínky, zkušební MOQ a úpravy jsou definovány tam — a veškerá výroba běží v <a href="/cs/factory">továrně o ploše 12 500 m&sup2;</a>.</p>
+  </div>

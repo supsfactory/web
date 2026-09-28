@@ -366,6 +366,30 @@ export const hero: Localized<HeroContent> = {
     float1: { value: '1–2 шт', label: 'Образец и согласование (до объёма заказа)' },
     float2: { value: FACTS.leadTime, label: 'Срок производства (после заказа)' },
   },
+  cs: {
+    kicker: 'Výrobce nafukovacích SUP desek na zakázku (OEM / ODM) — Čching-tun, Čína',
+    titlePre: 'Výrobce nafukovacích SUP desek a',
+    titleAccent: 'továrna OEM/ODM',
+    titlePost: '',
+    sub: 'Nafukovací SUP desky podle individuálních objednávek: vývoj, prototypy a výroba v naší továrně v Čching-tunu, Čína.',
+    ctaPrimary: 'Vyžádat nabídku pro OEM',
+    ctaSecondary: 'Navrhnout Váš SUP produkt',
+    ctaTertiary: 'Prohlédnout naši továrnu',
+    ctaQuartiary: '',
+    ctaMicro: 'OEM · ODM · Private Label · Vývoj produktu · Prototypy · Sériová výroba',
+    stats: [
+      { value: '12 500 m²', label: 'Vlastní továrna — Čching-tun, Čína' },
+      { value: '120 000+', label: 'Desek vyrobeno za rok' },
+      { value: '50+', label: 'Zemí exportu' },
+      { value: FACTS.ndaWindow, label: 'Termín odpovědi podle NDA' },
+    ],
+    mockupLabel: 'Vlajková platforma',
+    mockupBrand: "SUP Explorer 11'",
+    mockupHint: 'Vaše grafika · Vaše barvy · Vaše balení',
+    heroNote: 'Výroba přímo v továrně · Vývoj prototypů · Výroba s kontrolou kvality · Podpora exportu',
+    float1: { value: '1–2 ks', label: 'Vzorek a odsouhlasení (před objemem objednávky)' },
+    float2: { value: FACTS.leadTime, label: 'Termín výroby (po objednávce)' },
+  },
 }
 
 /* ─────────────────────────── home: manufacturer pledge ─────────────────────────── */
@@ -539,6 +563,18 @@ export const manufacturerPledge: Localized<ManufacturerPledgeContent> = {
       { title: 'Ваш бренд, а не наш', body: 'Мы производим исключительно под брендами наших клиентов и никогда не конкурируем с ними ни на одном рынке.' },
     ],
     verifyLabel: 'Проверьте, кто мы',
+    verifyHref: '/about/identity',
+  },
+  cs: {
+    kicker: 'Výrobce, ne obchodní zprostředkovatel',
+    title: 'Továrna za Vaší objednávkou — naše vlastní',
+    sub: 'Obchodní firma přeprodává produkci jiných továren. My provozujeme vlastní výrobu. Mezi Vaší objednávkou a dílnou není žádný maržový prostředník, cizí sklad ani jediný mezičlánek.',
+    items: [
+      { title: 'Registrovaná právnická osoba', body: 'Qingdao Vatrad Group Co., Ltd. je smluvní stranou každé objednávky a každého vývozního dokumentu.' },
+      { title: 'Jedna továrna, jeden tým', body: 'Vývoj, kontrola kvality, plánování výroby a vývozní dokumentaci vedeme vlastními silami v závodě v Laj-si, Čching-tun.' },
+      { title: 'Vaše značka, nikoli naše', body: 'Vyrábíme výhradně pod značkami našich klientů a nikdy s nimi na žádném trhu nesoutěžíme.' },
+    ],
+    verifyLabel: 'Ověřte, kdo jsme',
     verifyHref: '/about/identity',
   },
 }
@@ -796,6 +832,24 @@ export const factoryProof: Localized<FactoryProofContent> = {
     ],
     note: 'MOQ подтверждается после проверки спецификации, поскольку конструкция, размер доски, структура ПВХ, графика, упаковка и комплектующие влияют на расход материала.',
   },
+  cs: {
+    kicker: 'Důkazy z továrny',
+    title: 'Skutečná továrna s doložením',
+    sub: 'Ověřitelná čísla z našeho závodu v Čching-tunu, Čína — každá hodnota odkazuje na stránku, kde je doložena.',
+    cta: 'Ověřit tuto hodnotu',
+    stats: [
+      { value: FACTS.warehouseM2, label: 'Vlastní výrobní závod', href: '/factory' },
+      { value: FACTS.workers, label: 'Stav závodu, vlastní zaměstnanci', href: '/manufacturing-capabilities' },
+      { value: '120 000+', label: 'Desek vyrobeno za rok', href: '/factory/capacity' },
+      { value: FACTS.exportCountries, label: 'Zemí exportu', href: '/proof-center' },
+    ],
+    links: [
+      { label: 'MOQ a dodací lhůta', href: '/sup-oem-moq-lead-time' },
+      { label: 'Kontrola kvality', href: '/quality' },
+      { label: 'Kontrolní list auditu továrny', href: '/factory-audit-checklist' },
+    ],
+    note: 'MOQ se potvrzuje po posouzení specifikace, protože konstrukce, velikost desky, struktura PVC, grafika, balení a příslušenství ovlivňují spotřebu materiálu.',
+  },
 }
 
 /* ─────────────────────────── home: factory evidence (verification band) ─────────────────────────── */
@@ -956,6 +1010,17 @@ export const factoryEvidence: Localized<FactoryEvidenceContent> = {
       { title: 'Центр доказательств', body: 'Сертификаты, отчёты сторонних инспекторов, протоколы аудита и подтверждения выполненных проектов собраны в одном месте.', href: '/proof-center' },
       { title: 'Проверить завод', body: 'Сверьте наши публичные регистрационные данные, сертификаты и руководство по проверке до принятия обязательств.', href: '/verify-factory' },
       { title: 'Чек-лист аудита завода', body: 'Скачайте чек-лист закупщика, который используют при аудите завода надувных SUP-досок — площадка, оборудование и процессы.', href: '/factory-audit-checklist' },
+    ],
+  },
+  cs: {
+    kicker: 'Před objednávkou nás ověřte',
+    title: 'Důkazy z továrny a ověření',
+    sub: 'Nezávislé potvrzení, že naše provozovna, vybavení, systém kvality a vývozní záznamy jsou skutečné — prohlédněte a ověřte je před jakýmkoli závazkem.',
+    cta: 'Zobrazit důkazy',
+    items: [
+      { title: 'Centrum důkazů', body: 'Certifikáty, zprávy třetích stran, záznamy z auditů a doklady o dodaných projektech na jednom místě.', href: '/proof-center' },
+      { title: 'Ověřit továrnu', body: 'Před závazkem porovnejte naše veřejné obchodní záznamy, certifikace a návod k ověření.', href: '/verify-factory' },
+      { title: 'Kontrolní list auditu továrny', body: 'Stáhněte kontrolní list pro kupující, který se používá při auditu továrny nafukovacích SUP desek — provozovna, vybavení a procesy.', href: '/factory-audit-checklist' },
     ],
   },
 }
@@ -1302,6 +1367,31 @@ export const why: Localized<WhyContent> = {
       },
     ],
   },
+  cs: {
+    kicker: 'Výrobní značka',
+    title: 'Na základě Vatrad',
+    sub: 'iSupfactory je divize vývoje a výroby SUP produktů společnosti Qingdao Vatrad Group Co., Ltd. Náš závod o rozloze 12 500 m² v Laj-si, Čching-tun vyrábí nafukovací produkty od roku 2012; více než 25 inženýrů pracuje v oddělení výzkumu a vývoje, projekci forem, materiálové laboratoři a technologickém oddělení výroby a má v průměru více než 7 let zkušeností s výrobou nafukovacích produktů. Denně pracují dvě výrobní směny.',
+    image: 'https://assets.isupfactory.com/images/sups/factory/isupfactory-production-department.webp',
+    imageCaption: 'Výrobní závod Vatrad, Čching-tun, Čína',
+    bullets: [
+      {
+        title: 'Závod o rozloze 12 500 m²',
+        body: 'Vlastní výroba — od surového PVC po hotovou desku, v Laj-si, Čching-tun.',
+      },
+      {
+        title: 'Výroba od roku 2012',
+        body: 'Dvě výrobní směny denně pro SUP a nafukovací produkty.',
+      },
+      {
+        title: 'Více než 25 inženýrů',
+        body: 'V oddělení výzkumu a vývoje, projekci forem, materiálové laboratoři a technologickém oddělení výroby.',
+      },
+      {
+        title: 'V průměru více než 7 let',
+        body: 'Zkušeností s výrobou nafukovacích produktů na jednoho inženýra.',
+      },
+    ],
+  },
 }
 
 /* ─────────────────────────── capability strip ─────────────────────────── */
@@ -1320,6 +1410,7 @@ export const strip: Localized<string[]> = {
   da: ['OEM & ODM', 'Eget mærke', 'Prøvetjeneste', 'Design & grafik', 'QC ved hvert parti', 'Eksport globalt'],
   fi: ['OEM & ODM', 'Oma merkki', 'Näytepalu', 'Design & grafiikka', 'Laadunvalvonta jokaisessa erässä', 'Maailmanlaajuiset vienti'],
   ru: ['OEM & ODM', 'Private Label', 'Услуга образцов', 'Дизайн и графика', 'Контроль качества каждой партии', 'Экспорт по всему миру'],
+  cs: ['OEM & ODM', 'Private Label', 'Služba vzorků', 'Design a grafika', 'Kontrola kvality každé dávky', 'Export do celého světa'],
 }
 
 /* ─────────────────────────── home: trust bar ─────────────────────────── */
@@ -1514,6 +1605,20 @@ export const trustBar: Localized<TrustBarContent> = {
       { value: FACTS.exportCountries, label: 'экспортные рынки ЕС, США, Австралии и Азии' },
       { value: '18 PSI / 24 ч', label: '100 % проверка накачки и герметичности каждой доски перед упаковкой' },
       { value: 'MSL Fusion', label: 'многослойная ВЧ-сварка с ткаными конструкциями drop-stitch' },
+    ],
+  },
+  cs: {
+    stats: [
+      { value: `MOQ ${MOQ_SHORT.standardRun}`, label: 'pro sériovou výrobu; pilotní dávky od 20–50 ks' },
+      { value: FACTS.sampleTime, label: 'vzorky na Vašem stole po odsouhlasení grafiky' },
+      { value: FACTS.leadTime, label: 'sériová výroba po potvrzené objednávce (PO) a záloze' },
+      { value: FACTS.annualCapacity, label: 'roční vlastní kapacita závodu v Čching-tunu' },
+      { value: FACTS.warehouseM2, label: 'vlastní závod, od surového PVC po hotovou desku' },
+      { value: FACTS.workers, label: 'dělníci a inženýři na provozovně' },
+      { value: 'ISO 9001 · CE · BSCI', label: 'certifikováno; materiály vyhovující REACH/RoHS' },
+      { value: FACTS.exportCountries, label: 'vývozní trhy EU, USA, Austrálie a Asie' },
+      { value: '18 PSI / 24 h', label: '100% kontrola nahuštění a těsnosti každé desky před balením' },
+      { value: 'MSL Fusion', label: 'vícevrstvé vysokofrekvenční svařování s tkanými konstrukcemi drop-stitch' },
     ],
   },
 }
@@ -1843,6 +1948,30 @@ export const solve: Localized<SolveContent> = {
       {
         title: 'Серийные поставки — повторные заказы и заказы флота',
         body: 'Крупносерийное производство для дистрибьюторов, прокатных операторов и курортных групп с зафиксированными спецификациями, прослеживаемостью партий и неизменной конструкцией при каждом повторном заказе.',
+      },
+    ],
+  },
+  cs: {
+    kicker: 'Výroba OEM a ODM',
+    title: 'Dva způsoby, jak vytvořit Váš SUP produkt',
+    sub: 'OEM, když máte specifikaci, ODM — když máte nápad; navíc Private Label a sériové dodávky pro značky, které potřebují osvědčenou platformu.',
+    cta: 'Vyžádat nabídku pro OEM',
+    items: [
+      {
+        title: 'OEM — výroba podle Vaší specifikace',
+        body: 'OEM (Original Equipment Manufacturing): vyrábíme podle Vámi odsouhlasené specifikace — podle Vašich výkresů, rozměrů, materiálů, konstrukce a balení. Design, lisovní formy a duševní vlastnictví patří Vám.',
+      },
+      {
+        title: 'ODM — vývoj desky s naším inženýrským týmem',
+        body: 'ODM (Original Design Manufacturing): náš inženýrský tým vyvíjí konstrukci desky, strukturu, grafiku a balení podle Vašeho zadání — ať jde o tržní koncept, cílový parametr, nebo úpravu osvědčené platformy. Továrna návrh navrhne; odběratel jej schválí před výrobou.',
+      },
+      {
+        title: 'Private Label — Vaše značka na osvědčené platformě',
+        body: 'Private Label: Vaše značka, grafika a balení na existující validované platformě — bez vývoje lisovní formy a bez změn konstrukce. Nejrychlejší cesta od konceptu k dodání.',
+      },
+      {
+        title: 'Sériové dodávky — opakované a flotové objednávky',
+        body: 'Velkosériová výroba pro distributory, provozovatele pronájmu a resortní skupiny s fixovanými specifikacemi, sledovatelností dávek a neměnnou konstrukcí při každé opakované objednávce.',
       },
     ],
   },
@@ -2266,6 +2395,37 @@ export const capability: Localized<CapabilityContent> = {
       },
     ],
   },
+  cs: {
+    kicker: 'Výrobní možnosti',
+    title: 'Šest vlastních výrobních technologií',
+    sub: 'Všechny níže uvedené procesy provádíme vlastními silami. Nic zásadního se nezadává externě.',
+    items: [
+      {
+        name: 'CNC řezání',
+        body: 'Automatické CNC stroje řežou PVC, Hypalon a tkaninu drop-stitch s přesností polohování 0,1 mm a počítačová optimalizace rozložení snižuje odpad materiálu.',
+      },
+      {
+        name: 'Vysokofrekvenční svařování',
+        body: 'Svařovací lisy o výkonu 15 kW zajišťují těsné švy. Boční pásy jsou spojeny třívrstvým svařováním, což zajišťuje pevnost hrany a odolnost proti nárazu.',
+      },
+      {
+        name: 'Laminování jádra drop-stitch',
+        body: 'Tisíce vnitřních polyesterových vláken drží horní a spodní vrstvu rovnoběžně a vytvářejí tuhou plošinu při 12–15 PSI. Jádra se laminují do délky 14 stop.',
+      },
+      {
+        name: 'Grafika na palubě',
+        body: 'Plnobarevný digitální tisk a vícebarevný sítotisk podle Vašich značkových podkladů. EVA podložky na palubě v Vašich barvách s individuálními logy, výřezy a vzory.',
+      },
+      {
+        name: 'Sestavení a osazení',
+        body: 'Každá deska projde kontrolním seznamem o 100 bodech, který podepíše mistr linky — kování, D-kroužky, ventily, úchyty pro leash a montáž příslušenství.',
+      },
+      {
+        name: 'Vývozní balení',
+        body: 'Vakuové balení, krabice a vývozní obaly, v případě potřeby i potištěné maloobchodní krabice.',
+      },
+    ],
+  },
 }
 
 /* ─────────────────────────── home: quality control (How Every Board Is Verified) ─────────────────────────── */
@@ -2683,6 +2843,37 @@ export const quality: Localized<QualityContent> = {
       {
         title: 'Прослеживаемость партий',
         body: 'Каждая партия материалов получает уникальный номер в ERP. Спецификация (BOM) каждой доски связана с исходной партией поставщика. Записи хранятся 10 лет в соответствии с CE 2013/53/EU.',
+      },
+    ],
+  },
+  cs: {
+    kicker: 'Kontrola kvality',
+    title: 'Jak se ověřuje každá deska',
+    sub: 'Kvalita je zdokumentovaný proces, nikoli slib. Toto se děje s Vaší objednávkou před odesláním.',
+    steps: [
+      {
+        title: 'Kontrola vstupních materiálů',
+        body: 'Růžky PVC, jádra drop-stitch, ventily, lepidla a kování jsou v karanténě do doby přijetí kontrolou kvality. Před tím, než jakákoli dávka vstoupí na linku, látky procházejí zkouškami na pevnost v tahu, šíření trhliny a odolnost vůči UV záření.',
+      },
+      {
+        title: 'Kontrolní body během výroby',
+        body: 'Kontrolní body kvality v každém výrobním stupni, kdy se odebírají vzorky svarů a testují se na odtrh podle normy dávky.',
+      },
+      {
+        title: 'Zkouška těsnosti tlaku',
+        body: 'Každá komora se nahustí na 18,0 PSI a udržuje se 24 hodin s nepřetržitým záznamem snímače. Jakákoli komora, u které tlak za 24 hodin klesne o více než 0,50 PSI, je vyřazena a vrácena k opakované kontrole svarů.',
+      },
+      {
+        title: 'Ověření konstrukce',
+        body: 'Ohyb při jmenovitém zatížení, pevnost D-kroužku na vytržení (≥150 kgf na D-kroužek), odtrh adheze podložky na palubě (≥3,5 N/cm) a usazení ventilu se ověřují vůči specifikaci před konečnou kontrolou.',
+      },
+      {
+        title: 'Konečná kontrola',
+        body: 'Kontrolní seznam o 100 bodech pro každou desku a ověření rozměrů a hmotnosti vůči schválenému vzorku.',
+      },
+      {
+        title: 'Sledovatelnost dávek',
+        body: 'Každá dávka materiálu dostane jedinečné číslo v ERP. Specifikace (BOM) každé desky je propojena s původní dávkou dodavatele. Záznamy se uchovávají po dobu 10 let v souladu s CE 2013/53/EU.',
       },
     ],
   },
@@ -3546,6 +3737,70 @@ export const commercial: Localized<CommercialContent> = {
       },
     ],
   },
+  cs: {
+    kicker: 'Obchodní podmínky',
+    title: 'Obchodní podmínky oznámené předem',
+    sub: 'Standardní minimální množství (MOQ), vzorky a podmínky výroby a dodání jsou uvedeny níže. Projekty s novou lisovní formou, speciálními materiály, zkouškami na shodu nebo individuálním balením naceníme samostatně.',
+    cells: [
+      {
+        label: 'Minimální množství (MOQ)',
+        lines: [
+          'Co-branding: od 5–10 ks na vybraných stávajících platformách',
+          'Pilotní dávka: 20–50 ks na stávajících platformách',
+          'Standardní objem: 90–100+ ks na schválenou konfiguraci, v závislosti na materiálu a požadavcích na balení',
+        ],
+      },
+      {
+        label: 'Dodací lhůta',
+        lines: [
+          '25–35 dní od potvrzení objednávky (PO) a zálohy',
+          'Vývoj vlastní lisovní formy: +15–20 dní na výrobu formy',
+          'Expresní výroba je v hlavní sezóně dostupná',
+        ],
+      },
+      {
+        label: 'Vzorky',
+        lines: [
+          'Prototypové vzorky odesíláme za 7–12 dní',
+          'Náklady za vzorek se odečítají z faktury za sériovou objednávku',
+        ],
+      },
+      {
+        label: 'Export a dokumentace',
+        lines: [
+          'Vývozní dokumentaci zajišťujeme vlastními silami',
+          'Vývozní obaly ve standardu; potištěné maloobchodní krabice na vyžádání',
+        ],
+      },
+    ],
+    certs: 'ISO 9001 — řízení kvality · Certifikace CE pro modely určené na trhy EU (rozsah se potvrzuje u každého projektu) · Společenská odpovědnost BSCI (zpráva z auditu na vyžádání) · Dokumentace REACH a RoHS k každé objednávce.',
+    moqTiers: [
+      {
+        stage: 'Vzorek a odsouhlasení',
+        quantity: '1–2 ks k odsouhlasení',
+        purpose: 'Potvrdit tvar, barvy, potisk a balení před jakoukoli sériovou výrobou',
+        note: '7–12 dní; fyzická deska, ne render',
+      },
+      {
+        stage: 'Co-branding v malém nákladu',
+        quantity: 'od 5–10 ks na vybraných stávajících platformách',
+        purpose: 'Otestovat design na osvědčené platformě s naneseným logem',
+        note: 'Nejrychlejší způsob, jak odsouhlasit novou grafiku',
+      },
+      {
+        stage: 'Pilotní dávka / startovací zásoba',
+        quantity: '20–50 ks na stávajících platformách',
+        purpose: 'Ověřit trh nebo otevřít obchod se skutečným zbožím',
+        note: 'Nejmenší objem na stávajících platformách',
+      },
+      {
+        stage: 'Standardní sériová výroba',
+        quantity: '90–100+ ks na schválenou konfiguraci, v závislosti na materiálu a požadavcích na balení',
+        purpose: 'Pravidelné série za nejlepší cenu za kus',
+        note: '90–100+ ks; nové tvary vyžadují samostatnou lisovní formu (+15–20 dní na její výrobu)',
+      },
+    ],
+  },
 }
 
 /* ─────────────────────────── who we serve / customer needs ─────────────────────────── */
@@ -4074,6 +4329,45 @@ export const serve: Localized<ServeContent> = {
       },
     ],
   },
+  cs: {
+    kicker: 'Komu sloužíme',
+    title: 'Pro firmy, které vytvářejí vlastní SUP produkty',
+    sub: 'Ať uvádíte novou značku SUP desek, nebo rozšiřujete stávající řadu outdoorových produktů, naše výrobní řešení lze přizpůsobit Vašemu podnikání.',
+    segments: [
+      {
+        slug: 'sup-brands',
+        title: 'Značky SUP',
+        body: 'Vyvíjejte individuální SUP desky odpovídající pozicionování Vaší značky, cílovému trhu a produktové strategii.',
+        points: ['Individuální design', 'Značková grafika', 'Vývoj produktu', 'Private label'],
+        cta: 'Individuální SUP desky',
+        href: '/product-development',
+      },
+      {
+        slug: 'outdoor-companies',
+        title: 'Firmy outdoorových a vodních sportů',
+        body: 'Rozšiřujte produktové portfolio o individuální SUP produkty navržené pro Váš trh.',
+        points: ['Individualizace produktu', 'Více modelů', 'Výroba OEM'],
+        cta: 'Prohlédnout individuální SUP desky',
+        href: '/solutions/custom-sup',
+      },
+      {
+        slug: 'distributors-retailers',
+        title: 'Distributoři a maloobchodníci',
+        body: 'Vytvářejte výrazné kolekce SUP desek místo toho, abyste soutěžili stejnými hromadnými produkty.',
+        points: ['Private label', 'Individuální balení', 'Produkty připravené k prodeji'],
+        cta: 'Zjistit více',
+        href: '/solutions/private-label-sup',
+      },
+      {
+        slug: 'resorts-clubs',
+        title: 'Resorty, kluby a organizace',
+        body: 'Vyvíjejte SUP produkty a vybavení přizpůsobené Vašim provozním podmínkám a uživatelům.',
+        points: ['Individuální specifikace', 'Branding', 'Velkosériová výroba'],
+        cta: 'Prohlédnout řešení',
+        href: '/solutions/resort-sup',
+      },
+    ],
+  },
 }
 
 /* ─────────────────────────── solutions ─────────────────────────── */
@@ -4440,6 +4734,33 @@ export const solutions: Localized<SolutionsContent> = {
         title: 'Требования к производству',
         body: 'Настройте, как производится ваш проект.',
         points: ['Количество', 'Спецификация', 'Применение'],
+      },
+    ],
+  },
+  cs: {
+    kicker: 'Možnosti přizpůsobení',
+    title: 'Individuální SUP produktová řešení pro Vaši společnost',
+    sub: 'Od programů OEM/ODM pro značky po řady private label pro distributory a nákupní týmy — každý požadavek se mění ve vyrobitelný produkt.',
+    pillars: [
+      {
+        title: 'Návrh desky',
+        body: 'Přizpůsobte desku tomu, co vyžaduje Váš produkt.',
+        points: ['Tvar', 'Rozměr', 'Tloušťka', 'Konstrukce'],
+      },
+      {
+        title: 'Grafika a branding',
+        body: 'Naneste svou identitu na každou desku.',
+        points: ['Logo', 'Barvy', 'Podklady', 'Tisk'],
+      },
+      {
+        title: 'Příslušenství',
+        body: 'Doplněte produkt odpovídajícími součástmi.',
+        points: ['Veslo', 'Taška', 'Žebro', 'Balení'],
+      },
+      {
+        title: 'Výrobní požadavky',
+        body: 'Nastavte, jak se Váš projekt vyrábí.',
+        points: ['Množství', 'Specifikace', 'Použití'],
       },
     ],
   },
@@ -4825,6 +5146,34 @@ export const studio: Localized<StudioContent> = {
       },
     ],
   },
+  cs: {
+    kicker: 'Konfigurátor',
+    title: 'Konstruktér specifikace',
+    sub: 'Procházejte sestavou — od tvaru desky až po krabici, ve které se dodává. Každou vrstvu určujete Vy.',
+    scrollHint: 'Posunováním prozkoumáte',
+    steps: [
+      {
+        title: 'Tvar a rozměr',
+        body: 'Vyberte osvědčenou platformu nebo zadejte vlastní obrys — délku, šířku, tloušťku, profil okraje a rocker.',
+      },
+      {
+        title: 'Konstrukce',
+        body: 'Jednovrstvá, dvouvrstvá nebo sendvičová konstrukce. Počet bočních výztuh a zóny zesílení se stanoví podle způsobu použití.',
+      },
+      {
+        title: 'Grafika na palubě',
+        body: 'Celoplošná grafika na palubě ve Vašich barvách, vytištěná podle Vašich značkových podkladů. Náš tým předtisku převádí koncepty do podoby výrobně zpracovatelných dat.',
+      },
+      {
+        title: 'Náklep na palubě',
+        body: 'EVA ve Vašich značkových barvách, s vlastními logy, drážkami, výřezy a texturami.',
+      },
+      {
+        title: 'Příslušenství a balení',
+        body: 'Vesla, pumpy, tašky, žebra a leash(e) — vyrobené podle Vašich požadavků a zkompletované. Potištěné krabice a maloobchodné obaly podle Vaší specifikace.',
+      },
+    ],
+  },
 }
 
 /* ─────────────────────────── products ─────────────────────────── */
@@ -5037,6 +5386,20 @@ export const productFilters: Localized<{ all: string; groups: ProductFilterGroup
       { key: 'fishing', label: 'Рыбалка' },
       { key: 'kids', label: 'Дети' },
       { key: 'multi', label: 'Многоместные' },
+    ],
+  },
+  cs: {
+    all: 'Všechny platformy',
+    groups: [
+      { key: 'all-around', label: 'All-around' },
+      { key: 'race', label: 'Závodní' },
+      { key: 'surf', label: 'Surf' },
+      { key: 'touring', label: 'Touring' },
+      { key: 'yoga', label: 'Jóga' },
+      { key: 'whitewater', label: 'Divoká voda' },
+      { key: 'fishing', label: 'Rybolov' },
+      { key: 'kids', label: 'Děti' },
+      { key: 'multi', label: 'Vícemístné' },
     ],
   },
 }
@@ -7863,6 +8226,223 @@ export const products: Localized<ProductsContent> = {
       },
     ],
   },
+  cs: {
+    kicker: 'Výrobní platformy',
+    title: 'SUP platformy dostupné pro přizpůsobení',
+    sub: 'Každá řada je výrobní platforma — vyberte výchozí bod a my přizpůsobíme tvar, grafiku i parametry Vašemu produktu.',
+    items: [
+      {
+        slug: 'sup-explorer-11',
+        series: 'all-around',
+        sku: 'SUP-EX11',
+        name: "SUP Explorer 11'",
+        tagline: 'Klasická univerzální deska',
+        desc: 'Naše nejoblíbenější univerzální deska — široké tělo a stabilita pro začínající, manévrovatelnost pro pokročilé a snadné přenášení pro jakékoli dobrodružství. Výchozí platforma pro většinu nových značek.',
+        uses: ['Začínající', 'Univerzální', 'Rodinná'],
+        for: ['Startupy', 'Pronájmové floty'],
+        specs: "11'0\" × 32\" × 6\" · drop-stitch PVC · 15 PSI · 19 lbs (8.6 kg)",
+        artwork: 'Jádro drop-stitch vojenské třídy · zesílené okraje · 2+1 žebra · kompletní sada',
+        image: 'https://assets.isupfactory.com/site/products/2026/all-around/all-around-03.avif',
+        hue: 195,
+      },
+      {
+        slug: 'sup-ocean-pulse',
+        series: 'whitewater',
+        sku: 'SUP-OP11',
+        name: 'Ocean Pulse Series',
+        tagline: 'Topografická edice pro vlny',
+        desc: 'Oceánské vlny převedené na topografické obzory v odstínech Tiffany Blue, s vysoce přesným mechanickým reliéfním embossingem a barevně sladěnou sadou doplňků.',
+        uses: ['Lifestyle', 'Klidná voda', 'Design'],
+        for: ['Lifestyle značky', 'Butiková turistika'],
+        specs: "11'0\" × 32\" × 6\" · drop-stitch PVC · 15 PSI · 20 lbs (9.1 kg)",
+        artwork: 'Digitální UV tisk + mechanické lisování · sladěné doplňky',
+        image: 'https://assets.isupfactory.com/site/products/2026/whitewater/whitewater-01.avif',
+        hue: 210,
+      },
+      {
+        slug: 'sup-cheetah-surge',
+        series: 'surf',
+        sku: 'SUP-CS11',
+        name: 'Cheetah Surge Edition',
+        tagline: 'Prémiová edice v duchu divoké přírody',
+        desc: 'Divoká síla přírody se setkává s uměleckou elegancí — motiv geparda v pastelově růžové, tyrkysové a koralové barvě, provedený z vícebarevného dílčího EVA bez blednutí.',
+        uses: ['Lifestyle', 'Klidná voda', 'Design'],
+        for: ['Lifestyle značky', 'Značky orientované na sociální sítě'],
+        specs: "11'0\" × 32\" × 6\" · drop-stitch PVC · 15 PSI · 20 lbs (9.1 kg)",
+        artwork: 'Vícebarevný dílčí EVA + UV tisk · konstrukce odolná proti delaminaci',
+        image: 'https://assets.isupfactory.com/site/products/2026/surf/surf-01.avif',
+        hue: 28,
+      },
+      {
+        slug: 'sup-medusa-glow',
+        series: 'yoga',
+        sku: 'SUP-MG11',
+        name: 'Medusa Glow Series',
+        tagline: 'Edice s medúzami',
+        desc: 'Podvodní svět snů — barevné medúzy, mořské hvězdy a korálové útesy v osvěžující mátové barvě, s grafikou z EVA bez blednutí a mimořádnou boční stabilitou pro jógu.',
+        uses: ['Jóga', 'Tropy', 'Lifestyle'],
+        for: ['Jógové studia', 'Tropické značky'],
+        specs: "11'0\" × 32\" × 6\" · drop-stitch PVC · 15 PSI · 20 lbs (9.1 kg)",
+        artwork: 'Vícebarevný dílčí EVA + UV tisk · úchyt připevněný k tělu z PVC',
+        image: 'https://assets.isupfactory.com/site/products/2026/kids-teens/kids-teens-05.avif',
+        hue: 260,
+      },
+      {
+        slug: 'sup-dolphin-wave',
+        series: 'touring',
+        sku: 'SUP-DW11',
+        name: 'Dolphin Wave Series',
+        tagline: 'Mořská edice 360°',
+        desc: 'Delfíni vyskakující z vody a vícevrstvé středověké modré vlny s CNC frézovanou EVA vložkou a sítotiskem po celé délce okraje, který obepíná palubu v 360°.',
+        uses: ['Moře', 'Klidná voda', 'Design'],
+        for: ['Mořské značky', 'Resorty'],
+        specs: "11'0\" × 32\" × 6\" · drop-stitch PVC · 15 PSI · 20 lbs (9.1 kg)",
+        artwork: 'CNC frézovaná EVA vložka + sítotisk na okraji · odstín dle PANTONE TPG',
+        image: 'https://assets.isupfactory.com/site/products/2026/touring/touring-02.avif',
+        hue: 210,
+      },
+      {
+        slug: 'sup-flowing-lotus',
+        series: 'yoga',
+        sku: 'SUP-FL11',
+        name: 'Flowing Lotus Series',
+        tagline: 'Editions ve stylu východního umění a wellness',
+        desc: 'Tradiční východní malba štětcem s motivy lotusu, kapra a vážky — laserem vyrytá přímo v protiskluzovém nákladu, proto se neopotřebovává ani nebledne. Navrženo pro klidný pádlování a jógu.',
+        uses: ['Jóga', 'Meditace', 'Klidná voda'],
+        for: ['Jógové studia', 'Wellness značky'],
+        specs: "11'0\" × 32\" × 6\" · drop-stitch PVC · 15 PSI · 20 lbs (9.1 kg)",
+        artwork: 'Dvojvrstvý laserem rytý EVA + gradientní UV tisk · dynamická barevná žebra',
+        image: 'https://assets.isupfactory.com/site/products/2026/yoga/yoga-01.avif',
+        hue: 150,
+      },
+      {
+        slug: 'sup-jungle-mandala',
+        series: 'all-around',
+        sku: 'SUP-JM11',
+        name: 'Jungle Mandala Series',
+        tagline: 'Tropická posvátná geometrie',
+        desc: 'Tropická energie se snižuje posvátnou geometrií — ibišky, kolibří a mandalové totemy v odstínech Tiffany Blue a Coral Orange, provedené s bezchybnou symetrií při plném lisování.',
+        uses: ['Tropy', 'Pobřeží', 'Design'],
+        for: ['Tropické značky', 'Turistika'],
+        specs: "11'0\" × 32\" × 6\" · drop-stitch PVC · 15 PSI · 20 lbs (9.1 kg)",
+        artwork: 'Dvojvrstvý laserem rytý EVA + UV tisk + sítotisk na okraji · geometrie bez zkreslení',
+        image: 'https://assets.isupfactory.com/site/products/2026/all-around/all-around-10.avif',
+        hue: 28,
+      },
+      {
+        slug: 'sup-leviathan-wake',
+        series: 'race',
+        sku: 'SUP-LW11',
+        name: 'Leviathan Wake Series',
+        tagline: 'Edice s velrybou',
+        desc: 'Vznešený totem modrého velryby s geometrickými kmenovými vzory a minimalistickými černobílými vlnami — pro pádláky, kteří cítí spojení s oceánem.',
+        uses: ['Oceán', 'Univerzální', 'Design'],
+        for: ['Mořské značky', 'Outdoor značky'],
+        specs: "11'0\" × 32\" × 6\" · drop-stitch PVC · 15 PSI · 20 lbs (9.1 kg)",
+        artwork: 'Digitální UV tisk + mechanické lisování · pružné PVC barvivo na logu dna',
+        image: 'https://assets.isupfactory.com/site/products/2026/race/race-01.avif',
+        hue: 195,
+      },
+      {
+        slug: 'sup-ocean-voyager',
+        series: 'all-around',
+        sku: 'SUP-OV11',
+        name: 'Ocean Voyager Series',
+        tagline: 'Edice s mořskou želvou',
+        desc: 'Pocta hlavnímu cestovateli oceánu — geometrická grafika mořské želvy v hlubokých odstínech tyrkysu, azuru a koralu se zcela sladěnou sadou doplňků.',
+        uses: ['Touring', 'Oceán', 'Univerzální'],
+        for: ['Touring značky', 'Outdoor značky'],
+        specs: "11'0\" × 32\" × 6\" · drop-stitch PVC · 15 PSI · 20 lbs (9.1 kg)",
+        artwork: 'Vícebarevný dílčí EVA + UV tisk · barevně sladěný batoh, pumpa a leash',
+        image: 'https://assets.isupfactory.com/site/products/2026/all-around/all-around-12.avif',
+        hue: 170,
+      },
+      {
+        slug: 'sup-tropical-breeze',
+        series: 'all-around',
+        sku: 'SUP-TB11',
+        name: 'Tropical Breeze Series',
+        tagline: 'Edice pro odpočinek na ostrově',
+        desc: 'Celé plátno ostrovní dovolené — slunce, kokosové háje a plážové scény, které přecházejí od mikroilustrací na přídi do abstraktní barevné skvrny EVA u zadní části.',
+        uses: ['Odpočinek', 'Lifestyle', 'Pobřeží'],
+        for: ['Turistické značky', 'Resorty'],
+        specs: "11'0\" × 32\" × 6\" · drop-stitch PVC · 15 PSI · 20 lbs (9.1 kg)",
+        artwork: 'Digitální UV tisk + vyřezané EVA panely · ilustrovaná krajina na přídi',
+        image: 'https://assets.isupfactory.com/site/products/2026/all-around/all-around-17.avif',
+        hue: 330,
+      },
+      {
+        slug: 'sup-rheo-race',
+        series: 'race',
+        sku: 'SUP-RHEO01',
+        name: 'RHEO Race Series',
+        tagline: 'Závodní edice s karbonovým hybridem',
+        desc: 'Závodní deska nejvyšší úrovně z nafukovací konstrukce s karbonovým hybridem a agresivním rockerem pro rychlé glidy — vytvořena pro závodní jízdy, sprint tréninky a technické tratě, kde rozhodují tuhost a rychlost.',
+        uses: ['Závody', 'Rychlost', 'Trénink'],
+        for: ['Závodní týmy', 'Trenéři'],
+        specs: 'Uhlíková hybridní matrice · rocker pro rychlé glidy · aerodynamický rychlostní profil',
+        artwork: 'Nafukovací konstrukce z uhlíkového hybridu · rychlostní rocker pro glidy',
+        image: 'https://assets.isupfactory.com/site/products/2026/race/race-11.avif',
+        hue: 195,
+      },
+      {
+        slug: 'sup-fishing',
+        series: 'fishing',
+        sku: 'SUP-FSH01',
+        name: 'Nafukovací rybářská SUP deska',
+        tagline: 'Rybářská edice se stabilitou katamaránu',
+        desc: 'Nafukovací SUP deska vyvinutá speciálně pro rybolov, s oboustrannou vzduchovou komorou (typ katamaránu) pro mimořádnou sekundární stabilitu, držáky rybářského prutu, měřítkem pro měření ryb na palubě a zesílenou pracovní konstrukcí.',
+        uses: ['Rybolov', 'Stabilita', 'Univerzálnost'],
+        for: ['Rybářské značky', 'Průvodci'],
+        specs: 'Oboustranná vzduchová komora · měřítko pro ryby 10–80 cm · držáky rybářského prutu',
+        artwork: 'Zesílená pracovní konstrukce · kovová D-oka v více bodech',
+        image: 'https://assets.isupfactory.com/site/products/2026/fishing/fishing-01.avif',
+        hue: 210,
+      },
+      {
+        slug: 'sup-mini',
+        series: 'kids',
+        sku: 'SUP-MINI01',
+        name: 'Mini SUP Series',
+        tagline: '3 v 1: dětská / surf / boogie board',
+        desc: 'Mimořádně kompaktní hybridní deska, která se mění v dětskou SUP desku, nafukovací surfboard nebo boogie board — krátký, široký a mimořádně stabilní profil a paluba odolná proti propíchnutí.',
+        uses: ['Děti', 'Surf', 'Cestování'],
+        for: ['Dětské značky', 'Resorty'],
+        specs: 'Hybridní geometrie SUP / surf / boogie board · krátké široké tělo · paluba odolná proti propíchnutí',
+        artwork: 'Multifunkční hybridní geometrie · materiál paluby odolný proti opotřebení',
+        image: 'https://assets.isupfactory.com/site/products/2026/mini/mini-01.avif',
+        hue: 28,
+      },
+      {
+        slug: 'sup-giant',
+        series: 'multi',
+        sku: 'SUP-GNT01',
+        name: 'Giant SUP — vícemístná týmová deska',
+        tagline: 'Týmová platforma pro 6–8 osob',
+        desc: 'Velkoformátová vícemístná SUP deska pro 6–8 osob: délka 16,4–17 stop, šířka 59–60 palců, tloušťka 8 palců, dvě ventily, 8–12 úchytů a systém žeber 4+1.',
+        uses: ['Skupina', 'Tým', 'Volný čas'],
+        for: ['Resorty', 'Pronájmové floty'],
+        specs: "16'4\"–17'0\" × 59\"–60\" × 8\" · 1200–1400 l · 11–15 PSI · 4+1 žebra",
+        artwork: 'Dvě ventily · 8–12 neoprenových úchytů · systém žeber 4+1',
+        image: 'https://assets.isupfactory.com/site/products/2026/giant/giant-03.avif',
+        hue: 195,
+      },
+      {
+        slug: 'sup-lure-skiff',
+        series: 'fishing',
+        sku: 'SUP-LSK01',
+        name: 'Utility SUP — Lure Skiff',
+        tagline: 'Lure fishing na mimořádně široké desce 120 cm',
+        desc: 'Mimořádně široká deska 120 cm pro lov na umělu, s centrálním výřezem a podvodním průhledným oknem, nosností 400 kg a pontonovou konstrukcí pro spolehlivé házení a lov vsedě.',
+        uses: ['Rybolov', 'Univerzálnost', 'Stabilita'],
+        for: ['Rybářské značky', 'Rybáři'],
+        specs: '350 × 120 × 15 cm · nosnost 400 kg · tři žebra · průhledné okno',
+        artwork: 'Centrální vyříznutý prostor · průhledné podvodní okno · pontonová konstrukce',
+        image: 'https://assets.isupfactory.com/site/products/2026/utility-lure/utility-lure-01.avif',
+        hue: 170,
+      },
+    ],
+  },
 }
 
 /* ─────────────────────────── video showcases ─────────────────────────── */
@@ -8205,6 +8785,31 @@ export const videoShowcase: Localized<{
         { t: 'Нескользящая накладка на палубе' },
         { t: 'Фурнитура и эластичные шнуры' },
         { t: 'Спуск воздуха, складывание и упаковка' },
+      ],
+    },
+  },
+  cs: {
+    launch: {
+      badge: 'Uvedení značky na trh',
+      title: 'Toužíte uvést na trh vlastní značku SUP?',
+      sub: 'K uvedení značky SUP na trh nepotřebujete vlastní továrnu. Jsme výrobním partnerem za Vaší řadou: specifikace, vývoj, vzorky, kontrola kvality, balení a výroba připravená k exportu — vše pod jednou smlouvou s jedním odpovědným týmem.',
+      points: [
+        { t: 'Kompletní OEM/ODM od konceptu po výrobu', d: 'Individuální grafika desky, integrace loga, náklady na palubě a individuální balení.' },
+        { t: 'Flexibilní start s nízkým MOQ', d: 'Podpora malých sérií, abyste mohli ověřit trh, aniž byste zamrazili velký kapitál.' },
+        { t: 'Kompletní sady doplňků', d: 'Výkonné vesla, pumpy, leash(e) a cestovní tašky připravené k odeslání.' },
+        { t: 'Kvalita a certifikace na firemní úrovni', d: 'Přísné protokoly QA/QC, tlakové zkoušky a shoda s požadavky globálního exportu.' },
+      ],
+    },
+    process: {
+      badge: 'Uvnitř továrny',
+      title: 'Jak vzniká nafukovací SUP deska',
+      sub: 'Zajímalo vás někdy, jak se měkká deska promění v tvrdou jako kámen? Pět kroků v našem závodě.',
+      points: [
+        { t: 'Přesné řezání a UV tisk' },
+        { t: '100% vzduchotěsné svařování' },
+        { t: 'Protiskluzový náklad na palubě' },
+        { t: 'Kování a pružná lana' },
+        { t: 'Vypuštění vzduchu, složení a zabalení' },
       ],
     },
   },
@@ -8694,6 +9299,42 @@ export const works: Localized<WorksContent> = {
     ],
     note: 'Утверждённый образец — это контракт. Каждая доска в партии сверяется с ним.',
   },
+  cs: {
+    kicker: 'Vývoj SUP produktu',
+    title: 'Od zadání po sérii — vývoj produktu v našem závodě',
+    sub: 'Od převzetí požadavků po hotový výrobek — každý krok probíhá v našem vlastním závodě.',
+    steps: [
+      {
+        title: 'Převzetí požadavků',
+        body: 'Shromažďujeme Vaši specifikaci, cílový trh, požadavky na shodu a předpokládané objemy. NDA se podepisuje ještě před výměnou souborů.',
+      },
+      {
+        title: 'Inženýrské posouzení',
+        body: 'Typ desky, rozměry, konstrukce, materiály a kování posuzujeme z hlediska vyrobitelnosti. Dostanete písemnou zprávu s identifikovanými nákladovými faktory.',
+      },
+      {
+        title: 'Předtisk podkladů',
+        body: 'Vaše značkové podklady převádíme do podoby tiskově připravených dat. Barvy se ladí a ověřují zkušebním tiskem před tiskem.',
+      },
+      {
+        title: 'Prototyp',
+        body: 'Fyzický prototyp potvrzuje tvar, tuhost, hmotnost a povrchovou úpravu. Odesíláme za 7–12 dní.',
+      },
+      {
+        title: 'Odsouhlasení vzorku',
+        body: 'Odsouhlasíte fyzický vzorek. Do výroby se nic nezavede, dokud není schválený etalonní vzorek a uložený jako referenční vzor dávky.',
+      },
+      {
+        title: 'Sériová výroba',
+        body: 'Vyrábíme v našem vlastním závodě podle výše popsaného procesu kontroly kvality, se sledovatelností až na úroveň dávky materiálu.',
+      },
+      {
+        title: 'Dodání připravené k exportu',
+        body: 'Vakuové zabalení, krabice, dokumentace a předání v podobě připravené k exportu.',
+      },
+    ],
+    note: 'Schválený vzorek je smlouva. Každá deska v dávce se s ním porovnává.',
+  },
 }
 
 /* ─────────────────────────── home: board categories ─────────────────────────── */
@@ -8934,6 +9575,23 @@ export const boardCategories: Localized<BoardCategoriesContent> = {
       { id: 'fishing', label: 'Рыбалка', desc: 'Стабильные платформы с креплениями для удилища и рабочим корпусом.', image: 'https://assets.isupfactory.com/site/products/2026/fishing/fishing-01.avif', href: '/products/sup-fishing' },
       { id: 'kids', label: 'Детские SUP', desc: 'Меньшие и лёгкие доски, разработанные для детей.', image: 'https://assets.isupfactory.com/site/products/2026/kids-teens/kids-teens-05.avif', href: '/products/sup-mini' },
       { id: 'multi', label: 'Многоместные', desc: 'Крупноформатные командные доски на 6–8 человек.', image: 'https://assets.isupfactory.com/site/products/2026/giant/giant-03.avif', href: '/products/sup-giant' },
+    ],
+  },
+  cs: {
+    kicker: 'Naše desky',
+    title: 'Od produktového konceptu k SUP deskám připraveným k výrobě',
+    sub: 'Každá kategorie desek je výrobní platforma — vyberte výchozí bod a my přizpůsobíme tvar, grafiku i parametry Vašemu produktu.',
+    viewLabel: 'Prohlédnout',
+    items: [
+      { id: 'all-around', label: 'All-around', desc: 'Univerzální SUP desky pro pádláky na jakékoli úrovni.', image: 'https://assets.isupfactory.com/site/products/2026/all-around/all-around-03.avif', href: '/products/sup-explorer-11' },
+      { id: 'touring', label: 'Touring', desc: 'Desky pro dlouhé přesuny, průzkum a dobrodružství.', image: 'https://assets.isupfactory.com/site/products/2026/touring/touring-02.avif', href: '/products/sup-dolphin-wave' },
+      { id: 'race', label: 'Závodní', desc: 'Rychlostní desky pro závody a sportovní pádlování.', image: 'https://assets.isupfactory.com/site/products/2026/race/race-01.avif', href: '/products/sup-leviathan-wake' },
+      { id: 'whitewater', label: 'Divoká voda', desc: 'Odolné desky pro říční peřeje a aktivní odpočinek.', image: 'https://assets.isupfactory.com/site/products/2026/whitewater/whitewater-01.avif', href: '/products/sup-ocean-pulse' },
+      { id: 'yoga', label: 'Jóga', desc: 'Prostranné paluby navržené pro jógu a fitness.', image: 'https://assets.isupfactory.com/site/products/2026/yoga/yoga-01.avif', href: '/products/sup-flowing-lotus' },
+      { id: 'surf', label: 'Surf', desc: 'Manévrovatelné desky pro zdolávání vln a surfování.', image: 'https://assets.isupfactory.com/site/products/2026/surf/surf-01.avif', href: '/products/sup-cheetah-surge' },
+      { id: 'fishing', label: 'Rybolov', desc: 'Stabilní platformy s držáky rybářského prutu a pracovní konstrukcí.', image: 'https://assets.isupfactory.com/site/products/2026/fishing/fishing-01.avif', href: '/products/sup-fishing' },
+      { id: 'kids', label: 'Dětské SUP', desc: 'Menší a lehčí desky vyvinuté pro děti.', image: 'https://assets.isupfactory.com/site/products/2026/kids-teens/kids-teens-05.avif', href: '/products/sup-mini' },
+      { id: 'multi', label: 'Vícemístné', desc: 'Velkoformátové týmové desky pro 6–8 osob.', image: 'https://assets.isupfactory.com/site/products/2026/giant/giant-03.avif', href: '/products/sup-giant' },
     ],
   },
 }
@@ -9411,6 +10069,41 @@ export const platforms: Localized<PlatformsContent> = {
       },
     ],
   },
+  cs: {
+    kicker: 'Výrobní platformy',
+    title: 'Základní platformy',
+    sub: 'Základní platformy, nikoli katalogové produkty. Každý rozměr, konstrukce i motiv se určují podle projektu.',
+    items: [
+      {
+        title: 'All-around',
+        body: 'Klasické rekreační platformy pro maloobchodní řady, pronájmové floty a outdoorové programy.',
+        uses: ['Maloobchodní řady', 'Pronájmové floty', 'Outdoor programy'],
+        cta: 'Poptat tuto platformu',
+        href: '/contact',
+      },
+      {
+        title: 'Touring',
+        body: 'Delší vodorysky pro dlouhé přesuny, pozorování zvířat a expedice.',
+        uses: ['Dlouhé přesuny', 'Pozorování zvířat', 'Expedice'],
+        cta: 'Poptat tuto platformu',
+        href: '/contact',
+      },
+      {
+        title: 'Závodní',
+        body: 'Rychlostní tvary pro kluby, závody a závodní týmy.',
+        uses: ['Kluby', 'Akce', 'Závodní týmy'],
+        cta: 'Poptat tuto platformu',
+        href: '/contact',
+      },
+      {
+        title: 'Multifunkční',
+        body: 'Odolné desky s vysokou životností pro školy, pronájem a institucionální odběratele.',
+        uses: ['Školy', 'Provoz pronájmu', 'Institucionální odběratelé'],
+        cta: 'Poptat tuto platformu',
+        href: '/contact',
+      },
+    ],
+  },
 }
 
 /* ─────────────────────────── gallery ─────────────────────────── */
@@ -9795,6 +10488,34 @@ export const gallery: Localized<GalleryContent> = {
       },
     ],
   },
+  cs: {
+    kicker: 'Výrobní projekty',
+    title: 'Nedávné výroby',
+    sub: 'Výrobní projekty dodané z našeho závodu — s čísly, které nákupčím opravdu říkají něco užitečného.',
+    projects: [
+      {
+        tag: 'Sledovatelnost dávek',
+        title: 'Předání výrobních a sledovacích dokumentů',
+        body: 'Každá dávka se odesílá s dokumentací kvality — protokoly kontrol, individuálními sériovými čísly desek a podepsaným předávacím protokolem. Vše je uloženo v systému ERP s desetiletou sledovatelností. Na fotografii je skutečný předávací protokol výrobních a sledovacích dokumentů v závodě.',
+        hue: 195,
+        image: '/出货放行与批次追溯记录交接.jpg',
+      },
+      {
+        tag: 'Klubový tým',
+        title: 'Desky pro klubový tým — závodní platforma',
+        body: 'Závodní platforma se změnami specifikace a klubovou grafikou, které byly uzavřeny ve fázi vzorku. Lisovní forma se používala dva roční období, takže objednávka na rozšíření floty přesně odpovídala původní flote.',
+        hue: 28,
+        image: 'https://assets.isupfactory.com/site/products/2026/surf/surf-01.avif',
+      },
+      {
+        tag: 'Rozšíření řady značky',
+        title: 'Rozšíření řady značky — nafukovací SUP desky',
+        body: 'Známá značka vodních sportů doplnila sortiment o řadu nafukovacích SUP desek: inženýrské posouzení, individuální lisovní forma, tři rozměry a první dávka 50 ks s kontrolou grafiky a těsnosti před škálováním — design i lisovní forma patří značce.',
+        hue: 210,
+        image: 'https://assets.isupfactory.com/site/products/2026/all-around/all-around-03.avif',
+      },
+    ],
+  },
 }
 
 /* ─────────────────────────── buyer's guides (home) ─────────────────────────── */
@@ -10095,6 +10816,28 @@ export const guides: Localized<GuidesContent> = {
       {
         title: 'Сертификация CE для надувных SUP-досок',
         body: 'Что на самом деле охватывает CE, какие пять документов стоит запросить и как проверить, что в сертификате указана ваша модель.',
+        href: '/news/ce-certification-inflatable-sup',
+      },
+    ],
+  },
+  cs: {
+    kicker: 'Příručky pro nakupující',
+    title: 'Výrobní příručky',
+    sub: 'Otázky, které si každá značka SUP položí před objednávkou — zodpovězené jednoduchým jazykem a s našimi skutečnými podmínkami.',
+    guides: [
+      {
+        title: 'Private label: úplný návod krok za krokem',
+        body: 'Od výběru továrny po výrobu — celá cesta v šesti krocích pro nové značky.',
+        href: '/news/private-label-sup-guide',
+      },
+      {
+        title: 'MOQ a tvorba cen pro SUP OEM',
+        body: 'Úrovně MOQ — od 1–2 vzorků po série 90–100+ ks, šest nákladových faktorů a pět způsobů, jak snížit vlastní náklady bez ztráty kvality.',
+        href: '/news/sup-oem-moq-pricing',
+      },
+      {
+        title: 'Certifikace CE pro nafukovací SUP desky',
+        body: 'Co CE skutečně zahrnuje, které pět dokumentů si vyžádat a jak ověřit, že je v certifikátu uveden Váš model.',
         href: '/news/ce-certification-inflatable-sup',
       },
     ],
@@ -10581,6 +11324,43 @@ export const manufacturingGuides: Localized<GuidesContent> = {
       {
         title: 'Сертификация CE для надувных SUP-досок',
         body: 'Что на самом деле охватывает CE, какие пять документов стоит запросить и как проверить, что в сертификате указана ваша модель.',
+        href: '/news/ce-certification-inflatable-sup',
+      },
+    ],
+  },
+  cs: {
+    kicker: 'Výrobní příručky',
+    title: 'Od továrny po hotový produkt',
+    sub: 'Úplná nákupní knihovna — každá fáze projektu individuálního SUP produktu s našimi skutečnými termíny, podmínkami a dokumentací.',
+    guides: [
+      {
+        title: 'Jak vybrat výrobce SUP OEM',
+        body: 'Auditní otázky, které odlišují skutečnou továrnu od obchodního zprostředkovatele: certifikáty, kontrola kvality, vzorky a vlastnictví.',
+        href: '/news/how-to-choose-sup-oem-manufacturer',
+      },
+      {
+        title: 'Termíny vývoje SUP produktu',
+        body: 'Vzorek za 7–12 dní, výroba za 25–35 dní, lisovní forma plus 15–20 dní — úplný kalendář po jednotlivých fázích.',
+        href: '/news/custom-sup-development-timeline',
+      },
+      {
+        title: 'Jaké údaje si připravit před objednávkou',
+        body: 'Pět detailů, díky kterým továrna poprvé poskytne přesnou kalkulaci a vyhnete se úpravám specifikace.',
+        href: '/news/info-needed-before-sup-production',
+      },
+      {
+        title: 'Private label: úplný návod krok za krokem',
+        body: 'Od výběru továrny po výrobu — celá cesta v šesti krocích pro nové značky.',
+        href: '/news/private-label-sup-guide',
+      },
+      {
+        title: 'MOQ a tvorba cen pro SUP OEM',
+        body: 'Úrovně MOQ — od 1–2 vzorků po série 90–100+ ks, šest nákladových faktorů a pět způsobů, jak snížit vlastní náklady bez ztráty kvality.',
+        href: '/news/sup-oem-moq-pricing',
+      },
+      {
+        title: 'Certifikace CE pro nafukovací SUP desky',
+        body: 'Co CE skutečně zahrnuje, které pět dokumentů si vyžádat a jak ověřit, že je v certifikátu uveden Váš model.',
         href: '/news/ce-certification-inflatable-sup',
       },
     ],
@@ -11469,7 +12249,74 @@ export const faq: Localized<FaqContent> = {
       },
       {
         q: 'Какие данные указать в запросе на OEM-предложение по SUP?',
-        a: 'Наиболее полезные данные: тип продукта, целевой рынок, размер доски или спецификация, желаемая конструкция, требования к брендингу, ориентировочное количество, требования к упаковке и планируемые сроки запуска. Наша команда возвращает инженерную оценку и коммерческое предложение в течение одного рабочего дня.',
+        a: 'Nej užitečnější údaje: typ produktu, cílový trh, rozměr desky nebo specifikace, požadovaná konstrukce, požadavky na branding, orientační množství, požadavky na balení a plánovaný termín uvedení na trh. Náš tým vrací inženýrské posouzení a cenovou nabídku do jednoho pracovního dne.',
+      },
+    ],
+  },
+  cs: {
+    kicker: 'FAQ',
+    title: 'Otázky a odpovědi o výrobě',
+    sub: 'Otázky, které si nakupující položí před vytvořením objednávky — s odpověďmi podle našich skutečných podmínek.',
+    items: [
+      {
+        q: 'Co vyrábí iSupfactory?',
+        a: 'iSupfactory je specializovaná továrna na výrobu SUP produktů, která vyrábí individuální nafukovací SUP desky a související vybavení pro vodní sporty pro značky a firmy po celém světě: vývoj, vzorky a výrobu v našem vlastním závodě o rozloze 12 500 m² v Čching-tunu v Číně.',
+      },
+      {
+        q: 'Jak se liší OEM a ODM?',
+        a: `OEM: vyrábíme podle schválené specifikace — podle Vašich výkresů, rozměrů, materiálů a balení. Design a duševní vlastnictví patří Vám. ODM: náš konstrukční tým navrhne desku podle Vašeho zadání — ať jde o tržní koncept, cílový parametr, nebo úpravu osvědčené platformy — a Vy výsledek odsouhlasíte ještě před výrobou. Private Label umístí Vaši značku na stávající ověřenou platformu bez změn konstrukce. Obě cesty — OEM i ODM — procházejí stejným závodem, systémem kontroly kvality a exportním týmem; ODM je nejrychlejší cesta k značkové desce, a to již od ${MOQ_SHORT.standardRun}, vzorky hotové za ${FACTS.sampleTime}.`,
+      },
+      {
+        q: 'Jaké je Vaše minimální množství (MOQ)?',
+        a: `Co-branding v malém nákladu začíná na 5–10 ks, pilotní dávky na 20–50 ks. Standardní sériová výroba začíná na ${MOQ_SHORT.standardRun}. Formy vlastního vývoje se vyrábějí objemově — podle složitosti.`,
+      },
+      {
+        q: 'Jak dlouho výroba trvá?',
+        a: '25–35 dní od potvrzení objednávky (PO) a zálohy. Vlastní lisovní forma přidává 15–20 dní na její vývoj. Pro urgentní sezonní objednávky je dostupná expresní výroba.',
+      },
+      {
+        q: 'Jak rychle vzorek obdržím?',
+        a: 'Prototypové vzorky odesíláme obvykle do 7–12 dní od odsouhlasení grafiky a specifikace.',
+      },
+      {
+        q: 'Jaké certifikáty máte?',
+        a: 'ISO 9001 pro řízení kvality, certifikaci CE pro modely určené na trhy EU (rozsah se potvrzuje u každého projektu) a platný certifikát společenské odpovědnosti BSCI — zpráva z auditu je na vyžádání. Dokumentace REACH a RoHS je předávána s každou objednávkou.',
+      },
+      {
+        q: 'Vyřizujete exportní dokumentaci sami?',
+        a: 'Ano. Vývozní dokumentaci a obaly na úrovni pro export zajišťujeme vlastními silami a dodáváme produkty značkám ve více než 50 zemích EU, USA, Austrálie a Asie.',
+      },
+      {
+        q: 'Bude můj design zobrazen dalším klientům?',
+        a: 'Ne. Soubory s podklady, lisovními formami a specifikacemi zůstávají Vaším vlastnictvím. NDA podepisujeme ještě před výměnou souborů a klientské lisovní formy či designy nikdy znovu nepoužíváme ani nepředáváme dál.',
+      },
+      {
+        q: 'Prodáváte vlastní značku SUP?',
+        a: 'Ne. Vyrábíme výhradně pod značkami našich klientů. Neprodáváme koncovým zákazníkům a nikdy s klienty nesoutěžíme na žádném trhu.',
+      },
+      {
+        q: 'Můžete zreprodukovat desku, kterou už prodávám?',
+        a: 'Ano. Pošlete nám fyzický vzorek nebo úplnou specifikaci a náš konstrukční tým vrátí zprávu o vyrobitelnosti s materiály, konstrukcí, tolerancemi a nákladovými faktory.',
+      },
+      {
+        q: 'Můžete vyrobit SUP desky s naším logem?',
+        a: 'Ano. Individuální branding — loga, barvy, grafika a povrchové zpracování — se zapracovává do konstrukce a výroby podle schválených specifikací. Všechny soubory značky a podkladů patří Vám.',
+      },
+      {
+        q: 'Můžete vyvinout zcela nový SUP produkt?',
+        a: 'Ano. Individuální vývoj produktu začíná Vaším konceptem, skicemi, specifikacemi nebo tržními požadavky. Před sériovou výrobou procházíme kontrolou specifikace, konstrukčním návrhem, výrobou a odsouhlasením prototypu.',
+      },
+      {
+        q: 'Jaké materiály používáte pro nafukovací SUP desky?',
+        a: 'Nafukovací SUP desky vyrábíme technologií drop-stitch s volbou vrstev a hustoty PVC podle cílové hmotnosti, tuhosti a ceny; používáme materiály vyhovující REACH/RoHS a platíme certifikáty kvality (ISO 9001, CE, BSCI).',
+      },
+      {
+        q: 'Pracujete s novými a začínajícími značkami SUP?',
+        a: `Ano. Projekty OEM/ODM řešíme s ohledem na Vaše požadavky na produkt, cílový trh a objem — pilotní dávky začínají na 20–50 ks a standardní sériová výroba na ${MOQ_SHORT.standardRun}.`,
+      },
+      {
+        q: 'Jaké údaje uvést v poptávce na OEM nabídku SUP?',
+        a: 'Nejužitečnější údaje: typ produktu, cílový trh, rozměr desky nebo specifikace, požadovaná konstrukce, požadavky na branding, orientační množství, požadavky na balení a plánovaný termín uvedení na trh. Náš tým vrací inženýrské posouzení a cenovou nabídku do jednoho pracovního dne.',
       },
     ],
   },
@@ -11775,6 +12622,29 @@ export const homeFaq: Localized<FaqContent> = {
       },
     ],
   },
+  cs: {
+    kicker: faq.cs.kicker,
+    title: faq.cs.title,
+    sub: faq.cs.sub,
+    items: [
+      {
+        q: 'Kdo je iSupfactory?',
+        a: 'iSupfactory je výrobce SUP produktů systémem OEM a ODM z Čching-tunu v Číně: vývoj produktu, výroba prototypů, sériová výroba, kontrola kvality a exportní výroba pro značky, distributory a firmy z outdoorového segmentu.',
+      },
+      {
+        q: 'Je iSupfactory výrobcem OEM?',
+        a: 'Ano. iSupfactory vyrábí nafukovací SUP desky podle se zákazníkem dohodnutých specifikací, včetně rozměrů, materiálů, konstrukce, grafiky, doplňků a balení. Pro značky, které chtějí vytvořit SUP podle zadání, je dostupný i vývoj produktu formou ODM.',
+      },
+      faq.cs.items[1],
+      faq.cs.items[2],
+      faq.cs.items[3],
+      faq.cs.items[5],
+      {
+        q: 'Mohou nakupující továrnu auditovat nebo si nechat provést třetí inspekci?',
+        a: 'Ano. Audit nakupujících vítáme a pravidelně spolupracujeme se SGS, TÜV, BV a Intertek. Třetí inspekci lze zorganizovat v jakémkoli stavu výroby — vstupní kontrola materiálu, průběžná kontrola nebo závěrečná inspekce — a inspekční zprávy předáváme na vyžádání.',
+      },
+    ],
+  },
 }
 
 /* ─────────────────────────── CTA band ─────────────────────────── */
@@ -11864,6 +12734,12 @@ export const cta: Localized<CtaContent> = {
     body: 'Независимо от того, есть ли у вас уже полная спецификация продукта или концепция ещё только разрабатывается, наша команда поможет оценить следующий шаг. Расскажите, что вы хотите создать, — мы изучим ваши требования и обсудим наиболее практичный путь от концепции к производству.',
     button: 'Начать ваш SUP-проект',
     note: 'Ответ в течение 1 рабочего дня · NDA по запросу до обмена файлами · info@isupfactory.com · +86-13305324192',
+  },
+  cs: {
+    title: 'Připraveni začít vývoj Vašeho SUP produktu?',
+    body: 'Ať už máte kompletní produktovou specifikaci, nebo koncept teprve vzniká, náš tým pomůže posoudit další krok. Řekněte nám, co chcete vytvořit — prostudujeme Vaše požadavky a prodiskutujeme nejpraktičtější cestu od konceptu k výrobě.',
+    button: 'Zahájit Váš SUP projekt',
+    note: 'Odpověď do 1 pracovního dne · NDA na vyžádání ještě před výměnou souborů · info@isupfactory.com · +86-13305324192',
   },
 }
 
@@ -12285,6 +13161,37 @@ export const valueProp: Localized<ValuePropContent> = {
       },
     ],
   },
+  cs: {
+    kicker: 'Naše role',
+    title: 'Více než jen továrna na SUP desky',
+    sub: 'Mnoho výrobců dokáže vyrobit běžnou nafukovací desku. Naše role je jiná. iSupfactory je partnerem pro vývoj a výrobu individuálního SUP produktu, který firmám pomáhá projít cestou od prvního nápadu k produktu připravenému k výrobě.',
+    cards: [
+      {
+        title: 'Vývoj produktu',
+        body: 'Přeměníme Váš koncept, skicy, specifikace nebo tržní požadavky na vyrobitelný SUP produkt.',
+      },
+      {
+        title: 'Individuální výroba',
+        body: 'Přizpůsobíme konstrukci, rozměry, grafiku, barvy, doplňky a balení Vašim požadavkům.',
+      },
+      {
+        title: 'Vývoj prototypu',
+        body: 'Posoudíme produkt před spuštěním sériové výroby pomocí zhotovení a zkoušení vzorků.',
+      },
+      {
+        title: 'Podpora výroby',
+        body: 'Po odsouhlasení designu převezmeme přechod z prototypu na opakovatelnou sériovou výrobu.',
+      },
+      {
+        title: 'Kontrola kvality',
+        body: 'Kontrola kvality v průběhu celé výroby pomáhá zajistit, že hotový produkt odpovídá schváleným specifikacím.',
+      },
+      {
+        title: 'Globální dodávky',
+        body: 'Pomoc s balením a vývozní dokumentací zjednodušuje nákupní proces.',
+      },
+    ],
+  },
 }
 
 /* ─────────────────────────── home: role boundary (Where We Stop, You Start) ─────────────────────────── */
@@ -12516,6 +13423,22 @@ export const boundary: Localized<BoundaryContent> = {
       { ours: 'Сертификационная документация и упаковка экспортного класса', theirs: 'Отношения с конечными клиентами и послепродажное сопровождение' },
     ],
     footer: 'Ваши файлы макетов, пресс-форм и спецификаций остаются вашей собственностью — мы никогда не используем их повторно, не перепродаём и не показываем другим клиентам.',
+  },
+  cs: {
+    kicker: 'Kdo jsme',
+    title: 'Vytvořeno továrnou na SUP desky, ne marketplace',
+    sub: 'Jsme výrobním partnerem, ne marketplace. Naším úkolem je pomoci klientům přeměnit nápady, design a produktové požadavky na vyrobitelné SUP produkty. Značka zůstává Vaše. Trh zůstává pod Vaší kontrolou. My zajišťujeme realizaci výroby.',
+    oursTitle: 'Přebíráme',
+    theirsTitle: 'Zůstává u Vás',
+    rows: [
+      { ours: 'Kontrola specifikace a posouzení vyrobitelnosti', theirs: 'Název značky, identita a pozicionování' },
+      { ours: 'Konstrukční řešení, výběr materiálu, vývoj lisovních forem', theirs: 'Ceny, kanály a prodej' },
+      { ours: 'Předtisk grafiky a tisk z Vašich značkových souborů', theirs: 'Vlastnictví všech značkových souborů a souborů s podklady' },
+      { ours: 'Prototypování, výroba vzorků a dokumentace k jejich odsouhlasení', theirs: 'Konečné odsouhlasení každého vzorku' },
+      { ours: 'Sériová výroba, průběžná kontrola kvality a závěrečná inspekce', theirs: 'Váš trh, Vaši zákazníci, Vaše data' },
+      { ours: 'Certifikační dokumentace a obaly na úrovni pro export', theirs: 'Vztahy s koncovými zákazníky a poprodejní podpora' },
+    ],
+    footer: 'Vaše soubory s podklady, lisovními formami a specifikacemi zůstávají Vaším vlastnictvím — nikdy je znovu nepoužíváme, neprodáváme dál ani neukazujeme ostatním klientům.',
   },
 }
 
@@ -13083,6 +14006,42 @@ export const about: Localized<AboutContent> = {
       ],
     },
   },
+  cs: {
+    kicker: 'O společnosti',
+    title: 'O společnosti iSupfactory',
+    sub: 'Váš partner pro výrobu individuálních SUP desek',
+    story: [
+      'Jsme továrnou na výrobu nafukovacích SUP desek formou OEM/ODM, která již mnoho let vyrábí desky pro značky, distributory a nákupní týmy po celém světě. V průběhu let jsme stále naráželi na stejný typ klienta — značky a nakupující s jasnou vizí produktu, ale bez vlastní továrny, která by ji mohla realizovat.',
+      'Proto jsme postavili iSupfactory právě pro ně. Postupné minimální objemy — od společných dávek Co-branding od 5–10 ks, plná inženýrská a designová podpora a výrobní tým, který přistupuje k Vaší první objednávce stejně vážně jako ke sté. Značku přinášíte Vy, továrnu řídíme my.',
+    ],
+    values: [
+      { title: 'Nejprve kvalita', body: 'Každá deska prochází vícebodovou kontrolou kvality — materiály, svařované spoje, tisk, montáž a balení se kontrolují v každé fázi výroby.' },
+      { title: 'Výrobce, nikoli zprostředkovatel', body: 'Design, vývoj lisovních forem, prototypy, výroba a zkoušky probíhají na jednom místě — mezi Vámi a továrnou není žádný obchodní zprostředkovatel.' },
+      { title: 'Flexibilita v konstrukci', body: 'Postupné MOQ, modulární možnosti a reálné termíny umožňují značkám vyrůst od zkušebních objednávek po sériové dodávky.' },
+    ],
+    capabilities: ['OEM / ODM / vlastní značka', 'Individuální lisovní formy', 'Služba vzorků', 'Design a grafika', 'Vícebodová kontrola kvality', 'Vývozní dokumentace'],
+    stats: [
+      { value: '90–100+ ks', label: 'Standardní sériové MOQ (na jednu schválenou konfiguraci)' },
+      { value: '7–12 dn', label: 'Termín zhotovení vzorku' },
+      { value: '25–35 dn', label: 'Termín výroby' },
+      { value: '20–50 ks', label: 'MOQ pilotní objednávky' },
+    ],
+    strength: [
+      { title: 'Vývoj produktu', body: 'Od konceptuálních skic po výrobní výkresy — naši inženýři přizpůsobí tvar, rocker, tloušťku a konstrukci drop-stitch Vašim cílovým parametrům výkonu a ceny.' },
+      { title: 'Výroba OEM', body: 'Vyrábíme podle přesné specifikace: materiály, barvy, umístění loga, doplňky a balení, v sériích od 90–100+ ks pro každou schválenou konfiguraci.' },
+      { title: 'Řešení ODM', body: 'Vycházejte z našich osvědčených platforem — all-around, touring, race, yoga a dalších — a přizpůsobte branding, grafiku a výbavu pro rychlé uvedení na trh s nízkým rizikem.' },
+      { title: 'Inženýrská podpora', body: 'Vývoj lisovních forem, prototypování a iterace vzorků na jednom místě, s vizuálním potvrzením a odsouhlasením podkladů v každé fázi před sériovou výrobou.' },
+      { title: 'Řízení kvality', body: 'Vícebodová kontrola kvality materiálů, svarů, tisku, montáže a balení, stejně jako výběrové kontroly a přednakládací inspekce, které lze objednat i jako třetí strana.' },
+      { title: 'Globální dodávky', body: 'Vývozní dokumentace, balení na úrovni pro export a vlastní dokumentační podpora pro značky na více než 50 trzích.' },
+    ],
+    partnering: {
+      title: 'Spolupráce s firmami po celém světě',
+      body: [
+        'iSupfactory spolupracuje se SUP značkami, distributory, resorty, školami a outdoorovými firmami, které potřebují spolehlivou továrnu na nafukovací SUP desky — od první zkušební objednávky po dodávky v kontejnerových objemech.',
+        'Řekněte nám o Vašem trhu a požadované cenové hladině a my odpovíme specifikací, minimálním množstvím a termíny odpovídajícími Vašemu obchodnímu modelu.',
+      ],
+    },
+  },
 }
 
 /* ─────────────────────────── customizer page ─────────────────────────── */
@@ -13336,6 +14295,24 @@ export const customizer: Localized<CustomizerContent> = {
     boardLabel: 'ВАШ БРЕНД',
     cta: 'Создать ваш дизайн',
   },
+  cs: {
+    kicker: 'Vytvořte svou SUP desku',
+    title: 'Uvidíte svůj koncept SUP ještě před výrobou',
+    sub: 'Podívejte se, jak bude Vaše značka vypadat na skutečné desce — vyberte barvu, sledujte návrh v reálném čase a pak nám pošlete logo pro kompletní design.',
+    status: 'Interaktivní náhled',
+    statusBody: 'Vyzkoušejte paletu hned a poté nám pošlete svůj nápad — náš tým vytvoří bezplatný návrh Vašeho kompletního designu.',
+    steps: [
+      { title: 'Vyberte model desky', body: 'Od univerzálních platforem all-around po tvary touring a yoga — každý se realistickými proporcemi.' },
+      { title: 'Vyberte barvy', body: 'Slaďte paletu značky a hned uvidíte změny přímo na desce.' },
+      { title: 'Nahrajte logo', body: 'Umístěte logo a grafiku na palubu — nastavte velikost a polohu.' },
+      { title: 'Vytvořte návrh', body: 'Exportujte náhled své individuální SUP desky a sdílejte jej se svým týmem.' },
+    ],
+    mockupLabel: 'Živý náhled návrhu',
+    mockupBrand: "SUP Explorer 11'",
+    stepLabel: 'Krok',
+    boardLabel: 'VAŠE ZNAČKA',
+    cta: 'Vytvořit Váš design',
+  },
 }
 
 /* ─────────────────────────── products page extras ─────────────────────────── */
@@ -13453,6 +14430,14 @@ export const productsPage: Localized<ProductsPageContent> = {
     customTitle: 'Любой продукт можно адаптировать',
     customBody: 'Ничего не отправляется со склада готовым. Каждая доска производится под вас с вашим выбором на каждом уровне.',
     customPoints: ['Форма и размер', 'Цвета и графика по всей доске', 'Дизайн логотипа и коврика EVA', 'Аксессуары и упаковка'],
+  },
+  cs: {
+    kicker: 'Produktové platformy',
+    title: 'SUP platformy dostupné pro přizpůsobení',
+    sub: 'Každý model níže je výrobní platforma. Vyberte si jednu jako výchozí bod a my přizpůsobíme tvar, grafiku, barvy i specifikace Vašemu produktu.',
+    customTitle: 'Jakýkoli produkt lze přizpůsobit',
+    customBody: 'Nic neodesíláme ze skladu hotové. Každá deska se vyrábí na míru podle Vašich volb na každé úrovni.',
+    customPoints: ['Tvar a rozměr', 'Barvy a grafika po celé desce', 'Návrh loga a podložky z EVA', 'Doplňky a balení'],
   },
 }
 
@@ -13614,6 +14599,17 @@ export const catalogDownload: Localized<CatalogContent> = {
     successTitle: 'Запрос получен',
     successBody: 'Наш отдел продаж отправит полный каталог продукции и таблицу MOQ на адрес {email} в течение одного рабочего дня.',
   },
+  cs: {
+    kicker: 'Katalog produktů',
+    title: 'Získejte kompletní katalog a tabulku MOQ',
+    body: 'Všech deset platforem se specifikacemi, variantami grafiky, úrovněmi MOQ, termíny zhotovení vzorků a balením — naše obchodní oddělení Vám je odešle e-mailem do jednoho pracovního dne.',
+    emailLabel: 'Pracovní e-mail',
+    emailPlaceholder: 'vy@firma.cz',
+    submit: 'Vyžádat katalog',
+    secure: 'Žádný spam. Pouze katalog a odpovědi k Vašemu projektu.',
+    successTitle: 'Poptávka přijata',
+    successBody: 'Naše obchodní oddělení odešle kompletní katalog produktů a tabulku MOQ na adresu {email} do jednoho pracovního dne.',
+  },
 }
 
 /* ─────────────────────────── gallery page extras ─────────────────────────── */
@@ -13704,6 +14700,12 @@ export const galleryPage: Localized<GalleryPageContent> = {
     sub: 'Посмотрите, как создаются SUP-продукты — от требований заказчика до готовых досок.',
     note: 'Хотите, чтобы ваш проект был представлен здесь? Начните диалог, и мы разработаем его вместе с вами.',
   },
+  cs: {
+    kicker: 'Individuální SUP projekty',
+    title: 'Individuální SUP projekty',
+    sub: 'Podívejte se, jak vznikají SUP produkty — od požadavků zákazníka po hotové desky.',
+    note: 'Chcete, aby byl Váš projekt uveden zde? Zahajte dialog a společně jej rozvineme.',
+  },
 }
 
 /* ─────────────────────────── who-we-serve page extras ─────────────────────────── */
@@ -13779,6 +14781,11 @@ export const servePage: Localized<ServePageContent> = {
     kicker: 'Потребности клиентов',
     title: 'Индивидуальные решения SUP для вашего бизнеса',
     sub: 'Нужны ли вам брендированные доски для вашей организации или индивидуальные SUP-продукты для вашей компании — мы поможем превратить требования в готовую продукцию.',
+  },
+  cs: {
+    kicker: 'Potřeby zákazníků',
+    title: 'Individuální SUP řešení pro Váš podnik',
+    sub: 'Potřebujete značkové desky pro svou organizaci nebo individuální SUP produkty pro svou společnost — pomůžeme Vám přeměnit požadavky na hotový produkt.',
   },
 }
 
@@ -13884,6 +14891,13 @@ export const worksPage: Localized<WorksPageContent> = {
     sub: 'Сбор требований, инженерная оценка, образцы, производство и экспорт — каждый этап проходит на нашей собственной площадке.',
     consultTitle: 'Начните с проверки спецификации',
     consultBody: 'Пришлите нам спецификацию, эталонную доску или чертежи. Мы вернём оценку технологичности и коммерческое предложение — без обязательств.',
+  },
+  cs: {
+    kicker: 'Vývojový proces',
+    title: 'Od specifikace k hotovému produktu',
+    sub: 'Shromáždění požadavků, inženýrské posouzení, vzorky, výroba a export — každý krok probíhá v našem vlastním závodě.',
+    consultTitle: 'Začněte kontrolou specifikace',
+    consultBody: 'Pošlete nám specifikaci, etalonní desku nebo výkresy. Vrátíme posouzení vyrobitelnosti a cenovou nabídku — bez jakýchkoli závazků.',
   },
 }
 
@@ -14174,6 +15188,27 @@ export const series: Localized<SeriesContent> = {
         title: 'Серия Medusa Glow (Коллекция «Медуза»)',
         sku: 'SUP-MG11',
         body: 'Яркие медузы, морские звёзды и коралловые рифы в виде реалистичного блочного рисунка из EVA без выцветания, в освежающем мятно-зелёном цвете. Универсальный корпус 11 ft для тропиков и прибрежных приключений.',
+        image: 'https://assets.isupfactory.com/site/products/2026/editions/medusa-jellyfish-edition.avif',
+        href: '/products/sup-medusa-glow',
+      },
+    ],
+  },
+  cs: {
+    kicker: 'Značková edice',
+    title: 'Desky tematických kolekcí',
+    sub: 'Oceánské tematické kolekce připravené pro Vaši značku: design na klíč s UV tiskem a mechanickým lisováním.',
+    items: [
+      {
+        title: 'Edice Leviathan Wake (kolekce „Velryba")',
+        sku: 'SUP-LW11',
+        body: 'Vznešený totem modrého velryby s geometrickými a kmenovými ornamenty v kombinaci s minimalistickými černobílými vlnami. Univerzální tělo 11 ft pro jezera, řeky a pobřežní vody.',
+        image: 'https://assets.isupfactory.com/site/products/2026/editions/leviathan-whale-edition.avif',
+        href: '/products/sup-leviathan-wake',
+      },
+      {
+        title: 'Edice Medusa Glow (kolekce „Medúza")',
+        sku: 'SUP-MG11',
+        body: 'Barevné medúzy, mořské hvězdy a korálové útesy zobrazené jako realistický dílčí motiv z EVA bez blednutí, v osvěžující mátové barvě. Univerzální tělo 11 ft pro tropy a pobřežní dobrodružství.',
         image: 'https://assets.isupfactory.com/site/products/2026/editions/medusa-jellyfish-edition.avif',
         href: '/products/sup-medusa-glow',
       },

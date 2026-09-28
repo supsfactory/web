@@ -1,0 +1,166 @@
+meta:
+  title: 'Důvěra a záruky závodu OEM — ověřte náš závod před objednávkou'
+  description: 'Jak nakupující ověřují iSupfactory před objednávkou: oficiální registrace, audity závodu, inženýři pod NDA a inspekce třetími stranami (SGS/TÜV/BV/Intertek).'
+  dateModified: '2026-08-14'
+  keywords:
+    - 'ověření závodu sup oem'
+    - 'ověřit výrobce sup'
+    - 'audit závodu sup v číně'
+    - 'závod nafukovacích sup v qingdao'
+    - 'záruky důvěry oem'
+    - 'kvalifikace výrobce sup'
+
+hero:
+  tagline: 'Výroba, kterou lze ověřit'
+  title: 'Důvěra a záruky závodu OEM'
+  subtitle: 'Každé tvrzení na tomto webu lze ověřit: oficiální registrace společnosti, fyzická výrobní plocha 12 500 m², kterou můžete navštívit nebo nechat zauditovat, skuteční inženýři pod NDA, dokumenty QMS ke stažení a naměřená data u každého sériového čísla. Vyvinuto a provozováno Qingdao Vatrad Group Co., Ltd.'
+
+answer:
+  label: 'Přímá odpověď'
+  text: 'Důvěra není slib — je to dokumentace. Jsme registrovaný čínský výrobní subjekt (Qingdao Vatrad Group Co., Ltd.) s fyzickým závodem o ploše 12 500 m² v Qingdao, 350+ pracovníky a roční kapacitou 120 000+ desek. Můžete ověřit registraci, nechat zauditovat závod, projít interní postupy QMS, stáhnout vzorkové záznamy o kvalitě, objednat inspekci třetí stranou (SGS, TÜV, BV nebo Intertek) a podepsat NDA do 4 pracovních hodin. Každá deska se zkouší tlakem 18,0 PSI po dobu 24 hodin s automatickým odmítnutím při poklesu nad 0,50 PSI a každá dávka si drží 10letou stopovatelnost v ERP. Pokud tvrzení nelze doložit, neříkáme ho.'
+  verified: 'září 2026'
+
+trust_stats:
+  - value: '12 500 m²'
+    label: Výrobní plocha
+    detail: 4 specializované dílny, otevřené auditům
+  - value: '350+'
+    label: Pracovníků na závodě
+    detail: 25+ inženýrů v oblastech vývoje, materiálů a QC
+  - value: '120 000+'
+    label: Vyrobených desek ročně
+    detail: 10 000 desek/měsíc na 4 automatizovaných linkách
+  - value: '4 hodiny'
+    label: Vrácení NDA
+    detail: Standardní NDA podepsána do 4 pracovních hodin
+  - value: '7fázový'
+    label: Systém kontrolních bran
+    detail: Uzly 01–7, zaznamenané podle sériového čísla
+  - value: '18,0 PSI'
+    label: 100% tlakové zkoušení
+    detail: Udržení 24 h, automatické odmítnutí při poklesu nad 0,50 PSI
+
+role_boundary:
+  tagline: 'Co jsme — a co nejsme'
+  title: 'Závod, který lze ověřit, nikoli tvrzení, které musíte přijmout na víru'
+  subtitle: 'Ověřovací rozdíl mezi závodem a obchodním stolem je jednoduchý: za každým tvrzením stojí dokument, člověk nebo stroj.'
+  features:
+    - icon: A
+      icon_bg: blue
+      title: 'Co jsme — ověřitelný výrobce'
+      desc: '· Registrovaná právní osoba: Qingdao Vatrad Group Co., Ltd. — údaje o registraci poskytneme pod NDA nebo při auditu · Fyzický závod: 12 500 m² v hospodářské rozvojové zóně Laixi v Qingdao, se 4 specializovanými dílnami, 350+ pracovníky a 4 automatizovanými linkami · Výrobní tým: lidé, kteří odpovídají na vaše otázky, jsou ti, kdo vaše desky staví · Skutečné dokumenty: interní postupy QMS, kontrolní normy a anonymizované záznamy o kvalitě ke stažení · Nezávislá verifikace vítána: inspekce SGS, TÜV, BV nebo Intertek dle vašeho výběru, podle ISO 2859-1 Level II'
+      link: '/cs/factory'
+      link_label: 'Navštívit stránku závodu'
+    - icon: B
+      icon_bg: green
+      title: 'Co nejsme — profil obchodního stolu'
+      desc: '· Žádná obchodní společnost: nepředáváme vaši objednávku třetímu závodu ani nepřidáváme marži zprostředkovatele · Žádná vlastní značka na vašich deskách: značku, trh i zákazníka vlastníte vy · Žádné vágní minimy: MOQ se počítá z fyziky rolí materiálu a potvrzuje se podle projektu · Žádné certifikáty „jen na vyžádání“: seznam je zveřejněný a auditní záznamy lze zkontrolovat · Žádná ústní tvrzení: zkušební tlak, prahové hodnoty a stopovatelnost dávek jsou zdokumentované podle sériového čísla'
+      link: '/cs/oem-moq-guide'
+      link_label: 'Prohlédnout transparentní průvodce MOQ'
+
+trust_steps:
+  tagline: 'Skutečná případová studie'
+  title: 'Jak nás před objednávkou ověřila severská půjčovací flotila'
+  subtitle: 'Sedm ověřovacích kroků, které komerční provozovatel půjčoven dokončil před objednávkou flotily 90–100+ kusů — stejný kontrolní seznam je otevřen i vám.'
+  steps:
+    - step: '01'
+      title: 'Ověření oficiální entity'
+      desc: 'Kupující požádal o čínský živnostenský list a licenci pro zahraniční obchod. Právní entitou stojící za iSupfactory je Qingdao Vatrad Group Co., Ltd., výrobce registrovaný od roku 2012 v Qingdao v provincii Shandong — ověřeno podle národního rejstříku pod NDA.'
+    - step: '02'
+      title: 'Fyzický závod a audit areálu'
+      desc: 'Audit závodu (osobně a prostřednictvím video prohlídky) potvrdil závod o ploše 12 500 m²: čtyři specializované dílny, 350+ pracovníků, čtyři automatizované linky a měsíční výstup přibližně 10 000 desek. Auditní zpráva je uložena v záznamech smlouvy.'
+    - step: '03'
+      title: 'Lidé: skuteční inženýři, ne prodejní texty'
+      desc: 'Kupující mluvil přímo s inženýrským týmem — návrh trupu, materiálová laboratoř a QC. Specifikace projektu a NDA byly vyměněny do 4 pracovních hodin a posouzení inženýringem dorazilo do jednoho pracovního dne.'
+    - step: '04'
+      title: 'Papíry: QMS, certifikáty a inspekce třetí stranou'
+      desc: 'Byly posouzeny dokumentace souladu ISO 9001:2015, ISO 25649 a CE, záznamy BSCI/REACH/RoHS a interní postupy QMS. Kupující naplánoval kontrolní prohlídku SGS před odesláním podle ISO 2859-1 Level II u první sériové objednávky — a obdržel Certifikát shody pro každou dávku.'
+    - step: '05'
+      title: 'Data: záznamy ze zkoušek podle sériového čísla'
+      desc: 'Kupující zauditoval skutečné záznamy ze zkoušek: každá komora zkoušena při 18,0 PSI po 24 hodiny s automatickým odmítnutím při poklesu tlaku nad 0,50 PSI, kontrolní listy montáže o 100 bodech a 10letá stopovatelnost dávek v ERP. Vzorkové záznamy QC byly předloženy před objednávkou.'
+    - step: '06'
+      title: 'Ochrana smluvními podmínkami'
+      desc: 'Smlouva o objednávce upravovala licenci značky, dohodnutou dobu výlučnosti na území, vlastnictví formy a podmínky výkupu a definovala data a záznamy, které se převádějí spolu s nástrojem. Kupující formu odsouhlasil v závodě před výrobou.'
+    - step: '07'
+      title: 'Průběžná správa'
+      desc: 'Čtvrtletní obchodní porady s VP Sales a hlavním inženýrem, rezervované právo auditu během výroby a eskalační cesta k řediteli QA při jakémkoli sporu o kvalitu. Dohodu společně podepsali VP Sales, hlavní inženýr a ředitel QA.'
+
+trust_faqs:
+  tagline: 'FAQ'
+  title: '12 obav, které mají nakupující před objednávkou'
+  items:
+    - q: 'Je iSupfactory skutečně závod, nebo obchodní společnost?'
+      a: 'iSupfactory je divize pro vývoj a výrobu produktů SUP společnosti Qingdao Vatrad Group Co., Ltd. Závod o ploše 12 500 m² v Qingdao provozujeme sami — design, řezání, svařování, montáž i zkoušení probíhají v jednom zařízení. Žádné předávání přes obchodní společnost: lidé, kteří odpovídají na vaše otázky, jsou ti, kdo vaše desky staví.'
+    - q: 'S kým přesně budu během projektu jednat?'
+      a: 'S jmenovaným projektovým inženýrem a jmenovaným kontaktem QC, plus vedoucími oddělení, kteří podepisují vaše dokumenty. Můžete si přímo vyžádat rozhovor s hlavním inženýrem, ředitelem QA nebo ředitelem závodu — a to před objednávkou i po ní. Mezi vámi a lidmi, kteří práci vykonávají, nesedí žádná vrstva obchodního ředitele.'
+    - q: 'Mohu závod navštívit nebo zauditovat?'
+      a: 'Ano. Pořádáme návštěvy závodu v hospodářské rozvojové zóně Laixi v Qingdao a podporujeme vzdálené audity s živým video streamem. Audity lze sjednat nezávisle (váš inspektor nebo třetí strana jako SGS, TÜV, BV či Intertek) a termín auditu lze zapsat do smlouvy.'
+    - q: 'Podepíšete NDA, než sdělím svůj návrh?'
+      a: 'Ano. Naše standardní NDA podepíšeme do 4 pracovních hodin od vaší žádosti, ještě před sdílením jakékoli proprietární specifikace, grafiky nebo technického souboru. K dispozici jsou dvojjazyčné verze (angličtina/čínština) a dokument podepisuje i ředitel závodu.'
+    - q: 'Jak poznám, že jsou vaše tvrzení o kvalitě pravdivá?'
+      a: 'Za každým tvrzením na tomto webu stojí dokument: interní postupy QMS a kontrolní normy jsou ke stažení, publikovány jsou anonymizované vzorky záznamů o kvalitě a naměřená data se zaznamenávají podle sériového čísla s 10letou stopovatelností dávek v ERP. Můžete si také naplánovat kontrolní prohlídku třetí stranou podle vlastního výběru.'
+    - q: 'Co když dorazí desky s vadami?'
+      a: 'Každá deska se zkouší před zabalením a záznamy na úrovni dávky umožňují dohledat příčinu podle sériového čísla. Smlouva stanoví povinnosti ohledně kontroly, výměny a přepracování a uvolnění dávky podepisuje ředitel QA. Přepracované desky se znovu zkoušejí v plném rozsahu — nikdy jen částečně.'
+    - q: 'Opravdu zkoušíte 100 % desek před odesláním?'
+      a: 'Ano — a dokazují to záznamy. Každá komora se nafukuje na 18,0 PSI a udržuje 24 hodin s průběžným zaznamenáváním ze senzorů; každá komora s poklesem tlaku nad 0,50 PSI za 24 hodin je automaticky odmítnuta a znovu zkontrolována. Zkušební protokoly jsou propojeny s každým sériovým číslem a jsou součástí dokumentace dávky.'
+    - q: 'Jaké certifikace skutečně máte?'
+      a: 'Řízení kvality ISO 9001:2015, soulad ISO 25649 a CE pro produkty z nafukovacích SUP, dále soulad BSCI, REACH a RoHS pro závod a materiály. Čísla certifikátů a auditní záznamy dodáme na vyžádání nebo při auditu — seznam je zveřejněný, nikoli „k dispozici jen na vyžádání“.'
+    - q: 'Bude má značka v bezpečí — návrh, formy i trh?'
+      a: 'Ano. Vaše značka, návrhy a nástroje jsou chráněny NDA, podmínkami licencování značky a ujednáním o vlastnictví nebo výkupu forem zapsanými do smlouvy. Nástroj se uchovává pro značku a je převoditelný. Územní a exkluzivní podmínky se dohodnou písemně před zahájením výroby.'
+    - q: 'Jaké je vaše skutečné MOQ?'
+      a: 'MOQ je specifické pro projekt a vysvětlené v našem průvodci MOQ: vzorky 1–2 kusy, malý velkoobchod ve spolupráci na značce 5–10 kusů, pilotní dávky 20–50 kusů a standardní sériové MOQ 90–100+ kusů na 150m roli (přibližně 180–220 desek). Zákazkové tvary s formou běží na objemové úrovni. Výpočet potvrdíme před nabídkou — žádné vágné hodnoty „nízkého MOQ“.'
+    - q: 'Co když bude výroba pozdě?'
+      a: 'Dodací lhůta se potvrzuje po posouzení specifikace, grafiky a obalů — nikdy se neslibuje předem. Smlouva pokrývá plánování, oznamování zpoždění a cestu řešení a čtvrtletní obchodní porada sleduje výkonnost dodávky proti dohodnutému kalendáři.'
+    - q: 'Kdo podepíše smluvní dokumenty na vaší straně?'
+      a: 'Objednávky a dohody podepisují společně VP Sales, hlavní inženýr a ředitel QA — tři osoby odpovědné za obchodní podmínky, technické provedení a uvolnění kvality. Podepsané dokumenty obdržíte spolu se záznamy smlouvy.'
+
+governance:
+  tagline: Struktura odpovědnosti
+  title: 'Jmenovaní signatáři a rezervovaná práva'
+  subtitle: 'Každý závazek je navázán na konkrétní roli — nikoli na prodejní oddělení.'
+  body: |
+    **Společné podepsání.** Objednávky, plány kvality a řešení sporů podepisují tři role: VP Sales (obchodní podmínky), hlavní inženýr (technické provedení) a ředitel QA (uvolnění kvality). Dvojjazyčné interní postupy jsou řízené verzemi a mají stejnou strukturu podpisů.
+
+    **Rezervovaná práva.** Kupující si ponechává právo auditu výroby, kontrolu záznamů ze zkoušek a blokovat uvolnění dávky do podpisu kontroly. Přepracování probíhá pouze na základě schváleného záznamu o změně a uvolnění validuje nezávislá QC — nikdy operátoři, kteří přepracování provedli.
+
+    **Záznamy, které se převádějí.** Zkušební protokoly dávek, certifikáty shody a inspekční zprávy se dodávají s každou zásilkou a stopovatelnost dávek v ERP se uchovává 10 let. Záznamy k nástroji a výkresy formy se převádějí spolu s nástrojem, pokud to smlouva stanoví.
+
+trust_downloads:
+  tagline: 'Oficiální dokumenty'
+  title: 'Ověřovací dokumenty — stažení a sdílení'
+  subtitle: 'Oficiální dokumenty od Qingdao Vatrad Group Co., Ltd., připravené k přiložení do vašeho Due Diligence souboru dodavatele.'
+  features:
+    - icon: G
+      icon_bg: blue
+      title: 'Průvodce důvěrou a zárukami závodu pro nakupujícího OEM (PDF)'
+      desc: 'Oficiální B2B průvodce (část II, DOC-ENG-2026-EN): ověření závodu krok za krokem — registrace entity, fyzický audit, skuteční inženýři, dokumentace QMS, inspekce třetí stranou, ochrana smluvními podmínkami a podpisy vedení.'
+      link: 'https://assets.isupfactory.com/site/downloads/oem-buyer-trust-and-factory-assurance-guide.pdf'
+      link_label: 'Stáhnout průvodce (PDF)'
+    - icon: P
+      icon_bg: green
+      title: 'Průvodce flexibilním brandingem a MOQ (PDF)'
+      desc: 'Oficiální B2B průvodce (část I, DOC-MOQ-EXP-2026-EN): inženýrská logika výtěžnosti 150m role drop-stitch (90–100 desek), spolupráce na značce od 5–10 kusů, pilotní dávky 20–50 kusů a tři výrobní fáze.'
+      link: 'https://assets.isupfactory.com/site/downloads/flexible-branding-and-moq-guide.pdf'
+      link_label: 'Stáhnout průvodce MOQ (PDF)'
+    - icon: Q
+      icon_bg: orange
+      title: 'Systém kvality, na kterém tato tvrzení stojí'
+      desc: 'Jedna strana, která vše spojuje: sedmistupňový systém kontrolních bran, čtyři normy, které ho řídí, a registr dokumentů 00–15 se všemi stažitelnými postupy a zprávami — QIP, kontrolní normy, dossier stopovatelnosti, NCP a postupy přepracování.'
+      link: '/cs/quality'
+      link_label: 'Prozkoumat systém kvality'
+
+evidence_review:
+  tagline: 'Důkazy a verifikace'
+  title: 'OVĚŘENÉ SPECIFIKACE'
+  body: 'Všechna tvrzení o výrobě na této stránce ověřil náš tým výrobního inženýrství v závodě Laixi u Qingdao. Certifikáty, záznamy kontrol kvality, zprávy o tlakových a konstrukčních zkouškách a záznamy o stopovatelnosti dávek jsou k dispozici na vyžádání. Specifikace naposledy ověřeny v září 2026.'
+
+cta:
+  title: 'Začněte ověřením — a teprve pak mluvíme o specifikaci'
+  subtitle: 'Odešlete žádost o NDA, vyžádejte si balík registrace nebo rezervujte termín auditu. Nejdřív přijde ověření, až poté jednání o objednávce. Odesláním poptávky se nezavazujete k objednávce.'
+  button_text: 'Vyžádat balík pro ověření'
+  button_link: '/cs/contact#trust-verification'
+  actions:
+    - text: Kontrolní seznam auditu závodu
+      href: /cs/factory-audit-checklist
+    - text: Identita značky
+      href: /cs/about/identity

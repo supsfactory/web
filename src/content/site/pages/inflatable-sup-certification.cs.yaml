@@ -1,0 +1,52 @@
+meta:
+  title: "Certifikace nafukovacích SUP — průvodce CE, REACH, RoHS a souladem"
+  description: "Rozsah certifikace při výrobě nafukovacích SUP: CE (modely pro EU), BSCI, ISO 9001, REACH, RoHS. Čísla certifikátů na vyžádání u každého projektu."
+  dateModified: "2026-08-20"
+
+sections:
+  - title: "Přímá odpověď"
+    directAnswer:
+      answer: "iSupfactory má certifikace BSCI, ISO 9001, ISO 25649, CE, REACH a RoHS. CE se vztahuje na modely určené pro trhy EU — nikoli plošně na „všechny produkty“."
+      condition: "Rozsah certifikace se liší podle cílového trhu a konfigurace produktu. Čísla certifikátů, platnost a vydávající orgány jsou na vyžádání k dispozici u každého projektu."
+      value: "BSCI · ISO 9001 · ISO 25649 · CE · REACH · RoHS"
+      verifiedDate: "září 2026"
+      sourceType: "certificate"
+    body: |
+      Certifikace je klíčovou otázkou nákupu a musí být formulována přesně.
+      Plošná tvrzení typu „CE na všech produktech“ mohou vytvořit problémy s důvěrou, pokud
+      nakupující později zjistí, že rozsah je užší, než očekával.
+
+  - title: "Podrobnosti o certifikacích"
+    body: |
+      | Certifikace | Rozsah | Orgán | Vztahuje se na |
+      |---------------|-------|-----------|------------|
+      | BSCI | Audit sociální odpovědnosti | amfori BSCI | Výrobní zařízení |
+      | ISO 9001 | Systém řízení kvality | Certifikační orgán (k dispozici na vyžádání) | Výrobní zařízení |
+      | ISO 25649 | Bezpečnost nafukovacích plavidel | ISO | Použitelné modely SUP podle trhu |
+      | CE | Shoda s požadavky trhu EU (EN ISO 6185 / 10087 / 10240) | Notifikovaný orgán EU | Modely určené pro trh EU |
+      | REACH | Chemická bezpečnost EU | ECHA | Materiály používané ve výrobě |
+      | RoHS | Omezení nebezpečných látek | Směrnice EU | Elektronické příslušenství (pumpičky) |
+
+  - title: "Důležité poznámky k rozsahu"
+    body: |
+      - **CE** se vztahuje na modely konfigurované pro prodej na trhu EU. Deska vyrobená pro distribuci
+        ve Spojených státech nebo v Austrálii nese označení CE pouze na výslovný požadavek.
+      - **ISO 9001** se vztahuje na systém řízení kvality výrobního zařízení, nikoli na certifikaci
+        jednotlivých produktů.
+      - Soulad s **REACH** pokrývá materiály používané ve výrobě — dokumentace je k dispozici pro
+        dovozce, kteří musí látky registrovat.
+      - Čísla certifikátů, data platnosti a vydávající orgány jsou na vyžádání k dispozici u každého
+        projektu. Čísla certifikátů neveřejně nezveřejňujeme z bezpečnostních důvodů.
+      - Inspekce třetí stranou je pro jakoukoli zásilku k dispozici prostřednictvím SGS, TÜV, BV nebo
+        Intertek.
+
+  - title: "Jak požádat o dokumentaci k certifikacím"
+    body: |
+      Během procesu poptávky uveďte své cílové trhy a my potvrdíme, které certifikace se vztahují na
+      vaši konkrétní konfiguraci produktu. Kopie certifikátů (s případně anonymizovanými obchodními
+      údaji) jsou součástí balíku projektové dokumentace.
+
+evidence_review:
+  tagline: 'Důkazy a verifikace'
+  title: 'OVĚŘENÉ SPECIFIKACE'
+  body: 'Všechna tvrzení o výrobě na této stránce ověřil náš tým výrobního inženýrství v závodě Laixi u Qingdao. Certifikáty, záznamy kontrol kvality, zprávy o tlakových a konstrukčních zkouškách a záznamy o stopovatelnosti dávek jsou k dispozici na vyžádání. Specifikace naposledy ověřeny v září 2026.'

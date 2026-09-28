@@ -1,0 +1,82 @@
+meta:
+  title: 'Dodavatel vybavení pro půjčovny SUP a flotová řešení'
+  description: 'Komerční desky SUP navržené pro každodenní provoz v půjčovnách: PVC odolné vůči UV, zesílené švy a rychleschnoucí materiály pro půjčovny s vysokou obměnou.'
+  dateModified: '2026-08'
+
+hero:
+  tagline: Provozovatelé půjčoven
+  title: 'Desky SUP navržené pro půjčovny'
+  subtitle: 'Objednejte flotu, která vydrží každodenní provoz v půjčovně: desky s vysokou obměnou, PVC odolné vůči UV, zesílené švy a rychleschnoucí materiály — navrženo na 365 dní využití ročně.'
+  image:
+    src: https://assets.isupfactory.com/images/sups/use-cases/isupfactory-family-use-case.webp
+    alt: Desky SUP připravené na každodenní provoz v půjčovně
+
+answer:
+  label: 'Přímá odpověď'
+  text: 'Flotové desky pro půjčovny se vyrábějí z námořního PVC odolného vůči UV, se švy 3× pevnějšími než standardní konstrukce, a s jádrem drop stitch dimenzovaným na 15 PSI — otestováno na 500+ půjčovacích cyklech. MOQ se potvrzuje podle konfigurace projektu: vzorek (1–2 kusy), pilota (20–50 kusů) a standardní sériový objem (90–100+ kusů na dávku z 150m role); sériová výroba trvá 25–35 dnů po PO a záloze, s podmínkami FOB, CIF, nebo DDP.'
+  verified: 'září 2026'
+
+features:
+  title: 'Navrženo pro zatížení půjčovny'
+  subtitle: 'Každá deska je navržena na 500+ půjčovacích cyklů s minimální údržbou.'
+  items:
+    - title: '500+ půjčovacích cyklů'
+      description: 'Otstestováno na každodenní používání ve slané vodě, na slunci a v písku.'
+      icon: 'tabler:shield-check'
+    - title: 'Tkanina odolná vůči UV'
+      description: 'Bez vyblednutí a ztráty pevnosti po 1 roce skladování v exteriéru.'
+      icon: 'tabler:sun'
+    - title: 'Zesílené švy'
+      description: 'Konstrukce zesílených švů dimenzovaná na každodenní obměnu v půjčovně a opakované cykly nafukování.'
+      icon: 'tabler:layers-intersect'
+    - title: 'Rychleschnoucí materiály'
+      description: 'Rychleschnoucí materiály umožňují připravit desky na další předání mezi turnusy.'
+      icon: 'tabler:droplet'
+    - title: 'Skládací skladování'
+      description: 'Ekonomické stohovací řešení — více desek v téže skladovné hale.'
+      icon: 'tabler:stack'
+    - title: 'Barevné označení rozměrů'
+      description: 'Personál díky barevnému označení rozměrů okamžitě vezme správnou desku.'
+      icon: 'tabler:color-swatch'
+
+stats:
+  title: 'Provozní ukazatele'
+  stats:
+    - title: Plocha továrny
+      amount: '12 500 m²'
+    - title: Tlaková zkouška
+      amount: '18 PSI / 24h'
+    - title: Kontrolní seznam montáže
+      amount: '100 bodů'
+    - title: Odeslání součástek
+      amount: '48h'
+
+fleet_guide:
+  title: 'Průvodce volbou velikosti floty'
+  subtitle: 'Odhadněte, kolik desek potřebuje Váš provoz, podle každodenní obměny v půjčovně.'
+  tiers:
+    - label: Malý stánek
+      boards: '15-20'
+      note: 'Až 2–3 obměny desek denně v hlavní sezóně'
+    - label: Střední provoz
+      boards: '30-50'
+      note: 'Několik vstupních míst, nebo vysoká návštěvnost o víkendu'
+    - label: Velká plážová půjčovna
+      boards: '50-100'
+      note: 'Plnohostrobní půjčovny na několika plážových stanicích'
+
+content_html: |
+  <div class="mx-auto max-w-3xl space-y-4 rounded-2xl border bg-card p-6 text-[14.5px] leading-relaxed text-fg-2">
+    <p><strong>Čtěte dále:</strong> půjčovací desky začínají Vaší specifikací — podívejte se na náš <a href="/cs/oem-manufacturing">program úprav OEM/ODM</a>, nízké zkušební MOQ a flotové ceny. Každá deska projde <a href="/cs/factory">výrobní linkou</a> v provozovně o ploše 12 500 m&sup2; a před odesláním je 100% podrobena tlakové zkoušce.</p>
+  </div>
+
+cta:
+  title: 'Sestavte si vlastní půjčovací flotu'
+  subtitle: 'Zašlete požadavky na flotu, nebo porovnejte platformy desek pro Váš provoz.'
+  actions:
+    - text: 'Odeslat požadavky na flotu'
+      href: '/cs/contact'
+      variant: 'primary'
+    - text: 'Porovnat platformy desek'
+      href: '/cs/inflatable-vs-hardboard'
+      variant: 'secondary'
