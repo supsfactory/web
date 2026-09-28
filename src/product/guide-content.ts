@@ -3943,7 +3943,7 @@ export const GUIDES_TR: Guide[] = [
       },
       {
         title: 'Markalama Logodan Fazlasıdır',
-        body: 'Özel marka çalışması; logonuzun basılmasını (dijital veya silkscreen), özel renk kombinasyonlarını, levha formuna göre kesilmiş ve logonuzlu EVA kaymaz padleri, aksesuar markalamasını (paddle, pompa, halat), perakende kutu tasarımını ve hatta satış noktası standlarını kapsar. Tasarım dosyanızı gönderin; fabrika üretim öncesi bir görsel numara hazırlar.',
+        body: 'Özel marka çalışması; logonuzun basılmasını (dijital veya serigrafi baskı), özel renk kombinasyonlarını, levha formuna göre kesilmiş ve logonuzlu EVA kaymaz padleri, aksesuar markalamasını (paddle, pompa, halat), perakende kutu tasarımını ve hatta satış noktası standlarını kapsar. Tasarım dosyanızı gönderin; fabrika üretim öncesi bir görsel numara hazırlar.',
       },
       {
         title: 'Fabrika Sizin Adınıza Neleri Yapar',
@@ -3996,7 +3996,7 @@ export const GUIDES_TR: Guide[] = [
       },
       {
         title: 'Yedek Parçaları Filo ile Birlikte Alın',
-        body: "Yedek supapları, onarım kitlerini, pompaları, halatları ve paddleları aynı sipariş formunda verin; şimdi birim başına maliyetleri düşüktür, ama sezon ortasında temin etmek zordur. Fabrikadan önerilen yedek parça oranını isteyin (sarf malzemelerinde tipik olarak filo büyüklüğünün %5–10'u kadar).",
+        body: "Yedek supapları, onarım kitlerini, pompaları, halatları ve paddle'ları aynı sipariş formunda verin; şimdi birim başına maliyetleri düşüktür, ama sezon ortasında temin etmek zordur. Fabrikadan önerilen yedek parça oranını isteyin (sarf malzemelerinde tipik olarak filo büyüklüğünün %5–10'u kadar).",
       },
       {
         title: 'Sezon Sırasında Değil, Sezon Öncesinde Sipariş Verin',
@@ -4004,13 +4004,13 @@ export const GUIDES_TR: Guide[] = [
       },
       {
         title: 'Filoyu Yeniden Satış Değeri İçin Markalayın',
-        body: 'Filo levhalarına logonuz, kiralama numaralandırma sistemi ve boyuta göre renk kodlaması eklenebilir. 200+ adetlik üretimlerde silkscreen logolar maliyet açısından avantajlıdır ve markalı filo aynı zamanda su üzerinde bir pazarlama aracı olur.',
+        body: 'Filo levhalarına logonuz, kiralama numaralandırma sistemi ve boyuta göre renk kodlaması eklenebilir. 200+ adetlik üretimlerde serigrafi baskı logolar maliyet açısından avantajlıdır ve markalı filo aynı zamanda su üzerinde bir pazarlama aracı olur.',
       },
     ],
     faqs: [
       { q: 'Kiralama filosu için en iyi SUP nedir?', a: 'Takviyeli yapıya sahip 10\'6"–11\'0" × 32" her yönlü levha sektör standardıdır: başlangıççılar için dengeli, günlük kullanıma dayanıklı ve bakımı kolay.' },
       { q: 'Bir kiralama işletmesi kaç levhaya ihtiyaç duyar?', a: 'Küçük bir kiralama noktası için 20–30 levha planlayın ve devir oranına göre büyütün: yoğun resortlar ve kulüpler için 100+ adet. Yedek parçalar filo büyüklüğünün %5–10 kadarı olmalıdır.' },
-      { q: 'Filo levhaları logomuzla markalanabilir mi?', a: 'Evet; silkscreen logolar, kiralama numaralandırması ve renk kodlu güverteler standart özelleştirmelerdir ve özellikle 200 adetten itibaren maliyet avantajı sağlar.' },
+      { q: 'Filo levhaları logomuzla markalanabilir mi?', a: 'Evet; serigrafi baskı logolar, kiralama numaralandırması ve renk kodlu güverteler standart özelleştirmelerdir ve özellikle 200 adetten itibaren maliyet avantajı sağlar.' },
       { q: 'Filo siparişi ne kadar sürer?', a: 'Numuneler 7–12 gün, üretim sipariş formu ve depozito onaylandıktan sonra 25–35 gün sürer; bu nedenle filo siparişlerini sezon başlamadan epey önce verin.' },
     ],
     related: [
