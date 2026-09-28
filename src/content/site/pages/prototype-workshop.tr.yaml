@@ -1,0 +1,102 @@
+meta:
+  title: 'SUP Prototip Atölyesi — Numune Tahta Üretimi'
+  description: 'CAD tasarımından test edilmiş numune tahtaya 7–12 gün. Prototip Atölyemiz özel SUP numunelerini üretir, test eder ve doğrular. Prototip projenizi bugün başlatın.'
+  dateModified: '2026-08'
+back_text: 'Ar-Ge Merkezine Dön'
+home_label: 'Ana Sayfa'
+
+answer:
+  label: 'Doğrudan yanıt'
+  text: 'Bir CAD modelini 7–12 günde kullanılabilir, test edilmiş bir numune tahtaya dönüştürüyoruz: şişirilebilir prototip, su üzerinde dalga testleri, rail ve burun iterasyonları, ardından üretim kalıbına bağlama. Tam özel kalıplar, standart 25–35 günlük toplu teslim süresine ek olarak 15–20 gün kalıp süresi ister.'
+  verified: 'Eylül 2026'
+
+hero:
+  tagline: 'Lab 05'
+  title: 'Prototip Atölyesi'
+  subtitle: 'CAD modelinden test edilmiş numune tahtaya — üretilir, donatılır ve kanıtlanır'
+  image: 'https://assets.isupfactory.com/images/sups/products/sup-series/sup-ocean-voyager-1.webp'
+  image_alt: 'Vatrad prototip atölyesi SUP tahta imalatı'
+
+intro: 'Ne kadar ayrıntılı olursa olsun bir CAD modeli, bir tahtanın gerçekte nasıl hissettireceğini şişirilip üzerine çıkılıp kürek çekilmeden ortaya çıkaramaz. Prototip Atölyemizin tasarımı bu nedenle mühendislik verisini mümkün olan en hızlı ve en doğru şekilde fiziksel, kullanılabilir bir tahtaya dönüştürmek üzere kurulmuştur. {SITE.name} şirketindeki her yeni model — ve her önemli özel imalat — üretim kalıbı taahhüt edilmeden önce bu atölyeden geçer.'
+
+content_html: |
+  <h2>Tasarımın gerçeğe dönüştüğü yer</h2>
+  <p>Atölye panel, drop-stitch çekirdek ve rail imalatının aynı anda yapılmasına uygun şekilde donatılmıştır. Bu paralel çalışma yaklaşımı, prototip teslim süresini mühendislik onayından itibaren 7–12 güne indirir. Uygulamanız özel bir çözüm gerektirdiğinde, konseptten su üzerinde doğrulamaya üç haftadan kısa sürede geçebiliriz.</p>
+
+  <h2>Atölye yetenekleri</h2>
+  <table>
+    <thead><tr><th>İstasyon</th><th>Ekipman</th><th>Amaç</th></tr></thead>
+    <tbody>
+      <tr><td>Panel kesimi</td><td>CNC kumaş kesici, yerleştirme yazılımı, panel kalıp kütüphanesi</td><td>Her tahta ölçüsü için üst yüzey, gövde ve rail panellerinin hassas kesimi</td></tr>
+      <tr><td>Çekirdek montajı</td><td>Drop-stitch çekirdek laminasyon masası, yapıştırıcı uygulama merdaneleri</td><td>Drop-stitch çekirdeğin PVC katmanlar arasında eşit yapıştırıcı örtüsüyle yapıştırılması</td></tr>
+      <tr><td>Kaynak</td><td>RF kaynak presi, sıcak hava sabitleme istasyonu, şişirme testi aparatı</td><td>Valf, kulp ve pala yuvalarıyla tam boy tahta montajlarının dikiş kaynağı</td></tr>
+      <tr><td>Donatma ve bitirme</td><td>Üst yüzey pad uygulayıcı, grafik laminasyon masası, donanım uygulama masası</td><td>Eksiksiz donatma: üst yüzey padleri, logolar, kulp montajı, emniyet halatı fişi, pala yuvaları</td></tr>
+      <tr><td>Ölçüm bölümü</td><td>Basınç göstergeleri, veri kaydedici, eğilme ölçüm düzeneği</td><td>Numune testleri: şişirme döngüleri, üst yüzey sehim ölçümü, hava tutma ölçümü</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Prototip yolculuğu — adım adım</h2>
+  <ol>
+    <li><strong>Mühendislik devri</strong> — Tasarım paketi (3B model, FEA raporu, malzeme listesi, panel yerleşim planı) atölye sorumlusu ve proje mühendisi tarafından resmen incelenir. Kesim başlamadan önce her üretim endişesi işaretlenir ve çözülür.</li>
+    <li><strong>Panel üretimi</strong> — Tahta mühendislik spesifikasyonuna göre kurulur. Paneller CNC ile kesilir, drop-stitch çekirdek PVC katmanların arasına lamine edilir ve üst yüzey ile gövde onaylı malzeme yığınıyla birleştirilir.</li>
+    <li><strong>Kaynak</strong> — Paneller tam tahta şekline RF ile kaynaklanır. Hazne test basıncına şişirilir ve ilk stabilizasyon için 24 saat bekletilir.</li>
+    <li><strong>Montaj ve bitirme</strong> — Üst yüzey padi, grafikler, kulp, emniyet halatı fişi ve pala yuvaları takılır. Tüm bağlantı elemanları monte edilir ve spesifikasyona göre doğrulanır.</li>
+    <li><strong>Statik testler</strong> — Tahta suya değmeden önce şunlardan geçirilir: şişirme döngüleri, hava tutma bekleme testi, anma basıncında üst yüzey sehim ölçümü ve donanım tork kontrolleri.</li>
+    <li><strong>Su üzeri test programı</strong> — 10 saatlik su içi test; ayrıntılar aşağıda.</li>
+    <li><strong>Prototip değerlendirmesi</strong> — Mühendislik, üretim ve kalite ekipleriyle resmen bir onay toplantısı yapılır. Gerekli her tasarım değişikliği belgelenir ve üretim sevkiyatına eklenir.</li>
+  </ol>
+
+  <div class="not-prose my-10 p-6 rounded-xl bg-gray-50 dark:bg-gray-900 border border-gray-200 dark:border-gray-800">
+    <p class="text-sm font-semibold text-gray-500 mb-3 uppercase tracking-wider">10 Saatlik Su Üzeri Test Programı — Test Takvimi</p>
+    <div class="space-y-2 text-sm">
+      <div class="flex items-center gap-3 p-2 rounded bg-white dark:bg-gray-950">
+        <span class="w-12 text-xs font-bold text-blue-600">1 s</span>
+        <span class="flex-1">Denge kontrolü — duruşta ayakta denge, yana yük toleransı</span>
+      </div>
+      <div class="flex items-center gap-3 p-2 rounded bg-white dark:bg-gray-950">
+        <span class="w-12 text-xs font-bold text-blue-600">2 s</span>
+        <span class="flex-1">Kürek denemesi — 3 hızda kayma, yön tutma ve dönüş; kürek vuruşu konforu</span>
+      </div>
+      <div class="flex items-center gap-3 p-2 rounded bg-white dark:bg-gray-950">
+        <span class="w-12 text-xs font-bold text-blue-600">2 s</span>
+        <span class="flex-1">Kullanıcı yükü testi — 60 / 80 / 100 / 120 kg kullanıcılarda denge ve eğilme</span>
+      </div>
+      <div class="flex items-center gap-3 p-2 rounded bg-white dark:bg-gray-950">
+        <span class="w-12 text-xs font-bold text-blue-600">2 s</span>
+        <span class="flex-1">Dalga testi — bot dalgasında tekrarlanan geçişler; burun suyu atması, rail sehimi</span>
+      </div>
+      <div class="flex items-center gap-3 p-2 rounded bg-white dark:bg-gray-950">
+        <span class="w-12 text-xs font-bold text-blue-600">2 s</span>
+        <span class="flex-1">Dayanıklılık koşusu — aralıklı basınç kontrolleriyle kesintisiz kürek; hava tutma kaydı</span>
+      </div>
+      <div class="flex items-center gap-3 p-2 rounded bg-white dark:bg-gray-950">
+        <span class="w-12 text-xs font-bold text-blue-600">1 s</span>
+        <span class="flex-1">Son inceleme — dikişlerin, bağlantı elemanlarının ve grafiklerin deneme sonrası incelemesi; bulguların belgelenmesi</span>
+      </div>
+    </div>
+  </div>
+
+  <h2>Özel uygulamalar için özel prototipleme</h2>
+  <p>Prototip Atölyesi, standart üretim tahtalarının çözemediği sorunları çözdüğümüz yerdir. Son örnekler şunlardır:</p>
+  <ul>
+    <li>Avrupalı bir dayanıklılık kürek markası için gömülü yük güverte ve takviyeli burunlu 14 inç touring tahta — tesisimizde prototipi üretildi, donatıldı ve test edildi.</li>
+    <li>Tam boy kayma üst yüzeyi ve rijitlik için ek kalınlığa sahip 10 ft 6 inç yoga tahtası; 4 haftalık kiralama sezonu denemesi boyunca doğrulandı.</li>
+    <li>Özel üst yüzey grafikleri ve çift kulplu bir white label filo tahtası; müşteri bir konteynere karar vermeden önce renk, logo yerleşimi ve ambalaj doğrulaması için prototip kullanıldı.</li>
+  </ul>
+
+  <h2>Prototipleme ekibimiz</h2>
+  <p>Atölyede, üç temel disiplinden (kesim, kaynak, donatma) en az ikisinde çapraz eğitim almış sekiz çok yetenekli üretim teknisyeni görev yapar. Ekip lideri, tek seferlik özel imalattan seri üretime kadar 16 yıllık deneyime sahip bir usta teknisyendir. Her prototipe, imalat ve test süreci boyunca müşteri için tek temas noktası görevi gören ayrılmış bir proje mühendisi atanır.</p>
+
+  <h2>Müşteri katılımı</h2>
+  <p>Müşterilerimizin prototip imalatı sırasındaki kilit kilometre taşlarına katılmasını aktif olarak teşvik ediyoruz — özellikle ilk donatma değerlendirmesine ve su üzeri teste. Bu aşamalardaki operasyonel geri bildiriminiz, tahta üretime girmeden önce ince ayar yapılmasında paha biçilmezdir. Boşlukta üretim yapmayız; sizinle iş ortaklığı içinde üretiriz.</p>
+  <p>Su üzeri test programı aynı zamanda ekibinizin tahtanın kullanım ve bakım gereksinimlerini tanıması için bir fırsattır; böylece nihai tahtalar teslim edildiğinde üretime geçiş sorunsuz olur.</p>
+
+cta:
+  title: 'Prototip projenizi başlatın'
+  subtitle: 'İhtiyacınız olan tahtayı bize anlatın, size bir prototip geliştirme planı önerelim.'
+  actions:
+    - variant: primary
+      text: Prototipleme ekibimizle iletişime geçin
+      href: /tr/contact#project-brief
+    - text: Ar-Ge Merkezine Dön
+      href: /tr/randdcenter

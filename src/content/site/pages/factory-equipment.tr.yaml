@@ -1,0 +1,93 @@
+meta:
+  title: 'Fabrika Ekipmanları — Kesim, Kaynak ve Baskı'
+  description: 'Endüstriyel sınıf Vatrad üretim ekipmanları: PVC kesim, RF kaynak, dijital baskı, montaj ve şişirilebilir SUP tahtaları için testler.'
+  dateModified: '2026-08'
+  keywords:
+    - 'sup üretim ekipmanları'
+    - 'şişirilebilir sup fabrikası'
+    - 'rf kaynak pvc'
+    - 'kürek tahtası üretimi'
+hero:
+  tagline: Ekipman
+  title: Üretim Ekipmanları ve Makineler
+  subtitle: 'Kesim, kaynak, baskı ve montaj boyunca endüstriyel sınıf ekipman'
+  back_label: 'Fabrikaya Dön'
+  back_link: /tr/factory
+
+answer:
+  label: 'Net cevap'
+  text: '12.500 m²lik fabrikamız, CNC kontrollü otomatik kesim (0.1 mm hassasiyet, %5’in altında israf), ana dikişler için 200–600 °C sıcak hava yapıştırma ve 15 kW RF dielektrik kaynak, 14 ft’ye kadar drop-stitch çekirdek laminasyon presleri ve her odayı basınç testinden geçiren, ASTM D751 çekme kontrolü ile ISO 6185 dikiş soyma doğrulaması yapan bir QC laboratuvarı ile çalışır.'
+  verified: 'Eylül 2026'
+
+categories:
+  - title: Kesim ve Malzeme Hazırlığı
+    items:
+      - name: Otomatik PVC Kesim Makinesi
+        spec: CNC kontrollü, 6.5 m × 2.5 m, 0.1 mm hassasiyet
+        desc: 'PVC, Hypalon ve drop-stitch kumaşlar için bilgisayar kontrollü otomatik kesim makinesi. Yerleşim yazılımı, malzeme kullanımını %5’in altında israfla optimize eder.'
+      - name: Kumaş Serici
+        spec: Azami 3 m genişlik, gerilim kontrollü besleme
+        desc: 'Kesim öncesinde kumaşı bozulmayı önlemek üzere kontrollü gerilimle tek veya çok katmanlı biçimde serer.'
+
+  - title: Boru Kaynak ve Yapıştırma
+    items:
+      - name: Isı Yapıştırma Makinesi
+        spec: Sıcak hava kaynağı, değişken 200–600 °C, 0.5–5 m/dk
+        desc: 'PVC ve Hypalon tüp dikişlerini yapıştırmak ve kaynaklamak için sıcak havalı ısı yapıştırma makinesi. Tüp odalarının geçici sabitlemesinde, sızdırmazlıkta ve birleştirilmesinde kullanılır.'
+      - name: Dielektrik RF Presi
+        spec: 15 kW, plaka 2000 × 600 mm
+        desc: Ana boyuna dikişler, arka travers–tüp birleşimleri ve büyük odalı üretim için radyo frekanslı kaynak presi.
+      - name: CNC Kontrollü RF Kaynak Makinesi
+        spec: 8 kW, XY tablası 2500 × 1200 mm
+        desc: Karmaşık geometriler, logo kabartma ve hassas parça birleştirme için programlanabilir kavisli dikiş kaynağı.
+
+  - title: SUP Tahtası Üretimi
+    items:
+      - name: Drop-Stitch Çekirdek Laminasyon Presi
+        spec: 14 ft LOA’ya kadar tahta çekirdekleri için büyük ebatlı pres
+        desc: 'Drop-stitch çekirdeklerinin dış PVC katmanlarına hassas laminasyonu. Her katman, tutarlı kalite ve dayanım için basınçla birleştirilir.'
+      - name: CNC Router (5 eksenli)
+        spec: 3 m × 2 m × 1 m çalışma hacmi, su soğutmalı mil
+        desc: 'Fin kutuları, tutamak yuvaları ve özel tahta bileşenlerinin işlenmesi.'
+
+  - title: SUP Baskısı ve Dekorasyonu
+    items:
+      - name: Dijital Yazıcı
+        spec: Yüksek çözünürlüklü mürekkep püskürtme, 2 m’ye kadar baskı genişliği
+        desc: 'Tam renkli SUP güverte grafikleri için doğrudan kumaşa dijital baskı. UV’ye dayanıklı, su bazlı mürekkeplerle özel desenleri, geçişleri ve fotoğraf kalitesinde görselleri basar.'
+      - name: Ekran Baskı Makinesi
+        spec: Manuel ve yarı otomatik, çok renkli kayıt
+        desc: 'SUP tahtası logoları, marka işaretleri ve tekrarlayan desenler için ekran baskısı. Dayanıklı, opak ve canlı renk doygunluğuna sahip baskılar sağlar.'
+
+  - title: Montaj ve Aksesuar Takımı
+    items:
+      - name: Tahta Montaj İstasyonu
+        spec: Modüler ayarlanabilir, çok istasyonlu yerleşim
+        desc: 'Fin kutuları, tutamaklar, D halkaları, supaplar ve güverte pedlerinin SUP tahtalarına montajı.'
+      - name: Supap Montaj Presi
+        spec: Pnömatik, ayarlanabilir basınç
+        desc: 'Halkey-Roberts ve Leafield supaplarının hassas montajı ve sızdırmazlık işlemi.'
+      - name: Güverte Ped Laminatörü
+        spec: 3 m × 1.5 m, sıcaklık kontrollü
+        desc: 'EVA köpük güverte pedlerinin SUP tahta üst yüzeyine tutarlı yapışma dayanımıyla ısı laminasyonu.'
+
+  - title: Test ve Kalite Kontrol
+    items:
+      - name: Evrensel Çekme Test Cihazı
+        spec: 50 kN, ASTM D751 uyumlu
+        desc: 'Kumaş partileri için kırılma kuvveti, kırılmada uzama ve yırtılma yayılımı testleri.'
+      - name: Hava Tutma Test Düzeneği
+        spec: Programlanabilir, 30 dakikalık basınç tutma
+        desc: 'Montajdan önce her tüp oda için otomatik basınç tutma testi.'
+      - name: Dikiş Soyma Test Cihazı
+        spec: Motorlu 180° soyma, 100 mm/dk
+        desc: 'ISO 6185’e göre kaynak ve yapıştırılmış dikiş soyma dayanımı testleri.'
+      - name: Ksenon Ark Yaşlandırma Odası
+        spec: 2000 saat maruz bırakma
+        desc: 'Renk değişimi ve dayanım korunumu için UV direnç testleri.'
+
+cta:
+  title: 'Fabrika turuna mı ilginiz var?'
+  desc: 'Qingdao tesisimize ziyaretçileri memnuniyetle karşılıyoruz. Ekipman ve süreçlerimizi yerinde görün.'
+  label: 'Ziyaret planlayın →'
+  link: /tr/contact

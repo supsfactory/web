@@ -1,0 +1,113 @@
+meta:
+  title: 'OEM Üretim Garantisi ve Ürün Kalite Güvencesi | {SITE}'
+  description: 'iSupfactory tarafından üretilen şişirilebilir SUP ve deniz ürünleri için OEM üretim garanti koşulları: kapsanan kusurlar, süre, belgelenmiş parti kayıtları ve taleplerin nasıl işlendiği.'
+  keywords:
+    - 'oem garanti'
+    - 'üretim garantisi'
+    - 'sup fabrikası garantisi'
+    - 'ürün kalite güvencesi'
+    - 'şişirilebilir sup garantisi'
+label: 'OEM Garanti'
+headline: 'OEM Üretim Garantisi ve Ürün Kalite Güvencesi'
+subtitle: 'Ürettiğimiz her board, onaylanmış bir numuneye ve belgelenmiş parti kayıtlarına göre üretilir. Bu garanti, sizin markanız altında ürettiğimiz ürünlerde neyi güvence altına aldığımızı ve taleplerin bu kayıtlara göre nasıl karara bağlandığını tanımlar.'
+seo:
+  headline: 'OEM Üretim Garantisi ve Ürün Kalite Güvencesi | iSupfactory'
+  description: 'iSupfactory tarafından üretilen şişirilebilir SUP boardları ve diğer deniz ürünlerinde üretim garantisi: ana boru kumaşı, dikişler ve drop stitch çekirdek yapısal bütünlüğü için 5 yıl kapsama, ayrıca şişirme supapozları ve fabrikada monte edilen aksesuarlar.'
+  datePublished: '2024-01-01'
+  dateModified: '2026-09-23'
+body: |
+  <p class="text-lg text-gray-600 dark:text-gray-400 mb-8">
+    Bu Üretim Garantisi, Qingdao Vatrad Group Co., Ltd. deniz üretim bölümü iSupfactory tarafından OEM, ODM ve özel marka programları kapsamında üretilen şişirilebilir SUP boardları, kayaklar ve deniz ürünleri için geçerlidir. Yürürlük tarihi, satın alma siparişinde kararlaştırılan doğrulanabilir parti üretim veya sevkiyat tarihidir. Alıcı (marka sahibi), kendi pazarı için son kullanıcı garanti politikasını belirler; bu garanti, üretildiği haliyle mal üzerinde fabrikanın güvencesidir.
+  </p>
+
+  <div class="bg-sky-50 dark:bg-gray-900 border border-sky-200 dark:border-gray-800 rounded-xl p-6 mb-10">
+    <h2 class="text-xl font-bold mb-3">Üretim Garantisi Kapsamı ve Süresi</h2>
+    <div class="grid md:grid-cols-2 gap-4">
+      <div class="bg-white dark:bg-gray-950 rounded-lg p-4 border border-gray-200 dark:border-gray-800">
+        <h3 class="font-bold text-sky-700 dark:text-sky-400">5 Yıl</h3>
+        <p class="text-sm text-gray-600 mt-1">Ana boru kumaşı bütünlüğü (CSM/PVC)</p>
+      </div>
+      <div class="bg-white dark:bg-gray-950 rounded-lg p-4 border border-gray-200 dark:border-gray-800">
+        <h3 class="font-bold text-sky-700 dark:text-sky-400">5 Yıl</h3>
+        <p class="text-sm text-gray-600 mt-1">Fiberglas gövde yapısal bütünlüğü (uygun olduğu durumlarda)</p>
+      </div>
+      <div class="bg-white dark:bg-gray-950 rounded-lg p-4 border border-gray-200 dark:border-gray-800">
+        <h3 class="font-bold text-sky-700 dark:text-sky-400">5 Yıl</h3>
+        <p class="text-sm text-gray-600 mt-1">Şişirilebilir boru dikişlerinin hava tutma kapasitesi</p>
+      </div>
+      <div class="bg-white dark:bg-gray-950 rounded-lg p-4 border border-gray-200 dark:border-gray-800">
+        <h3 class="font-bold text-sky-700 dark:text-sky-400">5 Yıl</h3>
+        <p class="text-sm text-gray-600 mt-1">Şişirme supapozlarının işlevselliği</p>
+      </div>
+      <div class="bg-white dark:bg-gray-950 rounded-lg p-4 border border-gray-200 dark:border-gray-800">
+        <h3 class="font-bold text-sky-700 dark:text-sky-400">1 Yıl</h3>
+        <p class="text-sm text-gray-600 mt-1">Fabrikada monte edilen aksesuarlar ve yardımcı bağlantı parçaları</p>
+      </div>
+      <div class="bg-white dark:bg-gray-950 rounded-lg p-4 border border-gray-200 dark:border-gray-800">
+        <h3 class="font-bold text-amber-700 dark:text-amber-400">1 Yıl*</h3>
+        <p class="text-sm text-gray-600 mt-1">Ticari, kiralama veya filo kullanımı — tüm bileşenler</p>
+      </div>
+    </div>
+    <p class="text-xs text-gray-500 mt-4">*Ticari, kamu, kiralık bot, kiralama veya eğitim amaçlı kullanım, garanti süresini 1 yıla indirir. Yarış veya rekabet amaçlı kullanım, satın alma anlaşmasında açıkça kapsanan özel bir yarış yapılandırması olmadıkça garantiyi tamamen geçersiz kılar.</p>
+  </div>
+
+  <h2>Neler Kapsanır</h2>
+  <h3>Ana Boru Kumaşı (5 Yıl)</h3>
+  <p>Fabrika, ana boru kumaşını; ürünün çalışma basıncını koruma yeteneğini esaslı biçimde zayıflatan gözeneklilik bozulmasına karşı garanti eder. Bu, üretimde kullanılan CSM (Hypalon) kaplamalı kumaş ve diğer tüm boru kumaşı malzemeleri için geçerlidir.</p>
+
+  <h3>Fiberglas Gövde Yapısal Bütünlüğü (5 Yıl)</h3>
+  <p>Fiberglas takviyeli plastik (FRP) gövdeye sahip ürünlerde, temel kompozit yapı; malzeme veya işçilik kusurlarından kaynaklanan yapısal arızaya karşı garanti edilir.</p>
+
+  <h3>Şişirilebilir Boru Dikişlerinin Hava Tutma Kapasitesi (5 Yıl)</h3>
+  <p>Üretim sırasında birleştirilen şişirilebilir boruların dikişleri, dikiş üzerinden önemli miktarda hava kaçırmaya yol açan üretim kusurlarına karşı garanti edilir. Uygun şişirme basınçlarının periyodik olarak kontrol edilmesi ve bakımı, kapsamın koşullarındandır.</p>
+
+  <h3>Şişirme Supapozlarının İşlevselliği (5 Yıl)</h3>
+  <p>Üretim sırasında takılmış olan hava şişirme supapozları, supapozun tasarlandığı şekilde hava tutmasını engelleyen malzeme veya işçilik üretim kusurlarına karşı garanti edilir.</p>
+
+  <h3>Fabrikada Monte Edilen Aksesuarlar (1 Yıl)</h3>
+  <p>Fabrikada takılan bileşenler ve bağlantı parçaları, bir yıl boyunca malzeme ve işçilik kusurlarına karşı garanti edilir. Bu kapsam dışıdır: üçüncü taraf ürünler yalnızca kendi üreticilerinin garantileriyle kapsanır.</p>
+
+  <h2>Neler Kapsanmaz</h2>
+  <ul>
+    <li>Renk solması, lekelenme, solma, tebeşirleşme veya görünümde her türlü değişiklik dahil kozmetik kusurlar</li>
+    <li>Delinmeler, kesikler, yırtıklar, sökülmeler veya diğer fiziksel hasarlar</li>
+    <li>Çatlaklanma, kırılma, aşınma, sürtünme izi veya sürtünme veya temas kaynaklı bozulma</li>
+    <li>UV ışığına maruz kalma, hava koşulları veya atmosferik koşullardan kaynaklanan bozulma</li>
+    <li>Yakıt, çözücü, asit, baz veya kimyasallarla temas nedeniyle oluşan hasar</li>
+    <li>İhmal, hatalı kullanım, kötüye kullanım, kaza veya normal aşınma ve yıpranma nedeniyle oluşan hasar</li>
+    <li>Jelcoat veya boya yüzeyi sorunları (kabarcıklanma, çatlaklanma, renk değişikliği, solma)</li>
+    <li>Çarpma, gerilme, hatalı destekleme veya röntaj nedeniyle oluşan hasar</li>
+    <li>Hatalı şişirme veya sönme ya da onaylanmamış şişirme cihazlarının kullanılmasından kaynaklanan hasar</li>
+    <li>Üçüncü taraf ekipmanları, bileşenleri veya sistemleri (kendi üreticileri tarafından kapsanır)</li>
+  </ul>
+
+  <h2>Üreticinin Yükümlülüğü ve Çözüm Yolu</h2>
+  <p>Fabrikanın tek ve münhasır yükümlülüğü, malzeme veya işçilik bakımından kusurlu olduğu tespit edilen ve bu garanti kapsamındaki herhangi bir bileşeni, kendi tercihiyle onarmak veya değiştirmektir. Onarım veya değişim, fabrika veya belirlediği yetkili servis tesisi tarafından gerçekleştirilir. Onarılan veya değiştirilen bileşenler yalnızca orijinal garanti süresinin kalan kısmı boyunca garantilidir.</p>
+
+  <h2>Garanti Koşulları</h2>
+  <ul>
+    <li><strong>Parti referansı:</strong> Talepler, fabrikanın ilgili muayene kayıtlarını çekebilmesi için satın alma siparişini, parti numarasını veya seri aralığını içermelidir.</li>
+    <li><strong>Teknik özellik tabanı:</strong> Talepler, parti için dondurulmuş onaylı numuneye, teknik özelliğe, grafiğe ve malzeme listesine göre değerlendirilir — üretimde kullanılan aynı temel değerler.</li>
+    <li><strong>Bakım:</strong> Ürün, yayımlanmış bakım yönergelerine uygun olarak, uygun şişirme basınçlarının periyodik kontrolü ve bakımı dahil, bakımlı tutulmalıdır.</li>
+    <li><strong>İş birliği:</strong> Talep sahibi, etkilenen birimlerin muayenesi dahil, garanti taleplerine ilişkin tüm konularda fabrika ile eksiksiz ve gecikmeden iş birliği yapmalıdır.</li>
+    <li><strong>Alıcı garanti politikası:</strong> Alıcı, marka sahibi olarak kendi pazarındaki son kullanıcı garanti programını tanımlar. Bu üretim garantisi, üretildiği haliyle mal üzerinde fabrikanın borcudur.</li>
+  </ul>
+
+  <h2>Ticari Kullanım</h2>
+  <p>Ürün; ticari, kamu, kar amacı olmayan, kiralık bot, kiralama, eğitim veya özel rekreasyon kullanımı dışında herhangi bir amaçla kullanılırsa, tüm bileşenlerin garanti süresi yürürlük tarihinden itibaren bir (1) yıla indirilir. Yarış, hız veya dayanıklılık yarışmalarında kullanım, satın alma anlaşmasında açıkça kapsanan özel bir yarış yapılandırması olmadıkça garantiyi tamamen geçersiz kılar.</p>
+
+  <h2>Garanti Talebi Nasıl Yapılır</h2>
+  <p>Sorunun ayrıntılı bir açıklamasıyla ve mümkünse board seri numaralarıyla birlikte satın alma siparişini veya parti referansını iSupfactory ile paylaşarak iletişime geçin. Fabrika, talebi parti kayıtlarına göre inceler ve muayene ile servis için talimatlar verir.</p>
+  <p>Garanti hizmeti talepleriniz için, sipariş numaranız ve ürün bilgilerinizle birlikte <a href="/tr/contact" class="text-sky-600 underline">iletişim sayfamızdan</a> bize ulaşın.</p>
+
+  <div class="bg-sky-50 dark:bg-gray-900 border border-sky-200 dark:border-gray-800 rounded-xl p-6 my-10">
+    <h2 class="text-xl font-bold mb-3">Belgelenmiş Bir Kalite Sistemiyle Desteklenir</h2>
+    <p class="text-sm text-gray-600 dark:text-gray-400">Her board paketlenmeden önce test edilir — <a href="/tr/factory/quality-inspection" class="text-sky-600 underline">7 aşamalı muayene kapıları</a> sonuçları seri numarası bazında kaydeder ve partiler 10 yıllık ERP izlenebilirliğini korur. Garanti talepleri tahminle değil, bu parti kayıtlarına göre karara bağlanır. <a href="/tr/quality" class="text-sky-600 underline">Eksiksiz kalite sistemine</a> bakın ve gerçek <a href="https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_FQC_TEST_REPORTS.pdf" class="text-sky-600 underline">nihai muayene raporlarını</a> indirin.</p>
+  </div>
+
+  <h2>Üçüncü Taraf Ürünler</h2>
+  <p>Üçüncü tarafların ürettiği ekipmanlar, bileşenler veya sistemler (fabrika tarafından monte edilmiş olsa bile) yalnızca ilgili üreticilerinin sunduğu garantilerle kapsanır. Fabrika, bu tür üçüncü taraf ürünler için her türlü garanti sorumluluğunu açıkça reddeder.</p>
+
+  <p class="text-sm text-gray-500 mt-8 border-t border-gray-200 dark:border-gray-800 pt-6">
+    Bu garanti bildirimi, OEM, ODM ve özel marka programları için fabrikanın üretim garanti koşullarının bir özetidir. Tüm garanti koşulları ve şartlar satın alma anlaşması tarafından belirlenir. Teknik özellikler bildirim yapılmaksızın değiştirilebilir. iSupfactory, Qingdao Vatrad Group'un üretim bölümüdür.
+  </p>

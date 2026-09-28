@@ -1,7 +1,7 @@
 import { test, expect } from 'vitest'
-import { llmsFull, llmBrandIndex, llmFrenchIndex, llmsFrenchFull, llmGermanIndex, llmsGermanFull, llmItalianIndex, llmsItalianFull, llmPortugueseIndex, llmsPortugueseFull, llmDutchIndex, llmsDutchFull, llmSwedishIndex, llmsSwedishFull, llmNorwegianIndex, llmsNorwegianFull, llmPolishIndex, llmsPolishFull, llmDanishIndex, llmsDanishFull, llmFinnishIndex, llmsFinnishFull, llmRussianIndex, llmsRussianFull, llmCzechIndex, llmsCzechFull } from '@/features/site/llm'
+import { llmsFull, llmBrandIndex, llmFrenchIndex, llmsFrenchFull, llmGermanIndex, llmsGermanFull, llmItalianIndex, llmsItalianFull, llmPortugueseIndex, llmsPortugueseFull, llmDutchIndex, llmsDutchFull, llmSwedishIndex, llmsSwedishFull, llmNorwegianIndex, llmsNorwegianFull, llmPolishIndex, llmsPolishFull, llmDanishIndex, llmsDanishFull, llmFinnishIndex, llmsFinnishFull, llmRussianIndex, llmsRussianFull, llmCzechIndex, llmsCzechFull, llmTurkishIndex, llmsTurkishFull } from '@/features/site/llm'
 import { getContentPages } from '@/features/content/loader'
-import { GUIDES_FR, GUIDES_DE, GUIDES_IT, GUIDES_PT, GUIDES_NL, GUIDES_SV, GUIDES_NO, GUIDES_PL, GUIDES_DA, GUIDES_FI, GUIDES_RU, GUIDES_CS } from '@/features/content/guide-content'
+import { GUIDES_FR, GUIDES_DE, GUIDES_IT, GUIDES_PT, GUIDES_NL, GUIDES_SV, GUIDES_NO, GUIDES_PL, GUIDES_DA, GUIDES_FI, GUIDES_RU, GUIDES_CS, GUIDES_TR } from '@/features/content/guide-content'
 import { EDGE_REDIRECTS } from '@/features/seo/edge-gate'
 import { LEGACY_REDIRECTS } from '@/features/seo/legacy-redirects'
 
@@ -366,5 +366,34 @@ test('llms-full.txt Czech section: product/news/tech/case/guide bodies present',
   expect(cs).toContain('# Průvodce:')
   for (const g of GUIDES_CS) {
     expect(cs, `llms-full.txt Czech section missing guide ${g.slug}`).toContain(`# Průvodce: ${g.title}`)
+  }
+})
+
+test('llms.txt Turkish section: /tr absolute links, Turkish homepage note and guides', () => {
+  const section = llmTurkishIndex('https://isupfactory.com')
+  expect(section).toContain('## Türkçe')
+  expect(section).toContain('— Ana Sayfa')
+  expect(section).toContain('### Türkçe: Ürünler')
+  expect(section).toContain('### Türkçe: Teknoloji')
+  expect(section).toContain('### Türkçe: Vaka çalışmaları')
+  expect(section).toContain('### Türkçe: Rehberler')
+  expect(section).toContain('### Türkçe: Haberler')
+  expect(section).toContain('### Türkçe: Sık sorulan sorular')
+  expect(section).toContain('https://isupfactory.com/tr/')
+  for (const g of GUIDES_TR) {
+    expect(section, `llms.txt Turkish section missing guide ${g.slug}`).toContain(`https://isupfactory.com/tr/guides/${g.slug}`)
+  }
+})
+
+test('llms-full.txt Turkish section: product/news/tech/case/guide bodies present', () => {
+  const tr = llmsTurkishFull()
+  expect(tr).toContain('# Türkçe')
+  expect(tr).toContain('## Ürün:')
+  expect(tr).toContain('## Haber:')
+  expect(tr).toContain('## Teknoloji:')
+  expect(tr).toContain('## Vaka çalışması:')
+  expect(tr).toContain('# Rehber:')
+  for (const g of GUIDES_TR) {
+    expect(tr, `llms-full.txt Turkish section missing guide ${g.slug}`).toContain(`# Rehber: ${g.title}`)
   }
 })

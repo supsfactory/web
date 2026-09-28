@@ -1,0 +1,114 @@
+meta:
+  title: 'SUP Projenizi Başlatın — Brieften Teslim Edilen Boardlara | iSupfactory'
+  description: 'Özel SUP projenizi başlatın: brief gönderin, NDA koruması alın, 7–12 günde numune alın, onaylayın ve üretime ölçekleyin. Zaman çizelgeleriyle adım adım.'
+  dateModified: '2026-08-20'
+  keywords:
+    - 'sup projesi başlatma'
+    - 'özel sup siparişi'
+    - 'sup proje briefi'
+    - 'oem sup projesi'
+    - 'özel paddle board siparişi'
+    - 'sup üretim projesi'
+    - 'şişirilebilir sup projesi'
+
+hero:
+  tagline: 'Buradan Başlayın'
+  title: 'SUP Projenizi Başlatın'
+  subtitle: 'Yeni bir marka mı kuruyorsunuz, ürün hattınızı mı genişletiyorsunuz, yoksa operasyonunuz için markalı boardlar mı arıyorsunuz — her proje aynı şekilde başlar: bir proje briefi, bir NDA, bir numune ve üretime giden net bir yol. "Başla" düğmesine bastıktan sonra neler olduğunun tamamı budur.'
+  actions:
+    - variant: primary
+      text: 'Proje Briefinizi Başlatın'
+      href: /tr/contact#project-brief
+    - text: 'Sürecin nasıl işlediğini görün'
+      href: /tr/how-it-works
+
+answer:
+  label: 'Bundan sonra ne olur'
+  text: 'Proje briefinizi gönderdikten sonra bir iş günü içinde yanıt alırsınız. Herhangi bir gizli detay paylaşmadan önce NDA hazırdır. Mühendislik ekibiniz briefinizi inceler ve MOQ, numune ücretleri ve kapı kapı zaman çizelgesini içeren kalemli bir teklifle döner — tipik olarak numuneler için 7–12 gün, onaylanan siparişten sonra ilk üretim için 6–8 hafta. Numune ücretleri üretim siparişinizden mahsup edilir. Sözleşmeyi imzayana kadar hiçbir taahhüt yoktur.'
+  verified: 'Eylül 2026'
+
+process_steps:
+  tagline: 'Süreç'
+  title: 'Brieften Teslim Edilen Boardlara — Beş Adım'
+  subtitle: 'Her adımın tanımlı bir zaman çizelgesi, belgelenmiş bir çıktısı ve bir devam et veya durdur kontrol noktası vardır. Siz hazır olduğunuzda ilerleriz.'
+  steps:
+    - step: 'Adım 1'
+      title: 'Proje Briefinizi Gönderin'
+      desc: 'Boardunuzdan bahsedin — hedef teknik özellikler, hacim, uyum gereksinimleri ve zaman çizelgesi. Briefi doldurmak 5–10 dakika sürer. Her detaydan emin değilseniz, elinizdekini paylaşın, kalanını yönlendirelim. Özel tasarımlarınızı paylaşmadan önce NDA hazırdır.'
+    - step: 'Adım 2'
+      title: 'NDA ve Uygulanabilirlik İncelemesi (1–5 Gün)'
+      desc: 'İstenirse NDA imzalarız, ardından mühendislik ekibimiz briefinizi üretim kabiliyetine, malzeme bulunabilirliğine ve uyum kapsamına göre inceler. MOQ hesabı, numune ücretleri ve kapı kapı zaman çizelgesini içeren kalemli bir teklif alırsınız.'
+    - step: 'Adım 3'
+      title: 'Numune ve Onay (7–21 Gün)'
+      desc: 'Teknik özelliklerinize göre 1–2 fiziksel board üretilir. Siz bunlara binersiniz ve değerlendirirsiniz — gövde rijitliği, grafik isabeti, aksesuar uyumu. Yapılan değişiklikler revize edilmiş malzeme listesine işlenir. Dondurulan numune üretim referansı haline gelir. Numune ücretleri üretimden mahsup edilir.'
+    - step: 'Adım 4'
+      title: 'Üretim Öncesi Planlama (7 Gün)'
+      desc: 'Malzeme tedariği, kalıp hazırlığı, ambalaj teyidi ve üretim kapasitesi rezervasyonu. Tüm malzemeler dondurulmuş malzeme listesine göre giriş muayenesinden geçirilir. Üretim başlamadan önce kalite kontrolü kapı tarihleriyle birlikte üretim takvimi yayınlanır.'
+    - step: 'Adım 5'
+      title: 'Üretim, Kalite Kontrolü ve Sevkiyat (4–6 Hafta)'
+      desc: 'Üretim, her kapıda geçer/kriter bulunan 7 aşamalı muayene kapı sistemiyle yürütülür. İhracat sınıfı ambalajlama, uyum belgeleri ve 50 ülkeye deniz navlun koordinasyonu. Teslim sonrası değerlendirme, bir sonraki sipariş için iyileştirmeleri kayda geçirir.'
+
+collaboration_types:
+  tagline: 'Yolunuzu Seçin'
+  title: 'iSupfactory ile Çalışmanın Üç Yolu'
+  subtitle: 'Her proje aynı süreçten geçer — değişen şey mühendislik kapsamı ve fikri mülkiyet sahipliğinin nerede durduğudur.'
+  grid: 'sm:grid-cols-2 lg:grid-cols-3'
+  features:
+    - icon: O
+      icon_bg: blue
+      title: 'OEM Üretim'
+      desc: 'Tasarımı siz sağlarsınız. Biz sizin özelliğinize göre üretiriz. Tüm fikri mülkiyet size aittir. Kanıtlanmış board geometrisine sahip markalar için en uygundur.'
+      link_label: 'OEM detaylarını görün'
+      href: /tr/oem-manufacturing
+    - icon: D
+      icon_bg: green
+      title: 'ODM Geliştirme'
+      desc: 'Briefi siz sağlarsınız. Boardu biz geliştiririz. Sizin markalama ile uyarlanmış platform. Şirkette iç tasarım ekibi olmadan pazara giren markalar için en uygundur.'
+      link_label: 'ODM detaylarını görün'
+      href: /tr/odm-manufacturing
+    - icon: P
+      icon_bg: purple
+      title: 'Özel Marka / Ortak Markalama'
+      desc: 'Kanıtlanmış bir platform üzerinde kendi markanız. Mühendislik aşaması yok. 5–10 adete kadar düşük miktarlar. Operatörler ve distribütörler için en uygundur.'
+      link_label: 'Özel Marka seçeneklerini görün'
+      href: /tr/solutions/private-label-sup
+
+what_we_need:
+  heading: 'Briefinizden Önce Hazırlamanız Gerekenler'
+  body: |
+    Eksiksiz bir brief süreci hızlandırır. Şunlar yardımcı olur:
+
+    - **Board teknik özellikleri** — Hedef uzunluk, genişlik, kalınlık, kullanıcı ağırlığı, kullanım alanı. Referans board ölçüleri veya rakip modeller faydalıdır.
+    - **Tasarım dosyaları** — Grafikler ve logolar için vektör çalışma dosyaları (AI, SVG, PDF). Hazır değilse ilk uygulanabilirlik çalışması için moodboard veya referans görseller yeterlidir.
+    - **Hacim ve zaman çizelgesi** — Hedef miktar ve sezon programı. Kaba bir aralık bile ("Mart'a kadar 20–50 board") başlamak için yeterlidir.
+    - **Uyum gereksinimleri** — Hedef pazarlar ve CE, ISO 9001, BSCI, REACH, RoHS ötesindeki belirli sertifikasyon gereksinimleri.
+    - **Bütçe aralığı** — Board başına gösterge niteliğinde bir bütçe veya hedef maliyet, doğru platformu önermemize yardımcı olur.
+
+    **Her şey hazır değil mi?** Elinizdekini gönderin. Kalanını yönlendirelim.
+
+faqs:
+  tagline: SSS
+  title: 'SUP Projesi Başlatmak — Sık Sorulan Sorular'
+  items:
+    - q: 'Başlamak için asgari sipariş nedir?'
+      a: 'Giriş noktası kademelidir: önce 1–2 numune (7–12 gün), ardından 20–50 boardluk deneme siparişi (25–35 gün), sonra onaylanan her yapılandırma için parti başına 90–100+ boardluk standart hacimli üretim. Özel marka ortak markalama, geliştirme aşaması olmadan 5–10 adetten başlar.'
+    - q: 'Numuneyi almak ne kadar sürer?'
+      a: 'Fiziksel numuneler, özelliklerin doğrulanması ve depozito sonrasında 7–12 günde üretilir. Mevcut gövde platformlarını kullanıldığında, briefden teslim edilen deneme siparişine kadar tüm döngü tipik olarak 8–12 hafta sürer. Özel bir gövde, kalıp geliştirmeye 15–20 gün ekler.'
+    - q: 'Tasarımım korunuyor mu?'
+      a: 'Evet. NDA anında hazırdır — herhangi bir gizli bilgiyi paylaşmanızdan önce. Yalnızca müşterilerimizin markaları altında üretim yaparız ve asla onlarla rekabet etmeyiz. Tüm teknik dosyalar erişim denetimli sistemlerde, denetim kayıtlarıyla saklanır.'
+    - q: 'Proje briefi formu neleri istiyor?'
+      a: "Brief; işletme türünüzü, şirket adınızı, hedef board teknik özelliklerini, sipariş miktarı aralığını, zaman çizelgesini ve varsa uyum gereksinimlerini ister. Yaklaşık 5–10 dakika sürer. Tasarım dosyaları (PNG, JPG, SVG, PDF, AI, PSD, DWG, DXF, ZIP) 10 MB'a kadar ekleyebilirsiniz. Bir alandan emin değilseniz boş bırakın — biz takip ederiz."
+    - q: 'Briefi gönderdikten sonra ne olur?'
+      a: 'Bir iş günü içinde yanıt alırsınız. Mühendislik ekibimiz briefinizi inceler ve MOQ, numune ücretleri ve kapı kapı zaman çizelgesini içeren kalemli bir teklifle döner. Sözleşmeyi inceleyip imzalayana kadar hiçbir taahhüt gerekmez. Numune ücretleri üretim siparişinizden mahsup edilir.'
+
+cta:
+  title: 'Başlamaya hazır mısınız?'
+  subtitle: 'Proje briefinizi gönderin — board teknik özellikleri, hacim ve zaman çizelgesi — uygulanabilirliği doğrulayıp numune üretecek ve her adımda belgelenmiş kalite kontrolüyle birlikte üretim takvimi sunacağız.'
+  actions:
+    - variant: primary
+      text: 'Proje Briefinizi Başlatın'
+      href: /tr/contact#project-brief
+    - text: 'Tam devreye alma rehberini okuyun'
+      href: /tr/oem-onboarding-guide
+    - text: 'Fabrikayı ve kalite sistemini doğrulayın'
+      href: /tr/proof-center

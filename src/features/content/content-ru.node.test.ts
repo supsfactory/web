@@ -146,7 +146,7 @@ test('every en content file has a .ru counterpart (except locale-agnostic site/p
   const dirs = ['pages', 'news', 'products', 'technology', 'case-use', 'site']
   for (const dir of dirs) {
     for (const name of readdirSync(resolve(contentRoot, dir))) {
-      if (name.includes('.de.') || name.includes('.es.') || name.includes('.fr.') || name.includes('.it.') || name.includes('.pt.') || name.includes('.nl.') || name.includes('.sv.') || name.includes('.no.') || name.includes('.pl.') || name.includes('.da.') || name.includes('.fi.') || name.includes('.ru.') || name.includes('.cs.')) continue
+      if (name.includes('.de.') || name.includes('.es.') || name.includes('.fr.') || name.includes('.it.') || name.includes('.pt.') || name.includes('.nl.') || name.includes('.sv.') || name.includes('.no.') || name.includes('.pl.') || name.includes('.da.') || name.includes('.fi.') || name.includes('.ru.') || name.includes('.cs.') || name.includes('.tr.')) continue
       if (dir === 'site' && name === 'pages.yaml') continue
       const ruName = name.replace(/(\.(yaml|mdx|md))$/, '.ru$1')
       if (!existsSync(resolve(contentRoot, `${dir}/${ruName}`))) {

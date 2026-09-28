@@ -1,0 +1,104 @@
+meta:
+  title: 'Perakende Markalar için Özel ve Özel Etiketli SUP Üretimi | {SITE}'
+  description: 'Perakende markaları için özel ve özel etiketli SUP üretimi: board teknik özellikleri, markalı grafikler, düşük deneme MOQ ve fabrika kalite kontrolü — numuneden toplu üretime.'
+  dateModified: '2026-08'
+
+hero:
+  tagline: Perakende Markalar
+  title: 'Perakende Markalar için Özel SUP Üretimi'
+  subtitle: 'Perakende markaları, bizim fabrikamızla kendi paddle board hattınızı başlatır: ihtiyaçlarınızdan yola çıkarak geliştirilmiş board teknik özellikleri, ürün üzerinde kendi markanız ve baştan sona ele alınan üretim kalite kontrolü.'
+  image:
+    src: https://assets.isupfactory.com/images/sups/products/sup-series/sup-ocean-voyager-1.webp
+    alt: Bir perakende markası için üretilen Vatrad SUP boardları
+
+answer:
+  label: 'Doğrudan cevap'
+  text: "MOQ, proje yapılandırmasıyla belirlenir: perakende markaları bir numuneyle (1–2 adet) veya pilot partiyle (20–50 adet, numuneler 7–12 günde) başlar, tasarım başına 90–100+ adetlik standart hacimli OEM üretimine ölçeklenir (sipariş ve depozito sonrasında 25–35 gün) veya tamamen özel hatlar için özel kalıba yatırım yapar (kalıp imalatı 15–20 gün ekler). Her board sevkiyattan önce basınç testine tabi tutulur, Çin Qingdao'dan FOB, CIF veya DDP koşullarıyla."
+  verified: 'Eylül 2026'
+
+margin_section:
+  title: 'Perakende Markalar için Üretim Aşamaları'
+  subtitle: 'Bir numuneyle başlayın, pilotla doğrulayın, standart hacimli üretime ölçekleyin veya özel kalıba yatırım yapın — MOQ ve teslim süreleri tahminle değil, üretim yoluna göre belirlenir.'
+  items:
+    - tier: 'Numune Aşaması'
+      moq: '1–2 adet'
+      margin_note: 'Numune teslim süresi 7–12 gün'
+      features:
+        - 'Marka varlıklarınızdan hareketle grafik geliştirme'
+        - 'Onay için fiziksel numune'
+        - 'Standart platform kalite kontrolü'
+    - tier: 'Pilot Aşaması'
+      moq: '20–50 adet'
+      margin_note: 'Stok platformlarla pazar doğrulaması'
+      features:
+        - 'Tam board grafikleri, logo ve EVA yerleşimi'
+        - 'Aynı doğrulanmış platformlarda tekrar sipariş'
+        - 'İhracat belgeleri dahil'
+    - tier: 'Özel Kalıp'
+      moq: 'Proje yapılandırmasıyla belirlenir'
+      margin_note: 'Kalıp imalatı 15–20 gün ekler'
+      features:
+        - 'Yeni board formu ve kalıp geliştirme'
+        - 'Tam teknik özellik kontrolü'
+        - 'Öncelikli üretim tahsisi'
+
+product_line:
+  title: 'Tam Ürün Hattı'
+  subtitle: 'Mağazanızdaki her segment için bir üretim platformu.'
+  items:
+    - name: 'Genel Amaçlı Seri'
+      description: 'Çok yönlü form — en yaygın başlangıç platformu'
+    - name: 'Tur Serisi'
+      description: 'Uzun mesafe küreği için deplasman gövdesi'
+    - name: 'Yoga Serisi'
+      description: 'Wellness segmenti için geniş, kararlı platform'
+    - name: 'Çocuk Serisi'
+      description: 'Daha genç kürekçiler için kısa, hafif boardlar'
+    - name: 'Yarış Serisi'
+      description: 'Tutkunlu kullanıcı segmenti için hızlı gövdeler'
+    - name: Aksesuarlar
+      description: 'Hattı tamamlayan kürekler, yelekler, pompalar ve çantalar'
+
+catalog:
+  title: 'Perakende Ortak Kaynakları'
+  subtitle: 'Teknik özellikler, sipariş detayları ve ürün belgeleri.'
+  items:
+    - name: '2026 Ürün Kataloğu'
+      desc: 'Teknik özellikler ve sipariş bilgileriyle tam ürün hattı'
+      icon: 'tabler:file-text'
+      link: '/tr/products'
+    - name: 'Perakende Ortak Rehberi'
+      desc: 'Teknik özellik rehberi, sipariş süreci ve kalite kontrol standartları'
+      icon: 'tabler:book'
+      link: '/tr/products'
+    - name: 'Ürün ve Teknik Varlıklar'
+      desc: 'Yüksek çözünürlüklü ürün fotoğrafları, yaşam tarzı görselleri ve teknik belgeler'
+      icon: 'tabler:photo'
+      link: '/tr/products'
+
+support:
+  title: 'Üretim Desteği'
+  subtitle: 'Üretim ortağınızın sipariş çevresinde sağladığı hizmetler.'
+  items:
+    - 'Toplu üretim öncesi fiziksel numune'
+    - 'Tolereans ve kalite kontrolü: her board sevkiyattan önce basınç testine tabi tutulur'
+    - 'Teknik özellik desteği — formlar, grafikler, EVA yerleşimi, aksesuarlar'
+    - 'Kesinleşmiş sipariş sonrasında 25–35 günlük toplu teslim süresi'
+    - 'Müşterileriniz için yedek parça ve onarım rehberliği'
+    - "İhracat ve belgeler: Çin Qingdao'dan FOB/CIF/DDP"
+
+content_html: |
+  <div class="mx-auto max-w-3xl space-y-4 rounded-2xl border bg-card p-6 text-[14.5px] leading-relaxed text-fg-2">
+    <p><strong>Okumaya devam edin:</strong> <a href="/tr/oem-manufacturing">OEM/ODM üretim programının</a> tamamını görün — numune, pilot ve hacim aşamalarına göre proje bazında doğrulanmış MOQ, özel marka kimliği ve CE uyumluluğu — veya <a href="/tr/oem-moq-guide">MOQ ve Esnek Markalama Rehberi</a>ni okuyun ya da perakendeye hazır kalite kontrolün nasıl yürütüldüğünü görmek için <a href="/tr/factory">fabrikayı</a> gezin.</p>
+  </div>
+
+cta:
+  title: 'Perakende Ürün Hattınızı Görüşelim'
+  subtitle: 'Gereksinimlerinizi gönderin — ekibimiz 1 iş günü içinde yanıt verir.'
+  actions:
+    - text: 'Gereksinimlerinizi Gönderin'
+      href: '/tr/contact'
+      variant: 'primary'
+    - text: 'Ürün Platformlarını Görün'
+      href: '/tr/products'
+      variant: 'secondary'

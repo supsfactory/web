@@ -1,0 +1,81 @@
+meta:
+  title: 'SUP Fabrikamızı Doğrulayın | Qingdaoda Ziyaret, Denetim ve Muayene'
+  description: "Taahhüt vermeden önce SUP fabrikasını nasıl doğrulayacağınız: fabrika ziyareti planlayın, üçüncü taraf denetimi veya muayene yaptırın ve Çin Qingdao'da kalite kontrolü kayıtlarını, parti izlenebilirliğini ve sertifikaları inceleyin."
+  dateModified: '2026-09-23'
+  keywords:
+    - 'sup fabrikasını doğrula'
+    - 'qingdao sup fabrikası ziyareti'
+    - 'sup fabrikası denetimi'
+    - 'üçüncü taraf sup muayenesi'
+    - 'şişirilebilir paddle board fabrikası doğrulaması'
+
+hero:
+  tagline: Fabrika Doğrulaması
+  title: 'Taahhüt Vermeden Önce SUP Fabrikasını Doğrulayın'
+  subtitle: 'Bir fabrikaya güvenerek yaklaşmamalısınız. İlk siparişinizden önce ziyaret planlayın, bağımsız bir denetim veya muayene yaptırın ve sertifikaları, kalite kontrolü kayıtlarını ve parti izlenebilirliğini inceleyin — hepsi ciddi alıcılara açıktır.'
+
+answer:
+  label: 'Doğrudan cevap'
+  text: 'iSupfactory tesisi, Çin Shandong Qingdao şehrinde 350+ işçi, 4 otomatik üretim hattı ve 4 uzmanlaşmış atölyeden oluşan 12.500 m² bir tesistir. Alıcılar onu dört şekilde doğrulayabilir: tesise yıl boyunca ziyaret etmek, denetimlere eşlik etmek veya denetim talep etmek (BSCI, ISO 9001), üçüncü taraf muayenesi yaptırmak (SGS, TÜV, BV, Intertek; ISO 2859-1 Seviye II numune alma) veya belgelenmiş kanıtları incelemek — sertifikalar, 100 noktalık montaj kontrol listeleri, 18.0 PSI 24 saatlik basınç tutma raporları ve seri etiketi başına 10 yıllık ERP parti izlenebilirliği.'
+  verified: 'Eylül 2026'
+
+features:
+  title: 'Fabrikayı Doğrulama Yolları'
+  subtitle: 'Dört doğrulama rotası; her biri proje uzmanınız tarafından düzenlenir — birini seçin veya birleştirin.'
+  items:
+    - title: 'Fabrika Ziyareti Planlayın'
+      description: "Qingdao'da alıcı ziyaretlerini yıl boyunca ağırlıyoruz; havalimanı karşılaması ve fabrika zemininde gezi, tarihlerinize göre düzenlenir. NDA istediğiniz an imzalanır."
+      icon: 'tabler:map-pin'
+    - title: 'Üçüncü Taraf Denetimi'
+      description: 'BSCI ve ISO 9001 denetim raporları talep üzerine mevcuttur ve eşlik edilen denetimler memnuniyetle karşılanır; böylece denetçiyle birlikte zeminleri gezebilirsiniz.'
+      icon: 'tabler:clipboard-check'
+    - title: 'Bağımsız Muayene'
+      description: 'ISO 2859-1 Seviye II numune alma yöntemiyle SGS, TÜV, BV veya Intertek ile sevkiyat öncesi veya üretim ortası muayene — maliyeti size ait, düzenlemesi bize ait, raporu doğrudan size iletilir.'
+      icon: 'tabler:zoom-check'
+    - title: 'Belge İncelemesi'
+      description: 'Sertifika kopyaları, giriş, süreç içi ve nihai muayene kayıtları, basınç tutma testi raporları ve parti izlenebilirlik dosyaları, taahhüt vermeden önce paylaşılır.'
+      icon: 'tabler:file-search'
+    - title: 'Canlı Video Turu'
+      description: 'Henüz seyahat edemiyor musunuz? Sipariş vermeden önce canlı bir görüşmeyle üretim zeminini geziyoruz — drop stitch işleme, kaynak, baskı, montaj, test ve paketleme.'
+      icon: 'tabler:device-camera-phone'
+
+faq_section:
+  tagline: 'Doğrulama Soruları'
+  title: 'Fabrika Doğrulaması ve Muayene Soruları ve Yanıtları'
+  questions:
+    - q: 'Fabrika nerede?'
+      a: 'Tesis, Çin Shandong Qingdao şehrindedir — 350+ işçi, 4 otomatik hat ve 4 uzmanlaşmış atölyeden oluşan 12.500 m² bir tesis. Adres ve harita, doğrulanmış alıcılarla ziyaret planlarken paylaşılır ve çağrı adresi sözleşmelerde, BSCI denetiminde ve ihracat belgelerinde yer alır.'
+    - q: 'Fabrika ne üretiyor?'
+      a: 'Şişirilebilir SUP boardları — gövde mühendisliği ve drop stitch çekirdek işlemeden grafiklere, montaja, testlere ve ihracat paketlemeye kadar. Tüm temel SUP süreçleri tek çatı altında yürür.'
+    - q: 'Hangi süreçler şirket içinde yapılıyor?'
+      a: 'Gövde tasarımı, boyut mühendisliği, drop stitch çekirdek işleme, RF kaynak, grafik baskısı, EVA ped kalıplama, özel kalıp imalatı, montaj, test ve paketleme tamamı şirket içindedir. Aksesuarlar ve bazı hammaddeler sertifikalı tedarikçilerden gelir ve izlenebilirlik için şirket içinde takım halinde hazırlanır.'
+    - q: 'Alıcılar fabrikayı ziyaret edebilir mi?'
+      a: 'Evet. Alıcı ziyaretleri Qingdao da yıl boyunca ağırlanır. Qingdao Jiaodong Uluslararası Havalimanı havalimanı karşılaması ve eksiksiz fabrika zemininde gezi, proje uzmanınız tarafından düzenlenir.'
+    - q: 'Alıcılar üçüncü taraf muayenesi ayarlayabilir mi?'
+      a: 'Evet. SGS, TÜV, BV ve Intertek muayeneleri üretim öncesi veya üretim sırasında memnuniyetle karşılanır. Sevkiyat öncesi muayene ISO 2859-1 Seviye II numune alma yöntemini kullanır ve rapor muayene kuruluşundan doğrudan size gönderilir.'
+    - q: 'Alıcılar kalite kontrolü belgeleri talep edebilir mi?'
+      a: 'Evet. Sertifika kopyaları, giriş, süreç içi ve nihai muayene kayıtları, 18.0 PSI 24 saatlik basınç tutma raporları ve 100 noktalık montaj kontrol listesi talep üzerine parti başına düzenlenir.'
+    - q: 'Parti izlenebilirliği nasıl yönetiliyor?'
+      a: 'Her board bir seri etiketi taşır. Partiler, kumaş rulosunu, malzemeleri, üretim tarihini, operatörleri ve test sonuçlarını her seri numarasına bağlayan 10 yıllık bir ERP kaydında tutulur.'
+    - q: 'Onaylanan numune nasıl kullanılıyor?'
+      a: 'Onaylanan numune üretim referansı haline gelir. Malzemeler, ölçüler, grafikler, aksesuarlar ve kaplama her kalite kontrolü kapısında ona göre eşleştirilir; böylece üretim, onay verdiğiniz şeyle örtüşür.'
+    - q: 'Üretim kalitesi nasıl kontrol ediliyor?'
+      a: '7 aşamalı bir kalite sistemi (Düğüm 01–07), gelen malzeme, süreç içi ve nihai muayene kapılarını yürütür; 18.0 PSI 24 saatlik basınç tutma testi (0.50 PSI üzeri düşüşte otomatik ret) ve ISO 2859-1 Seviye II numune almaya göre hat sonu serbest bırakma uygulanır.'
+
+cta:
+  title: 'Önce doğrulayın, sonra taahhüt edin'
+  subtitle: 'Bir tesis turu planlayın veya doğrulama belgelerini talep edin — proje uzmanı bir iş günü içinde yanıt verir.'
+  actions:
+    - variant: primary
+      text: 'Fabrika Doğrulama Görüşmesi Planlayın'
+      href: /tr/contact
+    - text: 'Kanıt Merkezi — fabrika kanıtları'
+      href: /tr/proof-center
+    - text: 'Fabrika denetim kontrol listesi'
+      href: /tr/factory-audit-checklist
+    - text: 'OEM güven ve fabrika güvencesi'
+      href: /tr/oem-trust-assurance
+    - text: 'Kalite ve testler'
+      href: /tr/quality
+    - text: 'Fabrika ve üretim'
+      href: /tr/factory

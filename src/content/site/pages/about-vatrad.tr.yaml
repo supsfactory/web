@@ -1,0 +1,100 @@
+meta:
+  title: 'Vatrad Hakkında — deniz ürünleri üretim birimi'
+  description: 'Vatrad, 2012 yılında Çin’in Qingdao kentinde kurulan Qingdao Vatrad Group’un deniz ürünleri üretim birimidir — iSupfactory özel projelerinin arkasındaki fabrika.'
+  dateModified: '2026-08'
+  keywords:
+    - 'Vatrad'
+    - 'çin sup fabrikası'
+    - 'şişirilebilir sup üreticisi'
+    - 'qingdao vatrad group'
+hero:
+  tagline: Vatrad Hakkında
+  title: 'Vatrad — {SITE} arkasındaki deniz ürünleri üretim birimi'
+  subtitle: '2012 yılında Çin’in Qingdao kentinde kurulan Vatrad, iSupfactory özel projelerinin arkasındaki şişirilebilir su araçlarını ve SUP tahtalarını üretir — 12.500 m²lik fabrika, 350’den fazla çalışan ve yıllık 120.000+ adet kapasite.'
+  actions:
+    - text: 'Özel Bir Proje Başlatın'
+      href: /tr/contact
+      variant: primary
+    - text: 'Fabrikayı Görün'
+      href: /tr/factory
+      variant: secondary
+intro: |
+  <p><strong>Vatrad</strong>, Çin’in Shandong eyaleti, Qingdao, Laixi Ekonomik Gelişim Bölgesi’nde yer alan <strong>Qingdao Vatrad Group Co., Ltd.</strong> şirketinin deniz ürünleri üretim birimidir. 2012 yılında kurulan şirket, deniz ustalığına adanmış uzmanlaşmış bir su aracı atölyesi olarak yola çıkmış ve 50’den fazla ülkede OEM ve ODM müşterilerine hizmet veren sertifikalı bir fabrikaya dönüşmüştür.</p>
+  <p>iSupfactory, Vatrad fabrikasının B2B özel geliştirme birimidir. İlk numune veya küçük partili ortak marka üretiminden eksiksiz özel marka ürün hattına kadar her iSupfactory projesi, burada tanımlanan aynı tesiste, aynı ekiplerle ve aynı kalite sistemiyle üretilir.</p>
+  <p>Fabrika 12.500 m² alana yayılmıştır; PVC kesimi, drop-stitch çekirdek montajı, yüksek frekanslı kaynak, tahta montajı ve hava tutma, basınç tutma ile dikiş dayanımı testleri için ayrılmış bir test alanı içerir. Üretim kapasitesi yılda 120.000 adedin üzerindedir ve tesis, ihracat ürünleri için onaylanmış CE, BSCI, REACH ve USCG uyumu ile ISO 9001 kalite yönetimi altında çalışır.</p>
+  <p>350’den fazla nitelikli işçi ve 14’ten fazla Ar-Ge mühendisi, SUP markaları için kritik iki iş akışını destekler: mühendislik (gövde tasarımı, malzeme seçimi, prototip) ve üretim (grafik uygulama, montaj, denetim, ihracat ambalajı). PVC kumaş laboratuvarı ve test tankı içeren kendi Ar-Ge merkezimiz, seri üretim başlamadan önce özel kalıpları ve yapı doğrulamasını yürütür.</p>
+stats:
+  title: Rakamlarla Vatrad
+  stats:
+    - title: Kuruluş
+      amount: 2012
+    - title: Tesis
+      amount: '12.500 m²'
+    - title: Hizmet Verilen Ülke
+      amount: '50+'
+    - title: Yıllık Kapasite
+      amount: '120.000+ adet'
+    - title: Çalışan
+      amount: '350+'
+    - title: Ar-Ge Mühendisi
+      amount: '14+'
+values_section:
+  title: 'Fabrika Markalarla Nasıl Çalışır'
+  subtitle: 'Vatrad fabrikasının ürettiği her projeyi şekillendiren üç ilke.'
+  columns: 3
+  items:
+    - title: 'Üretimden Önce Mühendislik'
+      description: 'Her proje teknik şartname, çizim ve fiziksel numune ile başlar — gövde biçimi, drop-stitch sınıfı, grafik yerleşimi ve ambalajlama, üretim hattında keşfedilmeden önce her üretim çalıştırması öncesinde doğrulanır.'
+      icon: 'tabler:settings'
+    - title: 'Tek Ekip, Tek Tesis'
+      description: 'Tasarım, kesim, kaynak, montaj ve testler tek bir 12.500 m² tesiste gerçekleşir. Ticaret şirketi devir yoktur: sorularınızı yanıtlayan kişiler, tahtalarınızı üreten kişilerin aynısıdır.'
+      icon: 'tabler:building-factory-2'
+    - title: 'Küçük İlk Partiler'
+      description: 'Küçük partili ortak marka çalışmaları 5–10 adetle başlar, standart hacim üretimi ise parti başına 90–100+ adet (bir 150 m drop-stitch rulo) ile yürür; böylece markalar ölçeklemeden önce pazarı doğrular, kalıp ve görseller yeniden siparişler için saklanır.'
+      icon: 'tabler:layers-intersect'
+services_section:
+  title: 'Fabrikanın Sunduğu Hizmetler'
+  subtitle: 'iSupfactory müşterilerine sunulan üretim hizmetleri.'
+  columns: 2
+  items:
+    - title: 'Özel SUP Geliştirme'
+      description: 'Özel şişirilebilir SUP ürünleri için gereksinim değerlendirmesi, şartname, malzeme seçimi, grafik tasarım, prototip, numune onayı ve üretim.'
+      icon: 'tabler:bulb'
+    - title: 'Özel Marka Üretimi'
+      description: 'Kanıtlanmış ticari sınıf platformlarda sizin logonuz, renkleriniz ve ambalajınız — tahta, güverte pedi, aksesuarlar ve kolilerin tamamı sizin kimliğinizi taşır, fabrika markası bulunmaz.'
+      icon: 'tabler:tag'
+    - title: 'OEM / ODM Üretimi'
+      description: 'Müşteri çizimlerinden veya birlikte geliştirilen tasarımlardan eksiksiz OEM ve ODM şişirilebilir SUP üretimi; yeni tahta biçimleri için özel kalıplar dahil.'
+      icon: 'tabler:package'
+    - title: 'Filo Tedariki'
+      description: 'Tatil tesisleri, kulüpler, okullar ve kiralama işletmecileri için markalı tahta filoları; uyumlu aksesuarlar ve filo dostu üretim partileri ile.'
+      icon: 'tabler:users-group'
+certifications_section:
+  title: 'Sertifika ve Uyum'
+  subtitle: 'Fabrika, belgelenmiş bir uyum sistemiyle AB, ABD ve Asya-Pasifik’e sevkiyat yapar.'
+  columns: 2
+  items:
+    - title: 'CE Sertifikası'
+      description: 'Şişirilebilir SUP ve su aracı ürün hatları AB güvenlik direktiflerine uygundur; her pazar için belge paketi sağlanır.'
+      icon: 'tabler:certificate'
+    - title: 'ISO 9001 Kalite Sistemi'
+      description: 'Üretim tesisi, giriş malzemesi, süreç içi ve son denetim kapsamındaki ISO 9001 kalite yönetim sistemiyle çalışır.'
+      icon: 'tabler:badge-check'
+    - title: 'BSCI Sosyal Uyum'
+      description: 'Çalışma koşulları ve fabrika uyumunu kapsayan BSCI kapsamında denetlenen sosyal sorumluluk.'
+      icon: 'tabler:shield-check'
+    - title: 'REACH Malzeme Uyumu'
+      description: 'Malzemeler, kimyasal güvenlik için AB REACH yönetmeliğine uygundur.'
+      icon: 'tabler:flask'
+    - title: 'USCG Onayı'
+      description: 'Şişirilebilir su aracı ürün hatları için ABD Sahil Güvenliği onaylı üretim.'
+      icon: 'tabler:anchor'
+    - title: 'Ürün Testleri'
+      description: 'Her üretim hattında kaldırma kuvveti, yük kapasitesi, dikiş dayanımı, UV ve aşınma direnci ile basınç tutma testleri.'
+      icon: 'tabler:test-pipe'
+cta:
+  title: 'SUP projenizi Vatrad fabrikasıyla birlikte geliştirin'
+  subtitle: 'Gereksinimlerinizi gönderin — tahta tipi, ölçü, adet ve grafikler — ve bir iş günü içinde ayrıntılı teklif alın.'
+  actions:
+    - text: 'Marka Kimliği'
+      href: /tr/about/identity

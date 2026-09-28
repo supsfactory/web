@@ -112,7 +112,7 @@ export interface FactShorthands {
   pressureReject: string
 }
 
-export const FACTS_LOCALE: Record<'en' | 'es' | 'fr' | 'de' | 'it' | 'pt' | 'nl' | 'sv' | 'no' | 'pl' | 'da' | 'fi' | 'ru' | 'cs', FactShorthands> = {
+export const FACTS_LOCALE: Record<'en' | 'es' | 'fr' | 'de' | 'it' | 'pt' | 'nl' | 'sv' | 'no' | 'pl' | 'da' | 'fi' | 'ru' | 'cs' | 'tr', FactShorthands> = {
   en: {
     moq: {
       existingPlatform: FACTS.moq.existingPlatform,
@@ -308,6 +308,20 @@ export const FACTS_LOCALE: Record<'en' | 'es' | 'fr' | 'de' | 'it' | 'pt' | 'nl'
     assemblyChecklist: '100',
     pressureTest: '18.0 PSI · 24 h udržení tlaku',
     pressureReject: 'pokles tlaku >0,50 PSI/24 h (automatická reklamace)',
+  },
+  tr: {
+    moq: {
+      existingPlatform: '5–10 adet (yalnızca mevcut şekle logo, aynı malzeme rulosu)',
+      trialStandard: '20–50 adet (özel grafik veya küçük özellik değişikliği, aynı malzeme rulosu)',
+      standardRun: 'onaylı yapılandırma başına 90–100+ adet; malzeme rulosu ve paketleme gereksinimlerine tabidir',
+      customMould: '90–100+ adet (yeni şekil özel kalıp gerektirir; kalıp üretimi 15–20 gün ekler)',
+    },
+    leadTime: '25–35 gün',
+    leadTimeDetail: 'Onaylı PO ve depozitodan itibaren 25–35 gün; özel kalıp geliştirme, kalıp üretimine 15–20 gün ekler.',
+    sampleTime: '7–12 gün',
+    assemblyChecklist: '100',
+    pressureTest: '18.0 PSI · 24 saat basınç tutma',
+    pressureReject: '>0,50 PSI/24 sa basınç düşüşü (otomatik ret)',
   },
 }
 

@@ -1,0 +1,108 @@
+meta:
+  title: 'Üretim Süreci — Hammaddeye Den SUP’a'
+  description: 'Hammaddeye denize hazır SUP’a: Vatrad üretim sürecinin kontrolümüz altındaki her adımı, kesim ve kaynaktan testlere kadar.'
+  dateModified: '2026-08'
+  keywords:
+    - 'sup üretim süreci'
+    - 'şişirilebilir sup fabrikası'
+    - 'kürek tahtası üretim adımları'
+    - 'pvc kaynak sup'
+hero:
+  tagline: Süreç
+  title: Üretim Süreci
+  subtitle: 'Hammaddeye denize hazır SUP’a kadar — her adım kontrolümüz altında'
+  back_label: 'Fabrikaya Dön'
+  back_link: /tr/factory
+
+answer:
+  label: 'Net cevap'
+  text: 'Tahtalar beş kontrollü aşamadan geçer: malzeme denetimi (1–2 gün), CNC otomatik kesim (israf %5’in altında, kit başına 2–4 saat), RF destekli dikişlerle tüp ısı yapıştırma (tahta başına 1–2 gün), drop-stitch çekirdek yapıştırma ve ambalajlamadan önce %100 hava tutma ile yük testi.'
+  verified: 'Eylül 2026'
+
+intro: 'Üretimi üçüncü taraf fabrikalara devreden markalardan farklı olarak Vatrad, üretim zincirinin tamamına sahiptir ve kendisi işletir. Bu dikey entegrasyon bize her aşamada sıkı kalite kontrolü sürdürme, özel gereksinimlere hızlı yanıt verme ve parti parti tutarlı ürün kalitesi sunma olanağı verir. Bir SUP tahtasının tesisimizde nasıl üretildiği şöyledir.'
+
+steps:
+  - step: '01'
+    title: Malzeme Kabulü ve Denetimi
+    description: 'Gelen her PVC kumaş, cam elyaf mat, reçine ve donanım partisi şartnameye karşı denetlenir. Kumaş numuneleri, üretime sevk edilmeden önce çekme dayanımı, kalınlık uniformitesi ve UV direnci açısından test edilir. Uyumsuz malzemeler karantinaya alınır ve iade edilir.'
+    duration: 1–2 gün
+  - step: '02'
+    title: Otomatik PVC Kesimi
+    description: <p>Onaylı kumaşlar otomatik CNC kesim makinesine serilir ve mikrometre altı hassasiyetle kesilir. Bilgisayar optimizasyonlu yerleşim, israfı en aza indirecek şekilde panelleri yerleştirir — tipik olarak %5’in altında. Kesilen paneller SUP modeli ve odaya göre etiketlenir, ardından kaynak atölyesine aktarılmak üzere demetlenir.</p>
+    duration: Tahta kit başına 2–4 saat
+  - step: '03'
+    title: Boru Isı Yapıştırma ve Kaynağı
+    description: 'Paneller, 200–300 °C kontrollü sıcaklıkta sıcak hava kaynağıyla ısı yapıştırma makinelerinde geçici olarak sabitlenir ve birleştirilir. Ana dikişler, hava sızdırmaz ve yüksek dayanımlı birleşimler için RF dielektrik kaynakla güçlendirilir. Tamamlanan odalar, 24 saatlik tutma öncesinde ilk hava sızdırmazlık kontrolü için 18.0 PSI’a şişirilir.'
+    duration: SUP tahta başına 1–2 gün
+  - step: '04'
+    title: Drop-Stitch Çekirdek Yapıştırması
+    description: 'SUP tahtası drop-stitch çekirdekleri ısı laminasyonu ile dış PVC katmanlarına yapıştırılır. Binlerce iç polyester iplik üst ve alt katmanı birbirine bağlayarak 12-15 PSI’da rijit bir yapı oluşturur. Ray bantları kenar dayanımı için üç katmanlı füzyonla yapıştırılır.'
+    duration: Tahta başına 1–2 gün
+  - step: '05'
+    title: SUP Baskısı ve Dekorasyonu
+    description: 'SUP tahta güverte grafikleri, tam renkli ve fotoğraf kalitesinde tasarımlar için dijital baskı, dayanıklı logolar ve tekrarlayan desenler için ekran baskısı ile uygulanır. Baskılar, UV ve aşınma direnci için sertleştirilir ve mühürlenir.'
+    duration: 1–2 gün
+  - step: '06'
+    title: Son Montaj ve Aksesuar Takımı
+    description: 'Supaplar, D halkaları, tutamaklar, fin kutuları ve güverte pedleri montaj hattında takılır. Her tahta, her aşamada zorunlu onay içeren 100 maddelik montaj kontrol listesini izler.'
+    duration: 1–2 gün
+  - step: '07'
+    title: Kalite Testi ve Denetim
+    description: 'Tamamlanan her tahta zorunlu kalite kapısından geçer: oda hava tutma testi, donanım işlev kontrolü, bağlantı elemanı tork doğrulaması ve kozmetik denetim. Özel ve prototip üretimler ayrıca stabilite ve kullanımı kapsayan su üstü denemelere tabi tutulur.'
+    duration: 1–2 gün
+  - step: '08'
+    title: Ambalajlama ve Sevkiyat
+    description: 'Tahtalar indirilir, prosedüre göre katlanır, ağır işçilik dokuma çantalara veya perakende kutularına ambalajlanır ve sevkiyata yüklenir. Her paket model, seri numarası ve varış yeri ile etiketlenir. Dünya genelinde FCL ve LCL konteyner sevkiyatları için nakliyecilerle koordine ederiz.'
+    duration: 1 gün
+evidence_gates:
+  tagline: Denetim Kanıtı
+  title: 'Her Aşama Bir Kayıt Bırakır — Fotoğraflar ve Raporlar'
+  subtitle: 'Aşağıda yedi kontrollü kalite kapımızdan gelen gerçek denetim fotoğrafları ve test raporu dosyaları bulunmaktadır. Her PDF, indirebileceğiniz ve denetleyebileceğiniz gerçek bir iki dilli kayıttır — 10 yıllık ERP izlenebilirlik arşivindeki her partiyi destekleyen aynı kayıtlar. 7 aşamalı akışın tamamını /tr/quality sayfasında görün.'
+  items:
+    - title: 'PPM — Proje Kalite Planlaması'
+      description: 'Üretim öncesi toplantı, hat başlamadan önce kapsamı, altın numuneyi ve Kalite Denetim Planını kilitler. Çözümlenmemiş maddeler üretim onayını engeller.'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_SUP_OEM_QIP.pdf
+      link_label: 'QIP İndir (PDF)'
+      image: https://assets.isupfactory.com/site/quality/node01-ppm.avif
+      alt: Bir OEM SUP siparişi için altın numune ve kalite denetim planını gözden geçiren üretim öncesi toplantı
+    - title: 'IQC — Giriş Malzemesi Denetimi'
+      description: 'Gelen her PVC, kumaş ve donanım partisi onaylı şartnameye karşı kontrol edilir. Uyumsuz partiler hatta sevk edilmeden önce karantinaya alınır ve reddedilir.'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_IQC_TEST_REPORTS.pdf
+      link_label: 'IQC raporlarını indir (PDF)'
+      image: https://assets.isupfactory.com/site/quality/node02-iqc.avif
+      alt: Fabrikada PVC kumaş ve SUP bileşenlerinin giriş malzemesi denetimi
+    - title: 'IPQC / FAI — Süreç İçi Kontrol'
+      description: 'İlk ürün kilitlenmiş temel değerlere karşı doğrulanır ve her vardiya hat üzerinde devriye kontrollerini sürdürür. FAI onayı görsel sanatı, ölçüleri ve BOM’u sürüm kilidine alır.'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_IPQC_TEST_REPORTS.pdf
+      link_label: 'IPQC raporlarını indir (PDF)'
+      image: https://assets.isupfactory.com/site/quality/node03-ipqc-fai.avif
+      alt: SUP üretimi sırasında süreç içi denetim ve ilk ürün kontrolü
+    - title: 'Şişirme ve Hava Sızdırmazlığı Testi'
+      description: 'Tamamlanan tahtaların %100’ü — numune değil — 18.0 PSI’da 24 saatlik basınç tutmadan geçer ve 0.50 PSI düşümün üzerinde otomatik ret uygulanır. Oda başına bir kayıt.'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_AIRTIGHTNESS_TEST_REPORTS.pdf
+      link_label: 'Hava sızdırmazlığı raporlarını indir (PDF)'
+      image: https://assets.isupfactory.com/site/quality/node04-airtightness.avif
+      alt: Şişirilebilir bir SUP odasının şişirme ve hava sızdırmazlığı testi
+    - title: 'FQC — Son Ürün Denetimi'
+      description: 'Tamamlanan tahtalar, çizim toleranslarına karşı ölçülür ve onaylı altın numuneye karşı D65 gün ışığı lambaları altında kozmetik olarak derecelendirilir.'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_FQC_TEST_REPORTS.pdf
+      link_label: 'FQC raporlarını indir (PDF)'
+      image: https://assets.isupfactory.com/site/quality/node05-fqc.avif
+      alt: Ambalajlamadan önce tamamlanmış SUP tahtalarının son ürün denetimi
+    - title: 'PSI — Ambalajlama ve Sevk Öncesi Denetim'
+      description: 'Ambalajlanmış set, müşteri onaylı BOM’a karşı %100 kontrol edilir — yüklemeden önce barkod taraması (Derece ≥ B), koli işaretleri ve ISTA-1A düşürme testi.'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_PSI_TEST_REPORTS.pdf
+      link_label: 'PSI raporlarını indir (PDF)'
+      image: https://assets.isupfactory.com/site/quality/node06-psi.avif
+      alt: Ambalajlanmış SUP setinin BOM’a karşı sevk öncesi denetimi
+    - title: 'Sevkiyat Onayı ve İzlenebilirlik'
+      description: 'Kalite, ancak önceki altı kapının tamamı kapandığında partiye onay verir. Seri numaraları partiyle eşleştirilir ve dosya sevkiyatla birlikte teslim edilir.'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_SHIPMENT_RELEASE_REPORTS.pdf
+      link_label: 'Sevkiyat onay raporlarını indir (PDF)'
+      image: https://assets.isupfactory.com/site/quality/node07-shipment-release.avif
+      alt: Sevkiyat onay imzası ve parti izlenebilirlik kaydının teslimi
+cta:
+  title: 'Ekipman ve makinelerimizi görün'
+  desc: 'Her Vatrad SUP tahtasının arkasındaki endüstriyel sınıf ekipmanı keşfedin.'
+  label: 'Ekipmanı görün →'
+  link: /tr/factory/equipment

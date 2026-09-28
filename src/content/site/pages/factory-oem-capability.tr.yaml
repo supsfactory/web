@@ -1,0 +1,74 @@
+meta:
+  title: 'OEM ve Özel Marka Üretimi | {SITE}'
+  description: 'Konseptten üretime: şişirilebilir SUP hattınızın her ayrıntısını özelleştirin. Özel marka kürek tahtası markaları için eksiksiz OEM/ODM hizmeti.'
+  dateModified: '2026-08'
+  keywords:
+    - 'oem sup üretimi'
+    - 'özel marka kürek tahtası'
+    - 'oem şişirilebilir sup'
+    - 'özel sup fabrikası'
+hero:
+  tagline: OEM/ODM Üretimi
+  title: OEM ve Özel Marka Üretimi
+  subtitle: 'Konseptten üretime kadar — şişirilebilir SUP hattınızın her ayrıntısını özelleştirin'
+
+answer:
+  label: 'Net cevap'
+  text: 'MOQ, sabit bir sayı yerine proje yapılandırmasıyla belirlenir: her proje numune (1–2 adet) ve pilot (20–50 adet) aşamalarından geçer; standart hacim üretimi tam bir 150 m drop-stitch rulosundan parti başına 90–100+ adet ile yürür. Numuneler 7–12 günde hazırdır; standart üretim onaylanmış PO ve depozitodan itibaren 25–35 gün sürer.'
+  verified: 'Eylül 2026'
+
+intro: 'Vatrad, dünya genelindeki markalar, distribütörler ve kamu kurumları için kapsamlı OEM ve ODM hizmetleri sunar. 10 yılı aşkın ihracat deneyimi ve 12.500 m²lik ISO 9001 ile BSCI sertifikalı fabrikamızla, ürün tasarımı ve kalıp geliştirmeden tam ölçekli üretim, ambalajlama ve ihracat yönetimine kadar her adımı yürütürüz.'
+
+highlight:
+  - value: 10+
+    label: Yıllık OEM deneyimi
+    detail: 2012’den bu yana
+  - value: 50+
+    label: İhracat ülkesi
+    detail: Küresel erişim
+  - value: 200+
+    label: Teslim edilen özel proje
+    detail: Tüm ürün hatlarında
+  - value: 25–35
+    label: Standart teslim süresi (gün)
+    detail: Onaylanmış PO ve depozito sonrasında
+
+services:
+  - title: Ürün Tasarımı ve Mühendislik
+    description: 'Kendi Ar-Ge ekibimiz konseptiniz veya şartnamenizle çalışarak CAD çizimleri, 3B modeller ve prototipler geliştirir. Kalıp tasarımı, gövde biçimi optimizasyonu ve malzeme seçimi yönlendirmesi sunuyoruz.'
+  - title: Özel Markalama ve Grafikler
+    description: 'Tam renkli dijital baskı, ekran baskısı, kabartma ve etiket seçenekleri. Markanıza özel güverte grafikleri, tüp markalaması ve perakendeye hazır ambalajlama geliştiriyoruz.'
+  - title: Malzeme ve Şartname Özelleştirmesi
+    description: 'PVC (standart, çevre dostu, alev geciktirici), Hypalon/CSM, drop-stitch ve hibrit yapılar arasından seçim yapın. Özel tüp renkleri, kumaş ağırlıkları ve takviye seçenekleri.'
+  - title: Ambalajlama ve Lojistik
+    description: 'Özel perakende ambalajı, özel marka kutuları, vakum ambalajlama, paletleme ve içeride hazırlanan ihracat kalitesinde ambalajlama.'
+
+moq_table:
+  - product: Şişirilebilir SUP Tahtaları
+    standard_moq: 'Numune 1–2 | Pilot 20–50'
+    custom_moq: 'Hacim 90–100+ (150 m rulo başına)'
+    lead_time: 25–35 gün
+
+why_us:
+  - title: Dikey Entegrasyon
+    description: 'Fabrikamız, kalıplarımız ve tedarik zincirimiz bize ait — aracı yok, taşeron yok. Bu bize kalite, maliyet ve teslim üzerinde kontrol sağlar.'
+  - title: Çift Sertifikasyon
+    description: 'ISO 9001 kalite yönetimi ve BSCI sosyal uyum sertifikası. Fabrika denetim raporları talep üzerine mevcuttur.'
+  - title: CE Uyumu
+    description: 'CE sertifikası AB pazarlarına yönelik modeller için geçerlidir (kapsam proje bazında teyit edilir). Özel modeller, yerleşik sürecimizle CE sertifikalı hale getirilebilir.'
+  - title: Projeye Özel MOQ
+    description: 'MOQ, proje yapılandırmanıza göre belirlenir — küçük partili ortak marka 5–10 adetten başlar, standart hacim parti başına 90–100+ adet ile yürür. Gelişmekte olan markaların aşırı stok taşımadan lansman yapmasına yardımcı oluyoruz.'
+
+cta:
+  title: 'Kendi Markanızı Kanıtlanmış Bir Tahtaya Koyun'
+  subtitle: 'Şartname incelemesinden sevk edilmiş konteynere kadar — brifinginizi bugün gönderin ve bir iş günü içinde ayrıntılı OEM teklifi alın. Taahhüt etmeden önce fabrikayı ve kalite sistemini doğrulayın.'
+  actions:
+    - variant: primary
+      text: 'OEM Teklifi Talep Edin'
+      href: /tr/contact#custom-oem
+    - text: 'Fabrikayı ve kalite sistemini doğrulayın'
+      href: /tr/oem-trust-assurance
+    - text: '7 aşamalı denetim sistemi'
+      href: /tr/quality
+    - text: 'Üretim hattını görün'
+      href: /tr/factory/process

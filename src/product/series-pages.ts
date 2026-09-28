@@ -3513,6 +3513,255 @@ export const seriesPages: Localized<SeriesPageData[]> = {
       ],
     },
   ],
+  tr: [
+    {
+      slug: 'all-around',
+      navLabel: 'Genel Amaçlı Platformlar',
+      metaTitle: 'Özel Genel Amaçlı SUP Tahtaları — Şişirilebilir OEM Üreticisi | iSupfactory',
+      metaDescription:
+        'Markanız altında özel genel amaçlı şişirilebilir SUP tahtaları — geniş gövde ile kararlılık, 90–100+ adetten başlayan OEM/ODM hacimleri, numuneler 7–12 günde. Çin, Qingdao fabrikasından doğrudan.',
+      kicker: 'Seri · Genel Amaçlı',
+      h1: 'Özel Genel Amaçlı SUP Tahtaları — Yeni Markalar İçin Varsayılan Başlangıç Platformu',
+      intro: [
+        'Genel amaçlı tahta, SUP kategorisinin iş atıdır: yeni başlayanlara kararlı bir his verecek kadar geniş, orta seviyedekilerin ilgisini canlı tutacak kadar çevik ve her yere götürülebilecek kadar hafif. Yeni markaların ve kiralama filolarının büyük bölümü buradan başlar.',
+        'Genel amaçlı platformları markanız altında 150 m rulo başına 90–100+ adetten (hacim), pilot seriler ise 20–50 adetten başlayarak üretiyoruz. Şekil, kenar, katman dizilimi, renkler, tüm tahta grafikleri ve ambalaj proje bazında belirlenir.',
+      ],
+      faqs: [
+        {
+          q: 'Genel amaçlı bir SUP tahtasını kendi markama göre özelleştirebilir miyim?',
+          a: 'Evet. Her genel amaçlı platform bir üretim tabanıdır — ölçüleri (genellikle 10′6″–11′6″), genişliği, kalınlığı, katman dizilimini (tek veya çift katman ya da fusion), kenar konfigürasyonunu, EVA pedi, tüm tahta grafiklerini ve ambalajı siz belirlersiniz. Özel kalıp şekilleri 90–100+ adetten başlar; standart hacimli üretim ise 150 m rulo başına 90–100+ adettir.',
+        },
+        {
+          q: 'Genel amaçlı SUP tahtaları için minimum sipariş miktarı (MOQ) nedir?',
+          a: 'Standart hacimli seriler 150 m rulo başına 90–100+ adetten başlar; standart platformlarda pilot seriler 20–50 adetten; tamamen özel kalıplama ise şekil başına 90–100+ adetten başlar. Numuneler 7–12 günde gönderilir, seri üretim ise sipariş ve depozitonun onaylanmasından sonra 25–35 gün sürer.',
+        },
+        {
+          q: 'Satışa hazır paket içinde neler yer alır?',
+          a: 'Eksiksiz paket: drop-stitch çekirdekli şişirilebilir tahta, ayarlanabilir kürek, el pompası (veya çift kademeli elektrikli pompa), tamir kiti, taşıma sırt çantası ve baskılı kutu. Aksesuarlar hedef pazarınıza göre değiştirilebilir veya üst seviyeye çıkarılabilir.',
+        },
+        {
+          q: 'Hangi EVA sertlikte güverte üretiyorsunuz?',
+          a: 'Tutuş sağlayan güvenlik pedleri 45–55 Shore C sertliktedir — ayak altında kavrayıcı, güneşte sertleşmeyen orta yumuşak bir yüzey. Kalınlık, oluklama, kesikler ve logo yerleşimi proje bazında belirlenir.',
+        },
+      ],
+    },
+    {
+      slug: 'race',
+      navLabel: 'Yarış',
+      metaTitle: 'Özel Yarış SUP Tahtaları — Şişirilebilir Yarış Platformları OEM | iSupfactory',
+      metaDescription:
+        'Kulüpler, etkinlikler ve markalar için özel şişirilebilir yarış SUP tahtaları — yarış drop-stitch gövdeleri, 90–100+ adetten başlayan OEM hacimleri, CE sertifikalı üretim. Doğrudan fabrikadan.',
+      kicker: 'Seri · Yarış',
+      h1: 'Özel Yarış SUP Tahtaları — Markanız İçin Üretilen Yarış Gövdeleri',
+      intro: [
+        'Yarış tahtaları kararlılığı hız için takas eder: daha uzun ve daha dar profiller, işlenmiş burun şekilleri ve düşük rocker, yer değiştirmeli kürekleme için tasarlanır. Şişirilebilir versiyonlar, taşınabilir bir platform içinde sert tahta yarış performansını karşılar.',
+        'Markalar, kulüpler ve etkinlik düzenleyicileri için yarış platformlarını hassas drop-stitch çekirdekler, yarış spesifikasyonlu katman dizilimleri ve hıza yönelik gövde şekilleriyle üretiyoruz — hidrodinamik test tankımızda istatistiksel olarak sınanan yapıda.',
+      ],
+      faqs: [
+        {
+          q: 'Hangi yarış SUP ölçülerini üretebiliyorsunuz?',
+          a: 'Tipik yarış platformları 12′6″ × 28″ (12′6 yarış sınıfı) ile 14′ × 23″–25″ (sınırsız ve touring yarış formatları) arasında değişir. Genişlik, rocker ve burun profili hedef yarışçı grubuna göre belirlenir ve fiziksel numune üzerinde doğrulanır.',
+        },
+        {
+          q: 'Yarış tahtaları özel bir yapı gerektirir mi?',
+          a: 'Evet — yarış tahtaları, gövdeyi yüksek hızda koruyabilmek için daha hafif, sıkı dokunmuş bir drop-stitch çekirdek, daha yüksek basınç (18–20 PSI) ve daha sert kenar takviyesi kullanır. Katman dizilimi seçenekleri (tek veya çift katman) ağırlık ile rijitlik arasında bir denge kurar; bu seçimi sizinle proje bazında belirleriz.',
+        },
+        {
+          q: 'Kulüpler takımları için yarış tahtası sipariş edebilir mi?',
+          a: 'Evet. Kulüp ve takım programları kulüp grafikleriyle 90–100+ adetten (hacim) başlayan siparişler verir ve tek siparişte yarış ile antrenman platformlarını birlikte talep edebilir. Birleştirilmiş hacimlerde filo fiyatları geçerlidir.',
+        },
+      ],
+    },
+    {
+      slug: 'surf',
+      navLabel: 'Sörf',
+      metaTitle: 'Özel Sörf SUP Tahtaları — Şişirilebilir Hibrit Sörf Platformları OEM | iSupfactory',
+      metaDescription:
+        'Özel şişirilebilir sörf SUP tahtaları — yuvarlak kenarlı ve yüksek rockerlı hibrit sörf profilleri, markanız altında 90–100+ adetten başlayan üretimle Çin, Qingdao.',
+      kicker: 'Seri · Sörf',
+      h1: 'Özel Sörf SUP Tahtaları — Dalga Sörfü İçin Hibrit Platformlar',
+      intro: [
+        'Sörf SUP tahtaları dalga performansını taşınabilir bir platforma taşır: daha kısa uzunluklar, yüksek rocker, yuvarlak kenarlar ve dalganın yüzünde çizgiyi koruyan içbükey burunlar. Şişirilebilir sörf şekilleri, sörf küreklemesine başlamanın en bağışlayıcı yoludur.',
+        'Sörf platformlarını markanız altında, dalgaya özgü formlama ve yapı ayrıntılarıyla üretiyoruz — soft-top tarzı eksiksiz paketlerden performanslı katman dizilimlerine kadar.',
+      ],
+      faqs: [
+        {
+          q: 'Sörf SUP tahtaları hangi ölçülerde sunuluyor?',
+          a: 'Yaygın sörf platformları 8′6″–10′6″ uzunlukta ve yaklaşık 30″–34″ genişliktedir. Uzunluk, rocker ve kenar profili kürekçinin ağırlığı ile dalga tipine göre belirlenir ve üretim öncesi fiziksel numune üzerinde doğrulanır.',
+        },
+        {
+          q: 'Şişirilebilir sörf tahtaları kiralama için yeterince dayanıklı mı?',
+          a: 'Takviyeli kenarlar ve UV dayanımlı PVC ile sörf platformlarımız, sörf okullarındaki kiralama ve eğitim kullanımını kaldırır. Kiralama filoları genellikle genel amaçlı ve sörf şekillerini birlikte kullanır — karışık hacim boyunca filo fiyatları geçerlidir.',
+        },
+        {
+          q: 'Sörf tahtalarında markamızın grafiklerini uygulayabilir misiniz?',
+          a: 'Evet. Tüm tahta üst yüzey grafikleri, taban görseli, EVA tutuş pedleri ve ambalaj sizin çizimlerinizden üretilir ya da tasarım ekibimizce marka varlıklarınızdan geliştirilir.',
+        },
+      ],
+    },
+    {
+      slug: 'touring',
+      navLabel: 'Tur',
+      metaTitle: 'Özel Tur SUP Tahtaları — Uzun Mesafe Platformları OEM | iSupfactory',
+      metaDescription:
+        'Uzun mesafe kürekleme için özel şişirilebilir tur SUP tahtaları — 12′6″ ve üzeri yer değiştirmeli gövdeler, çok günlük seyahat kapasitesi, 90–100+ adetten başlayan OEM hacimleri, doğrudan fabrikadan.',
+      kicker: 'Seri · Tur',
+      h1: 'Özel Tur SUP Tahtaları — Mesafe, Yük ve Uzun Yol İçin Tasarlandı',
+      intro: [
+        'Tur tahtaları uzun ve verimlidir: kayma için sivri burun, açık suda kararlılık için orta hacim ve çok günlük seyahatlerde ekipman taşıyabilecek kadar uzun gövde. Uzun mesafe kürekçileri ve keşif ekipmanı sağlayıcıları için tercih edilen platformdur.',
+        'Tur platformlarını markanız altında yer değiştirmeye uygun formlama, bağlantı noktaları ve yük için güvertede alan ile üretiyoruz; ayrıca karbon uyumlu aksesuar ekosistemleri (bungee, D halkaları, montajlar) sunuyoruz.',
+      ],
+      faqs: [
+        {
+          q: 'Hangi tur SUP ölçülerini üretiyorsunuz?',
+          a: 'Tur platformları genellikle 12′6″–14′ uzunlukta ve 28″–32″ genişliktedir. Daha uzun 14′ gövdeler kaymaya odaklanır; daha geniş versiyonlar yük kararlılığı katar. Spekifikasyonlar toplu üretim öncesi fiziksel numune ile doğrulanır.',
+        },
+        {
+          q: 'Tur tahtaları yük ve bağlantı seçenekleriyle geliyor mu?',
+          a: 'Evet — bungee yük ağları, D halkası ızgaraları, oluk yuvaları ve aksesuar ray sistemleri proje bazında belirlenir. Tur paketlerinde tahta genellikle sırt çantalı taşıma çantaları ve yüksek basınçlı pompalarla birlikte sunulur.',
+        },
+        {
+          q: 'Tur tahtalarını ekipman sağlayıcılarına ve kiralama işletmelerine veriyor musunuz?',
+          a: 'Evet. Ekipman sağlayıcıları ve işletmeler, filo fiyatları, yedek parça desteği ve tanımlanmış mevsimsel yenileme döngüsüyle 20–50 adetten (pilot) başlayan özel tur filoları kurabilir.',
+        },
+      ],
+    },
+    {
+      slug: 'yoga',
+      navLabel: 'Yoga',
+      metaTitle: 'Özel Yoga SUP Tahtaları — Geniş ve Kararlı Platformlar OEM | iSupfactory',
+      metaDescription:
+        'Özel şişirilebilir yoga SUP tahtaları — stüdyolar, resortlar ve eğitmenler için yumuşak güverteli, ekstra geniş kararlı platformlar. 90–100+ adetten başlayan OEM hacimleri, doğrudan fabrikadan.',
+      kicker: 'Seri · Yoga',
+      h1: 'Özel Yoga SUP Tahtaları — Suda Egzersiz İçin Ekstra Geniş Platformlar',
+      intro: [
+        'Yoga tahtaları hareketsizlik için üretilir: kararlı bir zemin sağlayan ekstra genişlik ve hacim, ellere ve ayaklara uygun yumuşak yüzeyler ve tahtayı suya yakın tutan alçak profiller. Suda yoga programları yürüten stüdyolar, resortlar ve eğitmenler için tasarlanmıştır.',
+        'Yoga platformlarını markanız altında en geniş ve en kararlı profillerle, premium EVA güverte kaplamasıyla ve stüdyo ile resort filoları için program ölçeğinde seçeneklerle üretiyoruz.',
+      ],
+      faqs: [
+        {
+          q: 'Bir SUP tahtasını yoga için uygun yapan nedir?',
+          a: 'Her şeyden önce kararlılık: ekstra genişlik (33″–36″) ve hacim, tahtayı düz ve sabit tutar. Yumuşak dokulu EVA güverte elleri, dizleri ve ayakları korur; alçak kenar profili ise binip inarken oluşan sallanmayı azaltır.',
+        },
+        {
+          q: 'Resortlar yoga tahtalarını filo içinde sipariş edebilir mi?',
+          a: 'Evet. Resortlar genellikle yoga platformlarını genel amaçlı misafir tahtalarıyla birlikte kullanır. Birleşik filo hacimleri filo fiyatlarına hak kazandırır ve tesisin renk paletinde hazırlanan markalı grafikler tüm sipariş boyunca uygulanır.',
+        },
+        {
+          q: 'Yoga tahtaları eksiksiz paket içerir mi?',
+          a: 'Evet — şişirilebilir tahta, kürek, pompa, sırt çantası ve tamir kiti; ya da programınızın gerektirdiği şekilde sahada saklamaya uygun sade bir kit (tahta + kürek + elektrikli pompa).',
+        },
+      ],
+    },
+    {
+      slug: 'whitewater',
+      navLabel: 'Akarsu',
+      metaTitle: 'Özel Akarsu SUP Tahtaları — Nehir ve Hızlı Su Platformları OEM | iSupfactory',
+      metaDescription:
+        'Nehirler ve hızlı sular için özel şişirilebilir akarsu SUP tahtaları — takviyeli darbe dayanımlı yapılarla kısa, çevik gövdeler. 90–100+ adetten başlayan OEM hacimleri, Çin, Qingdao.',
+      kicker: 'Seri · Akarsu',
+      h1: 'Özel Akarsu SUP Tahtaları — Darbeleri Kaldırmak İçin Üretilen Nehir Gövdeleri',
+      intro: [
+        'Akarsu tahtaları kısa, geniş ve dayanıklıdır: istendiği anda dönen çevik gövdeler, kenar çarpmalarına karşı yüksek darbe dayanımı ve sığ nehir yatakları ile kayalık giriş noktaları için ağır hizmet yapısı.',
+        'Akarsu platformlarını markanız altında takviyeli dikişler, darbeye dayanıklı kenarlar ve nehre özgü şekillerle üretiyoruz — günlük ders ve tur düzenleyen okullar, rehberler ve nehir ekipmanı sağlayıcıları için.',
+      ],
+      faqs: [
+        {
+          q: 'Akarsu tahtaları hangi yapıya ihtiyaç duyar?',
+          a: 'Takviyeli kenarlar ve dikiş üstü dikişli yapı, kenar darbelerini soğurur; kalın PVC ve çok katmanlı dizilimler ise nehir yatağındaki delilmeleri engeller. Çift odalı tasarımlar, uzak nehirler için ek kaldırma yedeği sağlar.',
+        },
+        {
+          q: 'Nehir ekipmanı sağlayıcılarına ve rehber okullarına tedarik sağlıyor musunuz?',
+          a: 'Evet. Ekipman sağlayıcıları ve rehber okulları, filo fiyatları, ağır hizmet tamir kitleri ve yedek fin ile valf bileşenleriyle 20–50 adetten (pilot) başlayan akarsu filoları kurar — yüksek kullanımlı nehir programları için tipik bir çözümdür.',
+        },
+        {
+          q: 'Akarsu tahtaları marka grafiklerini taşıyabilir mi?',
+          a: 'Evet — tüm tahta grafikleri, logo yerleşimi ve takım renkleri sizin çizimlerinizden üretilir. Yırtılmaya dayanıklı baskı katmanları, ağır kullanım altında marka görünümünü korur.',
+        },
+      ],
+    },
+    {
+      slug: 'fishing',
+      navLabel: 'Balıkçılık',
+      metaTitle: 'Özel Balıkçılık SUP Tahtaları — OEM ve Özel Marka | iSupfactory',
+      metaDescription:
+        'Kararlılık, taşıma kapasitesi ve aksesuar montajlarıyla özel şişirilebilir balıkçılık SUP tahtaları — 90–100+ adetten başlayan OEM ve özel marka hacimleri, Çin, Qingdao fabrikasından doğrudan.',
+      kicker: 'Seri · Balıkçılık',
+      h1: 'Özel Balıkçılık SUP Tahtaları — Balıkçılar Gözetilerek Üretildi',
+      intro: [
+        'Balıkçılık tahtaları kararlı atış platformlarıdır: balıkçıyı ve ekipmanını taşıyacak kadar geniş ve yüksek hacimli, oluk yuvaları, soğutucular ve takım malzemeleri için montaj sistemleri ve sessiz yaklaşım sağlayan sessiz yapı.',
+        'Balıkçılık platformlarını markanız altında, proje bazında belirlenen balıkçıya özel özelliklerle üretiyoruz — hafta sonu kompakt paketlerinden tam turnuva donanımlarına kadar.',
+      ],
+      faqs: [
+        {
+          q: 'Balıkçılık SUP tahtalarında hangi özellikler belirlenebilir?',
+          a: 'Oluk yuvaları ve aksesuarlar için montaj ızgaraları, ekipman rayları, soğutucu kayışları, çapa noktaları ve balıkçı ile ekipman için 500 lbs ağırlığa kadar yüksek kapasiteli tahtalar. Paketler markalı kürek, pompa ve çanta içerebilir.',
+        },
+        {
+          q: 'Balıkçılık SUP OEM siparişleri için minimum sipariş miktarı nedir?',
+          a: 'Standart hacimli seriler 150 m rulo başına 90–100+ adetten başlar; standart platformlarda pilot seriler 20–50 adetten; özel kalıplar şekil başına 90–100+ adetten başlar. Numuneler 7–12 günde gönderilir; üretim sipariş ve depozitonun onaylanmasından sonra 25–35 gün sürer.',
+        },
+        {
+          q: 'Balıkçılık tahtaları kiralama ve rehberlik işletmeleri için üretiliyor mu?',
+          a: 'Evet. Rehberlik ve kiralama işletmeleri; filo fiyatları, yedek parçalar ve günlük kullanım programlarına göre boyutlandırılmış tamir kitleriyle balıkçılık filoları kurar.',
+        },
+      ],
+    },
+    {
+      slug: 'kids',
+      navLabel: 'Çocuk',
+      metaTitle: 'Özel Çocuk SUP Tahtaları — Küçük ve Hafif Platformlar OEM | iSupfactory',
+      metaDescription:
+        'Özel çocuk şişirilebilir SUP tahtaları — güvenlik ve eğlence için tasarlanmış, çocuklara uygun güverteli daha kısa ve hafif platformlar. 90–100+ adetten başlayan OEM hacimleri, doğrudan fabrikadan.',
+      kicker: 'Seri · Çocuk',
+      h1: 'Özel Çocuk SUP Tahtaları — Küçük, Hafif ve İlk Kürekleme İçin Üretildi',
+      intro: [
+        'Çocuk tahtaları genç kürekçilere göre ölçeklenir: daha kısa gövdeler, daha düşük ağırlık, küçük bedenlere uygun daha dar genişlikler ve düşüşleri karşılayan yumuşak güverteler. Aile markaları, okullar ve çocuklara hizmet veren kiralama filoları için giriş noktasıdır.',
+        'Çocuk platformlarını markanız altında standart ve gençlik boyutlarında, aileye uygun paket seçenekleriyle üretiyoruz.',
+      ],
+      faqs: [
+        {
+          q: 'Çocuk SUP tahtaları hangi ölçülerde sunuluyor?',
+          a: 'Tipik çocuk platformları 7′ ile 9′6″ arasında, genişlikleri 26″ ile 30″ arasında ve ağırlıkları yaklaşık 7–9 kg (15–20 lbs) düzeyindedir. Boyut, kürekçinin yaşı ve ağırlığına göre seçilir ve üretim öncesi fiziksel numune üzerinde doğrulanır.',
+        },
+        {
+          q: 'Okullara ve gençlik programlarına tedarik sağlıyor musunuz?',
+          a: 'Evet — çocuk platformlarımız okul ve gençlik programı filolarının yaygın bir bileşenidir; gençlik kürekleri ve başlangıç aksesuarlarıyla birlikte program fiyatlarıyla sipariş edilir.',
+        },
+        {
+          q: 'Çocuk tahtaları marka ve karakter grafiklerini taşıyabilir mi?',
+          a: 'Evet. Tüm tahta renk varyantları, karakter çizimleri ve logo yerleşimi sizin çizimlerinizden veya marka yönlendirmenizden geliştirilir — yetişkin tahtalarla aynı yırtılmaya dayanıklı katmanlarla basılır.',
+        },
+      ],
+    },
+    {
+      slug: 'multi',
+      navLabel: 'Çok Kişilik',
+      metaTitle: 'Özel Çok Kişilik SUP Tahtaları — Tandem ve Aile OEM | iSupfactory',
+      metaDescription:
+        'Aile rekreasyonu ve grup dersleri için özel çok kişilik şişirilebilir SUP tahtaları — tandem, bahçe ve parti platformları. 90–100+ adetten başlayan OEM hacimleri, doğrudan fabrikadan.',
+      kicker: 'Seri · Çok Kişilik',
+      h1: 'Özel Çok Kişilik SUP Tahtaları — Tandem, Bahçe ve Parti Platformları',
+      intro: [
+        'Çok kişilik tahtalar SUP’yi gruplara açar: fazladan kürek konumu olan tandemler, dinlenme için bahçe tahtaları ve birkaç kişiyi taşıyan parti platformları. Resortlarda, plajlarda ve göl işletmelerinde kiralama geliri sağlar.',
+        'Çok kişilik platformları markanız altında, her kullanım senaryosunun gerektirdiği kararlılık ve hacim profilleriyle üretiyoruz.',
+      ],
+      faqs: [
+        {
+          q: 'Hangi tür çok kişilik tahtalar üretiyorsunuz?',
+          a: 'Tandemler (iki kürekçi, yaklaşık 13′–14′), bahçe tahtaları (kısa, geniş dinlenme platformları) ve 3–6 kişi için yüksek hacimli parti platformları. Her tür kapasite, ağırlık ve amaçlanan kullanıma göre belirlenir.',
+        },
+        {
+          q: 'Çok kişilik tahtalar kiralama için iyi bir yatırım mı?',
+          a: 'Evet — kürekçi başına daha düşük ekipman maliyetiyle yüksek saatlik ücretler elde eder ve grupları tek tek tahtalara bölmek yerine birlikte tutar. Kiralama işletmeleri genellikle çok kişilik tahtaları genel amaçlı filolarıyla birlikte kullanır.',
+        },
+        {
+          q: 'Bir parti platformunun kapasitesi nedir?',
+          a: 'Kapasite ölçülere ve hacme bağlıdır: tipik bahçe ve parti platformları 400–700 lbs taşır ve boyut ile yapılandırmaya göre 3–6 kişi taşır. Spekifikasyonlar toplu üretim öncesi fiziksel numune üzerinde doğrulanır.',
+        },
+      ],
+    },
+  ],
 }
 
 export function getSeriesPage(locale: Locale, slug: string): SeriesPageData | undefined {

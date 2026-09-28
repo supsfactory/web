@@ -1,0 +1,348 @@
+meta:
+  title: 'Yeniden İşleme Parametresi Değişiklik Kontrolü ve Doğrulama | iSupfactory'
+  description: 'ISO 9001 kapsamında yeniden işleme parametresi değişiklik kontrolü: ECR, risk sınıflandırması, onay matrisi, doğrulama ve yeniden denetim ile SUP üretimi.'
+  dateModified: '2026-08-14'
+  keywords:
+    - 'sup yeniden işleme değişiklik kontrolü'
+    - 'iso 9001 üretim değişiklik kontrolü'
+    - 'şişirilebilir sup oem kalite yönetimi'
+    - 'ecr mühendislik değişiklik talebi sup'
+    - 'hava sızdırmazlığı doğrulama standardı'
+    - 'sup fabrika kalite güvence'
+
+hero:
+  tagline: Yeniden İşleme Parametresi Değişiklik Kontrolü
+  title: Yeniden İşleme Süreç Parametresi Değişiklik Kontrolü ve Doğrulama Standardı
+  subtitle: 'QINGDAO VATRAD GROUP.,LTD.’de hiçbir operatör, vardiya şefi veya tek bir departman onaylanmış bir yeniden işleme parametresini yerinde değiştiremez. Onaylanmış yeniden işleme malzemeleri, süreç koşulları, aparatlar, test yöntemleri, denetim kriterleri veya yetkili personelde önerilen her değişiklik, belgelenmiş değişiklik kontrolüyle yönetilir — Mühendislik Değişiklik Talebi, etki ve risk değerlendirmesi, fonksiyonlar arası onay, doğrulama planı, kontrollü uygulama, yeniden denetim ve etkinlik gözden geçirmesi, ardından kapatma ve kayıt saklama. Bu sayfa, kontrollü standardımız QMS-SOP-QC-CC-001’i (Rev 2.0, ISO 9001:2015 tabanlı) ve arkasındaki mühendislik kanıtını sunar.'
+  actions:
+    - text: Değişiklik Kontrolü SOP İndir (PDF)
+      variant: primary
+      href: 'https://assets.isupfactory.com/site/downloads/rework-change-control-sop-qms-sop-qc-cc-001.pdf?dl=1'
+    - text: Uygulama Ek A’yı İndir (PDF)
+      href: 'https://assets.isupfactory.com/site/downloads/rework-execution-annex-a-qms-sop-qc-cc-001.pdf?dl=1'
+    - text: Kalite İncelemesi Talep Edin
+      href: /tr/contact
+
+answer:
+  label: 'Net cevap'
+  text: 'Yeniden işleme parametresi değişiklikleri QINGDAO VATRAD GROUP.,LTD.’de asla sözlü olarak veya geriye dönük biçimde karara bağlanmaz. Onaylanmış yeniden işleme malzemeleri, süreç koşulları, ekipman, test yöntemleri, denetim kriterleri veya yetkili personelde önerilen her değişiklik, uygulamadan önce resmi değişiklik kontrolünden geçmelidir: belgelenmiş bir Mühendislik Değişiklik Talebi (ECR), etki ve risk değerlendirmesi, Mühendislik, Kalite, Üretim, Satın Alma ve Proje tarafından fonksiyonlar arası inceleme, yetki matrisimizin belirlediği seviyede onay, yüksek riskli değişiklikler için onaylı doğrulama planı, kontrollü pilot uygulama, yeniden denetim ve etkinlik gözden geçirmesi ve yalnızca belge revizyonu ile eğitimden sonra kapatma. Müşteri tarafından onaylanan şartnameleri, numuneleri, BOM’ları, görsel sanatları veya kabul kriterlerini etkileyen her değişiklik ayrıca yazılı müşteri onayı gerektirir.'
+  verified: 'Eylül 2026'
+
+stats:
+  tagline: Bir Bakışta
+  title: Rakamlarla Değişiklik Kontrolü
+  stats:
+    - value: '9'
+      label: Değişiklik kontrolü kapalı döngüsündeki adım
+    - value: '6'
+      label: Resmi değişiklik kontrolü gerektiren değişiklik kategorisi
+    - value: '4'
+      label: Nicel parametreleri tanımlanmış çekirdek yeniden işleme süreci
+    - value: '≥ 5'
+      label: Yüksek riskli doğrulama için örnek tahta + 2 bağımsız QC
+
+cc_intro:
+  tagline: Kapsam ve Politika
+  title: Çekirdek Yönetişim İlkeleri
+  body: |
+    **Belge:** QMS-SOP-QC-CC-001 — *Yeniden İşleme Süreç Parametresi Değişiklik Kontrolü Standardı* (Rev 2.0, Resmi Sürüm). **Üretici:** QINGDAO VATRAD GROUP.,LTD. / 青岛万国通衢进出口有限公司. **Standart referansı:** ISO 9001:2015 Kalite Yönetim Sistemleri.
+
+    - **Kontrolsüz değişiklik yoktur.** Yeniden işleme parametresi değişiklikleri resmi değişiklik kontrolünden geçirilmelidir. Saha operatörleri, vardiya şefleri veya tek bir departman, onaylanmış yeniden işleme parametrelerini sözlü anlaşmayla ya da yeniden işleme kaydına el yazısıyla ekleyerek değiştiremez.
+    - **Tüm öğeler kapsama alınır.** Kontrollü kapsam; hava sızdırmazlığı, supap yuvaları, ray bantları, dikiş yapıştırma, sıcak hava kürleme ve basınç tutma testini kapsar — sızdırmazlığı, yapısal dayanıklılığı, görünümü, müşteri kabulünü veya izlenebilirliği etkileyebilecek her parametre.
+    - **Müşteri onayı son çizgi.** Ürünü müşteri tarafından onaylanan numune, teknik şartname, BOM, görsel sanat, ambalajlama gereksinimi veya kabul kriterlerinden uzaklaştıran her değişiklik yalnızca yazılı müşteri onayıyla uygulanır. Onay olmadan tahta özgün gereksinime göre yeniden işlenir, değiştirilir veya reddedilir — asla yalnızca fabrika tarafından “gevşetilmez”.
+
+cc_scope:
+  tagline: Risk Sınıflandırması
+  title: Değişiklik Kapsamı ve Risk Sınıflandırması
+  subtitle: 'Aşağıdakilerden herhangi biri resmi değişiklik kontrolünü tetikler — asla yeniden işleme kaydına bir not düşerek ele alınmaz. Risk seviyesi, kimin onaylayacağını ve ne kadar doğrulama gerektiğini belirler.'
+  headers:
+    category: Değişiklik Kategorisi
+    examples: Tipik Örnekler
+    risk: Risk
+    requirements: Kontrol ve Onay Gereksinimleri
+  rows:
+    - category: 'Yeniden İşleme Malzemeleri'
+      examples: 'Yapıştırıcı, temizleyici, yama malzemesi, supap contası, astar veya tedarikçi değişikliği'
+      risk: 'Yüksek'
+      requirements: 'Fonksiyonlar arası inceleme + malzeme uyumluluk ve basınç tutma doğrulaması + uygun olduğunda müşteri imzası'
+    - category: 'Süreç Koşulları'
+      examples: 'Yüzey hazırlığı, sıcak hava kürleme sıcaklığı/nemliliği, kelepçe basıncı, tutma süresi'
+      risk: 'Yüksek'
+      requirements: 'Tanımlı sıcaklık ve nem penceresi doğrulamasıyla Mühendislik + Kalite onayı'
+    - category: 'Aparatlar ve Ölçüm Gereçleri'
+      examples: 'Basınç göstergeleri, sızıntı dedektörleri, sıcak hava tabancaları, supap aletleri, test yazılımı'
+      risk: 'Orta/Yüksek'
+      requirements: 'Kalibrasyon geçerlilik kontrolü + ekipman uygunluk değerlendirmesi'
+    - category: 'Kusur Kapsamı'
+      examples: 'Yeniden işleme alanının genişlemesi; yüzey mikro sızıntısının ray, dikiş veya supap yuvası kritik bölgelerine ilerlemesi'
+      risk: 'Yüksek'
+      requirements: 'Yapısal yük taşıma yüzeyleri: zorunlu durdurma ve yeniden değerlendirme'
+    - category: 'Denetim Yöntemleri'
+      examples: 'Sızıntı tespit yöntemi, test basıncı (18.0 PSI), tutma süresi (24h)'
+      risk: 'Yüksek'
+      requirements: 'Kalite onayı + müşteri teknik anlaşmasının teyidi'
+    - category: 'Belgeler ve Yetkilendirme'
+      examples: 'Yeniden işleme talimatı, denetim formları, NCR karar mantığı, operatör yeterliliği'
+      risk: 'Orta'
+      requirements: 'Kontrollü belge revizyonu (Rev A → Rev B) + eğitim kayıtları'
+
+cc_containment:
+  tagline: Zorunlu Durdurma Kuralı
+  title: Durumlar Ciddileştiğinde Anlık İçe Katma
+  body: |
+    > “Mevcut yeniden işleme yöntemi incelemeye alınmalı ve değişiklik değerlendirilip onaylanana kadar ek etkilenen ürüne uygulanmamalıdır; Kalite ve Mühendislik tarafından onaylanmış belgelenmiş bir geçici sapma istisna olabilir.”
+
+    Yeniden işleme sonrası denetim tekrarlı olarak başarısız olduğunda, kusur yapısal yük taşıma bölgelerini içerdiğinde (supap tabanı, raylar, dikişler, burun/kuyruk basınç bölgeleri), ikame bir malzeme henüz doğrulanmamış olduğunda veya mevcut parametreler müşteri tarafından onaylanan şartnameyle çeliştiğinde, mevcut yeniden işleme yöntemi derhal durdurulmalıdır.
+
+    Geçici sapmalar asla kalıcı uygulamaya dönüşmez: her biri tanımlı bir geçerlilik penceresi, uygulanabilir parti kapsamı, adet üst sınırı, doğrulama gereksinimleri ve otomatik sona erme mekanizması taşır. Sözlü istisna istisna değildir — sona erme tarihiyle belgelenmemişse mevcut değildir.
+
+cc_flow:
+  tagline: Standart 9 Adımlı Kapalı Döngü
+  title: Değişiklik Talebinden Kapatma ve Saklamaya
+  subtitle: 'Her parametre değişikliği için tek bir belgelenmiş döngü: öner, ele, değerlendir, onayla, doğrula, pilot uygula, doğrula, revize et, kapat.'
+  steps:
+    - step: '01'
+      title: Değişiklik Talebi (ECR)
+      desc: 'Herhangi bir departman talepte bulunabilir, ancak talebi Mühendislik, Kalite veya Üretim yönetimi üstlenir. ECR, değişikliğin neden önerildiğini, neyin değiştiğini, neyin etkilendiğini ve nasıl doğrulanacağını yanıtlar — değişiklik kontrol numarası, ilgili NCR/CAPA, mevcut ile önerilen parametre, etkilenen partiler ve geçici/kalıcı sınıflandırması ile.'
+    - step: '02'
+      title: İlk Eleme ve İçe Katma
+      desc: 'Talep önce anlık içe katma için elenir: mevcut yöntemin hemen durdurulması gerekiyor mu? Geçici bir sapmaya izin veriliyorsa, bu geçerlilik penceresi, parti kapsamı, adet üst sınırı ve otomatik sona erme ile sınırlanır.'
+    - step: '03'
+      title: Etki ve Risk Değerlendirmesi
+      desc: 'Mühendislik, Kalite, Üretim, Satın Alma/Tedarik Zinciri ve Proje; ürün performansını, kabul kriterlerini, malzeme uyumluluğunu, görünümü, süreç yetkinliğini, ekipman ve ölçüm gereçlerini, personel yeterliliğini, müşteri gereksinimlerini, uyumu ve izlenebilirlik kapsamını değerlendirir.'
+    - step: '04'
+      title: Ortak İnceleme ve Onay
+      desc: 'Onay, sabit yetki matrisine göre ilerler — “kimi bağırdıysa onaylar” değil. Yüksek riskli değişiklikler fonksiyonlar arası onay ve gerektiğinde herhangi bir denemeden önce yazılı müşteri onayı gerektirir.'
+    - step: '05'
+      title: Doğrulama Planı
+      desc: 'Yüksek riskli değişiklikler için rutin uygulamadan önce onaylı bir doğrulama planı gereklidir: temsili örnek tahtalar, mevcut ile önerilen yöntem, test yöntemleri, kabul kriterleri, denetim aşamaları, sorumlu kişiler ve program.'
+    - step: '06'
+      title: Kontrollü Pilot ve Uygulama
+      desc: 'Yeni belgeler yayımlanır, kullanımdan kalkan sürümler geri çekilir ve OBSOLETE olarak işaretlenir; yeni malzemeler ve ölçüm gereçleri doğrulanır ve kalibre edilir; operatörler eğitilir ve nitelendirilir; ilk parti sıkılaştırılmış denetimle ve net durum tanımlamasıyla üretilir.'
+    - step: '07'
+      title: Yeniden Denetim ve Etkinlik Gözden Geçirmesi
+      desc: 'İlk seferde geçme oranı, yeniden denetim geçme oranı, tekrar oranı ve görünüm kabulü ölçülür ve değişiklik etkili kabul edilmeden önce gözden geçirilir — onarılmış tek bir tahta asla süreç doğrulaması olarak değerlendirilmez.'
+    - step: '08'
+      title: Belge Revizyonu ve Eğitim
+      desc: 'İş talimatları, denetim formları, NCR karar seçenekleri, parametre kartları ve eğitim materyalleri yeni revizyona güncellenir; uygulamalı eğitim ve operatör yeterliliği kayıt altına alınır.'
+    - step: '09'
+      title: Kapatma ve Kayıt Saklama
+      desc: 'Değişiklik, yalnızca doğrulama kanıtı, belge güncellemeleri, eğitim kayıtları ve uygulama etkinliği gözden geçirilip onaylandıktan sonra kapatılır. Amaçlanan sonuç elde edilmezse değişiklik revize edilir, genişletilir, askıya alınır veya geri çekilir.'
+
+cc_approval:
+  tagline: Onay Matrisi
+  title: Fonksiyonlar Arası Yetki Matrisi
+  subtitle: 'Sabit bir yetki tablosu, ani kararları önler: her değişiklik türünün belge düzeyinde açıklamadan müşteri imzasına kadar kendi onaylayıcıları vardır.'
+  headers:
+    change: Değişiklik İçeriği
+    engineering: Mühendislik
+    quality: Kalite
+    production: Üretim
+    procurement: Satın Alma
+    project: Proje / Satış
+    customer: Müşteri
+  rows:
+    - change: 'Belge ifadesi açıklaması (parametre etkisi yok)'
+      engineering: İncele
+      quality: 'Onayla'
+      production: Bilgilendir
+      procurement: '—'
+      project: '—'
+      customer: '—'
+    - change: 'Yeniden işleme işlem sırası düzenlemesi'
+      engineering: 'Onayla'
+      quality: 'Onayla'
+      production: Karşı imza
+      procurement: '—'
+      project: Bilgilendir
+      customer: Gerektiği gibi
+    - change: 'Yeni yeniden işleme operatörü yeterliliği'
+      engineering: İncele
+      quality: 'Onayla'
+      production: 'Onayla'
+      procurement: '—'
+      project: '—'
+      customer: '—'
+    - change: 'Aparat / test ekipmanı değişikliği'
+      engineering: 'Onayla'
+      quality: 'Onayla'
+      production: Karşı imza
+      procurement: Gerektiğinde
+      project: '—'
+      customer: Gerektiği gibi
+    - change: 'İkame yeniden işleme malzemesi / tedarikçi'
+      engineering: 'Onayla'
+      quality: 'Onayla'
+      production: Karşı imza
+      procurement: Karşı imza
+      project: Bilgilendir
+      customer: Gerekebilir
+    - change: 'Basınç / tutma / kürleme parametresi değişikliği'
+      engineering: 'Onayla'
+      quality: 'Onayla'
+      production: Karşı imza
+      procurement: '—'
+      project: Bilgilendir
+      customer: Proje gerektirdiğinde
+    - change: 'Ray / dikiş / supap yuvası yeniden işleme yöntemi değişikliği'
+      engineering: 'Onayla'
+      quality: 'Onayla'
+      production: Karşı imza
+      procurement: Gerektiğinde
+      project: Bilgilendir
+      customer: Genellikle önerilir
+    - change: 'Müşteri şartnamesi, onay numunesi veya kabul kriteri değişikliği'
+      engineering: 'Onayla'
+      quality: 'Onayla'
+      production: Karşı imza
+      procurement: '—'
+      project: Karşı imza
+      customer: 'Yazılı onay zorunlu'
+
+cc_validation:
+  tagline: Mühendislik Doğrulaması
+  title: Doğrulama ve Kabul Protokolü — İfade Değil Kanıt
+  body: |
+    *“Onarılan tahta iyi olmalıdır”* gibi belirsiz kabul ifadeleri kabul edilmez. Kontrollü ifade şudur:
+
+    > “Yeniden işlenen örnek, müşteri tarafından onaylanmış bir sapma özellikle alternatif bir kriter tanımlamadıkça, uygun bir tahtayla aynı geçerli hava sızdırmazlığı, görsel işçilik, supap işlevi ve projeye özgü kabul kriterlerini karşılamalıdır.”
+
+    Doğrulama kanıtı niceldir ve hava sızdırmazlığı yeniden işlemesi için mühendislik temel değerleri şunları içerir:
+
+    - **Sızıntı giderme ve basınç tutma.** Özgün sızıntı, köpük suyu sızıntı tespitinde sürekli kabarcık oluşmadan giderilir; tahta, sıcaklık/nem telafisi sonrası net basınç düşümü ΔP ≤ 0.2 PSI ile 24 saat boyunca standart test basıncı 18.0 PSI’da tutulur — üretim hattı son kabulünde uygulanan 0.50 PSI otomatik ret eşiğinden ayrı olarak, daha sıkı olan yeniden işleme doğrulama temel değeridir.
+    - **Supap işlevi.** Supap çekirdeği torku 15–20 N·m şartnamesini karşılar; conta, yüksek basınçlı şişirme ve dinamik basma altında mikro sızıntı göstermez.
+    - **Dikiş yapıştırma ve dayanıklılık.** Yapıştırma kenarlarında kalkma, beyazlama veya ayrışma görülmez; sıcaklık-nem yaşlandırma döngülerinden sonra yapıştırıcı tabakasında yumuşama veya gevrek çatlak oluşmaz.
+    - **Görünüm ve işçilik.** Yapıştırıcı akıntı izi, EVA hasarı, tahta deformasyonu, logo kayması veya baskı yüzeyi çizilmesi bulunmaz.
+
+cc_engineering:
+  tagline: Mühendislik Uygulama Matrisi
+  title: Dört Çekirdek Yeniden İşleme Sürecinin Nicel Parametreleri
+  subtitle: 'Her kontrollü yeniden işleme süreci tanımlı parametreler, yöntem ve kabul kriterleri taşır — operatörlerimizin izlediği ve müşterilerimizin denetimlerde doğrulayabileceği aynı sayılar.'
+  headers:
+    process: Yeniden İşleme Süreci
+    parameters: Kontrollü Parametreler
+    methodology: Test Yöntemi
+    acceptance: Kabul Kriterleri
+  rows:
+    - process: 'Delik / Mikro Sızıntı Yama Onarımı'
+      parameters: 'Çözücü ile temizleme ve 3–5 dk kurutma; sıcak hava aktivasyonu 60°C ± 5°C; basınç merdanesi ≥ 0.4 MPa'
+      methodology: '18 PSI’ye şişir; tam su altına batırma veya köpük uygulaması; 10 dakika gözlemle'
+      acceptance: 'Sıfır kabarcık çıkışı; 180° kenar soyma testinde kalkma ve yapıştırıcı akıntı izi yok'
+    - process: 'Ray Bandı / Dikiş Yeniden Yapıştırma'
+      parameters: 'İki bileşenli yapıştırıcı oranı katı biçimde kontrollü; ortam 22–28°C, ≤ %65 RH; fikstür kelepçesi ≥ 4 saat'
+      methodology: '2 saat 22 PSI aşırı basınç testi; ardından 50°C ısı kutusunda 6 saat pişirme ve 2 saat oda sıcaklığında dinlendirme'
+      acceptance: 'Sıfır ayrışma, sıfır çatlak; net basınç düşümü ΔP ≤ 0.1 PSI; yapıştırıcı tabakasında beyazlama veya gevrekleşme yok'
+    - process: 'Supap Tabanı Gevşemesi / Mikro Sızıntı'
+      parameters: 'Özel anahtar torku 18–20 N·m; conta contası deforme olmadan düz; diş temizliği teyit edildi'
+      methodology: '15 PSI’ye şişir; 20 şişirme/indirme döngüsü; su altı batırma gözlemi'
+      acceptance: 'Supap çekirdeğinde ve taban çevresinde sıfır kabarcık; döngü sonrası tork ≥ 16 N·m'
+    - process: 'Nihai 24h Basınç Tutma Testi'
+      parameters: 'Referans şişirme 18.0 PSI; dijital gösterge Sınıf 1.0 / ±0.5%; ortam sıcaklığı ve nemliliği kaydedilir ve telafi edilir'
+      methodology: 'Dijital basınç kaydedici; kesintisiz 24 saat basınç eğrisi'
+      acceptance: 'Telafi sonrası net basınç düşümü ΔP ≤ 0.20 PSI / 24 saat; tahtada şişlik veya deformasyon yok'
+
+cc_photos:
+  tagline: Fabrika Sahasında
+  title: Yeniden İnşa, Yeniden Test, Sevkiyat — Her Adımda Belgelenmiş
+  subtitle: 'Qingdao atölyemizden fotoğraflar, her kontrollü yeniden işleme sürecini kalibre ölçüm gereçleri, tanımlı parametreler ve saha kayıtlarıyla birlikte gösterir — denetçilerin istediği anda talep edebileceği aynı kanıtlar.'
+  grid: 'sm:grid-cols-2'
+  features:
+    - image: https://assets.isupfactory.com/site/quality/cc-pinhole-repair.avif
+      alt: Sıcak hava tabancası ve basınç merdanesiyle şişirilebilir bir SUP üzerindeki delik mikro sızıntısını onaran teknisyen
+      title: Delik Onarımı
+      desc: 'Bir teknisyen, işaretlenmiş bir mikro sızıntıyı 60°C şartnamesine ayarlanmış sıcak hava tabancası ve basınç merdanesiyle ele alır; köpüklü su sızıntı konumunu doğrular ve tezgahtaki QC imzalı ECR fişi değişiklik kontrol kapısını gösterir (Poka-Yoke #1).'
+    - image: https://assets.isupfactory.com/site/quality/cc-rail-seam-bonding.avif
+      alt: Kontrollü iklimde hassas fırçayla ray dikişine iki bileşenli PU yapıştırıcı uygulayan teknisyen
+      title: Ray Dikişi Yapıştırma
+      desc: 'İki bileşenli PU yapıştırıcı, tahta fikstür kelepçesinde tutulurken hassas bir fırçayla ray dikişine uygulanır; sahadaki termometre/nem ölçer kontrollü 24°C / %55 RH penceresini gösterir.'
+    - image: https://assets.isupfactory.com/site/quality/cc-valve-base-integrity.avif
+      alt: Drop-stitch malzemeye karşı supap çekirdeğini sabitleyen 19 N·m’e ayarlanmış dijital tork anahtarı
+      title: Supap Tabanı Bütünlüğü
+      desc: '19 N·m şartnamesine ayarlanmış bir dijital tork anahtarı, supap çekirdeğinin son sıkmasını yaparak tabanı drop-stitch malzemeye karşı sızdırmaz biçimde kapatır — göstergenin üzerinde yeşil KALİBRE EDİLMİŞ etiketi bulunur.'
+    - image: https://assets.isupfactory.com/site/quality/cc-pressure-hold-testing.avif
+      alt: Nihai basınç tutma test alanında dijital basınç kaydedicilere bağlanmış tamamlanmış şişirilebilir SUP tahtaları
+      title: Nihai Basınç Tutma Testi
+      desc: 'Tamamlanan tahtalar yüksek hassasiyetli dijital basınç kaydedicilere bağlanır; ana gösterge 18.00 PSI referansını okur ve tüm test verisi otomatik olarak yüklenir, sözleşme izlenebilirlik sistemiyle ilişkilendirilir.'
+
+cc_pokayoke:
+  tagline: Hata Önleme Güvenceleri
+  title: 'Poka-Yoke: Kontrolsüz Değişikliği Durduran Sert Bloklar'
+  subtitle: Standart yalnızca prosedürlerle değil, kontrolsüz değişikliklerin uygulanmasını fiziksel ve sistem düzeyinde imkansız kılan bloklarla da uygulanır.
+  features:
+    - icon: 1
+      icon_bg: blue
+      title: Aparat Kilidi Açılışı İçin ECR Kapısı
+      desc: 'Yeniden işleme istasyonları, pnömatik şişirme valfleri ve yapıştırıcı karıştırıcıları kilidini açmadan önce QC imzalı bir ECR barkodu okur. Onaylı değişiklik kontrolü kaydı yoksa, tedarik yoktur — geriye dönük imza (“önce değiştir, sonra imzala”) fiziksel olarak engellenir.'
+    - icon: 2
+      icon_bg: green
+      title: Geçici Sapma Otomatik Sona Erme
+      desc: 'Geçici sapmalar sistemde üst sınırlıdır (örneğin en fazla 50 tahta veya 7 takvim günü). Sınıra ulaşıldığında parti kilitlenir ve değişiklik resmen değerlendirilene kadar sevkiyat geçiş fişinin basılması engellenir.'
+    - icon: 3
+      icon_bg: purple
+      title: Asgari Doğrulama Kanıtı
+      desc: 'Yüksek riskli değişiklikler, bir doğrulama raporu düzenlenebilmesi için üst ve alt tolerans sınırlarını kapsayan en az 5 temsili örnek tahta ve 2 bağımsız QC denetçisi tarafından eksiksiz denetim gerektirir — onarılmış tek bir tahta asla süreç doğrulaması olarak değerlendirilmez.'
+    - icon: 4
+      icon_bg: orange
+      title: 1-Çıkış-1-Giriş Belge Kontrolü
+      desc: 'Kullanımdan kalkan çalışma istasyonu kartları, kontrollü kırmızı mühürle damgalanan yeni kart verilmeden önce fiziksel olarak toplanır ve iptal edilir (delikle vurularak) — eski ve yeni sürümler asla aynı istasyonu paylaşmaz.'
+
+cc_downloads:
+  tagline: İndirilebilir QMS Belgeleri
+  title: Kontrollü İki Dilli Belgeler (PDF)
+  subtitle: QINGDAO VATRAD GROUP.,LTD.’nin resmi EN/ZH iki dilli belgeleri — müşteri denetimleri, B2B teknik beyaz kağıtlar ve atölye kontrollü dağıtım için hazır.
+  features:
+    - icon: S
+      icon_bg: blue
+      title: 'Yeniden İşleme Değişiklik Kontrolü SOP (PDF)'
+      desc: 'QMS-SOP-QC-CC-001 Rev 2.0: değişiklik sınıflandırma tablosu, fonksiyonlar arası yetki matrisi, mühendislik doğrulama parametreleri, içe katma kırmızı çizgileri ve kalite imza blokları.'
+      link: 'https://assets.isupfactory.com/site/downloads/rework-change-control-sop-qms-sop-qc-cc-001.pdf?dl=1'
+      link_label: PDF İndir
+    - icon: A
+      icon_bg: green
+      title: 'Uygulama Ek A (PDF)'
+      desc: 'ECR veri şeması, dört çekirdek yeniden işleme süreci için nicel mühendislik uygulama matrisi, Poka-Yoke blok mantığı ve üç taraflı sevkiyat onay bloğu.'
+      link: 'https://assets.isupfactory.com/site/downloads/rework-execution-annex-a-qms-sop-qc-cc-001.pdf?dl=1'
+      link_label: PDF İndir
+    - icon: R
+      icon_bg: purple
+      title: 'Kontrollü Yeniden İşleme Yönetişimi (Sayfa)'
+      desc: 'Hava sızdırmazlığı yeniden işleme sistemi için eşlikçi sayfa: A–G kusur sınıflandırması, onaylı yöntem kartları MC-RW-01 ile MC-RW-06 ve 7 adımlı kontrollü yeniden işleme iş akışı.'
+      link: '/tr/factory/quality-inspection'
+      link_label: Sayfayı görüntüle
+    - icon: N
+      icon_bg: orange
+      title: 'Uyumsuz Ürün Kontrolü (Sayfa)'
+      desc: 'ISO 9001:2015 Madde 8.7 uyumsuz çıktılar kontrolü: NCR kaydı, karantina, şiddete dayalı karar yetkisi, SRI talimatlarıyla kontrollü yeniden işleme, bağımsız yeniden denetim ve tanıklı imha protokolü.'
+      link: '/tr/factory/non-conforming-control'
+      link_label: Sayfayı görüntüle
+
+faqs:
+  tagline: SSS
+  title: 'Yeniden İşleme Değişiklik Kontrolü Hakkında Sıkça Sorulan Sorular'
+  items:
+    - q: 'Fabrika bize söylemeden yeniden işleme parametrelerini değiştirebilir mi?'
+      a: 'Hayır. Onaylanmış yeniden işleme malzemeleri, süreç koşulları, aparatlar, test yöntemleri, denetim kriterleri veya yetkili personelde önerilen her değişiklik önce belgelenmiş değişiklik kontrolünden geçmelidir. Müşteri tarafından onaylanan şartnameleri, numuneleri, BOM’ları, görsel sanatları veya kabul kriterlerini etkileyen değişiklikler yazılı müşteri onayı gerektirir.'
+    - q: 'Yüksek riskli değişiklik nedir?'
+      a: 'Yeniden işleme malzemesi veya tedarikçisi, basınç/tutma veya kürleme koşulları, supap/ray/dikiş yeniden işleme yöntemleri, denetim veya kabul kriterleri ve kusur kapsamının yapısal bölgelere genişlemesi değişiklikleri yüksek riskli olarak sınıflandırılır. Rutin kullanım öncesinde fonksiyonlar arası inceleme, onaylı doğrulama planı ve kontrollü pilot uygulama gerektirirler.'
+    - q: 'Geçici bir sapma süresiz kullanılabilir mi?'
+      a: 'Hayır. Her geçici sapma tanımlı bir geçerlilik penceresi, parti kapsamı, adet üst sınırı ve doğrulama gereksinimiyle birlikte otomatik sona erme taşır. Sınıra ulaşıldığında parti kilitlenir ve değişiklik resmen değerlendirilene kadar geçiş fişi basılması engellenir.'
+    - q: 'Değiştirilen yöntemin tam kullanım öncesinde çalıştığı nasıl kanıtlanır?'
+      a: 'Yüksek riskli değişiklikler bir doğrulama planı gerektirir: tolerans sınırlarını kapsayan en az 5 temsili örnek tahta, nicel kabul kriterlerine (sızıntı giderme, basınç tutma, supap işlevi, dikiş dayanıklılığı, görünüm) karşı 2 bağımsız QC denetçisi tarafından test edilir. Doğrulamayı onaylamak uygulamayı onaylamak değildir.'
+    - q: 'Her değişikliği onaylamamız gerekiyor mu?'
+      a: 'Her değişiklik değil, ancak ürünü müşteri tarafından onaylanan numune, teknik şartname, BOM, görsel sanat, ambalajlama veya kabul kriterlerinden uzaklaştıran her değişiklik yalnızca yazılı müşteri onayıyla uygulanır. Onay olmadan tahtalar özgün gereksinime göre yeniden işlenir, değiştirilir veya reddedilir.'
+    - q: 'Bir değişiklik onaylandığında eski belgelere ne olur?'
+      a: 'Eski iş talimatları, parametre kartları ve denetim formları fiziksel olarak toplanır ve iptal edilir (1-çıkış-1-giriş), OBSOLETE olarak işaretlenir ve eğitim sonrasında yeni kontrollü revizyonla değiştirilir. Eski ve yeni sürümler asla aynı çalışma istasyonunu paylaşmaz.'
+    - q: 'Değişiklik kontrol kayıtları ne kadar süre saklanır?'
+      a: 'Kapatma kayıtları — doğrulama kanıtı, belge revizyonları, eğitim kayıtları ve etkinlik gözden geçirmeleri — kayıt saklama politikamıza göre saklanır (kapatma kayıtları için en az 3 yıl); böylece her değişiklik denetimler ve izlenebilirlik incelemeleri için izlenebilir kalır.'
+
+cta:
+  title: 'Denetiminiz için Değişiklik Kontrolü Belgeleri mi Gerekli?'
+  desc: 'İki dilli Değişiklik Kontrolü SOP’unu ve Uygulama Ek A’yı indirin veya OEM/ODM projeniz için ECR şablonumuzun ve doğrulama planımızın anonimleştirilmiş bir örneğini talep edin.'
+  actions:
+    - text: Kalite İncelemesi Talep Edin
+      variant: primary
+      href: /tr/contact
+    - text: Değişiklik Kontrolü SOP İndir (PDF)
+      href: 'https://assets.isupfactory.com/site/downloads/rework-change-control-sop-qms-sop-qc-cc-001.pdf?dl=1'
+    - text: Uygulama Ek A İndir (PDF)
+      href: 'https://assets.isupfactory.com/site/downloads/rework-execution-annex-a-qms-sop-qc-cc-001.pdf?dl=1'

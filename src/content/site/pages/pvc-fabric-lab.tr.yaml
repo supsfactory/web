@@ -1,0 +1,111 @@
+meta:
+  title: 'PVC Kumaş Laboratuvarı — SUP Tahtaları İçin Malzeme Testi'
+  description: 'Lifte bitmiş tahtaya kadar malzeme testi: çekme dayanımı, UV dayanıklılığı, düşük sıcaklıkta esneklik ve aşınma direnci için SUP PVC kumaşları.'
+back_text: 'Ar-Ge Merkezine Dön'
+home_label: 'Ana Sayfa'
+
+hero:
+  tagline: 'Lab 01'
+  title: 'PVC Kumaş Laboratuvarı'
+  subtitle: 'Bilimsel malzeme testi — lifte bitmiş tahtaya kadar'
+  image: 'https://assets.isupfactory.com/images/sups/randd/isupfactory-pvc-material-lab.webp'
+  image_alt: 'Vatrad PVC kumaş malzeme testi laboratuvarı'
+
+answer:
+  label: 'Doğrudan yanıt'
+  text: 'Tahtalar, 12–15 PSI anma değerine sahip üç katmanlı kaplamalı ve drop-stitch çekirdekli 1.680 DTEX deniz PVC kumaşından üretilir. Gelen her kumaş partisi, tedarikçi veri sayfalarına dayanmaksızın tesis içinde bağımsız olarak test edilir: çekme dayanımı (ISO 1421), 2.000 saat ksenon ark ışınımı sonrası UV kalıcılığı (ISO 4892), aşınma ve düşük sıcaklıkta esneklik.'
+  verified: 'Eylül 2026'
+
+intro: 'Tahta kumaşı, şişirilebilir bir SUP için en kritik malzemedir. Yıllar boyunca yapısal bütünlüğünü korurken sürekli UV ışınımına, tekrar eden şişirme döngülerine, iskelelere ve kumlu inişlere karşı aşınmaya ve aşırı sıcaklık değişimlerine dayanmalıdır. {SITE.name} şirketinde PVC Kumaş Laboratuvarımız, ürettiğimiz her tahtada kullandığımız kumaşların yalnızca karakterizasyonuna, doğrulanmasına ve sürekli iyileştirilmesine adanmıştır.'
+
+content_html: |
+  <h2>Her şişirilebilir SUP’nin temeli</h2>
+  <p>Yalnızca tedarikçi veri sayfalarına güvenmiyoruz. Atölyemize giren her PVC ve drop-stitch çekirdek kumaş partisi tesis içinde bağımsız olarak test edilir. Bu, yayımladığımız malzeme spesifikasyonunun alacağınız malzeme performansı olduğunu partiden parçaya, yıldan yıla garanti eder.</p>
+
+  <h2>Standartlaştırılmış test ekipmanları</h2>
+  <p>Kumaş laboratuvarımız, ISO, ASTM ve EN test metotlarına uygun endüstriyel sınıf aletlerle donatılmıştır:</p>
+  <table>
+    <thead><tr><th>Ekipman</th><th>Ölçülen Parametreler</th><th>Standart</th></tr></thead>
+    <tbody>
+      <tr><td>Evrensel çekme test cihazı (50 kN)</td><td>Kopma kuvveti, koptuğunda uzama, yırtma ilerlemesi</td><td>ISO 1421 / ASTM D751</td></tr>
+      <tr><td>Ksenon ark ışınımı dayanıklılık kabini</td><td>UV direnci (renk değişimi, 2000 saat sonrası dayanım kalıcılığı)</td><td>ISO 4892 / ASTM G155</td></tr>
+      <tr><td>Düşük sıcaklıkta eğilme test cihazı</td><td>-30 °C ile -50 °C arasında çatlak başlangıç noktası</td><td>ISO 4675 / ASTM D2136</td></tr>
+      <tr><td>Taber aşınma test cihazı</td><td>1000 döngü sonrası ağırlık kaybı (CS-10 diski)</td><td>ASTM D3389 / ISO 5470-1</td></tr>
+      <tr><td>Kalınlık ölçüm cihazı (dijital, 0.001 mm çözünürlük)</td><td>Rulo genişliği boyunca tekdüzelik</td><td>ISO 2286-3</td></tr>
+      <tr><td>Hidrostatik basınç test cihazı</td><td>Su nüfuz etmeye karşı direnç</td><td>ISO 811</td></tr>
+    </tbody>
+  </table>
+  <p class="text-sm text-gray-500">* Tüm ekipmanlar yıllık olarak akredite üçüncü taraf laboratuvarlarınca kalibre edilir.</p>
+
+  <h2>Veriden karara: tipik bir test iş akışı</h2>
+  <p>Yeni bir kumaş adayı geldiğinde standartlaştırılmış yedi adımlık bir uygunluk sürecinden geçer:</p>
+  <ol>
+    <li><strong>Giriş kontrolü</strong> — yüzey kusurları, delikler ve boyut uygunluğu için görsel inceleme.</li>
+    <li><strong>Kalınlık haritalama</strong> — rulo boyunca 20 noktada ölçüm; kabul için CV &lt; %3 gerekir.</li>
+    <li><strong>Çekme testi</strong> — çözgü ve atkı yönlerinde 5 numune. 1100 dtex PVC için en az 3500 N/50 mm.</li>
+    <li><strong>UV koşullandırma</strong> — ksenon ark kabininde 1000 saat ışınım; en az %80 dayanım kalıcılığı gerekir.</li>
+    <li><strong>Soğuk çatlama</strong> — -35 °C’de 4 saat, ardından 25 mm mandrel üzerinde 180° bükme. Görünür çatlak olmamalıdır.</li>
+    <li><strong>Aşınma direnci</strong> — 1000 döngü, ağırlık kaybı ≤ 0.05 g.</li>
+    <li><strong>Onay imzası</strong> — kumaş, ancak yedi kapının tamamı geçildikten sonra üretim için serbest bırakılır.</li>
+  </ol>
+
+  <div class="not-prose my-10 p-6 rounded-xl bg-gray-50 dark:bg-gray-900 border border-gray-200 dark:border-gray-800">
+    <p class="text-sm font-semibold text-gray-500 mb-3 uppercase tracking-wider">Tipik PVC 1100 dtex — UV Işınımı Sonrası Çekme Dayanımı Kalıcılığı</p>
+    <div class="flex items-end gap-3 h-40">
+      <div class="flex-1 flex flex-col items-center">
+        <div class="w-full bg-blue-600 rounded-t" style="height:100%"></div>
+        <span class="text-xs mt-1">0 s %100</span>
+      </div>
+      <div class="flex-1 flex flex-col items-center">
+        <div class="w-full bg-blue-500 rounded-t" style="height:95%"></div>
+        <span class="text-xs mt-1">500 s %95</span>
+      </div>
+      <div class="flex-1 flex flex-col items-center">
+        <div class="w-full bg-blue-400 rounded-t" style="height:88%"></div>
+        <span class="text-xs mt-1">1000 s %88</span>
+      </div>
+      <div class="flex-1 flex flex-col items-center">
+        <div class="w-full bg-blue-300 rounded-t" style="height:82%"></div>
+        <span class="text-xs mt-1">2000 s %82</span>
+      </div>
+      <div class="flex-1 flex flex-col items-center">
+        <div class="w-full bg-gray-300 rounded-t" style="height:65%"></div>
+        <span class="text-xs mt-1">Rakip ~%65</span>
+      </div>
+    </div>
+    <p class="text-xs text-gray-400 mt-2">1100 dtex PVC kumaşımız, 2000 saat ksenon ark ışınımı sonrasında çekme dayanımının &gt; %80’ini korur; sektördeki tipik kalitelerde bu oran %70’in altına düşer.</p>
+  </div>
+
+  <h2>Profesyonel ekibimiz</h2>
+  <p>Laboratuvarda, polimer bilimi veya tekstil mühendisliğinde derece sahibi ve en az altı yıl sektör deneyimi olan iki tam zamanlı malzeme mühendisi görev yapar. Onlara günlük testleri ve veri kaydını yürüten üç teknisyen destek olur. Ekip, test metotlarımızın doğruluğunu doğrulamak için Uluslararası Standartlar Örgütü (ISO) tarafından düzenlenen laboratuvarlar arası karşılaştırmalı denemelere düzenli olarak katılır.</p>
+
+  <h2>En zorlu malzeme sorunlarınızı çözüyoruz</h2>
+  <p>Her kürek ortamı farklıdır. Tropikal bölgede çalışan bir tahta, Kuzey Avrupa’daki bir gölde veya çöl rezervuarında çalışan bir tahtadan çok farklı UV ve sıcaklık koşullarıyla karşı karşıyadır. Kumaş Laboratuvarımız, operasyon profilinize göre optimize edilmiş bir kumaş spesifikasyonu seçmenize — ya da geliştirmenize — yardımcı olur.</p>
+  <p>Son özel çözümler şunlardır:</p>
+  <ul>
+    <li>Tahtaları düzenli olarak kumlu plajlara ve beton rampa yüzeylerine temas eden bir kiralama filosu için yüksek aşınma dayanımlı PVC karışımı (+%40 aşınma ömrü).</li>
+    <li>Kanada’da kış depolaması yapan bir bayi programı için düşük sıcaklık formülasyonu; -50 °C’de çatlamayı göstermeden test edildi.</li>
+    <li>Arama-kurtarma eğitim filosu için renk kararlı turuncu üst yüzey; 3 yıl tropikal güneş ışınımı sonrasında görünürlüğünü korur.</li>
+  </ul>
+  <p>Hazır kumaş satıp çalışmasını ummuyoruz. Test eder, doğrular ve özel görev profilinize uygun bir çözüm öneririz — ya da yaratırız. {SITE.name} şirketinin farkı budur.</p>
+
+  <h2>Size nasıl hizmet veriyoruz</h2>
+  <p>Bize bir malzeme sorunu getirdiğinizde bekleyebilecekleriniz şunlardır:</p>
+  <ol>
+    <li><strong>Danışmanlık</strong> — operasyon ortamınızı, performans hedeflerinizi ve bütçenizi tartışırız.</li>
+    <li><strong>Öneri</strong> — açık geçer/kalar kriterleri ve zaman çizelgesiyle bir test planı hazırlanır.</li>
+    <li><strong>Uygulama</strong> — laboratuvarımız testleri yürütür ve ham veriler ile karşılaştırmalı analizi içeren ayrıntılı bir rapor üretir.</li>
+    <li><strong>Tavsiye</strong> — birden fazla malzeme gereksinimlerinizi karşılıyorsa alternatif seçenekleri de içeren bir kumaş spesifikasyonu sunarız.</li>
+    <li><strong>Takip</strong> — teslimattan sonra, hizmet sırasındaki malzeme sorularınız için erişilebilir olmaya devam ederiz.</li>
+  </ol>
+  <p>Hedefimiz size yalnızca bir tahta satmak değil; aldığınız tahtanın çalıştığınız koşullarda güvenilir performans gösterdiğinden emin olmaktır — bunun da kumaşla başladığı yerdir.</p>
+
+cta:
+  title: 'Özel bir kumaş spesifikasyonuna mu ihtiyacınız var?'
+  subtitle: 'Gereksinimlerinizi görüşmek için malzeme mühendisliği ekibimizle iletişime geçin.'
+  actions:
+    - variant: primary
+      text: Laboratuvar ekibimizle iletişime geçin
+      href: /tr/contact#project-brief
+    - text: Ar-Ge Merkezine Dön
+      href: /tr/randdcenter

@@ -1,0 +1,477 @@
+meta:
+  title: 'Özel SUP Kalite Denetim Standartları | OEM Fabrika | iSupfactory'
+  description: 'Şişirilebilir SUP OEM üretimi: malzeme, üretim, test, ambalajlama ve izlenebilirlik denetimi; ISO 9001 kapsamında hava sızdırmazlığı yeniden işleme kontrolü ile.'
+  dateModified: '2026-08-14'
+  keywords:
+    - 'şişirilebilir sup üreticisi'
+    - 'sup oem fabrikası'
+    - 'özel kürek tahtası üreticisi'
+    - 'sup kalite denetimi'
+    - 'sup üretim süreci'
+    - 'özel markalı sup üreticisi'
+
+hero:
+  tagline: Kalite Denetimi ve Güvence
+  title: Özel Şişirilebilir SUP Tahtaları için Kalite Kontrolü
+  subtitle: 'QINGDAO VATRAD GROUP.,LTD., malzeme hazırlığından tahta imalatına, nihai şişirme testinden ambalajlamaya ve sevkiyat onayına kadar proje özelinde denetim kriterleri uygular. Kalite gereksinimleri, her OEM/ODM siparişi için onaylanan numune, teknik şartname, görsel sanat kanıtı, Malzeme Listesi (BOM) ve üzerinde anlaşılan ambalajlama standartlarına göre dinamik olarak yönetilir.'
+  actions:
+    - text: Kalite Güvence Paketini İndir
+      variant: primary
+      href: 'https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_Quality_Inspection_Standards.pdf?dl=1'
+    - text: Örnek Kalite Paketini İndir (PDF)
+      href: 'https://assets.isupfactory.com/site/downloads/Qingdao_Vatrad_Group_SUP_Quality_Documentation_Pack.pdf?dl=1'
+    - text: OEM Kalite Bilgisi Talep Edin
+      href: /tr/contact
+
+answer:
+  label: 'Net cevap'
+  text: 'QINGDAO VATRAD GROUP.,LTD., şişirilebilir SUP kalitesini 4 aşamalı bir doğrulama sistemiyle kontrol eder: giriş malzemesi kontrolü (IQC), süreç içi kalite kontrolü (IPQC), nihai tahta testi ve şişirme doğrulaması (FQC) ve ambalajlama ile sevk öncesi onay (OQC). Her sipariş onaylanan numune, teknik şartname, görsel sanat kanıtı, BOM ve ambalajlama standartlarına karşı denetlenir; hava sızdırmazlığı doğrulaması, görsel ve ölçü kontrolleri, aksesuar teyidi ve parti izlenebilirliği uygulanır. Kabul kriterlerini karşılamayan kalemler kontrollü bekleme veya karantinaya alınır, yalnızca onaylı talimatlarla yeniden işlenir ve yetkili onaydan önce yeniden denetlenir.'
+  verified: 'Eylül 2026'
+
+intro: 'Kalite sistemimiz OEM/ODM projeleri için kurulmuştur: denetim kriterleri sipariş bazında tanımlanır, belgelenir ve üretim ile kalite ekipleri tarafından giriş malzemesinden ambalajlamaya kadar uygulanır. Bu, kalite beklentilerinin fabrika ile sizin markanız arasında ilk numuneden tam konteyner sevkiyatlarına kadar hizalı kalmasını sağlar.'
+
+scope_note:
+  tagline: Kapsam
+  title: Proje Özelinde Denetim Kriterleri
+  body: |
+    Kalite şartnameleri; tahta yapısına (örneğin tek/çift katman, örgülü drop-stitch, füzyon ray), amaçlanan son kullanıma, hedef pazar mevzuatına ve müşteri tarafından onaylanan parametrelere göre değişebilir. Nihai sevkiyat onayı, yalnızca sipariş için üzerinde anlaşılan belgelenmiş denetim kriterlerine dayanarak verilir.
+
+stages:
+  tagline: Kalite Çerçevesi
+  title: 4 Aşamalı Kalite Doğrulama Sistemimiz
+  subtitle: Ham Maddenin gelişinden sevkiyat onayına kadar eksiksiz bir QC döngüsü.
+  steps:
+    - title: '1. Giriş Malzemesi Kontrolü (IQC)'
+      desc: 'Ana malzemeler ve satın alınan bileşenler, üretim hattına girmeden önce onaylanan şartnamelere ve referans numunelere karşı kontrol edilir. Drop-stitch ve PVC’de malzeme tanımı, tedarikçi partisi, gramaj/yoğunluk, kalınlık, onaylı numune renkleriyle renk uyumu ve yüzey kusurları doğrulanır. EVA kaymaz pedlerde desen, renk, kalınlık, kesim hassasiyeti ve yapıştırıcı uyumluluğu kontrol edilir. Supaplar ve donanımda işlev, diş, conta bütünlüğü ve uyum testleri uygulanır. Aksesuar ve ambalaj (pompa, kürek, fin, güvenlik ipi, çanta, koli) adet, renk, markalama, barkod doğruluğu ve görsel sanat sürümü açısından onaylı BOM’a karşı eşleştirilir.'
+    - title: '2. Süreç İçi Kalite Kontrolü (IPQC)'
+      desc: 'Kritik imalat adımları, tahtalar sonraki çalışma istasyonlarına geçmeden önce uyumsuzlukları yakalamak için denetlenir. Kesim ve baskıda panel ölçüleri, görsel sanat yerleşimi, ayna yönelimi ve kenar temizliği onaylı teknik çizimlere karşı doğrulanır. Tahta montajı ve ray yapıştırmada kontur simetrisi, dikiş bindirmelerinin sürekliliği ve yüksek gerilim bölgelerindeki boşluk veya hava ceplerinin giderilmesi kontrol edilir. Supap ve aksesuar takımı, grafik ve markalamada konum, yönelim, yapıştırıcı kapsaması, logo yazımı ve görsel sanat sürümü doğrulanır.'
+    - title: '3. Nihai Tahta Testi ve Şişirme Doğrulaması (FQC)'
+      desc: 'Tamamlanan tahtalar, ambalajlama onayından önce zorunlu fiziksel ve yapısal testlere tabi tutulur. Tahtalar projede onaylanan denetim basıncına şişirilir ve yapısal rijitlik ile basınç kararlılığı doğrulanmak üzere tutulur. Hava sızdırmazlığı taramaları; supap muhafazası, ray dikişleri, burun/kuyruk konileri ve gerilim ekleri kalibre sızıntı tespit yöntemleriyle (basınç düşümü izleme veya kabarcık testi) kapsar. Kozmetik ve ölçü denetimi; gün ışığı standardı aydınlatma altında ölçüleri, rocker profilini ve EVA ped hizasını (tolerans ±2 mm) doğrular.'
+    - title: '4. Ambalajlama ve Sevk Öncesi Onay (OQC)'
+      desc: 'Kapsamlı sevk öncesi doğrulama, SKU yapılandırması veya sevkiyat işaretlerinde sıfır uyuşmazlık sağlar. Kit tamlığı; tahta, fin, güvenlik ipi, kürek, pompa, çanta, onarım kiti ve kullanım kılavuzu sipariş BOM’una karşı çapraz kontrol edilir. Ambalajlama ve barkod kontrollerinde koli işaretleri, SKU etiketleri, barkod okunabilirliği, kılavuz dili ve koli yapısal bütünlüğü doğrulanır. Siparişler, ancak nihai ambalajlama denetimi yetkili kalite personeli tarafından imzalandıktan sonra sevk edilir.'
+
+inspection_points:
+  tagline: Denetim Kapsamı
+  title: Anahtar Denetim Kontrol Noktaları
+  subtitle: Her kontrol noktası, sipariş başına üzerinde anlaşılan belgelenmiş kabul kriterlerine göre yürütülür.
+  features:
+    - icon: A
+      icon_bg: blue
+      title: 'Hava Sızdırmazlığı Doğrulaması'
+      desc: 'Tamamlanan tahtalar onaylanan denetim basıncına şişirilir; basınç tutma, supap tabanı durumu, ray dikişleri, burun ve kuyruk bölgeleri ve yüksek gerilim noktaları kontrol edilir. Denetim prosedürünün gerektirdiği durumlarda şüpheli sızıntı bölgeleri onaylı sızıntı tespit yöntemleriyle incelenir.'
+    - icon: B
+      icon_bg: green
+      title: 'Görsel ve Ölçü Denetimi'
+      desc: 'Tahtalar uygun aydınlatma altında; malzeme yüzey durumu, baskı kusurları, renk sapması, EVA hizası, kıvrımlar, çizikler, kirlilik ve yapıştırma görünümü açısından denetlenir. Ana ölçüler ve aksesuar konumları onaylı çizim veya şartnamelere karşı doğrulanır.'
+    - icon: C
+      icon_bg: purple
+      title: 'Aksesuar ve Ambalaj Doğrulaması'
+      desc: 'Sevkiyat öncesi eksiksiz ürün yapılandırması doğrulanır: tahta modeli, fin sistemi, kürek, pompa, güvenlik ipi, taşıma çantası, onarım kiti, kullanım kılavuzu ve müşteriye özel aksesuarlar — her biri onaylı numune, çizim ve BOM’a karşı eşleştirilir.'
+    - icon: D
+      icon_bg: orange
+      title: 'Ambalajlama ve Sevkiyat Onayı'
+      desc: 'Ambalajlı birimler SKU yapılandırması, aksesuar tamlığı, ürün etiketleri, barkod bilgileri, talimat kılavuzu sürümü, koli işaretlemesi, ambalaj adedi ve koli durumu açısından kontrol edilir. Tüm denetim ve ambalajlama gereksinimleri tamamlandıktan sonra sevkiyat onayı yetkilendirilir.'
+
+traceability_intro:
+  tagline: Parti İzlenebilirliği
+  title: Proje Düzeyinde ve Parti Bazında İzlenebilirlik Sistemi
+  body: |
+    Her özel SUP siparişi, teknik şartnameleri, onaylı BOM’u, görsel sanat revizyonlarını, malzeme lot numaralarını, ambalajlama referanslarını ve denetim kayıtlarını birbirine bağlayan birleşik bir proje kodu altında yönetilir. Üretim ve denetim kayıtları ilgili proje ve üretim partisi bazında tutulur; her parti, onaylı ürün şartnamesine, BOM’a, görsel sanata ve ambalajlama referanslarına geri bağlanabilir.
+
+    Bu, bir kalite endişesi belirlendiğinde ürün yapılandırmasının, denetim durumunun ve etkilenen kapsamın tahta veya koli tanımlaması kullanılarak kaynak kayıtlarına kadar geriye dönük verimli biçimde incelenmesini sağlar.
+
+traceability_chain:
+  tagline: İzlenebilirlik Zinciri
+  title: Proje Kodundan Sevkiyat Onayına
+  subtitle: Sipariş teyidinden yetkili sevkiyata kadar kontrollü referansların tek zinciri.
+  steps:
+    - step: '01'
+      title: Proje Kodu
+      desc: Her kontrollü belgeyi siparişe bağlayan birleşik proje referansı.
+    - step: '02'
+      title: Belge Revizyonları
+      desc: Güncel şartname, BOM, görsel sanat ve ambalajlama revizyon seviyeleri — üretim için yalnızca onaylı sürümler geçerlidir.
+    - step: '03'
+      title: Parti ve Malzemeler
+      desc: Malzeme ve bileşen lotlarının üretim partisine karşı kaydı.
+    - step: '04'
+      title: Denetim Kayıtları
+      desc: Parti başına IQC, süreç içi, hava sızdırmazlığı, nihai ve ambalajlama denetim sonuçları.
+    - step: '05'
+      title: Ambalajlama ve Onay
+      desc: Ambalajlama partisi, NCR kapatma durumu ve yetkili sevkiyat onayı özeti.
+
+traceability_sample:
+  tagline: Anonimleştirilmiş Örnek
+  title: İzlenebilirlik Kontrol Kaydı (Demo)
+  body: |
+    Yalnızca gösterim amaçlı örnek değerler sunulmaktadır — gizliliği korumak için müşteri adları, PO numaraları, özel görsel sanatlar, tedarikçi verileri ve ticari bilgiler kaldırılmıştır.
+
+    - **Üretici:** QINGDAO VATRAD GROUP, LTD.
+    - **Proje Kodu:** DEMO-SUP-2026-01
+    - **SKU Referansı:** DEMO-TR-126
+    - **Üretim Partisi:** BATCH-AUG-01
+    - **Şartname / BOM / Görsel Sanat Revizyonu:** Rev B / Rev C / Rev B
+    - **Hava Sızdırmazlığı Kaydı:** GEÇTİ — parti bazında saklanır
+    - **Denetim Durumu:** GEÇTİ
+    - **Sevkiyat Durumu:** SEVK EDİLDİ
+
+quarantine_intro:
+  tagline: Uyumsuzluk Kontrolü
+  title: Uyumsuz Ürünlerin Kontrolü ve Karantina
+  body: |
+    Tanımlı kabul kriterlerini karşılamayan ürün veya bileşenler açıkça tanımlanır ve kontrollü bekleme veya karantina durumuna alınır. Yetkili bir karar tamamlanana kadar sonraki üretim aşamasına, ambalajlamaya veya sevkiyata ilerleyemezler. Yeniden işleme onaylı talimatlar altında gerçekleştirilir ve ilgili uyumsuzluk kaydına bağlanır; yeniden işlenen kalemler, kalite onayından önce geçerli proje gereksinimlerine karşı yeniden denetlenir.
+
+quarantine_flow:
+  tagline: 7 Adımlı Kontrol Akışı
+  title: 'Bir Uyumsuzluk Bulunduğunda Ne Olur'
+  subtitle: Tanımla, kontrol et, düzelt, doğrula — ardından sevk et veya reddet. Uyumsuz ürün asla denetim yapılmadan üretime veya ambalajlamaya geri dönmez.
+  steps:
+    - step: '01'
+      title: Tanımlama
+      desc: Uyumsuzluk; etkilenen ürün, SKU, parti veya süreç aşamasına karşı kaydedilir.
+    - step: '02'
+      title: Etiketleme
+      desc: Etkilenen kalemler kontrollü durum etiketleriyle açıkça tanımlanır — HOLD, QUARANTINE veya REJECTED.
+    - step: '03'
+      title: Karantina
+      desc: Kalemler, istenmeyen kullanım veya sevkiyatı önlemek üzere fiziksel olarak kontrollü bir karantina alanında ayrılır veya sistem üzerinden kontrol edilir.
+    - step: '04'
+      title: Kapsamı Değerlendirme
+      desc: Etkilenen kapsam; parti, süreç aşaması, malzeme lotu ve belge revizyonu bazında gözden geçirilir.
+    - step: '05'
+      title: 'Yeniden İşleme / Değiştirme'
+      desc: Düzeltme yalnızca onaylı bir karar ve kontrollü iş talimatıyla yapılabilir.
+    - step: '06'
+      title: Yeniden Denetim
+      desc: Düzeltilen kalemler, sevkiyat öncesinde geçerli kabul kriterlerine karşı yeniden denetlenir.
+    - step: '07'
+      title: Sevkiyat veya Ret
+      desc: Yalnızca yetkili ve uygun ürün ambalajlamaya veya sevkiyat onayına ilerler.
+
+quarantine_evidence:
+  tagline: Fabrika Sahasında
+  title: 'Uygulamada Kontrollü Test ve Karantina'
+  subtitle: 'Qingdao’daki atölyemizden fotoğraflar, durum kontrolünün ve denetim kayıtlarının saha içinde nasıl uygulandığını gösterir.'
+  features:
+    - image: https://assets.isupfactory.com/site/quality/qc-air-tightness-test-area.avif
+      alt: Dijital basınç göstergesiyle izlenen fabrika hava sızdırmazlığı test alanında şişirilmiş şişirilebilir SUP tahtaları
+      title: 'Hava Sızdırmazlığı Test Alanı'
+      desc: 'Endüstriyel aydınlatma altında QC test alanında tutulan şişirilmiş tahtalar; dijital basınç göstergeleri onaylı hava tutma testini supap tabanında, ray dikişlerinde, burun ve kuyrukta ve yüksek gerilim noktalarında izler. Kayıtlar parti bazında tutulur ve nihai denetimle ilişkilendirilir.'
+    - image: https://assets.isupfactory.com/site/quality/qc-hold-quarantine-station.avif
+      alt: Fabrika denetim istasyonunda kalite kontrol kontrol listeleri ve kontrollü bekleme durum etiketleri
+      title: 'Bekleme ve Karantina İstasyonu'
+      desc: 'QC kontrol listeleri ve durum etiketlemesi bulunan denetim istasyonu. Kabul kriterlerini karşılamayan her kalem etiketlenir, kaydedilir ve karantinaya taşınır — yetkili bir karar ve zorunlu yeniden denetim tamamlanana kadar ambalajlamaya geçemez.'
+    - image: https://assets.isupfactory.com/site/quality/qc-air-tightness-rework.avif
+      alt: Fabrika yeniden işleme istasyonunda bir QC teknisyeninin şişirilebilir bir SUP üzerinde kontrollü hava sızdırmazlığı yeniden işlemesi
+      title: 'Kontrollü Yeniden İşleme İstasyonu'
+      desc: 'Hava sızdırmazlığı yeniden işlemesi, onaylı bir yöntem kartına göre ayrılmış bir istasyonda gerçekleştirilir: kusur işaretlenir, tahta HOLD durumunda kalır ve gerekli kürleme süresi sonrasında özgün kabul kriterlerine karşı yeniden denetim için test alanına döner.'
+    - image: https://assets.isupfactory.com/site/quality/qc-workshop-quarantine-demo.avif
+      alt: Qingdao fabrikasında kontrollü karantina ayrımının atölye gösterimi
+      title: 'Karantina Alanı Gösterimi'
+      desc: 'Kontrollü karantina ayrımının saha içinde nasıl işlediğini gösteren atölye fotoğrafı: ayrılmış birimler, yetkili bir karar tamamlanana kadar durum kontrolü altında tutulur.'
+
+rework_intro:
+  tagline: Yeniden İşleme Yönetişimi
+  title: 'Kontrollü Hava Sızdırmazlığı Uyumsuzluğu ve Yeniden İşleme Yönetişimi'
+  body: |
+    QINGDAO VATRAD GROUP.,LTD.’de yeniden işleme, uyumsuz bir birimi özgün mühendislik şartnamesine tam uyum haline getirmek olarak tanımlanır — hızlı bir onarım olarak değil. Hava sızdırmazlığı uyumsuzluğu tespit edilen her tahta, işlenmeden önce kontrollü beklemeye alınır ve bir Uyumsuzluk Raporuna (NCR) bağlanır; sızıntı kaynağı onaylı tanı yöntemiyle bulunur ve kaydedilir.
+
+    Yeniden işleme yalnızca kusur onaylı yeniden işleme kapsamı içindeyse ve yetkili bir yöntem mevcutsa ilerleyebilir. Yeniden işleme talimatı; ürünü, partiyi, kusur konumunu, onaylı malzemeyi, yöntemi, gereken koşulları ve yeniden denetim kapsamını belirtir. Gerekli kürleme veya kararlılık süresi sonrasında tahta, uygun bir tahtayla aynı geçerli kabul kriterlerine karşı yeniden denetlenir — yeniden işleme kabul standardını asla düşürmez. Yeniden denetim başarısızlığı, yeni mühendislik ve kalite kararı gerektirir; belgelenmiş onay olmadan tekrarlayan yeniden işlemeye izin verilmez.
+
+rework_decision:
+  tagline: Etkileşimli Akış
+  title: 'Yeniden İşleme Karar Akışı — Her Düğüme Tıklayın'
+  subtitle: 'Bir hava sızdırmazlığı uyumsuzluğunun tespitten sevkiyata veya hurdaya nasıl ele alındığını izleyin. Bir düğüme tıklayarak o adımdaki kontrol gereksinimlerini genişletin.'
+  nodes:
+    - id: detect
+      type: start
+      label: 'Sızıntı Tespit Edildi'
+      detail: 'Denetim sırasında bir hava sızdırmazlığı uyumsuzluğu tanımlanır — basınç tutma başarısızlığı, görünür sızıntı veya ilgili bir hava sistemi kusuru.'
+    - id: hold
+      type: step
+      label: 'Hattı Durdur · HOLD Etiketi · NCR'
+      detail: 'İşleme durur. Tahta kimliği, ürün kodu, parti, çalışma istasyonu, tarih ve denetçi kaydedilir; HOLD / QUARANTINE etiketi asılır ve geçerli şartname revizyonuna karşı NCR açılır.'
+    - id: locate
+      type: step
+      label: 'Sızıntı Kaynağını Bul'
+      detail: 'Tahta, projede onaylanan tanı basıncına şişirilir ve kaynak onaylı bir yöntemle bulunur — basınç tutma, kalibre kabarcık testi, akustik veya sızıntı tespit ekipmanı.'
+    - id: classify
+      type: step
+      label: 'Kusuru Sınıflandır (A–G)'
+      detail: 'Kusur onay matrisine göre sınıflandırılır: A supap arayüzü, B supap tabanı dikişi, C yüzey deliği, D yerel ray dikişi, E geniş ray arızası, F tekrarlayan sızıntı, G yapısal hasar.'
+    - id: authorize
+      type: decision
+      label: 'Yeniden İşleme Onaylı mı?'
+      yes: rework
+      no: escalate
+      detail: 'QC kusur kategorisini teyit eder ve Mühendislik, tahtanın özgün şartnamesine geri döndürülüp döndürülemeyeceğini inceler. Yetkilendirme; yöntem kartını, malzemeleri, koşulları ve yeniden denetim kapsamını kaydeder — ya da değiştirme, ret, hurda veya müşteri feragati rotasına yönlendirir.'
+    - id: rework
+      type: step
+      label: 'Kontrollü Yeniden İşleme'
+      detail: 'Yalnızca onaylı kusur sınırı içinde, onaylı yöntem kartı, malzeme partisi ve aparatla yürütülür — ölçüler, yapı, grafikler, aksesuarlar veya ambalajlama gereksinimleri asla değiştirilmez.'
+    - id: cure
+      type: step
+      label: 'Kürleme ve Kararlılık'
+      detail: 'Tahta, onaylı malzeme ve süreç talimatının tanımladığı kürleme ve kararlılık süresi boyunca HOLD durumunda kalır, ardından görsel ve işçilik ön kontrolünden geçirilir.'
+    - id: reinspect
+      type: decision
+      label: 'Yeniden Denetim Geçti mi?'
+      yes: release
+      no: escalate
+      detail: 'Tahta, projede onaylanan yeniden denetim basıncına şişirilir ve özgün başarısızlık ile potansiyel olarak etkilenebilecek tüm özellikler yeniden doğrulanır — sızıntı konumu, supap, raylar, dikişler, yüksek gerilim bölgeleri, aksesuarlar ve görünüm. Yeniden işleme kabul standardını asla düşürmez.'
+    - id: release
+      type: release
+      label: 'Kalite Onayı'
+      detail: 'Kalite, kapatılmış NCR’yi, yeniden işleme kaydını ve yeniden denetim sonucunu gözden geçirir ve sevkiyatı onaylar. Yeniden işlenmiş hiçbir tahta, yetkili kalite onayı olmadan ambalajlanmaz veya sevk edilmez.'
+    - id: escalate
+      type: escalate
+      label: 'Yükseltin — Değiştir / Hurda / Feragat'
+      detail: 'Belgelenmiş onay olmadan tekrarlayan yeniden işleme yoktur. Özgün şartname geri kazanılamıyorsa tahta değiştirme, ret, hurda veya yazılı müşteri feragati rotasına yönlendirilir.'
+
+defect_matrix:
+  tagline: Kusur Sınıflandırması
+  title: 'Hava Sızdırmazlığı Kusur Sınıflandırması ve Onay Matrisi'
+  subtitle: 'Her sızıntı yeniden işlenmez — her kusur sınıflandırılır ve kararı, QC denetçisinden fabrika müdürüne kadar doğru seviyede onaylanır.'
+  headers:
+    category: Kusur Kategorisi
+    area: Tipik Bölge
+    eligibility: Yeniden İşleme Uygunluğu
+    approval: Gerekli Onay
+  rows:
+    - category: 'Sınıf A — Supap Arayüzü'
+      area: 'Supap çekirdeği, kapak contası, conta, pompa arayüzü'
+      eligibility: 'Standart yeniden işleme onaylıdır'
+      approval: 'QC Denetçisi'
+    - category: 'Sınıf B — Supap Tabanı Dikişi'
+      area: 'Supap çevresi boyunca mikro sızıntı'
+      eligibility: 'Onaylı yöntem kartına göre değerlendirilerek yeniden işlenir'
+      approval: 'QC + Mühendislik'
+    - category: 'Sınıf C — Yüzey Deliği'
+      area: 'Gerilim dışı yüzeyde yerel mikro delik'
+      eligibility: 'Yalnızca müşteri şartnamelerine uygun olduğunda onaylanır'
+      approval: 'QC + Mühendislik'
+    - category: 'Sınıf D — Yerel Ray Dikişi'
+      area: 'Ray bandında yerel bindirme sızıntısı'
+      eligibility: 'Yüksek risk; katı mühendislik kararı gereklidir'
+      approval: 'Mühendislik + QA Müdürü'
+    - category: 'Sınıf E — Geniş Ray Arızası'
+      area: 'Yüksek gerilim bölgelerinde sürekli dikiş arızası'
+      eligibility: 'Standart yeniden işleme onaylanmaz — değiştirme veya kök neden incelemesi'
+      approval: 'QA Müdürü + Müşteri Feragati'
+    - category: 'Sınıf F — Tekrarlayan Sızıntı'
+      area: 'Yer tespit edilemeyen sızıntı veya yeniden test başarısızlığı'
+      eligibility: 'Tekrarlayan yeniden işleme yok; değiştirme, hurda veya mühendislik kök neden analizi'
+      approval: 'Kıdemli QA / Mühendislik'
+    - category: 'Sınıf G — Yapısal Hasar'
+      area: 'Malzeme hasarı, ayrışma, tahta deformasyonu'
+      eligibility: 'Yeniden işleme onayı verilmez — değiştirme, hurda veya yazılı müşteri feragati'
+      approval: 'Kalite Müdürü + Müşteri Onayı'
+
+rework_flow:
+  tagline: 7 Adımlı Kapalı Döngü
+  title: 'Kontrollü Yeniden İşleme İş Akışı — Tespitten Sevkiyata veya Hurdaya'
+  subtitle: 'Her hava sızdırmazlığı yeniden işlemesi aynı kontrollü döngüyü izler: tespit et, karantinaya al, tanıla, yetkilendir, yeniden işle, yeniden denetle, sevk et.'
+  steps:
+    - step: '01'
+      title: 'Tespit, Hattı Durdurma ve Karantina'
+      desc: 'Etkilenen tahtada işleme derhal durur. Tahta kimliği, ürün kodu, parti, çalışma istasyonu, tarih ve denetçi kaydedilir, HOLD / QUARANTINE etiketi asılır ve geçerli şartname revizyonuna karşı NCR açılır.'
+    - step: '02'
+      title: 'Sistematik Sızıntı Tanısı'
+      desc: 'Tahta, projede onaylanan tanı basıncına şişirilir ve sızıntı kaynağı onaylı bir yöntemle bulunur — basınç tutma, kalibre kabarcık testi, akustik veya sızıntı tespit ekipmanı. Şüpheli konum, tahtaya zarar vermeden işaretlenir.'
+    - step: '03'
+      title: 'Mühendislik Kararı ve Yetkilendirme'
+      desc: 'QC kusur kategorisini teyit eder ve Mühendislik, tahtanın özgün şartnamesine geri döndürülüp döndürülemeyeceğini inceler. NCR’yi referans alan yeniden işleme yetkilendirmesi; onaylı yöntemi, malzemeleri, koşulları ve yeniden denetim kapsamını kaydeder — ya da değiştirme, ret, hurda veya müşteri feragatini atar.'
+    - step: '04'
+      title: 'Kontrollü Yeniden İşleme Uygulaması'
+      desc: 'Yeniden işleme yalnızca onaylı kusur sınırı içinde, onaylı yöntem kartı, malzeme partisi ve aparatla yürütülür. Tahta ölçüleri, yapısı, grafikleri, aksesuar yapılandırması ve ambalajlama gereksinimleri asla değiştirilmez.'
+    - step: '05'
+      title: 'Kürleme, Kararlılık ve Ön Kontrol'
+      desc: 'Yeniden işlenen tahta, onaylı malzeme ve süreç talimatının tanımladığı kürleme ve kararlılık süresi boyunca HOLD durumunda kalır, ardından yeniden denetim öncesi görsel ve işçilik ön kontrolünden geçirilir.'
+    - step: '06'
+      title: 'Yeniden Denetim ve Kanıt Testi'
+      desc: 'Tahta, projede onaylanan yeniden denetim basıncına şişirilir ve özgün başarısızlık ile potansiyel olarak etkilenebilecek tüm özellikler yeniden doğrulanır: sızıntı konumu ve çevresi, supap, raylar, dikişler, yüksek gerilim bölgeleri, aksesuarlar ve görünüm. Yeniden işleme kabul standardını asla düşürmez.'
+    - step: '07'
+      title: 'QA Onayı veya Nihai Karar'
+      desc: 'Kalite, tamamlanan NCR’yi, yeniden işleme kaydını ve yeniden denetim sonucunu gözden geçirir, ardından sevkiyatı onaylar — ya da değiştirme, ret, hurda veya müşteri feragati rotasına yükseltir. Yeniden işlenmiş hiçbir tahta, yetkili kalite onayı olmadan ambalajlanmaz veya sevk edilmez.'
+
+quality_safeguards:
+  tagline: Kalite Güvenceleri
+  title: 'Markanızı Koruyan Hata Önleme Kuralları'
+  subtitle: 'Kontrolsüz onarım döngülerini önleyen sert kontroller — kusur başına tek belgelenmiş yeniden işleme, parti düzeyinde alarm eşikleri, kalibre ölçüm gereçleri ve kontrollü test koşulları.'
+  features:
+    - icon: 1
+      icon_bg: blue
+      title: 'Kusur Başına Tek Yeniden İşleme'
+      desc: 'Tek bir konum, yetkili bir talimat altında bir kez yeniden işlenebilir. Yeniden denetim yine başarısız olursa tahta değiştirme, ret, hurda veya müşteri feragati için yükseltilir — belgelenmiş onay olmadan tekrarlayan yeniden işlemeye izin verilmez.'
+    - icon: 2
+      icon_bg: green
+      title: 'Parti Alarmı ve Hat Durdurma'
+      desc: 'Bir üretim partisindeki uyumsuzluk mühendislik tarafından belirlenen eşiği aştığında, hat durdurulur ve üretim devam etmeden önce neden — malzeme lotu, süreç koşulları ve kayıtlar — Mühendislik tarafından incelenir.'
+    - icon: 3
+      icon_bg: purple
+      title: 'Kalibre Ölçüm Gereçleri'
+      desc: 'Hava sızdırmazlığı testinde kullanılan basınç göstergeleri, dijital manometreler ve zamanlayıcılar, geçerlilik süreleri içinde kontrollü tutulur ve üçüncü taraf laboratuvarlarınca kalibre edilir; kalibrasyon durumu denetim alanında görünürdür.'
+    - icon: 4
+      icon_bg: orange
+      title: 'Kontrollü Test Koşulları'
+      desc: 'Hava sızdırmazlığı testi ve kürleme alanları, sonuçların gece gündüz sıcaklık dalgalanmalarından etkilenmemesi için kontrollü bir ortamda tutulur.'
+
+rework_boundaries:
+  tagline: 'Kapsam ve Sınırlar'
+  title: 'Bu Sistemin Kapsamadıkları'
+  body: |
+    Yeniden işleme kontrol sistemi, sevkiyat onayından önce hava kaçağı, basınç tutma başarısızlığı veya ilgili hava sistemi kusurları tespit edilen tamamlanmış veya süreç içi şişirilebilir SUP tahtalarına uygulanır. Onaylanan yapıda, malzemede, grafikte, ürün yapılandırmasında veya müşteri gereksinimlerinde değişikliklere izin vermez ve şunları kapsamaz:
+
+    - Zaten sevk edilmiş veya müşteri kanallarındaki ürünler.
+    - Mühendislik tarafından değerlendirilmemiş yapısal hasar veya tahta deformasyonu.
+    - Yaygın ray veya dikiş arızası, çekirdek malzeme hasarı ya da güvenliği etkileyebilecek kusurlar.
+    - Yeniden işlemeye izin verilmeyen projeler: müşteri tarafından onaylanan numuneler, sertifikasyon veya test birimleri.
+    - Özel müşteri süreçleri, özel malzemeleri veya özel onarım gereksinimleri olan projeler.
+    - Yer tespit edilemeyen tekrarlayan sızıntılar veya yeniden işlemeden sonra yeniden başarısız olan tahtalar.
+
+    Müşteri şartnamelerinden her türlü sapma, belgelenmiş mühendislik incelemesi ve uygun olduğunda yazılı müşteri onayı gerektirir. Özgün şartnamesine geri döndürülemeyen tahtalar yalnızca açık bir müşteri feragatiyle sevk edilir — asla yalnızca üretim kararıyla.
+
+method_cards:
+  tagline: Yöntem Kartı Sistemi
+  title: Kontrollü Yeniden İşleme Yöntem Kartı İndeksi
+  subtitle: 'Genel talimat süreci kontrol eder; yöntem kartları operasyonu kontrol eder. Yeniden işleme talimatı (WI-QC-AT-001), MC-RW-01 ile MC-RW-06 yöntem kartlarına ve zorunlu hurda ve ret için MC-RW-00’a atıf yapar.'
+  headers:
+    code: Yöntem Kartı
+    defect: Kusur Sınıfı
+    scope: Uygulama Kapsamı
+    controls: Anahtar Mühendislik Kontrolleri
+    approval: İmza Yetkisi
+  rows:
+    - code: MC-RW-01
+      defect: Sınıf A (Supap Arayüzü)
+      scope: 'Supap çekirdeği bakımı, conta temizliği ve yeniden montaj'
+      controls: 'Kalibre tork anahtarı, temiz conta yuvası, supap dişlerinde hasar olmaması'
+      approval: 'QC Denetçisi'
+    - code: MC-RW-02
+      defect: Sınıf B (Supap Çevresi)
+      scope: 'Supap tabanı flanş sızdırmazlığı ve kontrollü kelepçeleme'
+      controls: 'Kontrollü yüzey hazırlığı, onaylı yapıştırma malzemesi, dairesel basınç fikstürü'
+      approval: 'QC + Mühendislik'
+    - code: MC-RW-03
+      defect: Sınıf C (Yüzey Mikro Sızıntı)
+      scope: 'Yapısal olmayan delik sızdırmazlığı'
+      controls: 'İki bileşenli onaylı yapıştırıcı, grafiklere veya EVA’ya yapıştırıcı akıntısı olmaması'
+      approval: 'QC + Mühendislik'
+    - code: MC-RW-04
+      defect: Sınıf D (Yerel Ray Dikişi)
+      scope: 'Yerel ray bindirme dikişinin yeniden yapıştırılması'
+      controls: 'Sıcaklık kontrollü ısı aktivasyonu, basınç merdanesi, kıvrılma önleyici fikstür'
+      approval: 'Mühendislik + QA Müdürü'
+    - code: MC-RW-05
+      defect: Sınıf B/C (Aksesuar Çevresi)
+      scope: 'Fin kutusu yaması ve aksesuar montaj tabanı sızdırmazlığı'
+      controls: 'Yüzey yapışma destekleyicisi, profilli kelepçe bloğu, tanımlı tutma süresi'
+      approval: 'QC + Mühendislik'
+    - code: MC-RW-06
+      defect: Sınıf D (Burun/Kuyruk Dikişi)
+      scope: 'Yüksek gerilimli eğri dikiş müdahalesi'
+      controls: 'Yüksek kayma dayanımlı onaylı yapıştırma malzemesi, yeniden testten önce uzatılmış kürleme süresi'
+      approval: 'Baş Mühendis'
+    - code: MC-RW-00
+      defect: Sınıf E/F/G (Kritik / Kopma)
+      scope: 'Zorunlu hurda ve fiziksel imha'
+      controls: 'Karışmayı önlemek için fiziksel kesme, hurda kaydı, fonksiyonlar arası kök neden incelemesi'
+      approval: 'Fabrika Müdürü'
+
+inspector_friendly:
+  tagline: Üçüncü Taraf Denetimi
+  title: 'Denetçi Dostu Protokol'
+  body: |
+    Kalibre basınç göstergeleri, dikiş ve grafik kontrolleri için standart ışık masaları ve önceden doldurulmuş Denetim Özetleri içeren, ayrılmış bir denetim alanı sunuyoruz; böylece üçüncü taraf kuruluşlar (SGS, BV, Intertek, QIMA) sevk öncesi denetimi verimli biçimde tamamlayabilir — denetim maliyetinizden tasarruf edersiniz.
+
+    Her özet; PO için geçerli belge revizyonlarını, onaylı numune referansını, kalite kritik kontrolleri, üzerinde anlaşılan örnekleme seviyesini, işlevsel testleri ve ambalajlama ile barkod gereksinimlerini özetler. Belirtilen adet, kalite, ambalajlama ve temel güvenlik kalemleri onaylı proje referanslarına karşı doğrulanır — saha üzerinde son anda belge aramaya gerek kalmaz.
+
+document_pack:
+  tagline: Kalite Dokümantasyon Paketi
+  title: 'Örnek Kalite Paketini ve Protokol Şablonlarını İndirin'
+  subtitle: 'OEM/ODM projeleri için kullanılan standart kontrollü şablonlar — 00–15 dokümantasyon kaydı yapısıyla düzenlenmiştir (proje indeksi, onaylı şartname, BOM, görsel sanat ve ambalajlama referansları, QIP, denetim kayıtları, NCR, değişiklik kontrolü, üçüncü taraf brifingi, onay özeti).'
+  features:
+    - icon: P
+      icon_bg: blue
+      title: 'Kalite Dokümantasyon Paketi (PDF)'
+      desc: 'Eksiksiz 00–15 kontrollü belge yapısı: proje indeksi, şartname, BOM, görsel sanat ve ambalajlama referansları, Kalite Denetim Planı (QIP), denetim kayıtları, NCR, değişiklik kontrolü, üçüncü taraf brifingi ve sevk öncesi onay özeti.'
+      link: 'https://assets.isupfactory.com/site/downloads/Qingdao_Vatrad_Group_SUP_Quality_Documentation_Pack.pdf?dl=1'
+      link_label: PDF İndir
+    - icon: T
+      icon_bg: green
+      title: 'Üçüncü Taraf Denetim Brifingi (PDF)'
+      desc: 'SGS / BV / Intertek / QIMA denetçileri için tek sayfalık brifing: sipariş adedi, AQL örnekleme seviyesi, geçerli revizyonlar ve hava sızdırmazlığı kaydı doğrulaması, basınç tutma testi, kit tamlığı, barkod taraması ve koli düşürme testi dahil kalite kritik kontroller.'
+      link: 'https://assets.isupfactory.com/site/downloads/Third_Party_Inspection_Brief_Template.pdf?dl=1'
+      link_label: PDF İndir
+    - icon: C
+      icon_bg: purple
+      title: 'Değişiklik Kontrolü Protokolü (PDF)'
+      desc: 'Görsel sanat, müşteri tarafından onaylanan BOM ve koli işaretlemesi revizyonlarını kapsayan Değişiklik Kontrolü Kaydı — değişiklik özeti, neden, etki değerlendirmesi, müşteri onay durumu, yürürlük partisi ve kullanımdan kalkan belgelerin geri çekilmesi ile.'
+      link: 'https://assets.isupfactory.com/site/downloads/Change_Control_Protocol_Bilingual.pdf?dl=1'
+      link_label: PDF İndir
+    - icon: R
+      icon_bg: orange
+      title: 'Sevk Öncesi Onay Özeti (PDF)'
+      desc: 'Tek sayfalık onay imzası: kalite kapısı doğrulaması (IQC, IPQC, hava sızdırmazlığı, nihai denetim, ambalajlama), açık NCR durumu ve kalite ile operasyon tarafından imzalanan yetkili onay kararı.'
+      link: 'https://assets.isupfactory.com/site/downloads/Pre_Shipment_Release_Summary_Bilingual.pdf?dl=1'
+      link_label: PDF İndir
+    - icon: W
+      icon_bg: blue
+      title: 'Hava Sızdırmazlığı Yeniden İşleme Talimatı (PDF)'
+      desc: 'Kontrollü iş talimatı WI-QC-AT-001 Rev A: kapsam ve sınırlar, kusur sınıflandırması, NCR ve yeniden işleme yetkilendirmesi, kontrollü uygulama, kürleme, yeniden denetim ve şişirilebilir SUP tahtaları için onay.'
+      link: 'https://assets.isupfactory.com/site/downloads/air-tightness-rework-instruction-wi-qc-at-001.pdf?dl=1'
+      link_label: PDF İndir
+    - icon: M
+      icon_bg: green
+      title: 'Yöntem Kartı İndeksi (PDF)'
+      desc: 'Kontrollü belge SOP-QC-AT-IDX-001 Rev A: numaralandırılmış MC-RW-01 ile MC-RW-06 yöntem kartı sistemi ve hurda ile ret için MC-RW-00; hava sızdırmazlığı yeniden işleme talimatına bağlıdır.'
+      link: 'https://assets.isupfactory.com/site/downloads/method-card-index-sop-qc-at-idx-001.pdf?dl=1'
+      link_label: PDF İndir
+    - icon: V
+      icon_bg: orange
+      title: 'Yeniden İşleme Değişiklik Kontrolü Standardı (Sayfa)'
+      desc: 'Yeniden işleme parametreleri için resmi ISO 9001 değişiklik kontrolü: ECR, risk sınıflandırması, fonksiyonlar arası onay matrisi, 9 adımlı kapalı döngü, nicel mühendislik doğrulaması ve Poka-Yoke güvenceleri — iki dilli SOP QMS-SOP-QC-CC-001 Rev 2.0 ile.'
+      link: '/tr/factory/quality-change-control'
+      link_label: Sayfayı görüntüle
+    - icon: N
+      icon_bg: blue
+      title: 'Uyumsuz Ürün Kontrolü (Sayfa)'
+      desc: 'ISO 9001:2015 Madde 8.7 uyumsuz çıktılar kontrolü: NCR kaydı, karantina, şiddete dayalı karar yetkisi, SRI ile kontrollü yeniden işleme, bağımsız yeniden denetim ve SHA-256 ile korunan tanıklı imha — iki dilli SOP ve hurda sertifikası indirmeleriyle.'
+      link: '/tr/factory/non-conforming-control'
+      link_label: Sayfayı görüntüle
+
+faqs:
+  tagline: SSS
+  title: 'SUP Kalite Kontrolü Hakkında Sıkça Sorulan Sorular'
+  items:
+    - q: 'QINGDAO VATRAD GROUP.,LTD., şişirilebilir SUP tahta kalitesini nasıl kontrol ediyor?'
+      a: 'Kalite; giriş malzemesi denetimi, üretim süreci kontrol noktaları, nihai ürün doğrulaması, ambalajlama denetimi ve üretim izlenebilirliğiyle kontrol edilir — her biri projede onaylanan numune, şartname ve denetim kriterlerine göre yürütülür.'
+    - q: 'SUP üretimi sırasında hangi kalite denetimleri yapılır?'
+      a: 'Denetimler; malzeme doğrulaması, kesim ve baskı kontrolleri, tahta yapı denetimi, supap montajı doğrulaması, aksesuar denetimi, hava sızdırmazlığı testi, görünüm denetimi ve ambalajlama doğrulamasını kapsar.'
+    - q: 'OEM müşterileri SUP denetim kayıtlarını talep edebilir mi?'
+      a: 'Evet. Denetim kayıtları ve kalite dokümantasyonu, proje gereksinimleri ve müşteri kalite anlaşmalarına göre sağlanabilir; örnek sevk öncesi denetim raporları dahil.'
+    - q: 'Fabrika OEM üretim tutarlılığını nasıl sağlar?'
+      a: 'Üretim tutarlılığı; onaylı numuneler, teknik şartnameler, imalat kontrol noktaları, denetim prosedürleri ve her siparişe bağlı belgelenmiş kalite kontrol süreçleriyle sürdürülür.'
+    - q: 'SGS, BV, Intertek veya QIMA ile üçüncü taraf denetimi düzenleyebilir miyim?'
+      a: 'Evet. Üçüncü taraf denetçileri; ayrılmış bir denetim alanı, kalibre basınç göstergeleri, önceden doldurulmuş denetim brifingleri ve erişilebilir kayıtlarla ağırlar. Şartnamenizi, onaylı numunenizi, görsel sanatınızı, ambalajlama gereksinimlerinizi ve kusur kriterlerinizi paylaşın — ya da Üçüncü Taraf Denetim Brifingi şablonumuzu kullanın.'
+    - q: 'Üretim sırasında görsel sanat, BOM veya ambalajlama değişiklikleri nasıl ele alınır?'
+      a: 'Değişiklikler; etkilenen belge revizyonu, değişiklik özeti, neden, etki değerlendirmesi, müşteri onay durumu ve yürürlük partisiyle Değişiklik Kontrolü Kaydımıza işlenir. Kullanımdan kalkan sürümler geri çekilir; böylece üretim ve denetim her zaman güncel onaylı belgeleri kullanır.'
+    - q: 'Fabrika özelleştirilmiş şişirilebilir SUP projelerini destekliyor mu?'
+      a: 'Evet. Özelleştirilmiş şişirilebilir SUP OEM/ODM projeleri; müşteri şartnameleri, görsel sanat gereksinimleri, aksesuar yapılandırmaları ve ambalajlama ihtiyaçları temelinde desteklenir; projeye özel denetim kriterleri üretim öncesinde üzerinde anlaşılır.'
+    - q: 'Sızdıran bir SUP tahtası fabrikada yeniden işlenebilir mi?'
+      a: 'Evet — kontrollü koşullar altında. Tahta HOLD durumuna alınır ve bir NCR’ye bağlanır, sızıntı onaylı bir tanı yöntemiyle bulunur ve yeniden işleme yalnızca QC/Mühendislik yetkilendirmesinden sonra, yalnızca yeniden işlemeye uygun onaylı kusur sınıfları içinde yürütülür. Ardından tahta, sevkiyat onayından önce uygun bir tahtayla aynı kabul kriterlerine karşı yeniden denetlenir.'
+    - q: 'Fabrika bir tahtayı kaç kez yeniden işleyebilir?'
+      a: 'Tek bir konum, yetkili bir talimat altında bir kez yeniden işlenebilir. Yeniden denetim yine başarısız olursa tahta değiştirme, ret, hurda veya müşteri feragati için yükseltilir — belgelenmiş onay olmadan tekrarlayan yeniden işlemeye izin verilmez.'
+
+cta:
+  title: 'Eksiksiz Proje Kalite Paketi Örneğine mi İhtiyacınız Var?'
+  desc: 'OEM/ODM projeniz için anonimleştirilmiş Üçüncü Taraf Denetim Destek Paketi ve Kalite Denetim Planı (QIP) talep edin — ya da siparişiniz için bekleyebileceğiniz dokümantasyon yapısını incelemek üzere örnek şablonları indirin.'
+  actions:
+    - text: Kalite İncelemesi Talep Edin
+      variant: primary
+      href: /tr/contact
+    - text: Örnek Kalite Paketini İndir (PDF)
+      href: 'https://assets.isupfactory.com/site/downloads/Qingdao_Vatrad_Group_SUP_Quality_Documentation_Pack.pdf?dl=1'
+    - text: QC Protokolü ve PSI Kontrol Listesini İndirin
+      href: 'https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_Quality_Inspection_Standards.pdf?dl=1'

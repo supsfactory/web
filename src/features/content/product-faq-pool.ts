@@ -6,7 +6,7 @@ export interface FaqEntry {
   a: string
 }
 
-export const PRODUCT_FAQ_POOL: Record<'en' | 'es' | 'fr' | 'de' | 'it' | 'pt' | 'nl' | 'sv' | 'no' | 'pl' | 'da' | 'fi' | 'ru' | 'cs', FaqEntry[]> = {
+export const PRODUCT_FAQ_POOL: Record<'en' | 'es' | 'fr' | 'de' | 'it' | 'pt' | 'nl' | 'sv' | 'no' | 'pl' | 'da' | 'fi' | 'ru' | 'cs' | 'tr', FaqEntry[]> = {
   en: [
     {
       q: 'What is the minimum order to customize this board?',
@@ -257,6 +257,24 @@ export const PRODUCT_FAQ_POOL: Record<'en' | 'es' | 'fr' | 'de' | 'it' | 'pt' | 
     {
       q: 'Jak se kontroluje kvalita před odesláním?',
       a: 'Každá deska projde 100bodem kontrolním seznamem montáže a zkouškou tlakem 18.0 PSI po dobu 24 h před zabalením; výrobky s poklesem tlaku více než 0,50 PSI/24 h jsou automaticky vyřazeny.',
+    },
+  ],
+  tr: [
+    {
+      q: 'Bu tahtayı özelleştirmek için minimum sipariş miktarı nedir?',
+      a: 'Standart hacim üretiminde tek bir 150 m rulo üzerinde, malzeme rulosu ve ambalaj gereksinimlerine bağlı olarak, onaylanmış her konfigürasyon için minimum sipariş miktarı (MOQ) 90–100+ adettir; deneme üretimleri 20–50 adetten başlar ve özel kalıp için 90–100+ adet gerekir.',
+    },
+    {
+      q: 'Numuneler ve üretim ne kadar sürer?',
+      a: 'Numuneler 7–12 günde hazır olur; sipariş (PO) ve depozito teyit edildikten sonra seri üretim 25–35 günde tamamlanır.',
+    },
+    {
+      q: 'Renkleri, görsel tasarımı ve logoyu değiştirebilir miyim?',
+      a: 'Evet — grafikler, renkler, EVA kaymaz kaplama, logo, ambalaj ve aksesuarlar her platformda özelleştirilebilir. Logonuzu paylaşın, üretim öncesi görsel bir onay hazırlayalım.',
+    },
+    {
+      q: 'Sevkiyat öncesinde kalite nasıl kontrol ediliyor?',
+      a: 'Her tahta ambalajlamadan önce 100 maddelik montaj kontrol listesinden ve 18.0 PSI · 24 saat basınç tutma testinden geçer; 24 saatte 0,50 PSI üzeri basınç kaybı yaşayan ürünler otomatik olarak elenir.',
     },
   ],
 }

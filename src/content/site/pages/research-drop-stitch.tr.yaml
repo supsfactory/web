@@ -1,0 +1,79 @@
+meta:
+  title: 'Drop Stitch Nasıl Çalışır — Şişirilebilir SUP Rijit Çekirdekleri'
+  description: 'Drop stitch’in esnek PVC’yi rijit, yüksek basınçlı bir SUP çekirdeğine (15-20 PSI) nasıl dönüştürdüğü: yapı, malzemeler, kalite göstergeleri ve uygulamalar.'
+  author: 'iSupfactory'
+  datePublished: '2026-08-04'
+  dateModified: '2026-08-07'
+back_text: 'Araştırmaya Dön'
+
+answer:
+  label: 'Doğrudan yanıt'
+  text: 'Drop-stitch, poliester iplik sütunlarının üst ve alt PVC katmanlarını sabit bir mesafede tuttuğu bir kumaştır; böylece hava basıncı tahtayı rijitleştirir. Vatrad çekirdekleri: 1.680 DTEX, inç başına 2 iplik, 1.2 mm PVC dış laminasyon, 15 PSI anma değeri ve 18.0 PSI basınçta 24 saatlik tutma testiyle doğrulanır.'
+  verified: 'Eylül 2026'
+
+hero:
+  tagline: 'Teknoloji'
+  title: 'Drop Stitch Nasıl Çalışır — Şişirilebilir Rijit Çekirdeklerin Arkasındaki Mühendislik'
+  subtitle: '8 dakikalık okuma'
+
+content_html: |
+  <h2>Drop Stitch Nedir?</h2>
+  <p>Drop stitch (diğer adıyla drop-stitch kumaş veya drop-stitch çekirdek), binlerce bireysel poliester ipliğin bir kumaş kabuğunun üst ve alt katmanlarını birbirine bağladığı bir yapım yöntemidir. Kabuk şişirildiğinde bu iplikler iç taşıyıcı elemanlar gibi davranır — üst ve alt panellerin yuvarlak bir biçime doğru dışa şişmesini engeller ve panelin düz ve rijit kalmasını sağlar.</p>
+  <p>Sonuç, 15 – 20 PSI iç basınca dayanabilen hafif ve taşınabilir bir yapıdır — sert kabuklu bir tahtanın rijitliğiyle kıyaslanabilir, ancak depolama ve taşıma için tamamen söndürülebilir.</p>
+
+  <h2>Nasıl Çalışır: Fiziğin Temeli</h2>
+  <p>Konvansiyonel bir şişirilebilir yapıda (bir balon veya hava yastığı gibi) iç hava basıncı her yöne eşit şekilde iter. İç sınırlama olmazsa yapı silindirik veya küresel bir biçime dönüşür. Drop stitch bunu çekme takviyesi ekleyerek çözer:</p>
+  <ul>
+    <li>Binlerce iplik, üst ve alt kumaş katmanlarını birbirine bağlar</li>
+    <li>Şişirildiğinde hava basıncı üst ve alt katmanları birbirinden ayırmaya çalışır</li>
+    <li>İplikler bu ayrılmaya direnir ve yükü iplik ekseni boyunca çekme olarak aktarır</li>
+    <li>Sonuç, bükülmeye direnç gösteren düz ve rijit bir panel olur</li>
+  </ul>
+
+  <h2>Üretim Süreci</h2>
+  <ol>
+    <li><strong>Dokuma:</strong> Poliester iplikler aynı anda iki ayrı ana kumaş katmanına dokunur (tipik olarak 1.100 DTEX veya 1.680 DTEX PVC kaplı poliester). İplikler katmanlar arasında 90&deg; açıyla ilmek dokuma şeklinde bağlanır.</li>
+    <li><strong>Kaplama:</strong> Dokunmuş ana kumaş, bıçak kaplama veya kalender kaplama süreciyle PVC (ara sıra TPU) ile kaplanır. Bu işlem iplikleri mühürler ve hava sızdırmaz membranı oluşturur.</li>
+    <li><strong>Katman yapıştırma:</strong> Drop-stitch çekirdek, ısı laminasyonu veya yapıştırıcı kullanılarak dış lamine katmanlara (tipik olarak 0.9 mm veya 1.2 mm PVC) yapıştırılır.</li>
+    <li><strong>Kaynak:</strong> Rail bantları, tahtanın yan duvarlarını oluşturmak için sıcak hava kaynağı, RF kaynağı veya yüksek frekans kaynağıyla kenarlar boyunca kaynaklanır.</li>
+    <li><strong>Valf montajı:</strong> Boston valfleri veya Halkey-Roberts valfleri, aşırı şişirmeyi önlemek için genellikle bir basınç tahliye mekanizmasıyla monte edilir.</li>
+  </ol>
+
+  <h2>Temel Kalite Göstergeleri</h2>
+  <table class="w-full text-sm border-collapse">
+    <thead>
+      <tr class="bg-gray-100">
+        <th class="p-3 text-left font-semibold text-gray-900 border">Parametre</th>
+        <th class="p-3 text-left font-semibold text-gray-900 border">Giriş Kademesi</th>
+        <th class="p-3 text-left font-semibold text-gray-900 border">Premium</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td class="p-3 border">İplik yoğunluğu</td><td class="p-3 border">İnç başına 1 iplik</td><td class="p-3 border">İnç başına 2 iplik</td></tr>
+      <tr><td class="p-3 border">Ana kumaş</td><td class="p-3 border">1.100 DTEX</td><td class="p-3 border">1.680 DTEX</td></tr>
+      <tr><td class="p-3 border">Maksimum basınç</td><td class="p-3 border">12 – 15 PSI</td><td class="p-3 border">18 – 22 PSI</td></tr>
+      <tr><td class="p-3 border">PVC kalınlığı</td><td class="p-3 border">0.6 – 0.9 mm</td><td class="p-3 border">1.0 – 1.2 mm</td></tr>
+      <tr><td class="p-3 border">Rail yapısı</td><td class="p-3 border">Katlanmış ve yapıştırılmış</td><td class="p-3 border">Kaynaklı ve füzyon bağlantılı</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Uygulamalar</h2>
+  <ul>
+    <li><strong>SUP tahtaları:</strong> 4" – 6" kalınlık, 15 – 20 PSI, inç başına 1 – 2 iplik</li>
+    <li><strong>Kayaklar:</strong> Drop-stitch taban + şişirilebilir yan hazneler, tabanda 10 – 15 PSI</li>
+    <li><strong>RIB tabanları:</strong> Hafif, paketlenebilir RIB botları için drop-stitch tabanlar, 12 – 18 PSI</li>
+    <li><strong>Bot tamponları:</strong> Düz yüzlü, biçimlendirilmiş tamponlar için düşük basınçlı drop stitch</li>
+  </ul>
+
+  <h2>Drop Stitch ve Air Deck (Cam Elyaf veya Ahşap Çekirdek) Karşılaştırması</h2>
+  <p>Sert kabuklu tahtalar, cam elyaf veya ahşap boyun takviyeli EPS köpük çekirdekler kullanır. Daha hafif, daha rijit ve daha duyarlıdırlar — ancak söndürülemezler. Drop stitch, bir miktar rijitlik karşılığında tam taşınabilirliği sunar. Çoğu rekreasyon kullanıcısı için 20 PSI’daki modern drop-stitch SUP tahtaları, rijitlik açısından giriş seviyesindeki sert tahtalardan ayırt edilemez.</p>
+
+  <h2>Vatrad Drop Stitch’i Nasıl Kullanır</h2>
+  <p>Vatrad, tüm SUP ürün hattında inç başına 2 iplik ve 1.2 mm PVC dış laminasyonlu 1.680 DTEX drop-stitch çekirdeği kullanır. Tahtalar 15 PSI anma değerine sahiptir ve sevkiyattan önce 18.0 PSI basınçta 24 saatlik basınç tutma testinden geçirilir. Rail bantları üç katmanlı füzyonla sıcak hava kaynağına tabi tutulur ve basınç tahliye valfleri tüm modellerde standarttır.</p>
+  <p>Drop stitch, SUP üretimimizin omurgasıdır — <a href="/tr/technology/drop-stitch-core">drop-stitch çekirdek teknolojisi sayfasına</a> ve çekirdeğin <a href="/tr/factory">fabrika üretim hattında</a> nasıl yapıştırıldığına bakın.</p>
+
+cta:
+  title: 'Drop stitch hakkında daha fazla bilgi almak ister misiniz?'
+  subtitle: 'Teknik spesifikasyonlar ve OEM talepleri için bizimle iletişime geçin.'
+  button_text: 'Satış ekibiyle iletişime geçin'
+  button_link: /tr/contact

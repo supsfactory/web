@@ -1,0 +1,339 @@
+meta:
+  title: 'Fabrika ve Üretim — Şişirilebilir SUP OEM'
+  description: 'Vatrad fabrikasını gezin: kesim, RF kaynak, baskı, montaj ve kalite laboratuvarıyla 12.500 m² tesis, şişirilebilir SUP OEM/ODM üretimi için.'
+  dateModified: '2026-08-07'
+  keywords:
+    - 'çin sup fabrikası'
+    - 'şişirilebilir kürek tahtası fabrikası'
+    - 'oem sup üreticisi'
+    - 'şişirilebilir sup üretimi'
+hero:
+  tagline: Fabrika
+  title: Fabrika ve Üretim
+  subtitle: 12.500 m2 SUP fabrikası, Çin, Qingdao — ham PVC malzemeden bitmiş şişirilebilir kürek tahtasına kadar özel SUP üretimi
+
+answer:
+  label: 'Net cevap'
+  text: 'Çin’in Qingdao kentinde sertifikalı şişirilebilir SUP fabrikası: ISO 9001, ISO 25649, BSCI, CE, REACH ve RoHS. 4 uzmanlaşmış atölyeye yayılmış 12.500 m² tesis, 350+ çalışan, yıllık 120.000+ tahta üretimi (4 otomatik hatta ayda 10.000 tahta). Her tahta 18.0 PSI’da 24 saat basınç testinden geçer, 100 maddelik montaj kontrol listesini tamamlar ve 10 yıllık malzeme izlenebilirliği taşır.'
+  verified: 'Eylül 2026'
+
+intro:
+  - '**Qingdao Vatrad Group Co., Ltd.** üretim birimi olarak Vatrad, şişirilebilir SUP üretiminin her aşamasını kontrol eder — ham PVC malzemelerin gelişinden bitmiş kürek tahtasının teslim öncesi son denetimine kadar. Qingdao Ekonomik Gelişim Bölgesi’ndeki üretim tesisimiz 12.500 metrekarelik alana yayılmış olup PVC kesimi, drop-stitch çekirdek yapıştırması, SUP dijital baskısı, son montaj ve kalite testi için ayrılmış atölyeler barındırır.'
+  - 'Tasarım, mühendislik, prototip, üretim ve testleri tek çatı altında birleştirerek taşeron üretim verimsizliklerini ortadan kaldırıyor; üretim kalitesi, malzeme seçimi ve teslim takvimi üzerinde doğrudan kontrol sağlıyoruz. Atölyemizden çıkan her SUP, bizim insanlarımız, bizim ekipmanımız ve bizim standartlarımızla üretilir.'
+
+stats:
+  - value: 12.500 m2
+    label: Üretim alanı
+  - value: 350+
+    label: Nitelikli işçi
+  - value: 120.000+
+    label: Yıllık üretilen SUP
+  - value: ISO 9001
+    label: Kalite sertifikalı
+
+intelligence_tagline: Fabrika Zekası
+intelligence_title: Üretim Yeteneklerimizi Keşfedin
+
+intelligence_cards:
+  - title: Üretim Kapasitesi
+    icon: C
+    icon_bg: blue
+    desc: 'SUP tahtası ve güvenlik ekipmanı hatlarında yılda 120.000+ SUP üreten 12.500 m² tesis. 350+ çalışan, 2 vardiya.'
+    metrics:
+      - label: MOQ
+        value: 'SUP: numune 1–2 / pilot 20–50 / hacim 90–100+'
+      - label: Teslim süresi
+        value: '25–35 gün'
+    link: /tr/factory/capacity
+    link_label: Eksiksiz kapasite detayları →
+  - title: Kalite Laboratuvarı ve Testler
+    icon: Q
+    icon_bg: green
+    desc: 'Bağımsız QC laboratuvarı, 4 test aşamasıyla: hammadde denetimi (çekme, yırtılma, UV), 18.0 PSI’da 24 saat basınç tutma, dikiş soyma testi ve her tahtada bükülme rijitliği doğrulaması.'
+    metrics:
+      - label: Laboratuvar ekipmanı
+        value: 'Çekme test cihazı, sıcaklık odası, sızıntı tankı'
+      - label: Standartlar
+        value: 'QMS: ISO 9001; Pazar: CE, AS 1799'
+    link: /tr/factory/quality-lab
+    link_label: 'Laboratuvar prosedürleri ve ekipmanı →'
+  - title: OEM/ODM Yeteneği
+    icon: O
+    icon_bg: purple
+    desc: 'Uçtan uca OEM/ODM hizmetleri: özel kalıp tasarımı, özel marka ambalajı, özel tahta renkleri, güverte grafikleri (dijital ve ekran baskısı) ve ihracata hazır ambalajlama.'
+    metrics:
+      - label: Sertifikalar
+        value: 'ISO 9001, BSCI, CE, REACH'
+      - label: İhracat pazarları
+        value: '50+ ülke'
+    link: /tr/factory/oem-capability
+    link_label: 'Eksiksiz OEM hizmetleri →'
+  - title: Kalite Denetim Standartları
+    icon: I
+    icon_bg: orange
+    desc: 'IQC, IPQC, FQC ve OQC boyunca projeye özel kalite denetim kriterleri: hava sızdırmazlığı doğrulaması, görsel ve ölçüsel kontroller, aksesuar teyidi, parti izlenebilirliği ve sevk öncesi onay imzası — ayrıca kontrollü hava sızdırmazlığı uyumsuzluk ve yeniden işleme yönetişimi.'
+    metrics:
+      - label: Kapsam
+        value: 'Malzeme → son ambalajlama'
+      - label: İndirmeler
+        value: 'QC protokolü, PSI raporu ve yeniden işleme belgeleri (PDF)'
+    link: /tr/factory/quality-inspection
+    link_label: 'Denetim standartları ve indirmeler →'
+  - title: Yeniden İşleme Değişiklik Kontrol Standardı
+    icon: C
+    icon_bg: blue
+    desc: 'Yeniden işleme parametreleri için resmi ISO 9001 değişiklik kontrolü: ECR, risk sınıflandırması, departmanlar arası onay matrisi, 9 adımlı kapalı döngü, nicelleştirilmiş mühendislik doğrulaması (18.0 PSI, 24 saat tutma, ΔP ≤ 0.2 PSI) ve hata önleme (Poka-Yoke) güvenceleri — iki dilli SOP QMS-SOP-QC-CC-001 Rev 2.0 ile.'
+    metrics:
+      - label: Belge
+        value: 'QMS-SOP-QC-CC-001 Rev 2.0'
+      - label: İndirmeler
+        value: 'Değişiklik kontrol SOP ve uygulama eki (PDF)'
+    link: /tr/factory/quality-change-control
+    link_label: 'Değişiklik kontrol standardı ve indirmeler →'
+  - title: Uyumsuz Ürün Kontrolü
+    icon: N
+    icon_bg: purple
+    desc: 'ISO 9001:2015 Madde 8.7 uyumsuz ürün çıktıları kontrolü: NCR kaydı, karantina ve bekleme, şiddete göre karar (hat onayı / QC Müdürü + Teknik Mühendis / MRB), SRI talimatlarına göre kontrollü yeniden işleme, bağımsız %100 yeniden denetim ve tanıklı imha — hurda görüntüleri SHA-256 ile arşivlenir.'
+    metrics:
+      - label: Standart
+        value: 'ISO 9001:2015 Madde 8.7'
+      - label: Hurda sertifikası
+        value: 'VAT-QA-SCRAP-CERT-2026'
+    link: /tr/factory/non-conforming-control
+    link_label: 'Uyumsuzluk kontrolü ve indirmeler →'
+  - title: 7 Aşamalı Kalite Kontrol Akışı
+    icon: Q
+    icon_bg: green
+    desc: 'Eksiksiz proje kalite kontrol akışı, kapı kapı: Kalite Planlaması (PPM) → Giriş Malzemesi Denetimi → Süreç İçi Kontrol ve İlk Ürün → Şişirme ve Hava Sızdırmazlığı → Son Denetim → Ambalajlama ve PSI → Sevkiyat Onayı ve İzlenebilirlik. Her kapıda neyin kontrol edildiği, nasıl değerlendirildiği ve hangi iki dilli raporun üretildiği gösterilir.'
+    metrics:
+      - label: Kapılar
+        value: '01 → 07'
+      - label: İndirmeler
+        value: 'Kapı başına rapor dosyaları (PDF)'
+    link: /tr/quality
+    link_label: '7 aşamalı akışı inceleyin →'
+
+workshops_section:
+  tagline: Atölyeler
+  title: Üretim Atölyeleri
+  workshops:
+    - title: PVC Kesimi ve Malzeme Hazırlığı
+      description: Otomatik CNC kesim makineleri, PVC, Hypalon ve drop-stitch kumaşları mikrometre altı hassasiyetle işler. Bilgisayar optimizasyonlu yerleşim malzeme israfını en aza indirir ve her panelin kaynak öncesinde ölçü şartnamesine uymasını sağlar.
+      image: https://assets.isupfactory.com/images/sups/hero/production-dept.webp
+      alt: Qingdao fabrikasında şişirilebilir SUP kumaş panellerini hazırlayan CNC PVC kesim makinesi
+    - title: Boru Kaynağı ve Isı Yapıştırma
+      description: Isı yapıştırma makineleri ve RF dielektrik presleri ile ayrılmış kaynak atölyesi. Sıcak havalı ısı yapıştırıcılar PVC tüp odalarını birleştirir ve kaynaştırır; RF kaynak ise yüksek dayanımlı, hava sızdırmaz dikişler üretir ve gereksinimleri aşar.
+      image: https://assets.isupfactory.com/images/sups/factory/isupfactory-production-department.webp
+      alt: Qingdao fabrikasında şişirilebilir tekne tüp odalarını kaynaklayan RF kaynak makinesi
+    - title: Drop-Stitch Çekirdek Yapıştırması
+      description: SUP tahtası drop-stitch çekirdekleri ısı laminasyonu ile dış PVC katmanlarına yapıştırılır. Binlerce iç polyester iplik üst ve alt katmanı birbirine bağlayarak 12-15 PSI’da rijit bir yapı oluşturur. Ray bantları kenar dayanımı için üç katmanlı füzyonla yapıştırılır.
+      image: https://assets.isupfactory.com/images/sups/factory/isupfactory-sup-manufacturing.webp
+      alt: Qingdao fabrikasında drop-stitch çekirdek yapıştırma ekipmanlarıyla şişirilebilir SUP üretim hattı
+    - title: SUP Baskısı ve Dekorasyonu
+      description: SUP tahtaları tam renkli grafikler için dijital baskı, logolar ve tekrarlayan desenler için ekran baskısı ile süslenir. Dijital yazıcılar fotoğraf kalitesinde güverte tasarımları üretirken ekran baskısı dayanıklı ve canlı marka işaretleri sağlar.
+      image: https://assets.isupfactory.com/images/sups/factory/isupfactory-production-department-2.webp
+      alt: Qingdao şişirilebilir SUP fabrikasında üretim bölümünün iç mekanı
+    - title: Son Montaj ve Aksesuar Takımı
+      description: Her SUP tahtasına supapların, D halkalarının, tutamakların, fin kutularının ve güverte pedlerinin takıldığı montaj hattı. Her tahta, ekip lideri tarafından imzalanan 100 maddelik montaj kontrol listesini izler.
+      image: https://assets.isupfactory.com/images/sups/factory/isupfactory-production-department.webp
+      alt: Qingdao fabrikasında montaj istasyonları bulunan üretim bölümü
+    - title: Kalite Testi ve Denetim
+      description: Tamamlanan her tahta, sevkiyat öncesi zorunlu hava tutma testi, dikiş soyma doğrulaması ve eksiksiz sistem kontrolünden geçirilir. Kalite laboratuvarımız üretimden bağımsız çalışır ve doğrudan yönetime raporlar.
+      image: https://assets.isupfactory.com/images/sups/factory/isupfactory-pressure-testing.webp
+      alt: Qingdao fabrikasında sevkiyat öncesi hava tutma için şişirilebilir SUP basınç testi
+equipment_section:
+  tagline: Ekipman
+  title: Temel Üretim Ekipmanları
+  view_full: Eksiksiz ekipman listesini görün →
+  view_full_link: /tr/factory/equipment
+  items:
+    - name: Otomatik PVC Kesim Makinesi
+      spec: CNC kontrollü, 0.1 mm hassasiyet
+    - name: Isı Yapıştırma Makinesi
+      spec: Sıcak hava, 200°C–300 °C, tüp yapıştırma için
+    - name: RF Dielektrik Kaynak Presi
+      spec: 15 kW, hava sızdırmaz dikiş kaynağı
+    - name: Drop-Stitch Çekirdek Laminasyon Presi
+      spec: 14 ft’ye kadar SUP çekirdekleri
+    - name: Dijital Yazıcı
+      spec: Tam renkli SUP güverte grafikleri
+    - name: Ekran Baskı Makinesi
+      spec: Çok renkli logo baskısı
+qc_section:
+  tagline: Kalite Kontrol
+  title: Test ve Kalite Güvence Süreci
+  subtitle: Her tahta sevkiyat öncesi zorunlu testlerden geçer. Kalite laboratuvarımız üretimden bağımsız çalışır ve doğrudan yönetime raporlar.
+  steps:
+    - step: '1'
+      title: Hammadde Denetimi
+      desc: 'PVC, Hypalon ve drop-stitch kumaşlar, herhangi bir parti üretime girmeden önce çekme testi, yırtılma yayılımı ve UV direnci doğrulamasından geçirilir.'
+    - step: '2'
+      title: 24 Saatlik Hava Tutma Testi
+      desc: 'Her tüp oda 18.0 PSI’a şişirilir ve 24 saat tutulur. 0.50 PSI’ın üzerindeki basınç düşümü otomatik ret ve dikiş yeniden denetimini tetikler.'
+    - step: '3'
+      title: Yük ve Dengeleme Testi
+      desc: 'Tamamlanan tahtalar anma basıncına şişirilir; simetrik şişme, 15 PSI’da rijitlik ve yük altında stabilite kontrol edilir. Her tahta, son denetim öncesi test havuzumuzda ıslak teste tabi tutulur.'
+oem_section:
+  tagline: OEM Projeleri
+  title: 'Marka ve OEM İş Ortaklığı Vaka Çalışmaları'
+  subtitle: 'Konseptten üretime kadar — küresel markaların şişirilebilir SUP hatlarını lanser etmelerine ve ölçeklendirmelerine nasıl yardımcı oluyoruz.'
+  cases:
+    - challenge: 'Avrupa açık hava perakendecisi, benzersiz güverte grafikleri, çevre dostu PVC ve perakendeye hazır ambalajlama gerektiren özel markalı bir SUP hattı istedi — hepsi 60 günde teslim edildi.'
+      solution: 'Özel dijital baskı dosyaları geliştirdik, REACH uyumlu PVC tedarik ettik ve tasarım ekibini Qingdao fabrikamızla aynı lokasyonda konumlandırarak numune alma sürecini 3 turdan 1’e indirdik.'
+      result: 'İmzalı PO’dan itibaren 25–35 gün üretim; ilk sevkiyat 60 günlük varış penceresi içinde gerçekleşti. 4 SKU üzerinden 2.400 adet. İlk parti tamamen teslim edilmeden yeniden sipariş verildi.'
+      disclaimer: 'Anonimleştirilmiş proje özeti — proje tipi ve kapsam temsilidir; somut sonuçlar bağımsız olarak doğrulanamaz.'
+    - challenge: 'ABD su sporları girişimi, perakende yerleşimi için özel biçimli, ortak markalı ambalajlı ve BSCI sertifikalı yüksek performanslı drop-stitch SUP talep etti.'
+      solution: 'Mevcut SUP kalıbını değiştirilmiş konturla uyarladık, ortak markalı ambalaj görselini geliştirdik ve eksiksiz BSCI denetim belgelerini sağladık.'
+      result: 'ABD’deki önde gelen açık hava perakendecilerinde başarıyla raflandı; 1. yılda 5.000 adedin üzerinde satış ve %98 satışa dönüşüm oranıyla güçlü ivme sağlandı.'
+      disclaimer: 'Anonimleştirilmiş proje özeti — proje tipi ve kapsam temsilidir; somut sonuçlar bağımsız olarak doğrulanamaz.'
+    - challenge: 'Avustralya distribütörü, özel renkli ve Avustralya standartlarına uyumlu CE sertifikalı bir SUP serisi talep etti.'
+      solution: 'Üretim öncesi numuneleri 4 renk varyantıyla ürettik ve üçüncü taraf uyum testlerini koordine ettik.'
+      result: '3 modelli SUP serisi AU/NZ pazarında lansman edildi. Ardından 12 adet devriye SUP için kamu ihalesi kazanıldı.'
+      disclaimer: 'Anonimleştirilmiş proje özeti — proje tipi ve kapsam temsilidir; somut sonuçlar bağımsız olarak doğrulanamaz.'
+
+faq_section:
+  tagline: SSS
+  title: B2B ve OEM Hakkında Sıkça Sorulan Sorular
+  questions:
+    - q: OEM şişirilebilir SUP tahtaları için minimum sipariş miktarı (MOQ) nedir?
+      a: 'MOQ sabit bir sayı yerine proje yapılandırmasıyla belirlenir — gövde ve kalıp, renk seçenekleri ve PVC, görsel sanat, ambalajlama ve aksesuarlar. Standart hacim üretimi tam bir 150 m drop-stitch rulosundan parti başına 90–100+ adet ile yürür, küçük partili ortak marka 5–10 adetten başlar ve her proje numune (1–2 adet) ile pilot (20–50 adet) aşamalarından geçer. Eksiksiz hesaplama mantığı için MOQ ve Esnek Markalama Kılavuzumuzu inceleyin.'
+    - q: Vatrad BSCI sertifikasına sahip mi?
+      a: 'Evet. Fabrikamız geçerli BSCI sosyal uyum sertifikasını sürdürmektedir (denetim raporu talep üzerine mevcuttur). Ayrıca kalite yönetimi için ISO 9001 belgesine sahibiz. CE sertifikası AB pazarlarına yönelik modeller için geçerlidir; kapsam proje bazında teyit edilir. REACH ve RoHS uyum belgeleri her OEM siparişiyle birlikte sağlanır.'
+    - q: Bir OEM siparişi için tipik teslim süresi nedir?
+      a: 'Standart teslim süresi, toplu OEM üretimi için onaylanmış PO ve depozitodan itibaren 25–35 gündür. Özel kalıp geliştirme, kalıp işleme için 15–20 gün ekler. Acil siparişler ve sezon yoğunlukları için hızlı üretim mevcuttur. Prototip numuneleri genellikle 7–12 gün içinde hazırdır.'
+    - q: İhracat belgelerini siz mi yönetiyorsunuz?
+      a: 'Evet. Ekibimiz ihracat belgelerini ve gümrük müklemesini içeride yönetir; AB, ABD, Avustralya ve Asya pazarlarında 50’den fazla ülkeye tedarik sağlıyoruz.'
+
+b2b_moq: 'MOQ proje yapılandırmasıyla belirlenir: numune 1–2, pilot 20–50, hacim 90–100+ (rulo başına 150 m); küçük partili ortak marka 5–10 adetten başlar.'
+
+production_flow:
+  tagline: Üretim Akışı
+  title: 'Malzemeden Bitmiş Tahtaya'
+  subtitle: 'Her tahta, her adımda QC kontrol noktalarıyla 6 üretim aşamasından geçer. Kısayol yok, atlanan denetim yok.'
+  stages:
+    - stage: '01'
+      title: Malzeme Kabulü ve Giriş QC’si
+      description: 'Gelen tüm malzemeler ERP sistemimizde parti/numara bazında kaydedilir. PVC kumaş rulo, drop-stitch çekirdek, supap, yapıştırıcı ve donanımlar, QC onayı verene kadar karantinaya alınır.'
+      qc_check: 'Çekme dayanımı (ASTM D751), yırtılma direnci (ISO 4674), kalınlık ölçümü, yapıştırıcı viskozitesi, görsel kusur taraması'
+      qc_threshold: 'Partilerin %100’ü test edilir. Çekme < şartnamenin %90’ı, yırtılma < şartname asgarisi veya herhangi bir görsel kusur varsa ret'
+      responsibility: Giriş QC ekibi (3 denetçi)
+    - stage: '02'
+      title: CNC Kesimi ve Malzeme Hazırlığı
+      description: 'Bilgisayar optimizasyonlu yerleşim, israfı en aza indirmek için panelleri PVC stok üzerine yerleştirir. Otomatik CNC kesim makineleri 0.1 mm konumsal hassasiyeti korur.'
+      qc_check: 'CAD DXF dosyalarına karşı ölçüsel kontrol, kenar kalitesi denetimi, panel adedi doğrulaması'
+      qc_threshold: 'Her 20. panel ölçülür. Tolerans ±0.5 mm. Tolerans dışı oranı >%2 ise parti ret edilir'
+      responsibility: Kesim atölyesi sorumlusu
+    - stage: '03'
+      title: Kaynak ve Drop-Stitch Yapıştırma
+      description: 'Drop-stitch çekirdekleri ısı laminasyonu ile dış PVC katmanlarına yapıştırılır. Tüp odaları RF ile veya sıcak hava ile kaynaklanır. Ray bantları üç katmanlı füzyonla yapıştırılır.'
+      qc_check: 'Her 50 adette soyma testi (ASTM D751), kaynak genişliği ölçümü, sıcak hava sıcaklık kaydı incelemesi, arka ışıkta görsel dikiş denetimi'
+      qc_threshold: 'Soyma dayanımı en az 8 N/cm. Kaynak genişliği toleransı ±1 mm. Görünür kanal oluşumu varsa ret'
+      responsibility: Kaynak QC (vardiya başına 2 denetçi)
+    - stage: '04'
+      title: Montaj ve Aksesuar Takımı
+      description: 'Tahtalar, tüm bileşenlerin bir araya geldiği son montaja geçer: güverte ve gövde panelleri kaynaklanır, supaplar takılır, D halkaları, tutamaklar, fin kutuları ve taşıma çantası monte edilir. Her birim 100 maddelik montaj kontrol listesini izler.'
+      qc_check: 'Birim başına 100 maddelik kontrol listesi onayı, supap işlev testi (10 açma/kapama çevrimi), donanım tork doğrulaması, görsel denetim'
+      qc_threshold: 'Güvenlik açısından kritik kalemlerde (supaplar, D halkaları, tutamaklar) sıfır kusur politikası. Hafif kozmetik: AQL 2.5 (ISO 2859)'
+      responsibility: Montaj ekip lideri + hat QC’si
+    - stage: '05'
+      title: Basınç Testi ve Kalite Bekleme
+      description: 'Her oda 18.0 PSI’a (12–15 PSI anma değerli bir SUP için) şişirilir ve 24 saat tutulur. Basınç sensörleri sürekli kayıt yapar. 0.50 PSI basınç düşümünü aşan odalar reddedilir ve dikiş yeniden denetimine gönderilir.'
+      qc_check: '24 saatlik basınç tutma kaydı, sensör kalibrasyonunun günlük doğrulanması, sıcaklık kompanzasyonlu basınç okuması, onarımdan sonra dikiş yeniden testi'
+      qc_threshold: 'Kararlı sıcaklıkta 24 saatte en fazla 0.50 PSI basınç düşümü. Bu eşiği aşan her oda için üretim partisinin tamamı %100 yeniden teste tabi tutulur'
+      responsibility: Kalite laboratuvarı (üretimden bağımsız, yönetime raporlar)
+    - stage: '06'
+      title: Son Denetim ve Ambalajlama
+      description: 'Son görsel ve işlevsel denetim. Yüzey kusurları, renk tutarlılığı, etiket/BIN doğrulaması, ambalaj bütünlüğü ve aksesuar eksiksizliği. Birimler vakumlanır, kutuya alınır ve konteyner yüklemesi için paletlenir.'
+      qc_check: 'Eksiksiz görsel denetim, SKU başına aksesuar kontrol listesi, ambalaj düşürme testi (1 m, rastgele numune), etiket/barkod taraması doğrulaması'
+      qc_threshold: 'Ana kusurlar için AQL 2.5, hafif kusurlar için AQL 4.0. Güvenlik kusurlarında sıfır tolerans. Birimlerin %100’ü görsel olarak denetlenir'
+      responsibility: Son QC ekibi (4 denetçi) + Ambalajlama ekip lideri
+workforce:
+  tagline: İnsanlarımız
+  title: İş Gücü ve Uzmanlık
+  engineers: 25+
+  engineers_detail: 'Ar-Ge, kalıp tasarımı, malzeme laboratuvarı ve üretim mühendisliği alanlarında mühendisler. Şişirilebilir üretimde ortalama 7+ yıl deneyim.'
+  shift_pattern: 'Günde 2 vardiya (07:00–15:30, 15:30–00:00). Acil siparişler için isteğe bağlı gece vardiyası.'
+  training: 'Aylık QC eğitimi, üç aylık güvenlik tatbikatı, yıllık beceri değerlendirmesi. Yeni işe alınanlar üretim hattında çalışmadan önce 40 saatlik uyum eğitimini tamamlar.'
+  departments:
+    - name: Ar-Ge ve Mühendislik
+      count: 25+
+      role: Ürün tasarımı, kalıp mühendisliği, malzeme laboratuvarı
+    - name: Kesim ve Malzeme Hazırlığı
+      count: 15
+      role: CNC kesimi, panel hazırlığı, malzeme taşıma
+    - name: Kaynak ve Laminasyon
+      count: 40
+      role: RF kaynak, sıcak hava kaynağı, drop-stitch yapıştırma
+    - name: SUP Çekirdek Yapıştırma
+      count: 30
+      role: Drop-stitch laminasyon, ısı yapıştırma, ray bandı füzyonu
+    - name: Montaj ve Aksesuar Takımı
+      count: 35
+      role: Son montaj, donanım montajı, sistem kontrolü
+    - name: Kalite Kontrol
+      count: 12
+      role: Giriş QC, süreç içi QC, son denetim, laboratuvar testleri
+    - name: Lojistik ve Ambalajlama
+      count: 20
+      role: Ambalajlama, konteyner yükleme, ihracat belgeleri
+    - name: Yönetim ve İdari
+      count: 15
+      role: Satış, satın alma, insan kaynakları, finans, uyum
+material_traceability:
+  tagline: İzlenebilirlik
+  title: 'Malzeme Takibi ve Parti Kontrolü'
+  description: 'Her hammadde partisi ERP sistemimizde benzersiz bir parti numarası alır. Gelişten üretime ve bitmiş ürüne kadar her tahtanın malzeme listesi orijinal tedarikçi partisine geri bağlanır. Bu, her kalite veya uyum sorgusu için eksiksiz yukarı yönlü izlenebilirlik sağlar.'
+  system: 'Özel ERP (Qingdao Vatrad Group iç sistemi) + her iş emrine iliştirilmiş fiziksel parti etiketleri'
+  coverage: 'Üretim malzemelerinin %100’ü — PVC, Hypalon, drop-stitch kumaş, yapıştırıcı, supap, donanım, ambalajlama'
+  records_retained: '10 yıl (CE 2013/53/AET gerekliliği uyarınca)'
+  suppliers:
+    - material: Deniz sınıfı PVC
+      source: Çin ve Kore tedarikçileri
+      certified: ISO 9001, REACH, RoHS
+    - material: Hypalon (CSM)
+      source: Japon tedarikçisi
+      certified: ISO 9001, REACH
+    - material: Drop-stitch kumaş
+      source: Kendi dokuma tesisimiz + dış iş ortağı
+      certified: İç QC + tedarikçi ISO 9001
+    - material: Supaplar ve Donanımlar
+      source: Çinli OEM tedarikçiler
+      certified: ISO 9001, parti başına malzeme sertifikaları
+qc_dashboard:
+  tagline: Rakamlarla QC
+  title: Kalite Kontrol Metrikleri
+  subtitle: 'Üretim hattımızdan gerçek geçer/ret verileri. Kalite laboratuvarımız üretimden bağımsız çalışır ve doğrudan yönetime raporlar.'
+  stats:
+    - value: 100%
+      label: Basınç testi yapılan birim
+      detail: Her tahta, her oda, her parti
+    - value: '<5%'
+      label: İzin verilen en fazla basınç düşümü
+      detail: 18.0 PSI’da 24 saat boyunca
+    - value: AQL 2.5
+      label: Ana kusur eşiği
+      detail: ISO 2859 numune alma standardına göre
+    - value: 24h
+      label: Basınç tutma süresi
+      detail: Her tahta, her oda
+    - value: 18 PSI
+      label: Test basıncı / anma değeri
+      detail: Her odada güvenlik payı
+    - value: 0%
+      label: Güvenlik kusurlarında tolerans
+      detail: Supaplar, D halkaları, dikişler, kaldırma kuvveti
+process_cta:
+  title: 'Üretim sürecimizi görün'
+  desc: 'Bir SUP’yi ham maddeden denize hazır tahtaya kadar her aşamadan geçirin.'
+  label: 'Üretim sürecini görün →'
+  link: /tr/factory/process
+evidence_review:
+  tagline: 'Kanıt ve Doğrulama'
+  title: 'FABRİKA KANITI — DOĞRULANDI'
+  body: 'Bu sayfadaki tüm üretim iddiaları, Laixi, Qingdao tesisimizdeki Üretim Mühendisliği Ekibimiz tarafından doğrulanmıştır. Sertifikalar, QC denetim kayıtları, basınç ve yapısal test raporları ile parti izlenebilirlik kayıtları talep üzerine mevcuttur. Teknik şartnameler en son Eylül 2026’da doğrulanmıştır.'
+
+cta:
+  title: 'Fabrikamızı keşfedin'
+  actions:
+    - text: 'Fabrika Denetim Kontrol Listesi'
+      href: /tr/factory-audit-checklist

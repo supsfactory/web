@@ -9420,6 +9420,675 @@ export const projects: Localized<ProjectData[]> = {
       tags: ['Konfigurace pro jógu', 'Úplné pokrytí paluby', 'Flota programu'],
     },
   ],
+  tr: [
+    {
+      slug: 'coastal-rental-fleet',
+      customerType: 'Kiralık filo işletmecileri',
+      region: 'Akdeniz — İspanya, İtalya, Yunanistan',
+      productCategory: 'Kiralık sınıfı şişirilebilir SUP (10′6″ + 11′0″)',
+      projectStage: 'Filo değerlendirmesi → Numune onayı → 3 partili kademeli teslimat',
+      manufacturingScope: 'Filo spesifikasyonu, güçlendirilmiş yapı, kademeli üretim, yedek parça tedariği',
+      keyRequirements: 'Dayanıklı kiralık tahtalar, istasyonlara kademeli teslimat, daha düşük erken değiştirme oranı',
+      qualityFocus: 'Güçlendirilmiş yapı, hava sızdırmazlık, filo grafikleri, set eksiksizliği',
+      navLabel: 'Kıyı Kiralık Filosu',
+      metaTitle: 'Kıyı Kiralık Filosu | 120 günde 320 tahta — iSupfactory',
+      metaDescription:
+        'Bir Akdeniz kiralama işletmesi İspanya, İtalya ve Yunanistan\'da 320 tahtalık kıyı filosunu nasıl kurdu — 120 günde üç kademeli parti ve %20–25 erken değiştirme azalması beklentisi.',
+      kicker: 'Kiralık filo projesi',
+      h1: 'Bir Akdeniz kiralama işletmesi 120 günde 320 tahtalık kıyı filosunu nasıl kurdu',
+      intro: [
+        'İspanya, İtalya ve Yunanistan\'da istasyonları bulunan bir kiralama işletmesi, yüksek devirli yaz sezonu için dayanıklı bir filo gerektiriyordu — üç partide teslim edilerek, her istasyonun açılışına yetişecek şekilde.',
+      ],
+      industry: 'Kiralık filo işletmecileri',
+      requirement:
+        'Üç ülkede kıyı istasyonları için iki boyutta — 10′6″ ve 11′0″ — toplam 320 kiralık tahta; 120 gün içinde üç kademeli partide teslim edilecek.',
+      challenge:
+        'Günlük kiralama devri tahtaları hızlı aşındırıyor ve işletmenin erken değiştirme oranı %20–25 seviyesindeydi. Üç ülkede istasyonlar farklı tarihlerde açıldığı için tek seferde teslimat mümkün değildi — tek boyutlu bir filo da.',
+      solution:
+        'Kullanıcıların büyük kısmını kapsayan boyutlarda iki dayanıklı kiralık platform, yüksek devirli kullanıma yönelik güçlendirilmiş yapı ve her istasyonun açılışına denk gelecek şekilde planlanmış üç üretim partisi — ayrıca her istasyon için yedek parça paketi ve onarım kılavuzu.',
+      product:
+        'Kiralık sınıfı şişirilebilir SUP — güçlendirilmiş kenar ve UV dayanıklı malzemeli 10′6″ ve 11′0″ platformlar, her istasyon için setler.',
+      process: [
+        { title: 'Filo değerlendirmesi', body: 'İstasyon açılış tarihleri ve devir hacimleri iki boyutu ve parti dağılımını belirledi.' },
+        { title: 'Tahta seçimi', body: 'Kullanıcı kapsaması ve dayanıklılık için 10′6″ ve 11′0″ kiralık platformlar seçildi.' },
+        { title: 'Kademeli üretim', body: 'Üç parti, her istasyonun açılış tarihine göre planlandı.' },
+        { title: 'Teslimat ve destek', body: 'Filo parti bazında, her istasyon için yedek parça paketi ve onarım kılavuzuyla gönderildi.' },
+      ],
+      result:
+        'Üç partinin tamamı 120 gün içinde, her istasyonun açılışına zamanında ulaştı. Güçlendirilmiş platformların erken değiştirme oranını tahminen %20–25 azaltması bekleniyor; yedek parça paketleri de sezonlar arasındaki saha onarımlarını karşılıyor.',
+      outcome: '320 tahta · 120 gün · 3 parti · tahmini %20–25 erken değiştirme azalması.',
+      metrics: [
+        { value: '320', label: 'iki boyutta tahta' },
+        { value: '120', label: 'siparişten son partiye kadar gün' },
+        { value: '3', label: 'kademeli teslimat, her istasyon açılışına bir tane' },
+        { value: '−%20–25', label: 'tahmini erken değiştirme oranı' },
+      ],
+      takeaways: [
+        'Kademeli partiler, filonun tam olarak her istasyon açıldığında ulaşmasını sağlar — boşta stok yok, geç başlangıç yok.',
+        'İki boyut (10′6″ ve 11′0″) filoyu bölmeden kullanıcıların büyük kısmını karşıladı.',
+        'Erken değiştirme sayısını yalnızca fiyat değil, güçlendirilmiş yapı değiştirir.',
+        'Her istasyon için ayrı yedek parça paketleri, tahtaları tam sezonlar arasında hizmette tuttu.',
+      ],
+      customizations: [
+        'Kullanıcı profillerine göre uyarlanmış 10′6″ ve 11′0″ kiralık platformlar',
+        'Yüksek devirli kullanım için güçlendirilmiş kenar ve UV dayanıklı malzemeler',
+        'Her istasyon için filo grafikleri ve numaralandırma',
+        'İstasyon açılışlarına göre hizalanmış üç partili üretim takvimi',
+        'Her istasyon için yedek parça paketleri ve onarım kılavuzları',
+        'Bölünmüş lokasyonlara göre ayrı paketleme ve parti bazında teslimat kontrolü',
+      ],
+      inspectionFocus: [
+        'Her tahta için güçlendirilmiş yapının doğrulanması',
+        'Her tahtada şişirme ve hava sızdırmazlık testi',
+        'Filo grafikleri ve istasyon numaralandırmasının doğruluğu',
+        'Her istasyon için aksesuar ve yedek parça paketinin eksiksizliği',
+        'Bölünmüş lokasyonlu, çok partili teslimat için paketleme kontrolleri',
+      ],
+      confidentiality:
+        'Anlaşma uyarınca işletmenin adı ve istasyon konumları açıklanmaz. Bu proje, ticari gizliliği korumak amacıyla anonim olarak sunulur.',
+      tags: ['Kademeli filo teslimatı', 'Kiralık sınıfı yapı', 'Düşük değiştirme oranı'],
+    },
+    {
+      slug: 'eu-distributor-private-label',
+      customerType: 'Distribütörler ve toptancılar',
+      region: 'Avrupa',
+      productCategory: 'Özel markalı şişirilebilir SUP (2 SKU)',
+      projectStage: 'Ürün gamı planlaması → Numune onayı → 90 günde hacim teslimatı',
+      manufacturingScope: 'Özel marka kimliği, perakende ambalajı, seri üretim, tekrar sipariş desteği',
+      keyRequirements: 'Distribütörün kendi markasıyla iki pazar kanıtlanmış SKU, AB perakende ambalajı, sezon tarihiyle uyum',
+      qualityFocus: 'Grafik doğruluğu, pazar bazında barkod ve etiket, set eksiksizliği, hava sızdırmazlık',
+      navLabel: 'Distribütör özel markası',
+      metaTitle: 'Distribütör özel markası | 90 günde 1.200 tahta — iSupfactory',
+      metaDescription:
+        'Bir Avrupa distribütörü 90 günde 1.200 tahtalık özel markalı SUP hattını nasıl hayata geçirdi — iki SKU, AB perakende ambalajı ve aynı sabitlenmiş spesifikasyonla 4. çeyrekte tekrar sipariş.',
+      kicker: 'Özel marka projesi',
+      h1: 'Bir Avrupa distribütörü 90 günde 1.200 tahtalık özel markalı SUP hattını nasıl hayata geçirdi',
+      intro: [
+        'Bir Avrupa distribütörü, yaz sezonu için raflarda kendi markalı SUP hattını istiyordu — iki pazar kanıtlanmış SKU, eksiksiz perakende ambalajı ve kendi fabrika bağlantıları olmadan.',
+      ],
+      industry: 'Distribütörler ve toptancılar',
+      requirement:
+        'İki SKU altında 1.200 markalı tahta — 10′6″ all-around ve 12′6″ touring — AB perakende ambalajıyla, 90 gün içinde teslim edilecek.',
+      challenge:
+        'Yaz rafı penceresi sabit olduğu için 1.200 tahtanın ve ambalajlarının hepsinin aynı anda ve zamanında rafta yer alması gerekiyordu. Özel marka ambalajı — barkod, etiket, kullanım kılavuzu — AB perakende gereksinimlerini karşılamak zorundaydı ve distribütörün başvurabileceği SUP üretim tecrübesi yoktu.',
+      solution:
+        'Perakende ürün gamı için seçilmiş iki pazar kanıtlanmış platform, tam özel marka grafik ve AB perakende ambalajının tek bir programda yürütülmesi ve her iki SKU\'nun 90 günlük pencere içinde birlikte sevk edilmesini sağlayan üretim planı — tekrar siparişlerin temiz olması için sabitlenmiş spesifikasyonla.',
+      product:
+        'Özel markalı şişirilebilir SUP — markalı kürek, pompa, sırt çantası ve baskılı perakende kutularıyla 10′6″ all-around ve 12′6″ touring.',
+      process: [
+        { title: 'Ürün gamı planlaması', body: 'Perakende kapsaması için iki SKU seçildi — 10′6″ all-around ve 12′6″ touring.' },
+        { title: 'Numune onayı', body: 'Grafik, ambalaj ve kaplama fiziksel tahtalar üzerinde doğrulandı.' },
+        { title: '90 günlük üretim', body: 'Her iki SKU\'nun sezon penceresi için birlikte sevk edilmesi amacıyla hacim planlandı.' },
+        { title: '4. çeyrek tekrar siparişi', body: 'Tekrar siparişi aynı sabitlenmiş spesifikasyonla verildi.' },
+      ],
+      result:
+        'Eksiksiz perakende ambalajlı 1.200 tahta, yaz rafı penceresine yetişerek 90 gün içinde sevk edildi. Hat tükendi ve distribütör 4. çeyrekte aynı sabitlenmiş spesifikasyonla tekrar sipariş vererek döndü.',
+      outcome: '1.200 tahta · 90 gün · 2 SKU · 4. çeyrek tekrar siparişi.',
+      metrics: [
+        { value: '1.200', label: 'tek lansmanda tahta' },
+        { value: '90', label: 'tam teslimata kadar gün' },
+        { value: '2', label: 'perakende SKU, ikisi de pencereye yetişti' },
+        { value: '4. çeyrek', label: 'aynı spesifikasyonla tekrar sipariş' },
+      ],
+      takeaways: [
+        'Kanıtlanmış iki SKU ile başlamak, perakende ürün gamını doldururken stok riskini düşük tutar.',
+        'Tahta, aksesuar ve ambalajı kapsayan tek bir program, lansmandaki yaygın bir başarısızlık noktasını ortadan kaldırır.',
+        'Sabit bir sezon tarihi takvimi belirler — üretim planlaması bunu pazarlık konusu olmayan bir sabit olarak görmelidir.',
+        'Lansmanda spesifikasyonu sabitlemek, tekrar siparişleri temiz ve tutarlı kılar.',
+      ],
+      customizations: [
+        'Perakende ürün gamı için 10′6″ all-around ve 12′6″ touring platformlar',
+        'Özel markalı güverte, alt yüzey ve ambalaj grafikleri',
+        'Her SKU için markalı kürek, pompa ve sırt çantası',
+        'AB perakende için baskılı perakende kutuları, barkod, etiket ve kullanım kılavuzu',
+        'Tekrar sipariş tutarlılığı için malzeme listesi ve spesifikasyonun sabitlenmesi',
+        'Perakende lansman penceresine hizalanmış partili teslimat',
+      ],
+      inspectionFocus: [
+        'Onaylanmış özel marka dosyalarına göre grafik doğruluğu',
+        'Pazar bazında barkod, etiket ve kılavuz doğrulaması',
+        '1.200 tahtalık üretim boyunca her SKU için set eksiksizliği',
+        'Üretim sırasında hava sızdırmazlık ara kontrolleri',
+        'Her SKU için kutu ve paketleme doğrulaması',
+      ],
+      confidentiality:
+        'Anlaşma uyarınca distribütörün adı ve perakende müşterileri açıklanmaz. Bu proje, ticari gizliliği korumak amacıyla anonim olarak sunulur.',
+      tags: ['Özel marka', '2 SKU\'luk perakende ürün gamı', 'Sezon penceresine teslimat'],
+    },
+    {
+      slug: 'resort-sup-fleet',
+      customerType: 'Resort ve otelcilik',
+      region: 'Avrupa / Kuzey Amerika',
+      productCategory: 'All-around şişirilebilir SUP',
+      projectStage: 'Numune onayı → Hacim üretimi → Filo yenileme',
+      manufacturingScope: 'Grafik, aksesuar, paketleme ve filo üretimi',
+      keyRequirements: 'Kiralama dayanıklılığı, kompakt depolama, tesisin tamamında marka kimliği',
+      qualityFocus: 'Hava sızdırmazlık, grafik doğruluğu, aksesuar eksiksizliği, kutu işaretlemesi',
+      navLabel: 'Lüks resort SUP filosu',
+      metaTitle: 'Lüks resort SUP filosu | 100 markalı tahta — iSupfactory',
+      metaDescription:
+        'Bir lüks resort, plaj programını 100 markalı SUP tahtasıyla nasıl donattı — özel grafikler, kiralık sınıfı yapı ve sezonluk filo yönetimi.',
+      kicker: 'Resort projesi',
+      h1: 'Bir lüks resort 100 tahtalık markalı SUP filosunu nasıl standartlaştırdı',
+      intro: [
+        'Bir lüks resort, plaj programının tesisin bir parçası gibi hissettirmesini istiyordu — resort paletinde markalı tahtalar, misafirlerin günlük kullanımına dayanacak kadar sağlam ve sezonlar arasında kolayca saklanacak şekilde.',
+      ],
+      industry: 'Resort ve otelcilik',
+      requirement: 'Tesis paletinde, misafir kiralaması için 100 markalı SUP tahtası.',
+      challenge:
+        'Günlük kiralama kullanımı standart filoları hızlı aşındırıyor ve sezon dışı depolama alanı sınırlıydı. Resort, yoğun kullanıma dayanan, kompakt saklanan ve tesisin tam marka kimliğini taşıyan tahtalara ihtiyaç duyuyordu.',
+      solution:
+        'Güçlendirilmiş kenar ve UV dayanıklı malzemeli kiralık sınıfı şişirilebilir yapı, resort renklerinde tahtanın tamamını kaplayan grafikler ve filo paketinin parçası olarak markalı kürek ve pompalar.',
+      product: 'Özel şişirilebilir SUP — 11′ all-around platform, markalı güverte grafikleri ve aksesuarlar.',
+      process: [
+        { title: 'Filo danışmanlığı', body: 'Misafir hacmi, kıyı hattı ve sezon uzunluğu filo büyüklüğünü ve tahta karışımını belirledi.' },
+        { title: 'Markalı numune', body: 'Renkler ve logo, üretim öncesinde fiziksel bir tahta üzerinde onaylandı.' },
+        { title: 'Üretim ve kalite kontrolü', body: '100 tahta, partiyi kapsayan çok noktalı kalite kontrolüyle üretildi.' },
+        { title: 'Teslimat ve yenileme', body: 'Sezonluk teslimat, yedek parçalar ve sonraki sezonlar için yenileme programı.' },
+      ],
+      result:
+        'Filo sezon başında zamanında devreye alındı, tahtalar sezon dışında tek bir odada saklanıyor ve misafirlerin markalı ekipmanla ilgili geri bildirimi, ertesi yıl filonun genişletilmesini sağladı.',
+      outcome: 'Sezon başında zamanında lansman, %100 markalı filo, sonraki sezonda genişleme.',
+      customizations: [
+        'Günlük kiralama kullanımı için seçilen tahta platformu, boyut ve yapı',
+        'Tesis paletinde tahtanın tamamını kaplayan güverte grafikleri',
+        'Fiziksel numune üzerinde onaylanan kenar markalaması ve logo yerleşimi',
+        'Her tahta için markalı kürek, pompa ve aksesuar seti',
+        'Parti boyunca filo numaralandırması ve renk kodlaması',
+        'Kompakt depolama yapılandırması ve sezonluk yenileme kapsamı',
+      ],
+      inspectionFocus: [
+        'Her tahtada şişirme ve hava sızdırmazlık testi',
+        'Supap ve güçlendirilmiş kenar durumu',
+        'Onaylanmış numunaya göre grafik doğruluğu ve renk uyumu',
+        'Her tahta için aksesuar ve set eksiksizliği',
+        'Sevkiyat onayı öncesi kutu işaretlemesi ve filo etiketleri',
+      ],
+      confidentiality:
+        'Anlaşma uyarınca resort\'un adı ve marka varlıkları açıklanmaz. Bu proje, ticari gizliliği korumak amacıyla anonim olarak sunulur.',
+      tags: ['Misafirler için markalı filo', 'Kiralık sınıfı yapı', 'Sezonluk yenileme'],
+    },
+    {
+      slug: 'private-label-launch',
+      customerType: 'Perakende ve outdoor markaları',
+      region: 'Avrupa',
+      productCategory: 'All-around şişirilebilir SUP (özel marka)',
+      projectStage: 'Numune onayı → Doğrulama partisi → Ölçekleme',
+      manufacturingScope: 'Ürün ve ambalaj grafikleri, numunelendirme, üretim, kalıp saklama',
+      keyRequirements: 'Kendi içinde SUP tasarımı veya üretimi olmadan satılabilir ürün hattı',
+      qualityFocus: 'Grafik sürüm kontrolü, ambalaj doğruluğu, set eksiksizliği',
+      navLabel: 'Özel marka lansmanı',
+      metaTitle: 'Özel markalı SUP lansmanı | Marka genişletme — iSupfactory',
+      metaDescription:
+        'Mevcut bir outdoor markası, özel markalı bir ürün hattıyla SUP alanına nasıl adım attı — logodan ilk konteynere kadar, ölçeklenebilir MOQ ile.',
+      kicker: 'Özel marka projesi',
+      h1: 'Bir outdoor markası özel markalı SUP hattını logodan ilk konteynere kadar nasıl başlattı',
+      intro: [
+        'Kurulmuş bir markaya sahip bir spor perakendecisi, fabrika bağlantıları kurmadan kürek sporlarına girmek istiyordu — kendi adıyla satılabilir bir SUP hattı.',
+      ],
+      industry: 'Perakende ve outdoor markaları',
+      requirement: 'Özel markalı bir SUP hattı — kanıtlanmış platformlarda logo, renkler ve ambalaj, ilk parti 50 adet.',
+      challenge:
+        'Kendi içinde bir SUP tasarım ekibi yok, üretim tecrübesi yok ve ölçeklemeden önce pazarı test edecek kadar küçük bir ilk sipariş var.',
+      solution:
+        'Marka varlıklarından yararlanılarak geliştirilmiş eksiksiz ürün ve ambalaj grafikleri, 50 adetlik doğrulama partisi ve ardından aynı doğrulanmış platformlarda ölçekleme — kalıplar markada kalacak şekilde.',
+      product: 'Özel markalı şişirilebilir SUP — markalı güverte, kürek, pompa, sırt çantası ve baskılı kutular.',
+      process: [
+        { title: 'Marka dosyası', body: 'Logo, renkler ve marka kılavuzu, tahta ve ambalaj grafiklerine dönüştürüldü.' },
+        { title: 'Numune onayı', body: 'Fiziksel numune kaplamayı, renkleri ve ambalajı doğruladı.' },
+        { title: 'Doğrulama partisi', body: 'Ölçeklemeden önce 50 adetlik ilk parti tükendi.' },
+        { title: 'Ölçekleme', body: 'Konteyner siparişi hacminde, tutarlı kaliteyle üretim; tasarımların sahibi markadır.' },
+      ],
+      result:
+        'Hat, doğrulama partisini bir sezon içinde tüketti ve konteyner siparişine ölçeklendi — tüm tasarımlar ve kalıplar markanın elinde kaldı.',
+      outcome: 'Bir sezonda doğrulama, konteyner siparişlerine ölçekleme.',
+      customizations: [
+        'Marka hattına göre eşleştirilmiş tahta platformları, boyutlar ve renkler',
+        'Marka varlıklarından geliştirilen güverte, alt yüzey ve ambalaj grafikleri',
+        'Markalı kürek, pompa, sırt çantası ve aksesuar seti',
+        'Baskılı perakende kutuları ve etiket düzeni',
+        'Hedef pazar için barkod ve kullanım kılavuzu sürümü',
+        'Kalıplar ve grafikler markada kalır',
+      ],
+      inspectionFocus: [
+        'Onaylanmış dosyalarla grafik sürüm uyumu',
+        'Fiziksel numunede renk ve kaplama doğruluğu',
+        'Ambalaj, barkod ve kılavuz doğrulaması',
+        'Doğrulama partisi boyunca set eksiksizliği',
+        'Üretim sırasında hava sızdırmazlık ara kontrolleri',
+      ],
+      confidentiality:
+        'Anlaşma uyarınca marka adı ve ticari ayrıntılar açıklanmaz. Bu proje, ticari gizliliği korumak amacıyla anonim olarak sunulur.',
+      tags: ['Marka genişletme', 'Ambalaj tasarımı', 'Ölçeklenebilir MOQ'],
+    },
+    {
+      slug: 'club-team-boards',
+      customerType: 'Kürek kulüpleri ve takımları',
+      region: 'Kuzey Amerika',
+      productCategory: 'Antrenman şişirilebilir SUP',
+      projectStage: 'Numune onayı → Filo üretimi → Genişleme tekrar siparişi',
+      manufacturingScope: 'Kulüp kimliği, filo üretimi, yedek parça desteği',
+      keyRequirements: 'Tek tip takım görünümü, sınırlı bütçe, gelecekte birebir aynı genişleme',
+      qualityFocus: 'Grafik doğruluğu, hava sızdırmazlık, set eksiksizliği, tekrar sipariş tutarlılığı',
+      navLabel: 'Kulüp takım tahtaları',
+      metaTitle: 'Kulüp takım SUP tahtaları | Markalı filo yenileme — iSupfactory',
+      metaDescription:
+        'Bir kürek kulübü, 25 markalı antrenman tahtasıyla markasını ve filosunu nasıl yeniledi — takım grafikleri, parça desteği ve tutarlı tekrar siparişleri.',
+      kicker: 'Kulüp projesi',
+      h1: 'Bir kürek kulübü 25 tahtalık antrenman filosunu nasıl yeniden markaladı',
+      intro: [
+        'Bir kürek kulübü görsel kimliğini yeniledi ve ekipmanının da buna uymasını istedi — farklı stoklar olmadan, antrenman ve yarışlar için tek tip bir takım filosu.',
+      ],
+      industry: 'Kürek kulüpleri ve takımları',
+      requirement: 'Kulüp adı, renkleri ve logosuyla 25 markalı antrenman tahtası ve yedek parçalar.',
+      challenge:
+        'Mevcut filo karışıktı ve markasızdı; bütçeler sınırlıydı ve gelecekteki genişleme birebir aynı stoka ihtiyaç duyuyordu.',
+      solution:
+        'Her tahtada kulüp kimliği, hacim için filo fiyatlandırması ve tahta ömrünü uzatan yedek parçalar ile onarım kılavuzu.',
+      product: 'Özel takım SUP — kulüp grafikli antrenman formu, yedek finler ve onarım setleri.',
+      process: [
+        { title: 'Kulüp verileri', body: 'Üyelik, seans türleri ve mevcut ekipman incelendi.' },
+        { title: 'Tahta seçimi', body: 'Antrenman ve başlangıç formları kulüp programına uyarlandı.' },
+        { title: 'Markalama', body: 'Kulüp adı, renkleri ve logosu tüm filoya basıldı.' },
+        { title: 'Teslimat ve büyüme', body: 'Filo parçalarla teslim edildi; genişleme için birebir aynı tekrar siparişi.' },
+      ],
+      result:
+        'Üyeler eşleşen markalı ekipmanla antrenman yapıyor ve kulüp, sonraki sezonda aynı kalitede birebir aynı tekrar siparişiyle filosunu genişletti.',
+      outcome: 'Tek tip filo, birebir aynı genişleme siparişi.',
+      customizations: [
+        'Kulüp programına uyarlanmış antrenman ve başlangıç platformları',
+        'Kulüp adı, renkleri ve logosu tüm filoya basıldı',
+        'Her antrenman grubu için tahta numaralandırması ve boyut gruplaması',
+        'Filo aksesuarı olarak yedek finler ve onarım setleri',
+        'Birebir aynı gelecekteki genişleme için sabitlenmiş tekrar sipariş spesifikasyonu',
+      ],
+      inspectionFocus: [
+        'Kulüp adı, renkleri ve logosunun grafik doğruluğu',
+        'Şişirme ve hava sızdırmazlık doğrulaması',
+        'Aksesuar ve onarım seti eksiksizliği',
+        '25 tahtalık parti boyunca renk tutarlılığı',
+      ],
+      confidentiality:
+        'Anlaşma uyarınca kulübün adı ve konumu açıklanmaz. Bu proje, ticari gizliliği korumak amacıyla anonim olarak sunulur.',
+      tags: ['Kulüp kimliği', 'Filo fiyatlandırması', 'Yedek parça desteği'],
+    },
+    {
+      slug: 'school-program-fleet',
+      customerType: 'Eğitim ve gençlik programları',
+      region: 'Avrupa',
+      productCategory: 'Başlangıç ve çok kişilik şişirilebilir SUP',
+      projectStage: 'Program incelemesi → Numune onayı → Filo teslimatı',
+      manufacturingScope: 'Paket tasarımı, üretim, yedek parçalar ve yenileme desteği',
+      keyRequirements: 'Önceliği güvenlik olan ekipman, sınıf mevcuduna uygun miktarlar, sınırlı personel yönetimi',
+      qualityFocus: 'Stabilite, hava sızdırmazlık, aksesuar eksiksizliği, kullanıcı rehberliği',
+      navLabel: 'Okul program filosu',
+      metaTitle: 'Okul SUP programı | Başlangıç filosu — iSupfactory',
+      metaDescription:
+        'Bir okul, kürek sporu seçmeli programını 15 tahtalık başlangıç filosu ve çok kişilik tahtalarla nasıl başlattı — eğitim için güvenlik öncelikli ekipman.',
+      kicker: 'Okul projesi',
+      h1: 'Bir okul, kürek sporu eğitimi için 15 tahtalık başlangıç filosunu nasıl kurdu',
+      intro: [
+        'Kürek sporu seçmeli programı başlatan bir okul, ilk kez paddle edenler için stabil ve güvenli, sınıf mevcuduna göre boyutlandırılmış ve sınırlı personelle kolay yönetilebilen ekipmana ihtiyaç duyuyordu.',
+      ],
+      industry: 'Eğitim ve gençlik programları',
+      requirement: 'Sınıf mevcuduna uygun bir başlangıç filosu ve ilk dersler için çok kişilik tahtalar.',
+      challenge:
+        'Değişken seviyeler, katı güvenlik gereksinimleri, okul satın alma döngüleri ve gelecek sınıfları da kapsaması gereken bir bütçe.',
+      solution:
+        'Geniş ve yüksek hacimli başlangıç tahtaları ile çok kişilik tahtalar, sınıf mevcuduna uygun program fiyatları ve eğitmenler için açık kullanım rehberliği.',
+      product: 'Başlangıç SUP filosu — uzun program ömrü için güçlendirilmiş yapılı stabil platformlar.',
+      process: [
+        { title: 'Program incelemesi', body: 'Sınıf mevcudu, su alanı ve eğitmen düzeni paketi belirledi.' },
+        { title: 'Paketin oluşturulması', body: 'Tahta tipleri ve miktarları eğitim ihtiyacına göre seçildi.' },
+        { title: 'Numune onayı', body: 'Stabilite ve yapı fiziksel bir tahta üzerinde doğrulandı.' },
+        { title: 'Teslimat ve yenileme', body: 'Toplu tedarik, yedek parçalar ve yeni sınıflar için tekrar siparişleri.' },
+      ],
+      result:
+        'Eğitmenler stabil platformlarla ilk seansta daha hızlı ilerleme bildirdi ve program ertesi yıl uygun bir tekrar siparişiyle ekipmanını yeniledi.',
+      outcome: 'Daha hızlı öğrenme eğrisi, ertesi yıl ekipman yenileme.',
+      customizations: [
+        'İlk dersler için geniş, yüksek hacimli başlangıç platformları',
+        'Grup dersleri için çok kişilik tahtalar',
+        'Sınıf mevcuduna göre tahta boyutu ve adedi',
+        'Anlaşılır kullanım rehberi ve eğitim etiketleri',
+        'Uzun program ömrü için güçlendirilmiş yapı',
+        'Toplu tedarik ve yenileme sipariş spesifikasyonu',
+      ],
+      inspectionFocus: [
+        'Stabilite ve güverte yapılandırması doğrulaması',
+        'Her tahtada şişirme ve hava sızdırmazlık testi',
+        'Her tahta ve sınıf seti için aksesuar eksiksizliği',
+        'Kullanım rehberi ve etiketleme doğruluğu',
+        'Kutu işaretlemesi ve sınıf seti paketleme kontrolleri',
+      ],
+      confidentiality:
+        'Anlaşma uyarınca okulun adı ve bölgesi açıklanmaz. Bu proje, ticari gizliliği korumak amacıyla anonim olarak sunulur.',
+      tags: ['Başlangıç filosu', 'Program lansmanı', 'Yenileme siparişleri'],
+    },
+    {
+      slug: 'distributor-line-expansion',
+      customerType: 'Distribütörler ve toptancılar',
+      region: 'İki ihracat bölgesi',
+      productCategory: 'Orta segment şişirilebilir SUP (6 SKU)',
+      projectStage: 'Ürün gamı planlaması → Numune onayı → Çok pazarlı tedarik',
+      manufacturingScope: 'Tek program altında tahtalar, aksesuarlar ve perakende ambalajı',
+      keyRequirements: 'Tek kalite sahibi, tutarlı marka kimliği, SKU başına düşen stok azaltma',
+      qualityFocus: 'Hava sızdırmazlık, grafik doğruluğu, barkod ve etiket doğruluğu, malzeme listesi uyumu',
+      navLabel: 'Distribütör ürün gamı genişletme',
+      metaTitle: 'Distribütör SUP ürün gamı genişletme | 6 SKU\'luk program — iSupfactory',
+      metaDescription:
+        'Bir su sporları distribütörü, altı SKU\'luk tam bir orta segment SUP ürün gamını nasıl ekledi — tek fabrika, tek program, birçok pazara ihracat.',
+      kicker: 'Distribütör projesi',
+      h1: 'Bir distribütör 6 SKU\'luk SUP ürün gamını iki pazarda nasıl hayata geçirdi',
+      intro: [
+        'Kayak ve aksesuar satan bir su sporları distribütörü kendi şişirilebilir SUP ürün gamını istiyordu — ancak tahta, kürek ve pompalar için tedariki birden fazla fabrikaya bölmek istemiyordu.',
+      ],
+      industry: 'Distribütörler ve toptancılar',
+      requirement:
+        'Altı SKU\'luk orta segment SUP ürün gamı (10′6″ ile 12′6″ arası ve aksesuar setleriyle), iki bölgeye ihracatla.',
+      challenge:
+        'Tahta, kürek ve pompalar için ayrı fabrikalar tutarsız marka kimliği, üç ayrı tedarik noktası ve garanti talepleri için tek bir kalite sahibi olmaması anlamına geliyordu.',
+      solution:
+        'Tahtaları, aksesuarları ve perakende ambalajını kapsayan tek bir program; SKU başına stoku düşürmek için ortak aksesuar setleri ve her pazarın yapısına uygun tedarik seçenekleri.',
+      product:
+        'Altı markalı perakende SKU — bölücülü paketlenmiş tam setler ve baskılı kutularla şişirilebilir SUP platformları.',
+      process: [
+        { title: 'Ürün gamı planlaması', body: 'Pazardaki boşluklar ve fiyat seviyeleri altı SKU\'yu ve set içeriğini belirledi.' },
+        { title: 'Tek tip marka kimliği', body: 'Tahtalar, kürekler, pompalar ve kutulara tek tasarım sistemi uygulandı.' },
+        { title: 'Program fiyatlandırması', body: 'SKU bazında değil, programun tamamı için hacim fiyatlandırması.' },
+        { title: 'Pazara göre bölünmüş tedarik', body: 'Ana bölge için standart ihracat koşulları, ikinci pazar için tam servis koşulları.' },
+      ],
+      result:
+        'Ürün gamı bir sezonda iki pazarda da hayata geçirildi; ortak aksesuar setleri stok maliyetini düşürdü ve garanti sorunları tek bir fabrika teması üzerinden çözüldü.',
+      outcome: 'Bir sezonda çok pazarlı lansman, daha düşük stok maliyeti, tek garanti noktası.',
+      customizations: [
+        '10′6″ ile 12′6″ arası altı SKU ve aksesuar seti paketleri',
+        'Tahta, kürek, pompa ve kutulara uygulanan tek tasarım sistemi',
+        'SKU başına stoku azaltmak için ortak aksesuar setleri',
+        'Baskılı perakende kutularında bölücülü paketlenmiş tam setler',
+        'Her hedef pazar için barkod, etiket ve kılavuz sürümleri',
+        'Her pazara uygun tedarik koşulları ve ambalaj kurulumu',
+      ],
+      inspectionFocus: [
+        'Her SKU yapılandırması için malzeme listesi uyumu',
+        'Altı SKU boyunca grafik ve marka kimliği doğruluğu',
+        'Pazar bazında barkod ve etiket doğruluğu',
+        'Aksesuar seti eksiksizliği ve bölücülü paketleme',
+        'Parti boyunca hava sızdırmazlık doğrulaması',
+      ],
+      confidentiality:
+        'Anlaşma uyarınca distribütörün adı ve müşteri listesi açıklanmaz. Bu proje, ticari gizliliği korumak amacıyla anonim olarak sunulur.',
+      tags: ['Çok SKU\'lu program', 'Eksiksiz perakende setleri'],
+    },
+    {
+      slug: 'startup-brand-zero-to-one',
+      customerType: 'Startup SUP markaları',
+      region: 'Kuzey Amerika',
+      productCategory: 'ODM all-around şişirilebilir SUP',
+      projectStage: 'Konsept → Deneme partisi → Lansman siparişi',
+      manufacturingScope: 'ODM geliştirme, grafik, ambalaj, üretim',
+      keyRequirements: 'Düşük MOQ\'lu ilk parti, lansman tarihiyle uyum, kalıpların markada kalması',
+      qualityFocus: 'Hava sızdırmazlık, grafik doğruluğu, ambalaj doğrulaması',
+      navLabel: 'Startup marka 0→1 lansmanı',
+      metaTitle: 'Startup SUP markası lansmanı | Konseptten ilk partiye — iSupfactory',
+      metaDescription:
+        'Bir SUP girişimi konseptten tükenen ilk partiye nasıl geçti — ODM geliştirme, 10 adetlik deneme partisi ve ardından 200 adetlik markalı lansman siparişi.',
+      kicker: 'Startup projesi',
+      h1: 'Bir startup SUP markası için konseptten tükenen 200 tahtalık lansmana',
+      intro: [
+        'Kitlesi olan ancak fabrikası bulunmayan iki kurucu kendi SUP\'lerini satmak istiyordu — spesifikasyonlarına göre geliştirilmiş bir ODM tahta ve onları batırmayacak büyüklükte bir lansman siparişi.',
+      ],
+      industry: 'Startup SUP markaları',
+      requirement: 'Düşük MOQ ile ODM geliştirme: doğrulama için 10 adetlik deneme partisi, ardından lansman için 200 adet.',
+      challenge:
+        'Tasarım ekibi yok, ithalat tecrübesi yok ve çoğu fabrika için fazla küçük bir ilk sipariş — üstelik lansman tarihi kuzey yarımküre sezonuna bağlı.',
+      solution:
+        'Kanıtlanmış bir platform üzerinde kendi konseptlerine dayalı ODM geliştirme, numuneleri ve tedarik doğrulamasını kapsayan 10 adetlik deneme partisi ve ardından kalıplar markada kalacak şekilde 200 adetlik markalı lansman siparişi.',
+      product: 'Markalı ODM şişirilebilir SUP — özel güverte grafikleri, ambalaj ve perakende hazır kutu ölçüleri.',
+      process: [
+        { title: 'Konsept görüşmesi', body: 'Hedef kürekçi, fiyat seviyesi ve lansman tarihi temel platformu belirledi.' },
+        { title: 'Deneme partisi', body: '10 adet, ürünü ve ambalajı baştan sona doğruladı.' },
+        { title: 'Lansman siparişi', body: 'Doğrulanmış grafik ve kutu spesifikasyonuyla 200 adet üretildi.' },
+        { title: 'Ölçekleme yolu', body: 'Kalıplar markada kalır; tekrar siparişler gelişen fiyatlarla verilir.' },
+      ],
+      result:
+        'İlk parti, sezon başından sonra haftalar içinde tükendi; deneme partisinden gelen geri bildirim, büyük sipariş üretime girmeden önce bir ambalaj sorununu giderdi.',
+      outcome: 'Tükenen lansman partisi, ölçeklemeden önce düzeltilen ambalaj, hazır tekrar sipariş yolu.',
+      customizations: [
+        'Kanıtlanmış bir platform üzerinde marka konseptinden geliştirilmiş ODM tahta',
+        'Özel güverte grafikleri ve marka ambalajı',
+        'Lansman siparişi için perakende hazır kutu ölçüleri',
+        'Hedef kürekçiye göre aksesuar seti ve kit yapılandırması',
+        'Kalıplar ve grafikler markada kalır',
+        'Lansman tarihiyle hizalanmış üretim takvimi',
+      ],
+      inspectionFocus: [
+        'Onaylanmış dosyalara göre grafik doğruluğu',
+        'Deneme partisi ve lansman siparişinde hava sızdırmazlık doğrulaması',
+        'Ambalaj ve kutu doğrulaması — deneme partisindeki düzeltme dahil',
+        'Aksesuar ve kit eksiksizliği',
+      ],
+      confidentiality:
+        'Anlaşma uyarınca marka adı ve lansman ayrıntıları açıklanmaz. Bu proje, ticari gizliliği korumak amacıyla anonim olarak sunulur.',
+      tags: ['ODM geliştirme', 'Düşük MOQ\'lu deneme partisi', 'Sezon tarihi planlaması'],
+    },
+    {
+      slug: 'rental-fleet-multi-site',
+      customerType: 'Kiralık filo işletmecileri',
+      region: 'Kuzey Amerika',
+      productCategory: 'Kiralık sınıfı all-around şişirilebilir SUP',
+      projectStage: 'Filo denetimi → Tek tip üretim → Sezonluk yenileme',
+      manufacturingScope: 'Filo spesifikasyonu, üretim, yedek parça paketleri, yenileme programı',
+      keyRequirements: 'Tüm lokasyonlarda tek tip tahta, kiralama koşullarına dayanıklılık',
+      qualityFocus: 'Güçlendirilmiş yapı doğrulaması, hava sızdırmazlık, set eksiksizliği',
+      navLabel: 'Çok lokasyonlu kiralık filo',
+      metaTitle: 'Kiralık filo genişletme | 200 tahta, 3 lokasyon — iSupfactory',
+      metaDescription:
+        'Bir çok lokasyonlu kiralama işletmesi, karışık stoku üç lokasyonda 200 tek tip tahtayla nasıl değiştirdi — filo fiyatları, sezonluk yenileme ve parça tedariği.',
+      kicker: 'Kiralama projesi',
+      h1: 'Bir filo işletmesi için üç lokasyonda 200 tahtalık kiralık filonun standartlaştırılması',
+      intro: [
+        'Üç su kenarı lokasyonunda faaliyet gösteren bir kiralama işletmesi, karışık stok yerine tek tip bir filo istiyordu — her lokasyonda aynı tahta, filo hacmine uygun fiyatla.',
+      ],
+      industry: 'Kiralık filo işletmecileri',
+      requirement: 'Üç lokasyonda 200 kiralık sınıfı tahta, sezonluk yenileme ve sahada onarılabilen parçalarla.',
+      challenge:
+        'Farklı yaşlardaki karışık stok onarımı ve fiyatlandırmayı zorlaştırıyordu; kiralama koşulları güçlendirilmiş yapı gerektiriyordu ve sezon dışı depolama üç lokasyona bölünmüştü.',
+      solution:
+        'Tüm lokasyonlarda güçlendirilmiş kenar ve UV dayanıklı malzemeli tek bir kiralık platform, 200 tahtalık hacim için filo düzeyinde fiyatlandırma ve her lokasyon için onarım kılavuzlu yedek parça paketi.',
+      product: 'Kiralık sınıfı şişirilebilir SUP — güçlendirilmiş yapılı 11′ all-around platform ve onarım setleri.',
+      process: [
+        { title: 'Filo denetimi', body: 'Lokasyon hacimleri ve kullanım oranları tahsis belirledi.' },
+        { title: 'Tek tip spesifikasyon', body: 'Her yerde tek tahta — daha basit onarım, fiyatlandırma ve eğitim.' },
+        { title: 'Filo fiyatlandırması', body: 'Birleşik 200 tahtalık sipariş üzerinden hacim indirimi.' },
+        { title: 'Parçalar ve yenileme', body: 'Her lokasyon için yedek parça paketleri ve belirlenmiş sezonluk değiştirme döngüsü.' },
+      ],
+      result:
+        'Tek tip filo, lokasyonlar arasındaki onarım karmaşasını azalttı, birleşik sipariş filo fiyatlarını açtı ve 200 tahtalık program sezonluk yenilemenin temeli oldu.',
+      outcome: 'Tek tip operasyon, daha düşük birim maliyet, tekrarlanabilir sezon döngüsü.',
+      customizations: [
+        'Üç lokasyonun tamamında tek bir kiralık platform',
+        'Kiralama koşullarına dayanıklı güçlendirilmiş kenar ve UV dayanıklı malzemeler',
+        'Lokasyon bazında tahsis ve filo numaralandırması',
+        'Onarım kılavuzlu, lokasyon başına yedek parça paketleri',
+        'Belirlenmiş sezonluk değiştirme döngüsü',
+      ],
+      inspectionFocus: [
+        'Her tahta için güçlendirilmiş yapının doğrulanması',
+        'Her tahtada şişirme ve hava sızdırmazlık testi',
+        'Her lokasyon için aksesuar ve onarım seti eksiksizliği',
+        'Filo numaralandırması ve lokasyon etiketleme doğruluğu',
+        'Lokasyonlara bölünmüş teslimat için paketleme kontrolleri',
+      ],
+      confidentiality:
+        'Anlaşma uyarınca işletmenin adı ve lokasyon konumları açıklanmaz. Bu proje, ticari gizliliği korumak amacıyla anonim olarak sunulur.',
+      tags: ['Çok lokasyonlu filo', 'Kiralık sınıfı yapı', 'Sezonluk yenileme'],
+    },
+    {
+      slug: 'touring-sup-range',
+      customerType: 'Outdoor ve su sporları distribütörleri',
+      region: 'Avrupa',
+      productCategory: 'Touring şişirilebilir SUP',
+      projectStage: 'Ürün brifingi → Numune onayı → Hacim üretimi',
+      manufacturingScope: 'Platform incelemesi, grafik, aksesuar yapılandırması, perakende ambalajı ve üretim',
+      keyRequirements: 'Touring performansı, projeye özel grafikler, eksiksiz perakende seti',
+      qualityFocus: 'Hava sızdırmazlık, grafik doğruluğu, aksesuar eksiksizliği, kutu işaretlemesi',
+      navLabel: 'Touring SUP ürün gamı',
+      metaTitle: 'Touring SUP ürün gamı geliştirme | Outdoor distribütörü — iSupfactory',
+      metaDescription:
+        'iSupfactory, bir Avrupa outdoor distribütörü için touring SUP ürün gamını nasıl destekledi — platform incelemesi, projeye özel grafikler, aksesuar yapılandırması ve perakende ambalajı.',
+      kicker: 'Touring projesi',
+      h1: 'Bir Avrupa outdoor distribütörü için touring SUP ürün gamının geliştirilmesi',
+      intro: [
+        'Platform incelemesi, projeye özel grafikler, aksesuar yapılandırması, perakende ambalajı ve kalite planlamasını kapsayan özel bir şişirilebilir SUP projesi — numune onayından sevkiyata hazırlığa kadar.',
+      ],
+      industry: 'Distribütörler ve toptancılar',
+      requirement:
+        'Projeye özel grafikleri, aksesuar yapılandırması ve perakende ambalajıyla, numune onayından sevkiyata kadar kontrollü bir touring SUP ürün gamı.',
+      challenge:
+        'Touring kürekçiler yüksek hızda stabilite ve öngörülebilir kayma bekler; bu nedenle platform, ölçüler ve hacim üretim öncesinde incelenmeliydi. Grafikler kenar, EVA kaplama ve supap konumlarına uyum sağlamak zorundaydı ve her perakende seti tüm ürün gamında eksiksiz gelmeliydi.',
+      solution:
+        'Touring performansı için platform ve ölçü incelemesi, tahta özelliklerine hizalanmış projeye özel grafikler, kürek, leash ve çantayı kapsayan aksesuar yapılandırması, perakende ambalaj planlaması ve belirlenmiş kalite kontrol noktalarıyla kontrollü hacim üretimi.',
+      product:
+        'Touring şişirilebilir SUP ürün gamı — özel grafikli performans platformu, eksiksiz aksesuar seti ve perakende hazır ambalaj.',
+      process: [
+        { title: 'Platform incelemesi', body: 'Touring ölçüleri, hacim ve kenar profili hedef kürekçi ve pazara göre belirlendi.' },
+        { title: 'Spesifikasyon ve grafik', body: 'Teknik spesifikasyon, grafik hizalaması ve müşteri onaylı malzeme listesi hazırlandı.' },
+        { title: 'Numune onayı', body: 'Yapı, grafik ve set fiziksel bir tahta üzerinde doğrulandı.' },
+        { title: 'Üretim ve kontrol', body: 'Kalite kontrol noktaları, paketleme doğrulaması ve sevkiyat onayıyla hacim üretimi.' },
+      ],
+      result:
+        'Ürün gamı, ürün, grafik, malzeme listesi ve paketleme belgeleri kontrollü şekilde numune onayından sevkiyat hazırlığına ilerledi — onaylanan numune üretim ve son kontrol için referans oldu.',
+      outcome: 'Kontrollü numuneden üretime yol; grafik ve paketleme üretim öncesi sabitlendi.',
+      customizations: [
+        'Touring platformu, ölçüler ve hacim yapılandırması',
+        'Projeye özel üst yüzey, alt yüzey ve kenar grafikleri',
+        'EVA kaplama yerleşimi ve renk yapılandırması',
+        'Fin sistemi, bungee yerleşimi ve aksesuar seti',
+        'Markalı çanta, kullanım kılavuzu sürümü ve perakende ambalajı',
+        'Hedef pazar için kutu işaretlemesi ve barkod gereksinimleri',
+      ],
+      inspectionFocus: [
+        'Şişirme ve hava sızdırmazlık doğrulaması',
+        'Supap, kenar ve dikiş kontrolü',
+        'Onaylanmış dosyalara göre grafik doğruluğu',
+        'Aksesuar ve set eksiksizliği',
+        'Perakende ambalaj, barkod ve kutu işaretlemesi doğrulaması',
+      ],
+      confidentiality:
+        'Anlaşma uyarınca distribütörün adı ve müşteri listesi açıklanmaz. Bu proje, ticari gizliliği korumak amacıyla anonim olarak sunulur.',
+      tags: ['Touring SUP ürün gamı', 'Özel grafikler', 'Perakende ambalajı'],
+    },
+    {
+      slug: 'fishing-sup-program',
+      customerType: 'Outdoor perakendecileri',
+      region: 'Kuzey Amerika',
+      productCategory: 'Balıkçılık şişirilebilir SUP',
+      projectStage: 'Konsept incelemesi → Numune onayı → Program üretimi',
+      manufacturingScope: 'Platform yapılandırması, aksesuar yerleşimi, ambalaj ve üretim',
+      keyRequirements: 'Balıkçılık aksesuarlarının entegrasyonu, stabil platform, düzenli set',
+      qualityFocus: 'Hava sızdırmazlık, aksesuar sabitleme, grafik doğruluğu, set eksiksizliği',
+      navLabel: 'Balıkçılık SUP programı',
+      metaTitle: 'Balıkçılık SUP geliştirme | Aksesuar yerleşimi ve set — iSupfactory',
+      metaDescription:
+        'iSupfactory, bir outdoor perakendecisi için balıkçılık SUP yapılandırmasını nasıl geliştirdi — aksesuar yerleşimi, düzenli set ve tek bir kontrollü program altında perakende hazır paketleme.',
+      kicker: 'Balıkçılık projesi',
+      h1: 'Bir outdoor perakendecisi için balıkçılık SUP geliştirme — aksesuar yerleşimi ve set yapılandırması',
+      intro: [
+        'Balıkçılığa özel bir SUP projesi: balıkçılık aksesuarı bölgeleriyle yapılandırılmış stabil bir platform, düzenli bir set ve perakende hazır paketleme — konsept incelemesinden program üretimine kadar.',
+      ],
+      industry: 'Perakende ve outdoor markaları',
+      requirement:
+        'Aksesuar sabitlemesi, düzenli set ve perakende ambalajıyla bir balıkçılık SUP yapılandırması — konsept incelemesinden program üretimine kadar.',
+      challenge:
+        'Balıkçılık tahtaları, stabiliteyi bozmadan aksesuar sabitlemesi gerektirir — olta tutucular, D halkaları ve kasa bölgeleri. Setin tahta üzerinde düzenli kalması ve ambalajın perakende bu kategoriyi net biçimde sunması gerekiyordu.',
+      solution:
+        'Belirlenmiş aksesuar bölgeleri olan geniş, stabil bir platform, balıkçılık ekipmanı için D halkası ve bungee konumlandırması, onarım setli düzenli bir set ve tek bir kontrollü program altında geliştirilmiş perakende ambalajı.',
+      product:
+        'Balıkçılık şişirilebilir SUP — balıkçılık aksesuarı bölgeleri olan stabil platform, düzenli set ve perakende hazır ambalaj.',
+      process: [
+        { title: 'Konsept incelemesi', body: 'Hedef kullanım, taşınacak ekipman ve set yapısı yapılandırmayı belirledi.' },
+        { title: 'Aksesuar yerleşimi', body: 'D halkaları, bungee ipler ve depolama bölgeleri güverteye yerleştirildi.' },
+        { title: 'Numune onayı', body: 'Stabilite ve aksesuar sabitlemesi fiziksel bir tahta üzerinde doğrulandı.' },
+        { title: 'Program üretimi', body: 'Belirlenmiş kalite kontrol noktaları, set doğrulaması ve sevkiyat onayı.' },
+      ],
+      result:
+        'Yapılandırma onaylanan numune üzerinde doğrulandı — aksesuar sabitlemesi, set yapısı ve ambalaj üretim öncesi uyumlu hale getirildi — ve program doğrulanmış setlerle sevk edildi.',
+      outcome: 'Aksesuar yerleşimi ve set numune aşamasında sabitlendi; doğrulanmış setler sevk edildi.',
+      customizations: [
+        'Balıkçılık aksesuarı bölgeleri olan geniş, stabil platform',
+        'Olta tutucu, D halkası ve bungee konumlandırması',
+        'Kasa ve takım ekipmanı yerleşimi için güverte düzeni',
+        'Balıkçılık kullanımı için kürek, fin ve leash seçimi',
+        'Düzenli aksesuar seti ve onarım seti',
+        'Balıkçılık SUP kategorisi için perakende ambalajı',
+        'Hedef pazar için barkod ve kutu işaretlemesi',
+      ],
+      inspectionFocus: [
+        'Aksesuar sabitlemesi ve D halkası konumlandırması doğrulaması',
+        'Şişirme ve hava sızdırmazlık doğrulaması',
+        'Grafik ve güverte düzeni doğruluğu',
+        'Set eksiksizliği ve aksesuar yapılandırması',
+        'Perakende ambalaj ve kutu işaretlemesi doğrulaması',
+      ],
+      confidentiality:
+        'Anlaşma uyarınca perakendecinin adı ve kanal ayrıntıları açıklanmaz. Bu proje, ticari gizliliği korumak amacıyla anonim olarak sunulur.',
+      tags: ['Balıkçılık yapılandırması', 'Aksesuar yerleşimi', 'Set düzeni'],
+    },
+    {
+      slug: 'yoga-sup-program',
+      customerType: 'Su sporları okulları ve programları',
+      region: 'Avrupa',
+      productCategory: 'Yoga şişirilebilir SUP',
+      projectStage: 'Program incelemesi → Numune onayı → Filo teslimatı',
+      manufacturingScope: 'Stabil platform yapılandırması, güverte kaplaması, üretim ve program ambalajı',
+      keyRequirements: 'Grup çalışması için stabilite, tam EVA güverte kaplaması, tutarlı filo',
+      qualityFocus: 'Güverte kaplaması, hava sızdırmazlık, grafik doğruluğu, set eksiksizliği',
+      navLabel: 'Yoga SUP programı',
+      metaTitle: 'Yoga SUP geliştirme | Antrenman programı — iSupfactory',
+      metaDescription:
+        'iSupfactory, bir su sporları antrenman programı için stabil bir yoga SUP yapılandırmasını nasıl geliştirdi — tam güverte kaplaması ve tutarlı program filosu.',
+      kicker: 'Yoga projesi',
+      h1: 'Bir su sporları antrenman programı için stabil bir yoga SUP yapılandırmasının geliştirilmesi',
+      intro: [
+        'Bir antrenman programı için yoga SUP yapılandırması: tam EVA güverte kaplamalı geniş, yüksek hacimli bir platform; grup çalışması için tutarlı bir filo olarak üretildi.',
+      ],
+      industry: 'Eğitim ve gençlik programları',
+      requirement: 'Grup çalışması için tam güverte kaplamasına sahip stabil bir yoga SUP yapılandırması, program adetleriyle.',
+      challenge:
+        'Yoga çalışması, suda kaya gibi sabit kalan geniş ve yüksek hacimli bir platform gerektirir. Gruplar tutarlı tahtalara ihtiyaç duyar, eğitmenler ise net rehberlik ve seanslar arasında yönetilebilir depolama ister.',
+      solution:
+        'Tam EVA güverte kaplamalı geniş, yüksek hacimli bir platform, program boyunca tutarlı bir filo yapılandırması ve eğitmen rehberliği ile program etiketlerinin dahil edilmesi.',
+      product: 'Yoga şişirilebilir SUP — tam güverte pedi kaplamalı stabil platform ve tutarlı program filosu.',
+      process: [
+        { title: 'Program incelemesi', body: 'Çalışma tarzı, grup büyüklüğü ve depolama yapılandırmayı belirledi.' },
+        { title: 'Yapılandırma', body: 'Platform, güverte kaplaması ve kaplama tüm filoda belirlendi.' },
+        { title: 'Numune onayı', body: 'Stabilite ve güverte kaplaması fiziksel bir tahta üzerinde doğrulandı.' },
+        { title: 'Filo teslimatı', body: 'Set ve ambalaj doğrulamasıyla program adetleri üretildi.' },
+      ],
+      result:
+        'Filo tek bir tutarlı yapılandırma olarak sevk edildi — her tahta stabilite, güverte kaplaması ve kaplama açısından onaylanan numunaya uydu — ve eğitmenler için rehberlik dahil edildi.',
+      outcome: 'Onaylanan numunaya uygun tutarlı filo; program ambalajı doğrulandı.',
+      customizations: [
+        'Ayakta stabilite için geniş, yüksek hacimli platform',
+        'Kullanılabilir alanın tamamında tam EVA güverte kaplaması',
+        'Çalışma için güverte düzeni ve kayış konumlandırması',
+        'Filo boyunca tutarlı renk ve kaplama',
+        'Eğitmen rehberliği ve program etiketleri',
+        'Depolama ve program ambalajı yapılandırması',
+      ],
+      inspectionFocus: [
+        'Güverte kaplaması ve EVA yapışkanlığı kontrolü',
+        'Şişirme ve hava sızdırmazlık doğrulaması',
+        'Onaylanan numune üzerinde stabilite doğrulaması',
+        'Parti boyunca grafik ve kaplama tutarlılığı',
+        'Set eksiksizliği ve program ambalajı kontrolleri',
+      ],
+      confidentiality:
+        'Anlaşma uyarınca programın adı ve konumu açıklanmaz. Bu proje, ticari gizliliği korumak amacıyla anonim olarak sunulur.',
+      tags: ['Yoga yapılandırması', 'Tam güverte kaplaması', 'Program filosu'],
+    },
+  ],
 }
 
 export function getProject(locale: Locale, slug: string): ProjectData | undefined {
@@ -9516,6 +10185,12 @@ export const projectsMeta: Localized<ProjectsMeta> = {
     metaDescription:
       'Skutečné projekty výroby SUP: jak resorty, značky, kluby a školy přeměnily požadavky na produkt v hotové paddle desky společně s iSupfactory.',
     h1: 'Projekty — jak vyvíjíme produkty SUP se svými klienty',
+  },
+  tr: {
+    metaTitle: 'SUP ürün geliştirme projeleri ve vaka çalışmaları | iSupfactory',
+    metaDescription:
+      'Gerçek SUP üretim projeleri: resortlar, markalar, kulüpler ve okullar ürün gereksinimlerini iSupfactory ile nasıl tamamlanmış kürek tahtalarına dönüştürdü.',
+    h1: 'Projeler — müşterilerimizle SUP ürünlerini nasıl geliştiriyoruz',
   },
 }
 

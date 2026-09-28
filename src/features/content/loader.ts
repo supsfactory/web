@@ -41,6 +41,7 @@ const siteLocaleGlobs: Record<string, Record<string, string>> = {
   fi: import.meta.glob('../../content/site/site/*.fi.yaml', { query: '?raw', import: 'default', eager: true }) as Record<string, string>,
   ru: import.meta.glob('../../content/site/site/*.ru.yaml', { query: '?raw', import: 'default', eager: true }) as Record<string, string>,
   cs: import.meta.glob('../../content/site/site/*.cs.yaml', { query: '?raw', import: 'default', eager: true }) as Record<string, string>,
+  tr: import.meta.glob('../../content/site/site/*.tr.yaml', { query: '?raw', import: 'default', eager: true }) as Record<string, string>,
 }
 const pageLocaleGlobs: Record<string, Record<string, string>> = {
   es: import.meta.glob('../../content/site/pages/*.es.yaml', { query: '?raw', import: 'default', eager: true }) as Record<string, string>,
@@ -56,6 +57,7 @@ const pageLocaleGlobs: Record<string, Record<string, string>> = {
   fi: import.meta.glob('../../content/site/pages/*.fi.yaml', { query: '?raw', import: 'default', eager: true }) as Record<string, string>,
   ru: import.meta.glob('../../content/site/pages/*.ru.yaml', { query: '?raw', import: 'default', eager: true }) as Record<string, string>,
   cs: import.meta.glob('../../content/site/pages/*.cs.yaml', { query: '?raw', import: 'default', eager: true }) as Record<string, string>,
+  tr: import.meta.glob('../../content/site/pages/*.tr.yaml', { query: '?raw', import: 'default', eager: true }) as Record<string, string>,
 }
 const productGlob = import.meta.glob('../../content/site/products/*.mdx', { query: '?raw', import: 'default', eager: true }) as Record<string, string>
 const newsGlob = import.meta.glob('../../content/site/news/*.mdx', { query: '?raw', import: 'default', eager: true }) as Record<string, string>
@@ -73,6 +75,7 @@ const newsLocaleGlobs: Record<string, Record<string, string>> = {
   fi: import.meta.glob('../../content/site/news/*.fi.mdx', { query: '?raw', import: 'default', eager: true }) as Record<string, string>,
   ru: import.meta.glob('../../content/site/news/*.ru.mdx', { query: '?raw', import: 'default', eager: true }) as Record<string, string>,
   cs: import.meta.glob('../../content/site/news/*.cs.mdx', { query: '?raw', import: 'default', eager: true }) as Record<string, string>,
+  tr: import.meta.glob('../../content/site/news/*.tr.mdx', { query: '?raw', import: 'default', eager: true }) as Record<string, string>,
 }
 const techGlob = import.meta.glob('../../content/site/technology/*.md', { query: '?raw', import: 'default', eager: true }) as Record<string, string>
 const caseGlob = import.meta.glob('../../content/site/case-use/*.md', { query: '?raw', import: 'default', eager: true }) as Record<string, string>
@@ -90,6 +93,7 @@ const productLocaleGlobs: Record<string, Record<string, string>> = {
   fi: import.meta.glob('../../content/site/products/*.fi.mdx', { query: '?raw', import: 'default', eager: true }) as Record<string, string>,
   ru: import.meta.glob('../../content/site/products/*.ru.mdx', { query: '?raw', import: 'default', eager: true }) as Record<string, string>,
   cs: import.meta.glob('../../content/site/products/*.cs.mdx', { query: '?raw', import: 'default', eager: true }) as Record<string, string>,
+  tr: import.meta.glob('../../content/site/products/*.tr.mdx', { query: '?raw', import: 'default', eager: true }) as Record<string, string>,
 }
 const techLocaleGlobs: Record<string, Record<string, string>> = {
   es: import.meta.glob('../../content/site/technology/*.es.md', { query: '?raw', import: 'default', eager: true }) as Record<string, string>,
@@ -105,6 +109,7 @@ const techLocaleGlobs: Record<string, Record<string, string>> = {
   fi: import.meta.glob('../../content/site/technology/*.fi.md', { query: '?raw', import: 'default', eager: true }) as Record<string, string>,
   ru: import.meta.glob('../../content/site/technology/*.ru.md', { query: '?raw', import: 'default', eager: true }) as Record<string, string>,
   cs: import.meta.glob('../../content/site/technology/*.cs.md', { query: '?raw', import: 'default', eager: true }) as Record<string, string>,
+  tr: import.meta.glob('../../content/site/technology/*.tr.md', { query: '?raw', import: 'default', eager: true }) as Record<string, string>,
 }
 const caseLocaleGlobs: Record<string, Record<string, string>> = {
   es: import.meta.glob('../../content/site/case-use/*.es.md', { query: '?raw', import: 'default', eager: true }) as Record<string, string>,
@@ -120,6 +125,7 @@ const caseLocaleGlobs: Record<string, Record<string, string>> = {
   fi: import.meta.glob('../../content/site/case-use/*.fi.md', { query: '?raw', import: 'default', eager: true }) as Record<string, string>,
   ru: import.meta.glob('../../content/site/case-use/*.ru.md', { query: '?raw', import: 'default', eager: true }) as Record<string, string>,
   cs: import.meta.glob('../../content/site/case-use/*.cs.md', { query: '?raw', import: 'default', eager: true }) as Record<string, string>,
+  tr: import.meta.glob('../../content/site/case-use/*.tr.md', { query: '?raw', import: 'default', eager: true }) as Record<string, string>,
 }
 const geoGlob = import.meta.glob('../../product/geo/*.json', { query: '?raw', import: 'default', eager: true }) as Record<string, string>
 
@@ -138,7 +144,7 @@ function parseYamlMap(glob: Record<string, string>, stripLocale = false): Record
   const out: Record<string, unknown> = {}
   for (const [key, raw] of Object.entries(glob)) {
     let name = basename(key).replace(/\.(yaml|yml)$/i, '')
-    if (stripLocale) name = name.replace(/\.(es|fr|de|it|pt|nl|sv|no|pl|da|fi|cs|ru)$/i, '')
+    if (stripLocale) name = name.replace(/\.(es|fr|de|it|pt|nl|sv|no|pl|da|fi|cs|ru|tr)$/i, '')
     out[name] = parse(stripBom(raw))
   }
   return out
@@ -290,12 +296,12 @@ function productOf(slug: string, d: Record<string, unknown>, body: string): Cont
 }
 
 const PRODUCTS: ContentProduct[] = Object.entries(PRODUCT_DATA)
-  .filter(([slug]) => !/\.(es|fr|de|it|pt|nl|sv|no|pl|da|fi|cs|ru)$/.test(slug))
+  .filter(([slug]) => !/\.(es|fr|de|it|pt|nl|sv|no|pl|da|fi|cs|ru|tr)$/.test(slug))
   .map(([slug, d]) => productOf(slug, d as Record<string, unknown>, mdxBodyOf(productGlob, slug)))
   .sort((a, b) => a.title.localeCompare(b.title))
 
 const NEWS: ContentPost[] = Object.entries(NEWS_DATA)
-  .filter(([slug]) => !/\.(es|fr|de|it|pt|nl|sv|no|pl|da|fi|cs|ru)$/.test(slug))
+  .filter(([slug]) => !/\.(es|fr|de|it|pt|nl|sv|no|pl|da|fi|cs|ru|tr)$/.test(slug))
   .map(([slug, d]) => postFrom(slug, d as Record<string, unknown>))
   .sort((a, b) => (a.date < b.date ? 1 : -1))
 
@@ -305,7 +311,7 @@ for (const [loc, glob] of Object.entries(newsLocaleGlobs)) {
   const data = parseMdxFiles<Record<string, unknown>>(glob)
   const map: Record<string, ContentPost> = {}
   for (const [slug, d] of Object.entries(data)) {
-    const base = slug.replace(/\.(es|fr|de|it|pt|nl|sv|no|pl|da|fi|cs|ru)$/, '')
+    const base = slug.replace(/\.(es|fr|de|it|pt|nl|sv|no|pl|da|fi|cs|ru|tr)$/, '')
     const en = NEWS.find((p) => p.slug === base)
     if (en) map[base] = postFrom(base, d as Record<string, unknown>, en, mdxBodyOf(glob, slug))
   }
@@ -317,7 +323,7 @@ for (const [loc, glob] of Object.entries(productLocaleGlobs)) {
   const data = parseMdxFiles<Record<string, unknown>>(glob)
   const map: Record<string, ContentProduct> = {}
   for (const [slug, d] of Object.entries(data)) {
-    const base = slug.replace(/\.(es|fr|de|it|pt|nl|sv|no|pl|da|fi|cs|ru)$/, '')
+    const base = slug.replace(/\.(es|fr|de|it|pt|nl|sv|no|pl|da|fi|cs|ru|tr)$/, '')
     if (PRODUCTS.some((p) => p.slug === base)) map[base] = productOf(base, d as Record<string, unknown>, mdxBodyOf(glob, slug))
   }
   PRODUCTS_LOCALE[loc] = map
@@ -338,7 +344,7 @@ function articleOf(slug: string, d: Record<string, unknown>, body: string): Cont
 }
 
 const TECH: ContentArticle[] = Object.entries(TECH_DATA)
-  .filter(([slug]) => !/\.(es|fr|de|it|pt|nl|sv|no|pl|da|fi|cs|ru)$/.test(slug))
+  .filter(([slug]) => !/\.(es|fr|de|it|pt|nl|sv|no|pl|da|fi|cs|ru|tr)$/.test(slug))
   .map(([slug, d]) => articleOf(slug, d as Record<string, unknown>, mdxBodyOf(techGlob, slug)))
 
 const TECH_LOCALE: Record<string, Record<string, ContentArticle>> = {}
@@ -346,7 +352,7 @@ for (const [loc, glob] of Object.entries(techLocaleGlobs)) {
   const data = parseMdxFiles<Record<string, unknown>>(glob)
   const map: Record<string, ContentArticle> = {}
   for (const [slug, d] of Object.entries(data)) {
-    const base = slug.replace(/\.(es|fr|de|it|pt|nl|sv|no|pl|da|fi|cs|ru)$/, '')
+    const base = slug.replace(/\.(es|fr|de|it|pt|nl|sv|no|pl|da|fi|cs|ru|tr)$/, '')
     if (TECH.some((t) => t.slug === base)) map[base] = articleOf(base, d as Record<string, unknown>, mdxBodyOf(glob, slug))
   }
   TECH_LOCALE[loc] = map
@@ -369,7 +375,7 @@ function caseOf(slug: string, d: Record<string, unknown>, body: string): Content
 }
 
 const CASE_USES: ContentCaseUse[] = Object.entries(CASE_DATA)
-  .filter(([slug]) => !/\.(es|fr|de|it|pt|nl|sv|no|pl|da|fi|cs|ru)$/.test(slug))
+  .filter(([slug]) => !/\.(es|fr|de|it|pt|nl|sv|no|pl|da|fi|cs|ru|tr)$/.test(slug))
   .map(([slug, d]) => caseOf(slug, d as Record<string, unknown>, mdxBodyOf(caseGlob, slug)))
 
 const CASE_LOCALE: Record<string, Record<string, ContentCaseUse>> = {}
@@ -377,7 +383,7 @@ for (const [loc, glob] of Object.entries(caseLocaleGlobs)) {
   const data = parseMdxFiles<Record<string, unknown>>(glob)
   const map: Record<string, ContentCaseUse> = {}
   for (const [slug, d] of Object.entries(data)) {
-    const base = slug.replace(/\.(es|fr|de|it|pt|nl|sv|no|pl|da|fi|cs|ru)$/, '')
+    const base = slug.replace(/\.(es|fr|de|it|pt|nl|sv|no|pl|da|fi|cs|ru|tr)$/, '')
     if (CASE_USES.some((c) => c.slug === base)) map[base] = caseOf(base, d as Record<string, unknown>, mdxBodyOf(glob, slug))
   }
   CASE_LOCALE[loc] = map
@@ -395,7 +401,7 @@ const RESEARCH_TOPICS = ((parse(stripBom(RESEARCH_RAW)) as { topics?: ContentRes
 
 function geoJson(name: string): Record<string, unknown> | undefined {
   const raw = suffixMatch(geoGlob, `${name}.json`)
-  // source data allows duplicate keys (e.g., sameAs in entity.json), yaml strict mode rejects �?disable unique-key check
+  // source data allows duplicate keys (e.g., sameAs in entity.json), yaml strict mode rejects —disable unique-key check
   return raw ? (parse(stripBom(raw), { uniqueKeys: false }) as Record<string, unknown>) : undefined
 }
 
@@ -432,7 +438,7 @@ export function isContentPageTranslated(path: string, locale: Locale): boolean {
 }
 
 /**
- * True when a locale variant exists for any content at `path` �?
+ * True when a locale variant exists for any content at `path` —
  * registry pages, /faq, or the sidecar overlays (news, products, technology,
  * case-use). Guides live in guide-content.ts and are checked by the caller.
  */

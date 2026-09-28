@@ -1,0 +1,125 @@
+meta:
+  title: 'OEM Katılım Rehberi — İlk Temsilden Üretime Adım Adım Süreç | iSupfactory'
+  description: 'OEM katılım rehberi: NDA, uygulanabilirlik incelemesi, numune üretimi, onay, üretim öncesi planlama, üretim kalite kontrolü ve sevkiyat. Zaman çizelgeleriyle adım adım.'
+  dateModified: '2026-08-20'
+  keywords:
+    - 'OEM katılım rehberi'
+    - 'SUP üretim süreci'
+    - 'OEM alıcı katılımı'
+    - 'SUP fabrika süreci'
+    - 'özel SUP sipariş adımları'
+    - 'OEM numune süreci'
+    - 'SUP üretim takvimi'
+
+hero:
+  tagline: OEM Alıcı Katılımı
+  title: 'İlk SUP Siparişiniz, Adım Adım'
+  subtitle: 'İlk temastan teslim edilen tahtalara kadar iSupfactory şirketindeki OEM katılım süreci, yedi tanımlı kapıdan geçer — her biri açık bir zaman çizelgesiyle, belgelenmiş bir çıktıyla ve bir devam et / durdur karar noktasıyla. Belirsizlik yok, gizli adım yok, depozito sonrası sürpriz yok.'
+  actions:
+    - variant: primary
+      text: Proje Brifinginizi Başlatın
+      href: /tr/contact#project-brief
+    - text: OEM, ODM ve Private Label yollarını karşılaştırın
+      href: /tr/oem-odm-private-label-comparison
+
+answer:
+  label: 'Doğrudan yanıt'
+  text: 'Tipik bir OEM katılımı, numune onayı için 2–4 hafta ve onaylanan siparişten itibaren ilk üretim için 6–8 hafta sürer. Bir proje brifingi göndererek başlarsınız (tahta spesifikasyonları, hacim, uyumluluk gereksinimleri). Bir iş günü içinde yanıt verir, gizli ayrıntıları paylaşmadan önce bir NDA öneririz ve incelemeniz ve onayınız için 7–12 günde 1–2 fiziksel numune üretiriz. Numune dondurulduktan sonra üretim planlaması ve imalat, her aşamada sabit kalite kontrol kapılarıyla yürür. Her adım belgeli ve izlenebilirdir.'
+  verified: 'Eylül 2026'
+
+process_steps:
+  tagline: Yedi Kapı
+  title: 'Katılım Akışı — Brifingden Teslimata Yedi Kapı'
+  subtitle: 'Her kapının tanımlı bir girdisi, tanımlı bir çıktısı ve önceden üzerinde anlaştığınız bir zaman çizelgesi vardır. Açık onay olmadan hiçbir kapıdan ilerlemezsiniz.'
+  steps:
+    - step: 'Kapı 1'
+      title: 'İlk Talep ve NDA (Gün 0)'
+      desc: 'Hedef tahta spesifikasyonlarınızı, sipariş hacminizi, uyumluluk gereksinimlerinizi ve zaman çizelgenizi /contact üzerinden bir proje brifingiyle gönderin. Bir NDA anında imzalanabilir — herhangi bir gizli teknik spesifikasyonu veya grafikleri paylaşmadan önce. Bir iş günü içinde yanıt verilir.'
+    - step: 'Kapı 2'
+      title: 'Uygulanabilirlik İncelemesi ve Teklif (Gün 1–5)'
+      desc: 'Mühendislik, brifinginizi üretim kapasitesi, malzeme bulunabilirliği ve uyumluluk kapsamı açısından inceler. MOQ hesaplaması, numune ücretleri (üretime mahsup edilen) ve teslim süresi dilimleriyle kalem kalem teklif alırsınız — kaba bir aralık değil, kapı kapı bir takvim.'
+    - step: 'Kapı 3'
+      title: 'Numune Üretimi (Gün 6–17)'
+      desc: 'Spesifikasyonunuza göre 1–2 fiziksel tahta üretilir: gövde rijitliği, EVA kayma pad dokusu, grafik doğruluğu, aksesuar uyumu. Başka hiçbir şeye taahhüt etmeden önce tahtayı kullanır ve değerlendirirsiniz. Numune ücretleri sözleşme onayıyla üretim siparişinize mahsup edilir.'
+    - step: 'Kapı 4'
+      title: 'Numune İncelemesi ve Onayı (Gün 18–21)'
+      desc: 'Numuneyi spesifikasyonlarınıza göre değerlendirirsiniz — kullanım kalitesi, grafik sadakati, ambalaj, aksesuarlar. Yapılan düzenlemeler revize edilmiş BOM ve grafik onayında kayıt altına alınır. Dondurulan spesifikasyon, sonraki tüm üretimler için üretim referansı olur.'
+    - step: 'Kapı 5'
+      title: 'Üretim Öncesi Planlama (Gün 22–28)'
+      desc: 'Malzeme tedariği, kalıp kurulumu, ambalaj teyidi ve üretim slotu ayrılması. Tüm malzemeler dondurulmuş BOM’a karşı giriş kontrolünden geçirilir. İmalat başlamadan önce kalite kontrol kapı tarihleriyle bir üretim takvimi yayımlanır.'
+    - step: 'Kapı 6'
+      title: 'Üretim ve Kalite Kontrol Kapıları (Gün 29–55)'
+      desc: 'İmalat 7 aşamalı inceleme kapı sisteminden geçer: gelen malzeme incelemesi, drop-stitch kumaş incelemesi, kaynak ve montaj, basınç ve hava sızdırmazlık testi (18.0 PSI tutma, 0.50 PSI üzeri düşüşte otomatik ret), EVA pad ve aksesuar montajı, grafik ve markalama kalite kontrolü, son ambalaj ve dokümantasyon. Her kapının geçer / kalır kriterleri ve izlenebilirlik kayıtları vardır.'
+    - step: 'Kapı 7'
+      title: 'Sevkiyat ve Teslimat Sonrası Değerlendirme (Gün 56–63)'
+      desc: 'İhracat kalitesinde ambalaj, uyumluluk dokümantasyonu (CE, ISO 9001, BSCI, REACH, RoHS) ve 50 üzeri ülkeye denizyolu taşıma koordinasyonu. Teslimat sonrası değerlendirme, öğrenilen dersleri ve sonraki sipariş döngüsü için iyileştirmeleri kayda geçirir.'
+
+collaboration_modes:
+  tagline: Yolunuzu Seçin
+  title: 'Üç İş Birliği Modeli, Tek Katılım Süreci'
+  subtitle: 'Her yeni alıcı aynı yedi kapılı katılımdan geçer — değişen şey mühendislik katılımının kapsamı ve fikri mülkiyet hakkının nerede durduğudur.'
+  grid: 'sm:grid-cols-2 lg:grid-cols-3'
+  features:
+    - icon: O
+      icon_bg: blue
+      title: 'OEM Üretimi'
+      desc: 'Eksiksiz tasarım spesifikasyonunu siz sağlarsınız — gövde şekli, yapı, grafikler, aksesuarlar. Spesifikasyonunuza göre üretiriz. Tüm fikri mülkiyet hakkı sizindir. Mevcut ürün hattı ve kanıtlanmış tahta geometrisi olan markalar için en uygun seçenek.'
+      link_label: 'OEM nasıl çalışır'
+      href: /tr/oem-manufacturing
+    - icon: D
+      icon_bg: green
+      title: 'ODM Geliştirme'
+      desc: 'Brifingi siz verirsiniz — hedef kullanıcı ağırlığı, kullanım senaryosu, fiyat noktası — ve mühendislik ekibimiz tahtayı gereksinimlerinize göre geliştirir. Kendi markalama ile uyarlanmış platform. Kendi tasarım ekibine sahip olmadan pazara giren markalar için en uygun seçenek.'
+      link_label: 'ODM nasıl çalışır'
+      href: /tr/odm-manufacturing
+    - icon: P
+      icon_bg: purple
+      title: 'Private Label / Ortak Markalama'
+      desc: 'Kendi markanızı sahada test edilmiş bir platforma uygulayın — mühendislik aşaması gerekmez. 5–10 adetten başlayarak logonuzu burun veya yan rail üzerine koyarsınız. Geliştirme döngüsü olmadan markalı tahta isteyen işletmeler ve distribütörler için en uygun seçenek.'
+      link_label: 'Private Label seçenekleri'
+      href: /tr/solutions/private-label-sup
+
+checklist:
+  heading: 'Proje Brifinginizden Önce Hazır Olması Gerekenler'
+  body: |
+    Brifinginiz ne kadar eksiksiz olursa teklif de o kadar hızlı ve isabetli olur. Hazır bulundurmanız gerekenler şunlardır:
+
+    - **Tahta spesifikasyonları** — Hedef uzunluk, genişlik, kalınlık, kullanıcı ağırlık aralığı ve amaçlanan kullanım (touring, all-around, surf, balıkçılık, yoga vb.). Referans tahta ölçüleri veya rakip bir modeliniz varsa bunları da ekleyin.
+    - **Tasarım dosyaları** — Tahta grafikleri, EVA pad logosu ve her türlü ikincil markalama için vektör grafikler (AI, SVG veya PDF). Grafikler hazır değilse başlangıç uygulanabilirliği için bir mood board veya referans görseller yeterlidir.
+    - **Sipariş hacmi ve zaman çizelgesi** — İlk sipariş için hedef miktarınız ve ulaşmanız gereken sezon programınız. Kabaca bir aralık bile ("Mart ayına kadar 20–50 tahta") uygulanabilirliği ve slot uygunluğunu teyit etmek için yeterlidir.
+    - **Uyumluluk gereksinimleri** — Hedef pazarlar (AB, Kuzey Amerika, Avustralya vb.) ve standart kapsamımızın (CE, ISO 9001, BSCI, REACH, RoHS) ötesinde belirli sertifika veya test gereksinimleri.
+    - **Bütçe aralığı** — Tahta başına yaklaşık bütçe veya hedef maliyet, doğru platform ve yapı kademesini önermemize yardımcı olur. Kesin fiyat mühendislik incelemesinden sonra teyit edilir — asla önceden değil.
+
+    Tüm bunlara henüz sahip değilseniz, elinizdekini gönderin. Kalanını yönlendiririz.
+
+evidence_review:
+  tagline: 'Kanıt ve Doğrulama'
+  title: 'SPESİFİKASYONLAR DOĞRULANDI'
+  body: 'Bu sayfadaki tüm üretim iddiaları, Laixi, Qingdao fabrikamızdaki üretim mühendisliği ekibimiz tarafından doğrulanmıştır. Sertifikalar, kalite kontrol inceleme kayıtları, basınç ve yapısal test raporları ve parti izlenebilirliği kayıtları talep üzerine mevcuttur. Spesifikasyonlar en son Eylül 2026 tarihinde doğrulanmıştır.'
+
+faqs:
+  tagline: SSS
+  title: 'OEM Katılımı — Sık Sorulan Sorular'
+  items:
+    - q: 'Eksiksiz katılım süreci ne kadar sürer?'
+      a: 'Numune onayı genellikle 2–4 hafta sürer (7–12 günde numune üretimi ve sizin inceleme süreniz de dahil). İlk üretim, onaylanan sipariş ve depozitodan itibaren 6–8 hafta sürer. Özel gövde şekli 15–20 gün kalıp geliştirme süresi ekler. Her kapının önceden üzerinde anlaştığınız sabit bir zaman çizelgesi vardır.'
+    - q: 'Tasarımımı paylaşmadan önce NDA imzalamam gerekiyor mu?'
+      a: 'Bir NDA talep üzerine anında imzalanabilir — herhangi bir gizli teknik spesifikasyonu veya grafikleri paylaşmadan önce. Yalnızca müşterilerimizin markaları adına üretim yaparız ve hiçbir pazarda onlarla rekabet etmeyiz. Aynı politika tek tahtalık numune için de konteyner programı için de geçerlidir.'
+    - q: 'İlk OEM üretimi için minimum sipariş nedir?'
+      a: 'Giriş noktası kademelidir: önce 1–2 numune (7–12 günde hazır), ardından 20–50 tahtalık bir deneme veya pilot sipariş (25–35 günde üretim), sonra onaylanan konfigürasyon başına 90–100+ tahtalık standart hacimli üretimler. Geliştirme aşaması gerekmediğinde küçük partili ortak markalama 5–10 adetten başlar. Numune ücretleri üretim siparişinize mahsup edilir.'
+    - q: 'Katılım sırasında fikri mülkiyet koruması nasıl ele alınıyor?'
+      a: 'Tasarımlarınız ve spesifikasyonlarınız, herhangi bir gizli bilgi paylaşılmadan önce imzalanan NDA ile korunur. Tüm grafikler, BOM verileri ve teknik dosyalar erişimi denetim izleri olan sistemlerde saklanır. OEM modunda tüm fikri mülkiyet hakkı sizindir. ODM modunda uyarlanmış platformun fikri mülkiyet hakkı anlaşmaya bağlı olarak paylaşılır. Private Label modunda fikri mülkiyet iSupfactory şirketinde kalır ve siz marka uygulaması için lisans alırsınız.'
+    - q: 'İlk sipariş için hangi kalite güvenceleri geçerlidir?'
+      a: 'Numune, deneme veya hacim fark etmeksizin her tahta aynı 7 aşamalı inceleme kapı sisteminden geçer: gelen malzeme incelemesi, drop-stitch kumaş incelemesi, kaynak ve montaj, 24 saatlik basınç ve hava sızdırmazlık testi (18.0 PSI tutma, 0.50 PSI üzeri düşüşte otomatik ret), EVA pad ve aksesuar montajı, grafik ve markalama kalite kontrolü ve son ambalaj ile dokümantasyon. Kalite, küçük siparişler için asla düşürülmez.'
+
+cta:
+  title: 'SUP Projenizi Başlatmaya Hazır mısınız?'
+  subtitle: 'Tahta spesifikasyonlarınızı, hacim hedefinizi ve zaman çizelgenizi bize gönderin. Uygulanabilirliği teyit eder, numune üretir ve bir üretim takvimi veririz — kapı kapı, her adımda belgelenmiş kalite kontrolüyle.'
+  actions:
+    - variant: primary
+      text: Proje Brifinginizi Başlatın
+      href: /tr/contact#project-brief
+    - text: OEM, ODM ve Private Label yollarını karşılaştırın
+      href: /tr/oem-odm-private-label-comparison
+    - text: Fabrikayı ve kalite sistemini doğrulayın
+      href: /tr/proof-center

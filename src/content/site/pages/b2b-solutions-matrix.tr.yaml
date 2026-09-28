@@ -1,0 +1,134 @@
+meta:
+  title: 'B2B Müşteri Çözümleri Matrisi | {SITE}'
+  description: '24 müşteri tipini kapsayan eksiksiz Vatrad B2B müşteri çözümleri matrisi — açık hava girişimlerinden deniz koruma kurumlarına kadar.'
+  dateModified: '2026-08'
+
+hero:
+  tagline: B2B Müşteri Çözümleri
+  title: 'İşinize Uyarlanmış 24 B2B Çözümü'
+  subtitle: 'Girişim kurucularından küresel distribütörlere kadar — iş modelinize, sektörünüze ve hedeflerinize uygun Vatrad çözümünü bulun.'
+  image:
+    src: https://assets.isupfactory.com/images/sups/factory/isupfactory-factory-building.webp
+    alt: Vatrad fabrikası ve üretim tesisi
+
+answer:
+  label: 'Net cevap'
+  text: 'Tek fabrika her B2B rotasını karşılar: proje bazında onaylanan MOQ ile OEM/ODM üretimi (numune 1–2 adet, pilot 20–50, standart hacim 150 m rulo başına 90–100+; ortak marka 5–10 adetten başlar), kanıtlanmış platformlarda özel marka, toptan dağıtım ve tesis, kulüp ile okullar için filo programları. Her müşteri tipi belirli bir çözüm setine karşılık gelir — numune 7–12 günde, üretim ise sipariş ve depozito sonrasında 25–35 günde.'
+  verified: 'Eylül 2026'
+
+solutions:
+  title: Müşteri Çözümleri Matrisi
+  subtitle: 'Her müşteri tipi, temel ihtiyacı ve onlar için tasarlanmış Vatrad çözüm sayfası.'
+  items:
+    - clientType: Açık Hava Girişim Kurucusu
+      need: Marka Oluşturma
+      solutionPage: SUP Markanızı Kurun
+      link: /tr/solutions/private-label-sup
+    - clientType: Açık Hava Marka Yöneticisi
+      need: Açık Hava Markasını Su Sporlarına Genişletme
+      solutionPage: Açık Hava Markanızı Su Sporlarına Genişletin
+      link: /tr/solutions/private-label-sup
+    - clientType: Surf Mağazası Sahibi
+      need: Surf İşletmesini Yükseltme
+      solutionPage: Şişirilebilir Teknolojiyi Surf İşine Taşıyın
+      link: /tr/products/surf
+    - clientType: Amazon Satıcısı
+      need: E-ticaret Büyümesi
+      solutionPage: Ürün Farklılaştırma ve Hızlı Tedarik
+      link: /tr/solutions/private-label-sup
+    - clientType: Balıkçılık Ekipmanı Markası
+      need: Fishing SUP
+      solutionPage: Fishing SUP Markanızı Oluşturun
+      link: /tr/products/fishing
+    - clientType: Yoga ve Wellness Markası
+      need: Wellness Su Ürünleri
+      solutionPage: SUP Yoga Ekipman Çözümleri
+      link: /tr/products/yoga
+    - clientType: İçerik Üreticisi Markası
+      need: Fenomen Marka
+      solutionPage: İçerik Üreticisi Sürümü SUP Girişimi
+      link: /tr/solutions/private-label-sup
+    - clientType: Kürek Kulübü Kurucusu
+      need: Kulüp Filosu
+      solutionPage: Ticari SUP Filosu
+      link: /tr/solutions/club-sup
+    - clientType: Kiralama İşletmesi Sahibi
+      need: Kiralama Operasyonu
+      solutionPage: Dayanıklı Kiralama Filosu Çözümü
+      link: /tr/solutions/rental-operators
+    - clientType: Otel Faaliyet Yöneticisi
+      need: Otel Deneyimi
+      solutionPage: Tatil Tesisi Su Faaliyeti Paketi
+      link: /tr/solutions/resort-sup
+    - clientType: Su Sporları Akademisi
+      need: Eğitim ve Öğretim
+      solutionPage: SUP Akademisi Ekipman Programı
+      link: /tr/solutions/school-sup
+    - clientType: Gezi ve Yat Şirketi
+      need: Yat Deneyimi
+      solutionPage: Lüks Taşınabilir SUP Paketi
+      link: /tr/product-development
+    - clientType: Açık Hava Perakende Alıcısı
+      need: Perakende Kanalı
+      solutionPage: Perakende Özel Marka Programı
+      link: /tr/solutions/retail-partners
+    - clientType: Distribütör ve İthalatçı
+      need: Bölgesel Dağıtım
+      solutionPage: Bölgesel OEM ve Tedarik Zinciri İş Ortağı
+      link: /tr/solutions/distributors
+    - clientType: Kurumsal Proje Alıcısı
+      need: Kurumsal Etkinlikler
+      solutionPage: Kurumsal SUP Etkinlik Paketi
+      link: /tr/contact
+    - clientType: Su Sporları Marka Yöneticisi
+      need: Su Sporları Marka Genişletme
+      solutionPage: Su Sporları Portföyünüzü Genişletin
+      link: /tr/solutions/private-label-sup
+    - clientType: Evcil Hayvan Macera Markası Sahibi
+      need: Evcil Hayvan ve Açık Hava
+      solutionPage: Evcil Hayvan Dostu Kürek Tahtası Programı
+      link: /tr/product-development
+    - clientType: Sahil Rekreasyon İşletmecisi
+      need: Sahil Eğlencesi
+      solutionPage: Eksiksiz Sahil Faaliyeti Ekipman Çözümleri
+      link: /tr/solutions/rental-operators
+    - clientType: Su Parkı Geliştiricisi
+      need: Tema Eğlencesi
+      solutionPage: Ticari Su Parkı SUP Filosu
+      link: /tr/solutions/resort-sup
+    - clientType: Özel Ada ve Lüks Kulüp Sahibi
+      need: Üst Düzey Yaşam Tarzı
+      solutionPage: Premium Özel SUP Koleksiyonu
+      link: /tr/product-development
+    - clientType: Turizm Kurulu ve Kamu Parkı İşletmecisi
+      need: Kamu Turizm Projeleri
+      solutionPage: Destinasyon Su Sporları Paketi
+      link: /tr/solutions/rental-operators
+    - clientType: Çocuk Macera ve Yaz Kampı İşletmecisi
+      need: Gençlik Eğitimi
+      solutionPage: Çocuk Keşif SUP Programı
+      link: /tr/solutions/school-sup
+    - clientType: Su Kurtarma ve Güvenlik Kuruluşu
+      need: Profesyonel Kurtarma
+      solutionPage: Profesyonel Su Kurtarma SUP Sistemi
+      link: /tr/product-development
+    - clientType: Deniz Koruma ve Araştırma Kurumu
+      need: Çevresel Araştırma
+      solutionPage: Eko Araştırma ve İzleme SUP Platformu
+      link: /tr/product-development
+
+cta:
+  title: 'Hangi çözümün işinize uyduğundan emin değil misiniz?'
+  subtitle: 'Projenizi B2B ekibimize anlatın; doğru yapılandırmayı ve fiyatlandırmayı önerelim.'
+  actions:
+    - variant: primary
+      text: 'B2B Ekibimizle Görüşün'
+      href: /tr/contact?subject=b2b-solutions
+    - variant: secondary
+      text: 'Katalog İndirin'
+      href: /tr/products
+
+content_html: |
+  <div class="mx-auto max-w-3xl space-y-4 rounded-2xl border bg-card p-6 text-[14.5px] leading-relaxed text-fg-2">
+    <p>Bu matristeki her rota aynı iki şeyle başlar: <a href="/tr/oem-manufacturing">OEM/ODM üretim programımız</a> ve <a href="/tr/factory">arkasındaki fabrika</a> — tek bir 12.500 m&sup2; tesis, tek bir kalite standardı, her kanal için hizmet.</p>
+  </div>

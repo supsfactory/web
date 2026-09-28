@@ -1,0 +1,94 @@
+meta:
+  title: 'SUP Gövde Mühendisliği — CAD ve FEA Tahta Tasarımı'
+  description: 'SUP tahta mühendisliği stüdyosu: CAD tahta tasarımı, drop-stitch yapılarının sonlu eleman analizi (FEA) ve OEM projeleri için özel gövde biçimleri.'
+back_text: 'Ar-Ge Merkezine Dön'
+home_label: 'Ana Sayfa'
+
+hero:
+  tagline: 'Lab 02'
+  title: 'Tahta Mühendisliği Stüdyosu'
+  subtitle: 'Dijital simülasyon, yapısal zeka, özel tahta tasarımı'
+  image: 'https://assets.isupfactory.com/images/sups/factory/isupfactory-design-discussion.webp'
+  image_alt: 'Vatrad SUP tahta mühendisliği CAD tasarım iş istasyonu'
+
+answer:
+  label: 'Net cevap'
+  text: 'Özel SUP tahtaları, SolidWorks 3D yüzeyleme, ANSYS FEA ve CFD kullanılarak şirket içinde tasarlanır — her tahta, prototip öncesi gerilim dağılımı ve güverte rijitliği için zorunlu ≥ 2.5 güvenlik faktörüyle simüle edilir. Özel bir biçimin prototipi 7–12 gün sürer; tam özel kalıp aparatı, 25–35 günlük üretim teslim süresine 15–20 gün ekler; MOQ proje yapılandırmasıyla teyit edilir (bkz. MOQ kılavuzumuz).'
+  verified: 'Eylül 2026'
+
+intro: 'Bir SUP tahtasının biçimi — rocker’ı, ray profili, burun ve kuyruk hacmi — nasıl kürek çektiğini, döndüğünü ve iz sürdüğünü belirler. {SITE.name}’de Tahta Mühendisliği Stüdyosu; CAD yüzeyleme, drop-stitch yapılarının sonlu eleman analizini (FEA) ve üretim deneyimini bir araya getirerek amaçlanan kullanıma göre optimize edilmiş tahtalar sunar: her yönden kararlılık, tur kayması veya sörf performansı. Her özel tahta, katalogdaki genel bir biçimden değil sizin şartnamenizden başlar.'
+
+content_html: |
+  <h2>Dayanımın hidrodinamikle buluştuğu yer</h2>
+  <p>Bir şişirilebilir SUP tahtası bir drop-stitch yapıdır: binlerce polyester iplik üst ve alt PVC derileri birbirine bağlayarak güverteyi 12–15 PSI’da düz tutar; ray ve burun geometrisi ise tahtanın suyla etkileşimini belirler. Biz 3B biçimi tasarlar, şişirilmiş yapıyı simüle eder ve tek bir numune kesilmeden önce sonucu şirket içinde doğrularız.</p>
+
+  <h2>Tasarım araçları ve standartlar</h2>
+  <p>Dijital mühendislik ortamımız şunları içerir:</p>
+  <table>
+    <thead><tr><th>Yetenek</th><th>Yazılım / Araç</th><th>Uygulama</th></tr></thead>
+    <tbody>
+      <tr><td>3B parametrik modelleme</td><td>SolidWorks Professional</td><td>Tahta yüzeyi, rocker çizgisi, ray profili, tutamak ve fin entegrasyonu</td></tr>
+      <tr><td>Sonlu eleman analizi</td><td>ANSYS Mechanical</td><td>Drop-stitch çekirdek gerilim haritalaması, yük altında güverte rijitliği, tutamak noktası takviyesi</td></tr>
+      <tr><td>Hesaplamalı akışkan dinamiği</td><td>Ansys Fluent</td><td>Hidrodinamik sürtünme tahmini, planlama trim optimizasyonu</td></tr>
+      <tr><td>Laminasyon mühendisliği</td><td>ESAComp</td><td>PVC katman dizilimi, kumaş gramajı seçimi, ağırlık tahmini</td></tr>
+      <tr><td>Kalıp yüzeyi incelemesi</td><td>Moldex3D</td><td>RF kaynak için kaynak aparatı geometrisi incelemesi</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Mühendislik iş akışımız</h2>
+  <p>Standart bir model de olsa, tamamen özel bir proje de olsa her tahta tasarımı titiz beş aşamalı bir süreç izler:</p>
+  <ol>
+    <li><strong>Konsept ve gereksinim toplama</strong> — Kürekçi ağırlık aralığını, amaçlanan kullanımı (her yönden, tur, sörf, yoga, kiralık filo), uzunluk, genişlik ve kalınlık hedeflerini ve varsa özel özellikleri (yük sistemleri, güverte pedleri, bağlama noktaları) tanımlarız.</li>
+    <li><strong>3B yüzeyleme ve hacim hesabı</strong> — Tahta formu SolidWorks’ta modellenir ve hacim dağılımı, yer değiştirme ve kararlılık hedef kürekçi ağırlığına karşı kontrol edilir.</li>
+    <li><strong>Yapısal FEA</strong> — Şişirilmiş tahta; ayakta durma yükü, statik (ortada kürekçi, 100 kg) ve dinamik (rayda dalga darbesi) altında analiz edilir. Gerilim konturları incelenir; ≥ 2.5 güvenlik faktörü zorunludur.</li>
+    <li><strong>CFD sürtünme optimizasyonu</strong> — Gövde; üç yükleme koşulunda ve beş hızda simüle edilir. Islak yüzey alanı, trim açısı ve artık direnç iteratif olarak azaltılır.</li>
+    <li><strong>Tasarım incelemesi ve onay</strong> — Eksiksiz mühendislik paketi (3B model, FEA raporu, CFD raporu, ağırlık tahmini, panel kesim planı) prototip atölyesine sevk edilmeden önce kıdemli mühendisimiz tarafından incelenir.</li>
+  </ol>
+
+  <div class="not-prose my-10 p-6 rounded-xl bg-gray-50 dark:bg-gray-900 border border-gray-200 dark:border-gray-800">
+    <p class="text-sm font-semibold text-gray-500 mb-3 uppercase tracking-wider">FEA Sonuçları — 11''0 Her Yönden Tahta (32'' Genişlik, 6'' Kalınlık)</p>
+    <div class="grid grid-cols-2 gap-4 text-sm">
+      <div class="p-4 rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-950">
+        <span class="block text-2xl font-bold text-blue-600">2.8 : 1</span>
+        <span class="text-gray-500">120 kg ayakta durma yükünde güvenlik faktörü</span>
+      </div>
+      <div class="p-4 rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-950">
+        <span class="block text-2xl font-bold text-blue-600">0 mm</span>
+        <span class="text-gray-500">15 PSI’da yüksüz durumda güverte sehimi</span>
+      </div>
+      <div class="p-4 rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-950">
+        <span class="block text-2xl font-bold text-blue-600">3.2 mm</span>
+        <span class="text-gray-500">120 kg kürekçi altında azami güverte esnekliği</span>
+      </div>
+      <div class="p-4 rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-950">
+        <span class="block text-2xl font-bold text-blue-600">15 PSI</span>
+        <span class="text-gray-500">Analiz basıncı — platformun çalışma anma değeri</span>
+      </div>
+    </div>
+  </div>
+
+  <h2>Özelleştirme: sizin tahtanız, sizin kurallarınız</h2>
+  <p>Hiçbir iki markanın gereksinimleri aynı değildir. Bir kiralık filo; takviyeli raylara sahip geniş ve kararlı bir her yönden tahta ister; bir tur markası; yük bağlama noktaları olan daha uzun bir yer değiştirme burdara ihtiyaç duyar; sörfe odaklı bir seri ise içe çekilmiş kuyruk ve rocker profili gerektirir. Ürün grubunuzu mevcut biçimlere sıkıştırmayız — şartnamenizden yukarı doğru tasarlarız.</p>
+  <p>Yakın dönem özel tahta mühendisliği projelerinden örnekler:</p>
+  <ul>
+    <li>Dayanıklılık kürek markası için 14'' tur SUP’si; yer değiştirme burun ve gömülü yük güvertesi ile (kayma için su hattı uzunluğu +%15).</li>
+    <li>Resort filosu için 10'6'' geniş her yönden tahta; çift katmanlı yan raylar ve 220 lb anma kapasitesi ile.</li>
+    <li>Özel bir sörf okulu serisi için geliştirilen, içe çekilmiş kuyruk ve ilerleyici rocker’lı 9'' sörf SUP’si.</li>
+  </ul>
+
+  <h2>Mühendislerimiz</h2>
+  <p>Stüdyo; şişirilebilir ürün tasarımında 14 yıllık deneyime sahip kıdemli bir ürün mühendisi tarafından yönetilir; FEA ve CFD alanında uzmanlaşmış iki mekanik mühendis destekler. Üçünün de uluslararası tanınırlığıki üniversitelerden mühendislik alanında ileri dereceleri vardır ve ekip, her tasarımın konteyner ölçeğinde üretilebilir olmasını sağlamak için doğrudan üretim hattımızla çalışır.</p>
+
+  <h2>Sonraki tahtanız için bizimle çalışın</h2>
+  <p>İlk konsept taslağından nihai gerilim raporuna kadar Tahta Mühendisliği Stüdyosu, yalnızca üretilmiş değil — mühendislikle işlenmiş bir tahta yaratmanızda iş ortağınızdır. Her kaynak, her laminasyon katmanı ve raydaki her eğrinin bir nedeni olması için simülasyon saatlerini baştan yatırıma ayırırız.</p>
+  <p>Mevcut bir modelde küçük bir değişikliğe mi, tamamen sıfırdan bir tasarıma mı ihtiyacınız olduğunu tartışmak için hazırız.</p>
+
+cta:
+  title: 'Tahta tasarımı görüşmenizi başlatın'
+  subtitle: 'Hedef kürekçilerinizi ve kullanım senaryonuzu anlatın; size bir mühendislik yolu önerelim.'
+  actions:
+    - variant: primary
+      text: Mühendislik ekibimizle iletişime geçin
+      href: /tr/contact#project-brief
+    - text: Ar-Ge Merkezine Dön
+      href: /tr/randdcenter

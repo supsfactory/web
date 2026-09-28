@@ -1,0 +1,233 @@
+meta:
+  title: 'Uyumsuz SUP Kontrolü ve Yeniden İşleme | OEM Fabrika | iSupfactory'
+  description: 'Uyumsuz ürün kontrolü (ISO 9001:2015 Madde 8.7): NCR karantinası, SRI altında kontrollü yeniden işleme, bağımsız yeniden denetim ve tanıklı imha.'
+  dateModified: '2026-08-14'
+  keywords:
+    - 'uyumsuz ürün kontrolü'
+    - 'sup yeniden işleme yeniden denetim süreci'
+    - 'iso 9001 uyumsuz ürünler'
+    - 'üretim ncr kontrolü'
+    - 'sup hurda imha sertifikası'
+    - 'şişirilebilir sup oem kalite kontrol'
+hero:
+  tagline: Uyumsuz Ürün Kontrolü
+  title: Uyumsuz Ürünler İçin İzolasyon, Yeniden İşleme ve Yeniden Denetim Süreci
+  subtitle: 'QINGDAO VATRAD GROUP.,LTD.’de uyumsuz bir tahta asla akışa devam etmez. Tanımlı kabul kriterlerini karşılamayan her ürün veya bileşen tespit edilir, bir Uyumsuzluk Raporuna (NCR) karşı kaydedilir, etiketlenir ve ayrılır, etkilenen kapsam değerlendirilir ve doğru yetki seviyesinde kararı verilir. İzin verilen yeniden işleme kontrollü talimatlara göre yürür, düzeltilen kalemler özgün kabul kriterlerine karşı yeniden denetlenir — gerektiğinde eksiksiz yeniden testler dahil — ve ürün yalnızca yetkili kalite onayından sonra sevk edilir. Bu sayfa, ISO 9001:2015 Madde 8.7 kapsamındaki kontrollü standardımızı ve arkasındaki izlenebilirlik kanıtını sunar.'
+  actions:
+    - text: 'NCP Kontrol SOP İndir (PDF)'
+      variant: primary
+      href: 'https://assets.isupfactory.com/site/downloads/non-conforming-product-control-sop-iso-8-7.pdf?dl=1'
+    - text: 'Hurda ve İmha Sertifikası İndir (PDF)'
+      href: 'https://assets.isupfactory.com/site/downloads/scrap-destruction-certificate-vat-qa-scrap-cert-2026.pdf?dl=1'
+    - text: 'Kalite İncelemesi Talep Edin'
+      href: /tr/contact
+
+answer:
+  label: 'Net cevap'
+  text: 'QINGDAO VATRAD GROUP.,LTD.’de uyumsuz ürünler asla gizlenmez, gayri resmi biçimde yeniden işlenmez veya doğrulama yapılmadan sevk edilmez. Tespit edilen her uyumsuzluk, etkilenen ürün, parti veya bileşene karşı kaydedilir ve bir NCR ile ilişkilendirilir. Kalem etiketlenir (HOLD / QUARANTINE / REJECTED), fiziksel olarak ayrılır ve etkilenen kapsam parti, malzeme lotu, süreç aşaması ve belge revizyonu bazında değerlendirilir. Karar, kusur şiddetine uygun yetki seviyesinde verilir: küçük sorunlar hat seviyesinde onaylanır, büyük sorunlar kontrollü yeniden işleme talimatı ve %100 bağımsız yeniden denetim gerektiren QC Müdürü + Teknik Mühendis kararı gerektirir, kritik sorunlar ise Material Review Board kararı ve gerektiğinde yazılı müşteri feragati gerektirir — aksi halde zorunlu tanıklı imha uygulanır. Yeniden işlenen kalemler özgün kabul kriterlerine karşı yeniden denetlenir, hava sızdırmazlığı onarımları eksiksiz yeni bir basınç testi döngüsü alır ve sevkiyat onayı yalnızca yetkili kalite onayından sonra gerçekleşir. Tekrarlayan veya sistematik sorunlar kök neden düzeltici faaliyetini (CAPA) tetikler.'
+  verified: 'Eylül 2026'
+
+stats:
+  tagline: Bir Bakışta
+  title: Rakamlarla Uyumsuzluk Kontrolü
+  stats:
+    - value: '7'
+      label: Tespitten düzeltici faaliyete kadar adım
+    - value: '100%'
+      label: Yeniden işlenen her tahtanın bağımsız QA tarafından yeniden denetimi
+    - value: '24h'
+      label: Hava sızdırmazlığı onarımları için eksiksiz basınç testi
+    - value: '≥ 5 yıl'
+      label: Tanıklı imha kanıtı saklama süresi (SHA-256 arşivi)
+
+nc_intro:
+  tagline: Uyumsuz Ürünlerin Kontrolü
+  title: 'Bir Ürün Kriterleri Karşılamadığında Ne Olur'
+  body: |
+    Tanımlı kabul kriterlerini karşılamayan ürün veya bileşenler, istenmeyen kullanımı, sonraki işlemi veya sevkiyatı önlemek üzere tespit edilir ve kontrollü biçimde yönetilir. Geçerli kabul kriterleri; onaylı numune, teknik şartname, görsel sanat, malzeme listesi, ambalajlama gereksinimleri ve proje denetim planına dayanır.
+
+    Uyumsuz kalemler, etkilenen kapsamı ve uygun kararı belirlemek üzere değerlendirilir. Soruna bağlı olarak kalem bekletilebilir, kontrollü talimatlarla yeniden işlenebilir, değiştirilebilir, reddedilebilir veya onaylı bir süreçle başka şekilde ele alınabilir. Yeniden işlenen veya düzeltilen kalemler sevkiyat öncesinde yeniden denetlenir. Sevkiyat onayına, ilgili kalite kayıtları tamamlandıktan ve ürün geçerli kabul kriterlerini karşıladıktan sonra izin verilir.
+
+nc_flow:
+  tagline: Standart 7 Adımlı Kapalı Döngü
+  title: Tespitten Düzeltici Faaliyete
+  subtitle: 'Her uyumsuzluk için tek kontrollü döngü: tespit, karantina, inceleme, yeniden işleme veya değiştirme, yeniden denetim, sevkiyat veya ret, iyileştirme.'
+  steps:
+    - step: '01'
+      title: Tespit
+      desc: 'Tespit edilen her uyumsuzluk, etkilenen ürün, parti veya bileşene karşı kaydedilir ve geçerli proje gereksinimlerine göre değerlendirilir. Tespit, giriş malzemesinde, süreç içi kontrolde, son testte, ambalajlamada veya müşteri/üçüncü taraf denetiminde gerçekleşebilir.'
+    - step: '02'
+      title: Karantina
+      desc: 'Kalemler net biçimde tanımlanır ve istenmeyen kullanımı, sonraki işlemi veya sevkiyatı önlemek üzere kontrollü bekleme veya karantina durumuna alınır. HOLD / QUARANTINE / REJECTED etiketleri NCR numarasını, SKU’yu, partiyi, adedi, kusur açıklamasını ve tarihi taşır.'
+    - step: '03'
+      title: İnceleme
+      desc: 'Etkilenen kapsam ve uygun karar değerlendirilir: tek birim, vardiya partisi, tam parti veya birden fazla parti — ortak malzeme lotları, görsel sanat revizyonları, süreç aşamaları ve belge revizyonları boyunca. Gerektiğinde ek içerik alma veya sıkılaştırılmış denetim uygulanır.'
+    - step: '04'
+      title: Yeniden İşleme veya Değiştirme
+      desc: 'İzin verilen yeniden işleme, etkilenen kalemi, yöntemi, malzemeleri, kontrol noktalarını ve yeniden denetim gereksinimlerini belirleyen onaylı talimatlara göre yürür. Ürün şartnamesine, görsel sanata, aksesuar yapılandırmasına veya ambalajlamaya onaysız değişiklik asla yapılmaz. Değiştirilen kalemler geçerli denetim kapılarına yeniden girer.'
+    - step: '05'
+      title: Yeniden Denetim
+      desc: 'Yeniden işlenen veya düzeltilen kalemler geçerli kabul kriterlerine karşı yeniden denetlenir. Sevkiyat öncesi; özgün başarısız özellik ve yeniden işlemeden etkilenebilecek ilgili tüm özellikler bağımsız QC tarafından doğrulanır; hava sızdırmazlığı onarımlarında eksiksiz yeni bir 24 saatlik basınç testi döngüsü uygulanır.'
+    - step: '06'
+      title: Sevkiyat veya Ret
+      desc: 'Ürün, yalnızca gerekli yeniden denetim tamamlandıktan ve yetkili kalite personeli uygunluğu proje gereksinimlerine göre teyit ettikten sonra sevk edilir. Uygunluğa getirilemeyen kalemler, tanıklı fiziksel imhayı dahil olmak üzere kontrollü prosedürlerle reddedilir, değiştirilir, iade edilir veya kararına bağlanır.'
+    - step: '07'
+      title: Düzeltici Faaliyet
+      desc: 'Tekrarlayan, önemli veya sistematik uyumsuzluklar kök neden ve düzeltici faaliyet (CAPA) açısından incelenir. İyileştirmeler; iş talimatlarının güncellenmesini, malzeme kontrollerini, kontrol noktalarını, eğitimi, tedarikçi yönetimini veya belge kontrolünü kapsayabilir.'
+nc_pillars:
+  tagline: Alıcı Güven Sütunları
+  title: 'Markanızı Koruyan Üç Kontrol'
+  subtitle: 'Süreç, yurt dışı alıcıların gerçekte sorduğu sorular etrafında tasarlanmıştır: sorunlar gizlenecek mi, yeniden işleme kontrolden çıkacak mı ve onarılan tahtalar yeniden doğrulanacak mı.'
+  features:
+    - icon: 1
+      icon_bg: blue
+      title: 'Yalnızca Kontrollü Talimatlar'
+      desc: 'Yeniden işleme, yetkili Standart Yeniden İşleme Talimatlarıyla (SRI) katı biçimde yönetilir. Onaysız saha değişiklikleri, şartname değiştirme veya yazılı yetki olmadan görsel sanatı değiştirme kesinlikle yasaktır.'
+    - icon: 2
+      icon_bg: green
+      title: 'Bağımsız Yeniden Denetim'
+      desc: 'Yeniden işlenen tahtalar, QA denetçileri tarafından özgün kabul kriterlerine karşı %100 yeniden denetlenir. Hava sızdırmazlığı onarımları, kısmi bir tekrar kontrol değil, tamamen yeni ve eksiksiz bir 24 saatlik basınç testi döngüsü gerektirir.'
+    - icon: 3
+      icon_bg: purple
+      title: 'Yetkili Onay ve İzlenebilirlik'
+      desc: 'Sevkiyat onayına, yalnızca NCR belgeleri eksiksiz olduğunda ve yetkili QC onayı alındıktan sonra izin verilir; parti durumu HOLD durumundan RELEASED durumuna geçer. Sistematik veya tekrarlayan sapmalar otomatik olarak kök neden CAPA akışlarını tetikler.'
+nc_photos:
+  tagline: 'Üretim Sahasında'
+  title: 'Uygulamada Karantina, Yeniden İşleme ve Yeniden Denetim'
+  subtitle: 'Qingdao’daki atölyemizden fotoğraflar, uyumsuz tahtaların herhangi bir sevkiyat kararından önce fiziksel olarak nasıl ayrıldığını, kontrollü talimatlarla nasıl yeniden işlendiğini ve yeniden doğrulandığını gösterir.'
+  features:
+    - image: https://assets.isupfactory.com/site/quality/qc-air-tightness-test-area.avif
+      alt: Dijital basınç göstergeleriyle izlenen fabrika hava sızdırmazlığı test alanında şişirilmiş şişirilebilir SUP tahtaları
+      title: 'Yeniden Denetim Kapısı'
+      desc: 'Yeniden işlemeden sonra her tahta, bağımsız yeniden doğrulama için QC test alanına döner: şişirilir ve dijital basınç göstergeleriyle, proje tarafından onaylanmış kabul kriterlerine karşı izlenir — asla kısmi kontrol değil.'
+    - image: https://assets.isupfactory.com/site/quality/qc-hold-quarantine-station.avif
+      alt: Fabrika denetim istasyonunda kalite kontrol kontrol listeleri ve kontrollü bekleme durum etiketleri
+      title: 'Bekleme ve Karantina İstasyonu'
+      desc: 'QC kontrol listeleri ve durum etiketlemesi bulunan denetim istasyonu. Kabul kriterlerini karşılamayan her kalem HOLD / QUARANTINE etiketiyle işaretlenir, bir NCR’ye karşı kaydedilir ve fiziksel olarak ayrılır — yetkili karar ve zorunlu yeniden denetim tamamlanana kadar ambalajlamaya geçemez.'
+    - image: https://assets.isupfactory.com/site/quality/qc-air-tightness-rework.avif
+      alt: Fabrika yeniden işleme istasyonunda şişirilebilir bir SUP üzerinde kontrollü hava sızdırmazlığı işlemi yapan QC teknisyeni
+      title: 'Kontrollü Yeniden İşleme İstasyonu'
+      desc: 'Yeniden işleme, onaylı bir SRI talimatı altında ayrılmış bir istasyonda gerçekleştirilir: kusur işaretlenir, tahta HOLD durumunda kalır ve gerekli sertleşme süresi sonrasında özgün kabul kriterlerine karşı yeniden denetim için test alanına döner.'
+    - image: https://assets.isupfactory.com/site/quality/qc-workshop-inspection-demo.avif
+      alt: Qingdao fabrikasında atölye düzeyinde kalite kontrol kontrollerinin gösterimi
+      title: 'Atölye QC Gösterimi'
+      desc: 'Atölyeden kalite kontrol kontrollerinin uygulamada nasıl yürütüldüğünü gösteren fotoğraf; bu sayfa boyunca atıf yapılan denetim ve durum kontrol kayıtlarını destekler.'
+nc_severity:
+  tagline: 'Kusur Şiddeti ve Yetkisi'
+  title: 'Şiddet Sınıflandırması ve Karar Yetkisi'
+  subtitle: 'Her uyumsuzluk aynı seviyede ele alınmaz — karar yetkisi, kusur şiddetiyle ölçeklenir; hat seviyesindeki onaydan Material Review Board ve müşteri feragatine kadar.'
+  headers:
+    severity: Şiddet
+    examples: Tipik Örnekler
+    authority: 'Karar Yetkisi ve Kontrol'
+    control: Sevkiyat Koşulu
+  rows:
+    - severity: 'Küçük'
+      examples: 'Koli köşesinde kıvrım, kritik olmayan hafif aksesuar hizasızlığı'
+      authority: 'Bölüm QC sorumlusu + hat şefi yerinde onay, değiştirme veya sevkiyat'
+      control: 'NCR üzerinde kaydedilir; ürün işlevi veya müşteri gereksinimleri üzerinde etkisi yoktur'
+    - severity: 'Büyük'
+      examples: 'Yavaş supap sızıntısı, tolerans dışı EVA hizasızlığı (>2 mm), eksik aksesuar'
+      authority: 'QC Müdürü + Teknik Mühendis kontrollü yeniden işleme talimatı (SRI) düzenler'
+      control: 'Sevkiyat öncesi özgün başarısız ve etkilenen özelliklerin %100 bağımsız yeniden testi'
+    - severity: 'Kritik'
+      examples: 'Drop-stitch oda hasarı, yüksek basınçta ray kabarcığı veya çatlağı, müşteri logosu hatalı baskısı veya renk sapması'
+      authority: 'Material Review Board (MRB) kararı; gerektiğinde yazılı müşteri feragati'
+      control: 'Yetkili feragat olmadan sevkiyat yapılmaz; aksi halde zorunlu tanıklı fiziksel imha'
+nc_matrix:
+  tagline: Mühendislik Protokol Matrisi
+  title: 'SUP Kusur Karar ve Yeniden Denetim Matrisi'
+  subtitle: 'En sık görülen üretim sapmalarına uygulanan standart mühendislik protokolleri — denetimlerde müşterilerin doğrulayabileceği aynı nicel parametreler.'
+  headers:
+    defect: Kusur Kategorisi
+    protocol: Kontrollü Karar Protokolü
+    validation: Bağımsız Yeniden Denetim ve Doğrulama
+  rows:
+    - defect: 'Yavaş Supap Sızıntısı'
+      protocol: 'Tahtayı ayırın. Kalibre edilmiş tork aletiyle (25 N·m) supap çekirdeğini sökün, iç dişleri temizleyin, silikon O-rengi değiştirin ve torku yeniden uygulayın.'
+      validation: 'Köpük çözeltisine batırın; tam 24 saatlik basınç düşümü testiyle 18 PSI’a yeniden şişirin (ΔP ≤ 0.05 PSI).'
+    - defect: 'Ray Dikişi Hava Kabarcıkları'
+      protocol: 'Vardiya partisini karantinaya alın. Kabarcık bölgesini ısı destekli noz ile ayırın, yüzeyi çözücüyle temizleyin, 5 bar basınç altında iki bileşenli PU yapıştırıcı uygulayın.'
+      validation: 'Dikişlerde %100 görsel ve dokunsal denetim; yapısal kanıt basınç testi (18.0 PSI) ve 24 saatlik hava sızdırmazlığı tutma.'
+    - defect: 'EVA Ped Hizasızlığı'
+      protocol: 'Sıcaklık düzenlemeli aletle (80°C) ısı destekli soyma yapın. Hassas akrilik konumlama aparatıyla hizalayın.'
+      validation: 'Açıklık toleransı doğrulaması (≤ ±1.5 mm), elmas desen simetri kontrolü, kenar yapıştırma adhezyonu için %100 test.'
+    - defect: 'Markalama / Logo Yazım Hatası'
+      protocol: 'Baskı hattını derhal durdurun. Baskılı tüm panelleri bekletin. Vektör revizyonunu müşteriyle gözden geçirin; onaysız hiçbir değişiklik yapılmayacak.'
+      validation: 'Spektrofotometre renk kontrolü (ΔE ≤ 1.5); müşteri tarafından imzalanmış vektör ana PDF’ye karşı %100 görsel metin hizası doğrulaması.'
+    - defect: 'Ambalaj Uyumsuzluğu / Eksik SKU'
+      protocol: 'İhracat paletini karantinaya alın. Kolileri açın ve kalem kalem %100 BOM kontrolü yapın (pompa, fin, güvenlik ipi, kürek, onarım tüpü).'
+      validation: 'Hat içi dinamik elektronik tartı doğrulaması (±30 g sapma); optik 2B barkod tarayıcı doğrulaması.'
+nc_scrap:
+  tagline: Sıfır Pazar Sızıntısı
+  title: 'Tanıklı Hurda ve İmha — Sıfır Kusurlu, Karşı Pazar Transferine Karşı Protokol'
+  body: |
+    Yurt dışı marka iş ortaklarının, başarısız tahtaların asla ikincil perakendeye, gri pazarlara veya e-ticaret kanallarına ulaşmayacağı konusunda güvenceye ihtiyacı vardır. Uygunluğa getirilemeyen tahtalar tanıklı, kayıt altına alınan bir protokolle imha edilir:
+
+    **1. Donanım ve aksesuar kesme.** QA Direktörü gözetiminde hidrolik makas tüm 316 paslanmaz çelik D halkalarını, taşıma tutamak kayışlarını ve bagaj tokalarını keser. Şişirme supap grubu ve fin kutusu tabanı (US-Box / snap-in fin) tahtanın kökünden kesilerek kurtarılabilecek hiçbir bileşen bırakılmaz.
+
+    **2. Drop-stitch yarma ve ray bölme.** İç drop-stitch çekirdek, derin çapraz kesiklerle (her kesikte ≥ 50 cm) tahta ve güverte boyunca enine kesilir, güçlendirilmiş yan raylar en az 4 parçaya bölünür — sızdırmazlık ve kaldırma kuvveti kalıcı olarak ortadan kalkar.
+
+    **3. Video ve fotoğraf arşivi.** İmha, seri numarası barkodunun yakın çekimleri, kesme işlemi, çekirdek yarma ve tartılan nihai hurda yığınıyla kesintisiz 1080p video olarak kaydedilir. Video hashlenir (SHA-256) ve kontrollü bir sunucuda ≥ 5 yıl arşivlenir.
+
+    **4. Sertifikalı atık imhası.** Tüm PVC ve drop-stitch parçaları tartılır, çıkış defterine kaydedilir ve yalnızca yetkin polimer geri dönüşüm ortakları tarafından taşınır — tesisten başka hiçbir kanaldan kalıntı çıkmaz.
+
+    > **Marka koruma garantisi:** QINGDAO VATRAD GROUP CO., LTD., yeniden işlenemeyen şartname dışı su araçlarının %100 imhasını garanti eder. Fabrika ikinci el ürünleri veya kusurlu tahtalar asla ikincil perakendeye, gri pazarlara veya e-ticaret kanallarına girmez. Hurda ve İmha Sertifikası (VAT-QA-SCRAP-CERT-2026); ürünü, partiyi, MRB sonucunu, tanık fotoğraflarını ve QA Direktörü ile Fabrika Müdürü tarafından çift imzayı kaydeder.
+nc_downloads:
+  tagline: İndirilebilir QMS Belgeleri
+  title: Kontrollü İki Dilli Belgeler (PDF)
+  subtitle: 'QINGDAO VATRAD GROUP.,LTD.’nin resmi EN/ZH iki dilli belgeleri — ISO 9001:2015 Madde 8.7 kapsamında yapılandırılmış ve müşteri denetimleri, B2B teknik beyaz kağıtlar ile saha içi kontrollü dağıtıma hazır.'
+  features:
+    - icon: N
+      icon_bg: blue
+      title: 'Uyumsuz Ürün Kontrolü SOP (PDF)'
+      desc: 'ISO 9001:2015 Madde 8.7 temelli iki dilli SOP: 8 aşamalı kapalı döngü kontrol, SUP kusur karar matrisi, NCR veri yapısı ve müşteri kalite taahhüdü.'
+      link: 'https://assets.isupfactory.com/site/downloads/non-conforming-product-control-sop-iso-8-7.pdf?dl=1'
+      link_label: PDF İndir
+    - icon: S
+      icon_bg: orange
+      title: 'Hurda ve İmha Sertifikası (PDF)'
+      desc: 'VAT-QA-SCRAP-CERT-2026: ürün ve parti izlenebilirliği, MRB sonucu, 4 adımlı fiziksel imha protokolü, tanık fotoğraf alanları ve çift imza bloğu.'
+      link: 'https://assets.isupfactory.com/site/downloads/scrap-destruction-certificate-vat-qa-scrap-cert-2026.pdf?dl=1'
+      link_label: PDF İndir
+    - icon: R
+      icon_bg: green
+      title: 'Kontrollü Yeniden İşleme Yönetişimi (Sayfa)'
+      desc: 'Onaylı hava sızdırmazlığı yeniden işleme yöntem kartları MC-RW-01 ile MC-RW-06 arası ve 7 adımlı kontrollü yeniden işleme iş akışı için eşlikçi sayfa.'
+      link: '/tr/factory/quality-inspection'
+      link_label: Sayfayı görüntüle
+    - icon: C
+      icon_bg: purple
+      title: 'Yeniden İşleme Değişiklik Kontrol Standardı (Sayfa)'
+      desc: 'Yeniden işleme parametreleri için resmi ISO 9001 değişiklik kontrolü: ECR, risk sınıflandırması, onay matrisi, doğrulama planı ve hata önleme (Poka-Yoke) güvenceleri — QMS-SOP-QC-CC-001 Rev 2.0.'
+      link: '/tr/factory/quality-change-control'
+      link_label: Sayfayı görüntüle
+faqs:
+  tagline: SSS
+  title: 'Küresel Alıcılar İçin Kalite ve Kusur Kontrolü SSS'
+  items:
+    - q: 'Yeniden işlenen tahtaların eksiksiz güvenlik standartlarını karşıladığını nasıl garanti edersiniz?'
+      a: 'Yeniden işlenen her tahta yeni bir birim olarak değerlendirilir ve sıfırdan başlayarak aynı eksiksiz test döngüsünü tamamlamak zorundadır — hava sızdırmazlığı onarımları için eksiksiz 24 saatlik basınç testi. Sevkiyat doğrulamasını, yeniden işleme operatörleri değil, bağımsız QC denetçileri gerçekleştirir.'
+    - q: 'Fabrika, hafif kozmetik sapmaları bize söylemeden tahtaları sevk eder mi?'
+      a: 'Asla. Müşteri onaylı altın numuneleri, logo görsel sanatını, renk seçeneklerini veya ambalajlamayı etkileyen her sapma, sevkiyat onayından önce müşteri tarafından imzalanan resmi yazılı Feragat Sözleşmesi gerektirir.'
+    - q: 'Yeniden işlenen bir tahta yeniden denetimde başarısız olursa ne olur?'
+      a: 'Tahta sevk edilmez. Yeni bir karar incelemesine döner ve uygunluğa getirilemiyorsa değiştirilir, reddedilir veya tanıklı hurda protokolüyle imha edilir. Aynı kusur sınıfının tekrarlanan başarısızlığı kök neden CAPA’sını tetikler.'
+    - q: 'Başarısız tahtalar fabrika ikinci el ürünü olarak veya başka kanallardan satılabilir mi?'
+      a: 'Hayır. Yeniden işlenemeyen şartname dışı tahtalar tanıklı hurda protokolüyle fiziksel olarak imha edilir — donanım kesilir, çekirdek ve raylar bölünür, video SHA-256 hash’i ile kaydedilir ve en az 5 yıl arşivlenir. Hurda ve İmha Sertifikası, QA Direktörü ve Fabrika Müdürü tarafından imzalanır.'
+    - q: 'Bir kusur bulunduğunda etkilenen kapsam nasıl değerlendirilir?'
+      a: 'Kapsam; ürün tanımı, üretim partisi, malzeme veya bileşen partisi, süreç aşaması ve geçerli belge revizyonu bazında incelenir. Aynı malzeme lotu, görsel sanat revizyonu veya çalışma istasyonu söz konusuysa, etkilenen ürünler içerik altına alınır ve buna göre kontrol edilir.'
+    - q: 'Feragat vermeden önce onayımız gerekiyor mu?'
+      a: 'Evet. Müşteri gereksinimlerini etkileyen — onaylı numune, şartname, görsel sanat, ambalajlama veya kabul kriterleri — belgelenmiş bir feragat altındaki her kabul, sevkiyat öncesinde yazılı müşteri onayı gerektirir. Onay olmadan ürün özgün gereksinime göre yeniden işlenir, değiştirilir veya reddedilir.'
+    - q: 'Bir uyumsuzluk için hangi belgeleri alıyoruz?'
+      a: 'NCR kaydı; NCR numarasını, tespit aşamasını, ürün/SKU’yu, partiyi, geçerli belge revizyonlarını, kusur açıklamasını, içerik almayı, kararı, yeniden işleme talimatı referansını, yeniden denetim sonucunu ve sevkiyat veya kapatma onayını kapsar — proje kalite anlaşmanıza uygun olarak sunulur.'
+cta:
+  title: 'Kalite Endişeleri Kontrollü Bir Süreçle Yönetilir'
+  desc: 'Teklif aşamasında projenize özel kalite, denetim veya belge gereksinimlerinizi paylaşın — numune geliştirme veya üretim planlaması öncesinde geçerli kontrol noktalarını inceleyebiliriz.'
+  actions:
+    - text: 'Kalite Gereksinimlerini Görüşün'
+      variant: primary
+      href: /tr/contact
+    - text: 'NCP Kontrol SOP İndir (PDF)'
+      href: 'https://assets.isupfactory.com/site/downloads/non-conforming-product-control-sop-iso-8-7.pdf?dl=1'
+    - text: 'Hurda Sertifikası İndir (PDF)'
+      href: 'https://assets.isupfactory.com/site/downloads/scrap-destruction-certificate-vat-qa-scrap-cert-2026.pdf?dl=1'

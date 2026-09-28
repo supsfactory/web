@@ -1,0 +1,105 @@
+meta:
+  title: 'OEM Şişirilebilir Kürek ve Private Label | {SITE}'
+  description: 'OEM/ODM şişirilebilir kürek üreticisi: özel kürek üretimi, private label ve toptan satış. Çinde CE sertifikalı fabrika.'
+  dateModified: '2026-08-07'
+  keywords:
+    - 'OEM paddle board'
+    - 'ODM şişirilebilir SUP'
+    - 'private label SUP'
+    - 'özel kürek üreticisi'
+    - 'paddle board toptan satış'
+    - 'profesyonel SUP tedarikçisi'
+hero:
+  tagline: 'OEM · ODM · Private Label'
+  title: 'Kendi Markanız Altında OEM Şişirilebilir Kürek Üretimi'
+  subtitle: 'Fikirden bitmiş ürüne: özel şişirilebilir küreğinizi üretiyoruz. Logo, renkler, ambalaj, özel kalıp — pazarınıza hazır Çinde OEM/ODM üretimi.'
+  image:
+    src: https://assets.isupfactory.com/images/sups/products/sup-series/sup-medusa-glow-1.webp
+    alt: Marka logosuyla özel OEM şişirilebilir kürek
+  actions:
+    - text: 'OEM Projemi Başlat'
+      href: /tr/contact
+
+answer:
+  label: 'Doğrudan yanıt'
+  text: 'Minimum sipariş miktarı proje konfigürasyonuyla teyit edilir: numune (1–2 adet), pilot (20–50 adet) ve standart hacim (150 m rulo drop-stitch kumaştan parti başına 90–100+ adet), ayrıca 5–10 adetten başlayan küçük partili ortak markalama. Numuneler 7–12 günde sevk edilir; toplu üretim sipariş ve depozitodan sonra 25–35 gün sürer. AB pazarı modelleri için CE sertifikası ve eksiksiz uyumluluk dokümantasyonu her siparişle birlikte sunulur.'
+  verified: 'Eylül 2026'
+  image:
+    src: https://assets.isupfactory.com/images/sups/products/sup-series/sup-medusa-glow-1.webp
+    alt: Marka logosuyla özel OEM şişirilebilir kürek
+  actions:
+    - text: 'OEM Projemi Başlat'
+      href: /tr/contact
+      variant: primary
+    - text: 'OEM Paketlerini İnceleyin'
+      href: /tr/oem-manufacturing
+      variant: secondary
+stats:
+  - value: '25–35'
+    label: 'Günlük üretim teslim süresi'
+    detail: 'Onaylanan sipariş ve depozitodan itibaren'
+  - value: '50'
+    label: 'Minimum MOQ (adet)'
+  - value: '200+'
+    label: 'Teslim edilen özel model'
+  - value: '100%'
+    label: 'CE sertifikası dahil'
+features:
+  title: 'Eksiksiz Bir OEM Hizmeti'
+  subtitle: 'Tek çatı altında her şey: tasarım, prototip, üretim, kalite kontrolü ve lojistik.'
+  columns: 3
+  items:
+    - title: 'Tasarım ve Mühendislik'
+      description: '3B modelleme, PVC/VS2 malzeme seçimi ve özel grafik tasarımı.'
+      icon: 'tabler:palette'
+    - title: 'Prototip ve Doğrulama'
+      description: 'Seri üretim öncesi kalite testleriyle birlikte CE sertifikalı numune.'
+      icon: 'tabler:flask'
+    - title: 'Seri Üretim'
+      description: 'Hat içi kalite kontrolü ve fabrika denetimi desteğiyle tam ölçekli üretim.'
+      icon: 'tabler:building-factory'
+    - title: 'Private Label'
+      description: 'Kendi marka imajınızda logo, etiketler, ambalaj ve sergi kutuları.'
+      icon: 'tabler:shield-check'
+    - title: 'Sertifikalı Kalite'
+      description: 'CE / ISO / BSCI / REACH — küresel pazarlar için profesyonel şişirilebilir kürekler.'
+      icon: 'tabler:certificate'
+    - title: 'Küresel Sevkiyat'
+      description: 'FOB Qingdao, önemli limanlar için CIF ve 50 üzeri ülkeye kapıdan kapıya teslimat.'
+      icon: 'tabler:world'
+faqs:
+  title: 'OEM Kürek Üretimi SSS'
+  subtitle: 'Kendi küreğini kuran markalardan gelen en sık soruların yanıtları.'
+  items:
+    - title: 'Kendi kürek markamı nasıl kurarım?'
+      description: 'Markanızı başlatın: brifing, tasarım, CE sertifikalı prototip, seri üretim ve teslimat. Sipariş ve depozitodan itibaren numuneler 7–12 günde, üretim 25–35 günde. OEM paketlerimizi inceleyin.'
+    - title: 'Üretim teslim süresi nedir?'
+      description: 'Numune 7–12 günde hazırdır, toplu üretim hacme bağlı olarak sipariş ve depozitodan sonra 25–35 gün sürer.'
+    - title: 'Kürekler bizim logomuzu taşır mı?'
+      description: 'Evet — tam private label: kendi markanızda logo baskısı, özel renkler, ambalaj ve etiketler.'
+    - title: 'İlk günden toptan alabilir miyim?'
+      description: 'MOQ, proje konfigürasyonuyla teyit edilir — numune (1–2 adet), pilot (20–50 adet) ve standart hacim (parti başına 90–100+ adet); hacim arttıkça toptan fiyat kademeleri devreye girer.'
+
+content_html: |
+  <div class="mx-auto max-w-3xl space-y-4 rounded-2xl border bg-card p-6 text-[14.5px] leading-relaxed text-fg-2">
+    <p><strong>Okumaya devam edin:</strong> kürek ve tahta üretimi aynı <a href="/tr/oem-manufacturing">OEM/ODM programını</a> ve aynı <a href="/tr/factory">12.500 m&sup2; fabrika alanını</a> paylaşır — tek teklif ikisini de kapsar.</p>
+  </div>
+
+geo:
+  tagline: 'B2B Konumlandırma'
+  sentence: 'Vatrad, şişirilebilir SUP ve paddle board üreticisi olarak profesyonel bir üreticidir (OEM/ODM); markalar, distribütörler, kulüpler ve işletmeler için tasarım, özel üretim ve su sporları çözümlerinde uzmanlaşmıştır.'
+  audiences:
+    - 'Private label markaları'
+    - 'Toptan satıcılar'
+    - 'Distribütörler'
+    - 'Deniz merkezleri'
+cta:
+  title: 'Kürek markanızı hayata geçirin'
+  subtitle: 'Bir iş günü içinde ayrıntılı bir OEM teklifi alın.'
+  actions:
+    - text: 'OEM Teklifi İsteyin'
+      href: /tr/contact
+      variant: primary
+    - text: 'OEM Rehberini İndirin'
+      href: /tr/research/oem-buyer-guide
+      variant: secondary

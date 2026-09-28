@@ -61,6 +61,9 @@ export const LLM_RUSSIAN_HOMEPAGE_DESCRIPTION =
 export const LLM_CZECH_HOMEPAGE_DESCRIPTION =
   'iSupfactory je továrna OEM/ODM v Čching-tunu v Číně, která vyrábí nafukovací SUP desky pro značky, distributory a prodejce. Vyvíjíme a vyrábíme desky, vesla, žebra a obaly podle specifikace zákazníka — od vzorku a prototypu až po sériovou výrobu. Minimální objednávka (MOQ), certifikace a dodací lhůty se vždy potvrzují podle konkrétního projektu.'
 
+export const LLM_TURKISH_HOMEPAGE_DESCRIPTION =
+  'iSupfactory, Çin\'de Qingdao merkezinde yer alan ve markalar, distribütörler ve satıcılar için şişirilebilir SUP tahtaları üreten bir OEM/ODM fabrikasıdır. Müşteri şartnamesine göre tahta, kürek, fin ve ambalaj geliştirip üretiyoruz — numune ve prototipten seri üretime kadar. Minimum sipariş miktarı, sertifikalar ve teslim süreleri her zaman proje bazında teyit edilir.'
+
 export const AI_SYSTEM_ROLE =
   `You are the {SITE} product advisor, a sales engineer for a custom inflatable SUP (stand-up paddle board) OEM/ODM factory in Qingdao, China.`
 
@@ -202,6 +205,15 @@ export const CUSTOMIZATION_OPTIONS: Record<string, { title: string; body: string
     { title: 'Žebra a příslušenství', body: 'Konfigurace žebra, vesla, pumpičky, kotevní řemínky a tašky přizpůsobené vašemu balíčku.' },
     { title: 'Obal a prezentace', body: 'Retailové krabice, námořní přepravní obaly a POS stojany pod vaší značkou.' },
   ],
+  tr: [
+    { title: 'Tahta ölçüsü ve şekli', body: 'Hedef performansınıza ve pazarınıza göre ayarlanan uzunluk, genişlik, kalınlık ve rocker.' },
+    { title: 'Malzemeler ve yapı', body: 'Fiyat seviyenize göre uyarlanan PVC katmanları, drop-stitch yoğunluğu, takviye elemanları ve güçlendirmeler.' },
+    { title: 'Renkler ve görsel tasarım', body: 'Kendi sanatınızla veya tasarım ekibimizin desteğiyle sınırsız renk kombinasyonu.' },
+    { title: 'Logo ve kurumsal kimlik', body: 'Dijital veya serigrafik logo uygulaması, üretim öncesi görsel onay ile birlikte.' },
+    { title: 'EVA ve güverte', body: 'Her tahtada ölçüye özel kesilmiş kaymaz pad tasarımları, logolar ve güverte renkleri.' },
+    { title: 'Finler ve aksesuarlar', body: 'Paketinize uygun fin konfigürasyonları, kürekler, pompalar, emniyet ipleri ve çantalar.' },
+    { title: 'Ambalaj ve sunum', body: 'Markanızla uyumlu perakende kutuları, deniz koşullarına dayanıklı nakliye ambalajı ve satış noktası standları.' },
+  ],
 }
 
 export const OEM_APPLICATIONS: Record<string, { title: string; body: string }[]> = {
@@ -302,6 +314,13 @@ export const OEM_APPLICATIONS: Record<string, { title: string; body: string }[]>
     { title: 'Maloobchod a outdoorové firmy', body: 'Sezónní programy doplňování zásob se stabilními specifikacemi, dávku za dávkou.' },
     { title: 'Resorty a pronajímatelé', body: 'Floty pro intenzivní používání se zesíleními, náhradními díly a standardizovanou údržbou.' },
     { title: 'Kluby, školy a akce', body: 'Značkové desky pro programy, závody a firemní floty.' },
+  ],
+  tr: [
+    { title: 'SUP markaları', body: 'Kendi ürün hattınızı, 5–10 adetlik ortak marka üretimlerinden başlayarak kademeli asgari sipariş miktarlarıyla başlatın.' },
+    { title: 'Distribütörler ve satıcılar', body: 'Deniz koşullarına dayanıklı ambalaj ve ihracat yönetimiyle hacim katalogları.' },
+    { title: 'Perakende ve outdoor şirketleri', body: 'Parti parti sabit özelliklerle sezonluk ikmal programları.' },
+    { title: 'Resortlar ve kiralama operatörleri', body: 'Takviyeler, yedek parçalar ve standartlaştırılmış bakımla yoğun kullanıma uygun filolar.' },
+    { title: 'Kulüpler, okullar ve etkinlikler', body: 'Programlar, yarışmalar ve kurumsal filolar için markalı tahtalar.' },
   ],
 }
 
@@ -418,6 +437,14 @@ export const HUB_PAGE_ENTRIES: Record<string, { url: string; title: string; exce
     { url: '/cs/knowledge', title: '', excerpt: '' },
     { url: '/cs/gallery', title: 'Galerie', excerpt: 'Galerie továrny a produktů iSupfactory: dílny, laboratoře kvality, zkoušky tkanin a SUP desky ve výrobě.' },
   ],
+  tr: [
+    { url: '/tr', title: 'iSupfactory — Şişirilebilir SUP Üretimi (OEM ve ODM)', excerpt: 'Qingdao merkezinde şişirilebilir SUP tahtaları için OEM/ODM fabrikası: ürün geliştirme, özel üretim, özel marka ve kalite kontrolü.' },
+    { url: '/tr/products', title: 'Ürünler: şişirilebilir SUP tahtaları', excerpt: 'Premium şişirilebilir SUP tahtaları: 11 ft seriler, balıkçılık SUP, mini SUP, dev takım tahtaları ve daha fazlası — OEM/ODM uyarlamasına hazır.' },
+    { url: '/tr/solutions', title: 'Çözümler', excerpt: 'OEM/ODM SUP üretim programları: özel SUP geliştirme, özel marka, resort ve kulüp filoları, kiralama operatörleri ve perakende iş ortakları.' },
+    { url: '/tr/projects', title: '', excerpt: '' },
+    { url: '/tr/knowledge', title: '', excerpt: '' },
+    { url: '/tr/gallery', title: 'Galeri', excerpt: 'iSupfactory fabrika ve ürün galerisi: atölyeler, kalite laboratuvarları, kumaş testleri ve üretimdeki SUP tahtaları.' },
+  ],
 }
 
 export const CASE_STUDY_STATS = {
@@ -440,6 +467,7 @@ export const FAQ_EXCERPTS: Record<string, string> = {
   fi: 'Usein kysytyt kysymykset puhallettavien SUP-lautojen OEM/ODM-tuotannosta — materiaalit, sertifioinnit, minimitilaus (MOQ) ja tukkukauppa.',
   ru: 'Часто задаваемые вопросы о OEM/ODM-производстве надувных SUP-досок — материалы, сертификация, минимальный заказ (MOQ) и оптовая поставка.',
   cs: 'Často kladené dotazy o OEM/ODM výrobě nafukovacích SUP desek — materiály, certifikace, minimální objednávka (MOQ) a velkoobchodní dodávky.',
+  tr: 'Şişirilebilir SUP OEM/ODM üretimi hakkında sıkça sorulan sorular — malzemeler, sertifikalar, minimum sipariş miktarı (MOQ) ve toptan tedarik.',
 }
 
 export const STATIC_PAGE_CORPUS_TEXT =

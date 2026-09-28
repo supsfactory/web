@@ -1,0 +1,176 @@
+meta:
+  title: 'SUP Markanızı Düşük MOQ Deneme Siparişiyle Başlatın | iSupfactory'
+  description: 'Şişirilebilir bir SUP markasını düşük MOQ deneme siparişiyle başlatın: 7–12 günde numuneler, 20–50 tahtalık pilot üretim, 25–35 günde seri üretim. Markalama ve kalite kontrolü karşılanır.'
+  dateModified: '2026-08-16'
+  keywords:
+    - 'SUP markası kurma'
+    - 'SUP markası lansmanı'
+    - 'düşük MOQ SUP'
+    - 'SUP deneme siparişi'
+    - 'girişim SUP markası'
+    - 'küçük parti SUP markalama'
+    - 'şişirilebilir SUP özel etiket'
+
+hero:
+  tagline: 'Yeni ve Büyüyen SUP Markaları İçin'
+  title: 'SUP Markanızı Düşük MOQ Deneme Siparişiyle Başlatın'
+  subtitle: 'Bir SUP markası kurmak için konteyner kiralamanız gerekmez. Tek bir numuneyle tahtanızı, grafiklerinizi ve pazarınızı doğrulayın; ardından 20–50 tahtalık bir deneme siparişiyle satış performansını ölçün — tam üretim hacimlerine taahhüt etmeden önce. Markalama, kalite kontrolü ve ihracat lojistiği Qingdao Vatrad Group Co., Ltd. tarafından karşılanır.'
+  actions:
+    - variant: primary
+      text: Numune ile Lansmanınıza Başlayın
+      href: /tr/contact#custom-oem
+    - text: MOQ ve teslim süresi çerçevesinin tamamını inceleyin
+      href: /tr/sup-oem-moq-lead-time
+
+answer:
+  label: 'Doğrudan yanıt'
+  text: 'Evet — şişirilebilir bir SUP markasını düşük MOQ deneme siparişiyle başlatabilirsiniz. Giriş noktası kademelidir, her şey ya da hiçbir şey değil: önce 1–2 numune sipariş edin (7–12 günde hazır) ve gövde, grafikler ile ambalajı kesinleştirin; ardından 20–50 tahtalık bir deneme siparişiyle gerçek satış performansını test edin (25–35 günde üretim); son olarak format kanıtlandıktan sonra 150 m rulo drop-stitch kumaş başına 90–100+ tahtaya ulaşan standart hacimli üretimlere geçin. Küçük partili ortak markalama, hiç geliştirme aşaması olmadan markalı tahta isteyen işletmeler için 5–10 adetten başlayabilir. İlk konteyneriniz ancak veriler bunu gerektirdiğinde gelir.'
+  verified: 'Eylül 2026'
+
+trial_included:
+  tagline: Deneme Siparişi Neleri Kapsar
+  title: 'Bir Lansmanın İhtiyaç Duyduğu Her Şey, Yük Maliyeti Olmadan'
+  subtitle: 'Deneme siparişi küçültülmüş bir fatura değildir — lansman yapan bir marka için ölçeklenmiş aynı fabrika sürecidir. Her deneme programının neler içerdiği aşağıda.'
+  grid: 'sm:grid-cols-2 lg:grid-cols-3'
+  features:
+    - icon: B
+      icon_bg: blue
+      title: 'Tahta Platformu ve Yapısı'
+      desc: 'Sahada test edilmiş touring ve all-around gövdeler, drop-stitch yapı, üç katmanlı rail band füzyonu ve 12–15 PSI rijitlik — hacimli müşterilerimizin kullandığı aynı platformlar, 10 ft ile 11 ft 6 in arası standart ölçülerde stokta.'
+    - icon: L
+      icon_bg: green
+      title: 'Kendi Markanız, Gerçekten Uygulanmış'
+      desc: 'Yüzeyin tamamına dijital veya serigrafik baskı, logonuzlu EVA kayma padleri ve burun ya da yan rail üzerinde ikincil markalama. Küçük partili ortak markalamada iSupfactory ana markası, logonuz burun veya raylarda kullanılır.'
+    - icon: P
+      icon_bg: purple
+      title: 'Ölçeklenebilen Ambalaj Seçenekleri'
+      desc: 'Standart koli ve barkod etiketleriyle başlayın, sonraki üretimler için tam renkli 5 katmanlı markalı perakende kutularına geçin. Özel ambalajın bağımsız bir baskı minimumu vardır; fazla kutular depolanır ve programlanan tarihlerde serbest bırakılır.'
+    - icon: Q
+      icon_bg: orange
+      title: 'Fabrika Düzeyinde Kalite Kontrol'
+      desc: 'Her tahta, numune ya da konteyner fark etmeksizin 100 maddelik montaj kontrol listesi ile 24 saatlik basınç ve hava sızdırmazlık testinden (18.0 PSI tutma, 0.50 PSI üzeri düşüşte otomatik ret) geçer.'
+    - icon: D
+      icon_bg: blue
+      title: 'İhracat ve Dokümantasyon'
+      desc: 'CE, ISO 9001, BSCI, REACH ve RoHS uyumluluk dokümanları, ihracat kalitesinde ambalaj ve 50 ve üzeri ülkeye denizyolu taşıma koordinasyonu — tek tahtalık numuneden tam programlara kadar.'
+    - icon: T
+      icon_bg: green
+      title: 'Planlayabileceğiniz Zaman Çizelgesi'
+      desc: 'Numuneler 7–12 günde, onaylanan sipariş ve depozito sonrasında deneme üretimi 25–35 günde ve sezon öncesi siparişler için teyitli üretim slotları — böylece lansman sezona yetişir, sezon bitmez.'
+
+trial_steps:
+  tagline: Lansman Yol Haritası
+  title: 'Fikirden İlk Satışa Kadar Altı Kapı'
+  subtitle: 'Mevcut platformlar kullanılarak tipik ilk lansman, brifingden teslim edilen deneme siparişine kadar 8–12 hafta sürer — özel gövde için kalıp geliştirme gerektiğinde daha uzun sürer. Her kapının önceden üzerinde anlaştığınız bir tarihi vardır.'
+  steps:
+    - step: 'Kapı 1'
+      title: 'Ürün Brifingi ve Mühendislik İncelemesi (Gün 0–2)'
+      desc: 'Hedef tahta modelinizi, sipariş miktarınızı, grafikleri ve ambalaj amacını paylaşırsınız. Mühendislik incelemesi bir iş günü içinde tamamlanır; gizli teknik dokümanlarınızı paylaşmadan önce NDA imzalanabilir.'
+    - step: 'Kapı 2'
+      title: 'Spesifikasyon, MOQ ve Teklif (Gün 3–7)'
+      desc: 'Kesin MOQ hesaplaması, numune ücretleri ve teslim süresi dilimleriyle kalem kalem teklif. Numune ücretleri sözleşme onayıyla üretim siparişinize mahsup edilir.'
+    - step: 'Kapı 3'
+      title: '7–12 Günde Numuneler'
+      desc: '1–2 fiziksel tahta gövde rijitliğini, EVA kayma pad dokusunu, grafik doğruluğunu ve aksesuar uyumunu doğrular. Başka hiçbir şeye taahhüt etmeden önce tahtayı kendiniz kullanırsınız.'
+    - step: 'Kapı 4'
+      title: '20–50 Tahtalık Deneme Siparişi (25–35 Gün)'
+      desc: 'Mevcut gövde platformlarında, stok malzemelerle ve sadeleştirilmiş ambalajla üretim — gerçek stok koşullarını yansıtan asgari ticari test.'
+    - step: 'Kapı 5'
+      title: 'Satış Performansı ve Geri Bildirim Penceresi'
+      desc: 'Önemli kapı bizim fabrikamızda değil sizin pazarınızdadır: kiralayanlar ve müşteriler, ölçeklemeden önce tahta formatını, grafikleri ve fiyat noktasını onaylar.'
+    - step: 'Kapı 6'
+      title: 'Hacimli Üretime Geçiş (90–100+ Tahta)'
+      desc: 'Format kanıtlandığında standart 150 m rulo üretimleri tam üretim verimliliğini, markalı ambalajı ve hacim fiyatını sunar. Konteyner programı zorunluluk değil, hedeftir.'
+
+trial_budget:
+  tagline: Yaklaşık Bütçe Aralıkları
+  title: 'Bir Lansmanın Maliyeti — Referans Fiyat Aralıkları'
+  subtitle: 'Stok ölçülerde standart bir touring veya all-around gövde için Çin, Qingdao EXW bazında yaklaşık referans aralıkları. Nihai teklif gövde şekline, PVC malzemesine, grafik kapsamına, ambalaja, aksesuarlara ve miktara bağlıdır — herhangi bir taahhütten önce konfigürasyonunuza göre teyit edilir.'
+  headers:
+    stage: Sipariş Aşaması
+    price: Tahta Başına Referans Fiyat
+    notes: Notlar
+  rows:
+    - stage: 'Numuneler (1–2 tahta)'
+      price: 'USD 250–350'
+      notes: 'Grafikleriniz uygulanmış fiziksel numune. Numune ücretleri sözleşme onayıyla üretim siparişine mahsup edilir.'
+    - stage: 'Deneme / pilot sipariş (20–50 tahta)'
+      price: 'USD 180–260'
+      notes: 'Mevcut gövde platformları, stok malzemeler ve sadeleştirilmiş ambalaj. Standart düşük MOQ lansman rotası.'
+    - stage: 'Standart hacim (150 m rulo başına 90–100+ tahta)'
+      price: 'USD 150–220'
+      notes: 'Tam 150 m kumaş rulosu, özel Pantone PVC seçenekleri, markalı ambalaj ve hacim fiyatı.'
+    - stage: 'Özel gövde ve kalıp (ek seçenek)'
+      price: 'Proje bazında teklif'
+      notes: 'Özel gövde şekli genel takvime ek olarak 15–20 gün kalıp geliştirme süresi ekler; kalıp kalem kalem fiyatlandırılır ve tek seferde teklif edilir.'
+
+derisk:
+  tagline: Risksiz Lansman
+  title: 'Deneme Siparişi Lansmanınızı Riskten Dört Yolda Korur'
+  subtitle: 'Yeni marka lansmanlarının çoğu ürün kalitesinde değil, stokta başarısız olur. Deneme siparişi, önlenebilecek hataların oluşmasını engelleyecek şekilde tasarlanır.'
+  features:
+    - icon: I
+      icon_bg: blue
+      title: 'Ağır Stok Taahhüdü Yok'
+      desc: 'İlk sezon riskiniz 50 tahtanın altında kalır. Format düzeltme gerektiriyorsa büyük harcama öncesinde, sonrasında değil, düzeltirsiniz.'
+    - icon: C
+      icon_bg: green
+      title: 'Nakit Akışı Yönetilebilir Kalır'
+      desc: 'Daha küçük siparişler daha küçük depozitolar, aşamalı ödemeler ve depoda hareketsiz sermaye olmaması demektir. Hacim fiyatı gerçekten hak edildiğinde devreye girer.'
+    - icon: Q
+      icon_bg: purple
+      title: 'Kalite Asla Düşürülmez'
+      desc: '20 tahtalık bir deneme siparişi, konteyner programıyla aynı 100 maddelik kontrol listesinden ve basınç testinden geçer — kaliteden önce dene türü ödünler verilmez.'
+    - icon: G
+      icon_bg: orange
+      title: 'Ölçeklemeye Giden Garanti Yol'
+      desc: 'Her deneme siparişi hacme giden teyitli bir yol taşır: numune alacakları mahsup edilir, grafikler ve BOM dondurulur ve takip üretiminiz için üretim slotları ayrılır.'
+
+scale_path:
+  tagline: Denemeden Sonra
+  title: 'Başarılı Bir Deneme Siparişinden Sonrası'
+  subtitle: 'Deneme siparişi, bilinçli biçimde daha uzun bir ilişkinin ilk adımı olarak tasarlanır. Bu, ilk tahta sevk edilmeden önce üzerinde anlaştığımız yoldur.'
+  steps:
+    - step: 'Aşama 1'
+      title: 'Deneme Teslim Edildi ve Değerlendirildi'
+      desc: '20–50 tahta sezona yetişir, kanalınızdan — kiralama, perakende veya doğrudan — satış performansı verileri geri döner.'
+    - step: 'Aşama 2'
+      title: 'Geri Bildirim ve İyileştirme'
+      desc: 'Renk varyantları, grafikler, ambalaj ve aksesuar karması gerçek pazar tepkisine göre ayarlanır. Takip üretimi için grafikler ve BOM dondurulur.'
+    - step: 'Aşama 3'
+      title: 'Hacimli Üretim (90–100+ Tahta)'
+      desc: 'Standart 150 m rulo üretimleri tam üretim verimliliği, markalı perakende ambalajı ve hacim fiyatıyla — numune alacakları zaten uygulanmış olarak.'
+    - step: 'Aşama 4'
+      title: 'Konteyner Ölçeğinde Programlar'
+      desc: '300+ tahtalık programlar, kademeli sevkiyatlar, özel Pantone malzemeleri ve eksiksiz geliştirme hattı ile — aynı fabrika, artık tam ölçekte.'
+
+trial_faqs:
+  tagline: SSS
+  title: 'Deneme Siparişiyle Lansman Hakkında Sık Sorulan Sorular'
+  items:
+    - q: 'Gerçekten konteyner siparişi olmadan bir SUP markası kurabilir miyim?'
+      a: 'Evet. Giriş noktası kademelidir: 1–2 numune tahtayı doğrular (7–12 günde hazır), 20–50 tahtalık deneme siparişi pazarı doğrular (25–35 günde üretim) ve 90–100+ tahtalık hacimli üretimler yalnızca satış performansı formatı kanıtladığında gelir. Geliştirme aşaması olmadan markalı tahta istediğinizde küçük partili ortak markalama 5–10 adetten başlar.'
+    - q: 'Eksiksiz bir lansman baştan sona ne kadar sürer?'
+      a: 'Mevcut gövde platformları kullanıldığında tipik ilk lansman, ürün brifinginden teslim edilen deneme siparişine kadar 8–12 hafta sürer: numuneler 7–12 günde, onaylanan sipariş ve depozito sonrasında deneme üretimi 25–35 günde. Özel gövde 15–20 gün kalıp geliştirme süresi ekler.'
+    - q: 'Fiyat neleri kapsıyor — neleri kapsamıyor?'
+      a: 'Referans aralıklar Çin, Qingdao EXW bazında yalnızca tahtaların kendisi içindir; markalama uygulaması ve standart kalite kontrolü kapsamındadır. Bunlar yaklaşıktır: nihai teklif, herhangi bir taahhütten önce konfigürasyonunuza — gövde, PVC, grafik kapsamı, ambalaj ve aksesuarlar — göre teyit edilir. Navlun, gümrük vergileri ve varış noktasındaki gümrükleme ayrıca fiyatlandırılır.'
+    - q: 'Logomu tahtaların üzerine koymak için 100 ya da 500 tahta almam gerekiyor mu?'
+      a: 'Hayır. Küçük partili ortak markalama logonuzu 5–10 adetten başlayarak burun veya yan rail üzerine koyar; 20–50 tahtalık deneme siparişleri ise hacimli üretimle aynı kalitede tam grafik uygulamasını destekler. Miktar değiştikçe değişen birim fiyattır, uygunluk değil.'
+    - q: 'Denemeden sonra tasarımı değiştirmek istersem ne olur?'
+      a: 'Deneme ile hacim arasındaki değişiklikler normaldir ve memnuniyetle karşılanır — denemenin amacı budur. Renk varyantları, grafikler, ambalaj ve aksesuarlar yeni konfigürasyona göre yeniden fiyatlandırılır, ardından grafik ve BOM onayıyla dondurulur ve hacimli üretime geçilir. Aynı grafik ölçüsüyle yeniden siparişlerde ekran baskı kalıp ücretleri alınmaz.'
+    - q: 'Tasarımlarımı paylaşmadan önce NDA imzalıyor musunuz?'
+      a: 'Evet. Gizli teknik spesifikasyonlarınızı veya grafiklerinizi paylaşmadan önce Gizlilik Anlaşması imzalanabilir. Yalnızca müşterilerimizin markaları adına üretim yaparız ve hiçbir pazarda onlarla rekabet etmeyiz — aynı politika tek tahtalık numune için de konteyner programı için de geçerlidir.'
+
+cta:
+  title: 'SUP Markanızı Başlatmaya Hazır mısınız?'
+  subtitle: 'Hedef tahta modelinizi, ilk sezon miktarınızı ve markalama fikirlerinizi bize gönderin. Numune ve deneme yolunu kalem kalem maliyetler ve gün gün takvimle doğrulayacağız — imzalamadıkça hiçbir taahhüt yok.'
+  actions:
+    - variant: primary
+      text: Lansmanınıza Başlayın
+      href: /tr/contact#custom-oem
+    - text: Özel SUP MOQ ve teslim süresini önce anlayın
+      href: /tr/sup-oem-moq-lead-time
+    - text: Esnek markalama ve MOQ rehberi
+      href: /tr/oem-moq-guide
+    - text: Fabrikayı ve kalite sistemini doğrulayın
+      href: /tr/oem-trust-assurance

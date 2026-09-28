@@ -1,0 +1,49 @@
+badge: Son Araştırmalar
+heading: Bilgi Merkezi
+description: SUP ve şişme su araçları malzemeleri, yapıları, güvenlik standartları ile üretimi üzerine kapsamlı teknik araştırma
+topics:
+  - slug: drop-stitch-technology
+    category: Teknoloji
+    readTime: 8 dakikalık okuma
+  - slug: pvc-vs-hypalon
+    category: Malzemeler
+    readTime: 10 dakikalık okuma
+  - slug: ce-certification-guide
+    category: Uygunluk
+    readTime: 7 dakikalık okuma
+  - slug: sup-thickness-guide
+    category: Mühendislik
+    readTime: 6 dakikalık okuma
+  - slug: oem-buyer-guide
+    category: Tedarik
+    readTime: 12 dakikalık okuma
+  - slug: sup-manufacturing-process
+    category: Üretim
+    readTime: 10 dakikalık okuma
+  - slug: eva-foam-technology
+    category: Malzemeler
+    readTime: 7 dakikalık okuma
+  - slug: uv-printing-vs-eva-block
+    category: Teknoloji
+    readTime: 6 dakikalık okuma
+  - slug: fusion-lamination-vs-glue
+    category: Üretim
+    readTime: 8 dakikalık okuma
+  - slug: sup-valve-types
+    category: Mühendislik
+    readTime: 6 dakikalık okuma
+  - slug: fin-systems-guide
+    category: Mühendislik
+    readTime: 7 dakikalık okuma
+  - slug: board-hull-design
+    category: Mühendislik
+    readTime: 9 dakikalık okuma
+  - slug: quality-testing-standards
+    category: Uygunluk
+    readTime: 8 dakikalık okuma
+  - slug: sup-paddle-technology
+    category: Ekipman
+    readTime: 7 dakikalık okuma
+  - slug: military-grade-pvc-specs
+    category: Malzemeler
+    readTime: 8 dakikalık okuma

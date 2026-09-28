@@ -1,0 +1,82 @@
+meta:
+  title: 'SUP Kiralama Ekipman Tedarikçisi ve Filo Çözümleri'
+  description: 'Günlük kiralama kullanımı için tasarlanmış ticari SUP boardlar: UV dayanımlı PVC, takviyeli dikişler ve yüksek devirli kiralama filoları için hızlı kuruyan malzemeler.'
+  dateModified: '2026-08'
+
+hero:
+  tagline: Kiralama Operatörleri
+  title: 'Kiralama Filoları İçin Tasarlandı SUP Boardlar'
+  subtitle: 'Günlük kiralama kullanımına dayanacak bir filo belirtin: UV dayanımlı PVC, takviyeli dikişler ve hızlı kuruyan malzemelerle yüksek devirli boardlar — yılda 365 gün kullanım için tasarlandı.'
+  image:
+    src: https://assets.isupfactory.com/images/sups/use-cases/isupfactory-family-use-case.webp
+    alt: Günlük kiralama kullanımına hazır dizilmiş SUP boardlar
+
+answer:
+  label: 'Doğrudan cevap'
+  text: 'Kiralama filosu boardları UV dayanımlı deniz PVC, standart konstrüksiyondan 3 kat daha güçlü dikişler ve 15 PSI anma değerine sahip drop stitch çekirdeklerle üretilir — 500+ kiralama döngüsü için test edilmiştir. MOQ, proje yapılandırmasıyla belirlenir: numune (1–2 adet), pilot (20–50 adet) ve standart hacim (150 m rulo başına parti başına 90–100+ adet); üretim sipariş ve depozito sonrasında 25–35 gün sürer, FOB, CIF veya DDP koşullarıyla.'
+  verified: 'Eylül 2026'
+
+features:
+  title: 'Kiralama Yoğunluğuna Karşı Tasarlandı'
+  subtitle: 'Her board, asgari bakımla 500+ kiralama döngüsüne dayanacak şekilde tasarlandı.'
+  items:
+    - title: '500+ Kiralama Döngüsü'
+      description: 'Tuzlu su, güneş ve kumda günlük kullanıma dayanacak şekilde test edildi.'
+      icon: 'tabler:shield-check'
+    - title: 'UV Dayanımlı Kumaş'
+      description: 'Bir yıl dış mekan depolaması sonrasında solma veya bozulma yoktur.'
+      icon: 'tabler:sun'
+    - title: 'Takviyeli Dikişler'
+      description: 'Günlük kiralama rotasyonu ve tekrarlanan şişirme döngüleri için tasarlanmış takviyeli dikiş konstrüksiyonu.'
+      icon: 'tabler:layers-intersect'
+    - title: 'Hızlı Kuruyan Malzemeler'
+      description: 'Hızlı kuruyan malzemeler, seanslar arasında boardu bir sonraki kiralamaya hazır tutar.'
+      icon: 'tabler:droplet'
+    - title: 'Üst Üste Stoklanabilir Tasarım'
+      description: 'Alan tasarrufu sağlayan üst üste stoklanabilir tasarım — aynı depolama alanına daha çok board sığdırır.'
+      icon: 'tabler:stack'
+    - title: 'Renk Kodlu Bedenler'
+      description: 'Renk kodlu bedenlendirme sayesinde personel doğru boardu anında alır.'
+      icon: 'tabler:color-swatch'
+
+stats:
+  title: Operasyon Metrikleri
+  stats:
+    - title: Fabrika Alanı
+      amount: '12,500 m²'
+    - title: Basınç Testi
+      amount: '18 PSI / 24h'
+    - title: Montaj Kontrol Listesi
+      amount: '100 nokta'
+    - title: Yedek Parça Sevkiyatı
+      amount: '48h'
+
+fleet_guide:
+  title: 'Filo Boyutlandırma Rehberi'
+  subtitle: 'Günlük kiralama rotasyonuna göre operasyonunuzun kaç boarda ihtiyaç duyduğunu tahmin edin.'
+  tiers:
+    - label: 'Küçük Kiosk'
+      boards: '15-20'
+      note: 'Yoğun sezonda günde en fazla 2–3 board rotasyonu'
+    - label: 'Orta Ölçekli Operasyon'
+      boards: '30-50'
+      note: 'Birden fazla kalkış noktası veya yoğun hafta sonu trafiği'
+    - label: 'Büyük Plaj Kiralama'
+      boards: '50-100'
+      note: 'Birden fazla plaj istasyonunda tam hizmet kiralama filoları'
+
+content_html: |
+  <div class="mx-auto max-w-3xl space-y-4 rounded-2xl border bg-card p-6 text-[14.5px] leading-relaxed text-fg-2">
+    <p><strong>Okumaya devam edin:</strong> kiralama boardları sizin özelliklerinizden başlar — özelleştirme, düşük deneme MOQ ve filo fiyatları için <a href="/tr/oem-manufacturing">OEM/ODM programımıza</a> bakın. Her board 12.500 m&sup2; <a href="/tr/factory">üretim hattından</a> geçer ve sevkiyat öncesinde %100 basınç testine tabi tutulur.</p>
+  </div>
+
+cta:
+  title: 'Kiralama Filonuzu Belirtin'
+  subtitle: 'Filo gereksinimlerinizi gönderin veya operasyonunuz için board platformlarını karşılaştırın.'
+  actions:
+    - text: 'Filo Gereksinimlerini Gönderin'
+      href: '/tr/contact'
+      variant: 'primary'
+    - text: 'Board Platformlarını Karşılaştırın'
+      href: '/tr/inflatable-vs-hardboard'
+      variant: 'secondary'

@@ -1,0 +1,14 @@
+meta:
+  title: 'Haberler — SUP Üreticisi ve Denizcilik Güncellemeleri | {SITE}'
+  description: 'Vatrad şirketinden en son haberler: fabrika güncellemeleri, yeni şişirilebilir SUP modelleri, sertifikalar ve denizcilik sektörü duyuruları.'
+  keywords:
+    - 'sup üreticisi haberleri'
+    - 'Vatrad güncellemeleri'
+    - 'şişirilebilir sup duyuruları'
+    - 'denizcilik sektörü haberleri'
+hero_text:
+  tagline: ''
+  title: Haberler
+  subtitle: Vatrad şirketinden en yeniler — ürün lansmanları, şirket güncellemeleri, rehberler ve sudan gelen hikayeler
+news_list:
+  limit: 100

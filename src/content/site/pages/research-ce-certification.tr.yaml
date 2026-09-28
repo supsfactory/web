@@ -1,0 +1,69 @@
+meta:
+  title: 'Şişirilebilir SUP Tahtaları İçin CE Sertifikası Nasıl Çalışır'
+  description: 'Şişirilebilir SUP, bot ve kayaklar için CE sertifikası nasıl işler: direktifler (2013/53/EU RCD, 2016/425 KKTP), testler, onaylanmış kuruluşlar ve teknik dosyalar.'
+  author: 'iSupfactory'
+  datePublished: '2026-08-04'
+  dateModified: '2026-08-07'
+back_text: 'Araştırmaya Dön'
+
+hero:
+  tagline: 'Uyumluluk'
+  title: 'Şişirilebilir SUP ve Kayaklar İçin CE Sertifikası Nasıl Çalışır'
+  subtitle: '7 dakikalık okuma'
+
+answer:
+  label: 'Doğrudan yanıt'
+  text: 'Şişirilebilir SUP tahtaları, gövde uzunluğu 2.5 metrenin üzerindeyse AB Rekreasyon Tekneleri Direktifi 2013/53/EU kapsamına, daha küçükse Genel Ürün Güvenliği Direktifi kapsamına girer. Sertifikasyonun maliyeti ilk ürün için kabaca 13.000&ndash;31.000 EUR ve 8&ndash;14 haftadır: teknik dosya, onaylanmış kuruluş tarafından tip testleri, fabrika denetimi ve ardından Uygunluk Beyanı.'
+  verified: 'Eylül 2026'
+
+content_html: |
+  <h2>CE Sertifikası Nedir?</h2>
+  <p>CE işareti (Avrupa Uyumu), bir ürünün AB sağlık, güvenlik ve çevre gereksinimlerini karşıladığını gösterir. Şişirilebilir su tekneleri için ilgili düzenleyici çerçeve, ürün kategorisine bağlıdır.</p>
+
+  <h2>Geçerli Direktifler</h2>
+
+  <h3>Rekreasyon Tekneleri Direktifi (2013/53/EU)</h3>
+  <p>Çoğu şişirilebilir bot, SUP ve kayak için birincil direktiftir. 2.5 metreden 24 metreye kadar gövde uzunluğundaki rekreasyon teknelerine, kısmen tamamlanmış botlara (OEM tedarik için) ve kişisel su araçlarına uygulanır.</p>
+
+  <h3>Kişisel Koruyucu Donanım Yönetmeliği (2016/425)</h3>
+  <p>Su tekneleriyle birlikte sağlanan can yelekleri, kaldırma yelekleri ve güvenlik ekipmanı, onaylanmış kuruluş tarafından tip incelemesi (Modül B) ve üretim kalite güvencesi (Modül D veya E) dahil KKTP Yönetmeliği gereksinimlerini karşılamalıdır.</p>
+
+  <h2>Sertifikasyon Süreci</h2>
+  <ol>
+    <li>Ürün sınıflandırması: Tekne tasarım kategorisinin belirlenmesi (ISO 8666 uyarınca A &ndash; D)</li>
+    <li>Geçerli standartlar: EN ISO 6185 (Bölüm 1 &ndash; 4), EN ISO 10087 (HIN), EN ISO 14945 (üretici plakası)</li>
+    <li>Teknik dosya hazırlığı: Tasarım çizimleri, malzeme listesi, malzeme sertifikaları, risk değerlendirmesi</li>
+    <li>Tip testleri: Kaldırma, kararlılık, yük kapasitesi, malzeme testi, dikiş dayanımı, hava tutma</li>
+    <li>Fabrika üretim kontrolü: Onaylanmış kuruluşun üretim süreçlerini denetlemesi</li>
+    <li>Uygunluk Beyanı: Üretici Uygunluk Beyanını imzalar ve CE işaretini iliştirir</li>
+  </ol>
+
+  <h2>Şişirilebilir Su Tekneleri İçin Onaylanmış Kuruluşlar</h2>
+  <p>Yaygın kuruluşlar arasında Bureau Veritas (Fransa), DNV GL (Almanya), RINA (İtalya), TÜV Rheinland ve TÜV SÜD (Almanya) yer alır.</p>
+
+  <h2>Zaman Çizelgesi ve Maliyetler</h2>
+  <table class="w-full text-sm border-collapse">
+    <thead>
+      <tr class="bg-gray-100">
+        <th class="p-3 text-left font-semibold text-gray-900 border">Aşama</th>
+        <th class="p-3 text-left font-semibold text-gray-900 border">Süre</th>
+        <th class="p-3 text-left font-semibold text-gray-900 border">Tipik Maliyet (EUR)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td class="p-3 border">Teknik dosya hazırlığı</td><td class="p-3 border">2 – 4 hafta</td><td class="p-3 border">2.000 – 5.000</td></tr>
+      <tr><td class="p-3 border">Tip testleri</td><td class="p-3 border">4 – 8 hafta</td><td class="p-3 border">8.000 – 20.000</td></tr>
+      <tr><td class="p-3 border">Fabrika denetimi</td><td class="p-3 border">1 – 2 gün (yerinde)</td><td class="p-3 border">3.000 – 6.000</td></tr>
+      <tr><td class="p-3 border">Toplam (ilk ürün)</td><td class="p-3 border">8 – 14 hafta</td><td class="p-3 border">13.000 – 31.000</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Bu Alıcılar İçin Ne Anlama Gelir</h2>
+  <p>CE sertifikalı şişirilebilir tahta satın alırken, CE işaretinin üretici plakasında bulunduğunu, geçerli bir Uygunluk Beyanının mevcut olduğunu, onaylanmış kuruluş numarasının listelendiğini ve kullanım kılavuzunun güvenlik talimatlarını yerel dilinizde içerdiğini mutlaka doğrulayın. Tüm Vatrad ürünleri, onaylanmış kuruluş denetim raporlarına kadar tam izlenebilirliğe sahip CE sertifikası taşır.</p>
+  <p>Sertifikasyon, Qingdao tesisimizdeki her üretim partisinin bir parçasıdır — <a href="/tr/factory">fabrika kalite ve test iş akışımıza</a> ve <a href="/tr/oem-manufacturing">OEM/private label iş ortakları için CE uyumluluğunu nasıl desteklediğimize</a> bakın.</p>
+
+cta:
+  title: 'CE sertifikası desteğine mi ihtiyacınız var?'
+  subtitle: 'Dünya genelindeki OEM iş ortakları için sertifikasyonu biz yürütüyoruz.'
+  button_text: 'Sertifikasyon sürecini başlatın'
+  button_link: /tr/contact

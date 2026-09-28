@@ -1,0 +1,145 @@
+meta:
+  title: 'Kalite ve İnceleme Laboratuvarı — ISO Uyumlu SUP Testi'
+  description: 'Şişirilebilir SUP tahtaları için bağımsız kalite doğrulaması: çekme testi, hava tutma döngüleri, dikiş soyma testleri ve malzeme sertifikası.'
+back_text: 'Ar-Ge Merkezine Dön'
+home_label: 'Ana Sayfa'
+
+hero:
+  tagline: 'Lab 06'
+  title: 'Kalite ve İnceleme Laboratuvarı'
+  subtitle: 'Bağımsız doğrulama — teslimattan önce her testten geçildi'
+  image: 'https://assets.isupfactory.com/images/sups/factory/isupfactory-uv-resistance-testing.webp'
+  image_alt: 'Vatrad kalite inceleme laboratuvarı UV testi'
+
+answer:
+  label: 'Doğrudan yanıt'
+  text: 'Her tahta sevkiyattan önce yayımlanmış spesifikasyonlara göre incelenir: 18.0 PSI basınçta 24 saatlik %100 şişirme tutma testi (0.50 PSI basınç düşüşünde otomatik ret), ISO 1421 uyarınca çekme ve dikiş soyma testi ve 100 maddelik montaj kontrol listesi. Laboratuvar üretime değil, genel müdüre bağlıdır ve herhangi bir sevkiyatı durdurabilir.'
+  verified: 'Eylül 2026'
+
+intro: 'Atölyemizden çıkan her tahta, tanımlı bir kalite incelemesi ve malzeme testleri setesini geçtiğini gösteren bir sertifikayla yolcu olur. Kalite ve İnceleme Laboratuvarımız, kuruluş içinde bağımsız bir işlevdir — doğrudan üretime değil, genel müdüre bağlıdır — ve hiçbir ticari baskının inceleme kapısını zedelemesini engeller. Bir malzeme partisi veya tamamlanmış bir tahta yayımlanmış spesifikasyonu karşılamıyorsa, laboratuvar uyumsuzluk giderilene kadar sevkiyatı durdurma yetkisine sahiptir.'
+
+content_html: |
+  <h2>Güvenin, ama doğrulayın</h2>
+  <p>Laboratuvar, ISO 9001 ilkeleriyle uyumlu bir kalite yönetim sistemiyle çalışır ve test metotlarımız mümkün olan her yerde ISO, ASTM ve EN standartlarına dayanır. Yürütülen her testin ayrıntılı kayıtlarını tutarız; böylece ham malzeme girişinden nihai tahta teslimatına kadar eksiksiz bir izlenebilirlik zinciri oluşur.</p>
+
+  <h2>Test ekipmanları ve yetenekler</h2>
+  <table>
+    <thead><tr><th>Ekipman</th><th>Yürütülen Testler</th><th>Standart / Metot</th></tr></thead>
+    <tbody>
+      <tr><td>Evrensel test cihazı (50 kN)</td><td>Çekme dayanımı (kumaş), soyma direnci (dikişler), yırtma ilerlemesi</td><td>ISO 1421, ISO 4674</td></tr>
+      <tr><td>Hava tutma test düzeneği (programlanabilir)</td><td>1000 döngülü şişirme/indirme dayanımı, 30 dakikalık basınç tutma testi</td><td>Dahili (ISO 6185 metoduna göre)</td></tr>
+      <tr><td>Dikiş soyma aparatı (motorlu 180° soyma)</td><td>100 mm/dk hızda kaynaklı ve yapıştırılmış dikiş soyma dayanımı</td><td>ISO 1421 / ASTM D1876</td></tr>
+      <tr><td>Hidrostatik basınç test cihazı</td><td>Kumaşın su nüfuz etmeye karşı direnci (0–1000 mbar)</td><td>ISO 811</td></tr>
+      <tr><td>Dijital kalınlık ölçüm cihazı ve mikrometre</td><td>Kumaş kalınlığı, kaynak kalınlığı, yapıştırıcı film kalınlığı</td><td>ISO 2286-3</td></tr>
+      <tr><td>Çevre kabini</td><td>Soğuk çatlama ve ısı yaşlandırma testleri için sıcaklık koşullandırma (-40 °C ile +80 °C)</td><td>ISO 188, ISO 4675</td></tr>
+      <tr><td>Renk spektrofotometresi</td><td>UV ışınımı sonrası Delta-E renk ölçümü</td><td>ISO 105-A05 / ASTM D2244</td></tr>
+    </tbody>
+  </table>
+
+  <h2>İnceleme kapıları — malzemeden teslimata</h2>
+  <p>Her tahta, zorunlu inceleme noktaları içeren tanımlı bir kalite planını izler. Hiçbir tahta bir kapıyı atlayamaz; her kapı, bir sonraki üretim aşaması başlamadan önce bir kalite kontrol müfettişi tarafından onaylanmalıdır.</p>
+
+  <div class="not-prose my-8">
+    <div class="relative">
+      <div class="absolute left-4 top-0 bottom-0 w-0.5 bg-blue-200 dark:bg-blue-800"></div>
+      <div class="space-y-6 relative">
+        <div class="flex gap-4">
+          <div class="flex-shrink-0 w-8 h-8 rounded-full bg-blue-600 text-white flex items-center justify-center text-xs font-bold z-10">Kapı 1</div>
+          <div class="flex-1 p-3 rounded-lg bg-white dark:bg-gray-950 border border-gray-200 dark:border-gray-800">
+            <p class="text-sm font-semibold">Gelen malzeme incelemesi</p>
+            <p class="text-xs text-gray-500 mt-1">Kumaş partisi, drop-stitch çekirdek, yapıştırıcı partisi, donanım — hepsi üretime sevk edilmeden önce giriş spesifikasyonuna karşı kontrol edilir.</p>
+          </div>
+        </div>
+        <div class="flex gap-4">
+          <div class="flex-shrink-0 w-8 h-8 rounded-full bg-blue-600 text-white flex items-center justify-center text-xs font-bold z-10">Kapı 2</div>
+          <div class="flex-1 p-3 rounded-lg bg-white dark:bg-gray-950 border border-gray-200 dark:border-gray-800">
+            <p class="text-sm font-semibold">Süreç içi kaynak incelemesi</p>
+            <p class="text-xs text-gray-500 mt-1">Her üretim vardiyasının başında ilk kaynak numunesi test edilir (soyma ve görsel).</p>
+          </div>
+        </div>
+        <div class="flex gap-4">
+          <div class="flex-shrink-0 w-8 h-8 rounded-full bg-blue-600 text-white flex items-center justify-center text-xs font-bold z-10">Kapı 3</div>
+          <div class="flex-1 p-3 rounded-lg bg-white dark:bg-gray-950 border border-gray-200 dark:border-gray-800">
+            <p class="text-sm font-semibold">Hazne hava testi</p>
+            <p class="text-xs text-gray-500 mt-1">Tahta 18.0 PSI değerine basınçlandırılır (çalışma basıncı 12–15 PSI), 24 saat tutulur. 0.50 PSI üzeri basınç düşüşü otomatik redde yol açar. Veriler seri numarası bazında kaydedilir.</p>
+          </div>
+        </div>
+        <div class="flex gap-4">
+          <div class="flex-shrink-0 w-8 h-8 rounded-full bg-blue-600 text-white flex items-center justify-center text-xs font-bold z-10">Kapı 4</div>
+          <div class="flex-1 p-3 rounded-lg bg-white dark:bg-gray-950 border border-gray-200 dark:border-gray-800">
+            <p class="text-sm font-semibold">Teslimat öncesi inceleme</p>
+            <p class="text-xs text-gray-500 mt-1">Eksiksiz tahta incelenir: tüm bağlantı elemanları torklanmış, üst yüzey pad yapışması, grafik hizası, kozmetik kusur yok. 100 maddelik kontrol listesi.</p>
+          </div>
+        </div>
+        <div class="flex gap-4">
+          <div class="flex-shrink-0 w-8 h-8 rounded-full bg-blue-600 text-white flex items-center justify-center text-xs font-bold z-10">Kapı 5</div>
+          <div class="flex-1 p-3 rounded-lg bg-white dark:bg-gray-950 border border-gray-200 dark:border-gray-800">
+            <p class="text-sm font-semibold">Nihai sertifikasyon</p>
+            <p class="text-xs text-gray-500 mt-1">Test raporları derlenir, inceleme kayıtları gözden geçirilir ve Uygunluk Sertifikası düzenlenir.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <h2>Her partide standart kontroller</h2>
+  <div class="not-prose my-8 grid grid-cols-2 md:grid-cols-4 gap-4">
+    <div class="p-4 rounded-lg border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-950 text-center">
+      <span class="block text-2xl font-bold text-blue-600">18 PSI</span>
+      <span class="text-xs text-gray-500">Hazne hava testinde 18.0 PSI, 24 saat tutulur</span>
+    </div>
+    <div class="p-4 rounded-lg border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-950 text-center">
+      <span class="block text-2xl font-bold text-blue-600">&gt; 5 %</span>
+      <span class="text-xs text-gray-500">Basınç düşüşü otomatik reddi tetikler</span>
+    </div>
+    <div class="p-4 rounded-lg border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-950 text-center">
+      <span class="block text-2xl font-bold text-blue-600">100 %</span>
+      <span class="text-xs text-gray-500">Hazneler montajdan önce hava testine tabi tutulur</span>
+    </div>
+    <div class="p-4 rounded-lg border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-950 text-center">
+      <span class="block text-2xl font-bold text-blue-600">ISO 9001</span>
+      <span class="text-xs text-gray-500">Kalite yönetim sistemi</span>
+    </div>
+  </div>
+
+  <h2>Kalite ekibimiz</h2>
+  <p>Laboratuvarda, 10 yıllık denizcilik kalite güvenliği deneyimine ve ASQ Sertifikalı Kalite Mühendisi unvanına sahip bir kalite yöneticisi, görsel test alanında Seviye 2 NDT sertifikası bulunan iki kalite kontrol müfettişi ve tüm fiziksel testlerden sorumlu bir malzeme teknisyeni görev yapar. Ekip, test sonuçlarımızın doğru ve tekrarlanabilir kalmasını sağlamak üzere bağımsız bir üçüncü taraf sağlayıcı aracılığıyla yıllık yetkinlik testlerine tabi tutulur.</p>
+
+  <h2>Müşteriler için bağımsız test</h2>
+  <p>Kalite ve İnceleme Laboratuvarımız bağımsız test hizmetleri için kullanılabilir. Bir kumaş spesifikasyonunu doğrulamanız, yeni bir yapıştırıcı sistemini geçerliliğini kanıtlamanız veya bir satın alma uygunluk süreci için üçüncü taraf test raporu almanız gerekiyorsa, testleri geçerli standarda göre gerçekleştirip sertifikalı bir test raporu düzenleyebiliriz.</p>
+  <p>Son üçüncü taraf test çalışmalarına örnekler:</p>
+  <ul>
+    <li>Avrupalı bir satın alma programı için beş rekabetçi yapıştırıcı film ürününün soyma dayanımı karşılaştırması.</li>
+    <li>Yeni turuncu pigmentli bir PVC formülasyonu için hızlandırılmış yaşlandırma çalışması (UV ve termal döngü), 500 saat aralıklarla düzenli ara ölçümlerle.</li>
+    <li>Yeni yüksek basınçlı bir tahta tasarımı için 50 adet prototip valf montajının hava tutma doğrulaması.</li>
+  </ul>
+
+  <h2>Size taahhüdümüz</h2>
+  <p>Bir {SITE.name} tahtası aldığınızda, o tahtaya ait kalite dosyasını da alırsınız — kendi tahtanıza özgü test sonuçlarının derlenmiş bir kaydı. Kumaş partisi sertifikası, kaynak soyma testleri, hazne hava testi kayıtları ve teslimat öncesi inceleme kontrol listesi. Her sayı izlenebilirdir. Her müfettiş tanımlıdır. Bu yalnızca evrak değildir — teslim ettiğimiz şeyin, belirttiğimiz şey olduğuna dair sözümüzdür.</p>
+  <p>Kaliteyle ilgili bir endişeniz olursa laboratuvarla doğrudan iletişime geçebilirsiniz — iletişim bilgileri uygunluk sertifikanızın üzerinde basılıdır. Her sorguyu ciddiye alır ve 48 saat içinde resmi bir inceleme başlatmayı taahhüt ederiz.</p>
+
+  <h2>Bir tahta incelemeyi geçemezse ne olur?</h2>
+  <p>Testten geçemeyen bir tahta sessizce kaybolmaz. Laboratuvar, sorunun içeride tutulması, düzeltilmesi ve tekrarlanmasının önlenmesi için sabit bir uyumsuzluk iş akışı izler:</p>
+  <ul>
+    <li><strong>Ayırma</strong> — tahta etiketlenir, hattan çıkarılır ve müfettişin adı ile geçilen kriterler uyumsuzluk kaydına işlenir.</li>
+    <li><strong>Yeniden işleme veya hurdaya ayırma</strong> — onarılabilir kusurlar (örneğin bir valf, bir rail kaynağı veya üst yüzey pad köşesi) sertifikalı bir operatör tarafından yeniden işlenir ve onarılan bölge aynı standarda göre yeniden test edilir. Spesifikasyonu karşılayamayan tahtalar hurdaya ayrılır, düşürülmez.</li>
+    <li><strong>Yeniden inceleme</strong> — yeniden işlenen her tahta paketleme hattına geri girmeden önce ilgili kapıyı eksiksiz olarak yeniden geçer.</li>
+    <li><strong>Sevkiyat</strong> — tüm kapıları onaylanmış tahtalar tesise ayrılır. Ret oranı, kök neden ve düzeltici faaliyet parti kalite raporunuzda özetlenir.</li>
+  </ul>
+
+  <h2>Aldığınız kalite dokümantasyonu</h2>
+  <p>Her parti, kalite kontrol ekibinizin denetleyebileceği bir belge paketiyle sevk edilir: parti sertifikası (kumaş, yapıştırıcı, donanım parti numaraları), kaynak soyma testi kayıtları, seri numarası başına hazne hava testi kayıtları, imzalı 100 maddelik teslimat öncesi kontrol listesi, paketleme listesi ve yükleme öncesi tahtalarınızın fotoğrafla belgelenmiş kaydı.</p>
+
+cta:
+  title: 'Örnek kalite kontrol kontrol listesi isteyin'
+  subtitle: 'Partiinizin hangi inceleme kapılarına, test metotlarına ve belgelere göre kontrol edileceğini görün — tahta tipinizi ve miktarınızı gönderin.'
+  actions:
+    - variant: primary
+      text: Kalite kontrol listesini isteyin
+      href: /tr/contact#quality-inquiry
+    - text: 7 aşamalı inceleme sistemi
+      href: /tr/quality
+    - text: Fabrika kalite laboratuvarı ve test raporu indirmeleri
+      href: /tr/factory/quality-lab
+    - text: Uyumsuzluk kontrol standardı
+      href: /tr/factory/non-conforming-control

@@ -1,0 +1,103 @@
+meta:
+  title: 'OEM Alıcı Rehberi: Asya’dan SUP Tahta Tedariki | iSupfactory'
+  description: 'Asya’dan şişirilebilir SUP tahta tedariki: fabrika denetim kontrol listesi, kalite kontrol protokolleri, uyumluluk, minimum sipariş müzakeresi, teslimat koşulları ve tuzaklar.'
+  author: 'iSupfactory'
+  datePublished: '2026-08-04'
+  dateModified: '2026-08-07'
+back_text: 'Araştırmaya Dön'
+
+hero:
+  tagline: 'Tedariki'
+  title: 'OEM Alıcı Rehberi — Asya’dan Şişirilebilir SUP Tahta Tedariki'
+  subtitle: '12 dakikalık okuma'
+
+answer:
+  label: 'Doğrudan yanıt'
+  text: 'Minimum sipariş miktarı sabit bir sayıyla değil, proje yapılandırmasıyla belirlenir: numune geliştirme (1–2 adet) yapımı doğrular, pilot siparişler (20–50 adet) mevcut platformlarda pazarı sınar, standart hacimli üretim tam 150 m drop-stitch rulosundan parti başına 90–100+ adet çalışır ve küçük partili ortak markalama 5–10 adetten başlar. Numuneler 7–12 günde kargolanır; toplu üretim, sipariş formu ve depozito onaylandıktan sonra 25–35 gün sürer, yeni kalıp gerektiğinde buna 15–20 gün eklenir.'
+  verified: 'Eylül 2026'
+
+content_html: |
+  <h2>1. Ön Nitelendirme: Bir Fabrikada Nelere Bakmalı</h2>
+
+  <h3>Uyumluluk Sertifikaları</h3>
+  <ul>
+    <li><strong>ISO 9001:2015</strong> – Kalite yönetim sistemi</li>
+    <li><strong>CE sertifikası</strong> – Bildirilen kuruluş numarasını doğrulayın</li>
+    <li><strong>BSCI / SMETA / SEDEX</strong> – Sosyal uyum denetimleri</li>
+    <li><strong>REACH / RoHS</strong> – Malzeme uyum beyanları</li>
+  </ul>
+
+  <h3>Üretim Yetenekleri</h3>
+  <ul>
+    <li>Drop-stitch çekirdek dokuma tesis içinde mi, yoksa taşeron mu</li>
+    <li>PVC kaplama / laminasyon hattı</li>
+    <li>RF kaynak ve sıcak hava kaynak ekipmanları</li>
+    <li>Tesis içinde kalıp imalatı (CNC işleme)</li>
+    <li>Test laboratuvarı (basınç testi, UV yaşlandırma, çekme testi)</li>
+  </ul>
+
+  <h3>Deneyim Doğrulaması</h3>
+  <ul>
+    <li>Şişirilebilir su tekneleri imalatındaki yıl sayısı (en az 5 yıl)</li>
+    <li>Personeldeki mühendis sayısı</li>
+    <li>Mevcut OEM/ODM müşterileri (referans isteyin)</li>
+    <li>İhracat hedefleri – hedef pazarınıza zaten sevkiyat yapıyorlar mı?</li>
+  </ul>
+
+  <h2>2. Kalite Kontrol Protokolleri</h2>
+  <p>Malzeme giriş kalite kontrolü: çekme dayanımı (ASTM D751 veya ISO 1421), yırtma direnci (ASTM D2261 veya ISO 4674), yapışma gücü, UV yaşlandırma spot kontrolleri.</p>
+  <p>Süreç içi kalite kontrolü: her 50 adette dikiş dayanımı izleme, valf tork doğrulaması, drop-stitch iplik yoğunluğu kontrolleri, CAD çizimlerine karşı ölçü kontrolleri.</p>
+  <p>Nihai inceleme: %100 şişirme tutma testi (24 saat, en fazla 0.50 PSI düşüş), görsel inceleme, valf fonksiyon testi, rastgele numune testleri (ISO 2859 uyarınca AQL 2.5 veya 4.0).</p>
+
+  <h2>3. Uyumluluk Dokümantasyonu Kontrol Listesi</h2>
+  <ul>
+    <li>Doğru AB direktifini referans alan Uygunluk Beyanı (DoC)</li>
+    <li>Bildirilen kuruluştan alınan CE sertifikası</li>
+    <li>Akredite laboratuvardan test raporu</li>
+    <li>Malzeme güvenlik bilgi formları (MSDS)</li>
+    <li>REACH uyum beyanı</li>
+    <li>Tedarikçi izlenebilirliği içeren malzeme listesi (BOM)</li>
+    <li>Fabrika denetim raporu</li>
+  </ul>
+
+  <h2>4. Minimum Sipariş Miktarı Müzakeresi</h2>
+  <p>Şişirilebilir SUP tahta minimum sipariş miktarları tahminle değil, üretim yoluna ve proje yapılandırmasına göre belirlenir. Tüm Vatrad OEM/ODM projeleri üç ayrı miktar aşamasını izler — numune, pilot ve hacim — ve hesaplama mantığının tamamı <a href="/tr/oem-moq-guide">Minimum Sipariş Miktarı ve Esnek Markalama Rehberi</a> bölümünde açıklanmaktadır:</p>
+  <table class="w-full text-sm border-collapse">
+    <thead>
+      <tr class="bg-gray-100">
+        <th class="p-3 text-left font-semibold text-gray-900 border">Üretim Yolu</th>
+        <th class="p-3 text-left font-semibold text-gray-900 border">Minimum Sipariş</th>
+        <th class="p-3 text-left font-semibold text-gray-900 border">Zaman Çizelgesi</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td class="p-3 border font-medium">Numune geliştirme (tasarım başına)</td><td class="p-3 border">1 – 2 adet</td><td class="p-3 border">Numuneler 7 – 12 günde</td></tr>
+      <tr><td class="p-3 border font-medium">Pilot sipariş (mevcut platformlar)</td><td class="p-3 border">20 – 50 adet</td><td class="p-3 border">Stok malzemelerle pazar doğrulaması</td></tr>
+      <tr><td class="p-3 border font-medium">Standart hacimli parti (tasarım başına)</td><td class="p-3 border">90 – 100+ adet</td><td class="p-3 border">Sipariş formu ve depozito sonrası 25 – 35 gün</td></tr>
+      <tr><td class="p-3 border font-medium">Tam özel kalıp / private label</td><td class="p-3 border">Proje yapılandırmasıyla belirlenir</td><td class="p-3 border">Kalıp için 15 – 20 gün eklenir</td></tr>
+    </tbody>
+  </table>
+  <p>Numune, pilot ve hacimli üretim miktarları farklıdır: numune geliştirme (1–2 adet) yapımı doğrular, pilot siparişler (20–50 adet) mevcut platformlarda pazarı sınar ve standart hacimli üretim tam 150 m drop-stitch rulosundan parti başına 90–100+ adet çalışır — sipariş büyüdükçe hacim fiyat kademeleriyle birlikte. Belirli bir tahtanız için minimum sipariş hesabını, teslim süresini ve ödeme koşullarını bir tedarikçiyle taahhüt etmeden önce yazılı olarak alın.</p>
+
+  <h2>5. Lojistik ve Sevkiyat</h2>
+  <p>Yaygın Incoterms: <strong>FOB</strong> (Fabrika kalkış limanına teslim eder – en yaygın), <strong>EXW</strong> (Alıcı tüm sevkiyatı fabrika kapısından itibaren düzenler), <strong>CIF</strong> (Fabrika navlun ve sigortayı varış limanına kadar öder).</p>
+  <p>Şişirilebilir ürünler hafif ama hacimlidir – sevkiyat maliyetini çoğu zaman hacimsel ağırlık (DIM) belirler. Hacmi %50–60 azaltmak için vakumlu ambalajlama talep edin. Çin’den AB’ye deniz sevkiyatı genellikle 25–35 gün, ABD Batı Kıyısı’na ise 7–12 gün sürer — bunlar 25–35 günlük üretim teslim süresine ek olarak işler.</p>
+
+  <h2>6. Yaygın Tuzaklar</h2>
+  <ul>
+    <li><strong>Fabrika denetimi yapmamak:</strong> Her zaman üçüncü taraf bir denetim yaptırın veya yaptırın (QIMA, SGS, Bureau Veritas)</li>
+    <li><strong>Yalnızca sözlü spesifikasyonlar:</strong> İki tarafça da imzalanan ayrıntılı teknik spesifikasyon dokümanı</li>
+    <li><strong>Numune onayını atlamak:</strong> Toplu üretim öncesi numuneler için yazılı onay</li>
+    <li><strong>Üretim sırasında kalite kontrol yapmamak:</strong> Üretim sırasında (DUPRO) ve sevkiyat öncesi (PSI) üçüncü taraf incelemesi</li>
+    <li><strong>Uyumluluğu göz ardı etmek:</strong> Üretim öncesi CE işaretini (2013/53/EU Direktifi) ve pazara özel belgeleri doğrulayın</li>
+  </ul>
+
+  <h2>7. Neden Vatrad</h2>
+  <p>Vatrad, 2012’den bu yana OEM/ODM şişirilebilir SUP tahta imalatı yapıyor. 12.500 m&sup2; ISO 9001 sertifikalı tesisi, 25’ten fazla mühendisi ve AB pazarlarına yönelik modeller için CE sertifikasıyla (kapsam proje bazında teyit edilir) bu rehberdeki her ölçütü karşılıyoruz. Yeni iş ortakları için deneme minimum siparişleri ve eksiksiz uyumluluk dokümantasyonu paketleri sunuyoruz.</p>
+  <p><a href="/tr/oem-manufacturing">Şişirilebilir SUP OEM/ODM imalat hizmetlerimize</a> göz atın veya yukarıdaki her adımın arkasındaki ekipman ile kalite kontrol süreçlerini görmek için <a href="/tr/factory">12.500 m&sup2; fabrika alanımızı</a> gezin.</p>
+
+cta:
+  title: 'Tedarike başlamaya hazır mısınız?'
+  subtitle: 'Proje gereksinimlerinizi görüşmek için OEM ekibimizle iletişime geçin.'
+  button_text: 'Teklif isteyin'
+  button_link: /tr/contact

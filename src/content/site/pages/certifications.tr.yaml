@@ -1,0 +1,513 @@
+meta:
+  title: 'Özel SUP Kalite Kontrolü: 7 Aşamalı Denetim | iSupfactory'
+  description: 'Her özel SUP siparişinin nasıl kontrol edildiği: üretim öncesi planlamadan sevkiyat onayına kadar 7 denetim kapısı, indirilebilir iki dilli raporlarla.'
+  dateModified: '2026-08-15'
+  keywords:
+    - 'sup kalite kontrol'
+    - 'sup fabrika denetimi'
+    - 'oem kalite denetim planı'
+    - 'sevk öncesi sup denetimi'
+    - 'ce sertifikası sup'
+    - 'iso 9001 sup'
+hero:
+  tagline: Özel Projeler İçin Kalite Kontrol
+  title: 'Özel Şişirilebilir SUP Projeleri İçin Kalite Kontrolü'
+  subtitle: 'Kalite, genel bir iddiaya karşı değil, her proje için onaylanan numuneye, teknik şartnameye, görsel sanata, malzeme listesine ve ambalajlama gereksinimlerine göre doğrulanır. Giriş malzemelerinden sevkiyat onayına kadar denetim sürecimiz, ürün uygunluğunun tanımlı üretim aşamalarında doğrulanması için yapılandırılmıştır. Vatrad arkasındaki 12.500 m² şişirilebilir SUP fabrikası olan QINGDAO VATRAD GROUP tarafından desteklenir.'
+stats:
+  - value: 100%
+    label: Basınç testi yapılan birim
+  - value: '7'
+    label: Kontrollü denetim kapısı
+  - value: 18.0 PSI
+    label: 24 saatlik basınç tutma
+  - value: ISO 9001
+    label: Kalite sertifikalı
+quality_basis:
+  tagline: Kalite Esası
+  title: 'Ürün Kabulünü Belirleyen Nedir'
+  subtitle: 'Nihai kabul kriterleri üretim onayından önce belirlenir. Bu kontrollü proje belgeleri, ne üretileceğini, kilit ayrıntıların nasıl doğrulanacağını ve sevkiyat öncesinde nelerin kontrol edileceğini tanımlar; alıcı ile birlikte onaylanır ve Kalite Denetim Planında (QIP) dondurulur. Her değişiklik talebi belgelenmiş değişiklik kontrolünden geçer, asla üretim hattında sessizce yürütülmez.'
+  items:
+    - title: 'Onaylı Numune'
+      description: 'Alıcı tarafından onaylanan fiziksel referans tahta. Her bitmiş tahta; ölçü, profil, sertlik ve yüzey açısından bu referansla karşılaştırılır.'
+      icon: tabler:medal
+    - title: 'Teknik Şartname'
+      description: 'Malzeme, yapı ve ölçülendirme çizimleri revizyon numarasına bağlı olarak kilitlenir. İlk ürün denetimi (FAI), ilk partiyi bu revizyona göre doğrular.'
+      icon: tabler:file-check
+    - title: 'Onaylı Görsel Sanat'
+      description: 'Görsel sanat, baskı renkleri ve yerleşim, kesim öncesinde onaylanır ve sürüm kilidiyle sabitlenir; böylece her güverte, markanın onayladığı görünümle sevk edilir.'
+      icon: tabler:palette
+    - title: 'Müşteri Onaylı BOM'
+      description: 'Malzeme listesi — tahta, kürek, pompa, güvenlik ipi, çanta, kılavuz — alıcı tarafından teyit edilir. PSI, set kitaplığının %100 uygunluğunu bu BOM’a karşı kontrol eder.'
+      icon: tabler:list-checks
+    - title: 'Ambalajlama ve Etiketleme Gereksinimleri'
+      description: 'Koli yapısı, işaretler, barkodlar, etiket içeriği ve sevkiyat işaretleri yazılı olarak sabitlenir. Barkod okunabilirliği ve işaret doğruluğu PSI’da doğrulanır.'
+      icon: tabler:package
+tests:
+  - title: Basınç Testi
+    description: Şişirilebilir odalar, önerilen çalışma sınırlarının üzerindeki basınçlara uzun süreler boyunca maruz bırakılır. Bu, malzemenin ve dikişlerin hava sızdırmazlığını ve yapısal bütünlüğünü doğrular; ürünün amaçlanan kullanımı ve olası aşırı şişirmeyi hatasız ve sızıntısız karşılayabildiğini garanti eder.
+    image: https://assets.isupfactory.com/images/sups/factory/isupfactory-pressure-testing.webp
+    alt: Hava sızdırmazlığı doğrulaması için basınç testindeki şişirilebilir SUP odası
+  - title: Darbe Testi
+    description: Ürünler, farklı ağırlıklar ve açılardan kontrollü darbelere maruz bırakılır. Bu, malzemenin suda engellerle çarpışmadan kaynaklanan delinme, yırtılma ve hasar direncini değerlendirerek dayanıklılık ve ömrü gösterir.
+    image: https://assets.isupfactory.com/images/sups/factory/isupfactory-production-department.webp
+    alt: Şişirilebilir tekne malzemesinin delinme direncini değerlendiren darbe testi düzeneği
+  - title: UV Direnç Testi
+    description: Malzeme numuneleri hızlandırılmış UV radyasyona maruz bırakılarak zamanla sararmadıkları, çatlamadıkları veya dayanım kaybetmedikleri doğrulanır. Her PVC partisi, üretimde kullanılmadan önce güneş kaynaklı bozulmaya karşı kontrol edilir.
+    image: https://assets.isupfactory.com/images/sups/factory/isupfactory-uv-resistance-testing.webp
+    alt: Direnç testinde hızlandırılmış UV radyasyona maruz PVC malzeme numuneleri
+  - title: Aşınma Direnci Testi
+    description: Malzeme numuneleri, kontrollü basınç altında belirli sayıda çevrim boyunca aşındırıcı yüzeylere sürtülür. Bu, malzemenin tekrarlanan kullanımdan, kum, kaya veya benzeri yüzeylerle temastan doğan aşınmaya dayanma yeteneğini ölçerek uzun vadeli dayanıklılığı belgeler.
+    image: https://assets.isupfactory.com/images/sups/factory/isupfactory-pvc-material-testing.webp
+    alt: Aşınma direncini ölçmek için PVC kumaş numunesini sürtün aşınma test makinesi
+  - title: Düşük Sıcaklık Performans Testi
+    description: Ürünler, çeşitli sıcaklık koşullarındaki işlevselliği ve dayanıklılığı değerlendirmek üzere soğuk ortamlarda test edilir; böylece daha soğuk sularda sertleşme veya çatlama önlenir. Kış veya yüksek enlem kullanımına yönelik tekneler için kritik bir testtir.
+    image: https://assets.isupfactory.com/images/sups/factory/isupfactory-factory-exterior.webp
+    alt: Düşük sıcaklık performans testi için soğuk oda içindeki şişirilebilir ürün
+  - title: Kaldırma Kuvveti ve Yük Kapasitesi Testi
+    description: Ürünler, maksimum taşıma kapasitelerini belirlemek ve kullanıcı ile ekipmanı güvenle taşıdıklarını doğrulamak için çeşitli ağırlıklarla test edilir. Her modelin anma kapasitesi onaylanmadan önce doğrulanır.
+    image: https://assets.isupfactory.com/images/sups/factory/isupfactory-stock-boat-inventory.webp
+    alt: Ağırlıklarla şişirilebilir su aracında kaldırma kuvveti ve yük kapasitesi testi
+  - title: Yönlendirilebilirlik Testi
+    description: Ürünler, kürek veya motor girdilerine verdiği tepki açısından test edilir; dönüş yarıçapı ve kullanım kolaylığı değerlendirilir. Su üzerindeki denemeler, gerçek hayattaki kullanımın tasarım şartnameleriyle örtüştüğünü doğrular.
+    image: https://assets.isupfactory.com/images/sups/factory/isupfactory-sup-manufacturing.webp
+    alt: Şişirilebilir SUP ve tekne gövdelerinin su üzerinde yönlendirilebilirlik testi
+  - title: Su Geçirmezlik Testi
+    description: Tam monte edilmiş ürünler, dikişler, supaplar veya malzemeler üzerinden herhangi bir sızıntı olup olmadığını kontrol etmek üzere suya batırılır veya su püskürtmesine maruz bırakılır. Her tekne, sevkiyat öncesi zorunlu bir su geçirmezlik kontrolünden geçer.
+    image: https://assets.isupfactory.com/images/sups/factory/isupfactory-production-department-2.webp
+    alt: Dikiş ve supaplarda sızıntı kontrolü yapan suya batırma su geçirmezlik testi
+qc_flow:
+  tagline: 7 Aşamalı Denetim Akışı
+  title: 'Uçtan uca Yedi Kontrollü Kalite Kapısı'
+  subtitle: 'Aşağıdaki her kapı, denetim nesnesi, yöntemi, kabul kriterleri ve kayıt çıktısıyla proje Kalite Denetim Planında tanımlanır. İki dilli rapor dosyaları gerçek kontrollü kayıtlardır — yapıyı görmek için herhangi birini açın.'
+  obj_label: Denetim nesnesi
+  method_label: Denetim yöntemi
+  criteria_label: Kabul kriterleri
+  record_label: Kayıt çıktısı
+  stages:
+    - stage: STAGE 01
+      title: 'Proje Kalite Planlaması (PPM)'
+      summary: 'Üretim öncesi toplantı, hat başlamadan önce kapsamı, temel değerleri ve denetim planını kilitler.'
+      checks:
+        - 'Ürün adı, iç kod, müşteri SKU’su, sipariş numarası ve parti tanımı kaydedilir.'
+        - 'Tahta tipi, drop-stitch çekirdek, malzemeler, ray bantları, EVA, supaplar ve fin sistemi belirtilir.'
+        - 'Görsel sanat dosya adı, sürümü, renkleri, logo konumu ve baskı alanı kilitlenir ve onaylanır.'
+        - 'BOM — set başına adet, renk, parça numarası ve ikame kurallarıyla birlikte her kalem — müşteri onaylıdır.'
+        - 'Ambalajlama, etiketleme, barkod, kılavuz dili ve üçüncü taraf denetim düzenlemeleri yazılı olarak sabitlenir.'
+      object: 'Proje kapsamı ile müşteri gereksinimlerinin karşılaştırılması — malzemeler, ölçüler, görsel sanat, ambalajlama, hedef pazar ve geçerli standartlar.'
+      method: 'Satış, mühendislik ve QC ile üretim öncesi toplantı; Altın Numune onayı; sipariş için Kalite Denetim Planı (QIP) yayımlanır.'
+      criteria: 'Beş temel değerin tamamı seri üretim başlamadan önce onaylanır ve dondurulur. Çözümlenmemiş maddeler üretim onayını engeller.'
+      record: 'QIP + PPM tutanakları, onaylı numune kayıtları.'
+      image: https://assets.isupfactory.com/site/quality/node01-ppm.avif
+      alt: Bir OEM SUP siparişi için altın numune ve kalite denetim planını gözden geçiren üretim öncesi toplantı
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_SUP_OEM_QIP.pdf
+      link_label: 'QIP İndir (PDF)'
+    - stage: STAGE 02
+      title: 'Giriş Malzemesi Denetimi (IQC)'
+      summary: 'Hammadde, üretime girmeden önce onaylı tedarikçi şartnamesine karşı doğrulanır.'
+      checks:
+        - 'Drop-stitch kumaş, PVC rulo, ray malzemesi ve EVA güverte pedleri onaylı numuneye karşı — renk, kalınlık, ağırlık ve yüzey kusurları açısından kontrol edilir.'
+        - 'Supaplar, fin yuvaları, D halkaları, tutamaklar ve donanımlar tip, ölçü, yüzey, pas ve doğru işlev açısından kontrol edilir.'
+        - 'Pompalar, kürekler, güvenlik ipleri, çantalar ve onarım kitleri model, renk ve proje yapılandırması açısından doğrulanır.'
+        - 'Tedarikçi sertifikaları (COA), malzeme beyanları ve REACH/RoHS uyum belgeleri parti bazında incelenir.'
+        - 'Uyumsuz partiler karantinaya alınır ve herhangi bir malzeme hatta ulaşmadan iade edilir.'
+      object: 'Drop-stitch kumaş, PVC rulo, supaplar, finler, aksesuarlar ve ambalajlama malzemelerinin onaylı şartname ve tedarikçi test sertifikalarına karşı kontrolü.'
+      method: 'Görsel, ölçüsel ve ağırlık kontrolleri; AQL’a göre parti numune alma; malzeme sertifikalarının incelenmesi; onaylı tedarikçi listesinin uygulanması.'
+      criteria: 'Onaylı şartnameyi ve sertifikaları karşılar. Uyumsuz partiler hatta sevk edilmeden önce karantinaya alınır ve reddedilir.'
+      record: 'Parti referansları ve kararlarıyla IQC test raporları.'
+      image: https://assets.isupfactory.com/site/quality/node02-iqc.avif
+      alt: Fabrikada PVC kumaş ve SUP bileşenlerinin giriş malzemesi denetimi
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_IQC_TEST_REPORTS.pdf
+      link_label: 'IQC raporlarını indir (PDF)'
+    - stage: STAGE 03
+      title: 'Süreç İçi Kontrol ve İlk Ürün (IPQC / FAI)'
+      summary: 'Yapım yöntemleri ve kontrol noktaları onaylı tahta platformuna ve proje yapılandırmasına göre seçilir. İlk ürün, kilitlenmiş temel değerlere karşı kontrol edilir; her vardiyada hat üzerinde devriye kontrolleri sürdürülür.'
+      checks:
+        - 'İlk ürün, seri üretim başlamadan önce onaylı numune, teknik çizim, BOM, görsel sanat ve ambalajlama dosyalarına karşı doğrulanır.'
+        - 'Tahta ölçüleri, konturu ve simetrisi ölçülür; mürekkep ve logo yönü, konumu, renkleri ve revizyonu teyit edilir.'
+        - 'Dikişler ve ray sürekliliği, hat üzerinde boşluk, ayrışma, kırışıklık, kirlenme veya hizasızlık açısından kontrol edilir.'
+        - 'Supap, D halkası, tutamak ve fin kutusu montajı, müşteri onaylı BOM’a karşı konum, adet ve uyum açısından kontrol edilir.'
+        - 'FAI onayı görsel sanatı, ölçüleri ve BOM’u sürüm kilidine alır; sapmalar yeniden işleme karar akışına yönlendirilir — asla hat üzerinde yamama yapılmaz.'
+      object: 'İlk ürün ve süreç içi montajlar — dikişler, raylar, fin kutusu, supap tabanı, görsel sanat konumu, donanım torku.'
+      method: 'İlk birimde İlk Ürün Denetimi; vardiya başına devriye kontrolleri; kaynak dayanımı ve dikiş hizası hat içinde doğrulanır.'
+      criteria: 'FAI onayı görsel sanatı, ölçüleri ve BOM’u sürüm kilidine alır. Sapmalar yeniden işleme karar akışına yönlendirilir — asla hat üzerinde yamama yapılmaz.'
+      record: 'FAI kaydı, vardiya devriye tutanakları, yeniden işleme ve karar notları.'
+      image: https://assets.isupfactory.com/site/quality/node03-ipqc-fai.avif
+      alt: SUP üretimi sırasında süreç içi denetim ve ilk ürün kontrolü
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_IPQC_TEST_REPORTS.pdf
+      link_label: 'IPQC raporlarını indir (PDF)'
+    - stage: STAGE 04
+      title: 'Şişirme ve Hava Sızdırmazlığı Testi'
+      summary: 'Ambalajlamadan önce tamamlanan her tahta, şişirme ve hava sızdırmazlığı doğrulamasından geçirilir — birimlerin %100’ü, numune değil.'
+      checks:
+        - 'Şişirmeden önce tahta yüzeyi, raylar ve supap bölgesi; delikler, çatlaklar, anormal kıvrımlar veya ayrışma açısından kontrol edilir.'
+        - 'Odalar kalibre edilmiş dijital göstergeyle proje test basıncına şişirilir ve ilk okuma kilitlenir.'
+        - 'Supap çekirdeği, supap tabanı ve ray dikişleri çevre boyunca kontrol edilir — burun, kuyruk ve kavisli bölgeler dahil.'
+        - 'Sürekli kayıtla 24 saatlik basınç tutma; izin verilen basınç düşümünün üzerinde otomatik ret.'
+        - 'Başarısız tahtalar karantinaya alınır, talimat gereği yeniden işlenir ve tam olarak yeniden test edilir — yalnızca onarım noktasında tekrar kontrol edilmez.'
+      object: 'Şişirilmiş odaların %100’ü — tüm dikiş boyunca sızıntı tespiti, supap bütünlüğü ve basınç düşümüyle tutma.'
+      method: 'Tüm dikişlerde sızıntı tespiti, ardından 18.0 PSI’da 24 saatlik basınç tutma; 0.50 PSI düşümün üzerinde otomatik ret.'
+      criteria: 'Sıfır sızıntı noktası ve oda başına 0.50 PSI içinde basınç düşümü; başarısız birimler karantinaya alınır ve yeniden işlenir veya hurdaya ayrılır.'
+      record: 'Her oda için bir adet olmak üzere hava sızdırmazlığı test raporları, partiyle ilişkilendirilmiş.'
+      image: https://assets.isupfactory.com/site/quality/node04-airtightness.avif
+      alt: Şişirilebilir bir SUP odasının şişirme ve hava sızdırmazlığı testi
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_AIRTIGHTNESS_TEST_REPORTS.pdf
+      link_label: 'Hava sızdırmazlığı raporlarını indir (PDF)'
+    - stage: STAGE 05
+      title: 'Son Ürün Denetimi (FQC)'
+      summary: 'Tamamlanan tahtalar, onaylı altın numuneye karşı ölçülür ve görsel açıdan derecelendirilir.'
+      checks:
+        - 'Temel ölçüler — uzunluk, genişlik ve kalınlık — çalışma basıncında, çizim toleranslarına karşı ölçülür.'
+        - 'Tahta konturu, rocker profili ve simetri doğrulanır; şişirme sonrası anormal deformasyon, burulma veya eğilme bulunmaz.'
+        - 'D65 gün ışığı lambaları altında kozmetik derecelendirme: çizikler, lekeler, yapıştırıcı izleri, kabarcıklar, kırışıklık, renk sapması.'
+        - 'İşlevsel kontroller: supap açma/kapama ve kapak uyumu, fin takma ve kilitleme, D halkaları, tutamaklar ve kürek işlevi.'
+        - 'Yapılandırma, müşteri onaylı BOM ve SKU’ya karşı doğrulanır — aksesuarlar, etiketler, barkodlar ve seri numaraları.'
+      object: 'Tamamlanmış tahta ile altın numunenin karşılaştırılması — ölçüler, rocker, profil, kozmetik, fin kutusu uyumu ve aksesuar bütünlüğü.'
+      method: 'Çizim toleranslarına karşı ölçüsel doğrulama; D65 gün ışığı lambaları altında kozmetik derecelendirme; fin kutusu ve donanım uygunluk testleri.'
+      criteria: 'Ölçüler tolerans içinde (örn. 3508 × 814 × 150.3 mm), kozmetik derece onaylı numuneye göre, tüm aksesuarlar mevcut.'
+      record: 'Denetçi imzası ve kararıyla FQC raporları.'
+      image: https://assets.isupfactory.com/site/quality/node05-fqc.avif
+      alt: Ambalajlamadan önce tamamlanmış SUP tahtalarının son ürün denetimi
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_FQC_TEST_REPORTS.pdf
+      link_label: 'FQC raporlarını indir (PDF)'
+    - stage: STAGE 06
+      title: 'Ambalajlama ve Sevk Öncesi Denetim (PSI)'
+      summary: 'Ambalajlanmış set; bütünlük, işaret doğruluğu ve sevkiyata hazırlık açısından kontrol edilir.'
+      checks:
+        - 'BOM’a karşı %100 set bütünlüğü: tahta, kürek, pompa, güvenlik ipi, çanta, onarım kiti ve kılavuz — aynı anda bir set.'
+        - 'Kırılgan parçalar korunur (pompa ve kürek çantaları), tahta ambalajlama standardına göre katlanır, aksesuarlar model ve renkle eşleşir.'
+        - 'Koli grafikleri, marka, uyarılar ve dil sürümleri onaylı görsel sanat revizyonuna karşı doğrulanır.'
+        - 'Barkod tipi, numarası, konumu ve okunabilirliği doğrulanır; sevkiyat işaretleri, SKU, PO, koli numarası ve adet doğrudur.'
+        - 'Koli ölçüsü, brüt/net ağırlık ve iç ambalajlama ambalajlama şartnamesine uygundur; gerektiğinde düşürme testi sonucu kaydedilir.'
+      object: 'Ambalajlanmış set — tahta, kürek, pompa, güvenlik ipi, çanta, kılavuz — müşteri onaylı BOM ve ambalaj şartnamesine karşı.'
+      method: 'BOM’a karşı %100 set bütünlüğü; barkod taraması (Derece ≥ B); koli işaret doğruluğu; ambalajlı kolilerde ISTA-1A düşürme testi.'
+      criteria: 'Yüklemeden önce BOM’a %100 set uyumu, okunabilir barkodlar, doğru işaretler ve düşürmeye dayanıklı ambalajlama.'
+      record: 'Koli başına PSI kontrol listeleri ve ambalajlama kayıtları.'
+      image: https://assets.isupfactory.com/site/quality/node06-psi.avif
+      alt: Ambalajlanmış SUP setinin BOM’a karşı sevk öncesi denetimi
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_PSI_TEST_REPORTS.pdf
+      link_label: 'PSI raporlarını indir (PDF)'
+    - stage: STAGE 07
+      title: 'Sevkiyat Onayı ve İzlenebilirlik'
+      summary: 'Kalite, yalnızca önceki altı kapının tamamı kapatıldığında ve her kayıt eksiksiz olduğunda partiye onay verir.'
+      checks:
+        - 'Üretim partisi, sipariş numarası, SKU, adet ve koli sayısı, sevkiyat listesine ve ticari faturayla eşleşir.'
+        - 'Şartname, BOM, görsel sanat ve ambalajlama dosyalarının tamamı güncel onaylı revizyondadır.'
+        - 'IQC, FAI, süreç içi, hava sızdırmazlığı, FQC ve PSI kayıtları sevk edilen parti için eksiksizdir.'
+        - 'Tüm uyumsuzluklar çözülür, yeniden işlenir, yeniden denetlenir ve kapatılır — sevkiyat onayında açık madde bulunmaz.'
+        - 'Parti başına izlenebilirlik alanları kaydedilir: proje kodu, PO, SKU, görsel sanat/BOM/ambalajlama revizyonları, üretim tarihi, denetçi ve kayıt numaraları.'
+      object: 'Parti için sevkiyat onay yetkisi — tüm kapılar kapalı, kayıtlar eksiksiz, seri numaraları partiyle eşleştirilmiş.'
+      method: 'Kalite tarafından önceki altı kaydın kapı incelemesi; parti izlenebilirlik dosyasının hazırlanması; kayıtların sevkiyatla birlikte teslimi.'
+      criteria: 'Tüm kapılar QA tarafından onaylanır; parti kayıtları ve izlenebilirlik dosyası alıcıya teslim edilir veya talep üzerine NDA kapsamında saklanır.'
+      record: 'Sevkiyat onay yetkisi ve parti izlenebilirlik dosyası.'
+      image: https://assets.isupfactory.com/site/quality/node07-shipment-release.avif
+      alt: Sevkiyat onay imzası ve parti izlenebilirlik kaydının teslimi
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_SHIPMENT_RELEASE_REPORTS.pdf
+      link_label: 'Sevkiyat onay raporlarını indir (PDF)'
+system_map:
+  tagline: Kalite Sistemi
+  title: 'Tek Sistem, Dört Kontrollü Standart'
+  subtitle: 'Yukarıdaki yedi kapı, indirebilir ve denetlenebilir kontrollü prosedürler olarak yayımlanan dört belgelenmiş standart üzerinde yürür. Birlikte, her OEM/ODM siparişinin arkasındaki QMS’i oluştururlar — denetim kriterleri, değişiklik kontrolü, uyumsuzluk ve laboratuvar testleri.'
+  items:
+    - title: 'Denetim ve Sevkiyat Standartları'
+      description: 'Proje QIP her kapıyı yönetir: sipariş başına denetim nesnesi, yöntem, kabul kriterleri ve kayıt çıktısı. 4 aşamalı QC çerçevesini, izlenebilirlik zincirini, karantina akışını, kusur matrisini ve 00–15 belgelerini içerir.'
+      icon: tabler:clipboard-check
+      link: /tr/factory/quality-inspection
+      link_label: 'Denetim standartları ve QMS indirmeleri'
+    - title: 'Yeniden İşleme Değişiklik Kontrolü'
+      description: 'Belgelenmiş kontrol olmadan hiçbir yeniden işleme parametresi değişikliği yapılamaz: içerik alma, risk sınıflandırması, 9 adımlı değişiklik döngüsü, onay matrisi ve doğrulama. Onaylı şartnameler, numuneler, BOM’lar veya kabul kriterlerindeki her değişiklik yazılı müşteri onayı gerektirir.'
+      icon: tabler:git-branch
+      link: /tr/factory/quality-change-control
+      link_label: 'Değişiklik kontrol standardı'
+    - title: 'Uyumsuz Ürün Kontrolü'
+      description: 'ISO 9001:2015 madde 8.7 kapsamında kapalı 7 adımlık döngü: tespit, karantina, NCR’ye göre karar, yeniden işleme veya ret, yeniden denetim, sevkiyat, düzeltme. Şiddet yetkilerini, SUP kusur karar matrisini ve tanıklı imhayı içerir.'
+      icon: tabler:alert-triangle
+      link: /tr/factory/non-conforming-control
+      link_label: 'Uyumsuz ürün kontrol standardı'
+    - title: 'Laboratuvar Testleri ve Ekipman'
+      description: 'Kalite laboratuvarı üretimden bağımsız çalışır: çekme, basınç düşümü, UV yaşlandırma, kaynak soyma, sızıntı tespiti ve sıcaklık odaları — yayımladığımız iddiaların arkasındaki kalibrasyon ve test prosedürleriyle.'
+      icon: tabler:flask
+      link: /tr/factory/quality-lab
+      link_label: 'Kalite laboratuvarı ve test ekipmanı'
+    - title: 'Malzeme Test Laboratuvarı (Ar-Ge)'
+      description: 'Ar-Ge merkezi, PVC/Hypalon formülasyonları, hızlandırılmış yaşlandırma ve sertifika desteği için bağımsız malzeme testleri yürütür ve üretimin dayandığı standartları besler.'
+      icon: tabler:microscope
+      link: /tr/randdcenter/quality-inspection-lab
+      link_label: 'Ar-Ge malzeme test laboratuvarı'
+intelligence_cards:
+  tagline: Belgeler ve İzlenebilirlik
+  title: 'Proje İzlenebilirliğini Destekleyen Kalite Kayıtları'
+  subtitle: 'Denetim kayıtları üretim partisi bazında tutulur ve geçerli proje belgelerine bağlanır — şartname revizyonu, görsel sanat revizyonu, BOM ve ambalajlama gereksinimleri. Müşteri gizliliğini korumak için bu sayfadaki numuneler anonimleştirilmiştir: yalnızca yapısal alanlar gösterilir (proje kodu, ürün/SKU, parti, denetim aşaması, denetim kalemi, kabul kriterleri, sonuç, denetçi, tarih ve sevkiyat durumu).'
+  cards:
+    - icon: 1
+      icon_bg: blue
+      title: Giriş Malzemesi Denetim Kaydı
+      desc: 'Hammadde, drop-stitch kumaşlar, PVC rulo ve bileşenlerin üretim onayından önce onaylı şartnameye karşı doğrulandığını kanıtlar.'
+      metrics:
+        - { label: Aşama, value: '02 · IQC' }
+        - { label: Parti referansı, value: 'LOT-DEMO-DS-0814' }
+        - { label: Sonuç, value: 'Uygun · Üretim için onaylandı' }
+      link: 'https://assets.isupfactory.com/site/downloads/anonymized-quality-record-samples.pdf#page=1'
+      link_label: 'Anonim numunayı görüntüle (PDF)'
+    - icon: 2
+      icon_bg: green
+      title: İlk Ürün Denetimi (FAI) Kaydı
+      desc: 'Tam seri üretime geçmeden önce sürüm kilitlemeyi (görsel sanat, ölçüler, BOM şartnameleri) gösterir.'
+      metrics:
+        - { label: Aşama, value: '03 · IPQC' }
+        - { label: Numune kodu, value: 'SN-DEMO-FAI-001' }
+        - { label: Sonuç, value: 'Uygun · FAI onaylandı' }
+      link: 'https://assets.isupfactory.com/site/downloads/anonymized-quality-record-samples.pdf#page=2'
+      link_label: 'Anonim numunayı görüntüle (PDF)'
+    - icon: 3
+      icon_bg: purple
+      title: Şişirme ve Hava Sızdırmazlığı Test Kaydı
+      desc: 'Proje kalite planına göre %100 tüm dikiş sızıntı tespitini, supap bütünlüğünü ve basınç düşümüyle tutmayı doğrular.'
+      metrics:
+        - { label: Aşama, value: '04 · Hava sızdırmazlığı' }
+        - { label: Test koşulu, value: 'Proje planına göre (18.0 PSI)' }
+        - { label: Sonuç, value: 'Uygun · Son denetim için onaylandı' }
+      link: 'https://assets.isupfactory.com/site/downloads/anonymized-quality-record-samples.pdf#page=3'
+      link_label: 'Anonim numunayı görüntüle (PDF)'
+    - icon: 4
+      icon_bg: orange
+      title: Son Ürün Denetim Raporu
+      desc: 'Tamamlanmış tahtayı, ölçüler, rocker, kozmetik (D65 ışığı) ve fin kutusu uyumu açısından onaylı numuneye karşı doğrular.'
+      metrics:
+        - { label: Aşama, value: '05 · FQC' }
+        - { label: Ölçü, value: '3508 × 814 × 150.3 mm' }
+        - { label: Sonuç, value: 'Uygun · Ambalajlamaya onaylandı' }
+      link: 'https://assets.isupfactory.com/site/downloads/anonymized-quality-record-samples.pdf#page=4'
+      link_label: 'Anonim numunayı görüntüle (PDF)'
+    - icon: 5
+      icon_bg: green
+      title: Ambalajlama ve Sevk Öncesi Kontrol Listesi
+      desc: '%100 set bütünlüğünü, barkod okunabilirliğini (Derece ≥ B), koli işaret doğruluğunu ve ISTA-1A düşürme güvenliğini garanti eder.'
+      metrics:
+        - { label: Aşama, value: '06 · PSI' }
+        - { label: Set, value: '%100 BOM uyumu' }
+        - { label: Sonuç, value: 'Uygun · Sevkiyat için onaylandı' }
+      link: 'https://assets.isupfactory.com/site/downloads/anonymized-quality-record-samples.pdf#page=5'
+      link_label: 'Anonim numunayı görüntüle (PDF)'
+doc_register:
+  tagline: Kontrollü Belge Kaydı
+  title: 'Bir Sevkiyatın Arkasındaki Her Belge, Listelenmiş'
+  subtitle: 'Her sipariş yapılandırılmış bir 00–15 belge kaydı oluşturur — proje dizini, onaylı şartname, BOM, görsel sanat ve ambalaj referansları, QIP, denetim kayıtları, NCR, değişiklik kontrolü, üçüncü taraf brifingi ve sevkiyat özeti. Kontrol ettiğimiz yapı ve kriterleri görmek için kamuya açık belgeleri indirin.'
+  items:
+    - title: '00 · Proje Kalite Denetim Planı (QIP)'
+      description: 'Kalite için sipariş bazlı sözleşme: alacağınız kapılar, denetim kapsamı, yöntemler, kabul kriterleri ve kayıtlar.'
+      icon: '00'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_SUP_OEM_QIP.pdf
+      link_label: 'QIP İndir (PDF)'
+    - title: '01 · Kalite Denetim Standartları'
+      description: 'Özel şişirilebilir SUP siparişlerine uygulanan eksiksiz denetim ve güvence standardı.'
+      icon: '01'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_Quality_Inspection_Standards.pdf
+      link_label: 'Standartları indir (PDF)'
+    - title: '02 · Kalite Belge Paketi'
+      description: 'Bir projenin aldığı eksiksiz belge yapısı, tek bir genel bakış paketinde.'
+      icon: '02'
+      link: https://assets.isupfactory.com/site/downloads/Qingdao_Vatrad_Group_SUP_Quality_Documentation_Pack.pdf
+      link_label: 'Paketi indir (PDF)'
+    - title: '03 · IQC Test Raporları'
+      description: 'Giriş malzemesi denetim raporları — kumaş, PVC rulo, supaplar ve bileşenler.'
+      icon: '03'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_IQC_TEST_REPORTS.pdf
+      link_label: 'IQC raporlarını indir (PDF)'
+    - title: '04 · IPQC Test Raporları'
+      description: 'Kilitli revizyona karşı süreç içi denetim ve ilk ürün raporları.'
+      icon: '04'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_IPQC_TEST_REPORTS.pdf
+      link_label: 'IPQC raporlarını indir (PDF)'
+    - title: '05 · Hava Sızdırmazlığı Test Raporları'
+      description: '%100 dikiş sızıntı tespiti, supap bütünlüğü ve basınç tutma kayıtları.'
+      icon: '05'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_AIRTIGHTNESS_TEST_REPORTS.pdf
+      link_label: 'Hava sızdırmazlığı raporlarını indir (PDF)'
+    - title: '06 · FQC Test Raporları'
+      description: 'Onaylı numuneye karşı son tahta denetimi — ölçüler, kozmetik, fin kutusu.'
+      icon: '06'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_FQC_TEST_REPORTS.pdf
+      link_label: 'FQC raporlarını indir (PDF)'
+    - title: '07 · PSI Test Raporları'
+      description: 'Ambalajlama ve sevk öncesi denetim — %100 set bütünlüğü, barkod derecesi, düşürme güvenliği.'
+      icon: '07'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_PSI_TEST_REPORTS.pdf
+      link_label: 'PSI raporlarını indir (PDF)'
+    - title: '08 · Sevkiyat Onay Raporları'
+      description: 'Tüm kapılar kapandığında, parti dosyasıyla birlikte imzalanan sevkiyat onay yetkisi.'
+      icon: '08'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_SHIPMENT_RELEASE_REPORTS.pdf
+      link_label: 'Sevkiyat onay raporlarını indir (PDF)'
+    - title: '09 · İzlenebilirlik ve NCR Dosyası'
+      description: 'Şartname, görsel sanat ve BOM’a bağlı parti izlenebilirliği ile uyumsuzluk kontrol kayıtları.'
+      icon: '09'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_BATCH_TRACEABILITY_AND_NCR_CONTROL_DOSSIER.pdf
+      link_label: 'Dosyayı indir (PDF)'
+    - title: '10 · NCP Kontrol SOP (ISO 8.7)'
+      description: 'Uyumsuz ürünlerin karantinaya alınması, kararı, yeniden işlenmesi ve sevkiyatı için kontrollü prosedür.'
+      icon: '10'
+      link: https://assets.isupfactory.com/site/downloads/non-conforming-product-control-sop-iso-8-7.pdf
+      link_label: 'SOP İndir (PDF)'
+    - title: '11 · Yeniden İşleme Değişiklik Kontrolü SOP + Ek'
+      description: 'Değişiklik kontrol prosedürü ve uygulama eki — içerik alma, onay ve doğrulama.'
+      icon: '11'
+      link: https://assets.isupfactory.com/site/downloads/rework-change-control-sop-qms-sop-qc-cc-001.pdf
+      link_label: 'SOP İndir (PDF)'
+    - title: '12 · Sevk Öncesi Onay Özeti'
+      description: 'Her partinin sevkiyatla birlikte gönderdiği iki dilli onay özeti, kaydı bir araya getirir.'
+      icon: '12'
+      link: https://assets.isupfactory.com/site/downloads/Pre_Shipment_Release_Summary_Bilingual.pdf
+      link_label: 'Özeti indir (PDF)'
+    - title: '13 · Üçüncü Taraf Denetim Brifing Şablonu'
+      description: 'Denetçilerin sevk öncesi denetimi duyurmak, planlamak ve raporlamak için kullandığı brifing şablonu.'
+      icon: '13'
+      link: https://assets.isupfactory.com/site/downloads/Third_Party_Inspection_Brief_Template.pdf
+      link_label: 'Şablonu indir (PDF)'
+    - title: '14 · PSI Kontrol Listesi'
+      description: 'Sahada kullanılan sevk öncesi kontrol listesi — set bütünlüğü, barkod derecesi, işaretler ve düşürme güvenliği.'
+      icon: '14'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_SUP_Pre_Shipment_Inspection_Checklist.pdf
+      link_label: 'Kontrol listesini indir (PDF)'
+    - title: '15 · OEM Proje Uygulanabilirlik ve Kalite Kılavuzu'
+      description: 'Bir projenin talepten onaylı altın numuneye nasıl ilerlediği — seri üretim öncesi mühendislik ve kalite adımları.'
+      icon: '15'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_OEM_PROJECT_FEASIBILITY_AND_QUALITY_GUIDE.pdf
+      link_label: 'Kılavuzu indir (PDF)'
+traceability:
+  tagline: Parti Bazında İzlenebilirlik
+  title: 'Her Partinin Yanıtladığı Dört Soru'
+  subtitle: 'Kalite kayıtları üretim partisi bazında tutulur ve geçerli ürün şartnamesi, görsel sanat, BOM ile ambalajlama gereksinimlerine bağlanır. Bu, bir kalite sorunu tespit edildiğinde inceleme ve kontrollü aksiyon için destek sağlar. Bir alıcı denetimi sırasında kalite ekibimiz bu dört soruyu sahada yanıtlar — her yanıt kontrollü bir kayda işaret eder.'
+  items:
+    - title: 'Ne üretildi?'
+      description: 'Ürün, model, yapılandırma ve revizyon; sipariş numarası ile onaylı şartname revizyonuna bağlanır.'
+      icon: '1'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_BATCH_TRACEABILITY_AND_NCR_CONTROL_DOSSIER.pdf
+      link_label: 'İzlenebilirlik dosyasını görüntüle (PDF)'
+    - title: 'Hangi malzemeler girdi?'
+      description: 'Partiyi besleyen her malzeme partisi, tedarikçisi, sertifikası ve IQC kararıyla kaydedilir.'
+      icon: '2'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_BATCH_TRACEABILITY_AND_NCR_CONTROL_DOSSIER.pdf
+      link_label: 'İzlenebilirlik dosyasını görüntüle (PDF)'
+    - title: 'Kim denetledi ve ne zaman?'
+      description: 'Her kayıt denetçi rolünü, tarihi, kullanılan aletleri ve sonucu taşır — anonim imzalar yoktur.'
+      icon: '3'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_BATCH_TRACEABILITY_AND_NCR_CONTROL_DOSSIER.pdf
+      link_label: 'İzlenebilirlik dosyasını görüntüle (PDF)'
+    - title: 'Parti nasıl sevk edildi?'
+      description: 'Sevkiyat yalnızca tüm kapılar kapandığında kalite tarafından yetkilendirilir; karar kayıt üzerinde belgelenir.'
+      icon: '4'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_BATCH_TRACEABILITY_AND_NCR_CONTROL_DOSSIER.pdf
+      link_label: 'İzlenebilirlik dosyasını görüntüle (PDF)'
+non_conformance:
+  tagline: Uyumsuz Ürünlerin Kontrolü
+  title: 'Bir Kusur Bulunduğunda: İçerik Al, Karar Ver, Belgele'
+  subtitle: 'Tanımlı kabul kriterlerini karşılamayan ürün veya bileşenler tespit edilir ve kontrollü beklemeye alınır. Yeniden işleme veya değiştirme yalnızca geçerli kalite prosedürü üzerinden, ardından yeniden denetim ile yetkili sevkiyat öncesi gerçekleştirilebilir.'
+  items:
+    - title: 'Tespit ve Ayırma'
+      description: 'Başarısız birimler kırmızı etiketlenir ve karantina istasyonuna taşınır — karar verilene kadar başka işlem veya ambalajlama yapılmaz.'
+      icon: tabler:alert-triangle
+    - title: 'NCR’ye Göre Karar'
+      description: 'Kalite bir Uyumsuzluk Raporu düzenler ve birimi karar matrisine göre yeniden işleme, yeniden denetim, ret veya hurdaya yönlendirir.'
+      icon: tabler:git-branch
+      link: /tr/factory/non-conforming-control
+      link_label: 'Uyumsuz ürün kontrol standardı'
+    - title: 'Doğrula ve Sevk Et'
+      description: 'Yeniden işlenen birimler aynı kriterlere karşı yeniden denetlenir; NCR yalnızca yeniden doğrulama geçtikten sonra kapatılır.'
+      icon: tabler:shield-check
+    - title: 'Hurda Kontrolü'
+      description: 'Hurdaya ayrılan malzeme, imzalı bir hurda sertifikasıyla imha edilir; böylece asla stoğa veya pazara geri dönemez.'
+      icon: tabler:trash
+      link: https://assets.isupfactory.com/site/downloads/scrap-destruction-certificate-vat-qa-scrap-cert-2026.pdf
+      link_label: 'Hurda ve imha sertifikası (PDF)'
+    - title: 'Kök Neden Geri Bildirimi'
+      description: 'Tekrarlayan kusurlar, sorumlu süreç veya tedarikçiyle birlikte düzeltici aksiyon başlatır — kağıt işi değil, kapalı döngü.'
+      icon: tabler:refresh
+      link: https://assets.isupfactory.com/site/downloads/rework-change-control-sop-qms-sop-qc-cc-001.pdf
+      link_label: 'Yeniden işleme değişiklik kontrol SOP (PDF)'
+third_party:
+  tagline: Alıcı Atamalı ve Bağımsız Denetim Desteği
+  title: 'Denetçinizi Sahada Karşılamaktan Memnuniyet Duyarız'
+  subtitle: 'Alıcı tarafından atanan ve bağımsız üçüncü taraf denetimi (SGS, TÜV, Bureau Veritas, gümrük müşavirleri) üretim onayından önce görüşülebilir. Denetim kapsamı, numune alma düzeyi, kabul kriterleri, zamanlama ve raporlama gereksinimleri üretim başlamadan önce teyit edilmelidir. Uygun hallerde, üzerinde anlaşılan denetim planına uygun olarak ilgili üretim, son denetim ve ambalajlama aşamalarına erişimi koordine ederiz.'
+  items:
+    - title: 'Denetim Zamanlaması'
+      description: 'Yedi kapının herhangi birinde kendi denetimimiz veya üçüncü taraf denetimi düzenlenebilir ve kabul esası olarak sizin denetim planınız uygulanır.'
+      icon: tabler:calendar-clock
+      link: /tr/factory/quality-inspection
+      link_label: 'Denetim standartları ve QMS indirmeleri'
+    - title: 'Sevk Öncesi Brifing Şablonu'
+      description: 'Denetçilerin tesisimizdeki sevk öncesi denetimi duyurmak, planlamak ve raporlamak için kullandığı brifing şablonu.'
+      icon: tabler:file-report
+      link: https://assets.isupfactory.com/site/downloads/Third_Party_Inspection_Brief_Template.pdf
+      link_label: 'Brifing şablonunu indir (PDF)'
+    - title: 'PSI Kontrol Listesi'
+      description: 'Sahada kullanılan sevk öncesi kontrol listesi — set bütünlüğü, barkod derecesi, işaretler ve düşürme güvenliği.'
+      icon: tabler:clipboard-check
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_SUP_Pre_Shipment_Inspection_Checklist.pdf
+      link_label: 'PSI kontrol listesini indir (PDF)'
+    - title: 'Eksiksiz Kalite Belge Paketi'
+      description: 'Eksiksiz belge sistemini kapsayan tek dosya — QIP, kapı kayıtları, izlenebilirlik ve NCR kontrolü.'
+      icon: tabler:books
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_COMPLETE_SUP_QUALITY_DOSSIER.pdf
+      link_label: 'Belge paketini indir (PDF)'
+    - title: 'OEM Proje Uygulanabilirlik ve Kalite Kılavuzu'
+      description: 'Bir projenin talepten onaylı altın numuneye nasıl ilerlediği — seri üretim öncesi mühendislik ve kalite adımları.'
+      icon: tabler:route
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_OEM_PROJECT_FEASIBILITY_AND_QUALITY_GUIDE.pdf
+      link_label: 'Proje kılavuzunu indir (PDF)'
+content_certifications:
+  tagline: Sertifikalar ve Standartlar
+  title: 'Sertifikalı Kalite, Küresel Olarak Tanınan'
+  subtitle: 'Sertifikalar yalnızca kapsadıkları kadar değerlidir. Aşağıda sertifika kapsamı, sertifika sahibi ve belgeleri nasıl doğrulayacağınız veya projeniz için talep edeceğiniz yer alıyor.'
+  items:
+    - title: 'CE İşareti'
+      description: '2013/53/AET Yönergesi (rekreasyon tekneleri) uyarınca, uygulanabilir AB pazarı yapılandırmaları için CE uygunluk belgeleri mevcuttur; kapsam proje bazında teyit edilir. Sertifika numaraları ve test raporları talep üzerine sunulur.'
+      icon: tabler:certificate
+    - title: 'ISO 9001:2015'
+      description: 'Şişirilebilir su araçlarının ve deniz ekipmanlarının tasarımı, üretimi ve dağıtımını kapsayan ISO 9001:2015 sertifikalı kalite yönetim sistemi. Sertifika kapsamı ve denetim raporu talep üzerine mevcuttur.'
+      icon: tabler:clipboard-check
+    - title: 'BSCI Sosyal Uyum'
+      description: 'Çalışma koşullarını ve fabrika uyumunu kapsayan BSCI (Business Social Compliance Initiative) denetimi. Denetim raporu talep üzerine mevcuttur.'
+      icon: tabler:heart-handshake
+    - title: 'REACH Malzeme Uyumu'
+      description: 'Malzemeler, kimyasal güvenlik için AB REACH yönetmeliğine uygundur. Malzeme beyanları her sevkiyatla üretim belgeleri birlikte sağlanır.'
+      icon: tabler:flask
+    - title: 'RoHS Uyumu'
+      description: 'Uygulanabilir bileşen ve malzemeler için RoHS kapsamında kısıtlanmış tehlikeli madde uyumu belgelenmiştir.'
+      icon: tabler:flame
+    - title: 'Malzeme Testleri'
+      description: 'Kumaşlar çekme dayanımı, yırtılma direnci, UV bozulması ve soğuk çatlama performansı açısından test edilir. Her üretim partisi numune alınır ve yayımlanmış test protokolüne göre doğrulanır.'
+      icon: tabler:test-pipe
+faqs:
+  tagline: SSS
+  title: Kalite Sistemimiz Hakkında Sıkça Sorulan Sorular
+  items:
+    - q: 'Gerçek denetim raporlarını indirebilir miyim?'
+      a: 'Evet. Bu sayfadaki yedi iki dilli rapor dosyası — QIP, IQC, IPQC/FAI, hava sızdırmazlığı, FQC, PSI ve sevkiyat onayı — gizli alanlar kaldırılmış gerçek kontrollü kayıtlardır. Her siparişte kullanılan yapıyı, yöntemleri ve kabul kriterlerini tam olarak gösterirler.'
+    - q: 'Yedi kapı projemle nasıl eşleşir?'
+      a: 'Her proje, ürününüz ve pazarınız için geçerli kapıları, her kapıdaki denetim kapsamını ve alacağınız kayıtları tanımlayan bir Kalite Denetim Planı (QIP) alır. Yapıyı görmek için bu sayfadaki QIP numunesini indirin.'
+    - q: 'Bu denetim kaydı numuneleri gerçek mi?'
+      a: 'Evet. Numuneler gerçek kontrollü kayıt yapımızı izler — belge başlığı, denetim kontrol listesi, kabul kriterleri, yöntem, sonuçlar, denetçi rolü ve sevkiyat kararı. Tüm kimlik bilgileri demo değerleriyle (DEMO-* kodları) değiştirilmiştir; hiçbir müşteri, görsel sanat, sipariş veya fiyat verisi açığa çıkmaz.'
+    - q: 'Numuneler neden anonimleştirilmiş?'
+      a: 'Alıcı gizliliği önce gelir. Müşteri adları, görsel sanat, sipariş detayları, tedarikçi bilgileri ve fiyatlar tasarım gereği korunur. Anonimleştirme, olası her alıcının başka bir müşterinin işini açığa çıkarmadan kayıt yapımızı ve izlenebilirliğimizi doğrulamasına imkan verir.'
+    - q: 'Projemiz için eksiksiz denetim raporları alabilir miyiz?'
+      a: 'Evet. Onaylanan projelerde siparişinize geçerli kalite belgelerini paylaşırız — kalite denetim planı, giriş, süreç içi, hava sızdırmazlığı, son ve ambalajlama denetim raporları ile sevkiyat onay yetkisi — parti izlenebilirliğinize bağlı olarak. Hassas ticari veriler, üzerinde anlaşıldığı şekilde NDA kapsamında kalır.'
+    - q: 'Parti bazında bir denetim kaydı neleri içerir?'
+      a: 'Her kayıt, üretim partisini geçerli şartname veya çizim revizyonuna bağlar, her denetim kalemini kabul kriteriyle birlikte kullanılan yöntem ve aletle kaydeder ve denetçi rolü, sonuç durumu ile kalite tarafından imzalanan sevkiyat kararıyla kapanır.'
+evidence_review:
+  tagline: 'Kanıt ve Doğrulama'
+  title: 'DOĞRULANMIŞ TEKNİK ŞARTNAMELER'
+  body: 'Bu sayfadaki tüm üretim iddiaları, Laixi, Qingdao tesisimizdeki Üretim Mühendisliği Ekibimiz tarafından doğrulanmıştır. Sertifikalar, QC denetim kayıtları, basınç ve yapısal test raporları ile parti izlenebilirlik kayıtları talep üzerine mevcuttur. Teknik şartnameler en son Eylül 2026’da doğrulanmıştır.'
+
+cta:
+  title: 'SUP projeniz için kalite gereksinimlerine mi ihtiyacınız var?'
+  subtitle: 'Ürün kategorinizi, hedef pazarınızı, tahmini adedi ve varsa denetim, belge veya ambalajlama gereksinimlerini paylaşın. Geçerli proje girdilerini inceler ve numune geliştirme ya da üretim planlaması için sonraki adımı öneririz. Kamuya açık olmayan şartnameler, görsel sanat veya kalite gereksinimleri paylaşılmadan önce NDA görüşmesi mümkündür.'
+  actions:
+    - variant: primary
+      text: 'Proje Kalite İncelemesi Talep Edin'
+      href: /tr/contact#quality-inquiry
+    - text: 'Kalite denetim laboratuvarımızı ziyaret edin'
+      href: /tr/randdcenter/quality-inspection-lab
+    - text: 'Denetim standartları ve QMS indirmeleri'
+      href: /tr/factory/quality-inspection
+    - text: 'Uyumsuz ürün kontrol standardı'
+      href: /tr/factory/non-conforming-control

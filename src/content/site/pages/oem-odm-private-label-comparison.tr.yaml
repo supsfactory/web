@@ -1,0 +1,128 @@
+meta:
+  title: 'OEM ve ODM ve Private Label SUP Üretimi — Karşılaştırma Rehberi'
+  description: 'OEM, ODM ve private label SUP üretimi karşılaştırması: tanımlar, mülkiyet, MOQ giriş noktaları, teslim süreleri, kalıplar, fikri mülkiyet kuralları ve en uygun senaryolar.'
+  dateModified: '2026-08-20'
+  keywords:
+    - 'OEM ve ODM ve private label'
+    - 'SUP üretim karşılaştırması'
+    - 'özel paddle board üretimi'
+    - 'Çinde OEM SUP'
+    - 'ODM SUP geliştirme'
+    - 'private label SUP'
+
+hero:
+  tagline: 'İş Birliği Yolunuzu Seçin'
+  title: 'OEM, ODM ve Private Label — Hangi Model Projenize Uygun?'
+  subtitle: 'Bir SUP fabrikasıyla çalışmanın üç yolu; her biri farklı mülkiyet, yatırım ve hız ödünleri taşır. Bu rehber farkları açıklar; böylece ilk talebinizden önce doğru yolu seçersiniz.'
+
+answer:
+  label: 'Hızlı karşılaştırma'
+  text: 'OEM: tasarımın ve spesifikasyonun sizindir — çizimlerinize göre üretiriz. ODM: mühendislik ekibimiz tahtayı brifinginize göre geliştirir — üretimden önce onaylarsınız. Private Label: yapısal değişiklik olmadan, kanıtlanmış mevcut bir platform üzerinde kendi markanız — pazara en hızlı yol. Üç yolun tamamı Çin, Qingdao’daki aynı tesiste, aynı kalite kontrol sistemi ve aynı ihracat ekibiyle yürür.'
+  verified: 'Eylül 2026'
+
+comparison_table:
+  tagline: 'Yan Yana Karşılaştırma'
+  title: 'OEM / ODM / Private Label Karşılaştırması'
+  subtitle: 'Tasarım mülkiyeti, MOQ, kalıp, teslim süresi ve fikri mülkiyet bakımından temel farklar.'
+  headers:
+    dimension: Boyut
+    oem: OEM Üretimi
+    odm: ODM Geliştirme
+    pl: Private Label
+  rows:
+    - dimension: 'Tahtayı kim tasarlar?'
+      oem: 'Siz spesifikasyonu, çizimleri veya referans tahtayı sağlarsınız'
+      odm: 'Fabrika mühendislik ekibi brifinginize göre geliştirir'
+      pl: 'Mevcut fabrika platformu — tasarım çalışması gerekmez'
+    - dimension: 'Tasarım mülkiyeti ve fikri mülkiyet'
+      oem: 'Tüm tasarımlar, kalıplar ve fikri mülkiyet hakkı sizindir'
+      odm: 'Nihai onaylanan tasarım sizindir; fabrika geliştirme süreci fikri mülkiyetini tutar'
+      pl: 'Platform tasarımının sahibi fabrikadır; marka ve grafikler sizindir'
+    - dimension: 'Kalıp / takım'
+      oem: 'Yeni şekiller için özel kalıp gerekir — tek seferlik kalıp ücreti, 15–20 ek gün'
+      odm: 'Spesifikasyona göre özel kalıp gerekebilir — aynı kalıp takvimi'
+      pl: 'Yeni kalıp yok — mevcut platform kalıbı kullanılır'
+    - dimension: 'Minimum sipariş miktarı'
+      oem: 'Onaylanan konfigürasyon başına 90–100+ adet'
+      odm: 'Onaylanan konfigürasyon başına 90–100+ adet; pilot partiler 20–50 adetten başlar'
+      pl: '5–10 adet (ortak markalama) veya 20–50 adet (mevcut platformda pilot parti)'
+    - dimension: 'Tipik teslim süresi'
+      oem: '25–35 gün + yeni kalıp gerekiyorsa 15–20 gün kalıp süresi'
+      odm: '25–35 gün + geliştirme iterasyon süresi (karmaşıklığa göre değişir)'
+      pl: '25–35 gün (kalıp gecikmesi yok)'
+    - dimension: 'Özelleştirme düzeyi'
+      oem: 'Tam — şekil, yapı, malzeme, grafikler, ambalaj'
+      odm: 'Tam — fabrika önerir, her unsuru siz onaylarsınız'
+      pl: 'Yalnızca grafikler ve ambalaj — yapısal değişiklik yok'
+    - dimension: 'Numune süreci'
+      oem: 'Spesifikasyon onayından sonra 7–12 günde 1–2 prototip numune'
+      odm: 'Tasarım onayından sonra 7–12 günde 1–2 prototip numune'
+      pl: '7–12 günde 1–2 numune — platform zaten doğrulanmış'
+    - dimension: 'En uygun olduğu durum'
+      oem: 'Mevcut tasarımı, referans tahtası veya ayrıntılı spesifikasyonu olan alıcılar'
+      odm: 'Ürün fikri veya pazar gereksinimi olan ancak ayrıntılı spesifikasyonu olmayan alıcılar'
+      pl: 'Ürün geliştirmeye yatırım yapmadan hızla markalı tahta isteyen alıcılar'
+
+scenario_cards:
+  tagline: 'Her Yolun Ne Zaman Seçileceği'
+  title: 'Gerçek Dünya Senaryoları'
+  subtitle: 'Alıcıların sık karşılaştığı durumlar ve önerilen iş birliği modeli.'
+  features:
+    - icon: '1'
+      icon_bg: 'blue'
+      title: 'Eksiksiz spesifikasyonunuz var ve tasarımın sizindir'
+      desc: 'CAD çizimleriniz, referans bir tahtanız veya ölçü, malzeme, yapı ve ambalaj gereksinimlerini içeren ayrıntılı bir spesifikasyon sayfanız var. OEM seçin — spesifikasyonunuzda birebir üretiriz.'
+      link: '/tr/factory/oem-capability'
+      link_label: 'OEM Üretimi Ayrıntıları'
+    - icon: '2'
+      icon_bg: 'green'
+      title: 'Ürün konseptiniz var ama mühendislik spesifikasyonu yok'
+      desc: 'Hedef pazarı, fiyat noktasını ve performans gereksinimlerini biliyorsunuz, ancak tahtayı geliştirmek için mühendislik desteğine ihtiyacınız var. ODM seçin — ekibimiz brifinginize göre geliştirir, üretimden önce onaylarsınız.'
+      link: '/tr/odm-manufacturing'
+      link_label: 'ODM Geliştirme Ayrıntıları'
+    - icon: '3'
+      icon_bg: 'orange'
+      title: 'Hızla markalı tahta istiyorsunuz, ürün geliştirme yok'
+      desc: 'Ürün geliştirmeye yatırım yapmadan kaliteli tahtaların üzerine kendi logonuzu basmak isteyen bir distribütör, resort veya kiralama işletmesisiniz. Private Label seçin — konseptten teslimata en hızlı yol.'
+      link: '/tr/solutions/private-label-sup'
+      link_label: 'Private Label Ayrıntıları'
+    - icon: '4'
+      icon_bg: 'purple'
+      title: 'Bir resort, kulüp veya kiralama filosu işletiyorsunuz'
+      desc: 'Parti tutarlılığı, yedek parça ve yeniden siparişlerde renk yönetimiyle birlikte dayanıklı, yüksek kullanım frekanslı SUP paketlerine ihtiyacınız var. Ticari Filo Programımızı seçin.'
+      link: '/tr/solutions/resort-sup'
+      link_label: 'Ticari Filo Ayrıntıları'
+
+ip_rules:
+  tagline: 'Fikri Mülkiyet Koruması'
+  title: 'Tasarımlarınızı ve Markanızı Nasıl Koruyoruz'
+  subtitle: 'İş birliği modelinden bağımsız olarak grafikleriniz, kalıplarınız ve spesifikasyon dosyalarınız sizin mülkiyetinizde kalır.'
+  body: |
+    **Dosya paylaşımı öncesi NDA.** Herhangi bir teknik dosya paylaşımından önce bir gizlilik anlaşması imzalarız — standart yanıt süremiz 4 iş saatinin içindedir.
+
+    **Tasarım yeniden kullanımı yok.** Grafikleriniz, kalıplarınız ve spesifikasyon dosyalarınız asla başka müşterilerle paylaşılmaz veya onlara satılmaz. OEM kalıpları yalnızca size aittir. ODM tasarımları üretimden önce sizin onayınıza sunulur. Private Label platformları ortak yapılardır, ancak grafikleriniz ve markalamanız münhasırdır.
+
+    **Yalnızca B2B.** Yalnızca müşterilerimizin markaları adına üretim yaparız. Son tüketicilere satış yapmayız ve hiçbir pazarda müşterilerimizle rekabet etmeyiz.
+
+    **Kalıp mülkiyeti.** Alıcı tarafından ödenen özel kalıplar alıcıya aittir. Bunları depolar ve bakımını yaparız, ancak yazılı yetki olmadan başka müşteriler için kullanamayız.
+
+faqs:
+  tagline: 'SSS'
+  title: 'OEM, ODM ve Private Label Hakkında Sık Sorulan Sorular'
+  items:
+    - q: 'Daha sonra private labeldan OEMe geçebilir miyim?'
+      a: 'Evet. Birçok müşteri pazarı doğrulamak için private label veya pilot partiyle başlar, talep kanıtlandıktan sonra tam bir OEM programı için özel kalıplara yatırım yapar. Aynı tesis ve kalite kontrol sistemi her iki yolu da destekler.'
+    - q: 'ODM, fabrikam markamın sahibi olduğu anlamına mı gelir?'
+      a: 'Hayır. ODM kapsamında marka, grafikler ve ambalaj sizindir. Fabrika tahtanın yapısını brifinginizden geliştirir ve üretimden önce tasarımı onaylarsınız. Fabrika geliştirme süreci fikri mülkiyetini tutar, ancak onaylanan ürün spesifikasyonu sizindir.'
+    - q: 'Private label kalite olarak OEMden daha mı düşük?'
+      a: 'Hayır. Üç yolun tamamı aynı tesiste, aynı kalite kontrol sistemi ve aynı ihracat ekibiyle yürür. Private label tahtalar, tam 18 PSI / 24 saat basınç testi ve aynı 100 maddelik montaj kontrol listesiyle, kanıtlanmış platformlar üzerinde üretilir.'
+    - q: 'Hangi modeli seçeceğimden emin değilsem ne olur?'
+      a: 'Bize durumunuzu anlatın — mühendislik ekibimiz ürün gereksinimleriniz, takviminiz ve hacim hedeflerinize göre en uygulanabilir yolu önerir. Spesifikasyon incelemesinden önce hiçbir taahhüt gerekmez.'
+    - q: 'Herhangi bir modele taahhüt etmeden önce numune alabilir miyim?'
+      a: 'Evet. 1–2 prototip numune 7–12 günde sevk edilir. Numune maliyeti toplu siparişinizden mahsup edilir. Bu, herhangi bir hacim taahhüdünden önce yapı ve kaliteyi değerlendirmenizi sağlar.'
+
+cta:
+  title: 'SUP Projenizi Görüşmeye Hazır mısınız?'
+  subtitle: 'Ürün gereksinimlerinizi, pazarınızı ve hacim hedeflerinizi bize anlatın — en uygulanabilir iş birliği yolunu önerelim.'
+  button: 'SUP Projenizi Başlatın'
+  note: '1 iş günü içinde yanıt · Dosya paylaşımı öncesi NDA mümkündür'

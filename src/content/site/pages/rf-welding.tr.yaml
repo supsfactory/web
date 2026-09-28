@@ -1,0 +1,99 @@
+meta:
+  title: 'RF Kaynak Merkezi — SUP Dielektrik Dikiş Bağlama | {SITE}'
+  description: 'Şişirilebilir SUP boardlarında uyumlu ve hava sızdırmaz dikişler sağlayan radyofrekans kaynak teknolojisi. Soyma testleri, hava tutma doğrulaması ve müşteriye özel dikiş teknikleri.'
+  dateModified: '2026-08'
+back_text: 'Ar-Ge Merkezine Dön'
+home_label: 'Ana Sayfa'
+
+answer:
+  label: 'Doğrudan cevap'
+  text: '15 kW dielektrik RF preslerimiz PVC dikişleri 200–600 °C sıcak hava eşdeğerinde moleküler olarak bağlar ve ardından her kaynağı doğrular: ASTM D751 uygunluğunda soyma testleri, 18.0 PSI seviyesinde hava tutma testleri; dikişler birim bazında belgelenir ve izlenebilir hale getirilir.'
+  verified: 'Eylül 2026'
+
+hero:
+  tagline: 'Laboratuvar 03'
+  title: 'RF Kaynak Merkezi'
+  subtitle: 'Basınç altında dayanıklı kaynaklar için dielektrik bağlama teknolojisi'
+  image: 'https://assets.isupfactory.com/images/sups/products/sup-series/sup-jungle-mandala-1.webp'
+  image_alt: 'Vatrad RF kaynak dielektrik bağlama süreci'
+
+intro: 'Şişirilebilir bir SUP boardunun güvenilirliği yalnızca dikişleri kadar iyidir. Tek bir zayıf kaynak dönemin bütünlüğünü tehlikeye atabilir — ve ayak altında bir dönem arızası bir rahatsızlık değil, bir güvenlik tehlikesidir. {SITE.name} olarak, endüstriyel sınıf dielektrik kaynak preslerini titiz süreç kontrolü ve kaynak sonrası testlerle birleştiren, kendine özel bir Radyofrekans (RF) Kaynak Merkezi yatırımı yaptık. Ürettiğimiz her dikiş belgelenir, izlenebilirdir ve şişirilebilir tekneler için uluslararası standardın gerektirdiği şartları karşıladığına veya aştığına dair sertifikalandırılır.'
+
+content_html: |
+  <h2>Dikişin arkasındaki bilim</h2>
+  <p>RF kaynak, PVC kaplamalı kumaş içindeki polar molekülleri uyarmak için yüksek frekanslı elektromanyetik enerjiyi (tipik olarak 27.12 MHz) kullanır ve ısıyı tam olarak malzeme arayüzünde oluşturur. Sıcak hava veya sıcak kamas kaynağından farklı olarak RF kaynak gerçek bir moleküler bağ oluşturur — iki kumaş katmanı kaynak bölgesinde tek bir homojen malzemeye kaynaşır ve ana malzemenin kendisi kadar güçlü bir birleşim ortaya çıkar.</p>
+
+  <h2>Kaynak ekipmanları ve süreç kontrolü</h2>
+  <p>Kaynak merkezimiz şunlarla donatılmıştır:</p>
+  <table>
+    <thead><tr><th>Makine</th><th>Güç / Kapasite</th><th>Uygulama</th></tr></thead>
+    <tbody>
+      <tr><td>Dielektrik RF pres 1</td><td>15 kW, platen 2000 × 600 mm</td><td>Ana gövde dikişleri, kenar bandı ile deck arasındaki birleşimler</td></tr>
+      <tr><td>Dielektrik RF pres 2</td><td>10 kW, platen 1500 × 500 mm</td><td>Burun konisi kaynakları, tutamak yamaları, supapoz yamaları</td></tr>
+      <tr><td>CNC kontrollü RF kaynak makinesi</td><td>8 kW, XY tabla 2500 × 1200 mm</td><td>Kavisli kenar dikişleri, logo ve panel kabartma, hassas parça işleme</td></tr>
+      <tr><td>Sıcak kama otomatik kaynak makinesi</td><td>Değişken sıcaklık, en fazla 1.2 m/dk</td><td>Özel CSM malzemeleri için yedek yöntem</td></tr>
+    </tbody>
+  </table>
+  <p>Her RF pres kapalı çevrim sıcaklık ve basınç izlemeyle donatılmıştır. Kaynak parametreleri — güç, pres süresi, soğutma süresi, elektrot basıncı — malzeme tipine göre programlanır ve tam izlenebilirlik için Üretim Yürütme Sistemimizde (MES) kayıt altına alınır.</p>
+
+  <h2>Kaynak kalite testleri — her dikiş, her board</h2>
+  <p>Kaynak bütünlüğü, zorunlu dört testlik bir protokol ile doğrulanır:</p>
+  <ol>
+    <li><strong>Görsel muayene</strong> — Dikişlerin %100'ü yanma, hizasızlık, kirlenme veya eksik kaynama açısından gözle incelenir. Ret oranı eşiği: doğrusal metrenin %0,5'i.</li>
+    <li><strong>Soyma testi</strong> — Her üretim partisiyle kaynaklanmış bir numuneden 25 mm genişliğinde bir şerit kesilir. Asgari soyma kuvveti: PVC 1100 dtex için 120 N/25 mm.</li>
+    <li><strong>Hava tutma testi</strong> — Tamamlanan her board 18.0 PSI basınca çıkarılır ve 24 saat tutulur. Basınç kaybı 0.50 PSI değerini aşmamalıdır.</li>
+    <li><strong>Termal döngü testi</strong> — Numune parçalar -20 °C ile +60 °C arasında 50 döngüye tabi tutulur, ardından yeniden soyma testine sokulur. Kabul edilebilir mukavemet kaybı: &lt; %10.</li>
+  </ol>
+
+  <div class="not-prose my-10 p-6 rounded-xl bg-gray-50 dark:bg-gray-900 border border-gray-200 dark:border-gray-800">
+    <p class="text-sm font-semibold text-gray-500 mb-3 uppercase tracking-wider">Soyma Mukavemeti Karşılaştırması — RF ve Sıcak Hava Kaynağı (PVC 1100 dtex)</p>
+    <div class="space-y-3">
+      <div class="flex items-center gap-3">
+        <span class="w-24 text-xs font-medium">RF Kaynağı</span>
+        <div class="flex-1 h-6 bg-gray-200 dark:bg-gray-700 rounded">
+          <div class="h-full bg-blue-600 rounded" style="width:92%"></div>
+        </div>
+        <span class="text-xs font-bold w-12 text-right">184 N</span>
+      </div>
+      <div class="flex items-center gap-3">
+        <span class="w-24 text-xs font-medium">Sıcak Hava</span>
+        <div class="flex-1 h-6 bg-gray-200 dark:bg-gray-700 rounded">
+          <div class="h-full bg-gray-400 rounded" style="width:65%"></div>
+        </div>
+        <span class="text-xs font-bold w-12 text-right">130 N</span>
+      </div>
+      <div class="flex items-center gap-3">
+        <span class="w-24 text-xs font-medium">Standart min.</span>
+        <div class="flex-1 h-6 bg-gray-200 dark:bg-gray-700 rounded">
+          <div class="h-full bg-green-500 rounded" style="width:48%"></div>
+        </div>
+        <span class="text-xs font-bold w-12 text-right">96 N</span>
+      </div>
+    </div>
+    <p class="text-xs text-gray-400 mt-2">RF kaynak, ana malzeme mukavemetinin %90-95'ini sürekli olarak yakalar; bu da asgari değerin çok üzerindedir.</p>
+  </div>
+
+  <h2>Profesyonel uzmanlık</h2>
+  <p>Kaynak ekibimiz, kaplamalı tekstillerin dielektrik kaynaklısında 11 yıllık deneyime sahip kıdemli bir süreç mühendisi tarafından yönetilir. Her operatör, üretim dikişlerinde çalışmaya başlamadan önce 6 aylık şirket içi sertifikasyon programını tamamlar. Yıllık olarak yeniden sertifikasyon gerekir; bu süreçte, iç Grade-A standardımıza (soyma mukavemeti ≥ 160 N/25 mm) göre değerlendirilen pratik bir kaynak testi de yer alır.</p>
+
+  <h2>Özel gereksinimler için özel kaynak çözümleri</h2>
+  <p>Tek bir kaynak teknik ölçüsünün her uygulamaya uymadığını anlıyoruz. RF Kaynak Merkezimiz, özel gereksinimleri olan müşteriler için düzenli olarak müşteriye özel dikiş konfigürasyonları geliştirir:</p>
+  <ul>
+    <li><strong>Çok katmanlı takviye yamaları</strong> — kenar bantları ve burun kapakları gibi yüksek aşınmaya maruz bölgelerde, esnekliği bozmadan aşınmaya dayanıklı bir dış katman entegre eden çok geçişli RF kaynaklar geliştiriyoruz.</li>
+    <li><strong>Yüksek basınçlı board dikişleri</strong> — 15 PSI üzeri anma değerine sahip boardlar için kaynak geometrisini yükseltilmiş çalışma basıncında doğruluyor ve sınırı test raporunda belgeliyoruz.</li>
+    <li><strong>Renk değişimli panel kaynağı</strong> — iki renkli kumaş paneller (örneğin turuncu deck + gri kenar bandı), marka estetiğini görünür bir birleşim çizgisi olmadan korumak için gizli bindirmeyle kaynaklanır.</li>
+  </ul>
+
+  <h2>Size verdiğimiz taahhüt</h2>
+  <p>Teslim ettiğimiz her board, kaynak kalitesi garantimizi taşır: garanti süresi içinde herhangi bir dikiş normal kullanımda başarısız olursa, ilgili dönemi ücretsiz olarak onarır veya değiştiririz ve tekrarın önlenmesi için kök neden analizi yapılır. Bu yalnızca bir garanti değildir; gerçek dünya operasyon verileriyle desteklenen sürekli iyileştirme taahhüdüdür.</p>
+  <p>{SITE.name} markasını tercih ettiğinizde, yalnızca kaynaklanmış değil, tasarlanmış, test edilmiş ve belgelenmiş dikişleri tercih etmiş olursunuz. Bu, yüzen bir board ile performans gösteren bir board arasındaki farktır.</p>
+
+cta:
+  title: 'Kaynak gereksinimlerinizi görüşelim'
+  subtitle: 'Müşteriye özel dikiş ölçüleri, malzeme uyumluluğu veya süreç doğrulaması.'
+  actions:
+    - variant: primary
+      text: 'Kaynak ekibimizle iletişime geçin'
+      href: /tr/contact#project-brief
+    - text: 'Ar-Ge Merkezine Dön'
+      href: /tr/randdcenter

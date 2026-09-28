@@ -390,6 +390,30 @@ export const hero: Localized<HeroContent> = {
     float1: { value: '1–2 ks', label: 'Vzorek a odsouhlasení (před objemem objednávky)' },
     float2: { value: FACTS.leadTime, label: 'Termín výroby (po objednávce)' },
   },
+  tr: {
+    kicker: 'Özel Şişirilebilir SUP Üreticisi (OEM / ODM) — Çin, Qingdao',
+    titlePre: 'Şişirilebilir SUP Üreticisi ve',
+    titleAccent: 'OEM/ODM Fabrika',
+    titlePost: '',
+    sub: 'Özel şişirilebilir SUP tahtaları Çin, Qingdao’daki kendi fabrikamızda geliştirilir, prototip üretilir ve imal edilir.',
+    ctaPrimary: 'OEM Teklifi İsteyin',
+    ctaSecondary: 'SUP Ürününüzü Geliştirin',
+    ctaTertiary: 'Fabrikamızı Keşfedin',
+    ctaQuartiary: '',
+    ctaMicro: 'OEM · ODM · Özel Marka · Ürün Geliştirme · Prototip · Seri Üretim',
+    stats: [
+      { value: '12 500 m²', label: 'Kendi fabrikamız — Çin, Qingdao' },
+      { value: '120 000+', label: 'Yıllık üretilen tahta sayısı' },
+      { value: '50+', label: 'İhracat yapılan ülke' },
+      { value: FACTS.ndaWindow, label: 'NDA yanıt süresi' },
+    ],
+    mockupLabel: 'Amiral gemi platform',
+    mockupBrand: "SUP Explorer 11'",
+    mockupHint: 'Grafikleriniz · Renkleriniz · Ambalajınız',
+    heroNote: 'Doğrudan fabrikada üretim · Prototip geliştirme · Kalite kontrollü üretim · İhracat desteği',
+    float1: { value: '1–2 adet', label: 'Numune ve onay (sipariş hacmi taahhütünden önce)' },
+    float2: { value: FACTS.leadTime, label: 'Üretim süresi (siparişten sonra)' },
+  },
 }
 
 /* ─────────────────────────── home: manufacturer pledge ─────────────────────────── */
@@ -575,6 +599,18 @@ export const manufacturerPledge: Localized<ManufacturerPledgeContent> = {
       { title: 'Vaše značka, nikoli naše', body: 'Vyrábíme výhradně pod značkami našich klientů a nikdy s nimi na žádném trhu nesoutěžíme.' },
     ],
     verifyLabel: 'Ověřte, kdo jsme',
+    verifyHref: '/about/identity',
+  },
+  tr: {
+    kicker: 'Ticaret şirketi değil, üretici',
+    title: 'Siparişinizin arkasındaki fabrika — kendi fabrikamız',
+    sub: 'Bir ticaret şirketi başka fabrikaların üretimini yeniden satar. Biz kendi tesisimizi işletiyoruz. Siparişiniz ile üretim hattı arasında aracı marjı, üçüncü taraf deposu ya da hiçbir aracı katman yoktur.',
+    items: [
+      { title: 'Kayıtlı tüzel kişilik', body: 'Qingdao Vatrad Group Co., Ltd. her siparişte ve her ihracat belgesinde sözleşen taraftır.' },
+      { title: 'Tek fabrika, tek ekip', body: 'Geliştirme, kalite kontrol, üretim planlaması ve ihracat belgeleri Çin, Qingdao’daki Lajsi tesisimizde tamamen içeride yürütülür.' },
+      { title: 'Markanız, asla bizimki değil', body: 'Yalnızca müşterilerimizin markalarıyla üretiriz ve hiçbir pazarda onlarla rekabet etmeyiz.' },
+    ],
+    verifyLabel: 'Kim olduğumuzu doğrulayın',
     verifyHref: '/about/identity',
   },
 }
@@ -850,6 +886,24 @@ export const factoryProof: Localized<FactoryProofContent> = {
     ],
     note: 'MOQ se potvrzuje po posouzení specifikace, protože konstrukce, velikost desky, struktura PVC, grafika, balení a příslušenství ovlivňují spotřebu materiálu.',
   },
+  tr: {
+    kicker: 'Fabrikadan Kanıtlar',
+    title: 'Belgelendirilmiş Gerçek Fabrika',
+    sub: 'Çin, Qingdao’daki tesisimizden doğrulanabilir rakamlar — her değer, kanıtının yer aldığı sayfaya bağlanır.',
+    cta: 'Bu değeri doğrulayın',
+    stats: [
+      { value: FACTS.warehouseM2, label: 'Kendi üretim tesisimiz', href: '/factory' },
+      { value: FACTS.workers, label: 'Tesis durumu, kendi çalışanlarımız', href: '/manufacturing-capabilities' },
+      { value: '120 000+', label: 'Yıllık üretilen tahta', href: '/factory/capacity' },
+      { value: FACTS.exportCountries, label: 'İhracat yapılan ülke', href: '/proof-center' },
+    ],
+    links: [
+      { label: 'MOQ ve teslim süresi', href: '/sup-oem-moq-lead-time' },
+      { label: 'Kalite kontrol', href: '/quality' },
+      { label: 'Fabrika denetim kontrol listesi', href: '/factory-audit-checklist' },
+    ],
+    note: 'MOQ, tasarım, tahta boyutu, PVC yapısı, grafik, ambalaj ve aksesuarlar malzeme tüketimini etkilediği için teknik özellik değerlendirmesinden sonra kesinleşir.',
+  },
 }
 
 /* ─────────────────────────── home: factory evidence (verification band) ─────────────────────────── */
@@ -1021,6 +1075,17 @@ export const factoryEvidence: Localized<FactoryEvidenceContent> = {
       { title: 'Centrum důkazů', body: 'Certifikáty, zprávy třetích stran, záznamy z auditů a doklady o dodaných projektech na jednom místě.', href: '/proof-center' },
       { title: 'Ověřit továrnu', body: 'Před závazkem porovnejte naše veřejné obchodní záznamy, certifikace a návod k ověření.', href: '/verify-factory' },
       { title: 'Kontrolní list auditu továrny', body: 'Stáhněte kontrolní list pro kupující, který se používá při auditu továrny nafukovacích SUP desek — provozovna, vybavení a procesy.', href: '/factory-audit-checklist' },
+    ],
+  },
+  tr: {
+    kicker: 'Sipariş vermeden önce bizi doğrulayın',
+    title: 'Fabrika Kanıtları ve Doğrulama',
+    sub: 'Tesisimizin, ekipmanımızın, kalite sistemimizin ve ihracat kayıtlarımızın gerçek olduğuna dair bağımsız doğrulama — herhangi bir taahhüt öncesi inceleyin ve doğrulayın.',
+    cta: 'Kanıtları göster',
+    items: [
+      { title: 'Kanıt Merkezi', body: 'Sertifikalar, üçüncü taraf raporları, denetim kayıtları ve teslim edilen proje belgeleri tek bir yerde.', href: '/proof-center' },
+      { title: 'Fabrikayı doğrulayın', body: 'Taahhüt vermeden önce halka açık ticari kayıtlarımızı, sertifikalarımızı ve doğrulama kılavuzumuzu karşılaştırın.', href: '/verify-factory' },
+      { title: 'Fabrika denetim kontrol listesi', body: 'Şişirilebilir SUP tahtası fabrikası denetiminde kullanılan alıcı kontrol listesini indirin — tesis, ekipman ve süreçler.', href: '/factory-audit-checklist' },
     ],
   },
 }
@@ -1392,6 +1457,31 @@ export const why: Localized<WhyContent> = {
       },
     ],
   },
+  tr: {
+    kicker: 'Üretim Markası',
+    title: 'Vatrad Temelli',
+    sub: 'iSupfactory, Qingdao Vatrad Group Co., Ltd. şirketinin SUP ürünleri geliştirme ve üretim bölümüdür. Çin, Qingdao, Lajsi’deki 12 500 m²’lik tesisimiz 2012’den bu yana şişirilebilir ürünler imal ediyor; araştırma geliştirme, kalıp tasarımı, malzeme laboratuvarı ve üretim teknolojisi bölümünde 25’ten fazla mühendis görev alıyor ve ortalama 7 yılı aşkın şişirilebilir ürün üretimi deneyimine sahiptir. Her gün iki üretim vardiyası çalışır.',
+    image: 'https://assets.isupfactory.com/images/sups/factory/isupfactory-production-department.webp',
+    imageCaption: 'Vatrad üretim tesisi, Çin, Qingdao',
+    bullets: [
+      {
+        title: '12 500 m² tesis',
+        body: 'Kendi üretimimiz — Çin, Qingdao, Lajsi’de hammadde PVC’den hazır tahtaya kadar.',
+      },
+      {
+        title: '2012’den beri üretim',
+        body: 'SUP ve şişirilebilir ürünler için her gün iki üretim vardiyası.',
+      },
+      {
+        title: '25’ten fazla mühendis',
+        body: 'Araştırma geliştirme, kalıp tasarımı, malzeme laboratuvarı ve üretim teknolojisi bölümlerinde.',
+      },
+      {
+        title: 'Ortalama 7 yıldan fazla',
+        body: 'Mühendir başına şişirilebilir ürün üretimi deneyimi.',
+      },
+    ],
+  },
 }
 
 /* ─────────────────────────── capability strip ─────────────────────────── */
@@ -1411,6 +1501,7 @@ export const strip: Localized<string[]> = {
   fi: ['OEM & ODM', 'Oma merkki', 'Näytepalu', 'Design & grafiikka', 'Laadunvalvonta jokaisessa erässä', 'Maailmanlaajuiset vienti'],
   ru: ['OEM & ODM', 'Private Label', 'Услуга образцов', 'Дизайн и графика', 'Контроль качества каждой партии', 'Экспорт по всему миру'],
   cs: ['OEM & ODM', 'Private Label', 'Služba vzorků', 'Design a grafika', 'Kontrola kvality každé dávky', 'Export do celého světa'],
+  tr: ['OEM & ODM', 'Özel Marka', 'Numune Hizmeti', 'Tasarım ve grafik', 'Her partide kalite kontrolü', 'Dünyaya ihracat'],
 }
 
 /* ─────────────────────────── home: trust bar ─────────────────────────── */
@@ -1619,6 +1710,20 @@ export const trustBar: Localized<TrustBarContent> = {
       { value: FACTS.exportCountries, label: 'vývozní trhy EU, USA, Austrálie a Asie' },
       { value: '18 PSI / 24 h', label: '100% kontrola nahuštění a těsnosti každé desky před balením' },
       { value: 'MSL Fusion', label: 'vícevrstvé vysokofrekvenční svařování s tkanými konstrukcemi drop-stitch' },
+    ],
+  },
+  tr: {
+    stats: [
+      { value: `MOQ ${MOQ_SHORT.standardRun}`, label: 'seri üretim için; pilot partiler 20–50 adetten başlar' },
+      { value: FACTS.sampleTime, label: 'grafik onaylandıktan sonra numuneler masanızda' },
+      { value: FACTS.leadTime, label: 'sipariş (PO) ve depozito onaylandıktan sonra seri üretim' },
+      { value: FACTS.annualCapacity, label: 'Çin, Qingdao’daki tesisimizin yıllık kendi üretim kapasitesi' },
+      { value: FACTS.warehouseM2, label: 'kendi tesisimiz, hammadde PVC’den hazır tahtaya kadar' },
+      { value: FACTS.workers, label: 'tesisimizdeki işçi ve mühendisler' },
+      { value: 'ISO 9001 · CE · BSCI', label: 'sertifikalı; REACH/RoHS uyumlu malzemeler' },
+      { value: FACTS.exportCountries, label: 'AB, ABD, Avustralya ve Asya ihracat pazarları' },
+      { value: '18 PSI / 24 h', label: 'her tahta ambalajlanmadan önce %100 basınç ve sızdırmazlık kontrolü' },
+      { value: 'MSL Fusion', label: 'drop-stitch dokuma yapılarla çok katmanlı yüksek frekanslı kaynak' },
     ],
   },
 }
@@ -1972,6 +2077,30 @@ export const solve: Localized<SolveContent> = {
       {
         title: 'Sériové dodávky — opakované a flotové objednávky',
         body: 'Velkosériová výroba pro distributory, provozovatele pronájmu a resortní skupiny s fixovanými specifikacemi, sledovatelností dávek a neměnnou konstrukcí při každé opakované objednávce.',
+      },
+    ],
+  },
+  tr: {
+    kicker: 'OEM ve ODM Üretimi',
+    title: 'SUP Ürününüzü Oluşturmanın İki Yolu',
+    sub: 'Spesifikasyonunuz varsa OEM, fikriniz varsa ODM — ayrıca kanıtlanmış bir platforma ihtiyaç duyan markalar için özel marka ve seri tedarik seçenekleri.',
+    cta: 'OEM Teklifi İsteyin',
+    items: [
+      {
+        title: 'OEM — Spesifikasyonunuza göre üretim',
+        body: 'OEM (Original Equipment Manufacturing): onayladığınız spesifikasyoya göre üretiriz — çizimlerinize, ölçülerinize, malzemelerinize, yapınıza ve ambalajınıza uygun olarak. Tasarım, kalıplar ve fikri mülkiyet size aittir.',
+      },
+      {
+        title: 'ODM — Mühendis ekibimizle tahta geliştirme',
+        body: 'ODM (Original Design Manufacturing): mühendis ekibimiz, tahta yapısını, yapıyı, grafikleri ve ambalajı sizin brifinize göre geliştirir — ister pazar konsepti, ister hedef performans, ister kanıtlanmış bir platformun iyileştirilmesi olsun. Fabrika tasarımı hazırlar; alıcı, üretim öncesinde onaylar.',
+      },
+      {
+        title: 'Özel Marka — Kanıtlanmış platformda kendi markanız',
+        body: 'Özel Marka: mevcut ve doğrulanmış bir platform üzerinde sizin markanız, grafikleriniz ve ambalajınız — kalıp geliştirme yok, yapı değişikliği yok. Konseptten teslimata en kısa yol.',
+      },
+      {
+        title: 'Seri Tedarik — Tekrarlanan ve filo siparişleri',
+        body: 'Sabit spesifikasyonlar, partiler arası izlenebilirlik ve her tekrar siparişinde değişmeyen yapı arayan distribütörler, kiralama işletmeleri ve sektör grupları için büyük ölçekli seri üretim.',
       },
     ],
   },
@@ -2426,6 +2555,37 @@ export const capability: Localized<CapabilityContent> = {
       },
     ],
   },
+  tr: {
+    kicker: 'Üretim Olanakları',
+    title: 'Altı Kendi Üretim Teknolojimiz',
+    sub: 'Aşağıdaki tüm süreçleri kendi bünyemizde yürütüyoruz. Hiçbir temel iş dışarıya verilmez.',
+    items: [
+      {
+        name: 'CNC kesim',
+        body: 'Otomatik CNC makineleri PVC, Hypalon ve drop-stitch kumaşı 0,1 mm konumlandırma hassasiyetiyle keser; bilgisayarlı yerleşim optimizasyonu malzeme israfını azaltır.',
+      },
+      {
+        name: 'Yüksek frekanslı kaynak',
+        body: '15 kW gücünde kaynak presleri sıkı dikişler sağlar. Yan bantlar üç katmanlı kaynak ile birleştirilir; bu da kenar dayanıklılığını ve darbe mukavemetini artırır.',
+      },
+      {
+        name: 'Drop-stitch çekirdek laminasyonu',
+        body: 'Binlerce iç polyester lif üst ve alt katmanı paralel tutarak 12–15 PSI’da sert bir platform oluşturur. Çekirdekler 14 fit uzunluğunda laminasyonlanır.',
+      },
+      {
+        name: 'Deck üzeri grafik',
+        body: 'Marka dosyanıza göre tam renkli dijital baskı ve çok renkli ekran baskısı. Deck üzerindeki EVA padler, kendi renkleriniz, özel logolar, kesikler ve desenlerle.',
+      },
+      {
+        name: 'Montaj ve donanım',
+        body: 'Her tahta, hat ustası tarafından imzalanan 100 maddelik bir kontrol listesinden geçer — D kancaları, halkalar, valfler, leash bağlantıları ve aksesuar montajı.',
+      },
+      {
+        name: 'İhracat ambalajı',
+        body: 'Vakumlu ambalaj, koli ve ihracat sarmalayıcıları; gerektiğinde baskılı perakende kutuları.',
+      },
+    ],
+  },
 }
 
 /* ─────────────────────────── home: quality control (How Every Board Is Verified) ─────────────────────────── */
@@ -2874,6 +3034,37 @@ export const quality: Localized<QualityContent> = {
       {
         title: 'Sledovatelnost dávek',
         body: 'Každá dávka materiálu dostane jedinečné číslo v ERP. Specifikace (BOM) každé desky je propojena s původní dávkou dodavatele. Záznamy se uchovávají po dobu 10 let v souladu s CE 2013/53/EU.',
+      },
+    ],
+  },
+  tr: {
+    kicker: 'Kalite Kontrolü',
+    title: 'Her tahta nasıl doğrulanır',
+    sub: 'Kalite bir söz değil, belgelenmiş bir süreçtir. Siparişiniz gönderilmeden önce şunlar yapılır.',
+    steps: [
+      {
+        title: 'Girdi malzeme kontrolü',
+        body: 'PVC rulolar, drop-stitch çekirdekler, valfler, yapıştırıcılar ve donanımlar kalite kontrolün onayına kadar karantinada tutulur. Herhangi bir parti hatta girmeden önce malzemeler çekme dayanımı, yırtık yayılması ve UV dayanımı testlerinden geçer.',
+      },
+      {
+        title: 'Üretim sırasında kontrol noktaları',
+        body: 'Her üretim aşamasında kalite kontrol noktaları; partinin standardına göre kaynak numuneleri alınır ve ayrılma (peel) testine tabi tutulur.',
+      },
+      {
+        title: 'Basınç sızdırmazlık testi',
+        body: 'Her bölme 18,0 PSI’ye kadar şişirilir ve sensör kaydı kesintisiz sürdürülerek 24 saat bekletilir. 24 saat içinde basıncı 0,50 PSI’den fazla düşen her bölme elenir ve kaynak kontrolü için yeniden değerlendirmeye alınır.',
+      },
+      {
+        title: 'Yapı doğrulaması',
+        body: 'Anma yükünde eğilme, D halkası kopma dayanımı (D halkası başına ≥150 kgf), deck pad yapışma ayrılması (≥3,5 N/cm) ve valf oturması, son kontrolden önce spesifikasyona göre doğrulanır.',
+      },
+      {
+        title: 'Son kontrol',
+        body: 'Her tahta için 100 maddelik kontrol listesi ve onaylı numunaya göre ölçü ve ağırlık doğrulaması.',
+      },
+      {
+        title: 'Parti izlenebilirliği',
+        body: 'Her malzeme partisi ERP’de benzersiz bir numara alır. Her tahtanın spesifikasyonu (BOM), tedarikçiden gelen ilk partiyle eşleştirilir. Kayıtlar CE 2013/53/EU uygunluğunda 10 yıl saklanır.',
       },
     ],
   },
@@ -3801,6 +3992,70 @@ export const commercial: Localized<CommercialContent> = {
       },
     ],
   },
+  tr: {
+    kicker: 'Ticari Koşullar',
+    title: 'Önceden Açıklanan Ticari Koşullar',
+    sub: 'Standart minimum sipariş miktarı (MOQ), numuneler ve üretim ile teslimat koşulları aşağıda belirtilmiştir. Yeni kalıp, özel malzeme, uygunluk testleri veya bireysel ambalaj gerektiren projeler için fiyatlamayı ayrıca yapıyoruz.',
+    cells: [
+      {
+        label: 'Minimum sipariş miktarı (MOQ)',
+        lines: [
+          'Ortak markalama: seçili mevcut platformlarda 5–10 adetten başlar',
+          'Pilot parti: mevcut platformlarda 20–50 adet',
+          'Standart hacim: malzemeye ve ambalaj gereksinimine bağlı olarak onaylanan konfigürasyonda 90–100+ adet',
+        ],
+      },
+      {
+        label: 'Teslim süresi',
+        lines: [
+          'Sipariş (PO) ve depozito onayından itibaren 25–35 gün',
+          'Kendi kalıbınızın geliştirilmesi: kalıp üretimi için +15–20 gün',
+          'Acil üretim ana sezonda mümkündür',
+        ],
+      },
+      {
+        label: 'Numuneler',
+        lines: [
+          'Prototip numuneler 7–12 gün içinde gönderilir',
+          'Numune maliyeti seri sipariş faturasından düşülür',
+        ],
+      },
+      {
+        label: 'İhracat ve dokümantasyon',
+        lines: [
+          'İhracat dokümantasyonunu kendi ekibimiz hazırlar',
+          'Standart ihracat ambalajı; talep üzerine baskılı perakende kutular',
+        ],
+      },
+    ],
+    certs: 'ISO 9001 — kalite yönetimi · AB pazarına yönelik modeller için CE belgelendirmesi (kapsam her proje için doğrulanır) · BSCI sosyal sorumluluk (denetim raporu talep üzerine) · Her siparişe eşlik eden REACH ve RoHS dokümantasyonu.',
+    moqTiers: [
+      {
+        stage: 'Numune ve onay',
+        quantity: 'onay için 1–2 adet',
+        purpose: 'Seri üretimden önce şekli, renkleri, baskıyı ve ambalajı doğrulamak',
+        note: '7–12 gün; render değil, fiziksel tahta',
+      },
+      {
+        stage: 'Düşük maliyetli ortak markalama',
+        quantity: 'seçili mevcut platformlarda 5–10 adetten başlar',
+        purpose: 'Logonun uygulandığı, kanıtlanmış platformda tasarımı denemek',
+        note: 'Yeni grafikleri onaylamanın en hızlı yolu',
+      },
+      {
+        stage: 'Pilot parti / başlangıç stoğu',
+        quantity: 'mevcut platformlarda 20–50 adet',
+        purpose: 'Pazarı test etmek veya gerçek ürünle ticareti başlatmak',
+        note: 'Mevcut platformlarda en küçük hacim',
+      },
+      {
+        stage: 'Standart seri üretim',
+        quantity: 'malzemeye ve ambalaj gereksinimine bağlı olarak onaylanan konfigürasyonda 90–100+ adet',
+        purpose: 'Adet başına en iyi fiyatla düzenli seriler',
+        note: '90–100+ adet; yeni şekiller ayrı kalıp gerektirir (üretimi için +15–20 gün)',
+      },
+    ],
+  },
 }
 
 /* ─────────────────────────── who we serve / customer needs ─────────────────────────── */
@@ -4368,6 +4623,45 @@ export const serve: Localized<ServeContent> = {
       },
     ],
   },
+  tr: {
+    kicker: 'Kimi hedefliyoruz',
+    title: 'Kendi SUP ürünlerini geliştiren şirketler için',
+    sub: 'Yeni bir SUP markası mı çıkarıyorsunuz, yoksa mevcut outdoor ürün hattınızı mı genişletiyorsunuz? Üretim çözümlerimiz iş modelinize uyarlanabilir.',
+    segments: [
+      {
+        slug: 'sup-brands',
+        title: 'SUP Markaları',
+        body: 'Marka konumlandırmanıza, hedef pazarınıza ve ürün stratejinize uygun özel SUP tahtaları geliştirin.',
+        points: ['Bireysel tasarım', 'Marka grafikleri', 'Ürün geliştirme', 'Özel marka'],
+        cta: 'Özel SUP tahtaları',
+        href: '/product-development',
+      },
+      {
+        slug: 'outdoor-companies',
+        title: 'Outdoor ve su sporu şirketleri',
+        body: 'Ürün portföyünüzü, pazarınız için tasarlanmış özel SUP ürünleriyle genişletin.',
+        points: ['Ürün özelleştirme', 'Birden fazla model', 'OEM üretim'],
+        cta: 'Özel SUP tahtalarını keşfedin',
+        href: '/solutions/custom-sup',
+      },
+      {
+        slug: 'distributors-retailers',
+        title: 'Distribütörler ve perakendeciler',
+        body: 'Aynı seri ürünlerle rekabet etmek yerine, dikkat çeken SUP tahta koleksiyonları oluşturun.',
+        points: ['Özel marka', 'Bireysel ambalaj', 'Satışa hazır ürünler'],
+        cta: 'Daha fazla bilgi edinin',
+        href: '/solutions/private-label-sup',
+      },
+      {
+        slug: 'resorts-clubs',
+        title: 'Resortlar, kulüpler ve kuruluşlar',
+        body: 'Operasyon koşullarınıza ve kullanıcılarınıza uygun SUP ürünleri ve ekipmanlar geliştirin.',
+        points: ['Bireysel spesifikasyon', 'Markalama', 'Büyük ölçekli seri üretim'],
+        cta: 'Çözümleri keşfedin',
+        href: '/solutions/resort-sup',
+      },
+    ],
+  },
 }
 
 /* ─────────────────────────── solutions ─────────────────────────── */
@@ -4761,6 +5055,33 @@ export const solutions: Localized<SolutionsContent> = {
         title: 'Výrobní požadavky',
         body: 'Nastavte, jak se Váš projekt vyrábí.',
         points: ['Množství', 'Specifikace', 'Použití'],
+      },
+    ],
+  },
+  tr: {
+    kicker: 'Özelleştirme Olanakları',
+    title: 'Şirketiniz için özel SUP ürün çözümleri',
+    sub: 'Markalar için OEM/ODM programlarından distribütör ve satın alma ekipleri için özel marka serilerine kadar — her talep üretilebilir bir ürüne dönüşür.',
+    pillars: [
+      {
+        title: 'Tahta tasarımı',
+        body: 'Tahtayı, ürününüzün gerektirdiği şekilde uyarlayın.',
+        points: ['Form', 'Boyut', 'Kalınlık', 'Yapı'],
+      },
+      {
+        title: 'Grafik ve markalama',
+        body: 'Kimliğinizi her tahtaya yansıtın.',
+        points: ['Logo', 'Renkler', 'Kaynak dosyalar', 'Baskı'],
+      },
+      {
+        title: 'Aksesuarlar',
+        body: 'Ürünü uygun parçalarla tamamlayın.',
+        points: ['Kürek', 'Çanta', 'Kanal', 'Ambalaj'],
+      },
+      {
+        title: 'Üretim gereksinimleri',
+        body: 'Projenizin nasıl üretileceğini belirleyin.',
+        points: ['Miktar', 'Spesifikasyon', 'Kullanım'],
       },
     ],
   },
@@ -5174,6 +5495,34 @@ export const studio: Localized<StudioContent> = {
       },
     ],
   },
+  tr: {
+    kicker: 'Yapılandırıcı',
+    title: 'Spesifikasyon Oluşturucu',
+    sub: 'Bileşimler arasında ilerleyin — tahta formundan teslim edileceği kutuya kadar. Her katmanı siz belirlersiniz.',
+    scrollHint: 'Kaydırarak inceleyin',
+    steps: [
+      {
+        title: 'Form ve boyut',
+        body: 'Kanıtlanmış bir platform seçin veya kendi konturunuzu girin — uzunluk, genişlik, kalınlık, kenar profili ve rocker.',
+      },
+      {
+        title: 'Yapı',
+        body: 'Tek katmanlı, çift katmanlı veya sandviç yapı. Yan destek sayısı ve güçlendirme bölgeleri, kullanım amacına göre belirlenir.',
+      },
+      {
+        title: 'Deck üzeri grafik',
+        body: 'Marka dosyalarınıza göre basılmış, kendi renklerinizle tam yüzey kaplayan deck grafikleri. Ön baskı ekibimiz konseptleri üretimde işlenebilir verilere dönüştürür.',
+      },
+      {
+        title: 'Deck kaplama',
+        body: 'Kendi marka renklerinizde EVA; kendi logolarınız, olukları, kesikleri ve dokularıyla.',
+      },
+      {
+        title: 'Aksesuarlar ve ambalaj',
+        body: 'Kürekler, pompalar, çantalar, kanallar ve leash(ler) — taleplerinize göre üretilir ve monte edilir. Baskılı kutular ve spesifikasyonunuza göre perakende ambalajlar.',
+      },
+    ],
+  },
 }
 
 /* ─────────────────────────── products ─────────────────────────── */
@@ -5400,6 +5749,20 @@ export const productFilters: Localized<{ all: string; groups: ProductFilterGroup
       { key: 'fishing', label: 'Rybolov' },
       { key: 'kids', label: 'Děti' },
       { key: 'multi', label: 'Vícemístné' },
+    ],
+  },
+  tr: {
+    all: 'Tüm platformlar',
+    groups: [
+      { key: 'all-around', label: 'All-around' },
+      { key: 'race', label: 'Yarış' },
+      { key: 'surf', label: 'Surf' },
+      { key: 'touring', label: 'Touring' },
+      { key: 'yoga', label: 'Yoga' },
+      { key: 'whitewater', label: 'Akıntı' },
+      { key: 'fishing', label: 'Balıkçılık' },
+      { key: 'kids', label: 'Çocuk' },
+      { key: 'multi', label: 'Çok kişilik' },
     ],
   },
 }
@@ -8443,6 +8806,223 @@ export const products: Localized<ProductsContent> = {
       },
     ],
   },
+  tr: {
+    kicker: 'Üretim Platformları',
+    title: 'Özelleştirilebilir SUP Platformları',
+    sub: 'Her seri bir üretim platformudur — bir başlangıç noktası seçin, şekli, grafikleri ve teknik özellikleri ürününüze göre uyarlayalım.',
+    items: [
+      {
+        slug: 'sup-explorer-11',
+        series: 'all-around',
+        sku: 'SUP-EX11',
+        name: "SUP Explorer 11'",
+        tagline: 'Her yönüyle çok yönlü klasik',
+        desc: 'En çok tercih edilen çok yönlü tahtamız — yeni başlayanlar için geniş gövde ve kararlılık, ileri seviye için çeviklik ve her maceraya uygun kolay taşınabilirlik. Yeni markaların çoğu için varsayılan başlangıç noktası.',
+        uses: ['Başlangıç', 'Çok Yönlü', 'Aile'],
+        for: ['Girişimler', 'Kiralama filoları'],
+        specs: "11'0\" × 32\" × 6\" · drop-stitch PVC · 15 PSI · 19 lbs (8.6 kg)",
+        artwork: 'Askeri sınıf drop-stitch çekirdek · güçlendirilmiş kenar bantları · 2+1 kanat · komple paket',
+        image: 'https://assets.isupfactory.com/site/products/2026/all-around/all-around-03.avif',
+        hue: 195,
+      },
+      {
+        slug: 'sup-ocean-pulse',
+        series: 'whitewater',
+        sku: 'SUP-OP11',
+        name: 'Ocean Pulse Serisi',
+        tagline: 'Dalgalar için topografik edisyon',
+        desc: 'Okyanus dalgaları, Tiffany Blue tonlarında topografik ufuklara dönüşür; yüksek hassasiyetli mekanik kabartma ve renk uyumlu aksesuar setiyle.',
+        uses: ['Yaşam tarzı', 'Sakin su', 'Tasarım'],
+        for: ['Yaşam tarzı markaları', 'Butik turizm'],
+        specs: "11'0\" × 32\" × 6\" · drop-stitch PVC · 15 PSI · 20 lbs (9.1 kg)",
+        artwork: 'Dijital UV baskı + mekanik presleme · uyumlu aksesuarlar',
+        image: 'https://assets.isupfactory.com/site/products/2026/whitewater/whitewater-01.avif',
+        hue: 210,
+      },
+      {
+        slug: 'sup-cheetah-surge',
+        series: 'surf',
+        sku: 'SUP-CS11',
+        name: 'Cheetah Surge Edisyonu',
+        tagline: 'Vahşi doğa ruhlu premium edisyon',
+        desc: 'Vahşi doğanın gücü sanatsal zarafetle buluşuyor — pastel pembe, turkuaz ve mercan renklerinde çita motifi, solmayan çok renkli EVA kaplama ile uygulanmış.',
+        uses: ['Yaşam tarzı', 'Sakin su', 'Tasarım'],
+        for: ['Yaşam tarzı markaları', 'Sosyal medya odaklı markalar'],
+        specs: "11'0\" × 32\" × 6\" · drop-stitch PVC · 15 PSI · 20 lbs (9.1 kg)",
+        artwork: 'Çok renkli EVA kaplama + UV baskı · soyulmaya dayanıklı yapı',
+        image: 'https://assets.isupfactory.com/site/products/2026/surf/surf-01.avif',
+        hue: 28,
+      },
+      {
+        slug: 'sup-medusa-glow',
+        series: 'yoga',
+        sku: 'SUP-MG11',
+        name: 'Medusa Glow Serisi',
+        tagline: 'Denizanası edisyonu',
+        desc: 'Rüya dünyasının sualtı evreni — serin nane tonunda renkli denizanasları, deniz yıldızları ve mercan resifleri; solmayan EVA grafikler ve yoga için olağanüstü yanal denge ile.',
+        uses: ['Yoga', 'Tropikal', 'Yaşam tarzı'],
+        for: ['Yoga stüdyoları', 'Tropikal markalar'],
+        specs: "11'0\" × 32\" × 6\" · drop-stitch PVC · 15 PSI · 20 lbs (9.1 kg)",
+        artwork: 'Çok renkli EVA kaplama + UV baskı · gövdeye sabitlenmiş taşıma halkası',
+        image: 'https://assets.isupfactory.com/site/products/2026/kids-teens/kids-teens-05.avif',
+        hue: 260,
+      },
+      {
+        slug: 'sup-dolphin-wave',
+        series: 'touring',
+        sku: 'SUP-DW11',
+        name: 'Dolphin Wave Serisi',
+        tagline: '360° deniz edisyonu',
+        desc: 'Sudan atlayan yunuslar ve çok katmanlı orta mavi dalgalar; CNC frezeli EVA parça ve kenar boyunca uzanan, deck’i 360° saran ekran baskı ile.',
+        uses: ['Deniz', 'Sakin su', 'Tasarım'],
+        for: ['Deniz markaları', 'Resortlar'],
+        specs: "11'0\" × 32\" × 6\" · drop-stitch PVC · 15 PSI · 20 lbs (9.1 kg)",
+        artwork: 'CNC frezeli EVA parça + kenar ekran baskısı · PANTONE TPG’ye göre renk',
+        image: 'https://assets.isupfactory.com/site/products/2026/touring/touring-02.avif',
+        hue: 210,
+      },
+      {
+        slug: 'sup-flowing-lotus',
+        series: 'yoga',
+        sku: 'SUP-FL11',
+        name: 'Flowing Lotus Serisi',
+        tagline: 'Doğu sanatı ve wellness esintili edisyon',
+        desc: 'Geleneksel Doğu fırça boyaması; lotus, karo balığı ve terazi motifleri — doğrudan kaymaz tabana lazerle kazınır, bu nedenle aşınmaz ve solmaz. Sakin kürek ve yoga için tasarlandı.',
+        uses: ['Yoga', 'Meditasyon', 'Sakin su'],
+        for: ['Yoga stüdyoları', 'Wellness markaları'],
+        specs: "11'0\" × 32\" × 6\" · drop-stitch PVC · 15 PSI · 20 lbs (9.1 kg)",
+        artwork: 'Çift katmanlı lazer kazımalı EVA + gradyan UV baskı · dinamik renkli kanallar',
+        image: 'https://assets.isupfactory.com/site/products/2026/yoga/yoga-01.avif',
+        hue: 150,
+      },
+      {
+        slug: 'sup-jungle-mandala',
+        series: 'all-around',
+        sku: 'SUP-JM11',
+        name: 'Jungle Mandala Serisi',
+        tagline: 'Tropikal kutsal geometri',
+        desc: 'Tropikal enerji kutsal geometriyle yorumlanıyor — Tiffany Blue ve Mercan Orange tonlarında hibiskus, kolibri ve mandala totemleri; tam preslemede kusursuz simetriyle.',
+        uses: ['Tropikal', 'Kıyı', 'Tasarım'],
+        for: ['Tropikal markalar', 'Turizm'],
+        specs: "11'0\" × 32\" × 6\" · drop-stitch PVC · 15 PSI · 20 lbs (9.1 kg)",
+        artwork: 'Çift katmanlı lazer kazımalı EVA + UV baskı + kenar ekran baskısı · bozulmayan geometri',
+        image: 'https://assets.isupfactory.com/site/products/2026/all-around/all-around-10.avif',
+        hue: 28,
+      },
+      {
+        slug: 'sup-leviathan-wake',
+        series: 'race',
+        sku: 'SUP-LW11',
+        name: 'Leviathan Wake Serisi',
+        tagline: 'Balina edisyonu',
+        desc: 'Geometrik gövde desenleri ve minimalist siyah-beyaz dalgalarla yükseltilmiş mavi balina totemi — okyanusla bağ kurduğunu hisseden kürekçiler için.',
+        uses: ['Okyanus', 'Çok yönlü', 'Tasarım'],
+        for: ['Deniz markaları', 'Outdoor markalar'],
+        specs: "11'0\" × 32\" × 6\" · drop-stitch PVC · 15 PSI · 20 lbs (9.1 kg)",
+        artwork: 'Dijital UV baskı + mekanik presleme · taban logosunda esnek PVC boya',
+        image: 'https://assets.isupfactory.com/site/products/2026/race/race-01.avif',
+        hue: 195,
+      },
+      {
+        slug: 'sup-ocean-voyager',
+        series: 'all-around',
+        sku: 'SUP-OV11',
+        name: 'Ocean Voyager Serisi',
+        tagline: 'Deniz kaplumbağası edisyonu',
+        desc: 'Okyanusun baş gezginine saygı — derin turkuaz, gök mavisi ve mercan tonlarında geometrik deniz kaplumbağası grafiği; tümüyle uyumlu aksesuar setiyle.',
+        uses: ['Touring', 'Okyanus', 'Çok yönlü'],
+        for: ['Touring markaları', 'Outdoor markalar'],
+        specs: "11'0\" × 32\" × 6\" · drop-stitch PVC · 15 PSI · 20 lbs (9.1 kg)",
+        artwork: 'Çok renkli EVA kaplama + UV baskı · renk uyumlu sırt çantası, pompa ve leash',
+        image: 'https://assets.isupfactory.com/site/products/2026/all-around/all-around-12.avif',
+        hue: 170,
+      },
+      {
+        slug: 'sup-tropical-breeze',
+        series: 'all-around',
+        sku: 'SUP-TB11',
+        name: 'Tropical Breeze Serisi',
+        tagline: 'Ada tatili edisyonu',
+        desc: 'Ada tatilinin tamamı bir kanvas: güneş, hindistancevizi ağaçları ve sahil sahneleri; burnun üzerindeki mikro illüstrasyonlardan arka bölgedeki soyut renkli EVA lekelerine geçer.',
+        uses: ['Dinlenme', 'Yaşam tarzı', 'Kıyı'],
+        for: ['Turizm markaları', 'Resortlar'],
+        specs: "11'0\" × 32\" × 6\" · drop-stitch PVC · 15 PSI · 20 lbs (9.1 kg)",
+        artwork: 'Dijital UV baskı + kesilmiş EVA paneller · burnun üzerinde illüstrasyonlu manzara',
+        image: 'https://assets.isupfactory.com/site/products/2026/all-around/all-around-17.avif',
+        hue: 330,
+      },
+      {
+        slug: 'sup-rheo-race',
+        series: 'race',
+        sku: 'SUP-RHEO01',
+        name: 'RHEO Race Serisi',
+        tagline: 'Karbon hibrit yarış edisyonu',
+        desc: 'Karbon hibritli şişirilebilir yapı ve hızlı kayışlar için agresif rocker ile en üst seviye yarış tahtası — yarış sürüşleri, sprint antrenmanları ve rijitlik ile hızın belirlediği teknik parkurlar için tasarlandı.',
+        uses: ['Yarış', 'Hız', 'Antrenman'],
+        for: ['Yarış takımları', 'Antrenörler'],
+        specs: 'Karbon hibrit matris · hızlı kayış için rocker · aerodinamik hız profili',
+        artwork: 'Karbon hibritli şişirilebilir yapı · kayış için hız rockeri',
+        image: 'https://assets.isupfactory.com/site/products/2026/race/race-11.avif',
+        hue: 195,
+      },
+      {
+        slug: 'sup-fishing',
+        series: 'fishing',
+        sku: 'SUP-FSH01',
+        name: 'Şişirilebilir Balıkçılık SUP Tahtası',
+        tagline: 'Katamaran stabiliteli balıkçılık edisyonu',
+        desc: 'Özellikle balıkçılık için geliştirilmiş şişirilebilir SUP tahtası; olağanüstü ikincil denge için çift taraflı hava bölmesi (katamaran tipi), oluk tutucular, deck üzerinde balık ölçüm cetveli ve güçlendirilmiş çalışma yapısı.',
+        uses: ['Balıkçılık', 'Stabilite', 'Çok yönlülük'],
+        for: ['Balıkçılık markaları', 'Rehberler'],
+        specs: 'Çift taraflı hava bölmesi · 10–80 cm balık ölçüm cetveli · oluk tutucular',
+        artwork: 'Güçlendirilmiş çalışma yapısı · çok noktalı metal D halkalar',
+        image: 'https://assets.isupfactory.com/site/products/2026/fishing/fishing-01.avif',
+        hue: 210,
+      },
+      {
+        slug: 'sup-mini',
+        series: 'kids',
+        sku: 'SUP-MINI01',
+        name: 'Mini SUP Serisi',
+        tagline: '3’ü 1 arada: çocuk / surf / boogie board',
+        desc: 'Çocuk SUP tahtasına, şişirilebilir surfboard’a veya boogie board’a dönüşen son derece kompakt hibrit tahta — kısa, geniş ve olağanüstü kararlı profil ile birlikte zırhana dayanıklı deck.',
+        uses: ['Çocuk', 'Surf', 'Seyahat'],
+        for: ['Çocuk markaları', 'Resortlar'],
+        specs: 'SUP / surf / boogie board hibrit geometrisi · kısa geniş gövde · zırhana dayanıklı deck',
+        artwork: 'Çok işlevli hibrit geometri · aşınmaya dayanıklı deck malzemesi',
+        image: 'https://assets.isupfactory.com/site/products/2026/mini/mini-01.avif',
+        hue: 28,
+      },
+      {
+        slug: 'sup-giant',
+        series: 'multi',
+        sku: 'SUP-GNT01',
+        name: 'Giant SUP — çok kişilik takım tahtası',
+        tagline: '6–8 kişilik takım platformu',
+        desc: '6–8 kişilik dev boy çok kişilik SUP tahtası: 16,4–17 fit uzunluk, 59–60 inç genişlik, 8 inç kalınlık, iki valf, 8–12 taşıma halkası ve 4+1 kanat sistemi.',
+        uses: ['Grup', 'Takım', 'Boş zaman'],
+        for: ['Resortlar', 'Kiralama filoları'],
+        specs: "16'4\"–17'0\" × 59\"–60\" × 8\" · 1200–1400 l · 11–15 PSI · 4+1 kanat",
+        artwork: 'İki valf · 8–12 neopren taşıma halkası · 4+1 kanat sistemi',
+        image: 'https://assets.isupfactory.com/site/products/2026/giant/giant-03.avif',
+        hue: 195,
+      },
+      {
+        slug: 'sup-lure-skiff',
+        series: 'fishing',
+        sku: 'SUP-LSK01',
+        name: 'Utility SUP — Lure Skiff',
+        tagline: '120 cm’lik ultra geniş tahtada sahte balıkla av',
+        desc: 'Sahte balıkla av için 120 cm’lik ultra geniş tahta; merkezi kesik, sualtı saydam pencere, 400 kg taşıma kapasitesi ve güvenilir atış ile oturarak av için ponton yapı.',
+        uses: ['Balıkçılık', 'Çok yönlülük', 'Stabilite'],
+        for: ['Balıkçılık markaları', 'Balıkçılar'],
+        specs: '350 × 120 × 15 cm · 400 kg taşıma kapasitesi · üç kanal · saydam pencere',
+        artwork: 'Merkezi kesik alan · sualtı saydam pencere · ponton yapı',
+        image: 'https://assets.isupfactory.com/site/products/2026/utility-lure/utility-lure-01.avif',
+        hue: 170,
+      },
+    ],
+  },
 }
 
 /* ─────────────────────────── video showcases ─────────────────────────── */
@@ -8810,6 +9390,31 @@ export const videoShowcase: Localized<{
         { t: 'Protiskluzový náklad na palubě' },
         { t: 'Kování a pružná lana' },
         { t: 'Vypuštění vzduchu, složení a zabalení' },
+      ],
+    },
+  },
+  tr: {
+    launch: {
+      badge: 'Marka lansmanı',
+      title: 'Kendi SUP markanızı lansman etmeyi mi düşünüyorsunuz?',
+      sub: 'Bir SUP markası lansman etmek için kendi fabrikanıza ihtiyacınız yok. Ürün hattınızın arkasındaki üretim ortağıyız: spesifikasyon, mühendislik, numune, kalite kontrol, ambalaj ve ihracata hazır üretim — hepsi tek sözleşme ve tek bir sorumlu ekip kapsamında.',
+      points: [
+        { t: 'Konseptten üretime tam OEM/ODM', d: 'Özel tahta grafikleri, logo entegrasyonu, deck padler ve özel ambalaj.' },
+        { t: 'Düşük MOQ ile esnek lansman', d: 'Büyük sermayeyi bağlamadan pazarı test edebilmeniz için küçük parti desteği.' },
+        { t: 'Tam donanım setleri', d: 'Yüksek performanslı kürekler, pompalar, leash(ler) ve seyahat çantaları hazır.' },
+        { t: 'Kurumsal düzeyde kalite ve belgelendirme', d: 'Katı QA/QC protokolleri, basınç testleri ve küresel ihracat uyumluluğu.' },
+      ],
+    },
+    process: {
+      badge: 'Fabrikanın içinden',
+      title: 'Şişirilebilir bir SUP nasıl doğar',
+      sub: 'Yumuşak bir tahtanın taş gibi sert hale nasıl dönüştüğünü hiç merak ettiniz mi? Tesisimizde beş adım.',
+      points: [
+        { t: 'Hassas kesim ve UV baskı' },
+        { t: '%100 hava sızdırmaz ısı kaynağı' },
+        { t: 'Kaymaz deck pad' },
+        { t: 'Donanım ve bungee ip' },
+        { t: 'Havayı alma, katlama ve paketleme' },
       ],
     },
   },
@@ -9335,6 +9940,42 @@ export const works: Localized<WorksContent> = {
     ],
     note: 'Schválený vzorek je smlouva. Každá deska v dávce se s ním porovnává.',
   },
+  tr: {
+    kicker: 'SUP Ürün Geliştirme',
+    title: 'Briften seriye — tesisimizde ürün geliştirme',
+    sub: 'Talebin alınmasından hazır ürüne kadar — her adım kendi tesisimizde gerçekleşir.',
+    steps: [
+      {
+        title: 'Talebin alınması',
+        body: 'Spesifikasyonunuzu, hedef pazarınızı, uygunluk gereksinimlerinizi ve öngörülen hacimleri topluyoruz. NDA, dosyaların paylaşılmasından önce imzalanır.',
+      },
+      {
+        title: 'Mühendislik değerlendirmesi',
+        body: 'Tahta tipini, ölçüleri, yapıyı, malzemeleri ve donanımı üretilebilirlik açısından değerlendiririz. Tespit edilmiş maliyet faktörleriyle yazılı bir rapor alırsınız.',
+      },
+      {
+        title: 'Baskı öncesi hazırlık',
+        body: 'Marka dosyalarınızı baskıya hazır verilere dönüştürürüz. Renkler, asıl baskıdan önce prova baskıyla ayarlanır ve doğrulanır.',
+      },
+      {
+        title: 'Prototip',
+        body: 'Fiziksel prototip şekli, rijitliği, ağırlığı ve yüzey kaplamasını doğrular. 7–12 gün içinde göndeririz.',
+      },
+      {
+        title: 'Numune onayı',
+        body: 'Fiziksel numuneyi onaylarsınız. Numune onaylanıp parti referans numarası olarak kaydedilmeden hiçbir şey üretime alınmaz.',
+      },
+      {
+        title: 'Seri üretim',
+        body: 'Yukarıda anlatılan kalite kontrol süreciyle, malzeme partisi seviyesine kadar izlenebilirlik sağlayarak kendi tesisimizde üretim yaparız.',
+      },
+      {
+        title: 'İhracata hazır teslimat',
+        body: 'Vakumlu ambalaj, koli, dokümantasyon ve ihracata hazır teslim.',
+      },
+    ],
+    note: 'Onaylı numune sözleşmedir. Parti içindeki her tahta onunla karşılaştırılır.',
+  },
 }
 
 /* ─────────────────────────── home: board categories ─────────────────────────── */
@@ -9592,6 +10233,23 @@ export const boardCategories: Localized<BoardCategoriesContent> = {
       { id: 'fishing', label: 'Rybolov', desc: 'Stabilní platformy s držáky rybářského prutu a pracovní konstrukcí.', image: 'https://assets.isupfactory.com/site/products/2026/fishing/fishing-01.avif', href: '/products/sup-fishing' },
       { id: 'kids', label: 'Dětské SUP', desc: 'Menší a lehčí desky vyvinuté pro děti.', image: 'https://assets.isupfactory.com/site/products/2026/kids-teens/kids-teens-05.avif', href: '/products/sup-mini' },
       { id: 'multi', label: 'Vícemístné', desc: 'Velkoformátové týmové desky pro 6–8 osob.', image: 'https://assets.isupfactory.com/site/products/2026/giant/giant-03.avif', href: '/products/sup-giant' },
+    ],
+  },
+  tr: {
+    kicker: 'Tahtalarımız',
+    title: 'Ürün konseptinden üretime hazır SUP tahtalarına',
+    sub: 'Her tahta kategorisi bir üretim platformudur — bir başlangıç noktası seçin, şekli, grafikleri ve teknik özellikleri ürününüze göre uyarlayalım.',
+    viewLabel: 'İnceleyin',
+    items: [
+      { id: 'all-around', label: 'All-around', desc: 'Her seviyedeki kürekçi için çok yönlü SUP tahtaları.', image: 'https://assets.isupfactory.com/site/products/2026/all-around/all-around-03.avif', href: '/products/sup-explorer-11' },
+      { id: 'touring', label: 'Touring', desc: 'Uzun mesafe, keşif ve macera için tahtalar.', image: 'https://assets.isupfactory.com/site/products/2026/touring/touring-02.avif', href: '/products/sup-dolphin-wave' },
+      { id: 'race', label: 'Yarış', desc: 'Yarışlar ve sportif kürek için hız tahtaları.', image: 'https://assets.isupfactory.com/site/products/2026/race/race-01.avif', href: '/products/sup-leviathan-wake' },
+      { id: 'whitewater', label: 'Akıntı', desc: 'Nehir taşları ve aktif dinlenme için dayanıklı tahtalar.', image: 'https://assets.isupfactory.com/site/products/2026/whitewater/whitewater-01.avif', href: '/products/sup-ocean-pulse' },
+      { id: 'yoga', label: 'Yoga', desc: 'Yoga ve fitness için tasarlanmış geniş deck’li tahtalar.', image: 'https://assets.isupfactory.com/site/products/2026/yoga/yoga-01.avif', href: '/products/sup-flowing-lotus' },
+      { id: 'surf', label: 'Surf', desc: 'Dalga aşma ve sörf için çevik tahtalar.', image: 'https://assets.isupfactory.com/site/products/2026/surf/surf-01.avif', href: '/products/sup-cheetah-surge' },
+      { id: 'fishing', label: 'Balıkçılık', desc: 'Oluk tutucular ve çalışma yapısıyla kararlı platformlar.', image: 'https://assets.isupfactory.com/site/products/2026/fishing/fishing-01.avif', href: '/products/sup-fishing' },
+      { id: 'kids', label: 'Çocuk SUP', desc: 'Çocuklar için geliştirilmiş daha küçük ve hafif tahtalar.', image: 'https://assets.isupfactory.com/site/products/2026/kids-teens/kids-teens-05.avif', href: '/products/sup-mini' },
+      { id: 'multi', label: 'Çok kişilik', desc: '6–8 kişi için dev boy takım tahtaları.', image: 'https://assets.isupfactory.com/site/products/2026/giant/giant-03.avif', href: '/products/sup-giant' },
     ],
   },
 }
@@ -10104,6 +10762,41 @@ export const platforms: Localized<PlatformsContent> = {
       },
     ],
   },
+  tr: {
+    kicker: 'Üretim Platformları',
+    title: 'Temel Platformlar',
+    sub: 'Temel platformlar, katalog ürünleri değil. Her ölçü, yapı ve motif projeye göre belirlenir.',
+    items: [
+      {
+        title: 'All-around',
+        body: 'Perakende serileri, kiralama filoları ve outdoor programları için klasik rekreasyon platformları.',
+        uses: ['Perakende serileri', 'Kiralama filoları', 'Outdoor programları'],
+        cta: 'Bu platform için teklif isteyin',
+        href: '/contact',
+      },
+      {
+        title: 'Touring',
+        body: 'Uzun mesafe geçişleri, hayvan gözlemi ve seferler için daha uzun sular.',
+        uses: ['Uzun mesafe geçişleri', 'Hayvan gözlemi', 'Seferler'],
+        cta: 'Bu platform için teklif isteyin',
+        href: '/contact',
+      },
+      {
+        title: 'Yarış',
+        body: 'Kulüpler, yarışlar ve yarış takımları için hız formları.',
+        uses: ['Kulüpler', 'Etkinlikler', 'Yarış takımları'],
+        cta: 'Bu platform için teklif isteyin',
+        href: '/contact',
+      },
+      {
+        title: 'Çok işlevli',
+        body: 'Okullar, kiralama işletmeleri ve kurumsal alıcılar için yüksek ömürlü, dayanıklı tahtalar.',
+        uses: ['Okullar', 'Kiralama işletmeleri', 'Kurumsal alıcılar'],
+        cta: 'Bu platform için teklif isteyin',
+        href: '/contact',
+      },
+    ],
+  },
 }
 
 /* ─────────────────────────── gallery ─────────────────────────── */
@@ -10516,6 +11209,34 @@ export const gallery: Localized<GalleryContent> = {
       },
     ],
   },
+  tr: {
+    kicker: 'Üretim Projeleri',
+    title: 'Son üretimler',
+    sub: 'Tesisimizden teslim edilen üretim projeleri — alıcılara gerçekten işe yarayan rakamlarla.',
+    projects: [
+      {
+        tag: 'Parti izlenebilirliği',
+        title: 'Üretim ve izleme belgelerinin teslimi',
+        body: 'Her parti kalite dokümantasyonuyla gönderilir — kontrol protokolleri, tahtalara özel seri numaraları ve imzalı teslim tutanağı. Her şey ERP sisteminde on yıllık izlenebilirlikle saklanır. Fotoğrafta, tesiste gerçek üretim ve izleme belgelerinin teslim tutanağı yer alıyor.',
+        hue: 195,
+        image: '/出货放行与批次追溯记录交接.jpg',
+      },
+      {
+        tag: 'Kulüp takımı',
+        title: 'Kulüp takımı için tahtalar — yarış platformu',
+        body: 'Yarış platformu; numune aşamasında kapatılan spesifikasyon değişiklikleri ve kulüp grafikleriyle. Kalıp iki yıllık dönem boyunca kullanıldı; böylece filo genişletme siparişi özgün filoya birebir uydu.',
+        hue: 28,
+        image: 'https://assets.isupfactory.com/site/products/2026/surf/surf-01.avif',
+      },
+      {
+        tag: 'Marka serisi genişletme',
+        title: 'Marka serisinin genişletilmesi — şişirilebilir SUP tahtaları',
+        body: 'Tanınmış bir su sporu markası, ürün gamını şişirilebilir SUP tahtası serisiyle genişletti: mühendislik değerlendirmesi, özel kalıp, üç ölçü ve ölçekleme öncesi grafik ile sızdırmazlık kontrollü ilk 50 adetlik parti — hem tasarım hem kalıp markaya aittir.',
+        hue: 210,
+        image: 'https://assets.isupfactory.com/site/products/2026/all-around/all-around-03.avif',
+      },
+    ],
+  },
 }
 
 /* ─────────────────────────── buyer's guides (home) ─────────────────────────── */
@@ -10838,6 +11559,28 @@ export const guides: Localized<GuidesContent> = {
       {
         title: 'Certifikace CE pro nafukovací SUP desky',
         body: 'Co CE skutečně zahrnuje, které pět dokumentů si vyžádat a jak ověřit, že je v certifikátu uveden Váš model.',
+        href: '/news/ce-certification-inflatable-sup',
+      },
+    ],
+  },
+  tr: {
+    kicker: 'Alıcılar için kılavuzlar',
+    title: 'Üretim kılavuzları',
+    sub: 'Her SUP markasının sipariş vermeden önce sorduğu sorular — sade bir dille ve bizim gerçek koşullarımızla yanıtlandı.',
+    guides: [
+      {
+        title: 'Private label: adım adım eksiksiz kılavuz',
+        body: 'Fabrika seçiminden üretime kadar — yeni markalar için altı adımlık tüm süreç.',
+        href: '/news/private-label-sup-guide',
+      },
+      {
+        title: 'SUP OEM MOQ ve fiyatlandırma',
+        body: '1–2 numuneden 90–100+ adetlik seri üretimlere kadar MOQ kademeleri, altı maliyet etkeni ve kaliteden ödün vermeden maliyeti düşürmenin beş yolu.',
+        href: '/news/sup-oem-moq-pricing',
+      },
+      {
+        title: 'Şişirilebilir SUP tahtaları için CE belgelendirmesi',
+        body: 'CE gerçekte neleri kapsıyor, talep etmeniz gereken beş belge ve sertifikada kendi modelinizin yer aldığını nasıl doğrulayacağınız.',
         href: '/news/ce-certification-inflatable-sup',
       },
     ],
@@ -11361,6 +12104,43 @@ export const manufacturingGuides: Localized<GuidesContent> = {
       {
         title: 'Certifikace CE pro nafukovací SUP desky',
         body: 'Co CE skutečně zahrnuje, které pět dokumentů si vyžádat a jak ověřit, že je v certifikátu uveden Váš model.',
+        href: '/news/ce-certification-inflatable-sup',
+      },
+    ],
+  },
+  tr: {
+    kicker: 'Üretim kılavuzları',
+    title: 'Fabrikadan bitmiş ürüne',
+    sub: 'Eksiksiz tedarik kütüphanesi — özel bir SUP projesinin her aşaması, gerçek teslim sürelerimiz, koşullarımız ve belgelerimizle.',
+    guides: [
+      {
+        title: 'SUP OEM üretici nasıl seçilir',
+        body: 'Gerçek bir fabrikayı aracıdan ayıran denetim soruları: belgeler, kalite kontrol, numuneler ve mülkiyet.',
+        href: '/news/how-to-choose-sup-oem-manufacturer',
+      },
+      {
+        title: 'SUP ürün geliştirme takvimi',
+        body: '7–12 günde numune, 25–35 günde üretim, kalıp için 15–20 gün — aşama aşama eksiksiz takvim.',
+        href: '/news/custom-sup-development-timeline',
+      },
+      {
+        title: 'Sipariş vermeden önce hazırlanacak bilgiler',
+        body: 'Fabrikanın ilk seferde doğru fiyat vermesini sağlayan ve teknik şartname revizyonunu önleyen beş ayrıntı.',
+        href: '/news/info-needed-before-sup-production',
+      },
+      {
+        title: 'Private label: adım adım eksiksiz kılavuz',
+        body: 'Fabrika seçiminden üretime kadar — yeni markalar için altı adımlık tüm süreç.',
+        href: '/news/private-label-sup-guide',
+      },
+      {
+        title: 'SUP OEM MOQ ve fiyatlandırma',
+        body: '1–2 numuneden 90–100+ adetlik seri üretimlere kadar MOQ kademeleri, altı maliyet etkeni ve kaliteden ödün vermeden maliyeti düşürmenin beş yolu.',
+        href: '/news/sup-oem-moq-pricing',
+      },
+      {
+        title: 'Şişirilebilir SUP tahtaları için CE belgelendirmesi',
+        body: 'CE gerçekte neleri kapsıyor, talep etmeniz gereken beş belge ve sertifikada kendi modelinizin yer aldığını nasıl doğrulayacağınız.',
         href: '/news/ce-certification-inflatable-sup',
       },
     ],
@@ -12320,6 +13100,73 @@ export const faq: Localized<FaqContent> = {
       },
     ],
   },
+  tr: {
+    kicker: 'SSS',
+    title: 'Üretim SSS',
+    sub: 'Alıcıların sipariş vermeden önce sorduğu sorular — bizim gerçek koşullarımızla yanıtlandı.',
+    items: [
+      {
+        q: 'iSupfactory ne üretir?',
+        a: 'iSupfactory, küresel markalar ve işletmeler için özelleştirilmiş şişirilebilir SUP tahtaları ve ilgili su sporu ürünleri konusunda uzmanlaşmış profesyonel bir SUP üretim fabrikasıdır — Çin, Qingdao şehrindeki kendi 12.500 m² tesisimizde geliştirilir, numunelenir ve üretilir.',
+      },
+      {
+        q: 'OEM ile ODM arasındaki fark nedir?',
+        a: `OEM: onayladığınız teknik şartnameye göre üretiriz — çizimleriniz, ölçüleriniz, malzemeleriniz ve ambalajınız. Tasarımın ve fikri mülkiyetin sahibi sizsiniz. ODM: mühendislik ekibimiz tahtayı sizin brifiniz doğrultusunda geliştirir — ister bir pazar konsepti, ister bir performans hedefi, ister kanıtlanmış bir platformun uyarlanması olsun — ve üretim öncesinde siz onaylarsınız. Private label, yapısal değişiklik yapmadan mevcut ve doğrulanmış bir platforma kendi markanızı yerleştirir. Hem OEM hem de ODM rotası aynı tesisten, aynı kalite kontrol sisteminden ve aynı ihracat ekibinden geçer; ODM, markalı bir tahtaya en hızlı yoldur: ${MOQ_SHORT.standardRun} adetten başlar, numuneler ${FACTS.sampleTime} içinde hazırlanır.`,
+      },
+      {
+        q: 'Minimum sipariş miktarınız (MOQ) nedir?',
+        a: `Küçük partilerde eş markalama 5–10 adetle başlar; pilot partiler 20–50 adetten başlar. Standart hacimli üretim ${MOQ_SHORT.standardRun} adetten başlar. Özel kalıplı formlar, karmaşıklıklarına göre hacim kademesinde üretilir.`,
+      },
+      {
+        q: 'Üretim ne kadar sürer?',
+        a: 'Onaylanmış sipariş (PO) ve peşinat sonrasında 25–35 gün. Özel kalıp, kalıp geliştirmeye 15–20 gün ekler. Sezonluk acil siparişler için hızlı üretim seçeneği mevcuttur.',
+      },
+      {
+        q: 'Numuneyi ne kadar sürede alabilirim?',
+        a: 'Prototip numuneler, onaylanan grafik ve şartnameden sonra genellikle 7–12 gün içinde gönderilir.',
+      },
+      {
+        q: 'Hangi belgelere sahipsiniz?',
+        a: 'Kalite yönetimi için ISO 9001, AB pazarlarına yönelik modeller için CE belgelendirmesi (kapsam proje bazında doğrulanır) ve geçerli BSCI sosyal uyum sertifikası; denetim raporu talep üzerine sunulur. REACH ve RoHS belgeleri her siparişle birlikte verilir.',
+      },
+      {
+        q: 'İhracat belgelerini siz mi hazırlıyorsunuz?',
+        a: 'Evet. İhracat belgeleri ve ihracata uygun ambalajlama kendi içimizde yürütülür; AB, ABD, Avustralya ve Asya dahil 50 ve üzeri ülkede markalara tedarik sağlarız.',
+      },
+      {
+        q: 'Tasarımım diğer müşterilere gösterilir mi?',
+        a: 'Hayır. Grafik, kalıp ve şartname dosyaları sizin mülkiyetinizde kalır. Herhangi bir dosya paylaşımından önce NDA imzalarız ve müşteri kalıplarını ya da tasarımlarını asla yeniden kullanmaz veya yeniden satmayız.',
+      },
+      {
+        q: 'Kendi SUP markanızı satıyor musunuz?',
+        a: 'Hayır. Yalnızca müşterilerimizin markalarıyla üretim yaparız. Nihai tüketicilere satış yapmayız ve hiçbir pazarda müşterilerimizle rekabet etmeyiz.',
+      },
+      {
+        q: 'Zaten sattığım bir tahtayı taklit edebilir misiniz?',
+        a: 'Evet. Fiziksel bir numune veya eksiksiz şartname gönderin; mühendislik ekibimiz malzeme, layup, toleranslar ve maliyet etkenlerini içeren bir üretilebilirlik raporu hazırlar.',
+      },
+      {
+        q: 'Logomuzla SUP tahtaları üretebilir misiniz?',
+        a: 'Evet. Özel markalama — logolar, renkler, grafikler ve yüzey uygulamaları — ürün tasarımına ve üretime kabul edilen şartnamelere göre işlenir. Tüm marka ve grafik dosyalarının sahibi sizsiniz.',
+      },
+      {
+        q: 'Tamamen yeni bir SUP ürünü geliştirebilir misiniz?',
+        a: 'Evet. Özel ürün geliştirme sizin konseptinizle, eskizlerinizle, şartnamelerinizle veya pazar gereksinimlerinizle başlar. Seri üretim öncesinde şartname incelemesi, yapısal mühendislik, prototip numuneleme ve onay aşamalarından geçeriz.',
+      },
+      {
+        q: 'Şişirilebilir SUP tahtalarında hangi malzemeleri kullanıyorsunuz?',
+        a: `Şişirilebilir SUP tahtaları, hedef ağırlık, rijitlik ve fiyat seviyesine göre seçilen PVC katman ve yoğunluk seçenekleriyle drop-stitch yönteminde üretilir; kullanılan malzemeler REACH/RoHS uyumludur ve kalite belgeleri geçerlidir (ISO 9001, CE, BSCI).`,
+      },
+      {
+        q: 'Yeni veya girişim seviyesindeki SUP markalarıyla çalışıyor musunuz?',
+        a: `Evet. OEM/ODM projeleri ürün gereksinimlerinize, hedef pazarınıza ve hacminize göre geliştirilir — pilot partiler 20–50 adetten, standart hacimli üretim ise ${MOQ_SHORT.standardRun} adetten başlar.`,
+      },
+      {
+        q: 'OEM SUP teklifi için hangi bilgileri vermeliyim?',
+        a: 'En faydalı bilgiler: ürün tipi, hedef pazar, tahta ölçüsü veya şartnameleri, istenen yapı, markalama gereksinimleri, tahmini miktar, ambalaj gereksinimleri ve hedef lansman takvimi. Ekibimiz bir iş günü içinde mühendislik değerlendirmesi ve fiyat teklifiyle geri döner.',
+      },
+    ],
+  },
 }
 
 export const homeFaq: Localized<FaqContent> = {
@@ -12645,6 +13492,29 @@ export const homeFaq: Localized<FaqContent> = {
       },
     ],
   },
+  tr: {
+    kicker: faq.tr.kicker,
+    title: faq.tr.title,
+    sub: faq.tr.sub,
+    items: [
+      {
+        q: 'iSupfactory kimdir?',
+        a: 'iSupfactory, Çin, Qingdao merkezinde OEM ve ODM sistemiyle çalışan bir SUP üreticisidir: ürün geliştirme, prototip üretimi, seri üretim, kalite kontrolü ve ihracat üretimi konusunda markalara, distribütörlere ve outdoor segmentindeki şirketlere hizmet verir.',
+      },
+      {
+        q: 'iSupfactory bir OEM üreticisi midir?',
+        a: 'Evet. iSupfactory; ölçüler, malzemeler, yapı, grafik, aksesuarlar ve ambalaj dahil müşteriyle birlikte kararlaştırılan şartnamelere göre şişirilebilir SUP tahtaları üretir. Brifing doğrultusunda sıfırdan bir SUP geliştirmek isteyen markalar için ODM ürün geliştirme de mevcuttur.',
+      },
+      faq.tr.items[1],
+      faq.tr.items[2],
+      faq.tr.items[3],
+      faq.tr.items[5],
+      {
+        q: 'Alıcılar fabrikayı denetleyebilir ya da üçüncü taraf incelemesi yaptırabilir mi?',
+        a: 'Evet. Alıcı denetimlerini memnuniyetle karşılıyoruz ve SGS, TÜV, BV ile Intertek kuruluşlarıyla düzenli olarak çalışıyoruz. Üçüncü taraf incelemesi üretimin herhangi bir aşamasında — giriş malzeme kontrolü, üretim sürecinde kontrol veya son inceleme — organize edilebilir; inceleme raporları talep üzerine sunulur.',
+      },
+    ],
+  },
 }
 
 /* ─────────────────────────── CTA band ─────────────────────────── */
@@ -12740,6 +13610,12 @@ export const cta: Localized<CtaContent> = {
     body: 'Ať už máte kompletní produktovou specifikaci, nebo koncept teprve vzniká, náš tým pomůže posoudit další krok. Řekněte nám, co chcete vytvořit — prostudujeme Vaše požadavky a prodiskutujeme nejpraktičtější cestu od konceptu k výrobě.',
     button: 'Zahájit Váš SUP projekt',
     note: 'Odpověď do 1 pracovního dne · NDA na vyžádání ještě před výměnou souborů · info@isupfactory.com · +86-13305324192',
+  },
+  tr: {
+    title: 'SUP ürününüzü geliştirmeye hazır mısınız?',
+    body: 'İster elinizde eksiksiz bir ürün şartnamesi olsun, ister konseptiniz geliştirme aşamasında olsun; ekibimiz bir sonraki adımı değerlendirmenize yardımcı olur. Ne üretmek istediğinizi anlatın — gereksinimlerinizi inceler ve konseptten üretime kadar en uygulanabilir yolu birlikte görüşürüz.',
+    button: 'SUP projenizi başlatın',
+    note: '1 iş günü içinde yanıt · Dosya paylaşımından önce talep üzerine NDA · info@isupfactory.com · +86-13305324192',
   },
 }
 
@@ -13192,6 +14068,37 @@ export const valueProp: Localized<ValuePropContent> = {
       },
     ],
   },
+  tr: {
+    kicker: 'Bizim rolümüz',
+    title: 'Bir SUP fabrikasından fazlası',
+    sub: 'Birçok üretici standart bir paddle board üretebilir. Bizim rolümüz farklıdır. iSupfactory, işletmelerin ilk fikirden üretime hazır bir ürüne geçmesine yardımcı olan özel SUP ürün geliştirme ve üretim ortağıdır.',
+    cards: [
+      {
+        title: 'Ürün geliştirme',
+        body: 'Konseptinizi, eskizlerinizi, şartnamelerinizi veya pazar gereksinimlerinizi üretilebilir bir SUP ürününe dönüştürüyoruz.',
+      },
+      {
+        title: 'Özel üretim',
+        body: 'Ürün yapısını, ölçülerini, grafikleri, renkleri, aksesuarları ve ambalajı gereksinimlerinize göre özelleştiriyoruz.',
+      },
+      {
+        title: 'Prototip geliştirme',
+        body: 'Numune geliştirme ve testlerle ürünü seri üretime geçmeden önce değerlendirmenizi sağlıyoruz.',
+      },
+      {
+        title: 'Üretim desteği',
+        body: 'Tasarım onaylandıktan sonra, prototipten tekrarlanabilir seri üretime geçiş sürecini biz yönetiyoruz.',
+      },
+      {
+        title: 'Kalite kontrol',
+        body: 'Üretim boyunca yapılan kalite kontrolleri, bitmiş ürünlerin kararlaştırılan şartnamelere uygunluğunu güvence altına alır.',
+      },
+      {
+        title: 'Küresel tedarik',
+        body: 'Ambalaj ve ihracat belgeleri konusundaki desteğimiz, tedarik sürecini kolaylaştırır.',
+      },
+    ],
+  },
 }
 
 /* ─────────────────────────── home: role boundary (Where We Stop, You Start) ─────────────────────────── */
@@ -13439,6 +14346,22 @@ export const boundary: Localized<BoundaryContent> = {
       { ours: 'Certifikační dokumentace a obaly na úrovni pro export', theirs: 'Vztahy s koncovými zákazníky a poprodejní podpora' },
     ],
     footer: 'Vaše soubory s podklady, lisovními formami a specifikacemi zůstávají Vaším vlastnictvím — nikdy je znovu nepoužíváme, neprodáváme dál ani neukazujeme ostatním klientům.',
+  },
+  tr: {
+    kicker: 'Kim olduğumuz',
+    title: 'Bir SUP fabrikası tarafından kuruldu, bir ticaret platformu değil',
+    sub: 'Bir pazar yeri değil, üretim ortağıyız. Rolümüz müşterilerin fikirleri, tasarımları ve ürün gereksinimlerini üretilebilir SUP ürünlerine dönüştürmesine yardımcı olmaktır. Markanız sizindir. Pazarı siz kontrol edersiniz. Biz üretim yürütmesini destekleriz.',
+    oursTitle: 'Biz üstleniyoruz',
+    theirsTitle: 'Sizde kalır',
+    rows: [
+      { ours: 'Şartname incelemesi ve üretilebilirlik değerlendirmesi', theirs: 'Marka adı, kimlik ve konumlandırma' },
+      { ours: 'Yapısal mühendislik, malzeme seçimi, kalıp geliştirme', theirs: 'Fiyatlandırma, kanallar ve satış' },
+      { ours: 'Deck grafiklerinde ön baskı ve kendi marka dosyalarınızdan basım', theirs: 'Tüm marka ve grafik dosyalarının mülkiyeti' },
+      { ours: 'Prototip hazırlama, numune üretimi ve numune onay belgeleri', theirs: 'Her numune için nihai onay' },
+      { ours: 'Parti üretimi, süreç içi kalite kontrolü ve son inceleme', theirs: 'Pazarınız, müşterileriniz, verileriniz' },
+      { ours: 'Belgelendirme dokümantasyonu ve ihracata uygun ambalajlama', theirs: 'Nihai müşteri ilişkileri ve satış sonrası destek' },
+    ],
+    footer: 'Grafik dosyalarınız, kalıplarınız ve şartname dosyalarınız sizin mülkiyetinizde kalır; asla yeniden kullanılmaz, yeniden satılmaz veya başka bir müşteriye gösterilmez.',
   },
 }
 
@@ -14042,6 +14965,42 @@ export const about: Localized<AboutContent> = {
       ],
     },
   },
+  tr: {
+    kicker: 'Hakkımızda',
+    title: 'iSupfactory Hakkında',
+    sub: 'Özel SUP Üretim Ortağınız',
+    story: [
+      'Biz, dünyanın dört bir yanındaki markalar, distribütörler ve satın alma ekipleri için tahta üreten bir şişirilebilir SUP OEM/ODM fabrikasıyız. Bu yolda hep aynı tür müşterilerle karşılaştık: net bir ürün vizyonu var, ancak onu üretecek kendi tesisi bulunmayan markalar ve alıcılar.',
+      'Bu nedenle iSupfactory tam olarak onlar için kuruldu. Kademeli asgari miktarlar — 5–10 adetlik ortak markalama partilerinden başlayarak — eksiksiz mühendislik ve tasarım desteği ve ilk siparişinizi yüzüncü siparişiniz kadar ciddiye alan bir üretim ekibi. Markayı siz getirirsiniz; fabrikayı biz yönetiriz.',
+    ],
+    values: [
+      { title: 'Önce Kalite', body: 'Her tahta çok noktalı kalite kontrolünden geçer — malzemeler, kaynak dikişler, baskı, montaj ve ambalaj üretimin her aşamasında kontrol edilir.' },
+      { title: 'Aracı Değil, Üretici', body: 'Tasarım, kalıp mühendisliği, prototip, üretim ve testler tek çatı altında yapılır — sizinle tesis arasında aracı bir masası boşluğu yoktur.' },
+      { title: 'Tasarımıyla Esnek', body: 'Kademeli MOQ değerleri, modüler seçenekler ve gerçekçi teslim süreleri markaların deneme siparişlerinden hacimli üretimlere kadar büyümesini sağlar.' },
+    ],
+    capabilities: ['OEM / ODM / özel marka', 'Özel kalıplar', 'Numune hizmeti', 'Tasarım ve grafik', 'Çok noktalı kalite kontrol', 'İhracat belgeleri'],
+    stats: [
+      { value: '90–100+ adet', label: 'Standart hacimli MOQ (onaylı yapılandırma başına)' },
+      { value: '7–12 gün', label: 'Numune teslim süresi' },
+      { value: '25–35 gün', label: 'Üretim teslim süresi' },
+      { value: '20–50 adet', label: 'Pilot sipariş MOQ değeri' },
+    ],
+    strength: [
+      { title: 'Ürün Geliştirme', body: 'Konsept eskizlerinden üretim çizimlerine kadar — mühendislerimiz, hedeflediğiniz performans ve fiyata ulaşmak için tahtanın şeklini, rocker geometrisini, kalınlığını ve drop-stitch yapısını iyileştirir.' },
+      { title: 'OEM Üretim', body: 'Kesin şartnamenize göre üretim: malzemeler, renkler, logo konumu, aksesuarlar ve ambalaj; onaylı her yapılandırma için 90–100+ adetten başlayan standart hacimli partiler halinde.' },
+      { title: 'ODM Çözümler', body: 'Kendi tesisimizdeki kanıtlanmış platformlarımızla başlayın — all-around, touring, race, yoga ve daha fazlası — ve hızlı, düşük riskli bir lansman için markalamayı, grafikleri ve donanımı özelleştirin.' },
+      { title: 'Mühendislik Desteği', body: 'Kalıp mühendisliği, prototipleme ve numune iterasyonu tek çatı altında; seri üretim öncesinde her aşamada görsel doğrulama ve grafik onayı ile birlikte.' },
+      { title: 'Kalite Yönetimi', body: 'Malzemeler, kaynak dikişler, baskı, montaj ve ambalaj üzerinde çok noktalı kalite kontrolü; ayrıca numune üzerinde ve sevkiyat öncesinde yapılan incelemeler, üçüncü taraf olarak da talep edebileceğiniz denetimlerdir.' },
+      { title: 'Küresel Teslimat', body: '50 ve üzeri pazardaki markalar için ihracat belgeleri, ihracata uygun ambalajlama ve kendi bünyemizde dokümantasyon desteği.' },
+    ],
+    partnering: {
+      title: 'Küresel İşletmelerle İş Birliği',
+      body: [
+        'iSupfactory; güvenilir bir şişirilebilir paddle board fabrikasına ihtiyaç duyan SUP markaları, distribütörler, resortlar, okullar ve outdoor şirketleriyle çalışır — ilk deneme siparişinden konteyner ölçeğindeki programlara kadar.',
+        'Bize pazarınızı ve hedef fiyatınızı söyleyin; iş modelinize uygun bir teknik föy, MOQ ve teslim süreleriyle yanıt verelim.',
+      ],
+    },
+  },
 }
 
 /* ─────────────────────────── customizer page ─────────────────────────── */
@@ -14313,6 +15272,24 @@ export const customizer: Localized<CustomizerContent> = {
     boardLabel: 'VAŠE ZNAČKA',
     cta: 'Vytvořit Váš design',
   },
+  tr: {
+    kicker: 'SUP Tahtanızı Tasarlayın',
+    title: 'Üretimden Önce SUP Konseptinizi Görselleştirin',
+    sub: 'Markanızın gerçek bir tahtada nasıl görüneceğini önizleyin — bir renk seçin, tasarımın canlı olarak değiştiğini izleyin, ardından eksiksiz tasarım için logonuzu bize gönderin.',
+    status: 'Etkileşimli Önizleme',
+    statusBody: 'Önce paleti deneyin, sonra fikrinizi bize iletin — ekibimiz tasarımınızın tüm detaylarını içeren ücretsiz bir maket hazırlayacak.',
+    steps: [
+      { title: 'Tahta modelini seçin', body: 'All-around platformlarından touring ve yoga formlarına kadar — her biri gerçekçi oranlarla.' },
+      { title: 'Renkleri seçin', body: 'Marka paletinizi seçin ve tahtanın görünümünün canlı olarak değiştiğini izleyin.' },
+      { title: 'Logonuzu yükleyin', body: 'Logonuzu ve grafiklerinizi deck üzerine yerleştirin — boyutunu ve konumunu ayarlayın.' },
+      { title: 'Maketi oluşturun', body: 'Özel SUP tasarımınızın önizlemesini dışa aktarın ve ekibinizle paylaşın.' },
+    ],
+    mockupLabel: 'Canlı maket önizlemesi',
+    mockupBrand: "SUP Explorer 11'",
+    stepLabel: 'Adım',
+    boardLabel: 'MARKANIZ',
+    cta: 'Tasarımınızı oluşturun',
+  },
 }
 
 /* ─────────────────────────── products page extras ─────────────────────────── */
@@ -14438,6 +15415,14 @@ export const productsPage: Localized<ProductsPageContent> = {
     customTitle: 'Jakýkoli produkt lze přizpůsobit',
     customBody: 'Nic neodesíláme ze skladu hotové. Každá deska se vyrábí na míru podle Vašich volb na každé úrovni.',
     customPoints: ['Tvar a rozměr', 'Barvy a grafika po celé desce', 'Návrh loga a podložky z EVA', 'Doplňky a balení'],
+  },
+  tr: {
+    kicker: 'Ürün Platformları',
+    title: 'Özelleştirilebilir SUP Platformları',
+    sub: 'Aşağıdaki modellerin her biri bir üretim platformudur. Birini başlangıç noktası olarak seçin; şekli, grafikleri, renkleri ve teknik özellikleri sizin ürününüze göre uyarlayalım.',
+    customTitle: 'Her Ürün Özelleştirilebilir',
+    customBody: 'Hiçbir şey stoktan sevk edilmez. Her tahta, her katmanda sizin tercihlerinize göre sizin için üretilir.',
+    customPoints: ['Şekil ve ölçü', 'Renkler ve tahta genelinde grafik', 'Logo ve EVA ped tasarımı', 'Aksesuarlar ve ambalaj'],
   },
 }
 
@@ -14610,6 +15595,17 @@ export const catalogDownload: Localized<CatalogContent> = {
     successTitle: 'Poptávka přijata',
     successBody: 'Naše obchodní oddělení odešle kompletní katalog produktů a tabulku MOQ na adresu {email} do jednoho pracovního dne.',
   },
+  tr: {
+    kicker: 'Ürün Kataloğu',
+    title: 'Eksiksiz kataloğu ve MOQ tablosunu edinin',
+    body: 'Şartnamaları, grafik seçenekleri, MOQ kademeleri, numune süreleri ve ambalajıyla birlikte on platformun tamamı — satış ekibimiz tarafından bir iş günü içinde e-postanıza gönderilir.',
+    emailLabel: 'Kurumsal e-posta',
+    emailPlaceholder: 'siz@sirketiniz.com',
+    submit: 'Kataloğu Talep Edin',
+    secure: 'Spam yok. Yalnızca katalog ve projenize dair yanıtlar.',
+    successTitle: 'Talep alındı',
+    successBody: 'Satış ekibimiz eksiksiz ürün kataloğunu ve MOQ tablosunu {email} adresine bir iş günü içinde gönderecek.',
+  },
 }
 
 /* ─────────────────────────── gallery page extras ─────────────────────────── */
@@ -14706,6 +15702,12 @@ export const galleryPage: Localized<GalleryPageContent> = {
     sub: 'Podívejte se, jak vznikají SUP produkty — od požadavků zákazníka po hotové desky.',
     note: 'Chcete, aby byl Váš projekt uveden zde? Zahajte dialog a společně jej rozvineme.',
   },
+  tr: {
+    kicker: 'Özelleştirilmiş SUP Projeleri',
+    title: 'Özelleştirilmiş SUP Projeleri',
+    sub: 'SUP ürünlerinin nasıl hayata geçtiğine bir bakış — müşteri gereksinimlerinden bitmiş tahtalara kadar.',
+    note: 'Projenizin burada yer almasını ister misiniz? Bir görüşme başlatın ve birlikte tasarlayalım.',
+  },
 }
 
 /* ─────────────────────────── who-we-serve page extras ─────────────────────────── */
@@ -14786,6 +15788,11 @@ export const servePage: Localized<ServePageContent> = {
     kicker: 'Potřeby zákazníků',
     title: 'Individuální SUP řešení pro Váš podnik',
     sub: 'Potřebujete značkové desky pro svou organizaci nebo individuální SUP produkty pro svou společnost — pomůžeme Vám přeměnit požadavky na hotový produkt.',
+  },
+  tr: {
+    kicker: 'Müşteri İhtiyaçları',
+    title: 'İşletmeniz İçin Özel SUP Çözümleri',
+    sub: 'Kurumunuz için markalı tahtalara mı, yoksa şirketiniz için özelleştirilmiş SUP ürünlerine mi ihtiyacınız var; gereksinimleri bitmiş ürünlere dönüştürmekte size yardımcı oluyoruz.',
   },
 }
 
@@ -14898,6 +15905,13 @@ export const worksPage: Localized<WorksPageContent> = {
     sub: 'Shromáždění požadavků, inženýrské posouzení, vzorky, výroba a export — každý krok probíhá v našem vlastním závodě.',
     consultTitle: 'Začněte kontrolou specifikace',
     consultBody: 'Pošlete nám specifikaci, etalonní desku nebo výkresy. Vrátíme posouzení vyrobitelnosti a cenovou nabídku — bez jakýchkoli závazků.',
+  },
+  tr: {
+    kicker: 'Geliştirme Süreci',
+    title: 'Teknik Şartnameden Bitmiş Ürüne',
+    sub: 'Gereksinim toplama, mühendislik incelemesi, numune alma, üretim ve ihracat — her adım kendi tesisimizde.',
+    consultTitle: 'Teknik Şartname İncelemesiyle Başlayın',
+    consultBody: 'Teknik şartnamenizi, referans tahtanızı veya çizimlerinizi bize gönderin. Üretilebilirlik değerlendirmesi ve fiyat teklifiyle geri dönelim — hiçbir taahhüt olmadan.',
   },
 }
 
@@ -15209,6 +16223,27 @@ export const series: Localized<SeriesContent> = {
         title: 'Edice Medusa Glow (kolekce „Medúza")',
         sku: 'SUP-MG11',
         body: 'Barevné medúzy, mořské hvězdy a korálové útesy zobrazené jako realistický dílčí motiv z EVA bez blednutí, v osvěžující mátové barvě. Univerzální tělo 11 ft pro tropy a pobřežní dobrodružství.',
+        image: 'https://assets.isupfactory.com/site/products/2026/editions/medusa-jellyfish-edition.avif',
+        href: '/products/sup-medusa-glow',
+      },
+    ],
+  },
+  tr: {
+    kicker: 'İmza Serisi',
+    title: 'Temalı Edisyon Tahtaları',
+    sub: 'Okyanus esintili, özel markanız için hazır temalı edisyonlar — UV dijital baskı ve mekanik kabartma uygulamalı, doğrudan kullanıma hazır ve üretime uygun tasarımlar.',
+    items: [
+      {
+        title: 'Leviathan Wake Serisi (Balina Edisyonu)',
+        sku: 'SUP-LW11',
+        body: 'Geometrik ve tribal desenlerle işlenmiş görkemli bir mavi balina totemi, sade siyah-beyaz dalga çizgileriyle eşleşti. Yüksek tasarım değeri taşıyan bu sürüm; göller, nehirler ve kıyı suları için 11 ft all-around gövde sunar.',
+        image: 'https://assets.isupfactory.com/site/products/2026/editions/leviathan-whale-edition.avif',
+        href: '/products/sup-leviathan-wake',
+      },
+      {
+        title: 'Medusa Glow Serisi (Denizanası Edisyonu)',
+        sku: 'SUP-MG11',
+        body: 'Canlı renklerdeki denizanasları, deniz yıldızları ve mercan resifleri; solmayan EVA blok kaplama ile işlenmiş, ferah nane yeşili tonunda. Tropikal ve kıyı maceraları için 11 ft all-around gövde.',
         image: 'https://assets.isupfactory.com/site/products/2026/editions/medusa-jellyfish-edition.avif',
         href: '/products/sup-medusa-glow',
       },

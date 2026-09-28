@@ -1755,6 +1755,130 @@ export const knowledge: Localized<KnowledgeArticle[]> = {
       ],
     },
   ],
+  tr: [
+    {
+      slug: 'how-custom-sup-boards-are-developed',
+      navLabel: 'Özel SUP Tahtaları Nasıl Geliştirilir',
+      metaTitle: 'Özel SUP Tahtaları Nasıl Geliştirilir | iSupfactory',
+      metaDescription:
+        'Özel bir SUP fikirden fabrikaya nasıl geçer: spesifikasyon, tasarım, prototip, numune ve üretim — adım adım.',
+      kicker: 'Bilgi',
+      h1: 'Özel SUP Tahtaları Nasıl Geliştirilir',
+      intro:
+        'Özel bir kürek tahtası müşterilerinize ulaşmadan önce tanımlı bir geliştirme yolundan geçer. Her aşamayı bilmek, fabrikaya doğru brifing vermenize, gerçekçi takvim belirlemenize ve ilk kez sipariş verenlerin yaptığı klasik hatalardan kaçınmanıza yardımcı olur.',
+      sections: [
+        {
+          title: 'Adım 1: İhtiyacı tanımlayın',
+          body: [
+            'Her geliştirme projesi kullanım senaryosuyla başlar: tahtayı kim kullanacak, nerede ve ne sıklıkta. Bir kiralık filo tahtası, bir marka lansmanı tahtası veya bir okul tahtası birbirinden farklıdır — stabilite, dayanıklılık ve maliyet hedefleri cevaba göre değişir.',
+            'Bir fabrikayla iletişime geçmeden önce adedi, hedef fiyatı ve olmazsa olmaz özellikleri yazın. Net gereksinimler daha isabetli ilk teklifler ve daha kısa geri tekrarlar sağlar.',
+          ],
+        },
+        {
+          title: 'Adım 2: Spesifikasyonu sabitleyin',
+          body: [
+            'Spesifikasyon, ihtiyacı ölçülebilir değerlere dönüştürür: uzunluk, genişlik, kalınlık, hacim, malzemeler (drop-stitch yoğunluğu, kumaş gramajı), fin düzeni, ağırlık limiti ve ambalaj.',
+            'Her iki taraf da bu belge üzerinden fiyat verir. Sürecin ilerleyen aşamalarındaki değişiklikler daha yavaş ve daha pahalıdır — sabitlenmiş bir spesifikasyon kontrol edebileceğiniz en ucuz kalemdir.',
+          ],
+        },
+        {
+          title: 'Adım 3: Tasarım ve grafikler',
+          body: [
+            'Spesifikasyon sabitlendiğinde tasarım çalışması başlar: form ayarları, renk şemaları, logo yerleşimi, güverte pedi grafikleri ve aksesuar uyumu (leash, kürek, fin, çanta).',
+            'Üreticiler, herhangi bir fiziksel numune üretilmeden önce görünümü onaylamanız için dijital maket hazırlayabilir — donanım üzerinde iterasyon yapmaktan daha ucuz ve daha hızlıdır.',
+          ],
+        },
+        {
+          title: 'Adım 4: Prototip ve numune',
+          body: [
+            'Numune ilk fiziksel kanıttır. Şişirilebilir tahtalar için bu, kendinizle paddle edip spesifikasyona karşı test edebildiğiniz elle yapılmış veya pilot üretim bir tahta demektir.',
+            'Numuneyi nihai kullanıcı gibi test edin: stabilite, rijitlik, yönlendirme, ağırlık ve grafiklerin dayanıklılığı. Kapsamlı bir numune turu, üretim öncesi sorunların büyük kısmını yakalar.',
+          ],
+        },
+        {
+          title: 'Adım 5: Üretim ve teslimat',
+          body: [
+            'Numune onaylandıktan sonra üretim, kalite kontrol noktalarıyla partiler halinde yürür. Sevkiyat öncesi fabrika kontrolü — fotoğraflar, videolar veya üçüncü taraf denetimi — aldığınız partiyi korur.',
+            'İyi bir proje takvimi sipariş tarihinden ileriye değil, lansman tarihinizden geriye doğru planlanır.',
+          ],
+        },
+      ],
+    },
+    {
+      slug: 'inflatable-sup-construction-explained',
+      navLabel: 'Şişirilebilir SUP Yapısı Anlatıldı',
+      metaTitle: 'Şişirilebilir SUP Yapısı: Malzemeler ve Katmanlar | iSupfactory',
+      metaDescription:
+        'Şişirilebilir bir SUP nelerden oluşur — PVC katmanları, drop-stitch kumaş, kenarlar ve kalite göstergeleri — projeniz için daha iyi tahta spesifikasyonu yapmak üzere.',
+      kicker: 'Bilgi',
+      h1: 'Şişirilebilir SUP Yapısı Anlatıldı',
+      intro:
+        'Bugün özel SUP projelerinin çoğu şişirilebilir tahtalardır. Daha hafiftirler, depolanması ve sevkiyatı daha kolaydır ve başlangıç için daha toleranslıdır. Bu kılavuz, yapıyı açıklayarak kaliteyi güvenle spesifikasyona dönüştürmenizi sağlar.',
+      sections: [
+        {
+          title: 'Temel: drop-stitch kumaş',
+          body: [
+            'Şişirilebilir bir tahta, üst ve alt PVC katmanlarını birbirine bağlayan binlerce polyester iplikten oluşan drop-stitch kumaşın çevresinde kurulur. Şişirildiğinde bu iplikler tahtayı sabit bir kalınlıkta tutar — iSUP\'ye şeklini ve rijitliğini veren şey budur.',
+            'Daha yüksek iplik yoğunluğu (inç kare başına dikiş sayısı), aynı basınçta daha sert ve daha stabil bir tahta anlamına gelir. Bütçe dostu tahtalar düşük, premium tahtalar yüksek yoğunluk kullanır.',
+          ],
+        },
+        {
+          title: 'PVC katmanları ve kenarlar',
+          body: [
+            'Kumaş, onu aşınmaya, UV ışığına ve darbelere karşı koruyan PVC katmanları arasına yerleştirilir. Daha kalın PVC (daha fazla mil veya mm) delinmelere daha iyi dayanır ama ağırlık ekler.',
+            'Kenarlar — tahtanın kenar kısımları — günlük kullanımda en çok darbeyi alır. Çift veya üç katmanlı kenar yapısı, dayanıklılığın ve kiraya uygunluğun güçlü bir göstergesidir.',
+          ],
+        },
+        {
+          title: 'Ağırlık mı, güç mü ekler?',
+          body: [
+            'Ağırlık bir denge meselesidir: daha kalın PVC dayanıklılık ve ağırlık ekler; daha hafif yapılar ise tahtasını uzun mesafe taşıyan kullanıcılara uygundur. Bu, özel bir spesifikasyonun alıcının gerçekliğine göre nasıl ayarlandığını gösteren en açık yollardan biridir.',
+            'İsteyeceğiniz kalite göstergeleri: şişirme basıncı değeri, dikiş yapısı, supap tipi ve drop-stitch yoğunluğu. Güvenilir fabrikalar bu değerleri açıklar.',
+          ],
+        },
+      ],
+    },
+    {
+      slug: 'how-organizations-choose-sup-equipment',
+      navLabel: 'Kuruluşlar SUP Ekipmanını Nasıl Seçer',
+      metaTitle: 'Resortlar, Kulüpler ve Okullar SUP Ekipmanını Nasıl Seçer',
+      metaDescription:
+        'Resortlar, kulüpler ve okullar SUP ekipmanını nasıl seçer: filo boyutlandırma, tahta tipleri, dayanıklılık, depolama ve uzun soluklu bir program için bütçeleme.',
+      kicker: 'Bilgi',
+      h1: 'Kuruluşlar SUP Ekipmanını Nasıl Seçer',
+      intro:
+        'Resortlar, kulüpler ve okullar tüketici markalarından farklı satın alır: ekipman günlük kullanıma dayanmalı, farklı seviyelerdeki kullanıcılara hizmet vermeli ve program bütçesine sığmalıdır. Bu çerçeve, önemli olan kararları kapsar.',
+      sections: [
+        {
+          title: 'Filo boyutunu kullanıma göre belirleyin',
+          body: [
+            'Misafir sayınızı değil, aynı anda suda kaç kürekçinin olacağını hesaplayın. Sırayla kiralama yapan bir resort, eşzamanlı dersler yürüten bir okuldan daha az tahtaya ihtiyaç duyar — ve daha fazla yedek tahtaya.',
+            'İyi bir kural: her eşzamanlı kürekçi için bir tahta, artı bakım ve büyüme için %10–15 yedek kapasite.',
+          ],
+        },
+        {
+          title: 'Tahta tiplerini seviyeye göre eşleştirin',
+          body: [
+            'Başlangıççılar, stabil hissettiren daha geniş ve hacimli tahtalardan fayda görür; deneyimli kürekçiler ise daha hızlı kürek çekilen dar tahtaları tercih eder. Karışık bir filo — ağırlıklı olarak başlangıca uygun birkaç performans tahtasıyla birlikte — çoğu programa uygundur.',
+            'Çok kişilik tahtalar okullarda ve grup deneyimlerinde yerini hak eder: eğitmenlerin eğitim vermesini sağlar ve sınıf rotasyonlarında birkaç tek tahtanın yerini alabilir.',
+          ],
+        },
+        {
+          title: 'Dayanıklılık bir bütçe kararıdır',
+          body: [
+            'Kiralık sınıfı yapı başlangıçta daha pahalıdır ama iki ila üç sezonda para kazandırır. Kenar güçlendirmesini, PVC kalınlığını ve fabrikanın filo siparişlerine verdiği garantiyi sorun.',
+            'Depolama ve şişirmeyi de planlayın: kompresörler, raflar ve paketleme rutini, programın günlük ne kadar iş yarattığını belirler. Filo dostu tedarikçiler bunları pakete dahil eder.',
+          ],
+        },
+        {
+          title: 'Sadece siparişi değil, programı planlayın',
+          body: [
+            'En iyi ekipman siparişleri bir program planının parçasıdır: eğitmen eğitimi, bakım rutinleri ve aşınmış tahtalar için bir değiştirme döngüsü. Programı planlayan kuruluşlar ekipmanını takvime göre yeniler; planlamayanlar ise tam fiyata acil değiştirmeler alır.',
+          ],
+        },
+      ],
+    },
+  ],
 }
 
 export function getArticle(locale: Locale, slug: string): KnowledgeArticle | undefined {
@@ -1851,5 +1975,11 @@ export const knowledgeMeta: Localized<KnowledgeMeta> = {
     metaDescription:
       'Praktické příručky k vývoji SUP produktů na míru, ke konstrukci nafukovacích desek a k výběru SUP vybavení pro resorty, kluby a školy.',
     h1: 'Centrum znalostí — vývoj produktů',
+  },
+  tr: {
+    metaTitle: 'Bilgi Merkezi: SUP Ürün Geliştirme Rehberleri | iSupfactory',
+    metaDescription:
+      'Özel SUP ürün geliştirme, şişirilebilir tahta yapısı ve resortlar, kulüpler ile okullar için SUP ekipmanı seçimi hakkında pratik rehberler.',
+    h1: 'Bilgi Merkezi — Ürün Geliştirme, Anlatıldı',
   },
 }

@@ -1,0 +1,150 @@
+meta:
+  title: 'SUP ODM Üreticisi | Özel Paddle Board Tasarımı ve Geliştirme'
+  description: 'Çin, Qingdao merkezli SUP ODM üreticisi — paddle boardunuzu bir ürün brifinginden geliştirin: kendi bünyemizde gövde tasarımı, mühendislik, 7–12 günde prototip ve 25–35 günde üretim.'
+  dateModified: '2026-09-23'
+  keywords:
+    - 'SUP ODM üreticisi'
+    - 'ODM şişirilebilir SUP'
+    - 'özel paddle board tasarımı'
+    - 'SUP ürün geliştirme'
+    - 'paddle board ürün geliştirme'
+
+hero:
+  tagline: ODM Üretimi
+  title: 'SUP ODM Üreticisi — Ürün Tasarımı ve Geliştirme'
+  subtitle: 'Tamamlanmış bir SUP tasarımına ihtiyacınız yok. Bir ürün konsepti, pazar gereksinimi veya performans hedefiyle başlayın — kendi bünyemizdeki mühendislerimiz gövdeyi, yapıyı, grafikleri ve ambalajı brifinginize göre tasarlar, ardından 7–12 günde prototip üretir ve onaylanan siparişten sonra 25–35 günde seri üretime geçirir.'
+
+answer:
+  label: 'Doğrudan yanıt'
+  text: 'iSupfactory, Çin, Qingdao merkezli bir SUP ODM üreticisidir. ODM geliştirme sizin çizimlerinizden değil, brifinginizden başlar: gövde tasarımı (uzunluk, genişlik, rocker, hacim), malzeme yapısı ve grafikler kendi bünyemizde tasarlanır, 7–12 günde prototip numunelerle doğrulanır ve 150 m rulo başına 90–100 adetlik standart hacimli MOQ ile üretilir (pilot 20–50 adetten başlar). Üretim, onaylanan sipariş ve depozitodan sonra 25–35 gün sürer; özel kalıp işleri 15–20 gün ekler. CE, ISO 9001, BSCI, REACH ve RoHS dokümantasyonu her siparişle birlikte gönderilir.'
+  verified: 'Eylül 2026'
+
+features:
+  title: ODM Yetenekleri
+  subtitle: 'Tasarım çalışması masanızda değil, fabrikada yapıldığında elde ettiğiniz her şey.'
+  items:
+    - title: Gövde Tasarımı
+      description: 'Uzunluk, genişlik, kalınlık, rocker ve hacim; hedef kullanıcılarınıza, kullanım senaryolarınıza ve pazarlarınıza göre mühendislikle belirlenir — boş bir sayfadan ya da kanıtlanmış platform kütüphanemizden başlar.'
+      icon: 'tabler:waves'
+    - title: Yapısal Mühendislik
+      description: 'Drop-stitch yoğunluğu, PVC katman sayısı ve kalitesi, destek elemanı yerleşimi ve rail yapısı sizin tasarımınız için belirlenir ve doğrulanır.'
+      icon: 'tabler:building-factory'
+    - title: Grafikler ve Markalama
+      description: 'Tahta üst yüzey grafikleri, boru markalaması, EVA padler ve perakende ambalajı kendi bünyemizdeki tasarım ekibimiz tarafından markanıza göre geliştirilir.'
+      icon: 'tabler:palette'
+    - title: Kalıp Geliştirme
+      description: 'Yeni gövde şekilleri kendi bünyemizde tasarlanıp kesilen kalıplarla başlar — kalıp işleri proje takvimine 15–20 gün ekler.'
+      icon: 'tabler:shapes'
+    - title: Prototip Doğrulama
+      description: 'Fiziksel prototip üretilir, test edilir ve sizin incelemenize gönderilir — genellikle 7–12 gün içinde, pist testiyle birlikte.'
+      icon: 'tabler:tools'
+    - title: Test ve Uyumluluk
+      description: 'Birim başına hava tutma, basınç tutma ve dikiş dayanımı testleri ile hedef pazara uygulanabilir ISO 9001, BSCI, REACH, RoHS ve CE uygunluk dokümantasyonu (kapsam proje bazında teyit edilir).'
+      icon: 'tabler:certificate'
+    - title: Kalıp Mülkiyeti Seçenekleri
+      description: 'Kalıp mülkiyeti veya satın alma koşulları sözleşmeye yazılır — tasarımınız sizin kalır ve kalıplar yeniden siparişler için saklanır.'
+      icon: 'tabler:lock'
+    - title: Prototipten Konteynere
+      description: 'Doğrulanmış bir ODM tasarımı doğrudan standart hacimli üretime geçer: 150 m rulo başına 90–100+ adet, onaylanan siparişten sonra 25–35 gün.'
+      icon: 'tabler:package'
+
+customization:
+  tagline: Sizinle Birlikte Tasarlandı
+  title: Brifinginize Göre Neleri Geliştiriyoruz
+  subtitle: 'ODM, ürünün sizin için sıfırdan veya platform kütüphanemizden tasarlandığı anlamına gelir — brifinginizin kontrol ettiği kaldıraçlar şunlardır:'
+  items:
+    - 'Kullanıcı profili ve pazar — başlangıç, touring, yarış, yoga, balıkçılık veya çok amaçlı konumlandırma'
+    - 'Tahta ölçüleri — hedef kullanıcıya ve kullanım senaryosuna göre eşleştirilen uzunluk, genişlik, kalınlık ve hacim'
+    - 'Gövde karakteri — denge veya hız için ayarlanmış rocker, rail profili, burun ve kuyruk şekli'
+    - 'Malzeme yapısı — drop-stitch yoğunluğu, PVC katman sayısı ve kalitesi, destek elemanları ve rail takviyeleri'
+    - 'Grafikler ve renkler — marka renkleri, üst yüzey sanatı ve boru markalaması kendi bünyemizde geliştirilir'
+    - 'EVA kayma pad — tüm üst yüzey boyunca yerleşim, renkler ve logo entegrasyonu'
+    - 'Aksesuar paketi — tahtayla uyumlu kürekler, pompalar, palalar, emniyet halatları ve çantalar'
+    - 'Ambalaj ve perakende sunumu — markanız altında perakende kutuları, standlar ve ihracat ambalajı'
+
+faq_section:
+  tagline: SSS
+  title: ODM Geliştirme Soruları
+  questions:
+    - q: ODM, OEM den nasıl farklıdır?
+      a: 'ODM (Original Design Manufacturing) sizin brifinginizle başlar — mühendislerimiz bir pazar konseptinden, performans hedefinden veya kanıtlanmış bir platformun uyarlanmasından yola çıkarak tahtanın yapısını, imalatını, grafiklerini ve ambalajını geliştirir. Üretimden önce tasarımı onaylarsınız. OEM (Original Equipment Manufacturing) ise onaylı spesifikasyonunuza göre üretir — sizin çizimleriniz, ölçüleriniz, malzemeleriniz ve ambalajınız. Tasarımın ve fikri mülkiyet hakkı sizindir. İkisi de aynı tesiste, aynı kalite kontrol sistemi ve aynı ihracat ekibiyle yürür; tasarımınız henüz yoksa markalı bir tahtaya en hızlı yol ODMdir.'
+    - q: Yalnızca kabaca bir fikrim var — nereden başlarız?
+      a: 'Kısa bir brifing gönderin: hedef kullanıcılar, kullanım senaryoları, kaba ölçüler, pazarlar ve hacimler. Mühendislerimiz bir iş günü içinde bir konsept, referans tahta yönü ve bir geliştirme planıyla döner — talep edilirse ayrıntılı paylaşımdan önce bir NDA imzalanır.'
+    - q: Yeni bir SUP tahtası geliştirmek ne kadar sürer?
+      a: 'Prototip numuneler 7–12 günde sevk edilir. Özel kalıpla yeni bir gövde, numunelerden önce 15–20 günlük mühendislik ekler. Üretim, sipariş ve depozitodan sonra 25–35 gün sürer.'
+    - q: ODM tahta için MOQ nedir?
+      a: 'Standart hacimli üretim, 150 m rulo drop-stitch kumaş başına 90–100 adetlik partiler halinde yürür; pilot üretimler mevcut platformlarda 20–50 adetten başlar. Küçük partili ortak markalama 5–10 adetten başlar — hesabın tamamı için MOQ ve Esnek Markalama Rehberimize bakın.'
+    - q: Tasarımın ve kalıbın sahibi kim?
+      a: 'Brifinginiz, tasarımınız ve kalıbınız; sözleşmeye yazılan NDA, marka lisans koşulları ve kalıp mülkiyeti ya da satın alma koşullarıyla korunur. Kalıplar markanız için saklanır ve devredilebilir.'
+    - q: Belirli bir şekil geliştirebilir misiniz (touring, balıkçılık, yarış, yoga)?
+      a: 'Evet. Gövde mühendisliği tüm ana SUP kategorilerini kapsar — all-around, touring, yarış, yoga, balıkçılık ve çok kişilik tahtalar — performans odaklı şekiller için hidrodinamik test tankı doğrulaması da mevcuttur.'
+    - q: Geliştirilen tahta hangi sertifikaları taşıyacak?
+      a: 'ISO 9001:2015 kalite yönetimi (fabrika genelinde), BSCI sosyal uyum (amfori tesis denetimi), uygulanabilir AB pazarı konfigürasyonları için CE uygunluk dokümantasyonu (rekreasyon tekneleri direktifi — kapsam proje bazında teyit edilir), REACH (malzemeler), RoHS (elektronik aksesuarlar) ve uygulanabilir şişirilebilir SUP modelleri için ISO 25649 uyumluluğu. Sertifika belgeleri ihracat pazarlarınız için sipariş başına hazırlanır.'
+
+process:
+  title: ODM Süreci — Brifingden Ölçekli Üretime
+  subtitle: 'Tahtanızı tasarlayan, numuneleyen ve ölçekleyen aynı bünye ekibi tarafından yürütülen kontrollü altı aşama — her şey belgelenir.'
+  steps:
+    - phase: '01'
+      title: Brifing ve Konsept
+      period: 1 iş günü
+      items:
+        - 'Hedef kullanıcıları, kullanım senaryolarını, ölçüleri, pazarları ve hacimleri paylaşın — ya da yalnızca bir fikir.'
+        - 'Mühendislerimiz bir konsept yönü, platform seçenekleri ve bir geliştirme planıyla döner.'
+    - phase: '02'
+      title: Gövde ve Yapı Tasarımı
+      period: 1.–2. hafta
+      items:
+        - 'Tahta ölçüleri, gövde karakteri, drop-stitch yoğunluğu ve PVC yapısı kendi bünyemizde tasarlanır.'
+        - 'Grafikler, EVA üst yüzey yerleşimi ve ambalaj konsepti markanıza göre geliştirilir.'
+    - phase: '03'
+      title: Kalıp ve Takım
+      period: +15–20 gün (yeni şekiller)
+      items:
+        - 'Yeni gövde şekilleri için özel kalıplar tasarlanır ve kesilir; mevcut platformlar bu aşamayı atlar.'
+        - 'Kalıp mülkiyet koşulları, kesim başlamadan önce sözleşmede kesinleştirilir.'
+    - phase: '04'
+      title: Prototip ve Numune
+      period: 7–12 gün
+      items:
+        - 'Fiziksel bir prototip üretilir, test edilir ve sizin incelemenize gönderilir; pist testi de uygulanır.'
+        - 'Numune (1–2 adet), hacimli üretim öncesi şekli, yapıyı ve markalamayı doğrular.'
+    - phase: '05'
+      title: Doğrulama ve Onay
+      period: Paralel olarak
+      items:
+        - 'Üretim hattı başına hava tutma, basınç tutma, dikiş dayanımı, yük ve UV kontrolleri.'
+        - 'İhracat pazarlarınız için CE, ISO 9001, BSCI, REACH ve RoHS dokümantasyonu hazırlanır.'
+        - 'Prototipi onaylarsınız; sipariş ve depozito üretim slotunu kesinleştirir.'
+    - phase: '06'
+      title: Üretim ve Teslimat
+      period: 25–35 gün
+      items:
+        - 'Standart hacimli partiler 150 m rulo başına 90–100+ adet, pilot üretimler 20–50 adetten başlar.'
+        - 'İhracat ambalajı, 50 ve üzeri ülkeye FOB/CIF/DDP sevkiyatı ve yeniden sipariş desteği sunulur.'
+
+geo:
+  tagline: Kimlerle Çalışıyoruz
+  title: SUP Sektöründe ODM İş Ortakları
+  sentence: 'iSupfactory şirketindeki ODM, brifinginizi bu iş tipleri için tahta geliştiren mühendisler, tasarımcılar ve üretim ekibiyle eşleştirir — size kimin hizmet verdiği aşağıda.'
+  audiences:
+    - 'SUP Markaları'
+    - 'Outdoor ve Su Sporları Şirketleri'
+    - 'Distribütörler ve Perakendeciler'
+    - 'Resortlar, Kulüpler ve Organizasyonlar'
+
+cta:
+  title: 'SUP tahtanızı geliştirmeye hazır mısınız?'
+  subtitle: 'Brifinginizi gönderin — bir konsept, ölçüler ve hedef pazarlar başlamak için yeterlidir. Mühendislik incelemesi ve teklif bir iş günü içinde.'
+  actions:
+    - variant: primary
+      text: ODM Projesi Başlatın
+      href: /tr/contact#custom-oem
+    - text: Altı aşamalı ürün geliştirme hattını inceleyin
+      href: /tr/product-development
+    - text: Fabrikayı ve kalite sistemini doğrulayın
+      href: /tr/oem-trust-assurance
+    - text: MOQ ve esnek markalama rehberi
+      href: /tr/oem-moq-guide
+    - text: SUP Yapı Karşılaştırması
+      href: /tr/sup-construction-comparison

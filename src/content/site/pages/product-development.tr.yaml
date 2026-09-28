@@ -1,0 +1,108 @@
+meta:
+  title: 'SUP Ürün Geliştirme — Özel Tasarım, Prototip ve Üretim'
+  description: 'Konseptten konteynere SUP ürün geliştirme: özel bir SUP fabrikası içinde spesifikasyon, mühendislik, prototip, test, kalıp ve seri üretim.'
+  dateModified: '2026-08-10'
+  keywords:
+    - 'SUP ürün geliştirme'
+    - 'SUP prototip geliştirme'
+    - 'özel SUP tasarımı'
+    - 'SUP ürün mühendisliği'
+    - 'şişirilebilir SUP prototipleme'
+
+hero:
+  tagline: Ürün Geliştirme
+  title: 'Özel SUP Ürün Geliştirme, Konseptten Konteynere'
+  subtitle: 'Altı aşama ürün fikrinizi üretime hazır SUP tahtalarına dönüştürür — spesifikasyon, mühendislik, prototip, test, kalıp ve seri üretim; hepsi tek bir fabrikada ve tek bir sorumlu kalite sistemiyle.'
+
+answer:
+  label: 'Doğrudan yanıt'
+  text: 'iSupfactory şirketindeki SUP ürün geliştirme altı aşamadan geçer — ürün spesifikasyonu, yapısal mühendislik, prototip numune, test ve doğrulama, özel takım ve seri üretim. İlk fiziksel numune, spesifikasyon onayından 7–12 gün sonra sevk edilir; üretim onaylanan sipariş ve depozitodan sonra 25–35 gün sürer; yeni kalıp geliştirme buna 15–20 gün ekler.'
+  verified: 'Eylül 2026'
+
+stages:
+  title: 'SUP Ürün Geliştirmenin Altı Aşaması'
+  subtitle: 'Her aşamanın net bir çıktısı vardır; böylece projenizin nerede durduğunu ve sırada neyin geleceğini her zaman bilirsiniz.'
+  items:
+    - title: '1. Fikir ve Ürün Spesifikasyonu'
+      description: 'Tahta geometrisi, kullanıcı ağırlık aralığı, hacim, yapı hedefleri ve aksesuar paketi. Başlamak için bir referans tahta, eskiz veya rakip spesifikasyon yeterlidir.'
+      icon: 'tabler:bulb'
+    - title: '2. Mühendislik ve 3B Tasarım'
+      description: 'Yapısal mühendislik, drop-stitch kalınlığı ve PVC kalitesi seçimi, ayrıca üretilebilirlik incelemesi ve teklif — bir iş günü içinde döner.'
+      icon: 'tabler:blueprint'
+    - title: '3. Prototip Numune Alma'
+      description: 'İlk fiziksel numuneniz 7–12 günde sevk edilir; yapı, baskı renkleri ve basınç testi sonuçlarını kapsayan bir onay sayfasıyla belgelenir.'
+      icon: 'tabler:tools'
+    - title: '4. Test ve Doğrulama'
+      description: 'Onaylanan numuneye karşı basınç tutma, dikiş dayanımı ve boyut kontrolleri; hedef pazarlarınız için CE ve REACH dokümantasyonu hazırlanır.'
+      icon: 'tabler:test-pipe'
+    - title: '5. Kalıp ve Seri Üretim'
+      description: 'Gerekirse 15–20 günde özel kalıp geliştirme; üretim süreç içi kalite kontrol noktaları ve parti izlenebilirliğiyle 25–35 gün sürer.'
+      icon: 'tabler:settings'
+    - title: '6. Teslimat ve Ölçekleme'
+      description: '50 üzeri ülkeye FOB, CIF veya DDP lojistiği — ardından dosyada onaylı grafikler ve sabit teslim süreleriyle yerleşik hattınızda tekrar siparişler.'
+      icon: 'tabler:truck-delivery'
+
+why_inhouse:
+  title: 'Fabrika İçinde Geliştirme Aracılı Projeyi Neden Yener'
+  subtitle: 'Geliştirme çalışmasının üretim tesisinin içinde bulunması, her aşamada elde ettiğiniz şeyi değiştirir.'
+  items:
+    - title: Tasarım Devrinde Boşluk Yok
+      description: 'Mühendislik ve çizim ekibi kaynak hattıyla aynı zeminde çalışır — bir çizim değişikliği aynı hafta üretime gider, ticari bir gidiş dönüşten sonra değil.'
+      icon: 'tabler:handshake'
+    - title: Üretimle Eşleşen Numuneler
+      description: 'Numune partisi ile üretim partisi aynı makineleri, malzemeleri ve kalite kontrol istasyonlarını paylaşır; böylece onaylanan numune, konteyner ölçeğinde gerçekte alacağınız şeydir.'
+      icon: 'tabler:stack-2'
+    - title: Hiçbir Şey Satmayan Mühendislik
+      description: 'Kararlar ek satış marjına göre değil, hedef maliyet, ağırlık ve dayanıklılık ölçütlerine göre verilir; çünkü bu bir fabrikadır ve üretim tek gelir kaynağıdır.'
+      icon: 'tabler:scale'
+    - title: Gizlilik, Sürekli Bir Sözleşme Olarak
+      description: 'Her dosya paylaşımından önce bir NDA imzalanır ve grafikleriniz, kalıplarınız ile spesifikasyon dosyalarınız sizin mülkiyetinizde kalır — asla yeniden kullanılmaz, yeniden satılmaz veya başka bir müşteriye gösterilmez.'
+      icon: 'tabler:lock'
+
+buyer_guides:
+  tagline: 'Alıcı Rehberleri'
+  title: 'Eksiksiz Tedarik Kütüphanesi'
+  subtitle: 'Özel bir SUP projesinin her aşaması, gerçek teslim sürelerimiz, koşullarımız ve dokümantasyonumuzla açıklanır.'
+  items:
+    - title: 'Private Label: Eksiksiz Adım Adım Rehber'
+      body: 'Bir fabrika seçmekten teslim edilen konteynere kadar — yeni markalar için eksiksiz altı adımlı yolculuk.'
+      href: '/tr/news/private-label-sup-guide'
+    - title: 'Bir SUP OEM Üreticisi Nasıl Seçilir'
+      body: 'Gerçek bir fabrikayı bir tüccardan ayıran denetim soruları: sertifikalar, kalite kontrolü, numuneler ve mülkiyet.'
+      href: '/tr/news/how-to-choose-sup-oem-manufacturer'
+    - title: 'SUP Ürün Geliştirme Zaman Çizelgesi'
+      body: '7–12 günde numune, 25–35 günde üretim, kalıp için +15–20 gün — aşama aşama eksiksiz takvim.'
+      href: '/tr/news/custom-sup-development-timeline'
+    - title: 'Sipariş Vermeden Önce Hazırlanacak Bilgiler'
+      body: 'Bir fabrikanın ilk turda doğru teklif vermesini sağlayan ve spesifikasyon revizyonunu önleyen beş ayrıntı.'
+      href: '/tr/news/info-needed-before-sup-production'
+    - title: 'SUP OEM MOQ ve Fiyatlandırma'
+      body: 'Numune (1–2), pilot (20–50) ve hacim (150 m rulo başına 90–100+) aşamalarındaki MOQ kademeleri, altı maliyet etkeni ve kaliteden ödün vermeden maliyeti düşürmenin beş yolu.'
+      href: '/tr/news/sup-oem-moq-pricing'
+    - title: 'Şişirilebilir SUP için CE Sertifikası'
+      body: 'CE kapsamında gerçekte ne var, talep etmeniz gereken beş belge ve bir sertifikada kendi modelinizin adının geçtiğini nasıl doğrulayacağınız.'
+      href: '/tr/news/ce-certification-inflatable-sup'
+    - title: 'Sevkiyat: FOB, CIF ve DDP Karşılaştırması'
+      body: 'Her teslim şartının kapsadığı maliyetler, 4–6 haftalık denizyolu takvimi ve işinize hangi şartın uyduğu.'
+      href: '/tr/news/private-label-sup-oem-guide'
+
+faq_section:
+  tagline: SSS
+  title: 'SUP Geliştirme Hakkında Sık Sorulan Sorular'
+  questions:
+    - q: Bir fikirden bir SUP ürünü geliştirebilir misiniz?
+      a: 'Evet. Ürün spesifikasyonu ve mühendislikten başlayarak prototip geliştirme, özelleştirme ve kendi gereksinimlerinize dayalı seri üretime kadar eksiksiz yolculuğu destekliyoruz. Mühendislik incelemesini başlatmak için bir eskiz, referans tahta veya hatta rakip bir spesifikasyon yeterlidir.'
+    - q: SUP ürün geliştirmenin maliyeti nedir?
+      a: 'Spesifikasyon incelemesi ve mühendislik değerlendirmesi ücretsizdir ve bir iş günü içinde döner. Prototip numune alma, spesifikasyon kesinleştikten sonra proje bazında fiyatlandırılır; üretim fiyatı ise malzemelere, hacme ve özel takım gerekip gerekmediğine bağlıdır.'
+    - q: SUP ürün geliştirmesi ne kadar sürer?
+      a: 'İlk numune, spesifikasyon onayından 7–12 gün sonra sevk edilir ve her revizyon turu için 3–7 gün eklenir. Üretim sipariş ve depozitodan sonra 25–35 gün sürer. Özel kalıp geliştirme başlangıçta 15–20 gün ekler ve denizyolu taşımacılığı çoğu varış noktasına 4–6 hafta ekler.'
+    - q: Önce numune mi gelir, üretim mi?
+      a: 'Her zaman önce numune. Herhangi bir üretim partisi başlamadan önce fiziksel bir prototip üretilir, ölçülür ve spesifikasyona göre onaylanır. Onaylanmamış tasarımlarla toplu üretim yapmayız.'
+    - q: Ürün geliştirme için NDA imzalıyor musunuz?
+      a: 'Evet. Her dosya paylaşımından önce bir NDA imzalanır ve tasarımlarınız, grafikleriniz ile kalıplarınız geliştirme ve üretim boyunca sizin mülkiyetinizde kalır.'
+    - q: SUP tasarımımı ve spesifikasyonlarımı koruyabilir misiniz?
+      a: 'Müşteri tasarımları, spesifikasyonları ve ürün konseptleri geliştirme ve üretim sırasında gizli şekilde ele alınır. Kalıp dosyalarınız asla yeniden kullanılmaz, yeniden satılmaz veya başka bir müşteriye gösterilmez.'
+
+cta:
+  title: 'SUP ürün projenizi başlatın'
+  subtitle: 'Bir eskiz, referans tahta veya spesifikasyon gönderin — mühendislik incelemesi ve teklif bir iş günü içinde.'

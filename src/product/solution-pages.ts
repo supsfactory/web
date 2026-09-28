@@ -5245,6 +5245,377 @@ export const solutionPages: Localized<SolutionPageData[]> = {
       ctaLabel: 'Proberte SUP program vaší školy',
     },
   ],
+  tr: [
+    {
+      slug: 'custom-sup',
+      navLabel: 'Özel SUP Üretimi',
+      metaTitle: 'Özel SUP Geliştirme | Özelleştirilmiş Kürek Tahtası Çözümleri',
+      metaDescription:
+        'iSupfactory ile özel SUP ürünlerinizi geliştirin. İşletmeler ve kurumlar için ürün gereksinimlerini, özelleştirmeyi, prototipleri ve üretimi destekliyoruz.',
+      kicker: 'Özel SUP Üreticisi',
+      serviceType: 'Özel SUP Ürün Geliştirme',
+      answer:
+        'Özel şişirilebilir SUP tahtalarını, sert tahtaları ve aksesuarları gereksiniminize göre geliştiriyoruz — şekil, grafik, malzeme ve ambalajdan tasarıma, numune üretimine ve seri üretime kadar. Özel projeler 150 m rulo başına 90–100+ adetten (hacim) başlar; numuneler 7–12 günde gönderilir ve üretim, sipariş ile depozitonun onaylanmasından sonra 25–35 gün sürer.',
+      h1: 'Gereksiniminize Göre Üretilmiş Özel SUP Ürünleri',
+      intro: [
+        'Kendi şartnameinize göre üretilmiş kürek tahtalarına ihtiyacınız var — şekil, grafik, malzeme, ambalaj — ve bunun için kendi fabrikanızı işletmek istemiyorsunuz. Gereksiniminizi alıp teslim edilebilir bir ürünle geri dönen üretim ortağıyız.',
+        'Her proje, tasarımı, numuneleri, üretimi ve sevkiyatı yöneten ayrı bir uzman tarafından yürütülür; böylece siparişinizin hangi aşamada olduğunu her zaman bilirsiniz.',
+      ],
+      scenario: {
+        title: 'Tahtaların kendi şartnamenize göre üretilmesini istiyorsunuz',
+        body: 'Katalogdan seçilen bir ürün değil, bir ürün gereksinimi. Sizin şekil tercihiniz, sizin grafikleriniz, sizin kalite seviyeniz, sizin ambalajınız. Kanıtlanmış platformlar üzerinde esnek bir şekilde tasarlar, numune üretir ve ürünü üretiriz; bu esneklik ilk küçük seriden itibaren geçerlidir.',
+      },
+      pairs: [
+        {
+          problem: 'Fabrika katalogları yalnızca değiştirilemeyen standart tasarımlar sunar.',
+          solution: 'Şeklinizi, grafiklerinizi ve şartnamenizi uygulayarak özel tahtalar üretiyoruz — ilk numuneden tam seri üretime kadar.',
+        },
+        {
+          problem: 'Büyük minimum siparişler, pazar doğrulanmadan stok yatırımına zorlar.',
+          solution: 'Özel hacimli üretim tasarım başına 90–100+ adetten başlar; mevcut platformlarda pilot seriler ise 20–50 adetten başlar — böylece ilk seriler küçük kalırken birim fiyatlar adil seviyede korunur.',
+        },
+        {
+          problem: 'Yanınızda tasarım veya mühendislik ekibi yok.',
+          solution: 'Kendi tasarım ve mühendislik ekibimiz bir fikri, çizimi ya da referans tahtayı üretime hazır teknik çizimlere dönüştürür.',
+        },
+        {
+          problem: 'Fabrika kalitesi bilinmiyor ve iletişim yavaş.',
+          solution: 'Bir proje uzmanı numuneleri, kalite kontrol aşamalarını ve teslim tarihlerini baştan sona üstlenir — tek temas noktası ve şeffaf güncellemeler.',
+        },
+      ],
+      steps: [
+        { title: 'Projenizi iletin', body: 'Gereksinimlerinizi anlatın ya da çizim ve referans görseller paylaşın.' },
+        { title: 'Tasarım ve numune', body: 'Çizimleri geliştirir ve 7–12 gün içinde fiziksel bir numune göndeririz.' },
+        { title: 'Onay ve üretim', body: 'Onayınızdan sonra üretim 25–35 gün sürer ve kalite kontrolü çok noktalıdır.' },
+        { title: 'Teslim ve tekrar sipariş', body: 'Profesyonel ambalajla dünya çapına ihracat ve tutarlı kaliteyle tekrar sipariş desteği.' },
+      ],
+      caseStudy: {
+        title: 'Outdoor markasında ürün hattı genişletme',
+        body: 'Bir outdoor ekipman markası, kendi markasıyla bir touring tahtasıyla kürek sporlarına adım attı. Tahtayı kaba bir çizimden geliştirdik, numune onayını 15 günde tamamladık ve ilk seri üretimi 25–35 günde gerçekleştirdik.',
+        tags: ['Tahta geliştirme', 'Markalı grafik', 'İlk seri üretim'],
+      },
+      faqs: [
+        {
+          q: 'Fikrimden bir SUP ürünü geliştirebilir misiniz?',
+          a: 'Evet. Gereksinimlerinizi değerlendirmenize ve üretime hazır bir çözüm geliştirmenize yardımcı oluruz — konsept ve çizimlerden fiziksel numuneye kadar.',
+        },
+        {
+          q: 'SUP grafiklerini ve renklerini özelleştirebilir miyim?',
+          a: 'Evet. Özel grafikler, renkler ve marka öğeleri proje gereksinimlerine göre geliştirilebilir.',
+        },
+        {
+          q: 'Özel SUP üretiminde minimum sipariş miktarı nedir?',
+          a: 'Özel hacimli üretim tasarım başına 90–100+ adetten başlar, mevcut platformlarda pilot seriler ise 20–50 adetten başlar. Daha yüksek miktarlar daha iyi birim fiyat sağlar ve tekrar siparişlerde kalıplarınız ile tasarımlarınız korunur.',
+        },
+        {
+          q: 'Bir tahtada hangi unsurlar özelleştirilebilir?',
+          a: 'Şekil ve ölçüler, yapı ve malzemeler, grafikler ve logo, EVA ped düzeni, aksesuarlar (kürek, pompa, çanta) ve ambalaj.',
+        },
+        {
+          q: 'Üretimden önce numune sağlıyor musunuz?',
+          a: 'Evet — herhangi bir seri üretimden önce fiziksel bir numune üretilir ve onaylanır. Numune süresi genellikle 7–12 gündür.',
+        },
+        {
+          q: 'Kendi tasarım ekibim olmadan yalnızca marka varlıklarımı kullanabilir miyim?',
+          a: 'Evet. Tasarım ekibimiz logo, marka renkleri veya kaba bir konseptten yola çıkarak üretime hazır çizimleri geliştirir.',
+        },
+      ],
+      ctaLevel: 'hot',
+      ctaLabel: 'Özel SUP Projenizi Görüşelim',
+    },
+    {
+      slug: 'private-label-sup',
+      navLabel: 'Özel Markalı Kürek Tahtaları',
+      metaTitle: 'Özel Markalı SUP Üretimi | Özel Markalı SUP Üretimi',
+      metaDescription:
+        'iSupfactory, mevcut markalar için özel markalı SUP üretim desteği sağlar ve özelleştirilmiş SUP ürünlerinin şartnameden üretime kadar geliştirilmesine yardımcı olur.',
+      kicker: 'Özel Markalı Kürek Tahtaları',
+      serviceType: 'Özel Markalı SUP Üretimi',
+      answer:
+        'Özel marka üretim, yeni kalıp yatırımı olmadan markanızı kanıtlanmış, üretime hazır SUP platformlarına taşır. Bir temel model seçin, logonuzu, renklerinizi, ambalajınızı ve aksesuarlarınızı uygulayın ve 150 m rulo başına 90–100+ adetten (hacim) sipariş verin. Bu, pazara girmenin en hızlı ve en düşük riskli yoludur; numuneler 7–12 gün, üretim ise siparişten sonra 25–35 gün sürer.',
+      h1: 'Markanız İçin Özel Markalı SUP Üretim Desteği',
+      intro: [
+        'Özel marka üretim, kalıplara veya bir fabrikaya yatırım yapmadan kendi markanız altında bir kürek tahtası hattı piyasaya sürmenizi sağlar. Logonuz, renkleriniz ve ambalajınız kalitesi doğrulanmış platformlara uygulanır; miktarlar taleple birlikte büyür.',
+        'Ürün tarafını biz üstleniyoruz ki siz marka tarafına odaklanabilsiniz: tasarım, ambalaj ve tekrar sipariş yönetimi tarafımızca yürütülür.',
+      ],
+      scenario: {
+        title: 'Markanız var — ve altında ürün gerekiyor',
+        body: 'Stok ürün olmadan bir marka kimliği. Kendi adınızı taşıyan, satılabilir bir kürek tahtası hattı istiyorsunuz ve miktar aşamanıza uygun olmalı — ilk doğrulama partisinden tekrarlanan filolara kadar.',
+      },
+      pairs: [
+        {
+          problem: 'Marka yalnızca etikette kalıyor; ürün hala jenerik görünüyor.',
+          solution: 'Eksiksiz marka entegrasyonu: tahta grafikleri, logo, EVA ped düzeni, markalı kürek, pompa, çanta ve ambalaj.',
+        },
+        {
+          problem: 'İlk siparişler, satamayacağınız yüzlerce adet almaya zorluyor.',
+          solution: 'Standart bir platformda 20–50 adetlik pilot partiyle başlayın, ardından 90–100+ adetlik standart hacimli seriye ölçekleyin — büyük partilerden önce pazarı doğrulayın.',
+        },
+        {
+          problem: 'Tasarım ve ambalaj geliştirmek ulaşılmaz görünüyor.',
+          solution: 'Marka varlıklarınız, tasarım ekibimiz tarafından üretime hazır tahta ve ambalaj çizimlerine dönüştürülür.',
+        },
+        {
+          problem: 'Tekrar siparişlerde kalite veya bulunabilirlik kayıyor.',
+          solution: 'Kalıplar ve tasarımlar sizin kalır, tekrar siparişler aynı doğrulanmış platformlarda tutarlı kaliteyle karşılanır.',
+        },
+      ],
+      steps: [
+        { title: 'Markanızı paylaşın', body: 'Logonuzu, renklerinizi ve mevcut marka varlıklarınızı gönderin.' },
+        { title: 'Çizimleri geliştirin', body: 'Tahta grafiklerini, EVA düzenini ve ambalajı markanıza göre tasarlarız.' },
+        { title: 'Numuneyi onaylayın', body: 'Fiziksel numune renkleri, yüzeyi ve ambalajı doğrular.' },
+        { title: 'Üretin ve teslim edin', body: 'Üretim sizin miktarınıza göre yapılır, kalite kontrolü ve ihracat baştan sona yürütülür.' },
+      ],
+      caseStudy: {
+        title: 'Yeni marka, ilk üretim siparişi',
+        body: 'Bir spor perakendecisi yalnızca bir logoyla kendi kürek tahtası hattını piyasaya sürdü. Tahtanın ve ambalajın tamamını geliştirdik, pazar testi için ilk 50 adetlik partiyi ürettik ve bir sezon içinde tam üretim siparişine ölçekledik.',
+        tags: ['Marka geliştirme', 'Ambalaj tasarımı', 'Ölçeklenen üretim'],
+      },
+      faqs: [
+        {
+          q: 'Özel markalı SUP üretimi nedir?',
+          a: 'Özel markalı SUP üretimi, işletmelerin özelleştirilmiş şartnameler ve üretim desteğiyle kendi markaları altında SUP ürünleri satmasına imkan verir.',
+        },
+        {
+          q: 'Mevcut markalar yeni SUP ürünleri geliştirebilir mi?',
+          a: 'Evet. iSupfactory, ürün gamını SUP ürünleriyle genişletmek isteyen markaları destekler — ürün seçimi, şartname uyarlaması, özel grafikler ve üretim.',
+        },
+        {
+          q: 'Özel markalı SUP programına neler dahildir?',
+          a: 'Markanız doğrudan tahtanın üzerinde — grafikler, logo, EVA ped — artı isteğe bağlı markalı kürek, pompa, sırt çantası ve ambalaj: kendi adınızla satılabilir eksiksiz bir ürün.',
+        },
+        {
+          q: 'Tasarım siparişler arasında değiştirilebilir mi?',
+          a: 'Evet. Marka varlıkları üretime hazır hale geldikten sonra tekrar siparişlerde grafikler, renkler veya ambalaj istendiği zaman yenilenebilir.',
+        },
+        {
+          q: 'Elimizde yalnızca bir logo var. Yine de yardımcı olur musunuz?',
+          a: 'Evet. Tasarım ekibimiz, logonuz ve marka renklerinizden yola çıkarak tahtanın ve ambalajın eksiksiz çizimlerini geliştirir.',
+        },
+      ],
+      ctaLevel: 'warm',
+      ctaLabel: 'Özel Marka Projenizi Görüşelim',
+    },
+    {
+      slug: 'resort-sup',
+      navLabel: 'Resort Kürek Tahtaları',
+      metaTitle: 'Resortlar İçin Özel SUP Ekipmanı | Markalı Tahtalar',
+      metaDescription:
+        'iSupfactory desteğiyle markalı tahtalar, aksesuarlar ve üretim desteğiyle resortlar ve oteller için özelleştirilmiş SUP ekipmanı oluşturun.',
+      kicker: 'Resort Kürek Tahtaları',
+      serviceType: 'Resort ve Otel SUP Ekipmanı',
+      answer:
+        'Resortlar ve oteller için markalı, günlük misafir kullanımına uygun şişirilebilir SUP tahtaları tedarik ediyoruz: yüksek basınçlı drop-stitch yapı, takviyeli dikişler ve 20–50 pilot adetten 90–100+ adede kadar uzanan kademeli minimum sipariş miktarları. Tahtalarda logonuz ve renkleriniz yer alır; depolama, bakım ve tekrar sipariş programları konusunda yönlendirme sağlar.',
+      h1: 'Resortlar ve Oteller İçin Özel SUP Ekipmanı Çözümleri',
+      intro: [
+        'Resort kürek tahtası filoları günlük misafir kullanımına dayanmalı, sezonlar arasında kolay saklanmalı ve markanızı taşımalıdır. Dayanıklı, misafir dostu tahtaları renklerinizde üretir ve filo programını işletmenize göre kurarız.',
+        'Miktarları tahmine değil, kullanım modeline göre öneririz — tekrar sipariş programları ise filoyu sezon sezon taze tutar.',
+      ],
+      scenario: {
+        title: 'Misafirleriniz için su etkinlikleri düzenliyorsunuz',
+        body: 'Misafirler hatırlanacak bir su deneyimi bekler ve ekipman tesisinizi temsil eder. Günlük kiralamaya dayanacak kadar dayanıklı, kolayca saklanabilen ve resortun tarzıyla uyumlu markalı tahtalara ihtiyacınız var.',
+      },
+      pairs: [
+        {
+          problem: 'Misafir filoları günlük kiralamada hızla yıpranıyor.',
+          solution: 'Takviyeli kenarlar ve UV dayanımlı malzemelerle, tekrarlanan seanslara dayanacak kiralama sınıfı yapı.',
+        },
+        {
+          problem: 'Sezon dışında depolama alanı sınırlı.',
+          solution: 'Sezon sonunda tüm filoyu tek bir dolaba sığdıran, kolayca saklanabilen şişirilebilir seçenekler.',
+        },
+        {
+          problem: 'Ekipman jenerik görünüyor, tesisinizi yansıtmıyor.',
+          solution: 'Resort renklerinizde tüm tahta grafikleri, logolar ve EVA uygulaması — markalı aksesuarlar dahil.',
+        },
+        {
+          problem: 'Filo değişimi ve yenilemesi koordine edilmiyor.',
+          solution: 'Tutarlı kalite, yedek parça desteği ve dürüst miktar yönlendirmesi sunan filo tekrar sipariş programı.',
+        },
+      ],
+      steps: [
+        { title: 'İşletmenizi anlatın', body: 'Misafir sayısı, kıyı yapısı, depolama ve sezon uzunluğu.' },
+        { title: 'Filo planı alın', body: 'Kullanım modeline göre tahta tiplerini ve miktarları öneririz.' },
+        { title: 'Markalı numuneyi onaylayın', body: 'Renkleriniz ve logonuz fiziksel bir tahtada doğrulanır.' },
+        { title: 'Teslim alın ve bakım yapın', body: 'Teslimat, yedek parçalar ve gelecek sezonlar için tekrar sipariş programı.' },
+      ],
+      caseStudy: {
+        title: 'Kıyı resortunda misafir filosu',
+        body: 'Bir kıyı resortu, plaj programını resort renklerinde 40 markalı şişirilebilir tahta ile donattı; buna markalı kürekler ve pompalar da dahildi. Tahtalar sezon dışında tek dolapta saklanıyor ve filo ikinci sezonun ardından tutarlı kaliteyle yenilendi.',
+        tags: ['Markalı misafir filosu', 'Şişirilebilir depolama', 'Sezonluk yenileme'],
+      },
+      faqs: [
+        {
+          q: 'Resortlar SUP ekipmanını logolarıyla özelleştirebilir mi?',
+          a: 'Evet. Resortlar proje gereksinimlerine göre grafikleri, renkleri ve aksesuarları özelleştirebilir — tesis renklerinde eksiksiz marka uygulaması dahil.',
+        },
+        {
+          q: 'Resort operasyonları için birden fazla SUP adedi sağlayabilir misiniz?',
+          a: 'Evet. Üretim çözümleri filo gereksinimlerine göre geliştirilebilir; başlangıç filosundan sezonluk yenileme programlarına kadar.',
+        },
+        {
+          q: 'Bir resortun kaç tahtaya ihtiyacı var?',
+          a: 'Çoğu resort 20–50 tahtayla başlar ve talebe göre büyür. Miktarları tahmin etmek yerine misafir sayınıza ve kıyı yapınıza göre öneririz.',
+        },
+        {
+          q: 'Şişirilebilir tahtalar resort kullanımı için uygun mu?',
+          a: 'Evet. Modern şişirilebilir SUP tahtaları son derece dayanıklıdır ve saklamak ile taşımak çok daha kolaydır — depolama alanı sınırlı resortlar için popüler tercihtir.',
+        },
+        {
+          q: 'Filo logomuzu ve renklerimizi taşıyabilir mi?',
+          a: 'Evet — tüm tahta grafikleri, logo baskısı, EVA uygulaması ve markalı aksesuarlar resort programının tamamıdır.',
+        },
+      ],
+      ctaLevel: 'warm',
+      ctaLabel: 'Resortunuz İçin SUP Çözümü Talep Edin',
+    },
+    {
+      slug: 'club-sup',
+      navLabel: 'Özel SUP Takım Tahtaları',
+      metaTitle: 'Kulüpler ve Takımlar İçin Özel SUP Ekipmanı',
+      metaDescription:
+        'iSupfactory, kulüpler, takımlar ve etkinlikler için grafikler, şartnameler ve üretim desteği dahil özelleştirilmiş SUP ekipmanı çözümleri sağlar.',
+      kicker: 'Özel SUP Takım Tahtaları',
+      serviceType: 'Kulüp ve Takım SUP Ekipmanı',
+      answer:
+        'Kulüpler ve takımlar kendi renklerinde dayanıklı, tutarlı filolar elde eder: logo yerleşimi, özel kürek boyları ve tek bir standart tahta şartnamesi üzerinde aksesuar setleri. Böylece onarımlar ve yedek parçalar, tekrar siparişler boyunca basit kalır. Minimum sipariş 90–100+ adetten (hacim) başlar; şartnameyi önce doğrulamak için 20–50 adetlik pilot seriler de sunulur.',
+      h1: 'Kulüpler ve Takımlar İçin Özel SUP Ekipmanı',
+      intro: [
+        'Kürek kulüpleri, günlük antrenmana dayanan, takımı yansıtan ve tekrar siparişlerde tutarlı kalan tahtalara ihtiyaç duyar. Kulüp adınızı ve renklerinizi taşıyan özel takım tahtalarını filo dostu fiyatlarla üretiyoruz.',
+        'Kulüp programları pratik tarafı da kapsar: yedek parçalar, onarım rehberliği ve aynı kaliteyle tekrar sipariş desteği.',
+      ],
+      scenario: {
+        title: 'Kulübünüz antrenman ve takım seansları düzenliyor',
+        body: 'Tahtalar kulüp üyeleri tarafından günlük olarak kullanılır ve etkinliklerde kulübü temsil eder. Fabrika ilişkilerini kendiniz yönetmeden, kulüp kimliği taşıyan dayanıklı takım ekipmanı istiyorsunuz.',
+      },
+      pairs: [
+        {
+          problem: 'Antrenman tahtaları yoğun kullanımda ağırlaşıyor.',
+          solution: 'Günlük profesyonel kullanıma yönelik takviyeli yapı, onarım rehberliği ve yedek parça desteği.',
+        },
+        {
+          problem: 'Filo birbirinden farklı ve markasız görünüyor.',
+          solution: 'Birim bir takım filosu için kulüp adı, renkler ve logo her tahtaya basılır.',
+        },
+        {
+          problem: 'Filoyu büyütmek eşleşen stok aramak demek.',
+          solution: 'Tekrar siparişler aynı doğrulanmış platformlarda yapılır, böylece yeni tahtalar mevcut olanlarla eşleşir.',
+        },
+        {
+          problem: 'Filo bütçesi sınırlı.',
+          solution: 'Filo fiyatları ve tekrar siparişler, parçalar ile bakım soruları için ayrı bir temas noktası.',
+        },
+      ],
+      steps: [
+        { title: 'Kulübünüzü anlatın', body: 'Üye sayısı, seans türleri ve mevcut ekipman.' },
+        { title: 'Tahta tiplerini seçin', body: 'Programınıza uygun antrenman, başlangıç ve takım şekilleri.' },
+        { title: 'Kulüp kimliğini ekleyin', body: 'Tahtalar ve aksesuarlarda adınız, renkleriniz ve logonuz.' },
+        { title: 'Sipariş verin ve büyütün', body: 'Filo tedariki, yedek parçalar ve tutarlı tekrar siparişler.' },
+      ],
+      caseStudy: {
+        title: 'Kulüp filosunun yenilenmesi',
+        body: 'Bir kürek kulübü kimliğini yenileyip filosunu 25 markalı antrenman tahtası ve yedek parçalarla değiştirdi. Üyeler eşleşen ekipmanla antrenman yapıyor ve kulüp, sonraki sezonda aynı siparişi tekrarlayarak filoyu genişletti.',
+        tags: ['Kulüp kimliği', 'Filo yenileme', 'Parça desteği'],
+      },
+      faqs: [
+        {
+          q: 'SUP kulüpleri takım tahtalarını özelleştirebilir mi?',
+          a: 'Evet. Kulüpler grafikleri, renkleri ve ürün yapılandırmasını özelleştirebilir — her tahtada kulüp adı, renkler ve logo.',
+        },
+        {
+          q: 'Etkinlik bazlı SUP üretimini destekleyebilir misiniz?',
+          a: 'Evet. Üretim planı, etkinlik versiyonu tahtalar ve aksesuarlar dahil etkinlik gereksinimlerine göre hazırlanabilir.',
+        },
+        {
+          q: 'Kulüp antrenmanı için hangi tahtalar en uygundur?',
+          a: 'Üyelerinizin seviyesine uygun kararlı ve dayanıklı tahtalar — dersler için geniş başlangıç şekilleri, mesafe antrenmanı için touring şekilleri.',
+        },
+        {
+          q: 'Kulüplere filo fiyatı veriyor musunuz?',
+          a: 'Evet — kulüp filoları için hacim fiyatları geçerlidir ve tekrar siparişler, parçalar ile bakım soruları için ayrı bir temas noktası sunulur.',
+        },
+        {
+          q: 'Hasarlı tahtalar onarılabilir veya değiştirilebilir mi?',
+          a: 'Yedek parça, onarım rehberliği ve tekrar sipariş desteği sağlıyoruz; böylece filo tutarlı kalır.',
+        },
+      ],
+      ctaLevel: 'cold',
+      ctaLabel: 'Kulüp SUP Projenizi Görüşelim',
+    },
+    {
+      slug: 'school-sup',
+      navLabel: 'Okul Kürek Tahtası Programı',
+      metaTitle: 'Okul SUP Ekipmanı | Eğitim İçin Özel Kürek Tahtaları',
+      metaDescription:
+        'iSupfactory özelleştirilmiş üretim desteğiyle okullar, kamplar ve kurumlar için güvenli ve güvenilir SUP ekipmanı çözümleri sağlayın.',
+      kicker: 'Okul Kürek Tahtası Programı',
+      serviceType: 'Okul ve Program SUP Ekipmanı',
+      answer:
+        'Okullar ve eğitim programları için, basılı güvenlik rehberi, kaplamalı kürekler ve koruyucu aksesuarlarla birlikte kararlı, başlangıç dostu tahtalar tedarik ediyoruz; ölçüler sınıf mevcudunuza ve depolama düzeninize göre belirlenir. Standart hacimli parti 150 m rulo başına 90–100+ adettir ve pilot seriler 20–50 adetten başlar; teslim süreleri okulun satın alma döngüsüne uyacak şekilde planlanır.',
+      h1: 'Okullar ve Programlar İçin Güvenli ve Güvenilir SUP Çözümleri',
+      intro: [
+        'Okullar kürek sporlarını farklı yürütür: büyük sınıflar, farklı yetenek düzeyleri, katı güvenlik ihtiyaçları ve eğitim bütçeleri. Okul programımız, kararlı ve başlangıç dostu tahtaları, sınıf mevcutlarına uyan paket seçeneklerini ve eğitmen perspektifinden rehberliği sunar.',
+        'Toplu tedarik ve tekrar sipariş desteği, ekipmanın yeni öğrenci grupları için yıllar boyunca hazır kalmasını sağlar.',
+      ],
+      scenario: {
+        title: 'Öğrencilere kürek sporları öğretiyorsunuz',
+        body: 'Sınıflar büyük ve yetenek düzeyleri değişkendir. İlk kez suda çıkacaklar için kararlı ve güvenli tahtalara, sınıf mevcutlarına uygun miktarlara ve okul bütçesine ve satın alma döngüsüne sığan bir ekipman programına ihtiyacınız var.',
+      },
+      pairs: [
+        {
+          problem: 'Öğrenciler suda en yüksek kararlılığa ihtiyaç duyuyor.',
+          solution: 'Geniş, yüksek hacimli başlangıç tahtaları ve ilk kez deneyenlere hata affeden çok kişilik tahtalar.',
+        },
+        {
+          problem: 'Sınıf mevcutları ölçekte tutarlı ekipman gerektiriyor.',
+          solution: 'Sınıf miktarları için toplu program fiyatları ve her tahtada aynı kalite.',
+        },
+        {
+          problem: 'Eğitmenler sınırlı destekle güvenliği yönetiyor.',
+          solution: 'Tahtalar açık kullanım rehberiyle gelir ve su alanınıza göre miktar ile yerleşim konusunda yönlendirme sağlarız.',
+        },
+        {
+          problem: 'Ekipman birden fazla öğrenci grubuna dayanmalı.',
+          solution: 'Takviyeli yapı ve program ömrü boyunca yedek parça ile tekrar sipariş desteği.',
+        },
+      ],
+      steps: [
+        { title: 'Programınızı paylaşın', body: 'Sınıf mevcudu, su alanı, eğitmen düzeni ve bütçe döngüsü.' },
+        { title: 'Paketi oluşturun', body: 'Tahminle değil, öğretimle eşleşen tahta tipleri ve miktarlar.' },
+        { title: 'Numuneyi onaylayın', body: 'Kararlılığı, yapıyı ve yüzeyi fiziksel bir tahtada doğrulayın.' },
+        { title: 'Teslim edin ve yenileyin', body: 'Toplu tedarik, yedek parçalar ve yeni gruplar için tekrar siparişler.' },
+      ],
+      caseStudy: {
+        title: 'Okul su sporları programı',
+        body: 'Bir okul, 15 tahtalık başlangıç filosu ve ilk dersler için çok kişilik tahtalarla kürek sporunu seçmeli ders olarak başlattı. Eğitmenler, kararlı platformlar sayesinde ilk seansta daha hızlı ilerleme bildirdi ve program ertesi yıl uygun bir tekrar siparişle ekipmanını yeniledi.',
+        tags: ['Başlangıç filosu', 'Program başlangıcı', 'Yenileme siparişleri'],
+      },
+      faqs: [
+        {
+          q: 'Okullar için hangi SUP ekipmanı uygundur?',
+          a: 'SUP ekipmanı seçimi kullanıcı yaşına, uygulama ortamına ve program gereksinimlerine bağlıdır — geniş ve kararlı tahtalar öğretim için standart tercihtir.',
+        },
+        {
+          q: 'Okullar SUP ekipmanını özelleştirebilir mi?',
+          a: 'Evet. Okullar programlarına göre grafikleri, renkleri ve ekipman paketlerini özelleştirebilir.',
+        },
+        {
+          q: 'Okul SUP dersleri için hangi tahtalar en iyidir?',
+          a: 'Geniş ve kararlı başlangıç tahtaları ile çok kişilik tahtalar idealdir — hacimleri ilk kez deneyenlere hata affeder ve birkaç kullanıcı altında kararlıdır.',
+        },
+        {
+          q: 'Miktarlar sınıf mevcudumuza uygun olabilir mi?',
+          a: 'Evet — program fiyatları sınıf miktarları üzerine kurulur ve sayıları su alanınıza ve kullanım sırasına göre öneririz.',
+        },
+        {
+          q: 'Okul satın alma takvimleriyle çalışıyor musunuz?',
+          a: 'Evet. Numune ve seri üretim teslim sürelerini okul bütçe ve sezon döngülerine göre planlarız.',
+        },
+      ],
+      ctaLevel: 'cold',
+      ctaLabel: 'Okulunuzun SUP Programını Görüşelim',
+    },
+  ],
 }
 
 export function getSolutionPage(locale: Locale, slug: string): SolutionPageData | undefined {

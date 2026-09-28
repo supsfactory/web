@@ -1,0 +1,123 @@
+meta:
+  title: 'SUP Konstrüksiyon Karşılaştırması — Tek Katman mı Çift Katman mı Drop Stitch PVC mi | iSupfactory'
+  description: 'Şişirilebilir SUP konstrüksiyon karşılaştırması: tek katman PVC, çift katman PVC ve drop stitch çekirdek — rijitlik, ağırlık, dayanıklılık, fiyat ve en uygun kullanım alanı.'
+  dateModified: '2026-08-21'
+  keywords:
+    - 'sup konstrüksiyon karşılaştırması'
+    - 'şişirilebilir sup konstrüksiyon türleri'
+    - 'tek katman ve çift katman sup'
+    - 'drop stitch sup konstrüksiyonu'
+    - 'pvc sup konstrüksiyonu'
+    - 'sup board rijitliği'
+    - 'sup board ağırlığı'
+
+hero:
+  tagline: 'Konstrüksiyon Rehberi'
+  title: 'SUP Konstrüksiyon Karşılaştırması'
+  subtitle: 'Üç konstrüksiyon türü, tek üretim hattı. Tek katman PVC, çift katman PVC ve drop stitch çekirdekli SUP boardlar arasındaki rijitlik, ağırlık, dayanıklılık ve maliyet dengesini anlayın — ve hedef kullanıcınız ile pazar konumunuzla hangisinin eşleştiğini görün.'
+
+answer:
+  label: 'Hızlı karşılaştırma'
+  text: 'Tek katman PVC en hafif ve en ekonomik olanıdır — amatör kullanıcılar ve fiyat duyarlı pazarlar için en uygundur. Çift katman PVC, orta düzey ağırlıkta rijitlik ve dayanıklılık için ikinci bir PVC deri ekler — kiralama filoları ve orta segment markalar için endüstri standardı seçimdir. PVC kabuklu drop stitch çekirdek en yüksek rijitliği ve basınç toleransını sunar — performans, sörf ve ağır kullanıcı uygulamaları için tercih edilir. Üç konstrüksiyonun üçü de aynı üretim hattında aynı kalite kontrolü kapılarıyla üretilir; fark malzemelerde ve laminasyon adımlarındadır.'
+  verified: 'Eylül 2026'
+
+comparison_table:
+  tagline: Yan Yana
+  title: 'Karşılaştırılan Konstrüksiyon Türleri'
+  headers:
+    - 'Özellik'
+    - 'Tek Katman PVC'
+    - 'Çift Katman PVC'
+    - 'Drop Stitch Çekirdek + PVC Kabuk'
+  rows:
+    - - 'Rijitlik (PSI değeri)'
+      - '12–15 PSI'
+      - '15–18 PSI'
+      - '18–25 PSI'
+    - - 'Ağırlık (11 ft board)'
+      - '7–9 kg'
+      - '10–13 kg'
+      - '12–15 kg'
+    - - 'Dayanıklılık'
+      - 'İyi — rekreasyon kullanımı'
+      - 'Çok iyi — kiralama ve ticari kullanım'
+      - 'Mükemmel — performans ve ağır kullanıcı'
+    - - 'Konstrüksiyon katmanları'
+      - '1 PVC katmanı + drop stitch çekirdek'
+      - '2 PVC katmanı + drop stitch çekirdek'
+      - 'Takviyeli drop stitch + PVC kabuk + kenar bandı'
+    - - 'Tipik kullanım alanı'
+      - 'Giriş seviyesi, amatör, fiyat duyarlı pazarlar'
+      - 'Genel amaçlı, kiralama, kulüpler, orta segment markalar'
+      - 'Tur, sörf, ağır kullanıcılar, premium markalar'
+    - - 'Göreli maliyet'
+      - 'En düşük'
+      - 'Orta'
+      - 'Daha yüksek'
+    - - 'Kaynak yöntemi'
+      - 'RF ısı kaynaklı dikişler'
+      - 'RF ısı kaynaklı dikişler + laminasyon'
+      - 'RF ısı kaynaklı dikişler + takviyeli kenar bandı'
+    - - 'Basınç testi standardı'
+      - '18.0 PSI tutma testi'
+      - '18.0 PSI tutma testi'
+      - '18.0 PSI tutma testi (daha yüksek anma değerli)'
+
+use_cases:
+  tagline: 'Hangi Alıcı İçin Hangi Konstrüksiyon'
+  title: 'Konstrüksiyonu Hedef Pazarınıza Eşleştirin'
+  subtitle: 'Konstrüksiyon seçimi yalnızca bir maliyet kararı değildir — kullanıcı deneyimini, garanti risk profilini ve sürdürebileceğiniz marka konumunu tanımlar.'
+  grid: 'sm:grid-cols-3'
+  features:
+    - icon: S
+      icon_bg: blue
+      title: 'Giriş ve Hacim için Tek Katman'
+      desc: 'En düşük fiyat noktasında en hafif board. İlk kez satın alan kullanıcıları, büyük mağaza perakendesini ve fiyatın birincil satın alma etkeni olduğu çevrimiçi pazaryerlerini hedefleyen markalar için ideal. Orta PSI seviyesinde düz su küreği için kabul edilebilir rijitlik sunar. Anma basıncı aralığında kullanıldığında daha düşük garanti talep oranı.'
+      link_label: 'OEM giriş seviyesi boardlara bakın'
+      href: /tr/oem-manufacturing
+    - icon: D
+      icon_bg: green
+      title: 'Kiralama ve Ticari Kullanım için Çift Katman'
+      desc: 'Kiralama filoları, kulüpler, tatil tesisleri ve okul programları için çalışma atı konstrüksiyon. Ek PVC katmanı, ticari ortamlarda tek katmanlı boardları yok eden darbe, UV maruziyeti ve günlük kullanım dayanıklılığına karşı direnç gösterir. Daha yüksek basınç toleransı, ağır kullanıcılar için daha sert bir sürüş anlamına gelir. Küresel ölçekte en popüler konstrüksiyon segmenti.'
+      link_label: 'Kiralama ve tatil tesisi çözümleri'
+      href: /tr/solutions/resort-sup
+    - icon: P
+      icon_bg: purple
+      title: 'Performans için Drop Stitch Çekirdek'
+      desc: 'Tur, sörf, balık tutma ve ağır kullanıcı uygulamaları için maksimum rijitlik. Takviyeli kenar konstrüksiyonu ve daha yüksek PSI değeri, taşınabilir bir paket içinde sert board benzeri performans sağlar. Performans markaları ve deneyimli kürekçiler tarafından tercih edilir. Malzeme maliyeti daha yüksektir, ancak marka konumu daha güçlü ve birim başına garanti oranı daha düşüktür.'
+      link_label: 'Performans boardu geliştirme'
+      href: /tr/odm-manufacturing
+
+key_factors:
+  heading: 'Konstrüksiyon Türünün Ötesindeki Temel Faktörler'
+  body: |
+    Konstrüksiyon türü, board performansı içindeki bir değişkendir. Üç ek faktör en az o kadar veya daha fazla önemlidir:
+
+    - **Drop stitch yoğunluğu** — İnç başına ip sayısı, boardun basınç altında şeklini ne kadar homojen koruduğunu belirler. Standart olarak inç başına 96 ip, performans üretimleri için ise 140 ip kullanırız. Daha yüksek yoğunluk = daha düz board = daha iyi kayma.
+    - **PVC sınıfı ve kalınlığı** — Her PVC aynı değildir. Kore'den ithal edilen 0,7 mm PVC, daha ince alternatiflere göre daha yüksek yırtılma mukavemeti ve UV dayanımına sahiptir. Malzeme sınıfını proje bazında belirtiriz.
+    - **Kenar konstrüksiyonu** — Tek katmanlı kenarlar, ucuz boardlarda en sık görülen arıza noktasıdır. Çift katman ve takviyeli kenar bandı, kenar delinme riskini belirgin biçimde azaltır. Konstrüksiyon segmentinden bağımsız olarak tüm boardlarımız takviyeli kenar bandı kullanır.
+
+faqs:
+  tagline: SSS
+  title: 'SUP Konstrüksiyonu — Sık Sorulan Sorular'
+  items:
+    - q: 'Markam için hangi konstrüksiyon türünü seçmeliyim?'
+      a: 'Bu, hedef pazarınıza ve fiyat konumlandırmanıza bağlıdır. Giriş seviyesi ve büyük mağaza perakendesi: tek katman. Kiralama filoları, kulüpler ve orta segment markalar: çift katman. Performans, tur ve premium: drop stitch çekirdek. Çoğu marka, maliyet, dayanıklılık ve kullanıcı deneyimi arasındaki en iyi denge olduğu için çift katmanla başlar. Uygulanabilirlik incelemesi sırasında belirli pazarınıza göre öneri sunarız.'
+    - q: 'Tek bir marka altında birden fazla konstrüksiyon segmenti sunabilir miyim?'
+      a: 'Evet — birçok marka iki veya üç segment sunar. Üç konstrüksiyonun üçünü de aynı hatta ve aynı kalite kontrolü kapılarıyla üretiyoruz; böylece tek bir sipariş içinde konstrüksiyon türlerini birleştirebilirsiniz. Gövde formu ve grafikler segmentler arasında aynı olabilir; yalnızca konstrüksiyon ve malzemeler değişir.'
+    - q: 'Tüm konstrüksiyonlar için basınç testi standardı nedir?'
+      a: 'Konstrüksiyon türünden bağımsız olarak her board, 24 saatte 0,50 PSI üzeri basınç kaybında otomatik ret uygulamasıyla 18.0 PSI tutma testinden geçer. Tek katmanlı boardlar 12–15 PSI sürüş basıncı, çift katmanlı boardlar 15–18 PSI, drop stitch çekirdekli boardlar ise 18–25 PSI için anma değerlidir. Test basıncı tüm tiplerde anma basıncının üzerindedir.'
+    - q: 'Konstrüksiyon garanti taleplerini nasıl etkiler?'
+      a: 'Kenar ve delinme maruziyeti nedeniyle tek katmanlı boardların ticari ve kiralama kullanımında garanti talep oranları bir ölçüde daha yüksektir. Çift katman ve drop stitch çekirdek konstrüksiyonlarda talep oranları belirgin biçimde daha düşüktür. Teklif aşamasında üretim kayıtlarımızdan segment bazında garanti verileri sunarız.'
+
+cta:
+  title: 'Doğru Konstrüksiyonu Seçmekte Yardım mı İstiyorsunuz?'
+  subtitle: 'Hedef kullanıcınızı, fiyat noktanızı ve pazarınızı bize söyleyin — konstrüksiyon segmentini önerir ve değerlendirmeniz için numune boardlar sağlarız.'
+  actions:
+    - variant: primary
+      text: 'Proje Briefinizi Başlatın'
+      href: /tr/contact#project-brief
+    - text: 'OEM üretim detaylarına bakın'
+      href: /tr/oem-manufacturing
+    - text: 'OEM, ODM ve Özel Markayı karşılaştırın'
+      href: /tr/oem-odm-private-label-comparison

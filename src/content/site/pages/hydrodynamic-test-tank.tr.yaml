@@ -1,0 +1,115 @@
+meta:
+  title: 'Hidrodinamik Test Havuzu — SUP Tahta Performans Testi'
+  description: 'Hidrodinamik test havuzumuzla SUP tahta gövde performansını doğrulayın. Ölçek modeli çekme testleri, planlama analizi ve tahta biçimleri için sürtünme ölçümü.'
+  dateModified: '2026-08'
+back_text: 'Ar-Ge Merkezine Dön'
+home_label: 'Ana Sayfa'
+
+answer:
+  label: 'Net cevap'
+  text: 'SUP gövde biçimlerini 1:3 ile 1:5 model ölçeğinde havuzda test ederiz — burun profili, ray yarıçapı, rocker ve ıslak yüzey — tam boyutlu prototipe geçmeden önce sürtünmeyi, kayma verimini ve kararlılığı ölçeriz. Havuzda geçen bir hafta, tam boy deneme-yanılmadan aylarca sürecek performans verisini verir.'
+  verified: 'Eylül 2026'
+
+hero:
+  tagline: 'Lab 04'
+  title: 'Hidrodinamik Test Havuzu'
+  subtitle: 'İlk tam boy prototipten önce performansı doğruluyoruz'
+  image: 'https://assets.isupfactory.com/images/sups/factory/isupfactory-design-discussion-original.webp'
+  image_alt: 'Vatrad hidrodinamik test havuzu performans testi'
+
+intro: 'Hidrodinamik testin gemiler ve yarış teknelerine özgü olduğu yaygın bir yanlış anlaşılmadır. Gerçekte 10 ile 14 feet arası bir planlama gövdesi olan SUP tahtasının performansı da sualtı biçimine diğer her teknenin olduğu kadar bağımlıdır. Burun profili, ray yarıçapı, rocker ve ıslak yüzey alanı sürtünme, kayma verimi ve kararlılık üzerinde dramatik etkiye sahiptir. {SITE.name}’de, kumaşı ve aparatı tam boy prototipe bağlamadan önce bu etkileri model ölçeğinde nicelleştirmemizi sağlayan, kendine ait bir hidrodinamik test havuzu işletiyoruz.'
+
+content_html: |
+  <h2>Neden bir SUP tahtası havuzda test edilir?</h2>
+  <p>Model ölçeğinde test (tipik olarak 1:3 ile 1:5) bize tahta biçimlerini hızlı ve maliyet etkin biçimde yinelemek imkanı verir. Havuzda geçen bir hafta, tam boy deneme-yanılma için aylarca gerekecek aynı performans verisini üretebilir — ve maliyetin çok küçük bir kısmıyla.</p>
+
+  <h2>Tesis özellikleri</h2>
+  <table>
+    <thead><tr><th>Parametre</th><th>Şartname</th></tr></thead>
+    <tbody>
+      <tr><td>Havuz ölçüleri</td><td>35 m (U) × 3.5 m (G) × 1.8 m (D)</td></tr>
+      <tr><td>Çekme arabası</td><td>Elektrikli servo tahrikli, azami hız 12 m/s (23 kn), hız hassasiyeti ± %0,5</td></tr>
+      <tr><td>Dalga üreteci</td><td>Flap tipi, programlanabilir düzenli ve düzensiz deniz durumları, model ölçeğinde Hs 0.3 m’ye kadar</td></tr>
+      <tr><td>Ölçüm aletleri</td><td>6 bileşenli dinamometre (sürtünme, yanal kuvvet, sarp dönme momenti), ivmeölçerler, eğimölçerler, dalga probları</td></tr>
+      <tr><td>Veri toplama</td><td>Kanal başına 1000 Hz örnekleme, gerçek zamanlı gösterim + son işleme paketi</td></tr>
+      <tr><td>Model imalatı</td><td>1.8 m LOA’ya kadar model gövdeler için şirket içi CNC freze ve 3B baskı</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Test programımız</h2>
+  <p>Havuzumuzdaki standart bir tahta geliştirme programı şu sırayı izler:</p>
+  <ol>
+    <li><strong>Model imalatı</strong> — 1:4 ölçekli model, yüksek yoğunluklu köpükten CNC ile işlenir ve rijitlik için cam elyaf kaplanır. Ağırlık ve ağırlık merkezi, Froude ölçekli tam yük koşuluna uyacak şekilde ayarlanır.</li>
+    <li><strong>Direnç koşuları</strong> — Model, kürek aralığını (tam ölçekte 2–6 kn) kapsayan 6-10 hızda çekilir. Toplam direnç ölçülür ve ITTC-1957 yöntemiyle sürtünme ve artık bileşenlere ayrıştırılır.</li>
+    <li><strong>Trim ve batma ölçümü</strong> — Her hızda koşu trimi ve batması kaydedilir. Hedef, ıslak yüzeyi en aza indirirken burnu baş dalgasından uzak tutan trim açısıdır.</li>
+    <li><strong>İz taraması</strong> — Dalga üretim direncini değerlendirmek ve tahtanın sudan geçişini yavaşlatan burun biçimi etkileşimlerini belirlemek için iki hızda enine dalga kesitleri ölçülür.</li>
+    <li><strong>Denizcilik (isteğe bağlı)</strong> — Düzenli dalgalarda önden deniz koşularıyla ek direnç ve kırpi içindeki düşey ivme ölçülür — tur tahtası burun tasarımının arkasındaki veri.</li>
+    <li><strong>Veri analizi ve öneriler</strong> — Karşılaştırmalı grafikler, sürtünme/hız eğrileri ve tam boy tahta için belirli tasarım önerileriyle eksiksiz bir rapor teslim edilir.</li>
+  </ol>
+
+  <div class="not-prose my-10 p-6 rounded-xl bg-gray-50 dark:bg-gray-900 border border-gray-200 dark:border-gray-800">
+    <p class="text-sm font-semibold text-gray-500 mb-3 uppercase tracking-wider">Tipik Havuz Testi Sonuçları — Sürtünme ve Hız (11''0 Her Yönden Tahta, 1:4 ölçek)</p>
+    <div class="space-y-2">
+      <div class="flex items-center gap-2 text-xs">
+        <span class="w-20">2 kn (1:1)</span>
+        <div class="flex-1 bg-gray-200 dark:bg-gray-700 h-5 rounded">
+          <div class="h-full bg-blue-600 rounded" style="width:18%"></div>
+        </div>
+        <span class="w-16 text-right">11 N</span>
+      </div>
+      <div class="flex items-center gap-2 text-xs">
+        <span class="w-20">3 kn (1:1)</span>
+        <div class="flex-1 bg-gray-200 dark:bg-gray-700 h-5 rounded">
+          <div class="h-full bg-blue-600 rounded" style="width:35%"></div>
+        </div>
+        <span class="w-16 text-right">21 N</span>
+      </div>
+      <div class="flex items-center gap-2 text-xs">
+        <span class="w-20">4 kn (1:1)</span>
+        <div class="flex-1 bg-gray-200 dark:bg-gray-700 h-5 rounded">
+          <div class="h-full bg-blue-600 rounded" style="width:52%"></div>
+        </div>
+        <span class="w-16 text-right">32 N</span>
+      </div>
+      <div class="flex items-center gap-2 text-xs">
+        <span class="w-20">5 kn (1:1)</span>
+        <div class="flex-1 bg-gray-200 dark:bg-gray-700 h-5 rounded">
+          <div class="h-full bg-blue-600 rounded" style="width:68%"></div>
+        </div>
+        <span class="w-16 text-right">42 N</span>
+      </div>
+      <div class="flex items-center gap-2 text-xs">
+        <span class="w-20">6 kn (1:1)</span>
+        <div class="flex-1 bg-gray-200 dark:bg-gray-700 h-5 rounded">
+          <div class="h-full bg-blue-600 rounded" style="width:85%"></div>
+        </div>
+        <span class="w-16 text-right">52 N</span>
+      </div>
+    </div>
+    <p class="text-xs text-gray-400 mt-2">Froude ölçekli hızlarda model ölçeği sürtünmesi (N). Tam boy güç tahmini ITTC-1978 performans tahmin yöntemini izler.</p>
+  </div>
+
+  <h2>Uzman ekip</h2>
+  <p>Havuzumuz, denizcilik mimarisi alanında doktora sahip ve büyük bir Avrupa denizcilik araştırma enstitüsünde 8 yıllık çekme havuzu deneyimi olan bir hidrodinamikçi tarafından işletilir. Tüm modelleri ve ölçüm donanımını hazırlayan bir teknisyenle desteklenir. Ekip, her testin tekrarlanabilir, izlenebilir ve uluslararası düzeyde savunulabilir olmasını sağlamak için ITTC (International Towing Tank Conference) Önerilen Prosedürlerini izler.</p>
+
+  <h2>Özel tahta geliştirme için havuz testleri</h2>
+  <p>Havuzumuz yalnızca kendi tasarladığımız tahtalar için kullanılmaz — özel bir tahta biçimini doğrulamak veya bir performans sorununu araştırmak isteyen müşteriler için de düzenli olarak test programları yürütürüz:</p>
+  <ul>
+    <li><strong>Biçim karşılaştırması</strong> — İki veya daha fazla aday tahta biçimi aynı koşullarda test edilir; tasarım kararınızı destekleyen nesnel bir sürtünme/hız/kararlılık karşılaştırması sağlanır.</li>
+    <li><strong>Ray ve burun optimizasyonu</strong> — Burun profili ve ray yarıçapı değişkenlikleri, sürtünme azaltma katkılarını nicelleştirmek için çeşitli yapılandırmalarda test edilebilir.</li>
+    <li><strong>Kürekçi yükü çalışması</strong> — Direnç verisi, anma kürekçi ağırlık aralığı boyunca haritalanır; böylece hedef kürekçiniz için doğru uzunluk ve genişliği belirleyebilirsiniz.</li>
+  </ul>
+
+  <h2>Neden bizimle test ettirmeli?</h2>
+  <p>Bize yalnızca bir dizi ham sayı vermiyoruz. Raporlarımız havuz verisini uygulanabilir mühendislik önerilerine dönüştürür: “cruise hızında baş dalgası sürtünmesini azaltmak için burun rocker’ını 10 mm yükseltin”, “ıslak yüzeyi azaltmak için orta gemide rayı yuvarlatın” veya “iyi trim için ayakta durma alanını 50 mm öne alın”. Neyi neden değiştireceğinize dair net bir anlayışla ayrılırsınız.</p>
+  <p>Havuzumuz ayrıca, hizmet başına ücret esasına dayalı olarak bağımsız üçüncü taraf testleri için de kullanılabilir. Bir tahta geliştiriyorsanız ve tarafsız, profesyonel biçimde yürütülmüş bir hidrodinamik değerlendirme istiyorsanız, talebinizi memnuniyetle karşılıyoruz.</p>
+
+cta:
+  title: 'Havuz testi oturumu ayırtın'
+  subtitle: 'Eksiksiz bir geliştirme programına mı, tek bir karşılaştırmalı teste mi ihtiyacınız var, programınıza uyum sağlayabiliriz.'
+  actions:
+    - variant: primary
+      text: Hidrodinamik ekibimizle iletişime geçin
+      href: /tr/contact#project-brief
+    - text: Ar-Ge Merkezine Dön
+      href: /tr/randdcenter

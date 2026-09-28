@@ -1,0 +1,164 @@
+meta:
+  title: 'Şişirilebilir SUP OEM Üreticisi | Özel Paddle Board Üretimi'
+  description: 'Şişirilebilir SUP OEM fabrikası: mevcut tasarımınızı üretiyoruz — mühendislik incelemesi, 7–12 günde numuneler, 25–35 günde üretim, CE/ISO/BSCI uyumluluğu.'
+  dateModified: '2026-08-16'
+  keywords:
+    - 'SUP OEM üreticisi'
+    - 'OEM şişirilebilir SUP'
+    - 'özel SUP üretimi'
+    - 'Çinde SUP fabrikası'
+    - 'özel paddle board fabrikası'
+
+hero:
+  tagline: OEM Üretimi
+  title: 'Özel SUP OEM Üretimi — Sizin Spesifikasyonunuz, Bizim Fabrikamız'
+  subtitle: 'Tasarımı, çizimi veya iyi test edilmiş platformu siz getirirsiniz — biz onu konteyner ölçeğinde üretiriz. Bir iş günü içinde mühendislik incelemesi, 7–12 günde numuneler, onaylanan sipariş ve depozitodan sonra 25–35 gün süren üretim ve kendi markanız adına sevkiyat.'
+
+answer:
+  label: 'Doğrudan yanıt'
+  text: 'OEM üretimi sizin spesifikasyonunuzdan yürür. MOQ, sabit bir sayı yerine proje konfigürasyonuyla teyit edilir: standart hacimli üretim 150 m rulo drop-stitch kumaştan partiler halinde 90–100 adet, pilot üretimler mevcut platformlarda 20–50 adetten başlar ve her proje hacimli üretimden önce numune aşamasından (1–2 adet) geçer. Numuneler 7–12 günde sevk edilir; üretim onaylanan sipariş ve depozitodan sonra 25–35 gün sürer ve yeni kalıp gerektiğinde buna 15–20 gün eklenir.'
+  verified: 'Eylül 2026'
+
+features:
+  title: OEM Yetenekleri
+  subtitle: 'Mevcut spesifikasyonunuzu, çiziminizi veya platformunuzu sevk edilmiş bir konteynere dönüştürmek için gereken her şey.'
+  items:
+    - title: Spesifikasyonunuzdan Üretim
+      description: 'Çizimleriniz, ölçüleriniz, malzeme kaliteleriniz ve grafikleriniz teslim edildiği gibi uygulanır — mühendislerimiz teklif vermeden önce spesifikasyonun üretilebilirliğini inceler.'
+      icon: 'tabler:file-check'
+    - title: Platform Uyarlaması
+      description: 'Kanıtlanmış üretim platformları; şekil değişiklikleriniz, rail spesifikasyonunuz, valf yerleşiminiz ve aksesuarlarınızla uyarlanabilir — tam kalıp geliştirmeye gerek kalmadan.'
+      icon: 'tabler:arrows-diff'
+    - title: Özel Kalıplar
+      description: 'Çizimlerinizden veya CAD verinizden yeni tahta şekilleri — kendi bünyemizde kalıp tasarımı ve mühendislik. Kalıp işleri proje teslim sürenize 15–20 gün ekler.'
+      icon: 'tabler:shapes'
+    - title: Prototip ve Numune
+      description: 'Herhangi bir hacimli üretimden önce fiziksel numune üretilir ve onaylanır, genellikle 7–12 gün içinde, yeni şekiller için pist testleriyle birlikte.'
+      icon: 'tabler:tools'
+    - title: Konteyner Ölçeğinde Üretim
+      description: 'Tasarım başına 90–100 adetlik standart hacimli partiler (bir tam 150 m kumaş rulosu), 20–50 adetten başlayan pilot üretimler, onaylanan siparişten sonra 25–35 gün teslim süresi.'
+      icon: 'tabler:package'
+    - title: CE ve Pazar Uyumluluğu
+      description: 'Uygulanabilir AB pazarı konfigürasyonları için CE uygunluk dokümantasyonu mevcuttur — kapsam proje bazında teyit edilir. ISO 9001, BSCI, REACH ve RoHS dokümantasyonu sevk ettiğiniz her pazar için hazırlanır.'
+      icon: 'tabler:certificate'
+    - title: İnceleme ve İzlenebilirlik
+      description: '0.50 PSI üzeri düşüşte otomatik retli 18.0 PSI 24 saatlik basınç tutma testi, 100 maddelik montaj kontrol listesi ve 10 yıllık ERP parti izlenebilirliği.'
+      icon: 'tabler:shield-check'
+    - title: Küresel Lojistik
+      description: 'FOB Qingdao, CIF ve DDP ile 50 üzeri ülkeye, ihracat ambalajı ve gümrükleme lojistik ekibimiz tarafından karşılanır.'
+      icon: 'tabler:world'
+
+customization:
+  tagline: Spesifikasyonunuza Göre Üretilir
+  title: OEM Spesifikasyon Noktaları
+  subtitle: 'Bunlar bir OEM projesinde kontrol ettiğiniz spesifikasyon noktalarıdır — spesifikasyon dokümanınız üretim sözleşmesidir:'
+  items:
+    - 'Tahta ölçüleri — çizimlerinize veya hedef kullanıcılarınıza göre uzunluk, genişlik, kalınlık, rocker ve hacim'
+    - 'Malzeme yapısı — PVC katman sayısı ve kalitesi, drop-stitch yoğunluğu, destek elemanları ve rail takviyeleri'
+    - 'Grafikler ve renkler — sınırsız paletle uygulanan kendi grafikleriniz veya kendi bünyemizdeki tasarım ekibimizden destek'
+    - 'EVA kayma pad — her tahtada ölçüye özel kesilmiş üst yüzey padleri, logolar ve üst yüzey renkleri'
+    - 'Kulp ve D halkaları — kullanım senaryonuza göre yerleşim, adet ve donanım spesifikasyonu'
+    - 'Pala sistemleri — tek, çift veya üç palalı konfigürasyonlar ve spesifikasyonunuza göre pala yuvaları'
+    - 'Kürekler, pompalar, emniyet halatları ve aksesuarlar — sizin paketiniz, sizin markalama'
+    - 'Ambalaj ve perakende sunumu — markanız altında perakende kutuları, denize dayanıklı sevkiyat ambalajı ve satış noktası standları'
+    - 'Etiketler ve uyumluluk işaretleri — ihracat bölgeniz için seri etiketleri, logolar ve pazara özel dokümantasyon'
+
+faq_section:
+  tagline: SSS
+  title: OEM Üretimi Soruları
+  questions:
+    - q: Kendi tasarımımla bir OEM projesini nasıl başlatırım?
+      a: 'Çizimlerinizi, referans bir tahtayı veya yazılı bir spesifikasyonu gönderin. Mühendislik incelemesi üretilebilirliği teyit eder ve bir iş günü içinde teklif döndürür — bu standart taahhüdümüzdür ve gerekirse herhangi bir dosya paylaşımından önce bir NDA imzalanır.'
+    - q: OEM şişirilebilir SUP için MOQ nedir?
+      a: 'MOQ, proje konfigürasyonuyla teyit edilir — gövde ve kalıp, renk varyantları ve PVC, grafikler, ambalaj ve aksesuarlar. Standart hacimli üretim partiler halinde 90–100 adet (bir 150 m drop-stitch rulosu), pilot üretimler ise mevcut platformlarda 20–50 adetten başlar. Hesaplama mantığının tamamını MOQ ve Esnek Markalama Rehberimizde okuyun.'
+    - q: Bir OEM siparişinin tipik teslim süresi nedir?
+      a: 'Üretim onaylanan sipariş ve depozitodan sonra 25–35 gün sürer. Özel kalıp geliştirme kalıp için 15–20 gün ekler. Prototip numuneler genellikle 7–12 gün içinde sevk edilir.'
+    - q: Yalnızca mevcut çizimlerimden üretim yapabilir misiniz?
+      a: 'Evet. OEM, tasarımın sizin olduğu spesifikasyonunuz olduğu gibi uygulanarak üretir. Mühendislerimiz çizimleri üretim uygulanabilirliği açısından inceler, kalıp veya kesim başlamadan önce her türlü spesifikasyon çakışmasını bildirir ve onaylanan numune üretim referansı olur.'
+    - q: Üretimden önce numune veriyor musunuz?
+      a: 'Evet. Her üretimden önce fiziksel numune üretilir ve onaylanır, genellikle 7–12 gün içinde, ve sonraki tüm kalite kontrol kontrolleri için referanstır.'
+    - q: Fabrika hangi sertifikalara sahip?
+      a: 'ISO 9001:2015 kalite yönetimi (fabrika genelinde), BSCI sosyal uyum (amfori tesis denetimi), uygulanabilir AB pazarı konfigürasyonları için CE uygunluk dokümantasyonu (kapsam proje bazında teyit edilir), REACH (malzemeler) ve RoHS (elektronik aksesuarlar). Eksiksiz uyumluluk dokümantasyonu, hedef pazarlarınıza göre hazırlanarak her OEM sevkiyatıyla birlikte verilir.'
+    - q: Bir OEM üretiminde kalite nasıl kontrol ediliyor?
+      a: 'Üretim çok noktalı kalite kontrolüyle yürür — gelen malzeme, süreç içi ve son kontrol — 18.0 PSI 24 saatlik basınç tutma testi (0.50 PSI üzeri düşüşte otomatik ret), 100 maddelik montaj kontrol listesi ve seri numarası başına 10 yıllık ERP parti izlenebilirliği ile.'
+    - q: Sevkiyat koşullarınız nelerdir?
+      a: 'FOB Qingdao, önemli küresel limanlar için CIF veya uygun iş ortakları için DDP. AB, ABD, Avustralya ve Asya pazarlarında 50 üzeri ülkeye sevkiyat yapıyoruz.'
+
+process:
+  title: OEM Süreci — Spesifikasyondan Sevk Edilen Konteynere
+  subtitle: 'Tek bir fabrika ekibi tarafından yürütülen kontrollü yedi aşama; böylece ilk spesifikasyonunuzdan paketlenmiş konteynere kadar her adım belgeli ve takvimde kalır.'
+  steps:
+    - phase: '01'
+      title: Spesifikasyon İncelemesi ve Teklif
+      period: 1 iş günü
+      items:
+        - 'Çizimlerinizi, spesifikasyonunuzu veya referans tahtalarınızı paylaşın — mühendislerimiz üretilebilirliği kontrol eder.'
+        - 'Bir iş günü içinde ayrıntılı teklif ve proje planı alırsınız.'
+    - phase: '02'
+      title: Mühendislik Onayı
+      period: 1. hafta
+      items:
+        - 'Gövde ölçüleri, drop-stitch kalitesi, PVC spesifikasyonları ve rail yapısı dokümanınıza göre teyit edilir.'
+        - 'Kalıp veya platform kararları kesinleşir — gerekirse özel kalıp işleri burada başlar.'
+    - phase: '03'
+      title: Prototip ve Numune
+      period: 7–12 gün
+      items:
+        - 'Fiziksel numune üretilir ve sizin incelemenize gönderilir; yeni şekiller için pist testi de uygulanır.'
+        - 'Numune (1–2 adet), herhangi bir hacim taahhüdünden önce spesifikasyonunuzu doğrular.'
+    - phase: '04'
+      title: Test ve Doğrulama
+      period: Paralel olarak
+      items:
+        - 'Üretim hattı başına hava tutma, basınç tutma, dikiş dayanımı, yük ve UV kontrolleri.'
+        - 'İhracat pazarlarınız için CE, ISO 9001, BSCI, REACH ve RoHS dokümantasyonu hazırlanır.'
+    - phase: '05'
+      title: Onay ve Kesinleştirme
+      period: Numune onayından sonra
+      items:
+        - 'Numuneyi ve grafikleri onaylarsınız; sipariş ve depozito üretim slotunu kesinleştirir.'
+        - 'Üretim öncesi plan tarihleri, miktarları, ambalajı ve yükleme limanını teyit eder.'
+    - phase: '06'
+      title: Üretim
+      period: 25–35 gün
+      items:
+        - 'Üretim çok noktalı kalite kontrolüyle yürür — gelen malzeme, süreç içi ve son kontrol.'
+        - 'Mevcut platformlarda pilot siparişlerden (20–50 adet) standart hacimli üretim için tam 150 m rulo partilerine (90–100+ adet) kadar.'
+    - phase: '07'
+      title: Paketleme ve Sevkiyat
+      period: 1 gün + transit
+      items:
+        - 'Model seri etiketli ihracat ambalajı, ardından FOB Qingdao, CIF veya DDP ile 50 üzeri ülkeye sevkiyat.'
+        - 'Gümrük dokümantasyonu, takip ve yeniden sipariş desteği her aşamada sunulur.'
+
+geo:
+  tagline: Kimlerle Çalışıyoruz
+  title: SUP Sektöründe OEM İş Ortakları
+  sentence: 'iSupfactory şirketindeki her OEM proje, daha önce aynı iş tipi için tahta üretmiş bir ekiple eşleştirilir — size kimin hizmet verdiği aşağıda.'
+  audiences:
+    - 'SUP Markaları'
+    - 'Outdoor ve Su Sporları Şirketleri'
+    - 'Distribütörler ve Perakendeciler'
+    - 'Resortlar, Kulüpler ve Organizasyonlar'
+
+cta:
+  title: 'SUP hattınızı devreye almaya hazır mısınız?'
+  subtitle: 'Bir iş günü içinde ayrıntılı bir OEM teklifi alın — spesifikasyonunuzu veya çizimlerinizi gönderin.'
+  actions:
+    - variant: primary
+      text: OEM Teklifi İsteyin
+      href: /tr/contact#custom-oem
+    - text: Fabrikayı ve kalite sistemini doğrulayın
+      href: /tr/oem-trust-assurance
+    - text: 7 aşamalı inceleme sistemi
+      href: /tr/quality
+    - text: MOQ ve esnek markalama rehberi
+      href: /tr/oem-moq-guide
+    - text: Özel SUP MOQ ve teslim süresi dökümü
+      href: /tr/sup-oem-moq-lead-time
+    - text: Yeni bir markayı deneme siparişiyle başlatın
+      href: /tr/new-brand-trial-order
+    - text: SUP Yapı Karşılaştırması
+      href: /tr/sup-construction-comparison
+    - text: Pazara Göre SUP Uyumluluğu
+      href: /tr/sup-compliance-by-market

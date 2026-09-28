@@ -1,0 +1,83 @@
+meta:
+  title: 'İş Ortakları — Distribüsyon ve Toptan Satış | {SITE}'
+  description: 'iSupfactory şirketiyle üretim iş ortaklıkları: distribüsyon, toptan tedarik, OEM/private label programları ve dünya genelindeki paddle board işletmeleri için spesifikasyon desteği.'
+  keywords:
+    - 'sup distribüsyon iş ortağı'
+    - 'paddle board toptan satış'
+    - 'şişirilebilir sup distribütörü'
+    - 'sup iş ortaklığı'
+  dateModified: '2026-08'
+hero:
+  tagline: İş Ortakları ve Distribüsyon
+  title: 'Üretim İş Ortaklıkları ve Distribüsyon'
+  subtitle: "Denizcilik distribütörleri, bayiler, perakende markaları ve 50 üzeri ülkedeki kurumlar için üretim yapıyoruz. Ürünü siz belirlersiniz — biz onu kendi markanız altında tasarlar, numuneler ve üretiriz."
+  image:
+    src: https://assets.isupfactory.com/images/sups/team/isupfactory-meeting-overseas.webp
+    alt: Vatrad küresel iş ortağı ve distribütör ağı
+
+answer:
+  label: 'Doğrudan yanıt'
+  text: 'İş ortaklığı koşulları numune (1–2 adet) ve pilot partilerle (20–50 adet, numuneler 7–12 günde) başlar, ardından tam bir 150 m rulo drop-stitch kumaştan parti başına 90–100+ adetlik standart hacimli OEM üretimlerine ölçeklenir veya private label ürünler için özel kalıplara yatırım yapılır. MOQ, proje konfigürasyonuyla teyit edilir. Distribüsyon programları münhasır bölgeleri, doğrudan fabrika toptan fiyatını ve 45–60 günlük ödeme vadesini içerir; sevkiyat FOB Qingdao veya CIF ile yapılır.'
+  verified: 'Eylül 2026'
+content_programs:
+  tagline: İş Ortağı Programları
+  title: 'Üretim Üzerine Kurulmuş İş Birliği Modelleri'
+  subtitle: 'Distribütör, bayi veya marka iş ortağı olmanızdan bağımsız olarak program, sizin ürün gereksinimleriniz ve üretim planınız etrafında kurulur.'
+  columns: 3
+  items:
+    - title: 'Distribütör Programı'
+      description: 'Doğrudan fabrika erişimi, spesifikasyon desteği ve bölgeler boyunca tutarlı yeniden sipariş kalitesi sunan distribüsyon anlaşmaları. Minimum taahhüt bölge büyüklüğüne göre belirlenir.'
+      icon: tabler:world
+    - title: 'Bayi Programı'
+      description: 'Perakende lokasyonları ve çevrimiçi mağazalar için ürün spesifikasyonları, numune onayı, garanti desteği ve güvenilir yeniden siparişler.'
+      icon: tabler:building-store
+    - title: 'OEM/ODM İş Birliği'
+      description: 'Özel markalama, ambalaj ve ürün spesifikasyonlarıyla eksiksiz hizmet veren OEM ve ODM üretimi. Konseptten konteynere kadar.'
+      icon: tabler:certificate
+    - title: 'Marka İş Birliği'
+      description: 'Denizcilik ve outdoor rekreasyon alanındaki yerleşik markalar için private label ve model geliştirme.'
+      icon: tabler:stars
+    - title: 'Kamu ve Kurumsal'
+      description: 'Devlet kurumları, sahil güvenlik, ordu ve insani yardım kuruluşları için tercih edilen tedarikçi programları. İhale hazır dokümantasyon.'
+      icon: tabler:building-community
+    - title: 'Resort ve Kiralama İş Ortağı'
+      description: 'Dünya genelindeki resortlar, dalış merkezleri ve kiralama operasyonları için filo fiyatları, tutarlı kalite ve özel markalama.'
+      icon: tabler:sun
+content_benefits:
+  tagline: Neden Bizimle Çalışmalı
+  title: 'İş Ortakları Neden Vatrad’ı Seçiyor'
+  subtitle: 'İş ortaklarımız gerçek üretim kapasitesi, tutarlı kalite ve hızlı yanıt veren mühendislik desteğiyle çalışır.'
+  list:
+    - 'Doğrudan Fabrika Erişimi: Üretim ekibimizle doğrudan çalışın — aracı yok. Daha hızlı yanıtlar, üretime tam görünürlük ve tahtaları üreten kişilerden mühendislik cevapları.'
+    - 'Özelleştirmeye Hazır: Ürünlerinizi özel renkler, logolar, ambalaj ve spesifikasyonlarla markalayın. MOQ, proje konfigürasyonuyla teyit edilir — numune, pilot ve hacim aşamaları.'
+    - 'Kalite Garantili: CE, BSCI ve REACH uyumluluğuyla ISO 9001 sertifikalı üretim. Her ürün sevkiyat öncesi basınç testinden geçirilir.'
+    - 'Küresel Lojistik: FOB, CIF ve DDP seçenekleriyle Çin, Qingdao üzerinden sevkiyat. Kuzey Amerika distribüsyonu için Montclair, Kaliforniya’daki ABD depomuz.'
+    - 'Teknik Dokümantasyon: Spesifikasyon ve yeniden sipariş kararlarını destekleyen ürün katalogları, fotoğraflar ve teknik dokümantasyon.'
+    - 'Spesifikasyon ve Kalite Kontrolü Desteği: Toplu üretimden önce numune alma, müşterileriniz için teknik destek ve garanti hizmeti koordinasyonu.'
+content_process:
+  tagline: Nasıl İş Ortağı Olunur
+  title: 'İş Ortaklığı Süreci'
+  subtitle: 'Basit bir süreç — başvurudan ilk üretim partinize kadar.'
+  items:
+    - title: 'Adım 1: Başvuru Gönderin'
+      description: 'Şirket profilinizi, hedef pazarınızı ve ürün ilgi alanlarınızı içeren iş ortağı başvuru formumuzu doldurun.'
+    - title: 'Adım 2: Nitelik Değerlendirmesi'
+      description: 'Ekibimiz başvurunuzu inceler ve gereksinimleri görüşmek üzere 3 iş günü içinde sizinle iletişime geçer.'
+    - title: 'Adım 3: Anlaşma ve Kurulum'
+      description: 'İş ortaklığı anlaşmasını imzalayın, hesabınızı oluşturun ve ürün numunelerini, spesifikasyonları ve kararlaştırılan koşulları alın.'
+    - title: 'Adım 4: Numune Alma ve Üretim'
+      description: 'Fiziksel numuneleri onaylayın, spesifikasyonları ve MOQ değerini teyit edin; üretim kendi markanız altında yürür.'
+cta:
+  title: 'İş Ortaklığını Görüşelim'
+  subtitle: 'Gereksinimlerinizi gönderin, ekibimiz 3 iş günü içinde yanıt versin.'
+  actions:
+    - variant: primary
+      text: Gereksinimlerinizi gönderin
+      href: /tr/contact
+    - text: Ürünlerimizi inceleyin
+      href: /tr/products
+
+content_html: |
+  <div class="mx-auto max-w-3xl space-y-4 rounded-2xl border bg-card p-6 text-[14.5px] leading-relaxed text-fg-2">
+    <p><strong>Okumaya devam edin:</strong> iş ortağı programları tek bir <a href="/tr/oem-manufacturing">OEM/ODM üretim motorunu</a> paylaşır — koşullar, deneme MOQ değerleri ve özelleştirme orada tanımlanır — ve tüm üretim <a href="/tr/factory">12.500 m&sup2; fabrikadan</a> geçer.</p>
+  </div>

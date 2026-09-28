@@ -1,0 +1,84 @@
+meta:
+  title: 'Üretim Kapasitesi — 12.500 m² Fabrika | {SITE}'
+  description: 'Vatrad fabrika kapasitesi: yılda 120.000+ SUP tahtası üreten, ölçeklenmeye açık 12.500 m² tesis. Büyük ölçekli OEM/ODM şişirilebilir SUP üretimi.'
+  dateModified: '2026-08-07'
+  keywords:
+    - 'sup üretim kapasitesi'
+    - 'şişirilebilir sup fabrikası'
+    - 'kürek tahtası üretimi'
+    - 'çin sup fabrikası'
+hero:
+  tagline: Üretim Kapasitesi
+  title: Üretim Kapasitesi ve Yıllık Çıktı
+  subtitle: Yılda 120.000+ SUP tahtası üreten, ölçeklenmeye açık 12.500 m² tesis
+
+answer:
+  label: 'Net cevap'
+  text: 'Fabrika kapasitesi: dört uzmanlaşmış atölyeye yayılmış 12.500 m², yılda 120.000+ SUP tahtası, iki vardiyada 350+ çalışan, 50+ ülkeye ihracat. MOQ proje yapılandırmasıyla belirlenir — numune (1–2 adet), pilot (20–50 adet) ve standart hacim (150 m rulo başına 90–100+ adet); eksiksiz mantık için MOQ ve Esnek Markalama Kılavuzumuzu inceleyin. Teslim süresi 25–35 gün, numune 7–12 gün.'
+  verified: 'Eylül 2026'
+
+intro: 'Vatrad, Çin’in Qingdao kentindeki en büyük özel şişirilebilir SUP üretim tesislerinden birini işletir. 12.500 m²lik fabrikamız, paralel çalışan dört uzmanlaşmış atölyeye ayrılmıştır. Yıllık SUP kapasitesi 120.000+ şişirilebilir SUP tahtasıdır (ayda yaklaşık 10.000 adet); ayrı ürün hatlarında 50.000+ canlı yelek ve 5.000+ aksesuar üretilir.'
+
+highlights:
+  - value: 12.500 m²
+    label: Toplam üretim alanı
+    detail: 4 uzmanlaşmış atölyeye yayılmış
+  - value: 120.000+
+    label: Yıllık SUP kapasitesi
+    detail: Şişirilebilir SUP tahtaları, ayda ~10.000
+  - value: 350+
+    label: Nitelikli iş gücü
+    detail: 25+ mühendis, günde 2 vardiya
+  - value: 50+
+    label: İhracat ülkesi
+    detail: AB, ABD, Avustralya, Orta Doğu, Asya
+  - value: 25–35
+    label: Standart teslim süresi (gün)
+    detail: Onaylanmış PO ve depozito sonrasında
+  - value: 10+
+    label: İhracat deneyimi yılı
+    detail: 2012’den bu yana
+
+workshops:
+  - title: SUP Tahtası Üretimi
+    description: 'Şişirilebilir SUP tahtaları için toplam aylık yaklaşık 10.000 tahta çıktı veren 4 otomatik montaj hattı. Dijital baskı ve ekran baskısı istasyonları eş zamanlı çalışır. Yıllık SUP kapasitesi: 120.000+ tahta.'
+    output: 'Yılda 120.000+ SUP'
+  - title: SUP Tahtası Üretimi — Genişleme Hatları
+    description: 'Hacim arttıkça devreye alınan SUP tahtaları için ek otomatik montaj hatları. Drop-stitch çekirdek yapıştırma, dijital baskı ve montaj istasyonları eş zamanlı çalışır.'
+    output: 'Yıllık 120.000+ SUP tahtası kapasitesinin bir parçası'
+  - title: SUP Aksesuarları ve Karma Montaj
+    description: 'SUP aksesuarları için çok amaçlı montaj hatları — kürekler, finler, güvenlik ipleri, çantalar ve kitler. Sıcak hava kaynak istasyonları, RF dielektrik presleri ve montaj istasyonları sipariş karmasına göre yeniden düzenlenir. Yıllık aksesuar kapasitesi: 5.000+ adet.'
+    output: 'Yılda 5.000+ aksesuar'
+  - title: Güvenlik Ekipmanları
+    description: 'Canlı yelekler ve güvenlik ekipmanları için ayrı temiz oda üretim alanı. Özel dikim, köpük dolum ve test istasyonları. Yıllık canlı yelek kapasitesi: 50.000+ adet.'
+    output: 'Yılda 50.000+ canlı yelek'
+oem_capacity:
+  moq: 'SUP: numune 1–2 | pilot 20–50 | hacim 90–100+ (150 m rulo başına)'
+  lead_time: 'Standart 25–35 gün. Numune 7–12 gün. Acil üretim mevcut.'
+  payment: 'T/T %30 depozito + %70 bakiye. L/C, Western Union kabul edilir.'
+
+lead_time_explainer:
+  tagline: 'Planlama ve Programlama'
+  title: 'Kapasitenin Tesliminize Nasıl Dönüştüğü'
+  subtitle: 'Kapasite tek bir sayı değildir — teslim süreleri nasıl planlandığını şöyle özetleyelim.'
+  items:
+    - title: 'Kapasite, sizin şartnamenize göre değişir'
+      body: 'Müsait dilimler; tahta tipi, yapı karmaşıklığı, ambalajlama ve mevsimsel talebe göre değişir. İlkbahar/yaz talep yükselişinde hatlar neredeyse tam kapasiteyle çalışır ve önce numune dilimleri dolar.'
+    - title: 'Lansman sezonunuzdan önce planlayın'
+      body: 'Numune onayınızı ve görsel sanat dondurmasını erkenden kesinleştirin. Altın numune arşivlendiğinde tekrar siparişler, üzerinde anlaşıldığınız tekrarlayan diliminize planlanır.'
+    - title: 'Üç programlama şeridi'
+      body: 'Numuneler önce prototip hattına girer, ilk siparişler en yakın açık montaj penceresine yerleşir ve tekrar siparişler kendi tekrarlayan dilimlerinde üretilir.'
+    - title: 'İncelemeden sonra kesinleşen teslim süreleri'
+      body: 'Kesin teslim süresini yalnızca şartname, görsel sanat, ambalajlama ve adet incelendikten sonra teyit ederiz — asla önceden sabit bir taahhüt olarak vermeyiz.'
+
+cta:
+  title: 'Lansman tarihiniz için üretim uygunluğunu kontrol edin'
+  subtitle: 'Tahta tipinizi, adedinizi ve hedef sevkiyat tarihinizi gönderin — bir sonraki açık üretim penceresini ve kesin teslim süresi tahminini paylaşalım.'
+  actions:
+    - variant: primary
+      text: 'Uygunluğu kontrol et'
+      href: /tr/contact#production-availability
+    - text: 'Eksiksiz fabrika genel bakışı'
+      href: /tr/factory
+    - text: 'Tahtalar nasıl üretiliyor'
+      href: /tr/factory/process

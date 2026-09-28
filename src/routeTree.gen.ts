@@ -20,6 +20,7 @@ import { Route as SupComplianceByMarketRouteImport } from './routes/sup-complian
 import { Route as StartSupProjectRouteImport } from './routes/start-sup-project'
 import { Route as SizeGuideRouteImport } from './routes/size-guide'
 import { Route as SitemapDotxmlRouteImport } from './routes/sitemap[.]xml'
+import { Route as SitemapTrDotxmlRouteImport } from './routes/sitemap-tr[.]xml'
 import { Route as SitemapSvDotxmlRouteImport } from './routes/sitemap-sv[.]xml'
 import { Route as SitemapRuDotxmlRouteImport } from './routes/sitemap-ru[.]xml'
 import { Route as SitemapPtDotxmlRouteImport } from './routes/sitemap-pt[.]xml'
@@ -193,6 +194,11 @@ const SizeGuideRoute = SizeGuideRouteImport.update({
 const SitemapDotxmlRoute = SitemapDotxmlRouteImport.update({
   id: '/sitemap.xml',
   path: '/sitemap.xml',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const SitemapTrDotxmlRoute = SitemapTrDotxmlRouteImport.update({
+  id: '/sitemap-tr.xml',
+  path: '/sitemap-tr.xml',
   getParentRoute: () => rootRouteImport,
 } as any)
 const SitemapSvDotxmlRoute = SitemapSvDotxmlRouteImport.update({
@@ -858,6 +864,7 @@ export interface FileRoutesByFullPath {
   '/sitemap-pt.xml': typeof SitemapPtDotxmlRoute
   '/sitemap-ru.xml': typeof SitemapRuDotxmlRoute
   '/sitemap-sv.xml': typeof SitemapSvDotxmlRoute
+  '/sitemap-tr.xml': typeof SitemapTrDotxmlRoute
   '/sitemap.xml': typeof SitemapDotxmlRoute
   '/size-guide': typeof SizeGuideRoute
   '/start-sup-project': typeof StartSupProjectRoute
@@ -976,6 +983,7 @@ export interface FileRoutesByTo {
   '/sitemap-pt.xml': typeof SitemapPtDotxmlRoute
   '/sitemap-ru.xml': typeof SitemapRuDotxmlRoute
   '/sitemap-sv.xml': typeof SitemapSvDotxmlRoute
+  '/sitemap-tr.xml': typeof SitemapTrDotxmlRoute
   '/sitemap.xml': typeof SitemapDotxmlRoute
   '/size-guide': typeof SizeGuideRoute
   '/start-sup-project': typeof StartSupProjectRoute
@@ -1094,6 +1102,7 @@ export interface FileRoutesById {
   '/sitemap-pt.xml': typeof SitemapPtDotxmlRoute
   '/sitemap-ru.xml': typeof SitemapRuDotxmlRoute
   '/sitemap-sv.xml': typeof SitemapSvDotxmlRoute
+  '/sitemap-tr.xml': typeof SitemapTrDotxmlRoute
   '/sitemap.xml': typeof SitemapDotxmlRoute
   '/size-guide': typeof SizeGuideRoute
   '/start-sup-project': typeof StartSupProjectRoute
@@ -1215,6 +1224,7 @@ export interface FileRouteTypes {
     | '/sitemap-pt.xml'
     | '/sitemap-ru.xml'
     | '/sitemap-sv.xml'
+    | '/sitemap-tr.xml'
     | '/sitemap.xml'
     | '/size-guide'
     | '/start-sup-project'
@@ -1333,6 +1343,7 @@ export interface FileRouteTypes {
     | '/sitemap-pt.xml'
     | '/sitemap-ru.xml'
     | '/sitemap-sv.xml'
+    | '/sitemap-tr.xml'
     | '/sitemap.xml'
     | '/size-guide'
     | '/start-sup-project'
@@ -1450,6 +1461,7 @@ export interface FileRouteTypes {
     | '/sitemap-pt.xml'
     | '/sitemap-ru.xml'
     | '/sitemap-sv.xml'
+    | '/sitemap-tr.xml'
     | '/sitemap.xml'
     | '/size-guide'
     | '/start-sup-project'
@@ -1570,6 +1582,7 @@ export interface RootRouteChildren {
   SitemapPtDotxmlRoute: typeof SitemapPtDotxmlRoute
   SitemapRuDotxmlRoute: typeof SitemapRuDotxmlRoute
   SitemapSvDotxmlRoute: typeof SitemapSvDotxmlRoute
+  SitemapTrDotxmlRoute: typeof SitemapTrDotxmlRoute
   SitemapDotxmlRoute: typeof SitemapDotxmlRoute
   SizeGuideRoute: typeof SizeGuideRoute
   StartSupProjectRoute: typeof StartSupProjectRoute
@@ -1671,6 +1684,13 @@ declare module '@tanstack/react-router' {
       path: '/sitemap.xml'
       fullPath: '/sitemap.xml'
       preLoaderRoute: typeof SitemapDotxmlRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/sitemap-tr.xml': {
+      id: '/sitemap-tr.xml'
+      path: '/sitemap-tr.xml'
+      fullPath: '/sitemap-tr.xml'
+      preLoaderRoute: typeof SitemapTrDotxmlRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/sitemap-sv.xml': {
@@ -2623,6 +2643,7 @@ const rootRouteChildren: RootRouteChildren = {
   SitemapPtDotxmlRoute: SitemapPtDotxmlRoute,
   SitemapRuDotxmlRoute: SitemapRuDotxmlRoute,
   SitemapSvDotxmlRoute: SitemapSvDotxmlRoute,
+  SitemapTrDotxmlRoute: SitemapTrDotxmlRoute,
   SitemapDotxmlRoute: SitemapDotxmlRoute,
   SizeGuideRoute: SizeGuideRoute,
   StartSupProjectRoute: StartSupProjectRoute,

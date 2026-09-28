@@ -1,0 +1,131 @@
+meta:
+  title: 'Ar-Ge Merkezi — Şişirilebilir SUP Mühendisliği | {SITE}'
+  description: 'Araştırma ve Geliştirme — PVC kumaş testi, gövde mühendisliği, RF kaynak, hidrodinamik test ve kalite kontrol. Özel Ar-Ge hizmetleri mevcuttur.'
+  dateModified: '2026-08'
+
+hero:
+  tagline: Ar-Ge Merkezi
+  title: Ar-Ge Merkezi
+  subtitle: İlerlemeye Odaklanmak
+
+intro:
+  - Vatrad Araştırma ve Geliştirme (Ar-Ge) Merkezi, su sporları ekipmanında devrim yaratma misyonumuzun itici gücüdür. Şişirilebilir ayakta duran kürek tahtalarında (SUP) ve botlarda kesintisiz yenilikler yoluyla küresel su sporları meraklılarına daha güvenli, daha konforlu ve daha keyifli ürünler sunuyoruz. Mühendislerden, tasarımcılardan ve tutkulu su sporları uzmanlarından oluşan özel ekibimiz sektörün geleceğini şekillendiriyor, kalite, performans ve sürdürülebilirlik için sürekli çıtayı yükseltiyor.
+  - Ar-Ge tesisimiz malzeme bilimcilerini, deniz mimarlarını ve üretim mühendislerini çatı altında bir araya getiriyor. Kumaş formülasyonundan gövde simülasyonuna, kaynak süreci geliştirmeden tam ölçekli deniz denemelerine kadar ürün geliştirmenin her aşaması veriyle yürütülür ve testlerle doğrulanır.
+
+mission:
+  tagline: Misyonumuz
+  title: Su Sporlarının Geleceğini İnovasyonla Şekillendiriyoruz
+  pillars:
+    - icon: lightning
+      title: Teknolojik İlerleme
+      desc: Üstün ürün performansı ve ömrü için yeni malzemelerin, tasarımların ve üretim yöntemlerinin öncülüğünü üstlenmek.
+    - icon: design
+      title: Kullanıcı Odaklı Tasarım
+      desc: Ergonomik ve sezgisel ürün tasarımıyla kullanıcı ihtiyaçlarını derinlemesine anlamak ve beklentilerin aşmak.
+    - icon: globe
+      title: Sürdürülebilir Uygulamalar
+      desc: Çevre dostu malzemeleri ve süreçleri kullanarak çevresel ayak izimizi en aza indirmek.
+    - icon: shield
+      title: Tavizsiz Güvenlik
+      desc: Titiz testler ve sertifikasyonla en yüksek güvenlik standartlarını sağlamak.
+
+pillars:
+  - title: Teknolojik İlerleme
+    desc: Üstün ürün performansı ve ömrü sunmak için yeni malzemelerin, tasarımların ve üretim süreçlerinin öncülüğünü üstlenmek.
+    icon: tech
+  - title: İleri Düzey Malzemeler
+    desc: Ürün özelliklerini geliştirmek için son derece gelişmiş PVC, Hypalon, kompozitler ve sürdürülebilir alternatifler üzerinde araştırmak.
+    icon: materials
+  - title: Sürdürülebilirlik
+    desc: 'Temel Bir Taahhüt: Sürdürülebilir üretim ve geri dönüştürülebilir malzemelerle çevre korumaya adanmışız.'
+    icon: sustainability
+
+capabilities:
+  tagline: Yetenekler
+  title: Ar-Ge Yetenekleri
+  subtitle: Ham malzeme araştırmasından nihai sertifikasyona kadar ürün geliştirme üzerinde uçtan uca kontrol sağlayan dört temel disiplin.
+  groups:
+    - title: Malzeme Bilimi ve Kumaş Teknolojisi
+      items:
+        - PVC ve Hypalon formülasyon analizi ve optimizasyonu
+        - UV stabilizasyonu, alev geciktiricilik ve antimikrobiyal katkı geliştirme
+        - Çok katmanlı kumaş laminasyonu ve yapışma mühendisliği
+        - Hızlandırılmış yaşlandırma testleri (UV, termal, nem, tuz spreyi)
+    - title: Gövde Mühendisliği ve Hidrodinamik
+      items:
+        - Parametrik 3B gövde tasarımı ve CFD optimizasyonu
+        - Yapısal ve darbe yükleri için sonlu eleman analizi
+        - Ölçekli model çekme tankı testleri ve performans doğrulaması
+        - Özel görev profilleri için özel gövde geliştirme
+    - title: Kaynak ve Birleştirme Teknolojisi
+      items:
+        - RF dielektrik kaynak süreci geliştirme ve optimizasyonu
+        - Sıcak hava, sıcak kama ve ultrasonik kaynak yöntemleri
+        - Yapıştırıcı bağlama ve dikiş bandı uygunluk değerlendirmesi
+        - Kaynak dayanımı modellemesi ve ömür tahmini
+    - title: Test, Sertifikasyon ve Uyumluluk
+      items:
+        - Kalite yönetimi ve CE uyumluluk testleri
+        - Bağımsız üçüncü taraf test ve sertifikasyon desteği
+        - Satın alma uygunluk süreci için özel test protokolü geliştirme
+        - Hizmet sırasındaki kusur analizi ve kök neden araştırması
+
+rd_numbers:
+  tagline: İnovasyon
+  title: Rakamlarla Ar-Ge
+  stats:
+    - value: '14'
+      label: Ar-Ge mühendisi ve araştırmacı
+    - value: '8'
+      label: Aktif patent ve başvuru
+    - value: '6'
+      label: Uzmanlaşmış laboratuvar
+    - value: 12 yıl
+      label: Ortalama ekip deneyimi
+
+rd_services:
+  tagline: Özel Ar-Ge
+  title: İş Ortakları İçin Ar-Ge Hizmetleri
+  services:
+    - title: Özel Malzeme Geliştirme
+      desc: Operasyon ortamınıza ve performans hedeflerinize göre uyarlanmış özel kumaş formülasyonları, laminasyon yığınları ve yapıştırıcı sistemler geliştiriyoruz.
+    - title: OEM / ODM Ürün Mühendisliği
+      desc: Operasyon ortamınıza ve performans hedeflerinize göre uyarlanmış özel kumaş formülasyonları, laminasyon yığınları ve yapıştırıcı sistemler geliştiriyoruz.
+    - title: Üçüncü Taraf Test ve Sertifikasyon
+      desc: Bağımsız malzeme testi, ürün doğrulaması ve sertifikasyon desteği için ISO uyumlu test tesislerimizi kullanın.
+  cta: Ar-Ge gereksinimlerinizi görüşün →
+  cta_link: /tr/contact
+
+vision:
+  tagline: Vizyonumuz
+  title: Su Sporlarının Geleceğini Şekillendirmek
+  body: Vatrad; kesintisiz inovasyon, tavizsiz kalite ve güvenlik ile sürdürülebilirliğe kararlı bir bağlılık yoluyla şişirilebilir bot ve SUP sektöründe lider olmayı hedefler — nihayetinde dünya genelindeki su sporları meraklılarının deneyimlerini zenginleştirir. Vatrad Ar-Ge Merkezi, tutku ile inovasyonun buluştuğu ve su sporları sektörü için yeni standartlar koyan yerdir.
+
+labs_section:
+  tagline: Laboratuvarlar
+  title: Laboratuvarlarımız
+  labs:
+    - image: https://assets.isupfactory.com/images/sups/randd/isupfactory-pvc-material-lab.webp
+      title: PVC Kumaş Laboratuvarı
+      description: Denizcilik ortamlarında uzun vadeli güvenilirliği sağlamak için çekme dayanımı, UV direnci, aşınma ve düşük sıcaklıkta esneklik üzerine PVC ve Hypalon boru kumaşlarının sürekli araştırması ve testi.
+      href: /tr/randdcenter/pvc-fabric-lab
+    - image: https://assets.isupfactory.com/images/sups/factory/isupfactory-design-discussion-2.webp
+      title: Gövde Mühendisliği Stüdyosu
+      description: HDPE, alüminyum ve cam elyaf gövdeler için CAD destekli tasarım ve sonlu eleman analizi. İlk prototip üretilmeden önce her gövde, gerilme dağılımı ve darbe dayanımı açısından dijital olarak simüle edilir.
+      href: /tr/randdcenter/hull-engineering
+    - image: https://assets.isupfactory.com/images/sups/factory/isupfactory-sup-manufacturing-3.webp
+      title: RF Kaynak Merkezi
+      description: Hassas sıcaklık ve basınç kontrolüne sahip, şişirilebilir tekneler için denizcilik sektörü standartlarını karşılayan yüksek dayanımlı, hava sızdırmaz dikişler üreten özel radyofrekans kaynak tesisi.
+      href: /tr/randdcenter/rf-welding
+    - image: https://assets.isupfactory.com/images/sups/factory/isupfactory-design-discussion-original.webp
+      title: Hidrodinamik Test Tankı
+      description: Çeşitli yük ve deniz koşullarında gövde formunu, planlama performansını, kararlılığı ve yakıt verimliliğini optimize etmek için kendi test tankımızda ölçekli model testleri.
+      href: /tr/randdcenter/hydrodynamic-test-tank
+    - image: https://assets.isupfactory.com/images/sups/products/sup-series/sup-ocean-voyager-1.webp
+      title: Prototip Atölyesi
+      description: Yeni modellerin üretildiği, donatıldığı ve denizde denendiği tam ölçekli prototip ve rigging tesisi. Her prototip, üretim onayından önce en az 20 saatlik su içi test programına tabi tutulur.
+      href: /tr/randdcenter/prototype-workshop
+    - image: https://assets.isupfactory.com/images/sups/factory/isupfactory-uv-resistance-testing.webp
+      title: Kalite ve İnceleme Laboratuvarı
+      description: Atölyeden çıkan her botun yayımlanmış spesifikasyonlarımızı karşılamasını sağlamak üzere çekme testi, hava tutma döngüleri, dikiş soyma testleri ve malzeme sertifikası yürüten özel kalite güvenlik laboratuvarı.
+      href: /tr/randdcenter/quality-inspection-lab

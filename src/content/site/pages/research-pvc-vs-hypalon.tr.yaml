@@ -1,0 +1,81 @@
+meta:
+  title: 'PVC mi Hypalon mı — Şişirilebilir SUP Tahta Kumaşları | {SITE}'
+  description: 'Şişirilebilir SUP tahta imalatında PVC ve Hypalon karşılaştırması: UV direnci, dayanıklılık, onarılabilirlik, ağırlık, maliyet ve SUP tahtaların gerçekte hangi kumaşı kullandığı.'
+  author: 'iSupfactory'
+  datePublished: '2026-08-04'
+  dateModified: '2026-08-07'
+back_text: 'Araştırmaya Dön'
+
+hero:
+  tagline: 'Malzemeler'
+  title: 'PVC mi Hypalon mı — Şişirilebilir SUP Tahtalar İçin Malzeme Rehberi'
+  subtitle: '10 dakikalık okuma'
+
+answer:
+  label: 'Doğrudan yanıt'
+  text: 'SUP tahtalarında PVC; maliyet, ağırlık, baskılanabilirlik ve RF kaynakla otomasyon açısından öne çıkar — UV stabilizatörlü 1.680 DTEX üç katmanlı kaplamalı deniz PVC’si sektör standardıdır. Hypalon/CSM güneşe ve kimyasallara daha uzun direnir ancak maliyeti yaklaşık 3&ndash;5&times; daha yüksektir, daha ağırdır ve elde yapıştırılır; bu nedenle bugün SUP’lerde nadirdir.'
+  verified: 'Eylül 2026'
+
+content_html: |
+  <h2>Malzeme Genel Bakış</h2>
+
+  <h3>PVC (Polivinil Klorür)</h3>
+  <p>PVC, şişirilebilir SUP tahtalarının standart kumaşıdır. Tahta imalatında tipik olarak poliester taşıyıcı donatı (1.100 – 1.680 DTEX) ile güçlendirilir, iki taraftan kaplanır ve ardından drop-stitch çekirdeğin çevresinde füzyon kaynakla birleştirilir. Modern deniz PVC formülasyonları, esnekliği ve hava koşullarına direnci artırmak için UV stabilizatörler ve plastikleştiriciler içerir; bu şekilde imal edilen tahtalar 12 – 15 PSI çalışma basıncını korur.</p>
+
+  <h3>Hypalon (CSM – Klorosülfonlu Polietilen)</h3>
+  <p>Hypalon, sentetik kauçuk bir bileşiktir (DuPont Hypalon markasını bıraktıktan sonra genel olarak CSM olarak üretilir). Olağanüstü UV ve ozon direnciyle tanınır; bu nedenle uzun süreler doğrudan güneşte kalan profesyonel ve ticari şişirilebilir bot hortumlarının tercih edilen kumaşıdır. SUP tahtalarında Hypalon nadiren kullanılır — tahtalar, PVC ve drop-stitch yapısının ağırlığın çok küçük bir kısmıyla sağladığı yüksek basınçlı, boyutsal olarak kararlı üst yüzeyler gerektirir.</p>
+
+  <h2>Yan Yana Karşılaştırma</h2>
+  <table class="w-full text-sm border-collapse">
+    <thead>
+      <tr class="bg-gray-100">
+        <th class="p-3 text-left font-semibold text-gray-900 border">Özellik</th>
+        <th class="p-3 text-left font-semibold text-gray-900 border">PVC</th>
+        <th class="p-3 text-left font-semibold text-gray-900 border">Hypalon (CSM)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td class="p-3 border font-medium">UV direnci</td><td class="p-3 border">İyi (stabilizatörlü)</td><td class="p-3 border">Mükemmel (doğal olarak)</td></tr>
+      <tr><td class="p-3 border font-medium">Aşınma direnci</td><td class="p-3 border">İyi</td><td class="p-3 border">Çok iyi</td></tr>
+      <tr><td class="p-3 border font-medium">Çekme dayanımı</td><td class="p-3 border">3.000 – 5.000 N/5cm</td><td class="p-3 border">2.500 – 4.000 N/5cm</td></tr>
+      <tr><td class="p-3 border font-medium">Ağırlık (m&sup2; başına)</td><td class="p-3 border">850 – 1.200 g</td><td class="p-3 border">1.100 – 1.500 g</td></tr>
+      <tr><td class="p-3 border font-medium">Soğuk esneklik (düşük sıcaklık)</td><td class="p-3 border">-30&deg;C</td><td class="p-3 border">-20&deg;C</td></tr>
+      <tr><td class="p-3 border font-medium">Onarılabilirlik</td><td class="p-3 border">Kolay (ısı kaynak veya yapıştırıcı)</td><td class="p-3 border">Özel CSM yapıştırıcısı gerektirir</td></tr>
+      <tr><td class="p-3 border font-medium">Birleştirme yöntemi</td><td class="p-3 border">RF kaynak, sıcak hava kaynak</td><td class="p-3 border">El yapıştırma (temaslı yapıştırıcı)</td></tr>
+      <tr><td class="p-3 border font-medium">Maliyet (malzeme)</td><td class="p-3 border">$8 – $15 / m&sup2;</td><td class="p-3 border">$20 – $40 / m&sup2;</td></tr>
+      <tr><td class="p-3 border font-medium">Ömür (tropikal güneş)</td><td class="p-3 border">5 – 8 yıl</td><td class="p-3 border">10 – 15 yıl</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Hangi Malzemeyi Seçmelisiniz?</h2>
+
+  <h3>PVC’yi Seçin:</h3>
+  <ul>
+    <li>Şişirilebilir SUP tahta imal ediyorsanız (PVC + drop-stitch sektör standardıdır)</li>
+    <li>Tahta ağırlığı önemliyse — PVC %15 – 25 daha hafiftir</li>
+    <li>-20&deg;C altında soğuk hava esnekliğine ihtiyacınız varsa</li>
+    <li>Daha geniş bir renk ve kaplama seçeneği aralığı istiyorsanız</li>
+    <li>Rijit ve kararlı bir üst yüzey için yüksek çalışma basıncı (12 – 15 PSI) gerekiyorsa</li>
+  </ul>
+
+  <h3>Hypalon’u Seçin:</h3>
+  <ul>
+    <li>Ürün yıllar boyunca doğrudan güneşte bağlanacak veya saklanacaksa</li>
+    <li>Saklama seçeneğiniz olmayan tropikal veya yüksek UV’li bir ortamdaysanız</li>
+    <li>Maksimum dayanıklılık ve ömür, ağırlık ve maliyetten önce geliyorsa</li>
+    <li>Bot hortumu gibi profesyonel veya ticari deniz araçları imal ediyorsanız</li>
+    <li>Kum, beton veya iskele kaynaklı aşınma birincil endişenizse</li>
+  </ul>
+
+  <h2>Üretim Farklılıkları</h2>
+  <p>PVC tahtalar, kaplamalı kumaş katmanları arasında moleküler bağ oluşturan RF (radyo frekans) kaynak veya sıcak hava kaynak yöntemiyle imal edilir. Bu, yüksek verimli, otomatik ve tutarlı üretim ile yüksek basınçlı tahtalarda hassas dikiş dayanımı sağlar. Hypalon ise temaslı yapıştırıcıyla elde birleştirilir; her dikiş manuel olarak haddelenip preslenir. Bu nedenle Hypalon üretimi daha emek yoğundur ve düşük basınçlı hortum imalatına daha uygundur.</p>
+
+  <h2>Vatrad Önerisi</h2>
+  <p>Şişirilebilir SUP tahtalarında, UV stabilizatörlü modern yüksek kaliteli PVC; maliyet, ağırlık, performans ve dayanıklılık arasında en iyi dengeyi sunar. Vatrad, her SUP’yi 1.680 DTEX deniz PVC’si, üç katmanlı kaplama ve 15 PSI anma değerli drop-stitch çekirdekle imal eder — her kumaş partisi üretim öncesi PVC Kumaş Laboratuvarımızda bağımsız olarak test edilir. Hypalon, ticari deniz araçları ve özel uygulamalar için talep üzerine, ticari deniz hattımız üzerinden ayrı olarak üretilmek üzere mevcuttur.</p>
+  <p>Malzeme seçimi, hattınızın maliyetini, ağırlığını ve dayanıklılığını belirler — hedef pazarınızı bize anlatın, <a href="/tr/oem-manufacturing">OEM projeniz için doğru kumaşı belirleyelim</a> ve <a href="/tr/randdcenter/quality-inspection-lab">malzeme testi laboratuvarımızda</a> test edelim.</p>
+
+cta:
+  title: 'Malzeme seçiminde yardıma mı ihtiyacınız var?'
+  subtitle: 'Ekibimiz, belirli uygulamanız için PVC mi Hypalon mu seçileceği konusunda öneri sunabilir.'
+  button_text: 'Uzmanlarımıza danışın'
+  button_link: /tr/contact

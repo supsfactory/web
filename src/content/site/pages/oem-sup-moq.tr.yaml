@@ -1,0 +1,62 @@
+meta:
+  title: 'Şişirilebilir SUP MOQ — Minimum Sipariş Miktarları Açıklanıyor'
+  description: 'Özel şişirilebilir SUP üretimi için net MOQ kademeleri: 5–10 ortak markalama, 20–50 pilot, rulo başına 90–100+ hacim. Özelleştirme düzeyine göre karar ağacı.'
+  dateModified: '2026-08-20'
+
+sections:
+  - title: 'Doğrudan Yanıt'
+    directAnswer:
+      answer: 'Mevcut platformda pilot üretimler 20–50 adetten başlar; standart hacimli MOQ, 150 m rulo drop-stitch kumaş başına 90–100+ adettir (yaklaşık 180–220 tahta).'
+      condition: 'Belirli MOQ; tahta şekline, malzeme rulosuna, baskıya, ambalaja ve yeni kalıp gerekip gerekmediğine bağlıdır.'
+      value: '5–10 ortak markalama · 20–50 pilot · rulo başına 90–100+ hacim'
+      verifiedDate: 'Eylül 2026'
+      sourceType: 'factory-record'
+    body: |
+      iSupfactory şirketindeki MOQ, tek bir sabit sayı değil, özelleştirme düzeyine göre kademelidir.
+      Her kademe belirli bir üretim senaryosuna karşılık gelir:
+
+      | Senaryo | MOQ | Birim | Koşul |
+      |----------|-----|------|-----------|
+      | Mevcut platform, yalnızca logo kaplaması | 5–10 adet | tasarım başına | Aynı şekil, aynı malzeme rulosu, aynı renk varyantı |
+      | Mevcut platformda özel grafikler / EVA / ambalaj | 20–50 adet | pilot parti | Aynı şekil; yeni grafik görsel onay gerektirir |
+      | Standart hacimli üretim (herhangi bir platform) | 90–100+ adet | 150 m rulo başına (yaklaşık 180–220 tahta) | Malzeme rulosu başına; birden çok SKU ayrı rulo demektir |
+      | Yeni şekil / özel kalıp | 90–100+ adet | üretim partisi | Kalıp işleri 15–20 gün ekler; tek seferlik kalıp ücreti |
+
+  - title: 'Malzeme rulosu nedir?'
+    body: |
+      150 metrelik bir drop-stitch kumaş rulosu, tahta ölçülerine bağlı olarak (tipik olarak
+      10–11 ft) yaklaşık 180–220 tahta üretir. Her farklı SKU — yani farklı bir ölçü, renk
+      kombinasyonu veya malzeme spesifikasyonu anlamına gelen her biri — kendi rulosunu ve
+      dolayısıyla kendi MOQ değerini gerektirir.
+
+      Bu nedenle MOQ, tasarım başına değil, 150 m rulo başına belirtilir: aynı tahta şeklinin
+      iki renk varyantı iki rulo, iki ayrı MOQ demektir.
+
+  - title: 'Ortak markalama, pilot ve hacim karşılaştırması'
+    body: |
+      **Ortak markalama (5–10 adet)**: Başka bir marka için zaten üretimde olan mevcut bir platforma logonuz uygulanır. Logo yerleşimi dışında grafik değişikliği yapılmaz. Markalı numuneye en hızlı yoldur.
+
+      **Pilot parti (20–50 adet)**: Mevcut bir platform şekli üzerinde özel grafikler, EVA kayma pad tasarımı veya ambalaj. Üretim öncesi görsel onay gerektirir. Yeni bir görünümü pazar testi için denemek için idealdir.
+
+      **Hacimli üretim (rulo başına 90–100+ adet)**: Her türlü özelleştirme kombinasyonuyla eksiksiz üretim partisi. Bu standart ticari kademedir. Her malzeme rulosu yaklaşık 180–220 tahta verir.
+
+  - title: 'Özel kalıp MOQ değeri'
+    body: |
+      Tasarımınız yeni bir tahta şekli gerektirdiğinde (mevcut bir şekle yeni grafikler değil),
+      ayrılmış bir kalıp oluşturulmalıdır. Bu, hacim kademesinde (90–100+ adet) yürür, çünkü
+      kalıp yatırımı amorti etmek için bir üretim partisi gerekir. Takım işleri standart teslim
+      süresine 15–20 gün ekler.
+
+      Kalıp mülkiyeti: kalıp size aittir. Tesisimizde depolanır ve yalnızca sizin
+      üretim partilerinizde kullanılır.
+
+  - title: 'Numune siparişleri'
+    body: |
+      Üretim öncesi numuneler, uyum ve son işçilik teyidi için 1–2 tahta olarak alınabilir.
+      Bunlar spesifikasyonunuza göre elde üretilir ve genellikle 7–12 gün sürer. Numune maliyeti
+      ilk hacimli siparişinizden mahsup edilir.
+
+evidence_review:
+  tagline: 'Kanıt ve Doğrulama'
+  title: 'DOĞRULANMIŞ SPESİFİKASYONLAR'
+  body: 'Bu sayfadaki tüm üretim iddiaları, Laixi, Qingdao tesisimizdeki Üretim Mühendisliği Ekibimiz tarafından doğrulanmıştır. Sertifikalar, kalite kontrol inceleme kayıtları, basınç ve yapısal test raporları ve parti izlenebilirliği kayıtları talep üzerine mevcuttur. Spesifikasyonlar en son Eylül 2026 tarihinde doğrulanmıştır.'

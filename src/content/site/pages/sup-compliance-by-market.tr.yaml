@@ -1,0 +1,100 @@
+meta:
+  title: 'Pazara Göre SUP Uyumluluğu — CE, REACH, RoHS, BSCI, ISO 9001 Gereksinimleri | iSupfactory'
+  description: 'Pazara göre şişirilebilir SUP boardları için uyumluluk rehberi: CE (AB), CPSIA (ABD), AS/NZS (AU), ISO 9001, BSCI, REACH ve RoHS — pazara göre kapsam ve belgeler.'
+  dateModified: '2026-08-21'
+  keywords:
+    - 'pazara göre sup uyumluluğu'
+    - 'ce sertifikasyonu sup'
+    - 'şişirilebilir sup mevzuatı'
+    - 'sup reach uyumluluğu'
+    - 'sup rohs uyumluluğu'
+    - 'bsci denetimi sup fabrikası'
+    - 'iso 9001 sup üreticisi'
+
+hero:
+  tagline: 'Uyumluluk Rehberi'
+  title: 'Pazara Göre SUP Uyumluluğu'
+  subtitle: 'Her hedef pazarın kendine özgü sertifikasyon, etiketleme ve belge gereksinimleri vardır. Bu rehber, şişirilebilir SUP boardlarının uyumluluk alanını başlıca pazarlar — AB, Kuzey Amerika, Avustralya ve ötesi — boyunca haritalar; böylece teklif aşamasında, üretimden sonra değil, doğru kapsamı baştan belirleyebilirsiniz.'
+
+answer:
+  label: 'Hızlı cevap'
+  text: 'AB için: Avrupa Ekonomik Alanında satılan boardlar için CE işaretlemesi zorunludur — AB pazarlarına yönelik modelleri sertifikalandırıyoruz, kapsam proje bazında doğrulanır. ABD için: CPSIA ve eyalet düzeyindeki VOC mevzuatı geçerlidir. Avustralya için: AS/NZS 1586 uyumluluğu. Tüm pazarlar için: ISO 9001 (fabrika), BSCI (sosyal denetim), REACH ve RoHS (malzemeler) üretimimizde hedef pazardan bağımsız olarak standarttır. Uyumluluk kapsamı ve maliyetleri teklifinizde kalem kalem yer alır — üretim sonrası sürprizler olmaz.'
+  verified: 'Eylül 2026'
+
+market_cards:
+  tagline: 'Bölgeye Göre Gereksinimler'
+  title: 'Hedef Pazara Göre Uyumluluk Gereksinimleri'
+  subtitle: 'Sertifikasyon kapsamı, uygulanabilirlik incelemesi sırasında proje başına doğrulanır. Aşağıdakiler pazara göre tipik gereksinimleri gösterir.'
+  grid: 'sm:grid-cols-2 lg:grid-cols-4'
+  features:
+    - icon: EU
+      icon_bg: blue
+      title: 'Avrupa Birliği'
+      desc: 'CE işaretlemesi zorunludur. REACH (kimyasal güvenlik), RoHS (kısıtlı maddeler), ISO 9001 fabrika sertifikasyonu. PPE veya rekreasyon teknesi direktifine göre ürüne özgü testler. Hedef ülkenin resmi dilinde etiketleme. BSCI sosyal denetimi mevcuttur.'
+    - icon: US
+      icon_bg: green
+      title: 'Amerikan Birleşik Devletleri'
+      desc: 'CPSIA uyumluluğu (tüketici ürünü güvenliği). Kaliforniya Prop 65 ve PVC ile yapıştırıcı emisyonları için eyalet düzeyindeki VOC mevzuatı. Federal düzeyde CE karşılığı yoktur. Talep üzerine ASTM testleri mevcuttur. Ülke menşei ve malzeme içeriği için FTC etiketleme gereksinimleri.'
+    - icon: AU
+      icon_bg: purple
+      title: 'Avustralya ve Yeni Zelanda'
+      desc: 'Şişirilebilir su tekneleri için AS/NZS 1586. Avustralya Tüketici Hukuku garantileri. Avustralya Sınır Güvenliği gereksinimlerine göre ithalat belgeleri ve uygunluk değerlendirmesi. REACH eşdeğeri kimyasal güvenlik belgeleri. BSCI sosyal denetimi mevcuttur.'
+    - icon: GL
+      icon_bg: orange
+      title: 'Küresel / Çok Pazar'
+      desc: 'ISO 9001:2015 fabrika sertifikasyonu (yıllık denetimli). BSCI sosyal uyum denetimi. Tüm üretimde hedef pazardan bağımsız olarak REACH ve RoHS malzeme uyumluluğu. Herhangi bir pazar için parti düzeyinde izlenebilirlik ve test raporları mevcuttur. Özel sertifikasyon kapsamı proje başına doğrulanır.'
+
+certifications_detail:
+  heading: 'Sertifikasyon Kapsamımız'
+  body: |
+    Aşağıdaki sertifikasyonlar üretimimizde mevcuttur veya sunulabilir. Projenize özgü belirli sertifikasyon kapsamı, uygulanabilirlik incelemesi sırasında doğrulanır ve teklifinizde kalem kalem yer alır.
+
+    - **ISO 9001:2015** — Fabrika kalite yönetim sistemi, akredite üçüncü taraf tarafından yıllık denetlenir. Gelen malzeme muayenesinden son ambalajlama kadar tüm üretim sürecini kapsar.
+    - **CE işaretlemesi** — AB pazarlarına yönelik modellere uygulanır. Geçerli AB direktifine göre test ve belgeler. Kapsam proje başına doğrulanır — tüm modeller aynı CE kapsamını gerektirmez.
+    - **BSCI** — İş Etiği Sosyal Uyum Girişimi denetimi. Çalışan hakları, iş güvenliği, çevresel uyum ve iş etiğini kapsar. Tüm pazarlar için mevcuttur.
+    - **REACH** — AB kimyasal güvenlik düzenlemesi. Tüm PVC, yapıştırıcı ve kaplama malzemeleri REACH uyumludur. Madde belgeleri ve test raporları parti başına mevcuttur.
+    - **RoHS** — Tehlikeli Maddelerin Kısıtlanması direktifi. Tüm elektronik aksesuarlar (motorlu pompalar, LED aksesuarlar) RoHS uyumludur. Board malzemeleri zaten uyumludur.
+
+compliance_process:
+  tagline: 'Siparişinizde Uyumluluk Nasıl İşler'
+  title: 'Devreye Alma Akışında Uyumluluk'
+  subtitle: 'Uyumluluk bir ek özellik değildir — devreye alma sürecinin her kapısına entegre edilmiştir.'
+  grid: 'sm:grid-cols-2 lg:grid-cols-3'
+  features:
+    - icon: 1
+      icon_bg: blue
+      title: 'Kapı 1: Kapsam Doğrulaması'
+      desc: 'Sorgu aşamasında hedef pazarları belirtirsiniz. Belirli ürününüz ve hedefiniz için hangi sertifikasyon, test ve belgelerin geçerli olduğunu doğrularız. Uyumluluk kapsamı ve ilgili maliyetler teklifte kalem kalem yer alır.'
+    - icon: 2
+      icon_bg: green
+      title: 'Kapı 3: Numune Sertifikasyonu'
+      desc: 'Numuneler doğrulanmış uyumluluk kapsamına göre üretilir. Üçüncü taraf laboratuvar testi gerekiyorsa (CE, CPSIA, AS/NZS), testleri akredite laboratuvarlar üzerinden koordine ederiz. Test raporları numuneyle birlikte teslim edilir.'
+    - icon: 3
+      icon_bg: purple
+      title: 'Kapı 7: Belge Paketi'
+      desc: 'Her üretim siparişi uyumluluk belge paketiyle sevk edilir: uygunluk belgeleri, test raporları, parti izlenebilirlik kayıtları, malzeme güvenlik bilgileri ve etiketleme uyumluluğu. Belgeler pazara özeldir.'
+
+faqs:
+  tagline: SSS
+  title: 'SUP Uyumluluğu — Sık Sorulan Sorular'
+  items:
+    - q: 'Tüm SUP boardlar CE işaretlemesi gerektirir mi?'
+      a: 'CE işaretlemesi yalnızca Avrupa Ekonomik Alanında satılan boardlar için gereklidir. AB pazarlarına yönelik modelleri, kapsam proje başına doğrulanarak sertifikalandırıyoruz. AB dışı pazarlara gönderilen boardlar, siz özellikle talep etmedikçe CE işareti taşımaz.'
+    - q: 'Malzemeleriniz REACH ve RoHS uyumlu mu?'
+      a: 'Evet. Tüm PVC, yapıştırıcı ve kaplama malzemeleri REACH uyumludur. Tüm elektronik aksesuarlar (motorlu pompalar, LED aksesuarlar) RoHS uyumludur. Board konstrüksiyon malzemeleri zaten RoHS uyumludur. Madde belgeleri ve test raporları talep üzerine parti başına mevcuttur.'
+    - q: 'Burada listelenmeyen bir pazar için sertifikasyonu halledebilir misiniz?'
+      a: 'Evet. 50 ülkeye sevkiyat yaptık ve çoğu pazar için sertifikasyon ve belge hazırlığını koordine edebiliriz. Sorgu sırasında hedef ülkenizi belirtin; belirli uyumluluk kapsamını ve gereken ek test veya belgeleri doğrulayalım.'
+    - q: 'Uyumluluk maliyetleri nasıl ele alınır?'
+      a: 'Uyumluluk kapsamı ve ilgili maliyetler (üçüncü taraf laboratuvar testleri, sertifikasyon ücretleri) uygulanabilirlik incelemesi sırasında teklifinizde kalem kalem yer alır. Üretim sonrası uyumluluk ücreti yoktur. Standart sertifikasyonlar (ISO 9001, BSCI) fabrika düzeyindedir ve birim başına maliyet eklemez.'
+
+cta:
+  title: 'Uyumluluk Gereksinimlerinizi Belirtin'
+  subtitle: 'Hedef pazarlarınızı bize söyleyin; sertifikasyon kapsamını, test gereksinimlerini ve belge paketini doğrulayalım — teklifinizde kalem kalem yer alsın.'
+  actions:
+    - variant: primary
+      text: 'Proje Briefinizi Başlatın'
+      href: /tr/contact#project-brief
+    - text: 'Sertifikasyonları ve kalite sistemini doğrulayın'
+      href: /tr/proof-center
+    - text: 'OEM devreye alma süreci'
+      href: /tr/oem-onboarding-guide

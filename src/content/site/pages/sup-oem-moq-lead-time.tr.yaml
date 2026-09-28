@@ -1,0 +1,219 @@
+meta:
+  title: 'Özel SUP MOQ ve Teslim Süresi: 1 Numuneden Konteyner Ölçekli Partiye'
+  description: 'Özel SUP MOQ ve teslim süresi kademeleri: 7–12 günde numune, 20–50 boardluk pilot sipariş, 150 m rulo başına 90–100+ adet standart hacim, üretim 25–35 gün.'
+  dateModified: '2026-08-16'
+  keywords:
+    - 'özel sup moq'
+    - 'sup üretim teslim süresi'
+    - 'şişirilebilir sup minimum sipariş miktarı'
+    - 'sup pilot siparişi'
+    - 'özel paddle board teslim süresi'
+    - 'oem sup fabrikası teslim süresi'
+    - 'sup numune siparişi'
+
+hero:
+  tagline: 'Özel SUP MOQ ve Teslim Süresi'
+  title: '1 Numuneden Konteyner Ölçekli Partiye — MOQ ve Teslim Süresi Açıklanıyor'
+  subtitle: 'Özel şişirilebilir SUP için sipariş miktarı kademelerinin ve üretim teslim sürelerinin sade bir dille açıklaması: her aşamada neyi sipariş edebileceğiniz, her aşamanın gerçekte ne kadar sürdüğü ve bir numune, pilot ve hacim siparişinin tek bir proje içinde nasıl bir araya geldiği. Qingdao Vatrad Group Co., Ltd. tarafından tasarlanıp işletilir.'
+  actions:
+    - variant: primary
+      text: 'Proje MOQ ve Teslim Süresi Dökümü Alın'
+      href: /tr/contact#moq-guide
+    - text: 'MOQ ve esnek markalama rehberi'
+      href: /tr/oem-moq-guide
+
+answer:
+  label: 'Doğrudan cevap'
+  text: 'MOQ ve teslim süresi projeye özeldir, ancak çerçeve sabittir. Her özel SUP projesi aynı kademeli aşamalardan geçer: numune geliştirme (1–2 board, 7–12 günde hazır), deneme ve pilot siparişleri (20–50 board) ve standart hacimli partiler (150 m drop stitch kumaş rulosu başına 90–100+ board). Üretim teslim süresi, kesinleşen sipariş ve depozitodan itibaren 25–35 gündür; projeniz özel bir gövde gerektiriyorsa, üretim başlamadan önce kalıp geliştirmeye 15–20 gün eklenir. Dolayısıyla tipik bir ilk proje şöyle görünür: numuneler yaklaşık 1–2 haftada, pilot boardlar 4–6 haftada ve ilk tam parti sipariş onayından yaklaşık 6–8 hafta sonra sevk edilir.'
+  verified: 'Eylül 2026'
+
+moq_lead_table:
+  tagline: Çerçeve
+  title: 'Özel SUP MOQ ve Teslim Süresi Kademelerine Genel Bakış'
+  subtitle: 'Her aşama bir sonrakini doğrular. Çizimden doğrudan konteynere asla geçmezsiniz — daha fazla boarda taahhüt etmeden önce her kademede gövdeyi, grafikleri ve ambalajı doğrularsınız.'
+  headers:
+    stage: Sipariş Aşaması
+    quantity: Tipik Miktar
+    lead_time: Teslim Süresi
+    best_for: En Uygun Kullanım
+  rows:
+    - stage: 'Numune geliştirme'
+      quantity: '1–2 board'
+      lead_time: '7–12 gün'
+      best_for: 'Gövde rijitliğini, EVA kaymaz ped dokusunu, grafik isabetini ve aksesuar uyumunu doğrulama. Numune ücretleri geçerlidir ve sözleşme onayıyla üretim siparişinizden mahsup edilir.'
+    - stage: 'Deneme / pilot sipariş'
+      quantity: '20–50 board'
+      lead_time: '25–35 gün'
+      best_for: 'Sezon öncesi ticari test, pazar doğrulaması ve mevcut gövde platformları, stok malzemeleri ile sadeleştirilmiş ambalaj kullanılarak ilk satış denemesi.'
+    - stage: 'Standart hacimli parti'
+      quantity: '150 m rulo başına 90–100+ board'
+      lead_time: '25–35 gün'
+      best_for: 'Tam 150 m kumaş rulolarıyla eksiksiz üretim verimliliği — kumaş birleştirme sıfır, düzgün lif gerilimi ve amorti edilmiş hat kurulumu. Özel kalıp formları bu kademede çalışır.'
+    - stage: 'Büyük ölçekli program'
+      quantity: '300+ board'
+      lead_time: 'Parti başına 25–35 gün, kademeli sevkiyat'
+      best_for: 'Konteyner ölçekli programlar ve sezonluk filolar; deponuzun ve nakit akışınızın yönetilebilir kalması için birden fazla üretim partisine yayılarak planlanır.'
+
+moq_drivers:
+  tagline: 'MOQ Değerini Ne Belirler'
+  title: 'Asgari Miktarınızı Belirleyen Altı Faktör'
+  subtitle: 'MOQ, bir satış ekibinin keyfi seçtiği rastgele bir sayı değildir. Ürün mimarisinin tamamından hesaplanır — bu bileşenler teklif öncesinde birlikte değerlendirilir.'
+  grid: 'sm:grid-cols-2 lg:grid-cols-3'
+  features:
+    - icon: H
+      icon_bg: blue
+      title: 'Gövde Formu ve Kalıplar'
+      desc: 'Fabrikada mevcut rocker kalıpları, pilot siparişlerin 20 boarddan başlamasına izin verir. Özel bir gövde, özel CAD kesim kalıpları ve EVA sıcak pres kalıpları gerektirir ve kalıp geliştirme takvime 15–20 gün ekler.'
+    - icon: C
+      icon_bg: green
+      title: 'Renk Seçenekleri ve PVC'
+      desc: 'Standart stok renkleri pilot miktarlarda üretilirken, özel Pantone boyanmış PVC levhalar kendi hammadde asgari miktarlarına sahip ayrı kimyasal boyama partileri gerektirir.'
+    - icon: A
+      icon_bg: purple
+      title: 'Grafik ve Baskı Kapsaması'
+      desc: 'Bir burun logosu küçük partilerde ekran baskıyla basılabilirken, tam yüzey veya çok panelli grafikler dijital baskı levhası hazırlığı ve kapsam testi gerektirir; bu da pratik parti boyutunu artırır.'
+    - icon: B
+      icon_bg: orange
+      title: 'Markalı Ambalaj'
+      desc: 'Özel 5 katlı perakende hediye kutuları, bağımsız bir ofset baskı presi asgarisine tabidir. Daha az kutu sipariş ederseniz fazlayı depolar ve planlanmış sevkiyatlarınıza göre serbest bırakırız.'
+    - icon: G
+      icon_bg: blue
+      title: 'Aksesuar Paketleri'
+      desc: 'Standart alüminyum veya naylon kürekler, pompalar ve çantalar alt tedarikçi partilerine tabidir. Tamamen markalı karbon kürekler ve özel pompalar kendi üretim asgari miktarlarına tabidir.'
+    - icon: S
+      icon_bg: green
+      title: 'Sezon ve Ödeme Planlaması'
+      desc: 'Sezon öncesi pencerede verilen siparişler kesinleşen üretim kapasitesi alır. 300+ boardluk programlar için kademeli sevkiyat programı, üretimden sonra değil, sözleşme aşamasında kesinleştirilir.'
+
+moq_timeline:
+  tagline: Uçtan Uca Zaman Çizelgesi
+  title: 'Ürün Brieften Sevk Edilen Boardlara: Gün Gün'
+  subtitle: 'Tipik bir özel SUP programının tam programı. Mevcut gövde platformları bu zaman çizelgesinin sol tarafına sıkışır; özel bir gövde kalıp geliştirme aşamasını ekler.'
+  steps:
+    - step: 'Gün 0'
+      title: 'Ürün Brieffinizi Gönderin'
+      desc: 'Board modeli, hedef miktar, renk seçenekleri, grafikler ve ambalaj gereksinimleri. Mühendislik incelemesi bir iş günü içinde tamamlanır.'
+    - step: 'Gün 1–2'
+      title: 'Mühendislik İncelemesi ve Uygulanabilirlik'
+      desc: 'Mühendislik ekibimiz gövde geometrisini, malzemeleri ve uyum yolunu kontrol eder ve projenin mevcut platformlara uyup uymadığını veya yeni kalıp gerektirip gerektirmediğini doğrular.'
+    - step: 'Gün 3–7'
+      title: 'Teknik Özellik ve Kalemli Teklif'
+      desc: 'Herhangi bir taahhüt öncesinde MOQ hesabı, teslim süresi dilimleri ve kalem kalem maliyetleri — herhangi bir kalıp ücreti dahil — ile birlikte eksiksiz teknik özellik dosyasını alırsınız.'
+    - step: 'Gün 7–12'
+      title: 'Numune Geliştirme (1–2 board)'
+      desc: 'Üretilen ve test edilen fiziksel numune: gövde rijitliği, EVA kaymaz ped dokusu, grafik isabeti ve aksesuar uyumu. Numune ücretleri onayla birlikte üretim siparişinden mahsup edilir.'
+    - step: '+15–20 gün'
+      title: 'Özel Kalıp Geliştirme (yalnızca özel gövdeler)'
+      desc: 'Yalnızca yeni gövde formu olan projeler için: CNC kesim kalıpları, EVA sıcak pres kalıpları ve kalıp denemeleri, hacimli üretim başlamadan önce tamamlanır.'
+    - step: '25–35 gün'
+      title: 'Kesinleşen Sipariş ve Depozitodan Sonra Üretim'
+      desc: 'Tam 150 m kumaş rulloları, Pantone malzemeleri, markalı ambalaj ve 100 noktalık montaj. Her board 24 saatlik basınç ve hava sızdırmazlık testinden geçer.'
+    - step: '300+ board'
+      title: 'Kademeli Sevkiyat Planlaması'
+      desc: 'Büyük programlar, sezonluk satış temposu, depo kapasitesi ve ödeme kilometre taşlarına uyum sağlamak için planlanmış partiler halinde sevk edilir.'
+    - step: 'Gün 0–90'
+      title: 'Tipik İlk Sipariş Ufku'
+      desc: 'Brieften ilk partinin teslimine: mevcut platformlarla yaklaşık 6–8 hafta, özel kalıpla birlikte 8–12 hafta. Çok rulo ve konteyner programları tasarım gereği bunun ötesine uzanır.'
+
+expedite:
+  tagline: 'Programı Kısa Tutmak'
+  title: 'Teslim Süresini Sıkı Tutan Faktörler'
+  subtitle: 'Rulo fiziğinin temellerini değiştirmeden zaman çizelgesini sıkıştırmanıza izin veren üç kaldıraç.'
+  features:
+    - icon: S
+      icon_bg: blue
+      title: 'Numuneler Varsayılan Olarak Hızlıdır'
+      desc: 'Numune geliştirme her projede 7–12 gün sürer. Numune turunu teknik özelliklerinizi dondurmak için kullanın; böylece üretim, geç gelen grafik kararlarını hiçbir zaman beklemez.'
+    - icon: P
+      icon_bg: green
+      title: 'Üretim Kapasiteleri Önceden Kesinleşir'
+      desc: 'Sezon öncesi siparişler kesin üretim kapasitesini kilitler. Aynı kapasiteyi birden fazla müşterinin planlamasının nedeni tam olarak budur: daha erken depozito, daha önceki sıra demektir.'
+    - icon: T
+      icon_bg: purple
+      title: 'Şeffaf Aşama Kapıları'
+      desc: 'Her kapı — numune onayı, malzeme listesi dondurma, grafik dondurma, sipariş ve depozito — sözleşmede bir tarihle kararlaştırılır. Sayacın hangi gün yeniden başladığını her zaman bilirsiniz.'
+
+scenarios:
+  tagline: 'Üç Gerçekçi Giriş Noktası'
+  title: 'Hangi Yol Projenize Uyar?'
+  subtitle: 'Aynı fabrika, üç farklı giriş yolu. Durumunuza en yakın senaryoyu seçin ve bize ulaştığınızda kullanın.'
+  features:
+    - icon: A
+      icon_bg: orange
+      title: 'Girişim Markası: Taahhüt Etmeden Önce Doğrulayın'
+      desc: 'Önce 1–2 numune sipariş edin (7–12 gün), sürüş kalitesini ve fotoğrafları test edin, ardından herhangi bir tam parti öncesi satış temposunu ölçmek için 20–50 boardluk bir deneme siparişi verin. İlk sezon toplam riskiniz 50 boardun altında kalır.'
+    - icon: B
+      icon_bg: blue
+      title: 'Tatil Tesisi veya Kiralama Operatörü: Pilot, Sonra Ölçek'
+      desc: 'Sadeleştirilmiş ambalajlı 20–50 boardluk bir pilot sipariş sizi sezon öncesinden geçirir. Kullanım verileri döndükten sonra, markalı ambalajla standart 90–100+ boardluk partilere ölçeklenin.'
+    - icon: C
+      icon_bg: green
+      title: 'Kurulmuş Marka: Tam Özel Konteyner Programları'
+      desc: 'Kurulmuş markalar, özel gövdeler ve tam yüzey markalamayla 150 m rulo başına 90–100+ board sipariş eder. Özel kalıp imalatı 15–20 gün ekler; 300+ boardluk programlar kademeli programlarla sevk edilir.'
+
+moq_quality:
+  tagline: 'Kalite Kontrolü ve Uyumluluk'
+  title: 'Her Sipariş Boyutunda Aynı Kalite Sistemi'
+  subtitle: '1 boardluk numune ile 300+ boardluk program aynı kalite kapılarından ve aynı uyum belgelerinden geçer. "Düşük MOQ" asla "düşük standart" anlamına gelmez.'
+  grid: 'sm:grid-cols-2 lg:grid-cols-3'
+  features:
+    - icon: C
+      icon_bg: blue
+      title: 'Her Ölçekte Uyum Belgeleri'
+      desc: 'CE, ISO 9001, BSCI, REACH ve RoHS sertifikasyon belgeleri her siparişle birlikte sağlanır — tek adetlik numuneler dahil — ve talep üzerine sertifika numaraları verilir.'
+    - icon: A
+      icon_bg: green
+      title: '100 Noktalık Montaj Kontrol Listesi'
+      desc: 'Parti büyüklüğünden bağımsız olarak her board aynı 100 noktalık montaj kontrol listesinden geçer: malzemeler, kaynaklar, supapozlar, kenar bantları, finler ve aksesuar uyumu satır satır kontrol edilir.'
+    - icon: P
+      icon_bg: purple
+      title: '24 Saatlik Basınç ve Hava Sızdırmazlık Testi'
+      desc: 'Her board 18.0 PSI basınca çıkarılır ve 24 saat tutulur. 0.50 PSI üzeri basınç kaybı otomatik ret tetikler — numune için de konteyner için de aynı kapı geçerlidir.'
+    - icon: R
+      icon_bg: orange
+      title: 'RF Kaynak ve Kenar Bant Kaynaşma Doğrulaması'
+      desc: 'Üç katmanlı kenar bandı kaynaşması ve RF kaynak dikişleri, herhangi bir üretim partisi başlamadan önce onaylanan numuneye karşı görsel ve boyutsal olarak doğrulanır.'
+    - icon: B
+      icon_bg: blue
+      title: 'ERP Parti İzlenebilirliği (10 Yıl)'
+      desc: 'Her board, seri numarası taşıyan üretim kayıtlarıyla gelir — malzemeler, operatörler, testler ve muayene sonuçları — 10 yıl saklanır ve denetimde sunulabilir.'
+    - icon: I
+      icon_bg: green
+      title: 'Üçüncü Taraf Muayeneye Hazır'
+      desc: 'Parti üretimi her aşamada üçüncü taraf muayeneye hazırdır. Çoğu müşteri ayrıca 7 aşamalı muayene sistemimizi veya hacimli programlarda sevkiyat öncesi muayeneyi uygular.'
+
+moq_faqs:
+  tagline: SSS
+  title: 'MOQ ve Teslim Süresi Hakkında Sık Sorulan Sorular'
+  items:
+    - q: 'Özel bir SUP için asgari sipariş miktarı nedir?'
+      a: 'Bu, projenizin aşamasına bağlıdır: numuneler 1–2 boarddur, ortak markalama ile küçük toplu üretim 5–10 adetten başlar, deneme ve pilot siparişler 20–50 board çalışır ve standart hacimli üretim 150 m drop stitch kumaş rulosu başına 90–100+ board çalışır. Özel kalıp formları hacim kademesinde üretilir. Yapılandırmanız için kesin hesabı teklif öncesinde doğrularız.'
+    - q: 'Şişirilebilir bir SUP numunesi ne kadar sürer?'
+      a: 'Numune geliştirme 7–12 gün sürer. Numune, gövde rijitliğini, EVA kaymaz ped dokusunu, grafik isabetini ve aksesuar uyumunu doğrular. Numune ücretleri geçerlidir ve sözleşme onayıyla üretim siparişinizden mahsup edilir.'
+    - q: 'Siparişimi onayladıktan sonra üretim ne kadar sürer?'
+      a: 'Üretim teslim süresi, kesinleşen sipariş ve depozitodan itibaren 25–35 gündür. Projeniz özel bir gövde içeriyorsa, özel kalıp geliştirme üretim başlamadan önce 15–20 günlük kalıp süresi ekler.'
+    - q: 'MOQ sipariş başına mı, model başına mı yoksa renk seçeneği başına mı hesaplanır?'
+      a: 'MOQ; model, renk seçeneği, grafik sürümü, ambalaj yapılandırması veya toplam sipariş başına uygulanabilir. Farklı drop stitch kalınlıkları ve PVC renkleri farklı hammadde rulolarından geldiği için, 50 boardluk siparişi 5 renge bölmek 5 ayrı kumaş rulosu ihtiyacı doğurur. Hesabı SKU matrisinize göre doğrularız.'
+    - q: 'Pazarı test etmek için yalnızca 1–2 board ile başlayabilir miyim?'
+      a: 'Evet. 1–2 boardluk numune siparişi mümkün olan en düşük maliyetli doğrulamadır: herhangi bir üretim partisine mali taahhüt vermeden önce gövde rijitliği, grafikler ve aksesuar uyumu doğrulanır. Buradan sonra ticari doğrulama için 20–50 boardluk deneme siparişine geçersiniz.'
+    - q: '300+ boardluk bir program birden fazla partide sevk edilebilir mi?'
+      a: 'Evet. Büyük ölçekli programlar, üretim partilerine yayılmış kademeli sevkiyat olarak planlanabilir; böylece sezonluk filolar ihtiyaç duyulduğunda gelir ve nakit akışı ile depo alanı yönetilebilir kalır. Programlar, üretimden sonra değil, sözleşme aşamasında kesinleştirilir.'
+
+evidence_review:
+  tagline: 'Kanıt ve Doğrulama'
+  title: 'DOĞRULANMIŞ TEKNİK ÖZELLİKLER'
+  body: 'Bu sayfadaki tüm üretim iddiaları, Qingdao Laixi tesisimizdeki Üretim Mühendisliği Ekibimiz tarafından doğrulanmıştır. Sertifikalar, kalite kontrolü muayene kayıtları, basınç ve yapısal test raporları ile parti izlenebilirlik kayıtları talep üzerine mevcuttur. Teknik özellikler en son Eylül 2026 tarihinde doğrulanmıştır.'
+
+cta:
+  title: 'Projenize Özel MOQ ve Teslim Süresini Öğrenmek İster misiniz?'
+  subtitle: 'Board modelinizi, hedef ilk sezon miktarınızı ve markalama gereksinimlerinizi bize gönderin. Mühendislik ekibimiz numune, deneme veya hacim yolundan hangisinin uyduğunu doğrular — kesin MOQ hesabı ve gün gün programla birlikte. Sorgu göndermek sizi siparişe taahhüt etmez.'
+  actions:
+    - variant: primary
+      text: 'MOQ ve Teslim Süresi Dökümü Talep Edin'
+      href: /tr/contact#moq-guide
+    - text: 'Esnek markalama rehberiyle karşılaştırın'
+      href: /tr/oem-moq-guide
+    - text: 'Düşük MOQ deneme siparişiyle yeni marka kurun'
+      href: /tr/new-brand-trial-order
+    - text: 'Fabrikayı ve kalite sistemini doğrulayın'
+      href: /tr/oem-trust-assurance

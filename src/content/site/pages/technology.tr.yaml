@@ -1,0 +1,45 @@
+meta:
+  title: 'Teknoloji — Drop Stitch ve Deniz PVC | {SITE}'
+  description: 'Vatrad teknolojileri: drop stitch yapı, deniz PVC, çift katmanlı üretim ve yüksek basınç. Profesyonel şişirilebilir SUP üreticisinden gelen yenilik.'
+  dateModified: '2026-08'
+  keywords:
+    - 'sup teknolojisi'
+    - 'drop stitch yapısı'
+    - 'yüksek basınçlı sup'
+    - 'şişirilebilir sup malzemeleri'
+hero:
+  tagline: Teknoloji
+  title: Performans İçin Üretilmiş
+  subtitle: 'Vatrad marka her şişirilebilir SUP, drop stitch yapı ve deniz sınıfı PVC ile tasarlanır — zorlu deniz ortamları için test edilmiş hassas malzemeler ve üretim yöntemleri.'
+
+sections:
+  - title: Drop Stitch Çekirdek
+    description: 'Binlerce iç polyester iplik üst ve alt katmanları birbirine bağlayarak 12-15 PSI seviyesinde rijit bir yapı oluşturur. Bu, profesyonel paddle boardlarda ve şişirilebilir yarış SUPlerinde kullanılan aynı teknolojidir.'
+    imageAlt: DS Çekirdek Şeması
+  - title: Deniz Sınıfı PVC
+    description: 'Deniz ortamları için sınıflandırılmış çok katmanlı laminasyonlu PVC kumaş. Her katman yapıştırılmak yerine füzyon kaynaklıdır; bu da ayrışma riskini ortadan kaldırır. UV dayanımı, tuzlu su korozyonu ve aşınmaya karşı test edilmiştir.'
+    imageAlt: PVC Katman
+  - title: Askeri Sınıfı PVC
+    description: 'Tüm SUP modellerinde kullanılan premium PVC, üstün UV ve kimyasal dayanım sağlar. Aşırı sıcaklık koşullarında esnekliğini korur ve bozulmaya karşı direnç gösterir.'
+    imageAlt: PVC
+  - title: Hava Destekli Zemin
+    description: 'Ayakta durma, balık tutma ve yoga için olağanüstü rijitlik sağlayan yüksek basınçlı şişirilebilir drop stitch yapı. Kurulum süresini, toplam ağırlığı ve depolama hacmini azaltır.'
+    imageAlt: Hava Desteği
+
+related:
+  title: İlgili Sayfalar
+  links:
+    - text: Ar-Ge Merkezi
+      url: /tr/randdcenter
+    - text: Kalite Testleri
+      url: /tr/quality
+    - text: Güvenlik Standartları
+      url: /tr/quality
+    - text: Garanti
+      url: /tr/warranty
+    - text: Turizm ve Rekreasyon
+      url: /tr/tourism-recreation
+    - text: Rehberler
+      url: /tr/knowledge
+    - text: Ürünler
+      url: /tr/products

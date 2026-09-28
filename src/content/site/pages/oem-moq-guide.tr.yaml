@@ -1,0 +1,170 @@
+meta:
+  title: 'SUP MOQ Rehberi: Esnek Markalama ve Minimum Sipariş Miktarları'
+  description: 'Şişirilebilir SUP MOQ nasıl hesaplanır: 150 m rulo drop-stitch kumaştan 90–100 tahta, 5–10 adetten başlayan ortak markalama ve şeffaf kalıp ücretleri.'
+  dateModified: '2026-08-14'
+  keywords:
+    - 'SUP MOQ'
+    - 'şişirilebilir SUP minimum sipariş miktarı'
+    - 'SUP ortak markalama programı'
+    - 'küçük parti SUP'
+    - 'özel paddle board MOQ'
+    - 'Çinde OEM SUP fabrikası'
+
+hero:
+  tagline: 'Şeffaf ve Projeye Özel'
+  title: 'Esnek Markalama ve Üretim MOQ Rehberi'
+  subtitle: 'SUP üretim partilerini belirleyen drop-stitch hammadde fiziğini — ve düşük eşikli ortak markalama programımızın kiralama işletmeleri, kulüpler, resortlar ve büyüyen su sporları markaları için nasıl çalıştığını anlayın. Qingdao Vatrad Group Co., Ltd. tarafından tasarlanır ve yürütülür.'
+
+answer:
+  label: 'Doğrudan yanıt'
+  text: 'MOQ her projeye uyan tek bir sayı değildir. Her MOQ proje konfigürasyonuyla teyit edilir: gövde şekli ve kalıp, renk varyantları ve PVC, grafik karmaşıklığı, ambalaj ve aksesuar karması. Tam özel hacimli üretim, standart 150 m rulo drop-stitch kumaştan partiler halinde 90–100 adet yürür; küçük partili ortak markalama 5–10 adetten başlar ve her proje üç ayrı aşamaya bölünür — numune geliştirme (1–2 adet), pilot sipariş (20–50 adet) ve hacimli üretim (90–100+ adet). Teklif öncesi SKU karmanız için kesin hesabı teyit ederiz — belirsiz düşük MOQ vaatleri yok, gizli ödünler yok.'
+  verified: 'Eylül 2026'
+
+moq_principle:
+  tagline: Mühendislik Mantığı
+  title: 'Neden Standart Hacimli MOQ 90–100 Adettir: Hammadde Rulosu Fiziği'
+  subtitle: 'Üretim partilerinin büyüklükleri bir satış ekibinin keyfi belirlediği sayılar değildir — ham drop-stitch kumaş rulosu uzunlukları ve hat değişim fiziği tarafından belirlenir.'
+  body: |
+    **150 metrelik ham kumaş tabanı.** Yüksek gerilme dayanımlı dokulu drop-stitch kumaş, kesintisiz ana rulo üzerinde üretilir ve kaplanır. Standart tek partilik endüstriyel rulo uzunluğu 150 metre kesintisiz malzemedir.
+
+    **Verim hesabı (90 ila 100 tahta).** Standart bir touring veya all-around SUP gövdesi için (10 ft 6 in ile 11 ft 6 in arası), tam bir 150 m ana rulo yaklaşık 90 ila 100 bitmiş paddle board üretir.
+
+    **Sıfır kumaş ek yeri politikası.** Tam kumaş rulosu, yapısal sürekliliği korur — enine, yüksek riskli kumaş eklemesi yoktur ve tahtanın üst ve alt yüzeylerinde lif gerilimi tekdüzedir.
+
+    **Termal ve yapıştırıcı kalibrasyon.** Otomatik yüksek frekanslı sıcak hava kaynak ve deniz yapıştırıcısı laminasyon hatları 2 saat ön ısıtma, sıcaklık profilleme ve basınç kalibrasyonu gerektirir. Tam bir 90–100 adetlik parti bu sabit kurulum maliyetlerini amorti ederek mümkün olan en düşük birim maliyeti sağlar.
+
+moq_tiers:
+  tagline: Markanıza İki Yol
+  title: 'Tam Özel Hacimli OEM ve Küçük Partili Ortak Markalama'
+  subtitle: 'Tek fabrika, iki giriş noktası: yerleşik hatlar için tam özel seri üretim ve kulüpler, kiralama merkezleri ile büyüyen markalar için düşük eşikli ortak markalama programı.'
+  features:
+    - icon: P
+      icon_bg: blue
+      title: 'Tam Özel Hacimli OEM — Parti Başına 90–100 Adet'
+      desc: 'Optimum malzeme verimi ve yapısal tutarlılık için yüksek kaliteli ham drop-stitch kumaşın standart 150 m rulo uzunluğuyla belirlenir. %100 tam özelleştirme: özel gövde şekli ve özel Pantone renk varyantları · Tam yüzey dijital veya serigrafik grafik kapsaması · Özel markalı perakende ambalajı, basılı koli ve markalı aksesuarlar · Azami maliyet verimi ve ölçek ekonomileri'
+      link: '/tr/contact#custom-oem'
+      link_label: 'Hacimli OEM Hakkında Bilgi Alın'
+    - icon: B
+      icon_bg: green
+      title: 'Küçük Partili Ortak Markalama — 20 Adedin Altında'
+      desc: 'Kulüpler, kiralama merkezleri ve resortlar için sahada test edilmiş yıllık ürün koleksiyonlarımız üzerine kurulmuş düşük eşikli çözüm — ağır stok yükü yok. · Sabit kabuk ve geometri: CE / ISO 25649 uyumlu, sahada test edilmiş gövde şekilleri · Birincil tanımlayıcı: orta bölümde resmi iSupfactory markası · İkincil özel markalama: logonuz burun veya yan rail üzerine basılır · %100 tam parti 24 saatlik basınç ve hava sızdırmazlık testi'
+      link: '/tr/contact#cobranding'
+      link_label: 'Küçük Partili Ortak Markalamayı Başlatın'
+
+moq_fees:
+  tagline: Şeffaf Ekran Baskı Ücretleri
+  title: 'Ortak Markalama Ücret Yapısı — Kalem Kalem Önceden'
+  subtitle: 'Küçük partili ekran baskı için açık, kalem kalem fiyatlandırma. Kalıp ücretleri ilk kurulumda bir kez alınır ve aynı grafik ölçüsüyle yeniden siparişlerde alınmaz.'
+  headers:
+    fee: Ücret Kalemi
+    amount: Tutar
+    detail: Ayrıntılar
+  rows:
+    - fee: 'Ekran baskı kalıp ücreti (tek seferlik, 30 cm üzeri logo)'
+      amount: '$10.00 USD'
+      detail: 'İlk kurulumda bir kez alınır; aynı grafik ölçüsüyle yeniden siparişlerde alınmaz.'
+    - fee: 'Ekran baskı kalıp ücreti (tek seferlik, 50 cm üzeri logo)'
+      amount: '$15.00 USD'
+      detail: 'İlk kurulumda bir kez alınır; aynı grafik ölçüsüyle yeniden siparişlerde alınmaz.'
+    - fee: 'Fabrika işleme ve hassas baskı ücreti'
+      amount: 'Tahta başına $1.00 USD'
+      detail: 'Manuel koordinat konumlandırma, çözücü ön işlem, mürekkep transferi ve sıcak kürleme kapsamındadır.'
+
+moq_stages:
+  tagline: 'Numune · Pilot · Hacim'
+  title: 'Üç Farklı Miktar Aşaması'
+  subtitle: 'Numune, pilot ve hacimli üretim miktarları farklıdır. Taahhüt etmeden önce doğrulama yapmanız için her proje üç ayrı kademeye ayrılır.'
+  steps:
+    - step: '01'
+      title: 'Numune Geliştirme (1–2 adet)'
+      desc: 'Herhangi bir mali taahhütten önce gövde rijitliğinin, EVA kayma pad dokusunun, grafik doğruluğunun ve aksesuar uyumunun fiziksel doğrulaması. Numune ücretleri uygulanır ve sözleşme onayıyla üretim siparişinize mahsup edilir.'
+    - step: '02'
+      title: 'Pilot Sipariş (20–50 adet)'
+      desc: 'Kurulum sürtünmesini en aza indirmek için mevcut gövde platformları, stok malzemeler ve sadeleştirilmiş ambalajla sezon öncesi ticari test ve bölgesel pazar doğrulaması.'
+    - step: '03'
+      title: 'Hacimli Üretim (90–100+ adet)'
+      desc: 'Dondurulmuş BOM, kesinleştirilmiş grafikler, özel ambalaj ve planlanmış teslimat programı sonrası teyit edilir — tam 150 m kumaş ruloları, özel Pantone kumaşlar, özel ambalaj, hacim indirimleri ve tam zincir parti izlenebilirliği.'
+
+moq_factors:
+  tagline: MOQ Unuzu Ne Belirler
+  title: 'Neden Tam Özel MOQ Her Zaman Projeye Özeldir'
+  subtitle: '%100 özel imalatta MOQ, ürün mimarisinin tamamından hesaplanır — teklif öncesi bu dört bileşen birlikte değerlendirilir.'
+  headers:
+    component: Proje Bileşeni
+    driver: Üretim Etkeni
+    impact: Minimum Miktar Üzerindeki Etkisi
+  rows:
+    - component: 'Gövde Şekli ve Kalıp'
+      driver: 'Fabrikada mevcut rocker kalıpları ile özel CAD kesim kalıpları ve EVA sıcak pres takımları'
+      impact: 'Mevcut platformlar: pilot siparişler 20 adetten başlar. Özel gövdeler: ayrılmış kalıp amortismanı gerekir.'
+    - component: 'Renk Varyantları ve PVC'
+      driver: 'Tek standart stok renk ile özel Pantone boyanmış PVC levhalar'
+      impact: 'Özel Pantone PVC, bağımsız hammadde minimumları olan kimyasal boyama partileri gerektirir.'
+    - component: 'Markalı Ambalaj'
+      driver: 'Barkod etiketli jenerik koli ile tam renkli 5 katmanlı perakende hediye kutusu ve markalı kılavuzlar'
+      impact: 'Özel renkli kutular, bağımsız bir ofset baskı pressi minimumu taşır (genellikle 500+ kutu).'
+    - component: 'Aksesuar Paketleri'
+      driver: 'Standart alüminyum veya naylon kürekler ile tahtaya özel eşleştirilmiş karbon kürekler ve markalı pompalar'
+      impact: 'Tam markalı aksesuarlar, alt kademe tedarikçi üretim partilerine tabidir.'
+
+moq_downloads:
+  tagline: Resmi Belgeler
+  title: 'Çift Dilli Politika Dosyaları — İndirin ve Paylaşın'
+  subtitle: 'Qingdao Vatrad Group Co., Ltd. şirketinden alınabilen, alıcı taleplerine eklenmeye hazır resmi belgeler. Her iki dosya da çift dildedir (İngilizce / Çince).'
+  features:
+    - icon: G
+      icon_bg: blue
+      title: 'Esnek Markalama ve MOQ Rehberi (PDF)'
+      desc: 'Resmi B2B rehberi (Bölüm I, DOC-MOQ-EXP-2026-EN, 14 Ağu 2026 tarihinde yayımlandı): 150 m rulo drop-stitch veriminin (90–100 tahta) arkasındaki mühendislik mantığı, 5–10 adetten başlayan ortak markalama programı, şeffaf ekran baskı ücretleri ve üç üretim aşaması.'
+      link: 'https://assets.isupfactory.com/site/downloads/flexible-branding-and-moq-guide.pdf'
+      link_label: 'Rehberi İndirin (PDF)'
+    - icon: P
+      icon_bg: green
+      title: 'Esnek Markalama ve Ortak Markalama Politikası (PDF)'
+      desc: 'Resmi politika dosyası (Bölüm 1, POL-MOQ-2026-V1): küçük partili ortak markalama kuralları, projeye özel MOQ çerçevesi, minimumları belirleyen dört etken ve Satış Başkan Yardımcısı, Baş Mühendis ile Kalite Güvenlik Müdürü tarafından ortak imza.'
+      link: 'https://assets.isupfactory.com/site/downloads/flexible-branding-and-moq-policy.pdf'
+      link_label: 'Politikayı İndirin (PDF)'
+
+moq_faqs:
+  tagline: SSS
+  title: 'MOQ Hakkında Sık Sorulan Sorular'
+  items:
+    - q: 'MOQ sipariş, model veya renk varyantı başına mı hesaplanır?'
+      a: 'MOQ model, renk varyantı, grafik versiyonu, ambalaj konfigürasyonu veya toplam sipariş başına uygulanabilir. Farklı drop-stitch kalınlıkları (12 cm veya 15 cm) ve PVC renkleri ayrı hammadde rulolarından geldiği için, 5 renge bölünmüş 50 tahtalık sipariş 5 ayrı kumaş rulosu ihtiyacı doğurur. Karmaınızı net planlayabilmeniz için teklif öncesi kesin hesabı SKU matrisinize göre teyit ederiz.'
+    - q: 'Toplu üretimden önce numune sipariş edebilir miyim?'
+      a: 'Evet. Numune geliştirme (1–2 adet), seri üretime sevk öncesi gövde rijitliğini, EVA kayma pad dokusunu, grafik doğruluğunu ve aksesuar uyumunu doğrular. Numune ücretleri uygulanır ve sözleşme onayıyla üretim siparişinize mahsup edilir.'
+    - q: 'Neden özel perakende ambalajının bağımsız bir MOQ su vardır?'
+      a: 'Özel fleksografik veya ofset koli baskı pressleri en az 500+ adetlik üretim kurulumu gerektirir. Hibrit Ambalaj Depolama Çözümü sunuyoruz: 500 adet özel baskılı koliyi üretir, fazlasını temiz depomuzda saklar ve programlanan tahta sevkiyatlarınıza göre serbest bırakırız — böylece daha küçük bir tahta siparişi de tam markalı perakende ambalajıyla sevk edilebilir.'
+    - q: 'Neden standart hacimli MOQ 90–100 adettir?'
+      a: 'Standart hacimli MOQ hammaddeyi izler: yüksek kaliteli drop-stitch kumaşın 150 m ana rulosu, standart bir touring veya all-around gövde için yaklaşık 90–100 bitmiş tahta verir. Tam rulo çalıştırmak kumaş eklemesini ortadan kaldırır, lif gerilimini tekdüze tutar ve 2 saatlik kaynak ile laminasyon hattı kalibrasyonunu amorti eder — mümkün olan en düşük birim maliyeti sağlar.'
+    - q: 'Daha yüksek miktar birim maliyeti düşürür mü?'
+      a: 'Çoğu projede evet. Daha yüksek miktarlar malzeme verimini iyileştirir, sabit üretim hattı kurulum yükünü daha çok tahtaya yayar ve tahta başına ambalaj maliyetini düşürür.'
+    - q: 'Ortak markalama kalıp ücretleri yeniden siparişlerde tekrar uygulanır mı?'
+      a: 'Hayır. Ekran baskı kalıp ücretleri ilk kurulumda bir kez alınır ve aynı grafik ölçüsüyle yeniden siparişlerde alınmaz. Yalnızca tahta başına 1.00 ABD Doları tutarındaki fabrika işleme ve baskı ücretini ödersiniz.'
+    - q: 'MOQ rehberi istemek beni bir siparişe bağlıyor mu?'
+      a: 'Hayır. Proje MOQ rehberi istemek, yalnızca Qingdao Vatrad Group Co., Ltd. şirketindeki mühendislik ekibimizin teknik brifinginizi inceleyip en maliyet etkili üretim yolunu tavsiye etmesine olanak tanır. Gizli teknik spesifikasyonlarınızı veya grafiklerinizi paylaşmadan önce bir Gizlilik Anlaşması (NDA) imzalanabilir.'
+
+evidence_review:
+  tagline: 'Kanıt ve Doğrulama'
+  title: 'DOĞRULANMIŞ SPESİFİKASYONLAR'
+  body: 'Bu sayfadaki tüm üretim iddiaları, Laixi, Qingdao tesisimizdeki Üretim Mühendisliği Ekibimiz tarafından doğrulanmıştır. Sertifikalar, kalite kontrol inceleme kayıtları, basınç ve yapısal test raporları ve parti izlenebilirliği kayıtları talep üzerine mevcuttur. Spesifikasyonlar en son Eylül 2026 tarihinde doğrulanmıştır.'
+
+cta:
+  title: 'SUP projeniz için MOQ rehberine mi ihtiyacınız var?'
+  subtitle: 'Hedef tahta modelinizi, tahmini ilk sipariş aralığınızı ve markalama gereksinimlerinizi paylaşın. Numune, pilot veya hacim rotasından hangisinin bir sonraki adım için en uygun olduğunu tavsiye edeceğiz. Talep göndermek sizi nihai sipariş miktarına bağlamaz — NDA görüşmesi mümkündür.'
+  actions:
+    - variant: primary
+      text: Proje MOQ Rehberi İsteyin
+      href: /tr/contact#moq-guide
+    - text: Özel SUP MOQ ve teslim süresi dökümü
+      href: /tr/sup-oem-moq-lead-time
+    - text: Yeni bir markayı deneme siparişiyle başlatın
+      href: /tr/new-brand-trial-order
+    - text: Fabrikayı ve kalite sistemini doğrulayın
+      href: /tr/oem-trust-assurance
+    - text: 7 aşamalı inceleme sistemi
+      href: /tr/quality
+    - text: OEM ve ODM üretim genel bakışı
+      href: /tr/oem-manufacturing
+    - text: SUP Yapı Karşılaştırması
+      href: /tr/sup-construction-comparison

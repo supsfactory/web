@@ -1,0 +1,110 @@
+meta:
+  title: 'Bilgi Merkezi — Şişirilebilir SUP ve OEM Kılavuzları | {SITE}'
+  description: 'Vatrad bilgi tabanı: şişirilebilir SUP’ler, kürek tahtası malzemeleri, tahta seçimi ve markalar ile profesyoneller için sektör içgörüleri.'
+  dateModified: '2026-08'
+  keywords:
+    - 'sup bilgisi'
+    - 'şişirilebilir sup kılavuzu'
+    - 'kürek tahtası malzemeleri'
+    - 'sup sektör içgörüleri'
+hero:
+  tagline: 'Bilgi Merkezi'
+  title: 'SUP Bilgi Merkezi'
+  subtitle: |
+    Şişirilebilir SUP teknolojisini, su güvenliğini, tahta mühendisliğini ve macera planlamasını kapsayan yapılandırılmış bir bilgi tabanı.
+  taglineSection: 'Keşfedin. Öğrenin. Kendinizden emin olarak çıkın.'
+
+clusters:
+  tagline: 'Bilgi Kümeleri'
+  title: 'Konuya göre keşfedin'
+  subtitle: 'Her Vatrad ürününün arkasındaki teknoloji, güvenlik ve becerilere derinlemesine dalın.'
+  items:
+    - title: 'SUP Satın Alma Kılavuzları'
+      description: 'İlk tahtanızı seçmekten ileri tur tekniklerine — ayakta kürekçilikle ilgili her şey.'
+      icon: 'tabler:lifebuoy'
+      topics:
+        - 'İlk şişirilebilir SUP’nizi nasıl seçersiniz'
+        - 'SUP boyutu ve ağırlık kapasitesi kılavuzu'
+        - 'Başlangıç, tur, yoga ve yarış için en iyi SUP'
+        - 'Kaçınılması gereken yaygın SUP satın alma hataları'
+        - 'Şişirilebilir ve sert tahta karşılaştırması'
+    - title: 'SUP Mühendisliği ve Teknolojisi'
+      description: 'Şişirilebilir SUP tahtaları üzerine teknik kılavuzlar — malzemeler, imalat yöntemleri ve üretim süreçleri.'
+      icon: 'tabler:microscope'
+      topics:
+        - 'Drop-stitch teknolojisine derin dalış'
+        - 'Askeri sınıf PVC şartnameleri'
+        - 'Füzyon laminasyon veya yapıştırmalı birleştirme'
+        - 'EVA köpük teknolojisi ve görsel sanat yöntemleri'
+        - 'SUP supap tipleri ve fin sistemleri'
+    - title: 'SUP Güvenlik ve Bakım'
+      description: 'Her kürekçi için vazgeçilmez güvenlik bilgisi — KYC seçiminden hava durumunu okumaya, tahta bakımı ve onarımına kadar.'
+      icon: 'tabler:shield'
+      topics:
+        - 'SUP güvenlik kontrol listesi ve KYC gereksinimleri'
+        - 'Uzak sular için çok odalı güvenlik'
+        - 'SUP şişirme PSI kılavuzu'
+        - 'Tahta depolama ve kış bakımı'
+        - 'Şişirilebilir tahta onarım teknikleri'
+    - title: 'SUP Becerileri ve Teknikleri'
+      description: 'Her seviye için kürek teknikleri, tur becerileri ve kondisyon antrenmanı.'
+      icon: 'tabler:sailboat'
+      topics:
+        - 'Başlangıç kürek teknikleri'
+        - 'Orta seviye kürek çekişine hakimiyet'
+        - 'Tur ve keşif planlaması'
+        - 'SUP kondisyonu ve yarış antrenmanı'
+        - 'Beyaz su ve nehir koşusu becerileri'
+    - title: 'SUP Yaşam Tarzı ve Özel Kullanımlar'
+      description: 'Özel SUP aktiviteleri — yoga, balıkçılık, köpekler, aileler ve seyahat ipuçları.'
+      icon: 'tabler:heart'
+      topics:
+        - 'Suda SUP yoga ve meditasyon'
+        - 'Şişirilebilir bir SUP’den balıkçılık'
+        - 'Köpekler ve çocuklarla kürekçilik'
+        - 'SUP’nizi uçak ve araçla seyahat ettirmek'
+        - 'SUP aksesuarları ve temel ekipman'
+    - title: 'SUP Karşılaştırmaları ve Referanslar'
+      description: 'Bilgilendirilmiş kararlar vermenize yardımcı olan yan yana karşılaştırmalar.'
+      icon: 'tabler:chart-bar'
+      topics:
+        - 'SUP veya kayak — hangisi size uygun?'
+        - 'PVC ve Hypalon malzeme karşılaştırması'
+        - 'Tek oda veya çok odalı güvenlik'
+        - 'SUP tahta malzemeleri açıklandı'
+        - 'UV baskı veya EVA blok görsel sanat'
+
+featured_guides:
+  tagline: 'Öne Çıkan Kılavuzlar'
+  title: 'En popüler bilgi kaynakları'
+  items:
+    - title: 'SUP Temelleri'
+      href: '/tr/knowledge'
+    - title: 'Şişirilebilir veya Sert Tahta'
+      href: '/tr/inflatable-vs-hardboard'
+    - title: 'Su Güvenliği Kılavuzu'
+      href: '/tr/guides/safety-tips'
+    - title: 'Malzeme Referansı'
+      href: '/tr/knowledge'
+    - title: 'SUP Satın Alma Kılavuzu'
+      href: '/tr/guides/how-to-choose-your-sup'
+    - title: 'SUP Boyut Kılavuzu'
+      href: '/tr/size-guide'
+    - title: 'SUP Teknik Merkezi'
+      href: '/tr/technology'
+    - title: 'SUP Bakımı'
+      href: '/tr/knowledge'
+    - title: 'Tur Kılavuzu'
+      href: '/tr/products/touring'
+    - title: 'Kürek Teknikleri'
+      href: '/tr/knowledge'
+
+cta:
+  title: 'Keşfetmeye başlayın'
+  subtitle: 'Bilgi tabanımıza dalın ve bir sonraki su maceranız için gereken bilgiyi edinin.'
+  actions:
+    - variant: primary
+      text: 'Tüm kılavuzları görün'
+      href: '/tr/knowledge'
+    - text: 'Bilgi Grafiğini keşfedin'
+      href: '/tr/knowledge'

@@ -1,0 +1,85 @@
+meta:
+  title: 'SUP Boyut ve Teknik Özellik Rehberi — Şişirilebilir Paddle Boardlar | {SITE}'
+  description: 'Her Vatrad boardu için ölçüler, kapasiteler ve önerilen kullanım alanları. İhtiyacınıza uygun şişirilebilir SUP boyutunu bulun.'
+  dateModified: '2026-08'
+  keywords:
+    - 'sup boyut rehberi'
+    - 'paddle board ölçüleri'
+    - 'şişirilebilir sup teknik özellikleri'
+    - 'sup boyut tablosu'
+hero:
+  title: Boyut ve Teknik Özellik Rehberi
+  subtitle: 'Her Vatrad ürünü için ölçüler, kapasiteler ve önerilen kullanım alanları.'
+
+categories:
+  inflatable: 'Taşınabilirlikten performanstan ödün vermeden tasarlanmış şişirilebilir SUPler. Doğru boyutu ağırlığınıza ve kürek tekniğinize göre eşleştirin.'
+  sup: 'Tur, yoga, fitness ve rekreasyon küreği için ayakta kürek boardları. Uzunluk ve kullanıcı ağırlığına göre seçin.'
+  accessory: 'SUP boardunuzu tamamlayan aksesuarlar ve güvenlik ekipmanları. Evrensel ölçeklendirme ve çok sayıda seçenek.'
+
+table:
+  headers:
+    product: Ürün
+    length: Uzunluk
+    width: Genişlik
+    weight: Ağırlık
+    max_load: Maksimum Yük
+    best_for: En Uygun Kullanım
+  rows:
+    - product: 'Genel Amaçlı SUP (Explorer 11 ft)'
+      length: '11''0" (335 cm)'
+      width: '32" (81 cm)'
+      weight: 19 lbs (8.6 kg)
+      max_load: 220 lbs (100 kg)
+      best_for: 'Başlangıç seviyesi, rekreasyon, göllerde ve sakin nehirlerde aile küreği'
+    - product: 'Genel Amaçlı SUP (10''6")'
+      length: '10''6" (320 cm)'
+      width: '32" (81 cm)'
+      weight: 18 lbs (8.2 kg)
+      max_load: 200 lbs (90 kg)
+      best_for: 'Daha hafif kullanıcılar, yoga ve genel rekreasyon'
+    - product: 'Tur SUP (12 ft)'
+      length: '12''0" (366 cm)'
+      width: '30" (76 cm)'
+      weight: 23 lbs (10.4 kg)
+      max_load: 260 lbs (118 kg)
+      best_for: 'Uzun mesafe küreği, hız ve kıyı turları'
+    - product: 'Tur SUP (14 ft)'
+      length: '14''0" (427 cm)'
+      width: '28" (71 cm)'
+      weight: 26 lbs (11.8 kg)
+      max_load: 275 lbs (125 kg)
+      best_for: 'Yarış ve uzun mesafeli sefer küreği'
+    - product: 'Surf SUP (8–10 ft)'
+      length: '8''0"–10''0" (244–305 cm)'
+      width: '30" (76 cm)'
+      weight: 17 lbs (7.7 kg)
+      max_load: 180 lbs (82 kg)
+      best_for: 'Dalga sürükleme ve manevra kabiliyeti yüksek sörf'
+    - product: 'Yoga / Fitness SUP (11 ft)'
+      length: '11''0" (335 cm)'
+      width: '34" (86 cm)'
+      weight: 22 lbs (10 kg)
+      max_load: 240 lbs (109 kg)
+      best_for: 'Yoga, fitness ve kararlı rekreasyon'
+
+how_to_choose:
+  title: 'Doğru Boyutu Nasıl Seçersiniz'
+  cards:
+    - title: 'SUP Boardlar'
+      description: 'Uzunluğu ağırlığınıza ve amaçlanan kullanıma göre seçin. Daha geniş boardlar (32"+) daha fazla kararlılık sunar. Daha uzun boardlar (11-12 ft) tur için daha iyi iz yapar. Daha ağır kürekçiler daha yüksek hacimli boardlara ihtiyaç duyar.'
+    - title: 'Tur SUPleri'
+      description: 'Daha uzun boardlar (11–12 ft) mesafe kat etmek ve tur yapmak için en uygundur. Daha geniş boardlar (32"+) daha fazla kararlılık sunar. Ekipman dahil toplam yük için ağırlık kapasitesini kontrol edin.'
+    - title: 'Genel Amaçlı SUPler'
+      description: 'Uzunluğu kullanıcı ağırlığına ve amaçlanan kullanıma göre seçin. Genel amaçlı boardlar rekreasyon, fitness ve yoga için uygundur. Daha küçük boardlar daha manevra kabiliyetine sahiptir.'
+
+cta:
+  title: 'Boyuta göre boardlara göz atın veya bir mühendisle konuşun'
+  subtitle: 'Ürün portföyümüzdeki tur, genel amaçlı ve yoga modellerini karşılaştırın — ya da kullanıcı profilinizi gönderin, projeniz için doğru boyutları önerelim.'
+  actions:
+    - variant: primary
+      text: 'SUP ürünlerine göz atın'
+      href: /tr/products
+    - text: 'Daha fazla kürek bilgisi'
+      href: /tr/knowledge
+    - text: 'Boardlar nasıl üretiliyor'
+      href: /tr/factory/process

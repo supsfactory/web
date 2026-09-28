@@ -1,0 +1,169 @@
+meta:
+  title: 'Kanıt Merkezi — Her Üretim İddiasının Arkasındaki Belge'
+  description: 'iSupfactory iddialarının arkasındaki kanıt klasörü: kurum ilişkileri, kapsamıyla sertifikalar, ekipman listesi, parti izlenebilirliği ve inceleme dokümantasyonu.'
+  dateModified: '2026-08-16'
+  keywords:
+    - 'SUP fabrika kanıtı'
+    - 'fabrika sertifikaları listesi'
+    - 'SUP parti izlenebilirliği'
+    - 'SUP fabrika doğrulama'
+    - 'Çinde üretim kanıtı'
+
+hero:
+  tagline: 'Fabrika Kanıt Merkezi'
+  title: 'Kanıt Merkezi — İddia Ettiğimiz Her Şey Burada Dosyalı'
+  subtitle: 'Bu sitedeki her iddiayı kanıtına bağlayan tek sayfa: fabrikanın arkasındaki kayıtlı kurum, kapsamıyla sertifikalar, işi yapan makineler ve her üretim partisinden sonra hayatta kalan parti kayıtları.'
+  actions:
+    - { variant: primary, text: 'Doğrulama Paketi İsteyin', href: '/tr/contact#trust-verification' }
+    - { variant: ghost, text: 'Kalite Sistemini Keşfedin', href: '/tr/quality' }
+
+answer:
+  label: 'Doğrudan yanıt'
+  text: 'İddiadan kanıta zinciri şudur: bu sitedeki her ifade bir kayıt, bir sertifika, bir makine, bir belge veya bir test kaydıyla desteklenir ve bunların her biri incelenebilir. iSupfactory, Qingdao Vatrad Group Co., Ltd. şirketinin (2012 yılından bu yana Qingdao’da kayıtlı) SUP ürün geliştirme ve üretim bölümüdür. 12.500 m² tesis, ISO 9001:2015 kalite yönetimi, ISO 25649 uyumluluğu, CE uygunluk dokümantasyonu, BSCI sosyal uyumu (denetim raporu talep üzerine) ve sipariş başına REACH/RoHS malzeme dokümantasyonu taşır. Her şişirilebilir hazne 24 saat boyunca 18.0 PSI basınçta, 0.50 PSI üzeri düşüşte otomatik ret ile test edilir ve parti kayıtları 10 yıllık ERP izlenebilirliği altında tutulur. Belge izi yayımlanır veya paylaşılabilir, fabrikamız ise denetime açıktır.'
+  verified: 'Eylül 2026'
+
+entities:
+  tagline: 'Fabrikanın Arkasında Kim Var'
+  title: 'Tek Üretim Operasyonu, Tek Tüzel Kişi'
+  subtitle: 'Satış tarafı, üretim bölümü ve tüzel kişi; hepsi siteden şirket siciline kadar doğrulayabileceğiniz tek bir operasyona dayanır.'
+  features:
+    - icon: S
+      icon_bg: blue
+      title: 'iSupfactory — kamuya açık web sitesi'
+      desc: 'Kendi kamuya açık dokümantasyonuyla birlikte SUP OEM/ODM ve private label ürün hattı: katalog, MOQ rehberi, kalite sistemi sayfaları ve vaka çalışmaları. Pazarlık yaptığınız ad, incelediğiniz addır.'
+      link: '/tr/about/isupfactory-entity'
+      link_label: 'Site kurum sayfası'
+    - icon: A
+      icon_bg: green
+      title: 'Vatrad — üretim bölümü'
+      desc: 'Tesisin arkasındaki denizcilik üretim bölümü: aynı Qingdao tesisinde üretilen SUP tahtaları, şişirilebilir botlar ve RIB botlar. Ürün ve kalite dokümantasyonu bu adla düzenlenir.'
+      link: '/tr/factory'
+      link_label: 'Fabrikayı keşfedin'
+    - icon: V
+      icon_bg: orange
+      title: 'Qingdao Vatrad Group Co., Ltd. — tüzel kişi'
+      desc: 'Qingdao, Laixi Ekonomik Gelişme Bölgesi içindeki 12.500 m² tesisi işleten kayıtlı üretici (2012’den bu yana). Kayıt ayrıntıları, ihracat ticaret lisansı ve denetim kayıtları NDA altında veya denetim sırasında paylaşılır.'
+      link: '/tr/oem-trust-assurance'
+      link_label: 'Doğrulama vaka çalışmasını görün'
+
+proof_stats:
+  - value: '12,500 m²'
+    label: 'Tek fabrika alanı'
+    detail: 'Denetime açık 4 uzmanlaşmış atölye'
+  - value: '350+'
+    label: 'Tesisteki çalışan sayısı'
+    detail: 'Ar-Ge, malzeme ve kalite kontrolünde 25+ mühendis'
+  - value: '120,000+'
+    label: 'Yıllık tahta sayısı'
+    detail: '4 otomatik hatta ayda yaklaşık 10.000 tahta'
+  - value: '50+'
+    label: 'Hizmet verilen ülke'
+    detail: 'Avrupa, Amerika, Asya-Pasifik, Orta Doğu'
+  - value: '7 aşamalı'
+    label: 'İnceleme kapı sistemi'
+    detail: 'Node 01–07, seri numarası bazında kaydedilir'
+  - value: '10 yıl'
+    label: 'ERP parti izlenebilirliği'
+    detail: 'Parti kayıtları korunur ve lot bazında ilişkilendirilir'
+
+certifications:
+  tagline: 'Sertifikalar ve Kapsam'
+  title: 'Neye Sahibiz, Kapsamı Nedir, Nasıl Doğrulanır'
+  subtitle: 'Yayımlanan liste — asla yalnızca talep üzerine mevcut değil. Sertifika numaraları ve denetim kayıtları talep üzerine veya denetim sırasında sağlanır.'
+  headers:
+    certificate: 'Sertifika / standart'
+    scope: 'Kapsam'
+    verify: 'Nasıl doğrulanır'
+  rows:
+    - certificate: 'ISO 9001:2015'
+      scope: 'SUP tasarımı ve üretimi için kalite yönetimi'
+      verify: 'Sertifika numarası ve denetim kayıtları talep üzerine veya denetim sırasında'
+    - certificate: 'ISO 25649'
+      scope: 'Şişirilebilir tekneler için güvenlik ve yapısal uyumluluk (Avrupa)'
+      verify: 'Ürün ailesi başına uygunluk dokümantasyonu'
+    - certificate: 'CE'
+      scope: 'Şişirilebilir SUP ürünleri için AB uygunluğu'
+      verify: 'CE dokümantasyonu siparişlerle birlikte verilir'
+    - certificate: 'BSCI'
+      scope: 'Tesis ve iş gücü için sosyal uyum'
+      verify: 'Denetim raporu talep üzerine mevcuttur'
+    - certificate: 'REACH & RoHS'
+      scope: 'Kısıtlı maddeler ve malzeme dokümantasyonu'
+      verify: 'Her siparişle birlikte malzeme dokümantasyonu'
+    - certificate: 'Üçüncü taraf incelemesi (seçenek)'
+      scope: 'SGS, TÜV, BV veya Intertek ön sevkiyat incelemesi'
+      verify: 'ISO 2859-1 Level II, talebinize göre planlanır'
+
+evidence_gates:
+  tagline: 'Kanıt Nerede Yaşıyor'
+  title: 'Kanıt Klasörleri — İncelemeye Açık'
+  subtitle: 'Her klasör şimdi inceleyebileceğiniz canlı bir sayfa ve siparişinizle birlikte gelen dosyalardır.'
+  features:
+    - icon: E
+      icon_bg: blue
+      title: 'Ekipman ve makine listesi'
+      desc: 'Kesim, kaynak, laminasyon, baskı ve montaj ile kalite kontrol laboratuvarı — adları, spesifikasyonları ve her birinin ne yaptığıyla birlikte makineler. Canlı bir gezinti isteyin.'
+      link: '/tr/factory/equipment'
+      link_label: 'Ekipman listesini açın'
+    - icon: P
+      icon_bg: green
+      title: 'İnceleme kapı fotoğrafları ve raporları'
+      desc: 'Fabrika zemininden fotoğraflar ve çift dilli rapor bağlantılarıyla yedi inceleme kapısı — neyin, hangi yöntemle, hangi ölçüte göre kontrol edildiği ve nereye kaydedildiği.'
+      link: '/tr/factory/process'
+      link_label: 'İnceleme kapılarını açın'
+    - icon: Q
+      icon_bg: orange
+      title: 'Kalite kontrol laboratuvarı ve test prosedürleri'
+      desc: 'Evrensel çekme test cihazı (ASTM D751), dikiş soyma test cihazı (ISO 6185), hava tutma düzenekleri ve ksenon ark ışınımı dayanıklılık kabini — kumaşları ve hazneleri doğrulayan makineler.'
+      link: '/tr/factory/quality-lab'
+      link_label: 'Laboratuvarı açın'
+    - icon: T
+      icon_bg: purple
+      title: 'İzlenebilirlik örneği ve karantina'
+      desc: 'Ham rulodan sevk edilen tahtaya uzanan somut zincir, uygun olmayan stok için 7 adımlı karantina akışı ve serbest bırakma kararlarını yöneten kusur matrisi.'
+      link: '/tr/factory/quality-inspection'
+      link_label: 'İzlenebilirlik dosyasını açın'
+
+traceability:
+  tagline: 'Bir Parti, Rulo ve Tahta Arasında Takip Edilirken'
+  title: 'İzlenebilirlik Gerçekte Nasıl Görünür'
+  body: |
+    Her partiye **10 yıllık ERP lot kodu** verilir. Tek bir lot altında kaydedilen zincir:
+
+    - **Gelen rulo** — malzeme sertifikası, rulo numarası, test edilen kumaş partisi (çekme, yırtma, dikiş)
+    - **Kesim** — tasarım dosyasına karşı CNC yerleştirme işi, fire yüzdesi kaydedilir
+    - **Kaynak ve laminasyon** — hat, operatör, hazne başına makine parametreleri
+    - **Montaj** — tahta seri numarası, valf tipi, üst yüzey pad partisi
+    - **Test** — hazne başına 18.0 PSI × 24 saat tutma, 0.50 PSI üzeri düşüşte otomatik ret
+    - **Sevkiyat** — tahta başına 100 maddelik kontrol listesi, parti başına kalite güvenlik müdürü onayı
+    - **Devamı** — sevkiyatla birlikte Uygunluk Sertifikası; sözleşmede denetim hakkı saklıdır
+
+    İlk siparişinizden önce örnek kalite kontrol kaydını isteyin — sevkiyatınızla alacağınız biçimin aynısıdır.
+
+faqs:
+  tagline: SSS
+  title: 'Alıcıların Sorduğu Kanıt Soruları'
+  items:
+    - q: 'Bu sayfa yalnızca doğrulama için mi, yoksa durum tespitinin yerini mi alıyor?'
+      a: 'Doğru — bu sayfa her iddianın nerede doğrulanabileceğini gösterir: kurum kaydı, sertifikalar, makineler, kayıtlar ve denetime açık tesis. Durum tespiti adımlarınız (kayıt kontrolü, denetim, üçüncü taraf incelemesi) geçerlidir ve memnuniyetle karşılanır.'
+    - q: 'Sipariş dokümantasyonumda hangi kurum yer almalı?'
+      a: 'Siparişler, Vatrad (üretim bölümü) olarak faaliyet gösteren Qingdao Vatrad Group Co., Ltd. şirketiyle verilir; SUP ürün hattı ise iSupfactory adıdır. Sözleşme belgeleri Satış Başkan Yardımcısı, Baş Mühendis ve Kalite Güvenlik Müdürü tarafından imzalanır.'
+    - q: 'Sipariş vermeden önce sertifikaların kopyalarını alabilir miyim?'
+      a: 'Evet — sertifika numaraları ve denetim kayıtları talep üzerine veya denetim sırasında sağlanır. Liste yayımlanır, asla yalnızca talep üzerine mevcut değildir.'
+    - q: 'Parti test kayıtlarını kendim nasıl doğrularım?'
+      a: 'Her hazne 24 saat boyunca 18.0 PSI basınçta, 0.50 PSI üzeri düşüşte otomatik ret ile test edilir; test kayıtları seri numaralarına bağlanır ve parti başına Uygunluk Sertifikasıyla birlikte sevk edilir. ISO 2859-1 Level II kapsamında SGS, TÜV, BV veya Intertek ön sevkiyat incelemesi talebinize göre planlanabilir.'
+    - q: 'Sertifikalar aksesuarları da kapsıyor mu?'
+      a: 'REACH/RoHS malzeme dokümantasyonu aynı siparişte verilen tahtalar ve aksesuarlar için geçerlidir; kalite kontrol listeleri ise eksiksiz kiti kapsar — tahta, kürek, pompa, emniyet halatı ve çanta.'
+    - q: 'Siparişten sonra kanıtlara ne olur?'
+      a: 'ERP parti izlenebilirliği 10 yıl saklanır. QMS SOP belgeleri ve inceleme standartları indirilebilir kalır ve alıcı, sözleşmeye göre üretim sırasında denetim hakkını saklı tutar.'
+
+cta:
+  title: 'Önce Doğrulayın — Sonra Spesifikasyonları Konuşalım'
+  subtitle: 'Kayıt paketini, sertifika kopyalarını veya bir denetim slotu isteyin. Doğrulama önce gelir; sipariş görüşmesi sonra. Talep göndermek sizi bir siparişe bağlamaz.'
+  button_text: 'Doğrulama Paketi İsteyin'
+  button_link: '/tr/contact#trust-verification'
+  actions:
+    - text: Marka Kimliği
+      href: /tr/about/identity
+    - text: Fabrika Denetim Kontrol Listesi
+      href: /tr/factory-audit-checklist

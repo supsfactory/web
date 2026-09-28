@@ -1,0 +1,135 @@
+meta:
+  title: 'Distribütörler için Özel Marka ve Toptan Dağıtım | {SITE}'
+  description: 'Distribütörler ve perakendeciler için fabrikadan doğrudan özel marka ve toptan dağıtım programları: münhasır bölgeler, kendi markanızla beyaz etiketli SUP üretimi ve ayrılmış hesap yönetimi.'
+  dateModified: '2026-09'
+
+hero:
+  tagline: Distribütörler ve Özel Marka
+  title: 'Distribütörler ve Markalar İçin Fabrika-Direct Programları'
+  subtitle: 'Bir şişirilebilir SUP üretim tesisinden toptan ve özel marka programları. Fabrika-direct fiyatlarıyla alışveriş yapın, ürün hattını kendi markanız altında oluşturun ve 50 ülkeye münhasır bölgelere sevk edin.'
+  image:
+    src: https://assets.isupfactory.com/images/sups/factory/isupfactory-factory-building.webp
+    alt: iSupfactory üretim ve sevkiyat operasyonları
+
+answer:
+  label: 'Doğrudan cevap'
+  text: 'Distribütörler ve markalar doğrudan fabrikayla çalışır: kendi markanız altında üretilen beyaz etiketli SUP boardlar, fabrika-direct toptan fiyatlandırma, program başına münhasır bölge, açılış için 3–8 SKU ve 45–60 günlük ödeme vadesi (tamamı ticari anlaşmaya tabidir); sevkiyat öncesinde %100 basınç testinden geçirilmiş stok. Asgari açılış hacimleri ve navlun koşulları bölgeye göre belirlenir, FOB Qingdao veya CIF ile sevk edilir.'
+  verified: 'Eylül 2026'
+
+intro:
+  tagline: Program hakkında
+  title: 'Üretim Kapasitesi Üzerine Kurulu Özel Marka Dağıtımı'
+  body: |
+    iSupfactory, her şişirilebilir SUP, kayak ve aksesuarı Çin'in Qingdao şehrindeki Laixi'de kendi tesisinde tasarlar, üretir ve kalite testine tabi tutar. Bizimle özel marka anlaşması yapmak, tedarik kaynağının markanıza gömülü olması anlamına gelir: başka bir distribütörün elindeki stoğu yeniden satmaz, fabrikada kendi adınızla üretilmiş boardlar alırsınız.
+
+    Üretimi müşterilerimizin tahminlerine göre planladığımız için, kuzey yarımküre sezon başlangıcı için büyük partiler programlayabilir, ileri tarihli siparişlerle navlun maliyetlerini stabilize edebilir ve şeffaf toptan koşullar ile üzerinde anlaşılan ödeme planlarıyla işletme sermayesi açabiliriz. Mühendislik, numune, kalite kontrol ve ihracat belgelerinin tamamı şirket içinde yürütülür — tedarik zincirinde aracı veya ticaret aracısı yoktur.
+
+    Bu program, fabrikayla çalışmanın iki yolundan biridir. Kendi toptan markanızı taşıyor ve onun sizin için üretilmesini istiyorsanız, bu sayfa size yöneliktir. Kendi kullanımları için doğrudan satın alan tatil tesisleri, eğitim okulları ve kiralama filoları ise bunun yerine OEM/ODM üretim ve filo programlarını incelemelidir.
+
+wholesale_pricing:
+  tagline: Neden katılmalı
+  title: 'Distribütörler Ne Elde Ediyor'
+  subtitle: 'Pazarınızda markalı bir ürün hattı başlatmak için ihtiyacınız olan her şey.'
+  intro: 'Dağıtım ortakları, OEM/ODM markalarına sunduğumuzla aynı fabrika kalitesini ve mühendislik derinliğini, kendi etiketleri altında toptan kanal için paketlenmiş şekilde alır. Program koşulları — bölge münhasırlığı, açılış SKU kapsamı ve ödeme vadesi — her program için ticari anlaşmada kesinleştirilir.'
+  stats:
+    - value: '50+'
+      label: 'Sevk edilen ülke'
+    - value: '1'
+      label: 'Ayrılmış hesap yöneticisi'
+    - value: '45–60'
+      label: 'Günlük ödeme vadesi'
+    - value: '120,000+'
+      label: 'Yıllık kapasite board adedi'
+    - value: '3–8'
+      label: 'Program açılışı için SKU'
+    - value: '100%'
+      label: 'Sevkiyat öncesi fabrika testi'
+
+steps:
+  tagline: Nasıl çalışır
+  title: 'Başvurudan İlk Konteynere'
+  subtitle: 'Markalı programınızın ilk sezonunda zamanında sevk edilmesini sağlayan açık, çok aşamalı bir devreye alma süreci.'
+  steps:
+    - step: 1
+      title: Başvuru
+      desc: 'Distribütör başvurusunu, şirket profiliniz, mevcut toptan ciro bilginiz ve bölgenizle birlikte gönderin.'
+    - step: 2
+      title: Bölge haritalaması
+      desc: 'Marka programınızın hangi ülkeleri veya bölgeleri kapsayacağını ve bölgenin münhasır olup olmadığını doğrularız.'
+    - step: 3
+      title: 'Ürün hattı ve marka planı'
+      desc: 'Üretim kataloğundan temel modellerinizi seçin, teknik özellikleri dondurup üretim için marka görsellerinizi kesinleştirin.'
+    - step: 4
+      title: 'Numune ve kalite onayı'
+      desc: 'Kaliteyi, ambalajı ve drop-ship işleme sürecini test etmek için sertifikasyon numuneleri sipariş edin. Numuneler toplu üretim başlamadan önce onaylanır.'
+    - step: 5
+      title: 'Sezonluk ikmal'
+      desc: 'Hesap yöneticiniz üretimi ve ikmali, tahmininiz ve sezon takvimi doğrultusunda planlar.'
+
+benefits:
+  title: Distribütörler Ne Elde Ediyor
+  subtitle: 'Pazarınızda başarılı olmak için ihtiyacınız olan her şey.'
+  items:
+    - 'Kendi markanız altında özel marka (OEM beyaz etiket)'
+    - 'Münhasır bölge hakları (ticari anlaşmaya tabidir)'
+    - 'Üretim kataloğu: SUP, aksesuarlar, yedek parçalar'
+    - 'Rekabetçi fabrika-direct fiyatlandırma'
+    - 'Pazarlama ve satış materyalleri (çevrili)'
+    - 'Eğitim programı (ürün, satış, bakım)'
+    - 'Fuar desteği'
+    - 'Numune ve ön üretim onay programı'
+    - 'Drop-ship kabiliyeti'
+    - 'Ayrılmış distribütör hesap yöneticisi'
+    - '45-60 günlük ödeme vadesi (ticari anlaşmaya tabidir)'
+
+coverage:
+  title: 'Mevcut Dağıtım'
+  subtitle: 'iSupfactory şu anda bu pazarlara doğrudan sevkiyat yapıyor.'
+  regions:
+    - name: Avrupa
+      countries: 'Fransa, Almanya, Birleşik Krallık, İspanya, İtalya, Hollanda, İsveç, Norveç, Polonya, Yunanistan'
+    - name: Asya
+      countries: 'Japonya, Güney Kore, Çin, Tayland, Singapur'
+    - name: 'Orta Doğu'
+      countries: 'BAE, Suudi Arabistan'
+    - name: 'Amerika'
+      countries: 'ABD, Kanada, Brezilya, Meksika'
+    - name: 'Okyanusya'
+      countries: 'Avustralya, Yeni Zelanda'
+    - name: Afrika
+      countries: 'Güney Afrika, Fas'
+
+faqs:
+  tagline: Distribütör SSS
+  title: 'Toptan Dağıtım Programı — Sık Sorulan Sorular'
+  items:
+    - q: 'Yeni distribütör için asgari sipariş nedir?'
+      a: 'Yeni dağıtım ortakları genellikle bir numune ve ön üretim onay siparişiyle başlar, ardından sezonlarına programlanmış ilk konteyner gelir. Kesin asgari değerler bölge büyüklüğüne ve seçilen ürün hattına bağlıdır; hesap yöneticiniz açılış hacmini ürün hattı ve marka planlaması sırasında doğrular.'
+    - q: 'Boardları kendi markamız altında satabilir miyiz?'
+      a: 'Evet. Özel marka buradaki standart modeldir: boardlar kendi görselleriniz, ambalajınız ve teknik özelliklerinizle sizin markanız altında üretilir. iSupfactory yalnızca kendi müşterileri için üretim yapar ve hiçbir pazarda onlarla rekabet etmez.'
+    - q: 'Bölgeler münhasır mı?'
+      a: 'Evet. Distribütör programları münhasır bölgeler üzerine kuruludur — her toptan ortağı belirli bir ülkeyi veya bölgeyi kapsar ve ticari anlaşmada belirtildiği şekilde o pazar için fiyatlandırma ve program desteği alır.'
+    - q: 'Drop-ship desteği veriyor musunuz?'
+      a: 'Drop-ship kabiliyeti programa dahildir. Numune, ambalaj ve işleme süreçleri numune onay aşamasında doğrulanır; böylece drop-ship siparişleri ilk günden itibaren sorunsuz işler.'
+    - q: 'Hangi modelleri sipariş edebiliriz?'
+      a: 'Üretim kataloğu; genel amaçlı, tur ve sörf formlarında şişirilebilir SUP boardları, şişirilebilir kayaklar, pompalar, kürekler, can yelekleri ve bakım aksesuarlarını, ayrıca mühendislik ekibimizle geliştirilmiş özel formları kapsar. Çoğu ortak en çok satan 4–8 SKU ile başlar ve sonraki sezonlarda genişletir.'
+    - q: 'Siparişler nasıl sevk edilir?'
+      a: 'Siparişler planlanmış seferlerle fabrikadan çıkar; navlun maliyetlerini stabilize etmek için ileri tarihli sipariş verme imkanı sunulur. Ayrılmış hesap yöneticiniz üretim ve sevkiyatı tahmininiz ile sezon takvimine göre planlar.'
+    - q: 'Nasıl başvururum?'
+      a: 'Bu sayfadaki başvuru formunu kullanın veya doğrudan bize ulaşın. Başvurular dağıtım ekibi tarafından incelenir ve birkaç iş günü içinde, bölge haritalaması ve taslak anlaşma dahil olmak üzere sonraki adımlarla yanıt veririz.'
+
+content_html: |
+  <div class="mx-auto max-w-3xl space-y-4 rounded-2xl border bg-card p-6 text-[14.5px] leading-relaxed text-fg-2">
+    <p><strong>Okumaya devam edin:</strong> dağıtım ortakları, kendi markaları altında onlar için üretilen boardları taşır — <a href="/tr/oem-manufacturing">OEM ve özel marka üretim programını</a> ve <a href="/tr/factory">fabrika kalite sürecini</a> inceleyerek ürünü kendinizden emin bir şekilde konumlandırın.</p>
+  </div>
+
+cta:
+  title: 'Markalı ürün hattınızı başlatmaya hazır mısınız?'
+  subtitle: 'Distribütör programına başvurun veya üretim kataloğuna göz atın.'
+  actions:
+    - text: 'Distribütör Programına Başvurun'
+      href: '/tr/contact#distributor'
+      variant: 'primary'
+    - text: 'Üretim Kataloğuna Göz Atın'
+      href: '/tr/products'
+      variant: 'secondary'

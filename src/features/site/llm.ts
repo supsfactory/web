@@ -13,13 +13,13 @@ import {
   getSiteFaqs,
   brandify,
 } from '@/features/content/loader'
-import { GUIDES_ES, GUIDES_FR, GUIDES_DE, GUIDES_IT, GUIDES_PT, GUIDES_NL, GUIDES_SV, GUIDES_NO, GUIDES_PL, GUIDES_DA, GUIDES_FI, GUIDES_RU, GUIDES_CS } from '@/features/content/guide-content'
+import { GUIDES_ES, GUIDES_FR, GUIDES_DE, GUIDES_IT, GUIDES_PT, GUIDES_NL, GUIDES_SV, GUIDES_NO, GUIDES_PL, GUIDES_DA, GUIDES_FI, GUIDES_RU, GUIDES_CS, GUIDES_TR } from '@/features/content/guide-content'
 import { FACTS, COLLABORATION_MODES } from '@/product/facts'
 import { EDGE_REDIRECTS } from '@/features/seo/edge-gate'
 import { LEGACY_REDIRECTS } from '@/features/seo/legacy-redirects'
 import { SITE_NAME } from '@/config/site'
 import { PAGE_TITLES } from '@/product/entity-data'
-import { LLM_SITE_DESCRIPTION, LLM_FAQ_DESCRIPTION, LLM_SPANISH_HOMEPAGE_DESCRIPTION, LLM_FRENCH_HOMEPAGE_DESCRIPTION, LLM_GERMAN_HOMEPAGE_DESCRIPTION, LLM_ITALIAN_HOMEPAGE_DESCRIPTION, LLM_PORTUGUESE_HOMEPAGE_DESCRIPTION, LLM_DUTCH_HOMEPAGE_DESCRIPTION, LLM_SWEDISH_HOMEPAGE_DESCRIPTION, LLM_NORWEGIAN_HOMEPAGE_DESCRIPTION, LLM_POLISH_HOMEPAGE_DESCRIPTION, LLM_DANISH_HOMEPAGE_DESCRIPTION, LLM_FINNISH_HOMEPAGE_DESCRIPTION, LLM_RUSSIAN_HOMEPAGE_DESCRIPTION, LLM_CZECH_HOMEPAGE_DESCRIPTION, LLM_FACT_BLOCK } from '@/product/ai-content'
+import { LLM_SITE_DESCRIPTION, LLM_FAQ_DESCRIPTION, LLM_SPANISH_HOMEPAGE_DESCRIPTION, LLM_FRENCH_HOMEPAGE_DESCRIPTION, LLM_GERMAN_HOMEPAGE_DESCRIPTION, LLM_ITALIAN_HOMEPAGE_DESCRIPTION, LLM_PORTUGUESE_HOMEPAGE_DESCRIPTION, LLM_DUTCH_HOMEPAGE_DESCRIPTION, LLM_SWEDISH_HOMEPAGE_DESCRIPTION, LLM_NORWEGIAN_HOMEPAGE_DESCRIPTION, LLM_POLISH_HOMEPAGE_DESCRIPTION, LLM_DANISH_HOMEPAGE_DESCRIPTION, LLM_FINNISH_HOMEPAGE_DESCRIPTION, LLM_RUSSIAN_HOMEPAGE_DESCRIPTION, LLM_CZECH_HOMEPAGE_DESCRIPTION, LLM_TURKISH_HOMEPAGE_DESCRIPTION, LLM_FACT_BLOCK } from '@/product/ai-content'
 import { GLOSSARY } from '@/product/glossary'
 
 const flat = (text: string) => text.replace(/\s+/g, ' ').trim()
@@ -1509,6 +1509,96 @@ export function llmsCzechFull(): string {
     ...caseBlocks,
     '',
     '# Česky: Průvodci',
+    ...guideBlocks,
+    '',
+  ].join('\n\n')
+}
+
+/** `/llms.txt` Turkish section — absolute /tr URLs so LLMs can ingest the mirror directly. */
+export function llmTurkishIndex(origin: string): string {
+  const tr = (path: string) => abs(origin, `/tr${path}`)
+  const productLines = getContentProducts('tr').map((p) => `- [${p.title}](${tr(`/products/${p.slug}`)}): ${flat(p.summary ?? '')}`)
+  const techLines = getTechArticles('tr').map((a) => `- [${a.title}](${tr(`/technology/${a.slug}`)}): ${flat(a.summary ?? '')}`)
+  const caseLines = getCaseUses('tr').map((c) => `- [${c.title}](${tr(`/evidence/case-studies/${c.slug}`)}): ${flat(c.summary ?? '')}`)
+  const guideLines = GUIDES_TR.map((g) => `- [${g.title}](${tr(`/guides/${g.slug}`)}): ${flat(g.intro[0] ?? '')}`)
+  const newsLines = getNewsPosts('tr')
+    .slice(0, 10)
+    .map((p) => `- [${p.title}](${tr(`/news/${p.slug}`)}): ${flat(p.excerpt ?? '')}`)
+  const faqLines = getSiteFaqs('tr')
+    .slice(0, 6)
+    .map((f) => `- ${f.q}`)
+  return [
+    '',
+    '## Türkçe',
+    '',
+    `- [${SITE_NAME} — Ana Sayfa](${tr('/')}): ${LLM_TURKISH_HOMEPAGE_DESCRIPTION}`,
+    '',
+    '### Türkçe: Ürünler',
+    ...productLines,
+    '',
+    '### Türkçe: Teknoloji',
+    ...techLines,
+    '',
+    '### Türkçe: Vaka çalışmaları',
+    ...caseLines,
+    '',
+    '### Türkçe: Rehberler',
+    ...guideLines,
+    '',
+    '### Türkçe: Haberler',
+    ...newsLines,
+    '',
+    '### Türkçe: Sık sorulan sorular',
+    ...faqLines,
+    '',
+  ].join('\n')
+}
+
+/** Full Turkish text for products, news, tech, cases and guides (in /llms-full.txt). */
+export function llmsTurkishFull(): string {
+  const productBlocks = getContentProducts('tr').map((p) =>
+    [
+      `## Ürün: ${p.title}${p.sku ? ` (${p.sku})` : ''}`,
+      '',
+      flat(p.summary ?? ''),
+      ...(p.specs ?? []).map((s) => `- ${s.label}: ${s.value}`),
+      '',
+      ...mdBody(p.body),
+    ].join('\n'),
+  )
+  const newsBlocks = getNewsPosts('tr').map((p) =>
+    [`## Haber: ${p.title}`, '', p.date.slice(0, 10), flat(p.excerpt ?? ''), '', ...mdBody(p.body)].join('\n'),
+  )
+  const techBlocks = getTechArticles('tr').map((a) =>
+    [`## Teknoloji: ${a.title}`, '', flat(a.summary ?? ''), '', ...mdBody(a.body)].join('\n'),
+  )
+  const caseBlocks = getCaseUses('tr').map((c) => [`## Vaka çalışması: ${c.title}`, '', flat(c.summary ?? ''), ...mdBody(c.body)].join('\n'))
+  const guideBlocks = GUIDES_TR.map((g) =>
+    [
+      `# Rehber: ${g.title}`,
+      '',
+      flat(g.intro.join(' ')),
+      ...g.sections.flatMap((s) => ['', `## ${s.title}`, '', s.body]),
+      '',
+      '## SSS',
+      ...g.faqs.flatMap((f) => [`### S: ${f.q}`, '', f.a, '']),
+    ].join('\n'),
+  )
+  return [
+    '',
+    '# Türkçe',
+    ...productBlocks,
+    '',
+    '# Türkçe: Haberler',
+    ...newsBlocks,
+    '',
+    '# Türkçe: Teknoloji',
+    ...techBlocks,
+    '',
+    '# Türkçe: Vaka çalışmaları',
+    ...caseBlocks,
+    '',
+    '# Türkçe: Rehberler',
     ...guideBlocks,
     '',
   ].join('\n\n')

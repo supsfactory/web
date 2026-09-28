@@ -1,0 +1,51 @@
+meta:
+  title: "Şişirilebilir SUP Sertifikasyonu — CE, REACH, RoHS ve Uyum Kılavuzu"
+  description: "Şişirilebilir SUP üretimi için sertifikasyon kapsamı: CE (AB modelleri), BSCI, ISO 9001, REACH, RoHS. Sertifika numaraları proje bazında talep üzerine."
+  dateModified: "2026-08-20"
+
+sections:
+  - title: "Doğrudan Cevap"
+    directAnswer:
+      answer: "iSupfactory; BSCI, ISO 9001, ISO 25649, CE, REACH ve RoHS sertifikasyonlarına sahiptir. CE, AB pazarlarına yönelik modeller için geçerlidir — herkese açık anlamda “tüm ürünler” için değil."
+      condition: "Sertifikasyon kapsamı hedef pazara ve ürün yapılandırmasına göre değişir. Sertifika numaraları, geçerlilik ve düzenleyen kurumlar proje bazında talep üzerine sunulur."
+      value: "BSCI · ISO 9001 · ISO 25649 · CE · REACH · RoHS"
+      verifiedDate: "Eylül 2026"
+      sourceType: "certificate"
+    body: |
+      Sertifikasyon, satın alma sürecinin temel bir konusudur ve hassas biçimde ifade edilmelidir.
+      Alıcı, kapsamın beklediğinden daha dar olduğu sonradan fark ederse “tüm ürünlerde CE” gibi
+      genel iddialar güven sorunları yaratabilir.
+
+  - title: "Sertifikasyon ayrıntıları"
+    body: |
+      | Sertifikasyon | Kapsam | Kurum | Geçerlilik Alanı |
+      |---------------|-------|-----------|------------|
+      | BSCI | Sosyal sorumluluk denetimi | amfori BSCI | Üretim tesisi |
+      | ISO 9001 | Kalite yönetim sistemi | Belgelendirme kuruluşu (talep üzerine) | Üretim tesisi |
+      | ISO 25649 | Şişirilebilir su araçları güvenliği | ISO | Pazara göre ilgili SUP modelleri |
+      | CE | AB pazarı uygunluğu (EN ISO 6185 / 10087 / 10240) | AB bildirilen kuruluşu | AB pazarına yönelik modeller |
+      | REACH | AB kimyasal güvenliği | ECHA | Üretimde kullanılan malzemeler |
+      | RoHS | Tehlikeli maddelerin kısıtlanması | AB direktifi | Elektronik aksesuarlar (pompalar) |
+
+  - title: "Önemli kapsam notları"
+    body: |
+      - **CE**, AB pazarında satış için yapılandırılmış modeller için geçerlidir. ABD veya Avustralya
+        dağıtımı için üretilmiş bir tahta, özellikle talep edilmedikçe CE işareti taşımaz.
+      - **ISO 9001**, üretim tesisinin kalite yönetim sistemini kapsar; bireysel ürün sertifikasyonunu
+        değil.
+      - **REACH** uyumu, üretimde kullanılan malzemeleri kapsar — maddeleri tescil etmesi gereken
+        ithalatçılar için belgeler mevcuttur.
+      - Sertifika numaraları, geçerlilik tarihleri ve düzenleyen kurumlar proje bazında talep
+        üzerine sunulur. Güvenlik nedeniyle sertifika numaralarını kamuya açık olarak yayımlamıyoruz.
+      - SGS, TÜV, BV veya Intertek aracılığıyla her sevkiyat için üçüncü taraf denetimi mevcuttur.
+
+  - title: "Sertifikasyon belgeleri nasıl talep edilir"
+    body: |
+      Teklif aşamasında hedef pazarlarınızı belirtin; belirli ürün yapılandırmanıza hangi
+      sertifikasyonların geçerli olduğunu teyit edelim. Sertifika kopyaları (gerektiğinde ticari
+      ayrıntıları karartılmış olarak) proje dokümantasyon paketinin bir parçası olarak sağlanır.
+
+evidence_review:
+  tagline: 'Kanıt ve Doğrulama'
+  title: 'DOĞRULANMIŞ TEKNİK ŞARTNAMELER'
+  body: 'Bu sayfadaki tüm üretim iddiaları, Laixi, Qingdao tesisimizdeki Üretim Mühendisliği ekibimiz tarafından doğrulanmıştır. Sertifikalar, QC denetim kayıtları, basınç ve yapısal test raporları ile parti izlenebilirlik kayıtları talep üzerine mevcuttur. Teknik şartnameler en son Eylül 2026’da doğrulanmıştır.'

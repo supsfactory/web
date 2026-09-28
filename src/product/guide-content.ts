@@ -3755,8 +3755,274 @@ export const GUIDES_CS: Guide[] = [
   },
 ]
 
+export const GUIDES_TR: Guide[] = [
+  {
+    slug: 'how-to-choose-your-sup',
+    title: "SUP'nizi Nasıl Seçmelisiniz",
+    intro: [
+      "İlk şişirilebilir SUP'nizi seçerken belirleyici olan levha boyutu, genişliği, yapısı ve kutunun içinde ne olduğudur. Gerçekten önemli olanları sade bir dille anlatıyoruz.",
+    ],
+    sections: [
+      {
+        title: 'Uzunluk ve Hacim',
+        body: 'Daha uzun levhalar (11–12 ft) her kürek vuruşunda daha uzağa gider ve daha düz ilerler; tur ve uzun mesafe için idealdir. Kısa levhalar daha kolay döner. Çoğu kullanıcı için 10\'6"–11\'0" arası her yönlü bir levha ideal denge noktasıdır.',
+      },
+      {
+        title: 'Genişlik ve Dengelilik',
+        body: "Dengeliği en çok belirleyen etken genişliktir. 32 inç genişliğindeki bir güverte başlangıç için cömerttir ve yoga için yeterince dengelidir; 30 inç levhalar ise hız ve çeviklik isteyen daha hafif ya da daha deneyimli paddle'çılara uygundur.",
+      },
+      {
+        title: 'Yapı Kalitesi',
+        body: 'En az 15 PSI basınç dayanımına sahip, askeri sınıf drop-stitch PVC çekirdek, çift katmanlı PVC laminasyon ve takviyeli kenar bantları arayın. Bunlar levhanın ne kadar sert hissedildiğini ve günlük kullanımda ne kadar dayandığını belirler.',
+      },
+      {
+        title: 'Kutuda Neler Olmalı',
+        body: 'Tam bir paket hem para hem de uğraş tasarrufu sağlar: levha, 3 parçalı ayarlanabilir paddle, göstergeli çift yönlü pompa, kangal halat, finler, taşıma sırt çantası ve onarım kiti.',
+      },
+    ],
+    faqs: [
+      { q: 'Hangi boyutta SUP levhasına ihtiyacım var?', a: 'Çoğu başlangıççı yaklaşık 11\'0" × 32" × 6" ölçülerinde bir her yönlü levha seçer: dengeli, çok yönlü ve kolay taşınır. Daha ağır kullanıcılar ya da uzun mesafe hedefleyenler daha büyük ölçüyü tercih etmelidir.' },
+      { q: 'Şişirilebilir bir SUP, sert levha kadar sert mi?', a: 'Modern bir drop-stitch şişirilebilir levha 15–20 PSI basınçta sertlik açısından giriş seviyesi sert levhalara yakın sonuç verir; üstelik sırt çantasına sığma avantajı sunar.' },
+    ],
+    related: [
+      { label: 'SUP platformlarımıza göz atın', href: '/tr/products' },
+      { label: 'Şişirilebilir mi, sert mi?', href: '/tr/inflatable-vs-hardboard' },
+      { label: 'OEM üretim', href: '/tr/oem-manufacturing' },
+    ],
+  },
+  {
+    slug: 'beginner-guide',
+    title: 'Paddle Etmeye Başlangıç Rehberi',
+    intro: [
+      'Sudaki ilk seanslarınız için gereken her şey: şişirme, ilk kez ayakta kalkma, temel kürek tekniği ve güveniniz oluşana kadar kendinizi nasıl koruyacağınız.',
+    ],
+    sections: [
+      {
+        title: 'Hissiye Göre Değil, Ölçüye Göre Şişirin',
+        body: 'Pompanızdaki göstergeyi kullanarak levhayı belirtilen basınca (genellikle 15 PSI) şişirin. 10 PSI basınçtaki bir levha çimende gayet iyi görünür, ama suda fazla esner. Sıcak günlerde basıncı kontrol edin: güneş levha içindeki havayı ısıtır ve basıncı yükseltir.',
+      },
+      {
+        title: 'Levhada İlk Adımlar',
+        body: 'Sahilden ya da sığ bir noktadan kalkın: önce diz çömelin, sonra orta eksen üzerinde birer ayağa kalkın. Ayaklarınızı omuz genişliğinde tutun, dizleri hafif bükülü bırakın ve ufka bakın; levha gözünüzü takip eder.',
+      },
+      {
+        title: 'Temel Kürek Tekniği',
+        body: "Paddle'ı öne uzatın, küreği tamamen suya batırın ve gövdenizi döndürerek paddle'ı levhanın yanından çekin. Düz gitmek için her birkaç kürekte taraf değiştirin; dönmek için aynı tarafta birkaç çekiş yapın.",
+      },
+      {
+        title: 'Önce Düşmeyi Pratik Edin',
+        body: 'Suyun içine düşmek öğrenmenin bir parçasıdır. Sığ suda tekrar kalkmayı pratik yapın: ortadaki tutamağa kadar yüzün, ayaklarınızla yüzeye çıkın ve tek bir hareketle kendinizi levhanın üzerine çekin.',
+      },
+    ],
+    faqs: [
+      { q: 'SUP öğrenmek ne kadar sürer?', a: 'Çoğu kişi ilk bir saatlik seansında sakin suda rahatlıkla paddle edebilir. Dönüşlerde, rüzgarda ve uzun mesafede güven birkaç seans boyunca gelişir.' },
+      { q: 'Fit olmam gerekir mi?', a: 'Hayır; SUP herkesin kolayca erişebildiği bir aktivitedir. Düzenli paddle ettiğinizde doğal olarak denge, gövde gücü ve dayanıklılık kazanırsınız.' },
+    ],
+  },
+  {
+    slug: 'inflatable-vs-hard',
+    title: 'Şişirilebilir mi, Sert mi?',
+    intro: [
+      "İki farklı yapı ailesi farklı senaryolarda öne çıkar. Rekreasyonel paddle'çılar, kulüpler ve kiralama işletmeleri için dürüst karşılaştırma burada.",
+    ],
+    sections: [
+      {
+        title: 'Taşınabilirlik ve Saklama',
+        body: 'Şişirilebilir levhalar sönüp bir sırt çantasına sığar; arabanın bagajına, karavana ya da apartman dolabına rahat sığar ve seyahat için varsayılan seçimdir. Sert levhalar ise bagaj taşıyıcı, depolama alanı ve daha özenli taşıma gerektirir.',
+      },
+      {
+        title: 'Sertlik ve Performans',
+        body: 'Üst segment sert levhalar daha rijit ve yüksek performans seviyelerinde daha duyarlıdır. Rekreasyonel hızlarda, iyi üretilmiş bir drop-stitch şişirilebilir levha 15–20 PSI basınçta çok daha düşük depolama maliyetiyle benzer bir performans verir.',
+      },
+      {
+        title: 'Dayanıklılık',
+        body: 'Şişirilebilir PVC levhalar, sert gövdeyi çatlatabilecek iskele çiziklerine ve kıyı darbelerine kolayca dayanır; kiralama filolarının ve resortların misafirler için günlük kullanımda şişirilebilir levhaları tercih etmesinin başlıca nedeni de budur.',
+      },
+      {
+        title: 'Toplam Sahip Olma Maliyeti',
+        body: 'Şişirilebilir levhaların taşıma, depolama ve bakım maliyeti daha düşüktür, ayrıca daha sert kullanımlara dayanır. Çoğu kullanıcı ve çoğu filo için şişirilebilir levha daha avantajlı bir genel tercihtir.',
+      },
+    ],
+    faqs: [
+      { q: 'Başlangıççılar için hangisi daha iyi?', a: 'Şişirilebilir levhalar: dengeli, hata affedici, kolayca saklanır ve başlangıççıların oluşturduğu çizik ve darbelere yeterince dayanıklıdır.' },
+      { q: 'Şişirilebilir bir SUP, sert levha kadar hızlı olabilir mi?', a: 'Rekreasyonel hızlarda fark küçüktür. Sert levhalar yalnızca yarışma ve yüksek performans senaryolarında açıkça öne çıkar.' },
+    ],
+  },
+  {
+    slug: 'safety-tips',
+    title: 'Sudaki Güvenlik Önerileri',
+    intro: [
+      'Güvenli bir seans, aynı zamanda eğlenceli bir seanstır. Bu temel kurallar göllerde, nehirlerde ve kıyı bölgelerinde de aynı şekilde geçerlidir.',
+    ],
+    sections: [
+      {
+        title: 'Rüzgarı ve Hava Durumunu Kontrol Edin',
+        body: 'Kara yönünden esen rüzgar, SUP için klasik bir tuzaktır: sizi kıyıdan geri dönebildiğinizden daha hızlı uzaklaştırır. Hava durumunu kontrol edin ve emin değilseniz korunaklı suların içinde kalın.',
+      },
+      {
+        title: 'Her Zaman Halatı Kullanın',
+        body: 'Kangal halat, düşme durumunda levhanın ulaşabildiğiniz mesafede kalmasını sağlar; levha aynı zamanda yüzdürme aracınızdır. Koşullarınıza uygun halat seçin: sakin suda kangal, sörfte düz halat.',
+      },
+      {
+        title: 'Can Yeleği ve Kişisel Güvenlik',
+        body: 'Koşullar gerektirdiğinde ya da yönetmelikler öyle şart koştuğunda yüzdürme yeleği kullanın. Düdük taşıyın, rotanızı ve dönüş saatinizi birine bildirin ve su geçirmez kılıf içinde bir telefon bulundurun.',
+      },
+      {
+        title: 'Sınırlarınızı Bilin',
+        body: 'Deneyimi önce sakin suda kazanın; rüzgar ya da akıntı için acele etmeyin. Soğuk suya saygı gösterin, çünkü gücü hızla tüketir. Ve hiçbir zaman uzak ya da açık su alanlarında, bir plan olmadan tek başına paddle etmeyin.',
+      },
+    ],
+    faqs: [
+      { q: 'SUP için can yeleği gerekli mi?', a: 'Gereklilikler ülkeye ve su alanına göre değişir. Yeleğin zorunlu olmadığı yerlerde bile, halat ve yüzdürme yeleği sorumlu bir asgari standarttır; çocuklar her zaman doğru oturan bir can yeleği takmalıdır.' },
+      { q: 'Gölde SUP yapmak güvenli mi?', a: 'Evet; sakin göllar öğrenmek için idealdir. Rüzgarın yönünü kontrol edin, tekne trafiğine görünür kalın ve yoğun geçiş hatlarından kaçının.' },
+    ],
+    related: [
+      { label: 'Platformlarımızdaki güvenlik ekipmanları', href: '/tr/products' },
+      { label: 'Fabrika kalite kontrolü', href: '/tr/quality' },
+      { label: 'İlk levhanızı seçin', href: '/tr/guides/how-to-choose-your-sup' },
+    ],
+  },
+  {
+    slug: 'choosing-a-sup-oem-factory',
+    title: 'Özel Üretim SUP Fabrikası Nasıl Seçilir',
+    intro: [
+      'Kendi markanız altında şişirilebilir paddle tahtası satın almak tek bir karara dayanır: ilk partiyi hangi fabrikaya emanet edeceksiniz. Bir sipariş formu göndermeden önce özel üretim SUP üreticisini nasıl değerlendireceğiniz burada.',
+    ],
+    sections: [
+      {
+        title: 'Asgari Adet Tartışmasıyla Değil, Deneme Siparişiyle Başlayın',
+        body: 'Yalnızca asgari adetlerden söz eden fabrika, üretim tesisi değil, ticari ofis işaretidir. Gerçek üreticiler kademeli asgari adetler sunar: eş marka çalışmaları 5–10 adetten, pilot partiler 20–50 adetten, standart hacimli üretim 150 m rulo başına 90–100+ adetten başlar; tamamen özel kalıp projeleri ise hacim kademesinde yürür. Önce küçük bir parti sipariş edin: bu, tüm lansmanınızı riske atmadan iletişimi, şartnameye uyumu ve numune kalitesini test eder.',
+      },
+      {
+        title: 'Nelerin Gerçekten Fabrika İçinde Olduğunu Kontrol Edin',
+        body: 'Drop-stitch SUP üretiminin dört temel aşaması vardır: malzeme laminasyonu, kaynak, baskı ve montaj. Gerçek bir fabrika bunların hepsini tek çatı altında yapar ve üretim alanını gezmenize izin verir. Satış temsilcisi size bir üretim hattı gösteremiyorsa, büyük olasılıkla kalite ve teslim süresi üzerinde hiçbir kontrolü olmayan bir aracıdan satın alıyorsunuzdur.',
+      },
+      {
+        title: 'Numuneler Seri Üretimle Örtüşmek Zorundadır',
+        body: 'Elle tamamlanmış bir numune kolaydır; tutarlı seri üretim zordur. Fabrikaya tekrar edilebilirliği nasıl kontrol ettiğini sorun: malzeme parti kayıtları, kaynak parametreleri ve yalnızca onayladığınız numune için değil, her tek levhada uygulanan bir kalite kontrol listesi.',
+      },
+      {
+        title: 'Sipariş Formundan Önce Maliyetleri Öğrenin',
+        body: 'Maliyet tablosunu yazılı olarak isteyin: miktara göre birim fiyat, yeni bir şekil istiyorsanız kalıp maliyetleri, tasarım ve baskı hazırlığı ile ambalajlama.',
+      },
+      {
+        title: 'Üçüncü Taraf Denetimi İsteyin',
+        body: "Saygın OEM SUP fabrikaları sevkiyat öncesi denetimleri memnuniyetle karşılar; birçok marka her konteyner için bağımsız bir kalite kontrol ziyareti organize eder. Fabrikanın hem numune hem de seri üretim partileri için denetim organize edebildiğinden ve reddedilen ünitelerin (örneğin basıncın yüzde 5'inden fazlasını kaybeden levhalar gibi) partiden çıkarıldığından emin olun.",
+      },
+      {
+        title: 'Gerçekçi ve Tutan Teslim Süreleri',
+        body: 'Şişirilebilir SUP\'lerde numuneler 7–12 günde, seri üretim ise sipariş formu ve depozito onaylandıktan sonra 25–35 günde tamamlanır; yeni kalıp sipariş ettiğinizde kalıp süresi eklenir. Herkesten belirgin şekilde daha kısa süreler veren fabrika, üretim programından değil, broşürden fiyat vermektedir.',
+      },
+    ],
+    faqs: [
+      { q: 'Özel üretim SUP levhaları için asgari sipariş nedir?', a: 'Kademeli asgari adetler standarttır: numuneler için 1–2 adet, eş marka için 5–10 adet, pilot parti için 20–50 adet ve standart hacim için 150 m rulo başına 90–100+ adet; tamamen özel kalıp projeleri hacim kademesinde yürür.' },
+      { q: 'Seri üretimden önce numune görebilir miyim?', a: 'Evet; numuneler 7–12 günde hazır olur. Çoğu fabrika, ilk üretim siparişi onaylandıktan sonra numune ve kalıp maliyetlerini bu siparişten mahsup eder.' },
+      { q: 'Bir SUP fabrikasının gerçek olduğunu nasıl doğrularım?', a: 'Üretim alanının canlı video turu isteyin, Qingdao ya da başka bir üretim merkezinde faal bir tesis adresini doğrulayın ve önceki ihracat siparişlerine ilişkin belgeleri talep edin. Deneme siparişi nihai kanıttır.' },
+      { q: 'Bir SUP fabrikasının teklifi neleri içermelidir?', a: 'Levha başına birim fiyat, kalıp maliyetleri, tasarım hazırlığı, ambalajlama, kalite kontrol ve denetim koşulları ile ödeme koşulları.' },
+    ],
+    related: [
+      { label: 'OEM / ODM üretimimiz', href: '/tr/oem-manufacturing' },
+      { label: 'SUP ürün geliştirme süreci', href: '/tr/product-development' },
+      { label: 'Fabrika kapasitesi ve üretim tesisi', href: '/tr/factory' },
+      { label: 'Kaliteyi nasıl kontrol ediyoruz — 7 kontrol noktası', href: '/tr/quality' },
+      { label: 'MOQ ve esnek markalama rehberi (PDF)', href: '/tr/oem-moq-guide' },
+      { label: 'Bizi doğrulayın: güven ve fabrika garantileri', href: '/tr/oem-trust-assurance' },
+      { label: 'Özel SUP projenizi başlatın', href: '/tr/contact' },
+    ],
+  },
+  {
+    slug: 'private-label-sup-guide',
+    title: 'Özel Markalı SUP: Fabrikadan Gerçekte Ne Alırsınız',
+    intro: [
+      'Özel marka, bir SUP markasını piyasaya çıkarmanın en hızlı yoludur: sıfırdan levha tasarlamanın maliyeti ve riski olmadan, kendi logonuzu kanıtlanmış bir platforma koyarsınız. Özel üretim SUP üreticisiyle çalışmanın gerçekte neler içerdiğini burada bulabilirsiniz.',
+    ],
+    sections: [
+      {
+        title: 'Özel Marka, Kanıtlanmış Platformlar Anlamına Gelir',
+        body: 'Fabrikanın zaten üretip test ettiği platformlarla başlarsınız: her yönlü, tur, yoga, yarış ve daha fazlası. Fabrika markalama, grafik ve kaplama detaylarını özelleştirir; bu da maliyetleri düşük, teslim sürelerini kısa tutar. Asgari adetler kademelidir: eş marka çalışmaları 5–10 adetten, pilot partiler 20–50 adetten, standart özel marka hacmi ise 150 m rulo başına 90–100+ adetten başlar.',
+      },
+      {
+        title: 'Markalama Logodan Fazlasıdır',
+        body: 'Özel marka çalışması; logonuzun basılmasını (dijital veya silkscreen), özel renk kombinasyonlarını, levha formuna göre kesilmiş ve logonuzlu EVA kaymaz padleri, aksesuar markalamasını (paddle, pompa, halat), perakende kutu tasarımını ve hatta satış noktası standlarını kapsar. Tasarım dosyanızı gönderin; fabrika üretim öncesi bir görsel numara hazırlar.',
+      },
+      {
+        title: 'Fabrika Sizin Adınıza Neleri Yapar',
+        body: 'Tam donanımlı bir SUP fabrikası tasarım hazırlığını, malzeme tedariki, numune üretimini, 100 maddelik montaj kalite kontrol listesini, basınç testini ve ihracat belgelerini (fatura, paketleme listesi, menşe şahadetnamesi) yönetir. Siz numuneleri inceler ve onaylarsınız; geri kalan her şeyi fabrika yürütür.',
+      },
+      {
+        title: 'Sizin Sahip Olduklarınız: Marka, Pazar, Müşteri',
+        body: 'Özel marka modelinde levhaları fabrika üretir, marka ise sizindir. Güvenilir üreticiler kendi levhalarını sizin pazarınızda perakende olarak satmaz ve sizin özel tasarımınızı başkalarına satmaz. Teklifinizde pazar münhasırlığı isteyin.',
+      },
+      {
+        title: 'Maliyetler: Numune, Kalıp, Tasarım Hazırlığı',
+        body: 'Üç tür ücret bekleyin: numune ücretleri (üretimi 7–12 gün), yeni kalıp gerektiğinde kalıp maliyetleri (hacim kademesinde asgari adet) ve baskı için tasarım hazırlığı. Çoğu fabrika numune ve kalıp maliyetlerini ilk üretim siparişinize mahsup eder.',
+      },
+      {
+        title: 'Sipariş Formundan Tamamlanan Partiye',
+        body: 'Tipik bir özel marka üretimi: %30 depoziton üretimi başlatır, seri üretim sipariş formu ve depozito onaylandıktan sonra 25–35 günde tamamlanır ve bakiye onaylanan partinin kabulüne karşı ödenir. İlk siparişinizde tüm süreci kapsayan bir bütçe ayırın.',
+      },
+    ],
+    faqs: [
+      { q: 'Özel markalı SUP levhaları için asgari sipariş nedir?', a: 'Eş marka çalışmaları 5–10 adetten, pilot partiler 20–50 adetten, standart özel marka hacmi ise 150 m rulo başına 90–100+ adetten başlar; tamamen özel kalıp projeleri hacim kademesinde yürür.' },
+      { q: 'Kendi logomu ve tasarım dosyamı gönderebilir miyim?', a: 'Evet; logonuzu ve tasarım dosyanızı gönderin. Fabrika üretim öncesi bir görsel numara hazırlar, böylece renkleri, yerleşimi ve kaplama detaylarını onaylarsınız.' },
+      { q: 'Özel SUP tasarımım yalnızca kendi markama mı ait?', a: 'Standart özel marka koşullarıyla evet. Satın alma sözleşmenize münhasırlık maddesi ekletilmesini isteyin; bizim gibi fabrikalar markalı tasarımınızı yeniden satmaz.' },
+      { q: 'Özel markalı bir SUP siparişi ne kadar sürer?', a: 'Numuneler 7–12 günde kargolanır; seri üretim sipariş formu ve depozito onaylandıktan sonra 25–35 günde tamamlanır. İlk tam üretim için 8–12 hafta ayırın.' },
+    ],
+    related: [
+      { label: 'Özel marka SUP çözümleri', href: '/tr/solutions/private-label-sup' },
+      { label: 'Kanıtlanmış platformlara göz atın', href: '/tr/products/all-around' },
+      { label: 'OEM / ODM üretim', href: '/tr/oem-manufacturing' },
+      { label: 'Özel SUP projenizi başlatın', href: '/tr/contact' },
+    ],
+  },
+  {
+    slug: 'sup-fleet-guide',
+    title: 'Kiralama, Resort ve Kulüpler için SUP Filosu Satın Alma',
+    intro: [
+      'Filo alıcılarının nihai kullanıcılardan farklı soruları vardır: bir seansta ne kadar dayandığı, standartlaştırılmış yedek parçalar, hacim seviyesinde miktarlar ve sezon sezon teslimat yapan bir tedarikçi. İlk filonuzu sipariş etmeden önce planlamanız gerekenler burada.',
+    ],
+    sections: [
+      {
+        title: 'Bir veya İki Şartnameye Standardize Edin',
+        body: 'Filo operasyonu standardizasyonla yürür: çoğu misafir için tek levha boyutu (genellikle 10\'6"–11\'0" × 32"), dayanıklı tek bir paket ve tek bir yedek parça kiti. Bu, onarımları, personel eğitimini, depolamayı ve yeniden siparişleri kolaylaştırır. On farklı model satın alma dürtüsüne karşı koyun.',
+      },
+      {
+        title: 'Ağır Kullanım Levhaları Farklı Bir Üründür',
+        body: 'Kiralama levhası sezon başına onlarca seansa dayanır. Perakende levhalara kıyasla daha kalın PVC katmanları, takviyeli kenar bantları ve daha sağlam aksesuarlar belirtin. Fabrikadan filo şartnamesinin tüketici sürümünden nasıl farklılaştığını sorun; gerçek tesislerde her ikisi de vardır.',
+      },
+      {
+        title: 'Miktarları Talebe Göre Belirleyin',
+        body: 'Filo büyüklüğünüzü günlük devir ve sezon uzunluğuna göre hesaplayın: 20–30 levha küçük bir kiralama noktasına yeter, 100+ levka ise yoğun bir resort ya da kulüp. Fabrikadan talep profilinize uygun miktar önerisi isteyin.',
+      },
+      {
+        title: 'Yedek Parçaları Filo ile Birlikte Alın',
+        body: "Yedek supapları, onarım kitlerini, pompaları, halatları ve paddleları aynı sipariş formunda verin; şimdi birim başına maliyetleri düşüktür, ama sezon ortasında temin etmek zordur. Fabrikadan önerilen yedek parça oranını isteyin (sarf malzemelerinde tipik olarak filo büyüklüğünün %5–10'u kadar).",
+      },
+      {
+        title: 'Sezon Sırasında Değil, Sezon Öncesinde Sipariş Verin',
+        body: 'Üretim sipariş formu ve depozito onaylandıktan sonra 25–35 gün sürer. Levhaların ilkbaharda sahilde hazır olması için siparişleri sonbaharın sonunda onaylayın; böylece üretim sezon başlamadan tamamlanır.',
+      },
+      {
+        title: 'Filoyu Yeniden Satış Değeri İçin Markalayın',
+        body: 'Filo levhalarına logonuz, kiralama numaralandırma sistemi ve boyuta göre renk kodlaması eklenebilir. 200+ adetlik üretimlerde silkscreen logolar maliyet açısından avantajlıdır ve markalı filo aynı zamanda su üzerinde bir pazarlama aracı olur.',
+      },
+    ],
+    faqs: [
+      { q: 'Kiralama filosu için en iyi SUP nedir?', a: 'Takviyeli yapıya sahip 10\'6"–11\'0" × 32" her yönlü levha sektör standardıdır: başlangıççılar için dengeli, günlük kullanıma dayanıklı ve bakımı kolay.' },
+      { q: 'Bir kiralama işletmesi kaç levhaya ihtiyaç duyar?', a: 'Küçük bir kiralama noktası için 20–30 levha planlayın ve devir oranına göre büyütün: yoğun resortlar ve kulüpler için 100+ adet. Yedek parçalar filo büyüklüğünün %5–10 kadarı olmalıdır.' },
+      { q: 'Filo levhaları logomuzla markalanabilir mi?', a: 'Evet; silkscreen logolar, kiralama numaralandırması ve renk kodlu güverteler standart özelleştirmelerdir ve özellikle 200 adetten itibaren maliyet avantajı sağlar.' },
+      { q: 'Filo siparişi ne kadar sürer?', a: 'Numuneler 7–12 gün, üretim sipariş formu ve depozito onaylandıktan sonra 25–35 gün sürer; bu nedenle filo siparişlerini sezon başlamadan epey önce verin.' },
+    ],
+    related: [
+      { label: 'Resort ve kulüp çözümleri', href: '/tr/solutions/resort-sup' },
+      { label: 'Örnek: çok noktalı kiralama filosu', href: '/tr/projects/rental-fleet-multi-site' },
+      { label: 'Filo sınıfı platformlar', href: '/tr/products/all-around' },
+      { label: 'Proje uzmanıyla görüşün', href: '/tr/contact' },
+    ],
+  },
+]
 
-const GUIDES_BY_LOCALE: Record<string, Guide[]> = { en: GUIDES, es: GUIDES_ES, fr: GUIDES_FR, de: GUIDES_DE, it: GUIDES_IT, pt: GUIDES_PT, nl: GUIDES_NL, sv: GUIDES_SV, no: GUIDES_NO, pl: GUIDES_PL, da: GUIDES_DA, fi: GUIDES_FI, ru: GUIDES_RU, cs: GUIDES_CS }
+const GUIDES_BY_LOCALE: Record<string, Guide[]> = { en: GUIDES, es: GUIDES_ES, fr: GUIDES_FR, de: GUIDES_DE, it: GUIDES_IT, pt: GUIDES_PT, nl: GUIDES_NL, sv: GUIDES_SV, no: GUIDES_NO, pl: GUIDES_PL, da: GUIDES_DA, fi: GUIDES_FI, ru: GUIDES_RU, cs: GUIDES_CS, tr: GUIDES_TR }
 
 export function localizedGuides(locale: string): Guide[] {
   return GUIDES_BY_LOCALE[locale] ?? GUIDES
@@ -4350,6 +4616,50 @@ export const GUIDE_CARDS: Record<string, GuideCard[]> = {
       title: 'Nákup SUP floty pro půjčovny, letoviska a kluby',
       intro:
         'Nákupčím flot jsou potřeba jiné odpovědi než koncovým uživatelům: jak dlouho deska vydrží jednu sezi, standardizované náhradní díly, velkoobjemová množství a dodavatel, který pracuje sezónu po sezóně.',
+    },
+  ],
+  tr: [
+    {
+      slug: 'how-to-choose-your-sup',
+      title: "SUP'nizi Nasıl Seçmelisiniz",
+      intro:
+        "İlk şişirilebilir SUP'nizi seçerken belirleyici olan levha boyutu, genişliği, yapısı ve kutunun içinde ne olduğudur.",
+    },
+    {
+      slug: 'beginner-guide',
+      title: 'Paddle Etmeye Başlangıç Rehberi',
+      intro:
+        'Sudaki ilk seanslarınız için gereken her şey: şişirme, ilk kez ayakta kalkma, temel kürek tekniği ve güvenli kalmak.',
+    },
+    {
+      slug: 'inflatable-vs-hard',
+      title: 'Şişirilebilir mi, Sert mi?',
+      intro:
+        "İki farklı yapı ailesi farklı senaryolarda öne çıkar; rekreasyonel paddle'çılar, kulüpler ve kiralama işletmeleri için dürüst karşılaştırma.",
+    },
+    {
+      slug: 'safety-tips',
+      title: 'Sudaki Güvenlik Önerileri',
+      intro:
+        'Güvenli bir seans, aynı zamanda eğlenceli bir seanstır; bu temel kurallar göllerde, nehirlerde ve kıyı bölgelerinde de geçerlidir.',
+    },
+    {
+      slug: 'choosing-a-sup-oem-factory',
+      title: 'Özel Üretim SUP Fabrikası Nasıl Seçilir',
+      intro:
+        'Kendi markanız için üreticiyi sipariş formu göndermeden önce nasıl değerlendireceğiniz: deneme siparişi, üretim tesisi, numune, maliyet ve denetim.',
+    },
+    {
+      slug: 'private-label-sup-guide',
+      title: 'Özel Markalı SUP',
+      intro:
+        'Özel marka çalışmasının gerçekte kapsadıkları: kanıtlanmış platformlar, tam markalama, maliyetler, münhasırlık ve teslim süreleri.',
+    },
+    {
+      slug: 'sup-fleet-guide',
+      title: 'SUP Filosu Satın Alma',
+      intro:
+        'Kiralama, resort ve kulüpler için filo planlaması: dayanıklı şartname, konteyner başına miktarlar, yedek parçalar ve sezonluluk.',
     },
   ],
 }

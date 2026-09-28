@@ -1,0 +1,166 @@
+meta:
+  title: 'OEM Güven ve Fabrika Güvencesi — Sipariş Vermeden Önce Fabrikamızı Doğrulayın'
+  description: 'Alıcılar iSupfactory şirketini sipariş vermeden önce nasıl doğrular: resmi kayıt, fabrika denetimleri, NDA altında çalışan mühendisler ve üçüncü taraf incelemeleri (SGS/TÜV/BV/Intertek).'
+  dateModified: '2026-08-14'
+  keywords:
+    - 'SUP OEM fabrika doğrulama'
+    - 'SUP üreticisi doğrulama'
+    - 'Çinde SUP fabrika denetimi'
+    - 'Qingdao şişirilebilir SUP fabrikası'
+    - 'OEM güven güvencesi'
+    - 'SUP üreticisi belgeleri'
+
+hero:
+  tagline: 'Doğrulayabileceğiniz Üretim'
+  title: 'OEM Güven ve Fabrika Güvencesi'
+  subtitle: 'Bu sitedeki her iddia doğrulanabilir: resmi şirket kaydı, ziyaret veya denetim yapabileceğiniz fiziki 12.500 m² fabrika, NDA altında gerçek mühendisler, indirebileceğiniz QMS dokümanları ve seri numarası bazında kaydedilen test verileri. Qingdao Vatrad Group Co., Ltd. tarafından tasarlanır ve yürütülür.'
+
+answer:
+  label: 'Doğrudan yanıt'
+  text: 'Güven bir söz değildir — dokümantasyondur. Çin’de kayıtlı bir üretim kuruluşuyuz (Qingdao Vatrad Group Co., Ltd.): Qingdao’da fiziki 12.500 m² tesisimiz, 350+ çalışanımız ve yıllık 120.000+ tahta kapasitemiz var. Kaydı doğrulayabilir, fabrikayı denetleyebilir, QMS SOP belgelerini inceleyebilir, örnek kalite kayıtları indirebilir, üçüncü taraf incelemeleri (SGS, TÜV, BV veya Intertek) planlayabilir ve 4 iş saatinde bir NDA imzalatabilirsiniz. Her tahta 24 saat boyunca 18.0 PSI basınçta test edilir, 0.50 PSI üzeri düşüşte otomatik ret uygulanır ve her parti 10 yıllık ERP izlenebilirliğini korur. Bir iddia belgelenemiyorsa onu yapmayız.'
+  verified: 'Eylül 2026'
+
+trust_stats:
+  - value: '12,500 m²'
+    label: Fabrika alanı
+    detail: Denetime açık 4 uzmanlaşmış atölye
+  - value: '350+'
+    label: Tesisteki çalışan sayısı
+    detail: Ar-Ge, malzeme ve kalite kontrolünde 25+ mühendis
+  - value: '120,000+'
+    label: Yıllık üretilen tahta
+    detail: 4 otomatik hatta ayda 10.000 tahta
+  - value: '4 saat'
+    label: NDA teslim süresi
+    detail: Standart NDA 4 iş saatinde imzalanır
+  - value: '7 aşamalı'
+    label: Kalite kapı sistemi
+    detail: Node 01–07, seri numarası bazında kaydedilir
+  - value: '18.0 PSI'
+    label: '%100 basınç testi'
+    detail: 24 saat tutma, 0.50 PSI üzeri düşüşte otomatik ret
+
+role_boundary:
+  tagline: 'Biz Ne Olduk — Ne Olmadık'
+  title: 'İnanmak Zorunda Kalmadığınız, Doğrulayabildiğiniz Bir Fabrika'
+  subtitle: 'Bir fabrika ile bir ticaret masası arasındaki doğrulama farkı basittir: her iddianın arkasında bir belge, bir kişi veya bir makine vardır.'
+  features:
+    - icon: A
+      icon_bg: blue
+      title: 'Biz Ne Olduk — Doğrulanabilir Bir Üretici'
+      desc: '· Kayıtlı bir tüzel kişi: Qingdao Vatrad Group Co., Ltd. — kayıt ayrıntıları NDA altında veya denetim sırasında paylaşılır · Fiziki bir fabrika: Qingdao, Laixi Ekonomik Gelişme Bölgesi içinde 12.500 m² alan, 4 uzmanlaşmış atölye, 350+ çalışan ve 4 otomatik hat · Bir üretim ekibi: sorularınızı yanıtlayan kişiler tahtalarını üreten kişilerdir · Gerçek dokümanlar: QMS SOP belgeleri, inceleme standartları ve anonimleştirilmiş kalite kayıtları indirilebilir · Bağımsız doğrulama memnuniyetle karşılanır: SGS, TÜV, BV veya Intertek incelemeleri, ISO 2859-1 Level II kapsamında talebinize göre'
+      link: '/tr/factory'
+      link_label: 'Fabrika Sayfasını Ziyaret Edin'
+    - icon: B
+      icon_bg: green
+      title: 'Biz Ne Değiliz — Ticaret Masası Profili'
+      desc: '· Ticaret şirketi yok: siparişinizi üçüncü bir fabrikaya yönlendirmeyiz ve aracı marjı eklemeyiz · Tahtaların üzerinde kendi markamız yok: marka, pazar ve müşteri sizindir · Belirsiz minimumlar yok: MOQ ham malzeme rulosu fiziğinden hesaplanır ve proje bazında teyit edilir · Yalnızca talep üzerine verilen sertifikalar yok: liste yayımlanır ve denetim kayıtları incelenebilir · Yalnızca sözlü iddialar yok: test basıncı, eşik değerleri ve parti izlenebilirliği seri numarası bazında belgelenir'
+      link: '/tr/oem-moq-guide'
+      link_label: 'Şeffaf MOQ Rehberini İnceleyin'
+
+trust_steps:
+  tagline: 'Gerçek Bir Vaka Çalışması'
+  title: 'Kuzey Avrupalı Bir Kiralama Filosu Sipariş Vermeden Önce Bizi Nasıl Doğruladı'
+  subtitle: 'Ticari bir kiralama işletmesinin 90–100+ adetlik filo siparişini vermeden önce tamamladığı yedi doğrulama adımı — aynı kontrol listesi sizin de önünüzde açık.'
+  steps:
+    - step: '01'
+      title: 'Resmi Kurum Doğrulaması'
+      desc: 'Alıcı, Çin İş Tescili kaydını ve ihracat ticaret lisansını istedi. iSupfactory arkasındaki tüzel kişi, 2012 yılından bu yana Çin, Shandong, Qingdao’da kayıtlı olan Qingdao Vatrad Group Co., Ltd. üreticisidir — NDA altında ulusal sicil üzerinden doğrulanmıştır.'
+    - step: '02'
+      title: 'Fiziki Fabrika ve Sahne Denetimi'
+      desc: 'Bir fabrika denetimi (yerinde ve video gezintisi yoluyla) 12.500 m² tesisi doğruladı: dört uzmanlaşmış atölye, 350+ çalışan, dört otomatik hat ve ayda yaklaşık 10.000 tahtalık üretim. Denetim raporu sözleşme kayıtlarıyla birlikte dosyalanır.'
+    - step: '03'
+      title: 'Kişiler: Gerçek Mühendisler, Satış Senaryoları Değil'
+      desc: 'Alıcı doğrudan mühendislik ekibiyle — gövde tasarımı, malzeme laboratuvarı ve kalite kontrolü — konuştu. Proje spesifikasyonu ve NDA 4 iş saatinde paylaşıldı ve mühendislik incelemesi bir iş günü içinde döndü.'
+    - step: '04'
+      title: 'Belgeler: QMS, Sertifikalar ve Üçüncü Taraf İncelemesi'
+      desc: 'ISO 9001:2015, ISO 25649 ve CE uyumluluk dokümantasyonu, BSCI/REACH/RoHS kayıtları ve QMS SOP belgeleri incelendi. Alıcı ilk hacimli siparişte ISO 2859-1 Level II kapsamında bir SGS ön sevkiyat incelemesi planladı ve parti başına bir Uygunluk Sertifikası aldı.'
+    - step: '05'
+      title: 'Veri: Seri Numarası Başına Test Kayıtları'
+      desc: 'Alıcı gerçek test kayıtlarını denetledi: her hazne 24 saat boyunca 18.0 PSI basınçta, 0.50 PSI basınç düşüşünde otomatik ret ile test edildi, 100 maddelik montaj kontrol listeleri ve 10 yıllık ERP parti izlenebilirliği doğrulandı. Siparişten önce örnek kalite kontrol kayıtları sağlandı.'
+    - step: '06'
+      title: 'Sözleşme Koruması'
+      desc: 'Sipariş sözleşmesi marka lisansını, kararlaştırılan bölgesel münhasırlık süresini, kalıp mülkiyet ve satın alma koşullarını kapsadı ve takım ekleriyle devredilen veri ve kayıtları tanımladı. Alıcı kalıbı üretim öncesinde fabrikada onayladı.'
+    - step: '07'
+      title: 'Sürekli Yönetişim'
+      desc: 'Satış Başkan Yardımcısı ve Baş Mühendisle üç aylık iş değerlendirmeleri, üretim sırasında denetim yapma hakkının saklı tutulması ve her kalite anlaşmazlığı için kalite güvenlik müdürüne yükseltme yolu. Anlaşma Satış Başkan Yardımcısı, Baş Mühendis ve Kalite Güvenlik Müdürü tarafından birlikte imzalandı.'
+
+trust_faqs:
+  tagline: SSS
+  title: 'Alıcıların Sipariş Vermeden Önce Sorduğu 12 Konu'
+  items:
+    - q: 'iSupfactory gerçekten bir fabrika mı, yoksa ticaret şirketi mi?'
+      a: 'iSupfactory, Qingdao Vatrad Group Co., Ltd. şirketinin SUP ürün geliştirme ve üretim bölümüdür. Qingdao’daki 12.500 m² tesisi kendimiz işletiyoruz — tasarım, kesim, kaynak, montaj ve test aynı tesiste gerçekleşir. Ticaret şirketi devre yoktur: sorularınızı yanıtlayan kişiler tahtalarını üreten kişilerdir.'
+    - q: 'Projem sırasında tam olarak kiminle çalışacağım?'
+      a: 'Adı geçen bir proje mühendisi ve adı geçen bir kalite kontrol irtibatı, ayrıca belgelerinizi imzalayan departman yöneticileri. Baş Mühendisle, Kalite Güvenlik Müdürüyle veya fabrika müdürüyle doğrudan görüşmek isteyebilirsiniz — siparişten önce ve sonra. Sizinle işi yapan kişilerin arasında hesap yöneticisi katmanı yoktur.'
+    - q: 'Fabrikayı ziyaret edebilir veya denetleyebilir miyim?'
+      a: 'Evet. Qingdao, Laixi Ekonomik Gelişme Bölgesi içinde fabrika ziyaretlerine ev sahipliği yapıyor, canlı video gezintileriyle uzaktan denetimleri destekliyoruz. Denetimler bağımsız olarak düzenlenebilir (kendi müfettişiniz veya SGS, TÜV, BV veya Intertek gibi bir üçüncü taraf) ve denetim takvimi sözleşmeye yazılabilir.'
+    - q: 'Tasarımımı paylaşmadan önce NDA imzalıyor musunuz?'
+      a: 'Evet. Standart NDA, talebinizden itibaren 4 iş saatinde imzalanır; herhangi bir gizli spesifikasyon, grafik veya teknik dosya paylaşılmadan önce. Çift dilli (İngilizce/Çince) sürümler mevcuttur ve belge fabrika müdürü tarafından karşı imzalanır.'
+    - q: 'Kalite iddialarınızın gerçek olduğunu nasıl bilebilirim?'
+      a: 'Bu sitedeki her iddianın arkasında bir belge vardır: QMS SOP belgeleri ve inceleme standartları indirilebilir, anonimleştirilmiş kalite kaydı örnekleri yayımlanır ve test verileri 10 yıllık ERP parti izlenebilirliğiyle seri numarası bazında kaydedilir. Talebinize göre üçüncü taraf ön sevkiyat incelemesi de planlayabilirsiniz.'
+    - q: 'Tahtalarım kusurlu gelirse ne olur?'
+      a: 'Her tahta ambalajdan önce test edilir ve parti düzeyindeki kayıtlar seri numarası bazında kök neden takibine olanak tanır. Sözleşme inceleme, değiştirme ve yeniden işleme yükümlülüklerini tanımlar ve parti sevkiyatını Kalite Güvenlik Müdürü imzalar. Yeniden işlenen tahtalar eksiksiz şekilde yeniden test edilir — kısmen kontrol edilmez.'
+    - q: 'Sevkiyat öncesi tahtaların gerçekten %100ünü test edebilir misiniz?'
+      a: 'Evet — ve kayıtlar bunu kanıtlar. Her hazne 18.0 PSI değerine şişirilir ve sürekli sensör kaydıyla 24 saat tutulur; 24 saatte 0.50 PSI üzeri basınç düşüşü gösteren her hazne otomatik olarak reddedilir ve yeniden incelenir. Test kayıtları her seri numarasına bağlanır ve parti dokümantasyonunun bir parçasıdır.'
+    - q: 'Gerçekte hangi sertifikalara sahipsiniz?'
+      a: 'Şişirilebilir SUP ürünleri için ISO 9001:2015 kalite yönetimi, ISO 25649 ve CE uyumluluğu; ayrıca tesis ve malzemeler için BSCI, REACH ve RoHS uyumluluğu. Sertifika numaraları ve denetim kayıtları talep üzerine veya denetim sırasında sağlanır — liste yayımlanır, yalnızca talep üzerine mevcut değildir.'
+    - q: 'Markam güvende olur mu — tasarım, kalıplar ve pazar açısından?'
+      a: 'Evet. Markanız, tasarımlarınız ve kalıplarınız; sözleşmeye yazılan NDA, marka lisans koşulları ve kalıp mülkiyeti ya da satın alma koşullarıyla korunur. Kalıplar marka için saklanır ve devredilebilir. Bölge ve münhasırlık koşulları üretim başlamadan önce yazılı olarak kararlaştırılır.'
+    - q: 'Gerçek MOQ değeriniz nedir?'
+      a: 'MOQ projeye özeldir ve MOQ rehberimizde açıklanır: numuneler 1–2 adet, küçük toptu ortak markalama 5–10 adet, pilot partiler 20–50 adet ve standart hacim 150 m rulo başına 90–100+ adet (yaklaşık 180–220 tahta). Özel kalıplı şekiller hacim kademesinde yürür. Hesaplama teklif öncesi teyit edilir — belirsiz düşük MOQ sayıları yoktur.'
+    - q: 'Üretim gecikirse ne olur?'
+      a: 'Teslim süresi, spesifikasyon, grafik ve ambalaj incelemesinden sonra teyit edilir — asla önceden vaat edilmez. Sözleşme programlamayı, gecikme bildirimini ve çözüm yolunu kapsar; üç aylık iş değerlendirmesi teslim performansını kararlaştırılan takvime göre izler.'
+    - q: 'Sizin tarafınızda sözleşme belgelerini kim imzalar?'
+      a: 'Siparişler ve anlaşmalar; ticari koşullar, mühendislik uygulaması ve kalite sevkiyatından sırasıyla sorumlu üç kişi olan Satış Başkan Yardımcısı, Baş Mühendis ve Kalite Güvenlik Müdürü tarafından birlikte imzalanır. İmzalı belgeleri sözleşme kayıtlarıyla birlikte alırsınız.'
+
+governance:
+  tagline: 'Sorumluluk Yapısı'
+  title: 'Adı Geçen İmza Yetkilileri ve Saklı Haklar'
+  subtitle: 'Her taahhüt adı geçen bir role bağlıdır — bir satış departmanına değil.'
+  body: |
+    **Ortak onay.** Siparişler, kalite planları ve anlaşmazlık çözümleri üç rol tarafından imzalanır: Satış Başkan Yardımcısı (ticari koşullar), Baş Mühendis (mühendislik uygulaması) ve Kalite Güvenlik Müdürü (kalite sevkiyatı). Çift dilli SOP belgeleri sürüm kontrolündedir ve aynı imza yapısını taşır.
+
+    **Saklı haklar.** Alıcı; üretimi denetleme, test kayıtlarını inceleme ve inceleme onayına kadar parti sevkiyatını tutma hakkını saklı tutar. Yeniden işleme yalnızca onaylanmış bir değişiklik kaydı altında yapılır ve sevkiyat bağımsız kalite kontrolüyle doğrulanır — asla yeniden işleyen operatörler tarafından değil.
+
+    **Devredilen kayıtlar.** Parti test kayıtları, uygunluk sertifikaları ve inceleme raporları her sevkiyatla birlikte teslim edilir ve ERP parti izlenebilirliği 10 yıl saklanır. Takım kayıtları ve kalıp çizimleri, sözleşmede öngörüldüğü şekilde takımla birlikte devredilir.
+
+trust_downloads:
+  tagline: Resmi Belgeler
+  title: 'Doğrulama Belgeleri — İndirin ve Paylaşın'
+  subtitle: 'Qingdao Vatrad Group Co., Ltd. şirketinden alınabilen, tedarikçi durum tespiti dosyanıza eklenmeye hazır resmi belgeler.'
+  features:
+    - icon: G
+      icon_bg: blue
+      title: 'OEM Alıcı Güven ve Fabrika Güvencesi Rehberi (PDF)'
+      desc: 'Resmi B2B rehberi (Bölüm II, DOC-ENG-2026-EN): fabrika doğrulama adım adım — kurum kaydı, fiziksel denetim, gerçek mühendisler, QMS belgeleri, üçüncü taraf incelemesi, sözleşme koruması ve yönetişim onayları.'
+      link: 'https://assets.isupfactory.com/site/downloads/oem-buyer-trust-and-factory-assurance-guide.pdf'
+      link_label: 'Rehberi İndirin (PDF)'
+    - icon: P
+      icon_bg: green
+      title: 'Esnek Markalama ve MOQ Rehberi (PDF)'
+      desc: 'Resmi B2B rehberi (Bölüm I, DOC-MOQ-EXP-2026-EN): 150 m rulo drop-stitch veriminin (90–100 tahta) arkasındaki mühendislik mantığı, 5–10 adetten başlayan ortak markalama, 20–50 adetlik pilot partiler ve üç üretim aşaması.'
+      link: 'https://assets.isupfactory.com/site/downloads/flexible-branding-and-moq-guide.pdf'
+      link_label: 'MOQ Rehberini İndirin (PDF)'
+    - icon: Q
+      icon_bg: orange
+      title: 'Bu İddiaların Arkasındaki Kalite Sistemi'
+      desc: 'Hepsini bir araya getiren tek sayfa: 7 aşamalı inceleme kapı sistemi, onu yöneten dört standart ve indirebileceğiniz her SOP ile raporu içeren 00–15 doküman kaydı — QIP, inceleme standartları, izlenebilirlik dosyası, UYGunsuzluk ve yeniden işleme SOP belgeleri.'
+      link: '/tr/quality'
+      link_label: 'Kalite Sistemini Keşfedin'
+
+evidence_review:
+  tagline: 'Kanıt ve Doğrulama'
+  title: 'DOĞRULANMIŞ SPESİFİKASYONLAR'
+  body: 'Bu sayfadaki tüm üretim iddiaları, Laixi, Qingdao tesisimizdeki Üretim Mühendisliği Ekibimiz tarafından doğrulanmıştır. Sertifikalar, kalite kontrol inceleme kayıtları, basınç ve yapısal test raporları ve parti izlenebilirliği kayıtları talep üzerine mevcuttur. Spesifikasyonlar en son Eylül 2026 tarihinde doğrulanmıştır.'
+
+cta:
+  title: 'Doğrulamayla Başlayın — Sonra Spesifikasyonları Konuşalım'
+  subtitle: 'NDA talebinizi gönderin, kayıt paketini isteyin veya bir denetim slotu ayırtın. Doğrulama önce gelir; sipariş görüşmesi sonra. Talep göndermek sizi bir siparişe bağlamaz.'
+  button_text: 'Doğrulama Paketi İsteyin'
+  button_link: '/tr/contact#trust-verification'
+  actions:
+    - text: Fabrika Denetim Kontrol Listesi
+      href: /tr/factory-audit-checklist
+    - text: Marka Kimliği
+      href: /tr/about/identity

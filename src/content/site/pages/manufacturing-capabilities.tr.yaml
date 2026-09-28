@@ -1,0 +1,125 @@
+meta:
+  title: 'SUP Üretim Yetenekleri | Şişirilebilir Kürek Tahtası Fabrikası'
+  description: 'Qingdao’da SUP üretim yetenekleri: şirket içi gövde mühendisliği (0,1 mm), drop-stitch işleme, RF kaynak, baskı, kalıplama, 100 maddeli QC ve yılda 120.000+ tahta.'
+  dateModified: '2026-09-23'
+  keywords:
+    - 'sup üretim yetenekleri'
+    - 'şişirilebilir kürek tahtası fabrikası yetenekleri'
+    - 'şirket içi sup üretimi'
+    - 'kürek tahtası üretim yetenekleri'
+    - 'qingdao sup fabrikası'
+
+hero:
+  tagline: Üretim Yetenekleri
+  title: 'SUP Üretim Yetenekleri'
+  subtitle: 'Her süreç — gövde mühendisliği, drop-stitch çekirdek işleme, RF kaynak, baskı, kalıp aparatı, montaj, test ve ambalajlama — 12.500 m²lik Qingdao tesisimizde şirket içinde yürütülür; böylece tek bir sorumlu ekip projenizi ilk çizimden sevk edilmiş konteynere kadar yönetir.'
+
+answer:
+  label: 'Net cevap'
+  text: 'SUP üretimi Qingdao tesisimizde tamamen şirket içindedir: 0,1 mm CNC hassasiyetinde gövde tasarımı ve ölçü mühendisliği; 4 otomatik hatta drop-stitch malzeme işleme ve RF kaynak; grafik baskısı; EVA ped kalıp kesimi; özel kalıp aparatı (yeni biçimler için +15–20 gün); 100 maddeli kontrol listesine göre montaj; ve 0,50 PSI üzerindeki düşümde otomatik ret uygulanan 18.0 PSI 24 saatlik basınç tutma testi. Yıllık kapasite, 350+ işçilik 4 uzmanlaşmış atölyeden 120.000+ tahtadır (ayda ~10.000), kendi markanız altında 50+ ülkeye sevk edilir.'
+  verified: 'Eylül 2026'
+
+capabilities:
+  tagline: Şirket İçi Yetenekler
+  title: 'Her Biri Şirket İçinde Yürütülen Yetenek Grupları'
+  subtitle: 'Aşağıdaki her yetenek fabrika içinde gerçekleştirilir; bu, teslim sürelerini kısaltır, kalite kontrolünü her adıma gömülü kılar ve şartnamenizi tek bir yerde tutar.'
+  groups:
+    - title: Tasarım ve Mühendislik
+      items:
+        - 'Gövde tasarımı ve ölçü mühendisliği'
+        - '0,1 mm CNC hassasiyeti'
+        - 'Özel kalıp ve aparat tasarımı'
+        - 'Ambalajlama ve perakende grafikleri'
+    - title: Üretim
+      items:
+        - 'Drop-stitch çekirdek işleme'
+        - '15 kW RF kaynak (4 otomatik hat)'
+        - 'Grafik baskısı ve görsel sanat'
+        - 'EVA ped kalıp kesimi'
+        - 'Tahta montajı ve bitiş işlemleri'
+        - 'Aksesuar set hazırlama'
+    - title: Kalite ve Uyum
+      items:
+        - '100 maddelik montaj kontrol listesi'
+        - '18.0 PSI · 24 saatlik basınç tutma'
+        - 'ISO 2859-1 Seviye II örnekleme'
+        - 'CE · ISO 9001 · BSCI · REACH · RoHS'
+        - '10 yıllık parti izlenebilirliği'
+    - title: 'Servis ve Lojistik'
+      items:
+        - 'Prototip numuneler 7–12 günde'
+        - 'Üretim 25–35 günde'
+        - 'Özel kalıplar +15–20 günde'
+        - 'FOB Qingdao · CIF · DDP ile 50+ ülkeye'
+
+table:
+  headers:
+    capability: Yetenek
+    in_house: 'Şirket içi'
+    standard: 'Standardın içeriği'
+  rows:
+    - capability: 'Gövde tasarımı ve ölçü mühendisliği'
+      in_house: 'Evet — şirket içi mühendislik ekibi'
+      standard: 'Aparat öncesi mühendislik ve doğrulama; kalıplar ve kesim için 0,1 mm CNC hassasiyeti'
+    - capability: 'Drop-stitch malzeme işleme'
+      in_house: 'Evet — şirket içi çekirdek üretimi'
+      standard: '12–15 PSI drop-stitch yoğunluk aralığı, tahta boyutuna göre optimize edilmiş yerleşim'
+    - capability: 'RF kaynak ve dikiş imalatı'
+      in_house: 'Evet — şirket içi'
+      standard: '4 otomatik üretim hattında 15 kW RF kaynak kapasitesi'
+    - capability: 'Grafik baskısı ve görsel sanat'
+      in_house: 'Evet — şirket içi tasarım ve baskı'
+      standard: 'Sınırsız palet, tam kaplama grafik, fabrika ekibinden görsel sanat desteği'
+    - capability: 'EVA kaymaz ped kalıp kesimi'
+      in_house: 'Evet — şirket içi'
+      standard: '45–55 Shore C ped şartnamesi, ölçüye özel güverte ve logolar'
+    - capability: 'Özel kalıp ve aparat'
+      in_house: 'Evet — şirket içi kalıp atölyesi'
+      standard: 'Yeni biçim aparatı 15–20 gün ekler; aksi kararlaştırılmadıkça kalıplar fabrikaya ait kalır'
+    - capability: 'Tahta montajı ve bitiş işlemleri'
+      in_house: 'Evet — şirket içi'
+      standard: '100 maddelik montaj kontrol listesi; tutamaklar, D halkaları ve aksesuarlar şartnameye göre takılır'
+    - capability: 'Basınç ve yük testi'
+      in_house: 'Evet — şirket içi test tezgahı'
+      standard: '18.0 PSI 24 saatlik basınç tutma, 0.50 PSI düşümün üzerinde otomatik ret'
+    - capability: 'Nihai denetim ve izlenebilirlik'
+      in_house: 'Evet — şirket içi QC ekibi'
+      standard: 'ISO 2859-1 Seviye II örnekleme; seri numarası başına 10 yıllık ERP parti izlenebilirliği'
+    - capability: 'Ambalajlama ve ihracat'
+      in_house: 'Şirket içi set hazırlama + belgeli lojistik'
+      standard: 'Perakende kutuları, deniz taşımacılığına uygun ihracat ambalajı ve kendi markanız altında seri etiketleri'
+
+faq_section:
+  tagline: SSS
+  title: SUP Üretim Yeteneği Soruları
+  questions:
+    - q: Hangi üretim süreçleri şirket içindedir?
+      a: 'Tüm çekirdek süreçler şirket içindedir: gövde mühendisliği, drop-stitch çekirdek işleme, RF kaynak, baskı, EVA kalıp kesimi, montaj, test ve ambalajlama. Aksesuarlar ve bazı hammaddeler belgeli tedarikçilerden gelir; eksiksiz izlenebilirlik için nihai set hazırlama şirket içinde yapılır.'
+    - q: Üretim kapasiteniz nedir?
+      a: '12.500 m²lik tesiste, 350+ işçiyle 4 otomatik hatta ve 4 uzmanlaşmış atölyede yılda 120.000+ tahta (ayda yaklaşık 10.000).'
+    - q: Bu yetenekler için hangi MOQ geçerlidir?
+      a: 'Standart hacim, onaylı yapılandırma başına 90–100+ birim (tek bir 150 m drop-stitch kumaş rulosu); mevcut platformlarda pilot üretimler 20–50 birimden başlar; yalnızca logo içeren siparişler 5–10 birimden başlar.'
+    - q: Hangi teslim sürelerini planlamalıyız?
+      a: 'Prototip numuneler 7–12 günde; onaylanmış PO ve depozitodan sonra üretim 25–35 günde; özel kalıp geliştirme aparat için 15–20 gün ekler.'
+    - q: Yetenekler kaliteye nasıl dönüşür?
+      a: 'Her süreç 7 aşamalı kalite sistemini besler: 100 maddelik montaj kontrol listesi, 0.50 PSI düşümün üzerinde otomatik ret uygulanan 18.0 PSI 24 saatlik basınç tutma, ISO 2859-1 Seviye II örnekleme ve 10 yıllık ERP parti izlenebilirliği.'
+
+cta:
+  title: 'Hangi yeteneklerinizin projenize uyduğunu görün'
+  subtitle: 'Ürün brifinginizi gönderin — bir iş günü içinde mühendislik incelemesi ve yeteneğe uygun teklif alın.'
+  actions:
+    - variant: primary
+      text: Üretim Teklifi Talep Edin
+      href: /tr/contact#custom-oem
+    - text: Fabrikayı gezin
+      href: /tr/factory
+    - text: Fabrika üretim süreci
+      href: /tr/factory/process
+    - text: Fabrika kapasitesi ve teslim süreleri
+      href: /tr/factory/capacity
+    - text: Kalite ve testler
+      href: /tr/quality
+    - text: 'Kanıt Merkezi — fabrika kanıtları'
+      href: /tr/proof-center
+    - text: OEM ve ODM üretimi
+      href: /tr/oem-manufacturing
