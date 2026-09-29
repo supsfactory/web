@@ -1943,6 +1943,9 @@ export const trustBar: Localized<TrustBarContent> = {
 export interface ScopeCard {
   title: string
   body: string
+  short?: string
+  buyerState?: string
+  ctaLabel?: string
 }
 
 export interface SolveContent {
@@ -2347,18 +2350,30 @@ export const solve: Localized<SolveContent> = {
       {
         title: 'OEM — gyártás az Ön specifikációja szerint',
         body: 'OEM (Original Equipment Manufacturing): a jóváhagyott specifikáció alapján gyártunk — az Ön rajzai, méretei, anyagai, konstrukciója és csomagolása szerint. A kialakítás, a formák és a szellemi tulajdonjogok az Öné.',
+        short: 'Gyártás az Ön jóváhagyott specifikációja szerint',
+        buyerState: 'Már van rajza, specifikációja vagy referencia táblája',
+        ctaLabel: 'Építsünk az Ön specifikációja szerint',
       },
       {
         title: 'ODM — a tábla fejlesztése mérnöki csapatunkkal',
         body: 'ODM (Original Design Manufacturing): mérnöki csapatunk az Ön briefje alapján dolgozza ki a tábla szerkezetét, felépítését, grafikáit és csomagolását — legyen szó piaci koncepcióról, teljesítménycélről vagy egy bevált platform adaptálásáról. A gyár javasolja a kialakítást; a vevő jóváhagyja a gyártás előtt.',
+        short: 'Fejlesszük a táblát mérnöki csapatunkkal',
+        buyerState: 'Van termékötlete vagy piaci pozicionálása',
+        ctaLabel: 'Fejlesszünk táblát az Ön briefje alapján',
       },
       {
         title: 'Saját márka — az Ön márkája egy bevált platformon',
         body: 'Saját márka: az Ön márkája, grafikái és csomagolása egy már létező, bevált platformon — formafejlesztés és konstrukciós módosítás nélkül. A legrövidebb út az ötlettől a szállításig.',
+        short: 'Márkázza a bevált SUP platformot saját grafikákkal',
+        buyerState: 'Gyorsan, márkázottan kell piacra dobni egy bevált terméket',
+        ctaLabel: 'Indítson egy bevált platformon',
       },
       {
         title: 'Sorozatszállítás — ismétlődő és flottamegrendelések',
         body: 'Nagy mennyiségű gyártás forgalmazóknak, bérbeadóknak és szállodacsoportoknak, rögzített specifikációkkal, lotkövethetőséggel és változatlan konstrukcióval minden ismétlődő megrendelésnél.',
+        short: 'Állítsa össze a tartós flottacsomagokat',
+        buyerState: 'Bérbeadási, iskolai vagy üdülői felszerelést keres',
+        ctaLabel: 'Építsünk kereskedelmi SUP flottát',
       },
     ],
   },

@@ -49,20 +49,21 @@ export function CollaborationSelector() {
         {MODE_ENTRIES.map((mode, i) => {
           const Icon = mode.icon
           const data = COLLABORATION_MODES[mode.key]
+          const item = c.items[i]
           return (
             <Reveal key={mode.key} delay={i * 80}>
               <div className="marine-card flex h-full flex-col p-6">
                 <span className="icon-tile mb-4 bg-aqua/10! text-primary!">
                   <Icon size={20} />
                 </span>
-                <h3 className="font-display text-[16px] font-bold leading-snug text-primary">{data.short}</h3>
-                <p className="mt-2 text-[12px] font-semibold uppercase tracking-wide text-fg-3">{mode.buyerState}</p>
-                <p className="mt-3 flex-1 text-[13px] leading-relaxed text-fg-2">{c.items[i]?.body ?? data.full}</p>
+                <h3 className="font-display text-[16px] font-bold leading-snug text-primary">{item?.short ?? data.short}</h3>
+                <p className="mt-2 text-[12px] font-semibold uppercase tracking-wide text-fg-3">{item?.buyerState ?? mode.buyerState}</p>
+                <p className="mt-3 flex-1 text-[13px] leading-relaxed text-fg-2">{item?.body ?? data.full}</p>
                 <a
                   href={fl(mode.href)}
                   className="mt-5 inline-flex items-center gap-1.5 text-[13px] font-bold text-primary transition-colors hover:text-sun"
                 >
-                  {mode.ctaLabel} <ArrowRight size={14} />
+                  {item?.ctaLabel ?? mode.ctaLabel} <ArrowRight size={14} />
                 </a>
               </div>
             </Reveal>
