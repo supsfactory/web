@@ -725,7 +725,7 @@ export const fiProduct = {
     uploadFile: 'Lataa',
     oemBriefChecklist: 'OEM-selitteen tarkistuslista',
     entityMetaTitle: `${SITE_NAME} | Täytettävien SUP-lautojen OEM- ja ODM-valmistaja`,
-    entityMetaDescription: `${SITE_NAME} on täytettävien SUP-lautojen OEM- ja ODM-valmistusyritys — suunnittelu, työkalut, näytteet ja täysmittakaavainen tuotanto yrityksessä ${BRAND_COMPANY_NAME}.`,
+    entityMetaDescription: `${SITE_NAME} on täytettävien SUP-lautojen OEM- ja ODM-valmistusyritys — suunnittelu, työkalut, näytteet ja täysmittakaavainen tuotanto yrityksessä ${BRAND_COMPANY_NAME}`,
     moqSummary: '{standardRun} vakiomäärä · {trialStandard} pilotti · {customMould} oma muoto',
     timelineSummary: 'Näytteet {sampleTime} · tuotanto {leadTime} tilauksen ja käsirahan jälkeen',
     qcSummary: '{assemblyChecklist} kohdan tarkistuslista · {pressureTest} painetesti',
