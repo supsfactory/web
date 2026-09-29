@@ -25,7 +25,7 @@ import { JsonLd, breadcrumbLd, faqLd, itemListLd, newsArticleLd, serviceLd, qcHo
 import { brandify } from './brand'
 import { AferIndexProvider, type AferIndexData } from './index-data'
 import { getGuide } from './guide-content'
-import { FACTS, MOQ_SHORT, getFacts } from '@/product/facts'
+import { getFacts } from '@/product/facts'
 import { SITE_NAME } from '@/config/site'
 import { BRAND_PARENT_BRAND, BRAND_COMPANY_NAME } from '@/config/branding'
 import { CUSTOMIZATION_OPTIONS, OEM_APPLICATIONS } from '@/product/ai-content'
@@ -226,17 +226,18 @@ function vatradTechArticleLd(
 function productLd(origin: string, product: ContentProduct, locale: Locale, t: (key: string, params?: Record<string, string | number>) => string): Record<string, unknown> {
   const abs = (u?: string) => (u ? (u.startsWith('http') ? u : `${origin}${u}`) : undefined)
   const isDefault = locale === 'en'
+  const facts = getFacts(locale)
   const b2bProps = [
     {
       '@type': 'PropertyValue',
       name: t('content.jsonld.moq'),
-      value: `${MOQ_SHORT.trialStandard} pilot · ${MOQ_SHORT.standardRun} standard volume · ${MOQ_SHORT.customMould} custom mould`,
+      value: `${facts.moq.trialStandard} pilot · ${facts.moq.standardRun} standard volume · ${facts.moq.customMould} custom mould`,
     },
-    { '@type': 'PropertyValue', name: t('content.jsonld.sampleLeadTime'), value: FACTS.sampleTime },
+    { '@type': 'PropertyValue', name: t('content.jsonld.sampleLeadTime'), value: facts.sampleTime },
     {
       '@type': 'PropertyValue',
       name: t('content.jsonld.productionLeadTime'),
-      value: `${FACTS.leadTime} after confirmed PO and deposit`,
+      value: `${facts.leadTime} after confirmed PO and deposit`,
     },
     { '@type': 'PropertyValue', name: t('content.jsonld.certifications'), value: t('content.product.certificationsScope') },
   ]
@@ -265,8 +266,8 @@ function productLd(origin: string, product: ContentProduct, locale: Locale, t: (
         name: s.label,
         value: s.value,
       })),
-      { '@type': 'PropertyValue', name: 'MOQ pilot', value: String(MOQ_SHORT.trialStandard) },
-      { '@type': 'PropertyValue', name: 'MOQ standard', value: String(MOQ_SHORT.standardRun) },
+      { '@type': 'PropertyValue', name: 'MOQ pilot', value: String(facts.moq.trialStandard) },
+      { '@type': 'PropertyValue', name: 'MOQ standard', value: String(facts.moq.standardRun) },
       { '@type': 'PropertyValue', name: 'Pricing', value: 'Quote-based per project specification' },
     ],
     offers: {
