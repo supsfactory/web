@@ -327,6 +327,12 @@ export const fiUi = {
       productionLeadTime: 'Tuotantoaika',
       certifications: 'Sertifioinnit',
       audience: 'B2B-brändit, jakelijat, resortit, kerhot ja koulut',
+      moqValue: '{trialStandard} pilotti · {standardRun} standardvolyymi · {customMould} erikoismuotti',
+      productionLeadTimeValue: '{leadTime} vahvistetun tilauksen ja käsirahan jälkeen',
+      pricing: 'Tarjouspohjainen, projektin määrityksen mukaan',
+      pricingLabel: 'Hinta',
+      moqPilotLabel: 'MOQ pilotti',
+      moqStandardLabel: 'MOQ standard',
     },
   },
   marketing: {

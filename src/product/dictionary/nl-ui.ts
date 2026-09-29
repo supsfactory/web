@@ -327,6 +327,12 @@ export const nlUi = {
       productionLeadTime: 'Productielevertijd',
       certifications: 'Certificaten',
       audience: 'B2B-merken, distributeurs, resorts, clubs en scholen',
+      moqValue: '{trialStandard} pilot · {standardRun} standaardvolume · {customMould} mal op maat',
+      productionLeadTimeValue: '{leadTime} na bevestigde PO en aanbetaling',
+      pricing: 'Op offerte, volgens projectspecificatie',
+      pricingLabel: 'Prijs',
+      moqPilotLabel: 'MOQ pilot',
+      moqStandardLabel: 'MOQ standaard',
     },
   },
   marketing: {

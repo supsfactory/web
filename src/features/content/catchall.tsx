@@ -231,13 +231,17 @@ function productLd(origin: string, product: ContentProduct, locale: Locale, t: (
     {
       '@type': 'PropertyValue',
       name: t('content.jsonld.moq'),
-      value: `${facts.moq.trialStandard} pilot · ${facts.moq.standardRun} standard volume · ${facts.moq.customMould} custom mould`,
+      value: t('content.jsonld.moqValue', {
+        trialStandard: facts.moq.trialStandard,
+        standardRun: facts.moq.standardRun,
+        customMould: facts.moq.customMould,
+      }),
     },
     { '@type': 'PropertyValue', name: t('content.jsonld.sampleLeadTime'), value: facts.sampleTime },
     {
       '@type': 'PropertyValue',
       name: t('content.jsonld.productionLeadTime'),
-      value: `${facts.leadTime} after confirmed PO and deposit`,
+      value: t('content.jsonld.productionLeadTimeValue', { leadTime: facts.leadTime }),
     },
     { '@type': 'PropertyValue', name: t('content.jsonld.certifications'), value: t('content.product.certificationsScope') },
   ]
@@ -266,9 +270,9 @@ function productLd(origin: string, product: ContentProduct, locale: Locale, t: (
         name: s.label,
         value: s.value,
       })),
-      { '@type': 'PropertyValue', name: 'MOQ pilot', value: String(facts.moq.trialStandard) },
-      { '@type': 'PropertyValue', name: 'MOQ standard', value: String(facts.moq.standardRun) },
-      { '@type': 'PropertyValue', name: 'Pricing', value: 'Quote-based per project specification' },
+      { '@type': 'PropertyValue', name: t('content.jsonld.moqPilotLabel'), value: String(facts.moq.trialStandard) },
+      { '@type': 'PropertyValue', name: t('content.jsonld.moqStandardLabel'), value: String(facts.moq.standardRun) },
+      { '@type': 'PropertyValue', name: t('content.jsonld.pricingLabel'), value: t('content.jsonld.pricing') },
     ],
     offers: {
       '@type': 'Offer',

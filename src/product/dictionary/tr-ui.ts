@@ -327,6 +327,12 @@ export const trUi = {
       productionLeadTime: 'Üretim süresi',
       certifications: 'Sertifikalar',
       audience: 'B2B markalar, distribütörler, tesisler, kulüpler ve okullar',
+      moqValue: '{trialStandard} pilot · {standardRun} standart hacim · {customMould} özel kalıp',
+      productionLeadTimeValue: '{leadTime} sipariş (PO) ve depozito onayından sonra',
+      pricing: 'Proje spesifikasyonuna göre teklif bazlı',
+      pricingLabel: 'Fiyatlandırma',
+      moqPilotLabel: 'MOQ pilot',
+      moqStandardLabel: 'MOQ standart',
     },
   },
   marketing: {

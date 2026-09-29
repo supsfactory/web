@@ -317,6 +317,12 @@ export const frUi = {
       productionLeadTime: 'Délai de production',
       certifications: 'Certifications',
       audience: 'Marques B2B, distributeurs, resorts, clubs et écoles',
+      moqValue: '{trialStandard} pilote · {standardRun} volume standard · {customMould} moule sur mesure',
+      productionLeadTimeValue: '{leadTime} après confirmation du PO et de l’acompte',
+      pricing: 'Sur devis, selon la spécification du projet',
+      pricingLabel: 'Tarification',
+      moqPilotLabel: 'MOQ pilote',
+      moqStandardLabel: 'MOQ standard',
     },
   },
   marketing: {

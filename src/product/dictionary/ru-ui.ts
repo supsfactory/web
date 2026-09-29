@@ -327,6 +327,12 @@ export const ruUi = {
       productionLeadTime: 'Срок производства',
       certifications: 'Сертификаты',
       audience: 'B2B-бренды, дистрибьюторы, курорты, клубы и школы',
+      moqValue: '{trialStandard} пилот · {standardRun} стандартный объём · {customMould} индивидуальная форма',
+      productionLeadTimeValue: '{leadTime} после подтверждённого заказа (PO) и предоплаты',
+      pricing: 'По расценке согласно спецификации проекта',
+      pricingLabel: 'Цены',
+      moqPilotLabel: 'MOQ пилот',
+      moqStandardLabel: 'MOQ стандарт',
     },
   },
   marketing: {

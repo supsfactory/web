@@ -327,6 +327,12 @@ export const svUi = {
       productionLeadTime: 'Produktionstid',
       certifications: 'Certifieringar',
       audience: 'B2B-varumärken, distributörer, orter, klubbar och skolor',
+      moqValue: '{trialStandard} pilot · {standardRun} standardvolym · {customMould} specialform',
+      productionLeadTimeValue: '{leadTime} efter bekräftad PO och insättning',
+      pricing: 'Offertbaserat, enligt projektspecifikation',
+      pricingLabel: 'Pris',
+      moqPilotLabel: 'MOQ pilot',
+      moqStandardLabel: 'MOQ standard',
     },
   },
   marketing: {

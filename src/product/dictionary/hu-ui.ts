@@ -328,6 +328,12 @@ export const huUi: UiDict = {
       productionLeadTime: 'Gyártási átfutási idő',
       certifications: 'Tanúsítványok',
       audience: 'B2B márkák, forgalmazók, üdülőhelyek, klubok és iskolák',
+      moqValue: '{trialStandard} próbagyártás · {standardRun} szabványos gyártás · {customMould} egyedi forma',
+      productionLeadTimeValue: '{leadTime} a rendelés és az előleg visszaigazolása után',
+      pricing: 'Ajánlat alapján, a projekt specifikációja szerint',
+      pricingLabel: 'Árazak',
+      moqPilotLabel: 'MOQ próbagyártás',
+      moqStandardLabel: 'MOQ szabványos gyártás',
     },
   },
   marketing: {

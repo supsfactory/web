@@ -328,6 +328,12 @@ export const roUi: UiDict = {
       productionLeadTime: 'Termen de producție',
       certifications: 'Certificări',
       audience: 'Branduri B2B, distribuitori, resorturi, cluburi și școli',
+      moqValue: '{trialStandard} pilot · {standardRun} volum standard · {customMould} formă dedicată',
+      productionLeadTimeValue: '{leadTime} după confirmarea comenzii (PO) și a avansului',
+      pricing: 'Pe bază de ofertă, conform specificației proiectului',
+      pricingLabel: 'Prețuri',
+      moqPilotLabel: 'MOQ pilot',
+      moqStandardLabel: 'MOQ standard',
     },
   },
   marketing: {

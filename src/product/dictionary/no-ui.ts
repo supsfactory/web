@@ -327,6 +327,12 @@ export const noUi = {
       productionLeadTime: 'Produksjonstid',
       certifications: 'Sertifiseringer',
       audience: 'B2B-merkenavn, distributører, destinasjoner, klubber og skoler',
+      moqValue: '{trialStandard} pilot · {standardRun} standardvolum · {customMould} spesialform',
+      productionLeadTimeValue: '{leadTime} etter bekreftet PO og depositum',
+      pricing: 'Tilbudsbasert, i henhold til prosjektspesifikasjon',
+      pricingLabel: 'Pris',
+      moqPilotLabel: 'MOQ pilot',
+      moqStandardLabel: 'MOQ standard',
     },
   },
   marketing: {

@@ -327,6 +327,12 @@ export const itUi = {
       productionLeadTime: 'Tempi di produzione',
       certifications: 'Certificazioni',
       audience: 'Marchi B2B, distributori, resort, club e scuole',
+      moqValue: '{trialStandard} pilota · {standardRun} volume standard · {customMould} stampo su misura',
+      productionLeadTimeValue: '{leadTime} dopo PO e acconto confermati',
+      pricing: 'Su preventivo, secondo la specifica del progetto',
+      pricingLabel: 'Prezzi',
+      moqPilotLabel: 'MOQ pilota',
+      moqStandardLabel: 'MOQ standard',
     },
   },
   marketing: {

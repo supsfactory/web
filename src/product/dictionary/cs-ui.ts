@@ -327,6 +327,12 @@ export const csUi = {
       productionLeadTime: 'Dodací lhůta výroby',
       certifications: 'Certifikace',
       audience: 'B2B značky, distributoři, resorty, kluby a školy',
+      moqValue: '{trialStandard} pilotní · {standardRun} standardní objem · {customMould} na míru',
+      productionLeadTimeValue: '{leadTime} po potvrzení objednávky a záloze',
+      pricing: 'Dle nabídky podle projektové specifikace',
+      pricingLabel: 'Ceny',
+      moqPilotLabel: 'MOQ pilotní',
+      moqStandardLabel: 'MOQ standardní',
     },
   },
   marketing: {

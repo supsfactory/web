@@ -327,6 +327,12 @@ export const daUi = {
       productionLeadTime: 'Leveringstid',
       certifications: 'Certificeringer',
       audience: 'B2B-brands, distributører, resorts, klubber og skoler',
+      moqValue: '{trialStandard} pilot · {standardRun} standardvolumen · {customMould} specialform',
+      productionLeadTimeValue: '{leadTime} efter bekræftet PO og depositum',
+      pricing: 'Tilbudsdrevet, i henhold til projektspecifikation',
+      pricingLabel: 'Pris',
+      moqPilotLabel: 'MOQ pilot',
+      moqStandardLabel: 'MOQ standard',
     },
   },
   marketing: {

@@ -327,6 +327,12 @@ export const plUi = {
       productionLeadTime: 'Czas realizacji produkcji',
       certifications: 'Certyfikacje',
       audience: 'Marki B2B, dystrybutorzy, ośrodki, kluby i szkoły',
+      moqValue: '{trialStandard} pilotaż · {standardRun} wolumen standardowy · {customMould} forma na wymiar',
+      productionLeadTimeValue: '{leadTime} po potwierdzeniu zamówienia i zaliczce',
+      pricing: 'Wycena indywidualna, zgodnie ze specyfikacją projektu',
+      pricingLabel: 'Cennik',
+      moqPilotLabel: 'MOQ pilotaż',
+      moqStandardLabel: 'MOQ standardowy',
     },
   },
   marketing: {

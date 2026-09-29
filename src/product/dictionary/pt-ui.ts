@@ -327,6 +327,12 @@ export const ptUi = {
       productionLeadTime: 'Prazo de produção',
       certifications: 'Certificações',
       audience: 'Marcas B2B, distribuidores, resorts, clubes e escolas',
+      moqValue: '{trialStandard} piloto · {standardRun} volume padrão · {customMould} molde personalizado',
+      productionLeadTimeValue: '{leadTime} após confirmação do PO e do depósito',
+      pricing: 'Sob orçamento, conforme a especificação do projeto',
+      pricingLabel: 'Preços',
+      moqPilotLabel: 'MOQ piloto',
+      moqStandardLabel: 'MOQ padrão',
     },
   },
   marketing: {
