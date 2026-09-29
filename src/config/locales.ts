@@ -5,8 +5,8 @@
  * `src/features/i18n/locale.ts`. All locale-aware code should import from
  * here instead of defining locale lists inline.
  *
- * The current project supports en + es + fr + de runtimes (ACTIVE_LOCALES);
- * the template architecture supports 34 locales. Adding a live locale requires:
+ * The current project runs en + 17 additional ACTIVE_LOCALES; the template
+ * architecture supports 34 locales. Adding a live locale requires:
  *   1. Move the BCP 47 code from SUPPORTED_LOCALES usage into ACTIVE_LOCALES
  *   2. Create a dictionary file in src/features/i18n/dictionaries/{locale}.ts
  *   3. Add locale-specific content in src/content/locales/{locale}/
@@ -55,13 +55,22 @@ export const SUPPORTED_LOCALES = [
   'et',
 ] as const
 
-export const ACTIVE_LOCALES: readonly Locale[] = ['en', 'es', 'fr', 'de', 'it', 'pt', 'nl', 'sv', 'no', 'pl', 'da', 'fi', 'ru', 'cs', 'tr', 'ro', 'hu']
+export const ACTIVE_LOCALES: readonly Locale[] = ['en', 'es', 'fr', 'de', 'it', 'pt', 'nl', 'sv', 'no', 'pl', 'da', 'fi', 'ru', 'cs', 'ar', 'tr', 'ro', 'hu']
 
 export type Locale = (typeof SUPPORTED_LOCALES)[number]
 
 export type ActiveLocale = typeof ACTIVE_LOCALES[number]
 
 export const DEFAULT_LOCALE: Locale = 'en'
+
+/** Supported locales written right-to-left. Drives the `dir` attribute on `<html>`. */
+export const RTL_LOCALES: readonly Locale[] = ['ar', 'he']
+
+export type TextDirection = 'ltr' | 'rtl'
+
+export function getLocaleDirection(locale: string | undefined): TextDirection {
+  return locale && RTL_LOCALES.includes(locale as Locale) ? 'rtl' : 'ltr'
+}
 
 export const LOCALE_LABELS: Record<string, { native: string; short: string }> = {
   en: { native: 'English', short: 'EN' },

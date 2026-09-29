@@ -57,11 +57,20 @@ test('sitemap single entries emit fr alternate when the fr flag is set', () => {
   expect(xml).toContain('hreflang="x-default"')
 })
 
+test('ar locale sitemap: /ar URLs + cross-links to en', () => {
+  const xml = buildLocaleSitemap(origin, 'ar', [{ path: '/factory' }])
+  expect(xml).toContain(`<loc>${origin}/ar/factory</loc>`)
+  expect(xml).toContain('hreflang="en-US"')
+  expect(xml).toContain('hreflang="ar-SA"')
+  expect(xml).toContain(`href="${origin}/ar/factory"`)
+})
+
 test('sitemap index aggregates per-section files', () => {
-  const xml = buildSitemapIndex(origin, ['sitemap-pages.xml', 'sitemap-es.xml'])
+  const xml = buildSitemapIndex(origin, ['sitemap-pages.xml', 'sitemap-es.xml', 'sitemap-ar.xml'])
   expect(xml).toContain('<sitemapindex')
   expect(xml).toContain(`<loc>${origin}/sitemap-pages.xml</loc>`)
   expect(xml).toContain(`<loc>${origin}/sitemap-es.xml</loc>`)
+  expect(xml).toContain(`<loc>${origin}/sitemap-ar.xml</loc>`)
 })
 
 test('sitemap lists both locales of public pages with hreflang', () => {

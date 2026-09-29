@@ -26,6 +26,7 @@ const PARENT_DIVISION_DESCRIPTION: Record<string, string> = {
   tr: `${BRAND_COMPANY_NAME} şirketinin deniz ürünleri üretim bölümü.`,
   ro: `Divizia de producție de echipamente marine a ${BRAND_COMPANY_NAME}`,
   hu: `A ${BRAND_COMPANY_NAME} hajóépítési és tengeri termékek gyártó részlege.`,
+  ar: `قسم تصنيع المنتجات البحرية التابع لشركة ${BRAND_COMPANY_NAME}`,
 }
 
 export function siteLd(locale?: string): Record<string, unknown>[] {

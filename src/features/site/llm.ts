@@ -19,7 +19,7 @@ import { EDGE_REDIRECTS } from '@/features/seo/edge-gate'
 import { LEGACY_REDIRECTS } from '@/features/seo/legacy-redirects'
 import { SITE_NAME } from '@/config/site'
 import { PAGE_TITLES } from '@/product/entity-data'
-import { LLM_SITE_DESCRIPTION, LLM_FAQ_DESCRIPTION, LLM_SPANISH_HOMEPAGE_DESCRIPTION, LLM_FRENCH_HOMEPAGE_DESCRIPTION, LLM_GERMAN_HOMEPAGE_DESCRIPTION, LLM_ITALIAN_HOMEPAGE_DESCRIPTION, LLM_PORTUGUESE_HOMEPAGE_DESCRIPTION, LLM_DUTCH_HOMEPAGE_DESCRIPTION, LLM_SWEDISH_HOMEPAGE_DESCRIPTION, LLM_NORWEGIAN_HOMEPAGE_DESCRIPTION, LLM_POLISH_HOMEPAGE_DESCRIPTION, LLM_DANISH_HOMEPAGE_DESCRIPTION, LLM_FINNISH_HOMEPAGE_DESCRIPTION, LLM_RUSSIAN_HOMEPAGE_DESCRIPTION, LLM_CZECH_HOMEPAGE_DESCRIPTION, LLM_TURKISH_HOMEPAGE_DESCRIPTION, LLM_ROMANIAN_HOMEPAGE_DESCRIPTION, LLM_HUNGARIAN_HOMEPAGE_DESCRIPTION, LLM_FACT_BLOCK } from '@/product/ai-content'
+import { LLM_SITE_DESCRIPTION, LLM_FAQ_DESCRIPTION, LLM_SPANISH_HOMEPAGE_DESCRIPTION, LLM_FRENCH_HOMEPAGE_DESCRIPTION, LLM_GERMAN_HOMEPAGE_DESCRIPTION, LLM_ITALIAN_HOMEPAGE_DESCRIPTION, LLM_PORTUGUESE_HOMEPAGE_DESCRIPTION, LLM_DUTCH_HOMEPAGE_DESCRIPTION, LLM_SWEDISH_HOMEPAGE_DESCRIPTION, LLM_NORWEGIAN_HOMEPAGE_DESCRIPTION, LLM_POLISH_HOMEPAGE_DESCRIPTION, LLM_DANISH_HOMEPAGE_DESCRIPTION, LLM_FINNISH_HOMEPAGE_DESCRIPTION, LLM_RUSSIAN_HOMEPAGE_DESCRIPTION, LLM_CZECH_HOMEPAGE_DESCRIPTION, LLM_ARABIC_HOMEPAGE_DESCRIPTION, LLM_TURKISH_HOMEPAGE_DESCRIPTION, LLM_ROMANIAN_HOMEPAGE_DESCRIPTION, LLM_HUNGARIAN_HOMEPAGE_DESCRIPTION, LLM_FACT_BLOCK } from '@/product/ai-content'
 import { GLOSSARY } from '@/product/glossary'
 
 const flat = (text: string) => text.replace(/\s+/g, ' ').trim()
@@ -1690,6 +1690,75 @@ export function llmsRomanianFull(): string {
     '',
     '# Română: Ghiduri',
     ...guideBlocks,
+    '',
+  ].join('\n\n')
+}
+
+/**
+ * `/llms.txt` Arabic section — absolute /ar URLs so LLMs can ingest the mirror
+ * directly. Scoped to the assets that ship real Arabic copy (case studies and
+ * Knowledge Center articles); the long-form MDX sidecars are still English, so
+ * they are pointed at via the sitemap rather than restated as Arabic.
+ */
+export function llmArabicIndex(origin: string): string {
+  const ar = (path: string) => abs(origin, `/ar${path}`)
+  const projectLines = projects.ar.map((p) => `- [${p.metaTitle}](${ar(`/projects/${p.slug}`)}): ${flat(p.metaDescription)}`)
+  const knowledgeLines = knowledge.ar.map((a) => `- [${a.metaTitle}](${ar(`/knowledge/${a.slug}`)}): ${flat(a.metaDescription)}`)
+  return [
+    '',
+    '## العربية',
+    '',
+    `- [${SITE_NAME} — الصفحة الرئيسية](${ar('/')}): ${LLM_ARABIC_HOMEPAGE_DESCRIPTION}`,
+    `- [خريطة الموقع العربية](${abs(origin, '/sitemap-ar.xml')})`,
+    '',
+    '### العربية: دراسات الحالة',
+    ...projectLines,
+    '',
+    '### العربية: مركز المعرفة',
+    ...knowledgeLines,
+    '',
+  ].join('\n')
+}
+
+/** Full Arabic text for the project case studies and knowledge articles (in /llms-full.txt). */
+export function llmsArabicFull(): string {
+  const projectBlocks = projects.ar.map((p) =>
+    [
+      `# ${p.h1}`,
+      '',
+      ...p.intro.map(flat),
+      '',
+      `القطاع: ${p.industry}`,
+      '',
+      `المتطلب: ${flat(p.requirement)}`,
+      '',
+      `التحدي: ${flat(p.challenge)}`,
+      '',
+      `الحل: ${flat(p.solution)}`,
+      '',
+      `المنتج: ${flat(p.product)}`,
+      '',
+      '## العملية',
+      ...p.process.map((s) => `- ${s.title}: ${flat(s.body)}`),
+      '',
+      '## النتيجة',
+      flat(p.result),
+      '',
+      `الخلاصة: ${flat(p.outcome)}`,
+      '',
+      `الوسوم: ${p.tags.join('، ')}`,
+    ].join('\n'),
+  )
+  const knowledgeBlocks = knowledge.ar.map((a) =>
+    [`# ${a.h1}`, '', flat(a.intro), ...a.sections.flatMap((s) => ['', `## ${s.title}`, '', ...s.body.map(flat)])].join('\n'),
+  )
+  return [
+    '',
+    '# العربية: دراسات الحالة',
+    ...projectBlocks,
+    '',
+    '# العربية: مركز المعرفة',
+    ...knowledgeBlocks,
     '',
   ].join('\n\n')
 }

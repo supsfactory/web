@@ -1,6 +1,8 @@
 import { test, expect } from 'vitest'
 import { translate, negotiateLocale, locales, defaultLocale, stripDefaultLocalePrefix } from '@/features/i18n/locale'
 import { en } from '@/features/i18n/dictionaries/en'
+import { ar } from '@/features/i18n/dictionaries/ar'
+import { RTL_LOCALES, getLocaleDirection, SUPPORTED_LOCALES } from '@/config/locales'
 
 test('stripDefaultLocalePrefix：去掉 /en 前缀且保留 query 和 hash', () => {
   expect(stripDefaultLocalePrefix('/en/contact?ref=x')).toBe('/contact?ref=x')
@@ -29,4 +31,23 @@ test('negotiateLocale：无 cookie 时按 accept-language', () => {
 test('negotiateLocale：都不匹配回退默认', () => {
   expect(negotiateLocale('xx', 'xx-XX')).toBe(defaultLocale)
   expect(locales).toContain(defaultLocale)
+})
+
+test('ar 已激活并注册字典', () => {
+  expect(locales).toContain('ar')
+  expect(translate(ar, 'feedback.status.open')).toBe(ar.feedback.status.open)
+  expect(translate(ar, 'feedback.status.open')).not.toBe('feedback.status.open')
+})
+
+test('ar 为 RTL，其余激活 locale 为 LTR', () => {
+  expect(getLocaleDirection('ar')).toBe('rtl')
+  expect(getLocaleDirection('he')).toBe('rtl')
+  expect(getLocaleDirection('en')).toBe('ltr')
+  expect(getLocaleDirection('tr')).toBe('ltr')
+  expect(getLocaleDirection(undefined)).toBe('ltr')
+  // 只有激活且受支持的 locale 才能是 RTL locale
+  for (const l of RTL_LOCALES) {
+    expect(SUPPORTED_LOCALES).toContain(l)
+  }
+  expect(RTL_LOCALES.filter((l) => !locales.includes(l))).toEqual(['he'])
 })

@@ -27,6 +27,7 @@ const handler = async () => {
       llm.llmsFinnishFull() +
       llm.llmsRussianFull() +
       llm.llmsCzechFull() +
+      llm.llmsArabicFull() +
       llm.llmsTurkishFull() +
       llm.llmsRomanianFull() +
       llm.llmsHungarianFull(),

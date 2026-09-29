@@ -346,7 +346,7 @@ test('pt product FAQ pool is Portuguese (not Spanish/en fallback)', () => {
 
 test('localized facts (FACTS_LOCALE) provide Portuguese shorthands for all locales', () => {
   const locales = Object.keys(FACTS_LOCALE).sort() as (keyof typeof FACTS_LOCALE)[]
-  expect(locales).toEqual(['cs', 'da', 'de', 'en', 'es', 'fi', 'fr', 'hu', 'it', 'nl', 'no', 'pl', 'pt', 'ro', 'ru', 'sv', 'tr'])
+  expect(locales).toEqual(['ar', 'cs', 'da', 'de', 'en', 'es', 'fi', 'fr', 'hu', 'it', 'nl', 'no', 'pl', 'pt', 'ro', 'ru', 'sv', 'tr'])
   const enKeys = Object.keys(FACTS_LOCALE.en)
   for (const l of locales) {
     expect(Object.keys(FACTS_LOCALE[l]).sort()).toEqual([...enKeys].sort())

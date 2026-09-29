@@ -112,7 +112,7 @@ export interface FactShorthands {
   pressureReject: string
 }
 
-export const FACTS_LOCALE: Record<'en' | 'es' | 'fr' | 'de' | 'it' | 'pt' | 'nl' | 'sv' | 'no' | 'pl' | 'da' | 'fi' | 'ru' | 'cs' | 'tr' | 'ro' | 'hu', FactShorthands> = {
+export const FACTS_LOCALE: Record<'en' | 'es' | 'fr' | 'de' | 'it' | 'pt' | 'nl' | 'sv' | 'no' | 'pl' | 'da' | 'fi' | 'ru' | 'cs' | 'ar' | 'tr' | 'ro' | 'hu', FactShorthands> = {
   en: {
     moq: {
       existingPlatform: FACTS.moq.existingPlatform,
@@ -308,6 +308,20 @@ export const FACTS_LOCALE: Record<'en' | 'es' | 'fr' | 'de' | 'it' | 'pt' | 'nl'
     assemblyChecklist: '100',
     pressureTest: '18.0 PSI · 24 h udržení tlaku',
     pressureReject: 'pokles tlaku >0,50 PSI/24 h (automatická reklamace)',
+  },
+  ar: {
+    moq: {
+      existingPlatform: '5–10 قطع (شعار فقط على التصميم القائم، ولفة المواد نفسها)',
+      trialStandard: '20–50 قطعة (رسومات مخصصة أو تعديل طفيف في المواصفة، ولفة المواد نفسها)',
+      standardRun: '90–100+ قطعة لكل تكوين معتمد، مع مراعاة متطلبات لفة المواد والتغليف',
+      customMould: '90–100+ قطعة (الشكل الجديد يتطلب قالبًا مخصصًا؛ وتصنيع القالب يضيف 15–20 يومًا)',
+    },
+    leadTime: '25–35 يومًا',
+    leadTimeDetail: '25–35 يومًا من تأكيد أمر الشراء (PO) والعربون؛ وتطوير القالب المخصص يضيف 15–20 يومًا لتصنيع القوالب.',
+    sampleTime: '7–12 يومًا',
+    assemblyChecklist: '100',
+    pressureTest: '18.0 PSI · ضغط مُحافظ عليه 24 ساعة',
+    pressureReject: 'انخفاض الضغط >0.50 PSI/24 ساعة (رفض تلقائي)',
   },
   tr: {
     moq: {

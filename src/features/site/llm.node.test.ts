@@ -1,9 +1,11 @@
 import { test, expect } from 'vitest'
-import { llmsFull, llmBrandIndex, llmFrenchIndex, llmsFrenchFull, llmGermanIndex, llmsGermanFull, llmItalianIndex, llmsItalianFull, llmPortugueseIndex, llmsPortugueseFull, llmDutchIndex, llmsDutchFull, llmSwedishIndex, llmsSwedishFull, llmNorwegianIndex, llmsNorwegianFull, llmPolishIndex, llmsPolishFull, llmDanishIndex, llmsDanishFull, llmFinnishIndex, llmsFinnishFull, llmRussianIndex, llmsRussianFull, llmCzechIndex, llmsCzechFull, llmTurkishIndex, llmsTurkishFull, llmRomanianIndex, llmsRomanianFull, llmHungarianIndex, llmsHungarianFull } from '@/features/site/llm'
+import { llmsFull, llmBrandIndex, llmFrenchIndex, llmsFrenchFull, llmGermanIndex, llmsGermanFull, llmItalianIndex, llmsItalianFull, llmPortugueseIndex, llmsPortugueseFull, llmDutchIndex, llmsDutchFull, llmSwedishIndex, llmsSwedishFull, llmNorwegianIndex, llmsNorwegianFull, llmPolishIndex, llmsPolishFull, llmDanishIndex, llmsDanishFull, llmFinnishIndex, llmsFinnishFull, llmRussianIndex, llmsRussianFull, llmCzechIndex, llmsCzechFull, llmArabicIndex, llmsArabicFull, llmTurkishIndex, llmsTurkishFull, llmRomanianIndex, llmsRomanianFull, llmHungarianIndex, llmsHungarianFull } from '@/features/site/llm'
 import { getContentPages } from '@/features/content/loader'
 import { GUIDES_FR, GUIDES_DE, GUIDES_IT, GUIDES_PT, GUIDES_NL, GUIDES_SV, GUIDES_NO, GUIDES_PL, GUIDES_DA, GUIDES_FI, GUIDES_RU, GUIDES_CS, GUIDES_TR, GUIDES_RO, GUIDES_HU } from '@/features/content/guide-content'
 import { EDGE_REDIRECTS } from '@/features/seo/edge-gate'
 import { LEGACY_REDIRECTS } from '@/features/seo/legacy-redirects'
+import { projects } from '@/product/projects'
+import { knowledge } from '@/product/knowledge'
 
 const urlLines = (text: string): Set<string> => {
   const paths = new Set<string>()
@@ -366,6 +368,38 @@ test('llms-full.txt Czech section: product/news/tech/case/guide bodies present',
   expect(cs).toContain('# Průvodce:')
   for (const g of GUIDES_CS) {
     expect(cs, `llms-full.txt Czech section missing guide ${g.slug}`).toContain(`# Průvodce: ${g.title}`)
+  }
+})
+
+test('llms.txt Arabic section: /ar absolute links, Arabic homepage note, case studies and knowledge', () => {
+  const section = llmArabicIndex('https://isupfactory.com')
+  expect(section).toContain('## العربية')
+  expect(section).toContain('— الصفحة الرئيسية')
+  expect(section).toContain('### العربية: دراسات الحالة')
+  expect(section).toContain('### العربية: مركز المعرفة')
+  expect(section).toContain('https://isupfactory.com/ar/')
+  expect(section).toContain('https://isupfactory.com/sitemap-ar.xml')
+  for (const p of projects.ar) {
+    expect(section, `llms.txt Arabic section missing case study ${p.slug}`).toContain(`https://isupfactory.com/ar/projects/${p.slug}`)
+  }
+  for (const a of knowledge.ar) {
+    expect(section, `llms.txt Arabic section missing article ${a.slug}`).toContain(`https://isupfactory.com/ar/knowledge/${a.slug}`)
+  }
+  // Every /ar link must be absolute — the llmstxt.org spec requires it.
+  for (const url of indexPaths(section)) {
+    expect(url.startsWith('https://isupfactory.com/')).toBe(true)
+  }
+})
+
+test('llms-full.txt Arabic section: case study and knowledge bodies present', () => {
+  const ar = llmsArabicFull()
+  expect(ar).toContain('# العربية: دراسات الحالة')
+  expect(ar).toContain('# العربية: مركز المعرفة')
+  for (const p of projects.ar) {
+    expect(ar, `llms-full.txt Arabic section missing case study ${p.slug}`).toContain(`# ${p.h1}`)
+  }
+  for (const a of knowledge.ar) {
+    expect(ar, `llms-full.txt Arabic section missing article ${a.slug}`).toContain(`# ${a.h1}`)
   }
 })
 

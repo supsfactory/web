@@ -39,6 +39,7 @@ import { Route as SitemapEsDotxmlRouteImport } from './routes/sitemap-es[.]xml'
 import { Route as SitemapDeDotxmlRouteImport } from './routes/sitemap-de[.]xml'
 import { Route as SitemapDaDotxmlRouteImport } from './routes/sitemap-da[.]xml'
 import { Route as SitemapCsDotxmlRouteImport } from './routes/sitemap-cs[.]xml'
+import { Route as SitemapArDotxmlRouteImport } from './routes/sitemap-ar[.]xml'
 import { Route as SearchIndexDotjsonRouteImport } from './routes/search-index[.]json'
 import { Route as RssDotxmlRouteImport } from './routes/rss[.]xml'
 import { Route as RobotsDottxtRouteImport } from './routes/robots[.]txt'
@@ -291,6 +292,11 @@ const SitemapDaDotxmlRoute = SitemapDaDotxmlRouteImport.update({
 const SitemapCsDotxmlRoute = SitemapCsDotxmlRouteImport.update({
   id: '/sitemap-cs.xml',
   path: '/sitemap-cs.xml',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const SitemapArDotxmlRoute = SitemapArDotxmlRouteImport.update({
+  id: '/sitemap-ar.xml',
+  path: '/sitemap-ar.xml',
   getParentRoute: () => rootRouteImport,
 } as any)
 const SearchIndexDotjsonRoute = SearchIndexDotjsonRouteImport.update({
@@ -860,6 +866,7 @@ export interface FileRoutesByFullPath {
   '/robots.txt': typeof RobotsDottxtRoute
   '/rss.xml': typeof RssDotxmlRoute
   '/search-index.json': typeof SearchIndexDotjsonRoute
+  '/sitemap-ar.xml': typeof SitemapArDotxmlRoute
   '/sitemap-cs.xml': typeof SitemapCsDotxmlRoute
   '/sitemap-da.xml': typeof SitemapDaDotxmlRoute
   '/sitemap-de.xml': typeof SitemapDeDotxmlRoute
@@ -981,6 +988,7 @@ export interface FileRoutesByTo {
   '/robots.txt': typeof RobotsDottxtRoute
   '/rss.xml': typeof RssDotxmlRoute
   '/search-index.json': typeof SearchIndexDotjsonRoute
+  '/sitemap-ar.xml': typeof SitemapArDotxmlRoute
   '/sitemap-cs.xml': typeof SitemapCsDotxmlRoute
   '/sitemap-da.xml': typeof SitemapDaDotxmlRoute
   '/sitemap-de.xml': typeof SitemapDeDotxmlRoute
@@ -1102,6 +1110,7 @@ export interface FileRoutesById {
   '/robots.txt': typeof RobotsDottxtRoute
   '/rss.xml': typeof RssDotxmlRoute
   '/search-index.json': typeof SearchIndexDotjsonRoute
+  '/sitemap-ar.xml': typeof SitemapArDotxmlRoute
   '/sitemap-cs.xml': typeof SitemapCsDotxmlRoute
   '/sitemap-da.xml': typeof SitemapDaDotxmlRoute
   '/sitemap-de.xml': typeof SitemapDeDotxmlRoute
@@ -1226,6 +1235,7 @@ export interface FileRouteTypes {
     | '/robots.txt'
     | '/rss.xml'
     | '/search-index.json'
+    | '/sitemap-ar.xml'
     | '/sitemap-cs.xml'
     | '/sitemap-da.xml'
     | '/sitemap-de.xml'
@@ -1347,6 +1357,7 @@ export interface FileRouteTypes {
     | '/robots.txt'
     | '/rss.xml'
     | '/search-index.json'
+    | '/sitemap-ar.xml'
     | '/sitemap-cs.xml'
     | '/sitemap-da.xml'
     | '/sitemap-de.xml'
@@ -1467,6 +1478,7 @@ export interface FileRouteTypes {
     | '/robots.txt'
     | '/rss.xml'
     | '/search-index.json'
+    | '/sitemap-ar.xml'
     | '/sitemap-cs.xml'
     | '/sitemap-da.xml'
     | '/sitemap-de.xml'
@@ -1590,6 +1602,7 @@ export interface RootRouteChildren {
   RobotsDottxtRoute: typeof RobotsDottxtRoute
   RssDotxmlRoute: typeof RssDotxmlRoute
   SearchIndexDotjsonRoute: typeof SearchIndexDotjsonRoute
+  SitemapArDotxmlRoute: typeof SitemapArDotxmlRoute
   SitemapCsDotxmlRoute: typeof SitemapCsDotxmlRoute
   SitemapDaDotxmlRoute: typeof SitemapDaDotxmlRoute
   SitemapDeDotxmlRoute: typeof SitemapDeDotxmlRoute
@@ -1843,6 +1856,13 @@ declare module '@tanstack/react-router' {
       path: '/sitemap-cs.xml'
       fullPath: '/sitemap-cs.xml'
       preLoaderRoute: typeof SitemapCsDotxmlRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/sitemap-ar.xml': {
+      id: '/sitemap-ar.xml'
+      path: '/sitemap-ar.xml'
+      fullPath: '/sitemap-ar.xml'
+      preLoaderRoute: typeof SitemapArDotxmlRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/search-index.json': {
@@ -2667,6 +2687,7 @@ const rootRouteChildren: RootRouteChildren = {
   RobotsDottxtRoute: RobotsDottxtRoute,
   RssDotxmlRoute: RssDotxmlRoute,
   SearchIndexDotjsonRoute: SearchIndexDotjsonRoute,
+  SitemapArDotxmlRoute: SitemapArDotxmlRoute,
   SitemapCsDotxmlRoute: SitemapCsDotxmlRoute,
   SitemapDaDotxmlRoute: SitemapDaDotxmlRoute,
   SitemapDeDotxmlRoute: SitemapDeDotxmlRoute,

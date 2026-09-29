@@ -35,6 +35,7 @@ const handler = async () => {
       llm.llmFinnishIndex(origin) +
       llm.llmRussianIndex(origin) +
       llm.llmCzechIndex(origin) +
+      llm.llmArabicIndex(origin) +
       llm.llmTurkishIndex(origin) +
       llm.llmRomanianIndex(origin) +
       llm.llmHungarianIndex(origin),

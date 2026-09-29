@@ -8,6 +8,7 @@ import { trackPageView } from '@/features/analytics/events'
 import { getNonce } from '@/lib/csp'
 import { JsonLd, siteLd } from '@/features/seo/jsonld'
 import { SITE_NAME, SITE_DESCRIPTION, SITE_TAGLINE, BRAND_ASSETS_CDN } from '@/config'
+import { getLocaleDirection } from '@/config/locales'
 import appCss from '@/styles/app.css?url'
 
 export const Route = createRootRoute({
@@ -67,7 +68,7 @@ function RootComponent() {
   const lang = isLocale(firstSegment) ? firstSegment : defaultLocale
   const nonce = getNonce()
   return (
-    <html lang={lang} className={theme} suppressHydrationWarning>
+    <html lang={lang} dir={getLocaleDirection(lang)} className={theme} suppressHydrationWarning>
       <head>
         <script nonce={nonce} dangerouslySetInnerHTML={{ __html: THEME_BOOT_SCRIPT }} />
         <HeadContent />
