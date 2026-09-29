@@ -1,0 +1,85 @@
+meta:
+  title: 'Gyártási kapacitás – az 12,500 m²-es gyár | {SITE}'
+  description: 'A VATRAD gyár kapacitása: 12,500 m²-es üzem, amely évente 120,000+ SUP deszkát gyárt, bővítési lehetőséggel. Nagy léptékű OEM/ODM gyártás felfújható SUP termékekből.'
+  dateModified: '2026-08-07'
+  keywords:
+    - 'SUP gyártási kapacitás'
+    - 'felfújható SUP gyár'
+    - 'paddle deszka gyártás'
+    - 'kínai SUP gyár'
+hero:
+  tagline: Gyártási kapacitás
+  title: Gyártási kapacitás és éves teljesítmény
+  subtitle: 12,500 m²-es üzem, amely évente 120,000+ SUP deszkát gyárt, bővítési lehetőséggel
+
+answer:
+  label: 'Közvetlen válasz'
+  text: 'A gyár kapacitása: 12,500 m², négy specializált üzemben megosztva, évente 120,000+ SUP deszka, két műszakban 350+ munkavállaló, 50+ országba irányuló exporttal. Az MOQ-t a projekt konfigurációja alapján erősítjük meg – minta (1–2 darab), pilótasor (20–50 darab) és standard térfogat (90–100+ darab 150 m tekercsenként); a teljes logikáért tekintse meg rugalans MOQ- és márkázási útmutatónkat. Átfutási idő 25–35 nap, minták 7–12 nap alatt.'
+  verified: '2026. szeptember'
+
+intro: A VATRAD a kínai Qingdao egyik legnagyobb, felfújható SUP gyártására specializálódó üzemét működteti. A 12,500 m²-es gyárunk négy, párhuzamosan működő specializált üzemből áll. Az éves SUP kapacitás 120,000+ felfújható SUP deszka (körülbelül havi 10.000 darab), továbbá külön gyártósorokon 50,000+ mentőmellény és 5,000+ kiegészítő készül.
+
+highlights:
+  - value: 12,500 m²
+    label: Teljes gyártási terület
+    detail: 4 specializált üzemben
+  - value: 120,000+
+    label: Éves SUP kapacitás
+    detail: Felfújható SUP deszkák, kb. 10.000/hónap
+  - value: 350+
+    label: Szakképzett munkaerő
+    detail: 25+ mérnök, 2 műszak naponta
+  - value: 50+
+    label: Exportcél-ország
+    detail: EU, USA, Ausztrália, Közel-Kelet, Ázsia
+  - value: 25–35
+    label: Standard átfutási idő (nap)
+    detail: A megrendelés és az előleg megerősítése után
+  - value: 10+
+    label: Éves exporttapasztalat
+    detail: 2012 óta
+
+workshops:
+  - title: SUP deszkák gyártása
+    description: '4 automata összeállítósor felfújható SUP deszkákhoz, havi összesen körülbelül 10.000 deszka teljesítménnyel. A digitális nyomtatóállások és a szitanyomás egyszerre működnek. Éves SUP kapacitás: 120,000+ deszka.'
+    output: '120,000+ SUP/év'
+  - title: SUP deszkák gyártása – bővítő sorok
+    description: 'Kiegészítő automata sorok SUP deszkákhoz, amelyek a volumen növekedésével aktiválódnak. A drop-stitch magok ragasztása, a digitális nyomtatás és az összeállítóállások egyszerre működnek.'
+    output: 'Az éves 120,000+ SUP deszkakapacitás egy része'
+  - title: SUP kiegészítők és vegyes összeállítás
+    description: 'Többfunkciós összeállítósorok SUP kiegészítőkhöz – evezők, uszonyok, biztonsági kötelek, táskák és készletek. A meleglevegős hegesztőállások, az RF dielektromos sajtók és az összeállítóállások a megrendeléskombinációhoz igazítva állnak át. Éves kiegészítőkapacitás: 5,000+ darab.'
+    output: '5,000+ kiegészítő/év'
+  - title: Biztonsági felszerelés
+    description: 'Külön, magas tisztaságú gyártási terület mentőmellényekhez és biztonsági felszereléshez. Dedikált varró-, habbetöltő- és tesztállások. Éves mentőmellény-kapacitás: 50,000+ darab.'
+    output: '50,000+ mentőmellény/év'
+
+oem_capacity:
+  moq: 'SUP: minta 1–2 | pilóta 20–50 | térfogat 90–100+ (150 m tekercsenként)'
+  lead_time: 'Standard 25–35 nap. Minta 7–12 nap. Sürgős kivitelezés lehetséges.'
+  payment: 'T/T 30% előleg + 70% fennmaradó érték. L/C és Western Union is elfogadott.'
+
+lead_time_explainer:
+  tagline: 'Tervezés és ütemezés'
+  title: 'Hogyan alakul a kapacitás az Ön átfutási idejévé'
+  subtitle: 'A kapacitás nem egyetlen szám – így osztjuk ki valójában az átfutási időket.'
+  items:
+    - title: 'A kapacitás a specifikációktól függ'
+      body: 'A rendelkezésre álló kapacitás a deszka típusától, a kivitelezés összetettségétől, a csomagolástól és a szezonális kereslettől függ. A tavaszi és nyári csúcsidőszakban a sorok közel maximális kapacitáson működnek, és a mintahelyek foglalnak el elsőként.'
+    - title: 'Tervezzen az indulási szezon előtt'
+      body: 'Foglaljon időben a mintajóváhagyásra és a grafika befagyasztására. Az ismétlődő megrendelések a referencia-minta archiválásakor megállapított ismétlődő időablakba kerülnek.'
+    - title: 'Három ütemezési út'
+      body: 'A minták először a prototípussorra kerülnek, az első megrendelések a legközelebbi szabad összeállítási időablakba vannak ütemezve, az ismétlődő megrendelések pedig a saját ismétlődő időablakukban teljesülnek.'
+    - title: 'Vállalt átfutási idő csak értékelés után'
+      body: 'A szállítási határidőt csak a specifikációk, a grafika, a csomagolás és a mennyiség értékelése után erősítjük meg – soha előre rögzített ígéretként.'
+
+cta:
+  title: 'Ellenőrizze a gyártási kapacitást az Ön indulási dátumára'
+  subtitle: 'Küldje el a deszka típusát, a mennyiséget és a tervezett szállítási dátumot – válaszul megadjuk a következő szabad gyártási időablakot és az átfutási idő firmán ajánlatát.'
+  actions:
+    - variant: primary
+      text: Ellenőrizze a rendelkezésre állást
+      href: /hu/contact#production-availability
+    - text: Tekintse meg a gyár teljes bemutatóját
+      href: /hu/factory
+    - text: Hogyan készülnek a deszkák
+      href: /hu/factory/process

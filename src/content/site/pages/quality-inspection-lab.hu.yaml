@@ -1,0 +1,145 @@
+meta:
+  title: 'Minőségi és ellenőrzési laboratórium – ISO szerint végzett SUP vizsgálatok'
+  description: 'A felfújható SUP deszkák független minőségi ellenőrzése: szakítási próbák, levegőmegőrzési ciklusok, varrásleválási próbák és alapanyag-tanúsítás.'
+back_text: 'Vissza az R&D központba'
+home_label: 'Főoldal'
+
+hero:
+  tagline: '06. laboratórium'
+  title: 'Minőségi és ellenőrzési laboratórium'
+  subtitle: 'Független ellenőrzés – minden vizsgálatot meg kell adni a kiszállítás előtt'
+  image: 'https://assets.isupfactory.com/images/sups/factory/isupfactory-uv-resistance-testing.webp'
+  image_alt: 'UV-vizsgálat a Vatrad minőségi és ellenőrzési laboratóriumában'
+
+answer:
+  label: 'Közvetlen válasz'
+  text: 'Minden deszkát a kiszállítás előtt ellenőrizzük a közzétett specifikáció szerint: 18.0 PSI nyomáson, 24 órán át fenntartott felfújási próba (0.50 PSI-nél nagyobb nyomáscsökkenésnél automatikus elutasítás), ISO 1421 szerinti szakítási és varrásleválási próbák, valamint 100 pontos összeállítási ellenőrző lista. A laboratórium az ügyvezetőnek jelent, nem a gyártásnak, és bármelyik feladást leállíthat.'
+  verified: '2026. szeptember'
+
+intro: 'Minden műhelyünket elhagyó deszka azt a tanúsítást viseli, hogy egy meghatározott minőségi ellenőrzési és alapanyag-vizsgálati sorozaton átment. Minőségi és ellenőrzési laboratóriumunk a szervezetben önálló funkció – közvetlenül az ügyvezetőnek jelent, nem a gyártásnak –, így egyetlen kereskedelmi nyomás sem ronthatja el az ellenőrzési kaput. Ha egy alapanyagszállítmány vagy egy elkészült deszka nem felel meg a közzétett specifikációnak, a laboratóriumnak jogosultsága van leállítani a feladatot, amíg a nem megfelelőséget nem rendezik.'
+
+content_html: |
+  <h2>Bizalom, de ellenőrzéssel</h2>
+  <p>A laboratórium az ISO 9001 elveire igazított minőségirányítási rendszer szerint működik, vizsgálati módszereink pedig ahol alkalmazható, az ISO, ASTM és EN szabványokon alapulnak. Minden elvégzett vizsgálatról részletes nyilvántartást őrzünk, létrehozva ezzel a teljes nyomon követési láncot a nyersanyagátvételétől a kész deszka kiszállításáig.</p>
+
+  <h2>Vizsgálóberendezések és képességek</h2>
+  <table>
+    <thead><tr><th>Berendezés</th><th>Elvégzett vizsgálatok</th><th>Szabvány / módszer</th></tr></thead>
+    <tbody>
+      <tr><td>Univerzális vizsgálógép (50 kN)</td><td>Szakítási szilárdság (szövet), leválási szilárdság (varrások), repedés terjedése</td><td>ISO 1421, ISO 4674</td></tr>
+      <tr><td>Programozható levegőmegőrzési próbaberendezés</td><td>1000 felfújási/leeresztési ciklus állóképessége, 30 perces nyomástartási próba</td><td>Belső (az ISO 6185 módszer szerint)</td></tr>
+      <tr><td>Varrásleváló berendezés (motorizált 180°-os lekaparás)</td><td>A hegesztett és ragasztott varrások leválási szilárdsága 100 mm/min sebességgel</td><td>ISO 1421 / ASTM D1876</td></tr>
+      <tr><td>Vízoszlop-próbaberendezés</td><td>A szövet vízbehatolással szembeni ellenállása (0–1000 mbar)</td><td>ISO 811</td></tr>
+      <tr><td>Digitális vastagságmérő és mikrométer</td><td>Szövetvastagság, varratvastagság, ragasztóréteg vastagsága</td><td>ISO 2286-3</td></tr>
+      <tr><td>Klímakamra</td><td>Állandó hőmérsékleti kondicionálás (-40 °C-tól +80 °C-ig) hidegálló repedés- és hőöregítési próbákhoz</td><td>ISO 188, ISO 4675</td></tr>
+      <tr><td>Szín-spektrofotométer</td><td>A Delta-E színkülönbség mérése UV-kitettség után</td><td>ISO 105-A05 / ASTM D2244</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Az ellenőrzési kapuk – az alapanyagtól a kiszállításig</h2>
+  <p>Minden deszka egy meghatározott minőségi tervet követ, kötelező ellenőrzési pontokkal. Egyetlen deszka sem ugorhat át egy kapu felett; minden kaput egy minőségi felügyelőnek kell jóváhagynia, mielőtt a következő gyártási szakasz megkezdődik.</p>
+
+  <div class="not-prose my-8">
+    <div class="relative">
+      <div class="absolute left-4 top-0 bottom-0 w-0.5 bg-blue-200 dark:bg-blue-800"></div>
+      <div class="space-y-6 relative">
+        <div class="flex gap-4">
+          <div class="flex-shrink-0 w-8 h-8 rounded-full bg-blue-600 text-white flex items-center justify-center text-xs font-bold z-10">1. kapu</div>
+          <div class="flex-1 p-3 rounded-lg bg-white dark:bg-gray-950 border border-gray-200 dark:border-gray-800">
+            <p class="text-sm font-semibold">Beérkező alapanyagok ellenőrzése</p>
+            <p class="text-xs text-gray-500 mt-1">A szövetszállítmány, a drop-stitch mag, a ragasztószállítmány és a hardverelemek – mind ellenőrizve az átvételi specifikációhoz képest, a gyártásnak történő kiadás előtt.</p>
+          </div>
+        </div>
+        <div class="flex gap-4">
+          <div class="flex-shrink-0 w-8 h-8 rounded-full bg-blue-600 text-white flex items-center justify-center text-xs font-bold z-10">2. kapu</div>
+          <div class="flex-1 p-3 rounded-lg bg-white dark:bg-gray-950 border border-gray-200 dark:border-gray-800">
+            <p class="text-sm font-semibold">Folyamat közbeni ellenőrzés a hegesztett varratokon</p>
+            <p class="text-xs text-gray-500 mt-1">Az első próbavarratot (leválás és vizuális vizsgálat) minden gyártási műszakváltáskor vizsgáljuk.</p>
+          </div>
+        </div>
+        <div class="flex gap-4">
+          <div class="flex-shrink-0 w-8 h-8 rounded-full bg-blue-600 text-white flex items-center justify-center text-xs font-bold z-10">3. kapu</div>
+          <div class="flex-1 p-3 rounded-lg bg-white dark:bg-gray-950 border border-gray-200 dark:border-gray-800">
+            <p class="text-sm font-semibold">A rekesz pneumatikus próbája</p>
+            <p class="text-xs text-gray-500 mt-1">A deszkát 18.0 PSI nyomásra (12–15 PSI üzemi nyomás) fújjuk, és 24 órán át tartjuk. A 0.50 PSI-nél nagyobb nyomáscsökkenés automatikus elutasítást vált ki. Az adatokat minden gyártási számhoz rögzítjük.</p>
+          </div>
+        </div>
+        <div class="flex gap-4">
+          <div class="flex-shrink-0 w-8 h-8 rounded-full bg-blue-600 text-white flex items-center justify-center text-xs font-bold z-10">4. kapu</div>
+          <div class="flex-1 p-3 rounded-lg bg-white dark:bg-gray-950 border border-gray-200 dark:border-gray-800">
+            <p class="text-sm font-semibold">Kiszállítás előtti vizsgálat</p>
+            <p class="text-xs text-gray-500 mt-1">A teljes deszka vizsgálata: minden csavar a megfelelő nyomatékra meghúzva, a hídboríték tapadása, a grafika igazítása, megjelenési hibák nélkül. 100 pontos ellenőrző lista.</p>
+          </div>
+        </div>
+        <div class="flex gap-4">
+          <div class="flex-shrink-0 w-8 h-8 rounded-full bg-blue-600 text-white flex items-center justify-center text-xs font-bold z-10">5. kapu</div>
+          <div class="flex-1 p-3 rounded-lg bg-white dark:bg-gray-950 border border-gray-200 dark:border-gray-800">
+            <p class="text-sm font-semibold">Végső tanúsítás</p>
+            <p class="text-xs text-gray-500 mt-1">A próbajelentések elkészülnek, az ellenőrzési nyilvántartásokat elemezzük, és kiállítjuk a Megfelelőségi tanúsítványt.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <h2>Standard ellenőrzések minden szállítmánynál</h2>
+  <div class="not-prose my-8 grid grid-cols-2 md:grid-cols-4 gap-4">
+    <div class="p-4 rounded-lg border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-950 text-center">
+      <span class="block text-2xl font-bold text-blue-600">18 PSI</span>
+      <span class="text-xs text-gray-500">18.0 PSI a rekesz pneumatikus próbájában, 24 órán át tartva</span>
+    </div>
+    <div class="p-4 rounded-lg border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-950 text-center">
+      <span class="block text-2xl font-bold text-blue-600">&gt; 5 %</span>
+      <span class="text-xs text-gray-500">A nyomáscsökkenés automatikus elutasítást vált ki</span>
+    </div>
+    <div class="p-4 rounded-lg border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-950 text-center">
+      <span class="block text-2xl font-bold text-blue-600">100 %</span>
+      <span class="text-xs text-gray-500">A rekeszeket összeállítás előtt pneumatikusan vizsgáljuk</span>
+    </div>
+    <div class="p-4 rounded-lg border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-950 text-center">
+      <span class="block text-2xl font-bold text-blue-600">ISO 9001</span>
+      <span class="text-xs text-gray-500">Minőségirányítási rendszer</span>
+    </div>
+  </div>
+
+  <h2>Minőségi csapatunk</h2>
+  <p>A laboratóriumot egy minőségbiztosítási vezető (10 éves tapasztalat a tengerészeti minőségbiztosításban, ASQ minőségi tanúsítvánnyal), két minőségi felügyelő (mindketten 2. szintű, roncsolásmentes vizsgálati tanúsítvánnyal a vizuális vizsgálatra) és egy alapanyag-technikus alkotja, aki minden fizikai vizsgálatért felel. A csapat évente átmegy egy független harmadik fél szolgáltató által szervezett kompetenciavizsgálaton, hogy biztosítsuk a vizsgálati eredmények pontosságát és reprodukálhatóságát.</p>
+
+  <h2>Független vizsgálatok az ügyfeleknek</h2>
+  <p>Minőségi és ellenőrzési laboratóriumunk független vizsgálati szolgáltatásokra is rendelkezésre áll. Ha egy szövetspecifikációt kell ellenőriznie, egy új ragasztórendszert kell validálnia, vagy egy beszállító minősítéséhez harmadik fél vizsgálati jelentésre van szüksége, a vizsgálatokat az alkalmazandó szabvány szerint elvégezzük, és tanúsított vizsgálati jelentést állítunk ki.</p>
+  <p>Példák a közelmúltbeli harmadik fél vizsgálatokra:</p>
+  <ul>
+    <li>Leválási szilárdság összehasonlítása öt versenytárs ragasztófóliatermék között, egy európai beszerzési programhoz.</li>
+    <li>Gyorsított öregítési vizsgálat (UV és hőciklusok) egy új, narancssárgára pigmentált PVC recepthez, 500 óránkénti szabályos közbenső mérésekkel.</li>
+    <li>Levegőmegőrzés validálása 50 prototípus szelep-összeállításához egy új, nagy nyomású deszkakialakításhoz.</li>
+  </ul>
+
+  <h2>Vállalásunk Ön felé</h2>
+  <p>Amikor {SITE.name} deszkát kap, annak minőségi dossziéját is megkapja – egy jegyzéket azokból a vizsgálati eredményekből, amelyek az Ön konkrét deszkájára vonatkoznak. A szövetszállítmány tanúsítványa, a varrásleválási próbák, a rekeszek pneumatikus próbáinak jegyzőkönyvei és a kiszállítás előtti ellenőrző lista. Minden szám nyomon követhető. Minden felügyelő azonosítható. Ez nem csak bürokrácia – ez a biztosíték, hogy amit kiszállítottunk, az pontosan az, amit specifikáltunk.</p>
+  <p>Ha valaha minőségi panasza van, közvetlenül kapcsolatba léphet a laboratóriummal – az elérhetőségek az Ön megfelelőségi tanúsítványán szerepelnek. Minden bejelentést komolyan veszünk, és 48 órán belül formális vizsgálatot vállalunk.</p>
+
+  <h2>Mi történik, ha egy deszkát az ellenőrzésen elutasítunk?</h2>
+  <p>Az elutasított deszka nem tűnik el csendben. A laboratórium rögzített nemmegfelelőség-kezelési folyamatot követ, így a problémát elkülönítik, kijavítják, és megakadályozzák annak megismétlődését:</p>
+  <ul>
+    <li><strong>Elkülönítés</strong> – a deszkát címkézik, kiveszik a sorból, és bejegyzik a nemmegfelelőségi nyilvántartásba a felügyelő nevével és a nem teljesített kritériumokkal együtt.</li>
+    <li><strong>Újrafeldolgozás vagy megsemmisítés</strong> – a javítható hibákat (például egy szelep, egy színvarrás vagy a hídboríték egy sarka) tanúsított kezelő dolgozza újra, és a javított területet ugyanazzal a szabvánnyal vizsgáljuk újra. A specifikációt el nem érő deszkákat megsemmisítjük, nem értékesítjük le.</li>
+    <li><strong>Újellenőrzés</strong> – minden újrafeldolgozott deszka ismét átesik az érintett összes kapun, mielőtt visszatérhetne a csomagolósorba.</li>
+    <li><strong>Kiadás</strong> – csak az összes kapu jóváhagyott deszkák hagyják el a gyárat. A szállítmány minőségi jelentésében összefoglaljuk az elutasítási arányt, az alapokoztat és a megelőző intézkedést.</li>
+  </ul>
+
+  <h2>A kapott minőségi dokumentáció</h2>
+  <p>Minden szállítmány dokumentumcsomaggal együtt érkezik, amelyet a minőségbiztosítási csapatunk auditálhat: a szállítmány tanúsítványa (a szövet, a ragasztó és a hardver szállítmányszámai), a varrásleválási próbák nyilvántartásai, minden gyártási számhoz a rekeszek pneumatikus próbáinak jegyzőkönyvei, az aláírt 100 pontos kiszállítás előtti ellenőrző lista, a csomagolólista és a betöltés előtti deszkák fényképes nyilvántartása.</p>
+
+cta:
+  title: 'Kérjen egy mintát QC ellenőrző listából'
+  subtitle: 'Nézze meg pontosan az ellenőrzési kapukat, a vizsgálati módszereket és azokat a dokumentumokat, amelyekhez képest az Ön szállítmányát ellenőrizzük – küldje el a deszka típusát és a mennyiséget.'
+  actions:
+    - variant: primary
+      text: Kérje a QC ellenőrző listát
+      href: /hu/contact#quality-inquiry
+    - text: A hétlépéses ellenőrzési rendszer
+      href: /hu/quality
+    - text: A gyár minőségi laboratóriuma és jelentésletöltések
+      href: /hu/factory/quality-lab
+    - text: A nem megfelelő termékek kezelésének szabványa
+      href: /hu/factory/non-conforming-control

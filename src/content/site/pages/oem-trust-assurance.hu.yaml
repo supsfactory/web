@@ -1,0 +1,166 @@
+meta:
+  title: 'OEM bizalom és gyár-ellenőrzés – ellenőrizze a gyárunkat a megrendelés előtt | iSupfactory'
+  description: 'Így ellenőriznek az iSupfactory-t a vásárlók a megrendelés előtt: hivatalos nyilvántartás, gyár auditok, NDA-val alkalmazott mérnökök és harmadik fél által végzett vizsgálatok (SGS/TÜV/BV/Intertek).'
+  dateModified: '2026-08-14'
+  keywords:
+    - 'oem sup gyár ellenőrzése'
+    - 'ellenőrizze az eveződeszka-gyártót'
+    - 'kínai sup gyár audit'
+    - 'qingdao felfújható sup gyár'
+    - 'oem bizalmi garancia'
+    - 'eveződeszka-gyártó hitelessége'
+
+hero:
+  tagline: 'Ellenőrizhető gyártás'
+  title: 'OEM bizalom és gyár-ellenőrzés'
+  subtitle: 'A weboldalon szereplő minden állítás ellenőrizhető: a vállalat hivatalos nyilvántartása, egy 12,500 m²-es fizikai gyár, amelyet meglátogathat vagy auditálhat, valódi, NDA-val alkalmazott mérnökök, letölthető QMS dokumentumok és minden gyártási számra rögzített próbadatak. A Qingdao Vatrad Group Co., Ltd. tervezte és üzemelteti.'
+
+answer:
+  label: 'Közvetlen válasz'
+  text: 'A bizalom nem ígéret – dokumentáció. Mi egy bejegyzett kínai gyártóentitás vagyunk (Qingdao Vatrad Group Co., Ltd.) 12,500 m²-es fizikai gyárral Qingdaóban, 350+ munkavállalóval és 120,000+ deszka éves kapacitással. Ellenőrizheti a nyilvántartást, auditálhatja a gyárat, átnézheti a QMS SOP-okat, letöltheti a minta minőségi nyilvántartásait, programozhat harmadik fél általi vizsgálatot (SGS, TÜV, BV vagy Intertek), és 4 munkaóra alatt aláírhat egy NDA-t. Minden deszkát 18.0 PSI nyomáson próbálunk 24 órán át, 0.50 PSI-nél nagyobb esésnél automatikus elutasítással, és minden szállítmány 10 éves ERP nyomon követhetőséget tart. Ha egy állítást nem lehet dokumentálni, nem állítjuk.'
+  verified: '2026. szeptember'
+
+trust_stats:
+  - value: '12,500 m²'
+    label: Gyártóterület
+    detail: 4 speciális üzletcsarnok, auditokra nyitva
+  - value: '350+'
+    label: Munkavállaló a telephelyen
+    detail: 25+ mérnök az R&D-ben, az alapanyagoknál és a minőségellenőrzésben
+  - value: '120,000+'
+    label: Évente gyártott deszka
+    detail: 10,000 deszka/hónap 4 automatikus soron
+  - value: '4 óra'
+    label: NDA aláírási határidő
+    detail: A standard NDA 4 munkaóra alatt aláíródik
+  - value: '7 lépés'
+    label: Minőségi kapurendszer
+    detail: 01–7. csomópont, minden gyártási számra rögzítve
+  - value: '18.0 PSI'
+    label: 100%-os nyomáspróba
+    detail: 24 órás tartás, automatikus elutasítás 0.50 PSI-nél nagyobb esésnél
+
+role_boundary:
+  tagline: 'Kik vagyunk — és kik nem vagyunk'
+  title: 'Egy ellenőrizhető gyár, soha nem egy olyan állítás, amit el kell hinnie'
+  subtitle: 'A gyár és a kereskedőiroda közötti ellenőrzési különbség egyszerű: minden állítás mögött van egy dokument, egy személy vagy egy gép.'
+  features:
+    - icon: A
+      icon_bg: blue
+      title: 'Kik vagyunk – egy ellenőrizhető gyártó'
+      desc: '· Egy bejegyzett jogi entitás: Qingdao Vatrad Group Co., Ltd. – a nyilvántartási adatok NDA alatt vagy az audit során állnak rendelkezésre · Egy fizikai gyár: 12,500 m² a laixi (Qingdao) gazdasági fejlesztési zónában, 4 speciális üzletcsarnokkal, 350+ munkavállalóval és 4 automatikus sorral · Egy gyártócsapat: az Ön kérdéseire válaszoló emberek azok, akik az Ön deszkáit építik · Valódi dokumentumok: QMS SOP-ok, ellenőrzési szabványok és anonimizált minőségi nyilvántartások letöltésre · Független ellenőrzés köszönően fogadott: SGS, TÜV, BV vagy Intertek vizsgálatok, az Ön választása szerint, ISO 2859-1 II. szint szerint'
+      link: '/hu/factory'
+      link_label: 'Látogassa meg a gyár oldalát'
+    - icon: B
+      icon_bg: green
+      title: 'Kik nem vagyunk – a kereskedőiroda profilonja'
+      desc: '· Nem vagyunk kereskedőcég: nem adjuk tovább a megrendelést egy harmadik gyárnak, és nem adunk hozzá bróker árrést · Nem hordjuk a saját márkánkat az Ön deszkáin: a márka, a piac és az ügyfél az Öné · Nincsenek homályos minimumok: a MOQ a nyersanyagtekercs fizikájából számítható, és minden projektnél megerősítésre kerül · Nincsenek „csak kérésre elérhető” tanúsítványaink: a lista közzétett, az auditnyilvántartások megtekinthetők · Nincsenek csak szóbeli állítások: a próbanyomás, a küszöbértékek és a szállítmányok nyomon követhetősége minden gyártási számra dokumentált'
+      link: '/hu/oem-moq-guide'
+      link_label: 'Tekintse meg az átlátható MOQ útmutatót'
+
+trust_steps:
+  tagline: 'Egy valós esettanulmány'
+  title: 'Hogyan ellenőrzött minket egy északkal-európai bérelőflotta a megrendelés előtt'
+  subtitle: 'Hét ellenőrzési lépés, amelyet egy kereskedelmi bérelőüzemeltető végzett el, mielőtt 90–100+ darabos flottamegrendelést adott volna le – ugyanez az ellenőrző lista Önnek is rendelkezésre áll.'
+  steps:
+    - step: '01'
+      title: 'A hivatalos entitás ellenőrzése'
+      desc: 'A vásárló lekérte a kínai kereskedelmi nyilvántartást és a külkereskedelmi engedélyt. Az iSupfactory mögötti jogi entitás a Qingdao Vatrad Group Co., Ltd., amely 2012 óta bejegyzett gyártó Qingdaóban, Shandongban – a nemzeti nyilvántartáson keresztül, NDA alatt ellenőrizve.'
+    - step: '02'
+      title: 'Fizikai gyár és telephelyaudit'
+      desc: 'A gyáraudit (személyesen és videótúrával is) megerősítette a 12,500 m²-es gyárat: négy speciális üzletcsarnok, 350+ munkavállaló, négy automatikus sor és körülbelül 10,000 deszka havi gyártása. Az auditjelentés a szerződéses iratanyagba kerül.'
+    - step: '03'
+      title: 'Emberek: valódi mérnökök, nem értékesítési szövegek'
+      desc: 'A vásárló közvetlenül tárgyalt a mérnöki csapattal – a víztest tervezésével, az alapanyag laboratóriummal és a minőségellenőrzéssel. A projekt specifikációja és az NDA 4 munkaóra alatt cserélődött, a mérnöki elemzés pedig egy munkanapon belül visszaérkezett.'
+    - step: '04'
+      title: 'Dokumentumok: QMS, tanúsítványok és harmadik fél vizsgálata'
+      desc: 'Átnézték az ISO 9001:2015, ISO 25649 és CE megfelelőségi dokumentációt, a BSCI/REACH/RoHS nyilvántartásokat és a QMS SOP-okat. A vásárló az első térfogati megrendelés előrejutása előtt SGS vizsgálatot programozott ISO 2859-1 II. szint szerint, feladás előtt – és minden szállítmányról megfelelőségi tanúsítványt kapott.'
+    - step: '05'
+      title: 'Adatok: próbanyilvántartások minden gyártási számra'
+      desc: 'A vásárló átvizsgálta a valós próbanyilvántartásokat: minden rekesz 24 órán át 18.0 PSI nyomáson vizsgálva, automatikus elutasítással 0.50 PSI-nél nagyobb nyomásesésnél, 100 pontos összeállítási ellenőrző listákkal és 10 éves ERP szállítmány-nyomon követéssel. A megrendelés előtt minta minőségellenőrzési nyilvántartások kerültek benyújtásra.'
+    - step: '06'
+      title: 'Szerződéses védelem'
+      desc: 'A megrendelési szerződés lefedte a márka licencélését, egy megállapodott területi kizárólagossági időszakot, a formák tulajdonjogát és a visszavásárlási feltételeket, valamint azokat az adatokat és nyilvántartásokat, amelyek a szerszámokkal együtt átruháznak. A vásárló a gyárban jóváhagyta a formát a gyártás előtt.'
+    - step: '07'
+      title: 'Folyamatos irányítás'
+      desc: 'Negyedéves üzleti elemzések az Értékesítési alelnökkel és a Főmérnökkel, a gyártás alatti audit fenntartott joga, és a minőségi vitákhoz vezető eszkalációs út a QA-igazgatóhoz. A megállapodást közösen írta alá az Értékesítési alelnök, a Főmérnök és a QA-igazgató.'
+
+trust_faqs:
+  tagline: GYIK
+  title: 'A 12 kérdés, amelyet a vásárlók a megrendelés előtt feltesznek'
+  items:
+    - q: 'Az iSupfactory valóban gyár, vagy kereskedőcég?'
+      a: 'Az iSupfactory a Qingdao Vatrad Group Co., Ltd. SUP termékek fejlesztési és gyártási divíziója. Személyesen üzemeltetjük a qingdaói 12,500 m²-es gyárat – a tervezés, a vágás, a hegesztés, az összeállítás és a próbázás egyetlen telephelyen történik. Nincs kereskedőcég-jellegű átadás: az Ön kérdéseire válaszoló emberek azok, akik az Ön deszkáit építik.'
+    - q: 'Kivel fogok valójában dolgozni a projektemen?'
+      a: 'Egy név szerinti projektmérnökkel és egy név szerinti minőségügyi kapcsolattartóval, továbbá azokkal az osztályvezetőkkel, akik aláírják az Ön dokumentumait. Kérhető közvetlen beszélgetés a Főmérnökkel, a QA-igazgatóval vagy a gyár igazgatójával – a megrendelés előtt és után egyaránt. Ön és a munkát végző csapat között nincs semmilyen közvetítő.'
+    - q: 'Meglátogatható vagy auditálható a gyár?'
+      a: 'Igen. A laixi (Qingdao) gazdasági fejlesztési zónában lévő gyárunkat szívesen fogadjuk látogatásra, és támogatjuk a távoli auditokat élő videótúrákkal. Az auditokat függetlenül lehet szervezni (az Ön vizsgálója vagy egy harmadik fél, például SGS, TÜV, BV vagy Intertek), és az audit programja a szerződésbe foglalható.'
+    - q: 'Aláírunk-e NDA-t, mielőtt megosztanám a kivitelemet?'
+      a: 'Igen. Standard NDA-nk az Ön kérésétől számított 4 munkaóra alatt aláíródik, még bármilyen bizalmas specifikáció, grafika vagy műszaki fájl megosztása előtt. Kétnyelvű (angol/kínai) változatok rendelkezésre állnak, és a dokumentumot a gyár igazgatója ellenjegyzi.'
+    - q: 'Hogyan tudom megbizonyosodni arról, hogy a minőségre vonatkozó állításaim valósak?'
+      a: 'A weboldalon szereplő minden állítás mögött van egy dokumentum: a QMS SOP-ok és az ellenőrzési szabványok letölthetők, anonimizált minőségi nyilvántartás-minták közzétettak, a próbaadatok pedig minden gyártási számra rögzítésre kerülnek, 10 éves ERP szállítmány-nyomon követéssel. Feladás előtt Ön is programozhat harmadik fél általi vizsgálatot, saját választása szerint.'
+    - q: 'Mi történik, ha a deszkák hibásan érkeznek?'
+      a: 'Minden deszkát csomagolás előtt vizsgálunk, és a szállítmányszintű nyilvántartások lehetővé teszik az ok visszakövetését minden gyártási számra. A szerződés meghatározza az ellenőrzési, cserekijavítási és javítási kötelezettségeket, és a szállítmány kiadását a QA-igazgató írja alá. A kijavított deszkákat teljes egészükben újra vizsgáljuk – soha csak részlegesen.'
+    - q: 'Tényleg 100%-ban vizsgálják a deszkákat feladás előtt?'
+      a: 'Igen – és a nyilvántartások ezt bizonyítják. Minden rekeszt 18.0 PSI-re fújunk és 24 órán át tartjuk, szenzorokkal folyamatosan rögzítve; minden olyan rekeszt, amely 24 óra alatt 0.50 PSI-nél nagyobb nyomásesést mutat, automatikusan elutasítunk és újra vizsgálunk. A próbajegyzetek minden gyártási számhoz kapcsolódnak, és a szállítmány dokumentációjának részei.'
+    - q: 'Milyen tanúsítványokkal rendelkeznek valójában?'
+      a: 'ISO 9001:2015 minőségirányítás, ISO 25649 és CE megfelelőség a felfújható SUP termékekre, valamint BSCI, REACH és RoHS megfelelőség a telephelyre és az alapanyagokra. A tanúsítványok számai és az auditnyilvántartások kérésre vagy audit során szolgáltatunk ki – a lista közzétett, nem „csak kérésre elérhető”.'
+    - q: 'A márkám védve lesz – kivitel, formák és piac tekintetében?'
+      a: 'Igen. Az Ön márkája, kivitelei és szerszámai NDA-val, márka licencfeltételekkel, valamint a szerződésben rögzített forma-tulajdonosi vagy visszavásárlási záradékokkal védettek. A szerszámokat a márkához megőrizzük, és átadhatók. A területi és kizárólagossági feltételeket írásban rögzítjük a gyártás megkezdése előtt.'
+    - q: 'Mi a valódi MOQ?'
+      a: 'A MOQ projektspecifikus, és a MOQ útmutatónkban ismertetjük: 1–2 darabos minták, 5–10 darabos kis szállítmányú közös márkázás, 20–50 darabos pilótaszállítmányok és 90–100+ darab standard térfogat 150 m-es tekercsenként (körülbelül 180–220 deszka). Az egyedi formák a térfogati szintre esnek. A számítást az ajánlat előtt erősítjük meg – „kis MOQ” elnevezések nélkül.'
+    - q: 'Mi történik, ha a gyártás késik?'
+      a: 'A határidőt a specifikáció, a grafika és a csomagolás ellenőrzése után erősítjük meg – soha előre nem ígérjük. A szerződés lefedi az ütemtervet, a késedelem-bejelentést és a rendezési utat, a negyedéves üzleti elemzés pedig figyelemmel kíséri a kiszállítások teljesítését a megállapodott ütemtervhez képest.'
+    - q: 'Ki írja alá Önük részéről a szerződéses dokumentumokat?'
+      a: 'A megrendeléseket és megállapodásokat közösen írja alá az Értékesítési alelnök, a Főmérnök és a QA-igazgató – a kereskedelmi feltételekért, a mérnöki végrehajtásért és a minőségi kiadásért felelős három személy. Az aláírt dokumentumokat a szerződéses iratanyaggal együtt megkapja.'
+
+governance:
+  tagline: 'A felelősségi struktúra'
+  title: 'Név szerinti aláírók és fenntartott jogok'
+  subtitle: 'Minden vállalás egy név szerinti szerephez kötődik – nem egy értékesítési osztályhoz.'
+  body: |
+    **Közös aláírás.** A megrendeléseket, a minőségterveket és a viták rendezését három szerep írja alá: az Értékesítési alelnök (kereskedelmi feltételek), a Főmérnök (mérnöki végrehajtás) és a QA-igazgató (minőségi kiadás). A kétnyelvű SOP-ok verziószabályozás alatt állnak, és azonos aláírási struktúrát tartalmaznak.
+
+    **Fenntartott jogok.** A vásárló fenntartja a gyártás auditálásának jogát, a próbanyilvántartások megtekintésének jogát és a szállítmány kiadásának blokkolását az ellenőrzés aláírásáig. A kijavítás kizárólag jóváhagyott változtatási nyilvántartás alapján történik, a kiadást pedig független minőségellenőrzés validálja – soha nem a kijavítást végző operátorok.
+
+    **Átadott nyilvántartások.** A szállítmány-próbajegyzeteket, a megfelelőségi tanúsítványokat és az ellenőrzési jelentéseket minden feladással együtt szolgáltatjuk ki, a szállítmány ERP nyomon követhetőségét pedig 10 évig megőrizzük. A szerszákdossziékat és a forma rajzait a szerszámokkal együtt adjuk át, amennyiben a szerződés ezt előírja.
+
+trust_downloads:
+  tagline: 'Hivatalos dokumentumok'
+  title: 'Ellenőrzési dokumentumok – töltse le és terjessze'
+  subtitle: 'Hivatalos dokumentumok a Qingdao Vatrad Group Co., Ltd.-től, készen a beszállítói ellenőrzési dosyarához csatolásra.'
+  features:
+    - icon: G
+      icon_bg: blue
+      title: 'Bizalmi útmutató OEM vásárlóknak és gyár-ellenőrzés (PDF)'
+      desc: 'Hivatalos B2B útmutató (II. rész, DOC-ENG-2026-EN): a gyár-ellenőrzés lépésről lépésre – entitásnyilvántartás, fizikai audit, valódi mérnökök, QMS dokumentumok, harmadik fél vizsgálata, szerződéses védelem és irányítási aláírók.'
+      link: 'https://assets.isupfactory.com/site/downloads/oem-buyer-trust-and-factory-assurance-guide.pdf'
+      link_label: 'Az útmutató letöltése (PDF)'
+    - icon: P
+      icon_bg: green
+      title: 'Rugalmas márkázási és MOQ útmutató (PDF)'
+      desc: 'Hivatalos B2B útmutató (I. rész, DOC-MOQ-EXP-2026-EN): a 150 m-es drop-stitch tekercs hozama (90–100 deszka) mögötti mérnöki logika, az 5–10 darabos közös márkázás, a 20–50 darabos pilótaszállítmányok és a három gyártási szakasz.'
+      link: 'https://assets.isupfactory.com/site/downloads/flexible-branding-and-moq-guide.pdf'
+      link_label: 'A MOQ útmutató letöltése (PDF)'
+    - icon: Q
+      icon_bg: orange
+      title: 'A minőségi rendszer, amely ezeket az állításokat alátámasztja'
+      desc: 'Egy oldal, amely összeköti az egészet: a 7 lépéses ellenőrzési kapurendszer, az azt szabályozó négy szabvány és a 00–15 dokumentum-nyilvántartás, minden letölthető SOP-pel és jelentéssel – QIP, ellenőrzési szabványok, nyomon követési dosszié, NCP és kijavítási SOP-ok.'
+      link: '/hu/quality'
+      link_label: 'Fedezze fel a minőségi rendszert'
+
+evidence_review:
+  tagline: 'Bizonyítékok és ellenőrzés'
+  title: 'ELLENŐRZÖTT SPECIFIKÁCIÓK'
+  body: 'Ezen az oldalon szereplő valamennyi gyártási állítást a laixi (Qingdao) gyárunk Gyártómérnöki Csapata ellenőrizte. A tanúsítványok, a minőségellenőrzési nyilvántartások, a nyomás- és szerkezeti próbajelentések, valamint a szállítmány-nyomon követési nyilvántartások kérésre rendelkezésre állnak. A specifikációkat legutóbb 2026 szeptemberében ellenőriztük.'
+
+cta:
+  title: 'Kezdje az ellenőrzéssel – csak utána beszélünk a specifikációkról'
+  subtitle: 'Küldje el az NDA-kérést, kérje a nyilvántartási dosziert vagy programozzon audit-időpontot. Az ellenőrzés jön először; a megrendelésről szóló beszélgetés utána következik. A megkeresés benyújtása nem kötelez megrendelésre.'
+  button_text: 'Kérje az ellenőrzési dosziert'
+  button_link: /hu/contact#trust-verification
+  actions:
+    - text: Gyár-audit ellenőrző lista
+      href: /hu/factory-audit-checklist
+    - text: Márkaidentitás
+      href: /hu/about/identity

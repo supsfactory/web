@@ -1,0 +1,94 @@
+meta:
+  title: 'SUP víztest mérnöki tervezése – deszkatervezés CAD és FEA segítségével'
+  description: 'Mérnöki tanulmány SUP deszkákhoz: CAD tervezés, végeselem-analízis (FEA) a drop-stitch szerkezetekre és egyedi víztestformák OEM projektekhez.'
+back_text: 'Vissza az R&D központba'
+home_label: 'Főoldal'
+
+hero:
+  tagline: '02. laboratórium'
+  title: 'Deszkatervező mérnöki stúdió'
+  subtitle: 'Digitális szimuláció, szerkezeti intelligencia, egyedi deszkatervezés'
+  image: 'https://assets.isupfactory.com/images/sups/factory/isupfactory-design-discussion.webp'
+  image_alt: 'CAD munkállomás a Vatrad SUP deszkák mérnöki tervezéséhez'
+
+answer:
+  label: 'Közvetlen válasz'
+  text: 'Az egyedi SUP deszkákat belsőleg tervezzük, SolidWorks 3D modellezéssel, ANSYS FEA és CFD elemzéssel – minden deszkát szimulálunk a feszültségeloszlásra és a híd merevségére, kötelező ≥ 2.5 biztonsági tényezővel a prototípuskészítés előtt. Egy egyedi forma 7–12 napot igényel a prototípushoz; a teljesen egyedi formák szerszámai 15–20 napot adnak hozzá a 25–35 napos gyártási határidőhöz, a MOQ pedig a projekt konfigurációjától függően kerül megerősítésre (lásd MOQ útmutatónkat).'
+  verified: '2026. szeptember'
+
+intro: 'Egy SUP deszka formája – a rocker szöglet, a színprofil, a borda és a farok térfogata – határozza meg, hogyan evez, fordul és tartja az irányát. A {SITE.name} telephelyén működő deszkatervező mérnöki stúdiónk ötvözi a CAD modellezést, a drop-stitch szerkezetek végeselem-analízisét (FEA) és a gyártási tapasztalatot, hogy a rendeltetéséhez optimalizált deszkákat szállítsunk: all-around stabilitás, hosszú távú csúszás vagy szörfözési teljesítmény. Minden egyedi deszka az Ön specifikációiból indul ki, nem egy általános katalógusformából.'
+
+content_html: |
+  <h2>Ahol az ellenállás találkozik a hidrodinamikával</h2>
+  <p>A felfújható SUP deszka drop-stitch szerkezet: ezer poliészterszál köti össze a felső és alsó PVC burkolatot, 12–15 PSI nyomáson síkban tartva a hidat, miközben a szín és a borda geometriája szabályozza, hogyan lép kölcsönhatásba a deszka a vízzel. Mi megtervezzük a 3D formát, szimuláljuk a felfújt szerkezetet, és validáljuk a belső eredményt, még az első példány kivágása előtt.</p>
+
+  <h2>Tervezőeszközeink és szabványaink</h2>
+  <p>Digitális mérnöki környezetünk a következőket tartalmazza:</p>
+  <table>
+    <thead><tr><th>Képesség</th><th>Szoftver / Eszköz</th><th>Alkalmazás</th></tr></thead>
+    <tbody>
+      <tr><td>Parametrikus 3D modellezés</td><td>SolidWorks Professional</td><td>Deszka felülete, rocker vonala, színprofil, fogantyú és stabilizátor beépítése</td></tr>
+      <tr><td>Végeselem-analízis</td><td>ANSYS Mechanical</td><td>Feszültségtérképzés a drop-stitch magban, híd merevsége terhelés alatt, fogantyúpontok megerősítése</td></tr>
+      <tr><td>Számításekeny folyadékdinamika</td><td>Ansys Fluent</td><td>Hidrodinamikai ellenállás előrejelzése, a síkrajzi szög optimalizálása</td></tr>
+      <tr><td>Laminálási mérnökség</td><td>ESAComp</td><td>PVC rétegek egymásra helyezése, szövetsúly kiválasztása, tömegbecslés</td></tr>
+      <tr><td>Formázófelület-elemzés</td><td>Moldex3D</td><td>Az RF-hegesztő szerszámok geometriájának ellenőrzése</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Mérnöki folyamatunk</h2>
+  <p>Minden deszkaprojekt – legyen szó standard modellről vagy teljesen egyedi projektről – öt lépésből álló szigorú folyamatot követ:</p>
+  <ol>
+    <li><strong>KonCEPT és követelménygyűjtés</strong> — Definiáljuk a sportoló súlytartományát, a rendeltetési felhasználást (all-around, touring, surf, yoga, bérelő flotta), a hosszúság, szélesség és vastagság célértékeit, valamint minden speciális jellemzőt (rakodó rendszerek, hídfedelek, kötőpontok).</li>
+    <li><strong>3D modellezés és térfogatszámítás</strong> — A deszka formáját SolidWorks-ban modellezzük, és ellenőrizzük a térfogateloszlást, a kiszorítást és a sportoló célzott súlyához viszonyított stabilitást.</li>
+    <li><strong>Szerkezeti FEA</strong> — A felfújt deszkát statikus (sportoló középen, 100 kg) és dinamikus (hullámhatás a színen) terhelés alatt vizsgáljuk. A feszültségkontúrokat értékeljük; a ≥ 2.5 biztonsági tényező kötelező.</li>
+    <li><strong>CFD-alapú ellenállásoptimalizálás</strong> — A víztestet három terhelési állapotban és öt sebességen szimuláljuk. A benyíló felületet, a billentyűzési szöget és a maradék ellenállást iteratívan csökkentjük.</li>
+    <li><strong>Tervezéselemzés és kiadás</strong> — A teljes mérnöki csomagot (3D modell, FEA-jelentés, CFD-jelentés, tömegbecslés, panel-elrendezési terv) idősebb mérnökünk vizsgálja fel, mielőtt továbbadjuk a prototípus műhelyének.</li>
+  </ol>
+
+  <div class="not-prose my-10 p-6 rounded-xl bg-gray-50 dark:bg-gray-900 border border-gray-200 dark:border-gray-800">
+    <p class="text-sm font-semibold text-gray-500 mb-3 uppercase tracking-wider">FEA eredmények – all-around deszka 11'0 (32' szélesség, 6' vastagság)</p>
+    <div class="grid grid-cols-2 gap-4 text-sm">
+      <div class="p-4 rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-950">
+        <span class="block text-2xl font-bold text-blue-600">2.8 : 1</span>
+        <span class="text-gray-500">Biztonsági tényező 120 kg statikus terhelésnél</span>
+      </div>
+      <div class="p-4 rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-950">
+        <span class="block text-2xl font-bold text-blue-600">0 mm</span>
+        <span class="text-gray-500">A híd elmozdulása 15 PSI nyomáson, terhelés nélkül</span>
+      </div>
+      <div class="p-4 rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-950">
+        <span class="block text-2xl font-bold text-blue-600">3.2 mm</span>
+        <span class="text-gray-500">A híd legnagyobb alakváltozása 120 kg-os sportoló esetén</span>
+      </div>
+      <div class="p-4 rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-950">
+        <span class="block text-2xl font-bold text-blue-600">15 PSI</span>
+        <span class="text-gray-500">Elemzési nyomás – a platform üzemi nyomásosztálya</span>
+      </div>
+    </div>
+  </div>
+
+  <h2>Testreszabás: az Ön deszkája, az Ön szabályai</h2>
+  <p>Egyetlen két márka követelménye sem azonos. Egy bérelő flottának széles, stabil all-around deszkára van szüksége megerősített színekkel; egy touring márkának hosszabb, nagyobb kiszorítású bordára rakodó kötőpontokkal; egy szörfözésre orientált sorozatnak keskenyített farokra és progresszív rocker profilra. Nem kényszerítjük az Ön sorozatát előre létező formákba – az Ön specifikációiból kiindulva tervezünk.</p>
+  <p>Példák a közelmúltbeli egyedi deszkák mérnöki projektjeire:</p>
+  <ul>
+    <li>Egy 14' touring SUP deszka egy állókóstós márka számára, kiszorító bordával és beépített rakodóhíddal (a vízvonal +15% hossza a jobb csúszás érdekében).</li>
+    <li>Egy 10'6" széles all-around deszka üdülői flotta számára, kettős rétegű oldalsó színekkel és 220 lb névleges teherbírással.</li>
+    <li>Egy 9' szörf SUP deszka keskenyített farokkal és progresszív rockerrel, egy dedikált szörfiskola-sorhoz fejlesztve.</li>
+  </ul>
+
+  <h2>Mérnökeink</h2>
+  <p>A stúdiót egy 14 év felfújtható terméktervezési tapasztalattal rendelkező vezető termékmérnök irányítja, két FEA és CFD szakterületen jártas gépészmérnök támogatásával. Mindháromuk nemzetközileg elismert egyetemek szerzett posztgraduális mérnöki képesítéssel rendelkezik, és a csapat közvetlenül dolgozik együtt a termelési osztállyal, így minden tervezés gyártható ipari méretben, konténer-skálán.</p>
+
+  <h2>Dolgozzon velünk a következő deszkáján</h2>
+  <p>Az első konCEPTvázlattól a végső feszültségriportig deszkatervező mérnöki stúdiónk az Ön partnere egy olyan deszka megalkotásában, amely nem csupán megépül – hanem mérnöki módon van megtervezve. A kezdetektől invesztálunk a szimulációs órákba, hogy minden varrásnak, minden laminált rétegnek és minden színgörbületnek technikai oka legyen.</p>
+  <p>Akár egy meglévő modell kis módosítására van szüksége, akár egy teljesen nulláról induló projektre, készen állunk az Ön követelményeinek megvitatására.</p>
+
+cta:
+  title: 'Kezdje el a deszkatervezési konzultációt'
+  subtitle: 'Írja le, kik a célzott sportolók és mi a felhasználási eset, és mi egy mérnöki megközelítést javasolunk.'
+  actions:
+    - variant: primary
+      text: Lépjen kapcsolatba mérnöki csapatunkkal
+      href: /hu/contact#project-brief
+    - text: Vissza az R&D központba
+      href: /hu/randdcenter

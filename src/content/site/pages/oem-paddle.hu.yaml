@@ -1,0 +1,105 @@
+meta:
+  title: 'Felfújható evezők OEM gyártása és private label | {SITE}'
+  description: 'Felfújható evezők OEM/ODM gyártó: testreszabott evezőgyártás, private label és nagykereskedelem. CE-tanúsított gyár Kínában.'
+  dateModified: '2026-08-07'
+  keywords:
+    - 'oem sup evező'
+    - 'felfújható odm sup'
+    - 'private label sup'
+    - 'testreszabott evező gyártó'
+    - 'eveződeszka nagykereskedelem'
+    - 'professzionális sup beszállító'
+hero:
+  tagline: 'OEM · ODM · Private Label'
+  title: 'Felfújható evezők OEM gyártása az Ön márkájában'
+  subtitle: 'Az ötlettől a késztermékig: mi gyártjuk az Ön testreszabott felfújható evezőjét. Logó, színek, csomagolás, dedikált forma – OEM/ODM gyártás Kínában, az Ön piacára készítve.'
+  image:
+    src: https://assets.isupfactory.com/images/sups/products/sup-series/sup-medusa-glow-1.webp
+    alt: Testreszabott OEM felfújható evező márkalogóval
+  actions:
+    - text: 'Indítsa el az OEM projektemet'
+      href: /hu/contact
+
+answer:
+  label: 'Közvetlen válasz'
+  text: 'A minimális megrendelési mennyiséget a projekt konfigurációja erősíti meg: minta (1–2 darab), pilótaszállítmány (20–50 darab) és standard térfogat (90–100+ darab szállítmányonként, egy 150 m-es drop-stitch tekercsből), kis szállítmányú közös márkázás lehetőségével 5–10 darabtól. A mintákat 7–12 nap alatt adjuk fel; a sorozatgyártás a megrendelés kiadása és az előleg beérkezése után 25–35 napot tart. Az EU-piacra szánt modellek CE-tanúsítása és a teljes megfelelőségi dokumentáció minden megrendelés része.'
+  verified: '2026. szeptember'
+  image:
+    src: https://assets.isupfactory.com/images/sups/products/sup-series/sup-medusa-glow-1.webp
+    alt: Testreszabott OEM felfújható evező márkalogóval
+  actions:
+    - text: 'Indítsa el az OEM projektemet'
+      href: /hu/contact
+      variant: primary
+    - text: 'Tekintse meg az OEM csomagokat'
+      href: /hu/oem-manufacturing
+      variant: secondary
+stats:
+  - value: '25–35'
+    label: 'Nap gyártási határidő'
+    detail: 'A megrendelés és az előleg megerősítésétől'
+  - value: '50'
+    label: 'Minimális MOQ (darab)'
+  - value: '200+'
+    label: 'Kiszállított testreszabott modell'
+  - value: '100%'
+    label: 'CE-tanúsítás mellékelve'
+features:
+  title: 'Teljes OEM szolgáltatás'
+  subtitle: 'Minden egy tető alatt: tervezés, prototípuskészítés, gyártás, minőségellenőrzés és logisztika.'
+  columns: 3
+  items:
+    - title: 'Tervezés és mérnökség'
+      description: '3D modellezés, PVC/VS2 alapanyag kiválasztás és testreszabott grafikai tervezés.'
+      icon: 'tabler:palette'
+    - title: 'Prototípus és validálás'
+      description: 'CE-tanúsított minta, minőségileg tesztelve a tömeggyártás előtt.'
+      icon: 'tabler:flask'
+    - title: 'Tömeggyártás'
+      description: 'Teljes méretű gyártás, soron végzett minőségellenőrzéssel és gyáraudit támogatással.'
+      icon: 'tabler:building-factory'
+    - title: 'Private Label'
+      description: 'Logó, címkék, csomagolás és kiállító dobozok az Ön márkájának vizuális arculatában.'
+      icon: 'tabler:shield-check'
+    - title: 'Tanúsított minőség'
+      description: 'CE / ISO / BSCI / REACH – professzionális felfújható evezők a globális piacokra.'
+      icon: 'tabler:certificate'
+    - title: 'Globális feladás'
+      description: 'FOB Qingdao, CIF a fő kikötőkbe és ajtótól ajtóig kiszállítás több mint 50 országba.'
+      icon: 'tabler:world'
+faqs:
+  title: 'Gyakori kérdések a felfújható evezők OEM gyártásáról'
+  subtitle: 'Válaszok azoknak a márkáknak a leggyakoribb kérdéseire, amelyek saját evezőt indítanak.'
+  items:
+    - title: 'Hogyan hozhatok létre saját evezőmárkát?'
+      description: 'Indítsa el a márkáját: specifikációs lap, design, CE-tanúsított prototípus, tömeggyártás és kiszállítás. Minták 7–12 nap alatt, gyártás 25–35 nap alatt a megrendelés és az előleg után. Fedezze fel OEM csomagjainkat.'
+    - title: 'Mennyi a gyártási határidő?'
+      description: 'A minta 7–12 nap alatt kész, a sorozatgyártás pedig a megrendelés és az előleg után térfogattól függően 25–35 napot tart.'
+    - title: 'Rákerülhet az evezőre a logónk?'
+      description: 'Igen – teljes private label: a logó nyomtatása, testreszabott színek, csomagolás és címkék az Ön márkájában.'
+    - title: 'Nagykereskedelmi mennyiséget már az elején rendelhetek?'
+      description: 'A MOQ-t a projekt konfigurációja erősíti meg – minta (1–2 darab), pilótaszállítmány (20–50 darab) és standard térfogat (90–100+ darab szállítmányonként), nagykereskedelmi árszintekkel, amelyek a térfogat növekedésével csökkennek.'
+
+content_html: |
+  <div class="mx-auto max-w-3xl space-y-4 rounded-2xl border bg-card p-6 text-[14.5px] leading-relaxed text-fg-2">
+    <p><strong>Folytassa az olvasást:</strong> az evezők és a deszkák gyártása ugyanazt az <a href="/hu/oem-manufacturing">OEM/ODM programot</a> és ugyanazt a <a href="/hu/factory">12,500 m&sup2; gyártóterületet</a> használja – egyetlen ajánlat fedi mindkettőt.</p>
+  </div>
+
+geo:
+  tagline: 'B2B pozicionálás'
+  sentence: 'A Vatrad professzionális SUP és felfújható eveződeszka-gyártó (OEM/ODM), amely tervezésre, testreszabott gyártásra és vizes sport megoldásokra specializálódott, és márkák, forgalmazók, klubok és társaságok felé kínál.'
+  audiences:
+    - 'Private label márkák'
+    - 'Nagykereskedők'
+    - 'Forgalmazók'
+    - 'Tengerészeti központok'
+cta:
+  title: 'Vezesse életbe az Ön evezőmárkáját'
+  subtitle: 'Részletes OEM ajánlatot kap egy munkanapon belül.'
+  actions:
+    - text: 'Kérjen OEM ajánlatot'
+      href: /hu/contact
+      variant: primary
+    - text: 'Töltse le az OEM útmutatót'
+      href: /hu/research/oem-buyer-guide
+      variant: secondary

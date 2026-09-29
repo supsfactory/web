@@ -1,0 +1,81 @@
+meta:
+  title: 'Ellenőrizze SUP-gyárunkat | Látogatás, audit és ellenőrzés Qingdaóban'
+  description: 'Hogyan ellenőrizze a SUP-deszkagyárat a kötelezettségvállalás előtt: ütemezzen gyárlátogatást, hajtson végre független auditot vagy ellenőrzést, és tekintse át a minőség-ellenőrzési nyilvántartásokat, a tételnyomon-követhetőséget és a tanúsítványokat Kínából, Qingdaóból.'
+  dateModified: '2026-09-23'
+  keywords:
+    - 'sup gyár ellenőrzése'
+    - 'sup gyárlátogatás Qingdao'
+    - 'sup gyáraudit'
+    - 'független sup ellenőrzés'
+    - 'felfújható eveződeszka gyár ellenőrzése'
+
+hero:
+  tagline: 'A gyár ellenőrzése'
+  title: 'Ellenőrizze a SUP-deszkagyárat a kötelezettségvállalás előtt'
+  subtitle: 'Egy gyárat nem kell vakon elhinni. Ütemezzen látogatást, hajtson végre auditot vagy független ellenőrzést, és tekintse át a tanúsítványokat, a minőség-ellenőrzési nyilvántartásokat és a tételnyomon-követhetőséget az első megrendelés előtt — mindezt a komoly vásárlók rendelkezésére bocsátjuk.'
+
+answer:
+  label: 'Közvetlen válasz'
+  text: 'Az iSupfactory gyár egy 12,500 m²-es létesítmény Qingdaóban, Shandong tartományban, Kínában, 350+ dolgozóval, 4 automata gyártósorral és 4 szakosodott műhellyel. A vásárlók négyféleképpen ellenőrizhetik: éves szinten meglátogatják a gyárat, gyárauditokat házigazdaként fogadnak vagy kérnek (BSCI, ISO 9001), független ellenőrzést végeznek (SGS, TÜV, BV, Intertek; ISO 2859-1 II. szintű mintavétel), vagy áttekintik a dokumentált bizonyítékokat — tanúsítványok, 100 pontos összeszerelési ellenőrző listák, 24 órás, 18.0 PSI-es nyomástartási jelentések és 10 éves tételenkénti ERP-nyomonkövethetőség minden sorozatcímkéhez.'
+  verified: '2026. szeptember'
+
+features:
+  title: 'A gyár ellenőrzésének módjai'
+  subtitle: 'Négy ellenőrzési útvonal, mindegyiket a projektmenedzsere szervezi — válasszon egyet, vagy kombinálja őket.'
+  items:
+    - title: 'Ütemezzen gyárlátogatást'
+      description: 'Egész évben fogadjuk a vásárlói látogatásokat Qingdaóban, repülőtéri átvétellel és a gyártási tervre szervezett látogatással, az Ön időpontjaihoz igazítva. Az NDA bármikor szívesen jön.'
+      icon: 'tabler:map-pin'
+    - title: 'Független audit'
+      description: 'A BSCI és ISO 9001 auditi jelentések kérésre elérhetők, és a házigazdaként fogadott auditeket is örömmel látjuk, így az auditorral együtt járhatja végig a csarnokot.'
+      icon: 'tabler:clipboard-check'
+    - title: 'Független ellenőrzés'
+      description: 'Szállítás előtti vagy a gyártás közbeni ellenőrzés SGS, TÜV, BV vagy Intertek szervizzel, ISO 2859-1 II. szintű mintavétel szerint — az Ön költségén, mi szervezzük, az eredményt közvetlenül Önhöz jelentik.'
+      icon: 'tabler:zoom-check'
+    - title: 'Dokumentáció áttekintése'
+      description: 'Tanúsítványok, átvételi, folyamat közbeni és végellenőrzési nyilvántartások, nyomástartási jelentések és tételnyomon-követhetőségi akták másolatai, amelyeket a kötelezettségvállalás előtt rendelkezésére bocsátunk.'
+      icon: 'tabler:file-search'
+    - title: 'Élő videós körbevezetés'
+      description: 'Még nem tud utazni? Élő híváson végigvezetjük a gyártási folyamaton — drop-stitch megmunkálás, hegesztés, nyomtatás, összeszerelés, vizsgálatok és csomagolás —, mielőtt megrendelést adna le.'
+      icon: 'tabler:device-camera-phone'
+
+faq_section:
+  tagline: 'Ellenőrzési kérdések'
+  title: 'Gyár-ellenőrzési és vizsgálati kérdések'
+  questions:
+    - q: 'Hol található a gyár?'
+      a: 'A gyár Qingdaóban, Shandong tartományban, Kínában található — egy 12,500 m²-es létesítmény 350+ dolgozóval, 4 automata gyártósorral és 4 szakosodott műhellyel. A címet és a térképet a hitelesített vásárlóknak a látogatás ütemezésekor adjuk át, a szállítási cím pedig a szerződésekben, a BSCI-auditban és az exportdokumentációban szerepel.'
+    - q: 'Mit gyárt a gyár?'
+      a: 'Felfújható SUP deszkákat — a héjtervezéstől és a drop-stitch mag megmunkálásától a grafikán, az összeszerelésen, a vizsgálatokon és az exportcsomagoláson át. A SUP minden alapfolyamata ugyanazon tetők alatt zajlik.'
+    - q: 'Milyen folyamatok zajlanak belsőleg?'
+      a: 'A héjtervezés, a méretmérnökség, a drop-stitch mag megmunkálása, az RF-hegesztés, a grafika nyomtatása, az EVA-platformok szerszámos kivágása, a testreszabott szerszámok, az összeszerelés, a vizsgálatok és a csomagolás mind belsőleg történik. A kiegészítők és egyes alapanyagok tanúsított beszállítóktól érkeznek, és a nyomon követhetőség érdekében belsőleg csomagoljuk őket.'
+    - q: 'Meglátogathatják a vásárlók a gyárat?'
+      a: 'Igen. A vásárlói látogatásokat egész évben fogadjuk Qingdaóban. A Qingdao Jiaodong nemzetközi repülőtérről történő átvételt és a gyártási folyamat teljes körű megtekintését a projektmenedzsere szervezi.'
+    - q: 'Szervezhetnek a vásárlók független ellenőrzést?'
+      a: 'Igen. Az SGS, a TÜV, a BV és az Intertek ellenőrzéseket a gyártás előtt vagy közben is örömmel fogadjuk. A szállítás előtti ellenőrzés ISO 2859-1 II. szintű mintavételt használ, a jelentést pedig az ellenőrző szervezet küldi meg közvetlenül Önnek.'
+    - q: 'Kérhetnek a vásárlók minőség-ellenőrzési dokumentációt?'
+      a: 'Igen. A tanúsítványok másolatait, az átvételi, folyamat közbeni és végellenőrzési nyilvántartásokat, a 24 órás, 18.0 PSI-es nyomástartási jelentéseket és a 100 pontos összeszerelési ellenőrző listát kérésre, tételenként bocsátjuk ki.'
+    - q: 'Hogyan kezelik a tételnyomon-követhetőséget?'
+      a: 'Minden deszka sorozatcímkét visel. A tételeket egy 10 évig megőrzött ERP-nyilvántartásban rögzítjük, amely az anyagtekercset, az anyagokat, a gyártási dátumot, a kezelőket és a vizsgálati eredményeket minden sorozatszámhoz hozzárendeli.'
+    - q: 'Hogyan használják a jóváhagyott mintát?'
+      a: 'A jóváhagyott minta lesz a gyártási referencia. Az anyagok, a méretek, a grafika, a kiegészítők és a kidolgozás minden minőség-ellenőrzési szakaszban ehhez van viszonyítva, így a gyártás annak felel meg, amit aláírt.'
+    - q: 'Hogyan ellenőrzik a gyártás minőségét?'
+      a: 'A 7 lépésből álló minőségi rendszer (01–07. csomópont) átvételi, folyamat közbeni és végellenőrzési szakaszokat alkalmaz, 24 órás, 18.0 PSI-es nyomástartási vizsgálattal (0.50 PSI feletti esés automatikus elutasítást vált ki), valamint a sor végén ISO 2859-1 II. szintű mintavétel szerinti kibocsátással.'
+
+cta:
+  title: 'Előbb ellenőrizze, aztán kötelezze el magát'
+  subtitle: 'Ütemezzen gyárlátogatást, vagy kérje az ellenőrzési dokumentumokat — egy projektmenedzser egy munkanapon belül válaszol.'
+  actions:
+    - variant: primary
+      text: 'Ütemezzen gyárellenőrzési hívást'
+      href: /hu/contact
+    - text: 'Bizonyítékközpont — gyári bizonyítékok'
+      href: /hu/proof-center
+    - text: 'Gyáraudit ellenőrző lista'
+      href: /hu/factory-audit-checklist
+    - text: 'OEM-bizalom és gyárbiztosíték'
+      href: /hu/oem-trust-assurance
+    - text: 'Minőség és vizsgálatok'
+      href: /hu/quality
+    - text: 'Gyár és gyártás'
+      href: /hu/factory

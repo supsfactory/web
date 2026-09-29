@@ -2003,6 +2003,130 @@ export const knowledge: Localized<KnowledgeArticle[]> = {
       ],
     },
   ],
+  hu: [
+    {
+      slug: 'how-custom-sup-boards-are-developed',
+      navLabel: 'Hogyan fejlesztjük az egyéni SUP táblákat',
+      metaTitle: 'Hogyan fejlesztjük az egyéni SUP táblákat | iSupfactory',
+      metaDescription:
+        'Hogyan jut el az egyéni SUP az ötlettől a gyárig: specifikációk, dizájn, prototípus, minták és gyártás — lépésről lépésre.',
+      kicker: 'Tudásközpont',
+      h1: 'Hogyan fejlesztjük az egyéni SUP táblákat',
+      intro:
+        'Mielőtt az egyéni evezőlap az ügyfeleihez kerülne, egy jól meghatározott fejlesztési folyamaton megy keresztül. Az egyes szakaszok ismerete lehetővé teszi, hogy pontosan kommunikálja a gyár felé az igényeit, reális határidőket állapítson meg, és elkerülje az első vásárlókra jellemző tipikus hibákat.',
+      sections: [
+        {
+          title: '1. lépés: határozza meg az igényt',
+          body: [
+            'Minden fejlesztési projekt a felhasználási esettel indul: ki használja a táblát, hol és milyen gyakran. A kölcsönzési flotta számára készülő tábla más, mint egy márka bevezetéséhez szánt tábla vagy egy iskolai tábla — a stabilitás, a tartósság és a költségvetési cél a választól függ.',
+            'Mielőtt kapcsolatba lépne egy gyárral, jegyezze fel a mennyiséget, a célárat és a kötelező tulajdonságokat. A pontos igények már az első körben jobb ajánlatokat eredményeznek, és kevesebb pontosító egyeztetést igényelnek.',
+          ],
+        },
+        {
+          title: '2. lépés: rögzítse a specifikációt',
+          body: [
+            'A specifikáció mérhető értékekké alakítja az igényt: hossz, szélesség, vastagság, térfogat, alapanyagok (a drop-stitch szövet sűrűsége, az alapanyag súlya), a fin konfigurációja, a súlykorlát és a csomagolás.',
+            'Ez az a dokumentum, amelynek alapján a felek meghatározzák az árat. A folyamat későbbi szakaszában eszközölt módosítások lassabbak és drágábbak — a rögzített specifikáció a legolcsóbb elem, amely fölött Ön rendelkezhet.',
+          ],
+        },
+        {
+          title: '3. lépés: dizájn és grafika',
+          body: [
+            'A specifikáció rögzítése után kezdődik a dizájnmunka: formajavítások, színskémák, a logó elhelyezése, a csúszásgátló felület grafikája és a tartozékok (biztonsági kötél, ező, uszony, huzat) illesztése.',
+            'A gyártók készíthetnek digitális maketttel a megjelenés jóváhagyására, még a fizikai minta legyártása előtt — olcsóbban és gyorsabban, mint a fizikai terméken végzett iterációk.',
+          ],
+        },
+        {
+          title: '4. lépés: prototípus és minta',
+          body: [
+            'A minta az első fizikai bizonyíték. A felfújható tábláknál ez egy kézzel készített vagy kísérleti gyártásból származó táblát jelent, amelyet Ön használhat, és a specifikáció szerint tesztelhet.',
+            'Tesztelje a mintát úgy, ahogy a végfelhasználó tenné: stabilitás, merevség, irányíthatóság, súly és a grafika kopásállósága. A minta alapos vizsgálata általában a gyártás előtt feltárja a problémák többségét.',
+          ],
+        },
+        {
+          title: '5. lépés: gyártás és szállítás',
+          body: [
+            'A minta jóváhagyása után a gyártás tételekben, minőségi ellenőrzési pontokkal zajlik. A szállítás előtti gyári vizsgálat — fényképek, videófelvételek vagy harmadik fél által végzett vizsgálat — védi az Ön által átvett tételt.',
+            'A jól felépített projektterv az Ön piacra lépésének dátumától számol vissza, nem a rendelés dátumától számol előre.',
+          ],
+        },
+      ],
+    },
+    {
+      slug: 'inflatable-sup-construction-explained',
+      navLabel: 'A felfújható SUP-k felépítése, részletesen',
+      metaTitle: 'A felfújható SUP-k felépítése: alapanyagok és rétegek | iSupfactory',
+      metaDescription:
+        'Miből áll egy felfújható SUP — PVC rétegek, drop-stitch szövet, élek és minőségi mutatók —, hogy projektjében jobban specifikálhassa a táblákat.',
+      kicker: 'Tudásközpont',
+      h1: 'A felfújható SUP-k felépítése, részletesen',
+      intro:
+        'A mai egyéni SUP projektek többsége felfújható tábla. Ezek könnyebbek, egyszerűbb tárolni és szállítani, és kegyesebbek a kezdők számára. Ez az útmutató ismerteti a felépítést, hogy magabiztosan tudja specifikálni a minőséget.',
+      sections: [
+        {
+          title: 'A mag: a drop-stitch szövet',
+          body: [
+            'A felfújható tábla egy drop-stitch szövet körül épül fel: több ezer poliészterfonal köti össze a felső PVC réteget az alsóval. Felfújáskor ezek a fonalak állandó vastagságnál tartják a táblát — ez az elem adja az iSUP alakját és merevségét.',
+            'A nagyobb fonalsűrűség (varrás négyzethüvelykenként) merevebb és stabilabb táblát jelent ugyanazon nyomás mellett. A gazdaságos táblák kisebb, a prémium táblák nagyobb sűrűséget használnak.',
+          ],
+        },
+        {
+          title: 'A PVC rétegek és az élek',
+          body: [
+            'A szövetet PVC rétegek zárják közre, amelyek védik a kopástól, az UV-sugárzástól és az ütésektől. A vastagabb PVC (több mil vagy mm) jobban ellenáll a lyukasodásnak, de növeli a súlyt.',
+            'Az élek — a tábla peremei — nyelik el a napi használat során a legtöbb ütést. A kétszeres vagy háromszoros élkialakítás erős jelzés a tartósságra és a kölcsönzési célra való alkalmasságra.',
+          ],
+        },
+        {
+          title: 'Mi növeli a súlyt és mi növeli az ellenállóságot',
+          body: [
+            'A súly kompromisszum: a vastagabb PVC növeli a tartósságot és a tömeget; a könnyebb szerkezetek azoknak a sportolóknak való, akik hosszabb távon szállítják a tábláikat. Ez az egyik legtisztább módja annak, hogy az egyéni specifikációt a vevő valóságához igazítsák.',
+            'A minőségi mutatók, amelyeket érdemes bekérni: a nominális felfújási nyomás, a hegesztések kialakítása, a szelep típusa és a drop-stitch sűrűség. A komolyan vevő gyárak közzéteszik ezeket az adatokat.',
+          ],
+        },
+      ],
+    },
+    {
+      slug: 'how-organizations-choose-sup-equipment',
+      navLabel: 'Hogyan választanak a szervezetek SUP felszerelést',
+      metaTitle: 'Hogyan választanak a resortok, klubok és iskolák SUP felszerelést',
+      metaDescription:
+        'Hogyan választanak a resortok, klubok és iskolák SUP felszerelést: a flotta méretezése, a táblatípusok, a tartósság, a tárolás és egy hosszabb program költségvetése.',
+      kicker: 'Tudásközpont',
+      h1: 'Hogyan választanak a szervezetek SUP felszerelést',
+      intro:
+        'A resortok, a klubok és az iskolák másképpen vásárolnak, mint a fogyasztói márkák: a felszerelésnek ellen kell állnia a napi használatnak, vegyes felkészültségi szintet kell kiszolgálnia, és egy program költségvetésén belül kell maradnia. Ez a keretrendszer lefedi azokat a döntéseket, amelyek számítanak.',
+      sections: [
+        {
+          title: 'A flotta méretezése a használat alapján',
+          body: [
+            'Azt számolja meg, hány sportoló lesz egyszerre a vízen, nem azt, hány vendége van. Az a resort, amely sorrendben ad kölcsön, kevesebb táblára van szüksége, mint az az iskola, amely egyidejű foglalkozásokat szervez — és több tartalékra.',
+            'Gyakorlati szabály: minden egyidejű sportolóhoz egy tábla, továbbá 10–15% tartalékkapacitás a karbantartáshoz és a növekedéshez.',
+          ],
+        },
+        {
+          title: 'A táblatípusok és a felkészültségi szintek összevetése',
+          body: [
+            'A kezdőknek a szélesebb, nagyobb térfogatú táblák kedveznek, amelyek stabilnak tűnnek; a tapasztalt sportolók a keskenyebb, gyorsabban evező táblákat részesítik előnybe. A vegyes flotta — amelyben a kezdőknek való táblák vannak többségben, néhány teljesítménytáblával — a programok többségét kiszolgálja.',
+            'A többpersones tábláknak helyük van az iskolákban és a csoportos élményekben: lehetővé teszik az oktatók által vezetett tréninget, és a foglalkozások közötti váltáskor több egyéni táblát helyettesíthetnek.',
+          ],
+        },
+        {
+          title: 'A tartósság költségvetési döntés',
+          body: [
+            'A kölcsönzési minőségű kialakítás kezdetben többet kínál, de két-három szezon alatt pénzt takarít meg. Érdeklődjön az élerősítésről, a PVC vastagságáról és a gyár flotta-rendelésekre vállalt garanciájáról.',
+            'A tárolást és a felfújást is tervezze meg: a kompresszorok, az állványok és a csomagolási rutinok határozzák meg a program napi munkaigényét. A flottára szakosodott beszállítók mindezeket a csomagba foglalják.',
+          ],
+        },
+        {
+          title: 'Tervezze meg a programot, ne csak a rendelést',
+          body: [
+            'A legjobb felszerelési rendelések egy programterv részei: az oktatók képzése, a karbantartási rutinok és a kopott táblák cseréjének ütemezése. Azok a szervezetek, amelyek megtervezik a programot, az ütemezés szerint újítják a felszerelésüket; a többi piaci áron vásárol sürgősségi cserét.',
+          ],
+        },
+      ],
+    },
+  ],
 }
 
 export function getArticle(locale: Locale, slug: string): KnowledgeArticle | undefined {
@@ -2111,5 +2235,11 @@ export const knowledgeMeta: Localized<KnowledgeMeta> = {
     metaDescription:
       'Ghiduri practice despre dezvoltarea produselor SUP personalizate, construcția plăcilor umflabile și alegerea echipamentului SUP pentru resorturi, cluburi și școli.',
     h1: 'Centru de cunoștințe — dezvoltarea produselor, explicată',
+  },
+  hu: {
+    metaTitle: 'Tudásközpont: útmutatók a SUP termékek fejlesztéséhez | iSupfactory',
+    metaDescription:
+      'Gyakorlati útmutatók az egyéni SUP termékek fejlesztéséről, a felfújható táblák felépítéséről és a SUP felszerelés kiválasztásáról resortok, klubok és iskolák számára.',
+    h1: 'Tudásközpont — a termékfejlesztés, részletesen',
   },
 }

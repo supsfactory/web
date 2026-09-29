@@ -1,0 +1,109 @@
+meta:
+  title: 'A gyártási folyamat – az alapanyagtól a SUP-ig'
+  description: 'Az alapanyagtól a tengerre kész SUP-ig: a VATRAD gyártási folyamatának minden lépése a mi ellenőrzésünk alatt áll, a vágástól és a hegesztéstől a vizsgálatig.'
+  dateModified: '2026-08'
+  keywords:
+    - 'SUP gyártási folyamat'
+    - 'felfújható SUP gyár'
+    - 'paddle deszka gyártási lépések'
+    - 'SUP PVC hegesztés'
+hero:
+  tagline: Folyamat
+  title: A gyártási folyamat
+  subtitle: Az alapanyagtól a tengerre kész SUP-ig – minden lépés a mi ellenőrzésünk alatt
+  back_label: Vissza a gyárhoz
+  back_link: /hu/factory
+
+answer:
+  label: 'Közvetlen válasz'
+  text: 'A deszkák öt szabályozott lépésen mennek keresztül: anyagvizsgálat (1–2 nap), CNC automata vágás (5% alatti hulladék, 2–4 óra készletenként), a csövek RF-megerősített varratokkal végzett termikus tömítése (1–2 nap deszkánként), a drop-stitch mag ragasztása és a végső összeállítás, majd 100%-os vizsgálat a légtömörség és a teherbíró képesség tekintetében csomagolás előtt.'
+  verified: '2026. szeptember'
+
+intro: A harmadik fél gyáraknak outsourcingoló márkákkal ellentétben a VATRAD a teljes gyártási láncot birtokolja és működteti. Ez a vertikális integráció lehetővé teszi, hogy minden lépésnél szigorú minőségi kontrollt tartsunk fenn, gyorsan reagáljunk az egyedi igényekre, és lotról lotra állandó termékminőséget szolgáltassunk. Így készül egy SUP deszka üzemünkben.
+
+steps:
+  - step: '01'
+    title: Átvétel és anyagvizsgálat
+    description: Minden beérkező PVC-szövet-, üvegszálas mat-, gyanta- és szerelvények minden szállítmányát a specifikációknak megfelelően vizsgáljuk. A szövetminták szakítási szilárdságra, vastagság-egyenetlenségre és UV-sugárzással szembeni ellenállásra tesztelésre kerülnek, mielőtt gyártásra engedélyeznénk őket. A nem megfelelő anyagokat karanténba helyezzük és visszaküldjük.
+    duration: 1–2 nap
+  - step: '02'
+    title: A PVC automata vágása
+    description: <p>A jóváhagyott szöveteket a CNC automata vágógépre fektetjük, és milliméter alatti pontossággal vágjuk. A számítógéppel optimalizált fekítés úgy helyezi el a paneleket, hogy minimalizálja a hulladékot – általában 5% alatt. A levágott paneleket SUP-típus és rekesz szerint címkezzük, majd kötegekbe kötjük a hegesztőműhelybe történő átadáshoz.</p>
+    duration: 2–4 óra deszkakészletenként
+  - step: '03'
+    title: Termikus tömítés és csőhegesztés
+    description: A paneleket ideiglenesen összefogjuk, és termikus tömítőgépekkel, 200–300 °C-on szabályozott meleglevegős hegesztéssel ragasztjuk. A fő varratokat RF dielektromos hegesztéssel erősítjük meg, a tömör és nagy szilárdságú illesztések érdekében. A befejezett rekeszeket 18.0 PSI-re fújjuk az első légtömörségi ellenőrzéshez, a 24 órás nyomástartási próba előtt.
+    duration: 1–2 nap SUP deszkánként
+  - step: '04'
+    title: A drop-stitch mag ragasztása
+    description: A SUP deszkák drop-stitch magjait hőlaminálással ragasztjuk a külső PVC-fóliákhoz. A belső több ezer poliészterszál köti össze a felső és az alsó réteget, 12-15 PSI nyomáson merev szerkezetet hozva létre. Az élszalagokat háromrétegű olvasztással ragasztjuk, az élszintű szilárdság érdekében.
+    duration: 1–2 nap deszkánként
+  - step: '05'
+    title: A SUP deszkák nyomtatása és dekorálása
+    description: A SUP deszkák fedélzetén lévő grafikát digitális nyomtatással, fotóminőségű teljes színű mintákhoz, szitanyomással tartós logókhoz és ismétlődő mintákhoz alkalmazzuk. A nyomatokat polimerizáljuk és UV-sugárzás- és kopásállóság miatt lezárjuk.
+    duration: 1–2 nap
+  - step: '06'
+    title: 'Végső összeállítás és szerelés'
+    description: A szelepeket, a D-gyűrűket, a fogantyúkat, az usnyszámdobozokat és a fedélzeti padokat az összeállítósoron szereljük be. Minden deszka 100 pontos összeállítási ellenőrzőlistát követ, amelynek minden lépésénél kötelező az aláírás.
+    duration: 1–2 nap
+  - step: '07'
+    title: 'Vizsgálat és minőség-ellenőrzés'
+    description: 'Minden befejezett deszka átmegy a kötelező minőségi ellenőrzési ponton: a rekeszek légtömörségi próbája, a szerelvények működésének ellenőrzése, a rögzítőelemek meghúzási nyomatékának ellenőrzése és a kozmetikai vizsgálat. A megrendelésre épített példák és a prototípusok ezenfelül vízi próbát is kapnak, amely a stabilitást és a kezelhetőséget is vizsgálja.'
+    duration: 1–2 nap
+  - step: '08'
+    title: Csomagolás és kiszállítás
+    description: A deszkákat leeresztjük, az eljárás szerint hajtogatjuk, strapabíró szövettáskákba vagy kiskereskedelmi dobozokba csomagoljuk, és kiszállításra rakodjuk. Minden köteget a típussal, a sorozatszámmal és az útvonallal címkezzük. A tengeri szállítóügynökökkel koordinálva FCL- és LCL-konténeres szállítmányokat szervezünk a világ minden tájára.
+    duration: 1 nap
+
+evidence_gates:
+  tagline: Vizsgálati bizonyítékok
+  title: 'Minden lépés nyilvántartást hagy hátra – fényképek és jelentések'
+  subtitle: 'Alább valódi vizsgálati fényképeket és vizsgálati jegyzőkönyvdossziékat talál a hét minőségi ellenőrzési pontból, amelyeket felügyelünk. Minden PDF valódi kétnyelvű nyilvántartás, amelyet letölthet és auditálhat – ugyanazok a nyilvántartások, amelyek alátámasztják a 10 éves ERP-követhetőségi archívum minden lotját. A teljes 7 szakaszos folyamatot a /hu/quality oldalon tekintse meg.'
+  items:
+    - title: 'PPM – A projekt minőségtervezése'
+      description: 'A gyártás-előkészítő ülés a sor indítása előtt rögzíti a munkaterületet, a referenciamintát és a Minőségvizsgálati Tervet. A rendezetlen tételek blokkolják a gyártásra engedélyezést.'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_SUP_OEM_QIP.pdf
+      link_label: 'QIP letöltése (PDF)'
+      image: https://assets.isupfactory.com/site/quality/node01-ppm.avif
+      alt: Gyártás-előkészítő ülés, amely egy OEM SUP megrendelés referenciamintáját és minőségvizsgálati tervét elemzi
+    - title: 'IQC – Beérkező anyagok vizsgálata'
+      description: 'Minden beérkező PVC-, szövet- és szerelvényszállítmány ellenőrzését a jóváhagyott specifikációkkal szemben végezzük. A nem megfelelő lotokat karanténba helyezzük, és a sorra engedélyezés előtt elutasítjuk.'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_IQC_TEST_REPORTS.pdf
+      link_label: 'IQC jelentések letöltése (PDF)'
+      image: https://assets.isupfactory.com/site/quality/node02-iqc.avif
+      alt: A PVC-szövet és a SUP alkatrészek beérkező anyagvizsgálata a gyárban
+    - title: 'IPQC / FAI – Folyamatközi ellenőrzés'
+      description: 'Az első darabot a rögzített viszonyítási alapokhoz képest ellenőrizzük, és minden forduló fenntartja a soron végzett járőri vizsgálatokat. Az FAI jóváhagyása verzióként rögzíti a grafikát, a méreteket és az anyaglistát.'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_IPQC_TEST_REPORTS.pdf
+      link_label: 'IPQC jelentések letöltése (PDF)'
+      image: https://assets.isupfactory.com/site/quality/node03-ipqc-fai.avif
+      alt: Folyamatközi ellenőrzés és elsődarab-ellenőrzés a SUP gyártása során
+    - title: 'Felfújás és légtömörségi vizsgálat'
+      description: 'A befejezett deszkák 100%-a – nem csupán a minták – 24 órás, 18.0 PSI nyomástartási próbát kap, automatikus elutasítással 0.50 PSI-nél nagyobb csökkenés esetén. Minden rekeszhez egy nyilvántartás.'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_AIRTIGHTNESS_TEST_REPORTS.pdf
+      link_label: 'Tömörségi jelentések letöltése (PDF)'
+      image: https://assets.isupfactory.com/site/quality/node04-airtightness.avif
+      alt: Felfújható SUP rekesz felfújása és légtömörségi vizsgálata
+    - title: 'FQC – Késztermék-vizsgálat'
+      description: 'A befejezett deszkákat a rajzok tűréseihez képest mérjük, és D65 nappali fényű lámpákkal kozmetikailag minősítjük a jóváhagyott referenciamintához képest.'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_FQC_TEST_REPORTS.pdf
+      link_label: 'FQC jelentések letöltése (PDF)'
+      image: https://assets.isupfactory.com/site/quality/node05-fqc.avif
+      alt: A befejezett SUP deszkák késztermék-vizsgálata csomagolás előtt
+    - title: 'PSI – A csomagolás és a szállítás előtti vizsgálat'
+      description: 'A csomagolt készletet 100%-ban ellenőrizzük az ügyfél által jóváhagyott anyaglistához képest – vonalkódolvasás (Grade ≥ B), dobozjelölések és ISTA-1A ejtési próba a rakodás előtt.'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_PSI_TEST_REPORTS.pdf
+      link_label: 'PSI jelentések letöltése (PDF)'
+      image: https://assets.isupfactory.com/site/quality/node06-psi.avif
+      alt: Szállítás előtti vizsgálat a csomagolt SUP készlet ellenőrzésével az anyaglistához képest
+    - title: 'Szállítási engedélyezés és követhetőség'
+      description: 'A minőség csak akkor írja alá a lót, ha mind a hat korábbi ellenőrzési pont lezárult. A sorozatszámokat a lothoz rendeljük, és a dossziét a szállítással együtt adjuk át.'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_SHIPMENT_RELEASE_REPORTS.pdf
+      link_label: 'Engedélyezési jelentések letöltése (PDF)'
+      image: https://assets.isupfactory.com/site/quality/node07-shipment-release.avif
+      alt: A szállítási engedély aláírása és a lot követhetőségi nyilvántartásának átadása
+cta:
+  title: 'Tekintse meg a felszereléseinket és gépeinket'
+  desc: Fedezze fel az ipari szintű eszközöket, amelyek minden VATRAD-gyártású SUP deszka alapját képezik.
+  label: A felszerelés megtekintése →
+  link: /hu/factory/equipment

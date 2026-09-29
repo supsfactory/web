@@ -1,0 +1,347 @@
+meta:
+  title: 'A gyár és a gyártás — OEM felfújható SUP deszkák'
+  description: 'Látogassa meg a Vatrad gyárat: 12 500 m²-es üzem vágással, RF-hegesztéssel, nyomtatással, összeállítással és minőségi laboratóriummal az OEM/ODM felfújható SUP deszka gyártásához.'
+  dateModified: '2026-08-07'
+  keywords:
+    - 'kínai SUP gyár'
+    - 'felfújható paddle deszka gyár'
+    - 'SUP deszka OEM gyártó'
+    - 'felfújható SUP deszka gyártása'
+hero:
+  tagline: A gyár
+  title: A gyár és a gyártás
+  subtitle: 12,500 m2-es SUP deszka gyár Qingdaoban, Kínában — egyedi SUP deszka gyártás a nyers PVC alapanyagtól a kész felfújható paddle deszkáig
+
+answer:
+  label: 'Közvetlen válasz'
+  text: 'Tanúsított felfújható SUP deszka gyár Qingdaoban, Kínában: ISO 9001, ISO 25649, BSCI, CE, REACH és RoHS. 12,500 m²-es üzem 4 speciális ütemrésszel, 350+ munkavállalóval, évente 120 000+ gyártott deszkával (havi 10 000 deszka 4 automatizált soron). Minden deszkát 24 órán át, 18.0 PSI nyomáson nyomáspróbázzuk, átesik egy 100 pontos összeállítási ellenőrzőlistán, és 10 éves anyagkövethetőséggel rendelkezik.'
+  verified: '2026. szeptember'
+
+intro:
+  - A **Qingdao Vatrad Group Co., Ltd.** gyártódivíziójaként a Vatrad a felfújható SUP deszkák gyártásának minden szakaszát felügyeli — a nyers PVC alapanyag érkezésétől a kész paddle deszka szállítás előtti végső ellenőrzéséig. A qingdaói gazdasági fejlesztési zónában lévő gyártó telephelyünk 12 500 négyzetméteren terül el, és a PVC vágására, a drop-stitch mag ragasztására, a SUP deszkák digitális nyomtatására, a végső összeállításra és a minőségi vizsgálatra szolgáló speciális ütemrészeket fogadja.
+  - A tervezés, a mérnökség, a prototípuskészítés, a gyártás és a vizsgálat egyetlen tető alatti összeintegrálásával megszüntetjük a szerződéses gyártás inefficiencieseit, és közvetlen ellenőrzést tartunk a kivitelezés minősége, az anyagkiválasztás és a szállítási határidők felett. Minden SUP deszkát, amely elhagyja üzemünket, saját embereink építenek, saját berendezéseinken, saját szabványaink szerint.
+
+stats:
+  - value: 12,500 m2
+    label: Gyártási terület
+  - value: 350+
+    label: Képzett munkavállaló
+  - value: 120,000+
+    label: Évente gyártott SUP deszka
+  - value: ISO 9001
+    label: Minőségtanúsítás
+
+intelligence_tagline: A gyár intelligenciája
+intelligence_title: 'Fedezze fel gyártási kapacitásainkat'
+
+intelligence_cards:
+  - title: Gyártási kapacitás
+    icon: C
+    icon_bg: blue
+    desc: '12,500 m²-es telephely, amely évente 120 000+ SUP deszkát gyárt a SUP deszka- és biztonsági felszerelés sorokon. 350+ munkavállaló, 2 műszak.'
+    metrics:
+      - label: MOQ
+        value: 'SUP: minta 1–2 / pilot 20–50 / tömeg 90–100+'
+      - label: Szállítási határidő
+        value: '25–35 nap'
+    link: /hu/factory/capacity
+    link_label: 'Részletes adatok a kapacitásról →'
+  - title: 'Minőségi és vizsgáló laboratórium'
+    icon: Q
+    icon_bg: green
+    desc: 'Független minőség-ellenőrző laboratórium, 4 vizsgálati szakasszal: a nyersanyagok ellenőrzése (húzás, szakadás, UV), 24 órás nyomástartás 18.0 PSI nyomáson, a varratok leválásának vizsgálata és a hajlítási merevség ellenőrzése minden deszkánál.'
+    metrics:
+      - label: Laboratóriumi berendezések
+        value: 'Húzógép, hőmérsékleti kamra, szivárgásvizsgáló medence'
+      - label: Szabványok
+        value: 'QMS: ISO 9001; piac: CE, AS 1799'
+    link: /hu/factory/quality-lab
+    link_label: 'Laboratóriumi eljárások és berendezések →'
+  - title: OEM/ODM kapacitás
+    icon: O
+    icon_bg: purple
+    desc: 'Teljes OEM/ODM szolgáltatás: egyedi formák tervezése, private-label csomagolás, egyedi deszkaszínek, fedélzeti grafika (digitális nyomtatás és szitanyomás) exportra kész csomagolás.'
+    metrics:
+      - label: Tanúsítások
+        value: 'ISO 9001, BSCI, CE, REACH'
+      - label: Exportpiacok
+        value: '50+ ország'
+    link: /hu/factory/oem-capability
+    link_label: 'Teljes OEM szolgáltatások →'
+  - title: 'Minőségellenőrzési szabványok'
+    icon: I
+    icon_bg: orange
+    desc: 'Az IQC, IPQC, FQC és OQC projektspecifikus minőségellenőrzési kritériumai: légtömörségi ellenőrzés, vizuális és méretellenőrzés, tartozék-egyeztetés, lotkövethetőség és a szállítás előtti engedélyezés aláírása — valamint a légtömörségi nem megfelelőségek és a javítások ellenőrzött irányítása.'
+    metrics:
+      - label: Lefedettség
+        value: 'Anyagok → végső csomagolás'
+      - label: Letöltések
+        value: 'QC-protokoll, PSI-jelentés és javítási dokumentumok (PDF)'
+    link: /hu/factory/quality-inspection
+    link_label: 'Ellenőrzési szabványok és letöltések →'
+  - title: 'Javítási változáskezelési szabvány'
+    icon: C
+    icon_bg: blue
+    desc: 'Az ISO 9001 szerinti formális változáskezelés a javítási paraméterekhez: ECR, kockázat szerinti osztályozás, a különböző osztályok jóváhagyási mátrixa, a 9 lépéses zárt hurok, kvantifikált mérnöki validálás (18.0 PSI, 24 h megtartás, ΔP ≤ 0.2 PSI) és Poka-Yoke intézkedések — kétnyelvű SOP-pel, QMS-SOP-QC-CC-001 Rev 2.0.'
+    metrics:
+      - label: Dokumentum
+        value: 'QMS-SOP-QC-CC-001 Rev 2.0'
+      - label: Letöltések
+        value: 'Változáskezelési SOP és végrehajtási melléklet (PDF)'
+    link: /hu/factory/quality-change-control
+    link_label: 'Változáskezelési szabvány és letöltések →'
+  - title: 'Nem megfelelő termékek felügyelete'
+    icon: N
+    icon_bg: purple
+    desc: 'A nem megfelelő kimenetek felügyelete az ISO 9001:2015 8.7 fejezete szerint: az NCR nyilvántartása, karantén és visszatartás, súlyosság szerinti intézkedés (soron belüli aláírás / QC-vezető + műszaki mérnök / MRB), az SRI utasítások szerinti ellenőrzött javítás, 100%-os független újraellenőrzés és segédletekkel kísért megsemmisítés — a hulladékról készült videó SHA-256 segítségével archiválva.'
+    metrics:
+      - label: Szabvány
+        value: 'ISO 9001:2015 8.7 fejezet'
+      - label: Hulladékbizonyítvány
+        value: 'VAT-QA-SCRAP-CERT-2026'
+    link: /hu/factory/non-conforming-control
+    link_label: 'Nem megfelelőség-kezelés és letöltések →'
+  - title: '7 lépéses minőségellenőrzési folyamat'
+    icon: Q
+    icon_bg: green
+    desc: 'A projekt teljes minőségellenőrzési folyamata, kapuról kapura: a minőség megtervezése (PPM) → a beérkező anyagok ellenőrzése → folyamatközi ellenőrzés és elsődarab-vizsgálat → felfújás és légtömörség → végső ellenőrzés → csomagolás és PSI → szállítási engedélyezés és követhetőség. Minden kap megmutatja, mit ellenőrizünk, hogyan értékeljük, és milyen kétnyelvű jelentés készül.'
+    metrics:
+      - label: Kapuk
+        value: '01 → 07'
+      - label: Letöltések
+        value: 'Kapunkénti jelentésdossziék (PDF)'
+    link: /hu/quality
+    link_label: 'Tekintse meg a 7 lépéses folyamatot →'
+
+workshops_section:
+  tagline: Ütemrészek
+  title: 'Gyártási ütemrészek'
+  workshops:
+    - title: PVC vágás és alapanyag-előkészítés
+      description: CNC automata vágógépeink a PVC, a Hypalon és a drop-stitch szöveteket egymás alatti pontossággal dolgozzák fel. A számítógéppel optimalizált elrendezés minimalizálja az anyagpazarlást, és biztosítja, hogy minden panel hegesztés előtt megfeleljen a méretbeli specifikációjának.
+      image: https://assets.isupfactory.com/images/sups/hero/production-dept.webp
+      alt: CNC PVC vágógép, amely szövetpaneleket készít a qingdaói gyárban felfújható SUP deszkákhoz
+    - title: Csőhegesztés és termikus tömítés
+      description: Külön hegesztőüzem termikus tömítőgépekkel és RF dielektromos sajtókkal. A meleglevegős termikus tömítők ragasztják és olvasztják a PVC csőkamrákat, míg az RF varratok nagy szilárdságú, légtömör varratokat eredményeznek, amelyek megfelelnek az előírásoknak.
+      image: https://assets.isupfactory.com/images/sups/factory/isupfactory-production-department.webp
+      alt: RF hegesztőgép, amely légtömörré teszi a felfújható vízi eszközök csőkamráit a qingdaói gyárban
+    - title: A drop-stitch mag ragasztása
+      description: A SUP deszkák drop-stitch magjait meleg laminálással ragasztjuk a külső PVC rétegekhez. A több ezer belső poliészterszál köti össze a felső és az alsó réteget, így 12-15 PSI nyomáson merev szerkezet jön létre. A sínszalagokat háromrétegű olvasztással ragasztjuk az él tartóssága érdekében.
+      image: https://assets.isupfactory.com/images/sups/factory/isupfactory-sup-manufacturing.webp
+      alt: Felfújható SUP deszkák gyártósora drop-stitch magragasztó berendezéssel a qingdaói gyárban
+    - title: A SUP deszkák nyomtatása és díszítése
+      description: A SUP deszkákat digitális nyomtatással, teljes színű grafikával, szitanyomással pedig emblémák és ismétlődő minták készítésével díszítjük. A digitális nyomtatók fényképezőminőségű fedélzeti mintákat állítanak elő, a szitanyomás pedig tartós és élénk megjelenést biztosít.
+      image: https://assets.isupfactory.com/images/sups/factory/isupfactory-production-department-2.webp
+      alt: A qingdaói felfújható SUP deszka gyár gyártási részlegének belső tere
+    - title: Összeállítás és végső szerelés
+      description: Összeállítósor, amelyen minden SUP deszkára szelepeket, D-gyűrűket, markolatokat, uszonydobozokat és fedélzeti felületeket szerelünk. Minden deszka 100 pontos összeállítási ellenőrzőlistát követ, amelyet a csapatvezető aláír.
+      image: https://assets.isupfactory.com/images/sups/factory/isupfactory-production-department.webp
+      alt: Gyártási részleg összeállítóállásokkal a qingdaói gyárban
+    - title: Vizsgálat és minőségellenőrzés
+      description: Minden befejezett deszka kötelező légtartási vizsgálaton, a varratok leválásának ellenőrzésén és a rendszerek teljes átvizsgálásán megy át a szállítás előtt. Minőségi laboratóriumunk a gyártástól függetlenül működik, és közvetlenül a vezetőségnek jelenti.
+      image: https://assets.isupfactory.com/images/sups/factory/isupfactory-pressure-testing.webp
+      alt: Felfújható SUP deszka nyomáspróbája a lég megtartására a qingdaói gyárban, szállítás előtt
+
+equipment_section:
+  tagline: Berendezések
+  title: 'Kulcsfontosságú gyártóberendezések'
+  view_full: 'Tekintse meg a berendezések teljes listáját →'
+  view_full_link: /hu/factory/equipment
+  items:
+    - name: 'Automata PVC vágógép'
+      spec: 'CNC-vezérelt, 0.1 mm pontosság'
+    - name: Termikus tömítőgép
+      spec: 'Meleg levegő, 200°C–300 °C, csövek ragasztásához'
+    - name: 'RF dielektromos hegesztősajtó'
+      spec: '15 kW, a varratok légtömör hegesztése'
+    - name: 'Drop-stitch mag lamináló sajtó'
+      spec: 'Legfeljebb 14 ft SUP magok'
+    - name: Digitális nyomtató
+      spec: 'Teljes színű grafika a SUP deszkák fedélzetére'
+    - name: Szitanyomó gép
+      spec: 'Többszínű emblómanyomás'
+
+qc_section:
+  tagline: Minőségellenőrzés
+  title: 'A vizsgálati és minőségbiztosítási folyamat'
+  subtitle: 'Minden deszka kötelező vizsgálaton megy át a szállítás előtt. Minőségi laboratóriumunk a gyártástól függetlenül működik, és közvetlenül a vezetőségnek jelenti.'
+  steps:
+    - step: '1'
+      title: 'A nyersanyagok ellenőrzése'
+      desc: 'A PVC, a Hypalon és a drop-stitch szövetek húzási próbák (), repedés terjedési próbák és UV-ellenállás ellenőrzés esik át, mielőtt bármelyik lot gyártásba kerülne.'
+    - step: '2'
+      title: '24 órás légtartási vizsgálat'
+      desc: 'Minden csőrekeszt 18.0 PSI nyomásra fújjuk, és 24 órán át megtartjuk. A 0.50 PSI-nél nagyobb nyomáscsökkenés automatikus elutasítást és a varratok újraellenőrzését váltja ki.'
+    - step: '3'
+      title: 'Terhelés- és egyensúlyvizsgálat'
+      desc: 'A befejezett deszkákat a névleges nyomásra fújjuk, és ellenőrizzük a szimmetrikus felfújást, a 15 PSI nyomáson mért merevséget és a terhelés alatti stabilitást. Minden deszkát nedvesen vizsgálunk a próbamedencénkben a végső ellenőrzés előtt.'
+
+oem_section:
+  tagline: OEM projektek
+  title: 'Márka- és OEM partnerségi esettanulmányok'
+  subtitle: 'Az ötlettől a gyártásig — így segítjük a globális márkákat a felfújható SUP deszka terméksoruk bevezetésében és bővítésében.'
+  cases:
+    - challenge: 'Egy európai outdoor kiskereskedőnek egyedi fedélzeti grafikával, környezetbarát PVC-vel és eladásra kész csomagolással rendelkező private-label SUP deszka termékvonalra volt szüksége — mindez 60 napon belül szállítva.'
+      solution: 'Egyedi digitális nyomtatási fájlokat fejlesztettünk, REACH-megfelelő PVC-t szereztünk be, és a mintavételi fordulókat 3-ról 1-re csökkentettük azzal, hogy a tervezőcsapatot a qingdaói gyárunkba helyeztük.'
+      result: '25–35 napos gyártás az aláírt megrendeléstől számítva, az első szállítás a 60 napos ablakon belül. 2 400 darab 4 SKU-ban. Az ismételt megrendelés az első lot teljes kiszállítása előtt lett leadva.'
+      disclaimer: 'Anonimizált projektösszefoglaló — a projekt típusa és terjedelme reprezentatív; a konkrét eredmények függetlenül nem ellenőrizhetők.'
+    - challenge: 'Egy amerikai vizes sport startupnak nagy teljesítményű, drop-stitch SUP deszkára volt szüksége, egyedi formával, közös márkázású csomagolással és a retailbe helyezéshez BSCI-tanúsítással.'
+      solution: 'Módosított kontúrral adaptáltuk a meglévő SUP formát, kifejlesztettük a közös márkázású csomagolást, és teljes BSCI-auditdokumentációt bocsátottunk rendelkezésre.'
+      result: 'Sikeres elhelyezés kulcsfontosságú amerikai outdoor kiskereskedőknél, erős lökést generálva, több mint 5 000 eladott darabbal az első évben és 98%-os értékesítési aránnyal.'
+      disclaimer: 'Anonimizált projektösszefoglaló — a projekt típusa és terjedelme reprezentatív; a konkrét eredmények függetlenül nem ellenőrizhetők.'
+    - challenge: 'Egy ausztrál disztribútor CE-tanúsított SUP deszka sorozatot kért egyedi színekkel és ausztrál szabványoknak való megfeleléssel.'
+      solution: '4 színváltozatú gyártás előtti mintákat készítettünk, és koordináltuk a harmadik fél általi megfelelőségi vizsgálatot.'
+      result: '3 modellből álló SUP deszka sorozat indult az AU/NZ piacon. Ezt követően 12 SUP patrol deszkára megnyertünk egy kormányzati pályázatot.'
+      disclaimer: 'Anonimizált projektösszefoglaló — a projekt típusa és terjedelme reprezentatív; a konkrét eredmények függetlenül nem ellenőrizhetők.'
+
+faq_section:
+  tagline: GYIK
+  title: 'B2B és OEM gyakori kérdések'
+  questions:
+    - q: 'Mi az OEM felfújható SUP deszkák minimális rendelési mennyisége (MOQ)?'
+      a: 'Az MOQ-t a projekt konfigurációja határozza meg, nem egy rögzített szám — a légkamra és a szerszámok, a színváltozatok és a PVC, a grafika, a csomagolás és a tartozékok függvényében. A standard tömeggyártás 90–100+ darabot jelent lotonként egy teljes, 150 m-es drop-stitch szövettekercsből, a közös márkázás kis lottákban 5–10 darabtól indul, és minden projekt átesik a minta- (1–2 darab) és pilot- (20–50 darab) szakaszokon. A teljes számítási logikát a MOQ- és rugalmas márkázási útmutatókban találja.'
+    - q: 'Bír-e a Vatrad BSCI-tanúsítvánnyal?'
+      a: 'Igen. Gyárunk érvényes BSCI társadalmi megfelelési tanúsítványt tart fenn (az auditjelentés kérésre rendelkezésre áll). Emellett ISO 9001 minőségirányítási tanúsítvánnyal is rendelkezünk. A CE-tanúsítvány az EU-piacokra szánt modellekre vonatkozik; a hatókör projektenként kerül megerősítésre. A REACH- és RoHS-megfelelőségi dokumentációt minden OEM megrendeléshez mellékeljük.'
+    - q: 'Mi a szokásos szállítási határidő egy OEM megrendeléshez?'
+      a: 'A standard határidő 25–35 nap a megerősített megrendeléstől és az előlegtől számítva tömeg OEM-gyártás esetén. Az egyedi formák fejlesztése további 15–20 napot ad a szerszámokhoz. Sürgős megrendelésekhez és szezonális csúcsidőszakokhoz gyorsított gyártás is rendelkezésre áll. A prototípusminták rendszerint 7–12 nap alatt készen állnak.'
+    - q: 'Intézik az exportdokumentációt?'
+      a: 'Igen. Csapatunk belsőleg kezeli az exportdokumentációt és a vámügyi eljárásokat, és 50+ országba szállítunk az EU-, az USA-, az AU- és az ázsiai piacokról.'
+
+b2b_moq: 'A projekt konfigurációja által megerősített MOQ: minta 1–2, pilot 20–50, tömeg 90–100+ (150 m-es tekercsenként); kis lottájú közös márkázás 5–10 darabtól.'
+
+production_flow:
+  tagline: 'A gyártási folyamat'
+  title: 'Az alapanyagtól a kész deszkáig'
+  subtitle: 'Minden deszka 6 gyártási szakaszon megy át, minden lépésen minőségi ellenőrzési pontokkal. Nincs rövidítés, nincs kihagyott ellenőrzés.'
+  stages:
+    - stage: '01'
+      title: 'Anyagfogadás és belépő QC'
+      description: 'Minden beérkező anyagot lottagszámmal rögzítünk az ERP-rendszerünkben. A PVC szövettekercseket, a drop-stitch magokat, a szelepeket, a ragasztókat és a szerelvényeket a QC aláírásáig karanténba helyezzük.'
+      qc_check: 'Húzási szilárdság (ASTM D751), szakadási ellenállás (ISO 4674), vastagságmérő, a ragasztó viszkozitása, a hibák vizuális átvizsgálása'
+      qc_threshold: 'A lottagok 100%-a vizsgált. Elutasítás, ha a húzás < a specifikáció 90%-a, a szakadás < a specifikáció minimuma vagy bármely látható hiba'
+      responsibility: Belépő QC csapat (3 ellenőr)
+    - stage: '02'
+      title: 'CNC vágás és alapanyag-előkészítés'
+      description: 'A számítógéppel optimalizált elrendezés a paneleket a PVC-készletre rendezi a hulladék minimalizálása érdekében. A CNC automata vágógépek 0.1 mm-es helyzeti pontosságot tartanak.'
+      qc_check: 'Méretellenőrzés a CAD DXF fájlok alapján, élminőségi vizsgálat, a panelek számának ellenőrzése'
+      qc_threshold: 'Minden 20. panel mérése. ±0.5 mm tűrés. A lot elutasítása, ha több mint 2% kívül esik a tűrésen'
+      responsibility: A vágóüzem vezetője
+    - stage: '03'
+      title: 'Hegesztés és a drop-stitch mag ragasztása'
+      description: 'A drop-stitch magokat meleg laminálással ragasztjuk a külső PVC rétegekhez. A csőkamrákat RF-hegesztéssel vagy meleg levegővel forrasztjuk. A sínszalagokat háromrétegű olvasztással ragasztjuk.'
+      qc_check: 'Leválási próba 50 darabonként (ASTM D751), a varrátszélesség mérése, a meleg levegő hőmérsékleti naplójának ellenőrzése, a varratok vizuális vizsgálata kontrasztmegvilágításban'
+      qc_threshold: 'Leválási szilárdság legalább 8 N/cm. Varrátszélesség-tűrés ±1 mm. Bármely látható csatorna = elutasítás'
+      responsibility: Hegesztési QC (2 ellenőr műszakonként)
+    - stage: '04'
+      title: 'Összeállítás és szerelés'
+      description: 'A deszkák a végső összeállításra kerülnek, ahol minden alkatrész összekapcsolódik: az olvasztott fedélzeti és hajótest-panelek, a beépített szelepek, a D-gyűrűk, a markolatok, az uszonydobozok és a szállítótáska. Minden egység 100 pontos összeállítási ellenőrzőlistát követ.'
+      qc_check: 'A 100 pontos ellenőrzőlista aláírása egységenként, a szelep működési próbája (10 nyitási/zárási ciklus), a szerelvények meghúzási nyomatékának ellenőrzése, vizuális vizsgálat'
+      qc_threshold: 'Nulla hiba politika a biztonsági szempontból kritikus tételeknél (szelep, D-gyűrűk, markolatok). Kis esztétikai hiba: AQL 2.5 (ISO 2859)'
+      responsibility: 'Az összeállító csapat vezetője + sor QC'
+    - stage: '05'
+      title: 'Nyomásvizsgálat és minőségi megtartás'
+      description: 'Minden légkamrát 18.0 PSI nyomásra fújjuk (egy 12–15 PSI névleges értékű SUP deszkánál), és 24 órán át megtartjuk. A nyomásérzékelők folyamatosan rögzítenek. Azokat a kamrákat, ahol a nyomáscsökkenés meghaladja a 0.50 PSI-t, elutasítjuk, és a varratok újraellenőrzésére küldjük.'
+      qc_check: '24 órás nyomástartási napló, a szenzorok napi ellenőrzött kalibrálása, hőmérséklet-kompenzált nyomásleolvasás, a varratok újratesztelése a javítás után'
+      qc_threshold: 'Legfeljebb 0.50 PSI nyomáscsökkenés 24 órán át, állandó hőmérsékleten. Bármely küszöböt meghaladó kamra = a teljes gyártási lot 100%-os újratesztelése'
+      responsibility: 'Minőségi laboratórium (a gyártástól független, a vezetőségnek jelenti)'
+    - stage: '06'
+      title: 'Végső ellenőrzés és csomagolás'
+      description: 'Végső vizuális és funkcionális ellenőrzés. Felületi hibák, a színek egyenletessége, a címke/BIN ellenőrzése, a csomagolás épsége és a tartozékok teljessége. Az egységeket vákuumcsomagoljuk, dobozba helyezzük és konténerbe rakodásra palettázzuk.'
+      qc_check: 'Teljes vizuális vizsgálat, SKU-nkénti tartozék-ellenőrzőlista, csomagolási ejtésvizsgálat (1 m, véletlenszerű minta), a címke/vonalkód beolvasásának ellenőrzése'
+      qc_threshold: 'AQL 2.5 súlyos hibákra, AQL 4.0 kisebb hibákra. Nulla tűrés a biztonsági hibákra. Az egységek 100%-a vizuális vizsgálaton esik át'
+      responsibility: 'Végső QC csapat (4 ellenőr) + a csomagolócsapat vezetője'
+
+workforce:
+  tagline: 'A csapatunk'
+  title: 'A munkaerő és a szakértelem'
+  engineers: 25+
+  engineers_detail: 'Mérnökök a K+F-ben, a formatervezésben, az anyaglaborban és a gyártási mérnökségben. Átlagosan 7+ év tapasztalat a felfújható termékek gyártásában.'
+  shift_pattern: '2 műszak/nap (07:00–15:30, 15:30–00:00). Éjszakai műszak opcionális sürgős megrendelésekhez.'
+  training: 'Havi QC oktatás, negyedéves biztonsági gyakorlatok, éves kompetenciaértékelés. Az új munkavállalók 40 órás bevezetést kapnak, mielőtt a gyártósoron dolgoznának.'
+  departments:
+    - name: 'K+F és mérnökség'
+      count: 25+
+      role: 'Terméktervezés, formamérnökség, anyaglabor'
+    - name: 'Vágás és alapanyag-előkészítés'
+      count: 15
+      role: 'CNC vágás, panel-előkészítés, anyagmozgatás'
+    - name: 'Hegesztés és laminálás'
+      count: 40
+      role: 'RF-hegesztés, meleg levegős hegesztés, drop-stitch ragasztás'
+    - name: 'SUP mag ragasztása'
+      count: 30
+      role: 'Drop-stitch laminálás, meleg ragasztás, sínszalagok olvasztása'
+    - name: 'Összeállítás és szerelés'
+      count: 35
+      role: 'Végső összeállítás, szerelvények beépítése, rendszerek ellenőrzése'
+    - name: 'Minőségellenőrzés'
+      count: 12
+      role: 'Belépő QC, folyamatközi QC, végső ellenőrzés, laboratóriumi vizsgálat'
+    - name: 'Logisztika és csomagolás'
+      count: 20
+      role: 'Csomagolás, konténerbe rakodás, exportdokumentáció'
+    - name: 'Vezetés és adminisztráció'
+      count: 15
+      role: 'Értékesítés, beszerzés, emberi erőforrások, pénzügy, megfelelőség'
+
+material_traceability:
+  tagline: Követhetőség
+  title: 'Az anyagok nyomon követése és a lottagok felügyelete'
+  description: 'Minden nyersanyaglot egyedi lottagszámot kap az ERP-rendszerünkben. Az érkezéstől a gyártáson át a késztermékig minden deszka anyaglista visszakapcsolódik a beszállító eredeti lottagjához. Ez teljes előzménykövethetőséget biztosít bármely minőségi vagy megfelelőségi vizsgálathoz.'
+  system: 'Egyedi ERP (a Qingdao Vatrad Group belső rendszere) + fizikai lottacímkék minden munkalapján'
+  coverage: 'A gyártási anyagok 100%-a — PVC, Hypalon, drop-stitch szövet, ragasztók, szelepek, szerelvények, csomagolás'
+  records_retained: '10 év (a CE 2013/53/EU előírásának megfelelően)'
+  suppliers:
+    - material: 'Tengeri minőségű PVC'
+      source: 'Kínai és koreai beszállítók'
+      certified: 'ISO 9001, REACH, RoHS'
+    - material: 'Hypalon (CSM)'
+      source: 'Japán beszállító'
+      certified: 'ISO 9001, REACH'
+    - material: 'Drop-stitch szövet'
+      source: 'Saját szövés + külső partner'
+      certified: 'Belső QC + a beszállító ISO 9001 tanúsítványa'
+    - material: 'Szelepek és szerelvények'
+      source: 'Kínai OEM beszállítók'
+      certified: 'ISO 9001, lotonkénti anyagbizonylat'
+
+qc_dashboard:
+  tagline: 'QC számokban'
+  title: 'Minőségellenőrzési mutatók'
+  subtitle: 'Valós átadási/elutasítási adatok a gyártósorunkról. Minőségi laboratóriumunk a gyártástól függetlenül működik, és közvetlenül a vezetőségnek jelenti.'
+  stats:
+    - value: 100%
+      label: Nyomáspróbázott egységek
+      detail: 'Minden deszka, minden kamra, minden lot'
+    - value: '<5%'
+      label: Megengedett maximális nyomáscsökkenés
+      detail: '24 órán át 18.0 PSI nyomáson'
+    - value: AQL 2.5
+      label: A súlyos hibák küszöbértéke
+      detail: 'Az ISO 2859 mintavételi szabvány szerint'
+    - value: 24h
+      label: A nyomástartás időtartama
+      detail: 'Minden deszka, minden kamra'
+    - value: 18 PSI
+      label: 'A vizsgálat és a névleges érték viszonya'
+      detail: 'Biztonsági tartalék minden légkameránál'
+    - value: 0%
+      label: 'Biztonsági hibák tűrése'
+      detail: 'Szelepek, D-gyűrűk, varratok, lebegőképesség'
+
+process_cta:
+  title: 'Tekintse meg gyártási folyamatunkat'
+  desc: 'Kövesse egy SUP deszkát a gyártás minden szakaszán — a nyersanyagtól a hajrakásra kész deszkáig.'
+  label: 'Tekintse meg a gyártási folyamatot →'
+  link: /hu/factory/process
+
+evidence_review:
+  tagline: 'Bizonyíték és ellenőrzés'
+  title: 'Gyári bizonyítékok — ellenőrizve'
+  body: 'Ezen az oldalon szereplő valamennyi gyártási állítást a qingdaói laixi üzemünk gyártási mérnöki csapata ellenőrizte. A tanúsítványok, a QC ellenőrzési nyilvántartások, a nyomás- és szerkezeti vizsgálati jelentések, valamint a lotkövethetőségi nyilvántartások kérésre rendelkezésre állnak. A specifikációkat legutóbbi alkalommal 2026 szeptemberében ellenőrizték.'
+
+cta:
+  title: 'Fedezze fel a gyárunkat'
+  actions:
+    - text: 'A gyár auditjának ellenőrzőlistája'
+      href: /hu/factory-audit-checklist

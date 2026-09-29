@@ -1,0 +1,93 @@
+meta:
+  title: 'A VATRAD gyár felszerelése – vágás, hegesztés és nyomtatás'
+  description: 'A VATRAD ipari szintű gyártóeszközei: PVC vágás, RF hegesztés, digitális nyomtatás, összeállítás és tesztelés a felfújható SUP deszkákhoz.'
+  dateModified: '2026-08'
+  keywords:
+    - 'SUP gyártóeszközök'
+    - 'felfújható SUP gyár'
+    - 'PVC RF hegesztés'
+    - 'paddle deszka gyártás'
+hero:
+  tagline: Eszközök
+  title: Gyártóberendezések és gépek
+  subtitle: Ipari szintű eszközök vágáshoz, hegesztéshez, nyomtatáshoz és összeállításhoz
+  back_label: Vissza a gyárhoz
+  back_link: /hu/factory
+
+answer:
+  label: 'Közvetlen válasz'
+  text: 'A 12,500 m²-es gyárunk CNC-vezérelt automata vágást (0,1 mm-es pontosság, 5% alatti hulladék), 200–600 °C-os meleglevegős hegesztést, valamint 15 kW-os RF dielektromos hegesztést alkalmaz a fő varratokhoz, 14 ft-ig terjedő drop-stitch maghézagoló sajtót, valamint minőség-ellenőrző laboratóriumot használ, amely minden rekeszt nyomáspróbáz, az ASTM D751 szerinti szakító vizsgálatot végez, és az ISO 6185 szerinti varratházasodást ellenőrzi.'
+  verified: '2026. szeptember'
+
+categories:
+  - title: Vágás és anyagelőkészítés
+    items:
+      - name: Automata PVC vágógép
+        spec: CNC-vezérelt, 6,5 m × 2,5 m, 0,1 mm pontosság
+        desc: Számítógéppel vezérelt automata vágógép PVC-, Hypalon- és drop-stitch szövetekhez. A fekítőszoftver 5% alatti túlvágással optimalizálja az anyagfelhasználást.
+      - name: Szövegterítő
+        spec: Legfeljebb 3 m szélesség, feszítésszabályozású adagolás
+        desc: A szöveget egy vagy több rétegbe rendezi, szabályozott feszítés mellett, hogy vágás előtt elkerülje a deformálódást.
+
+  - title: Csőhegesztés és ragasztás
+    items:
+      - name: Termikus hegesztőgép
+        spec: Meleglevegős hegesztés, 200–600 °C változtatható, 0,5–5 m/perc
+        desc: Meleglevegős termikus hegesztőgép a PVC- és Hypalon-csövek varratainak ragasztásához és hegesztéséhez. Ideiglenes rögzítésre, tömítésre, valamint a légkamrák és a felhajtóerőt adó elemek összeolvasztására szolgál.
+      - name: RF dielektromos sajtó
+        spec: 15 kW, 2000 × 600 mm lemez
+        desc: Nagyfrekvenciás hegesztősajtó a fő hosszanti varratokhoz, a cső-sín illesztésekhez és a nagy méretű kamrák kialakításához.
+      - name: CNC-vezérelt RF hegesztőgép
+        spec: 8 kW, 2500 × 1200 mm XY asztal
+        desc: Programozott hegesztés az ívelt varratokhoz összetett geometriáknál, márkás domborításhoz és precíz alkatrész-összeállításhoz.
+
+  - title: SUP deszkák gyártása
+    items:
+      - name: Drop-stitch maghézagoló sajtó
+        spec: Nagy méretű sajtó 14 ft LOA-ig terjedő deszkamagokhoz
+        desc: A drop-stitch magok precíz laminálása a külső PVC-fóliákkal. Minden réteg nyomással kerül ragasztásra az állandó minőség és szilárdság érdekében.
+      - name: CNC router (5 tengelyes)
+        spec: 3 m × 2 m × 1 m munkatér, vízhűtéses tengely
+        desc: A fin-boxok, a fogantyúkivágások és a deszka egyedi alkatrészeinek megmunkálása.
+
+  - title: SUP deszkák nyomtatása és dekorálása
+    items:
+      - name: Digitális nyomtató
+        spec: Nagy felbontású tintajet, 2 m szélességig nyomtatható
+        desc: Közvetlen digitális nyomtatás az anyagra, teljes színű grafikához a SUP deszka fedélzetén. Egyedi mintákat, színátmeneteket és fotóminőségű képeket nyomtat, UV-álló, vízbázisú festékekkel.
+      - name: Szitanyomó gép
+        spec: Kézi és félautomata, több színes regiszter
+        desc: Szitanyomás logókhoz, védjegyekhez és ismétlődő mintákhoz a SUP deszkákon. Tartós, fedő festékréteget ad, intenzív színtelítettséggel.
+
+  - title: Összeállítás és szerelés
+    items:
+      - name: Deszka-összeállító állás
+        spec: Moduláris, állítható, többállásos elrendezéssel
+        desc: A fin-boxok, a fogantyúk, a D-gyűrűk, a szelepek és a SUP deszkák fedélzeti padjeinek összeállítása.
+      - name: Szelep-szerelő sajtó
+        spec: Pneumatikus, állítható nyomással
+        desc: A Halkey-Roberts és Leafield szelepek precíz beépítése és tömítése.
+      - name: Padlaminátor
+        spec: 3 m × 1,5 m, szabályozott hőmérséklettel
+        desc: EVA hab padok hőlaminálása a SUP deszkák felső oldalán, állandó tapadással.
+
+  - title: Tesztelés és minőség-ellenőrzés
+    items:
+      - name: Univerzális szakítópróba-gép
+        spec: 50 kN, / ASTM D751
+        desc: A szövetlotok szakítási szilárdságának, szakadási nyúlásának és a szakadás terjedésének vizsgálata.
+      - name: Légtömörségi tesztrendszer
+        spec: Programozható, 30 perces nyomástartás
+        desc: Automatikus nyomástartási teszt minden csőrekesz összeállítása előtt.
+      - name: Varratházasodási vizsgáló készülék
+        spec: 180°-os motoros hajlítás, 100 mm/perc
+        desc: A hegesztett és ragasztott varratok házasodással szembeni ellenállásának vizsgálata az ISO 6185 szerint.
+      - name: Xenon-ív öregítő próbakamra
+        spec: 2000 órás expozíció
+        desc: UV-sugárzással szembeni ellenállás tesztelése a színváltozás és az állékonyság megőrzése szempontjából.
+
+cta:
+  title: Érdekli egy gyárlátogatás?
+  desc: Fogadjuk a látogatókat aqingdaói üzemünkben. Látja a felszereléseinket és folyamatainkat a helyükön.
+  label: Időpontot egyeztetünk →
+  link: /hu/contact

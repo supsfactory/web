@@ -1,0 +1,70 @@
+meta:
+  title: "Felfújható SUP MOQ – a minimális megrendelési mennyiségek magyarázata"
+  description: "Egyértelmű MOQ szintek a felfújható SUP-k testreszabott gyártásához: 5–10 közös márkázás, 20–50 pilóta szállítmány, 90–100+ térfogat tekercsenként. Döntési fa a testreszabás mértéke szerint."
+  dateModified: "2026-08-20"
+
+sections:
+  - title: "Közvetlen válasz"
+    directAnswer:
+      answer: "A meglévő platformokon futó pilótaszállítmányok 20–50 darabtól indulnak; a standard térfogatú MOQ 90–100+ darab egy 150 m-es drop-stitch tekercsenként (körülbelül 180–220 deszka)."
+      condition: "A konkrét MOQ a deszka formájától, az alapanyagtekercstől, a nyomtatástól, a csomagolástól és az új szerszám szükségességétől függ."
+      value: "5–10 közös márkázás · 20–50 pilóta szállítmány · 90–100+ tekercsenként, térfogat"
+      verifiedDate: "2026. szeptember"
+      sourceType: "factory-record"
+    body: |
+      Az iSupfactory MOQ-ja szintekben van meghatározva a testreszabás mértéke szerint, és nem
+      egyetlen rögzített értéket jelent.
+      Minden szint egy pontos gyártási forgatókönyvhöz tartozik:
+
+      | Forgatókönyv | MOQ | Mértékegység | Feltétel |
+      |----------|-----|------|-----------|
+      | Meglévő platform, csak logófelülírás | 5–10 darab | tervenként | Ugyanaz a forma, ugyanaz az alapanyagtekercs, ugyanaz a színváltozat |
+      | Testreszabott grafika / EVA / csomagolás meglévő platformon | 20–50 darab | pilótaszállítmány | Ugyanaz a forma; az új grafika vizuális mintajóváhagyást igényel |
+      | Standard térfogatú gyártás (bármely platform) | 90–100+ darab | 150 m-es tekercsenként (körülbelül 180–220 deszka) | Alapanyagtekercsenként; több SKU külön tekercseket jelent |
+      | Új forma / testreszabott szerszám | 90–100+ darab | gyártási sor | A szerszám 15–20 napot ad hozzá; egyszeri szerszámdíj |
+
+  - title: "Mit jelent az „alapanyagtekercs”?"
+    body: |
+      A 150 méteres drop-stitch szövettekercs a deszka méreteitől függően (általában 10–11 ft)
+      körülbelül 180–220 deszkát ad. Minden külön SKU – vagyis a méret, a szín vagy az
+      alapanyagspecifikáció minden különböző kombinációja – saját tekercset, és így saját
+      MOQ-t igényel.
+
+      Ezért van a MOQ megadva „150 m-es tekercsenként”, nem pedig „tervenként”: ugyanannak a
+      deszkaformának két színváltozata két tekercset és két MOQ-t jelent.
+
+  - title: "Közös márkázás, pilóta szállítmány vagy térfogat"
+    body: |
+      **Közös márkázás (5–10 darab)**: az Ön logója egy meglévő platformon alkalmazva, amelyet
+      már egy másik márka számára használunk a gyártásban. A logó elhelyezésén kívül nincs
+      grafikai módosítás. A leggyorsabb út egy márkás mintához.
+
+      **Pilótaszállítmány (20–50 darab)**: testreszabott grafika, EVA csúszásgátló fedelem vagy
+      csomagolás egy meglévő platformformán. A vizuális minta jóváhagyását igényli a gyártás
+      előtt. Ideális egy márkaidentitás piaci teszteléséhez.
+
+      **Térfogatú gyártás (90–100+ darab tekercsenként)**: teljes gyártási sor a testreszabás
+      bármilyen kombinációjával. Ez a standard kereskedelmi szint. Minden alapanyagtekercs
+      körülbelül 180–220 deszkát ad.
+
+  - title: "A testreszabott szerszám MOQ-ja"
+    body: |
+      Amikor az Ön projektje új deszkaformát igényel (nem csupán új grafikát egy meglévő
+      formán), dedikált szerszámot kell létrehozni. Ezt a térfogati szinten gyártjuk
+      (90–100+ darab), mert a szerszámba való befektetés gyártási sort igényel az
+      amortizációhoz. A szerszám elkészítése 15–20 napot ad hozzá a standard kiszállítási
+      határidőhöz.
+
+      A szerszám tulajdonjoga: a szerszám az Öné. A mi telephelyünkön tároljuk, és kizárólag
+      az Ön gyártási soraiban használjuk.
+
+  - title: "Mintamegrendelések"
+    body: |
+      A gyártás előtti minták 1–2 deszkás mennyiségben rendelkezésre állnak a módosítások és
+      a kivitelek megerősítéséhez. Ezek kézzel épülnek az Ön specifikációi szerint, és általában
+      7–12 napot igényelnek. A minta költségét leváljuk az első térfogati megrendelésből.
+
+evidence_review:
+  tagline: 'Bizonyítékok és ellenőrzés'
+  title: 'ELLENŐRZÖTT SPECIFIKÁCIÓK'
+  body: 'Ezen az oldalon szereplő valamennyi gyártási állítást a laixi (Qingdao) telephelyünk Gyártómérnöki Csapata ellenőrizte. A tanúsítványok, a minőség-ellenőrzési vizsgálatok nyilvántartásai, a nyomás- és szerkezeti szilárdsági próbajelentések, valamint a szállítmány-nyomon követési nyilvántartások kérésre rendelkezésre állnak. A specifikációkat legutóbb 2026 szeptemberében ellenőriztük.'

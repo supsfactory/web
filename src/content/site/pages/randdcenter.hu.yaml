@@ -1,0 +1,131 @@
+meta:
+  title: 'R&D központ – felfújható SUP tervezése | {SITE}'
+  description: 'Kutatás-fejlesztés – PVC szövetek vizsgálata, testtervezés, RF hegesztés, hidrodinamikai próbák és minőségi ellenőrzés. Testreszabott R&D szolgáltatások elérhetők.'
+  dateModified: '2026-08'
+
+hero:
+  tagline: R&D központ
+  title: R & D központunk
+  subtitle: Fókuszban a fejlődés
+
+intro:
+  - A Vatrad Kutató- és Fejlesztő Központja (R&D) az a hajtóereje küldetésünknek, hogy a vizi sporteszközöket jobbá tegyük. A világ minden táján élő vizes sportkedvelőket biztonságosabb, kényelmesebb és élvezetesebb termékekkel szolgáljuk ki, a felfújható SUP deszkák és az állva evező csónakok területén végzett folyamatos innovációval. Mérnökeink, tervezőink és szenvedélyes vizes sportolóinkból álló elkötelezett csapatunk formálja az ipar jövőjét, folyamatosan emelve a minőség, a teljesítmény és a fenntarthatóság színvonalát.
+  - Kutató- és fejlesztő létesítményünk egy tető alatt egyesíti az alapanyagkutatás szakértőit, a hajóépítőket és a gyártómérnököket. Az alapanyag-receptúráktól és a test szimulációjától a hegesztési folyamatok kifejlesztéséig és a valós méretű tengerzeti próbákig a termékfejlesztés minden szakaszát adatok támasztják alá és vizsgálatokkal validáljuk.
+
+mission:
+  tagline: Küldetésünk
+  title: A vizes sportok jövőjét innováljuk
+  pillars:
+    - icon: lightning
+      title: Technológiai fejlődés
+      desc: Új anyagok, formák és gyártási módszerek megnyitása a kiemelkedőbb teljesítmény és hosszabb élettartam érdekében.
+    - icon: design
+      title: Felhasználóorientált tervezés
+      desc: A felhasználói igények mélyreható megértése és túllépése az ergonomikus, intuitív termékekkel.
+    - icon: globe
+      title: Fenntartható gyakorlatok
+      desc: A környezetre gyakorolt hatás minimalizálása környezetbarát anyagok és eljárások alkalmazásával.
+    - icon: shield
+      title: Biztonság kompromisszum nélkül
+      desc: A legmagasabb biztonsági színvonal biztosítása szigorú vizsgálatokkal és tanúsításokkal.
+
+pillars:
+  - title: Technológiai fejlődés
+    desc: Új anyagok, formák és gyártási folyamatok megnyitása a kiemelkedőbb teljesítmény és hosszabb élettartam eléréséhez.
+    icon: tech
+  - title: Fejlett alapanyagok
+    desc: A PVC és Hypalon alapanyagok, az összetett anyagok és a fenntartható csúcstechnológiai alternatívák kutatása a kiváló termékjellemzők érdekében.
+    icon: materials
+  - title: Fenntarthatóság
+    desc: 'Alapvet vállalás: a felelős környezetkezelésnek szenteljük magunkat fenntartható gyártással és újrahasznosítható anyagokkal.'
+    icon: sustainability
+
+capabilities:
+  tagline: Képességek
+  title: R&D képességeink
+  subtitle: Négy alapvető tudományterület, amely teljes ellenőrzést ad a termékfejlesztés fölött – a nyersanyagkutatástól a végső tanúsításig.
+  groups:
+    - title: Alapanyagtudomány és szövettechnológia
+      items:
+        - A PVC és Hypalon receptúrák elemzése és optimalizálása
+        - UV-stabilizátorok, égésgátlók és antimikrobiális adalékok fejlesztése
+        - Többrétegű szövetlaminálás és a tapadás mérnöki kialakítása
+        - Gyorsított öregítési próbák (UV, termikus, páratartalom, sós perm)
+    - title: Testmérnökség és hidrodinamika
+      items:
+        - A test parametrikus 3D tervezése és CFD optimalizálás
+        - Végeselemes vizsgálat a szerkezeti és ütési terhelésekhez
+        - Vontatási medencés próbák léptékmodellekkel és a teljesítmény validálása
+        - Testreszabott testek fejlesztése speciális feladatkörökhöz
+    - title: Hegesztés és illesztés technológiája
+      items:
+        - Az RF dielektromos hegesztési folyamatok fejlesztése és optimalizálása
+        - Meleglevegős, forró éll és ultrahangos hegesztési módszerek
+        - A ragasztás és a varrószalagok minősítése
+        - A varratszilárdság modellezése és az élettartam becslése
+    - title: Vizsgálat, tanúsítás és megfelelőség
+      items:
+        - Minőségirányítás és a CE megfelelőségi vizsgálatok
+        - Független harmadik fél vizsgálatok és tanúsítások támogatása
+        - Testreszabott vizsgálati protokollok fejlesztése a beszállítók minősítéséhez
+        - Üzemeltetési hibák elemzése és alapterv-okozati vizsgálatok
+
+rd_numbers:
+  tagline: Innováció
+  title: Az R&D számokban
+  stats:
+    - value: '14'
+      label: R&D mérnök és kutató
+    - value: '8'
+      label: Aktív szabadalom és benyújtott bejelentés
+    - value: '6'
+      label: Speciális laboratórium
+    - value: 12 év
+      label: Átlagos csapattapasztalat
+
+rd_services:
+  tagline: Testreszabott R&D
+  title: R&D szolgáltatások partnereknek
+  services:
+    - title: Testreszabott alapanyagfejlesztés
+      desc: Testreszabott szövetreceptúrákat, laminált rétegeket és ragasztórendszereket fejlesztünk az Ön üzemeltetési környezetéhez és teljesítménycéljaihoz igazítva.
+    - title: OEM / ODM termékmérnökség
+      desc: Termékmérnöki megoldásokat fejlesztünk OEM és ODM projektekhez, az alapanyag-kiválasztástól és a test tervezésétől a gyártóeszközök optimalizálásáig.
+    - title: Harmadik fél vizsgálatok és tanúsítások
+      desc: Használja ISO szerint megfelelő vizsgáló létesítményünket az alapanyagok független vizsgálatához, a termékek validálásához és a tanúsítás támogatásához.
+  cta: Beszéljük meg a kutatás-fejlesztési igényeit →
+  cta_link: /hu/contact
+
+vision:
+  tagline: Viziónk
+  title: A vizes sportok jövőjét formáljuk
+  body: A Vatrad arra törekszik, hogy a felfújható csónakok és SUP deszkák iparát vezesse a folyamatos innovációval, az állandó minőséggel, valamint a biztonság és a fenntarthatóság iránti határozott elköteleződéssel – így gazdagítva a világ minden táján élő vizes sportkedvelők élményeit. A Vatrad R&D központ az a hely, ahol a szenvedély találkozik az innovációval, új mércét állítva a vizes sportok ipará számára.
+
+labs_section:
+  tagline: Laboratóriumok
+  title: Laboratóriumaink
+  labs:
+    - image: https://assets.isupfactory.com/images/sups/randd/isupfactory-pvc-material-lab.webp
+      title: PVC szöveglaboratórium
+      description: A csőszerű PVC és Hypalon szövetek folyamatos kutatása és vizsgálata szakítási szilárdság, UV-állóság, kopás és alacsony hőmérsékleti hajlíthatóság tekintetében, hosszú távú megbízhatóságot biztosítva a tengeri környezetben.
+      href: /hu/randdcenter/pvc-fabric-lab
+    - image: https://assets.isupfactory.com/images/sups/factory/isupfactory-design-discussion-2.webp
+      title: Deszkamérnökségi stúdió
+      description: CAD-alapú tervezés és végeselemes elemzés a HDPE, alumínium és üvegszálas testekhez. Minden testet digitálisan szimulálunk a feszültségeloszlás és az ütésállóság szempontjából, az első prototípus megépítése előtt.
+      href: /hu/randdcenter/hull-engineering
+    - image: https://assets.isupfactory.com/images/sups/factory/isupfactory-sup-manufacturing-3.webp
+      title: RF hegesztő központ
+      description: Dedikált rádiófrekvenciás hegesztőüzem, pontos hőmérséklet- és nyomásszabályozással, amely a tengerzeti hajóépítési iparág szabványai szerint nagy szilárdságú és tömör varratokat állít elő a felfújható csónakokhoz.
+      href: /hu/randdcenter/rf-welding
+    - image: https://assets.isupfactory.com/images/sups/factory/isupfactory-design-discussion-original.webp
+      title: Hidrodinamikai próbamedence
+      description: Léptekmodell-próbák saját beltéri medencénkben, a test formaoptimalizálásához, a csúszási teljesítményhez, a stabilitáshoz és az energiahatékonysághoz változó terhelési és tengerjárási viszonyok között.
+      href: /hu/randdcenter/hydrodynamic-test-tank
+    - image: https://assets.isupfactory.com/images/sups/products/sup-series/sup-ocean-voyager-1.webp
+      title: Prototípusműhely
+      description: Valós méretű prototípizáló és felszerelő létesítmény, ahol az új modelleket megépítjük, összeszereljük és tengerzeti próbáknak vetjük alá. Minden prototípus a gyártási jóváhagyás előtt legalább 20 órás vízpróba-programot teljesít.
+      href: /hu/randdcenter/prototype-workshop
+    - image: https://assets.isupfactory.com/images/sups/factory/isupfactory-uv-resistance-testing.webp
+      title: Minőségi és ellenőrzési laboratórium
+      description: Dedikált minőségbiztosítási laboratórium, amely szakítási próbákat, levegőmegőrzési ciklusokat, varrásleválási próbákat és alapanyag-tanúsítást végez, így a műhelyt elhagyó minden deszka megfelel a közzétett specifikációnknak.
+      href: /hu/randdcenter/quality-inspection-lab

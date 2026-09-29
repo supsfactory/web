@@ -438,6 +438,30 @@ export const hero: Localized<HeroContent> = {
     float1: { value: '1–2 buc.', label: 'Mostră și aprobare (înainte de angajamentul de volum)' },
     float2: { value: FACTS.leadTime, label: 'Termen de producție (după PO)' },
   },
+  hu: {
+    kicker: 'Egyedi gyártású felfújható SUP gyártó — OEM / ODM, Qingdao, Kína',
+    titlePre: 'Felfújható SUP gyártó és',
+    titleAccent: 'OEM/ODM gyár',
+    titlePost: '',
+    sub: 'Az egyedi, felfújható SUP táblák tervezése, prototípuskészítése és gyártása saját üzemünkben, Qingdaoban, Kínában.',
+    ctaPrimary: 'Kérjen OEM ajánlatot',
+    ctaSecondary: 'Fejlessze a SUP termékét',
+    ctaTertiary: 'Ismerje meg üzemünket',
+    ctaQuartiary: '',
+    ctaMicro: 'OEM · ODM · Saját márka · Termékfejlesztés · Prototípus · Sorozatgyártás',
+    stats: [
+      { value: '12 500 m²', label: 'Saját üzemünk — Qingdao, Kína' },
+      { value: '120 000+', label: 'Évente gyártott tábla' },
+      { value: '50+', label: 'Kiszolgált exportpiac' },
+      { value: FACTS.ndaWindow, label: 'NDA alapján válaszadási idő' },
+    ],
+    mockupLabel: 'Zászlóshajós platform',
+    mockupBrand: "SUP Explorer 11'",
+    mockupHint: 'Az Ön grafikái · Az Ön színei · Az Ön csomagolása',
+    heroNote: 'Közvetlen gyártás az üzemben · Prototípusfejlesztés · Minőségbiztosított gyártás · Exporttámogatás',
+    float1: { value: '1–2 db', label: 'Minta és jóváhagyás (a mennyiségi vállalás előtt)' },
+    float2: { value: FACTS.leadTime, label: 'Gyártási határidő (a megrendelés után)' },
+  },
 }
 
 /* ─────────────────────────── home: manufacturer pledge ─────────────────────────── */
@@ -647,6 +671,18 @@ export const manufacturerPledge: Localized<ManufacturerPledgeContent> = {
       { title: 'Marca dumneavoastră, niciodată a noastră', body: 'Producem doar cu mărcile clienților noștri și nu concurăm cu ei pe nicio piață.' },
     ],
     verifyLabel: 'Verificați cine suntem',
+    verifyHref: '/about/identity',
+  },
+  hu: {
+    kicker: 'Gyártó, nem közvetítő kereskedőcég',
+    title: 'A gyár mögött, amely az Ön rendelését gyártja, a miénk',
+    sub: 'A közvetítő kereskedőcég más gyárak termelését értékesíti tovább. Mi üzemeltetjük a gyárat. Nincs közvetítői árrés, nincs harmadik fél raktára, és nincs köztes szereplő az Ön rendelése és a gyártósor között.',
+    items: [
+      { title: 'Bejegyzett jogi személy', body: 'A Qingdao Vatrad Group Co., Ltd. minden megrendelés és minden exportokmány szerződő fele.' },
+      { title: 'Egy gyár, egy csapat', body: 'A fejlesztést, a minőség-ellenőrzést, a termelés tervezését és az exportdokumentációt teljes egészében saját erőnkkel végezzük a Laixi (Qingdao, Kína) üzemünkben.' },
+      { title: 'Az Ön márkája, soha nem a miénk', body: 'Kizárólag ügyfeleink márkáira gyártunk, és egyetlen piacon sem versenyzünk velük.' },
+    ],
+    verifyLabel: 'Ellenőrizze, kik vagyunk',
     verifyHref: '/about/identity',
   },
 }
@@ -958,6 +994,24 @@ export const factoryProof: Localized<FactoryProofContent> = {
     ],
     note: 'MOQ, designul, dimensiunile plăcii, structura din PVC, graficele, ambalajele și accesoriile influențează consumul de materii prime, de aceea sunt stabilite după evaluarea specificațiilor tehnice.',
   },
+  hu: {
+    kicker: 'Gyári bizonyíték',
+    title: 'Egy valódi, dokumentált gyár',
+    sub: 'Ellenőrizhető számadatok a qingdaói (Kína) üzemünkből — minden érték azzal az oldallal van összekapcsolva, amelyen a bizonyíték megtalálható.',
+    cta: 'Ellenőrizze ezt az értéket',
+    stats: [
+      { value: FACTS.warehouseM2, label: 'Saját gyártóüzemünk', href: '/factory' },
+      { value: FACTS.workers, label: 'Üzemünk saját dolgozói', href: '/manufacturing-capabilities' },
+      { value: '120 000+', label: 'Évente gyártott tábla', href: '/factory/capacity' },
+      { value: FACTS.exportCountries, label: 'Exportáló országok', href: '/proof-center' },
+    ],
+    links: [
+      { label: 'MOQ és szállítási határidő', href: '/sup-oem-moq-lead-time' },
+      { label: 'Minőségellenőrzés', href: '/quality' },
+      { label: 'Gyáraudit ellenőrzőlista', href: '/factory-audit-checklist' },
+    ],
+    note: 'A MOQ, a kialakítás, a tábla méretei, a PVC szerkezete, a grafikák, a csomagolások és a tartozékok befolyásolják a nyersanyagigényt, ezért ezeket a műszaki specifikáció értékelése után állapítjuk meg.',
+  },
 }
 
 /* ─────────────────────────── home: factory evidence (verification band) ─────────────────────────── */
@@ -1151,6 +1205,17 @@ export const factoryEvidence: Localized<FactoryEvidenceContent> = {
       { title: 'Centrul de dovezi', body: 'Certificate, rapoarte de terțe părți, înregistrări de audit și documentația proiectelor livrate, într-un singur loc.', href: '/proof-center' },
       { title: 'Verificați fabrica', body: 'Comparați înregistrările comerciale publice, certificatele și ghidul de verificare înainte de a vă angaja.', href: '/verify-factory' },
       { title: 'Listă de control pentru auditul fabricii', body: 'Descărcați lista de control a cumpărătorului folosită la auditarea unei fabrici de plăci SUP umflabile — instalație, echipament și procese.', href: '/factory-audit-checklist' },
+    ],
+  },
+  hu: {
+    kicker: 'Ellenőrizzen minket a megrendelés előtt',
+    title: 'Gyárbizonyíték és ellenőrzés',
+    sub: 'Független bizonyíték arra, hogy üzemünk, berendezéseink, minőségbiztosítási rendszerünk és exportnyilvántartásunk valós — tekintse át és ellenőrizze, mielőtt bármilyen kötelezettséget vállal.',
+    cta: 'Tekintse meg a bizonyítékokat',
+    items: [
+      { title: 'Bizonyítékközpont', body: 'Tanúsítványok, független felülvizsgálati jelentések, auditnyilvántartások és a teljesített projektek dokumentációi egyetlen helyen.', href: '/proof-center' },
+      { title: 'Ellenőrizze a gyárat', body: 'Vesse össze nyilvános cégnyilvántartásainkat, tanúsítványainkat és ellenőrzési útmutatónkat, mielőtt kötelezettséget vállal.', href: '/verify-factory' },
+      { title: 'Gyáraudit ellenőrzőlista', body: 'Töltse le azt a vásárlói ellenőrzőlistát, amelyet felfújható SUP-táblák gyárának auditálásakor használnak — üzem, berendezés és folyamatok.', href: '/factory-audit-checklist' },
     ],
   },
 }
@@ -1572,6 +1637,31 @@ export const why: Localized<WhyContent> = {
       },
     ],
   },
+  hu: {
+    kicker: 'A gyártó márka',
+    title: 'A Vatrad támogatásával',
+    sub: 'Az iSupfactory a Qingdao Vatrad Group Co., Ltd. SUP termékfejlesztő és gyártó divíziója. A lajsi (Qingdao) 12 500 m²-es üzemünk 2012 óta gyárt felfújható termékeket, több mint 25 mérnökkel a kutatás-fejlesztés, a formatervezés, az anyaglabor és a gyártástechnika területén, akiknek átlagosan több mint 7 év tapasztalatuk van a felfújható termékek gyártásában, napi két gyártási műszakkal.',
+    image: 'https://assets.isupfactory.com/images/sups/factory/isupfactory-production-department.webp',
+    imageCaption: 'Vatrad gyártóüzem, Qingdao, Kína',
+    bullets: [
+      {
+        title: '12 500 m²-es üzem',
+        body: 'A nyers PVC-től a kész tábláig, teljes egészében nálunk, Lajsiban, Qingdaoban.',
+      },
+      {
+        title: 'Gyártás 2012 óta',
+        body: 'Napi két gyártási műszak a SUP és a felfújható termékek területén.',
+      },
+      {
+        title: 'Több mint 25 mérnök',
+        body: 'A kutatás-fejlesztés, a formatervezés, az anyaglabor és a gyártástechnika területén.',
+      },
+      {
+        title: 'Átlagosan több mint 7 év',
+        body: 'Felfújható termékek gyártási tapasztalata mérnököként.',
+      },
+    ],
+  },
 }
 
 /* ─────────────────────────── capability strip ─────────────────────────── */
@@ -1593,6 +1683,7 @@ export const strip: Localized<string[]> = {
   cs: ['OEM & ODM', 'Private Label', 'Služba vzorků', 'Design a grafika', 'Kontrola kvality každé dávky', 'Export do celého světa'],
   tr: ['OEM & ODM', 'Özel Marka', 'Numune Hizmeti', 'Tasarım ve grafik', 'Her partide kalite kontrolü', 'Dünyaya ihracat'],
   ro: ['OEM & ODM', 'Marcă privată', 'Serviciu de mostre', 'Design și grafică', 'Controlul calității la fiecare lot', 'Export în toată lumea'],
+  hu: ['OEM & ODM', 'Saját márka', 'Mintaszolgáltatás', 'Formatervezés és grafika', 'Minden gyártási sor minőségellenőrzése', 'Világméretű export'],
 }
 
 /* ─────────────────────────── home: trust bar ─────────────────────────── */
@@ -1829,6 +1920,20 @@ export const trustBar: Localized<TrustBarContent> = {
       { value: FACTS.exportCountries, label: 'piețe de export din UE, SUA, Australia și Asia' },
       { value: '18 PSI / 24 h', label: 'control de presiune și etanșeitate 100% înainte de ambalarea fiecărei plăci' },
       { value: 'MSL Fusion', label: 'sudare de înaltă frecvență în mai multe straturi, cu țesături drop-stitch' },
+    ],
+  },
+  hu: {
+    stats: [
+      { value: `MOQ ${MOQ_SHORT.standardRun}`, label: 'sorozatgyártáshoz; a pilotagyártás 20–50 darabtól indul' },
+      { value: FACTS.sampleTime, label: 'a minták a grafikák jóváhagyása után érkeznek Önhöz' },
+      { value: FACTS.leadTime, label: 'sorozatgyártás a megrendelés (PO) és az előleg megerősítése után' },
+      { value: FACTS.annualCapacity, label: 'a qingdaói (Kína) üzemünk saját éves gyártókapacitása' },
+      { value: FACTS.warehouseM2, label: 'saját üzem, a nyers PVC-től a kész tábláig' },
+      { value: FACTS.workers, label: 'üzemünk dolgozói és mérnökei' },
+      { value: 'ISO 9001 · CE · BSCI', label: 'tanúsítványos; REACH/RoHS-megfelelő anyagok' },
+      { value: FACTS.exportCountries, label: 'exportpiacok az EU-ban, az USA-ban, Ausztráliában és Ázsiában' },
+      { value: '18 PSI / 24 h', label: '100%-os nyomás- és tömörségi ellenőrzés minden tábla becsomagolása előtt' },
+      { value: 'MSL Fusion', label: 'többrétegű nagyfrekvenciás hegesztés drop-stitch szövettel' },
     ],
   },
 }
@@ -2230,6 +2335,30 @@ export const solve: Localized<SolveContent> = {
       {
         title: 'Livrări în serie — comenzi repetate și comenzi de flotă',
         body: 'Producție la scară largă pentru distribuitori, operatori de închirieri și grupuri din sector, cu specificații ferme, trasabilitate pe loturi și construcție neschimbată la fiecare comandă repetată.',
+      },
+    ],
+  },
+  hu: {
+    kicker: 'OEM és ODM gyártás',
+    title: 'Két módja annak, hogyan alakítsa ki a SUP termékét',
+    sub: 'OEM, ha rendelkezik specifikációval, ODM, ha ötlete van — emellett saját márkás és sorozatszállítási lehetőség azoknak a márkáknak, amelyek bevált platformra tartanak igényt.',
+    cta: 'Kérjen OEM ajánlatot',
+    items: [
+      {
+        title: 'OEM — gyártás az Ön specifikációja szerint',
+        body: 'OEM (Original Equipment Manufacturing): a jóváhagyott specifikáció alapján gyártunk — az Ön rajzai, méretei, anyagai, konstrukciója és csomagolása szerint. A kialakítás, a formák és a szellemi tulajdonjogok az Öné.',
+      },
+      {
+        title: 'ODM — a tábla fejlesztése mérnöki csapatunkkal',
+        body: 'ODM (Original Design Manufacturing): mérnöki csapatunk az Ön briefje alapján dolgozza ki a tábla szerkezetét, felépítését, grafikáit és csomagolását — legyen szó piaci koncepcióról, teljesítménycélről vagy egy bevált platform adaptálásáról. A gyár javasolja a kialakítást; a vevő jóváhagyja a gyártás előtt.',
+      },
+      {
+        title: 'Saját márka — az Ön márkája egy bevált platformon',
+        body: 'Saját márka: az Ön márkája, grafikái és csomagolása egy már létező, bevált platformon — formafejlesztés és konstrukciós módosítás nélkül. A legrövidebb út az ötlettől a szállításig.',
+      },
+      {
+        title: 'Sorozatszállítás — ismétlődő és flottamegrendelések',
+        body: 'Nagy mennyiségű gyártás forgalmazóknak, bérbeadóknak és szállodacsoportoknak, rögzített specifikációkkal, lotkövethetőséggel és változatlan konstrukcióval minden ismétlődő megrendelésnél.',
       },
     ],
   },
@@ -2746,6 +2875,37 @@ export const capability: Localized<CapabilityContent> = {
       },
     ],
   },
+  hu: {
+    kicker: 'Gyártói kapacitások',
+    title: 'Hat saját gyártási technológia',
+    sub: 'Az alább felsorolt valamennyi folyamat saját házban zajlik. Egyetlen lényeges lépés sincs alvállalkozóra bízva.',
+    items: [
+      {
+        name: 'CNC vágás',
+        body: 'Az automata CNC gépek PVC-t, Hypalont és drop-stitch anyagot vágnak 0,1 mm pozicionálási pontossággal, a számítógéppel optimalizált kivágás pedig csökkenti az anyagpazarlást.',
+      },
+      {
+        name: 'Nagyfrekvenciás hegesztés',
+        body: 'A 15 kW-os hegesztőprések légmentes varratokat hoznak létre. A peremsávok háromrétegű olvasztóhegesztéssel készülnek, ami él- és ütésállóságot biztosít.',
+      },
+      {
+        name: 'Drop-stitch mag k laminálása',
+        body: 'Ezer belső poliészterszál tartja párhuzamosan a felső és az alsó réteget, így 12–15 PSI nyomáson merev platform keletkezik. A magok 14 lábon át laminálhatók.',
+      },
+      {
+        name: 'Platformgrafika',
+        body: 'Teljes színű digitális nyomtatás és több színű szitabenyomás az Ön márkaanyagfájljai szerint. A platformon lévő EVA tartók az Ön színeiben, saját logókkal, kivágásokkal és mintákkal.',
+      },
+      {
+        name: 'Összeállítás és felszerelés',
+        body: 'Minden tábla egy 100 pontos ellenőrzőlistán halad keresztül, amelyet a sorvezető aláír — D-horgok, fűzőkarikák, szelepek, leash-rögzítő rendszerek és a tartozékok szerelése.',
+      },
+      {
+        name: 'Exportcsomagolás',
+        body: 'Vákuumcsomagolás kartondobozban és export-előkészítés, opcionálisan nyomtatott kiskereskedelmi dobozokkal.',
+      },
+    ],
+  },
 }
 
 /* ─────────────────────────── home: quality control (How Every Board Is Verified) ─────────────────────────── */
@@ -3256,6 +3416,37 @@ export const quality: Localized<QualityContent> = {
       {
         title: 'Trasabilitatea loturilor',
         body: 'Fiecare lot de material primește un număr unic în ERP. Specificația (BOM) a fiecărei plăci este asociată lotului inițial furnizat de producător. Înregistrările se păstrează 10 ani, conform cerințelor CE 2013/53/EU.',
+      },
+    ],
+  },
+  hu: {
+    kicker: 'Minőség-ellenőrzés',
+    title: 'Hogyan ellenőrzünk minden táblát',
+    sub: 'A minőség nem ígéret, hanem dokumentált folyamat. Mielőtt az Ön rendelését feladnánk, a következőket végezzük el.',
+    steps: [
+      {
+        title: 'Beérkező anyagok ellenőrzése',
+        body: 'A PVC-tekercsek, a drop-stitch magok, a szelepek, a ragasztók és a hardverek karanténban maradnak, amíg a minőség-ellenőrzés jóvá nem hagyja őket. A gyártásba lépés előtt az anyagok húzási, szakadási terjedési és UV-állósági vizsgálaton esnek át.',
+      },
+      {
+        title: 'Gyártás közbeni ellenőrzési pontok',
+        body: 'Minden gyártási szakaszban vannak minőség-ellenőrzési pontok; a lotból hegesztéspróbát veszünk, és héjleválasztási (peel) vizsgálatnak vetjük alá.',
+      },
+      {
+        title: 'Nyomás- és tömörségi próba',
+        body: 'Minden rekeszt 18,0 PSI-re fújjuk, majd 24 órán át szünet nélkül működő érzékelőrögzítés mellett állítjuk. Az a rekesz, amely 24 óra alatt több mint 0,50 PSI-t veszít, elutasításra kerül, és újraértékeljük a hegesztések ellenőrzéséhez.',
+      },
+      {
+        title: 'Konstrukció ellenőrzése',
+        body: 'A hajlítás névleges terhelésen, a D-karika kihúzhatósága (≥150 kgf D-karikánként), a platformtartók lehasadása (≥3,5 N/cm) és a szelep tömörsége a specifikáció szerint, a végső ellenőrzés előtt kerül ellenőrzésre.',
+      },
+      {
+        title: 'Végső ellenőrzés',
+        body: 'Táblánként egy 100 pontos ellenőrzőlista, valamint a méretek és a súly ellenőrzése a jóváhagyott mintához képest.',
+      },
+      {
+        title: 'Lotok nyomonkövethetősége',
+        body: 'Minden nyersanyaglot egyedi számot kap az ERP-ben. Az egyes táblák specifikációja (BOM) az alapanyagot beszállító kezdeti lothoz tartozik. A nyilvántartásokat 10 évig őrizzük, a CE 2013/53/EU előírásainak megfelelően.',
       },
     ],
   },
@@ -4311,6 +4502,70 @@ export const commercial: Localized<CommercialContent> = {
       },
     ],
   },
+  hu: {
+    kicker: 'Kereskedelmi feltételek',
+    title: 'Előre közölt kereskedelmi feltételek',
+    sub: 'A minimum rendelési mennyiség (MOQ), a minták, valamint a gyártási és szállítási feltételek az alábbiakban. Azoknál a projekteknél, amelyekhez új forma, speciális anyag, megfelelőségi vizsgálat vagy egyedi csomagolás szükséges, külön ajánlatot készítünk.',
+    cells: [
+      {
+        label: 'Minimum rendelési mennyiség (MOQ)',
+        lines: [
+          'Saját márkázás: 5–10 darabtól a kiválasztott meglévő platformokon',
+          'Pilotagyártás: 20–50 darab a meglévő platformokon',
+          'Szabványos mennyiség: 90–100+ darab a jóváhagyott konfiguráción, az anyagtól és a csomagolási igényektől függően',
+        ],
+      },
+      {
+        label: 'Szállítási határidő',
+        lines: [
+          '25–35 nappal a megrendelés (PO) és az előleg megerősítésétől számítva',
+          'Saját forma fejlesztése: +15–20 nap a forma legyártásához',
+          'Sürgős gyártásra a csúcsszezonban van lehetőség',
+        ],
+      },
+      {
+        label: 'Minták',
+        lines: [
+          'A prototípusmintákat 7–12 napon belül szállítjuk',
+          'A minták költségét levonjuk a sorozatrendelés számlájából',
+        ],
+      },
+      {
+        label: 'Export és dokumentáció',
+        lines: [
+          'Az exportdokumentációt saját csapatunk állítja össze',
+          'Szabványos exportcsomagolás; kérésre nyomtatott kiskereskedelmi dobozok',
+        ],
+      },
+    ],
+    certs: 'ISO 9001 — minőségbiztosítás · CE tanúsítvány az EU-piacokra szánt modellekre (a hatókör minden projektnél megerősítésre kerül) · BSCI a társadalmi felelősségért (auditjelentés kérésre) · REACH és RoHS dokumentáció minden rendeléshez.',
+    moqTiers: [
+      {
+        stage: 'Minta és jóváhagyás',
+        quantity: '1–2 darab jóváhagyásra',
+        purpose: 'A forma, a színek, a nyomat és a csomagolás megerősítésére, még a sorozatgyártás előtt',
+        note: '7–12 nap; valódi tábla, nem látványterv',
+      },
+      {
+        stage: 'Költséghatékony társ márkázás',
+        quantity: '5–10 darabtól a kiválasztott meglévő platformokon',
+        purpose: 'A kialakítás kipróbálására egy bevált platformon, feltett logóval',
+        note: 'Az új grafikák jóváhagyásának leggyorsabb módja',
+      },
+      {
+        stage: 'Pilotagyártás / kezdőkészlet',
+        quantity: '20–50 darab a meglévő platformokon',
+        purpose: 'A piac tesztelésére vagy a tevékenység valódi termékekkel való megindítására',
+        note: 'A legkisebb mennyiség a meglévő platformokon',
+      },
+      {
+        stage: 'Szabványos sorozatgyártás',
+        quantity: '90–100+ darab a jóváhagyott konfiguráción, az anyagtól és a csomagolási igényektől függően',
+        purpose: 'Szabályos sorozatok a legjobb darabonkénti árral',
+        note: '90–100+ darab; az új formákhoz külön forma szükséges (+15–20 nap a legyártásához)',
+      },
+    ],
+  },
 }
 
 /* ─────────────────────────── who we serve / customer needs ─────────────────────────── */
@@ -4956,6 +5211,45 @@ export const serve: Localized<ServeContent> = {
       },
     ],
   },
+  hu: {
+    kicker: 'Kinek készülünk',
+    title: 'Azoknak a cégeknek, amelyek saját SUP terméket fejlesztenek',
+    sub: 'Új SUP-tábla márkát indít, vagy egy meglévő kültéri termékvonalat bővítenek? Gyártási megoldásaink igazíthatók az Ön üzleti modelljéhez.',
+    segments: [
+      {
+        slug: 'sup-brands',
+        title: 'SUP márkák',
+        body: 'Olyan egyedi SUP táblákat fejlesztünk, amelyek megfelelnek a márka pozicionálásának, a célpiacnak és a termékstratégiának.',
+        points: ['Egyedi kialakítás', 'Márkás grafika', 'Termékfejlesztés', 'Saját márka'],
+        cta: 'Egyedi SUP táblák',
+        href: '/product-development',
+      },
+      {
+        slug: 'outdoor-companies',
+        title: 'Kültéri és vizes sportcégek',
+        body: 'Bővítse termékportfólióját az Ön piacára tervezett, egyedi SUP táblákkal.',
+        points: ['Termékszemélyre szabás', 'Több modell', 'OEM gyártás'],
+        cta: 'Ismerje meg az egyedi SUP táblákat',
+        href: '/solutions/custom-sup',
+      },
+      {
+        slug: 'distributors-retailers',
+        title: 'Forgalmazók és kiskereskedők',
+        body: 'Készítsen figyelemfelkeltő SUP tábla kollekciókat tömegtermékekkel való versenyzés helyett.',
+        points: ['Saját márka', 'Egyedi csomagolás', 'Azonnal értékesíthető termékek'],
+        cta: 'Tudjon meg többet',
+        href: '/solutions/private-label-sup',
+      },
+      {
+        slug: 'resorts-clubs',
+        title: 'Üdülők, klubok és szervezetek',
+        body: 'Fejlesszen SUP termékeket és felszereléseket az Ön működési körülményeihez és végfelhasználóihoz igazítva.',
+        points: ['Egyedi specifikációk', 'Márkázás', 'Nagy mennyiségű gyártás'],
+        cta: 'Ismerje meg a megoldásokat',
+        href: '/solutions/resort-sup',
+      },
+    ],
+  },
 }
 
 /* ─────────────────────────── solutions ─────────────────────────── */
@@ -5403,6 +5697,33 @@ export const solutions: Localized<SolutionsContent> = {
         title: 'Cerințe de producție',
         body: 'Stabiliți cum va fi produs proiectul dumneavoastră.',
         points: ['Cantitate', 'Specificații', 'Utilizare'],
+      },
+    ],
+  },
+  hu: {
+    kicker: 'Személyre szabási lehetőségek',
+    title: 'Egyedi SUP termékmegoldások a cége számára',
+    sub: 'A márkák OEM/ODM programjaitól a forgalmazók és beszerzési csapatok saját márkás sorozatáig — minden követelményből gyártható termék lesz.',
+    pillars: [
+      {
+        title: 'A tábla kialakítása',
+        body: 'A termék igényeihez igazítsa a táblát.',
+        points: ['Forma', 'Méretek', 'Vastagság', 'Konstrukció'],
+      },
+      {
+        title: 'Grafika és márkázás',
+        body: 'Tükrözze az Ön arculatát minden táblán.',
+        points: ['Logó', 'Színek', 'Forrásfájlok', 'Nyomtatás'],
+      },
+      {
+        title: 'Tartozékok',
+        body: 'Egészítse ki a terméket a hozzá illő alkatrészekkel.',
+        points: ['Evező', 'Táska', 'Fin', 'Csomagolás'],
+      },
+      {
+        title: 'Gyártási követelmények',
+        body: 'Határozza meg, hogyan készüljön el a projektje.',
+        points: ['Mennyiség', 'Specifikációk', 'Felhasználás'],
       },
     ],
   },
@@ -5872,6 +6193,34 @@ export const studio: Localized<StudioContent> = {
       },
     ],
   },
+  hu: {
+    kicker: 'Konfigurátor',
+    title: 'Specifikációgenerátor',
+    sub: 'Végigjárhatja a lehetőségeket — a tábla formájától a szállítási dobozig. Minden lépést Ön határoz meg.',
+    scrollHint: 'Görgessen a megtekintéshez',
+    steps: [
+      {
+        title: 'Forma és méretek',
+        body: 'Válasszon egy bevált platformot, vagy adja meg a saját kontúrját — hossz, szélesség, vastagság, élprofil és rocker.',
+      },
+      {
+        title: 'Konstrukció',
+        body: 'Egyrétegű, két rétegű vagy szendvicsszerkezet. Az oldalsó merevítések száma és a megerősített zónák a felhasználás függvényében határozhatók meg.',
+      },
+      {
+        title: 'Platformgrafika',
+        body: 'A márkafájljai szerint nyomtatott grafika, a felület teljes borításával, az Ön színeiben. Előkészítő csapatunk az ötleteket gyártásban feldolgozható adattá alakítja.',
+      },
+      {
+        title: 'A platform borítása',
+        body: 'EVA az Ön márkájának színeiben, saját logókkal, bordázatokkal, kivágásokkal és textúrákkal.',
+      },
+      {
+        title: 'Tartozékok és csomagolás',
+        body: 'Evezők, pumpák, táskák, fin-ek és leash-ek — az Ön igényei szerint gyártva és szerelve. Nyomtatott dobozok és a specifikációnak megfelelő kiskereskedelmi csomagolás.',
+      },
+    ],
+  },
 }
 
 /* ─────────────────────────── products ─────────────────────────── */
@@ -6126,6 +6475,20 @@ export const productFilters: Localized<{ all: string; groups: ProductFilterGroup
       { key: 'fishing', label: 'Pescuit' },
       { key: 'kids', label: 'Copii' },
       { key: 'multi', label: 'Persoane multiple' },
+    ],
+  },
+  hu: {
+    all: 'Minden platform',
+    groups: [
+      { key: 'all-around', label: 'All-around' },
+      { key: 'race', label: 'Verseny' },
+      { key: 'surf', label: 'Szörf' },
+      { key: 'touring', label: 'Túra' },
+      { key: 'yoga', label: 'Jóga' },
+      { key: 'whitewater', label: 'Zajos víz' },
+      { key: 'fishing', label: 'Horgászat' },
+      { key: 'kids', label: 'Gyermek' },
+      { key: 'multi', label: 'Többszemélyes' },
     ],
   },
 }
@@ -9603,6 +9966,223 @@ export const products: Localized<ProductsContent> = {
       },
     ],
   },
+  hu: {
+    kicker: 'Gyártási platformok',
+    title: 'Személyre szabható SUP platformok',
+    sub: 'Minden sorozat egy gyártási platform — válasszon kiindulási pontot, és a formát, a grafikát és a specifikációkat a termékéhez igazítjuk.',
+    items: [
+      {
+        slug: 'sup-explorer-11',
+        series: 'all-around',
+        sku: 'SUP-EX11',
+        name: "SUP Explorer 11'",
+        tagline: 'A minden irányban sokoldalú klasszikus',
+        desc: 'Legkelendőbb sokoldalú táblánk — széles, stabil törzs a kezdőknek, manőverezhetőség a haladóknak és egyszerű szállíthatóság bármilyen kalandhoz. A legtöbb új márka alapértelmezett kiindulási pontja.',
+        uses: ['Kezdő', 'Mindenkörüli', 'Családi'],
+        for: ['Vállalkozások', 'Bérbeadó flották'],
+        specs: "11'0\" × 32\" × 6\" · drop-stitch PVC · 15 PSI · 19 lbs (8.6 kg)",
+        artwork: 'Katonai minőségű drop-stitch mag · megerősített peremsávok · 2+1 fin · teljes csomag',
+        image: 'https://assets.isupfactory.com/site/products/2026/all-around/all-around-03.avif',
+        hue: 195,
+      },
+      {
+        slug: 'sup-ocean-pulse',
+        series: 'whitewater',
+        sku: 'SUP-OP11',
+        name: 'Ocean Pulse sorozat',
+        tagline: 'Topográfiai hullámkiadás',
+        desc: 'Az óceán hullámai Tiffany Blue árnyalatú topográfiai görbékké alakítva, nagy pontosságú mechanikus domborítással és színben egyező tartozékkészlettel.',
+        uses: ['Lifestyle', 'Síkvíz', 'Design'],
+        for: ['Lifestyle márkák', 'Butik turizmus'],
+        specs: "11'0\" × 32\" × 6\" · drop-stitch PVC · 15 PSI · 20 lbs (9.1 kg)",
+        artwork: 'UV digitális nyomtatás + mechanikus domborítás · színben egyező tartozékok',
+        image: 'https://assets.isupfactory.com/site/products/2026/whitewater/whitewater-01.avif',
+        hue: 210,
+      },
+      {
+        slug: 'sup-cheetah-surge',
+        series: 'surf',
+        sku: 'SUP-CS11',
+        name: 'Cheetah Surge kiadás',
+        tagline: 'A vadonélet ihlette prémium kiadás',
+        desc: 'A vadon élő természet ereje találkozik a művészi eleganciával — halmazott gepárdminta pasztellrózsában, türkizben és korallban, színes EVA blokkokból kialakítva, fakulásálló kivitelben.',
+        uses: ['Lifestyle', 'Síkvíz', 'Design'],
+        for: ['Lifestyle márkák', 'Közösségi médiára fókuszáló márkák'],
+        specs: "11'0\" × 32\" × 6\" · drop-stitch PVC · 15 PSI · 20 lbs (9.1 kg)",
+        artwork: 'Többszínű EVA borítás + UV nyomtatás · leválásálló szerkezet',
+        image: 'https://assets.isupfactory.com/site/products/2026/surf/surf-01.avif',
+        hue: 28,
+      },
+      {
+        slug: 'sup-medusa-glow',
+        series: 'yoga',
+        sku: 'SUP-MG11',
+        name: 'Medusa Glow sorozat',
+        tagline: 'Medusa kiadás',
+        desc: 'Az álmok víz alatti világa — színes medúzák, tengeri csillagok és korallzátonok hűsítő mentás árnyalatokban; fakulásálló EVA grafika és kiváló laterális stabilitás a jóga számára.',
+        uses: ['Jóga', 'Trópus', 'Lifestyle'],
+        for: ['Jógastúdiók', 'Trópusjellegű márkák'],
+        specs: "11'0\" × 32\" × 6\" · drop-stitch PVC · 15 PSI · 20 lbs (9.1 kg)",
+        artwork: 'Többszínű EVA borítás + UV nyomtatás · a törzsre rögzített szállítókarika',
+        image: 'https://assets.isupfactory.com/site/products/2026/kids-teens/kids-teens-05.avif',
+        hue: 260,
+      },
+      {
+        slug: 'sup-dolphin-wave',
+        series: 'touring',
+        sku: 'SUP-DW11',
+        name: 'Dolphin Wave sorozat',
+        tagline: '360°-os tengeri kiadás',
+        desc: 'A vízből kiugró delfinek és több szinten rétegződő világoskék hullámok; CNC-vel frézelt EVA elem és szitabenyomás, amely 360°-ban körülfutja a platformot a teljes szélesség mentén.',
+        uses: ['Tenger', 'Síkvíz', 'Design'],
+        for: ['Tengeri márkák', 'Üdülők'],
+        specs: "11'0\" × 32\" × 6\" · drop-stitch PVC · 15 PSI · 20 lbs (9.1 kg)",
+        artwork: 'CNC-vel frézelt EVA elem + szitabenyomás a peremen · PANTONE TPG szerinti szín',
+        image: 'https://assets.isupfactory.com/site/products/2026/touring/touring-02.avif',
+        hue: 210,
+      },
+      {
+        slug: 'sup-flowing-lotus',
+        series: 'yoga',
+        sku: 'SUP-FL11',
+        name: 'Flowing Lotus sorozat',
+        tagline: 'Keleti művészetet és wellnesst ihlető kiadás',
+        desc: 'Hagyományos keleti ecsetfestészet; lótusz-, koi- és mérlegegyensúly-motívumok — közvetlenül a talpra lézerezve, amely nem kopik és nem fakul. Csendes evezéshez és jóághoz tervezve.',
+        uses: ['Jóga', 'Meditáció', 'Síkvíz'],
+        for: ['Jógastúdiók', 'Wellness márkák'],
+        specs: "11'0\" × 32\" × 6\" · drop-stitch PVC · 15 PSI · 20 lbs (9.1 kg)",
+        artwork: 'Két rétegű lézergravírozott EVA + gradiens UV nyomtatás · színes dinamikus fin-ek',
+        image: 'https://assets.isupfactory.com/site/products/2026/yoga/yoga-01.avif',
+        hue: 150,
+      },
+      {
+        slug: 'sup-jungle-mandala',
+        series: 'all-around',
+        sku: 'SUP-JM11',
+        name: 'Jungle Mandala sorozat',
+        tagline: 'Trópuszi szakrális geometria',
+        desc: 'A trópuszi energia szakrális geometriával újraértelmezve — hibiszkusz-, kolibri- és mandalamotívumok Tiffany Blue és Mercan Orange árnyalatokban, teljes felületi sajtolással kialakított tökéletes szimmetriával.',
+        uses: ['Trópus', 'Partvidék', 'Design'],
+        for: ['Trópusjellegű márkák', 'Turizmus'],
+        specs: "11'0\" × 32\" × 6\" · drop-stitch PVC · 15 PSI · 20 lbs (9.1 kg)",
+        artwork: 'Két rétegű lézergravírozott EVA + UV nyomtatás + szitabenyomás a peremen · tartós geometria',
+        image: 'https://assets.isupfactory.com/site/products/2026/all-around/all-around-10.avif',
+        hue: 28,
+      },
+      {
+        slug: 'sup-leviathan-wake',
+        series: 'race',
+        sku: 'SUP-LW11',
+        name: 'Leviathan Wake sorozat',
+        tagline: 'Bálna kiadás',
+        desc: 'Kék bálna-totem, minimalist monokróm hullámmintákkal és geometriai testmintákkal felépítve — azoknak az evezőknek, akik az óceánnal való kapcsolatot érzik.',
+        uses: ['Óceán', 'Mindenkörüli', 'Design'],
+        for: ['Tengeri márkák', 'Outdoor márkák'],
+        specs: "11'0\" × 32\" × 6\" · drop-stitch PVC · 15 PSI · 20 lbs (9.1 kg)",
+        artwork: 'UV digitális nyomtatás + mechanikus domborítás · rugalmas PVC festék a talpi logón',
+        image: 'https://assets.isupfactory.com/site/products/2026/race/race-01.avif',
+        hue: 195,
+      },
+      {
+        slug: 'sup-ocean-voyager',
+        series: 'all-around',
+        sku: 'SUP-OV11',
+        name: 'Ocean Voyager sorozat',
+        tagline: 'Tengeri teknős kiadás',
+        desc: 'Az óceán legfőbb felfedezőjének tisztelgése — geometriai tengeri teknős grafika élénk türkizben, égszínkékben és korallárnyalatokban, teljes, színben egyező tartozékkészlettel.',
+        uses: ['Turizmus', 'Óceán', 'Mindenkörüli'],
+        for: ['Turizm márkák', 'Outdoor márkák'],
+        specs: "11'0\" × 32\" × 6\" · drop-stitch PVC · 15 PSI · 20 lbs (9.1 kg)",
+        artwork: 'Többszínű EVA borítás + UV nyomtatás · színben egyező hátizsák, pumpa és leash',
+        image: 'https://assets.isupfactory.com/site/products/2026/all-around/all-around-12.avif',
+        hue: 170,
+      },
+      {
+        slug: 'sup-tropical-breeze',
+        series: 'all-around',
+        sku: 'SUP-TB11',
+        name: 'Tropical Breeze sorozat',
+        tagline: 'Szigeti nyaralás kiadás',
+        desc: 'A szigeti nyaralás vászonra vetítve: nap, kókuszpalmek és tengerparti jelenetek a csúcsokon lévő apró illusztrációktól a hátsó rész színes EVA-absztrakt foltjaiig.',
+        uses: ['Pihenés', 'Lifestyle', 'Partvidék'],
+        for: ['Turizm márkák', 'Üdülők'],
+        specs: "11'0\" × 32\" × 6\" · drop-stitch PVC · 15 PSI · 20 lbs (9.1 kg)",
+        artwork: 'UV digitális nyomtatás + kivágott EVA panelek · illusztrált táj a csúcsokon',
+        image: 'https://assets.isupfactory.com/site/products/2026/all-around/all-around-17.avif',
+        hue: 330,
+      },
+      {
+        slug: 'sup-rheo-race',
+        series: 'race',
+        sku: 'SUP-RHEO01',
+        name: 'RHEO Race sorozat',
+        tagline: 'Hibrid szénfiber versenykiadás',
+        desc: 'Kiemelkedő szintű versenytábla hibrid szénfiber felfújtható szerkezettel és agresszív rockerrel a gyors csúszáshoz — versenypályák, sprinterőzések és olyan technikai szakaszok számára, ahol a merevség és a sebesség számít.',
+        uses: ['Verseny', 'Sebesség', 'Edzés'],
+        for: ['Versenycsapatok', 'Edzők'],
+        specs: 'Hibrid szénfiber mátrix · rocker a gyors csúszáshoz · sebesség-optimalizált aerodinamikai profil',
+        artwork: 'Hibrid szénfiber felfújtható szerkezet · sebesség-rocker a csúszáshoz',
+        image: 'https://assets.isupfactory.com/site/products/2026/race/race-11.avif',
+        hue: 195,
+      },
+      {
+        slug: 'sup-fishing',
+        series: 'fishing',
+        sku: 'SUP-FSH01',
+        name: 'Felfújható SUP horgásztábla',
+        tagline: 'Kétéltűs stabilitású horgászkiadás',
+        desc: 'Kifejezetten horgászatra fejlesztett felfújható SUP tábla; dupla légrekesz (kétéltűs típus) a kiváló másodlagos stabilitáshoz, fin-tartók, halmérő skála a platformon és megerősített munkatér.',
+        uses: ['Horgászat', 'Stabilitás', 'Sokoldalúság'],
+        for: ['Horgászmárkák', 'Horgászvezetők'],
+        specs: 'Dupla légrekesz · 10–80 cm halmérő skála · fin-tartók',
+        artwork: 'Megerősített munkatér · többpontos D-fém fűzőgyűrűk',
+        image: 'https://assets.isupfactory.com/site/products/2026/fishing/fishing-01.avif',
+        hue: 210,
+      },
+      {
+        slug: 'sup-mini',
+        series: 'kids',
+        sku: 'SUP-MINI01',
+        name: 'Mini SUP sorozat',
+        tagline: '3 az 1-ben: gyermek / szörf / boogie board',
+        desc: 'Rendkívül kompakt hibrid tábla, amely gyermek SUP-táblává, felfújható szörfdeszkává vagy boogie boarddá alakítható — rövid, széles és rendkívül stabil profillal, ütálló platformmal.',
+        uses: ['Gyermek', 'Szörf', 'Utazás'],
+        for: ['Gyermekeknek szánt márkák', 'Üdülők'],
+        specs: 'Hibrid SUP / szörf / boogie board geometria · rövid és széles törzs · ütálló platform',
+        artwork: 'Többfunkciós hibrid geometria · kopásálló platformanyag',
+        image: 'https://assets.isupfactory.com/site/products/2026/mini/mini-01.avif',
+        hue: 28,
+      },
+      {
+        slug: 'sup-giant',
+        series: 'multi',
+        sku: 'SUP-GNT01',
+        name: 'SUP Giant — többszemélyes csapattábla',
+        tagline: 'Csapatplatform 6–8 fő részére',
+        desc: 'XXL méretű, többszemélyes felfújható SUP tábla 6–8 fő részére: 16,4–17 láb hossz, 59–60 hüvelyk szélesség, 8 hüvelyk vastagság, két szelep, 8–12 szállítógyűrű és 4+1 finrendszer.',
+        uses: ['Csoport', 'Csapat', 'Szabadidő'],
+        for: ['Üdülők', 'Bérbeadó flották'],
+        specs: "16'4\"–17'0\" × 59\"–60\" × 8\" · 1200–1400 l · 11–15 PSI · 4+1 fin",
+        artwork: 'Két szelep · 8–12 neoprén szállítógyűrű · 4+1 finrendszer',
+        image: 'https://assets.isupfactory.com/site/products/2026/giant/giant-03.avif',
+        hue: 195,
+      },
+      {
+        slug: 'sup-lure-skiff',
+        series: 'fishing',
+        sku: 'SUP-LSK01',
+        name: 'SUP Utility — Lure Skiff',
+        tagline: 'Mesterséghal horgászat 120 cm ultra széles táblán',
+        desc: '120 cm ultra széles tábla mesterséghal horgászathoz; középső vágózóna, víz alatti átlátszó ablak, 400 kg teherbíráság és ponton jellegű szerkezet az ülőből történő horgászathoz, megbízható dobással.',
+        uses: ['Horgászat', 'Sokoldalúság', 'Stabilitás'],
+        for: ['Horgászmárkák', 'Horgászok'],
+        specs: '350 × 120 × 15 cm · 400 kg teherbíráság · három fin · átlátszó ablak',
+        artwork: 'Középső vágózóna · víz alatti átlátszó ablak · ponton jellegű szerkezet',
+        image: 'https://assets.isupfactory.com/site/products/2026/utility-lure/utility-lure-01.avif',
+        hue: 170,
+      },
+    ],
+  },
 }
 
 /* ─────────────────────────── video showcases ─────────────────────────── */
@@ -10020,6 +10600,31 @@ export const videoShowcase: Localized<{
         { t: 'Suport de platformă antiderapant' },
         { t: 'Accesorii și funie elastică' },
         { t: 'Evacuarea aerului, plierea și ambalarea' },
+      ],
+    },
+  },
+  hu: {
+    launch: {
+      badge: 'Márka bevezetése',
+      title: 'Fontosban gondolkodik saját SUP márka bevezetésén?',
+      sub: 'Nincs szükség saját gyárra egy SUP márka bevezetéséhez. Mi vagyunk a gyártási partner a kínálata mögött: specifikáció, mérnöki munka, minták, minőség-ellenőrzés, csomagolás és exportra kész gyártás — mindegyik egyetlen szerződésben és egyetlen felelős csapattal.',
+      points: [
+        { t: 'Teljes OEM/ODM, az ötlettől a gyártásig', d: 'Saját grafika a táblán, a logó beépítése, platformtartók és egyedi csomagolás.' },
+        { t: 'Rugalmas bevezetés, alacsony MOQ-val', d: 'Kis lotban végzett gyártás, hogy a piac tesztelhető legyen nagy tőke befektetése nélkül.' },
+        { t: 'Teljes felszerelésszett', d: 'Nagy teljesítményű evezők, pumpák, leash-ek és utazótáskák, azonnal használhatóan.' },
+        { t: 'Vállalati szintű minőség és tanúsítványok', d: 'Szigorú QA/QC protokollok, nyomáspróbák és a globális exportra vonatkozó megfelelőségi vizsgálatok.' },
+      ],
+    },
+    process: {
+      badge: 'Az üzem belsejéből',
+      title: 'Hogyan születik egy felfújható SUP tábla',
+      sub: 'Elgondolkodott már azon, hogyan lesz a puha táblából kőkemény? Öt lépésben, a gyárunkban.',
+      points: [
+        { t: 'Pontos vágás és UV nyomtatás' },
+        { t: '100%-ban légmentes hőhegesztés' },
+        { t: 'Csúszásgátló platformbevonat' },
+        { t: 'Tartozékok és rugalmas kötőzsinór' },
+        { t: 'Légmentesítés, hajtogatás és csomagolás' },
       ],
     },
   },
@@ -10617,6 +11222,42 @@ export const works: Localized<WorksContent> = {
     ],
     note: 'Mostra aprobată este contractul. Fiecare placă din lot este comparată cu aceasta.',
   },
+  hu: {
+    kicker: 'SUP termékfejlesztés',
+    title: 'A brieftől a gyártási lotig — termékfejlesztés a gyárunkban',
+    sub: 'A követelményfelvételtől a késztermékig — minden lépés a saját üzemünkben zajlik.',
+    steps: [
+      {
+        title: 'Követelményfelvétel',
+        body: 'Összegyűjtjük az Ön specifikációját, a célpiacot, a megfelelőségi követelményeket és a becsült mennyiséget. Az NDA aláírásra kerül, mielőtt bármilyen fájlt cserélnénk.',
+      },
+      {
+        title: 'Mérnöki felülvizsgálat',
+        body: 'A táblatípus, a méretek, a rétegezés, az anyagok és a szerelvények gyárthatóságát értékeljük. Írásos jelentést kap, amelyben azonosítjuk a költséget befolyásoló tényezőket.',
+      },
+      {
+        title: 'Grafika-előkészítés',
+        body: 'A márkafájljait gyártásra kész nyomtatási adattá alakítjuk. A színeket nyomtatás előtt egyeztetjük és próbanyomással ellenőrizzük.',
+      },
+      {
+        title: 'Prototípus',
+        body: 'A fizikai prototípus megerősíti a formát, a merevséget, a súlyt és a felületkezelést. 7–12 napon belül szállítjuk.',
+      },
+      {
+        title: 'Minta jóváhagyása',
+        body: 'Ön jóváhagyja a fizikai mintát. Semmi nem kerül gyártásba, amíg a referencia-minta jóvá nem lett hagyva és a lot referenciaanyagaként nem archiválták.',
+      },
+      {
+        title: 'Sorozatgyártás',
+        body: 'A saját üzemünkben gyártunk, a fentiekben ismertetett minőség-ellenőrzési eljárással és az alapanyaglot szintjéig visszakövethetően.',
+      },
+      {
+        title: 'Exportra kész szállítás',
+        body: 'Vákuumcsomagolás, kartondobozok, dokumentáció és exportra kész átadás.',
+      },
+    ],
+    note: 'A jóváhagyott minta a szerződés. A lot minden tábláját hozzá hasonlítjuk.',
+  },
 }
 
 /* ─────────────────────────── home: board categories ─────────────────────────── */
@@ -10908,6 +11549,23 @@ export const boardCategories: Localized<BoardCategoriesContent> = {
       { id: 'fishing', label: 'Pescuit', desc: 'Platforme stabile, cu suporturi pentru canale și structură de lucru.', image: 'https://assets.isupfactory.com/site/products/2026/fishing/fishing-01.avif', href: '/products/sup-fishing' },
       { id: 'kids', label: 'SUP pentru copii', desc: 'Plăci mai mici și mai ușoare, dezvoltate pentru copii.', image: 'https://assets.isupfactory.com/site/products/2026/kids-teens/kids-teens-05.avif', href: '/products/sup-mini' },
       { id: 'multi', label: 'Multipersoană', desc: 'Plăci de echipă de dimensiuni XXL, pentru 6–8 persoane.', image: 'https://assets.isupfactory.com/site/products/2026/giant/giant-03.avif', href: '/products/sup-giant' },
+    ],
+  },
+  hu: {
+    kicker: 'Tábláink',
+    title: 'A termékötlettől a gyártáskész SUP táblákig',
+    sub: 'Minden táblakategória egy gyártási platform — válasszon kiindulási pontot, és a formát, a grafikát és a specifikációkat a termékéhez igazítjuk.',
+    viewLabel: 'Megtekintés',
+    items: [
+      { id: 'all-around', label: 'All-around', desc: 'Sokoldalú SUP táblák minden szintű evezőnek.', image: 'https://assets.isupfactory.com/site/products/2026/all-around/all-around-03.avif', href: '/products/sup-explorer-11' },
+      { id: 'touring', label: 'Touring', desc: 'Táblák hosszú távokra, felfedezésre és kalandra.', image: 'https://assets.isupfactory.com/site/products/2026/touring/touring-02.avif', href: '/products/sup-dolphin-wave' },
+      { id: 'race', label: 'Verseny', desc: 'Sebességtáblák versenyekhez és sportevezéshez.', image: 'https://assets.isupfactory.com/site/products/2026/race/race-01.avif', href: '/products/sup-leviathan-wake' },
+      { id: 'whitewater', label: 'Zajos víz', desc: 'Ellenálló táblák kőmedres és aktív szórakozó vizekhez.', image: 'https://assets.isupfactory.com/site/products/2026/whitewater/whitewater-01.avif', href: '/products/sup-ocean-pulse' },
+      { id: 'yoga', label: 'Jóga', desc: 'Széles platformú táblák jóga és edzés céljára.', image: 'https://assets.isupfactory.com/site/products/2026/yoga/yoga-01.avif', href: '/products/sup-flowing-lotus' },
+      { id: 'surf', label: 'Szörf', desc: 'Manőverezhető táblák a hullámok leküzdéséhez és szörfözéshez.', image: 'https://assets.isupfactory.com/site/products/2026/surf/surf-01.avif', href: '/products/sup-cheetah-surge' },
+      { id: 'fishing', label: 'Horgászat', desc: 'Stabil platformok fin-tartókkal és munkatérrel.', image: 'https://assets.isupfactory.com/site/products/2026/fishing/fishing-01.avif', href: '/products/sup-fishing' },
+      { id: 'kids', label: 'Gyermek SUP', desc: 'Kisebb és könnyebb táblák, amelyeket gyermekeknek fejlesztettünk.', image: 'https://assets.isupfactory.com/site/products/2026/kids-teens/kids-teens-05.avif', href: '/products/sup-mini' },
+      { id: 'multi', label: 'Többszemélyes', desc: 'XXL méretű csapattáblák 6–8 fő részére.', image: 'https://assets.isupfactory.com/site/products/2026/giant/giant-03.avif', href: '/products/sup-giant' },
     ],
   },
 }
@@ -11490,6 +12148,41 @@ export const platforms: Localized<PlatformsContent> = {
       },
     ],
   },
+  hu: {
+    kicker: 'Gyártási platformok',
+    title: 'Alapplatformok',
+    sub: 'Alapplatformok, nem katalógustermékek. Minden méret, rétegezés és grafika projektenként kerül meghatározásra.',
+    items: [
+      {
+        title: 'All-around',
+        body: 'Klasszikus rekreációs platformok kiskereskedelmi sorozatokhoz, bérbeadó flottákhoz és outdoor programokhoz.',
+        uses: ['Kiskereskedelmi sorozatok', 'Bérbeadó flották', 'Outdoor programok'],
+        cta: 'Kérjen ajánlatot erre a platformra',
+        href: '/contact',
+      },
+      {
+        title: 'Touring',
+        body: 'Hosszabb vízszakaszok nagy távolságok megtételésére, vadonlátásra és expedíciókra.',
+        uses: ['Nagy távolságok', 'Vadonlátás', 'Expedíciók'],
+        cta: 'Kérjen ajánlatot erre a platformra',
+        href: '/contact',
+      },
+      {
+        title: 'Verseny',
+        body: 'Sebességre optimalizált formák klubokhoz, versenyekhez és versenycsapatokhoz.',
+        uses: ['Klubok', 'Események', 'Versenycsapatok'],
+        cta: 'Kérjen ajánlatot erre a platformra',
+        href: '/contact',
+      },
+      {
+        title: 'Multifunkciós',
+        body: 'Tartós, hosszú élettartamú táblák iskolákhoz, bérbeadóknak és vállalati vásárlóknak.',
+        uses: ['Iskolák', 'Bérbeadók', 'Vállalati vásárlók'],
+        cta: 'Kérjen ajánlatot erre a platformra',
+        href: '/contact',
+      },
+    ],
+  },
 }
 
 /* ─────────────────────────── gallery ─────────────────────────── */
@@ -11958,6 +12651,34 @@ export const gallery: Localized<GalleryContent> = {
       },
     ],
   },
+  hu: {
+    kicker: 'Gyártási projektek',
+    title: 'Legutóbbi gyártások',
+    sub: 'A gyárunkból teljesített gyártási projektek — azokkal a számadatokkal, amelyeket a vásárlók valóban rákérdeznek.',
+    projects: [
+      {
+        tag: 'Lotnyomonkövethetőség',
+        title: 'Áruátadási és nyomonkövethetőségi dokumentáció átadása',
+        body: 'Minden lot minőségi dokumentációval együtt kerül kiszállításra — ellenőrzési jegyzőkönyvek, táblánkénti sorozatszámok és az aláírt átadási jegyzőkönyv, tíz éves ERP-nyomonkövethetőség mellett tárolva. A fénykép a tényleges átadási és nyomonkövethetőségi jegyzőkönyvet mutatja az üzemben.',
+        hue: 195,
+        image: '/出货放行与批次追溯记录交接.jpg',
+      },
+      {
+        tag: 'Klubcsapat',
+        title: 'Klubcsapat táblák — versenyplatform',
+        body: 'Versenyplatform, amelynek specifikációit a minta szakaszban rögzítettük, a klub saját grafikájával. A formát két éven keresztül használtuk, így a flotta-bővítő megrendelés pontosan illeszkedett a meglévő flottához.',
+        hue: 28,
+        image: 'https://assets.isupfactory.com/site/products/2026/surf/surf-01.avif',
+      },
+      {
+        tag: 'Márkakínálat bővítése',
+        title: 'Márkakínálat bővítése — felfújható SUP táblák',
+        body: 'Egy ismert vizes sportmárka egy felfújható SUP táblasorozattal bővítette a kínálatát: mérnöki értékelés, saját forma, három méret és a sorozatos gyártás előtt előkészített grafika, majd az első 50 darabos lot tömörségi ellenőrzéssel — a kialakítás és a forma is a márkáé.',
+        hue: 210,
+        image: 'https://assets.isupfactory.com/site/products/2026/all-around/all-around-03.avif',
+      },
+    ],
+  },
 }
 
 /* ─────────────────────────── buyer's guides (home) ─────────────────────────── */
@@ -12324,6 +13045,28 @@ export const guides: Localized<GuidesContent> = {
       {
         title: 'Certificarea CE pentru plăci SUP umflabile',
         body: 'Ce include efectiv certificarea CE, cele cinci documente pe care trebuie să le solicitați și cum verificați că modelul dumneavoastră figurează pe certificat.',
+        href: '/news/ce-certification-inflatable-sup',
+      },
+    ],
+  },
+  hu: {
+    kicker: 'Vásárlói útmutatók',
+    title: 'Gyártási útmutatók',
+    sub: 'Azok a kérdések, amelyeket minden SUP márka feltesz a megrendelés előtt — egyszerű nyelven, a mi valós feltételeinkkel és határidőinkkel.',
+    guides: [
+      {
+        title: 'Saját márka: a teljes lépésről lépésre útmutató',
+        body: 'A gyár kiválasztásától a gyártásig — az új márkák teljes, hatlépéses útja.',
+        href: '/news/private-label-sup-guide',
+      },
+      {
+        title: 'MOQ és árak SUP OEM esetén',
+        body: 'A MOQ szintek az 1–2 darabos mintától a 90–100+ darabos sorozatig, a hat költséget befolyásoló tényező, és öt módszer arra, hogyan csökkenthető a költség a minőség rovására.',
+        href: '/news/sup-oem-moq-pricing',
+      },
+      {
+        title: 'CE tanúsítvány felfújható SUP táblákhoz',
+        body: 'Mit fed le valójában a CE tanúsítvány, melyik öt dokumentumot kell bekérnie, és hogyan ellenőrizheti, hogy a tanúsítvány az Ön modelljét nevesíti.',
         href: '/news/ce-certification-inflatable-sup',
       },
     ],
@@ -12921,6 +13664,43 @@ export const manufacturingGuides: Localized<GuidesContent> = {
       {
         title: 'Certificarea CE pentru plăci SUP umflabile',
         body: 'Ce include efectiv certificarea CE, cele cinci documente pe care trebuie să le solicitați și cum verificați că modelul dumneavoastră figurează pe certificat.',
+        href: '/news/ce-certification-inflatable-sup',
+      },
+    ],
+  },
+  hu: {
+    kicker: 'Gyártási útmutatók',
+    title: 'A gyártól a késztermékig',
+    sub: 'A teljes beszerzési könyvtár — az egyedi SUP projekt minden szakaszával, a mi valós határidőinkkel, feltételeinkkel és dokumentumainkkal.',
+    guides: [
+      {
+        title: 'Hogyan válasszon SUP OEM gyártót',
+        body: 'Azok az auditkérdések, amelyek megkülönböztetik a valódi gyárat a közvetítőtől: tanúsítványok, minőség-ellenőrzés, minták és a tulajdonjog.',
+        href: '/news/how-to-choose-sup-oem-manufacturer',
+      },
+      {
+        title: 'A SUP termék fejlesztésének ütemterve',
+        body: 'Minta 7–12 nap, gyártás 25–35 nap, forma plusz 15–20 nap — a teljes ütemterv, szakaszonként.',
+        href: '/news/custom-sup-development-timeline',
+      },
+      {
+        title: 'Megrendelés előtt előkészítendő információk',
+        body: 'Az az öt részlet, amellyel a gyár már az első alkalommal pontos ajánlatot tud adni, és elkerülhető a specifikációk átdolgozása.',
+        href: '/news/info-needed-before-sup-production',
+      },
+      {
+        title: 'Saját márka: a teljes lépésről lépésre útmutató',
+        body: 'A gyár kiválasztásától a gyártásig — az új márkák teljes, hatlépéses útja.',
+        href: '/news/private-label-sup-guide',
+      },
+      {
+        title: 'MOQ és árak SUP OEM esetén',
+        body: 'A MOQ szintek az 1–2 darabos mintától a 90–100+ darabos sorozatig, a hat költséget befolyásoló tényező, és öt módszer arra, hogyan csökkenthető a költség a minőség rovására.',
+        href: '/news/sup-oem-moq-pricing',
+      },
+      {
+        title: 'CE tanúsítvány felfújható SUP táblákhoz',
+        body: 'Mit fed le valójában a CE tanúsítvány, melyik öt dokumentumot kell bekérnie, és hogyan ellenőrizheti, hogy a tanúsítvány az Ön modelljét nevesíti.',
         href: '/news/ce-certification-inflatable-sup',
       },
     ],
@@ -14014,6 +14794,73 @@ export const faq: Localized<FaqContent> = {
       },
     ],
   },
+  hu: {
+    kicker: 'Gyakori kérdések',
+    title: 'Gyakori kérdések a gyártásról',
+    sub: 'Azok a kérdések, amelyeket a vásárlók a megrendelés előtt feltesznek — a mi valós feltételeinkkel megválaszolva.',
+    items: [
+      {
+        q: 'Mit gyárt az iSupfactory?',
+        a: 'Az iSupfactory professzionális SUP-gyártó, amely egyedi felfújható SUP táblák és kapcsolódó vizes sporttermékek fejlesztésére specializálódott, a világ minden tájáról érkező márkák és cégek számára — fejlesztés, mintavétel és gyártás saját, qingdaói (Kína) 12.500 m²-es üzemünkben.',
+      },
+      {
+        q: 'Mi a különbség az OEM és az ODM között?',
+        a: `OEM: a jóváhagyott műszaki specifikáció szerint gyártunk — a rajzok, a méretek, az anyagok és a csomagolás alapján. A kialakítás és a szellemi tulajdonjog az Öné. ODM: mérnöki csapatunk a briefje alapján fejleszti a táblát — legyen szó piaci koncepcióról, teljesítménycélről vagy egy bevált platform adaptálásáról — és Ön jóváhagyja a gyártás előtt. A saját márka az Ön márkáját egy már meglévő, bevált platformra helyezi, szerkezeti módosítás nélkül. Mindkét út, az OEM és az ODM ugyanazon az üzemen, ugyanazzal a minőség-ellenőrzési rendszerrel és ugyanazzal az exportcsapattal halad át; az ODM a leggyorsabb út az Ön márkájával készülő táblához: ${MOQ_SHORT.standardRun} darabtól, ${FACTS.sampleTime} idő alatt elkészített mintákkal.`,
+      },
+      {
+        q: 'Mi a minimum rendelési mennyiség (MOQ)?',
+        a: `Kis lotoknál a társ márkázás 5–10 darabtól indul; a pilotagyártás 20–50 darabtól. A szabványos nagy mennyiségű gyártás ${MOQ_SHORT.standardRun} darabtól indul. A saját formájú kialakításokat összetettségüknek megfelelő mennyiségben gyártjuk.`,
+      },
+      {
+        q: 'Mennyi ideig tart a gyártás?',
+        a: '25–35 nap a megrendelés (PO) és az előleg megerősítése után. A saját forma fejlesztése további 15–20 napot igényel. A szezonon belüli sürgős megrendelésekhez gyorsított gyártás is rendelkezésre áll.',
+      },
+      {
+        q: 'Mennyi idő alatt kapom meg a mintákat?',
+        a: 'A prototípusmintákat általában 7–12 napon belül szállítjuk, a grafikák és a specifikációk jóváhagyása után.',
+      },
+      {
+        q: 'Milyen tanúsítványokkal rendelkeznek?',
+        a: 'ISO 9001 a minőségbiztosításra, CE tanúsítvány az EU-piacokra szánt modellekre (a hatókör projektenként ellenőrzendő), valamint érvényes BSCI tanúsítvány a szociális megfeleléshez; az auditjelentés kérésre rendelkezésre áll. A REACH és RoHS dokumentációt minden megrendeléssel együtt szolgáltatjuk.',
+      },
+      {
+        q: 'Elkészítik az exportdokumentumokat?',
+        a: 'Igen. Az exportdokumentumokat és az exportra alkalmas csomagolást saját házban állítjuk elő; 50-nél több ország márkáihoz szállítunk, köztük az EU-ba, az USA-ba, Ausztráliába és Ázsiába.',
+      },
+      {
+        q: 'Bemutatják a tervemet más ügyfeleknek?',
+        a: 'Nem. A grafikák, a formák és a specifikációs fájlok az Ön tulajdonában maradnak. Minden fájlcserét megelőzően aláírunk egy NDA-t, és a vásárlói formákat vagy kialakításokat soha nem használjuk fel újra és nem értékesítjük tovább.',
+      },
+      {
+        q: 'Értékesítik a saját SUP márkájukat?',
+        a: 'Nem. Kizárólag ügyfeleink márkáira gyártunk. Nem értékesítünk a végfelhasználóknak, és egyetlen piacon sem versenyzünk ügyfeleinkkel.',
+      },
+      {
+        q: 'Replikálhatnak egy már forgalmazott táblát?',
+        a: 'Igen. Küldjön egy fizikai mintát vagy a teljes specifikációt; mérnöki csapatunk gyárhatósági jelentést készít, amely tartalmazza az anyagokat, a rétegezést, a tűréseket és a költséget befolyásoló tényezőket.',
+      },
+      {
+        q: 'Gyárthatnak SUP táblákat a logónkkal?',
+        a: 'Igen. Az egyedi márkázás — logók, színek, grafika és felületi alkalmazások — a termékkialakítás és a gyártásra elfogadott specifikációk szerint készül. A márka- és grafikafájlok az Ön tulajdonában maradnak.',
+      },
+      {
+        q: 'Kifejezetten új SUP terméket tudnak fejleszteni?',
+        a: 'Igen. Az egyedi termék fejlesztése az Ön ötletéből, vázlataiból, specifikációiból vagy piaci igényeiből indul. A specifikációértékelést, a szerkezeti mérnöki munkát, a prototípusmintákat és a jóváhagyási szakasz követi, mielőtt sorozatgyártásba lépne.',
+      },
+      {
+        q: 'Milyen anyagokat használnak a felfújható SUP táblákhoz?',
+        a: `A felfújható SUP táblákat drop-stitch technológiával gyártjuk, a célzott súlyhoz, merevséghez és árkategóriához igazított PVC réteg- és sűrűségváltozatokkal; a felhasznált anyagok megfelelnek a REACH/RoHS előírásoknak, a minőségi tanúsítványok érvényesek (ISO 9001, CE, BSCI).`,
+      },
+      {
+        q: 'Dolgoznak új vagy kezdő SUP márkákkal?',
+        a: `Igen. Az OEM/ODM projekteket az Ön termékigényei, a célpiac és a mennyiség szerint fejlesztjük — a pilotagyártás 20–50 darabtól, a szabványos nagy mennyiségű gyártás pedig ${MOQ_SHORT.standardRun} darabtól indul.`,
+      },
+      {
+        q: 'Milyen információkat kell adnom egy SUP OEM ajánlathoz?',
+        a: 'A leghasznosabb információk: a termék típusa, a célpiac, a tábla méretei vagy a specifikációk, a kívánt szerkezet, a márkázási igények, a becsült mennyiség, a csomagolási igények és a tervezett bevezetési időpont. Csapatunk egy munkanapon belül visszajelzik a mérnöki értékeléssel és az árajánlattal.',
+      },
+    ],
+  },
 }
 
 export const homeFaq: Localized<FaqContent> = {
@@ -14385,6 +15232,29 @@ export const homeFaq: Localized<FaqContent> = {
       },
     ],
   },
+  hu: {
+    kicker: faq.hu.kicker,
+    title: faq.hu.title,
+    sub: faq.hu.sub,
+    items: [
+      {
+        q: 'Ki az iSupfactory?',
+        a: 'Az iSupfactory a qingdaói (Kína) székhelyű SUP-gyártó, amely OEM és ODM módban egyaránt dolgozik: termékfejlesztési, prototípus-, sorozatgyártási, minőség-ellenőrzési és exportgyártási szolgáltatásokat kínál a márkákhoz, a forgalmazókhoz és az outdoor cégekhez.',
+      },
+      {
+        q: 'Az iSupfactory OEM-gyártó?',
+        a: 'Igen. Az iSupfactory a vevővel együtt meghatározott specifikációk szerint gyárt felfújható SUP táblákat, beleértve a méreteket, az anyagokat, a szerkezetet, a grafikát, a tartozékokat és a csomagolást. Azoknak a márkáknak, amelyek egy brief alapján akartak nulláról fejleszteni egy SUP táblát, ODM termékfejlesztés is rendelkezésre áll.',
+      },
+      faq.hu.items[1],
+      faq.hu.items[2],
+      faq.hu.items[3],
+      faq.hu.items[5],
+      {
+        q: 'Auditálhatják a vásárlók a gyárat, vagy kérhetnek független felülvizsgálatot?',
+        a: 'Igen. Örömmel fogadjuk a vásárlói auditokat, és rendszeresen dolgozunk a SGS, TÜV, BV és Intertek cégekkel. A független felülvizsgálat a gyártás bármely szakaszában megszervezhető — beérkező anyagok, folyamatközbeni vagy végső ellenőrzés —, a felülvizsgálati jelentések pedig kérésre rendelkezésre állnak.',
+      },
+    ],
+  },
 }
 
 /* ─────────────────────────── CTA band ─────────────────────────── */
@@ -14492,6 +15362,12 @@ export const cta: Localized<CtaContent> = {
     body: 'Fie că aveți deja o specificație completă de produs, fie că vă aflați încă în faza de dezvoltare a conceptului, echipa noastră vă poate ajuta să evaluați pasul următor. Spuneți-ne ce doriți să construiți — vă analizăm cerințele și discutăm împreună traseul cel mai realist de la concept la producție.',
     button: 'Începeți proiectul dumneavoastră SUP',
     note: 'Răspuns în 1 zi lucrătoare · NDA la cerere înainte de schimbul de fișiere · info@isupfactory.com · +86-13305324192',
+  },
+  hu: {
+    title: 'Készen áll a SUP termékének fejlesztésére?',
+    body: 'Akár már rendelkezik teljes termékspecifikációval, akár még az ötletét fejleszti, csapatunk segíthet a következő lépés felmérésében. Mondja el, mit szeretne kialakítani — átnézzük a követelményeit, és együtt megbeszéljük a legpraktikusabb utat az ötlettől a gyártásig.',
+    button: 'Indítsa el a SUP projektjét',
+    note: 'Válasz 1 munkanapon belül · NDA kérésre a fájlcserét megelőzően · info@isupfactory.com · +86-13305324192',
   },
 }
 
@@ -15006,6 +15882,37 @@ export const valueProp: Localized<ValuePropContent> = {
       },
     ],
   },
+  hu: {
+    kicker: 'A mi szerepünk',
+    title: 'Több, mint egy SUP gyár',
+    sub: 'Sok gyártó képes egy szabványos SUP táblát előállítani. A mi szerepünk más. Az iSupfactory az egyedi SUP termékek fejlesztési és gyártási partnere, amely segít a cégeknek az első ötlettől a gyártáskész termékig jutni.',
+    cards: [
+      {
+        title: 'Termékfejlesztés',
+        body: 'Az Ön ötletét, vázlatait, specifikációit vagy piaci igényeit gyártható SUP termékké alakítjuk.',
+      },
+      {
+        title: 'Egyedi gyártás',
+        body: 'A szerkezetet, a méreteket, a grafikát, a színeket, a tartozékokat és a csomagolást az Ön igényeihez igazítjuk.',
+      },
+      {
+        title: 'Prototípus-fejlesztés',
+        body: 'Lehetőséget ad a termék értékelésére a minták fejlesztésével és tesztelésével, még a sorozatgyártás előtt.',
+      },
+      {
+        title: 'Gyártási támogatás',
+        body: 'A kialakítás jóváhagyása után mi kezeljük az átállást a prototípusról a megismételhető sorozatgyártásra.',
+      },
+      {
+        title: 'Minőség-ellenőrzés',
+        body: 'A gyártás során végzett minőség-ellenőrzések biztosítják, hogy a késztermékek megfelelnek a meghatározott specifikációknak.',
+      },
+      {
+        title: 'Globális beszerzés',
+        body: 'Csomagolási és exportdokumentációs támogatásunk megkönnyíti a beszerzési folyamatot.',
+      },
+    ],
+  },
 }
 
 /* ─────────────────────────── home: role boundary (Where We Stop, You Start) ─────────────────────────── */
@@ -15285,6 +16192,22 @@ export const boundary: Localized<BoundaryContent> = {
       { ours: 'Documentația de certificare și ambalajele adaptate exportului', theirs: 'Relațiile finale cu clienții și suportul post-vânzare' },
     ],
     footer: 'Fișierele dumneavoastră de grafică, matrițele și fișierele de specificații rămân în proprietatea dumneavoastră; nu sunt niciodată reutilizate, revândute sau prezentate altui client.',
+  },
+  hu: {
+    kicker: 'Kik vagyunk',
+    title: 'Egy SUP gyár építette, nem egy kereskedelmi platform',
+    sub: 'Gyártási partnerek vagyunk, nem piactér. A szerepünk az, hogy segítsük az ügyfeleket az ötleteket, kialakításokat és termékkövetelményeket gyártható SUP termékekké alakítani. Az Ön márkája az Öné. A piacot Ön irányítja. Mi a gyártás végrehajtását támogatjuk.',
+    oursTitle: 'Ami ránk vonatkozik',
+    theirsTitle: 'Ami Önnél marad',
+    rows: [
+      { ours: 'Specifikáció-felülvizsgálat és gyárhatósági értékelés', theirs: 'A márkanév, az arculat és a pozicionálás' },
+      { ours: 'Szerkezeti mérnöki munka, anyagválasztás, formafejlesztés', theirs: 'Az árak, az értékesítési csatornák és az értékesítés' },
+      { ours: 'A platformgrafika előkészítése és a nyomtatás az Ön márkafájljaiból', theirs: 'A valamennyi márka- és grafikafájl tulajdonjoga' },
+      { ours: 'Prototípuskészítés, a minták előállítása és a minta jóváhagyási dokumentációja', theirs: 'Minden minta végső jóváhagyása' },
+      { ours: 'A lotok gyártása, a folyamatközbeni minőség-ellenőrzés és a végső ellenőrzés', theirs: 'A piac, az ügyfelek és az Ön adatai' },
+      { ours: 'A tanúsítványi dokumentáció és az exportra alkalmas csomagolás', theirs: 'Az ügyfelekkel kialakított végső kapcsolatok és az értékesítés utáni támogatás' },
+    ],
+    footer: 'Az Ön grafikafájljai, formái és specifikációs fájljai az Ön tulajdonában maradnak; soha nem használjuk fel újra, nem értékesítjük tovább, és nem mutatjuk be más ügyfélnek.',
   },
 }
 
@@ -15960,6 +16883,42 @@ export const about: Localized<AboutContent> = {
       ],
     },
   },
+  hu: {
+    kicker: 'Rólunk',
+    title: 'Az iSupfactory bemutatása',
+    sub: 'Az Ön partnere az egyedi SUP gyártásban',
+    story: [
+      'Felfújható SUP táblák OEM/ODM gyártói vagyunk a világ minden tájáról érkező márkák, forgalmazók és beszerzési csapatok számára. Ezen az úton mindig ugyanazzal az ügyféltípussal találkoztunk: márkákkal és vásárlókkal, akiknek egyértelmű termékviziójuk van, de nincs saját üzemük, ahol ezt megvalósíthatnák.',
+      'Ezért építettük az iSupfactory-t pontosan rájuk. Fokozatos minimumrendelések — 5–10 darabos társ márkázási lottal kezdve —, teljes mérnöki és designtámogatás, valamint egy gyártócsapat, amely az első megrendelést ugyanolyan komolyan kezeli, mint a századikat. A márkát Ön hozza; a gyárat mi vezetjük.',
+    ],
+    values: [
+      { title: 'A minőség mindenek előtt', body: 'Minden tábla többpontos minőség-ellenőrzésen megy keresztül — az anyagokat, a hegesztett varratokat, a nyomtatást, az összeállítást és a csomagolást a gyártás minden szakaszában ellenőrizzük.' },
+      { title: 'Gyártó, nem közvetítő', body: 'A kialakítás, a forma mérnöki tervezése, a prototípus, a gyártás és a tesztelés egyetlen tető alatt zajlik — nincs kereskedői réteg Ön és a gyár között.' },
+      { title: 'Tervezés szerint rugalmas', body: 'A fokozatos MOQ-k, a moduláris lehetőségek és a valós határidők lehetővé teszik, hogy a márkák a próbarendelésektől a nagy mennyiségű sorozatokig nőjenek.' },
+    ],
+    capabilities: ['OEM / ODM / saját márka', 'Egyedi formák', 'Mintaszolgáltatás', 'Kialakítás és grafika', 'Többpontos minőség-ellenőrzés', 'Exportdokumentáció'],
+    stats: [
+      { value: '90–100+ darab', label: 'Szabványos nagy mennyiségű MOQ (jóváhagyott konfigurációnként)' },
+      { value: '7–12 nap', label: 'A minták gyártási határideje' },
+      { value: '25–35 nap', label: 'A gyártás határideje' },
+      { value: '20–50 darab', label: 'A pilotamegrendelések MOQ-ja' },
+    ],
+    strength: [
+      { title: 'Termékfejlesztés', body: 'Az ötlet vázlatától a gyártási rajzokig — mérnökeink optimalizálják a tábla formáját, rocker-geometriáját, vastagságát és drop-stitch szerkezetét, hogy elérjék a Ön által célzott teljesítményt és árat.' },
+      { title: 'OEM gyártás', body: 'Gyártás a pontos specifikációk szerint: anyagok, színek, logó elhelyezése, tartozékok és csomagolás, szabványos nagy mennyiségű lottokban, 90–100+ darabtól minden jóváhagyott konfiguráció esetén.' },
+      { title: 'ODM megoldások', body: 'Induljon a saját üzemünkben bevált platformjainktól — all-around, touring, race, yoga és még sok más —, és személyre szabja a márkázást, a grafikát és a felszerelést a gyors, kockázatmentes bevezetéshez.' },
+      { title: 'Mérnöki támogatás', body: 'A forma mérnöki tervezése, a prototípuskészítés és a mintaiterációk egyetlen tető alatt, minden szakaszban vizuális ellenőrzéssel és a grafikák jóváhagyásával, a sorozatgyártás előtt.' },
+      { title: 'Minőségbiztosítás', body: 'Többpontos minőség-ellenőrzés az anyagokon, a hegesztett varratokon, a nyomtatáson, az összeállításon és a csomagoláson; továbbá a mintán és a szállítás előtt végzett vizsgálatok, amelyek független auditként is kérhetők.' },
+      { title: 'Globális szállítás', body: 'Exportdokumentáció, exportra alkalmas csomagolás és saját házban nyújtott dokumentációs támogatás 50-nél több piac márkáinak.' },
+    ],
+    partnering: {
+      title: 'Partnerkapcsolatok globális cégekkel',
+      body: [
+        'Az iSupfactory olyan SUP márkákkal, forgalmazókkal, üdülőkkel, iskolákkal és outdoor cégekkel dolgozik, amelyeknek megbízható felfújható SUP tábla gyárra van szükségük — az első próbarendeléstől a konténerméretű programokig.',
+        'Mondja el, milyen piac és milyen céláron dolgozik; műszaki adatlappal, MOQ-val és az üzleti modelljéhez igazított határidőkkel válaszolunk.',
+      ],
+    },
+  },
 }
 
 /* ─────────────────────────── customizer page ─────────────────────────── */
@@ -16267,6 +17226,24 @@ export const customizer: Localized<CustomizerContent> = {
     boardLabel: 'BRANDUL DUMNEAVOASTRĂ',
     cta: 'Creați-vă designul',
   },
+  hu: {
+    kicker: 'Tervezze meg a SUP tábláját',
+    title: 'Lássa a SUP ötletét a gyártás előtt',
+    sub: 'Nézze meg, hogyan fog kinézni a márkája egy valódi táblán — válasszon színt, figyelje, ahogy a látványterv valós időben frissül, majd küldje el nekünk a logóját a teljes kialakításhoz.',
+    status: 'Interaktív előnézet',
+    statusBody: 'Próbálja ki most a színpalettát, majd küldje el az ötletét — csapatunk ingyenes látványtervet készít a teljes kialakításáról.',
+    steps: [
+      { title: 'Válassza ki a tábla modelljét', body: 'Az all-around platformoktól a touring és yoga formákig — mindegyik valós arányokkal.' },
+      { title: 'Válasszon színeket', body: 'Válassza ki a márka színpalettáját, és azonnal lássa a tábla változását.' },
+      { title: 'Töltse fel a logót', body: 'Helyezze el a logót és a grafikát a fedélzetre — állítsa be a méretet és a helyzetet.' },
+      { title: 'Hozza létre a látványtervet', body: 'Exportálja az egyedi SUP tábla előnézetét, hogy megoszthassa a csapatával.' },
+    ],
+    mockupLabel: 'Élő látványterv-előnézet',
+    mockupBrand: "SUP Explorer 11'",
+    stepLabel: 'Lépés',
+    boardLabel: 'AZ ÖN MÁRKÁJA',
+    cta: 'Hozza létre a kialakítását',
+  },
 }
 
 /* ─────────────────────────── products page extras ─────────────────────────── */
@@ -16408,6 +17385,14 @@ export const productsPage: Localized<ProductsPageContent> = {
     customTitle: 'Fiecare produs poate fi personalizat',
     customBody: 'Nimic nu se livrează din stoc. Fiecare placă este produsă pentru dumneavoastră, pe fiecare strat, conform preferințelor dumneavoastră.',
     customPoints: ['Formă și dimensiuni', 'Culori și grafică pe întreaga placă', 'Designul logo-ului și al suporturilor EVA', 'Accesorii și ambalaje'],
+  },
+  hu: {
+    kicker: 'Termékplatformok',
+    title: 'Személyre szabható SUP platformok',
+    sub: 'Az alábbi modellek mindegyike egy gyártási platform. Válasszon kiindulási pontnak; a formát, a grafikát, a színeket és a műszaki specifikációkat a termékéhez igazítjuk.',
+    customTitle: 'Minden termék személyre szabható',
+    customBody: 'Semmi sem kerül raktáron készletből kiszállításra. Minden táblát Önnek gyártunk, rétegről rétegre, az Ön preferenciái szerint.',
+    customPoints: ['Forma és a méretek', 'Színek és grafika a teljes táblán', 'A logó és az EVA tartók kialakítása', 'Tartozékok és csomagolás'],
   },
 }
 
@@ -16602,6 +17587,17 @@ export const catalogDownload: Localized<CatalogContent> = {
     successTitle: 'Cererea a fost înregistrată',
     successBody: 'Echipa noastră de vânzări vă va trimite catalogul complet de produse și fișa de MOQ la adresa {email} într-o zi lucrătoare.',
   },
+  hu: {
+    kicker: 'Termékkatalógus',
+    title: 'Kérje a teljes katalógust és a MOQ-táblázatot',
+    body: 'Mind a tíz platform, a specifikációkkal, a grafikai lehetőségekkel, a MOQ szintekkel, a mintavételi határidőkkel és a csomagolással — értékesítési csapatunk egy munkanapon belül küldi el az Ön e-mail-címére.',
+    emailLabel: 'Munkahelyi e-mail',
+    emailPlaceholder: 'dumneavoastra@compania.com',
+    submit: 'Katalógus kérése',
+    secure: 'Nincs levélszemét. Csak a katalógus és a projektjére vonatkozó válaszok.',
+    successTitle: 'A kérést rögzítettük',
+    successBody: 'Értékesítési csapatunk egy munkanapon belül elküldi a teljes termékkatalógust és a MOQ-táblázatot a(z) {email} címre.',
+  },
 }
 
 /* ─────────────────────────── gallery page extras ─────────────────────────── */
@@ -16710,6 +17706,12 @@ export const galleryPage: Localized<GalleryPageContent> = {
     sub: 'O privire asupra modului în care produsele SUP prind viață — de la cerințele clienților până la plăcile finite.',
     note: 'Doriți ca proiectul dumneavoastră să apară aici? Inițiați o discuție și să-l proiectăm împreună.',
   },
+  hu: {
+    kicker: 'Egyedi SUP projektek',
+    title: 'Egyedi SUP projektek',
+    sub: 'Íme, hogyan keletkeznek a SUP termékek — az ügyfélkövetelményektől a kész táblákig.',
+    note: 'Szeretné, ha a projektje itt szerepelne? Indítson beszélgetést, és készítsük el együtt.',
+  },
 }
 
 /* ─────────────────────────── who-we-serve page extras ─────────────────────────── */
@@ -16800,6 +17802,11 @@ export const servePage: Localized<ServePageContent> = {
     kicker: 'Nevoi ale clienților',
     title: 'Soluții SUP personalizate pentru compania dumneavoastră',
     sub: 'Fie că aveți nevoie de plăci cu brand pentru organizația dumneavoastră, fie de produse SUP personalizate pentru afacerea dumneavoastră, vă ajutăm să transformăm cerințele în produse finite.',
+  },
+  hu: {
+    kicker: 'Ügyféligények',
+    title: 'Egyedi SUP megoldások a cége számára',
+    sub: 'Akár márkás táblákra van szüksége a szervezetének, akár egyedi SUP termékekre a vállalkozásának, segítünk a követelményeket késztermékké alakítani.',
   },
 }
 
@@ -16926,6 +17933,13 @@ export const worksPage: Localized<WorksPageContent> = {
     sub: 'Recepționarea cerințelor, evaluarea de inginerie, mostrele, producția și exportul — fiecare etapă în fabrica noastră.',
     consultTitle: 'Începeți cu o revizuire a specificațiilor',
     consultBody: 'Trimiteți-ne specificația, placa de referință sau desenele tehnice. Revenim cu o evaluare a fezabilității de producție și cu o ofertă — fără nicio obligație.',
+  },
+  hu: {
+    kicker: 'Fejlesztési folyamat',
+    title: 'A specifikációtól a késztermékig',
+    sub: 'Követelményfelvétel, mérnöki értékelés, mintavétel, gyártás és export — minden lépés a saját üzemünkben.',
+    consultTitle: 'Kezdje a specifikáció felülvizsgálatával',
+    consultBody: 'Küldje el nekünk a specifikációt, a referenciatáblát vagy a műszaki rajzokat. Gyárhatósági értékeléssel és ajánlattal jelentkezünk — semmilyen kötelezettség nélkül.',
   },
 }
 
@@ -17279,6 +18293,27 @@ export const series: Localized<SeriesContent> = {
         title: 'Seria Medusa Glow (Ediția Medusa)',
         sku: 'SUP-MG11',
         body: 'Meduze, stele de mare și recifuri de corali în culori vii, lucrate prin montaj din blocuri EVA rezistente la decolorare, într-o nuanță răcoritoare de verde mentă. Corp all-around de 11 ft pentru aventuri tropicale și de coastă.',
+        image: 'https://assets.isupfactory.com/site/products/2026/editions/medusa-jellyfish-edition.avif',
+        href: '/products/sup-medusa-glow',
+      },
+    ],
+  },
+  hu: {
+    kicker: 'Zászlóshajós sorozatok',
+    title: 'Tematikus kiadású táblák',
+    sub: 'Az óceán ihletésére épülő tematikus kiadások, készen az Ön saját márkájához — UV digitális nyomtatással és mechanikus domborítással készült, azonnal használható, gyártásra alkalmas kialakítások.',
+    items: [
+      {
+        title: 'Leviathan Wake sorozat (Bálna kiadás)',
+        sku: 'SUP-LW11',
+        body: 'Látványos kék bálna-totem, geometriai és törzsi motívumokkal kidolgozva, minimalist monokróm hullámvonalakkal párosítva. Magas designértékű kiadás, amely 11 ft all-around törzset kínál tavakhoz, folyókhoz és parti vizekhez.',
+        image: 'https://assets.isupfactory.com/site/products/2026/editions/leviathan-whale-edition.avif',
+        href: '/products/sup-leviathan-wake',
+      },
+      {
+        title: 'Medusa Glow sorozat (Medúza kiadás)',
+        sku: 'SUP-MG11',
+        body: 'Élénk színű medúzák, tengeri csillagok és korallzátonok, fakulásálló EVA blokkokból kialakítva, hűsítő zöldes árnyalatban. 11 ft all-around törzs trópusi és parti kalandokhoz.',
         image: 'https://assets.isupfactory.com/site/products/2026/editions/medusa-jellyfish-edition.avif',
         href: '/products/sup-medusa-glow',
       },

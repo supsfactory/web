@@ -1,0 +1,14 @@
+meta:
+  title: 'Hírek – SUP gyártó és tengerészeti aktualitások | {SITE}'
+  description: 'A legfrissebb hírek a VATRAD-tól: gyárfrissítések, új felfújható SUP modellek, tanúsítások és a tengerészeti ipar bejelentései.'
+  keywords:
+    - 'sup gyártó hírek'
+    - 'vatrad frissítések'
+    - 'felfújható sup bejelentések'
+    - 'tengerészeti ipar hírei'
+hero_text:
+  tagline: ''
+  title: Hírek
+  subtitle: A legfrissebb információk a VATRAD-tól – termékbemutatók, vállalati frissítések, útmutatók és történetek a vízről
+news_list:
+  limit: 100

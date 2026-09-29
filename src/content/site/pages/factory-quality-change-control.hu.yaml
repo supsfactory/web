@@ -1,0 +1,349 @@
+meta:
+  title: 'Az újrafeldolgozási paraméterek változtatáskezelése és validálása | iSupfactory'
+  description: 'Az újrafeldolgozási paraméterek változtatáskezelése az ISO 9001 szerint: ECR, kockázatbesorolás, jóváhagyási mátrix, validálás és újraellenőrzés a SUP-gyártásban.'
+  dateModified: '2026-08-14'
+  keywords:
+    - 'SUP újrafeldolgozás változtatáskezelése'
+    - 'ISO 9001 szerinti változtatáskezelés a gyártásban'
+    - 'felfújható SUP OEM minőségirányítás'
+    - 'SUP ECR mérnöki változtatási kérelem'
+    - 'légtömörségi validációs szabvány'
+    - 'minőségbiztosítás a SUP-gyárakban'
+
+hero:
+  tagline: Az újrafeldolgozási paraméterek változtatáskezelése
+  title: 'Az újrafeldolgozási folyamat paramétereinek változtatási és validálási szabványa'
+  subtitle: 'A QINGDAO VATRAD GROUP.,LTD. keretében egyetlen kezelő, műszakvezető vagy önálló osztály sem módosíthat helyben egy jóváhagyott újrafeldolgozási paramétert. A jóváhagyott újrafeldolgozási anyagok, a folyamatkörülmények, a szerszámok, a vizsgálati módszerek, az ellenőrzési kritériumok vagy az engedélyezett személyzet bármely javasolt módosítása dokumentált változtatáskezelésen megy keresztül — mérnöki változtatási kérelem, hatás- és kockázatértékelés, funkcionális jóváhagyás, validációs terv, szabályozott bevezetés, újraellenőrzés és hatékonyságelemzés, majd lezárás és nyilvántartás-őrzés. Ez az oldal ismerteti a felügyelt QMS-SOP-QC-CC-001 (Rev 2.0, ISO 9001:2015 alapú) szabványunkat és a mögötte lévő mérnöki bizonyítékokat.'
+  actions:
+    - text: 'A változtatáskezelési SOP letöltése (PDF)'
+      variant: primary
+      href: 'https://assets.isupfactory.com/site/downloads/rework-change-control-sop-qms-sop-qc-cc-001.pdf?dl=1'
+    - text: 'Az A végrehajtási melléklet letöltése (PDF)'
+      href: 'https://assets.isupfactory.com/site/downloads/rework-execution-annex-a-qms-sop-qc-cc-001.pdf?dl=1'
+    - text: 'Kérjen minőségi elemzést'
+      href: /hu/contact
+
+answer:
+  label: 'Közvetlen válasz'
+  text: 'Az újrafeldolgozási paraméterek módosítását a QINGDAO VATRAD GROUP.,LTD.-nél soha nem döntikük el szóban vagy utólag. A jóváhagyott újrafeldolgozási anyagok, a folyamatkörülmények, az eszközök, a vizsgálati módszerek, az ellenőrzési kritériumok vagy az engedélyezett személyzet bármely javasolt módosítását a bevezetés előtt a formális változtatáskezelésen kell átvezetni: egy dokumentált mérnöki változtatási kérelem (ECR), a hatás és kockázat értékelése, a Mérnökség, a Minőség, a Gyártás, a Beszerzés és a Projekt által végzett funkcionális elemzés, a jogosultsági mátrixunkban meghatározott szintű jóváhagyás, a magas kockázatú módosításokhoz jóváhagyott validációs terv, a szabályozott pilótabevezetés, az újraellenőrzés és a hatékonyságelemzés, a lezárás pedig csak a dokumentumok felülvizsgálata és a képzés után. A jóváhagyott specifikációkat, mintákat, anyaglistákat, grafikát vagy elfogadási kritériumokat érintő módosítások továbbá az ügyfél írásbeli jóváhagyását is igénylik.'
+  verified: '2026. szeptember'
+
+stats:
+  tagline: Röviden
+  title: A változtatáskezelés számokban
+  stats:
+    - value: '9'
+      label: Lépés a változtatáskezelés zárt körében
+    - value: '6'
+      label: Formális változtatáskezelést igénylő módosítási kategória
+    - value: '4'
+      label: Alapvető újrafeldolgozási folyamat számszerű paraméterekkel
+    - value: '≥ 5'
+      label: Próbadeszka + 2 független minőségi ellenőr a magas kockázatú validáláshoz
+
+
+cc_intro:
+  tagline: 'Hatókör és politika'
+  title: Az irányítás alapelvei
+  body: |
+    **Dokumentum:** QMS-SOP-QC-CC-001 – *Az újrafeldolgozási folyamat paramétereinek változtatáskezelési szabványa* (Rev 2.0, hivatalos verzió). **Gyártó:** QINGDAO VATRAD GROUP.,LTD. / 青岛万国通衢进出口有限公司. **Szabványos hivatkozás:** ISO 9001:2015 Minőségirányítási rendszerek.
+
+    - **Nincs szabályozatlan módosítás.** Az újrafeldolgozási paraméterek módosításának át kell esnie a formális változtatáskezelésen. A helyszíni kezelők, a műszakvezetők vagy egy önálló osztály soha nem módosíthat jóváhagyott újrafeldolgozási paramétert szóbeli megállapodással vagy az újrafeldolgozási lapra kézzel írt jegyzetekkel.
+    - **Teljes lefedettség.** A szabályozott hatókör magában foglalja a légtömörséget, a szelepüléseket, az élszalagokat, a varratok ragasztását, a meleglevegős polimerizálást és a nyomástartási próbát – minden olyan paramétert, amely befolyásolhatja a tömörséget, a szerkezeti tartósságot, a megjelenést, az ügyféli elfogadást vagy a követhetőséget.
+    - **Az ügyfél által szabott alsó korlát.** Bármely módosítást, amely eltávolítja a terméket az ügyfél által jóváhagyott mintától, műszaki specifikációtól, anyaglistától, grafikától, csomagolási igénytől vagy elfogadási kritériumoktól, csak az ügyfél írásbeli hozzájárulásával vezetjük be. Ennek hiányában a deszkát az eredeti igény szerint újrafeldolgozzuk, cseréljük vagy elutasítjuk – a gyár soha nem „lazít” rajta saját belátása szerint.
+
+cc_scope:
+  tagline: Kockázatbesorolás
+  title: 'A módosítás hatóköre és kockázatbesorolása'
+  subtitle: 'Az alábbi elemek bármelyike formális változtatáskezelést indít – soha nem kezeljük pusztán az újrafeldolgozási lapra való bejegyzéssel. A kockázati szint határozza meg, ki hagyja jóvá, és mennyi validálás szükséges.'
+  headers:
+    category: Módosítási kategória
+    examples: 'Tipikus példák'
+    risk: Kockázat
+    requirements: 'Ellenőrzési és jóváhagyási igények'
+  rows:
+    - category: 'Újrafeldolgozási anyagok'
+      examples: 'Ragasztó, tisztítószer, foltanyag, szelep tömítése, alapozó vagy beszállítóváltás'
+      risk: 'Magas'
+      requirements: 'Osztályközi elemzés + az anyagok kompatibilitásának és a nyomástartásnak a validálása + az ügyfél aláírása, ahol szükséges'
+    - category: 'Folyamatkörülmények'
+      examples: 'Felület-előkészítés, a meleglevegős polimerizálás hőmérséklete és páratartalma, a meghúzási nyomás, a tartási idő'
+      risk: 'Magas'
+      requirements: 'A Mérnökség és a Minőség jóváhagyása, a meghatározott hőmérséklet- és páratartalom-tartomány validálásával'
+    - category: 'Szerszámok és mérőeszközök'
+      examples: 'Nyomásmérők, szivárgásérzékelők, meleglevegős pisztolyok, szelepszerszámok, vizsgálatszoftver'
+      risk: 'Közepes/Magas'
+      requirements: 'A kalibrálás érvényességének ellenőrzése + az eszköz alkalmaságának értékelése'
+    - category: 'A hiba hatóköre'
+      examples: 'Az újrafeldolgozási terület kiterjesztése; felületi mikroszivárgás, amely az él, a varrat vagy a szelepülés kritikus zónáira terjed'
+      risk: 'Magas'
+      requirements: 'Teherviselő szerkezeti felületek: kötelező leállítás és újraértékelés'
+    - category: 'Vizsgálati módszerek'
+      examples: 'A szivárgás észlelésének módszere, a vizsgálati nyomás (18.0 PSI), a tartási idő (24h)'
+      risk: 'Magas'
+      requirements: 'A Minőség jóváhagyása + az ügyféllel való technikai megállapodás megerősítése'
+    - category: 'Dokumentáció és jogosultság'
+      examples: 'Az újrafeldolgozási utasítás, az ellenőrzési űrlapok, az NCR intézkedési logikája, a kezelők képesítése'
+      risk: 'Közepes'
+      requirements: 'A felügyelt dokumentum revíziója (Rev A → Rev B) + képzési nyilvántartások'
+
+cc_containment:
+  tagline: 'A haladéktali leállítás szabálya'
+  title: A hatások azonnali korlátozása, amikor a helyzet súlyossá válik
+  body: |
+    > „A meglévő újrafeldolgozási módszert elemzés alá kell vonni, és a továbbiakban nem szabad alkalmazni az érintett termékeken, amíg a módosítás értékelése és engedélyezése meg nem történt, kivéve, ha a Minőség és a Mérnökség dokumentált ideiglenes eltérést hagy jóvá."
+
+    A jelenlegi újrafeldolgozási módszert azonnal fel kell függeszteni, amikor az újrafeldolgozás utáni újraellenőrzés továbbra is elbukik, amikor a hiba teherviselő szerkezeti zónákat érint (szelepalap, élek, varratok, a csőorr és a far nyomászónái), amikor egy helyettesítő anyag még nincs validálva, illetve amikor a jelenlegi paraméterek ütköznek az ügyfél által jóváhagyott specifikációval.
+
+    Az ideiglenes eltérések soha nem válnak tartós gyakorlattá: mindegyiknek meghatározott érvényességi ideje van, alkalmazandó lotkörű hatókörrel, mennyiségi plafonnal, validációs igényekkel és automatikus lejárati mechanizmussal. A szóbeli kivétel nem kivétel – ha nincs lejárati határidővel együtt dokumentálva, nem létezik.
+
+cc_flow:
+  tagline: A 9 lépéses zárt kör szabványa
+  title: A változtatási kérelmtől a lezárásig és az őrzésig
+  subtitle: 'Egyetlen dokumentált kör minden paramétermódosításhoz: javaslat, szelektálás, értékelés, jóváhagyás, validálás, pilóta, ellenőrzés, felülvizsgálat, lezárás.'
+  steps:
+    - step: '01'
+      title: 'Változtatási kérelem (ECR)'
+      desc: 'Bármely osztály benyújthat kérelmet, de azt a Mérnökség, a Minőség vagy a Gyártás vezetése támogatja. Az ECR megválaszolja, hogy miért javasolt a módosítás, mit módosítunk, mi érintett, és hogyan ellenőrizzük – a változtatásellenőrzési számmal, a kapcsolódó NCR/CAPA-val, a jelenlegi és a javasolt paraméterrel, az érintett lotokkal, valamint az ideiglenes/tartós besorolással együtt.'
+    - step: '02'
+      title: 'Előzetes szelektálás és hatáskorlátozás'
+      desc: 'A kérelmet először az azonnali hatáskorlátozás szempontjából elemezzük: most le kell állítani a jelenlegi módszert? Ha ideiglenes eltérés engedélyezett, azt az érvényességi időablak, a lotkörű hatókör, a mennyiségi plafon és az automatikus lejárat korlátozza.'
+    - step: '03'
+      title: 'Hatás- és kockázatértékelés'
+      desc: 'A Mérnökség, a Minőség, a Gyártás, a Beszerzés/Ellátási lánc és a Projekt értékeli a termék teljesítményét, az elfogadási kritériumokat, az anyagok kompatibilitását, a megjelenést, a folyamatképességet, az eszközöket és a mérőmódszereket, a személyzet képesítését, az ügyfél igényeit, valamint a megfelelőség és a követhetőség hatókörét.'
+    - step: '04'
+      title: 'Közös elemzés és jóváhagyás'
+      desc: 'A jóváhagyás a rögzített jogosultsági mátrixot követi – nem azt, hogy „ki szól hangosabban”. A magas kockázatú módosítások osztályközi jóváhagyást és szükség esetén az ügyfél írásbeli jóváhagyását igénylik, még minden próba előtt.'
+    - step: '05'
+      title: Validációs terv
+      desc: 'A magas kockázatú módosításokhoz a rutinszerű alkalmazás előtt jóváhagyott validációs terv szükséges: reprezentatív próbadeszkák, a jelenlegi és a javasolt módszer összehasonlítása, vizsgálati módszerek, elfogadási kritériumok, ellenőrzési lépések, felelősök és ütemezés.'
+    - step: '06'
+      title: 'Pilóta és szabályozott bevezetés'
+      desc: 'Az új dokumentumok kiállításra kerülnek, a lejárt verziókat bevonjuk és ELAVULTnak jelöljük; az új anyagokat és mérőeszközöket ellenőrizzük és kalibráljuk; a kezelőket betanítjuk és felkészítjük; az első lot szigorú felügyelet mellett fut, egyértelmű állapotjelöléssel.'
+    - step: '07'
+      title: 'Újraellenőrzés és hatékonyságelemzés'
+      desc: 'Az első újrafeldolgozás sikerességi arányát, az újraellenőrzés átvételi arányát, a visszatérési arányt és a megjelenés elfogadását mérjük és elemezzük, mielőtt a módosítást hatékonynak tekinthetjük – egyetlen javított deszkát soha nem tekintünk folyamatvalidációnak.'
+    - step: '08'
+      title: 'Dokumentumfelülvizsgálat és képzés'
+      desc: 'A munkautasításokat, az ellenőrzési űrlapokat, az NCR intézkedési lehetőségeket, a paraméterlapokat és a képzési anyagokat frissítjük az új revízióra, rögzített gyakorlati képzéssel és a kezelők képesítésével.'
+    - step: '09'
+      title: 'Lezárás és nyilvántartás-őrzés'
+      desc: 'A módosítás csak a validálási bizonyítékok, a dokumentációs frissítések, a képzési nyilvántartások és a bevezetés hatékonyságának elemzése és jóváhagyása után zárható le. Ha a kívánt eredményt nem érjük el, a módosítást felülvizsgáljuk, kiterjesztjük, felfüggesztjük vagy visszavonjuk.'
+
+cc_approval:
+  tagline: A jóváhagyási mátrix
+  title: A funkcionális jogosultsági mátrix
+  subtitle: 'A rögzített jogosultsági táblázat megakadályozza az ad hoc döntéseket: minden módosítási típushoz megvannak a szükséges jóváhagatói, a dokumentum szintű pontosítástól az ügyfél aláírásáig.'
+  headers:
+    change: A módosítás tartalma
+    engineering: Mérnökség
+    quality: Minőség
+    production: Gyártás
+    procurement: Beszerzés
+    project: 'Projekt / Értékesítés'
+    customer: Ügyfél
+  rows:
+    - change: 'A dokumentum megfogalmazásának pontosítása (paraméterekre gyakorolt hatás nélkül)'
+      engineering: Elemzés
+      quality: 'Jóváhagyás'
+      production: Értesítés
+      procurement: '—'
+      project: '—'
+      customer: '—'
+    - change: 'Az újrafeldolgozási műveletek sorrendjének igazítása'
+      engineering: 'Jóváhagyás'
+      quality: 'Jóváhagyás'
+      production: Ellenjegyzés
+      procurement: '—'
+      project: Értesítés
+      customer: 'Esetenként'
+    - change: 'Új újrafeldolgozási kezelő képesítése'
+      engineering: Elemzés
+      quality: 'Jóváhagyás'
+      production: 'Jóváhagyás'
+      procurement: '—'
+      project: '—'
+      customer: '—'
+    - change: 'A szerszám / vizsgálóeszköz cseréje'
+      engineering: 'Jóváhagyás'
+      quality: 'Jóváhagyás'
+      production: Ellenjegyzés
+      procurement: 'Szükség szerint'
+      project: '—'
+      customer: 'Esetenként'
+    - change: 'Helyettesítő újrafeldolgozási anyag / beszállítóváltás'
+      engineering: 'Jóváhagyás'
+      quality: 'Jóváhagyás'
+      production: Ellenjegyzés
+      procurement: Ellenjegyzés
+      project: Értesítés
+      customer: 'Szükséges lehet'
+    - change: 'A nyomási / nyomástartási / polimerizációs paraméterek módosítása'
+      engineering: 'Jóváhagyás'
+      quality: 'Jóváhagyás'
+      production: Ellenjegyzés
+      procurement: '—'
+      project: Értesítés
+      customer: 'Ha a projekt előírja'
+    - change: 'Az él / varrat / szelepülés újrafeldolgozási módszerének cseréje'
+      engineering: 'Jóváhagyás'
+      quality: 'Jóváhagyás'
+      production: Ellenjegyzés
+      procurement: 'Szükség szerint'
+      project: Értesítés
+      customer: 'Általában ajánlott'
+    - change: 'Az ügyfél specifikációjának, jóváhagyási mintájának vagy elfogadási kritériumainak módosítása'
+      engineering: 'Jóváhagyás'
+      quality: 'Jóváhagyás'
+      production: Ellenjegyzés
+      procurement: '—'
+      project: Ellenjegyzés
+      customer: 'Az írásbeli jóváhagyás kötelező'
+
+cc_validation:
+  tagline: Mérnöki validáció
+  title: 'Validációs és elfogadási protokoll – bizonyítékok állítások helyett'
+  body: |
+    Az olyan elnagyolt elfogadási megfogalmazásokat, mint *„a javított deszkának jónak kell lennie”*, nem fogadjuk el. A szabályozott megfogalmazás a következő:
+
+    > „Az újrafeldolgozott mintának ugyanazokra az alkalmazandó kritériumokra kell megfelelnie a légtömörség, a vizuális kivitelezés minősége, a szelep működése és a projektspecifikus elfogadás tekintetében, mint egy megfelelő deszka, kivéve, ha az ügyfél által jóváhagyott eltérés explicit alternatív kritériumot ír elő.”
+
+    A validációs bizonyítékok számszerűek, és a légtömörségi újrafeldolgozás mérnöki viszonyítási alapja a következőket tartalmazza:
+
+    - **A szivárgás megszüntetése és a nyomástartás.** A kezdeti szivárgást megszüntetjük, tartós buborékok nélkül a szappanos oldattal végzett észlelés során; a deszka 24 órán át tartja a 18.0 PSI standard vizsgálati nyomást, ΔP ≤ 0.2 PSI nettó nyomáscsökkenéssel a hőmérséklet- és páratartalom-korrekció után – ez az újrafeldolgozás validálásának szigorúbb viszonyítási alapja, és különbözik a gyártósor végső elfogadásakor alkalmazott 0.50 PSI automatikus elutasítási küszöbötől.
+    - **A szelep működése.** A szelepmag meghúzási nyomatéka megfelel a 15–20 N·m specifikációnak, mikroszivárgás nélkül a tömítésnél magas nyomáson és dinamikus nyomás mellett végzett felfújáskor.
+    - **A varrat ragasztása és a tartósság.** A ragasztási éleken nincs leválás, kifehéredés vagy delamináció; a hő- és nedvességi öregítési ciklusok után a ragasztóréteg nem mutat áztatást vagy rideg repedést.
+    - **Megjelenés és kivitelezési minőség.** Nincs ragasztócsurgás, nincs az EVA pad sérülése, nincs a deszka deformálódása, és nincs a logó elmozdulása vagy a nyomtatott felület karcolódása.
+
+cc_engineering:
+  tagline: A mérnöki végrehajtási mátrix
+  title: 'A négy alapvető újrafeldolgozási folyamat számszerű paraméterei'
+  subtitle: 'Minden szabályozott újrafeldolgozási folyamatnak vannak meghatározott paraméterei, módszertana és elfogadási kritériumai – ugyanazok az értékek, amelyeket kezelőink követnek, és amelyeket az ügyfelek az auditok során ellenőrizhetnek.'
+  headers:
+    process: Újrafeldolgozási folyamat
+    parameters: 'Szabályozott paraméterek'
+    methodology: Vizsgálati módszertan
+    acceptance: Elfogadási kritériumok
+  rows:
+    - process: 'Tűlyukak / mikroszivárgások javítása foltozással'
+      parameters: 'Oldószeres tisztítás és 3–5 perc szárítás; aktiválás 60°C ± 5°C meleglevegővel; ≥ 0.4 MPa nyomóhenger'
+      methodology: 'Felfújás 18 PSI-re; teljes bemerítés vízbe vagy szappanoldat alkalmazása; 10 perces megfigyelés'
+      acceptance: 'Nulla kibocsátott buborék; 180°-os élleválasztás leválás és ragasztócsurgás nélkül'
+    - process: 'Él / varrat-szalagok újraragasztása'
+      parameters: 'Szigorúan szabályozott kétkomponensű ragasztóarány; 22–28°C környezet, ≤ 65% relatív páratartalom; rögzítés fogóban ≥ 4 óra'
+      methodology: 'Túlnyomási próba 22 PSI-en 2 órán át; majd polimerizálás termokamrában 50°C-on 6 órán át, és 2 óra pihentetés szobahőmérsékleten'
+      acceptance: 'Nulla leválás, nulla repedés; ΔP ≤ 0.1 PSI nettó nyomáscsökkenés; ragasztóréteg kifehéredés vagy dagadás nélkül'
+    - process: 'A szelepalap lazulása / mikroszivárgás'
+      parameters: '18–20 N·m nyomaték speciális kulccsal; sík tömítőtömítés, deformálódás nélkül; a menetek tisztaságának megerősítése'
+      methodology: 'Felfújás 15 PSI-re; 20 felfújási/leeresztési ciklus; megfigyelés vízbe merítéssel'
+      acceptance: 'Nulla buborék a szelepmagnál és a szelepalap kerületén; a ciklusok utáni nyomaték ≥ 16 N·m'
+    - process: 'A végső 24 órás nyomástartási próba'
+      parameters: '18.0 PSI referencia-felfújás; 1.0 osztályú / ±0.5% digitális nyomásmérő; a környezeti hőmérséklet és páratartalom rögzítve és korrigálva'
+      methodology: 'Digitális nyomásrögzítő; 24 órás folyamatos nyomásgörbe'
+      acceptance: 'Korrekció után ΔP ≤ 0.20 PSI / 24 h nettó nyomáscsökkenés; a deszka deformálódása vagy kidomborodása nélkül'
+
+cc_photos:
+  tagline: 'A gyártócsarnokban'
+  title: 'Újrafeldolgozás, újratesztelés, engedélyezés – minden lépésnél dokumentálva'
+  subtitle: 'A qingdaói műhelyünkben készült fotók minden szabályozott újrafeldolgozási folyamatot megmutatnak, a kalibrált mérőeszközökkel, a meghatározott paraméterekkel és a helyszíni nyilvántartásokkal együtt – ugyanazok a bizonyítékok, amelyeket az ellenőrök bármikor bekérhetnek.'
+  grid: 'sm:grid-cols-2'
+  features:
+    - image: https://assets.isupfactory.com/site/quality/cc-pinhole-repair.avif
+      alt: Technikus, aki meleglevegős pisztoly és nyomóhenger segítségével javít egy tűlyukat, azaz mikroszivárgást egy felfújható SUP deszkán
+      title: 'Tűlyukak javítása'
+      desc: 'Egy technikus kezeli a megjelölt mikroszivárgást a 60°C specifikációra állított meleglevegős pisztoly és egy nyomóhenger segítségével; a szappanos víz megerősíti a szivárgás helyét, a munkaasztalon lévő, QA által aláírt ECR-jegy pedig a változtatáskezelési kaput jelöli (Poka-Yoke 1. szám).'
+    - image: https://assets.isupfactory.com/site/quality/cc-rail-seam-bonding.avif
+      alt: Technikus, aki szabályozott környezetben precíz ecsettel kétkomponensű PU ragasztót visz fel egy élvarratra
+      title: 'Az élvarrat ragasztása'
+      desc: 'A kétkomponensű PU ragasztót precíz ecsettel viszik fel az élvarratra, miközben a deszkát rögzítő fogóban tartják; a helyben lévő termohigrométer a szabályozott 24°C / 55% relatív páratartalom-tartományt jelzi.'
+    - image: https://assets.isupfactory.com/site/quality/cc-valve-base-integrity.avif
+      alt: 19 N·m-re állított digitális nyomatékkulcs, amely a szelepmagat rögzíti a drop-stitch anyagban
+      title: 'A szelepalap épsége'
+      desc: 'A 19 N·m specifikációra állított digitális nyomatékkulcs végzi el a szelepmag végső meghúzását, és tömíti az alapot a drop-stitch anyagban – a mérőeszközön a zöld KALIBRÁLT címke látható.'
+    - image: https://assets.isupfactory.com/site/quality/cc-pressure-hold-testing.avif
+      alt: Befejezett felfújható SUP deszkák digitális nyomásrögzítőkhöz csatlakoztatva a végső nyomástartási vizsgálati területen
+      title: 'A végső nyomástartási próba'
+      desc: 'A befejezett deszkákat nagy pontosságú digitális nyomásrögzítőkhöz csatlakoztatjuk; a referencia nyomásmérő 18.00 PSI értéket jelez, és minden vizsgálati adat automatikusan feltöltődik, majd a szerződéses követhetőségi rendszerhez rendeljük.'
+
+cc_pokayoke:
+  tagline: 'Hibamegelőző intézkedések'
+  title: 'Poka-Yoke: reteszelések, amelyek megállítják a szabályozatlan módosításokat'
+  subtitle: 'A szabványt nemcsak eljárásokkal, hanem fizikai és rendszerreteszelésekkel is alkalmazzuk, amelyek lehetetlenné teszik a szabályozatlan módosítások végrehajtását.'
+  features:
+    - icon: 1
+      icon_bg: blue
+      title: 'ECR-kapu a szerszámfeloldáshoz'
+      desc: 'Az újrafeldolgozó állások a pneumatikus felfújt szelepek és a ragasztókeverők feloldása előtt beolvasnak egy QA által aláírt ECR-vonalkódot. Jóváhagyott változtatáskezelési nyilvántartás nélkül nincs tápellátás – a visszamenőleges aláírás („előbb módosítunk, majd aláírunk”) fizikailag reteszelve van.'
+    - icon: 2
+      icon_bg: green
+      title: 'Az ideiglenes eltérések automatikus lejárata'
+      desc: 'Az ideiglenes eltéréseknek merev plafonjuk van a rendszerben (például legfeljebb 50 deszka vagy 7 naptári nap). A plafon elérése blokkolja a lót, és megakadályozza a szállítási átadási címke kinyomtatását a módosítás formális értékeléséig.'
+    - icon: 3
+      icon_bg: purple
+      title: 'Minimális validációs bizonyíték'
+      desc: 'A magas kockázatú módosításokhoz legalább 5 reprezentatív próbadeszka szükséges, amelyek lefedik a tűréshatárok felső és alsó szélét, és amelyeket 2 független minőségi ellenőr vizsgál át teljes egészükben, a validációs jelentés kiállítása előtt – egyetlen javított deszkát soha nem tekintünk folyamatvalidációnak.'
+    - icon: 4
+      icon_bg: orange
+      title: '„Egy be, egy ki” dokumentumkezelés'
+      desc: 'A lejárt munkahelyi űrlapokat fizikailag összegyűjtjük és kilyukasztjuk (érvénytelenítjük) az új kiállítása előtt, a szabályozott piros pecséttel jelölve – a régi és az új verzió soha nem létezik egyidejűleg ugyanazon a munkahelyen.'
+
+cc_downloads:
+  tagline: Letölthető QMS dokumentumok
+  title: 'Kétnyelvű felügyelt dokumentumok (PDF)'
+  subtitle: 'A QINGDAO VATRAD GROUP.,LTD. hivatalos kétnyelvű EN/ZH dokumentumai – felkészítve az ügyfélauditokra, a B2B technikai jelentésekre és a műhelyen belüli szabályozott terjesztésre.'
+  features:
+    - icon: S
+      icon_bg: blue
+      title: 'SOP az újrafeldolgozás változtatáskezelésére (PDF)'
+      desc: 'QMS-SOP-QC-CC-001 Rev 2.0: a módosítások besorolási táblázata, a funkcionális jogosultsági mátrix, a mérnöki validációs paraméterek, a piros leállítási határok és a minőségi aláírási blokkok.'
+      link: 'https://assets.isupfactory.com/site/downloads/rework-change-control-sop-qms-sop-qc-cc-001.pdf?dl=1'
+      link_label: 'PDF letöltése'
+    - icon: A
+      icon_bg: green
+      title: 'A végrehajtási melléklet (PDF)'
+      desc: 'Az ECR adatszerkezete, a mérnöki végrehajtási mátrix a négy alapvető újrafeldolgozási folyamat számszerű paramétereivel, a Poka-Yoke reteszelések logikája és a háromoldalas engedélyezési aláírási blokk.'
+      link: 'https://assets.isupfactory.com/site/downloads/rework-execution-annex-a-qms-sop-qc-cc-001.pdf?dl=1'
+      link_label: 'PDF letöltése'
+    - icon: R
+      icon_bg: purple
+      title: 'A szabályozott újrafeldolgozás irányítása (oldal)'
+      desc: 'Kísérőoldal a légtömörségi újrafeldolgozási rendszerhez: az A–G hibabesorolás, a jóváhagyott MC-RW-01-től az MC-RW-06-ig tartozó módszerlapok és a 7 lépéses szabályozott újrafeldolgozási folyamat.'
+      link: '/hu/factory/quality-inspection'
+      link_label: 'Az oldal meglátogatása'
+    - icon: N
+      icon_bg: orange
+      title: 'Nem megfelelő termékek kezelése (oldal)'
+      desc: 'A nem megfelelő kimenetek kezelése az ISO 9001:2015 8.7 pontja szerint: NCR-nyilvántartás, karantén, súlyosság szerinti intézkedési hatáskör, SRI utasítások szerinti szabályozott újrafeldolgozás, független újraellenőrzés és a tanúkkal jelen lévő megsemmisítési protokoll.'
+      link: '/hu/factory/non-conforming-control'
+      link_label: 'Az oldal meglátogatása'
+
+faqs:
+  tagline: GYIK
+  title: 'Gyakori kérdések az újrafeldolgozási változtatáskezelésről'
+  items:
+    - q: 'A gyár módosíthatja-e az újrafeldolgozási paramétereket anélkül, hogy értesítene minket?'
+      a: 'Nem. A jóváhagyott újrafeldolgozási anyagok, a folyamatkörülmények, a szerszámok, a vizsgálati módszerek, az ellenőrzési kritériumok vagy az engedélyezett személyzet bármely javasolt módosításának először át kell esnie a dokumentált változtatáskezelésen. A jóváhagyott specifikációkat, mintákat, anyaglistákat, grafikát vagy elfogadási kritériumokat érintő módosításokhoz az ügyfél írásbeli jóváhagyása szükséges.'
+    - q: 'Melyek a magas kockázatú módosítások?'
+      a: 'Az újrafeldolgozási anyagok vagy beszállítók, a nyomási és nyomástartási vagy polimerizációs körülmények, a szelepek, élek és varratok újrafeldolgozási módszerei, az ellenőrzési vagy elfogadási kritériumok, valamint a hiba hatókörének szerkezeti zónákra terjedése magas kockázatúnak minősül. Ezek osztályközi elemzést, jóváhagyott validációs tervet és szabályozott pilótabevezetést igényelnek a rutinszerű használat előtt.'
+    - q: 'Használható-e korlátlan ideig ideiglenes eltérés?'
+      a: 'Nem. Minden ideiglenes eltérésnek meghatározott érvényességi ideje, lotkörű hatókörje, mennyiségi plafonja és validációs igénye van, automatikus lejárattal. A plafon elérése blokkolja a lót, és megakadályozza az átadási címke kinyomtatását a módosítás formális értékeléséig.'
+    - q: 'Hogyan bizonyítják, hogy egy módosított módszer nagy mennyiségben alkalmazás előtt működik?'
+      a: 'A magas kockázatú módosításokhoz validációs terv szükséges: legalább 5 reprezentatív próbadeszka, amely lefedi a tűréshatárokat, és amelyet 2 független minőségi ellenőr vizsgál számszerű elfogadási kritériumokhoz képest (a szivárgás megszüntetése, a nyomástartás, a szelep működése, a varratok tartóssága, a megjelenés). A validációra vonatkozó jóváhagyás nem az alkalmazásra vonatkozó jóváhagyás.'
+    - q: 'Jóvá kell hagynunk minden módosítást?'
+      a: 'Nem minden módosítást, de bármely módosítást, amely eltávolítja a terméket az ügyfél által jóváhagyott mintától, műszaki specifikációtól, anyaglistától, grafikától, csomagolástól vagy elfogadási kritériumoktól, csak az ügyfél írásbeli hozzájárulásával vezetjük be. Ennek hiányában a deszkákat az eredeti igény szerint újrafeldolgozzuk, cseréljük vagy elutasítjuk.'
+    - q: 'Mi történik a régi dokumentumokkal egy módosítás jóváhagyása után?'
+      a: 'A régi munkautasításokat, paraméterlapokat és ellenőrzési űrlapokat fizikailag összegyűjtjük és érvénytelenítjük (egy be, egy ki), ELAVULTnak jelöljük, és a képzés után az új felügyelt revízióval helyettesítjük. A régi és az új verzió soha nem létezik egyidejűleg ugyanazon a munkahelyen.'
+    - q: 'Meddig őrizzük a változtatáskezelés nyilvántartásait?'
+      a: 'A lezárási nyilvántartásokat – a validációs bizonyítékokat, a dokumentációs revíziókat, a képzési nyilvántartásokat és a hatékonyságelemzéseket – a nyilvántartás-őrzési politikánk szerint őrizzük (legalább 3 év a lezárási nyilvántartások esetén), így minden módosítás auditok és követhetőségi elemzések számára követhető marad.'
+
+cta:
+  title: 'Szüksége van a változtatáskezelési dokumentumokra az auditjához?'
+  desc: 'Töltse le a kétnyelvű változtatáskezelési SOP-ot és az A végrehajtási mellékletet, vagy kérjen anonimizált példányt az ECR űrlapunkról és az OEM/ODM projektje validációs tervéről.'
+  actions:
+    - text: 'Kérjen minőségi elemzést'
+      variant: primary
+      href: /hu/contact
+    - text: 'A változtatáskezelési SOP letöltése (PDF)'
+      href: 'https://assets.isupfactory.com/site/downloads/rework-change-control-sop-qms-sop-qc-cc-001.pdf?dl=1'
+    - text: 'Az A végrehajtási melléklet letöltése (PDF)'
+      href: 'https://assets.isupfactory.com/site/downloads/rework-execution-annex-a-qms-sop-qc-cc-001.pdf?dl=1'

@@ -6,7 +6,7 @@ export interface FaqEntry {
   a: string
 }
 
-export const PRODUCT_FAQ_POOL: Record<'en' | 'es' | 'fr' | 'de' | 'it' | 'pt' | 'nl' | 'sv' | 'no' | 'pl' | 'da' | 'fi' | 'ru' | 'cs' | 'tr' | 'ro', FaqEntry[]> = {
+export const PRODUCT_FAQ_POOL: Record<'en' | 'es' | 'fr' | 'de' | 'it' | 'pt' | 'nl' | 'sv' | 'no' | 'pl' | 'da' | 'fi' | 'ru' | 'cs' | 'tr' | 'ro' | 'hu', FaqEntry[]> = {
   en: [
     {
       q: 'What is the minimum order to customize this board?',
@@ -293,6 +293,24 @@ export const PRODUCT_FAQ_POOL: Record<'en' | 'es' | 'fr' | 'de' | 'it' | 'pt' | 
     {
       q: 'Cum este controlată calitatea înainte de expediere?',
       a: 'Fiecare placă trece printr-o listă de verificare a asamblării de 100 de puncte și un test de presiune de 18.0 PSI · 24 de ore înainte de ambalare; piesele cu o cădere de presiune de peste 0,50 PSI/24 h sunt respinse automat.',
+    },
+  ],
+  hu: [
+    {
+      q: 'Mi a minimális rendelési mennyiség ennek a táblának a testreszabásához?',
+      a: 'A sorozatgyártásnál a minimális rendelési mennyiség (MOQ) jóváhagyott konfigurációnként 90–100+ db, az anyagtekercsre és a csomagolásra vonatkozó követelményektől függően, egy 150 m tekercsen; a próbatételek 20–50 db-tól indulnak, az egyedi sajáformához pedig 90–100+ db szükséges.',
+    },
+    {
+      q: 'Mennyi ideig tart a minták és a gyártás elkészítése?',
+      a: 'A minták 7–12 nap alatt elkészülnek; a sorozatgyártás a rendelés (PO) és az előleg megerősítése után 25–35 nap alatt fejeződik be.',
+    },
+    {
+      q: 'Módosíthatom a színeket, a grafikát és a logót?',
+      a: 'Igen — a grafika, a színek, az EVA csúszásgátló szőnyeg, a logó, a csomagolás és a tartozékok minden platformon testreszabhatók. Küldje el nekünk a logót, és mi a gyártás előtt vizuális mintát készítünk.',
+    },
+    {
+      q: 'Hogyan ellenőrzik a minőséget szállítás előtt?',
+      a: 'Minden tábla átmegy egy 100 pontos összeállítási ellenőrzőlistán, és a csomagolás előtt egy 18.0 PSI · 24 órás nyomáspróbán; a 0,50 PSI/24 h-nél nagyobb nyomáseséssel járó termékeket automatikusan kizárjuk.',
     },
   ],
 }

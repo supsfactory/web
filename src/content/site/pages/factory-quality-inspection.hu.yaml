@@ -1,0 +1,477 @@
+meta:
+  title: 'Minőségi ellenőrzési szabványok egyedi SUP deszkákhoz | OEM gyár | iSupfactory'
+  description: 'Felfújható SUP deszkák OEM-gyártása: az anyagok, a gyártás, a vizsgálat, a csomagolás és a követhetőség ellenőrzése, ISO 9001 szerinti légtömörségi utólagos javítási felügyelettel.'
+  dateModified: '2026-08-14'
+  keywords:
+    - 'felfújható SUP deszkák gyártója'
+    - 'SUP deszkák OEM gyára'
+    - 'egyedi paddle deszkák gyártója'
+    - 'SUP deszkák minőségellenőrzése'
+    - 'SUP deszkák gyártási folyamata'
+    - 'private label SUP deszkák gyártója'
+
+hero:
+  tagline: Ellenőrzés és minőségbiztosítás
+  title: Minőségellenőrzés egyedi felfújható SUP deszkákhoz
+  subtitle: 'A QINGDAO VATRAD GROUP.,LTD. a nyersanyag-előkészítés, a deszka összeállítása, a felfújásos végső vizsgálat, a csomagolás és a szállítási engedélyezés során projektspecifikus ellenőrzési kritériumokat alkalmaz. A minőségi elvárásokat dinamikusan kezeljük az egyes OEM/ODM megrendelésekhez jóváhagyott minta, műszaki specifikáció, grafikai próba, anyaglista (BOM) és csomagolási szabványok alapján.'
+  actions:
+    - text: Töltse le a minőségbiztosítási csomagot
+      variant: primary
+      href: 'https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_Quality_Inspection_Standards.pdf?dl=1'
+    - text: Töltse le a mintaminőségi csomagot (PDF)
+      href: 'https://assets.isupfactory.com/site/downloads/Qingdao_Vatrad_Group_SUP_Quality_Documentation_Pack.pdf?dl=1'
+    - text: Kérjen OEM minőségi tájékoztatást
+      href: /hu/contact
+
+answer:
+  label: 'Közvetlen válasz'
+  text: 'A QINGDAO VATRAD GROUP.,LTD. 4 lépéses ellenőrzési rendszerrel vizsgálja a felfújható SUP deszkák minőségét: beérkező anyagellenőrzés (IQC), folyamatközi minőségellenőrzés (IPQC), a deszka végső vizsgálata és a felfújás ellenőrzése (FQC), valamint csomagolás és szállítás előtti engedélyezés (OQC). Minden megrendelést a jóváhagyott mintához, a műszaki specifikációhoz, a grafikai próbához, a BOM-hoz és a csomagolási szabványokhoz hasonlítva ellenőrzünk, légtömörségi vizsgálattal, vizuális és méretellenőrzéssel, tartozék-egyeztetéssel és lotonkénti követhetőséggel. Azok a termékek, amelyek nem felelnek meg az elfogadási kritériumoknak, ellenőrzött visszatartásba vagy karanténba kerülnek, kizárólag jóváhagyott utasítás szerint javítjuk őket, és az engedélyezés előtt újraellenőrizzük.'
+  verified: '2026. szeptember'
+
+intro: 'Minőségi rendszerünket OEM/ODM projektekre terveztük: az ellenőrzési kritériumokat megrendelésenként rögzítjük, dokumentáljuk, és a gyártó- és minőségi csapatok az alapanyag beérkezésétől a csomagolásig betartják őket. Így a minőségi elvárások a gyár és az Ön márkája között egységesek maradnak, az első mintától a teljes konténeres szállításokig.'
+
+scope_note:
+  tagline: Hatály
+  title: Projektspecifikus ellenőrzési kritériumok
+  body: |
+    A minőségi specifikációk a deszka felépítésétől (például egyrétegű/kétrétegű, drop-stitch szövet, olvasztott sín), a tervezett végfelhasználástól, a célpiaci szabályozástól és az ügyfél által jóváhagyott paraméterektől függenek. A végső engedélyezés kizárólag a megrendelésre dokumentált és egyeztetett ellenőrzési kritériumokon alapul.
+
+stages:
+  tagline: A minőségi keretrendszer
+  title: A 4 lépéses minőségellenőrzési rendszerünk
+  subtitle: 'Egy teljes QC ciklus a nyersanyag beérkezésétől a szállítás engedélyezéséig.'
+  steps:
+    - title: '1. Beérkező anyagellenőrzés (IQC)'
+      desc: 'A fő anyagokat és a beszerzett alkatrészeket a jóváhagyott specifikációkhoz és a referencia mintákhoz hasonlítva ellenőrizzük, mielőtt a gyártósorba kerülnének. A drop-stitch és a PVC anyagoknál ellenőrizzük az anyagazonosítást, a beszállítói lottagot, a tömeget/sűrűséget, a vastagságot, a szín egyezését a jóváhagyott mintákkal, valamint a felületi hibákat. A húzószállású (EVA) borítékoknál ellenőrizzük a modellt, a színt, a vastagságot, a vágás pontosságát és a ragasztó kompatibilitását. A szelepeken és szerelvényeken működési, menetes, tömítési épségi és szerelési próbát végzünk. A tartozékokat és a csomagolóanyagokat (pumpák, lapátok, uszonyok, kötelek, táskák, dobozok) mennyiség, szín, márkázás, vonalkód-pontosság és grafikai verzió szempontjából egyeztetjük a jóváhagyott BOM-mal.'
+    - title: '2. Folyamatközi minőségellenőrzés (IPQC)'
+      desc: 'A kritikus gyártási lépések ellenőrzése célja, hogy a nem megfelelőségeket már azelőtt kimutassuk, mielőtt a deszkák a következő állomásra kerülnének. A vágást és a nyomtatást a panelméretek, a grafika megjelenése, a tükörkép szerinti tájolás és a szélek tisztasága alapján ellenőrizzük a jóváhagyott műszaki rajzokhoz képest. A deszka összeállítását és a sín ragasztását a kontúr szimmetriájára, a varratátfedések folytonosságára, valamint a nagy igénybevételi zónák menti hézagok és légbuborékok megszüntetésére ellenőrizzük. A szelepek és a tartozékok rögzítését, a grafikát és a márkázást a helyzet, a tájolás, a ragasztó fedettsége, a embléma helyesírása és a grafikai verzió alapján ellenőrizzük.'
+    - title: '3. A deszka végső vizsgálata és a felfújás ellenőrzése (FQC)'
+      desc: 'A befejezett deszkákat a csomagolás jóváhagyása előtt kötelező fizikai és szerkezeti vizsgálaton vetjük alá. A deszkákat a projektre jóváhagyott ellenőrzési nyomásra fújjuk, és a szerkezeti merevség és a nyomásstabilitás ellenőrzése érdekében tartjuk. A légtömörségi vizsgálatok kiterjednek a szelep házára, a sín varrataira, az orr/farok kúpos részeire és a teherviselő toldatokra, kalibrált szivárgáskeresési módszerekkel (nyomáscsökkenés-figyelés vagy buborékpróba). A kozmetikai és méretellenőrzés a méreteket, a rocker-profilt és az EVA boríték illeszkedését (±2 mm tűrés) ellenőrzi, szabványos természetes fényben.'
+    - title: '4. Csomagolás és szállítás előtti engedélyezés (OQC)'
+      desc: 'A szállítás előtti teljes ellenőrzés garantálja, hogy az SKU-konfigurációban vagy a szállítási jelölésekben nincs semmilyen eltérés. A készlet teljességét kereszt-ellenőrzéssel vizsgáljuk: a deszkát, az uszonyt, a kötelet, a lapátot, a pumpát, a táskát, a javítócsomagot és a használati útmutatót a megrendelés BOM-jához hasonlítva. A csomagolási és vonalkód-ellenőrzések a dobozjelöléseket, az SKU-címkéket, a vonalkód olvashatóságát, az útmutató nyelvét és a doboz szerkezeti épségét vizsgálják. A megrendelések csak akkor kerülnek engedélyezésre, miután a végső csomagolási auditot az engedélyezett minőségi személyzet aláírta.'
+
+inspection_points:
+  tagline: Az ellenőrzés lefedettsége
+  title: Az ellenőrzés kulcsfontosságú pontjai
+  subtitle: 'Minden ellenőrzési pontot a megrendelésenként dokumentált és egyeztetett elfogadási kritériumok szerint hajtunk végre.'
+  features:
+    - icon: A
+      icon_bg: blue
+      title: Légtömörségi ellenőrzés
+      desc: 'A befejezett deszkákat a jóváhagyott ellenőrzési nyomásra fújjuk, és ellenőrizzük a nyomástartást, a szelep aljának állapotát, a sín varratait, az orr- és fartérsegeket, valamint a nagy igénybevételi pontokat. Ahol az ellenőrzési eljárás megköveteli, a szivárgásra gyanús területeket jóváhagyott szivárgáskeresési módszerekkel vizsgáljuk.'
+    - icon: B
+      icon_bg: green
+      title: Vizuális és méretellenőrzés
+      desc: 'A deszkákat megfelelő megvilágításban vizsgáljuk az anyag felületi állapota, a nyomtatási hibák, a színváltozások, az EVA illeszkedése, a gyűrődések, a karcolások, a szennyeződés és a ragasztás megjelenése szempontjából. A fő méreteket és a tartozékok helyzetét a jóváhagyott rajzokhoz vagy specifikációkhoz hasonlítva ellenőrizzük.'
+    - icon: C
+      icon_bg: purple
+      title: Tartozék- és csomagolásellenőrzés
+      desc: 'A termék teljes konfigurációját szállítás előtt ellenőrizzük: a deszka modellje, az uszonyrendszer, a lapát, a pumpa, a kötél, a szállítótáska, a javítócsomag, a használati útmutató és az ügyfél-specifikus tartozékok — mindegyik a jóváhagyott mintához, a rajzokhoz és a BOM-hoz igazítva.'
+    - icon: D
+      icon_bg: orange
+      title: Csomagolás és szállítási engedélyezés
+      desc: 'A csomagolt egységeket ellenőrizzük az SKU-konfiguráció, a tartozékok teljessége, a termékcímkék, a vonalkód adatai, az útmutató verziója, a dobozjelölés, a csomagolási mennyiség és a doboz állapota szempontjából. A szállítási engedélyezésre csak az összes ellenőrzési és csomagolási követelmény teljesülése után kerül sor.'
+
+traceability_intro:
+  tagline: A lottagok követhetősége
+  title: Projektszintű és lotszintű követhetőségi rendszer
+  body: |
+    Minden egyedi SUP megrendelést egységes projektkód alatt kezeljük, amely összekapcsolja a műszaki specifikációkat, a jóváhagyott BOM-ot, a grafika revízióit, az anyagok lottagszámait, a csomagolási hivatkozásokat és az ellenőrzési nyilvántartásokat. A gyártási és ellenőrzési nyilvántartásokat az érintett projekthez és gyártási lothoz vezetjük, és minden lot visszakapcsolható a jóváhagyott termékspecifikációhoz, a BOM-hoz, a grafikához és a csomagolási hivatkozásokhoz.
+
+    Ez hatékony áttekintést tesz lehetővé a termékkonfigurációról, az ellenőrzés állapotáról és az érintett hatótérről, ha minőségi problémát azonosítunk — a készterméktől visszafelé a forrásnyilvántartásokig, a deszka vagy a doboz azonosítója alapján.
+
+traceability_chain:
+  tagline: A követhetőségi lánc
+  title: A projektkódtól a szállítás engedélyezéséig
+  subtitle: 'Egyetlen ellenőrzött hivatkozási lánc a megrendelés megerősítésétől az engedélyezett szállításig.'
+  steps:
+    - step: '01'
+      title: Projektkód
+      desc: 'Egységes projektazonosító, amely a megrendelés minden ellenőrzött dokumentumát összekapcsolja.'
+    - step: '02'
+      title: Dokumentumrevíziók
+      desc: 'A specifikáció, a BOM, a grafika és a csomagolás aktuális revíziószintjei — csak a jóváhagyott verziók érvényesek a gyártásban.'
+    - step: '03'
+      title: Lottagok és anyagok
+      desc: 'A gyártási lothoz rendelt anyag- és alkatrészlottagok.'
+    - step: '04'
+      title: Ellenőrzési nyilvántartások
+      desc: 'Lotonkénti IQC-, folyamatközi, légtömörségi, végső és csomagolási ellenőrzés eredményei.'
+    - step: '05'
+      title: Csomagolás és engedélyezés
+      desc: 'A csomagolási lot, a lezárt NCR állapota és az engedélyezett szállítási engedélyezés összefoglalója.'
+
+traceability_sample:
+  tagline: Anonimizált minta
+  title: Követhetőségi ellenőrzési nyilvántartás (demó)
+  body: |
+    A demóértékek kizárólag szemléltető célból szerepelnek — az ügyfelek nevei, a megrendelésszámok, az egyedi grafikák, a beszállítói adatok és az üzleti információk el lettek távolítva a titkosság megőrzése érdekében.
+
+    - **Gyártó:** QINGDAO VATRAD GROUP, LTD.
+    - **Projektkód:** DEMO-SUP-2026-01
+    - **SKU-hivatkozás:** DEMO-TR-126
+    - **Gyártási lot:** BATCH-AUG-01
+    - **Specifikáció / BOM / grafika revíziója:** Rev B / Rev C / Rev B
+    - **Légtömörségi nyilvántartás:** PASS — lotonként megőrzött
+    - **Ellenőrzés állapota:** PASS
+    - **Szállítás állapota:** RELEASED
+
+quarantine_intro:
+  tagline: Nem megfelelőség-kezelés
+  title: Nem megfelelő termékek felügyelete és karantén
+  body: |
+    Azokat a termékeket vagy alkatrészeket, amelyek nem felelnek meg a meghatározott elfogadási kritériumoknak, egyértelműen azonosítjuk, és ellenőrzött visszatartásba vagy karanténállapotba helyezzük. Ezek nem kerülhetnek át a következő gyártási-, csomagolási vagy szállítási szakaszba, amíg nincs lezárva egy engedélyezett intézkedés. A javítást a jóváhagyott utasítások szerint végezzük, és a javítási nyilvántartást az érintett nem megfelelőségi nyilvántartáshoz kötjük; a javított termékeket a minőségi engedélyezés előtt a projektre vonatkozó követelmények szerint újraellenőrizzük.
+
+quarantine_flow:
+  tagline: 7 lépéses ellenőrzési folyamat
+  title: Mi történik, ha nem megfelelőséget azonosítunk?
+  subtitle: 'Azonosítás, ellenőrzés, helyesbítés, ellenőrzés — majd engedélyezés vagy elutasítás. A nem megfelelő termék ellenőrzés nélkül soha nem kerül vissza a gyártásba vagy a csomagolásba.'
+  steps:
+    - step: '01'
+      title: Azonosítás
+      desc: A nem megfelelőséget az érintett termékhez, SKU-hoz, lothoz vagy folyamatlépéshez rögzítjük.
+    - step: '02'
+      title: Címkézés
+      desc: 'Az érintett termékeket egyértelműen, ellenőrzött állapotcímkékkel jelöljük — HOLD, QUARANTINE vagy REJECTED.'
+    - step: '03'
+      title: Karantén
+      desc: 'A termékeket fizikailag ellenőrzött karanténterületen, illetve rendszerrel szabályozott módon elkülönítjük a véletlen felhasználás vagy szállítás megelőzése érdekében.'
+    - step: '04'
+      title: Hatótér értékelése
+      desc: 'Az érintett hatóteret lotonként, folyamatlépésenként, anyaglotonként és dokumentumrevízióonként felülvizsgáljuk.'
+    - step: '05'
+      title: Javítás / csere
+      desc: A helyesbítés csak jóváhagyott intézkedéssel és ellenőrzött munkautasítással végezhető.
+    - step: '06'
+      title: Újraellenőrzés
+      desc: A helyesbített termékeket az engedélyezés előtt a vonatkozó elfogadási kritériumok szerint újraellenőrizzük.
+    - step: '07'
+      title: Engedélyezés vagy elutasítás
+      desc: 'Csak az engedélyezett, megfelelő termék mehet tovább csomagolásra vagy szállítási engedélyezésre.'
+
+quarantine_evidence:
+  tagline: 'A gyár üzemében'
+  title: Ellenőrzött vizsgálat és karantén a gyakorlatban
+  subtitle: 'Fényképek a qingdaói gyárunkból, amelyek bemutatják, hogyan alkalmazzák a helyszínen az állapotkezelést és az ellenőrzési nyilvántartást.'
+  features:
+    - image: https://assets.isupfactory.com/site/quality/qc-air-tightness-test-area.avif
+      alt: A gyár légtömörségi vizsgálóterületén felfújható SUP deszkák, amelyeket digitális nyomásmérő figyel
+      title: Légtömörségi vizsgálóterület
+      desc: 'A QC vizsgálóterületen ipari megvilágításban megtartott, felfújható deszkák digitális nyomásmérőkkel, amelyek a légtömörségi próbát a szelep aljánál, a sín varratainál, az orr- és fartérsegeknél, valamint a nagy igénybevételi pontoknál figyelik. A nyilvántartásokat lotonként őrizzük, és a végső ellenőrzéshez kötjük őket.'
+    - image: https://assets.isupfactory.com/site/quality/qc-hold-quarantine-station.avif
+      alt: Minőségellenőrzési jegyzőkönyvek és ellenőrzött állapotcímkék a gyár ellenőrzőállomásán
+      title: Visszatartási és karanténállomás
+      desc: 'Ellenőrzőállomás QC-ellenőrzési jegyzőkönyvekkel és állapotcímkézéssel. Azokat a termékeket, amelyek nem felelnek meg az elfogadási kritériumoknak, címkézéssel és nyilvántartással karanténba helyezzük — csomagolásra nem kerülhetnek, amíg le nem zárul egy engedélyezett intézkedés és a kötelező újraellenőrzés.'
+    - image: https://assets.isupfactory.com/site/quality/qc-air-tightness-rework.avif
+      alt: QC technikus, aki a gyár javítóállomásán ellenőrzött légtömörségi javítást végez egy felfújható SUP deszkán
+      title: Ellenőrzött javítóállomás
+      desc: 'A légtömörségi javítást külön állomáson, jóváhagyott módszerlap szerint végezzük: a hibát megjelöljük, a deszka HOLD állapotban marad, majd a szükséges megszilárdulási idő után visszatér a vizsgálóterületre az eredeti elfogadási kritériumok szerinti újraellenőrzésre.'
+    - image: https://assets.isupfactory.com/site/quality/qc-workshop-quarantine-demo.avif
+      alt: Karantén elkülönítés bemutatója a qingdaói gyár üzemében
+      title: A karanténterület bemutatója
+      desc: 'Bemutató fénykép az üzemből, amely szemlélteti, hogyan működik a helyszíni, ellenőrzött karantén elkülönítés: az elkülönített egységeket állapotkezelés tartja felügyelet alatt egy engedélyezett intézkedés lezárásáig.'
+
+rework_intro:
+  tagline: A javítások irányítása
+  title: A légtömörségi nem megfelelőségek felügyelete és a javítások irányítása
+  body: |
+    A QINGDAO VATRAD GROUP.,LTD. vállalatánál a javítást szigorúan az alábbiaként definiáljuk: egy nem megfelelő egység teljes visszaállítása az eredeti mérnöki specifikációjával való teljes megfelelésre — nem gyorsjavításként. A légtömörségi nem megfelelőséggel azonosított deszkát ellenőrzött visszatartásba helyezzük, és a további feldolgozás előtt Nem megfelelőségi jelentéshez (NCR) kötjük; a szivárgás forrását a jóváhagyott diagnosztikai módszerrel lokalizáljuk és rögzítjük.
+
+    A javítás csak akkor folytatható, ha a hiba a jóváhagyott javítási hatótérbe esik, és rendelkezésre áll engedélyezett módszer. A javítási utasítás azonosítja a terméket, a lottagot, a hiba helyét, a jóváhagyott anyagot, a módszert, a szükséges feltételeket és az újraellenőrzés hatóterét. A szükséges megszilárdulási vagy stabilizációs idő után a deszkát ugyanazoknak a vonatkozó elfogadási kritériumoknak megfelelően ellenőrizzük újra, mint egy megfelelő deszkát — a javítás soha nem csökkenti az elfogadási szintet. Az újraellenőrzés sikertelensége új mérnöki és minőségi intézkedést igényel; az ismételt javítások dokumentált jóváhagyás nélkül nem engedélyezettek.
+
+rework_decision:
+  tagline: Interaktív folyamatábra
+  title: 'Javítási döntési folyamat — kattintson bármelyik csomópontra'
+  subtitle: 'Kövesse nyomon, hogyan kezeljük a légtömörségi nem megfelelőséget az észleléstől az engedélyezésig vagy a hulladékig. Kattintson egy csomópontra az adott lépés ellenőrzési követelményeinek megtekintéséhez.'
+  nodes:
+    - id: detect
+      type: start
+      label: Szivárgás észlelve
+      detail: 'Vizsgálat közben légtömörségi nem megfelelőséget azonosítottunk — nyomástartási hiba, látható szivárgás vagy a légtömörségi rendszer kapcsolódó hibája.'
+    - id: hold
+      type: step
+      label: 'Gyártásleállás · HOLD címke · NCR'
+      detail: 'A feldolgozás leáll. Rögzítjük a deszka azonosítóját, a termékkódot, a lottagot, a munkahelyet, a dátumot és az ellenőrt; csatolunk egy HOLD / QUARANTINE címkét, és megnyitunk egy NCR-t a vonatkozó specifikációrevízióhoz.'
+    - id: locate
+      type: step
+      label: A szivárgás forrásának lokalizálása
+      detail: 'A deszkát a projektre jóváhagyott diagnosztikai nyomásra fújjuk, és a forrást jóváhagyott módszerrel lokalizáljuk — nyomástartás, kalibrált buborékpróba, akusztikus berendezés vagy szivárgáskereső műszer.'
+    - id: classify
+      type: step
+      label: 'A hiba osztályba sorolása (A–G)'
+      detail: 'A hibát a jóváhagyási mátrix alapján osztályba soroljuk: A szelep illesztési felülete, B a szelep alatti varrat, C felületi perforáció, D a sín helyi varrata, E a sín súlyos hibája, F visszatérő szivárgás, G szerkezeti károsodás.'
+    - id: authorize
+      type: decision
+      label: 'Engedélyezett javítás?'
+      yes: rework
+      no: escalate
+      detail: 'A minőség-ellenőrzés megerősíti a hiba kategóriáját, a Mérnökség pedig megvizsgálja, hogy a deszka visszaállítható-e az eredeti specifikációjához. Az engedélyezés rögzíti a módszerlapot, az anyagokat, a feltételeket és az újraellenőrzés hatóterét — vagy a csere, az elutasítás, a hulladék, illetve az ügyfél által adott kereskedelmi engedmény felé irányítja a döntést.'
+    - id: rework
+      type: step
+      label: Ellenőrzött javítás
+      detail: 'Kizárólag a jóváhagyott hiba hatóterén belül, a módszerlap, az anyaglot és a jóváhagyott szerszámok használatával — soha nem módosítva a méreteket, a felépítést, a grafikát, a tartozékokat vagy a csomagolási követelményeket.'
+    - id: cure
+      type: step
+      label: Megszilárdulás és stabilizálás
+      detail: 'A deszka a jóváhagyott anyag és folyamatutasítás által meghatározott megszilárdulási és stabilizációs időszak alatt HOLD állapotban marad, majd vizuális és kivitelezési előzetes ellenőrzést kap.'
+    - id: reinspect
+      type: decision
+      label: 'Az újraellenőrzés sikeres?'
+      yes: release
+      no: escalate
+      detail: 'A deszkát a projektre jóváhagyott újraellenőrzési nyomásra fújjuk, és újraellenőrizzük az eredeti hibát valamint valamennyi potenciálisan érintett jellemzőt — a szivárgás helyét, a szelepet, a síneket, a varratokat, a nagy igénybevételi zónákat, a tartozékokat és a megjelenést. A javítás soha nem csökkenti az elfogadási szintet.'
+    - id: release
+      type: release
+      label: A minőségi engedélyezés
+      detail: 'A minőség-ellenőrzés áttekinti a lezárt NCR-t, a javítási nyilvántartást és az újraellenőrzés eredményét, majd engedélyezi az átadást. Javított deszkát a minőségi engedélyezés nélkül nem csomagolunk és nem szállítunk.'
+    - id: escalate
+      type: escalate
+      label: 'Eskalálás — csere / hulladék / engedmény'
+      detail: 'Ismételt javítás dokumentált jóváhagyás nélkül nem engedélyezett. A deszkát a cserére, elutasításra, hulladékként kezelésre vagy az ügyfél által adott írásbeli kereskedelmi engedményre irányítjuk, ha az eredeti specifikáció nem állítható vissza.'
+
+defect_matrix:
+  tagline: A hibák osztályozása
+  title: A légtömörségi hibák osztályozása és a jóváhagyási mátrix
+  subtitle: 'Nem minden szivárgást javítunk — minden hibát osztályba sorolunk, és az intézkedését a megfelelő szinten hagyjuk jóvá, a QC-ellenőrtől az üzemvezetőig.'
+  headers:
+    category: A hiba kategóriája
+    area: A tipikus terület
+    eligibility: Javíthatóság
+    approval: Szükséges jóváhagyás
+  rows:
+    - category: 'A osztály – a szelep illesztési felülete'
+      area: 'A szelep magja, a sapka tömítése, az alkatrész, a pumpa illesztése'
+      eligibility: 'Engedélyezett szabványos javítás'
+      approval: 'QC-ellenőr'
+    - category: 'B osztály – a szelep alatti varrat'
+      area: 'Mikroszivárgás a szelep széle mentén'
+      eligibility: 'A jóváhagyott módszerlap szerint értékelt javítás'
+      approval: 'QC + Mérnökség'
+    - category: 'C osztály – felületi perforáció'
+      area: 'Lokális mikroperforáció terhelésmentes felületen'
+      eligibility: 'Csak akkor engedélyezett, ha megfelel az ügyfél specifikációinak'
+      approval: 'QC + Mérnökség'
+    - category: 'D osztály – a sín helyi varrata'
+      area: 'Lokális szivárgás az átfedésen a sínszalag mentén'
+      eligibility: 'Magas kockázat; szigorú mérnöki intézkedés szükséges'
+      approval: 'Mérnökség + QA-vezető'
+    - category: 'E osztály – a sín súlyos hibája'
+      area: 'Folyamatos varrathiba nagy igénybevételi zónákban'
+      eligibility: 'Szabványos javítás nem engedélyezett — csere vagy gyökérok-elemzés'
+      approval: 'QA-vezető + Ügyfél-engedmény'
+    - category: 'F osztály – visszatérő szivárgás'
+      area: 'Nem lokalizálható szivárgás vagy sikertelen újratesztelés'
+      eligibility: 'Nincs ismételt javítás; csere, hulladék vagy gyökérok-mérnöki elemzés'
+      approval: 'QA-vezető / Mérnökség'
+    - category: 'G osztály – szerkezeti károsodás'
+      area: 'Anyagkárosodás, delamináció, a deszka deformációja'
+      eligibility: 'Javítással történő engedélyezés nem engedélyezett — csere, hulladék vagy az ügyfél írásbeli engedménye'
+      approval: 'Minőségügyi vezető + Ügyfél-jóváhagyás'
+
+rework_flow:
+  tagline: Zárt hurok 7 lépésben
+  title: 'Ellenőrzött javítási munkafolyamat — az észleléstől az engedélyezésig vagy a hulladékig'
+  subtitle: 'Minden légtömörségi javítás ugyanazt az ellenőrzött hurkot követi: észlelés, karantén, diagnosztika, engedélyezés, javítás, újraellenőrzés, engedélyezés.'
+  steps:
+    - step: '01'
+      title: 'Észlelés, gyártásleállás és karantén'
+      desc: 'A feldolgozás azonnal leáll az érintett deszkánál. Rögzítjük a deszka azonosítóját, a termékkódot, a lottagot, a munkahelyet, a dátumot és az ellenőrt, csatolunk egy HOLD / QUARANTINE címkét, és megnyitunk egy NCR-t a vonatkozó specifikációrevízióhoz.'
+    - step: '02'
+      title: 'A szivárgás szisztematikus diagnosztikája'
+      desc: 'A deszkát a projektre jóváhagyott diagnosztikai nyomásra fújjuk, és a szivárgás forrását jóváhagyott módszerrel lokalizáljuk — nyomástartás, kalibrált buborékpróba, akusztikus berendezés vagy szivárgáskereső műszer. A gyanús helyzet megjelölése a deszka károsítása nélkül történik.'
+    - step: '03'
+      title: 'Mérnöki intézkedés és engedélyezés'
+      desc: 'A minőség-ellenőrzés megerősíti a hiba kategóriáját, a Mérnökség pedig megvizsgálja, hogy a deszka visszaállítható-e az eredeti specifikációjához. Az NCR-re hivatkozó javítási engedély rögzíti a jóváhagyott módszert, az anyagokat, a feltételeket és az újraellenőrzés hatóterét — vagy a cserét, az elutasítást, a hulladékot vagy az ügyfél által adott kereskedelmi engedményt rendeli ki.'
+    - step: '04'
+      title: 'Az ellenőrzött javítás végrehajtása'
+      desc: 'A javítást kizárólag a jóváhagyott hiba hatóterén belül, a módszerlap, az anyaglot és a jóváhagyott szerszámok használatával hajtjuk végre. A deszka méretei, a felépítés, a grafika, a tartozékkonfiguráció és a csomagolási követelmények soha nem módosulnak.'
+    - step: '05'
+      title: 'Megszilárdulás és előzetes ellenőrzés'
+      desc: 'A javított deszka a jóváhagyott anyag és folyamatutasítás által meghatározott megszilárdulási és stabilizációs időszak alatt HOLD állapotban marad, majd az újraellenőrzés előtt vizuális és kivitelezési előzetes ellenőrzést kap.'
+    - step: '06'
+      title: 'Újraellenőrzés és próbavizsgálat'
+      desc: 'A deszkát a projektre jóváhagyott újraellenőrzési nyomásra fújjuk, és újraellenőrizzük az eredeti hibát valamint valamennyi potenciálisan érintett jellemzőt: a szivárgás helyét és a környező területet, a szelepet, a síneket, a varratokat, a nagy igénybevételi zónákat, a tartozékokat és a megjelenést. A javítás soha nem csökkenti az elfogadási szintet.'
+    - step: '07'
+      title: 'QA-engedélyezés vagy végleges intézkedés'
+      desc: 'A minőség-ellenőrzés áttekinti a lezárt NCR-t, a javítási nyilvántartást és az újraellenőrzés eredményét, majd engedélyezi az átadást — vagy a cserére, elutasításra, hulladékra, illetve az ügyfél által adott kereskedelmi engedményre eszkalálja. Javított deszkát a minőségi engedélyezés nélkül nem csomagolunk és nem szállítunk.'
+
+quality_safeguards:
+  tagline: Minőségvédelmi intézkedések
+  title: Hibamegelőzési szabályok, amelyek védik az Ön márkáját
+  subtitle: 'Szigorú ellenőrzések, amelyek megelőzik az ellenőrizetlen javítási hurkokat — egy dokumentált javítás hibánként, lotszintű riasztási küszöbök, kalibrált műszerek és ellenőrzött vizsgálati körülmények.'
+  features:
+    - icon: 1
+      icon_bg: blue
+      title: Egy javítás hibánként
+      desc: 'Egyetlen helyszín csak egyszer javítható, engedélyezett utasítás szerint. Ha az újraellenőrzés továbbra is sikertelen, a deszkát eszkaláljuk cserére, elutasításra, hulladékra vagy az ügyfél által adott kereskedelmi engedményre — a dokumentált jóváhagyás nélküli ismételt javítások nem engedélyezettek.'
+    - icon: 2
+      icon_bg: green
+      title: Lotalriasztás és gyártásleállás
+      desc: 'Ha a gyártási lotban a nem megfelelőség meghaladja a Mérnökség által megállapított küszöböt, a gyártósort leállítjuk, és a Mérnökség kivizsgálja az okot — az anyaglottagot, a folyamatkörülményeket és a nyilvántartásokat —, mielőtt a gyártás folytatódna.'
+    - icon: 3
+      icon_bg: purple
+      title: Kalibrált műszerezettség
+      desc: 'A légtömörségi vizsgálathoz használt nyomásmérők, digitális nyomásmérők és időmérők érvényességi idejükön belül külső laboratóriumok által ellenőrzöttek és kalibráltak, és a kalibrálás állapota látható az ellenőrzőterületen.'
+    - icon: 4
+      icon_bg: orange
+      title: Ellenőrzött vizsgálati körülmények
+      desc: 'A légtömörségi vizsgálóterületet és a megszilárdulási területet ellenőrzött környezetben tartjuk, hogy az eredményeket ne befolyásolják a nappali és éjszakai hőmérséklet-változások.'
+
+rework_boundaries:
+  tagline: 'Hatály és korlátok'
+  title: 'Amire ez a rendszer nem terjed ki'
+  body: |
+    A javítás-ellenőrzési rendszer a befejezett vagy folyamatban lévő felfújható SUP deszkákra alkalmazandó, amelyeket a szállítási engedélyezés előtt levegőszivárgással, nyomástartási hibával vagy a légtömörségi rendszer kapcsolódó hibáival azonosítottunk. Nem engedélyezi a felépítés, az anyagok, a grafika, a termékkonfiguráció vagy az ügyfél által jóváhagyott követelmények módosítását, és nem terjed ki az alábbiakra:
+
+    - A már szállított vagy az ügyfelek csatornáiban lévő termékekre.
+    - A szerkezeti károsodásra vagy a deszka olyan deformációjára, amelyet a Mérnökség nem értékelt ki.
+    - A sínek vagy a varratok kiterjedt hibáira, a maganyag károsodására vagy a biztonságot befolyásoló hibákra.
+    - Azokra a projektekre, ahol a javítás nem engedélyezett: az ügyfél által jóváhagyott minták, tanúsítási vagy vizsgálati egységek.
+    - Azokra a projektekre, amelyekben az ügyfél saját folyamatai, speciális anyagai vagy speciális javítási követelményei érvényesek.
+    - Azokra a visszatérő szivárgásokra, amelyek nem lokalizálhatók, vagy azokra a deszkákra, amelyek a javítás után ismét elbuknak.
+
+    Az ügyfél specifikációitól való bármely eltéréshez dokumentált mérnöki elemzés és – ahol szükséges – az ügyfél írásbeli jóváhagyása szükséges. Azok a deszkák, amelyek nem állíthatók vissza az eredeti specifikációjukra, csak az ügyfél kifejezett engedményével adhatók át — soha nem pusztán a gyártó döntésére.
+
+method_cards:
+  tagline: 'A módszerlapok rendszere'
+  title: 'Az ellenőrzött javítás módszerlapjainak jegyzéke'
+  subtitle: 'Az általános utasítás a folyamatot szabályozza; a módszerlapok a műveletet. A javítási utasítás (WI-QC-AT-001) a MC-RW-01-től MC-RW-06-ig tartozó módszerlapokra hivatkozik, továbbá az MC-RW-00 lapra, amely a kötelező hulladékként kezelést és elutasítást szabja meg.'
+  headers:
+    code: Módszerlap
+    defect: Hibaosztály
+    scope: Hatály
+    controls: Kulcsfontosságú mérnöki ellenőrzések
+    approval: Aláírási jogkör
+  rows:
+    - code: MC-RW-01
+      defect: A osztály (a szelep illesztési felülete)
+      scope: 'A szelep magjának szervizelése, a tömítés tisztítása és újbóli összeszerelése'
+      controls: 'Kalibrált nyomatékkulcs, tiszta tömítőfelület, a szelepmenetek károsítása nélkül'
+      approval: 'QC-ellenőr'
+    - code: MC-RW-02
+      defect: B osztály (a szelep kerülete)
+      scope: 'A szelep alatti karima tömítése és ellenőrzött meghúzása'
+      controls: 'Ellenőrzött felület-előkészítés, jóváhagyott ragasztóanyag, kör alakú sajtóeszköz'
+      approval: 'QC + Mérnökség'
+    - code: MC-RW-03
+      defect: C osztály (felületi mikroszivárgás)
+      scope: 'A nem szerkezeti perforációk tömítése'
+      controls: 'Jóváhagyott kétkomponensű ragasztó, szivárgás nélkül a grafikán és az EVA-n'
+      approval: 'QC + Mérnökség'
+    - code: MC-RW-04
+      defect: D osztály (a sín helyi varrata)
+      scope: 'A sín helyi átfedő varratának újraragasztása'
+      controls: 'Ellenőrzött hőaktiválás, sajtóhenger, hullámzásgátló eszköz'
+      approval: 'Mérnökség + QA-vezető'
+    - code: MC-RW-05
+      defect: B/C osztály (a tartozék széle)
+      scope: 'Az uszonydoboz toldójának és a tartozék szerelőalapjának tömítése'
+      controls: 'Felületi tapadássegítő, profilos sajtóblokk, meghatározott megtartási idő'
+      approval: 'QC + Mérnökség'
+    - code: MC-RW-06
+      defect: D osztály (orr/farok varrat)
+      scope: 'Beavatkozás a nagy igénybevételű görbületi varratokon'
+      controls: 'Nagy nyíróigénybevételhez jóváhagyott ragasztóanyag, meghosszabbított megszilárdulási idő az újratesztelés előtt'
+      approval: 'Főmérnök'
+    - code: MC-RW-00
+      defect: E/F/G osztály (kritikus / törés)
+      scope: 'Kötelező hulladékkezelés és fizikai megsemmisítés'
+      controls: 'Fizikai darabolás a keveredés megelőzése érdekében, hulladék-nyilvántartás, több osztály együttes gyökérok-elemzése'
+      approval: 'Üzemvezető'
+
+inspector_friendly:
+  tagline: 'Harmadik fél általi ellenőrzés'
+  title: 'Ellenőrbarát protokoll'
+  body: |
+    Külön ellenőrzőterületet kínálunk kalibrált nyomásmérőkkel, a varratok és a grafika ellenőrzésére szabványosított fényasztalokkal, valamint előkitöltött ellenőrzési utasításokkal, hogy a harmadik fél ügynökségei (SGS, BV, Intertek, QIMA) hatékonyan el tudják végezni a szállítás előtti ellenőrzést — így Ön időt takarít meg az ellenőrzésen.
+
+    Minden utasítás összefoglalja az adott megrendelésre vonatkozó dokumentumrevíziókat, a jóváhagyott minta hivatkozását, a minőségi kritikus ellenőrzéseket, az egyeztetett mintavételi szintet, a funkcionális vizsgálatokat, valamint a csomagolási és vonalkód-követelményeket. A megadott mennyiségeket, a minőséget, a csomagolást és az alapvető biztonsági elemeket a projekt jóváhagyott hivatkozásaihoz hasonlítva ellenőrizzük — nincs utolsó pillanatbeli dokumentumkeresés a helyszínen.
+
+document_pack:
+  tagline: A minőségi dokumentációs csomag
+  title: 'Töltse le a mintaminőségi csomagot és a protokollsablonokat'
+  subtitle: 'OEM/ODM projektekhez használt szabványos, ellenőrzött sablonok — a 00–15 dokumentumjegyzék szerkezetében (projektindex, jóváhagyott specifikáció, BOM, grafikai és csomagolási hivatkozások, QIP, ellenőrzési nyilvántartások, NCR, változáskezelés, harmadik fél részére szóló utasítás, engedélyezési összefoglaló).'
+  features:
+    - icon: P
+      icon_bg: blue
+      title: 'A minőségi dokumentációs csomag (PDF)'
+      desc: 'A teljes, ellenőrzött 00–15 dokumentumszerkezet: projektindex, specifikáció, BOM, grafikai és csomagolási hivatkozások, Minőségellenőrzési terv (QIP), ellenőrzési nyilvántartások, NCR, változáskezelés, harmadik fél részére szóló utasítás és szállítás előtti engedélyezési összefoglaló.'
+      link: 'https://assets.isupfactory.com/site/downloads/Qingdao_Vatrad_Group_SUP_Quality_Documentation_Pack.pdf?dl=1'
+      link_label: PDF letöltése
+    - icon: T
+      icon_bg: green
+      title: 'Harmadik fél részére szóló ellenőrzési utasítás (PDF)'
+      desc: 'Egyoldalas utasítás az SGS / BV / Intertek / QIMA ellenőrök számára: a megrendelés mennyisége, az AQL mintavételi szint, a vonatkozó revíziók és a minőségi kritikus ellenőrzések, beleértve a légtömörségi nyilvántartás ellenőrzését, a nyomástartási vizsgálatot, a készlet teljességét, a vonalkódolvasást és a doboz ejtésvizsgálatát.'
+      link: 'https://assets.isupfactory.com/site/downloads/Third_Party_Inspection_Brief_Template.pdf?dl=1'
+      link_label: PDF letöltése
+    - icon: C
+      icon_bg: purple
+      title: 'Változáskezelési protokoll (PDF)'
+      desc: 'A grafikára, az ügyfél által jóváhagyott BOM-ra és a dobozjelölés revízióira kiterjedő változáskezelési napló — a változás összefoglalójával, az indoklással, a hatásértékeléssel, az ügyfél-jóváhagyás állapotával, az érintett lottal és az elavult dokumentumok visszavonásával.'
+      link: 'https://assets.isupfactory.com/site/downloads/Change_Control_Protocol_Bilingual.pdf?dl=1'
+      link_label: PDF letöltése
+    - icon: R
+      icon_bg: orange
+      title: 'Szállítás előtti engedélyezési összefoglaló (PDF)'
+      desc: 'Egyoldalas engedélyezési aláírás: a minőségi kapuk ellenőrzése (IQC, IPQC, légtömörség, végső ellenőrzés, csomagolás), a nyitott NCR-ek állapota és az engedélyezett átadási döntés, a minőség és az üzemvezetés aláírásával.'
+      link: 'https://assets.isupfactory.com/site/downloads/Pre_Shipment_Release_Summary_Bilingual.pdf?dl=1'
+      link_label: PDF letöltése
+    - icon: W
+      icon_bg: blue
+      title: 'Légtömörségi javítási utasítás (PDF)'
+      desc: 'Ellenőrzött munkautasítás WI-QC-AT-001 Rev A: hatály és korlátok, a hibák osztályozása, az NCR és a javítás engedélyezése, az ellenőrzött végrehajtás, a megszilárdulás, az újraellenőrzés és az engedélyezés a felfújható SUP deszkáknál.'
+      link: 'https://assets.isupfactory.com/site/downloads/air-tightness-rework-instruction-wi-qc-at-001.pdf?dl=1'
+      link_label: PDF letöltése
+    - icon: M
+      icon_bg: green
+      title: 'A módszerlapok jegyzéke (PDF)'
+      desc: 'Ellenőrzött dokumentum SOP-QC-AT-IDX-001 Rev A: a számozott MC-RW-01-től MC-RW-06-ig tartozó módszerlap-rendszer, továbbá az MC-RW-00 lap a hulladék és az elutasítás számára, a légtömörségi javítási utasításhoz kapcsolódva.'
+      link: 'https://assets.isupfactory.com/site/downloads/method-card-index-sop-qc-at-idx-001.pdf?dl=1'
+      link_label: PDF letöltése
+    - icon: V
+      icon_bg: orange
+      title: 'Javítási változáskezelési szabvány (oldal)'
+      desc: 'Az ISO 9001 szerinti formális változáskezelés a javítási paraméterekhez: ECR, kockázat szerinti osztályozás, a különböző osztályok jóváhagyási mátrixa, a 9 lépéses zárt hurok, a kvantifikált mérnöki validálás és a Poka-Yoke intézkedések — kétnyelvű SOP-pel, QMS-SOP-QC-CC-001 Rev 2.0.'
+      link: /hu/factory/quality-change-control
+      link_label: Oldal megtekintése
+    - icon: N
+      icon_bg: blue
+      title: 'Nem megfelelő termékek felügyelete (oldal)'
+      desc: 'A nem megfelelő kimenetek felügyelete az ISO 9001:2015 8.7 fejezete szerint: az NCR nyilvántartása, a karantén, a súlyosság szerinti intézkedési jogkör, az SRI szerinti ellenőrzött javítás, a független újraellenőrzés és a SHA-256 segítségével archivált, segédletekkel kísért megsemmisítés — kétnyelvű SOP-letöltésekkel és hulladékbizonyítvánnyal.'
+      link: /hu/factory/non-conforming-control
+      link_label: Oldal megtekintése
+
+faqs:
+  tagline: GYIK
+  title: 'Gyakori kérdések a SUP deszkák minőségellenőrzéséről'
+  items:
+    - q: 'Hogyan ellenőrzi a QINGDAO VATRAD GROUP.,LTD. a felfújható SUP deszkák minőségét?'
+      a: 'A minőséget a beérkező anyagok ellenőrzése, a gyártási folyamatban szereplő ellenőrzési pontok, a végtermék-ellenőrzés, a csomagolás vizsgálata és a gyártás követhetősége biztosítja — mindegyik a projektre jóváhagyott mintákhoz, specifikációkhoz és ellenőrzési kritériumokhoz igazítva.'
+    - q: 'Milyen minőségi ellenőrzésekre kerül sor a SUP deszkák gyártása során?'
+      a: 'Az ellenőrzések között szerepel az anyagok ellenőrzése, a vágási és nyomtatási ellenőrzések, a deszka felépítésének vizsgálata, a szelepek szerelésének ellenőrzése, a tartozékok vizsgálata, a légtömörségi vizsgálat, a megjelenési ellenőrzés és a csomagolás ellenőrzése.'
+    - q: 'Kérhetnek-e az OEM ügyfelek a SUP deszkák ellenőrzési nyilvántartásait?'
+      a: 'Igen. Az ellenőrzési nyilvántartások és a minőségi dokumentáció a projekt követelményei és az ügyfél minőségi megállapodásai alapján rendelkezésre bocsátható, beleértve a szállítás előtti mintavizsgálati jelentéseket.'
+    - q: 'Hogyan biztosítja a gyár az OEM-gyártás következetességét?'
+      a: 'A gyártás következetességét a jóváhagyott minták, a műszaki specifikációk, a gyártási ellenőrzési pontok, az ellenőrzési eljárások és az egyes megrendelésekhez kapcsolódó dokumentált minőségbiztosítási folyamatok tartják fenn.'
+    - q: 'Időzíthetek-e ellenőrzést az SGS, BV, Intertek vagy QIMA közreműködésével?'
+      a: 'Igen. Fogadjuk a harmadik fél ellenőreit külön ellenőrzőterülettel, kalibrált nyomásmérőkkel, előkitöltött ellenőrzési utasításokkal és hozzáférhető nyilvántartásokkal. Küldje el a specifikációját, a jóváhagyott mintát, a grafikát, a csomagolási elvárásokat és a hibakritériumokat — vagy használja a harmadik fél részére szóló ellenőrzési utasításunk sablonját.'
+    - q: 'Hogyan kezeljük a gyártás során a grafika, a BOM vagy a csomagolás módosításait?'
+      a: 'A módosításokat a változáskezelési naplónkban rögzítjük, az érintett dokumentumrevízióval, a változás összefoglalójával, az indoklással, a hatásértékeléssel, az ügyfél-jóváhagyás állapotával és az érintett lottal együtt. Az elavult verziókat visszavonjuk, így a gyártás és az ellenőrzés mindig az aktuális jóváhagyott dokumentumokat használja.'
+    - q: 'Támogatja a gyár az egyedi felfújható SUP deszka projekteket?'
+      a: 'Igen. Az egyedi felfújható SUP deszka OEM/ODM projekteket az ügyfél specifikációi, a grafikai elvárások, a tartozékkonfigurációk és a csomagolási igények alapján támogatjuk, a gyártás előtt egyeztetett, projektspecifikus ellenőrzési kritériumokkal.'
+    - q: 'Javítható-e a gyárban egy szivárgó SUP deszka?'
+      a: 'Igen — ellenőrzött körülmények között. A deszkát HOLD állapotba helyezzük és NCR-hez kötjük, a szivárgást jóváhagyott diagnosztikai módszerrel lokalizáljuk, és a javítás csak a QC/Mérnökség engedélyezése után, kizárólag a javításra jóváhagyott hibaosztályokon belül folytatódik. Ezután a deszkát ugyanazoknak az elfogadási kritériumoknak megfelelően újraellenőrizzük, mint egy megfelelő deszkát, az engedélyezés előtt.'
+    - q: 'Hányszor javíthat a gyár egy deszkát?'
+      a: 'Egyetlen helyszín csak egyszer javítható, engedélyezett utasítás szerint. Ha az újraellenőrzés továbbra is sikertelen, a deszkát eszkaláljuk cserére, elutasításra, hulladékra vagy az ügyfél által adott kereskedelmi engedményre — a dokumentált jóváhagyás nélküli ismételt javítások nem engedélyezettek.'
+
+cta:
+  title: 'A teljes mintaminőségi csomagra van szüksége a projektjéhez?'
+  desc: 'Kérjen anonimizált csomagot a harmadik fél általi ellenőrzéshez, valamint Minőségellenőrzési tervet (QIP) az OEM/ODM projektjéhez — vagy töltse le a minta sablonokat, hogy áttekintse azt a dokumentációs szerkezetet, amelyet az Ön megrendeléséhez várhat.'
+  actions:
+    - text: Kérjen minőségi értékelést
+      variant: primary
+      href: /hu/contact
+    - text: Töltse le a mintaminőségi csomagot (PDF)
+      href: 'https://assets.isupfactory.com/content/downloads/Qingdao_Vatrad_Group_SUP_Quality_Documentation_Pack.pdf?dl=1'
+    - text: Töltse le a QC-protokoll és a PSI ellenőrzőlistát
+      href: 'https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_Quality_Inspection_Standards.pdf?dl=1'

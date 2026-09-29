@@ -1,0 +1,170 @@
+meta:
+  title: 'SUP MOQ útmutató: rugalmas márkázás és minimális megrendelési mennyiségek'
+  description: 'Hogyan számítják ki a MOQ-t a felfújható SUP-khez: egy 150 m-es drop-stitch tekercs 90–100 deszkát ad, a közös márkázás 5–10 darabtól indul, és átlátható formadíjakkal dolgozunk.'
+  dateModified: '2026-08-14'
+  keywords:
+    - 'moq sup'
+    - 'felfújható sup minimális megrendelési mennyiség'
+    - 'sup közös márkázás program'
+    - 'kis sup szállítmányok'
+    - 'testreszabott eveződeszka moq'
+    - 'oem sup gyár kína'
+
+hero:
+  tagline: 'Átlátható, projektspecifikus'
+  title: 'MOQ útmutató a rugalmas márkázáshoz és a gyártáshoz'
+  subtitle: 'Értse meg a drop-stitch alapanyagok fizikáját, amelyek meghatározzák a SUP gyártási szállítmányait – és hogyan működik a kis küszöbönkénti közös márkázási programunk a bérelők, klubok, üdülők és növekvő vizes sportmárkák számára. A Qingdao Vatrad Group Co., Ltd. tervezte és üzemelteti.'
+
+answer:
+  label: 'Közvetlen válasz'
+  text: 'A MOQ nem minden esetre érvényes egyetlen szám. Minden MOQ-t a projekt konfigurációja erősít meg: a víztest formája és a szerszámok, a szín- és PVC-változatok, a grafika összetettsége, a csomagolás és a tartozékok kombinációja. A teljesen egyedi térfogatú gyártás 90–100 darab szállítmányonként, egy 150 m-es standard drop-stitch szövettekercsből; a kis szállítmányú közös márkázás 5–10 darabtól indul; és minden projekt három külön szakaszra bonlik – minta fejlesztése (1–2 darab), pilóta megrendelés (20–50 darab) és térfogatú gyártás (90–100+ darab). Az ajánlat előtt megerősítjük az Ön SKU-kombinációjára vonatkozó pontos számítást – „kis MOQ” ígérete és rejtett kompromisszum nélkül.'
+  verified: '2026. szeptember'
+
+moq_principle:
+  tagline: A mérnöki logika
+  title: 'Miért 90–100 darab a standard térfogatú MOQ: az anyagtekercs fizikája'
+  subtitle: 'A gyártási szállítmányok méretei nem egy értékesítési osztály által kitalált számok – a drop-stitch szövettekercsek hossza és a soron végzett átállás fizikája határozza meg őket.'
+  body: |
+    **A 150 méteres nyersszövet alapja.** A nagy szilárdságú, szövött drop-stitch szövetet folytonos master tekercseken gyártjuk és bevonjuk. Egy szállítmányhoz tartozó ipari tekercs standard hossza 150 méter folytonos anyag.
+
+    **A hozam számítása (90–100 deszka).** Szabványos SUP touring vagy all-around víztesthez (10 ft 6 in és 11 ft 6 in között) egy teljes 150 m-es master tekercs körülbelül 90–100 kész eveződeszkát ad.
+
+    **A nulla szövetvarrási politika.** A teljes szövettekercsek teljes szerkezeti folytonosságot biztosítanak – nincs nagy kockázatú keresztirányú szövetvarrás, és a szálfeszültség egyenletes a deszka felső és alsó felületén.
+
+    **Hő- és ragasztókalibrálás.** A nagyfrekvenciás, légmelegített automatikus hegesztősorok és a hajózási ragasztós laminálósor 2 órás előmelegítést, hőmérséklet-profilozást és nyomáskalibrálást igényelnek. Egy teljes, 90–100 darabos szállítmány amortizálja ezeket a fix előkészítési költségeket, és biztosítja a lehető legkisebb egységköltséget.
+
+moq_tiers:
+  tagline: Két út az Ön márkájához
+  title: 'Teljesen egyedi OEM tömeggyártás és kis szállítmányú közös márkázás'
+  subtitle: 'Egy gyár, két belépési pont: teljesen testreszabott tömeggyártás a kiforrott sorokhoz, és kis küszöbönkénti közös márkázási program a klubok, bérelőközpontok és növekvő márkák számára.'
+  features:
+    - icon: P
+      icon_bg: blue
+      title: 'Teljesen egyedi OEM tömeggyártás – 90–100 darab szállítmányonként'
+      desc: 'A kiváló minőségű drop-stitch szövettekercs 150 m-es standard hossza határozza meg, az optimális anyagkihasználás és a szerkezeti állandóság biztosítása érdekében. · 100%-os testreszabás: kizárólagos víztestforma és testreszabott Pantone színváltozatok · A teljes felület lefedése digitális vagy szitámlás nyomtatással · Testreszabott kiskereskedelmi csomagolás, nyomtatott dobozok és márkázott tartozékok · Maximális költséghatékonyság és méretgazdaságosság'
+      link: '/hu/contact#custom-oem'
+      link_label: 'Kérjen tájékoztatást a tömeggyártási OEM-ről'
+    - icon: B
+      icon_bg: green
+      title: 'Kis szállítmányú közös márkázás – 20 darab alatt'
+      desc: 'Kis küszöbönkénti megoldás, amely a gyakorlatban tesztelt termékkollekcióinkra épül, klubok, bérelőközpontok és üdülők számára – nehéz készlet nélkül. · Fix ház és geometria: gyakorlatban tesztelt víztestformák CE / ISO 25649 megfeleléssel · Elsődleges azonosító: a hivatalos iSupfactory márkázás a középső részen · Testreszabott másodlagos márkázás: az Ön logója a bordán vagy az oldalsó színeken · Teljes, 24 órás nyomás- és tömörségi tesztelés a szállítmány 100%-ára'
+      link: '/hu/contact#cobranding'
+      link_label: 'Indítsa el a kis szállítmányú közös márkázást'
+
+moq_fees:
+  tagline: 'Átlátható szitámlásos nyomtatási díjak'
+  title: 'A közös márkázás díjszerkezete – részletek a kezdetektől'
+  subtitle: 'Tiszta, részletes árak a kis szállítmányú szitámlásos nyomtatáshoz. A formadíjat csak egyszer számítjuk fel az első beállításnál, és elengedjük azoknál az ismétlődő megrendeléseknél, amelyek ugyanazt a grafikai méretet használják.'
+  headers:
+    fee: Díjtétel
+    amount: Összeg
+    detail: Részletek
+  rows:
+    - fee: 'Szitámlásos nyomtatási forma díja (egyszeri, logó 30 cm-ig)'
+      amount: '$10.00 USD'
+      detail: 'Egyszer számítjuk fel az első beállításnál; elengedjük az ugyanakkora grafikai méretet használó ismétlődő megrendeléseknél.'
+    - fee: 'Szitámlásos nyomtatási forma díja (egyszeri, logó 50 cm-ig)'
+      amount: '$15.00 USD'
+      detail: 'Egyszer számítjuk fel az első beállításnál; elengedjük az ugyanakkora grafikai méretet használó ismétlődő megrendeléseknél.'
+    - fee: 'Gyári kezelési és pontossági nyomtatási díj'
+      amount: 'Deszkánként $1.00 USD'
+      detail: 'A koordináták kézi beállítását, az oldószeres előkezelést, a tinta átadását és a hőkezelést fedezi.'
+
+moq_stages:
+  tagline: Minta · Pilóta · Térfogat
+  title: 'Három külön mennyiségi szakasz'
+  subtitle: 'A minta, a pilóta és a térfogatú gyártás mennyiségei eltérnek. Minden projekt az egyik három külön szintre kerül, hogy a kötelezettségvállalás előtt validálhasson.'
+  steps:
+    - step: '01'
+      title: 'Minta fejlesztése (1–2 darab)'
+      desc: 'A víztest merevségének, az EVA csúszásgátló fedelem textúrájának, a grafika pontosságának és a tartozékok szerelésének fizikai megerősítése, bármilyen pénzügyi kötelezettségvállalás előtt. A mintadíjak felszólnak, amelyek a szerződés aláírásakor jóváíródnak a gyártási megrendelésen.'
+    - step: '02'
+      title: 'Pilóta megrendelés (20–50 darab)'
+      desc: 'Kereskedelmi próba a szezon előtt és a regionális piac validálása, meglévő víztest-platformok, raktáron lévő anyagok és egyszerűsített csomagolás használatával, az átállási súrlódás minimalizálása érdekében.'
+    - step: '03'
+      title: 'Térfogatú gyártás (90–100+ darab)'
+      desc: 'Az anyaglista, a grafika, a testreszabott csomagolás és a kiszállítási terv rögzítése után erősítjük meg – teljes 150 m-es szövettekercsek, testreszabott Pantone szövetek, dedikált csomagolás, térfogati kedvezmények és a szállítmányok nyomon követhetősége a teljes láncon.'
+
+moq_factors:
+  tagline: 'Mi határozza meg az Ön MOQ-ját'
+  title: 'Miért mindig projektspecifikus a teljesen egyedi MOQ'
+  subtitle: '100%-os egyedi gyártásnál a MOQ a termék teljes architektúrájából számítható – ezt a négy összetevőt együtt értékeljük ki az ajánlat előtt.'
+  headers:
+    component: Projektösszetevő
+    driver: Gyártási tényező
+    impact: Hatás a minimális mennyiségre
+  rows:
+    - component: 'A víztest formája és a szerszámok'
+      driver: 'A gyárban meglévő rocker-formák egyedi CAD vágósablonokhoz és EVA melegsajtó szerszámokhoz képest'
+      impact: 'Meglévő platformok: pilótamegrendelések 20 darabtól. Dedikált víztestek: az adott szerszámok amortizációja szükséges.'
+    - component: 'A színváltozatok és a PVC'
+      driver: 'Egységes, raktáron lévő standard színek saját festett Pantone PVC lapokhoz képest'
+      impact: 'A testreszabott Pantone PVC külön, saját vegyi festési futásokat igényel, alapanyagonként független MOQ-val.'
+    - component: 'A márkás csomagolás'
+      driver: 'Általános, vonalkódos címkés dobozok egyeb mellett 5 rétegű kartonos, teljes színű nyomtatású retail ajándékdobozokhoz és márkázott kézikönyvekhez képest'
+      impact: 'A testreszabott színes dobozoknak van egy, az ofszetnyomó géptől független minimumuk (általában 500+ doboz).'
+    - component: 'A tartozékcsomagok'
+      driver: 'Szabványos alumínium vagy nylon evezők egyedi kiegészített karbon evezőkhöz és márkázott pumpákhoz képest'
+      impact: 'A teljesen egyedi tartozékok a beszállítók alszállítási szállítmányait követik.'
+
+moq_downloads:
+  tagline: Hivatalos dokumentumok
+  title: 'Kétnyelvű szabályzatok – töltse le és terjessze'
+  subtitle: 'Hivatalos dokumentumok a Qingdao Vatrad Group Co., Ltd.-től, készen a vásárlói megkeresésekhez csatolásra. Mindkét fájl kétnyelvű (angol / kínai).'
+  features:
+    - icon: G
+      icon_bg: blue
+      title: 'Rugalmas márkázási és MOQ útmutató (PDF)'
+      desc: 'Hivatalos B2B útmutató (I. rész, DOC-MOQ-EXP-2026-EN, 2026. augusztus 14-én kiadva): a 150 m-es drop-stitch tekercs hozama (90–100 deszka) mögötti mérnöki logika, az 5–10 darabos közös márkázási program, az átlátható szitámlásos nyomtatási díjak és a három gyártási szakasz.'
+      link: 'https://assets.isupfactory.com/site/downloads/flexible-branding-and-moq-guide.pdf'
+      link_label: 'Az útmutató letöltése (PDF)'
+    - icon: P
+      icon_bg: green
+      title: 'Rugalmas márkázási és közös márkázási szabályzat (PDF)'
+      desc: 'Hivatalos szabályzatdosszié (1. rész, POL-MOQ-2026-V1): a kis szállítmányú közös márkázás szabályai, a projektspecifikus MOQ-keretrendszer, a minimumokat meghatározó négy tényező, valamint az Értékesítési alelnök, a Főmérnök és a QA-igazgató közös aláírása.'
+      link: 'https://assets.isupfactory.com/site/downloads/flexible-branding-and-moq-policy.pdf'
+      link_label: 'A szabályzat letöltése (PDF)'
+
+moq_faqs:
+  tagline: GYIK
+  title: 'Gyakori kérdések a MOQ-ról'
+  items:
+    - q: 'A MOQ megrendelésenként, modellenként vagy színváltozatonként számítódik?'
+      a: 'A MOQ vonatkozhat modellre, színváltozatra, grafikai verzióra, csomagolási konfigurációra vagy a teljes megrendelésre. Mivel a különböző drop-stitch vastagságok (12 cm és 15 cm) és a különböző PVC színek eltérő alapanyagtekercsekből származnak, 5 színre bontott 50 deszkás megrendelés 5 külön szövettekercs-igényt teremt. Az ajánlat előtt megerősítjük a pontos számítást az Ön SKU-mátrixához, hogy a kombinációt egyértelműen megtervezhesse.'
+    - q: 'Rendelhetek mintát a tömeggyártás előtt?'
+      a: 'Igen. A minta fejlesztése (1–2 darab) ellenőrzi a víztest merevségét, az EVA csúszásgátló fedelem textúráját, a grafika pontosságát és a tartozékok szerelését, még a tömeggyártás engedélyezése előtt. A mintadíjak felszólnak, amelyek a szerződés aláírásakor jóváíródnak a gyártási megrendelésen.'
+    - q: 'Miért van a testreszabott retail csomagolásnak önálló MOQ-ja?'
+      a: 'A testreszabott dobozokra használt flexográfiai vagy ofszetnyomó gépekhez legalább 500+ darab minimális gyártás szükséges. Hibrid csomagolástár-megoldást kínálunk: legyártjuk a 500 testreszabott nyomtatású dobozt, a felesleget tiszta raktárunkban tároljuk, és az Ön ütemezett deszkaszállítmányai során adjuk ki – így egy kisebb megrendelés is teljesen testreszabott retail csomagolásban szállítható.'
+    - q: 'Miért 90–100 darab a standard térfogatú MOQ?'
+      a: 'A standard térfogatú MOQ az alapanyagot követi: egy 150 m-es, kiváló minőségű drop-stitch szövet master tekercse szabványos touring vagy all-around víztesthez körülbelül 90–100 kész deszkát ad. A teljes tekercsek használata megszünteti a szövetvarrásokat, egyenletesen tartja a szálfeszültséget, és amortizálja a hegesztő- és laminálósor 2 órás kalibrálását – biztosítva a lehető legkisebb egységköltséget.'
+    - q: 'A nagyobb mennyiség csökkenti a darabonkénti költséget?'
+      a: 'A legtöbb projektben igen. A nagyobb mennyiségek javítják az alapanyagok kihasználását, több deszkára osztják a gyártósor fix átállási költségeit, és csökkentik a darabonkénti csomagolási költségeket.'
+    - q: 'A közös márkázási formadíjak ismétlődő megrendeléseknél újra felszólnak?'
+      a: 'Nem. A szitámlásos nyomtatási formadíjat csak egyszer számítjuk fel az első beállításnál, és elengedjük az ugyanazt a grafikai méretet használó ismétlődő megrendeléseknél. Ön csak a gyári kezelési és $1.00 USD-os nyomtatási díjat fizeti deszkánként.'
+    - q: 'Kötelezettséget vállalok, ha MOQ tanácsadást kérek?'
+      a: 'Nem. A projekt MOQ tanácsadásának kérése lehetővé teszi a Qingdao Vatrad Group Co., Ltd. mérnöki csapatainak, hogy elemezzék az Ön műszaki lapját, és a legnyereségesebb gyártási utat ajánlják. Titoktartási megállapodás (NDA) rendelkezésre áll, mielőtt műszaki specifikációkat vagy bizalmas grafikát osztanánk meg.'
+
+evidence_review:
+  tagline: 'Bizonyítékok és ellenőrzés'
+  title: 'ELLENŐRZÖTT SPECIFIKÁCIÓK'
+  body: 'Ezen az oldalon szereplő valamennyi gyártási állítást a laixi (Qingdao) gyárunk Gyártómérnöki Csapata ellenőrizte. A tanúsítványok, a minőségellenőrzési jegyzőkönyvek, a nyomás- és szerkezeti tesztjelentések, valamint a szállítmány-nyomon követési nyilvántartások kérésre rendelkezésre állnak. A specifikációkat legutóbb 2026 szeptemberében ellenőriztük.'
+
+cta:
+  title: 'MOQ tanácsadásra van szüksége az Ön SUP projektjéhez?'
+  subtitle: 'Ossza meg a célzott deszkamodellt, az első megrendelés becsült tartományát és a márkázási igényeket. Megmutatjuk, hogy a minta-, pilóta- vagy térfogati út a legmegfelelőbb következő lépés. A megkeresés benyújtása nem kötelez végleges mennyiségre – titoktartási megállapodás is megbeszélhető.'
+  actions:
+    - variant: primary
+      text: Kérjen projekt MOQ tanácsadást
+      href: /hu/contact#moq-guide
+    - text: Az egyedi SUP MOQ-jának és határideinek részletei
+      href: /hu/sup-oem-moq-lead-time
+    - text: Indítson új márkát próbarendeléssel
+      href: /hu/new-brand-trial-order
+    - text: Ellenőrizze a gyárat és a minőségi rendszert
+      href: /hu/oem-trust-assurance
+    - text: A 7 lépéses ellenőrzési rendszer
+      href: /hu/quality
+    - text: Az OEM és ODM gyártás áttekintése
+      href: /hu/oem-manufacturing
+    - text: A SUP szerkezetek összehasonlítása
+      href: /hu/sup-construction-comparison

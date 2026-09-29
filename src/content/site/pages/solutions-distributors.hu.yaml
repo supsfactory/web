@@ -1,0 +1,135 @@
+meta:
+  title: 'Nagykereskedelmi és private label értékesítés közvetlenül a gyárból | {SITE}'
+  description: 'Private label programok és nagykereskedelmi közvetlenül a gyárból nagykereskedők és kiskereskedők számára: kizárólagos területek, white-label SUP deszka-gyártás és dedikált ügyfélkezelés.'
+  dateModified: '2026-09'
+
+hero:
+  tagline: Nagykereskedők és private label
+  title: 'Közvetlenül a gyárból induló programok nagykereskedők és márkák számára'
+  subtitle: 'Nagykereskedelmi és private label programok egy felfújható SUP deszkagyártó létesítményből. Vásároljon gyári árakon, építse a választékot saját márkájára, és szállítson 50-nél több ország kizárólagos területeire.'
+  image:
+    src: https://assets.isupfactory.com/images/sups/factory/isupfactory-factory-building.webp
+    alt: iSupfactory gyártási és feladási műveletei
+
+answer:
+  label: 'Közvetlen válasz'
+  text: 'A nagykereskedők és a márkák közvetlenül a gyárral dolgoznak: white-label SUP deszkák az Ön márkájában, gyári nagykereskedelmi árak, minden programhoz kizárólagos terület, 3–8 SKU az induláshoz és 45–60 napos fizetési határidők (mindegyik kereskedelmi megállapodás fenntartásával), a készlet 100%-a kiszállítás előtt nyomáspróbázva. Az indulási minimumok és a szállítási feltételek területenként közösen egyeztetendők, FOB Qingdao vagy CIF szállítással.'
+  verified: '2026. szeptember'
+
+intro:
+  tagline: A programról
+  title: Private label nagykereskedelem, gyártási kapacitásra építve
+  body: |
+    Az iSupfactory saját laixi (Qingdao) létesítményében tervez, épít és minőségileg ellenőriz minden SUP deszkát, kajakot és felfújható tartozékot. A velünk kötött private label megállapodás azt jelenti, hogy a beszerzési forrás márkaazonos: Ön a saját neve alatt gyártott deszkákat kap, nem valaki másnál átruházott készletet.
+
+    Mivel ügyfeleink prognózisai köré szervezzük a termelést, a northern féltekévszezonjának kezdetére nagy sorozatokat tudunk ütemezni, az előrendelésekkel stabilizálni a szállítási költségeket, és átlátható nagykereskedelmi feltételekkel, megegyezett fizetési határidőkkel felszabadítani a forgótőkét. A mérnökség, a minták, a minőségi ellenőrzés és az exportdokumentáció teljes egészében belső – a láncban nincs bróker vagy kereskedő köztes.
+
+    Ez a program a gyárral való együttműködés két módjának egyike. Ha saját nagykereskedelmi márkája van, és azt szeretné, hogy Önnek gyártsák, ez az oldal Önnek szól. Azok a turisztikai központok, képző központok és bérlőflották, amelyek közvetlenül a saját felhasználásukra vásárolnak, tekintse meg az OEM/ODM gyártási és flotta programjainkat.
+
+wholesale_pricing:
+  tagline: Miért érdemes csatlakozni
+  title: 'Mit kapnak a nagykereskedők'
+  subtitle: 'Minden, amire szüksége van ahhoz, hogy piacra vezesse márkás választékát saját piacán.'
+  intro: 'A nagykereskedelmi partnerek ugyanazt a gyári minőséget és ugyanazt a mérnöki mélységet kapják, mint OEM/ODM ügyfeleinknek, csak a nagykereskedelmi csatornához csomagolva, saját címkéjük alatt. A program feltételei – a terület kizárólagossága, a kezdő SKU-készlet és a fizetési feltételek – programonként a kereskedelmi megállapodásban rögzítésre kerülnek.'
+  stats:
+    - value: '50+'
+      label: 'Ország, amelybe szállítunk'
+    - value: '1'
+      label: 'Dedikált ügyfélmenedzser'
+    - value: '45–60'
+      label: 'Nap fizetési határidő'
+    - value: '120,000+'
+      label: 'Éves gyártási kapacitás deszkában'
+    - value: '3–8'
+      label: 'SKU a program indulásához'
+    - value: '100%'
+      label: 'Gyárban ellenőrizve kiszállítás előtt'
+
+steps:
+  tagline: Hogyan működik
+  title: 'Az út a jelentkezéstől az első konténerig'
+  subtitle: 'Egyértelmű, többlépéses folyamat, hogy márkaprogramját az első szezonban időben kiszállíthassuk.'
+  steps:
+    - step: 1
+      title: 'Küldje el a jelentkezést'
+      desc: 'Küldje el nagykereskedelmi érdeklődését a cégprofillal, a meglévő nagykereskedelmi forgalommal és a területtel együtt.'
+    - step: 2
+      title: 'Terület feltérképezése'
+      desc: 'Megerősítjük, mely országokat vagy régiókat fed le az Ön márkaprogramja, és hogy a terület kizárólagos-e.'
+    - step: 3
+      title: 'Vállaszték- és márkaterv'
+      desc: 'Válasszon alapmodelleket a gyártási katalógusból, rögzítse a specifikációkat, és véglegesítse a gyártáshoz szükséges márka grafikát.'
+    - step: 4
+      title: 'Minta és minőségjóváhagyás'
+      desc: 'Rendeljen tanúsító mintákat a minőség, a csomagolás és a drop-ship folyamat kezelésének teszteléséhez. A mintákat a tömeggyártás megkezdése előtt jóváhagadják.'
+    - step: 5
+      title: 'Szezonális utánpótlás'
+      desc: 'Az Ön ügyfélmenedzsserje a prognózisok és a szezon naptára alapján ütemezi a gyártást és az utánpótlást.'
+
+benefits:
+  title: Mit kapnak a nagykereskedők
+  subtitle: 'Minden, amire szüksége van ahhoz, hogy sikeres legyen a saját piacán.'
+  items:
+    - 'Private label az Ön márkájában (OEM white-label)'
+    - 'Kizárólagos területi jogok (a kereskedelmi megállapodás szerint)'
+    - 'Gyártási katalógus: SUP, tartozékok, pótalkatrészek'
+    - 'Versenyképes, közvetlenül a gyártótól származó árak'
+    - 'Marketing- és értékesítési anyagok (lefordítva)'
+    - 'Oktatási program (termék, értékesítés, karbantartás)'
+    - 'Kereskedelmi vásárok támogatása'
+    - 'Minta- és előgyártás-jóváhagyási program'
+    - 'Drop-ship képesség'
+    - 'Dedikált ügyfélmenedzser a nagykereskedők számára'
+    - '45-60 napos fizetési határidők (a kereskedelmi megállapodás fenntartásával)'
+
+coverage:
+  title: Jelenlegi lefedettség
+  subtitle: 'Az iSupfactory jelenleg közvetlenül ezekre a piacokra szállít.'
+  regions:
+    - name: Európa
+      countries: 'Franciaország, Németország, Egyesült Királyság, Spanyolország, Olaszország, Hollandia, Svédország, Norvégia, Lengyelország, Görögország'
+    - name: Ázsia
+      countries: 'Japán, Dél-Korea, Kína, Thaiföld, Szingapúr'
+    - name: Közel-Kelet
+      countries: 'Egyesült Arab Emírségek, Szaúd-Arábia'
+    - name: Amerikák
+      countries: 'USA, Kanada, Brazília, Mexikó'
+    - name: Óceánia
+      countries: 'Ausztrália, Új-Zéland'
+    - name: Afrika
+      countries: 'Dél-afrikai Köztársaság, Marokkó'
+
+faqs:
+  tagline: Gyakori kérdések nagykereskedőknek
+  title: 'A nagykereskedelmi program – gyakori kérdések'
+  items:
+    - q: 'Mi az új nagykereskedő minimális rendelési mennyisége?'
+      a: 'Az új nagykereskedelmi partnerek általában minta- és előgyártás-jóváhagyási rendeléssel indulnak, majd az első konténerrel, amelyet az adott szezonra ütemezünk. A pontos minimumok a terület méretétől és a választott választéktól függenek; ügyfélmenedzsserje a választék- és márkatervezési szakaszban erősíti meg az indulási mennyiséget.'
+    - q: 'Eladhatjuk a deszkákat saját márkanévvel?'
+      a: 'Igen. A private label itt az alapmodell: a deszkákat az Ön márkájában gyártjuk, az Ön grafikájával, csomagolásával és specifikációival. Az iSupfactory kizárólag saját ügyfelei számára gyárt, és egyetlen piacon sem versenyez velük.'
+    - q: 'Kizárólagosak a területek?'
+      a: 'Igen. A nagykereskedelmi programok kizárólagos területeken alapulnak – minden nagykereskedelmi partner egy meghatározott országot vagy régiót fed le, és arra a piacra vonatkozó árakat és programtámogatást kap, a kereskedelmi megállapodás rendelkezései szerint.'
+    - q: 'Kínálnak támogatást a drop-ship kiszállításhoz?'
+      a: 'A drop-ship képesség része a programnak. A minták, a csomagolás és a kezelés a minta-jóváhagyási szakaszban kerül validálásra, így a drop-ship rendeléseket már az elején problémamentesen teljesítjük.'
+    - q: 'Mely modelleket rendelhetünk?'
+      a: 'A gyártási katalógus felfújható SUP deszkákat tartalmaz all-around, túra és szörf formákkal, felfújható kajakokat, pumpákat, evezőket, mentőmellényeket és ápolási tartozékokat, valamint a mérnöki csapatunkkal közösen fejlesztett testreszabott formákat. A legtöbb partner a legjobban kelendő 4–8 SKU-val indul, majd a következő szezonokban bővít.'
+    - q: 'Hogyan adjuk fel a rendeléseket?'
+      a: 'A rendelések a gyárból ütemezett indulásokkal indulnak útnak, előrendelés lehetőséggel a szállítási költségek stabilizálására. Az Ön dedikált ügyfélmenedzsserje a prognózisok és a szezon naptára alapján tervezi a gyártást és a feladást.'
+    - q: 'Hogyan jelentkezhetek?'
+      a: 'Használja az ezen az oldalon található jelentkezési űrlapot, vagy lépjen közvetlenül kapcsolatba velünk. A jelentkezéseket a nagykereskedelmi csapatunk bírálja el, és néhány munkanapon belül válaszolunk a következő lépésekkel, beleértve a terület feltérképezését és a megállapodás tervezetét.'
+
+content_html: |
+  <div class="mx-auto max-w-3xl space-y-4 rounded-2xl border bg-card p-6 text-[14.5px] leading-relaxed text-fg-2">
+    <p><strong>Folytassa az olvasást:</strong> a nagykereskedelmi partnerek saját márkájukban, maguknak gyártott deszkákat adnak el – tekintse meg az <a href="/hu/oem-manufacturing">OEM/private-label gyártási programot</a> és a <a href="/hu/factory">gyári minőségi folyamatot</a>, hogy magabiztosan pozicionálhassa a terméket.</p>
+  </div>
+
+cta:
+  title: 'Készen áll a márkás választék piacra vezetésére?'
+  subtitle: 'Jelentkezzen a nagykereskedelmi programunkra, vagy fedezze fel a gyártási katalógust.'
+  actions:
+    - text: 'Jelentkezés a nagykereskedelmi programba'
+      href: '/hu/contact#distributor'
+      variant: 'primary'
+    - text: 'Fedezze fel a gyártási katalógust'
+      href: '/hu/products'
+      variant: 'secondary'

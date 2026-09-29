@@ -1,0 +1,69 @@
+meta:
+  title: 'Hogyan működik a CE-tanúsítás a felfújható SUP deszkáknál'
+  description: 'Hogyan működik a CE-tanúsítás a felfújható SUP-k, csónakok és kajakok esetén: irányelvek (2013/53/EU RCD, EPP 2016/425), vizsgálatok, bejelentett szervezetek és műszaki doszék.'
+  author: 'iSupfactory'
+  datePublished: '2026-08-04'
+  dateModified: '2026-08-07'
+back_text: 'Vissza a kutatáshoz'
+
+hero:
+  tagline: 'Megfelelőség'
+  title: 'Hogyan működik a CE-tanúsítás a felfújható SUP-knál és kajakoknál'
+  subtitle: '7 perc olvasás'
+
+answer:
+  label: 'Közvetlen válasz'
+  text: 'A felfújható SUP-k akkor tartoznak a 2013/53/EU európai szórakozóhajó-irányelv hatókörébe, amikor a test hossza meghaladja a 2.5 m-t, a kisebb csónakoknál pedig az általános termékbiztonsági irányelv hatálya alá esnek. A tanúsítás költsége körülbelül 13,000–31,000 EUR, és az első terméknél 8–14 hétig tart: műszaki doszék, bejelentett szervezet által végzett típusvizsgálat, gyáraudit, majd a Megfelelőségi nyilatkozat.'
+  verified: '2026. szeptember'
+
+content_html: |
+  <h2>Mi a CE-tanúsítás?</h2>
+  <p>A CE-jelölés (European Conformity, európai megfelelőség) azt jelzi, hogy egy termék megfelel az egészségügyi, biztonsági és környezetvédelmi európai követelményeknek. A felfújható csónakoknál az alkalmazandó szabályozási keret a termékkategóriától függ.</p>
+
+  <h2>Az alkalmazandó irányelvek</h2>
+
+  <h3>A szórakozóhajókra vonatkozó irányelv (2013/53/EU)</h3>
+  <p>A legtöbb csónak, SUP deszka és felfújható kajak fő irányelve. A 2.5 m és 24 m közötti testhosszúságú szórakozóhajókra, a részlegesen kész csónakokra (OEM szállításokhoz) és a személyes vízijárművekre vonatkozik.</p>
+
+  <h3>A személyi védőfelszerelésre vonatkozó rendelet (2016/425)</h3>
+  <p>A csónakokkal együtt szállított mentőmellényeknek, úszóeszközöknek és biztonsági felszerelésnek meg kell felelniük az EPI rendelet követelményeinek, beleértve a bejelentett szervezet által végzett típusvizsgálatot (B modul) és a gyártásminőség-garanciát (D vagy E modul).</p>
+
+  <h2>A tanúsítási folyamat</h2>
+  <ol>
+    <li>A termék besorolása: a csónak építési kategóriájának meghatározása (A – D az ISO 8666 szerint)</li>
+    <li>Alkalmazandó szabványok: EN ISO 6185 (1–4. rész), EN ISO 10087 (HIN), EN ISO 14945 (a gyártó táblája)</li>
+    <li>A műszaki doszék előkészítése: tervezési rajzok, alapanyaglista (BOM), alapanyag-tanúsítványok, kockázatértékelés</li>
+    <li>Típusvizsgálatok: légképesség, stabilitás, teherbírás, alapanyag-próbák, varratszilárdság, levegőmegőrzés</li>
+    <li>Gyártásellenőrzés a gyárban: a bejelentett szervezet által végzett audit a gyártási folyamatokra</li>
+    <li>A megfelelőségi nyilatkozat: a gyártó aláírja a DoC-t és felhelyezi a CE-jelölést</li>
+  </ol>
+
+  <h2>Bejelentett szervezetek a felfújható csónakokhoz</h2>
+  <p>A szokásos bejelentett szervezetek közé tartozik a Bureau Veritas (Franciaország), a DNV GL (Németország), a RINA (Olaszország), a TÜV Rheinland és a TÜV SÜD (Németország).</p>
+
+  <h2>Határidők és költségek</h2>
+  <table class="w-full text-sm border-collapse">
+    <thead>
+      <tr class="bg-gray-100">
+        <th class="p-3 text-left font-semibold text-gray-900 border">Szakasz</th>
+        <th class="p-3 text-left font-semibold text-gray-900 border">Időtartam</th>
+        <th class="p-3 text-left font-semibold text-gray-900 border">Szokásos költség (EUR)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td class="p-3 border">A műszaki doszék előkészítése</td><td class="p-3 border">2 – 4 hét</td><td class="p-3 border">2,000 – 5,000</td></tr>
+      <tr><td class="p-3 border">Típusvizsgálatok</td><td class="p-3 border">4 – 8 hét</td><td class="p-3 border">8,000 – 20,000</td></tr>
+      <tr><td class="p-3 border">Gyáraudit</td><td class="p-3 border">1 – 2 nap (helyszínen)</td><td class="p-3 border">3,000 – 6,000</td></tr>
+      <tr><td class="p-3 border">Összesen (első termék)</td><td class="p-3 border">8 – 14 hét</td><td class="p-3 border">13,000 – 31,000</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Mit jelent ez a vásárlók számára</h2>
+  <p>Amikor CE-tanúsított felfújható deszkát vásárol, mindig ellenőrizze, hogy a CE-jelölés szerepel-e a gyártói táblán, hogy van-e érvényes DoC, hogy a Bejelentett Szervezet száma feltüntetve van-e, és hogy a használati útmutató tartalmazza-e az Ön nyelvén a biztonsági előírásokat. A Vatrad minden terméke CE-tanúsítással és a bejelentett szervezetek auditjelentéseiig terjedő teljes nyomon követhetőséggel kerül kiszállításra.</p>
+  <p>A tanúsítás a qingdaói gyárunk minden gyártási szállítmányának része – tekintse meg a <a href="/hu/factory">gyár minőségi és vizsgálati folyamatát</a>, valamint azt, hogyan támogatjuk a <a href="/hu/oem-manufacturing">CE-megfelelőséget az OEM és private label partnerek</a> számára.</p>
+
+cta:
+  title: 'Segítséget kér a CE-tanúsításhoz?'
+  subtitle: 'A tanúsítás végrehajtását világszerte vállaljuk az OEM partnerek számára.'
+  button_text: 'Indítsa el a tanúsítási folyamatot'
+  button_link: /hu/contact

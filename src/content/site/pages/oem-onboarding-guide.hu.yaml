@@ -1,0 +1,125 @@
+meta:
+  title: 'Bevezetési útmutató OEM ügyfeleknek – lépésről lépésre az első megrendeléstől a gyártásig | iSupfactory'
+  description: 'OEM bevezetési útmutató: NDA, megvalósíthatósági elemzés, mintagyártás, jóváhagyás, előkészítő tervezés, gyártás közbeni minőségellenőrzés és feladás. Lépésről lépésre, határidőkkel.'
+  dateModified: '2026-08-20'
+  keywords:
+    - 'oem bevezetési útmutató'
+    - 'sup gyártási folyamat'
+    - 'oem vásárlói bevezetés'
+    - 'sup gyár folyamata'
+    - 'testreszabott sup megrendelés lépések'
+    - 'oem minta folyamat'
+    - 'sup gyártási határidő'
+
+hero:
+  tagline: 'Az OEM vásárló bevezetése'
+  title: 'Az Ön első SUP megrendelése, lépésről lépésre'
+  subtitle: 'Az első kapcsolatfelvételtől a kiszállított deszkákig az iSupfactory OEM bevezetési folyamata hét definiált kapun halad át – mindegyiken egyértelmű határidővel, dokumentált eredménnyel és egy döntési ponttal, ahol folytatja vagy megáll. Nem félreértések, nem rejtett lépések, meglepetések nélkül az előleg után.'
+  actions:
+    - variant: primary
+      text: Küldje el a projekt specifikációs lapját
+      href: /hu/contact#project-brief
+    - text: Hasonlítsa össze az OEM, ODM és Private Label utakat
+      href: /hu/oem-odm-private-label-comparison
+
+answer:
+  label: 'Közvetlen válasz'
+  text: 'Egy szokásos OEM bevezetés 2–4 hét a minták jóváhagyásához, és 6–8 hét az első gyártási szállítmányhoz a megerősített megrendeléstől számítva. Kezdje egy projekt specifikációs lap elküldésével (deszkaspecifikációk, térfogat, megfelelőségi igények). Egy munkanapon belül válaszolunk, NDA-t kínálunk a bizalmas részletek megosztása előtt, és 7–12 nap alatt legenerálunk 1–2 fizikai mintát az Ön értékelésére és jóváhagyására. A minta rögzítése után következik a gyártás megtervezése és a fabrikálás, minden szakaszban rögzített minőségellenőrzési kapukkal. Minden lépés dokumentált és nyomon követhető.'
+  verified: '2026. szeptember'
+
+process_steps:
+  tagline: A hét kapu
+  title: 'A bevezetési folyamat – hét kapu a specifikációs laptól a kiszállításig'
+  subtitle: 'Minden kapunak van egy definiált bemenete, egy definiált eredménye és egy határideje, amelyről előre egyeztetünk. Egyik kaput sem lépjük át explicit jóváhagyás nélkül.'
+  steps:
+    - step: '1. kapu'
+      title: 'Kezdeti megkeresés és NDA (0. nap)'
+      desc: 'Küldjön egy projekt specifikációs lapot a /hu/contact útvonalon a célzott deszkaspecifikációkkal, a megrendelés mennyiségével, a megfelelőségi igényekkel és a kívánt határidővel. Az NDA azonnal rendelkezésre áll – még bármilyen műszaki specifikáció vagy bizalmas grafika megosztása előtt. Egy munkanapon belül válaszolunk.'
+    - step: '2. kapu'
+      title: 'Megvalósíthatósági elemzés és ajánlat (1–5. nap)'
+      desc: 'A mérnökség az Ön specifikációs lapját a gyártási kapacitás, az alapanyagok elérhetősége és a megfelelőségi hatókör szempontjából elemzi. Részletes, tételenkénti ajánlatot kap MOQ-számítással, mintadíjakkal (később jóváírtakkal a gyártásban) és határidőszakaszokkal – nem egy becsült tartomány, hanem kapuról kapura haladó ütemterv.'
+    - step: '3. kapu'
+      title: 'Mintagyártás (6–17. nap)'
+      desc: '1–2 fizikai deszkát gyártunk az Ön specifikációi szerint: a víztest merevsége, az EVA csúszásgátló fedelem textúrája, a grafika pontossága, a tartozékok szerelése. Használja és értékelje a deszkát, mielőtt bármi másba belépne. A mintadíjak a szerződés aláírásakor jóváíródnak a gyártási megrendelésen.'
+    - step: '4. kapu'
+      title: 'Mintaelemzés és jóváhagyás (18–21. nap)'
+      desc: 'Értékelje a mintát az Ön specifikációihoz viszonyítva – az evezési minőséget, a grafika hűségét, a csomagolást, a tartozékokat. A módosításokat egy felülvizsgált anyaglista és a grafika elfogadási jegyzőkönyve rögzíti. A rögzített specifikáció válik gyártási referenciává valamennyi későbbi szállítmányhoz.'
+    - step: '5. kapu'
+      title: 'Előkészítő gyártástervezés (22–28. nap)'
+      desc: 'Alapanyag-beszerzés, szerszám-előkészítés, csomagolás-megerősítés és a gyártási kapacitás lefoglalása. Minden alapanyagot beérkezéskor ellenőrzünk a rögzített anyaglista szerint. A fabrikálás megkezdése előtt kiadjuk a gyártási ütemtervet a minőségellenőrzési kapuk dátumaival.'
+    - step: '6. kapu'
+      title: 'Gyártás és minőségellenőrzési kapuk (29–55. nap)'
+      desc: 'A fabrikálás végighalad a 7 lépéses ellenőrzési kapurendszeren: a beérkező anyagok ellenőrzése, a drop-stitch szövet vizsgálata, hegesztés és összeállítás, nyomás- és tömörségi tesztelés (18.0 PSI nyomástartás, automatikus elutasítás 0.50 PSI-nél nagyobb esésnél), az EVA fedelek és tartozékok szerelése, a grafika és a márkázás ellenőrzése, végső csomagolás és dokumentáció. Minden kapuhoz elfogadási vagy elutasítási kritériumok és nyomon követési nyilvántartások tartoznak.'
+    - step: '7. kapu'
+      title: 'Feladás és kiszállítás utáni elemzés (56–63. nap)'
+      desc: 'Exportminőségű csomagolás, megfelelőségi dokumentáció (CE, ISO 9001, BSCI, REACH, RoHS) és a tengeri szállítás koordinálása több mint 50 országba. A kiszállítás utáni elemzés rögzíti a következtetéseket és a fejlesztéseket a következő megrendelési ciklushoz.'
+
+collaboration_modes:
+  tagline: 'Válassza ki az utat'
+  title: 'Három együttműködési modell, egyetlen bevezetési folyamat'
+  subtitle: 'Minden új vásárló ugyanazon a hét kapus bevezetésen halad át – ami változik, az a mérnökség bevonásának mértéke és az, hol található a szellemi tulajdon birtoka.'
+  grid: 'sm:grid-cols-2 lg:grid-cols-3'
+  features:
+    - icon: O
+      icon_bg: blue
+      title: 'OEM gyártás'
+      desc: 'Ön adja a teljes tervezési specifikációt – a víztest formáját, a szerkezetet, a grafikát, a tartozékokat. Mi a specifikáció szerint gyártunk. A szellemi tulajdonjogok teljes egészében az Önéi. Ideális azoknak a márkáknak, amelyeknek már van terméksoruk és validált deszka geometriájuk.'
+      link_label: 'Hogyan működik az OEM'
+      href: /hu/oem-manufacturing
+    - icon: D
+      icon_bg: green
+      title: 'ODM fejlesztés'
+      desc: 'Ön adja a specifikációs lapot – a célzott sportoló súlyát, a felhasználási esetet, az árszintet – és mérnöki csapatunk az Ön igényeiből kiindulva fejleszti a deszkát. Adaptált platform, az Ön márkázásával. Ideális azoknak a márkáknak, amelyek saját tervezési kapacitás nélkül lépnek piacra.'
+      link_label: 'Hogyan működik az ODM'
+      href: /hu/odm-manufacturing
+    - icon: P
+      icon_bg: purple
+      title: 'Private Label / Co-Branding'
+      desc: 'Alkalmazza a márkáját egy már a gyakorlatban tesztelt platformra – mérnöki lépés nélkül. Az Ön logója a bordán vagy az oldalsó színeken, már 5–10 darabtól. Ideális azoknak az üzemeltetőknek és forgalmazóknak, akik fejlesztési ciklus nélkül akarnak márkás deszkát.'
+      link_label: 'Private Label opciók'
+      href: /hu/solutions/private-label-sup
+
+checklist:
+  heading: 'Mire van szüksége a projekt specifikációs lapja előtt'
+  body: |
+    Minél teljesebb a specifikációs lap, annál gyorsabb és pontosabb az ajánlat. Íme, amit érdemes előkészítenie:
+
+    - **A deszka specifikációi** – A célzott hosszúság, szélesség és vastagság, a sportoló súlytartománya és a rendeltetési felhasználás (touring, all-around, surf, horgászat, yoga stb.). Ha van referencia-mérete vagy egy versenytárs modellje, adja meg ezeket.
+    - **A tervezési fájlok** – Vektoros grafika (AI, SVG vagy PDF) a deszka grafikájához, az EVA fedélen lévő logóhoz és minden másodlagos márkázáshoz. Ha a grafika még nem kész, egy moodboard vagy referenciaképek már elegendők a kezdeti megvalósíthatósághoz.
+    - **A megrendelés térfogata és a határidő** – A célzott mennyiség az első megrendeléshez és a szezonbeli program, amelyet teljesítenie kell. Még egy hozzávetőleges tartomány („20–50 deszka márciusig”) is elegendő a megvalósíthatóság és a kapacitás elérhetőségének megerősítéséhez.
+    - **A megfelelőségi igények** – A célpiacok (EU, Észak-Amerika, Ausztrália stb.) és minden olyan konkrét tanúsítási vagy tesztelési igény, amely túlmutat a standard hatókörünkön (CE, ISO 9001, BSCI, REACH, RoHS).
+    - **A költségvetési tartomány** – Egy tájékoztató deszkánkénti költségvetés vagy egy célzott végső költség segít nekünk a megfelelő platform és szerkezeti szint ajánlásában. A pontos árat a mérnöki elemzés után erősítjük meg – soha előtte.
+
+    Ha még nincs minden elem a kezében, küldje el, ami van. A többi részben végigvezetjük.
+
+evidence_review:
+  tagline: 'Bizonyítékok és ellenőrzés'
+  title: 'ELLENŐRZÖTT SPECIFIKÁCIÓK'
+  body: 'Ezen az oldalon szereplő valamennyi gyártási állítást a laixi (Qingdao) gyárunk Gyártómérnöki Csapata ellenőrizte. A tanúsítványok, az ellenőrzési nyilvántartások, a nyomás- és szerkezeti tesztjelentések, valamint a szállítmány-nyomon követési naplók kérésre rendelkezésre állnak. A specifikációkat legutóbb 2026 szeptemberében ellenőriztük.'
+
+faqs:
+  tagline: GYIK
+  title: 'OEM bevezetés – gyakori kérdések'
+  items:
+    - q: 'Mennyi ideig tart a teljes bevezetési folyamat?'
+      a: 'A minták jóváhagyása általában 2–4 hét (beleértve a 7–12 napos mintagyártást és az Ön értékelési időszakát). Az első gyártási szállítmány 6–8 hét a megerősített megrendeléstől és az előlegtől számítva. Az egyedi víztestforma további 15–20 nap formafejlesztési időt ad. Minden kapuhoz rögzített határidő tartozik, amelyről előre egyeztetünk.'
+    - q: 'Alá kell írnom egy NDA-t, mielőtt megosztanám a kivitelemet?'
+      a: 'Az NDA kérésre azonnal rendelkezésre áll – még bármilyen műszaki specifikáció vagy bizalmas grafika megosztása előtt. Kizárólag az ügyfelek márkái alatt gyártunk, és egyetlen piacon sem versenyzünk velük. Ugyanez a politika érvényes egyetlen deszkás mintára és egy teljes konténerprogramra egyaránt.'
+    - q: 'Mi az első OEM szállítmány minimális megrendelése?'
+      a: 'A belépési pont lépcsőzetes: először 1–2 minta (7–12 nap alatt kész), majd 20–50 deszkás próbarendelés vagy pilótaszállítmány (25–35 napos gyártás), majd 90–100+ deszkás standard térfogatszállítmány jóváhagyott konfigurációnként. A kis szállítmányú közös márkázás 5–10 darabtól indul, amikor nincs szükség fejlesztési lépésre. A mintadíjak jóváíródnak a gyártási megrendelésen.'
+    - q: 'Hogyan kezelik a szellemi tulajdon védelmét a bevezetés során?'
+      a: 'Az Ön kiviteleit és specifikációit az aláírt NDA védi, amelyet bármilyen bizalmas információ megosztása előtt kötünk meg. Valamennyi grafika, az anyaglista adatai és a műszaki fájlok hozzáférés-szabályozott rendszerekben, auditnyomokkal tárolódnak. OEM módban a szellemi tulajdonjogok teljes egészében az Önéi. ODM módban az adaptált platformra vonatkozó jogok a megállapodás szerint közösek. Private Label módban a jogok az iSupfactory-nál maradnak, Ön pedig licencseli a márka alkalmazását.'
+    - q: 'Milyen minőségi garanciák érvényesek az első megrendelésre?'
+      a: 'Minden deszka – minta, próbaszállítmány vagy térfogat – ugyanazt a 7 lépéses ellenőrzési kapurendszert járja: a beérkező anyagok ellenőrzése, a drop-stitch szövet vizsgálata, hegesztés és összeállítás, 24 órás nyomás- és tömörségi tesztelés (18.0 PSI nyomástartás, automatikus elutasítás 0.50 PSI-nél nagyobb esésnél), az EVA fedelek és tartozékok szerelése, a grafika és a márkázás ellenőrzése, valamint a végső csomagolás és a dokumentáció. A minőség soha nem csökken a kisebb megrendeléseknél sem.'
+
+cta:
+  title: 'Készen áll elindítani a SUP projektjét?'
+  subtitle: 'Küldje el a deszkaspecifikációkat, a célzott térfogatot és a kívánt határidőt. Mi megerősítjük a megvalósíthatóságot, legeneráljuk a mintákat és átadjuk a gyártási ütemtervet – kapuról kapura, minden lépésnél dokumentált minőségellenőrzéssel.'
+  actions:
+    - variant: primary
+      text: Küldje el a projekt specifikációs lapját
+      href: /hu/contact#project-brief
+    - text: Hasonlítsa össze az OEM, ODM és Private Label lehetőségeket
+      href: /hu/oem-odm-private-label-comparison
+    - text: Ellenőrizze a gyárat és a minőségi rendszert
+      href: /hu/proof-center

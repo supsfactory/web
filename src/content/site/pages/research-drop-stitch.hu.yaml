@@ -1,0 +1,79 @@
+meta:
+  title: 'Hogyan működik a drop stitch – a merev magok a felfújható SUP deszkákban'
+  description: 'Hogyan alakítja a drop stitch a hajlékony PVC-t merev, nagy nyomású (15-20 PSI) SUP-maggá: szerkezet, alapanyagok, minőségi mutatók és alkalmazások.'
+  author: 'iSupfactory'
+  datePublished: '2026-08-04'
+  dateModified: '2026-08-07'
+back_text: 'Vissza a kutatáshoz'
+
+answer:
+  label: 'Közvetlen válasz'
+  text: 'A drop stitch olyan szövet, amelyben poliészterszálak tartják fix távolságban a felső és alsó PVC réteget, így a levegőnyomás merevíti a deszkát. A Vatrad magjai: 1,680 DTEX, 2 szál / hüvelyknyi felület, 1.2 mm-es külső PVC borítás, 15 PSI-re minősítve és 18.0 PSI-en 24 órás nyomástartási próbával validálva.'
+  verified: '2026. szeptember'
+
+hero:
+  tagline: 'Technológia'
+  title: 'Hogyan működik a drop stitch – a merev felfújható magok mögötti mérnökség'
+  subtitle: '8 perc olvasás'
+
+content_html: |
+  <h2>Mi a drop stitch?</h2>
+  <p>A drop stitch (más néven „drop-stitch szövet” vagy „drop-stitch mag”) olyan szerkezeti eljárás, amelyben több ezer külön poliészterszál köti össze a textil burkolat felső és alsó rétegét. Amikor a burkolatot felfújják, ezek a szálak belső húzóelemként működnek – megakadályozzák, hogy a felső és alsó panel kifelé domborodjon lekerekített alakot véve, így kényszerítve a panelt, hogy sík és merev maradjon.</p>
+  <p>Az eredmény könnyű és hordozható szerkezet, amely 15 – 20 PSI belső nyomást is kibír – a merev héjú deszkák merevségéhez hasonlóan, de teljesen leereszthető a tárolás és a szállítás kedvéért.</p>
+
+  <h2>Hogyan működik: a fizikai alapelv</h2>
+  <p>Egy hagyományos felfújható szerkezetben (például egy léghajóban vagy légmatracson) a belső levegőnyomás minden irányban egyenletesen hat. Belső korlátozás nélkül a szerkezet hengeres vagy gömb alakot vehet fel. A drop stitch ezt egy húzóerő-hálzat beiktatásával oldja meg:</p>
+  <ul>
+    <li>Több ezer szál köti össze a felső és alsó textilréteget</li>
+    <li>Felfújáskor a levegőnyomás igyekszik a felső és alsó réteget eltávolítani egymástól</li>
+    <li>A szálak ellenállnak a szétválásnak, és a terhelést a szál tengelye mentén feszültségként továbbítják</li>
+    <li>Az eredmény sík, merev, görbülésnek ellenálló panel</li>
+  </ul>
+
+  <h2>A gyártási folyamat</h2>
+  <ol>
+    <li><strong>Szövés:</strong> a poliészterszálakat egyszerre szövik két külön rétegbe, amelyek között alapozó szövet található (általában 1,100 DTEX vagy 1,680 DTEX PVC-bevonatú poliészter). A szálakat hurkosan szövik a rétegek közé 90°-os szögben.</li>
+    <li><strong>Bevonás:</strong> az alapozó szövetet PVC-vel (vagy néha TPU-val) bevonják késes bevonási eljárással vagy kalanderezéssel. Ez lezárja a szálakat, és létrehozza a légmentes membránt.</li>
+    <li><strong>A rétegek ragasztása:</strong> a drop-stitch magot a külső laminált rétegekhez (általában 0.9 mm vagy 1.2 mm PVC) meleglaminálással vagy ragasztóval ragasztják.</li>
+    <li><strong>Hegesztés:</strong> a peremsávokat a szélek mentén meleglevegős hegesztéssel, RF hegesztéssel vagy nagyfrekvenciás hegesztéssel hegesztik, kialakítva a deszka oldalfalait.</li>
+    <li><strong>Szelepek beépítése:</strong> a Boston vagy Halkey-Roberts szelepeket általában nyomáscsökkentő mechanizmussal szereljük be, amely megelőzi a túlfúvást.</li>
+  </ol>
+
+  <h2>A fő minőségi mutatók</h2>
+  <table class="w-full text-sm border-collapse">
+    <thead>
+      <tr class="bg-gray-100">
+        <th class="p-3 text-left font-semibold text-gray-900 border">Paraméter</th>
+        <th class="p-3 text-left font-semibold text-gray-900 border">Belépő szint</th>
+        <th class="p-3 text-left font-semibold text-gray-900 border">Prémium</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td class="p-3 border">Szálsűrűség</td><td class="p-3 border">1 szál / hüvelyknyi felület</td><td class="p-3 border">2 szál / hüvelyknyi felület</td></tr>
+      <tr><td class="p-3 border">Alapozó szövet</td><td class="p-3 border">1,100 DTEX</td><td class="p-3 border">1,680 DTEX</td></tr>
+      <tr><td class="p-3 border">Maximális nyomás</td><td class="p-3 border">12 – 15 PSI</td><td class="p-3 border">18 – 22 PSI</td></tr>
+      <tr><td class="p-3 border">PVC vastagsága</td><td class="p-3 border">0.6 – 0.9 mm</td><td class="p-3 border">1.0 – 1.2 mm</td></tr>
+      <tr><td class="p-3 border">Perem kialakítása</td><td class="p-3 border">Hajtás és ragasztás</td><td class="p-3 border">Hegesztés és fúziós kötés</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Alkalmazások</h2>
+  <ul>
+    <li><strong>SUP deszkák:</strong> 4" – 6" vastagság, 15 – 20 PSI, 1 – 2 szál/hüvelyknyi felület</li>
+    <li><strong>Kajakok:</strong> drop-stitch padló + felfújható oldalsó rekeszek, 10 – 15 PSI a padlónál</li>
+    <li><strong>RIB fenéklapok:</strong> drop-stitch fenéklapok a könnyű és összecsukható RIB csónakokhoz, 12 – 18 PSI</li>
+    <li><strong>Csónakvédők:</strong> alacsony nyomású drop stitch az alakított védőkhöz, sík oldalfelületekkel</li>
+  </ul>
+
+  <h2>Drop stitch és Air Deck (üvegszálas vagy fa mag)</h2>
+  <p>A merev héjú deszkák üvegszálas vagy fa erősítésű EPS habmagokat használnak. Kisebb súlyúak, merevebbek és fogékonyabbak – de nem lehet őket leereszteni. A drop stitch cserébe hordozhatóságot ad némi merevség feláldozásáért. A legtöbb szabadidős felhasználó számára a modern, 20 PSI-es drop-stitch SUP deszkák merevség tekintetében nem különböznek a belépő szintű merev deszkáktól.</p>
+
+  <h2>Így használja a Vatrad a drop stitchet</h2>
+  <p>A Vatrad a teljes SUP deszkasorozatában 1,680 DTEX-es drop-stitch magot használ, 2 szál / hüvelyknyi felülettel és 1.2 mm-es laminált PVC külső borítással. A deszkák 15 PSI-re minősítettek, és kiszállítás előtt 18.0 PSI-en 24 órás nyomástartási próbának vetik alá őket. A peremsávokat háromrétegű meleglevegős fúziós hegesztéssel készítjük, a nyomáscsökkentő szelepek pedig minden modellen standard felszereltség.</p>
+  <p>A drop stitch a SUP deszkagyártásunk alapja – tekintse meg <a href="/hu/technology/drop-stitch-core">a drop-stitch mag technológiai oldalát</a> és azt, hogyan ragasztjuk a magot a <a href="/hu/factory">gyár gyártósorán</a>.</p>
+
+cta:
+  title: 'Szeretne többet megtudni a drop stitch technológiáról?'
+  subtitle: 'Lépjen kapcsolatba velünk műszaki specifikációkért és OEM igényekért.'
+  button_text: 'Lépjen kapcsolatba az értékesítő csapattal'
+  button_link: /hu/contact

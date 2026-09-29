@@ -1,0 +1,100 @@
+meta:
+  title: 'A VATRAD-ról — a tengeri gyártódivízió'
+  description: 'A VATRAD a kínai Qingdao Vatrad Group tengeri gyártódivíziója, amely 2012-ben alakult kínai Qingdaóban — az egyedi iSupfactory-projektek mögött álló gyár.'
+  dateModified: '2026-08'
+  keywords:
+    - 'VATRAD'
+    - 'kínai SUP gyár'
+    - 'felfújható SUP gyártó'
+    - 'qingdao vatrad group'
+hero:
+  tagline: A VATRAD-ról
+  title: 'VATRAD — a {SITE} mögött álló tengeri gyártódivízió'
+  subtitle: 'A kínai Qingdaoban 2012-ben alapított VATRAD felfújható csónakokat és SUP deszkákat gyárt, amelyek az iSupfactory egyedi projektjeinek alapját képezik — egy 12,500 m²-es gyár, 350+ munkavállaló és évente 120,000+ darab éves kapacitás.'
+  actions:
+    - text: 'Indítson egyedi projektet'
+      href: /hu/contact
+      variant: primary
+    - text: 'Látogassa meg a gyárat'
+      href: /hu/factory
+      variant: secondary
+intro: |
+  <p>A <strong>VATRAD</strong> a <strong>Qingdao Vatrad Group Co., Ltd.</strong> tengeri gyártódivíziója, amelynek székhelye a kínai Shandong tartománybeli Qingdao Laixi Gazdasági Fejlesztési Zónájában található. A vállalat 2012-ben alakult egy hajóépítésre szakosodott műhelyként, amely a tengeri kézművesség mellett elkötelezett, és ma már tanúsított gyárként szolgálja ki az 50-nél több országból érkező OEM- és ODM-ügyfeleket.</p>
+  <p>Az iSupfactory a VATRAD gyár B2B egyedi fejlesztődivíziója. Minden iSupfactory-projekt — az első mintától vagy a közös márkájú kis sorozattól a teljes private label termékvonalig — ugyanabban az üzemben, ugyanazokkal a csapatokkal és ugyanazzal a minőségügyi rendszerrel készül, amelyet itt ismertetünk.</p>
+  <p>A gyár 12,500 m² területet foglal el, és magában foglalja a PVC-vágásra, a drop-stitch magok összeállítására, a nagyfrekvenciás hegesztésre, a deszkák összeállítására, valamint a légtömörségi, nyomástartási és varratszilárdsági vizsgálatokhoz használt tesztrészlet elkülönített üzemeit. A gyártási kapacitás meghaladja az évente 120.000 felfújható darabot, és az üzem az ISO 9001 minőségirányítás, a CE, a BSCI, a REACH, valamint az USCG által jóváhagyott megfelelés szerint működik az exportált termékek esetén.</p>
+  <p>Több mint 350 szakképzett dolgozó és 14+ kutatási-fejlesztési mérnök támogatja azt a két irányt, amely számít a SUP-márkák szempontjából: a mérnöki munkát (a deszka testének megtervezése, az anyagkiválasztás, a prototípuskészítés) és a gyártást (grafika alkalmazása, összeállítás, ellenőrzés, exportcsomagolás). Saját kutatási-fejlesztő központunk, PVC-szöveglaboratóriummal és próbateknővel rendelkezik, amely kezeli az egyedi matricákat és a szerkezetek validálását a sorozatgyártás megkezdése előtt.</p>
+stats:
+  title: A VATRAD számokban
+  stats:
+    - title: Alapítási év
+      amount: 2012
+    - title: Üzem
+      amount: '12,500 m²'
+    - title: Kiszolgált országok
+      amount: '50+'
+    - title: Éves kapacitás
+      amount: '120,000+ darab'
+    - title: Alkalmazottak
+      amount: '350+'
+    - title: K+F mérnökök
+      amount: '14+'
+values_section:
+  title: Így dolgozik a gyár a márkákkal
+  subtitle: 'Három alapelv, amely minden VATRAD-gyárban megvalósuló projektet meghatároz.'
+  columns: 3
+  items:
+    - title: Mérnöki tervezés a gyártás előtt
+      description: 'Minden projekt igényekkel, rajzokkal és egy fizikai mintával indul — a test formája, a drop-stitch osztály, a grafika elhelyezése és a csomagolás már a sorozatgyártás előtt validálva van, nem a soron derül ki.'
+      icon: 'tabler:settings'
+    - title: Egy csapat, egy üzem
+      description: 'A tervezés, a vágás, a hegesztés, az összeállítás és a tesztelés egyetlen 12,500 m²-es üzemben zajlik. Nincs kereskedőcég-jellegű átadás: azok válaszolnak az Ön kérdéseire, akik az Ön deszkáit építik.'
+      icon: 'tabler:building-factory-2'
+    - title: Kis kezdő sorozatok
+      description: 'A közös márkájú kis sorozatok gyártása 5–10 darabbal indul, a standard tömegsor gyártása pedig 90–100+ darab soronként (egy 150 m-es drop-stitch tekercs) fut, így a márkák a bővülés előtt validálhatják a piacot — a későbbi megrendelések számára megőrzött szerszámok és grafika megtartásával.'
+      icon: 'tabler:layers-intersect'
+services_section:
+  title: Mit szállít a gyár
+  subtitle: 'Az iSupfactory ügyfelei számára rendelkezésre álló gyártási szolgáltatások.'
+  columns: 2
+  items:
+    - title: Egyedi SUP fejlesztés
+      description: 'Igényfelmérés, specifikáció, anyagválasztás, grafika, prototípuskészítés, minta jóváhagyása és egyedi felfújható SUP termékek gyártása.'
+      icon: 'tabler:bulb'
+    - title: Private label gyártás
+      description: 'Az Ön logója, színvilága és csomagolása már validált értékesítési platformokon — a deszka, a lapát és a tartozékok, valamint a dobozok az Ön arculatát hordozzák, a gyár márkajelölése nélkül.'
+      icon: 'tabler:tag'
+    - title: OEM / ODM gyártás
+      description: 'Teljes OEM és ODM gyártás felfújható SUP deszkákhoz, az ügyfél rajzai vagy a közösen kifejlesztett tervek alapján, beleértve az új deszkaformák egyedi matricáit.'
+      icon: 'tabler:package'
+    - title: Intézményi flották
+      description: 'Márkázott deszkaflotta üdülők, klubok, iskolák és kölcsönző üzemeltetők részére, egységes kiegészítőkkel és a flottákhoz igazított gyártási sorokkal.'
+      icon: 'tabler:users-group'
+certifications_section:
+  title: 'Tanúsítások és megfelelőség'
+  subtitle: 'A gyár dokumentált megfelelési rendszer alapján szállít az EU-ba, az USA-ba és az ázsiai-csendes-óceáni térségbe.'
+  columns: 2
+  items:
+    - title: CE-tanúsítás
+      description: 'A felfújható SUP termék- és csónakvonalak megfelelnek az Európai Unió biztonsági előírásainak, minden piac számára rendelkezésre álló dokumentációval.'
+      icon: 'tabler:certificate'
+    - title: ISO 9001 minőségügyi rendszer
+      description: 'A gyártóüzem ISO 9001 minőségirányítási rendszer szerint működik, amely lefedi a beérkező anyagok ellenőrzését, a folyamat közbeni vizsgálatokat és a végső ellenőrzést.'
+      icon: 'tabler:badge-check'
+    - title: BSCI szociális megfelelőség
+      description: 'A társadalmi felelősségvállalás a BSCI alapján auditált, lefedve a munkafeltételeket és a gyár megfelelőségét.'
+      icon: 'tabler:shield-check'
+    - title: REACH anyagmegfelelőség
+      description: 'Az anyagok megfelelnek az Európai Unió REACH-rendeletének a vegyi biztonságról.'
+      icon: 'tabler:flask'
+    - title: USCG jóváhagyás
+      description: 'Az Amerikai Egyesült Államok Parti Őrsége által jóváhagyott felfújható csónakgyártás.'
+      icon: 'tabler:anchor'
+    - title: Terméktesztelés
+      description: 'Lebegőképesség, teherbíró képesség, varratszilárdság, UV-sugárzással szembeni ellenállás, kopásállóság és nyomástartás tesztelése minden gyártósoron.'
+      icon: 'tabler:test-pipe'
+cta:
+  title: 'Fejlessze SUP-projektjét együtt a VATRAD gyárral'
+  subtitle: 'Küldje el az igényeket — a deszka típusát, a méreteket, a mennyiséget és a grafikát — és egy munkanapon belül részletes ajánlatot kap.'
+  actions:
+    - text: Márkaidentitás
+      href: /hu/about/identity

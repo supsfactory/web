@@ -67,6 +67,9 @@ export const LLM_TURKISH_HOMEPAGE_DESCRIPTION =
 export const LLM_ROMANIAN_HOMEPAGE_DESCRIPTION =
   'iSupfactory este o fabrică OEM/ODM din Qingdao, China, care produce plăci de SUP gonflabile pentru branduri, distribuitori și comercianți. Dezvoltăm și producem plăci, vâsle, aripioare și ambalaje conform specificațiilor clientului — de la mostră și prototip la producția de serie. Cantitatea minimă de comandă (MOQ), certificările și termenele de livrare sunt întotdeauna confirmate în funcție de proiect.'
 
+export const LLM_HUNGARIAN_HOMEPAGE_DESCRIPTION =
+  'Az iSupfactory egy Qingdao (Kína) székhelyű OEM/ODM gyár, amely felfújható SUP deszkákat gyárt márkák, forgalmazók és kereskedők számára. Deszkákat, evezőket, uszonyokat és csomagolásokat fejlesztünk és gyártunk az Ön specifikációja szerint — a mintától és a prototípustól a sorozatgyártásig. A minimális rendelési mennyiségeket, tanúsítványokat és szállítási határidőket mindig projektenként erősítjük meg.'
+
 export const AI_SYSTEM_ROLE =
   `You are the {SITE} product advisor, a sales engineer for a custom inflatable SUP (stand-up paddle board) OEM/ODM factory in Qingdao, China.`
 
@@ -226,6 +229,15 @@ export const CUSTOMIZATION_OPTIONS: Record<string, { title: string; body: string
     { title: 'Aripioare și accesorii', body: 'Configurații de aripioare, vâsle, pompe, lese și genți adaptate pachetului dumneavoastră.' },
     { title: 'Ambalaje și prezentare', body: 'Cutii de retail, ambalaje de transport maritim și afișaje la punctul de vânzare sub marca dumneavoastră.' },
   ],
+  hu: [
+    { title: 'A deszka mérete és formája', body: 'Hossz, szélesség, vastagság és rocker, amelyek a kiválasztott célpiachoz és célzott teljesítményhez igazodnak.' },
+    { title: 'Anyagok és szerkezet', body: 'PVC-rétegek, drop-stitch sűrűség, merevítők és erősítések az Ön által célzott árkategóriához igazítva.' },
+    { title: 'Színek és grafika', body: 'Korlátlan színkombinációk saját grafikával vagy designcsapatunk támogatásával.' },
+    { title: 'Logó és arculat', body: 'A logó digitális vagy szitaosztékos felvitele, gyártás előtti vizuális próbával.' },
+    { title: 'EVA és a fedélzet', body: 'Egyedi méretre vágott csúszásgátló szőnyegek, logók és fedélzeti színek minden SUP deszkán.' },
+    { title: 'Uszonyok és tartozékok', body: 'Uszony-konfigurációk, evezők, pumpák, kötelek és táskák, amelyek az Ön csomagjához igazodnak.' },
+    { title: 'Csomagolás és bemutató', body: 'Retaildobozok, tengeri szállításra alkalmas csomagolás és értékesítési pontokon megjelenő (POS) bemutatók az Ön márkájával.' },
+  ],
 }
 
 export const OEM_APPLICATIONS: Record<string, { title: string; body: string }[]> = {
@@ -340,6 +352,13 @@ export const OEM_APPLICATIONS: Record<string, { title: string; body: string }[]>
     { title: 'Retail și companii outdoor', body: 'Programe sezoniere de reaprovizionare cu specificații stabile, lot cu lot.' },
     { title: 'Resorturi și operatori de închiriere', body: 'Flote pentru utilizare intensivă, cu întăriri, piese de schimb și mentenanță standardizată.' },
     { title: 'Cluburi, școli și evenimente', body: 'Plăci de marcă pentru programe, competiții și flote corporative.' },
+  ],
+  hu: [
+    { title: 'SUP márkák', body: 'Indítsa el saját termékcsaládját lépcsőzetes minimumrendelésekkel, már 5–10 db-os co-branding szériáktól.' },
+    { title: 'Forgalmazók és viszonteladók', body: 'Nagy volumenű katalógusok tengeri szállításra alkalmas csomagolással és exportkezeléssel.' },
+    { title: 'Retail és outdoor cégek', body: 'Szezonális készletfeltöltési programok stabil specifikációkkal, tételenként azonos minőségben.' },
+    { title: 'Resortok és bérbeadó üzemeltetők', body: 'Intenzív használatra tervezett flották megerősítésekkel, alkatrészekkel és szabványosított karbantartással.' },
+    { title: 'Klubok, iskolák és rendezvények', body: 'Arculatot viselő deszkák programokhoz, versenyekhez és vállalati flottákhoz.' },
   ],
 }
 
@@ -472,6 +491,14 @@ export const HUB_PAGE_ENTRIES: Record<string, { url: string; title: string; exce
     { url: '/ro/knowledge', title: '', excerpt: '' },
     { url: '/ro/gallery', title: 'Galerie', excerpt: 'Galeria fabricii și a produselor iSupfactory: ateliere, laboratoare de calitate, teste de materiale și plăci SUP în producție.' },
   ],
+  hu: [
+    { url: '/hu', title: 'iSupfactory — Felfújható SUP deszkák OEM és ODM gyártása', excerpt: 'Felfújható SUP deszkák OEM/ODM-gyártója Qingdaoban: termékfejlesztés, egyedi gyártás, saját márka és minőségbiztosítás.' },
+    { url: '/hu/products', title: 'Termékek: felfújható SUP deszkák', excerpt: 'Prémium felfújható SUP deszkák: 11 ft sorozat, horgász SUP, mini SUP, óriás csapatdeszkák és még sok más — OEM/ODM testreszabásra készítve.' },
+    { url: '/hu/solutions', title: 'Megoldások', excerpt: 'OEM/ODM SUP-gyártási programok: egyedi SUP-fejlesztés, saját márka, resortokhoz és klubokhoz való flották, bérbeadó üzemeltetők és retail partnerek.' },
+    { url: '/hu/projects', title: '', excerpt: '' },
+    { url: '/hu/knowledge', title: '', excerpt: '' },
+    { url: '/hu/gallery', title: 'Galéria', excerpt: 'Az iSupfactory gyárának és termékeinek galériája: műhelyek, minőségi laboratóriumok, szövetvizsgálatok és gyártásban lévő SUP deszkák.' },
+  ],
 }
 
 export const CASE_STUDY_STATS = {
@@ -496,6 +523,7 @@ export const FAQ_EXCERPTS: Record<string, string> = {
   cs: 'Často kladené dotazy o OEM/ODM výrobě nafukovacích SUP desek — materiály, certifikace, minimální objednávka (MOQ) a velkoobchodní dodávky.',
   tr: 'Şişirilebilir SUP OEM/ODM üretimi hakkında sıkça sorulan sorular — malzemeler, sertifikalar, minimum sipariş miktarı (MOQ) ve toptan tedarik.',
   ro: 'Întrebări frecvente despre producția OEM/ODM de plăci SUP gonflabile — materiale, certificări, cantități minime de comandă (MOQ) și livrări en gros.',
+  hu: 'Gyakori kérdések a felfújható SUP deszkák OEM/ODM-gyártásáról — anyagok, tanúsítványok, minimális rendelési mennyiség (MOQ) és nagykereskedelmi szállítás.',
 }
 
 export const STATIC_PAGE_CORPUS_TEXT =

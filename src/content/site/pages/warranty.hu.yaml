@@ -1,0 +1,113 @@
+meta:
+  title: 'OEM gyártási garancia és termékminőség-biztosítás | {SITE}'
+  description: 'Az iSupfactory által gyártott felfújható SUP deszkákra és tengeri termékekre vonatkozó OEM gyártási garancia feltételei: lefedett hibák, időtartam, dokumentált tételnyilvántartások és a reklamációk kezelésének módja.'
+  keywords:
+    - 'oem garancia'
+    - 'gyártási garancia'
+    - 'sup gyári garancia'
+    - 'termékminőség-biztosítás'
+    - 'felfújható sup garancia'
+label: 'OEM garancia'
+headline: 'OEM gyártási garancia és termékminőség-biztosítás'
+subtitle: 'Minden általunk gyártott deszka egy jóváhagyott mintára és dokumentált tételnyilvántartásokra épül. Ez a garancia meghatározza, mit vállalunk az Ön márkája alatt gyártott termékekre, és hogyan vizsgáljuk a reklamációkat e nyilvántartások alapján.'
+seo:
+  headline: 'OEM gyártási garancia és termékminőség-biztosítás | iSupfactory'
+  description: 'Gyártási garancia az iSupfactory által gyártott felfújható SUP deszkákra és egyéb tengeri termékekre: 5 éves fedezet a fő cső anyagára, a varratokra és a drop-stitch mag szerkezeti integritására, valamint a felfújószelepekre és a gyárban szerelt tartozékokra.'
+  datePublished: '2024-01-01'
+  dateModified: '2026-09-23'
+body: |
+  <p class="text-lg text-gray-600 dark:text-gray-400 mb-8">
+    Ez a Gyártási Garancia az iSupfactory — a Qingdao Vatrad Group Co., Ltd. tengeri gyártási divíziója — által az OEM, ODM és private label programok keretében gyártott felfújható SUP deszkákra, kajakokra és felfújható tengeri termékekre vonatkozik. A hatálybalépés napja a tétel gyártási dátuma vagy a szállítás dátuma, amely ellenőrizhető és a megrendelésben rögzített. A vásárló (a márka tulajdonosa) határozza meg a végső felhasználókra vonatkozó garanciális politikát a saját piacán; ez a garancia a gyár által, az áruk gyártott állapotuk szerint vállalt garancia.
+  </p>
+
+  <div class="bg-sky-50 dark:bg-gray-900 border border-sky-200 dark:border-gray-800 rounded-xl p-6 mb-10">
+    <h2 class="text-xl font-bold mb-3">A gyártási garancia fedezete és időtartama</h2>
+    <div class="grid md:grid-cols-2 gap-4">
+      <div class="bg-white dark:bg-gray-950 rounded-lg p-4 border border-gray-200 dark:border-gray-800">
+        <h3 class="font-bold text-sky-700 dark:text-sky-400">5 év</h3>
+        <p class="text-sm text-gray-600 mt-1">A fő cső anyagának integritása (CSM/PVC)</p>
+      </div>
+      <div class="bg-white dark:bg-gray-950 rounded-lg p-4 border border-gray-200 dark:border-gray-800">
+        <h3 class="font-bold text-sky-700 dark:text-sky-400">5 év</h3>
+        <p class="text-sm text-gray-600 mt-1">Az üvegszálas héj szerkezeti integritása (ahol alkalmazható)</p>
+      </div>
+      <div class="bg-white dark:bg-gray-950 rounded-lg p-4 border border-gray-200 dark:border-gray-800">
+        <h3 class="font-bold text-sky-700 dark:text-sky-400">5 év</h3>
+        <p class="text-sm text-gray-600 mt-1">A felfújható csövek varratainak légmegtartó képessége</p>
+      </div>
+      <div class="bg-white dark:bg-gray-950 rounded-lg p-4 border border-gray-200 dark:border-gray-800">
+        <h3 class="font-bold text-sky-700 dark:text-sky-400">5 év</h3>
+        <p class="text-sm text-gray-600 mt-1">A felfújószelepek működése</p>
+      </div>
+      <div class="bg-white dark:bg-gray-950 rounded-lg p-4 border border-gray-200 dark:border-gray-800">
+        <h3 class="font-bold text-sky-700 dark:text-sky-400">1 év</h3>
+        <p class="text-sm text-gray-600 mt-1">Gyárban szerelt tartozékok és kiegészítő szerelési alkatrészek</p>
+      </div>
+      <div class="bg-white dark:bg-gray-950 rounded-lg p-4 border border-gray-200 dark:border-gray-800">
+        <h3 class="font-bold text-amber-700 dark:text-amber-400">1 év*</h3>
+        <p class="text-sm text-gray-600 mt-1">Kereskedelmi, bérbeadási vagy flottahasználat — minden alkatrész</p>
+      </div>
+    </div>
+    <p class="text-xs text-gray-500 mt-4">*A kereskedelmi, állami, turisztikai üzemeltetési, bérbeadási vagy oktatási célú használat 1 évre csökkenti a garanciát. A verseny- vagy vetélkedőhasználat teljesen megszünteti a garanciát, kivéve, ha a beszerzési szerződés kifejezetten fedi a versenycélú konfigurációt.</p>
+  </div>
+
+  <h2>Mi van lefedve</h2>
+  <h3>A fő cső anyaga (5 év)</h3>
+  <p>A gyár a fő cső anyagát a porozitáskárosodás ellen garantálja, amely jelentősen befolyásolná a termék azon képességét, hogy fenntartsa az üzemi felfújást. Ez a CSM-mel (Hypalon) bevont szövetre és minden más, a gyártás során használt csőanyagra vonatkozik.</p>
+
+  <h3>Az üvegszálas héj szerkezeti integritása (5 év)</h3>
+  <p>Az üvegszál-erősítésű műanyag (FRP) héjú termékek esetén az alapvető kompozit szerkezetet az anyag- vagy kivitelezési hibákból eredő szerkezeti tönkremenetel ellen garantáljuk.</p>
+
+  <h3>A felfújható csövek varratainak légmegtartó képessége (5 év)</h3>
+  <p>A felfújható csövek varratait, amelyek a gyártás során hegesztéssel készülnek, a varraton keresztül jelentős légveszteséget okozó gyártási hibák ellen garantáljuk. A rendszeres ellenőrzés és a megfelelő felfújási nyomások fenntartása a fedezet feltétele.</p>
+
+  <h3>A felfújószelepek működése (5 év)</h3>
+  <p>A gyártás során eredetileg beszerelt felfújószelepeket az anyag- vagy kivitelezési hibák ellen garantáljuk, amelyek megakadályozzák, hogy a szelep a tervezés szerint tartsa a levegőt.</p>
+
+  <h3>Gyárban szerelt tartozékok (1 év)</h3>
+  <p>A gyárban beszerelt alkatrészeket és részegységeket egy évig anyag- és kivitelezési hibák ellen garantáljuk. A harmadik féltől származó elemek kivételével, amelyeket kizárólag a saját gyártójuk garanciája fed.</p>
+
+  <h2>Mi nincs lefedve</h2>
+  <ul>
+    <li>Esztétikai hibák, beleértve az elszíneződést, a foltosodást, a kifakulást, a krétázást vagy az állapot bármilyen változását</li>
+    <li>Defektek, vágások, szakadások, repedések vagy egyéb fizikai károsodások</li>
+    <li>Felszíni repedések, berepedések, kopás, karcolódás vagy súrlódás, érintkezés okozta károsodás</li>
+    <li>Az UV-sugárzásnak, az időjárásnak vagy a légköri viszonyoknak való kitettség okozta károsodás</li>
+    <li>Tüzelőanyagokkal, oldószerekkel, savakkal, lúgokkal vagy vegyi anyagokkal való érintkezés okozta károsodás</li>
+    <li>Hanyagság, nem rendeltetésszerű használat, visszaélés, baleset vagy rendes elhasználódás okozta károsodás</li>
+    <li>A gelcoat vagy festék felületével kapcsolatos problémák (buborékok, felszíni repedések, elszíneződés, kifakulás)</li>
+    <li>Ütés, túlterhelés, helytelen alátámasztás vagy vontatás okozta károsodás</li>
+    <li>Helytelen felfújás/leeresztés vagy nem jóváhagyott felfújóeszközök használata okozta károsodás</li>
+    <li>Harmadik féltől származó berendezések, alkatrészek vagy rendszerek (a saját gyártójuk garanciája fedezi)</li>
+  </ul>
+
+  <h2>A gyártó kötelezettsége és orvoslás</h2>
+  <p>A gyár egyetlen kizárólagos kötelezettsége a belátása szerint megválasztott, bármely, anyagilag vagy kivitelezésileg hibásnak minősített és jelen garancia által lefedett alkatrész javítása vagy cseréje. A javításokat vagy cseréket a gyár vagy a gyár által kijelölt szervizközpont végzi. A javított vagy kicserélt alkatrészekre csak az eredeti garanciális időszak fennmaradó részére vállalunk garanciát.</p>
+
+  <h2>A garancia feltételei</h2>
+  <ul>
+    <li><strong>Tételazonosító:</strong> A reklamációknak hivatkozniuk kell a megrendelésre, a tételszámra vagy a sorozatszám-tartományra, hogy a gyár ki tudja olvasni a megfelelő ellenőrzési nyilvántartásokat.</li>
+    <li><strong>Specifikációs alapvonal:</strong> A reklamációkat a jóváhagyott mintához, a műszaki specifikációhoz, a grafikához és az adott tételre rögzített BOM-hoz viszonyítva értékeljük — ugyanazokhoz a viszonyítási alapokhoz, amelyeket a gyártásnál használtunk.</li>
+    <li><strong>Karbantartás:</strong> A terméket a közzétett gondozási útmutatók szerint kell karbantartani, beleértve a megfelelő felfújási nyomások rendszeres ellenőrzését és fenntartását.</li>
+    <li><strong>Együttműködés:</strong> A kérelmezőnek teljes körűen és gyorsan együtt kell működnie a gyárral a garanciális reklamációk minden vonatkozásában, beleértve az érintett egységek vizsgálatát is.</li>
+    <li><strong>A vásárló garanciapolitikája:</strong> A vásárló a márka tulajdonosaként határozza meg a végfelhasználókra vonatkozó garanciaprogramot a saját piacán. Ez a gyártási garancia azt fejezi ki, amit a gyár az áruk gyártott állapotuk szerint vállal.</li>
+  </ul>
+
+  <h2>Kereskedelmi használat</h2>
+  <p>Ha a terméket kereskedelmi, állami, nonprofit, turisztikai üzemeltetési, bérbeadási, oktatási célra vagy bármilyen más, a magán szabadidős használattól eltérő célra használják, a garanciaidőtartam minden alkatrésznél a hatálybalépés napjától számított egy (1) évre csökken. A gyorsasági vagy állóképességi versenyeken való részvétel a garanciát teljesen megszünteti, kivéve, ha a beszerzési szerződés kifejezetten fedi a versenycélú konfigurációt.</p>
+
+  <h2>Hogyan nyújtanak be garanciális reklamációt</h2>
+  <p>Lépjen kapcsolatba az iSupfactory-val a megrendelésszámmal vagy a tételazonosítóval és a probléma részletes leírásával, beleértve a deszkák sorozatszámait, ahol elérhetők. A gyár a tételnyilvántartások alapján elemzi a reklamációt, és útmutatást ad az ellenőrzéshez és a javításhoz.</p>
+  <p>Garanciális ügyekben vegye fel velünk a kapcsolatot <a href="/hu/contact" class="text-sky-600 underline">kapcsolati oldalunkon</a>, a megrendelésszámmal és a termék adataival.</p>
+
+  <div class="bg-sky-50 dark:bg-gray-900 border border-sky-200 dark:border-gray-800 rounded-xl p-6 my-10">
+    <h2 class="text-xl font-bold mb-3">Dokumentált minőségi rendszerrel alátámasztva</h2>
+    <p class="text-sm text-gray-600 dark:text-gray-400">Minden deszkát a csomagolás előtt tesztelünk — a <a href="/hu/factory/quality-inspection" class="text-sky-600 underline">7 lépésből álló ellenőrzési szakaszok</a> minden sorozatszámra rögzítik az eredményeket, a tételek pedig 10 éven át megtartják az ERP-nyomonkövethetőséget. A garanciális reklamációkat e tételnyilvántartások alapján bíráljuk el, nem találgatás alapján. Tekintse meg a <a href="/hu/quality" class="text-sky-600 underline">teljes minőségi rendszert</a>, és töltse le a <a href="https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_FQC_TEST_REPORTS.pdf" class="text-sky-600 underline">tényleges végső ellenőrzési jelentéseket</a>.</p>
+  </div>
+
+  <h2>Harmadik féltől származó elemek</h2>
+  <p>A harmadik felek által gyártott berendezéseket, alkatrészeket vagy rendszereket (még ha a gyár szerel is be) kizárólag a saját gyártójuk garanciája fedi. A gyár kifejezetten elhárít minden garanciális felelősséget az ilyen harmadik féltől származó elemekért.</p>
+
+  <p class="text-sm text-gray-500 mt-8 border-t border-gray-200 dark:border-gray-800 pt-6">
+    Ez a garanciális nyilatkozat a gyár OEM, ODM és private label programokra vonatkozó gyártási garanciafeltételeinek összefoglalása. A teljes beszerzési szerződés szabályozza az összes garanciális feltételt és kikötést. A specifikációk előzetes értesítés nélkül változhatnak. Az iSupfactory a Qingdao Vatrad Group gyártási divíziója.
+  </p>

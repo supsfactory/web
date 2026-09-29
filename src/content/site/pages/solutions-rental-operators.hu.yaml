@@ -1,0 +1,82 @@
+meta:
+  title: 'Bérbeadási SUP eszközszállító és flottamegoldások'
+  description: 'Napi használatra tervezett kereskedelmi SUP deszkák bérbeadáshoz: UV-álló PVC, megerősített varratok és gyorsan száradó alapanyagok nagy forgású bérlőflottákhoz.'
+  dateModified: '2026-08'
+
+hero:
+  tagline: Bérbeadók
+  title: 'Bérbeadási flottákhoz tervezett SUP deszkák'
+  subtitle: 'Specifikáljon olyan flottát, amely kibírja a napi bérbeadási használatot: nagy forgású deszkák, UV-álló PVC, megerősített varratok és gyorsan száradó alapanyagok – 365 használati napra tervezve.'
+  image:
+    src: https://assets.isupfactory.com/images/sups/use-cases/isupfactory-family-use-case.webp
+    alt: A napi bérbeadásra előkészített SUP deszkák
+
+answer:
+  label: 'Közvetlen válasz'
+  text: 'A bérlőflottákhoz való deszkákat UV-álló hajózási PVC-vel, a standard kialakításnál háromszor nagyobb szilárdságú varratokkal és 15 PSI-re minősített drop-stitch magokkal építjük – 500+ bérbeadási ciklusra vizsgálva. Az MOQ-t a projekt konfigurációja határozza meg: minta (1–2 darab), pilóta (20–50 darab) és standard tömeg (szállítmányonként 90–100+ darab egy 150 m-es tekercsből); a gyártás a megrendelés és az előleg után 25–35 napot tart, FOB, CIF vagy DDP feltételekkel.'
+  verified: '2026. szeptember'
+
+features:
+  title: A bérbeadási intenzív használatra tervezve
+  subtitle: 'Minden deszkát 500+ bérbeadási ciklusra tervezünk, minimális karbantartással.'
+  items:
+    - title: '500+ bérbeadási ciklus'
+      description: 'Napi használatra, sós vízben, napon és homokon való használatra vizsgálva.'
+      icon: 'tabler:shield-check'
+    - title: 'UV-álló alapanyag'
+      description: 'Kifakulás vagy bomlás nélkül 1 év szabadtéri tárolás után.'
+      icon: 'tabler:sun'
+    - title: 'Megerősített varratok'
+      description: 'Megerősített varratokkal kialakított szerkezet, amely a napi bérbeadási forgatásra és az ismételt felfújási ciklusokra van tervezve.'
+      icon: 'tabler:layers-intersect'
+    - title: 'Gyorsan száradó alapanyagok'
+      description: 'A gyorsan száradó alapanyagok az egyes használatok között is előkészítve tartják a deszkákat a következő bérbeadásra.'
+      icon: 'tabler:droplet'
+    - title: 'Raklapos tárolás'
+      description: 'Raklapra rendezhető kialakítás, amely helyet takarít meg – több deszkát is elhelyezhet ugyanabban a tárolási zónában.'
+      icon: 'tabler:stack'
+    - title: 'Színkódolt méretek'
+      description: 'A személyzet azonnal a megfelelő deszkát veszi fel a színnel kódolt méretezésnek köszönhetően.'
+      icon: 'tabler:color-swatch'
+
+stats:
+  title: Üzleti mutatók
+  stats:
+    - title: Gyártócsarnok
+      amount: '12,500 m²'
+    - title: Nyomáspróba
+      amount: '18 PSI / 24h'
+    - title: Összeállítási ellenőrzőlista
+      amount: '100 pont'
+    - title: Alkatrész-feladás
+      amount: '48h'
+
+fleet_guide:
+  title: Útmutató a flotta méretezéséhez
+  subtitle: 'Becsülje meg, hány deszkára van szüksége a működésének a napi bérbeadási forgás alapján.'
+  tiers:
+    - label: Kis stand
+      boards: '15-20'
+      note: 'Legfeljebb napi 2–3 deszkaforgat a csúcsszezonban'
+    - label: Közepes méretű működés
+      boards: '30-50'
+      note: 'Több indulási pont vagy intenzív hétvégi forgalom'
+    - label: Nagy parti bérbeadás
+      boards: '50-100'
+      note: 'Teljes szolgáltatású bérlőflották több parti állomáson'
+
+content_html: |
+  <div class="mx-auto max-w-3xl space-y-4 rounded-2xl border bg-card p-6 text-[14.5px] leading-relaxed text-fg-2">
+    <p><strong>Folytassa az olvasást:</strong> a bérbeadási deszkák az Ön specifikációiból indulnak ki – tekintse meg <a href="/hu/oem-manufacturing">OEM/ODM programunkat</a> a testreszabás, a csökkentett próba-MOQ-k és a flottaárak érdekében. Minden deszka áthalad a 12,500 m&sup2;-es <a href="/hu/factory">gyártósorunkon</a>, és 100%-ban nyomáspróbázzuk kiszállítás előtt.</p>
+  </div>
+
+cta:
+  title: 'Specifikálja a bérbeadási flottáját'
+  subtitle: 'Küldje el a flotta igényeit, vagy hasonlítsa össze a deszkaplatformokat működéséhez.'
+  actions:
+    - text: 'Küldje el a flotta igényeit'
+      href: '/hu/contact'
+      variant: 'primary'
+    - text: 'Hasonlítsa össze a deszkaplatformokat'
+      href: '/hu/inflatable-vs-hardboard'
+      variant: 'secondary'

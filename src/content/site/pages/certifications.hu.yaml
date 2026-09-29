@@ -1,0 +1,513 @@
+meta:
+  title: 'Minőség-ellenőrzés egyedi SUP deszkákhoz: 7 vizsgálati kapu | iSupfactory'
+  description: 'Hogyan ellenőrzünk minden egyedi SUP megrendelést: 7 vizsgálati kapu az előkészítőtől a szállításiengedélyig, letölthető kétnyelvű jegyzőkönyvekkel.'
+  dateModified: '2026-08-15'
+  keywords:
+    - 'SUP minőség-ellenőrzés'
+    - 'SUP gyárinspekció'
+    - 'OEM minőségvizsgálati terv'
+    - 'SUP szállítás előtti inspekció'
+    - 'CE-tanúsítás SUP'
+    - 'ISO 9001 SUP'
+hero:
+  tagline: Minőség-ellenőrzés egyedi projektekhez
+  title: 'Minőség-ellenőrzés egyedi felfújható SUP deszkás projektekhez'
+  subtitle: 'A minőséget minden projektnél a jóváhagyott mintához, a műszaki specifikációhoz, a grafikához, az anyaglista-hoz és a csomagolási igényekhez viszonyítva ellenőrizzük – nem egy általános állításhoz. A beérkező anyagoktól a szállítási engedélyig terjedő vizsgálati folyamatunk úgy van felépítve, hogy a meghatározott gyártási szakaszokban ellenőrizze a termék megfelelőségét. A QINGDAO VATRAD GROUP támogatásával, amely a Vatrad mögött álló 12,500 m²-es felfújható SUP deszkagyár.'
+stats:
+  - value: 100%
+    label: Nyomáspróbának alávetett darabok
+  - value: '7'
+    label: Felügyelt vizsgálati kapu
+  - value: 18.0 PSI
+    label: 24 órás nyomástartás
+  - value: ISO 9001
+    label: Minőségtanúsítvány
+quality_basis:
+  tagline: A minőség alapja
+  title: 'Mi határozza meg a termék elfogadását'
+  subtitle: 'A végső elfogadási kritériumokat a gyártás engedélyezése előtt rögzítjük. Ezek a felügyelt projekt dokumentumai határozzák meg, mit kell gyártani, hogyan ellenőrzik a lényeges részleteket, és mit kell ellenőrizni szállítás előtt – a vevővel együtt jóváhagyva, és a Minőségvizsgálati Tervbe (QIP) beépítve. Bármely módosítási kérés a dokumentált változtatáskezelésen megy keresztül, soha nem csendben a gyártósoron.'
+  items:
+    - title: 'Jóváhagyott minta'
+      description: 'A vevő által aláírt fizikai referencia-deszka. Minden kész deszkát összevetünk vele a méretek, a profil, a merevség és a kidolgozás szempontjából.'
+      icon: tabler:medal
+    - title: 'Műszaki specifikáció'
+      description: 'Az anyagok, a kivitelezés és a méretrajzok egy rögzített revíziószámon. Az FAI az első darabot pontosan ehhez a revízióhoz hasonlítja.'
+      icon: tabler:file-check
+    - title: 'Jóváhagyott grafika'
+      description: 'A grafika, a nyomtatási színek és az elhelyezés vágás előtt verzióként rögzítve és jóváhagyva, hogy minden darab a márka által jóváhagyott megjelenésben kerüljön szállításra.'
+      icon: tabler:palette
+    - title: 'Ügyfél által jóváhagyott BOM'
+      description: 'Az anyaglista – deszka, ezenyél, pumpa, zsinór, hátizsák, kézikönyv –, amelyet a vevő megerősít. A PSI 100%-ban ellenőrzi a készlet teljességét a BOM alapján.'
+      icon: tabler:list-checks
+    - title: 'Csomagolási és címkézési igények'
+      description: 'A doboz szerkezete, a jelölések, a vonalkódok, a címkék tartalma és a szállítási jelölések írásban rögzítve. A vonalkód olvashatóságát és a jelölések pontosságát a PSI ellenőrzi.'
+      icon: tabler:package
+tests:
+  - title: Nyomáspróba
+    description: A felfújható rekeszek ajánlott üzemi határaikat meghaladó nyomásnak vannak kitéve, huzamosabb ideig. Ez ellenőrzi a levegőtömörséget, valamint az anyag és a varratok szerkezeti épségét, biztosítva, hogy a termék elviselje a rendeltetésszerű használatot és az esetleges túlfújást törés vagy szivárgás nélkül.
+    image: https://assets.isupfactory.com/images/sups/factory/isupfactory-pressure-testing.webp
+    alt: Nyomáspróbának alávetett felfújható SUP rekesz a levegőtömörség ellenőrzésére
+  - title: Ütési vizsgálat
+    description: A termékeket különböző súlyokból és szögekből végzett szabályozott ütések érik. Ez értékeli az anyag perforációval, szakadással és a vízben lévő akadályokkal való ütközésből eredő sérülésekkel szembeni ellenállását, demonstrálva a tartósságot és az élettartamot.
+    image: https://assets.isupfactory.com/images/sups/factory/isupfactory-production-department.webp
+    alt: Ütésvizsgáló állás, amely a felfújható csónakok anyagának perforációval szembeni ellenállását értékeli
+  - title: UV-sugárzással szembeni ellenállás vizsgálata
+    description: Anyagmintákat gyorsított UV-sugárzásnak tesszük ki annak ellenőrzésére, hogy nem sárgulnak el, nem repedeznek, és nem veszítenek szilárdságot az idő során. Minden PVC-lotot ellenőrzünk a napfény okozta bomlásra a gyártásban való felhasználás előtt.
+    image: https://assets.isupfactory.com/images/sups/factory/isupfactory-uv-resistance-testing.webp
+    alt: PVC-anyagminták gyorsított UV-sugárzás alatt az ellenállás vizsgálatakor
+  - title: Kopásállóság vizsgálata
+    description: Anyagmintákat meghatározott számú ciklusban, szabályozott nyomás alatt dörzsölünk dörzsölő felületekhez. Ez méri az anyag kopással szembeni ellenállását az ismételt használat, a homokkal, kővel vagy más felületekkel való érintkezés során, biztosítva a hosszú távú tartósságot.
+    image: https://assets.isupfactory.com/images/sups/factory/isupfactory-pvc-material-testing.webp
+    alt: Kopásvizsgáló gép, amely egy PVC-anyagmintát dörzöl a kopással szembeni ellenállás mérésére
+  - title: Alacsony hőmérsékleti teljesítményvizsgálat
+    description: A termékeket hideg környezetben vizsgáljuk, hogy értékeljük működőképességüket és tartósságukat változó hőmérsékleti viszonyok között, megelőzve a merevséget vagy a repedést a hidegebb vízben. Alapvető a hideg évszakban vagy magas szélességi körökben használatra szánt csónakoknál.
+    image: https://assets.isupfactory.com/images/sups/factory/isupfactory-factory-exterior.webp
+    alt: Felfújható termék hidegkamrában az alacsony hőmérsékleti teljesítmény vizsgálatához
+  - title: Lebegőképesség és teherbíró képesség vizsgálata
+    description: A termékeket különböző súlyokkal vizsgáljuk a maximális teherbíró képesség meghatározására és annak biztosítására, hogy a felhasználókat és a felszerelést biztonságosan megtartják. Minden típus névleges kapacitását engedélyezés előtt ellenőrizzük.
+    image: https://assets.isupfactory.com/images/sups/factory/isupfactory-stock-boat-inventory.webp
+    alt: Lebegőképesség- és teherbíróképesség-vizsgálat súlyokkal egy felfújható vízi járművön
+  - title: Kezelhetőség vizsgálata
+    description: A termékeket evezési vagy motoros műveletekre adott válaszukra vizsgáljuk, értékelve a fordulási sugarat és a kezelés egyszerűségét. A vízi próbák validálják, hogy a tényleges kezelés megfelel a tervezési specifikációknak.
+    image: https://assets.isupfactory.com/images/sups/factory/isupfactory-sup-manufacturing.webp
+    alt: Víz kezelhetőségi vizsgálat felfújható SUP deszkákkal és csónaktörzsekkel
+  - title: Vízállóság vizsgálata
+    description: A teljesen összeállított termékeket bemerítjük vagy vízzel permetezzük, hogy ellenőrizzük a varratokon, szelepeken vagy az anyagon keresztüli szivárgásokat. Minden csónak kötelező vízállósági ellenőrzésen megy keresztül szállítás előtt.
+    image: https://assets.isupfactory.com/images/sups/factory/isupfactory-production-department-2.webp
+    alt: Beméréses tömörségi vizsgálat, amely a varratokat és a szelepeket ellenőrzi szivárgásra
+qc_flow:
+  tagline: A 7 szakasz vizsgálati folyamata
+  title: 'Hét felügyelt minőségi kapu egyik végétől a másikig'
+  subtitle: 'Az alábbi minden kapu definíva van a projekt Minőségvizsgálati Tervében, a vizsgálat tárgyával, a módszerrel, az elfogadási kritériumokkal és a nyilvántartás eredményével. A kétnyelvű jegyzőkönyvdossziék valódi felügyelt nyilvántartások – nyisson meg bármelyiket a tényleges struktúra megtekintéséhez.'
+  obj_label: A vizsgálat tárgya
+  method_label: Vizsgálati módszer
+  criteria_label: Elfogadási kritériumok
+  record_label: A nyilvántartás eredménye
+  stages:
+    - stage: 01. SZAKASZ
+      title: 'A projekt minőségtervezése (PPM)'
+      summary: 'Az előkészítő ülés rögzíti a hatókört, a kiindulási alapokat és a vizsgálati tervet a sor indítása előtt.'
+      checks:
+        - 'A termék neve, a belső kód, az ügyfél SKU-ja, a megrendelés száma és a lot meghatározása nyilvántartásba kerül.'
+        - 'A deszka típusa, a drop-stitch mag, az anyagok, a sínek, az EVA, a szelepek és az uszonyrendszer meghatározásra kerül.'
+        - 'A grafikafájl neve, a verzió, a színek, a logó helyzete és a nyomtatási terület rögzítve és jóváhagyva.'
+        - 'A BOM – a készlet minden eleme mennyiséggel, színnel, alkatrészkóddal és helyettesítési szabályokkal – az ügyfél által jóváhagyva.'
+        - 'A csomagolás, a címkézés, a vonalkódok, a kézikönyvek nyelve és a harmadik fél vizsgálatának elrendezése írásban rögzítve.'
+      object: 'A projekt hatóköre az ügyfél igényeihez képest – anyagok, méretek, grafika, csomagolás, célpiac és az alkalmazandó szabványok.'
+      method: 'Előkészítő ülés az értékesítéssel, a mérnökséggel és a minőségbiztosítással; az Aranyminta aláírása; a Minőségvizsgálati Terv (QIP) kiállítása a megrendeléshez.'
+      criteria: 'Mind az öt kiindulási alap jóváhagyva és beépítve, mielőtt a tömeggyártás megkezdődik. A rendezetlen tételek blokkolják a gyártás engedélyezését.'
+      record: 'QIP + PPM jegyzőkönyv, a jóváhagyott minta nyilvántartásai.'
+      image: https://assets.isupfactory.com/site/quality/node01-ppm.avif
+      alt: Előkészítő ülés, amely egy OEM SUP megrendelés aranymintáját és minőségvizsgálati tervét vizsgálja
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_SUP_OEM_QIP.pdf
+      link_label: 'QIP letöltése (PDF)'
+    - stage: 02. SZAKASZ
+      title: 'Beérkező anyagok vizsgálata (IQC)'
+      summary: 'Az alapanyagokat a beszállító jóváhagyott specifikációjához viszonyítva ellenőrizzük, mielőtt gyártásba kerülnének.'
+      checks:
+        - 'A drop-stitch szövetet, a PVC-tekercseket, a sínek anyagát és az EVA felületeket a jóváhagyott mintához viszonyítva ellenőrizzük – szín, vastagság, súly és felületi hibák.'
+        - 'A szelepeket, usnyonzsámokat, D-gyűrűket, fogantyúkat és szerelvényeket ellenőrizzük típus, méret, kidolgozás, korrózió és megfelelő működés szempontjából.'
+        - 'A pumpákat, evezőket, köteleket, táskákat és javítókészleteket modell, szín és projektkonfiguráció szempontjából ellenőrizzük.'
+        - 'A beszállítói tanúsítványokat (COA), az anyagnyilatkozatokat és a REACH/RoHS megfelelőségi dokumentumokat minden lothoz elemezzük.'
+        - 'A nem megfelelő lotokat karanténba helyezzük és visszaküldjük, mielőtt bármilyen anyag sorra kerülne.'
+      object: 'A drop-stitch szövet, a PVC-tekercsek, a szelepek, az uszonyok, a kiegészítők és a csomagolóanyagok a jóváhagyott specifikációhoz és a beszállítói vizsgálati tanúsítványokhoz képest.'
+      method: 'Vizuális, méret- és súlyellenőrzés; AQL szerinti lottmintavétel; anyagtanúsítványok elemzése; a jóváhagyott beszállítói lista kötelező.'
+      criteria: 'Megfelel a specifikációnak és a jóváhagyott tanúsítványoknak. A nem megfelelő lotokat karanténba helyezzük és a sorra engedélyezés előtt elutasítjuk.'
+      record: 'IQC vizsgálati jelentések lotreferenciákkal és rendelkezésekkel.'
+      image: https://assets.isupfactory.com/site/quality/node02-iqc.avif
+      alt: A PVC-szövet és a SUP alkatrészek beérkező anyagvizsgálata a gyárban
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_IQC_TEST_REPORTS.pdf
+      link_label: 'IQC jelentések letöltése (PDF)'
+    - stage: 03. SZAKASZ
+      title: 'Folyamatközi ellenőrzés és első darab (IPQC / FAI)'
+      summary: 'A kivitelezési módszereket és az ellenőrzési pontokat a jóváhagyott deszkaplatform és a projekt konfigurációja alapján választjuk ki. Az első darabot a beépített kiindulási alapokhoz viszonyítva ellenőrizzük; minden forduló fenntartja a soron végzett járőri ellenőrzéseket.'
+      checks:
+        - 'Az első darabot a jóváhagyott mintához, a műszaki rajzhoz, a BOM-hoz, a grafikához és a csomagolási fájlokhoz viszonyítva ellenőrizzük a tömeggyártás megkezdése előtt.'
+        - 'A deszka méreteit, körvonalát és szimmetriáját mérjük; a mag és a logó irányát, helyzetét, színeit és revízióját megerősítjük.'
+        - 'A varratokat és a sínek folytonosságát hézagok, delamináció, gyűrődés, szennyeződés vagy sorbeli eltolódás szempontjából ellenőrizzük.'
+        - 'A szelep, a D-gyűrű, a fogantyú és az usnyszám beépítését helyzet, mennyiség és az ügyfél által jóváhagyott BOM szerinti egyezés szempontjából ellenőrizzük.'
+        - 'Az FAI jóváhagyása verzióként rögzíti a grafikát, a méreteket és a BOM-ot; az eltérések a javítási döntési folyamatba kerülnek – soha nem ad hoc csomagolásba a soron.'
+      object: 'Az első darab és a folyamatban lévő összeállítások – varratok, sínek, usnyszám, szelepalap, a grafika helyzete, a szerelvény illeszkedése.'
+      method: 'Első darab vizsgálata az első egységen; járőri ellenőrzések minden fordulóban; a varratok szilárdságának és illeszkedésének ellenőrzése a soron.'
+      criteria: 'Az FAI jóváhagyása verzióként rögzíti a grafikát, a méreteket és a BOM-ot. Az eltérések a javítási döntési folyamatba kerülnek – soha nem ad hoc csomagolásba a soron.'
+      record: 'FAI nyilvántartás, fordulónkénti járőri naplók, javítási és rendelkezési jegyzetek.'
+      image: https://assets.isupfactory.com/site/quality/node03-ipqc-fai.avif
+      alt: Folyamatközi ellenőrzés és elsődarab-ellenőrzés a SUP deszkák gyártása során
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_IPQC_TEST_REPORTS.pdf
+      link_label: 'IPQC jelentések letöltése (PDF)'
+    - stage: 04. SZAKASZ
+      title: 'Felfújás és levegőtömörségi vizsgálat'
+      summary: 'Minden elkészült deszkát felfújunk és levegőtömörségi ellenőrzésnek vetünk alá csomagolás előtt – a darabok 100%-át, nem egy mintát.'
+      checks:
+        - 'A deszka felületét, a síneket és a szelepterületet mik perforáció, repedés, rendelleni gyűrődés vagy delamináció szempontjából ellenőrizzük felfújás előtt.'
+        - 'A rekeszeket kalibrált digitális nyomásmérővel a projekt vizsgálati nyomásáig fújjuk, és a kezdeti leolvasást rögzítjük.'
+        - 'A szelepmagot, a szelepalapot és a sínvarratokat a teljes kerület mentén ellenőrizzük – orr-, far- és ívelt területek.'
+        - '24 órás nyomástartás folyamatos nyilvántartással; automatikus elutasítás a megengedett nyomáscsökkenés felett.'
+        - 'A hibás deszkákat karanténba helyezzük, az utasítás szerint kijavítjuk, és teljes egészükben újrateszteljuk – nem csupán újraellenőrizzük a javítási ponton.'
+      object: 'A felfújt rekeszek 100%-a – a teljes varrat menti szivárgásfelismerés, a szelep épsége és a nyomáscsökkenés megtartása.'
+      method: 'A teljes varrat menti szivárgásfelismerés, majd 24 órás nyomástartás 18.0 PSI-en; automatikus elutasítás 0.50 PSI-nél nagyobb csökkenés esetén.'
+      criteria: 'Nulla szivárgási pont és a rekeszenkénti nyomáscsökkenés a 0.50 PSI-es határon belül; a hibás darabokat karanténba helyezzük és kijavítjuk vagy megsemmisítjük.'
+      record: 'Levegőtömörségi vizsgálati jelentések, rekeszenként egy, a lothoz kötve.'
+      image: https://assets.isupfactory.com/site/quality/node04-airtightness.avif
+      alt: Felfújható SUP rekesz felfújása és levegőtömörségi vizsgálata
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_AIRTIGHTNESS_TEST_REPORTS.pdf
+      link_label: 'Légtömörségi jelentések letöltése (PDF)'
+    - stage: 05. SZAKASZ
+      title: 'Késztermék-vizsgálat (FQC)'
+      summary: 'A kész deszkákat megmérjük és kozmetikailag minősítjük a jóváhagyott aranymintához képest.'
+      checks:
+        - 'A lényeges méreteket – hossz, szélesség, vastagság – üzemi nyomáson mérjük, a rajz szerinti tűréseknek megfelelően.'
+        - 'A deszka körvonalát, rockerét és szimmetriáját ellenőrizzük; felfújás után nincs deformáció, elcsavarodás vagy rendelleni görbület.'
+        - 'A megjelenést D65 természetes fényű lámpák alatt minősítjük: karcolások, foltok, ragasztónyomok, buborékok, gyűrődések, színeltérés.'
+        - 'Funkcionális ellenőrzések: a szelep nyitása/zárása és a sapka rögzítése, az uszony behelyezése és reteszelése, a D-gyűrűk, a fogantyúk és az ezenyél működése.'
+        - 'A konfigurációt az ügyfél által jóváhagyott BOM-hoz és SKU-hoz viszonyítva ellenőrizzük – kiegészítők, címkék, vonalkódok és sorozatszámok.'
+      object: 'A kész deszka az aranymintához képest – méretek, rocker, profil, megjelenés, az usnyszám illeszkedése és a kiegészítők teljessége.'
+      method: 'Méretellenőrzés a rajz szerinti tűréseknek megfelelően; a megjelenés minősítése D65 természetes fényű lámpák alatt; az usnyszám és a szerelvények illeszkedési próbái.'
+      criteria: 'A méretek tűrésen belül (pl. 3508 × 814 × 150.3 mm), a megjelenési osztály megfelel a jóváhagyott mintának, minden kiegészítő jelen van.'
+      record: 'FQC jelentések az ellenőr aláírásával és a rendelkezéssel.'
+      image: https://assets.isupfactory.com/site/quality/node05-fqc.avif
+      alt: A kész SUP deszkák késztermék-vizsgálata csomagolás előtt
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_FQC_TEST_REPORTS.pdf
+      link_label: 'FQC jelentések letöltése (PDF)'
+    - stage: 06. SZAKASZ
+      title: 'Csomagolás és szállítás előtti vizsgálat (PSI)'
+      summary: 'A csomagolt készletet ellenőrizzük a teljesség, a jelölések pontossága és a szállítás előkészítése szempontjából.'
+      checks:
+        - 'A készlet 100%-os teljessége a BOM alapján: deszka, ezenyél, pumpa, kötél, hátizsák, javítókészlet és kézikönyv – sorban egy-egy készlet.'
+        - 'A kényes alkatrészeket védjük (pumpa- és ezenyéltasak), a deszkát a csomagolási SOP szerint hajtogatjuk, a kiegészítők megfelelnek a modellnek és a színnek.'
+        - 'A doboz grafikáját, márkajelölését, figyelmeztetéseit és nyelvi változatait a jóváhagyott grafikai revízióhoz viszonyítva ellenőrizzük.'
+        - 'A vonalkód típusát, számát, helyét és olvashatóságát ellenőrizzük; a szállítási jelölések, az SKU, a PO, a dobozszám és a mennyiség helyes.'
+        - 'A doboz méretei, a bruttó/nettó súly és a belső csomagolás megfelel a csomagolási specifikációnak; az ejtési vizsgálat eredményét rögzítjük, ha kért.'
+      object: 'A csomagolt készlet – deszka, ezenyél, pumpa, kötél, hátizsák, kézikönyv – az ügyfél által jóváhagyott BOM-hoz és a csomagolási specifikációhoz képest.'
+      method: 'A készlet 100%-os teljessége a BOM alapján; vonalkódolvasás (Grade ≥ B); a dobozjelölések pontossága; ISTA-1A ejtési vizsgálat a csomagolt dobozokon.'
+      criteria: 'A készlet 100%-ban megfelel a BOM-nak, olvasható vonalkódok, helyes jelölések és a rakodás előtti ejtésálló csomagolás.'
+      record: 'PSI ellenőrzőlisták és csomagolási nyilvántartások minden dobozon.'
+      image: https://assets.isupfactory.com/site/quality/node06-psi.avif
+      alt: Szállítás előtti vizsgálat, amely a csomagolt SUP készletet ellenőrzi a BOM alapján
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_PSI_TEST_REPORTS.pdf
+      link_label: 'PSI jelentések letöltése (PDF)'
+    - stage: 07. SZAKASZ
+      title: 'Szállítási engedély és követhetőség'
+      summary: 'A minőség csak akkor írja alá a lót, ha mind a hat korábbi kapu lezárult, és minden nyilvántartás teljes.'
+      checks:
+        - 'A gyártólot, a megrendelés száma, az SKU, a mennyiség és a dobozszám megegyezik a csomagolási jegyzékkel és a kereskedelmi számlával.'
+        - 'A specifikáció-, BOM-, grafika- és csomagolási fájlok mind a jelenleg jóváhagyott revízión vannak.'
+        - 'Az IQC-, FAI-, folyamatközi, légtömörségi, FQC- és PSI-nyilvántartások teljesek az engedélyezett lotra.'
+        - 'Minden nem megfelelés rendezve, kijavítva, újraellenőrizve és lezárva – az engedélyezéskor nincs nyitott tétel.'
+        - 'A követhetőségi mezők lotonként rögzülnek: projektkód, PO, SKU, a grafika/BOM/csomagolás revíziói, gyártási dátum, ellenőr és a nyilvántartások száma.'
+      object: 'A lot engedélyezésének jóváhagyása – minden kapu lezárva, teljes nyilvántartás, a sorozatszámok a lothoz rendelve.'
+      method: 'Mind a hat korábbi nyilvántartás kapuszemléletű felülvizsgálata a minőségbiztosítás részéről; a lot összeállított követhetőségi dossziéja; a nyilvántartások átadása a szállítással együtt.'
+      criteria: 'Minden kapu QA-jóváhagyva; a lot nyilvántartásai és a követhetőségi dosszié átadva a vevőnek, vagy kérésre NDA alatt megőrizve.'
+      record: 'A szállítási engedély és a lot követhetőségi dossziéja.'
+      image: https://assets.isupfactory.com/site/quality/node07-shipment-release.avif
+      alt: A szállítási engedély aláírása és a lot követhetőségi nyilvántartásának átadása
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_SHIPMENT_RELEASE_REPORTS.pdf
+      link_label: 'Engedélyezési jelentések letöltése (PDF)'
+system_map:
+  tagline: A minőségügyi rendszer
+  title: 'Egy rendszer, négy felügyelt szabvány'
+  subtitle: 'A fenti hét kapu négy dokumentált szabványon működik, amelyek mindegyike letölthető és auditálható felügyelt eljárásként publikálva. Együtt alkotják azt a minőségirányítási rendszert, amely minden OEM/ODM megrendelés mögött áll – vizsgálati kritériumok, változtatáskezelés, nem megfelelőség és laboratóriumi tesztelés.'
+  items:
+    - title: 'Vizsgálati és engedélyezési szabványok'
+      description: 'A projekt QIP-je vezeti minden kaput: a vizsgálat tárgyát, a módszert, az elfogadási kritériumokat és a nyilvántartás eredményét minden megrendeléshez. Tartalmazza a 4 szakaszos QC keretrendszert, a követhetőségi láncot, a karantén folyamatot, a hibamátrixot és a 00–15 közötti dokumentációs nyilvántartást.'
+      icon: tabler:clipboard-check
+      link: /hu/factory/quality-inspection
+      link_label: 'Vizsgálati szabványok és QMS letöltések'
+    - title: 'Változtatáskezelés a javításban'
+      description: 'Nincs dokumentálatlan változtatás a javítási paraméterekben: elszigetelés, kockázatbesorolás, 9 lépéses változtatási kör, jóváhagyási és validációs mátrix. A jóváhagyott specifikációk, minták, BOM-ok vagy elfogadási kritériumok bármely változtatásához az ügyfél írásbeli jóváhagyása szükséges.'
+      icon: tabler:git-branch
+      link: /hu/factory/quality-change-control
+      link_label: 'A változtatáskezelés szabványa'
+    - title: 'Nem megfelelő termékek kezelése'
+      description: 'Az ISO 9001:2015 8.7 pontjának megfelelő 7 lépéses zárt kör: azonosítás, karantén, NCR szerinti rendelkezés, javítás vagy elutasítás, újraellenőrzés, engedélyezés, korrekció. Tartalmazza a súlyosság szerinti hatáskört, a SUP hibák rendelkezési mátrixát és a felügyelt megsemmisítést.'
+      icon: tabler:alert-triangle
+      link: /hu/factory/non-conforming-control
+      link_label: 'A nem megfelelő termékek kezelésének szabványa'
+    - title: 'Laboratóriumi tesztelés és eszközök'
+      description: 'A minőségi laboratórium a gyártástól függetlenül működik: szakítás, nyomáscsökkenés, UV-öregítés, varratházasodás, szivárgásfelismerés és hőmérsékleti kamrák – a publikált állításaink mögött álló kalibrációs és vizsgálati eljárásokkal.'
+      icon: tabler:flask
+      link: /hu/factory/quality-lab
+      link_label: 'A minőségi laboratórium és a vizsgálóeszközök'
+    - title: 'Anyagvizsgáló laboratórium (C&D)'
+      description: 'A C&D központ független anyagvizsgálatot végez PVC/Hypalon formulákra, gyorsított öregítésre, és támogatja a tanúsításokat, feltáplálva a gyártásban használt szabványokat.'
+      icon: tabler:microscope
+      link: /hu/randdcenter/quality-inspection-lab
+      link_label: 'A C&D anyagvizsgáló laboratórium'
+intelligence_cards:
+  tagline: Dokumentáció és követhetőség
+  title: 'Minőségi nyilvántartások, amelyek alátámasztják a projekt követhetőségét'
+  subtitle: 'A vizsgálati nyilvántartásokat gyártólotonként őrizzük, és a projekt alkalmazandó dokumentációjához kapcsoljuk – a specifikáció revíziójához, a grafika revíziójához, a BOM-hoz és a csomagolási igényekhez. Az ügyfél bizalmas jellege érdekében az ezen az oldalon látható minták anonimizáltak: csak a strukturális mezők jelennek meg (projektkód, termék/SKU, lot, vizsgálati szakasz, vizsgálati tétel, elfogadási kritériumok, eredmény, ellenőr, dátum és engedélyezési állapot).'
+  cards:
+    - icon: 1
+      icon_bg: blue
+      title: Beérkező anyagok vizsgálatának nyilvántartása
+      desc: 'Bizonyítja, hogy az alapanyagokat, a drop-stitch szöveteket, a PVC-tekercseket és az alkatrészeket a gyártás engedélyezése előtt ellenőrizték a jóváhagyott specifikációhoz képest.'
+      metrics:
+        - { label: Szakasz, value: '02 · IQC' }
+        - { label: Lot refer., value: 'LOT-DEMO-DS-0814' }
+        - { label: Eredmény, value: 'Megfelelt · Jóváhagyva gyártásra' }
+      link: 'https://assets.isupfactory.com/site/downloads/anonymized-quality-record-samples.pdf#page=1'
+      link_label: 'Anonimizált minta megtekintése (PDF)'
+    - icon: 2
+      icon_bg: green
+      title: Első darab vizsgálatának nyilvántartása (FAI)
+      desc: 'Bizonyítja a verzióként való rögzítést (grafika, méretek, BOM-specifikációk) a teljes tömeggyártásba lépést megelőzően.'
+      metrics:
+        - { label: Szakasz, value: '03 · IPQC' }
+        - { label: Minta kódja, value: 'SN-DEMO-FAI-001' }
+        - { label: Eredmény, value: 'Megfelelt · FAI jóváhagyva' }
+      link: 'https://assets.isupfactory.com/site/downloads/anonymized-quality-record-samples.pdf#page=2'
+      link_label: 'Anonimizált minta megtekintése (PDF)'
+    - icon: 3
+      icon_bg: purple
+      title: Felfújási és légtömörségi vizsgálat nyilvántartása
+      desc: 'Ellenőrzi a teljes varrat menti szivárgásfelismerést 100%-ban, a szelep épségét és a nyomáscsökkenés megtartását a projekt minőségterve szerint.'
+      metrics:
+        - { label: Szakasz, value: '04 · Légtömörség' }
+        - { label: Vizsgálati feltétel, value: 'A projekt terve szerint (18.0 PSI)' }
+        - { label: Eredmény, value: 'Megfelelt · Jóváhagyva végső vizsgálatra' }
+      link: 'https://assets.isupfactory.com/site/downloads/anonymized-quality-record-samples.pdf#page=3'
+      link_label: 'Anonimizált minta megtekintése (PDF)'
+    - icon: 4
+      icon_bg: orange
+      title: Késztermék-vizsgálati jelentés
+      desc: 'Validálja a kész deszkát a jóváhagyott mintához képest méretek, rocker, megjelenés (D65 fény) és az usnyszám illeszkedése szempontjából.'
+      metrics:
+        - { label: Szakasz, value: '05 · FQC' }
+        - { label: Méretek, value: '3508 × 814 × 150.3 mm' }
+        - { label: Eredmény, value: 'Megfelelt · Jóváhagyva csomagolásra' }
+      link: 'https://assets.isupfactory.com/site/downloads/anonymized-quality-record-samples.pdf#page=4'
+      link_label: 'Anonimizált minta megtekintése (PDF)'
+    - icon: 5
+      icon_bg: green
+      title: Csomagolási és szállítás előtti vizsgálat ellenőrzőlistája
+      desc: 'Biztosítja a készlet 100%-os teljességét, a vonalkódok olvashatóságát (Grade ≥ B), a dobozjelölések pontosságát és az ISTA-1A szerinti ejtésállóságot.'
+      metrics:
+        - { label: Szakasz, value: '06 · PSI' }
+        - { label: Készlet, value: '100% a BOM szerint' }
+        - { label: Eredmény, value: 'Megfelelt · Jóváhagyva szállításra' }
+      link: 'https://assets.isupfactory.com/site/downloads/anonymized-quality-record-samples.pdf#page=5'
+      link_label: 'Anonimizált minta megtekintése (PDF)'
+doc_register:
+  tagline: A felügyelt dokumentumok nyilvántartása
+  title: 'Minden dokumentum egy szállítás mögött, felsorolva'
+  subtitle: 'Minden megrendelés 00–15 közötti strukturált dokumentációs nyilvántartást generál – projektindex, jóváhagyott specifikáció, BOM, grafikai és csomagolási hivatkozások, QIP, vizsgálati nyilvántartások, NCR, változtatáskezelés, harmadik fél briefje és engedélyezési összefoglaló. Töltse le a nyilvános dokumentumokat a pontos struktúra és az ellenőrzési kritériumok megtekintéséhez.'
+  items:
+    - title: '00 · A projekt Minőségvizsgálati Terve (QIP)'
+      description: 'A minőségi szerződés minden megrendeléshez: kapuk, vizsgálati hatókör, módszerek, elfogadási kritériumok és az a nyilvántartás, amelyet Ön kap.'
+      icon: '00'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_SUP_OEM_QIP.pdf
+      link_label: 'QIP letöltése (PDF)'
+    - title: '01 · A minőség vizsgálatának szabványai'
+      description: 'A teljes vizsgálati és biztosítási szabvány, amelyet az egyedi felfújható SUP deszka megrendelésekre alkalmazunk.'
+      icon: '01'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_Quality_Inspection_Standards.pdf
+      link_label: 'A szabványok letöltése (PDF)'
+    - title: '02 · Minőségi dokumentációs csomag'
+      description: 'A teljes dokumentumszerkezet, amelyet egy projekt kap, egyetlen bemutatkozó csomagban.'
+      icon: '02'
+      link: https://assets.isupfactory.com/site/downloads/Qingdao_Vatrad_Group_SUP_Quality_Documentation_Pack.pdf
+      link_label: 'A csomag letöltése (PDF)'
+    - title: '03 · IQC vizsgálati jelentések'
+      description: 'Beérkező anyagok vizsgálati jelentései – szövet, PVC-tekercsek, szelepek és alkatrészek.'
+      icon: '03'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_IQC_TEST_REPORTS.pdf
+      link_label: 'IQC jelentések letöltése (PDF)'
+    - title: '04 · IPQC vizsgálati jelentések'
+      description: 'Folyamatközi és elsődarab-vizsgálati jelentések a beépített revízióhoz képest.'
+      icon: '04'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_IPQC_TEST_REPORTS.pdf
+      link_label: 'IPQC jelentések letöltése (PDF)'
+    - title: '05 · Légtömörségi vizsgálati jelentések'
+      description: 'A varratok menti szivárgásfelismerés 100%-ban, a szelep épsége és a nyomástartás nyilvántartásai.'
+      icon: '05'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_AIRTIGHTNESS_TEST_REPORTS.pdf
+      link_label: 'Légtömörségi jelentések letöltése (PDF)'
+    - title: '06 · FQC vizsgálati jelentések'
+      description: 'A kész deszka vizsgálata a jóváhagyott mintához képest – méretek, megjelenés, usnyszám.'
+      icon: '06'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_FQC_TEST_REPORTS.pdf
+      link_label: 'FQC jelentések letöltése (PDF)'
+    - title: '07 · PSI vizsgálati jelentések'
+      description: 'A csomagolás és a termék vizsgálata szállítás előtt – 100%-os készletteljesség, vonalkód-minősítés, ejtésállóság.'
+      icon: '07'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_PSI_TEST_REPORTS.pdf
+      link_label: 'PSI jelentések letöltése (PDF)'
+    - title: '08 · Szállítási engedélyezési jelentések'
+      description: 'Az engedélyezés jóváhagyása aláírva, amikor minden kapu lezárult, a lot dossziéjával együtt.'
+      icon: '08'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_SHIPMENT_RELEASE_REPORTS.pdf
+      link_label: 'Engedélyezési jelentések letöltése (PDF)'
+    - title: '09 · Követhetőségi és NCR dosszié'
+      description: 'A lot specifikációhoz/grafikához/BOM-hoz vezetett követhetősége, valamint a nem megfelelőségi ellenőrzés nyilvántartásai.'
+      icon: '09'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_BATCH_TRACEABILITY_AND_NCR_CONTROL_DOSSIER.pdf
+      link_label: 'A dosszié letöltése (PDF)'
+    - title: '10 · NCP-kezelési SOP (ISO 8.7)'
+      description: 'A nem megfelelő termékek karanténba helyezésének, kezelésének, javításának és engedélyezésének felügyelt eljárása.'
+      icon: '10'
+      link: https://assets.isupfactory.com/site/downloads/non-conforming-product-control-sop-iso-8-7.pdf
+      link_label: 'SOP letöltése (PDF)'
+    - title: '11 · Javítási változtatáskezelési SOP + Melléklet'
+      description: 'A változtatáskezelési eljárás és a végrehajtási melléklete – elszigetelés, jóváhagyás és validáció.'
+      icon: '11'
+      link: https://assets.isupfactory.com/site/downloads/rework-change-control-sop-qms-sop-qc-cc-001.pdf
+      link_label: 'SOP letöltése (PDF)'
+    - title: '12 · Szállítás előtti engedélyezési összefoglaló'
+      description: 'A kétnyelvű engedélyezési összefoglaló, amelyet minden lottal együtt szállítunk, és amely összeköti a teljes nyilvántartást.'
+      icon: '12'
+      link: https://assets.isupfactory.com/site/downloads/Pre_Shipment_Release_Summary_Bilingual.pdf
+      link_label: 'Az összefoglaló letöltése (PDF)'
+    - title: '13 · Harmadik fél vizsgálati brief sablon'
+      description: 'Az a tájékoztató sablon, amelyet az ellenőrök a szállítás előtti vizsgálat bejelentésére, ütemezésére és jelentésére használnak.'
+      icon: '13'
+      link: https://assets.isupfactory.com/site/downloads/Third_Party_Inspection_Brief_Template.pdf
+      link_label: 'A sablon letöltése (PDF)'
+    - title: '14 · PSI ellenőrzőlista'
+      description: 'A soron használt szállítás előtti ellenőrzőlista – készletteljesség, vonalkód-minősítés, jelölések és ejtésállóság.'
+      icon: '14'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_SUP_Pre_Shipment_Inspection_Checklist.pdf
+      link_label: 'Az ellenőrzőlista letöltése (PDF)'
+    - title: '15 · OEM projekt megvalósíthatósági és minőségi útmutató'
+      description: 'Hogyan jut el egy projekt az igénytől a jóváhagyott aranymintáig – a mérnöki és minőségi lépések a tömeggyártás előtt.'
+      icon: '15'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_OEM_PROJECT_FEASIBILITY_AND_QUALITY_GUIDE.pdf
+      link_label: 'Az útmutató letöltése (PDF)'
+traceability:
+  tagline: Lot szintű követhetőség
+  title: 'Négy kérdés, amelyre minden lot válaszol'
+  subtitle: 'A minőségi nyilvántartásokat gyártólotonként őrizzük, és a termék alkalmazandó specifikációjához, a grafikához, a BOM-hoz és a csomagolási igényekhez kapcsoljuk. Ez támogatja a vizsgálatot és a szabályozott intézkedést, ha minőségi problémát azonosítunk. A vevő auditja során minőségi csapatunk magán a soron válaszol ezekre a négy kérdésre – minden válasz egy felügyelt nyilvántartásra mutat.'
+  items:
+    - title: 'Mit gyártottunk?'
+      description: 'A termék, a modell, a konfiguráció és a revízió a megrendelés számához és a jóváhagyott specifikáció revíziójához van kötve.'
+      icon: '1'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_BATCH_TRACEABILITY_AND_NCR_CONTROL_DOSSIER.pdf
+      link_label: 'A követhetőségi dosszié megtekintése (PDF)'
+    - title: 'Milyen anyagok érkeztek?'
+      description: 'Minden beérkező anyaglot nyilvántartásba vesszük a beszállítóval, a tanúsítvánnyal és az IQC-rendelkezéssel együtt.'
+      icon: '2'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_BATCH_TRACEABILITY_AND_NCR_CONTROL_DOSSIER.pdf
+      link_label: 'A követhetőségi dosszié megtekintése (PDF)'
+    - title: 'Ki vizsgálta és mikor?'
+      description: 'Minden nyilvántartás megadja az ellenőr szerepét, a dátumot, a használt eszközt és az eredményt – nincs névtelen aláírás.'
+      icon: '3'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_BATCH_TRACEABILITY_AND_NCR_CONTROL_DOSSIER.pdf
+      link_label: 'A követhetőségi dosszié megtekintése (PDF)'
+    - title: 'Hogyan engedélyezték a lót?'
+      description: 'A minőségügy csak akkor engedélyezi az átadást, ha minden kapu lezárult; a rendelkezést a nyilvántartás dokumentálja.'
+      icon: '4'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_BATCH_TRACEABILITY_AND_NCR_CONTROL_DOSSIER.pdf
+      link_label: 'A követhetőségi dosszié megtekintése (PDF)'
+non_conformance:
+  tagline: Nem megfelelő termékek kezelése
+  title: 'Hibát találunk: elkülönítjük, eldöntjük, dokumentáljuk'
+  subtitle: 'Azokat a termékeket vagy alkatrészeket, amelyek nem felelnek meg a meghatározott elfogadási kritériumoknak, azonosítjuk és ellenőrzött visszatartás alá helyezzük. A javítás vagy a csere csak az alkalmazandó minőségi eljárás szerint engedélyezett, és ezt engedélyezés előtti újraellenőrzés követi.'
+  items:
+    - title: 'Észlelés és elkülönítés'
+      description: 'A hibás darabokat piros címkével jelöljük és a karanténállomásra helyezzük át – további feldolgozás vagy csomagolás nem történhet rendelkezésig.'
+      icon: tabler:alert-triangle
+    - title: 'Rendelkezés NCR szerint'
+      description: 'A minőségügy Nemmegfelelési Jelentést állít ki, és a rendelkezési mátrix szerint irányítja a darabot a javításra, újraellenőrzésre, elutasításra vagy megsemmisítésre.'
+      icon: tabler:git-branch
+      link: /hu/factory/non-conforming-control
+      link_label: 'A nem megfelelő termékek kezelésének szabványa'
+    - title: 'Ellenőrzés és engedélyezés'
+      description: 'A kijavított darabokat ugyanazokkal a kritériumokkal vizsgáljuk újra; az NCR csak az újraellenőrzés megfelelő eredménye után zárul le.'
+      icon: tabler:shield-check
+    - title: 'Hulladékkezelés-ellenőrzés'
+      description: 'A megsemmisített anyagot aláírt hulladékbizonylattal semmisítjük meg, hogy soha ne kerülhessen vissza a raktárba vagy a piacra.'
+      icon: tabler:trash
+      link: https://assets.isupfactory.com/site/downloads/scrap-destruction-certificate-vat-qa-scrap-cert-2026.pdf
+      link_label: 'Hulladék- és megsemmisítési bizonylat (PDF)'
+    - title: 'Visszacsatolás a gyökérokhoz'
+      description: 'Az ismétlődő hibák korrekciós intézkedéseket váltanak ki az érintett folyamattal vagy beszállítóval együtt – zárt kör, nem csupán papírmunka.'
+      icon: tabler:refresh
+      link: https://assets.isupfactory.com/site/downloads/rework-change-control-sop-qms-sop-qc-cc-001.pdf
+      link_label: 'Javítási változtatáskezelési SOP (PDF)'
+third_party:
+  tagline: 'Támogatás a vevő által kijelölt és a független vizsgálathoz'
+  title: 'Az Ön vizsgálója szívesen jön a sorra'
+  subtitle: 'A vevő által kijelölt vagy független harmadik fél vizsgálatról (SGS, TÜV, Bureau Veritas, vámügynökségek) a gyártás engedélyezése előtt tárgyalhatunk. A vizsgálat hatókörét, a mintavételi szintet, az elfogadási kritériumokat, az ütemezést és a jelentési követelményeket a gyártás megkezdése előtt erősítsük meg. Ahol ez indokolt, a megállapodott vizsgálati terv szerint koordináljuk a hozzáférést a releváns gyártási, végső vizsgálati és csomagolási szakaszokhoz.'
+  items:
+    - title: 'A vizsgálat időzítése'
+      description: 'A belső vagy harmadik fél vizsgálatok a hét kapu bármelyikén megszervezhetők, az Ön vizsgálati terve alkalmazva elfogadási alapként.'
+      icon: tabler:calendar-clock
+      link: /hu/factory/quality-inspection
+      link_label: 'Vizsgálati szabványok és QMS letöltések'
+    - title: 'Szállítás előtti brief sablon'
+      description: 'Az a tájékoztató sablon, amelyet az ellenőrök a szállítás előtti vizsgálat bejelentésére, ütemezésére és jelentésére használnak az üzemünkben.'
+      icon: tabler:file-report
+      link: https://assets.isupfactory.com/site/downloads/Third_Party_Inspection_Brief_Template.pdf
+      link_label: 'A brief sablon letöltése (PDF)'
+    - title: 'PSI ellenőrzőlista'
+      description: 'A soron használt szállítás előtti ellenőrzőlista – készletteljesség, vonalkód-minősítés, jelölések és ejtésállóság.'
+      icon: tabler:clipboard-check
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_SUP_Pre_Shipment_Inspection_Checklist.pdf
+      link_label: 'PSI ellenőrzőlista letöltése (PDF)'
+    - title: 'Teljes minőségi dokumentációs csomag'
+      description: 'Egy dosszié, amely a teljes dokumentációs rendszert lefedi – QIP, a kapuk nyilvántartásai, követhetőség és NCR-kezelés.'
+      icon: tabler:books
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_COMPLETE_SUP_QUALITY_DOSSIER.pdf
+      link_label: 'A dokumentációs csomag letöltése (PDF)'
+    - title: 'OEM projekt megvalósíthatósági és minőségi útmutató'
+      description: 'Hogyan jut el egy projekt az igénytől a jóváhagyott aranymintáig – a mérnöki és minőségi lépések a tömeggyártás előtt.'
+      icon: tabler:route
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_OEM_PROJECT_FEASIBILITY_AND_QUALITY_GUIDE.pdf
+      link_label: 'A projekt útmutató letöltése (PDF)'
+content_certifications:
+  tagline: Tanúsítások és szabványok
+  title: 'Tanúsított minőség, amelyet globálisan elismernek'
+  subtitle: 'A tanúsítások csak annyit érnek, amennyit lefednek. Alább található a tanúsítás hatókörje, a tanúsítvány birtokosa, valamint hogyan ellenőrizheti vagy kérheti a dokumentumokat saját projektjéhez.'
+  items:
+    - title: 'CE-jelölés'
+      description: 'A CE megfelelőségi dokumentáció rendelkezésre áll az EU piacára vonatkozó konfigurációkhoz a 2013/53/EU irányelv szerint (szabadidős vízi járművek); a hatókört minden projektnél megerősítjük. A tanúsítványok számai és a vizsgálati jelentések kérésre rendelkezésre állnak.'
+      icon: tabler:certificate
+    - title: 'ISO 9001:2015'
+      description: 'Az ISO 9001:2015 szerint tanúsított minőségirányítási rendszer, amely a felfújható vízi járművek és tengeri felszerelések tervezését, gyártását és forgalmazását lefedi. A tanúsítás hatókörte és az auditjelentés kérésre rendelkezésre áll.'
+      icon: tabler:clipboard-check
+    - title: 'BSCI szociális megfelelőség'
+      description: 'A BSCI (Business Social Compliance Initiative) auditált, lefedve a munkafeltételeket és a gyár megfelelőségét. Az auditjelentés kérésre rendelkezésre áll.'
+      icon: tabler:heart-handshake
+    - title: 'REACH anyagmegfelelőség'
+      description: 'Az anyagok megfelelnek az EU vegyi biztonságról szóló REACH-rendeletének. Az anyagnyilatkozatokat minden szállítással együtt a gyártási dokumentáció részeként szolgáltatjuk.'
+      icon: tabler:flask
+    - title: 'RoHS megfelelőség'
+      description: 'A korlátozott veszélyes anyagokkal való megfelelés dokumentált a RoHS szerint az alkalmazandó alkatrészekre és anyagokra.'
+      icon: tabler:flame
+    - title: 'Anyagvizsgálat'
+      description: 'A szöveteket szakítási szilárdságra, szakadási ellenállásra, UV-bomlásra és hidegben történő repedésre vizsgáljuk. Minden gyártólot a közzétett vizsgálati protokoll szerint mintavételezünk és ellenőrzünk.'
+      icon: tabler:test-pipe
+faqs:
+  tagline: GYIK
+  title: Gyakori kérdések a minőségügyi rendszerünkről
+  items:
+    - q: 'Letölthetők a tényleges vizsgálati jelentések?'
+      a: 'Igen. Az ezen az oldalon lévő hét kétnyelvű jegyzőkönyvdosszié – QIP, IQC, IPQC/FAI, légtömörség, FQC, PSI és szállítási engedélyezés – valódi felügyelt nyilvántartások, a bizalmas mezők eltávolításával. Ezek feltüntetik a pontos struktúrát, módszereket és elfogadási kritériumokat, amelyeket minden megrendelésnél használunk.'
+    - q: 'Hogyan rendelik a hét kaput az én projektemhez?'
+      a: 'Minden projekt kap egy Minőségvizsgálati Tervet (QIP), amely meghatározza a termékére és piacára vonatkozó kapukat, az egyes kapuk vizsgálati hatókörét és azokat a nyilvántartásokat, amelyeket Ön kap. Töltse le a QIP mintáját ezen az oldalon a struktúra megtekintéséhez.'
+    - q: 'Valósak ezek a vizsgálati nyilvántartás-minták?'
+      a: 'Igen. A minták valós felügyelt nyilvántartási struktúránkat követik – dokumentumfejléc, vizsgálati ellenőrzőlista, elfogadási kritériumok, módszer, eredmények, az ellenőr szerepe és az engedélyezési rendelkezés. Az azonosító adatok helyett bemutató értékek (DEMO-* kódok) szerepelnek, így egyetlen ügyfél adatai, grafikája, megrendelése vagy ára sem kerül nyilvánosságra.'
+    - q: 'Miért anonimizáltak a minták?'
+      a: 'A vevő bizalmas jellege mindenekelőtt. Az ügyfélnevek, a grafika, a megrendelési adatok, a beszállítói információk és az árak tervezéssel védettek. Az anonimizáció lehetővé teszi, hogy bármelyik lehetséges vevő áttekintse a nyilvántartások struktúráját és a követhetőségünket anélkül, hogy másik ügyfél üzleti adatait kitenné.'
+    - q: 'Kaphatunk-e teljes vizsgálati jelentéseket a saját projektünkhöz?'
+      a: 'Igen. A jóváhagyott projekteknél rendelkezésre bocsátjuk az Ön megrendelésére vonatkozó minőségi dokumentációt – minőségvizsgálati terv, beérkező, folyamatközi, légtömörségi, végső és csomagolási vizsgálati jelentések, valamint a szállítási engedély – az Ön lotjának követhetőségéhez kötve. Az érzékeny üzleti adatok a megállapodottak szerint NDA alatt maradnak.'
+    - q: 'Mit tartalmaz egy lot szintű vizsgálati nyilvántartás?'
+      a: 'Minden nyilvántartás összeköti a gyártólotot az alkalmazandó specifikáció- vagy rajzrevízióval, rögzíti az egyes vizsgálati tételeket a saját elfogadási kritériumukhoz képest a használt módszerrel és eszközzel együtt, és az ellenőr szerepével, az eredmény állapotával, valamint a minőségügy által aláírt engedélyezési rendelkezéssel zárul.'
+evidence_review:
+  tagline: 'Bizonyítékok és ellenőrzés'
+  title: 'ELLENŐRZÖTT SPECIFIKÁCIÓK'
+  body: 'Az ezen az oldalon szereplő valamennyi gyártási állítást a laixi (Qingdao) üzemünk termelésmérnöki csapata ellenőriz. A tanúsítványok, a minőség-ellenőrzési vizsgálatok nyilvántartásai, a nyomás- és szerkezeti vizsgálati jelentések, valamint a lotok követhetőségi nyilvántartásai kérésre rendelkezésre állnak. A specifikációkat legutóbb 2026 szeptemberében ellenőriztük.'
+
+cta:
+  title: 'Minőségi igényekre van szüksége az Ön SUP-projektjéhez?'
+  subtitle: 'Adja át a termékkategóriát, a célpiacot, a becsült mennyiséget és a vizsgálati, dokumentációs vagy csomagolási igényeket. Megvizsgáljuk a projekt alkalmazandó tételeit, és jelezzük a következő lépést a minta kifejlesztéséhez vagy a gyártás ütemezéséhez. NDA-megbeszélés lehetséges, mielőtt nem nyilvános specifikációkat, grafikát vagy minőségi igényeket osztanánk meg.'
+  actions:
+    - variant: primary
+      text: Kérjen projektminőségi értékelést
+      href: /hu/contact#quality-inquiry
+    - text: Látogassa meg minőségvizsgálati laboratóriumunkat
+      href: /hu/randdcenter/quality-inspection-lab
+    - text: Vizsgálati szabványok és QMS letöltések
+      href: /hu/factory/quality-inspection
+    - text: A nem megfelelő termékek kezelésének szabványa
+      href: /hu/factory/non-conforming-control

@@ -1,0 +1,99 @@
+meta:
+  title: 'RF hegesztő központ – a SUP varratok dielektromos kötése | {SITE}'
+  description: 'Rádiófrekvenciás hegesztési technológia, amely tömör, nagy szilárdságú varratokat ad a SUP deszkáknak. Leválási próbák, levegőmegőrzés-validálás és testreszabott varratspecifikációk.'
+  dateModified: '2026-08'
+back_text: 'Vissza az R&D központba'
+home_label: 'Főoldal'
+
+answer:
+  label: 'Közvetlen válasz'
+  text: '15 kW-os RF dielektromos préseket használunk, amelyek 200–600 °C-os meleglevegő-egyenértékben hoznak létre molekuláris kötést a PVC varrataiban, majd minden hegesztést validálunk: ASTM D751 szerinti leválási próbák, 18.0 PSI nyomástartás a levegőmegőrzés ellenőrzésére, a varratok pedig darabonként dokumentáltak és nyomon követhetők.'
+  verified: '2026. szeptember'
+
+hero:
+  tagline: '03. laboratórium'
+  title: 'RF hegesztő központ'
+  subtitle: 'Dielektromos technológia a nyomásnak ellenálló varratokért'
+  image: 'https://assets.isupfactory.com/images/sups/products/sup-series/sup-jungle-mandala-1.webp'
+  image_alt: 'A Vatrad rádiófrekvenciás hegesztéssel végzett dielektromos kötési folyamata'
+
+intro: 'Egy felfújható SUP deszka csak annyira megbízható, amennyire megbízhatók a varratai. Egyetlen gyenge hegesztés egy teljes rekeszt veszélyeztethet – és a cipője alatt egy rekesz meghibásodása nem kellemetlenség, hanem biztonsági veszély. A {SITE.name} telephelyén külön Rádiófrekvenciás Hegesztő Központot építettünk, amely ipari minőségű dielektromos préseket, szigorú folyamatvezérlést és hegesztés utáni vizsgálatokat egyesít. Minden általunk gyártott varrat dokumentált, nyomon követhető és tanúsított, hogy megfeleljen a felfújható csónakokra vonatkozó nemzetközi szabvány követelményeinek, vagy azokat meghaladjon.'
+
+content_html: |
+  <h2>A varrat mögötti tudomány</h2>
+  <p>Az RF hegesztés nagyfrekvenciás elektromágneses energiát (általában 27.12 MHz) használ a PVC-bevonatú alapanyag poláris molekuláinak gerjesztésére, így hőt termel pontosan az alapanyagok határfelületén. A meleglevegős vagy forró ékes hegesztéssel ellentétben az RF hegesztés valódi molekuláris kötést hoz létre – a két alapanyagréteg a hegesztési zónában egyetlen homogén anyaggá olvad, ami legalább olyan erős illesztést eredményez, mint maga az alapanyag.</p>
+
+  <h2>A hegesztőberendezések és a folyamatvezérlés</h2>
+  <p>Hegesztő központunk a következő berendezésekkel rendelkezik:</p>
+  <table>
+    <thead><tr><th>Gép</th><th>Teljesítmény / kapacitás</th><th>Alkalmazás</th></tr></thead>
+    <tbody>
+      <tr><td>1. RF dielektromos prés</td><td>15 kW, 2000 × 600 mm lemez</td><td>A deszkák fő varratai, a peremsáv illesztései – híd</td></tr>
+      <tr><td>2. RF dielektromos prés</td><td>10 kW, 1500 × 500 mm lemez</td><td>Az orrkúpon, a fogantyúknál és a szelepeknél lévő toldalékok</td></tr>
+      <tr><td>CNC vezérelt RF hegesztőgép</td><td>8 kW, 2500 × 1200 mm XY asztal</td><td>Görbe peremvarratok, logó-/paneldomborítás, precíz toldalékok</td></tr>
+      <tr><td>Automatikus forró ékes hegesztőgép</td><td>Állítható hőmérséklet, max. 1.2 m/perc</td><td>Tartalék módszer speciális CSM alapanyagokhoz</td></tr>
+    </tbody>
+  </table>
+  <p>Minden RF prés zárt hurkú hőmérséklet- és nyomásfigyeléssel van felszerelve. A hegesztési paramétereket – teljesítmény, sajtolási idő, hűtési idő, elektródanyomás – az alapanyag típusának megfelelően programozzuk, és a gyártásvégrehajtási rendszerünkben (MES) rögzítjük a teljes nyomon követhetőség érdekében.</p>
+
+  <h2>A varratminőség vizsgálata – minden varrat, minden deszka</h2>
+  <p>A hegesztések épségét kötelező négylépéses protokollal ellenőrizzük:</p>
+  <ol>
+    <li><strong>Vizuális vizsgálat</strong> – a varratok 100%-át vizuálisan vizsgáljuk átlyukazás, eltolódás, szennyeződés vagy hiányos fúzió szempontjából. A hibás arány küszöbe: a folytonos hossz 0.5%-a.</li>
+    <li><strong>Leválási próba</strong> – minden gyártási szállítmányhoz hegesztett próbatestből levágunk egy 25 mm széles csíkot. Minimális leválási erő: 120 N/25 mm 1100 dtex PVC esetén.</li>
+    <li><strong>Levegőmegőrzési próba</strong> – minden elkészült deszkát 18.0 PSI nyomásra fújjuk, és 24 órán át tartjuk. A nyomásesés nem haladhatja meg a 0.50 PSI-t.</li>
+    <li><strong>Hőciklus-próba</strong> – a próbatesteket -20 °C és +60 °C között 50 cikluson át vetjük alá, majd ismét leválási próbának tesszük ki. Elfogadható szilárdságveszteség: &lt; 10%.</li>
+  </ol>
+
+  <div class="not-prose my-10 p-6 rounded-xl bg-gray-50 dark:bg-gray-900 border border-gray-200 dark:border-gray-800">
+    <p class="text-sm font-semibold text-gray-500 mb-3 uppercase tracking-wider">Leválási szilárdság összehasonlítása – RF hegesztés és meleglevegős hegesztés (PVC 1100 dtex)</p>
+    <div class="space-y-3">
+      <div class="flex items-center gap-3">
+        <span class="w-24 text-xs font-medium">RF hegesztés</span>
+        <div class="flex-1 h-6 bg-gray-200 dark:bg-gray-700 rounded">
+          <div class="h-full bg-blue-600 rounded" style="width:92%"></div>
+        </div>
+        <span class="text-xs font-bold w-12 text-right">184 N</span>
+      </div>
+      <div class="flex items-center gap-3">
+        <span class="w-24 text-xs font-medium">Meleglevegő</span>
+        <div class="flex-1 h-6 bg-gray-200 dark:bg-gray-700 rounded">
+          <div class="h-full bg-gray-400 rounded" style="width:65%"></div>
+        </div>
+        <span class="text-xs font-bold w-12 text-right">130 N</span>
+      </div>
+      <div class="flex items-center gap-3">
+        <span class="w-24 text-xs font-medium">Minimum standard</span>
+        <div class="flex-1 h-6 bg-gray-200 dark:bg-gray-700 rounded">
+          <div class="h-full bg-green-500 rounded" style="width:48%"></div>
+        </div>
+        <span class="text-xs font-bold w-12 text-right">96 N</span>
+      </div>
+    </div>
+    <p class="text-xs text-gray-400 mt-2">Az RF hegesztés következetesen az alapanyag szilárdságának 90-95%-ét éri el, ami jóval meghaladja a minimumértéket.</p>
+  </div>
+
+  <h2>Szakértelem</h2>
+  <p>Hegesztő csapatunkat 11 éves tapasztalattal rendelkező senior folyamatmérnök vezeti a bevonatos textilek dielektromos hegesztésében. Minden kezelő egy 6 hónapos belső tanúsítási programot teljesít, mielőtt jogosult lenne gyártási varratokon dolgozni. Az újratanúsítás évente kötelező, és magában foglal egy gyakorlati hegesztési próbát, amelyet a belső A-osztályú standard szerint értékelünk (leválási szilárdság ≥ 160 N/25 mm).</p>
+
+  <h2>Testreszabott hegesztési megoldások egyedi igényekhez</h2>
+  <p>Tudjuk, hogy egyetlen hegesztési specifikáció nem illik minden alkalmazáshoz. RF Hegesztő Központunk rendszeresen fejleszt testreszabott varratkonfigurációkat speciális igényű ügyfelek számára:</p>
+  <ul>
+    <li><strong>Többrétegű megerősítő toldalékok</strong> – intenzív kopásnak kitett területeken, mint a peremsávok és a fedélzati fedelek, többlépcsős RF hegesztéseket fejlesztünk, amelyek kopásálló külső réteget építenek be a hajlékonyság veszélyeztetése nélkül.</li>
+    <li><strong>Nagy nyomású deszkák varratai</strong> – a 15 PSI fölé minősített deszkáknál a varrat geometriáját magas üzemi nyomáson validáljuk, és a korlátot a próbajelentésben dokumentáljuk.</li>
+    <li><strong>Színváltásos panelok hegesztése</strong> – a kétanyagú (például narancssárga híd + szürke perem) panelokat rejtett átfedéssel hegesztjük, hogy a márka esztétikáját látható illesztési vonal nélkül megőrizzük.</li>
+  </ul>
+
+  <h2>Vállalásunk Ön felé</h2>
+  <p>Minden kiszállított deszkánk hordozza varratminőségi garanciánkat: ha bármelyik varrat a garanciaidőszak alatt, szokásos használati körülmények között feladja, az érintett rekeszet ingyen javítjuk vagy cseréljük, és elvégezzük az alapterv-okozati vizsgálatot a visszatérés megelőzése érdekében. Ez nem csupán garancia – ez a valós üzleti adatokon alapuló folyamatos fejlesztés vállalása.</p>
+  <p>Amikor a {SITE.name} választja, olyan varratokat választ, amelyek tervezettek, vizsgáltak és dokumentáltak – nem csupán hegesztettek. Ez a különbség egy lebegő deszka és egy megbízhatóan teljesítő deszka között.</p>
+
+cta:
+  title: 'Beszéljük meg az Ön hegesztési igényeit'
+  subtitle: 'Testreszabott varratspecifikációk, alapanyag-alkalmazhatóság vagy a folyamat validálása.'
+  actions:
+    - variant: primary
+      text: 'Lépjen kapcsolatba hegesztő csapatunkkal'
+      href: /hu/contact#project-brief
+    - text: 'Vissza az R&D központba'
+      href: /hu/randdcenter

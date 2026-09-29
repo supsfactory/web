@@ -4290,7 +4290,274 @@ export const GUIDES_RO: Guide[] = [
   },
 ]
 
-const GUIDES_BY_LOCALE: Record<string, Guide[]> = { en: GUIDES, es: GUIDES_ES, fr: GUIDES_FR, de: GUIDES_DE, it: GUIDES_IT, pt: GUIDES_PT, nl: GUIDES_NL, sv: GUIDES_SV, no: GUIDES_NO, pl: GUIDES_PL, da: GUIDES_DA, fi: GUIDES_FI, ru: GUIDES_RU, cs: GUIDES_CS, tr: GUIDES_TR, ro: GUIDES_RO }
+export const GUIDES_HU: Guide[] = [
+  {
+    slug: 'how-to-choose-your-sup',
+    title: 'Hogyan válassza ki a SUP deszkáját',
+    intro: [
+      'Az első felfújható SUP kiválasztása a deszka méretétől, szélességétől, felépítésétől és a csomag tartalmától függ. Íme, mi számít valójában, egyszerű szavakkal.',
+    ],
+    sections: [
+      {
+        title: 'Hossz és térfogat',
+        body: 'A hosszabb deszkák (11–12 ft) egy-egy evezésre nagyobb utat tesznek meg, és jobban tartják az irányt — ideálisak a túrázáshoz és a hosszabb távokhoz. A rövidebb deszkák könnyebben fordulnak. A legtöbb felhasználó számára egy 10\'6"–11\'0"-es all-around deszka az optimális választás.',
+      },
+      {
+        title: 'Szélesség és stabilitás',
+        body: 'A szélesség minden más tényezőnél jobban befolyásolja a stabilitást. Egy 32 hüvelykes platform a kezdők számára toleráns, és a jógához is elég stabil; a 30 hüvelykes deszkák a könnyebb vagy gyakorlottabb felhasználóknak valók, akik sebességet és fordulékonyságot keresnek.',
+      },
+      {
+        title: 'A felépítés minősége',
+        body: 'Keresen katonai minőségű PVC drop-stitch magot, amely legalább 15 PSI nyomást bír el, kétrétegű PVC laminálást és megerősített élszalagokat. Ezektől függ, hogy a deszka mennyire tűnik merevnek, és mennyire bírja a napi használatot.',
+      },
+      {
+        title: 'Mit tartalmazzon a doboz',
+        body: 'A teljes csomag pénzt és fáradságot takarít meg: deszka, háromrészes állítható evező, manométeres kétirányú pumpa, tekercses póráz, uszony, hordtáska és javítókészlet.',
+      },
+    ],
+    faqs: [
+      { q: 'Milyen SUP méretre van szükségem?', a: 'A legtöbb kezdő körülbelül 11\'0" × 32" × 6"-os all-around deszkát választ — stabil, sokoldalú és könnyen szállítható. A nehezebb felhasználóknak vagy azoknak, akik hosszú távra készülnek, nagyobb méret ajánlott.' },
+      { q: 'Egy felfújható SUP ugyanolyan merev, mint egy merev deszka?', a: 'Egy modern drop-stitch felfújható, 15–20 PSI-ra felfújva merevségben megközelíti a kezdő szintű merev deszkát, azzal az előnnyel, hogy elfér egy háttáskában.' },
+    ],
+    related: [
+      { label: 'Tekintse meg SUP platformjainkat', href: '/hu/products' },
+      { label: 'Felfújható vagy merev deszka', href: '/hu/inflatable-vs-hardboard' },
+      { label: 'OEM gyártás', href: '/hu/oem-manufacturing' },
+    ],
+  },
+  {
+    slug: 'beginner-guide',
+    title: 'Kezdő útmutató az evezéshez',
+    intro: [
+      'Minden, amire az első vízi edzésekhez szüksége van: a felfújás, az első felállás a deszkán, az evezés alaptechnikája és a biztonság megőrzése, amíg magabiztosságot szerez.',
+    ],
+    sections: [
+      {
+        title: 'Fújja fel a specifikáció szerint, ne érzésre',
+        body: 'Fújja fel a névleges nyomásra (általában 15 PSI) a pumpa manométerét használva. A 10 PSI-ra felfújt deszka a füvön rendben mutat, de a vízen erősen behajlik. Meleg napokon ellenőrizze a nyomást — a nap felmelegíti a belső levegőt, és növeli a nyomást.',
+      },
+      {
+        title: 'Az első lépések a deszkán',
+        body: 'Kezdje strandról vagy sekély vízből: először térdeljen fel, majd lábbal egyesével a deszka közepére állítva egyenesedjen fel. A lábakat vállszélességben, a térdet hajlítsa, és a horizontra nézzen — a deszka azt az irányt követi, amerre néz.',
+      },
+      {
+        title: 'Az evezés alapütése',
+        body: 'Nyújtsa előre az evezőt, merítse teljesen a lapátot a vízbe, és húzza végig a deszka egyik oldalán, miközben a törzsét is forgatja. Néhány ütésenként váltson oldalt, hogy egyenesen haladjon; a forduláshoz egymás után többször evezzen ugyanazon az oldalon.',
+      },
+      {
+        title: 'Előbb a esést gyakorolja',
+        body: 'A vízbe esés a tanulás része. Gyakorolja a visszamászást sekély vízben: ússzon a középső fogantyúhoz, húzza a lábait a felszín felé, és egyetlen mozdulattal húzza fel magát a deszkára.',
+      },
+    ],
+    faqs: [
+      { q: 'Mennyi idő, amíg megtanulok SUP-on evezni?', a: 'A legtöbb ember már az első egyórás edzésen kényelmesen evez a nyugodt vizeken. A fordulás, a szél és a hosszabb távok iránti bizalom néhány edzés alatt alakul ki.' },
+      { q: 'Jó állapotban kell lennem?', a: 'Nem — a SUP nagyon könnyen megközelíthető tevékenység. Rendszeres evezéssel természetesen fejlődik az egyensúly, a törzserő és az állóképesség.' },
+    ],
+  },
+  {
+    slug: 'inflatable-vs-hard',
+    title: 'Felfújható vagy merev deszka',
+    intro: [
+      'A két szerkezeti család különböző helyzetekben mutatja meg az előnyeit. Íme az őszinte összehasonlítás a hobbifelhasználók, az egyesületek és a kölcsönzők számára.',
+    ],
+    sections: [
+      {
+        title: 'Hordozhatóság és tárolás',
+        body: 'A felfújható deszkák leeresztve háttáskába férnek, amely befér az autó csomagtartójába, egy lakókocsiba vagy a lakás szekrényébe — ez az utazók természetes választása. A merev deszkák tetőcsomagtartót, tárolóhelyet és gondosabb kezelést igényelnek.',
+      },
+      {
+        title: 'Merevség és teljesítmény',
+        body: 'A prémium merev deszkák magasabb teljesítményszinteken merevebbek és érzékenyebbek. Hobbitempóban egy jól felépített drop-stitch felfújható, 15–20 PSI-ra felfújva hasonló teljesítményt nyújt a tárolási költség töredékéért.',
+      },
+      {
+        title: 'Tartósság',
+        body: 'A PVC felfújható deszkák ellenállnak a kikötői karcolásoknak és a partra futás ütéseinek, amelyek megrepesztenék a merev héjat — ez az egyik fő oka annak, hogy a kölcsönzők és a szállodák napi vendéghasználatra felfújható deszkákat választanak.',
+      },
+      {
+        title: 'Teljes tulajdonlási költség',
+        body: 'A felfújható deszkák szállítása, tárolása és karbantartása olcsóbb, és jobban viselik a durva bánásmódot. A legtöbb felhasználó és flotta számára a felfújható deszka a legjobb ár-érték arányt kínálja.',
+      },
+    ],
+    faqs: [
+      { q: 'Melyik a jobb a kezdőknek?', a: 'A felfújható deszkák — stabilak, toleránsak, könnyen tárolhatók, és elég tartósak a kezdők karcolásaihoz.' },
+      { q: 'Lehet egy felfújható SUP olyan gyors, mint egy merev deszka?', a: 'Hobbitempóban a különbség kicsi. A merev deszkák csak versenyhelyzetben és csúcsteljesítmény-szcenáriókban nyernek egyértelműen.' },
+    ],
+  },
+  {
+    slug: 'safety-tips',
+    title: 'Biztonsági ajánlások a vízen',
+    intro: [
+      'A biztonságos edzés egyben kellemes élmény is. Ezek az alapelvek a tavakon, a folyókon és a parti vizeken ugyanúgy érvényesek.',
+    ],
+    sections: [
+      {
+        title: 'Ellenőrizze a szelet és az előrejelzést',
+        body: 'A parttól fújó szél a SUP klasszikus csapdája: gyorsabban sodor el a parttól, mint ahogy vissza tudna evezni. Ellenőrizze az előrejelzést, és kétség esetén maradjon védett vizeken.',
+      },
+      {
+        title: 'Mindig viseljen pórázt',
+        body: 'A tekercses póráz a deszka mellett tart, ha elesik — a deszka maga az úszást segítő eszköz. A körülményekhez illő pórázt válasszon: tekercseset nyugodt vizekre, egyeneset a hullámzáshoz.',
+      },
+      {
+        title: 'Mentőmellény és személyi biztonság',
+        body: 'Viseljen felhajtóerőt adó eszközt, amikor a körülmények indokolják vagy a szabályok előírják. Legyen kéznél síp, mondja el valakinek az útvonalat és a visszaérés időpontját, és használjon vízálló tokban telefont.',
+      },
+      {
+        title: 'Ismerje a határait',
+        body: 'Előbb szerezzen tapasztalatot nyugodt vizeken, mielőtt szélnek vagy áramlatnak tenné ki magát. Tartsa tiszteletben a hideg vizet — gyorsan elveszi az erőt. És elszigetelt vagy nyílt vízi területeken soha ne evezzen egyedül, terv nélkül.',
+      },
+    ],
+    faqs: [
+      { q: 'Kell-e mentőmellény a SUP-on?', a: 'Az előírások országonként és vízterületenként eltérőek. Még ott is, ahol nem kötelező, a póráz és a felhajtóerőt adó eszköz a felelős alap, a gyerekek pedig mindig viseljenek megfelelő méretű mentőmellényt.' },
+      { q: 'Biztonságos tavon evezni?', a: 'Igen — a nyugodt tavak ideálisak a tanuláshoz. Ellenőrizze a szélirányt, maradjon látható a hajóforgalom számára, és kerülje a forgalmas hajósávokat.' },
+    ],
+    related: [
+      { label: 'Biztonsági felszerelés platformjainkon', href: '/hu/products' },
+      { label: 'A gyári minőségellenőrzés', href: '/hu/quality' },
+      { label: 'Válassza ki az első deszkáját', href: '/hu/guides/how-to-choose-your-sup' },
+    ],
+  },
+  {
+    slug: 'choosing-a-sup-oem-factory',
+    title: 'Hogyan válasszon saját márkájú SUP gyárat',
+    intro: [
+      'A saját márkája alatt felfújható SUP deszkákat vásárolni gyakorlatilag egyetlen döntésre vezethető vissza: kire bízza az első tételt. Íme, hogyan értékelheti ki a saját márkájú SUP gyártóját, mielőtt megrendelést küldene.',
+    ],
+    sections: [
+      {
+        title: 'Kezdje próbarendeléssel, ne MOQ-beszélgetéssel',
+        body: 'Az a gyár, amely csak minimális mennyiségekről beszél, valószínűleg kereskedői iroda, nem pedig üzem. A valódi gyártók szintenkénti minimumokat kínálnak — társszárgy 5–10 darabtól, próbatételek 20–50 darabtól, standard sorozatok 90–100+ darabtól 150 m-es anyaghengerre, a teljesen egyedi formájú projektek pedig volumenszinten futnak. Először kis tételt rendeljen: ez igazolja a kommunikációt, a specifikációs fegyelmet és a minták minőségét anélkül, hogy az egész bevezetést kockáztatná.',
+      },
+      {
+        title: 'Ellenőrizze, hogy ténylegesen mi készül a gyárban',
+        body: 'A drop-stitch SUP gyártás négy alapvető lépésből áll: anyaglaminálás, hegesztés, nyomtatás és összeszerelés. Egy hiteles gyár ezeket mind egy fedél alatt végzi, és engedi, hogy meglátogassa a gyártócsarnokot. Ha az értékesítési képviselő nem tud termelési sort mutatni, legnagyobb valószínűséggel közvetítőn keresztül vásárol, minőségi és határidő-ellenőrzés nélkül.',
+      },
+      {
+        title: 'A mintáknak egyezniük kell a sorozatgyártással',
+        body: 'Egy kézzel kidolgozott minta könnyű; az állandó sorozatgyártás nehéz. Kérdezze meg, hogyan biztosítja a gyár az ismételhetőséget: anyagtétel-nyilvántartások, hegesztési paraméterek és minden deszkára alkalmazott minőségi ellenőrző lista, nem csak azokra, amelyeket jóváhagy.',
+      },
+      {
+        title: 'Ismerje a költségeket a megrendelés előtt',
+        body: 'Kérje írásban a teljes költségképet: darabár a mennyiség függvényében, szerszám- vagy formaköltségek, ha új formát szeretne, a grafika és a nyomtatás előkészítése, valamint a csomagolás.',
+      },
+      {
+        title: 'Kérjen harmadik féltől származó ellenőrzést',
+        body: 'A jó hírű OEM SUP gyárak elfogadják a szállítás előtti ellenőrzéseket — sok márka konténerenként foglal harmadik féltől származó minőségellenőrzési látogatást. Győződjön meg róla, hogy a gyár mind a mintákra, mind a sorozatokra tud ellenőrzést szervezni, és hogy az elutasított egységeket (például az 5%-nál nagyobb nyomásveszteségű deszkákat) kizárják a tételből.',
+      },
+      {
+        title: 'Tartott szállítási határidők',
+        body: 'Felfújható SUP-oknál 7–12 napos mintahatáridőre és 25–35 napos sorozatgyártásra számítson a megrendelés és az előleg megerősítése után, plusz a formagyártási idő, ha új formát rendel. Az a gyár, amely a piaci átlagnál lényegesen rövidebb határidőt kínál, brosúrából, nem pedig gyártási ütemezésből dolgozik.',
+      },
+    ],
+    faqs: [
+      { q: 'Mennyi a minimális rendelés egyedi SUP deszkákhoz?', a: 'A szintenkénti minimumok standardok: 1–2 darab mintákhoz, 5–10 darab társszárgyhoz, 20–50 darab próbatételhez és 90–100+ darab 150 m-es anyaghengerre a standard volumenhez; a teljesen egyedi formájú projektek volumenszinten futnak.' },
+      { q: 'Láthatok mintát a sorozatgyártás előtt?', a: 'Igen — a minták 7–12 nap alatt elkészülnek. A legtöbb gyár a minta- és formaköltségeket a megerősített első gyártási megrendelésből levonja.' },
+      { q: 'Hogyan ellenőrizhetem, hogy egy SUP gyár valódi?', a: 'Kérjen élő videotúrát a gyártócsarnokba, ellenőrizze a működő üzemi címet Qingdao városában vagy más ipari központban, és kérje a korábbi exportmegrendelések dokumentációját. A próbarendelés marad a végső bizonyíték.' },
+      { q: 'Mit tartalmazzon egy SUP gyár ajánlata?', a: 'Darabárat, szerszám- vagy formaköltségeket, a grafika előkészítését, a csomagolást, a minőségellenőrzési és vizsgálati feltételeket, valamint a fizetési feltételeket.' },
+    ],
+    related: [
+      { label: 'OEM / ODM gyártásunk', href: '/hu/oem-manufacturing' },
+      { label: 'A SUP termékfejlesztés folyamata', href: '/hu/product-development' },
+      { label: 'Gyári kapacitás és gyártásegység', href: '/hu/factory' },
+      { label: 'Hogyan ellenőrizzük a minőséget — 7 vizsgálati lépés', href: '/hu/quality' },
+      { label: 'MOQ-útmutató és rugalmas márkázás (PDF)', href: '/hu/oem-moq-guide' },
+      { label: 'Ellenőrizze minket: bizalom és gyári garanciák', href: '/hu/oem-trust-assurance' },
+      { label: 'Indítson saját márkájú SUP-projektet', href: '/hu/contact' },
+    ],
+  },
+  {
+    slug: 'private-label-sup-guide',
+    title: 'Saját márkás SUP',
+    intro: [
+      'A saját márka a leggyorsabb módja a SUP-márka bevezetésének: az Ön logója egy bevált platformon, a nulláról tervezett deszka költsége és kockázata nélkül. Íme, mit jelent valójában egy saját márkájú SUP gyártóval dolgozni.',
+    ],
+    sections: [
+      {
+        title: 'A saját márka bevált platformokat jelent',
+        body: 'Olyan platformokról indul, amelyeket a gyár már gyárt és tesztel — all-around, touring, jóga, race és mások. A gyár személyre szabja a márkázást, a grafikát és a kivitelezési részleteket, ami alacsonyan tartja a költségeket és a határidőket. A minimumok szintenkéntiek: társszárgy 5–10 darabtól, próbatételek 20–50 darabtól, és 90–100+ darab 150 m-es anyaghengerre a standard saját márkás volumenhez.',
+      },
+      {
+        title: 'A márkázás túlmutat a logón',
+        body: 'A saját márka tartalmazza a logó nyomtatását (digitálisan vagy szitasajtóval), saját színvilágot, a deszka formájára vágott, logóval ellátott EVA taposófelületeket, a kiegészítők (evező, pumpa, póráz) márkázását, a kiskereskedelmi doboz tervezését, sőt a bolti polcon megjelenő displayeket is. Küldje el a grafikai fájlokat, és a gyár a gyártás előtt vizuális próbatervet készít.',
+      },
+      {
+        title: 'Mit intéz a gyár Ön helyett',
+        body: 'Egy teljes körű SUP-gyár a grafika előkészítésétől az anyagbeszerzésen át a mintagyártásig, a 100 pontból álló összeszerelési minőségellenőrzési listáig, a nyomáspróbáig és az exportdokumentációig (számla, csomagolási lista, származási bizonyítvány) mindent kezel. Ön a mintákat ellenőrzi és hagyja jóvá — a többi a gyár feladata.',
+      },
+      {
+        title: 'Amit birtokol: a márka, a piac, az ügyfél',
+        body: 'Saját márkás megállapodásban a gyár a deszkákat gyártja, a márka az Öné. A komoly gyártók nem értékesítik saját deszkáikat kiskereskedelmi szinten az Ön piacán, és nem adják el másoknak az Önnek készült egyedi dizájnt. Kérjen területi kizárólagossági záradékot az ajánlatba.',
+      },
+      {
+        title: 'Költségek: minta, forma, grafika előkészítés',
+        body: 'Háromféle költségre számítson: mintadíj (7–12 nap alatt elkészül), formaköltség, ha új formára van szükség (volumenszinten minimum), és a nyomtatáshoz készülő grafika előkészítése. A legtöbb gyár a minta- és formaköltségeket az első gyártási megrendelésből levonja.',
+      },
+      {
+        title: 'A megrendeléstől a kész tételig',
+        body: 'Egy tipikus saját márkás sorozat: 30% előleg indítja a gyártást, a sorozat a megrendelés és az előleg megerősítése után 25–35 nappal készül el, az egyenleg pedig a jóváhagyott tétel elfogadásakor kerül elszámolásra. Az első rendelésbe tervezze bele a teljes sorozatot.',
+      },
+    ],
+    faqs: [
+      { q: 'Mennyi a minimális rendelés saját márkás SUP deszkákhoz?', a: 'Társszárgy 5–10 darabtól, próbatételek 20–50 darabtól, és standard saját márkás volumen 90–100+ darabtól 150 m-es anyaghengerre; a teljesen egyedi formájú projektek volumenszinten futnak.' },
+      { q: 'Küldhetek saját logót és grafikát?', a: 'Igen — küldje el a logót és a grafikai fájlokat; a gyár a gyártás előtt vizuális próbatervet készít, így a színeket, az elhelyezést és a kivitelezést jóváhagyhatja.' },
+      { q: 'Az egyedi SUP-dizájnom kizárólagos a márkám számára?', a: 'Igen, a standard saját márkás feltételek mellett. Kérjen kizárólagossági záradékot a beszerzési szerződésbe; a hozzánk hasonló gyárak nem értékesítik tovább az Ön márkájával ellátott dizájnt.' },
+      { q: 'Mennyi időbe telik egy saját márkás SUP-megrendelés?', a: 'A minták 7–12 nap alatt elhagyják a gyárat; a sorozatgyártás a megrendelés és az előleg megerősítése után 25–35 nappal készül el. Az első teljes sorozatra 8–12 hetet tervezzen.' },
+    ],
+    related: [
+      { label: 'Saját márkás SUP megoldások', href: '/hu/solutions/private-label-sup' },
+      { label: 'Tekintse meg a bevált platformokat', href: '/hu/products/all-around' },
+      { label: 'OEM / ODM gyártás', href: '/hu/oem-manufacturing' },
+      { label: 'Indítson saját márkájú SUP-projektet', href: '/hu/contact' },
+    ],
+  },
+  {
+    slug: 'sup-fleet-guide',
+    title: 'SUP flotta vásárlása',
+    intro: [
+      'A flottavásárlóknak más kérdésekre van szükségük, mint a végfelhasználóknak: az egyes edzések tartósságára, szabványosított pótalkatrészekre, volumenszintű mennyiségekre és olyan beszállítóra, aki szezonról szezonra szállít. Íme, mit kell megterveznie az első flotta megrendelése előtt.',
+    ],
+    sections: [
+      {
+        title: 'Szabványosítson egy vagy két specifikációra',
+        body: 'A flottaüzemeltetés a szabványosításra épül: egy deszkaméret (általában 10\'6"–11\'0" × 32") a vendégek többségének, egy kopásálló felszereltség és egy tartalékkészlet. Ez egyszerűsíti a javításokat, a személyzet betanítását, a tárolást és az újrarendelést. Álljon ellen a kísértésnek, hogy tíz különböző modellt vásároljon.',
+      },
+      {
+        title: 'A nagy igénybevételű deszkák más termékek',
+        body: 'Egy bérleti deszka szezononként több tucat edzést bír el. Specifikáljon vastagabb PVC rétegeket, megerősített élszalagokat és a kiskereskedelmi deszkáknál tartósabb kiegészítőket. Kérdezze meg a gyárat, miben különbözik a flotta-specifikáció a fogyasztói változattól — a valódi üzemek mindkét változatot kínálják.',
+      },
+      {
+        title: 'Méretezze a mennyiségeket az igényhez',
+        body: 'A flotta méretét a napi forgalom és a szezon hossza alapján számolja: 20–30 deszka egy kis kölcsönzőpontot lát el, 100+ egy forgalmas szállodát vagy klubot. Kérje a gyár ajánlását a keresleti típusának megfelelő mennyiségre.',
+      },
+      {
+        title: 'A pótalkatrészeket a flottával együtt rendelje',
+        body: 'Tartalék szelepek, javítókészletek, pumpák, pórázy és evezők ugyanabba a megrendelésbe kerüljenek — darabonként most olcsók, szezon közben pedig nehezen beszerezhetők. Kérje a gyár ajánlott tartalékarányát (a fogyóeszközökhöz a flotta méretének általában 5–10%-a).',
+      },
+      {
+        title: 'Rendeljen idény előtt, ne közben',
+        body: 'A gyártás a megrendelés és az előleg megerősítése után 25–35 napot vesz igénybe. Ahhoz, hogy a deszkák tavaszra a parton legyenek, az ősz végén erősítse meg a rendeléseket, hogy a gyártás a szezon kezdete előtt befejeződjön.',
+      },
+      {
+        title: 'Márkázott flotta a viszonteladói értékért',
+        body: 'A flottadeszkák hordozhatják a logóját, bérleti számozási rendszert és méret szerinti színkódolást. A szitanyomásos logók 200+ darabos sorozatoknál költséghatékonyak, a márkás flotta pedig a vízen reklámként is működik.',
+      },
+    ],
+    faqs: [
+      { q: 'Melyik a legjobb SUP bérleti flottához?', a: 'Egy 10\'6"–11\'0" × 32"-os all-around deszka megerősített szerkezettel az iparági standard — stabil a kezdőknek, ellenáll a napi használatnak és könnyen karbantartható.' },
+      { q: 'Hány deszkára van szüksége egy kölcsönzőnek?', a: 'Egy kis kölcsönzőpontra 20–30 deszkát tervezzen, és a forgalom függvényében skálázzon: forgalmas szállodákhoz és klubokhoz 100+ darab. A pótalkatrészek a flotta méretének 5–10%-át tegyék ki.' },
+      { q: 'Lehet a flottadeszkákat a logónkkal jelölni?', a: 'Igen — a szitanyomásos logók, a bérleti számozás és a színkódolt deszka teteje standard testreszabások, amelyek 200 darabtól különösen költséghatékonyak.' },
+      { q: 'Mennyi idő egy flottamegrendelés?', a: 'Minták 7–12 nap alatt, gyártás a megrendelés és az előleg megerősítése után 25–35 nap alatt — ezért a flottamegrendeléseket jócskán a szezon kezdete előtt adja le.' },
+    ],
+    related: [
+      { label: 'Megoldások szállodáknak és kluboknak', href: '/hu/solutions/resort-sup' },
+      { label: 'Esettanulmány: több telephelyes bérleti flotta', href: '/hu/projects/rental-fleet-multi-site' },
+      { label: 'Flották platformjai', href: '/hu/products/all-around' },
+      { label: 'Beszéljen projekt szakértőnkkel', href: '/hu/contact' },
+    ],
+  },
+]
+
+const GUIDES_BY_LOCALE: Record<string, Guide[]> = { en: GUIDES, es: GUIDES_ES, fr: GUIDES_FR, de: GUIDES_DE, it: GUIDES_IT, pt: GUIDES_PT, nl: GUIDES_NL, sv: GUIDES_SV, no: GUIDES_NO, pl: GUIDES_PL, da: GUIDES_DA, fi: GUIDES_FI, ru: GUIDES_RU, cs: GUIDES_CS, tr: GUIDES_TR, ro: GUIDES_RO, hu: GUIDES_HU }
 
 export function localizedGuides(locale: string): Guide[] {
   return GUIDES_BY_LOCALE[locale] ?? GUIDES
@@ -4972,6 +5239,50 @@ export const GUIDE_CARDS: Record<string, GuideCard[]> = {
       title: 'Achiziția flotelor de SUP',
       intro:
         'Planificarea flotelor pentru închirieri, resorturi și cluburi: specificație rezistentă, cantități pe container, piese de rezervă și sezonalitate.',
+    },
+  ],
+  hu: [
+    {
+      slug: 'how-to-choose-your-sup',
+      title: 'Hogyan válassza ki a SUP deszkáját',
+      intro:
+        'Az első felfújható SUP kiválasztása a deszka méretétől, szélességétől, felépítésétől és a csomag tartalmától függ. Íme, mi számít valójában, egyszerű szavakkal.',
+    },
+    {
+      slug: 'beginner-guide',
+      title: 'Kezdő útmutató az evezéshez',
+      intro:
+        'Minden, amire az első vízi edzésekhez szüksége van: a felfújás, az első felállás a deszkán, az evezés alaptechnikája és a biztonság megőrzése.',
+    },
+    {
+      slug: 'inflatable-vs-hard',
+      title: 'Felfújható vagy merev deszka',
+      intro:
+        'A két különböző szerkezeti család eltérő helyzetekben mutatja meg az előnyeit. Íme az őszinte összehasonlítás a hobbifelhasználók, az egyesületek és a kölcsönzők számára.',
+    },
+    {
+      slug: 'safety-tips',
+      title: 'Biztonsági ajánlások a vízen',
+      intro:
+        'A biztonságos edzés egyben kellemes élmény is. Ezek az alapelvek a tavakon, a folyókon és a parti vizeken ugyanúgy érvényesek.',
+    },
+    {
+      slug: 'choosing-a-sup-oem-factory',
+      title: 'Hogyan válasszon saját márkájú SUP gyárat',
+      intro:
+        'Hogyan értékelje ki a saját márkájú SUP deszkák gyártóját, mielőtt megrendelést küldene: próbarendelés, saját gyártás, minták, költségek és ellenőrzés.',
+    },
+    {
+      slug: 'private-label-sup-guide',
+      title: 'Saját márkás SUP',
+      intro:
+        'Mit tartalmaz valójában a saját márkás megállapodás: bevált platformok, teljes márkázás, költségek, kizárólagosság és szállítási határidők.',
+    },
+    {
+      slug: 'sup-fleet-guide',
+      title: 'SUP flotta vásárlása',
+      intro:
+        'Flottatervezés kölcsönzőknek, szállodáknak és egyesületeknek: tartós specifikáció, darabszám konténerenként, pótalkatrészek és szezonális igények.',
     },
   ],
 }

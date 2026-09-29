@@ -1,0 +1,91 @@
+meta:
+  title: 'Az iSupfactory-ról – márkaidentitás, a Qingdao Vatrad Group gyártódivíziója | iSupfactory'
+  description: 'Az iSupfactory márkaidentitása: a felfújható SUP platformok és a tengeri felfújható termékek gyártódivíziója. A gyár helye, a jogi entitás, a tanúsítások és a márka pozicionálása.'
+  dateModified: '2026-08-21'
+  keywords:
+    - 'iSupfactory identitás'
+    - 'Qingdao Vatrad Group'
+    - 'VATRAD SUP gyártó'
+    - 'Laixi Qingdao SUP gyár'
+    - 'kínai felfújható SUP gyártó'
+    - 'SUP OEM gyár identitás'
+
+hero:
+  tagline: 'Márkaidentitás'
+  title: 'Ki az iSupfactory?'
+  subtitle: 'Az iSupfactory a VATRAD vevőorientált gyártómárkája, a Qingdao Vatrad Group Co., Ltd. tengeri gyártódivíziója – felfújható SUP platformok és tengeri felfújható termékek gyártója Laixiben, Qingdaóban, Kínában. Kizárólag ügyfeleink márkái alatt gyártunk, és semmilyen piacon nem versenyzünk velük.'
+
+answer:
+  label: 'Röviden'
+  text: 'Jogi entitás: Qingdao Vatrad Group Co., Ltd. Gyártódivízió: VATRAD (az iSupfactory márka). Gyár: Laixi, Qingdao, Shandong, Kína. Tevékenységi kör: felfújható SUP deszkák, evezők és tengeri felfújható termékek OEM-, ODM- és private-label gyártása. Tanúsítások: ISO 9001:2015, CE (EU-r célú modellek), BSCI, REACH, RoHS. Nem értékesítünk saját márkanévvel – minden általunk gyártott deszka a vevő márkáját viseli.'
+  verified: '2026. szeptember'
+
+identity_detail:
+  tagline: 'Jogi és szervezeti'
+  title: 'Jogi entitás és struktúra'
+  subtitle: 'Teljes átláthatóság a vállalati struktúrát, a gyártási tevékenységet és a tanúsításokat illetően.'
+  grid: 'sm:grid-cols-2 lg:grid-cols-3'
+  features:
+    - icon: J
+      icon_bg: blue
+      title: 'Jogi entitás'
+      desc: 'Qingdao Vatrad Group Co., Ltd. – minden gyártási megállapodás, beszerzési megrendelés és exportdokumentáció szerződő félje. Kínai Shandong tartománybeli Qingdaóban bejegyzve.'
+    - icon: G
+      icon_bg: green
+      title: 'Gyártódivízió'
+      desc: 'A VATRAD a Qingdao Vatrad Group tengeri gyártódivíziójaként működik. Az iSupfactory a vevőorientált márka, amelyet a nemzetközi OEM-, ODM- és private-label gyártási szolgáltatásokhoz használunk.'
+    - icon: H
+      icon_bg: purple
+      title: 'A gyár helye'
+      desc: 'Laixi, Qingdao, Shandong, Kína. 12,500 m²-es gyártóüzem, amelyből 10,000+ m² gyártási terület, 4 gyártósor, CNC-vágás, RF-hegesztés, nyomáspróba-laboratórium és alapanyagraktár áll. A kikötőtől 120 km-re.'
+
+manufacturing_scope:
+  heading: 'Gyártási tevékenység'
+  body: |
+    Gyártási tevékenységünk a felfújható SUP és tengeri termékek teljes gyártási láncát lefedi – a beérkező alapanyagok vizsgálatától a végső csomagolásig és az exportdokumentációig.
+
+    - **Termékkategóriák**: felfújható SUP deszkák (all-around, touring, surf, fishing, yoga, race), felfújható kajak, felfújható csónakok, evezők, pumpák és kiegészítők.
+    - **Kivitelezési típusok**: egyrétegű PVC, kétrétegű PVC, PVC-bevonatú drop-stitch mag. A kivitelezési specifikációk projektenként testreszabhatók.
+    - **Együttműködési modellek**: OEM (vevő által birtokolt terv), ODM (a gyár fejlesztette a vevő briefje alapján), private-label / co-branding (a márka már validált platformokon).
+    - **Tanúsítások**: ISO 9001:2015 (gyári minőségirányítás), CE (EU-r célú modellek, a hatókör projektenként meghatározva), BSCI (szociális megfelelőség), REACH (vegyi biztonság), RoHS (korlátozott anyagok).
+    - **Gyártási kapacitás**: 120,000+ deszka évente, körülbelül 10.000 darab havonta 4 automata soron. A kapacitás előzetes tervezéssel bővíthető.
+
+brand_positioning:
+  heading: 'A márka pozicionálása'
+  body: |
+    Az iSupfactory egyértelműen körülhatárolt pozíciót tölt be a piacon – nem márka vagyunk, hanem gyártó. Ez a megkülönböztetés minden tevékenységünk aspektusát meghatározza:
+
+    - **Soha nem értékesítünk saját márkanévvel.** Minden általunk gyártott deszka a vevő márkáját viseli. Semmilyen piacon és csatornán nem versenyzünk ügyfeleinkkel. Ez a politika nem tárgyalható meg.
+    - **Nem vagyunk kereskedőcég.** Mi működtetjük a gyárat. A minőség-ellenőrzést, a mérnöki munkát, a termelésprogramozást és az exportdokumentációt teljes egészében saját hatáskörünkben kezeljük. Az Ön megrendelése és a gyártócsarnok között nincsenek közvetítők.
+    - **A felfújható termékek a specializációink.** Ez nem másodlagos tevékenység, és nem a termékkategóriák egyike. A felfújható SUP platformok és a tengeri termékek jelentik a központi szakértelmünket. Minden gép, minden folyamat és minden minőségi ellenőrzési pont erre a termékkategóriára van optimalizálva.
+    - **Professzionális vevőket szolgálunk ki.** Ügyfeleink márkák, forgalmazók, üdülők, klubok és iskolák – nem magánfogyasztók. Áraink, MOQ-struktúránk, dokumentációnk és kommunikációnk B2B-kapcsolatokra vannak kialakítva.
+
+evidence_review:
+  tagline: 'Bizonyítékok és ellenőrzés'
+  title: 'ELLENŐRZÖTT SPECIFIKÁCIÓK'
+  body: 'Az ezen az oldalon szereplő valamennyi szervezeti és gyártási állítás ellenőrizhető. Az ISO 9001-tanúsítvány, a BSCI-jelentés, az üzleti engedély és a gyárbejegyzési dokumentumok kérésre rendelkezésre állnak. A gyárlátogatások szívesen fogadottak. A specifikációkat legutóbb 2026 szeptemberében ellenőriztük.'
+
+faqs:
+  tagline: GYIK
+  title: 'Márkaidentitás – gyakori kérdések'
+  items:
+    - q: 'Az iSupfactory különálló vállalat a Qingdao Vatrad Grouptól?'
+      a: 'Nem. Az iSupfactory a VATRAD vevőorientált márkája, amely a Qingdao Vatrad Group Co., Ltd. tengeri gyártódivíziója. Minden megrendelés jogi szerződő fele a Qingdao Vatrad Group Co., Ltd. A gyár, a csapat és a minőségügyi rendszer egyetlen működést alkot.'
+    - q: 'Értékesítenek deszkát saját márkanévvel?'
+      a: 'Nem. Kizárólag ügyfeleink márkái alatt gyártunk, és semmilyen piacon nem versenyzünk velük. Ez alapvető politika, nem átmeneti álláspont. Ha a piacon iSupfactory-jelölésű deszkát talál, az nem a mi gyárunkból származik.'
+    - q: 'Meglátogatható a gyár?'
+      a: 'Igen. A gyárlátogatásokat szívesen fogadjuk, és strukturált auditot tudunk szervezni, amely a teljes gyártási folyamatot, a minőségi ellenőrzési pontokat, az alapanyagraktárt és a dokumentáció ellenőrzését fogja le. Vegye fel a kapcsolatot egy látogatás időzítéséhez.'
+    - q: 'Milyen kapcsolat van a VATRAD és az iSupfactory között?'
+      a: 'A VATRAD a Qingdao Vatrad Group gyártódivíziójának elnevezése. Az iSupfactory a vevőorientált nemzetközi márka, amelyet az OEM-, ODM- és private-label gyártási szolgáltatásokhoz használunk. Mindkettő ugyanarra a működésre utal – a laixi (Qingdao) tengeri gyártódivízióra.'
+
+cta:
+  title: 'Készen áll arra, hogy ellenőrizze a gyárunkat?'
+  subtitle: 'Kérje a dokumentációt, időzítsen gyárlátogatást, vagy indítsa el a projekt briefjét. Teljes átláthatóság, kivétel nélkül.'
+  actions:
+    - variant: primary
+      text: 'Kérezze a dokumentációt'
+      href: /hu/contact#project-brief
+    - text: 'Ellenőrizze a tanúsításokat és a minőségügyi rendszert'
+      href: /hu/proof-center
+    - text: 'Az OEM onboarding folyamata'
+      href: /hu/oem-onboarding-guide

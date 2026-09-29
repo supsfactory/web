@@ -1,0 +1,83 @@
+meta:
+  title: 'Partnerek – Forgalmazás és nagykereskedelem | {SITE}'
+  description: 'Gyártási partnerségek az iSupfactory-vel: forgalmazás, nagykereskedelmi kiszállítás, OEM és private label programok, valamint műszaki támogatás a világ minden eveződeszka-társaságának.'
+  keywords:
+    - 'sup forgalmazói partnerség'
+    - 'eveződeszka nagykereskedelem'
+    - 'felfújható sup forgalmazó'
+    - 'sup partnerség'
+  dateModified: '2026-08'
+hero:
+  tagline: Partnerek és forgalmazás
+  title: 'Gyártási és forgalmazási partnerségek'
+  subtitle: 'Tengerészeti forgalmazóknak, kereskedőknek, kiskereskedelmi márkáknak és szervezeteknek gyártunk több mint 50 országban. Ön specifikálja a terméket – mi megtervezzük, legeneráljuk a mintákat, és az Ön márkájában gyártjuk.'
+  image:
+    src: https://assets.isupfactory.com/images/sups/team/isupfactory-meeting-overseas.webp
+    alt: A Vatrad globális partner- és forgalmazói hálózata
+
+answer:
+  label: 'Közvetlen válasz'
+  text: 'A partnerségi feltételek a mintával (1–2 darab) és a pilótaszállítmányokkal (20–50 darab, a minták 7–12 nap alatt) kezdődnek, majd kiterjednek a 150 m-es teljes drop-stitch tekercsből készült, szállítmányonként 90–100+ darabos standard OEM sorozatokra, vagy alternatívaként private label termékekhez szükséges dedikált szerszámokba történő befektetésre. A MOQ-t a projekt konfigurációja erősíti meg. A forgalmazási programok kizárólagos területeket, közvetlenül a gyárból származó nagykereskedelmi árakat és 45–60 napos fizetési határidőket tartalmaznak, FOB Qingdao vagy CIF kiszállítással.'
+  verified: '2026. szeptember'
+content_programs:
+  tagline: 'Partnerségi programok'
+  title: 'Gyártásra épülő partnerségi modellek'
+  subtitle: 'Akár forgalmazó, kereskedő vagy márkapartner, a program az Ön termékkövetelményeire és gyártási tervére épül.'
+  columns: 3
+  items:
+    - title: 'Forgalmazói program'
+      description: 'Forgalmazási megállapodások közvetlen gyár-hozzáféréssel, műszaki támogatással a specifikációkhoz és állandó minőséggel a területi utánpótlási megrendelésekhez. A minimális vállalás a terület méretétől függ.'
+      icon: tabler:world
+    - title: 'Kereskedői program'
+      description: 'Termékspecifikációk, minta jóváhagyás, garanciatámogatás és megbízható utánpótlás a kiskereskedelmi pontok és online boltok részére.'
+      icon: tabler:building-store
+    - title: 'OEM/ODM partnerség'
+      description: 'OEM és ODM gyártás teljes szolgáltatással, testreszabott márkázással, csomagolással és dedikált termékspecifikációkkal. A koncepttől a konténer-skáláig.'
+      icon: tabler:certificate
+    - title: 'Márkapartnerség'
+      description: 'Private label és modellfejlesztés a tengerészeti és szabadidő-ipi szektor kiforrott márkái számára.'
+      icon: tabler:stars
+    - title: 'Intézményi és kormányzati'
+      description: 'Preferált beszállítói programok kormányzati ügynökségek, parti őrség, fegyveres erők és humanitári szervezetek számára. Teljes dokumentáció a közbeszerzési eljárásokhoz.'
+      icon: tabler:building-community
+    - title: 'Üdülő- és bérelő partnerség'
+      description: 'Flottakínálati árak, állandó minőség és testreszabott márkázás üdülők, búvárközpontok és bérelő üzemeltetők számára világszerte.'
+      icon: tabler:sun
+content_benefits:
+  tagline: 'Miért dolgozzon velünk'
+  title: 'Miért választják a Vatrad partnerei'
+  subtitle: 'Partnereink valódi gyártási kapacitással, állandó minőséggel és a mérnökök gyors műszaki támogatásával dolgoznak.'
+  list:
+    - 'Közvetlen gyár-hozzáférés: Közvetlenül a gyártócsapatunkkal dolgozik – közvetítők nélkül. Gyorsabb válaszok, teljes láthatóság a gyártás felett, és műszaki támogatás azoktól az emberektől, akik ténylegesen megépítik a deszkákat.'
+    - 'Testreszabásra felkészülve: Alkalmazhat saját színeket, logókat, csomagolást és specifikációkat termékeire. A MOQ-t a projekt konfigurációja erősíti meg – minta-, pilóta- és térfogatszakaszok.'
+    - 'Garantált minőség: ISO 9001 tanúsított gyártás, CE, BSCI és REACH megfelelőséggel. Minden terméken nyomáspróbát végezünk feladás előtt.'
+    - 'Globális logisztika: Feladás Kínából, Qingdaoból, FOB, CIF és DDP opciókkal. Raktár az Amerikai Egyesült Államokban, Montclairban, Kaliforniában, Észak-Amerika szerinti terjesztéshez.'
+    - 'Műszaki dokumentáció: Termékkatalógusok, fotó és műszaki dokumentáció, amelyek alátámasztják a specifikációs és utánpótlási döntéseket.'
+    - 'Specifikációs és minőségellenőrzési támogatás: Mintavétel a sorozatgyártás előtt, műszaki támogatás az Ön ügyfelei részére és a garanciális ügyintézés koordinálása.'
+content_process:
+  tagline: 'Hogyan váljon partnerré'
+  title: 'A partnerségi folyamat'
+  subtitle: 'Átlátható folyamat – a megkereséstől az Ön első gyártási soráig.'
+  items:
+    - title: '1. lépés: Küldje el a megkeresést'
+      description: 'Töltsse ki partnerségi űrlapunkat a vállalat profiljával, a célpiaccal és a termékérdeklődésével.'
+    - title: '2. lépés: A minősítés értékelése'
+      description: 'Csapatunk átnézi a megkeresést, és 3 munkanapon belül felveszi Önnel a kapcsolatot a követelmények megbeszélése érdekében.'
+    - title: '3. lépés: A megállapodás és a beállítás'
+      description: 'Írja alá a partnerségi megállapodást, nyisson számlát, és kapja meg a termékmintákat, a specifikációkat és a megállapodott feltételeket.'
+    - title: '4. lépés: Minták és gyártás'
+      description: 'A fizikai minták jóváhagyása után erősíti meg a specifikációkat és a MOQ-t, és a gyártás az Ön márkájában fut.'
+cta:
+  title: 'Tárgyaljon partnerségről'
+  subtitle: 'Küldje el a követelményeit, csapatunk pedig 3 munkanapon belül válaszol.'
+  actions:
+    - variant: primary
+      text: Küldje el a követelményeket
+      href: /hu/contact
+    - text: Tekintse meg termékeinket
+      href: /hu/products
+
+content_html: |
+  <div class="mx-auto max-w-3xl space-y-4 rounded-2xl border bg-card p-6 text-[14.5px] leading-relaxed text-fg-2">
+    <p><strong>Folytassa az olvasást:</strong> a partnerségi programok ugyanazt az <a href="/hu/oem-manufacturing">OEM/ODM gyártómotort</a> használják – a feltételeket, a minta-MOQ-kat és a testreszabást ott definiáljuk –, és minden gyártás áthalad a <a href="/hu/factory">12,500 m&sup2; gyáron</a>.</p>
+  </div>

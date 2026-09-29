@@ -1,0 +1,57 @@
+meta:
+  title: 'Felfújható SUP tanúsítás — CE, REACH, RoHS és megfelelőségi útmutató'
+  description: "A felfújható SUP-k gyártásának tanúsítási hatóköre: CE (EU-modellek), BSCI, ISO 9001, REACH, RoHS. A tanúsítványok száma kérésre rendelkezésre áll, projektenként."
+  dateModified: "2026-08-20"
+
+sections:
+  - title: "Közvetlen válasz"
+    directAnswer:
+      answer: "Az iSupfactory rendelkezik a BSCI, ISO 9001, ISO 25649, CE, REACH és RoHS tanúsítványokkal. A CE az Európai Unió piacaira szánt modellekre vonatkozik — nem általánosan minden termékre."
+      condition: "A tanúsítás hatóköre a célpiac és a termékkonfiguráció függvényében változik. A tanúsítványok száma, érvényessége és a kiállító hatóságok kérésre, projektenként rendelkezésre állnak."
+      value: "BSCI · ISO 9001 · ISO 25649 · CE · REACH · RoHS"
+      verifiedDate: "2026. szeptember"
+      sourceType: "certificate"
+    body: |
+      A tanúsítás a beszerzési folyamat központi eleme, és pontosan kell
+      megfogalmazni. Az olyan általános kijelentések, mint a „CE minden termékre”
+      bizalomvesztést okozhatnak, ha később a vevő felfedi, hogy a hatókör
+      a vártnál szűkebb.
+
+  - title: "A tanúsítványok részletei"
+    body: |
+      | Tanúsítvány | Hatály | Kiállító szervezet | Alkalmazható |
+      |---------------|-------|-----------|------------|
+      | BSCI | Társadalmi felelősségi audit | amfori BSCI | A gyártó telephely |
+      | ISO 9001 | Minőségirányítási rendszer | Tanúsító szervezet (kérésre rendelkezésre áll) | A gyártó telephely |
+      | ISO 25649 | Felfújható vízi eszközök biztonsága | ISO | Az alkalmazható SUP modellek, piaconként |
+      | CE | EU piaci megfelelőség (EN ISO 6185 / 10087 / 10240) | EU bejelentett szervezet | Az EU piacra szánt modellek |
+      | REACH | Kémiai biztonság az EU-ban | ECHA | A gyártásban használt alapanyagok |
+      | RoHS | Veszélyes anyagok korlátozása | EU irányelv | Az elektronikus tartozékok (pumpák) |
+
+  - title: "Fontos pontosítások a hatókörrel kapcsolatban"
+    body: |
+      - A **CE** az Európai Unió piacára értékesítésre konfigurált modellekre vonatkozik. Az Egyes
+        Államokban vagy Ausztráliában terjesztésre szánt deszka nem viseli a CE jelölést, kivéve,
+        ha azt kifejezetten kérik.
+      - Az **ISO 9001** a gyártó telephely minőségirányítási rendszerét fedi le, nem az egyes
+        termékek tanúsítását.
+      - A **REACH-megfelelőség** a gyártásban használt alapanyagokra vonatkozik — a dokumentáció
+        rendelkezésre áll az olyan importőrök számára, akiknek be kell jelenteniük az anyagokat.
+      - A tanúsítványok száma, az érvényességi dátumok és a kiállító hatóságok kérésre,
+        projektenként rendelkezésre állnak. Biztonsági okokból nem tesszük közzé a
+        tanúsítványszámokat.
+      - Harmadik fél általi ellenőrzés SGS, TÜV, BV vagy Intertek közreműködésével bármely
+        szállításhoz kérhető.
+
+  - title: "Hogyan kérhetők a tanúsítási dokumentumok"
+    body: |
+      Az árajánlatkérési folyamat során adja meg a célpiacokat, és mi
+      megerősítjük, hogy mely tanúsítványok vonatkoznak az Ön termékének
+      konkrét konfigurációjára. A tanúsítványok másolatai (a kereskedelmi
+      adatok kitörlésével, ahol szükséges) a projekt dokumentációs dosziers részeként kerülnek
+      rendelkezésre.
+
+evidence_review:
+  tagline: 'Bizonyíték és ellenőrzés'
+  title: 'ELLENŐRZÖTT SPECIFIKÁCIÓK'
+  body: 'Ezen az oldalon szereplő valamennyi gyártási állítást a qingdaói laixi telephelyünk Gyártási Mérnökségi csapata ellenőrizte. A tanúsítványok, a minőség-ellenőrzési vizsgálat nyilvántartásai, a nyomási és szerkezeti szilárdsági vizsgálati jelentések, valamint a lotkövethetőségi nyilvántartások kérésre rendelkezésre állnak. A specifikációkat legutóbbi alkalommal 2026 szeptemberében ellenőrizték.'

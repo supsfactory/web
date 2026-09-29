@@ -1,0 +1,176 @@
+meta:
+  title: 'Indítsa el SUP márkáját kis MOQ-s próbarendeléssel | iSupfactory'
+  description: 'Indítsa el felfújható SUP márkáját kis MOQ-s próbarendeléssel: 7–12 napos minták, 20–50 deszkás pilótaszállítmányok, 25–35 napos gyártás. Biztosított márkázás és minőségellenőrzés.'
+  dateModified: '2026-08-16'
+  keywords:
+    - 'sup márka indítása'
+    - 'sup márka elindítása'
+    - 'kis moq-s sup'
+    - 'sup próbarendelés'
+    - 'kezdő sup márka'
+    - 'kis szállítmányú sup márkázás'
+    - 'private label felfújható sup'
+
+hero:
+  tagline: 'Új és növekvő SUP márkák számára'
+  title: 'Indítsa el SUP márkáját kis MOQ-s próbarendeléssel'
+  subtitle: 'Nem kell konténer egy SUP márka elindításához. Validálja deszkáját, grafikáját és piacát egyetlen mintával, majd tesztelje a készletforgalmát 20–50 deszkás próbarendeléssel – mielőtt bármilyen teljes gyártási volumenbe belépne. A márkázást, a minőségellenőrzést és az exportlogisztikát a Qingdao Vatrad Group Co., Ltd. kezeli.'
+  actions:
+    - variant: primary
+      text: Kezdje el az indulást egy mintával
+      href: /hu/contact#custom-oem
+    - text: Tekintse meg a teljes MOQ- és határidő-keretrendszert
+      href: /hu/sup-oem-moq-lead-time
+
+answer:
+  label: 'Közvetlen válasz'
+  text: 'Igen – kis MOQ-s próbarendeléssel elindíthatja felfújható SUP márkáját. A belépési pont lépcsőzetes, nem „vagy minden, vagy semmi”: először 1–2 mintát rendel (7–12 nap alatt elkészül) a víztest, a grafika és a csomagolás rögzítéséhez; majd 20–50 deszkás próbarendelést ad le (25–35 napos gyártással) a valós készletforgalom teszteléséhez; végül fokozatosan áttér a 90–100+ deszkás standard térfogatszállítmányokra 150 m-es drop-stitch szövettekercsével, miután a forma bizonyított. A kis szállítmányú közös márkázás már 5–10 darabtól indul azoknak az üzemeltetőknek, akik fejlesztési lépés nélkül akarnak márkás deszkát. Az első konténer csak akkor érkezik, amikor az adatok azt mutatják, hogy itt az ideje.'
+  verified: '2026. szeptember'
+
+trial_included:
+  tagline: 'Mire terjed ki a próbarendelés'
+  title: 'Minden, amire az induláshoz szükség van, fix költség nélkül'
+  subtitle: 'A próbarendelés nem egy csökkentett számla – ugyanaz a gyári folyamat, csak egy éppen induló márkához méretezve. Íme, mit tartalmaz minden próbaprogram.'
+  grid: 'sm:grid-cols-2 lg:grid-cols-3'
+  features:
+    - icon: B
+      icon_bg: blue
+      title: 'Platform és deszkaszerkezet'
+      desc: 'A gyakorlatban tesztelt touring és all-around víztestek drop-stitch szerkezettel, a színszalag háromrétegű fúziójával és 12–15 PSI merevséggel – ugyanazok a platformok, amelyeket volumenes ügyfeleink használnak, 10 ft és 11 ft 6 in közötti szabványos méretekben.'
+    - icon: L
+      icon_bg: green
+      title: 'Az Ön márkázása, valóban alkalmazva'
+      desc: 'Digitális vagy szitámlás nyomtatás a teljes felületen, EVAs csúszásgátló fedelem az Ön logójával, valamint másodlagos márkázás a bordán vagy az oldalsó színeken. A kis szállítmányú közös márkázás központi iSupfactory-márkázást használ, az Ön logójával a bordán vagy a színeken.'
+    - icon: P
+      icon_bg: purple
+      title: 'Méretezhető csomagolási lehetőségek'
+      desc: 'Kezdje általános dobozokkal és vonalkódos címkékkel, majd lépjen át a későbbi szállítmányoknál teljes színű, 5 rétegű kartonos ajándékdobozokra. Az egyedi csomagolásnak van egy, a szerszámtól független minimális mennyisége; a felesleges dobozokat a program szerint tároljuk és adjuk ki.'
+    - icon: Q
+      icon_bg: orange
+      title: 'Gyári szintű minőségellenőrzés'
+      desc: 'Minden deszka ugyanazon a 100 pontos összeállítási ellenőrző listán, ugyanazzal a 24 órás nyomás- és tömörségi tesztel megy át (18.0 PSI nyomástartás, automatikus elutasítás 0.50 PSI-nél nagyobb esés esetén), amely bármely megrendelésre, mintára vagy konténerre vonatkozik.'
+    - icon: D
+      icon_bg: blue
+      title: 'Export és dokumentáció'
+      desc: 'CE, ISO 9001, BSCI, REACH és RoHS megfelelőségi dokumentáció, exportminőségű csomagolás és a tengeri szállítás koordinálása több mint 50 országba – egyetlen deszkás mintától a teljes programokig.'
+    - icon: T
+      icon_bg: green
+      title: 'Egy határidő, amelyre tervezhet'
+      desc: '7–12 napos minták, 25–35 napos próbagyártás a megerősített megrendelés és előleg után, valamint megerősített gyártási kapacitások az előszezonos megrendelésekhez – hogy az indulás a szezonba essen, ne utána.'
+
+trial_steps:
+  tagline: Az indulás menetrendje
+  title: 'Az ötlettől az első készletforgalomig hat kapun át'
+  subtitle: 'Egy szokásos első indulás 8–12 hétig tart a specifikációs laptól a kiszállított próbarendelésig, meglévő platformokat használva – hosszabb akkor, amikor egy dedikált víztest formafejlesztést igényel. Minden kapuhoz előre egyeztetett határnap tartozik.'
+  steps:
+    - step: '1. kapu'
+      title: 'Terméklap és mérnöki elemzés (0–2. nap)'
+      desc: 'Ossza meg a célzott deszkamodellt, a megrendelési mennyiséget, a grafikát és a csomagolásra vonatkozó szándékát. A mérnöki elemzés egy munkanapon belül elkészül, titoktartási megállapodás (NDA) pedig rendelkezésre áll, mielőtt megosztanánk bizalmas specifikációkat.'
+    - step: '2. kapu'
+      title: 'Specifikációk, MOQ és ajánlat (3–7. nap)'
+      desc: 'Részletes, tételenkénti ajánlat pontos MOQ-számítással, mintadíjakkal és határidőszakaszokkal. A mintadíjak a szerződés aláírásakor jóváíródnak a gyártási megrendelésen.'
+    - step: '3. kapu'
+      title: 'Minták 7–12 nap alatt'
+      desc: '1–2 fizikai deszka validálja a víztest merevségét, az EVA csúszásgátló textúráját, a grafika pontosságát és a tartozékok szerelését. Használja a deszkát, mielőtt bármi másba belépne.'
+    - step: '4. kapu'
+      title: '20–50 deszkás próbarendelés (25–35 nap)'
+      desc: 'Gyártás a meglévő víztest-platformokon, raktáron lévő anyagokkal és egyszerűsített csomagolással – a legkisebb kereskedelmi próba, amely a valós raktári feltételeket tükrözi.'
+    - step: '5. kapu'
+      title: 'Készletforgalmi és visszajelzési ablak'
+      desc: 'A fontos kapu az Ön piacán van, nem a mi gyárunkban: a bérelők és az ügyfelek megerősítik a deszka formáját, a grafikát és az árkategóriát, mielőtt fokozódik.'
+    - step: '6. kapu'
+      title: 'Fokozódás a térfogatszállítmányokig (90–100+ deszka)'
+      desc: 'Miután a forma bizonyított, a 150 m-es tekercsekkel dolgozó szállítmányok teljes gyártási hatékonyságot, márkás csomagolást és térfogati árakat hoznak. A konténeres program a cél, nem a feltétel.'
+
+trial_budget:
+  tagline: Irányadó költségvetési tartományok
+  title: 'Mennyibe kerül egy indulás – referenciaárhoz tartozó tartományok'
+  subtitle: 'Irányadó referencia-tartományok EXW Qingdao (Kína) feltételekkel, egy szabványos touring vagy all-around víztesthez, raktáron lévő méretekben. A végső ajánlat a víztest formájától, a PVC-től, a grafika fedettségétől, a csomagolástól, a tartozékoktól és a mennyiségtől függ – ezt bármilyen kötelezettségvállalás előtt megerősítjük az Ön konfigurációjára vonatkozóan.'
+  headers:
+    stage: A megrendelés szakasza
+    price: Referenciaár deszkánként
+    notes: Megjegyzések
+  rows:
+    - stage: 'Minták (1–2 deszka)'
+      price: 'USD 250–350'
+      notes: 'Fizikai minta az Ön grafikájával alkalmazva. A mintadíjak a szerződés aláírásakor jóváíródnak a gyártási megrendelésen.'
+    - stage: 'Próbarendelés / pilóta (20–50 deszka)'
+      price: 'USD 180–260'
+      notes: 'Meglévő víztest-platformok, raktáron lévő anyagok és egyszerűsített csomagolás. A kis MOQ-s indulás szokásos útja.'
+    - stage: 'Standard térfogat (90–100+ deszka 150 m-es tekercsenként)'
+      price: 'USD 150–220'
+      notes: 'Teljes 150 m-es szövettekercsek, testreszabott Pantone PVC opciók, márkás csomagolás és térfogati árak.'
+    - stage: 'Dedikált víztest és szerszámok (kiegészítő)'
+      price: 'Egyenként ajánlat'
+      notes: 'A dedikált víztestforma 15–20 nap formafejlesztési időt ad hozzá az általános határidőhöz; a szerszámokat tételenként részletezzük és egyszer árazzuk.'
+
+derisk:
+  tagline: Indulás kockázat nélkül
+  title: 'Négy módja annak, hogyan csökkenti a próbarendelés az indulás kockázatát'
+  subtitle: 'Az új márkák indulásának többsége a készlet miatt bukik el, nem a termékminőség miatt. A próbarendelést úgy terveztük meg, hogy a kerülhető hibák lehetetlenné váljanak.'
+  features:
+    - icon: I
+      icon_bg: blue
+      title: 'Nincs nehéz készletvállalás'
+      desc: 'Az Ön kitettsége az első szezonra 50 deszka alatt marad. Ha a formát módosítani kell, azt a nagy kiadás előtt végzik el, nem utána.'
+    - icon: C
+      icon_bg: green
+      title: 'Kezelhető pénzügyi áramlás'
+      desc: 'A kisebb megrendelések kisebb előlegeket, ütemezett fizetéseket jelentenek, és nincs raktárban lekötött tőke. A térfogati árak addig várnak, amíg azokat ténylegesen ki nem érdemli.'
+    - icon: Q
+      icon_bg: purple
+      title: 'A minőség soha nem csökken'
+      desc: 'A 20 deszkás próbarendelés ugyanazon a 100 pontos ellenőrző listán és ugyanazokon a nyomáspróbákon megy át, mint egy konténeres program – nincs olyan kompromisszum, hogy „először kipróbáljuk, aztán megnézzük a minőséget”.'
+    - icon: G
+      icon_bg: orange
+      title: 'Megerősített út a fokozódás felé'
+      desc: 'Minden próbarendeléshez megerősített út vezet a térfogat felé: megőrzött mintajóváhagyások, rögzített grafika és anyaglista, valamint lefoglalt gyártási kapacitások a következő szállítmányához.'
+
+scale_path:
+  tagline: A próba után
+  title: 'Mi következik egy sikeres próbarendelés után'
+  subtitle: 'A próbarendelés szándékosan egy hosszabb kapcsolat első lépése. Ez az az út, amelyet az első deszka feladása előtt egyeztetünk.'
+  steps:
+    - step: '1. fázis'
+      title: 'A próba kiszállítva és értékelve'
+      desc: '20–50 deszka érkezik a szezonba, és a készletforgalmi adatok visszaérkeznek az Ön csatornájából – bérelés, kiskereskedelem vagy közvetlen értékesítés.'
+    - step: '2. fázis'
+      title: 'Visszajelzés és finomítás'
+      desc: 'A színváltozatok, a grafika, a csomagolás és a tartozékok kombinációja a piac valós reakciója alapján finomul. A grafika és az anyaglista a következő szállítmányra rögzül.'
+    - step: '3. fázis'
+      title: 'Térfogatszállítmány (90–100+ deszka)'
+      desc: '150 m-es tekercsekkel dolgozó szállítmányok teljes gyártási hatékonysággal, márkás kiskereskedelmi csomagolással és térfogati árakkal – a mintajóváhagyások már levonva.'
+    - step: '4. fázis'
+      title: 'Konténer-skálájú programok'
+      desc: '300+ deszkás programok, ütemezett feladásokkal, testreszabott Pantone anyagokkal és a teljes fejlesztési folyamattal – ugyanaz a gyár, most már teljes méretben.'
+
+trial_faqs:
+  tagline: GYIK
+  title: 'Gyakori kérdések az indulásról próbarendeléssel'
+  items:
+    - q: 'Elindíthatok egy SUP márkát konténerrendelés nélkül?'
+      a: 'Igen. A belépési pont lépcsőzetes: 1–2 minta validálja a deszkát (7–12 nap alatt kész), 20–50 deszkás próbarendelés validálja a piacot (25–35 napos gyártás), a 90–100+ deszkás térfogatszállítmányok pedig csak akkor következnek, ha a készletforgalom bizonyítja a formát. A kis szállítmányú közös márkázás már 5–10 darabtól indul, ha fejlesztési lépés nélkül szeretne márkás deszkát.'
+    - q: 'Mennyi ideig tart egy teljes indulás, egyik végétől a másikig?'
+      a: 'A meglévő víztest-platformokat használva egy szokásos első indulás 8–12 hétig tart a terméklaptól a kiszállított próbarendelésig: 7–12 napos minták, 25–35 napos próbagyártás a megerősített megrendelés és előleg után. Egy dedikált víztest 15–20 nap formafejlesztési időt ad hozzá.'
+    - q: 'Mit tartalmaz az ár – és mit nem?'
+      a: 'A referencia-tartományok a deszkákra vonatkoznak EXW Qingdao feltételekkel, beleértve a márkázás alkalmazását és a standard minőségellenőrzést. Irányadó jellegűek: a végső ajánlatot az Ön konfigurációjára – víztest, PVC, grafikai fedettség, csomagolás és tartozékok – vonatkozóan erősítjük meg, bármilyen kötelezettségvállalás előtt. A szállítás, a vámdíjak és a célállási vámügyi eljárások külön árajánlatot kapnak.'
+    - q: 'Meg kell-e vásárolnom 100 vagy 500 deszkát ahhoz, hogy a logóm a deszkára kerüljön?'
+      a: 'Nem. A kis szállítmányú közös márkázás már 5–10 darabtól elhelyezi az Ön logóját a bordán vagy az oldalsó színeken, a 20–50 deszkás próbarendelések pedig lehetővé teszik a grafika teljes alkalmazását ugyanolyan minőséggel, mint a tömeggyártásnál. A mennyiséggel az darabonkénti ár változik, nem az elérhetőség.'
+    - q: 'Mi történik, ha a próba után meg akarom változtatni a kivitelt?'
+      a: 'A próba és a térfogat közötti módosítások normálisak és örömmel fogadjuk őket – éppen ez a próba célja. A színváltozatokat, a grafikát, a csomagolást és a tartozékokat újrakalibráljuk az új konfigurációhoz az ár szempontjából, majd rögzítjük őket a grafika és az anyaglista aláírásával a térfogatszállítmány előtt. A szitámlás nyomtatási formadíjak elengedésre kerülnek azoknál az ismétlődő megrendeléseknél, amelyek ugyanazt a grafikai méretet használják.'
+    - q: 'Aláírunk-e NDA-t, mielőtt megosztanám Önökkel a kiviteleket?'
+      a: 'Igen. Titoktartási megállapodás rendelkezésre áll, mielőtt megosztanánk műszaki specifikációkat vagy bizalmas grafikát. Mi kizárólag az ügyfeleink márkái alatt gyártunk, és egyetlen piacon sem versenyzünk velük – ugyanez a politika érvényes egyetlen deszkás mintára és egy teljes konténerprogramra egyaránt.'
+
+cta:
+  title: 'Készen áll az SUP márkája elindítására?'
+  subtitle: 'Küldje el a célzott deszkamodellt, az első szezon mennyiségét és a márkázási ötleteit. Megerősítjük a pontos minta- és próbarendelési utat, tételenkénti költségbontással és napi ütemezéssel – aláírásig semmilyen kötelezettség nélkül.'
+  actions:
+    - variant: primary
+      text: Kezdje el az indulást
+      href: /hu/contact#custom-oem
+    - text: Értse meg először az egyedi SUP MOQ-ját és határidejét
+      href: /hu/sup-oem-moq-lead-time
+    - text: Rugalmas márkázási és MOQ-útmutató
+      href: /hu/oem-moq-guide
+    - text: Ellenőrizze a gyárat és a minőségi rendszert
+      href: /hu/oem-trust-assurance

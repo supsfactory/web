@@ -1,0 +1,242 @@
+meta:
+  title: 'Nem megfelelő termékek kezelése SUP és újrafeldolgozás terén | OEM gyár | iSupfactory'
+  description: 'Nem megfelelő termékek kezelése (ISO 9001:2015, 8.7 pont): NCR karantén, SRI által szabályozott újrafeldolgozás, független újraellenőrzés és megsemmisítés tanúk jelenlétében.'
+  dateModified: '2026-08-14'
+  keywords:
+    - 'nem megfelelő termékek kezelése'
+    - 'SUP újraellenőrzési és újrafeldolgozási folyamat'
+    - 'ISO 9001 nem megfelelő kimenetek'
+    - 'NCR-kezelés a gyártásban'
+    - 'SUP hulladékmegsemmisítési bizonylat'
+    - 'OEM minőség-ellenőrzés felfújható SUP-hoz'
+
+hero:
+  tagline: Nem megfelelő termékek kezelése
+  title: 'A nem megfelelő termékek elkülönítési, újrafeldolgozási és újraellenőrzési folyamata'
+  subtitle: 'A QINGDAO VATRAD GROUP.,LTD. keretében egyetlen nem megfelelő deszka sem kerülhet tovább. Minden olyan terméket vagy alkatrészt, amely nem felel meg a meghatározott elfogadási kritériumoknak, azonosítjuk, Nemmegfelelési Jelentésben (NCR) nyilvántartásba vesszük, címkezzük és fizikailag elkülönítjük, értékeljük az érintett hatókörben, és a megfelelő hatósági szinten kivesszük. Az engedélyezett újrafeldolgozás jóváhagyott utasítások szerint zajlik, a kijavított tételeket az eredeti elfogadási kritériumokhoz képest újraellenőrizzük – ahol szükséges, a vizsgálatok teljes újraindításával –, és a termék csak a minőségügy által aláírt engedélyezés után szállítható. Ez az oldal ismerteti a szabványos, ISO 9001:2015 8.7 pontja szerinti eljárásunkat és a mögötte lévő követhetőségi bizonyítékokat.'
+  actions:
+    - text: 'NCP-kezelési SOP letöltése (PDF)'
+      variant: primary
+      href: 'https://assets.isupfactory.com/site/downloads/non-conforming-product-control-sop-iso-8-7.pdf?dl=1'
+    - text: 'A roncs és megsemmisítés bizonylatának letöltése (PDF)'
+      href: 'https://assets.isupfactory.com/site/downloads/scrap-destruction-certificate-vat-qa-scrap-cert-2026.pdf?dl=1'
+    - text: 'Kérjen minőségi elemzést'
+      href: /hu/contact
+
+answer:
+  label: 'Közvetlen válasz'
+  text: 'A nem megfelelő termékeket a QINGDAO VATRAD GROUP.,LTD.-nél soha nem rejtjük el, nem dolgozzuk fel informálisan, és nem engedélyezzük ellenőrzés nélkül. Minden azonosított nem megfelelést nyilvántartásba vesszük az érintett termékhez, lothoz vagy alkatrészhez, és NCR-hez kötjük. A tételt címkezzük (HOLD / QUARANTINE / REJECTED), fizikailag elkülönítjük, és az érintett hatókör értékelése lot, anyaglot, folyamatlépés és dokumentumrevízió szerint történik. A kivétel intézkedését a hiba súlyosságának megfelelő hatósági szinten hozzuk meg: a kisebb problémákat soron írjuk alá, a súlyosabbaknál a Minőségbiztosítási Vezető és egy Műszaki Mérnök döntése, ellenőrzött újrafeldolgozási utasítás és 100%-os független újraellenőrzés szükséges, a kritikusaknál pedig az Anyagvizsgálati Tanács döntése, szükség esetén az ügyfél írásbeli jóváhagyásával – ellenkező esetben kötelező megsemmisítés tanúk jelenlétében. Az újrafeldolgozott tételeket az eredeti elfogadási kritériumokhoz képest újraellenőrizzük, a légtömörségi javítások teljesen új 24 órás nyomáspróbát kapnak, és a szállítási engedélyezés csak a minőségügy jóváhagyó aláírása után történik. Az ismétlődő vagy rendszerszintű problémák gyökérok alapú korrekciós intézkedéseket (CAPA) váltanak ki.'
+  verified: '2026. szeptember'
+
+stats:
+  tagline: Röviden
+  title: A nem megfelelőségek kezelése számokban
+  stats:
+    - value: '7'
+      label: Lépés az azonosítástól a korrekciós intézkedésig
+    - value: '100%'
+      label: Minden újrafeldolgozott deszka újraellenőrzése független QA által
+    - value: '24h'
+      label: Teljes nyomáspróba a légtömörségi javításoknál
+    - value: '≥ 5 év'
+      label: A tanúkkal igazolt megsemmisítési bizonyítékok megőrzése (SHA-256 pécsét)
+
+nc_intro:
+  tagline: Nem megfelelő termékek kezelése
+  title: Mi történik, ha egy termék nem felel meg a kritériumoknak
+  body: |
+    Azokat a termékeket és alkatrészeket, amelyek nem felelnek meg a meghatározott elfogadási kritériumoknak, azonosítjuk és kezeljük, hogy megakadályozzuk a nem szándékolt felhasználást, a további feldolgozást vagy a szállítást. Az alkalmazandó elfogadási kritériumok a jóváhagyott mintán, a műszaki specifikáción, a grafikán, az anyaglista-hoz, a csomagolási igényeken és a projekt vizsgálati tervén alapulnak.
+
+    A nem megfelelő tételeket értékeljük az érintett hatókör és a megfelelő intézkedés meghatározásához. A problémától függően a tétel visszatartható, a jóváhagyott utasítások szerint újra feldolgozható, cserélhető, elutasítható vagy másképpen kezelhető egy jóváhagyott folyamat szerint. Az újrafeldolgozott vagy kijavított tételeket engedélyezés előtt újraellenőrizzük. A szállítási engedélyezés csak a releváns minőségi nyilvántartások kitöltése és a termék alkalmazandó elfogadási kritériumoknak való megfelelése után engedélyezett.
+
+nc_flow:
+  tagline: A 7 lépéses zárt kör szabványa
+  title: Az azonosítástól a korrekciós intézkedésig
+  subtitle: 'Minden nem megfeleléshez egyetlen szabályozott kör: azonosítás, karantén, elemzés, újrafeldolgozás vagy csere, újraellenőrzés, engedélyezés vagy elutasítás, fejlesztés.'
+  steps:
+    - step: '01'
+      title: Azonosítás
+      desc: 'Minden azonosított nem megfelelést nyilvántartásba vesszük az érintett termékhez, lothoz vagy alkatrészhez, és értékeljük a projekt alkalmazandó igényeihez képest. Az észlelés történhet az anyagok átvételekor, a folyamatközi ellenőrzéskor, a végső vizsgálatkor, csomagoláskor, illetve az ügyfél vagy harmadik fél által végzett vizsgálat során.'
+    - step: '02'
+      title: Karantén
+      desc: 'A tételeket egyértelműen azonosítjuk és ellenőrzött visszatartási vagy karantén állapotba helyezzük, hogy megakadályozzuk a nem szándékolt felhasználást, a további feldolgozást vagy a szállítást. A HOLD / QUARANTINE / REJECTED címkék tartalmazzák az NCR-számot, az SKU-t, a lótot, a mennyiséget, a hiba leírását és a dátumot.'
+    - step: '03'
+      title: Elemzés
+      desc: 'Értékeljük az érintett hatókört és a megfelelő intézkedést: egyedi darab, fordulólot, teljes lot vagy több lot – beleértve a megosztott anyaglombok, a grafikai revíziók, a folyamatlépések és a dokumentumrevíziók szintjén. Ahol szükséges, további hatáscsökkentő intézkedéseket vagy szigorított vizsgálatot alkalmazunk.'
+    - step: '04'
+      title: Újrafeldolgozás vagy csere
+      desc: 'Az engedélyezett újrafeldolgozás a jóváhagyott utasítások szerint zajlik, amelyek meghatározzák az érintett tételt, a módszert, az anyagokat, az ellenőrzési pontokat és az újraellenőrzési igényeket. A termékspecifikáció, a grafika, a kiegészítőkonfiguráció vagy a csomagolás jóváhagyatlan módosítása soha nem engedélyezett. A cserélt tételekek visszakerülnek az alkalmazandó ellenőrzési pontokhoz.'
+    - step: '05'
+      title: Újraellenőrzés
+      desc: 'Az újrafeldolgozott vagy kijavított tételeket az alkalmazandó elfogadási kritériumokhoz képest újraellenőrizzük. Az eredetileg meghibásodott jellemzőt és az újrafeldolgozás által esetlegesen érintett kapcsolódó jellemzőket engedélyezés előtt ellenőrizzük – a független minőség-ellenőrzés részéről, és a légtömörségi javításoknál teljesen új, 24 órás nyomáspróbával.'
+    - step: '06'
+      title: Engedélyezés vagy elutasítás
+      desc: 'A termék csak a szükséges újraellenőrzés befejezése és az engedélyezett minőségi személyzet megfelelés-megerősítése után engedélyezhető. Azokat a tételeket, amelyeket nem lehet megfelelővé tenni, a szabályozott eljárások szerint elutasítjuk, cseréljük, visszaküldjük vagy kivesszük – beleértve a tanúk jelenlétében végzett fizikai megsemmisítést.'
+    - step: '07'
+      title: Korrekciós intézkedés
+      desc: 'Az ismétlődő, jelentős vagy rendszerszintű nem megfeleléseket gyökérok és korrekciós intézkedés (CAPA) szempontjából elemezzük. A fejlesztések magukban foglalhatják a munkautasítások, az anyagellenőrzések, az ellenőrzési pontok, a képzés, a beszállítókezelés vagy a dokumentumkezelés frissítését.'
+
+nc_pillars:
+  tagline: A vevő bizalmának pillérei
+  title: Három ellenőrzési mechanizmus, amely védi az Ön márkáját
+  subtitle: 'A folyamat azokra a kérdésekre épül, amelyeket a nemzetközi vevők a gyakorlatban feltesznek: elrejtik-e a problémákat, kikerül-e az ellenőrzés alól az újrafeldolgozás, és újraellenőrzik-e a javított deszkákat.'
+  features:
+    - icon: 1
+      icon_bg: blue
+      title: 'Kizárólag szabályozott utasítások'
+      desc: 'Az újrafeldolgozást szigorúan a jóváhagyott Standard Újrafeldolgozási Utasítások (SRI) szabályozzák. A helyszínen végzett jóváhagyatlan módosítások, illetve az írásbeli engedély nélküli specifikáció- vagy grafikamódosítás szigorúan tilos.'
+    - icon: 2
+      icon_bg: green
+      title: Független újraellenőrzés
+      desc: 'Az újrafeldolgozott deszkákat 100%-ban, az eredeti elfogadási kritériumokhoz képest vizsgálják QA-ellenőreink. A légtömörségi javítások teljesen új, 24 órás nyomáspróbát igényelnek — soha nem részleges újraellenőrzést.'
+    - icon: 3
+      icon_bg: purple
+      title: Engedélyező aláírás és követhetőség
+      desc: 'A szállítási engedélyezés kizárólag az NCR-dokumentáció kitöltése és a minőség-ellenőrzés engedélyező aláírása után engedélyezett, ekkor a lot állapota HOLD-ról RELEASED-re vált. A rendszerszintű vagy ismétlődő eltérések automatikusan gyökérok-elemzési CAPA folyamatokat indítanak.'
+
+nc_photos:
+  tagline: 'A gyártócsarnokban'
+  title: 'Karantén, újrafeldolgozás és újraellenőrzés a gyakorlatban'
+  subtitle: 'A qingdaói műhelyünkben készült fotók megmutatják, hogyan különítjük el fizikailag a nem megfelelő deszkákat, hogyan dolgozzuk fel őket újra a szabályozott utasítások szerint, és hogyan ellenőrizzük őket újra az engedélyezésről szóló bármely döntés előtt.'
+  features:
+    - image: https://assets.isupfactory.com/site/quality/qc-air-tightness-test-area.avif
+      alt: A gyár légtömörségi vizsgálóterületén felfújt felfújható SUP deszkák, digitális nyomásmérőkkel monitorozva
+      title: Újraellenőrzési pont
+      desc: 'Az újrafeldolgozás után minden deszka visszatér a minőség-ellenőrzés vizsgálóterületére független újraellenőrzésre: felfújják, és digitális nyomásmérőkkel monitorozzák a projekt által jóváhagyott elfogadási kritériumokhoz képest – soha nem részleges ellenőrzés.'
+    - image: https://assets.isupfactory.com/site/quality/qc-hold-quarantine-station.avif
+      alt: Minőség-ellenőrzési űrlapok és ellenőrzött visszatartási állapot-címkék a gyár vizsgálóállásán
+      title: Visszatartási és karanténállás
+      desc: 'Vizsgálóállás minőség-ellenőrzési űrlapokkal és állapotjelöléssel. Minden olyan tétel, amely nem felel meg az elfogadási kritériumoknak, HOLD / QUARANTINE jelölést kap, egy NCR-be kerül, és fizikailag elkülönül – nem juthat el a csomagolásig az engedélyezett intézkedés és a kötelező újraellenőrzés befejezése előtt.'
+    - image: https://assets.isupfactory.com/site/quality/qc-air-tightness-rework.avif
+      alt: Minőség-ellenőrzési technikus, aki a gyár újrafeldolgozó állásán ellenőrzött légtömörségi újrafeldolgozást végez egy felfújható SUP deszkán
+      title: 'Ellenőrzött újrafeldolgozó állás'
+      desc: 'Az újrafeldolgozás egy elkülönített álláson, jóváhagyott SRI utasítás szerint zajlik: a hibát megjelölik, a deszka HOLD állapotban marad, és a szükséges polimerizációs idő után visszatér a vizsgálóterületre eredeti elfogadási kritériumok szerinti újraellenőrzésre.'
+    - image: https://assets.isupfactory.com/site/quality/qc-workshop-inspection-demo.avif
+      alt: A minőség-ellenőrzési vizsgálatok bemutatása a qingdaói gyár műhelyében
+      title: 'A minőség-ellenőrzés bemutatása a műhelyben'
+      desc: 'Bemutató fotó a műhelyből, amely a gyakorlatban alkalmazott minőség-ellenőrzési vizsgálatokat mutatja, és alátámasztja az ezen az oldalon hivatkozott vizsgálati és állapotkezelési nyilvántartásokat.'
+
+nc_severity:
+  tagline: 'A hiba súlyossága és az illetékesség'
+  title: 'A súlyosság besorolása és az intézkedési hatáskör'
+  subtitle: Nem minden nem megfelelés kezelendő ugyanazon a szinten – az intézkedési hatáskör a hiba súlyosságával nő, a soron történő aláírástól az Anyagvizsgálati Tanácsig és az ügyfél jóváhagyásáig.
+  headers:
+    severity: Súlyosság
+    examples: 'Tipikus példák'
+    authority: 'Intézkedési és ellenőrzési hatáskör'
+    control: 'Engedélyezési feltétel'
+  rows:
+    - severity: 'Kisebb'
+      examples: 'Kartonhornyosodás, egy nem kritikus kiegészítő enyhe helyzeti eltérése'
+      authority: 'Helyszíni aláírás az üzemeltetési minőségi felelőstől és a sorvezetőtől, csere vagy engedélyezés'
+      control: 'NCR-be nyilvántartásba kerül; nincs hatása a termék működésére vagy az ügyfél igényeire'
+    - severity: 'Súlyos'
+      examples: 'A szelep lassú szivárgása, az EVA pad eltérése a tűrésen túl (>2 mm), hiányzó kiegészítő'
+      authority: 'A Minőségbiztosítási Vezető és a Műszaki Mérnök ellenőrzött újrafeldolgozási utasítást (SRI) ad ki'
+      control: 'Az eredetileg meghibásodott jellemző és az érintett jellemzők 100%-os független újratesztelése az engedélyezés előtt'
+    - severity: 'Kritikus'
+      examples: 'A drop-stitch rekesz sérülése, buborék vagy repedés az élen magas nyomáson, az ügyfél logójának hibás nyomtatása vagy színeltérés'
+      authority: 'Az Anyagvizsgálati Tanács (MRB) döntése; szükség esetén az ügyfél írásbeli jóváhagyása'
+      control: 'Engedélyező jóváhagyás nélkül nincs átadás; ellenkező esetben kötelező fizikai megsemmisítés tanúk jelenlétében'
+
+nc_matrix:
+  tagline: 'A mérnöki protokollok mátrixa'
+  title: A SUP hibák intézkedési és újraellenőrzési mátrixa
+  subtitle: 'A leggyakoribb gyártási eltérésekre alkalmazott szabványos technikai protokollok – ugyanazok a számszerű paraméterek, amelyeket az ügyfelek az auditok során ellenőrizhetnek.'
+  headers:
+    defect: Hibakategória
+    protocol: 'Szabályozott intézkedési protokoll'
+    validation: 'Újraellenőrzés és független validáció'
+  rows:
+    - defect: 'Lassú szivárgás a szelepnél'
+      protocol: 'Válassza le a deszkát. Szerelje le a szelepmagot kalibrált nyomatékkulccsal (25 N·m), tisztítsa meg a belső meneteket, cserélje ki a szilikongyűrűt, és alkalmazza újra a nyomatékot.'
+      validation: 'Merítse buborékkalépbe; fújja újra 18 PSI-re a nyomáscsökkenés teljes, 24 órás újrateszteléséhez (ΔP ≤ 0.05 PSI).'
+    - defect: 'Légbuborék az élvarratnál'
+      protocol: 'Helyezze karanténba a fordulólotot. Válassza le a buborékos területet hőbeadásos fúvókával, tisztítsa meg a felületet oldószerrel, vigye fel kétkomponensű PU ragasztót 5 bar nyomáson.'
+      validation: 'A varratok 100%-os vizuális és tapintásos vizsgálata; szerkezeti ellenőrző nyomáspróba (18.0 PSI) és 24 órás légtömörségi nyomástartás.'
+    - defect: 'Az EVA pad eltérése'
+      protocol: 'Hőbeadásos leválasztás szabályozott hőmérsékletű szerszámmal (80°C). Igazítsa be pontos akril pozicionálósablonnal.'
+      validation: 'A hézagtűrések ellenőrzése (≤ ±1,5 mm), a rombos minta szimmetriájának ellenőrzése, 100%-os élragasztási próba.'
+    - defect: 'Márkázási / logóhiba'
+      protocol: 'A nyomtatósor azonnali leállítása. Vezessen vissza minden kinyomtott panelt. Elemezze a vektoros revíziót az ügyféllel együtt; nulla jóváhagyatlan módosítás.'
+      validation: 'Színellenőrzés spektrofotométerrel (ΔE ≤ 1,5); a szövegillesztés 100%-os vizuális ellenőrzése az ügyfél által aláírt mester vektoros PDF-fájlhoz képest.'
+    - defect: 'Csomagolási nem megfelelés / hiányzó SKU'
+      protocol: 'Helyezze karanténba az exportraklapot. Bontsa ki a csomagokat, és végezzen 100%-os tételes anyaglista-ellenőrzést (pumpa, uszony, kötél, ezenyél, javítócső).'
+      validation: 'Beépített dinamikus elektronikus mérleg validációja (±30 g eltérés); ellenőrzés 2D vonalkódolvasóval.'
+
+nc_scrap:
+  tagline: 'Nulla szivárgás a piac felé'
+  title: 'Roncs és megsemmisítés tanúk jelenlétében – nulla hibát eredményező anti-divergencia protokoll'
+  body: |
+    A nemzetközi márkapartnereknek biztosaknak kell lenniük abban, hogy a hibás deszkák soha nem kerülnek másodlagos kiskereskedelembe, párhuzamos piacokra vagy elektronikus kereskedelmi csatornákon. Azokat a deszkákat, amelyeket nem lehet megfelelővé tenni, tanúsított protokoll szerint, tanúkkal és nyilvántartással semmisítjük meg:
+
+    **1. A fémalkatrészek és kiegészítők levágása.** A QA-igazgató felügyelete alatt egy hidraulikus olló eltávolítja az összes 316 rozsdamentes acél D-gyűrűt, a szállítófogantyú pántjait és a csomagpántokat. A felfújt szelepegységet és az usnyszám dobozát (US-Box / gyorsrögzítő uszony) a deszka tövénél levágjuk, így egyetlen visszanyerhető alkatrész sem marad.
+
+    **2. A drop-stitch mag és az élek átvágása.** A belső drop-stitch magot keresztben, a deszkán és a fedélzeten át vágjuk, mély, keresztben futó vágásokkal (≥ 50 cm vágásonként), a megerősített oldaléleket pedig legalább 4 szegmensre bontjuk – véglegesen megszüntetve a tömörségi és lebegőképességi képességet.
+
+    **3. Videó- és fényképeszaf. A megsemmisítést 1080p, nem vágott videóval rögzítjük, amely a sorozatszám részleteiről, a vágási folyamatról, a mag átvágásáról és a lemért végső roncs halomról készült részletes felvételeket tartalmazza. A videót pecsételjük (SHA-256), és ≥ 5 évre egy ellenőrzött kiszolgálón őrizzük.
+
+    **4. Tanúsított hulladékkezelés.** Minden PVC- és drop-stitch-törmeléket lemérünk, a kimeneti nyilvántartásba vezetünk, és kizárólag minősített polimer-újrahasznosító partnerek szállítják – egyetlen maradék sem távozik más úton az üzemből.
+
+    > **Márkavédelmi garancia:** a QINGDAO VATRAD GROUP CO., LTD. garantálja a nem megfelelő, nem javítható járművek 100%-os megsemmisítését. Sem egyetlen gyári másodperc, sem egyetlen károsodott deszka nem jut el valaha másodlagos kiskereskedelembe, párhuzamos piacokra vagy elektronikus kereskedelmi csatornákon. a Roncs- és Megsemmisítési Bizonylat (VAT-QA-SCRAP-CERT-2026) rögzíti a terméket, a lótot, az MRB következtetését, a tanúkkal készült fényképeket, valamint a QA-igazgató és a Gyár-igazgató kettős aláírását.
+
+nc_downloads:
+  tagline: Letölthető QMS dokumentumok
+  title: 'Kétnyelvű felügyelt dokumentumok (PDF)'
+  subtitle: 'A QINGDAO VATRAD GROUP.,LTD. hivatalos kétnyelvű EN/ZH dokumentumai – az ISO 9001:2015 8.7 pontja szerint strukturálva, és felkészítve az ügyfélauditokra, a B2B technikai jelentésekre és a műhelyen belüli szabályozott terjesztésre.'
+  features:
+    - icon: N
+      icon_bg: blue
+      title: 'Nem megfelelő termékek kezelésének SOP-ja (PDF)'
+      desc: 'ISO 9001:2015 8.7 pontján alapuló kétnyelvű SOP: 8 szakaszos zárt körű ellenőrzés, a SUP hibák intézkedési mátrixa, az NCR adatszerkezete és az ügyfeleknek vállalt minőségi kötelezettség.'
+      link: 'https://assets.isupfactory.com/site/downloads/non-conforming-product-control-sop-iso-8-7.pdf?dl=1'
+      link_label: 'PDF letöltése'
+    - icon: S
+      icon_bg: orange
+      title: 'Roncs- és megsemmisítési bizonylat (PDF)'
+      desc: 'VAT-QA-SCRAP-CERT-2026: a termék és a lot követhetősége, az MRB következtetése, a 4 szakaszos fizikai megsemmisítési protokoll, a tanúkkal készült fényképek mezői és a kettős aláírási blokk.'
+      link: 'https://assets.isupfactory.com/site/downloads/scrap-destruction-certificate-vat-qa-scrap-cert-2026.pdf?dl=1'
+      link_label: 'PDF letöltése'
+    - icon: R
+      icon_bg: green
+      title: 'A szabályozott újrafeldolgozás irányítása (oldal)'
+      desc: 'Kísérőoldal a légtömörségi javítás jóváhagyott módszerlapjaihoz, a MC-RW-01-től az MC-RW-06-ig, valamint a 7 lépéses szabályozott újrafeldolgozási folyamathoz.'
+      link: '/hu/factory/quality-inspection'
+      link_label: 'Az oldal meglátogatása'
+    - icon: C
+      icon_bg: purple
+      title: 'Az újrafeldolgozási változtatáskezelés szabványa (oldal)'
+      desc: 'Az ISO 9001 szerinti formális változtatáskezelés az újrafeldolgozási paraméterekhez: ECR, kockázatbesorolás, jóváhagyási mátrix, validációs terv és Poka-Yoke intézkedések – QMS-SOP-QC-CC-001 Rev 2.0.'
+      link: '/hu/factory/quality-change-control'
+      link_label: 'Az oldal meglátogatása'
+
+faqs:
+  tagline: GYIK
+  title: 'Gyakori kérdések a minőségről és a hibakezelésről a nemzetközi vevők részére'
+  items:
+    - q: 'Hogyan garantálják, hogy az újrafeldolgozott deszkák megfelelnek a teljes biztonsági szabványoknak?'
+      a: 'Minden újrafeldolgozott deszkát új egységként kezelünk, és pontosan ugyanazt a teljes vizsgálati ciklust kell végigjárnia, nulláról – a légtömörségi javításoknál ez egy teljes, 24 órás nyomáspróbát jelent. Az engedélyezési validációt független minőség-ellenőrző vizsgálók végzik, nem azok a kezelők, akik az újrafeldolgozást végezték.'
+    - q: 'A gyár kisebb kozmetikai eltérésekkel rendelkező deszkákat szállít-e anélkül, hogy értesítenének minket?'
+      a: 'Soha. Bármely eltérés, amely érinti az ügyfél által jóváhagyott referenciamintákat, a logó grafikáját, a színváltozatokat vagy a csomagolást, formális, írásbeli, ügyfél által aláírt Engedélyezési Megállapodást (Concession Agreement) igényel a szállítási engedélyezés előtt.'
+    - q: 'Mi történik, ha egy újrafeldolgozott deszka nem felel meg az újraellenőrzésnek?'
+      a: 'A deszkát nem engedélyezzük. Visszatér egy új intézkedési elemzéshez, és ha nem tehető megfelelővé, akkor a roncskezelési protokoll szerint, tanúk jelenlétében cseréljük, elutasítjuk vagy megsemmisítjük. Ugyanazon hibacsoport ismétlődő meghibásodása gyökérok alapú CAPA intézkedést indít.'
+    - q: 'Értékesíthetők-e a hibás deszkák gyári túladásként vagy más csatornákon?'
+      a: 'Nem. A nem megfelelő, nem javítható deszkákat a roncskezelési protokoll szerint, tanúk jelenlétében fizikailag megsemmisítjük – a fémalkatrészeket levágjuk, a magot és az éleket átvágjuk, a folyamatot SHA-256 pecsételt videóval rögzítjük, és legalább 5 évre archiváljuk. A Roncs- és Megsemmisítési Bizonylatot a QA-igazgató és a Gyár-igazgató írja alá.'
+    - q: 'Hogyan értékelik ki az érintett hatókört, amikor hibát találnak?'
+      a: 'A hatókört a termék azonosítása, a gyártólot, az anyaglot vagy alkatrész, a folyamatlépés és az alkalmazandó dokumentumrevízió alapján elemezzük. Ha ugyanaz az anyaglot, ugyanaz a grafikai revízió vagy ugyanaz a munkahely érintett, az érintett termékeket ennek megfelelően korlátozzuk és ellenőrizzük.'
+    - q: 'Szükséges-e a jóváhagyásunk egy engedély megadása előtt?'
+      a: 'Igen. Bármely, a vevő igényeit érintő dokumentált engedélyezés – jóváhagyott minták, specifikációk, grafika, csomagolás vagy elfogadási kritériumok – az ügyfél írásbeli jóváhagyását igényli az engedélyezés előtt. Ennek hiányában a terméket az eredeti igény szerint újrafeldolgozzuk, cseréljük vagy elutasítjuk.'
+    - q: 'Milyen dokumentációt kapunk egy nem megfelelésről?'
+      a: 'Az NCR-nyilvántartás tartalmazza az NCR-számot, az észlelés szakaszát, a terméket/SKU-t, a lótot, az alkalmazandó dokumentumok revízióit, a hiba leírását, a hatáscsökkentést, a fogadott intézkedést, az újrafeldolgozási utasítás hivatkozását, az újraellenőrzés eredményét és az engedélyezési vagy lezárási jóváhagyást – elérhető a projekt minőségi megállapodása szerinti hatókörben.'
+
+cta:
+  title: 'A minőségi aggályokat szabályozott folyamat kezeli'
+  desc: 'Az ajánlatkérési szakaszban adja át az Ön projektre vonatkozó minőségi, vizsgálati vagy dokumentációs igényeket – a minta kifejlesztése vagy a gyártás ütemezése előtt elemezhetjük az alkalmazandó ellenőrzési pontokat.'
+  actions:
+    - text: 'Tárgyalja meg a minőségi igényeket'
+      variant: primary
+      href: /hu/contact
+    - text: 'NCP-kezelési SOP letöltése (PDF)'
+      href: 'https://assets.isupfactory.com/site/downloads/non-conforming-product-control-sop-iso-8-7.pdf?dl=1'
+    - text: 'A roncsbizonylat letöltése (PDF)'
+      href: 'https://assets.isupfactory.com/site/downloads/scrap-destruction-certificate-vat-qa-scrap-cert-2026.pdf?dl=1'

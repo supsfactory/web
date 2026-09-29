@@ -5987,6 +5987,377 @@ export const solutionPages: Localized<SolutionPageData[]> = {
       ctaLabel: 'Discutați programul SUP al școlii',
     },
   ],
+  hu: [
+    {
+      slug: 'custom-sup',
+      navLabel: 'Egyedi SUP gyártás',
+      metaTitle: 'Egyedi SUP fejlesztés | Dedikált megoldások eződeszkákhoz',
+      metaDescription:
+        'Fejlesztsön egyedi SUP termékeket az iSupfactoryval. Támogatjuk a vállalatokat és szervezeteket a termékigény, a testreszabás, a minták és a gyártás terén.',
+      kicker: 'Egyedi SUP gyártó',
+      serviceType: 'Egyedi SUP termékfejlesztés',
+      answer:
+        'Egyedi felfújható SUP-ket, merev deszkákat és tartozékokat fejlesztünk az Ön igénye szerint — alak, grafika, anyagok és csomagolás — a mérnöki tervezéstől és a mintáktól a gyártásig. Az egyedi projektek 150 m-es tekercsenként 90–100+ darabbal (volumen) indulnak; a mintákat 7–12 napon belül szállítjuk ki, a gyártás pedig a rendelés és az előleg megerősítése után 25–35 napot vesz igénybe.',
+      h1: 'Egyedi SUP termékek, az Ön igényei szerinti kialakításban',
+      intro: [
+        'Olyan eződeszkákra van szüksége, amelyeket a saját specifikációi szerint építünk meg — alak, grafika, anyagok, csomagolás — saját gyár üzemeltetése nélkül. Mi vagyunk az a gyártási partner, aki átveszi az Ön igényét, és átadásra kész terméket szállít.',
+        'Minden projektet egy dedikált szakember irányít, aki a dizájnt, a mintákat, a gyártást és a szállításokat kezeli, így Ön mindig tudja, hol tart a rendelés.',
+      ],
+      scenario: {
+        title: 'Saját specifikáció szerint épített deszkákra van szüksége',
+        body: 'Nem egy katalógusból választott opcióról van szó, hanem egy termékigényről. A kívánt alak, a grafika, a minőségi szint, a csomagolás. Megtervezünk, mintát készítünk, és bevált platformokon gyártunk, rugalmasságot biztosítva már az első kis sorozattól kezdve.',
+      },
+      pairs: [
+        {
+          problem: 'A gyári katalógusok csak standard modelleket kínálnak, amelyeket nem módosíthat.',
+          solution: 'Egyedi deszkákat gyártunk az Ön formáival, grafikáival és specifikációival — az első mintától a teljes gyártási sorozatokig.',
+        },
+        {
+          problem: 'A nagy minimális mennyiségek a piac validálása előtt készletbe kényszerítik.',
+          solution: 'A volumenű egyedi gyártás modellenként 90–100+ darabbal indul, a meglévő platformokon futó pilot sorok pedig 20–50 darabbal — így az első sorozatok kicsik maradnak, az egységár pedig helyes.',
+        },
+        {
+          problem: 'Nincs csapatában design- vagy mérnöki osztály.',
+          solution: 'Saját design- és mérnöki csapatunk egy ötletből, egy vázlatból vagy egy referencia deszkából gyártásra kész műszaki rajzot készít.',
+        },
+        {
+          problem: 'A gyár minősége ismeretlen, a kommunikáció pedig lassú.',
+          solution: 'Egy projektspecialista a kezdetektől a végéig átvállalja a mintákat, a minőség-ellenőrzési lépéseket és a szállítási határidőket — egyetlen kapcsolattartási ponttal és egyértelmű tájékoztatással.',
+        },
+      ],
+      steps: [
+        { title: 'Küldje el a projektet', body: 'Írja le az igényeit, vagy küldjön vázlatokat és referenciaképeket.' },
+        { title: 'Tervezés és minta', body: 'Elkészítjük a műszaki rajzokat, és 7–12 napon belül fizikai mintát küldünk.' },
+        { title: 'Jóváhagyás és gyártás', body: 'Az Ön jóváhagyása után a gyártás 25–35 napot vesz igénybe, több ponton végzett minőség-ellenőrzéssel.' },
+        { title: 'Szállítás és ajánlások', body: 'Globális export professzionális csomagolással, és ismételt rendelések támogatásával, állandó minőség mellett.' },
+      ],
+      caseStudy: {
+        title: 'Egy szabadidőmárka termékkínálatának bővítése',
+        body: 'Egy szabadidő-felszerelést gyártó márka a kajakos sportokkal együtt saját kajakdeszkával lépett piacra. Egy előzetes vázlatból fejlesztettük ki a deszkát, a minta jóváhagyását 15 nap alatt kaptuk meg, az első gyártási sorozatot pedig 25–35 nap alatt valósítottuk meg.',
+        tags: ['Deszkafejlesztés', 'Márkagrafika', 'Első gyártási sorozat'],
+      },
+      faqs: [
+        {
+          q: 'Az Ötletem alapján fejleszthetnek egy SUP terméket?',
+          a: 'Igen. Segítünk értékelni az igényeket és kifejleszteni egy gyártásra kész megoldást — a koncepttől és a műszaki rajzoktól a fizikai mintáig.',
+        },
+        {
+          q: 'Testreszabható a SUP grafikája és a színe?',
+          a: 'Igen. A grafikák, a színek és a márkaelemek a projekt igényei szerint fejleszthetők.',
+        },
+        {
+          q: 'Mi az egyedi SUP gyártás minimális rendelési mennyisége?',
+          a: 'A volumenű egyedi gyártás modellenként 90–100+ darabbal indul, a meglévő platformokon futó pilot sorok pedig 20–50 darabbal. A nagyobb mennyiségek jobb egységárat tesznek lehetővé, az ismételt rendelések pedig megőrzik a formákat és a rajzokat.',
+        },
+        {
+          q: 'A deszka mely elemei testreszabhatók?',
+          a: 'Az alak és a méretek, a kialakítás és az anyagok, a grafika és a logó, az EVA felület elrendezése, a tartozékok (lapát, szivattyú, hüvely) és a csomagolás.',
+        },
+        {
+          q: 'Kínálnak mintát a gyártás előtt?',
+          a: 'Igen — bármely gyártási sorozat előtt fizikai mintát készítünk és hagyunk jóvá. A minta elkészítésének határideje általában 7–12 nap.',
+        },
+        {
+          q: 'Használhatom csak a márkaanyagokat, saját designcsapat nélkül?',
+          a: 'Igen. Designcsapatunk a logóból, a márkaszínekből vagy egy előzetes konceptből gyártásra kész grafikát fejleszt.',
+        },
+      ],
+      ctaLevel: 'hot',
+      ctaLabel: 'Megbeszéljük az Ön egyedi SUP projektjét',
+    },
+    {
+      slug: 'private-label-sup',
+      navLabel: 'Saját márkás SUP deszkák',
+      metaTitle: 'Saját márkás SUP gyártás | Egyedi gyártás',
+      metaDescription:
+        'Az iSupfactory támogatja a saját márkás SUP gyártását a meglévő márkák számára, a specifikációktól a gyártásig segítve az egyedi SUP termékek fejlesztését.',
+      kicker: 'Saját márkás SUP deszkák',
+      serviceType: 'Saját márkás SUP gyártás',
+      answer:
+        'A saját márkás gyártás az Ön márkáját bevált, gyártásra kész SUP platformokra helyezi, új formák nélkül. Válasszon alapmodellt, alkalmazza a logót, a színeket, a csomagolást és a tartozékokat, és rendeljen 150 m-es tekercsenként 90–100+ darabtól (volumen). Ez a leggyorsabb és a legkisebb kockázatú bevezetési út; a minták 7–12 napot, a gyártás a rendelés után 25–35 napot vesz igénybe.',
+      h1: 'Saját márkás SUP gyártás támogatása az Ön márkájához',
+      intro: [
+        'A saját márkás gyártás lehetővé teszi, hogy saját márkájával induljon eződeszka-kínálat, formákba vagy gyárba való befektetés nélkül. A logó, a színek és a csomagolás minőségileg ellenőrzött platformokra kerülnek, a mennyiségek pedig a kereslettel együtt nőnek.',
+        'A termékoldalt mi vállaljuk, hogy Ön a márkaoldalra koncentrálhasson: a dizájn, a csomagolás és az ismételt rendelések kezelése nálunk van.',
+      ],
+      scenario: {
+        title: 'Van márkája, és szüksége van egy rá épülő termékre',
+        body: 'Márkaidentitás készlet nélkül. Olyan értékesíthető eződeszka-kínálatot szeretne, amely az Ön nevét viseli, az üzlet szakaszának megfelelő mennyiségekben — az első validáló tételtől az újratáborított flottákig.',
+      },
+      pairs: [
+        {
+          problem: 'A márka csak a címkén jelenik meg, a termék viszont továbbra is általánosnak tűnik.',
+          solution: 'Teljes márkaintegráció: deszkagra és logó, EVA felület, lapát, szivattyú, hüvely és márkás csomagolás.',
+        },
+        {
+          problem: 'Az első rendelések arra kényszerítik, hogy száz darabot vásároljanak, amelyeket esetleg nem adnak el.',
+          solution: 'Kezdjen 20–50 darabos pilot tétellel egy standard platformon, majd lépjen át a 90–100+ darabos szabványos volumenű sorozatra — a nagy tételek előtt validálja a piacot.',
+        },
+        {
+          problem: 'A design és a csomagolás fejlesztése elérhetetlennek tűnik.',
+          solution: 'Az Ön márkaanyagait designcsapatunk deszkagra való grafikává és gyártásra kész csomagolássá alakítja.',
+        },
+        {
+          problem: 'Az ismételt rendelések minőség vagy rendelkezésre állás tekintetében ingadoznak.',
+          solution: 'A formák és a rajzok az Öné maradnak, az ismételt rendelések pedig ugyanazon ellenőrzött platformokon, állandó minőséggel készülnek.',
+        },
+      ],
+      steps: [
+        { title: 'Mutassa be a márkát', body: 'Küldje el a logót, a színeket és a meglévő márkaanyagokat.' },
+        { title: 'Fejlesztjük a grafikát', body: 'Megtervezzük a deszka grafikáját, az EVA elrendezését és a csomagolást az Ön márkájához igazítva.' },
+        { title: 'Hagyja jóvá a mintát', body: 'Egy fizikai minta erősíti meg a színeket, a felületeket és a csomagolást.' },
+        { title: 'Gyártás és szállítás', body: 'A gyártás a kívánt mennyiségben történik, a minőség-ellenőrzést és az exportot végig kezeljük.' },
+      ],
+      caseStudy: {
+        title: 'Új márka, első gyártási rendelés',
+        body: 'Egy sportáru-kereskedő saját eződeszka-kínálatot indított, kizárólag egy logóból kiindulva. Elkészítettük a deszka és a csomagolás teljes grafikáját, legyártottunk egy 50 darabos első tételt a piaci teszteléshez, majd egyetlen szezonon belül teljes gyártási rendelésre scale-eltünk.',
+        tags: ['Márkafejlesztés', 'Csomagolásdizajn', 'Felfuttatott gyártás'],
+      },
+      faqs: [
+        {
+          q: 'Mi a saját márkás SUP gyártás?',
+          a: 'A saját márkás SUP gyártás lehetővé teszi a vállalatok számára, hogy saját márkájuk alatt adjanak el SUP termékeket, egyedi specifikációkkal és gyártási támogatással.',
+        },
+        {
+          q: 'A meglévő márkák fejleszthetnek új SUP termékeket?',
+          a: 'Igen. Az iSupfactory támogatja azokat a márkákat, amelyek az SUP termékek felé szeretnének bővülni — a termékkiválasztás, a specifikációk igazítása, az egyedi grafika és a gyártás terén.',
+        },
+        {
+          q: 'Mit tartalmaz a saját márkás SUP program?',
+          a: 'Az Ön márkája magán a deszkán — grafika, logó, EVA felület — plusz opcionálisan lapát, szivattyú, hátizsák és márkás csomagolás: egy teljes termék, amely az Ön nevével értékesíthető.',
+        },
+        {
+          q: 'Módosítható a design a rendelések között?',
+          a: 'Igen. Miután a márkaanyagok gyártásra készen állnak, az ismételt rendelések bármikor megújíthatják a grafikát, a színeket vagy a csomagolást.',
+        },
+        {
+          q: 'Csak egy logónk van. Ebben mégis tud segíteni?',
+          a: 'Igen. Designcsapatunk a logóból és a márka színeiből kiindulva elkészíti a deszka és a csomagolás teljes grafikáját.',
+        },
+      ],
+      ctaLevel: 'warm',
+      ctaLabel: 'Megbeszéljük a saját márkás projektet',
+    },
+    {
+      slug: 'resort-sup',
+      navLabel: 'Eződeszkák resortokhoz',
+      metaTitle: 'Egyedi SUP felszerelés resortokhoz | Saját márkás deszkák',
+      metaDescription:
+        'Hozzon létre egyedi SUP felszerelést resortokhoz és szállodákhoz saját márkás deszkákkal, tartozékokkal és gyártási támogatással az iSupfactorytól.',
+      kicker: 'Eződeszkák resortokhoz',
+      serviceType: 'SUP felszerelés resortokhoz és szállodákhoz',
+      answer:
+        'Saját márkás felfújható SUP-ket szállítunk resortokhoz és szállodákhoz, a vendégek napi használatára tervezve: nagy nyomású drop-stitch kialakítás, megerősített RF hegesztések, lépcsőzetes mennyiségek a 20–50 darabos pilot sortól a 90–100+ darabos flottaindításig. A deszkák az Ön logóját és színeit viselik, és tanácsot adunk a tárolásról, a karbantartásról és az ismételt rendelések ütemezéséről.',
+      h1: 'Egyedi SUP felszerelési megoldások resortokhoz és szállodákhoz',
+      intro: [
+        'A resortok eződeszka flottáinak ki kell bírniuk a vendégek napi használatát, könnyen tárolhatónak kell lenniük a szezonok között, és viselniük kell az Ön márkáját. Tartós, vendégbarát deszkákat építünk az Ön színeiben, a flottatervet pedig az Ön működéséhez igazítjuk.',
+        'A mennyiségeket a használati minták alapján ajánljuk, nem feltételezésekből — az ismételt rendelések programja pedig szezonról szezonra frissen tartja a flottát.',
+      ],
+      scenario: {
+        title: 'Vízi programot szervez a vendégeknek',
+        body: 'A vendégek emlékezetesebb vízi élményt várnak, a felszerelés pedig az Ön tulajdona. Önnél tartós, napi kölcsönzésre alkalmas, könnyen tárolható és a resort arculatához igazított deszkákra van szükség.',
+      },
+      pairs: [
+        {
+          problem: 'A vendégflották gyorsan elhasználódnak a napi kölcsönzésben.',
+          solution: 'Kölcsönzési igénybevételre tervezett kialakítás, megerősített szélekkel és UV-álló anyagokkal, ismételt ülésekhez.',
+        },
+        {
+          problem: 'A szezonon kívül korlátozott a tárolási tér.',
+          solution: 'Könnyen tárolható felfújható változatok, amelyek a szezon végén egy szekrénybe elférnek.',
+        },
+        {
+          problem: 'A felszerelés általánosnak tűnik, és nem tükrözi az Ön tulajdonjogát.',
+          solution: 'Teljes deszkára kiterjedő grafika, logó és EVA jelölés a resort színeiben — a saját márkás tartozékokkal együtt.',
+        },
+        {
+          problem: 'A flotta cseréje és megújítása nincs összehangolva.',
+          solution: 'Flottára vonatkozó ismételt rendelési program, állandó minőséggel, alkatrésztámogatással és a mennyiségekre vonatkozó reális ajánlásokkal.',
+        },
+      ],
+      steps: [
+        { title: 'Írja le a működést', body: 'A vendégek száma, a partszakasz hossza, a tárolási körülmények és a szezon hossza.' },
+        { title: 'Kapjon flotta-tervet', body: 'A használati minták alapján ajánljuk a deszkatípusokat és a mennyiségeket.' },
+        { title: 'Hagyja jóvá a mintát', body: 'Az Ön színei és logója egy fizikai deszkán erősülnek meg.' },
+        { title: 'Fogadja el és tartsa karban', body: 'Szállítás, alkatrészek és ismételt rendelési program a jövőbeli szezonokra.' },
+      ],
+      caseStudy: {
+        title: 'Vendégflotta egy tengerparti resortban',
+        body: 'Egy tengerparti resort 40 saját márkás felfújható deszkával bővítette a strandprogramját, a resort színeiben, saját márkás lapátokkal és szivattyúkkal. A deszkákat a szezonon kívül egyetlen szekrényben tárolják, a flottát pedig a második szezon után azonos minőséggel újították meg.',
+        tags: ['Saját márkás vendégflotta', 'Felfújható tárolás', 'Szezonális megújítás'],
+      },
+      faqs: [
+        {
+          q: 'Testreszabhatják a resortok a SUP felszerelést a saját logójukkal?',
+          a: 'Igen. A resortok a projekt igényei szerint testreszabhatják a grafikát, a színeket és a tartozékokat — a teljes deszkára kiterjedő márkaidentitással, az üzemeltető saját színeiben.',
+        },
+        {
+          q: 'Tudnak több SUP eszközt szállítani egy resort működéséhez?',
+          a: 'Igen. A gyártási megoldások a flotta igényeihez igazíthatók, az induló flottától a szezonális megújítási programokig.',
+        },
+        {
+          q: 'Hány deszkára van szüksége egy resortnak?',
+          a: 'A legtöbb resort 20–50 deszkával indul, és a kereslettel együtt növekszik. A mennyiségeket a vendégek száma és a partszakasz hossza alapján ajánljuk, nem feltételezésekből.',
+        },
+        {
+          q: 'Alkalmasak-e a felfújható deszkák resortokban való használatra?',
+          a: 'Igen. A modern felfújható SUP deszkák rendkívül tartósak, és sokkal könnyebben tárolhatók és szállíthatók — az ezzel járó előnyök különösen a korlátozott tárolási térrel rendelkező resortok számára érvényesek.',
+        },
+        {
+          q: 'Hordozhatja a flotta a logónkat és a színeinket?',
+          a: 'Igen — a teljes deszkára kiterjedő grafika, a logó nyomtatása, az EVA felület jelölése és a saját márkás tartozékok a resort programjának részei.',
+        },
+      ],
+      ctaLevel: 'warm',
+      ctaLabel: 'Kérjen SUP megoldást az Ön resortjához',
+    },
+    {
+      slug: 'club-sup',
+      navLabel: 'Egyedi csapatdeszkák klubokhoz',
+      metaTitle: 'Egyedi SUP felszerelés klubokhoz és csapatokhoz',
+      metaDescription:
+        'Az iSupfactory egyedi SUP felszerelési megoldásokat kínál kluboknak, csapatoknak és rendezvényeknek, beleértve a grafikát, a specifikációkat és a gyártási támogatást.',
+      kicker: 'Egyedi csapatdeszkák klubokhoz',
+      serviceType: 'SUP felszerelés klubokhoz és csapatokhoz',
+      answer:
+        'A klubok és a csapatok tartós, egységes flottát kapnak a saját színeikben: a logó elhelyezését, a lapátok egyedi hosszát és a tartozékkészleteket egyetlen szabványosított deszkaspecifikációba foglaljuk, hogy az ismételt rendelések mellett a javítások és az alkatrészek egyszerűek maradjanak. A minimális mennyiség 90–100+ darabtól (volumen) indul; a specifikáció kezdeti validálásához 20–50 darabos pilot sorok is rendelkezésre állnak.',
+      h1: 'Egyedi SUP felszerelés klubokhoz és csapatokhoz',
+      intro: [
+        'A kajakos kluboknak olyan deszkákra van szükségük, amelyek bírják a napi edzést, a csapatot reprezentálják, és az ismételt rendelések mellett is egységesek maradnak. Egyedi csapatdeszkákat gyártunk a klub nevével és színeivel, flottaárakhoz igazított árakon.',
+        'A klubprogramok része a gyakorlati oldal is: alkatrészek, javítási útmutatók és támogatás az ismételt rendelésekhez, azonos minőséggel.',
+      ],
+      scenario: {
+        title: 'A klub edzéseket és csapatfoglalkozásokat szervez',
+        body: 'A deszkákat a tagok naponta használják, és a klubot képviselik rendezvényeken és versenyeken. Tartós, a klub identitását viselő csapatfelszerelést szeretnének, anélkül, hogy a gyárral való kapcsolatot egyedül kellene kezelniük.',
+      },
+      pairs: [
+        {
+          problem: 'Az edződeszkák intenzív, ismételt használat mellett romlanak.',
+          solution: 'Megerősített kialakítás, napi professzionális használatra tervezve, javítási útmutatókkal és alkatrésztámogatással.',
+        },
+        {
+          problem: 'A flotta egyenletlennek és márkátlannak tűnik.',
+          solution: 'A klub neve, színei és logója minden deszkára kerül, így egységes csapatflottát kap.',
+        },
+        {
+          problem: 'A flotta bővítése megfelelő készlet keresését jelenti.',
+          solution: 'Az ismételt rendelések ugyanazon ellenőrzött platformokon készülnek, hogy az új deszkák illeszkedjenek a meglévőkhöz.',
+        },
+        {
+          problem: 'Korlátozott a flotta költségvetése.',
+          solution: 'Flottaárak és egy dedikált kapcsolattartási pont az ismételt rendelésekhez, az alkatrészekhez és a karbantartási kérdésekhez.',
+        },
+      ],
+      steps: [
+        { title: 'Mutassa be a klubot', body: 'A tagok száma, a foglalkozások típusai és a jelenlegi felszerelés.' },
+        { title: 'Válassza ki a deszkatípusokat', body: 'Edző-, kezdő- és csapatformák, amelyek az Ön programjához igazodnak.' },
+        { title: 'Adja hozzá a klub identitását', body: 'A klub neve, színei és logója a deszkákon és a tartozékokon.' },
+        { title: 'Rendeljen és bővítse', body: 'A flotta ellátása, az alkatrészek és az állandó ismételt rendelések.' },
+      ],
+      caseStudy: {
+        title: 'Egy klub flottájának megújítása',
+        body: 'Egy kajakos klub megújította az identitását, és 25 saját márkás edződeszkával, valamint alkatrészekkel cserélte le a flottáját. A tagok azonos felszerelésen edzenek, a klub pedig a következő szezonban azonos ismételt rendeléssel bővítette a flottát.',
+        tags: ['A klub identitása', 'Flotta-megújítás', 'Alkatrésztámogatás'],
+      },
+      faqs: [
+        {
+          q: 'Testreszabhatják a SUP klubok a csapatdeszkákat?',
+          a: 'Igen. A klubok testreszabhatják a grafikát, a színeket és a termék konfigurációját — a klub neve, színei és logója minden deszkán.',
+        },
+        {
+          q: 'Támogatják-e az eseményekhez szükséges SUP gyártását?',
+          a: 'Igen. A gyártási terv az esemény igényei szerint készíthető el, beleértve az eseménykiadásban deszkákat és tartozékokat.',
+        },
+        {
+          q: 'Mely deszkák a legalkalmasabbak a klub edzéséhez?',
+          a: 'Stabil, tartós deszkák, amelyek a tagok szintjéhez igazodnak — széles formák a kezdők és az órák részére, valamint kajakformák a kitartásedzéshez.',
+        },
+        {
+          q: 'Kínálnak flottaárat a kluboknak?',
+          a: 'Igen — a volumenárak a klubflottákra vonatkoznak, egy dedikált kapcsolattartási ponttal az ismételt rendelésekhez, az alkatrészekhez és a karbantartási kérdésekhez.',
+        },
+        {
+          q: 'Javíthatók vagy cserélhetők-e a sérült deszkák?',
+          a: 'Alkatrészeket, javítási útmutatókat és támogatást nyújtunk az ismételt rendelésekhez, hogy a flotta egységes maradjon.',
+        },
+      ],
+      ctaLevel: 'cold',
+      ctaLabel: 'Megbeszéljük a klub SUP projektjét',
+    },
+    {
+      slug: 'school-sup',
+      navLabel: 'Eződeszka program iskoláknak',
+      metaTitle: 'SUP felszerelés iskoláknak | Testreszabott eződeszkák oktatáshoz',
+      metaDescription:
+        'Kínáljon biztonságos és megbízható SUP felszerelési megoldásokat iskoláknak, táboroknak és szervezeteknek, egyedi gyártási támogatással az iSupfactorytól.',
+      kicker: 'Eződeszka program iskoláknak',
+      serviceType: 'SUP felszerelés iskolákhoz és programokhoz',
+      answer:
+        'Iskoláknak és oktatási programoknak stabil, kezdőbarát deszkákat szállítunk, kinyomtatott biztonsági útmutatókkal, bélésett fogantyús lapátokkal és védő tartozékokkal, a tanulók számához és a tárolási rendszerhez igazítva. A szabványos volumenű tétel 150 m-es tekercsenként 90–100+ darab, 20–50 darabos pilot sorokkal; a szállítási határidők támogatják az iskola beszerzési ciklusát.',
+      h1: 'Biztonságos és megbízható SUP megoldások iskolákhoz és programokhoz',
+      intro: [
+        'Az iskolák másképp működtetik a vizes sportokat: nagyobb osztályok, vegyes szintek, szigorú biztonsági elvárások és oktatási költségvetések. Iskolai programunk stabil, kezdőbarát deszkákat, az osztálylétszámhoz igazított csomaglehetőségeket és oktatói szemléletű tanácsadást kínál.',
+        'A tömeges beszerelés és az ismételt rendelések támogatása évről évre biztosítja a felszerelés elérhetőségét az új évfolyamok számára.',
+      ],
+      scenario: {
+        title: 'Vizes sportot tanít a tanulóknak',
+        body: 'Az osztályok nagyok, az előképzettség szintjei eltérnek. Stabil és biztonságos deszkákra van szükségük azoknak, akik először próbálkoznak, mennyiségekre, amelyek megfelelnek az osztálylétszámnak, és egy felszerelési programra, amely belefér az iskola költségvetésébe és beszerzési ciklusába.',
+      },
+      pairs: [
+        {
+          problem: 'A tanulóknak maximális stabilitásra van szükségük a vízen.',
+          solution: 'Széles, nagy térfogatú deszkák a kezdőknek, valamint többfős deszkák, amelyek megkímélik azokat, akik először próbálkoznak.',
+        },
+        {
+          problem: 'Az osztálylétszám nagy mennyiségben, egységes felszerelést igényel.',
+          solution: 'Programonkénti tömeges árak az osztályoknak szükséges mennyiségekre, minden deszkán azonos minőséggel.',
+        },
+        {
+          problem: 'Az oktatók korlátozott eszközökkel kezelik a biztonságot.',
+          solution: 'A deszkákhoz egyértelmű használati útmutató jár, és a vízterület alapján ajánlunk mennyiségeket és elhelyezést.',
+        },
+        {
+          problem: 'A felszerelésnek több tanévet kell kibírnia.',
+          solution: 'Megerősített kialakítás, valamint alkatrészek és ismételt rendelések támogatása a program teljes élettartama alatt.',
+        },
+      ],
+      steps: [
+        { title: 'Mutassa be a programot', body: 'Az osztálylétszám, a vízterület, az oktatók szervezete és a költségvetési ciklus.' },
+        { title: 'Építse fel a csomagot', body: 'A deszkák típusai és mennyiségei az oktatás, nem pedig a feltételezések alapján.' },
+        { title: 'Hagyja jóvá a mintát', body: 'Ellenőrizze a stabilitást, a kialakítást és a felületeket egy fizikai deszkán.' },
+        { title: 'Szállíttasson és újíttasson', body: 'Tömeges beszerelés, alkatrészek és ismételt rendelések az új évfolyamokhoz.' },
+      ],
+      caseStudy: {
+        title: 'Iskolai vizes sport program',
+        body: 'Egy iskola választható vizes sport szakot indított 15 kezdődeszkából álló flottával, valamint az első órákhoz többfős deszkákkal. Az oktatók a stabilabb platformok miatt az első alkalmas gyorsabb haladást jelentettek, a program pedig a következő évben azonos ismételt rendeléssel újította a felszerelést.',
+        tags: ['Kezdőflotta', 'Programindítás', 'Megújítási rendelések'],
+      },
+      faqs: [
+        {
+          q: 'Milyen SUP felszerelés alkalmas iskolákhoz?',
+          a: 'A SUP felszerelés kiválasztása függ a felhasználók életkorától, a használati környezettől és a program elvárásaitól — a széles, stabil deszkák az oktatás szokásos választásai.',
+        },
+        {
+          q: 'Testreszabhatják az iskolák a SUP felszerelést?',
+          a: 'Igen. Az iskolák a saját programjuknak megfelelően testreszabhatják a grafikát, a színeket és a felszerelési csomagokat.',
+        },
+        {
+          q: 'Mely deszkák a legjobbak az iskolai SUP órákhoz?',
+          a: 'A széles, stabil kezdődeszkák és a többfős deszkák ideálisak — térfogatuk miatt megkímélik azokat, akik először próbálkoznak, és stabilak több evezővel.',
+        },
+        {
+          q: 'Igazíthatók-e a mennyiségek az osztálylétszámunkhoz?',
+          a: 'Igen — a programárak az osztályoknak szükséges mennyiségekre épülnek, a számokat pedig a vízterület és a tanulók rotációja alapján ajánljuk.',
+        },
+        {
+          q: 'Az oktatási beszerzési határidők szerint dolgoznak?',
+          a: 'Igen. A minták és a gyártás határidejét az oktatási költségvetési és szezonális ciklusokhoz igazítjuk.',
+        },
+      ],
+      ctaLevel: 'cold',
+      ctaLabel: 'Megbeszéljük az iskola SUP programját',
+    },
+  ],
 }
 
 export function getSolutionPage(locale: Locale, slug: string): SolutionPageData | undefined {

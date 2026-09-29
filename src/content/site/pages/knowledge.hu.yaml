@@ -1,0 +1,111 @@
+meta:
+  title: 'Tudásbázis — útmutatók a felfújható SUP-ről és az OEM-ről | {SITE}'
+  description: 'A Vatrad tudásbázisa: útmutatók a felfújható SUP-khez, a paddle deszka alapanyagokhoz, a deszka kiválasztásához és az iparági perspektívákhoz márkák és szakemberek számára.'
+  dateModified: '2026-08'
+  keywords:
+    - 'sup tudásbázis'
+    - 'felfújható sup útmutató'
+    - 'paddle deszka alapanyagok'
+    - 'sup iparági perspektívák'
+hero:
+  tagline: 'Tudáscentrum'
+  title: 'SUP tudáscentrum'
+  subtitle: |
+    Strukturált tudásbázis, amely a felfújható SUP-k technológiáját, 
+    a hajózási biztonságot, a deszkák mérnökségét és a kalandtervezést fedi le.
+  taglineSection: 'Fedezze fel. Tanuljon. Induljon magabiztosan.'
+
+clusters:
+  tagline: 'Témakörök'
+  title: 'Fedezze fel témánként'
+  subtitle: 'Elmélyülések a technológiában, a biztonságban és a készségekben — ezek az alapjai minden Vatrad terméknek.'
+  items:
+    - title: 'SUP beszerzési útmutatók'
+      description: 'Az első deszka kiválasztásától a haladó touring technikákig — minden, amit az állva evezésről tudnia kell.'
+      icon: 'tabler:lifebuoy'
+      topics:
+        - 'Hogyan válasszuk ki az első felfújható SUP deszkát'
+        - 'Útmutató a SUP deszkák méreteihez és teherkapacitásához'
+        - 'A legjobb SUP deszkák kezdőknek, touringhoz, jógarhoz és versenyzéshez'
+        - 'Gyakori hibák egy SUP deszka megvásárlásakor'
+        - 'Felfújható és merev deszkák összehasonlítása'
+    - title: 'SUP mérnökség és technológia'
+      description: 'Műszaki útmutatók a felfújható SUP deszkákhoz — alapanyagok, gyártási módszerek és folyamatok.'
+      icon: 'tabler:microscope'
+      topics:
+        - 'A drop-stitch technológia részletesen'
+        - 'Katonai minőségű PVC specifikációk'
+        - 'Olvasztásos laminálás vagy ragasztással történő összeállítás'
+        - 'Az EVA hab technológiája és a grafika felvitelének módszerei'
+        - 'SUP szeleptípusok és uszonyrendszerek'
+    - title: 'SUP biztonság és karbantartás'
+      description: 'Alapvető biztonsági ismeretek minden evezőnek — az EPP választásától az időjárás értelmezésén át a deszka ápolásáig és javításáig.'
+      icon: 'tabler:shield'
+      topics:
+        - 'SUP biztonsági ellenőrzőlista és EPP-követelmények'
+        - 'Többkamrás biztonság elszigetelt vizeken'
+        - 'PSI útmutató a SUP deszkák felfújásához'
+        - 'A deszka tárolása és ápolása a télen'
+        - 'Felfújható deszkák javítási technikái'
+    - title: 'SUP készségek és technikák'
+      description: 'Evezési technikák, touring készségek és fizikai felkészülés minden tapasztalati szinthez.'
+      icon: 'tabler:sailboat'
+      topics:
+        - 'Kezdő evezési technikák'
+        - 'A csapás tökéletesítése köztes szinten'
+        - 'Touring túrák megtervezése'
+        - 'Fizikai felkészülés és edzés SUP versenyekhez'
+        - 'Készségek gyors vizekhez és folyókon végzett leszállásokhoz'
+    - title: 'SUP életmód és speciális felhasználás'
+      description: 'Speciális SUP tevékenységek — jóga, horgászás, kutyák, családok és utazási tippek.'
+      icon: 'tabler:heart'
+      topics:
+        - 'Jóga és meditáció SUP-vel a vízen'
+        - 'Horgászás felfújható SUP deszkáról'
+        - 'Evezés kutyákkal és gyerekekkel'
+        - 'Utazás SUP deszkával légi és közúti úton'
+        - 'SUP tartozékok és alapfelszerelés'
+    - title: 'SUP összehasonlítások és hivatkozások'
+      description: 'Egymás melletti összehasonlítások, amelyek segítenek megalapozott döntéseket hozni.'
+      icon: 'tabler:chart-bar'
+      topics:
+        - 'SUP vagy kajak — melyik változat illik Önhöz?'
+        - 'A PVC és a Hypalon alapanyagok összehasonlítása'
+        - 'Egykamrás és többkamrás biztonság'
+        - 'A SUP deszka alapanyagok magyarázata'
+        - 'UV-nyomtatás vagy EVA blokkra felvitt grafika'
+
+featured_guides:
+  tagline: 'Ajánlott útmutatók'
+  title: 'A legnépszerűbb tudásforrások'
+  items:
+    - title: 'SUP alapok'
+      href: '/hu/knowledge'
+    - title: 'Felfújható vagy merev'
+      href: '/hu/inflatable-vs-hardboard'
+    - title: 'Hajózási biztonsági útmutató'
+      href: '/hu/guides/safety-tips'
+    - title: 'Alapanyag-hivatkozó'
+      href: '/hu/knowledge'
+    - title: 'SUP beszerzési útmutató'
+      href: '/hu/guides/how-to-choose-your-sup'
+    - title: 'SUP méret útmutató'
+      href: '/hu/size-guide'
+    - title: 'SUP technikai centrum'
+      href: '/hu/technology'
+    - title: 'SUP karbantartás'
+      href: '/hu/knowledge'
+    - title: 'Touring útmutató'
+      href: '/hu/products/touring'
+    - title: 'Evezési technikák'
+      href: '/hu/knowledge'
+
+cta:
+  title: 'Kezdje a felfedezést'
+  subtitle: 'Merüljön el a tudásbázisunkban, és szerezze meg a következő hajózási kalandjához szükséges információkat.'
+  actions:
+    - variant: primary
+      text: 'Tekintse meg az összes útmutatót'
+      href: '/hu/knowledge'
+    - text: 'Fedezze fel a tudásgráfot'
+      href: '/hu/knowledge'

@@ -1,0 +1,125 @@
+meta:
+  title: 'SUP gyártási kapacitások | Felfújható paddle deszka gyár'
+  description: 'SUP gyártási kapacitásaink Qingdaoban: saját légkamra-mérnökség (0.1 mm), drop-stitch feldolgozás, RF-hegesztés, nyomtatás, formázás, 100 pontos minőségellenőrzés és több mint 120 000 deszka évente.'
+  dateModified: '2026-09-23'
+  keywords:
+    - 'SUP gyártási kapacitások'
+    - 'felfújható paddle deszka gyári kapacitás'
+    - 'saját gyártásban végzett SUP-gyártás'
+    - 'paddle deszka gyártási kapacitás'
+    - 'qingdaoi SUP gyár'
+
+hero:
+  tagline: Gyártási kapacitások
+  title: 'SUP gyártási kapacitások'
+  subtitle: 'Minden folyamat — a légkamra mérnöksége, a drop-stitch mag feldolgozása, az RF-hegesztés, a nyomtatás, a formázó szerszámok, az összeállítás, a vizsgálat és a csomagolás — a qingdaói 12 500 m²-es gyárunkban zajlik, így egyetlen felelős csapat viszi az Ön projektjét az első rajzotól a kiszállított konténerig.'
+
+answer:
+  label: 'Közvetlen válasz'
+  text: 'A SUP-gyártás teljes egészében a qingdaói gyárunkban történik: a légkamra tervezése és a méret szerinti mérnökség 0.1 mm CNC-pontossággal; a drop-stitch alapanyag feldolgozása és az RF-hegesztés 4 automatizált soron; a grafika nyomtatása; az EVA borítékok vágása; egyedi formázó szerszámok (új formák esetén +15–20 nap); az összeállítás 100 pontos ellenőrzőlista szerint; valamint a 18.0 PSI nyomáspróba 24 órás megtartással, 0.50 PSI-nél nagyobb nyomáscsökkenés esetén automatikus elutasítással. Az éves kapacitás több mint 120 000 deszka (körülbelül havi 10 000 db) 4 speciális üzemrészből, több mint 350 munkavállalóval, több mint 50 országba szállítva, az Ön márkájában.'
+  verified: '2026. szeptember'
+
+capabilities:
+  tagline: Saját kapacitások
+  title: 'Kapacitáscsoportok, mindegyik belső megvalósítással'
+  subtitle: 'Az alábbi kapacitások mindegyike a gyár falain belül valósul meg, ami rövidíti a határidőket, minden szakaszban rögzíti a minőségellenőrzést, és egy helyen tartja az Ön specifikációját.'
+  groups:
+    - title: Tervezés és mérnökség
+      items:
+        - 'A légkamra tervezése és a méret szerinti mérnökség'
+        - '0.1 mm CNC-pontosság'
+        - 'Formák és egyedi szerszámok tervezése'
+        - 'Retail csomagolás és grafika'
+    - title: Gyártás
+      items:
+        - 'A drop-stitch mag feldolgozása'
+        - '15 kW RF-hegesztés (4 automatizált sor)'
+        - 'A grafika és a tervrajz nyomtatása'
+        - 'Az EVA borítékok vágása'
+        - 'A deszkák összeállítása és befejezése'
+        - 'Tartozékokkal való felszerelés'
+    - title: Minőség és megfelelőség
+      items:
+        - '100 pontos összeállítási ellenőrzőlista'
+        - '18.0 PSI · 24 órás nyomástartás'
+        - 'ISO 2859-1 II. szintű mintavétel'
+        - 'CE · ISO 9001 · BSCI · REACH · RoHS'
+        - '10 éves lotkövethetőség'
+    - title: Szolgáltatások és logisztika
+      items:
+        - 'Prototípusminta 7–12 nap'
+        - 'Gyártás 25–35 nap'
+        - 'Egyedi formák +15–20 nap'
+        - 'FOB Qingdao · CIF · DDP több mint 50 országba'
+
+table:
+  headers:
+    capability: Kapacitás
+    in_house: Saját megvalósításban
+    standard: Mit tartalmaz a standard
+  rows:
+    - capability: 'A légkamra tervezése és a méret szerinti mérnökség'
+      in_house: 'Igen — belső mérnöki csapat'
+      standard: 'Szerszámok előtti tervezés és validálás; 0.1 mm CNC-pontosság a formáknál és a vágásnál'
+    - capability: 'A drop-stitch alapanyag feldolgozása'
+      in_house: 'Igen — belső maggyártás'
+      standard: '12–15 PSI drop-stitch sűrűségi tartomány, minden deszkamérethez optimalizált nestingeléssel'
+    - capability: 'RF-hegesztés és a varratok kialakítása'
+      in_house: 'Igen — saját megvalósításban'
+      standard: '15 kW RF-hegesztő kapacitás 4 automatizált gyártósoron'
+    - capability: 'A grafika és a tervrajz nyomtatása'
+      in_house: 'Igen — belső tervezés és nyomtatás'
+      standard: 'Korlátlan színpaletta, teljes felületes grafika, a gyári csapat tervrajzainak támogatásával'
+    - capability: 'A húzószállású (EVA) borítékok vágása'
+      in_house: 'Igen — saját megvalósításban'
+      standard: '45–55 Shore C borítékspecifikáció, méretre vágott hídelemek és emblémák'
+    - capability: 'Egyedi formák és szerszámok'
+      in_house: 'Igen — belső formaüzem'
+      standard: 'Az új formák szerszámai 15–20 napot adnak hozzá; a formák a gyár tulajdonában maradnak, kivéve ha ellenkező értelmezésű megállapodás születik'
+    - capability: 'A deszkák összeállítása és befejezése'
+      in_house: 'Igen — saját megvalósításban'
+      standard: '100 pontos összeállítási ellenőrzőlista; a markolatok, a D-gyűrűk és a tartozékok a specifikáció szerint szerelkezve'
+    - capability: 'Nyomás- és terhelésvizsgálat'
+      in_house: 'Igen — belső próbapad'
+      standard: '18.0 PSI nyomáson 24 órás megtartás, 0.50 PSI-nél nagyobb nyomáscsökkenés esetén automatikus elutasítással'
+    - capability: 'Végső ellenőrzés és követhetőség'
+      in_house: 'Igen — belső minőségellenőrző csapat'
+      standard: 'ISO 2859-1 II. szintű mintavétel; 10 éves ERP-alapú lotkövethetőség minden sorozatszámhoz'
+    - capability: 'Csomagolás és export'
+      in_house: 'Belső felszerelés + tanúsított logisztika'
+      standard: 'Retail dobozok, vízálló exportcsomagolás és az Ön márkájú sorozatcímkék'
+
+faq_section:
+  tagline: GYIK
+  title: 'Kérdések a SUP gyártási kapacitásokról'
+  questions:
+    - q: 'Mely gyártási folyamatok valósulnak meg belsőleg?'
+      a: 'Minden alapfolyamat belső: a légkamra mérnöksége, a drop-stitch mag feldolgozása, az RF-hegesztés, a nyomtatás, az EVA vágás, az összeállítás, a vizsgálat és a csomagolás. A tartozékok és egyes alapanyagok tanúsított beszállítóktól származnak; a végső felszerelést belsően végezzük, a teljes követhetőség érdekében.'
+    - q: 'Mekkora az Ön gyártási kapacitása?'
+      a: 'Több mint 120 000 deszka évente (körülbelül havi 10 000 db) 4 automatizált soron és 4 speciális üzemrészben, egy 12 500 m²-es gyárban, több mint 350 munkavállalóval.'
+    - q: 'Mekkora MOQ érvényes ezekre a kapacitásokra?'
+      a: 'A standard mennyiség 90–100+ darab jóváhagyott konfigurációnként (150 m-es drop-stitch szövettekercs); a pilot lották 20–50 darabtól indulnak meglévő platformokon; a csak emblémás megrendelések 5–10 darabtól indulnak.'
+    - q: 'Milyen határidőkkel kell számolnunk?'
+      a: 'Prototípusminta 7–12 nap; gyártás 25–35 nap a megrendelés és az előleg megerősítése után; az egyedi formák fejlesztése további 15–20 napot ad a szerszámokhoz.'
+    - q: 'Hogyan fordulnak le a kapacitások minőséggé?'
+      a: 'Minden folyamat a 7 lépéses minőségi rendszert szolgálja ki: 100 pontos összeállítási ellenőrzőlista, 18.0 PSI nyomáson 24 órás megtartás 0.50 PSI-nél nagyobb nyomáscsökkenés esetén automatikus elutasítással, ISO 2859-1 II. szintű mintavétel és 10 éves ERP-alapú lotkövethetőség.'
+
+cta:
+  title: 'Tekintse meg az Ön projektjéhez illő gyártási kapacitásokat'
+  subtitle: 'Küldje el a terméklapját — egy munkanapon belül mérnöki elemzést és a gyártási kapacitásainkhoz igazított ajánlatot kap.'
+  actions:
+    - variant: primary
+      text: 'Kérjen gyártási ajánlatot'
+      href: /hu/contact#custom-oem
+    - text: 'Látogassa meg a gyárat'
+      href: /hu/factory
+    - text: 'A gyár gyártási folyamata'
+      href: /hu/factory/process
+    - text: 'A gyár kapacitása és határidők'
+      href: /hu/factory/capacity
+    - text: 'Minőség és vizsgálat'
+      href: /hu/quality
+    - text: 'Bizonyítékcentrum — gyári minták'
+      href: /hu/proof-center
+    - text: 'OEM és ODM gyártás'
+      href: /hu/oem-manufacturing

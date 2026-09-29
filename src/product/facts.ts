@@ -112,7 +112,7 @@ export interface FactShorthands {
   pressureReject: string
 }
 
-export const FACTS_LOCALE: Record<'en' | 'es' | 'fr' | 'de' | 'it' | 'pt' | 'nl' | 'sv' | 'no' | 'pl' | 'da' | 'fi' | 'ru' | 'cs' | 'tr' | 'ro', FactShorthands> = {
+export const FACTS_LOCALE: Record<'en' | 'es' | 'fr' | 'de' | 'it' | 'pt' | 'nl' | 'sv' | 'no' | 'pl' | 'da' | 'fi' | 'ru' | 'cs' | 'tr' | 'ro' | 'hu', FactShorthands> = {
   en: {
     moq: {
       existingPlatform: FACTS.moq.existingPlatform,
@@ -336,6 +336,20 @@ export const FACTS_LOCALE: Record<'en' | 'es' | 'fr' | 'de' | 'it' | 'pt' | 'nl'
     assemblyChecklist: '100',
     pressureTest: '18.0 PSI · menținerea presiunii 24 de ore',
     pressureReject: 'cădere de presiune >0,50 PSI/24 h (respins automat)',
+  },
+  hu: {
+    moq: {
+      existingPlatform: '5–10 db. (csak logó a meglévő formára, ugyanaz az anyaghenger)',
+      trialStandard: '20–50 db. (egyéni grafika vagy kisebb specifikációs módosítás, ugyanaz az anyaghenger)',
+      standardRun: '90–100+ db. jóváhagyott konfigurációnként, az anyaghengerre és a csomagolásra vonatkozó követelmények függvényében',
+      customMould: '90–100+ db. (az új forma saját gyártószerszámot igényel; a szerszám elkészítése további 15–20 napot ad hozzá)',
+    },
+    leadTime: '25–35 nap',
+    leadTimeDetail: '25–35 nap a megrendelés (PO) és az előleg megerősítésétől; a saját gyártószerszám fejlesztése és kivitelezése további 15–20 napot ad hozzá.',
+    sampleTime: '7–12 nap',
+    assemblyChecklist: '100',
+    pressureTest: '18.0 PSI · 24 órás nyomásfenntartás',
+    pressureReject: '>0,50 PSI/24 h nyomáscsökkenés (automatikus elutasítás)',
   },
 }
 

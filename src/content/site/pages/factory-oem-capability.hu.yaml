@@ -1,0 +1,74 @@
+meta:
+  title: 'Gyártási kapacitás OEM és private label | {SITE}'
+  description: 'A koncepttől a gyártásig: szabja testre a felfújható SUP termékvonal minden részletét. Teljes OEM/ODM szolgáltatások a private label paddle deszka márkák számára.'
+  dateModified: '2026-08'
+  keywords:
+    - 'OEM SUP gyártás'
+    - 'private label paddle deszkák'
+    - 'felfújható SUP OEM'
+    - 'egyedi SUP gyár'
+hero:
+  tagline: OEM/ODM gyártás
+  title: OEM- és private label gyártás
+  subtitle: A koncepttől a gyártásig – szabja testre a felfújható SUP termékvonal minden részletét
+
+answer:
+  label: 'Közvetlen válasz'
+  text: 'Az MOQ-t a projekt konfigurációja alapján erősítjük meg, nem rögzített értékként: minden projekt végigmegy a minta (1–2 darab) és a pilótasor (20–50 darab) szakaszain, a standard tömegsor gyártása pedig soronként 90–100+ darabbal fut a teljes, 150 m-es drop-stitch tekercsből. A minták 7–12 nap alatt elkészülnek; a standard gyártás 25–35 napot vesz igénybe a megrendelés és az előleg megerősítése után.'
+  verified: '2026. szeptember'
+
+intro: A VATRAD átfogó OEM- és ODM-szolgáltatásokat kínál márkák, forgalmazók és kormányzati intézmények számára világszerte. Több mint 10 éves exporttapasztalattal, valamint egy ISO 9001- és BSCI-tanúsított 12,500 m²-es gyárral mindent átvállalunk, a terméktervezéstől és a matricák fejlesztésétől a teljes méretű gyártásig, a csomagolásig és az export kezeléséig.
+
+highlight:
+  - value: 10+
+    label: Éves OEM tapasztalat
+    detail: 2012 óta
+  - value: 50+
+    label: Exportcél-ország
+    detail: Globális jelenlét
+  - value: 200+
+    label: Leszállított egyedi projekt
+    detail: Minden termékvonalon
+  - value: 25–35
+    label: Standard átfutási idő (nap)
+    detail: A megrendelés és az előleg megerősítése után
+
+services:
+  - title: Terméktervezés és mérnöki munka
+    description: Belső kutatási-fejlesztő csapatunk az Ön konceptjével vagy specifikációjával együtt dolgozik CAD rajzok, 3D modellek és prototípusok kidolgozásán. Matricatervezést, testforma-optimalizálást és anyagválasztási tanácsadást kínálunk.
+  - title: Egyedi márkázás és grafika
+    description: Teljes színű digitális nyomtatás, szitanyomás, domborítás és címkeopciók. A márkához igazított fedélzeti grafikát, csőmárkázást és kiskereskedelmi csomagolást fejlesztünk.
+  - title: Az anyagok és a specifikációk testreszabása
+    description: Válasszon a PVC (standard, környezetbarát, lángmentes), Hypalon/CSM, drop-stitch és hibrid kivitelezések közül. Egyedi színek csövekre, szövetsúlyok és megerősítési opciók.
+  - title: Csomagolás és logisztika
+    description: Egyedi kiskereskedelmi csomagolás, private label dobozok, vákuumcsomagolás, palettázás és exportminőségű csomagolás, saját üzemünkben készítve.
+
+moq_table:
+  - product: Felfújható SUP deszkák
+    standard_moq: 'Minta 1–2 | Pilóta 20–50'
+    custom_moq: 'Térfogat 90–100+ (150 m tekercsenként)'
+    lead_time: 25–35 nap
+
+why_us:
+  - title: Vertikális integráció
+    description: A gyár, a matricák és az ellátási lánc a tulajdonunkban – nincs közvetítő, nincs alvállalkozó. Ez kontrollt ad nekünk a minőség, a költség és a szállítás felett.
+  - title: Kettős tanúsítás
+    description: ISO 9001 minőségirányítás és BSCI szociális megfelelőségi tanúsítás. A gyáraudit-jelentések kérésre rendelkezésre állnak.
+  - title: CE-megfelelőség
+    description: A CE-tanúsítás az Európai Unió piacaira szánt modellekre vonatkozik (a hatókör projektenként megerősítendő). Az egyedi modellek a már kialakult folyamatunkon keresztül CE-tanúsíthatók.
+  - title: A projekthez igazított MOQ
+    description: 'Az MOQ-t a projekt konfigurációja alapján erősítjük meg – a közös márkájú kis sorozatok gyártása 5–10 darabbal indul, a standard térfogat pedig soronként 90–100+ darabbal fut. Segítünk a kialakulóban lévő márkáknak úgy indulni, hogy túlzott raktárkészletbe ne kötődjenek.'
+
+cta:
+  title: 'Alkalmazza saját márkáját egy már validált deszkára'
+  subtitle: 'A specifikációk értékelésétől a megtöltött konténerig – küldje el ma a briefet, és egy munkanapon belül részletes OEM-ajánlatot kap. Ellenőrizze a gyárat és annak minőségügyi rendszerét, mielőtt köteleződik el.'
+  actions:
+    - variant: primary
+      text: 'Kérjen OEM-ajánlatot'
+      href: /hu/contact#custom-oem
+    - text: 'Ellenőrizze a gyárat és a minőségügyi rendszert'
+      href: /hu/oem-trust-assurance
+    - text: 'A 7 szakasz vizsgálati rendszere'
+      href: /hu/quality
+    - text: 'Látogassa meg a gyártósort'
+      href: /hu/factory/process

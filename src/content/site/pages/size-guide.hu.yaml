@@ -1,0 +1,85 @@
+meta:
+  title: 'SUP méret- és specifikáció útmutató – felfújható eveződeszkák | {SITE}'
+  description: 'Méretek, kapacitások és ajánlott felhasználások minden Vatrad deszkához. Találja meg az Ön igényeihez megfelelő felfújható SUP deszkaméretet.'
+  dateModified: '2026-08'
+  keywords:
+    - 'sup méret útmutató'
+    - 'eveződeszka méretek'
+    - 'felfújható sup specifikáció'
+    - 'sup mérettáblázat'
+hero:
+  title: Méret- és specifikáció útmutató
+  subtitle: 'Méretek, kapacitások és ajánlott felhasználások minden Vatrad termékhez.'
+
+categories:
+  inflatable: 'Felfújható SUP deszkák, amelyeket a hordozhatóság jegyében terveztünk, a teljesítmény feladása nélkül. Rendelje az Ön súlyához és evezési stílusához a megfelelő méretet.'
+  sup: 'Állva evező deszkák túrázáshoz, jóga- és fitneszedzéshez, valamint szabadidős evezéshez. Válasszon hossz és evezőtestsúly alapján.'
+  accessory: 'Tartozékok és biztonsági felszerelések, amelyek kiegészítik az Ön SUP deszkáját. Univerzális méretezés, több opcióval.'
+
+table:
+  headers:
+    product: Termék
+    length: Hossz
+    width: Szélesség
+    weight: Súly
+    max_load: Maximális teher
+    best_for: Ideális
+  rows:
+    - product: 'SUP all-around (Explorer 11 ft)'
+      length: '11''0" (335 cm)'
+      width: '32" (81 cm)'
+      weight: 19 lbs (8.6 kg)
+      max_load: 220 lbs (100 kg)
+      best_for: Kezdők, szabadidős evezés, családi evezés tavakon és nyugodt folyókon
+    - product: 'SUP all-around (10''6")'
+      length: '10''6" (320 cm)'
+      width: '32" (81 cm)'
+      weight: 18 lbs (8.2 kg)
+      max_load: 200 lbs (90 kg)
+      best_for: Kisebb súlyú evezők, jóga és általános szabadidős evezés
+    - product: 'SUP túradeszka (12 ft)'
+      length: '12''0" (366 cm)'
+      width: '30" (76 cm)'
+      weight: 23 lbs (10.4 kg)
+      max_load: 260 lbs (118 kg)
+      best_for: Hosszú távú evezés, sebesség és parti túra
+    - product: 'SUP túradeszka (14 ft)'
+      length: '14''0" (427 cm)'
+      width: '28" (71 cm)'
+      weight: 26 lbs (11.8 kg)
+      max_load: 275 lbs (125 kg)
+      best_for: Versenyek és hosszú távú expedíciós evezés
+    - product: 'SUP szörföz (8–10 ft)'
+      length: '8''0"–10''0" (244–305 cm)'
+      width: '30" (76 cm)'
+      weight: 17 lbs (7.7 kg)
+      max_load: 180 lbs (82 kg)
+      best_for: Szörfözés hullámokon és kezelhető szörfdeszka
+    - product: 'Yoga / Fitness SUP (11 ft)'
+      length: '11''0" (335 cm)'
+      width: '34" (86 cm)'
+      weight: 22 lbs (10 kg)
+      max_load: 240 lbs (109 kg)
+      best_for: Jóga, fitnesz és stabil szabadidős evezés
+
+how_to_choose:
+  title: Hogyan válassza ki a megfelelő méretet
+  cards:
+    - title: SUP deszkák
+      description: 'A hosszot az Ön súlya és a tervezett felhasználás alapján válassza. A szélesebb deszkák (32"+) több stabilitást adnak. A hosszabb deszkák (11-12 ft) jobb iramkövetést nyújtanak túrázáshoz. A nehezebb evezőknek nagyobb térfogatú deszkákra van szükségük.'
+    - title: SUP túradeszkák
+      description: 'A hosszabb deszkák (11–12 ft) ideálisak a távolságok lefedéséhez és a túrázáshoz. A szélesebb deszkák (32"+) több stabilitást adnak. Ellenőrizze a teherbíróképességet a teljes terhelésre, beleértve a felszerelést is.'
+    - title: SUP all-around deszkák
+      description: 'A hosszot az evező testsúlya és a tervezett felhasználás alapján válassza. Az all-around deszkák szabadidős evezésre, fitneszre és jóga-edzésre alkalmasak. A kisebb deszkák kezelhetőbbek.'
+
+cta:
+  title: 'Fedezze fel a deszkákat méret szerint, vagy beszéljen egy mérnökkel'
+  subtitle: 'Hasonlítsa össze túra-, all-around- és jóga modelljeinket terméksorozatunkban – vagy küldje el az evezői összetételt, és ajánlunk megfelelő méreteket a projekthez.'
+  actions:
+    - variant: primary
+      text: 'Fedezze fel a SUP termékeket'
+      href: /hu/products
+    - text: 'További tudnivalók az evezésről'
+      href: /hu/knowledge
+    - text: 'Hogyan készülnek a deszkák'
+      href: /hu/factory/process

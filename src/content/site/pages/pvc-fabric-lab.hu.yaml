@@ -1,0 +1,111 @@
+meta:
+  title: 'PVC szöveglaboratórium – az SUP deszkák alapanyagának vizsgálata'
+  description: 'Az alapanyagok vizsgálata a szálatól a kész deszkáig: szakítási szilárdság, UV-öregítés, alacsony hőmérsékleti hajlíthatóság és kopásállóság a SUP deszkákhoz szánt PVC szöveteknél.'
+back_text: 'Vissza az R&D központba'
+home_label: 'Főoldal'
+
+hero:
+  tagline: '01. laboratórium'
+  title: 'PVC szöveglaboratórium'
+  subtitle: 'Tudományos alapú alapanyagvizsgálat – a szálatól a kész deszkáig'
+  image: 'https://assets.isupfactory.com/images/sups/randd/isupfactory-pvc-material-lab.webp'
+  image_alt: 'A Vatrad PVC szövet alapanyagokat vizsgáló laboratóriuma'
+
+answer:
+  label: 'Közvetlen válasz'
+  text: 'A deszkák 1,680 DTEX-es hajózási PVC-ből készülnek, háromrétegű bevonattal és 12–15 PSI-re méretezett drop-stitch maggal. Minden beérkező szövetszállítmányt saját üzemmódjában vizsgálunk szakításra (ISO 1421), 2,000 órás xenonlámpás kitettség utáni tulajdonságmegőrzésre (ISO 4892), kopásra és alacsony hőmérsékleti hajlíthatóságra – egyetlen szállítmány sem kerül gyártásba kizárólag a beszállító adatlapja alapján.'
+  verified: '2026. szeptember'
+
+intro: 'A deszka szövete a felfújható SUP deszka legkritikusabb anyaga. Állandó UV-sugárzásnak, ismételt felfújási ciklusoknak, kikötői súrlódásnak, homokos parton történő leejtésnek és szélsőséges hőmérséklet-változásoknak kell ellenállnia – mindezt úgy, hogy évekig megőrzi a szerkezeti integritását. A {SITE.name} telephelyén működő PVC szöveglaboratóriumunk kizárólag a saját gyártásunk minden deszkájához használt szövetek jellemzésére, validálására és folyamatos fejlesztésére szolgál.'
+
+content_html: |
+  <h2>Minden felfújható SUP deszka alapja</h2>
+  <p>Nem hagyatkozunk kizárólag a gyártó által szolgáltatott adatlapokra. Minden, a műhelyünkbe érkező PVC szövet- és drop-stitch-mag szállítmányt saját üzemmódjában vizsgálunk. Így a közzétett alapanyagspecifikáció pontosan az a teljesítmény, amelyet kap – szállítmányonként, évenként változatlanul.</p>
+
+  <h2>Szabványos vizsgálóberendezések</h2>
+  <p>Szöveglaboratóriumunk ipari minőségű műszerekkel rendelkezik, amelyek megfelelnek az ISO, ASTM és EN vizsgálati módszereknek:</p>
+  <table>
+    <thead><tr><th>Berendezés</th><th>Mért paraméterek</th><th>Szabvány</th></tr></thead>
+    <tbody>
+      <tr><td>Univerzális szakítógép (50 kN)</td><td>Szakítóerő, szakadási nyúlás, repedés terjedése</td><td>ISO 1421 / ASTM D751</td></tr>
+      <tr><td>Xenonlámpás öregítőkamra</td><td>UV-állóság (színváltozás, szilárdságmegőrzés 2000 óra után)</td><td>ISO 4892 / ASTM G155</td></tr>
+      <tr><td>Alacsony hőmérsékleti hajlítási próbagerjed</td><td>Repedési pont -30 °C és -50 °C között</td><td>ISO 4675 / ASTM D2136</td></tr>
+      <tr><td>Taber kopóberendezés</td><td>Tömegveszteség 1000 ciklus után (CS-10 korong)</td><td>ASTM D3389 / ISO 5470-1</td></tr>
+      <tr><td>Vastagságmérő (digitális, 0.001 mm felbontás)</td><td>Egyenletesség a tekercs szélességében</td><td>ISO 2286-3</td></tr>
+      <tr><td>Vízoszlop-próbaberendezés</td><td>Vízbehatolással szembeni ellenállás</td><td>ISO 811</td></tr>
+    </tbody>
+  </table>
+  <p class="text-sm text-gray-500">* Minden berendezést évente akkreditált harmadik fél laboratórium kalibrál.</p>
+
+  <h2>Az adatoktól a döntésekig: egy szokásos vizsgálati folyamat</h2>
+  <p>Amikor új szövetjegyző érkezik, hétlépéses szabványos minősítési folyamaton megy keresztül:</p>
+  <ol>
+    <li><strong>Átvételi vizsgálat</strong> – a felületi hibák, a lyukak és a méretbeli megfelelőség vizuális ellenőrzése.</li>
+    <li><strong>Vastagségtérképzés</strong> – mérés 20 pontban a tekercs szélességében; az elfogadás feltétele a CV &lt; 3%.</li>
+    <li><strong>Szakítási próba</strong> – 5 próbatest a láncirányban és 5 a vetülékirányban. Legalább 3500 N/50 mm 1100 dtex PVC esetén.</li>
+    <li><strong>UV-előkezelés</strong> – 1000 órás kitettség xenonlámpás kamrában; legalább 80%-os szilárdságmegőrzés szükséges.</li>
+    <li><strong>Hidegálló repedésvizsgálat</strong> – 4 óra -35 °C-on, majd 180°-os hajlítás 25 mm-es mandrelán. Nem látható repedés.</li>
+    <li><strong>Kopásállóság</strong> – 1000 ciklus, tömegveszteség ≤ 0.05 g.</li>
+    <li><strong>Gyártási validálás</strong> – a szövet csak mind a hét ellenőrzési kap átléte után kerül gyártási kiadásra.</li>
+  </ol>
+
+  <div class="not-prose my-10 p-6 rounded-xl bg-gray-50 dark:bg-gray-900 border border-gray-200 dark:border-gray-800">
+    <p class="text-sm font-semibold text-gray-500 mb-3 uppercase tracking-wider">Szokásos PVC 1100 dtex – a szakítási szilárdság megtartása UV-kitettség után</p>
+    <div class="flex items-end gap-3 h-40">
+      <div class="flex-1 flex flex-col items-center">
+        <div class="w-full bg-blue-600 rounded-t" style="height:100%"></div>
+        <span class="text-xs mt-1">0 h 100%</span>
+      </div>
+      <div class="flex-1 flex flex-col items-center">
+        <div class="w-full bg-blue-500 rounded-t" style="height:95%"></div>
+        <span class="text-xs mt-1">500 h 95%</span>
+      </div>
+      <div class="flex-1 flex flex-col items-center">
+        <div class="w-full bg-blue-400 rounded-t" style="height:88%"></div>
+        <span class="text-xs mt-1">1000 h 88%</span>
+      </div>
+      <div class="flex-1 flex flex-col items-center">
+        <div class="w-full bg-blue-300 rounded-t" style="height:82%"></div>
+        <span class="text-xs mt-1">2000 h 82%</span>
+      </div>
+      <div class="flex-1 flex flex-col items-center">
+        <div class="w-full bg-gray-300 rounded-t" style="height:65%"></div>
+        <span class="text-xs mt-1">Versenytárs ~65%</span>
+      </div>
+    </div>
+    <p class="text-xs text-gray-400 mt-2">A 1100 dtex-es PVC szövetünk 2000 óra xenonlámpás kitettség után is megtartja szakítási szilárdságának &gt; 80%-át, szemben az iparág szokásos minőségeivel, amelyek 70% alá esnek.</p>
+  </div>
+
+  <h2>Szakértői csapatunk</h2>
+  <p>A laboratórium két, teljes állású anyagmérnökből áll, akik mindketten polimerkémiai vagy textilipari diplomát és legalább hat év ipari tapasztalatot rendelkeznek. Munkájukat három technikus támogatja, akik a napi vizsgálatokat és az adatnyilvántartást végzik. A csapat rendszeresen részt vesz a Nemzetközi Szabványügyi Szervezet (ISO) által szervezett laboratóriumközi vizsgálatokban, hogy validálja vizsgálati módszereink pontosságát.</p>
+
+  <h2>A legnehezebb alapanyag-problémákat is megoldjuk</h2>
+  <p>Minden evezési környezet más. A trópusi régiókban használt deszka egészen más UV- és hőmérsékleti viszonyokkal szembesül, mint egy északi tavon vagy egy sivatagi víztározón használt. Szöveglaboratóriumunk segít Önnek kiválasztani – vagy kifejleszteni – az Ön üzemeltetési profiljához optimalizált szövetspecifikációt.</p>
+  <p>A közelmúltbeli testreszabott megoldások között:</p>
+  <ul>
+    <li>Nagy kopásállóságú PVC keverék egy bérelőflottához, amelynek deszkái rendszeresen homokos strandokat és betonindító rámpákat érnek (+40% élettartam kopás szempontjából).</li>
+    <li>Alacsony hőmérsékleti recept egy kanadai téli tárolási programhoz, -50 °C-ig vizsgálva rugalmasságvesztés nélkül (rideg elszíneződés nélkül).</li>
+    <li>Színstabilizált narancssárga híd egy életmentő oktatási flottához, amely 3 év trópusi napkitettség után is megtartja a láthatóságát.</li>
+  </ul>
+  <p>Nem adunk el polcról származó szöveteket, és nem reméljük, hogy működni fognak. Mi vizsgálunk, validálunk és ajánlunk – vagy kifejlesztünk – egy megoldást az Ön konkrét feladatára. Ez a {SITE.name} különbsége.</p>
+
+  <h2>Így szolgáljuk Önt</h2>
+  <p>Amikor egy alapanyag-problémával érkezik hozzánk, erre számíthat:</p>
+  <ol>
+    <li><strong>Konzultáció</strong> – megbeszéljük az Ön üzemeltetési környezetét, a teljesítménycélokat és a költségvetést.</li>
+    <li><strong>Javaslat</strong> – összeállítunk egy vizsgálati tervet egyértelmű elfogadási vagy elutasítási kritériumokkal és pontos határidőkkel.</li>
+    <li><strong>Végrehajtás</strong> – laboratóriumunk elvégzi a vizsgálatokat, és részletes jelentést készít nyers adatokkal és összehasonlító elemzéssel.</li>
+    <li><strong>Ajánlás</strong> – bemutatunk egy szövetspecifikációt, alternatív változatokkal akkor is, ha több alapanyag is megfelel az Ön követelményeinek.</li>
+    <li><strong>Utókövetés</strong> – a kiszállítás után is rendelkezésre állunk, hogy megválaszoljuk az üzemeltetés során felmerülő alapanyag-kérdéseket.</li>
+  </ol>
+  <p>Célunk nem pusztán az, hogy eladjunk Önnek egy deszkát. Az az, hogy a kapott deszka megbízhatóan működjön az Ön használati körülményei között – és ez a szövettel kezdődik.</p>
+
+cta:
+  title: 'Testreszabott szövetspecifikációra van szüksége?'
+  subtitle: 'Lépjen kapcsolatba az anyagmérnöki csapatunkkal az Ön követelményeinek megvitatásához.'
+  actions:
+    - variant: primary
+      text: Lépjen kapcsolatba a laboratóriumi csapattal
+      href: /hu/contact#project-brief
+    - text: Vissza az R&D központba
+      href: /hu/randdcenter

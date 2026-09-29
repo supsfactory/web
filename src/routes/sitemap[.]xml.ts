@@ -23,6 +23,7 @@ const handler = async () => {
       'sitemap-cs.xml',
       'sitemap-tr.xml',
       'sitemap-ro.xml',
+      'sitemap-hu.xml',
       'sitemap-products.xml',
       'sitemap-news.xml',
     ]),

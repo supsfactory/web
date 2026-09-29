@@ -1,0 +1,115 @@
+meta:
+  title: 'Hidrodinamikai mérőmedence – a SUP deszkák teljesítményének tesztelése'
+  description: 'Validálja a SUP deszkák víztestének teljesítményét hidrodinamikai mérőmedencénkben. Vízimodell vitorlázása, síkrajzi elemzés és ellenállásmérés a különböző deszkaformákhoz.'
+  dateModified: '2026-08'
+back_text: 'Vissza az R&D központba'
+home_label: 'Főoldal'
+
+answer:
+  label: 'Közvetlen válasz'
+  text: 'Mérőmedencénkben 1:3 és 1:5 közötti méretarányban teszteljük a SUP víztestének formáját – a borda leszállási profilját, a szín görbületi sugarát, a rocker szögletet és a benyíló felületet – miközben mérjük az ellenállást, a csúszási hatásfokot és a stabilitást, még egy teljes méretű prototípus elkészítése előtt. Egy hét a medencében ugyanazokat a teljesítményadatokat adja, amelyekhez teljes méretben hónapokra lenne szükség.'
+  verified: '2026. szeptember'
+
+hero:
+  tagline: '04. laboratórium'
+  title: 'Hidrodinamikai mérőmedence'
+  subtitle: 'Teljesítményvalidálás az első teljes méretű prototípus előtt'
+  image: 'https://assets.isupfactory.com/images/sups/factory/isupfactory-design-discussion-original.webp'
+  image_alt: 'Teljesítménytesztelés a Vatrad hidrodinamikai mérőmedencéjében'
+
+intro: 'Gyakori tévhit, hogy a hidrodinamikai vizsgálatok kizárólag hajók és versenycsónakok számára készültek. Valójában egy SUP deszka – azaz egy 10–14 lábas síkrajzi víztest – teljesítménye éppúgy függ a bemerülő formájától, mint bármely más csónaké. A borda leszállási profilja, a szín görbületi sugara, a rocker szöglet és a benyíló felület drámai hatással van az ellenállásra, a csúszási hatásfokra és a stabilitásra. A {SITE.name} telephelyén külön hidrodinamikai mérőmedencét üzemeltetünk, amely lehetővé teszi e hatások mennyiségi mérését modellméretben – még azelőtt, hogy teljes méretű prototípushoz szövetet és szerszámokat költenénk.'
+
+content_html: |
+  <h2>Miért teszteljünk egy SUP deszkát a medencében?</h2>
+  <p>A modellméretű vizsgálat (általában 1:3 és 1:5 között) lehetővé teszi a deszkaformák gyors és költséghatékony iterációját. Egy hét a medencében ugyanazokat a teljesítményadatokat generálhatja, amelyekhez teljes méretben hónapok kellenének – az költség töredékéért.</p>
+
+  <h2>A berendezés műszaki adatai</h2>
+  <table>
+    <thead><tr><th>Paraméter</th><th>Specifikáció</th></tr></thead>
+    <tbody>
+      <tr><td>A medence méretei</td><td>35 m (H) × 3.5 m (Sz) × 1.8 m (M)</td></tr>
+      <tr><td>Vitorlázó kocsi</td><td>Szervoelektromos meghajtás, 12 m/s (23 kn) maximális sebesség, ± 0.5 % sebességpontosság</td></tr>
+      <tr><td>Hullámgenerátor</td><td>Íves (flap) típusú, programozható szabályos és szabálytalan tengerállapot, modellméretben Hs 0.3 m-ig</td></tr>
+      <tr><td>Műszerezettség</td><td>6 komponensű dinamométer (ellenállás, oldalirányú erő, kitérési nyomaték), akcelerátorok, klinométerek, szárnyfelület-szondák</td></tr>
+      <tr><td>Adatgyűjtés</td><td>1000 Hz-es mintavétel csatornánként, valós idejű kijelzés + utófeldolgozó szoftvercsomag</td></tr>
+      <tr><td>Modellgyártás</td><td>Saját CNC-marógépek és 3D-nyomtatók 1.8 m LOA méretű víztestmodellekhez</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Próbaidőrendünk</h2>
+  <p>Egy deszka szabványos fejlesztési programja mérőmedencénkben a következő sorrendet követi:</p>
+  <ol>
+    <li><strong>Modell építése</strong> — Az 1:4 méretarányú modellt nagy sűrűségű habból CNC-géppel megmunkáljuk, majd üvegszálerősítéssel lamináljuk a merevség érdekében. A tömeget és a súlypontot úgy állítjuk be, hogy megfeleljenek a Froude-szám alapján átméretezett maximális terhelési üzemmódnak.</li>
+    <li><strong>Ellenállási futások</strong> — A modellt 6–10 sebességen vitorlázzuk, amelyek lefedik az evezési tartományt (2–6 kn teljes méretben). Az eredő ellenállást mérjük, és az ITTC-1957 módszerrel súrlódási és maradék összetevőkre bontjuk.</li>
+    <li><strong>Billentyűzés és süllyedés mérése</strong> — A menetirányú billentyűzést és a süllyedést minden sebességnél rögzítjük. A cél az a billentyűzési szög, amely minimálja a benyíló felületet, miközben aorr billentyűzése a prorából érkező hullámtól szabad marad.</li>
+    <li><strong>Nyomvonal rögzítése</strong> — A keresztirányú hullámprofil két sebességen mérjük, hogy értékeljük a hullámképződéssel szembeni ellenállást, és azonosítsuk a bordaforma és a sebesség közötti kölcsönhatásokat.</li>
+    <li><strong>Hullámellenállás (opcionális)</strong> — Szabályos hullámban, a hullámmal ellentétes irányban végzett futások a hozzáadott ellenállás és a szabálytalan hullámban fellépő függőleges gyorsulás mérésére – ezek az adatok állnak a touring deszkák bordatervezésének alapján.</li>
+    <li><strong>Adatelemzés és ajánlások</strong> — Összehasonlító grafikonokat, ellenállás–sebesség görbéket és a teljes méretű deszkára vonatkozó konkrét tervezési ajánlásokat tartalmazó teljes jelentést kap.</li>
+  </ol>
+
+  <div class="not-prose my-10 p-6 rounded-xl bg-gray-50 dark:bg-gray-900 border border-gray-200 dark:border-gray-800">
+    <p class="text-sm font-semibold text-gray-500 mb-3 uppercase tracking-wider">Jellemző medenceres eredmények – ellenállás sebesség függvényében (all-around deszka 11'0, 1:4 méretarány)</p>
+    <div class="space-y-2">
+      <div class="flex items-center gap-2 text-xs">
+        <span class="w-20">2 kn (1:1)</span>
+        <div class="flex-1 bg-gray-200 dark:bg-gray-700 h-5 rounded">
+          <div class="h-full bg-blue-600 rounded" style="width:18%"></div>
+        </div>
+        <span class="w-16 text-right">11 N</span>
+      </div>
+      <div class="flex items-center gap-2 text-xs">
+        <span class="w-20">3 kn (1:1)</span>
+        <div class="flex-1 bg-gray-200 dark:bg-gray-700 h-5 rounded">
+          <div class="h-full bg-blue-600 rounded" style="width:35%"></div>
+        </div>
+        <span class="w-16 text-right">21 N</span>
+      </div>
+      <div class="flex items-center gap-2 text-xs">
+        <span class="w-20">4 kn (1:1)</span>
+        <div class="flex-1 bg-gray-200 dark:bg-gray-700 h-5 rounded">
+          <div class="h-full bg-blue-600 rounded" style="width:52%"></div>
+        </div>
+        <span class="w-16 text-right">32 N</span>
+      </div>
+      <div class="flex items-center gap-2 text-xs">
+        <span class="w-20">5 kn (1:1)</span>
+        <div class="flex-1 bg-gray-200 dark:bg-gray-700 h-5 rounded">
+          <div class="h-full bg-blue-600 rounded" style="width:68%"></div>
+        </div>
+        <span class="w-16 text-right">42 N</span>
+      </div>
+      <div class="flex items-center gap-2 text-xs">
+        <span class="w-20">6 kn (1:1)</span>
+        <div class="flex-1 bg-gray-200 dark:bg-gray-700 h-5 rounded">
+          <div class="h-full bg-blue-600 rounded" style="width:85%"></div>
+        </div>
+        <span class="w-16 text-right">52 N</span>
+      </div>
+    </div>
+    <p class="text-xs text-gray-400 mt-2">Modellméretű ellenállás (N) a Froude-szám szerint átméretezett sebességeknél. A teljes méretű teljesítménybecslés az ITTC-1978 teljesítmény-előrejelzési módszerét követi.</p>
+  </div>
+
+  <h2>Szakértői csapatunk</h2>
+  <p>Mérőmedencénk vezetője egy hidrodinamikai szakértő, hajóépítészeti doktor, aki 8 év vitorlázómedencees tapasztalattal rendelkezik egy jelentős európai tengerészeti kutatási intézetben. Munkáját egy technikus támogatja, aki valamennyi modellt és a műszerezettséget előkészíti. Csapatunk követi az ITTC (International Towing Tank Conference) ajánlott eljárásait, így minden vizsgálat megismételhető, nyomon követhető és nemzetközi szinten védhető.</p>
+
+  <h2>Mérőmedencevizsgálatok egyedi deszkák fejlesztéséhez</h2>
+  <p>Medencénket nem csupán saját fejlesztésű deszkáinkhoz használjuk – rendszeresen futtatunk próbaprogramokat olyan ügyfelek számára, akik egyedi deszkaformát kívánnak validálni vagy egy teljesítményproblémát vizsgálnak:</p>
+  <ul>
+    <li><strong>Forma-összehasonlítás</strong> — Két vagy több jelölt deszkaformát azonos körülmények között vizsgálunk, és objektív ellenállás–sebesség–stabilitás összehasonlítást adunk, amely segít a tervezés kiválasztásában.</li>
+    <li><strong>Szín- és bordaoptimalizálás</strong> — A borda leszállási profiljának és a szín görbületi sugarának változatai különböző konfigurációkban vizsgálhatók az ellenálláscsökkentésben vállalt szerepük mennyiségi mérésére.</li>
+    <li><strong>A sportoló teherviselésének vizsgálata</strong> — Az ellenállási adatokat a sportoló teljes névleges súlytartományára vetítjük ki, így Ön meghatározhatja a célzott evezőjéhez való hosszúságot és szélességet.</li>
+  </ul>
+
+  <h2>Miért érdemes nálunk próbázni?</h2>
+  <p>Mi nem csupán nyers számokat adunk Önnek. Jelentéseink a medence adatait alkalmazható mérnöki ajánlásokká alakítják: „Növelje a borda rocker szögletét 10 mm-rel a cruise sebességnél a prorából érkező hullám ellenállásának csökkentésére”, „Lekerekítse a színt a középső szakaszon a benyíló felület csökkentéséhez”, vagy „Tolja előre 50 mm-rel az álló pozíció zónáját a jobb billentyűzés érdekében”. Tiszta értelmezéssel indulhat arról, mit kell megváltoztatni és miért.</p>
+  <p>Mérőmedencénk díjazás alapján harmadik felek által végzett független vizsgálatokhoz is rendelkezésre áll. Ha olyan deszkát fejleszt, amelyhez pártalan, szakmailag kivitelezett hidrodinamikai értékelést szeretne, rendelkezésre állunk.</p>
+
+cta:
+  title: 'Időzítsen egy mérőmedence-próbafoglalást'
+  subtitle: 'Akár teljes fejlesztési programra, akár egyetlen összehasonlító vizsgálatra van szüksége, beépülünk az Ön programjába.'
+  actions:
+    - variant: primary
+      text: Lépjen kapcsolatba hidrodinamikai csapatunkkal
+      href: /hu/contact#project-brief
+    - text: Vissza az R&D központba
+      href: /hu/randdcenter

@@ -1,0 +1,123 @@
+meta:
+  title: 'A SUP konstrukciók összehasonlítása – egyszaporú PVC, kétszaporú PVC és drop-stitch | iSupfactory'
+  description: 'A felfújható SUP deszkakonstrukciók összehasonlítása: egyszaporú PVC, kétszaporú PVC és drop-stitch mag – merevség, súly, tartósság, ár és a leginkább megfelelő felhasználási eset.'
+  dateModified: '2026-08-21'
+  keywords:
+    - 'sup konstrukciók összehasonlítása'
+    - 'felfújható sup konstrukciótípusok'
+    - 'egyszaporú vs kétszaporú sup'
+    - 'drop-stitch sup konstrukció'
+    - 'pvc sup konstrukció'
+    - 'sup deszkák merevsége'
+    - 'sup deszkák súlya'
+
+hero:
+  tagline: 'Építési útmutató'
+  title: 'A SUP konstrukciók összehasonlítása'
+  subtitle: 'Három konstrukciótípus, egyetlen gyártósor. Értse meg a merevség, a súly, a tartósság és a költség közötti kompromisszumokat az egyszaporú PVC, a kétszaporú PVC és a drop-stitch magos SUP deszkák között – és azt, melyik illik a cél-evezőühöz és a piaci pozicionálásához.'
+
+answer:
+  label: 'Gyors összehasonlítás'
+  text: 'Az egyszaporú PVC a legkönnyebb és leginkább megfizethető – ideális a szabadidős evezőknek és az árérzékeny piacoknak. A kétszaporú PVC egy második PVC-réteget ad a merevséghez és a tartóssághoz, mérsékelt súlynál – az iparág standard választása a bérelőflottákhoz és a középkategóriás márkákhoz. A PVC-borítású drop-stitch mag maximális merevséget és nyomástűrést ad – a teljesítményre, szörfre és nagytestű evezőknek szóló alkalmazások kedvence. Mindhárom konstrukció ugyanazon a gyártósoron, azonos minőségi ellenőrzési szakaszokkal készül; a különbség az alapanyagokban és a laminálási lépésekben van.'
+  verified: '2026. szeptember'
+
+comparison_table:
+  tagline: 'Egymás mellett'
+  title: 'A konstrukciótípusok összehasonlítva'
+  headers:
+    - 'Tulajdonság'
+    - 'Egyszaporú PVC'
+    - 'Kétszaporú PVC'
+    - 'Drop-stitch mag + PVC borítás'
+  rows:
+    - - 'Merevség (névleges PSI)'
+      - '12–15 PSI'
+      - '15–18 PSI'
+      - '18–25 PSI'
+    - - 'Súly (11 láb)'
+      - '7–9 kg'
+      - '10–13 kg'
+      - '12–15 kg'
+    - - 'Tartósság'
+      - 'Jó – szabadidős használat'
+      - 'Nagyon jó – bérlés és kereskedelmi'
+      - 'Kiváló – teljesítmény és nagytestű evezők'
+    - - 'Építési rétegek'
+      - '1 réteg PVC + drop-stitch mag'
+      - '2 réteg PVC + drop-stitch mag'
+      - 'Megerősített drop-stitch + PVC borítás + peremsáv'
+    - - 'Jellemző felhasználási eset'
+      - 'Belépő szint, alkalmi, árérzékeny piacok'
+      - 'All-around, bérlés, klubok, középkategóriás márkák'
+      - 'Túra, szörf, nagytestű evezők, prémium márkák'
+    - - 'Relatív költség'
+      - 'A legalacsonyabb'
+      - 'Közepes'
+      - 'Magasabb'
+    - - 'Hegesztési módszer'
+      - 'RF-el tömített varratok'
+      - 'RF-el tömített varratok + laminálás'
+      - 'RF-el tömített varratok + megerősített perem'
+    - - 'Nyomáspróba standard'
+      - '18.0 PSI nyomástartási próba'
+      - '18.0 PSI nyomástartási próba'
+      - '18.0 PSI nyomástartási próba (magasabb névleges)'
+
+use_cases:
+  tagline: 'Melyik konstrukció kinek való'
+  title: 'Igazítsa a konstrukciót a célpiacához'
+  subtitle: 'A konstrukció kiválasztása nem csak költségdöntés – meghatározza az evező élményét, a garanciális kockázati profilt és a márkapozíciót, amelyet fenntarthat.'
+  grid: 'sm:grid-cols-3'
+  features:
+    - icon: S
+      icon_bg: blue
+      title: 'Egyszapor a belépéshez és a volumenhez'
+      desc: 'A legkönnyebb deszka, a legalacsonyabb áron. Ideális a first-time vásárlóknak szóló márkákhoz, a nagy alapterületű kiskereskedelemhez és az online értékesítési platformokhoz, ahol az ár a fő döntési tényező. Nyugodt vizeken, közepes nyomáson való evezéshez elfogadható a merevség. A garanciális igények aránya alacsonyabb, ha a névleges nyomás tartományában használják.'
+      link_label: 'Nézze meg a belépő szintű OEM deszkákat'
+      href: /hu/oem-manufacturing
+    - icon: D
+      icon_bg: green
+      title: 'Kétszaporú a bérléshez és a kereskedelmi használatra'
+      desc: 'Az alapépítmény a bérelőflottákhoz, a klubokhoz, a turisztikai központokhoz és az iskolai programokhoz. A kiegészítő PVC-réteg ellenáll az ütéseknek, az UV-kitettségnek és a napi kezelésnek – ezek azok a tényezők, amelyek a kétszaporú deszkákat az egyszaporúakkal szemben a kereskedelmi környezetben is megölik. A nagyobb nyomástűrés merevebb deszkát jelent a nehezebb evezőknek. Ez a világszerte legnépszerűbb konstrukciós szint.'
+      link_label: 'Bérlési és üdülőhelyi megoldások'
+      href: /hu/solutions/resort-sup
+    - icon: P
+      icon_bg: purple
+      title: 'Drop-stitch mag a teljesítményhez'
+      desc: 'Maximális merevség a túrához, a szörfözéshez, a horgászathoz és a nagytestű evezőkkel végzett alkalmazásokhoz. A megerősített peremkialakítás és a magasabb névleges nyomás a merev deszka teljesítményét adja hordozható csomagolásban. A teljesítménymárkák és a tapasztalt evezők kedvence. Magasabb alapanyagköltség, de erősebb márkapozicionálás és egységenként alacsonyabb garanciális arány.'
+      link_label: 'Teljesítménydeszkák fejlesztése'
+      href: /hu/odm-manufacturing
+
+key_factors:
+  heading: 'Kulcstényezők a konstrukciótípuson túl'
+  body: |
+    A konstrukciótípus csak az egyik változó a deszka teljesítményében. Három másik tényező legalább ennyit, vagy többet számít:
+
+    - **Drop-stitch sűrűség** — a szálsűrűség hüvelykben határozza meg, mennyire egyenletesen őrzi meg a deszka az alakját nyomás alatt. Standard építésben hüvelykbenként 96 szálat, teljesítménykivitelekre 140 szálat használunk. Nagyobb sűrűség = laposabb deszka = jobb csúszás.
+    - **A PVC minősége és vastagsága** – Nem minden PVC egyforma. A Koreából importált 0.7 mm-es PVC nagyobb szakadás- és UV-állóságot ad, mint a vékonyabb alternatívák. Az alapanyag minőségét projektenként specifikáljuk.
+    - **Peremkialakítás** – Az egyszaporú peremek a leggyakoribb töréspontot jelentik az olcsó deszkákon. A megerősített, kétszaporú peremsávok drámaian csökkentik a peremszakadás kockázatát. Minden deszkánk használ megerősített peremet, a konstrukciós szinttől függetlenül.
+
+faqs:
+  tagline: GYIK
+  title: 'SUP-konstrukció – gyakori kérdések'
+  items:
+    - q: 'Milyen konstrukciótípus kell a márkáimhoz?'
+      a: 'A célpiactól és az árpozicionálástól függ. Belépő szint és nagy alapterületű kiskereskedelem: egyszaporú. Bérelő flották, klubok és középkategóriás márkák: kétszaporú. Teljesítmény, túra és prémium: drop-stitch mag. A legtöbb márka a kétszaporúval indul, mert az adja a legjobb egyensúlyt a költség, a tartósság és az evező élménye között. A megvalósíthatósági elemzés szakaszában az Ön konkrét piaca alapján adunk ajánlást.'
+    - q: 'Kínálhatok-e több konstrukciós szintet ugyanazon márka alatt?'
+      a: 'Igen – sok márka kínál két vagy három szintet. Mindhárom konstrukciót ugyanazon a soron gyártjuk, azonos minőségi ellenőrzési lépésekkel, így a konstrukciótípusok egy megrendelésben kombinálhatók. A héj formája és a grafika minden szinten azonos lehet; csak a konstrukció és az alapanyagok változnak.'
+    - q: 'Mi a nyomáspróba standard minden konstrukció esetén?'
+      a: 'Minden deszkát, a konstrukciótípustól függetlenül, 18.0 PSI nyomástartási próbának vetünk alá, 24 óra alatt 0.50 PSI-nél nagyobb nyomásesésnél automatikus elutasítással. Az egyszaporú deszkák névleges evezési nyomása 12–15 PSI, a kétszaporúaké 15–18 PSI, a drop-stitch magosoké 18–25 PSI. A próbanyomás minden típusnál meghaladja a névleges nyomást.'
+    - q: 'Hogyan befolyásolja a konstrukció a garanciális igényeket?'
+      a: 'Az egyszaporú deszkák garanciális igényaránya kissé magasabb kereskedelmi vagy bérbeadási használatban, a perem kitettsége és a perforációk miatt. A kétszaporú és a drop-stitch magos konstrukciók igényaránya lényegesen alacsonyabb. Az ajánlatkérési szakaszban a gyártási nyilvántartásainkból vett, szintenkénti garanciális adatokat adunk át.'
+
+cta:
+  title: 'Segítségre van szüksége a megfelelő konstrukció kiválasztásához?'
+  subtitle: 'Mondja el a cél-evezőtt, az árszintet és a piacot – mi ajánljuk a konstrukciós szintet, és mintákat küldünk értékelésre.'
+  actions:
+    - variant: primary
+      text: Kezdje az új projektbriefet
+      href: /hu/contact#project-brief
+    - text: 'Nézze meg az OEM-gyártás részleteit'
+      href: /hu/oem-manufacturing
+    - text: 'Hasonlítsa össze az OEM, ODM és Private Label lehetőségeit'
+      href: /hu/oem-odm-private-label-comparison

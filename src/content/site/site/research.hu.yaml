@@ -1,0 +1,49 @@
+badge: Legfrissebb kutatások
+heading: Tudásközpont
+description: Részletes technikai kutatás a SUP-deszkák és a felfújható hajók anyagairól, felépítéséről, biztonsági szabványairól és gyártási folyamatáról
+topics:
+  - slug: drop-stitch-technology
+    category: Technológia
+    readTime: 8 perc olvasás
+  - slug: pvc-vs-hypalon
+    category: Anyagok
+    readTime: 10 perc olvasás
+  - slug: ce-certification-guide
+    category: Megfelelőség
+    readTime: 7 perc olvasás
+  - slug: sup-thickness-guide
+    category: Gépészet
+    readTime: 6 perc olvasás
+  - slug: oem-buyer-guide
+    category: Beszerzés
+    readTime: 12 perc olvasás
+  - slug: sup-manufacturing-process
+    category: Gyártás
+    readTime: 10 perc olvasás
+  - slug: eva-foam-technology
+    category: Anyagok
+    readTime: 7 perc olvasás
+  - slug: uv-printing-vs-eva-block
+    category: Technológia
+    readTime: 6 perc olvasás
+  - slug: fusion-lamination-vs-glue
+    category: Gyártás
+    readTime: 8 perc olvasás
+  - slug: sup-valve-types
+    category: Gépészet
+    readTime: 6 perc olvasás
+  - slug: fin-systems-guide
+    category: Gépészet
+    readTime: 7 perc olvasás
+  - slug: board-hull-design
+    category: Gépészet
+    readTime: 9 perc olvasás
+  - slug: quality-testing-standards
+    category: Megfelelőség
+    readTime: 8 perc olvasás
+  - slug: sup-paddle-technology
+    category: Felszerelés
+    readTime: 7 perc olvasás
+  - slug: military-grade-pvc-specs
+    category: Anyagok
+    readTime: 8 perc olvasás

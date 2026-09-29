@@ -4011,6 +4011,255 @@ export const seriesPages: Localized<SeriesPageData[]> = {
       ],
     },
   ],
+  hu: [
+    {
+      slug: 'all-around',
+      navLabel: 'All-Around platformok',
+      metaTitle: 'Egyedi All-Around SUP deszkák — Felfújható SUP OEM gyártó | iSupfactory',
+      metaDescription:
+        'Egyedi, Ön márkájára gyártott felfújható all-around SUP deszkák — a széles törzs nyújtotta stabilitás, OEM/ODM volumen 90–100+ darabtól, minták 7–12 napon belül. Közvetlenül a gyárból Qingdao, China.',
+      kicker: 'Széria · All-Around',
+      h1: 'Egyedi All-Around SUP deszkák — az új márkák természetes kezdőplatformja',
+      intro: [
+        'Az all-around deszka a SUP kategória munkanaplója: elég széles ahhoz, hogy a kezdők stabilnak érezzék, elég mozgékony ahhoz, hogy a középszintűek érdeklődését is megtartsa, és elég könnyű ahhoz, hogy bárhová vihető legyen. A legtöbb új márka és a legtöbb kölcsönzőflotta innen indul.',
+        'Ön márkájára gyártunk all-around platformokat 150 m-es tekercsenként 90–100+ darab mennyiségtől (volumen), 20–50 darabos pilot sorokkal. Az alak, a szélek, a rétegezés, a színek, a teljes deszkára kiterjedő grafika és a csomagolás projektenként specifikálható.',
+      ],
+      faqs: [
+        {
+          q: 'Testreszabható egy all-around SUP deszka a márkámhoz?',
+          a: 'Igen. Minden all-around platform egy gyártási alap — Ön határozza meg a méreteket (általában 10′6″–11′6″), a szélességet, a vastagságot, a rétegezést (egyrétegű, kétrétegű vagy fúziós), a szék kialakítását, az EVA padot, a teljes deszkára kiterjedő grafikát és a csomagolást. A külön formához készülő formák 90–100+ darab/formától indulnak; a szabványos volumenű gyártás 150 m-es tekercsenként 90–100+ darabbal kezdődik.',
+        },
+        {
+          q: 'Mi az all-around SUP deszkák minimális rendelési mennyisége (MOQ)?',
+          a: 'A szabványos volumenű tételek 150 m-es tekercsenként 90–100+ darabbal indulnak; a szabványos platformokon futó pilot sorok 20–50 darabbal indulnak; a teljesen egyedi, külön formás sorok formánként 90–100+ darabbal indulnak. A mintákat 7–12 napon belül szállítjuk ki, a sorozatgyártás pedig a rendelés és az előleg megerősítése után 25–35 napot vesz igénybe.',
+        },
+        {
+          q: 'Mit tartalmaz a bolti kész csomag?',
+          a: 'A teljes csomag: drop-stitch magos felfújható deszka, állítható lapát, kézi szivattyú (vagy kétfokozatú elektromos), javítókészlet, hátizsák és nyomtatott doboz. A tartozékok a célpiac alapján cserélhetők vagy továbbfejleszthetők.',
+        },
+        {
+          q: 'Milyen keménységű EVA padot gyártunk a fedélzetre?',
+          a: 'A fedélzeten lévő csúszásgátló padok keménysége 45–55 Shore C — közepesen puha, jó tapadással a talp alatt, napfényben nem keményedik meg. A vastagság, a bordázat, a kivágások és a logó elhelyezése projektenként specifikálható.',
+        },
+      ],
+    },
+    {
+      slug: 'race',
+      navLabel: 'Versenypadok',
+      metaTitle: 'Egyedi verseny SUP deszkák — Felfújható verseny OEM platformok | iSupfactory',
+      metaDescription:
+        'Egyedi felfújható verseny SUP deszkák klubok, rendezvények és márkák számára — verseny drop-stitch törzsek, OEM volumen 90–100+ darabtól, CE tanúsított gyártással. Közvetlenül a gyárból.',
+      kicker: 'Széria · Verseny',
+      h1: 'Egyedi verseny SUP deszkák — az Ön márkájára gyártott versenytörzsek',
+      intro: [
+        'A verseny deszkák a stabilitást a sebességre cserélik: hosszabb és keskenyebb profilok, kifinomult orrformák és csökkentett rocker, eltolásos evezésre tervezve. A felfújható változatok hordozható platformba szűrik át a merev deszkás versenyek teljesítményét.',
+        'Márkáknak, kluboknak és rendezvényszervezőknek gyártunk versenyplatformokat, pontos drop-stitch magokkal, versenyspecifikus rétegezéssel és sebességre optimalizált törzsformákkal — statisztikailag tesztelve saját hidrodinamikus medencénkben.',
+      ],
+      faqs: [
+        {
+          q: 'Milyen méretű verseny SUP deszkákat tudnak gyártani?',
+          a: 'A tipikus versenyplatformok a 12′6 és 14′ kategóriáknál 12′6″ × 28″, a korlátlan és touring versenyformátumoknál pedig 14′ × 23″–25″ méretben változnak. A szélesség, a rocker és az orrprofil a célcsoport alapján specifikálható, és egy fizikai mintán ellenőrizzük.',
+        },
+        {
+          q: 'A verseny deszkák speciális kialakítást igényelnek?',
+          a: 'Igen — a verseny deszkák könnyebb, sűrűbb szövésű drop-stitch magot használnak, nagyobb nyomással (18–20 PSI) és merevebb élerősítéssel a törzsforma sebességnél történő megtartásához. A rétegezési változatok (egyrétegű kontra kétrétegű) a súly és a merevség között váltanak, a választást pedig minden projekthez közösen hozzuk meg Önnel.',
+        },
+        {
+          q: 'A klubok rendelhetnek csapatuknak verseny deszkákat?',
+          a: 'Igen. A klub- és csapatprogramok 90–100+ darabtól (volumen) rendelnek saját grafikával, és egyetlen megrendelésben kombinálhatják a verseny- és edzőplatformokat. A flottaárak az összesített volumenre vonatkoznak.',
+        },
+      ],
+    },
+    {
+      slug: 'surf',
+      navLabel: 'Surf platformok',
+      metaTitle: 'Egyedi Surf SUP deszkák — Hibrid surf OEM platformok | iSupfactory',
+      metaDescription:
+        'Egyedi felfújható surf SUP deszkák — lekerekített szélű, magas rockerű hibrid szörfprofilok, Ön márkájára készítve 90–100+ darabtól Qingdao, China.',
+      kicker: 'Széria · Surf',
+      h1: 'Egyedi Surf SUP deszkák — hibrid platformok a hullámokon való csúszáshoz',
+      intro: [
+        'A surf SUP deszkák hordozható platformba hozzák a hullám teljesítményét: rövidebb hosszak, nagyobb rocker, lekerekített szélek és homorú orrészek, amelyek megőrzik a vonalat a hullám arcán. A felfújható szörfformák a legkíméletesebb módja annak, hogy az evezőt bevezessük ebbe a sportba.',
+        'Ön márkájára gyártunk surf platformokat, a hullámhoz igazított alakkal és kialakítási részletekkel — a teljes soft-top csomagoktól a teljesítményorientált rétegezésig.',
+      ],
+      faqs: [
+        {
+          q: 'Milyen méretek érhetők el a surf SUP deszkáknál?',
+          a: 'A szokásos surf platformok hossza 8′6″–10′6″, szélessége körülbelül 30″–34″. A hossz, a rocker és a szélprofil az evező testsúlyától és a hullám típusától függően specifikálható, és a gyártás előtt egy fizikai mintán ellenőrizzük.',
+        },
+        {
+          q: 'Elég tartósak a felfújható szörf deszkák a kölcsönzéshez?',
+          a: 'Megerősített szélekkel és UV-álló PVC-vel platformaink kibírják a kölcsönzési üzemmódot és a szörfiskolai oktatást is. A kölcsönzőflották rendszerint kombinálják az all-around és a szörf formákat — a flottaárak a vegyes volumenre vonatkoznak.',
+        },
+        {
+          q: 'Alkalmazhatják a márkánk grafikáját a szörf deszkákra?',
+          a: 'Igen. A teljes fedélzeti grafika, a deszka alján lévő rajz, a csúszásgátló EVA padok és a csomagolás az Ön fájljaiból készül, vagy fejlesztőcsapatunk készíti a márkaidentitás alapján.',
+        },
+      ],
+    },
+    {
+      slug: 'touring',
+      navLabel: 'Touring platformok',
+      metaTitle: 'Egyedi Touring SUP deszkák — Hosszú távú OEM platformok | iSupfactory',
+      metaDescription:
+        'Egyedi felfújható touring SUP deszkák hosszú távú evezéshez — 12′6″ és annál hosszabb eltolásos törzsek, többnapos expedíciók teherbírása, OEM volumen 90–100+ darabtól, közvetlenül a gyárból.',
+      kicker: 'Széria · Touring',
+      h1: 'Egyedi Touring SUP deszkák — távolságra, teherre és a távolságok leküzdésére tervezve',
+      intro: [
+        'A touring deszkák hosszúak és hatékonyak: éles orrészek a csúszáshoz, mérsékelt térfogat a stabilitáshoz a nyílt vízen, és olyan törzshossz, amely a többnapos expedíciók felszerelésének szállítására elegendő. Ezek a távolsági evezők és az expedíciós felszerelések beszállítói kedvencei.',
+        'Ön márkájára gyártunk touring platformokat, eltolásra optimalizált alakkal, rögzítési pontokkal és fedélzeti teherhelvényel, valamint szénszál-kompatibilis tartozék-ökoszisztémákkal (bungee, D-gyűrűk, tartók).',
+      ],
+      faqs: [
+        {
+          q: 'Milyen méretű touring SUP deszkákat gyártanak?',
+          a: 'A touring platformok hossza általában 12′6″–14′, szélessége 28″–32″. A 14′ feletti hosszabb törzsek a csúszást helyezik előtérbe, a szélesebb változatok pedig stabilitást adnak a teherhez. A specifikációkat sorozatgyártás előtt fizikai mintával erősítjük meg.',
+        },
+        {
+          q: 'A touring deszkák teher- és rögzítési opciókkal érkeznek?',
+          a: 'Igen — a bungee teherhálók, a D-gyűrűs rácsok, a horgonytartók és a tartozék-sínrendszerek projektenként specifikálhatók. A touring csomagok rendszerint a deszkákkal együtt hátizsák hüvelyeket és nagynyomású szivattyúkat társítanak.',
+        },
+        {
+          q: 'Szállítanak touring deszkákat felszerelés-beszállítóknak és kölcsönzőüzemeltetőknek?',
+          a: 'Igen. A felszerelés-beszállítók és az üzemeltetők 20–50 darabos (pilot) dedikált touring flottákat használhatnak, flottaárakkal, alkatrészekkel és egy meghatározott szezonális megújítási ciklussal.',
+        },
+      ],
+    },
+    {
+      slug: 'yoga',
+      navLabel: 'Jóga platformok',
+      metaTitle: 'Egyedi Jóga SUP deszkák — Széles, stabil OEM platformok | iSupfactory',
+      metaDescription:
+        'Egyedi felfújható jóga SUP deszkák — rendkívül széles, stabil platformok puha padokkal, stúdiók, resortok és oktatók számára. OEM volumen 90–100+ darabtól, közvetlenül a gyárból.',
+      kicker: 'Széria · Jóga',
+      h1: 'Egyedi Jóga SUP deszkák — rendkívül széles platformok vízi gyakorlathoz',
+      intro: [
+        'A jóga deszkák a nyugalomra készülnek: extra szélesség és térfogat a stabil platformért, puha felületek a kéz és a láb számára, valamint alacsony profilok, amelyek a deszkát a víz közelében tartják. Stúdiók, resortok és oktatók használják őket vízi jógaprogramokhoz.',
+        'Ön márkájára gyártunk jóga platformokat, a legszélesebb és legstabilabb profilokkal, prémium EVA padokkal, valamint programléptékben választható opciókkal a stúdiók és a resortflották számára.',
+      ],
+      faqs: [
+        {
+          q: 'Mitől lesz egy SUP deszka jó a jóga számára?',
+          a: 'Elsősorban a stabilitás: az extra szélesség (33″–36″) és a térfogat síkban és szilárdan tartja a deszkát. A puha tapintású EVA pad védi a kezet, a térdeket és a lábat, az alacsony profilú szél pedig csökkenti a kibillenést fel- és leszálláskor.',
+        },
+        {
+          q: 'A resortok a flotta részeként rendelhetnek jóga deszkákat?',
+          a: 'Igen. A resortok rendszerint a vendégek számára jóga platformokat kombinálnak all-around deszkákkal. Az összesített flottatérfogat flottaárkedvezményt ad, a szállodai színpalettához igazított márkagrafika pedig a teljes megrendelésre vonatkozik.',
+        },
+        {
+          q: 'A jóga deszkák teljes csomagokat tartalmaznak?',
+          a: 'Igen — felfújható deszka, lapát, szivattyú, hátizsák és javítókészlet, vagy a felhasználási helyen történő tároláshoz való csökkentett készlet (deszka + lapát + elektromos szivattyú), az Ön programjától függően.',
+        },
+      ],
+    },
+    {
+      slug: 'whitewater',
+      navLabel: 'Whitewater platformok',
+      metaTitle: 'Egyedi Whitewater SUP deszkák — Folyó- és gyorsvíz OEM platformok | iSupfactory',
+      metaDescription:
+        'Egyedi felfújható whitewater SUP deszkák folyókhoz és gyorsvizekhez — rövid, jól manőverezhető törzsek, ütést bíró megerősített kialakítással. OEM volumen 90–100+ darabtól Qingdao, China.',
+      kicker: 'Széria · Whitewater',
+      h1: 'Egyedi Whitewater SUP deszkák — folyótörzsek, amelyek bírják az ütéseket',
+      intro: [
+        'A whitewater deszkák rövidek, szélesek és tartósak: jól manőverezhető törzsek, amelyek kérésre fordulnak, nagy ütési állóképesség a szélések ütéseihez, valamint nehéz igénybevételre tervezett kialakítás a folyómederhez és a sziklás zónákhoz.',
+        'Ön márkájára gyártunk whitewater platformokat, megerősített varratokkal, ütést bíró szélekkel és folyóspecifikus formákkal — iskoláknak, vezetőknek és folyói felszerelések beszállítóinak, amelyek napi kurzusokat és túrákat szerveznek.',
+      ],
+      faqs: [
+        {
+          q: 'Milyen kialakítást igényelnek a whitewater deszkák?',
+          a: 'A megerősített szélek és a dupla varrásos kialakítás elnyeli a szélések ütéseit; a vastag PVC és a több réteges felépítés ellenáll a folyómeder okozta szúródásoknak. A kétkamrás modellek extra úszóképességet adnak az elszigetelt folyókhoz.',
+        },
+        {
+          q: 'Szállítanak folyói felszerelés-beszállítóknak és vezetőiskoláknak?',
+          a: 'Igen. A felszerelés-beszállítók és a vezetőiskolák 20–50 darabos (pilot) whitewater flottákat használnak, flottaárakkal, nehéz igénybevételre szánt javítókészletekkel és tartalék alkatrészekkel — uszonyokkal és szelepekkel —, amelyek a nagy igénybevételű folyóprogramokra jellemzők.',
+        },
+        {
+          q: 'Felhelyezhető a márka grafikája a whitewater deszkákra?',
+          a: 'Igen — a teljes deszkára kiterjedő grafika, a logó elhelyezése és a csapat színei az Ön fájljaiból készülnek. A szakadásálló nyomtatási rétegek intakt márkázást tartanak fenn intenzív használat mellett is.',
+        },
+      ],
+    },
+    {
+      slug: 'fishing',
+      navLabel: 'Fishing platformok',
+      metaTitle: 'Egyedi Fishing SUP deszkák — OEM és saját márkás | iSupfactory',
+      metaDescription:
+        'Egyedi felfújható fishing SUP deszkák stabilitással, teherbírással és tartozéktartókkal — OEM és saját márkás volumen 90–100+ darabtól, közvetlenül a gyárból Qingdao, China.',
+      kicker: 'Széria · Fishing',
+      h1: 'Egyedi Fishing SUP deszkák — a horgászokat szem előtt tartva tervezve',
+      intro: [
+        'A fishing deszkák stabil platformok a dobáshoz: szélesek és nagy térfogatúak, hogy a horgászt a felszerelésével együtt szállítsák, tartó-, hűtő- és halasztóállás-tartó rendszerekkel, valamint csendes kialakítással a diszkrét közelítéshez.',
+        'Ön márkájára gyártunk fishing platformokat, a horgászhoz igazított elemekkel, projektenként specifikálva — a kompakt hétvégi csomagoktól a teljes versenykonfigurációkig.',
+      ],
+      faqs: [
+        {
+          q: 'Milyen elemek specifikálhatók a fishing SUP deszkákon?',
+          a: 'Rács-rendszerek horgonytartókhoz és tartozékokhoz, felszereléssínek, hűtőtáskák pántjai, rögzítési pontok, valamint nagy teherbírású, horgászfelszereléssel együtt akár 500 lbs-ig terjedő deszkák. A csomagok tartalmazhatnak lapátokat, szivattyúkat és márkás hüvelyeket.',
+        },
+        {
+          q: 'Mi az MOQ a fishing SUP deszkák OEM megrendeléseinél?',
+          a: 'A szabványos volumenű tételek 150 m-es tekercsenként 90–100+ darabbal indulnak; a pilot sorok szabványos platformokon 20–50 darabbal indulnak; a külön formához készülő sorok formánként 90–100+ darabbal indulnak. A mintákat 7–12 napon belül szállítjuk ki; a gyártás a rendelés és az előleg megerősítése után 25–35 napot vesz igénybe.',
+        },
+        {
+          q: 'Gyártanak fishing deszkákat kölcsönző- és vezetési műveletekhez?',
+          a: 'Igen. A vezetési és kölcsönző műveletek flottaárakkal, alkatrészekkel és a napi használatra méretezett javítókészletekkel használnak fishing flottákat.',
+        },
+      ],
+    },
+    {
+      slug: 'kids',
+      navLabel: 'Gyermek platformok',
+      metaTitle: 'Egyedi Gyermek SUP deszkák — Kis és könnyű OEM platformok | iSupfactory',
+      metaDescription:
+        'Egyedi felfújható gyermek SUP deszkák — rövidebb és könnyebb platformok, gyermekekhez igazított padokkal, a biztonság és a szórakozás kedvéért tervezve. OEM volumen 90–100+ darabtól, közvetlenül a gyárból.',
+      kicker: 'Széria · Gyermek',
+      h1: 'Egyedi Gyermek SUP deszkák — kicsik, könnyűek és az első evezésekre tervezve',
+      intro: [
+        'A gyermek deszkák fiatal evezőkhöz méretezettek: rövidebb törzsek, kisebb súly, a kicsi testekhez igazított keskenyebb szélességek és puha padok, amelyek megkímélik az eséseket. Belépési pont a családi márkák, az iskolák és a gyermekeket kiszolgáló kölcsönzőflották számára.',
+        'Ön márkájára gyártunk gyermek platformokat, standard és junior méretekben, családokhoz igazított csomagolási opciókkal.',
+      ],
+      faqs: [
+        {
+          q: 'Milyen méretekben kaphatók a gyermek SUP deszkák?',
+          a: 'A tipikus gyermek platformok hossza 7′–9′6″, szélessége 26″ és 30″ között, súlyuk pedig körülbelül 7–9 kg (15–20 lbs). A méretet az evező életkora és testsúlya alapján választjuk ki, és a gyártás előtt egy fizikai mintán ellenőrizzük.',
+        },
+        {
+          q: 'Szállítanak iskolákhoz és ifjúsági programokhoz?',
+          a: 'Igen — gyermek platformjaink az iskolai flották és az ifjúsági programok gyakori elemei, amelyek junior lapátokkal és kezdő tartozékokkal együtt, programáron szerznek.',
+        },
+        {
+          q: 'Felhelyezhető a márka és a szereplők grafikája a gyermek deszkákra?',
+          a: 'Igen. A teljes deszkára kiterjedő színváltozatokat, a szereplőillusztrációkat és a logó elhelyezését az Ön fájljaiból vagy a márka irányából fejlesztjük — ugyanolyan szakadásálló nyomtatási rétegekkel készülnek, mint a felnőtt deszkák.',
+        },
+      ],
+    },
+    {
+      slug: 'multi',
+      navLabel: 'Többfős platformok',
+      metaTitle: 'Egyedi Többfős SUP deszkák — Tandem és családi OEM | iSupfactory',
+      metaDescription:
+        'Egyedi felfújható többfős SUP deszkák családi szórakozáshoz és csoportos leckékhez — tandem, kerti és bulizós platformok. OEM volumen 90–100+ darabtól, közvetlenül a gyárból.',
+      kicker: 'Széria · Többfős',
+      h1: 'Egyedi Többfős SUP deszkák — tandemek, kerti deszkák és bulizós platformok',
+      intro: [
+        'A többfős deszkák a SUP-ot csoportok felé nyitják: tandemek extra lapát pozíciókkal, kerti deszkák a pihenéshez és bulizós platformok, amelyek több evezőt szállítanak. Alátámasztják a resortok, a strandok és a tavi műveletek kölcsönzési bevételét.',
+        'Ön márkájára gyártunk többfős platformokat, az egyes felhasználási helyzetek által megkívánt stabilitási és térfogati profilokkal.',
+      ],
+      faqs: [
+        {
+          q: 'Milyen típusú többfős deszkákat gyártanak?',
+          a: 'Tandemek (két evező, körülbelül 13′–14′), kerti deszkák (rövid, széles pihenőplatformok) és nagy térfogatú bulizós platformok 3–6 evező részére. Minden típust a kapacitás, a súly és a tervezett felhasználás alapján specifikálunk.',
+        },
+        {
+          q: 'Jó befektetés a többfős deszkák a kölcsönzéshez?',
+          a: 'Igen — prémium óradíjat tesznek lehetővé egy evezőnként alacsonyabb felszerelésköltséggel, és a csoportot együtt tartják ahelyett, hogy külön deszkákra osztanák. A kölcsönzőüzemeltetők rendszerint a többfős deszkákat all-around flottákkal párosítják.',
+        },
+        {
+          q: 'Mekkora egy bulizós platform kapacitása?',
+          a: 'A kapacitás a mérettől és a térfogattól függ: a tipikus kerti és bulizós platformok 400–700 lbs terhelést bírnak, és 3–6 evezőt szállítanak a mérettől és a kialakítástól függően. A specifikációkat a volumenű gyártás előtt egy fizikai mintával erősítjük meg.',
+        },
+      ],
+    },
+  ],
 }
 
 export function getSeriesPage(locale: Locale, slug: string): SeriesPageData | undefined {

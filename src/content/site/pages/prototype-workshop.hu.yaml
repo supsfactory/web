@@ -1,0 +1,102 @@
+meta:
+  title: 'Prototípusműhely – a próbadeszkák megépítése'
+  description: 'A CAD modelltől a vizsgált próbadeszkáig 7–12 nap alatt. Prototípusműhelyünk testreszabott SUP mintákat épít, vizsgál és validál. Indítsa el prototípusprojektjét még ma.'
+  dateModified: '2026-08'
+back_text: 'Vissza az R&D központba'
+home_label: 'Főoldal'
+
+answer:
+  label: 'Közvetlen válasz'
+  text: 'Egy CAD modellt 7–12 nap alatt használható és vizsgált próbadeszkává alakítjuk: felfújható elemekkel végzett prototípizálás, medencés vízpróbák, a szín és az orr iterációi, majd a gyártóeszközök elkészítése. A teljesen testreszabott formák további 15–20 napnyi eszközfejlesztést igényelnek a tömeggyártás 25–35 napos standard határidején felül.'
+  verified: '2026. szeptember'
+
+hero:
+  tagline: '05. laboratórium'
+  title: 'Prototípusműhely'
+  subtitle: 'A CAD modelltől a vizsgált próbadeszkáig – megépítve, felszerelve és bemutatva'
+  image: 'https://assets.isupfactory.com/images/sups/products/sup-series/sup-ocean-voyager-1.webp'
+  image_alt: 'SUP deszka gyártása a Vatrad prototípusműhelyében'
+
+intro: 'Egy CAD modell, bármilyen részletes is, nem tudja megmutatni, milyen érzés lesz valójában egy deszka, amíg nincs felfújva, felülve és evezve. Ezért prototípusműhelyünk úgy van kialakítva, hogy a mérnöki adatokat a lehető leggyorsabban és legpontosabban használható fizikai deszkává alakítsa. A {SITE.name} minden új modellje – és minden testreszabott formatervezés – ezen a műhelyen megy keresztül, mielőtt a gyártóeszközök elkészítésének részévé válna.'
+
+content_html: |
+  <h2>Ahol a tervezés valósággá válik</h2>
+  <p>A műhely felszerelése a panelek, a drop-stitch magok és a színek egyidejű gyártását teszi lehetővé. Ez a párhuzamos munkafolyamat a prototípizálási határidőt 7–12 napra rövidíti a mérnöki átadástól számítva. Ha az Ön felhasználási területe speciális megoldást kíván, három hétnél rövidebb idő alatt juttathatjuk el a konceptustól a vízi validálásig.</p>
+
+  <h2>A műhely képességei</h2>
+  <table>
+    <thead><tr><th>Munkahely</th><th>Berendezés</th><th>Cél</th></tr></thead>
+    <tbody>
+      <tr><td>Panelvágás</td><td>CNC szövetvágó gép, nesting szoftver, panelminták könyvtára</td><td>Precíz vágás a hídpanelekhez, a testhez és a színhez, bármilyen deszkaméretben</td></tr>
+      <tr><td>Mag összeállítása</td><td>Drop-stitch mag lamináló asztal, ragasztófelvivő hengerek</td><td>A drop-stitch mag be ragasztása a PVC borítások közé, egyenletes ragasztóréteggel</td></tr>
+      <tr><td>Hegesztés</td><td>RF hegesztőprés, meleglevegős rögzítőállás, felfújási próbaberendezés</td><td>A deszka teljes méretű illesztéseinek varratainak hegesztése szelepekkel, fogantyúkkal és vaklemez-tartóval</td></tr>
+      <tr><td>Összeállítás és kikészítés</td><td>Hídboríték felvivő, grafika lamináló asztal, tartozékszerelő pad</td><td>Teljes felszerelés: hídborítékok, logók, fogantyútartó, kötélgyűrű, vaklemez-tartó</td></tr>
+      <tr><td>Mérőszoba</td><td>Nyomásmérők, adatgyűjtő, görbületmérő sablon</td><td>Mintavizsgálat: felfújási ciklusok, híd görbületének mérése, levegőmegőrzés mérése</td></tr>
+    </tbody>
+  </table>
+
+  <h2>A prototípus útja – lépésről lépésre</h2>
+  <ol>
+    <li><strong>Átvétel a mérnökségtől</strong> – A tervdokumentációt (3D modell, FEA-jelentés, alapanyaglista, panelelrendezési terv) a műhelyvezető és a tervezőmérnök formálisan átnézi. A megvalósíthatósághoz kapcsolódó észrevételeket a vágás megkezdése előtt jelzik és megoldják.</li>
+    <li><strong>A panelek gyártása</strong> – A deszkát a mérnöki specifikáció szerint építjük fel. A paneleket CNC-n vágjuk, a drop-stitch magot a PVC borítások közé lamináljuk, a hidat és a testet pedig a jóváhagyott alapanyag-listával szereljük össze.</li>
+    <li><strong>Hegesztés</strong> – A paneleket RF-fel hegesztjük a deszka teljes alakjába. A rekeszt a próbanyomásra fújjuk, és 24 órán át tartjuk a kezdeti stabilizálás érdekében.</li>
+    <li><strong>Összeállítás és kikészítés</strong> – Felszereljük a hídborítékot, a grafikát, a fogantyút, a kötélgyűrűt és a vaklemez-tartókat. Minden alkatrészt beépítünk és a specifikációhoz képest ellenőrzünk.</li>
+    <li><strong>Statikus vizsgálatok</strong> – Mielőtt a deszka a vízhez érne, végigmegy: a felfújási ciklusokon, a levegőmegőrzési próbán, a híd görbületének mérésén a névleges nyomáson és a tartozékok meghúzási ellenőrzésén.</li>
+    <li><strong>A vízpróba programja</strong> – 10 órás vízben végzett vizsgálat, a részletek alább.</li>
+    <li><strong>A prototípus értékelése</strong> – Formális jóváhagyási ülést tartunk a mérnökség, a gyártás és a minőség csapataival. A szükséges minden tervezési módosítást dokumentálunk, és beépítjük a gyártásra szánt változatba.</li>
+  </ol>
+
+  <div class="not-prose my-10 p-6 rounded-xl bg-gray-50 dark:bg-gray-900 border border-gray-200 dark:border-gray-800">
+    <p class="text-sm font-semibold text-gray-500 mb-3 uppercase tracking-wider">10 órás vízpróba program – a vizsgálatok terve</p>
+    <div class="space-y-2 text-sm">
+      <div class="flex items-center gap-3 p-2 rounded bg-white dark:bg-gray-950">
+        <span class="w-12 text-xs font-bold text-blue-600">1 óra</span>
+        <span class="flex-1">Stabilitásellenőrzés – az egyensúly álló helyzetben, a laterális terhelés tűrése</span>
+      </div>
+      <div class="flex items-center gap-3 p-2 rounded bg-white dark:bg-gray-950">
+        <span class="w-12 text-xs font-bold text-blue-600">2 óra</span>
+        <span class="flex-1">Evezési próba – csúszás, iránytartás és fordulók 3 sebességen; a csapás közbeni kényelem</span>
+      </div>
+      <div class="flex items-center gap-3 p-2 rounded bg-white dark:bg-gray-950">
+        <span class="w-12 text-xs font-bold text-blue-600">2 óra</span>
+        <span class="flex-1">Terhelési próba – stabilitás és görbület 60 / 80 / 100 / 120 kg-os sportolóknál</span>
+      </div>
+      <div class="flex items-center gap-3 p-2 rounded bg-white dark:bg-gray-950">
+        <span class="w-12 text-xs font-bold text-blue-600">2 óra</span>
+        <span class="flex-1">Hullámtörési próba – ismételt útvonalak egy csónakot követő hullámon; az orrpermete, a szín görbületének növekedése</span>
+      </div>
+      <div class="flex items-center gap-3 p-2 rounded bg-white dark:bg-gray-950">
+        <span class="w-12 text-xs font-bold text-blue-600">2 óra</span>
+        <span class="flex-1">Kalandtúra – folyamatos evezés, időszakos nyomásellenőrzéssel; a levegőmegőrzés rögzítése</span>
+      </div>
+      <div class="flex items-center gap-3 p-2 rounded bg-white dark:bg-gray-950">
+        <span class="w-12 text-xs font-bold text-blue-600">1 óra</span>
+        <span class="flex-1">Végső vizsgálat – a varratok, a tartozékok és a grafika ellenőrzése a próba után; a megállapítások dokumentálása</span>
+      </div>
+    </div>
+  </div>
+
+  <h2>Testreszabott prototípizálás egyedi felhasználásokra</h2>
+  <p>A prototípusműhely az a hely, ahol megoldjuk azokat a problémákat, amelyeket a standard gyártási deszkák nem tudnak kezelni. A közelmúltbeli példák:</p>
+  <ul>
+    <li>14''-es touring deszka egy európai kalandtúra-evező márkájához, beépített teherviselő hiddal és megerősített orrral – prototípizálva, felszerelve és vizsgálva saját létesítményünkben.</li>
+    <li>10'6''-os jóga deszka a teljes hossz menti húzóhíddal és a merevség érdekében kiegészítő vastagsággal, amelyet egy 4 hetes bérleti időszak során validáltunk.</li>
+    <li>Saját márkájú flotta deszka testreszabott hídgrafikával és dupla fogantyúval; a prototípust a szín, a logó helyzete és a csomagolás validálására használtuk, mielőtt az ügyfél konténerre vállalt.</li>
+  </ul>
+
+  <h2>Prototípizáló csapatunk</h2>
+  <p>A műhelyt nyolc, több szakterületet ismerő gyártási technikus alkotja, akik mindegyike a három alapvető szakterület (vágás, hegesztés, szerelés) közül legalább kettőben képzett. A csapatvezető 16 éves tapasztalattal rendelkező szakember, a testreszabott egyedi gyártásoktól a tömeggyártási sorozatokig. Minden prototípushoz egy dedikált tervezőmérnököt rendelünk, aki a gyártási és vizsgálati folyamat során az ügyféllel való kapcsolattartás egyetlen pontja.</p>
+
+  <h2>Az ügyfél bevonása</h2>
+  <p>Kifejezetten ösztönözzük az ügyfeleket, hogy részt vegyenek a prototípus építésének fontos szakasaiban – különösen a kezdeti felszerelés értékelésében és a vízpróbában. Az Ön ezekben a szakaszokban adott üzleti visszajelzése különösen értékes a deszka gyártásba lépése előtti finomításához. Nem elszigetelve építünk; Önnel partnerségben dolgozunk.</p>
+  <p>A vízpróba programja arra is lehetőséget ad, hogy csapata megismerkedjen a deszka kezelésével és a karbantartási követelményekkel, biztosítva a zökkenőmentes átállást a gyártásra a végleges deszkák átvételekor.</p>
+
+cta:
+  title: 'Indítsa el prototípusprojektjét'
+  subtitle: 'Írja le, milyen deszkára van szüksége, és mi prototípusfejlesztési tervet javasolunk Önnek.'
+  actions:
+    - variant: primary
+      text: Lépjen kapcsolatba prototípizáló csapatunkkal
+      href: /hu/contact#project-brief
+    - text: Vissza az R&D központba
+      href: /hu/randdcenter

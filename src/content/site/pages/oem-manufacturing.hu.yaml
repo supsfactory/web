@@ -1,0 +1,164 @@
+meta:
+  title: 'Felfújható SUP OEM gyártó | Testreszabott eveződeszka-gyártás'
+  description: 'Felfújható SUP OEM gyártás: a meglévő kivitelt gyártjuk – mérnöki elemzés, 7–12 napos minták, 25–35 napos gyártás, CE/ISO/BSCI megfelelőség.'
+  dateModified: '2026-08-16'
+  keywords:
+    - 'oem sup gyártó'
+    - 'felfújható oem sup'
+    - 'testreszabott sup gyártás'
+    - 'sup gyár kínában'
+    - 'testreszabott eveződeszka gyár'
+
+hero:
+  tagline: OEM gyártás
+  title: 'Testreszabott SUP OEM gyártás – az Ön specifikációja, a mi gyárunk'
+  subtitle: 'Ön hozza a kivitelt, a rajzokat vagy egy jól validált platformot – mi konténer-skálán gyártjuk. Mérnöki elemzés egy munkanapon belül, 7–12 napos minták, 25–35 napos gyártás a megerősített megrendelés és előleg után, az Ön márkájában feladva.'
+
+answer:
+  label: 'Közvetlen válasz'
+  text: 'Az OEM gyártás az Ön specifikációjából indul ki. A MOQ-t a projekt konfigurációja erősíti meg, nem egy rögzített szám: a standard térfogatú gyártás 90–100 darab szállítmányonként, 150 m-es drop-stitch szövettekercsénként, a pilótaszállítmányok 20–50 darabtól indulnak meglévő platformokon, és minden projekt először átmegy a minta szakaszán (1–2 darab). A mintákat 7–12 nap alatt adjuk fel; a gyártás a megerősített megrendelés és előleg után 25–35 napot tart, új szerszámok szükségessége esetén további 15–20 nappal.'
+  verified: '2026. szeptember'
+
+features:
+  title: OEM képességek
+  subtitle: 'Minden, ami ahhoz szükséges, hogy a specifikációból, a rajzokból vagy egy meglévő platformból egy feladott konténer legyen.'
+  items:
+    - title: Gyártás az Ön specifikációja szerint
+      description: 'A rajzokat, méreteket, anyagminőségeket és grafikát úgy gyártjuk le, ahogy átadta őket – mérnökeink az ajánlat elküldése előtt megvalósíthatóság szempontjából elemzik a specifikációt.'
+      icon: 'tabler:file-check'
+    - title: Platform adaptálása
+      description: 'A validált gyártóplatformok adaptálhatók az Ön forma-, színspecifikáció-, szelepelrendezés- és tartozék-módosításaival – teljes formafejlesztés nélkül.'
+      icon: 'tabler:arrows-diff'
+    - title: Egyedi formák
+      description: 'Új deszkaformák az Ön rajzai vagy CAD-fájljai alapján – a tervezést és a forma mérnöki kialakítását belsőleg végezzük. A szerszámok 15–20 napot adnak hozzá a projekt határidejéhez.'
+      icon: 'tabler:shapes'
+    - title: Prototípus és minta
+      description: 'Minden térfogatszállítmány előtt legenerálunk és jóváhagyunk egy fizikai mintát, általában 7–12 nap alatt, új formáknál vízi próbával.'
+      icon: 'tabler:tools'
+    - title: Konténer-skálájú gyártás
+      description: 'Szállítmányonként 90–100 darab standard térfogatszállítmány egy kivitelre (egy teljes, 150 m-es szövettekercs), 20–50 darabos pilótaszállítmányok, 25–35 napos határidő a megerősített megrendelés után.'
+      icon: 'tabler:package'
+    - title: CE- és piacmegfelelőség
+      description: 'CE megfelelőségi dokumentáció az EU-piacra vonatkozó konfigurációkhoz – a hatókör minden projektnél megerősítésre kerül. Az ISO 9001, BSCI, REACH és RoHS dokumentáció előkészített arra a piacra, ahová Ön szállít.'
+      icon: 'tabler:certificate'
+    - title: Ellenőrzés és nyomon követhetőség
+      description: '18.0 PSI nyomáspróba 24 órás tartással, 0.50 PSI-nél nagyobb esésnél automatikus elutasítással, 100 pontos összeállítási ellenőrző lista és 10 éves ERP nyomon követhetőség a szállítmányokhoz.'
+      icon: 'tabler:shield-check'
+    - title: Globális logisztika
+      description: 'FOB Qingdao, CIF és DDP több mint 50 országba, exportcsomagolással és vámügyi eljárásokkal, amelyeket logisztikai csapatunk kezel.'
+      icon: 'tabler:world'
+
+customization:
+  tagline: Az Ön specifikációja szerint felépítve
+  title: 'Az OEM specifikációs pontjai'
+  subtitle: 'Ezek azok a specifikációs pontok, amelyeket Ön felügyel egy OEM projektben – az Ön specifikációs dokumentuma a gyártási szerződés:'
+  items:
+    - 'A deszka méretei – hosszúság, szélesség, vastagság, rocker és térfogat az Ön rajzai vagy a célzott sportolók alapján'
+    - 'Az anyagszerkezet – a PVC rétegszáma és minősége, a drop-stitch sűrűsége, merevítők és szín-megerősítések'
+    - 'Grafika és színek – az Ön grafikája korlátlan színpalettával alkalmazva, vagy a belső tervezőcsapatunk támogatásával'
+    - 'EVA csúszásgátló fedelem – méretre vágott hídfedelek, logók és hídszínek minden deszkán'
+    - 'Fogantyúk és D-gyűrűk – elhelyezkedés, darabszám és alkatrészspecifikáció az Ön felhasználási esetétől függően'
+    - 'Stabilizátorrendszerek – egy-, két- vagy háromstabilizátoros konfigurációk és stabilizátortartó a specifikáció szerint'
+    - 'Evezők, pumpák, kötelek és tartozékok – az Ön csomagja, az Ön márkázása'
+    - 'Csomagolás és kiskereskedelmi bemutató – kiskereskedelmi dobozok, vízálló szállítócsomagolás és értékesítési ponti displayek az Ön márkájában'
+    - 'Címkék és megfelelőségi jelölések – sorozatcímkék, logók és minden piac dokumentációja, az Ön exportrégiójára előkészítve'
+
+faq_section:
+  tagline: GYIK
+  title: Kérdések az OEM gyártásról
+  questions:
+    - q: Hogyan indíthatok OEM projektet saját kivitelemmel?
+      a: 'Küldje el a rajzokat, egy referencia-deszkát vagy egy írásos specifikációt. Mérnöki elemzésünk megerősíti a megvalósíthatóságot, és egy munkanapon belül ajánlatot ad vissza – ez a standard vállalásunk, és szükség esetén NDA-t írunk alá minden fáilcsere előtt.'
+    - q: Mi az MOQ a felfújható OEM SUP esetén?
+      a: 'A MOQ-t a projekt konfigurációja erősíti meg – a víztest és a szerszámok, a szín- és PVC-változatok, a grafika, a csomagolás és a tartozékok. A standard térfogatú gyártás 90–100 darab szállítmányonként (150 m-es drop-stitch tekercs), a pilótaszállítmányok pedig 20–50 darabtól indulnak meglévő platformokon. A teljes számítási logikát a MOQ és rugalmas márkázás útmutatónkban olvashatja.'
+    - q: Mi a szokásos határidő egy OEM megrendelésre?
+      a: 'A gyártás a megrendelés és az előleg megerősítésétől számított 25–35 napot tart. Az egyedi formafejlesztés további 15–20 napot ad a szerszámokhoz. A prototípusmintákat általában 7–12 nap alatt adjuk fel.'
+    - q: Kizárólag a meglévő rajzaimból tud gyártani?
+      a: 'Igen. Az OEM az Ön specifikációja szerint épít, ahogy van – Ön birtokolja a kivitelt. Mérnökeink megvalósíthatóság szempontjából elemzik a rajzokat, és a szerszámok elkészítése vagy a vágás megkezdése előtt jelzik az esetleges ütközéseket, a jóváhagyott minta pedig gyártási referenciává válik.'
+    - q: Kínálnak mintát a gyártás előtt?
+      a: 'Igen. Minden gyártási szállítmány előtt legenerálunk és jóváhagyunk egy fizikai mintát, általában 7–12 nap alatt, amely minden későbbi minőségellenőrzés referenciaértéke lesz.'
+    - q: Milyen tanúsításokkal rendelkezik a gyár?
+      a: 'ISO 9001:2015 minőségirányítási rendszer (gyárszinten), BSCI szociális megfelelőség (amfori telephelyaudit), CE megfelelőségi dokumentáció az EU-piacra vonatkozó konfigurációkhoz (a hatókör minden projektnél megerősítésre kerül), REACH (anyagok) és RoHS (elektronikus tartozékok). A teljes megfelelőségi dokumentációt minden OEM feladással együtt, az Ön célpiacaira előkészítve szolgáltatjuk ki.'
+    - q: Hogyan ellenőrzik a minőséget egy OEM szállítmányban?
+      a: 'A gyártás több ponton minőségellenőrzés mellett zajlik – beérkező anyagok, folyamat és végső ellenőrzés – 18.0 PSI nyomáspróbával, 24 órás tartással (automatikus elutasítás 0.50 PSI-nél nagyobb esésnél), 100 pontos összeállítási ellenőrző listával és 10 éves ERP nyomon követhetőséggel minden gyártási számra.'
+    - q: Milyen az Ön feladási feltételeik?
+      a: 'FOB Qingdao, CIF a fő globális kikötőkbe, vagy DDP minősített partnerek részére. Több mint 50 országba szállítunk, az EU, az USA, az Ausztrália és az ázsiai piacokra.'
+
+process:
+  title: Az OEM folyamat – a specifikációtól a feladott konténerig
+  subtitle: 'Hét ellenőrzött szakasz, amelyet a gyár egyetlen csapata vezet, így minden lépés – az első specifikációtól a becsomagolt konténerig – dokumentált és határidőn belül marad.'
+  steps:
+    - phase: '01'
+      title: Specifikációelemzés és ajánlat
+      period: 1 munkanap
+      items:
+        - 'Ossza meg a rajzokat, a specifikációt vagy a referencia-deszkákat – mérnökeink ellenőrzik a megvalósíthatóságot.'
+        - 'Egy munkanapon belül részletes ajánlatot és projekttervet kap.'
+    - phase: '02'
+      title: Mérnöki megerősítés
+      period: 1. hét
+      items:
+        - 'A víztest méretei, a drop-stitch minősége, a PVC specifikációk és a szín szerkezete megerősítésre kerülnek az Ön dokumentumához képest.'
+        - 'A forma- vagy platformdöntések rögzítésre kerülnek – itt kezdődnek az egyedi formázószerszámok, ha szükségesek.'
+    - phase: '03'
+      title: Prototípus és minta
+      period: 7–12 nap
+      items:
+        - 'Legyártunk egy fizikai mintát és megküldjük Önnek értékelésre – új formáknál vízi próbával.'
+        - 'A minta (1–2 darab) validálja a specifikációt bármilyen térfogati kötelezettségvállalás előtt.'
+    - phase: '04'
+      title: Tesztelés és validálás
+      period: Párhuzamosan
+      items:
+        - 'Lezárási, nyomástartási, varrásteherbírási, terhelési és UV-próbák minden gyártósoron.'
+        - 'A CE, ISO 9001, BSCI, REACH és RoHS dokumentáció előkészül az Ön exportpiacaira.'
+    - phase: '05'
+      title: Jóváhagyás és megerősítés
+      period: A minta aláírása után
+      items:
+        - 'Ön jóváhagyja a mintát és a grafikát; a megrendelés és az előleg rögzíti a gyártási kapacitást.'
+        - 'Az előkészítési terv megerősíti az adatokat, a mennyiségeket, a csomagolást és a berakodási kikötőt.'
+    - phase: '06'
+      title: Gyártás
+      period: 25–35 nap
+      items:
+        - 'A gyártás több ponton minőségellenőrzés mellett zajlik – beérkező anyagok, folyamat és végső ellenőrzés.'
+        - 'A 20–50 darabos meglévő platformon készült pilótamegrendelésektől a 150 m-es tekercsből származó teljes szállítmányokig (90–100+ darab) a standard térfogatú gyártásig.'
+    - phase: '07'
+      title: Csomagolás és feladás
+      period: 1 nap + szállítás
+      items:
+        - 'Exportcsomagolás modellenkénti sorozatcímkékkel, majd FOB Qingdao, CIF vagy DDP több mint 50 országba.'
+        - 'A vámdokumentáció, a nyomon követés és az ismétlődő megrendelések támogatása minden szakaszban része.'
+
+geo:
+  tagline: 'Kivel dolgozunk'
+  title: 'OEM partnerek a SUP iparágban'
+  sentence: 'Az iSupfactory minden OEM projektje olyan csapathoz tartozik, amely már készített deszkákat ugyanilyen típusú vállalkozásoknak – íme, kiket szolgálunk ki.'
+  audiences:
+    - 'SUP márkák'
+    - 'Outdoor és vizes sport társaságok'
+    - 'Forgalmazók és kiskereskedők'
+    - 'Üdülők, klubok és szervezetek'
+
+cta:
+  title: 'Készen áll a SUP sor beindítására?'
+  subtitle: 'Részletes OEM ajánlatot kap egy munkanapon belül – küldje el a specifikációt vagy a rajzokat.'
+  actions:
+    - variant: primary
+      text: Kérjen OEM ajánlatot
+      href: /hu/contact#custom-oem
+    - text: Ellenőrizze a gyárat és a minőségi rendszert
+      href: /hu/oem-trust-assurance
+    - text: A 7 lépéses ellenőrzési rendszer
+      href: /hu/quality
+    - text: MOQ és rugalmas márkázás útmutató
+      href: /hu/oem-moq-guide
+    - text: Az egyedi SUP MOQ-jának és határideinek részletei
+      href: /hu/sup-oem-moq-lead-time
+    - text: Indítson új márkát próbarendeléssel
+      href: /hu/new-brand-trial-order
+    - text: A SUP szerkezetek összehasonlítása
+      href: /hu/sup-construction-comparison
+    - text: SUP megfelelőség piaconként
+      href: /hu/sup-compliance-by-market

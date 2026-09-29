@@ -1,0 +1,108 @@
+meta:
+  title: 'SUP termékfejlesztés – Testreszabott design, prototípus és gyártás'
+  description: 'A SUP termékfejlesztés a koncepttől a kiszállításig: specifikációk, mérnökség, prototípuskészítés, tesztelés, szerszámkészítés és tömeggyártás egy dedikált SUP gyárban.'
+  dateModified: '2026-08-10'
+  keywords:
+    - 'sup termékfejlesztés'
+    - 'sup prototípus fejlesztés'
+    - 'testreszabott sup design'
+    - 'sup termékmérnökség'
+    - 'felfújható sup prototípuskészítés'
+
+hero:
+  tagline: Termékfejlesztés
+  title: 'Testreszabott SUP termékfejlesztés, a koncepttől a konténerig'
+  subtitle: 'Hat szakasz alakítja az Ön termékötletét gyártásra kész SUP deszkává – specifikációk, mérnökség, prototípuskészítés, tesztelés, szerszámkészítés és tömeggyártás, mindez egyetlen gyárban, egyetlen felelős minőségi rendszerrel.'
+
+answer:
+  label: 'Közvetlen válasz'
+  text: 'A SUP termékfejlesztés az iSupfactory-nál hat szakaszból áll – termékspecifikáció, szerkezeti mérnökség, prototípusminta, tesztelés és validálás, testreszabott szerszámkészítés, valamint tömeggyártás. Az első fizikai minta 7–12 nap alatt kerül feladásra a specifikációk jóváhagyása után; a gyártás a megrendelés és az előleg megerősítése után 25–35 napot tart; az új szerszámok fejlesztése további 15–20 napot ad hozzá.'
+  verified: '2026. szeptember'
+
+stages:
+  title: 'A SUP termékfejlesztés hat szakasza'
+  subtitle: 'Minden szakaszhoz egyértelmű eredmény tartozik, hogy mindig tudja, hol tart a projekt – és mi következik.'
+  items:
+    - title: '1. Ötlet és termékspecifikáció'
+      description: 'A deszka geometriája, az evező súlytartománya, a térfogat, a szerkezeti célok és a tartozékcsomag. Egy referencia-deszka, egy vázlat vagy egy versenytárs specifikációi már elegendők a kezdéshez.'
+      icon: 'tabler:bulb'
+    - title: '2. Mérnökség és 3D tervezés'
+      description: 'Szerkezeti mérnökség, a drop-stitch vastagság és a PVC típusának kiválasztása, valamint gyárthatósági elemzés és ajánlat – egy munkanapon belül visszaadva.'
+      icon: 'tabler:blueprint'
+    - title: '3. Prototípusminta'
+      description: 'Az Ön első fizikai mintája 7–12 nap alatt kerül feladásra, kísérő jóváhagyási jegyzőkönyvvel, amely lefedi a szerkezetet, a nyomtatási színeket és a nyomáspróba eredményét.'
+      icon: 'tabler:tools'
+    - title: '4. Tesztelés és validálás'
+      description: 'Nyomástartási próba, varrásteherbírás és méretellenőrzések a jóváhagyott mintához képest, a CE és REACH dokumentáció előkészítve az Ön célpiacaira.'
+      icon: 'tabler:test-pipe'
+    - title: '5. Szerszámkészítés és tömeggyártás'
+      description: 'A testreszabott szerszámok fejlesztése 15–20 nap alatt, amikor szükséges; a gyártás 25–35 napot tart, folyamat közbeni minőségellenőrzési pontokkal és szállítmányszintű nyomon követhetőséggel.'
+      icon: 'tabler:settings'
+    - title: '6. Kiszállítás és fokozás'
+      description: 'FOB, CIF vagy DDP logisztika több mint 50 országba – majd ismétlődő megrendelések a kijelölt soron, állandó határideőkkel és jóváhagyott grafikai elemekkel, amelyeket fájljainkban őrzünk.'
+      icon: 'tabler:truck-delivery'
+
+why_inhouse:
+  title: 'Miért jobb a gyárban végzett fejlesztés, mint egy közvetítő'
+  subtitle: 'A gyártócsarnokon belül végzett fejlesztőmunka megváltoztatja, mit kap az egyes szakaszokban.'
+  items:
+    - title: 'Nincs hézag a projekt átadásában'
+      description: 'A mérnöki és tervezőcsapat ugyanabban a csarnokban dolgozik, mint a hegesztősor – egy rajzmódosítás ugyanabban a hétben eljut a gyártásba, nem egy hosszú értékesítési körút után.'
+      icon: 'tabler:handshake'
+    - title: 'Olyan minták, amelyek megfelelnek a gyártásnak'
+      description: 'A mintagyártás és a tömeggyártás ugyanazokat a gépeket, anyagokat és minőségellenőrzési pontokat használja, így a jóváhagyott minta pontosan az, amit egy konténernyi térfogatnál kap.'
+      icon: 'tabler:stack-2'
+    - title: 'Mérnökség, amely nem ad el felesleges dolgokat'
+      description: 'A döntések a célköltség, a súly és a tartósság alapján születnek – nem a felülnyeresési marzsem miatt, mert ez egy gyár, és egyetlen bevételi forrása a gyártás.'
+      icon: 'tabler:scale'
+    - title: 'A titoktartás mint állandó kötelezettség'
+      description: 'Minden fáilcsere előtt NDA-t írunk alá, és a grafikai elemek, a szerszámok és a specifikációs fájlok az Ön tulajdonában maradnak – soha nem újrahasznosítva, újra eladva vagy másik ügyfélnek bemutatva.'
+      icon: 'tabler:lock'
+
+buyer_guides:
+  tagline: "Vásárlói útmutatók"
+  title: 'A teljes beszerzési könyvtár'
+  subtitle: 'Egy testreszabott SUP projekt minden szakasza, megmagyarázva a mi valós határidőinkkel, feltételeinkkel és dokumentumainkkal.'
+  items:
+    - title: 'Private label: a teljes útmutató lépésről lépésre'
+      body: 'A gyár kiválasztásától a kiszállított konténerig – a hat lépésből álló teljes út az új márkák számára.'
+      href: '/hu/news/private-label-sup-guide'
+    - title: 'Hogyan válasszon SUP OEM gyártót'
+      body: 'Azok az auditkérdések, amelyek elválasztják a valódi gyárat a közvetítőtől: tanúsítások, minőségellenőrzés, minták és tulajdonjog.'
+      href: '/hu/news/how-to-choose-sup-oem-manufacturer'
+    - title: 'A SUP termékfejlesztés határideje'
+      body: 'Minta 7–12 nap alatt, gyártás 25–35 nap alatt, szerszámkészítés további 15–20 nap – a teljes naptár szakaszonként.'
+      href: '/hu/news/custom-sup-development-timeline'
+    - title: 'Mire van szükség a megrendelés előtti előkészítéshez'
+      body: 'Az öt részlet, amely lehetővé teszi, hogy a gyár már az első értékeléskor pontos árat adjon – és elkerülje a specifikációk utómunkáját.'
+      href: '/hu/news/info-needed-before-sup-production'
+    - title: 'MOQ és OEM árak a SUP-khez'
+      body: 'A MOQ szintek a minta (1–2), pilóta (20–50) és térfogati (90–100+ 150 m-es tekercsenként) szakaszokhoz, a hat költségtényező és az öt módszer arra, hogyan csökkenthetők a költségek a minőség sérelme nélkül.'
+      href: '/hu/news/sup-oem-moq-pricing'
+    - title: 'Felfújható SUP-k CE-tanúsítása'
+      body: 'Mit jelent valójában a CE-jelölés, melyik öt dokumentumot kell kérnie, és hogyan ellenőrizheti, hogy egy tanúsítvány említi-e az Ön modelljét.'
+      href: '/hu/news/ce-certification-inflatable-sup'
+    - title: 'Feladás: FOB, CIF vagy DDP'
+      body: 'Mit tartalmaz és mit költség egy-egy Incoterm, a 4–6 hetes tengeri szállítási határidő, és az üzleti modelljéhez illő záradék.'
+      href: '/hu/news/private-label-sup-oem-guide'
+
+faq_section:
+  tagline: Gyakori kérdések
+  title: 'Gyakori kérdések a SUP fejlesztésről'
+  questions:
+    - q: Ki tudnak fejleszteni egy SUP terméket egy ötletből?
+      a: 'Igen. A teljes utat támogatjuk a termékspecifikációtól és a mérnökségtől a prototípus fejlesztésén, a testreszabáson és a tömeggyártáson át, az Ön követelményei alapján. Egy vázlat, egy referencia-deszka vagy akár egy versenytárs specifikációi már elegendők a mérnöki értékelés megkezdéséhez.'
+    - q: Mennyibe kerül a SUP termékfejlesztés?
+      a: 'A specifikációértékelés és a mérnöki elemzés ingyenes, és egy munkanapon belül visszaadjuk. A prototípusminta árát projektenként adjuk meg a specifikációk rögzítése után; a gyártás ára az alapanyagoktól, a térfogattól és a testreszabott szerszámok szükségességétől függ.'
+    - q: Meddig tart a SUP termékfejlesztés?
+      a: 'Az első minta 7–12 nap alatt kerül feladásra a specifikációk jóváhagyása után, minden felülvizsgálati körben 3–7 nappal. A gyártás a kötelező megrendelés és az előleg után 25–35 napot tart. A testreszabott szerszámok fejlesztése az elején további 15–20 napot ad, a tengeri szállítás pedig a legtöbb célállomásra további 4–6 hétet.'
+    - q: Mi jön először – a minta vagy a gyártás?
+      a: 'Mindig a minta. Bármilyen gyártási sor megkezdése előtt fizikai prototípust gyártunk, mérünk és jóváhagyunk a specifikációhoz képest. Jóváhagyatlan projektekért nem végzünk tömeggyártást.'
+    - q: Aláírnak-e NDA-t a termékfejlesztéshez?
+      a: 'Igen. NDA-t írunk alá minden fáilcsere előtt, és az Ön rajzai, grafikai elemei és szerszámai a fejlesztés és a gyártás teljes ideje alatt az Ön tulajdonában maradnak.'
+    - q: Meg tudják-e védeni a SUP designomat és specifikációimat?
+      a: 'Az ügyfelek designjait, specifikációit és termékkoncepcióit a fejlesztés és a gyártás ideje alatt titoktartással kezeljük. A szerszámfájlokat soha nem hasznosítjuk újra, adjuk el vagy mutatjuk be másik ügyfélnek.'
+
+cta:
+  title: 'Indítsa el az Ön SUP termékprojektjét'
+  subtitle: 'Küldjön egy vázlatot, egy referencia-deszkát vagy specifikációkat – a mérnöki értékelést és az ajánlatot egy munkanapon belül adjuk vissza.'

@@ -1,0 +1,103 @@
+meta:
+  title: 'OEM vásárlói útmutató: SUP deszkák beszerzése Ázsiából | iSupfactory'
+  description: 'Felfújható SUP deszkák beszerzése Ázsiából: gyáraudit ellenőrzőlista, minőségi ellenőrzési protokollok, megfelelőség, MOQ-tárgyalás, szállítási feltételek és a kerülendő csapdák.'
+  author: 'iSupfactory'
+  datePublished: '2026-08-04'
+  dateModified: '2026-08-07'
+back_text: 'Vissza a kutatáshoz'
+
+hero:
+  tagline: 'Beszerzés'
+  title: 'OEM vásárlói útmutató – felfújható SUP deszkák beszerzése Ázsiából'
+  subtitle: '12 perc olvasás'
+
+answer:
+  label: 'Közvetlen válasz'
+  text: 'A minimális rendelési mennyiséget a projekt konfigurációja határozza meg, nem egy fix szám: a minta fejlesztése (1–2 darab) validálja a szerkezetet, a pilóta rendelések (20–50 darab) tesztelik a piicot meglévő platformokon, a standard tömeggyártás 90–100+ darabot gyárt szállítmányonként egy teljes, 150 m-es drop-stitch tekercsből, a kis sorozatú co-branding pedig 5–10 darabnál indul. A mintákat 7–12 nap alatt szállítjuk ki; a tömeggyártás a megrendelés és az előleg megerősítése után 25–35 napot tart, új szerszám szükségessége esetén további 15–20 nappal.'
+  verified: '2026. szeptember'
+
+content_html: |
+  <h2>1. Előminősítés: mit ellenőrizzen egy gyárban</h2>
+
+  <h3>Megfelelőségi tanúsítványok</h3>
+  <ul>
+    <li><strong>ISO 9001:2015</strong> – Minőségirányítási rendszer</li>
+    <li><strong>CE-tanúsítás</strong> – Ellenőrizze a bejelentett szervezet számát</li>
+    <li><strong>BSCI / SMETA / SEDEX</strong> – Szociális megfelelőségi auditok</li>
+    <li><strong>REACH / RoHS</strong> – Alapanyag-megfelelőségi nyilatkozatok</li>
+  </ul>
+
+  <h3>Gyártási képességek</h3>
+  <ul>
+    <li>A drop-stitch mag szövete saját vagy alvállalkozói gyártásban</li>
+    <li>PVC bevonó / lamináló sor</li>
+    <li>RF hegesztő és meleglevegős hegesztő berendezések</li>
+    <li>Szerszámkészítés a gyárban (CNC megmunkálás)</li>
+    <li>Vizsgálólaboratórium (nyomáspróba, UV-öregítés, szakítási próba)</li>
+  </ul>
+
+  <h3>A tapasztalat ellenőrzése</h3>
+  <ul>
+    <li>Évek a felfújható csónakgyártásban (legalább 5 év)</li>
+    <li>A műszaki állományban lévő mérnökök száma</li>
+    <li>Meglévő OEM/ODM ügyfelek (kérjen referenciát)</li>
+    <li>Exportcélok – szállítanak már az Ön célpiacára?</li>
+  </ul>
+
+  <h2>2. Minőségi ellenőrzési protokollok</h2>
+  <p>Minőségi ellenőrzés az alapanyagok átvételekor: szakítási szilárdság (ASTM D751 vagy ISO 1421), szakadási szilárdság (ASTM D2261 vagy ISO 4674), tapadási szilárdság, UV-öregítés eseti ellenőrzései.</p>
+  <p>Minőségi ellenőrzés folyamat közben: a varratszilárdság ellenőrzése 50 darabonként, a szelepek meghúzási nyomatékának ellenőrzése, a drop-stitch szálsűrűség ellenőrzése, méretellenőrzések a CAD rajzokhoz képest.</p>
+  <p>Végső vizsgálat: 100%-os nyomástartási próba (24 óra, legfeljebb 0.50 PSI esés), vizuális vizsgálat, szelepműködési próba, véletlenszerű mintavételes vizsgálat (AQL 2.5 vagy 4.0 az ISO 2859 szerint).</p>
+
+  <h2>3. Megfelelőségi dokumentáció ellenőrzőlistája</h2>
+  <ul>
+    <li>Megfelelőségi nyilatkozat (DoC), amely a megfelelő EU-irányelvre hivatkozik</li>
+    <li>A bejelentett szervezet által kiállított CE-tanúsítvány</li>
+    <li>Vizsgálati jelentés akkreditált laboratóriumból</li>
+    <li>Anyagbiztonsági adatlapok (MSDS)</li>
+    <li>REACH-megfelelőségi nyilatkozat</li>
+    <li>Alapanyaglista (Bill of Materials) a beszállítók nyomon követhetőségével</li>
+    <li>Gyárvizsgálati jelentés</li>
+  </ul>
+
+  <h2>4. Az MOQ tárgyalása</h2>
+  <p>A felfújható SUP deszkák MOQ-ját a gyártási útvonal és a projekt konfigurációja határozza meg, nem feltételezések. A Vatrad valamennyi OEM/ODM projektje három külön mennyiségi szakaszon megy keresztül – minta, pilóta és tömeg –, a teljes számítási logikát pedig az <a href="/hu/oem-moq-guide">MOQ útmutató és a rugalmas márkázás</a> ismerteti:</p>
+  <table class="w-full text-sm border-collapse">
+    <thead>
+      <tr class="bg-gray-100">
+        <th class="p-3 text-left font-semibold text-gray-900 border">Gyártási útvonal</th>
+        <th class="p-3 text-left font-semibold text-gray-900 border">MOQ</th>
+        <th class="p-3 text-left font-semibold text-gray-900 border">Határidő</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td class="p-3 border font-medium">Minta fejlesztése (saját design)</td><td class="p-3 border">1 – 2 darab</td><td class="p-3 border">Minták 7 – 12 nap alatt</td></tr>
+      <tr><td class="p-3 border font-medium">Pilóta rendelés (meglévő platformok)</td><td class="p-3 border">20 – 50 darab</td><td class="p-3 border">Piacvalidáció raktáron lévő alapanyaggal</td></tr>
+      <tr><td class="p-3 border font-medium">Standard tömegszállítmány (saját design)</td><td class="p-3 border">90 – 100+ darab</td><td class="p-3 border">25 – 35 nap a megrendelés és az előleg után</td></tr>
+      <tr><td class="p-3 border font-medium">Teljesen testreszabott szerszám / private label</td><td class="p-3 border">A projekt konfigurációja szerint</td><td class="p-3 border">További 15 – 20 nap a szerszámra</td></tr>
+    </tbody>
+  </table>
+  <p>A minta, a pilóta és a tömeg mennyiségei eltérnek: a minta fejlesztése (1–2 darab) validálja a szerkezetet, a pilóta rendelések (20–50 darab) tesztelik a piicot meglévő platformokon, a standard tömeggyártás pedig 90–100+ darabot gyárt szállítmányonként egy teljes, 150 m-es drop-stitch tekercsből — a megrendelt mennyiség növekedésével töményarákat alkalmazva. Kérjen írásban MOQ-számítást, szállítási határidőt és fizetési feltételeket az Ön deszkamodelljéhez, mielőtt beszállítót választ.</p>
+
+  <h2>5. Logisztika és szállítás</h2>
+  <p>Szokásos Incoterm-ek: <strong>FOB</strong> (a gyár a kikötőbe szállít – ez a leggyakoribb), <strong>EXW</strong> (a vásárló szervezi a teljes szállítást a gyár kapujától), <strong>CIF</strong> (a gyár fizeti a szállítást és a biztosítást a rendeltetési kikötőig).</p>
+  <p>A felfújható termékek kis súlyúak és nagy térfogatúak – a szállítási költséget gyakran a térfogatsúly (DIM) határozza meg. Kérjen vákuumcsomagolást a térfogat 50–60%-os csökkentéséhez. A kínai tengeri szállítás az EU-ba szokásosan 25–35 napot tart, az Egyesült Államok nyugati partvidékére 7–12 napot – amihez hozzáadódik a 25–35 napos gyártási határidő.</p>
+
+  <h2>6. Szokásos csapdák</h2>
+  <ul>
+    <li><strong>Gyáraudit nélkül:</strong> mindig végeztessen független auditot (QIMA, SGS, Bureau Veritas)</li>
+    <li><strong>Csak szóbeli specifikáció:</strong> részletes, mindkét fél által aláírt műszaki specifikációs lap</li>
+    <li><strong>A minta jóváhagyásának kihagyása:</strong> írásos aláírás a mintán a tömeggyártás előtt</li>
+    <li><strong>Minőségi ellenőrzés nélkül a gyártás közben:</strong> független vizsgálat a gyártás közben (DUPRO) és kiszállítás előtt (PSI)</li>
+    <li><strong>A megfelelőség figyelmen kívül hagyása:</strong> ellenőrizze a CE-jelölést (2013/53/UE irányelv) és a piac-specifikus dokumentációt a gyártás előtt</li>
+  </ul>
+
+  <h2>7. Miért a Vatrad</h2>
+  <p>A Vatrad 2012 óta gyárt OEM/ODM felfújható SUP deszkákat. 12,500 m&sup2;-es, ISO 9001 tanúsított létesítményünkkel, 25+ mérnökünkkel és az EU-piacokra szánt modellek CE-tanúsításával (a hatókör projektenként megerősítve) minden feltételnek megfelelünk ebben az útmutatóban. Próbamennyiségű MOQ-kat kínálunk új partnereknek, és teljes megfelelőségi dokumentációs csomagokat biztosítunk.</p>
+  <p>Tekintse meg <a href="/hu/oem-manufacturing">felfújható SUP deszkák OEM/ODM gyártási szolgáltatásainkat</a>, vagy látogassa meg <a href="/hu/factory">a 12,500 m&sup2;-es gyártócsarnokot</a>, hogy lássa a fent leírt minden lépés mögött álló berendezéseket és minőségi ellenőrzési folyamatokat.</p>
+
+cta:
+  title: 'Készen áll a beszerzés megkezdésére?'
+  subtitle: 'Lépjen kapcsolatba OEM csapatunkkal, hogy megbeszéljük az Ön projektkövetelményeit.'
+  button_text: 'Kérjen ajánlatot'
+  button_link: /hu/contact

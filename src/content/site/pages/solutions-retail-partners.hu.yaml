@@ -1,0 +1,104 @@
+meta:
+  title: 'Testreszabott és private label SUP deszka-gyártás kiskereskedőknek | {SITE}'
+  description: 'Testreszabott és private label SUP deszka-gyártás kiskereskedelmi márkák számára: deszkaspecifikációk, márka grafika, csökkentett próba-MOQ és gyári minőségi ellenőrzés – a mintától a tömeggyártásig.'
+  dateModified: '2026-08'
+
+hero:
+  tagline: Kiskereskedelmi márkák
+  title: 'Testreszabott SUP deszka-gyártás a kiskereskedelmi márkák számára'
+  subtitle: 'A kiskereskedelmi márkák a gyárunkkal együtt vezetik be saját eveződeszka-sorukat: az Ön igényeiből kiinduló fejlesztett deszkaspecifikációk, az Ön márkája a terméken, és a teljes termelés során kezelt minőségi ellenőrzés.'
+  image:
+    src: https://assets.isupfactory.com/images/sups/products/sup-series/sup-ocean-voyager-1.webp
+    alt: Kiskereskedelmi márká számára gyártott Vatrad SUP deszkák
+
+answer:
+  label: 'Közvetlen válasz'
+  text: 'Az MOQ-t a projekt konfigurációja határozza meg: a kiskereskedelmi márkák egy mintával (1–2 darab) vagy egy pilóta szállítmánnyal (20–50 darab, minták 7–12 nap alatt) indulnak, majd 90–100+ darab modellenkénti standard OEM tömeggyártásra (25–35 nap a megrendelés és az előleg után) lépnek, vagy teljesen egyedi sorokhoz testreszabott szerszámot vásárolnak (a szerszám további 15–20 napot ad hozzá). Minden deszkát kiszállítás előtt nyomáspróbázunk, a qingdaói FOB, CIF vagy DDP feltételekkel.'
+  verified: '2026. szeptember'
+
+margin_section:
+  title: 'A gyártás szakaszai a kiskereskedelmi márkák számára'
+  subtitle: 'Induljon mintával, végezzen pilótát a validáláshoz, skálázza standard tömeggyártásra, vagy fektessen be testreszabott szerszámba – az MOQ-t és a határidőket a gyártási útvonal határozza meg, nem feltételezések.'
+  items:
+    - tier: 'Mintaszakasz'
+      moq: '1–2 darab'
+      margin_note: 'Minták 7–12 nap alatt'
+      features:
+        - 'A grafika fejlesztése az Ön márkaanyagai alapján'
+        - 'Fizikai minta jóváhagyásra'
+        - 'Minőségi ellenőrzés a standard platformon'
+    - tier: 'Pílótaszakasz'
+      moq: '20–50 darab'
+      margin_note: 'Piacvalidáció raktáron lévő platformokon'
+      features:
+        - 'Grafika a teljes deszkán, logó és EVA elhelyezés'
+        - 'Ugyanazok a bizonyított platformok'
+        - 'Exportdokumentáció mellékelve'
+    - tier: 'Testreszabott szerszám'
+      moq: 'A projekt konfigurációja szerint'
+      margin_note: 'A szerszám további 15–20 napot ad hozzá'
+      features:
+        - 'Új deszkaforma és szerszámfejlesztés'
+        - 'Teljes ellenőrzés a specifikációk felett'
+        - 'Elsőbbségi gyártókapacitás-elosztás'
+
+product_line:
+  title: 'Teljes termékvonal'
+  subtitle: 'Egy gyártási platform az üzletének minden szegmenséhez.'
+  items:
+    - name: All-Round sorozat
+      description: 'Sokoldalú forma – a leggyakrabban választott indulási platform'
+    - name: Touring sorozat
+      description: 'Mozgékony héj hosszú távú evezéshez'
+    - name: Yoga sorozat
+      description: 'Széles, stabil platform a wellness szegmenshez'
+    - name: Kids sorozat
+      description: 'Rövid és könnyű deszkák a fiatalabb evezőknek'
+    - name: Racing sorozat
+      description: 'Gyors héj a rajongói szegmenshez'
+    - name: Tartozékok
+      description: 'Evezők, mentőmellények, pumpák és hátizsákok a választék kiegészítésére'
+
+catalog:
+  title: 'Források a kiskereskedelmi partnerek számára'
+  subtitle: 'Specifikációk, rendelési részletek és termékdokumentáció.'
+  items:
+    - name: '2026-os termékkatalógus'
+      desc: 'A teljes választék specifikációkkal és rendelési információval'
+      icon: 'tabler:file-text'
+      link: '/hu/products'
+    - name: 'Kiskereskedelmi partner útmutató'
+      desc: 'Specifikációs útmutató, rendelési folyamat és minőségi ellenőrzési standardok'
+      icon: 'tabler:book'
+      link: '/hu/products'
+    - name: 'Termék- és technikai anyagok'
+      desc: 'Nagy felbontású termékfotos, környezetképek és technikai dokumentáció'
+      icon: 'tabler:photo'
+      link: '/hu/products'
+
+support:
+  title: 'Gyártási támogatás'
+  subtitle: 'Mit nyújt Önnek a gyártási partner a megrendelés körül.'
+  items:
+    - 'Fizikai minta a tömeggyártás előtt'
+    - 'Toleranciák és minőségi ellenőrzés: minden deszkát kiszállítás előtt nyomáspróbázunk'
+    - 'Műszaki támogatás a specifikációkhoz – formák, grafika, EVA elhelyezés, tartozékok'
+    - '25–35 napos tömeggyártási határidő a megrendelés megerősítése után'
+    - 'Pótalkatrészek és javítási útmutató az Ön ügyfelei számára'
+    - 'Export és dokumentáció: FOB/CIF/DDP a qingdaói gyárból'
+
+content_html: |
+  <div class="mx-auto max-w-3xl space-y-4 rounded-2xl border bg-card p-6 text-[14.5px] leading-relaxed text-fg-2">
+    <p><strong>Folytassa az olvasást:</strong> tekintse meg <a href="/hu/oem-manufacturing">a teljes OEM/ODM gyártási programunkat</a> — projektenként megerősített MOQ-k a minta, pilóta és tömeg szakaszokon, private-label márkázás és CE-megfelelőség — vagy olvassa el az <a href="/hu/oem-moq-guide">MOQ útmutatót és a rugalmas márkázást</a>, illetve látogassa meg a <a href="/hu/factory">gyárat</a>, hogy lássa, hogyan működik a kiskereskedelésre orientált minőségi ellenőrzés.</p>
+  </div>
+
+cta:
+  title: 'Beszéljük meg a kiskereskedelmi termékvonalát'
+  subtitle: 'Küldje el az igényeit – csapatunk 1 munkanapon belül válaszol.'
+  actions:
+    - text: 'Küldje el az igényeit'
+      href: '/hu/contact'
+      variant: 'primary'
+    - text: 'Tekintse meg a termékplatformokat'
+      href: '/hu/products'
+      variant: 'secondary'

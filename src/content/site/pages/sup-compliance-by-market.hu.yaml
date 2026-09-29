@@ -1,0 +1,100 @@
+meta:
+  title: 'SUP-megfelelőség piaconként – CE, REACH, RoHS, BSCI, ISO 9001 követelmények | iSupfactory'
+  description: 'Megfelelőségi útmutató a felfújható SUP deszkákhoz piaconként: CE (EU), CPSIA (USA), AS/NZS (AU), ISO 9001, BSCI, REACH és RoHS – hatókör és dokumentumok minden piachoz.'
+  dateModified: '2026-08-21'
+  keywords:
+    - 'sup megfelelőség piaconként'
+    - 'sup ce tanúsítás'
+    - 'felfújható sup szabályozások'
+    - 'sup reach megfelelőség'
+    - 'sup rohs megfelelőség'
+    - 'sup bsci gyáraudit'
+    - 'iso 9001 sup gyártó'
+
+hero:
+  tagline: 'Megfelelőségi útmutató'
+  title: 'A SUP megfelelősége piaconként'
+  subtitle: 'Minden célpiacnak saját tanúsítási, címkézési és dokumentációs követelményei vannak. Ez az útmutató feltérképezi a megfelelőségi környezetet a felfújható SUP deszkákra a fő piacokon – EU, Észak-Amerika, Ausztrália és azon túl –, hogy az ajánlatkéréskor a megfelelő hatóköröt specifikálja, ne csak a gyártás után.'
+
+answer:
+  label: 'Gyors válasz'
+  text: 'Az EU-ban: a CE-jelölés kötelező az Európai Gazdasági Térségben értékesített deszkákhoz – mi az EU-piacokra szánt modelleket tanúsítjuk, projektenként megerősített hatókörrel. Az USA-ban: a CPSIA és az állami VOC-szabályozások érvényesek. Ausztráliában: AS/NZS 1586 megfelelés. Minden piacon: az ISO 9001 (gyár), a BSCI (szociális audit), a REACH és a RoHS (alapanyagok) standard részei a gyártásunknak, azonos rendeltetési helytől függetlenül. A megfelelőségi hatókört és a költségeket részletesen, tételekre bontva adjuk meg az ajánlatban – nincsenek meglepetések a gyártás után.'
+  verified: '2026. szeptember'
+
+market_cards:
+  tagline: 'Regionális követelmények'
+  title: 'Megfelelőségi követelmények a célpiacon'
+  subtitle: 'A tanúsítási hatókört a megvalósíthatósági elemzés szakaszában erősítjük meg projektenként. Az alábbiak a piaconkénti jellemző követelmények.'
+  grid: 'sm:grid-cols-2 lg:grid-cols-4'
+  features:
+    - icon: EU
+      icon_bg: blue
+      title: 'Európai Unió'
+      desc: 'A CE-jelölés kötelező. REACH (vegyi biztonság), RoHS (korlátozott anyagok), ISO 9001 gyári tanúsítás. Termékspecifikus terhelések, a PPE-irányelv vagy a szórakozóhajó-irányelv szerint, adott esetben. Címkézés a rendeltetési ország hivatalos nyelvén. BSCI szociális audit elérhető.'
+    - icon: US
+      icon_bg: green
+      title: 'Egyesült Államok'
+      desc: 'CPSIA-megfelelőség (fogyasztói termékbiztonság). California Prop 65 és az állami VOC-kibocsátási szabályozások a PVC és a ragasztók esetén. Nincs szövetségi CE-egyenérték. ASTM terhelések kérésre elérhetők. FTC címkézési követelmények az eredeti országra és az alapanyagok tartalmára.'
+    - icon: AU
+      icon_bg: purple
+      title: 'Ausztrália és Új-Zéland'
+      desc: 'AS/NZS 1586 a felfújható csónakokra. Az ausztráliai fogyasztóvédelmi törvény garanciái. Importdokumentáció és megfelelőségi értékelés az Australian Border Force követelményei szerint. A REACH-nek megfelelő vegyi biztonsági dokumentáció. BSCI szociális audit elérhető.'
+    - icon: GL
+      icon_bg: orange
+      title: 'Globális / Többpiaci'
+      desc: 'ISO 9001:2015 gyári tanúsítás (éves auditált). BSCI szociális megfelelőségi audit. REACH és RoHS alapanyag-megfelelőség a teljes gyártásban, azonos rendeltetési helytől függetlenül. Szállítmányszintű nyomon követhetőség és próbajelentések minden piachoz elérhetők. Projektenként megerősített, testreszabott tanúsítási hatókör.'
+
+certifications_detail:
+  heading: 'Tanúsítási hatókörünk'
+  body: |
+    A következő tanúsításokat birtokoljuk vagy elérhetők a gyártásunkban. Az Ön projektjére alkalmazandó tanúsítási hatókört a megvalósíthatósági elemzés szakaszában erősítjük meg, és tételekre bontva adjuk meg az ajánlatban.
+
+    - **ISO 9001:2015** — A gyár minőségirányítási rendszere, évente auditálva egy akkreditált harmadik fél által. A teljes gyártási folyamatot lefedi, az alapanyagok átvételi vizsgálatától a végső csomagolásig.
+    - **CE-jelölés** – Az EU-piacokra szánt modellekre alkalmazva. A terhelések és a dokumentáció az alkalmazandó EU-irányelv szerint. A hatókör projektenként megerősített – nem minden modellhez ugyanaz a CE-hatókör szükséges.
+    - **BSCI** — Az Üzleti Szociális Megfelelési Kezdeményezés auditja. Lefedi a munkajogokat, a munkahelyi biztonságot, a környezeti megfelelőséget és az üzleti etikát. Minden piachoz elérhető.
+    - **REACH** — Az EU vegyi biztonsági rendelete. A PVC, a ragasztó és a bevonat valamennyi alapanyaga megfelel a REACH-nek. Az anyagdokumentáció és a próbajelentések szállítmányonként elérhetők.
+    - **RoHS** — A veszélyes anyagok korlátozásáról szóló irányelv. Minden elektronikus tartozék (motoros pumpa, LED-tartozékok) megfelel a RoHS-nek. A deszka alapanyagai eleve megfelelnek a követelményeknek.
+
+compliance_process:
+  tagline: 'Hogyan működik a megfelelőség az Ön megrendelésében'
+  title: 'A megfelelőség az integrációs folyamatban'
+  subtitle: 'A megfelelőség nem utólag hozzáadott elem – az integrációs folyamat minden szakaszába be van ágyazva.'
+  grid: 'sm:grid-cols-2 lg:grid-cols-3'
+  features:
+    - icon: 1
+      icon_bg: blue
+      title: '1. szakasz: a hatókör megerősítése'
+      desc: 'Megkereséskor adja meg a célpiacokat. Mi megerősítjük, hogy mely tanúsítások, vizsgálatok és dokumentumok vonatkoznak az Ön konkrét termékére és rendeltetési helyére. A megfelelőségi hatókört és a kapcsolódó költségeket tételekre bontva adjuk meg az ajánlatban.'
+    - icon: 2
+      icon_bg: green
+      title: '3. szakasz: a minták tanúsítása'
+      desc: 'A mintákat a megerősített megfelelőségi hatókör szerint gyártjuk. Ha független laboratóriumi vizsgálatokra van szükség (CE, CPSIA, AS/NZS), a vizsgálatokat akkreditált laboratóriumokon keresztül koordináljuk. A próbajelentéseket a mintával együtt adjuk át.'
+    - icon: 3
+      icon_bg: purple
+      title: '7. szakasz: a dokumentációs csomag'
+      desc: 'Minden gyártási megrendelést megfelelőségi dokumentációs csomaggal adunk fel: megfelelőségi tanúsítványok, próbajelentések, szállítmányszintű nyomon követési nyilvántartások, anyagbiztonsági adatok és a címkézés megfelelősége. A dokumentáció piaconként eltérő.'
+
+faqs:
+  tagline: GYIK
+  title: 'SUP-megfelelőség – gyakori kérdések'
+  items:
+    - q: 'Minden SUP deszkához szükséges CE-jelölés?'
+      a: 'A CE-jelölés csak az Európai Gazdasági Térségben értékesített deszkákhoz kötelező. Az EU-piacokra szánt modelleket mi tanúsítjuk, projektenként megerősített hatőkörrel. A nem EU-piacokra feladott deszkákra nem kerül CE-jelölés, kivéve, ha Ön kifejezetten kéri.'
+    - q: 'Az Ön alapanyagai megfelelnek a REACH-nek és a RoHS-nak?'
+      a: 'Igen. A PVC, a ragasztó és a bevonat valamennyi alapanyaga megfelel a REACH-nek. Minden elektronikus tartozék (motoros pumpa, LED-tartozékok) megfelel a RoHS-nek. A deszka szerkezeti alapanyagai eleve megfelelnek a RoHS-nek. Az anyagdokumentáció és a próbajelentések kérésre, szállítmányonként elérhetők.'
+    - q: 'Kezelik-e egy olyan piac tanúsítását, amely itt nem szerepel?'
+      a: 'Igen. Több mint 50 országba szállítottunk, és a legtöbb piac tanúsítását és dokumentációját koordinálni tudjuk. Adja meg a rendeltetési országot a megkereséskor, és megerősítjük a konkrét megfelelőségi hatókört és a szükséges további vizsgálatokat vagy dokumentumokat.'
+    - q: 'Hogyan kezelik a megfelelőségi költségeket?'
+      a: 'A megfelelőségi hatókör és a kapcsolódó költségek (független laboratóriumi vizsgálatok, tanúsítási díjak) a megvalósíthatósági elemzés szakaszában, tételekre bontva szerepelnek az ajánlatban. Nincsenek gyártás utáni megfelelőségi díjak. A standard tanúsítások (ISO 9001, BSCI) gyári szintűek, és nem növelik az egységköltséget.'
+
+cta:
+  title: 'Specifikálja a megfelelőségi igényeit'
+  subtitle: 'Mondja el a célpiacokat, és megerősítjük a tanúsítási hatóköröt, a vizsgálati követelményeket és a dokumentációs csomagot – tételekre bontva, az ajánlatban.'
+  actions:
+    - variant: primary
+      text: Kezdje új projektbriefet
+      href: /hu/contact#project-brief
+    - text: 'Ellenőrizze a tanúsítványokat és a minőségi rendszert'
+      href: /hu/proof-center
+    - text: 'Az OEM integrációs folyamat'
+      href: /hu/oem-onboarding-guide

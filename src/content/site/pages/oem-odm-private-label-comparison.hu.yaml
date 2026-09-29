@@ -1,0 +1,128 @@
+meta:
+  title: 'SUP gyártás: OEM és ODM és Private Label – összehasonlító útmutató'
+  description: 'SUP OEM és ODM és private label gyártás összevetve: definíciók, tulajdonjog, MOQ belépési pontok, határidők, szerszámok, szellemi tulajdoni szabályok és ideális forgatókönyvek.'
+  dateModified: '2026-08-20'
+  keywords:
+    - 'oem vs odm vs private label'
+    - 'sup gyártás összehasonlítás'
+    - 'testreszabott eveződeszka gyártás'
+    - 'oem sup kína'
+    - 'odm sup fejlesztés'
+    - 'private label sup'
+
+hero:
+  tagline: 'Válassza ki az együttműködési utat'
+  title: 'OEM és ODM és Private Label – melyik modell illik az Ön projektjéhez?'
+  subtitle: 'Három módja annak, hogyan dolgozzon egy SUP gyárral, mindegyik más-más kompromisszummal a tulajdon, a befektetés és a sebesség között. Ez az útmutató megmagyarázza a különbségeket, hogy az első megkeresés előtt kiválassza a megfelelő utat.'
+
+answer:
+  label: 'Gyors összehasonlítás'
+  text: 'OEM: Ön birtokolja a kivitelt és a specifikációt – mi az Ön rajzai szerint gyártunk. ODM: mérnöki csapatunk az Ön specifikációs lapjáról fejleszti a deszkát – a gyártás előtt jóváhagyja. Private Label: az Ön márkája egy meglévő, bizonyított platformon, szerkezeti módosítás nélkül – a leggyorsabb út a piacra. Mindhárom út ugyanazon a kínai (Qingdao) gyáron, ugyanazzal a minőségellenőrzési rendszerrel és ugyanazzal az exportcsapattal halad.'
+  verified: '2026. szeptember'
+
+comparison_table:
+  tagline: 'Egymás mellett'
+  title: 'OEM / ODM / Private Label összehasonlítás'
+  subtitle: 'A lényeges különbségek a kivitel tulajdonjoga, a MOQ, a szerszámok, a kiszállítási határidő és a szellemi tulajdon tekintetében.'
+  headers:
+    dimension: Szempont
+    oem: OEM gyártás
+    odm: ODM fejlesztés
+    pl: Private Label
+  rows:
+    - dimension: 'Ki tervezi a deszkát?'
+      oem: 'Ön adja a specifikációt, a rajzokat vagy a referencia-deszkát'
+      odm: 'A gyár mérnöki csapata az Ön specifikációs lapjáról fejleszti a deszkát'
+      pl: 'A gyár meglévő platformja – tervezőmunka nélkül'
+    - dimension: 'A kivitel és a szellemi tulajdon'
+      oem: 'Ön teljes egészében birtokolja valamennyi kivitelt, formát és szellemi tulajdont'
+      odm: 'Ön birtokolja a jóváhagyott végső kivitelt; a gyár megtartja a fejlesztési folyamat szellemi tulajdonjogát'
+      pl: 'A gyár birtokolja a platform kivitelét; Ön birtokolja a márkát és a grafikát'
+    - dimension: 'Forma / szerszámok'
+      oem: 'Új formáknál kötelező egyedi forma – egyszeri szerszámdíj, plusz 15–20 nap'
+      odm: 'A specifikációktól függően egyedi forma szükséges – ugyanaz a szerszámhatáridő'
+      pl: 'Nincs új forma – a meglévő platform szerszámait használjuk'
+    - dimension: 'Minimális megrendelési mennyiség'
+      oem: '90–100+ darab jóváhagyott konfigurációnként'
+      odm: '90–100+ darab jóváhagyott konfigurációnként; a pilótaszállítmányok 20–50 darabtól indulnak'
+      pl: '5–10 darab (közös márkázás) vagy 20–50 (pilótaszállítmány meglévő platformon)'
+    - dimension: 'Szokásos kiszállítási határidő'
+      oem: '25–35 nap + 15–20 nap szerszámokra, ha a forma új'
+      odm: '25–35 nap + a fejlesztés iterációs ideje (komplexitástól függően változik)'
+      pl: '25–35 nap (szerszámkésedelem nélkül)'
+    - dimension: 'A testreszabás szintje'
+      oem: 'Teljes – forma, szerkezet, anyagok, grafika, csomagolás'
+      odm: 'Teljes – a gyár javasol, Ön minden elemet jóváhagy'
+      pl: 'Csak grafika és csomagolás – szerkezeti módosítás nélkül'
+    - dimension: 'A mintázás folyamata'
+      oem: '1–2 prototípusminta 7–12 nap alatt a specifikáció jóváhagyása után'
+      odm: '1–2 prototípusminta 7–12 nap alatt a kivitel jóváhagyása után'
+      pl: '1–2 minta 7–12 nap alatt – a platform már validált'
+    - dimension: 'Kinek ideális?'
+      oem: 'Vásárlóknak, akiknek már van kivitelük, referencia-deszkájuk vagy részletes specifikációjuk'
+      odm: 'Vásárlóknak, akiknek termékövetelmény- vagy piacigényük van, de nincs részletes specifikációjuk'
+      pl: 'Vásárlóknak, akiknek gyorsan márkás deszkára van szükségük, termékfejlesztés nélkül'
+
+scenario_cards:
+  tagline: 'Mikor válassza az egyes utakat'
+  title: 'Gyakorlati forgatókönyvek'
+  subtitle: 'A vásárlók gyakori helyzetei és a javasolt együttműködési modell.'
+  features:
+    - icon: '1'
+      icon_bg: 'blue'
+      title: 'Teljes specifikációval rendelkezik és Öné a kivitel'
+      desc: 'CAD rajzai, referencia-deszkája vagy részletes specifikációs lapja van méretekkel, anyagokkal, szerkezettel és csomagolási igényekkel. Válassza az OEM-et – pontosan az Ön specifikációi szerint gyártunk.'
+      link: '/hu/factory/oem-capability'
+      link_label: 'Részletek az OEM gyártásról'
+    - icon: '2'
+      icon_bg: 'green'
+      title: 'Van termékkonceptje, de nincs mérnöki specifikációja'
+      desc: 'Ismeri a célpiacot, az árszintet és a teljesítményigényeket, de mérnöki támogatásra van szüksége a deszka fejlesztéséhez. Válassza az ODM-et – csapatunk az Ön specifikációs lapjáról fejleszt, és Ön a gyártás előtt jóváhagyja.'
+      link: '/hu/odm-manufacturing'
+      link_label: 'Részletek az ODM fejlesztésről'
+    - icon: '3'
+      icon_bg: 'orange'
+      title: 'Gyorsan márkás deszkákra van szüksége, termékfejlesztés nélkül'
+      desc: 'Forgalmazó, üdülő vagy bérelő üzemeltetője, aki saját logót szeretne minőségi deszkákon, termékfejlesztésbe fektetve. Válassza a Private Labelt – a leggyorsabb út a koncepttől a kiszállításig.'
+      link: '/hu/solutions/private-label-sup'
+      link_label: 'Részletek a Private Labelről'
+    - icon: '4'
+      icon_bg: 'purple'
+      title: 'Üdülőt, klubot vagy bérelő flottát üzemeltet'
+      desc: 'Strapabíró, intenzív használatra tervezett SUP csomagokra van szüksége, szállítmányok közötti állandósággal, alkatrészekkel és az ismétlődő megrendelések színkezelésével. Válassza kereskedelmi flotta programunkat.'
+      link: '/hu/solutions/resort-sup'
+      link_label: 'Részletek a kereskedelmi flottáról'
+
+ip_rules:
+  tagline: 'A szellemi tulajdon védelme'
+  title: 'Hogyan védjük az Ön kiviteleit és márkáját'
+  subtitle: 'Az együttműködési modelltől függetlenül a grafika, a szerszámok és a specifikációs fájlok az Ön tulajdonában maradnak.'
+  body: |
+    **NDA a fáilcsere előtt.** Titoktartási megállapodást írunk alá minden műszaki fáilcsere előtt – a standard válaszidő legfeljebb 4 munkaóra.
+
+    **A kivitelek újrahasznosításának tilalma.** A grafikát, a szerszámokat és a specifikációs fájlokat soha nem osztjuk meg más ügyfelekkel, és nem is adjuk el nekik. Az OEM formák kizárólag az Önéi. Az ODM kiviteleket Ön hagyja jóvá a gyártás előtt. A Private Label platformok közös szerkezetek, de az Ön grafikája és márkázása kizárólagos.
+
+    **Kizárólag B2B.** Kizárólag ügyfeleink márkái alatt gyártunk. Nem értékesítünk a végfelhasználóknak, és egyetlen piacon sem versenyzünk ügyfeleinkkel.
+
+    **A formák tulajdonjoga.** A vásárló által fizetett egyedi formák a vásárlóéi. Mi tároljuk és karbantartjuk őket, de írásos engedély nélkül nem használhatjuk más ügyfelek számára.
+
+faqs:
+  tagline: 'GYIK'
+  title: 'Gyakori kérdések az OEM, az ODM és a Private Label témájában'
+  items:
+    - q: 'Később át lehet-e váltani a private labelről az OEM-re?'
+      a: 'Igen. Sok ügyfél private label vagy pilóta szállítmánnyal kezd a piac validálásához, majd a kereslet igazolása után saját szerszámokba fektet egy teljes OEM programban. Mindkét utat ugyanaz a gyár és ugyanaz a minőségellenőrzési rendszer támogatja.'
+    - q: 'Az ODM azt jelenti, hogy a gyár birtokolja a márkámat?'
+      a: 'Nem. Az ODM modellben Ön birtokolja a márkát, a grafikát és a csomagolást. A gyár az Ön specifikációs lapjáról fejleszti a deszka szerkezetét, és Ön a gyártás előtt jóváhagyja a kivitelt. A gyár megtartja a fejlesztési folyamat szellemi tulajdonjogát, de a jóváhagyott termékspecifikáció az Öné.'
+    - q: 'A private label rosszabb minőségű, mint az OEM?'
+      a: 'Nem. Mindhárom út ugyanazon a gyáron, ugyanazzal a minőségellenőrzési rendszerrel és ugyanazzal az exportcsapattal halad. A private label deszkák bizonyított, validált platformokra épülnek, teljes, 18 PSI / 24 órás nyomáspróbával és ugyanazzal a 100 pontos összeállítási ellenőrző listával.'
+    - q: 'Mit tegyek, ha nem vagyok biztos benne, melyik modellt válasszam?'
+      a: 'Írjon nekünk a helyzetéről – mérnöki csapatunk a legpraktikusabb utat ajánlja Önnek a termékkövetelmények, a határidő és a térfogati célok alapján. A specifikációk elemzése előtt semmilyen kötelezettség nem keletkezik.'
+    - q: 'Kaphatok mintákat, mielőtt bármelyik modellhez elköteleződnék?'
+      a: 'Igen. 1–2 prototípusminta 7–12 nap alatt kerül feladásra. A minták költségét jóváírjuk az Ön térfogati megrendelésén. Így a szerkezetet és a minőséget bármilyen térfogati kötelezettségvállalás előtt értékelheti.'
+
+cta:
+  title: 'Készen áll megbeszélni az Ön SUP projektjét?'
+  subtitle: 'Írja le a termékkövetelményeket, a piacot és a térfogati célokat – a legpraktikusabb együttműködési utat ajánljuk.'
+  button: 'Indítsa el a SUP projektet'
+  note: '1 munkanapon belül válaszolunk · NDA rendelkezésre áll a fáilcsere előtt'

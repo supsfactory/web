@@ -1,0 +1,114 @@
+meta:
+  title: 'Indítsa el SUP projektjét – a brieftől a kiszállított deszkákig | iSupfactory'
+  description: 'Indítsa el a testreszabott SUP projektet: küldjön briefet, kössön NDA-t, kapjon mintákat 7–12 nap alatt, hagyja jóvá őket és skálázza gyártásra. Lépésről lépésre, határidőkkel.'
+  dateModified: '2026-08-20'
+  keywords:
+    - 'sup projekt indítása'
+    - 'testreszabott sup megrendelés'
+    - 'sup projekt brief'
+    - 'sup oem projekt'
+    - 'testreszabott eveződeszka megrendelés'
+    - 'sup gyártási projekt'
+    - 'felfújható sup projekt'
+
+hero:
+  tagline: 'Itt kezdődik minden'
+  title: 'Indítsa el SUP projektjét'
+  subtitle: 'Legyen szó új márka indításáról, termékvonal bővítéséről vagy márkás deszkák beszerzéséről a működéséhez – minden projekt ugyanúgy kezdődik: egy projektbrief, egy NDA, egy minta és egy egyértelmű út a gyártáshoz. Íme, mi történik, miután rákattint a „Start” gombra.'
+  actions:
+    - variant: primary
+      text: Kezdje el a projektbriefet
+      href: /hu/contact#project-brief
+    - text: Nézze meg, hogyan működik a folyamat
+      href: /hu/how-it-works
+
+answer:
+  label: 'Mi következik'
+  text: 'A projektbrief elküldése után egy munkanapon belül válaszolunk. Az NDA a bizalmas részletek megosztása előtt áll rendelkezésre. A mérnöki csapat elemzi a briefjét, és részletes ajánlatot ad vissza MOQ-val, a minták költségével és lépésenkénti ütemtervvel – általában 7–12 nap a mintákra és 6–8 hét az első gyártásra, a megrendelés visszaigazolásától számítva. A minták költségét levonjuk a gyártási megrendeléséből. Az aláírás előtt semmilyen kötelezettség nincs.'
+  verified: '2026. szeptember'
+
+process_steps:
+  tagline: A folyamat
+  title: 'A brieftől a kiszállított deszkákig – öt lépés'
+  subtitle: 'Minden lépésnek meghatározott határideje, dokumentált eredménye és „igen vagy nem” döntési pontja van. Csak akkor lépjen tovább, ha készen áll.'
+  steps:
+    - step: '1. lépés'
+      title: 'Küldje el a projektbriefet'
+      desc: 'Meséljen a deszkájáról – célspecifikációk, mennyiség, megfelelőségi igények és határidő. A brief kitöltése 5–10 percet vesz igénybe. Ha nem biztos néhány részletben, küldje el, ami van, a többiben mi útmutatást adunk. Az NDA a bizalmas projektek elküldése előtt elérhető.'
+    - step: '2. lépés'
+      title: 'NDA és megvalósíthatósági elemzés (1–5 nap)'
+      desc: 'Kérésre aláírjuk az NDA-t, majd a mérnöki csapat elemzi a briefjét a gyártási képesség, az alapanyag-elérhetőség és a megfelelőségi hatókör szempontjából. Részletes ajánlatot kap: MOQ-számítás, minta költsége és lépésenkénti ütemterv.'
+    - step: '3. lépés'
+      title: 'Minta és jóváhagyás (7–21 nap)'
+      desc: '1–2 fizikai deszka, az Ön specifikációi szerint gyártva. Használja és értékelje – héjmerevség, grafikai pontosság, tartozékszerelés. A módosításokat egy felülvizsgált alapanyaglistába (BOM) rögzítjük. A lefagyasztott minta lesz a gyártási referencia. A minták költségét levonjuk a gyártásból.'
+    - step: '4. lépés'
+      title: 'Előgyártási tervezés (7 nap)'
+      desc: 'Alapanyagbeszerzés, szerszámelőkészítés, csomagolás megerősítése és gyártási helylácsa. Minden alapanyagot a lefagyasztott BOM szerint, átvételkor ellenőrizünk. A gyártás megkezdése előtt szakaszonkénti minőségi ellenőrzési időpontokkal ellátott gyártási ütemtervet adunk ki.'
+    - step: '5. lépés'
+      title: 'Gyártás, minőségi ellenőrzés és kiszállítás (4–6 hét)'
+      desc: 'A gyártás a 7 lépésből álló ellenőrzési rendszeren megy keresztül, minden lépésnél elfogadási vagy elutasítási kritériumokkal. Export-szintű csomagolás, megfelelőségi dokumentáció és tengeri szállítás koordinálása több mint 50 országba. A kiszállítás után az Ön értékelése rögzíti a következő megrendeléshez szánt javításokat.'
+
+collaboration_types:
+  tagline: 'Válasszon utat'
+  title: 'Három módja az iSupfactory-val való együttműködésnek'
+  subtitle: 'Minden projekt ugyanazt a folyamatot követi – az mérnökség hatóköre és a szellemi tulajdon tulajdonosa az, ami változik.'
+  grid: 'sm:grid-cols-2 lg:grid-cols-3'
+  features:
+    - icon: O
+      icon_bg: blue
+      title: 'OEM-gyártás'
+      desc: 'Ön adja a dizájnt. Mi a specifikáció szerint gyártunk. A szellemi tulajdon teljes egészében az Öné. Alkalmas olyan márkáknak, amelyek már validált deszkaformával rendelkeznek.'
+      link_label: 'Nézze meg az OEM-részleteket'
+      href: /hu/oem-manufacturing
+    - icon: D
+      icon_bg: green
+      title: 'ODM-fejlesztés'
+      desc: 'Ön adja a briefet. Mi fejlesztjük a deszkát. Testre szabott platform az Ön márkájával. Alkalmas azoknak a márkáknak, amelyek saját dizájn nélkül lépnek piacra.'
+      link_label: 'Nézze meg az ODM-részleteket'
+      href: /hu/odm-manufacturing
+    - icon: P
+      icon_bg: purple
+      title: 'Private label / Co-branding'
+      desc: 'Az Ön márkája egy már validált platformon. Nincsen mérnöki szakasz. 5–10 darabtól indul. Alkalmas üzemeltetőknek és forgalmazóknak.'
+      link_label: 'Nézze meg a private label opciókat'
+      href: /hu/solutions/private-label-sup
+
+what_we_need:
+  heading: 'Mit készítsen elő a brief előtt'
+  body: |
+    A teljes brief felgyorsítja a folyamatot. Íme, mi segít:
+
+    - **A deszka specifikációi** — hossz, szélesség, cél-vastagság, az evező súlya, felhasználási eset. Más deszkák vagy versenytársak referenciaméretei is hasznosak.
+    - **Tervezési fájlok** — vektorgrafika (AI, SVG, PDF) az illusztrációkhoz és a logókhoz. Ha nem állnak készen, a moodboard-ok vagy a referenciaképek is elegendők a kezdeti megvalósíthatósághoz.
+    - **Mennyiség és határidő** — a célmennyiség és a szezon ütemterve. Még egy hozzávetőleges tartomány is (például „20–50 deszka márciusig”) elég a kezdéshez.
+    - **Megfelelőségi igények** — a célpiacok és minden további, a CE, az ISO 9001, a BSCI, a REACH és a RoHS melletti specifikus tanúsítási követelmény.
+    - **Költségvetési tartomány** — egy orientáló ár deszkánként vagy egy célár „gyárkapunál” segít a megfelelő platform kiválasztásában.
+
+    **Nincs minden készen?** Küldje el, ami van. A többiben mi vezetjük.
+
+faqs:
+  tagline: GYIK
+  title: 'SUP-projekt indítása – gyakori kérdések'
+  items:
+    - q: 'Mi a minimális megrendelés az induláshoz?'
+      a: 'A belépési út lépcsőzetes: először 1–2 minta (7–12 nap), majd egy 20–50 deszkás próbarendelés (25–35 nap), ezt követi a 90–100+ deszkás standard tömeggyártás minden jóváhagyott konfigurációhoz. A private label co-branding 5–10 darabtól indul, fejlesztési szakasz nélkül.'
+    - q: 'Mennyi idő alatt kapom meg a mintákat?'
+      a: 'A fizikai minták a specifikációk és az előleg visszaigazolásától számított 7–12 nap alatt készülnek el. Meglévő héjplatformok használata esetén a teljes ciklus, a brieftől a kiszállított pilóta megrendelésig, általában 8–12 hét. A teljesen testreszabott héj további 15–20 napot ad a szerszámfejlesztésre.'
+    - q: 'A dizájnom védett?'
+      a: 'Igen. Az NDA azonnal rendelkezésre áll – a bizalmas adatok megosztása előtt. Kizárólag ügyfeleink márkáinak gyártunk, és soha nem versenyzünk velük. Minden műszaki fájl vezérelt hozzáférésű, auditnyomatosú rendszerekben tárolódik.'
+    - q: 'Mit kér a projektbrief űrlapja?'
+      a: 'A brief a cégtípust, a céget, a deszka célspecifikációit, a mennyiségtartományt, a határidőt és az esetleges megfelelőségi követelményeket kéri. Kitöltése kb. 5–10 percet vesz igénybe. Tervezési fájlokat csatolhat (PNG, JPG, SVG, PDF, AI, PSD, DWG, DXF, ZIP) maximum 10 MB-ig. Ha egy mezővel kapcsolatban bizonytalan, üresen hagyhatja – utána felvesszük Önnel a kapcsolatot.'
+    - q: 'Mi történik a brief elküldése után?'
+      a: 'Egy munkanapon belül válaszolunk. A mérnöki csapat elemzi a briefjét, és részletes ajánlatot ad vissza MOQ-val, a minták költségével és lépésenkénti ütemtervvel. A szerződés áttekintéséig és aláírásáig semmilyen kötelezettség nem áll fenn. A minták költségét levonjuk a gyártási megrendeléséből.'
+
+cta:
+  title: 'Készen áll az indulásra?'
+  subtitle: 'Küldje el a projektbriefet – a deszka specifikációi, mennyiség és határidő –, mi pedig megerősítjük a megvalósíthatóságot, mintákat gyártunk, és minőségi ellenőrzéssel dokumentált gyártási ütemtervet adunk, minden lépés nyomon követésével.'
+  actions:
+    - variant: primary
+      text: Kezdje el a projektbriefet
+      href: /hu/contact#project-brief
+    - text: Olvassa el a teljes integrációs útmutatót
+      href: /hu/oem-onboarding-guide
+    - text: 'Ellenőrizze a gyárat és a minőségi rendszert'
+      href: /hu/proof-center

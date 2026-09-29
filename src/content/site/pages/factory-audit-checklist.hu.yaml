@@ -1,0 +1,105 @@
+meta:
+  title: 'Gyáraudit ellenőrzőlista – mit kell ellenőrizni egy SUP-gyártó kiválasztása előtt | iSupfactory'
+  description: 'Gyáraudit ellenőrzőlista felfújható SUP vásárlóknak: minőségügyi rendszer, kapacitás, anyagkövethetőség, nyomáspróbák, szociális megfelelőség és dokumentáció.'
+  dateModified: '2026-08-21'
+  keywords:
+    - 'SUP gyáraudit ellenőrzőlista'
+    - 'felfújható deszkagyártó auditja'
+    - 'SUP gyár ellenőrzése'
+    - 'OEM gyárinspekció'
+    - 'SUP minőségi audit'
+    - 'SUP gyártó due diligence'
+    - 'felfújható SUP gyártás auditja'
+
+hero:
+  tagline: 'Due diligence'
+  title: 'Gyáraudit ellenőrzőlista'
+  subtitle: 'Mielőtt köteleződik el egy SUP-gyártónak, ellenőrizze az alapvető tételeket. Ez a lista lefedi azt a nyolc területet, amelyet egy professzionális vevőnek auditálnia kell – a minőségirányítástól és a gyártási kapacitástól az anyagkövethetőségig és a szociális megfelelőségig. A lista minden tételét mi nyilvántartásokkal tudjuk igazolni, nem csupán nyilatkozatokkal.'
+
+answer:
+  label: 'Gyors válasz'
+  text: 'A nyolc legfontosabb auditterület: (1) Minőségirányítási rendszer – ISO 9001-tanúsítás és valódi, pontonkénti ellenőrzési nyilvántartások, nem csupán a falra kitett tanúsítvány. (2) Gyártási kapacitás – valós teljesítményadatok, nem a névleges számok. (3) Anyagkövethetőség – a beérkező anyagok vizsgálata és a lot szintű vizsgálati jelentések. (4) Nyomás- és szerkezeti próbák – dokumentált nyomástartási protokollok. (5) Hegesztés- és összeállítás-ellenőrzés – az RF-hegesztés paraméterei és a varratok vizsgálata. (6) Szociális megfelelőség – BSCI-audit vagy ezzel egyenértékű. (7) Dokumentáció és követhetőség – lotnyilvántartások, ellenőrzési naplók, megfelelőségi tanúsítványok. (8) Szállítás utáni támogatás – a garancia folyamata, alkatrészellátás, a kommunikáció gyorsasága.'
+  verified: '2026. szeptember'
+
+audit_areas:
+  tagline: Nyolc auditterület
+  title: 'Mit kell ellenőrizni – a nyolc auditterület'
+  subtitle: 'Minden terület tartalmazza a felteendő kérdéseket, a bekérendő nyilvántartásokat és a figyelendő riasztási jeleket.'
+  grid: 'sm:grid-cols-2 lg:grid-cols-4'
+  features:
+    - icon: Q
+      icon_bg: blue
+      title: '1. Minőségirányítási rendszer'
+      desc: 'Kérje: az ISO 9001-tanúsítványt (akkreditált szervezet, érvényes határidővel), a belső auditok programját, a CAPA-nyilvántartást (korrekciós és megelőző intézkedések), valamint az ellenőrzési pontokra vonatkozó eljárásokat. Riasztási jel: csak a tanúsítvány, ellenőrzési pont szintű nyilvántartások vagy CAPA-folyamat nélkül.'
+    - icon: C
+      icon_bg: green
+      title: '2. Gyártási kapacitás'
+      desc: 'Kérje: a havi teljesítményadatokat terméktípusonként, a jelenlegi kihasználtságot feltüntető termelési programot, valamint a gyártóeszköz-kapacitást (a matricák, CNC-gépek, RF-hegesztőgépek darabszáma). Riasztási jel: csak névleges kapacitás, kihasználtsági adatok vagy termelési program nélkül.'
+    - icon: M
+      icon_bg: purple
+      title: '3. Anyagkövethetőség'
+      desc: 'Kérje: a beérkező anyagok vizsgálatának nyilvántartásait, a PVC- és drop-stitch-beszállítók tanúsítványait, a nyersanyagtól a kész deszkáig vezető követhetőséget, a REACH/RoHS anyag-nyilatkozatokat. Riasztási jel: hiányzó lot szintű követhetőség, nem elérhető anyagtanúsítványok.'
+    - icon: P
+      icon_bg: orange
+      title: '4. Nyomás- és szerkezeti próbák'
+      desc: 'Kérje: a nyomáspróba protokollját (PSI, időtartam, elfogadási/elutasítási kritériumok), a közelmúltbeli gyártólotok vizsgálati naplóit, a szerkezeti vizsgálatok nyilvántartásait (ejtés, ütés, fogantyúterhelés). Riasztási jel: „csak vizuális ellenőrzés”, vagy a mennyiségi elfogadási/elutasítási kritériumokat tartalmazó dokumentált vizsgálati protokoll hiánya.'
+    - icon: W
+      icon_bg: blue
+      title: '5. Hegesztés- és összeállítás-ellenőrzés'
+      desc: 'Kérje: az RF-hegesztés paramétereinek nyilvántartását (hőmérséklet, nyomás, tartási idő), a varratvizsgálat kritériumait és elutasítási arányait, az összeállítási sorrend dokumentációját. Riasztási jel: hiányzó hegesztési paraméternaplók, magas varratelutasítási arány CAPA nélkül.'
+    - icon: S
+      icon_bg: green
+      title: '6. Szociális megfelelőség'
+      desc: 'Kérje: a BSCI- vagy SMETA-auditjelentést (aktuális, teljes hatókörre), a munkaidőre és bérekre vonatkozó nyilvántartásokat, a munkaegészségügyi és munkabiztonsági ellenőrzési jelentéseket, a környezeti megfelelőségi dokumentációt. Riasztási jel: hiányzó harmadik fél által végzett szociális audit, vagy lezáratlan súlyos nem megfelelésekkel járó audit.'
+    - icon: D
+      icon_bg: purple
+      title: '7. Dokumentáció és követhetőség'
+      desc: 'Kérje: a lot szintű gyártási nyilvántartásokat, minden ellenőrzési ponthoz az ellenőrzési naplókat, a megfelelőségi tanúsítványokat, a lotreferenciákkal ellátott csomagolási jegyzékeket, a garanciális panaszok követésének rendszerét. Riasztási jel: hiányzó lot szintű dokumentáció, követés nélkül és elemzés nélkül maradt garanciális panaszok.'
+    - icon: A
+      icon_bg: orange
+      title: '8. Szállítás utáni támogatás'
+      desc: 'Kérje: a garancia feltételeit és a panaszbejelentési folyamatot, azok átlagos megoldási idejét, a pótalkatrészek rendelkezésre állását, a kommunikáció válaszadási idejére vállalt kötelezettséget, a szállítás utáni elemzési folyamatot. Riasztási jel: hiányzó dokumentált garanciafolyamat, lassú vagy következetlen kommunikáció a szállítás után.'
+
+our_position:
+  heading: 'A mi álláspontunk minden auditterületen'
+  body: |
+    Nem elégedünk meg a megfelelőség deklarálásával – mi nyilvántartásokat szolgáltatunk. Íme az álláspontunk mind a nyolc auditterületen:
+
+    - **Minőségirányítás**: ISO 9001:2015 tanúsítás, évente akkreditált harmadik fél által auditálva. 7 ellenőrzési pontból álló vizsgálati rendszer, minden pontnál dokumentált elfogadási/elutasítási kritériumokkal. A CAPA-nyilvántartást negyedévente karbantartjuk és elemezzük.
+    - **Gyártási kapacitás**: évente 120,000+ deszka kapacitás, havi körülbelül 10.000 darab teljesítménnyel. A termelési program a gyárlátogatás során megtekinthető. 4 automata gyártósor, CNC-vágás, RF-hegesztés és nyomáspróba-laboratórium.
+    - **Anyagkövethetőség**: lot szintű követhetőség a beérkező anyagtól a kész deszkáig. A PVC- és drop-stitch-beszállítók tanúsítványai az archívumban. REACH- és RoHS-anyagnyilatkozatok minden lothoz rendelkezésre állnak.
+    - **Nyomáspróbák**: 18.0 PSI nyomástartási próba, automatikus elutasítással, ha 24 óra alatt több mint 0.50 PSI a nyomáscsökkenés. A vizsgálati naplók minden gyártólothoz rendelkezésre állnak. Szerkezeti és ütési próbák a kivitelezés típusától függően.
+    - **Hegesztésellenőrzés**: az RF-hegesztés paraméterei minden gyártósorhoz nyilvántartásba kerülnek. A varratvizsgálat a 3. ellenőrzési ponton történik, dokumentált elutasítási arányokkal. A CAPA az elutasítási arány küszöbértéke felett lép életbe.
+    - **Szociális megfelelőség**: elvégzett BSCI-audit. A munkaidőre, bérekre és biztonságra vonatkozó nyilvántartások a gyárlátogatás során ellenőrizhetők.
+    - **Dokumentáció**: lot szintű gyártási nyilvántartások, minden ellenőrzési ponthoz ellenőrzési naplók, megfelelőségi tanúsítványok és lotreferenciákkal ellátott csomagolási jegyzékek, amelyeket minden megrendelés mellett küldünk el. A garanciális panaszokat követő rendszer karbantartva működik.
+    - **Szállítás utáni támogatás**: minden szerződésben dokumentált garanciafeltételek. A panaszok átlagos megoldása 14 munkanapon belül történik. Pótalkatrészek raktáron elérhetők. Szállítás utáni elemzés minden első megrendeléshez.
+
+evidence_review:
+  tagline: 'Bizonyítékok és ellenőrzés'
+  title: 'ELLENŐRZÖTT SPECIFIKÁCIÓK'
+  body: 'Az ezen az oldalon szereplő valamennyi gyártási és minőségi állítást a laixi (Qingdao) gyárunk termelésmérnöki csapata ellenőriz. A tanúsítványok, a minőség-ellenőrzési vizsgálatok nyilvántartásai, a nyomás- és szerkezeti vizsgálati jelentések, valamint a lotok követhetőségi naplói kérésre rendelkezésre állnak. A specifikációkat legutóbb 2026 szeptemberében ellenőriztük.'
+
+faqs:
+  tagline: GYIK
+  title: 'Gyáraudit – gyakori kérdések'
+  items:
+    - q: 'Meglátogatható a gyár helyszíni auditra?'
+      a: 'Igen. A gyárlátogatásokat szívesen fogadjuk, és strukturált auditot tudunk szervezni, amely mind a nyolc területet lefedi. Egy szokásos látogatás magában foglalja a gyártócsarnok bejárását, a minőségi ellenőrzési pontok megfigyelését, az alapanyagraktár vizsgálatát, a dokumentáció ellenőrzését és a minőségvezetővel való egyeztetést. Egy teljes napot szánjon rá. Vegye fel a kapcsolatot az időzítéshez.'
+    - q: 'A látogatás előtt rendelkezésre bocsátják az auditdokumentációt?'
+      a: 'Igen. Az Ön látogatása előtt rendelkezésre bocsáthatjuk az ISO 9001-tanúsítványt, a BSCI-jelentést, a gyártási kapacitás összefoglalóját, a nyomáspróba protokollját és minta ellenőrzési nyilvántartásokat – hogy célzott kérdéseket készíthessen elő. A teljes lot nyilvántartások a helyszínen, a látogatás során állnak rendelkezésre.'
+    - q: 'Milyen harmadik fél vizsgálatokat használnak?'
+      a: 'SGS-, Intertek- és TUV-partnerekkel dolgozunk harmadik fél vizsgálatai és tanúsítványai terén. A szállítás előtti harmadik fél vizsgálat bármely megrendeléshez kérésre rendelkezésre áll. A vizsgálat hatókörét és költségeit az ajánlatadási szakaszban erősítjük meg.'
+    - q: 'Hogyan tudom megerősíteni, hogy a minőségügyi rendszerüket valóban alkalmazzák, nem csupán dokumentálják?'
+      a: 'Minden deszka 7 ellenőrzési ponton megy keresztül, mennyiségi elfogadási/elutasítási kritériumokkal – nem vizuális ellenőrzőlistákkal. A nyomáspróba adatai, a hegesztési paraméterek és az elutasítási arányok lotonként nyilvántartásba kerülnek, és az Ön elemzésére rendelkezésre állnak. Nem megfelelő eredmények esetén a CAPA automatikusan életbe lép. Biztatjuk, hogy a gyárlátogatás során a folyamatban lévő folyamatot is auditálja.'
+
+cta:
+  title: 'Időzítsen gyáraudiót'
+  subtitle: 'Kérje az auditdokumentációt vagy időzítsen helyszíni látogatást. Mi szolgáltatjuk a nyilvántartásokat – Ön ellenőrzi a folyamatot.'
+  actions:
+    - variant: primary
+      text: 'Kérezze az auditdokumentációt'
+      href: /hu/contact#project-brief
+    - text: 'Ellenőrizze a tanúsításokat és a minőségügyi rendszert'
+      href: /hu/proof-center
+    - text: 'Az OEM onboarding folyamata'
+      href: /hu/oem-onboarding-guide

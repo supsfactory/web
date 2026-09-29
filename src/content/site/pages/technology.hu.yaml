@@ -1,0 +1,45 @@
+meta:
+  title: 'Technológia — drop-stitch és tengeri PVC | {SITE}'
+  description: 'A Vatrad technológiái: drop-stitch szerkezet, tengeri PVC, kétrétegű és nagy nyomású szerkezetek. Innováció egy professzionális felfújható SUP deszkagyárból.'
+  dateModified: '2026-08'
+  keywords:
+    - 'sup technológia'
+    - 'drop stitch szerkezet'
+    - 'nagy nyomású sup'
+    - 'felfújható sup anyagok'
+hero:
+  tagline: Technológia
+  title: Teljesítményre tervezve
+  subtitle: Minden Vatrad felfújható SUP deszka drop-stitch szerkezettel és tengeri minőségű PVC-vel készül — precíziós anyagok és gyártási eljárások, amelyeket igényes tengeri környezetre teszteltek.
+
+sections:
+  - title: Drop-stitch mag
+    description: Az alsó és felső rétegeket összekötő polieszterfonalak merev szerkezetet hoznak létre már 12–15 PSI nyomáson. Ugyanez a technológia, amelyet a professzionális eveződeszkáknál és a verseny-felfújható SUP deszkáknál használnak.
+    imageAlt: 'Drop-stitch mag ábrája'
+  - title: Tengeri minőségű PVC
+    description: Többrétegű, tengeri környezetre tanúsított PVC-anyag. Minden réteg összehegesztéssel, nem ragasztással kapcsolódik, kizárva a delamináció kockázatát. UV-, sós víz korrózió- és karcállóságra tesztelve.
+    imageAlt: 'PVC réteg'
+  - title: Katonai minőségű PVC
+    description: A prémium PVC minden SUP-modellen kiváló UV- és vegyszerállóságot biztosít. Megőrzi rugalmasságát szélsőséges hőmérsékleten is, és ellenáll a bomlásnak.
+    imageAlt: 'PVC'
+  - title: Air Deck fedélzet
+    description: Nagy nyomású, felfújható drop-stitch szerkezet, amely figyelemre méltó merevséget biztosít az álló evezéshez, a horgászathoz és a jógához. Csökkenti a felállítási időt, a teljes súlyt és a tárolási térfogatot.
+    imageAlt: 'Air Deck'
+
+related:
+  title: 'További információk'
+  links:
+    - text: 'K+F központ'
+      url: /hu/randdcenter
+    - text: 'Minőségi vizsgálatok'
+      url: /hu/quality
+    - text: 'Biztonsági szabványok'
+      url: /hu/quality
+    - text: 'Garancia'
+      url: /hu/warranty
+    - text: 'Turizmus és szabadidő'
+      url: /hu/tourism-recreation
+    - text: 'Útmutatók'
+      url: /hu/knowledge
+    - text: 'Termékek'
+      url: /hu/products

@@ -1,0 +1,81 @@
+meta:
+  title: 'PVC és Hypalon – a felfújható SUP deszkák alapanyagai | {SITE}'
+  description: 'PVC és Hypalon a felfújható SUP deszkák gyártásában: UV-állóság, tartósság, javíthatóság, súly, költség, és hogy a mai SUP deszkák valójában melyik alapanyagot használják.'
+  author: 'iSupfactory'
+  datePublished: '2026-08-04'
+  dateModified: '2026-08-07'
+back_text: 'Vissza a kutatáshoz'
+
+hero:
+  tagline: 'Alapanyagok'
+  title: 'PVC és Hypalon – alapanyag-útmutató a felfújható SUP deszkákhoz'
+  subtitle: '10 perc olvasás'
+
+answer:
+  label: 'Közvetlen válasz'
+  text: 'A SUP deszkáknál a PVC nyer a költségben, a súlyban, a nyomtathatóságban és az RF-hegesztéssel való automatizálhatóságban – az 1,680 DTEX-es, háromrétegű, UV-stabilizátoros hajózási PVC az iparági standard. A Hypalon/CSM jobban bírja a napot és a vegyi anyagokat, de körülbelül 3–5-ször drágább, nehezebb, és kézi ragasztással alkalmazzák, ami miatt ma ritkán fordul elő a SUP deszkákon.'
+  verified: '2026. szeptember'
+
+content_html: |
+  <h2>Az alapanyagok áttekintése</h2>
+
+  <h3>PVC (polivinil-klorid)</h3>
+  <p>A PVC a felfújható SUP deszkák standard alapanyaga. A deszkák gyártásához általában poliészter hálóval (1,100 – 1,680 DTEX) erősítik, mindkét oldalon bevonják, majd egy drop-stitch mag körül fúziós hegesztéssel összeállítják. A modern hajózási PVC-receptúrák UV-stabilizátorokat és lágyítószereket tartalmaznak a hajlékonyság és az időjárásállóság javítására, az így épített deszkák pedig 12 – 15 PSI üzemi nyomást tartanak.</p>
+
+  <h3>Hypalon (CSM – klórszulfonált polietilén)</h3>
+  <p>A Hypalon szintetikus gumi vegyület (ma általános néven CSM-ként gyártják, miután a DuPont lemondott a Hypalon márkáról). Kivételes UV- és ózonállóságáról híres, ezért a közvetlen napon hosszú időt töltő professzionális és kereskedelmi felfújható csónakok preferált alapanyaga. A SUP deszkáknál a Hypalont ritkán használják – a deszkák nagy nyomású és méretben stabil hidat igényelnek, amelyet a PVC és a drop-stitch szerkezet a súly töredékéért nyújt.</p>
+
+  <h2>Közvetlen összehasonlítás</h2>
+  <table class="w-full text-sm border-collapse">
+    <thead>
+      <tr class="bg-gray-100">
+        <th class="p-3 text-left font-semibold text-gray-900 border">Tulajdonság</th>
+        <th class="p-3 text-left font-semibold text-gray-900 border">PVC</th>
+        <th class="p-3 text-left font-semibold text-gray-900 border">Hypalon (CSM)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td class="p-3 border font-medium">UV-állóság</td><td class="p-3 border">Jó (stabilizátorokkal)</td><td class="p-3 border">Kiváló (intrinszikus)</td></tr>
+      <tr><td class="p-3 border font-medium">Kopásállóság</td><td class="p-3 border">Jó</td><td class="p-3 border">Nagyon jó</td></tr>
+      <tr><td class="p-3 border font-medium">Szakítási szilárdság</td><td class="p-3 border">3,000 – 5,000 N/5cm</td><td class="p-3 border">2,500 – 4,000 N/5cm</td></tr>
+      <tr><td class="p-3 border font-medium">Súly (m&sup2;-enként)</td><td class="p-3 border">850 – 1,200 g</td><td class="p-3 border">1,100 – 1,500 g</td></tr>
+      <tr><td class="p-3 border font-medium">Hideghajlékonyság (alacsony hőmérséklet)</td><td class="p-3 border">-30&deg;C</td><td class="p-3 border">-20&deg;C</td></tr>
+      <tr><td class="p-3 border font-medium">Javíthatóság</td><td class="p-3 border">Könnyű (hőhegesztés vagy ragasztó)</td><td class="p-3 border">CSM-hez való speciális ragasztó szükséges</td></tr>
+      <tr><td class="p-3 border font-medium">Illesztési módszer</td><td class="p-3 border">RF hegesztés, meleglevegős hegesztés</td><td class="p-3 border">Kézi ragasztás (kontakt ragasztó)</td></tr>
+      <tr><td class="p-3 border font-medium">Költség (alapanyag)</td><td class="p-3 border">$8 – $15 / m&sup2;</td><td class="p-3 border">$20 – $40 / m&sup2;</td></tr>
+      <tr><td class="p-3 border font-medium">Élettartam (trópusi nap)</td><td class="p-3 border">5 – 8 év</td><td class="p-3 border">10 – 15 év</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Melyiket válassza?</h2>
+
+  <h3>Válasszon PVC-t, amikor:</h3>
+  <ul>
+    <li>Felfújható SUP deszkákat gyárt (a PVC + drop-stitch az iparági standard)</li>
+    <li>A deszka súlya számít – a PVC 15 – 25%-kal könnyebb</li>
+    <li>-20&deg;C alatti hőmérsékleten is hajlékonyságra van szüksége</li>
+    <li>Szélesebb szín- és kivitelválasztást szeretne</li>
+    <li>Magas üzemi nyomásra (12 – 15 PSI) van szüksége a merev és stabil hídhoz</li>
+  </ul>
+
+  <h3>Válasszon Hypalont, amikor:</h3>
+  <ul>
+    <li>A terméket évekig közvetlen napon tárolják vagy szárítják</li>
+    <li>Trópusi vagy intenzív UV-vel terhelt környezetben van, tárolási lehetőség nélkül</li>
+    <li>A maximális tartósság és az élettartam fontosabb, mint a súly és a költség</li>
+    <li>Professzionális vagy kereskedelmi csónakokat gyárt, például csónakcsöveket</li>
+    <li>A homok, a beton vagy a kikötők által okozott kopás jelentős aggály</li>
+  </ul>
+
+  <h2>A gyártási különbségek</h2>
+  <p>A PVC deszkákat RF-hegesztéssel (rádiófrekvenciás) vagy meleglevegős hegesztéssel gyártjuk – ezek a folyamatok molekuláris kötést hoznak létre a bevonatos alapanyag rétegei között. Ez lehetővé teszi az automatizált, állandó minőségű, nagy teljesítményű gyártást, valamint a nagy nyomású deszkák varratainak pontos szilárdságát. A Hypalont kézzel, kontakt ragasztóval szereljük össze; minden varratot kézzel hengerelnek és sajtolnak, így a Hypalon-gyártás munkaigényesebb, és inkább az alacsony nyomású csőtestekhez alkalmas.</p>
+
+  <h2>A Vatrad ajánlása</h2>
+  <p>A felfújható SUP deszkáknál a kiváló minőségű, UV-stabilizátoros modern hajózási PVC adja a legjobb egyensúlyt a költség, a súly, a teljesítmény és a tartósság között. A Vatrad minden SUP deszkáját 1,680 DTEX-es hajózási PVC-ből, háromrétegű bevonattal és 15 PSI-re minősített drop-stitch maggal építi – és minden alapanyagszállítmányt függetlenül vizsgálunk PVC alapanyag laboratóriumunkban a gyártás előtt. A Hypalon kérésre rendelkezésre áll kereskedelmi csónakokhoz és speciális alkalmazásokhoz, amelyeket külön, kereskedelmi tengeri sorunkon gyártunk.</p>
+  <p>Az alapanyag választása határozza meg a költséget, a súlyt és a tartósságot a terméksorán – mondja el nekünk a célpiacot, és mi <a href="/hu/oem-manufacturing">megadjuk az OEM projekthez való alapanyag-specifikációt</a>, amelyet <a href="/hu/randdcenter/quality-inspection-lab">alapanyag-vizsgáló laboratóriumunkban</a> teszteltünk.</p>
+
+cta:
+  title: 'Segítséget kér az alapanyag kiválasztásához?'
+  subtitle: 'Csapatunk tanácsot ad a PVC és a Hypalon közötti választásban az Ön konkrét felhasználásához.'
+  button_text: 'Kérjen tanácsot szakértőinktől'
+  button_link: /hu/contact

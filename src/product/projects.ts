@@ -10754,6 +10754,672 @@ export const projects: Localized<ProjectData[]> = {
       tags: ['Configurație yoga', 'Acoperire completă a punții', 'Flotă de program'],
     },
   ],
+  hu: [
+    {
+      slug: 'coastal-rental-fleet',
+      customerType: 'Bérleti flottákat üzemeltető szereplők',
+      region: 'Földközi-tenger — Spanyolország, Olaszország, Görögország',
+      productCategory: 'Bérleti osztályú felfújható SUP (10′6″ + 11′0″)',
+      projectStage: 'Flottafelmérés → Minta-jóváhagyás → Leszállítás 3 ütemezett tételben',
+      manufacturingScope: 'Flotta-specifikáció, megerősített szerkezet, ütemezett gyártás, alkatrészellátás',
+      keyRequirements: 'Tartós bérleti deszkák, ütemezett szállítás az üdülőhelyekre, alacsony korai cserearány',
+      qualityFocus: 'Megerősített szerkezet, légzárósság, flottagrafika, felszereltség-teljesség',
+      navLabel: 'Tengerparti bérleti flotta',
+      metaTitle: 'Tengerparti bérleti flotta | 320 deszka 120 nap alatt — iSupfactory',
+      metaDescription:
+        'Hogyan épített fel egy földközi-tengeri kölcsönzőüzemeltető 320 deszkás tengerparti flottát Spanyolországban, Olaszországban és Görögországban — három ütemezett tétel 120 nap alatt, becsült 20–25%-os korai cserearány-csökkenéssel.',
+      kicker: 'Bérleti flotta projekt',
+      h1: 'Hogyan épített fel egy földközi-tengeri kölcsönzőüzemeltető 320 deszkás tengerparti flottát 120 nap alatt',
+      intro: [
+        'Egy spanyolországi, olaszországi és görögországi üdülőhelyekkel rendelkező kölcsönzőüzemeltető tartós flottát igényelt a nagy forgalmú nyári szezonra — három tételben leszállítva, időben minden üdülőhely nyitásához.',
+      ],
+      industry: 'Bérleti flottákat üzemeltető szereplők',
+      requirement:
+        '320 bérleti deszka két méretben — 10′6″ és 11′0″ — három ország tengerparti üdülőhelyeire, három ütemezett tételben leszállítva 120 nap alatt.',
+      challenge:
+        'A napi bérleti forgalom gyorsan elhasználja a deszkákat, az üzemeltető korai cserearánya pedig 20–25% volt. Az üdülőhelyek három országban különböző időpontokban nyitottak, ezért egyszeri szállítás nem működött — az egyméretű flotta sem.',
+      solution:
+        'Két tartós bérleti platform a felhasználók többségét lefedő méretekben, megerősített szerkezet a nagy forgalmú rotációhoz, és három gyártási tétel, amelyeket minden üdülőhely nyitásához időzítetten szállítottunk le — üdülőhelyenkénti alkatrészcsomagokkal és javítási útmutatókkal.',
+      product:
+        'Bérleti osztályú felfújható SUP — 10′6″ és 11′0″ platformok megerősített élekkel és UV-álló anyagokkal, üdülőhelyenkénti felszereltség-csomagokkal.',
+      process: [
+        { title: 'Flottafelmérés', body: 'Az üdülőhelyek nyitási időpontjai és a forgási volumenek határozták meg a két méretet és a tételek közötti megosztást.' },
+        { title: 'Deszkák kiválasztása', body: 'A 10′6″ és 11′0″ bérleti platformokat a felhasználói lefedettség és a tartósság alapján választottuk ki.' },
+        { title: 'Ütemezett gyártás', body: 'Három tétel az egyes üdülőhelyek nyitási időpontjaihoz igazítva.' },
+        { title: 'Szállítás és támogatás', body: 'A flottát tételekben szállítottuk le, üdülőhelyenkénti alkatrészcsomagokkal és javítási útmutatókkal.' },
+      ],
+      result:
+        'Mindhárom tétel 120 napon belül megérkezett, időben minden üdülőhely nyitásához. A megerősített platformok becslések szerint 20–25%-kal csökkentik a korai cserearányt, az alkatrészcsomagok pedig a szezonok közötti helyszíni javításokat fedezik.',
+      outcome: '320 deszka · 120 nap · 3 tétel · becsült 20–25%-os korai cserearány-csökkenés.',
+      metrics: [
+        { value: '320', label: 'deszka két méretben' },
+        { value: '120', label: 'nap a megrendeléstől az utolsó tételig' },
+        { value: '3', label: 'ütemezett szállítás, egy-egy minden üdülőhely nyitásához' },
+        { value: '−20–25%', label: 'becsült korai cserearány' },
+      ],
+      takeaways: [
+        'Az ütemezett tételek lehetővé teszik, hogy a flotta pontosan az egyes üdülőhelyek nyitásakor érkezzen — kihasználatlan készlet és késedelmes indulás nélkül.',
+        'Két méret (10′6″ és 11′0″) a felhasználók többségét lefedte anélkül, hogy szétforgácsolta volna a flottát.',
+        'A korai cserearány szempontjából a megerősített szerkezet számít, nem csak az ár.',
+        'Az üdülőhelyenkénti alkatrészcsomagok teljes évszakok között üzemben tartották a deszkákat.',
+      ],
+      customizations: [
+        '10′6″ és 11′0″ bérleti platformok a felhasználói profilokhoz igazítva',
+        'Megerősített élek és UV-álló anyagok a nagy forgalmú rotációs használathoz',
+        'Flottagrafika és számozás minden üdülőhelyre',
+        'Három tételes gyártási ütemezés az üdülőhelyi nyitásokhoz igazítva',
+        'Üdülőhelyenkénti alkatrészcsomagok és javítási útmutatók',
+        'Külön helyszínekre történő csomagolás és tételenkénti szállítás-ellenőrzés',
+      ],
+      inspectionFocus: [
+        'A megerősített szerkezet ellenőrzése minden deszkán',
+        'Felfújás- és légzárósság-teszt minden deszkán',
+        'A flottagrafika és az üdülőhelyi számozás pontossága',
+        'A kiegészítők és az alkatrészcsomag teljessége minden üdülőhelyre',
+        'Csomagolás-ellenőrzések a külön helyszínekre és több tételre történő szállításhoz',
+      ],
+      confidentiality:
+        'A felek megállapodása szerint az üzemeltető neve és az üdülőhelyek helyszínei nem kerülnek nyilvánosságra. A projektet a kereskedelmi bizalmasság védelme érdekében anonim módon mutatjuk be.',
+      tags: ['Ütemezett flottaszállítás', 'Bérleti osztályú szerkezet', 'Csökkentett cserearány'],
+    },
+    {
+      slug: 'eu-distributor-private-label',
+      customerType: 'Forgalmazók és nagykereskedők',
+      region: 'Európa',
+      productCategory: 'Saját márkás felfújható SUP (2 SKU)',
+      projectStage: 'Választéktervezés → Minta-jóváhagyás → Volumenszállítás 90 nap alatt',
+      manufacturingScope: 'Saját márka arculat, kiskereskedelmi csomagolás, volumengyártás, utánrendelés-támogatás',
+      keyRequirements: 'Két piacra validált SKU a forgalmazó márkája alatt, EU kiskereskedelmi csomagolás, szezonális igazodás',
+      qualityFocus: 'Grafikai pontosság, vonalkód és címke minden piacra, felszereltség-teljesség, légzárósság',
+      navLabel: 'Forgalmazói saját márka',
+      metaTitle: 'Forgalmazói saját márka | 1 200 deszka 90 nap alatt — iSupfactory',
+      metaDescription:
+        'Hogyan indított el egy európai forgalmazó saját márkás SUP-sort 1 200 deszkával 90 nap alatt — két SKU, EU kiskereskedelmi csomagolás és negyedik negyedévi utánrendelés ugyanazzal a rögzített specifikációval.',
+      kicker: 'Saját márka projekt',
+      h1: 'Hogyan indított el egy európai forgalmazó egy saját márkás SUP-sort 1 200 deszkával 90 nap alatt',
+      intro: [
+        'Egy európai forgalmazó saját márkás SUP-sort szeretett volna a nyári szezonra — két piacra validált SKU, teljes kiskereskedelmi csomagolás, és gyári kapcsolatok nélkül.',
+      ],
+      industry: 'Forgalmazók és nagykereskedők',
+      requirement:
+        '1 200 saját márkás deszka két SKU-ban — 10′6″ all-around és 12′6″ touring — EU kiskereskedelmi csomagolással, 90 nap alatt leszállítva.',
+      challenge:
+        'A nyári szezon polcablaka rögzített, ezért mind az 1 200 deszkának és a csomagolásuknak egyszerre és időben kellett megérkeznie. A saját márkás csomagolásoknak — vonalkódok, címkék, útmutatók — meg kellett felelniük az EU kiskereskedelmi előírásoknak, a forgalmazónak pedig nem volt SUP-gyártási tapasztalata, amelyre építhetett volna.',
+      solution:
+        'Két piacra validált platform, amelyeket a kiskereskedelmi választékhoz választottunk ki, teljes saját márkás grafika és EU kiskereskedelmi csomagolás egyetlen programban, valamint olyan ütemezett gyártás, hogy mindkét SKU együtt kerüljön kiszállításra a 90 napos ablakon belül — rögzített specifikációval a problémamentes utánrendeléshez.',
+      product:
+        'Saját márkás felfújható SUP — 10′6″ all-around és 12′6″ touring, pumpával, saját márkás háttáskával és nyomtatott kiskereskedelmi dobozokkal.',
+      process: [
+        { title: 'Választéktervezés', body: 'Két SKU-t választottunk ki — 10′6″ all-around és 12′6″ touring — a kiskereskedelmi lefedettséghez.' },
+        { title: 'Minta-jóváhagyás', body: 'A grafikát, a csomagolást és a kivitelezést fizikai deszkákon hagytuk jóvá.' },
+        { title: '90 napos gyártás', body: 'A mennyiséget úgy ütemeztük, hogy mindkét SKU együtt kerüljön kiszállításra a szezonra.' },
+        { title: 'Negyedik negyedévi utánrendelés', body: 'Az utánrendelés ugyanazzal a rögzített specifikációval történt.' },
+      ],
+      result:
+        'Mind az 1 200 deszka teljes kiskereskedelmi csomagolással 90 nap alatt került kiszállításra, időben a nyári szezon polcablakára. A sor elfogyott, a forgalmazó pedig a negyedik negyedévben ugyanazzal a rögzített specifikációval rendelt után.',
+      outcome: '1 200 deszka · 90 nap · 2 SKU · negyedik negyedévi utánrendelés.',
+      metrics: [
+        { value: '1 200', label: 'deszka egyetlen bevezetésben' },
+        { value: '90', label: 'nap a teljes leszállításig' },
+        { value: '2', label: 'kiskereskedelmi SKU, mindkettő időben szállítva' },
+        { value: 'Q4', label: 'utánrendelés azonos specifikációval' },
+      ],
+      takeaways: [
+        'Két validált SKU-val kezdeni alacsonyan tartja a készletkockázatot, miközben kiegészíti a kiskereskedelmi választékot.',
+        'Egyetlen program, amely a deszkákat, a kiegészítőket és a csomagolást fedi le, kiküszöböli a bevezetések egyik gyakori buktatóját.',
+        'A rögzített szezonális dátum szabja meg a gyártási ütemezést — a tervezésnek nem tárgyalható határidőként kell kezelnie.',
+        'A specifikáció bevezetéskor történő rögzítése egyszerűvé és konzisztenssé teszi az utánrendeléseket.',
+      ],
+      customizations: [
+        '10′6″ all-around és 12′6″ touring platformok a kiskereskedelmi sorhoz',
+        'Saját márkás grafika a deszka felső felületén, az alján és a csomagoláson',
+        'Saját márkás pumpa és háttáska minden SKU-hoz',
+        'Nyomtatott kiskereskedelmi dobozok, vonalkódok, címkék és használati útmutató az EU-kiskereskedelemhez',
+        'Rögzített anyagjegyzék és specifikáció az utánrendelések konzisztenciájáért',
+        'Tételes szállítás a kiskereskedelmi bevezetési ablakhoz igazítva',
+      ],
+      inspectionFocus: [
+        'Grafikai pontosság a jóváhagyott saját márkás fájlokhoz képest',
+        'A vonalkód, a címke és az útmutató ellenőrzése minden piacra',
+        'A készlet teljessége SKU-nként a teljes 1 200 deszkás sorozaton',
+        'Pontszerű légzárósság-ellenőrzések a gyártás során',
+        'A doboz és a csomagolás ellenőrzése SKU-nként',
+      ],
+      confidentiality:
+        'A felek megállapodása szerint a forgalmazó neve és a kiskereskedelmi ügyfelek nem kerülnek nyilvánosságra. A projektet a kereskedelmi bizalmasság védelme érdekében anonim módon mutatjuk be.',
+      tags: ['Saját márka', '2 SKU-s kiskereskedelmi sor', 'Szezonális szállítás'],
+    },
+    {
+      slug: 'resort-sup-fleet',
+      customerType: 'Üdülőhelyek és vendéglátás',
+      region: 'Európa / Észak-Amerika',
+      productCategory: 'Felfújható all-around SUP',
+      projectStage: 'Minta-jóváhagyás → Volumengyártás → Flotta megújítása',
+      manufacturingScope: 'Grafika, kiegészítők, csomagolás és a flotta gyártása',
+      keyRequirements: 'Bérleti használatra is tartós, kompakt tárolás, márkaarculat az egész ingatlanon',
+      qualityFocus: 'Légzárósság, grafikai pontosság, felszereltség-teljesség, dobozjelölés',
+      navLabel: 'Luxus üdülőhelyi SUP-flotta',
+      metaTitle: 'Luxus üdülőhelyi SUP-flotta | 100 márkás deszka — iSupfactory',
+      metaDescription:
+        'Hogyan szerelte fel egy luxus üdülőhely 100 márkás SUP-deszkával a strandi programját — egyedi grafika, bérleti osztályú szerkezet és szezonális flottakezelés.',
+      kicker: 'Üdülőhelyi projekt',
+      h1: 'Hogyan szabványosított egy luxus üdülőhely egy 100 deszkás, márkás SUP-flottát',
+      intro: [
+        'Egy luxus üdülőhely azt szerette volna, ha a strandi program az ingatlan szerves részeként hat — az üdülőhely színvilágában márkás deszkák, amelyek elég tartósak a vendégek napi használatához, és könnyen tárolhatók a szezonok között.',
+      ],
+      industry: 'Üdülőhelyek és vendéglátás',
+      requirement: '100 márkás SUP-deszka a vendégeknek történő bérbeadáshoz, az ingatlan színvilágában.',
+      challenge:
+        'A napi bérelhető használat gyorsan elhasználja az általános flottákat, a szezonok közötti tárolóhely pedig korlátozott. Az üdülőhelynek olyan deszkákra volt szüksége, amelyek ellenállnak a nagy igénybevételnek, kompaktan tárolhatók, és az ingatlan teljes arculatát hordozzák.',
+      solution:
+        'Bérleti osztályú felfújható szerkezet megerősített élekkel és UV-álló anyagokkal, teljes deszka felületi grafika az üdülőhely színeiben, valamint saját márkás pumpák a flottacsomag részeként.',
+      product: 'Egyedi felfújható SUP — 11′-es all-around platform, márkás deckgrafikával és kiegészítőkkel.',
+      process: [
+        { title: 'Flotta-tanácsadás', body: 'A vendégszám, a partvonal és a szezon hossza határozta meg a flotta méretét és a deszka-összetételt.' },
+        { title: 'Márkás minta', body: 'A színeket és a logót fizikai deszkán hagytuk jóvá a gyártás előtt.' },
+        { title: 'Gyártás és minőségellenőrzés', body: '100 deszka készült, a teljes sorozat során több ponton ellenőrizve.' },
+        { title: 'Szállítás és megújítás', body: 'Szezonális szállítás, alkatrészek és megújítási program a következő szezonokra.' },
+      ],
+      result:
+        'A flotta időben, a szezon kezdetére készült el, a deszkák a szezonok között egyetlen helyiségben tárolhatók, a vendégek márkás felszerelésre adott visszajelzése pedig a flotta bővítését motiválta a következő évben.',
+      outcome: 'Időben indul a szezon elején, 100%-ban márkás flotta, bővítés a következő szezonban.',
+      customizations: [
+        'Platform, méret és szerkezet a napi bérleti használathoz kiválasztva',
+        'Teljes deck felületű grafika az ingatlan színvilágában',
+        'Éljelölés és logópozíció fizikai mintán jóváhagyva',
+        'Saját márkás pumpák és kiegészítőkészlet minden deszkához',
+        'Flottaszámozás és színkódolás a teljes sorozaton',
+        'Kompakt tárolási elrendezés és szezonális megújítási kör',
+      ],
+      inspectionFocus: [
+        'Felfújás- és légzárósság-teszt minden deszkán',
+        'A szelep és a megerősített él állapota',
+        'A grafika pontossága és a szín egyezése a jóváhagyott mintával',
+        'A kiegészítők és a készlet teljessége minden deszkához',
+        'Dobozjelölés és flottacímkék a szállítás felszabadítása előtt',
+      ],
+      confidentiality:
+        'A felek megállapodása szerint az üdülőhely neve és a márkaanyagok nem kerülnek nyilvánosságra. A projektet a kereskedelmi bizalmasság védelme érdekében anonim módon mutatjuk be.',
+      tags: ['Márkás vendégflotta', 'Bérleti osztályú szerkezet', 'Szezonális megújítás'],
+    },
+    {
+      slug: 'private-label-launch',
+      customerType: 'Kiskereskedelem és outdoor márkák',
+      region: 'Európa',
+      productCategory: 'Felfújható all-around SUP (saját márka)',
+      projectStage: 'Minta-jóváhagyás → Validációs sorozat → Növelés',
+      manufacturingScope: 'Termék- és csomagolásgrafika, mintakészítés, gyártás, szerszámmegőrzés',
+      keyRequirements: 'Eladható sor belső SUP-tervezés és -gyártás nélkül',
+      qualityFocus: 'Grafikai verziók ellenőrzése, csomagolási pontosság, felszereltség-teljesség',
+      navLabel: 'Saját márkás bevezetés',
+      metaTitle: 'Saját márkás SUP-bevezetés | Márkabővítés — iSupfactory',
+      metaDescription:
+        'Hogyan bővült egy meglévő outdoor márka a SUP-szegmensbe egy saját márkás terméksorral — a logótól az első konténerig, skálázható MOQ-val.',
+      kicker: 'Saját márka projekt',
+      h1: 'Hogyan indított el egy outdoor márka egy saját márkás SUP-sort, a logótól az első konténerig',
+      intro: [
+        'Egy már bejáratott márkával rendelkező sportszerforgalmazó gyári kapcsolatok kiépítése nélkül szeretett volna belépni az evezős sportokba — saját neve alatt eladható SUP-sorral.',
+      ],
+      industry: 'Kiskereskedelem és outdoor márkák',
+      requirement: 'Saját márkás SUP-sor — logó, színek és csomagolás validált platformokon, első 50 darabos sorozattal.',
+      challenge:
+        'Saját SUP-tervezőcsapat és gyártási tapasztalat nélkül, és elég kicsi első rendeléssel ahhoz, hogy a növelés előtt tesztelni lehessen a piacot.',
+      solution:
+        'Teljes termék- és csomagolásgrafika a márkaanyagokból, 50 darabos validációs sorozat, majd növelés ugyanazokon a kipróbált platformokon, a szerszámok a márkánál maradnak.',
+      product: 'Saját márkás felfújható SUP — deck, pumpa, háttáska és nyomtatott dobozok, minden saját márkázott.',
+      process: [
+        { title: 'Márka-brief', body: 'A logót, a színeket és a márkakönyvet deszka- és csomagolásgrafikává ültettük át.' },
+        { title: 'Minta-jóváhagyás', body: 'A fizikai minta igazolta a kivitelezést, a színeket és a csomagolást.' },
+        { title: 'Validációs sorozat', body: 'Az első 50 darabos sorozat a növelés előtt elfogyott.' },
+        { title: 'Növelés', body: 'Konténeres rendelési szintű gyártás állandó minőséggel; a dizájn a márka tulajdona marad.' },
+      ],
+      result:
+        'A sor egyetlen szezon alatt elfogyott a validációs sorozattal, majd konténeres rendelésig nőtt — minden dizájn és szerszám a márka birtokában maradt.',
+      outcome: 'Egy szezonos validálás, konténeres rendelésig történő növelés.',
+      customizations: [
+        'Platformok, méretek és deszkaszínek a márkasorhoz igazítva',
+        'Deck-, alj- és csomagolásgrafika a márkaanyagokból',
+        'Saját márkás pumpa, háttáska és kiegészítőkészlet',
+        'Nyomtatott kiskereskedelmi dobozok és címkehelyezés',
+        'Vonalkód- és használati útmutató-változat a célpiacra',
+        'A szerszámok és a grafika a márkánál marad',
+      ],
+      inspectionFocus: [
+        'A grafikai verzió egyezése a jóváhagyott fájlokkal',
+        'A szín és a kivitelezés pontossága a fizikai mintán',
+        'A csomagolás, a vonalkód és az útmutató ellenőrzése',
+        'A készlet teljessége a teljes validációs sorozaton',
+        'Pontszerű légzárósság-ellenőrzések a gyártás során',
+      ],
+      confidentiality:
+        'A felek megállapodása szerint a márka neve és a kereskedelmi részletek nem kerülnek nyilvánosságra. A projektet a kereskedelmi bizalmasság védelme érdekében anonim módon mutatjuk be.',
+      tags: ['Márkabővítés', 'Csomagolástervezés', 'Skálázható MOQ'],
+    },
+    {
+      slug: 'club-team-boards',
+      customerType: 'Evezős klubok és csapatok',
+      region: 'Észak-Amerika',
+      productCategory: 'Felfújható SUP edzésdeszka',
+      projectStage: 'Minta-jóváhagyás → Flottagyártás → Bővítési megrendelés',
+      manufacturingScope: 'Klubarculat, flottagyártás, alkatrész-támogatás',
+      keyRequirements: 'Egységes csapatmegjelenés, szűk költségvetés, azonos jövőbeli bővítés',
+      qualityFocus: 'Grafikai pontosság, légzárósság, felszereltség-teljesség, az utánrendelések konzisztenciája',
+      navLabel: 'Klub csapatdeszkák',
+      metaTitle: 'Klub csapat-SUP deszkák | Márkás flottamegújítás — iSupfactory',
+      metaDescription:
+        'Hogyan váltott egy evezős klub új vizuális arculatra, és újította meg flottáját 25 márkás edzésdeszkával — csapatgrafika, alkatrész-támogatás és konzisztens utánrendelések.',
+      kicker: 'Klubprojekt',
+      h1: 'Hogyan kapott egy evezős klub új vizuális arculatot egy 25 deszkás edzésflotta számára',
+      intro: [
+        'Egy evezős klub megújította vizuális arculatát, és azt szerette volna, hogy a felszerelés is igazodjon ehhez — egységes csapatflotta az edzéshez és a versenyekhez, inhomogén készlet nélkül.',
+      ],
+      industry: 'Evezős klubok és csapatok',
+      requirement: '25 márkás edzésdeszka a klub nevével, színeivel és logójával, valamint pótalkatrészek.',
+      challenge:
+        'A meglévő flotta inhomogén és arculat nélküli volt; a költségvetés szűk volt, a jövőbeli bővítéshez pedig azonos utánrendelhető készletre volt szükség.',
+      solution:
+        'A klub identitása minden deszkán, flottatarifa a mennyiségre, valamint pótalkatrészek és javítási útmutatók a deszkák élettartamának meghosszabbításához.',
+      product: 'Egyedi csapat SUP — edzőforma klubgrafikával, valamint tartalék uszonyok és javítókészletek.',
+      process: [
+        { title: 'Klubadatok', body: 'A taglétszámot, az edzéstípusokat és a jelenlegi felszerelést elemeztük.' },
+        { title: 'Deszkaválasztás', body: 'Az edzés- és kezdőformákat a klub programjához igazítottuk.' },
+        { title: 'Arculat felvitele', body: 'A klub nevét, színeit és logóját a teljes flottára rányomtattuk.' },
+        { title: 'Szállítás és bővítés', body: 'A flotta alkatrészekkel került leszállításra; azonos utánrendelés a bővítéshez.' },
+      ],
+      result:
+        'A tagok egységes márkás felszereléssel edzenek, a klub pedig a következő szezonban azonos utánrendeléssel, ugyanolyan minőségben bővítette flottáját.',
+      outcome: 'Egységes flotta, azonos bővítési rendelés.',
+      customizations: [
+        'Az edzés- és kezdőformák a klub programjához igazítva',
+        'A klub neve, színei és logója a teljes flottán',
+        'Deszkaszámozás és méret szerinti csoportosítás minden edzéscsoporthoz',
+        'Tartalék uszonyok és javítókészletek flotta-kiegészítőként',
+        'Rögzített specifikáció az azonos utánrendeléshez és bővítéshez',
+      ],
+      inspectionFocus: [
+        'A klub nevének, színeinek és logójának grafikai pontossága',
+        'Felfújás- és légzárósság-ellenőrzés',
+        'A kiegészítők és a javítókészlet teljessége',
+        'A színkonzisztencia a teljes 25 deszkás sorozaton',
+      ],
+      confidentiality:
+        'A felek megállapodása szerint a klub neve és helyszíne nem kerül nyilvánosságra. A projektet a kereskedelmi bizalmasság védelme érdekében anonim módon mutatjuk be.',
+      tags: ['Klubarculat', 'Flottatarifa', 'Alkatrész-támogatás'],
+    },
+    {
+      slug: 'school-program-fleet',
+      customerType: 'Oktatási és ifjúsági programok',
+      region: 'Európa',
+      productCategory: 'Kezdő és több személyes felfújható SUP',
+      projectStage: 'Programelemzés → Minta-jóváhagyás → Flottaszállítás',
+      manufacturingScope: 'Csomagtervezés, gyártás, pótalkatrészek és megújítási támogatás',
+      keyRequirements: 'Biztonságot előtérbe helyező felszerelés, osztályonkénti mennyiségek, kevés személyzettel történő üzemeltetés',
+      qualityFocus: 'Stabilitás, légzárósság, felszereltség-teljesség, használati útmutató',
+      navLabel: 'Iskolai programflotta',
+      metaTitle: 'Iskolai SUP-program | Kezdő flotta — iSupfactory',
+      metaDescription:
+        'Hogyan indított egy iskola fakultatív evezős szakot 15 kezdő és több személyes deszkából álló flottával — biztonságot előtérbe helyező felszerelés az oktatáshoz.',
+      kicker: 'Iskolai projekt',
+      h1: 'Hogyan indított egy iskola 15 deszkás kezdő flottát az evezős sport oktatásához',
+      intro: [
+        'Egy iskola, amely fakultatív evezős szakot indított, stabil és biztonságos felszerelést igényelt az első alkalommal evezőknek, osztályokra méretezve és kevés személyzettel is könnyen üzemeltethetően.',
+      ],
+      industry: 'Oktatási és ifjúsági programok',
+      requirement: 'Kezdő flotta az osztálylétszámokra méretezve, több személyes deszkákkal az első órákhoz.',
+      challenge:
+        'Különböző felkészültségi szintek, szigorú biztonsági előírások, iskolai beszerzési ciklusok és olyan költségvetés, amelynek a jövőbeli évfolyamokat is fedeznie kellett.',
+      solution:
+        'Széles, nagy térfogatú kezdő deszkák és több személyes deszkák, az osztályonkénti mennyiségekhez igazított programtarifa, valamint világos használati útmutatók az oktatóknak.',
+      product: 'Kezdő SUP-flotta — stabil platformok megerősített szerkezettel a program hosszú élettartamáért.',
+      process: [
+        { title: 'Programelemzés', body: 'Az osztálylétszám, a vízfelület és az oktatói szervezés határozta meg a csomagot.' },
+        { title: 'Csomag összeállítása', body: 'A deszkatípusokat és darabszámokat az oktatási igényekhez rendeltük.' },
+        { title: 'Minta-jóváhagyás', body: 'A stabilitást és a szerkezetet fizikai deszkán ellenőriztük.' },
+        { title: 'Szállítás és megújítás', body: 'Nagy mennyiségű szállítás, pótalkatrészek és utánrendelések az új évfolyamokra.' },
+      ],
+      result:
+        'Az oktatók gyorsabb előrehaladást tapasztaltak az első foglalkozásokon a stabil platformokon, a program pedig a következő évben azonos utánrendeléssel újította meg felszerelését.',
+      outcome: 'Gyorsabb tanulási görbe, a következő évben megújított felszerelés.',
+      customizations: [
+        'Széles, nagy térfogatú kezdőplatformok az első foglalkozásokhoz',
+        'Több személyes deszkák a csoportos órákhoz',
+        'Deszkaméretek és darabszámok az osztálylétszámokhoz igazítva',
+        'Világos használati útmutató és oktatási címkék',
+        'Megerősített szerkezet a program hosszú élettartamáért',
+        'Rendelési specifikáció a nagy mennyiségű szállításhoz és a megújításhoz',
+      ],
+      inspectionFocus: [
+        'A stabilitás és a deck-elrendezés ellenőrzése',
+        'Felfújás- és légzárósság-teszt minden deszkán',
+        'A kiegészítők teljessége minden deszkához és az osztálykészlethez',
+        'A használati útmutató és a címkézés pontossága',
+        'Dobozjelölés és osztálykészlet-csomagolás ellenőrzése',
+      ],
+      confidentiality:
+        'A felek megállapodása szerint az iskola neve és régiója nem kerül nyilvánosságra. A projektet a kereskedelmi bizalmasság védelme érdekében anonim módon mutatjuk be.',
+      tags: ['Kezdő flotta', 'Programindítás', 'Megújítási megrendelések'],
+    },
+    {
+      slug: 'distributor-line-expansion',
+      customerType: 'Forgalmazók és nagykereskedők',
+      region: 'Két exportrégió',
+      productCategory: 'Középkategóriás felfújható SUP (6 SKU)',
+      projectStage: 'Választéktervezés → Minta-jóváhagyás → Több piacra történő szállítás',
+      manufacturingScope: 'Deszkák, kiegészítők és kiskereskedelmi csomagolás egyetlen programban',
+      keyRequirements: 'Egyetlen minőségi kapcsolattartó, egységes márkaarculat, alacsony készlet SKU-nként',
+      qualityFocus: 'Légzárósság, grafikai pontosság, vonalkód- és címkepontosság, anyagjegyzék-egyezés',
+      navLabel: 'Forgalmazói választékbővítés',
+      metaTitle: 'Forgalmazói SUP-választékbővítés | 6 SKU-s program — iSupfactory',
+      metaDescription:
+        'Hogyan egészítette ki egy vízi sportok forgalmazója a választékát egy teljes középkategóriás SUP-sorral, hat SKU-val — egyetlen gyár, egyetlen program, több piacra irányuló export.',
+      kicker: 'Forgalmazói projekt',
+      h1: 'Hogyan indított el egy forgalmazó egy 6 SKU-s SUP-sort két piacon',
+      intro: [
+        'Egy vízi sportok forgalmazója, amely korábban kenukat és kiegészítőket értékesített, saját felfújható SUP-sort szeretett volna — anélkül, hogy a deszkák, tölcsérek és pumpák beszerzését több gyár között szétaprózza.',
+      ],
+      industry: 'Forgalmazók és nagykereskedők',
+      requirement:
+        'Középkategóriás SUP-sor hat SKU-val (10′6″-tól 12′6″-ig, kiegészítőkészlet-csomagokkal), két régióba irányuló exporttal.',
+      challenge:
+        'A deszkákra, tölcsérekre és pumpákra külön gyárak következetlen márkaarculatot, három külön beszerzési pontot és a garanciális reklamációkhoz egyetlen felelős kapcsolattartó hiányát jelentették.',
+      solution:
+        'Egyetlen program, amely a deszkákat, a kiegészítőket és a kiskereskedelmi csomagolást fedi le; közös kiegészítőkészletek az SKU-nkénti készlet csökkentésére; és az egyes piacok szerkezetéhez igazított szállítási opciók.',
+      product:
+        'Hat márkás kiskereskedelmi SKU — felfújható SUP-platformok teljes felszereltséggel, rekeszelőkkel, nyomtatott dobozokban.',
+      process: [
+        { title: 'Választéktervezés', body: 'A piaci hiányosságok és az árszintek határozták meg a hat SKU-t és a csomagtartalmakat.' },
+        { title: 'Egységes márkaarculat', body: 'Egyetlen dizájnrendszert alkalmaztunk a deszkákon, tölcséreken, pumpákon és dobozokon.' },
+        { title: 'Programtarifa', body: 'Volumenár érvényesült a teljes programra, nem SKU-nként.' },
+        { title: 'Különböző piaci szállítás', body: 'Standard exportfeltételek a hazai régióba, teljes körű szolgáltatási feltételek a második piacra.' },
+      ],
+      result:
+        'A sor egyetlen szezon alatt mindkét piacon bevezetésre került; a közös kiegészítőkészletek csökkentették a raktárkészletet, a garanciális ügyeket pedig egyetlen gyári kapcsolattartó intézte.',
+      outcome: 'Egy szezonon belüli több piacos bevezetés, alacsonyabb raktárkészlet, egyetlen garanciális pont.',
+      customizations: [
+        'Hat SKU 10′6″-tól 12′6″-ig, kiegészítőkészlet-csomagokkal',
+        'Egyetlen dizájnrendszer a deszkákon, tölcséreken, pumpákon és dobozokon',
+        'Közös kiegészítőkészletek az SKU-nkénti készlet csökkentésére',
+        'Teljes készletek rekeszelőkkel, nyomtatott kiskereskedelmi dobozokban',
+        'Vonalkód-, címke- és útmutatóváltozatok minden célpiacra',
+        'Szállítási feltételek és csomagolási elrendezés az egyes piacokhoz igazítva',
+      ],
+      inspectionFocus: [
+        'Az anyagjegyzék egyezése minden SKU-konfigurációhoz',
+        'A grafika és a márkaarculat pontossága a hat SKU-n',
+        'A vonalkód- és címkepontosság minden piacra',
+        'A kiegészítőkészlet teljessége és a rekeszelős csomagolás',
+        'Légzárósság-ellenőrzések a teljes sorozaton',
+      ],
+      confidentiality:
+        'A felek megállapodása szerint a forgalmazó neve és az ügyfélkör nem kerül nyilvánosságra. A projektet a kereskedelmi bizalmasság védelme érdekében anonim módon mutatjuk be.',
+      tags: ['Több SKU-s program', 'Teljes kiskereskedelmi készletek'],
+    },
+    {
+      slug: 'startup-brand-zero-to-one',
+      customerType: 'Induló SUP-márkák',
+      region: 'Észak-Amerika',
+      productCategory: 'Felfújható all-around ODM SUP',
+      projectStage: 'Koncepció → Próbasorozat → Bevezetési megrendelés',
+      manufacturingScope: 'ODM-fejlesztés, grafika, csomagolás, gyártás',
+      keyRequirements: 'Alacsony MOQ első sorozat, bevezetési dátumhoz igazodás, szerszámmegőrzés a márkánál',
+      qualityFocus: 'Légzárósság, grafikai pontosság, csomagolás-ellenőrzés',
+      navLabel: 'Induló márka 0→1 bevezetés',
+      metaTitle: 'Induló SUP-márka bevezetése | A koncepciótól az első sorozatig — iSupfactory',
+      metaDescription:
+        'Hogyan jutott el egy induló SUP-márka a koncepciótól az elfogyott első sorozatig — ODM-fejlesztés, 10 darabos próbasorozat, majd 200 darabos márkás bevezetési megrendelés.',
+      kicker: 'Induló projekt',
+      h1: 'A koncepciótól egy elfogyott, 200 deszkás bevezetésig egy induló SUP-márka számára',
+      intro: [
+        'Két alapító, közönséggel, de gyár nélkül, saját SUP-okat szeretett volna árulni — ODM-deszkával, saját specifikációik szerint fejlesztve, olyan bevezetési megrendeléssel, amely nem terheli meg őket túlságosan.',
+      ],
+      industry: 'Induló SUP-márkák',
+      requirement: 'ODM-fejlesztés alacsony MOQ-val: 10 darabos próbasorozat a validáláshoz, majd 200 darab a bevezetéshez.',
+      challenge:
+        'Nem volt tervezőcsapat, importtapasztalat, és a legtöbb gyár számára túl kicsi első rendelés — valamint az északi félteke szezonjához kötött bevezetési dátum.',
+      solution:
+        'ODM-fejlesztés az ő koncepciójukból, validált platformon; 10 darabos próbasorozat, amely a mintákat és a beszerzési ellenőrzést fedezi; majd 200 darabos márkás bevezetési megrendelés, a szerszámok a márkánál maradnak.',
+      product: 'Márkás ODM-felfújható SUP — egyedi deckgrafika, csomagolás és értékesítésre kész dobozméretek.',
+      process: [
+        { title: 'Koncepció-beszélgetés', body: 'A célzott evező, az árszint és a bevezetési dátum határozta meg az alapplatformot.' },
+        { title: 'Próbasorozat', body: 'A 10 darab a teljes vonalon validálta a terméket és a csomagolást.' },
+        { title: 'Bevezetési megrendelés', body: '200 darab készült az ellenőrzött grafikával és dobozspecifikációval.' },
+        { title: 'Növelési út', body: 'A szerszámok a márkánál maradnak; az utánrendelések kedvezőbb árakon zajlanak.' },
+      ],
+      result:
+        'Az első sorozat heteken belül elfogyott a szezon elején; a próbasorozat visszajelzései egy csomagolási problémát javítottak ki, mielőtt a nagy rendelés gyártásba ment.',
+      outcome: 'Elfogyott bevezetési sorozat, a növelés előtti csomagolásjavítás, kialakított utánrendelési út.',
+      customizations: [
+        'ODM-deszka a márka koncepciójából, validált platformon',
+        'Egyedi deckgrafika és márkás csomagolás',
+        'Értékesítésre kész dobozméretek a bevezetési rendeléshez',
+        'Kiegészítőkészlet és felszereltség a célzott evezőhöz igazítva',
+        'A szerszámok és a grafika a márkánál marad',
+        'Gyártási ütemezés a bevezetési dátumhoz igazítva',
+      ],
+      inspectionFocus: [
+        'A grafika pontossága a jóváhagyott fájlokhoz képest',
+        'Légzárósság-ellenőrzés a próba- és a bevezetési sorozaton',
+        'Csomagolás- és dobozellenőrzés — beleértve a próbasorozatban javított pontot',
+        'A kiegészítők és a készlet teljessége',
+      ],
+      confidentiality:
+        'A felek megállapodása szerint a márka neve és a bevezetés részletei nem kerülnek nyilvánosságra. A projektet a kereskedelmi bizalmasság védelme érdekében anonim módon mutatjuk be.',
+      tags: ['ODM-fejlesztés', 'Alacsony MOQ próbasorozat', 'Szezon szerinti tervezés'],
+    },
+    {
+      slug: 'rental-fleet-multi-site',
+      customerType: 'Bérleti flottákat üzemeltető szereplők',
+      region: 'Észak-Amerika',
+      productCategory: 'Bérleti osztályú felfújható all-around SUP',
+      projectStage: 'Flotta-felülvizsgálat → Egységes gyártás → Szezonális megújítás',
+      manufacturingScope: 'Flotta-specifikáció, gyártás, alkatrészcsomagok, megújítási program',
+      keyRequirements: 'Egységes deszka minden telephelyen, ellenáll a nagy igénybevételű bérleti használatnak',
+      qualityFocus: 'Megerősített szerkezet ellenőrzése, légzárósság, felszereltség-teljesség',
+      navLabel: 'Több telephelyes bérleti flotta',
+      metaTitle: 'Bérleti flottabővítés | 200 deszka, 3 telephely — iSupfactory',
+      metaDescription:
+        'Hogyan cserélte le egy több telephelyes kölcsönzőüzemeltető az inhomogén készletét 200 egységes deszkára három helyszínen — flottatarifa, szezonális megújítás és alkatrészellátás.',
+      kicker: 'Bérleti projekt',
+      h1: 'Egy 200 deszkás bérleti flotta szabványosítása három telephelyen egy flottaüzemeltető számára',
+      intro: [
+        'Egy három vízparti telephelyes kölcsönzőüzemeltető az inhomogén készlet helyett egységes flottát igényelt — ugyanaz a deszka minden telephelyen, flottavolumen-áron.',
+      ],
+      industry: 'Bérleti flottákat üzemeltető szereplők',
+      requirement: '200 bérleti osztályú deszka három telephelyre, szezonális megújítással és helyszínen javítható alkatrészekkel.',
+      challenge:
+        'A különböző korú inhomogén készlet bonyolította a javításokat és az árazást; a nagy igénybevételű bérleti használat megerősített szerkezetet igényel, a tárolás a szezonok között pedig három telephelyen oszlott meg.',
+      solution:
+        'Egyetlen bérleti osztályú platform minden telephelyen, megerősített élekkel és UV-álló anyagokkal, flottatarifa a 200 deszkás mennyiségre, és telephelyenként egy-egy alkatrészcsomag javítási útmutatóval.',
+      product: 'Bérleti osztályú felfújható SUP — 11′-es all-around platform megerősített szerkezettel és javítókészletekkel.',
+      process: [
+        { title: 'Flotta-felülvizsgálat', body: 'Az egyes telephelyek volumene és kihasználtsága határozta meg a helyszínek közötti megosztást.' },
+        { title: 'Egységes specifikáció', body: 'Egyetlen deszka mindenhol — egyszerűbb javítás, árazás és betanítás.' },
+        { title: 'Flottatarifa', body: 'Volumenkedvezmény a 200 deszkás összesített rendelésre.' },
+        { title: 'Alkatrészek és megújítás', body: 'Telephelyenkénti alkatrészcsomagok és meghatározott szezonális csereciklus.' },
+      ],
+      result:
+        'Az egységes flotta csökkentette a telephelyenkénti javítási zűrzavart, az összesített rendelés flottatarifát nyitott, a 200 deszkás program pedig a szezonális megújítás alapjává vált.',
+      outcome: 'Egységes üzemmenet, alacsonyabb egységköltség, ismételhető szezonális ciklus.',
+      customizations: [
+        'Egyetlen bérleti osztályú platform mindhárom telephelyen',
+        'Megerősített élek és UV-álló anyagok a nagy igénybevételű bérleti használathoz',
+        'Telephelyenkénti megosztás és flottaszámozás minden helyszínre',
+        'Telephelyenkénti alkatrészcsomagok javítási útmutatóval',
+        'Meghatározott szezonális csereciklus',
+      ],
+      inspectionFocus: [
+        'A megerősített szerkezet ellenőrzése minden deszkán',
+        'Felfújás- és légzárósság-teszt minden deszkán',
+        'A kiegészítők és a javítókészlet teljessége telephelyenként',
+        'A flottaszámozás és a telephelyi címkézés pontossága',
+        'Csomagolás-ellenőrzések a külön telephelyekre történő szállításhoz',
+      ],
+      confidentiality:
+        'A felek megállapodása szerint az üzemeltető neve és a bérleti pontok helyszínei nem kerülnek nyilvánosságra. A projektet a kereskedelmi bizalmasság védelme érdekében anonim módon mutatjuk be.',
+      tags: ['Több telephelyes flotta', 'Bérleti osztályú szerkezet', 'Szezonális megújítás'],
+    },
+    {
+      slug: 'touring-sup-range',
+      customerType: 'Outdoor és vízi sportok forgalmazói',
+      region: 'Európa',
+      productCategory: 'Felfújható touring SUP',
+      projectStage: 'Termék-brief → Minta-jóváhagyás → Volumengyártás',
+      manufacturingScope: 'Platformelemzés, grafika, kiegészítő-konfiguráció, kiskereskedelmi csomagolás és gyártás',
+      keyRequirements: 'Touring-teljesítmény, projektspecifikus grafika, teljes kiskereskedelmi készlet',
+      qualityFocus: 'Légzárósság, grafikai pontosság, felszereltség-teljesség, dobozjelölés',
+      navLabel: 'SUP Touring sor',
+      metaTitle: 'SUP Touring sor fejlesztése | Outdoor forgalmazó — iSupfactory',
+      metaDescription:
+        'Hogyan támogatta az iSupfactory egy európai outdoor forgalmazó touring SUP-sorát — platformelemzés, projektspecifikus grafika, kiegészítő-konfiguráció és kiskereskedelmi csomagolás.',
+      kicker: 'Touring-projekt',
+      h1: 'Touring SUP-sor fejlesztése egy európai outdoor forgalmazó számára',
+      intro: [
+        'Egyedi felfújható SUP-projekt, amely a platformelemzéstől, a projektspecifikus grafikán és a kiegészítő-konfiguráció át a kiskereskedelmi csomagolásig és minőségtervezésig tart — a minta-jóváhagyástól a szállítás előkészítéséig.',
+      ],
+      industry: 'Forgalmazók és nagykereskedők',
+      requirement: 'Touring SUP-sor projektspecifikus grafikával, kiegészítő-konfigurációval és kiskereskedelmi csomagolással, a minta-jóváhagyástól a szállításig kontrollálva.',
+      challenge:
+        'A touring-evezők sebességnél stabilitást és kiszámítható csúszást várnak, ezért a platformot, a méreteket és a térfogatot a gyártás előtt elemezni kellett. A grafikának illeszkednie kellett az él-, EVA- és szeleppozíciókhoz, és minden kiskereskedelmi készletnek teljesnek kellett lennie a teljes sorban.',
+      solution:
+        'Platform- és méretelemzés a touring-teljesítményhez, projektspecifikus grafika a deszka elemeihez igazítva, pumpával, pórázszal és táskával ellátott kiegészítő-konfiguráció, kiskereskedelmi csomagolástervezés és kontrollált volumengyártás meghatározott minőségi ellenőrzési pontokkal.',
+      product:
+        'Felfújható touring SUP-sor — teljesítményplatform egyedi grafikával, teljes kiegészítőkészlettel és értékesítésre kész csomagolással.',
+      process: [
+        { title: 'Platformelemzés', body: 'A touring-méreteket, a térfogatot és az élprofilt a célzott evezőhöz és piachoz igazítottuk.' },
+        { title: 'Specifikáció és grafika', body: 'A műszaki specifikáció, a grafikai illesztés és a jóváhagyott anyagjegyzék elkészült.' },
+        { title: 'Minta-jóváhagyás', body: 'A szerkezetet, a grafikát és a készletet fizikai deszkán igazoltuk.' },
+        { title: 'Gyártás és ellenőrzés', body: 'Volumengyártás minőségi ellenőrzési pontokkal, csomagolás-ellenőrzés és a szállítás felszabadítása.' },
+      ],
+      result:
+        'A sor a minta-jóváhagyástól a szállítás előkészítéséig kontrollált termék-, grafika-, anyagjegyzék- és csomagolási dokumentáció mellett haladt végig — a jóváhagyott minta szolgált referenciaként a gyártáshoz és a végső ellenőrzéshez.',
+      outcome: 'Kontrollált út mintától a gyártásig; a grafika és a csomagolás a gyártás előtt rögzítésre került.',
+      customizations: [
+        'Platform, méretek és térfogat-konfiguráció a touringhoz',
+        'Projektspecifikus grafika a felső felületen, a deszka alján és az éleken',
+        'EVA-pad elrendezés és színkonfiguráció',
+        'Uszonyrendszer, bungee-elrendezés és kiegészítőkészlet',
+        'Márkás táska, használati útmutató-változat és kiskereskedelmi csomagolás',
+        'Dobozjelölés és vonalkód-előírások a célpiacra',
+      ],
+      inspectionFocus: [
+        'Felfújás- és légzárósság-ellenőrzés',
+        'Szelep-, él- és varrásvizsgálat',
+        'A grafika pontossága a jóváhagyott fájlokhoz képest',
+        'A kiegészítők és a készlet teljessége',
+        'A kiskereskedelmi csomagolás, a vonalkód és a dobozjelölés ellenőrzése',
+      ],
+      confidentiality:
+        'A felek megállapodása szerint a forgalmazó neve és az ügyfélkör nem kerül nyilvánosságra. A projektet a kereskedelmi bizalmasság védelme érdekében anonim módon mutatjuk be.',
+      tags: ['Touring SUP sor', 'Egyedi grafika', 'Kiskereskedelmi csomagolás'],
+    },
+    {
+      slug: 'fishing-sup-program',
+      customerType: 'Outdoor kiskereskedők',
+      region: 'Észak-Amerika',
+      productCategory: 'Felfújható horgász SUP',
+      projectStage: 'Koncepcióelemzés → Minta-jóváhagyás → Programgyártás',
+      manufacturingScope: 'Platform-konfiguráció, kiegészítő-elrendezés, csomagolás és gyártás',
+      keyRequirements: 'Horgászkiegészítők integrálása, stabil platform, rendezett készlet',
+      qualityFocus: 'Légzárósság, kiegészítők rögzítése, grafikai pontosság, felszereltség-teljesség',
+      navLabel: 'Horgász SUP program',
+      metaTitle: 'Horgász SUP fejlesztése | Kiegészítő-elrendezés és készlet — iSupfactory',
+      metaDescription:
+        'Hogyan fejlesztett az iSupfactory horgász SUP-konfigurációt egy outdoor kiskereskedőnek — kiegészítő-elrendezés, rendezett készlet és értékesítésre kész csomagolás egyetlen kontrollált programban.',
+      kicker: 'Horgászprojekt',
+      h1: 'Horgász SUP fejlesztése egy outdoor kiskereskedőnek — kiegészítő-elrendezés és készletkonfiguráció',
+      intro: [
+        'Egy horgászatra szánt SUP-projekt: stabil platform horgászkiegészítő-zónákkal, rendezett készlet és értékesítésre kész csomagolás — a koncepcióelemzéstől a programgyártásig.',
+      ],
+      industry: 'Outdoor kiskereskedelem és márkák',
+      requirement: 'Horgász SUP-konfiguráció kiegészítőrögzítéssel, rendezett készlettel és kiskereskedelmi csomagolással, a koncepcióelemzéstől a programgyártásig.',
+      challenge:
+        'A horgászdeszkáknak kiegészítőrögzítésre van szükségük — bot- és orsótartók, D-gyűrűk, dobozzónák — a stabilitás feláldozása nélkül. A készletnek a deszkán rendezetten kell maradnia, és a csomagolásnak világosan kell kommunikálnia a kategóriát a kiskereskedelemben.',
+      solution:
+        'Széles, stabil platform meghatározott kiegészítőzónákkal, D-gyűrű- és bungeeszalag-elrendezéssel a horgászfelszereléshez, javítókészlettel ellátott rendezett készlet, és egyetlen kontrollált programban fejlesztett kiskereskedelmi csomagolás.',
+      product: 'Felfújható horgász SUP — stabil platform horgászkiegészítő-zónákkal, rendezett készlettel és értékesítésre kész csomagolással.',
+      process: [
+        { title: 'Koncepcióelemzés', body: 'A célzott használat, a szállított felszerelés és a készletszerkezet határozta meg a konfigurációt.' },
+        { title: 'Kiegészítő-elrendezés', body: 'A D-gyűrűket, a bungeeszalagokat és a tárolózónákat a deszkán helyeztük el.' },
+        { title: 'Minta-jóváhagyás', body: 'A stabilitást és a kiegészítők rögzítését fizikai deszkán ellenőriztük.' },
+        { title: 'Programgyártás', body: 'Meghatározott minőségi ellenőrzési pontok, készletellenőrzés és a szállítás felszabadítása.' },
+      ],
+      result:
+        'A konfigurációt a jóváhagyott mintán igazoltuk — a kiegészítők rögzítése, a készletszerkezet és a csomagolás a gyártás előtt összehangolódott —, a program pedig ellenőrzött készletekkel került leszállításra.',
+      outcome: 'A kiegészítő-elrendezés és a készlet a mintafázisban rögzült; ellenőrzött készletek kerültek leszállításra.',
+      customizations: [
+        'Széles, stabil platform horgászkiegészítő-zónákkal',
+        'Bot- és orsótartók, D-gyűrűk és bungeeszalagok elhelyezése',
+        'Deck-elrendezés dobozok és horgászfelszerelés számára',
+        'Pumpa-, uszony- és pórázválaszték horgászhasználathoz',
+        'Rendezett kiegészítőkészlet és javítókészlet',
+        'Kiskereskedelmi csomagolás a horgász SUP kategóriához',
+        'Vonalkód és dobozjelölés a célpiacra',
+      ],
+      inspectionFocus: [
+        'A kiegészítők rögzítésének és a D-gyűrűk elhelyezésének ellenőrzése',
+        'Felfújás- és légzárósság-ellenőrzés',
+        'A grafika és a deck-elrendezés pontossága',
+        'A készlet teljessége és a kiegészítők elrendezése',
+        'A kiskereskedelmi csomagolás és a dobozjelölés ellenőrzése',
+      ],
+      confidentiality:
+        'A felek megállapodása szerint a kiskereskedő neve és az értékesítési csatorna részletei nem kerülnek nyilvánosságra. A projektet a kereskedelmi bizalmasság védelme érdekében anonim módon mutatjuk be.',
+      tags: ['Horgászkonfiguráció', 'Kiegészítő-elrendezés', 'Készletszervezés'],
+    },
+    {
+      slug: 'yoga-sup-program',
+      customerType: 'Vízi sportok iskolái és programjai',
+      region: 'Európa',
+      productCategory: 'Felfújható jóga SUP',
+      projectStage: 'Programelemzés → Minta-jóváhagyás → Flottaszállítás',
+      manufacturingScope: 'Stabil platform-konfiguráció, deck borítás, gyártás és programcsomagolás',
+      keyRequirements: 'Stabilitás a csoportos gyakorláshoz, teljes EVA deck borítás, egységes flotta',
+      qualityFocus: 'Deck borítás, légzárósság, grafikai pontosság, készlet-teljesség',
+      navLabel: 'Jóga SUP program',
+      metaTitle: 'Jóga SUP fejlesztés | Edzésprogram — iSupfactory',
+      metaDescription:
+        'Hogyan fejlesztett az iSupfactory egy stabil jóga-SUP-konfigurációt egy vízi sportok edzésprogramjához — teljes deck borítás és egységes programflotta.',
+      kicker: 'Jógaprojekt',
+      h1: 'Stabil jóga-SUP-konfiguráció fejlesztése egy vízi sportok edzésprogramjához',
+      intro: [
+        'Egy jóga-SUP-konfiguráció egy edzésprogramnak: széles, nagy térfogatú platform teljes EVA deck borítással, egységes flottaként gyártva a csoportos gyakorláshoz.',
+      ],
+      industry: 'Oktatási és ifjúsági programok',
+      requirement: 'Stabil jóga-SUP-konfiguráció teljes deck borítással a csoportos gyakorláshoz, programmennyiségben.',
+      challenge:
+        'A jóga gyakorlása széles, nagy térfogatú platformot igényel, amely a vízen kifogástalanul stabil marad. A csoportoknak egységes deszkákra van szükségük, az oktatóknak pedig világos útmutatásra és könnyű tárolásra a foglalkozások között.',
+      solution:
+        'Széles, nagy térfogatú platform teljes EVA deck borítással, egységes flottakonfiguráció a teljes programra, valamint oktatói útmutató és programcímkék.',
+      product: 'Felfújható jóga SUP — stabil platform teljes EVA-pad deck borítással és egységes programflotta.',
+      process: [
+        { title: 'Programelemzés', body: 'A gyakorlási stílus, a csoportlétszám és a tárolás határozta meg a konfigurációt.' },
+        { title: 'Konfiguráció', body: 'A platformot, a deck borítást és a kivitelezést a teljes flottára rögzítettük.' },
+        { title: 'Minta-jóváhagyás', body: 'A stabilitást és a deck borítást fizikai deszkán ellenőriztük.' },
+        { title: 'Flottaszállítás', body: 'A programmennyiség készlet- és csomagolás-ellenőrzéssel készült el.' },
+      ],
+      result:
+        'A flotta egyetlen egységes konfigurációként került kiszállításra — minden deszka megfelel a jóváhagyott mintának stabilitásban, deck borításban és kivitelezésben — oktatói útmutatókkal.',
+      outcome: 'Egységes flotta, megfelelés a jóváhagyott mintának; ellenőrzött programcsomagolás.',
+      customizations: [
+        'Széles, nagy térfogatú platform az álló pózok stabilitásához',
+        'Teljes EVA deck borítás a teljes használati felületen',
+        'Deck-elrendezés és szíjpozíciók a gyakorláshoz',
+        'Egységes szín és kivitelezés a teljes flottán',
+        'Oktatói útmutató és programcímkék',
+        'Tárolási és programcsomagolási elrendezés',
+      ],
+      inspectionFocus: [
+        'A deck borítás és az EVA ragasztás vizsgálata',
+        'Felfújás- és légzárósság-ellenőrzés',
+        'Stabilitás-ellenőrzés a jóváhagyott mintán',
+        'A grafika és a kivitelezés konzisztenciája a teljes sorozaton',
+        'Készlet-teljesség és programcsomagolás-ellenőrzések',
+      ],
+      confidentiality:
+        'A felek megállapodása szerint a program neve és helyszíne nem kerül nyilvánosságra. A projektet a kereskedelmi bizalmasság védelme érdekében anonim módon mutatjuk be.',
+      tags: ['Jógakonfiguráció', 'Teljes deck borítás', 'Programflotta'],
+    },
+  ],
 }
 
 export function getProject(locale: Locale, slug: string): ProjectData | undefined {
@@ -10862,6 +11528,12 @@ export const projectsMeta: Localized<ProjectsMeta> = {
     metaDescription:
       'Proiecte reale de producție SUP: cum au transformat resorturi, branduri, cluburi și școli cerințele de produs în planșe de vâsluire finalizate împreună cu iSupfactory.',
     h1: 'Proiecte — cum dezvoltăm produse SUP împreună cu clienții',
+  },
+  hu: {
+    metaTitle: 'SUP-termékfejlesztési projektek és esettanulmányok | iSupfactory',
+    metaDescription:
+      'Valódi SUP-gyártási projektek: hogyan alakítottak üdülőhelyek, márkák, klubok és iskolák termékkövetelményeket kész paddle-deszkákká az iSupfactoryval.',
+    h1: 'Projektek — hogyan fejlesztünk SUP-termékeket az ügyfelekkel',
   },
 }
 

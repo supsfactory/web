@@ -1,0 +1,134 @@
+meta:
+  title: 'B2B ügyfélmegoldások mátrixa | {SITE}'
+  description: 'A VATRAD teljes B2B ügyfélmegoldás-mátrixa, amely 24 ügyféltípust fogad le – a szabadidőségi startupoktól a tengeri természetvédelmi intézményekig.'
+  dateModified: '2026-08'
+
+hero:
+  tagline: Megoldások B2B ügyfeleknek
+  title: '24 B2B megoldás, amely illik az Ön vállalkozásához'
+  subtitle: 'A startup-alapítóktól a nemzetközi forgalmazókig – találja meg azt a VATRAD-megoldást, amely pontosan az Ön üzleti modelljéhez, szektorjához és céljaihoz készült.'
+  image:
+    src: https://assets.isupfactory.com/images/sups/factory/isupfactory-factory-building.webp
+    alt: A VATRAD gyár és a termelőüzem
+
+answer:
+  label: 'Közvetlen válasz'
+  text: 'Egyetlen gyár szolgálja ki az összes B2B ágat: projektenként megerősített MOQ-val végzett OEM/ODM-gyártás (minta 1–2 darab, pilótasor 20–50 darab, standard térfogat 150 m tekercsenként 90–100+ darab; közös márkától 5–10 darabtól), private label gyártás már validált platformokon, nagykereskedelmi forgalmazás, valamint flótaprogramok üdülők, klubok és iskolák számára. Minden ügyféltípushoz egy meghatározott megoldáskészlet tartozik – minták 7–12 napon belül, gyártás 25–35 nappal a megrendelés és az előleg kiállítása után.'
+  verified: '2026. szeptember'
+
+solutions:
+  title: Az ügyfelek megoldásmátrixa
+  subtitle: 'Minden ügyféltípus, a legfontosabb igénye és az ahhoz kidolgozott VATRAD megoldásoldal.'
+  items:
+    - clientType: Outdoor startup alapítója
+      need: Márka létrehozása
+      solutionPage: Építse fel saját SUP márkáját
+      link: /hu/solutions/private-label-sup
+    - clientType: Outdoor márkamenedzser
+      need: Az outdoor márka kiterjesztése a vizes sportokra
+      solutionPage: Terjesztse ki az outdoor márkát a vizes sportokra
+      link: /hu/solutions/private-label-sup
+    - clientType: Szervez tulajdonosa
+      need: A szörfüzlet korszerűsítése
+      solutionPage: Vezessen be felfújható technológiát a szörfüzletbe
+      link: /hu/products/surf
+    - clientType: Amazonon értékesítő
+      need: Az e-kereskedelem növelése
+      solutionPage: Termékdifferenciálás és gyors beszerzés
+      link: /hu/solutions/private-label-sup
+    - clientType: Horgászati felszerelést gyártó márka
+      need: Horgászati SUP
+      solutionPage: Hozza létre saját horgászati SUP márkáját
+      link: /hu/products/fishing
+    - clientType: Jóga- és wellnessmárka
+      need: Vizes wellnesstermékek
+      solutionPage: SUP-s jógafelszerelési megoldások
+      link: /hu/products/yoga
+    - clientType: Tartalomkészítői márka
+      need: Influencermárka
+      solutionPage: Kreatív kiadású SUP startup
+      link: /hu/solutions/private-label-sup
+    - clientType: Paddleklub alapítója
+      need: Flóta a klubnak
+      solutionPage: Kereskedelmi SUP flóta
+      link: /hu/solutions/club-sup
+    - clientType: Kölcsönző vállalkozás tulajdonosa
+      need: Kölcsönzési működés
+      solutionPage: Strapabíró flótamegoldás kölcsönzéshez
+      link: /hu/solutions/rental-operators
+    - clientType: Üdülői programvezető
+      need: Szállodai élmény
+      solutionPage: Vizes programcsomag üdülőknek
+      link: /hu/solutions/resort-sup
+    - clientType: Vizes sportakadémia
+      need: Oktatás és képzés
+      solutionPage: Felszerelésprogram SUP-akadémiáknak
+      link: /hu/solutions/school-sup
+    - clientType: Kruzozási és yachting társaság
+      need: Prémium élmény a fedélzeten
+      solutionPage: Prémium kategóriás hordozható SUP csomag
+      link: /hu/product-development
+    - clientType: Outdoor kiskereskedelmi vásárló
+      need: Kiskereskedelmi csatorna
+      solutionPage: Private label program a kiskereskedelem számára
+      link: /hu/solutions/retail-partners
+    - clientType: Forgalmazó és importőr
+      need: Regionális forgalmazás
+      solutionPage: Regionális OEM- és ellátási lánc partner
+      link: /hu/solutions/distributors
+    - clientType: Vállalati projekteket vásárló vevő
+      need: Vállalati rendezvények
+      solutionPage: SUP csomag vállalati rendezvényekhez
+      link: /hu/contact
+    - clientType: Vizes sportok márkamenedzsere
+      need: A márka kiterjesztése a vizes sportokra
+      solutionPage: Bővítse vizes sport portfólióját
+      link: /hu/solutions/private-label-sup
+    - clientType: Háziállat-kínáló szabadidős tevékenységek márkatulajdonosa
+      need: Szabadidős tevékenységek állatokkal
+      solutionPage: Háziállat-kompatibilis SUP deszkák programja
+      link: /hu/product-development
+    - clientType: Strandüzemeltető
+      need: Szórakoztatás a strandon
+      solutionPage: Komplett felszerelési megoldások plajai tevékenységekhez
+      link: /hu/solutions/rental-operators
+    - clientType: Vízpark fejlesztő
+      need: Tematikus szórakoztatás
+      solutionPage: SUP flóta kereskedelmi vízparkokhoz
+      link: /hu/solutions/resort-sup
+    - clientType: Magánszigetek és luxusklubok tulajdonosa
+      need: Magas életminőség
+      solutionPage: Személyre szabott prémium SUP deszka gyűjtemény
+      link: /hu/product-development
+    - clientType: Idegenforgalmi szervezet és közparkok üzemeltetője
+      need: Közforgalmi turisztikai projektek
+      solutionPage: Vizes sport csomag úti célokhoz
+      link: /hu/solutions/rental-operators
+    - clientType: Nyári táborok és gyermekkalandtáborok üzemeltetője
+      need: Fiatalok nevelése
+      solutionPage: Felfedező SUP program gyerekeknek
+      link: /hu/solutions/school-sup
+    - clientType: Mentő- és vízi biztonsági szervezet
+      need: Szakmai mentés
+      solutionPage: Szakmai SUP rendszer vízi mentéshez
+      link: /hu/product-development
+    - clientType: Tengeri természetvédelmi és kutatási intézmény
+      need: Környezetkutatás
+      solutionPage: SUP platform ökológiai kutatáshoz és monitorozáshoz
+      link: /hu/product-development
+
+cta:
+  title: 'Nem biztos benne, melyik megoldás illik az Ön vállalkozásához?'
+  subtitle: 'Mutassa be a projektet B2B csapatunknak, és mi a megfelelő konfigurációt és az árakat ajánljuk Önnek.'
+  actions:
+    - variant: primary
+      text: Beszéljen a B2B csapatunkkal
+      href: /hu/contact?subject=b2b-solutions
+    - variant: secondary
+      text: Töltse le a katalógust
+      href: /hu/products
+
+content_html: |
+  <div class="mx-auto max-w-3xl space-y-4 rounded-2xl border bg-card p-6 text-[14.5px] leading-relaxed text-fg-2">
+    <p>A mátrix minden ága ugyanazokból a két elemből indul ki: <a href="/hu/oem-manufacturing">OEM/ODM gyártási programunkból</a> és <a href="/hu/factory">a mögötte álló gyárból</a> – egyetlen 12,500 m&sup2;-es üzem, egyetlen minőségi szabványkészlet, minden csatorna kiszolgálva.</p>
+  </div>

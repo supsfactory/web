@@ -1,0 +1,82 @@
+meta:
+  title: 'Hogyan válassza ki a SUP deszka vastagságát – mérnöki elemzés'
+  description: 'Miben különböznek a 4", 5" és 6" vastagságú felfújható SUP deszkák a merevség, a súly, a stabilitás és az iramkövetés tekintetében, valamint vastagsági ajánlások.'
+  author: 'iSupfactory'
+  datePublished: '2026-08-04'
+  dateModified: '2026-08-07'
+back_text: 'Vissza a kutatáshoz'
+
+hero:
+  tagline: 'Mérnökség'
+  title: 'Hogyan válassza ki a SUP deszka vastagságát – mérnöki elemzés'
+  subtitle: '6 perc olvasás'
+
+answer:
+  label: 'Közvetlen válasz'
+  text: 'A vastagság a merevséget cseréli stabilitásra: a 4" (10 cm) a legmerevebb, a legkönnyebb és a leggyorsabb – ideális a túrázáshoz és a versenyzéshez; az 5" (12.7 cm) a legtöbb evező számára megfelelő választás; a 6" (15.2 cm) maximalizálja az elsődleges stabilitást a jóga és a nehezebb evezők (100+ kg) számára. A vékonyabb keresztmetszet szerkezetileg merevebb, ezért a 15 PSI-es 4" deszka kevésbé hajlik, mint a 25 PSI-es 6" deszka.'
+  verified: '2026. szeptember'
+
+content_html: |
+  <h2>A három standard vastagság</h2>
+
+  <h3>4" (10 cm) – Túra és teljesítmény</h3>
+  <ul>
+    <li>Maximális merevség – kisebb alakváltozás terhelés alatt</li>
+    <li>A legkönnyebb – kevesebb alapanyag, kisebb levegőtérfogat</li>
+    <li>Kiváló iramkövetés – kisebb laterális ingás</li>
+    <li>A leggyorsabb – kisebb ellenállás, könnyebb csúszás</li>
+    <li>Ideális: túrázás, versenyzés, fitnesz evezés, tapasztalt evezők</li>
+  </ul>
+
+  <h3>5" (12.7 cm) – Általános használat</h3>
+  <ul>
+    <li>Jó merevség – kiegyensúlyozott viszony a hajlítás és a merevség között</li>
+    <li>Közepes súly – standard alapanyagmennyiség</li>
+    <li>Jó elsődleges és másodlagos stabilitás</li>
+    <li>Ideális: szabadidős evezés, kezdők, alkalmi használat tavakon és folyókon</li>
+  </ul>
+
+  <h3>6" (15.2 cm) – Stabilitás és jóga</h3>
+  <ul>
+    <li>Maximális elsődleges stabilitás – nagy légképesség</li>
+    <li>A legnehezebb – több PVC-alapanyag, nagyobb levegőtérfogat</li>
+    <li>A leggyorsabb – nagyobb ellenállás, nehezebben tartható a csúszás</li>
+    <li>Ideális: jóga / fitnesz, nehezebb evezők (100+ kg), nagyon zaklatott viszonyok</li>
+  </ul>
+
+  <h2>Mérnöki elemzés</h2>
+  <p>A felfújható SUP deszka merevségét a belső levegőnyomás és a deszka keresztmetszetének másodrendű momentuma határozza meg. 20 PSI nyomáson az azonos szélességű és hosszúságú 4" deszka terhelés alatt körülbelül 30%-kal kisebb alakváltozást mutat, mint a 6" deszka. Az elsődleges stabilitás a vízvonalbeli szélességből és a légképességből ered; a másodlagos stabilitást a perem alakja és a deszka szélessége befolyásolja.</p>
+
+  <h2>A vastagság az evező súlyához igazítva</h2>
+  <table class="w-full text-sm border-collapse">
+    <thead>
+      <tr class="bg-gray-100">
+        <th class="p-3 text-left font-semibold text-gray-900 border">Az evező súlya</th>
+        <th class="p-3 text-left font-semibold text-gray-900 border">Ajánlott vastagság</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td class="p-3 border">65 kg alatt (143 lbs)</td><td class="p-3 border">4"</td></tr>
+      <tr><td class="p-3 border">65 – 90 kg (143 – 198 lbs)</td><td class="p-3 border">5"</td></tr>
+      <tr><td class="p-3 border">90 – 115 kg (198 – 253 lbs)</td><td class="p-3 border">5" vagy 6"</td></tr>
+      <tr><td class="p-3 border">115 kg felett (253 lbs)</td><td class="p-3 border">6"</td></tr>
+    </tbody>
+  </table>
+
+  <h2>A vastagság és a PSI közötti kompromisszum</h2>
+  <p>Gyakori hiba, hogy a magasabb PSI kompenzálja a túlzott vastagságot. 25 PSI nyomáson a 6" deszka jobban hajlik, mint a 15 PSI-es 4" deszka, mert a merevség egyenletében a geometriai másodrendű momentum dominál. A teljesítményre optimalizáló evezők számára a vékonyabb deszka az alacsonyabb nyomással mindenben jobb a vastagabb, magasabb nyomású deszkánál.</p>
+
+  <h2>A Vatrad terméksorozata</h2>
+  <ul>
+    <li><strong>4" deszkák:</strong> Cheetah Touring sorozat – 12' x 30" x 4" túra SUP deszkák fitneszhez és hosszú távú evezéshez</li>
+    <li><strong>5" deszkák:</strong> Cheetah All-Round sorozat – 10'6" x 32" x 5" szabadidős használatra</li>
+    <li><strong>6" deszkák:</strong> Cheetah Ultra-Stable sorozat – 10' x 34" x 6" jóga, nagytestű evezők és fotóplatformok számára</li>
+  </ul>
+  <p>Minden deszka 1,680 DTEX-es drop-stitch magot, 15 PSI névleges nyomást és 1.2 mm-es laminált PVC borítást használ.</p>
+  <p>A vastagság, a PSI és az alapanyagspecifikáció teljes egészében testreszabható egyedi sorokhoz – tekintse meg, hogyan <a href="/hu/oem-manufacturing">tervezünk deszkákat az OEM és private label márkák számára</a>, és tekintse át a deszkák gyártását a <a href="/hu/factory">gyártócsarnokban</a>.</p>
+
+cta:
+  title: 'Nem biztos benne, melyik vastagság felel meg Önnek?'
+  subtitle: 'Fedezze fel SUP deszka terméksorozatunkat, vagy forduljon méretező csapatunkhoz.'
+  button_text: 'Tekintse meg a SUP deszkákat'
+  button_link: /hu/products

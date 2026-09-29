@@ -1,0 +1,219 @@
+meta:
+  title: 'MOQ és szállítási határidő a testreszabott SUP-hoz: 1 mintától a konténerméretű megrendelésekig'
+  description: 'A testreszabott SUP MOQ-szintjei és szállítási határidői: minták 7–12 nap alatt, 20–50 deszkás próbarendelések, standard 90–100+ tekercsenként 150 m-en, gyártás 25–35 nap alatt.'
+  dateModified: '2026-08-16'
+  keywords:
+    - 'testreszabott sup moq'
+    - 'sup gyártási határidő'
+    - 'felfújható sup minimális megrendelési mennyiség'
+    - 'sup próbarendelés'
+    - 'testreszabott eveződeszkák szállítási határideje'
+    - 'sup oem gyár szállítási határidő'
+    - 'sup mintarendelés'
+
+hero:
+  tagline: 'MOQ és szállítási határidő a testreszabott SUP-hoz'
+  title: '1 mintától a konténerméretű megrendelésekig – MOQ és a szállítási határidő magyarázata'
+  subtitle: 'Közérthető áttekintés a felfújható SUP testreszabás mennyiségi szintjeiről és gyártási határidejéről: mit rendelhet az egyes szakaszokban, mennyi időt vesz igénybe valójában minden szakasz, és hogyan illeszkedik egy minta-, próba- és tömeggyártási megrendelés egyetlen projektbe. Tervezte és üzemelteti a Qingdao Vatrad Group Co., Ltd.'
+  actions:
+    - variant: primary
+      text: Kérjen MOQ- és határidő-bontást
+      href: /hu/contact#moq-guide
+    - text: 'MOQ- és rugalmas márkaútmutató'
+      href: /hu/oem-moq-guide
+
+answer:
+  label: 'Közvetlen válasz'
+  text: 'Az MOQ és a szállítási határidő projektspecifikus, de a keretrendszer rögzített. Minden testreszabott SUP-projekt ugyanazokon a lépcsőzetes szakaszokon megy keresztül: mintafejlesztés (1–2 deszka, készen 7–12 nap alatt), próba- és pilóta megrendelések (20–50 deszka) és standard tömeggyártások (90–100+ deszka 150 m-es drop-stitch tekercsenként). A gyártási határidő a megrendelés és az előleg megerősítésétől számított 25–35 nap; ha a projekthez teljesen testreszabott héjra van szükség, a szerszámfejlesztés további 15–20 napot tesz hozzá a gyártás megkezdése előtt. Egy tipikus első projekt tehát így néz ki: minták kb. 1–2 hét alatt, pilóta deszkák 4–6 hét alatt, és az első teljes gyártás a megrendelés megerősítése után kb. 6–8 héten belül kerül feladásra.'
+  verified: '2026. szeptember'
+
+moq_lead_table:
+  tagline: 'A referencia-keretrendszer'
+  title: 'A testreszabott SUP MOQ-szintjei és szállítási határideje röviden'
+  subtitle: 'Minden szakasz validálja a következőt. Soha ne ugorjon közvetlenül a rajztól a konténerig – erősítse meg a héjat, a grafikát és a csomagolást minden szinten, mielőtt több deszkába kötelezi magát.'
+  headers:
+    stage: Megrendelési szakasz
+    quantity: Tipikus mennyiség
+    lead_time: Szállítási határidő
+    best_for: Ideális ehhez
+  rows:
+    - stage: 'Mintafejlesztés'
+      quantity: '1–2 deszka'
+      lead_time: '7–12 nap'
+      best_for: 'A héj merevségének, az EVA futófelület textúrájának, a grafika pontosságának és a tartozékszerelésnek a validálása. Mintaköltség fizetendő, amelyet a szerződés aláírásakor a gyártási megrendelésből levonunk.'
+    - stage: 'Próba- / pilóta megrendelés'
+      quantity: '20–50 deszka'
+      lead_time: '25–35 nap'
+      best_for: 'Kereskedelmi tesztelés a szezon előtt, piaci validálás és az első eladások, meglévő héjplatformok, raktáron lévő anyagok és egyszerűsített csomagolás felhasználásával.'
+    - stage: 'Standard tömeggyártás'
+      quantity: '90–100+ deszka 150 m-es tekercsenként'
+      lead_time: '25–35 nap'
+      best_for: 'Maximális gyártási hatékonyság teljes, 150 m-es anyagtekercseken – anyagillesztések nélkül, egyenletes szálfeszességgel és a sor beállítási költségeinek amortizálásával. A testreszabott szerszámú formák ezen a szinten futnak.'
+    - stage: 'Nagyszabású program'
+      quantity: '300+ deszka'
+      lead_time: '25–35 nap tételenként, ütemezett szállításokkal'
+      best_for: 'Konténerméretű programok és szezonális flották, több gyártási tételre ütemezve, így a raktár és a pénzáram kezelhető marad.'
+
+moq_drivers:
+  tagline: 'Mi határozza meg az Ön MOQ-ját'
+  title: 'Az a hat tényező, amely a minimális mennyiséget meghatározza'
+  subtitle: 'Az MOQ nem egy véletlenszerűen kiválasztott szám. A teljes termékarchitektúrából számítjuk – ezeket az összetevőket együtt értékeljük az ajánlattétel előtt.'
+  grid: 'sm:grid-cols-2 lg:grid-cols-3'
+  features:
+    - icon: H
+      icon_bg: blue
+      title: 'Héjforma és szerszám'
+      desc: 'A gyár meglévő szerszámai 20 deszkától induló pilóta megrendeléseket tesznek lehetővé. A teljesen testreszabott héjhoz dedikált CAD-vágási sablonokra és EVA melegprés-szerszámra van szükség, a szerszámfejlesztés pedig 15–20 napot tesz hozzá az ütemezéshez.'
+    - icon: C
+      icon_bg: green
+      title: 'Szín- és PVC-változatok'
+      desc: 'A raktáron lévő standard színek pilóta mennyiségben futnak, míg a saját, Pantone színűre festett PVC-lemezek dedikált kémiai festési sorokat igényelnek, saját alapanyag-minimumokkal.'
+    - icon: A
+      icon_bg: purple
+      title: 'Grafika és nyomtatási felület'
+      desc: 'Egy orrcsúcsra nyomtatott logó sablonon kis sorozatban is nyomtatható, míg a teljes felületű vagy többpaneles grafika digitális nyomtatási lemezelőkészítést és bevonatpróbákat igényel, ami megnöveli a gyakorlati tételnagyságot.'
+    - icon: B
+      icon_bg: orange
+      title: 'Márkás csomagolás'
+      desc: 'A testreszabott, 5 rétegű kiskereskedelmi dobozoknak önálló minimumuk van az offset nyomtatón. Kevesebb dobozt rendel, mi pedig raktáron tartjuk a felesleget, és az ütemezett szállítások során adjuk ki.'
+    - icon: G
+      icon_bg: blue
+      title: 'Tartozékcsomagok'
+      desc: 'A standard alumínium vagy nylon evezőlapátok, szivattyúk és zsákok a beszállítók alszintjei szerint futnak. A saját márkás szénrost evezőlapátoknak és testreszabott szivattyúknak saját gyártási minimumaik vannak.'
+    - icon: S
+      icon_bg: green
+      title: 'Szezon és fizetési ütemezés'
+      desc: 'A szezon előtti ablakban leadott megrendelések megerősített gyártási időpontokat kapnak. A 300+ deszkás ütemezett szállítási programok a szerződés aláírásakor kerülnek megerősítésre, nem a gyártás után.'
+
+moq_timeline:
+  tagline: 'Teljes ütemterv'
+  title: 'A termékbrieftől a feladott deszkákig: napról napra'
+  subtitle: 'A teljes ütemezés egy tipikus testreszabott SUP-programhoz. A meglévő héjplatformok az ütemterv bal oldalán tömörülnek; a teljesen testreszabott héj hozzáadja a szerszámfejlesztési szakaszt.'
+  steps:
+    - step: '0. nap'
+      title: 'Küldje el a termékbriefet'
+      desc: 'A deszka modellje, a célmennyiség, a színváltozatok, a grafika és a csomagolási követelmények. A mérnöki elemzés egy munkanapon belül elkészül.'
+    - step: '1–2. nap'
+      title: 'Mérnöki és megvalósíthatósági elemzés'
+      desc: 'Mérnöki csapatunk ellenőrzi a héj geometriáját, az anyagokat és a megfelelőségi útvonalat, és megerősíti, hogy a projekt illeszkedik-e a meglévő platformokba vagy új szerszámokat igényel.'
+    - step: '3–7. nap'
+      title: 'Részletes specifikáció és ajánlat'
+      desc: 'Megkapja a teljes specifikációt, az MOQ-számítással, a szállítási határidő-szegmensekkel és a lebontott költségekkel – beleértve az esetleges szerszámdíjakat is –, minden kötelezettségvállalás előtt.'
+    - step: '7–12. nap'
+      title: 'Mintafejlesztés (1–2 deszka)'
+      desc: 'A fizikai minta elkészül és tesztelésre kerül: héj merevsége, EVA futófelület textúrája, grafika pontossága és tartozékszerelés. A minták költségét a gyártási megrendelésből, az aláíráskor vonjuk le.'
+    - step: '+15–20 nap'
+      title: 'Testreszabott szerszámfejlesztés (csak egyedi héjak)'
+      desc: 'Csak az új héjformájú projekteknél: CNC-vágási sablonok, EVA melegprés-szerszám és a szerszámpróbák a tömeggyártás megkezdése előtt készülnek el.'
+    - step: '25–35 nap'
+      title: 'Gyártás a megrendelés és az előleg megerősítése után'
+      desc: 'Teljes, 150 m-es anyagtekercsek, Pantone anyagok, márkás csomagolás és összeszerelés 100 ponton. Minden deszka átmegy a 24 órás nyomás- és légzárási próbán.'
+    - step: '300+ deszka'
+      title: 'Ütemezett szállítások programozása'
+      desc: 'A nagy programok ütemezett tételekben kerülnek feladásra, hogy a szezonális eladásokhoz, a raktárkapacitáshoz és a fizetési ütemezésekhez illeszkedjenek.'
+    - step: '0–90. nap'
+      title: 'Az első megrendelés tipikus távlata'
+      desc: 'A brieftől az első leszállított gyártásig: kb. 6–8 hét meglévő platformokkal, 8–12 hét, ha testreszabott szerszámot is tartalmaz. A többtekercses és konténerméretű programok tervezéssel túllépik ezt az intervallumot.'
+
+expedite:
+  tagline: 'Tartsa röviden az ütemtervet'
+  title: 'Mi tartja szoroson a szállítási határidőt'
+  subtitle: 'Három eszköz segítségével tömörítheti az ütemtervet a tekercs fizikájának alapjainak megváltoztatása nélkül.'
+  features:
+    - icon: S
+      icon_bg: blue
+      title: 'A minták definíció szerint gyorsak'
+      desc: 'A mintafejlesztés minden projektben 7–12 napot vesz igénybe. Használja a mintakört a specifikációk rögzítésére, hogy a gyártás ne várjon késedelmes grafikai döntésekre.'
+    - icon: P
+      icon_bg: green
+      title: 'A gyártási időpontok előre megerősítettek'
+      desc: 'A szezon előtti megrendelések megerősített gyártási időpontokat foglalnak le. Az, hogy több ügyfél foglalja le ugyanazt az időpontot, pontosan az oka annak, hogy a korábbi előlegek korábbi sorokat kapnak.'
+    - icon: T
+      icon_bg: purple
+      title: 'Átlátható szakaszok'
+      desc: 'Minden szakasz – minta jóváhagyása, BOM-rögzítés, grafika rögzítése, megrendelés és előleg – dátummegjelöléssel kerül a szerződésbe. Mindig tudja, melyik napon indul újra az óra.'
+
+scenarios:
+  tagline: 'Három reális belépési pont'
+  title: 'Melyik útvonal illik a projektjéhez?'
+  subtitle: 'Ugyanaz a gyár, három különböző belépési mód. Válassza a helyzetéhez legközelebb eső forgatókönyvet, és használja, amikor felveszi velünk a kapcsolatot.'
+  features:
+    - icon: A
+      icon_bg: orange
+      title: 'Új márka: validáljon a kötelezettségvállalás előtt'
+      desc: 'Először 1–2 mintát rendeljen (7–12 nap), tesztelje az evezési minőséget és fotózza le, majd helyezzen el egy 20–50 deszkás próbarendelést az eladások tesztelésére, minden teljes gyártás előtt. Az első szezonban a teljes kitettség 50 deszka alatt marad.'
+    - icon: B
+      icon_bg: blue
+      title: 'Turisztikai központ vagy bérelő üzemeltető: pilóta, majd bővítés'
+      desc: 'Egy 20–50 deszkás pilóta megrendelés egyszerűsített csomagolással a szezon előtti időszak végéig elviszi Önt. A használati adatok visszaérkezése után bővíthet 90–100+ deszkás standard gyártásokra, márkás csomagolással.'
+    - icon: C
+      icon_bg: green
+      title: 'Meglévő márka: teljesen testreszabott konténerméretű programok'
+      desc: 'A meglévő márkák modellenként 90–100+ deszkát rendelnek 150 m-es tekercsenként, egyedi héjakkal és teljes felületű márkázással. A testreszabott szerszám 15–20 napot ad hozzá; a 300+ deszkás programok ütemezett menetrend szerint kerülnek feladásra.'
+
+moq_quality:
+  tagline: 'Minőségi ellenőrzés és megfelelőség'
+  title: 'Ugyanaz a minőségi rendszer bármilyen megrendelésméretnél'
+  subtitle: 'Egy 1 deszkás minta és egy 300+ deszkás program ugyanazokon a minőségi szakaszokon és ugyanazon a megfelelőségi dokumentáción megy keresztül. Az „alacsony MOQ" soha nem jelent „alacsonyabb standardot".'
+  grid: 'sm:grid-cols-2 lg:grid-cols-3'
+  features:
+    - icon: C
+      icon_bg: blue
+      title: 'Megfelelőségi dokumentumok, bármilyen léptékben'
+      desc: 'A CE, ISO 9001, BSCI, REACH és RoHS tanúsítási dokumentáció minden megrendeléshez jár – az egyedi mintákhoz is –, a tanúsítványszámok kérésre elérhetők.'
+    - icon: A
+      icon_bg: green
+      title: '100 pontos összeszerelési ellenőrző lista'
+      desc: 'Minden deszka ugyanazon a 100 pontos összeszerelési ellenőrző listán megy keresztül, a tételnagyságtól függetlenül: anyagok, hegesztés, szelepek, peremek, uszonyok és tartozékszerelés, pontról pontra ellenőrizve.'
+    - icon: P
+      icon_bg: purple
+      title: '24 órás nyomás- és légzárási próba'
+      desc: 'Minden deszkát 18.0 PSI nyomásra fújunk fel, és 24 órán át tartjuk. A 0.50 PSI feletti nyomásesés automatikus elutasítást vált ki – ugyanaz a szakasz egy mintánál és egy konténernél is.'
+    - icon: R
+      icon_bg: orange
+      title: 'RF-hegesztés és peremfúzió ellenőrzése'
+      desc: 'A peremszalagok háromrétegű fúzióját és az RF-el hegesztett varratokat a jóváhagyott mintához képest vizuálisan és méret szerint is ellenőrizzük, minden gyártási sorozat megkezdése előtt.'
+    - icon: B
+      icon_bg: blue
+      title: 'ERP-tétel nyomon követhetőség (10 év)'
+      desc: 'Minden deszka sorszámozott gyártási nyilvántartással rendelkezik – anyagok, kezelők, próbák és ellenőrzési eredmények –, amelyeket 10 évig őrzünk, és auditálásra rendelkezésre bocsátunk.'
+    - icon: I
+      icon_bg: green
+      title: 'Készen áll a független ellenőrzésre'
+      desc: 'A tételgyártás bármely szakaszban készen áll a független ellenőrzésre. A legtöbb ügyfél a tömeges programokon a 7 lépésből álló ellenőrzési rendszerünket vagy szállítás előtti ellenőrzést is alkalmaz.'
+
+moq_faqs:
+  tagline: GYIK
+  title: 'Gyakori kérdések az MOQ-ról és a szállítási határidőről'
+  items:
+    - q: 'Mi a minimális megrendelési mennyiség egy testreszabott SUP-hoz?'
+      a: 'A projekt szakaszától függ: a minták 1–2 deszka, a kis mennyiségű co-branding 5–10 darabtól indul, a próba- és pilóta megrendelések 20–50 deszkát tesznek ki, a standard tömeggyártás pedig modellenként 90–100+ deszkát gyárt 150 m-es drop-stitch tekercsenként. A testreszabott szerszámú formák a volumszinten futnak. A pontos számítást az Ön konfigurációjára az ajánlattétel előtt megerősítjük.'
+    - q: 'Mennyi idő alatt készül el egy felfújható SUP-minta?'
+      a: 'A mintafejlesztés 7–12 napot vesz igénybe. A minta ellenőrzi a héj merevségét, az EVA futófelület textúráját, a grafika pontosságát és a tartozékszerelést. Mintaköltség fizetendő, amelyet a szerződés aláírásakor a gyártási megrendelésből levonunk.'
+    - q: 'Mennyi ideig tart a gyártás a megrendelés megerősítése után?'
+      a: 'A gyártási határidő a megrendelés és az előleg megerősítésétől számított 25–35 nap. Ha a projekt teljesen testreszabott héjat tartalmaz, a szerszámfejlesztés további 15–20 nap szerszámmunkát tesz hozzá a gyártás megkezdése előtt.'
+    - q: 'Az MOQ-t megrendelésenként, modellenként vagy színváltozatonként számítják?'
+      a: 'Az MOQ vonatkozhat modellenként, színváltozatonként, grafikai változatonként, csomagolási konfigurációnként vagy a teljes megrendelésre. Mivel a különböző drop-stitch vastagságok és PVC-színek külön alapanyagtekercsekből származnak, az 50 deszka 5 színre elosztva 5 külön anyagtekercs-követelményt eredményez. A számítást az Ön SKU-mátrixára megerősítjük.'
+    - q: 'Kezdhetem-e csak 1–2 deszkával a piac tesztelésére?'
+      a: 'Igen. Az 1–2 deszkás mintarendelés a legolcsóbb lehetséges validálás: a héj merevsége, a grafika és a tartozékszerelés minden gyártási pénzügyi kötelezettségvállalás előtt megerősítésre kerül. Onnan 20–50 deszkás próbarendeléssel haladhat a kereskedelmi validálás felé.'
+    - q: 'Lehet-e egy 300+ deszkás programot több tételben szállítani?'
+      a: 'Igen. A nagyszabású programok több gyártási tételre ütemezett, eltolt szállításokként tervezhetők, így a szezonális flották akkor érkeznek, amikor szükséges, a pénzáram és a raktárhely kezelhető marad. A programok a szerződésben kerülnek megerősítésre, nem a gyártás után.'
+
+evidence_review:
+  tagline: 'Bizonyítékok és ellenőrzés'
+  title: 'ELLENŐRZÖTT SPECIFIKÁCIÓK'
+  body: 'Az ezen az oldalon szereplő összes gyártási állítást gyártási mérnöki csapatunk ellenőrzi a qingdaói laixi üzemben. A tanúsítványok, minőség-ellenőrzési nyilvántartások, nyomás- és szerkezeti próbajegyzőkönyvek, valamint a tételenkénti nyomon követhetőségi nyilvántartások kérésre rendelkezésre állnak. A specifikációkat utoljára 2026 szeptemberében ellenőrizték.'
+
+cta:
+  title: 'Szeretné megkapni a projektspecifikus MOQ-t és szállítási határidőt?'
+  subtitle: 'Küldje el a deszka modelljét, az első szezonra vonatkozó célmennyiséget és a márkázási követelményeket. Mérnöki csapatunk megerősíti, hogy a minta-, próba- vagy volumszintű útvonal illeszkedik-e – a pontos MOQ-számítással és napról napra haladó ütemtervvel. A kérése semmilyen megrendelésre nem kötelezi.'
+  actions:
+    - variant: primary
+      text: 'Kérjen MOQ- és határidő-bontást'
+      href: /hu/contact#moq-guide
+    - text: 'Hasonlítsa össze a rugalmas márkaútmutatóval'
+      href: /hu/oem-moq-guide
+    - text: 'Indítson új márkát alacsony MOQ-jú próbarendeléssel'
+      href: /hu/new-brand-trial-order
+    - text: 'Ellenőrizze a gyárat és a minőségi rendszert'
+      href: /hu/oem-trust-assurance

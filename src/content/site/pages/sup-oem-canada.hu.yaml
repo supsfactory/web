@@ -1,0 +1,90 @@
+meta:
+  title: 'Felfújható SUP OEM Kanadának – az iSupfactory gyára Qingdaóban'
+  description: 'Felfújható SUP OEM kanadai márkáknak és kiskereskedőknek: minta 7–12 nap alatt, gyártás 25–35 nap alatt, tengeri szállítás 4–6 hét alatt Vancouver, Toronto vagy Montreal kikötőjéig.'
+  dateModified: '2026-08-11'
+  keywords:
+    - 'sup gyártó Kanada'
+    - 'felfújható sup oem Kanada'
+    - 'kanadai márkáknak készülő testreszabott sup gyár'
+    - 'private label sup Kanadába szállítva'
+    - 'sup beszállító Vancouver Toronto Montreal'
+
+hero:
+  tagline: 'Kanada'
+  title: 'Felfújható SUP OEM Kanadának – Qingdaótól a raktáráig'
+  subtitle: 'Minta 7–12 nap alatt, gyártás 25–35 nap alatt, tengeri szállítás 4–6 hét alatt a Vancouver, Toronto vagy Montreal kikötőihez. FOB Qingdao, CIF vagy DDP – ugyanaz a gyár, ugyanaz a minőségi ellenőrzés, ugyanaz a hat lépésből álló fejlesztési folyamat, mint bármely más iSupfactory-ügyfél esetében.'
+
+answer:
+  label: 'Közvetlen válasz'
+  text: 'A kanadai márkák standard feltételekkel rendelnek felfújható SUP-t az iSupfactory-tól: az MOQ-t a projekt konfigurációja határozza meg: az 1–2 darabos mintasorozatok validálják a szerkezetet, a 20–50 darabos pilóta tételek meglévő platformokon tesztelik a piacot, a standard tömeggyártás pedig modellenként 90–100+ darabot gyárt egy teljes, 150 m-es drop-stitch tekercsből. Az első minta a specifikációk jóváhagyása után 7–12 nap alatt kerül feladásra, a gyártás a megrendelés és az előleg megerősítése után 25–35 napot vesz igénybe, a tengeri szállítás pedig további 4–6 hetet ad hozzá a kanadai kikötőihez – Vancouver a nyugati parton, Toronto és Montreal keleten. A DDP tartalmazza a vámformalitásokat és a raktárába történő kiszállítást.'
+  verified: '2026. szeptember'
+
+stats:
+  tagline: 'Röviden'
+  title: 'A kanadai import alapjai'
+  items:
+    - value: '7–12 nap'
+      label: 'Első minta a specifikációk jóváhagyása után'
+    - value: '25–35 nap'
+      label: 'Gyártás a megrendelés és az előleg után'
+    - value: '4–6 hét'
+      label: 'Tengeri szállítás a kanadai kikötőkhöz'
+    - value: '50+'
+      label: 'A gyárból kiszolgált ország'
+
+why_canada:
+  tagline: 'Miért éppen a kanadai vásárlók'
+  title: 'A kanadai importra tervezve'
+  subtitle: 'A gyár azokra a kérdésekre válaszol, amelyeket a kanadai márkák és kiskereskedők az első konténer előtt feltesznek.'
+  items:
+    - title: 'DDP a kiszámítható végleges költségért'
+      description: 'A DDP tartalmazza a vámformalitásokat és a raktárába történő kiszállítást – vámok, adók és szállítás egyetlen végösszegben, CAD-ben vagy USD-ben. Az első alkalommal importálók kedvenc választása.'
+    - title: 'Útválasztás keletre és nyugatra'
+      description: 'Tengeri szállítást kínálunk Vancouverbe, illetve a Szuez-csatornán át Torontóba és Montrealba – attól függően, hogy mi egyensúlyozza ki jobban a tranzitidőt és a végleges költséget.'
+    - title: 'Kétnyelvűre előkészített termékmappák'
+      description: 'A CE-, REACH- és vámdokumentáció a célpiacaira elkészítve áll össze, így a termékdosszié az angol és francia nyelvű csomagoláshoz is használható.'
+    - title: 'Egy gyár, egy minőségi rendszer'
+      description: 'A fejlesztés, a minták, a gyártás és a minőségi ellenőrzés mind a 12,500 m²-es gyárban történik – nincs brókerek közötti ugrálás, nincsenek olyan minták, amelyeket a gyártás nem tud megismételni.'
+
+process_notes:
+  tagline: 'Hogyan működik'
+  title: 'A specifikációktól a konténerig'
+  subtitle: 'Ugyanaz a hat lépés, akár évente két konténert, akár húszat vesz: specifikáció, mérnökség, minta, vizsgálatok, szerszám, gyártás – majd FOB, CIF vagy DDP kiszállítás.'
+  items:
+    - title: '1. Küldje el a specifikációkat'
+      description: 'Egy referencia-deszka, egy vázlat vagy egy versenytárs specifikációi elegendők. A mérnöki elemzés és az ajánlat egy munkanapon belül visszaérkezik.'
+    - title: '2. Hagyja jóvá a mintát'
+      description: 'Az első fizikai mintája 7–12 nap alatt kerül feladásra, egy jóváhagyási lap kíséretében, amely a szerkezetet, a nyomtatási színeket és a nyomáspróba eredményeit fedi.'
+    - title: '3. Gyártás és export'
+      description: 'A sorozatok 25–35 nap alatt készülnek el, folyamat közbeni minőségi ellenőrzési pontokkal. A csomagolólista, a számla és a hajójegy megelőzi a hajót.'
+    - title: '4. Kiszállítás a raktárába'
+      description: '4–6 hét tengeri szállítás Vancouver, Toronto vagy Montreal kikötőjéig – DDP módban mi intézzük a vámformalitásokat és a házhoz érkezést.'
+
+faq_section:
+  tagline: GYIK
+  title: 'A kanadai import kérdései'
+  questions:
+    - q: 'Mennyi ideig tart a tengeri szállítás Kanadába?'
+      a: 'A qingdaói kikötőtől a kanadai kikötőkig – Vancouver a nyugati parton, Toronto és Montreal keleten – 4–6 hetet kell számolni, a rendeltetési helytől és a hajó választásától függően. A DDP projektek a teljes, házhoz szállítástól a házhoz szállításig terjedő határidőt tartalmazzák.'
+    - q: 'Szállítanak-e DDP-vel Kanadába?'
+      a: 'Igen. A DDP tartalmazza a tengeri szállítást, a vámformalitásokat, a vámokat és az adókat, valamint a raktárába történő kiszállítást – egyetlen, kiszámítható végleges ár. A FOB Qingdao és a CIF szintén elérhető.'
+    - q: 'Mi a private label SUP-import MOQ-ja?'
+      a: 'Az MOQ-t a projekt konfigurációja határozza meg: a minta fejlesztése 1–2 darabot, a pilóta tételek 20–50 darabot ölelnek fel meglévő platformokon, a standard tömeggyártás pedig modellenként 90–100+ darabot gyárt egy teljes, 150 m-es drop-stitch tekercsből.'
+    - q: 'Támogatják-e az angol és francia nyelvű csomagolást?'
+      a: 'Igen. Prepress csapatunk a célpiacainak nyelveihez és előírásaihoz igazítja a nyomatadatokat – beleértve a kanadai piacra szánt kétnyelvű (EN/FR) csomagolást is.'
+    - q: 'Meglátogathatom a gyárat a megrendelés előtt?'
+      a: 'Igen. A qingdaói, 12,500 m²-es gyár nyitva áll az ügyfelek előtt – virtuális gyártúrák online szervezhetők, a személyes látogatásokat pedig a gyártósorokon és a minőség-ellenőrzési állomásokon vezetik.'
+    - q: 'Hogyan kezdhetek egy projektet Kanadából?'
+      a: 'Küldjön egy referencia-deszkát, egy vázlatot vagy specifikációkat. A mérnöki elemzés és az ajánlat egy munkanapon belül visszaérkezik, és minden fájlcsere előtt NDA-t írunk alá.'
+
+cta:
+  title: 'Indítsa el a kanadai projektjét'
+  subtitle: 'Küldjön egy vázlatot, referencia-deszkát vagy specifikációkat – a mérnöki elemzés és az ajánlat egy munkanapon belül visszaérkezik.'
+  actions:
+    - variant: primary
+      text: 'Kérjen OEM-ajánlatot'
+      href: /hu/contact#custom-oem
+    - text: 'Ellenőrizze a gyárat és a minőségi rendszert'
+      href: /hu/oem-trust-assurance
+    - text: 'A 7 lépésből álló ellenőrzési rendszer'
+      href: /hu/quality

@@ -1,0 +1,169 @@
+meta:
+  title: 'Bizonyítékközpont – minden gyártási állítás mögötti bizonyíték'
+  description: 'Az iSupfactory állításai mögötti bizonyítékdosszié: az entitások kapcsolatai, a tanúsítványok és azok hatóköre, a géplista, a szállítmányszintű nyomon követhetőség és az ellenőrzési dokumentáció.'
+  dateModified: '2026-08-16'
+  keywords:
+    - 'sup gyár bizonyítékai'
+    - 'a gyár tanúsítványainak listája'
+    - 'sup szállítmány nyomon követhetőség'
+    - 'sup gyár ellenőrzése'
+    - 'kínai gyártási bizonyítékok'
+
+hero:
+  tagline: 'A gyár bizonyítékközpontja'
+  title: 'Bizonyítékközpont – minden, amit állítunk, itt, nyilvánosan'
+  subtitle: 'Egy oldal, amely a weboldal minden állítását az azt alátámasztó bizonyítékhoz rendeli: a gyár mögötti bejegyzett entitás, a tanúsítványok a hatókörükkel együtt, a gyártást végző gépek és az egyes sorok után is megmaradó szállítmánynyilvántartások.'
+  actions:
+    - { variant: primary, text: 'Kérje az ellenőrzési csomagot', href: '/hu/contact#trust-verification' }
+    - { variant: ghost, text: 'Fedezze fel a minőségi rendszert', href: '/hu/quality' }
+
+answer:
+  label: 'Közvetlen válasz'
+  text: 'Az állítás és a bizonyíték közötti lánc a következő: a weboldal minden mondatát egy nyilvántartás, egy tanúsítvány, egy gép, egy dokumentum vagy egy próbajegyzkönyv támasztja alá – és mindegyik ellenőrizhető. Az iSupfactory a Qingdao Vatrad Group Co., Ltd. (2012 óta Qingdaóban bejegyzett) SUP termékek fejlesztési és gyártási divíziója. A 12,500 m²-es gyár ISO 9001:2015 minőségirányítási rendszerrel, ISO 25649 megfeleléssel, CE megfelelőségi dokumentációval, BSCI szociális megfeleléssel (auditjelentés kérésre) és minden megrendeléshez REACH/RoHS alapanyag-dokumentációval rendelkezik. Minden felfújható rekeszt 18.0 PSI nyomáson próbálunk 24 órán át, 0.50 PSI-nél nagyobb esésnél automatikus elutasítással, a szállítmány-nyilvántartásokat pedig 10 évig őrizzük az ERP rendszerben. A dosszié közzétett vagy kérésre rendelkezésre áll, és a gyár auditokra nyitva áll.'
+  verified: '2026. szeptember'
+
+entities:
+  tagline: 'Ki áll a gyár mögött'
+  title: 'Egy gyártási működés, egyetlen jogi entitás'
+  subtitle: 'A kereskedelem, a gyártódivízió és a jogi entitás mind ugyanabból a működésből ered, amelyet Ön a weboldalon és a társasági nyilvántartáson keresztül is ellenőrizhet.'
+  features:
+    - icon: S
+      icon_bg: blue
+      title: 'iSupfactory – a nyilvános weboldal'
+      desc: 'A SUP OEM/ODM és private label terméksor, valamint annak nyilvános dokumentációja: katalógus, MOQ útmutató, a minőségi rendszer oldalai és esettanulmányok. A néven, amelyen tárgyal, azon a néven vizsgálhatja.'
+      link: '/hu/about/isupfactory-entity'
+      link_label: 'Az entitás oldala a weboldalon'
+    - icon: A
+      icon_bg: green
+      title: 'Vatrad – a gyártódivízió'
+      desc: 'A gyár mögötti tengerészeti gyártódivízió: SUP deszkák, felfújható csónakok és RIB-ek, ugyanabban a qingdaói telephelyen gyártva. A termék- és minőségi dokumentáció ezen a néven kerül kiadásra.'
+      link: '/hu/factory'
+      link_label: 'Fedezze fel a gyárat'
+    - icon: V
+      icon_bg: orange
+      title: 'Qingdao Vatrad Group Co., Ltd. – a jogi entitás'
+      desc: 'A bejegyzett gyártó (2012 óta), amely a laixi (Qingdao) gazdasági fejlesztési zónában lévő 12,500 m²-es gyárat üzemelteti. A nyilvántartási adatok, a külkereskedelmi engedély és az auditnyilvántartások NDA alatt vagy audit során állnak rendelkezésre.'
+      link: '/hu/oem-trust-assurance'
+      link_label: 'Tekintse meg az ellenőrzési esettanulmányt'
+
+proof_stats:
+  - value: '12,500 m²'
+    label: 'Egyetlen gyártócsarnok'
+    detail: '4 speciális üzletcsarnok, auditokra nyitva'
+  - value: '350+'
+    label: 'Munkavállaló a telephelyen'
+    detail: '25+ mérnök a kutatásban, az alapanyagoknál és a minőségellenőrzésben'
+  - value: '120,000+'
+    label: 'Deszka évente'
+    detail: 'körülbelül 10,000 deszka havonta 4 automatikus soron'
+  - value: '50+'
+    label: 'Kiszolgált ország'
+    detail: 'Európa, Amerikák, ázsiai–csendes-óceáni térség, Közel-Kelet'
+  - value: '7 lépés'
+    label: 'Ellenőrzési kapurendszer'
+    detail: '01–07. csomópont, minden gyártási számra rögzítve'
+  - value: '10 év'
+    label: 'Szállítmány ERP nyomon követhetőség'
+    detail: 'A szállítmány-nyilvántartásokat megőrizzük és minden szállítmányhoz társítjuk'
+
+certifications:
+  tagline: 'Tanúsítványok és hatókör'
+  title: 'Mivel rendelkezünk, mi tartozik bele, hogyan ellenőrizhető'
+  subtitle: 'A közzétett lista – soha nem „csak kérésre elérhető”. A tanúsítványszámok és az auditnyilvántartások kérésre vagy audit során szolgáltatjuk ki.'
+  headers:
+    certificate: 'Tanúsítvány / szabvány'
+    scope: 'Lefedettség'
+    verify: 'Hogyan ellenőrizhető'
+  rows:
+    - certificate: 'ISO 9001:2015'
+      scope: 'Minőségirányítás a SUP tervezéséhez és gyártásához'
+      verify: 'A tanúsítványszám és az auditnyilvántartások kérésre vagy az audit során'
+    - certificate: 'ISO 25649'
+      scope: 'A felfújható csónakok biztonsága és szerkezeti megfelelősége (Európa)'
+      verify: 'Megfelelőségi dokumentáció minden termékcsaládhoz'
+    - certificate: 'CE'
+      scope: 'EU megfelelőség a felfújható SUP termékekre'
+      verify: 'A CE dokumentációt a megrendelésekkel együtt adjuk át'
+    - certificate: 'BSCI'
+      scope: 'Szociális megfelelőség a telephelyre és a munkaerőre'
+      verify: 'Az auditjelentés kérésre rendelkezésre áll'
+    - certificate: 'REACH és RoHS'
+      scope: 'Anyagkorlátozások és alapanyag-dokumentáció'
+      verify: 'Alapanyag-dokumentáció minden megrendeléshez'
+    - certificate: 'Harmadik fél vizsgálata (opcionális)'
+      scope: 'SGS, TÜV, BV vagy Intertek vizsgálat feladás előtt'
+      verify: 'ISO 2859-1 II. szint, az Ön választása szerint programozva'
+
+evidence_gates:
+  tagline: 'Hol találhatók a bizonyítékok'
+  title: 'Bizonyíték-dossziék – megtekintésre nyitva'
+  subtitle: 'Minden dosszié egy aktív oldal, amelyet most megtekinthet, valamint fájlok, amelyek a megrendelését kísérik.'
+  features:
+    - icon: E
+      icon_bg: blue
+      title: 'A gépek és berendezések listája'
+      desc: 'Vágás, hegesztés, laminálás, nyomtatás és összeállítás, valamint a minőségellenőrzési laboratórium – berendezések megnevezéssel, specifikációval és az egyes gépek funkciójával. Kérjen vezetett gyárlátogatást.'
+      link: '/hu/factory/equipment'
+      link_label: 'Nyissa meg a géplistát'
+    - icon: P
+      icon_bg: green
+      title: 'Az ellenőrzési kapuk fotói és jelentései'
+      desc: 'Hét ellenőrzési kap a gyár csarnokának fotóival és kétnyelvű jelentésekre mutató hivatkozásokkal – mit ellenőrizünk, milyen módszerrel, milyen kritériumhoz képest és hol dokumentáljuk.'
+      link: '/hu/factory/process'
+      link_label: 'Nyissa meg az ellenőrzési kapukat'
+    - icon: Q
+      icon_bg: orange
+      title: 'A minőségi laboratórium és a próbaeljárások'
+      desc: 'Univerzális szakítógép (ASTM D751), varrásleváló próbagerjed (ISO 6185), légnyomás-tartó berendezések és xenonlámpás öregítőkamra – azok a gépek, amelyek az alapanyagokat és a rekeszeket vizsgálják.'
+      link: '/hu/factory/quality-lab'
+      link_label: 'Nyissa meg a laboratóriumot'
+    - icon: T
+      icon_bg: purple
+      title: 'Nyomon követhetőség: minták és karantén'
+      desc: 'A valódi lánc a nyersanyagtekercstől a feladott deszkáig, a nem megfelelő készlet hézlépéses karanténfolyamata, valamint a döntéseket szabályozó hibamátrix.'
+      link: '/hu/factory/quality-inspection'
+      link_label: 'Nyissa meg a nyomon követési dossziót'
+
+traceability:
+  tagline: 'Egy szállítmány, a tekercstől a deszkáig követve'
+  title: 'Hogyan néz ki a nyomon követhetőség a gyakorlatban'
+  body: |
+    Minden szállítmány **10 évig érvényes ERP szállítmánykódot** kap. Az egyetlen szállítmányhoz rögzített lánc:
+
+    - **A nyersanyagtekercs** – alapanyag-tanúsítvány, a tekercs száma, a vizsgált alapanyagszállítmány (szakítás, szakadás, varrás)
+    - **A vágás** – CNC vágási rendelés a tervezési fájlhoz képest, rögzített hibaszázalék
+    - **A hegesztés és a laminálás** – sor, kezelő, az egyes rekeszek gépparaméterei
+    - **Az összeállítás** – a deszka gyártási száma, a szelep típusa, a hídszőnyeg szállítmánya
+    - **A vizsgálat** – 18.0 PSI × 24 órás nyomástartás minden rekesznél, 0.50 PSI-nél nagyobb esésnél automatikus elutasítással
+    - **A kiadás** – 100 pontos ellenőrző lista minden deszkára, a QA-igazgató aláírása minden szállítmányra
+    - **A feladás** – a küldeményt kísérő megfelelőségi tanúsítvány; a szerződésben fenntartott auditjog
+
+    Kérjen egy minta QC jegyzőkönyvet az első megrendelés előtt – ugyanaz a formátum, amelyet az áruval együtt kap.
+
+faqs:
+  tagline: 'Gyakori kérdések'
+  title: 'A bizonyítékokra vonatkozó kérdések, amelyeket a vásárlók feltesznek'
+  items:
+    - q: 'Ez az oldal csak ellenőrzésre szolgál, és nem helyettesíti a szokásos Due Diligence vizsgálatot?'
+      a: 'Igy van – ez az oldal megmutatja, hol ellenőrizhető minden állítás: az entitás nyilvántartása, a tanúsítványok, a gépek, a nyilvántartások és egy auditokra nyitott gyár. A szokásos ellenőrzési lépések (nyilvántartás-ellenőrzés, audit, harmadik fél vizsgálata) továbbra is érvényesek és köszönően fogadottak.'
+    - q: 'Mely entitásnak kell szerepelnie a megrendelésem dokumentációján?'
+      a: 'A megrendelések a Qingdao Vatrad Group Co., Ltd.-hez érkeznek, amely a Vatrad (gyártódivízió) néven működik, az iSupfactory pedig a SUP terméksor. A szerződéses dokumentumokat az Értékesítési alelnök, a Műszaki Igazgató és a QA-igazgató írja alá.'
+    - q: 'Kaphatok-e másolatot a tanúsítványokról a megrendelés előtt?'
+      a: 'Igen – a tanúsítványszámokat és az auditnyilvántartásokat kérésre vagy audit során szolgáltatjuk ki. A lista közzétett, soha nem „csak kérésre elérhető”.'
+    - q: 'Hogyan ellenőrizzem magam a szállítmány próbanyilvántartásait?'
+      a: 'Minden rekeszt 18.0 PSI nyomáson vizsgálunk 24 órán át, 0.50 PSI-nél nagyobb esésnél automatikus elutasítással; a próbajegyzetek a gyártási számokhoz kapcsolódnak, és minden szállítmányt kísérnek a Megfelelőségi tanúsítvánnyal. Az ISO 2859-1 II. szint szerinti SGS, TÜV, BV vagy Intertek vizsgálat feladás előtt programozható, az Ön választása szerint.'
+    - q: 'A tanúsítványok a tartozékokra is kiterjednek?'
+      a: 'A REACH/RoHS alapanyag-dokumentáció az ugyanabban a megrendelésben kiszállított deszkákra és tartozékokra vonatkozik, a QC ellenőrző listák pedig a teljes készletet lefedik – deszka, evező, pumpa, biztonsági öv és hátizsák.'
+    - q: 'Mi történik a bizonyítékokkal a megrendelés után?'
+      a: 'A szállítmány ERP nyomon követhetőségét 10 évig megőrizzük. A minőségirányítási rendszer SOP eljárásai és az ellenőrzési szabványok letölthetők maradnak, a vásárló pedig a szerződés szerint fenntartja a gyártás alatti auditjogát.'
+
+cta:
+  title: 'Először ellenőrizzen – csak utána beszélünk a specifikációkról'
+  subtitle: 'Kérje a nyilvántartások csomagját, a tanúsítványok másolatát vagy egy audit-időpontot. Az ellenőrzés jön először; a megrendelésről szóló beszélgetés utána következik. A megkeresés benyújtása semmilyen megrendelésre nem kötelez.'
+  button_text: 'Kérje az ellenőrzési csomagot'
+  button_link: '/hu/contact#trust-verification'
+  actions:
+    - text: Márkaidentitás
+      href: /hu/about/identity
+    - text: A gyár ellenőrző listája
+      href: /hu/factory-audit-checklist

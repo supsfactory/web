@@ -13,13 +13,13 @@ import {
   getSiteFaqs,
   brandify,
 } from '@/features/content/loader'
-import { GUIDES_ES, GUIDES_FR, GUIDES_DE, GUIDES_IT, GUIDES_PT, GUIDES_NL, GUIDES_SV, GUIDES_NO, GUIDES_PL, GUIDES_DA, GUIDES_FI, GUIDES_RU, GUIDES_CS, GUIDES_TR, GUIDES_RO } from '@/features/content/guide-content'
+import { GUIDES_ES, GUIDES_FR, GUIDES_DE, GUIDES_IT, GUIDES_PT, GUIDES_NL, GUIDES_SV, GUIDES_NO, GUIDES_PL, GUIDES_DA, GUIDES_FI, GUIDES_RU, GUIDES_CS, GUIDES_TR, GUIDES_RO, GUIDES_HU } from '@/features/content/guide-content'
 import { FACTS, COLLABORATION_MODES } from '@/product/facts'
 import { EDGE_REDIRECTS } from '@/features/seo/edge-gate'
 import { LEGACY_REDIRECTS } from '@/features/seo/legacy-redirects'
 import { SITE_NAME } from '@/config/site'
 import { PAGE_TITLES } from '@/product/entity-data'
-import { LLM_SITE_DESCRIPTION, LLM_FAQ_DESCRIPTION, LLM_SPANISH_HOMEPAGE_DESCRIPTION, LLM_FRENCH_HOMEPAGE_DESCRIPTION, LLM_GERMAN_HOMEPAGE_DESCRIPTION, LLM_ITALIAN_HOMEPAGE_DESCRIPTION, LLM_PORTUGUESE_HOMEPAGE_DESCRIPTION, LLM_DUTCH_HOMEPAGE_DESCRIPTION, LLM_SWEDISH_HOMEPAGE_DESCRIPTION, LLM_NORWEGIAN_HOMEPAGE_DESCRIPTION, LLM_POLISH_HOMEPAGE_DESCRIPTION, LLM_DANISH_HOMEPAGE_DESCRIPTION, LLM_FINNISH_HOMEPAGE_DESCRIPTION, LLM_RUSSIAN_HOMEPAGE_DESCRIPTION, LLM_CZECH_HOMEPAGE_DESCRIPTION, LLM_TURKISH_HOMEPAGE_DESCRIPTION, LLM_ROMANIAN_HOMEPAGE_DESCRIPTION, LLM_FACT_BLOCK } from '@/product/ai-content'
+import { LLM_SITE_DESCRIPTION, LLM_FAQ_DESCRIPTION, LLM_SPANISH_HOMEPAGE_DESCRIPTION, LLM_FRENCH_HOMEPAGE_DESCRIPTION, LLM_GERMAN_HOMEPAGE_DESCRIPTION, LLM_ITALIAN_HOMEPAGE_DESCRIPTION, LLM_PORTUGUESE_HOMEPAGE_DESCRIPTION, LLM_DUTCH_HOMEPAGE_DESCRIPTION, LLM_SWEDISH_HOMEPAGE_DESCRIPTION, LLM_NORWEGIAN_HOMEPAGE_DESCRIPTION, LLM_POLISH_HOMEPAGE_DESCRIPTION, LLM_DANISH_HOMEPAGE_DESCRIPTION, LLM_FINNISH_HOMEPAGE_DESCRIPTION, LLM_RUSSIAN_HOMEPAGE_DESCRIPTION, LLM_CZECH_HOMEPAGE_DESCRIPTION, LLM_TURKISH_HOMEPAGE_DESCRIPTION, LLM_ROMANIAN_HOMEPAGE_DESCRIPTION, LLM_HUNGARIAN_HOMEPAGE_DESCRIPTION, LLM_FACT_BLOCK } from '@/product/ai-content'
 import { GLOSSARY } from '@/product/glossary'
 
 const flat = (text: string) => text.replace(/\s+/g, ' ').trim()
@@ -1689,6 +1689,96 @@ export function llmsRomanianFull(): string {
     ...caseBlocks,
     '',
     '# Română: Ghiduri',
+    ...guideBlocks,
+    '',
+  ].join('\n\n')
+}
+
+/** `/llms.txt` Hungarian section — absolute /hu URLs so LLMs can ingest the mirror directly. */
+export function llmHungarianIndex(origin: string): string {
+  const hu = (path: string) => abs(origin, `/hu${path}`)
+  const productLines = getContentProducts('hu').map((p) => `- [${p.title}](${hu(`/products/${p.slug}`)}): ${flat(p.summary ?? '')}`)
+  const techLines = getTechArticles('hu').map((a) => `- [${a.title}](${hu(`/technology/${a.slug}`)}): ${flat(a.summary ?? '')}`)
+  const caseLines = getCaseUses('hu').map((c) => `- [${c.title}](${hu(`/evidence/case-studies/${c.slug}`)}): ${flat(c.summary ?? '')}`)
+  const guideLines = GUIDES_HU.map((g) => `- [${g.title}](${hu(`/guides/${g.slug}`)}): ${flat(g.intro[0] ?? '')}`)
+  const newsLines = getNewsPosts('hu')
+    .slice(0, 10)
+    .map((p) => `- [${p.title}](${hu(`/news/${p.slug}`)}): ${flat(p.excerpt ?? '')}`)
+  const faqLines = getSiteFaqs('hu')
+    .slice(0, 6)
+    .map((f) => `- ${f.q}`)
+  return [
+    '',
+    '## Magyar',
+    '',
+    `- [${SITE_NAME} — Kezdőlap](${hu('/')}): ${LLM_HUNGARIAN_HOMEPAGE_DESCRIPTION}`,
+    '',
+    '### Magyar: Termékek',
+    ...productLines,
+    '',
+    '### Magyar: Technológia',
+    ...techLines,
+    '',
+    '### Magyar: Esettanulmányok',
+    ...caseLines,
+    '',
+    '### Magyar: Útmutatók',
+    ...guideLines,
+    '',
+    '### Magyar: Hírek',
+    ...newsLines,
+    '',
+    '### Magyar: Gyakran ismételt kérdések',
+    ...faqLines,
+    '',
+  ].join('\n')
+}
+
+/** Full Hungarian text for products, news, tech, cases and guides (in /llms-full.txt). */
+export function llmsHungarianFull(): string {
+  const productBlocks = getContentProducts('hu').map((p) =>
+    [
+      `## Termék: ${p.title}${p.sku ? ` (${p.sku})` : ''}`,
+      '',
+      flat(p.summary ?? ''),
+      ...(p.specs ?? []).map((s) => `- ${s.label}: ${s.value}`),
+      '',
+      ...mdBody(p.body),
+    ].join('\n'),
+  )
+  const newsBlocks = getNewsPosts('hu').map((p) =>
+    [`## Hír: ${p.title}`, '', p.date.slice(0, 10), flat(p.excerpt ?? ''), '', ...mdBody(p.body)].join('\n'),
+  )
+  const techBlocks = getTechArticles('hu').map((a) =>
+    [`## Technológia: ${a.title}`, '', flat(a.summary ?? ''), '', ...mdBody(a.body)].join('\n'),
+  )
+  const caseBlocks = getCaseUses('hu').map((c) => [`## Esettanulmány: ${c.title}`, '', flat(c.summary ?? ''), ...mdBody(c.body)].join('\n'))
+  const guideBlocks = GUIDES_HU.map((g) =>
+    [
+      `# Útmutató: ${g.title}`,
+      '',
+      flat(g.intro.join(' ')),
+      ...g.sections.flatMap((s) => ['', `## ${s.title}`, '', s.body]),
+      '',
+      '## GYIK',
+      ...g.faqs.flatMap((f) => [`### K: ${f.q}`, '', f.a, '']),
+    ].join('\n'),
+  )
+  return [
+    '',
+    '# Magyar',
+    ...productBlocks,
+    '',
+    '# Magyar: Hírek',
+    ...newsBlocks,
+    '',
+    '# Magyar: Technológia',
+    ...techBlocks,
+    '',
+    '# Magyar: Esettanulmányok',
+    ...caseBlocks,
+    '',
+    '# Magyar: Útmutatók',
     ...guideBlocks,
     '',
   ].join('\n\n')
