@@ -1,0 +1,56 @@
+meta:
+  title: "Certificarea SUP gonflabil — CE, REACH, RoHS și ghidul de conformitate"
+  description: "Domeniul certificării în producția de SUP gonflabile: CE (modele UE), BSCI, ISO 9001, REACH, RoHS. Numerele certificatelor sunt disponibile la cerere, pentru fiecare proiect."
+  dateModified: "2026-08-20"
+
+sections:
+  - title: "Răspuns direct"
+    directAnswer:
+      answer: "iSupfactory deține certificările BSCI, ISO 9001, ISO 25649, CE, REACH și RoHS. CE se aplică modelelor destinate piețelor Uniunii Europene — nu tuturor produselor în mod generic."
+      condition: "Domeniul certificării variază în funcție de piața țintă și de configurația produsului. Numerele certificatelor, valabilitatea și autoritățile emitente sunt disponibile la cerere, pentru fiecare proiect."
+      value: "BSCI · ISO 9001 · ISO 25649 · CE · REACH · RoHS"
+      verifiedDate: "Septembrie 2026"
+      sourceType: "certificate"
+    body: |
+      Certificarea reprezintă un aspect central în achiziții și trebuie formulată cu
+      precizie. Afirmațiile generale de tip „CE pentru toate produsele” pot genera
+      probleme de încredere dacă ulterior cumpărătorul descoperă că domeniul este
+      mai restrâns decât se aștepta.
+
+  - title: "Detalii privind certificările"
+    body: |
+      | Certificare | Domeniu | Autoritate | Se aplică la |
+      |---------------|-------|-----------|------------|
+      | BSCI | Audit de responsabilitate socială | amfori BSCI | Instalația de producție |
+      | ISO 9001 | Sistem de management al calității | Organism de certificare (disponibil la cerere) | Instalația de producție |
+      | ISO 25649 | Siguranța ambarcatiunilor gonflabile | ISO | Modelele SUP aplicabile, pe piețe |
+      | CE | Conformitate pentru piața UE (EN ISO 6185 / 10087 / 10240) | Organism notificat UE | Modelele destinate pieței UE |
+      | REACH | Securitate chimică în UE | ECHA | Materialele utilizate în producție |
+      | RoHS | Restricționarea substanțelor periculoase | Directivă UE | Accesoriile electronice (pompe) |
+
+  - title: "Precizări importante privind domeniul"
+    body: |
+      - **CE** se aplică modelelor configurate pentru vânzarea pe piața Uniunii Europene. O placă
+        construită pentru distribuție în Statele Unite sau în Australia nu poartă marca CE,
+        cu excepția cazului în care aceasta este solicitată explicit.
+      - **ISO 9001** acoperă sistemul de management al calității al instalației de producție, nu
+        certificarea individuală a produselor.
+      - **Conformitatea REACH** acoperă materialele utilizate în producție — documentația este
+        disponibilă pentru importatorii care trebuie să înregistreze substanțe.
+      - Numerele certificatelor, datele de valabilitate și autoritățile emitente sunt disponibile la
+        cerere, pentru fiecare proiect. Nu publicăm numerele certificatelor din considerente de
+        securitate.
+      - Inspecția realizată de terți este posibilă prin SGS, TÜV, BV sau Intertek, pentru orice
+        livrare.
+
+  - title: "Cum se solicită documentele de certificare"
+    body: |
+      În cadrul procesului de solicitare de ofertă, specificați piețele țintă și vă vom confirma
+      ce certificări se aplică configurației specifice a produsului dumneavoastră. Copiile
+      certificatelor (cu detaliile comerciale redactedate, acolo unde este necesar) sunt
+      furnizate ca parte a dosarului de documentație al proiectului.
+
+evidence_review:
+  tagline: 'Dovezi și verificare'
+  title: 'SPECIFICAȚII VERIFICATE'
+  body: 'Toate afirmațiile de producție de pe această pagină sunt verificate de echipa noastră de Inginerie a Producției la instalația din Laixi, Qingdao. Certificatele, înregistrările inspecției de control al calității, rapoartele de încercări de presiune și rezistență structurală și înregistrările de trasabilitate a loturilor sunt disponibile la cerere. Specificațiile au fost verificate ultima dată în septembrie 2026.'

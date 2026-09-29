@@ -1,0 +1,477 @@
+meta:
+  title: 'Standarde de inspecție a calității pentru plăci SUP personalizate | Fabrică OEM | iSupfactory'
+  description: 'Producție OEM de plăci SUP gonflabile: inspecția materialelor, a producției, testării, ambalării și trasabilității, cu controlul retușurilor de etanșeitate la aer conform ISO 9001.'
+  dateModified: '2026-08-14'
+  keywords:
+    - 'producător de plăci sup gonflabile'
+    - 'fabrică oem de plăci sup'
+    - 'producător de plăci paddle personalizate'
+    - 'inspecția calității plăcilor sup'
+    - 'proces de producție plăci sup'
+    - 'producător de plăci sup private label'
+
+hero:
+  tagline: Inspecția și asigurarea calității
+  title: Controlul calității pentru plăci SUP gonflabile personalizate
+  subtitle: 'QINGDAO VATRAD GROUP.,LTD. aplică criterii de inspecție specifice proiectului pe parcursul pregătirii materialelor, construcției plăcii, testării finale la umflare, ambalării și eliberării expediției. Cerințele de calitate sunt gestionate dinamic pe baza mostrei aprobate, a specificației tehnice, a probei de grafică, a listei de materiale (BOM) și a standardelor de ambalare convenite pentru fiecare comandă OEM/ODM.'
+  actions:
+    - text: Descărcați pachetul de asigurare a calității
+      variant: primary
+      href: 'https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_Quality_Inspection_Standards.pdf?dl=1'
+    - text: Descărcați pachetul mostră de calitate (PDF)
+      href: 'https://assets.isupfactory.com/site/downloads/Qingdao_Vatrad_Group_SUP_Quality_Documentation_Pack.pdf?dl=1'
+    - text: Solicitați informații despre calitatea OEM
+      href: /ro/contact
+
+answer:
+  label: 'Răspuns direct'
+  text: 'QINGDAO VATRAD GROUP.,LTD. controlează calitatea plăcilor SUP gonflabile printr-un sistem de verificare în 4 etape: controlul materialelor la intrare (IQC), controlul calității în proces (IPQC), testarea finală a plăcii și verificarea umflării (FQC) și ambalarea și eliberarea înainte de expediție (OQC). Fiecare comandă este inspectată față de mostra aprobată, specificația tehnică, proba de grafică, BOM și standardele de ambalare, cu verificarea etanșeității la aer, controale vizuale și dimensionale, confirmarea accesoriilor și trasabilitatea loturilor. Articolele care nu îndeplinesc criteriile de acceptare sunt plasate sub reținere controlată sau în carantină, retușate numai conform instrucțiunilor aprobate și re-inspectate înainte de eliberarea autorizată.'
+  verified: 'Septembrie 2026'
+
+intro: 'Sistemul nostru de calitate este construit pentru proiecte OEM/ODM: criteriile de inspecție sunt definite per comandă, documentate și respectate de echipele de producție și calitate de la materialul la intrare până la ambalare. Astfel, așteptările de calitate rămân aliniate între fabrică și marca dumneavoastră, de la prima mostră până la expedițiile complete cu container.'
+
+scope_note:
+  tagline: Domeniu de aplicare
+  title: Criterii de inspecție specifice proiectului
+  body: |
+    Specificațiile de calitate pot varia în funcție de construcția plăcii (de exemplu, un singur strat/dublu strat, drop-stitch țesut, șină fuzionată), de utilizarea finală prevăzută, de reglementările pieței țintă și de parametrii aprobați de client. Autorizarea finală de eliberare se bazează strict pe criteriile de inspecție documentate și convenite pentru comandă.
+
+stages:
+  tagline: Cadrul de calitate
+  title: Sistemul nostru de verificare a calității în 4 etape
+  subtitle: Un ciclu QC complet, de la sosirea materialului brut până la eliberarea expediției.
+  steps:
+    - title: '1. Controlul materialelor la intrare (IQC)'
+      desc: 'Materialele principale și componentele achiziționate sunt verificate față de specificațiile aprobate și mostrele de referință înainte de a intra pe linia de producție. Drop-stitch și PVC sunt verificate pentru identificarea materialului, lotul furnizorului, greutate/densitate, grosime, potrivirea culorii față de mostrele aprobate și defectele de suprafață. Suprapușurile de tracțiune EVA sunt verificate pentru model, culoare, grosime, acuratețea tăierii și compatibilitatea adezivului. Valvele și feroneria trec prin teste de funcționare, filet, integritate a etanșării și montaj. Accesoriile și ambalajele (pompe, vâsle, derivoare, lese, genți, cutii) sunt potrivite pentru cantitate, culoare, branding, acuratețea codului de bare și versiunea graficii față de BOM-ul aprobat.'
+    - title: '2. Controlul calității în proces (IPQC)'
+      desc: 'Etapele critice de producție sunt inspectate pentru a detecta neconformitățile înainte ca plăcile să treacă la stațiile următoare. Tăierea și tipărirea sunt verificate pentru dimensiunile panourilor, aspectul graficii, orientarea în oglindă și curățenia marginilor față de desenele tehnice aprobate. Asamblarea plăcii și lipirea șinei sunt verificate pentru simetria conturului, continuitatea suprapunerii cusăturilor și eliminarea golurilor sau pungilor de aer de-a lungul zonelor de solicitare ridicată. Fixarea valvelor și a accesoriilor, grafica și brandingul sunt verificate pentru poziție, orientare, acoperirea adezivului, ortografia logo-ului și versiunea graficii.'
+    - title: '3. Testarea finală a plăcii și verificarea umflării (FQC)'
+      desc: 'Plăcile finalizate trec prin testare fizică și structurală obligatorie înainte de aprobarea ambalării. Plăcile sunt umflate la presiunea de inspecție aprobată pentru proiect și menținute pentru a verifica rigiditatea structurală și stabilitatea presiunii. Scanările de etanșeitate la aer acoperă carcasa valvei, cusăturile șinei, conurile de proră/pupa și îmbinările de solicitare, folosind metode calibrate de detectare a scurgerilor (monitorizarea scăderii de presiune sau testarea cu bule). Inspecția cosmetică și dimensională verifică dimensiunile, profilul de rocker și alinierea suprapușului EVA (toleranță ±2 mm) sub iluminare standard de lumină naturală.'
+    - title: '4. Ambalarea și eliberarea înainte de expediție (OQC)'
+      desc: 'Verificarea completă înainte de expediție asigură zero nepotriviri în configurația SKU sau în marcajele de expediere. Caracterul complet al kitului verifică încrucișat placa, derivoarea, lesa, vâsla, pompa, geanta, kitul de reparații și manualul de utilizare față de BOM-ul comenzii. Verificările de ambalare și cod de bare verifică marcajele cutiei, etichetele SKU, lizibilitatea codului de bare, limba manualului și integritatea structurală a cutiei. Comenzile sunt eliberate numai după ce auditul final de ambalare este semnat de personalul de calitate autorizat.'
+
+inspection_points:
+  tagline: Acoperirea inspecției
+  title: Puncte cheie de control al inspecției
+  subtitle: Fiecare punct de control este executat față de criterii de acceptare documentate și convenite per comandă.
+  features:
+    - icon: A
+      icon_bg: blue
+      title: Verificarea etanșeității la aer
+      desc: 'Plăcile finalizate sunt umflate la presiunea de inspecție aprobată și verificate pentru retenția presiunii, starea bazei valvei, cusăturile șinei, zonele de proră și pupa și locațiile de solicitare ridicată. Acolo unde procedura de inspecție o cere, zonele suspecte de scurgere sunt examinate cu metode aprobate de detectare a scurgerilor.'
+    - icon: B
+      icon_bg: green
+      title: Inspecția vizuală și dimensională
+      desc: 'Plăcile sunt inspectate sub iluminare adecvată pentru starea suprafeței materialului, defecte de tipărire, variații de culoare, alinierea EVA, cute, zgârieturi, contaminare și aspectul lipirii. Dimensiunile cheie și pozițiile accesoriilor sunt verificate față de desenele sau specificațiile aprobate.'
+    - icon: C
+      icon_bg: purple
+      title: Verificarea accesoriilor și ambalajului
+      desc: 'Configurația completă a produsului este verificată înainte de expediție: modelul plăcii, sistemul de derivoare, vâsla, pompa, lesa, geanta de transport, kitul de reparații, manualul de utilizare și accesoriile specifice clientului — fiecare potrivit cu mostra aprobată, desenele și BOM-ul.'
+    - icon: D
+      icon_bg: orange
+      title: Ambalarea și eliberarea expediției
+      desc: 'Unitățile ambalate sunt verificate pentru configurația SKU, caracterul complet al accesoriilor, etichetele produsului, informațiile codului de bare, versiunea manualului de instrucțiuni, marcajul cutiei, cantitatea de ambalare și starea cutiei. Eliberarea expediției este autorizată numai după finalizarea tuturor cerințelor de inspecție și ambalare.'
+
+traceability_intro:
+  tagline: Trasabilitatea loturilor
+  title: Sistem de trasabilitate la nivel de proiect și de lot
+  body: |
+    Fiecare comandă SUP personalizată este gestionată sub un cod de proiect unificat care leagă specificațiile tehnice, BOM-ul aprobat, reviziile graficii, numerele de lot ale materialelor, referințele de ambalare și înregistrările de inspecție. Înregistrările de producție și inspecție sunt menținute pe proiectul aplicabil și pe lotul de producție, iar fiecare lot poate fi legat înapoi de specificația de produs aprobată, BOM, grafică și referințele de ambalare.
+
+    Aceasta sprijină revizuirea eficientă a configurației produsului, a stării inspecției și a domeniului afectat în cazul identificării unei probleme de calitate — de la produsul finit înapoi la înregistrările sursă, folosind identificarea plăcii sau a cutiei.
+
+traceability_chain:
+  tagline: Lanțul de trasabilitate
+  title: De la codul de proiect la eliberarea expediției
+  subtitle: Un singur lanț de referințe controlate, de la confirmarea comenzii până la expedierea autorizată.
+  steps:
+    - step: '01'
+      title: Codul de proiect
+      desc: Referință unificată de proiect care leagă fiecare document controlat de comandă.
+    - step: '02'
+      title: Reviziile documentelor
+      desc: Nivelurile curente de revizie ale specificației, BOM-ului, graficii și ambalării — numai versiunile aprobate sunt valide pentru producție.
+    - step: '03'
+      title: Loturi și materiale
+      desc: Loturile de materiale și componente înregistrate față de lotul de producție.
+    - step: '04'
+      title: Înregistrări de inspecție
+      desc: Rezultatele inspecțiilor IQC, în proces, de etanșeitate la aer, finale și de ambalare, per lot.
+    - step: '05'
+      title: Ambalare și eliberare
+      desc: Lotul de ambalare, starea de închidere a NCR și rezumatul eliberării autorizate a expediției.
+
+traceability_sample:
+  tagline: Mostră anonimizată
+  title: Înregistrare de control al trasabilității (demo)
+  body: |
+    Valorile de demonstrație sunt prezentate doar cu titlu ilustrativ — numele clienților, numerele de comandă, grafica personalizată, datele furnizorilor și informațiile comerciale sunt eliminate pentru a proteja confidențialitatea.
+
+    - **Producător:** QINGDAO VATRAD GROUP, LTD.
+    - **Cod de proiect:** DEMO-SUP-2026-01
+    - **Referință SKU:** DEMO-TR-126
+    - **Lot de producție:** BATCH-AUG-01
+    - **Revizia specificației / BOM / graficii:** Rev B / Rev C / Rev B
+    - **Înregistrare de etanșeitate la aer:** PASS — păstrată per lot
+    - **Starea inspecției:** PASS
+    - **Starea expediției:** RELEASED
+
+quarantine_intro:
+  tagline: Controlul neconformităților
+  title: Controlul produselor neconforme și carantina
+  body: |
+    Produsele sau componentele care nu îndeplinesc criteriile de acceptare definite sunt identificate clar și plasate sub reținere controlată sau în stare de carantină. Ele nu pot trece la următoarea etapă de producție, la ambalare sau la expediere până când nu este finalizată o dispoziție autorizată. Retușul se execută conform instrucțiunilor aprobate și este legat de înregistrarea de neconformitate relevantă; articolele retușate sunt re-inspectate față de cerințele aplicabile ale proiectului înainte de eliberarea calității.
+
+quarantine_flow:
+  tagline: Flux de control în 7 pași
+  title: Ce se întâmplă când este identificată o neconformitate
+  subtitle: Identificare, control, corectare, verificare — apoi eliberare sau respingere. Produsul neconform nu reintră niciodată în producție sau ambalare fără verificare.
+  steps:
+    - step: '01'
+      title: Identificare
+      desc: Neconformitatea este înregistrată față de produsul, SKU-ul, lotul sau etapa de proces afectată.
+    - step: '02'
+      title: Etichetare
+      desc: Articolele afectate sunt identificate clar cu etichete de status controlate — HOLD, QUARANTINE sau REJECTED.
+    - step: '03'
+      title: Carantină
+      desc: Articolele sunt segregate într-o zonă de carantină controlată fizic sau controlate prin sistem pentru a preveni utilizarea sau expedierea neintenționată.
+    - step: '04'
+      title: Evaluarea domeniului
+      desc: Domeniul afectat este revizuit pe lot, etapă de proces, lot de material și revizie de document.
+    - step: '05'
+      title: Retuș / Înlocuire
+      desc: Corectarea este permisă numai printr-o dispoziție aprobată și o instrucțiune de lucru controlată.
+    - step: '06'
+      title: Re-inspecție
+      desc: Articolele corectate sunt re-inspectate față de criteriile aplicabile de acceptare înainte de eliberare.
+    - step: '07'
+      title: Eliberare sau respingere
+      desc: Numai produsul conform autorizat trece la ambalare sau la eliberarea expediției.
+
+quarantine_evidence:
+  tagline: În atelierul de fabricație
+  title: Testare controlată și carantină în practică
+  subtitle: Fotografii din atelierul nostru din Qingdao care arată cum se aplică controlul statusului și înregistrările de inspecție la fața locului.
+  features:
+    - image: https://assets.isupfactory.com/site/quality/qc-air-tightness-test-area.avif
+      alt: Plăci SUP gonflabile umflate în zona de testare a etanșeității la aer a fabricii, monitorizate de un manometru digital
+      title: Zona de testare a etanșeității la aer
+      desc: 'Plăci umflate reținute în zona de testare QC sub iluminare industrială, cu manometre digitale care monitorizează testul de retenție a aerului la baza valvei, cusăturile șinei, proră și pupa și locațiile de solicitare ridicată. Înregistrările sunt păstrate per lot și legate de inspecția finală.'
+    - image: https://assets.isupfactory.com/site/quality/qc-hold-quarantine-station.avif
+      alt: Fișe de control al calității și etichete de status controlat la stația de inspecție a fabricii
+      title: Stația de reținere și carantină
+      desc: 'Stație de inspecție cu fișe de control QC și etichetare de status. Orice articol care nu îndeplinește criteriile de acceptare este etichetat, înregistrat și mutat în carantină — nu poate trece la ambalare până când nu sunt finalizate o dispoziție autorizată și o re-inspecție obligatorie.'
+    - image: https://assets.isupfactory.com/site/quality/qc-air-tightness-rework.avif
+      alt: Tehnician QC care execută retuș controlat de etanșeitate la aer pe o placă SUP gonflabilă la stația de retuș a fabricii
+      title: Stația de retuș controlat
+      desc: 'Retușul de etanșeitate la aer se execută într-o stație dedicată, conform unei fișe de metodă aprobate: defectul este marcat, placa rămâne pe HOLD, iar după perioada de întărire necesară revine în zona de testare pentru re-inspecție față de criteriile originale de acceptare.'
+    - image: https://assets.isupfactory.com/site/quality/qc-workshop-quarantine-demo.avif
+      alt: Demonstrație în atelier a segregării controlate în carantină la fabrica din Qingdao
+      title: Demonstrație a zonei de carantină
+      desc: 'Fotografie demonstrativă din atelier care arată cum funcționează segregarea controlată în carantină la fața locului: unitățile segregate sunt ținute sub control de status până la finalizarea unei dispoziții autorizate.'
+
+rework_intro:
+  tagline: Guvernanța retușurilor
+  title: Controlul neconformităților de etanșeitate la aer și guvernanța retușurilor
+  body: |
+    La QINGDAO VATRAD GROUP.,LTD., retușul este definit strict ca readucerea unei unități neconforme la conformitate deplină cu specificația sa de inginerie originală — nu ca o reparație rapidă. Orice placă identificată cu o neconformitate de etanșeitate la aer este plasată sub reținere controlată și legată de un Raport de Neconformitate (NCR) înainte de orice procesare ulterioară; sursa scurgerii este localizată și înregistrată folosind metoda de diagnosticare aprobată.
+
+    Retușul poate continua numai atunci când defectul se află în domeniul de retuș aprobat și este disponibilă o metodă autorizată. Instrucțiunea de retuș identifică produsul, lotul, locația defectului, materialul aprobat, metoda, condițiile necesare și domeniul de re-inspecție. După perioada necesară de întărire sau stabilizare, placa este re-inspectată față de aceleași criterii aplicabile de acceptare ca o placă conformă — retușul nu reduce niciodată standardul de acceptare. Eșecul re-inspecției necesită o nouă dispoziție de inginerie și calitate; retușurile repetate nu sunt permise fără aprobare documentată.
+
+rework_decision:
+  tagline: Flux interactiv
+  title: Flux de decizie pentru retuș — faceți clic pe orice nod
+  subtitle: Urmăriți modul în care o neconformitate de etanșeitate la aer este gestionată de la detectare până la eliberare sau deșeu. Faceți clic pe un nod pentru a extinde cerințele de control la acel pas.
+  nodes:
+    - id: detect
+      type: start
+      label: Scurgere detectată
+      detail: 'O neconformitate de etanșeitate la aer este identificată în timpul inspecției — eșec de retenție a presiunii, scurgere vizibilă sau un defect conex al sistemului de aer.'
+    - id: hold
+      type: step
+      label: Oprire linie · Etichetă HOLD · NCR
+      detail: 'Procesarea se oprește. ID-ul plăcii, codul produsului, lotul, stația de lucru, data și inspectorul sunt înregistrate; se atașează o etichetă HOLD / QUARANTINE și se deschide un NCR față de revizia de specificație aplicabilă.'
+    - id: locate
+      type: step
+      label: Localizarea sursei scurgerii
+      detail: 'Placa este umflată la presiunea de diagnosticare aprobată pentru proiect, iar sursa este localizată cu o metodă aprobată — retenția presiunii, testarea calibrată cu bule, echipament acustic sau de detectare a scurgerilor.'
+    - id: classify
+      type: step
+      label: Clasificarea defectului (A–G)
+      detail: 'Defectul este clasificat față de matricea de aprobare: A interfața valvei, B cusătura bazei valvei, C perforație de suprafață, D cusătură locală a șinei, E defect major al șinei, F scurgere recurentă, G deteriorare structurală.'
+    - id: authorize
+      type: decision
+      label: Retuș autorizat?
+      yes: rework
+      no: escalate
+      detail: 'QC confirmă categoria defectului, iar Ingineria analizează dacă placa poate fi readusă la specificația sa originală. Autorizarea înregistrează fișa de metodă, materialele, condițiile și domeniul de re-inspecție — sau direcționează către înlocuire, respingere, deșeu sau concesie comercială din partea clientului.'
+    - id: rework
+      type: step
+      label: Retuș controlat
+      detail: 'Executat numai în limitele defectului aprobat, folosind fișa de metodă, lotul de material și uneltele aprobate — fără a modifica niciodată dimensiunile, construcția, grafica, accesoriile sau cerințele de ambalare.'
+    - id: cure
+      type: step
+      label: Întărire și stabilizare
+      detail: 'Placa rămâne pe HOLD pe durata perioadei de întărire și stabilizare definite de materialul și instrucțiunea de proces aprobate, apoi primește o pre-verificare vizuală și de execuție.'
+    - id: reinspect
+      type: decision
+      label: Re-inspecție trecută?
+      yes: release
+      no: escalate
+      detail: 'Placa este umflată la presiunea de re-inspecție aprobată pentru proiect, iar defectul original plus toate caracteristicile potențial afectate sunt reverificate — locația scurgerii, valva, șinele, cusăturile, zonele de solicitare ridicată, accesoriile și aspectul. Retușul nu reduce niciodată standardul de acceptare.'
+    - id: release
+      type: release
+      label: Eliberarea calității
+      detail: 'Calitatea revizuiește NCR-ul închis, înregistrarea de retuș și rezultatul re-inspecției și autorizează eliberarea. Nicio placă retușată nu este ambalată sau expediată fără eliberarea autorizată a calității.'
+    - id: escalate
+      type: escalate
+      label: Escaladare — Înlocuire / Deșeu / Concesie
+      detail: 'Fără retușuri repetate fără aprobare documentată. Placa este direcționată către înlocuire, respingere, deșeu sau o concesie comercială scrisă din partea clientului, atunci când specificația originală nu poate fi restabilită.'
+
+defect_matrix:
+  tagline: Clasificarea defectelor
+  title: Clasificarea defectelor de etanșeitate la aer și matricea de aprobare
+  subtitle: Nu fiecare scurgere este retușată — fiecare defect este clasificat, iar dispoziția sa este aprobată la nivelul corect, de la inspectorul QC până la directorul fabricii.
+  headers:
+    category: Categoria defectului
+    area: Zona tipică
+    eligibility: Eligibilitate pentru retuș
+    approval: Aprobarea necesară
+  rows:
+    - category: 'Clasa A — Interfața valvei'
+      area: 'Nucleul valvei, etanșarea capacului, garnitura, interfața pompei'
+      eligibility: 'Retuș standard autorizat'
+      approval: 'Inspector QC'
+    - category: 'Clasa B — Cusătura bazei valvei'
+      area: 'Micro-scurgere de-a lungul marginii valvei'
+      eligibility: 'Retuș evaluat conform fișei de metodă aprobate'
+      approval: 'QC + Inginerie'
+    - category: 'Clasa C — Perforație de suprafață'
+      area: 'Micro-perforație locală pe o suprafață fără solicitare'
+      eligibility: 'Autorizat numai când este conform cu specificațiile clientului'
+      approval: 'QC + Inginerie'
+    - category: 'Clasa D — Cusătură locală a șinei'
+      area: 'Scurgere locală de suprapunere pe banda șinei'
+      eligibility: 'Risc ridicat; este necesară o dispoziție strictă de inginerie'
+      approval: 'Inginerie + Șef QA'
+    - category: 'Clasa E — Defect major al șinei'
+      area: 'Defect continuu de cusătură în zone de solicitare ridicată'
+      eligibility: 'Retuș standard neautorizat — înlocuire sau analiză a cauzei rădăcină'
+      approval: 'Șef QA + Concesie client'
+    - category: 'Clasa F — Scurgere recurentă'
+      area: 'Scurgere nelocalizabilă sau eșec la re-testare'
+      eligibility: 'Fără retuș repetat; înlocuire, deșeu sau analiză de inginerie a cauzei rădăcină'
+      approval: 'Șef QA / Inginerie'
+    - category: 'Clasa G — Deteriorare structurală'
+      area: 'Deteriorarea materialului, delaminare, deformarea plăcii'
+      eligibility: 'Eliberare prin retuș neautorizată — înlocuire, deșeu sau concesie scrisă a clientului'
+      approval: 'Manager de calitate + Aprobarea clientului'
+
+rework_flow:
+  tagline: Buclă închisă în 7 pași
+  title: Flux de lucru controlat pentru retuș — de la detectare la eliberare sau deșeu
+  subtitle: 'Fiecare retuș de etanșeitate la aer urmează aceeași buclă controlată: detectare, carantină, diagnosticare, autorizare, retuș, re-inspecție, eliberare.'
+  steps:
+    - step: '01'
+      title: Detectare, oprirea liniei și carantină
+      desc: 'Procesarea se oprește imediat pe placa afectată. ID-ul plăcii, codul produsului, lotul, stația de lucru, data și inspectorul sunt înregistrate, se atașează o etichetă HOLD / QUARANTINE și se deschide un NCR față de revizia de specificație aplicabilă.'
+    - step: '02'
+      title: Diagnosticarea sistematică a scurgerii
+      desc: 'Placa este umflată la presiunea de diagnosticare aprobată pentru proiect, iar sursa scurgerii este localizată cu o metodă aprobată — retenția presiunii, testarea calibrată cu bule, echipament acustic sau de detectare a scurgerilor. Locația suspectă este marcată fără a deteriora placa.'
+    - step: '03'
+      title: Dispoziția de inginerie și autorizarea
+      desc: 'QC confirmă categoria defectului, iar Ingineria analizează dacă placa poate fi readusă la specificația sa originală. O autorizare de retuș care face referire la NCR înregistrează metoda, materialele, condițiile și domeniul de re-inspecție aprobate — sau atribuie înlocuirea, respingerea, deșeul sau concesia comercială din partea clientului.'
+    - step: '04'
+      title: Execuția retușului controlat
+      desc: 'Retușul este executat numai în limitele defectului aprobat, folosind fișa de metodă, lotul de material și uneltele aprobate. Dimensiunile plăcii, construcția, grafica, configurația accesoriilor și cerințele de ambalare nu sunt niciodată modificate.'
+    - step: '05'
+      title: Stabilizarea întăririi și pre-verificarea
+      desc: 'Placa retușată rămâne în stare HOLD pe durata perioadei de întărire și stabilizare definite de materialul și instrucțiunea de proces aprobate, apoi primește o pre-verificare vizuală și de execuție înainte de re-inspecție.'
+    - step: '06'
+      title: Re-inspecția și testarea de probă
+      desc: 'Placa este umflată la presiunea de re-inspecție aprobată pentru proiect, iar defectul original plus toate caracteristicile potențial afectate sunt reverificate: locația scurgerii și zona înconjurătoare, valva, șinele, cusăturile, zonele de solicitare ridicată, accesoriile și aspectul. Retușul nu reduce niciodată standardul de acceptare.'
+    - step: '07'
+      title: Eliberarea QA sau dispoziția finală
+      desc: 'Calitatea revizuiește NCR-ul finalizat, înregistrarea de retuș și rezultatul re-inspecției, apoi autorizează eliberarea — sau escaladează către înlocuire, respingere, deșeu sau concesie comercială din partea clientului. Nicio placă retușată nu este ambalată sau expediată fără eliberarea autorizată a calității.'
+
+quality_safeguards:
+  tagline: Măsuri de protecție a calității
+  title: Reguli anti-eroare care vă protejează marca
+  subtitle: Controale stricte care previn buclele de reparație necontrolate — un retuș documentat per defect, praguri de alertă la nivel de lot, instrumente calibrate și condiții de testare controlate.
+  features:
+    - icon: 1
+      icon_bg: blue
+      title: Un retuș per defect
+      desc: 'O singură locație poate fi retușată o dată, conform unei instrucțiuni autorizate. Dacă re-inspecția eșuează în continuare, placa este escaladată pentru înlocuire, respingere, deșeu sau concesie comercială din partea clientului — retușurile repetate fără aprobare documentată nu sunt permise.'
+    - icon: 2
+      icon_bg: green
+      title: Alertă de lot și oprirea liniei
+      desc: 'Când neconformitatea într-un lot de producție depășește pragul stabilit de inginerie, linia este oprită, iar Ingineria investighează cauza — lotul de material, condițiile de proces și înregistrările — înainte ca producția să reia.'
+    - icon: 3
+      icon_bg: purple
+      title: Instrumentație calibrată
+      desc: 'Manometrele, manometrele digitale și Cronometrele folosite pentru testarea etanșeității la aer sunt controlate și calibrate de laboratoare terțe în perioada lor de valabilitate, cu starea calibrării vizibilă în zona de inspecție.'
+    - icon: 4
+      icon_bg: orange
+      title: Condiții de testare controlate
+      desc: 'Zonele de testare a etanșeității la aer și de întărire sunt menținute într-un mediu controlat, astfel încât rezultatele să nu fie afectate de variațiile de temperatură dintre zi și noapte.'
+
+rework_boundaries:
+  tagline: Domeniu și limite
+  title: Ce nu acoperă acest sistem
+  body: |
+    Sistemul de control al retușurilor se aplică plăcilor SUP gonflabile finalizate sau în proces identificate cu scurgeri de aer, eșec de retenție a presiunii sau defecte conexe ale sistemului de aer înainte de eliberarea expediției. Nu autorizează modificări ale construcției, materialelor, graficii, configurației produsului sau cerințelor clientului aprobate și nu acoperă:
+
+    - Produsele deja expediate sau aflate în canalele clienților.
+    - Deteriorarea structurală sau deformarea plăcii neevaluate de Inginerie.
+    - Defectele extinse ale șinei sau cusăturilor, deteriorarea materialului de miez sau defectele care pot afecta siguranța.
+    - Proiectele în care retușul nu este permis: mostre aprobate de client, unități de certificare sau de testare.
+    - Proiectele cu procese proprietare ale clientului, materiale speciale sau cerințe speciale de reparație.
+    - Scurgerile recurente care nu pot fi localizate sau plăcile care eșuează din nou după retuș.
+
+    Orice abatere de la specificațiile clientului necesită o analiză de inginerie documentată și, acolo unde este cazul, aprobarea scrisă a clientului. Plăcile care nu pot fi readuse la specificația lor originală sunt eliberate numai în baza unei concesii explicite din partea clientului — niciodată doar de către producție.
+
+method_cards:
+  tagline: Sistemul fișelor de metodă
+  title: Indexul fișelor de metodă pentru retuș controlat
+  subtitle: 'Instrucțiunea generală controlează procesul; fișele de metodă controlează operația. Instrucțiunea de retuș (WI-QC-AT-001) face referire la fișele de metodă MC-RW-01 până la MC-RW-06, plus MC-RW-00 pentru deșeu și respingere obligatorii.'
+  headers:
+    code: Fișa de metodă
+    defect: Clasa de defect
+    scope: Domeniu de aplicare
+    controls: Controale cheie de inginerie
+    approval: Autoritate de semnare
+  rows:
+    - code: MC-RW-01
+      defect: Clasa A (Interfața valvei)
+      scope: 'Service-ul nucleului valvei, curățarea și re-asamblarea etanșării'
+      controls: 'Cheie dinamometrică calibrată, sediu curat pentru garnitură, fără deteriorarea filetelor valvei'
+      approval: 'Inspector QC'
+    - code: MC-RW-02
+      defect: Clasa B (Perimetrul valvei)
+      scope: 'Etanșarea flanșei bazei valvei și strângere controlată'
+      controls: 'Pregătire controlată a suprafeței, material de lipire aprobat, dispozitiv circular de presiune'
+      approval: 'QC + Inginerie'
+    - code: MC-RW-03
+      defect: Clasa C (Micro-scurgere de suprafață)
+      scope: 'Etanșarea perforațiilor nestructurale'
+      controls: 'Adeziv aprobat în două componente, fără scurgeri în grafică sau EVA'
+      approval: 'QC + Inginerie'
+    - code: MC-RW-04
+      defect: Clasa D (Cusătură locală a șinei)
+      scope: 'Re-lipirea cusăturii locale de suprapunere a șinei'
+      controls: 'Activare termică controlată, rolă de presiune, dispozitiv anti-ondulare'
+      approval: 'Inginerie + Șef QA'
+    - code: MC-RW-05
+      defect: Clasa B/C (Marginea accesoriului)
+      scope: 'Etanșarea patch-ului cutiei de derivoare și a bazei de montare a accesoriilor'
+      controls: 'Promotor de aderență de suprafață, bloc de strângere profilat, perioadă de reținere definită'
+      approval: 'QC + Inginerie'
+    - code: MC-RW-06
+      defect: Clasa D (Cusătură proră/pupa)
+      scope: 'Intervenție pe cusăturile de curbură solicitate ridicat'
+      controls: 'Material de lipire aprobat pentru forfecare ridicată, perioadă de întărire extinsă înainte de re-testare'
+      approval: 'Inginer Șef'
+    - code: MC-RW-00
+      defect: Clasa E/F/G (Critic / Ruptură)
+      scope: 'Deșeu obligatoriu și distrugere fizică'
+      controls: 'Tăiere fizică pentru a preveni amestecul, înregistrare a deșeului, analiză interdepartamentală a cauzei rădăcină'
+      approval: 'Director de fabrică'
+
+inspector_friendly:
+  tagline: Inspecția terță
+  title: Protocol prietenos pentru inspectori
+  body: |
+    Oferim o zonă de inspecție dedicată, cu manometre calibrate, mese de lumină standardizate pentru verificarea cusăturilor și graficii, și Instrucțiuni de Inspecție pre-completate, astfel încât agențiile terțe (SGS, BV, Intertek, QIMA) să poată finaliza eficient inspecția înainte de expediție — economisind timpul dumneavoastră de inspecție.
+
+    Fiecare instrucțiune rezumă reviziile aplicabile ale documentelor, referința mostrei aprobate, verificările critice pentru calitate, nivelul de eșantionare convenit, testele funcționale și cerințele de ambalare și cod de bare pentru comanda respectivă. Cantitățile specificate, calitatea, ambalarea și elementele de siguranță de bază sunt verificate față de referințele aprobate ale proiectului — fără căutări de documente în ultima clipă la fața locului.
+
+document_pack:
+  tagline: Pachetul de documentație a calității
+  title: Descărcați pachetul mostră de calitate și șabloanele de protocol
+  subtitle: 'Șabloane standard controlate folosite pentru proiectele OEM/ODM — structurate ca registrul de documente 00–15 (index de proiect, specificație aprobată, BOM, referințe de grafică și ambalare, QIP, înregistrări de inspecție, NCR, control al modificărilor, instrucțiune terță, rezumat de eliberare).'
+  features:
+    - icon: P
+      icon_bg: blue
+      title: Pachetul de documentație a calității (PDF)
+      desc: 'Structura completă de documente controlate 00–15: index de proiect, specificație, BOM, referințe de grafică și ambalare, Plan de Inspecție a Calității (QIP), înregistrări de inspecție, NCR, control al modificărilor, instrucțiune pentru terți și rezumat de eliberare înainte de expediție.'
+      link: 'https://assets.isupfactory.com/site/downloads/Qingdao_Vatrad_Group_SUP_Quality_Documentation_Pack.pdf?dl=1'
+      link_label: Descărcați PDF
+    - icon: T
+      icon_bg: green
+      title: Instrucțiune de inspecție terță (PDF)
+      desc: 'Instrucțiune de o pagină pentru inspectorii SGS / BV / Intertek / QIMA: cantitatea comenzii, nivelul de eșantionare AQL, reviziile aplicabile și verificările critice pentru calitate, inclusiv verificarea înregistrării de etanșeitate la aer, testarea reținerii presiunii, caracterul complet al kitului, scanarea codului de bare și testul de cădere a cutiei.'
+      link: 'https://assets.isupfactory.com/site/downloads/Third_Party_Inspection_Brief_Template.pdf?dl=1'
+      link_label: Descărcați PDF
+    - icon: C
+      icon_bg: purple
+      title: Protocol de control al modificărilor (PDF)
+      desc: 'Jurnal de control al modificărilor care acoperă grafica, BOM-ul aprobat de client și reviziile de marcare a cutiei — cu rezumatul modificării, motivul, evaluarea impactului, starea aprobării clientului, lotul efectiv și retragerea documentelor obsolete.'
+      link: 'https://assets.isupfactory.com/site/downloads/Change_Control_Protocol_Bilingual.pdf?dl=1'
+      link_label: Descărcați PDF
+    - icon: R
+      icon_bg: orange
+      title: Rezumatul eliberării înainte de expediție (PDF)
+      desc: 'Semnătură de eliberare de o pagină: verificarea porților de calitate (IQC, IPQC, etanșeitate la aer, inspecție finală, ambalare), starea NCR-urilor deschise și decizia de eliberare autorizată, semnată de calitate și operațiuni.'
+      link: 'https://assets.isupfactory.com/site/downloads/Pre_Shipment_Release_Summary_Bilingual.pdf?dl=1'
+      link_label: Descărcați PDF
+    - icon: W
+      icon_bg: blue
+      title: Instrucțiune de retuș pentru etanșeitate la aer (PDF)
+      desc: 'Instrucțiune de lucru controlată WI-QC-AT-001 Rev A: domeniu și limite, clasificarea defectelor, NCR și autorizarea retușului, execuția controlată, întărirea, re-inspecția și eliberarea pentru plăcile SUP gonflabile.'
+      link: 'https://assets.isupfactory.com/site/downloads/air-tightness-rework-instruction-wi-qc-at-001.pdf?dl=1'
+      link_label: Descărcați PDF
+    - icon: M
+      icon_bg: green
+      title: Indexul fișelor de metodă (PDF)
+      desc: 'Document controlat SOP-QC-AT-IDX-001 Rev A: sistemul numerotat de fișe de metodă MC-RW-01 până la MC-RW-06, plus MC-RW-00 pentru deșeu și respingere, legat de instrucțiunea de retuș pentru etanșeitate la aer.'
+      link: 'https://assets.isupfactory.com/site/downloads/method-card-index-sop-qc-at-idx-001.pdf?dl=1'
+      link_label: Descărcați PDF
+    - icon: V
+      icon_bg: orange
+      title: Standard de control al modificărilor pentru retuș (pagină)
+      desc: 'Control formal al modificărilor conform ISO 9001 pentru parametrii de retuș: ECR, clasificarea riscurilor, matricea de aprobare interdepartamentală, bucla închisă în 9 pași, validare inginerească cuantificată și măsuri de protecție Poka-Yoke — cu SOP bilingv QMS-SOP-QC-CC-001 Rev 2.0.'
+      link: '/ro/factory/quality-change-control'
+      link_label: Vizualizați pagina
+    - icon: N
+      icon_bg: blue
+      title: Controlul produselor neconforme (pagină)
+      desc: 'Controlul ieșirilor neconforme conform ISO 9001:2015 Clauza 8.7: înregistrarea NCR, carantină, autoritatea de dispoziție în funcție de severitate, retuș controlat conform SRI, re-inspecție independentă și distrugere asistată arhivată prin SHA-256 — cu descărcări de SOP bilingv și certificat de deșeuri.'
+      link: '/ro/factory/non-conforming-control'
+      link_label: Vizualizați pagina
+
+faqs:
+  tagline: FAQ
+  title: Întrebări frecvente despre controlul calității plăcilor SUP
+  items:
+    - q: 'Cum controlează QINGDAO VATRAD GROUP.,LTD. calitatea plăcilor SUP gonflabile?'
+      a: 'Calitatea este controlată prin inspecția materialelor la intrare, puncte de verificare în procesul de producție, verificarea finală a produsului, inspecția ambalării și trasabilitatea producției — fiecare executată față de mostrele, specificațiile și criteriile de inspecție aprobate pentru proiect.'
+    - q: 'Ce inspecții de calitate se efectuează în timpul producției plăcilor SUP?'
+      a: 'Inspecțiile includ verificarea materialelor, verificări de tăiere și tipărire, inspecția construcției plăcii, verificarea instalării valvelor, inspecția accesoriilor, testarea etanșeității la aer, inspecția aspectului și verificarea ambalării.'
+    - q: 'Pot clienții OEM solicita înregistrările de inspecție ale plăcilor SUP?'
+      a: 'Da. Înregistrările de inspecție și documentația de calitate pot fi furnizate în funcție de cerințele proiectului și acordurile de calitate ale clientului, inclusiv rapoarte mostră de inspecție înainte de expediție.'
+    - q: 'Cum asigură fabrica consistența producției OEM?'
+      a: 'Consistența producției este menținută prin mostre aprobate, specificații tehnice, puncte de verificare în fabricație, proceduri de inspecție și procese documentate de control al calității legate de fiecare comandă.'
+    - q: 'Pot programa o inspecție terță prin SGS, BV, Intertek sau QIMA?'
+      a: 'Da. Găzduim inspectori terți cu o zonă de inspecție dedicată, manometre calibrate, instrucțiuni de inspecție pre-completate și înregistrări accesibile. Trimiteți specificația dumneavoastră, mostra aprobată, grafica, cerințele de ambalare și criteriile de defect — sau folosiți șablonul nostru de Instrucțiune de inspecție terță.'
+    - q: 'Cum sunt gestionate modificările de grafică, BOM sau ambalare în timpul producției?'
+      a: 'Modificările sunt înregistrate în Jurnalul nostru de control al modificărilor, cu revizia de document afectată, rezumatul modificării, motivul, evaluarea impactului, starea aprobării clientului și lotul efectiv. Versiunile obsolete sunt retrase, astfel încât producția și inspecția să folosească întotdeauna documentele aprobate curente.'
+    - q: 'Susține fabrica proiecte personalizate de plăci SUP gonflabile?'
+      a: 'Da. Proiectele OEM/ODM personalizate de plăci SUP gonflabile sunt susținute pe baza specificațiilor clientului, cerințelor de grafică, configurațiilor de accesorii și nevoilor de ambalare, cu criterii de inspecție specifice proiectului convenite înainte de producție.'
+    - q: 'Poate fi retușată la fabrică o placă SUP cu scurgeri?'
+      a: 'Da — în condiții controlate. Placa este plasată pe HOLD și legată de un NCR, scurgerea este localizată cu o metodă de diagnosticare aprobată, iar retușul continuă numai după autorizarea QC/Inginerie și numai în cadrul claselor de defecte aprobate pentru retuș. Placa este apoi re-inspectată față de aceleași criterii de acceptare ca o placă conformă, înainte de eliberare.'
+    - q: 'De câte ori poate retușa fabrica o placă?'
+      a: 'O singură locație poate fi retușată o dată, conform unei instrucțiuni autorizate. Dacă re-inspecția eșuează în continuare, placa este escaladată pentru înlocuire, respingere, deșeu sau concesie comercială din partea clientului — retușurile repetate fără aprobare documentată nu sunt permise.'
+
+cta:
+  title: Aveți nevoie de o mostră completă de pachet de calitate pentru proiect?
+  desc: 'Solicitați un pachet anonimizat de suport pentru inspecția terță și un Plan de Inspecție a Calității (QIP) pentru proiectul dumneavoastră OEM/ODM — sau descărcați șabloanele mostră pentru a examina structura de documentație pe care o puteți aștepta pentru comanda dumneavoastră.'
+  actions:
+    - text: Solicitați o evaluare a calității
+      variant: primary
+      href: /ro/contact
+    - text: Descărcați pachetul mostră de calitate (PDF)
+      href: 'https://assets.isupfactory.com/content/downloads/Qingdao_Vatrad_Group_SUP_Quality_Documentation_Pack.pdf?dl=1'
+    - text: Descărcați protocolul QC și lista de verificare PSI
+      href: 'https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_Quality_Inspection_Standards.pdf?dl=1'

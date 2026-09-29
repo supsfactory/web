@@ -1,0 +1,83 @@
+meta:
+  title: 'Parteneri — Distribuție și en-gros | {SITE}'
+  description: 'Parteneriate de producție cu iSupfactory: distribuție, livrare en-gros, programe OEM și private label, precum și suport tehnic pentru companiile de paddle board din întreaga lume.'
+  keywords:
+    - 'partener distributie sup'
+    - 'en-gros paddle board'
+    - 'distribuitor sup gonflabil'
+    - 'parteneriat sup'
+  dateModified: '2026-08'
+hero:
+  tagline: Parteneri și distribuție
+  title: 'Parteneriate de producție și distribuție'
+  subtitle: "Fabricăm pentru distributori maritimi, dealeri, branduri de retail și organizații din peste 50 de țări. Dumneavoastră specificați produsul — noi îl proiectăm, îi realizăm probele și îl producem sub marca dumneavoastră."
+  image:
+    src: https://assets.isupfactory.com/images/sups/team/isupfactory-meeting-overseas.webp
+    alt: Rețeaua globală de parteneri și distributori Vatrad
+
+answer:
+  label: 'Răspuns direct'
+  text: 'Condițiile de parteneriat încep cu proba (1–2 bucăți) și loturile pilot (20–50 bucăți, probele în 7–12 zile), apoi sunt extinse la rulări OEM de volum standard de 90–100+ bucăți pe lot dintr-o rolă completă de 150 m drop-stitch sau, alternativ, printr-o investiție în matrițe dedicate pentru produse private label. MOQ se confirmă în funcție de configurația proiectului. Programele de distribuție includ teritorii exclusive, prețuri en-gros direct din fabrică și termene de plată de 45–60 de zile, cu livrare FOB Qingdao sau CIF.'
+  verified: 'Septembrie 2026'
+content_programs:
+  tagline: Programe de parteneriat
+  title: 'Modele de parteneriat construite pe producție'
+  subtitle: 'Indiferent dacă sunteți distributor, dealer sau partener de marcă, programul este construit în jurul cerințelor dumneavoastră de produs și al planului de producție.'
+  columns: 3
+  items:
+    - title: 'Program de distribuitor'
+      description: 'Acorduri de distribuție cu acces direct la fabrică, suport tehnic pentru specificații și calitate constantă la comenzile de reaprovizionare pe teritorii. Angajamentul minim se stabilește în funcție de dimensiunea teritoriului.'
+      icon: tabler:world
+    - title: 'Program de dealer'
+      description: 'Specificații de produs, aprobarea probelor, suport în garanție și reaprovizionări fiabile pentru punctele de retail și magazinele online.'
+      icon: tabler:building-store
+    - title: 'Parteneriat OEM/ODM'
+      description: 'Producție OEM și ODM cu servicii complete, branding personalizat, ambalaje și specificații de produs dedicate. De la concept la nivel de container.'
+      icon: tabler:certificate
+    - title: 'Parteneriat de marcă'
+      description: 'Private label și dezvoltare de modele pentru branduri consacrate din segmentul maritim și al recreerii în aer liber.'
+      icon: tabler:stars
+    - title: 'Instituțional și guvernamental'
+      description: 'Programe de furnizor preferat pentru agenții guvernamentale, serviciile de pază de coastă, forțele armate și organizațiile umanitare. Documentație completă pentru proceduri de achiziție.'
+      icon: tabler:building-community
+    - title: 'Partener pentru resorturi și închirieri'
+      description: 'Prețuri pentru flotă, calitate constantă și branding personalizat pentru resorturi, centre de scufundări și operatori de închirere din întreaga lume.'
+      icon: tabler:sun
+content_benefits:
+  tagline: De ce să cooperați cu noi
+  title: 'De ce aleg partenerii Vatrad'
+  subtitle: 'Partenerii noștri lucrează cu o capacitate de producție reală, calitate constantă și suport tehnic prompt din partea inginerilor.'
+  list:
+    - 'Acces direct la fabrică: Lucrați direct cu echipa noastră de producție — fără intermediari. Răspunsuri mai rapide, vizibilitate totală asupra producției și suport tehnic oferit de oamenii care construiesc efectiv tablele.'
+    - 'Pregătiți pentru personalizare: Aplicați produselor dumneavoastră culori, logo-uri, ambalaje și specificații proprii. MOQ se confirmă în funcție de configurația proiectului — etape de probă, pilot și volum.'
+    - 'Calitate garantată: Producție certificată ISO 9001, cu conformitate CE, BSCI și REACH. Fiecare produs este supus testului de presiune înainte de expediție.'
+    - 'Logistică globală: Expediere din Qingdao, China, cu opțiuni FOB, CIF și DDP. Depozit în Statele Unite, la Montclair, California, pentru distribuție în America de Nord.'
+    - 'Documentație tehnică: Cataloage de produse, fotografie și documentație tehnică care susțin deciziile de specificare și de reaprovizionare.'
+    - 'Suport pentru specificații și controlul calității: Prelevarea de probe înainte de producția de serie, suport tehnic pentru clienții dumneavoastră și coordonarea serviciilor în garanție.'
+content_process:
+  tagline: Cum deveniți partener
+  title: 'Procesul de parteneriat'
+  subtitle: 'Un proces transparent — de la solicitare până la prima dumneavoastră rulare de producție.'
+  items:
+    - title: 'Pasul 1: Trimiteți solicitarea'
+      description: 'Completați formularul nostru de parteneriat cu profilul companiei, piața vizată și interesele dumneavoastră de produs.'
+    - title: 'Pasul 2: Evaluarea calificării'
+      description: 'Echipa noastră vă examinează solicitarea și vă contactează în termen de 3 zile lucrătoare pentru a discuta cerințele.'
+    - title: 'Pasul 3: Acordul și configurarea'
+      description: 'Semnați acordul de parteneriat, deschideți contul și primiți probele de produs, specificațiile și condițiile convenite.'
+    - title: 'Pasul 4: Probe și producție'
+      description: 'Aprobate mostrele fizice, confirmați specificațiile și MOQ, iar producția rulează sub marca dumneavoastră.'
+cta:
+  title: 'Discutați un parteneriat'
+  subtitle: 'Trimiteți cerințele dumneavoastră, iar echipa noastră va răspunde în termen de 3 zile lucrătoare.'
+  actions:
+    - variant: primary
+      text: Trimiteți cerințele
+      href: /ro/contact
+    - text: Vedeați produsele noastre
+      href: /ro/products
+
+content_html: |
+  <div class="mx-auto max-w-3xl space-y-4 rounded-2xl border bg-card p-6 text-[14.5px] leading-relaxed text-fg-2">
+    <p><strong>Continuați lectura:</strong> programele de parteneriat folosesc același <a href="/ro/oem-manufacturing">motor de producție OEM/ODM</a> — condițiile, MOQ-urile de probă și personalizarea sunt definite acolo — iar toată producția trece prin <a href="/ro/factory">fabrica de 12,500 m&sup2;</a>.</p>
+  </div>

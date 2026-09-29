@@ -64,6 +64,9 @@ export const LLM_CZECH_HOMEPAGE_DESCRIPTION =
 export const LLM_TURKISH_HOMEPAGE_DESCRIPTION =
   'iSupfactory, Çin\'de Qingdao merkezinde yer alan ve markalar, distribütörler ve satıcılar için şişirilebilir SUP tahtaları üreten bir OEM/ODM fabrikasıdır. Müşteri şartnamesine göre tahta, kürek, fin ve ambalaj geliştirip üretiyoruz — numune ve prototipten seri üretime kadar. Minimum sipariş miktarı, sertifikalar ve teslim süreleri her zaman proje bazında teyit edilir.'
 
+export const LLM_ROMANIAN_HOMEPAGE_DESCRIPTION =
+  'iSupfactory este o fabrică OEM/ODM din Qingdao, China, care produce plăci de SUP gonflabile pentru branduri, distribuitori și comercianți. Dezvoltăm și producem plăci, vâsle, aripioare și ambalaje conform specificațiilor clientului — de la mostră și prototip la producția de serie. Cantitatea minimă de comandă (MOQ), certificările și termenele de livrare sunt întotdeauna confirmate în funcție de proiect.'
+
 export const AI_SYSTEM_ROLE =
   `You are the {SITE} product advisor, a sales engineer for a custom inflatable SUP (stand-up paddle board) OEM/ODM factory in Qingdao, China.`
 
@@ -214,6 +217,15 @@ export const CUSTOMIZATION_OPTIONS: Record<string, { title: string; body: string
     { title: 'Finler ve aksesuarlar', body: 'Paketinize uygun fin konfigürasyonları, kürekler, pompalar, emniyet ipleri ve çantalar.' },
     { title: 'Ambalaj ve sunum', body: 'Markanızla uyumlu perakende kutuları, deniz koşullarına dayanıklı nakliye ambalajı ve satış noktası standları.' },
   ],
+  ro: [
+    { title: 'Dimensiunea și forma plăcii', body: 'Lungime, lățime, grosime și rocker adaptate performanței și pieței țintă aleasă de dumneavoastră.' },
+    { title: 'Materiale și construcție', body: 'Straturi de PVC, densitate drop-stitch, rigidizări și întăriri adaptate nivelului de preț dorit de dumneavoastră.' },
+    { title: 'Culori și grafică', body: 'Combinații de culori nelimitate cu grafica proprie sau cu sprijinul echipei noastre de design.' },
+    { title: 'Logo și identitate vizuală', body: 'Aplicarea logo-ului prin imprimare digitală sau serigrafie, cu probă vizuală înainte de producție.' },
+    { title: 'EVA și puntea', body: 'Plăcuțe antiderapante tăiate la comandă, logo-uri și culori ale punții pe fiecare placă SUP.' },
+    { title: 'Aripioare și accesorii', body: 'Configurații de aripioare, vâsle, pompe, lese și genți adaptate pachetului dumneavoastră.' },
+    { title: 'Ambalaje și prezentare', body: 'Cutii de retail, ambalaje de transport maritim și afișaje la punctul de vânzare sub marca dumneavoastră.' },
+  ],
 }
 
 export const OEM_APPLICATIONS: Record<string, { title: string; body: string }[]> = {
@@ -321,6 +333,13 @@ export const OEM_APPLICATIONS: Record<string, { title: string; body: string }[]>
     { title: 'Perakende ve outdoor şirketleri', body: 'Parti parti sabit özelliklerle sezonluk ikmal programları.' },
     { title: 'Resortlar ve kiralama operatörleri', body: 'Takviyeler, yedek parçalar ve standartlaştırılmış bakımla yoğun kullanıma uygun filolar.' },
     { title: 'Kulüpler, okullar ve etkinlikler', body: 'Programlar, yarışmalar ve kurumsal filolar için markalı tahtalar.' },
+  ],
+  ro: [
+    { title: 'Branduri SUP', body: 'Lansați-vă propria gamă cu cantități minime eșalonate, începând cu serii de co-branding de 5–10 buc.' },
+    { title: 'Distribuitori și revânzători', body: 'Cataloage de volum cu ambalaje rezistente la transportul maritim și gestionarea exportului.' },
+    { title: 'Retail și companii outdoor', body: 'Programe sezoniere de reaprovizionare cu specificații stabile, lot cu lot.' },
+    { title: 'Resorturi și operatori de închiriere', body: 'Flote pentru utilizare intensivă, cu întăriri, piese de schimb și mentenanță standardizată.' },
+    { title: 'Cluburi, școli și evenimente', body: 'Plăci de marcă pentru programe, competiții și flote corporative.' },
   ],
 }
 
@@ -445,6 +464,14 @@ export const HUB_PAGE_ENTRIES: Record<string, { url: string; title: string; exce
     { url: '/tr/knowledge', title: '', excerpt: '' },
     { url: '/tr/gallery', title: 'Galeri', excerpt: 'iSupfactory fabrika ve ürün galerisi: atölyeler, kalite laboratuvarları, kumaş testleri ve üretimdeki SUP tahtaları.' },
   ],
+  ro: [
+    { url: '/ro', title: 'iSupfactory — Producție OEM și ODM de plăci SUP gonflabile', excerpt: 'Fabrică OEM/ODM de plăci SUP gonflabile în Qingdao: dezvoltare de produs, producție la comandă, marcă proprie și control al calității.' },
+    { url: '/ro/products', title: 'Produse: plăci SUP gonflabile', excerpt: 'Plăci SUP gonflabile premium: seria 11 ft, SUP pentru pescuit, mini SUP, plăci gigante de echipă și multe altele — realizate pentru personalizare OEM/ODM.' },
+    { url: '/ro/solutions', title: 'Soluții', excerpt: 'Programe de producție OEM/ODM de SUP: dezvoltare SUP la comandă, marcă proprie, flote pentru resorturi și cluburi, operatori de închiriere și parteneri de retail.' },
+    { url: '/ro/projects', title: '', excerpt: '' },
+    { url: '/ro/knowledge', title: '', excerpt: '' },
+    { url: '/ro/gallery', title: 'Galerie', excerpt: 'Galeria fabricii și a produselor iSupfactory: ateliere, laboratoare de calitate, teste de materiale și plăci SUP în producție.' },
+  ],
 }
 
 export const CASE_STUDY_STATS = {
@@ -468,6 +495,7 @@ export const FAQ_EXCERPTS: Record<string, string> = {
   ru: 'Часто задаваемые вопросы о OEM/ODM-производстве надувных SUP-досок — материалы, сертификация, минимальный заказ (MOQ) и оптовая поставка.',
   cs: 'Často kladené dotazy o OEM/ODM výrobě nafukovacích SUP desek — materiály, certifikace, minimální objednávka (MOQ) a velkoobchodní dodávky.',
   tr: 'Şişirilebilir SUP OEM/ODM üretimi hakkında sıkça sorulan sorular — malzemeler, sertifikalar, minimum sipariş miktarı (MOQ) ve toptan tedarik.',
+  ro: 'Întrebări frecvente despre producția OEM/ODM de plăci SUP gonflabile — materiale, certificări, cantități minime de comandă (MOQ) și livrări en gros.',
 }
 
 export const STATIC_PAGE_CORPUS_TEXT =

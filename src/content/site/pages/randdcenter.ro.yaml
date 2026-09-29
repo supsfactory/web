@@ -1,0 +1,131 @@
+meta:
+  title: 'Centrul R&D — inginerie pentru SUP gonflabile | {SITE}'
+  description: 'Cercetare și dezvoltare — încercarea țesăturilor PVC, ingineria corpului de apă, sudura RF, testarea hidrodinamică și controlul calității. Servicii R&D personalizate disponibile.'
+  dateModified: '2026-08'
+
+hero:
+  tagline: Centrul R&D
+  title: Centrul R & D
+  subtitle: Focus pe progres
+
+intro:
+  - Centrul de Cercetare și Dezvoltare (R&D) al Vatrad este forța motrice a misiunii noastre de a transforma echipamentul pentru sporturi nautice. Îi împuternicim pe pasionații de sporturi nautice din întreaga lume cu produse mai sigure, mai confortabile și mai plăcute de folosit, prin inovație neîncetată în plăcile SUP gonflabile și bărcile pentru vâslit în picioare. Echipa noastră dedicată de ingineri, proiectanți și experți pasionați de sporturi nautice conturează viitorul industriei, ridicând constant standardele de calitate, performanță și sustenabilitate.
+  - Instalația noastră de cercetare și dezvoltare reunește sub același acoperiș oameni de știință în domeniul materialelor, arhitecți navali și ingineri de producție. De la formularea materialelor și simularea corpului de apă până la dezvoltarea proceselor de sudare și la încercările maritime la scară reală, fiecare etapă a dezvoltării produsului este susținută de date și validată prin încercări.
+
+mission:
+  tagline: Misiunea noastră
+  title: Inovăm viitorul sporturilor nautice
+  pillars:
+    - icon: lightning
+      title: Progres tehnologic
+      desc: Deschiderea de noi materiale, forme și metode de fabricare pentru o performanță și o durată de viață superioare a produselor.
+    - icon: design
+      title: Proiectare orientată către utilizator
+      desc: Înțelegerea profundă a nevoilor utilizatorilor și depășirea lor prin produse ergonomice și intuitive.
+    - icon: globe
+      title: Practici sustenabile
+      desc: Minimizarea impactului asupra mediului prin utilizarea materialelor și proceselor prietenoase cu mediul.
+    - icon: shield
+      title: Siguranță fără compromisuri
+      desc: Asigurarea celor mai înalte standarde de siguranță prin încercări și certificări riguroase.
+
+pillars:
+  - title: Progres tehnologic
+    desc: Deschiderea de noi materiale, forme și procese de fabricare pentru a obține o performanță și o durată de viață superioare a produselor.
+    icon: tech
+  - title: Materiale avansate
+    desc: Investigarea materialelor PVC, Hypalon, a materialelor compozite și a alternativelor sustenabile de vârf, pentru caracteristici superioare ale produsului.
+    icon: materials
+  - title: Sustenabilitate
+    desc: 'Un angajament esențial: ne dedicăm gestionării responsabile a mediului prin producție sustenabilă și materiale reciclabile.'
+    icon: sustainability
+
+capabilities:
+  tagline: Capabilități
+  title: Capabilitățile R&D
+  subtitle: Patru discipline de bază care ne oferă control integral asupra dezvoltării produsului — de la cercetarea materiilor prime până la certificarea finală.
+  groups:
+    - title: Știința materialelor și tehnologia țesăturilor
+      items:
+        - Analiza și optimizarea formulărilor de PVC și Hypalon
+        - Dezvoltarea stabilizatorilor UV, a retardanților de flacără și a aditivilor antimicrobieni
+        - Laminarea țesăturilor în mai multe straturi și ingineria adeziunii
+        - Încercări de îmbătrânire accelerată (UV, termică, umiditate, ceață salină)
+    - title: Ingineria corpului de apă și hidrodinamica
+      items:
+        - Proiectare parametrică 3D a corpului de apă și optimizare CFD
+        - Analiza elementelor finite pentru încărcările structurale și de impact
+        - Încercări în bazin de remorcare cu modele la scară și validarea performanței
+        - Dezvoltarea corpurilor de apă personalizate pentru profiluri de misiune speciale
+    - title: Tehnologia sudării și îmbinării
+      items:
+        - Dezvoltarea și optimizarea proceselor de sudare dielectrică RF
+        - Metode de sudare cu aer cald, cu pană fierbinte și ultrasunete
+        - Calificarea lipirii cu adezivi și a benzilor pentru cusături
+        - Modelarea rezistenței cusăturilor și estimarea duratei de viață
+    - title: Încercare, certificare și conformitate
+      items:
+        - Managementul calității și încercările de conformitate CE
+        - Sprijin pentru încercări și certificări independente de terți
+        - Dezvoltarea de protocoale de încercare personalizate pentru calificarea furnizorilor
+        - Analiza defectelor în exploatare și investigarea cauzelor rădăcină
+
+rd_numbers:
+  tagline: Inovație
+  title: R&D în cifre
+  stats:
+    - value: '14'
+      label: Ingineri și oameni de știință R&D
+    - value: '8'
+      label: Brevete active și cereri depuse
+    - value: '6'
+      label: Laboratoare specializate
+    - value: 12 ani
+      label: Experiență medie în echipă
+
+rd_services:
+  tagline: R&D personalizat
+  title: Servicii R&D pentru parteneri
+  services:
+    - title: Dezvoltare personalizată de materiale
+      desc: Dezvoltăm formulări personalizate de țesătură, stive laminate și sisteme adezive adaptate mediului dumneavoastră de exploatare și obiectivelor de performanță.
+    - title: Inginerie de produs OEM / ODM
+      desc: Dezvoltăm soluții de inginerie de produs pentru proiectele OEM și ODM, de la selecția materialelor și proiectarea corpului de apă până la optimizarea uneltelor de producție.
+    - title: Încercări și certificări de terți
+      desc: Folosiți facilitățile noastre de încercare conforme ISO pentru încercarea independentă a materialelor, validarea produselor și sprijinul în certificare.
+  cta: Discutați cerințele dumneavoastră de cercetare și dezvoltare →
+  cta_link: /ro/contact
+
+vision:
+  tagline: Viziunea noastră
+  title: Conturăm viitorul sporturilor nautice
+  body: Vatrad urmărește să conducă industria bărilor și plăcilor SUP gonflabile prin inovație continuă, calitate constantă și un angajament ferm față de siguranță și sustenabilitate — îmbogățind astfel experiențele pasionaților de sporturi nautice din întreaga lume. Centrul R&D Vatrad este locul în care pasiunea întâlnește inovația, stabilind noi repere pentru industria sporturilor nautice.
+
+labs_section:
+  tagline: Laboratoare
+  title: Laboratoarele noastre
+  labs:
+    - image: https://assets.isupfactory.com/images/sups/randd/isupfactory-pvc-material-lab.webp
+      title: Laborator de țesături PVC
+      description: Cercetare și încercare continuă a țesăturilor tubulare din PVC și Hypalon pentru rezistență la tracțiune, rezistență la UV, abraziune și flexibilitate la temperaturi joase, asigurând fiabilitate pe termen lung în medii marine.
+      href: /ro/randdcenter/pvc-fabric-lab
+    - image: https://assets.isupfactory.com/images/sups/factory/isupfactory-design-discussion-2.webp
+      title: Studio de inginerie pentru plăci
+      description: Proiectare bazată pe CAD și analiză a elementelor finite pentru corpurile de apă din HDPE, aluminiu și fibră de sticlă. Fiecare corp de apă este simulat digital pentru distribuția tensiunilor și rezistența la impact, înainte de construirea primului prototip.
+      href: /ro/randdcenter/hull-engineering
+    - image: https://assets.isupfactory.com/images/sups/factory/isupfactory-sup-manufacturing-3.webp
+      title: Centrul de sudare RF
+      description: Instalație dedicată de sudare cu frecvență radio, cu control precis al temperaturii și presiunii, care produce cusături de înaltă rezistență și etanșe, conform standardelor industriei marine pentru ambarcatiuni gonflabile.
+      href: /ro/randdcenter/rf-welding
+    - image: https://assets.isupfactory.com/images/sups/factory/isupfactory-design-discussion-original.webp
+      title: Bazin de încercări hidrodinamice
+      description: Încercări cu modele la scară în bazinul nostru intern, pentru optimizarea formei corpului de apă, a performanței de planare, a stabilității și a eficienței energetice într-o gamă variată de condiții de încărcare și de mare.
+      href: /ro/randdcenter/hydrodynamic-test-tank
+    - image: https://assets.isupfactory.com/images/sups/products/sup-series/sup-ocean-voyager-1.webp
+      title: Atelierul de prototipuri
+      description: Instalație pentru prototipizare și echipare la scară reală, unde modelele noi sunt construite, montate și supuse încercărilor maritime. Fiecare prototip parcurge un program minim de încercare de 20 de ore în apă înainte de aprobarea pentru producție.
+      href: /ro/randdcenter/prototype-workshop
+    - image: https://assets.isupfactory.com/images/sups/factory/isupfactory-uv-resistance-testing.webp
+      title: Laborator de calitate și inspecție
+      description: Laborator dedicat de asigurarea calității, care realizează încercări la tracțiune, cicluri de reținere a aerului, încercări de decojire a cusăturilor și certificarea materialelor, astfel încât fiecare placă care părăsește atelierul să respecte specificațiile noastre publicate.
+      href: /ro/randdcenter/quality-inspection-lab

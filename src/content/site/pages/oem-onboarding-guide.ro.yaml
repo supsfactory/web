@@ -1,0 +1,125 @@
+meta:
+  title: 'Ghid de integrare pentru clienți OEM — proces pas cu pas, de la primul contact la producție | iSupfactory'
+  description: 'Ghid de integrare OEM: NDA, analiză de fezabilitate, producția mostrelor, aprobare, planificare preproducție, control al calității în producție și expediție. Pas cu pas, cu termene.'
+  dateModified: '2026-08-20'
+  keywords:
+    - 'ghid de integrare oem'
+    - 'proces de producție sup'
+    - 'integrare cumpărător oem'
+    - 'proces fabrică sup'
+    - 'etape comandă sup personalizată'
+    - 'proces mostre oem'
+    - 'termen producție sup'
+
+hero:
+  tagline: 'Integrarea cumpărătorului OEM'
+  title: 'Prima dumneavoastră comandă SUP, pas cu pas'
+  subtitle: 'De la primul contact până la plăcile livrate, procesul de integrare OEM la iSupfactory parcurge șapte porți definite — fiecare cu un termen clar, un rezultat documentat și un punct de decizie de continuare sau oprire. Fără ambiguități, fără etape ascunse, fără surprize după avans.'
+  actions:
+    - variant: primary
+      text: Trimiteți fișa proiectului
+      href: /ro/contact#project-brief
+    - text: Comparați traseele OEM, ODM și Private Label
+      href: /ro/oem-odm-private-label-comparison
+
+answer:
+  label: 'Răspuns direct'
+  text: 'O integrare OEM tipică durează 2–4 săptămâni pentru aprobarea mostrelor și 6–8 săptămâni pentru primul lot de producție, de la comanda confirmată. Începeți prin trimiterea unei fișe de proiect (specificații ale plăcii, volum, cerințe de conformitate). Noi răspundem în decurs de o zi lucrătoare, oferim un NDA înainte de a partaja detalii confidențiale și producem 1–2 mostre fizice în 7–12 zile, pentru evaluarea și aprobarea dumneavoastră. Odată cu blocarea mostrei, urmează planificarea producției și fabricarea, cu porți de control al calității fixe la fiecare etapă. Fiecare pas este documentat și trasabil.'
+  verified: 'Septembrie 2026'
+
+process_steps:
+  tagline: Cele șapte porți
+  title: 'Fluxul de integrare — șapte porți, de la fișă la livrare'
+  subtitle: 'Fiecare poartă are un intrare definit, un rezultat definit și un termen asupra căruia conveniți în prealabil. Nu veți trece de o poartă fără o validare explicită.'
+  steps:
+    - step: 'Poarta 1'
+      title: 'Solicitare inițială și NDA (Ziua 0)'
+      desc: 'Trimiteți o fișă de proiect prin /ro/contact cu specificațiile țintă ale plăcii, volumul comenzii, cerințele de conformitate și termenul dorit. Un NDA este disponibil imediat — înainte de a partaja orice specificație tehnică sau artwork confidențial. Răspundem în decurs de o zi lucrătoare.'
+    - step: 'Poarta 2'
+      title: 'Analiză de fezabilitate și ofertă (Zilele 1–5)'
+      desc: 'Ingineria analizează fișa dumneavoastră din punctul de vedere al capabilității de producție, al disponibilității materialelor și al domeniului de conformitate. Primiți o ofertă detaliată pe articole, cu calculul MOQ, taxele pentru mostre (creditate ulterior la producție) și segmentele de termen — nu un interval estimativ, ci un calendar portă cu portă.'
+    - step: 'Poarta 3'
+      title: 'Producția mostrelor (Zilele 6–17)'
+      desc: 'Se produc 1–2 plăci fizice conform specificațiilor dumneavoastră: rigiditatea corpului de apă, textura suprapușului de tracțiune EVA, acuratețea graficii, montarea accesoriilor. Folosiți și evaluați placa înainte de a vă angaja la orice altceva. Taxele pentru mostre sunt creditate la comanda de producție la semnarea contractului.'
+    - step: 'Poarta 4'
+      title: 'Analiza și aprobarea mostrelor (Zilele 18–21)'
+      desc: 'Evaluați mostra față de specificațiile dumneavoastră — calitatea de vâslit, fidelitatea graficii, ambalajul, accesoriile. Ajustările sunt consemnate într-o listă de materiale revizuită și într-un semn de acceptare a artwork-ului. Specificația blocată devine referința de producție pentru toate loturile următoare.'
+    - step: 'Poarta 5'
+      title: 'Planificarea preproducției (Zilele 22–28)'
+      desc: 'Aprovizionarea materialelor, pregătirea uneltelor, confirmarea ambalajelor și rezervarea slotului de producție. Toate materialele sunt inspecționate la intrare față de lista de materiale blocată. Înainte de începerea fabricării se emite un grafic de producție cu datele porților de control al calității.'
+    - step: 'Poarta 6'
+      title: 'Producție și porți de control al calității (Zilele 29–55)'
+      desc: 'Fabricarea parcurge sistemul de porți de inspecție în 7 etape: inspecția materialelor la intrare, inspecția țesăturii drop-stitch, sudura și asamblarea, testarea la presiune și de etanșeitate (menținere la 18.0 PSI, respingere automată la o scădere de peste 0.50 PSI), montarea suprapușurilor EVA și a accesoriilor, controlul graficii și al branding-ului, ambalarea finală și documentația. Fiecare poartă are criterii de acceptare sau respingere și înregistrări de trasabilitate.'
+    - step: 'Poarta 7'
+      title: 'Expediere și analiză post-livrare (Zilele 56–63)'
+      desc: 'Ambalare de calitate export, documentație de conformitate (CE, ISO 9001, BSCI, REACH, RoHS) și coordonarea transportului maritim către peste 50 de țări. O analiză post-livrare consemnează concluziile și îmbunătățirile pentru următorul ciclu de comandă.'
+
+collaboration_modes:
+  tagline: Alegeți traseul
+  title: 'Trei modele de colaborare, un singur proces de integrare'
+  subtitle: 'Fiecare cumpărător nou parcurge aceeași integrare în șapte porți — ceea ce se schimbă este sfera de implicare a ingineriei și locul în care se află proprietatea proprietății intelectuale.'
+  grid: 'sm:grid-cols-2 lg:grid-cols-3'
+  features:
+    - icon: O
+      icon_bg: blue
+      title: 'Producție OEM'
+      desc: 'Dumneavoastră furnizați specificația completă de proiectare — forma corpului de apă, construcția, grafica, accesoriile. Noi fabricăm conform specificației. Drepturile de proprietate intelectuală vă aparțin integral. Ideal pentru mărci care au deja o gamă de produse și o geometrie a plăcii validată.'
+      link_label: 'Cum funcționează OEM'
+      href: /ro/oem-manufacturing
+    - icon: D
+      icon_bg: green
+      title: 'Dezvoltare ODM'
+      desc: 'Dumneavoastră furnizați fișa — greutatea țintă a sportivului, cazul de utilizare, nivelul de preț — iar echipa noastră de inginerie dezvoltă placa pornind de la cerințele dumneavoastră. Platformă adaptată, cu branding-ul dumneavoastră. Ideal pentru mărci care intră pe piață fără capabilitate proprie de proiectare.'
+      link_label: 'Cum funcționează ODM'
+      href: /ro/odm-manufacturing
+    - icon: P
+      icon_bg: purple
+      title: 'Private Label / Co-Branding'
+      desc: 'Aplicați marca dumneavoastră pe o platformă deja testată în practică — fără nicio etapă de inginerie. Logo-ul dumneavoastră pe prăbuie sau pe șinele laterale, începând de la doar 5–10 bucăți. Ideal pentru operatori și distribuitori care doresc plăci de marcă fără un ciclu de dezvoltare.'
+      link_label: 'Opțiuni Private Label'
+      href: /ro/solutions/private-label-sup
+
+checklist:
+  heading: 'Ce trebuie să pregătiți înainte de fișa de proiect'
+  body: |
+    Cu cât fișa este mai completă, cu atât oferta este mai rapidă și mai exactă. Iată ce ar trebui să aveți la îndemână:
+
+    - **Specificațiile plăcii** — Lungimea, lățimea și grosimea țintă, intervalul de greutate al sportivului și utilizarea intenționată (touring, all-around, surf, pescuit, yoga etc.). Dacă aveți dimensiuni de referință sau un model concurent, includeți-le.
+    - **Fișierele de proiectare** — Artwork vectorial (AI, SVG sau PDF) pentru grafica plăcii, logo-ul de pe suprapușul EVA și orice branding secundar. Dacă artwork-ul nu este gata, un panou de moodboard sau imagini de referință sunt suficiente pentru fezabilitatea inițială.
+    - **Volumul comenzii și termenul** — Cantitatea țintă pentru prima comandă și programarea sezonieră pe care trebuie să o respectați. Chiar și un interval aproximativ („20–50 de plăci până în martie”) este suficient pentru a confirma fezabilitatea și disponibilitatea slotului.
+    - **Cerințele de conformitate** — Piețele țintă (UE, America de Nord, Australia etc.) și orice cerință specifică de certificare sau testare dincolo de domeniul nostru standard (CE, ISO 9001, BSCI, REACH, RoHS).
+    - **Intervalul de buget** — Un buget orientativ pe placă sau un cost final țintă ne ajută să recomandăm platforma și nivelul de construcție potrivite. Prețul exact se confirmă după analiza de inginerie — niciodată înainte.
+
+    Dacă nu aveți încă toate aceste elemente, trimiteți ce aveți. Noi vă vom ghida pentru restul.
+
+evidence_review:
+  tagline: 'Dovezi și verificare'
+  title: 'SPECIFICAȚII VERIFICATE'
+  body: 'Toate afirmațiile de producție de pe această pagină sunt verificate de echipa noastră de inginerie de producție în fabrica din Laixi, Qingdao. Certificatele, înregistrările de inspecție, rapoartele de testare la presiune și structură și jurnalele de trasabilitate a loturilor sunt disponibile la cerere. Specificațiile au fost verificate ultima dată în septembrie 2026.'
+
+faqs:
+  tagline: FAQ
+  title: 'Integrare OEM — întrebări frecvente'
+  items:
+    - q: 'Cât durează întregul proces de integrare?'
+      a: 'Aprobarea mostrelor durează de obicei 2–4 săptămâni (inclusiv producția mostrelor în 7–12 zile și perioada dumneavoastră de evaluare). Primul lot de producție durează 6–8 săptămâni de la comanda confirmată și de la avans. O formă personalizată a corpului de apă adaugă 15–20 de zile pentru dezvoltarea formei. Fiecare poartă are un termen fix asupra căruia conveniți în prealabil.'
+    - q: 'Trebuie să semnez un NDA înainte de a-mi partaja proiectarea?'
+      a: 'Un NDA este disponibil imediat la cerere — înainte de a partaja orice specificație tehnică sau artwork confidențial. Noi fabricăm exclusiv sub mărcile clienților și nu concurăm niciodată cu ei pe nicio piață. Aceeași politică se aplică unei mostre de 1 placă și unui program de un container întreg.'
+    - q: 'Care este comanda minimă pentru un prim lot OEM?'
+      a: 'Punctul de intrare este eșalonat: mai întâi 1–2 mostre (gata în 7–12 zile), apoi o comandă de încercare sau pilot de 20–50 de plăci (producție în 25–35 de zile), apoi loturi de volum standard de 90–100+ plăci pe configurație aprobată. Co-branding-ul în loturi mici începe de la 5–10 bucăți, atunci când nu este necesară nicio etapă de dezvoltare. Taxele pentru mostre sunt creditate la comanda de producție.'
+    - q: 'Cum este gestionată protecția proprietății intelectuale în timpul integrării?'
+      a: 'Proiectările și specificațiile dumneavoastră sunt protejate prin NDA-ul semnat înainte de partajarea oricărei informații confidențiale. Toate artwork-urile, datele listei de materiale și fișierele tehnice sunt stocate în sisteme cu acces controlat și urme de audit. În modul OEM, drepturile de proprietate intelectuală vă aparțin integral. În modul ODM, drepturile asupra platformei adaptate sunt partajate conform acordului. În modul Private Label, drepturile rămân la iSupfactory, iar dumneavoastră licențiați aplicarea mărcii.'
+    - q: 'Ce garanții de calitate se aplică unei prime comenzi?'
+      a: 'Fiecare placă — mostră, lot de încercare sau volum — trece prin același sistem de porți de inspecție în 7 etape: inspecția materialelor la intrare, inspecția țesăturii drop-stitch, sudura și asamblarea, testarea la presiune și de etanșeitate pe 24 de ore (menținere la 18.0 PSI, respingere automată la o scădere de peste 0.50 PSI), montarea suprapușurilor EVA și a accesoriilor, controlul graficii și al branding-ului, precum și ambalarea finală și documentația. Calitatea nu este niciodată redusă pentru comenzi mai mici.'
+
+cta:
+  title: 'Sunteți gata să începeți proiectul SUP?'
+  subtitle: 'Trimiteți-ne specificațiile plăcii, volumul țintă și termenul dorit. Noi vom confirma fezabilitatea, vom produce mostre și vom furniza un grafic de producție — portă cu portă, cu control al calității documentat la fiecare pas.'
+  actions:
+    - variant: primary
+      text: Trimiteți fișa proiectului
+      href: /ro/contact#project-brief
+    - text: Comparați OEM, ODM și Private Label
+      href: /ro/oem-odm-private-label-comparison
+    - text: Verificați fabrica și sistemul de calitate
+      href: /ro/proof-center

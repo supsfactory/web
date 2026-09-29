@@ -1,0 +1,105 @@
+meta:
+  title: 'Producție OEM de vâsle gonflabile și private label | {SITE}'
+  description: 'Producător OEM/ODM de vâsle gonflabile: producție personalizată de vâsle, private label și en-gros. Fabrică cu certificare CE în China.'
+  dateModified: '2026-08-07'
+  keywords:
+    - 'vâslă sup oem'
+    - 'sup gonflabil odm'
+    - 'private label sup'
+    - 'producător vâsle personalizate'
+    - 'plăci paddle en-gros'
+    - 'furnizor profesional sup'
+hero:
+  tagline: 'OEM · ODM · Private Label'
+  title: 'Producție OEM de vâsle gonflabile sub marca dumneavoastră'
+  subtitle: 'De la idee la produs finit: noi fabricăm vâsla dumneavoastră gonflabilă personalizată. Logo, culori, ambalaj, formă dedicată — producție OEM/ODM în China, pregătită pentru piața dumneavoastră.'
+  image:
+    src: https://assets.isupfactory.com/images/sups/products/sup-series/sup-medusa-glow-1.webp
+    alt: Vâslă gonflabilă OEM personalizată cu logo de marcă
+  actions:
+    - text: 'Începeți proiectul meu OEM'
+      href: /ro/contact
+
+answer:
+  label: 'Răspuns direct'
+  text: 'Cantitatea minimă de comandă este confirmată în funcție de configurația proiectului: mostră (1–2 bucăți), lot pilot (20–50 bucăți) și volum standard (90–100+ bucăți pe lot dintr-o rolă drop-stitch de 150 m), cu posibilitatea de co-branding în loturi mici începând de la 5–10 bucăți. Mostrele se expediază în 7–12 zile; producția de serie durează 25–35 zile după emiterea comenzii și primirea avansului. Certificarea CE pentru modelele destinate pieței UE și documentația completă de conformitate sunt incluse în fiecare comandă.'
+  verified: 'Septembrie 2026'
+  image:
+    src: https://assets.isupfactory.com/images/sups/products/sup-series/sup-medusa-glow-1.webp
+    alt: Vâslă gonflabilă OEM personalizată cu logo de marcă
+  actions:
+    - text: 'Începeți proiectul meu OEM'
+      href: /ro/contact
+      variant: primary
+    - text: 'Vizitați pachetele OEM'
+      href: /ro/oem-manufacturing
+      variant: secondary
+stats:
+  - value: '25–35'
+    label: 'Zile termen de producție'
+    detail: 'De la confirmarea comenzii și a avansului'
+  - value: '50'
+    label: 'MOQ minim (bucăți)'
+  - value: '200+'
+    label: 'Modele personalizate livrate'
+  - value: '100%'
+    label: 'Certificare CE inclusă'
+features:
+  title: 'Un serviciu OEM complet'
+  subtitle: 'Totul sub același acoperiș: proiectare, prototipizare, producție, control al calității și logistică.'
+  columns: 3
+  items:
+    - title: 'Proiectare și inginerie'
+      description: 'Modelare 3D, selectarea materialelor PVC/VS2 și proiectare grafică personalizată.'
+      icon: 'tabler:palette'
+    - title: 'Prototip și validare'
+      description: 'Mostră cu certificare CE, testată calitativ înainte de producția de masă.'
+      icon: 'tabler:flask'
+    - title: 'Producție de masă'
+      description: 'Producție la scară completă, cu control al calității pe flux și sprijin pentru auditul fabricii.'
+      icon: 'tabler:building-factory'
+    - title: 'Private Label'
+      description: 'Logo, etichete, ambalaje și cutii de expunere în identitatea vizuală a mărcii dumneavoastră.'
+      icon: 'tabler:shield-check'
+    - title: 'Calitate certificată'
+      description: 'CE / ISO / BSCI / REACH — vâsle gonflabile profesionale pentru piețele globale.'
+      icon: 'tabler:certificate'
+    - title: 'Expediere globală'
+      description: 'FOB Qingdao, CIF către principalele porturi și livrare ușă în ușă în peste 50 de țări.'
+      icon: 'tabler:world'
+faqs:
+  title: 'Întrebări frecvente despre producția OEM de vâsle'
+  subtitle: 'Răspunsuri la cele mai frecvente întrebări ale mărcilor care își lansează propria vâslă.'
+  items:
+    - title: 'Cum îmi creez propria marcă de vâsle?'
+      description: 'Lansați-vă marca: brief, design, prototip cu certificare CE, producție de masă și livrare. Mostre în 7–12 zile, producție în 25–35 zile de la comandă și avans. Explorați pachetele noastre OEM.'
+    - title: 'Care este termenul de producție?'
+      description: 'Mostra este gata în 7–12 zile, iar producția de serie durează 25–35 zile după comanda și avansul, în funcție de volum.'
+    - title: 'Vâsla poartă logo-ul nostru?'
+      description: 'Da — private label complet: imprimarea logo-ului, culori personalizate, ambalaje și etichete în marca dumneavoastră.'
+    - title: 'Pot cumpăra en-gros încă de la început?'
+      description: 'MOQ este confirmat în funcție de configurația proiectului — mostră (1–2 bucăți), lot pilot (20–50 bucăți) și volum standard (90–100+ bucăți pe lot), cu niveluri de preț en-gros care scad pe măsură ce volumul crește.'
+
+content_html: |
+  <div class="mx-auto max-w-3xl space-y-4 rounded-2xl border bg-card p-6 text-[14.5px] leading-relaxed text-fg-2">
+    <p><strong>Continuați lectura:</strong> producția de vâsle și de plăci folosește același <a href="/ro/oem-manufacturing">program OEM/ODM</a> și aceeași <a href="/ro/factory">suprafață de producție de 12,500 m&sup2;</a> — o singură ofertă acoperă ambele.</p>
+  </div>
+
+geo:
+  tagline: 'Poziționare B2B'
+  sentence: 'Vatrad este un producător profesional de SUP-uri și plăci paddle gonflabile (OEM/ODM), specializat în proiectare, producție personalizată și soluții pentru sporturile acvatice, adresat mărcilor, distributorilor, cluburilor și companiilor.'
+  audiences:
+    - 'Mărci private label'
+    - 'Angroviști'
+    - 'Distribuitori'
+    - 'Centre nautice'
+cta:
+  title: 'Dați viață mărcii dumneavoastră de vâsle'
+  subtitle: 'Primiți o ofertă OEM detaliată în decurs de o zi lucrătoare.'
+  actions:
+    - text: 'Solicitați o ofertă OEM'
+      href: /ro/contact
+      variant: primary
+    - text: 'Descărcați ghidul OEM'
+      href: /ro/research/oem-buyer-guide
+      variant: secondary

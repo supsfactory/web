@@ -1,0 +1,347 @@
+meta:
+  title: 'Fabrica și producția — OEM plăci SUP gonflabile'
+  description: 'Vizitați fabrica Vatrad: uzină de 12,500 m² cu tăiere, sudare RF, tipărire, asamblare și laborator de calitate pentru producția OEM/ODM de plăci SUP gonflabile.'
+  dateModified: '2026-08-07'
+  keywords:
+    - 'fabrică sup china'
+    - 'fabrică de plăci paddle gonflabile'
+    - 'producător oem de plăci sup'
+    - 'producție de plăci sup gonflabile'
+hero:
+  tagline: Fabrica
+  title: Fabrica și producția
+  subtitle: Fabrică de plăci SUP de 12,500 m2 în Qingdao, China — producție personalizată de plăci SUP, de la materialul PVC brut până la placa paddle gonflabilă finită
+
+answer:
+  label: 'Răspuns direct'
+  text: 'Fabrică certificată de plăci SUP gonflabile în Qingdao, China: ISO 9001, ISO 25649, BSCI, CE, REACH și RoHS. Uzină de 12,500 m² cu 4 ateliere specializate, 350+ de lucrători, 120,000+ plăci produse anual (10,000 de plăci/lună pe 4 linii automatizate). Fiecare placă este încercată la presiune la 18.0 PSI timp de 24 de ore, trece printr-o listă de verificare a asamblării în 100 de puncte și are trasabilitate a materialelor pe 10 ani.'
+  verified: 'Septembrie 2026'
+
+intro:
+  - Ca divizie de producție a **Qingdao Vatrad Group Co., Ltd.**, Vatrad controlează fiecare etapă a producției de plăci SUP gonflabile — de la sosirea materialelor PVC brute până la inspecția finală înainte de livrare a plăcii paddle finite. Instalația noastră de producție din Zona de Dezvoltare Economică Qingdao se întinde pe 12,500 metri pătrați și găzduiește ateliere dedicate pentru tăierea PVC, lipirea miezului drop-stitch, tipărirea digitală a plăcilor SUP, asamblarea finală și testarea calității.
+  - Prin integrarea proiectării, ingineriei, prototipării, producției și testării sub același acoperiș, eliminăm ineficiențele producției contractuale și menținem un control direct asupra calității construcției, selecției materialelor și termenelor de livrare. Fiecare placă SUP care părăsește atelierul nostru este construită de oamenii noștri, pe echipamentele noastre, după standardele noastre.
+
+stats:
+  - value: 12,500 m2
+    label: Suprafață de producție
+  - value: 350+
+    label: Lucrători calificați
+  - value: 120,000+
+    label: Plăci SUP produse anual
+  - value: ISO 9001
+    label: Certificare de calitate
+
+intelligence_tagline: Inteligența fabricii
+intelligence_title: Explorați capabilitățile noastre de producție
+
+intelligence_cards:
+  - title: Capacitate de producție
+    icon: C
+    icon_bg: blue
+    desc: 'Instalație de 12,500 m² care produce 120,000+ plăci SUP pe an pe liniile de plăci SUP și de echipament de siguranță. 350+ lucrători, 2 ture.'
+    metrics:
+      - label: MOQ
+        value: 'SUP: mostră 1–2 / pilot 20–50 / volum 90–100+'
+      - label: Termen de livrare
+        value: '25–35 de zile'
+    link: /ro/factory/capacity
+    link_label: Detalii complete despre capacitate →
+  - title: Laborator de calitate și testare
+    icon: Q
+    icon_bg: green
+    desc: 'Laborator de control al calității independent, cu 4 etape de testare: inspecția materialelor brute (tracțiune, sfâșiere, UV), menținere la presiune 24h la 18.0 PSI, testarea decojirii cusăturilor și verificarea rigidității la încovoiere pentru fiecare placă.'
+    metrics:
+      - label: Echipament de laborator
+        value: 'Aparat de tracțiune, cameră de temperatură, bazin de testare a scurgerilor'
+      - label: Standarde
+        value: 'QMS: ISO 9001; Piață: CE, AS 1799'
+    link: /ro/factory/quality-lab
+    link_label: 'Proceduri și echipamente de laborator →'
+  - title: Capacitate OEM/ODM
+    icon: O
+    icon_bg: purple
+    desc: 'Servicii OEM/ODM complete: proiectarea formelor personalizate, ambalare private-label, culori personalizate ale plăcilor, grafică pe punte (tipărire digitală și serigrafie) și ambalare gata de export.'
+    metrics:
+      - label: Certificări
+        value: 'ISO 9001, BSCI, CE, REACH'
+      - label: Piețe de export
+        value: '50+ țări'
+    link: /ro/factory/oem-capability
+    link_label: 'Servicii OEM complete →'
+  - title: Standarde de inspecție a calității
+    icon: I
+    icon_bg: orange
+    desc: 'Criterii de inspecție a calității specifice proiectului pentru IQC, IPQC, FQC și OQC: verificarea etanșeității la aer, verificări vizuale și dimensionale, confirmarea accesoriilor, trasabilitatea loturilor și semnarea eliberării înainte de expediție — plus guvernanța controlată a neconformităților de etanșeitate la aer și a retușurilor.'
+    metrics:
+      - label: Acoperire
+        value: 'Materiale → ambalare finală'
+      - label: Descărcări
+        value: 'Protocol QC, raport PSI și documente de retuș (PDF)'
+    link: /ro/factory/quality-inspection
+    link_label: 'Standarde de inspecție și descărcări →'
+  - title: Standard de control al retușurilor
+    icon: C
+    icon_bg: blue
+    desc: 'Control formal al modificărilor conform ISO 9001 pentru parametrii de retuș: ECR, clasificarea riscurilor, matricea de aprobare interdepartamentală, bucla închisă în 9 pași, validare inginerească cuantificată (18.0 PSI, menținere 24 h, ΔP ≤ 0.2 PSI) și măsuri de protecție Poka-Yoke — cu SOP bilingv QMS-SOP-QC-CC-001 Rev 2.0.'
+    metrics:
+      - label: Document
+        value: 'QMS-SOP-QC-CC-001 Rev 2.0'
+      - label: Descărcări
+        value: 'SOP de control al modificărilor și anexă de execuție (PDF)'
+    link: /ro/factory/quality-change-control
+    link_label: 'Standard de control al modificărilor și descărcări →'
+  - title: Controlul produselor neconforme
+    icon: N
+    icon_bg: purple
+    desc: 'Controlul ieșirilor neconforme conform ISO 9001:2015 Clauza 8.7: înregistrarea NCR, carantină și reținere, dispunere în funcție de severitate (semnare pe linie / Manager QC + Inginer Tehnic / MRB), retuș controlat conform instrucțiunilor SRI, re-inspecție independentă 100% și distrugere asistată — video cu deșeurile arhivat prin SHA-256.'
+    metrics:
+      - label: Standard
+        value: 'ISO 9001:2015 Clauza 8.7'
+      - label: Certificat de deșeuri
+        value: 'VAT-QA-SCRAP-CERT-2026'
+    link: /ro/factory/non-conforming-control
+    link_label: 'Controlul neconformităților și descărcări →'
+  - title: Flux de control al calității în 7 etape
+    icon: Q
+    icon_bg: green
+    desc: 'Fluxul complet de control al calității proiectului, poartă cu poartă: Planificarea calității (PPM) → Inspecția materialelor la intrare → Controlul în proces și primul articol → Umflare și etanșeitate la aer → Inspecția finală → Ambalare și PSI → Eliberarea expediției și trasabilitate. Fiecare poartă arată ce se verifică, cum se evaluează și ce raport bilingv se produce.'
+    metrics:
+      - label: Porți
+        value: '01 → 07'
+      - label: Descărcări
+        value: 'Dosare de rapoarte per poartă (PDF)'
+    link: /ro/quality
+    link_label: 'Inspectați fluxul în 7 etape →'
+
+workshops_section:
+  tagline: Ateliere
+  title: Ateliere de producție
+  workshops:
+    - title: Tăierea PVC și pregătirea materialelor
+      description: Mașinile automate de tăiere CNC prelucrează țesăturile din PVC, Hypalon și drop-stitch cu o precizie sub milimetru. Aranjarea optimizată pe computer minimizează deșeurile de material și asigură că fiecare panou îndeplinește specificația sa dimensională înainte de sudare.
+      image: https://assets.isupfactory.com/images/sups/hero/production-dept.webp
+      alt: Mașină CNC de tăiere PVC care pregătește panouri de țesătură pentru plăci SUP gonflabile la fabrica din Qingdao
+    - title: Sudarea tuburilor și termoetanșarea
+      description: Atelier dedicat de sudare, cu mașini de termoetanșare și prese dielectrice RF. Termoetanșatoarele cu aer cald lipesc și fuzionează camerele tubulare din PVC, în timp ce sudurile RF produc cusături etanșe la aer, de mare rezistență, care depășesc cerințele.
+      image: https://assets.isupfactory.com/images/sups/factory/isupfactory-production-department.webp
+      alt: Mașină de sudare RF care etanșează camerele tubulare ale ambarcațiunilor gonflabile la fabrica din Qingdao
+    - title: Lipirea miezului drop-stitch
+      description: Miezurile drop-stitch ale plăcilor SUP sunt lipite de straturile exterioare din PVC prin laminare la cald. Mii de fire interne din poliester conectează straturile superioară și inferioară, creând o structură rigidă la 12-15 PSI. Benzile de șină sunt lipite prin fuziune în trei straturi pentru rezistența marginilor.
+      image: https://assets.isupfactory.com/images/sups/factory/isupfactory-sup-manufacturing.webp
+      alt: Linie de producție de plăci SUP gonflabile cu echipament de lipire a miezului drop-stitch la fabrica din Qingdao
+    - title: Tipărirea și decorarea plăcilor SUP
+      description: Plăcile SUP sunt decorate prin tipărire digitală pentru grafică integral colorată și prin serigrafie pentru logo-uri și modele repetitive. Imprimantele digitale produc modele de punte de calitate fotografică, în timp ce serigrafia oferă mărci durabile și vii.
+      image: https://assets.isupfactory.com/images/sups/factory/isupfactory-production-department-2.webp
+      alt: Interiorul departamentului de producție la fabrica de plăci SUP gonflabile din Qingdao
+    - title: Asamblarea și montajul final
+      description: Linie de asamblare în care valvele, inelele D, mânerele, cutiile de derivă și suprafețele de punte sunt instalate pe fiecare placă SUP. Fiecare placă urmează o listă de verificare a asamblării în 100 de puncte, semnată de șeful de echipă.
+      image: https://assets.isupfactory.com/images/sups/factory/isupfactory-production-department.webp
+      alt: Departament de producție cu posturi de asamblare la fabrica din Qingdao
+    - title: Testarea și inspecția calității
+      description: Fiecare placă finalizată trece prin testare obligatorie de retenție a aerului, verificarea decojirii cusăturilor și o verificare completă a sistemelor înainte de expediere. Laboratorul nostru de calitate funcționează independent de producție și raportează direct conducerii.
+      image: https://assets.isupfactory.com/images/sups/factory/isupfactory-pressure-testing.webp
+      alt: Testarea la presiune a unei plăci SUP gonflabile pentru retenția aerului înainte de expediere la fabrica din Qingdao
+
+equipment_section:
+  tagline: Echipament
+  title: Echipament cheie de producție
+  view_full: Vizualizați lista completă de echipamente →
+  view_full_link: /ro/factory/equipment
+  items:
+    - name: Mașină automată de tăiere PVC
+      spec: Comandată CNC, precizie de 0.1 mm
+    - name: Mașină de termoetanșare
+      spec: Aer cald, 200°C–300 °C, pentru lipirea tuburilor
+    - name: Presă de sudare dielectrică RF
+      spec: 15 kW, sudarea etanșă la aer a cusăturilor
+    - name: Presă de laminare a miezului drop-stitch
+      spec: Miezuri SUP până la 14 ft
+    - name: Imprimantă digitală
+      spec: Grafică integral colorată pentru puntea plăcilor SUP
+    - name: Mașină de serigrafie
+      spec: Tipărire de logo-uri multicolore
+
+qc_section:
+  tagline: Controlul calității
+  title: Procesul de testare și asigurare a calității
+  subtitle: Fiecare placă trece prin testare obligatorie înainte de expediere. Laboratorul nostru de calitate funcționează independent de producție și raportează direct conducerii.
+  steps:
+    - step: '1'
+      title: Inspecția materialelor brute
+      desc: PVC, Hypalon și țesăturile drop-stitch trec prin încercări de tracțiune (), propagare a sfâșierii și verificarea rezistenței la UV înainte ca vreun lot să intre în producție.
+    - step: '2'
+      title: Test de retenție a aerului pe 24 de ore
+      desc: Fiecare cameră tubulară este umflată la 18.0 PSI și menținută timp de 24 de ore. O scădere de presiune de peste 0.50 PSI declanșează respingerea automată și re-inspecția cusăturilor.
+    - step: '3'
+      title: Testarea la sarcină și echilibru
+      desc: Plăcile finalizate sunt umflate la presiunea nominală și verificate pentru umflare simetrică, rigiditate la 15 PSI și stabilitate sub sarcină. Fiecare placă este testată umed în bazinul nostru de testare înainte de inspecția finală.
+
+oem_section:
+  tagline: Proiecte OEM
+  title: Studii de caz privind parteneriatele de marcă și OEM
+  subtitle: De la concept la producție — cum ajutăm mărcile globale să lanseze și să scaleze liniile lor de plăci SUP gonflabile.
+  cases:
+    - challenge: Un retailer european de outdoor avea nevoie de o linie de plăci SUP private-label cu grafică unică pe punte, PVC ecologic și ambalare gata de vânzare — toate livrate în 60 de zile.
+      solution: Am dezvoltat fișiere digitale personalizate de tipărire, am achiziționat PVC conform REACH și am comprimat eșantionarea de la 3 runde la 1 prin co-locarea echipei de proiectare la fabrica noastră din Qingdao.
+      result: Producție de 25–35 de zile de la comanda semnată, cu prima livrare în fereastra de 60 de zile. 2,400 de unități în 4 SKU-uri. Comandă repetată plasată înainte ca primul lot să fie livrat complet.
+      disclaimer: 'Rezumat de proiect anonimizat — tipul și amploarea proiectului sunt reprezentative; rezultatele specifice nu pot fi verificate independent.'
+    - challenge: Un startup american de sporturi nautice avea nevoie de o placă SUP drop-stitch de înaltă performanță, cu formă personalizată, ambalare co-branded și certificare BSCI pentru plasarea în retail.
+      solution: Am adaptat forma SUP existentă cu un contur modificat, am dezvoltat ambalajul co-branded și am furnizat documentația completă de audit BSCI.
+      result: Plasată cu succes în retaileri outdoor cheie din SUA, generând un impuls puternic, cu peste 5,000 de unități vândute în anul 1 și o rată de vânzare de 98%.
+      disclaimer: 'Rezumat de proiect anonimizat — tipul și amploarea proiectului sunt reprezentative; rezultatele specifice nu pot fi verificate independent.'
+    - challenge: Un distribuitor australian a solicitat o gamă de plăci SUP certificate CE, cu culori personalizate și conformitate cu standardele australiene.
+      solution: Am produs mostre de pre-producție cu 4 variante de culoare și am coordonat testarea de conformitate de către terți.
+      result: Gamă de plăci SUP cu 3 modele lansată pe piața AU/NZ. Urmată de câștigarea unei licitații guvernamentale pentru 12 plăci SUP de patrulare.
+      disclaimer: 'Rezumat de proiect anonimizat — tipul și amploarea proiectului sunt reprezentative; rezultatele specifice nu pot fi verificate independent.'
+
+faq_section:
+  tagline: FAQ
+  title: Întrebări frecvente B2B și OEM
+  questions:
+    - q: Care este cantitatea minimă de comandă (MOQ) pentru plăcile SUP gonflabile OEM?
+      a: 'MOQ-ul este confirmat prin configurația proiectului, nu printr-un număr fix — corp de apă și unelte, variante de culoare și PVC, grafică, ambalare și accesorii. Producția standard de volum rulează 90–100+ unități per lot dintr-o rolă completă de drop-stitch de 150 m, co-branding-ul în loturi mici începe de la 5–10 unități, iar fiecare proiect trece prin etapele de mostră (1–2 unități) și pilot (20–50 unități). Consultați Ghidul nostru MOQ și de branding flexibil pentru logica completă de calcul.'
+    - q: Deține Vatrad certificarea BSCI?
+      a: Da. Fabrica noastră menține o certificare valabilă de conformitate socială BSCI (raportul de audit disponibil la cerere). Deținem de asemenea ISO 9001 pentru managementul calității. Certificarea CE se aplică modelelor destinate piețelor UE; domeniul de aplicare este confirmat per proiect. Documentația de conformitate REACH și RoHS este furnizată cu fiecare comandă OEM.
+    - q: Care este termenul tipic de livrare pentru o comandă OEM?
+      a: Termenul standard este de 25–35 de zile de la comanda confirmată și avans pentru producția OEM de volum. Dezvoltarea formelor personalizate adaugă 15–20 de zile pentru unelte. Producția accelerată este disponibilă pentru comenzi urgente și perioade de vârf sezoniere. Mostrele de prototip sunt de obicei gata în 7–12 zile.
+    - q: Vă ocupați de documentația de export?
+      a: Da. Echipa noastră gestionează intern documentația de export și formalitățile vamale și livrăm în 50+ țări din piețele UE, SUA, AU și Asia.
+
+b2b_moq: 'MOQ confirmat prin configurația proiectului: mostră 1–2, pilot 20–50, volum 90–100+ (per rolă de 150 m); co-branding în loturi mici de la 5–10 unități.'
+
+production_flow:
+  tagline: Fluxul de producție
+  title: De la material la placa finită
+  subtitle: Fiecare placă trece prin 6 etape de producție, cu puncte de control al calității la fiecare pas. Fără scurtături, fără inspecții omise.
+  stages:
+    - stage: '01'
+      title: Recepția materialelor și QC la intrare
+      description: 'Toate materialele primite sunt înregistrate după numărul de lot în sistemul nostru ERP. Rolele de țesătură PVC, miezurile drop-stitch, valvele, adezivii și feroneria sunt puse în carantină până la semnarea de către QC.'
+      qc_check: 'Rezistență la tracțiune (ASTM D751), rezistență la sfâșiere (ISO 4674), grosimometru, vâscozitatea adezivului, scanare vizuală a defectelor'
+      qc_threshold: '100% din loturi testate. Respingere dacă tracțiunea < 90% din specificație, sfâșierea < minimul din specificație sau orice defect vizual'
+      responsibility: Echipa QC la intrare (3 inspectori)
+    - stage: '02'
+      title: Tăiere CNC și pregătirea materialelor
+      description: 'Aranjarea optimizată pe computer așază panourile pe stocul de PVC pentru a minimiza deșeurile. Mașinile automate de tăiere CNC mențin o precizie pozițională de 0.1 mm.'
+      qc_check: 'Verificare dimensională față de fișierele CAD DXF, inspecția calității marginilor, verificarea numărului de panouri'
+      qc_threshold: 'Fiecare al 20-lea panou măsurat. Toleranță ±0.5 mm. Respingere a lotului dacă >2% sunt în afara toleranței'
+      responsibility: Șeful atelierului de tăiere
+    - stage: '03'
+      title: Sudare și lipirea miezului drop-stitch
+      description: 'Miezurile drop-stitch sunt lipite de straturile exterioare din PVC prin laminare la cald. Camerele tubulare sunt sudate RF sau cu aer cald. Benzile de șină sunt lipite prin fuziune în trei straturi.'
+      qc_check: 'Test de decojire la fiecare 50 de unități (ASTM D751), măsurarea lățimii sudurii, verificarea jurnalului de temperatură a aerului cald, inspecția vizuală a cusăturilor în contralumină'
+      qc_threshold: 'Rezistența la decojire min 8 N/cm. Toleranță a lățimii sudurii ±1 mm. Orice canal vizibil = respingere'
+      responsibility: QC sudare (2 inspectori pe tură)
+    - stage: '04'
+      title: Asamblare și montaj
+      description: 'Plăcile trec la asamblarea finală, unde toate componentele se îmbină: panourile de punte și de carenă fuzionate, valvele instalate, inelele D, mânerele, cutiile de derivă și husa de transport. Fiecare unitate urmează o listă de verificare a asamblării în 100 de puncte.'
+      qc_check: 'Semnare a listei de verificare în 100 de puncte per unitate, test de funcționare a valvei (10 cicluri de deschidere/închidere), verificarea cuplului de strângere a feroneriei, inspecție vizuală'
+      qc_threshold: 'Politică de zero defecte pentru articolele critice de siguranță (valve, inele D, mânere). Cosmetic minor: AQL 2.5 (ISO 2859)'
+      responsibility: Șeful echipei de asamblare + QC de linie
+    - stage: '05'
+      title: Testarea la presiune și reținerea pentru calitate
+      description: 'Fiecare cameră este umflată la 18.0 PSI (pentru o placă SUP nominalizată la 12–15 PSI) și menținută timp de 24 de ore. Senzorii de presiune înregistrează continuu. Camerele care depășesc 0.50 PSI scădere de presiune sunt respinse și trimise pentru re-inspecția cusăturilor.'
+      qc_check: 'Jurnal de menținere a presiunii 24h, calibrarea senzorilor verificată zilnic, citire de presiune compensată termic, re-testarea cusăturilor după reparație'
+      qc_threshold: 'Max 0.50 PSI scădere de presiune pe 24h la temperatură stabilă. Orice cameră care depășește acest prag = re-testare 100% a întregului lot de producție'
+      responsibility: Laboratorul de calitate (independent de producție, raportează conducerii)
+    - stage: '06'
+      title: Inspecția finală și ambalarea
+      description: 'Inspecție vizuală și funcțională finală. Defecte de suprafață, consistența culorilor, verificarea etichetei/BIN, integritatea ambalajului și caracterul complet al accesoriilor. Unitățile sunt ambalate în vid, în cutii și paletizate pentru încărcarea în container.'
+      qc_check: 'Inspecție vizuală completă, listă de verificare a accesoriilor per SKU, test de cădere a ambalajului (1 m, eșantion aleatoriu), verificarea scanării etichetei/codului de bare'
+      qc_threshold: 'AQL 2.5 pentru defecte majore, AQL 4.0 pentru minore. Toleranță zero la defectele de siguranță. 100% din unități inspectate vizual'
+      responsibility: Echipa QC finală (4 inspectori) + Șeful echipei de ambalare
+
+workforce:
+  tagline: Oamenii noștri
+  title: Forța de muncă și expertiza
+  engineers: 25+
+  engineers_detail: 'Ingineri în R&D, proiectarea formelor, laboratorul de materiale și ingineria producției. În medie 7+ ani în producția de produse gonflabile.'
+  shift_pattern: '2 ture/zi (07:00–15:30, 15:30–00:00). Tură de noapte opțională pentru comenzi urgente.'
+  training: 'Instruire QC lunară, exerciții de siguranță trimestriale, evaluare anuală a competențelor. Angajații noi parcurg o inducție de 40 de ore înainte de a lucra pe linia de producție.'
+  departments:
+    - name: R&D și inginerie
+      count: 25+
+      role: Proiectarea produselor, ingineria formelor, laboratorul de materiale
+    - name: Tăiere și pregătirea materialelor
+      count: 15
+      role: Tăiere CNC, pregătirea panourilor, manipularea materialelor
+    - name: Sudare și laminare
+      count: 40
+      role: Sudare RF, sudare cu aer cald, lipirea drop-stitch
+    - name: Lipirea miezului SUP
+      count: 30
+      role: Laminarea drop-stitch, lipirea la cald, fuziunea benzilor de șină
+    - name: Asamblare și montaj
+      count: 35
+      role: Asamblarea finală, instalarea feroneriei, verificarea sistemelor
+    - name: Controlul calității
+      count: 12
+      role: QC la intrare, QC în proces, inspecția finală, testarea de laborator
+    - name: Logistică și ambalare
+      count: 20
+      role: Ambalare, încărcarea containerelor, documentația de export
+    - name: Management și administrație
+      count: 15
+      role: Vânzări, achiziții, resurse umane, finanțe, conformitate
+
+material_traceability:
+  tagline: Trasabilitate
+  title: Urmărirea materialelor și controlul loturilor
+  description: Fiecare lot de material brut primește un număr de lot unic în sistemul nostru ERP. De la sosire, prin producție, până la produsul finit, lista de materiale a fiecărei plăci se leagă înapoi de lotul original al furnizorului. Aceasta permite trasabilitatea completă în amonte pentru orice anchetă de calitate sau conformitate.
+  system: ERP personalizat (sistemul intern Qingdao Vatrad Group) + etichete fizice de lot pe fiecare ordin de lucru
+  coverage: 100% din materialele de producție — PVC, Hypalon, țesătură drop-stitch, adezivi, valve, feronerie, ambalare
+  records_retained: 10 ani (conform cerinței CE 2013/53/EU)
+  suppliers:
+    - material: PVC de calitate marină
+      source: Furnizori chinezi și coreeni
+      certified: ISO 9001, REACH, RoHS
+    - material: Hypalon (CSM)
+      source: Furnizor japonez
+      certified: ISO 9001, REACH
+    - material: Țesătură drop-stitch
+      source: Țesere proprie + partener extern
+      certified: QC intern + ISO 9001 al furnizorului
+    - material: Valve și feronerie
+      source: Furnizori OEM chinezi
+      certified: ISO 9001, certificate de material per lot
+
+qc_dashboard:
+  tagline: QC în cifre
+  title: Indicatori de control al calității
+  subtitle: Date reale de trecere/respingere de pe linia noastră de producție. Laboratorul nostru de calitate funcționează independent de producție și raportează direct conducerii.
+  stats:
+    - value: 100%
+      label: Unități testate la presiune
+      detail: Fiecare placă, fiecare cameră, fiecare lot
+    - value: '<5%'
+      label: Scădere de presiune maximă admisă
+      detail: Pe 24h la 18.0 PSI
+    - value: AQL 2.5
+      label: Pragul defectelor majore
+      detail: Conform standardului de eșantionare ISO 2859
+    - value: 24h
+      label: Durata menținerii presiunii
+      detail: Fiecare placă, fiecare cameră
+    - value: 18 PSI
+      label: Presiunea de testare vs nominală
+      detail: Marjă de siguranță pe fiecare cameră
+    - value: 0%
+      label: Toleranță la defectele de siguranță
+      detail: Valve, inele D, cusături, flotabilitate
+
+process_cta:
+  title: Consultați procesul nostru de producție
+  desc: Urmăriți o placă SUP prin fiecare etapă de producție — de la materialul brut la placa gata de mare.
+  label: Vizualizați procesul de producție →
+  link: /ro/factory/process
+
+evidence_review:
+  tagline: 'Dovezi și verificare'
+  title: 'Dovezi din fabrică — verificate'
+  body: 'Toate afirmațiile de producție de pe această pagină sunt verificate de echipa noastră de inginerie de producție din uzina Laixi, Qingdao. Certificatele, înregistrările de inspecție QC, rapoartele de încercare la presiune și structurală și înregistrările de trasabilitate a loturilor sunt disponibile la cerere. Specificațiile au fost verificate ultima dată în septembrie 2026.'
+
+cta:
+  title: 'Explorați fabrica noastră'
+  actions:
+    - text: Listă de verificare pentru auditul fabricii
+      href: /ro/factory-audit-checklist

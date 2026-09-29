@@ -1,0 +1,125 @@
+meta:
+  title: 'Capabilități de producție SUP | Fabrică de plăci paddle gonflabile'
+  description: 'Capabilitățile noastre de producție SUP din Qingdao: inginerie proprie a corpului de apă (0.1 mm), prelucrarea drop-stitch, sudura RF, tipărirea, formarea, control al calității în 100 de puncte și peste 120,000 de plăci pe an.'
+  dateModified: '2026-09-23'
+  keywords:
+    - 'capabilități de producție sup'
+    - 'capabilități fabrică plăci paddle gonflabile'
+    - 'producție sup în regim propriu'
+    - 'capacități de producție plăci paddle'
+    - 'fabrică sup qingdao'
+
+hero:
+  tagline: Capabilități de producție
+  title: 'Capabilități de producție SUP'
+  subtitle: 'Fiecare proces — ingineria corpului de apă, prelucrarea miezului drop-stitch, sudura RF, tipărirea, uneltele de formare, asamblarea, testarea și ambalarea — se desfășoară în uzina noastră din Qingdao de 12,500 m², astfel încât o singură echipă responsabilă preia proiectul dumneavoastră de la primul desen până la containerul expediat.'
+
+answer:
+  label: 'Răspuns direct'
+  text: 'Producția SUP este integral realizată în uzina noastră din Qingdao: proiectarea corpului de apă și ingineria dimensională cu precizie CNC de 0.1 mm; prelucrarea materialului drop-stitch și sudura RF pe 4 linii automatizate; tipărirea graficii; decuparea suprapușurilor EVA; unelte de formare personalizate (+15–20 zile pentru forme noi); asamblarea conform unei liste de verificare în 100 de puncte; și testarea la presiune de 18.0 PSI cu menținere pe 24 de ore, cu respingere automată la o scădere de peste 0.50 PSI. Capacitatea anuală este de peste 120,000 de plăci (aproximativ 10,000/lună) din 4 ateliere specializate cu peste 350 de lucrători, livrate în peste 50 de țări sub marca dumneavoastră.'
+  verified: 'Septembrie 2026'
+
+capabilities:
+  tagline: Capabilități proprii
+  title: 'Grupe de capabilități, toate realizate intern'
+  subtitle: 'Fiecare capabilitate de mai jos este desfășurată în interiorul fabricii, ceea ce scurtează termenele, fixează controlul calității în fiecare etapă și păstrează specificația dumneavoastră într-un singur loc.'
+  groups:
+    - title: Proiectare și inginerie
+      items:
+        - 'Proiectarea corpului de apă și inginerie dimensională'
+        - 'Precizie CNC de 0.1 mm'
+        - 'Proiectarea formelor și a uneltelor personalizate'
+        - 'Ambalaje și grafică pentru retail'
+    - title: Producție
+      items:
+        - 'Prelucrarea miezului drop-stitch'
+        - 'Sudură RF de 15 kW (4 linii automatizate)'
+        - 'Tipărirea graficii și a artwork-ului'
+        - 'Decuparea suprapușurilor EVA'
+        - 'Asamblarea și finisarea plăcilor'
+        - 'Echiparea cu accesorii'
+    - title: Calitate și conformitate
+      items:
+        - 'Listă de verificare pentru asamblare în 100 de puncte'
+        - '18.0 PSI · menținere de presiune pe 24 de ore'
+        - 'Eșantionare ISO 2859-1 Nivel II'
+        - 'CE · ISO 9001 · BSCI · REACH · RoHS'
+        - 'Trasabilitate a loturilor pe 10 ani'
+    - title: Servicii și logistică
+      items:
+        - 'Mostre de prototip în 7–12 zile'
+        - 'Producție în 25–35 de zile'
+        - 'Forme personalizate în +15–20 de zile'
+        - 'FOB Qingdao · CIF · DDP către peste 50 de țări'
+
+table:
+  headers:
+    capability: Capabilitate
+    in_house: În regim propriu
+    standard: Ce include standardul
+  rows:
+    - capability: 'Proiectarea corpului de apă și inginerie dimensională'
+      in_house: 'Da — echipă de inginerie internă'
+      standard: 'Proiectat și validat înainte de unelte; precizie CNC de 0.1 mm pentru forme și tăiere'
+    - capability: 'Prelucrarea materialului drop-stitch'
+      in_house: 'Da — producție internă a miezului'
+      standard: 'Interval de densitate drop-stitch 12–15 PSI, cu nesting optimizat pentru fiecare dimensiune de placă'
+    - capability: 'Sudura RF și construcția cusăturilor'
+      in_house: 'Da — în regim propriu'
+      standard: 'Capacitate de sudură RF de 15 kW pe 4 linii de producție automatizate'
+    - capability: 'Tipărirea graficii și a artwork-ului'
+      in_house: 'Da — proiectare și tipărire interne'
+      standard: 'Palete cromatice nelimitate, grafică full-bleed, suport pentru artwork din echipa fabricii'
+    - capability: 'Decuparea suprapușurilor de tracțiune EVA'
+      in_house: 'Da — în regim propriu'
+      standard: 'Specificație de suprapuș 45–55 Shore C, punți și logo-uri decupate la dimensiune'
+    - capability: 'Forme și unelte personalizate'
+      in_house: 'Da — atelier de forme intern'
+      standard: 'Uneltele pentru forme noi adaugă 15–20 de zile; formele rămân proprietatea fabricii, cu excepția unui acord contrazicător'
+    - capability: 'Asamblarea și finisarea plăcilor'
+      in_house: 'Da — în regim propriu'
+      standard: 'Listă de verificare pentru asamblare în 100 de puncte; mânere, inele D și accesorii montate conform specificației'
+    - capability: 'Testarea la presiune și sarcină'
+      in_house: 'Da — banc de încercare intern'
+      standard: 'Menținere la 18.0 PSI pe 24 de ore, cu respingere automată la o scădere de peste 0.50 PSI'
+    - capability: 'Inspecția finală și trasabilitatea'
+      in_house: 'Da — echipă de control al calității internă'
+      standard: 'Eșantionare ISO 2859-1 Nivel II; trasabilitate ERP a loturilor pe 10 ani pentru fiecare număr de serie'
+    - capability: 'Ambalare și export'
+      in_house: 'Echipare internă + logistică certificată'
+      standard: 'Cutii de retail, ambalare de export rezistentă la apă și etichete de serie sub marca dumneavoastră'
+
+faq_section:
+  tagline: FAQ
+  title: Întrebări despre capabilitățile de producție SUP
+  questions:
+    - q: Ce procese de producție sunt realizate intern?
+      a: 'Toate procesele de bază sunt interne: ingineria corpului de apă, prelucrarea miezului drop-stitch, sudura RF, tipărirea, decuparea EVA, asamblarea, testarea și ambalarea. Accesoriile și unele materii prime provin de la furnizori certificați; echiparea finală se face intern, pentru trasabilitate completă.'
+    - q: Care este capacitatea dumneavoastră de producție?
+      a: 'Peste 120,000 de plăci pe an (aproximativ 10,000 pe lună) pe 4 linii automatizate și 4 ateliere specializate, într-o uzină de 12,500 m² cu peste 350 de lucrători.'
+    - q: Ce MOQ se aplică pentru aceste capabilități?
+      a: 'Volumul standard este de 90–100+ bucăți pe configurație aprobată (o rolă de țesătură drop-stitch de 150 m); loturile pilot încep de la 20–50 de bucăți pe platforme existente; comenzile doar cu logo încep de la 5–10 bucăți.'
+    - q: Ce termene ar trebui să planificăm?
+      a: 'Mostre de prototip în 7–12 zile; producție în 25–35 de zile după confirmarea comenzii și a avansului; dezvoltarea formelor personalizate adaugă 15–20 de zile pentru unelte.'
+    - q: Cum se traduc capabilitățile în calitate?
+      a: 'Fiecare proces alimentează sistemul de calitate în 7 etape: o listă de verificare pentru asamblare în 100 de puncte, menținere la 18.0 PSI pe 24 de ore cu respingere automată la o scădere de peste 0.50 PSI, eșantionare ISO 2859-1 Nivel II și trasabilitate ERP a loturilor pe 10 ani.'
+
+cta:
+  title: 'Vizitați capabilitățile potrivite proiectului dumneavoastră'
+  subtitle: 'Trimiteți fișa produsului — analiză de inginerie și o ofertă adaptată capabilităților noastre în decurs de o zi lucrătoare.'
+  actions:
+    - variant: primary
+      text: Solicitați o ofertă de producție
+      href: /ro/contact#custom-oem
+    - text: Vizitați fabrica
+      href: /ro/factory
+    - text: Procesul de producție din fabrică
+      href: /ro/factory/process
+    - text: Capacitatea fabricii și termenele
+      href: /ro/factory/capacity
+    - text: Calitate și testare
+      href: /ro/quality
+    - text: Centrul de dovezi — probe din fabrică
+      href: /ro/proof-center
+    - text: Producție OEM și ODM
+      href: /ro/oem-manufacturing

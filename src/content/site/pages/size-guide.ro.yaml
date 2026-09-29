@@ -1,0 +1,85 @@
+meta:
+  title: 'Ghidul dimensiunilor și specificațiilor SUP — plăci de vâslă gonflabile | {SITE}'
+  description: 'Dimensiuni, capacități și utilizări recomandate pentru fiecare placă Vatrad. Găsiți dimensiunea potrivită de SUP gonflabil pentru nevoile dumneavoastră.'
+  dateModified: '2026-08'
+  keywords:
+    - 'ghid dimensiuni sup'
+    - 'dimensiuni plăci de vâslă'
+    - 'specificații sup gonflabil'
+    - 'tabel dimensiuni sup'
+hero:
+  title: Ghidul dimensiunilor și specificațiilor
+  subtitle: Dimensiuni, capacități și utilizări recomandate pentru fiecare produs Vatrad.
+
+categories:
+  inflatable: Plăci SUP gonflabile proiectate pentru portabilitate fără a compromite performanța. Asociați dimensiunea potrivită greutății și stilului dumneavoastră de vâslă.
+  sup: Plăci de vâslă în picioare pentru tură, yoga, fitness și vâslere recreativă. Alegeți după lungime și greutatea vâslașului.
+  accessory: Accesorii și echipament de siguranță care completează placa dumneavoastră SUP. Dimensionare universală, cu mai multe opțiuni.
+
+table:
+  headers:
+    product: Produs
+    length: Lungime
+    width: Lățime
+    weight: Greutate
+    max_load: Sarcină maximă
+    best_for: Ideal pentru
+  rows:
+    - product: 'SUP all-around (Explorer 11 ft)'
+      length: '11''0" (335 cm)'
+      width: '32" (81 cm)'
+      weight: 19 lbs (8.6 kg)
+      max_load: 220 lbs (100 kg)
+      best_for: Începători, recreere, vâslere în familie pe lacuri și râuri liniștite
+    - product: 'SUP all-around (10''6")'
+      length: '10''6" (320 cm)'
+      width: '32" (81 cm)'
+      weight: 18 lbs (8.2 kg)
+      max_load: 200 lbs (90 kg)
+      best_for: Vâslași mai ușori, yoga și recreere generală
+    - product: 'SUP de tură (12 ft)'
+      length: '12''0" (366 cm)'
+      width: '30" (76 cm)'
+      weight: 23 lbs (10.4 kg)
+      max_load: 260 lbs (118 kg)
+      best_for: Vâslere pe distanțe lungi, viteză și tură pe coastă
+    - product: 'SUP de tură (14 ft)'
+      length: '14''0" (427 cm)'
+      width: '28" (71 cm)'
+      weight: 26 lbs (11.8 kg)
+      max_load: 275 lbs (125 kg)
+      best_for: Curse și vâslere în expediții pe distanțe lungi
+    - product: 'SUP surf (8–10 ft)'
+      length: '8''0"–10''0" (244–305 cm)'
+      width: '30" (76 cm)'
+      weight: 17 lbs (7.7 kg)
+      max_load: 180 lbs (82 kg)
+      best_for: Surfare pe valuri și surf manevrabil
+    - product: 'Yoga / Fitness SUP (11 ft)'
+      length: '11''0" (335 cm)'
+      width: '34" (86 cm)'
+      weight: 22 lbs (10 kg)
+      max_load: 240 lbs (109 kg)
+      best_for: Yoga, fitness și recreere stabilă
+
+how_to_choose:
+  title: Cum să alegeți dimensiunea potrivită
+  cards:
+    - title: Plăci SUP
+      description: Alegeți lungimea în funcție de greutatea dumneavoastră și de utilizarea intenționată. Plăcile mai late (32"+) oferă mai multă stabilitate. Plăcile mai lungi (11-12 ft) au o ținută de direcție mai bună pentru tură. Vâslașii mai grei au nevoie de plăci cu volum mai mare.
+    - title: Plăci SUP de tură
+      description: Plăcile mai lungi (11–12 ft) sunt ideale pentru acoperirea distanțelor și pentru tură. Plăcile mai late (32"+) oferă mai multă stabilitate. Verificați capacitatea de greutate pentru sarcina totală, inclusiv echipamentul.
+    - title: Plăci SUP all-around
+      description: Alegeți lungimea după greutatea vâslașului și utilizarea intenționată. Plăcile all-around sunt potrivite pentru recreere, fitness și yoga. Plăcile mai mici sunt mai manevrabile.
+
+cta:
+  title: 'Explorați plăcile după dimensiune sau vorbiți cu un inginer'
+  subtitle: 'Comparați modelele de tură, all-around și yoga din gama noastră — sau trimiteți-ne mixul dumneavoastră de vâslași și vă recomandăm dimensiunile potrivite pentru proiect.'
+  actions:
+    - variant: primary
+      text: 'Explorați produsele SUP'
+      href: /ro/products
+    - text: 'Mai multe cunoștințe despre vâslă'
+      href: /ro/knowledge
+    - text: 'Cum sunt construite plăcile'
+      href: /ro/factory/process

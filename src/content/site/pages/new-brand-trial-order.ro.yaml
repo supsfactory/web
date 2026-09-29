@@ -1,0 +1,176 @@
+meta:
+  title: 'Lansați-vă marca SUP cu o comandă de încercare cu MOQ redus | iSupfactory'
+  description: 'Lansați o marcă de SUP gonflabil cu o comandă de încercare cu MOQ redus: mostre în 7–12 zile, loturi pilot de 20–50 de plăci, producție în 25–35 de zile. Branding și control al calității asigurate.'
+  dateModified: '2026-08-16'
+  keywords:
+    - 'începeți o marcă sup'
+    - 'lansare marcă sup'
+    - 'sup cu moq redus'
+    - 'comandă de încercare sup'
+    - 'marcă sup începătoare'
+    - 'branding sup loturi mici'
+    - 'private label sup gonflabil'
+
+hero:
+  tagline: 'Pentru mărci SUP noi și în creștere'
+  title: 'Lansați-vă marca SUP cu o comandă de încercare cu MOQ redus'
+  subtitle: 'Nu aveți nevoie de un container pentru a începe o marcă SUP. Validați-vă placa, grafica și piața cu o singură mostră, apoi testați rotația stocurilor printr-o comandă de încercare de 20–50 de plăci — înainte de a vă angaja vreodată la volume de producție complete. Brandingul, controlul calității și logistica de export sunt gestionate de Qingdao Vatrad Group Co., Ltd.'
+  actions:
+    - variant: primary
+      text: Începeți lansarea cu o mostră
+      href: /ro/contact#custom-oem
+    - text: Consultați cadrul complet MOQ și termene
+      href: /ro/sup-oem-moq-lead-time
+
+answer:
+  label: 'Răspuns direct'
+  text: 'Da — puteți lansa o marcă de SUP gonflabil cu o comandă de încercare cu MOQ redus. Punctul de intrare este eșalonat, nu de tip „totul sau nimic”: comandați mai întâi 1–2 mostre (gata în 7–12 zile) pentru a bloca corpul de apă, grafica și ambalajele; apoi plasați o comandă de încercare de 20–50 de plăci (producție în 25–35 de zile) pentru a testa rotația reală a stocurilor; în final, scalați către loturi de volum standard de 90–100+ plăci pe rolă de țesătură drop-stitch de 150 m, după ce formatul este dovedit. Co-branding-ul în loturi mici începe de la doar 5–10 bucăți, pentru operatori care vor plăci de marcă fără nicio etapă de dezvoltare. Primul container vine doar atunci când datele arată că este momentul potrivit.'
+  verified: 'Septembrie 2026'
+
+trial_included:
+  tagline: Ce acoperă comanda de încercare
+  title: 'Tot ce necesită o lansare, fără cheltuieli fixe'
+  subtitle: 'O comandă de încercare nu este o factură redusă — este același proces de fabrică, dimensionat pentru o marcă aflată la început. Iată ce include fiecare program de încercare.'
+  grid: 'sm:grid-cols-2 lg:grid-cols-3'
+  features:
+    - icon: B
+      icon_bg: blue
+      title: 'Platformă și construcție a plăcii'
+      desc: 'Corpuri de apă touring și all-around testate în practică, cu construcție drop-stitch, fuziune în trei straturi a benzii de șină și rigiditate de 12–15 PSI — aceleași platforme folosite de clienții noștri de volum, în dimensiuni standard de la 10 ft la 11 ft 6 in.'
+    - icon: L
+      icon_bg: green
+      title: 'Brandingul dumneavoastră, aplicat efectiv'
+      desc: 'Artwork digital sau tipărit în serigrafie pe întreaga suprafață, suprapuș de tracțiune EVA cu logo-ul dumneavoastră și branding secundar pe prăbuie sau pe șinele laterale. Co-branding-ul în loturi mici folosește brandingul central iSupfactory, cu logo-ul dumneavoastră pe prăbuie sau pe șine.'
+    - icon: P
+      icon_bg: purple
+      title: 'Opțiuni de ambalaje care se scalează'
+      desc: 'Porniți cu cutii generice și etichete cu cod de bare, apoi treceți la cutii de cadou retail din carton de 5 straturi, tipărite integral în culoare, pentru loturile ulterioare. Ambalajele personalizate au un minim independent de utilaj; cutiile excedentare sunt depozitate și eliberate conform programului.'
+    - icon: Q
+      icon_bg: orange
+      title: 'Control al calității la nivel de fabrică'
+      desc: 'Fiecare placă trece prin aceeași listă de verificare a asamblării în 100 de puncte și prin aceeași testare la presiune și de etanșeitate pe 24 de ore (menținere la 18.0 PSI, respingere automată la o scădere de peste 0.50 PSI) care se aplică oricărei comenzi, mostre sau container.'
+    - icon: D
+      icon_bg: blue
+      title: 'Export și documentație'
+      desc: 'Documentație de conformitate CE, ISO 9001, BSCI, REACH și RoHS, ambalare de calitate export și coordonarea transportului maritim către peste 50 de țări — de la o mostră de 1 placă până la programele complete.'
+    - icon: T
+      icon_bg: green
+      title: 'Un termen pe care îl puteți planifica'
+      desc: 'Mostre în 7–12 zile, producție de încercare în 25–35 de zile după comanda confirmată și avans, și sloturi de producție confirmate pentru comenzile de presezon — astfel încât lansarea să cadă în sezon, nu după el.'
+
+trial_steps:
+  tagline: Foaia de parcurs a lansării
+  title: 'De la idee la prima rotație de stoc în șase porți'
+  subtitle: 'O primă lansare tipică durează 8–12 săptămâni de la fișă la comanda de încercare livrată, folosind platforme existente — mai mult timp atunci când un corp de apă dedicat adaugă dezvoltarea formelor. Fiecare poartă are o dată asupra căreia conveniți în prealabil.'
+  steps:
+    - step: 'Poarta 1'
+      title: 'Fișă de produs și analiză de inginerie (Zilele 0–2)'
+      desc: 'Partajați modelul de placă vizat, cantitatea comenzii, artwork-ul și intenția pentru ambalaje. Analiza de inginerie se finalizează în decurs de o zi lucrătoare, iar un NDA este disponibil înainte de a partaja specificații confidențiale.'
+    - step: 'Poarta 2'
+      title: 'Specificații, MOQ și ofertă (Zilele 3–7)'
+      desc: 'Ofertă detaliată pe articole, cu calculul exact al MOQ-ului, taxele pentru mostre și segmentele de termen. Taxele pentru mostre sunt creditate la comanda de producție la semnarea contractului.'
+    - step: 'Poarta 3'
+      title: 'Mostre în 7–12 zile'
+      desc: '1–2 plăci fizice validează rigiditatea corpului de apă, textura suprapușului de tracțiune EVA, acuratețea graficii și montarea accesoriilor. Folosiți placa înainte de a vă angaja la orice altceva.'
+    - step: 'Poarta 4'
+      title: 'Comandă de încercare de 20–50 de plăci (25–35 de zile)'
+      desc: 'Producție pe platformele existente ale corpului de apă, cu materiale din stoc și ambalaje simplificate — cel mai mic test comercial care reflectă condițiile reale de stoc.'
+    - step: 'Poarta 5'
+      title: 'Fereastra de rotație a stocurilor și de feedback'
+      desc: 'Poarta importantă este în piața dumneavoastră, nu în fabrica noastră: cei care închiriază și clienții confirmă formatul plăcii, grafica și nivelul de preț înainte de a scala.'
+    - step: 'Poarta 6'
+      title: 'Scalarea către loturi de volum (90–100+ plăci)'
+      desc: 'Odată ce formatul este dovedit, loturile cu role de 150 m aduc eficiență completă de producție, ambalaje de marcă și prețuri de volum. Un program de container este scopul, nu cerința.'
+
+trial_budget:
+  tagline: Intervale de buget orientative
+  title: 'Cât costă o lansare — intervale de preț de referință'
+  subtitle: 'Intervale orientative de referință, EXW Qingdao (China), pentru un corp de apă touring sau all-around standard, în dimensiuni din stoc. Oferta finală depinde de forma corpului de apă, PVC, acoperirea graficii, ambalaje, accesorii și cantitate — confirmată față de configurația dumneavoastră înainte de orice angajament.'
+  headers:
+    stage: Etapa comenzii
+    price: Preț de referință per placă
+    notes: Observații
+  rows:
+    - stage: 'Mostre (1–2 plăci)'
+      price: 'USD 250–350'
+      notes: 'Mostră fizică cu grafica dumneavoastră aplicată. Taxele pentru mostre sunt creditate la comanda de producție la semnarea contractului.'
+    - stage: 'Comandă de încercare / pilot (20–50 de plăci)'
+      price: 'USD 180–260'
+      notes: 'Platforme existente ale corpului de apă, materiale din stoc și ambalaje simplificate. Traseul standard de lansare cu MOQ redus.'
+    - stage: 'Volum standard (90–100+ plăci pe rolă de 150 m)'
+      price: 'USD 150–220'
+      notes: 'Role complete de țesătură de 150 m, opțiuni de PVC Pantone personalizat, ambalaje de marcă și prețuri de volum.'
+    - stage: 'Corp de apă și unelte dedicate (suplimentar)'
+      price: 'Ofertat individual'
+      notes: 'O formă dedicată a corpului de apă adaugă 15–20 de zile de dezvoltare a formelor în termenul general; uneltele sunt detaliate pe articole și ofertate o singură dată.'
+
+derisk:
+  tagline: Lansați fără riscuri
+  title: 'Patru moduri în care o comandă de încercare reduce riscul lansării'
+  subtitle: 'Cele mai multe lansări de mărci noi eșuează din cauza stocurilor, nu a calității produsului. O comandă de încercare este concepută astfel încât greșelile evitabile să devină imposibile.'
+  features:
+    - icon: I
+      icon_bg: blue
+      title: 'Fără angajament de stoc greu'
+      desc: 'Expunerea dumneavoastră pentru primul sezon rămâne sub 50 de plăci. Dacă formatul necesită ajustări, le faceți înaintea cheltuielii mari, nu după.'
+    - icon: C
+      icon_bg: green
+      title: 'Flux de numerar gestionabil'
+      desc: 'Comenzi mai mici înseamnă avansuri mai mici, plăți eșalonate și fără capital imobilizat în depozit. Prețurile de volum așteaptă până când sunt efectiv câștigate.'
+    - icon: Q
+      icon_bg: purple
+      title: 'Calitatea nu este niciodată redusă'
+      desc: 'O comandă de încercare de 20 de plăci trece prin aceeași listă de verificare în 100 de puncte și prin aceleași încercări la presiune ca un program de container — fără compromisuri de tip „întâi încercăm, apoi vedem calitatea”.'
+    - icon: G
+      icon_bg: orange
+      title: 'Traseu garantat către scalare'
+      desc: 'Fiecare comandă de încercare are un traseu confirmat către volum: credite păstrate pentru mostră, artwork și listă de materiale blocate, și sloturi de producție rezervate pentru lotul dumneavoastră următor.'
+
+scale_path:
+  tagline: După încercare
+  title: 'Ce urmează după o comandă de încercare reușită'
+  subtitle: 'Comanda de încercare este concepută intenționat ca primul pas al unei relații mai lungi. Acesta este traseul pe care îl convenim înainte de expedierea primei plăci.'
+  steps:
+    - step: 'Faza 1'
+      title: 'Încercare livrată și evaluată'
+      desc: '20–50 de plăci ajung în sezon, iar datele de rotație a stocurilor revin din canalul dumneavoastră — închiriere, retail sau direct.'
+    - step: 'Faza 2'
+      title: 'Feedback și rafinare'
+      desc: 'Variantele de culoare, grafica, ambalajele și combinația de accesorii sunt ajustate pe baza răspunsului real al pieței. Artwork-ul și lista de materiale sunt blocate pentru lotul următor.'
+    - step: 'Faza 3'
+      title: 'Lot de volum (90–100+ plăci)'
+      desc: 'Loturi cu role de 150 m, cu eficiență completă de producție, ambalaje retail de marcă și prețuri de volum — creditele pentru mostră fiind deja aplicate.'
+    - step: 'Faza 4'
+      title: 'Programe la scară de container'
+      desc: 'Programe de 300+ plăci, cu expediții eșalonate, materiale Pantone personalizate și întregul flux de dezvoltare — aceeași fabrică, acum la scară completă.'
+
+trial_faqs:
+  tagline: FAQ
+  title: 'Întrebări frecvente despre lansarea cu o comandă de încercare'
+  items:
+    - q: 'Pot lansa o marcă SUP fără o comandă de container?'
+      a: 'Da. Punctul de intrare este eșalonat: 1–2 mostre validează placa (gata în 7–12 zile), o comandă de încercare de 20–50 de plăci validează piața (producție în 25–35 de zile), iar loturile de volum de 90–100+ plăci urmează doar când rotația stocurilor dovedește formatul. Co-branding-ul în loturi mici începe de la doar 5–10 bucăți, atunci când doriți plăci de marcă fără nicio etapă de dezvoltare.'
+    - q: 'Cât durează o lansare completă, de la un capăt la altul?'
+      a: 'Folosind platformele existente ale corpului de apă, o primă lansare tipică durează 8–12 săptămâni de la fișa de produs la comanda de încercare livrată: mostre în 7–12 zile, producție de încercare în 25–35 de zile după comanda confirmată și avans. Un corp de apă dedicat adaugă 15–20 de zile de dezvoltare a formelor.'
+    - q: 'Ce include prețul — și ce nu include?'
+      a: 'Intervalele de referință sunt EXW Qingdao pentru plăcile în sine, incluzând aplicarea brandingului și controlul standard al calității. Ele sunt orientative: oferta finală este confirmată față de configurația dumneavoastră — corp de apă, PVC, acoperirea graficii, ambalaje și accesorii — înainte de orice angajament. Transportul, taxele vamale și formalitățile de vămuire la destinație se ofertează separat.'
+    - q: 'Trebuie să cumpăr 100 sau 500 de plăci ca să pun logo-ul pe plăci?'
+      a: 'Nu. Co-branding-ul în loturi mici pune logo-ul dumneavoastră pe prăbuie sau pe șinele laterale începând de la doar 5–10 bucăți, iar comenzile de încercare de 20–50 de plăci permit aplicarea integrală a graficii la aceeași calitate ca producția de volum. Ce se schimbă odată cu cantitatea este prețul pe bucată, nu disponibilitatea.'
+    - q: 'Ce se întâmplă dacă vreau să schimb proiectarea după încercare?'
+      a: 'Modificările dintre încercare și volum sunt normale și binevenite — tocmai acesta este rostul încercării. Variantele de culoare, grafica, ambalajele și accesoriile sunt reevaluate ca preț față de noua configurație, apoi blocate cu semnarea artwork-ului și a listei de materiale înaintea lotului de volum. Taxele pentru formele de tipărire în serigrafie sunt scutite la comenzile repetate care folosesc aceeași dimensiune a artwork-ului.'
+    - q: 'Semnăm un NDA înainte să vă partajez proiectările?'
+      a: 'Da. Un Acord de Confidențialitate este disponibil înainte de a partaja specificații tehnice sau artwork confidențial. Noi fabricăm exclusiv sub mărcile clienților și nu concurăm niciodată cu ei pe nicio piață — aceeași politică se aplică unei mostre de 1 placă și unui program de container întreg.'
+
+cta:
+  title: 'Sunteți gata să vă lansați marca SUP?'
+  subtitle: 'Trimiteți-ne modelul de placă vizat, cantitatea pentru primul sezon și ideile de branding. Vom confirma traseul exact de mostră și de încercare, cu costuri detaliate pe articole și un program zi cu zi — fără niciun angajament până la semnare.'
+  actions:
+    - variant: primary
+      text: Începeți lansarea
+      href: /ro/contact#custom-oem
+    - text: Înțelegeți mai întâi MOQ-ul și termenele pentru SUP personalizat
+      href: /ro/sup-oem-moq-lead-time
+    - text: Ghidul de branding flexibil și MOQ
+      href: /ro/oem-moq-guide
+    - text: Verificați fabrica și sistemul de calitate
+      href: /ro/oem-trust-assurance

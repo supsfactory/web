@@ -1,0 +1,102 @@
+meta:
+  title: 'Atelierul de prototipuri SUP — construirea plăcilor de probă'
+  description: 'De la modelul CAD la o placă de probă testată în 7–12 zile. Atelierul nostru de prototipuri construiește, testează și validează mostre SUP personalizate. Începeți astăzi proiectul de prototip.'
+  dateModified: '2026-08'
+back_text: 'Înapoi la Centrul R&D'
+home_label: 'Acasă'
+
+answer:
+  label: 'Răspuns direct'
+  text: 'Transformăm un model CAD într-o placă de probă utilizabilă și testată în 7–12 zile: prototipizare cu elemente gonflabile, teste pe apă în val, iterații la nivelul șinei și al prăbuliei, apoi angajarea uneltelor de producție. Formele complet personalizate necesită 15–20 zile suplimentare de unelte, peste termenul standard de 25–35 zile pentru producția de serie.'
+  verified: 'Septembrie 2026'
+
+hero:
+  tagline: 'Laborator 05'
+  title: 'Atelierul de prototipuri'
+  subtitle: 'De la modelul CAD la o placă de probă testată — construită, echipată și demonstrată'
+  image: 'https://assets.isupfactory.com/images/sups/products/sup-series/sup-ocean-voyager-1.webp'
+  image_alt: 'Fabricarea unei plăci SUP în atelierul de prototipuri Vatrad'
+
+intro: 'Un model CAD, oricât de detaliat ar fi, nu poate releva cum se va simți efectiv o placă până când nu este umflată, urcată și folosită la vâslit. De aceea, atelierul nostru de prototipuri este conceput pentru a transforma datele de inginerie într-o placă fizică, utilizabilă, cât mai rapid și precis. Fiecare model nou {SITE.name} — și fiecare realizare personalizată de anvergură — trece prin acest atelier înainte de a se angaja uneltele de producție.'
+
+content_html: |
+  <h2>Unde proiectarea devine realitate</h2>
+  <p>Atelierul este echipat pentru fabricarea simultană a panourilor, a miezilor drop-stitch și a șinelor. Această abordare cu fluxuri paralele reduce termenul de prototipare la 7–12 zile de la eliberarea de inginerie. Când aplicația dumneavoastră cere o soluție specializată, putem trece de la concept la validare pe apă în mai puțin de trei săptămâni.</p>
+
+  <h2>Capabilitățile atelierului</h2>
+  <table>
+    <thead><tr><th>Post de lucru</th><th>Echipament</th><th>Scop</th></tr></thead>
+    <tbody>
+      <tr><td>Tăierea panourilor</td><td>Mașină CNC de tăiat țesătură, software de nesting, bibliotecă de tipare de panouri</td><td>Tăiere de precizie a panourilor de punte, corp de apă și șină pentru orice dimensiune de placă</td></tr>
+      <tr><td>Asamblarea miezului</td><td>Masă de laminare a miezului drop-stitch, role de aplicare a adezivului</td><td>Lipirea miezului drop-stitch între învelișurile din PVC, cu acoperire uniformă a adezivului</td></tr>
+      <tr><td>Sudarea</td><td>Presă de sudare RF, post de prindere cu aer cald, dispozitiv de test la umflare</td><td>Sudarea cusăturilor asamblărilor de placă la dimensiune completă, cu supape, mânere și cutii de aripioară</td></tr>
+      <tr><td>Montaj și finisare</td><td>Aplicator de suprapuș de punte, masă de laminare a graficii, banc de montaj accesorii</td><td>Echipare completă: suprapușuri de punte, logo-uri, suportul mânerului, inelul de prindere a lesei, cutii de aripioară</td></tr>
+      <tr><td>Sala de măsurători</td><td>Manometre, înregistrator de date, rig pentru măsurarea îndoirii</td><td>Testarea mostrelor: cicluri de umflare, îndoirea punții, măsurarea reținerii aerului</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Parcursul prototipului — pas cu pas</h2>
+  <ol>
+    <li><strong>Predarea de către inginerie</strong> — Pachetul de proiectare (model 3D, raport FEA, listă de materiale, plan de așezare a panourilor) este analizat formal de șeful atelierului și de inginerul de proiect. Orice observație legată de realizabilitate este semnalată și rezolvată înainte de începerea tăierii.</li>
+    <li><strong>Producția panourilor</strong> — Placa este construită conform specificației de inginerie. Panourile sunt tăiate pe CNC, miezul drop-stitch este laminat între învelișurile din PVC, iar puntea și corpul de apă sunt asamblate cu stiva de materiale aprobată.</li>
+    <li><strong>Sudarea</strong> — Panourile sunt sudate prin RF în forma completă a plăcii. Camera este umflată la presiunea de test și menținută 24 h pentru stabilizare inițială.</li>
+    <li><strong>Asamblare și finisare</strong> — Se montează suprapușul de punte, grafica, mânerul, inelul pentru leasă și cutiile de aripioară. Toate componentele sunt instalate și verificate față de specificație.</li>
+    <li><strong>Teste statice</strong> — Înainte ca placa să atingă apa, ea parcurge: cicluri de umflare, test de menținere a aerului, măsurarea îndoirii punții la presiunea nominală și verificări de strângere a accesoriilor.</li>
+    <li><strong>Programul de teste pe apă</strong> — 10 ore de testare în apă, detaliate mai jos.</li>
+    <li><strong>Analiza prototipului</strong> — Se organizează o ședină formală de validare cu echipele de inginerie, producție și calitate. Orice modificare de proiectare necesară este documentată și încorporată în versiunea destinată producției.</li>
+  </ol>
+
+  <div class="not-prose my-10 p-6 rounded-xl bg-gray-50 dark:bg-gray-900 border border-gray-200 dark:border-gray-800">
+    <p class="text-sm font-semibold text-gray-500 mb-3 uppercase tracking-wider">Program de testare pe apă de 10 ore — planul testelor</p>
+    <div class="space-y-2 text-sm">
+      <div class="flex items-center gap-3 p-2 rounded bg-white dark:bg-gray-950">
+        <span class="w-12 text-xs font-bold text-blue-600">1 h</span>
+        <span class="flex-1">Verificarea stabilității — echilibrul în picioare în repaus, toleranța la încărcare laterală</span>
+      </div>
+      <div class="flex items-center gap-3 p-2 rounded bg-white dark:bg-gray-950">
+        <span class="w-12 text-xs font-bold text-blue-600">2 h</span>
+        <span class="flex-1">Probă de vâslit — glisare, menținerea direcției și viraje la 3 viteze; confortul în timpul loviturilor de vâslă</span>
+      </div>
+      <div class="flex items-center gap-3 p-2 rounded bg-white dark:bg-gray-950">
+        <span class="w-12 text-xs font-bold text-blue-600">2 h</span>
+        <span class="flex-1">Test de sarcină — stabilitate și îndoire pentru sportivi de 60 / 80 / 100 / 120 kg</span>
+      </div>
+      <div class="flex items-center gap-3 p-2 rounded bg-white dark:bg-gray-950">
+        <span class="w-12 text-xs font-bold text-blue-600">2 h</span>
+        <span class="flex-1">Test în val — trasee repetate printr-un val de urmă de ambarcatiune; stropirea prăbuliei, îndoirea șinei</span>
+      </div>
+      <div class="flex items-center gap-3 p-2 rounded bg-white dark:bg-gray-950">
+        <span class="w-12 text-xs font-bold text-blue-600">2 h</span>
+        <span class="flex-1">Parcurgere de anduranță — vâslire continuă cu verificări periodice ale presiunii; înregistrarea reținerii aerului</span>
+      </div>
+      <div class="flex items-center gap-3 p-2 rounded bg-white dark:bg-gray-950">
+        <span class="w-12 text-xs font-bold text-blue-600">1 h</span>
+        <span class="flex-1">Inspecție finală — verificarea cusăturilor, accesoriilor și graficii după probă; documentarea constatărilor</span>
+      </div>
+    </div>
+  </div>
+
+  <h2>Prototipizare personalizată pentru aplicații unice</h2>
+  <p>Atelierul de prototipuri este locul în care rezolvăm problemele pe care plăcile de producție standard nu le pot soluționa. Exemple recente includ:</p>
+  <ul>
+    <li>O placă touring de 14'' pentru o marcă europeană de vâslit de anduranță, cu punte de încărcare încastrată și prăbuie ranforsată — prototipată, echipată și testată în instalația noastră.</li>
+    <li>O placă de yoga de 10'6'' cu punte de tracțiune pe întreaga lungime și grosime suplimentară pentru rigiditate, validată pe parcursul unei perioade de închiriere de 4 săptămâni.</li>
+    <li>O placă de flotă cu marcă proprie, cu grafică personalizată pe punte și mânere duble, prototipul fiind folosit pentru a valida culoarea, poziția logo-ului și ambalajul înainte ca clientul să se angajeze la un container.</li>
+  </ul>
+
+  <h2>Echipa noastră de prototipizare</h2>
+  <p>Atelierul este format din opt tehnicieni de producție cu competențe multiple, fiecare fiind instruit în cel puțin două dintre cele trei discipline de bază (tăiere, sudură, montaj). Șeful de echipă este un meșter cu 16 ani de experiență, de la realizări unice personalizate până la serii de producție. Fiecare prototip primește un inginer de proiect dedicat, care reprezintă punctul unic de contact cu clientul pe tot parcursul procesului de construcție și testare.</p>
+
+  <h2>Implicarea clientului</h2>
+  <p>Încurajăm activ clienții să participe la etapele importante ale construirii prototipului — în special la analiza echipării inițiale și la testul pe apă. Feedbackul dumneavoastră operațional din aceste etape este deosebit de valoros pentru ajustarea plăcii înainte de intrarea în producție. Nu construim în izolare; construim în parteneriat cu dumneavoastră.</p>
+  <p>Programul de teste pe apă este, de asemenea, o ocazie ca echipa dumneavoastră să se familiarizeze cu manevrarea plăcii și cu cerințele de întreținere, asigurând o tranziție lină către producție la livrarea plăcilor finale.</p>
+
+cta:
+  title: 'Începeți proiectul de prototip'
+  subtitle: 'Spuneți-ne ce placă aveți nevoie și vă vom propune un plan de dezvoltare a prototipului.'
+  actions:
+    - variant: primary
+      text: Contactați echipa noastră de prototipizare
+      href: /ro/contact#project-brief
+    - text: Înapoi la Centrul R&D
+      href: /ro/randdcenter

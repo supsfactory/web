@@ -1,0 +1,45 @@
+meta:
+  title: 'Tehnologie — drop stitch și PVC marin | {SITE}'
+  description: 'Tehnologiile Vatrad: construcția drop stitch, PVC marin, construcții cu două straturi și înaltă presiune. Inovație dintr-o fabrică profesională de plăci SUP gonflabile.'
+  dateModified: '2026-08'
+  keywords:
+    - 'tehnologie sup'
+    - 'construcție drop stitch'
+    - 'sup de înaltă presiune'
+    - 'materiale sup gonflabil'
+hero:
+  tagline: Tehnologie
+  title: Proiectat pentru performanță
+  subtitle: Fiecare plăci SUP gonflabilă Vatrad este proiectată cu construcție drop stitch și PVC de calitate marină — materiale și metode de producție de precizie, testate pentru medii marine solicitante.
+
+sections:
+  - title: Miez drop-stitch
+    description: Mii de fire interioare de poliester leagă straturile superioare și inferioare, creând o structură rigidă la 12-15 PSI. Este aceeași tehnologie folosită la plăcile profesionale de vâslă și la plăcile SUP de curse gonflabile.
+    imageAlt: 'Diagramă miez drop-stitch'
+  - title: PVC de calitate marină
+    description: Material din PVC laminat în mai multe straturi, certificat pentru medii marine. Fiecare strat este sudat prin fuziune, nu lipit, eliminând riscul de delaminare. Testat pentru rezistență la UV, coroziune în apă sărată și abraziune.
+    imageAlt: 'Strat PVC'
+  - title: PVC de calitate militară
+    description: Folosit pe toate modelele SUP, PVC-ul premium oferă o rezistență superioară la UV și la substanțe chimice. Își păstrează flexibilitatea la temperaturi extreme și rezistă degradării.
+    imageAlt: 'PVC'
+  - title: Punte Air Deck
+    description: Construcție gonflabilă drop-stitch de înaltă presiune, care oferă o rigiditate remarcabilă pentru statul în picioare, pescuit și yoga. Reduce timpul de montare, greutatea totală și volumul de depozitare.
+    imageAlt: 'Air Deck'
+
+related:
+  title: 'Mai multe informații'
+  links:
+    - text: 'Centrul R&D'
+      url: /ro/randdcenter
+    - text: 'Încercări de calitate'
+      url: /ro/quality
+    - text: 'Standarde de siguranță'
+      url: /ro/quality
+    - text: 'Garanție'
+      url: /ro/warranty
+    - text: 'Turism și recreere'
+      url: /ro/tourism-recreation
+    - text: 'Ghiduri'
+      url: /ro/knowledge
+    - text: 'Produse'
+      url: /ro/products

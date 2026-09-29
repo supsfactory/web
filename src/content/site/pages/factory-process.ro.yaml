@@ -1,0 +1,109 @@
+meta:
+  title: 'Procesul de producție — De la materia primă la SUP'
+  description: 'De la materia primă la SUP gata de utilizare pe mare: fiecare etapă a procesului de producție VATRAD se află sub controlul nostru, de la tăiere și sudare până la testare.'
+  dateModified: '2026-08'
+  keywords:
+    - 'proces de producție sup'
+    - 'fabrică de sup gonflabile'
+    - 'etape de producție plăci de paddle'
+    - 'sudare pvc sup'
+hero:
+  tagline: Proces
+  title: Procesul de producție
+  subtitle: De la materia primă la SUP gata pentru mare — fiecare etapă sub controlul nostru
+  back_label: Înapoi la fabrică
+  back_link: /ro/factory
+
+answer:
+  label: 'Răspuns direct'
+  text: 'Plăcile parcurg cinci etape controlate: inspecția materialelor (1–2 zile), tăierea automată CNC (deșeu sub 5%, 2–4 ore pe kit), etanșarea termică a tuburilor cu cusături ranforsate cu RF (1–2 zile pe placă), lipirea miezului drop-stitch și asamblarea finală, urmate de testare la 100% pentru etanșeitate la aer și încărcare înainte de ambalare.'
+  verified: 'Septembrie 2026'
+
+intro: Spre deosebire de mărcile care externalizează producția către fabrici terțe, VATRAD deține și operează întregul lanț de producție. Această integrare verticală ne permite să menținem un control strict al calității la fiecare etapă, să răspundem rapid cerințelor personalizate și să livrăm o calitate constantă a produsului, lot după lot. Iată cum se construiește o placă SUP în instalația noastră.
+
+steps:
+  - step: '01'
+    title: Recepția și inspecția materialelor
+    description: Fiecare lot primit de țesătură PVC, mat de fibră de sticlă, rășină și componente hardware este inspectat conform specificațiilor. Mostrele de țesătură sunt testate privind rezistența la tracțiune, uniformitatea grosimii și rezistența la radiații UV înainte de eliberare către producție. Materialele neconforme sunt puse în carantină și returnate.
+    duration: 1–2 zile
+  - step: '02'
+    title: Tăiere automată a PVC-ului
+    description: <p>Țesăturile aprobate sunt așezate pe mașina automată de tăiere CNC și tăiate cu o precizie sub milimetru. Așezarea optimizată de calculator dispune panourile astfel încât să minimizeze deșeul — de regulă sub 5%. Panourile tăiate sunt etichetate după modelul SUP și cameră, apoi legate în pachete pentru transfer în atelierul de sudare.</p>
+    duration: 2–4 ore pe kit de placă
+  - step: '03'
+    title: Etanșarea termică și sudarea tuburilor
+    description: Panourile sunt prinse provizoriu și lipite cu ajutorul mașinilor de etanșare termică, cu sudare cu aer cald la temperaturi controlate de 200–300 °C. Cusăturile principale sunt ranforsate prin sudare dielectrică RF, pentru îmbinări etanșe și de rezistență ridicată. Camerele finalizate sunt umflate la 18.0 PSI pentru verificarea inițială a etanșeității, înainte de testul de menținere pe 24 de ore.
+    duration: 1–2 zile pe placă SUP
+  - step: '04'
+    title: Lipirea miezului drop-stitch
+    description: Miezurile drop-stitch ale plăcilor SUP sunt lipite de peliculele exterioare din PVC prin laminare termică. Mii de fire interioare de poliester leagă stratul superior de cel inferior, creând o structură rigidă la 12-15 PSI. Benzile de pe margini sunt lipite prin fuziune în trei straturi, pentru rezistență la nivelul marginilor.
+    duration: 1–2 zile pe placă
+  - step: '05'
+    title: Tipărirea și decorarea plăcilor SUP
+    description: Grafica de pe deck-ul plăcilor SUP este aplicată prin tipărire digitală pentru modele full-color de calitate foto și prin serigrafie pentru logo-uri durabile și modele repetitive. Tipăririle sunt polimerizate și sigilate pentru rezistență la radiații UV și abraziune.
+    duration: 1–2 zile
+  - step: '06'
+    title: Asamblarea finală și montajul
+    description: Supapele, inelele în D, mânerele, cutiile pentru aripioare și padecile de deck sunt montate pe linia de asamblare. Fiecare placă urmează o listă de verificare de asamblare cu 100 de puncte, cu semnătură obligatorie la fiecare etapă.
+    duration: 1–2 zile
+  - step: '07'
+    title: Testarea și inspecția calității
+    description: 'Fiecare placă finalizată trece prin punctul obligatoriu de control al calității: testul de etanșeitate la aer al camerelor, verificarea funcționării componentelor hardware, controlul cuplului de strângere al elementelor de fixare și inspecția cosmetică. Exemplele construite la comandă și prototipurile primesc suplimentar teste în apă, care acoperă stabilitatea și manevrabilitatea.'
+    duration: 1–2 zile
+  - step: '08'
+    title: Ambalare și expediție
+    description: Plăcile sunt dezumflate, pliate conform procedurii, împachetate în saci țesuți rezistenți sau în cutii retail și încărcate pentru expediție. Fiecare pachet este etichetat cu modelul, numărul de serie și destinația. Coordonăm cu agenții de transport maritim expediții de containere FCL și LCL către întreaga lume.
+    duration: 1 zi
+
+evidence_gates:
+  tagline: Dovezi de inspecție
+  title: 'Fiecare etapă lasă o înregistrare — fotografii și rapoarte'
+  subtitle: 'Mai jos găsiți fotografiile reale de inspecție și dosarele de rapoarte de încercare provenite de la cele șapte puncte de control al calității pe care le controlăm. Fiecare PDF este o înregistrare bilingvă reală, pe care o puteți descărca și audita — aceleași înregistrări care susțin fiecare lot din arhiva de trasabilitate ERP pe 10 ani. Consultați fluxul complet în 7 etape la /ro/quality.'
+  items:
+    - title: 'PPM — Planificarea calității proiectului'
+      description: 'Ședința de pregătire a producției fixează domeniul de lucru, mostra de referință și Planul de inspecție a calității înainte de pornirea liniei. Elementele nerezolvate blochează eliberarea pentru producție.'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_SUP_OEM_QIP.pdf
+      link_label: 'Descărcați QIP (PDF)'
+      image: https://assets.isupfactory.com/site/quality/node01-ppm.avif
+      alt: Ședință de pregătire a producției care analizează mostra de referință și planul de inspecție a calității pentru o comandă OEM de SUP
+    - title: 'IQC — Inspecția materialelor la intrare'
+      description: 'Fiecare lot primit de PVC, țesătură și componente hardware este verificat față de specificațiile aprobate. Loturile neconforme sunt puse în carantină și respinse înainte de eliberarea către linie.'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_IQC_TEST_REPORTS.pdf
+      link_label: 'Descărcați rapoartele IQC (PDF)'
+      image: https://assets.isupfactory.com/site/quality/node02-iqc.avif
+      alt: Inspecția materialelor la intrare, a țesăturii PVC și a componentelor SUP, în fabrică
+    - title: 'IPQC / FAI — Control în curs de proces'
+      description: 'Primul articol este verificat față de reperele blocate, iar fiecare turță păstrează verificări de patrulare pe linie. Aprobarea FAI blochează prin versiune grafica, dimensiunile și lista de materiale.'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_IPQC_TEST_REPORTS.pdf
+      link_label: 'Descărcați rapoartele IPQC (PDF)'
+      image: https://assets.isupfactory.com/site/quality/node03-ipqc-fai.avif
+      alt: Inspecție în curs de proces și verificare a primului articol în timpul producției de SUP
+    - title: 'Umflare și testare a etanșeității la aer'
+      description: '100% dintre plăcile finalizate — nu doar mostrele — sunt supuse unui test de menținere a presiunii pe 24 de ore la 18.0 PSI, cu respingere automată la o scădere de peste 0.50 PSI. O înregistrare pentru fiecare cameră.'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_AIRTIGHTNESS_TEST_REPORTS.pdf
+      link_label: 'Descărcați rapoartele de etanșeitate (PDF)'
+      image: https://assets.isupfactory.com/site/quality/node04-airtightness.avif
+      alt: Umflarea și testarea etanșeității la aer a unei camere SUP gonflabile
+    - title: 'FQC — Inspecția produsului finit'
+      description: 'Plăcile finalizate sunt măsurate față de toleranțele desenelor și clasificate cosmetic, lămpi cu lumină de zi D65, în raport cu mostra de referință aprobată.'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_FQC_TEST_REPORTS.pdf
+      link_label: 'Descărcați rapoartele FQC (PDF)'
+      image: https://assets.isupfactory.com/site/quality/node05-fqc.avif
+      alt: Inspecția produsului finit a plăcilor SUP finalizate, înainte de ambalare
+    - title: 'PSI — Inspecția ambalajului și înainte de expediție'
+      description: 'Kitul ambalat este verificat 100% față de lista de materiale aprobată de client — scanare de cod de barej (Grad ≥ B), marcaje pe cutii și încercare de cădere ISTA-1A înainte de încărcare.'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_PSI_TEST_REPORTS.pdf
+      link_label: 'Descărcați rapoartele PSI (PDF)'
+      image: https://assets.isupfactory.com/site/quality/node06-psi.avif
+      alt: Inspecție înainte de expediție, cu verificarea kitului SUP ambalat față de lista de materiale
+    - title: 'Eliberarea expediției și trasabilitatea'
+      description: 'Calitatea semnează lotul numai atunci când toate cele șase puncte de control anterioare sunt închise. Numerele de serie sunt asociate lotului, iar dosarul este predat împreună cu expediția.'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_SHIPMENT_RELEASE_REPORTS.pdf
+      link_label: 'Descărcați rapoartele de eliberare (PDF)'
+      image: https://assets.isupfactory.com/site/quality/node07-shipment-release.avif
+      alt: Semnarea eliberării expediției și predarea înregistrării de trasabilitate a lotului
+cta:
+  title: Vedeți echipamentele și utilajele noastre
+  desc: Explorați echipamentele de nivel industrial aflate la baza fiecărei plăci SUP produse de VATRAD.
+  label: Vezi echipamentele →
+  link: /ro/factory/equipment

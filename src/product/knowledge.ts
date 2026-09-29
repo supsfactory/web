@@ -1879,6 +1879,130 @@ export const knowledge: Localized<KnowledgeArticle[]> = {
       ],
     },
   ],
+  ro: [
+    {
+      slug: 'how-custom-sup-boards-are-developed',
+      navLabel: 'Cum sunt dezvoltate plăcile SUP personalizate',
+      metaTitle: 'Cum sunt dezvoltate plăcile SUP personalizate | iSupfactory',
+      metaDescription:
+        'Cum ajunge un SUP personalizat de la idee la fabrică: specificații, design, prototip, mostre și producție — explicat pas cu pas.',
+      kicker: 'Centru de cunoștințe',
+      h1: 'Cum sunt dezvoltate plăcile SUP personalizate',
+      intro:
+        'Înainte ca o placă de vâslit personalizată să ajungă la clienții dumneavoastră, ea parcurge un traseu de dezvoltare bine definit. Cunoașterea fiecărei etape vă permite să comunicați cerințele corect către fabrică, să stabiliți termene realiste și să evitați greșelile tipice ale primilor cumpărători.',
+      sections: [
+        {
+          title: 'Pasul 1: definiți cerința',
+          body: [
+            'Fiecare proiect de dezvoltare începe cu cazul de utilizare: cine folosește placa, unde și cât de des. O placă pentru o flotă de închiriere diferă de o placă pentru lansarea unei mărci sau de o placă școlară — stabilitatea, durabilitatea și obiectivele de cost se schimbă în funcție de răspuns.',
+            'Notați cantitatea, prețul țintă și caracteristicile obligatorii înainte de a contacta o fabrică. Cerințele clare produc oferte mai bune la prima rundă și mai puține discuții de clarificare.',
+          ],
+        },
+        {
+          title: 'Pasul 2: fixați specificațiile',
+          body: [
+            'Specificațiile transformă cerința în valori măsurabile: lungime, lățime, grosime, volum, materiale (densitatea țesăturii drop-stitch, greutatea materialului), configurația aripioarelor, limita de greutate și ambalajul.',
+            'Acesta este documentul pe baza căruia ambele părți stabilesc prețul. Modificările făcute mai târziu în proces sunt mai lente și mai scumpe — o specificație fixată este cel mai ieftin element pe care îl puteți controla.',
+          ],
+        },
+        {
+          title: 'Pasul 3: design și grafică',
+          body: [
+            'După fixarea specificațiilor începe munca de design: ajustări de formă, scheme de culori, poziționarea logo-ului, grafica pe suprafața antislip și potrivirea accesoriilor (coardă de siguranță, vâslă, aripioară, husă).',
+            'Producătorii pot realiza machete digitale pentru a aproba aspectul înainte de fabricarea unei mostre fizice — mai ieftin și mai rapid decât iterațiile realizate pe produsul fizic.',
+          ],
+        },
+        {
+          title: 'Pasul 4: prototip și mostră',
+          body: [
+            'Mostra este prima dovadă fizică. Pentru plăcile umflabile, aceasta înseamnă o placă realizată manual sau dintr-o producție pilot, pe care o puteți folosi și testa față de specificații.',
+            'Testați mostra așa cum ar face utilizatorul final: stabilitate, rigiditate, direcționare, greutate și rezistența graficii. O rundă de testare amănunțită a mostrei identifică, de regulă, majoritatea problemelor înainte de producție.',
+          ],
+        },
+        {
+          title: 'Pasul 5: producție și livrare',
+          body: [
+            'După aprobarea mostrei, producția se desfășoară în loturi, cu puncte de control al calității. Inspecția în fabrică înainte de expediție — fotografii, înregistrări video sau inspecție realizată de o terță parte — protejează lotul pe care îl primiți.',
+            'Un calendar de proiect bine construit se calculează înapoi de la data lansării dumneavoastră, nu înainte de la data comenzii.',
+          ],
+        },
+      ],
+    },
+    {
+      slug: 'inflatable-sup-construction-explained',
+      navLabel: 'Construcția SUP-urilor umflabile, explicată',
+      metaTitle: 'Construcția SUP-urilor umflabile: materiale și straturi | iSupfactory',
+      metaDescription:
+        'Din ce este alcătuit un SUP umflabil — straturi de PVC, țesătură drop-stitch, margini și indicatori de calitate — pentru a specifica mai bine plăci în proiectul dumneavoastră.',
+      kicker: 'Centru de cunoștințe',
+      h1: 'Construcția SUP-urilor umflabile, explicată',
+      intro:
+        'Majoritatea proiectelor SUP personalizate de astăzi sunt plăci umflabile. Acestea sunt mai ușoare, mai ușor de depozitat și de transportat și mai iertătoare pentru începători. Acest ghid explică construcția, pentru a putea specifica calitatea cu încredere.',
+      sections: [
+        {
+          title: 'Nucleul: țesătura drop-stitch',
+          body: [
+            'O placă umflabilă este construită în jurul unei țesături drop-stitch: mii de fire de poliester leagă stratul superior de PVC de cel inferior. Când este umflată, aceste fire mențin placa la o grosime fixă — acesta este elementul care îi conferă unui iSUP forma și rigiditatea.',
+            'O densitate mai mare a firelor (cusături pe inch pătrat) înseamnă o placă mai fermă și mai stabilă la aceeași presiune. Plăcile economice folosesc densități mai mici; plăcile premium, densități mai mari.',
+          ],
+        },
+        {
+          title: 'Straturile de PVC și marginile',
+          body: [
+            'Țesătura este încapsulată între straturi de PVC, care o protejează de abraziune, de radiațiile UV și de impacturi. Un PVC mai gros (mai mulți mili sau mm) rezistă mai bine la perforări, dar adaugă greutate.',
+            'Marginile — bordurile plăcii — absorb cele mai multe impacturi în utilizarea de zi cu zi. O construcție a marginilor în două sau trei straturi este un indicator puternic al durabilității și al adecvării pentru închiriere.',
+          ],
+        },
+        {
+          title: 'Ce adaugă greutate și ce adaugă rezistență',
+          body: [
+            'Greutatea este un compromis: un PVC mai gros adaugă durabilitate și greutate; structurile mai ușoare sunt potrivite pentru practicanți care își transportă plăcile pe distanțe lungi. Aceasta este una dintre cele mai clare modalități prin care o specificație personalizată este adaptată realității cumpărătorului.',
+            'Indicatori de calitate pe care să îi cereți: presiunea nominală de umflare, construcția sudurilor, tipul supapei și densitatea drop-stitch. Fabricile serioase publică aceste valori.',
+          ],
+        },
+      ],
+    },
+    {
+      slug: 'how-organizations-choose-sup-equipment',
+      navLabel: 'Cum aleg organizațiile echipamentul SUP',
+      metaTitle: 'Cum aleg resorturile, cluburile și școlile echipamentul SUP',
+      metaDescription:
+        'Cum aleg resorturile, cluburile și școlile echipamentul SUP: dimensionarea flotei, tipurile de plăci, durabilitatea, depozitarea și bugetarea unui program de durată.',
+      kicker: 'Centru de cunoștințe',
+      h1: 'Cum aleg organizațiile echipamentul SUP',
+      intro:
+        'Resorturile, cluburile și școlile cumpără altfel decât mărcile de consum: echipamentul trebuie să reziste utilizării zilnice, să deservească niveluri mixte de pregătire și să se încadreze în bugetul unui program. Acest cadru acoperă deciziile care contează.',
+      sections: [
+        {
+          title: 'Dimensionați flota în funcție de utilizare',
+          body: [
+            'Numărați câți practicanți vor fi simultan pe apă, nu câți oaspeți aveți. Un resort care închiriază pe rând are nevoie de mai puține plăci decât o școală care organizează ore simultane — și de mai multe rezerve.',
+            'O regulă practică: o placă pentru fiecare practicant simultan, plus o capacitate de rezervă de 10–15% pentru mentenanță și creștere.',
+          ],
+        },
+        {
+          title: 'Potriviți tipurile de plăci cu nivelurile de pregătire',
+          body: [
+            'Începătorii beneficiază de plăci mai late și cu volum mai mare, care par stabile; practicanții cu experiență preferă plăci mai înguste, care vâslesc mai repede. O flotă mixtă — predominant potrivită începătorilor, cu câteva plăci de performanță — deservește majoritatea programelor.',
+            'Plăcile multipersoane își au locul în școli și în experiențele de grup: permit instruire de către instructori și pot înlocui mai multe plăci individuale în rotațiile dintre ore.',
+          ],
+        },
+        {
+          title: 'Durabilitatea este o decizie de buget',
+          body: [
+            'O construcție de grad de închiriere costă mai mult la început și economisește bani pe parcursul a două-trei sezoane. Întrebați despre întărirea marginilor, grosimea PVC-ului și garanția oferită de fabrică pentru comenzile de flotă.',
+            'Planificați atât depozitarea, cât și umflarea: compresoarele, rastelele și rutine de ambalare determină volumul de muncă zilnică al programului. Furnizorii orientați spre flote includ toate acestea în pachet.',
+          ],
+        },
+        {
+          title: 'Planificați programul, nu doar comanda',
+          body: [
+            'Cele mai bune comenzi de echipament fac parte dintr-un plan de program: formarea instructorilor, rutine de mentenanță și un ciclu de înlocuire pentru plăcile uzate. Organizațiile care planifică programul își reînnoiesc echipamentul conform graficului; celelalte cumpără înlocuiri de urgență la preț de piață.',
+          ],
+        },
+      ],
+    },
+  ],
 }
 
 export function getArticle(locale: Locale, slug: string): KnowledgeArticle | undefined {
@@ -1981,5 +2105,11 @@ export const knowledgeMeta: Localized<KnowledgeMeta> = {
     metaDescription:
       'Özel SUP ürün geliştirme, şişirilebilir tahta yapısı ve resortlar, kulüpler ile okullar için SUP ekipmanı seçimi hakkında pratik rehberler.',
     h1: 'Bilgi Merkezi — Ürün Geliştirme, Anlatıldı',
+  },
+  ro: {
+    metaTitle: 'Centru de cunoștințe: ghiduri pentru dezvoltarea produselor SUP | iSupfactory',
+    metaDescription:
+      'Ghiduri practice despre dezvoltarea produselor SUP personalizate, construcția plăcilor umflabile și alegerea echipamentului SUP pentru resorturi, cluburi și școli.',
+    h1: 'Centru de cunoștințe — dezvoltarea produselor, explicată',
   },
 }

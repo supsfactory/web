@@ -1,0 +1,135 @@
+meta:
+  title: 'Distribuție en-gros și private label direct de la fabrică pentru distribuitori | {SITE}'
+  description: 'Programe de private label și distribuție en-gros direct de la fabrică pentru distribuitori și retaileri: teritorii exclusive, producție white-label de plăci SUP și management dedicat al contului.'
+  dateModified: '2026-09'
+
+hero:
+  tagline: Distribitori și private label
+  title: 'Programe direct de la fabrică pentru distribuitori și mărci'
+  subtitle: 'Programe en-gros și private label dintr-o facilitate de producție de plăci SUP gonflabile. Cumpărați la prețuri direct de la fabrică, construiți gama sub marca dumneavoastră și expediați către teritorii exclusive din peste 50 de țări.'
+  image:
+    src: https://assets.isupfactory.com/images/sups/factory/isupfactory-factory-building.webp
+    alt: Operațiuni de producție și expediție iSupfactory
+
+answer:
+  label: 'Răspuns direct'
+  text: 'Distribuitorii și mărcile lucrează direct cu fabrica: plăci SUP white-label produse sub marca dumneavoastră, prețuri en-gros direct de la fabrică, teritoriu exclusiv pentru fiecare program, 3–8 SKU-uri pentru pornire și termene de plată de 45–60 de zile (toate sub rezerva unui acord comercial), cu 100% din stoc testat la presiune înainte de expediție. Volumele minime de pornire și condițiile de transport se stabilesc de comun acord pentru fiecare teritoriu, cu livrare FOB Qingdao sau CIF.'
+  verified: 'Septembrie 2026'
+
+intro:
+  tagline: Despre program
+  title: 'Distribuție private label, construită pe capacitate de producție'
+  body: |
+    iSupfactory proiectează, construiește și verifică din punct de vedere calitativ fiecare placă SUP, kayak și accesoriu gonflabil în propria facilitate din Laixi, Qingdao. Un acord de private label cu noi înseamnă că sursa de aprovizionare este integrată în marca dumneavoastră: primiți plăci produse de fabrică sub numele dumneavoastră, nu stoc revândut de la alt distribuitor.
+
+    Deoarece planificăm producția în jurul previziunilor clienților noștri, putem programa serii mari pentru începutul sezonului din emisfera nordică, stabiliza costurile de transport prin comenzi anticipate și elibera capital de lucru prin condiții en-gros transparente și termene de plată agreate. Ingineria, mostrele, controlul calității și documentația de export sunt realizate integral intern — în lanț nu există niciun broker sau intermediar de comerț.
+
+    Acest program este una dintre cele două modalități de a lucra cu fabrica. Dacă aveți o marcă en-gros proprie și doriți să fie produsă pentru dumneavoastră, această pagină este pentru dumneavoastră. Stațiunile turistice, școlile de pregătire și flotele de închiriere care achiziționează direct pentru propriul consum ar trebui să consulte programele de producție OEM/ODM și de flotă.
+
+wholesale_pricing:
+  tagline: De ce să participați
+  title: 'Ce primesc distribuitorii'
+  subtitle: 'Tot ce aveți nevoie pentru a lansa o gamă de marcă pe piața dumneavoastră.'
+  intro: 'Partenerii de distribuție primesc aceeași calitate de fabrică și aceeași adâncime inginerească pe care le oferim mărcilor OEM/ODM, ambalate pentru canalul en-gros sub eticheta lor proprie. Termenii programului — exclusivitatea teritoriului, gama inițială de SKU-uri și condițiile de plată — sunt confirmați pentru fiecare program în acordul comercial.'
+  stats:
+    - value: '50+'
+      label: 'Țări în care livrăm'
+    - value: '1'
+      label: 'Manager de cont dedicat'
+    - value: '45–60'
+      label: 'Zile de termen de plată'
+    - value: '120,000+'
+      label: 'Plăci de capacitate anuală'
+    - value: '3–8'
+      label: 'SKU-uri pentru pornirea unui program'
+    - value: '100%'
+      label: 'Verificate în fabrică înainte de expediție'
+
+steps:
+  tagline: Cum funcționează
+  title: 'Drumul de la aplicație la primul container'
+  subtitle: 'Un proces clar, în mai multe etape, astfel încât programul dumneavoastră de marcă să fie expediat la timp în primul sezon.'
+  steps:
+    - step: 1
+      title: 'Trimiteți aplicația'
+      desc: 'Trimiteți cererea de distribuitor împreună cu profilul companiei, cifra de afaceri en-gros existentă și teritoriul.'
+    - step: 2
+      title: 'Cartografierea teritoriului'
+      desc: 'Confirmăm ce țări sau regiuni va acoperi programul de marcă al dumneavoastră și dacă teritoriul este exclusiv.'
+    - step: 3
+      title: 'Plan de gamă și branding'
+      desc: 'Alegeți modelele de bază din catalogul de producție, îngheațați specificațiile și finalizați grafica de marcă pentru producție.'
+    - step: 4
+      title: 'Mostră și aprobare a calității'
+      desc: 'Comandați mostre de certificare pentru a testa calitatea, ambalarea și manipularea în flux drop-ship. Mostrele sunt aprobate înainte de începerea producției de masă.'
+    - step: 5
+      title: 'Reaprovizionare sezonieră'
+      desc: 'Managerul dumneavoastră de cont programează producția și reaprovizionarea în funcție de previziuni și de calendarul sezonului.'
+
+benefits:
+  title: Ce primesc distribuitorii
+  subtitle: 'Tot ce aveți nevoie pentru a reuși pe piața dumneavoastră.'
+  items:
+    - 'Private label sub marca dumneavoastră (OEM white-label)'
+    - 'Drepturi exclusive pe teritoriu (conform acordului comercial)'
+    - 'Catalog de producție: SUP, accesorii, piese de schimb'
+    - 'Prețuri competitive direct de la fabrică'
+    - 'Materiale de marketing și vânzări (traduse)'
+    - 'Program de instruire (produs, vânzări, mentenanță)'
+    - 'Sprijin pentru târguri comerciale'
+    - 'Program de aprobare a mostrelor și a preproduției'
+    - 'Capabilitate drop-ship'
+    - 'Manager de cont dedicat pentru distribuitori'
+    - 'Termene de plată de 45-60 de zile (sub rezerva acordului comercial)'
+
+coverage:
+  title: Distribuția actuală
+  subtitle: 'iSupfactory livrează în prezent direct către aceste piețe.'
+  regions:
+    - name: Europa
+      countries: 'Franța, Germania, Marea Britanie, Spania, Italia, Țările de Jos, Suedia, Norvegia, Polonia, Grecia'
+    - name: Asia
+      countries: 'Japonia, Coreea de Sud, China, Thailanda, Singapore'
+    - name: Orientul Mijlociu
+      countries: 'EAU, Arabia Saudită'
+    - name: Americile
+      countries: 'SUA, Canada, Brazilia, Mexic'
+    - name: Oceania
+      countries: 'Australia, Noua Zelelendă'
+    - name: Africa
+      countries: 'Africa de Sud, Maroc'
+
+faqs:
+  tagline: Întrebări frecvente pentru distribuitori
+  title: 'Programul de distribuție en-gros — întrebări frecvente'
+  items:
+    - q: 'Care este comanda minimă pentru un distribuitor nou?'
+      a: 'Partenerii noi de distribuție pornesc, de regulă, cu o comandă de mostre și de aprobare a preproduției, urmată de un prim container programat pentru sezonul lor. Minimele exacte depind de dimensiunea teritoriului și de gama aleasă; managerul dumneavoastră de cont confirmă volumul de pornire în etapa de planificare a gamei și a brandingului.'
+    - q: 'Putem vinde plăcile sub marca noastră proprie?'
+      a: 'Da. Private label este modelul standard aici: plăcile sunt produse sub marca dumneavoastră, cu grafica, ambalajul și specificațiile dumneavoastră. iSupfactory produce exclusiv pentru clienții săi și nu concurează cu ei pe nicio piață.'
+    - q: 'Teritoriile sunt exclusive?'
+      a: 'Da. Programele de distribuitor se bazează pe teritorii exclusive — fiecare partener en-gros acoperă o țară sau o regiune definită și beneficiază de prețuri și de suport de program pentru acea piață, conform prevederilor acordului comercial.'
+    - q: 'Oferiți suport pentru livrări drop-ship?'
+      a: 'Capabilitatea drop-ship este inclusă în program. Mostrele, ambalajul și manipularea sunt validate în etapa de aprobare a mostrelor, astfel încât comenzile drop-ship să fie executate fără probleme încă de la început.'
+    - q: 'Ce modele putem comanda?'
+      a: 'Catalogul de producție cuprinde plăci SUP gonflabile cu forme all-around, de tură și de surf, kayacuri gonflabile, pompe, vâsle, salvete și accesorii de îngrijire, plus forme personalizate dezvoltate împreună cu echipa noastră de inginerie. Majoritatea partenerilor pornesc cu 4–8 SKU-uri cu cea mai bună vânzare și se extind în sezoanele următoare.'
+    - q: 'Cum se expediază comenzile?'
+      a: 'Comenzile pleacă din fabrică pe plecări programate, cu posibilitatea de a comanda în avans pentru a stabiliza costurile de transport. Managerul dumneavoastră de cont dedicat planifică producția și expediția în funcție de previziuni și de calendarul sezonului.'
+    - q: 'Cum aplic?'
+      a: 'Folosiți formularul de aplicație de pe această pagină sau contactați-ne direct. Aplicațiile sunt analizate de echipa de distribuție și răspundem cu pașii următori, inclusiv cartografierea teritoriului și o variantă de acord, în câteva zile lucrătoare.'
+
+content_html: |
+  <div class="mx-auto max-w-3xl space-y-4 rounded-2xl border bg-card p-6 text-[14.5px] leading-relaxed text-fg-2">
+    <p><strong>Continuați lectura:</strong> partenerii de distribuție vând plăci produse pentru ei sub marca lor proprie — consultați <a href="/ro/oem-manufacturing">programul de producție OEM/private-label</a> și <a href="/ro/factory">procesul de calitate din fabrică</a>, astfel încât să puteți poziționa produsul cu încredere.</p>
+  </div>
+
+cta:
+  title: 'Sunteți pregătit să lansați gama dumneavoastră de marcă?'
+  subtitle: 'Aplicați la programul de distribuitor sau explorați catalogul de producție.'
+  actions:
+    - text: 'Aplicați la Programul de Distribuție'
+      href: '/ro/contact#distributor'
+      variant: 'primary'
+    - text: 'Explorați Catalogul de Producție'
+      href: '/ro/products'
+      variant: 'secondary'

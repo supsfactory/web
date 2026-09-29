@@ -1,0 +1,145 @@
+meta:
+  title: 'Laborator de calitate și inspecție — încercări SUP conforme ISO'
+  description: 'Verificare independentă a calității plăcilor SUP gonflabile: încercări la tracțiune, cicluri de reținere a aerului, încercări de decojire a cusăturilor și certificarea materialelor.'
+back_text: 'Înapoi la Centrul R&D'
+home_label: 'Acasă'
+
+hero:
+  tagline: 'Laborator 06'
+  title: 'Laborator de calitate și inspecție'
+  subtitle: 'Verificare independentă — fiecare încercare este trecută înainte de livrare'
+  image: 'https://assets.isupfactory.com/images/sups/factory/isupfactory-uv-resistance-testing.webp'
+  image_alt: 'Încercări UV în laboratorul de inspecție a calității Vatrad'
+
+answer:
+  label: 'Răspuns direct'
+  text: 'Fiecare placă este inspecționată față de specificațiile publicate înainte de expediție: test de menținere a umflării la 100% din unități, la 18.0 PSI, timp de 24 de ore (cu respingere automată la o scădere de presiune de peste 0.50 PSI), încercări la tracțiune și de decojire a cusăturilor conform ISO 1421, precum și o listă de verificare a asamblării în 100 de puncte. Laboratorul raportează către directorul general, nu către producție, și poate opri orice expediție.'
+  verified: 'Septembrie 2026'
+
+intro: 'Fiecare placă care părăsește atelierul nostru poartă certificarea că a trecut un set definit de inspecții de calitate și încercări de materiale. Laboratorul nostru de calitate și inspecție este o funcție independentă în cadrul organizației — raportează direct către directorul general, nu către producție — asigurând că nicio presiune comercială nu poate compromite poarta de inspecție. Dacă un lot de materiale sau o placă finalizată nu respectă specificația publicată, laboratorul are autoritatea de a opri expediția până la soluționarea neconformității.'
+
+content_html: |
+  <h2>Încredere, dar cu verificare</h2>
+  <p>Laboratorul funcționează conform unui sistem de management al calității aliniat principiilor ISO 9001, iar metodele noastre de încercare se bazează pe standardele ISO, ASTM și EN, acolo unde este aplicabil. Păstrăm înregistrări detaliate pentru fiecare încercare efectuată, creând un lanț complet de trasabilitate de la recepția materiilor prime până la livrare plăcii finale.</p>
+
+  <h2>Echipament de încercare și capabilități</h2>
+  <table>
+    <thead><tr><th>Echipament</th><th>Încercări efectuate</th><th>Standard / Metodă</th></tr></thead>
+    <tbody>
+      <tr><td>Mașină universală de încercare (50 kN)</td><td>Rezistență la tracțiune (țesătură), rezistență la decojire (cusături), propagarea sfâșierii</td><td>ISO 1421, ISO 4674</td></tr>
+      <tr><td>Instalație programabilă de testare a reținerii aerului</td><td>Rezistență la 1000 de cicluri de umflare/determinare, test de menținere a presiunii de 30 min</td><td>Internă (conform metodei ISO 6185)</td></tr>
+      <tr><td>Dispozitiv de decojire a cusăturilor (decojire motorizată la 180°)</td><td>Rezistența la decojire a cusăturilor sudate și lipite la 100 mm/min</td><td>ISO 1421 / ASTM D1876</td></tr>
+      <tr><td>Aparat pentru încercarea la coloană de apă</td><td>Rezistența țesăturii la pătrunderea apei (0–1000 mbar)</td><td>ISO 811</td></tr>
+      <tr><td>Grosimometru digital și micrometru</td><td>Grosimea țesăturii, grosimea cusăturii, grosimea peliculei de adeziv</td><td>ISO 2286-3</td></tr>
+      <tr><td>Camera de mediu</td><td>Condiționare la temperatură (de la -40 °C la +80 °C) pentru încercări de fisurare la frig și îmbătrânire termică</td><td>ISO 188, ISO 4675</td></tr>
+      <tr><td>Spectrofotometru de culoare</td><td>Măsurarea diferenței de culoare Delta-E după expunere la UV</td><td>ISO 105-A05 / ASTM D2244</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Porțile de inspecție — de la material la livrare</h2>
+  <p>Fiecare placă urmează un plan de calitate definit, cu puncte de inspecție obligatorii. Nicio placă nu poate sări peste o poartă; fiecare poartă trebuie validată de un inspector de calitate înainte de începerea următoarei etape de producție.</p>
+
+  <div class="not-prose my-8">
+    <div class="relative">
+      <div class="absolute left-4 top-0 bottom-0 w-0.5 bg-blue-200 dark:bg-blue-800"></div>
+      <div class="space-y-6 relative">
+        <div class="flex gap-4">
+          <div class="flex-shrink-0 w-8 h-8 rounded-full bg-blue-600 text-white flex items-center justify-center text-xs font-bold z-10">Poarta 1</div>
+          <div class="flex-1 p-3 rounded-lg bg-white dark:bg-gray-950 border border-gray-200 dark:border-gray-800">
+            <p class="text-sm font-semibold">Inspecția materialelor la intrare</p>
+            <p class="text-xs text-gray-500 mt-1">Lotul de țesătură, miezul drop-stitch, lotul de adeziv, componentele hardware — toate verificate față de specificația de intrare înainte de eliberarea către producție.</p>
+          </div>
+        </div>
+        <div class="flex gap-4">
+          <div class="flex-shrink-0 w-8 h-8 rounded-full bg-blue-600 text-white flex items-center justify-center text-xs font-bold z-10">Poarta 2</div>
+          <div class="flex-1 p-3 rounded-lg bg-white dark:bg-gray-950 border border-gray-200 dark:border-gray-800">
+            <p class="text-sm font-semibold">Inspecția cusăturilor sudate în curs de proces</p>
+            <p class="text-xs text-gray-500 mt-1">Prima cusătură de încercare este testată (decojire și inspecție vizuală) la începutul fiecărui schimb de producție.</p>
+          </div>
+        </div>
+        <div class="flex gap-4">
+          <div class="flex-shrink-0 w-8 h-8 rounded-full bg-blue-600 text-white flex items-center justify-center text-xs font-bold z-10">Poarta 3</div>
+          <div class="flex-1 p-3 rounded-lg bg-white dark:bg-gray-950 border border-gray-200 dark:border-gray-800">
+            <p class="text-sm font-semibold">Testul pneumatic al camerei</p>
+            <p class="text-xs text-gray-500 mt-1">Placa este presurizată la 18.0 PSI (12–15 PSI presiune de lucru) și menținută 24 h. O scădere de presiune &gt; 0.50 PSI determină respingerea automată. Datele sunt înregistrate pentru fiecare număr de serie.</p>
+          </div>
+        </div>
+        <div class="flex gap-4">
+          <div class="flex-shrink-0 w-8 h-8 rounded-full bg-blue-600 text-white flex items-center justify-center text-xs font-bold z-10">Poarta 4</div>
+          <div class="flex-1 p-3 rounded-lg bg-white dark:bg-gray-950 border border-gray-200 dark:border-gray-800">
+            <p class="text-sm font-semibold">Inspecția înainte de livrare</p>
+            <p class="text-xs text-gray-500 mt-1">Inspecția plăcii complete: toate strângerile strânse la cuplu corect, adeziunea suprapușului de punte, alinierea graficii, fără defecte de aspect. Listă de verificare în 100 de puncte.</p>
+          </div>
+        </div>
+        <div class="flex gap-4">
+          <div class="flex-shrink-0 w-8 h-8 rounded-full bg-blue-600 text-white flex items-center justify-center text-xs font-bold z-10">Poarta 5</div>
+          <div class="flex-1 p-3 rounded-lg bg-white dark:bg-gray-950 border border-gray-200 dark:border-gray-800">
+            <p class="text-sm font-semibold">Certificarea finală</p>
+            <p class="text-xs text-gray-500 mt-1">Rapoartele de încercare sunt întocmite, înregistrările de inspecție sunt analizate și se emite Certificatul de Conformitate.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <h2>Verificări standard la fiecare lot</h2>
+  <div class="not-prose my-8 grid grid-cols-2 md:grid-cols-4 gap-4">
+    <div class="p-4 rounded-lg border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-950 text-center">
+      <span class="block text-2xl font-bold text-blue-600">18 PSI</span>
+      <span class="text-xs text-gray-500">18.0 PSI în testul pneumatic al camerei, menținut 24 h</span>
+    </div>
+    <div class="p-4 rounded-lg border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-950 text-center">
+      <span class="block text-2xl font-bold text-blue-600">&gt; 5 %</span>
+      <span class="text-xs text-gray-500">Scăderea presiunii declanșează respingerea automată</span>
+    </div>
+    <div class="p-4 rounded-lg border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-950 text-center">
+      <span class="block text-2xl font-bold text-blue-600">100 %</span>
+      <span class="text-xs text-gray-500">Camerele sunt testate pneumatic înainte de asamblare</span>
+    </div>
+    <div class="p-4 rounded-lg border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-950 text-center">
+      <span class="block text-2xl font-bold text-blue-600">ISO 9001</span>
+      <span class="text-xs text-gray-500">Sistem de management al calității</span>
+    </div>
+  </div>
+
+  <h2>Echipa noastră de calitate</h2>
+  <p>Laboratorul este format din un manager al calității (10 ani în asigurarea calității în sectorul marin, inginer certificat ASQ pentru calitate), doi inspectori de calitate (fiecare cu certificare Nivel 2 în încercări nedistructive pentru inspecția vizuală) și un tehnician de materiale responsabil de toate încercările fizice. Echipa trece anual prin teste de competență organizate de un furnizor independent de terți, pentru a ne asigura că rezultatele încercărilor rămân precise și reproductibile.</p>
+
+  <h2>Încercări independente pentru clienți</h2>
+  <p>Laboratorul nostru de calitate și inspecție este disponibil pentru servicii de încercare independentă. Dacă trebuie să verificați o specificație de țesătură, să validați un sistem nou de adezivi sau să obțineți un raport de încercare de terți pentru calificarea unui furnizor, putem realiza încercările conform standardului aplicabil și emit un raport de încercare certificat.</p>
+  <p>Exemple de lucrări recente de încercări de terți:</p>
+  <ul>
+    <li>Comparația rezistenței la decojire pentru cinci produse concurente de peliculă adezivă, pentru un program de achiziții european.</li>
+    <li>Studiu de îmbătrânire accelerată (UV plus cicluri termice) pentru o nouă formulare de PVC pigmentată în portocaliu, cu măsurări intermediare regulate la intervale de 500 h.</li>
+    <li>Validarea reținerii aerului pentru 50 de asamblări de supape de prototip destinate unui nou design de placă de înaltă presiune.</li>
+  </ul>
+
+  <h2>Angajamentul nostru față de dumneavoastră</h2>
+  <p>Când primiți o placă {SITE.name}, primiți și dosarul ei de calitate — un registru alcătuit din rezultatele încercărilor care se aplică plăcii dumneavoastră specifice. Certificatul lotului de țesătură, încercările de decojire a cusăturilor, jurnalele testelor pneumatice ale camerelor și lista de verificare dinainte de livrare. Fiecare număr este trasabil. Fiecare inspector este identificat. Nu este doar birocrație — este promisiunea că ceea ce am livrat este ceea ce am specificat.</p>
+  <p>Dacă aveți vreodată o sesizare legată de calitate, puteți contacta direct laboratorul — datele de contact sunt tipărite pe certificatul dumneavoastră de conformitate. Tratăm cu seriozitate fiecare solicitare și ne angajăm la o investigație formală în termen de 48 de ore.</p>
+
+  <h2>Ce se întâmplă dacă o placă este respinsă la inspecție?</h2>
+  <p>O placă respinsă nu dispare în liniște. Laboratorul urmează un flux fix de tratare a neconformităților, astfel încât problema să fie izolată, corectată și împiedicată să se repete:</p>
+  <ul>
+    <li><strong>Izolare</strong> — placa este etichetată, retrasă de pe linie și înregistrată în registrul neconformităților, împreună cu numele inspectorului și criteriile nerespectate.</li>
+    <li><strong>Reprocesare sau casare</strong> — defectele reparabile (de exemplu o supapă, o cusătură de șină sau un colț al suprapușului de punte) sunt reprocesate de un operator certificat, iar zona reparată este reîncercată conform aceluiași standard. Plăcile care nu pot atinge specificația sunt casate, nu devalorizate.</li>
+    <li><strong>Reinspecție</strong> — fiecare placă reprocesată trece din nou prin toate porțile afectate înainte de a putea reveni pe linia de ambalare.</li>
+    <li><strong>Eliberare</strong> — numai plăcile cu toate porțile validate părăsesc uzina. Rata de respingere, cauza rădăcină și acțiunea corectivă sunt rezumate în raportul de calitate al lotului dumneavoastră.</li>
+  </ul>
+
+  <h2>Documentația de calitate pe care o primiți</h2>
+  <p>Fiecare lot este expediat împreună cu un pachet de documente pe care echipa dumneavoastră de control al calității le poate audita: certificatul lotului (numerele de lot pentru țesătură, adeziv, hardware), înregistrările încercărilor de decojire a cusăturilor, jurnalele testelor pneumatice ale camerelor pentru fiecare număr de serie, lista de verificare pre-livrare în 100 de puncte semnată, lista de ambalare și registrul fotograf al plăcilor dumneavoastră înainte de încărcare.</p>
+
+cta:
+  title: 'Solicitați o listă de verificare QC de probă'
+  subtitle: 'Vizualizați exact porțile de inspecție, metodele de încercare și documentele față de care va fi verificat lotul dumneavoastră — trimiteți tipul de placă și cantitatea.'
+  actions:
+    - variant: primary
+      text: Solicitați lista de verificare QC
+      href: /ro/contact#quality-inquiry
+    - text: Sistemul de inspecție în 7 etape
+      href: /ro/quality
+    - text: Laboratorul de calitate al fabricii și descărcări de rapoarte
+      href: /ro/factory/quality-lab
+    - text: Standardul de control al produselor neconforme
+      href: /ro/factory/non-conforming-control

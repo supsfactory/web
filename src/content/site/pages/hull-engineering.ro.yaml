@@ -1,0 +1,94 @@
+meta:
+  title: 'Proiectare inginerială a corpului SUP — design de placă prin CAD și FEA'
+  description: 'Studio de inginerie pentru plăci SUP: proiectare CAD, analiza elementelor finite (FEA) a structurilor drop-stitch și forme de corp personalizate pentru proiecte OEM.'
+back_text: 'Înapoi la Centrul R&D'
+home_label: 'Acasă'
+
+hero:
+  tagline: 'Laborator 02'
+  title: 'Studio de inginerie pentru plăci'
+  subtitle: 'Simulare digitală, inteligență structurală, proiectare personalizată a plăcilor'
+  image: 'https://assets.isupfactory.com/images/sups/factory/isupfactory-design-discussion.webp'
+  image_alt: 'Stație de lucru CAD pentru proiectarea inginerială a plăcilor SUP Vatrad'
+
+answer:
+  label: 'Răspuns direct'
+  text: 'Plăcile SUP personalizate sunt proiectate intern, cu modelare 3D în SolidWorks, FEA și CFD în ANSYS — fiecare placă este simulată pentru distribuția tensiunilor și rigiditatea punții, cu un factor de siguranță obligatoriu ≥ 2.5 înainte de prototipare. O formă personalizată necesită 7–12 zile pentru prototip; uneltele pentru forme complet personalizate adaugă 15–20 zile la termenul de producție de 25–35 zile, iar MOQ este confirmat în funcție de configurația proiectului (consultați ghidul nostru MOQ).'
+  verified: 'Septembrie 2026'
+
+intro: 'Forma unei plăci SUP — rockerul, profilul șinei, volumul prăbulii și al cozii — determină modul în care aceasta vâslește, virajează și își păstrează direcția. La {SITE.name}, studioul nostru de inginerie pentru plăci combină modelarea CAD, analiza elementelor finite (FEA) a structurilor drop-stitch și experiența de producție pentru a livra plăci optimizate pentru utilizarea lor intenționată: stabilitate all-around, glisare pe distanțe lungi sau performanță în surfing. Fiecare placă personalizată pornește de la specificațiile dumneavoastră, nu de la o formă generică de catalog.'
+
+content_html: |
+  <h2>Unde rezistența întâlnește hidrodinamica</h2>
+  <p>O placă SUP gonflabilă este o structură drop-stitch: mii de fire de poliester conectează învelișurile superioare și inferioare din PVC, menținând puntea plată la 12–15 PSI, în timp ce geometria șinei și a prăbuliei controlează modul în care placa interacționează cu apa. Noi proiectăm forma 3D, simulăm structura umflată și validăm rezultatul intern, înainte de a tăia primul exemplar.</p>
+
+  <h2>Uneltele și standardele de proiectare</h2>
+  <p>Mediul nostru digital de inginerie include:</p>
+  <table>
+    <thead><tr><th>Capabilitate</th><th>Software / Instrument</th><th>Aplicație</th></tr></thead>
+    <tbody>
+      <tr><td>Modelare parametrică 3D</td><td>SolidWorks Professional</td><td>Suprafața plăcii, linia rockerului, profilul șinei, integrarea mânerului și a aripioarei</td></tr>
+      <tr><td>Analiza elementelor finite</td><td>ANSYS Mechanical</td><td>Cartografierea tensiunilor în miezul drop-stitch, rigiditatea punții sub sarcină, ranforsarea punctelor de mâner</td></tr>
+      <tr><td>Dinamică computațională a fluidelor</td><td>Ansys Fluent</td><td>Predicția rezistenței hidro dinamice, optimizarea unghiului de planare</td></tr>
+      <tr><td>Ingineria laminării</td><td>ESAComp</td><td>Suprapunerea straturilor de PVC, selectarea greutății țesăturii, estimarea masei</td></tr>
+      <tr><td>Analiza suprafețelor de formare</td><td>Moldex3D</td><td>Verificarea geometriei uneltelor de sudare pentru sudura RF</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Fluxul nostru de inginerie</h2>
+  <p>Fiecare proiect de placă, indiferent dacă este un model standard sau un proiect complet personalizat, urmează un proces riguros în cinci etape:</p>
+  <ol>
+    <li><strong>Concept și colectarea cerințelor</strong> — Definim intervalul de greutate al sportivului, utilizarea intenționată (all-around, touring, surf, yoga, flotă de închiriere), obiectivele de lungime, lățime și grosime și orice caracteristici speciale (sisteme de încărcare, suprapușuri de punte, puncte de legare).</li>
+    <li><strong>Modelare 3D și calculul volumului</strong> — Forma plăcii este modelată în SolidWorks și verificată din punctul de vedere al distribuției volumului, al deplasării și al stabilității față de greutatea țintă a sportivului.</li>
+    <li><strong>FEA structural</strong> — Placa umflată este analizată sub sarcină statică (sportivul în centru, 100 kg) și dinamică (impactul valului asupra șinei). Contururile de tensiune sunt analizate; factorul de siguranță ≥ 2.5 este obligatoriu.</li>
+    <li><strong>Optimizarea rezistenței prin CFD</strong> — Corpul de apă este simulat la trei condiții de încărcare și cinci viteze. Suprafața udată, unghiul de trim și rezistența reziduală sunt reduse iterativ.</li>
+    <li><strong>Analiza proiectării și eliberare</strong> — Pachetul complet de inginerie (model 3D, raport FEA, raport CFD, estimarea masei, plan de așezare a panourilor) este analizat de inginerul nostru senior înainte de transmiterea către atelierul de prototipuri.</li>
+  </ol>
+
+  <div class="not-prose my-10 p-6 rounded-xl bg-gray-50 dark:bg-gray-900 border border-gray-200 dark:border-gray-800">
+    <p class="text-sm font-semibold text-gray-500 mb-3 uppercase tracking-wider">Rezultate FEA — placă all-around de 11'0 (32' lățime, 6' grosime)</p>
+    <div class="grid grid-cols-2 gap-4 text-sm">
+      <div class="p-4 rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-950">
+        <span class="block text-2xl font-bold text-blue-600">2.8 : 1</span>
+        <span class="text-gray-500">Factor de siguranță la sarcină statică de 120 kg</span>
+      </div>
+      <div class="p-4 rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-950">
+        <span class="block text-2xl font-bold text-blue-600">0 mm</span>
+        <span class="text-gray-500">Deplasarea punții la 15 PSI, fără sarcină</span>
+      </div>
+      <div class="p-4 rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-950">
+        <span class="block text-2xl font-bold text-blue-600">3.2 mm</span>
+        <span class="text-gray-500">Îndoirea maximă a punții la un sportiv de 120 kg</span>
+      </div>
+      <div class="p-4 rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-950">
+        <span class="block text-2xl font-bold text-blue-600">15 PSI</span>
+        <span class="text-gray-500">Presiunea de analiză — clasa de lucru a platformei</span>
+      </div>
+    </div>
+  </div>
+
+  <h2>Personalizare: placa dumneavoastră, regulile dumneavoastră</h2>
+  <p>Nicio două mărci nu au cerințe identice. O flotă de închiriere are nevoie de o placă all-around lată și stabilă, cu șine ranforsate; o marcă de touring are nevoie de o prăbuie de deplasare mai lungă, cu puncte de legare a încărcăturii; o gamă orientată către surf are nevoie de o coadă îngustată și de un profil rocker progresiv. Nu forțăm gama dumneavoastră să se încadreze în forme preexistente — proiectăm pornind de la specificațiile dumneavoastră.</p>
+  <p>Exemple de proiecte recente de inginerie pentru plăci personalizate:</p>
+  <ul>
+    <li>O placă SUP touring de 14' pentru o marcă de vâslit de anduranță, cu prăbuie de deplasare și punte de încărcare încastrată (+15% lungime a liniei de apă pentru glisare).</li>
+    <li>O placă all-around lată de 10'6" pentru o flotă de resort, cu șine laterale dublu strat și o capacitate nominală de 220 lb.</li>
+    <li>O placă SUP de surf de 9' cu coadă îngustată și rocker progresiv, dezvoltată pentru o linie dedicată de școală de surf.</li>
+  </ul>
+
+  <h2>Inginerii noștri</h2>
+  <p>Studioul este condus de un inginer senior de produs cu 14 ani de experiență în proiectarea produselor gonflabile, susținut de doi ingineri mecanici specializați în FEA și CFD. Toți cei trei dețin diplome avansate în inginerie de la universități internațional recunoscute, iar echipa lucrează direct cu secția de producție, astfel încât fiecare proiectare să poată fi realizată industrial la scară de container.</p>
+
+  <h2>Lucrați cu noi la următoarea dumneavoastră placă</h2>
+  <p>De la primul schiț de concept până la raportul final de tensiuni, studioul nostru de inginerie pentru plăci este partenerul dumneavoastră în crearea unei plăci care nu este doar construită — ci proiectată inginerește. Investim orele de simulare de la început, astfel încât fiecare cusătură, fiecare strat laminat și fiecare curbură a șinei să aibă un motiv tehnic.</p>
+  <p>Fie că aveți nevoie de o modificare minoră a unui model existent sau de un proiect complet de la zero, suntem gata să discutăm cerințele dumneavoastră.</p>
+
+cta:
+  title: 'Începeți consultanța de proiectare a plăcii'
+  subtitle: 'Spuneți-ne despre sportivii vizați și cazul de utilizare, iar noi vom propune o traiectorie de inginerie.'
+  actions:
+    - variant: primary
+      text: Contactați echipa noastră de inginerie
+      href: /ro/contact#project-brief
+    - text: Înapoi la Centrul R&D
+      href: /ro/randdcenter

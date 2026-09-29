@@ -1,0 +1,169 @@
+meta:
+  title: 'Centrul de Dovezi — Evidențele din spatele fiecărei afirmații de producție'
+  description: 'Dossierul de dovezi din spatele afirmațiilor iSupfactory: relațiile dintre entități, certificările cu domeniul lor de aplicare, lista de utilaje, trasabilitatea pe lot și documentația de inspecție.'
+  dateModified: '2026-08-16'
+  keywords:
+    - 'dovezi fabrica sup'
+    - 'lista certificarilor fabricii'
+    - 'trasabilitate lot sup'
+    - 'verificare fabrica sup'
+    - 'dovezi productie china'
+
+hero:
+  tagline: 'Hub de dovezi al fabricii'
+  title: 'Centrul de Dovezi — Tot ceea ce afirmăm, aici, în evidență'
+  subtitle: 'O pagină care mapează fiecare afirmație de pe acest site la dovezile sale: entitatea înregistrată din spatele fabricii, certificările împreună cu domeniul lor de aplicare, utilajele care execută producția și înregistrările de lot care rezistă după fiecare rulare.'
+  actions:
+    - { variant: primary, text: 'Solicitați pachetul de verificare', href: '/ro/contact#trust-verification' }
+    - { variant: ghost, text: 'Explorați sistemul de calitate', href: '/ro/quality' }
+
+answer:
+  label: 'Răspuns direct'
+  text: 'Lanțul dintre afirmație și dovadă este următorul: fiecare enunț de pe acest site este susținut de o înregistrare, o certificare, un utilaj, un document sau un proces-verbal de testare — iar fiecare dintre acestea poate fi verificat. iSupfactory este divizia de dezvoltare și producție a produselor SUP a grupului Qingdao Vatrad Group Co., Ltd. (înregistrat în Qingdao din 2012). Uzina de 12,500 m² deține sistemul de management al calității ISO 9001:2015, conformitatea ISO 25649, documentația de conformitate CE, conformitatea socială BSCI (raport de audit la cerere) și documentația materialelor REACH/RoHS pentru fiecare comandă. Fiecare cameră gonflabilă este testată la 18.0 PSI timp de 24 de ore, cu respingere automată la o scădere de peste 0.50 PSI, iar înregistrările de lot sunt păstrate 10 ani în sistemul ERP. Dosarul este publicat sau poate fi pus la dispoziție, iar fabrica este deschisă pentru audituri.'
+  verified: 'Septembrie 2026'
+
+entities:
+  tagline: 'Cine Se Află În Spatele Fabricii'
+  title: 'O Operațiune de Producție, O Singură Entitate Legală'
+  subtitle: 'Comercialul, divizia de producție și entitatea legală provin toate din aceeași operațiune, pe care o puteți verifica atât de pe site, cât și prin registrul societăților.'
+  features:
+    - icon: S
+      icon_bg: blue
+      title: 'iSupfactory — site-ul public'
+      desc: 'Linia de produse SUP OEM/ODM și private label, împreună cu documentația sa publică: catalog, ghid MOQ, paginile sistemului de calitate și studii de caz. Numele cu care negociați este numele pe care îl inspectați.'
+      link: '/ro/about/isupfactory-entity'
+      link_label: 'Pagina entității pe site'
+    - icon: A
+      icon_bg: green
+      title: 'Vatrad — divizia de producție'
+      desc: 'Divizia de producție maritimă din spatele uzinei: table SUP, bărci gonflabile și RIB produse în același complex din Qingdao. Documentația de produs și de calitate este emisă sub acest nume.'
+      link: '/ro/factory'
+      link_label: 'Explorați fabrica'
+    - icon: V
+      icon_bg: orange
+      title: 'Qingdao Vatrad Group Co., Ltd. — entitatea legală'
+      desc: 'Producătorul înregistrat (din 2012) care operează uzina de 12,500 m² din Zona de Dezvoltare Economică Laixi, Qingdao. Datele de înregistrare, licența de comerț exterior și înregistrările de audit sunt puse la dispoziție sub NDA sau în cursul unui audit.'
+      link: '/ro/oem-trust-assurance'
+      link_label: 'Vedeți studiul de caz de verificare'
+
+proof_stats:
+  - value: '12,500 m²'
+    label: 'O singură hală de producție'
+    detail: '4 ateliere specializate, deschise auditurilor'
+  - value: '350+'
+    label: 'Lucrători în amplasament'
+    detail: '25+ ingineri în cercetare, materiale și control al calității'
+  - value: '120,000+'
+    label: 'Table pe an'
+    detail: 'aproximativ 10,000 table pe lună pe 4 linii automatizate'
+  - value: '50+'
+    label: 'Țări deservite'
+    detail: 'Europa, Americile, Asia-Pacific, Orientul Mijlociu'
+  - value: '7 etape'
+    label: 'Sistem de porți de inspecție'
+    detail: 'Nodul 01–07, înregistrat pentru fiecare număr de serie'
+  - value: '10 ani'
+    label: 'Trasabilitate ERP pe lot'
+    detail: 'Înregistrările de lot sunt păstrate și asociate fiecărui lot'
+
+certifications:
+  tagline: 'Certificări și domeniu de aplicare'
+  title: 'Ce Deținem, Ce Cuprinde, Cum Se Verifică'
+  subtitle: 'Lista publicată — niciodată „disponibilă doar la cerere“. Numerele certificatelor și înregistrările de audit sunt furnizate la cerere sau în cursul unui audit.'
+  headers:
+    certificate: 'Certificat / standard'
+    scope: 'Acoperire'
+    verify: 'Cum se verifică'
+  rows:
+    - certificate: 'ISO 9001:2015'
+      scope: 'Managementul calității pentru proiectarea și producția de SUP'
+      verify: 'Numărul certificatului și înregistrările de audit, la cerere sau în timpul auditului'
+    - certificate: 'ISO 25649'
+      scope: 'Siguranța și conformitatea structurală a ambarcaciunilor gonflabile (Europa)'
+      verify: 'Documentație de conformitate pentru fiecare familie de produse'
+    - certificate: 'CE'
+      scope: 'Conformitate UE pentru produsele SUP gonflabile'
+      verify: 'Documentația CE este furnizată împreună cu comenzile'
+    - certificate: 'BSCI'
+      scope: 'Conformitate socială pentru amplasament și forță de muncă'
+      verify: 'Raportul de audit este disponibil la cerere'
+    - certificate: 'REACH și RoHS'
+      scope: 'Restricții privind substanțele și documentația materialelor'
+      verify: 'Documentația materialelor la fiecare comandă'
+    - certificate: 'Inspecție de terță parte (opțional)'
+      scope: 'Inspecție pre-expediție SGS, TÜV, BV sau Intertek'
+      verify: 'ISO 2859-1 Nivel II, programată la alegerea dumneavoastră'
+
+evidence_gates:
+  tagline: 'Unde Se Află Dovezile'
+  title: 'Dosare de dovezi — Deschise Pentru Inspecție'
+  subtitle: 'Fiecare dosar este o pagină activă pe care o puteți consulta acum, plus fișiere care vă însoțesc comanda.'
+  features:
+    - icon: E
+      icon_bg: blue
+      title: 'Lista utilajelor și a mașinilor'
+      desc: 'Tăiere, sudură, laminare, imprimare și asamblare, plus laboratorul de control al calității — utilaje cu denumiri, specificații și funcția fiecăruia. Cereți o vizită ghidată în fabrică.'
+      link: '/ro/factory/equipment'
+      link_label: 'Deschideți lista de utilaje'
+    - icon: P
+      icon_bg: green
+      title: 'Fotografii și rapoarte ale porților de inspecție'
+      desc: 'Șapte porți de inspecție cu fotografii din hala fabricii și linkuri către rapoarte bilingve — ce se verifică, cu ce metodă, față de ce criteriu și unde este înregistrat.'
+      link: '/ro/factory/process'
+      link_label: 'Deschideți porțile de inspecție'
+    - icon: Q
+      icon_bg: orange
+      title: 'Laboratorul de calitate și procedurile de testare'
+      desc: 'Tester universal de tracțiune (ASTM D751), tester de desprindere a cusăturilor (ISO 6185), instalații de menținere a presiunii aerului și cameră de îmbătrânire cu arc de xenon — utilajele care verifică materialele și camerele.'
+      link: '/ro/factory/quality-lab'
+      link_label: 'Deschideți laboratorul'
+    - icon: T
+      icon_bg: purple
+      title: 'Trasabilitate: mostre și carantină'
+      desc: 'Lanțul propriu-zis de la rola de materie primă până la tabla expediată, fluxul în 7 etape de carantină pentru stocul neconform și matricea defectelor care reglementează deciziile.'
+      link: '/ro/factory/quality-inspection'
+      link_label: 'Deschideți dosarul de trasabilitate'
+
+traceability:
+  tagline: 'Un Lot, Urmărit De La Rolă Până La Tablă'
+  title: 'Cum Arată Trasabilitatea În Practică'
+  body: |
+    Fiecare lot primește un **cod de lot ERP cu valabilitate de 10 ani**. Lanțul înregistrat pentru un singur lot:
+
+    - **Rola primară** — certificat de material, numărul rolei, lot de material testat (tracțiune, sfâșiere, cusătură)
+    - **Tăierea** — comandă de tăiere CNC față de fișierul de proiectare, procent de rebut înregistrat
+    - **Sudura și laminarea** — linie, operator, parametrii utilajului pentru fiecare cameră
+    - **Asamblarea** — număr de serie al tablei, tipul valvei, lotul covorașului de punte
+    - **Testarea** — menținere la 18.0 PSI × 24 h pentru fiecare cameră, cu respingere automată la o scădere de peste 0.50 PSI
+    - **Eliberarea** — listă de verificare de 100 de puncte pentru fiecare tablă, semnătura Directorului QA pentru fiecare lot
+    - **Expedierea** — Certificat de conformitate care însoțește marfa; dreptul de audit rezervat în contract
+
+    Cereți un proces-verbal QC de probă înaintea primei comenzi — este același format pe care îl primiți împreună cu marfa.
+
+faqs:
+  tagline: 'Întrebări frecvente'
+  title: 'Întrebări despre dovezi pe care le pun cumpărătorii'
+  items:
+    - q: 'Această pagină este doar pentru verificare și nu înlocuiește diligența obișnuită?'
+      a: 'Corect — această pagină arată unde poate fi verificată fiecare afirmație: înregistrarea entității, certificările, utilajele, înregistrările și o fabrică deschisă auditurilor. Pașii dumneavoastră uzuali de verificare (verificarea înregistrării, auditul, inspecția de terță parte) rămân valizi și sunt bineveniți.'
+    - q: 'Ce entitate ar trebui să apară pe documentația comenzii mele?'
+      a: 'Comenzile se plasează către Qingdao Vatrad Group Co., Ltd., care operează sub numele Vatrad (divizia de producție), având iSupfactory drept linie de produse SUP. Documentele contractuale sunt semnate de Vicepreședintele Vânzărilor, Directorul Tehnic și Directorul QA.'
+    - q: 'Pot obține copii ale certificatelor înainte de comandă?'
+      a: 'Da — numerele certificatelor și înregistrările de audit sunt furnizate la cerere sau în timpul unui audit. Lista este publicată, niciodată „disponibilă doar la cerere”.'
+    - q: 'Cum verific eu însumi înregistrările de test pe lot?'
+      a: 'Fiecare cameră este testată la 18.0 PSI timp de 24 de ore, cu respingere automată la o scădere de peste 0.50 PSI; jurnalele de testare sunt legate de numerele de serie și însoțesc Certificatul de conformitate pentru fiecare lot. Inspecția pre-expediție SGS, TÜV, BV sau Intertek conform ISO 2859-1 Nivel II poate fi programată la alegerea dumneavoastră.'
+    - q: 'Certificările acoperă și accesoriile?'
+      a: 'Documentația materialelor REACH/RoHS se aplică tablelor și accesoriilor livrate în aceeași comandă, iar listele de verificare QC acoperă kitul complet — tablă, vâsla, pompă, centură de siguranță și geantă.'
+    - q: 'Ce se întâmplă cu dovezile după comandă?'
+      a: 'Trasabilitatea ERP pe lot este păstrată timp de 10 ani. Procedurile SOP ale sistemului de management al calității și standardele de inspecție rămân descărcabile, iar cumpărătorul își rezervă dreptul de audit în timpul producției, conform contractului.'
+
+cta:
+  title: 'Verificați Mai Întâi — Și Abia Apoi Discuțăm Despre Specificații'
+  subtitle: 'Cereți pachetul de înregistrări, copii ale certificatelor sau o slotă de audit. Verificarea vine prima; discuția privind comanda urmează. Trimiterea unei solicitări nu vă obligă la nicio comandă.'
+  button_text: 'Solicitați pachetul de verificare'
+  button_link: '/ro/contact#trust-verification'
+  actions:
+    - text: Identitatea de marcă
+      href: /ro/about/identity
+    - text: Lista de verificare a fabricii
+      href: /ro/factory-audit-checklist

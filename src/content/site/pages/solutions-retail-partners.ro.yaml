@@ -1,0 +1,104 @@
+meta:
+  title: 'Producție personalizată și private label de plăci SUP pentru retaileri | {SITE}'
+  description: 'Producție personalizată și private label de plăci SUP pentru mărcile de retail: specificațiile plăcilor, grafică de marcă, MOQ de probă redus și control al calității în fabrică — de la mostră la producția de volum.'
+  dateModified: '2026-08'
+
+hero:
+  tagline: Mărci de retail
+  title: 'Producție personalizată de plăci SUP pentru mărcile de retail'
+  subtitle: 'Mărcile de retail își lansează propria linie de plăci de vâslă împreună cu fabrica noastră: specificațiile plăcilor dezvoltate pornind de la cerințele dumneavoastră, marca dumneavoastră pe produs și controlul calității în producție gestionat de la un capăt la altul.'
+  image:
+    src: https://assets.isupfactory.com/images/sups/products/sup-series/sup-ocean-voyager-1.webp
+    alt: Plăci SUP Vatrad produse pentru o marcă de retail
+
+answer:
+  label: 'Răspuns direct'
+  text: 'MOQ este confirmat în funcție de configurația proiectului: mărcile de retail încep cu o mostră (1–2 bucăți) sau un lot pilot (20–50 bucăți, mostre în 7–12 zile), escaladează la o producție OEM standard de volum de 90–100+ bucăți pe model (25–35 de zile după PO și avans) sau investesc într-o matriță personalizată pentru linii complet unice (matrița adaugă 15–20 de zile). Fiecare placă este testată la presiune înainte de expediție, cu termeni FOB, CIF sau DDP din Qingdao.'
+  verified: 'Septembrie 2026'
+
+margin_section:
+  title: 'Etapele de producție pentru mărcile de retail'
+  subtitle: 'Începeți cu o mostră, pilotați pentru validare, escalați la o producție standard de volum sau investiți într-o matriță personalizată — MOQ-ul și termenele sunt stabilite de traseul de producție, nu de presupuneri.'
+  items:
+    - tier: 'Etapa de mostră'
+      moq: '1–2 bucăți'
+      margin_note: 'Termen pentru mostre 7–12 zile'
+      features:
+        - 'Dezvoltarea graficii pe baza activelor mărcii dumneavoastră'
+        - 'Mostră fizică pentru aprobare'
+        - 'Control al calității pe platforma standard'
+    - tier: 'Etapa pilot'
+      moq: '20–50 bucăți'
+      margin_note: 'Validare de piață pe platforme din stoc'
+      features:
+        - 'Grafică pe întreaga placă, logo și amplasare EVA'
+        - 'Recomenzi pe aceleași platforme verificate'
+        - 'Documentație de export inclusă'
+    - tier: 'Matriță personalizată'
+      moq: 'Confirmat în funcție de configurația proiectului'
+      margin_note: 'Matrița adaugă 15–20 de zile'
+      features:
+        - 'Formă de placă și dezvoltare de matriță noi'
+        - 'Control complet asupra specificațiilor'
+        - 'Alocare prioritară a capacității de producție'
+
+product_line:
+  title: Linie de produse completă
+  subtitle: 'O platformă de producție pentru fiecare segment din magazinul dumneavoastră.'
+  items:
+    - name: Seria All-Round
+      description: 'Formă versatilă — cea mai frecventă platformă de pornire'
+    - name: Seria Touring
+      description: 'Carenă de deplasare pentru vâslere pe distanțe lungi'
+    - name: Seria Yoga
+      description: 'Platformă lată și stabilă pentru segmentul de bunăstare'
+    - name: Seria Kids
+      description: 'Plăci scurte și ușoare pentru vâslași mai tineri'
+    - name: Seria Racing
+      description: 'Carene rapide pentru segmentul pasionaților'
+    - name: Accesorii
+      description: 'Vâsle, salvete, pompe și rucsacuri pentru completarea liniei'
+
+catalog:
+  title: Resurse pentru parteneri de retail
+  subtitle: 'Specificații, detalii de comandă și documentație de produs.'
+  items:
+    - name: 'Catalog de produse 2026'
+      desc: 'Gama completă cu specificații și informații de comandă'
+      icon: 'tabler:file-text'
+      link: '/ro/products'
+    - name: 'Ghidul partenerului de retail'
+      desc: 'Ghid de specificații, proces de comandă și standarde de control al calității'
+      icon: 'tabler:book'
+      link: '/ro/products'
+    - name: 'Acte de produs și tehnice'
+      desc: 'Fotografii de produs de înaltă rezoluție, imagini de ambient și documentație tehnică'
+      icon: 'tabler:photo'
+      link: '/ro/products'
+
+support:
+  title: Suport de producție
+  subtitle: 'Ce vă oferă partenerul dumneavoastr de producție în jurul comenzii.'
+  items:
+    - 'Mostră fizică înainte de producția de volum'
+    - 'Toleranțe și control al calității: fiecare placă este testată la presiune înainte de expediție'
+    - 'Suport tehnic pentru specificații — forme, grafică, amplasare EVA, accesorii'
+    - 'Termen de producție de volum de 25–35 de zile după confirmarea PO'
+    - 'Piese de schimb și ghid de reparații pentru clienții dumneavoastră'
+    - 'Export și documentație: FOB/CIF/DDP din Qingdao'
+
+content_html: |
+  <div class="mx-auto max-w-3xl space-y-4 rounded-2xl border bg-card p-6 text-[14.5px] leading-relaxed text-fg-2">
+    <p><strong>Continuați lectura:</strong> consultați <a href="/ro/oem-manufacturing">programul complet de producție OEM/ODM</a> — MOQ-uri confirmate proiect cu proiect pe etapele de mostră, pilot și volum, branding private-label și conformitate CE — sau citiți <a href="/ro/oem-moq-guide">Ghidul MOQ și branding flexibil</a>, ori vizitați <a href="/ro/factory">fabrica</a> pentru a vedea cum se desfășoară controlul calității orientat spre retail.</p>
+  </div>
+
+cta:
+  title: 'Discutați linia dumneavoastră de produse pentru retail'
+  subtitle: 'Trimiteți cerințele — echipa noastră răspunde în 1 zi lucrătoare.'
+  actions:
+    - text: 'Trimiteți cerințele'
+      href: '/ro/contact'
+      variant: 'primary'
+    - text: 'Vizualizați platformele de produs'
+      href: '/ro/products'
+      variant: 'secondary'

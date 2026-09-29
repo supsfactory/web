@@ -6,7 +6,7 @@ export interface FaqEntry {
   a: string
 }
 
-export const PRODUCT_FAQ_POOL: Record<'en' | 'es' | 'fr' | 'de' | 'it' | 'pt' | 'nl' | 'sv' | 'no' | 'pl' | 'da' | 'fi' | 'ru' | 'cs' | 'tr', FaqEntry[]> = {
+export const PRODUCT_FAQ_POOL: Record<'en' | 'es' | 'fr' | 'de' | 'it' | 'pt' | 'nl' | 'sv' | 'no' | 'pl' | 'da' | 'fi' | 'ru' | 'cs' | 'tr' | 'ro', FaqEntry[]> = {
   en: [
     {
       q: 'What is the minimum order to customize this board?',
@@ -275,6 +275,24 @@ export const PRODUCT_FAQ_POOL: Record<'en' | 'es' | 'fr' | 'de' | 'it' | 'pt' | 
     {
       q: 'Sevkiyat öncesinde kalite nasıl kontrol ediliyor?',
       a: 'Her tahta ambalajlamadan önce 100 maddelik montaj kontrol listesinden ve 18.0 PSI · 24 saat basınç tutma testinden geçer; 24 saatte 0,50 PSI üzeri basınç kaybı yaşayan ürünler otomatik olarak elenir.',
+    },
+  ],
+  ro: [
+    {
+      q: 'Care este cantitatea minimă de comandă pentru a personaliza această placă?',
+      a: 'Pentru producția de serie, cantitatea minimă de comandă (MOQ) este de 90–100+ buc. pe configurația aprobată, sub rezerva cerințelor privind rola de material și ambalajul, pe o rolă de 150 m; loturile pilot încep de la 20–50 buc., iar pentru o matriță dedicată sunt necesare 90–100+ buc.',
+    },
+    {
+      q: 'Cât durează mostrele și producția?',
+      a: 'Mostrele sunt gata în 7–12 zile; producția de serie se finalizează în 25–35 de zile după confirmarea comenzii (PO) și a avansului.',
+    },
+    {
+      q: 'Pot modifica culorile, grafica și logo-ul?',
+      a: 'Da — grafica, culorile, covorașul antiderapant EVA, logo-ul, ambalajul și accesoriile sunt personalizabile pe fiecare platformă. Trimiteți-ne logo-ul, iar noi pregătim o probă vizuală înainte de producție.',
+    },
+    {
+      q: 'Cum este controlată calitatea înainte de expediere?',
+      a: 'Fiecare placă trece printr-o listă de verificare a asamblării de 100 de puncte și un test de presiune de 18.0 PSI · 24 de ore înainte de ambalare; piesele cu o cădere de presiune de peste 0,50 PSI/24 h sunt respinse automat.',
     },
   ],
 }

@@ -1,0 +1,99 @@
+meta:
+  title: 'Centrul de sudare RF — legarea dielectrică a cusăturilor SUP | {SITE}'
+  description: 'Tehnologie de sudare cu frecvență radio care produce cusături conforme și etanșe pentru plăcile SUP. Teste de decojire, validarea retenției de aer și specificații personalizate ale cusăturilor.'
+  dateModified: '2026-08'
+back_text: 'Înapoi la Centrul R&D'
+home_label: 'Acasă'
+
+answer:
+  label: 'Răspuns direct'
+  text: 'Folosim prese dielectrice RF de 15 kW care realizează legătura moleculară a cusăturilor din PVC la echivalente de aer cald de 200–600 °C, după care validăm fiecare sudură: teste de decojire conform ASTM D751, menținere la 18.0 PSI pentru verificarea retenției de aer, cu cusăturile documentate și trasabile la nivelul fiecărei bucăți.'
+  verified: 'Septembrie 2026'
+
+hero:
+  tagline: 'Laborator 03'
+  title: 'Centrul de sudare RF'
+  subtitle: 'Tehnologie dielectrică pentru suduri care rezistă la presiune'
+  image: 'https://assets.isupfactory.com/images/sups/products/sup-series/sup-jungle-mandala-1.webp'
+  image_alt: 'Procesul de legare dielectrică prin sudare RF al companiei Vatrad'
+
+intro: 'O placă SUP gonflabilă este fiabilă doar în măsura în care sunt fiabile cusăturile ei. O singură sudură slabă poate compromite o cameră întreagă — iar sub picioare, defectarea unei camere nu este un inconvenient, ci un pericol pentru siguranță. La {SITE.name}, am investit într-un Centru dedicat de Sudare cu Frecvență Radio (RF), care combină prese dielectrice de calitate industrială cu un control riguros al procesului și încercări post-sudare. Fiecare cusătură pe care o producem este documentată, trasabilă și certificată pentru a îndeplini sau depăși cerințele standardului internațional pentru ambarcațiuni gonflabile.'
+
+content_html: |
+  <h2>Știința din spatele cusăturii</h2>
+  <p>Sudarea RF folosește energie electromagnetică de înaltă frecvență (de regulă 27.12 MHz) pentru a excita moleculele polare din materialul acoperit cu PVC, generând căldură exact la interfața dintre materiale. Spre deosebire de sudarea cu aer cald sau cu pană, sudarea RF creează o legătură moleculară autentică — cele două straturi de material fuzionează într-un singur material omogen în zona sudurii, rezultând o îmbinare la fel de puternică ca materialul de bază însuși.</p>
+
+  <h2>Echipamentele de sudare și controlul procesului</h2>
+  <p>Centrul nostru de sudare este echipat cu:</p>
+  <table>
+    <thead><tr><th>Mașină</th><th>Putere / Capacitate</th><th>Aplicație</th></tr></thead>
+    <tbody>
+      <tr><td>Presă dielectrică RF 1</td><td>15 kW, placă 2000 × 600 mm</td><td>Cusături principale ale plăcilor, îmbinări bandă de bordură – punte</td></tr>
+      <tr><td>Presă dielectrică RF 2</td><td>10 kW, placă 1500 × 500 mm</td><td>Suduri la conul de prăjitură, petecele mânerelor, petecele supapelor</td></tr>
+      <tr><td>Sudatoare RF comandată CNC</td><td>8 kW, masă XY 2500 × 1200 mm</td><td>Cusături curbe de bordură, reliefare logo/panouri, petecare de precizie</td></tr>
+      <tr><td>Sudatoare automată cu pană</td><td>Temperatură variabilă, max. 1.2 m/min</td><td>Metodă de rezervă pentru materiale speciale CSM</td></tr>
+    </tbody>
+  </table>
+  <p>Fiecare presă RF este echipată cu monitorizarea în buclă închisă a temperaturii și presiunii. Parametrii de sudare — putere, timp de presare, timp de răcire, presiunea electrozilor — sunt programați în funcție de tipul materialului și înregistrați în Sistemul Nostru de Execuție a Producției (MES) pentru o trasabilitate completă.</p>
+
+  <h2>Încercări ale calității sudurilor — fiecare cusătură, fiecare placă</h2>
+  <p>Integritatea sudurilor este verificată printr-un protocol obligatoriu în patru etape:</p>
+  <ol>
+    <li><strong>Inspecție vizuală</strong> — 100 % dintre cusături sunt inspectate vizual pentru perforare, dezaliniere, contaminare sau fuziune incompletă. Pragul ratei de rebut: 0.5 % din metrii liniari.</li>
+    <li><strong>Test de decojire</strong> — Dintr-un cupon de încercare sudat cu fiecare lot de producție se decupează o fâșie de 25 mm lățime. Forța minimă de decojire: 120 N/25 mm pentru PVC 1100 dtex.</li>
+    <li><strong>Test de retenție a aerului</strong> — Fiecare placă finalizată este presurizată la 18.0 PSI și menținută 24 de ore. Căderea de presiune nu trebuie să depășească 0.50 PSI.</li>
+    <li><strong>Test de ciclare termică</strong> — Cupoanele de probă sunt supuse unor cicluri între -20 °C și +60 °C timp de 50 de cicluri, după care sunt din nou supuse testului de decojire. Pierderea de rezistență acceptabilă: &lt; 10 %.</li>
+  </ol>
+
+  <div class="not-prose my-10 p-6 rounded-xl bg-gray-50 dark:bg-gray-900 border border-gray-200 dark:border-gray-800">
+    <p class="text-sm font-semibold text-gray-500 mb-3 uppercase tracking-wider">Comparație a rezistenței de decojire — sudare RF față de sudare cu aer cald (PVC 1100 dtex)</p>
+    <div class="space-y-3">
+      <div class="flex items-center gap-3">
+        <span class="w-24 text-xs font-medium">Sudare RF</span>
+        <div class="flex-1 h-6 bg-gray-200 dark:bg-gray-700 rounded">
+          <div class="h-full bg-blue-600 rounded" style="width:92%"></div>
+        </div>
+        <span class="text-xs font-bold w-12 text-right">184 N</span>
+      </div>
+      <div class="flex items-center gap-3">
+        <span class="w-24 text-xs font-medium">Aer cald</span>
+        <div class="flex-1 h-6 bg-gray-200 dark:bg-gray-700 rounded">
+          <div class="h-full bg-gray-400 rounded" style="width:65%"></div>
+        </div>
+        <span class="text-xs font-bold w-12 text-right">130 N</span>
+      </div>
+      <div class="flex items-center gap-3">
+        <span class="w-24 text-xs font-medium">Standard minim</span>
+        <div class="flex-1 h-6 bg-gray-200 dark:bg-gray-700 rounded">
+          <div class="h-full bg-green-500 rounded" style="width:48%"></div>
+        </div>
+        <span class="text-xs font-bold w-12 text-right">96 N</span>
+      </div>
+    </div>
+    <p class="text-xs text-gray-400 mt-2">Sudarea RF atinge constant 90-95 % din rezistența materialului de bază, mult peste valoarea minimă.</p>
+  </div>
+
+  <h2>Expertiză profesională</h2>
+  <p>Echipa noastră de sudare este condusă de un inginer de proces senior cu 11 ani de experiență în sudarea dielectrică a textilelor acoperite. Fiecare operator finalizează un program de certificare intern de 6 luni înainte de a fi autorizat să lucreze la cusăturile de producție. Recertificarea este obligatorie anual și include o probă practică de sudură evaluată conform standardului intern Grad-A (rezistență de decojire ≥ 160 N/25 mm).</p>
+
+  <h2>Soluții de sudare personalizate pentru cerințe unice</h2>
+  <p>Înțelegem că o singură specificație de sudare nu se potrivește fiecărei aplicații. Centrul nostru de Sudare RF dezvoltă cu regularitate configurații de cusătură personalizate pentru clienți cu cerințe speciale:</p>
+  <ul>
+    <li><strong>Petice de armare în mai multe straturi</strong> — pentru zone cu uzură intensă, precum benzile de bordură și capacele de prăjitură, dezvoltăm suduri RF în mai multe treceri, care integrează un strat exterior rezistent la uzură fără a compromite flexibilitatea.</li>
+    <li><strong>Cusături pentru plăci de înaltă presiune</strong> — pentru plăcile clasificate peste 15 PSI, validăm geometria sudurii la presiune de lucru ridicată și documentăm limita în raportul de încercări.</li>
+    <li><strong>Sudarea panourilor cu schimbare de culoare</strong> — panouri din material bicolor (de exemplu, punte portocalie + bordură gri) sudate cu o suprapunere ascunsă, pentru a păstra estetica mărcii fără o linie de îmbinare vizibilă.</li>
+  </ul>
+
+  <h2>Angajamentul nostru față de dumneavoastră</h2>
+  <p>Fiecare placă pe care o livrăm poartă garanția noastră privind calitatea sudurilor: dacă vreo cusătură cedează în condiții normale de utilizare în perioada de garanție, reparăm sau înlocuim camera afectată fără niciun cost și efectuăm o analiză a cauzei principale pentru a preveni recurența. Aceasta nu este doar o garanție — este un angajament de îmbunătățire continuă, susținut de date operaționale reale din teren.</p>
+  <p>Când alegeți {SITE.name}, alegeți cusături care sunt proiectate, testate și documentate — nu doar sudate. Aceasta este diferența dintre o placă care plutește și o placă care performează.</p>
+
+cta:
+  title: 'Discutați cerințele dumneavoastră de sudare'
+  subtitle: 'Specificații personalizate de cusătură, compatibilitate a materialelor sau validarea procesului.'
+  actions:
+    - variant: primary
+      text: 'Contactați echipa noastră de sudare'
+      href: /ro/contact#project-brief
+    - text: 'Înapoi la Centrul R&D'
+      href: /ro/randdcenter

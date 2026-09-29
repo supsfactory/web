@@ -1,0 +1,114 @@
+meta:
+  title: 'Începeți proiectul dumneavoastră SUP — de la brief la plăcile livrate | iSupfactory'
+  description: 'Începeți proiectul personalizat de SUP: trimiteți un brief, obțineți protecție NDA, primiți mostre în 7–12 zile, aprobați-le și escalați la producție. Pas cu pas, cu termene.'
+  dateModified: '2026-08-20'
+  keywords:
+    - 'start proiect sup'
+    - 'comandă sup personalizată'
+    - 'brief proiect SUP'
+    - 'proiect OEM SUP'
+    - 'comandă placă de vâslă personalizată'
+    - 'proiect de producție SUP'
+    - 'proiect SUP gonflabil'
+
+hero:
+  tagline: 'De aici începe tot'
+  title: 'Începeți proiectul dumneavoastră SUP'
+  subtitle: 'Fie că lansați o marcă nouă, extindeți o linie de produse sau vă aprovizionați cu plăci de marcă pentru operațiunea dumneavoastră — fiecare proiect începe la fel: un brief de proiect, un NDA, o mostră și un traseu clar către producție. Iată ce se întâmplă după ce faceți clic pe „Începeți”.'
+  actions:
+    - variant: primary
+      text: Începeți brieful de proiect
+      href: /ro/contact#project-brief
+    - text: Vezi cum funcționează procesul
+      href: /ro/how-it-works
+
+answer:
+  label: 'Ce urmează'
+  text: 'După ce trimiteți un brief de proiect, primiți un răspuns în termen de o zi lucrătoare. Un NDA este disponibil înainte de a împărți orice detaliu confidențial. Echipa de inginerie vă analizează brieful și vă întoarce o ofertă detaliată, cu MOQ, costul mostrelor și un termen etapă cu etapă — de regulă 7–12 zile pentru mostre și 6–8 săptămâni pentru prima producție, de la confirmarea PO. Costul mostrelor se deduce din comanda dumneavoastră de producție. Niciun angajament înainte de semnare.'
+  verified: 'Septembrie 2026'
+
+process_steps:
+  tagline: Procesul
+  title: 'De la brief la plăcile livrate — cinci pași'
+  subtitle: 'Fiecare pas are un termen definit, un rezultat documentat și un punct de decizie „da sau nu”. Continuați doar atunci când sunteți pregătit.'
+  steps:
+    - step: 'Pasul 1'
+      title: 'Trimiteți brieful de proiect'
+      desc: 'Spuneți-ne despre placa dumneavoastră — specificații țintă, volum, nevoile de conformitate și termenul. Completarea briefului durează 5–10 minute. Dacă nu sunteți sigur pentru fiecare detaliu, trimiteți ce aveți și vă vom îndruma în rest. Un NDA este disponibil înainte de a trimite proiecte confidențiale.'
+    - step: 'Pasul 2'
+      title: 'NDA și analiză de fezabilitate (1–5 zile)'
+      desc: 'Semnăm un NDA, dacă este solicitat, apoi echipa de inginerie analizează brieful dumneavoastră din punct de vedere al capabilității de producție, al disponibilității materialelor și al domeniului de conformitate. Primiți o ofertă detaliată, cu calculul MOQ, costul mostrelor și un termen etapă cu etapă.'
+    - step: 'Pasul 3'
+      title: 'Mostră și aprobare (7–21 de zile)'
+      desc: '1–2 plăci fizice produse conform specificațiilor dumneavoastră. Le folosiți și le evaluați — rigiditatea carenei, acuratețea graficii, montajul accesoriilor. Ajustările sunt consemnate într-o listă de materiale (BOM) revizuită. Mostra înghețată devine referința de producție. Costul mostrelor se deduce din producție.'
+    - step: 'Pasul 4'
+      title: 'Planificare preproducție (7 zile)'
+      desc: 'Achiziția materialelor, pregătirea matrițelor, confirmarea ambalajului și rezervarea slotului de producție. Toate materialele sunt inspectate la recepție față de BOM-ul înghețat. Un program de producție cu date de control al calității pe etape este emis înainte de începerea producției.'
+    - step: 'Pasul 5'
+      title: 'Producție, control al calității și expediție (4–6 săptămâni)'
+      desc: 'Producția parcurge sistemul de control în 7 etape, cu criterii de admis sau respingere la fiecare etapă. Ambalare de nivel export, documentație de conformitate și coordonarea transportului maritim către peste 50 de țări. După livrare, evaluarea de către dumneavoastră captează îmbunătățirile pentru următoarea comandă.'
+
+collaboration_types:
+  tagline: 'Alegeți traseul'
+  title: 'Trei moduri de a lucra cu iSupfactory'
+  subtitle: 'Fiecare proiect urmează același proces — ceea ce se schimbă este domeniul ingineriei și cine deține proprietatea intelectuală.'
+  grid: 'sm:grid-cols-2 lg:grid-cols-3'
+  features:
+    - icon: O
+      icon_bg: blue
+      title: 'Producție OEM'
+      desc: 'Dumneavoastră furnizați designul. Noi producem conform specificațiilor. Proprietatea intelectuală vă aparține integral. Potrivit pentru mărci cu o geometrie de placă deja validată.'
+      link_label: 'Vezi detaliile OEM'
+      href: /ro/oem-manufacturing
+    - icon: D
+      icon_bg: green
+      title: 'Dezvoltare ODM'
+      desc: 'Dumneavoastră furnizați brieful. Noi dezvoltăm placa. Platformă adaptată cu brandingul dumneavoastră. Potrivit pentru mărci care intră pe piață fără design propriu.'
+      link_label: 'Vezi detaliile ODM'
+      href: /ro/odm-manufacturing
+    - icon: P
+      icon_bg: purple
+      title: 'Private label / Co-branding'
+      desc: 'Marca dumneavoastră pe o platformă deja validată. Fără etapă de inginerie. Începând de la 5–10 bucăți. Potrivit pentru operatori și distribuitori.'
+      link_label: 'Vezi opțiunile de private label'
+      href: /ro/solutions/private-label-sup
+
+what_we_need:
+  heading: 'Ce să pregătiți înainte de brief'
+  body: |
+    Un brief complet accelerează procesul. Iată ce ajută:
+
+    - **Specificațiile plăcii** — lungimea, lățimea, grosimea țintă, greutatea vâslașului, cazul de utilizare. Dimensiunile de referință ale altor plăci sau modelele concurenților sunt utile.
+    - **Fișierele de design** — grafică vectorială (AI, SVG, PDF) pentru ilustrații și logo-uri. Dacă nu sunt gata, moodboard-uri sau imagini de referință sunt suficiente pentru fezabilitatea inițială.
+    - **Volum și termen** — cantitatea țintă și programul sezonului. Chiar și un interval aproximativ („20–50 de plăci până în martie”) este suficient pentru a începe.
+    - **Nevoile de conformitate** — piețele țintă și orice cerință de certificare specifică dincolo de CE, ISO 9001, BSCI, REACH, RoHS.
+    - **Intervalul de buget** — un buget orientativ pe placă sau o cost țintă „la poartă” ne ajută să recomandăm platforma potrivită.
+
+    **Nu aveți totul pregătit?** Trimiteți ce aveți. Vă vom îndruma în rest.
+
+faqs:
+  tagline: FAQ
+  title: 'Începerea unui proiect SUP — întrebări frecvente'
+  items:
+    - q: 'Care este comanda minimă pentru a începe?'
+      a: 'Traseul de intrare este etapizat: mai întâi 1–2 mostre (7–12 zile), apoi o comandă de probă de 20–50 de plăci (25–35 de zile), urmată de producții standard de volum de 90–100+ plăci pentru fiecare configurație aprobată. Co-brandingul private label pornește de la 5–10 bucăți, fără etapă de dezvoltare.'
+    - q: 'Cât durează până primesc mostrele?'
+      a: 'Mostrele fizice sunt produse în 7–12 zile de la confirmarea specificațiilor și a avansului. Folosind platforme de carenă existente, ciclul complet, de la brief la comanda pilot livrată, durează de regulă 8–12 săptămâni. O carenă complet personalizată adaugă 15–20 de zile pentru dezvoltarea matriței.'
+    - q: 'Designul meu este protejat?'
+      a: 'Da. Un NDA este disponibil imediat — înainte de a împărți orice informație confidențială. Noi producem exclusiv sub mărcile clienților și nu concurăm niciodată cu ei. Toate fișierele tehnice sunt păstrate în sisteme cu acces controlat și cu urme de audit.'
+    - q: 'Ce solicită formularul de brief de proiect?'
+      a: 'Brieful solicită tipul companiei, denumirea, specificațiile țintă ale plăcii, intervalul cantității, termenul și eventualele cerințe de conformitate. Completarea durează aproximativ 5–10 minute. Puteți atașa fișiere de design (PNG, JPG, SVG, PDF, AI, PSD, DWG, DXF, ZIP) de până la 10 MB. Dacă aveți îndoieli asupra unui câmp, îl puteți lăsa gol — vă vom contacta ulterior.'
+    - q: 'Ce se întâmplă după ce trimit brieful?'
+      a: 'Primiți un răspuns în termen de o zi lucrătoare. Echipa de inginerie vă analizează brieful și vă întoarce o ofertă detaliată, cu MOQ, costul mostrelor și un termen etapă cu etapă. Nu este necesar niciun angajament până când revizuiți și semnați contractul. Costul mostrelor se deduce din comanda dumneavoastră de producție.'
+
+cta:
+  title: 'Sunteți pregătit să începeți?'
+  subtitle: 'Trimiteți brieful de proiect — specificațiile plăcii, volumul și termenul — și vă vom confirma fezabilitatea, vom produce mostre și vă vom livra un program de producție cu control al calității documentat la fiecare pas.'
+  actions:
+    - variant: primary
+      text: Începeți brieful de proiect
+      href: /ro/contact#project-brief
+    - text: Citiți ghidul complet de integrare
+      href: /ro/oem-onboarding-guide
+    - text: 'Verificați fabrica și sistemul de calitate'
+      href: /ro/proof-center

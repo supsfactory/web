@@ -1,0 +1,108 @@
+meta:
+  title: 'Dezvoltarea produsului SUP — Design personalizat, prototip și producție'
+  description: 'Dezvoltarea produsului SUP de la concept la livrare: specificații, inginerie, prototipare, testare, matrițare și producție de masă într-o fabrică dedicată de SUP.'
+  dateModified: '2026-08-10'
+  keywords:
+    - 'dezvoltare produs sup'
+    - 'dezvoltare prototip sup'
+    - 'design sup personalizat'
+    - 'inginerie produs sup'
+    - 'prototipare sup gonflabil'
+
+hero:
+  tagline: Dezvoltarea produsului
+  title: 'Dezvoltarea personalizată a produsului SUP, de la concept la container'
+  subtitle: 'Șase etape transformă ideea dumneavoastră de produs în table SUP gata de producție — specificații, inginerie, prototipare, testare, matrițare și producție de masă, toate într-o singură fabrică, cu un singur sistem de calitate responsabil.'
+
+answer:
+  label: 'Răspuns direct'
+  text: 'Dezvoltarea produsului SUP la iSupfactory parcurge șase etape — specificarea produsului, inginerie structurală, eșantionarea prototipului, testare și validare, matrițare personalizată și producție de masă. Prima probă fizică se expediază la 7–12 zile după aprobarea specificațiilor; producția durează 25–35 de zile după confirmarea comenzii și a avansului; dezvoltarea matrițelor noi adaugă 15–20 de zile.'
+  verified: 'Septembrie 2026'
+
+stages:
+  title: 'Cele șase etape ale dezvoltării produsului SUP'
+  subtitle: 'Fiecare etapă are un rezultat clar, astfel încât să știți întotdeauna unde se află proiectul — și ce urmează să primească.'
+  items:
+    - title: '1. Idee și specificare a produsului'
+      description: 'Geometria tablei, intervalul de greutate al vâslașului, volumul, țintele de construcție și pachetul de accesorii. O tablă de referință, o schiță sau specificațiile unui competitor sunt suficiente pentru a începe.'
+      icon: 'tabler:bulb'
+    - title: '2. Inginerie și proiectare 3D'
+      description: 'Inginerie structurală, grosimea drop-stitch și alegerea tipului de PVC, plus o analiză de productibilitate și ofertă — returnate în termen de o zi lucrătoare.'
+      icon: 'tabler:blueprint'
+    - title: '3. Eșantionarea prototipului'
+      description: 'Prima dumneavoastră probă fizică se expediază în 7–12 zile, însoțită de un proces-verbal de aprobare care acoperă construcția, culorile de imprimare și rezultatele testului de presiune.'
+      icon: 'tabler:tools'
+    - title: '4. Testare și validare'
+      description: 'Test de menținere a presiunii, rezistența cusăturilor și verificări dimensionale față de proba aprobată, cu documentația CE și REACH pregătită pentru piețele dumneavoastră țintă.'
+      icon: 'tabler:test-pipe'
+    - title: '5. Matrițare și producție de masă'
+      description: 'Dezvoltarea matrițelor personalizate în 15–20 de zile, atunci când este necesară; producția durează 25–35 de zile, cu puncte de control al calității în proces și trasabilitate pe lot.'
+      icon: 'tabler:settings'
+    - title: '6. Livrare și extindere'
+      description: 'Logistică FOB, CIF sau DDP către peste 50 de țări — apoi comenzi de repetare pe linia dumneavoastră stabilită, cu termene constante și articole grafice aprobate, păstrate în fișierele noastre.'
+      icon: 'tabler:truck-delivery'
+
+why_inhouse:
+  title: 'De ce dezvoltarea în fabrică este superioară unui proiect intermediar'
+  subtitle: 'Lucrul de dezvoltare desfășurat în interiorul halei de producție schimbă ceea ce primiți la fiecare etapă.'
+  items:
+    - title: Fără goluri în predarea proiectului
+      description: 'Echipa de inginerie și de proiectare lucrează în aceeași hală cu linia de sudură — o modificare de desen ajunge în producție în aceeași săptămână, nu după un circuit comercial de lungă durată.'
+      icon: 'tabler:handshake'
+    - title: 'Probe care corespund producției'
+      description: 'Rularea probelor și rularea de masă folosesc aceleași utilaje, aceleași materiale și aceleași posturi de control al calității, astfel încât proba aprobată este ceea ce primiți efectiv la volumul unui container.'
+      icon: 'tabler:stack-2'
+    - title: 'Inginerie care nu vinde nimic inutil'
+      description: 'Deciziile se iau în raport cu costul, greutatea și durabilitatea țintă — nu în raport cu marjele de supralicitare, deoarece aceasta este o fabrică, iar singura sursă de venit este producția.'
+      icon: 'tabler:scale'
+    - title: 'Confidențialitate ca obligație permanentă'
+      description: 'Se semnează un NDA înainte de orice schimb de fișiere, iar articolele grafice, matrițele și fișierele de specificații rămân proprietatea dumneavoastră — niciodată reutilizate, revândute sau prezentate altui client.'
+      icon: 'tabler:lock'
+
+buyer_guides:
+  tagline: "Ghiduri pentru cumpărători"
+  title: 'Biblioteca completă de sourcing'
+  subtitle: 'Fiecare etapă a unui proiect SUP personalizat, explicată folosind termenele, condițiile și documentația noastră reală.'
+  items:
+    - title: 'Private label: ghidul complet pas cu pas'
+      body: 'De la alegerea unei fabrici până la un container livrat — traseul complet în șase etape pentru brandurile noi.'
+      href: '/ro/news/private-label-sup-guide'
+    - title: 'Cum să alegeți un producător OEM de SUP'
+      body: 'Întrebările de audit care separă o fabrică reală de un intermediar: certificări, control al calității, probe și proprietate.'
+      href: '/ro/news/how-to-choose-sup-oem-manufacturer'
+    - title: 'Termenul de dezvoltare a produsului SUP'
+      body: 'Proba în 7–12 zile, producția în 25–35 de zile, matrițarea plus 15–20 — calendarul complet, etapă cu etapă.'
+      href: '/ro/news/custom-sup-development-timeline'
+    - title: 'Informații de pregătit înainte de comandă'
+      body: 'Cele cinci detalii care permit unei fabrici să ofere un preț exact din prima evaluare — și evită retușarea specificațiilor.'
+      href: '/ro/news/info-needed-before-sup-production'
+    - title: 'MOQ și prețuri OEM pentru SUP'
+      body: 'Nivelurile de MOQ pentru etapele de probă (1–2), pilot (20–50) și volum (90–100+ pe rolă de 150 m), cei șase factori de cost și cinci moduri de a reduce costurile fără a afecta calitatea.'
+      href: '/ro/news/sup-oem-moq-pricing'
+    - title: 'Certificarea CE pentru SUP gonflabile'
+      body: 'Ce include efectiv marcajul CE, cele cinci documente pe care trebuie să le solicitați și cum să verificați că un certificat menționează modelul dumneavoastră.'
+      href: '/ro/news/ce-certification-inflatable-sup'
+    - title: 'Expediere: FOB, CIF sau DDP'
+      body: 'Ce include și ce costă fiecare incoterm, termenul de 4–6 săptămâni pentru transportul maritim și clauza potrivită modelului dumneavoastră de afacere.'
+      href: '/ro/news/private-label-sup-oem-guide'
+
+faq_section:
+  tagline: Întrebări frecvente
+  title: 'Întrebări frecvente despre dezvoltarea SUP'
+  questions:
+    - q: Puteți dezvolta un produs SUP pornind de la o idee?
+      a: 'Da. Susținem traseul complet, de la specificarea produsului și inginerie până la dezvoltarea prototipului, personalizare și producție de masă, pe baza cerințelor dumneavoastră. O schiță, o tablă de referință sau chiar specificațiile unui competitor sunt suficiente pentru a începe evaluarea de inginerie.'
+    - q: Cât costă dezvoltarea produsului SUP?
+      a: 'Evaluarea specificațiilor și analiza de inginerie sunt gratuite și se returnază în termen de o zi lucrătoare. Eșantionarea prototipului se cotează per proiect după fixarea specificațiilor; prețul producției depinde de materiale, volum și necesitatea unor matrițe personalizate.'
+    - q: Cât durează dezvoltarea produsului SUP?
+      a: 'Prima probă se expediază la 7–12 zile după aprobarea specificațiilor, cu 3–7 zile pentru fiecare rundă de revizuire. Producția durează 25–35 de zile după comanda fermă și avansul. Dezvoltarea matrițelor personalizate adaugă 15–20 de zile la început, iar transportul maritim adaugă 4–6 săptămâni pentru majoritatea destinațiilor.'
+    - q: Ce vine primul — proba sau producția?
+      a: 'Întotdeauna proba. Un prototip fizic este produs, măsurat și aprobat față de specificații înainte de a începe orice rulare de producție. Nu realizăm producție de masă pentru proiecte neaprobate.'
+    - q: Semnați un NDA pentru dezvoltarea produsului?
+      a: 'Da. Se semnează un NDA înainte de orice schimb de fișiere, iar desenele, articolele grafice și matrițele dumneavoastră rămân proprietatea dumneavoastră pe tot parcursul dezvoltării și producției.'
+    - q: Puteți proteja designul și specificațiile mele de SUP?
+      a: 'Designurile, specificațiile și conceptele de produs ale clienților sunt tratate cu confidențialitate pe durata dezvoltării și producției. Fișierele de matriță nu sunt niciodată reutilizate, revândute sau prezentate altui client.'
+
+cta:
+  title: 'Inițiați proiectul dumneavoastră de produs SUP'
+  subtitle: 'Trimiteți o schiță, o tablă de referință sau specificații — evaluarea de inginerie și oferta sunt returnate în termen de o zi lucrătoare.'

@@ -1,0 +1,85 @@
+meta:
+  title: 'Capacitate de producție — Fabrica de 12,500 m² | {SITE}'
+  description: 'Capacitatea fabricii VATRAD: instalație de 12,500 m² care produce 120,000+ de plăci SUP pe an, cu spațiu de extindere. Producție OEM/ODM la scară mare de SUP gonflabile.'
+  dateModified: '2026-08-07'
+  keywords:
+    - 'capacitate de producție SUP'
+    - 'fabrică de SUP gonflabile'
+    - 'producție de plăci de paddle'
+    - 'fabrică SUP China'
+hero:
+  tagline: Capacitate de producție
+  title: Capacitate de producție și rezultat anual
+  subtitle: Instalație de 12,500 m² care produce 120,000+ de plăci SUP pe an, cu spațiu de extindere
+
+answer:
+  label: 'Răspuns direct'
+  text: 'Capacitatea fabricii: 12,500 m² repartizate în patru ateliere specializate, 120,000+ de plăci SUP pe an, 350+ de lucrători pe două ture, cu exporturi către 50+ de țări. MOQ-ul este confirmat în funcție de configurația proiectului — mostră (1–2 unități), lot pilot (20–50 unități) și volum standard (90–100+ unități pe rolă de 150 m); pentru logica completă, consultați ghidul nostru MOQ și branding flexibil. Termen de livrare 25–35 de zile, mostre în 7–12 zile.'
+  verified: 'Septembrie 2026'
+
+intro: VATRAD operează una dintre cele mai mari instalații specializate în producția de SUP gonflabile din Qingdao, China. Fabrica noastră de 12,500 m² este organizată în patru ateliere specializate care funcționează în paralel. Capacitatea anuală pentru SUP este de 120,000+ de plăci SUP gonflabile (aproximativ 10.000 pe lună), iar pe linii de produs separate se produc 50,000+ de veste de salvare și 5,000+ de accesorii.
+
+highlights:
+  - value: 12,500 m²
+    label: Suprafață totală de producție
+    detail: În 4 ateliere specializate
+  - value: 120,000+
+    label: Capacitate SUP anuală
+    detail: Plăci SUP gonflabile, aproximativ 10.000/lună
+  - value: 350+
+    label: Forță de muncă specializată
+    detail: 25+ ingineri, 2 ture pe zi
+  - value: 50+
+    label: Țări de export
+    detail: UE, SUA, Australia, Orientul Mijlociu, Asia
+  - value: 25–35
+    label: Termen de livrare standard (zile)
+    detail: După confirmarea comenzii și a avansului
+  - value: 10+
+    label: Ani de experiență în export
+    detail: Din 2012
+
+workshops:
+  - title: Producția de plăci SUP
+    description: '4 linii automate de asamblare pentru plăci SUP gonflabile, cu un rezultat cumulat de aproximativ 10.000 de plăci pe lună. Posturile de tipărire digitală și serigraficie funcționează simultan. Capacitate SUP anuală: 120,000+ de plăci.'
+    output: '120,000+ SUP/an'
+  - title: Producția de plăci SUP — linii de extindere
+    description: 'Linii automate suplimentare pentru plăci SUP, activate pe măsură ce crește volumul. Lipirea miezelor drop-stitch, tipărirea digitală și posturile de asamblare funcționează simultan.'
+    output: 'O parte din capacitatea anuală de 120,000+ de plăci SUP'
+  - title: Accesorii SUP și asamblare mixtă
+    description: 'Linii de asamblare multifuncționale pentru accesorii SUP — vâsle, aripioare, cordoane de siguranță, genți și seturi. Posturile de sudare cu aer cald, presele dielectrice RF și posturile de asamblare sunt reconfigurate în funcție de combinația comenzilor. Capacitate anuală pentru accesorii: 5,000+ de unități.'
+    output: '5,000+ accesorii/an'
+  - title: Echipament de siguranță
+    description: 'Zonă separată de producție în curățenie ridicată pentru veste de salvare și echipament de siguranță. Posturi dedicate de cusătură, inserare a spumierii și testare. Capacitate anuală pentru veste de salvare: 50,000+ de unități.'
+    output: '50,000+ veste de salvare/an'
+
+oem_capacity:
+  moq: 'SUP: mostră 1–2 | pilot 20–50 | volum 90–100+ (pe rolă de 150 m)'
+  lead_time: 'Standard 25–35 de zile. Mostră 7–12 zile. Posibilitate de realizare urgentă.'
+  payment: 'T/T 30% avans + 70%valoare reziduală. Se acceptă și L/C, Western Union.'
+
+lead_time_explainer:
+  tagline: 'Planificare și programare'
+  title: 'Cum se traduce capacitatea în termenul dumneavoastră de livrare'
+  subtitle: 'Capacitatea nu este o singură cifră — iată cum se alocă efectiv termenele de livrare.'
+  items:
+    - title: 'Capacitatea variază în funcție de specificații'
+      body: 'Spațiile disponibile se modifică în funcție de tipul plăcii, de complexitatea construcției, de ambalare și de cererea sezonieră. În perioada de vârf din primăvara și vara, liniile funcționează aproape la capacitate maximă, iar sloturile pentru mostre se ocupă primele.'
+    - title: 'Planificați dinaintea sezonului dumneavoastră de lansare'
+      body: 'Blocați din timp confirmarea mostrei și înghețarea graficii. Comenzile de repetare sunt programate în slotul recurent convenit odată cu arhivarea mostrei de referință.'
+    - title: 'Trei trasee de programare'
+      body: 'Mostrele intră mai întâi pe linia de prototipuri, primele comenzi sunt programate în cea mai apropiată fereastră liberă de asamblare, iar comenzile de repetare sunt executate în slotul lor recurent.'
+    - title: 'Termeni de livrare fermi după evaluare'
+      body: 'Confirmăm un termen de livrare ferm doar după evaluarea specificațiilor, graficii, ambalării și cantității — niciodată ca promisiune fixă în avans.'
+
+cta:
+  title: 'Verificați disponibilitatea de producție pentru data dumneavoastră de lansare'
+  subtitle: 'Trimiteți tipul plăcii, cantitatea și data vizată de expediție — vă răspundem cu următoarea fereastră de producție liberă și o estimare fermă a termenului de livrare.'
+  actions:
+    - variant: primary
+      text: Verificați disponibilitatea
+      href: /ro/contact#production-availability
+    - text: Consultați prezentarea completă a fabricii
+      href: /ro/factory
+    - text: Cum sunt construite plăcile
+      href: /ro/factory/process

@@ -1,0 +1,100 @@
+meta:
+  title: 'Despre VATRAD — divizia de producție marine'
+  description: 'VATRAD este divizia de producție marine a Qingdao Vatrad Group, înființată în 2012 în Qingdao, China — fabrica din spatele fiecărui proiect personalizat iSupfactory.'
+  dateModified: '2026-08'
+  keywords:
+    - 'VATRAD'
+    - 'fabrică SUP China'
+    - 'producător SUP gonflabil'
+    - 'qingdao vatrad group'
+hero:
+  tagline: Despre VATRAD
+  title: 'VATRAD — divizia de producție marine din spatele {SITE}'
+  subtitle: 'Înființată în 2012 în Qingdao, China, VATRAD construiește ambarcatiunile gonflabile și plăcile SUP care stau la baza proiectelor personalizate iSupfactory — o fabrică de 12,500 m², 350+ de lucrători și o capacitate anuală de 120,000+ de unități.'
+  actions:
+    - text: 'Inițiați un proiect personalizat'
+      href: /ro/contact
+      variant: primary
+    - text: 'Vizitați fabrica'
+      href: /ro/factory
+      variant: secondary
+intro: |
+  <p><strong>VATRAD</strong> este divizia de producție marine a <strong>Qingdao Vatrad Group Co., Ltd.</strong>, cu sediul în Zona de Dezvoltare Economică din Laixi, Qingdao, Shandong, China. Înființată în 2012, compania a pornit ca un atelier specializat în construcția de ambarcatiuni, cu un angajament ferm față de meșteriile marine, și a evoluat într-o fabrică certificată care deservește clienți OEM și ODM din peste 50 de țări.</p>
+  <p>iSupfactory este divizia de dezvoltare personalizată B2B a fabricii VATRAD. Fiecare proiect iSupfactory — de la primul mostră sau de la o serie mică cu marcă comună până la o linie completă de produse private-label — este produs în aceeași instalație, de aceleași echipe și în conformitate cu același sistem de calitate descris aici.</p>
+  <p>Fabrica ocupă 12,500 m² și include ateliere dedicate tăierii PVC, asamblării miezelor drop-stitch, sudării de înaltă frecvență, montajului plăcilor și unei zone de testare pentru verificările de etanșitate la aer, menținere a presiunii și rezistență a cusăturilor. Capacitatea de producție depășește 120.000 de unități gonflabile pe an, iar instalația funcționează în conformitate cu managementul calității ISO 9001, cu CE, BSCI, REACH și conformitate aprobată de USCG pentru produsele exportate.</p>
+  <p>Peste 350 de lucrători calificați și 14+ ingineri de cercetare și dezvoltare susțin cele două direcții care contează pentru mărcile SUP: ingineria (proiectarea corpului, selecția materialelor, prototiparea) și producția (aplicarea graficii, asamblarea, inspecția, ambalarea pentru export). Un centru propriu de cercetare și dezvoltare, cu un laborator de țesătură PVC și un bazin de încercări, gestionează matrițele personalizate și validarea structurilor înainte de începerea producției de serie.</p>
+stats:
+  title: VATRAD în cifre
+  stats:
+    - title: Anul înființării
+      amount: 2012
+    - title: Instalație
+      amount: '12,500 m²'
+    - title: Țări deservite
+      amount: '50+'
+    - title: Capacitate anuală
+      amount: '120,000+ unități'
+    - title: Angajați
+      amount: '350+'
+    - title: Ingineri R&D
+      amount: '14+'
+values_section:
+  title: Cum lucrează fabrica cu mărcile
+  subtitle: 'Trei principii care conturează fiecare proiect realizat de fabrica VATRAD.'
+  columns: 3
+  items:
+    - title: Inginerie înainte de producție
+      description: 'Fiecare proiect începe cu cerințe, desene și un mostră fizică — forma corpului, clasa drop-stitch, poziționarea graficii și ambalajul sunt validate înainte de orice serie de producție, nu descoperite pe linie.'
+      icon: 'tabler:settings'
+    - title: O echipă, o instalație
+      description: 'Proiectarea, tăierea, sudarea, asamblarea și testarea au loc într-o singură instalație de 12,500 m². Fără predări de tip companie de comerț: persoanele care răspund la întrebările dumneavoastră sunt cele care construiesc plăcile dumneavoastră.'
+      icon: 'tabler:building-factory-2'
+    - title: Serii inițiale mici
+      description: 'Producția în loturi mici cu marcă comună începe de la 5–10 unități, iar producția standard de volum rulează cu 90–100+ unități pe lot (o rolă drop-stitch de 150 m), astfel încât mărcile să valideze piața înainte de extindere — cu scule și grafică păstrate pentru comenzile ulterioare.'
+      icon: 'tabler:layers-intersect'
+services_section:
+  title: Ce livrează fabrica
+  subtitle: 'Serviciile de producție disponibile pentru clienții iSupfactory.'
+  columns: 2
+  items:
+    - title: Dezvoltare personalizată SUP
+      description: 'Evaluarea cerințelor, specificații, selecția materialelor, grafică, prototipare, aprobarea mostrei și producția de produse SUP gonflabile personalizate.'
+      icon: 'tabler:bulb'
+    - title: Producție private label
+      description: 'Logo-ul, culorile și ambalajul dumneavoastră pe platforme comerciale deja validate — placa, padsca, accesoriile și cutiile poartă identitatea dumneavoastră, fără nicio marcă a fabricii.'
+      icon: 'tabler:tag'
+    - title: Producție OEM / ODM
+      description: 'Producție completă OEM și ODM de plăci SUP gonflabile, pe baza desenelor clientului sau a proiectelor dezvoltate împreună, inclusiv matrițe personalizate pentru forme noi de placă.'
+      icon: 'tabler:package'
+    - title: Flote pentru instituții
+      description: 'Flote de plăci marcate pentru stațiuni turistice, cluburi, școli și operatori de închiriere, cu accesorii coerente și loturi de producție adaptate flotelor.'
+      icon: 'tabler:users-group'
+certifications_section:
+  title: 'Certificări și conformitate'
+  subtitle: 'Fabrica livrează către UE, SUA și Asia-Pacific în baza unui sistem de conformitate documentat.'
+  columns: 2
+  items:
+    - title: Certificare CE
+      description: 'Liniile de produse SUP gonflabile și ambarcatiuni respectă directivele de siguranță ale Uniunii Europene, cu documentație furnizată pentru fiecare piață.'
+      icon: 'tabler:certificate'
+    - title: Sistem de calitate ISO 9001
+      description: 'Instalația de producție funcționează în baza unui sistem de management al calității ISO 9001, care acoperă inspecția materialelor la intrare, verificările în curs de proces și inspecția finală.'
+      icon: 'tabler:badge-check'
+    - title: Conformitate socială BSCI
+      description: 'Responsabilitatea socială este auditată în baza BSCI, acoperind condițiile de muncă și conformitatea fabricii.'
+      icon: 'tabler:shield-check'
+    - title: Conformitatea materialelor REACH
+      description: 'Materialele respectă reglementarea REACH a Uniunii Europene privind securitatea chimică.'
+      icon: 'tabler:flask'
+    - title: Aprobare USCG
+      description: 'Producție de ambarcatiuni gonflabile aprobată de Garda de Coastă a Statelor Unite.'
+      icon: 'tabler:anchor'
+    - title: Testarea produselor
+      description: 'Testarea flotoabilității, a capacității de încărcare, a rezistenței cusăturilor, a rezistenței la radiații UV, a rezistenței la abraziune și a menținerii presiunii pe fiecare linie de producție.'
+      icon: 'tabler:test-pipe'
+cta:
+  title: 'Dezvoltați proiectul dumneavoastră SUP împreună cu fabrica VATRAD'
+  subtitle: 'Trimiteți cerințele — tipul plăcii, dimensiunile, cantitatea și grafica — și primiți o ofertă detaliată în termen de o zi lucrătoare.'
+  actions:
+    - text: Identitatea de marcă
+      href: /ro/about/identity

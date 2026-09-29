@@ -1,0 +1,49 @@
+badge: Ultimele cercetări
+heading: Centrul de cunoștințe
+description: Cercetare tehnică detaliată despre materialele, construcția, standardele de siguranță și procesul de producție al plăcilor SUP și al ambarcațiunilor gonflabile
+topics:
+  - slug: drop-stitch-technology
+    category: Tehnologie
+    readTime: 8 minute de lectură
+  - slug: pvc-vs-hypalon
+    category: Materiale
+    readTime: 10 minute de lectură
+  - slug: ce-certification-guide
+    category: Conformitate
+    readTime: 7 minute de lectură
+  - slug: sup-thickness-guide
+    category: Inginerie
+    readTime: 6 minute de lectură
+  - slug: oem-buyer-guide
+    category: Aprovizionare
+    readTime: 12 minute de lectură
+  - slug: sup-manufacturing-process
+    category: Producție
+    readTime: 10 minute de lectură
+  - slug: eva-foam-technology
+    category: Materiale
+    readTime: 7 minute de lectură
+  - slug: uv-printing-vs-eva-block
+    category: Tehnologie
+    readTime: 6 minute de lectură
+  - slug: fusion-lamination-vs-glue
+    category: Producție
+    readTime: 8 minute de lectură
+  - slug: sup-valve-types
+    category: Inginerie
+    readTime: 6 minute de lectură
+  - slug: fin-systems-guide
+    category: Inginerie
+    readTime: 7 minute de lectură
+  - slug: board-hull-design
+    category: Inginerie
+    readTime: 9 minute de lectură
+  - slug: quality-testing-standards
+    category: Conformitate
+    readTime: 8 minute de lectură
+  - slug: sup-paddle-technology
+    category: Echipamente
+    readTime: 7 minute de lectură
+  - slug: military-grade-pvc-specs
+    category: Materiale
+    readTime: 8 minute de lectură

@@ -1,0 +1,69 @@
+meta:
+  title: 'Cum funcționează certificarea CE pentru plăcile SUP gonflabile'
+  description: 'Cum funcționează certificarea CE pentru SUP-uri gonflabile, bărci și kayakuri: directive (2013/53/EU RCD, EPP 2016/425), testare, organisme notificate și dosare tehnice.'
+  author: 'iSupfactory'
+  datePublished: '2026-08-04'
+  dateModified: '2026-08-07'
+back_text: 'Înapoi la cercetare'
+
+hero:
+  tagline: 'Conformitate'
+  title: 'Cum funcționează certificarea CE pentru SUP-uri și kayakuri gonflabile'
+  subtitle: '7 min de citit'
+
+answer:
+  label: 'Răspuns direct'
+  text: 'SUP-urile gonflabile intră sub incidenta Directivei europene privind ambarcatiunile de recreație 2013/53/EU atunci când lungimea corpului de apă depășește 2.5 m, iar în cazul unor ambarcatiuni mai mici, sub incidenta Directivei privind siguranța generală a produselor. Certificarea costă aproximativ 13,000&ndash;31,000 EUR și durează 8&ndash;14 săptămâni pentru un prim produs: dosar tehnic, teste de tip efectuate de un organism notificat, audit al fabricii și apoi Declarația de conformitate.'
+  verified: 'Septembrie 2026'
+
+content_html: |
+  <h2>Ce este certificarea CE?</h2>
+  <p>Marcajul CE (Conformitate Europeană) arată că un produs îndeplinește cerințele europene privind sănătatea, siguranța și protecția mediului. Pentru ambarcatiunile gonflabile, cadrul de reglementare aplicabil depinde de categoria produsului.</p>
+
+  <h2>Directivele aplicabile</h2>
+
+  <h3>Directiva privind ambarcatiunile de recreație (2013/53/EU)</h3>
+  <p>Directiva principală pentru majoritatea bărcilor, placilor SUP și kayakurilor gonflabile. Se aplică ambarcatiunilor de recreație cu lungimea corpului de apă între 2.5 m și 24 m, bărcilor parțial finalizate (pentru livrări OEM) și vehiculelor acvatice personale.</p>
+
+  <h3>Regulamentul privind echipamentul de protecție individuală (2016/425)</h3>
+  <p>Vestele de salvare, mijloacele de flotabilitate și echipamentul de siguranță furnizate împreună cu ambarcatiunile trebuie să respecte cerințele Regulamentului privind EPI, inclusiv examinarea de tip (Modulul B) efectuată de un organism notificat și asigurarea calității producției (Modulul D sau E).</p>
+
+  <h2>Procesul de certificare</h2>
+  <ol>
+    <li>Clasificarea produsului: stabilirea categoriei de construcție a ambarcatiunii (A – D conform ISO 8666)</li>
+    <li>Standarde aplicabile: EN ISO 6185 (Părțile 1 – 4), EN ISO 10087 (HIN), EN ISO 14945 (placa constructorului)</li>
+    <li>Pregătirea dosarului tehnic: desene de proiectare, listă de materiale (BOM), certificate de material, evaluarea riscului</li>
+    <li>Testele de tip: flotabilitate, stabilitate, capacitate de încărcare, încercarea materialelor, rezistența cusăturilor, reținerea aerului</li>
+    <li>Controlul producției în fabrică: auditul proceselor de producție de către organismul notificat</li>
+    <li>Declarația de conformitate: producătorul semnează DoC și aplică marcajul CE</li>
+  </ol>
+
+  <h2>Organisme notificate pentru ambarcatiuni gonflabile</h2>
+  <p>Organismele notificate uzuale includ Bureau Veritas (Franța), DNV GL (Germania), RINA (Italia), TÜV Rheinland și TÜV SÜD (Germania).</p>
+
+  <h2>Termene și costuri</h2>
+  <table class="w-full text-sm border-collapse">
+    <thead>
+      <tr class="bg-gray-100">
+        <th class="p-3 text-left font-semibold text-gray-900 border">Etapă</th>
+        <th class="p-3 text-left font-semibold text-gray-900 border">Durată</th>
+        <th class="p-3 text-left font-semibold text-gray-900 border">Cost tipic (EUR)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td class="p-3 border">Pregătirea dosarului tehnic</td><td class="p-3 border">2 – 4 săptămâni</td><td class="p-3 border">2,000 – 5,000</td></tr>
+      <tr><td class="p-3 border">Testele de tip</td><td class="p-3 border">4 – 8 săptămâni</td><td class="p-3 border">8,000 – 20,000</td></tr>
+      <tr><td class="p-3 border">Auditul fabricii</td><td class="p-3 border">1 – 2 zile (la fața locului)</td><td class="p-3 border">3,000 – 6,000</td></tr>
+      <tr><td class="p-3 border">Total (primul produs)</td><td class="p-3 border">8 – 14 săptămâni</td><td class="p-3 border">13,000 – 31,000</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Ce înseamnă acest lucru pentru cumpărători</h2>
+  <p>Când achiziționați plăci gonflabile cu certificare CE, verificați întotdeauna dacă marcajul CE figurează pe placa constructorului, dacă există o DoC validă, dacă numărul Organismului Notificat este înscris și dacă manualul de utilizare conține instrucțiunile de siguranță în limba dumneavoastră. Toate produsele Vatrad sunt livrate cu certificare CE și cu trasabilitate completă până la rapoartele de audit ale organismelor notificate.</p>
+  <p>Certificarea face parte din fiecare lot de producție al uzinei noastre din Qingdao — consultați <a href="/ro/factory">fluxul de control al calității și de testare din fabrică</a> și modul în care sprijinim <a href="/ro/oem-manufacturing">conformitatea CE pentru partenerii OEM și private label</a>.</p>
+
+cta:
+  title: 'Necesitați sprijin pentru certificarea CE?'
+  subtitle: 'Gestionăm certificarea pentru partenerii OEM din întreaga lume.'
+  button_text: 'Inițiați procesul de certificare'
+  button_link: /ro/contact

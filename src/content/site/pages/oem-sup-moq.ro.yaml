@@ -1,0 +1,70 @@
+meta:
+  title: "MOQ pentru SUP gonflabile — explicarea cantităților minime de comandă"
+  description: "Niveluri clare de MOQ pentru producția personalizată de SUP gonflabile: 5–10 pentru marcă comună, 20–50 lot pilot, 90–100+ volum pe rolă. Arbore decizional în funcție de gradul de personalizare."
+  dateModified: "2026-08-20"
+
+sections:
+  - title: "Răspuns direct"
+    directAnswer:
+      answer: "Loturile pilot pe platforme existente încep de la 20–50 bucăți; MOQ-ul pentru volum standard este de 90–100+ bucăți pe rolă drop-stitch de 150 m (aproximativ 180–220 de plăci)."
+      condition: "MOQ-ul concret depinde de forma plăcii, de rola de material, de tipărire, de ambalare și de necesitatea unei matrițe noi."
+      value: "5–10 marcă comună · 20–50 lot pilot · 90–100+ pe rolă, volum"
+      verifiedDate: "Septembrie 2026"
+      sourceType: "factory-record"
+    body: |
+      MOQ-ul la iSupfactory este stabilit pe niveluri, în funcție de gradul de personalizare, și
+      nu reprezintă o singură valoare fixă.
+      Fiecare nivel corespunde unui scenariu de producție precis:
+
+      | Scenariu | MOQ | Unitate | Condiție |
+      |----------|-----|------|-----------|
+      | Platformă existentă, doar suprapunere de logo | 5–10 bucăți | pe design | Aceeași formă, aceeași rolă de material, aceeași variantă de culoare |
+      | Grafică / EVA / ambalaj personalizat pe platformă existentă | 20–50 bucăți | lot pilot | Aceeași formă; grafică nouă implică probă vizuală |
+      | Producție standard de volum (orice platformă) | 90–100+ bucăți | pe rolă de 150 m (aproximativ 180–220 de plăci) | Pe rolă de material; mai multe SKU-uri înseamnă role separate |
+      | Formă nouă / matriță personalizată | 90–100+ bucăți | serie de producție | Matrița adaugă 15–20 de zile; taxă unică pentru matriță |
+
+  - title: "Ce se consideră o „rolă de material”?"
+    body: |
+      O rolă de 150 de metri de țesătură drop-stitch produce aproximativ 180–220 de plăci, în
+      funcție de dimensiunile plăcii (de regulă 10–11 ft). Fiecare SKU distinct — adică fiecare
+      combinație diferită de dimensiune, culoare sau specificație de material — necesită propria
+      rolă și, implicit, propriul MOQ.
+
+      De aceea MOQ-ul este exprimat „pe rolă de 150 m” și nu „pe design”: două variante de
+      culoare ale aceleiași forme de placă reprezintă două role și două MOQ-uri.
+
+  - title: "Marcă comună, lot pilot sau volum"
+    body: |
+      **Marcă comună (5–10 bucăți)**: logo-ul dumneavoastră aplicat pe o platformă existentă,
+      deja utilizată în producție pentru altă marcă. Nicio modificare de grafică în afară de
+      poziționarea logo-ului. Traseul cel mai rapid către o mostră cu marcă.
+
+      **Lot pilot (20–50 bucăți)**: grafică personalizată, design de padsca din EVA sau ambalaj
+      pe o formă de platformă existentă. Necesită aprobarea probei vizuale înainte de producție.
+      Ideal pentru testarea uneinoi identități pe piață.
+
+      **Producție de volum (90–100+ bucăți pe rolă)**: serie completă de producție cu orice
+      combinație de personalizare. Acesta este nivelul comercial standard. Fiecare rolă de
+      material rezultă aproximativ 180–220 de plăci.
+
+  - title: "MOQ-ul pentru matrițe personalizate"
+    body: |
+      Atunci când proiectul dumneavoastră necesită o formă nouă de placă (nu doar o grafică
+      nouă pe o formă existentă), trebuie creată o matriță dedicată. Aceasta se produce la nivelul
+      de volum (90–100+ bucăți), deoarece investiția în matriță impune o serie de producție
+      pentru amortizare. Realizarea matriței adaugă 15–20 de zile la termenul de livrare standard.
+
+      Dreptul de proprietate asupra matriței: matrița vă aparține. Ea este depozitată la
+      instalația noastră și utilizată exclusiv pentru seriile dumneavoastră de producție.
+
+  - title: "Comenzi de mostre"
+    body: |
+      Mostrele anterioare producției sunt disponibile în cantități de 1–2 plăci, pentru
+      confirmarea ajustărilor și a finisajelor. Acestea sunt construite manual conform
+      specificațiilor dumneavoastră și necesită de regulă 7–12 zile. Costul mostrei se
+      deduce din prima comandă de volum.
+
+evidence_review:
+  tagline: 'Dovezi și verificare'
+  title: 'SPECIFICAȚII VERIFICATE'
+  body: 'Toate afirmațiile de producție de pe această pagină sunt verificate de echipa noastră de Inginerie a Producției la instalația din Laixi, Qingdao. Certificatele, înregistrările inspecției de control al calității, rapoartele de încercări de presiune și rezistență structurală și înregistrările de trasabilitate a loturilor sunt disponibile la cerere. Specificațiile au fost verificate ultima dată în septembrie 2026.'

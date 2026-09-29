@@ -1,0 +1,82 @@
+meta:
+  title: 'Furnizor de echipamente SUP pentru închiriere și soluții pentru flote'
+  description: 'Plăci SUP comerciale proiectate pentru utilizare zilnică la închiriere: PVC rezistent la UV, cusături armate și materiale cu uscare rapidă pentru flote de închiriere cu rotire mare.'
+  dateModified: '2026-08'
+
+hero:
+  tagline: Operatori de închiriere
+  title: 'Plăci SUP proiectate pentru flote de închiriere'
+  subtitle: 'Specificați o flotă care rezistă la utilizarea zilnică la închiriere: plăci cu rotire mare, PVC rezistent la UV, cusături armate și materiale cu uscare rapidă — proiectate pentru 365 de zile de utilizare pe an.'
+  image:
+    src: https://assets.isupfactory.com/images/sups/use-cases/isupfactory-family-use-case.webp
+    alt: Plăci SUP pregătite și gata pentru utilizare zilnică la închiriere
+
+answer:
+  label: 'Răspuns direct'
+  text: 'Plăcile pentru flote de închiriere sunt construite cu PVC marin rezistent la UV, cusături cu o rezistență de 3 ori mai mare decât construcția standard și miezuri drop-stitch clasificate pentru 15 PSI — testate pentru 500+ cicluri de închiriere. MOQ este confirmat în funcție de configurația proiectului: mostră (1–2 bucăți), pilot (20–50 bucăți) și volum standard (90–100+ bucăți pe lot dintr-o rolă de 150 m); producția durează 25–35 de zile după PO și avans, cu termeni FOB, CIF sau DDP.'
+  verified: 'Septembrie 2026'
+
+features:
+  title: Proiectate pentru uzul intens de închiriere
+  subtitle: 'Fiecare placă este proiectată pentru 500+ cicluri de închiriere, cu întreținere minimă.'
+  items:
+    - title: '500+ cicluri de închiriere'
+      description: 'Testate pentru a rezista la utilizare zilnică în apă sărată, la soare și la nisip.'
+      icon: 'tabler:shield-check'
+    - title: 'Material rezistent la UV'
+      description: 'Fără decolorare sau degradare după 1 an de depozitare în aer liber.'
+      icon: 'tabler:sun'
+    - title: 'Cusături armate'
+      description: 'Construcție cu cusături armate, gândită pentru rotația zilnică la închiriere și pentru cicluri repetate de umflare.'
+      icon: 'tabler:layers-intersect'
+    - title: 'Materiale cu uscare rapidă'
+      description: 'Materialele cu uscare rapidă mențin plăcile pregătite pentru următoarea închiriere între sesiuni.'
+      icon: 'tabler:droplet'
+    - title: 'Depozitare stivuită'
+      description: 'Design stivuibil, care economisește spațiu — încălcați mai multe plăci în aceeași zonă de depozitare.'
+      icon: 'tabler:stack'
+    - title: 'Dimensiuni codificate prin culori'
+      description: 'Personalul preia imediat placa potrivită datorită dimensionării codificate prin culori.'
+      icon: 'tabler:color-swatch'
+
+stats:
+  title: Indicatori operaționali
+  stats:
+    - title: Sala de producție
+      amount: '12,500 m²'
+    - title: Test de presiune
+      amount: '18 PSI / 24h'
+    - title: Checklist de asamblare
+      amount: '100 puncte'
+    - title: Expediere piese
+      amount: '48h'
+
+fleet_guide:
+  title: Ghid pentru dimensionarea flotei
+  subtitle: 'Estimați de câte plăci are nevoie operațiunea dumneavoastră în funcție de rotația zilnică de închiriere.'
+  tiers:
+    - label: Chioșc mic
+      boards: '15-20'
+      note: 'Până la 2–3 rotații de plăci pe zi în sezonul de vârf'
+    - label: Operațiune de dimensiune medie
+      boards: '30-50'
+      note: 'Puncte multiple de plecare sau trafic intens în weekend'
+    - label: Închiriere mare pe plajă
+      boards: '50-100'
+      note: 'Flote de închiriere cu servicii complete pe mai multe stații de plajă'
+
+content_html: |
+  <div class="mx-auto max-w-3xl space-y-4 rounded-2xl border bg-card p-6 text-[14.5px] leading-relaxed text-fg-2">
+    <p><strong>Continuați lectura:</strong> plăcile pentru închiriere pornesc de la specificațiile dumneavoastră — consultați <a href="/ro/oem-manufacturing">programul nostru OEM/ODM</a> pentru personalizare, MOQ-uri de probă reduse și prețuri de flotă. Fiecare placă trece prin <a href="/ro/factory">linia de producție</a> de 12,500 m&sup2; și este testată la presiune în proporție de 100% înainte de expediție.</p>
+  </div>
+
+cta:
+  title: 'Specificați flota dumneavoastră de închiriere'
+  subtitle: 'Trimiteți cerințele flotei sau comparați platformele de placă pentru operațiunea dumneavoastră.'
+  actions:
+    - text: 'Trimiteți cerințele flotei'
+      href: '/ro/contact'
+      variant: 'primary'
+    - text: 'Comparați platformele de placă'
+      href: '/ro/inflatable-vs-hardboard'
+      variant: 'secondary'

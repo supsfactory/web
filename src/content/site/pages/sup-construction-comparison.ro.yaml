@@ -1,0 +1,123 @@
+meta:
+  title: 'Comparația construcțiilor SUP — PVC cu un strat vs. două straturi vs. drop-stitch | iSupfactory'
+  description: 'Comparația construcțiilor de plăci SUP gonflabile: PVC cu un strat, PVC cu două straturi și miez drop-stitch — rigiditate, greutate, durabilitate, preț și cel mai potrivit caz de utilizare.'
+  dateModified: '2026-08-21'
+  keywords:
+    - 'comparație construcții SUP'
+    - 'tipuri de construcție SUP gonflabil'
+    - 'SUP cu un strat vs. două straturi'
+    - 'construcție SUP drop-stitch'
+    - 'construcție PVC SUP'
+    - 'rigiditatea plăcilor SUP'
+    - 'greutatea plăcilor SUP'
+
+hero:
+  tagline: 'Ghid de construcție'
+  title: 'Comparația construcțiilor SUP'
+  subtitle: 'Trei tipuri de construcție, o singură linie de producție. Înțelegeți compromisurile de rigiditate, greutate, durabilitate și cost dintre plăcile SUP din PVC cu un strat, PVC cu două straturi și cu miez drop-stitch — și care dintre ele se potrivește vâslașului țintă și poziționării dumneavoastră de piață.'
+
+answer:
+  label: 'Comparație rapidă'
+  text: 'PVC-ul cu un strat este cel mai ușor și cel mai accesibil — ideal pentru vâslași ocazionali și piețe sensibile la preț. PVC-ul cu două straturi adaugă un al doilea strat de PVC pentru rigiditate și durabilitate la o greutate moderată — alegerea standard a industriei pentru flote de închiriere și mărci de segment mediu. Miezul drop-stitch cu înveliș PVC oferă rigiditatea și toleranța la presiune maxime — preferat pentru aplicațiile de performanță, surf și vâslași de talie mare. Toate cele trei construcții sunt produse pe aceeași linie de producție, cu aceleași etape de control al calității; diferența constă în materiale și în etapele de laminare.'
+  verified: 'Septembrie 2026'
+
+comparison_table:
+  tagline: 'Alături de alături'
+  title: 'Tipuri de construcție comparate'
+  headers:
+    - 'Atribut'
+    - 'PVC cu un strat'
+    - 'PVC cu două straturi'
+    - 'Miez drop-stitch + înveliș PVC'
+  rows:
+    - - 'Rigiditate (PSI nominal)'
+      - '12–15 PSI'
+      - '15–18 PSI'
+      - '18–25 PSI'
+    - - 'Greutate (placă de 11 ft)'
+      - '7–9 kg'
+      - '10–13 kg'
+      - '12–15 kg'
+    - - 'Durabilitate'
+      - 'Bună — utilizare recreativă'
+      - 'Foarte bună — închiriere și comercial'
+      - 'Excelentă — performanță și vâslași de talie mare'
+    - - 'Straturi de construcție'
+      - '1 strat PVC + miez drop-stitch'
+      - '2 straturi PVC + miez drop-stitch'
+      - 'Drop-stitch armat + înveliș PVC + bandă de bordură'
+    - - 'Caz de utilizare tipic'
+      - 'Nivel de intrare, ocazional, piețe sensibile la preț'
+      - 'All-around, închiriere, cluburi, mărci de segment mediu'
+      - 'Tură, surf, vâslași de talie mare, mărci premium'
+    - - 'Cost relativ'
+      - 'Cel mai scăzut'
+      - 'Mediu'
+      - 'Mai ridicat'
+    - - 'Metodă de sudare'
+      - 'Cusături etanșate termic prin RF'
+      - 'Cusături etanșate termic prin RF + laminare'
+      - 'Cusături etanșate termic prin RF + borduri armate'
+    - - 'Standardul de test de presiune'
+      - 'Test de menținere la 18.0 PSI'
+      - 'Test de menținere la 18.0 PSI'
+      - 'Test de menținere la 18.0 PSI (nominal mai mare)'
+
+use_cases:
+  tagline: 'Ce construcție pentru ce cumpărător'
+  title: 'Potriviți construcția cu piața dumneavoastră țintă'
+  subtitle: 'Alegerea construcției nu este doar o decizie de cost — ea definește experiența vâslașului, profilul de risc în garanție și poziționarea de marcă pe care o puteți susține.'
+  grid: 'sm:grid-cols-3'
+  features:
+    - icon: S
+      icon_bg: blue
+      title: 'Un strat pentru intrare și volum'
+      desc: 'Cea mai ușoară placă, la cel mai mic preț. Ideală pentru mărci care se adresează cumpărătorilor de prima dată, retailului de mare suprafață și platformelor de vânzări online, unde prețul este principalul factor de decizie. Rigiditate acceptabilă pentru vâslere pe ape calme, la presiuni moderate. Rată de cereri de garanție mai mică atunci când este folosită în intervalul nominal de presiune.'
+      link_label: 'Vezi plăcile OEM de nivel de intrare'
+      href: /ro/oem-manufacturing
+    - icon: D
+      icon_bg: green
+      title: 'Două straturi pentru închiriere și comercial'
+      desc: 'Construcția de bază pentru flote de închiriere, cluburi, stațiuni turistice și programe școlare. Stratul suplimentar de PVC rezistă la impacturi, expunere la UV și manipulare zilnică, factori care distrug plăcile cu un singur strat în medii comerciale. Toleranța mai mare la presiune înseamnă o deplasare mai rigidă pentru vâslașii mai grei. Cel mai popular nivel de construcție la nivel mondial.'
+      link_label: 'Soluții pentru închiriere și stațiuni'
+      href: /ro/solutions/resort-sup
+    - icon: P
+      icon_bg: purple
+      title: 'Miez drop-stitch pentru performanță'
+      desc: 'Rigiditate maximă pentru tură, surf, pescuit și aplicații cu vâslași de talie mare. Construcția de bordură armată și valoarea nominală PSI mai mare oferă performanțe de tip placă rigidă într-un ambalaj portabil. Preferată de mărcile de performanță și de vâslașii cu experiență. Cost de material mai mare, dar o poziționare de marcă mai puternică și o rată de garanție mai mică pe unitate.'
+      link_label: 'Dezvoltarea plăcilor de performanță'
+      href: /ro/odm-manufacturing
+
+key_factors:
+  heading: 'Factori-cheie dincolo de tipul de construcție'
+  body: |
+    Tipul de construcție este o variabilă în performanța plăcii. Alți trei factori contează la fel de mult sau mai mult:
+
+    - **Densitatea drop-stitch** — firele pe inch determină cât de uniform își păstrează placa forma sub presiune. Folosim 96 fire/inch în standard și 140 fire/inch pentru construcțiile de performanță. Densitate mai mare = placă mai plată = glisare mai bună.
+    - **Calitatea și grosimea PVC-ului** — Nu toate tipurile de PVC sunt egale. PVC-ul de 0.7 mm importat din Coreea are o rezistență la sfâșiere și la UV mai mare decât alternativele mai subțiri. Specificăm calitatea materialului proiect cu proiect.
+    - **Construcția bordurii** — Bordurile cu un singur strat reprezintă punctul de cedare cel mai frecvent pe plăcile ieftine. Benzile de bordură armate, la două straturi, reduc dramatic riscul de perforare a bordurii. Toate plăcile noastre folosesc borduri armate, indiferent de nivelul de construcție.
+
+faqs:
+  tagline: FAQ
+  title: 'Construcția SUP — întrebări frecvente'
+  items:
+    - q: 'Ce tip de construcție ar trebui să aleg pentru marca mea?'
+      a: 'Depinde de piața țintă și de poziționarea prețului. Nivel de intrare și retail de mare suprafață: un strat. Flote de închiriere, cluburi și mărci de segment mediu: două straturi. Performanță, tură și premium: miez drop-stitch. Majoritatea mărcilor pornesc cu două straturi, ca cel mai bun echilibru între cost, durabilitate și experiența vâslașului. Vă recomandăm în funcție de piața dumneavoastră specifică în etapa de analiză a fezabilității.'
+    - q: 'Pot oferi mai multe niveluri de construcție sub aceeași marcă?'
+      a: 'Da — multe mărci oferă două sau trei niveluri. Noi producem toate cele trei construcții pe aceeași linie, cu aceleași etape de control al calității, astfel încât puteți combina tipuri de construcție într-o singură comandă. Forma carenei și grafica pot fi identice în toate nivelurile; se schimbă doar construcția și materialele.'
+    - q: 'Care este standardul de test de presiune pentru toate construcțiile?'
+      a: 'Fiecare placă, indiferent de tipul de construcție, trece un test de menținere la 18.0 PSI cu respingere automată la o cădere de presiune de peste 0.50 PSI în 24 de ore. Plăcile cu un strat sunt nominale pentru o presiune de vâslire de 12–15 PSI, cele cu două straturi pentru 15–18 PSI, iar cele cu miez drop-stitch pentru 18–25 PSI. Presiunea de test depășește presiunea nominală pentru toate tipurile.'
+    - q: 'Cum influențează construcția cererile de garanție?'
+      a: 'Plăcile cu un singur strat au rate de cereri de garanție ușor mai mari în utilizare comercială sau la închiriere, din cauza expunerii bordurii și a perforărilor. Construcțiile cu două straturi și cu miez drop-stitch au rate de cereri semnificativ mai mici. Furnizăm date de garanție pe nivel, extrase din înregistrările noastre de producție, în etapa de ofertare.'
+
+cta:
+  title: 'Aveți nevoie de ajutor pentru alegerea construcției potrivite?'
+  subtitle: 'Spuneți-ne vâslașul țintă, nivelul de preț și piața — vă vom recomanda nivelul de construcție și vă vom furniza mostre pentru evaluare.'
+  actions:
+    - variant: primary
+      text: Începeți brieful de proiect
+      href: /ro/contact#project-brief
+    - text: 'Vezi detaliile producției OEM'
+      href: /ro/oem-manufacturing
+    - text: 'Comparați OEM, ODM și Private Label'
+      href: /ro/oem-odm-private-label-comparison

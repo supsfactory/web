@@ -1,0 +1,113 @@
+meta:
+  title: 'Garanția de producție OEM și asigurarea calității produselor | {SITE}'
+  description: 'Condițiile garanției de producție OEM pentru plăcile SUP gonflabile și produsele marine fabricate de iSupfactory: defecte acoperite, durată, înregistrări documentate pe lot și modul în care sunt tratate cererile.'
+  keywords:
+    - 'garanție OEM'
+    - 'garanție de producție'
+    - 'garanție fabrică SUP'
+    - 'asigurarea calității produselor'
+    - 'garanție sup gonflabil'
+label: 'Garanție OEM'
+headline: 'Garanția de producție OEM și asigurarea calității produselor'
+subtitle: 'Fiecare placă pe care o fabricăm este construită pe baza unei mostre aprobate și a unor înregistrări documentate pe lot. Această garanție definește ce garantăm pentru produsele fabricate sub marca dumneavoastră și modul în care cererile sunt analizate în raport cu aceste înregistrări.'
+seo:
+  headline: 'Garanția de producție OEM și asigurarea calității produselor | iSupfactory'
+  description: 'Garanție de producție pentru plăcile SUP gonflabile și alte produse marine produse de iSupfactory: acoperire de 5 ani pentru materialul tubului principal, cusături și integritatea structurală a miezului drop-stitch, plus supapele de umflare și accesoriile montate în fabrică.'
+  datePublished: '2024-01-01'
+  dateModified: '2026-09-23'
+body: |
+  <p class="text-lg text-gray-600 dark:text-gray-400 mb-8">
+    Această Garanție de Producție se aplică plăcilor SUP gonflabile, kayacurilor și produselor marine gonflabile fabricate de iSupfactory — divizia de producție marine a Qingdao Vatrad Group Co., Ltd. — în cadrul programelor OEM, ODM și private label. Data de intrare în vigoare este data de producție a lotului sau data de expediție, verificabilă și agreată în comanda de achiziție. Cumpărătorul (proprietarul mărcii) stabilește politica de garanție pentru utilizatorii finali din piața sa; această garanție reprezintă garanția fabricii asupra mărfurilor așa cum sunt fabricate.
+  </p>
+
+  <div class="bg-sky-50 dark:bg-gray-900 border border-sky-200 dark:border-gray-800 rounded-xl p-6 mb-10">
+    <h2 class="text-xl font-bold mb-3">Acoperirea și durata garanției de producție</h2>
+    <div class="grid md:grid-cols-2 gap-4">
+      <div class="bg-white dark:bg-gray-950 rounded-lg p-4 border border-gray-200 dark:border-gray-800">
+        <h3 class="font-bold text-sky-700 dark:text-sky-400">5 ani</h3>
+        <p class="text-sm text-gray-600 mt-1">Integritatea materialului tubului principal (CSM/PVC)</p>
+      </div>
+      <div class="bg-white dark:bg-gray-950 rounded-lg p-4 border border-gray-200 dark:border-gray-800">
+        <h3 class="font-bold text-sky-700 dark:text-sky-400">5 ani</h3>
+        <p class="text-sm text-gray-600 mt-1">Integritatea structurală a carenei din fibră de sticlă (acolo unde se aplică)</p>
+      </div>
+      <div class="bg-white dark:bg-gray-950 rounded-lg p-4 border border-gray-200 dark:border-gray-800">
+        <h3 class="font-bold text-sky-700 dark:text-sky-400">5 ani</h3>
+        <p class="text-sm text-gray-600 mt-1">Capacitatea cusăturilor tuburilor gonflabile de a reține aerul</p>
+      </div>
+      <div class="bg-white dark:bg-gray-950 rounded-lg p-4 border border-gray-200 dark:border-gray-800">
+        <h3 class="font-bold text-sky-700 dark:text-sky-400">5 ani</h3>
+        <p class="text-sm text-gray-600 mt-1">Funcționalitatea supapelor de umflare</p>
+      </div>
+      <div class="bg-white dark:bg-gray-950 rounded-lg p-4 border border-gray-200 dark:border-gray-800">
+        <h3 class="font-bold text-sky-700 dark:text-sky-400">1 an</h3>
+        <p class="text-sm text-gray-600 mt-1">Accesorii montate în fabrică și piese auxiliare de montaj</p>
+      </div>
+      <div class="bg-white dark:bg-gray-950 rounded-lg p-4 border border-gray-200 dark:border-gray-800">
+        <h3 class="font-bold text-amber-700 dark:text-amber-400">1 an*</h3>
+        <p class="text-sm text-gray-600 mt-1">Utilizare comercială, de închiriere sau de flotă — toate componentele</p>
+      </div>
+    </div>
+    <p class="text-xs text-gray-500 mt-4">*Utilizarea comercială, guvernamentală, de exploatare turistică, de închiriere sau didactică reduce garanția la 1 an. Utilizarea în curse sau competiții anulează integral garanția, cu excepția cazului în care o configurație specifică pentru curse este acoperită în mod explicit de contractul de achiziție.</p>
+  </div>
+
+  <h2>Ce este acoperit</h2>
+  <h3>Materialul tubului principal (5 ani)</h3>
+  <p>Fabrica garantează materialul principal al tubului împotriva deteriorării porozității care afectează în mod semnificativ capacitatea produsului de a menține umflarea operațională. Aceasta se aplică țesăturii acoperite cu CSM (Hypalon) și tuturor celorlalte materiale de tub folosite la fabricare.</p>
+
+  <h3>Integritatea structurală a carenei din fibră de sticlă (5 ani)</h3>
+  <p>Pentru produsele cu o carenă din plastic armat cu fibră de sticlă (FRP), structura compozită fundamentală este garantată împotriva cedării structurale cauzate de defecte de material sau de manoperă.</p>
+
+  <h3>Capacitatea cusăturilor tuburilor gonflabile de a reține aerul (5 ani)</h3>
+  <p>Cusăturile tuburilor gonflabile, acolo unde sunt sudate în timpul producției, sunt garantate împotriva defectelor de fabricare care provoacă pierderi semnificative de aer prin cusătură. Inspecția periodică și menținerea la presiunile de umflare corespunzătoare reprezintă condiții ale acoperirii.</p>
+
+  <h3>Funcționalitatea supapelor de umflare (5 ani)</h3>
+  <p>Supapele de umflare montate original în timpul producției sunt garantate împotriva defectelor de fabricare privind materialele sau manoperele care împiedică supapa să rețină aerul conform proiectării.</p>
+
+  <h3>Accesorii montate în fabrică (1 an)</h3>
+  <p>Componentele și piesele montate în fabrică sunt garantate împotriva defectelor de material și manoperă timp de un an. Excluzând elementele de la terți, care sunt acoperite exclusiv prin garanțiile proprii ale producătorilor lor.</p>
+
+  <h2>Ce nu este acoperit</h2>
+  <ul>
+    <li>Defecte estetice, inclusiv decolorarea, pătarea, estomparea, efectul de cretă sau orice modificare a aspectului</li>
+    <li>Perforări, tăieturi, sfâșieri, rupturi sau alte deteriorări fizice</li>
+    <li>Crăpare de suprafață, fisurare, abraziune, zgârieturi sau deteriorare prin frecare sau contact</li>
+    <li>Degradarea cauzată de expunerea la radiații UV, intemperii sau condiții atmosferice</li>
+    <li>Deteriorări cauzate de contactul cu combustibili, solvenți, acizi, baze sau substanțe chimice</li>
+    <li>Deteriorări cauzate de neglijență, utilizare necorespunzătoare, abuz, accident sau uzură normală</li>
+    <li>Probleme ale suprafeței de gelcoat sau vopsea (bule, crăpare de suprafață, decolorare, estompare)</li>
+    <li>Deteriorări cauzate de impact, suprasolicitare, sprijinire necorespunzătoare sau remorcare</li>
+    <li>Deteriorări cauzate de umflare/dezumflare incorectă sau de utilizarea unor dispozitive de umflare neaprobate</li>
+    <li>Echipamente, componente sau sisteme de la terți (acoperite de producătorii lor respectivi)</li>
+  </ul>
+
+  <h2>Obligația și remedierea producătorului</h2>
+  <p>Singura obligație exclusivă a fabricii este repararea sau înlocuirea, la alegerea sa, a oricărei componente considerate defecte din punct de vedere al materialelor sau al manoperelor și acoperite de prezenta garanție. Reparațiile sau înlocuirile sunt efectuate de fabrică sau de centrul de service desemnat de fabrică. Componentele reparate sau înlocuite sunt garantate doar pentru perioada rămasă din termenul original al garanției.</p>
+
+  <h2>Condițiile garanției</h2>
+  <ul>
+    <li><strong>Referința lotului:</strong> Cererile trebuie să facă trimitere la comanda de achiziție, la numărul lotului sau la intervalul de numere de serie, astfel încât fabrica să poată extrage înregistrările de inspecție corespunzătoare.</li>
+    <li><strong>Linia de bază a specificațiilor:</strong> Cererile sunt evaluate față de mostra aprobată, specificația tehnică, grafica și BOM-ul înghețate pentru lotul respectiv — aceleași repere folosite la producție.</li>
+    <li><strong>Mentenanță:</strong> Produsul trebuie întreținut conform ghidurilor de îngrijire publicate, inclusiv inspecția și menținerea periodică a presiunilor de umflare corespunzătoare.</li>
+    <li><strong>Cooperare:</strong> Solicitantul trebuie să coopereze integral și prompt cu fabrica în toate aspectele legate de cererile de garanție, inclusiv inspecția unităților afectate.</li>
+    <li><strong>Politica de garanție a cumpărătorului:</strong> Cumpărătorul, în calitate de proprietar al mărcii, definește programul de garanție pentru utilizatorii finali din piața sa. Această garanție de producție reprezintă ceea ce datornește fabrica pentru mărfurile așa cum sunt fabricate.</li>
+  </ul>
+
+  <h2>Utilizare comercială</h2>
+  <p>Dacă produsul este utilizat în scopuri comerciale, guvernamentale, non-profit, de exploatare turistică, de închiriere, didactice sau în orice alt scop decât utilizarea recreativă privată, termenul de garanție pentru toate componentele se reduce la un (1) an de la data de intrare în vigoare. Utilizarea în competiții de viteză sau de anduranță anulează integral garanția, cu excepția cazului în care o configurație specifică pentru curse este acoperită în mod explicit de contractul de achiziție.</p>
+
+  <h2>Cum se depune o cerere de garanție</h2>
+  <p>Contactați iSupfactory cu numărul comenzii de achiziție sau cu referința lotului și cu o descriere detaliată a problemei, inclusiv numerele de serie ale plăcilor, acolo unde acestea sunt disponibile. Fabrica va analiza cererea în raport cu înregistrările lotului și vă va furniza instrucțiuni pentru inspecție și reparații.</p>
+  <p>Pentru solicitări legate de garanție, contactați-ne prin <a href="/ro/contact" class="text-sky-600 underline">pagina noastră de contact</a>, cu numărul comenzii și detaliile produsului.</p>
+
+  <div class="bg-sky-50 dark:bg-gray-900 border border-sky-200 dark:border-gray-800 rounded-xl p-6 my-10">
+    <h2 class="text-xl font-bold mb-3">Sustinută de un sistem de calitate documentat</h2>
+    <p class="text-sm text-gray-600 dark:text-gray-400">Fiecare placă este testată înainte de ambalare — <a href="/ro/factory/quality-inspection" class="text-sky-600 underline">etapele de inspecție în 7 etape</a> înregistrează rezultatele pe fiecare număr de serie, iar loturile păstrează trasabilitate ERP timp de 10 ani. Cererile de garanție sunt analizate în raport cu aceste înregistrări pe lot, nu pe baza presupunerilor. Consultați <a href="/ro/quality" class="text-sky-600 underline">sistemul complet de calitate</a> și descărcați <a href="https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_FQC_TEST_REPORTS.pdf" class="text-sky-600 underline">rapoartele reale de inspecție finală</a>.</p>
+  </div>
+
+  <h2>Elemente de la terți</h2>
+  <p>Echipamentele, componentele sau sistemele fabricate de terți (chiar dacă sunt montate de fabrică) sunt acoperite exclusiv de garanția oferită de producătorul lor respectiv. Fabrica declină explicit orice responsabilitate de garanție pentru asemenea elemente de la terți.</p>
+
+  <p class="text-sm text-gray-500 mt-8 border-t border-gray-200 dark:border-gray-800 pt-6">
+    Prezenta declarație de garanție este o sinteză a condițiilor garanției de producție ale fabricii pentru programele OEM, ODM și private label. Contractul de achiziție complet guvernează toți termenii și condițiile de garanție. Specificațiile sunt supuse modificării fără notificare prealabilă. iSupfactory este divizia de producție a Qingdao Vatrad Group.
+  </p>

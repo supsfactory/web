@@ -1,0 +1,100 @@
+meta:
+  title: 'Conformitatea SUP pe piețe — cerințe CE, REACH, RoHS, BSCI, ISO 9001 | iSupfactory'
+  description: 'Ghid de conformitate pentru plăcile SUP gonflabile, pe piețe: CE (UE), CPSIA (SUA), AS/NZS (AU), ISO 9001, BSCI, REACH și RoHS — domeniu și documente pentru fiecare piață.'
+  dateModified: '2026-08-21'
+  keywords:
+    - 'conformitate SUP pe piețe'
+    - 'certificare CE SUP'
+    - 'reglementări SUP gonflabil'
+    - 'conformitate REACH SUP'
+    - 'conformitate RoHS SUP'
+    - 'audit fabrică BSCI SUP'
+    - 'producător SUP ISO 9001'
+
+hero:
+  tagline: 'Ghid de conformitate'
+  title: 'Conformitatea SUP pe piețe'
+  subtitle: 'Fiecare piață țintă are cerințe distincte de certificare, etichetare și documentație. Acest ghid cartografiază peisajul conformității pentru plăcile SUP gonflabile pe principalele piețe — UE, America de Nord, Australia și dincolo — astfel încât să specificați domeniul corect la momentul ofertării, nu după producție.'
+
+answer:
+  label: 'Răspuns rapid'
+  text: 'Pentru UE: marcajul CE este obligatoriu pentru plăcile vândute în Spațiul Economic European — noi certificăm modelele destinate piețelor UE, cu domeniul confirmat proiect cu proiect. Pentru SUA: se aplică CPSIA și reglementările statale privind VOC. Pentru Australia: conformitate cu AS/NZS 1586. Pentru toate piețele: ISO 9001 (fabrică), BSCI (audit social), REACH și RoHS (materiale) sunt standard în producția noastră, indiferent de destinație. Domeniul de conformitate și costurile sunt defalcate în ofertă — fără surprize după producție.'
+  verified: 'Septembrie 2026'
+
+market_cards:
+  tagline: 'Cerințe pe regiuni'
+  title: 'Cerințe de conformitate pe piața țintă'
+  subtitle: 'Domeniul de certificare este confirmat proiect cu proiect în etapa de analiză a fezabilității. Mai jos sunt cerințele tipice pe piețe.'
+  grid: 'sm:grid-cols-2 lg:grid-cols-4'
+  features:
+    - icon: EU
+      icon_bg: blue
+      title: 'Uniunea Europeană'
+      desc: 'Marcajul CE este obligatoriu. REACH (securitate chimică), RoHS (substanțe restricționate), certificare de fabrică ISO 9001. Încărcări specifice produsului, conform directivei PPE sau directivei pentru ambarcațiuni recreative, după caz. Etichetare în limba oficială a țării de destinație. Audit social BSCI disponibil.'
+    - icon: US
+      icon_bg: green
+      title: 'Statele Unite'
+      desc: 'Conformitate CPSIA (siguranța produselor de consum). California Prop 65 și reglementările statale privind emisiile de VOC pentru PVC și adezivi. Fără echivalent federal CE. Încărcări ASTM disponibile la cerere. Cerințe de etichetare FTC pentru țara de origine și conținutul materialelor.'
+    - icon: AU
+      icon_bg: purple
+      title: 'Australia și Noua Zelelendă'
+      desc: 'AS/NZS 1586 pentru ambarcațiuni gonflabile. Garanțiile Legii australiene a consumatorului. Documentație de import și evaluare a conformității conform cerințelor Australian Border Force. Documentație de securitate chimică echivalentă REACH. Audit social BSCI disponibil.'
+    - icon: GL
+      icon_bg: orange
+      title: 'Global / Multi-pieță'
+      desc: 'Certificare de fabrică ISO 9001:2015 (auditată anual). Audit de conformitate socială BSCI. Conformitate materială REACH și RoHS în toată producția, indiferent de destinație. Trasabilitate la nivel de lot și rapoarte de încercări disponibile pentru orice piață. Domeniu de certificare personalizat, confirmat proiect cu proiect.'
+
+certifications_detail:
+  heading: 'Domeniul nostru de certificare'
+  body: |
+    Următoarele certificări sunt deținute sau disponibile în producția noastră. Domeniul de certificare aplicabil proiectului dumneavoastră este confirmat în etapa de analiză a fezabilității și defalcat în ofertă.
+
+    - **ISO 9001:2015** — Sistemul de management al calității în fabrică, auditat anual de un terț acreditat. Acoperă întregul proces de producție, de la inspecția materialelor la recepție până la ambalarea finală.
+    - **Marcaj CE** — Aplicat modelelor destinate piețelor UE. Încărcări și documentație conform directivei UE aplicabile. Domeniul este confirmat proiect cu proiect — nu toate modelele necesită același domeniu CE.
+    - **BSCI** — Audit al Inițiativei pentru Conformitate Socială în Afaceri. Acoperă drepturile de muncă, siguranța la locul de muncă, conformitatea de mediu și etica afacerilor. Disponibil pentru toate piețele.
+    - **REACH** — Regulamentul UE privind securitatea chimică. Toate materialele din PVC, adheziv și acoperire respectă REACH. Documentația substanțelor și rapoartele de încercări sunt disponibile pe lot.
+    - **RoHS** — Directiva privind restricționarea substanțelor periculoase. Toate accesoriile electronice (pompe cu motor, accesorii cu LED) respectă RoHS. Materialele plăcilor respectă cerințele în mod intrinsec.
+
+compliance_process:
+  tagline: 'Cum funcționează conformitatea în comanda dumneavoastră'
+  title: 'Conformitatea în fluxul de integrare'
+  subtitle: 'Conformitatea nu este un element adăugat ulterior — este integrată în fiecare etapă a procesului de integrare.'
+  grid: 'sm:grid-cols-2 lg:grid-cols-3'
+  features:
+    - icon: 1
+      icon_bg: blue
+      title: 'Etapa 1: Confirmarea domeniului'
+      desc: 'La solicitare, specificați piețele țintă. Noi confirmăm ce certificări, încercări și documente se aplică produsului și destinației dumneavoastră specifice. Domeniul de conformitate și costurile asociate sunt defalcate în ofertă.'
+    - icon: 2
+      icon_bg: green
+      title: 'Etapa 3: Certificarea mostrelor'
+      desc: 'Mostrele sunt produse conform domeniului de conformitate confirmat. Dacă sunt necesare încercări în laboratoare independente (CE, CPSIA, AS/NZS), coordonăm testele prin laboratoare acreditate. Rapoartele de încercări sunt livrate împreună cu mostra.'
+    - icon: 3
+      icon_bg: purple
+      title: 'Etapa 7: Pachetul de documentație'
+      desc: 'Fiecare comandă de producție se expediază cu un pachet de documentație de conformitate: certificate de conformitate, rapoarte de încercări, înregistrări de trasabilitate pe lot, date de securitate a materialelor și conformitatea etichetării. Documentația este specifică fiecărei piețe.'
+
+faqs:
+  tagline: FAQ
+  title: 'Conformitatea SUP — întrebări frecvente'
+  items:
+    - q: 'Toate plăcile SUP necesită marcaj CE?'
+      a: 'Marcajul CE este obligatoriu doar pentru plăcile vândute în Spațiul Economic European. Noi certificăm modelele destinate piețelor UE, cu domeniul confirmat proiect cu proiect. Plăcile expediate către piețe din afara UE nu poartă marcaj CE, cu excepția cazului în care îl solicitați în mod explicit.'
+    - q: 'Materialele dumneavoastră respectă REACH și RoHS?'
+      a: 'Da. Toate materialele din PVC, adheziv și acoperire respectă REACH. Toate accesoriile electronice (pompe cu motor, accesorii cu LED) respectă RoHS. Materialele de construcție a plăcilor respectă RoHS în mod intrinsec. Documentația substanțelor și rapoartele de încercări sunt disponibile pe lot, la cerere.'
+    - q: 'Puteți gestiona certificarea pentru o piață care nu apare aici?'
+      a: 'Da. Am livrat în peste 50 de țări și putem coordona certificarea și documentația pentru majoritatea piețelor. Indicați-ne țara de destinație la solicitare și vă vom confirma domeniul specific de conformitate și orice încercări sau documente suplimentare necesare.'
+    - q: 'Cum sunt tratate costurile de conformitate?'
+      a: 'Domeniul de conformitate și costurile asociate (încărcări în laboratoare independente, taxe de certificare) sunt defalcate în ofertă în etapa de analiză a fezabilității. Fără taxe de conformitate după producție. Certificările standard (ISO 9001, BSCI) sunt de nivel de fabrică și nu adaugă cost pe unitate.'
+
+cta:
+  title: 'Specificați cerințele dumneavoastră de conformitate'
+  subtitle: 'Spuneți-ne piețele țintă și vă vom confirma domeniul de certificare, cerințele de încercare și pachetul de documentație — defalcate în ofertă.'
+  actions:
+    - variant: primary
+      text: Începeți brieful de proiect
+      href: /ro/contact#project-brief
+    - text: 'Verificați certificările și sistemul de calitate'
+      href: /ro/proof-center
+    - text: 'Procesul de integrare OEM'
+      href: /ro/oem-onboarding-guide

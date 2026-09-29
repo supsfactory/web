@@ -5616,6 +5616,377 @@ export const solutionPages: Localized<SolutionPageData[]> = {
       ctaLabel: 'Okulunuzun SUP Programını Görüşelim',
     },
   ],
+  ro: [
+    {
+      slug: 'custom-sup',
+      navLabel: 'Fabricare SUP personalizate',
+      metaTitle: 'Dezvoltare SUP personalizate | Soluții dedicate pentru plăci de vâslit',
+      metaDescription:
+        'Dezvoltați produse SUP personalizate cu iSupfactory. Sprijinim companiile și organizațiile cu cerințe de produs, personalizare, mostre și producție.',
+      kicker: 'Producător de SUP personalizate',
+      serviceType: 'Dezvoltare de produse SUP personalizate',
+      answer:
+        'Dezvoltăm SUP-uri umflabile, plăci rigide și accesorii personalizate conform cerinței dumneavoastră — formă, grafică, materiale și ambalaj — de la inginerie și mostre până la producție. Proiectele personalizate pornesc de la 90–100+ buc. per rolă de 150 m (volum); mostrele se expediază în 7–12 zile, iar producția durează 25–35 de zile după confirmarea comenzii și a avansului.',
+      h1: 'Produse SUP personalizate, construite conform cerințelor dumneavoastră',
+      intro: [
+        'Aveți nevoie de plăci de vâslit construite conform specificațiilor proprii — formă, grafică, materiale, ambalaj — fără să operați o fabrică proprie. Suntem partenerul de producție care preia cerința dumneavoastră și livrează un produs gata de predare.',
+        'Fiecare proiect este coordonat de un specialist dedicat care gestionează designul, mostrele, producția și livrările, astfel încât să știți întotdeauna în ce stadiu se află comanda.',
+      ],
+      scenario: {
+        title: 'Doriți plăci construite conform specificațiilor proprii',
+        body: 'Nu o alegere din catalog, ci o cerință de produs. Forma preferată, grafica, nivelul de calitate, ambalajul. Proiectăm, realizăm mostre și producem pe platforme dovedite, cu flexibilitate încă de la prima serie mică.',
+      },
+      pairs: [
+        {
+          problem: 'Catalogele fabricilor oferă doar modele standard, pe care nu le puteți modifica.',
+          solution: 'Producem plăci personalizate cu formele, graficele și specificațiile dumneavoastră — de la prima mostră până la seriile complete de producție.',
+        },
+        {
+          problem: 'Cantitățile minime mari vă blochează în stoc înainte de validarea pieței.',
+          solution: 'Producția personalizată în volum pornește de la 90–100+ buc. pe model, iar seriile pilot pe platforme existente pornesc de la 20–50 buc. — astfel, primele serii rămân mici, iar prețul unitar rămâne corect.',
+        },
+        {
+          problem: 'Nu aveți în echipă un departament de design sau de inginerie.',
+          solution: 'Echipa noastră proprie de design și inginerie transformă o idee, o schiță sau o placă de referință în desene tehnice gata de producție.',
+        },
+        {
+          problem: 'Calitatea fabricii este necunoscută, iar comunicarea este lentă.',
+          solution: 'Un specialist de proiect preia de la început până la sfârșit mostrele, etapele de control al calității și termenele de livrare — un singur punct de contact și actualizări clare.',
+        },
+      ],
+      steps: [
+        { title: 'Trimiteți proiectul', body: 'Descrieți-ne cerințele sau trimiteți schițe și imagini de referință.' },
+        { title: 'Design și mostră', body: 'Dezvoltăm desenele tehnice și expediem o mostră fizică în 7–12 zile.' },
+        { title: 'Aprobare și producție', body: 'După aprobarea dumneavoastră, producția durează 25–35 de zile, cu control al calității în mai multe puncte.' },
+        { title: 'Livrare și recomandări', body: 'Export global cu ambalaj profesional și suport pentru comenzile repetate, la o calitate constantă.' },
+      ],
+      caseStudy: {
+        title: 'Extinderea gamei de produse a unei mărci outdoor',
+        body: 'O marcă de echipament outdoor a intrat în sporturile de vâslit cu o placă de crocieră proprie. Am dezvoltat placa pornind de la o schiță preliminară, am obținut aprobarea mostrei în 15 zile și am realizat prima serie de producție în 25–35 de zile.',
+        tags: ['Dezvoltare placă', 'Grafică de marcă', 'Prima serie de producție'],
+      },
+      faqs: [
+        {
+          q: 'Puteți dezvolta un produs SUP pornind de la ideea mea?',
+          a: 'Da. Vă ajutăm să evaluăm cerințele și să dezvoltăm o soluție gata de producție — de la concept și desene tehnice până la o mostră fizică.',
+        },
+        {
+          q: 'Pot personaliza grafica și culorile SUP?',
+          a: 'Da. Graficele, culorile și elementele de marcă pot fi dezvoltate conform cerințelor proiectului.',
+        },
+        {
+          q: 'Care este comanda minimă pentru fabricarea SUP personalizate?',
+          a: 'Producția personalizată în volum pornește de la 90–100+ buc. pe model, iar seriile pilot pe platforme existente pornesc de la 20–50 buc. Cantitățile mai mari permit un preț unitar mai bun, iar comenzile repetate păstrează matrițele și desenele.',
+        },
+        {
+          q: 'Ce elemente ale unei plăci pot fi personalizate?',
+          a: 'Forma și dimensiunile, construcția și materialele, grafica și logo-ul, dispunerea suprafeței EVA, accesoriile (vâslă, pompă, husă) și ambalajul.',
+        },
+        {
+          q: 'Oferiți mostre înainte de producție?',
+          a: 'Da — o mostră fizică este produsă și aprobată înainte de orice serie de producție. Termenul pentru realizarea mostrei este, de regulă, de 7–12 zile.',
+        },
+        {
+          q: 'Pot folosi doar materialele de marcă, fără o echipă de design proprie?',
+          a: 'Da. Echipa noastră de design dezvoltă grafică gata de producție pornind de la logo-ul, culorile de marcă sau un concept preliminar.',
+        },
+      ],
+      ctaLevel: 'hot',
+      ctaLabel: 'Discutați proiectul dumneavoastră de SUP personalizate',
+    },
+    {
+      slug: 'private-label-sup',
+      navLabel: 'Plăci SUP cu marcă proprie',
+      metaTitle: 'Producție SUP cu marcă proprie | Fabricare personalizată',
+      metaDescription:
+        'iSupfactory oferă suport pentru producția SUP cu marcă proprie către brandurile existente, ajutând la dezvoltarea produselor SUP personalizate de la specificații până la producție.',
+      kicker: 'Plăci SUP cu marcă proprie',
+      serviceType: 'Producție SUP cu marcă proprie',
+      answer:
+        'Producția cu marcă proprie așază marca dumneavoastră pe platforme SUP dovedite și gata de producție, fără matrițe noi. Alegeți un model de bază, aplicați logo-ul, culorile, ambalajul și accesoriile și comandați de la 90–100+ buc. per rolă de 150 m (volum). Este cea mai rapidă și cea mai puțin riscantă cale de lansare; mostrele durează 7–12 zile, iar producția 25–35 de zile după comandă.',
+      h1: 'Suport pentru producția SUP cu marcă proprie, pentru marca dumneavoastră',
+      intro: [
+        'Producția cu marcă proprie vă permite să lansați o gamă de plăci de vâslit sub marca dumneavoastră, fără investiții în matrițe sau într-o fabrică. Logo-ul, culorile și ambalajul sunt aplicate pe platforme verificate calitativ, iar cantitățile cresc odată cu cererea.',
+        'Ne asumăm partea de produs pentru ca dumneavoastră să vă concentrați pe partea de marcă: designul, ambalajul și gestionarea comenzilor repetate sunt în sarcina noastră.',
+      ],
+      scenario: {
+        title: 'Aveți o marcă și aveți nevoie de un produs sub ea',
+        body: 'O identitate de marcă fără stoc. Doriți o gamă de plăci de vâslit vândabilă, care să poarte numele dumneavoastră, în cantități care corespund etapei afacerii — de la primul lot de validare până la flotele reordonate.',
+      },
+      pairs: [
+        {
+          problem: 'Marca apare doar pe etichetă, iar produsul pare în continuare generic.',
+          solution: 'Integrare completă de marcă: grafică pe placă, logo, dispunerea suprafeței EVA, vâslă, pompă, husă și ambalaj de marcă.',
+        },
+        {
+          problem: 'Primele comenzi vă obligă să achiziționați sute de bucăți pe care s-ar putea să nu le vindeți.',
+          solution: 'Începeți cu un lot pilot de 20–50 bucăți pe o platformă standard, apoi scalați la seria standard de volum de la 90–100+ bucăți — validați piața înaintea loturilor mari.',
+        },
+        {
+          problem: 'Dezvoltarea designului și a ambalajului pare inaccesibilă.',
+          solution: 'Materialele dumneavoastră de marcă sunt transformate de echipa noastră de design în grafică de placă și ambalaj gata de producție.',
+        },
+        {
+          problem: 'Comenziile repetate oscilează din punct de vedere al calității sau al disponibilității.',
+          solution: 'Matrițele și desenele rămân ale dumneavoastră, iar comenzile repetate se realizează pe aceleași platforme verificate, la o calitate constantă.',
+        },
+      ],
+      steps: [
+        { title: 'Prezentați-ne marca', body: 'Trimiteți logo-ul, culorile și orice material de marcă existent.' },
+        { title: 'Dezvoltăm grafica', body: 'Proiectăm grafica plăcii, dispunerea EVA și ambalajul în jurul mărcii dumneavoastră.' },
+        { title: 'Aprobați mostra', body: 'O mostră fizică confirmă culorile, finisajele și ambalajul.' },
+        { title: 'Producere și livrare', body: 'Producția se realizează în cantitatea cerută, iar controlul calității și exportul sunt gestionate de la un capăt la altul.' },
+      ],
+      caseStudy: {
+        title: 'Marcă nouă, prima comandă de producție',
+        body: 'Un retailer de articole sportive a lansat propria gamă de plăci de vâslit pornind doar de la un logo. Am dezvoltat grafica completă a plăcii și a ambalajului, am produs un prim lot de 50 bucăți pentru testarea pieței, apoi am scalat către o comandă completă de producție într-un singur sezon.',
+        tags: ['Dezvoltare de marcă', 'Design de ambalaj', 'Producție scalată'],
+      },
+      faqs: [
+        {
+          q: 'Ce este producția SUP cu marcă proprie?',
+          a: 'Producția SUP cu marcă proprie permite companiilor să vândă produse SUP sub propria marcă, cu specificații personalizate și suport de producție.',
+        },
+        {
+          q: 'Pot brandurile existente să dezvolte produse SUP noi?',
+          a: 'Da. iSupfactory sprijină brandurile care vor să se extindă către produsele SUP — selecția produselor, ajustarea specificațiilor, grafică personalizată și producție.',
+        },
+        {
+          q: 'Ce include un program SUP cu marcă proprie?',
+          a: 'Marca dumneavoastră pe placa propriu-zisă — grafică, logo, suprafață EVA — plus, opțional, vâslă, pompă, rucsac și ambalaj de marcă: un produs complet, vândabil sub numele dumneavoastră.',
+        },
+        {
+          q: 'Se poate modifica designul între comenzi?',
+          a: 'Da. După ce materialele de marcă sunt gata de producție, comenzile repetate pot reînnoi grafica, culorile sau ambalajul în orice moment.',
+        },
+        {
+          q: 'Avem doar un logo. Ne puteți ajuta totuși?',
+          a: 'Da. Echipa noastră de design dezvoltă grafica completă a plăcii și a ambalajului pornind de la logo-ul și culorile mărcii dumneavoastră.',
+        },
+      ],
+      ctaLevel: 'warm',
+      ctaLabel: 'Discutați proiectul cu marcă proprie',
+    },
+    {
+      slug: 'resort-sup',
+      navLabel: 'Plăci de vâslit pentru resorturi',
+      metaTitle: 'Echipament SUP personalizat pentru resorturi | Plăci cu marcă',
+      metaDescription:
+        'Creați echipament SUP personalizat pentru resorturi și hoteluri cu plăci cu marcă, accesorii și suport de producție de la iSupfactory.',
+      kicker: 'Plăci de vâslit pentru resorturi',
+      serviceType: 'Echipament SUP pentru resorturi și hoteluri',
+      answer:
+        'Furnizăm SUP-uri umflabile cu marcă pentru resorturi și hoteluri, construite pentru utilizare zilnică de către oaspeți: construcție drop-stitch de înaltă presiune, suduri sudate RF întărite și cantități minime eșalonate de la 20–50 bucăți pilot până la 90–100+ pentru lansarea flotelor. Plăcile poartă logo-ul și culorile dumneavoastră, iar vă sfătuim privind depozitarea, întreținerea și programele de comenzi repetate.',
+      h1: 'Soluții de echipament SUP personalizat pentru resorturi și hoteluri',
+      intro: [
+        'Flotele de plăci de vâslit pentru resorturi trebuie să reziste utilizării zilnice de către oaspeți, să fie ușor de depozitat între sezone și să poarte marca dumneavoastră. Construim plăci rezistente și prietenoase pentru oaspeți, în culorile dumneavoastră, și structurăm programul de flotă în funcție de operațiunile dumneavoastră.',
+        'Cantitățile sunt recomandate pe baza tiparelor de utilizare, nu a presupunerilor — iar programele de comenzi repetate mențin flota proaspătă de la un sezon la altul.',
+      ],
+      scenario: {
+        title: 'Organizați activități pe apă pentru oaspeți',
+        body: 'Oaspeții așteaptă o experiență memorabilă pe apă, iar echipamentul reprezintă proprietatea dumneavoastră. Aveți nevoie de plăci suficient de rezistente pentru închirierea zilnică, ușor de depozitat și marcate pentru a se potrivi resortului.',
+      },
+      pairs: [
+        {
+          problem: 'Flotele pentru oaspeți se uzează rapid la închirierea zilnică.',
+          solution: 'Construcție pentru grad de închiriere, cu marginile întărite și materiale rezistente la radiațiile UV, concepută pentru sesiuni repetate.',
+        },
+        {
+          problem: 'Spațiul de depozitare este limitat în afara sezonului.',
+          solution: 'Variante umflabile ușor de depozitat, care încap într-un dulap la finalul sezonului.',
+        },
+        {
+          problem: 'Echipamentul pare generic și nu reflectă proprietatea dumneavoastră.',
+          solution: 'Grafică pe întreaga placă, logo și marcaj EVA în culorile resortului — inclusiv accesorii cu marcă.',
+        },
+        {
+          problem: 'Înlocuirea și reînnoirea flotei nu sunt coordonate.',
+          solution: 'Un program de comenzi repetate pentru flotă, cu calitate constantă, suport pentru piese de schimb și recomandări realiste privind cantitățile.',
+        },
+      ],
+      steps: [
+        { title: 'Descrieți operațiunile', body: 'Numărul de oaspeți, linia de țărm, condițiile de depozitare și durata sezonului.' },
+        { title: 'Obțineți un plan de flotă', body: 'Recomandăm tipurile de plăci și cantitățile pe baza tiparelor de utilizare.' },
+        { title: 'Aprobați mostra cu marcă', body: 'Culorile și logo-ul dumneavoastră sunt confirmate pe o placă fizică.' },
+        { title: 'Primiți și întrețineți', body: 'Livrare, piese de schimb și un program de comenzi repetate pentru sezoanele viitoare.' },
+      ],
+      caseStudy: {
+        title: 'Flotă pentru oaspeți la un resort de coastă',
+        body: 'Un resort de coastă a dotat programul său de plajă cu 40 de plăci umflabile cu marcă, în culorile resortului, inclusiv vâsle și pompe cu marcă. Plăcile se depozitează într-un singur dulap în afara sezonului, iar flota a fost reînnoită după al doilea sezon, la aceeași calitate.',
+        tags: ['Flotă cu marcă pentru oaspeți', 'Depozitare umflabilă', 'Reînnoire sezonieră'],
+      },
+      faqs: [
+        {
+          q: 'Pot resorturile personaliza echipamentul SUP cu logo-ul lor?',
+          a: 'Da. Resorturile pot personaliza grafica, culorile și accesoriile conform cerințelor proiectului — aplicarea identității de marcă pe întreaga placă, în culorile proprietății.',
+        },
+        {
+          q: 'Puteți furniza mai multe unități SUP pentru operațiunile unui resort?',
+          a: 'Da. Soluțiile de producție pot fi dezvoltate în funcție de cerințele flotei, de la flotă inițială până la programe de reînnoire sezonieră.',
+        },
+        {
+          q: 'De câte plăci are nevoie un resort?',
+          a: 'Majoritatea resorturilor încep cu 20–50 de plăci și cresc odată cu cererea. Recomandăm cantități pe baza numărului de oaspeți și a liniei de țărm, nu a presupunerilor.',
+        },
+        {
+          q: 'Sunt plăcile umflabile potrivite pentru utilizare în resorturi?',
+          a: 'Da. Plăcile SUP umflabile moderne sunt extrem de rezistente și mult mai ușor de depozitat și transportat — alegerea preferată pentru resorturile cu spațiu de depozitare redus.',
+        },
+        {
+          q: 'Poate flota să poarte logo-ul și culorile noastre?',
+          a: 'Da — grafica pe întreaga placă, imprimarea logo-ului, marcajul suprafeței EVA și accesoriile cu marcă fac parte din programul pentru resorturi.',
+        },
+      ],
+      ctaLevel: 'warm',
+      ctaLabel: 'Solicitați o soluție SUP pentru resortul dumneavoastră',
+    },
+    {
+      slug: 'club-sup',
+      navLabel: 'Plăci de echipă personalizate pentru cluburi',
+      metaTitle: 'Echipament SUP personalizat pentru cluburi și echipe',
+      metaDescription:
+        'iSupfactory oferă soluții de echipament SUP personalizat pentru cluburi, echipe și evenimente, inclusiv grafică, specificații și suport de producție.',
+      kicker: 'Plăci de echipă personalizate pentru cluburi',
+      serviceType: 'Echipament SUP pentru cluburi și echipe',
+      answer:
+        'Cluburile și echipele primesc flotă rezistente și constante, în culorile lor: poziționarea logo-ului, lungimi personalizate ale vâsli și seturi de accesorii pe o singură specificație standardizată a plăcii, astfel încât reparațiile și piesele de schimb să rămână simple la comenzile repetate. Cantitatea minimă pornește de la 90–100+ buc. (volum); sunt disponibile și serii pilot de la 20–50 bucăți pentru validarea inițială a specificației.',
+      h1: 'Echipament SUP personalizat pentru cluburi și echipe',
+      intro: [
+        'Cluburile de vâslit au nevoie de plăci care rezistă antrenamentului zilnic, care arată ca echipa și care rămân constante la comenzile repetate. Producem plăci de echipă personalizate cu denumirea și culorile clubului dumneavoastră, la prețuri potrivite pentru flote.',
+        'Programele pentru cluburi includ și partea practică: piese de schimb, îndrumări privind reparațiile și suport pentru comenzile repetate, la aceeași calitate.',
+      ],
+      scenario: {
+        title: 'Clubul dumneavoastră organizează antrenamente și sesiuni de echipă',
+        body: 'Plăcile sunt folosite zilnic de membri și reprezintă clubul la evenimente și regate. Doriți echipament de echipă durabil, cu identitatea clubului, fără să gestionați singuri relația cu fabrica.',
+      },
+      pairs: [
+        {
+          problem: 'Plăcile de antrenament se degradează sub utilizare intensă și repetată.',
+          solution: 'Construcție întărită, concepută pentru utilizare profesională zilnică, cu îndrumări privind reparațiile și suport pentru piese de schimb.',
+        },
+        {
+          problem: 'Flota arată neuniformă și fără marcă.',
+          solution: 'Denumirea, culorile și logo-ul clubului sunt imprimate pe fiecare placă, pentru o flotă de echipă unitară.',
+        },
+        {
+          problem: 'Extinderea flotei presupune căutarea unor stocuri potrivite.',
+          solution: 'Comenziile repetate se realizează pe aceleași platforme verificate, astfel încât plăcile noi să corespundă celor existente.',
+        },
+        {
+          problem: 'Bugetul flotei este limitat.',
+          solution: 'Prețuri de flotă și un punct de contact dedicat pentru comenzile repetate, piesele de schimb și întrebările de întreținere.',
+        },
+      ],
+      steps: [
+        { title: 'Prezentați clubul', body: 'Numărul de membri, tipurile de sesiuni și echipamentul actual.' },
+        { title: 'Alegeți tipurile de plăci', body: 'Forme de antrenament, pentru începători și de echipă, adaptate programului dumneavoastră.' },
+        { title: 'Adăugați identitatea clubului', body: 'Denumirea, culorile și logo-ul pe plăci și accesorii.' },
+        { title: 'Comandați și extindeți', body: 'Aprovizionarea flotei, piese de schimb și comenzi repetate constante.' },
+      ],
+      caseStudy: {
+        title: 'Reînnoirea flotei unui club',
+        body: 'Un club de vâslit și-a reîmprospătat identitatea și și-a înlocuit flota cu 25 de plăci de antrenament cu marcă și piese de schimb. Membrii se antrenează pe echipament identic, iar clubul a extins flota în sezonul următor printr-o comandă repetată identică.',
+        tags: ['Identitatea clubului', 'Reînnoirea flotei', 'Suport piese de schimb'],
+      },
+      faqs: [
+        {
+          q: 'Pot cluburile de SUP personaliza plăcile de echipă?',
+          a: 'Da. Cluburile pot personaliza grafica, culorile și configurația produsului — denumirea, culorile și logo-ul clubului pe fiecare placă.',
+        },
+        {
+          q: 'Puteți susține producția SUP pentru evenimente?',
+          a: 'Da. Planul de producție poate fi elaborat conform cerințelor evenimentului, inclusiv plăci și accesorii în ediția evenimentului.',
+        },
+        {
+          q: 'Ce plăci sunt cele mai potrivite pentru antrenamentul de club?',
+          a: 'Plăci stabile și rezistente, adaptate nivelului membrilor — forme late pentru începători, folosite la lecții, și forme de crocieră pentru antrenamentul de rezistență.',
+        },
+        {
+          q: 'Oferiți prețuri de flotă pentru cluburi?',
+          a: 'Da — prețurile de volum se aplică flotelor de club, cu un punct de contact dedicat pentru comenzile repetate, piesele de schimb și întrebările de întreținere.',
+        },
+        {
+          q: 'Pot fi reparate sau înlocuite plăcile deteriorate?',
+          a: 'Furnizăm piese de schimb, îndrumări privind reparațiile și suport pentru comenzile repetate, astfel încât flota să rămână constantă.',
+        },
+      ],
+      ctaLevel: 'cold',
+      ctaLabel: 'Discutați proiectul SUP al clubului',
+    },
+    {
+      slug: 'school-sup',
+      navLabel: 'Program de plăci de vâslit pentru școli',
+      metaTitle: 'Echipament SUP pentru școli | Plăci de vâslit personalizate pentru învățământ',
+      metaDescription:
+        'Oferiți soluții sigure și fiabile de echipament SUP pentru școli, tabere și organizații, cu suport de producție personalizat de la iSupfactory.',
+      kicker: 'Program de plăci de vâslit pentru școli',
+      serviceType: 'Echipament SUP pentru școli și programe',
+      answer:
+        'Pentru școli și programe educaționale furnizăm plăci stabile, prietenoase pentru începători, cu indicații de siguranță tipărite, vâsle cu mânere căptușite și accesorii de protecție, dimensionate în funcție de numărul de elevi și de sistemul de depozitare. Lotul de volum standard este de 90–100+ buc. pe rolă de 150 m, cu serii pilot de la 20–50 bucăți; termenele de livrare susțin ciclul de achiziții al școlii.',
+      h1: 'Soluții SUP sigure și fiabile pentru școli și programe',
+      intro: [
+        'Școlile desfășoară sporturile de apă altfel: clase mari, niveluri mixte, cerințe stricte de siguranță și bugete educaționale. Programul nostru pentru școli oferă plăci stabile, prietenoase pentru începători, opțiuni de pachet adaptate dimensiunii claselor și consultanță din perspectiva instructorului.',
+        'Aprovizionarea în vrac și suportul pentru comenzile repetate mențin echipamentul disponibil de la un an la altul pentru noile promoții de elevi.',
+      ],
+      scenario: {
+        title: 'Predați sporturi de apă elevilor',
+        body: 'Clasele sunt mari, iar nivelurile de pregătire diferă. Aveți nevoie de plăci stabile și sigure pentru cei care practică pentru prima dată, de cantități care corespund dimensiunii claselor și de un program de echipament care să se încadreze în bugetul școlii și în ciclul de achiziții.',
+      },
+      pairs: [
+        {
+          problem: 'Elevii au nevoie de stabilitate maximă pe apă.',
+          solution: 'Plăci late, cu volum mare, pentru începători și plăci multipersoane, concepute să fie iertătoare pentru cei care practică pentru prima dată.',
+        },
+        {
+          problem: 'Dimensiunile claselor cer echipament constant la scară largă.',
+          solution: 'Prețuri de program în vrac pentru cantitățile necesare claselor, cu aceeași calitate pe fiecare placă.',
+        },
+        {
+          problem: 'Instructorii gestionează siguranța cu ajutor limitat.',
+          solution: 'Plăcile vin cu instrucțiuni clare de utilizare, iar vă recomandăm cantități și amplasarea în funcție de zona de apă.',
+        },
+        {
+          problem: 'Echipamentul trebuie să reziste mai multor promoții de elevi.',
+          solution: 'Construcție întărită, plus piese de schimb și suport pentru comenzile repetate pe durata vieții programului.',
+        },
+      ],
+      steps: [
+        { title: 'Prezentați programul', body: 'Dimensiunile claselor, zona de apă, organizarea instructorilor și ciclul bugetar.' },
+        { title: 'Construiți pachetul', body: 'Tipuri și cantități de plăci alese pe baza predării, nu a presupunerilor.' },
+        { title: 'Aprobați mostra', body: 'Verificați stabilitatea, construcția și finisajele pe o placă fizică.' },
+        { title: 'Livrați și reînnoiți', body: 'Aprovizionare în vrac, piese de schimb și comenzi repetate pentru noile promoții.' },
+      ],
+      caseStudy: {
+        title: 'Program școlar de sporturi de apă',
+        body: 'O școală a lansat o disciplină opțională de sporturi de apă cu o flotă de 15 plăci pentru începători și plăci multipersoane pentru primele lecții. Instructorii au raportat un progres mai rapid în prima ședință datorită platformelor stabile, iar programul a reînnoit echipamentul în anul următor printr-o comandă repetată identică.',
+        tags: ['Flotă pentru începători', 'Lansarea programului', 'Comenzi de reînnoire'],
+      },
+      faqs: [
+        {
+          q: 'Ce echipament SUP este potrivit pentru școli?',
+          a: 'Alegerea echipamentului SUP depinde de vârsta utilizatorilor, de mediul de utilizare și de cerințele programului — plăcile late și stabile reprezintă alegerea standard pentru predare.',
+        },
+        {
+          q: 'Pot școlile personaliza echipamentul SUP?',
+          a: 'Da. Școlile pot personaliza grafica, culorile și pachetele de echipament conform programului propriu.',
+        },
+        {
+          q: 'Ce plăci sunt cele mai bune pentru lecțiile de SUP în școli?',
+          a: 'Plăcile late și stabile pentru începători și plăcile multipersoane sunt ideale — volumul lor le face iertătoare pentru cei care practică pentru prima dată și stabile cu mai mulți vâslași.',
+        },
+        {
+          q: 'Pot cantitățile să corespundă dimensiunii claselor noastre?',
+          a: 'Da — prețurile de program se construiesc în jurul cantităților necesare claselor, iar numerele sunt recomandate în funcție de zona de apă și de rotația elevilor.',
+        },
+        {
+          q: 'Lucrați conform termenelor de achiziție din învățământ?',
+          a: 'Da. Planificăm termenele pentru mostre și producție în jurul ciclurilor bugetare și sezoniere din învățământ.',
+        },
+      ],
+      ctaLevel: 'cold',
+      ctaLabel: 'Discutați programul SUP al școlii',
+    },
+  ],
 }
 
 export function getSolutionPage(locale: Locale, slug: string): SolutionPageData | undefined {

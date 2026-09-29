@@ -112,7 +112,7 @@ export interface FactShorthands {
   pressureReject: string
 }
 
-export const FACTS_LOCALE: Record<'en' | 'es' | 'fr' | 'de' | 'it' | 'pt' | 'nl' | 'sv' | 'no' | 'pl' | 'da' | 'fi' | 'ru' | 'cs' | 'tr', FactShorthands> = {
+export const FACTS_LOCALE: Record<'en' | 'es' | 'fr' | 'de' | 'it' | 'pt' | 'nl' | 'sv' | 'no' | 'pl' | 'da' | 'fi' | 'ru' | 'cs' | 'tr' | 'ro', FactShorthands> = {
   en: {
     moq: {
       existingPlatform: FACTS.moq.existingPlatform,
@@ -322,6 +322,20 @@ export const FACTS_LOCALE: Record<'en' | 'es' | 'fr' | 'de' | 'it' | 'pt' | 'nl'
     assemblyChecklist: '100',
     pressureTest: '18.0 PSI · 24 saat basınç tutma',
     pressureReject: '>0,50 PSI/24 sa basınç düşüşü (otomatik ret)',
+  },
+  ro: {
+    moq: {
+      existingPlatform: '5–10 buc. (doar logo pe forma existentă, aceeași rolă de material)',
+      trialStandard: '20–50 buc. (grafică personalizată sau modificare minoră a specificațiilor, aceeași rolă de material)',
+      standardRun: '90–100+ buc. pe configurația aprobată, sub rezerva cerințelor privind rola de material și ambalajul',
+      customMould: '90–100+ buc. (forma nouă necesită o matriță dedicată; execuția uneltelor adaugă 15–20 de zile)',
+    },
+    leadTime: '25–35 zile',
+    leadTimeDetail: '25–35 de zile de la confirmarea comenzii (PO) și a avansului; dezvoltarea unei matrițe dedicate adaugă încă 15–20 de zile pentru unelte.',
+    sampleTime: '7–12 zile',
+    assemblyChecklist: '100',
+    pressureTest: '18.0 PSI · menținerea presiunii 24 de ore',
+    pressureReject: 'cădere de presiune >0,50 PSI/24 h (respins automat)',
   },
 }
 

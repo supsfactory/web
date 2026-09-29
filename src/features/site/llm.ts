@@ -13,13 +13,13 @@ import {
   getSiteFaqs,
   brandify,
 } from '@/features/content/loader'
-import { GUIDES_ES, GUIDES_FR, GUIDES_DE, GUIDES_IT, GUIDES_PT, GUIDES_NL, GUIDES_SV, GUIDES_NO, GUIDES_PL, GUIDES_DA, GUIDES_FI, GUIDES_RU, GUIDES_CS, GUIDES_TR } from '@/features/content/guide-content'
+import { GUIDES_ES, GUIDES_FR, GUIDES_DE, GUIDES_IT, GUIDES_PT, GUIDES_NL, GUIDES_SV, GUIDES_NO, GUIDES_PL, GUIDES_DA, GUIDES_FI, GUIDES_RU, GUIDES_CS, GUIDES_TR, GUIDES_RO } from '@/features/content/guide-content'
 import { FACTS, COLLABORATION_MODES } from '@/product/facts'
 import { EDGE_REDIRECTS } from '@/features/seo/edge-gate'
 import { LEGACY_REDIRECTS } from '@/features/seo/legacy-redirects'
 import { SITE_NAME } from '@/config/site'
 import { PAGE_TITLES } from '@/product/entity-data'
-import { LLM_SITE_DESCRIPTION, LLM_FAQ_DESCRIPTION, LLM_SPANISH_HOMEPAGE_DESCRIPTION, LLM_FRENCH_HOMEPAGE_DESCRIPTION, LLM_GERMAN_HOMEPAGE_DESCRIPTION, LLM_ITALIAN_HOMEPAGE_DESCRIPTION, LLM_PORTUGUESE_HOMEPAGE_DESCRIPTION, LLM_DUTCH_HOMEPAGE_DESCRIPTION, LLM_SWEDISH_HOMEPAGE_DESCRIPTION, LLM_NORWEGIAN_HOMEPAGE_DESCRIPTION, LLM_POLISH_HOMEPAGE_DESCRIPTION, LLM_DANISH_HOMEPAGE_DESCRIPTION, LLM_FINNISH_HOMEPAGE_DESCRIPTION, LLM_RUSSIAN_HOMEPAGE_DESCRIPTION, LLM_CZECH_HOMEPAGE_DESCRIPTION, LLM_TURKISH_HOMEPAGE_DESCRIPTION, LLM_FACT_BLOCK } from '@/product/ai-content'
+import { LLM_SITE_DESCRIPTION, LLM_FAQ_DESCRIPTION, LLM_SPANISH_HOMEPAGE_DESCRIPTION, LLM_FRENCH_HOMEPAGE_DESCRIPTION, LLM_GERMAN_HOMEPAGE_DESCRIPTION, LLM_ITALIAN_HOMEPAGE_DESCRIPTION, LLM_PORTUGUESE_HOMEPAGE_DESCRIPTION, LLM_DUTCH_HOMEPAGE_DESCRIPTION, LLM_SWEDISH_HOMEPAGE_DESCRIPTION, LLM_NORWEGIAN_HOMEPAGE_DESCRIPTION, LLM_POLISH_HOMEPAGE_DESCRIPTION, LLM_DANISH_HOMEPAGE_DESCRIPTION, LLM_FINNISH_HOMEPAGE_DESCRIPTION, LLM_RUSSIAN_HOMEPAGE_DESCRIPTION, LLM_CZECH_HOMEPAGE_DESCRIPTION, LLM_TURKISH_HOMEPAGE_DESCRIPTION, LLM_ROMANIAN_HOMEPAGE_DESCRIPTION, LLM_FACT_BLOCK } from '@/product/ai-content'
 import { GLOSSARY } from '@/product/glossary'
 
 const flat = (text: string) => text.replace(/\s+/g, ' ').trim()
@@ -1599,6 +1599,96 @@ export function llmsTurkishFull(): string {
     ...caseBlocks,
     '',
     '# Türkçe: Rehberler',
+    ...guideBlocks,
+    '',
+  ].join('\n\n')
+}
+
+/** `/llms.txt` Romanian section — absolute /ro URLs so LLMs can ingest the mirror directly. */
+export function llmRomanianIndex(origin: string): string {
+  const ro = (path: string) => abs(origin, `/ro${path}`)
+  const productLines = getContentProducts('ro').map((p) => `- [${p.title}](${ro(`/products/${p.slug}`)}): ${flat(p.summary ?? '')}`)
+  const techLines = getTechArticles('ro').map((a) => `- [${a.title}](${ro(`/technology/${a.slug}`)}): ${flat(a.summary ?? '')}`)
+  const caseLines = getCaseUses('ro').map((c) => `- [${c.title}](${ro(`/evidence/case-studies/${c.slug}`)}): ${flat(c.summary ?? '')}`)
+  const guideLines = GUIDES_RO.map((g) => `- [${g.title}](${ro(`/guides/${g.slug}`)}): ${flat(g.intro[0] ?? '')}`)
+  const newsLines = getNewsPosts('ro')
+    .slice(0, 10)
+    .map((p) => `- [${p.title}](${ro(`/news/${p.slug}`)}): ${flat(p.excerpt ?? '')}`)
+  const faqLines = getSiteFaqs('ro')
+    .slice(0, 6)
+    .map((f) => `- ${f.q}`)
+  return [
+    '',
+    '## Română',
+    '',
+    `- [${SITE_NAME} — Pagina principală](${ro('/')}): ${LLM_ROMANIAN_HOMEPAGE_DESCRIPTION}`,
+    '',
+    '### Română: Produse',
+    ...productLines,
+    '',
+    '### Română: Tehnologie',
+    ...techLines,
+    '',
+    '### Română: Studii de caz',
+    ...caseLines,
+    '',
+    '### Română: Ghiduri',
+    ...guideLines,
+    '',
+    '### Română: Știri',
+    ...newsLines,
+    '',
+    '### Română: Întrebări frecvente',
+    ...faqLines,
+    '',
+  ].join('\n')
+}
+
+/** Full Romanian text for products, news, tech, cases and guides (in /llms-full.txt). */
+export function llmsRomanianFull(): string {
+  const productBlocks = getContentProducts('ro').map((p) =>
+    [
+      `## Produs: ${p.title}${p.sku ? ` (${p.sku})` : ''}`,
+      '',
+      flat(p.summary ?? ''),
+      ...(p.specs ?? []).map((s) => `- ${s.label}: ${s.value}`),
+      '',
+      ...mdBody(p.body),
+    ].join('\n'),
+  )
+  const newsBlocks = getNewsPosts('ro').map((p) =>
+    [`## Știre: ${p.title}`, '', p.date.slice(0, 10), flat(p.excerpt ?? ''), '', ...mdBody(p.body)].join('\n'),
+  )
+  const techBlocks = getTechArticles('ro').map((a) =>
+    [`## Tehnologie: ${a.title}`, '', flat(a.summary ?? ''), '', ...mdBody(a.body)].join('\n'),
+  )
+  const caseBlocks = getCaseUses('ro').map((c) => [`## Studiu de caz: ${c.title}`, '', flat(c.summary ?? ''), ...mdBody(c.body)].join('\n'))
+  const guideBlocks = GUIDES_RO.map((g) =>
+    [
+      `# Ghid: ${g.title}`,
+      '',
+      flat(g.intro.join(' ')),
+      ...g.sections.flatMap((s) => ['', `## ${s.title}`, '', s.body]),
+      '',
+      '## Întrebări frecvente',
+      ...g.faqs.flatMap((f) => [`### Î: ${f.q}`, '', f.a, '']),
+    ].join('\n'),
+  )
+  return [
+    '',
+    '# Română',
+    ...productBlocks,
+    '',
+    '# Română: Știri',
+    ...newsBlocks,
+    '',
+    '# Română: Tehnologie',
+    ...techBlocks,
+    '',
+    '# Română: Studii de caz',
+    ...caseBlocks,
+    '',
+    '# Română: Ghiduri',
     ...guideBlocks,
     '',
   ].join('\n\n')

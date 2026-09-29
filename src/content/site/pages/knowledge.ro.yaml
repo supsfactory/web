@@ -1,0 +1,111 @@
+meta:
+  title: 'Cunoștințe — ghiduri despre SUP gonflabile și OEM | {SITE}'
+  description: 'Baza de cunoștințe Vatrad: ghiduri despre SUP-urile gonflabile, materialele plăcilor de paddle, alegerea plăcii și perspectivele industriei pentru mărci și profesioniști.'
+  dateModified: '2026-08'
+  keywords:
+    - 'cunoștințe sup'
+    - 'ghid sup gonflabil'
+    - 'materiale plăci paddle'
+    - 'perspective industrie sup'
+hero:
+  tagline: 'Centrul de cunoștințe'
+  title: 'Centrul de cunoștințe SUP'
+  subtitle: |
+    O bază de cunoștințe structurată care acoperă tehnologia SUP-urilor 
+    gonflabile, siguranța nautică, ingineria plăcilor și planificarea aventurilor.
+  taglineSection: 'Explorați. Învățați. Plecați cu încredere.'
+
+clusters:
+  tagline: 'Clustere tematice'
+  title: 'Explorați după temă'
+  subtitle: 'Aprofundări în tehnologie, siguranță și competențe, temelia fiecărui produs Vatrad.'
+  items:
+    - title: 'Ghiduri de achiziție SUP'
+      description: 'De la alegerea primei plăci până la tehnicile avansate de touring — tot ce trebuie să știți despre vâslitul în picioare.'
+      icon: 'tabler:lifebuoy'
+      topics:
+        - 'Cum să alegeți prima placă SUP gonflabilă'
+        - 'Ghid privind dimensiunile și capacitatea de suport a plăcilor SUP'
+        - 'Cele mai bune plăci SUP pentru începători, touring, yoga și cursă'
+        - 'Greșeli frecvente la cumpărarea unei plăci SUP'
+        - 'Comparație între plăcile gonflabile și cele rigide'
+    - title: 'Inginerie și tehnologie SUP'
+      description: 'Ghiduri tehnice despre plăcile SUP gonflabile — materiale, metode de construcție și procese de producție.'
+      icon: 'tabler:microscope'
+      topics:
+        - 'Tehnologia drop-stitch în profunzime'
+        - 'Specificații PVC de calitate militară'
+        - 'Laminare prin fuziune față de lipire cu adeziv'
+        - 'Tehnologia spumei EVA și metodele de aplicare a graficii'
+        - 'Tipuri de supape SUP și sisteme de aripioară'
+    - title: 'Siguranță și întreținere SUP'
+      description: 'Cunoștințe esențiale de siguranță pentru fiecare vâsliț — de la alegerea EIP la lectura vremii și la îngrijirea și repararea plăcii.'
+      icon: 'tabler:shield'
+      topics:
+        - 'Listă de verificare a siguranței SUP și cerințe privind EIP'
+        - 'Siguranța cu camere multiple pentru ape izolate'
+        - 'Ghid PSI pentru umflarea plăcilor SUP'
+        - 'Depozitarea plăcii și îngrijirea pe timpul iernii'
+        - 'Tehnici de reparare a plăcilor gonflabile'
+    - title: 'Competențe și tehnici SUP'
+      description: 'Tehnici de vâslit, competențe de touring și pregătire fizică pentru toate nivelurile de experiență.'
+      icon: 'tabler:sailboat'
+      topics:
+        - 'Tehnici de vâslit pentru începători'
+        - 'Perfecționarea loviturii de vâslă la nivel intermediar'
+        - 'Planificarea expedițiilor de touring'
+        - 'Pregătire fizică și antrenament pentru cursele SUP'
+        - 'Competențe pentru ape rapide și coborâri pe râuri'
+    - title: 'Stil de viață SUP și utilizări speciale'
+      description: 'Activități SUP specializate — yoga, pescuit, câini, familii și sfaturi de călătorie.'
+      icon: 'tabler:heart'
+      topics:
+        - 'Yoga și meditație SUP pe apă'
+        - 'Pescuitul de pe o placă SUP gonflabilă'
+        - 'Vâslitul cu câini și copii'
+        - 'Călătoria cu placa SUP pe cale aeriană și rutieră'
+        - 'Accesorii SUP și echipamentul de bază'
+    - title: 'Comparații și referințe SUP'
+      description: 'Comparații alăturate care vă ajută să luați decizii bine informate.'
+      icon: 'tabler:chart-bar'
+      topics:
+        - 'SUP sau kayak — care este varianta potrivită pentru voi?'
+        - 'Comparație între materialele PVC și Hypalon'
+        - 'Siguranța cu o singură cameră față de camerele multiple'
+        - 'Materialele plăcilor SUP explicate'
+        - 'Tipărire UV față de grafică aplicată pe blocuri EVA'
+
+featured_guides:
+  tagline: 'Ghiduri recomandate'
+  title: 'Cele mai populare resurse de cunoștințe'
+  items:
+    - title: 'Noțiuni de bază despre SUP'
+      href: '/ro/knowledge'
+    - title: 'Gonfabilă sau rigidă'
+      href: '/ro/inflatable-vs-hardboard'
+    - title: 'Ghid de siguranță nautică'
+      href: '/ro/guides/safety-tips'
+    - title: 'Referință materiale'
+      href: '/ro/knowledge'
+    - title: 'Ghid de achiziție SUP'
+      href: '/ro/guides/how-to-choose-your-sup'
+    - title: 'Ghid de dimensiuni SUP'
+      href: '/ro/size-guide'
+    - title: 'Centrul tehnic SUP'
+      href: '/ro/technology'
+    - title: 'Întreținere SUP'
+      href: '/ro/knowledge'
+    - title: 'Ghid de touring'
+      href: '/ro/products/touring'
+    - title: 'Tehnici de vâslit'
+      href: '/ro/knowledge'
+
+cta:
+  title: 'Începeți explorarea'
+  subtitle: 'Pătrundeți în baza noastră de cunoștințe și obțineți informațiile necesare pentru următoarea dumneavoastră aventură nautică.'
+  actions:
+    - variant: primary
+      text: 'Vizitați toate ghidurile'
+      href: '/ro/knowledge'
+    - text: 'Explorați graful de cunoștințe'
+      href: '/ro/knowledge'

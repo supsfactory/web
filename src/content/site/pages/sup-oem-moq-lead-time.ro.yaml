@@ -1,0 +1,219 @@
+meta:
+  title: 'MOQ și termen de livrare pentru SUP personalizat: de la 1 mostră la comenzi la scară de container'
+  description: 'Nivelurile de MOQ și termenele de livrare pentru SUP personalizat: mostre în 7–12 zile, comenzi pilot de 20–50 de plăci, volum standard de 90–100+ pe rolă de 150 m, producție în 25–35 de zile.'
+  dateModified: '2026-08-16'
+  keywords:
+    - 'MOQ SUP personalizat'
+    - 'termen de producție SUP'
+    - 'cantitate minimă de comandă SUP gonflabil'
+    - 'comandă pilot SUP'
+    - 'termen de livrare plăci de vâslă personalizate'
+    - 'termen de livrare fabrică SUP OEM'
+    - 'comandă de mostre SUP'
+
+hero:
+  tagline: 'MOQ și termen de livrare pentru SUP personalizat'
+  title: 'De la 1 mostră la comenzi la scară de container — MOQ și termenul de livrare explicate'
+  subtitle: 'O prezentare pe înțelesul tuturor a nivelurilor de cantitate și a termenilor de producție pentru SUP-uri gonflabile personalizate: ce puteți comanda la fiecare etapă, cât durează efectiv fiecare etapă și cum se încadrează o comandă de mostră, pilot și de volum într-un singur proiect. Proiectat și operat de Qingdao Vatrad Group Co., Ltd.'
+  actions:
+    - variant: primary
+      text: Obțineți o defalcare a MOQ și a termenului de livrare
+      href: /ro/contact#moq-guide
+    - text: 'Ghidul MOQ și branding flexibil'
+      href: /ro/oem-moq-guide
+
+answer:
+  label: 'Răspuns direct'
+  text: 'MOQ-ul și termenul de livrare sunt specifice proiectului, dar cadrul este fix. Fiecare proiect de SUP personalizat trece prin aceleași etape eșalonate: dezvoltarea mostrei (1–2 plăci, gata în 7–12 zile), comenzile de probă și pilot (20–50 de plăci) și producțiile standard de volum (90–100+ plăci pe rolă de 150 m de material drop-stitch). Termenul de producție este de 25–35 de zile de la confirmarea PO și a avansului; dacă proiectul dumneavoastră necesită o carenă complet personalizată, dezvoltarea matriței adaugă 15–20 de zile înainte de începerea producției. Așadar, un prim proiect tipic arată astfel: mostre în aproximativ 1–2 săptămâni, plăci pilot în 4–6 săptămâni și prima producție completă expediată la aproximativ 6–8 săptămâni după confirmarea comenzii.'
+  verified: 'Septembrie 2026'
+
+moq_lead_table:
+  tagline: 'Cadrul de referință'
+  title: 'Nivelurile de MOQ și termen de livrare pentru SUP personalizat, pe scurt'
+  subtitle: 'Fiecare etapă validează următoarea. Nu săriți niciodată direct de la desen la container — confirmați carena, grafica și ambalajul la fiecare nivel înainte de a vă angaja la mai multe plăci.'
+  headers:
+    stage: Etapă de comandă
+    quantity: Cantitate tipică
+    lead_time: Termen de livrare
+    best_for: Ideal pentru
+  rows:
+    - stage: 'Dezvoltarea mostrei'
+      quantity: '1–2 plăci'
+      lead_time: '7–12 zile'
+      best_for: 'Validarea rigidității carenei, a texturii platformei de tracțiune EVA, a acurateții graficii și a montajului accesoriilor. Se aplică un cost pentru mostre, care este dedus din comanda de producție la semnarea contractului.'
+    - stage: 'Comandă de probă / pilot'
+      quantity: '20–50 de plăci'
+      lead_time: '25–35 de zile'
+      best_for: 'Testare comercială înainte de sezon, validare de piață și primele vânzări, folosind platforme de carenă existente, materiale din stoc și ambalaje simplificate.'
+    - stage: 'Producție standard de volum'
+      quantity: '90–100+ plăci pe rolă de 150 m'
+      lead_time: '25–35 de zile'
+      best_for: 'Eficiență maximă a producției pe role întregi de 150 m de material — fără îmbinări de material, cu tensiune uniformă a fibrelor și amortizarea configurării liniei. Formele cu matriță personalizată se rulează la acest nivel.'
+    - stage: 'Program la scară largă'
+      quantity: '300+ plăci'
+      lead_time: '25–35 de zile pe lot, expediții eșalonate'
+      best_for: 'Programe la scară de container și flote sezoniere, programate pe mai multe loturi de producție, astfel încât depozitul și fluxul de numerar să rămână gestionabile.'
+
+moq_drivers:
+  tagline: 'Ce determină MOQ-ul dumneavoastră'
+  title: 'Cei șase factori care decid cantitatea minimă'
+  subtitle: 'MOQ-ul nu este un număr întâmplător ales de o echipă de vânzări. El este calculat din arhitectura completă a produsului — aceste componente sunt evaluate împreună înainte de ofertare.'
+  grid: 'sm:grid-cols-2 lg:grid-cols-3'
+  features:
+    - icon: H
+      icon_bg: blue
+      title: 'Forma carenei și matrița'
+      desc: 'Matrițele existente din fabrică permit comenzi pilot începând de la 20 de plăci. O carenă complet personalizată necesită dede de tăiere CAD dedicate și matriță de presă la cald pentru EVA, iar dezvoltarea matriței adaugă 15–20 de zile la program.'
+    - icon: C
+      icon_bg: green
+      title: 'Variante de culoare și PVC'
+      desc: 'Culorile standard din stoc se rulează la cantități pilot, în timp ce foițele de PVC vopsite în culori proprii Pantone necesită ture dedicate de vopsire chimică, cu propriile minime de materie primă.'
+    - icon: A
+      icon_bg: purple
+      title: 'Grafica și acoperirea tipografică'
+      desc: 'Un logo pe vârf poate fi tipărit în serii mici pe șablon, în timp ce grafica pe toată suprafața sau pe mai multe panouri necesită pregătirea planșelor pentru tipărire digitală și încercări de acoperire, ceea ce mărește dimensiunea practică a lotului.'
+    - icon: B
+      icon_bg: orange
+      title: 'Ambalaje de marcă'
+      desc: 'Cutii de cadou pentru retail din 5 straturi, personalizate, au un minim independent la presea de tipărire offset. Comandați mai puține cutii și noi păstrăm excedentul în depozit și îl eliberăm pe parcursul expedițiilor programate.'
+    - icon: G
+      icon_bg: blue
+      title: 'Pachete de accesorii'
+      desc: 'Vâslele, pompele și sacii standard din aluminiu sau nylon respectă loturile de subnivel ale furnizorilor. Vâslele din carbon de marcă proprie și pompele personalizate au propriile minime de producție.'
+    - icon: S
+      icon_bg: green
+      title: 'Sezonul și programarea plăților'
+      desc: 'Comenzile plasate în fereastra de pre-sezon primesc sloturi de producție confirmate. Programele de expediție eșalonată pentru 300+ de plăci se confirmă la semnarea contractului, nu după producție.'
+
+moq_timeline:
+  tagline: 'Cronologie completă'
+  title: 'De la brieful de produs la plăcile expediate: zi cu zi'
+  subtitle: 'Programul complet pentru un program tipic de SUP personalizat. Platformele de carenă existente se comprimă în partea stângă a acestei cronologii; o carenă complet personalizată adaugă etapa de dezvoltare a matriței.'
+  steps:
+    - step: 'Ziua 0'
+      title: 'Trimiteți brieful de produs'
+      desc: 'Modelul plăcii, cantitatea țintă, variantele de culoare, grafica și cerințele de ambalare. Analiza de inginerie este finalizată în termen de o zi lucrătoare.'
+    - step: 'Zilele 1–2'
+      title: 'Analiză de inginerie și fezabilitate'
+      desc: 'Echipa noastră de inginerie verifică geometria carenei, materialele și traseul de conformitate și confirmă dacă proiectul se încadrează în platformele existente sau necesită matrițe noi.'
+    - step: 'Zilele 3–7'
+      title: 'Specificații și ofertă detaliată'
+      desc: 'Primiți specificațiile complete, cu calculul MOQ, segmentele de termen de livrare și costurile defalcate — inclusiv eventualele taxe de matriță — înainte de orice angajament.'
+    - step: 'Zilele 7–12'
+      title: 'Dezvoltarea mostrei (1–2 plăci)'
+      desc: 'Mostra fizică este construită și testată: rigiditatea carenei, textura platformei de tracțiune EVA, acuratețea graficii și montajul accesoriilor. Costul mostrelor se deduce din comanda de producție la semnare.'
+    - step: '+15–20 de zile'
+      title: 'Dezvoltarea matriței personalizate (doar carene bespoke)'
+      desc: 'Numai pentru proiectele cu o formă de carenă nouă: dede de tăiere CNC, matriță de presă la cald pentru EVA și probele de matriță sunt finalizate înainte de a putea începe producția de volum.'
+    - step: '25–35 de zile'
+      title: 'Producție după confirmarea PO și a avansului'
+      desc: 'Role întregi de 150 m de material, materiale Pantone, ambalaje de marcă și asamblare în 100 de puncte. Fiecare placă trece prin testul de presiune și etanșeitate de 24 de ore.'
+    - step: '300+ plăci'
+      title: 'Programarea expedițiilor eșalonate'
+      desc: 'Programele mari se expediază pe loturi programate, pentru a corespunde vânzărilor sezoniere, capacității depozitului și etapelor de plată.'
+    - step: 'Ziua 0–90'
+      title: 'Orizontul tipic pentru prima comandă'
+      desc: 'De la brief la prima producție livrată: aproximativ 6–8 săptămâni folosind platforme existente, 8–12 săptămâni dacă includeți o matriță personalizată. Programele pe mai multe role și la scară de container depășesc acest interval prin design.'
+
+expedite:
+  tagline: 'Păstrați programul scurt'
+  title: 'Ce menține strâns termenul de livrare'
+  subtitle: 'Trei pârghii vă permit să comprimați cronologia fără a schimba fundamentalele fizicii rolei.'
+  features:
+    - icon: S
+      icon_bg: blue
+      title: 'Mostrele sunt rapide prin definiție'
+      desc: 'Dezvoltarea mostrei durează 7–12 zile la fiecare proiect. Folosiți runda de mostre pentru a vă îngheța specificațiile, astfel încât producția să nu aștepte decizii de grafică întârziate.'
+    - icon: P
+      icon_bg: green
+      title: 'Sloturile de producție se confirmă dinainte'
+      desc: 'Comenzile din pre-sezon blochează sloturi de producție confirmate. Mai mulți clienți care rezervă același slot sunt exact motivul pentru care avansurile mai devreme primesc linii mai devreme.'
+    - icon: T
+      icon_bg: purple
+      title: 'Etape transparente'
+      desc: 'Fiecare etapă — aprobarea mostrei, înghețarea BOM, înghețarea graficii, PO și avansul — este stabilită în contract, cu o dată. Știți întotdeauna în ce zi reîncepe ceasul.'
+
+scenarios:
+  tagline: 'Trei puncte de intrare realiste'
+  title: 'Ce traseu se potrivește proiectului dumneavoastră?'
+  subtitle: 'Aceeași fabrică, trei moduri diferite de a intra. Alegeți scenariul cel mai apropiat de situația dumneavoastră și folosiți-l când ne contactați.'
+  features:
+    - icon: A
+      icon_bg: orange
+      title: 'Marcă nouă: validați înainte de a vă angaja'
+      desc: 'Comandați mai întâi 1–2 mostre (7–12 zile), testați calitatea de vâslire și fotografia, apoi plasați o comandă de probă de 20–50 de plăci pentru a testa vânzările înainte de orice producție completă. Expunerea totală din primul sezon rămâne sub 50 de plăci.'
+    - icon: B
+      icon_bg: blue
+      title: 'Stațiune turistică sau operator de închiriere: pilotați, apoi extindeți'
+      desc: 'O comandă pilot de 20–50 de plăci cu ambalaje simplificate vă duce până la finalul pre-sezonului. După ce revin datele de utilizare, extindeți la producții standard de 90–100+ de plăci cu ambalaje de marcă.'
+    - icon: C
+      icon_bg: green
+      title: 'Marcă consacrată: programe la container complet personalizate'
+      desc: 'Mărcile existente comandă 90–100+ de plăci pe rolă de 150 m, cu carene bespoke și branding pe toată suprafața. Matrița personalizată adaugă 15–20 de zile; programele de 300+ de plăci se expediază pe grafic eșalonat.'
+
+moq_quality:
+  tagline: 'Control al calității și conformitate'
+  title: 'Același sistem de calitate la orice dimensiune de comandă'
+  subtitle: 'O mostră de 1 placă și un program de 300+ de plăci trec prin aceleași etape de calitate și prin aceeași documentație de conformitate. „MOQ redus” nu înseamnă niciodată „standard redus”.'
+  grid: 'sm:grid-cols-2 lg:grid-cols-3'
+  features:
+    - icon: C
+      icon_bg: blue
+      title: 'Documente de conformitate, la orice scară'
+      desc: 'Documentația de certificare CE, ISO 9001, BSCI, REACH și RoHS este furnizată cu fiecare comandă — inclusiv pentru mostre individuale — numerele certificatelor fiind disponibile la cerere.'
+    - icon: A
+      icon_bg: green
+      title: 'Checklist de asamblare în 100 de puncte'
+      desc: 'Fiecare placă trece prin același checklist de asamblare în 100 de puncte, indiferent de dimensiunea lotului: materiale, sudură, supape, borduri, aripi și montajul accesoriilor, verificate punct cu punct.'
+    - icon: P
+      icon_bg: purple
+      title: 'Test de presiune și etanșeitate de 24 de ore'
+      desc: 'Fiecare placă este umflată la 18.0 PSI și menținută 24 de ore. O cădere de presiune peste 0.50 PSI declanșează respingerea automată — aceeași etapă pentru o mostră și pentru un container.'
+    - icon: R
+      icon_bg: orange
+      title: 'Verificarea sudurii RF și a fuziunii bordurilor'
+      desc: 'Fuziunea în trei straturi a benzilor de bordură și cusăturile sudate prin RF sunt verificate vizual și dimensional față de mostra aprobată, înainte de începerea oricărei serii de producție.'
+    - icon: B
+      icon_bg: blue
+      title: 'Trasabilitate ERP pe lot (10 ani)'
+      desc: 'Fiecare placă poartă înregistrări de producție numerotate de serie — materiale, operatori, încercări și rezultate ale inspecției — păstrate 10 ani și disponibile pentru audit.'
+    - icon: I
+      icon_bg: green
+      title: 'Pregătit pentru inspecție independentă'
+      desc: 'Producția pe lot este pregătită pentru inspecție independentă în orice etapă. Majoritatea clienților aplică și sistemul nostru de inspecție în 7 etape sau o inspecție înainte de expediție, pe programele de volum.'
+
+moq_faqs:
+  tagline: FAQ
+  title: 'Întrebări frecvente despre MOQ și termenul de livrare'
+  items:
+    - q: 'Care este cantitatea minimă de comandă pentru un SUP personalizat?'
+      a: 'Depinde de etapa proiectului dumneavoastră: mostrele sunt 1–2 plăci, co-brandingul în cantități mici începe de la 5–10 bucăți, comenzile de probă și pilot sunt de 20–50 de plăci, iar producția standard de volum rulează 90–100+ plăci pe rolă de 150 m de material drop-stitch. Formele cu matriță personalizată se rulează la nivelul de volum. Confirmăm calculul exact pentru configurația dumneavoastră înainte de ofertare.'
+    - q: 'Cât durează realizarea unei mostre de SUP gonflabil?'
+      a: 'Dezvoltarea mostrei durează 7–12 zile. Mostra verifică rigiditatea carenei, textura platformei de tracțiune EVA, acuratețea graficii și montajul accesoriilor. Se aplică un cost pentru mostre, care este dedus din comanda de producție la semnarea contractului.'
+    - q: 'Cât durează producția după ce confirm comanda?'
+      a: 'Termenul de producție este de 25–35 de zile de la confirmarea PO și a avansului. Dacă proiectul include o carenă complet personalizată, dezvoltarea matriței adaugă 15–20 de zile de matriță înainte de începerea producției.'
+    - q: 'MOQ-ul se calculează pe comandă, pe model sau pe variantă de culoare?'
+      a: 'MOQ-ul se poate aplica pe model, variantă de culoare, versiune de grafică, configurație de ambalaj sau total de comandă. Deoarece grosimile diferite de drop-stitch și culorile diferite de PVC provin din role distincte de materie primă, comandarea a 50 de plăci repartizate pe 5 culori generează 5 cerințe distincte de rolă de material. Confirmăm calculul față de matricea dumneavoastră de SKU-uri.'
+    - q: 'Pot începe cu doar 1–2 plăci pentru a testa piața?'
+      a: 'Da. O comandă de mostră de 1–2 plăci este cea mai ieftină validare posibilă: rigiditatea carenei, grafica și montajul accesoriilor sunt confirmate înainte de orice angajament financiar pentru o producție. De acolo treceți la o comandă de probă de 20–50 de plăci pentru validare comercială.'
+    - q: 'Poate un program de 300+ de plăci să fie expediat în mai multe loturi?'
+      a: 'Da. Programele la scară largă pot fi programate ca expediții eșalonate pe mai multe loturi de producție, astfel încât flotele sezoniere să sosească atunci când este necesar, iar fluxul de numerar și spațiul de depozitare să rămână gestionabile. Programele se confirmă la contract, nu după producție.'
+
+evidence_review:
+  tagline: 'Dovezi și verificare'
+  title: 'SPECIFICAȚII VERIFICATE'
+  body: 'Toate afirmațiile de producție de pe această pagină sunt verificate de echipa noastră de inginerie de producție în fabrica din Laixi, Qingdao. Certificatele, înregistrările de inspecție a calității, rapoartele de încercări de presiune și structurale, precum și înregistrările de trasabilitate pe lot sunt disponibile la cerere. Specificațiile au fost verificate ultima dată în septembrie 2026.'
+
+cta:
+  title: 'Obțineți MOQ-ul și termenul de livrare specifice proiectului dumneavoastră?'
+  subtitle: 'Trimiteți-ne modelul plăcii, cantitatea țintă pentru primul sezon și cerințele de branding. Echipa noastră de inginerie va confirma dacă se potrivește traseul de mostră, de probă sau de volum — cu calculul exact al MOQ și un program zi cu zi. O solicitare nu vă obligă la nicio comandă.'
+  actions:
+    - variant: primary
+      text: 'Solicitați o defalcare a MOQ și a termenului de livrare'
+      href: /ro/contact#moq-guide
+    - text: 'Comparați cu ghidul de branding flexibil'
+      href: /ro/oem-moq-guide
+    - text: 'Lansați o marcă nouă cu o comandă de probă la MOQ redus'
+      href: /ro/new-brand-trial-order
+    - text: 'Verificați fabrica și sistemul de calitate'
+      href: /ro/oem-trust-assurance

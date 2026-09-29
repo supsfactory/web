@@ -10089,6 +10089,671 @@ export const projects: Localized<ProjectData[]> = {
       tags: ['Yoga yapılandırması', 'Tam güverte kaplaması', 'Program filosu'],
     },
   ],
+  ro: [
+    {
+      slug: 'coastal-rental-fleet',
+      customerType: 'Operatori de flote de închiriere',
+      region: 'Mediterana — Spania, Italia, Grecia',
+      productCategory: 'SUP gonflabil de clasă pentru închiriere (10′6″ + 11′0″)',
+      projectStage: 'Evaluarea flotei → Aprobarea mostrei → Livrare în 3 loturi etapate',
+      manufacturingScope: 'Specificația flotei, construcție ranforzată, producție etapată, furnizare de piese de schimb',
+      keyRequirements: 'Planșe rezistente pentru închiriere, livrare etapată către stațiuni, rată redusă de înlocuire timpurie',
+      qualityFocus: 'Construcție ranforzată, etanșeitate, grafică de flotă, completitudinea kitului',
+      navLabel: 'Flotă de închieri pe litoral',
+      metaTitle: 'Flotă de închieri pe litoral | 320 de planșe în 120 de zile — iSupfactory',
+      metaDescription:
+        'Cum a construit un operator de închiriere din Mediterana o flotă de 320 de planșe pe litoral în Spania, Italia și Grecia — trei loturi etapate în 120 de zile, cu o reducere estimată de 20–25% a înlocuirilor timpurii.',
+      kicker: 'Proiect de flotă pentru închiriere',
+      h1: 'Cum a construit un operator de închiriere din Mediterana o flotă de 320 de planșe pe litoral în 120 de zile',
+      intro: [
+        'Un operator de închiriere cu stațiuni în Spania, Italia și Grecia avea nevoie de o flotă rezistentă pentru sezonul de vară cu rotație intensă — livrată în trei loturi, la timp pentru deschiderea fiecărei stațiuni.',
+      ],
+      industry: 'Operatori de flote de închiriere',
+      requirement:
+        '320 de planșe de închiriere în două dimensiuni — 10′6″ și 11′0″ — pentru stațiuni de litoral din trei țări, livrate în trei loturi etapate în 120 de zile.',
+      challenge:
+        'Rotația zilnică de închiriere uzează rapid planșele, iar rata de înlocuire timpurie a operatorului se situa la 20–25%. Stațiunile se deschideau în date diferite în trei țări, așa că o livrare unică nu funcționa — nici o flotă de o singură dimensiune.',
+      solution:
+        'Două platforme rezistente de închiriere în dimensiunile care acoperă majoritatea utilizatorilor, o construcție ranforzată pentru utilizare intensă la rotație și trei loturi de producție programate să ajungă la deschiderea fiecărei stațiuni — împreună cu pachete de piese de schimb pe stațiune și ghiduri de reparații.',
+      product:
+        'SUP gonflabil de clasă pentru închiriere — platforme de 10′6″ și 11′0″ cu margini ranforzate și materiale stabile la UV, cu kituri pe stațiune.',
+      process: [
+        { title: 'Evaluarea flotei', body: 'Datele de deschidere ale stațiunilor și volumele de rotație au stabilit cele două dimensiuni și repartizarea pe loturi.' },
+        { title: 'Selecția planșelor', body: 'Platformele de închiriere de 10′6″ și 11′0″ au fost alese pentru acoperirea utilizatorilor și pentru durabilitate.' },
+        { title: 'Producție etapată', body: 'Trei loturi programate în funcție de data de deschidere a fiecărei stațiuni.' },
+        { title: 'Livrare și suport', body: 'Flota a fost expediată pe loturi, cu pachete de piese de schimb și ghiduri de reparații pentru fiecare stațiune.' },
+      ],
+      result:
+        'Toate cele trei loturi au sosit în 120 de zile, la timp pentru deschiderea fiecărei stațiuni. Se estimează că platformele ranforzate vor reduce rata de înlocuire timpurie cu 20–25%, iar pachetele de piese de schimb acoperă reparațiile din teren între sezoane.',
+      outcome: '320 de planșe · 120 de zile · 3 loturi · reducere estimată de 20–25% a înlocuirilor timpurii.',
+      metrics: [
+        { value: '320', label: 'planșe în două dimensiuni' },
+        { value: '120', label: 'zile de la comandă la ultimul lot' },
+        { value: '3', label: 'livrări etapate, câte una la deschiderea fiecărei stațiuni' },
+        { value: '−20–25%', label: 'rată estimată de înlocuire timpurie' },
+      ],
+      takeaways: [
+        'Loturile etapate permit ca flota să ajungă exact când se deschide fiecare stațiune — fără stoc nefolosit și fără pornire târzie.',
+        'Două dimensiuni (10′6″ și 11′0″) au acoperit majoritatea utilizatorilor fără a fragmenta flota.',
+        'Construcția ranforzată este cea care schimbă indicatorul de înlocuire timpurie, nu doar prețul.',
+        'Pachetele de piese de schimb pe stațiune au menținut planșele în funcțiune între sezoane complete.',
+      ],
+      customizations: [
+        'Platforme de închiriere de 10′6″ și 11′0″ asociate profilurilor utilizatorilor',
+        'Margini ranforzate și materiale stabile la UV pentru utilizare cu rotație intensă',
+        'Grafică de flotă și numerotare pe fiecare stațiune',
+        'Program de producție în trei loturi aliniat la deschiderile stațiunilor',
+        'Pachete de piese de schimb și ghiduri de reparații pe stațiune',
+        'Ambalare pe locuri separate și verificarea livrării pentru fiecare lot',
+      ],
+      inspectionFocus: [
+        'Verificarea construcției ranforzate la fiecare planșă',
+        'Umflare și test de etanșeitate la fiecare planșă',
+        'Acuratețea graficii de flotă și a numerotării stațiunilor',
+        'Completitudinea accesoriilor și a pachetului de piese pentru fiecare stațiune',
+        'Verificări de ambalare pentru livrare pe locuri separate și în mai multe loturi',
+      ],
+      confidentiality:
+        'În acord cu părțile, denumirea operatorului și locațiile stațiunilor nu sunt divulgate. Proiectul este prezentat anonim pentru a proteja confidențialitatea comercială.',
+      tags: ['Livrare etapată a flotei', 'Construcție de clasă pentru închiriere', 'Rată de înlocuire redusă'],
+    },
+    {
+      slug: 'eu-distributor-private-label',
+      customerType: 'Distribuitori și angrosiști',
+      region: 'Europa',
+      productCategory: 'SUP gonflabil cu marcă proprie (2 SKU)',
+      projectStage: 'Planificarea gamei → Aprobarea mostrei → Livrare de volum în 90 de zile',
+      manufacturingScope: 'Identitate de marcă proprie, ambalaje de retail, producție de volum, suport pentru comenzi de repetare',
+      keyRequirements: 'Două SKU validate pe piață sub marca distribuitorului, ambalaje de retail UE, aliniere la sezon',
+      qualityFocus: 'Acuratețea graficii, cod de bare și etichetă pentru fiecare piață, completitudinea kitului, etanșeitate',
+      navLabel: 'Marcă proprie de distribuitor',
+      metaTitle: 'Marcă proprie de distribuitor | 1.200 de planșe în 90 de zile — iSupfactory',
+      metaDescription:
+        'Cum a lansat un distribuitor european o linie SUP de marcă proprie cu 1.200 de planșe în 90 de zile — două SKU, ambalaje de retail UE și o comandă de repetare în T4 pe aceeași specificație blocată.',
+      kicker: 'Proiect de marcă proprie',
+      h1: 'Cum a lansat un distribuitor european o linie SUP de marcă proprie cu 1.200 de planșe în 90 de zile',
+      intro: [
+        'Un distribuitor european își dorea propria linie SUP de marcă proprie pentru sezonul de vară — două SKU validate pe piață, ambalaje de retail complete și fără relații proprii cu fabrici.',
+      ],
+      industry: 'Distribuitori și angrosiști',
+      requirement:
+        '1.200 de planșe de marcă în două SKU — 10′6″ all-around și 12′6″ touring — cu ambalaje de retail UE, livrate în 90 de zile.',
+      challenge:
+        'Fereastra de raft din sezonul de vară este fixă, așa că toate cele 1.200 de planșe și ambalajele lor trebuiau să ajungă împreună și la timp. Ambalajele de marcă proprie — coduri de bare, etichete, manuale — trebuiau să respecte cerințele de retail din UE, iar distribuitorul nu avea experiență în fabricarea de SUP de la care să pornească.',
+      solution:
+        'Două platforme validate pe piață, alese pentru gama de retail, grafică completă de marcă proprie și ambalaje de retail UE derulate într-un singur program, plus o producție programată astfel încât ambele SKU să fie expediate împreună în fereastra de 90 de zile — cu specificația blocată pentru o comandă de repetare fără complicații.',
+      product:
+        'SUP gonflabil de marcă proprie — 10′6″ all-around și 12′6″ touring, cu pâlnie, pompă, rucsac de marcă și cutii de retail imprimate.',
+      process: [
+        { title: 'Planificarea gamei', body: 'Au fost selectate două SKU — 10′6″ all-around și 12′6″ touring — pentru acoperirea de retail.' },
+        { title: 'Aprobarea mostrei', body: 'Grafica, ambalajul și finisajul au fost confirmate pe planșe fizice.' },
+        { title: 'Producție de 90 de zile', body: 'Volumul a fost programat astfel încât ambele SKU să fie expediate împreună pentru fereastra de sezon.' },
+        { title: 'Comandă de repetare în T4', body: 'Comanda de repetare a fost plasată pe aceeași specificație blocată.' },
+      ],
+      result:
+        'Toate cele 1.200 de planșe, cu ambalaje de retail complete, au fost expediate în 90 de zile, la timp pentru fereastra de raft din sezonul de vară. Linia s-a epuizat, iar distribuitorul a revenit în T4 cu o comandă de repetare pe aceeași specificație blocată.',
+      outcome: '1.200 de planșe · 90 de zile · 2 SKU · comandă de repetare în T4.',
+      metrics: [
+        { value: '1,200', label: 'planșe într-o singură lansare' },
+        { value: '90', label: 'zile până la livrarea completă' },
+        { value: '2', label: 'SKU de retail, ambele livrate la timp' },
+        { value: 'Q4', label: 'comandă de repetare pe aceeași specificație' },
+      ],
+      takeaways: [
+        'Pornirea de la două SKU validate păstrează riscul de stoc redus, completând în același timp gama de retail.',
+        'Un singur program care acoperă planșele, accesoriile și ambalajul elimină un punct frecvent de eșec la lansare.',
+        'Data fixă de sezon impune graficul de producție — planificarea trebuie să o trateze ca pe un termen n negociabil.',
+        'Blocarea specificației la lansare face ca comenzile de repetare să fie simple și constante.',
+      ],
+      customizations: [
+        'Platforme de 10′6″ all-around și 12′6″ touring pentru gama de retail',
+        'Grafică de marcă proprie pe punte, pe fundul planșei și pe ambalaj',
+        'Pâlnie, pompă și rucsac de marcă pentru fiecare SKU',
+        'Cutii de retail imprimate, coduri de bare, etichete și manual de utilizare pentru retailul din UE',
+        'Listă de materiale și specificație blocate pentru constanța comenzilor de repetare',
+        'Livrare pe loturi aliniată ferestrei de lansare în retail',
+      ],
+      inspectionFocus: [
+        'Acuratețea graficii față de fișierele aprobate de marcă proprie',
+        'Verificarea codului de bare, a etichetei și a manualului pentru fiecare piață',
+        'Completitudinea kitului pentru fiecare SKU pe întreaga serie de 1.200 de planșe',
+        'Verificări punctuale de etanșeitate în timpul producției',
+        'Verificarea cutiei și a ambalării pentru fiecare SKU',
+      ],
+      confidentiality:
+        'În acord cu părțile, denumirea distribuitorului și clienții de retail nu sunt divulgate. Proiectul este prezentat anonim pentru a proteja confidențialitatea comercială.',
+      tags: ['Marcă proprie', 'Gama de retail cu 2 SKU', 'Livrare în fereastra de sezon'],
+    },
+    {
+      slug: 'resort-sup-fleet',
+      customerType: 'Resorturi și hotelier',
+      region: 'Europa / America de Nord',
+      productCategory: 'SUP gonflabil all-around',
+      projectStage: 'Aprobarea mostrei → Producție de volum → Reînnoirea flotei',
+      manufacturingScope: 'Grafică, accesorii, ambalare și producția flotei',
+      keyRequirements: 'Durabilitate pentru închiriere, depozitare compactă, identitate de brand pe întreaga proprietate',
+      qualityFocus: 'Etanșeitate, acuratețea graficii, completitudinea accesoriilor, marcarea cutiilor',
+      navLabel: 'Flotă SUP de resort de lux',
+      metaTitle: 'Flotă SUP de resort de lux | 100 de planșe de marcă — iSupfactory',
+      metaDescription:
+        'Cum a echipat un resort de lux programul său de plajă cu 100 de planșe SUP de marcă — grafică personalizată, construcție de clasă pentru închiriere și gestionarea sezonieră a flotei.',
+      kicker: 'Proiect de resort',
+      h1: 'Cum a standardizat un resort de lux o flotă de 100 de planșe SUP de marcă',
+      intro: [
+        'Un resort de lux își dorea ca programul de plajă să fie simțit ca o parte a proprietății — planșe de marcă în paleta resortului, suficient de rezistente pentru utilizarea zilnică de către oaspeți și ușor de depozitat între sezoane.',
+      ],
+      industry: 'Resorturi și hotelier',
+      requirement: '100 de planșe SUP de marcă pentru închirierea către oaspeți, în paleta proprietății.',
+      challenge:
+        'Utilizarea zilnică în regim de închiriere uzează rapid flotele generice, iar spațiul de depozitare între sezoane este limitat. Resortul avea nevoie de planșe care să reziste la utilizare intensă, să se depoziteze compact și să poarte identitatea completă a proprietății.',
+      solution:
+        'Construcție gonflabilă de clasă pentru închiriere, cu margini ranforzate și materiale rezistente la UV, grafică pe întreaga planșă în culorile resortului, plus pâlnii și pompe de marcă ca parte a pachetului de flotă.',
+      product: 'SUP gonflabil personalizat — platformă all-around de 11′, cu grafică de punte de marcă și accesorii.',
+      process: [
+        { title: 'Consultanță pentru flotă', body: 'Volumul de oaspeți, linia țărmului și durata sezonului au stabilit dimensiunea flotei și mixul de planșe.' },
+        { title: 'Mostră de marcă', body: 'Culorile și logo-ul au fost aprobate pe o planșă fizică înainte de producție.' },
+        { title: 'Producție și control al calității', body: '100 de planșe au fost produse cu verificări în mai multe puncte pe tot parcursul seriei.' },
+        { title: 'Livrare și reînnoire', body: 'Livrare sezonieră, piese de schimb și program de reînnoire pentru sezoanele următoare.' },
+      ],
+      result:
+        'Flota a fost lansată la timp pentru sezon, planșele se depozitează într-o singură cameră între sezoane, iar feedbackul oaspeților privind echipamentul de marcă a determinat extinderea flotei în anul următor.',
+      outcome: 'Lansare la timp la începutul sezonului, flotă 100% de marcă, extindere în sezonul următor.',
+      customizations: [
+        'Platformă, dimensiune și construcție selectate pentru utilizare zilnică în regim de închiriere',
+        'Grafică pe întreaga punte, în paleta proprietății',
+        'Marcarea marginilor și poziționarea logo-ului aprobate pe o mostră fizică',
+        'Pâlnie, pompă și set de accesorii de marcă pentru fiecare planșă',
+        'Numerotarea flotei și codarea culorilor pe întreaga serie',
+        'Configurație de depozitare compactă și domeniul reînnoirii sezoniere',
+      ],
+      inspectionFocus: [
+        'Umflare și test de etanșeitate la fiecare planșă',
+        'Starea supapei și a marginii ranforzate',
+        'Acuratețea graficii și potrivirea culorii cu mostra aprobată',
+        'Completitudinea accesoriilor și a kitului pentru fiecare planșă',
+        'Marcarea cutiilor și etichetele flotei înainte de eliberarea la expediție',
+      ],
+      confidentiality:
+        'În acord cu părțile, denumirea resortului și materialele de brand nu sunt divulgate. Proiectul este prezentat anonim pentru a proteja confidențialitatea comercială.',
+      tags: ['Flotă de marcă pentru oaspeți', 'Construcție de clasă pentru închiriere', 'Reînnoire sezonieră'],
+    },
+    {
+      slug: 'private-label-launch',
+      customerType: 'Retail și branduri outdoor',
+      region: 'Europa',
+      productCategory: 'SUP gonflabil all-around (marcă proprie)',
+      projectStage: 'Aprobarea mostrei → Serie de validare → Scalare',
+      manufacturingScope: 'Grafică de produs și ambalaj, realizarea mostrelor, producție, păstrarea matrițelor',
+      keyRequirements: 'Linie vândabilă fără design sau producție SUP interne',
+      qualityFocus: 'Controlul versiunilor graficii, acuratețea ambalajului, completitudinea kitului',
+      navLabel: 'Lansare de marcă proprie',
+      metaTitle: 'Lansare SUP de marcă proprie | Extindere de brand — iSupfactory',
+      metaDescription:
+        'Cum a extins un brand outdoor deja existent în segmentul SUP cu o linie de produse de marcă proprie — de la logo la primul container, cu MOQ scalabil.',
+      kicker: 'Proiect de marcă proprie',
+      h1: 'Cum a lansat un brand outdoor o linie SUP de marcă proprie, de la logo la primul container',
+      intro: [
+        'Un retailer de articole sportive cu un brand deja consacrat dorea să intre în sporturile de vâsluire fără să construiască relații cu fabrici — o linie SUP vândabilă sub propriul nume.',
+      ],
+      industry: 'Retail și branduri outdoor',
+      requirement: 'O linie SUP de marcă proprie — logo, culori și ambalaj pe platforme validate, prima serie de 50 bucăți.',
+      challenge:
+        'Fără echipă proprie de design SUP, fără experiență de producție și cu o primă comandă suficient de mică încât să testeze piața înainte de scalare.',
+      solution:
+        'Grafică completă de produs și ambalaj dezvoltată din materialele de brand, o serie de validare de 50 bucăți, apoi scalarea pe aceleași platforme verificate, cu matrițele păstrate pentru brand.',
+      product: 'SUP gonflabil de marcă proprie — punte, pâlnie, pompă, rucsac și cutii imprimate, toate de marcă.',
+      process: [
+        { title: 'Brief de brand', body: 'Logo-ul, culorile și manualul de brand au fost transpuse în grafică de planșă și de ambalaj.' },
+        { title: 'Aprobarea mostrei', body: 'Mostra fizică a confirmat finisajul, culorile și ambalajul.' },
+        { title: 'Serie de validare', body: 'Prima serie de 50 bucăți s-a epuizat înainte de scalare.' },
+        { title: 'Scalare', body: 'Producție la nivel de comandă container, cu calitate constantă; designul rămâne proprietatea brandului.' },
+      ],
+      result:
+        'Linia și-a epuizat seria de validare într-un singur sezon și a fost scalată până la o comandă container — toate designurile și matrițele au rămas în posesia brandului.',
+      outcome: 'Validare într-un sezon, scalare până la comenzi container.',
+      customizations: [
+        'Platforme, dimensiuni și culori ale planșelor asociate liniei de brand',
+        'Grafică de punte, de fundul planșei și de ambalaj dezvoltată din materialele de brand',
+        'Pâlnie, pompă, rucsac și set de accesorii de marcă',
+        'Cutii de retail imprimate și amplasarea etichetei',
+        'Versiune de cod de bare și de manual de utilizare pentru piața țintă',
+        'Păstrarea matrițelor și a graficii pentru brand',
+      ],
+      inspectionFocus: [
+        'Correspondenta versiunii graficii cu fișierele aprobate',
+        'Acuratețea culorii și a finisajului pe mostra fizică',
+        'Verificarea ambalajului, a codului de bare și a manualului',
+        'Completitudinea kitului pe tot parcursul seriei de validare',
+        'Verificări punctuale de etanșeitate în timpul producției',
+      ],
+      confidentiality:
+        'În acord cu părțile, denumirea brandului și detaliile comerciale nu sunt divulgate. Proiectul este prezentat anonim pentru a proteja confidențialitatea comercială.',
+      tags: ['Extindere de brand', 'Design de ambalaj', 'MOQ scalabil'],
+    },
+    {
+      slug: 'club-team-boards',
+      customerType: 'Cluburi și echipe de vâsluire',
+      region: 'America de Nord',
+      productCategory: 'SUP gonflabil de antrenament',
+      projectStage: 'Aprobarea mostrei → Producția flotei → Comandă de extindere',
+      manufacturingScope: 'Identitate de club, producția flotei, suport pentru piese de schimb',
+      keyRequirements: 'Aspect de echipă uniform, buget redus, extindere viitoare identică',
+      qualityFocus: 'Acuratețea graficii, etanșeitate, completitudinea kitului, consistența comenzilor de repetare',
+      navLabel: 'Planșe de echipă de club',
+      metaTitle: 'Planșe SUP de echipă de club | Reînnoirea flotei de marcă — iSupfactory',
+      metaDescription:
+        'Cum a trecut un club de vâsluire la o nouă identitate vizuală și a reînnoit flota cu 25 de planșe de antrenament de marcă — grafică de echipă, suport pentru piese și comenzi de repetare constante.',
+      kicker: 'Proiect de club',
+      h1: 'Cum a dat un club de vâsluire o nouă identitate vizuală unei flote de 25 de planșe de antrenament',
+      intro: [
+        'Un club de vâsluire și-a reînnoit identitatea vizuală și a dorit ca și echipamentul să corespundă — o flotă de echipă uniformă pentru antrenament și regate, fără stocuri eterogene.',
+      ],
+      industry: 'Cluburi și echipe de vâsluire',
+      requirement: '25 de planșe de antrenament de marcă, cu denumirea, culorile și logo-ul clubului, plus piese de schimb.',
+      challenge:
+        'Flota existentă era eterogenă și fără identitate vizuală; bugetele erau strânse, iar extinderea viitoare necesita stoc de rezervă identic.',
+      solution:
+        'Identitatea clubului pe fiecare planșă, preț de flotă pentru volum și piese de schimb plus ghiduri de reparații pentru a prelungi durata de viață a planșelor.',
+      product: 'SUP personalizat de echipă — formă de antrenament cu grafică de club, plus aripioare de rezervă și kituri de reparații.',
+      process: [
+        { title: 'Date despre club', body: 'Numărul de membri, tipurile de ședințe și echipamentul curent au fost analizate.' },
+        { title: 'Selecția planșelor', body: 'Formele de antrenament și pentru începători au fost adaptate programului clubului.' },
+        { title: 'Aplicarea identității', body: 'Denumirea, culorile și logo-ul clubului au fost tipărite pe întreaga flotă.' },
+        { title: 'Livrare și extindere', body: 'Flota a fost livrată cu piese; comandă de repetare identică pentru extindere.' },
+      ],
+      result:
+        'Membrii se antrenează pe echipament de marcă unitar, iar clubul a extins flota în sezonul următor printr-o comandă de repetare identică, la aceeași calitate.',
+      outcome: 'Flotă unitară, comandă de extindere identică.',
+      customizations: [
+        'Platforme de antrenament și pentru începători adaptate programului clubului',
+        'Denumirea, culorile și logo-ul clubului tipărite pe întreaga flotă',
+        'Numerotarea planșelor și gruparea pe dimensiuni pentru fiecare grup de antrenament',
+        'Aripioare de rezervă și kituri de reparații ca accesorii de flotă',
+        'Specificație blocată pentru comanda de repetare, în vederea unei extinderi identice',
+      ],
+      inspectionFocus: [
+        'Acuratețea graficii pentru denumirea, culorile și logo-ul clubului',
+        'Verificarea umflării și a etanșeității',
+        'Completitudinea accesoriilor și a kitului de reparații',
+        'Consistența culorii pe întreaga serie de 25 de planșe',
+      ],
+      confidentiality:
+        'În acord cu părțile, denumirea și locația clubului nu sunt divulgate. Proiectul este prezentat anonim pentru a proteja confidențialitatea comercială.',
+      tags: ['Identitate de club', 'Preț de flotă', 'Suport pentru piese'],
+    },
+    {
+      slug: 'school-program-fleet',
+      customerType: 'Programe educaționale și pentru tineri',
+      region: 'Europa',
+      productCategory: 'SUP gonflabil pentru începători și multi-personă',
+      projectStage: 'Analiza programului → Aprobarea mostrei → Livrarea flotei',
+      manufacturingScope: 'Proiectarea pachetului, producție, piese de schimb și suport pentru reînnoire',
+      keyRequirements: 'Echipament cu prioritate la siguranță, cantități pe clase, gestionare cu personal redus',
+      qualityFocus: 'Stabilitate, etanșeitate, completitudinea accesoriilor, ghidul de utilizare',
+      navLabel: 'Flotă pentru program școlar',
+      metaTitle: 'Program SUP școlar | Flotă pentru începători — iSupfactory',
+      metaDescription:
+        'Cum a lansat o școală o disciplină opțională de vâsluire cu o flotă de 15 planșe pentru începători și planșe multi-personă — echipament cu prioritate la siguranță pentru instrucție.',
+      kicker: 'Proiect școlar',
+      h1: 'Cum a lansat o școală o flotă de 15 planșe pentru începători, pentru instrucția în sportul de vâsluire',
+      intro: [
+        'O școală care lansa o disciplină opțională de vâsluire avea nevoie de echipament stabil și sigur pentru cei care vâsluiesc pentru prima dată, dimensionat pe clase și ușor de gestionat cu personal redus.',
+      ],
+      industry: 'Programe educaționale și pentru tineri',
+      requirement: 'O flotă pentru începători dimensionată pe numărul de elevi din clase, inclusiv planșe multi-personă pentru primele lecții.',
+      challenge:
+        'Niveluri de pregătire diferite, cerințe stricte de siguranță, cicluri de achiziție școlare și un buget care trebuia să acopere și promoțiile viitoare.',
+      solution:
+        'Planșe late, cu volum mare, pentru începători și planșe multi-personă, preț de program adaptat cantităților pe clase și ghiduri de utilizare clare pentru instructori.',
+      product: 'Flotă SUP pentru începători — platforme stabile cu construcție ranforzată, pentru o durată de viață lungă a programului.',
+      process: [
+        { title: 'Analiza programului', body: 'Numărul de elevi din clase, suprafața de apă și organizarea instructorilor au definit pachetul.' },
+        { title: 'Construirea pachetului', body: 'Tipurile de planșe și cantitățile au fost asociate necesarului de instrucție.' },
+        { title: 'Aprobarea mostrei', body: 'Stabilitatea și construcția au fost verificate pe o planșă fizică.' },
+        { title: 'Livrare și reînnoire', body: 'Livrare în cantitate mare, piese de schimb și comenzi de repetare pentru promoții noi.' },
+      ],
+      result:
+        'Instructorii au raportat un progres mai rapid la prima ședință, pe platformele stabile, iar programul și-a reînnoit echipamentul în anul următor printr-o comandă de repetare identică.',
+      outcome: 'Curvă de învățare mai rapidă, echipament reînnoit în anul următor.',
+      customizations: [
+        'Platforme late, cu volum mare, pentru începători, destinate primelor ședințe',
+        'Planșe multi-personă incluse pentru lecțiile de grup',
+        'Dimensiunea și numărul de planșe asociate mărimii claselor',
+        'Ghid de utilizare clar și etichete de instrucție',
+        'Construcție ranforzată pentru o durată de viață lungă a programului',
+        'Specificația comenzii pentru livrare în cantitate mare și pentru reînnoire',
+      ],
+      inspectionFocus: [
+        'Verificarea stabilității și a configurației punții',
+        'Umflare și test de etanșeitate la fiecare planșă',
+        'Completitudinea accesoriilor pentru fiecare planșă și kitul de clasă',
+        'Acuratețea ghidului de utilizare și a etichetării',
+        'Verificări de marcare a cutiilor și de ambalare a kiturilor de clasă',
+      ],
+      confidentiality:
+        'În acord cu părțile, denumirea și regiunea școlii nu sunt divulgate. Proiectul este prezentat anonim pentru a proteja confidențialitatea comercială.',
+      tags: ['Flotă pentru începători', 'Lansare de program', 'Comenzi de reînnoire'],
+    },
+    {
+      slug: 'distributor-line-expansion',
+      customerType: 'Distribuitori și angrosiști',
+      region: 'Două regiuni de export',
+      productCategory: 'SUP gonflabil de segment mediu (6 SKU)',
+      projectStage: 'Planificarea gamei → Aprobarea mostrei → Livrare pe mai multe piețe',
+      manufacturingScope: 'Planșe, accesorii și ambalaje de retail într-un singur program',
+      keyRequirements: 'Un singur responsabil de calitate, identitate de brand coerentă, stoc redus pe fiecare SKU',
+      qualityFocus: 'Etanșeitate, acuratețea graficii, acuratețea codului de bare și a etichetei, corespondența listei de materiale',
+      navLabel: 'Extinderea gamei de distribuitor',
+      metaTitle: 'Extinderea gamei SUP de distribuitor | Program cu 6 SKU — iSupfactory',
+      metaDescription:
+        'Cum a adăugat un distribuitor de sporturi acvatice o gamă SUP completă de segment mediu, cu șase SKU — o singură fabrică, un singur program, export în mai multe piețe.',
+      kicker: 'Proiect de distribuitor',
+      h1: 'Cum a lansat un distribuitor o gamă SUP cu 6 SKU pe două piețe',
+      intro: [
+        'Un distribuitor de sporturi acvatice care comercializa canoe și accesorii își dorea propria gamă de SUP gonflabile — fără să fragmenteze aprovizionarea între mai multe fabrici pentru planșe, pâlnii și pompe.',
+      ],
+      industry: 'Distribuitori și angrosiști',
+      requirement:
+        'O gamă SUP de segment mediu cu șase SKU (de la 10′6″ la 12′6″, plus kituri de accesorii), cu export în două regiuni.',
+      challenge:
+        'Fabrici separate pentru planșe, pâlnii și pompe însemnau identitate de brand incoerentă, trei puncte de aprovizionare distincte și niciun responsabil unic de calitate pentru reclamațiile de garanție.',
+      solution:
+        'Un singur program care acoperă planșele, accesoriile și ambalajele de retail; kituri de accesorii comune pentru reducerea stocului pe fiecare SKU; și opțiuni de livrare adaptate structurii fiecărei piețe.',
+      product:
+        'Șase SKU-uri de retail de marcă — platforme SUP gonflabile cu kituri complete, cu separatoare, în cutii imprimate.',
+      process: [
+        { title: 'Planificarea gamei', body: 'Lipsurile de pe piață și nivelurile de preț au definit cele șase SKU-uri și conținutul pachetelor.' },
+        { title: 'Identitate de brand unitară', body: 'Un singur sistem de design a fost aplicat pe planșe, pâlnii, pompe și cutii.' },
+        { title: 'Prețul programului', body: 'Preț de volum aplicat întregului program, nu fiecărui SKU în parte.' },
+        { title: 'Livrare pe piețe diferite', body: 'Condiții standard de export pentru regiunea de origine și condiții complete de serviciu pentru a doua piață.' },
+      ],
+      result:
+        'Gama a fost lansată pe ambele piețe într-un singur sezon; kiturile de accesorii comune au redus stocul de depozitare, iar problemele de garanție au fost rezolvate printr-un singur contact de fabrică.',
+      outcome: 'Lansare pe mai multe piețe într-un sezon, stoc de depozitare mai mic, un singur punct de garanție.',
+      customizations: [
+        'Șase SKU-uri de la 10′6″ la 12′6″, plus pachete de kituri de accesorii',
+        'Un singur sistem de design aplicat pe planșe, pâlnii, pompe și cutii',
+        'Kituri de accesorii comune, pentru reducerea stocului pe fiecare SKU',
+        'Kituri complete cu separatoare, în cutii de retail imprimate',
+        'Versiuni de cod de bare, de etichetă și de manual pentru fiecare piață țintă',
+        'Condiții de livrare și configurare de ambalare adaptate fiecărei piețe',
+      ],
+      inspectionFocus: [
+        'Correspondenta listei de materiale pentru fiecare configurație de SKU',
+        'Acuratețea graficii și a identității de brand pe cele șase SKU-uri',
+        'Acuratețea codului de bare și a etichetei pentru fiecare piață',
+        'Completitudinea kitului de accesorii și ambalarea cu separatoare',
+        'Verificarea etanșeității pe tot parcursul seriei',
+      ],
+      confidentiality:
+        'În acord cu părțile, denumirea distribuitorului și lista de clienți nu sunt divulgate. Proiectul este prezentat anonim pentru a proteja confidențialitatea comercială.',
+      tags: ['Program multi-SKU', 'Kituri de retail complete'],
+    },
+    {
+      slug: 'startup-brand-zero-to-one',
+      customerType: 'Branduri SUP de tip startup',
+      region: 'America de Nord',
+      productCategory: 'SUP gonflabil all-around ODM',
+      projectStage: 'Concept → Serie de încercare → Comandă de lansare',
+      manufacturingScope: 'Dezvoltare ODM, grafică, ambalaj, producție',
+      keyRequirements: 'Primă serie cu MOQ redus, aliniere la data de lansare, păstrarea matrițelor pentru brand',
+      qualityFocus: 'Etanșeitate, acuratețea graficii, verificarea ambalajului',
+      navLabel: 'Lansare de brand startup 0→1',
+      metaTitle: 'Lansare de brand SUP startup | De la concept la prima serie — iSupfactory',
+      metaDescription:
+        'Cum a trecut un startup SUP de la concept la prima serie epuizată — dezvoltare ODM, o serie de încercare de 10 bucăți, apoi o comandă de lansare de 200 de bucăți de marcă.',
+      kicker: 'Proiect de startup',
+      h1: 'De la concept la o lansare epuizată de 200 de planșe pentru un brand SUP de tip startup',
+      intro: [
+        'Doi fondatori cu o audiență, dar fără fabrică, voiau să își vândă propriile SUP-uri — o planșă ODM dezvoltată conform specificațiilor lor, cu o comandă de lansare care să nu îi împovăreze.',
+      ],
+      industry: 'Branduri SUP de tip startup',
+      requirement: 'Dezvoltare ODM la MOQ redus: o serie de încercare de 10 bucăți pentru validare, apoi 200 de bucăți pentru lansare.',
+      challenge:
+        'Fără echipă de design, fără experiență la import și cu o primă comandă prea mică pentru majoritatea fabricilor — plus o dată de lansare legată de sezonul din emisfera nordică.',
+      solution:
+        'Dezvoltare ODM pornind de la conceptul lor pe o platformă validată, o serie de încercare de 10 bucăți care acoperă mostrele și verificarea aprovizionării, apoi o comandă de lansare de 200 de bucăți de marcă, cu matrițele păstrate pentru brand.',
+      product: 'SUP gonflabil ODM de marcă — grafică personalizată pe punte, ambalaj și dimensiuni de carton gata de vânzare.',
+      process: [
+        { title: 'Discuție de concept', body: 'Vâsluitorul țintă, nivelul de preț și data de lansare au stabilit platforma de bază.' },
+        { title: 'Serie de încercare', body: 'Cele 10 bucăți au validat produsul și ambalajul de la un capăt la altul.' },
+        { title: 'Comandă de lansare', body: 'Au fost produse 200 de bucăți cu grafica și specificația de carton verificate.' },
+        { title: 'Traseu de scalare', body: 'Matrițele sunt păstrate pentru brand; comenzile de repetare se plasează la prețuri îmbunătățite.' },
+      ],
+      result:
+        'Prima serie s-a epuizat în câteva săptămâni de la începutul sezonului; feedbackul din seria de încercare a corectat o problemă de ambalaj înainte de intrarea în producție a comenzii mari.',
+      outcome: 'Serie de lansare epuizată, ambalaj corectat înainte de scalare, traseu de repetare stabilit.',
+      customizations: [
+        'Planșă ODM dezvoltată din conceptul brandului, pe o platformă validată',
+        'Grafică personalizată pe punte și ambalaj de marcă',
+        'Dimensiuni de carton gata de vânzare pentru comanda de lansare',
+        'Set de accesorii și configurație de kit asociate vâsluitorului țintă',
+        'Matrițele și grafica păstrate pentru brand',
+        'Programare a producției aliniată la data de lansare',
+      ],
+      inspectionFocus: [
+        'Acuratețea graficii față de fișierele aprobate',
+        'Verificarea etanșeității pe seria de încercare și pe comanda de lansare',
+        'Verificarea ambalajului și a cartonului — inclusiv corecția aplicată în seria de încercare',
+        'Completitudinea accesoriilor și a kitului',
+      ],
+      confidentiality:
+        'În acord cu părțile, denumirea brandului și detaliile lansării nu sunt divulgate. Proiectul este prezentat anonim pentru a proteja confidențialitatea comercială.',
+      tags: ['Dezvoltare ODM', 'Serie de încercare cu MOQ redus', 'Planificare după sezon'],
+    },
+    {
+      slug: 'rental-fleet-multi-site',
+      customerType: 'Operatori de flote de închiriere',
+      region: 'America de Nord',
+      productCategory: 'SUP gonflabil all-around de clasă pentru închiriere',
+      projectStage: 'Auditul flotei → Producție uniformă → Reînnoire sezonieră',
+      manufacturingScope: 'Specificația flotei, producție, pachete de piese, program de reînnoire',
+      keyRequirements: 'O singură planșă uniformă în toate locațiile, rezistență la utilizare intensă în regim de închiriere',
+      qualityFocus: 'Verificarea construcției ranforzate, etanșeitate, completitudinea kitului',
+      navLabel: 'Flotă de închiriere pe mai multe locații',
+      metaTitle: 'Extinderea flotei de închiriere | 200 de planșe, 3 locații — iSupfactory',
+      metaDescription:
+        'Cum a înlocuit un operator de închiriere cu mai multe locații stocul eterogen cu 200 de planșe unitare în trei amplasamente — preț de flotă, reînnoire sezonieră și furnizare de piese.',
+      kicker: 'Proiect de închiriere',
+      h1: 'Standardizarea unei flote de închiriere de 200 de planșe pe trei locații pentru un operator de flotă',
+      intro: [
+        'Un operator de închiriere cu trei locații pe lângă apă avea nevoie de o flotă uniformă în locul stocului eterogen — aceeași planșă pe fiecare locație, la preț de volum de flotă.',
+      ],
+      industry: 'Operatori de flote de închiriere',
+      requirement: '200 de planșe de clasă pentru închiriere pe trei locații, cu reînnoire sezonieră și piese reparabile în teren.',
+      challenge:
+        'Stocul eterogen, cu vârste diferite, complica reparațiile și stabilirea prețurilor; utilizarea intensă în regim de închiriere impune o construcție ranforzată, iar depozitarea între sezoane era împărțită pe trei locații.',
+      solution:
+        'O singură platformă de clasă pentru închiriere pe toate locațiile, cu margini ranforzate și materiale stabile la UV, preț de flotă aplicat volumului de 200 de planșe și câte un pachet de piese cu ghid de reparații pentru fiecare locație.',
+      product: 'SUP gonflabil de clasă pentru închiriere — platformă all-around de 11′ cu construcție ranforzată și kituri de reparații.',
+      process: [
+        { title: 'Auditul flotei', body: 'Volumul și gradul de utilizare pe fiecare locație au stabilit repartizarea între amplasamente.' },
+        { title: 'Specificație uniformă', body: 'O singură planșă peste tot — reparații, prețuri și instruire mai simple.' },
+        { title: 'Preț de flotă', body: 'Reducere de volum aplicată comenzii cumulate de 200 de planșe.' },
+        { title: 'Piese și reînnoire', body: 'Pachete de piese pe locație, plus un ciclu sezonier de înlocuire definit.' },
+      ],
+      result:
+        'Flota uniformă a redus confuzia legată de reparațiile pe locații, comandarea cumulată a deblocat prețurile de flotă, iar programul de 200 de planșe a devenit baza pentru reînnoirea sezonieră.',
+      outcome: 'Operațiuni unitare, cost unitar mai mic, ciclu sezonier repetabil.',
+      customizations: [
+        'O singură platformă de clasă pentru închiriere pe toate cele trei locații',
+        'Margini ranforzate și materiale stabile la UV pentru utilizare intensă în închiriere',
+        'Repartizare pe locații și numerotare a flotei pentru fiecare amplasament',
+        'Pachete de piese pe locație, cu ghid de reparații',
+        'Ciclu sezonier de înlocuire definit',
+      ],
+      inspectionFocus: [
+        'Verificarea construcției ranforzate la fiecare planșă',
+        'Umflare și test de etanșeitate la fiecare planșă',
+        'Completitudinea accesoriilor și a kitului de reparații pentru fiecare locație',
+        'Acuratețea numerotării flotei și a etichetării pe locații',
+        'Verificări de ambalare pentru livrare pe locații separate',
+      ],
+      confidentiality:
+        'În acord cu părțile, denumirea operatorului și locațiile punctelor de închiriere nu sunt divulgate. Proiectul este prezentat anonim pentru a proteja confidențialitatea comercială.',
+      tags: ['Flotă pe mai multe locații', 'Construcție de clasă pentru închiriere', 'Reînnoire sezonieră'],
+    },
+    {
+      slug: 'touring-sup-range',
+      customerType: 'Distribuitori outdoor și de sporturi acvatice',
+      region: 'Europa',
+      productCategory: 'SUP gonflabil touring',
+      projectStage: 'Brief de produs → Aprobarea mostrei → Producție de volum',
+      manufacturingScope: 'Analiza platformei, grafică, configurația accesoriilor, ambalaje de retail și producție',
+      keyRequirements: 'Performanță de touring, grafică specifică proiectului, kit de retail complet',
+      qualityFocus: 'Etanșeitate, acuratețea graficii, completitudinea accesoriilor, marcarea cutiilor',
+      navLabel: 'Gamă SUP Touring',
+      metaTitle: 'Dezvoltarea gamei SUP Touring | Distribuitor outdoor — iSupfactory',
+      metaDescription:
+        'Cum a susținut iSupfactory o gamă SUP touring pentru un distribuitor outdoor european — analiza platformei, grafică specifică proiectului, configurația accesoriilor și ambalajele de retail.',
+      kicker: 'Proiect Touring',
+      h1: 'Dezvoltarea unei game SUP touring pentru un distribuitor outdoor european',
+      intro: [
+        'Un proiect SUP gonflabil personalizat care acoperă analiza platformei, grafica specifică proiectului, configurația accesoriilor, ambalajele de retail și planificarea calității — de la aprobarea mostrei până la pregătirea expediției.',
+      ],
+      industry: 'Distribuitori și angrosiști',
+      requirement: 'O gamă SUP touring cu grafică specifică proiectului, configurație de accesorii și ambalaje de retail, controlată de la aprobarea mostrei până la expediție.',
+      challenge:
+        'Vâsluitorii de touring așteaptă stabilitate la viteză și alunecare predictibilă, așa că platforma, dimensiunile și volumul trebuiau analizate înainte de producție. Grafica trebuia să se potrivească pozițiilor marginilor, ale EVA-ului și ale supapelor, iar fiecare kit de retail trebuia să fie complet pe întreaga gamă.',
+      solution:
+        'Analiza platformei și a dimensiunilor pentru performanță de touring, grafică specifică proiectului aliniată la elementele planșei, o configurație de accesorii care acoperă pâlnia, leash-ul și geanta, planificarea ambalajelor de retail și o producție de volum controlată, cu puncte de control al calității definite.',
+      product: 'Gamă SUP gonflabil touring — platformă de performanță cu grafică personalizată, kit de accesorii complet și ambalaj gata de vânzare.',
+      process: [
+        { title: 'Analiza platformei', body: 'Dimensiunile, volumul și profilul marginii pentru touring au fost asociate vâsluitorului țintă și pieței.' },
+        { title: 'Specificație și grafică', body: 'Specificația tehnică, alinierea graficii și lista de materiale aprobată de client au fost pregătite.' },
+        { title: 'Aprobarea mostrei', body: 'Construcția, grafica și kitul au fost confirmate pe o planșă fizică.' },
+        { title: 'Producție și inspecție', body: 'Producție de volum cu puncte de control al calității, verificarea ambalării și eliberarea expediției.' },
+      ],
+      result:
+        'Gama a parcurs drumul de la aprobarea mostrei la pregătirea expediției sub o documentație controlată de produs, grafică, listă de materiale și ambalare — mostra aprobată a servit drept referință pentru producție și inspecția finală.',
+      outcome: 'Traseu controlat de la probă la producție; grafica și ambalarea au fost fixate înainte de producție.',
+      customizations: [
+        'Platformă, dimensiuni și configurație de volum pentru touring',
+        'Grafică specifică proiectului pe suprafața superioară, pe fundul planșei și pe margini',
+        'Dispunerea padurilor EVA și configurația culorilor',
+        'Sistem de aripioare, dispunerea bungee și setul de accesorii',
+        'Geantă de marcă, versiune de manual de utilizare și ambalaj de retail',
+        'Marcarea cutiilor și cerințele de cod de bare pentru piața țintă',
+      ],
+      inspectionFocus: [
+        'Verificarea umflării și a etanșeității',
+        'Inspecția supapei, a marginilor și a cusăturilor',
+        'Acuratețea graficii față de fișierele aprobate',
+        'Completitudinea accesoriilor și a kitului',
+        'Verificarea ambalajului de retail, a codului de bare și a marcării cutiilor',
+      ],
+      confidentiality:
+        'În acord cu părțile, denumirea distribuitorului și lista de clienți nu sunt divulgate. Proiectul este prezentat anonim pentru a proteja confidențialitatea comercială.',
+      tags: ['Gamă SUP touring', 'Grafică personalizată', 'Ambalaje de retail'],
+    },
+    {
+      slug: 'fishing-sup-program',
+      customerType: 'Retaileri outdoor',
+      region: 'America de Nord',
+      productCategory: 'SUP gonflabil fishing',
+      projectStage: 'Analiza conceptului → Aprobarea mostrei → Producția programului',
+      manufacturingScope: 'Configurația platformei, dispunerea accesoriilor, ambalaj și producție',
+      keyRequirements: 'Integrarea accesoriilor de pescuit, platformă stabilă, kit organizat',
+      qualityFocus: 'Etanșeitate, ancorarea accesoriilor, acuratețea graficii, completitudinea kitului',
+      navLabel: 'Program SUP Fishing',
+      metaTitle: 'Dezvoltare SUP Fishing | Dispunerea accesoriilor și kit — iSupfactory',
+      metaDescription:
+        'Cum a dezvoltat iSupfactory o configurație SUP fishing pentru un retailer outdoor — dispunerea accesoriilor, kit organizat și ambalare gata de vânzare într-un singur program controlat.',
+      kicker: 'Proiect Fishing',
+      h1: 'Dezvoltarea SUP fishing pentru un retailer outdoor — dispunerea accesoriilor și configurația kitului',
+      intro: [
+        'Un proiect SUP dedicat pescuitului: o platformă stabilă configurată cu zone pentru accesorii de pescuit, un kit organizat și ambalare gata de vânzare — de la analiza conceptului până la producția programului.',
+      ],
+      industry: 'Retail și branduri outdoor',
+      requirement: 'O configurație SUP fishing cu ancorarea accesoriilor, kit organizat și ambalaje de retail, de la analiza conceptului până la producția programului.',
+      challenge:
+        'Planșele de pescuit au nevoie de ancorarea accesoriilor — suporturi pentru undiță, inele în D și zone pentru casete — fără a compromite stabilitatea. Kitul trebuia să rămână organizat pe planșă, iar ambalajul trebuia să prezinte clar categoria la retail.',
+      solution:
+        'O platformă lată și stabilă, cu zone definite pentru accesorii, poziționarea inelelor în D și a benzilor bungee pentru echipamentul de pescuit, un kit organizat cu set de reparații și ambalaje de retail dezvoltate într-un singur program controlat.',
+      product: 'SUP gonflabil fishing — platformă stabilă cu zone pentru accesorii de pescuit, kit organizat și ambalaj gata de vânzare.',
+      process: [
+        { title: 'Analiza conceptului', body: 'Utilizarea țintă, echipamentul transportat și structura kitului au definit configurația.' },
+        { title: 'Dispunerea accesoriilor', body: 'Inelele în D, benzile bungee și zonele de depozitare au fost poziționate pe punte.' },
+        { title: 'Aprobarea mostrei', body: 'Stabilitatea și ancorarea accesoriilor au fost verificate pe o planșă fizică.' },
+        { title: 'Producția programului', body: 'Puncte de control al calității definite, verificarea kitului și eliberarea expediției.' },
+      ],
+      result:
+        'Configurația a fost confirmată pe mostra aprobată — ancorarea accesoriilor, structura kitului și ambalajul au fost aliniate înainte de producție — iar programul a fost expediat cu kituri verificate.',
+      outcome: 'Dispunerea accesoriilor și kitul au fost fixate în etapa de probă; kituri verificate au fost expediate.',
+      customizations: [
+        'Platformă lată și stabilă, cu zone pentru accesorii de pescuit',
+        'Poziționarea suporturilor pentru undiță, a inelelor în D și a benzilor bungee',
+        'Dispunerea punții pentru casete și echipament de pescuit',
+        'Alegerea pâlniei, a aripioarei și a leash-ului pentru utilizarea la pescuit',
+        'Kit de accesorii organizat și set de reparații',
+        'Ambalaje de retail pentru categoria SUP fishing',
+        'Cod de bare și marcare a cutiilor pentru piața țintă',
+      ],
+      inspectionFocus: [
+        'Verificarea ancorării accesoriilor și a poziționării inelelor în D',
+        'Verificarea umflării și a etanșeității',
+        'Acuratețea graficii și a configurației punții',
+        'Completitudinea kitului și configurația accesoriilor',
+        'Verificarea ambalajului de retail și a marcării cutiilor',
+      ],
+      confidentiality:
+        'În acord cu părțile, denumirea retailerului și detaliile canalului de distribuție nu sunt divulgate. Proiectul este prezentat anonim pentru a proteja confidențialitatea comercială.',
+      tags: ['Configurație fishing', 'Dispunerea accesoriilor', 'Organizarea kitului'],
+    },
+    {
+      slug: 'yoga-sup-program',
+      customerType: 'Școli și programe de sporturi acvatice',
+      region: 'Europa',
+      productCategory: 'SUP gonflabil yoga',
+      projectStage: 'Analiza programului → Aprobarea mostrei → Livrarea flotei',
+      manufacturingScope: 'Configurația platformei stabile, acoperirea punții, producție și ambalaj de program',
+      keyRequirements: 'Stabilitate pentru practica în grup, acoperire completă a punții cu EVA, flotă unitară',
+      qualityFocus: 'Acoperirea punții, etanșeitate, acuratețea graficii, completitudinea kitului',
+      navLabel: 'Program SUP Yoga',
+      metaTitle: 'Dezvoltare SUP Yoga | Program de antrenament — iSupfactory',
+      metaDescription:
+        'Cum a dezvoltat iSupfactory o configurație stabilă de SUP yoga pentru un program de antrenament în sporturile acvatice — acoperire completă a punții și flotă de program unitară.',
+      kicker: 'Proiect Yoga',
+      h1: 'Dezvoltarea unei configurații stabile de SUP yoga pentru un program de antrenament în sporturile acvatice',
+      intro: [
+        'O configurație SUP yoga pentru un program de antrenament: o platformă lată, cu volum mare și cu acoperire completă a punții cu EVA, produsă ca flotă unitară pentru practica în grup.',
+      ],
+      industry: 'Programe educaționale și pentru tineri',
+      requirement: 'O configurație stabilă de SUP yoga, cu acoperire completă a punții pentru practica în grup, în cantități de program.',
+      challenge:
+        'Practica de yoga cere o platformă lată și cu volum mare care să rămână impecabil de stabilă în apă. Grupurile au nevoie de planșe unitare, iar instructorii au nevoie de îndrumări clare și de o depozitare ușoară între ședințe.',
+      solution:
+        'O platformă lată, cu volum mare și cu acoperire completă a punții cu EVA, o configurație de flotă unitară pe tot parcursul programului și includerea îndrumărilor pentru instructori și a etichetelor de program.',
+      product: 'SUP gonflabil yoga — platformă stabilă cu acoperire completă a punții cu paduri EVA și flotă de program unitară.',
+      process: [
+        { title: 'Analiza programului', body: 'Stilul de practică, dimensiunea grupurilor și depozitarea au definit configurația.' },
+        { title: 'Configurație', body: 'Platforma, acoperirea punții și finisajul au fost stabilite pentru întreaga flotă.' },
+        { title: 'Aprobarea mostrei', body: 'Stabilitatea și acoperirea punții au fost verificate pe o planșă fizică.' },
+        { title: 'Livrarea flotei', body: 'Cantitățile de program au fost produse cu verificarea kitului și a ambalajului.' },
+      ],
+      result:
+        'Flota a fost expediată ca o singură configurație unitară — fiecare planșă corespunzând mostrei aprobate în privința stabilității, a acoperirii punții și a finisajului — cu îndrumări incluse pentru instructori.',
+      outcome: 'Flotă unitară, conformă cu mostra aprobată; ambalajul de program verificat.',
+      customizations: [
+        'Platformă lată, cu volum mare, pentru stabilitate în poziție verticală',
+        'Acoperire completă a punții cu EVA pe întreaga zonă utilizabilă',
+        'Dispunerea punții și poziționarea curelelor pentru practică',
+        'Culoare și finisaj constante pe întreaga flotă',
+        'Îndrumări pentru instructori și etichete de program',
+        'Configurația depozitării și a ambalajului de program',
+      ],
+      inspectionFocus: [
+        'Inspecția acoperirii punții și a adeziunii EVA',
+        'Verificarea umflării și a etanșeității',
+        'Verificarea stabilității pe mostra aprobată',
+        'Consistența graficii și a finisajului pe tot parcursul seriei',
+        'Verificări privind completitudinea kitului și ambalajul de program',
+      ],
+      confidentiality:
+        'În acord cu părțile, denumirea și locația programului nu sunt divulgate. Proiectul este prezentat anonim pentru a proteja confidențialitatea comercială.',
+      tags: ['Configurație yoga', 'Acoperire completă a punții', 'Flotă de program'],
+    },
+  ],
 }
 
 export function getProject(locale: Locale, slug: string): ProjectData | undefined {
@@ -10191,6 +10856,12 @@ export const projectsMeta: Localized<ProjectsMeta> = {
     metaDescription:
       'Gerçek SUP üretim projeleri: resortlar, markalar, kulüpler ve okullar ürün gereksinimlerini iSupfactory ile nasıl tamamlanmış kürek tahtalarına dönüştürdü.',
     h1: 'Projeler — müşterilerimizle SUP ürünlerini nasıl geliştiriyoruz',
+  },
+  ro: {
+    metaTitle: 'Proiecte de dezvoltare a produselor SUP și studii de caz | iSupfactory',
+    metaDescription:
+      'Proiecte reale de producție SUP: cum au transformat resorturi, branduri, cluburi și școli cerințele de produs în planșe de vâsluire finalizate împreună cu iSupfactory.',
+    h1: 'Proiecte — cum dezvoltăm produse SUP împreună cu clienții',
   },
 }
 

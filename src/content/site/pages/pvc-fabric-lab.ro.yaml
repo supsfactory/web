@@ -1,0 +1,111 @@
+meta:
+  title: 'Laborator de țesături PVC — încercarea materialelor pentru plăci SUP'
+  description: 'Încercarea materialelor de la fibră până la placa finalizată: rezistență la tracțiune, îmbătrânire UV, flexibilitate la temperaturi joase și rezistență la abraziune pentru țesăturile PVC destinate plăcilor SUP.'
+back_text: 'Înapoi la Centrul R&D'
+home_label: 'Acasă'
+
+hero:
+  tagline: 'Laborator 01'
+  title: 'Laborator de țesături PVC'
+  subtitle: 'Încercare științifică a materialelor — de la fibră până la placa finalizată'
+  image: 'https://assets.isupfactory.com/images/sups/randd/isupfactory-pvc-material-lab.webp'
+  image_alt: 'Laboratorul Vatrad pentru încercarea materialelor din țesătură PVC'
+
+answer:
+  label: 'Răspuns direct'
+  text: 'Plăcile sunt construite din PVC marin de 1,680 DTEX, cu un strat de acoperire în trei straturi și cu un miez drop-stitch dimensionat pentru 12–15 PSI. Fiecare lot de țesătură primit este încercat independent în regim propriu pentru rezistență la tracțiune (ISO 1421), menținerea proprietăților după 2,000 ore de expunere la arc xenon (ISO 4892), abraziune și flexibilitate la temperaturi joase — niciun lot nu intră în producție pe baza exclusivă a fișelor furnizorului.'
+  verified: 'Septembrie 2026'
+
+intro: 'Țesătura plăcii este cel mai critic material dintr-o placă SUP gonflabilă. Trebuie să reziste la expunere constantă la radiații UV, la cicluri repetate de umflare, la abraziune pe docuri și la aterizări pe nisip, precum și la variații extreme de temperatură — tot acest timp păstrându-și integritatea structurală timp de ani. La {SITE.name}, laboratorul nostru de țesături PVC este dedicat exclusiv caracterizării, validării și îmbunătățirii continue a țesăturilor folosite la fiecare placă pe care o construim.'
+
+content_html: |
+  <h2>Fundația fiecărei plăci SUP gonflabile</h2>
+  <p>Nu ne bazăm exclusiv pe fișele de date furnizate de producător. Fiecare lot de țesătură PVC și de miez drop-stitch care intră în atelierul nostru este încercat independent în regim propriu. Astfel, specificația de material pe care o publicăm corespunde performanței pe care o primiți — lot după lot, an după an.</p>
+
+  <h2>Echipament de încercare standardizat</h2>
+  <p>Laboratorul nostru de țesături este dotat cu instrumente de calitate industrială, conforme cu metodele de încercare ISO, ASTM și EN:</p>
+  <table>
+    <thead><tr><th>Echipament</th><th>Parametri măsurați</th><th>Standard</th></tr></thead>
+    <tbody>
+      <tr><td>Mașină universală de încercare la tracțiune (50 kN)</td><td>Forta de rupere, alungirea la rupere, propagarea sfâșierii</td><td>ISO 1421 / ASTM D751</td></tr>
+      <tr><td>Camera de îmbătrânire la arc xenon</td><td>Rezistență la UV (modificarea culorii, menținerea rezistenței după 2000 h)</td><td>ISO 4892 / ASTM G155</td></tr>
+      <tr><td>Aparat de încercare la încovoiere la temperatură joasă</td><td>Punctul de fisurare între -30 °C și -50 °C</td><td>ISO 4675 / ASTM D2136</td></tr>
+      <tr><td>Aparat de abraziune Taber</td><td>Pierderea de masă după 1000 de cicluri (roată CS-10)</td><td>ASTM D3389 / ISO 5470-1</td></tr>
+      <tr><td>Grosimometru (digital, rezoluție 0.001 mm)</td><td>Uniformitatea pe lățimea rolei</td><td>ISO 2286-3</td></tr>
+      <tr><td>Aparat pentru încercarea la coloană de apă</td><td>Rezistența la pătrunderea apei</td><td>ISO 811</td></tr>
+    </tbody>
+  </table>
+  <p class="text-sm text-gray-500">* Toate echipamentele sunt calibrate anual de laboratoare terțe acreditate.</p>
+
+  <h2>De la date la decizii: un flux de încercare tipic</h2>
+  <p>Când ajunge un candidat nou de țesătură, acesta parcurge un proces de calificare standardizat în șapte etape:</p>
+  <ol>
+    <li><strong>Inspecția la recepție</strong> — verificare vizuală a defectelor de suprafață, a perforărilor și a conformității dimensionale.</li>
+    <li><strong>Cartografierea grosimii</strong> — măsurare în 20 de puncte pe lățimea rolei; pentru acceptare se cere CV &lt; 3%.</li>
+    <li><strong>Încercarea la tracțiune</strong> — 5 epruvote pe direcția urzei și pe direcția bătătorului. Minimum 3500 N/50 mm pentru PVC 1100 dtex.</li>
+    <li><strong>Condiționare UV</strong> — expunere de 1000 h în camera cu arc xenon; se cere o retenție de rezistență de minimum 80 %.</li>
+    <li><strong>Fisurare la frig</strong> — 4 h la -35 °C, apoi îndoire la 180° pe un mandrel de 25 mm. Fără fisuri vizibile.</li>
+    <li><strong>Rezistența la abraziune</strong> — 1000 de cicluri, pierdere de masă ≤ 0.05 g.</li>
+    <li><strong>Validarea pentru producție</strong> — țesătura este eliberată pentru producție numai după trecerea tuturor celor șapte porți de verificare.</li>
+  </ol>
+
+  <div class="not-prose my-10 p-6 rounded-xl bg-gray-50 dark:bg-gray-900 border border-gray-200 dark:border-gray-800">
+    <p class="text-sm font-semibold text-gray-500 mb-3 uppercase tracking-wider">PVC 1100 dtex tipic — Retenția rezistenței la tracțiune după expunere la UV</p>
+    <div class="flex items-end gap-3 h-40">
+      <div class="flex-1 flex flex-col items-center">
+        <div class="w-full bg-blue-600 rounded-t" style="height:100%"></div>
+        <span class="text-xs mt-1">0 h 100%</span>
+      </div>
+      <div class="flex-1 flex flex-col items-center">
+        <div class="w-full bg-blue-500 rounded-t" style="height:95%"></div>
+        <span class="text-xs mt-1">500 h 95%</span>
+      </div>
+      <div class="flex-1 flex flex-col items-center">
+        <div class="w-full bg-blue-400 rounded-t" style="height:88%"></div>
+        <span class="text-xs mt-1">1000 h 88%</span>
+      </div>
+      <div class="flex-1 flex flex-col items-center">
+        <div class="w-full bg-blue-300 rounded-t" style="height:82%"></div>
+        <span class="text-xs mt-1">2000 h 82%</span>
+      </div>
+      <div class="flex-1 flex flex-col items-center">
+        <div class="w-full bg-gray-300 rounded-t" style="height:65%"></div>
+        <span class="text-xs mt-1">Concurent ~65%</span>
+      </div>
+    </div>
+    <p class="text-xs text-gray-400 mt-2">Țesătura noastră PVC 1100 dtex păstrează &gt; 80 % din rezistența la tracțiune după 2000 h de expunere la arc xenon, comparativ cu sortimentele uzuale din industrie, care coboară sub 70 %.</p>
+  </div>
+
+  <h2>Echipa noastră de specialiști</h2>
+  <p>Laboratorul este format din doi ingineri de materiale cu normă întreagă, fiecare având o diplomă în știința polimerilor sau în inginerie textilă și cel puțin șase ani de experiență în industrie. Ei sunt susținuți de trei tehnicieni care realizează încercările de zi cu zi și înregistrarea datelor. Echipa participă regulat la încercări interlaborator organizate de Organizația Internațională de Standardizare (ISO), pentru a valida acuratețea metodelor noastre de încercare.</p>
+
+  <h2>Rezolvăm cele mai dificile provocări de material</h2>
+  <p>Fiecare mediu de vâslit este diferit. O placă folosită în regiunile tropicale se confruntă cu condiții de UV și temperatură complet diferite față de una de pe un lac nordic sau de pe un baraj din deșert. Laboratorul nostru de țesături vă ajută să selectați — sau să dezvoltați — o specificație de țesătură optimizată pentru profilul dumneavoastră de exploatare.</p>
+  <p>Soluții personalizate recente includ:</p>
+  <ul>
+    <li>Un amestec PVC cu rezistență ridicată la abraziune pentru o flotă de închiriere ale cărei plăci ating regulat plaje cu nisip și rampe de lansare din beton (+40 % durată de viață la abraziune).</li>
+    <li>O formulă pentru temperaturi joase destinată unui program canadian de depozitare iarna, încercată până la -50 °C fără pierderea flexibilității (înmuiere fragilă).</li>
+    <li>O punte portocalie cu culoare stabilizată pentru o flotă de instrucție pentru salvatori, care își păstrează vizibilitatea după 3 ani de expunere la soarele tropical.</li>
+  </ul>
+  <p>Nu vindem țesături „de raft” și nu sperăm că vor funcționa. Noi încercăm, validăm și recomandăm — sau dezvoltăm — o soluție dedicată misiunii dumneavoastră specifice. Aceasta este diferența {SITE.name}.</p>
+
+  <h2>Cum vă deservim</h2>
+  <p>Când ne aduceți o provocare de material, iată la ce vă puteți aștepta:</p>
+  <ol>
+    <li><strong>Consultare</strong> — discutăm mediul dumneavoastră de exploatare, obiectivele de performanță și bugetul.</li>
+    <li><strong>Propunere</strong> — întocmim un plan de încercare cu criterii clare de acceptare sau respingere și cu termene precise.</li>
+    <li><strong>Execuție</strong> — laboratorul nostru realizează încercările și întocmește un raport detaliat cu date brute și analiză comparativă.</li>
+    <li><strong>Recomandare</strong> — prezentăm o specificație de țesătură, inclusiv variante alternative atunci când mai multe materiale îndeplinesc cerințele dumneavoastră.</li>
+    <li><strong>Urmărire</strong> — după livrare, rămânem la dispoziție pentru a răspunde oricăror întrebări privind materialele în timpul exploatării.</li>
+  </ol>
+  <p>Obiectivul nostru nu este doar să vă vindem o placă. Este să ne asigurăm că placa primită funcționează fiabil în condițiile în care o utilizați — iar acest lucru începe de la țesătură.</p>
+
+cta:
+  title: 'Necesitați o specificație personalizată de țesătură?'
+  subtitle: 'Contactați echipa noastră de inginerie materialelor pentru a discuta cerințele dumneavoastră.'
+  actions:
+    - variant: primary
+      text: Contactați echipa laboratorului
+      href: /ro/contact#project-brief
+    - text: Înapoi la Centrul R&D
+      href: /ro/randdcenter

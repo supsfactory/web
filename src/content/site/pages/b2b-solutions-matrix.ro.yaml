@@ -1,0 +1,134 @@
+meta:
+  title: 'Matricea soluțiilor pentru clienți B2B | {SITE}'
+  description: 'Matricea completă a soluțiilor VATRAD pentru clienți B2B, care acoperă 24 de tipuri de clienți — de la startup-uri din activitatea în aer liber până la instituții de conservare marină.'
+  dateModified: '2026-08'
+
+hero:
+  tagline: Soluții pentru clienți B2B
+  title: '24 de soluții B2B potrivite afacerii dumneavoastră'
+  subtitle: 'De la fondatorii de startup până la distribuitorii internaționali — găsiți soluția VATRAD concepută exact pentru modelul dumneavoastră de business, sectorul și obiectivele dumneavoastră.'
+  image:
+    src: https://assets.isupfactory.com/images/sups/factory/isupfactory-factory-building.webp
+    alt: Fabrica VATRAD și instalația de producție
+
+answer:
+  label: 'Răspuns direct'
+  text: 'O singură fabrică deservește fiecare traseu B2B: producție OEM/ODM cu MOQ confirmat per proiect (mostră 1–2 unități, lot pilot 20–50, volum standard 90–100+ pe rolă de 150 m; marcă comună de la 5–10 unități), private label pe platforme validate, distribuție en gros și programe de flotă pentru stațiuni turistice, cluburi și școli. Fiecare tip de client corespunde unui set specific de soluții — mostre în 7–12 zile, producție la 25–35 de zile după emiterea comenzii și a avansului.'
+  verified: 'Septembrie 2026'
+
+solutions:
+  title: Matricea soluțiilor pentru clienți
+  subtitle: 'Fiecare tip de client, nevoia sa principală și pagina de soluții VATRAD concepută pentru el.'
+  items:
+    - clientType: Fondator de startup în activități outdoor
+      need: Crearea mărcii
+      solutionPage: Construiți marca dumneavoastră SUP
+      link: /ro/solutions/private-label-sup
+    - clientType: Manager de marcă outdoor
+      need: Extinderea mărcii outdoor către sporturile acvatice
+      solutionPage: Extindeți marca outdoor către sporturile acvatice
+      link: /ro/solutions/private-label-sup
+    - clientType: Proprietar de magazin de surf
+      need: Modernizarea afacerii de surf
+      solutionPage: Introduceți tehnologia gonflabilă în afacerea de surf
+      link: /ro/products/surf
+    - clientType: Vânzător pe Amazon
+      need: Creșterea comerțului electronic
+      solutionPage: Diferențierea produselor și aprovizionare rapidă
+      link: /ro/solutions/private-label-sup
+    - clientType: Marcă de echipament de pescuit
+      need: SUP pentru pescuit
+      solutionPage: Creați marca dumneavoastră de SUP pentru pescuit
+      link: /ro/products/fishing
+    - clientType: Marcă de yoga și wellness
+      need: Produse acvatice de wellness
+      solutionPage: Soluții de echipament pentru yoga pe SUP
+      link: /ro/products/yoga
+    - clientType: Marcă de creatori de conținut
+      need: Brand de influencer
+      solutionPage: Startup de SUP în ediție de creator
+      link: /ro/solutions/private-label-sup
+    - clientType: Fondator de club de paddle
+      need: Flotă pentru club
+      solutionPage: Flotă SUP comercială
+      link: /ro/solutions/club-sup
+    - clientType: Proprietar de afacere de închiriere
+      need: Operațiuni de închiriere
+      solutionPage: Soluție de flotă rezistentă pentru închiriere
+      link: /ro/solutions/rental-operators
+    - clientType: Manager de activități în stațiune turistică
+      need: Experiență hotelieră
+      solutionPage: Pachet de activități acvatice pentru stațiuni
+      link: /ro/solutions/resort-sup
+    - clientType: Academie de sporturi acvatice
+      need: Instruire și educație
+      solutionPage: Program de echipament pentru academii SUP
+      link: /ro/solutions/school-sup
+    - clientType: Companie de croaziere și yachting
+      need: Experiență premium la bord
+      solutionPage: Pachet SUP portabil de clasă premium
+      link: /ro/product-development
+    - clientType: Cumpărător din retailul outdoor
+      need: Canal de retail
+      solutionPage: Program de private label pentru retail
+      link: /ro/solutions/retail-partners
+    - clientType: Distribuitor și importator
+      need: Distribuție regională
+      solutionPage: Partener regional OEM și de lanț de aprovizionare
+      link: /ro/solutions/distributors
+    - clientType: Cumpărător de proiecte corporative
+      need: Evenimente corporative
+      solutionPage: Pachet SUP pentru evenimente corporative
+      link: /ro/contact
+    - clientType: Manager de marcă în sporturi acvatice
+      need: Extinderea mărcii în sporturile acvatice
+      solutionPage: Extindeți portofoliul dumneavoastră de sporturi acvatice
+      link: /ro/solutions/private-label-sup
+    - clientType: Proprietar de marcă de activități cu animale de companie
+      need: Activități outdoor cu animale
+      solutionPage: Program de plăci SUP compatibile cu animale de companie
+      link: /ro/product-development
+    - clientType: Operator de recreere pe plajă
+      need: Divertisment pe plajă
+      solutionPage: Soluții complete de echipament pentru activități pe plajă
+      link: /ro/solutions/rental-operators
+    - clientType: Dezvoltator de parcuri acvatice
+      need: Divertisment tematic
+      solutionPage: Flotă SUP pentru parcuri acvatice comerciale
+      link: /ro/solutions/resort-sup
+    - clientType: Proprietar de insule private și cluburi de lux
+      need: Stil de viață de înaltă clasă
+      solutionPage: Colecție premium de plăci SUP personalizate
+      link: /ro/product-development
+    - clientType: Organism de turism și operator de parcuri publice
+      need: Proiecte turistice publice
+      solutionPage: Pachet de sporturi acvatice pentru destinații
+      link: /ro/solutions/rental-operators
+    - clientType: Operator de tabere de vară și de aventură pentru copii
+      need: Educație pentru tineri
+      solutionPage: Program SUP de explorare pentru copii
+      link: /ro/solutions/school-sup
+    - clientType: Organizație de salvare și securitate acvatică
+      need: Salvagerie profesională
+      solutionPage: Sistem profesional SUP pentru salvare acvatică
+      link: /ro/product-development
+    - clientType: Instituție de conservare și cercetare marină
+      need: Cercetare de mediu
+      solutionPage: Platformă SUP pentru cercetare ecologică și monitorizare
+      link: /ro/product-development
+
+cta:
+  title: 'Nu sunteți sigur care soluție se potrivește afacerii dumneavoastră?'
+  subtitle: 'Descrieți proiectul echipei noastre B2B și vă vom recomanda configurația și prețurile adecvate.'
+  actions:
+    - variant: primary
+      text: Discutați cu echipa noastră B2B
+      href: /ro/contact?subject=b2b-solutions
+    - variant: secondary
+      text: Descărcați catalogul
+      href: /ro/products
+
+content_html: |
+  <div class="mx-auto max-w-3xl space-y-4 rounded-2xl border bg-card p-6 text-[14.5px] leading-relaxed text-fg-2">
+    <p>Fiecare traseu din această matrice pornește de la aceleași două elemente: <a href="/ro/oem-manufacturing">programul nostru de producție OEM/ODM</a> și <a href="/ro/factory">fabrica din spatele său</a> — o singură instalație de 12,500 m&sup2;, un singur set de standarde de calitate, toate canalele deservite.</p>
+  </div>

@@ -1,0 +1,513 @@
+meta:
+  title: 'Controlul calității pentru plăci SUP personalizate: 7 etape de inspecție | iSupfactory'
+  description: 'Cum este controlată fiecare comandă SUP personalizată: 7 porți de inspecție de la planificarea preproducției până la eliberarea expediției, cu dosare de rapoarte bilingve descărcabile.'
+  dateModified: '2026-08-15'
+  keywords:
+    - 'controlul calității sup'
+    - 'inspecție în fabrică sup'
+    - 'plan de inspecție a calității oem'
+    - 'inspecție înainte de expediție sup'
+    - 'certificare ce sup'
+    - 'iso 9001 sup'
+hero:
+  tagline: Controlul calității pentru proiecte personalizate
+  title: 'Controlul calității pentru proiecte de plăci SUP gonflabile personalizate'
+  subtitle: 'Calitatea se verifică față de mostra aprobată, specificația tehnică, grafică, lista de materiale și cerințele de ambalare pentru fiecare proiect — nu față de o afirmație generală. De la materialele la intrare până la eliberarea expediției, procesul nostru de inspecție este structurat pentru a verifica conformitatea produsului la etapele de producție definite. Susținut de QINGDAO VATRAD GROUP, fabrica de plăci SUP gonflabile de 12,500 m² din spatele Vatrad.'
+stats:
+  - value: 100%
+    label: Unități supuse testelor de presiune
+  - value: '7'
+    label: Porți de inspecție controlate
+  - value: 18.0 PSI
+    label: Menținere a presiunii 24 de ore
+  - value: ISO 9001
+    label: Certificat pentru calitate
+quality_basis:
+  tagline: Baza calității
+  title: 'Ce definește acceptarea produsului'
+  subtitle: 'Criteriile finale de acceptare sunt stabilite înainte de eliberarea producției. Aceste documente de proiect controlate definesc ce trebuie fabricat, cum sunt verificate detaliile cheie și ce trebuie verificat înainte de expediție — aprobate împreună cu cumpărătorul și înglobate în Planul de Inspecție a Calității (QIP). Orice cerere de modificare trece prin controlul documentat al modificărilor, niciodată tacit prin linia de producție.'
+  items:
+    - title: 'Mostra aprobată'
+      description: 'Tabla de referință fizică semnată de cumpărător. Fiecare tablă finită este comparată cu ea pentru dimensiuni, profil, rigiditate și finisaj.'
+      icon: tabler:medal
+    - title: 'Specificație tehnică'
+      description: 'Materiale, construcție și desene dimensionale fixate la un număr de revizie. FAI verifică primul articol față de această revizie exactă.'
+      icon: tabler:file-check
+    - title: 'Grafică aprobată'
+      description: 'Grafică, culori de tipărire și amplasare aprobate și fixate ca versiune înainte de tăiere, astfel încât fiecare punte să fie expediată în aspectul pe care marca l-a aprobat.'
+      icon: tabler:palette
+    - title: 'BOM aprobat de client'
+      description: 'Lista de materiale — tablă, vâslă, pompă, lesă, geantă, manual — confirmată de cumpărător. PSI verifică completitudinea kit-ului la 100% față de acest BOM.'
+      icon: tabler:list-checks
+    - title: 'Cerințe de ambalare și etichetare'
+      description: 'Structura cutiei, marcajele, codurile de bare, conținutul etichetelor și marcajele de expediție fixate în scris. Lizibilitatea codului de bare și exactitatea marcajelor sunt verificate la PSI.'
+      icon: tabler:package
+tests:
+  - title: Testare de presiune
+    description: Camerele gonflabile sunt supuse unor presiuni care depășesc limitele lor de funcționare recomandate, pe perioade extinse. Aceasta verifică etanșeitatea la aer și integritatea structurală a materialului și a cusăturilor, asigurând că produsul poate rezista utilizării intenționate și eventualei suprumflări fără defectare sau scurgeri.
+    image: https://assets.isupfactory.com/images/sups/factory/isupfactory-pressure-testing.webp
+    alt: Cameră SUP gonflabilă supusă testării de presiune pentru verificarea etanșeității la aer
+  - title: Testare de impact
+    description: Produsele sunt supuse unor impacturi controlate din diverse greutăți și unghiuri. Aceasta evaluează rezistența materialului la perforări, rupturi și deteriorări cauzate de coliziuni cu obstacole în apă, demonstrând durabilitatea și longevitatea.
+    image: https://assets.isupfactory.com/images/sups/factory/isupfactory-production-department.webp
+    alt: Banc de testare a impactului care evaluează rezistența materialului bărcilor gonflabile la perforare
+  - title: Testare de rezistență la radiații UV
+    description: Probe de material sunt expuse la radiații UV accelerate pentru a verifica că nu se îngălbenesc, nu se crapă și nu își pierd rezistența în timp. Fiecare lot de PVC este verificat față de degradarea solară înainte de utilizarea în producție.
+    image: https://assets.isupfactory.com/images/sups/factory/isupfactory-uv-resistance-testing.webp
+    alt: Probe de material PVC sub radiații UV accelerate în testarea de rezistență
+  - title: Testare de rezistență la abraziune
+    description: Probe de material sunt frecate de suprafețe abrazive pentru un număr specificat de cicluri, sub presiune controlată. Aceasta măsoară capacitatea materialului de a rezista la uzură din utilizare repetată, la contactul cu nisip, pietre sau alte suprafețe, asigurând durabilitate pe termen lung.
+    image: https://assets.isupfactory.com/images/sups/factory/isupfactory-pvc-material-testing.webp
+    alt: Mașină de testare a abraziunii care freacă o probă de material PVC pentru a măsura rezistența la uzură
+  - title: Testare de performanță la temperaturi scăzute
+    description: Produsele sunt testate în medii reci pentru a evalua funcționalitatea și durabilitatea în diverse condiții de temperatură, prevenind rigiditatea sau crăparea în ape mai reci. Esențial pentru bărcile destinate utilizării în sezonul rece sau la latitudini înalte.
+    image: https://assets.isupfactory.com/images/sups/factory/isupfactory-factory-exterior.webp
+    alt: Produs gonflabil în cameră rece pentru testarea performanței la temperaturi scăzute
+  - title: Testarea flotabilității și a capacității de încărcare
+    description: Produsele sunt testate cu diverse greutăți pentru a determina capacitatea maximă de încărcare și a se asigura că susțin în siguranță utilizatorii și echipamentul. Capacitatea nominală a fiecărui model este verificată înainte de eliberare.
+    image: https://assets.isupfactory.com/images/sups/factory/isupfactory-stock-boat-inventory.webp
+    alt: Test de flotabilitate și de capacitate de încărcare cu greutăți pe un mijloc de transport pe apă gonflabil
+  - title: Testarea manevrabilității
+    description: Produsele sunt testate pentru răspunsul lor la acțiuni de vâslire sau de motor, evaluând raza de viraj și ușurința manevrării. Încercările pe apă validează că manevrarea reală corespunde specificațiilor de proiectare.
+    image: https://assets.isupfactory.com/images/sups/factory/isupfactory-sup-manufacturing.webp
+    alt: Testare a manevrabilității pe apă pentru plăci SUP gonflabile și carene de bărci
+  - title: Testarea etanșeității la apă
+    description: Produsele complet asamblate sunt scufundate sau supuse la pulverizare cu apă pentru a verifica orice scurgere prin cusături, valve sau materiale. Fiecare barcă trece o verificare obligatorie a etanșeității la apă înainte de expediere.
+    image: https://assets.isupfactory.com/images/sups/factory/isupfactory-production-department-2.webp
+    alt: Test de etanșeitate prin scufundare care verifică cusăturile și valvele pentru scurgeri
+qc_flow:
+  tagline: Fluxul de inspecție în 7 etape
+  title: 'Șapte porți de calitate controlate, de la un capăt la altul'
+  subtitle: 'Fiecare poartă de mai jos este definită în Planul de Inspecție a Calității al proiectului, cu obiectul inspecției, metoda, criteriile de acceptare și rezultatul înregistrării. Dosarele de rapoarte bilingve sunt înregistrări controlate reale — deschideți oricare dintre ele pentru a vedea structura efectivă.'
+  obj_label: Obiectul inspecției
+  method_label: Metoda de inspecție
+  criteria_label: Criterii de acceptare
+  record_label: Rezultatul înregistrării
+  stages:
+    - stage: STAGE 01
+      title: 'Planificarea calității proiectului (PPM)'
+      summary: 'Ședința de preproducție fixează domeniul de aplicare, liniile de bază și planul de inspecție înainte de pornirea liniei.'
+      checks:
+        - 'Se înregistrează numele produsului, codul intern, SKU-ul clientului, numărul comenzii și definiția lotului.'
+        - 'Se specifică tipul plăcii, miezul drop-stitch, materialele, benzile de șină, EVA, valvele și sistemul de aripioare.'
+        - 'Numele fișierului de grafică, versiunea, culorile, poziția logo-ului și zona de tipărire sunt fixate și aprobate.'
+        - 'BOM-ul — fiecare articol din set cu cantitate, culoare, cod de piesă și reguli de substituție — este aprobat de client.'
+        - 'Ambalarea, etichetarea, codurile de bare, limba manualelor și aranjamentele inspecției terțe sunt fixate în scris.'
+      object: 'Domeniul de aplicare al proiectului față de cerințele clientului — materiale, dimensiuni, grafică, ambalare, piață țintă și standarde aplicabile.'
+      method: 'Ședință de preproducție cu vânzări, inginerie și QC; semnarea Mostrei Aurii; emiterea Planului de Inspecție a Calității (QIP) pentru comandă.'
+      criteria: 'Toate cele cinci linii de bază sunt aprobate și înglobate înainte de începerea producției de masă. Elementele nerezolvate blochează eliberarea producției.'
+      record: 'QIP + proces-verbal PPM, înregistrări ale mostrei aprobate.'
+      image: https://assets.isupfactory.com/site/quality/node01-ppm.avif
+      alt: Ședință de preproducție care examinează mostra aurie și planul de inspecție a calității pentru o comandă SUP OEM
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_SUP_OEM_QIP.pdf
+      link_label: 'Descărcați QIP (PDF)'
+    - stage: STAGE 02
+      title: 'Inspecția materialelor la intrare (IQC)'
+      summary: 'Materialele prime sunt verificate față de specificația aprobată a furnizorului înainte de a intra în producție.'
+      checks:
+        - 'Țesătura drop-stitch, rulourile de PVC, materialul șinelor și suprafețele de EVA sunt verificate față de mostra aprobată — culoare, grosime, greutate și defecte de suprafață.'
+        - 'Valvele, cutiile de aripioară, inelele în D, mânerele și feroneria sunt verificate ca tip, dimensiune, finisaj, coroziune și funcționare corectă.'
+        - 'Pompe, vâsle, lese, genți și kituri de reparații sunt verificate ca model, culoare și configurație de proiect.'
+        - 'Certificatele furnizorului (COA), declarațiile de material și documentele de conformitate REACH/RoHS sunt analizate pentru fiecare lot.'
+        - 'Loturile neconforme sunt puse în carantină și returnate înainte ca vreun material să ajungă pe linie.'
+      object: 'Țesătura drop-stitch, rulourile de PVC, valvele, aripioarele, accesoriile și materialele de ambalare față de specificația aprobată și de certificatele de test ale furnizorului.'
+      method: 'Verificări vizuale, dimensionale și de greutate; eșantionare pe lot conform AQL; certificate de material analizate; lista furnizorilor aprobați este obligatorie.'
+      criteria: 'Respectă specificația și certificatele aprobate. Loturile neconforme sunt puse în carantină și respinse înainte de eliberarea către linie.'
+      record: 'Rapoarte de test IQC cu referințe de lot și dispoziții.'
+      image: https://assets.isupfactory.com/site/quality/node02-iqc.avif
+      alt: Inspecția materialelor la intrare a țesăturii PVC și a componentelor SUP în fabrică
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_IQC_TEST_REPORTS.pdf
+      link_label: 'Descărcați rapoartele IQC (PDF)'
+    - stage: STAGE 03
+      title: 'Control în proces și primul articol (IPQC / FAI)'
+      summary: 'Metodele de construcție și punctele de control sunt selectate în funcție de platforma de tablă aprobată și de configurația proiectului. Primul articol este verificat față de liniile de bază înglobate; fiecare tură menține verificări de patrulare pe linie.'
+      checks:
+        - 'Primul articol este verificat față de mostra aprobată, desenul tehnic, BOM, grafică și fișierele de ambalare înainte de începerea producției de masă.'
+        - 'Dimensiunile, conturul și simetria plăcii sunt măsurate; direcția, poziția, culorile și revizia cernelii și a logo-ului sunt confirmate.'
+        - 'Cusăturile și continuitatea șinelor sunt verificate pentru goluri, delaminare, cute, contaminare sau nealiniere pe linie.'
+        - 'Instalarea valvei, a inelului în D, a mânerului și a cutiei de aripioară este verificată ca poziție, cantitate și potrivire față de BOM-ul aprobat de client.'
+        - 'Aprobarea FAI fixează ca versiune grafica, dimensiunile și BOM-ul; abaterile sunt direcționate către fluxul de decizie de retuș — niciodată către pachetare ad hoc pe linie.'
+      object: 'Primul articol și asamblările în proces — cusături, șine, cutia de aripioară, baza valvei, poziția graficii, cuplul feroneriei.'
+      method: 'Inspecție a primului articol pe prima unitate; verificări de patrulare pe fiecare tură; rezistența cusăturilor și alinierea lor verificate pe linie.'
+      criteria: 'Aprobarea FAI fixează ca versiune grafica, dimensiunile și BOM-ul. Abaterile sunt direcționate către fluxul de decizie de retuș — niciodată către pachetare ad hoc pe linie.'
+      record: 'Înregistrare FAI, jurnale de patrulare pe tură, note de retuș și de dispoziție.'
+      image: https://assets.isupfactory.com/site/quality/node03-ipqc-fai.avif
+      alt: Inspecție în proces și verificare a primului articol în timpul producției de plăci SUP
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_IPQC_TEST_REPORTS.pdf
+      link_label: 'Descărcați rapoartele IPQC (PDF)'
+    - stage: STAGE 04
+      title: 'Umflare și testare a etanșeității la aer'
+      summary: 'Fiecare tablă finalizată este supusă la umflare și la verificarea etanșeității la aer înainte de ambalare — 100% dintre unități, nu o probă.'
+      checks:
+        - 'Suprafața plăcii, șinele și zona valvei sunt verificate pentru microperforări, crăpături, cute anormale sau delaminare înainte de umflare.'
+        - 'Camerele sunt umflate cu un manometru digital calibrat până la presiunea de test a proiectului, iar citirea inițială este înglobată.'
+        - 'Nucleul valvei, baza valvei și cusăturile șinelor sunt verificate pe întreaga circumferință — proră, pupă și zone curbe.'
+        - 'Menținere a presiunii timp de 24 de ore cu înregistrare continuă; respingere automată peste căderea de presiune permisă.'
+        - 'Tablele eșuate sunt puse în carantină, retușate conform instrucțiunii și testate integral din nou — nu doar reverificate la punctul de reparație.'
+      object: '100% dintre camerele umflate — detectarea scurgerilor pe cusăturile complete, integritatea valvei și retenția căderii de presiune.'
+      method: 'Detectarea scurgerilor pe cusăturile complete, urmată de menținerea presiunii timp de 24 de ore la 18.0 PSI; respingere automată peste o cădere de 0.50 PSI.'
+      criteria: 'Zero puncte de scurgere și cădere de presiune în limita de 0.50 PSI pe cameră; unitățile eșuate sunt puse în carantină și retușate sau eliminate.'
+      record: 'Rapoarte de test a etanșeității la aer, câte unul pe cameră, legate de lot.'
+      image: https://assets.isupfactory.com/site/quality/node04-airtightness.avif
+      alt: Umflarea și testarea etanșeității la aer a unei camere SUP gonflabile
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_AIRTIGHTNESS_TEST_REPORTS.pdf
+      link_label: 'Descărcați rapoartele de etanșeitate la aer (PDF)'
+    - stage: STAGE 05
+      title: 'Inspecția produsului finit (FQC)'
+      summary: 'Tablele finite sunt măsurate și clasate cosmetic față de mostra aurie aprobată.'
+      checks:
+        - 'Dimensiunile cheie — lungime, lățime și grosime — sunt măsurate la presiunea de lucru, conform toleranțelor din desen.'
+        - 'Conturul, rocker-ul și simetria plăcii sunt verificate; nicio deformare, răsucire sau îndoire anormală după umflare.'
+        - 'Aspectul este clasat sub lămpi de lumină naturală D65: zgârieturi, pete, urme de lipici, bule, cute, abatere de culoare.'
+        - 'Verificări funcționale: deschiderea/închiderea valvei și fixarea capacului, introducerea și blocarea aripioarei, inelele în D, mânerele și funcționarea vâslei.'
+        - 'Configurația este verificată față de BOM-ul și SKU-ul aprobat de client — accesorii, etichete, coduri de bare și numere de serie.'
+      object: 'Tabla finită față de mostra aurie — dimensiuni, rocker, profil, aspect, potrivirea cutiei de aripioară și completitudinea accesoriilor.'
+      method: 'Verificare dimensională conform toleranțelor din desen; aspect clasat sub lămpi de lumină naturală D65; teste de potrivire a cutiei de aripioară și a feroneriei.'
+      criteria: 'Dimensiuni în toleranță (de ex. 3508 × 814 × 150.3 mm), grad de aspect conform mostrei aprobate, toate accesoriile prezente.'
+      record: 'Rapoarte FQC cu semnătura inspectorului și dispoziția.'
+      image: https://assets.isupfactory.com/site/quality/node05-fqc.avif
+      alt: Inspecția produsului finit a plăcilor SUP finite înainte de ambalare
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_FQC_TEST_REPORTS.pdf
+      link_label: 'Descărcați rapoartele FQC (PDF)'
+    - stage: STAGE 06
+      title: 'Ambalare și inspecție înainte de expediție (PSI)'
+      summary: 'Kit-ul ambalat este verificat pentru completitudine, exactitatea marcajelor și pregătirea expediției.'
+      checks:
+        - 'Completitudinea kit-ului la 100% față de BOM: tablă, vâslă, pompă, lesă, geantă, kit de reparații și manual — câte un set pe rând.'
+        - 'Piesele fragile sunt protejate (saci pentru pompă și pală), tabla este pliată conform SOP-ului de ambalare, accesoriile corespund modelului și culorii.'
+        - 'Grafică cutiei, marcă, avertismente și versiuni lingvistice sunt verificate față de revizia de grafică aprobată.'
+        - 'Tipul, numărul, poziția și lizibilitatea codului de bare sunt verificate; marcajele de expediție, SKU, PO, numărul cutiei și cantitatea sunt corecte.'
+        - 'Dimensiunile cutiei, greutatea brută/netă și ambalajul interior corespund specificației de ambalare; rezultatul testului de cădere este înregistrat când este cerut.'
+      object: 'Kit-ul ambalat — tablă, vâslă, pompă, lesă, geantă, manual — față de BOM-ul aprobat de client și de specificația de ambalare.'
+      method: 'Completitudinea kit-ului la 100% față de BOM; scanare cod de bare (Grad ≥ B); exactitatea marcajelor cutiei; test de cădere ISTA-1A pe cutiile ambalate.'
+      criteria: 'Kit la 100% conform BOM, coduri de bare lizibile, marcaje corecte și ambalare rezistentă la cădere înainte de încărcare.'
+      record: 'Liste de verificare PSI și înregistrări de ambalare pe fiecare cutie.'
+      image: https://assets.isupfactory.com/site/quality/node06-psi.avif
+      alt: Inspecție înainte de expediție care verifică kit-ul SUP ambalat față de BOM
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_PSI_TEST_REPORTS.pdf
+      link_label: 'Descărcați rapoartele PSI (PDF)'
+    - stage: STAGE 07
+      title: 'Eliberarea expediției și trasabilitatea'
+      summary: 'Calitatea semnează lotul numai atunci când toate cele șase porți anterioare sunt închise și fiecare înregistrare este completă.'
+      checks:
+        - 'Lotul de producție, numărul comenzii, SKU, cantitatea și numărul de cutii corespund listei de ambalare și facturii comerciale.'
+        - 'Fișierele de specificație, BOM, grafică și ambalare sunt toate la revizia aprobată curentă.'
+        - 'Înregistrările IQC, FAI, în proces, de etanșeitate la aer, FQC și PSI sunt complete pentru lotul care este eliberat.'
+        - 'Toate neconformitățile sunt rezolvate, retușate, reinspectate și închise — niciun element deschis la eliberare.'
+        - 'Câmpurile de trasabilitate sunt înregistrate pe lot: cod proiect, PO, SKU, reviziile graficii/BOM/ambalării, data producției, inspectorul și numerele înregistrărilor.'
+      object: 'Autorizarea eliberării lotului — toate porțile închise, înregistrări complete, numere de serie mapate la lot.'
+      method: 'Revizuirea de poartă a tuturor celor șase înregistrări anterioare de către calitate; dosarul de trasabilitate al lotului asamblat; înregistrările predate împreună cu expediția.'
+      criteria: 'Toate porțile aprobate de QA; înregistrările lotului și dosarul de trasabilitate livrate cumpărătorului sau păstrate sub NDA la cerere.'
+      record: 'Autorizarea eliberării expediției și dosarul de trasabilitate al lotului.'
+      image: https://assets.isupfactory.com/site/quality/node07-shipment-release.avif
+      alt: Semnarea eliberării expediției și predarea înregistrării de trasabilitate a lotului
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_SHIPMENT_RELEASE_REPORTS.pdf
+      link_label: 'Descărcați rapoartele de eliberare (PDF)'
+system_map:
+  tagline: Sistemul calității
+  title: 'Un sistem, patru standarde controlate'
+  subtitle: 'Cele șapte porți de mai sus funcționează pe baza a patru standarde documentate, fiecare publicat ca procedură controlată pe care o puteți descărca și audita. Împreună formează sistemul de management al calității din spatele fiecărei comenzi OEM/ODM — criterii de inspecție, control al modificărilor, neconformitate și testare de laborator.'
+  items:
+    - title: 'Standardele de inspecție și eliberare'
+      description: 'QIP-ul proiectului conduce fiecare poartă: obiectul inspecției, metoda, criteriile de acceptare și rezultatul înregistrării pentru fiecare comandă. Include cadrul QC în 4 etape, lanțul de trasabilitate, fluxul de carantină, matricea de defecte și registrul de documentație 00–15.'
+      icon: tabler:clipboard-check
+      link: /ro/factory/quality-inspection
+      link_label: 'Standarde de inspecție și descărcări QMS'
+    - title: 'Controlul modificărilor la retuș'
+      description: 'Nicio modificare a parametrilor de retuș fără control documentat: containment, clasificarea riscului, buclă de modificare în 9 pași, matrice de aprobare și validare. Orice modificare a specificațiilor, mostrelor, BOM-urilor sau criteriilor de acceptare aprobate necesită aprobarea scrisă a clientului.'
+      icon: tabler:git-branch
+      link: /ro/factory/quality-change-control
+      link_label: 'Standardul de control al modificărilor'
+    - title: 'Controlul produselor neconforme'
+      description: 'O buclă închisă în 7 pași conform ISO 9001:2015 clauza 8.7: identificare, carantină, dispoziție conform NCR, retuș sau respingere, re-inspecție, eliberare, corectare. Include autoritatea după severitate, matricea de dispoziție a defectelor SUP și distrugerea supraveghetă.'
+      icon: tabler:alert-triangle
+      link: /ro/factory/non-conforming-control
+      link_label: 'Standardul de control al produselor neconforme'
+    - title: 'Testare de laborator și echipamente'
+      description: 'Laboratorul de calitate funcționează independent de producție: tracțiune, cădere de presiune, îmbătrânire UV, desprindere de cusătură, detectare a scurgerilor și camere de temperatură — cu procedurile de calibrare și de testare din spatele afirmațiilor noastre publicate.'
+      icon: tabler:flask
+      link: /ro/factory/quality-lab
+      link_label: 'Laboratorul de calitate și echipamentele de test'
+    - title: 'Laborator de testare a materialelor (C&D)'
+      description: 'Centrul de C&D realizează testare independentă a materialelor pentru formulări PVC/Hypalon, îmbătrânire accelerată și sprijin certificări, alimentând standardele folosite în producție.'
+      icon: tabler:microscope
+      link: /ro/randdcenter/quality-inspection-lab
+      link_label: 'Laboratorul de testare a materialelor C&D'
+intelligence_cards:
+  tagline: Documentație și trasabilitate
+  title: 'Înregistrări de calitate care susțin trasabilitatea proiectului'
+  subtitle: 'Înregistrările de inspecție sunt păstrate pe lot de producție și legate de documentația aplicabilă a proiectului — revizia specificației, revizia graficii, BOM și cerințele de ambalare. Pentru a proteja confidențialitatea clientului, mostrele de pe această pagină sunt anonimizate: sunt afișate doar câmpurile structurale (cod proiect, produs/SKU, lot, etapă de inspecție, element de inspecție, criterii de acceptare, rezultat, inspector, dată și stare de eliberare).'
+  cards:
+    - icon: 1
+      icon_bg: blue
+      title: Înregistrare a inspecției materialelor la intrare
+      desc: 'Demonstrează că materiile prime, țesăturile drop-stitch, rulourile de PVC și componentele sunt verificate față de specificația aprobată înainte de eliberarea producției.'
+      metrics:
+        - { label: Etapă, value: '02 · IQC' }
+        - { label: Ref. lot, value: 'LOT-DEMO-DS-0814' }
+        - { label: Rezultat, value: 'Trecut · Aprobat pentru producție' }
+      link: 'https://assets.isupfactory.com/site/downloads/anonymized-quality-record-samples.pdf#page=1'
+      link_label: 'Vizualizați mostra anonimizată (PDF)'
+    - icon: 2
+      icon_bg: green
+      title: Înregistrare a inspecției primului articol (FAI)
+      desc: 'Demonstrează fixarea ca versiune (grafică, dimensiuni, specificații BOM) înainte de intrarea în producția de masă completă.'
+      metrics:
+        - { label: Etapă, value: '03 · IPQC' }
+        - { label: Cod probă, value: 'SN-DEMO-FAI-001' }
+        - { label: Rezultat, value: 'Trecut · FAI aprobat' }
+      link: 'https://assets.isupfactory.com/site/downloads/anonymized-quality-record-samples.pdf#page=2'
+      link_label: 'Vizualizați mostra anonimizată (PDF)'
+    - icon: 3
+      icon_bg: purple
+      title: Înregistrare a testului de umflare și etanșeitate la aer
+      desc: 'Verifică detectarea scurgerilor pe cusăturile complete la 100%, integritatea valvei și retenția căderii de presiune conform planului de calitate al proiectului.'
+      metrics:
+        - { label: Etapă, value: '04 · Etanșeitate la aer' }
+        - { label: Condiție de test, value: 'Conform planului proiectului (18.0 PSI)' }
+        - { label: Rezultat, value: 'Trecut · Aprobat pentru inspecția finală' }
+      link: 'https://assets.isupfactory.com/site/downloads/anonymized-quality-record-samples.pdf#page=3'
+      link_label: 'Vizualizați mostra anonimizată (PDF)'
+    - icon: 4
+      icon_bg: orange
+      title: Raport de inspecție a produsului finit
+      desc: 'Validează tabla finită față de mostra aprobată pentru dimensiuni, rocker, aspect (lumină D65) și potrivirea cutiei de aripioară.'
+      metrics:
+        - { label: Etapă, value: '05 · FQC' }
+        - { label: Dimensiuni, value: '3508 × 814 × 150.3 mm' }
+        - { label: Rezultat, value: 'Trecut · Aprobat pentru ambalare' }
+      link: 'https://assets.isupfactory.com/site/downloads/anonymized-quality-record-samples.pdf#page=4'
+      link_label: 'Vizualizați mostra anonimizată (PDF)'
+    - icon: 5
+      icon_bg: green
+      title: Listă de verificare a ambalării și a inspecției înainte de expediție
+      desc: 'Asigură completitudinea kit-ului la 100%, lizibilitatea codurilor de bare (Grad ≥ B), exactitatea marcajelor cutiei și rezistența la cădere conform ISTA-1A.'
+      metrics:
+        - { label: Etapă, value: '06 · PSI' }
+        - { label: Kit, value: '100% conform BOM' }
+        - { label: Rezultat, value: 'Trecut · Aprobat pentru expediție' }
+      link: 'https://assets.isupfactory.com/site/downloads/anonymized-quality-record-samples.pdf#page=5'
+      link_label: 'Vizualizați mostra anonimizată (PDF)'
+doc_register:
+  tagline: Registrul documentelor controlate
+  title: 'Fiecare document din spatele unei expediții, listat'
+  subtitle: 'Fiecare comandă generează un registru structurat de documentație 00–15 — index de proiect, specificație aprobată, BOM, referințe de grafică și ambalare, QIP, înregistrări de inspecție, NCR, control al modificărilor, brief terțu și rezumat de eliberare. Descărcați documentele publice pentru a vedea structura exactă și criteriile fațăă de care controlăm.'
+  items:
+    - title: '00 · Plan de Inspecție a Calității Proiectului (QIP)'
+      description: 'Contractul de calitate pentru fiecare comandă: porți, domeniu de inspecție, metode, criterii de acceptare și înregistrările pe care le veți primi.'
+      icon: '00'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_SUP_OEM_QIP.pdf
+      link_label: 'Descărcați QIP (PDF)'
+    - title: '01 · Standardele de inspecție a calității'
+      description: 'Standardul complet de inspecție și asigurare aplicat comenzilor de plăci SUP gonflabile personalizate.'
+      icon: '01'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_Quality_Inspection_Standards.pdf
+      link_label: 'Descărcați standardele (PDF)'
+    - title: '02 · Pachet de documentație a calității'
+      description: 'Structura completă de documente pe care o primește un proiect, într-un singur pachet de prezentare.'
+      icon: '02'
+      link: https://assets.isupfactory.com/site/downloads/Qingdao_Vatrad_Group_SUP_Quality_Documentation_Pack.pdf
+      link_label: 'Descărcați pachetul (PDF)'
+    - title: '03 · Rapoarte de test IQC'
+      description: 'Rapoarte de inspecție a materialelor la intrare — țesătură, rulouri de PVC, valve și componente.'
+      icon: '03'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_IQC_TEST_REPORTS.pdf
+      link_label: 'Descărcați rapoartele IQC (PDF)'
+    - title: '04 · Rapoarte de test IPQC'
+      description: 'Rapoarte de inspecție în proces și de primul articol față de revizia înglobată.'
+      icon: '04'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_IPQC_TEST_REPORTS.pdf
+      link_label: 'Descărcați rapoartele IPQC (PDF)'
+    - title: '05 · Rapoarte de test a etanșeității la aer'
+      description: 'Detectarea scurgerilor pe cusături la 100%, integritatea valvei și înregistrările menținerii presiunii.'
+      icon: '05'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_AIRTIGHTNESS_TEST_REPORTS.pdf
+      link_label: 'Descărcați rapoartele de etanșeitate la aer (PDF)'
+    - title: '06 · Rapoarte de test FQC'
+      description: 'Inspecția tablei finite față de mostra aprobată — dimensiuni, aspect, cutia de aripioară.'
+      icon: '06'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_FQC_TEST_REPORTS.pdf
+      link_label: 'Descărcați rapoartele FQC (PDF)'
+    - title: '07 · Rapoarte de test PSI'
+      description: 'Inspecția ambalării și a produsului înainte de expediție — completitudine kit 100%, gradul codului de bare, rezistență la cădere.'
+      icon: '07'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_PSI_TEST_REPORTS.pdf
+      link_label: 'Descărcați rapoartele PSI (PDF)'
+    - title: '08 · Rapoarte de eliberare a expediției'
+      description: 'Autorizarea eliberării semnată atunci când toate porțile sunt închise, împreună cu dosarul lotului.'
+      icon: '08'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_SHIPMENT_RELEASE_REPORTS.pdf
+      link_label: 'Descărcați rapoartele de eliberare (PDF)'
+    - title: '09 · Dosar de trasabilitate și NCR'
+      description: 'Trasabilitatea lotului mapată la specificație/grafică/BOM, plus înregistrările de control al neconformității.'
+      icon: '09'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_BATCH_TRACEABILITY_AND_NCR_CONTROL_DOSSIER.pdf
+      link_label: 'Descărcați dosarul (PDF)'
+    - title: '10 · SOP de control NCP (ISO 8.7)'
+      description: 'Procedura controlată pentru carantină, dispoziție, retuș și eliberare a produselor neconforme.'
+      icon: '10'
+      link: https://assets.isupfactory.com/site/downloads/non-conforming-product-control-sop-iso-8-7.pdf
+      link_label: 'Descărcați SOP (PDF)'
+    - title: '11 · SOP de control al modificărilor la retuș + Anexă'
+      description: 'Procedura de control al modificărilor și anexa sa de execuție — containment, aprobare și validare.'
+      icon: '11'
+      link: https://assets.isupfactory.com/site/downloads/rework-change-control-sop-qms-sop-qc-cc-001.pdf
+      link_label: 'Descărcați SOP (PDF)'
+    - title: '12 · Rezumatul eliberării înainte de expediție'
+      description: 'Rezumatul bilingv de eliberare cu care fiecare lot este expediat, care leagă registrul în ansamblu.'
+      icon: '12'
+      link: https://assets.isupfactory.com/site/downloads/Pre_Shipment_Release_Summary_Bilingual.pdf
+      link_label: 'Descărcați rezumatul (PDF)'
+    - title: '13 · Șablon de brief pentru inspecția terță'
+      description: 'Șablonul de informare pe care inspectorii îl folosesc pentru a anunța, planifica și raporta o inspecție înainte de expediție.'
+      icon: '13'
+      link: https://assets.isupfactory.com/site/downloads/Third_Party_Inspection_Brief_Template.pdf
+      link_label: 'Descărcați șablonul (PDF)'
+    - title: '14 · Listă de verificare PSI'
+      description: 'Lista de verificare înainte de expediție de la linie — completitudinea kit-ului, gradul codului de bare, marcajele și rezistența la cădere.'
+      icon: '14'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_SUP_Pre_Shipment_Inspection_Checklist.pdf
+      link_label: 'Descărcați lista de verificare (PDF)'
+    - title: '15 · Ghid de fezabilitate și calitate a proiectului OEM'
+      description: 'Cum trece un proiect de la solicitare la mostra aurie aprobată — pașii de inginerie și calitate înaintea producției de masă.'
+      icon: '15'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_OEM_PROJECT_FEASIBILITY_AND_QUALITY_GUIDE.pdf
+      link_label: 'Descărcați ghidul (PDF)'
+traceability:
+  tagline: Trasabilitate la nivel de lot
+  title: 'Patru întrebări la care fiecare lot răspunde'
+  subtitle: 'Înregistrările de calitate sunt păstrate pe lot de producție și legate de specificația aplicabilă a produsului, de grafică, de BOM și de cerințele de ambalare. Aceasta susține investigarea și acțiunea controlată dacă este identificată o problemă de calitate. În timpul unui audit al cumpărătorului, echipa noastră de calitate răspunde la aceste patru întrebări chiar la linie — fiecare răspuns indică o înregistrare controlată.'
+  items:
+    - title: 'Ce a fost produs?'
+      description: 'Produsul, modelul, configurația și revizia sunt legate de numărul comenzii și de revizia specificației aprobate.'
+      icon: '1'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_BATCH_TRACEABILITY_AND_NCR_CONTROL_DOSSIER.pdf
+      link_label: 'Vizualizați dosarul de trasabilitate (PDF)'
+    - title: 'Ce materiale au intrat?'
+      description: 'Fiecare lot de material care intră în lot este înregistrat cu furnizorul, certificatul și dispoziția IQC.'
+      icon: '2'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_BATCH_TRACEABILITY_AND_NCR_CONTROL_DOSSIER.pdf
+      link_label: 'Vizualizați dosarul de trasabilitate (PDF)'
+    - title: 'Cine a inspectat și când?'
+      description: 'Fiecare înregistrare precizează rolul inspectorului, data, uneltele folosite și rezultatul — nicio semnătură anonimă.'
+      icon: '3'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_BATCH_TRACEABILITY_AND_NCR_CONTROL_DOSSIER.pdf
+      link_label: 'Vizualizați dosarul de trasabilitate (PDF)'
+    - title: 'Cum a fost eliberat lotul?'
+      description: 'Eliberarea este autorizată de calitate numai atunci când toate porțile sunt închise; dispoziția este documentată în înregistrare.'
+      icon: '4'
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_BATCH_TRACEABILITY_AND_NCR_CONTROL_DOSSIER.pdf
+      link_label: 'Vizualizați dosarul de trasabilitate (PDF)'
+non_conformance:
+  tagline: Controlul produselor neconforme
+  title: 'Când se găsește un defect: izolează, decide, documentează'
+  subtitle: 'Produsele sau componentele care nu îndeplinesc criteriile de acceptare definite sunt identificate și puse sub reținere controlată. Retușul sau înlocuirea sunt permise numai prin procedura de calitate aplicabilă, urmate de re-inspecție înainte de eliberarea autorizată.'
+  items:
+    - title: 'Detectare și segregare'
+      description: 'Unitățile eșuate sunt etichetate în roșu și mutate la stația de carantină — nicio procesare sau ambalare suplimentară până la o dispoziție.'
+      icon: tabler:alert-triangle
+    - title: 'Dispoziție conform NCR'
+      description: 'Calitatea emite un Raport de Neconformitate și direcționează unitatea către retuș, re-inspecție, respingere sau eliminare, conform matricei de dispoziție.'
+      icon: tabler:git-branch
+      link: /ro/factory/non-conforming-control
+      link_label: 'Standardul de control al produselor neconforme'
+    - title: 'Verificare și eliberare'
+      description: 'Unitățile retușate sunt reinspectate față de aceleași criterii; NCR-ul este închis numai după ce reverificarea trece.'
+      icon: tabler:shield-check
+    - title: 'Controlul deșeurilor'
+      description: 'Materialul eliminat este distrus cu un certificat de deșeuri semnat, astfel încât să nu poată reveni niciodată în stoc sau pe piață.'
+      icon: tabler:trash
+      link: https://assets.isupfactory.com/site/downloads/scrap-destruction-certificate-vat-qa-scrap-cert-2026.pdf
+      link_label: 'Certificat de deșeuri și distrugere (PDF)'
+    - title: 'Feedback privind cauza rădăcină'
+      description: 'Defectele repetate declanșează acțiuni corective împreună cu procesul sau furnizorul responsabil — buclă închisă, nu simple hârtii.'
+      icon: tabler:refresh
+      link: https://assets.isupfactory.com/site/downloads/rework-change-control-sop-qms-sop-qc-cc-001.pdf
+      link_label: 'SOP de control al modificărilor la retuș (PDF)'
+third_party:
+  tagline: 'Suport pentru inspecția numită de cumpărător și cea independentă'
+  title: 'Inspectorul dumneavoastră este binevenit la linie'
+  subtitle: 'Inspecția terță numită de cumpărător sau independentă (SGS, TÜV, Bureau Veritas, agenți vamali) poate fi discutată înainte de eliberarea producției. Domeniul de inspecție, nivelul de eșantionare, criteriile de acceptare, calendarul și cerințele de raportare ar trebui confirmate înainte de începerea producției. Acolo unde este cazul, coordonăm accesul la etapele relevante de producție, inspecție finală și ambalare conform planului de inspecție agreat.'
+  items:
+    - title: 'Programarea inspecției'
+      description: 'Inspecțiile interne sau terțe pot fi organizate la oricare dintre cele șapte porți, cu planul dumneavoastră de inspecție aplicat drept bază de acceptare.'
+      icon: tabler:calendar-clock
+      link: /ro/factory/quality-inspection
+      link_label: 'Standarde de inspecție și descărcări QMS'
+    - title: 'Șablon de brief înainte de expediție'
+      description: 'Șablonul de informare pe care inspectorii îl folosesc pentru a anunța, planifica și raporta o inspecție înainte de expediție la instalația noastră.'
+      icon: tabler:file-report
+      link: https://assets.isupfactory.com/site/downloads/Third_Party_Inspection_Brief_Template.pdf
+      link_label: 'Descărcați șablonul de brief (PDF)'
+    - title: 'Listă de verificare PSI'
+      description: 'Lista de verificare înainte de expediție folosită la linie — completitudinea kit-ului, gradul codului de bare, marcajele și rezistența la cădere.'
+      icon: tabler:clipboard-check
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_SUP_Pre_Shipment_Inspection_Checklist.pdf
+      link_label: 'Descărcați lista de verificare PSI (PDF)'
+    - title: 'Pachet complet de documentație a calității'
+      description: 'Un dosar care acoperă întregul sistem de documentație — QIP, înregistrările porților, trasabilitatea și controlul NCR.'
+      icon: tabler:books
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_COMPLETE_SUP_QUALITY_DOSSIER.pdf
+      link_label: 'Descărcați pachetul de documentație (PDF)'
+    - title: 'Ghid de fezabilitate și calitate a proiectului OEM'
+      description: 'Cum trece un proiect de la solicitare la mostra aurie aprobată — pașii de inginerie și calitate înaintea producției de masă.'
+      icon: tabler:route
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_OEM_PROJECT_FEASIBILITY_AND_QUALITY_GUIDE.pdf
+      link_label: 'Descărcați ghidul de proiect (PDF)'
+content_certifications:
+  tagline: Certificări și standarde
+  title: 'Calitate certificată, recunoscută la nivel global'
+  subtitle: 'Certificările valorează doar ceea ce acoperă. Mai jos este domeniul certificării, titularul certificatului și modul de a verifica sau solicita documentele pentru proiectul dumneavoastră.'
+  items:
+    - title: 'Marcajul CE'
+      description: 'Documentația de conformitate CE este disponibilă pentru configurațiile aplicabile pieței UE, conform Directivei 2013/53/EU (ambitații recreative); domeniul este confirmat pentru fiecare proiect. Numerele certificatelor și rapoartele de test sunt disponibile la cerere.'
+      icon: tabler:certificate
+    - title: 'ISO 9001:2015'
+      description: 'Sistem de management al calității certificat conform ISO 9001:2015, care acoperă proiectarea, fabricarea și distribuția de mijloace de transport pe apă gonflabile și echipamente marine. Domeniul certificării și raportul de audit sunt disponibile la cerere.'
+      icon: tabler:clipboard-check
+    - title: 'Conformitate socială BSCI'
+      description: 'BSCI (Business Social Compliance Initiative) auditat, acoperind condițiile de muncă și conformitatea fabricii. Raportul de audit este disponibil la cerere.'
+      icon: tabler:heart-handshake
+    - title: 'Conformitatea materialelor cu REACH'
+      description: 'Materialele respectă reglementarea UE REACH privind siguranța chimică. Declarațiile de material sunt furnizate împreună cu documentația de producție pentru fiecare expediție.'
+      icon: tabler:flask
+    - title: 'Conformitate RoHS'
+      description: 'Conformitatea cu substanțele periculoase restricționate este documentată conform RoHS pentru componentele și materialele aplicabile.'
+      icon: tabler:flame
+    - title: 'Testarea materialelor'
+      description: 'Țesăturile sunt testate pentru rezistență la tracțiune, rezistență la rupere, degradare UV și performanță la crăpare în frig. Fiecare lot de producție este eșantionat și verificat conform protocolului de test publicat.'
+      icon: tabler:test-pipe
+faqs:
+  tagline: FAQ
+  title: Întrebări frecvente despre sistemul nostru de calitate
+  items:
+    - q: 'Pot descărca rapoartele efective de inspecție?'
+      a: 'Da. Cele șapte dosare de rapoarte bilingve de pe această pagină — QIP, IQC, IPQC/FAI, etanșeitate la aer, FQC, PSI și eliberarea expediției — sunt înregistrări controlate reale, cu câmpurile confidențiale eliminate. Ele arată structura, metodele și criteriile de acceptare exacte folosite la fiecare comandă.'
+    - q: 'Cum se mapează cele șapte porți pe proiectul meu?'
+      a: 'Fiecare proiect primește un Plan de Inspecție a Calității (QIP) care definește porțile aplicabile produsului și pieței dumneavoastră, domeniul de inspecție la fiecare poartă și înregistrările pe care le veți primi. Descărcați mostra QIP de pe această pagină pentru a vedea structura.'
+    - q: 'Sunt reale aceste mostre de înregistrări de inspecție?'
+      a: 'Da. Mostrele urmează structura noastră reală de înregistrare controlată — antet document, listă de verificare a inspecției, criterii de acceptare, metodă, rezultate, rolul inspectorului și dispoziția de eliberare. Toate valorile de identificare sunt înlocuite cu valori demonstrative (coduri DEMO-*), astfel încât nu se expun date ale vreunui client, grafică, comandă sau preț.'
+    - q: 'De ce sunt anonimizate mostrele?'
+      a: 'Confidențialitatea cumpărătorului vine pe primul loc. Numele clienților, grafica, detaliile comenzilor, informațiile despre furnizori și prețurile sunt protejate prin proiectare. Anonimizarea permite oricărui cumpărător potențial să verifice structura înregistrărilor și trasabilitatea noastră fără a expune afacerea altui client.'
+    - q: 'Putem primi rapoarte complete de inspecție pentru proiectul nostru?'
+      a: 'Da. Pentru proiectele aprobate vă punem la dispoziție documentația de calitate aplicabilă comenzii dumneavoastră — plan de inspecție a calității, rapoarte de inspecție la intrare, în proces, de etanșeitate la aer, finale și de ambalare, plus autorizarea eliberării expediției — legate de trasabilitatea lotului dumneavoastră. Datele comerciale sensibile rămân sub NDA, așa cum s-a agreat.'
+    - q: 'Ce conține o înregistrare de inspecție la nivel de lot?'
+      a: 'Fiecare înregistrare leagă lotul de producție de revizia specificației sau a desenului aplicabilă, înregistrează fiecare element de inspecție față de criteriile sale de acceptare împreună cu metoda și unealta folosită și se încheie cu rolul inspectorului, starea rezultatului și dispoziția de eliberare semnată de calitate.'
+evidence_review:
+  tagline: 'Dovezi și verificare'
+  title: 'SPECIFICAȚII VERIFICATE'
+  body: 'Toate afirmațiile de fabricare de pe această pagină sunt verificate de echipa noastră de inginerie de producție la uzina din Laixi, Qingdao. Certificate, înregistrări de inspecție QC, rapoarte de test de presiune și structurale și înregistrări de trasabilitate a loturilor sunt disponibile la cerere. Specificațiile au fost verificate ultima dată în septembrie 2026.'
+
+cta:
+  title: 'Aveți nevoie de cerințe de calitate pentru proiectul dumneavoastră SUP?'
+  subtitle: 'Transmiteți categoria produsului, piața țintă, cantitatea estimată și orice cerințe de inspecție, documentație sau ambalare. Vom examina elementele aplicabile ale proiectului și vă vom indica pasul următor pentru dezvoltarea mostrei sau planificarea producției. Discuția NDA este disponibilă înainte de a partaja specificații, grafică sau cerințe de calitate nepublice.'
+  actions:
+    - variant: primary
+      text: Solicitați o evaluare a calității proiectului
+      href: /ro/contact#quality-inquiry
+    - text: Vizitați laboratorul nostru de inspecție a calității
+      href: /ro/randdcenter/quality-inspection-lab
+    - text: Standarde de inspecție și descărcări QMS
+      href: /ro/factory/quality-inspection
+    - text: Standardul de control al produselor neconforme
+      href: /ro/factory/non-conforming-control

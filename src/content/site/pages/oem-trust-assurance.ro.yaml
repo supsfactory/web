@@ -1,0 +1,166 @@
+meta:
+  title: 'OEM Trust & Factory Assurance — verificați-ne fabrica înainte de comandă | iSupfactory'
+  description: 'Cum verifică cumpărătorii iSupfactory înainte de comandă: înregistrare oficială, audituri de fabrică, ingineri angajați prin NDA și inspecții terțe (SGS/TÜV/BV/Intertek).'
+  dateModified: '2026-08-14'
+  keywords:
+    - 'verificare fabrică oem sup'
+    - 'verificați producătorul de plăci sup'
+    - 'audit fabrică sup china'
+    - 'fabrică de sup gonflabile qingdao'
+    - 'garantare de încredere oem'
+    - 'credibilitatea producătorului de plăci sup'
+
+hero:
+  tagline: 'Producție pe care o puteți verifica'
+  title: 'Încredere OEM și verificarea fabricii'
+  subtitle: 'Fiecare afirmație de pe acest site poate fi verificată: înregistrare oficială a societății, o fabrică fizică de 12,500 m² pe care o puteți vizita sau audita, ingineri reali angajați prin NDA, documente QMS pe care le puteți descărca și date de încercare înregistrate pentru fiecare număr de serie. Proiectată și operată de Qingdao Vatrad Group Co., Ltd.'
+
+answer:
+  label: 'Răspuns direct'
+  text: 'Încrederea nu este o promisiune — este documentație. Suntem o entitate de producție chineză înregistrată (Qingdao Vatrad Group Co., Ltd.) cu o uzină fizică de 12,500 m² în Qingdao, 350+ de lucrători și o capacitate anuală de 120,000+ de plăci. Puteți verifica înregistrarea, audita fabrica, consulta SOP-urile QMS, descărca înregistrări de calitate mostră, programa inspecții terțe (SGS, TÜV, BV sau Intertek) și semna un NDA în 4 ore lucrătoare. Fiecare placă este încercată la presiune la 18.0 PSI timp de 24 de ore, cu respingere automată la o scădere de peste 0.50 PSI, iar fiecare lot păstrează trasabilitate ERP pe 10 ani. Dacă o afirmație nu poate fi documentată, nu o facem.'
+  verified: 'Septembrie 2026'
+
+trust_stats:
+  - value: '12,500 m²'
+    label: Suprafață de producție
+    detail: 4 ateliere specializate, deschise pentru audituri
+  - value: '350+'
+    label: Lucrători pe amplasament
+    detail: 25+ ingineri în R&D, materiale și controlul calității
+  - value: '120,000+'
+    label: Plăci produse anual
+    detail: 10,000 de plăci/lună pe 4 linii automatizate
+  - value: '4 ore'
+    label: Termen de semnare a NDA
+    detail: NDA standard semnat în 4 ore lucrătoare
+  - value: '7-etape'
+    label: Sistem de porți de calitate
+    detail: Nodul 01—7, înregistrat pentru fiecare număr de serie
+  - value: '18.0 PSI'
+    label: Încercare la presiune 100%
+    detail: Menținere 24h, respingere automată la o scădere de peste 0.50 PSI
+
+role_boundary:
+  tagline: 'Ce suntem — și ce nu suntem'
+  title: 'O fabrică pe care o puteți verifica, niciodată o afirmație pe care trebuie să o luați de bună'
+  subtitle: 'Diferența de verificare dintre o fabrică și un birou de tranzacții este simplă: fiecare afirmație are în spatele ei un document, o persoană sau o mașină.'
+  features:
+    - icon: A
+      icon_bg: blue
+      title: 'Ce suntem — un producător verificabil'
+      desc: '· O entitate legală înregistrată: Qingdao Vatrad Group Co., Ltd. — detaliile de înregistrare sunt puse la dispoziție sub NDA sau în timpul auditului · O fabrică fizică: 12,500 m² în Zona de Dezvoltare Economică Laixi, Qingdao, cu 4 ateliere specializate, 350+ de lucrători și 4 linii automatizate · O echipă de producție: persoanele care răspund la întrebările dumneavoastră sunt cele care construiesc plăcile dumneavoastră · Documente reale: SOP-uri QMS, standarde de inspecție și înregistrări de calitate anonimizate, disponibile pentru descărcare · Verificare independentă binevenită: inspecții SGS, TÜV, BV sau Intertek, la alegerea dumneavoastră, conform ISO 2859-1 Nivel II'
+      link: '/ro/factory'
+      link_label: 'Vizitați pagina fabricii'
+    - icon: B
+      icon_bg: green
+      title: 'Ce nu suntem — profilul biroului de tranzacții'
+      desc: '· Nu suntem o companie de tranzacții: nu transmitem comanda către o a treia fabrică și nu adăugăm marje de broker · Nu purtăm marca noastră pe plăcile dumneavoastră: marca, piața și clientul vă aparțin · Nu avem minime vagi: MOQ-ul se calculează din fizica rolei de material brut și se confirmă pentru fiecare proiect · Nu avem certificate „doar la cerere": lista este publicată, iar înregistrările de audit pot fi consultate · Nu avem afirmații doar verbale: presiunea de încercare, pragurile și trasabilitatea loturilor sunt documentate pentru fiecare număr de serie'
+      link: '/ro/oem-moq-guide'
+      link_label: 'Consultați ghidul transparent al MOQ-ului'
+
+trust_steps:
+  tagline: 'Un studiu de caz real'
+  title: 'Cum ne-a verificat o flotă de închiriere din Europa de Nord înainte de comandă'
+  subtitle: 'Șapte etape de verificare pe care un operator comercial de închiriere le-a parcurs înainte de a plasa o comandă de flotă de 90–100+ bucăți — aceeași listă de verificare este disponibilă și pentru dumneavoastră.'
+  steps:
+    - step: '01'
+      title: 'Verificarea entității oficiale'
+      desc: 'Cumpărătorul a cerut Înregistrarea Comercială chineză și licența de comerț exterior. Entitatea legală din spatele iSupfactory este Qingdao Vatrad Group Co., Ltd., un producător înregistrat în Qingdao, Shandong din 2012 — verificat prin registrul național, sub NDA.'
+    - step: '02'
+      title: 'Fabrică fizică și audit al amplasamentului'
+      desc: 'Un audit de fabrică (prezent și prin tur video) a confirmat uzină de 12,500 m²: patru ateliere specializate, 350+ de lucrători, patru linii automatizate și o producție lunară de aproximativ 10,000 de plăci. Raportul de audit este depus în dosarul contractual.'
+    - step: '03'
+      title: 'Oameni: ingineri reali, nu scripturi de vânzări'
+      desc: 'Cumpărătorul a discutat direct cu echipa de inginerie — proiectarea corpului de apă, laboratorul de materiale și controlul calității. Specificația proiectului și NDA-ul au fost schimbate în 4 ore lucrătoare, iar analiza de inginerie a revenit în decurs de o zi lucrătoare.'
+    - step: '04'
+      title: 'Documente: QMS, certificate și inspecție terță'
+      desc: 'Au fost analizate documentația de conformitate ISO 9001:2015, ISO 25649 și CE, înregistrările BSCI/REACH/RoHS și SOP-urile QMS. Cumpărătorul a programat o inspecție SGS înainte de expediție conform ISO 2859-1 Nivel II la prima comandă de volum — și a primit un Certificat de Conformitate pentru fiecare lot.'
+    - step: '05'
+      title: 'Date: înregistrări de încercare pentru fiecare număr de serie'
+      desc: 'Cumpărătorul a auditat înregistrările reale de încercare: fiecare cameră încercată la 18.0 PSI timp de 24 de ore, cu respingere automată la o scădere de presiune de peste 0.50 PSI, liste de verificare a asamblării în 100 de puncte și trasabilitate ERP a loturilor pe 10 ani. Au fost furnizate înregistrări de control al calității mostră înainte de comandă.'
+    - step: '06'
+      title: 'Protecția contractuală'
+      desc: 'Contractul comenzii a acoperit licențierea mărcii, o perioadă de exclusivitate teritorială agreată, proprietatea formelor și condițiile de răscumpărare, precum și datele și înregistrările care se transferă împreună cu uneltele. Cumpărătorul a aprobat forma la fabrică înainte de producție.'
+    - step: '07'
+      title: 'Guvernanță continuă'
+      desc: 'Analize de afaceri trimestrale cu VP-ul de Vânzări și Inginerul Șef, un drept rezervat de audit în timpul producției și o cale de escaladare către Directorul QA pentru orice dispută de calitate. Acordul a fost semnat comun de VP-ul de Vânzări, Inginerul Șef și Directorul QA.'
+
+trust_faqs:
+  tagline: FAQ
+  title: 'Cele 12 întrebări pe care cumpărătorii le pun înainte de comandă'
+  items:
+    - q: 'Este iSupfactory într-adevăr o fabrică sau o companie de tranzacții?'
+      a: 'iSupfactory este divizia de dezvoltare și producție a produselor SUP a grupului Qingdao Vatrad Group Co., Ltd. Operăm personal uzina de 12,500 m² din Qingdao — proiectarea, tăierea, sudarea, asamblarea și încercarea au loc într-o singură instalație. Nu există predări tip companie de tranzacții: persoanele care răspund la întrebările dumneavoastră sunt cele care construiesc plăcile dumneavoastră.'
+    - q: 'Cu cine voi lucra efectiv pe proiectul meu?'
+      a: 'Cu un inginer de proiect nominal și un contact nominal pentru controlul calității, plus șefii de departament care semnează documentele dumneavoastră. Puteți cere să discutați direct cu Inginerul Șef, Directorul QA sau directorul fabricii — înainte și după comandă. Între dumneavoastră și echipa care execută lucrarea nu există niciun intermediar de cont.'
+    - q: 'Pot vizita sau audita fabrica?'
+      a: 'Da. Găzduim vizite în fabrică în Zona de Dezvoltare Economică Laixi, Qingdao și susținem audituri la distanță prin tururi video în direct. Auditurile pot fi organizate independent (inspectorul dumneavoastră sau o parte terță precum SGS, TÜV, BV sau Intertek), iar programul auditului poate fi înscris în contract.'
+    - q: 'Semnăm un NDA înainte să-mi partajez proiectarea?'
+      a: 'Da. NDA-ul nostru standard este semnat în 4 ore lucrătoare de la cererea dumneavoastră, înainte de a partaja orice specificație confidențială, artwork sau fișier tehnic. Sunt disponibile versiuni bilingve (engleză/chineză), iar documentul este contrasemnat de directorul fabricii.'
+    - q: 'Cum știu că afirmațiile mele despre calitate sunt reale?'
+      a: 'Fiecare afirmație de pe acest site are un document în spatele ei: SOP-urile QMS și standardele de inspecție pot fi descărcate, mostre de înregistrări de calitate anonimizate sunt publicate, iar datele de încercare sunt înregistrate pentru fiecare număr de serie, cu trasabilitate ERP a loturilor pe 10 ani. Puteți programa și o inspecție terță înainte de expediție, la alegerea dumneavoastră.'
+    - q: 'Ce se întâmplă dacă plăcile ajung cu defecte?'
+      a: 'Fiecare placă este încercată înainte de ambalare, iar înregistrările la nivel de lot permit urmărirea cauzei pentru fiecare număr de serie. Contractul definește obligațiile de inspecție, înlocuire și retuș, iar Directorul QA semnează eliberarea lotului. Plăcile retușate sunt reîncercate integral — niciodată verificate parțial.'
+    - q: 'Puteți într-adevăr încerca 100% din plăci înainte de expediție?'
+      a: 'Da — și înregistrările o dovedesc. Fiecare cameră este umflată la 18.0 PSI și menținută timp de 24 de ore, cu înregistrare continuă prin senzori; orice cameră care depășește 0.50 PSI scădere de presiune pe 24 de ore este respinsă automat și reinspectată. Jurnalele de încercare sunt legate de fiecare număr de serie și fac parte din documentația lotului.'
+    - q: 'Ce certificări aveți în realitate?'
+      a: 'Managementul calității ISO 9001:2015, ISO 25649 și conformitate CE pentru produsele SUP gonflabile, plus conformitate BSCI, REACH și RoHS pentru instalație și materiale. Numerele certificatelor și înregistrările de audit sunt furnizate la cerere sau în timpul unui audit — lista este publicată, nu „disponibilă doar la cerere”.'
+    - q: 'Marca mea va fi protejată — proiectare, forme și piață?'
+      a: 'Da. Marca, proiectările și uneltele dumneavoastră sunt protejate prin NDA, condiții de licențiere a mărcii și clauze de proprietate sau răscumpărare a formelor, înscrise în contract. Uneltele sunt păstrate pentru marcă și sunt transferabile. Condițiile teritoriale și de exclusivitate sunt stabilite în scris înainte de începerea producției.'
+    - q: 'Care este MOQ-ul real?'
+      a: 'MOQ-ul este specific proiectului și este explicat în ghidul nostru MOQ: mostre 1–2 bucăți, co-branding în loturi mici 5–10 bucăți, loturi pilot 20–50 bucăți și volum standard 90–100+ bucăți pe rolă de 150 m (aproximativ 180–220 de plăci). Formele personalizate se încadrează la nivelul de volum. Calculul este confirmat înainte de ofertă — fără nume vagi de „MOQ redus”.'
+    - q: 'Ce se întâmplă dacă producția întârzie?'
+      a: 'Termenul este confirmat după specificație, artwork și verificarea ambalajelor — niciodată promis în avans. Contractul acoperă planificarea, notificarea întârzierilor și calea de rezolvare, iar analiza de afaceri trimestrială urmărește performanța livrărilor față de calendarul agreat.'
+    - q: 'Cine semnează documentele contractuale din partea dumneavoastră?'
+      a: 'Comenzile și acordurile sunt semnate comun de VP-ul de Vânzări, Inginerul Șef și Directorul QA — cele trei persoane responsabile, respectiv, pentru termenii comerciali, execuția de inginerie și eliberarea calității. Documentele semnate vă sunt transmise împreună cu dosarul contractual.'
+
+governance:
+  tagline: 'Structura responsabilităților'
+  title: 'Semnatari nominali și drepturi rezervate'
+  subtitle: 'Fiecare angajament este legat de un rol nominal — nu de un departament de vânzări.'
+  body: |
+    **Semnătură comună.** Comenzile, planurile de calitate și rezolvările disputelor sunt semnate de trei roluri: VP-ul de Vânzări (termeni comerciali), Inginerul Șef (execuție de inginerie) și Directorul QA (eliberarea calității). SOP-urile bilingve sunt controlate pe versiuni și au aceeași structură de semnături.
+
+    **Drepturi rezervate.** Cumpărătorul își păstrează dreptul de a audita producția, de a consulta înregistrările de încercare și de a bloca eliberarea lotului până la semnarea inspecției. Retușul are loc doar în baza unei înregistrări de modificare aprobate, iar eliberarea este validată de un control al calității independent — niciodată de operatorii care au realizat retușul.
+
+    **Înregistrări care se transferă.** Jurnalele de încercare de lot, certificatele de conformitate și rapoartele de inspecție sunt livrate cu fiecare expediție, iar trasabilitatea ERP a loturilor este păstrată 10 ani. Dosarele uneltelor și desenele formelor se transferă împreună cu uneltele atunci când contractul prevede acest lucru.
+
+trust_downloads:
+  tagline: 'Documente oficiale'
+  title: 'Documente de verificare — descărcați și distribuiți'
+  subtitle: 'Documente oficiale de la Qingdao Vatrad Group Co., Ltd., gata de atașat la dosarul dumneavoastră de verificare a furnizorilor.'
+  features:
+    - icon: G
+      icon_bg: blue
+      title: 'Ghid de încredere pentru cumpărătorii OEM și verificarea fabricii (PDF)'
+      desc: 'Ghid B2B oficial (Partea II, DOC-ENG-2026-EN): verificarea fabricii pas cu pas — înregistrarea entității, auditul fizic, ingineri reali, documente QMS, inspecție terță, protecție contractuală și semnături de guvernanță.'
+      link: 'https://assets.isupfactory.com/site/downloads/oem-buyer-trust-and-factory-assurance-guide.pdf'
+      link_label: 'Descărcați ghidul (PDF)'
+    - icon: P
+      icon_bg: green
+      title: 'Ghid de branding flexibil și MOQ (PDF)'
+      desc: 'Ghid B2B oficial (Partea I, DOC-MOQ-EXP-2026-EN): logica de inginerie din spatele randamentelor rolei drop-stitch de 150 m (90–100 plăci), co-branding de la 5–10 bucăți, loturi pilot de 20–50 bucăți și cele trei etape de producție.'
+      link: 'https://assets.isupfactory.com/site/downloads/flexible-branding-and-moq-guide.pdf'
+      link_label: 'Descărcați ghidul MOQ (PDF)'
+    - icon: Q
+      icon_bg: orange
+      title: 'Sistemul de calitate din spatele acestor afirmații'
+      desc: 'O pagină care leagă totul: sistemul de porți de inspecție în 7 etape, cele patru standarde care îl guvernează și registrul de documente 00–15, cu toate SOP-urile și rapoartele pe care le puteți descărca — QIP, standarde de inspecție, dosar de trasabilitate, NCP și SOP-uri de retuș.'
+      link: '/ro/quality'
+      link_label: 'Explorați sistemul de calitate'
+
+evidence_review:
+  tagline: 'Dovezi și verificare'
+  title: 'SPECIFICAȚII VERIFICATE'
+  body: 'Toate afirmațiile de producție de pe această pagină sunt verificate de echipa noastră de inginerie de producție din uzina Laixi, Qingdao. Certificatele, înregistrările de inspecție a calității, rapoartele de încercare la presiune și structurală și înregistrările de trasabilitate a loturilor sunt puse la dispoziție la cerere. Specificațiile au fost verificate ultima dată în septembrie 2026.'
+
+cta:
+  title: 'Începeți cu verificarea — apoi discutăm specificațiile'
+  subtitle: 'Trimiteți cererea de NDA, solicitați dosarul de înregistrare sau programați o fereastră de audit. Verificarea vine prima; discuția despre comandă urmează. Trimiterea unei solicitări nu vă obligă la o comandă.'
+  button_text: 'Solicitați dosarul de verificare'
+  button_link: /ro/contact#trust-verification
+  actions:
+    - text: Listă de verificare pentru auditul fabricii
+      href: /ro/factory-audit-checklist
+    - text: Identitatea de marcă
+      href: /ro/about/identity

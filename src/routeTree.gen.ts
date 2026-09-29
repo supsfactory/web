@@ -23,6 +23,7 @@ import { Route as SitemapDotxmlRouteImport } from './routes/sitemap[.]xml'
 import { Route as SitemapTrDotxmlRouteImport } from './routes/sitemap-tr[.]xml'
 import { Route as SitemapSvDotxmlRouteImport } from './routes/sitemap-sv[.]xml'
 import { Route as SitemapRuDotxmlRouteImport } from './routes/sitemap-ru[.]xml'
+import { Route as SitemapRoDotxmlRouteImport } from './routes/sitemap-ro[.]xml'
 import { Route as SitemapPtDotxmlRouteImport } from './routes/sitemap-pt[.]xml'
 import { Route as SitemapProductsDotxmlRouteImport } from './routes/sitemap-products[.]xml'
 import { Route as SitemapPlDotxmlRouteImport } from './routes/sitemap-pl[.]xml'
@@ -209,6 +210,11 @@ const SitemapSvDotxmlRoute = SitemapSvDotxmlRouteImport.update({
 const SitemapRuDotxmlRoute = SitemapRuDotxmlRouteImport.update({
   id: '/sitemap-ru.xml',
   path: '/sitemap-ru.xml',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const SitemapRoDotxmlRoute = SitemapRoDotxmlRouteImport.update({
+  id: '/sitemap-ro.xml',
+  path: '/sitemap-ro.xml',
   getParentRoute: () => rootRouteImport,
 } as any)
 const SitemapPtDotxmlRoute = SitemapPtDotxmlRouteImport.update({
@@ -862,6 +868,7 @@ export interface FileRoutesByFullPath {
   '/sitemap-pl.xml': typeof SitemapPlDotxmlRoute
   '/sitemap-products.xml': typeof SitemapProductsDotxmlRoute
   '/sitemap-pt.xml': typeof SitemapPtDotxmlRoute
+  '/sitemap-ro.xml': typeof SitemapRoDotxmlRoute
   '/sitemap-ru.xml': typeof SitemapRuDotxmlRoute
   '/sitemap-sv.xml': typeof SitemapSvDotxmlRoute
   '/sitemap-tr.xml': typeof SitemapTrDotxmlRoute
@@ -981,6 +988,7 @@ export interface FileRoutesByTo {
   '/sitemap-pl.xml': typeof SitemapPlDotxmlRoute
   '/sitemap-products.xml': typeof SitemapProductsDotxmlRoute
   '/sitemap-pt.xml': typeof SitemapPtDotxmlRoute
+  '/sitemap-ro.xml': typeof SitemapRoDotxmlRoute
   '/sitemap-ru.xml': typeof SitemapRuDotxmlRoute
   '/sitemap-sv.xml': typeof SitemapSvDotxmlRoute
   '/sitemap-tr.xml': typeof SitemapTrDotxmlRoute
@@ -1100,6 +1108,7 @@ export interface FileRoutesById {
   '/sitemap-pl.xml': typeof SitemapPlDotxmlRoute
   '/sitemap-products.xml': typeof SitemapProductsDotxmlRoute
   '/sitemap-pt.xml': typeof SitemapPtDotxmlRoute
+  '/sitemap-ro.xml': typeof SitemapRoDotxmlRoute
   '/sitemap-ru.xml': typeof SitemapRuDotxmlRoute
   '/sitemap-sv.xml': typeof SitemapSvDotxmlRoute
   '/sitemap-tr.xml': typeof SitemapTrDotxmlRoute
@@ -1222,6 +1231,7 @@ export interface FileRouteTypes {
     | '/sitemap-pl.xml'
     | '/sitemap-products.xml'
     | '/sitemap-pt.xml'
+    | '/sitemap-ro.xml'
     | '/sitemap-ru.xml'
     | '/sitemap-sv.xml'
     | '/sitemap-tr.xml'
@@ -1341,6 +1351,7 @@ export interface FileRouteTypes {
     | '/sitemap-pl.xml'
     | '/sitemap-products.xml'
     | '/sitemap-pt.xml'
+    | '/sitemap-ro.xml'
     | '/sitemap-ru.xml'
     | '/sitemap-sv.xml'
     | '/sitemap-tr.xml'
@@ -1459,6 +1470,7 @@ export interface FileRouteTypes {
     | '/sitemap-pl.xml'
     | '/sitemap-products.xml'
     | '/sitemap-pt.xml'
+    | '/sitemap-ro.xml'
     | '/sitemap-ru.xml'
     | '/sitemap-sv.xml'
     | '/sitemap-tr.xml'
@@ -1580,6 +1592,7 @@ export interface RootRouteChildren {
   SitemapPlDotxmlRoute: typeof SitemapPlDotxmlRoute
   SitemapProductsDotxmlRoute: typeof SitemapProductsDotxmlRoute
   SitemapPtDotxmlRoute: typeof SitemapPtDotxmlRoute
+  SitemapRoDotxmlRoute: typeof SitemapRoDotxmlRoute
   SitemapRuDotxmlRoute: typeof SitemapRuDotxmlRoute
   SitemapSvDotxmlRoute: typeof SitemapSvDotxmlRoute
   SitemapTrDotxmlRoute: typeof SitemapTrDotxmlRoute
@@ -1705,6 +1718,13 @@ declare module '@tanstack/react-router' {
       path: '/sitemap-ru.xml'
       fullPath: '/sitemap-ru.xml'
       preLoaderRoute: typeof SitemapRuDotxmlRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/sitemap-ro.xml': {
+      id: '/sitemap-ro.xml'
+      path: '/sitemap-ro.xml'
+      fullPath: '/sitemap-ro.xml'
+      preLoaderRoute: typeof SitemapRoDotxmlRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/sitemap-pt.xml': {
@@ -2641,6 +2661,7 @@ const rootRouteChildren: RootRouteChildren = {
   SitemapPlDotxmlRoute: SitemapPlDotxmlRoute,
   SitemapProductsDotxmlRoute: SitemapProductsDotxmlRoute,
   SitemapPtDotxmlRoute: SitemapPtDotxmlRoute,
+  SitemapRoDotxmlRoute: SitemapRoDotxmlRoute,
   SitemapRuDotxmlRoute: SitemapRuDotxmlRoute,
   SitemapSvDotxmlRoute: SitemapSvDotxmlRoute,
   SitemapTrDotxmlRoute: SitemapTrDotxmlRoute,

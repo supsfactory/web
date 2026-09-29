@@ -1,0 +1,242 @@
+meta:
+  title: 'Controlul produselor neconforme pentru SUP și reprocesare | Fabrică OEM | iSupfactory'
+  description: 'Controlul produselor neconforme (ISO 9001:2015, punctul 8.7): carantină NCR, reprocesare controlată prin SRI, reinspecție independentă și distrugere în prezența martorilor.'
+  dateModified: '2026-08-14'
+  keywords:
+    - 'controlul produselor neconforme'
+    - 'proces de reinspecție și reprocesare sup'
+    - 'ieșiri neconforme iso 9001'
+    - 'control ncr în producție'
+    - 'certificat de distrugere a deșeurilor sup'
+    - 'controlul calității oem pentru sup gonflabile'
+
+hero:
+  tagline: Controlul produselor neconforme
+  title: 'Procesul de izolare, reprocesare și reinspecție pentru produsele neconforme'
+  subtitle: 'În cadrul QINGDAO VATRAD GROUP.,LTD., o placă neconformă nu circulă înainte. Orice produs sau component care nu respectă criteriile de acceptare stabilite este identificat, înregistrat într-un Raport de Neconformitate (NCR), etichetat și separat fizic, evaluat în privința domeniului afectat și eliminat la nivelul de autoritate corespunzător. Reprocesarea permisă urmează instrucțiuni controlate, articolele corectate sunt reinspectate față de criteriile de acceptare inițiale — inclusiv cu reluarea completă a testelor, acolo unde este necesar — iar produsul este expediat numai după semnarea autorizată a calității. Pagina aceasta prezintă standardul nostru controlat, conform ISO 9001:2015, punctul 8.7, și dovezile de trasabilitate din spate.'
+  actions:
+    - text: 'Descărcați SOP-ul de control NCP (PDF)'
+      variant: primary
+      href: 'https://assets.isupfactory.com/site/downloads/non-conforming-product-control-sop-iso-8-7.pdf?dl=1'
+    - text: 'Descărcați certificatul de rebut și distrugere (PDF)'
+      href: 'https://assets.isupfactory.com/site/downloads/scrap-destruction-certificate-vat-qa-scrap-cert-2026.pdf?dl=1'
+    - text: 'Solicitați o analiză a calității'
+      href: /ro/contact
+
+answer:
+  label: 'Răspuns direct'
+  text: 'Produsele neconforme nu sunt niciodată ascunse, reprocesate informal sau eliberate fără verificare la QINGDAO VATRAD GROUP.,LTD. Fiecare neconformitate identificată este înregistrată pentru produsul, lotul sau componenta afectată și legată de un NCR. Articolul este etichetat (HOLD / QUARANTINE / REJECTED), separat fizic, iar domeniul afectat este evaluat după lot, lot de material, etapă de proces și revizie de document. Decizia de eliminare se ia la nivelul de autoritate corespunzător severității defectului: problemele minore se semnează la nivel de linie, problemele majore necesită o decizie a Managerului de Control al Calității împreună cu un Inginer Tehnic, o instrucțiune de reprocesare controlată și reinspecție independentă la 100%, iar problemele critice necesită o decizie a Consiliului de Analiză a Materialelor, cu aprobare scrisă din partea clientului unde este cazul — altfel, distrugere obligatorie în prezența martorilor. Articolele reprocesate sunt reinspectate față de criteriile de acceptare inițiale, reparațiile de etanșeitate la aer primesc un ciclu complet nou de încercare la presiune, iar eliberarea expediției are loc numai după semnarea autorizată a calității. Problemele repetate sau sistemice declanșează acțiuni corective de cauză rădăcină (CAPA).'
+  verified: 'Septembrie 2026'
+
+stats:
+  tagline: Pe scurt
+  title: Controlul neconformităților în cifre
+  stats:
+    - value: '7'
+      label: Pași de la identificare la acțiune corectivă
+    - value: '100%'
+      label: Reinspecția fiecărei plăci reprocesate de către un QA independent
+    - value: '24h'
+      label: Retest complet la presiune pentru reparațiile de etanșeitate la aer
+    - value: '≥ 5 ani'
+      label: Păstrarea dovezilor distrugerii în prezența martorilor (seif SHA-256)
+
+nc_intro:
+  tagline: Controlul produselor neconforme
+  title: Ce se întâmplă atunci când un produs nu respectă criteriile
+  body: |
+    Produsele sau componentele care nu respectă criteriile de acceptare stabilite sunt identificate și controlate, pentru a preveni utilizarea neintenționată, prelucrarea suplimentară sau expediția. Criteriile de acceptare aplicabile se bazează pe mostra aprobată, specificația tehnică, grafică, lista de materiale, cerințele de ambalare și planul de inspecție al proiectului.
+
+    Articolele neconforme sunt evaluate pentru a stabili domeniul afectat și eliminarea corespunzătoare. În funcție de problemă, articolul poate fi reținut, reprocesat conform instrucțiunilor controlate, înlocuit, respins sau tratat altfel printr-un proces aprobat. Articolele reprocesate sau corectate sunt reinspectate înainte de eliberare. Eliberarea expediției este permisă numai după completarea înregistrărilor de calitate relevante și după ce produsul respectă criteriile de acceptare aplicabile.
+
+nc_flow:
+  tagline: Standard în buclă închisă, în 7 pași
+  title: De la identificare la acțiune corectivă
+  subtitle: 'O buclă controlată unică pentru fiecare neconformitate: identificare, carantină, analiză, reprocesare sau înlocuire, reinspecție, eliberare sau respingere, îmbunătățire.'
+  steps:
+    - step: '01'
+      title: Identificare
+      desc: 'Orice neconformitate identificată este înregistrată pentru produsul, lotul sau componenta afectată și evaluată față de cerințele proiectului aplicabile. Detectarea poate avea loc la recepția materialelor, în controlul în curs de proces, la testarea finală, la ambalare sau la inspecția efectuată de client sau de o parte terță.'
+    - step: '02'
+      title: Carantină
+      desc: 'Articolele sunt identificate clar și plasate într-o stare controlată de reținere sau carantină, pentru a preveni utilizarea neintenționată, prelucrarea suplimentară sau expediția. Etichetele HOLD / QUARANTINE / REJECTED conțin numărul NCR, SKU-ul, lotul, cantitatea, descrierea defectului și data.'
+    - step: '03'
+      title: Analiză
+      desc: 'Domeniul afectat și eliminarea corespunzătoare sunt evaluate: unitate individuală, lot de tură, lot complet sau mai multe loturi — inclusiv la nivelul loturilor de material partajate, al reviziilor graficii, al etapelor de proces și al reviziilor documentelor. Se aplică măsuri suplimentare de limitare a efectelor sau inspecții stricate, acolo unde este necesar.'
+    - step: '04'
+      title: Reprocesare sau înlocuire
+      desc: 'Reprocesarea permisă urmează instrucțiuni aprobate care identifică articolul afectat, metoda, materialele, punctele de inspecție și cerințele de reinspecție. Modificările neaprobate ale specificației de produs, ale graficii, ale configurației accesoriilor sau ale ambalării nu sunt niciodată permise. Articolele de înlocuire reintră în punctele de inspecție aplicabile.'
+    - step: '05'
+      title: Reinspecție
+      desc: 'Articolele reprocesate sau corectate sunt reinspectate față de criteriile de acceptare aplicabile. Caracteristica care a eșuat inițial și orice caracteristici conexe care ar putea fi afectate de reprocesare sunt verificate înainte de eliberare — de către controlul calității independent, și cu un ciclu complet nou de încercare la presiune pe 24 de ore pentru reparațiile de etanșeitate la aer.'
+    - step: '06'
+      title: Eliberare sau respingere
+      desc: 'Produsul este eliberat numai după finalizarea reinspecției necesare și după ce personalul autorizat al calității confirmă conformitatea cu cerințele proiectului aplicabile. Articolele care nu pot fi aduse la conformitate sunt respinse, înlocuite, returnate sau eliminate conform procedurilor controlate — inclusiv prin distrugere fizică în prezența martorilor.'
+    - step: '07'
+      title: Acțiune corectivă
+      desc: 'Neconformitățile repetate, semnificative sau sistemice sunt analizate din perspectiva cauzei rădăcină și a acțiunii corective (CAPA). Îmbunătățirile pot include actualizarea instrucțiunilor de lucru, a controalelor materialelor, a punctelor de inspecție, a instruirii, a managementului furnizorilor sau a controlului documentelor.'
+
+nc_pillars:
+  tagline: Pilonii încrederii cumpărătorului
+  title: Trei mecanisme de control care protejează marca dumneavoastră
+  subtitle: 'Procesul este conceput în jurul întrebărilor pe care cumpărătorii internaționali le adună în practică: problemele vor fi ascunse, reprocesarea va scăpa de sub control și plăcile reparate vor fi reverificate.'
+  features:
+    - icon: 1
+      icon_bg: blue
+      title: Numai instrucțiuni controlate
+      desc: 'Reprocesarea este strict reglementată de Instrucțiunile Standard de Reprocesare (SRI) autorizate. Modificările neaprobate efectuate pe teren, schimbarea specificațiilor sau modificarea graficii fără autorizare scrisă sunt strict interzise.'
+    - icon: 2
+      icon_bg: green
+      title: Reinspecție independentă
+      desc: 'Plăcile reprocesate sunt supuse unei reinspecții la 100% de către inspectori QA, față de criteriile de acceptare inițiale. Reparațiile de etanșeitate la aer necesită un ciclu complet, nou, de încercare la presiune pe 24 de ore — niciodată o reverificare parțială.'
+    - icon: 3
+      icon_bg: purple
+      title: Semnare autorizată și trasabilitate
+      desc: 'Eliberarea expediției este permisă exclusiv după completarea documentației NCR și semnarea autorizată a controlului calității, starea lotului trecând de la HOLD la RELEASED. Abaterile sistemice sau repetate declanșează automat fluxuri CAPA de analiză a cauzei rădăcină.'
+
+nc_photos:
+  tagline: În hala de producție
+  title: 'Carantină, reprocesare și reinspecție în practică'
+  subtitle: 'Fotografii din atelierul nostru din Qingdao arată modul în care plăcile neconforme sunt separate fizic, reprocesate conform instrucțiunilor controlate și reverificate înainte de orice decizie de eliberare.'
+  features:
+    - image: https://assets.isupfactory.com/site/quality/qc-air-tightness-test-area.avif
+      alt: Plăci SUP gonflabile umflate în zona de testare a etanșeității la aer din fabrică, monitorizate cu manometre digitale
+      title: Punct de reinspecție
+      desc: 'După reprocesare, fiecare placă revine în zona de testare a controlului calității pentru o reverificare independentă: este umflată și monitorizată cu manometre digitale față de criteriile de acceptare aprobate de proiect — niciodată o verificare parțială.'
+    - image: https://assets.isupfactory.com/site/quality/qc-hold-quarantine-station.avif
+      alt: Fișe de control al calității și etichete de stare de reținere controlată la postul de inspecție din fabrică
+      title: Post de reținere și carantină
+      desc: 'Post de inspecție cu fișe de control al calității și etichetare de stare. Orice articol care nu respectă criteriile de acceptare este marcat HOLD / QUARANTINE, înregistrat într-un NCR și separat fizic — nu poate ajunge la ambalare înainte de finalizarea eliminării autorizate și a reinspecției obligatorii.'
+    - image: https://assets.isupfactory.com/site/quality/qc-air-tightness-rework.avif
+      alt: Tehnician de control al calității care execută o reprocesare controlată a etanșeității la aer pe o placă SUP gonflabilă, la postul de reprocesare din fabrică
+      title: Post de reprocesare controlată
+      desc: 'Reprocesarea se execută la un post dedicat, conform unei instrucțiuni SRI aprobate: defectul este marcat, placa rămâne în stare HOLD, iar după perioada de polimerizare necesară revine în zona de testare pentru reinspecție față de criteriile de acceptare inițiale.'
+    - image: https://assets.isupfactory.com/site/quality/qc-workshop-inspection-demo.avif
+      alt: Demonstrație în atelier a verificărilor de control al calității în fabrica din Qingdao
+      title: Demonstrație a controlului calității în atelier
+      desc: 'Fotografie de demonstrație din atelier, care arată verificările de control al calității aplicate în practică și susține înregistrările de inspecție și de control al stării la care se face referire pe această pagină.'
+
+nc_severity:
+  tagline: Severitatea defectului și autoritatea
+  title: Clasificarea severității și autoritatea de eliminare
+  subtitle: Nu orice neconformitate este tratată la același nivel — autoritatea de eliminare crește odată cu severitatea defectului, de la semnarea la nivel de linie până la Consiliul de Analiză a Materialelor și aprobarea clientului.
+  headers:
+    severity: Severitate
+    examples: Exemple tipice
+    authority: Autoritate de eliminare și control
+    control: Condiție de eliberare
+  rows:
+    - severity: 'Minoră'
+      examples: 'Cmot de carton, ușoară abatere de poziționare a unui accesoriu necritic'
+      authority: 'Semnare la fața locului de către responsabilul de secție al calității și supervizorul de linie, înlocuire sau eliberare'
+      control: 'Înregistrat în NCR; fără impact asupra funcționării produsului sau a cerințelor clientului'
+    - severity: 'Majoră'
+      examples: 'Scurgere lentă a supapei, abatere a padscai EVA peste toleranță (>2 mm), accesoriu lipsă'
+      authority: 'Managerul de Control al Calității și Inginerul Tehnic emit o instrucțiune de reprocesare controlată (SRI)'
+      control: 'Retestare independentă la 100% a caracteristicii inițiale eșuate și a caracteristicilor afectate, înainte de eliberare'
+    - severity: 'Critică'
+      examples: 'Deteriorarea camerei drop-stitch, bule sau fisură pe margine sub presiune ridicată, tipărire greșită a logo-ului clientului sau abatere de culoare'
+      authority: 'Decizie a Consiliului de Analiză a Materialelor (MRB); aprobare scrisă din partea clientului unde este necesară'
+      control: 'Fără eliberare fără o aprobare autorizată; altfel, distrugere fizică obligatorie în prezența martorilor'
+
+nc_matrix:
+  tagline: Matricea protocoalelor de inginerie
+  title: Matricea eliminării și reinspecției defectelor SUP
+  subtitle: 'Protocoale tehnice standard aplicate celor mai frecvente abateri de producție — aceiași parametri cuantificați pe care clienții îi pot verifica în cadrul auditurilor.'
+  headers:
+    defect: Categorie de defect
+    protocol: Protocol de eliminare controlat
+    validation: Reinspecție și validare independentă
+  rows:
+    - defect: 'Scurgere lentă la supapă'
+      protocol: 'Izolați placa. Demontați miezul supapei cu o cheie dinamometrică calibrată (25 N·m), curățați filetele interioare, înlocuiți inelul din silicon și reaplicați cuplul.'
+      validation: 'Scufundați în soluție cu bule; reumflați la 18 PSI pentru un retest complet de 24 de ore al scăderii de presiune (ΔP ≤ 0.05 PSI).'
+    - defect: 'Bule de aer la cusătura marginii'
+      protocol: 'Puneți în carantină lotul de tură. Delaminați zona cu bule folosind un duz cu aport termic, curățați suprafața cu solvent, aplicați adeziv PU bicomponent la presiune de 5 bar.'
+      validation: 'Inspecție vizuală și tactilă a 100% dintre cusături; încercare de presiune de verificare structurală (18.0 PSI) plus menținere a etanșeității la aer pe 24 de ore.'
+    - defect: 'Abaterea padscai EVA'
+      protocol: 'Dezlipire cu aport termic folosind o unealtă cu temperatură reglată (80°C). Realiniați cu o șablu de poziționare precis din acrilic.'
+      validation: 'Verificarea toleranțelor de joc (≤ ±1,5 mm), controlul simetriei modelului romboidal, test de adeziune al marginilor la 100%.'
+    - defect: 'Eroră de branding / logo'
+      protocol: 'Oprire imediată a liniei de tipărire. Rețineți toate panourile tipărite. Analizați revizia vectorială împreună cu clientul; zero modificări neaprobate.'
+      validation: 'Verificare a culorii cu spectrofotometrul (ΔE ≤ 1,5); verificare vizuală a alinierii textului la 100%, față de fișierul PDF vectorial master semnat de client.'
+    - defect: 'Nepotrivire de ambalare / SKU lipsă'
+      protocol: 'Puneți în carantină paletul de export. Deschideți ambalajele și efectuați o verificare punctuală a listei de materiale la 100% (pompa, aripioara, cordonul, vâsla, tubul de reparații).'
+      validation: 'Validarea cântăririi electronice dinamice integrate (±30 g abatere); verificare cu scanner optic de coduri de barej 2D.'
+
+nc_scrap:
+  tagline: Scurgere zero către piață
+  title: 'Rebut și distrugere în prezența martorilor — protocol anti-deviere cu zero defecte'
+  body: |
+    Partenerii de marcă internaționali au nevoie de certitudinea că plăcile defecte nu vor ajunge niciodată în retail secundar, pe piețe paralele sau prin canale de comerț electronic. Plăcile care nu pot fi aduse la conformitate sunt distruse conform unui protocol atestat, cu martori și înregistrări:
+
+    **1. Tăierea componentelor metalice și a accesoriilor.** Sub supravegherea Directorului QA, o foarfecă hidraulică îndepărtează toate inelele în D din inox 316, benzile mânerelor de transport și catramele de bagaj. Ansamblul supapei de umflare și baza cutiei pentru aripioare (US-Box / aripioară cu fixare rapidă) sunt tăiate la rădăcina plăcii, eliminând orice componentă recuperabilă.
+
+    **2. Sectionarea miezului drop-stitch și a marginilor.** Miezul intern drop-stitch este tăiat transversal, prin placă și deck, cu tăieturi adânci în cruce (≥ 50 cm pe tăietură), iar marginile laterale ranforsate sunt secționate în cel puțin 4 segmente — distrugând definitiv capacitatea de etanșeitate și flotabilitate.
+
+    **3. Seif video și foto.** Distrugerea este înregistrată ca un video 1080p nemonțat, cu planuri de detaliu ale codului de barej serial, ale procesului de tăiere, al sectionării miezului și al grămezii finale de rebut cântărită. Video-ul este amprentat (SHA-256) și arhivat pe un server controlat, pentru ≥ 5 ani.
+
+    **4. Eliminare certificată a deșeurilor.** Toate fragmentele de PVC și drop-stitch sunt cântărite, înregistrate în registrul de ieșiri și transportate exclusiv de parteneri calificați de reciclare a polimerilor — niciun rest nu părăsește instalația pe altă cale.
+
+    > **Garanție de protecție a mărcii:** QINGDAO VATRAD GROUP CO., LTD. garantează distrugerea în proporție de 100% a ambarcatiunilor neconforme, nereparabile. Nicio secundă de fabrică și nicio placă compromise nu vor ajunge vreodată în retail secundar, pe piețe paralele sau prin canale de comerț electronic. Certificatul de Rebut și Distrugere (VAT-QA-SCRAP-CERT-2026) consemnează produsul, lotul, concluzia MRB, fotografiile cu martori și dubla semnătură a Directorului QA și a Directorului de Fabrică.
+
+nc_downloads:
+  tagline: Documente QMS descărcabile
+  title: 'Documente controlate bilingve (PDF)'
+  subtitle: Documente oficiale bilingve EN/ZH ale QINGDAO VATRAD GROUP.,LTD. — structurate conform ISO 9001:2015, punctul 8.7, și pregătite pentru auditurile clienților, rapoartele tehnice B2B și distribuirea controlată în atelier.
+  features:
+    - icon: N
+      icon_bg: blue
+      title: 'SOP de control al produselor neconforme (PDF)'
+      desc: 'SOP bilingv bazat pe ISO 9001:2015, punctul 8.7: control în buclă închisă în 8 etape, matricea eliminării defectelor SUP, structura de date NCR și angajamentul de calitate față de clienți.'
+      link: 'https://assets.isupfactory.com/site/downloads/non-conforming-product-control-sop-iso-8-7.pdf?dl=1'
+      link_label: 'Descărcați PDF'
+    - icon: S
+      icon_bg: orange
+      title: 'Certificat de rebut și distrugere (PDF)'
+      desc: 'VAT-QA-SCRAP-CERT-2026: trasabilitatea produsului și a lotului, concluzia MRB, protocolul de distrugere fizică în 4 etape, câmpurile pentru fotografiile cu martori și blocul de dublu semnătură.'
+      link: 'https://assets.isupfactory.com/site/downloads/scrap-destruction-certificate-vat-qa-scrap-cert-2026.pdf?dl=1'
+      link_label: 'Descărcați PDF'
+    - icon: R
+      icon_bg: green
+      title: 'Guvernanța reprocesării controlate (pagină)'
+      desc: 'Pagină însoțitoare pentru fișele de metodă aprobate pentru repararea etanșeității la aer, MC-RW-01 până la MC-RW-06, și pentru fluxul de reprocesare controlată în 7 pași.'
+      link: '/ro/factory/quality-inspection'
+      link_label: 'Vizitați pagina'
+    - icon: C
+      icon_bg: purple
+      title: 'Standardul de control al modificărilor în reprocesare (pagină)'
+      desc: 'Control formal al modificărilor conform ISO 9001 pentru parametrii reprocesării: ECR, clasificarea riscului, matricea de aprobare, planul de validare și măsurile Poka-Yoke — QMS-SOP-QC-CC-001 Rev 2.0.'
+      link: '/ro/factory/quality-change-control'
+      link_label: 'Vizitați pagina'
+
+faqs:
+  tagline: FAQ
+  title: 'Întrebări frecvente privind calitatea și controlul defectelor pentru cumpărătorii internaționali'
+  items:
+    - q: 'Cum garantați că plăcile reprocesate respectă standardele complete de siguranță?'
+      a: 'Orice placă reprocesată este tratată ca o unitate nouă și trebuie să parcurgă exact același ciclu complet de încercări, de la zero — pentru reparațiile de etanșeitate la aer, o încercare completă la presiune pe 24 de ore. Validarea pentru eliberare este realizată de inspectori de control al calității independenți, nu de operatorii care au efectuat reprocesarea.'
+    - q: 'Fabrica va expedia plăci cu abateri cosmetice minore fără să ne anunțeze?'
+      a: 'Niciodată. Orice abatere care afectează mostrele de referință aprobate de client, grafica logo-ului, variantele de culoare sau ambalarea necesită un Acord de Concesie formal, scris, semnat de client, înainte de eliberarea expediției.'
+    - q: 'Ce se întâmplă dacă o placă reprocesată nu trece reinspecția?'
+      a: 'Placa nu este eliberată. Revine la o nouă analiză a eliminării, iar dacă nu poate fi adusă la conformitate, este înlocuită, respinsă sau distrusă conform protocolului de rebut în prezența martorilor. Eșecul repetat al aceleiași clase de defecte declanșează o acțiune CAPA de cauză rădăcină.'
+    - q: 'Pot fi vândute plăcile defecte ca secuse de fabrică sau prin alte canale?'
+      a: 'Nu. Plăcile neconforme, nereparabile, sunt distruse fizic conform protocolului de rebut în prezența martorilor — componentele metalice sunt tăiate, miezul și marginile sunt secționate, procesul este înregistrat video cu amprentă SHA-256 și arhivat timp de cel puțin 5 ani. Certificatul de Rebut și Distrugere este semnat de Directorul QA și de Directorul de Fabrică.'
+    - q: 'Cum este evaluat domeniul afectat atunci când se descoperă un defect?'
+      a: 'Domeniul este analizat după identificarea produsului, lotul de producție, lotul de material sau componentă, etapa de proces și revizia documentului aplicabil. Dacă este implicat același lot de material, aceeași revizie a graficii sau aceeași post de lucru, produsele afectate sunt limitate și verificate în consecință.'
+    - q: 'Aveți nevoie de aprobarea noastră înainte de a acorda o concesie?'
+      a: 'Da. Orice acceptare printr-o concesie documentată care afectează cerințele clientului — mostre aprobate, specificații, grafică, ambalare sau criterii de acceptare — necesită aprobarea scrisă a clientului înainte de eliberare. Fără aceasta, produsul este reprocesat conform cerinței inițiale, înlocuit sau respins.'
+    - q: 'Ce documentație primim pentru o neconformitate?'
+      a: 'Înregistrarea NCR cuprinde numărul NCR, etapa de detecție, produsul/SKU-ul, lotul, reviziile documentelor aplicabile, descrierea defectului, limitarea efectelor, eliminarea adoptată, referința instrucțiunii de reprocesare, rezultatul reinspecției și aprobarea de eliberare sau de închidere — disponibilă în funcție de acordul dumneavoastră de calitate a proiectului.'
+
+cta:
+  title: 'Preocupările de calitate sunt gestionate printr-un proces controlat'
+  desc: 'Transmiteți cerințele dumneavoastră specifice de proiect în materie de calitate, inspecție sau documentație în etapa de solicitare a ofertei — putem analiza punctele de control aplicabile înainte de dezvoltarea mostrei sau de planificarea producției.'
+  actions:
+    - text: 'Discutați cerințele de calitate'
+      variant: primary
+      href: /ro/contact
+    - text: 'Descărcați SOP-ul de control NCP (PDF)'
+      href: 'https://assets.isupfactory.com/site/downloads/non-conforming-product-control-sop-iso-8-7.pdf?dl=1'
+    - text: 'Descărcați certificatul de rebut (PDF)'
+      href: 'https://assets.isupfactory.com/site/downloads/scrap-destruction-certificate-vat-qa-scrap-cert-2026.pdf?dl=1'

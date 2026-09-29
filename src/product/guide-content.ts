@@ -4022,7 +4022,275 @@ export const GUIDES_TR: Guide[] = [
   },
 ]
 
-const GUIDES_BY_LOCALE: Record<string, Guide[]> = { en: GUIDES, es: GUIDES_ES, fr: GUIDES_FR, de: GUIDES_DE, it: GUIDES_IT, pt: GUIDES_PT, nl: GUIDES_NL, sv: GUIDES_SV, no: GUIDES_NO, pl: GUIDES_PL, da: GUIDES_DA, fi: GUIDES_FI, ru: GUIDES_RU, cs: GUIDES_CS, tr: GUIDES_TR }
+/** Romanian variants of the guides (same slugs and ordering as GUIDES, translated copy). */
+export const GUIDES_RO: Guide[] = [
+  {
+    slug: 'how-to-choose-your-sup',
+    title: 'Cum să vă alegeți SUP-ul',
+    intro: [
+      'Alegerea primului SUP umflabil ține de dimensiunea plăcii, lățime, construcție și de conținutul cutiei. Iată ce contează cu adevărat, în cuvinte simple.',
+    ],
+    sections: [
+      {
+        title: 'Lungime și volum',
+        body: 'Plăcile mai lungi (11–12 ft) parcurg mai mult la fiecare lovitură de vâslă și își păstrează direcția mai bine — ideale pentru croaziere și pentru vâslit pe distanțe lungi. Plăcile mai scurte virează mai ușor. Pentru majoritatea utilizatorilor, o placă all-around de 10\'6"–11\'0" este alegerea optimă.',
+      },
+      {
+        title: 'Lățime și stabilitate',
+        body: 'Lățimea influențează stabilitatea mai mult decât orice alt factor. O platformă de 32 de inch este tolerantă pentru începători și suficient de stabilă pentru yoga; plăcile de 30 de inch se potrivesc utilizatorilor mai ușori sau mai expertenți care caută viteză și agilitate.',
+      },
+      {
+        title: 'Calitatea construcției',
+        body: 'Căutați un miez drop-stitch din PVC de grad militar, rezistent la cel puțin 15 PSI, laminare PVC în strat dublu și benzi de bordură întărite. Acestea determină cât de rigidă pare placa și cât rezistă la utilizare zilnică.',
+      },
+      {
+        title: 'Ce ar trebui să conțină cutia',
+        body: 'Un pachet complet economisește bani și efort: placă, vâslă reglabilă din 3 părți, pompă bidirecțională cu manometru, leash în spirală, aripioară, rucsac de transport și kit de reparații.',
+      },
+    ],
+    faqs: [
+      { q: 'De ce dimensiune de placă SUP am nevoie?', a: 'Majoritatea începătorilor aleg o placă all-around de aproximativ 11\'0" × 32" × 6" — stabilă, versatilă și ușor de transportat. Utilizatorii mai grei sau cei care vor să parcurgă distanțe mari ar trebui să aleagă o dimensiune mai mare.' },
+      { q: 'Un SUP umflabil este la fel de rigid ca o placă rigidă?', a: 'Un drop-stitch umflabil modern, umflat la 15–20 PSI, este apropiat ca rigiditate de o placă rigidă de nivel începător, cu avantajul că încape într-un rucsac.' },
+    ],
+    related: [
+      { label: 'Vizitați platformele noastre SUP', href: '/ro/products' },
+      { label: 'Umflabil sau placă rigidă', href: '/ro/inflatable-vs-hardboard' },
+      { label: 'Producție OEM', href: '/ro/oem-manufacturing' },
+    ],
+  },
+  {
+    slug: 'beginner-guide',
+    title: 'Ghid pentru începători la vâslit',
+    intro: [
+      'Tot ce aveți nevoie pentru primele sesiuni pe apă: umflarea, prima ridicare în picioare, trăsătura de bază a vâslei și cum să rămâneți în siguranță cât vă formați încredere.',
+    ],
+    sections: [
+      {
+        title: 'Umflați conform specificației, nu după senzații',
+        body: 'Umflați la presiunea nominală (de regulă 15 PSI) folosind manometrul pompei. O placă umflată la 10 PSI pare corespunzătoare pe iarbă, dar se îndoaie mult pe apă. Verificați presiunea în zilele calde — soarele încălzește aerul din interior și crește presiunea.',
+      },
+      {
+        title: 'Primii pași pe placă',
+        body: 'Porniți de pe o plajă sau dintr-un punct cu apă mică: îngenuncheați mai întâi, apoi ridicați-vă câte un picior pe rând, pe centrul plăcii. Păstrați picioarele la lățimea umerilor, genunchii flexați și priviți spre orizont — placa urmează direcția în care privești.',
+      },
+      {
+        title: 'Trăsătura de bază a vâslei',
+        body: 'Întindeți vâsla în față, ancorați complet paleta în apă și trageți lama de o parte a plăcii, rotind simultan trunchiul. Schimbați partea la fiecare câteva lovituri pentru a merge drept; pentru viraj, executați câteva lovituri succesive de aceeași parte.',
+      },
+      {
+        title: 'Practicați mai întâi căderea',
+        body: 'Căderea în apă face parte din învățare. Exersați remontarea în apă mică: înotați până la mânerul central, împingeți picioarele spre suprafață și trageți-vă pe placă într-o singură mișcare.',
+      },
+    ],
+    faqs: [
+      { q: 'Cât durează până învăț să vâslesc pe SUP?', a: 'Majoritatea persoanelor pot vâsli confortabil pe ape liniștite încă din prima ședință de o oră. Încrederea în viraje, în vânt și pe distanțe se construiește pe parcursul mai multor ședințe.' },
+      { q: 'Trebuie să fiu în formă?', a: 'Nu — SUP-ul este o activitate foarte accesibilă. Vâslind regulat, veți dobândi în mod natural echilibru, forță a corpului și rezistență.' },
+    ],
+  },
+  {
+    slug: 'inflatable-vs-hard',
+    title: 'Umflabil sau placă rigidă',
+    intro: [
+      'Cele două familii de construcție câștigă în scenarii diferite. Iată comparația onestă pentru utilizatorii de recreație, cluburile și operatorii de închiriere.',
+    ],
+    sections: [
+      {
+        title: 'Portabilitate și depozitare',
+        body: 'Plăcile umflabile se dezumflă și încap într-un rucsac, care încape în portbagajul unei mașini, într-o rulotă sau în dulapul unui apartament — și reprezintă alegerea implicită pentru călătorii. Plăcile rigide necesită suporturi de bagaje, spațiu de depozitare și o manipulare mai atentă.',
+      },
+      {
+        title: 'Rigiditate și performanță',
+        body: 'Plăcile rigide premium sunt mai rigide și mai receptive la niveluri de performanță ridicate. La vitezele de recreație, o placă umflabilă drop-stitch bine construită, umflată la 15–20 PSI, oferă o performanță comparabilă la o fracție din costul de depozitare.',
+      },
+      {
+        title: 'Durabilitate',
+        body: 'Plăcile umflabile din PVC rezistă la zgârieturi de la pontoane și la loviturile de mal care ar fisura un înveliș rigid — unul dintre motivele principale pentru care flotele de închiriere și resorturile aleg plăci umflabile pentru utilizarea zilnică de către oaspeți.',
+      },
+      {
+        title: 'Cost total de proprietate',
+        body: 'Plăcile umflabile costă mai puțin la transport, depozitare și întreținere și rezistă mai bine la o manipulare dură. Pentru majoritatea utilizatorilor și a flotelor, o placă umflabilă oferă cea mai bună valoare generală.',
+      },
+    ],
+    faqs: [
+      { q: 'Ce este mai bun pentru începători?', a: 'Plăcile umflabile — stabile, tolerante, ușor de depozitat și suficient de durabile pentru zgârieturile pe care le produc începătorii.' },
+      { q: 'Poate un SUP umflabil să fie la fel de rapid ca o placă rigidă?', a: 'La vitezele de recreație diferența este mică. Plăcile rigide câștigă clar doar în scenariile de competiție și de înaltă performanță.' },
+    ],
+  },
+  {
+    slug: 'safety-tips',
+    title: 'Recomandări de siguranță pe apă',
+    intro: [
+      'O ședință sigură este o ședință plăcută. Aceste noțiuni de bază se aplică la fel pe lacuri, râuri și în paddlingul de coastă.',
+    ],
+    sections: [
+      {
+        title: 'Verificați vântul și prognoza',
+        body: 'Vântul dinspre uscat este capcana clasică a SUP-ului: vă îndepărtează de țărm mai repede decât puteți vâsli înapoi. Verificați prognoza și, la îndoială, rămâneți în ape adăpostite.',
+      },
+      {
+        title: 'Purtați întotdeauna leash-ul',
+        body: 'Un leash în spirală ține placa la îndemână dacă cădeți — placa este chiar dispozitivul dumneavoastră de flotabilitate. Alegeți un leash potrivit condițiilor: în spirală pentru ape liniștite, drept pentru surf.',
+      },
+      {
+        title: 'Vesta de salvare și siguranța personală',
+        body: 'Purtați un mijloc de flotabilitate atunci când condițiile o impun sau când reglementările o cer. Aveți la îndemână un fluier, anunțați pe cineva traseul și ora de întoarcere și aveți în vedere un telefon într-un compartiment impermeabil.',
+      },
+      {
+        title: 'Cunoașteți-vă limitele',
+        body: 'Câștigați experiență pe ape liniștite înainte de a vă expune vântului sau curentului. Respectați apa rece — vă golește rapid de putere. Și nu vâsliți niciodată singuri în zone izolate sau în larg, fără un plan.',
+      },
+    ],
+    faqs: [
+      { q: 'Am nevoie de vestă de salvare pe un SUP?', a: 'Cerințele variază în funcție de țară și de cursul apei. Chiar și acolo unde este opțională, un leash și un mijloc de flotabilitate reprezintă baza responsabilă, iar copiii trebuie să poarte mereu o vestă de salvare corect dimensionată.' },
+      { q: 'Este sigur să vâslesc pe un lac?', a: 'Da — lacurile liniștite sunt ideale pentru învățare. Verificați direcția vântului, păstrați-vă vizibil pentru traficul de ambarcațiuni și evitați benzile de circulație aglomerate.' },
+    ],
+    related: [
+      { label: 'Echipament de siguranță pe platformele noastre', href: '/ro/products' },
+      { label: 'Controlul calității în fabrică', href: '/ro/quality' },
+      { label: 'Alegeți-vă prima placă', href: '/ro/guides/how-to-choose-your-sup' },
+    ],
+  },
+  {
+    slug: 'choosing-a-sup-oem-factory',
+    title: 'Cum să alegeți o fabrică OEM de SUP personalizate',
+    intro: [
+      'Achiziția de plăci SUP umflabile sub marca dumneavoastră se reduce la o singură decizie: cui îi încredințați primul lot. Iată cum evaluați un producător de SUP personalizate înainte de a trimite o PO.',
+    ],
+    sections: [
+      {
+        title: 'Începeți cu o comandă de probă, nu cu o discuție despre MOQ',
+        body: 'O fabrică care vorbește doar despre cantități minime este semn că este un birou de comerț, nu o uzină. Producătorii reali oferă minime pe niveluri — co-branding de la 5–10 bucăți, loturi pilot de la 20–50 bucăți, serii standard de la 90–100+ bucăți pe rolă de 150 m, iar proiectele cu matriță complet personalizată la nivelul de volum. Comandați mai întâi un lot mic: acesta verifică comunicarea, disciplina specificațiilor și calitatea mostrelor fără a vă pune în joc toată lansarea.',
+      },
+      {
+        title: 'Verificați ce se produce efectiv în fabrică',
+        body: 'Producția de SUP drop-stitch are patru etape de bază: laminarea materialelor, sudarea, imprimarea și asamblarea. O fabrică autentică le realizează pe toate sub același acoperiș și vă permite să vizitați sala de producție. Dacă reprezentantul de vânzări nu vă poate arăta o linie de producție, cel mai probabil cumpărați printr-un intermediar, fără niciun control asupra calității sau al termenelor.',
+      },
+      {
+        title: 'Mostrele trebuie să corespundă producției de serie',
+        body: 'O mostră finisată manual este ușoară; producția de serie constantă este grea. Întrebați cum controlează fabrica repetabilitatea: înregistrări de lot de material, parametri de sudare și o listă de control al calității aplicată fiecărei plăci, nu doar celei pe care o aprobați.',
+      },
+      {
+        title: 'Cunoașteți costurile înainte de PO',
+        body: 'Solicitați în scris imaginea completă a costurilor: preț unitar în funcție de cantitate, costuri de unelte sau de matriță dacă doriți o formă nouă, pregătirea graficii și a imprimării și ambalajul.',
+      },
+      {
+        title: 'Solicitați inspecție terță parte',
+        body: 'Fabricile OEM de SUP de reputație acceptă inspecțiile înainte de livrare — multe mărci rezervă o vizită de control al calității terț pentru fiecare container. Confirmați că fabrica poate organiza inspecții atât pentru mostre, cât și pentru serii și că unitățile respinse (de exemplu plăcile care pierd mai mult de 5% din presiune) sunt excluse din lot.',
+      },
+      {
+        title: 'Termene de livrare respectate',
+        body: 'Pentru SUP-urile umflabile, așteptați mostre în 7–12 zile și producție de serie în 25–35 de zile după confirmarea PO-ului și a avansului, plus timpul de execuție al matriței atunci când comandați o formă nouă. O fabrică care oferă termene semnificativ mai scurte decât restul pieței citește dintr-o broșură, nu dintr-un grafic de producție.',
+      },
+    ],
+    faqs: [
+      { q: 'Care este comanda minimă pentru plăci SUP personalizate?', a: 'Minimele pe niveluri sunt standard: 1–2 bucăți pentru mostre, 5–10 bucăți pentru co-branding, 20–50 bucăți pentru un lot pilot și 90–100+ bucăți pe rolă de 150 m pentru volumul standard; proiectele cu matriță complet personalizată se rulează la nivelul de volum.' },
+      { q: 'Pot vedea o mostră înainte de producția de serie?', a: 'Da — mostrele sunt gata în 7–12 zile. Majoritatea fabricilor scad costurile mostrelor și ale matriței din prima comandă de producție, după confirmarea acesteia.' },
+      { q: 'Cum verific dacă o fabrică de SUP este reală?', a: 'Solicitați un tur video live al halei de producție, verificați existența unei adrese de uzină în funcțiune la Qingdao sau într-un alt centru industrial și cereți documentația comenzilor anterioare de export. Comanda de probă rămâne dovada finală.' },
+      { q: 'Ce ar trebui să conțină oferta unei fabrici de SUP?', a: 'Prețul unitar pe placă, costurile de unelte sau de matriță, pregătirea graficii, ambalajul, condițiile de control al calității și de inspecție și condițiile de plată.' },
+    ],
+    related: [
+      { label: 'Producția noastră OEM / ODM', href: '/ro/oem-manufacturing' },
+      { label: 'Procesul de dezvoltare a produsului SUP', href: '/ro/product-development' },
+      { label: 'Capacitatea fabricii și unitatea de producție', href: '/ro/factory' },
+      { label: 'Cum controlăm calitatea — 7 etape de inspecție', href: '/ro/quality' },
+      { label: 'Ghid MOQ și branding flexibil (PDF)', href: '/ro/oem-moq-guide' },
+      { label: 'Verificați-ne: încredere și garanții de fabrică', href: '/ro/oem-trust-assurance' },
+      { label: 'Începeți un proiect SUP personalizat', href: '/ro/contact' },
+    ],
+  },
+  {
+    slug: 'private-label-sup-guide',
+    title: 'SUP cu marca proprie: ce primiți cu adevărat de la o fabrică',
+    intro: [
+      'Marca proprie este cel mai rapid mod de a lansa un brand de SUP: logo-ul dumneavoastră pe o platformă dovedită, fără costul și riscul proiectării unei plăci de la zero. Iată ce presupune în realitate lucrul cu un producător de SUP personalizate.',
+    ],
+    sections: [
+      {
+        title: 'Marca proprie înseamnă platforme dovedite',
+        body: 'Porniți de la platforme pe care fabrica le construiește și le testează deja — all-around, touring, yoga, race și altele. Fabrica personalizează brandingul, grafica și detaliile de finisare, ceea ce menține costurile mici și termenele scurte. Minimele sunt pe niveluri: co-branding de la 5–10 bucăți, loturi pilot de la 20–50 bucăți și 90–100+ bucăți pe rolă de 150 m pentru volumul standard de marcă proprie.',
+      },
+      {
+        title: 'Brandingul depășește logo-ul',
+        body: 'Marca proprie include tipărirea logo-ului (digitală sau serigrafică), scheme de culori proprii, tampoane de tracțiune EVA tăiate la forma plăcii, cu logo-ul dumneavoastră, brandingul accesoriilor (vâslă, pompă, leash), designul cutiei de retail și chiar rafturile de expunere din punctele de vânzare. Trimiteți fișierele grafice, iar fabrica produce o dovadă vizuală înainte de producție.',
+      },
+      {
+        title: 'Ce gestionează fabrica pentru dumneavoastră',
+        body: 'O fabrică de SUP cu servicii complete se ocupă de pregătirea graficii, de achiziția materialelor, de producerea mostrelor, de lista de control a calității de asamblare în 100 de puncte, de testul de presiune și de documentația de export (factură, listă de ambalare, certificat de origine). Dumneavoastră verificați mostrele și le aprobați — fabrica conduce tot restul.',
+      },
+      {
+        title: 'Ce dețineți: marca, piața, clientul',
+        body: 'Într-un acord de marcă proprie, fabrica construiește plăcile, iar marca vă aparține. Producătorii serioși nu își vând propriile plăci cu amănuntul pe piața dumneavoastră și nu vând altora designul personalizat făcut pentru voi. Cereți în ofertă o clauză de exclusivitate teritorială.',
+      },
+      {
+        title: 'Costuri: mostră, matriță, pregătirea graficii',
+        body: 'Așteptați trei tipuri de costuri: taxa pentru mostre (7–12 zile până la producere), costurile matriței atunci când este necesară o formă nouă (minim la nivelul de volum) și pregătirea graficii pentru imprimare. Majoritatea fabricilor scad costurile mostrelor și ale matriței din prima comandă de producție.',
+      },
+      {
+        title: 'De la PO la lotul finalizat',
+        body: 'O serie tipică de marcă proprie: un avans de 30% declanșează producția, seria se finalizează în 25–35 de zile după confirmarea PO-ului și a avansului, iar soldul se reglează la acceptarea lotului aprobat. Bugetați întreaga serie în prima comandă.',
+      },
+    ],
+    faqs: [
+      { q: 'Care este comanda minimă pentru plăci SUP cu marcă proprie?', a: 'Co-branding de la 5–10 bucăți, loturi pilot de la 20–50 bucăți și volum standard de marcă proprie de la 90–100+ bucăți pe rolă de 150 m; proiectele cu matriță complet personalizată se rulează la nivelul de volum.' },
+      { q: 'Pot trimite propriul logo și propria grafică?', a: 'Da — trimiteți logo-ul și fișierele grafice; fabrica produce o dovadă vizuală înainte de producție, astfel încât să aprobați culorile, poziționarea și finisajele.' },
+      { q: 'Designul meu personalizat de SUP este exclusiv pentru marca mea?', a: 'Da, în condițiile standard de marcă proprie. Cereți o clauză de exclusivitate în contractul de achiziție; fabricile precum a noastră nu revând designul cu marca dumneavoastră.' },
+      { q: 'Cât durează o comandă de SUP cu marcă proprie?', a: 'Mostrele se expediază în 7–12 zile; producția de serie se finalizează în 25–35 de zile după confirmarea PO-ului și a avansului. Bugetați 8–12 săptămâni pentru prima serie completă.' },
+    ],
+    related: [
+      { label: 'Soluții SUP cu marcă proprie', href: '/ro/solutions/private-label-sup' },
+      { label: 'Vizitați platformele dovedite', href: '/ro/products/all-around' },
+      { label: 'Producție OEM / ODM', href: '/ro/oem-manufacturing' },
+      { label: 'Începeți un proiect SUP personalizat', href: '/ro/contact' },
+    ],
+  },
+  {
+    slug: 'sup-fleet-guide',
+    title: 'Achiziția flotelor de SUP pentru închirieri, resorturi și cluburi',
+    intro: [
+      'Cumpărătorii de flote au nevoie de alte răspunsuri decât utilizatorii finali: durabilitatea la o ședință, piesele de rezervă standardizate, cantitățile la nivel de volum și un furnizor care livrează sezon după sezon. Iată ce trebuie să planificați înainte de a comanda prima flotă.',
+    ],
+    sections: [
+      {
+        title: 'Standardizați pe una sau două specificații',
+        body: 'Operațiunile de flotă se bazează pe standardizare: o singură dimensiune de placă (de regulă 10\'6"–11\'0" × 32") pentru majoritatea oaspeților, un singur pachet rezistent la uzură și un singur kit de rezervă. Astfel se simplifică reparațiile, trainingul personalului, depozitarea și re-comandarea. Rezistați tentației de a cumpăra zece modele diferite.',
+      },
+      {
+        title: 'Plăcile pentru utilizare intensă sunt un alt produs',
+        body: 'O placă de închiriere rezistă la zeci de ședințe pe sezon. Specificați straturi PVC mai groase, benzi de bordură întărite și accesorii mai rezistente decât la plăcile de retail. Întrebați fabrica cum diferă specificația de flotă față de versiunea de consum — uzinele reale au ambele variante.',
+      },
+      {
+        title: 'Dimensionați cantitățile în funcție de cerere',
+        body: 'Calculați dimensiunea flotei raportat la rotația zilnică și la durata sezonului: 20–30 de plăci deservesc un punct mic de închiriere, iar 100+ un resort sau un club aglomerat. Cereți fabricii o recomandare de cantitate potrivită tipului dumneavoastră de cerere.',
+      },
+      {
+        title: 'Comandați piesele de rezervă împreună cu flota',
+        body: 'Includeți supape de rezervă, kituri de reparații, pompe, leash-uri și vâsle în aceeași PO — acum costă puțin pe bucată, iar la mijlocul sezonului sunt greu de procurat. Cereți fabricii raportul recomandat de rezervă (de regulă 5–10% din dimensiunea flotei pentru consumabile).',
+      },
+      {
+        title: 'Comandați înainte de sezon, nu în timpul lui',
+        body: 'Producția durează 25–35 de zile după confirmarea PO-ului și a avansului. Pentru a avea plăcile pe plajă până în primăvară, confirmați comenzile la sfârșitul toamnei, astfel încât producția să se încheie înainte de începerea sezonului.',
+      },
+      {
+        title: 'Branded flotă pentru valoare de revânzare',
+        body: 'Plăcile de flotă pot purta logo-ul dumneavoastră, un sistem de numerotare pentru închirieri și o codificare cromatică după dimensiune. Logo-urile serigrafice sunt rentabile la serii de 200+ bucăți, iar o flotă cu marcă face, în același timp, și rol de marketing pe apă.',
+      },
+    ],
+    faqs: [
+      { q: 'Care este cel mai bun SUP pentru o flotă de închiriere?', a: 'O placă all-around de 10\'6"–11\'0" × 32", cu construcție întărită, este standardul industriei — stabilă pentru începători, rezistentă la utilizare zilnică și ușor de întreținut.' },
+      { q: 'Câte plăci are nevoie de o operațiune de închiriere?', a: 'Planificați 20–30 de plăci pentru un punct mic de închiriere și scalați în funcție de rotație: 100+ bucăți pentru resorturi și cluburi aglomerate. Piesele de rezervă ar trebui să reprezinte 5–10% din dimensiunea flotei.' },
+      { q: 'Pot fi marcată plăcile de flotă cu logo-ul nostru?', a: 'Da — logo-urile serigrafice, numerotarea pentru închirieri și deck-urile cu cod cromatic sunt personalizări standard, deosebit de rentabile începând de la 200 de bucăți.' },
+      { q: 'Cât durează o comandă de flotă?', a: 'Mostre în 7–12 zile și producție în 25–35 de zile după confirmarea PO-ului și a avansului — așadar, plasați comenzile de flotă cu mult înainte de începerea sezonului.' },
+    ],
+    related: [
+      { label: 'Soluții pentru resorturi și cluburi', href: '/ro/solutions/resort-sup' },
+      { label: 'Studiu de caz: flotă de închiriere multi-site', href: '/ro/projects/rental-fleet-multi-site' },
+      { label: 'Platforme pentru flote', href: '/ro/products/all-around' },
+      { label: 'Vorbiți cu un specialist de proiect', href: '/ro/contact' },
+    ],
+  },
+]
+
+const GUIDES_BY_LOCALE: Record<string, Guide[]> = { en: GUIDES, es: GUIDES_ES, fr: GUIDES_FR, de: GUIDES_DE, it: GUIDES_IT, pt: GUIDES_PT, nl: GUIDES_NL, sv: GUIDES_SV, no: GUIDES_NO, pl: GUIDES_PL, da: GUIDES_DA, fi: GUIDES_FI, ru: GUIDES_RU, cs: GUIDES_CS, tr: GUIDES_TR, ro: GUIDES_RO }
 
 export function localizedGuides(locale: string): Guide[] {
   return GUIDES_BY_LOCALE[locale] ?? GUIDES
@@ -4660,6 +4928,50 @@ export const GUIDE_CARDS: Record<string, GuideCard[]> = {
       title: 'SUP Filosu Satın Alma',
       intro:
         'Kiralama, resort ve kulüpler için filo planlaması: dayanıklı şartname, konteyner başına miktarlar, yedek parçalar ve sezonluluk.',
+    },
+  ],
+  ro: [
+    {
+      slug: 'how-to-choose-your-sup',
+      title: 'Cum să vă alegeți SUP-ul',
+      intro:
+        'Alegerea primului SUP umflabil ține de dimensiunea plăcii, lățime, construcție și de conținutul cutiei. Iată ce contează cu adevărat, în cuvinte simple.',
+    },
+    {
+      slug: 'beginner-guide',
+      title: 'Ghid pentru începători la vâslit',
+      intro:
+        'Tot ce aveți nevoie pentru primele sesiuni pe apă: umflarea, prima ridicare în picioare, trăsătura de bază a vâslei și cum să vă păstrați în siguranță.',
+    },
+    {
+      slug: 'inflatable-vs-hard',
+      title: 'Umflabil sau placă rigidă',
+      intro:
+        'Cele două familii de construcție câștigă în scenarii diferite. Iată comparația onestă pentru utilizatorii de recreație, cluburi și operatori de închiriere.',
+    },
+    {
+      slug: 'safety-tips',
+      title: 'Recomandări de siguranță pe apă',
+      intro:
+        'O ședință sigură este o ședință plăcută. Aceste noțiuni de bază se aplică la fel pe lacuri, râuri și în paddlingul de coastă.',
+    },
+    {
+      slug: 'choosing-a-sup-oem-factory',
+      title: 'Cum să alegeți o fabrică OEM de SUP personalizate',
+      intro:
+        'Cum evaluați un producător de SUP personalizate înainte de a trimite o PO: comandă de probă, producție internă, mostre, costuri și inspecție.',
+    },
+    {
+      slug: 'private-label-sup-guide',
+      title: 'SUP cu marca proprie',
+      intro:
+        'Ce include cu adevărat un acord de marcă proprie: platforme dovedite, branding complet, costuri, exclusivitate și termene de livrare.',
+    },
+    {
+      slug: 'sup-fleet-guide',
+      title: 'Achiziția flotelor de SUP',
+      intro:
+        'Planificarea flotelor pentru închirieri, resorturi și cluburi: specificație rezistentă, cantități pe container, piese de rezervă și sezonalitate.',
     },
   ],
 }

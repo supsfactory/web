@@ -1,0 +1,103 @@
+meta:
+  title: 'Ghidul cumpărătorului OEM: aprovizionarea cu plăci SUP din Asia | iSupfactory'
+  description: 'Aprovizionarea cu plăci SUP gonflabile din Asia: checklist de audit al fabricii, protocoale de control al calității, conformitate, negocierea MOQ, condiții de transport și capcane de evitat.'
+  author: 'iSupfactory'
+  datePublished: '2026-08-04'
+  dateModified: '2026-08-07'
+back_text: 'Înapoi la cercetare'
+
+hero:
+  tagline: 'Aprovizionare'
+  title: 'Ghidul cumpărătorului OEM — aprovizionarea cu plăci SUP gonflabile din Asia'
+  subtitle: '12 min de citire'
+
+answer:
+  label: 'Răspuns direct'
+  text: 'Cantitatea minimă de comandă este confirmată în funcție de configurația proiectului, nu printr-un număr fix: dezvoltarea mostrelor (1–2 bucăți) validează construcția, comenzile pilot (20–50 bucăți) testează piața pe platforme existente, producția standard de volum rulează 90–100+ bucăți pe lot dintr-o rolă completă de drop-stitch de 150 m, iar co-brandingul în serii mici începe de la 5–10 bucăți. Mostrele se expediază în 7–12 zile; producția de volum durează 25–35 de zile după confirmarea comenzii și a avansului, plus 15–20 de zile atunci când este necesară o matriță nouă.'
+  verified: 'Septembrie 2026'
+
+content_html: |
+  <h2>1. Precalificare: ce trebuie să verificați într-o fabrică</h2>
+
+  <h3>Certificate de conformitate</h3>
+  <ul>
+    <li><strong>ISO 9001:2015</strong> – Sistem de management al calității</li>
+    <li><strong>Certificare CE</strong> – Verificați numărul organismului notificat</li>
+    <li><strong>BSCI / SMETA / SEDEX</strong> – Audituri de conformitate socială</li>
+    <li><strong>REACH / RoHS</strong> – Declarații de conformitate a materialelor</li>
+  </ul>
+
+  <h3>Capabilități de producție</h3>
+  <ul>
+    <li>Țesutul miezului drop-stitch realizat intern sau externalizat</li>
+    <li>Linie de acoperire / laminare PVC</li>
+    <li>Echipament de sudare RF și de sudare cu aer cald</li>
+    <li>Confecționarea matrițelor în fabrică (prelucrare CNC)</li>
+    <li>Laborator de încercări (test de presiune, îmbătrânire UV, încercare la tracțiune)</li>
+  </ul>
+
+  <h3>Verificarea experienței</h3>
+  <ul>
+    <li>Ani de activitate în producția de ambarcațiuni gonflabile (minimum 5 ani)</li>
+    <li>Numărul de ingineri din personal</li>
+    <li>Clienți OEM/ODM existenți (solicitați referințe)</li>
+    <li>Destinații de export – livrați deja către piața țintă a dumneavoastră?</li>
+  </ul>
+
+  <h2>2. Protocoalele de control al calității</h2>
+  <p>Controlul calității la recepția materialelor: rezistența la tracțiune (ASTM D751 sau ISO 1421), rezistența la sfâșiere (ASTM D2261 sau ISO 4674), rezistența la adeziune, verificări punctuale ale îmbătrânirii UV.</p>
+  <p>Controlul calității în cursul procesului: monitorizarea rezistenței cusăturilor la fiecare 50 de bucăți, verificarea cuplului de strângere al supapelor, verificarea densității firelor drop-stitch, verificări dimensionale față de desenele CAD.</p>
+  <p>Inspecția finală: test de menținere la presiune 100% (24 de ore, cădere maximă 0.50 PSI), inspecție vizuală, test de funcționare a supapelor, testare pe eșantioane aleatoare (AQL 2.5 sau 4.0 conform ISO 2859).</p>
+
+  <h2>3. Checklist de documentație de conformitate</h2>
+  <ul>
+    <li>Declarație de conformitate (DoC) care face trimitere la directiva UE corectă</li>
+    <li>Certificat CE eliberat de organismul notificat</li>
+    <li>Raport de încercări dintr-un laborator acreditat</li>
+    <li>Fișe cu date de securitate a materialelor (MSDS)</li>
+    <li>Declarație de conformitate REACH</li>
+    <li>Listă de materiale (Bill of Materials) cu trasabilitatea furnizorilor</li>
+    <li>Raport de inspecție a fabricii</li>
+  </ul>
+
+  <h2>4. Negocierea MOQ</h2>
+  <p>MOQ-urile pentru plăci SUP gonflabile sunt stabilite de traseul de producție și de configurația proiectului, nu de presupuneri. Toate proiectele OEM/ODM Vatrad parcurg trei etape distincte de cantitate — mostră, pilot și volum — iar logica de calcul completă este explicată în <a href="/ro/oem-moq-guide">Ghidul MOQ și branding flexibil</a>:</p>
+  <table class="w-full text-sm border-collapse">
+    <thead>
+      <tr class="bg-gray-100">
+        <th class="p-3 text-left font-semibold text-gray-900 border">Traseu de producție</th>
+        <th class="p-3 text-left font-semibold text-gray-900 border">MOQ</th>
+        <th class="p-3 text-left font-semibold text-gray-900 border">Termen</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td class="p-3 border font-medium">Dezvoltarea mostrei (pe design)</td><td class="p-3 border">1 – 2 bucăți</td><td class="p-3 border">Mostre în 7 – 12 zile</td></tr>
+      <tr><td class="p-3 border font-medium">Comandă pilot (platforme existente)</td><td class="p-3 border">20 – 50 bucăți</td><td class="p-3 border">Validarea pieței cu materiale din stoc</td></tr>
+      <tr><td class="p-3 border font-medium">Lot standard de volum (pe design)</td><td class="p-3 border">90 – 100+ bucăți</td><td class="p-3 border">25 – 35 de zile după PO și avans</td></tr>
+      <tr><td class="p-3 border font-medium">Matriță complet personalizată / private label</td><td class="p-3 border">Confirmat în funcție de configurația proiectului</td><td class="p-3 border">Adaugă 15 – 20 de zile pentru matriță</td></tr>
+    </tbody>
+  </table>
+  <p>Cantitățile pentru mostră, pilot și volum sunt diferite: dezvoltarea mostrei (1–2 bucăți) validează construcția, comenzile pilot (20–50 bucăți) testează piața pe platforme existente, iar producția standard de volum rulează 90–100+ bucăți pe lot dintr-o rolă completă de drop-stitch de 150 m — cu niveluri de preț de volum pe măsură ce cantitatea comandată crește. Obțineți în scris calculul MOQ, termenul de livrare și condițiile de plată pentru modelul dumneavoastră de placă înainte de a vă angaja un furnizor.</p>
+
+  <h2>5. Logistică și transport</h2>
+  <p>Incoterms uzuale: <strong>FOB</strong> (fabrica livrează în portul de plecare – cel mai frecvent), <strong>EXW</strong> (cumpărătorul organizează întregul transport de la poarta fabricii), <strong>CIF</strong> (fabrica plătește transportul și asigurările până la portul de destinație).</p>
+  <p>Produsele gonflabile au greutate redusă și volum mare – greutatea volumetrică (DIM) determină adesea costul transportului. Solicitați ambalare în vid pentru a reduce volumul cu 50–60%. Transportul maritim din China către UE durează de regulă 25–35 de zile, iar către coasta de vest a SUA 7–12 zile — la care se adaugă termenul de producție de 25–35 de zile.</p>
+
+  <h2>6. Capcane uzuale</h2>
+  <ul>
+    <li><strong>Fără audit al fabricii:</strong> realizați sau angajați întotdeauna un audit independent (QIMA, SGS, Bureau Veritas)</li>
+    <li><strong>Doar specificații verbale:</strong> fișă de specificații tehnice detaliată, semnată de ambele părți</li>
+    <li><strong>Omiterea aprobării mostrei:</strong> semnare scrisă pe mostre înainte de producția de volum</li>
+    <li><strong>Fără control al calității în timpul producției:</strong> inspecție independentă în timpul producției (DUPRO) și înainte de expediție (PSI)</li>
+    <li><strong>Ignorarea conformității:</strong> verificați marcajul CE (Directiva 2013/53/UE) și documentația specifică pieței înainte de producție</li>
+  </ul>
+
+  <h2>7. De ce Vatrad</h2>
+  <p>Vatrad produce plăci SUP gonflabile OEM/ODM din 2012. Cu o facilitate de 12,500 m&sup2; certificată ISO 9001, 25+ ingineri și certificare CE pentru modelele destinate piețelor UE (domeniul confirmat proiect cu proiect), îndeplinim fiecare criteriu din acest ghid. Oferim MOQ-uri de probă pentru parteneri noi și pachete complete de documentație de conformitate.</p>
+  <p>Consultați <a href="/ro/oem-manufacturing">serviciile noastre de producție OEM/ODM de plăci SUP gonflabile</a> sau vizitați <a href="/ro/factory">sala de producție de 12,500 m&sup2;</a> pentru a vedea echipamentul și procesele de control al calității din spatele fiecărui pas descris mai sus.</p>
+
+cta:
+  title: 'Sunteți pregătit să începeți aprovizionarea?'
+  subtitle: 'Contactați echipa noastră OEM pentru a discuta cerințele proiectului dumneavoastră.'
+  button_text: 'Solicitați o ofertă'
+  button_link: /ro/contact

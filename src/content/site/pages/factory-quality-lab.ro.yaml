@@ -1,0 +1,129 @@
+meta:
+  title: 'Laboratorul de calitate — Testare și asigurarea calității | {SITE}'
+  description: 'Laborator independent de calitate cu procese ISO 9001 la VATRAD: fiecare unitate este testată înainte de expediție, pentru a garanta calitatea plăcilor SUP gonflabile.'
+  dateModified: '2026-08-07'
+  keywords:
+    - 'controlul calității sup'
+    - 'laborator de testare plăci de paddle'
+    - 'fabrică sup iso 9001'
+    - 'calitatea sup gonflabile'
+hero:
+  tagline: Laborator de control al calității
+  title: Laborator de testare și asigurarea calității
+  subtitle: Laborator independent de calitate, cu procese ISO 9001 — fiecare unitate testată înainte de expediție
+
+answer:
+  label: 'Răspuns direct'
+  text: '100% dintre unități sunt testate la presiune la 18.0 PSI timp de 24 de ore, cu respingere automată la o scădere de presiune de peste 0.50 PSI. Loturile de țesătură brută sunt verificate conform ASTM D751 și ISO 4674, iar încercările de decojire a cusăturilor se desfășoară la fiecare 50 de unități, cu prelevare finală AQL 2.5 conform ISO 2859.'
+  verified: 'Septembrie 2026'
+
+intro: VATRAD operează un laborator dedicat de control al calității, care funcționează independent de producție. Fiecare lot de materii prime și fiecare placă SUP finalizată parcurge protocoale de inspecție documentate înainte de eliberare. Echipa noastră de control al calității raportează direct către conducere, ceea ce asigură decizii calitative impartiale.
+
+highlights:
+  - value: 100%
+    label: Unități testate la presiune
+    detail: Fiecare cameră, fiecare placă
+  - value: 24 h
+    label: Durata testului de etanșeitate la aer
+    detail: La presiunea nominală de 18.0 PSI
+  - value: '&lt;5%'
+    label: Scădere maximă de presiune admisă
+    detail: Pe perioada de menținere de 24 de ore
+  - value: AQL 2.5
+    label: Prag pentru defecte grave
+    detail: Conform prelevării ISO 2859
+
+test_procedures:
+  - title: Inspecția materiilor prime
+    description: Fiecare lot primit de PVC, Hypalon, țesătură drop-stitch și componente hardware este testat înainte de acceptare. Se verifică rezistența la tracțiune (ASTM D751), rezistența la sfâșiere (ISO 4674) și rezistența la radiații UV. Materialele neconforme sunt puse în carantină și returnate.
+    standards:
+      - ASTM D751 (tracțiune)
+      - ISO 4674 (sfâșiere)
+      - ISO 4892 (UV)
+  - title: Puncte de control al calității în curs de proces
+    description: Operatorii de producție efectuează autoinspecții la fiecare etapă. Auditorii de control al calității realizează prelevări aleatorii pe tot parcursul turei. Încercările de decojire a cusăturilor se efectuează la fiecare 50 de unități. Verificările dimensionale se fac la fiecare al 20-lea panou.
+    standards:
+      - ASTM D751 (decojire)
+      - Listă internă de verificare cu 100 de puncte
+      - Prelevare ISO 2859
+  - title: Test de etanșeitate la aer pe 48 de ore
+    description: Fiecare cameră de tub este umflată la 18.0 PSI și menținută timp de 24 de ore. Senzorii de presiune înregistrează continuu, cu compensare termică. Orice cameră care depășește o scădere de 0.50 PSI declanșează reinspecția automată a lotului.
+    standards:
+      - ISO 6185
+      - CE 2013/53/EU
+  - title: Testare de încărcare și echilibru
+    description: Plăcile finalizate sunt testate la capacitatea nominală maximă, din punct de vedere al stabilității, albordului liber și al manevrabilității. Fiecare placă este supusă unui test în apă înainte de aprobarea inspecției finale.
+    standards:
+      - ISO 12217
+      - CE 2013/53/EU
+
+equipment:
+  - name: Mașină universală de încercare (tracțiune)
+    spec: 5 kN, conform ASTM D751
+  - name: Tester de scădere a presiunii
+    spec: Multicanal, 0–50 psi, cu înregistrare de date
+  - name: Cameră de îmbătrânire UV
+    spec: ISO 4892, 1,000 cicluri
+  - name: Cronometru de grosime (digital)
+    spec: Rezoluție de 0,01 mm
+  - name: Aparat de încercare la decojire (sudură)
+    spec: Motorizat, capacitate de 50 N
+  - name: Cameră de temperatură
+    spec: de la -40 °C la +100 °C
+  - name: Bazin de detecție a scurgerilor
+    spec: 6 m × 2 m, iluminat
+
+lab_evidence:
+  tagline: Dosare de rapoarte de încercare
+  title: 'Descărcați rapoartele reale de încercare din laborator'
+  subtitle: 'Aceleași înregistrări bilingve controlate pe care echipa noastră de calitate le închide — structură, metode, criterii și rezultate, cu câmpurile confidențiale eliminate. Fiecare dosar corespunde unuia dintre cele șapte puncte de control al inspecției.'
+  items:
+    - title: 'IQC — Rapoarte privind materialele la intrare'
+      description: 'Verificarea țesăturii, a rolei de PVC, a supapelor și a componentelor față de specificațiile aprobate.'
+      icon: tabler:file-certificate
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_IQC_TEST_REPORTS.pdf
+      link_label: 'Descărcați rapoartele IQC (PDF)'
+    - title: 'IPQC — Rapoarte privind procesul și primul articol'
+      description: 'Înregistrări privind primul articol și inspecția în curs de proces, față de revizia blocată.'
+      icon: tabler:file-check
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_IPQC_TEST_REPORTS.pdf
+      link_label: 'Descărcați rapoartele IPQC (PDF)'
+    - title: 'Etanșeitate la aer — înregistrări de presiune și scurgeri'
+      description: 'Detecția scurgerilor la cusături pentru 100% dintre plăci, integritatea supapelor și verificarea menținerii presiunii pe 24 de ore.'
+      icon: tabler:waves
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_AIRTIGHTNESS_TEST_REPORTS.pdf
+      link_label: 'Descărcați rapoartele de etanșeitate (PDF)'
+    - title: 'FQC — Rapoarte de încercare ale plăcilor finale'
+      description: 'Inspecția finală față de mostra aprobată — dimensiuni, aspect estetic și cutia pentru aripioare.'
+      icon: tabler:shield-check
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_FQC_TEST_REPORTS.pdf
+      link_label: 'Descărcați rapoartele FQC (PDF)'
+    - title: 'PSI — Rapoarte privind ambalarea și inspecția înainte de expediție'
+      description: 'Completitudinea kitului, gradul codurilor de barej, marcajele pe cutii și înregistrările de rezistență la cădere.'
+      icon: tabler:package
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_PSI_TEST_REPORTS.pdf
+      link_label: 'Descărcați rapoartele PSI (PDF)'
+    - title: 'Dosar de eliberare a expediției și trasabilitate'
+      description: 'Autorizația de eliberare și trasabilitatea lotului, asociate specificațiilor, graficii și listei de materiale.'
+      icon: tabler:history
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_SHIPMENT_RELEASE_REPORTS.pdf
+      link_label: 'Descărcați rapoartele de eliberare (PDF)'
+    - title: 'Dosarul complet de calitate'
+      description: 'Un singur pachet care acoperă întregul sistem de documentație — QIP, înregistrările pe puncte de control, trasabilitatea și controlul neconformităților.'
+      icon: tabler:books
+      link: https://assets.isupfactory.com/site/downloads/QINGDAO_VATRAD_GROUP_COMPLETE_SUP_QUALITY_DOSSIER.pdf
+      link_label: 'Descărcați pachetul de documentație (PDF)'
+
+cta:
+  title: 'Auditați laboratorul din spatele comenzii dumneavoastră'
+  subtitle: 'Laboratorul funcționează independent de producție și raportează direct către conducere. Analizați rapoartele de încercare, vizitați standardele de inspecție sau solicitați o prezentare live a laboratorului în cadrul planificării producției.'
+  actions:
+    - variant: primary
+      text: 'Solicitați o analiză a calității proiectului'
+      href: /ro/contact#quality-inquiry
+    - text: 'Sistemul de inspecție în 7 etape'
+      href: /ro/quality
+    - text: 'Standarde de inspecție și descărcări ale SGM'
+      href: /ro/factory/quality-inspection
+    - text: 'Vizitați laboratorul de testare a materialelor R&D'
+      href: /ro/randdcenter/quality-inspection-lab

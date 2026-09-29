@@ -1,7 +1,7 @@
 import { test, expect } from 'vitest'
-import { llmsFull, llmBrandIndex, llmFrenchIndex, llmsFrenchFull, llmGermanIndex, llmsGermanFull, llmItalianIndex, llmsItalianFull, llmPortugueseIndex, llmsPortugueseFull, llmDutchIndex, llmsDutchFull, llmSwedishIndex, llmsSwedishFull, llmNorwegianIndex, llmsNorwegianFull, llmPolishIndex, llmsPolishFull, llmDanishIndex, llmsDanishFull, llmFinnishIndex, llmsFinnishFull, llmRussianIndex, llmsRussianFull, llmCzechIndex, llmsCzechFull, llmTurkishIndex, llmsTurkishFull } from '@/features/site/llm'
+import { llmsFull, llmBrandIndex, llmFrenchIndex, llmsFrenchFull, llmGermanIndex, llmsGermanFull, llmItalianIndex, llmsItalianFull, llmPortugueseIndex, llmsPortugueseFull, llmDutchIndex, llmsDutchFull, llmSwedishIndex, llmsSwedishFull, llmNorwegianIndex, llmsNorwegianFull, llmPolishIndex, llmsPolishFull, llmDanishIndex, llmsDanishFull, llmFinnishIndex, llmsFinnishFull, llmRussianIndex, llmsRussianFull, llmCzechIndex, llmsCzechFull, llmTurkishIndex, llmsTurkishFull, llmRomanianIndex, llmsRomanianFull } from '@/features/site/llm'
 import { getContentPages } from '@/features/content/loader'
-import { GUIDES_FR, GUIDES_DE, GUIDES_IT, GUIDES_PT, GUIDES_NL, GUIDES_SV, GUIDES_NO, GUIDES_PL, GUIDES_DA, GUIDES_FI, GUIDES_RU, GUIDES_CS, GUIDES_TR } from '@/features/content/guide-content'
+import { GUIDES_FR, GUIDES_DE, GUIDES_IT, GUIDES_PT, GUIDES_NL, GUIDES_SV, GUIDES_NO, GUIDES_PL, GUIDES_DA, GUIDES_FI, GUIDES_RU, GUIDES_CS, GUIDES_TR, GUIDES_RO } from '@/features/content/guide-content'
 import { EDGE_REDIRECTS } from '@/features/seo/edge-gate'
 import { LEGACY_REDIRECTS } from '@/features/seo/legacy-redirects'
 
@@ -395,5 +395,34 @@ test('llms-full.txt Turkish section: product/news/tech/case/guide bodies present
   expect(tr).toContain('# Rehber:')
   for (const g of GUIDES_TR) {
     expect(tr, `llms-full.txt Turkish section missing guide ${g.slug}`).toContain(`# Rehber: ${g.title}`)
+  }
+})
+
+test('llms.txt Romanian section: /ro absolute links, Romanian homepage note and guides', () => {
+  const section = llmRomanianIndex('https://isupfactory.com')
+  expect(section).toContain('## Română')
+  expect(section).toContain('— Pagina principală')
+  expect(section).toContain('### Română: Produse')
+  expect(section).toContain('### Română: Tehnologie')
+  expect(section).toContain('### Română: Studii de caz')
+  expect(section).toContain('### Română: Ghiduri')
+  expect(section).toContain('### Română: Știri')
+  expect(section).toContain('### Română: Întrebări frecvente')
+  expect(section).toContain('https://isupfactory.com/ro/')
+  for (const g of GUIDES_RO) {
+    expect(section, `llms.txt Romanian section missing guide ${g.slug}`).toContain(`https://isupfactory.com/ro/guides/${g.slug}`)
+  }
+})
+
+test('llms-full.txt Romanian section: product/news/tech/case/guide bodies present', () => {
+  const ro = llmsRomanianFull()
+  expect(ro).toContain('# Română')
+  expect(ro).toContain('## Produs:')
+  expect(ro).toContain('## Știre:')
+  expect(ro).toContain('## Tehnologie:')
+  expect(ro).toContain('## Studiu de caz:')
+  expect(ro).toContain('# Ghid:')
+  for (const g of GUIDES_RO) {
+    expect(ro, `llms-full.txt Romanian section missing guide ${g.slug}`).toContain(`# Ghid: ${g.title}`)
   }
 })

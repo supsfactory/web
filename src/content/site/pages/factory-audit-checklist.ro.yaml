@@ -1,0 +1,105 @@
+meta:
+  title: 'Listă de verificare pentru auditul fabricii — ce trebuie verificat înainte de alegerea unui producător de SUP | iSupfactory'
+  description: 'Listă de verificare pentru auditul fabricii, destinată cumpărătorilor de SUP gonflabile: sistem de calitate, capacitate, trasabilitatea materialelor, încercări la presiune, conformitate socială și documentație.'
+  dateModified: '2026-08-21'
+  keywords:
+    - 'listă de verificare audit fabrică SUP'
+    - 'audit producător plăci gonflabile'
+    - 'verificarea fabricii SUP'
+    - 'inspecție fabrică OEM'
+    - 'audit de calitate SUP'
+    - 'diligență producător SUP'
+    - 'audit producție SUP gonflabile'
+
+hero:
+  tagline: 'Diligență'
+  title: 'Listă de verificare pentru auditul fabricii'
+  subtitle: 'Înainte de a vă angaja față de un producător de SUP, verificați elementele fundamentale. Această listă acoperă cele opt domenii pe care un cumpărător profesionist trebuie să le auditeze — de la managementul calității și capacitatea de producție până la trasabilitatea materialelor și conformitatea socială. Fiecare element din această listă poate fi demonstrat de noi cu înregistrări, nu doar cu declarații.'
+
+answer:
+  label: 'Răspuns rapid'
+  text: 'Cele opt domenii de audit care contează cel mai mult: (1) Sistemul de management al calității — certificarea ISO 9001 și înregistrările reale de inspecție punct cu punct, nu doar un certificat afișat pe perete. (2) Capacitatea de producție — cifre reale de rezultat, nu cifrele nominale. (3) Trasabilitatea materialelor — inspecția materialelor la intrare și rapoartele de încercare la nivel de lot. (4) Încercările la presiune și structurale — protocoale documentate de menținere a presiunii. (5) Controlul sudării și asamblării — parametrii sudării RF și inspecția cusăturilor. (6) Conformitatea socială — audit BSCI sau echivalent. (7) Documentația și trasabilitatea — înregistrări de lot, jurnale de inspecție, certificate de conformitate. (8) Suportul post-livrare — procesul de garanție, piesele de rezervă, promptitudinea comunicării.'
+  verified: 'Septembrie 2026'
+
+audit_areas:
+  tagline: Opt domenii de audit
+  title: 'Ce trebuie verificat — cele opt domenii de audit'
+  subtitle: 'Fiecare domeniu include întrebările de adresat, înregistrările de solicitat și indicatorii de alarmă de urmărit.'
+  grid: 'sm:grid-cols-2 lg:grid-cols-4'
+  features:
+    - icon: Q
+      icon_bg: blue
+      title: '1. Sistem de management al calității'
+      desc: 'Solicitați: certificatul ISO 9001 (organism acreditat, în termen de valabilitate), programul de audituri interne, registrul CAPA (acțiuni corective și preventive), procedurile de inspecție la punctele de control. Indicator de alarmă: doar certificatul, fără înregistrări de inspecție pe nivel de punct de control sau proces CAPA.'
+    - icon: C
+      icon_bg: green
+      title: '2. Capacitate de producție'
+      desc: 'Solicitați: cifrele lunare de rezultat pe tip de produs, programul de producție care arată gradul actual de utilizare, capacitatea de scule (numărul de matrițe, mașini CNC, aparate de sudare RF). Indicator de alarmă: doar capacitatea nominală, fără date de utilizare sau program de producție.'
+    - icon: M
+      icon_bg: purple
+      title: '3. Trasabilitatea materialelor'
+      desc: 'Solicitați: înregistrările inspecției materialelor la intrare, certificatele furnizorilor de PVC și drop-stitch, trasabilitatea de la materia primă la placa finită, declarațiile de substanțe REACH/RoHS. Indicator de alarmă: lipsa trasabilității la nivel de lot, certificate ale materialelor indisponibile.'
+    - icon: P
+      icon_bg: orange
+      title: '4. Încercări la presiune și structurale'
+      desc: 'Solicitați: protocolul de încercare la presiune (PSI, durată, criterii de admis/respingere), jurnalele de încercări pentru loturile de producție recente, înregistrările încercărilor structurale (cădere, impact, solicitarea prinderii). Indicator de alarmă: „doar inspecție vizuală” sau absența unui protocol de încercare documentat cu criterii cantitative de admis/respingere.'
+    - icon: W
+      icon_bg: blue
+      title: '5. Controlul sudării și asamblării'
+      desc: 'Solicitați: înregistrările parametrilor de sudare RF (temperatură, presiune, timp de menținere), criteriile de inspecție a cusăturilor și ratele de respingeri, documentația succesiunii de asamblare. Indicator de alarmă: lipsa jurnalelor de parametri de sudare, rată ridicată de respingeri la cusături fără CAPA.'
+    - icon: S
+      icon_bg: green
+      title: '6. Conformitate socială'
+      desc: 'Solicitați: raportul de audit BSCI sau SMETA (actual, pe întregul domeniu), înregistrări privind programul de lucru și salariile, rapoartele de inspecție a sănătății și securității în muncă, documentația de conformitate de mediu. Indicator de alarmă: lipsa unui audit social de terț sau audit cu neconformități majore nerezolvate.'
+    - icon: D
+      icon_bg: purple
+      title: '7. Documentație și trasabilitate'
+      desc: 'Solicitați: înregistrările de producție pe lot, jurnalele de inspecție pentru fiecare punct de control, certificatele de conformitate, listele de ambalare cu referințe de lot, sistemul de urmărire a reclamațiilor în garanție. Indicator de alarmă: lipsa documentației la nivel de lot, reclamațiile în garanție neurmărite și neanalizate.'
+    - icon: A
+      icon_bg: orange
+      title: '8. Suport post-livrare'
+      desc: 'Solicitați: condițiile de garanție și procesul de înaintare a reclamațiilor, timpul mediu de soluționare a acestora, disponibilitatea pieselor de rezervă, angajamentul privind timpul de răspuns în comunicare, procesul de analiză post-livrare. Indicator de alarmă: lipsa unui proces de garanție documentat, comunicare lentă sau inconsistentă după livrare.'
+
+our_position:
+  heading: 'Poziția noastră în fiecare domeniu de audit'
+  body: |
+    Nu ne limităm la a declara conformitatea — noi furnizăm înregistrările. Iată poziția noastră în fiecare dintre cele opt domenii de audit:
+
+    - **Managementul calității**: certificare ISO 9001:2015, auditată anual de un terț acreditat. Sistem de inspecție în 7 puncte de control, cu criterii documentate de admis/respingere la fiecare punct. Registrul CAPA este întreținut și analizat trimestrial.
+    - **Capacitate de producție**: capacitate anuală de 120,000+ de plăci, cu un rezultat lunar de aproximativ 10.000 de bucăți. Programul de producție poate fi analizat în timpul vizitei în fabrică. 4 linii automate de producție, tăiere CNC, sudare RF și un laborator de încercări la presiune.
+    - **Trasabilitatea materialelor**: trasabilitate la nivel de lot, de la materialul la intrare până la placa finită. Certificate ale furnizorilor de PVC și drop-stitch în arhivă. Declarații de substanțe REACH și RoHS disponibile pentru fiecare lot.
+    - **Încercări la presiune**: încercare de menținere la 18.0 PSI, cu respingere automată la o scădere de peste 0.50 PSI în 24 de ore. Jurnalele de încercări sunt disponibile pentru fiecare lot de producție. Încercări structurale și de impact în funcție de tipul de construcție.
+    - **Controlul sudării**: parametrii sudării RF sunt înregistrați pentru fiecare serie de producție. Inspecția cusăturilor se realizează la punctul de control 3, cu rate de respingeri documentate. CAPA se declanșează pentru rate de respingeri peste prag.
+    - **Conformitate socială**: audit BSCI efectuat. Înregistrările privind programul de lucru, salariile și securitatea sunt disponibile pentru verificare în timpul vizitei în fabrică.
+    - **Documentație**: înregistrări de producție pe lot, jurnale de inspecție pentru fiecare punct de control, certificate de conformitate și liste de ambalare cu referințe de lot, expediate alături de fiecare comandă. Sistemul de urmărire a reclamațiilor în garanție este întreținut.
+    - **Suport post-livrare**: condiții de garanție documentate în fiecare contract. Soluționarea medie a reclamațiilor se face în mai puțin de 14 zile lucrătoare. Piese de rezervă disponibile din stoc. Analiză post-livrare oferită pentru fiecare primă comandă.
+
+evidence_review:
+  tagline: 'Dovezi și verificare'
+  title: 'SPECIFICAȚII VERIFICATE'
+  body: 'Toate afirmațiile de producție și de calitate de pe această pagină sunt verificate de echipa noastră de inginerie a producției la fabrica din Laixi, Qingdao. Certificatele, înregistrările inspecției de control al calității, rapoartele de încercări la presiune și structurale și jurnalele de trasabilitate a loturilor sunt disponibile la cerere. Specificațiile au fost verificate ultima dată în septembrie 2026.'
+
+faqs:
+  tagline: FAQ
+  title: 'Auditul fabricii — Întrebări frecvente'
+  items:
+    - q: 'Pot vizita fabrica pentru un audit la fața locului?'
+      a: 'Da. Vizitele în fabrică sunt binevenite și putem organiza un audit structurat, care acoperă toate cele opt domenii. O vizită tipică include parcurgerea halei de producție, observarea punctelor de control al calității, inspecția depozitului de materii prime, verificarea documentației și discuții cu managerul de calitate. Alocați o zi întreagă. Contactați-ne pentru programare.'
+    - q: 'Furnizați documentație de audit înainte de vizită?'
+      a: 'Da. Putem pune la dispoziție certificatul ISO 9001, raportul BSCI, sinteza capacității de producție, protocolul de încercare la presiune și înregistrări de inspecție probă înainte de vizita dumneavoastră — pentru a vă permite să pregătiți întrebări direcționate. Înregistrările complete pe loturi sunt disponibile la fața locului, în timpul vizitei.'
+    - q: 'Ce inspecții de terț utilizați?'
+      a: 'Lucrăm cu SGS, Intertek și TUV pentru inspecții și certificări de terț. Inspecția de terț înainte de expediție este disponibilă la cerere pentru orice comandă. Domeniul și costurile inspecției se confirmă în etapa de ofertare.'
+    - q: 'Cum pot confirma că sistemul dumneavoastră de calitate este efectiv aplicat, nu doar documentat?'
+      a: 'Fiecare placă trece prin 7 puncte de control al inspecției, cu criterii cantitative de admis/respingere — nu liste de verificare vizuale. Datele încercărilor la presiune, parametrii sudării și ratele de respingeri sunt înregistrate pe lot și disponibile pentru analiza dumneavoastră. CAPA se declanșează automat în cazul rezultatelor neconforme. Vă încurajăm să auditați procesul în desfășurare în timpul unei vizite în fabrică.'
+
+cta:
+  title: 'Programați un audit al fabricii'
+  subtitle: 'Solicitați documentația de audit sau programați o vizită la fața locului. Noi furnizăm înregistrările — dumneavoastră verificați procesul.'
+  actions:
+    - variant: primary
+      text: 'Solicitați documentația de audit'
+      href: /ro/contact#project-brief
+    - text: 'Verificați certificările și sistemul de calitate'
+      href: /ro/proof-center
+    - text: 'Procesul de onboarding OEM'
+      href: /ro/oem-onboarding-guide

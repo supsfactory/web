@@ -1,0 +1,115 @@
+meta:
+  title: 'Bazin de încercări hidrodinamice — testarea performanței plăcilor SUP'
+  description: 'Validați performanța corpului de apă al plăcilor SUP în bazinul nostru de încercări hidrodinamice. Remorcări cu modele la scară, analiză de planare și măsurarea rezistenței pentru diferite forme de placă.'
+  dateModified: '2026-08'
+back_text: 'Înapoi la Centrul R&D'
+home_label: 'Acasă'
+
+answer:
+  label: 'Răspuns direct'
+  text: 'Încercăm în bazin formele corpurilor de apă SUP la scara 1:3 până la 1:5 — profilul prăbuliei, raza șinei, rockerul și suprafața udată — măsurând rezistența, eficiența glisării și stabilitatea înainte de a ne angaja la un prototip la scară reală. O săptămână în bazin vă oferă datele de performanță care ar necesita luni de încercări la scară reală.'
+  verified: 'Septembrie 2026'
+
+hero:
+  tagline: 'Laborator 04'
+  title: 'Bazin de încercări hidrodinamice'
+  subtitle: 'Validarea performanței înainte de primul prototip la scară reală'
+  image: 'https://assets.isupfactory.com/images/sups/factory/isupfactory-design-discussion-original.webp'
+  image_alt: 'Testarea performanței în bazinul de încercări hidrodinamice Vatrad'
+
+intro: 'Este o misconcepție frecventă că încercările hidrodinamice sunt rezervate navelor și ambarcatiunilor de cursă. În realitate, performanța unei plăci SUP — un corp de apă de planare de 10 până la 14 picioare — depinde de forma sa submersibilă la fel de mult ca orice altă ambarcatiune. Profilul prăbuliei, raza șinei, rockerul și suprafața udată au un efect dramatic asupra rezistenței, eficienței glisării și stabilității. La {SITE.name}, operăm un bazin de încercări hidrodinamice dedicat, care ne permite să cuantificăm aceste efecte la scară de model — înainte de a angaja țesătură și unelte pentru un prototip la scară reală.'
+
+content_html: |
+  <h2>De ce să încercăm o placă SUP în bazin?</h2>
+  <p>Încercarea la scară de model (de regulă 1:3 până la 1:5) ne oferă posibilitatea de a itera rapid și rentabil formele plăcilor. O săptămână în bazin poate genera aceleași date de performanță care ar necesita luni de încercări la scară reală — și la o fracțiune din cost.</p>
+
+  <h2>Specificațiile instalației</h2>
+  <table>
+    <thead><tr><th>Parametru</th><th>Specificație</th></tr></thead>
+    <tbody>
+      <tr><td>Dimensiunile bazinului</td><td>35 m (L) × 3.5 m (W) × 1.8 m (D)</td></tr>
+      <tr><td>Carucior de remorcare</td><td>Acționat electric cu servomecanism, viteză maximă 12 m/s (23 kn), precizie de viteză ± 0.5 %</td></tr>
+      <tr><td>Generator de valuri</td><td>De tip flap, stări de mare regulate și neregulate programabile, Hs până la 0.3 m la scară de model</td></tr>
+      <tr><td>Instrumentație</td><td>Dinamonometru cu 6 componente (rezistență, forță laterală, moment de deviere), accelerometre, clinometre, sonde de val</td></tr>
+      <tr><td>Achiziția datelor</td><td>Eșantionare la 1000 Hz pe canal, afișare în timp real + suita de postprocesare</td></tr>
+      <tr><td>Fabricarea modelelor</td><td>Freze CNC și imprimare 3D proprii pentru corpuri de apă de model până la 1.8 m LOA</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Programul nostru de încercări</h2>
+  <p>Un program standard de dezvoltare a unei plăci în bazinul nostru urmează această succesiune:</p>
+  <ol>
+    <li><strong>Construirea modelului</strong> — Un model la scara 1:4 este prelucrat pe CNC din spumă de înaltă densitate și laminat cu fibră de sticlă pentru rigiditate. Masa și centrul de greutate sunt ajustate pentru a corespunde regimului la sarcină maximă redimensionat conform numărului lui Froude.</li>
+    <li><strong>Curse de rezistență</strong> — Modelul este remorcat la 6-10 viteze care acoperă intervalul de vâslit (2–6 kn la scară reală). Rezistența totală este măsurată și descompusă în componente de frecare și reziduale folosind metoda ITTC-1957.</li>
+    <li><strong>Măsurarea trimului și a afundării</strong> — Trimul de mers și afundarea sunt înregistrate la fiecare viteză. Obiectivul este unghiul de trim care minimizează suprafața udată, păstrând în același timp prăbuia liberă de valul de la proră.</li>
+    <li><strong>Relevarea urmei</strong> — Se măsoară profilul de val transversal la două viteze, pentru a evalua rezistența la formarea valurilor și a identifica interacțiunile dintre forma prăbuliei și viteză.</li>
+    <li><strong>Rezistență în val (opțional)</strong> — curse cu val regulat în sens invers valului, pentru a măsura rezistența adăugată și accelerația verticală în val neordonat — datele care stau la baza proiectării prăbuliei plăcilor de touring.</li>
+    <li><strong>Analiza datelor și recomandări</strong> — Se înmânează un raport complet cu grafice comparative, curbe rezistență/viteză și recomandări de proiectare specifice pentru placa la scară reală.</li>
+  </ol>
+
+  <div class="not-prose my-10 p-6 rounded-xl bg-gray-50 dark:bg-gray-900 border border-gray-200 dark:border-gray-800">
+    <p class="text-sm font-semibold text-gray-500 mb-3 uppercase tracking-wider">Rezultate tipice în bazin — rezistență în funcție de viteză (placă all-around 11'0, scara 1:4)</p>
+    <div class="space-y-2">
+      <div class="flex items-center gap-2 text-xs">
+        <span class="w-20">2 kn (1:1)</span>
+        <div class="flex-1 bg-gray-200 dark:bg-gray-700 h-5 rounded">
+          <div class="h-full bg-blue-600 rounded" style="width:18%"></div>
+        </div>
+        <span class="w-16 text-right">11 N</span>
+      </div>
+      <div class="flex items-center gap-2 text-xs">
+        <span class="w-20">3 kn (1:1)</span>
+        <div class="flex-1 bg-gray-200 dark:bg-gray-700 h-5 rounded">
+          <div class="h-full bg-blue-600 rounded" style="width:35%"></div>
+        </div>
+        <span class="w-16 text-right">21 N</span>
+      </div>
+      <div class="flex items-center gap-2 text-xs">
+        <span class="w-20">4 kn (1:1)</span>
+        <div class="flex-1 bg-gray-200 dark:bg-gray-700 h-5 rounded">
+          <div class="h-full bg-blue-600 rounded" style="width:52%"></div>
+        </div>
+        <span class="w-16 text-right">32 N</span>
+      </div>
+      <div class="flex items-center gap-2 text-xs">
+        <span class="w-20">5 kn (1:1)</span>
+        <div class="flex-1 bg-gray-200 dark:bg-gray-700 h-5 rounded">
+          <div class="h-full bg-blue-600 rounded" style="width:68%"></div>
+        </div>
+        <span class="w-16 text-right">42 N</span>
+      </div>
+      <div class="flex items-center gap-2 text-xs">
+        <span class="w-20">6 kn (1:1)</span>
+        <div class="flex-1 bg-gray-200 dark:bg-gray-700 h-5 rounded">
+          <div class="h-full bg-blue-600 rounded" style="width:85%"></div>
+        </div>
+        <span class="w-16 text-right">52 N</span>
+      </div>
+    </div>
+    <p class="text-xs text-gray-400 mt-2">Rezistența la scară de model (N) la vitezi redimensionate conform numărului lui Froude. Estimarea puterii la scară reală urmează metoda de predicție a performanței ITTC-1978.</p>
+  </div>
+
+  <h2>Echipa de specialiști</h2>
+  <p>Bazinul nostru este condus de un specialist în hidrodinamică, doctor în arhitectură navală, cu 8 ani de experiență în bazine de remorcare la un important institut european de cercetare maritimă. El este susținut de un tehnician care pregătește toate modelele și instrumentația. Echipa respectă Procedurile Recomandate ale ITTC (International Towing Tank Conference), astfel încât fiecare încercare să fie repetabilă, trasabilă și defendabilă la nivel internațional.</p>
+
+  <h2>Încercări în bazin pentru dezvoltarea plăcilor personalizate</h2>
+  <p>Bazinul nostru nu este folosit doar pentru plăcile proiectate de noi — desfășurăm regulat programe de încercare pentru clienți care doresc să valideze o formă personalizată de placă sau să investigheze o problemă de performanță:</p>
+  <ul>
+    <li><strong>Compararea formelor</strong> — Două sau mai multe forme candidate de placă sunt încercate în condiții identice, oferind o comparație obiectivă rezistență/viteză/stabilitate care să vă ajute în alegerea proiectării.</li>
+    <li><strong>Optimizarea șinei și a prăbuliei</strong> — Variațiile profilului prăbuliei și ale razei șinei pot fi încercate în diverse configurații, pentru a cuantifica contribuția lor la reducerea rezistenței.</li>
+    <li><strong>Studiul sarcinii sportivului</strong> — Datele de rezistență sunt cartografiate pe întregul interval de greutate nominală a sportivului, ceea ce vă permite să specificați lungimea și lățimea potrivite vâslițului dumneavoastră țintă.</li>
+  </ul>
+
+  <h2>De ce să încercați cu noi?</h2>
+  <p>Noi nu vă oferim doar o serie de cifre brute. Rapoartele noastre transformă datele din bazin în recomandări inginerești aplicabile: „Ridicați rockerul prăbuliei cu 10 mm pentru a reduce rezistența valului de la proră la viteza de croazier”, „Rotunjiți șina în secțiunea de mijloc pentru a micșora suprafața udată” sau „Deplasați zona de stat cu 50 mm în față pentru o trimare îmbunătățită”. Plecați cu o înțelegere clară a ce trebuie schimbat și de ce.</p>
+  <p>Bazinul nostru este disponibil și pentru încercări independente realizate de terți, pe bază de tarif. Dacă dezvoltați o placă și doriți o evaluare hidrodinamică imparțială, executată profesional, vă stăm la dispoziție.</p>
+
+cta:
+  title: 'Programați o sesiune de încercare în bazin'
+  subtitle: 'Fie că aveți nevoie de un program complet de dezvoltare sau de o singură încercare comparativă, ne putem integra în programul dumneavoastră.'
+  actions:
+    - variant: primary
+      text: Contactați echipa noastră de hidrodinamică
+      href: /ro/contact#project-brief
+    - text: Înapoi la Centrul R&D
+      href: /ro/randdcenter

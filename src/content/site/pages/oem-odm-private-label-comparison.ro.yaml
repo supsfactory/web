@@ -1,0 +1,128 @@
+meta:
+  title: 'Producție SUP: OEM față de ODM față de Private Label — ghid comparativ'
+  description: 'Producție SUP OEM față de ODM față de private label, comparate: definiții, proprietate, puncte de intrare MOQ, termene, unelte, reguli privind proprietatea intelectuală și scenarii ideale.'
+  dateModified: '2026-08-20'
+  keywords:
+    - 'oem vs odm vs private label'
+    - 'comparație producție sup'
+    - 'producție plăci paddle personalizate'
+    - 'sup oem china'
+    - 'dezvoltare odm sup'
+    - 'private label sup'
+
+hero:
+  tagline: 'Alegeți traseul de colaborare'
+  title: 'OEM față de ODM față de Private Label — ce model se potrivește proiectului dumneavoastră?'
+  subtitle: 'Trei modalități de a lucra cu o fabrică de SUP, fiecare cu compromisuri diferite între proprietate, investiție și viteză. Acest ghid explică diferențele, ca să puteți alege traseul potrivit înainte de prima solicitare.'
+
+answer:
+  label: 'Comparație rapidă'
+  text: 'OEM: dețineți proiectarea și specificația — noi fabricăm conform desenelor dumneavoastră. ODM: echipa noastră de inginerie dezvoltă placa pornind de la fișa dumneavoastră — aprobați înainte de producție. Private Label: marca dumneavoastră pe o platformă existentă, dovedită, fără modificări structurale — traseul cel mai rapid către piață. Toate cele trei trasee trec prin aceeași uzină, același sistem de control al calității și aceeași echipă de export din Qingdao, China.'
+  verified: 'Septembrie 2026'
+
+comparison_table:
+  tagline: 'Alături'
+  title: 'Comparație OEM / ODM / Private Label'
+  subtitle: 'Diferențele esențiale privind proprietatea proiectării, MOQ, uneltele, termenul de livrare și proprietatea intelectuală.'
+  headers:
+    dimension: Dimensiune
+    oem: Producție OEM
+    odm: Dezvoltare ODM
+    pl: Private Label
+  rows:
+    - dimension: 'Cine proiectează placa?'
+      oem: 'Dumneavoastră furnizați specificația, desenele sau placa de referință'
+      odm: 'Echipa de inginerie a fabricii dezvoltă placa pornind de la fișa dumneavoastră'
+      pl: 'Platforma existentă a fabricii — fără lucru de proiectare'
+    - dimension: 'Proprietatea proiectării și a PI'
+      oem: 'Dețineți integral toate proiectările, formele și drepturile de proprietate intelectuală'
+      odm: 'Dețineți proiectarea finală aprobată; fabrica păstrează proprietatea intelectuală a procesului de dezvoltare'
+      pl: 'Fabrica deține proiectarea platformei; dumneavoastră dețineți marca și grafica'
+    - dimension: 'Formă / unelte'
+      oem: 'Formă personalizată obligatorie pentru forme noi — taxă unică pentru unelte, plus 15–20 de zile'
+      odm: 'Poate necesita formă personalizată, în funcție de specificații — același termen pentru unelte'
+      pl: 'Fără forme noi — se folosește uneltele platformei existente'
+    - dimension: 'Cantitate minimă de comandă'
+      oem: '90–100+ bucăți pe configurație aprobată'
+      odm: '90–100+ bucăți pe configurație aprobată; loturi pilot începând de la 20–50'
+      pl: '5–10 bucăți (co-branding) sau 20–50 (lot pilot pe platformă existentă)'
+    - dimension: 'Termen tipic de livrare'
+      oem: '25–35 de zile + 15–20 de zile pentru unelte, dacă forma este nouă'
+      odm: '25–35 de zile + timpul de iterație al dezvoltării (variază în funcție de complexitate)'
+      pl: '25–35 de zile (fără întârzieri pentru unelte)'
+    - dimension: 'Nivelul de personalizare'
+      oem: 'Complet — formă, construcție, materiale, grafică, ambalaje'
+      odm: 'Complet — fabrica propune, dumneavoastră aprobați fiecare element'
+      pl: 'Doar grafică și ambalaje — fără modificări structurale'
+    - dimension: 'Procesul de mostre'
+      oem: '1–2 mostre de prototip în 7–12 zile după aprobarea specificației'
+      odm: '1–2 mostre de prototip în 7–12 zile după aprobarea proiectării'
+      pl: '1–2 mostre în 7–12 zile — platforma este deja validată'
+    - dimension: 'Ideal pentru'
+      oem: 'Cumpărători cu proiectări existente, plăci de referință sau specificații detaliate'
+      odm: 'Cumpărători cu idei de produs sau cerințe de piață, dar fără o specificație detaliată'
+      pl: 'Cumpărători care au nevoie rapid de plăci de marcă, fără dezvoltare de produs'
+
+scenario_cards:
+  tagline: 'Când să alegeți fiecare traseu'
+  title: 'Scenarii din practică'
+  subtitle: 'Situații frecvente ale cumpărătorilor și modelul de colaborare recomandat.'
+  features:
+    - icon: '1'
+      icon_bg: 'blue'
+      title: 'Aveți specificații complete și dețineți proiectarea'
+      desc: 'Aveți desene CAD, o placă de referință sau o fișă de specificații detaliată cu dimensiuni, materiale, construcție și cerințe de ambalare. Alegeți OEM — fabricăm exact conform specificațiilor dumneavoastră.'
+      link: '/ro/factory/oem-capability'
+      link_label: 'Detalii despre producția OEM'
+    - icon: '2'
+      icon_bg: 'green'
+      title: 'Aveți un concept de produs, dar fără specificații de inginerie'
+      desc: 'Cunoașteți piața țintă, nivelul de preț și cerințele de performanță, dar aveți nevoie de sprijin ingineresc pentru dezvoltarea plăcii. Alegeți ODM — echipa noastră dezvoltă pornind de la fișa dumneavoastră, iar dumneavoastră aprobați înainte de producție.'
+      link: '/ro/odm-manufacturing'
+      link_label: 'Detalii despre dezvoltarea ODM'
+    - icon: '3'
+      icon_bg: 'orange'
+      title: 'Necesitați rapid plăci de marcă, fără dezvoltare de produs'
+      desc: 'Sunteți distribuitor, resort sau operator de închiriere care își dorește logo-ul pe plăci de calitate, fără a investi în dezvoltarea de produs. Alegeți Private Label — traseul cel mai rapid de la concept la livrare.'
+      link: '/ro/solutions/private-label-sup'
+      link_label: 'Detalii despre Private Label'
+    - icon: '4'
+      icon_bg: 'purple'
+      title: 'Operați un resort, un club sau o flotă de închiriere'
+      desc: 'Necesitați pachete SUP rezistente, cu utilizare intensivă, cu consistență între loturi, piese de schimb și gestionarea culorilor la comenzile repetate. Alegeți Programul nostru pentru flote comerciale.'
+      link: '/ro/solutions/resort-sup'
+      link_label: 'Detalii despre flota comercială'
+
+ip_rules:
+  tagline: 'Protecția proprietății intelectuale'
+  title: 'Cum protejăm proiectările și marca dumneavoastră'
+  subtitle: 'Indiferent de modelul de colaborare, artwork-ul, uneltele și fișierele de specificație rămân proprietatea dumneavoastră.'
+  body: |
+    **NDA înaintea schimbului de fișiere.** Semnăm un acord de confidențialitate înainte de orice schimb de fișiere tehnice — timpul standard de răspuns este de cel mult 4 ore lucrătoare.
+
+    **Fără reutilizarea proiectărilor.** Artwork-ul, uneltele și fișierele de specificație nu sunt niciodată partajate cu alți clienți și nici vândute acestora. Formele OEM vă aparțin în exclusivitate. Proiectările ODM sunt aprobate de dumneavoastră înainte de producție. Platformele Private Label sunt structuri comune, însă grafica și branding-ul dumneavoastră sunt exclusive.
+
+    **Doar B2B.** Fabricăm exclusiv sub mărcile clienților noștri. Nu vindem consumatorilor finali și nu concurăm cu clienții noștri pe nicio piață.
+
+    **Proprietatea formelor.** Formele personalizate plătite de cumpărător aparțin cumpărătorului. Noi le depozităm și le întreținem, dar nu le putem folosi pentru alți clienți fără autorizare scrisă.
+
+faqs:
+  tagline: 'FAQ'
+  title: 'Întrebări frecvente despre OEM, ODM și Private Label'
+  items:
+    - q: 'Pot trece ulterior de la private label la OEM?'
+      a: 'Da. Mulți clienți încep cu un lot private label sau pilot pentru a valida piața, apoi investesc în unelte personalizate pentru un program OEM complet, după ce cererea este demonstrată. Aceeași uzină și același sistem de control al calității susțin ambele trasee.'
+    - q: 'Înseamnă ODM că fabrica deține marca mea?'
+      a: 'Nu. În modelul ODM, dumneavoastră dețineți marca, grafica și ambalajele. Fabrica dezvoltă structura plăcii pornind de la fișa dumneavoastră, iar dumneavoastră aprobați proiectarea înainte de producție. Fabrica păstrează drepturile de proprietate intelectuală ale procesului de dezvoltare, dar specificația de produs aprobată vă aparține.'
+    - q: 'Este private label de calitate mai scăzută decât OEM?'
+      a: 'Nu. Toate cele trei trasee trec prin aceeași uzină, același sistem de control al calității și aceeași echipă de export. Plăcile private label sunt construite pe platforme dovedite și validate, cu testare completă la presiune de 18 PSI / 24 h și cu aceeași listă de verificare a asamblării în 100 de puncte.'
+    - q: 'Ce fac dacă nu sunt sigur ce model să aleg?'
+      a: 'Contactați-ne cu situația dumneavoastră — echipa noastră de inginerie vă va recomanda traseul cel mai practic, în funcție de cerințele produsului, termen și obiectivele de volum. Nu se cere niciun angajament înainte de analiza specificațiilor.'
+    - q: 'Pot primi mostre înainte de a m angaja la vreun model?'
+      a: 'Da. 1–2 mostre de prototip se expediază în 7–12 zile. Costul mostrelor este creditat la comanda dumneavoastră de volum. Astfel puteți evalua construcția și calitatea înainte de orice angajament de volum.'
+
+cta:
+  title: 'Sunteți gata să discutați proiectul dumneavoastră SUP?'
+  subtitle: 'Spuneți-ne despre cerințele produsului, piață și obiectivele de volum — vă vom recomanda traseul de colaborare cel mai practic.'
+  button: 'Începeți proiectul SUP'
+  note: 'Răspundem în decurs de 1 zi lucrătoare · NDA disponibil înainte de schimbul de fișiere'

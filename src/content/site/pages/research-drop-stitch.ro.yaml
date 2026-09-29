@@ -1,0 +1,79 @@
+meta:
+  title: 'Cum funcționează drop stitch — miezele rigide pentru plăci SUP gonflabile'
+  description: 'Cum transformă drop stitch PVC-ul flexibil într-un miez SUP rigid, de înaltă presiune (15-20 PSI): construcție, materiale, indicatori de calitate și aplicații.'
+  author: 'iSupfactory'
+  datePublished: '2026-08-04'
+  dateModified: '2026-08-07'
+back_text: 'Înapoi la cercetare'
+
+answer:
+  label: 'Răspuns direct'
+  text: 'Drop-stitch este o țesătură în care coloanele de fir de poliester țin la o distanță fixă straturile superioare și inferioare de PVC, astfel încât presiunea aerului rigidizează placa. Miezele Vatrad: 1,680 DTEX, 2 fire pe inch pătrat, înveliș exterior din PVC de 1.2 mm, clasificate pentru 15 PSI și validate printr-un test de menținere de 24 de ore la 18.0 PSI.'
+  verified: 'Septembrie 2026'
+
+hero:
+  tagline: 'Tehnologie'
+  title: 'Cum funcționează drop stitch — ingineria din spatele miezelor rigide gonflabile'
+  subtitle: '8 min de citire'
+
+content_html: |
+  <h2>Ce este drop stitch?</h2>
+  <p>Drop stitch (numit și „țesătură drop-stitch” sau „miez drop-stitch”) este o metodă de construcție în care mii de fire individuale de poliester leagă straturile superioare și inferioare ale unei carcase textile. Când carcasa este umflată, aceste fire acționează ca elemente interioare de întindere — împiedică panourile superioare și inferioare să se bombeze în exterior spre o formă rotundă, forțând panoul să rămână plan și rigid.</p>
+  <p>Rezultatul este o structură ușoară și portabilă, capabilă să reziste la 15 – 20 PSI presiune interioară — comparabilă cu rigiditatea unei plăci cu carcasă rigidă, dar complet dezumflabilă pentru depozitare și transport.</p>
+
+  <h2>Cum funcționează: baza fizică</h2>
+  <p>Într-o structură gonflabilă convențională (precum un balon sau o saltea de aer), presiunea interioară a aerului apasă în mod egal în toate direcțiile. Fără o limitare interioară, structura devine cilindrică sau sferică. Drop stitch rezolvă acest lucru prin introducerea unei armături de întindere:</p>
+  <ul>
+    <li>Mii de fire leagă straturile textile superioare și inferioare</li>
+    <li>La umflare, presiunea aerului încearcă să îndepărteze straturile superioare și inferioare unul de altul</li>
+    <li>Firele rezistă la această separare, transferând sarcina în tensiune de-a lungul axului firului</li>
+    <li>Rezultatul este un panou plan și rigid, care rezistă la încovoiere</li>
+  </ul>
+
+  <h2>Procesul de construcție</h2>
+  <ol>
+    <li><strong>Țesere:</strong> firele de poliester sunt țesute simultan în două straturi separate de țesătură de bază (de regulă poliester acoperit cu PVC de 1,100 DTEX sau 1,680 DTEX). Firele sunt țesute în buclă între straturi la un unghi de 90&deg;.</li>
+    <li><strong>Acoperire:</strong> țesătura de bază este acoperită cu PVC (sau ocazional TPU) printr-un proces de acoperire cu lama sau de acoperire la calandru. Acest lucru etanșează firele și creează membrana etanșă la aer.</li>
+    <li><strong>Lipirea straturilor:</strong> miezul drop-stitch este lipit de straturile laminate exterioare (de regulă PVC de 0.9 mm sau 1.2 mm) prin laminare la cald sau cu adeziv.</li>
+    <li><strong>Sudarea:</strong> benzile de bordură sunt sudate de-a lungul marginilor prin sudare cu aer cald, sudare RF sau sudare de înaltă frecvență, pentru a forma pereții laterali ai plăcii.</li>
+    <li><strong>Montarea supapelor:</strong> supapele Boston sau Halkey-Roberts sunt montate, de regulă cu un mecanism de reducere a presiunii care prevă supraînflarea.</li>
+  </ol>
+
+  <h2>Indicatori principali de calitate</h2>
+  <table class="w-full text-sm border-collapse">
+    <thead>
+      <tr class="bg-gray-100">
+        <th class="p-3 text-left font-semibold text-gray-900 border">Parametru</th>
+        <th class="p-3 text-left font-semibold text-gray-900 border">Nivel de intrare</th>
+        <th class="p-3 text-left font-semibold text-gray-900 border">Premium</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td class="p-3 border">Densitatea firelor</td><td class="p-3 border">1 fir / inch pătrat</td><td class="p-3 border">2 fire / inch pătrat</td></tr>
+      <tr><td class="p-3 border">Țesătura de bază</td><td class="p-3 border">1,100 DTEX</td><td class="p-3 border">1,680 DTEX</td></tr>
+      <tr><td class="p-3 border">Presiune maximă</td><td class="p-3 border">12 – 15 PSI</td><td class="p-3 border">18 – 22 PSI</td></tr>
+      <tr><td class="p-3 border">Grosimea PVC-ului</td><td class="p-3 border">0.6 – 0.9 mm</td><td class="p-3 border">1.0 – 1.2 mm</td></tr>
+      <tr><td class="p-3 border">Construcția bordurii</td><td class="p-3 border">Pliere și lipire</td><td class="p-3 border">Sudare și legătură prin fuziune</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Aplicații</h2>
+  <ul>
+    <li><strong>Plăci SUP:</strong> grosime 4" – 6", 15 – 20 PSI, 1 – 2 fire/inch pătrat</li>
+    <li><strong>Kayacuri:</strong> podea drop-stitch + camere laterale gonflabile, 10 – 15 PSI la nivelul podelei</li>
+    <li><strong>Funduri RIB:</strong> funduri drop-stitch pentru bărcițe RIB ușoare și împachetabile, 12 – 18 PSI</li>
+    <li><strong>Apărătoare de barcă:</strong> drop-stitch de joasă presiune pentru apărători cu formă conturată și fețe plane</li>
+  </ul>
+
+  <h2>Drop stitch față de Air Deck (miez din fibră de sticlă sau lemn)</h2>
+  <p>Plăcile cu carcasă rigidă folosesc miezuri de spumă EPS cu armătură din fibră de sticlă sau din lemn. Sunt mai ușoare, mai rigide și mai receptive — dar nu pot fi dezumflate. Drop stitch cedează o parte din rigiditate în schimbul portabilității totale. Pentru majoritatea utilizatorilor recreativi, plăcile SUP moderne drop-stitch la 20 PSI nu se deosebesc de plăcile rigide de nivel de intrare în ceea ce privește rigiditatea.</p>
+
+  <h2>Cum folosește Vatrad drop stitch-ul</h2>
+  <p>Vatrad folosește un miez drop-stitch de 1,680 DTEX pe întreaga sa gamă de plăci SUP, cu 2 fire pe inch pătrat și un înveliș exterior laminat din PVC de 1.2 mm. Plăcile sunt clasificate pentru 15 PSI și sunt supuse unui test de menținere a presiunii de 24 de ore la 18.0 PSI înainte de expediție. Benzile de bordură sunt sudate cu aer cald cu fuziune în trei straturi, iar supapele de reducere a presiunii sunt standard la toate modelele.</p>
+  <p>Drop stitch este baza producției noastre de plăci SUP — consultați <a href="/ro/technology/drop-stitch-core">pagina tehnologiei miezului drop-stitch</a> și modul în care miezul este lipit pe <a href="/ro/factory">linia de producție a fabricii</a>.</p>
+
+cta:
+  title: 'Doriți să aflați mai multe despre drop stitch?'
+  subtitle: 'Contactați-ne pentru specificații tehnice și solicitări OEM.'
+  button_text: 'Contactați echipa comercială'
+  button_link: /ro/contact

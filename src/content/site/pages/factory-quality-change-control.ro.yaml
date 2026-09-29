@@ -1,0 +1,349 @@
+meta:
+  title: 'Controlul modificărilor parametrilor de reprocesare și validare | iSupfactory'
+  description: 'Controlul modificării parametrilor de reprocesare conform ISO 9001: ECR, clasificarea riscului, matricea de aprobare, validare și reinspecție pentru producția de SUP.'
+  dateModified: '2026-08-14'
+  keywords:
+    - 'controlul modificărilor pentru reprocesare sup'
+    - 'controlul modificărilor conform iso 9001 în producție'
+    - 'managementul calității oem pentru sup gonflabile'
+    - 'ecr cerere de modificare de inginerie sup'
+    - 'standard de validare a etanșeității la aer'
+    - 'asigurarea calității în fabricile sup'
+
+hero:
+  tagline: Controlul modificării parametrilor de reprocesare
+  title: 'Standardul de control și validare a modificării parametrilor procesului de reprocesare'
+  subtitle: 'În cadrul QINGDAO VATRAD GROUP.,LTD., niciun operator, șef de tură sau departament individual nu poate modifica pe loc un parametru de reprocesare aprobat. Orice modificare propusă a materialelor de reprocesare aprobate, a condițiilor de proces, a sculei, a metodelor de încercare, a criteriilor de inspecție sau a personalului autorizat este gestionată printr-un control documentat al modificărilor — cerere de modificare de inginerie, evaluare de impact și risc, aprobare interfuncțională, plan de validare, implementare controlată, reinspecție și analiză a eficacității, apoi închidere și păstrarea înregistrărilor. Pagina aceasta prezintă standardul nostru controlat QMS-SOP-QC-CC-001 (Rev 2.0, bazat pe ISO 9001:2015) și dovezile de inginerie din spate.'
+  actions:
+    - text: 'Descărcați SOP-ul de control al modificărilor (PDF)'
+      variant: primary
+      href: 'https://assets.isupfactory.com/site/downloads/rework-change-control-sop-qms-sop-qc-cc-001.pdf?dl=1'
+    - text: 'Descărcați Anexa A de execuție (PDF)'
+      href: 'https://assets.isupfactory.com/site/downloads/rework-execution-annex-a-qms-sop-qc-cc-001.pdf?dl=1'
+    - text: 'Solicitați o analiză a calității'
+      href: /ro/contact
+
+answer:
+  label: 'Răspuns direct'
+  text: 'Modificările parametrilor de reprocesare nu sunt decise niciodată verbal sau a posteriori la QINGDAO VATRAD GROUP.,LTD. Orice modificare propusă a materialelor de reprocesare aprobate, a condițiilor de proces, a echipamentelor, a metodelor de încercare, a criteriilor de inspecție sau a personalului autorizat trebuie să treacă prin controlul formal al modificărilor înainte de implementare: o cerere documentată de modificare de inginerie (ECR), evaluarea impactului și a riscului, analiza interfuncțională realizată de Inginerie, Calitate, Producție, Achiziții și Proiect, aprobarea la nivelul stabilit de matricea noastră de autorizare, un plan de validare aprobat pentru modificările cu risc ridicat, implementarea pilot controlată, reinspecția și analiza eficacității, iar închiderea numai după revizia documentelor și instruire. Orice modificare care afectează specificațiile, mostrele, listele de materiale, grafica sau criteriile de acceptare aprobate de client necesită, în plus, aprobarea scrisă a clientului.'
+  verified: 'Septembrie 2026'
+
+stats:
+  tagline: Pe scurt
+  title: Controlul modificărilor în cifre
+  stats:
+    - value: '9'
+      label: Pași în bucla închisă a controlului modificărilor
+    - value: '6'
+      label: Categorii de modificări care necesită control formal al modificărilor
+    - value: '4'
+      label: Procese de reprocesare de bază cu parametri cuantificați
+    - value: '≥ 5'
+      label: Plăci probă + 2 controlori de calitate independenți pentru validarea cu risc ridicat
+
+
+cc_intro:
+  tagline: 'Domeniu și politică'
+  title: Principii fundamentale de guvernanță
+  body: |
+    **Document:** QMS-SOP-QC-CC-001 — *Standard de control al modificării parametrilor procesului de reprocesare* (Rev 2.0, Versiune Oficială). **Producător:** QINGDAO VATRAD GROUP.,LTD. / 青岛万国通衢进出口有限公司. **Referință standard:** ISO 9001:2015 Sisteme de management al calității.
+
+    - **Nicio modificare necontrolată.** Modificările parametrilor de reprocesare trebuie să parcurgă controlul formal al modificărilor. Operatorii de pe teren, șefii de tură sau un departament individual nu au voie niciodată să modifice parametri de reprocesare aprobați prin acord verbal sau prin adnotări scrise de mână pe o fișă de reprocesare.
+    - **Acoperire integrală a elementelor.** Domeniul controlat cuprinde etanșeitatea la aer, scaunele supapelor, benzile de margine, lipirea cusăturilor, polimerizarea cu aer cald și încercarea de menținere a presiunii — fiecare parametru care poate influența etanșeitatea, durabilitatea structurală, aspectul, acceptarea de către client sau trasabilitatea.
+    - **Limita inferioară impusă de client.** Orice modificare care îndepărtează produsul de la mostra, specificația tehnică, lista de materiale, grafica, cerința de ambalare sau criteriile de acceptare aprobate de client este implementată numai cu acordul scris al clientului. Fără acesta, placa este reprocesată conform cerinței inițiale, înlocuită sau respinsă — niciodată „relaxată” de fabrică pe cont propriu.
+
+cc_scope:
+  tagline: Clasificarea riscului
+  title: 'Domeniul modificării și clasificarea riscului'
+  subtitle: 'Orice element dintre cele de mai jos declanșează controlul formal al modificărilor — nu este tratat niciodată prin notarea în fișa de reprocesare. Nivelul de risc stabilește cine aprobă și câtă validare este necesară.'
+  headers:
+    category: Categorie de modificare
+    examples: Exemple tipice
+    risk: Risc
+    requirements: Cerințe de control și aprobare
+  rows:
+    - category: 'Materiale de reprocesare'
+      examples: 'Adeziv, solvent de curățare, material de păturare, etanșare a supapei, primer sau schimbare de furnizor'
+      risk: 'Ridicat'
+      requirements: 'Analiză interdepartamentală + validarea compatibilității materialelor și a menținerii presiunii + semnătură a clientului unde este cazul'
+    - category: 'Condiții de proces'
+      examples: 'Pregătirea suprafeței, temperatura și umiditatea la polimerizarea cu aer cald, presiunea de strângere, durata de menținere'
+      risk: 'Ridicat'
+      requirements: 'Aprobare de către Inginerie și Calitate, cu validarea unei ferestre definite de temperatură și umiditate'
+    - category: 'Scule și mijloace de măsurare'
+      examples: 'Manometre, detectoare de scurgeri, pistolare cu aer cald, unelte pentru supape, software de încercare'
+      risk: 'Mediu/Ridicat'
+      requirements: 'Verificarea valabilității calibrării + evaluare a adecvării echipamentului'
+    - category: 'Domeniul defectului'
+      examples: 'Extinderea ariei de reprocesare; micro-scurgere de suprafață care se extinde în zonele critice ale marginii, cusăturii sau scaunului supapei'
+      risk: 'Ridicat'
+      requirements: 'Suprafețe structurale portante: oprire obligatorie și reevaluare'
+    - category: 'Metode de inspecție'
+      examples: 'Metoda de detecție a scurgerilor, presiunea de încercare (18.0 PSI), durata de menținere (24h)'
+      risk: 'Ridicat'
+      requirements: 'Aprobare de către Calitate + confirmarea acordului tehnic cu clientul'
+    - category: 'Documentație și autorizare'
+      examples: 'Instrucțiunea de reprocesare, fișele de inspecție, logica de eliminare NCR, calificarea operatorilor'
+      risk: 'Mediu'
+      requirements: 'Revizia documentului controlat (Rev A → Rev B) + înregistrări de instruire'
+
+cc_containment:
+  tagline: Regula opririi imediate
+  title: Limitare imediată a efectelor atunci când situația devine serioasă
+  body: |
+    > „Metoda de reprocesare existentă va fi supusă analizei și nu va fi aplicată produselor afectate suplimentar până la evaluarea și autorizarea modificării, cu excepția situației în care este aprobată de Calitate și Inginerie o abatere temporară documentată.”
+
+    Metoda de reprocesare curentă trebuie suspendată imediat atunci când reinspecția după reprocesare continuă să eșueze, când defectul implică zone structurale portante (baza supapei, margini, cusături, zone de presiune la prabă și coadă), când un material înlocuitor nu este încă validat sau când parametrii curenți intră în conflict cu specificația aprobată de client.
+
+    Abaterile temporare nu devin niciodată practică permanentă: fiecare are o fereastră de valabilitate definită, un domeniu de loturi aplicabil, un plafon de cantitate, cerințe de validare și un mecanism de expirare automată. O excepție verbală nu este o excepție — dacă nu este documentată împreună cu termenul de expirare, nu există.
+
+cc_flow:
+  tagline: Standard în buclă închisă, în 9 pași
+  title: De la cererea de modificare la închidere și păstrare
+  subtitle: 'O buclă documentată unică pentru fiecare modificare de parametru: propunere, triaj, evaluare, aprobare, validare, pilot, verificare, revizie, închidere.'
+  steps:
+    - step: '01'
+      title: 'Cerere de modificare (ECR)'
+      desc: 'Orice departament poate înainta o cerere, dar aceasta este susținută de conducerea Ingineriei, Calității sau Producției. ECR răspunde la întrebările de ce se propune modificarea, ce se modifică, ce este afectat și cum va fi verificată — cu numărul de control al modificării, NCR/CAPA asociat, parametrul curent față de cel propus, loturile afectate și clasificarea temporară/permanentă.'
+    - step: '02'
+      title: 'Triaj inițial și limitarea efectelor'
+      desc: 'Cererea este analizată mai întâi din perspectiva limitării imediate a efectelor: metoda curentă trebuie oprită acum? Dacă este permisă o abatere temporară, aceasta este delimitată de fereastra de valabilitate, domeniul de loturi, plafonul de cantitate și expirarea automată.'
+    - step: '03'
+      title: 'Evaluarea impactului și a riscului'
+      desc: 'Inginerie, Calitate, Producție, Achiziții/Lanț de Aprovizionare și Proiect evaluează performanța produsului, criteriile de acceptare, compatibilitatea materialelor, aspectul, capabilitatea procesului, echipamentele și mijloacele de măsurare, calificarea personalului, cerințele clientului, domeniul conformității și al trasabilității.'
+    - step: '04'
+      title: 'Analiză și aprobare comună'
+      desc: 'Aprobarea urmează matricea fixă de autorizare — nu „cine strigă mai tare”. Modificările cu risc ridicat necesită aprobare interdepartamentală și, acolo unde este necesar, aprobarea scrisă a clientului înainte de orice încercare.'
+    - step: '05'
+      title: 'Plan de validare'
+      desc: 'Pentru modificările cu risc ridicat este necesar un plan de validare aprobat înainte de aplicarea de rutină: plăci probă reprezentative, metoda curentă față de cea propusă, metode de încercare, criterii de acceptare, etape de inspecție, persoane responsabile și program.'
+    - step: '06'
+      title: 'Pilot și implementare controlate'
+      desc: 'Documentele noi sunt emise, iar versiunile depășite sunt retrase și marcate ca OBSOLETE; materialele și mijloacele de măsurare noi sunt verificate și calibrate; operatorii sunt instruiți și calibrați; primul lot rulează sub inspecție strictă, cu identificare clară a stării.'
+    - step: '07'
+      title: 'Reinspecție și analiză a eficacității'
+      desc: 'Rata de reușită la prima reprocesare, rata de trecere la reinspecție, rata de recurență și acceptarea aspectului sunt măsurate și analizate înainte ca modificarea să poată fi considerată eficientă — o singură placă reparată nu este niciodată tratată drept validare de proces.'
+    - step: '08'
+      title: 'Revizia documentelor și instruirea'
+      desc: 'Instrucțiunile de lucru, fișele de inspecție, opțiunile de eliminare NCR, fișele de parametri și materialele de instruire sunt actualizate la noua revizie, cu instruire practică înregistrată și calificarea operatorilor.'
+    - step: '09'
+      title: 'Închidere și păstrarea înregistrărilor'
+      desc: 'Modificarea este închisă numai după analizarea și aprobarea dovezilor de validare, a actualizărilor documentare, a înregistrărilor de instruire și a eficacității implementării. Dacă rezultatul urmărit nu este obținut, modificarea este revizuită, extinsă, suspendată sau retrasă.'
+
+cc_approval:
+  tagline: Matricea de aprobare
+  title: Matricea de autorizare interdepartamentală
+  subtitle: 'Un tabel de autorizare fix împiedică deciziile ad hoc: fiecare tip de modificare are aprobatorii săi necesari, de la clarificarea la nivel de document până la semnătura clientului.'
+  headers:
+    change: Conținutul modificării
+    engineering: Inginerie
+    quality: Calitate
+    production: Producție
+    procurement: Achiziții
+    project: Proiect / Vânzări
+    customer: Client
+  rows:
+    - change: 'Clarificarea formulării documentului (fără impact asupra parametrilor)'
+      engineering: Analiză
+      quality: 'Aprobare'
+      production: Notificare
+      procurement: '—'
+      project: '—'
+      customer: '—'
+    - change: 'Ajustarea succesiunii operațiilor de reprocesare'
+      engineering: 'Aprobare'
+      quality: 'Aprobare'
+      production: Contrasemnare
+      procurement: '—'
+      project: Notificare
+      customer: După caz
+    - change: 'Calificarea unui nou operator de reprocesare'
+      engineering: Analiză
+      quality: 'Aprobare'
+      production: 'Aprobare'
+      procurement: '—'
+      project: '—'
+      customer: '—'
+    - change: 'Schimbarea sculei / echipamentului de încercare'
+      engineering: 'Aprobare'
+      quality: 'Aprobare'
+      production: Contrasemnare
+      procurement: După necesități
+      project: '—'
+      customer: După caz
+    - change: 'Material de reprocesare înlocuitor / schimbarea furnizorului'
+      engineering: 'Aprobare'
+      quality: 'Aprobare'
+      production: Contrasemnare
+      procurement: Contrasemnare
+      project: Notificare
+      customer: Poate fi necesară
+    - change: 'Modificarea parametrilor de presiune / menținere / polimerizare'
+      engineering: 'Aprobare'
+      quality: 'Aprobare'
+      production: Contrasemnare
+      procurement: '—'
+      project: Notificare
+      customer: Când proiectul impune
+    - change: 'Schimbarea metodei de reprocesare a marginii / cusăturii / scaunului supapei'
+      engineering: 'Aprobare'
+      quality: 'Aprobare'
+      production: Contrasemnare
+      procurement: După necesități
+      project: Notificare
+      customer: De regulă recomandat
+    - change: 'Modificarea specificației, a mostrei de aprobare sau a criteriilor de acceptare ale clientului'
+      engineering: 'Aprobare'
+      quality: 'Aprobare'
+      production: Contrasemnare
+      procurement: '—'
+      project: Contrasemnare
+      customer: 'Este obligatorie aprobarea scrisă'
+
+cc_validation:
+  tagline: Validare de inginerie
+  title: 'Protocol de validare și acceptare — dovezi în loc de afirmații'
+  body: |
+    Formulări vagi de acceptare precum *„placa reparată trebuie să fie bună”* nu sunt acceptate. Formularea controlată este:
+
+    > „Mostra reprocesată trebuie să respecte aceleași criterii aplicabile de etanșeitate la aer, calitate a execuției vizuale, funcționare a supapei și acceptare specifice proiectului ca o placă conformă, cu excepția situației în care o abatere aprobată de client definește explicit un criteriu alternativ.”
+
+    Dovezile de validare sunt cantitative, iar reperul de inginerie pentru reprocesarea etanșeității la aer include:
+
+    - **Eliminarea scurgerii și menținerea presiunii.** Scurgerea inițială este eliminată, fără bule persistente la detecția cu soluție apă-săpun; placa menține presiunea standard de încercare de 18.0 PSI timp de 24 de ore, cu scădere netă de presiune ΔP ≤ 0.2 PSI după compensarea temperaturii și umidității — reperul mai strict pentru validarea reprocesării, distinct de pragul de respingere automată de 0.50 PSI aplicat la acceptarea finală pe linia de producție.
+    - **Funcționarea supapei.** Cuplul miezului supapei respectă specificația de 15–20 N·m, fără microscurgeri la etanșare sub umflare la presiune ridicată și apăsare dinamică.
+    - **Lipirea cusăturii și durabilitate.** Marginile de lipire nu prezintă desprindere, albitură sau delaminare; după ciclurile de îmbătrânire la căldură și umiditate, stratul de adeziv nu prezintă înmuiere sau fisurare fragilă.
+    - **Aspect și calitate a execuției.** Fără urme de scurgere a adezivului, fără deteriorare a padscai EVA, fără deformarea plăcii și fără deplasarea logo-ului sau zgârieturi ale suprafeței tipărite.
+
+cc_engineering:
+  tagline: Matricea de execuție de inginerie
+  title: 'Parametri cuantificați pentru cele patru procese de reprocesare de bază'
+  subtitle: 'Fiecare proces de reprocesare controlat are parametri, metodologie și criterii de acceptare definite — aceleași valori pe care operatorii noștri le urmează și pe care clienții le pot verifica în cadrul auditurilor.'
+  headers:
+    process: Proces de reprocesare
+    parameters: Parametri controlați
+    methodology: Metodologie de încercare
+    acceptance: Criterii de acceptare
+  rows:
+    - process: 'Repararea găurilor de ac / micro-scurgeri prin păturare'
+      parameters: 'Curățare cu solvent și uscare 3–5 min; activare cu aer cald 60°C ± 5°C; rolă de presiune ≥ 0.4 MPa'
+      methodology: 'Umflare la 18 PSI; imersie completă în apă sau aplicare de soluție săpunoasă; observare timp de 10 minute'
+      acceptance: 'Zero bule emise; decojire la 180° a marginii fără desprindere și fără urme de scurgere a adezivului'
+    - process: 'Relipirea benzilor de margine / a cusăturilor'
+      parameters: 'Raportul adezivului bicomponent strict controlat; mediu 22–28°C, ≤ 65% RH; fixare în menghină ≥ 4 h'
+      methodology: 'Încercare de suprapresiune la 22 PSI timp de 2 h; apoi polimerizare în cameră termică la 50°C timp de 6 h și 2 h de repaus la temperatura camerei'
+      acceptance: 'Zero desprinderi, zero fisurări; scădere netă de presiune ΔP ≤ 0.1 PSI; strat de adeziv fără albitură sau îmbarcăcire'
+    - process: 'Slăbirea bazei supapei / micro-scurgere'
+      parameters: 'Cuplu cu cheie dedicată 18–20 N·m; garnitură de etanșare plană, fără deformare; confirmarea curățeniei filetelor'
+      methodology: 'Umflare la 15 PSI; 20 de cicluri de umflare/deflare; observare prin imersie în apă'
+      acceptance: 'Zero bule la miezul supapei și la periferia bazei; cuplu după ciclare ≥ 16 N·m'
+    - process: 'Încercarea finală de menținere a presiunii pe 24h'
+      parameters: 'Umflare de referință 18.0 PSI; manometru digital Clasa 1.0 / ±0.5%; temperatura și umiditatea ambiantă înregistrate și compensate'
+      methodology: 'Înregistrator digital de presiune; curbă continuă a presiunii pe 24 h'
+      acceptance: 'Scădere netă de presiune ΔP ≤ 0.20 PSI / 24 h după compensare; fără deformarea sau umflarea plăcii'
+
+cc_photos:
+  tagline: În hala de producție
+  title: 'Refacere, retestare, eliberare — documentate la fiecare pas'
+  subtitle: 'Fotografii din atelierul nostru din Qingdao arată fiecare proces de reprocesare controlat, împreună cu mijloacele de măsurare calibrate, parametrii definiți și înregistrările de la locul lor — aceleași dovezi pe care inspectorii le pot solicita în orice moment.'
+  grid: 'sm:grid-cols-2'
+  features:
+    - image: https://assets.isupfactory.com/site/quality/cc-pinhole-repair.avif
+      alt: Tehnician care repară o gaură de ac, adică o microscurgere, pe o placă SUP gonflabilă, cu ajutorul unui pistol cu aer cald și al unei role de presiune
+      title: Repararea găurilor de ac
+      desc: 'Un tehnician tratează o microscurgere marcată cu ajutorul unui pistol cu aer cald setat la specificația de 60°C și al unei role de presiune; apa cu săpun confirmă locul scurgerii, iar tichetul ECR semnat de QA aflat pe banc de lucru indică poarta de control al modificărilor (Poka-Yoke nr. 1).'
+    - image: https://assets.isupfactory.com/site/quality/cc-rail-seam-bonding.avif
+      alt: Tehnician care aplică adeziv PU bicomponent pe o cusătură de margine cu o pensulă de precizie, într-un climat controlat
+      title: Lipirea cusăturii marginii
+      desc: 'Adezivul PU bicomponent este aplicat pe cusătura marginii cu o pensulă de precizie, în timp ce placa este ținută într-o menghină de fixare; termohigrometrul de la locul lor indică fereastra controlată de 24°C / 55% RH.'
+    - image: https://assets.isupfactory.com/site/quality/cc-valve-base-integrity.avif
+      alt: Cheie dinamometrică digitală setată la 19 N·m, care fixează miezul supapei pe materialul drop-stitch
+      title: Integritatea bazei supapei
+      desc: 'O cheie dinamometrică digitală setată la specificația de 19 N·m realizează strângerea finală a miezului supapei, etanșând baza pe materialul drop-stitch — mijlocul de măsurare poartă eticheta verde CALIBRAT.'
+    - image: https://assets.isupfactory.com/site/quality/cc-pressure-hold-testing.avif
+      alt: Plăci SUP gonflabile finite conectate la înregistrătoare digitale de presiune, în zona de încercare finală de menținere a presiunii
+      title: 'Încercarea finală de menținere a presiunii'
+      desc: 'Plăcile finalizate sunt conectate la înregistrătoare digitale de presiune de înaltă precizie; manometrul de referință indică valoarea de 18.00 PSI, iar toate datele de încercare sunt încărcate automat și asociate sistemului contractual de trasabilitate.'
+
+cc_pokayoke:
+  tagline: Măsuri de prevenire a erorilor
+  title: 'Poka-Yoke: blocaje care opresc modificările necontrolate'
+  subtitle: Standardul este aplicat nu doar prin proceduri, ci și prin blocaje fizice și de sistem care fac imposibilă executarea modificărilor necontrolate.
+  features:
+    - icon: 1
+      icon_bg: blue
+      title: 'Poartă ECR pentru deblocarea sculei'
+      desc: 'Posturile de reprocesare citesc un cod de barej ECR semnat de QA înainte de deblocarea supapelor pneumatice de umflare și a malaxatoarelor de lipici. Fără o înregistrare de control al modificărilor aprobată, fără alimentare — semnătura retroactivă („mai întâi modificăm, apoi semnăm”) este blocată fizic.'
+    - icon: 2
+      icon_bg: green
+      title: 'Expirarea automată a abaterilor temporare'
+      desc: 'Abaterile temporare au un plafon rigid în sistem (de exemplu, maximum 50 de plăci sau 7 zile calendaristice). Atingerea plafonului blochează lotul și împiedică tipărirea etichetei de trecere a expediției până la evaluarea formală a modificării.'
+    - icon: 3
+      icon_bg: purple
+      title: 'Dovezi minime de validare'
+      desc: 'Modificările cu risc ridicat necesită cel puțin 5 plăci probă reprezentative, care acoperă limitele superioară și inferioară de toleranță, inspectate integral de 2 inspectori de control al calități independenți, înainte de emiterea unui raport de validare — o singură placă reparată nu este niciodată tratată drept validare de proces.'
+    - icon: 4
+      icon_bg: orange
+      title: 'Control documentar „unu intrat, unu ieșit”'
+      desc: 'Fișele de post de lucru depășite sunt colectate fizic și anulate (perforate) înainte de emiterea celei noi, marcate cu sigiliul roșu controlat — versiunile veche și cele noi nu coexistă niciodată la același post de lucru.'
+
+cc_downloads:
+  tagline: Documente QMS descărcabile
+  title: 'Documente controlate bilingve (PDF)'
+  subtitle: Documente oficiale bilingve EN/ZH ale QINGDAO VATRAD GROUP.,LTD. — pregătite pentru auditurile clienților, rapoartele tehnice B2B și distribuirea controlată în atelier.
+  features:
+    - icon: S
+      icon_bg: blue
+      title: 'SOP de control al modificărilor în reprocesare (PDF)'
+      desc: 'QMS-SOP-QC-CC-001 Rev 2.0: tabelul de clasificare a modificărilor, matricea de autorizare interdepartamentală, parametrii de validare de inginerie, limitele roșii de oprire și blocurile de semnătură a calității.'
+      link: 'https://assets.isupfactory.com/site/downloads/rework-change-control-sop-qms-sop-qc-cc-001.pdf?dl=1'
+      link_label: 'Descărcați PDF'
+    - icon: A
+      icon_bg: green
+      title: 'Anexa A de execuție (PDF)'
+      desc: 'Schema de date ECR, matricea de execuție de inginerie cu parametri cuantificați pentru cele patru procese de reprocesare de bază, logica blocajelor Poka-Yoke și blocul de semnătură pentru eliberare tripartită.'
+      link: 'https://assets.isupfactory.com/site/downloads/rework-execution-annex-a-qms-sop-qc-cc-001.pdf?dl=1'
+      link_label: 'Descărcați PDF'
+    - icon: R
+      icon_bg: purple
+      title: 'Guvernanța reprocesării controlate (pagină)'
+      desc: 'Pagină însoțitoare pentru sistemul de reprocesare a etanșeității la aer: clasificarea defectelor A–G, fișele de metodă aprobate MC-RW-01 până la MC-RW-06 și fluxul de reprocesare controlată în 7 pași.'
+      link: '/ro/factory/quality-inspection'
+      link_label: 'Vizitați pagina'
+    - icon: N
+      icon_bg: orange
+      title: 'Controlul produselor neconforme (pagină)'
+      desc: 'Controlul ieșirilor neconforme conform ISO 9001:2015, punctul 8.7: înregistrarea NCR, carantina, autoritatea de eliminare în funcție de severitate, reprocesarea controlată conform instrucțiunilor SRI, reinspecția independentă și protocolul de distrugere în prezența martorilor.'
+      link: '/ro/factory/non-conforming-control'
+      link_label: 'Vizitați pagina'
+
+faqs:
+  tagline: FAQ
+  title: 'Întrebări frecvente despre controlul modificărilor în reprocesare'
+  items:
+    - q: 'Poate fabrica să modifice parametrii de reprocesare fără să ne informeze?'
+      a: 'Nu. Orice modificare propusă a materialelor de reprocesare aprobate, a condițiilor de proces, a sculei, a metodelor de încercare, a criteriilor de inspecție sau a personalului autorizat trebuie să treacă mai întâi prin controlul documentat al modificărilor. Modificările care afectează specificațiile, mostrele, listele de materiale, grafica sau criteriile de acceptare aprobate de client necesită aprobarea scrisă a clientului.'
+    - q: 'Ce se consideră o modificare cu risc ridicat?'
+      a: 'Modificările materialelor sau furnizorilor de reprocesare, ale condițiilor de presiune și menținere sau de polimerizare, ale metodelor de reprocesare a supapelor, marginilor și cusăturilor, ale criteriilor de inspecție sau acceptare, precum și extinderea domeniului defectului către zone structurale sunt clasificate cu risc ridicat. Ele necesită analiză interdepartamentală, plan de validare aprobat și implementare pilot controlată înainte de utilizarea de rutină.'
+    - q: 'Poate fi folosită o abatere temporară pe termen nelimitat?'
+      a: 'Nu. Fiecare abatere temporară are o fereastră de valabilitate definită, un domeniu de loturi, un plafon de cantitate și cerințe de validare, cu expirare automată. Atingerea plafonului blochează lotul și împiedică tipărirea etichetei de trecere până la evaluarea formală a modificării.'
+    - q: 'Cum se dovedește că o metodă modificată funcționează înainte de utilizarea la scară?'
+      a: 'Modificările cu risc ridicat necesită un plan de validare: cel puțin 5 plăci probă reprezentative care acoperă limitele de toleranță, încercate de 2 inspectori de control al calități independenți față de criterii de acceptare cuantificate (eliminarea scurgerii, menținerea presiunii, funcționarea supapei, durabilitatea cusăturilor, aspectul). Aprobarea pentru validare nu este aprobare pentru aplicare.'
+    - q: 'Trebuie să aprobăm fiecare modificare?'
+      a: 'Nu fiecare modificare, dar orice modificare care îndepărtează produsul de la mostra, specificația tehnică, lista de materiale, grafica, ambalarea sau criteriile de acceptare aprobate de client este implementată numai cu acordul scris al clientului. Fără acesta, plăcile sunt reprocesate conform cerinței inițiale, înlocuite sau respinse.'
+    - q: 'Ce se întâmplă cu documentele vechi după aprobarea unei modificări?'
+      a: 'Instrucțiunile de lucru, fișele de parametri și fișele de inspecție vechi sunt colectate fizic și anulate (unu intrat, unu ieșit), marcate ca OBSOLETE și înlocuite de noua revizie controlată după instruire. Versiunile veche și cele noi nu coexistă niciodată la același post de lucru.'
+    - q: 'Cât timp se păstrează înregistrările controlului modificărilor?'
+      a: 'Înregistrările de închidere — dovezile de validare, reviziile documentare, înregistrările de instruire și analizele de eficacitate — sunt păstrate conform politicii noastre de păstrare a înregistrărilor (minimum 3 ani pentru înregistrările de închidere), astfel încât fiecare modificare să rămână trasabilă pentru audituri și analize de trasabilitate.'
+
+cta:
+  title: 'Aveți nevoie de documentele de control al modificărilor pentru auditul dumneavoastră?'
+  desc: 'Descărcați SOP-ul de control al modificărilor și Anexa A de execuție, în versiunea bilingvă, sau solicitați un exemplar anonimizat al șablonului nostru ECR și al planului de validare pentru proiectul dumneavoastră OEM/ODM.'
+  actions:
+    - text: 'Solicitați o analiză a calității'
+      variant: primary
+      href: /ro/contact
+    - text: 'Descărcați SOP-ul de control al modificărilor (PDF)'
+      href: 'https://assets.isupfactory.com/site/downloads/rework-change-control-sop-qms-sop-qc-cc-001.pdf?dl=1'
+    - text: 'Descărcați Anexa A de execuție (PDF)'
+      href: 'https://assets.isupfactory.com/site/downloads/rework-execution-annex-a-qms-sop-qc-cc-001.pdf?dl=1'

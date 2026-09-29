@@ -1,0 +1,74 @@
+meta:
+  title: 'Producție OEM și private label | {SITE}'
+  description: 'De la concept la producție: personalizați fiecare detaliu al liniei dumneavoastră de SUP gonflabile. Servicii OEM/ODM complete pentru mărcile de plăci de paddle private label.'
+  dateModified: '2026-08'
+  keywords:
+    - 'producție oem sup'
+    - 'plăci de paddle private label'
+    - 'sup gonflabil oem'
+    - 'fabrică sup personalizată'
+hero:
+  tagline: Producție OEM/ODM
+  title: Producție OEM și private label
+  subtitle: De la concept la producție — personalizați fiecare detaliu al liniei dumneavoastră de SUP gonflabile
+
+answer:
+  label: 'Răspuns direct'
+  text: 'MOQ-ul este confirmat în funcție de configurația proiectului, nu ca valoare fixă: fiecare proiect parcurge etapele de mostră (1–2 unități) și lot pilot (20–50 unități), iar producția standard de volum rulează cu 90–100+ unități pe lot din rola completă de 150 m drop-stitch. Mostrele sunt gata în 7–12 zile; producția standard durează 25–35 de zile după confirmarea comenzii și a avansului.'
+  verified: 'Septembrie 2026'
+
+intro: VATRAD oferă servicii OEM și ODM cuprinzătoare pentru mărci, distribuitori și instituții guvernamentale din întreaga lume. Cu 10+ ani de experiență în export și o fabrică de 12,500 m² certificată ISO 9001 și BSCI, ne asumăm totul, de la proiectarea produsului și dezvoltarea matrițelor până la producția la scară completă, ambalare și gestionarea exportului.
+
+highlight:
+  - value: 10+
+    label: Ani de experiență OEM
+    detail: Din 2012
+  - value: 50+
+    label: Țări de export
+    detail: Prezență globală
+  - value: 200+
+    label: Proiecte personalizate livrate
+    detail: Pe toate liniile de produse
+  - value: 25–35
+    label: Termen de livrare standard (zile)
+    detail: După confirmarea comenzii și a avansului
+
+services:
+  - title: Proiectare și inginerie de produs
+    description: Echipa noastră internă de cercetare și dezvoltare lucrează împreună cu conceptul sau specificațiile dumneavoastră pentru a dezvolta desene CAD, modele 3D și prototipuri. Oferim proiectarea matrițelor, optimizarea formei corpului și consultanță privind selecția materialelor.
+  - title: Branding și grafică personalizate
+    description: Tipărire digitală full-color, serigrafie, embossing și opțiuni de etichete. Dezvoltăm grafică de deck specifică mărcii, branding pe tuburi și ambalaje pregătite pentru retail.
+  - title: Personalizarea materialelor și specificațiilor
+    description: Alegeți dintre PVC (standard, ecologic, ignifug), Hypalon/CSM, drop-stitch și construcții hibride. Culori personalizate pentru tuburi, gramaje de țesătură și opțiuni de ranforsare.
+  - title: Ambalare și logistică
+    description: Ambalaje retail personalizate, cutii private label, ambalare în vid, paletizare și ambalare de calitate export pregătite în regim propriu.
+
+moq_table:
+  - product: Plăci SUP gonflabile
+    standard_moq: 'Mostră 1–2 | Pilot 20–50'
+    custom_moq: 'Volum 90–100+ (pe rolă de 150 m)'
+    lead_time: 25–35 zile
+
+why_us:
+  - title: Integrare verticală
+    description: Deținem fabrica, matrițele și lanțul de aprovizionare — fără intermediari, fără subcontractori. Acest lucru ne oferă control asupra calității, costului și livrării.
+  - title: Certificare dublă
+    description: Managementul calității ISO 9001 și certificarea de conformitate socială BSCI. Rapoartele de audit al fabricii sunt disponibile la cerere.
+  - title: Conformitate CE
+    description: Certificarea CE se aplică modelelor destinate piețelor Uniunii Europene (domeniul se confirmă proiect cu proiect). Modelele personalizate pot fi certificate CE prin procesul nostru deja stabilit.
+  - title: MOQ adaptat proiectului
+    description: 'MOQ-ul este confirmat în funcție de configurația proiectului — producția în loturi mici cu marcă comună începe de la 5–10 unități, iar volumul standard rulează cu 90–100+ unități pe lot. Ajutăm mărcile în curs de afirmare să se lanseze fără a se angaja excesiv în stocuri.'
+
+cta:
+  title: 'Aplicați propria marcă pe o placă deja validată'
+  subtitle: 'De la evaluarea specificațiilor până la containerul încărcat — trimiteți astăzi brieful și primiți o ofertă OEM detaliată în termen de o zi lucrătoare. Verificați fabrica și sistemul său de calitate înainte de a vă angaja.'
+  actions:
+    - variant: primary
+      text: 'Solicitați o ofertă OEM'
+      href: /ro/contact#custom-oem
+    - text: 'Verificați fabrica și sistemul de calitate'
+      href: /ro/oem-trust-assurance
+    - text: 'Sistemul de inspecție în 7 etape'
+      href: /ro/quality
+    - text: 'Vizitați linia de producție'
+      href: /ro/factory/process

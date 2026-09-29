@@ -1,0 +1,14 @@
+meta:
+  title: 'Noutăți — Producător SUP și actualități nautice | {SITE}'
+  description: 'Ultimele noutăți de la VATRAD: actualizări ale fabricii, modele noi de SUP gonflabile, certificări și anunțuri din industria nautică.'
+  keywords:
+    - 'noutăți producător SUP'
+    - 'actualizări VATRAD'
+    - 'anunțuri SUP gonflabile'
+    - 'noutăți din industria nautică'
+hero_text:
+  tagline: ''
+  title: Noutăți
+  subtitle: Ultimele informații de la VATRAD — lansări de produse, actualizări ale companiei, ghiduri și povești de pe apă
+news_list:
+  limit: 100

@@ -1,0 +1,170 @@
+meta:
+  title: 'Ghid MOQ SUP: branding flexibil și cantități minime de comandă'
+  description: 'Cum se calculează MOQ-ul pentru SUP-urile gonflabile: o rolă drop-stitch de 150 m produce 90–100 de plăci, co-branding de la 5–10 bucăți și taxe de formare transparente.'
+  dateModified: '2026-08-14'
+  keywords:
+    - 'moq sup'
+    - 'cantitate minimă de comandă sup gonflabil'
+    - 'program co-branding sup'
+    - 'loturi mici sup'
+    - 'moq plăci paddle personalizate'
+    - 'fabrică sup oem china'
+
+hero:
+  tagline: 'Transparent și specific proiectului'
+  title: 'Ghid MOQ pentru branding flexibil și producție'
+  subtitle: 'Înțelegeți fizica materiilor prime drop-stitch care determină loturile de producție SUP — și modul în care funcționează programul nostru de co-branding cu barieră redusă pentru operatori de închiriere, cluburi, resorturi și mărci de sporturi nautice în creștere. Proiectat și operat de Qingdao Vatrad Group Co., Ltd.'
+
+answer:
+  label: 'Răspuns direct'
+  text: 'MOQ nu este o cifră unică valabilă pentru toate cazurile. Fiecare MOQ este confirmat în funcție de configurația proiectului: forma corpului de apă și uneltele, variantele de culoare și PVC, complexitatea artwork-ului, ambalajele și combinația de accesorii. Producția de volum complet personalizat este de 90–100 de bucăți pe lot dintr-o rolă standard de țesătură drop-stitch de 150 m; co-branding-ul în loturi mici începe de la 5–10 bucăți; iar fiecare proiect este împărțit în trei etape distincte — dezvoltarea mostrei (1–2 bucăți), comanda pilot (20–50 de bucăți) și producția de volum (90–100+ bucăți). Confirmăm calculul exact pentru combinația dumneavoastră de SKU-uri înainte de ofertă — fără promisiuni vagi de „MOQ mic”, fără compromisuri ascunse.'
+  verified: 'Septembrie 2026'
+
+moq_principle:
+  tagline: Logica de inginerie
+  title: 'De ce MOQ-ul de volum standard este de 90–100 de bucăți: fizica rolei de material'
+  subtitle: 'Dimensiunile loturilor de producție nu sunt cifre arbitrare stabilite de un departament comercial — sunt determinate de lungimile rolelor de țesătură drop-stitch și de fizica schimbării de setare pe linie.'
+  body: |
+    **Baza de 150 de metri de țesătură brută.** Țesătura drop-stitch țesută, de rezistență mecanică ridicată, este produsă și acoperită pe role master continue. Lungimea standard a rolei industriale pentru un singur lot este de 150 de metri de material continuu.
+
+    **Calculul de randament (90 până la 100 de plăci).** Pentru un corp de apă SUP standard, touring sau all-around (de la 10 ft 6 in la 11 ft 6 in), o rolă master completă de 150 m furnizează aproximativ 90 până la 100 de plăci de paddle finite.
+
+    **Politica de îmbinare zero a țesăturii.** Rolele complete de țesătură asigură continuitate structurală integrală — fără îmbinări transversale de țesătură cu risc ridicat și cu tensiune uniformă a fibrelor pe suprafețele superioară și inferioară ale plăcii.
+
+    **Calibrarea termică și a adezivilor.** Liniile automatizate de sudură cu aer cald la înaltă frecvență și de laminare cu adeziv marin necesită 2 ore de preîncălzire, profilare a temperaturii și calibrare a presiunii. Un lot complet de 90–100 de bucăți amortizează aceste costuri fixe de pregătire și asigură cel mai mic cost posibil pe bucată.
+
+moq_tiers:
+  tagline: Două trasee către marca dumneavoastră
+  title: 'Producție OEM de volum complet personalizat față de co-branding în loturi mici'
+  subtitle: 'O singură fabrică, două puncte de intrare: producție de masă complet personalizată pentru linii stabilite și un program de co-branding cu barieră redusă pentru cluburi, centre de închiriere și mărci în creștere.'
+  features:
+    - icon: P
+      icon_bg: blue
+      title: 'OEM de volum complet personalizat — 90–100 de bucăți pe lot'
+      desc: 'Determinat de lungimea standard de 150 m a rolei de țesătură drop-stitch de calitate superioară, pentru a asigura utilizarea optimă a materialului și consistența structurală. · Personalizare completă la 100%: formă exclusivă a corpului de apă și variante de culoare Pantone personalizate · Acoperire integrală a suprafeței cu artwork digital sau tipărit în serigrafie · Ambalaje retail personalizate, cutii imprimate și accesorii cu branding · Eficiență maximă a costurilor și economii de scară'
+      link: '/ro/contact#custom-oem'
+      link_label: 'Solicitați informații despre OEM de volum'
+    - icon: B
+      icon_bg: green
+      title: 'Co-branding în loturi mici — sub 20 de bucăți'
+      desc: 'O soluție cu barieră redusă, construită pe colecțiile noastre anuale de produse testate în practică, pentru cluburi, centre de închiriere și resorturi — fără stocuri grele. · Carcasă și geometrie fixe: forme de corp de apă testate în practică, cu conformitate CE / ISO 25649 · Identificator principal: brandingul oficial iSupfactory în secțiunea centrală · Branding secundar personalizat: logo-ul dumneavoastră tipărit pe prăbuie sau pe șinele laterale · Testare completă la presiune și de etanșeitate pe 24 de ore, pentru 100% din lot'
+      link: '/ro/contact#cobranding'
+      link_label: 'Începeți co-branding-ul în loturi mici'
+
+moq_fees:
+  tagline: Taxe de tipărire în serigrafie transparente
+  title: 'Structura taxelor de co-branding — detaliate de la început'
+  subtitle: 'Preturi clare și detaliate pentru tipărirea în serigrafie în loturi mici. Taxele pentru forme se percep o singură dată la configurarea inițială și sunt scutite la comenzile repetate care folosesc aceeași dimensiune a artwork-ului.'
+  headers:
+    fee: Element de taxare
+    amount: Sumă
+    detail: Detalii
+  rows:
+    - fee: 'Taxă pentru forma de tipărire în serigrafie (unică, logo până la 30 cm)'
+      amount: '$10.00 USD'
+      detail: 'Se percepe o singură dată la configurarea inițială; scutită la comenzile repetate cu aceeași dimensiune a artwork-ului.'
+    - fee: 'Taxă pentru forma de tipărire în serigrafie (unică, logo până la 50 cm)'
+      amount: '$15.00 USD'
+      detail: 'Se percepe o singură dată la configurarea inițială; scutită la comenzile repetate cu aceeași dimensiune a artwork-ului.'
+    - fee: 'Taxă de manipulare în fabrică și tipărire de precizie'
+      amount: '$1.00 USD per placă'
+      detail: 'Acoperă poziționarea manuală a coordonatelor, pretratarea cu solvent, transferul cernelii și întărirea termică.'
+
+moq_stages:
+  tagline: Mostră · Pilot · Volum
+  title: 'Trei etape distincte de cantitate'
+  subtitle: 'Cantitățile pentru mostră, pilot și producția de volum sunt diferite. Fiecare proiect este încadrat într-unul dintre cele trei trepte distincte, astfel încât să validați înainte de a vă angaja.'
+  steps:
+    - step: '01'
+      title: 'Dezvoltarea mostrei (1–2 bucăți)'
+      desc: 'Confirmare fizică a rigidității corpului de apă, a texturii suprapușului de tracțiune EVA, a acurateții graficii și a montării accesoriilor, înainte de orice angajament financiar. Se aplică taxele pentru mostră, care sunt creditate la comanda de producție la semnarea contractului.'
+    - step: '02'
+      title: 'Comanda pilot (20–50 de bucăți)'
+      desc: 'Testare comercială înainte de sezon și validare a pieței regionale, folosind platforme existente ale corpului de apă, materiale din stoc și ambalaje simplificate, pentru a minimiza fricțiunea de configurare.'
+    - step: '03'
+      title: 'Producția de volum (90–100+ bucăți)'
+      desc: 'Se confirmă după blocarea listei de materiale, finalizarea artwork-ului, ambalajele personalizate și planificarea livrării — role complete de țesătură de 150 m, țesături Pantone personalizate, ambalaje dedicate, reduceri de volum și trasabilitate a loturilor pe întregul lanț.'
+
+moq_factors:
+  tagline: Ce determină MOQ-ul dumneavoastră
+  title: 'De ce MOQ-ul complet personalizat este întotdeauna specific proiectului'
+  subtitle: 'Pentru producție 100% pe comandă, MOQ-ul se calculează din arhitectura completă a produsului — aceste patru componente sunt evaluate împreună înainte de ofertă.'
+  headers:
+    component: Componentă de proiect
+    driver: Factor de producție
+    impact: Impact asupra cantității minime
+  rows:
+    - component: 'Forma corpului de apă și uneltele'
+      driver: 'Forme rocker existente în fabrică față de matrițe de tăiere CAD dedicate și unelte de presare la cald EVA'
+      impact: 'Platforme existente: comenzi pilot de la 20 de bucăți. Corpuri de apă dedicate: este necesară amortizarea uneltelor specifice.'
+    - component: 'Variantele de culoare și PVC-ul'
+      driver: 'Culori standard unice din stoc față de foi de PVC vopsite Pantone, proprietare'
+      impact: 'PVC-ul Pantone personalizat necesită rulaje dedicate de vopsire chimică, cu MOQ-uri independente pentru materii prime.'
+    - component: 'Ambalajele de marcă'
+      driver: 'Cutii generice cu etichete cu cod de bare față de cutii de cadou retail din carton de 5 straturi, tipărite integral în culoare, și manuale cu branding'
+      impact: 'Cutii colorate personalizate au un minim independent al utilajului de tipărire offset (de regulă 500+ cutii).'
+    - component: 'Pachetele de accesorii'
+      driver: 'Vâsle standard din aluminiu sau nailon față de vâsle din carbon adaptate și pompe cu branding'
+      impact: 'Accesoriile complet personalizate urmează loturile de producție ale furnizorilor de subnivel.'
+
+moq_downloads:
+  tagline: Documente oficiale
+  title: 'Fișe de politică bilingve — descărcați și distribuiți'
+  subtitle: 'Documente oficiale de la Qingdao Vatrad Group Co., Ltd., gata de atașat la solicitările cumpărătorilor. Ambele fișiere sunt bilingve (engleză / chineză).'
+  features:
+    - icon: G
+      icon_bg: blue
+      title: 'Ghid de branding flexibil și MOQ (PDF)'
+      desc: 'Ghid B2B oficial (Partea I, DOC-MOQ-EXP-2026-EN, publicat la 14 aug 2026): logica de inginerie din spatele randamentului unei role drop-stitch de 150 m (90–100 de plăci), programul de co-branding de la 5–10 bucăți, taxele transparente de tipărire în serigrafie și cele trei etape de producție.'
+      link: 'https://assets.isupfactory.com/site/downloads/flexible-branding-and-moq-guide.pdf'
+      link_label: 'Descărcați ghidul (PDF)'
+    - icon: P
+      icon_bg: green
+      title: 'Politică de branding flexibil și co-branding (PDF)'
+      desc: 'Dossier oficial de politică (Partea 1, POL-MOQ-2026-V1): regulile co-branding-ului în loturi mici, cadrul MOQ specific proiectului, cei patru factori care determină minimele și semnătura comună a Vicepreședintelui Vânzări, Inginerului Șef și Directorului QA.'
+      link: 'https://assets.isupfactory.com/site/downloads/flexible-branding-and-moq-policy.pdf'
+      link_label: 'Descărcați politica (PDF)'
+
+moq_faqs:
+  tagline: FAQ
+  title: 'Întrebări frecvente despre MOQ'
+  items:
+    - q: 'MOQ-ul se calculează pe comandă, pe model sau pe variantă de culoare?'
+      a: 'MOQ-ul se poate aplica pe model, variantă de culoare, versiune de artwork, configurație de ambalare sau comandă totală. Deoarece grosimi diferite ale drop-stitch-ului (12 cm față de 15 cm) și culorile diferite de PVC provin din role de materii prime distincte, comandarea a 50 de plăci împărțite pe 5 culori creează 5 cerințe separate de role de țesătură. Confirmăm calculul exact față de matricea dumneavoastră de SKU-uri înainte de ofertă, astfel încât să vă puteți planifica combinația clar.'
+    - q: 'Pot comanda o mostră înainte de producția de masă?'
+      a: 'Da. Dezvoltarea mostrei (1–2 bucăți) verifică rigiditatea corpului de apă, textura suprapușului de tracțiune EVA, acuratețea graficii și montarea accesoriilor, înainte de eliberarea producției de masă. Se aplică taxele pentru mostră, care sunt creditate la comanda de producție la semnarea contractului.'
+    - q: 'De ce are ambalajul retail personalizat un MOQ independent?'
+      a: 'Utilajele de tipărire flexografică sau offset pentru cutii personalizate necesită o producție minimă de 500+ bucăți. Oferim o Soluție Hibridă de Depozitare a Ambalajelor: producem cele 500 de cutii tipărite personalizat, păstrăm excedentul în depozitul nostru curat și îl eliberm pe parcursul expedițiilor de plăci programate ale dumneavoastră — astfel încât și o comandă mai mică poate fi expediată în ambalaje retail complet personalizate.'
+    - q: 'De ce este MOQ-ul de volum standard de 90–100 de bucăți?'
+      a: 'MOQ-ul de volum standard urmează materia primă: o rolă master de 150 m de țesătură drop-stitch de calitate superioară furnizează aproximativ 90–100 de plăci finite pentru un corp de apă touring sau all-around standard. Utilizarea rolelor complete elimină îmbinările de țesătură, menține tensiunea fibrelor uniformă și amortizează calibrarea de 2 ore a liniei de sudură și laminare — asigurând cel mai mic cost posibil pe bucată.'
+    - q: 'O cantitate mai mare reduce costul pe bucată?'
+      a: 'În majoritatea proiectelor, da. Cantitățile mai mari îmbunătățesc randamentul materialelor, distribuie cheltuielile fixe de configurare a liniei de producție pe mai multe plăci și reduc costurile de ambalare pe bucată.'
+    - q: 'Se aplică din nou taxele pentru forme de co-branding la comenzile repetate?'
+      a: 'Nu. Taxele pentru formele de tipărire în serigrafie se percep o singură dată la configurarea inițială și sunt scutite la comenzile repetate care folosesc aceeași dimensiune a artwork-ului. Plătiți doar taxa de manipulare în fabrică și tipărire de $1.00 USD per placă.'
+    - q: 'Solicitarea unei consultanțe MOQ mă obligă la o comandă?'
+      a: 'Nu. Solicitarea unei consultanțe MOQ de proiect permite echipei noastre de inginerie de la Qingdao Vatrad Group Co., Ltd. să analizeze fișa tehnică a dumneavoastră și să vă recomande traseul de producție cel mai rentabil. Un Acord de Confidențialitate (NDA) este disponibil înainte de a partaja specificații tehnice sau artwork confidențial.'
+
+evidence_review:
+  tagline: 'Dovezi și verificare'
+  title: 'SPECIFICAȚII VERIFICATE'
+  body: 'Toate afirmațiile de producție de pe această pagină sunt verificate de Echipa noastră de Inginerie de Producție în uzina din Laixi, Qingdao. Certificatele, înregistrările de inspecție a calității, rapoartele de testare la presiune și structură și înregistrările de trasabilitate a loturilor sunt disponibile la cerere. Specificațiile au fost verificate ultima dată în septembrie 2026.'
+
+cta:
+  title: 'Necesitați o consultanță MOQ pentru proiectul dumneavoastră SUP?'
+  subtitle: 'Partajați modelul de placă vizat, intervalul estimat pentru prima comandă și cerințele de branding. Vă vom indica dacă traseul de mostră, pilot sau de volum este cel mai potrivit ca pas următor. Trimiterea unei solicitări nu vă obligă la o cantitate finală — este posibilă discuția unui NDA.'
+  actions:
+    - variant: primary
+      text: Solicitați consultanță MOQ de proiect
+      href: /ro/contact#moq-guide
+    - text: Detalierea MOQ și a termenelor pentru SUP personalizat
+      href: /ro/sup-oem-moq-lead-time
+    - text: Lansați o marcă nouă cu o comandă de încercare
+      href: /ro/new-brand-trial-order
+    - text: Verificați fabrica și sistemul de calitate
+      href: /ro/oem-trust-assurance
+    - text: Sistemul de inspecție în 7 etape
+      href: /ro/quality
+    - text: Prezentare generală a producției OEM și ODM
+      href: /ro/oem-manufacturing
+    - text: Comparația construcțiilor SUP
+      href: /ro/sup-construction-comparison

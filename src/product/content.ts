@@ -414,6 +414,30 @@ export const hero: Localized<HeroContent> = {
     float1: { value: '1–2 adet', label: 'Numune ve onay (sipariş hacmi taahhütünden önce)' },
     float2: { value: FACTS.leadTime, label: 'Üretim süresi (siparişten sonra)' },
   },
+  ro: {
+    kicker: 'Producător OEM / ODM de SUP-uri umflabile la comandă — Qingdao, China',
+    titlePre: 'Producător de SUP-uri umflabile și',
+    titleAccent: 'fabrică OEM/ODM',
+    titlePost: '',
+    sub: 'Plăci SUP umflabile la comandă, proiectate, prototipate și fabricate în fabrica noastră din Qingdao, China.',
+    ctaPrimary: 'Solicitați o ofertă OEM',
+    ctaSecondary: 'Dezvoltați-vă produsul SUP',
+    ctaTertiary: 'Explorați fabrica noastră',
+    ctaQuartiary: '',
+    ctaMicro: 'OEM · ODM · Marcă privată · Dezvoltare de produs · Prototipuri · Producție de serie',
+    stats: [
+      { value: '12 500 m²', label: 'Fabrică proprie — Qingdao, China' },
+      { value: '120 000+', label: 'Plăci produse anual' },
+      { value: '50+', label: 'Țări de export deservite' },
+      { value: FACTS.ndaWindow, label: 'Termen de răspuns la NDA' },
+    ],
+    mockupLabel: 'Platformă emblematică',
+    mockupBrand: "SUP Explorer 11'",
+    mockupHint: 'Graficele dumneavoastră · Culorile dumneavoastră · Ambalajul dumneavoastră',
+    heroNote: 'Producție directă în fabrică · Dezvoltarea prototipurilor · Producție cu controlul calității · Sprijin pentru export',
+    float1: { value: '1–2 buc.', label: 'Mostră și aprobare (înainte de angajamentul de volum)' },
+    float2: { value: FACTS.leadTime, label: 'Termen de producție (după PO)' },
+  },
 }
 
 /* ─────────────────────────── home: manufacturer pledge ─────────────────────────── */
@@ -611,6 +635,18 @@ export const manufacturerPledge: Localized<ManufacturerPledgeContent> = {
       { title: 'Markanız, asla bizimki değil', body: 'Yalnızca müşterilerimizin markalarıyla üretiriz ve hiçbir pazarda onlarla rekabet etmeyiz.' },
     ],
     verifyLabel: 'Kim olduğumuzu doğrulayın',
+    verifyHref: '/about/identity',
+  },
+  ro: {
+    kicker: 'Producător, nu o societate de intermediar',
+    title: 'Fabrica din spatele comenzii dumneavoastră este a noastră',
+    sub: 'O societate de intermediar revinde producția altor fabrici. Noi operăm uzina. Nu există marjă de intermediar, depozit terț și nici intermediar între comanda dumneavoastră și sala de producție.',
+    items: [
+      { title: 'Persoană juridică înregistrată', body: 'Qingdao Vatrad Group Co., Ltd. este partea contractantă la fiecare comandă și în fiecare document de export.' },
+      { title: 'O singură fabrică, o singură echipă', body: 'Dezvoltarea produsului, inspecția calității, planificarea producției și documentele de export sunt realizate integral în fabrica noastră din Laixi, Qingdao, China.' },
+      { title: 'Marca dumneavoastră, niciodată a noastră', body: 'Producem doar cu mărcile clienților noștri și nu concurăm cu ei pe nicio piață.' },
+    ],
+    verifyLabel: 'Verificați cine suntem',
     verifyHref: '/about/identity',
   },
 }
@@ -904,6 +940,24 @@ export const factoryProof: Localized<FactoryProofContent> = {
     ],
     note: 'MOQ, tasarım, tahta boyutu, PVC yapısı, grafik, ambalaj ve aksesuarlar malzeme tüketimini etkilediği için teknik özellik değerlendirmesinden sonra kesinleşir.',
   },
+  ro: {
+    kicker: 'Dovezi din fabrică',
+    title: 'O fabrică reală, documentată',
+    sub: 'Cifre verificabile de la instalația noastră din Qingdao, China — fiecare valoare este legată de pagina pe care se află dovada.',
+    cta: 'Verificați această valoare',
+    stats: [
+      { value: FACTS.warehouseM2, label: 'Instalație proprie de producție', href: '/factory' },
+      { value: FACTS.workers, label: 'Personalul propriu al instalației', href: '/manufacturing-capabilities' },
+      { value: '120 000+', label: 'Plăci produse anual', href: '/factory/capacity' },
+      { value: FACTS.exportCountries, label: 'Țări de export', href: '/proof-center' },
+    ],
+    links: [
+      { label: 'MOQ și termenul de livrare', href: '/sup-oem-moq-lead-time' },
+      { label: 'Inspecția calității', href: '/quality' },
+      { label: 'Listă de control pentru auditul fabricii', href: '/factory-audit-checklist' },
+    ],
+    note: 'MOQ, designul, dimensiunile plăcii, structura din PVC, graficele, ambalajele și accesoriile influențează consumul de materii prime, de aceea sunt stabilite după evaluarea specificațiilor tehnice.',
+  },
 }
 
 /* ─────────────────────────── home: factory evidence (verification band) ─────────────────────────── */
@@ -1086,6 +1140,17 @@ export const factoryEvidence: Localized<FactoryEvidenceContent> = {
       { title: 'Kanıt Merkezi', body: 'Sertifikalar, üçüncü taraf raporları, denetim kayıtları ve teslim edilen proje belgeleri tek bir yerde.', href: '/proof-center' },
       { title: 'Fabrikayı doğrulayın', body: 'Taahhüt vermeden önce halka açık ticari kayıtlarımızı, sertifikalarımızı ve doğrulama kılavuzumuzu karşılaştırın.', href: '/verify-factory' },
       { title: 'Fabrika denetim kontrol listesi', body: 'Şişirilebilir SUP tahtası fabrikası denetiminde kullanılan alıcı kontrol listesini indirin — tesis, ekipman ve süreçler.', href: '/factory-audit-checklist' },
+    ],
+  },
+  ro: {
+    kicker: 'Verificați-ne înainte de a comanda',
+    title: 'Dovezile fabricii și verificarea',
+    sub: 'Verificare independentă a faptului că instalația, echipamentul, sistemul de calitate și înregistrările noastre de export sunt reale — examinați și verificați înainte de orice angajament.',
+    cta: 'Arătați dovezile',
+    items: [
+      { title: 'Centrul de dovezi', body: 'Certificate, rapoarte de terțe părți, înregistrări de audit și documentația proiectelor livrate, într-un singur loc.', href: '/proof-center' },
+      { title: 'Verificați fabrica', body: 'Comparați înregistrările comerciale publice, certificatele și ghidul de verificare înainte de a vă angaja.', href: '/verify-factory' },
+      { title: 'Listă de control pentru auditul fabricii', body: 'Descărcați lista de control a cumpărătorului folosită la auditarea unei fabrici de plăci SUP umflabile — instalație, echipament și procese.', href: '/factory-audit-checklist' },
     ],
   },
 }
@@ -1482,6 +1547,31 @@ export const why: Localized<WhyContent> = {
       },
     ],
   },
+  ro: {
+    kicker: 'Brandul de producție',
+    title: 'Susținut de Vatrad',
+    sub: 'iSupfactory este divizia de dezvoltare și producție a produselor SUP din cadrul Qingdao Vatrad Group Co., Ltd. Uzina noastră de 12 500 m² din Laixi, Qingdao produce produse umflabile din 2012, cu peste 25 de ingineri în cercetare și dezvoltare, proiectarea matrițelor, laboratorul de materiale și ingineria de producție, cu o experiență medie de peste 7 ani în fabricarea produselor umflabile și două ture de producție zilnic.',
+    image: 'https://assets.isupfactory.com/images/sups/factory/isupfactory-production-department.webp',
+    imageCaption: 'Sediul de producție Vatrad, Qingdao, China',
+    bullets: [
+      {
+        title: 'Uzina de 12 500 m²',
+        body: 'De la PVC brut la placa finită, integral la noi, în Laixi, Qingdao.',
+      },
+      {
+        title: 'Producție din 2012',
+        body: 'Două ture de producție zilnic pentru SUP-uri și produse umflabile.',
+      },
+      {
+        title: 'Peste 25 de ingineri',
+        body: 'În cercetare și dezvoltare, proiectarea matrițelor, laboratorul de materiale și ingineria de producție.',
+      },
+      {
+        title: 'În medie, peste 7 ani',
+        body: 'Experiență în fabricarea produselor umflabile, per inginer.',
+      },
+    ],
+  },
 }
 
 /* ─────────────────────────── capability strip ─────────────────────────── */
@@ -1502,6 +1592,7 @@ export const strip: Localized<string[]> = {
   ru: ['OEM & ODM', 'Private Label', 'Услуга образцов', 'Дизайн и графика', 'Контроль качества каждой партии', 'Экспорт по всему миру'],
   cs: ['OEM & ODM', 'Private Label', 'Služba vzorků', 'Design a grafika', 'Kontrola kvality každé dávky', 'Export do celého světa'],
   tr: ['OEM & ODM', 'Özel Marka', 'Numune Hizmeti', 'Tasarım ve grafik', 'Her partide kalite kontrolü', 'Dünyaya ihracat'],
+  ro: ['OEM & ODM', 'Marcă privată', 'Serviciu de mostre', 'Design și grafică', 'Controlul calității la fiecare lot', 'Export în toată lumea'],
 }
 
 /* ─────────────────────────── home: trust bar ─────────────────────────── */
@@ -1724,6 +1815,20 @@ export const trustBar: Localized<TrustBarContent> = {
       { value: FACTS.exportCountries, label: 'AB, ABD, Avustralya ve Asya ihracat pazarları' },
       { value: '18 PSI / 24 h', label: 'her tahta ambalajlanmadan önce %100 basınç ve sızdırmazlık kontrolü' },
       { value: 'MSL Fusion', label: 'drop-stitch dokuma yapılarla çok katmanlı yüksek frekanslı kaynak' },
+    ],
+  },
+  ro: {
+    stats: [
+      { value: `MOQ ${MOQ_SHORT.standardRun}`, label: 'pentru producția de serie; loturile-pilot încep de la 20–50 de bucăți' },
+      { value: FACTS.sampleTime, label: 'mostrele ajung la dumneavoastră după aprobarea graficelor' },
+      { value: FACTS.leadTime, label: 'producție de serie după confirmarea comenzii (PO) și a avansului' },
+      { value: FACTS.annualCapacity, label: 'capacitatea anuală de producție proprie a uzinei noastre din Qingdao, China' },
+      { value: FACTS.warehouseM2, label: 'instalație proprie, de la PVC brut până la placa finită' },
+      { value: FACTS.workers, label: 'muncitori și ingineri din instalația noastră' },
+      { value: 'ISO 9001 · CE · BSCI', label: 'certificate; materiale conforme cu REACH/RoHS' },
+      { value: FACTS.exportCountries, label: 'piețe de export din UE, SUA, Australia și Asia' },
+      { value: '18 PSI / 24 h', label: 'control de presiune și etanșeitate 100% înainte de ambalarea fiecărei plăci' },
+      { value: 'MSL Fusion', label: 'sudare de înaltă frecvență în mai multe straturi, cu țesături drop-stitch' },
     ],
   },
 }
@@ -2101,6 +2206,30 @@ export const solve: Localized<SolveContent> = {
       {
         title: 'Seri Tedarik — Tekrarlanan ve filo siparişleri',
         body: 'Sabit spesifikasyonlar, partiler arası izlenebilirlik ve her tekrar siparişinde değişmeyen yapı arayan distribütörler, kiralama işletmeleri ve sektör grupları için büyük ölçekli seri üretim.',
+      },
+    ],
+  },
+  ro: {
+    kicker: 'Producție OEM și ODM',
+    title: 'Două moduri de a vă construi produsul SUP',
+    sub: 'OEM dacă aveți o specificație, ODM dacă aveți o idee — plus opțiuni de marcă privată și de livrări în serie pentru brandurile care au nevoie de o platformă deja validată.',
+    cta: 'Solicitați o ofertă OEM',
+    items: [
+      {
+        title: 'OEM — producție conform specificațiilor dumneavoastră',
+        body: 'OEM (Original Equipment Manufacturing): producem conform specificației aprobate de dumneavoastră — desenelor, dimensiunilor, materialelor, construcției și ambalajului dumneavoastră. Designul, matrițele și drepturile de proprietate intelectuală vă aparțin.',
+      },
+      {
+        title: 'ODM — dezvoltarea plăcii împreună cu echipa noastră de ingineri',
+        body: 'ODM (Original Design Manufacturing): echipa noastră de ingineri dezvoltă structura, construcția, graficele și ambalajul plăcii conform briefului dumneavoastră — fie că este vorba despre un concept de piață, o țintă de performanță sau o adaptare a unei platforme validate. Fabrica propune designul; cumpărătorul îl aprobă înainte de producție.',
+      },
+      {
+        title: 'Marcă privată — marca dumneavoastră pe o platformă validată',
+        body: 'Marcă privată: marca, graficele și ambalajul dumneavoastră pe o platformă existentă și validată — fără dezvoltarea matrițelor și fără modificări de construcție. Cel mai scurt drum de la concept la livrare.',
+      },
+      {
+        title: 'Livrări în serie — comenzi repetate și comenzi de flotă',
+        body: 'Producție la scară largă pentru distribuitori, operatori de închirieri și grupuri din sector, cu specificații ferme, trasabilitate pe loturi și construcție neschimbată la fiecare comandă repetată.',
       },
     ],
   },
@@ -2586,6 +2715,37 @@ export const capability: Localized<CapabilityContent> = {
       },
     ],
   },
+  ro: {
+    kicker: 'Capabilități de producție',
+    title: 'Șase tehnologii de producție proprii',
+    sub: 'Toate procesele enumerate mai jos sunt realizate în regim propriu. Nimic esențial nu este externalizat.',
+    items: [
+      {
+        name: 'Tăiere CNC',
+        body: 'Mașinile CNC automate taie PVC, Hypalon și materialul drop-stitch cu o precizie de poziționare de 0,1 mm, iar optimizarea computerizată a decupării reduce deșeurile de material.',
+      },
+      {
+        name: 'Sudare de înaltă frecvență',
+        body: 'Presele de sudare de 15 kW realizează cusături etanșe. Benzile de margine sunt îmbinate prin sudare în trei straturi, ceea ce conferă rezistență muchiei și la șocuri.',
+      },
+      {
+        name: 'Laminarea miezului drop-stitch',
+        body: 'Mii de fibre interioare de poliester țin straturile superior și inferior paralele, creând o platformă rigidă la 12–15 PSI. Miezurile sunt laminate până la 14 picioare.',
+      },
+      {
+        name: 'Grafică pe platformă',
+        body: 'Imprimare digitală full-color și serigrafie multicolor conform fișierelor dumneavoastră de marcă. Suporturile EVA de pe platformă, în culorile dumneavoastră, cu logo-uri, decupaje și modele proprii.',
+      },
+      {
+        name: 'Asamblare și dotare',
+        body: 'Fiecare placă parcurge o listă de verificare de 100 de puncte, semnată de șeful de linie — cârlige D, inelele, supapele, sistemele de fixare a leash și montarea accesoriilor.',
+      },
+      {
+        name: 'Ambalaj de export',
+        body: 'Ambalare în vid, în cutii de carton și pregătire pentru export, cu cutii de retail imprimate ca opțiune.',
+      },
+    ],
+  },
 }
 
 /* ─────────────────────────── home: quality control (How Every Board Is Verified) ─────────────────────────── */
@@ -3065,6 +3225,37 @@ export const quality: Localized<QualityContent> = {
       {
         title: 'Parti izlenebilirliği',
         body: 'Her malzeme partisi ERP’de benzersiz bir numara alır. Her tahtanın spesifikasyonu (BOM), tedarikçiden gelen ilk partiyle eşleştirilir. Kayıtlar CE 2013/53/EU uygunluğunda 10 yıl saklanır.',
+      },
+    ],
+  },
+  ro: {
+    kicker: 'Controlul calității',
+    title: 'Cum este verificată fiecare placă',
+    sub: 'Calitatea nu este o promisiune, ci un proces documentat. Înainte ca comanda dumneavoastră să fie expediată, efectuăm următoarele.',
+    steps: [
+      {
+        title: 'Controlul materialelor de intrare',
+        body: 'Rulourile de PVC, miezurile drop-stitch, supapele, adezivii și accesoriile sunt ținute în carantină până la aprobarea inspecției calității. Înainte de intrarea în producție, materialele trec prin teste de rezistență la tracțiune, propagare a tracțiunii și rezistență la UV.',
+      },
+      {
+        title: 'Puncte de control în cursul producției',
+        body: 'La fiecare etapă de producție există puncte de control ale calității; se preiau probe de sudură din lot și se supun testului de desprindere (peel).',
+      },
+      {
+        title: 'Test de presiune și etanșeitate',
+        body: 'Fiecare compartiment este umflat până la 18,0 PSI și lăsat 24 de ore cu înregistrarea senzorului pornită fără întrerupere. Orice compartiment care pierde mai mult de 0,50 PSI în 24 de ore este respins și reevaluat pentru controlul sudurilor.',
+      },
+      {
+        title: 'Verificarea construcției',
+        body: 'Îndoirea la sarcina nominală, rezistența la smulgerea inelului D (≥150 kgf per inel D), desprinderea suporturilor de pe platformă (≥3,5 N/cm) și etanșeitatea supapei sunt verificate conform specificației înainte de inspecția finală.',
+      },
+      {
+        title: 'Inspecția finală',
+        body: 'O listă de verificare de 100 de puncte pentru fiecare placă și verificarea dimensiunilor și a greutății față de mostra aprobată.',
+      },
+      {
+        title: 'Trasabilitatea loturilor',
+        body: 'Fiecare lot de material primește un număr unic în ERP. Specificația (BOM) a fiecărei plăci este asociată lotului inițial furnizat de producător. Înregistrările se păstrează 10 ani, conform cerințelor CE 2013/53/EU.',
       },
     ],
   },
@@ -4056,6 +4247,70 @@ export const commercial: Localized<CommercialContent> = {
       },
     ],
   },
+  ro: {
+    kicker: 'Condiții comerciale',
+    title: 'Condiții comerciale declarate în avans',
+    sub: 'Cantitatea minimă de comandă (MOQ), mostrele și condițiile de producție și livrare sunt prezentate mai jos. Pentru proiectele care necesită matrițe noi, materiale speciale, teste de conformitate sau ambalaje individualizate, stabilim oferta separat.',
+    cells: [
+      {
+        label: 'Cantitate minimă de comandă (MOQ)',
+        lines: [
+          'Marcare proprie: de la 5–10 bucăți pe platformele existente selectate',
+          'Lot-pilot: 20–50 de bucăți pe platformele existente',
+          'Volum standard: 90–100+ bucăți pe configurația aprobată, în funcție de material și de cerințele de ambalare',
+        ],
+      },
+      {
+        label: 'Termen de livrare',
+        lines: [
+          '25–35 de zile de la confirmarea comenzii (PO) și a avansului',
+          'Dezvoltarea matriței dumneavoastră proprii: +15–20 de zile pentru producerea matriței',
+          'Producția urgentă este posibilă în sezonul de vârf',
+        ],
+      },
+      {
+        label: 'Mostre',
+        lines: [
+          'Mostrele de prototip sunt expediate în 7–12 zile',
+          'Costul mostrelor se deduce din factura comenzii de serie',
+        ],
+      },
+      {
+        label: 'Export și documentație',
+        lines: [
+          'Documentația de export este întocmită de echipa noastră proprie',
+          'Ambalaj standard de export; cutii de retail imprimate la cerere',
+        ],
+      },
+    ],
+    certs: 'ISO 9001 — managementul calității · Certificare CE pentru modelele destinate piețelor UE (domeniul se confirmă pentru fiecare proiect) · BSCI pentru responsabilitate socială (raport de audit la cerere) · Documentație REACH și RoHS pentru fiecare comandă.',
+    moqTiers: [
+      {
+        stage: 'Mostră și aprobare',
+        quantity: '1–2 bucăți pentru aprobare',
+        purpose: 'Pentru a confirma forma, culorile, printul și ambalajul înainte de orice producție de serie',
+        note: '7–12 zile; placă reală, nu randare',
+      },
+      {
+        stage: 'Co-branding cu costuri reduse',
+        quantity: 'de la 5–10 bucăți pe platformele existente selectate',
+        purpose: 'Pentru a testa designul pe o platformă validată, cu logo aplicat',
+        note: 'Cel mai rapid mod de a aproba graficele noi',
+      },
+      {
+        stage: 'Lot-pilot / stoc inițial',
+        quantity: '20–50 de bucăți pe platformele existente',
+        purpose: 'Pentru a testa piața sau pentru a deschide activitatea cu produse reale',
+        note: 'Cel mai mic volum pe platformele existente',
+      },
+      {
+        stage: 'Producție de serie standard',
+        quantity: '90–100+ bucăți pe configurația aprobată, în funcție de material și de cerințele de ambalare',
+        purpose: 'Seriaii regulate la cel mai bun preț pe bucată',
+        note: '90–100+ bucăți; formele noi necesită o matriță separată (+15–20 de zile pentru producerea acesteia)',
+      },
+    ],
+  },
 }
 
 /* ─────────────────────────── who we serve / customer needs ─────────────────────────── */
@@ -4662,6 +4917,45 @@ export const serve: Localized<ServeContent> = {
       },
     ],
   },
+  ro: {
+    kicker: 'Cui ne adresăm',
+    title: 'Pentru companiile care își creează propriile produse SUP',
+    sub: 'Lansați un brand nou de plăci SUP sau extindeți o linie de produse outdoor existentă? Soluțiile noastre de producție se pot adapta modelului dumneavoastră de business.',
+    segments: [
+      {
+        slug: 'sup-brands',
+        title: 'Branduri SUP',
+        body: 'Dezvoltați plăci SUP personalizate, conform poziționării brandului, pieței țintă și strategiei dumneavoastră de produs.',
+        points: ['Design propriu', 'Grafică de brand', 'Dezvoltare de produs', 'Marcă privată'],
+        cta: 'Plăci SUP personalizate',
+        href: '/product-development',
+      },
+      {
+        slug: 'outdoor-companies',
+        title: 'Companii de outdoor și sporturi acvatice',
+        body: 'Extindeți portofoliul de produse cu plăci SUP personalizate, concepute pentru piața dumneavoastră.',
+        points: ['Personalizarea produselor', 'Mai multe modele', 'Producție OEM'],
+        cta: 'Descoperiți plăcile SUP personalizate',
+        href: '/solutions/custom-sup',
+      },
+      {
+        slug: 'distributors-retailers',
+        title: 'Distribuitori și retaileri',
+        body: 'Creați colecții de plăci SUP care atrag atenția, în loc să concurați cu produse de serie.',
+        points: ['Marcă privată', 'Ambalaje individualizate', 'Produse gata de vânzare'],
+        cta: 'Aflați mai multe',
+        href: '/solutions/private-label-sup',
+      },
+      {
+        slug: 'resorts-clubs',
+        title: 'Resorturi, cluburi și organizații',
+        body: 'Dezvoltați produse și echipamente SUP potrivite condițiilor dumneavoastră de operare și utilizatorilor finali.',
+        points: ['Specificații proprii', 'Marcare', 'Producție la scară largă'],
+        cta: 'Descoperiți soluțiile',
+        href: '/solutions/resort-sup',
+      },
+    ],
+  },
 }
 
 /* ─────────────────────────── solutions ─────────────────────────── */
@@ -5082,6 +5376,33 @@ export const solutions: Localized<SolutionsContent> = {
         title: 'Üretim gereksinimleri',
         body: 'Projenizin nasıl üretileceğini belirleyin.',
         points: ['Miktar', 'Spesifikasyon', 'Kullanım'],
+      },
+    ],
+  },
+  ro: {
+    kicker: 'Opțiuni de personalizare',
+    title: 'Soluții de produse SUP personalizate pentru compania dumneavoastră',
+    sub: 'De la programele OEM/ODM pentru branduri până la seriile cu marcă privată pentru distribuitori și echipele de achiziții — orice cerință devine un produs realizabil industrial.',
+    pillars: [
+      {
+        title: 'Designul plăcii',
+        body: 'Adaptați placa în funcție de ceea ce cere produsul dumneavoastră.',
+        points: ['Formă', 'Dimensiuni', 'Grosime', 'Construcție'],
+      },
+      {
+        title: 'Grafică și marcare',
+        body: 'Reflectați identitatea dumneavoastră pe fiecare placă.',
+        points: ['Logo', 'Culori', 'Fișiere sursă', 'Tipărire'],
+      },
+      {
+        title: 'Accesorii',
+        body: 'Completați produsul cu piesele potrivite.',
+        points: ['Vâsla', 'Geantă', 'Canal', 'Ambalaje'],
+      },
+      {
+        title: 'Cerințe de producție',
+        body: 'Stabiliți cum va fi produs proiectul dumneavoastră.',
+        points: ['Cantitate', 'Specificații', 'Utilizare'],
       },
     ],
   },
@@ -5523,6 +5844,34 @@ export const studio: Localized<StudioContent> = {
       },
     ],
   },
+  ro: {
+    kicker: 'Configurator',
+    title: 'Generator de specificații',
+    sub: 'Parcurgeți opțiunile — de la forma plăcii până la cutia în care va fi livrată. Fiecare etapă este stabilită de dumneavoastră.',
+    scrollHint: 'Derulați pentru a vedea',
+    steps: [
+      {
+        title: 'Formă și dimensiuni',
+        body: 'Alegeți o platformă validată sau introduceți propriul contur — lungime, lățime, grosime, profilul marginii și rocker.',
+      },
+      {
+        title: 'Construcție',
+        body: 'Un singur strat, două straturi sau construcție tip sandwich. Numărul de rigidizări laterale și zonele de întărire sunt stabilite în funcție de utilizare.',
+      },
+      {
+        title: 'Grafică pe platformă',
+        body: 'Grafică tipărită conform fișierelor dumneavoastră de marcă, cu acoperire integrală a suprafeței, în culorile dumneavoastră. Echipa noastră de prepress transformă conceptele în date prelucrabile în producție.',
+      },
+      {
+        title: 'Acoperirea platformei',
+        body: 'EVA în culorile brandului dumneavoastră, cu logo-urile, canelurile, decupajele și texturile proprii.',
+      },
+      {
+        title: 'Accesorii și ambalaje',
+        body: 'Vâsle, pompe, genți, canale și leash-uri — produse și montate conform cerințelor dumneavoastră. Cutii imprimate și ambalaje de retail conform specificațiilor.',
+      },
+    ],
+  },
 }
 
 /* ─────────────────────────── products ─────────────────────────── */
@@ -5763,6 +6112,20 @@ export const productFilters: Localized<{ all: string; groups: ProductFilterGroup
       { key: 'fishing', label: 'Balıkçılık' },
       { key: 'kids', label: 'Çocuk' },
       { key: 'multi', label: 'Çok kişilik' },
+    ],
+  },
+  ro: {
+    all: 'Toate platformele',
+    groups: [
+      { key: 'all-around', label: 'All-around' },
+      { key: 'race', label: 'Cursă' },
+      { key: 'surf', label: 'Surf' },
+      { key: 'touring', label: 'Turism' },
+      { key: 'yoga', label: 'Yoga' },
+      { key: 'whitewater', label: 'Apă turbulentă' },
+      { key: 'fishing', label: 'Pescuit' },
+      { key: 'kids', label: 'Copii' },
+      { key: 'multi', label: 'Persoane multiple' },
     ],
   },
 }
@@ -9023,6 +9386,223 @@ export const products: Localized<ProductsContent> = {
       },
     ],
   },
+  ro: {
+    kicker: 'Platforme de producție',
+    title: 'Platforme SUP disponibile pentru personalizare',
+    sub: 'Fiecare serie este o platformă de producție — alegeți un punct de pornire și adaptăm forma, graficele și specificațiile la produsul dumneavoastră.',
+    items: [
+      {
+        slug: 'sup-explorer-11',
+        series: 'all-around',
+        sku: 'SUP-EX11',
+        name: "SUP Explorer 11'",
+        tagline: 'Clasică versatilă în toate direcțiile',
+        desc: 'Placa noastră versatilă cea mai solicitată — corp lat și stabil pentru începători, manevrabilitate pentru avansați și transport ușor pentru orice aventură. Punctul de pornire implicit pentru majoritatea brandurilor noi.',
+        uses: ['Începător', 'Versatil', 'Familie'],
+        for: ['Întreprinderi', 'Flote de închirieri'],
+        specs: "11'0\" × 32\" × 6\" · drop-stitch PVC · 15 PSI · 19 lbs (8.6 kg)",
+        artwork: 'Miez drop-stitch de calitate militară · benzi de margine întărite · aripi 2+1 · pachet complet',
+        image: 'https://assets.isupfactory.com/site/products/2026/all-around/all-around-03.avif',
+        hue: 195,
+      },
+      {
+        slug: 'sup-ocean-pulse',
+        series: 'whitewater',
+        sku: 'SUP-OP11',
+        name: 'Seria Ocean Pulse',
+        tagline: 'Ediție topografică pentru valuri',
+        desc: 'Valurile oceanului transformate în curbe topografice în nuanțe Tiffany Blue, cu relief mecanic de înaltă precizie și un set de accesorii asortate cromatic.',
+        uses: ['Lifestyle', 'Apă liniștită', 'Design'],
+        for: ['Branduri de lifestyle', 'Turism boutique'],
+        specs: "11'0\" × 32\" × 6\" · drop-stitch PVC · 15 PSI · 20 lbs (9.1 kg)",
+        artwork: 'Tipărire digitală UV + relief mecanic · accesorii asortate',
+        image: 'https://assets.isupfactory.com/site/products/2026/whitewater/whitewater-01.avif',
+        hue: 210,
+      },
+      {
+        slug: 'sup-cheetah-surge',
+        series: 'surf',
+        sku: 'SUP-CS11',
+        name: 'Ediția Cheetah Surge',
+        tagline: 'Ediție premium inspirată de sălbăticie',
+        desc: 'Puterea naturii sălbatice întâlnește eleganța artistică — motiv de ghepard în roz pastel, turquaz și coral, realizat cu montaj multicolor din blocuri EVA, rezistent la decolorare.',
+        uses: ['Lifestyle', 'Apă liniștită', 'Design'],
+        for: ['Branduri de lifestyle', 'Branduri orientate spre social media'],
+        specs: "11'0\" × 32\" × 6\" · drop-stitch PVC · 15 PSI · 20 lbs (9.1 kg)",
+        artwork: 'Acoperire EVA multicoloră + tipărire UV · construcție rezistentă la dezlipire',
+        image: 'https://assets.isupfactory.com/site/products/2026/surf/surf-01.avif',
+        hue: 28,
+      },
+      {
+        slug: 'sup-medusa-glow',
+        series: 'yoga',
+        sku: 'SUP-MG11',
+        name: 'Seria Medusa Glow',
+        tagline: 'Ediția Medusa',
+        desc: 'Lumea subacvatică a viselor — meduze colorate, stele de mare și recifuri de corali în nuanțe răcoritoare de mentă; grafică EVA rezistentă la decolorare și o stabilitate laterală excelentă pentru yoga.',
+        uses: ['Yoga', 'Tropical', 'Lifestyle'],
+        for: ['Studiouri de yoga', 'Branduri tropicale'],
+        specs: "11'0\" × 32\" × 6\" · drop-stitch PVC · 15 PSI · 20 lbs (9.1 kg)",
+        artwork: 'Acoperire EVA multicoloră + tipărire UV · inel de transport fixat pe corp',
+        image: 'https://assets.isupfactory.com/site/products/2026/kids-teens/kids-teens-05.avif',
+        hue: 260,
+      },
+      {
+        slug: 'sup-dolphin-wave',
+        series: 'touring',
+        sku: 'SUP-DW11',
+        name: 'Seria Dolphin Wave',
+        tagline: 'Ediție marină 360°',
+        desc: 'Delfini care sar din apă și valuri albastru deschis pe mai multe niveluri; piesă EVA frezată CNC și tipărire serigrafică care înconjoară platforma la 360° pe toată marginea.',
+        uses: ['Mare', 'Apă liniștită', 'Design'],
+        for: ['Branduri marine', 'Resorturi'],
+        specs: "11'0\" × 32\" × 6\" · drop-stitch PVC · 15 PSI · 20 lbs (9.1 kg)",
+        artwork: 'Piesă EVA frezată CNC + tipărire serigrafică pe margine · culoare conform PANTONE TPG',
+        image: 'https://assets.isupfactory.com/site/products/2026/touring/touring-02.avif',
+        hue: 210,
+      },
+      {
+        slug: 'sup-flowing-lotus',
+        series: 'yoga',
+        sku: 'SUP-FL11',
+        name: 'Seria Flowing Lotus',
+        tagline: 'Ediție inspirată de arta orientală și de wellness',
+        desc: 'Pictură tradițională cu pensulă orientală; motive de lotus, pește koi și balanță — gravate direct laser pe talpă, care nu se uzează și nu se decolorează. Proiectate pentru vâslit liniștit și yoga.',
+        uses: ['Yoga', 'Meditație', 'Apă liniștită'],
+        for: ['Studiouri de yoga', 'Branduri de wellness'],
+        specs: "11'0\" × 32\" × 6\" · drop-stitch PVC · 15 PSI · 20 lbs (9.1 kg)",
+        artwork: 'EVA cu gravare laser pe două straturi + tipărire UV cu degradeu · canale dinamice colorate',
+        image: 'https://assets.isupfactory.com/site/products/2026/yoga/yoga-01.avif',
+        hue: 150,
+      },
+      {
+        slug: 'sup-jungle-mandala',
+        series: 'all-around',
+        sku: 'SUP-JM11',
+        name: 'Seria Jungle Mandala',
+        tagline: 'Geometrie sacrală tropicală',
+        desc: 'Energia tropicală reinterpretată prin geometrie sacrală — toteme de hibiscus, colibri și mandala în nuanțe Tiffany Blue și Mercan Orange, cu simetrie perfectă la presare integrală.',
+        uses: ['Tropical', 'Litorial', 'Design'],
+        for: ['Branduri tropicale', 'Turism'],
+        specs: "11'0\" × 32\" × 6\" · drop-stitch PVC · 15 PSI · 20 lbs (9.1 kg)",
+        artwork: 'EVA cu gravare laser pe două straturi + tipărire UV + tipărire serigrafică pe margine · geometrie de durabilitate',
+        image: 'https://assets.isupfactory.com/site/products/2026/all-around/all-around-10.avif',
+        hue: 28,
+      },
+      {
+        slug: 'sup-leviathan-wake',
+        series: 'race',
+        sku: 'SUP-LW11',
+        name: 'Seria Leviathan Wake',
+        tagline: 'Ediția Balena',
+        desc: 'Totem de balură albastră ridicat pe modele geometrice de corp și valuri monocrome minimaliste — pentru vâsliitori care simt legătura cu oceanul.',
+        uses: ['Ocean', 'Versatil', 'Design'],
+        for: ['Branduri marine', 'Branduri outdoor'],
+        specs: "11'0\" × 32\" × 6\" · drop-stitch PVC · 15 PSI · 20 lbs (9.1 kg)",
+        artwork: 'Tipărire digitală UV + relief mecanic · vopsea PVC elastică în logo-ul de pe talpă',
+        image: 'https://assets.isupfactory.com/site/products/2026/race/race-01.avif',
+        hue: 195,
+      },
+      {
+        slug: 'sup-ocean-voyager',
+        series: 'all-around',
+        sku: 'SUP-OV11',
+        name: 'Seria Ocean Voyager',
+        tagline: 'Ediția Țestoasa de mare',
+        desc: 'Un omagiu exploratorului principal al oceanului — grafică cu țestoasă de mare geometrică, în turquaz intens, albastru cer și nuanțe de corali, cu set complet de accesorii asortate.',
+        uses: ['Turism', 'Ocean', 'Versatil'],
+        for: ['Branduri de turism', 'Branduri outdoor'],
+        specs: "11'0\" × 32\" × 6\" · drop-stitch PVC · 15 PSI · 20 lbs (9.1 kg)",
+        artwork: 'Acoperire EVA multicoloră + tipărire UV · rucsac, pompă și leash asortate',
+        image: 'https://assets.isupfactory.com/site/products/2026/all-around/all-around-12.avif',
+        hue: 170,
+      },
+      {
+        slug: 'sup-tropical-breeze',
+        series: 'all-around',
+        sku: 'SUP-TB11',
+        name: 'Seria Tropical Breeze',
+        tagline: 'Ediția vacanței pe insulă',
+        desc: 'Vacanța pe insulă transpusă pe pânză: soare, cocotieri și scene de plajă, de la micro-ilustrații pe vârf la pete abstracte de EVA colorat în zona posterioară.',
+        uses: ['Odihnă', 'Lifestyle', 'Litorial'],
+        for: ['Branduri turistice', 'Resorturi'],
+        specs: "11'0\" × 32\" × 6\" · drop-stitch PVC · 15 PSI · 20 lbs (9.1 kg)",
+        artwork: 'Tipărire digitală UV + panouri EVA decupate · peisaj ilustrat pe vârf',
+        image: 'https://assets.isupfactory.com/site/products/2026/all-around/all-around-17.avif',
+        hue: 330,
+      },
+      {
+        slug: 'sup-rheo-race',
+        series: 'race',
+        sku: 'SUP-RHEO01',
+        name: 'Seria RHEO Race',
+        tagline: 'Ediție de cursă hibridă din carbon',
+        desc: 'Placă de cursă de nivel superior, cu construcție umflabilă hibridă din carbon și rocker agresiv pentru alunecare rapidă — concepută pentru trasee de cursă, antrenamente de sprint și trasee tehnice unde rigiditatea și viteza fac diferența.',
+        uses: ['Cursă', 'Viteză', 'Antrenament'],
+        for: ['Echipe de cursă', 'Antrenori'],
+        specs: 'Matrice hibridă din carbon · rocker pentru alunecare rapidă · profil aerodinamic de viteză',
+        artwork: 'Construcție umfabilă hibridă din carbon · rocker de viteză pentru alunecare',
+        image: 'https://assets.isupfactory.com/site/products/2026/race/race-11.avif',
+        hue: 195,
+      },
+      {
+        slug: 'sup-fishing',
+        series: 'fishing',
+        sku: 'SUP-FSH01',
+        name: 'Placă SUP umflabilă pentru pescuit',
+        tagline: 'Ediție de pescuit cu stabilitate de catamaran',
+        desc: 'Placă SUP umflabilă dezvoltată special pentru pescuit; compartiment de aer dublu (tip catamaran) pentru stabilitate secundară excelentă, suporturi pentru canale, riglă de măsurare a peștilor pe platformă și structură de lucru întărită.',
+        uses: ['Pescuit', 'Stabilitate', 'Versatilitate'],
+        for: ['Branduri de pescuit', 'Ghiduri'],
+        specs: 'Compartiment de aer dublu · riglă de măsurare a peștilor 10–80 cm · suporturi pentru canale',
+        artwork: 'Structură de lucru întărită · inele metalice D multipunct',
+        image: 'https://assets.isupfactory.com/site/products/2026/fishing/fishing-01.avif',
+        hue: 210,
+      },
+      {
+        slug: 'sup-mini',
+        series: 'kids',
+        sku: 'SUP-MINI01',
+        name: 'Seria Mini SUP',
+        tagline: '3 în 1: copii / surf / boogie board',
+        desc: 'Placă hibridă extrem de compactă, care se transformă în placă SUP pentru copii, în placă de surf umflabilă sau în boogie board — cu profil scurt, lat și extrem de stabil, plus platformă rezistentă la șocuri.',
+        uses: ['Copii', 'Surf', 'Călătorii'],
+        for: ['Branduri pentru copii', 'Resorturi'],
+        specs: 'Geometrie hibridă SUP / surf / boogie board · corp scurt și lat · platformă rezistentă la șocuri',
+        artwork: 'Geometrie hibridă multifuncțională · material de platformă rezistent la uzură',
+        image: 'https://assets.isupfactory.com/site/products/2026/mini/mini-01.avif',
+        hue: 28,
+      },
+      {
+        slug: 'sup-giant',
+        series: 'multi',
+        sku: 'SUP-GNT01',
+        name: 'SUP Giant — placă de echipă multipersoană',
+        tagline: 'Platformă de echipă pentru 6–8 persoane',
+        desc: 'Placă SUP umflabilă multipersoană de dimensiuni XXL, pentru 6–8 persoane: lungime de 16,4–17 picioare, lățime de 59–60 inch, grosime de 8 inch, două supape, 8–12 inele de transport și sistem de aripi 4+1.',
+        uses: ['Grup', 'Echipă', 'Timp liber'],
+        for: ['Resorturi', 'Flote de închirieri'],
+        specs: "16'4\"–17'0\" × 59\"–60\" × 8\" · 1200–1400 l · 11–15 PSI · 4+1 aripi",
+        artwork: 'Două supape · 8–12 inele de transport din neopren · sistem de aripi 4+1',
+        image: 'https://assets.isupfactory.com/site/products/2026/giant/giant-03.avif',
+        hue: 195,
+      },
+      {
+        slug: 'sup-lure-skiff',
+        series: 'fishing',
+        sku: 'SUP-LSK01',
+        name: 'SUP Utility — Lure Skiff',
+        tagline: 'Pescuit cu nalucă pe o placă ultra-largă de 120 cm',
+        desc: 'Placă ultra-largă de 120 cm pentru pescuit cu nalucă; zonă de tăiere centrală, fereastră transparentă subacvatică, capacitate de transport de 400 kg și construcție tip ponton pentru pescuitul din șezut, cu aruncare fiabilă.',
+        uses: ['Pescuit', 'Versatilitate', 'Stabilitate'],
+        for: ['Branduri de pescuit', 'Pescari'],
+        specs: '350 × 120 × 15 cm · capacitate de transport 400 kg · trei canale · fereastră transparentă',
+        artwork: 'Zonă de tăiere centrală · fereastră transparentă subacvatică · construcție tip ponton',
+        image: 'https://assets.isupfactory.com/site/products/2026/utility-lure/utility-lure-01.avif',
+        hue: 170,
+      },
+    ],
+  },
 }
 
 /* ─────────────────────────── video showcases ─────────────────────────── */
@@ -9415,6 +9995,31 @@ export const videoShowcase: Localized<{
         { t: 'Kaymaz deck pad' },
         { t: 'Donanım ve bungee ip' },
         { t: 'Havayı alma, katlama ve paketleme' },
+      ],
+    },
+  },
+  ro: {
+    launch: {
+      badge: 'Lansarea brandului',
+      title: 'Vă gândiți să lansați propriul brand SUP?',
+      sub: 'Nu aveți nevoie de fabrică proprie pentru a lansa un brand SUP. Suntem partenerul de producție din spatele gamei dumneavoastră: specificații, inginerie, mostre, inspecția calității, ambalare și producție pregătită pentru export — toate într-un singur contract și cu o singură echipă responsabilă.',
+      points: [
+        { t: 'OEM/ODM complet, de la concept la producție', d: 'Grafică proprie pe placă, integrarea logo-ului, suporturi de platformă și ambalaje personalizate.' },
+        { t: 'Lansare flexibilă, cu MOQ redus', d: 'Producție în loturi mici, pentru a putea testa piața fără a bloca capital mare.' },
+        { t: 'Seturi de echipament complete', d: 'Vâsle de înaltă performanță, pompe, leash-uri și genți de călătorie, gata pregătite.' },
+        { t: 'Calitate și certificări la nivel de companie', d: 'Protocole stricte de QA/QC, teste de presiune și conformitate pentru exportul global.' },
+      ],
+    },
+    process: {
+      badge: 'Din interiorul fabricii',
+      title: 'Cum se naște o placă SUP umflabilă',
+      sub: 'V-ați întrebat vreodată cum devine o placă moale rigidă ca piatra? Cinci etape în fabrica noastră.',
+      points: [
+        { t: 'Tăiere de precizie și tipărire UV' },
+        { t: 'Sudare termică etanșă 100%' },
+        { t: 'Suport de platformă antiderapant' },
+        { t: 'Accesorii și funie elastică' },
+        { t: 'Evacuarea aerului, plierea și ambalarea' },
       ],
     },
   },
@@ -9976,6 +10581,42 @@ export const works: Localized<WorksContent> = {
     ],
     note: 'Onaylı numune sözleşmedir. Parti içindeki her tahta onunla karşılaştırılır.',
   },
+  ro: {
+    kicker: 'Dezvoltarea produselor SUP',
+    title: 'De la brief la lotul de producție — dezvoltarea produsului în fabrica noastră',
+    sub: 'De la recepționarea cerințelor până la produsul finit — fiecare etapă se desfășoară în fabrica noastră.',
+    steps: [
+      {
+        title: 'Recepționarea cerințelor',
+        body: 'Strângem specificațiile dumneavoastră, piața țintă, cerințele de conformitate și volumul estimat. NDA este semnat înainte de orice schimb de fișiere.',
+      },
+      {
+        title: 'Evaluarea de inginerie',
+        body: 'Tipul plăcii, dimensiunile, construcția stratificată, materialele și accesoriile sunt evaluate din punctul de vedere al fezabilității de producție. Primește un raport scris cu factorii de cost identificați.',
+      },
+      {
+        title: 'Pregătirea graficelor pentru tipărire',
+        body: 'Fișierele brandului dumneavoastră sunt transformate în date de tipărire gata de producție. Culorile sunt potrivite și verificate prin probă înainte de tipărire.',
+      },
+      {
+        title: 'Prototip',
+        body: 'Un prototip fizic confirmă forma, rigiditatea, greutatea și finisajele. Se expediază în 7–12 zile.',
+      },
+      {
+        title: 'Aprobarea mostrei',
+        body: 'Dumneavoastră aprobați mostra fizică. Nimic nu intră în producție până când mostra de referință este aprobată și arhivată ca reper de lot.',
+      },
+      {
+        title: 'Producția de serie',
+        body: 'Producem în fabrica noastră, cu procesul de inspecție a calității descris mai sus și cu trasabilitate până la nivelul lotului de material.',
+      },
+      {
+        title: 'Livrare pregătită pentru export',
+        body: 'Ambalare în vid, cutii de carton, documentație și predare pregătită pentru export.',
+      },
+    ],
+    note: 'Mostra aprobată este contractul. Fiecare placă din lot este comparată cu aceasta.',
+  },
 }
 
 /* ─────────────────────────── home: board categories ─────────────────────────── */
@@ -10250,6 +10891,23 @@ export const boardCategories: Localized<BoardCategoriesContent> = {
       { id: 'fishing', label: 'Balıkçılık', desc: 'Oluk tutucular ve çalışma yapısıyla kararlı platformlar.', image: 'https://assets.isupfactory.com/site/products/2026/fishing/fishing-01.avif', href: '/products/sup-fishing' },
       { id: 'kids', label: 'Çocuk SUP', desc: 'Çocuklar için geliştirilmiş daha küçük ve hafif tahtalar.', image: 'https://assets.isupfactory.com/site/products/2026/kids-teens/kids-teens-05.avif', href: '/products/sup-mini' },
       { id: 'multi', label: 'Çok kişilik', desc: '6–8 kişi için dev boy takım tahtaları.', image: 'https://assets.isupfactory.com/site/products/2026/giant/giant-03.avif', href: '/products/sup-giant' },
+    ],
+  },
+  ro: {
+    kicker: 'Plăcile noastre',
+    title: 'De la conceptul de produs la plăci SUP gata de producție',
+    sub: 'Fiecare categorie de plăci este o platformă de producție — alegeți un punct de pornire și personalizăm forma, graficele și specificațiile pentru produsul dumneavoastră.',
+    viewLabel: 'Vizualizați',
+    items: [
+      { id: 'all-around', label: 'All-around', desc: 'Plăci SUP versatile pentru vâsliitori de orice nivel.', image: 'https://assets.isupfactory.com/site/products/2026/all-around/all-around-03.avif', href: '/products/sup-explorer-11' },
+      { id: 'touring', label: 'Touring', desc: 'Plăci pentru distanțe lungi, explorare și aventură.', image: 'https://assets.isupfactory.com/site/products/2026/touring/touring-02.avif', href: '/products/sup-dolphin-wave' },
+      { id: 'race', label: 'Cursă', desc: 'Plăci de viteză pentru competiții și vâslit sportiv.', image: 'https://assets.isupfactory.com/site/products/2026/race/race-01.avif', href: '/products/sup-leviathan-wake' },
+      { id: 'whitewater', label: 'Apă turbulentă', desc: 'Plăci rezistente pentru ape cu pietri și recreere activă.', image: 'https://assets.isupfactory.com/site/products/2026/whitewater/whitewater-01.avif', href: '/products/sup-ocean-pulse' },
+      { id: 'yoga', label: 'Yoga', desc: 'Plăci cu platformă lată, proiectate pentru yoga și fitness.', image: 'https://assets.isupfactory.com/site/products/2026/yoga/yoga-01.avif', href: '/products/sup-flowing-lotus' },
+      { id: 'surf', label: 'Surf', desc: 'Plăci manevrabile pentru depășirea valurilor și surf.', image: 'https://assets.isupfactory.com/site/products/2026/surf/surf-01.avif', href: '/products/sup-cheetah-surge' },
+      { id: 'fishing', label: 'Pescuit', desc: 'Platforme stabile, cu suporturi pentru canale și structură de lucru.', image: 'https://assets.isupfactory.com/site/products/2026/fishing/fishing-01.avif', href: '/products/sup-fishing' },
+      { id: 'kids', label: 'SUP pentru copii', desc: 'Plăci mai mici și mai ușoare, dezvoltate pentru copii.', image: 'https://assets.isupfactory.com/site/products/2026/kids-teens/kids-teens-05.avif', href: '/products/sup-mini' },
+      { id: 'multi', label: 'Multipersoană', desc: 'Plăci de echipă de dimensiuni XXL, pentru 6–8 persoane.', image: 'https://assets.isupfactory.com/site/products/2026/giant/giant-03.avif', href: '/products/sup-giant' },
     ],
   },
 }
@@ -10797,6 +11455,41 @@ export const platforms: Localized<PlatformsContent> = {
       },
     ],
   },
+  ro: {
+    kicker: 'Platforme de producție',
+    title: 'Platforme de bază',
+    sub: 'Platforme de bază, nu produse de catalog. Fiecare dimensiune, construcție și model este stabilit conform proiectului.',
+    items: [
+      {
+        title: 'All-around',
+        body: 'Platforme clasice de recreere pentru seriile de retail, flotele de închirieri și programele outdoor.',
+        uses: ['Serii de retail', 'Flote de închirieri', 'Programe outdoor'],
+        cta: 'Solicitați o ofertă pentru această platformă',
+        href: '/contact',
+      },
+      {
+        title: 'Touring',
+        body: 'Trasee mai lungi pe apă, pentru traversări pe distanțe mari, observarea faună și expediții.',
+        uses: ['Traversări pe distanțe mari', 'Observarea faună', 'Expediții'],
+        cta: 'Solicitați o ofertă pentru această platformă',
+        href: '/contact',
+      },
+      {
+        title: 'Cursă',
+        body: 'Forme de viteză pentru cluburi, competiții și echipe de cursă.',
+        uses: ['Cluburi', 'Evenimente', 'Echipe de cursă'],
+        cta: 'Solicitați o ofertă pentru această platformă',
+        href: '/contact',
+      },
+      {
+        title: 'Multifuncțional',
+        body: 'Plăci durabile, cu durată de viață mare, pentru școli, operatori de închirieri și cumpărători corporativi.',
+        uses: ['Școli', 'Operatori de închirieri', 'Cumpărători corporativi'],
+        cta: 'Solicitați o ofertă pentru această platformă',
+        href: '/contact',
+      },
+    ],
+  },
 }
 
 /* ─────────────────────────── gallery ─────────────────────────── */
@@ -11237,6 +11930,34 @@ export const gallery: Localized<GalleryContent> = {
       },
     ],
   },
+  ro: {
+    kicker: 'Proiecte de producție',
+    title: 'Producție recente',
+    sub: 'Proiecte de producție livrate din fabrica noastră — cu cifrele pe care cumpărătorii le cer într-adevăr.',
+    projects: [
+      {
+        tag: 'Trasabilitatea loturilor',
+        title: 'Predarea documentelor de producție și monitorizare',
+        body: 'Fiecare lot este livrat împreună cu documentația de calitate — protocoale de inspecție, numere de serie individuale pentru fiecare placă și proces-verbal de predare semnat. Totul este păstrat în sistemul ERP cu trasabilitate de zece ani. Fotografia prezintă proces-verbalul de predare a documentelor reale de producție și monitorizare din instalație.',
+        hue: 195,
+        image: '/出货放行与批次追溯记录交接.jpg',
+      },
+      {
+        tag: 'Echipă de club',
+        title: 'Plăci pentru echipa unui club — platformă de cursă',
+        body: 'Platformă de cursă, cu modificări de specificații închise în etapa de mostre și cu grafica clubului. Matrița a fost folosită pe o perioadă de doi ani, astfel încât comanda de extindere a flotei s-a potrivit exact cu flota existentă.',
+        hue: 28,
+        image: 'https://assets.isupfactory.com/site/products/2026/surf/surf-01.avif',
+      },
+      {
+        tag: 'Extinderea gamei de brand',
+        title: 'Extinderea gamei de brand — plăci SUP umflabile',
+        body: 'Un brand cunoscut de sporturi acvatice și-a extins gama cu o serie de plăci SUP umflabile: evaluare de inginerie, matriță proprie, trei dimensiuni și grafică pregătită înainte de scalare, apoi primul lot de 50 de bucăți, cu control de etanșeitate — atât designul, cât și matrița aparțin brandului.',
+        hue: 210,
+        image: 'https://assets.isupfactory.com/site/products/2026/all-around/all-around-03.avif',
+      },
+    ],
+  },
 }
 
 /* ─────────────────────────── buyer's guides (home) ─────────────────────────── */
@@ -11581,6 +12302,28 @@ export const guides: Localized<GuidesContent> = {
       {
         title: 'Şişirilebilir SUP tahtaları için CE belgelendirmesi',
         body: 'CE gerçekte neleri kapsıyor, talep etmeniz gereken beş belge ve sertifikada kendi modelinizin yer aldığını nasıl doğrulayacağınız.',
+        href: '/news/ce-certification-inflatable-sup',
+      },
+    ],
+  },
+  ro: {
+    kicker: 'Ghiduri pentru cumpărători',
+    title: 'Ghiduri de producție',
+    sub: 'Întrebările pe care fiecare brand SUP le pune înainte de comandare — răspunse pe înțelesul tuturor, cu termenii și condițiile noastre reale.',
+    guides: [
+      {
+        title: 'Marcă privată: ghid complet, pas cu pas',
+        body: 'De la alegerea fabricii până la producție — procesul complet în șase etape pentru brandurile noi.',
+        href: '/news/private-label-sup-guide',
+      },
+      {
+        title: 'MOQ și prețuri pentru SUP OEM',
+        body: 'Nivelurile de MOQ, de la 1–2 mostre până la serii de 90–100+ de bucăți, cei șase factori de cost și cele cinci metode de a reduce costurile fără a afecta calitatea.',
+        href: '/news/sup-oem-moq-pricing',
+      },
+      {
+        title: 'Certificarea CE pentru plăci SUP umflabile',
+        body: 'Ce include efectiv certificarea CE, cele cinci documente pe care trebuie să le solicitați și cum verificați că modelul dumneavoastră figurează pe certificat.',
         href: '/news/ce-certification-inflatable-sup',
       },
     ],
@@ -12141,6 +12884,43 @@ export const manufacturingGuides: Localized<GuidesContent> = {
       {
         title: 'Şişirilebilir SUP tahtaları için CE belgelendirmesi',
         body: 'CE gerçekte neleri kapsıyor, talep etmeniz gereken beş belge ve sertifikada kendi modelinizin yer aldığını nasıl doğrulayacağınız.',
+        href: '/news/ce-certification-inflatable-sup',
+      },
+    ],
+  },
+  ro: {
+    kicker: 'Ghiduri de producție',
+    title: 'De la fabrică la produsul finit',
+    sub: 'Biblioteca completă de sourcing — fiecare etapă a unui proiect SUP personalizat, cu termenii, condițiile și documentele noastre reale.',
+    guides: [
+      {
+        title: 'Cum alegeți un producător OEM de SUP',
+        body: 'Întrebările de audit care diferențiază o fabrică reală de un intermediar: certificări, inspecția calității, mostre și proprietatea.',
+        href: '/news/how-to-choose-sup-oem-manufacturer',
+      },
+      {
+        title: 'Calendar de dezvoltare a produsului SUP',
+        body: 'Mostră în 7–12 zile, producție în 25–35 de zile, matriță plus 15–20 de zile — calendarul complet, etapă cu etapă.',
+        href: '/news/custom-sup-development-timeline',
+      },
+      {
+        title: 'Informațiile de pregătit înainte de comandare',
+        body: 'Cele cinci detalii care permit fabricii să oferteze corect de la prima evaluare și evită revizuirile specificațiilor.',
+        href: '/news/info-needed-before-sup-production',
+      },
+      {
+        title: 'Marcă privată: ghid complet, pas cu pas',
+        body: 'De la alegerea fabricii până la producție — procesul complet în șase etape pentru brandurile noi.',
+        href: '/news/private-label-sup-guide',
+      },
+      {
+        title: 'MOQ și prețuri pentru SUP OEM',
+        body: 'Nivelurile de MOQ, de la 1–2 mostre până la serii de 90–100+ de bucăți, cei șase factori de cost și cele cinci metode de a reduce costurile fără a afecta calitatea.',
+        href: '/news/sup-oem-moq-pricing',
+      },
+      {
+        title: 'Certificarea CE pentru plăci SUP umflabile',
+        body: 'Ce include efectiv certificarea CE, cele cinci documente pe care trebuie să le solicitați și cum verificați că modelul dumneavoastră figurează pe certificat.',
         href: '/news/ce-certification-inflatable-sup',
       },
     ],
@@ -13167,6 +13947,73 @@ export const faq: Localized<FaqContent> = {
       },
     ],
   },
+  ro: {
+    kicker: 'Întrebări frecvente',
+    title: 'Întrebări frecvente despre producție',
+    sub: 'Întrebările pe care cumpărătorii le pune înainte de comandare — răspunse în condițiile noastre reale.',
+    items: [
+      {
+        q: 'Ce produce iSupfactory?',
+        a: 'iSupfactory este o fabrică profesională de producție SUP, specializată în plăci SUP umflabile personalizate și produse conexe pentru sporturi acvatice, destinate brandurilor și companiilor din lumea întreagă — dezvoltate, mostre și produse în uzina noastră proprie de 12.500 m² din Qingdao, China.',
+      },
+      {
+        q: 'Care este diferența dintre OEM și ODM?',
+        a: `OEM: producem conform specificației tehnice aprobate de dumneavoastră — desenele, dimensiunile, materialele și ambalajul. Designul și proprietatea intelectuală vă aparțin. ODM: echipa noastră de ingineri dezvoltă placa conform briefului dumneavoastră — fie că este vorba despre un concept de piață, o țintă de performanță sau o adaptare a unei platforme validate — iar dumneavoastră o aprobați înainte de producție. Marca privată vă plasează brandul pe o platformă existentă și validată, fără modificări structurale. Ambele trasee, OEM și ODM, trec prin aceeași instalație, același sistem de inspecție a calității și aceeași echipă de export; varianta ODM este cea mai rapidă cale către o placă cu brandul dumneavoastră: de la ${MOQ_SHORT.standardRun} bucăți, cu mostre pregătite în ${FACTS.sampleTime}.`,
+      },
+      {
+        q: 'Care este cantitatea minimă de comandă (MOQ)?',
+        a: `Pentru loturile mici, co-branding-ul începe de la 5–10 bucăți; loturile-pilot încep de la 20–50 de bucăți. Producția standard de volum mare începe de la ${MOQ_SHORT.standardRun} bucăți. Formele cu matriță proprie sunt produse în funcție de complexitatea lor, la nivelul de volum corespunzător.`,
+      },
+      {
+        q: 'Cât durează producția?',
+        a: '25–35 de zile după confirmarea comenzii (PO) și a avansului. Matrița proprie adaugă 15–20 de zile pentru dezvoltarea matriței. Pentru comenzile urgente din sezon este disponibilă opțiunea de producție rapidă.',
+      },
+      {
+        q: 'În cât timp primesc mostrele?',
+        a: 'Mostrele de prototip sunt expediate, de regulă, în 7–12 zile, după aprobarea graficelor și a specificațiilor.',
+      },
+      {
+        q: 'Ce certificări dețineți?',
+        a: 'ISO 9001 pentru managementul calității, certificare CE pentru modelele destinate piețelor UE (domeniul se verifică proiect cu proiect) și certificare BSCI valabilă pentru conformitatea socială; raportul de audit este disponibil la cerere. Documentația REACH și RoHS este furnizată odată cu fiecare comandă.',
+      },
+      {
+        q: 'Pregătiți documentele de export?',
+        a: 'Da. Documentele de export și ambalajele adaptate exportului sunt realizate intern; livrăm către branduri din peste 50 de țări, inclusiv UE, SUA, Australia și Asia.',
+      },
+      {
+        q: 'Designul meu este prezentat altor clienți?',
+        a: 'Nu. Graficele, matrițele și fișierele de specificații rămân în proprietatea dumneavoastră. Semnăm NDA înainte de orice schimb de fișiere și nu reutilizăm sau nu revindem niciodată matrițele ori design-urile clienților.',
+      },
+      {
+        q: 'Vindeți propriul brand SUP?',
+        a: 'Nu. Producem exclusiv cu mărcile clienților noștri. Nu vândem consumatorilor finali și nu concurăm cu clienții noștri pe nicio piață.',
+      },
+      {
+        q: 'Puteți replica o placă pe care o vindeți deja?',
+        a: 'Da. Trimiteți o mostră fizică sau specificațiile complete; echipa noastră de ingineri întocmește un raport de fezabilitate de producție care include materialele, construcția stratificată, toleranțele și factorii de cost.',
+      },
+      {
+        q: 'Puteți produce plăci SUP cu logo-ul nostru?',
+        a: 'Da. Marcarea personalizată — logo-uri, culori, grafică și aplicații de suprafață — este realizată conform designului de produs și a specificațiilor acceptate pentru producție. Dumneavoastră dețineți toate fișierele de marcă și de grafică.',
+      },
+      {
+        q: 'Puteți dezvolta un produs SUP complet nou?',
+        a: 'Da. Dezvoltarea unui produs personalizat începe de la conceptul, schițele, specificațiile sau cerințele dumneavoastră de piață. Parcurgem evaluarea specificațiilor, ingineria structurii, mostrele de prototip și etapa de aprobare înainte de producția de serie.',
+      },
+      {
+        q: 'Ce materiale folosiți pentru plăcile SUP umflabile?',
+        a: `Plăcile SUP umflabile sunt produse prin tehnologia drop-stitch, cu variante de straturi și densități de PVC alese în funcție de greutatea, rigiditatea și nivelul de preț vizate; materialele utilizate sunt conforme cu REACH/RoHS, iar certificările de calitate sunt valabile (ISO 9001, CE, BSCI).`,
+      },
+      {
+        q: 'Lucrați cu branduri SUP noi sau la început de drum?',
+        a: `Da. Proiectele OEM/ODM sunt dezvoltate conform cerințelor dumneavoastră de produs, pieței țintă și volumului — loturile-pilot încep de la 20–50 de bucăți, iar producția standard de volum mare de la ${MOQ_SHORT.standardRun} bucăți.`,
+      },
+      {
+        q: 'Ce informații trebuie să furnizez pentru o ofertă OEM de SUP?',
+        a: 'Cele mai utile informații: tipul de produs, piața țintă, dimensiunile plăcii sau specificațiile, construcția dorită, cerințele de marcare, cantitatea estimată, cerințele de ambalare și calendarul de lansare vizat. Echipa noastră revine într-o zi lucrătoare cu evaluarea de inginerie și oferta de preț.',
+      },
+    ],
+  },
 }
 
 export const homeFaq: Localized<FaqContent> = {
@@ -13515,6 +14362,29 @@ export const homeFaq: Localized<FaqContent> = {
       },
     ],
   },
+  ro: {
+    kicker: faq.ro.kicker,
+    title: faq.ro.title,
+    sub: faq.ro.sub,
+    items: [
+      {
+        q: 'Cine este iSupfactory?',
+        a: 'iSupfactory este un producător SUP cu sediul în Qingdao, China, care lucrează atât în regim OEM, cât și ODM: oferă brandurilor, distribuitorilor și companiilor din sectorul outdoor servicii de dezvoltare de produs, prototipare, producție de serie, inspecția calității și producție pentru export.',
+      },
+      {
+        q: 'Este iSupfactory un producător OEM?',
+        a: 'Da. iSupfactory produce plăci SUP umflabile conform specificațiilor stabilite împreună cu clientul, inclusiv dimensiuni, materiale, construcție, grafică, accesorii și ambalaje. Pentru brandurile care vor să dezvolte o placă SUP de la zero, pe baza unui brief, este disponibilă și dezvoltarea de produs ODM.',
+      },
+      faq.ro.items[1],
+      faq.ro.items[2],
+      faq.ro.items[3],
+      faq.ro.items[5],
+      {
+        q: 'Pot cumpărătorii audita fabrica sau pot solicita inspecție de terță parte?',
+        a: 'Da. Primim cu bucuria auditurile cumpărătorilor și lucrăm regulat cu SGS, TÜV, BV și Intertek. Inspecția de terță parte poate fi organizată în orice etapă a producției — inspecția materialelor de intrare, inspecția în curs sau inspecția finală — iar rapoartele de inspecție sunt puse la dispoziție la cerere.',
+      },
+    ],
+  },
 }
 
 /* ─────────────────────────── CTA band ─────────────────────────── */
@@ -13616,6 +14486,12 @@ export const cta: Localized<CtaContent> = {
     body: 'İster elinizde eksiksiz bir ürün şartnamesi olsun, ister konseptiniz geliştirme aşamasında olsun; ekibimiz bir sonraki adımı değerlendirmenize yardımcı olur. Ne üretmek istediğinizi anlatın — gereksinimlerinizi inceler ve konseptten üretime kadar en uygulanabilir yolu birlikte görüşürüz.',
     button: 'SUP projenizi başlatın',
     note: '1 iş günü içinde yanıt · Dosya paylaşımından önce talep üzerine NDA · info@isupfactory.com · +86-13305324192',
+  },
+  ro: {
+    title: 'Sunteți gata să vă dezvoltați produsul SUP?',
+    body: 'Fie că aveți deja o specificație completă de produs, fie că vă aflați încă în faza de dezvoltare a conceptului, echipa noastră vă poate ajuta să evaluați pasul următor. Spuneți-ne ce doriți să construiți — vă analizăm cerințele și discutăm împreună traseul cel mai realist de la concept la producție.',
+    button: 'Începeți proiectul dumneavoastră SUP',
+    note: 'Răspuns în 1 zi lucrătoare · NDA la cerere înainte de schimbul de fișiere · info@isupfactory.com · +86-13305324192',
   },
 }
 
@@ -14099,6 +14975,37 @@ export const valueProp: Localized<ValuePropContent> = {
       },
     ],
   },
+  ro: {
+    kicker: 'Rolul nostru',
+    title: 'Mai mult decât o fabrică de SUP',
+    sub: 'Mulți producători pot realiza o placă SUP standard. Rolul nostru este diferit. iSupfactory este partenerul de dezvoltare și producție a produselor SUP personalizate care ajută companiile să treacă de la prima idee la un produs gata de producție.',
+    cards: [
+      {
+        title: 'Dezvoltarea produsului',
+        body: 'Transformăm conceptul, schițele, specificațiile sau cerințele dumneavoastră de piață într-un produs SUP realizabil industrial.',
+      },
+      {
+        title: 'Producție personalizată',
+        body: 'Personalizăm construcția, dimensiunile, graficele, culorile, accesoriile și ambalajele conform cerințelor dumneavoastră.',
+      },
+      {
+        title: 'Dezvoltarea prototipurilor',
+        body: 'Vă permiteți să evaluați produsul prin dezvoltarea și testarea mostrelor, înainte de trecerea la producția de serie.',
+      },
+      {
+        title: 'Sprijin pentru producție',
+        body: 'După aprobarea designului, gestionăm noi tranziția de la prototip la o producție de serie repetabilă.',
+      },
+      {
+        title: 'Inspecția calității',
+        body: 'Inspecțiile calității efectuate pe parcursul producției garantează că produsele finite respectă specificațiile stabilite.',
+      },
+      {
+        title: 'Aprovizionare globală',
+        body: 'Sprijinul nostru pentru ambalaje și documente de export facilitează procesul de aprovizionare.',
+      },
+    ],
+  },
 }
 
 /* ─────────────────────────── home: role boundary (Where We Stop, You Start) ─────────────────────────── */
@@ -14362,6 +15269,22 @@ export const boundary: Localized<BoundaryContent> = {
       { ours: 'Belgelendirme dokümantasyonu ve ihracata uygun ambalajlama', theirs: 'Nihai müşteri ilişkileri ve satış sonrası destek' },
     ],
     footer: 'Grafik dosyalarınız, kalıplarınız ve şartname dosyalarınız sizin mülkiyetinizde kalır; asla yeniden kullanılmaz, yeniden satılmaz veya başka bir müşteriye gösterilmez.',
+  },
+  ro: {
+    kicker: 'Cine suntem',
+    title: 'Construit de o fabrică de SUP, nu de o platformă comercială',
+    sub: 'Suntem un partener de producție, nu o piață online. Rolul nostru este să ajutăm clienții să transforme ideile, designurile și cerințele de produs în produse SUP realizabile industrial. Brandul vă aparține. Piața o controlați dumneavoastră. Noi susținem execuția producției.',
+    oursTitle: 'Ne asumăm noi',
+    theirsTitle: 'Rămâne la dumneavoastră',
+    rows: [
+      { ours: 'Revizuirea specificațiilor și evaluarea fezabilității de producție', theirs: 'Numele brandului, identitatea și poziționarea' },
+      { ours: 'Inginerie structură, selectarea materialelor, dezvoltarea matrițelor', theirs: 'Prețurile, canalele și vânzările' },
+      { ours: 'Pregătirea graficelor pentru platformă și tipărirea din fișierele brandului dumneavoastră', theirs: 'Dreptul de proprietate asupra tuturor fișierelor de brand și de grafică' },
+      { ours: 'Prototipare, realizarea mostrelor și documentația aprobării mostrelor', theirs: 'Aprobarea finală pentru fiecare mostră' },
+      { ours: 'Producția loturilor, inspecția calității în proces și inspecția finală', theirs: 'Piața, clienții și datele dumneavoastră' },
+      { ours: 'Documentația de certificare și ambalajele adaptate exportului', theirs: 'Relațiile finale cu clienții și suportul post-vânzare' },
+    ],
+    footer: 'Fișierele dumneavoastră de grafică, matrițele și fișierele de specificații rămân în proprietatea dumneavoastră; nu sunt niciodată reutilizate, revândute sau prezentate altui client.',
   },
 }
 
@@ -15001,6 +15924,42 @@ export const about: Localized<AboutContent> = {
       ],
     },
   },
+  ro: {
+    kicker: 'Despre noi',
+    title: 'Despre iSupfactory',
+    sub: 'Partenerul dumneavoastră pentru producția de SUP-uri personalizate',
+    story: [
+      'Suntem o fabrică OEM/ODM de plăci SUP umflabile pentru branduri, distribuitori și echipe de achiziții din întreaga lume. Pe acest drum am întâlnit mereu același tip de clienți: branduri și cumpărători cu o viziune de produs clară, dar fără propria instalație în care să o producă.',
+      'De aceea iSupfactory a fost creat exact pentru ei. Cantități minime etapizate — începând cu loturi de co-branding de 5–10 bucăți — sprijin complet de inginerie și design și o echipă de producție care tratează prima comandă la fel de serios ca pe a o sută. Brandul îl aduceți dumneavoastră; fabrica o conducem noi.',
+    ],
+    values: [
+      { title: 'Calitatea înainte de toate', body: 'Fiecare placă trece printr-o inspecție a calității în mai multe etape — materialele, cusăturile sudate, tipărirea, asamblarea și ambalajele sunt verificate la fiecare etapă a producției.' },
+      { title: 'Producător, nu intermediar', body: 'Designul, ingineria matrițelor, prototiparea, producția și testele se realizează sub același acoperiș — între dumneavoastră și fabrică nu există nicio masă de broker.' },
+      { title: 'Flexibil în funcție de design', body: 'Valorile MOQ etapizate, opțiunile modulare și termenii de livrare reali permit brandurilor să crească de la comenzile de test la producția de volum mare.' },
+    ],
+    capabilities: ['OEM / ODM / marcă privată', 'Matrițe personalizate', 'Serviciu de mostre', 'Design și grafică', 'Inspecția calității în mai multe etape', 'Documente de export'],
+    stats: [
+      { value: '90–100+ bucăți', label: 'MOQ standard pentru volum mare (pe configurație aprobată)' },
+      { value: '7–12 zile', label: 'Termen de livrare al mostrelor' },
+      { value: '25–35 zile', label: 'Termen de livrare al producției' },
+      { value: '20–50 bucăți', label: 'MOQ pentru comenzile-pilot' },
+    ],
+    strength: [
+      { title: 'Dezvoltarea produsului', body: 'De la schițele conceptului până la desenele de producție — inginerii noștri optimizează forma, geometria rocker, grosimea și construcția drop-stitch a plăcii pentru a atinge performanța și prețul vizate de dumneavoastră.' },
+      { title: 'Producție OEM', body: 'Producție conform specificațiilor exacte: materiale, culori, poziția logo-ului, accesorii și ambalaje, în loturi standard de volum mare, de la 90–100+ bucăți pentru fiecare configurație aprobată.' },
+      { title: 'Soluții ODM', body: 'Porniți de la platformele noastre validate, din propria fabrică — all-around, touring, race, yoga și multe altele — și personalizați marcarea, graficele și dotările pentru o lansare rapidă și cu risc redus.' },
+      { title: 'Sprijin de inginerie', body: 'Ingineria matrițelor, prototiparea și iterațiile mostrelor sub același acoperiș, cu verificare vizuală și aprobarea graficelor la fiecare etapă înainte de producția de serie.' },
+      { title: 'Managementul calității', body: 'Inspecția calității în mai multe etape pentru materiale, cusături sudate, tipărire, asamblare și ambalaje; plus inspecțiile efectuate pe mostră și înainte de expediție, care pot fi solicitate și ca audituri de terță parte.' },
+      { title: 'Livrare globală', body: 'Documente de export, ambalaje adaptate exportului și suport pentru documentație realizat intern, pentru branduri din peste 50 de piețe.' },
+    ],
+    partnering: {
+      title: 'Parteneriate cu companii globale',
+      body: [
+        'iSupfactory lucrează cu branduri SUP, distribuitori, resorturi, școli și companii outdoor care au nevoie de o fabrică de încredere de plăci SUP umflabile — de la prima comandă de test până la programele la scară de container.',
+        'Spuneți-ne piața și prețul-țintă; vă răspundem cu o fișă tehnică, MOQ și termeni de livrare potriviți modelului dumneavoastră de business.',
+      ],
+    },
+  },
 }
 
 /* ─────────────────────────── customizer page ─────────────────────────── */
@@ -15290,6 +16249,24 @@ export const customizer: Localized<CustomizerContent> = {
     boardLabel: 'MARKANIZ',
     cta: 'Tasarımınızı oluşturun',
   },
+  ro: {
+    kicker: 'Proiectați-vă placa SUP',
+    title: 'Vizualizați conceptul SUP înainte de producție',
+    sub: 'Previzualizați cum arată brandul dumneavoastră pe o placă reală — alegeți o culoare, urmăriți actualizarea maketului în timp real, apoi trimiteți-ne logo-ul pentru un design complet.',
+    status: 'Previzualizare interactivă',
+    statusBody: 'Încercați paleta acum, apoi trimiteți-ne ideea — echipa noastră va realiza gratuit un maket al designului dumneavoastră complet.',
+    steps: [
+      { title: 'Alegeți modelul plăcii', body: 'De la platforme all-around la forme touring și yoga — fiecare cu proporții realiste.' },
+      { title: 'Selectați culorile', body: 'Alegeți paleta brandului și urmăriți cum placa se schimbă instantaneu.' },
+      { title: 'Încărcați logo-ul', body: 'Așezați logo-ul și graficele pe platformă — ajustați dimensiunea și poziția.' },
+      { title: 'Generați maketul', body: 'Exportați o previzualizare a plăcii SUP personalizate pentru a o distribui echipei.' },
+    ],
+    mockupLabel: 'Previzualizare live a maketului',
+    mockupBrand: "SUP Explorer 11'",
+    stepLabel: 'Pasul',
+    boardLabel: 'BRANDUL DUMNEAVOASTRĂ',
+    cta: 'Creați-vă designul',
+  },
 }
 
 /* ─────────────────────────── products page extras ─────────────────────────── */
@@ -15423,6 +16400,14 @@ export const productsPage: Localized<ProductsPageContent> = {
     customTitle: 'Her Ürün Özelleştirilebilir',
     customBody: 'Hiçbir şey stoktan sevk edilmez. Her tahta, her katmanda sizin tercihlerinize göre sizin için üretilir.',
     customPoints: ['Şekil ve ölçü', 'Renkler ve tahta genelinde grafik', 'Logo ve EVA ped tasarımı', 'Aksesuarlar ve ambalaj'],
+  },
+  ro: {
+    kicker: 'Platforme de produs',
+    title: 'Platforme SUP personalizabile',
+    sub: 'Fiecare dintre modelele de mai jos este o platformă de producție. Alegeți unul ca punct de pornire; adaptăm forma, graficele, culorile și specificațiile tehnice la produsul dumneavoastră.',
+    customTitle: 'Fiecare produs poate fi personalizat',
+    customBody: 'Nimic nu se livrează din stoc. Fiecare placă este produsă pentru dumneavoastră, pe fiecare strat, conform preferințelor dumneavoastră.',
+    customPoints: ['Formă și dimensiuni', 'Culori și grafică pe întreaga placă', 'Designul logo-ului și al suporturilor EVA', 'Accesorii și ambalaje'],
   },
 }
 
@@ -15606,6 +16591,17 @@ export const catalogDownload: Localized<CatalogContent> = {
     successTitle: 'Talep alındı',
     successBody: 'Satış ekibimiz eksiksiz ürün kataloğunu ve MOQ tablosunu {email} adresine bir iş günü içinde gönderecek.',
   },
+  ro: {
+    kicker: 'Catalog de produse',
+    title: 'Primiți catalogul complet și fișa de MOQ',
+    body: 'Toate cele zece platforme, cu specificații, opțiuni de grafică, niveluri de MOQ, termen de livrare al mostrelor și ambalaje — trimise de echipa noastră de vânzări la adresa dumneavoastră de e-mail într-o zi lucrătoare.',
+    emailLabel: 'E-mail de serviciu',
+    emailPlaceholder: 'dumneavoastra@compania.com',
+    submit: 'Solicitați catalogul',
+    secure: 'Fără spam. Doar catalogul și răspunsuri despre proiectul dumneavoastră.',
+    successTitle: 'Cererea a fost înregistrată',
+    successBody: 'Echipa noastră de vânzări vă va trimite catalogul complet de produse și fișa de MOQ la adresa {email} într-o zi lucrătoare.',
+  },
 }
 
 /* ─────────────────────────── gallery page extras ─────────────────────────── */
@@ -15708,6 +16704,12 @@ export const galleryPage: Localized<GalleryPageContent> = {
     sub: 'SUP ürünlerinin nasıl hayata geçtiğine bir bakış — müşteri gereksinimlerinden bitmiş tahtalara kadar.',
     note: 'Projenizin burada yer almasını ister misiniz? Bir görüşme başlatın ve birlikte tasarlayalım.',
   },
+  ro: {
+    kicker: 'Proiecte SUP personalizate',
+    title: 'Proiecte SUP personalizate',
+    sub: 'O privire asupra modului în care produsele SUP prind viață — de la cerințele clienților până la plăcile finite.',
+    note: 'Doriți ca proiectul dumneavoastră să apară aici? Inițiați o discuție și să-l proiectăm împreună.',
+  },
 }
 
 /* ─────────────────────────── who-we-serve page extras ─────────────────────────── */
@@ -15793,6 +16795,11 @@ export const servePage: Localized<ServePageContent> = {
     kicker: 'Müşteri İhtiyaçları',
     title: 'İşletmeniz İçin Özel SUP Çözümleri',
     sub: 'Kurumunuz için markalı tahtalara mı, yoksa şirketiniz için özelleştirilmiş SUP ürünlerine mi ihtiyacınız var; gereksinimleri bitmiş ürünlere dönüştürmekte size yardımcı oluyoruz.',
+  },
+  ro: {
+    kicker: 'Nevoi ale clienților',
+    title: 'Soluții SUP personalizate pentru compania dumneavoastră',
+    sub: 'Fie că aveți nevoie de plăci cu brand pentru organizația dumneavoastră, fie de produse SUP personalizate pentru afacerea dumneavoastră, vă ajutăm să transformăm cerințele în produse finite.',
   },
 }
 
@@ -15912,6 +16919,13 @@ export const worksPage: Localized<WorksPageContent> = {
     sub: 'Gereksinim toplama, mühendislik incelemesi, numune alma, üretim ve ihracat — her adım kendi tesisimizde.',
     consultTitle: 'Teknik Şartname İncelemesiyle Başlayın',
     consultBody: 'Teknik şartnamenizi, referans tahtanızı veya çizimlerinizi bize gönderin. Üretilebilirlik değerlendirmesi ve fiyat teklifiyle geri dönelim — hiçbir taahhüt olmadan.',
+  },
+  ro: {
+    kicker: 'Procesul de dezvoltare',
+    title: 'De la specificație la produsul finit',
+    sub: 'Recepționarea cerințelor, evaluarea de inginerie, mostrele, producția și exportul — fiecare etapă în fabrica noastră.',
+    consultTitle: 'Începeți cu o revizuire a specificațiilor',
+    consultBody: 'Trimiteți-ne specificația, placa de referință sau desenele tehnice. Revenim cu o evaluare a fezabilității de producție și cu o ofertă — fără nicio obligație.',
   },
 }
 
@@ -16244,6 +17258,27 @@ export const series: Localized<SeriesContent> = {
         title: 'Medusa Glow Serisi (Denizanası Edisyonu)',
         sku: 'SUP-MG11',
         body: 'Canlı renklerdeki denizanasları, deniz yıldızları ve mercan resifleri; solmayan EVA blok kaplama ile işlenmiş, ferah nane yeşili tonunda. Tropikal ve kıyı maceraları için 11 ft all-around gövde.',
+        image: 'https://assets.isupfactory.com/site/products/2026/editions/medusa-jellyfish-edition.avif',
+        href: '/products/sup-medusa-glow',
+      },
+    ],
+  },
+  ro: {
+    kicker: 'Serii emblematice',
+    title: 'Plăci în ediții tematice',
+    sub: 'Ediții tematice inspirate de ocean, gata pentru marca dumneavoastră privată — designuri direct utilizabile, cu tipărire digitală UV și relief mecanic.',
+    items: [
+      {
+        title: 'Seria Leviathan Wake (Ediția Balena)',
+        sku: 'SUP-LW11',
+        body: 'Un totem impresionant de balină albastră, lucrat cu motive geometrice și tribale, asociat cu linii monocrome minimaliste de val. O ediție cu valoare de design ridicată, care oferă un corp all-around de 11 ft pentru lacuri, râuri și ape de coastă.',
+        image: 'https://assets.isupfactory.com/site/products/2026/editions/leviathan-whale-edition.avif',
+        href: '/products/sup-leviathan-wake',
+      },
+      {
+        title: 'Seria Medusa Glow (Ediția Medusa)',
+        sku: 'SUP-MG11',
+        body: 'Meduze, stele de mare și recifuri de corali în culori vii, lucrate prin montaj din blocuri EVA rezistente la decolorare, într-o nuanță răcoritoare de verde mentă. Corp all-around de 11 ft pentru aventuri tropicale și de coastă.',
         image: 'https://assets.isupfactory.com/site/products/2026/editions/medusa-jellyfish-edition.avif',
         href: '/products/sup-medusa-glow',
       },

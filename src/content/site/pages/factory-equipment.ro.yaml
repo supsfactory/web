@@ -1,0 +1,93 @@
+meta:
+  title: 'Echipamentele fabricii — Tăiere, sudare și tipărire'
+  description: 'Echipamente de producție VATRAD de nivel industrial: tăiere PVC, sudare RF, tipărire digitală, asamblare și testare pentru plăci SUP gonflabile.'
+  dateModified: '2026-08'
+  keywords:
+    - 'echipamente de producție SUP'
+    - 'fabrică de SUP gonflabile'
+    - 'sudare RF PVC'
+    - 'producție de plăci de paddle'
+hero:
+  tagline: Echipamente
+  title: Echipamente și utilaje de producție
+  subtitle: Echipamente de nivel industrial pentru tăiere, sudare, tipărire și asamblare
+  back_label: Înapoi la fabrică
+  back_link: /ro/factory
+
+answer:
+  label: 'Răspuns direct'
+  text: 'Fabrica noastră de 12,500 m² folosește tăiere automată cu comandă CNC (precizie de 0,1 mm, deșeu sub 5%), etanșare cu aer cald la 200–600 °C plus sudare dielectrică RF de 15 kW pentru cusăturile principale, presă de laminare a miezelor drop-stitch până la 14 ft și un laborator de control al calității care testează la presiune fiecare cameră, verifică tracțiunea conform ASTM D751 și confirmă decojirea cusăturilor conform ISO 6185.'
+  verified: 'Septembrie 2026'
+
+categories:
+  - title: Tăiere și pregătirea materialelor
+    items:
+      - name: Mașină automată de tăiat PVC
+        spec: Comandată CNC, 6,5 m × 2,5 m, precizie de 0,1 mm
+        desc: Mașină automată de tăiere cu comandă computerizată pentru țesături PVC, Hypalon și drop-stitch. Software-ul de așezare optimizează utilizarea materialului la o depășire de sub 5%.
+      - name: Extensor de țesătură
+        spec: Lățime maximă 3 m, alimentare cu tensiune controlată
+        desc: Așază țesătura în unul sau mai multe straturi, cu tensiune controlată, pentru a evita deformarea înainte de tăiere.
+
+  - title: Sudarea și lipirea tuburilor
+    items:
+      - name: Mașină de etanșare termică
+        spec: Sudare cu aer cald, 200–600 °C variabil, 0,5–5 m/min
+        desc: Mașină de etanșare termică cu aer cald pentru lipirea și sudarea cusăturilor tuburilor din PVC și Hypalon. Utilizată pentru prinderea provizorie, etanșarea și fuziunea camerelor de aer și a îmbinărilor de flotabilitate.
+      - name: Presă dielectrică RF
+        spec: 15 kW, placă de 2000 × 600 mm
+        desc: Presă de sudare de înaltă frecvență pentru cusăturile longitudinale principale, îmbinările tub-suport și execuția camerelor de dimensiuni mari.
+      - name: Aparat de sudare RF cu comandă CNC
+        spec: 8 kW, masa XY de 2500 × 1200 mm
+        desc: Sudare programabilă a cusăturilor curbate pentru geometrii complexe, embossing de marcă și asamblare de piese cu precizie.
+
+  - title: Producția de plăci SUP
+    items:
+      - name: Presă de laminare a miezelor drop-stitch
+        spec: Presă de mare format pentru miezuri de placă de până la 14 ft LOA
+        desc: Laminarea de precizie a miezelor drop-stitch cu peliculele exterioare din PVC. Fiecare strat este lipit prin presiune pentru o calitate și o rezistență constante.
+      - name: Router CNC (5 axe)
+        spec: Envelope de 3 m × 2 m × 1 m, ax răcit cu apă
+        desc: Prelucrarea cutiilor pentru aripioare, a decupajelor pentru mânere și a componentelor personalizate ale plăcii.
+
+  - title: Tipărirea și decorarea plăcilor SUP
+    items:
+      - name: Imprimantă digitală
+        spec: Jet de cerneală de înaltă rezoluție, lățime de tipărire până la 2 m
+        desc: Tipărire digitală direct pe material pentru grafică full-color pe deck-ul SUP. Tipărește modele personalizate, degradee și imagini de calitate foto, cu cerneluri pe bază de apă rezistente la radiații UV.
+      - name: Mașină de serigrafie
+        spec: Manuală și semiautomată, registru multicol or
+        desc: Serigrafie pentru logo-uri, semne de marcă și modele repetitive pe plăcile SUP. Asigură tipărituri durabile și opace, cu saturare intensă a culorilor.
+
+  - title: Asamblare și montaj
+    items:
+      - name: Post de asamblare a plăcii
+        spec: Modular, reglabil, cu organizare pe mai multe posturi
+        desc: Asamblarea cutiilor pentru aripioare, a mânerelor, a inelelor în D, a supapelor și a padecilor de deck pe plăcile SUP.
+      - name: Presă de montaj a supapelor
+        spec: Pneumatică, cu presiune reglabilă
+        desc: Montarea și etanșarea de precizie a supapelor Halkey-Roberts și Leafield.
+      - name: Laminator de padsca
+        spec: 3 m × 1,5 m, cu temperatură controlată
+        desc: Laminare termică a padecilor din spumă EVA pe partea superioară a plăcilor SUP, cu o adeziune constantă.
+
+  - title: Testare și control al calității
+    items:
+      - name: Mașină universală de încercare la tracțiune
+        spec: 50 kN, / ASTM D751
+        desc: Testarea forței de rupere, a alungirii la rupere și a propagării tracării pentru loturile de țesătură.
+      - name: Instalație de testare a etanșeității la aer
+        spec: Programabilă, menținere a presiunii 30 min
+        desc: Test automat de menținere a presiunii pentru fiecare cameră de tub înainte de asamblare.
+      - name: Aparat de încercare la decojirea cusăturilor
+        spec: Decijare motorizată la 180°, cu 100 mm/min
+        desc: Testarea rezistenței la decojire a cusăturilor sudate și lipite, conform ISO 6185.
+      - name: Cameră de încercare la îmbătrânire cu arc de xenon
+        spec: Expunere 2000 h
+        desc: Testarea rezistenței la radiații UV, cu privire la modificarea culorii și păstrarea rezistenței.
+
+cta:
+  title: Sunteți interesat de un tur al fabricii?
+  desc: Primim vizitatori la instalația noastră din Qingdao. Vedeți echipamentele și procesele noastre la locul lor.
+  label: Progrumați o vizită →
+  link: /ro/contact

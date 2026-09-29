@@ -3762,6 +3762,255 @@ export const seriesPages: Localized<SeriesPageData[]> = {
       ],
     },
   ],
+  ro: [
+    {
+      slug: 'all-around',
+      navLabel: 'Platforme All-Around',
+      metaTitle: 'Planșe SUP All-Around personalizate — Producător OEM de SUP gonflabile | iSupfactory',
+      metaDescription:
+        'Planșe SUP gonflabile all-around personalizate, fabricate sub marca dumneavoastră — stabilitate oferită de carena lată, volume OEM/ODM de la 90–100+ bucăți, mostre în 7–12 zile. Direct din fabrica din Qingdao, China.',
+      kicker: 'Serie · All-Around',
+      h1: 'Planșe SUP All-Around personalizate — platforma de pornire implicită pentru branduri noi',
+      intro: [
+        'Planșa all-around este calul de muncă al categoriei SUP: suficient de lată încât să se simtă stabilă pentru începători, suficient de agilă încât să-i țină interesați pe cei de nivel mediu și suficient de ușoară încât să fie dusă oriunde. Majoritatea brandurilor noi și a flotelor de închiriere pornesc de aici.',
+        'Fabricăm platforme all-around sub marca dumneavoastră de la 90–100+ bucăți pe rulou de 150 m (volum), cu serii pilot de la 20–50 bucăți. Forma, marginile, stratificația, culorile, grafica pe toată planșa și ambalajul se specifică pentru fiecare proiect.',
+      ],
+      faqs: [
+        {
+          q: 'Pot personaliza o planșă SUP all-around pentru marca mea?',
+          a: 'Da. Fiecare platformă all-around este o bază de producție — dvs. specificați dimensiunile (de regulă 10′6″–11′6″), lățimea, grosimea, stratificația (un strat, două straturi sau fuziune), configurația marginilor, padul EVA, grafica pe toată planșa și ambalajul. Formele cu matriță dedicată pornesc de la 90–100+ bucăți pe formă; producția standard de volum începe de la 90–100+ bucăți pe rulou de 150 m.',
+        },
+        {
+          q: 'Care este cantitatea minimă de comandă (MOQ) pentru planșele SUP all-around?',
+          a: 'Loturile standard de volum pornesc de la 90–100+ bucăți pe rulou de 150 m; seriile pilot pe platforme standard pornesc de la 20–50 bucăți; seriile complet personalizate cu matriță pornesc de la 90–100+ bucăți pe formă. Mostrele se expediază în 7–12 zile, iar producția de serie rulează 25–35 de zile după confirmarea comenzii și a avansului.',
+        },
+        {
+          q: 'Ce include pachetul gata de vânzare?',
+          a: 'Pachetul complet: planșă gonflabilă cu miez drop-stitch, pâlnie reglabilă, pompă manuală (sau electrică în două trepte), kit de reparații, rucsac de transport și cutie imprimată. Accesoriile pot fi înlocuite sau upgradate în funcție de piața țintă.',
+        },
+        {
+          q: 'Ce duritate EVA fabricăm pe punte?',
+          a: 'Padurile antiderapante de pe punte au duritatea 45–55 Shore C — mediu-moi, cu aderență bună sub picior, fără să se întărească la soare. Grosimea, canelurile, decupajele și poziționarea logo-ului se specifică pentru fiecare proiect.',
+        },
+      ],
+    },
+    {
+      slug: 'race',
+      navLabel: 'Platforme de Cursă',
+      metaTitle: 'Planșe SUP de Cursă personalizate — Platforme OEM de cursă gonflabile | iSupfactory',
+      metaDescription:
+        'Planșe SUP de cursă gonflabile personalizate pentru cluburi, evenimente și branduri — carene drop-stitch de cursă, volume OEM de la 90–100+ bucăți, producție cu certificare CE. Direct din fabrică.',
+      kicker: 'Serie · Cursă',
+      h1: 'Planșe SUP de Cursă personalizate — carene de cursă fabricate pentru marca dumneavoastră',
+      intro: [
+        'Planșele de cursă schimbă stabilitatea cu viteza: profiluri mai lungi și mai înguste, forme de nas rafinate și rocker redus, construite pentru vâsluire cu deplasare. Variantele gonflabile reproduc performanța curselor pe planșă rigidă într-o platformă portabilă.',
+        'Producem platforme de cursă pentru branduri, cluburi și organizatori de evenimente, cu miezuri drop-stitch de precizie, stratificații specifice cursei și forme de carenă orientate spre viteză — testate statistic în bazinul nostru hidrodinamic.',
+      ],
+      faqs: [
+        {
+          q: 'Ce dimensiuni de planșe SUP de cursă puteți fabrica?',
+          a: 'Platformele de cursă tipice variază între 12′6″ × 28″ pentru categoriile de 12′6 și 14′ × 23″–25″ pentru formatele de cursă nelimitate și touring. Lățimea, rockerul și profilul nasului se specifică în funcție de grupul țintă de concurenți și se verifică pe o mostră fizică.',
+        },
+        {
+          q: 'Planșele de cursă necesită o construcție specială?',
+          a: 'Da — planșele de cursă folosesc un miez drop-stitch mai ușor și cu țesătură mai strânsă, cu presiune mai mare (18–20 PSI) și ranforzări de margine mai rigide, pentru a menține forma carenei la viteză. Variantele de stratificație (un strat față de două straturi) fac schimb între greutate și rigiditate, iar alegerea o stabilim împreună cu dvs. pentru fiecare proiect.',
+        },
+        {
+          q: 'Pot cluburile comanda planșe de cursă pentru echipa lor?',
+          a: 'Da. Programele de club și de echipă comandă de la 90–100+ bucăți (volum) cu grafică de club și pot combina într-o singură comandă platforme de cursă și de antrenament. Prețurile de flotă se aplică volumelor cumulate.',
+        },
+      ],
+    },
+    {
+      slug: 'surf',
+      navLabel: 'Platforme Surf',
+      metaTitle: 'Planșe SUP Surf personalizate — Platforme OEM hibride de surf | iSupfactory',
+      metaDescription:
+        'Planșe SUP surf gonflabile personalizate — profiluri hibride de surf cu margini rotunjite și rocker ridicat, fabricate sub marca dumneavoastră de la 90–100+ bucăți în Qingdao, China.',
+      kicker: 'Serie · Surf',
+      h1: 'Planșe SUP Surf personalizate — platforme hibride pentru riding pe val',
+      intro: [
+        'Planșele SUP surf aduc performanța pe val într-o platformă portabilă: lungimi mai scurte, rocker mai mare, margini rotunjite și nasuri concave care păstrează linia pe fața valului. Formele gonflabile de surf sunt cea mai iertătoare modalitate de a introduce vâsluitul în acest sport.',
+        'Fabricăm platforme de surf sub marca dumneavoastră, cu formare și detalii de construcție specifice valului — de la pachete complete soft-top până la stratificații de performanță.',
+      ],
+      faqs: [
+        {
+          q: 'Ce dimensiuni sunt disponibile pentru planșele SUP surf?',
+          a: 'Platformele de surf uzuale au lungimi de 8′6″–10′6″ și lățimi de aproximativ 30″–34″. Lungimea, rockerul și profilul marginii se specifică în funcție de greutatea vâsluitorului și de tipul de val, fiind verificate pe o mostră fizică înainte de producție.',
+        },
+        {
+          q: 'Planșele de surf gonflabile sunt suficient de rezistente pentru închiriere?',
+          a: 'Cu margini ranforzate și PVC rezistent la UV, platformele noastre de surf fac față utilizării în regim de închiriere și de instrucție la școlile de surf. Flotele de închiriere combină de obicei formele all-around și surf — prețurile de flotă se aplică volumului mixt.',
+        },
+        {
+          q: 'Puteți aplica grafica brandului nostru pe planșele de surf?',
+          a: 'Da. Grafica pe toată puntea, desenul de pe fundul planșei, padurile antiderapante EVA și ambalajul sunt produse din fișierele dumneavoastră sau dezvoltate de echipa noastră de design pe baza identității brandului.',
+        },
+      ],
+    },
+    {
+      slug: 'touring',
+      navLabel: 'Platforme Touring',
+      metaTitle: 'Planșe SUP Touring personalizate — Platforme OEM pentru distanțe lungi | iSupfactory',
+      metaDescription:
+        'Planșe SUP touring gonflabile personalizate pentru vâsluire pe distanțe lungi — carene cu deplasare de 12′6″ și peste, capacitate pentru expediții de mai multe zile, volume OEM de la 90–100+ bucăți, direct din fabrică.',
+      kicker: 'Serie · Touring',
+      h1: 'Planșe SUP Touring personalizate — construite pentru distanță, încărcătură și acoperirea distanțelor',
+      intro: [
+        'Planșele de touring sunt lungi și eficiente: nasuri ascuțite pentru alunecare, volum moderat pentru stabilitate pe apă deschisă și o lungime a carenei suficientă pentru a transporta echipamente în expediții de mai multe zile. Sunt platforma preferată de vâsluitorii de distanță și de furnizorii de echipamente de expediție.',
+        'Producem platforme de touring sub marca dumneavoastră, cu formare pentru deplasare, puncte de fixare și spațiu pe punte pentru încărcătură, plus ecosisteme de accesorii compatibile cu carbonul (bungee, inele în D, suporturi).',
+      ],
+      faqs: [
+        {
+          q: 'Ce dimensiuni de planșe SUP touring fabricați?',
+          a: 'Platformele de touring au de regulă lungimi de 12′6″–14′ și lățimi de 28″–32″. Carenele mai lungi de 14′ prioritizează alunecarea, iar variantele mai late adaugă stabilitate pentru încărcătură. Specificațiile sunt confirmate cu o mostră fizică înainte de producția de serie.',
+        },
+        {
+          q: 'Planșele de touring vin cu opțiuni pentru încărcătură și fixare?',
+          a: 'Da — plase de încărcătură bungee, grile de inele în D, suporturi pentru undițe și sisteme de șine pentru accesorii se specifică pentru fiecare proiect. Pachetele de touring asociază de obicei planșele cu geci tip rucsac și pompe de înaltă presiune.',
+        },
+        {
+          q: 'Livrați planșe de touring pentru furnizori de echipamente și operatori de închiriere?',
+          a: 'Da. Furnizorii de echipamente și operatorii pot folosi flote dedicate de touring de la 20–50 bucăți (pilot), cu prețuri de flotă, piese de schimb și un ciclu de reînnoire sezonier definit.',
+        },
+      ],
+    },
+    {
+      slug: 'yoga',
+      navLabel: 'Platforme Yoga',
+      metaTitle: 'Planșe SUP Yoga personalizate — Platforme OEM late și stabile | iSupfactory',
+      metaDescription:
+        'Planșe SUP yoga gonflabile personalizate — platforme extra-late și stabile, cu punți moi, pentru studiouri, resorturi și instructori. Volume OEM de la 90–100+ bucăți, direct din fabrică.',
+      kicker: 'Serie · Yoga',
+      h1: 'Planșe SUP Yoga personalizate — platforme extra-late pentru practică pe apă',
+      intro: [
+        'Planșele de yoga sunt construite pentru liniște: lățime și volum suplimentare pentru o platformă stabilă, suprafețe moi pentru mâini și picioare și profiluri joase care țin planșa aproape de apă. Sunt folosite de studiouri, resorturi și instructori care desfășoară programe de yoga pe apă.',
+        'Fabricăm platforme de yoga sub marca dumneavoastră, cu cele mai late și mai stabile profiluri, punți EVA premium și opțiuni la scară de program pentru studiouri și flote de resort.',
+      ],
+      faqs: [
+        {
+          q: 'Ce face ca o planșă SUP să fie bună pentru yoga?',
+          a: 'În primul rând stabilitatea: lățimea suplimentară (33″–36″) și volumul țin planșa plană și fermă. Puntea EVA cu atingere moale protejează mâinile, genunchii și picioarele, iar marginea cu profil scăzut reduce balansul la urcare și coborâre.',
+        },
+        {
+          q: 'Pot resorturile comanda planșe de yoga ca parte a unei flote?',
+          a: 'Da. Resorturile combină de obicei platforme de yoga cu planșe all-around pentru oaspeți. Volumele cumulate de flotă beneficiază de prețuri de flotă, iar grafica de marcă în paleta proprietății se aplică întregii comenzi.',
+        },
+        {
+          q: 'Planșele de yoga includ pachete complete?',
+          a: 'Da — planșă gonflabilă, pâlnie, pompă, rucsac și kit de reparații, sau un kit redus pentru depozitare la locul de utilizare (planșă + pâlnie + pompă electrică), în funcție de programul dumneavoastră.',
+        },
+      ],
+    },
+    {
+      slug: 'whitewater',
+      navLabel: 'Platforme Whitewater',
+      metaTitle: 'Planșe SUP Whitewater personalizate — Platforme OEM pentru râu și rapide | iSupfactory',
+      metaDescription:
+        'Planșe SUP whitewater gonflabile personalizate pentru râuri și rapide — carene scurte și manevrabile, cu construcție ranforzată la impact. Volume OEM de la 90–100+ bucăți în Qingdao, China.',
+      kicker: 'Serie · Whitewater',
+      h1: 'Planșe SUP Whitewater personalizate — carene de râu construite să suporte loviturile',
+      intro: [
+        'Planșele de whitewater sunt scurte, late și rezistente: carene manevrabile care virează la cerere, rezistență ridicată la impact pentru loviturile de margine și construcție heavy-duty pentru fundul râului și punctele de intrare stâncoase.',
+        'Fabricăm platforme de whitewater sub marca dumneavoastră, cu cusături ranforzate, margini de impact și forme specifice râului — gândite pentru școli, ghizi și furnizori de echipamente de râu care organizează lecții și tururi zilnice.',
+      ],
+      faqs: [
+        {
+          q: 'Ce construcție necesită planșele de whitewater?',
+          a: 'Marginile ranforzate și construcția cu supracusături absorb loviturile de margine; PVC-ul gros și stratificările cu mai multe straturi rezistă la perforările produse de fundul râului. Modelele cu două camere adaugă o rezervă de flotabilitate pentru râuri izolate.',
+        },
+        {
+          q: 'Livrați către furnizori de echipamente de râu și școli de ghizi?',
+          a: 'Da. Furnizorii de echipamente și școlile de ghizi folosesc flote de whitewater de la 20–50 bucăți (pilot), cu prețuri de flotă, kituri de reparații heavy-duty și componente de rezervă — aripioare și supape — caracteristice programelor de râu cu utilizare intensă.',
+        },
+        {
+          q: 'Pot planșele de whitewater purta grafica brandului?',
+          a: 'Da — grafica pe toată planșa, poziționarea logo-ului și culorile echipei sunt produse din fișierele dumneavoastră. Straturile de print rezistente la rupere păstrează brandingul intact în condiții de utilizare intensă.',
+        },
+      ],
+    },
+    {
+      slug: 'fishing',
+      navLabel: 'Platforme Fishing',
+      metaTitle: 'Planșe SUP Fishing personalizate — OEM și marcă proprie | iSupfactory',
+      metaDescription:
+        'Planșe SUP fishing gonflabile personalizate, cu stabilitate, capacitate de sarcină și suporturi pentru accesorii — volume OEM și de marcă proprie de la 90–100+ bucăți, direct din fabrica din Qingdao, China.',
+      kicker: 'Serie · Fishing',
+      h1: 'Planșe SUP Fishing personalizate — construite gândindu-ne la pescari',
+      intro: [
+        'Planșele de fishing sunt platforme stabile pentru aruncat: late și cu volum mare, pentru a purta pescarul împreună cu echipamentul, cu sisteme de montaj pentru suporturi de undiță, răcitoare și tacuri, și o construcție silențioasă pentru apropieri discrete.',
+        'Fabricăm platforme de fishing sub marca dumneavoastră, cu elemente specifice pescarului, specificate pentru fiecare proiect — de la pachete compacte pentru weekend până la configurații complete de concurs.',
+      ],
+      faqs: [
+        {
+          q: 'Ce elemente pot fi specificate pe planșele SUP fishing?',
+          a: 'Grile de montaj pentru suporturi de undiță și accesorii, șine pentru echipament, curele pentru răcitoare, puncte de ancorare și planșe cu capacitate mare, de până la 500 lbs pentru pescar plus echipament. Pachetele pot include pâlnii, pompe și geci cu eticheta brandului.',
+        },
+        {
+          q: 'Care este MOQ pentru comenzile OEM de planșe SUP fishing?',
+          a: 'Loturile standard de volum pornesc de la 90–100+ bucăți pe rulou de 150 m; seriile pilot pornesc de la 20–50 bucăți pe platforme standard; seriile cu matriță dedicată pornesc de la 90–100+ bucăți pe formă. Mostrele se expediază în 7–12 zile; producția rulează 25–35 de zile după confirmarea comenzii și a avansului.',
+        },
+        {
+          q: 'Producți planșe fishing pentru operațiuni de închiriere și ghidaj?',
+          a: 'Da. Operațiunile de ghidaj și de închiriere folosesc flote fishing cu prețuri de flotă, piese de schimb și kituri de reparații dimensionate pentru programe de utilizare zilnică.',
+        },
+      ],
+    },
+    {
+      slug: 'kids',
+      navLabel: 'Platforme Copii',
+      metaTitle: 'Planșe SUP Copii personalizate — Platforme OEM mici și ușoare | iSupfactory',
+      metaDescription:
+        'Planșe SUP copii gonflabile personalizate — platforme mai scurte și mai ușoare, cu punți adaptate copiilor, concepute pentru siguranță și distracție. Volume OEM de la 90–100+ bucăți, direct din fabrică.',
+      kicker: 'Serie · Copii',
+      h1: 'Planșe SUP Copii personalizate — mici, ușoare și construite pentru primele vâsluiri',
+      intro: [
+        'Planșele pentru copii sunt dimensionate pentru vâsluitori tineri: carene mai scurte, greutăți mai mici, lățimi mai înguste adaptate corpurilor mici și punți moi care iartă căderile. Sunt punctul de intrare pentru branduri de familie, școli și flote de închiriere care deservesc copii.',
+        'Fabricăm platforme pentru copii sub marca dumneavoastră, în dimensiuni standard și junior, cu opțiuni de ambalare potrivite pentru familie.',
+      ],
+      faqs: [
+        {
+          q: 'În ce dimensiuni vin planșele SUP pentru copii?',
+          a: 'Platformele tipice pentru copii au lungimi de 7′–9′6″, lățimi între 26″ și 30″ și greutăți de aproximativ 7–9 kg (15–20 lbs). Dimensiunea se alege în funcție de vârsta și greutatea vâsluitorului și se verifică pe o mostră fizică înainte de producție.',
+        },
+        {
+          q: 'Livrați către școli și programe pentru tineri?',
+          a: 'Da — platformele noastre pentru copii sunt o componentă frecventă a flotelor școlare și de programe pentru tineri, comandate împreună cu pâlnii junior și accesorii pentru începători, la prețuri de program.',
+        },
+        {
+          q: 'Pot planșele pentru copii purta grafica brandului și a personajelor?',
+          a: 'Da. Variantele de culoare pe toată planșa, desenele de personaje și poziționarea logo-ului sunt dezvoltate din fișierele dumneavoastră sau din direcția de brand — tipărite cu aceleași straturi rezistente la rupere ca planșele pentru adulți.',
+        },
+      ],
+    },
+    {
+      slug: 'multi',
+      navLabel: 'Platforme Multi-Personă',
+      metaTitle: 'Planșe SUP Multi-Personă personalizate — Tandem și familie OEM | iSupfactory',
+      metaDescription:
+        'Planșe SUP multi-personă gonflabile personalizate pentru recreere în familie și lecții de grup — platforme tandem, de curte și de petrecere. Volume OEM de la 90–100+ bucăți, direct din fabrică.',
+      kicker: 'Serie · Multi-Personă',
+      h1: 'Planșe SUP Multi-Personă personalizate — tandemuri, planșe de curte și platforme de petrecere',
+      intro: [
+        'Planșele multi-personă deschid SUP către grupe: tandemuri cu poziții suplimentare pentru pâlnii, planșe de curte pentru odihnă și platforme de petrecere care transportă mai mulți vâsluitori. Ele susțin veniturile de închiriere la resorturi, plaje și exploatări de lac.',
+        'Fabricăm platforme multi-personă sub marca dumneavoastră, cu profilurile de stabilitate și volum cerute de fiecare scenariu de utilizare.',
+      ],
+      faqs: [
+        {
+          q: 'Ce tipuri de planșe multi-personă fabricați?',
+          a: 'Tandemuri (doi vâsluitori, aproximativ 13′–14′), planșe de curte (platforme scurte și late pentru odihnă) și platforme de petrecere cu volum mare pentru 3–6 vâsluitori. Fiecare tip este specificat în funcție de capacitate, greutate și utilizare intenționată.',
+        },
+        {
+          q: 'Sunt planșele multi-personă o investiție bună pentru închiriere?',
+          a: 'Da — permit tarife orare premium cu un cost de echipament mai mic per vâsluitor și păstrează grupul împreună, în loc de a-l împărți pe planșe individuale. Operatorii de închiriere asociază de regulă planșele multi-personă cu flote all-around.',
+        },
+        {
+          q: 'Care este capacitatea unei platforme de petrecere?',
+          a: 'Capacitatea depinde de dimensiuni și volum: platformele tipice de curte și de petrecere suportă 400–700 lbs și transportă 3–6 vâsluitori, în funcție de dimensiune și configurație. Specificațiile sunt confirmate pe o mostră fizică înainte de producția de volum.',
+        },
+      ],
+    },
+  ],
 }
 
 export function getSeriesPage(locale: Locale, slug: string): SeriesPageData | undefined {
