@@ -73,7 +73,7 @@ function RootComponent() {
         <HeadContent />
       </head>
       <body>
-        {siteLd().map((d) => (
+        {siteLd(lang).map((d) => (
           <JsonLd key={d['@id'] as string} data={d} />
         ))}
         <Suspense fallback={<div className="min-h-[60svh]" />}>

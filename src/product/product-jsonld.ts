@@ -2,9 +2,36 @@ import { FACTS, MOQ_SHORT, CERTIFICATION_NAMES } from '@/product/facts'
 import { SITE_NAME } from '@/config/site'
 import { SITE_ORIGIN } from '@/features/seo/jsonld'
 import { BRAND_PARENT_BRAND, BRAND_COMPANY_NAME, BRAND_CONTACT } from '@/config/branding'
-import { LLM_SITE_DESCRIPTION } from './ai-content'
+import { LLM_SITE_DESCRIPTION, LLM_SITE_DESCRIPTION_BY_LOCALE } from './ai-content'
 
-export function siteLd(): Record<string, unknown>[] {
+/**
+ * Parent-organization description for the JSON-LD `Organization` node.
+ * Falls back to English for locales without an entry.
+ */
+const PARENT_DIVISION_DESCRIPTION: Record<string, string> = {
+  en: `Marine manufacturing division of ${BRAND_COMPANY_NAME}.`,
+  es: `División de fabricación de productos náuticos de ${BRAND_COMPANY_NAME}.`,
+  fr: `Division de fabrication de produits nautiques de ${BRAND_COMPANY_NAME}.`,
+  de: `Marinefertigungsabteilung der ${BRAND_COMPANY_NAME}.`,
+  it: `Divisione di produzione di prodotti nautici di ${BRAND_COMPANY_NAME}.`,
+  pt: `Divisão de fabricação de produtos náuticos da ${BRAND_COMPANY_NAME}.`,
+  nl: `Maritieme productieafdeling van ${BRAND_COMPANY_NAME}.`,
+  sv: `Marin tillverkningsavdelning inom ${BRAND_COMPANY_NAME}.`,
+  no: `Marin produksjonsavdeling i ${BRAND_COMPANY_NAME}.`,
+  pl: `Dział produkcji wyposażenia morskiego w ${BRAND_COMPANY_NAME}.`,
+  da: `Maritim produktionsafdeling i ${BRAND_COMPANY_NAME}.`,
+  fi: `Vesilaitteiden tuotanto-osa ${BRAND_COMPANY_NAME}:ssä.`,
+  ru: `Производственное подразделение морской продукции компании ${BRAND_COMPANY_NAME}.`,
+  cs: `Výrobní divize námořního vybavení společnosti ${BRAND_COMPANY_NAME}.`,
+  tr: `${BRAND_COMPANY_NAME} şirketinin deniz ürünleri üretim bölümü.`,
+  ro: `Divizia de producție de echipamente marine a ${BRAND_COMPANY_NAME}.`,
+  hu: `A ${BRAND_COMPANY_NAME} hajóépítési és tengeri termékek gyártó részlege.`,
+}
+
+export function siteLd(locale?: string): Record<string, unknown>[] {
+  const loc = locale ?? 'en'
+  const orgDescription = LLM_SITE_DESCRIPTION_BY_LOCALE[loc] ?? LLM_SITE_DESCRIPTION
+  const parentDescription = PARENT_DIVISION_DESCRIPTION[loc] ?? PARENT_DIVISION_DESCRIPTION.en
   return [
     {
       '@context': 'https://schema.org',
@@ -15,7 +42,7 @@ export function siteLd(): Record<string, unknown>[] {
       legalName: BRAND_COMPANY_NAME,
       url: `${SITE_ORIGIN}/`,
       logo: `${SITE_ORIGIN}/logo192.png`,
-      description: LLM_SITE_DESCRIPTION.replaceAll('{SITE}', SITE_NAME),
+      description: orgDescription.replaceAll('{SITE}', SITE_NAME),
       sameAs: [FACTS.social.facebook, FACTS.social.linkedin, FACTS.social.youtube],
       parentOrganization: {
         '@type': 'Organization',
@@ -24,7 +51,7 @@ export function siteLd(): Record<string, unknown>[] {
       department: {
         '@type': 'Organization',
         name: BRAND_PARENT_BRAND,
-        description: 'Marine manufacturing division of Qingdao Vatrad Group Co., Ltd.',
+        description: parentDescription,
       },
       brand: { '@type': 'Brand', name: BRAND_PARENT_BRAND },
       numberOfEmployees: { '@type': 'QuantitativeValue', value: '350+' },
