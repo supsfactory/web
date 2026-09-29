@@ -6,7 +6,7 @@ import { useLocalizePath } from '@/features/i18n/use-localize-path'
 import { pick, products, productsPage } from '@/product/content'
 import { seriesPages } from '@/product/series-pages'
 import { procurementProfiles, commercialRows } from '@/product/procurement'
-import { FACTS, MOQ_SHORT } from '@/product/facts'
+import { getFacts } from '@/product/facts'
 import { SECONDARY_PILL } from '@/components/marketing/cta-styles'
 import { JsonLd, breadcrumbLd, faqLd, itemListLd } from '@/features/seo/jsonld'
 import { MarketingShell } from '@/components/marketing/shell'
@@ -19,6 +19,7 @@ export const Route = createLazyFileRoute('/{-$locale}/products/$series')({ compo
 
 function SeriesPage() {
   const { locale, t } = useTranslation()
+  const facts = getFacts(locale)
   const { origin, turnstileSiteKey, page, product } = Route.useLoaderData()
 
   if (product) {
@@ -75,19 +76,19 @@ function SeriesPage() {
           <div className="marine-card p-4">
             <p className="text-[11.5px] font-bold uppercase tracking-[0.12em] text-fg-3">{t('content.product.minimumOrderShort')}</p>
             <p className="mt-1.5 text-[13.5px] font-semibold leading-snug">
-              {t('inquiry.moqSummary', { standardRun: MOQ_SHORT.standardRun, trialStandard: MOQ_SHORT.trialStandard, customMould: MOQ_SHORT.customMould })}
+              {t('inquiry.moqSummary', { standardRun: facts.moq.standardRun, trialStandard: facts.moq.trialStandard, customMould: facts.moq.customMould })}
             </p>
           </div>
           <div className="marine-card p-4">
             <p className="text-[11.5px] font-bold uppercase tracking-[0.12em] text-fg-3">{t('content.product.timeline')}</p>
             <p className="mt-1.5 text-[13.5px] font-semibold leading-snug">
-              {t('inquiry.timelineSummary', { sampleTime: FACTS.sampleTime, leadTime: FACTS.leadTime })}
+              {t('inquiry.timelineSummary', { sampleTime: facts.sampleTime, leadTime: facts.leadTime })}
             </p>
           </div>
           <div className="marine-card p-4">
             <p className="text-[11.5px] font-bold uppercase tracking-[0.12em] text-fg-3">{t('content.product.qualityControl')}</p>
             <p className="mt-1.5 text-[13.5px] font-semibold leading-snug">
-              {t('inquiry.qcSummary', { assemblyChecklist: FACTS.assemblyChecklist, pressureTest: FACTS.pressureTest })}
+              {t('inquiry.qcSummary', { assemblyChecklist: facts.assemblyChecklist, pressureTest: facts.pressureTest })}
             </p>
           </div>
         </div>
@@ -163,7 +164,7 @@ function SeriesPage() {
                   <p className="mt-1.5 text-[13px] leading-relaxed text-fg-2">{p.tagline}</p>
                   <p className="mt-2 text-[12.5px] font-medium text-fg-3">{p.specs}</p>
                   <p className="mt-1.5 text-[12px] font-semibold text-primary">
-                    {t('inquiry.moqShort', { standardRun: MOQ_SHORT.standardRun, trialStandard: MOQ_SHORT.trialStandard })}
+                    {t('inquiry.moqShort', { standardRun: facts.moq.standardRun, trialStandard: facts.moq.trialStandard })}
                   </p>
                 </div>
                 <p className="mt-auto flex items-center gap-1.5 text-[13.5px] font-bold text-primary group-hover:underline">

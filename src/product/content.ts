@@ -1924,9 +1924,9 @@ export const trustBar: Localized<TrustBarContent> = {
   },
   hu: {
     stats: [
-      { value: `MOQ ${MOQ_SHORT.standardRun}`, label: 'sorozatgyártáshoz; a pilotagyártás 20–50 darabtól indul' },
-      { value: FACTS.sampleTime, label: 'a minták a grafikák jóváhagyása után érkeznek Önhöz' },
-      { value: FACTS.leadTime, label: 'sorozatgyártás a megrendelés (PO) és az előleg megerősítése után' },
+      { value: 'MOQ 90–100+ darab', label: 'sorozatgyártáshoz; a pilotagyártás 20–50 darabtól indul' },
+      { value: '7–12 nap', label: 'a minták a grafikák jóváhagyása után érkeznek Önhöz' },
+      { value: '25–35 nap', label: 'sorozatgyártás a megrendelés (PO) és az előleg megerősítése után' },
       { value: FACTS.annualCapacity, label: 'a qingdaói (Kína) üzemünk saját éves gyártókapacitása' },
       { value: FACTS.warehouseM2, label: 'saját üzem, a nyers PVC-től a kész tábláig' },
       { value: FACTS.workers, label: 'üzemünk dolgozói és mérnökei' },
@@ -14805,11 +14805,11 @@ export const faq: Localized<FaqContent> = {
       },
       {
         q: 'Mi a különbség az OEM és az ODM között?',
-        a: `OEM: a jóváhagyott műszaki specifikáció szerint gyártunk — a rajzok, a méretek, az anyagok és a csomagolás alapján. A kialakítás és a szellemi tulajdonjog az Öné. ODM: mérnöki csapatunk a briefje alapján fejleszti a táblát — legyen szó piaci koncepcióról, teljesítménycélről vagy egy bevált platform adaptálásáról — és Ön jóváhagyja a gyártás előtt. A saját márka az Ön márkáját egy már meglévő, bevált platformra helyezi, szerkezeti módosítás nélkül. Mindkét út, az OEM és az ODM ugyanazon az üzemen, ugyanazzal a minőség-ellenőrzési rendszerrel és ugyanazzal az exportcsapattal halad át; az ODM a leggyorsabb út az Ön márkájával készülő táblához: ${MOQ_SHORT.standardRun} darabtól, ${FACTS.sampleTime} idő alatt elkészített mintákkal.`,
+        a: `OEM: a jóváhagyott műszaki specifikáció szerint gyártunk — a rajzok, a méretek, az anyagok és a csomagolás alapján. A kialakítás és a szellemi tulajdonjog az Öné. ODM: mérnöki csapatunk a briefje alapján fejleszti a táblát — legyen szó piaci koncepcióról, teljesítménycélről vagy egy bevált platform adaptálásáról — és Ön jóváhagyja a gyártás előtt. A saját márka az Ön márkáját egy már meglévő, bevált platformra helyezi, szerkezeti módosítás nélkül. Mindkét út, az OEM és az ODM ugyanazon az üzemen, ugyanazzal a minőség-ellenőrzési rendszerrel és ugyanazzal az exportcsapattal halad át; az ODM a leggyorsabb út az Ön márkájával készülő táblához: 90–100+ darabtól, 7–12 nap alatt elkészített mintákkal.`,
       },
       {
         q: 'Mi a minimum rendelési mennyiség (MOQ)?',
-        a: `Kis lotoknál a társ márkázás 5–10 darabtól indul; a pilotagyártás 20–50 darabtól. A szabványos nagy mennyiségű gyártás ${MOQ_SHORT.standardRun} darabtól indul. A saját formájú kialakításokat összetettségüknek megfelelő mennyiségben gyártjuk.`,
+        a: `Kis lotoknál a társ márkázás 5–10 darabtól indul; a pilotagyártás 20–50 darabtól. A szabványos nagy mennyiségű gyártás 90–100+ darabtól indul. A saját formájú kialakításokat összetettségüknek megfelelő mennyiségben gyártjuk.`,
       },
       {
         q: 'Mennyi ideig tart a gyártás?',
@@ -14853,7 +14853,7 @@ export const faq: Localized<FaqContent> = {
       },
       {
         q: 'Dolgoznak új vagy kezdő SUP márkákkal?',
-        a: `Igen. Az OEM/ODM projekteket az Ön termékigényei, a célpiac és a mennyiség szerint fejlesztjük — a pilotagyártás 20–50 darabtól, a szabványos nagy mennyiségű gyártás pedig ${MOQ_SHORT.standardRun} darabtól indul.`,
+        a: `Igen. Az OEM/ODM projekteket az Ön termékigényei, a célpiac és a mennyiség szerint fejlesztjük — a pilotagyártás 20–50 darabtól, a szabványos nagy mennyiségű gyártás pedig 90–100+ darabtól indul.`,
       },
       {
         q: 'Milyen információkat kell adnom egy SUP OEM ajánlathoz?',
