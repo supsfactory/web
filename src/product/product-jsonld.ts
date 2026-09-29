@@ -9,22 +9,22 @@ import { LLM_SITE_DESCRIPTION, LLM_SITE_DESCRIPTION_BY_LOCALE } from './ai-conte
  * Falls back to English for locales without an entry.
  */
 const PARENT_DIVISION_DESCRIPTION: Record<string, string> = {
-  en: `Marine manufacturing division of ${BRAND_COMPANY_NAME}.`,
-  es: `División de fabricación de productos náuticos de ${BRAND_COMPANY_NAME}.`,
-  fr: `Division de fabrication de produits nautiques de ${BRAND_COMPANY_NAME}.`,
-  de: `Marinefertigungsabteilung der ${BRAND_COMPANY_NAME}.`,
-  it: `Divisione di produzione di prodotti nautici di ${BRAND_COMPANY_NAME}.`,
-  pt: `Divisão de fabricação de produtos náuticos da ${BRAND_COMPANY_NAME}.`,
-  nl: `Maritieme productieafdeling van ${BRAND_COMPANY_NAME}.`,
-  sv: `Marin tillverkningsavdelning inom ${BRAND_COMPANY_NAME}.`,
-  no: `Marin produksjonsavdeling i ${BRAND_COMPANY_NAME}.`,
-  pl: `Dział produkcji wyposażenia morskiego w ${BRAND_COMPANY_NAME}.`,
-  da: `Maritim produktionsafdeling i ${BRAND_COMPANY_NAME}.`,
+  en: `Marine manufacturing division of ${BRAND_COMPANY_NAME}`,
+  es: `División de fabricación de productos náuticos de ${BRAND_COMPANY_NAME}`,
+  fr: `Division de fabrication de produits nautiques de ${BRAND_COMPANY_NAME}`,
+  de: `Marinefertigungsabteilung der ${BRAND_COMPANY_NAME}`,
+  it: `Divisione di produzione di prodotti nautici di ${BRAND_COMPANY_NAME}`,
+  pt: `Divisão de fabricação de produtos náuticos da ${BRAND_COMPANY_NAME}`,
+  nl: `Maritieme productieafdeling van ${BRAND_COMPANY_NAME}`,
+  sv: `Marin tillverkningsavdelning inom ${BRAND_COMPANY_NAME}`,
+  no: `Marin produksjonsavdeling i ${BRAND_COMPANY_NAME}`,
+  pl: `Dział produkcji wyposażenia morskiego w ${BRAND_COMPANY_NAME}`,
+  da: `Maritim produktionsafdeling i ${BRAND_COMPANY_NAME}`,
   fi: `Vesilaitteiden tuotanto-osa ${BRAND_COMPANY_NAME}:ssä.`,
-  ru: `Производственное подразделение морской продукции компании ${BRAND_COMPANY_NAME}.`,
-  cs: `Výrobní divize námořního vybavení společnosti ${BRAND_COMPANY_NAME}.`,
+  ru: `Производственное подразделение морской продукции компании ${BRAND_COMPANY_NAME}`,
+  cs: `Výrobní divize námořního vybavení společnosti ${BRAND_COMPANY_NAME}`,
   tr: `${BRAND_COMPANY_NAME} şirketinin deniz ürünleri üretim bölümü.`,
-  ro: `Divizia de producție de echipamente marine a ${BRAND_COMPANY_NAME}.`,
+  ro: `Divizia de producție de echipamente marine a ${BRAND_COMPANY_NAME}`,
   hu: `A ${BRAND_COMPANY_NAME} hajóépítési és tengeri termékek gyártó részlege.`,
 }
 
@@ -165,7 +165,7 @@ export function factoryCapabilitiesLd(): Record<string, unknown> {
     '@type': 'ManufacturingFacility',
     name: `${SITE_NAME} Inflatable SUP Plant`,
     description:
-      `12,500 m\u00b2 inflatable SUP manufacturing plant in Qingdao, China \u2014 the SUP product development and manufacturing division of ${BRAND_COMPANY_NAME}.`,
+      `12,500 m\u00b2 inflatable SUP manufacturing plant in Qingdao, China \u2014 the SUP product development and manufacturing division of ${BRAND_COMPANY_NAME}`,
     address: {
       '@type': 'PostalAddress',
       streetAddress: 'Economic Development Zone, Laixi',
@@ -199,7 +199,7 @@ export function brandHeritageLd(): Record<string, unknown> {
     founder: BRAND_COMPANY_NAME,
     slogan: FACTS.buildLine,
     historyHighlights: [
-      { '@type': 'Event', name: 'Founding', startDate: '2012', description: `Founded as the inflatable SUP manufacturing division of ${BRAND_COMPANY_NAME}.` },
+      { '@type': 'Event', name: 'Founding', startDate: '2012', description: `Founded as the inflatable SUP manufacturing division of ${BRAND_COMPANY_NAME}` },
       { '@type': 'Event', name: 'Plant operations', description: `${FACTS.warehouseM2} inflatable manufacturing plant with ${FACTS.workshops} in Qingdao, China.` },
       { '@type': 'Event', name: 'Certification', description: `Certified ${CERTIFICATION_NAMES.join(', ')} \u2014 manufacturing quality, safety and social compliance.` },
       { '@type': 'Event', name: 'Global exports', description: `Supplies SUP OEM/ODM partners in ${FACTS.exportCountries} countries worldwide.` },
