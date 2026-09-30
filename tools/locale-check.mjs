@@ -3,12 +3,16 @@
 // Usage:
 //   node tools/locale-check.mjs [BASE]
 //   BASE=https://staging.example.com node tools/locale-check.mjs
+//   LOCALES=es,fr,ar node tools/locale-check.mjs
 //
-// Derives the /es and /fr twins of every English sitemap URL and verifies each
-// serves 200 with a genuine translation (title differs from the en page, i.e.
-// no English fallback). Also checks that every derived /es and /fr path is
-// actually present in sitemap-es.xml / sitemap-fr.xml (discoverability).
-// Output: ./out/locale-check.json under the script's tools/out folder.
+// For every locale in LOCALES, derives the /<loc> twin of every English
+// sitemap URL and verifies each serves 200 with a genuine translation (title
+// differs from the en page, i.e. no English fallback). Also checks that every
+// derived path is actually present in that locale's sitemap
+// (discoverability). Output: ./out/locale-check.json under tools/out.
+//
+// LOCALES defaults to the locales with a dedicated sitemap file. Override it
+// to check a locale that shares a sitemap, or to narrow a long run.
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
@@ -19,8 +23,29 @@ const BASE = process.env.BASE || process.argv[2] || "https://isupfactory.com";
 const CF_UA = "LocalizationCheck/1.0";
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
-const LOCALES = ["es", "fr"];
-const SITEMAP_FILE = { es: "sitemap-es.xml", fr: "sitemap-fr.xml" };
+const LOCALES = (process.env.LOCALES || "es,fr")
+  .split(",")
+  .map((l) => l.trim())
+  .filter(Boolean);
+
+// Every locale the site knows about, not just the ones under test. The English
+// page set is "every sitemap URL that is not a localized twin", so the
+// exclusion has to span all locales — otherwise a /fr/ URL leaks into the
+// English set and derives a nonsense twin like /es/fr/solutions. Sourced from
+// ACTIVE_LOCALES in src/config/locales.ts, unioned with any sitemap-<loc>.xml
+// found in the sitemap index, so the two can never drift apart silently.
+function knownLocales() {
+  const set = new Set(LOCALES);
+  try {
+    const src = fs.readFileSync(path.join(scriptDir, "..", "src", "config", "locales.ts"), "utf8");
+    const m = src.match(/ACTIVE_LOCALES[^=]*=\s*\[([^\]]*)\]/);
+    if (m) for (const q of m[1].matchAll(/['"]([a-z]{2}(?:-[A-Z]{2})?)['"]/g)) set.add(q[1]);
+  } catch {
+    // locales.ts not readable (e.g. running from a checkout copy) — fall back
+    // to whatever the sitemap index reveals below.
+  }
+  return set;
+}
 
 async function fetchText(url, timeoutMs = 22000, tries = 3) {
   for (let t = 1; t <= tries; t++) {
@@ -60,30 +85,46 @@ async function main() {
   if (subs.length === 0) subs.push(`${BASE}/sitemap.xml`);
 
   const en = new Set();
-  const inSitemap = { es: new Set(), fr: new Set() };
-  const esFrInSitemaps = {};
+  const inSitemap = Object.fromEntries(LOCALES.map((l) => [l, new Set()]));
+  const sitemapCounts = {};
+  const allLocales = knownLocales();
   for (const s of subs) {
     const r = await fetchText(s);
     const p = new URL(s).pathname;
     const fname = p.split("/").pop();
-    if (fname === "sitemap-es.xml" || fname === "sitemap-fr.xml") {
-      const loc = fname === "sitemap-es.xml" ? "es" : "fr";
-      inSitemap[loc] = new Set([...inSitemap[loc], ...locPaths(r.body, `/${loc}/`), ...(/<loc>\s*[^<]*\/es\b(?![a-z-])/.test(r.body) && fname === "sitemap-es.xml" ? [`/${loc}`] : []), ...(/<loc>\s*[^<]*\/fr\b(?![a-z-])/.test(r.body) && fname === "sitemap-fr.xml" ? [`/${loc}`] : [])]);
+    // any sitemap-<loc>.xml teaches us a locale even if not under test
+    const discovered = fname && fname.match(/^sitemap-([a-z]{2}(?:-[A-Z]{2})?)\.xml$/);
+    if (discovered) allLocales.add(discovered[1]);
+    const loc = LOCALES.find((l) => fname === `sitemap-${l}.xml`);
+    if (loc) {
+      inSitemap[loc] = new Set([
+        ...inSitemap[loc],
+        ...locPaths(r.body, `/${loc}/`),
+        // the bare locale root, e.g. <loc>https://host/es</loc>
+        ...(new RegExp(`<loc>\\s*[^<]*/${loc}\\b(?![a-z-])`).test(r.body) ? [`/${loc}`] : []),
+      ]);
     } else {
       const urls = locPaths(r.body, "/");
       for (const u of urls) {
-        if (u.startsWith("/es/") || u === "/es" || u.startsWith("/fr/") || u === "/fr") continue;
+        // skip every localized twin across every locale, not just LOCALES
+        if ([...allLocales].some((l) => u === `/${l}` || u.startsWith(`/${l}/`))) continue;
         en.add(u);
       }
     }
   }
-  esFrInSitemaps.es = inSitemap.es.size;
-  esFrInSitemaps.fr = inSitemap.fr.size;
+  for (const l of LOCALES) sitemapCounts[l] = inSitemap[l].size;
 
   const derive = (p, loc) => (p === "/" ? `/${loc}` : `/${loc}${p}`);
   const targets = [];
-  for (const p of en) targets.push({ p, es: derive(p, "es"), fr: derive(p, "fr") });
-  console.log(`EN_PAGES=${en.size} targets=${targets.length} esInSitemap=${inSitemap.es.size} frInSitemap=${inSitemap.fr.size}`);
+  for (const p of en) {
+    const t = { p };
+    for (const l of LOCALES) t[l] = derive(p, l);
+    targets.push(t);
+  }
+  console.log(
+    `EN_PAGES=${en.size} targets=${targets.length} knownLocales=${allLocales.size} ` +
+      LOCALES.map((l) => `${l}InSitemap=${sitemapCounts[l]}`).join(" "),
+  );
 
   const rows = [];
   const seen = new Set();
@@ -107,14 +148,18 @@ async function main() {
   }
   await Promise.all([...Array(8)].map(() => worker()));
 
-  const byKind = { en: {}, es: {}, fr: {} };
+  const byKind = { en: {} };
+  for (const l of LOCALES) byKind[l] = {};
   for (const r of rows) if (r.status === 200) byKind[r.kind][r.p] = r;
 
-  const report = { es: [], fr: [] };
-  const missingFromSitemap = { es: [], fr: [] };
+  const report = Object.fromEntries(LOCALES.map((l) => [l, []]));
+  const missingFromSitemap = Object.fromEntries(LOCALES.map((l) => [l, []]));
   for (const ts of targets) {
     const e = byKind.en[ts.p];
-    if (!e) { report.es.push({ p: ts.p, note: "en-missing" }); report.fr.push({ p: ts.p, note: "en-missing" }); continue; }
+    if (!e) {
+      for (const loc of LOCALES) report[loc].push({ p: ts.p, note: "en-missing" });
+      continue;
+    }
     for (const loc of LOCALES) {
       if (!inSitemap[loc].has(ts[loc])) missingFromSitemap[loc].push(ts[loc]);
       const r = byKind[loc][ts[loc]];
@@ -134,12 +179,25 @@ async function main() {
       }
     }
   }
-  const out = { base: BASE, sitemaps: esFrInSitemaps, targets: targets.length, esLocalized: targets.length - report.es.length, frLocalized: targets.length - report.fr.length, missingFromSitemap, report };
+  const out = {
+    base: BASE,
+    locales: LOCALES,
+    sitemaps: sitemapCounts,
+    targets: targets.length,
+    localized: Object.fromEntries(LOCALES.map((l) => [l, targets.length - report[l].length])),
+    missingFromSitemap,
+    report,
+  };
   fs.writeFileSync(path.join(OUT_DIR, "locale-check.json"), JSON.stringify(out, null, 2));
-  console.log(`ES localized: ${out.esLocalized}/${targets.length}; FR localized: ${out.frLocalized}/${targets.length}`);
-  console.log(`\nlocalized URLs missing from their locale sitemap: es=${missingFromSitemap.es.length} fr=${missingFromSitemap.fr.length}`);
+  console.log(
+    LOCALES.map((l) => `${l.toUpperCase()} localized: ${out.localized[l]}/${targets.length}`).join("; "),
+  );
+  console.log(
+    "\nlocalized URLs missing from their locale sitemap: " +
+      LOCALES.map((l) => `${l}=${missingFromSitemap[l].length}`).join(" "),
+  );
   for (const loc of LOCALES) {
-    for (const p of missingFromSitemap[loc].slice(0, 15)) console.log(`  MISSING ${SITEMAP_FILE[loc]}: ${p}`);
+    for (const p of missingFromSitemap[loc].slice(0, 15)) console.log(`  MISSING sitemap-${loc}.xml: ${p}`);
   }
   for (const loc of LOCALES) {
     const recs = report[loc];

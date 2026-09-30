@@ -97,6 +97,29 @@ Terms **not** yet settled — pick one and use it consistently:
 | mould / moulding | قالب / التشكيل بالقوالب |
 | non-conforming product | منتج غير مطابق |
 
+## Scope: `content.ts` only — do NOT create `.ar.yaml` sidecars
+
+Your 21 blocks live in `src/product/content.ts`. That is the whole job.
+
+**Do not** add `*.ar.yaml` / `*.ar.mdx` / `*.ar.md` files under
+`src/content/site/`. The long-form corpus is 111 files per locale — a separate,
+much larger scope. Adding a few `.ar.` files without wiring the loader would
+switch on routing for a locale that has almost no corpus.
+
+If `.ar.` sidecars are commissioned later, four integration points must change
+first. All four are already in place for 16 other locales but not yet for `ar`:
+
+| File | What is missing |
+|------|-----------------|
+| `src/features/content/loader.ts` | six `import.meta.glob` maps (`site`, `pages`, `news`, `products`, `technology`, `case-use`), each listing 16 locales with no `ar` entry |
+| `src/routes/sitemap-pages[.]xml.ts` | the `ar` hreflang flag, next to the per-locale `getLocalePaths('<loc>')` booleans |
+| `src/features/content/product-faq-pool.ts` | `ar` in the `Record<...>` union, plus four translated Q&A pairs |
+| `src/features/site/llm.ts` | the Arabic index and full-text entries |
+
+Until then `/ar` deliberately serves English for corpus pages, and the Arabic
+sitemap lists only genuinely-Arabic URLs. That is intended — do not "fix" it
+by widening the sitemap.
+
 ## Where to put the code
 
 Insert each new `ar:` object **immediately after the `en:` block** and

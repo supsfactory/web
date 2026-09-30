@@ -146,7 +146,7 @@ test('every en content file has a .pl counterpart (except locale-agnostic site/p
   const dirs = ['pages', 'news', 'products', 'technology', 'case-use', 'site']
   for (const dir of dirs) {
     for (const name of readdirSync(resolve(contentRoot, dir))) {
-      if (name.includes('.de.') || name.includes('.es.') || name.includes('.fr.') || name.includes('.it.') || name.includes('.pt.') || name.includes('.nl.') || name.includes('.sv.') || name.includes('.no.') || name.includes('.pl.') || name.includes('.da.') || name.includes('.fi.') || name.includes('.ru.') || name.includes('.cs.') || name.includes('.tr.') || name.includes('.hu.') || name.includes('.ro.')) continue
+      if (name.includes('.de.') || name.includes('.es.') || name.includes('.fr.') || name.includes('.it.') || name.includes('.pt.') || name.includes('.nl.') || name.includes('.sv.') || name.includes('.no.') || name.includes('.pl.') || name.includes('.da.') || name.includes('.fi.') || name.includes('.ru.') || name.includes('.cs.') || name.includes('.tr.') || name.includes('.hu.') || name.includes('.ro.') || name.includes('.ar.')) continue
       if (dir === 'site' && name === 'pages.yaml') continue
       const plName = name.replace(/(\.(yaml|mdx|md))$/, '.pl$1')
       if (!existsSync(resolve(contentRoot, `${dir}/${plName}`))) {
