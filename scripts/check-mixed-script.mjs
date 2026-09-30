@@ -26,6 +26,15 @@ const ALLOWED = new Set([
   'signature', 'leviathan', 'wake', 'medusa', 'glow',
 ])
 
+// Multi-word proper nouns kept in Latin by design. Matched as whole units and
+// blanked out before the word scan, so a company legal name does not force its
+// individual words into ALLOWED — which would also permit those words
+// anywhere else in Arabic copy (e.g. allowing "group" everywhere to satisfy
+// "Group" in a single legal name).
+const ALLOWED_PHRASES = [
+  'Qingdao Vatrad Group Co., Ltd.',
+]
+
 const files = []
 const walk = (dir) => {
   for (const e of readdirSync(dir, { withFileTypes: true })) {
@@ -62,7 +71,11 @@ for (const file of files) {
         if (text.includes('@') || /https?:/.test(text) || /\+\d[\d-]{6,}/.test(text)) continue
         if (CYRILLIC.test(text)) offenders.push(`${file}:${i + 1} cyrillic ${text.slice(0, 110)}`)
         if (CJK.test(text)) offenders.push(`${file}:${i + 1} cjk      ${text.slice(0, 110)}`)
-        for (const m of text.matchAll(/[A-Za-z][A-Za-z'\-]{3,}/g)) {
+        // Remove whole-unit Latin proper nouns so their words are not judged
+        // individually.
+        let words = text
+        for (const phrase of ALLOWED_PHRASES) words = words.split(phrase).join(' ')
+        for (const m of words.matchAll(/[A-Za-z][A-Za-z'\-]{3,}/g)) {
           if (ALLOWED.has(m[0].toLowerCase())) continue
           if (/^https?:/.test(text)) continue
           // Hyphenated compounds: allow when every part is allowed.

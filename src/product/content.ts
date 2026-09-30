@@ -517,6 +517,18 @@ export const manufacturerPledge: Localized<ManufacturerPledgeContent> = {
     verifyLabel: 'Verify Who We Are',
     verifyHref: '/about/identity',
   },
+  ar: {
+    kicker: 'مصنّع لا شركة تجارية',
+    title: 'نحن نُدير المصنع الذي ينتج طلبك',
+    sub: 'الشركة التجارية تعيد بيع إنتاج مصانع أخرى. أما نحن فنُشغّل هذا المصنع بأنفسنا. لا هامش للوسطاء، ولا مستودع لطرف ثالث، ولا وسيط بين طلبك وخط الإنتاج.',
+    items: [
+      { title: 'كيان قانوني مُسجَّل', body: 'شركة Qingdao Vatrad Group Co., Ltd. هي الطرف المتعاقد في كل طلب وفي كل مستند تصدير.' },
+      { title: 'مصنع واحد وفريق واحد', body: 'الهندسة وضبط الجودة وجدولة الإنتاج ومستندات التصدير — كل ذلك يُدار داخليًا في مصنع لايشي بتشينغداو.' },
+      { title: 'علامتك التجارية، لا علامتنا', body: 'نصنّع حصريًا تحت علامات عملائنا التجارية، ولا نتنافس معهم في أي سوق.' },
+    ],
+    verifyLabel: 'تحقّق من هويتنا',
+    verifyHref: '/about/identity',
+  },
   es: {
     kicker: 'Fabricante, no empresa comercializadora',
     title: 'Somos Dueños de la Fábrica Detrás de Tu Pedido',
@@ -1082,6 +1094,17 @@ export const factoryEvidence: Localized<FactoryEvidenceContent> = {
       { title: 'Proof Center', body: 'Certificates, third-party inspection reports, audit records and delivered-project evidence in one place.', href: '/proof-center' },
       { title: 'Verify the Factory', body: 'Cross-check our public business records, certifications and verification guidance before you commit.', href: '/verify-factory' },
       { title: 'Factory Audit Checklist', body: 'Download the buyer checklist used when auditing an inflatable SUP factory — facility, equipment and process.', href: '/factory-audit-checklist' },
+    ],
+  },
+  ar: {
+    kicker: 'تحقّق منا قبل أن تطلبه',
+    title: 'أدلة المصنع والتحقق',
+    sub: 'أدلة مستقلة على أن منشأتنا ومعداتنا ونظام الجودة وسجلات التصدير لدينا حقيقية — راجعها وتحقق منها قبل أي التزام.',
+    cta: 'استعرض الأدلة',
+    items: [
+      { title: 'مركز الأدلة', body: 'الشهادات وتقارير الفحص من أطراف ثالثة وسجلات التدقيق وأدلة المشاريع المنفَّذة في مكان واحد.', href: '/proof-center' },
+      { title: 'تحقّق من المصنع', body: 'قارن سجلاتنا التجارية العامة وشهاداتنا وإرشادات التحقق قبل أن تلتزم.', href: '/verify-factory' },
+      { title: 'قائمة تدقيق المصنع', body: 'حمّل قائمة المشترين التي يستخدمونها عند تدقيق مصنع ألواح SUP قابلة للنفخ — المنشأة والمعدات والعمليات.', href: '/factory-audit-checklist' },
     ],
   },
   es: {

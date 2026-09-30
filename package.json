@@ -10,7 +10,7 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "e2e": "playwright test",
-    "typecheck": "fumadocs-mdx && tsc --noEmit && pnpm check:mixed-script",
+    "typecheck": "fumadocs-mdx && tsc --noEmit && pnpm check:mixed-script && pnpm check:locale-parity",
     "postinstall": "fumadocs-mdx",
     "deploy:staging": "CLOUDFLARE_ENV=staging pnpm build && wrangler deploy",
     "deploy:prod": "CLOUDFLARE_ENV=production pnpm build && wrangler deploy",
@@ -33,7 +33,8 @@
     "pdf:preview": "node scripts/compress-pdf.mjs --dry-run",
     "check:mixed-script": "node scripts/check-mixed-script.mjs",
     "check:locale-coverage": "node scripts/check-locale-coverage.mjs",
-    "ar:terms": "node scripts/extract-ar-terms.mjs"
+    "ar:terms": "node scripts/extract-ar-terms.mjs",
+    "check:locale-parity": "node scripts/check-locale-parity.mjs"
   },
   "dependencies": {
     "@cloudflare/vite-plugin": "^1.52.1",

@@ -136,12 +136,27 @@ export const someBlock: Localized<SomeContent> = {
 
 ```bash
 pnpm check:mixed-script      # rejects Cyrillic/CJK and stray Latin in Arabic
+pnpm check:locale-parity     # rejects key / array-length / placeholder drift
 pnpm check:locale-coverage   # confirms each block now reports as localized
 ```
 
+`check:locale-parity` is the mechanical half of hard rules 2 and 4. It parses
+`content.ts` with the TypeScript compiler and compares every `ar` object
+against its `en` original: property names **in order** at every depth, array
+lengths, and the exact set of `{placeholder}` and `${VAR}` tokens. A dropped
+array item, a renamed key or a lost placeholder fails the build:
+
+```
+factoryEvidence: shape mismatch (en 5 top-level props, arrays [3] |
+                 ar 5 top-level props, arrays [2])
+```
+
+It says nothing about whether the Arabic reads well. A block can pass all three
+checks and still be awkward — see the register notes above.
+
 `check-mixed-script` scans **`src/` only** — it will not inspect anything you
 write in `tools/`. Keep your scratch work outside the repo, and keep the
-Arabic inside `content.ts` where the checker can see it.
+Arabic inside `content.ts` where the checks can see it.
 
 When all 21 are done:
 
@@ -204,6 +219,7 @@ Per block:
 - [ ] Numbers unaltered (no double-counting, no reformatting)
 - [ ] No leading space in any string
 - [ ] `pnpm check:mixed-script` clean
+- [ ] `pnpm check:locale-parity` clean
 - [ ] Terminology matches the "ground truth" table above
 
 Whole set:
