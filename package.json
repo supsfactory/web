@@ -31,7 +31,9 @@
     "images:preview": "node scripts/process-and-publish-images.mjs --dry-run",
     "pdf:compress": "node scripts/compress-pdf.mjs",
     "pdf:preview": "node scripts/compress-pdf.mjs --dry-run",
-    "check:mixed-script": "node scripts/check-mixed-script.mjs"
+    "check:mixed-script": "node scripts/check-mixed-script.mjs",
+    "check:locale-coverage": "node scripts/check-locale-coverage.mjs",
+    "ar:terms": "node scripts/extract-ar-terms.mjs"
   },
   "dependencies": {
     "@cloudflare/vite-plugin": "^1.52.1",
