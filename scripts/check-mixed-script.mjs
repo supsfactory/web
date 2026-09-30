@@ -10,6 +10,14 @@ import { readdirSync, readFileSync } from 'node:fs'
 import { join } from 'node:path'
 
 const ARABIC = /[؀-ۿݐ-ݿﭐ-﷿ﹰ-﻿]/
+// A single Arabic LETTER, for adjacency tests. Excludes punctuation and
+// harakat, which share the U+0600..U+06FF block: ، ؛ ؟ ۔ ؐ and the tashkeel
+// marks. Without this distinction "EVA،" and "SUP؟" look like a Latin letter
+// glued to an Arabic word, which they are not — that alone produced 13 false
+// positives on already-shipped Arabic copy.
+const AR_LETTER_SRC =
+  '[\\u0621-\\u063A\\u0641-\\u064A\\u066E-\\u066F\\u0671-\\u06D3\\u06D5\\u06FA-\\u06FF]'
+const AR = new RegExp(AR_LETTER_SRC)
 const CYRILLIC = /[Ѐ-ӿ]/
 const CJK = /[　-〿぀-ヿ㐀-䶿一-鿿豈-﫿＀-￯]/
 // English terms that are intentionally left in Latin inside Arabic copy.
@@ -89,6 +97,40 @@ for (const file of files) {
           // Hyphenated compounds: allow when every part is allowed.
           if (m[0].includes('-') && m[0].split('-').filter(Boolean).every((p) => ALLOWED.has(p.toLowerCase()))) continue
           offenders.push(`${file}:${i + 1} latin    "${m[0]}"  ${text.slice(0, 110)}`)
+        }
+        // A Latin run sandwiched inside an Arabic word — "زعfinات" — is a
+        // fragment glued in by mistake. The word-length rule above cannot see
+        // these: it needs four Latin characters, so a short leak like "fin"
+        // passes unnoticed.
+        //
+        // Deliberately narrower than plain Latin/Arabic adjacency. Adjacency is
+        // mostly *correct* Arabic and produced 25 false positives on
+        // already-shipped copy: the connective prefixes و/ب/ف/ك/ل (and their
+        // tatweel forms) correctly attach to a following foreign word (وCCPA,
+        // بـEVA), and a Latin acronym is normally followed by Arabic
+        // punctuation (SUP؟, EVA،). Only the two patterns below are
+        // unambiguous defects:
+        //
+        //   A: Arabic letter + Latin + Arabic letter, where the leading Arabic
+        //      letter is not a connective prefix.
+        //   B: Latin + Arabic letter, with nothing Arabic before it. Never
+        //      valid — "SUPا" is always a missing space.
+        //
+        // AR_LETTER deliberately excludes U+0600..U+06FF punctuation and
+        // harakat: ، ؛ ؟ ۔ live in that range and would otherwise make
+        // "EVA،" look glued.
+        const CONNECTIVE = /[\u0648\u0628\u0641\u0643\u0644\u0640]/
+        const covered = []
+        for (const m of text.matchAll(new RegExp(AR_LETTER_SRC + '([A-Za-z]+)' + AR_LETTER_SRC, 'g'))) {
+          // مثال مقبول: وCCPA، بـEVA  (连词/介词按阿语规范附着)
+          if (CONNECTIVE.test(m[1][0])) continue
+          covered.push([m.index, m.index + m[0].length])
+          offenders.push(`${file}:${i + 1} glued-A  ${JSON.stringify(m[0])}  in  ${text.slice(0, 90)}`)
+        }
+        for (const m of text.matchAll(/[A-Za-z]/g)) {
+          if (covered.some(([a, b]) => m.index >= a && m.index < b)) continue
+          if (!AR.test(text[m.index + 1] ?? '')) continue
+          offenders.push(`${file}:${i + 1} glued-B  ${JSON.stringify(text.slice(m.index, m.index + 2))}  in  ${text.slice(0, 90)}`)
         }
       }
     })
