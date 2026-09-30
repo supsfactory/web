@@ -1,5 +1,5 @@
 import type { Locale } from '@/features/i18n/locale'
-import { FACTS, MOQ_SHORT, COLLABORATION_MODES } from './facts'
+import { FACTS, MOQ_SHORT, COLLABORATION_MODES, COLLABORATION_MODES_AR } from './facts'
 
 /**
  * Marketing content for the iSupfactory site, localized en/es/fr/de/it.
@@ -2083,6 +2083,30 @@ export const solve: Localized<SolveContent> = {
       {
         title: 'Volume Supply — Repeat and Fleet Orders',
         body: 'Large-run production for distributors, rental operators and resort groups, with locked specifications, batch traceability and consistent construction across reorders.',
+      },
+    ],
+  },
+  ar: {
+    kicker: 'تصنيع OEM و ODM',
+    title: 'طريقتان لبناء منتج SUP',
+    sub: 'نموذج OEM عندما تصلنا بالمواصفة، ونموذج ODM عندما تصلنا بالفكرة — إضافة إلى العلامة التجارية الخاصة والتوريد بالجملة للعلامات التي تريد منصة مجرَّبة.',
+    cta: 'اطلب عرض سعر OEM',
+    items: [
+      {
+        title: 'OEM — التصنيع وفق مواصفتك',
+        body: COLLABORATION_MODES_AR.oem.full,
+      },
+      {
+        title: 'ODM — تطوير اللوح مع فريقنا الهندسي',
+        body: COLLABORATION_MODES_AR.odm.full,
+      },
+      {
+        title: 'علامة تجارية خاصة — علامتك على منصة مثبتة',
+        body: COLLABORATION_MODES_AR.privateLabel.full,
+      },
+      {
+        title: 'التوريد بالجملة — الطلبات المتكررة وطلبات الأساطيل',
+        body: 'إنتاج بكميات كبيرة للموزّعين وشركات التأجير ومجموعات المنتجعات، مع مواصفات مُثبّتة وإمكانية تتبّع الدفعات وبنية متسقة في كل طلبية.',
       },
     ],
   },
@@ -5412,6 +5436,33 @@ export const solutions: Localized<SolutionsContent> = {
         title: 'Production Requirements',
         body: 'Tailor how your project is produced.',
         points: ['Quantity', 'Specification', 'Application'],
+      },
+    ],
+  },
+  ar: {
+    kicker: 'قدرة التخصيص',
+    title: 'حلول منتجات SUP مخصّصة لنشاطك التجاري',
+    sub: 'من برامج OEM/ODM للعلامات التجارية إلى خطوط العلامة الخاصة للموزّعين وفرق التوريد — كل متطلب يتحوّل إلى منتج قابل للتصنيع.',
+    pillars: [
+      {
+        title: 'تصميم اللوح',
+        body: 'حدّد اللوح بما يتطلبه منتجك.',
+        points: ['الشكل', 'المقاس', 'السماكة', 'البنية'],
+      },
+      {
+        title: 'الرسومات والهوية',
+        body: 'ضع هويتك على كل لوح.',
+        points: ['الشعار', 'الألوان', 'التصميم', 'الطباعة'],
+      },
+      {
+        title: 'الملحقات',
+        body: 'أكمل المنتج بقطع متناسقة.',
+        points: ['المجداف', 'الحقيبة', 'الزعنف', 'التغليف'],
+      },
+      {
+        title: 'متطلبات الإنتاج',
+        body: 'اضبط كيف يُنتج مشروعك.',
+        points: ['الكمية', 'المواصفة', 'الاستخدام'],
       },
     ],
   },

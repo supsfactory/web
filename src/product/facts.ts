@@ -393,3 +393,33 @@ export const COLLABORATION_MODES = {
     bestFor: 'Resort, rental, club and school operators',
   },
 } as const
+
+// Arabic counterpart of COLLABORATION_MODES.
+//
+// Kept as a separate additive export rather than a locale-keyed rewrite so
+// COLLABORATION_MODES keeps its `as const` shape and its existing consumers
+// (site-config.ts, llm.ts) are untouched. Without this, content blocks that
+// reference COLLABORATION_MODES.*.full would render English paragraphs inside
+// an Arabic page.
+export const COLLABORATION_MODES_AR = {
+  oem: {
+    short: 'التصنيع وفق مواصفتك المعتمدة',
+    full: 'OEM (تصنيع المعدات الأصلية): نُصنّع وفق المواصفة التي اعتمدتها — رسوماتك وأبعادك وخاماتك وبنية لوحك وتغليفه. أنت تملك التصميم والقوالب والملكية الفكرية.',
+    bestFor: 'المشترون الذين لديهم تصاميم أو ألواح مرجعية أو مواصفات تفصيلية',
+  },
+  odm: {
+    short: 'تطوير اللوح مع فريقنا الهندسي',
+    full: 'ODM (التصميم والتصنيع الأصلي): يطوير فريقنا الهندسي بنية اللوح والبناء والرسومات والتغليف انطلاقًا من موجزك — سواء كانت فكرة سوقية أو هدف أداء أو تطويرًا لمنصة مثبتة. يقترح المصنع التصميم ويعتمده المشتري قبل بدء الإنتاج.',
+    bestFor: 'المشترون لديهم أفكار منتجات أو متطلبات سوقية أو أهداف أداء لكن دون مواصفات تفصيلية',
+  },
+  privateLabel: {
+    short: 'ضع علامتك التجارية على منصة SUP مثبتة',
+    full: 'علامة تجارية خاصة: علامتك التجارية ورسوماتك وتغليفك على منصة قائمة مُتحقَّق منها — دون تطوير قوالب ودون تغييرات بنيوية. أسرع طريق من الفكرة إلى التسليم.',
+    bestFor: 'المشترون الذين يحتاجون ألواحًا بعلامتهم التجارية بسرعة دون تطوير منتج',
+  },
+  commercial: {
+    short: 'تكوين باقات أساطيل متينة',
+    full: 'برنامج الأساطيل التجارية: حزم SUP مخصّصة للاستخدام المكثف لدى شركات التأجير والمنتجعات والأندية والمدارس — مع مواصفات متانة وقطع غيار وإدارة ألوان واتساق بين الدفعات.',
+    bestFor: 'مشغّلو المنتجعات والتأجير والأندية والمدارس',
+  },
+} as const
