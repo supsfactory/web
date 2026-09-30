@@ -1,5 +1,5 @@
 import type { Locale } from '@/features/i18n/locale'
-import { FACTS, MOQ_SHORT, COLLABORATION_MODES, COLLABORATION_MODES_AR } from './facts'
+import { FACTS, FACTS_LOCALE, MOQ_SHORT, COLLABORATION_MODES, COLLABORATION_MODES_AR } from './facts'
 
 /**
  * Marketing content for the iSupfactory site, localized en/es/fr/de/it.
@@ -1805,7 +1805,7 @@ export const trustBar: Localized<TrustBarContent> = {
   },
   ar: {
     stats: [
-      { value: `الحد الأدنى ${MOQ_SHORT.standardRun}`, label: 'للإنتاج بالجملة؛ الدفعات التجريبية من 20–50 قطعة' },
+      { value: `الحد الأدنى ${FACTS_LOCALE.ar.moq.standardRun}`, label: 'للإنتاج بالجملة؛ الدفعات التجريبية من 20–50 قطعة' },
       { value: FACTS.sampleTime, label: 'لوصول العينات إليك بعد تأكيد الرسومات' },
       { value: FACTS.leadTime, label: 'إنتاج الدفعات بعد تأكيد الطلب والعربون' },
       { value: FACTS.annualCapacity, label: 'الطاقة الإنتاجية السنوية داخل مصنع تشينغداو' },
@@ -1819,7 +1819,7 @@ export const trustBar: Localized<TrustBarContent> = {
   },
   es: {
     stats: [
-      { value: `MOQ ${MOQ_SHORT.standardRun}`, label: 'para volumen; piloto desde 20–50 uds.' },
+      { value: `MOQ ${FACTS_LOCALE.es.moq.standardRun}`, label: 'para volumen; piloto desde 20–50 uds.' },
       { value: FACTS.sampleTime, label: 'muestras en tu escritorio tras confirmar el arte' },
       { value: FACTS.leadTime, label: 'producción en serie tras PO y depósito confirmados' },
       { value: FACTS.annualCapacity, label: 'capacidad anual interna en la planta de Qingdao' },
@@ -1833,7 +1833,7 @@ export const trustBar: Localized<TrustBarContent> = {
   },
   fr: {
     stats: [
-      { value: `MOQ ${MOQ_SHORT.standardRun}`, label: 'pour la production en volume ; lots pilotes à partir de 20–50 pcs' },
+      { value: `MOQ ${FACTS_LOCALE.fr.moq.standardRun}`, label: 'pour la production en volume ; lots pilotes à partir de 20–50 pcs' },
       { value: FACTS.sampleTime, label: 'échantillons livrés après confirmation du graphisme' },
       { value: FACTS.leadTime, label: 'production en série après PO et acompte confirmés' },
       { value: FACTS.annualCapacity, label: 'de capacité annuelle intégrée à l’usine de Qingdao' },
@@ -1847,7 +1847,7 @@ export const trustBar: Localized<TrustBarContent> = {
   },
   de: {
     stats: [
-      { value: `MOQ ${MOQ_SHORT.standardRun}`, label: 'für Serienproduktion; Pilotserien ab 20–50 Stück' },
+      { value: `MOQ ${FACTS_LOCALE.de.moq.standardRun}`, label: 'für Serienproduktion; Pilotserien ab 20–50 Stück' },
       { value: FACTS.sampleTime, label: 'Muster auf Ihrem Schreibtisch nach Grafikbestätigung' },
       { value: FACTS.leadTime, label: 'Serienfertigung nach bestätigter PO und Anzahlung' },
       { value: FACTS.annualCapacity, label: 'jährliche Eigenkapazität im Werk Qingdao' },
@@ -1861,7 +1861,7 @@ export const trustBar: Localized<TrustBarContent> = {
   },
   it: {
     stats: [
-      { value: `MOQ ${MOQ_SHORT.standardRun}`, label: 'per la produzione in serie; lotti pilota da 20–50 pezzi' },
+      { value: `MOQ ${FACTS_LOCALE.it.moq.standardRun}`, label: 'per la produzione in serie; lotti pilota da 20–50 pezzi' },
       { value: FACTS.sampleTime, label: 'campioni sulla tua scrivania dopo la conferma della grafica' },
       { value: FACTS.leadTime, label: 'produzione in serie dopo PO e acconto confermati' },
       { value: FACTS.annualCapacity, label: 'capacità annuale interna nello stabilimento di Qingdao' },
@@ -1875,7 +1875,7 @@ export const trustBar: Localized<TrustBarContent> = {
   },
   pt: {
     stats: [
-      { value: `MOQ ${MOQ_SHORT.standardRun}`, label: 'para produção em série; lotes piloto a partir de 20–50 unidades' },
+      { value: `MOQ ${FACTS_LOCALE.pt.moq.standardRun}`, label: 'para produção em série; lotes piloto a partir de 20–50 unidades' },
       { value: FACTS.sampleTime, label: 'amostras na tua secretária após a confirmação da gráfica' },
       { value: FACTS.leadTime, label: 'produção em série após PO e sinal confirmados' },
       { value: FACTS.annualCapacity, label: 'capacidade anual interna na fábrica de Qingdao' },
@@ -1889,7 +1889,7 @@ export const trustBar: Localized<TrustBarContent> = {
   },
   nl: {
     stats: [
-      { value: `MOQ ${MOQ_SHORT.standardRun}`, label: 'voor serieproductie; pilotseries vanaf 20–50 stuks' },
+      { value: `MOQ ${FACTS_LOCALE.nl.moq.standardRun}`, label: 'voor serieproductie; pilotseries vanaf 20–50 stuks' },
       { value: FACTS.sampleTime, label: 'monsters op je bureau na bevestiging van de grafische vormgeving' },
       { value: FACTS.leadTime, label: 'serieproductie na bevestigde PO en aanbetaling' },
       { value: FACTS.annualCapacity, label: 'jaarlijkse interne capaciteit in de fabriek in Qingdao' },
@@ -1903,7 +1903,7 @@ export const trustBar: Localized<TrustBarContent> = {
   },
   sv: {
     stats: [
-      { value: `MOQ ${MOQ_SHORT.standardRun}`, label: 'för serietillverkning; pilotkörningar från 20–50 st' },
+      { value: `MOQ ${FACTS_LOCALE.sv.moq.standardRun}`, label: 'för serietillverkning; pilotkörningar från 20–50 st' },
       { value: FACTS.sampleTime, label: 'prover på ditt bord efter bekräftad grafik' },
       { value: FACTS.leadTime, label: 'serietillverkning efter bekräftad PO och insättning' },
       { value: FACTS.annualCapacity, label: 'årlig intern kapacitet vid Qingdao-anläggningen' },
@@ -1917,7 +1917,7 @@ export const trustBar: Localized<TrustBarContent> = {
   },
   no: {
     stats: [
-      { value: `MOQ ${MOQ_SHORT.standardRun}`, label: 'for serietillverkning; pilotserier fra 20–50 stk' },
+      { value: `MOQ ${FACTS_LOCALE.no.moq.standardRun}`, label: 'for serietillverkning; pilotserier fra 20–50 stk' },
       { value: FACTS.sampleTime, label: 'prøver på ditt brett etter godkjent grafikk' },
       { value: FACTS.leadTime, label: 'serietillverkning etter bekreftet PO og depositum' },
       { value: FACTS.annualCapacity, label: 'årlig intern kapasitet ved anlegget i Qingdao' },
@@ -1931,7 +1931,7 @@ export const trustBar: Localized<TrustBarContent> = {
   },
   pl: {
     stats: [
-      { value: `MOQ ${MOQ_SHORT.standardRun}`, label: 'dla produkcji seryjnej; serie pilotażowe od 20–50 szt' },
+      { value: `MOQ ${FACTS_LOCALE.pl.moq.standardRun}`, label: 'dla produkcji seryjnej; serie pilotażowe od 20–50 szt' },
       { value: FACTS.sampleTime, label: 'próbki Twojej deski po zatwierdzeniu grafiki' },
       { value: FACTS.leadTime, label: 'produkcja seryjna po potwierdzeniu zamówienia i zaliczki' },
       { value: FACTS.annualCapacity, label: 'roczna wydajność zakładu w Qingdao' },
@@ -1945,7 +1945,7 @@ export const trustBar: Localized<TrustBarContent> = {
   },
   da: {
     stats: [
-      { value: `MOQ ${MOQ_SHORT.standardRun}`, label: 'til serieproduktion; pilotserier fra 20–50 stk' },
+      { value: `MOQ ${FACTS_LOCALE.da.moq.standardRun}`, label: 'til serieproduktion; pilotserier fra 20–50 stk' },
       { value: FACTS.sampleTime, label: 'prøver på dit bræt efter godkendt grafik' },
       { value: FACTS.leadTime, label: 'serieproduktion efter bekræftet PO og depositum' },
       { value: FACTS.annualCapacity, label: 'årlig intern kapacitet på anlægget i Qingdao' },
@@ -1959,7 +1959,7 @@ export const trustBar: Localized<TrustBarContent> = {
   },
   fi: {
     stats: [
-      { value: `MOQ ${MOQ_SHORT.standardRun}`, label: 'sarjatuotantoon; pilottierät alkaen 20–50 kpl' },
+      { value: `MOQ ${FACTS_LOCALE.fi.moq.standardRun}`, label: 'sarjatuotantoon; pilottierät alkaen 20–50 kpl' },
       { value: FACTS.sampleTime, label: 'näytteet laudallesi hyväksytyn grafiikan jälkeen' },
       { value: FACTS.leadTime, label: 'sarjatuotanto vahvistetun tilauksen ja käsirahan jälkeen' },
       { value: FACTS.annualCapacity, label: 'vuotuinen oma kapasiteetti Qingdaon tehtaalla' },
@@ -1973,7 +1973,7 @@ export const trustBar: Localized<TrustBarContent> = {
   },
   ru: {
     stats: [
-      { value: `MOQ ${MOQ_SHORT.standardRun}`, label: 'для серийного производства; пилотные партии от 20–50 шт' },
+      { value: `MOQ ${FACTS_LOCALE.ru.moq.standardRun}`, label: 'для серийного производства; пилотные партии от 20–50 шт' },
       { value: FACTS.sampleTime, label: 'образцы до вашего стола после согласования графики' },
       { value: FACTS.leadTime, label: 'серийное производство после подтверждённого заказа (PO) и предоплаты' },
       { value: FACTS.annualCapacity, label: 'годовая собственная мощность завода в Циндао' },
@@ -1987,7 +1987,7 @@ export const trustBar: Localized<TrustBarContent> = {
   },
   cs: {
     stats: [
-      { value: `MOQ ${MOQ_SHORT.standardRun}`, label: 'pro sériovou výrobu; pilotní dávky od 20–50 ks' },
+      { value: `MOQ ${FACTS_LOCALE.cs.moq.standardRun}`, label: 'pro sériovou výrobu; pilotní dávky od 20–50 ks' },
       { value: FACTS.sampleTime, label: 'vzorky na Vašem stole po odsouhlasení grafiky' },
       { value: FACTS.leadTime, label: 'sériová výroba po potvrzené objednávce (PO) a záloze' },
       { value: FACTS.annualCapacity, label: 'roční vlastní kapacita závodu v Čching-tunu' },
@@ -2001,7 +2001,7 @@ export const trustBar: Localized<TrustBarContent> = {
   },
   tr: {
     stats: [
-      { value: `MOQ ${MOQ_SHORT.standardRun}`, label: 'seri üretim için; pilot partiler 20–50 adetten başlar' },
+      { value: `MOQ ${FACTS_LOCALE.tr.moq.standardRun}`, label: 'seri üretim için; pilot partiler 20–50 adetten başlar' },
       { value: FACTS.sampleTime, label: 'grafik onaylandıktan sonra numuneler masanızda' },
       { value: FACTS.leadTime, label: 'sipariş (PO) ve depozito onaylandıktan sonra seri üretim' },
       { value: FACTS.annualCapacity, label: 'Çin, Qingdao’daki tesisimizin yıllık kendi üretim kapasitesi' },
@@ -2015,7 +2015,7 @@ export const trustBar: Localized<TrustBarContent> = {
   },
   ro: {
     stats: [
-      { value: `MOQ ${MOQ_SHORT.standardRun}`, label: 'pentru producția de serie; loturile-pilot încep de la 20–50 de bucăți' },
+      { value: `MOQ ${FACTS_LOCALE.ro.moq.standardRun}`, label: 'pentru producția de serie; loturile-pilot încep de la 20–50 de bucăți' },
       { value: FACTS.sampleTime, label: 'mostrele ajung la dumneavoastră după aprobarea graficelor' },
       { value: FACTS.leadTime, label: 'producție de serie după confirmarea comenzii (PO) și a avansului' },
       { value: FACTS.annualCapacity, label: 'capacitatea anuală de producție proprie a uzinei noastre din Qingdao, China' },
@@ -14596,11 +14596,11 @@ export const faq: Localized<FaqContent> = {
       },
       {
         q: 'ما الفرق بين OEM وODM؟',
-        a: `OEM: نصنّع وفق مواصفتك المعتمدة — رسوماتك وأبعادك وخاماتك وتغليفك، وتبقى ملكية التصميم والملكية الفكرية لك. ODM: يطوّر فريقنا الهندسي اللوح انطلاقًا من موجزك — سواء كانت فكرة سوقية أو هدف أداء أو تكييفًا لمنصّة مجرَّبة — وتوافق قبل الإنتاج. أما العلامة الخاصة فتضع علامتك على منصّة قائمة معتمدة دون أي تغيير هيكلي. ويمرّ مسارا OEM وODM عبر المصنع نفسه ونظام ضبط الجودة وفريق التصدير نفسه؛ وODM هو أسرع طريق إلى لوح بعلامتك، يبدأ من ${MOQ_SHORT.standardRun} مع عينات خلال ${FACTS.sampleTime}.`,
+        a: `OEM: نصنّع وفق مواصفتك المعتمدة — رسوماتك وأبعادك وخاماتك وتغليفك، وتبقى ملكية التصميم والملكية الفكرية لك. ODM: يطوّر فريقنا الهندسي اللوح انطلاقًا من موجزك — سواء كانت فكرة سوقية أو هدف أداء أو تكييفًا لمنصّة مجرَّبة — وتوافق قبل الإنتاج. أما العلامة الخاصة فتضع علامتك على منصّة قائمة معتمدة دون أي تغيير هيكلي. ويمرّ مسارا OEM وODM عبر المصنع نفسه ونظام ضبط الجودة وفريق التصدير نفسه؛ وODM هو أسرع طريق إلى لوح بعلامتك، يبدأ من ${FACTS_LOCALE.ar.moq.standardRun} مع عينات خلال ${FACTS_LOCALE.ar.sampleTime}.`,
       },
       {
         q: 'ما الحد الأدنى لكمية الطلب لديكم؟',
-        a: `تبدأ دفعات co-branding بالكميات الصغيرة من 5–10 قطع، والدفعات التجريبية من 20–50 قطعة. ويبدأ الإنتاج بالحجم القياسي من ${MOQ_SHORT.standardRun}. أما الأشكال بقوالب مخصّصة فتُنفَّذ ضمن مستوى الحجم، بحسب درجة التعقيد.`,
+        a: `تبدأ دفعات co-branding بالكميات الصغيرة من 5–10 قطع، والدفعات التجريبية من 20–50 قطعة. ويبدأ الإنتاج بالحجم القياسي من ${FACTS_LOCALE.ar.moq.standardRun}. أما الأشكال بقوالب مخصّصة فتُنفَّذ ضمن مستوى الحجم، بحسب درجة التعقيد.`,
       },
       {
         q: 'كم تستغرق عملية الإنتاج؟',
@@ -14644,7 +14644,7 @@ export const faq: Localized<FaqContent> = {
       },
       {
         q: 'هل تعملون مع علامات SUP جديدة أو ناشئة؟',
-        a: `نعم. تُطوَّر مشاريع OEM/ODM وفق متطلبات منتجك وسوقك المستهدف وحجمك — تبدأ الدفعات التجريبية من 20–50 قطعة والإنتاج بالحجم القياسي من ${MOQ_SHORT.standardRun}.`,
+        a: `نعم. تُطوَّر مشاريع OEM/ODM وفق متطلبات منتجك وسوقك المستهدف وحجمك — تبدأ الدفعات التجريبية من 20–50 قطعة والإنتاج بالحجم القياسي من ${FACTS_LOCALE.ar.moq.standardRun}.`,
       },
       {
         q: 'ما المعلومات التي ينبغي تقديمها للاستفسار عن OEM؟',
@@ -14663,11 +14663,11 @@ export const faq: Localized<FaqContent> = {
       },
       {
         q: '¿Cuál es la diferencia entre OEM y ODM?',
-        a: `OEM: fabricamos según tu especificación aprobada — planos, dimensiones, materiales y embalaje. Tú eres propietario del diseño y la propiedad intelectual. ODM: nuestro equipo de ingeniería desarrolla la tabla a partir de tu brief — ya sea un concepto de mercado, un objetivo de rendimiento o la adaptación de una plataforma probada — y tú apruebas antes de la producción. Marca privada pone tu marca en una plataforma validada existente sin cambios estructurales. Ambas rutas pasan por la misma planta, el mismo sistema de QC y el mismo equipo de exportación; ODM es la vía más rápida hacia una tabla con tu marca, desde ${MOQ_SHORT.standardRun} y con muestras en ${FACTS.sampleTime}.`,
+        a: `OEM: fabricamos según tu especificación aprobada — planos, dimensiones, materiales y embalaje. Tú eres propietario del diseño y la propiedad intelectual. ODM: nuestro equipo de ingeniería desarrolla la tabla a partir de tu brief — ya sea un concepto de mercado, un objetivo de rendimiento o la adaptación de una plataforma probada — y tú apruebas antes de la producción. Marca privada pone tu marca en una plataforma validada existente sin cambios estructurales. Ambas rutas pasan por la misma planta, el mismo sistema de QC y el mismo equipo de exportación; ODM es la vía más rápida hacia una tabla con tu marca, desde ${FACTS_LOCALE.es.moq.standardRun} y con muestras en ${FACTS_LOCALE.es.sampleTime}.`,
       },
       {
         q: '¿Cuál es la cantidad mínima de pedido?',
-        a: `El pequeño lote de co-branding parte de 5–10 uds.; los lotes piloto, de 20–50 uds. La producción de volumen estándar parte de ${MOQ_SHORT.standardRun}. Los diseños con molde a medida se producen en el tramo de volumen, según la complejidad.`,
+        a: `El pequeño lote de co-branding parte de 5–10 uds.; los lotes piloto, de 20–50 uds. La producción de volumen estándar parte de ${FACTS_LOCALE.es.moq.standardRun}. Los diseños con molde a medida se producen en el tramo de volumen, según la complejidad.`,
       },
       {
         q: '¿Cuánto tarda la producción?',
@@ -14711,7 +14711,7 @@ export const faq: Localized<FaqContent> = {
       },
       {
         q: '¿Trabajáis con marcas de SUP nuevas o emergentes?',
-        a: `Sí. Los proyectos OEM/ODM se desarrollan según tus requisitos de producto, mercado objetivo y volumen — los pilotos parten de 20–50 uds. y la producción de volumen estándar, de ${MOQ_SHORT.standardRun}.`,
+        a: `Sí. Los proyectos OEM/ODM se desarrollan según tus requisitos de producto, mercado objetivo y volumen — los pilotos parten de 20–50 uds. y la producción de volumen estándar, de ${FACTS_LOCALE.es.moq.standardRun}.`,
       },
       {
         q: '¿Qué información debo dar en una consulta OEM de SUP?',
@@ -14730,11 +14730,11 @@ export const faq: Localized<FaqContent> = {
       },
       {
         q: 'Quelle est la différence entre OEM et ODM ?',
-        a: `OEM : nous fabriquons selon votre spécification approuvée — vos plans, dimensions, matériaux et packaging. Vous possédez la conception et la propriété intellectuelle. ODM : notre équipe d'ingénierie développe la planche à partir de votre brief — qu'il s'agisse d'un concept de marché, d'un objectif de performance ou de l'adaptation d'une plateforme éprouvée — et vous approuvez avant la production. La marque blanche appose votre marque sur une plateforme validée existante, sans modification structurelle. Les deux filières passent par la même usine, le même système de contrôle qualité et la même équipe d'export ; l'ODM est la voie la plus rapide vers une planche à votre marque, à partir de ${MOQ_SHORT.standardRun} avec des échantillons en ${FACTS.sampleTime}.`,
+        a: `OEM : nous fabriquons selon votre spécification approuvée — vos plans, dimensions, matériaux et packaging. Vous possédez la conception et la propriété intellectuelle. ODM : notre équipe d'ingénierie développe la planche à partir de votre brief — qu'il s'agisse d'un concept de marché, d'un objectif de performance ou de l'adaptation d'une plateforme éprouvée — et vous approuvez avant la production. La marque blanche appose votre marque sur une plateforme validée existante, sans modification structurelle. Les deux filières passent par la même usine, le même système de contrôle qualité et la même équipe d'export ; l'ODM est la voie la plus rapide vers une planche à votre marque, à partir de ${FACTS_LOCALE.fr.moq.standardRun} avec des échantillons en ${FACTS_LOCALE.fr.sampleTime}.`,
       },
       {
         q: 'Quelle est votre quantité minimale de commande ?',
-        a: `Le petit lot en co-branding part de 5–10 pièces ; les lots pilotes de 20–50 pièces. La production en volume standard part de ${MOQ_SHORT.standardRun}. Les formes à moule sur mesure se situent dans le palier de volume, selon la complexité.`,
+        a: `Le petit lot en co-branding part de 5–10 pièces ; les lots pilotes de 20–50 pièces. La production en volume standard part de ${FACTS_LOCALE.fr.moq.standardRun}. Les formes à moule sur mesure se situent dans le palier de volume, selon la complexité.`,
       },
       {
         q: 'Combien de temps prend la production ?',
@@ -14778,7 +14778,7 @@ export const faq: Localized<FaqContent> = {
       },
       {
         q: 'Travaillez-vous avec des marques de SUP nouvelles ou en démarrage ?',
-        a: `Oui. Les projets OEM/ODM sont développés selon vos exigences produit, votre marché cible et votre volume — les séries pilotes partent de 20–50 pièces et la production en volume standard de ${MOQ_SHORT.standardRun}.`,
+        a: `Oui. Les projets OEM/ODM sont développés selon vos exigences produit, votre marché cible et votre volume — les séries pilotes partent de 20–50 pièces et la production en volume standard de ${FACTS_LOCALE.fr.moq.standardRun}.`,
       },
       {
         q: 'Quelles informations dois-je fournir pour une demande OEM de SUP ?',
@@ -14797,11 +14797,11 @@ export const faq: Localized<FaqContent> = {
       },
       {
         q: 'Was ist der Unterschied zwischen OEM und ODM?',
-        a: `OEM: Wir fertigen nach Ihrer freigegebenen Spezifikation — Ihre Zeichnungen, Maße, Materialien und Verpackung. Sie besitzen das Design und das geistige Eigentum. ODM: Unser Ingenieurteam entwickelt das Board auf Basis Ihres Briefings — ob Marktkonzept, Leistungsziel oder Adaption einer bewährten Plattform —, und Sie geben es vor der Produktion frei. Private Label bringt Ihre Marke ohne strukturelle Änderungen auf eine bestehende validierte Plattform. Beide Wege, OEM und ODM, laufen durch dasselbe Werk, dasselbe Qualitätssystem und dasselbe Exportteam; ODM ist der schnellste Weg zu einem Board mit Ihrer Marke, ab ${MOQ_SHORT.standardRun} mit Mustern in ${FACTS.sampleTime}.`,
+        a: `OEM: Wir fertigen nach Ihrer freigegebenen Spezifikation — Ihre Zeichnungen, Maße, Materialien und Verpackung. Sie besitzen das Design und das geistige Eigentum. ODM: Unser Ingenieurteam entwickelt das Board auf Basis Ihres Briefings — ob Marktkonzept, Leistungsziel oder Adaption einer bewährten Plattform —, und Sie geben es vor der Produktion frei. Private Label bringt Ihre Marke ohne strukturelle Änderungen auf eine bestehende validierte Plattform. Beide Wege, OEM und ODM, laufen durch dasselbe Werk, dasselbe Qualitätssystem und dasselbe Exportteam; ODM ist der schnellste Weg zu einem Board mit Ihrer Marke, ab ${FACTS_LOCALE.de.moq.standardRun} mit Mustern in ${FACTS_LOCALE.de.sampleTime}.`,
       },
       {
         q: 'Wie hoch ist Ihre Mindestbestellmenge?',
-        a: `Co-Branding in kleiner Stückzahl startet ab 5–10 Stück; Pilotchargen ab 20–50 Stück. Die Standard-Serienproduktion startet ab ${MOQ_SHORT.standardRun}. Formen mit individueller Werkzeugauslegung werden je nach Komplexität auf der Mengenstufe gefertigt.`,
+        a: `Co-Branding in kleiner Stückzahl startet ab 5–10 Stück; Pilotchargen ab 20–50 Stück. Die Standard-Serienproduktion startet ab ${FACTS_LOCALE.de.moq.standardRun}. Formen mit individueller Werkzeugauslegung werden je nach Komplexität auf der Mengenstufe gefertigt.`,
       },
       {
         q: 'Wie lange dauert die Produktion?',
@@ -14845,7 +14845,7 @@ export const faq: Localized<FaqContent> = {
       },
       {
         q: 'Arbeiten Sie mit neuen oder Start-up-SUP-Marken zusammen?',
-        a: `Ja. OEM/ODM-Projekte werden nach Ihren Produktanforderungen, Ihrem Zielmarkt und Ihrem Volumen entwickelt — Pilotserien starten ab 20–50 Stück und die Standard-Serienproduktion ab ${MOQ_SHORT.standardRun}.`,
+        a: `Ja. OEM/ODM-Projekte werden nach Ihren Produktanforderungen, Ihrem Zielmarkt und Ihrem Volumen entwickelt — Pilotserien starten ab 20–50 Stück und die Standard-Serienproduktion ab ${FACTS_LOCALE.de.moq.standardRun}.`,
       },
       {
         q: 'Welche Informationen sollte ich für eine OEM-SUP-Anfrage bereitstellen?',
@@ -14864,11 +14864,11 @@ export const faq: Localized<FaqContent> = {
       },
       {
         q: 'Qual è la differenza tra OEM e ODM?',
-        a: `OEM: produciamo secondo la tua specifica approvata — i tuoi disegni, misure, materiali e imballaggio. Possiedi il design e la proprietà intellettuale. ODM: il nostro team di ingegneri sviluppa la tavola in base al tuo briefing — sia un concetto di mercato, un obiettivo di prestazione o l'adattamento di una piattaforma collaudata — e tu la approvi prima della produzione. Il private label mette il tuo marchio su una piattaforma esistente e validata senza modifiche strutturali. Entrambi i percorsi, OEM e ODM, passano dallo stesso stabilimento, lo stesso sistema qualità e lo stesso team export; ODM è la via più rapida per una tavola con il tuo marchio, a partire da ${MOQ_SHORT.standardRun} con campioni in ${FACTS.sampleTime}.`,
+        a: `OEM: produciamo secondo la tua specifica approvata — i tuoi disegni, misure, materiali e imballaggio. Possiedi il design e la proprietà intellettuale. ODM: il nostro team di ingegneri sviluppa la tavola in base al tuo briefing — sia un concetto di mercato, un obiettivo di prestazione o l'adattamento di una piattaforma collaudata — e tu la approvi prima della produzione. Il private label mette il tuo marchio su una piattaforma esistente e validata senza modifiche strutturali. Entrambi i percorsi, OEM e ODM, passano dallo stesso stabilimento, lo stesso sistema qualità e lo stesso team export; ODM è la via più rapida per una tavola con il tuo marchio, a partire da ${FACTS_LOCALE.it.moq.standardRun} con campioni in ${FACTS_LOCALE.it.sampleTime}.`,
       },
       {
         q: 'Qual è la vostra quantità minima di ordine?',
-        a: `Il co-branding in piccole quantità parte da 5–10 pezzi; i lotti pilota da 20–50 pezzi. La produzione standard in serie parte da ${MOQ_SHORT.standardRun}. Le forme con stampi personalizzati vengono prodotte sul livello di volume, in base alla complessità.`,
+        a: `Il co-branding in piccole quantità parte da 5–10 pezzi; i lotti pilota da 20–50 pezzi. La produzione standard in serie parte da ${FACTS_LOCALE.it.moq.standardRun}. Le forme con stampi personalizzati vengono prodotte sul livello di volume, in base alla complessità.`,
       },
       {
         q: 'Quanto dura la produzione?',
@@ -14912,7 +14912,7 @@ export const faq: Localized<FaqContent> = {
       },
       {
         q: 'Lavorate con nuovi marchi SUP o startup?',
-        a: `Sì. I progetti OEM/ODM vengono sviluppati in base ai tuoi requisiti di prodotto, al tuo mercato di riferimento e ai tuoi volumi — le serie pilota partono da 20–50 pezzi e la produzione standard in serie da ${MOQ_SHORT.standardRun}.`,
+        a: `Sì. I progetti OEM/ODM vengono sviluppati in base ai tuoi requisiti di prodotto, al tuo mercato di riferimento e ai tuoi volumi — le serie pilota partono da 20–50 pezzi e la produzione standard in serie da ${FACTS_LOCALE.it.moq.standardRun}.`,
       },
       {
         q: 'Quali informazioni devo fornire per una richiesta OEM di SUP?',
@@ -14931,11 +14931,11 @@ export const faq: Localized<FaqContent> = {
       },
       {
         q: 'Qual é a diferença entre OEM e ODM?',
-        a: `OEM: produzimos de acordo com a tua especificação aprovada — os teus desenhos, medidas, materiais e embalagem. Tu és o dono do design e da propriedade intelectual. ODM: a nossa equipa de engenheiros desenvolve a prancha a partir do teu briefing — seja um conceito de mercado, um objetivo de desempenho ou a adaptação de uma plataforma comprovada — e tu aprovas antes da produção. O private label coloca a tua marca numa plataforma existente e validada, sem alterações estruturais. Ambos os percursos, OEM e ODM, passam pela mesma fábrica, pelo mesmo sistema de qualidade e pela mesma equipa de exportação; o ODM é a via mais rápida para uma prancha com a tua marca, a partir de ${MOQ_SHORT.standardRun} com amostras em ${FACTS.sampleTime}.`,
+        a: `OEM: produzimos de acordo com a tua especificação aprovada — os teus desenhos, medidas, materiais e embalagem. Tu és o dono do design e da propriedade intelectual. ODM: a nossa equipa de engenheiros desenvolve a prancha a partir do teu briefing — seja um conceito de mercado, um objetivo de desempenho ou a adaptação de uma plataforma comprovada — e tu aprovas antes da produção. O private label coloca a tua marca numa plataforma existente e validada, sem alterações estruturais. Ambos os percursos, OEM e ODM, passam pela mesma fábrica, pelo mesmo sistema de qualidade e pela mesma equipa de exportação; o ODM é a via mais rápida para uma prancha com a tua marca, a partir de ${FACTS_LOCALE.pt.moq.standardRun} com amostras em ${FACTS_LOCALE.pt.sampleTime}.`,
       },
       {
         q: 'Qual é a vossa quantidade mínima de encomenda?',
-        a: `O co-branding em pequenas quantidades começa nas 5–10 unidades; os lotes piloto em 20–50 unidades. A produção padrão em série começa em ${MOQ_SHORT.standardRun}. As formas com moldes personalizados são produzidas no nível de volume, consoante a complexidade.`,
+        a: `O co-branding em pequenas quantidades começa nas 5–10 unidades; os lotes piloto em 20–50 unidades. A produção padrão em série começa em ${FACTS_LOCALE.pt.moq.standardRun}. As formas com moldes personalizados são produzidas no nível de volume, consoante a complexidade.`,
       },
       {
         q: 'Quanto tempo demora a produção?',
@@ -14979,7 +14979,7 @@ export const faq: Localized<FaqContent> = {
       },
       {
         q: 'Trabalham com marcas novas ou em fase de arranque?',
-        a: `Sim. Os projetos OEM/ODM são desenvolvidos de acordo com os teus requisitos de produto, o teu mercado-alvo e o teu volume — as séries piloto partem das 20–50 unidades e a produção padrão em série de ${MOQ_SHORT.standardRun}.`,
+        a: `Sim. Os projetos OEM/ODM são desenvolvidos de acordo com os teus requisitos de produto, o teu mercado-alvo e o teu volume — as séries piloto partem das 20–50 unidades e a produção padrão em série de ${FACTS_LOCALE.pt.moq.standardRun}.`,
       },
       {
         q: 'Que informações devo fornecer para um pedido OEM de SUP?',
@@ -14998,11 +14998,11 @@ export const faq: Localized<FaqContent> = {
       },
       {
         q: 'Wat is het verschil tussen OEM en ODM?',
-        a: `OEM: we produceren volgens jouw goedgekeurde specificatie — jouw tekeningen, afmetingen, materialen en verpakking. Jij bezit het design en het intellectueel eigendom. ODM: ons team van ingenieurs ontwikkelt de plank op basis van jouw briefing — of het nu een marktconcept, een prestatiedoel of de aanpassing van een bewezen platform is — en jij keurt het goed vóór de productie. Bij private label komt jouw merk op een bestaand gevalideerd platform zonder structurele wijzigingen. Beide trajecten, OEM en ODM, lopen door dezelfde fabriek, hetzelfde kwaliteitssysteem en hetzelfde exportteam; ODM is de snelste weg naar een plank met jouw merk, vanaf ${MOQ_SHORT.standardRun} met monsters binnen ${FACTS.sampleTime}.`,
+        a: `OEM: we produceren volgens jouw goedgekeurde specificatie — jouw tekeningen, afmetingen, materialen en verpakking. Jij bezit het design en het intellectueel eigendom. ODM: ons team van ingenieurs ontwikkelt de plank op basis van jouw briefing — of het nu een marktconcept, een prestatiedoel of de aanpassing van een bewezen platform is — en jij keurt het goed vóór de productie. Bij private label komt jouw merk op een bestaand gevalideerd platform zonder structurele wijzigingen. Beide trajecten, OEM en ODM, lopen door dezelfde fabriek, hetzelfde kwaliteitssysteem en hetzelfde exportteam; ODM is de snelste weg naar een plank met jouw merk, vanaf ${FACTS_LOCALE.nl.moq.standardRun} met monsters binnen ${FACTS_LOCALE.nl.sampleTime}.`,
       },
       {
         q: 'Wat is jullie minimum bestelhoeveelheid?',
-        a: `Co-branding in kleine hoeveelheden start vanaf 5–10 stuks; pilotbatches vanaf 20–50 stuks. De standaard serieproductie start vanaf ${MOQ_SHORT.standardRun}. Vormen met gepersonaliseerde matrijzen worden op het volumeniveau geproduceerd, afhankelijk van de complexiteit.`,
+        a: `Co-branding in kleine hoeveelheden start vanaf 5–10 stuks; pilotbatches vanaf 20–50 stuks. De standaard serieproductie start vanaf ${FACTS_LOCALE.nl.moq.standardRun}. Vormen met gepersonaliseerde matrijzen worden op het volumeniveau geproduceerd, afhankelijk van de complexiteit.`,
       },
       {
         q: 'Hoe lang duurt de productie?',
@@ -15046,7 +15046,7 @@ export const faq: Localized<FaqContent> = {
       },
       {
         q: 'Werken jullie met nieuwe of startende SUP-merken?',
-        a: `Ja. De OEM/ODM-projecten worden ontwikkeld op basis van jouw productvereisten, je doelmarkt en jouw volume — pilotseries starten vanaf 20–50 stuks en de standaard serieproductie vanaf ${MOQ_SHORT.standardRun}.`,
+        a: `Ja. De OEM/ODM-projecten worden ontwikkeld op basis van jouw productvereisten, je doelmarkt en jouw volume — pilotseries starten vanaf 20–50 stuks en de standaard serieproductie vanaf ${FACTS_LOCALE.nl.moq.standardRun}.`,
       },
       {
         q: 'Welke informatie moet ik aanleveren voor een OEM-SUP-aanvraag?',
@@ -15065,11 +15065,11 @@ export const faq: Localized<FaqContent> = {
       },
       {
         q: 'Vad är skillnaden mellan OEM och ODM?',
-        a: `OEM: vi tillverkar enligt din godkända specifikation — dina ritningar, mått, material och förpackning. Du äger designen och den immateriella egendomen. ODM: vårt konstruktionsteam utvecklar brädan utifrån din brief — vare sig det är ett marknadskoncept, ett prestandamål eller en anpassning av en beprövad plattform — och du godkänner före produktion. Private label lägger ditt varumärke på en befintlig validerad plattform utan strukturella förändringar. Både OEM- och ODM-vägen går genom samma anläggning, samma kvalitetssystem och samma exportteam; ODM är den snabbaste vägen till en varumärkt bräda, från ${MOQ_SHORT.standardRun} med prover inom ${FACTS.sampleTime}.`,
+        a: `OEM: vi tillverkar enligt din godkända specifikation — dina ritningar, mått, material och förpackning. Du äger designen och den immateriella egendomen. ODM: vårt konstruktionsteam utvecklar brädan utifrån din brief — vare sig det är ett marknadskoncept, ett prestandamål eller en anpassning av en beprövad plattform — och du godkänner före produktion. Private label lägger ditt varumärke på en befintlig validerad plattform utan strukturella förändringar. Både OEM- och ODM-vägen går genom samma anläggning, samma kvalitetssystem och samma exportteam; ODM är den snabbaste vägen till en varumärkt bräda, från ${FACTS_LOCALE.sv.moq.standardRun} med prover inom ${FACTS_LOCALE.sv.sampleTime}.`,
       },
       {
         q: 'Vilken är er minsta beställningskvantitet?',
-        a: `Co-branding i liten kvantitet startar från 5–10 st.; pilotpartier från 20–50 st. Standardproduktion i volym startar från ${MOQ_SHORT.standardRun}. Former med anpassat verktyg tillverkas på volymnivån, beroende på komplexitet.`,
+        a: `Co-branding i liten kvantitet startar från 5–10 st.; pilotpartier från 20–50 st. Standardproduktion i volym startar från ${FACTS_LOCALE.sv.moq.standardRun}. Former med anpassat verktyg tillverkas på volymnivån, beroende på komplexitet.`,
       },
       {
         q: 'Hur lång tid tar produktionen?',
@@ -15113,7 +15113,7 @@ export const faq: Localized<FaqContent> = {
       },
       {
         q: 'Samarbetar ni med nya eller nystartade SUP-varumärken?',
-        a: `Ja. OEM/ODM-projekt utvecklas utifrån dina produktkrav, målmarknad och volym — pilotpartier startar från 20–50 st. och standardproduktion i volym från ${MOQ_SHORT.standardRun}.`,
+        a: `Ja. OEM/ODM-projekt utvecklas utifrån dina produktkrav, målmarknad och volym — pilotpartier startar från 20–50 st. och standardproduktion i volym från ${FACTS_LOCALE.sv.moq.standardRun}.`,
       },
       {
         q: 'Vilken information bör jag lämna vid en OEM-förfrågan om SUP?',
@@ -15132,11 +15132,11 @@ export const faq: Localized<FaqContent> = {
       },
       {
         q: 'Hva er forskjellen mellom OEM og ODM?',
-        a: `OEM: vi produserer etter din godkjente spesifikasjon — dine tegninger, mål, materialer og emballasje. Du eier designet og den immaterielle eiendommen. ODM: konstruksjonsteamet vårt utvikler brettet ut fra briefen din — enten det er et marknadskonsept, et ytelsesmål eller en tilpasning av en testet plattform — og du godkjenner før produksjon. Private label legger merket ditt på en eksisterende, validert plattform uten strukturelle endringer. Både OEM- og ODM-veien går gjennom samme fabrikk, samme kvalitetssystem og samme eksportteam; ODM er den raskeste veien til et merket brett, fra ${MOQ_SHORT.standardRun} med prøver innen ${FACTS.sampleTime}.`,
+        a: `OEM: vi produserer etter din godkjente spesifikasjon — dine tegninger, mål, materialer og emballasje. Du eier designet og den immaterielle eiendommen. ODM: konstruksjonsteamet vårt utvikler brettet ut fra briefen din — enten det er et marknadskonsept, et ytelsesmål eller en tilpasning av en testet plattform — og du godkjenner før produksjon. Private label legger merket ditt på en eksisterende, validert plattform uten strukturelle endringer. Både OEM- og ODM-veien går gjennom samme fabrikk, samme kvalitetssystem og samme eksportteam; ODM er den raskeste veien til et merket brett, fra ${FACTS_LOCALE.no.moq.standardRun} med prøver innen ${FACTS_LOCALE.no.sampleTime}.`,
       },
       {
         q: 'Hva er dere minste bestillingskvantum?',
-        a: `Co-branding i små kvantiteter starter fra 5–10 stk; pilotpartier fra 20–50 stk. Standard produksjon i volum starter fra ${MOQ_SHORT.standardRun}. Former med eget verktøy produseres på volumnivå, avhengig av kompleksitet.`,
+        a: `Co-branding i små kvantiteter starter fra 5–10 stk; pilotpartier fra 20–50 stk. Standard produksjon i volum starter fra ${FACTS_LOCALE.no.moq.standardRun}. Former med eget verktøy produseres på volumnivå, avhengig av kompleksitet.`,
       },
       {
         q: 'Hvor lang tid tar produksjonen?',
@@ -15180,7 +15180,7 @@ export const faq: Localized<FaqContent> = {
       },
       {
         q: 'Samarbeider dere med nye eller nystartede SUP-merker?',
-        a: `Ja. OEM/ODM-prosjekter utvikles ut fra dine produktkrav, målmarked og volum — pilotpartier starter fra 20–50 stk, og standard produksjon i volum fra ${MOQ_SHORT.standardRun}.`,
+        a: `Ja. OEM/ODM-prosjekter utvikles ut fra dine produktkrav, målmarked og volum — pilotpartier starter fra 20–50 stk, og standard produksjon i volum fra ${FACTS_LOCALE.no.moq.standardRun}.`,
       },
       {
         q: 'Hvilken informasjon bør jeg gi ved en OEM-forespørsel om SUP?',
@@ -15199,11 +15199,11 @@ export const faq: Localized<FaqContent> = {
       },
       {
         q: 'Czym różni się OEM od ODM?',
-        a: `OEM: produkujemy zgodnie z Twoją zatwierdzoną specyfikacją — Twoimi rysunkami, wymiarami, materiałami i opakowaniem. To Ty jesteś właścicielem projektu i własności intelektualnej. ODM: nasz zespół konstrukcyjny opracowuje deskę na podstawie Twojego briefu — niezależnie od tego, czy jest to koncepcja rynkowa, cel wydajnościowy, czy adaptacja sprawdzonej platformy — a Ty zatwierdzasz projekt przed produkcją. Marka własna oznacza Twoją markę na istniejącej, zwalidowanej platformie bez zmian konstrukcyjnych. Ścieżki OEM i ODM prowadzą przez tę samą fabrykę, ten sam system jakości i ten sam zespół eksportowy; ODM to najszybsza droga do deski z własną marką, od ${MOQ_SHORT.standardRun} przy próbkach w ${FACTS.sampleTime}.`,
+        a: `OEM: produkujemy zgodnie z Twoją zatwierdzoną specyfikacją — Twoimi rysunkami, wymiarami, materiałami i opakowaniem. To Ty jesteś właścicielem projektu i własności intelektualnej. ODM: nasz zespół konstrukcyjny opracowuje deskę na podstawie Twojego briefu — niezależnie od tego, czy jest to koncepcja rynkowa, cel wydajnościowy, czy adaptacja sprawdzonej platformy — a Ty zatwierdzasz projekt przed produkcją. Marka własna oznacza Twoją markę na istniejącej, zwalidowanej platformie bez zmian konstrukcyjnych. Ścieżki OEM i ODM prowadzą przez tę samą fabrykę, ten sam system jakości i ten sam zespół eksportowy; ODM to najszybsza droga do deski z własną marką, od ${FACTS_LOCALE.pl.moq.standardRun} przy próbkach w ${FACTS_LOCALE.pl.sampleTime}.`,
       },
       {
         q: 'Jakie jest minimalne zamówienie (MOQ)?',
-        a: `Co-branding w małych ilościach zaczyna się od 5–10 szt; partie pilotażowe od 20–50 szt. Standardowa produkcja seryjna zaczyna się od ${MOQ_SHORT.standardRun}. Formy wykonywane narzędziowo powstają w wolumenie produkcyjnym, zależnie od złożoności.`,
+        a: `Co-branding w małych ilościach zaczyna się od 5–10 szt; partie pilotażowe od 20–50 szt. Standardowa produkcja seryjna zaczyna się od ${FACTS_LOCALE.pl.moq.standardRun}. Formy wykonywane narzędziowo powstają w wolumenie produkcyjnym, zależnie od złożoności.`,
       },
       {
         q: 'Ile trwa produkcja?',
@@ -15247,7 +15247,7 @@ export const faq: Localized<FaqContent> = {
       },
       {
         q: 'Czy współpracujecie z nowymi lub startującymi markami SUP?',
-        a: `Tak. Projekty OEM/ODM rozwijamy na podstawie Twoich wymagań produktowych, rynku docelowego i wolumenu — partie pilotażowe zaczynają się od 20–50 szt, a standardowa produkcja seryjna od ${MOQ_SHORT.standardRun}.`,
+        a: `Tak. Projekty OEM/ODM rozwijamy na podstawie Twoich wymagań produktowych, rynku docelowego i wolumenu — partie pilotażowe zaczynają się od 20–50 szt, a standardowa produkcja seryjna od ${FACTS_LOCALE.pl.moq.standardRun}.`,
       },
       {
         q: 'Jakie informacje powinienem podać w zapytaniu o OEM desek SUP?',
@@ -15266,11 +15266,11 @@ export const faq: Localized<FaqContent> = {
       },
       {
         q: 'Hvad er forskellen på OEM og ODM?',
-        a: `OEM: vi producerer efter din godkendte specifikation — dine tegninger, mål, materialer og emballage. Du ejer designet og den immaterielle ejendom. ODM: vores konstruktionsteam udvikler brættet ud fra dit brief — hvad enten det er et markedskoncept, et ydeevnemål eller en tilpasning af en testet platform — og du godkender det før produktionen. Eget mærke placerer dit mærke på en eksisterende, valideret platform uden strukturelle ændringer. Både OEM- og ODM-vejen går gennem samme fabrik, samme kvalitetssystem og samme eksportteam; ODM er den hurtigste vej til et mærkebræt, fra ${MOQ_SHORT.standardRun} med prøver inden for ${FACTS.sampleTime}.`,
+        a: `OEM: vi producerer efter din godkendte specifikation — dine tegninger, mål, materialer og emballage. Du ejer designet og den immaterielle ejendom. ODM: vores konstruktionsteam udvikler brættet ud fra dit brief — hvad enten det er et markedskoncept, et ydeevnemål eller en tilpasning af en testet platform — og du godkender det før produktionen. Eget mærke placerer dit mærke på en eksisterende, valideret platform uden strukturelle ændringer. Både OEM- og ODM-vejen går gennem samme fabrik, samme kvalitetssystem og samme eksportteam; ODM er den hurtigste vej til et mærkebræt, fra ${FACTS_LOCALE.da.moq.standardRun} med prøver inden for ${FACTS_LOCALE.da.sampleTime}.`,
       },
       {
         q: 'Hvad er jeres minimumsordre?',
-        a: `Co-branding i små kvantiteter starter fra 5–10 stk; pilotpartier fra 20–50 stk. Standardproduktion i volumen starter fra ${MOQ_SHORT.standardRun}. Forme med eget værktøj produceres i volumen, afhængigt af kompleksitet.`,
+        a: `Co-branding i små kvantiteter starter fra 5–10 stk; pilotpartier fra 20–50 stk. Standardproduktion i volumen starter fra ${FACTS_LOCALE.da.moq.standardRun}. Forme med eget værktøj produceres i volumen, afhængigt af kompleksitet.`,
       },
       {
         q: 'Hvor lang tid tager produktionen?',
@@ -15314,7 +15314,7 @@ export const faq: Localized<FaqContent> = {
       },
       {
         q: 'Samarbejder I med nye eller nystartede SUP-mærker?',
-        a: `Ja. OEM/ODM-projekter udvikles ud fra dine produktkrav, målmarked og volumen — pilotpartier starter fra 20–50 stk, og standardproduktion i volumen fra ${MOQ_SHORT.standardRun}.`,
+        a: `Ja. OEM/ODM-projekter udvikles ud fra dine produktkrav, målmarked og volumen — pilotpartier starter fra 20–50 stk, og standardproduktion i volumen fra ${FACTS_LOCALE.da.moq.standardRun}.`,
       },
       {
         q: 'Hvilke oplysninger skal jeg give ved en OEM-forespørgsel om SUP?',
@@ -15333,11 +15333,11 @@ export const faq: Localized<FaqContent> = {
       },
       {
         q: 'Mitä eroa on OEM:llä ja ODM:llä?',
-        a: `OEM: valmistamme hyväksymäsi spesifikaation mukaan — piirroksesi, mitat, materiaalit ja pakkaus. Sinulle kuuluu suunnittelu ja immateriaalioikeudet. ODM: suunnittelutiimimme kehittää laudan briefisi mukaan — olipa kyseessä markkinakonsepti, suorituskohde tai testatun alustan mukautus — ja hyväksytt sen ennen tuotantoa. Oma merkki sijoittaa sinun merkkisi olemassa olevalle, validoidulle alustalle ilman rakenteellisia muutoksia. Sekä OEM- että ODM-tie kulkevat saman tehtaan, saman laatujärjestelmän ja saman vientitiimin läpi; ODM on nopein reitti brändilaudalle alkaen ${MOQ_SHORT.standardRun}, ja näytteet valmistuvat ${FACTS.sampleTime} kuluessa.`,
+        a: `OEM: valmistamme hyväksymäsi spesifikaation mukaan — piirroksesi, mitat, materiaalit ja pakkaus. Sinulle kuuluu suunnittelu ja immateriaalioikeudet. ODM: suunnittelutiimimme kehittää laudan briefisi mukaan — olipa kyseessä markkinakonsepti, suorituskohde tai testatun alustan mukautus — ja hyväksytt sen ennen tuotantoa. Oma merkki sijoittaa sinun merkkisi olemassa olevalle, validoidulle alustalle ilman rakenteellisia muutoksia. Sekä OEM- että ODM-tie kulkevat saman tehtaan, saman laatujärjestelmän ja saman vientitiimin läpi; ODM on nopein reitti brändilaudalle alkaen ${FACTS_LOCALE.fi.moq.standardRun}, ja näytteet valmistuvat ${FACTS_LOCALE.fi.sampleTime} kuluessa.`,
       },
       {
         q: 'Mikä on vähimmäistilausmääränne?',
-        a: `Yhteisbrändiys pienillä määrillä alkaa 5–10 kpl:stä; pilottierät 20–50 kpl:stä. Vakiosarjatuotanto alkaa ${MOQ_SHORT.standardRun}. Omilla muoteilla tuotetaan volyymista riippuen monimutkaisuudesta.`,
+        a: `Yhteisbrändiys pienillä määrillä alkaa 5–10 kpl:stä; pilottierät 20–50 kpl:stä. Vakiosarjatuotanto alkaa ${FACTS_LOCALE.fi.moq.standardRun}. Omilla muoteilla tuotetaan volyymista riippuen monimutkaisuudesta.`,
       },
       {
         q: 'Miten kauan tuotanto kestää?',
@@ -15381,7 +15381,7 @@ export const faq: Localized<FaqContent> = {
       },
       {
         q: 'Tehkette yhteistyötä uusien tai alkuvaiheessa olevien SUP-brändien kanssa?',
-        a: `Kyllä. OEM/ODM-hankkeet kehitetään tuotevaatimustasi, kohdemarkkinoidesi ja volyymiesi mukaan — pilottierät alkaen 20–50 kpl:stä ja vakiosarjatuotanto alkaen ${MOQ_SHORT.standardRun}.`,
+        a: `Kyllä. OEM/ODM-hankkeet kehitetään tuotevaatimustasi, kohdemarkkinoidesi ja volyymiesi mukaan — pilottierät alkaen 20–50 kpl:stä ja vakiosarjatuotanto alkaen ${FACTS_LOCALE.fi.moq.standardRun}.`,
       },
       {
         q: 'Mitä tietoja minun tulee antaa, kun pyydän SUP OEM -tarjouksen?',
@@ -15400,11 +15400,11 @@ export const faq: Localized<FaqContent> = {
       },
       {
         q: 'Чем отличаются OEM и ODM?',
-        a: `OEM: мы производим по согласованной вами спецификации — вашим чертежам, размерам, материалам и упаковке. Дизайн и интеллектуальная собственность принадлежат вам. ODM: наша инженерная команда разрабатывает доску по вашему заданию — будь то рыночная концепция, целевой показатель или адаптация проверенной платформы, — а вы утверждаете результат до производства. Private Label размещает ваш бренд на существующей валидированной платформе без изменений конструкции. Оба пути — OEM и ODM — проходят через одну и ту же площадку, систему контроля качества и экспортную команду; ODM — самый быстрый путь к брендированной доске, начиная с ${MOQ_SHORT.standardRun}, образцы готовы за ${FACTS.sampleTime}.`,
+        a: `OEM: мы производим по согласованной вами спецификации — вашим чертежам, размерам, материалам и упаковке. Дизайн и интеллектуальная собственность принадлежат вам. ODM: наша инженерная команда разрабатывает доску по вашему заданию — будь то рыночная концепция, целевой показатель или адаптация проверенной платформы, — а вы утверждаете результат до производства. Private Label размещает ваш бренд на существующей валидированной платформе без изменений конструкции. Оба пути — OEM и ODM — проходят через одну и ту же площадку, систему контроля качества и экспортную команду; ODM — самый быстрый путь к брендированной доске, начиная с ${FACTS_LOCALE.ru.moq.standardRun}, образцы готовы за ${FACTS_LOCALE.ru.sampleTime}.`,
       },
       {
         q: 'Каков ваш минимальный заказ (MOQ)?',
-        a: `Co-branding мелким тиражом начинается с 5–10 шт, пилотные партии — с 20–50 шт. Стандартное серийное производство начинается с ${MOQ_SHORT.standardRun}. Формы собственной разработки производятся на объёмном уровне — в зависимости от сложности.`,
+        a: `Co-branding мелким тиражом начинается с 5–10 шт, пилотные партии — с 20–50 шт. Стандартное серийное производство начинается с ${FACTS_LOCALE.ru.moq.standardRun}. Формы собственной разработки производятся на объёмном уровне — в зависимости от сложности.`,
       },
       {
         q: 'Сколько длится производство?',
@@ -15448,7 +15448,7 @@ export const faq: Localized<FaqContent> = {
       },
       {
         q: 'Работаете ли вы с новыми и начинающими SUP-брендами?',
-        a: `Да. Проекты OEM/ODM разрабатываются с учётом ваших требований к продукту, целевого рынка и объёма — пилотные партии начинаются с 20–50 шт, а стандартное серийное производство — с ${MOQ_SHORT.standardRun}.`,
+        a: `Да. Проекты OEM/ODM разрабатываются с учётом ваших требований к продукту, целевого рынка и объёма — пилотные партии начинаются с 20–50 шт, а стандартное серийное производство — с ${FACTS_LOCALE.ru.moq.standardRun}.`,
       },
       {
         q: 'Какие данные указать в запросе на OEM-предложение по SUP?',
@@ -15467,11 +15467,11 @@ export const faq: Localized<FaqContent> = {
       },
       {
         q: 'Jak se liší OEM a ODM?',
-        a: `OEM: vyrábíme podle schválené specifikace — podle Vašich výkresů, rozměrů, materiálů a balení. Design a duševní vlastnictví patří Vám. ODM: náš konstrukční tým navrhne desku podle Vašeho zadání — ať jde o tržní koncept, cílový parametr, nebo úpravu osvědčené platformy — a Vy výsledek odsouhlasíte ještě před výrobou. Private Label umístí Vaši značku na stávající ověřenou platformu bez změn konstrukce. Obě cesty — OEM i ODM — procházejí stejným závodem, systémem kontroly kvality a exportním týmem; ODM je nejrychlejší cesta k značkové desce, a to již od ${MOQ_SHORT.standardRun}, vzorky hotové za ${FACTS.sampleTime}.`,
+        a: `OEM: vyrábíme podle schválené specifikace — podle Vašich výkresů, rozměrů, materiálů a balení. Design a duševní vlastnictví patří Vám. ODM: náš konstrukční tým navrhne desku podle Vašeho zadání — ať jde o tržní koncept, cílový parametr, nebo úpravu osvědčené platformy — a Vy výsledek odsouhlasíte ještě před výrobou. Private Label umístí Vaši značku na stávající ověřenou platformu bez změn konstrukce. Obě cesty — OEM i ODM — procházejí stejným závodem, systémem kontroly kvality a exportním týmem; ODM je nejrychlejší cesta k značkové desce, a to již od ${FACTS_LOCALE.cs.moq.standardRun}, vzorky hotové za ${FACTS_LOCALE.cs.sampleTime}.`,
       },
       {
         q: 'Jaké je Vaše minimální množství (MOQ)?',
-        a: `Co-branding v malém nákladu začíná na 5–10 ks, pilotní dávky na 20–50 ks. Standardní sériová výroba začíná na ${MOQ_SHORT.standardRun}. Formy vlastního vývoje se vyrábějí objemově — podle složitosti.`,
+        a: `Co-branding v malém nákladu začíná na 5–10 ks, pilotní dávky na 20–50 ks. Standardní sériová výroba začíná na ${FACTS_LOCALE.cs.moq.standardRun}. Formy vlastního vývoje se vyrábějí objemově — podle složitosti.`,
       },
       {
         q: 'Jak dlouho výroba trvá?',
@@ -15515,7 +15515,7 @@ export const faq: Localized<FaqContent> = {
       },
       {
         q: 'Pracujete s novými a začínajícími značkami SUP?',
-        a: `Ano. Projekty OEM/ODM řešíme s ohledem na Vaše požadavky na produkt, cílový trh a objem — pilotní dávky začínají na 20–50 ks a standardní sériová výroba na ${MOQ_SHORT.standardRun}.`,
+        a: `Ano. Projekty OEM/ODM řešíme s ohledem na Vaše požadavky na produkt, cílový trh a objem — pilotní dávky začínají na 20–50 ks a standardní sériová výroba na ${FACTS_LOCALE.cs.moq.standardRun}.`,
       },
       {
         q: 'Jaké údaje uvést v poptávce na OEM nabídku SUP?',
@@ -15534,11 +15534,11 @@ export const faq: Localized<FaqContent> = {
       },
       {
         q: 'OEM ile ODM arasındaki fark nedir?',
-        a: `OEM: onayladığınız teknik şartnameye göre üretiriz — çizimleriniz, ölçüleriniz, malzemeleriniz ve ambalajınız. Tasarımın ve fikri mülkiyetin sahibi sizsiniz. ODM: mühendislik ekibimiz tahtayı sizin brifiniz doğrultusunda geliştirir — ister bir pazar konsepti, ister bir performans hedefi, ister kanıtlanmış bir platformun uyarlanması olsun — ve üretim öncesinde siz onaylarsınız. Private label, yapısal değişiklik yapmadan mevcut ve doğrulanmış bir platforma kendi markanızı yerleştirir. Hem OEM hem de ODM rotası aynı tesisten, aynı kalite kontrol sisteminden ve aynı ihracat ekibinden geçer; ODM, markalı bir tahtaya en hızlı yoldur: ${MOQ_SHORT.standardRun} adetten başlar, numuneler ${FACTS.sampleTime} içinde hazırlanır.`,
+        a: `OEM: onayladığınız teknik şartnameye göre üretiriz — çizimleriniz, ölçüleriniz, malzemeleriniz ve ambalajınız. Tasarımın ve fikri mülkiyetin sahibi sizsiniz. ODM: mühendislik ekibimiz tahtayı sizin brifiniz doğrultusunda geliştirir — ister bir pazar konsepti, ister bir performans hedefi, ister kanıtlanmış bir platformun uyarlanması olsun — ve üretim öncesinde siz onaylarsınız. Private label, yapısal değişiklik yapmadan mevcut ve doğrulanmış bir platforma kendi markanızı yerleştirir. Hem OEM hem de ODM rotası aynı tesisten, aynı kalite kontrol sisteminden ve aynı ihracat ekibinden geçer; ODM, markalı bir tahtaya en hızlı yoldur: ${FACTS_LOCALE.tr.moq.standardRun} adetten başlar, numuneler ${FACTS_LOCALE.tr.sampleTime} içinde hazırlanır.`,
       },
       {
         q: 'Minimum sipariş miktarınız (MOQ) nedir?',
-        a: `Küçük partilerde eş markalama 5–10 adetle başlar; pilot partiler 20–50 adetten başlar. Standart hacimli üretim ${MOQ_SHORT.standardRun} adetten başlar. Özel kalıplı formlar, karmaşıklıklarına göre hacim kademesinde üretilir.`,
+        a: `Küçük partilerde eş markalama 5–10 adetle başlar; pilot partiler 20–50 adetten başlar. Standart hacimli üretim ${FACTS_LOCALE.tr.moq.standardRun} adetten başlar. Özel kalıplı formlar, karmaşıklıklarına göre hacim kademesinde üretilir.`,
       },
       {
         q: 'Üretim ne kadar sürer?',
@@ -15582,7 +15582,7 @@ export const faq: Localized<FaqContent> = {
       },
       {
         q: 'Yeni veya girişim seviyesindeki SUP markalarıyla çalışıyor musunuz?',
-        a: `Evet. OEM/ODM projeleri ürün gereksinimlerinize, hedef pazarınıza ve hacminize göre geliştirilir — pilot partiler 20–50 adetten, standart hacimli üretim ise ${MOQ_SHORT.standardRun} adetten başlar.`,
+        a: `Evet. OEM/ODM projeleri ürün gereksinimlerinize, hedef pazarınıza ve hacminize göre geliştirilir — pilot partiler 20–50 adetten, standart hacimli üretim ise ${FACTS_LOCALE.tr.moq.standardRun} adetten başlar.`,
       },
       {
         q: 'OEM SUP teklifi için hangi bilgileri vermeliyim?',
@@ -15601,11 +15601,11 @@ export const faq: Localized<FaqContent> = {
       },
       {
         q: 'Care este diferența dintre OEM și ODM?',
-        a: `OEM: producem conform specificației tehnice aprobate de dumneavoastră — desenele, dimensiunile, materialele și ambalajul. Designul și proprietatea intelectuală vă aparțin. ODM: echipa noastră de ingineri dezvoltă placa conform briefului dumneavoastră — fie că este vorba despre un concept de piață, o țintă de performanță sau o adaptare a unei platforme validate — iar dumneavoastră o aprobați înainte de producție. Marca privată vă plasează brandul pe o platformă existentă și validată, fără modificări structurale. Ambele trasee, OEM și ODM, trec prin aceeași instalație, același sistem de inspecție a calității și aceeași echipă de export; varianta ODM este cea mai rapidă cale către o placă cu brandul dumneavoastră: de la ${MOQ_SHORT.standardRun} bucăți, cu mostre pregătite în ${FACTS.sampleTime}.`,
+        a: `OEM: producem conform specificației tehnice aprobate de dumneavoastră — desenele, dimensiunile, materialele și ambalajul. Designul și proprietatea intelectuală vă aparțin. ODM: echipa noastră de ingineri dezvoltă placa conform briefului dumneavoastră — fie că este vorba despre un concept de piață, o țintă de performanță sau o adaptare a unei platforme validate — iar dumneavoastră o aprobați înainte de producție. Marca privată vă plasează brandul pe o platformă existentă și validată, fără modificări structurale. Ambele trasee, OEM și ODM, trec prin aceeași instalație, același sistem de inspecție a calității și aceeași echipă de export; varianta ODM este cea mai rapidă cale către o placă cu brandul dumneavoastră: de la ${FACTS_LOCALE.ro.moq.standardRun} bucăți, cu mostre pregătite în ${FACTS_LOCALE.ro.sampleTime}.`,
       },
       {
         q: 'Care este cantitatea minimă de comandă (MOQ)?',
-        a: `Pentru loturile mici, co-branding-ul începe de la 5–10 bucăți; loturile-pilot încep de la 20–50 de bucăți. Producția standard de volum mare începe de la ${MOQ_SHORT.standardRun} bucăți. Formele cu matriță proprie sunt produse în funcție de complexitatea lor, la nivelul de volum corespunzător.`,
+        a: `Pentru loturile mici, co-branding-ul începe de la 5–10 bucăți; loturile-pilot încep de la 20–50 de bucăți. Producția standard de volum mare începe de la ${FACTS_LOCALE.ro.moq.standardRun} bucăți. Formele cu matriță proprie sunt produse în funcție de complexitatea lor, la nivelul de volum corespunzător.`,
       },
       {
         q: 'Cât durează producția?',
@@ -15649,7 +15649,7 @@ export const faq: Localized<FaqContent> = {
       },
       {
         q: 'Lucrați cu branduri SUP noi sau la început de drum?',
-        a: `Da. Proiectele OEM/ODM sunt dezvoltate conform cerințelor dumneavoastră de produs, pieței țintă și volumului — loturile-pilot încep de la 20–50 de bucăți, iar producția standard de volum mare de la ${MOQ_SHORT.standardRun} bucăți.`,
+        a: `Da. Proiectele OEM/ODM sunt dezvoltate conform cerințelor dumneavoastră de produs, pieței țintă și volumului — loturile-pilot încep de la 20–50 de bucăți, iar producția standard de volum mare de la ${FACTS_LOCALE.ro.moq.standardRun} bucăți.`,
       },
       {
         q: 'Ce informații trebuie să furnizez pentru o ofertă OEM de SUP?',
