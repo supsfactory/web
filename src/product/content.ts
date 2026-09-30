@@ -15875,11 +15875,11 @@ export const faq: Localized<FaqContent> = {
       },
       {
         q: 'Mi a különbség az OEM és az ODM között?',
-        a: `OEM: a jóváhagyott műszaki specifikáció szerint gyártunk — a rajzok, a méretek, az anyagok és a csomagolás alapján. A kialakítás és a szellemi tulajdonjog az Öné. ODM: mérnöki csapatunk a briefje alapján fejleszti a táblát — legyen szó piaci koncepcióról, teljesítménycélről vagy egy bevált platform adaptálásáról — és Ön jóváhagyja a gyártás előtt. A saját márka az Ön márkáját egy már meglévő, bevált platformra helyezi, szerkezeti módosítás nélkül. Mindkét út, az OEM és az ODM ugyanazon az üzemen, ugyanazzal a minőség-ellenőrzési rendszerrel és ugyanazzal az exportcsapattal halad át; az ODM a leggyorsabb út az Ön márkájával készülő táblához: 90–100+ darabtól, 7–12 nap alatt elkészített mintákkal.`,
+        a: `OEM: a jóváhagyott műszaki specifikáció szerint gyártunk — a rajzok, a méretek, az anyagok és a csomagolás alapján. A kialakítás és a szellemi tulajdonjog az Öné. ODM: mérnöki csapatunk a briefje alapján fejleszti a táblát — legyen szó piaci koncepcióról, teljesítménycélről vagy egy bevált platform adaptálásáról — és Ön jóváhagyja a gyártás előtt. A saját márka az Ön márkáját egy már meglévő, bevált platformra helyezi, szerkezeti módosítás nélkül. Mindkét út, az OEM és az ODM ugyanazon az üzemen, ugyanazzal a minőség-ellenőrzési rendszerrel és ugyanazzal az exportcsapattal halad át; az ODM a leggyorsabb út az Ön márkájával készülő táblához: ${FACTS_LOCALE.hu.moq.standardRun}, ${FACTS_LOCALE.hu.sampleTime} alatt elkészített mintákkal.`,
       },
       {
         q: 'Mi a minimum rendelési mennyiség (MOQ)?',
-        a: `Kis lotoknál a társ márkázás 5–10 darabtól indul; a pilotagyártás 20–50 darabtól. A szabványos nagy mennyiségű gyártás 90–100+ darabtól indul. A saját formájú kialakításokat összetettségüknek megfelelő mennyiségben gyártjuk.`,
+        a: `Kis lotoknál a társ márkázás 5–10 darabtól indul; a pilotagyártás 20–50 darabtól. A szabványos nagy mennyiségű gyártás az alábbiak szerint indul: ${FACTS_LOCALE.hu.moq.standardRun}. A saját formájú kialakításokat összetettségüknek megfelelő mennyiségben gyártjuk.`,
       },
       {
         q: 'Mennyi ideig tart a gyártás?',
@@ -15923,7 +15923,7 @@ export const faq: Localized<FaqContent> = {
       },
       {
         q: 'Dolgoznak új vagy kezdő SUP márkákkal?',
-        a: `Igen. Az OEM/ODM projekteket az Ön termékigényei, a célpiac és a mennyiség szerint fejlesztjük — a pilotagyártás 20–50 darabtól, a szabványos nagy mennyiségű gyártás pedig 90–100+ darabtól indul.`,
+        a: `Igen. Az OEM/ODM projekteket az Ön termékigényei, a célpiac és a mennyiség szerint fejlesztjük — a pilotagyártás 20–50 darabtól, a szabványos nagy mennyiségű gyártás pedig az alábbiak szerint indul: ${FACTS_LOCALE.hu.moq.standardRun}.`,
       },
       {
         q: 'Milyen információkat kell adnom egy SUP OEM ajánlathoz?',
