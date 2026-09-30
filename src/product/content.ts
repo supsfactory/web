@@ -78,6 +78,30 @@ export const hero: Localized<HeroContent> = {
     float1: { value: '1–2 units', label: 'Sample & approval (before volume commitment)' },
     float2: { value: FACTS.leadTime, label: 'Production lead time (after PO)' },
   },
+  ar: {
+    kicker: 'مصنّع OEM / ODM لألواح SUP مخصّصة — تشينغداو، الصين',
+    titlePre: 'مصنّع ألواح SUP قابلة للنفخ و',
+    titleAccent: 'مصنع OEM/ODM متخصص',
+    titlePost: '',
+    sub: 'ألواح SUP قابلة للنفخ مصمّمة ومُنمذجة ومصنّعة وفق مواصفتك في مصنعنا بتشينغداو، الصين.',
+    ctaPrimary: 'اطلب عرض سعر OEM',
+    ctaSecondary: 'طوّر منتج SUP الخاص بك',
+    ctaTertiary: 'استكشف مصنعنا',
+    ctaQuartiary: '',
+    ctaMicro: 'OEM · ODM · علامة خاصة · تطوير المنتجات · النماذج الأولية · الإنتاج بالجملة',
+    stats: [
+      { value: '12,500 م²', label: 'مصنع داخلي — تشينغداو، الصين' },
+      { value: '120,000+', label: 'لوح منتَج سنويًا' },
+      { value: '50+', label: 'دولة نصدّر إليها' },
+      { value: FACTS.ndaWindow, label: 'مهلة الاستجابة لاتفاقية السرية' },
+    ],
+    mockupLabel: 'المنصة المميّزة',
+    mockupBrand: 'SUP Explorer 11\'',
+    mockupHint: 'رسوماتك · ألوانك · تغليفك',
+    heroNote: 'تصنيع مباشر من المصنع · تطوير النماذج الأولية · إنتاج خاضع لضبط الجودة · دعم التصدير',
+    float1: { value: '1–2 وحدة', label: 'العينة والموافقة (قبل الالتزام بالكمية)' },
+    float2: { value: FACTS.leadTime, label: 'مدة إنتاج الطلب (بعد تأكيد الطلب)' },
+  },
   es: {
     kicker: 'Fabricante OEM / ODM de SUP a medida — Qingdao, China',
     titlePre: 'Fabricante de SUP hinchables y',
@@ -724,6 +748,24 @@ export const factoryProof: Localized<FactoryProofContent> = {
     ],
     note: FACTS.moqNote,
   },
+  ar: {
+    kicker: 'دليل المصنع',
+    title: 'مصنع حقيقي موثّق',
+    sub: 'أرقام قابلة للتحقق من مصنعنا في تشينغداو، الصين — كل رقم يرتبط بالصفحة التي توثّقه.',
+    cta: 'تحقّق من هذا الرقم',
+    stats: [
+      { value: FACTS.warehouseM2, label: 'منشأة تصنيع داخلية', href: '/factory' },
+      { value: FACTS.workers, label: 'القوى العاملة في المصنع داخليًا', href: '/manufacturing-capabilities' },
+      { value: '120,000+', label: 'لوح منتَج سنويًا', href: '/factory/capacity' },
+      { value: FACTS.exportCountries, label: 'دول نصدّر إليها', href: '/proof-center' },
+    ],
+    links: [
+      { label: 'الحد الأدنى ومدة التسليم', href: '/sup-oem-moq-lead-time' },
+      { label: 'ضبط الجودة', href: '/quality' },
+      { label: 'قائمة تدقيق المصنع', href: '/factory-audit-checklist' },
+    ],
+    note: FACTS.moqNote,
+  },
   es: {
     kicker: 'Prueba de fábrica',
     title: 'Una fábrica real, documentada',
@@ -1262,6 +1304,31 @@ export const why: Localized<WhyContent> = {
       },
     ],
   },
+  ar: {
+    kicker: 'علامة التصنيع',
+    title: 'بدعم من Vatrad',
+    sub: 'iSupfactory هي قطاع تطوير وتصنيع منتجات SUP التابع لمجموعة تشينغداو Vatrad. ينتج مصنعنا الذي تبلغ مساحته 12,500 م² في لايكسي وتشينغداو المنتجات القابلة للنفخ منذ عام 2012، ويعمل فيه أكثر من 25 مهندسًا في البحث والتطوير وتصميم القوالب ومختبر الخامات وهندسة الإنتاج، بمتوسط خبرة يتجاوز 7 سنوات في تصنيع المنتجات القابلة للنفخ، على ورديتي إنتاج يوميًا.',
+    image: 'https://assets.isupfactory.com/images/sups/factory/isupfactory-production-department.webp',
+    imageCaption: 'منشأة Vatrad التصنيعية، تشينغداو، الصين',
+    bullets: [
+      {
+        title: 'مصنع 12,500 م²',
+        body: 'داخل المصنع من خامة PVC الخام إلى اللوح الجاهز، في لايكسي، تشينغداو.',
+      },
+      {
+        title: 'ننتج منذ عام 2012',
+        body: 'ورديتا إنتاج يوميًا في ألواح SUP والمنتجات القابلة للنفخ.',
+      },
+      {
+        title: 'أكثر من 25 مهندسًا',
+        body: 'في البحث والتطوير وتصميم القوالب ومختبر الخامات وهندسة الإنتاج.',
+      },
+      {
+        title: 'متوسط يتجاوز 7 سنوات',
+        body: 'خبرة كل مهندس في تصنيع المنتجات القابلة للنفخ.',
+      },
+    ],
+  },
   es: {
     kicker: 'La marca de fabricación',
     title: 'Con el respaldo de Vatrad',
@@ -1684,6 +1751,7 @@ export const strip: Localized<string[]> = {
   tr: ['OEM & ODM', 'Özel Marka', 'Numune Hizmeti', 'Tasarım ve grafik', 'Her partide kalite kontrolü', 'Dünyaya ihracat'],
   ro: ['OEM & ODM', 'Marcă privată', 'Serviciu de mostre', 'Design și grafică', 'Controlul calității la fiecare lot', 'Export în toată lumea'],
   hu: ['OEM & ODM', 'Saját márka', 'Mintaszolgáltatás', 'Formatervezés és grafika', 'Minden gyártási sor minőségellenőrzése', 'Világméretű export'],
+  ar: ['OEM & ODM', 'علامة خاصة', 'خدمة العينات', 'التصميم والرسومات', 'فحص جودة في كل دفعة', 'تصدير عالمي'],
 }
 
 /* ─────────────────────────── home: trust bar ─────────────────────────── */
@@ -1710,6 +1778,20 @@ export const trustBar: Localized<TrustBarContent> = {
       { value: FACTS.exportCountries, label: 'export markets across the EU, US, AU and Asia' },
       { value: '18 PSI / 24 h', label: '100% inflation & leakage test on every board before packing' },
       { value: 'MSL Fusion', label: 'multi-layer fusion welding with woven drop-stitch constructions' },
+    ],
+  },
+  ar: {
+    stats: [
+      { value: `الحد الأدنى ${MOQ_SHORT.standardRun}`, label: 'للإنتاج بالجملة؛ الدفعات التجريبية من 20–50 قطعة' },
+      { value: FACTS.sampleTime, label: 'لوصول العينات إليك بعد تأكيد الرسومات' },
+      { value: FACTS.leadTime, label: 'إنتاج الدفعات بعد تأكيد الطلب والعربون' },
+      { value: FACTS.annualCapacity, label: 'الطاقة الإنتاجية السنوية داخل مصنع تشينغداو' },
+      { value: FACTS.warehouseM2, label: 'مصنع مملوك، من خامة PVC الخام إلى اللوح الجاهز' },
+      { value: FACTS.workers, label: 'عمّال ومهندسون في الموقع' },
+      { value: 'ISO 9001 · CE · BSCI', label: 'معتمدة؛ خامات مطابقة لـ REACH/RoHS' },
+      { value: FACTS.exportCountries, label: 'أسواق التصدير في الاتحاد الأوروبي والولايات المتحدة وأستراليا وآسيا' },
+      { value: '18 PSI / 24 h', label: 'اختبار نفخ الإحكام بنسبة 100% على كل لوح قبل التغليف' },
+      { value: 'MSL Fusion', label: 'لحام انصهار متعدد الطبقات مع بُنى drop-stitch منسوجة' },
     ],
   },
   es: {
@@ -15288,6 +15370,12 @@ export const cta: Localized<CtaContent> = {
     button: 'Start Your SUP Project',
     note: 'Reply within 1 business day · NDA on request before file exchange · info@isupfactory.com · +86-13305324192',
   },
+  ar: {
+    title: 'هل أنت مستعد لتطوير منتج SUP الخاص بك؟',
+    body: 'سواء كانت لديك مواصفة منتج مكتملة أو ما زلت تطوّر فكرتك، يمكن لفريقنا مساعدتك في تقييم الخطوة التالية. أخبرنا بما تريد تصنيعه — سنراجع متطلباتك ونناقش المسار الأكثر عملية من الفكرة إلى الإنتاج.',
+    button: 'ابدأ مشروع SUP الخاص بك',
+    note: 'الرد خلال يوم عمل واحد · اتفاقية سرية عند الطلب قبل تبادل الملفات · info@isupfactory.com · +86-13305324192',
+  },
   es: {
     title: '¿Listo para desarrollar tu producto de SUP?',
     body: 'Ya sea que tengas una especificación de producto completa o estés todavía desarrollando tu concepto, nuestro equipo puede ayudarte a evaluar el siguiente paso. Cuéntanos qué quieres construir — revisaremos tus requisitos y plantearemos la vía más práctica del concepto a la producción.',
@@ -15429,6 +15517,37 @@ export const valueProp: Localized<ValuePropContent> = {
       {
         title: 'Global Supply',
         body: 'Support with packaging and export documentation helps simplify the sourcing process.',
+      },
+    ],
+  },
+  ar: {
+    kicker: 'دورنا',
+    title: 'أكثر من مجرد مصنع ألواح SUP',
+    sub: 'يستطيع كثير من المصنعين إنتاج لوح تجديف قياسي. دورنا مختلف. iSupfactory شريك لتطوير وتصنيع منتجات SUP المخصّصة، يساعد الشركات على الانتقال من الفكرة الأولى إلى منتج جاهز للإنتاج.',
+    cards: [
+      {
+        title: 'تطوير المنتج',
+        body: 'حوّل فكرتك أو رسومك أو مواصفاتك أو متطلبات السوق إلى منتج SUP قابل للتصنيع.',
+      },
+      {
+        title: 'تصنيع مخصّص',
+        body: 'خصّص بنية المنتج والأبعاد والرسومات والألوان والملحقات والتغليف وفق متطلباتك.',
+      },
+      {
+        title: 'تطوير النموذج الأولي',
+        body: 'قيّم المنتج قبل الالتزام بالإنتاج بالجملة عبر تطوير العينة واختبارها.',
+      },
+      {
+        title: 'دعم الإنتاج',
+        body: 'بعد اعتماد التصميم، نُدار الانتقال من النموذج الأولي إلى إنتاج بالجملة قابل للتكرار.',
+      },
+      {
+        title: 'ضبط الجودة',
+        body: 'فحوص الجودة طوال الإنتاج تساعد على مطابقة المنتج النهائي للمواصفات المتفق عليها.',
+      },
+      {
+        title: 'الوريد العالمي',
+        body: 'الدعم في التغليف وتوثيق التصدير يبسّط عملية التوريد.',
       },
     ],
   },
@@ -15964,6 +16083,23 @@ export const boundary: Localized<BoundaryContent> = {
     ],
     footer:
       'Your artwork, tooling and specification files remain your property and are never reused, resold or shown to another client.',
+  },
+  ar: {
+    kicker: 'من نحن',
+    title: 'صناعة مصنع ألواح SUP، لا منصة تجارية',
+    sub: 'نحن شريك تصنيع، لا سوق إلكتروني. دورنا هو مساعدة العملاء على تحويل الأفكار والتصاميم ومتطلبات المنتج إلى ألواح SUP قابلة للتصنيع. علامتك التجارية ملكك، وسوقك تحت سيطرتك، ونحن ندعم تنفيذ الإنتاج.',
+    oursTitle: 'ما نتكفّل به',
+    theirsTitle: 'ما يبقى معك',
+    rows: [
+      { ours: 'مراجعة المواصفة وتقييم قابلية التصنيع', theirs: 'اسم العلامة التجارية وهويتها وتموضعها' },
+      { ours: 'الهندسة الإنشائية واختيار الخامات وتطوير القوالب', theirs: 'التسعير وقنوات البيع' },
+      { ours: 'تجهيز ملفات الرسومات للطباعة وإنتاج الطباعة من ملفات علامتك', theirs: 'ملكية جميع ملفات العلامة والرسومات' },
+      { ours: 'النماذج الأولية والعينات وتوثيق الموافقة على العينة', theirs: 'الموافقة النهائية على كل عينة' },
+      { ours: 'إنتاج الدفعات وفحص الجودة أثناء التصنيع والفحص النهائي', theirs: 'سوقك وعملاؤك وبياناتك' },
+      { ours: 'توثيق الشهادات وتغليف بجودة التصدير', theirs: 'العلاقة مع العملاء النهائيين وخدمة ما بعد البيع' },
+    ],
+    footer:
+      'تبقى رسوماتك وأدواتك وملفات المواصفة ملكًا لك، ولا تُعاد استخدامها أو تُباع أو تُعرض على عميل آخر.',
   },
   es: {
     kicker: 'Quiénes somos',
@@ -16971,6 +17107,24 @@ export const customizer: Localized<CustomizerContent> = {
     boardLabel: 'YOUR BRAND',
     cta: 'Create Your Design',
   },
+  ar: {
+    kicker: 'صمّم ألواح SUP الخاصة بك',
+    title: 'توقّع شكل فكرة SUP قبل الإنتاج',
+    sub: 'عاين كيف ستبدو علامتك على لوح حقيقي — اختر لونًا، وشاهد النموذج يتحدّث مباشرة، ثم أرسل لنا شعارك لتصميم كامل.',
+    status: 'معاينة تفاعلية',
+    statusBody: 'جرّب الألوان الآن، ثم أرسل لنا فكرتك — سينشئ فريقنا نموذجًا مجانيًا لتصميمك الكامل.',
+    steps: [
+      { title: 'اختر طراز اللوح', body: 'من المنصات متعددة الاستخدامات إلى أشكال الرحلات واليوغا — كل منها بنسب واقعية.' },
+      { title: 'حدّد الألوان', body: 'اختر ألوان علامتك وشاهد اللوح يتغيّر فورًا.' },
+      { title: 'ارفع الشعار', body: 'ضع شعارك ورسوماتك على السطح العلوي — واضبط الحجم والموضع.' },
+      { title: 'أنشئ النموذج', body: 'صدّر معاينة لوحك المخصّص لمشاركتها مع فريقك.' },
+    ],
+    mockupLabel: 'معاينة نموذج حية',
+    mockupBrand: 'SUP Explorer 11\'',
+    stepLabel: 'الخطوة',
+    boardLabel: 'علامتك التجارية',
+    cta: 'أنشئ تصميمك',
+  },
   es: {
     kicker: 'Diseña tu SUP',
     title: 'Visualiza tu concepto SUP antes de la producción',
@@ -17281,6 +17435,14 @@ export const productsPage: Localized<ProductsPageContent> = {
     customBody: 'Nothing ships off-the-shelf. Each board is built for you with your choices at every layer.',
     customPoints: ['Shape & size', 'Colors & full-board graphics', 'Logo & EVA pad design', 'Accessories & packaging'],
   },
+  ar: {
+    kicker: 'منصات المنتج',
+    title: 'منصات SUP متاحة للتخصيص',
+    sub: 'كل طراز أدناه هو منصة تصنيع. اختر واحدًا كنقطة بداية، وسنكيّف الشكل والرسومات والألوان والمواصفات مع منتجك.',
+    customTitle: 'كل منتج قابل للتخصيص',
+    customBody: 'لا نبيع أي منتج جاهزًا. كل لوح يُصنع خصيصًا لك وفق اختياراتك في كل طبقة.',
+    customPoints: ['الشكل والمقاس', 'الألوان ورسومات اللوح كاملة', 'الشعار وتصميم وسادة EVA', 'الملحقات والتغليف'],
+  },
   es: {
     kicker: 'Plataformas de producto',
     title: 'Plataformas SUP disponibles para personalización',
@@ -17436,6 +17598,17 @@ export const catalogDownload: Localized<CatalogContent> = {
     secure: 'No spam. Only the catalog and answers to your project.',
     successTitle: 'Request received',
     successBody: 'Our sales team will send the full product catalog and MOQ sheet to {email} within one business day.',
+  },
+  ar: {
+    kicker: 'كتالوج المنتجات',
+    title: 'احصل على الكتالوج الكامل وورقة الحد الأدنى للطلب',
+    body: 'كل المنصات العشر مع المواصفات وخيارات الرسومات وفئات الحد الأدنى للطلب ومواعيد العينات والتغليف — يرسلها فريقنا التجاري إلى بريدك خلال يوم عمل واحد.',
+    emailLabel: 'بريد العمل',
+    emailPlaceholder: 'you@yourcompany.com',
+    submit: 'اطلب الكتالوج',
+    secure: 'لا رسائل مزعجة. الكتالوج فقط وإجابات عن مشروعك.',
+    successTitle: 'تم استلام الطلب',
+    successBody: 'سيرسل فريقنا التجاري الكتالوج الكامل وورقة الحد الأدنى للطلب إلى {email} خلال يوم عمل واحد.',
   },
   es: {
     kicker: 'Catálogo de productos',
@@ -17631,6 +17804,12 @@ export const galleryPage: Localized<GalleryPageContent> = {
     sub: 'A look at how SUP products come to life — from client requirements to finished boards.',
     note: 'Want your project featured here? Start a conversation and let’s design it together.',
   },
+  ar: {
+    kicker: 'مشاريع SUP المخصّصة',
+    title: 'مشاريع SUP المخصّصة',
+    sub: 'نظرة على كيفية تحوّل منتجات SUP من الفكرة إلى الواقع — من متطلبات العميل إلى الألواح النهائية.',
+    note: 'تريد عرض مشروعك هنا؟ ابدأ محادثة ولنصمّمه معًا.',
+  },
   es: {
     kicker: 'Proyectos SUP personalizados',
     title: 'Proyectos SUP personalizados',
@@ -17743,6 +17922,11 @@ export const servePage: Localized<ServePageContent> = {
     title: 'Custom SUP Solutions For Your Business',
     sub: 'Whether you need branded boards for your organization or customized SUP products for your business, we help turn requirements into finished products.',
   },
+  ar: {
+    kicker: 'احتياجات العملاء',
+    title: 'حلول SUP مخصّصة لنشاطك التجاري',
+    sub: 'سواء كنت تحتاج ألواحًا بعلامتك التجارية لمؤسستك أو منتجات SUP مخصّصة لنشاطك، نساعدك على تحويل المتطلبات إلى منتجات نهائية.',
+  },
   es: {
     kicker: 'Necesidades del cliente',
     title: 'Soluciones SUP personalizadas para tu negocio',
@@ -17843,6 +18027,13 @@ export const worksPage: Localized<WorksPageContent> = {
     sub: 'Requirement intake, engineering review, sampling, production and export — every step inside our own plant.',
     consultTitle: 'Start With a Specification Review',
     consultBody: 'Send us your spec, reference board or drawings. We return a manufacturability assessment and a quotation — no obligation.',
+  },
+  ar: {
+    kicker: 'عملية التطوير',
+    title: 'من المواصفة إلى المنتج النهائي',
+    sub: 'استلام المتطلبات، ومراجعة الهندسة، وأخذ العينات، والإنتاج، والتصدير — كل خطوة داخل مصنعنا.',
+    consultTitle: 'ابدأ بمراجعة المواصفة',
+    consultBody: 'أرسل لنا مواصفتك أو لوحًا مرجعيًا أو رسومات هندسية. نُعيد لك تقييم قابلية التصنيع وعرض سعر — دون أي التزام.',
   },
   es: {
     kicker: 'Proceso de desarrollo',
@@ -17993,6 +18184,27 @@ export const series: Localized<SeriesContent> = {
         title: 'Medusa Glow Series (The Jellyfish Edition)',
         sku: 'SUP-MG11',
         body: 'Vibrant jellyfish, sea stars and coral reefs with zero-fade EVA block piecing in refreshing mint green. All-around 11 ft hull for tropical and coastal adventures.',
+        image: 'https://assets.isupfactory.com/site/products/2026/editions/medusa-jellyfish-edition.avif',
+        href: '/products/sup-medusa-glow',
+      },
+    ],
+  },
+  ar: {
+    kicker: 'سلسلة Signature',
+    title: 'ألواح إصدارات موضوعية',
+    sub: 'إصدارات مستوحاة من البحر جاهزة لعلامتك الخاصة — تصاميم جاهزة للطباعة الرقمية بالأشعة فوق البنفسجية والنقش الميكانيكي.',
+    items: [
+      {
+        title: 'سلسلة Leviathan Wake (إصدار الحوت)',
+        sku: 'SUP-LW11',
+        body: 'تميمة حوت أزرق مهيب مع زخارف هندسية وأنماط قبلية، مقترنة بخطوط موجية سوداء وبيضاء بسيطة. هيكل متعدد الاستخدامات بطول 11 قدم للبحيرات والأنهار والمياه الساحلية.',
+        image: 'https://assets.isupfactory.com/site/products/2026/editions/leviathan-whale-edition.avif',
+        href: '/products/sup-leviathan-wake',
+      },
+      {
+        title: 'سلسلة Medusa Glow (إصدار قنديل البحر)',
+        sku: 'SUP-MG11',
+        body: 'قناديل بحر نابضة ونجوم بحر وشعاب مرجانية مع تركيب كتل EVA غير بهتة باللون الأخضر النعناعي. هيكل متعدد الاستخدامات بطول 11 قدم للمغامرات الاستوائية والساحلية.',
         image: 'https://assets.isupfactory.com/site/products/2026/editions/medusa-jellyfish-edition.avif',
         href: '/products/sup-medusa-glow',
       },
