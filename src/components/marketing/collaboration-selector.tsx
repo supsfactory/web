@@ -2,39 +2,17 @@ import { ArrowRight, FileCode, Lightbulb, Tag, Ship } from 'lucide-react'
 import { useTranslation } from '@/features/i18n/provider'
 import { useLocalizePath } from '@/features/i18n/use-localize-path'
 import { pick, solve } from '@/product/content'
-import { COLLABORATION_MODES } from '@/product/facts'
 import { SectionHead } from './section-head'
 import { Reveal } from './reveal'
 
+// Only locale-neutral data lives here. Every visible string comes from the
+// product layer via `solve`, so a translated page can never fall back to the
+// English copy that used to be hardcoded in this table.
 const MODE_ENTRIES = [
-  {
-    key: 'oem' as const,
-    icon: FileCode,
-    buyerState: 'Already have drawings, specs or a reference board',
-    ctaLabel: 'Build to Your Specification',
-    href: '/factory/oem-capability',
-  },
-  {
-    key: 'odm' as const,
-    icon: Lightbulb,
-    buyerState: 'Have a product idea or market positioning',
-    ctaLabel: 'Develop a Board From Your Brief',
-    href: '/odm-manufacturing',
-  },
-  {
-    key: 'privateLabel' as const,
-    icon: Tag,
-    buyerState: 'Need to launch a proven product fast, branded',
-    ctaLabel: 'Launch on a Proven Platform',
-    href: '/solutions/private-label-sup',
-  },
-  {
-    key: 'commercial' as const,
-    icon: Ship,
-    buyerState: 'Procuring rental, school or resort equipment',
-    ctaLabel: 'Build a Commercial SUP Fleet',
-    href: '/solutions/resort-sup',
-  },
+  { key: 'oem' as const, icon: FileCode, href: '/factory/oem-capability' },
+  { key: 'odm' as const, icon: Lightbulb, href: '/odm-manufacturing' },
+  { key: 'privateLabel' as const, icon: Tag, href: '/solutions/private-label-sup' },
+  { key: 'commercial' as const, icon: Ship, href: '/solutions/resort-sup' },
 ]
 
 export function CollaborationSelector() {
@@ -48,7 +26,6 @@ export function CollaborationSelector() {
       <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
         {MODE_ENTRIES.map((mode, i) => {
           const Icon = mode.icon
-          const data = COLLABORATION_MODES[mode.key]
           const item = c.items[i]
           return (
             <Reveal key={mode.key} delay={i * 80}>
@@ -56,14 +33,14 @@ export function CollaborationSelector() {
                 <span className="icon-tile mb-4 bg-aqua/10! text-primary!">
                   <Icon size={20} />
                 </span>
-                <h3 className="font-display text-[16px] font-bold leading-snug text-primary">{item?.short ?? data.short}</h3>
-                <p className="mt-2 text-[12px] font-semibold uppercase tracking-wide text-fg-3">{item?.buyerState ?? mode.buyerState}</p>
-                <p className="mt-3 flex-1 text-[13px] leading-relaxed text-fg-2">{item?.body ?? data.full}</p>
+                <h3 className="font-display text-[16px] font-bold leading-snug text-primary">{item.short}</h3>
+                <p className="mt-2 text-[12px] font-semibold uppercase tracking-wide text-fg-3">{item.buyerState}</p>
+                <p className="mt-3 flex-1 text-[13px] leading-relaxed text-fg-2">{item.body}</p>
                 <a
                   href={fl(mode.href)}
                   className="mt-5 inline-flex items-center gap-1.5 text-[13px] font-bold text-primary transition-colors hover:text-sun"
                 >
-                  {item?.ctaLabel ?? mode.ctaLabel} <ArrowRight size={14} />
+                  {item.ctaLabel} <ArrowRight size={14} />
                 </a>
               </div>
             </Reveal>
