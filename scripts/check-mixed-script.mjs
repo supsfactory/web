@@ -17,7 +17,6 @@ const ARABIC = /[؀-ۿݐ-ݿﭐ-﷿ﹰ-﻿]/
 // positives on already-shipped Arabic copy.
 const AR_LETTER_SRC =
   '[\\u0621-\\u063A\\u0641-\\u064A\\u066E-\\u066F\\u0671-\\u06D3\\u06D5\\u06FA-\\u06FF]'
-const AR = new RegExp(AR_LETTER_SRC)
 const CYRILLIC = /[Ѐ-ӿ]/
 const CJK = /[　-〿぀-ヿ㐀-䶿一-鿿豈-﫿＀-￯]/
 // English terms that are intentionally left in Latin inside Arabic copy.
@@ -32,6 +31,9 @@ const ALLOWED = new Set([
   'isupfactory', 'vatrad', 'isup', 'mockup', 'yourbrand', 'rocker', 'yoga',
   'to', 'consumer', 'click', 'fin', 'soft', 'top', 'us', 'box', 'brand',
   'signature', 'leviathan', 'wake', 'medusa', 'glow',
+  // Material/trade names kept in Latin, same category as pvc/eva/tpu above.
+  // Hypalon is a trademarked boat fabric used once in the capability block.
+  'hypalon',
 ])
 
 // Multi-word proper nouns kept in Latin by design. Matched as whole units and
@@ -98,39 +100,27 @@ for (const file of files) {
           if (m[0].includes('-') && m[0].split('-').filter(Boolean).every((p) => ALLOWED.has(p.toLowerCase()))) continue
           offenders.push(`${file}:${i + 1} latin    "${m[0]}"  ${text.slice(0, 110)}`)
         }
-        // A Latin run sandwiched inside an Arabic word — "زعfinات" — is a
-        // fragment glued in by mistake. The word-length rule above cannot see
-        // these: it needs four Latin characters, so a short leak like "fin"
-        // passes unnoticed.
+        // A Latin run immediately followed by an Arabic LETTER means a fragment
+        // was glued into an Arabic word: "زعfinات", "الجuality", "وTecقشّر".
+        // The word-length rule above cannot see these — it needs four Latin
+        // characters, so a 3-letter leak like "Tec" passes unnoticed.
         //
-        // Deliberately narrower than plain Latin/Arabic adjacency. Adjacency is
-        // mostly *correct* Arabic and produced 25 false positives on
-        // already-shipped copy: the connective prefixes و/ب/ف/ك/ل (and their
-        // tatweel forms) correctly attach to a following foreign word (وCCPA,
-        // بـEVA), and a Latin acronym is normally followed by Arabic
-        // punctuation (SUP؟, EVA،). Only the two patterns below are
-        // unambiguous defects:
+        // Keying on what FOLLOWS is what makes this safe. An earlier version
+        // tested adjacency on both sides plus a CONNECTIVE exemption for
+        // و/ب/ف/ك/ل, which needed 25 false-positive fixes (Arabic punctuation
+        // ، ؛ ؟ ۔ lives in U+0600..U+06FF and looked glued) and left a real blind
+        // spot: the exemption also hid "وTecقشّر", the exact defect it was added
+        // to avoid catching elsewhere. Looking only at the follower removes the
+        // exemption and the blind spot together, because correct Arabic always
+        // puts a space or punctuation after a Latin term:
         //
-        //   A: Arabic letter + Latin + Arabic letter, where the leading Arabic
-        //      letter is not a connective prefix.
-        //   B: Latin + Arabic letter, with nothing Arabic before it. Never
-        //      valid — "SUPا" is always a missing space.
-        //
-        // AR_LETTER deliberately excludes U+0600..U+06FF punctuation and
-        // harakat: ، ؛ ؟ ۔ live in that range and would otherwise make
-        // "EVA،" look glued.
-        const CONNECTIVE = /[\u0648\u0628\u0641\u0643\u0644\u0640]/
-        const covered = []
-        for (const m of text.matchAll(new RegExp(AR_LETTER_SRC + '([A-Za-z]+)' + AR_LETTER_SRC, 'g'))) {
-          // مثال مقبول: وCCPA، بـEVA  (连词/介词按阿语规范附着)
-          if (CONNECTIVE.test(m[1][0])) continue
-          covered.push([m.index, m.index + m[0].length])
-          offenders.push(`${file}:${i + 1} glued-A  ${JSON.stringify(m[0])}  in  ${text.slice(0, 90)}`)
-        }
-        for (const m of text.matchAll(/[A-Za-z]/g)) {
-          if (covered.some(([a, b]) => m.index >= a && m.index < b)) continue
-          if (!AR.test(text[m.index + 1] ?? '')) continue
-          offenders.push(`${file}:${i + 1} glued-B  ${JSON.stringify(text.slice(m.index, m.index + 2))}  in  ${text.slice(0, 90)}`)
+        //   clean   وCCPA،   CCPA + Arabic comma
+        //   clean   بـEVA    EVA + space
+        //   clean   SUP؟     SUP + Arabic question mark
+        //   DEFECT  زعfinات  fin  + Arabic letter
+        //   DEFECT  وTecقشّر  Tec + Arabic letter
+        for (const m of text.matchAll(new RegExp('[A-Za-z]+' + AR_LETTER_SRC, 'g'))) {
+          offenders.push(`${file}:${i + 1} glued  ${JSON.stringify(m[0])}  in  ${text.slice(0, 90)}`)
         }
       }
     })
