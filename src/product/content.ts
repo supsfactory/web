@@ -3747,6 +3747,71 @@ export const commercial: Localized<CommercialContent> = {
       },
     ],
   },
+  ar: {
+    kicker: 'الشروط التجارية',
+    title: 'الشروط التجارية، معلنة منذ البداية',
+    sub: 'فيما يلي الحد الأدنى للطلب وشروط أخذ العينات والإنتاج والتسليم القياسية. أما المشاريع التي تتطلب قوالب جديدة أو خامات خاصة أو اختبارات امتثال أو تغليفًا مخصّصًا فتُسعَّر بشكل منفصل.',
+    cells: [
+      {
+        label: 'الحد الأدنى للطلب',
+        lines: [
+          FACTS.moqExplanationAr.coBrand,
+          FACTS.moqExplanationAr.pilot,
+          FACTS.moqExplanationAr.standard,
+        ],
+      },
+      {
+        label: 'مهل التسليم',
+        lines: [
+          '25–35 يومًا من تأكيد الطلب والعربون',
+          'تطوير القوالب المخصّصة: +15–20 يومًا لأعمال القوالب',
+          'إنتاج مُستعج متاح للمواسم المزدحمة',
+        ],
+      },
+      {
+        label: 'أخذ العينات',
+        lines: [
+          'تُشحن عينات النماذج خلال 7–12 يومًا',
+          'تُخصم تكلفة العيّنة من طلبيّة الجملة',
+        ],
+      },
+      {
+        label: 'التصدير والمستندات',
+        lines: [
+          'مستندات التصدير تُدار داخليًا',
+          'تغليف بمستوى التصدير؛ مع توفّر كراتين بيع بالتجزئة مطبوعة',
+        ],
+      },
+    ],
+    certs:
+      `ISO 9001 لإدارة الجودة · شهادة CE للطَرَز الموجّهة إلى أسواق الاتحاد الأوروبي (يُؤكَّد النطاق لكل مشروع) · امتثال BSCI الاجتماعي (تقرير التدقيق متاح عند الطلب) · مستندات REACH وRoHS مع كل طلب.`,
+    moqTiers: [
+      {
+        stage: 'العيّنة والموافقة',
+        quantity: FACTS.moqExplanationAr.sample,
+        purpose: 'تأكيد الشكل والألوان والطباعة والتغليف قبل أي دفعة إنتاج',
+        note: '7–12 يومًا؛ لوح فعلي لا صورة تصورية',
+      },
+      {
+        stage: 'co-branding بكميات صغيرة',
+        quantity: FACTS.moqExplanationAr.coBrand,
+        purpose: 'اختبار تصميم على منصة مجرَّبة مع طباعة الشعار فوقها',
+        note: 'أسرع طريقة للتحقق من رسومات جديدة',
+      },
+      {
+        stage: 'دفعة تجريبية / المخزون الأوّلي',
+        quantity: FACTS.moqExplanationAr.pilot,
+        purpose: 'التحقق من السوق أو افتتاح متجرك بمخزون فعلي',
+        note: 'أقل كمية على المنصّات القائمة',
+      },
+      {
+        stage: 'الإنتاج بالحجم القياسي',
+        quantity: FACTS.moqExplanationAr.standard,
+        purpose: 'دورات إنتاج منتظمة بأفضل سعر للوحدة',
+        note: FACTS.moqExplanationAr.customMould,
+      },
+    ],
+  },
   es: {
     kicker: 'Condiciones comerciales',
     title: 'Condiciones comerciales, expresadas por adelantado',

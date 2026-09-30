@@ -38,6 +38,13 @@ export const FACTS = {
     standard: '90–100+ unités par configuration approuvée, selon les exigences d’emballage et de rouleau de matériau',
     customMould: '90–100+ unités ; une nouvelle forme nécessite un moule dédié (+15–20 jours d’outillage)',
   },
+  moqExplanationAr: {
+    sample: '1–2 وحدة للموافقة',
+    coBrand: 'من 5–10 وحدات على منصّات قائمة مختارة',
+    pilot: '20–50 وحدة على منصّات قائمة',
+    standard: '90–100+ وحدة لكل تكوين معتمد، وفق متطلبات لفافة الخامة والتغليف',
+    customMould: '90–100+ وحدة؛ والشكل الجديد يحتاج قالبًا مخصّصًا (+15–20 يومًا لأعمال القوالب)',
+  },
   materialRollNote: 'A 150 m drop-stitch material roll yields different board counts depending on board size, construction and nesting layout. The 90–100+ MOQ represents the minimum batch per configuration, not a fixed per-roll count.',
   moqDecisionTree: [
     { scenario: 'Existing platform, logo overlay only', min: '5–10 pcs', unit: 'per design', condition: 'Same shape, same material roll, same colorway' },
