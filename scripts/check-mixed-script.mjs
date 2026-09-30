@@ -19,6 +19,12 @@ const AR_LETTER_SRC =
   '[\\u0621-\\u063A\\u0641-\\u064A\\u066E-\\u066F\\u0671-\\u06D3\\u06D5\\u06FA-\\u06FF]'
 const CYRILLIC = /[Ѐ-ӿ]/
 const CJK = /[　-〿぀-ヿ㐀-䶿一-鿿豈-﫿＀-￯]/
+// Hangul is separate from CJK and sits outside every range above. A Korean
+// syllable appeared in Arabic copy during this translation and was only found
+// by dumping code points — Arabic is RTL and Hangul is LTR, so the bidi
+// renderer hides the fragment and it reads as clean text. Nothing in this
+// product is Korean, so any Hangul in a string literal is a defect.
+const HANGUL = /[ᄀ-ᇿ㄰-㆏가-힣]/
 // English terms that are intentionally left in Latin inside Arabic copy.
 const ALLOWED = new Set([
   'oem', 'odm', 'sup', 'qc', 'qc', 'psi', 'iso', 'ce', 'bsci', 'nda', 'pvc', 'eva',
@@ -34,6 +40,10 @@ const ALLOWED = new Set([
   // Material/trade names kept in Latin, same category as pvc/eva/tpu above.
   // Hypalon is a trademarked boat fabric used once in the capability block.
   'hypalon',
+  // SUP platform categories in the about block. Buyers search these in Latin
+  // ("all-around", "touring", "race"), so transliterating them would hurt the
+  // page, not just the checker. Used bare with و separators, never glued.
+  'all', 'around', 'touring', 'race', 'co', 'branding',
 ])
 
 // Multi-word proper nouns kept in Latin by design. Matched as whole units and
@@ -81,6 +91,7 @@ for (const file of files) {
         if (text.includes('@') || /https?:/.test(text) || /\+\d[\d-]{6,}/.test(text)) continue
         if (CYRILLIC.test(text)) offenders.push(`${file}:${i + 1} cyrillic ${text.slice(0, 110)}`)
         if (CJK.test(text)) offenders.push(`${file}:${i + 1} cjk      ${text.slice(0, 110)}`)
+        if (HANGUL.test(text)) offenders.push(`${file}:${i + 1} hangul   ${text.slice(0, 110)}`)
         // Note: translator-guide rule 6 (no leading/trailing space inside a
         // string) is deliberately NOT checked here. It is not machine-checkable
         // in this codebase: dictionary fragments legitimately carry trailing
