@@ -71,6 +71,14 @@ for (const file of files) {
         if (text.includes('@') || /https?:/.test(text) || /\+\d[\d-]{6,}/.test(text)) continue
         if (CYRILLIC.test(text)) offenders.push(`${file}:${i + 1} cyrillic ${text.slice(0, 110)}`)
         if (CJK.test(text)) offenders.push(`${file}:${i + 1} cjk      ${text.slice(0, 110)}`)
+        // Note: translator-guide rule 6 (no leading/trailing space inside a
+        // string) is deliberately NOT checked here. It is not machine-checkable
+        // in this codebase: dictionary fragments legitimately carry trailing
+        // spaces ("الحد الأدنى ", ": ") because they are composed at runtime,
+        // and stripping ${VAR} holes out of template literals synthesises a
+        // space that was never a defect. An attempt flagged 71 false positives,
+        // which would only teach people to ignore this checker.
+        //
         // Remove whole-unit Latin proper nouns so their words are not judged
         // individually.
         let words = text

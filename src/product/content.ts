@@ -6387,6 +6387,20 @@ export const productFilters: Localized<{ all: string; groups: ProductFilterGroup
       { key: 'multi', label: 'Multi-Person' },
     ],
   },
+  ar: {
+    all: 'كل المنصات',
+    groups: [
+      { key: 'all-around', label: 'متعدد الاستخدامات' },
+      { key: 'race', label: 'السباق' },
+      { key: 'surf', label: 'الركوب على الأمواج' },
+      { key: 'touring', label: 'الرحلات الطويلة' },
+      { key: 'yoga', label: 'اليوغا' },
+      { key: 'whitewater', label: 'المياه الجريفة' },
+      { key: 'fishing', label: 'الصيد' },
+      { key: 'kids', label: 'الأطفال' },
+      { key: 'multi', label: 'متعدد الأشخاص' },
+    ],
+  },
   es: {
     all: 'Todas las plataformas',
     groups: [
@@ -11414,6 +11428,23 @@ export const boardCategories: Localized<BoardCategoriesContent> = {
       { id: 'fishing', label: 'Fishing', desc: 'Stable platforms with rod holders and utility hulls for angling.', image: 'https://assets.isupfactory.com/site/products/2026/fishing/fishing-01.avif', href: '/products/sup-fishing' },
       { id: 'kids', label: 'Kids SUPs', desc: 'Smaller, lighter boards designed for children.', image: 'https://assets.isupfactory.com/site/products/2026/kids-teens/kids-teens-05.avif', href: '/products/sup-mini' },
       { id: 'multi', label: 'Multi-Person', desc: 'Large-format team boards for 6–8 riders.', image: 'https://assets.isupfactory.com/site/products/2026/giant/giant-03.avif', href: '/products/sup-giant' },
+    ],
+  },
+  ar: {
+    kicker: 'ألواحنا',
+    title: 'من الفكرة إلى لوح SUP جاهز للإنتاج',
+    sub: 'كل فئة من فئات الألواح هي منصة تصنيع — اختر نقطة انطلاقك وسنُخصّص الشكل والرسومات والمواصفات لتناسب منتجك.',
+    viewLabel: 'عرض',
+    items: [
+      { id: 'all-around', label: 'متعدد الاستخدامات', desc: 'ألواح SUP متعددة الأغراض تناسب جميع مستويات المتجذفين.', image: 'https://assets.isupfactory.com/site/products/2026/all-around/all-around-03.avif', href: '/products/sup-explorer-11' },
+      { id: 'touring', label: 'رحلات طويلة', desc: 'ألواح للمسافات الطويلة للاستكشاف والمغامرة.', image: 'https://assets.isupfactory.com/site/products/2026/touring/touring-02.avif', href: '/products/sup-dolphin-wave' },
+      { id: 'race', label: 'السباق', desc: 'ألواح عالية الأداء للسباق والتجديف الرياضي.', image: 'https://assets.isupfactory.com/site/products/2026/race/race-01.avif', href: '/products/sup-leviathan-wake' },
+      { id: 'whitewater', label: 'المياه الجريفة', desc: 'ألواح متينة مصممة لمياه الأنهار السريعة ولأسلوب الحياة.', image: 'https://assets.isupfactory.com/site/products/2026/whitewater/whitewater-01.avif', href: '/products/sup-ocean-pulse' },
+      { id: 'yoga', label: 'اليوغا', desc: 'أسطح واسعة مصممة لليوغا واللياقة البدنية.', image: 'https://assets.isupfactory.com/site/products/2026/yoga/yoga-01.avif', href: '/products/sup-flowing-lotus' },
+      { id: 'surf', label: 'ركوب الأمواج', desc: 'ألواح مرنة لالتقاط الأمواج وركوبها.', image: 'https://assets.isupfactory.com/site/products/2026/surf/surf-01.avif', href: '/products/sup-cheetah-surge' },
+      { id: 'fishing', label: 'الصيد', desc: 'منصات ثابتة بحاملات قضبان وهياكل عملية لصيد الأسماك.', image: 'https://assets.isupfactory.com/site/products/2026/fishing/fishing-01.avif', href: '/products/sup-fishing' },
+      { id: 'kids', label: 'ألواح الأطفال', desc: 'ألواح أصغر وأخف مصممة للأطفال.', image: 'https://assets.isupfactory.com/site/products/2026/kids-teens/kids-teens-05.avif', href: '/products/sup-mini' },
+      { id: 'multi', label: 'متعدد الأشخاص', desc: 'ألواح فريق كبيرة الحجم لستة إلى ثمانية متجذفين.', image: 'https://assets.isupfactory.com/site/products/2026/giant/giant-03.avif', href: '/products/sup-giant' },
     ],
   },
   es: {

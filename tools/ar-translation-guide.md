@@ -41,7 +41,10 @@ covers the remainder.
    property names alone. If a value *feels* like it needs translating, it
    already has an Arabic sibling — use that.
 6. **No leading whitespace** inside any string. `' نص'` is a defect; `'نص'`
-   is correct.
+   is correct. This one is **not machine-checked** — dictionary fragments
+   legitimately carry trailing spaces because they are composed at runtime, so
+   an automated check cannot tell a stray space from a fragment boundary. Your
+   eye is the only check here.
 7. **UTF-8, real Arabic characters, no HTML entities, no BOM, final newline.**
 
 ## Do not translate (leave in Latin)
