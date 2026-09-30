@@ -37,6 +37,9 @@ const ALLOWED = new Set([
   'isupfactory', 'vatrad', 'isup', 'mockup', 'yourbrand', 'rocker', 'yoga',
   'to', 'consumer', 'click', 'fin', 'soft', 'top', 'us', 'box', 'brand',
   'signature', 'leviathan', 'wake', 'medusa', 'glow',
+  // product/series names kept in Latin inside Arabic prose, matching es/de/it
+  'ocean', 'pulse', 'cheetah', 'surge', 'dolphin', 'wave', 'flowing', 'lotus',
+  'jungle', 'mandala', 'voyager', 'tropical', 'breeze', 'rheo', 'mini', 'giant',
   // Material/trade names kept in Latin, same category as pvc/eva/tpu above.
   // Hypalon is a trademarked boat fabric used once in the capability block.
   'hypalon',
